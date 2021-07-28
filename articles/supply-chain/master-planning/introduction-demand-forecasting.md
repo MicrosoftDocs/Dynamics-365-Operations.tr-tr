@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72004
+ms.custom:
+- "72004"
+- intro-internal
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e00c980183708c5b9e995fb2a26d45baf13ca14
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cd029ae873ee604beb841568ce7f15b2e1575060
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829750"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348793"
 ---
 # <a name="demand-forecasting-overview"></a>Talep tahminine genel bakış
 
@@ -61,7 +63,7 @@ Talep tahmininde üç önemli konu gerçekleştirilir:
 
 Aşağıdaki şemada talep tahminindeki temel akış gösterilmiştir.
 
-[![talep tahminine giriş şeması](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
+[![talep tahminine giriş şeması.](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
 Talep tahmini oluşturma, Supply Chain Management'ta başlar. Supply Chain Management hareket veritabanından alınan geçmiş hareket verileri bir araya getirilir ve bir aşamalandırma tablosu doldurulur. Bu hazırlama tablosu, daha sonra Makine Öğrenimi hizmetine beslenir. En az düzeyde özelleştirme gerçekleştirerek, önceki veri kaynaklarını hazırlama tablosuna takabilirsiniz. Veri kaynakları Microsoft Excel dosyaları, virgülle ayrılmış değerler (CSV) dosyaları ve Microsoft Dynamics AX 2009 ve Microsoft Dynamics AX 2012'den veriler içerebilir. Bu nedenle, birden fazla sisteme yayılmış geçmişe verileri dikkate alan talep tahminleri oluşturabilirsiniz. Ancak, öğe adları ve ölçü birimleri gibi ana veriler çeşitli veri kaynaklarında aynı olmalıdır.
 

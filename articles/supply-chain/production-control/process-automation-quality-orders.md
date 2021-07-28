@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115225"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354000"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Kalite emirleri oluşturmak için proses otomasyon akışlarını çağırın
 
@@ -30,7 +30,7 @@ Otomasyon çözüm şablonsunu [buradan](https://aka.ms/D365SCMQualityOrderRPASo
 
 Bu özelliğe ve özelliklerine genel bir bakış için aşağıdaki videoya bakın: [Dynamics 365 Supply Chain Management'ta kalite emirleri oluşturmak için RPA kullanma](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![RPA ile otomasyon seçenekleri](media/rpa-automation-options.png "RPA ile otomasyon seçenekleri")
+![RPA ile otomasyon seçenekleri.](media/rpa-automation-options.png "RPA ile otomasyon seçenekleri")
 
 Power Automate çözüm şablonu, Supply Chain Management'ta kalite emirlerinin oluşturulmasını otomatikleştiren bir bulut otomasyon akışı ve bir masaüstü otomasyon akışı içerir.
 
@@ -38,7 +38,7 @@ Otomasyon, kullanıcı girişi veya makine sinyalleri (Nesnelerin İnterneti (Io
 
 Çözüm parametreleri, otomasyonu bir üretim tesisindeki belirli bir kullanım örneği için yapılandırmak üzere dahil edilir.
 
-![Kalite emri oluştur](media/rpa-create-quality-roder.png "Kalite emri oluştur")
+![Kalite emri oluştur.](media/rpa-create-quality-roder.png "Kalite emri oluştur")
 
 Kalite emri oluşturmayı otomatikleştirmek için örnek çözümü indirme, yükleme ve kullanma hakkında eksiksiz bir adım adım kılavuz için, bkz. [Power Automate Desktop kullanarak robotik süreç otomasyonu ile Dynamics 365 Supply Chain Management'ta kalite emri oluşturmayı otomatikleştirme](/power-automate/desktop-flows/dynamics365-scm-rpa).
 

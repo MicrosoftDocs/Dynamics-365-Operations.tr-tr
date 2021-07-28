@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053407"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357301"
 ---
 # <a name="integration-with-finance-faq"></a>Finans ile tümleştirme SSS
 
@@ -37,7 +37,7 @@ Hayır. Eğer Human Resources uygulama kullanıcısını düzenlerseniz, Human R
 | --- | --- | --- | --- |
 | Dynamics365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![Talent uygulama kullanıcısı için varsayılan ayarlar](media/DynamicsApplicationUser.png)
+![Talent uygulama kullanıcısı için varsayılan ayarlar.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Tüm veriler mi eşitlenir yoksa yalnızca bazı veri varlıkları mı?
 
@@ -57,7 +57,7 @@ Mali boyutlar şu anda Dataverse içinde mevcut değildir ve bunu sonucunda vars
 
 Finance içinde bulunan ancak Human Resources içinde bulunmayan veri için iki sistemi birbirine Human Resources için **Bağlantıları yapılandır**'ı kullanarak bağlayın.
 
-![Mali boyutları eşle](media/MapFinancialDimensions.png)
+![Mali boyutları eşleme.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Bazı durumlarda çalışanları içe aktardığım zaman, Finance'te devre dışı çalışanlar haline geliyorlar. Neden?
 
@@ -71,14 +71,14 @@ Veri eşitleme yürütme planını izler. Tümleştirme, alanın tümleştirme e
 
 "Gelişmiş sorgu" kullanarak, kaynak verisini hedefe aktarmadan önce filtreleyebilir ve şekillendirebilirsiniz.
 
-![Etkin çalışan gelişmiş sorgusu](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Etkin çalışan gelişmiş sorgusu.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Belirli bir varlık için hangi alanların Finance'e gönderileceğini belirtebilir miyim?
 
 Alanlar tümleştirme görevinden eklenebilir veya çıkartılabilir. Dataverse tablosu içinde mevcut olan tüm veri alanlarıİnsan Kaynakları'ndan doldurulmayacaktır.
 Ek veriler Power Apps ile doldurulabilir.
 
-![Bir tümleştirme görevinden alanları ekleyin veya çıkartın](media/SpecifyFieldsIncludedInIntegration.png)
+![Bir tümleştirme görevinden alanları ekleme veya çıkartma.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Tümleştirmeyi bir toplu iş olarak ayarlıyorum, ancak hedef sisteme İnsan Kaynakları bağlantıyı kaybetti. Aynı değişiklik kümesini hedef sisteme nasıl gönderebilirim?
 
@@ -126,21 +126,21 @@ Veri Tümleştirici yürütme geçmişinden zamanı takip edin ve Finance'te diz
 
 1. Veri Tümleştiricisinden görev dizinini yakalayın (bu örnekte "9"dur).
 
-    ![Veri Tümleştiricisinden görev dizinini yakalayın.](media/CaptureTaskIndex.png)
+    ![Veri Tümleştiricisinden görev dizinini yakalama.](media/CaptureTaskIndex.png)
 
 2. Projenin yürütme zamanını izleyin.
 
-    ![Projenin yürütme zamanını izleyin](media/CaptureTimeOfExecution.png)
+    ![Projenin yürütme zamanını izleme.](media/CaptureTimeOfExecution.png)
 
 3. Finance'te - 1 dizini belirleyin. Bu örnekte, sonek "8"e sahip olan ve yürütme zamanı dizin "0" projesi olan proje, Adım 2'deki yürütme zamanı ile eşleşiyor.
 
-    ![Dizini tanımlayın](media/IdentifyIndex.png)
+    ![Dizini tanımlama.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>İnsan Kaynakları ve finans'yı tümleştirdikten sonra, İnsan Kaynakları verilerimi finans içinde görmüyorum. Ne yapmam gerekir?
 
 Finance'e tümleştirme iki adımlı bir işlemdir. Öncelikle, İnsan Kaynakları verisinin güncelleştirilmiş ve Dataverse içinde kullanılabilir olduğundan emin olun. Bu neredeyse gerçek zamanlı bir eşitlemedir ve Power Apps içinde veri tabloları içindeki veriye bakarak doğrulanabilir.
 
-![Dataverse içindeki veri](media/DataInCDS.png)
+![Dataverse içindeki veri.](media/DataInCDS.png)
 
 Veri Dataverse'te beklendiği gibi görüntülenmiyorsa, varlığın tümleştirme ile desteklendiğinden emin olun. Dataverse içine ek veri dahil etmek için Microsoft tarafından bir değişiklik gerekir.
 
@@ -165,7 +165,7 @@ Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme,
 
 Finance'te veri varlıklarını **Veri yönetimi \> Çerçeve Parametreleri \> Varlık ayarları \> Varlık listesini yenile**'ye giderek yenileyin. Bunun tamamlanması birkaç dakika sürer ve daha sonra bu eşleşmeleri görmeniz gerekir. Yeni proje oluşturulduğunda bu sorun oluşur.
 
-![Eksik alan eşlemeleri](media/MissingFieldMapping.png)
+![Eksik alan eşlemeleri.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

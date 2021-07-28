@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019458"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350414"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>Katman 1 Retail Server sanal makinede hata ayıklama için e-ticaret geliştirme ortamı ayarlama
 
@@ -38,13 +38,13 @@ Bir katman 1 ortamına karşı hata ayıklarken, site şimdi farklı bir Retail 
 
 Aşağıdaki resimde, ürün ayrıntıları sayfasında bir varyant seçildiğinde oluşabilecek bir hata örneği gösterilmektedir.
 
-![Ürün Ayrıntıları sayfasında bir varyant seçildiğinde oluşan hata](media/unhandled-rejection-error.jpg)
+![Ürün Ayrıntıları sayfasında bir varyant seçildiğinde oluşan hata.](media/unhandled-rejection-error.jpg)
 
 Aşağıdaki çizimde, tarayıcının hata ayıklama araçlarında (F12 geliştirici araçları) benzer bir hatanın örneği gösterilmektedir. Hata iletisi, içerik güvenlik ilkesi yönergesinin ihlalinden bahseder.
 
-![Hata ayıklayıcı araçları hatası](media/debugger-tools-error.JPG)
+![Hata ayıklayıcı araçları hatası.](media/debugger-tools-error.JPG)
 
-## <a name="resolution"></a>Çözünürlük
+## <a name="resolution"></a>Çözüm
 
 ### <a name="disable-the-content-security-policy-for-the-site-in-commerce-site-builder"></a>Commerce site oluşturucuda sitenin içerik güvenliği ilkesini devre dışı bırakın
 

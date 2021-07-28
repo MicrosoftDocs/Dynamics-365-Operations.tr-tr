@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 61943
+ms.custom:
+- "61943"
+- intro-internal
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 15595c46f9d6ff91f6fd618859e9f059ae88bd78
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d172e3dfcb9ca70e1047a174040e7940bdd25296
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910101"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354024"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Üretimdeki çalışanlar için karma gerçeklik Kılavuzları sağlama
 
@@ -57,7 +59,7 @@ Aşağıdaki alt bölümlerde, farklı sektörlerdeki şirketlerin üretim yöne
 
 ### <a name="assembly"></a>Montaj
 
-![Derleme görevlerinde Guides kullanma](media/instruction-guides-hero-assembly.png "Servis görevlerinde Guides kullanma")
+![Derleme görevlerinde Guides kullanma.](media/instruction-guides-hero-assembly.png "Servis görevlerinde Guides kullanma")
 
 Derleme işlemlerinde yönergeler, çalışanlara gereksinim duydukları araç ve bölümleri ve gerçek çalışma durumlarında bunların nasıl kullanılacağını gösterir.
 
@@ -65,7 +67,7 @@ Derleme işlemlerinde yönergeler, çalışanlara gereksinim duydukları araç v
 
 ### <a name="service"></a>Servis
 
-![Servis görevlerinde Guides kullanma](media/instruction-guides-hero-service.png "Servis görevlerinde Guides kullanma")
+![Servis görevlerinde Guides kullanma.](media/instruction-guides-hero-service.png "Servis görevlerinde Guides kullanma")
 
 Teknisyenleri iş sahasında kılavuzlu talimatlarla donatın ve ek ziyaretler planlama ihtiyacını ortadan kaldırın.
 
@@ -73,7 +75,7 @@ Servis yöneticileri, örneğin kalite değerlendirmesi yordamlarına geçiş ya
 
 ### <a name="quality"></a>Kalite
 
-![Kalite güvence görevlerinde Guides kullanma](media/instruction-guides-hero-quality.png "Kalite güvence görevlerinde Guides kullanma")
+![Kalite güvence görevlerinde Guides kullanma.](media/instruction-guides-hero-quality.png "Kalite güvence görevlerinde Guides kullanma")
 
 Yeni süreçler kullanıma sunun ve çalışanların bilgisini tekrarlanabilir bir araca çevirerek artan tutarlılık sağlayın.
 
@@ -81,13 +83,13 @@ Kalite güvencesi yöneticileri, örneğin kalite değerlendirmesi yordamlarına
 
 ### <a name="certifications"></a>Sertifikalar
 
-![Sertifika ile ilgili görevler için Guides kullanma](media/instruction-guides-hero-certification.png "Sertifika ile ilgili görevler için Guides kullanma")
+![Sertifika ile ilgili görevler için Guides kullanma.](media/instruction-guides-hero-certification.png "Sertifika ile ilgili görevler için Guides kullanma")
 
 Kimin ve nerede yardıma ihtiyacı olduğunu hızlı bir şekilde tanımlayarak, her çalışanın yüksek standartları karşıladığından emin olun.
 
 ### <a name="safety"></a>Güvenlik
 
-![İş güvenliği yönergelerinde Guides kullanma](media/instruction-guides-hero-safety.png "İş güvenliği yönergelerinde Guides kullanma")
+![İş güvenliği yönergelerinde Guides kullanma.](media/instruction-guides-hero-safety.png "İş güvenliği yönergelerinde Guides kullanma")
 
 Fiziksel ortamda çalışmadan önce tehlikeli yordamları sanal olarak uygulayan yönergeler sağlayın. Karma gerçeklik yaklaşımıyla, çalışanlar tehlikeli yordamları sanal olarak deneyimleyebilir.
 
@@ -119,7 +121,7 @@ Bu özelliği kullanmak için sisteminizde şunlar olmalıdır:
 
 Guides'ın atölyede nasıl görüneceğini konfigüre etmek için **Karma Gerçeklik \> Dynamics 365 Guides \> Guides tümleştirmesini yapılandır** öğesine gidin.
 
-![Üretim için Guides tümleştirmesini yapılandırma](media/instruction-guides-configure-integration.png "Üretim için Guides tümleştirmesini yapılandırma")
+![Üretim için Guides tümleştirmesini yapılandırma.](media/instruction-guides-configure-integration.png "Üretim için Guides tümleştirmesini yapılandırma")
 
 Aşağıdaki alanları ayarlayın:
 
@@ -136,7 +138,7 @@ Aşağıdaki alanları ayarlayın:
 
 Kuruluşunuzdaki tüm kullanılabilir Kılavuzların listesini ve üretim süreçlerinize ve kaynaklarınıza yapılan tüm atamaları görmek için **Tüm Kılavuzlar** sayfasını kullanın. Açmak için, **Karma gerçeklik \> Kılavuzlar \> Tüm Kılavuzlar**'a gidin. Üstteki listede bulunan tüm Kılavuzlar gösterilir ve bu alanı, listeye filtre uygulamak için kullanabilirsiniz. Alttaki listede tüm Kılavuz atamaları gösterilir ve bunları yönetmek için bir araç çubuğu sağlanır.
 
-![Kılavuzları Yönetme](media/instruction-guides-allguides.png "Kılavuzları Yönetme")
+![Kılavuzları Yönetme.](media/instruction-guides-allguides.png "Kılavuzları Yönetme")
 
 Aşağıdaki bölümlerde, Kılavuzlar atayabildiğiniz nesne türleri açıklanmıştır. Her atanan kılavuz, ilgili üretim işlerine otomatik olarak eklenen yönergeleri sağlar ve atölyede kullanılabilir olacaktır.
 
@@ -157,7 +159,7 @@ Kaynağa Kılavuz eklemek için:
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
 1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin. Çok sayıda Kılavuzunuz varsa, aradığınız bir kılavuzu bulmak için listeye filtre uygulayabilirsiniz.
-    ![Kılavuzları Yönetme](media/instruction-guides-allguides.png "Kılavuzları Yönetme")
+    ![Kılavuzları Yönetme.](media/instruction-guides-allguides.png "Kılavuzları Yönetme")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Kılavuzu kaynak grubuyla ilişkilendirme
 
@@ -178,7 +180,7 @@ Kaynak grubuna Kılavuz eklemek için:
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
 1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin. Çok sayıda Kılavuzunuz varsa, aradığınız bir kılavuzu bulmak için listeye filtre uygulayabilirsiniz.
-    ![Kaynak grubuna Kılavuz ekleme](media/instruction-guides-resourcegroup.png "Kaynak grubuna Kılavuz ekleme")
+    ![Kaynak grubuna Kılavuz ekleme.](media/instruction-guides-resourcegroup.png "Kaynak grubuna Kılavuz ekleme")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Kılavuzu serbest bırakılan ürünle ilişkilendirme
 
@@ -198,7 +200,7 @@ Serbest bırakılan ürüne Kılavuz eklemek için:
 1. Seçili ürününüz için **İlişkili Kılavuzlar** sayfası açılır.
 1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle**'yi seçin. 
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
-    ![Serbest bırakılan ürüne Kılavuz ekleme](media/instruction-guides-ReleasedProduct-AddGuides.png "Serbest bırakılan ürüne Kılavuz ekleme")
+    ![Serbest bırakılan ürüne Kılavuz ekleme.](media/instruction-guides-ReleasedProduct-AddGuides.png "Serbest bırakılan ürüne Kılavuz ekleme")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Kılavuzu formülle ilişkilendirme
 
@@ -223,7 +225,7 @@ Formüle Kılavuz eklemek için:
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
 1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
-    ![Formüle Kılavuz ekleme](media/instruction-guides-Formula.png "Formüle Kılavuz ekleme")
+    ![Formüle Kılavuz ekleme.](media/instruction-guides-Formula.png "Formüle Kılavuz ekleme")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Kılavuzu formül sürümüyle ilişkilendirme
 
@@ -248,11 +250,11 @@ Formül sürümüne Kılavuz eklemek için:
 1. Üst hızlı sekmenin yukarısındaki **Başlık** sekmesini açın.
 1. **Formül sürümleri** hızlı sekmesinde, Kılavuz atamak istediğiniz sürümü seçin.
 1. **Formül sürümleri** araç çubuğunda **İlişkili Kılavuzlar**'ı seçin.
-    ![Seçili formül sürümüyle ilişkilendirilen Kılavuzları açma](media/instruction-guides-FormulaVersion.png "Seçili formül sürümüyle ilişkilendirilen Kılavuzları açma")
+    ![Seçili formül sürümüyle ilişkilendirilen Kılavuzları açma.](media/instruction-guides-FormulaVersion.png "Seçili formül sürümüyle ilişkilendirilen Kılavuzları açma")
 1. Formül sürümünüz için **İlişkili Kılavuzlar** sayfası açılır.
 1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle**'yi seçin. 
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
-    ![Formül sürümüne Kılavuz ekleme](media/instruction-guides-FormulaVersionAddGuide.png "Formül sürümüne Kılavuz ekleme")
+    ![Formül sürümüne Kılavuz ekleme.](media/instruction-guides-FormulaVersionAddGuide.png "Formül sürümüne Kılavuz ekleme")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Kılavuzu ürün reçeteleriyle ilişkilendirme
 
@@ -275,7 +277,7 @@ Herhangi bir [ürün reçetesine](bill-of-material-bom.md) (BOM) bir kılavuz ek
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
 1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
-    ![BOM'a Kılavuz ekleme](media/instruction-guides-BOM.png "BOM'a Kılavuz ekleme")
+    ![Ürün reçetesine Kılavuz ekleme.](media/instruction-guides-BOM.png "BOM'a Kılavuz ekleme")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Kılavuzu ürün reçetesi sürümüyle ilişkilendirme
 
@@ -297,11 +299,11 @@ Tek bir ürün reçetesi sürümüne iliştirilmiş kılavuzlar, atölye çalı�
 1. Üst hızlı sekmenin yukarısındaki **Başlık** sekmesini açın.
 1. **BOM sürümleri** hızlı sekmesinde, Kılavuz atamak istediğiniz sürümü seçin.
 1. **BOM sürümleri** araç çubuğunda **İlişkili Kılavuzlar**'ı seçin.
-    ![Seçili BOM sürümüyle ilişkilendirilen Kılavuzları açma](media/instruction-guides-BOMVersion.png "Seçili BOM sürümüyle ilişkilendirilen Kılavuzları açma")
+    ![Seçili ürün reçetesi sürümüyle ilişkilendirilen Kılavuzları açma.](media/instruction-guides-BOMVersion.png "Seçili BOM sürümüyle ilişkilendirilen Kılavuzları açma")
 1. BOM sürümünüz için **İlişkili Kılavuzlar** sayfası açılır.
 1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle**'yi seçin.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
-    ![BOM sürümüne Kılavuz ekleme](media/instruction-guides-BOMVersionAddGuide.png "BOM sürümüne Kılavuz ekleme")
+    ![Ürün reçetesi sürümüne Kılavuz ekleme.](media/instruction-guides-BOMVersionAddGuide.png "BOM sürümüne Kılavuz ekleme")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Kılavuzu rotayla ilişkilendirme
 
@@ -322,7 +324,7 @@ Rotaya Kılavuz eklemek için:
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
 1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
-    ![Rotaya Kılavuz ekleme](media/instruction-guides-Route.png "Rotaya Kılavuz ekleme")
+    ![Rotaya Kılavuz ekleme.](media/instruction-guides-Route.png "Rotaya Kılavuz ekleme")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Kılavuzu rota sürümüyle ilişkilendirme
 
@@ -340,11 +342,11 @@ Rota sürümüne Kılavuz eklemek için:
 1. Kılavuz atamak istediğiniz rotayı açın.
 1. **Sürümler** hızlı sekmesinde, Kılavuz atamak istediğiniz sürümü seçin.
 1. **Sürümler** araç çubuğunda **İlişkili Kılavuzlar**'ı seçin.
-    ![Seçili rota sürümüyle ilişkilendirilen Kılavuzları açma](media/instruction-guides-RouteVersion.png "Seçili rota sürümüyle ilişkilendirilen Kılavuzları açma")
+    ![Seçili rota sürümüyle ilişkilendirilen Kılavuzları açma.](media/instruction-guides-RouteVersion.png "Seçili rota sürümüyle ilişkilendirilen Kılavuzları açma")
 1. BOM sürümünüz için **İlişkili Kılavuzlar** sayfası açılır.
 1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle**'yi seçin.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
-    ![Rota sürümüne Kılavuz ekleme](media/instruction-guides-RouteVersionAddGuide.png "Rota sürümüne Kılavuz ekleme")
+    ![Rota sürümüne Kılavuz ekleme.](media/instruction-guides-RouteVersionAddGuide.png "Rota sürümüne Kılavuz ekleme")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Kılavuzu rota operasyonu ilişkisiyle ilişkilendirme
 
@@ -367,8 +369,8 @@ Kılavuzu rota operasyonu ilişkisine eklemek için:
 1. **Rota ayrıntıları** sayfası, seçtiğiniz rota için açılır.
 1. Üst kılavuzda, kılavuzluk sağlamak istediğiniz işlemi seçin.
 1. Alt kılavuzda, belirli bir ilişki (veya genel **Tümü** ilişkisini) seçin.
-    ![Bir operasyon ve ardından bir ilişki seçin](media/instruction-guides-RouteOperationRelation.png "Bir operasyon ve ardından bir ilişki seçin")
-1. Alt kılavuzun üzerinde, **İlişkili kılavuzlar** sekmesini açın. ![İlişkili Kılavuzlar sekmesi](media/instruction-guides-RouteOperationRelation-AddGuide.png "İlişkili Kılavuzlar sekmesi")
+    ![Operasyon ve ardından bir ilişki seçme.](media/instruction-guides-RouteOperationRelation.png "Bir operasyon ve ardından bir ilişki seçin")
+1. Alt ızgara üzerinde, **İlişkili Kılavuzlar** sekmesini açın. ![İlişkili Kılavuzlar sekmesi.](media/instruction-guides-RouteOperationRelation-AddGuide.png "İlişkili Kılavuzlar sekmesi")
 1. Kılavuza yeni bir satır eklemek için, alt kılavuzun üstündeki araç çubuğundan **Ekle**'yi seçin.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin. Satırın geri kalanında, seçili Kılavuzun kullanılabilir olması gereken her bağlamın onay kutusunu seçin.
 
@@ -379,11 +381,11 @@ Kılavuzu rota operasyonu ilişkisine eklemek için:
 
 Bir çalışan atölye yürütme arabiriminde bir iş listesi açtığında, Supply Chain Management gösterilen işler için ilgili kılavuzları bulur. İlgili kılavuzları görüntülemek için **Kılavuzlar** düğmesini kullanın.
 
-![Atölye yürütme arabirimindeki Kılavuzlar düğmesi](media/instruction-guides-Shopfloor1.png "Atölye yürütme arabirimindeki Kılavuzlar düğmesi")
+![Atölye yürütme arabirimindeki Kılavuzlar düğmesi.](media/instruction-guides-Shopfloor1.png "Atölye yürütme arabirimindeki Kılavuzlar düğmesi")
 
 Daha sonra HoloLens'e yerleştirin ve QR kodunu kullanarak ve ilgili Kılavuzu etkinleştirerek ilgili kılavuza erişin.
 
-![HoloLens kullanarak kılavuzlara erişmek için QR kodu](media/instruction-guides-Shopfloor2.png "HoloLens kullanarak kılavuzlara erişmek için QR kodu")
+![HoloLens kullanarak kılavuzlara erişmek için QR kodu.](media/instruction-guides-Shopfloor2.png "HoloLens kullanarak kılavuzlara erişmek için QR kodu")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>Kılavuz seçme mantığını çözme
 
@@ -406,7 +408,7 @@ Supply Chain Management üretim katı için işleri oluşturduğunda, ilgili Kı
 - Bir üretim emrine rota sürümü eklerseniz, bu sürüme iliştirilmiş tüm Kılavuzlar ve ayrıca o sürümün ana reçetesine eklenen kılavuzlar işte gösterilir.
 - *Tümü* ilişkisi içeren birkaç rota operasyonu ilişkisi tanımlarsanız ve bunlara Kılavuzlar atarsanız, iş için yalnızca en belirgin ilişkideki Kılavuzlar gösterilir.  
 
-![İlgili kılavuzları çözümlemeyle ilgili diyagram](media/instruction-guides-Resolve.png "İlgili kılavuzları çözümlemeyle ilgili diyagram")
+![İlgili kılavuzları çözümlemeyle ilgili diyagram.](media/instruction-guides-Resolve.png "İlgili kılavuzları çözümlemeyle ilgili diyagram")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 62b4285f2f5ad93e0a888dd47d22ab5f2caa184c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898000"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355568"
 ---
 # <a name="fixed-assets-home-page"></a>Sabit kıymetler giriş sayfası
 
@@ -30,7 +32,7 @@ Sabit kıymetler, bir kişiye veya kuruluşa ait olan değerli maddelerdir. Bu m
 
 Sabit kıymetler için satın alma bilgileri oluşturup girebilir, daha sonra amortisman ayırarak ve amortismanı belirlemek için bir itfa eşiği ayarlayarak varlıkları yönetebilirsiniz. Sabit kıymetlerde yapılan düzeltmeleri hesaplayabilir ve kıymetleri elden çıkarabilirsiniz. Genel muhasebeyi Sabit kıymetler ile birlikte kullandığınızda, tüm sabit kıymetlerin geçerli değerini görüntüleyebilirsiniz. Sabit kıymetlerin ele alınma şekli, hem uluslararası muhasebe standartlarına hem de her ülke/bölgedeki muhasebe mevzuatına uygun olmalıdır. Gereksinimler, alım ve satım hareketlerini, amortismanı, kullanım ömürlerini ve sabit kıymetlerdeki değer artışını veya değer azalışını kaydetmek için kullanılan kuralları içerir. Sabit kıymetler işlevi, bu standartların ve kuralların çoğuyla birlikte kullanılır.
 
-[![İş süreci](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![İş süreci.](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 

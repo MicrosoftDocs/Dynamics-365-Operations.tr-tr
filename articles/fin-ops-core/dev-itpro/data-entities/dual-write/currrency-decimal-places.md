@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: c4f663ae36f7d4ea3db9888e618f2fe3bf8c3256
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 073f89b5ae44e20d1d2e854341afaa176f9b6280
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748959"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350947"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Çift yazma için para birimi veri türü geçişi
 
@@ -82,13 +82,13 @@ Bazı kısıtlamalar bulunur:
 
 Geçiş tamamlandıktan sonra, yöneticiler para birimi duyarlığını ayarlayabilir. **Ayarlar \> Yönetim**'e gidin ve **Sistem Ayarları**'nı seçin. Daha sonra, **Genel** sekmesinde, **Tüm sistemde fiyatlandırma için kullanılan para birimi duyarlığını ayarlayın** sütunundaki değeri aşağıda gösterildiği şekilde değiştirin.
 
-![Para birimi sistem ayarları](media/currency-system-settings.png)
+![Para birimi için sistem ayarları.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>İş Yönetimi: Para Birimleri
 
 Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için kullanılan para birimi duyarlığından farklı olmasını istiyorsanız, bunu değiştirebilirsiniz. **Ayarlar \> İş Yönetimi**'ne gidin **Para birimleri**'ni ve ardından değiştirilecek para birimini seçin. Sonra, aşağıdaki çizimde gösterildiği gibi, **Para Birimi Duyarlığı** sütununu istediğiniz ondalık basamak sayısına ayarlayın.
 
-![Belirli bir yerel ayarın para birimi ayarları](media/specific-currency.png)
+![Belirli bir yerel ayar için para birimi ayarları.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>tablolar: Para birimi sütunu
 

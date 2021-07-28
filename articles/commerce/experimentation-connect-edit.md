@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4c9c9463162f21cdaf40f1c4ed6d5ae51e97cb88
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4dbfa96e6393bae6ad4ffa642b39a5d04c596c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799099"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349388"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Deneme bağlama ve varyasyonları düzenleme
 
@@ -28,7 +28,7 @@ Bu konu, Commerce'taki denemenizi nasıl bağlayacağınızı ve varyasyonların
 
 Aşağıdaki diyagramda, Dynamics 365 Commerce'taki bir e-Ticaret web sitesinde deneme ayarlama ve çalıştırmayla ilgili tüm adımlar gösterilmektedir. Ek adımlar ayrı konularda ele alınmıştır.
 
-[ ![Deneme kullanıcı yolculuğu - Bağla ve Düzenle](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
+[ ![Deneme kullanıcı yolculuğu - Bağla ve Düzenle.](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
 Üçüncü taraf bir hizmette [denemenizi ayarladıktan sonra](experimentation-setup.md), denemeyi Dynamics 365 Commerce'ta bağlayıp deneme varyasyonlarını düzenleyebilirsiniz.
 

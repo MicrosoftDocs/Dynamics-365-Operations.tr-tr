@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fd48a04612159cbe29a2cc7cafea1c9c4c8745b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b46f2d08c8cee14baa1879b4fd2c02a2e0432f1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795441"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357822"
 ---
 # <a name="shipping-address-module"></a>Sevkiyat adresi modülü
 
@@ -37,7 +37,7 @@ Sevkiyat adresi modülü adres doğrulaması sağlamasa da, bu işlev özellişt
 
 Aşağıdaki örnekte ödeme sayfasında kullanılan yeni bir teslimat adresi modülü örneği gösterilmektedir.
 
-![Ödeme sayfasındaki sevkiyat adresi modülü örneği](./media/ecommerce-shippingaddress.PNG)
+![Ödeme sayfasındaki sevkiyat adresi modülü örneği.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Modül özellikleri
 

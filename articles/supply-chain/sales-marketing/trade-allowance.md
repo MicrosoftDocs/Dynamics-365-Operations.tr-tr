@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102818"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359545"
 ---
 # <a name="trade-allowance-management"></a>Ticari tahsisat yönetimi
 
@@ -59,7 +59,7 @@ Ticari tahsisat sözleşmesi, performans için ödeme parasının spesifik hacim
 
 Ticari tahsisat sözleşmeleri için tahsis edilen fonlar, **Fonlar** sayfasına kaydedilir. **Fonlar** sayfasını açmak için **Satış ve pazarlama** \> **Ticari tahsisatlar** \> **Fonlar** \> **Fonlar**'ı seçin.
 
-![Fon sayfası](./media/trade-allowance-management-funds-page.png "Fon sayfası")
+![Fon sayfası.](./media/trade-allowance-management-funds-page.png "Fon sayfası")
 
 **Fonlar** sayfasında, promosyon fonlarının ayrıntılarını görüntüleyebilirsiniz.
 
@@ -75,9 +75,9 @@ Fon tanımının yerine konulmasının ardından promosyon planlamada sonraki ad
 
 Ticari tahsisat sözleşmeleri, **Ticari tahsisat sözleşmeleri** sayfasına kaydedilir. **Ticari tahsisat sözleşmeleri** sayfasını açmak için **Satış ve pazarlama** \> **Ticari tahsisatlar** \> **Ticari tahsisat sözleşmeleri**'ni seçin.
 
-![Ticari tahsisat sözleşmeleri sayfası](./media/trade-allowance-management-agreements-page.png "Ticari tahsisat sözleşmeleri sayfası")
+![Ticari tahsisat sözleşmeleri sayfası.](./media/trade-allowance-management-agreements-page.png "Ticari tahsisat sözleşmeleri sayfası")
 
-#### <a name="header"></a>Başlık
+#### <a name="header"></a>Üst bilgi
 
 Üstbilgi görünümünü değiştirmek için **Üstbilgi**'yi seçin.
 
@@ -103,7 +103,7 @@ Ardından, Hatlar görünümünü değiştirmek için **Hatlar**'ı seçin.
 
 Emtia olayını ve ardından **Tutarlar** sekmesini seçtiğinizde olayın detayları bulunur.
 
-![Ticari tahsisat sözleşmesi satırları](./media/trade-allowance-management-agreements-lines.png "Ticari tahsisat sözleşmesi satırları")
+![Ticari tahsisat sözleşmesi satırları.](./media/trade-allowance-management-agreements-lines.png "Ticari tahsisat sözleşmesi satırları")
 
 **Ticari tahsisat satırları** bölümünde, müşterinin ödül elde etmek için tanımlananları gerçekleştirmek zorunda olduğu miktar veya tutar aralıklarını belirtirsiniz.
 

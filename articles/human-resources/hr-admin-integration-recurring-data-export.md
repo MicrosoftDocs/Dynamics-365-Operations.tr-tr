@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055016"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361245"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Yinelenen veri dışarı aktarma uygulaması oluşturma
 
@@ -63,13 +63,13 @@ Bu alıştırmanın sonunda, İnsan Kaynakları ortamınıza ve OneDrive İş he
 
 Tamamlanmış mantık uygulaması aşağıdaki çizime benzeyecektir.
 
-![Mantık uygulamasına genel bakış](media/integration-logic-app-overview.png)
+![Mantık uygulamasına genel bakış.](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>Adım 1: İnsan Kaynakları'nda bir veri dışa aktarma projesi oluşturun
 
 İnsan Kaynakları'nda çalışanları dışa aktaran bir veri dışa aktarma projesi oluşturun. Projeye **Çalışanları Dışa Aktar** adını verin ve **Veri paketi oluştur** seçeneğinin **Evet** olarak ayarlandığından emin olun. Projeye tek bir varlık (**Çalışan**) ekleyin ve dışa aktarma biçimini seçin. (Bu öğreticide Microsoft Excel biçimi kullanılmaktadır.)
 
-![Çalışanları Dışa Aktar veri projesi](media/integration-logic-app-export-workers-project.png)
+![Çalışanları Dışa Aktar veri projesi.](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > Veri dışa aktarma projesinin adını unutmayın. Sonraki adımda mantık uygulaması oluşturduğunuz zaman buna gereksiniminiz olacak.
@@ -80,12 +80,12 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
 
 1. Azure portalında bir mantık uygulaması oluşturun.
 
-    ![Mantık uygulaması oluşturma sayfası](media/integration-logic-app-creation-1.png)
+    ![Mantık uygulaması oluşturma sayfası.](media/integration-logic-app-creation-1.png)
 
 2. Logic Apps Designer'da boş bir mantık uygulamasıyla başlayın.
 3. Mantık uygulamasını 24 saatte bir çalıştırmak için (veya istediğiniz zaman çizelgesine göre) bir [Yineleme Çizelgesi tetikleyicisi](/azure/connectors/connectors-native-recurrence) ekleyin.
 
-    ![Yineleme iletişim kutusu](media/integration-logic-app-recurrence-step.png)
+    ![Yineleme iletişim kutusu.](media/integration-logic-app-recurrence-step.png)
 
 4. Veri paketinizin dışa aktarılmasını zamanlamak için [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API'sını çağırın.
 
@@ -97,7 +97,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
         > [!NOTE]
         > İnsan Kaynakları hizmeti, DMF Paket REST API'sını oluşturan, **ExportToPackage** gibi tüm API'ları gösteren bir bağlayıcıyı henüz sağlamıyor. Bunun yerine, HTTP with Azure AD bağlayıcısıyla ham HTTPS isteklerini kullanarak API'ları çağırmanız gerekir. Bu bağlayıcı İnsan Kaynakları'nda kimlik doğrulama ve yetkilendirme için Azure Active Directory (Azure AD) kullanır.
 
-        ![HTTP with Azure AD bağlayıcısı](media/integration-logic-app-http-aad-connector-step.png)
+        ![HTTP with Azure AD bağlayıcısı.](media/integration-logic-app-http-aad-connector-step.png)
 
     2. HTTP with Azure AD bağlayıcısını kullanarak İnsan Kaynakları ortamınızda oturum açın.
     3. **ExportToPackage** DMF REST API'sını çağırmak için bir HTTP **POST** isteği ayarlayın.
@@ -116,21 +116,21 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
             }
             ```
 
-        ![Bir HTTP isteği çağır eylemi](media/integration-logic-app-export-to-package-step.png)
+        ![Bir HTTP isteği çağır eylemi.](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > Her adımı, varsayılan addan daha anlamlı olacak şekilde yeniden adlandırmak isteyebilirsiniz: **Bir HTTP isteği çağır**. Örneğin bu adımı **ExportToPackage** olarak yeniden adlandırabilirsiniz.
 
 5. **ExportToPackage** isteğinin yürütme durumunu depolamak için [bir değişken başlatın](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable).
 
-    ![Değişken başlatma eylemi](media/integration-logic-app-initialize-variable-step.png)
+    ![Değişken başlatma eylemi.](media/integration-logic-app-initialize-variable-step.png)
 
 6. Veri dışa aktarmanın yürütme durumu **Başarılı** olana kadar bekleyin.
 
     1. **ExecutionStatus** değişkeninin değeri **Başarılı** olana kadar yinelenen bir [Until döngüsü](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) ekleyin.
     2. Dışa aktarmanın geçerli yürütme durumu için yoklamadan önce beş saniye bekleyen bir **Gecikme** eylemi ekleyin.
 
-        ![Until döngüsü kapsayıcısı](media/integration-logic-app-until-loop-step.png)
+        ![Until döngüsü kapsayıcısı.](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > Dışa aktarmanın tamamlanması için maksimum 75 saniye (15 yineleme × 5 saniye) beklenmesi için limit sayısını **15** olarak ayarlayın. Dışa aktarma işleminiz daha uzun sürüyorsa, limit sayısını uygun şekilde ayarlayın.        
@@ -146,9 +146,9 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
             > [!NOTE]
             > **İsteğin gövdesi** değerini kod görünümünde veya tasarımcıdaki işlev düzenleyicisinde girmeniz gerekebilir.
 
-        ![Bir HTTP isteği çağır 2 eylemi](media/integration-logic-app-get-execution-status-step.png)
+        ![Bir HTTP isteği çağır 2 eylemi.](media/integration-logic-app-get-execution-status-step.png)
 
-        ![Değişken ayarla eylemi](media/integration-logic-app-set-variable-step.png)
+        ![Değişken ayarla eylemi.](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > **Değişken ayarla** eyleminin (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) değeri, tasarımcı değerleri aynı şekilde gösterse bile, **Bir HTTP isteği çağır 2** gövde değerinden farklı olacaktır.
@@ -161,7 +161,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
         - **Talep URL'si:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **İsteğin gövdesi:** {"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![GetExportedPackageURL eylemi](media/integration-logic-app-get-exported-package-step.png)
+        ![GetExportedPackageURL eylemi.](media/integration-logic-app-get-exported-package-step.png)
 
 8. Dışa aktarılan paketi indirin.
 
@@ -173,7 +173,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
             > [!NOTE]
             > **URI** değerini kod görünümünde veya tasarımcıdaki işlev düzenleyicisinde girmeniz gerekebilir.
 
-        ![HTTP GET eylemi](media/integration-logic-app-download-file-step.png)
+        ![HTTP GET eylemi.](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > Bu istek herhangi bir ek kimlik doğrulaması gerektirmez çünkü **GetExportedPackageUrl** API'nın döndürdüğü URL, dosyayı indirmek için erişim izni veren bir paylaşılan bir erişim imzaları belirteci içerir.
@@ -187,7 +187,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
         - **Dosya Adı:** worker\_package.zip
         - **Dosya İçeriği:** Önceki adımdaki gövde (dinamik içerik)
 
-        ![Dosya oluştur eylemi](media/integration-logic-app-create-file-step.png)
+        ![Dosya oluştur eylemi.](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>Adım 3: Mantık uygulamasını test edin
 
@@ -197,7 +197,7 @@ Herhangi bir adım için hata bildirilirse, tasarımcıda hatalı adımı seçin
 
 Aşağıdaki çizim, mantık uygulamasının tüm adımları başarıyla çalıştırıldığı zaman Logic Apps Designer'ın nasıl göründüğünü gösterir.
 
-![Başarılı mantık uygulaması çalışması](media/integration-logic-app-successful-run.png)
+![Başarılı mantık uygulaması çalışması.](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>Özet
 

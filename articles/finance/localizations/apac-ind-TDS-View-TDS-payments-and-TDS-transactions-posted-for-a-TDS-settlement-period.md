@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2bada42073e46c69101e6d31f3328a2eeb95f880
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2921cb22bedf04db1c8d11a382b979b3c63e6683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023651"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349988"
 ---
 # <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>Deftere nakledilen TDS ödemelerini ve TDS kapatma dönemine ilişkin hareketleri görüntüleme
 
@@ -31,7 +31,7 @@ Bu konu, bir kapanış dönemi için deftere nakledilen Kaynaktan Kesilen Vergi 
 
 1. **Vergi \> Dolaylı vergiler \> Stopaj vergisi \> Stopaj vergisi kapatma dönemleri**'ne gidin.
 
-    [![Stopaj vergisi kapatma dönemleri sayfası](./media/apac-ind-TDS-50.png)](./media/apac-ind-TDS-50.png)
+    [![Stopaj vergisi kapatma dönemleri sayfası.](./media/apac-ind-TDS-50.png)](./media/apac-ind-TDS-50.png)
 
 2. **Stopaj vergisi kapatma dönemleri** sayfasında, belirli bir TDS kapatma dönemi için yapılan TDS kapatmalarını görüntüleyebileceğiniz **Stopaj vergisi ödemeleri** sayfasını açmak için **Stopaj vergisi ödemeleri**'ni seçin.
 

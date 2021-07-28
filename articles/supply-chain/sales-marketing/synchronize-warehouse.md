@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f302f780fa8ba3d387a71770024a1bf7ad42c4ef
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e69c35745959c6f3a90a7c597d37316e9da5358e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910277"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359569"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Ambarları Supply Chain Management'tan Field Service'e eşitleme
 
@@ -31,7 +31,7 @@ ms.locfileid: "5910277"
 
 Bu konu ambarları Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
-[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 Aşağıdaki şablon ve temel görevler, ambarların Supply Chain Management'tan Field Service'e eşitlemesini çalıştırmak için kullanılır.
@@ -77,7 +77,7 @@ Aşağıdaki görsel, Veri tümleştirmede şablon eşlemeyi gösterir.
 
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Ambarlar (Supply Chain Management'tan Field Service'e): Ambar
 
-[![Veri tümleştirmede şablon eşleme](./media/Warehouse1.png)](./media/Warehouse1.png)
+[![Veri tümleştirmede şablon eşleme.](./media/Warehouse1.png)](./media/Warehouse1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

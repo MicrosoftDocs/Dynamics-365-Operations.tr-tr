@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936956"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351188"
 ---
 # <a name="set-up-an-online-channel"></a>Çevrimiçi kanal ayarlama
 
@@ -55,11 +55,11 @@ Yeni bir çevrimiçi kanal oluşturmak ve yapılandırmak için bu adımları iz
 
 Aşağıdaki resimde yeni bir çevrimiçi kanalın oluşturulması gösteriliyor.
 
-![Yeni çevrimiçi kanal](media/channel-setup-online-1.png)
+![Yeni çevrimiçi kanal.](media/channel-setup-online-1.png)
 
 Aşağıdaki resimde örnek bir çevrimiçi kanal gösteriliyor.
 
-![Örnek çevrimiçi kanal](media/channel-setup-online-2.png)
+![Örnek çevrimiçi kanal.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Dilleri ayarlama
 
@@ -75,7 +75,7 @@ E-ticaret siteniz birden çok dili destekleyecekse **Diller** bölümünü geni�
 
 Aşağıdaki resimde, **Ayarla** sekmesindeki **Teslimat şekilleri**, **Ödeme yöntemleri** ve **Karşılama grubu ataması** ayarlama seçenekleri gösteriliyor.
 
-![Ek çevrimiçi kanal kurulumu eylemleri](media/channel-setup-online-3.png)
+![Ek çevrimiçi kanal kurulumu eylemleri.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Ödeme yöntemlerini ayarlama
 
@@ -90,7 +90,7 @@ Aşağıdaki resimde, **Ayarla** sekmesindeki **Teslimat şekilleri**, **Ödeme 
 
 Aşağıdaki resimde bir nakit ödeme yöntemi örneği gösteriliyor.
 
-![Örnek ödeme yöntemleri](media/channel-setup-retail-5.png)
+![Örnek ödeme yöntemleri.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Teslimat şekillerini ayarla
 
@@ -104,7 +104,7 @@ Bir teslimat şekli eklemek veya değiştirmek için bu adımları izleyin.
 
 Aşağıdaki resimde bir teslimat şekli örneği gösteriliyor.
 
-![Teslimat şekillerini ayarla](media/channel-setup-retail-7.png)
+![Teslimat şekillerini ayarla.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Karşılama grubu atamasını ayarlama
 
@@ -118,7 +118,7 @@ Bir karşılama grubu ataması ayarlamak için bu adımları izleyin.
 
 Aşağıdaki resimde, bir karşılama grubu ataması kurulum örneği gösterilmektedir.
 
-![Karşılama grubu atamasını ayarlama](media/channel-setup-retail-9.png)
+![Karşılama grubu atamasını ayarlama.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

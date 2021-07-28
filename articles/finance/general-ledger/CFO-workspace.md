@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823848"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360724"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>CFO çalışma alanına mali boyutlar ekleme
 
@@ -45,14 +45,14 @@ Bu konu, genel muhasebe ve bütçe raporları için kullanılabilmeleri amacıyl
 11. **Çapraz filtre yönü** değerini **Tek** olarak değiştirin.
 12. **Bu ilişkiyi etkin yap** ve **Referans tutarlığını kabul et**'i seçin, **Tamam**'ı seçin ve daha sonra **Kapat**'ı seçin.
 
-    [![Bir ilişki oluştur](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Bir ilişki oluştur.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. **Alanlar** listesinde, tabloyu veya kullanılabilir mali boyutları görebilmeniz gerekir. İstediğiniz mali boyutları raporlama düzeyi filtrelerine sürükleyin.
 14. Değişikliklerinizi kaydedin.
 15. Uygulama Nesne Ağacı (AOT) içerisinde projeni sağ tıklayın ve sonra **Eşitle**'yi seçin.
 16. Projenizi oluşturun ve sonra sonuçları görmek için uygulamayı açın.
 
-    [![Tamamlanan çalışma alanı](./media/workspace.png)](./media/workspace.png)
+    [![Tamamlanan çalışma alanı.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

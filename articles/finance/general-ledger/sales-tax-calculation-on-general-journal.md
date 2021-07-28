@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937318"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358845"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Yevmiye defteri satırlarında satış vergisi hesaplaması
 [!include [banner](../includes/banner.md)]
@@ -55,7 +55,7 @@ Aksi takdirde, satış vergisi yönü Satış Vergisi Alacağı olur.
 
 Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
 
-![Proje hesapları için vergi yönü olasılıkları](media/Sales-Tax-Direction-Vendor.jpg)
+![Proje hesapları için vergi yönü olasılıkları.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Hesap türü Satıcı'dır
 
@@ -73,7 +73,7 @@ Aksi takdirde, satış vergisi yönü Satış Vergisi Alacağı olur.
 
 Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
 
-![Satıcı hesapları için vergi yönü olasılıkları](media/Sales-Tax-Direction-Vendor.jpg)
+![Satıcı hesapları için vergi yönü olasılıkları.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Hesap türü Müşteri'dir
 
@@ -89,7 +89,7 @@ Aksi takdirde, satış vergisi yönü Satış Vergisi Borcu olur.
 
 Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
 
-![Müşteri hesapları için vergi yönü olasılıkları](media/Sales-Tax-Direction-Customer.jpg)
+![Müşteri hesapları için vergi yönü olasılıkları.](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>Hesap türü Genel Muhasebe'dir
 
@@ -103,7 +103,7 @@ Aksi takdirde, günlük tutarı borç (pozitif) ise satış vergisi yönü Satı
 
 Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
 
-![Genel muhasebe hesapları için vergi yönü olasılıkları](media/Sales-Tax-Direction-Ledger.jpg)
+![Genel muhasebe hesapları için vergi yönü olasılıkları.](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>Satış vergisi yönünü geçersiz kılma
 
@@ -115,7 +115,7 @@ Fiş yalnızca hesap türünün **Genel Muhasebe** olduğu satırları içeriyor
 
 Bu bölümde, satış vergisi tutar işaretinin nasıl hesaplandığı açıklanmaktadır.
 
-![Satış vergisi hareketleri sayfası](media/sales-tax-amount-sign.jpg)
+![Satış vergisi hareketleri sayfası.](media/sales-tax-amount-sign.jpg)
 
 Aşağıdaki tabloda, geçici satış vergisi tablosundaki satış vergisi yönünü ve satış vergisi tutarlarının işaretini belirlemeye yönelik genel kural gösterilmektedir.
 

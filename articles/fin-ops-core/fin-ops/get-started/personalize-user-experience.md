@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944545"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348691"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -85,7 +85,7 @@ Bir sayfada yapılabilecek en tipik ve önemli değişikliklerden bazıları, k�
 
 Ayrıca, kişiselleştirmelerin en temel türleri de bir öğeye sağ tıklayıp **Kişiselleştir**'i seçerek kullanılabilir. (Sayfanızdaki tüm öğelerin kişiselleştirilemeyeceğini unutmayın.) Bu kişiselleştirme yöntemini kullandığınızda, öğenin *özellik penceresi* görünür.
 
-![Bir öğenin özelliklerini kişiselleştirme](./media/cli-element-property-window.png)
+![Bir öğenin özelliklerini kişiselleştirme.](./media/cli-element-property-window.png)
 
 Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceresini kullanabilirsiniz:
 
@@ -107,7 +107,7 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalarla gerçekleştiril
 - Sayfanın Eylem Panosunda, **Seçenekler** sekmesinde, **Kişiselleştir** grubunda, **Bu formu kişiselleştir**'i seçin.
 - Gezinti çubuğundaki **Ayarlar** düğmesini (dişli sembolü) seçin ve sonra **Kişiselleştir**'i seçin.
 
-[![Kişiselleştirme araç çubuğu](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Kişiselleştirme araç çubuğu.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Sayfada gezinme
 
@@ -147,7 +147,7 @@ Listeler içeren bazı sayfalarda, **Çalışma alanına ekle** kişiselleştirm
 > [!NOTE]
 > [Kaydedilmiş görünümler](saved-views.md) özelliği açıksa bir çalışma alanına ittiğiniz içerik doğrudan bir görünüme bağlıdır. Görünümün sorgusu, çalışma alanındaki verileri getirmek için kullanılır ve çalışma alanındaki ilgili döşeme veya bağlantı sayfayı bu görünüme açar; böylece görünümün sorgu ve kişiselleştirmeleri buna uygulanır. Görünüm güncelleştirilmişse, ilgili çalışma alanı öğeleri yeni görünüm tanımına göre ayarlanacaktır.
 
-[![Çalışma alanına ekle](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Çalışma alanına ekleme.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Çalışma alanına liste eklerken, çalışma alanında listenin bilgileri istediğiniz gibi göstermesini sağlamak için sayfada listeyi sıralayın veya filtreleyin. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Liste**'yi seçin. **Yapılandır**'ı seçtikten sonra, çalışma alanındaki listede görünmesi gereken sütunları seçebildiğiniz bir iletişim kutusu görünür. Çalışma alanındaki liste için kullanılan etiketi de belirtebilirsiniz.
 - Çalışma alanına kutucuk eklemek için, önce özetlenmesi gereken veya hızlı erişilmesini istediğiniz verileri göstermesi için sayfadaki listeyi filtreleyin. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Kutucuk**'u seçin. **Yapılandır**'ı seçtikten sonra, çalışma alanındaki kutucuk için kullanılması gereken etiketi belirtebildiğiniz bir iletişim kutusu görünür. Kutucukta bir sayı gösterilip gösterilmeyeceğini de belirtebilirsiniz. Kutucuk çalışma alanına eklendikten sonra, geçerli sayfayı çalışma alanından açmak için onu seçebilirsiniz. Böylece,kutucukla ilişkili filtre uygulanmış listeyi görüntüleyebilirsiniz.

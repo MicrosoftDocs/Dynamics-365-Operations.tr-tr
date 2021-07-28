@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748837"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350752"
 ---
 # <a name="general-troubleshooting"></a>Genel sorun giderme
 
@@ -44,16 +44,16 @@ Package Deployer aracını yükledikten sonra, aşağıdaki adımları izleyerek
 
 1. Yammer.Com ' dan en son çözüm paketi dosyasını karşıdan yükle. Paket ZIP dosyası karşıdan yüklendikten sonra sağ tıklatın ve **Özellikler** 'i seçin. **Engeli kaldır** onay kutusunu seçin ve **Uygula**'yı seçin. **Engellemeyi kaldır** onay kutusunu görmüyorsanız, zip dosyasının engeli zaten kaldırılır ve bu adımı atlayabilirsiniz.
 
-    ![Özellikler iletişim kutusu](media/unblock_option.png)
+    ![Özellikler iletişim kutusu.](media/unblock_option.png)
 
 2. Paket ZIP dosyasını ayıklayın ve **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438** klasöründeki tüm dosyaları kopyalayın.
 
-    ![Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 klasörü içeirği](media/extract_package.png)
+    ![Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 klasörü içeirği.](media/extract_package.png)
 
 3. Kopyalanan tüm dosyaları, Paket Dağıtıcı aracı'nın **Araçlar** klasörüne yapıştırın. 
 4. Dataverse Ortamı seçmek ve çözümleri yüklemek için **PackageDeployer. exe** dosyasını çalıştırın.
 
-    ![Araçlar klasörünün içeriği](media/paste_copied_files.png)
+    ![Araçlar klasörünün içeriği.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Hata ayrıntılarını görmek için Dataverse'te eklenti izleme günlüğünü etkinleştirme ve görüntüleme
 

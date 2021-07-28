@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306401"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358605"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
@@ -33,15 +33,15 @@ Bir işletmenin ekosistemi Finance, Supply Chain Management ve Sales gibi Dynami
 
 Sales'den genel ürün veri modeli.
 
-![CE'de ürünler için veri modeli](media/dual-write-product-4.jpg)
+![CE'de ürünler için veri modeli.](media/dual-write-product-4.jpg)
 
 Finance and Operations uygulamalarından genel ürün veri modeli.
 
-![Finance and Operations'de ürünler için veri modeli](media/dual-write-products-5.jpg)
+![Finance and Operations'de ürünler için veri modeli.](media/dual-write-products-5.jpg)
 
 Bu iki ürün veri modeli aşağıda gösterildiği gibi Dataverse'te tümleştirilmiştir.
 
-![Dynamics 365 uygulamalarındaki ürünler için veri modeli](media/dual-write-products-6.jpg)
+![Dynamics 365 uygulamalarındaki ürünler için veri modeli.](media/dual-write-products-6.jpg)
 
 Ürünler için çift yazma tablo eşlemeleri, Finance and Operations uygulamalarından Dataverse'e gerçek zamanlıya yakın olarak verilerin yalnızca tek yönlü akışını sağlamak için tasarlanmıştır. Ancak, ürün altyapısı gerektiğinde çift yönlü hale getirilebilecek şekilde açık yapıldı. Microsoft bu yaklaşımı önermemesine karşın kendi sorumluluğunuzda olacak şekilde bunu özelleştirebilirsiniz.
 
@@ -86,7 +86,7 @@ Bu modelde, ürün Dataverse'teki iki tablonun birleşimiyle gösterilir: **Ür�
 - **Ana ürünler**, iş süreçlerindeki davranışı belirleyen tanımı ve kuralları içeren genel ürünler olarak kullanılır. Bu tanımlara dayalı olarak, ürün çeşitleri olarak bilinen farklı ürünler oluşturulabilir. Örneğin, Tişört ana üründür ve Renk ve Beden boyutlarına sahip olabilir. Bu boyutların farklı birleşimlerine sahip çeşitler serbest bırakılabilir: small beden mavi tişört veya medium beden yeşil tişört gibi. Tümleştirmede, ürün tablosunda her çeşit için bir satır oluşturulur. Bu satır farklı boyutlar gibi ürün çeşidine özgü bilgileri içerir. Ürünle ilgili genel bilgiler **msdyn\_sharedproductdetails** tablosunda depolanır. (Bu genel bilgi ana üründe tutulur.) Ana ürün bilgileri, serbest bırakılan ana ürün oluşturulduğunda Dataverse ile eşitlenir (çeşitler yayımlanmadan önce).
 - **Ayrı ürünler** tüm ürün alt tür ürünleri ve tüm ürün çeşitlerini ifade eder. 
 
-![Ürünler için veri modeli](media/dual-write-product.png)
+![Ürünler için veri modeli.](media/dual-write-product.png)
 
 Çift yazma işlevi etkin olduğunda, Finance and Operations'taki ürünler **Taslak** durumunda diğer Dynamics 365 ürünlerinde eşitlenir. Aynı para birimiyle ilk fiyat listesine eklenir. Başka bir deyişle, Dynamics 365 uygulamasında, Finance and Operations uygulamasında ürünün serbest bırakıldığı tüzel kişiliğin para birimiyle eşleşen ilk fiyat listesine eklenir. Belirtilen para birimi için fiyat listesi yoksa fiyat listesi otomatik olarak oluşturulur ve ürün buna atanır. 
 
@@ -112,7 +112,7 @@ Dynamics 365 Sales'den ürün aileleri oluşturma, ürünlerin çift yazma eşit
 
 Ürün boyutları, ürün çeşidini tanımlamaya hizmet eden özelliklerdir. Dört ürün boyutu (Renk, Boyut, Stil ve Yapılandırma) ürün çeşitlerini tanımlamak amacıyla Dataverse'a eşlenir. Aşağıdaki resimde Renk ürün boyutu için veri modeli gösterilmektedir. Aynı model Boyutlara, Stillere ve Yapılandırmalara da uygulanır. 
 
-![Ürün boyutları için veri modeli](media/dual-write-product-two.png)
+![Ürün boyutları için veri modeli.](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi 
 
 Ölçü birimleri ve ilgili dönüştürme, şemada gösterilen veri modeline uygun olarak Dataverse'te kullanılabilir.
 
-![Ölçü birimi için veri modeli](media/dual-write-product-three.png)
+![Ölçü birimi için veri modeli.](media/dual-write-product-three.png)
 
 Ölçü birimi kavramı, Finance and Operations uygulamaları ile diğer Dynamics 365 uygulamaları arasında entegre edilmiştir. Finance and Operations uygulamasındaki her birim sınıfı için Dynamics 365 uygulamasında bu birim sınıfına ait birimleri içeren bir birim grubu oluşturulur. Her birim grubu için varsayılan bir temel birim de oluşturulur. 
 

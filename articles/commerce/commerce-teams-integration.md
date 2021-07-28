@@ -9,16 +9,17 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c22af9bf76818dd682b4147c3677cd1715e4cbf8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022001"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352650"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Dynamics 365 Commerce ve Microsoft Teams tümleştirmesine genel bakış
 
@@ -50,7 +51,7 @@ Microsoft Teams Tümleştirme özellikleri kullanmaya başlamadan önce aşağı
 
 Aşağıdaki resim örnek olarak bir San Francisco mağazasını kullanarak Dynamics 365 Commerce ve Microsoft Teams tümleştirmesinin kavramsal mimarisini gösterir. Hem Teams hem de Commerce POS uygulaması Microsoft Planner'ı bir depo olarak kullanır, böylece Teams'den yayımlanan görevler POS uygulamasında görünür ve POS uygulamasında mağaza yöneticileri tarafından oluşturulan anlık görevler Teams'de de görünür, böylece uygulamalar arasında kesintisiz bir görev yönetimi deneyimi elde edilir.    
 
-![Commerce ve Teams tümleştirmesinin mimarisi](media/d365-commerce-teams-integration-conceptual-architecture.png)
+![Commerce ve Teams tümleştirmesinin mimarisi.](media/d365-commerce-teams-integration-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

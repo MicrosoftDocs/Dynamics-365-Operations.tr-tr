@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800675"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351212"
 ---
 # <a name="set-up-a-call-center-channel"></a>Çağrı merkezi kanalı ayarlama
 
@@ -54,11 +54,11 @@ Yeni bir çağrı merkez kanalı oluşturmak ve yapılandırmak için bu adımla
 
 Aşağıdaki resimde yeni bir çağrı merkezi kanalının oluşturulması gösteriliyor.
 
-![Yeni çağrı merkezi kanalı](media/channel-setup-callcenter-1.png)
+![Yeni çağrı merkezi kanalı.](media/channel-setup-callcenter-1.png)
 
 Aşağıdaki resimde örnek bir çağrı merkezi kanalı gösteriliyor.
 
-![Örnek çağrı merkezi kanalı](media/channel-setup-callcenter-2.png)
+![Örnek çağrı merkezi kanalı.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Ek kanal ayarları
 
@@ -66,7 +66,7 @@ Aşağıdaki resimde örnek bir çağrı merkezi kanalı gösteriliyor.
 
 Aşağıdaki resimde, **Kurulum** sekmesindeki **Teslimat şekilleri** ve **Ödeme yöntemleri** ayarlama seçenekleri gösterilmektedir.
 
-![Ek çağrı merkezi kanal kurulumu eylemleri](media/channel-setup-callcenter-3.png)
+![Ek çağrı merkezi kanal kurulumu eylemleri.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Ödeme yöntemlerini ayarlama
 
@@ -81,7 +81,7 @@ Aşağıdaki resimde, **Kurulum** sekmesindeki **Teslimat şekilleri** ve **Öde
 
 Aşağıdaki resimde bir nakit ödeme yöntemi örneği gösteriliyor.
 
-![Örnek ödeme yöntemleri](media/channel-setup-callcenter-payments.png)
+![Örnek ödeme yöntemleri.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Teslimat şekillerini ayarla
 
@@ -97,7 +97,7 @@ Yapılandırılan teslimat şekillerini, **Eylem bölmesindeki** **Ayarla** sekm
 
 Aşağıdaki resimde bir teslimat şekli örneği gösteriliyor.
 
-![Teslimat şekillerini ayarla](media/channel-setup-retail-7.png)
+![Teslimat şekillerini ayarla.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Kanal kullanıcıları ayarlama
 

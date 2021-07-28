@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adb8e1a0fef93fdd66a4cbac82689ff7a19aca4a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2672520ddf21e565edee5024d6886cabb18d6e94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754788"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348641"
 ---
 # <a name="find-information-by-using-lookups"></a>Aramaları kullanarak bilgi bulma
 
@@ -44,15 +44,15 @@ Birçok alanda, doğru veya istediğiniz değeri bulmanıza yardımcı olabilece
 
 Odak **Şehir** (City) alanındayken, "col" gibi birkaç harf yazarak istediğiniz şehir için arama başlatabilirsiniz. Siz yazmayı durdurduktan sonra arama "col" ile başlayan şehirler filtre edilerek gösterilmiş halde otomatik olarak açılır.
 
-[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 Bu noktada imleç hala arama alanındadır. Değer "colum" olacak şekilde yazmaya devam ederseniz, arama içeriği denetimdeki son değeri yansıtacak şekilde otomatik olarak ayarlanır.
 
-![updateFilterLookupExample](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
 
 Odak arama denetiminde olsa da, seçmek istediğiniz satırı vurgulamak için **Yukarı ok** veya **Aşağı ok** tuşlarını da kullanabilirsiniz. **Enter** tuşuna basarsanız, vurgulanmış satır aramada seçilir ve denetimin değeri güncelleştirilir.
 
-![changingSelectionLookup](./media/changingselectionlookup.png)
+![changingSelectionLookup.](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Koddan daha fazlasını yazma
 
@@ -62,25 +62,25 @@ Veri girerken kullanıcıların, bir varlığı temsil eden bir tanımlayıcı y
 
 Kullanıcı arama denetimine bir **Hesap kodu** girmeye başladığı zaman açılır menü önceki bölümde açıklandığı şekilde otomatik olarak açılır ve kullanıcı aramayı aşağıda gösterildiği gibi görür.
 
-[![Müşteri hesap kodu girildiğinde bağlamsal arama](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Müşteri hesap kodu girildiğinde bağlamsal arama.](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 Ancak, kullanıcı artık bir **Hesap adının** baş kısmını da girebilir. Bu algılandığı zaman kullanıcı aşağıdaki aramayı görecektir. Aramada **Ad** (Name) sütununun ilk sütun olacak şekilde nasıl taşındığına ve aramanın **Ad** sütununa göre nasıl sıralanıp filtrelendiğine dikkat edin.
 
-[![Müşteri adı girildiğinde bağlamsal arama](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Müşteri adı girildiğinde bağlamsal arama.](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Daha gelişmiş filtreleme ve sıralama için kılavuz sütun başlıklarını kullanma
 
 Önceki iki bölümde ele alınan arama geliştirmeleri kullanıcının bir aramada **Kod** veya **Alan** alanının "ile başlar" şeklinde aranmasına göre satırlar arasında gezinme yeteneğini büyük ölçüde geliştiriyor. Bununla birlikte, doğru satırı bulmak için daha gelişmiş filtrelemenin (veya sıralamanın) gerekli olduğu durumlar vardır. Böyle durumlarda kullanıcının arama içinde kılavuz sütun başlıklarında filtreleme ve sıralama seçeneklerini kullanması gerekir. Örneğin, bir satış siparişi satırı girerken ürün olarak doğru "kabloyu" bulması gereken bir çalışan düşünün. "Kablo" ile başlayan ürün adı olmadığı için, **Madde numarası** denetimine "kablo" yazmak yardımcı olmaz.
 
-![emptyitemlookup](./media/emptyitemlookup.png)
+![emptyitemlookup.](./media/emptyitemlookup.png)
 
 Bunun yerine, kullanıcı arama denetiminin değerini temizlemeli, arama açılır menüsünü açmalı ve aşağıda gösterildiği gibi ızgara sütun başlığını kullanarak açılır menüyü filtrelemelidir. Bir kullanıcı sütun başlığına fareyle tıklayarak veya dokunarak o sütunun filtreleme ve sıralama seçeneklerine erişebilir. Klavye kullananlar için, kullanıcının odağı açılır menüye getirmesi için, doğru sütuna gelmek üzere ikinci kez **Alt**+**Aşağı** **oka** basması, ardından **Ctrl**+**G** tuşlarına basarak ızgara sütunu başlığının açılır menüsünü açması gerekir.
 
-[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 Filtre uygulandıktan sonra (aşağıdaki resme bakın) kullanıcı her zamanki gibi satırı bulup seçebilir.
 
-![filtereditemlookup](./media/filtereditemlookup.png)
+![filtereditemlookup.](./media/filtereditemlookup.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

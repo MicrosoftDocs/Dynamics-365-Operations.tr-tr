@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842237"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352774"
 ---
 # <a name="procurement"></a>Tedarik
 
@@ -36,7 +36,7 @@ Varlık Yönetiminde, iş emirleriyle ilgili satınalma taleplerinin ve satınal
 
 Aşağıdaki şekilde **İş emri satınalma talebi** liste sayfası örneği gösterilmektedir.
 
-![Şekil 1](media/08-work-orders.png)
+![Şekil 1.](media/08-work-orders.png)
 
 
 **İş emri satınalma** liste sayfası (**Varlık yönetimi** > **Ortak** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma siparişlerinin listesini görüntüler. Bu sayfada bir iş emri işi seçtiğinizde, çeşitli eylemleri gerçekleştirmek için Eylem bölmesindeki **İş emri satınalma** sekmesinde bulunan **Göster** grubunda bulunan düğmeleri kullanabilirsiniz:
@@ -47,7 +47,7 @@ Aşağıdaki şekilde **İş emri satınalma talebi** liste sayfası örneği g�
 
 Aşağıdaki şekilde **İş emri satınalma** liste sayfası örneği gösterilmektedir.
 
-![Şekil 2](media/09-work-orders.png)
+![Şekil 2.](media/09-work-orders.png)
 
 
 Hem **İş emri satınalma** listesi sayfasında, hem de **İş emri satınalma talebi** liste sayfasında, her satırın sağ tarafında teslimat tarihi denetimiyle ilişkili bir simge görüntülenir. Simge kırmızı daire içinde bir ünlem işareti gösteriyorsa, ilgili satınalma talebinde veya satınalma siparişinde teslimat gecikebilir.
@@ -93,7 +93,7 @@ Bir satınalma siparişi satırıyla ilişkili faaliyet numarasını görüntül
 
 Aşağıdaki örnekte **Faaliyet numarasına** odaklanılmış **Satınalma siparişi** sayfası örneği gösterilmektedir.
 
-![Şekil 3](media/10-work-orders.png)
+![Şekil 3.](media/10-work-orders.png)
 
 Benzer şekilde, bir siş emri satınalma talebi satırıyla ilgili faaliyet numarasını görüntülemek veya girmek için **İş emri satınalma talebi** liste sayfasında satınalma talebi kaydını seçin ve ardından **Satınalma talebi** sütununda, satınalma talebi bağlantısını seçin. **Satır ayrıntıları** hızlı sekmesinin **Proje** sekmesinde **Faaliyet numarası** alanını bulabilirsiniz.
 

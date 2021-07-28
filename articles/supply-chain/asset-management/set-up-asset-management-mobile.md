@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837789"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351525"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Kıymet yönetimi mobil çalışma alanını ayarlama
 
@@ -47,7 +47,7 @@ Finance and Operations (Dynamics 365) mobil uygulamasında kıymet yönetimi öz
 1. Supply Chain Management'ta **Ayarlar** düğmesini (sağ üst köşedeki dişli simgesi) seçin ve ardından menüdeki **Mobil uygulama**'yı seçin.
 1. **Mobil uygulamayı yönet** iletişim kutusunda **Kıymet Yönetimi** kutucuğunu bulun. "Meta veride - yayımlanmadı" metnini içeriyorsa çalışma alanı henüz yayımlanmamıştır. "Meta veride - yayımlandı" metnini içeriyorsa çalışma alanı zaten yayımlanmıştır ve bu yordamın geri kalanını atlayabilirsiniz.
 
-    ![Mobil uygulamayı yönet iletişim kutusu](media/mobile-workspaces.png "Mobil uygulamayı yönet iletişim kutusu")
+    ![Mobil uygulamayı yönet iletişim kutusu.](media/mobile-workspaces.png "Mobil uygulamayı yönet iletişim kutusu")
 
 1. **Kıymet yönetimi** kutucuğunu seçin ve ardından araç çubuğunda **Yayımla**'yı seçin. Birkaç saniye sonra, çalışma alanının başarıyla yayımlandığını bildiren bir bildirim almalısınız. Ek olarak, kutucuktaki metin "Metaveride - yayımlandı" olarak değişmelidir.
 
@@ -60,22 +60,22 @@ Finance and Operations (Dynamics 365) mobil uygulamasında kıymet yönetimi öz
 
 1. Finance and Operations (Dynamics 365) uygulamasını açın. Oturum açma sayfası görünmelidir. **Oturum açma** alanına, Supply Chain Management URL'nizi girin veya **Son ortamlar** listesinde son URL'yi seçin ve **Bağlan**'a dokunun.
 
-    ![Oturum açma sayfası](media/mobile-app-sign-in.png "Oturum açma sayfası")
+    ![Oturum açma sayfası.](media/mobile-app-sign-in.png "Oturum açma sayfası")
 
 1. Bağlantıyı onaylamanız istenirse **Anladım** onay kutusunu seçin ve ardından **Bağlan**'a dokunun.
 1. **Bir hesap seçin** sayfasında, mobil uygulamada oturum açmak için Microsoft hesabınızı kullanın.
 
     **Çalışma alanları** sayfası görüntülenir. Supply Chain Management kurulumunuz tarafından yayımlanmış tüm mobil çalışma alanını listeler.
 
-    ![Çalışma alanları listesi](media/mobile-app-workspaces.png "Çalışma alanları listesi")
+    ![Çalışma alanları listesi.](media/mobile-app-workspaces.png "Çalışma alanları listesi")
 
 1. Tüzel kişiliği (şirket) değiştirmeniz gerekiyorsa sol üst köşedeki Menü düğmesine (bazen hamburger veya hamburger düğmesi olarak da adlandırılır) dokunun ve ardından **Şirketi değiştir**'e dokunun.
 
-    ![Tüzel kişiliği değiştirme](media/mobile-app-change-comp.png "Tüzel kişiliği değiştirme")
+    ![Tüzel kişiliği değiştirme.](media/mobile-app-change-comp.png "Tüzel kişiliği değiştirme")
 
 1. **Çalışma alanları** sayfasında, çalışmak istediğiniz çalışma alanını seçerek açın.
 
-    ![Varlık yönetimi mobil çalışma alanı](media/mobile-app-asset-workspace.png "Varlık yönetimi mobil çalışma alanı")
+    ![Varlık yönetimi mobil çalışma alanı.](media/mobile-app-asset-workspace.png "Varlık yönetimi mobil çalışma alanı")
 
 ## <a name="work-with-the-asset-management-mobile-workspace"></a>Kıymet yönetimi mobil çalışma alanıyla çalışma
 

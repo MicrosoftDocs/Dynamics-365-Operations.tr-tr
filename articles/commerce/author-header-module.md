@@ -2,7 +2,7 @@
 title: Üst bilgi modülü
 description: Bu konu üst bilgi modüllerini kapsamakta ve Microsoft Dynamics 365 Commerce'te sayfa üst bilgilerinin nasıl oluşturacağını açıklamaktadır.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799936"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479268"
 ---
 # <a name="header-module"></a>Üst bilgi modülü
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu üst bilgi modüllerini kapsamakta ve Microsoft Dynamics 365 Commerce'te sayfa üst bilgilerinin nasıl oluşturacağını açıklamaktadır.
 
@@ -33,7 +34,7 @@ Dynamics 365 Commerce'de sayfa üstbilgisi başlık, promosyon başlığı ve ta
 
 Aşağıdaki resimde giriş sayfasında kullanılan bir üstbilgi modülü örneği gösterilmektedir.
 
-![üstbilgi modülü örneği](./media/ecommerce-header.png)
+![Üst bilgi modülü örneği.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Üst bilgi modülünün özellikleri
 
@@ -58,9 +59,16 @@ Aşağıdaki modüller bir üstbilgi modülünde kullanılabilir:
 - **Mağaza Seçici** - Mağaza seçici modülü, bir üstbilgi modülünün mağaza seçici yuvasına dahil edilebilir. Kullanıcıların yakındaki mağazalara göz atmasına ve onları bulmasına olanak tanır. Kullanıcılar tercih edilen bir mağaza da belirtebilirler. Bu mağaza üst bilgide görüntülenecektir. Mağaza seçici modülü üst bilgi modülüne dahil edildiğinde, **Mod** özelliği **Mağaza bul** olarak ayarlanmalıdır. Daha fazla bilgi için bkz. [Mağaza seçici modülü](store-selector.md).
 
 > [!NOTE]
-> - Üst bilgi modüllerinde sepet simgesi modülünü kullanma desteği Dynamics 365 Commerce 10.0.11 sürümünde bulunabilir.
-> - Üst bilgi modüllerinde site seçici modülünü kullanma desteği Dynamics 365 Commerce 10.0.14 sürümünde bulunabilir.
-> - Üst bilgi modüllerinde mağaza seçici modülünü kullanma desteği Dynamics 365 Commerce 10.0.15 sürümünde bulunabilir.
+> - Üst bilgi modüllerinde sepet simgesi modülünü kullanma desteği Dynamics 365 Commerce 10.0.11 sürümü itibarıyla kullanılabilir.
+> - Üst bilgi modüllerinde site seçici modülünü kullanma desteği Dynamics 365 Commerce 10.0.14 sürümü itibarıyla kullanılabilir.
+> - Üst bilgi modüllerinde mağaza seçici modülünü kullanma desteği Dynamics 365 Commerce 10.0.15 sürümü itibarıyla kullanılabilir.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Adventure Works temasında üst bilgi modülü
+
+Adventure Works temasında üst bilgi modülü **Mobil logo** özelliğini destekler. Bu özellik, Mobil görüntüleme pencereleri için bir amblem belirtilebilmesine olanak tanır. **Mobil Logo** özelliği modül tanımı uzantısı olarak kullanılabilir.
+
+> [!IMPORTANT]
+> Adventure Works teması Dynamics 365 Commerce Sürüm 10.0.20 itibarıyla kullanılabilir.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Sayfa için üst bilgi parçası oluşturma
 

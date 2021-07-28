@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f7f80928e1d3f5d4892f72d4bd2fd09b70a26c1f
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: ddee15c28455dc1736e37ff6132e1360e2d135ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270719"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351952"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektronik raporlama gelişmiş formül düzenleyicisi
 
@@ -45,7 +45,7 @@ Microsoft Dynamics 365 Finance kurulumunuzda gelişmiş formül düzenleyicisini
 2.  **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 3.  **Kullanıcı parametreleri** iletişim kutusunun **Yürütme izleme** bölümünde **Gelişmiş formül düzenleyicisini etkinleştir** parametresini **Evet** olarak ayarlayın.
 
-[![Kullanıcı parametreleri iletişim kutusu, Gelişmiş formül düzenleyiciyi etkinleştir parametresi vurgulanmış olarak](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![Kullanıcı parametreleri iletişim kutusu, Gelişmiş formül düzenleyiciyi etkinleştir parametresi vurgulanmış olarak.](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > Bu parametrenin kullanıcıya özel ve şirkete özel olduğuna dikkat edin.
@@ -58,7 +58,7 @@ Microsoft Dynamics 365 Finance sürüm 10.0.19'u kullanmaya başlayarak hangi ER
 4.  **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 5.  **Kullanıcı parametreleri** iletişim kutusunda, **Gelişmiş formül düzenleyicisini devre dışı bırak** parametresini bulun ve **Hayır** olarak ayarlandığını doğrulayın.
 
-[![Kullanıcı parametreleri iletişim kutusu, Gelişmiş formül düzenleyiciyi devre dışı bırak parametresi vurgulanmış olarak](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
+[![Kullanıcı parametreleri iletişim kutusu, Gelişmiş formül düzenleyiciyi devre dışı bırak parametresi vurgulanmış olarak.](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
 
 > [!NOTE]
 > **Gelişmiş Formül Düzenleyicisini etkinleştir** ve **Gelişmiş Formül Düzenleyicisini devre dışı bırak** parametrelerinin değerleri her kullanıcı için ayrı tutulur ve **ER gelişmiş formül düzenleyicisini tüm kullanıcılar için varsayılan olarak ayarla** özelliğinin durumuna bağlı olarak **Kullanıcı parametreleri** iletişim kutusunda sunulur.
@@ -67,7 +67,7 @@ Microsoft Dynamics 365 Finance sürüm 10.0.19'u kullanmaya başlayarak hangi ER
 
 Birden fazla kod satırı içeren karmaşık bir ifade yazdığınız zaman, yeni bir girilen satırın girintilemesi önceki satırın girintilemesine göre otomatik olarak yapılır. Satırları seçip girintilemelerini **Sekme**'ye veya **Üst Krkt+Sekme** tuşlarına basarak değiştirebilirsiniz.
 
-[![Satırları seçme ve girintiyi değiştirmeyi gösteren ER formül düzenleyicisi GIF dosyası](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![Satırları seçme ve girintiyi değiştirmeyi gösteren ER formül düzenleyicisi GIF dosyası.](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 Otomatik biçimlendirme, bakımı ve yapılandırılan mantığın anlaşılmasını kolaylaştırmak için tüm ifadeyi iyi biçimlendirilmiş durumda tutmanıza olanak sağlar.
 
@@ -75,7 +75,7 @@ Otomatik biçimlendirme, bakımı ve yapılandırılan mantığın anlaşılmas�
 
 Düzenleyici, ifadeyi daha hızlı yazmanıza ve yazım hatalarını önlemenize yardımcı olmak için sözcük tamamlama sağlar. Yeni metin eklemeye başladığınızda, düzenleyici, girdiğiniz karakterleri içeren ER işlevlerinde desteklenen işlevlerin bir listesini otomatik olarak sunar. Yapılandırılmış bir ifadenin herhangi bir yerinde **Ctrl + Boşluk** tuşlarına basarak IntelliSense'i de tetikleyebilirsiniz.
 
-[![IntelliSense tetiklemeyi gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![IntelliSense tetiklemeyi gösteren ER formül düzenleyici GIF dosyası.](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">Kod tamamlama</a>
 
@@ -85,7 +85,7 @@ Düzenleyici aşağıdaki eylemlerle kodun otomatik olarak tamamlanmasını sağ
 - İlk tırnak girilince ikincisini ekleyip, imleci tırnakların içinde tutarak.
 - İlk çift tırnak girilince ikincisini ekleyip, imleci tırnakların içinde tutarak.
 
-[![Kod tamamlamayı otomatik olarak sağlayan düzenleyiciyi gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![Kod tamamlamayı otomatik olarak sağlayan düzenleyiciyi gösteren ER formül düzenleyici GIF dosyası.](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 Yazılan ayracın üzerine geldiğinizde, bu çiftin ikinci ayracı, destekledikleri yapıyı gösterecek şekilde otomatik olarak vurgulanır.
 
@@ -101,7 +101,7 @@ Komut paletini veya bağlam menüsünü kullanıp **Go to** komutunu yazarak ifa
 
 - **F1** tuşuna basın, **G** yazın, **Go to line**'ı seçin, **8** değerini girin ve **Enter** tuşuna basın.
 
-[![Komut paletini kullanarak bir ifadenin bölümlerinin nasıl bulunacağını gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![Komut paletini kullanarak bir ifadenin bölümlerinin nasıl bulunacağını gösteren ER formül düzenleyici GIF dosyası.](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">Kod yapılandırma</a>
 
@@ -123,7 +123,7 @@ Tüm bölgeleri açmak için aşağıdakileri yapın:
   
 - **F1**'e basın, **UN** yazın, **Tümünü aç**'ı seçin ve **Enter**'a basın
 
-[![Kodu açmayı gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![Kodu açmayı gösteren ER formül düzenleyici GIF dosyası.](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">Bul ve değiştir</a>
 
@@ -151,13 +151,13 @@ Belirli bir metnin tüm yinelemelerini değiştirmek için, ifadenizde metni se�
   
 - **F1** tuşuna basın, **C** yazın ve seçili metni değiştirmek için gerekli seçeneği belirleyin. Alternatif metni girin.
 
-[![Bul ve değiştiri gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![Bul ve değiştiri gösteren ER formül düzenleyici GIF dosyası.](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">Veri kaynaklarını ve işlevleri yapıştırma</a>
 
 **Veri kaynağı** sol bölmesinde seçili olan bir veri kaynağını geçerli ifadeye yapıştırmak için **Veri kaynağı ekle**'yi seçebilirsiniz. Benzer şekilde, **İşlevler** sağ bölmesinde seçili olan bir işlevi geçerli ifadeye yapıştırmak için **İşlev ekle**'yi seçebilirsiniz. ER formül düzenleyicisi kullanıyorsanız, seçilen bir işlev veya seçilen bir veri kaynağı yapılandırılan ifadenin hep sonuna yapıştırılır. Gelişmiş ER formül düzenleyicisi kullanıyorsanız, seçilen bir işlev veya seçilen bir veri kaynağı, yapılandırılan ifadenin herhangi bir yerine yapıştırılır. Verileri yapıştırmak istediğiniz yeri belirtmek için imleci kullanmanız gerekir.
 
-[![Veri kaynağı eklemeyi ve bir işlevi yapıştırmayı gösteren ER formül düzenleyicisi GIF dosyası](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![Veri kaynağı eklemeyi ve bir işlevi yapıştırmayı gösteren ER formül düzenleyicisi GIF dosyası.](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">Sözdizimi renklendirme</a>
 
@@ -165,7 +165,7 @@ Belirli bir metnin tüm yinelemelerini değiştirmek için, ifadenizde metni se�
 
 - Bir metin sabitinin etiket kodunu temsil edebilen, ayraç içindeki metin.
 
-[![ER formül düzenleyicisi](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+[![ER formül düzenleyicisi.](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
 
 ## <a name="limitations"></a>Sınırlamalar
 

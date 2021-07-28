@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022434"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352096"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı sağlama
 
@@ -83,23 +83,23 @@ LCS projenize Azure Bağlayıcısı eklemek için, [Azure Resource Manager (ARM)
 Ortamı dağıtmak için şu adımları izleyin.
 
 > [!NOTE]
-> Tek bir seçeneği olan sayfalar atlandığından 6., 7. ve/veya 8. adımı tamamlamanız gerekmez. **Ortam parametreleri** görünümünde olduğunuzda, **ortam adı** alanının metin **Dynamics 365 Commerce-demo (*xx* platform güncelleştirmesi 10.0.* x)** ile doğrudan göründüğünü onaylayın. Ayrıntılar için, 8. adımdan sonra görünen çizime bakın.
+> Tek bir seçeneği olan sayfalar atlandığından 6., 7. ve/veya 8. adımı tamamlamanız gerekmez. **Ortam parametreleri** görünümünde olduğunuzda, **ortam adı** alanının metin **Dynamics 365 Commerce-demo (*xx* platform güncelleştirmesi 10.0.* x*)** ile doğrudan göründüğünü onaylayın. Ayrıntılar için, 8. adımdan sonra görünen çizime bakın.
 
 1. Üst menüden **bulut ile barındırılan ortamları** seçin.
 1. Ortam eklemek için **Ekle**'yi tıklatın.
 1. **Uygulama sürümü** alanında, en güncel sürümü seçin. En güncel sürümden farklı bir uygulama sürümünü seçmeniz için özel bir gereksinim duyuyorsanız, **10.0.14** önceki bir sürümü seçmeyin.
 1. **Platform sürümü** alanında, seçtiğiniz uygulama sürümü için otomatik olarak seçilen platform sürümünü kullanın. 
 
-    ![Uygulamayı ve platform sürümünü seçme](./media/project1.png)
+    ![Uygulamayı ve platform sürümünü seçme.](./media/project1.png)
 
 1. **Sonraki**'yi seçin.
 1. Ortam topolojisi olarak **Demo**'yu seçinç
 
-    ![Ortam topolojisini 1 seçme](./media/project2.png)
+    ![Ortam topolojisini 1 seçme.](./media/project2.png)
 
 1. **Ortam dağıt** sayfasında bir ortam adı girin. Gelişmiş ayarları olduğu gibi bırakın.
 
-    ![Ortamı dağıtın sayfası](./media/project4.png)
+    ![Ortamı dağıtın sayfası.](./media/project4.png)
 
 1. VM boyutunu gerektiği gibi ayarlayın. (VM stok tutma birimi \[SKU\] **D13 v2**.)
 1. Fiyat ve lisans koşullarını gözden geçirin ve kabul ettiğiniz onay kutusunu işaretleyin.

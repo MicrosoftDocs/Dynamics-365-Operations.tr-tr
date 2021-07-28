@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 08564ce7af7412f2501b917b3496942004402611
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117250"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353874"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Ürün boyutu değerlerini renk örneği olarak görünecek şekilde yapılandırma
 
@@ -39,11 +39,11 @@ Renk örnekleri olarak görüntüleme boyutları özelliği, Commerce'in boyutla
 
 Aşağıdaki resimde, bir Commerc PDP'deki renklerin renk örnekleri olarak görüldüğü bir örnek gösterilmektedir.
 
-![Ürün ayrıntıları sayfasında renk örneği olarak gösterilen renk örneği](../dev-itpro/media/swatch_pdp.png)
+![Ürün ayrıntıları sayfasında renk örneği olarak gösterilen renk örneği.](../dev-itpro/media/swatch_pdp.png)
 
 Aşağıdaki resimde, bir Commerc arama sonuçları liste sayfasındaki renklerin renk örnekleri olarak görüldüğü bir örnek gösterilmektedir.
 
-![Arama sonuçları listesi sayfasında renk örneği olarak gösterilen renk örneği](../dev-itpro/media/swatch_searchresults.PNG)
+![Arama sonuçları listesi sayfasında renk örneği olarak gösterilen renk örneği.](../dev-itpro/media/swatch_searchresults.PNG)
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Commerce genel merkezinde görüntü boyutlarını renk örnekleri olarak etkinleştirme özelliği
 
@@ -57,15 +57,15 @@ Yapılandırma aşağıdaki düzeylerden herhangi biri ile yapılabilir:
 
 - **Boyut** – Commerce genel merkezinde, **Renk**, **Boyut** veya **Stil** 'i arayarak bir boyutun sayfasını açın. Her sayfada, bir kılavuz boyut değerlerini listeler. Görüntüleme sırasını, onaltılık kodu ve resim URL değerlerini yönetebilirsiniz. Aşağıdaki çizimde bir **Renk** sayfasında yapılandırmanın bir örneği gösterilmektedir.
 
-    ![Renkler sayfasındaki boyut yapılandırması örneği](../dev-itpro/media/swatch_Color.PNG)
+    ![Renkler sayfasındaki boyut yapılandırması örneği.](../dev-itpro/media/swatch_Color.PNG)
 
 - **Boyut grubu** – Dynamics 365 Commerce içinde, boyut grupları oluşturmak için **RefinerGroup** özelliğini kullanabilirsiniz. Boyut grupları tanımlanmışsa, **Renk grubu**, **Boyut grubu** veya **Stil grubu** arayarak uygun sayfayı açın. Her sayfada onaltılık kod, resim URL'si ve iyileştirici grup değerlerini yönetebilirsiniz. Aşağıdaki çizimde bir **Renk grupları** sayfasında yapılandırmanın bir örneği gösterilmektedir.
 
-    ![Renk grupları sayfasındaki boyut yapılandırması örneği](../dev-itpro/media/swatch_colorGroup.PNG)
+    ![Renk grupları sayfasındaki boyut yapılandırması örneği.](../dev-itpro/media/swatch_colorGroup.PNG)
 
 - **Ürün boyutu (ürün oluşturma sırasında)** – Yeni bir ürün oluşturduğunuzda, boyut değerlerini girmek için **Ürün boyutları** sayfasını kullanabilirsiniz. Varolan ürünler için **Onaltılık**, **URL** (görüntüler için) ve **RefinerGroup** alanları zaten ayarlanmış olabilir. Ancak, değerleri istediğiniz gibi değiştirebilirsiniz. Aşağıdaki çizimde bir **Ürün boyutları** sayfasında yapılandırmanın bir örneği gösterilmektedir.
 
-    ![Ürün boyutları sayfasındaki boyut yapılandırması örneği](../dev-itpro/media/swatch_product_dimensions.PNG)
+    ![Ürün boyutları sayfasındaki boyut yapılandırması örneği.](../dev-itpro/media/swatch_product_dimensions.PNG)
 
 > [!NOTE]
 > Onaltılık kod ve resim URL yapılandırmalarını yönetme işlemi, boyutların görüntüleme sırasını yönetmek için kullanılan deseni izler.
@@ -76,7 +76,7 @@ Yapılandırma aşağıdaki düzeylerden herhangi biri ile yapılabilir:
 
 Aşağıdaki resimde, renk boyutlarının onaltılık kod değerleri kullanılarak yapılandırıldığı bir örnek gösterilmektedir.
 
-![Onaltılık kodları kullanan boyut yapılandırması örneği](../dev-itpro/media/swatch_color_hexcode.png)
+![Onaltılık kodları kullanan boyut yapılandırması örneği.](../dev-itpro/media/swatch_color_hexcode.png)
 
 ## <a name="configure-dimension-values-by-using-image-urls"></a>Görüntü URL'leri kullanarak boyut değerlerini yapılandırma
 
@@ -86,13 +86,13 @@ Her resmi Commerce site oluşturucusa yüklemeli ve yayınlamalısınız. Ardın
 
 Aşağıdaki çizimde bir **Renkler** sayfasında yapılandırma için görüntü URL'lerinin kullanıldığı bir örneği gösterilmektedir.
 
-![Görüntü URL'lerini kullanan boyut yapılandırması örneği](../dev-itpro/media/swatch_color_urls.PNG)
+![Görüntü URL'lerini kullanan boyut yapılandırması örneği.](../dev-itpro/media/swatch_color_urls.PNG)
 
 Ürün ve kategori görüntüleri için olduğu gibi görüntü URL'lerini tanımlamak için bir medya şablonu kullanabilirsiniz. Site oluşturucuya resim yüklediğinizde, dosya adı kuralları ve dosya yolları tutarlı olmalıdır.
 
 Aşağıdaki çizimde bir Ortam şablonu yapılandırma için görüntü URL'lerinin kullanıldığı bir örneği gösterilmektedir.
 
-![Ortam şablonu yapılandırması örneği](../dev-itpro/media/swatch_media_template.PNG)
+![Ortam şablonu yapılandırması örneği.](../dev-itpro/media/swatch_media_template.PNG)
 
 ## <a name="configure-dimension-values-by-using-both-hex-codes-and-image-urls"></a>Hem onaltılık kodları hem de görüntü URL'leri kullanarak boyut değerlerini yapılandırma
 
@@ -100,7 +100,7 @@ Aşağıdaki çizimde bir Ortam şablonu yapılandırma için görüntü URL'ler
 
 Aşağıdaki çizimde bir **Renkler** sayfasında yapılandırma için hem onaltılık hem de görüntü URL'lerinin kullanıldığı bir örneği gösterilmektedir.
 
-![Hem onaltılık kodlar hem de Görüntü URL'lerini kullanan boyut yapılandırması örneği](../dev-itpro/media/swatch_color_hexandimage.png)
+![Hem onaltılık kodlar hem de Görüntü URL'lerini kullanan boyut yapılandırması örneği.](../dev-itpro/media/swatch_color_hexandimage.png)
 
 ## <a name="configure-refiner-groups"></a>İyileştirici gruplarını yapılandırma
 
@@ -110,7 +110,7 @@ Boyut değeri için onaltılık kod veya resim URL'si tanımladığınızda, **R
 
 Aşağıdaki resimdeki örnek, Commerce genel merkezindeki **Renk** ve **RefinerGroup** özellikleri arasındaki ilişkiyi gösterir.
 
-![İyileştirici grup yönetimi örneği](../dev-itpro/media/swatch_refiner_group.png)
+![İyileştirici grup yönetimi örneği.](../dev-itpro/media/swatch_refiner_group.png)
 
 ## <a name="manage-images-in-commerce-site-builder"></a>Commerce Site Builder'daki görüntüleri yönetme
 
@@ -118,7 +118,7 @@ Görüntü URL'leri herhangi bir boyut değeri için kullanılıyorsa, ilgili g�
 
 Aşağıdaki resimde, site oluşturucu ortam kitaplığına resim yüklemek için **Dosyaları karşıya yükle** iletişim kutusunun kullanıldığı bir örnek gösterilmektedir. Seçim için kullanılabilen **Boyut**, **Renk** ve **Stil** kategorilerini vurgular.
 
-![Site oluşturucu medya kitaplığına yükleme sırasında resim dosyası kategorileri örneği](../dev-itpro/media/swatch_sitebuilder.png)
+![Site oluşturucu medya kitaplığına yükleme sırasında resim dosyası kategorileri örneği.](../dev-itpro/media/swatch_sitebuilder.png)
 
 ## <a name="enable-swatch-display-on-e-commerce-site-pages"></a>E-ticaret sitesi sayfalarında renk örneği görüntülemeyi etkinleştirme
 

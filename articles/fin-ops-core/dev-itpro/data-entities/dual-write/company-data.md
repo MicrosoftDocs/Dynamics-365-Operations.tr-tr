@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941041"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350971"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse'da şirket kavramı
 
@@ -43,7 +43,7 @@ Dataverse'da eşdeğer bir kavram yoktur. En yakın kavram, birincil olarak kull
 
 Aşağıdaki şekilde, Dataverse'daki bu veri ayarının bir örneğini gösterir.
 
-![Dataverse'da veri ayarı](media/dual-write-company-1.png)
+![Dataverse'da veri ayarı.](media/dual-write-company-1.png)
 
 Bu yapılandırma nedeniyle, USMF şirketiyle ilgili herhangi bir satır, Dataverse'teki USMF iş birimine bağlı olan bir takıma ait olacaktır. Bu nedenle, iş birimi düzeyinde görünürlük için ayarlanan bir güvenlik rolü aracılığıyla bu iş birimine erişimi olan herhangi bir kullanıcı artık bu satırları görebilir. Aşağıdaki örnekte, bu satırlara doğru erişimi sağlamak amacıyla takımların nasıl kullanılabileceği gösterilmektedir.
 
@@ -52,21 +52,21 @@ Bu yapılandırma nedeniyle, USMF şirketiyle ilgili herhangi bir satır, Datave
 + "USMF Satış" ekibi, daha önce bahsedilen USMF iş birimine bağlıdır.
 + Bu nedenle, "USMF Satış" ekibinin üyeleri Finance and Operations'taki USMF Şirket tablosundan gelen "USMF DW" kullanıcısı tarafından sahip olunan herhangi bir hesabı görebilir.
 
-![Ekipler nasıl kullanılabilir](media/dual-write-company-2.png)
+![Takımlar nasıl kullanılabilir.](media/dual-write-company-2.png)
 
 Önceki örnekte gösterildiği gibi iş birimi, şirket ve ekip arasındaki bu 1:1 eşleme yalnızca bir başlangıç noktasıdır. Bu örnekte, yeni bir "Avrupa" iş birimi hem DEMF hem de ESMF için üst öğe olarak Dataverse'ta el ile ayarlanır. Bu yeni kök iş birimi çift yazma ile ilgili değildir. Ancak, "EUR Satış" ekibinin üyelerine, ilgili güvenlik rolündeki **Üst/Alt İş Birimi** veri görünürlüğünü ayarlayarak hem DEMF hem de ESMF'deki hesap verilerine erişim vermek için kullanılabilir.
 
 Tartışılması gereken son bir konu da çift yazmanın satırları hangi sahip takıma atayacağını belirleme yöntemidir. Bu davranış, cdm\_Company satırındaki **Varsayılan sahibi olan takım** sütunu tarafından denetlenir. Bir cdm\_Company satırı çift yazma için etkinleştirildiğinde, bir eklenti otomatik olarak ilişkili iş birimi ve sahibi olan takımı (zaten yoksa) oluşturur ve **Varsayılan sahibi olan takım** sütununu ayarlar. Yönetici bu sütunu farklı bir değere değiştirebilir. Ancak, tablo çift yazma için etkinleştirildiği sürece yönetici sütunu temizleyemez.
 
 > [!div class="mx-imgBorder"]
-![Varsayılan sahibi olan takım sütunu](media/dual-write-default-owning-team.jpg)
+![Varsayılan sahibi olan takım sütunu.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Şirket bölümleme ve yeniden örnekleme
 
 Dataverse tümleştirmesi verileri bölümlemek için şirket tanımlayıcısını kullanarak şirket eşliği getirir. Aşağıdaki çizimde gösterildiği gibi, tüm şirkete özgü tablolar, cdm\_Company tablosutka çok-bir (N:1) ilişkisine sahip olmaları için genişletilir.
 
 > [!div class="mx-imgBorder"]
-![Şirkete özgü tablo ile cdm_Company tablosu arasındaki N:1 ilişkisi](media/dual-write-bootstrapping.png)
+![Şirkete özgü tablo ile cdm_Company tablosu arasındaki N:1 ilişkisi.](media/dual-write-bootstrapping.png)
 
 + Satırlar için, bir şirket eklendikten ve kaydedildikten sonra, değer salt okunur olur. Bu nedenle, kullanıcılar doğru şirketi seçtiğinden emin olmalıdır.
 + Yalnızca şirket verilerine sahip satırlar uygulama ile Dataverse arasında çift yazma için uygundur.
@@ -98,7 +98,7 @@ Müşteri etkileşimi uygulamalarında şirket adını otomatik olarak doldurman
 
 Özel formlarınızda veya standart formlara eklenmiş özel arama sütunlarınızda şirket bağlamına göre filtre uygulamak için formu açın ve **İlgili Kayıtlara Filtre Uygulama** bölümünü kullanarak şirket filtresi uygulayın. Belirli bir satırdaki temel şirkete dayalı olarak filtre gerektiren her arama sütunu için bunu ayarlamalısınız. Aşağıdaki resimde bu ayar **Hesap** için gösterilmiştir.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Şirket bağlamını uygulama":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Şirket bağlamını uygulama.":::
 
 
 

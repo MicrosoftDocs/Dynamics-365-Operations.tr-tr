@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023653"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358182"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>TDS vergi türü için vergi bileşenlerini ayarlama
 
@@ -33,7 +33,7 @@ TDS bileşenlerini ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Vergi \> Kurulum \> Stopaj vergisi \> Stopaj vergisi bileşenleri**'ne gidin.
 
-    [![Stopaj vergisi bileşenleri sayfası](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Stopaj vergisi bileşenleri sayfası.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. TDS vergi türü için stopaj vergisi bileşenlerini ayarlamak üzere **Vergi türü** alanında **TDS**'yi seçin.
 3. Eylem bölmesinde, bir satır oluşturmak için **Yeni**'yi seçin.
@@ -50,7 +50,7 @@ TDS bileşenlerini ayarlamak için aşağıdaki adımları izleyin.
 
     Örneğin, istisna eşik tutarı 5.000 ise, fatura satır tutarı 5.000 değerini aştığında (yani 5.001 veya daha fazla) TDS belirli bir fatura satırında hesaplanır.
 
-    [![Eşik sayfası](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Eşik sayfası.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > İstisna eşik tutarı, eşik tutarına eşit veya tutardan daha az olmalıdır.
@@ -66,6 +66,6 @@ TDS bileşenlerini ayarlamak için aşağıdaki adımları izleyin.
 
 14. **Stopaj vergisi bileşenleri** sayfasında diğer TDS bileşen grubu için TDS bileşenlerini kopyalamak ve oluşturmak için **Tamam**'ı seçin.
 
-    [![Stopaj vergisi bileşenlerini kopyala iletişim kutusu](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Stopaj vergisi bileşenlerini kopyala iletişim kutusu.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Sayfayı kapatın.

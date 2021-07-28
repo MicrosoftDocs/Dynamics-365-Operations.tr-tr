@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dd07c9c95639c8e69e1013fd7da283cf51b60ed0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d4f2ee97db52c055136912b237412b1148c26bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804539"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352360"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>İadeler için fişsiz ödeme yöntemlerini kısıtlama
 
@@ -38,7 +38,7 @@ Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığı
 3. Mağaza ödeme yöntemlerini ayarlayın. Ödeme yöntemlerini her bir mağazayla ilişkilendirin ve ardından her bir ödeme yöntemi için mağazaya özel ayarları girin.
 4. Mağazalar için kart ödeme yöntemleri ayarlayın. Mağazanın kabul ettiği tüm kart ödeme yöntemleri için kart kurulumunu tamamlayın.
 
-![Mağaza Kurulumu](media/NoReceiptReturns1.png "Mağazada Retail kurulumu") 
+![Mağaza Kurulumu.](media/NoReceiptReturns1.png "Mağazada Retail kurulumu") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>İadeler için fişsiz ödeme yöntemlerini kısıtlama
@@ -49,12 +49,12 @@ Varsayılan değer **Hayır**'dır, bu da ödeme yönteminin iadeler için izin 
 
 **Giriş olmadan iadeleri kısıtla**, **Evet** olarak ayarlanmışsa, seçilen ödeme yöntemine iadelerde izin verilmeyecektir. 
 
-![Mağaza ödeme yöntemi](media/NoReceiptReturns3.png "Perakende Mağaza Ödeme Yöntemi") 
+![Mağaza ödeme yöntemi.](media/NoReceiptReturns3.png "Perakende Mağaza Ödeme Yöntemi") 
 
 > [!NOTE]
 > Bir kasiyer, giriş olmayan bir iade için kısıtlanmış bir ödem yöntemini seçerse, kabul edilebilir ödeme yöntemlerini gösteren bir mesaj görüntülenir.
 
-![Kabul edilebilir ödeme yöntemleri](media/NoReceiptReturns4.png "Kabul edilebilir ödeme yöntemleri") 
+![Kabul edilebilir ödeme yöntemleri.](media/NoReceiptReturns4.png "Kabul edilebilir ödeme yöntemleri") 
 
 Bir işlem hem girişli iade hem de giriş olmayan iade ise, kısıtlama koşulu zorlanmaz çünkü işlem, girişli bir iade iş akışı olacaktır. 
 

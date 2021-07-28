@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 83cd99350f58a56d121d694393edc4eb98af728a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ef74a446356eeeeb86829868043ca2dad4eff77d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753780"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357606"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
 
@@ -48,7 +48,7 @@ Bu konudaki bazı adımlarda bir ER biçiminin yürütülmesi gerekir. Bazı dur
 
 Gereken ER bileşenlerini tasarlamak için bu konunun [Ek 1](#appendix1) bölümündeki adımları izleyin. Artık **Giriş noktası 1** tanımı için model eşlemeyi içeren **Eşleme (Genel)** model eşleme yapılandırmasına sahipsiniz.
 
-![ER yapılandırma sayfası](./media/RCS-Context-specific-mapping-Tree.PNG)
+![ER yapılandırma sayfası.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>Yapılandırılmış biçimi çalıştırma
 
@@ -61,7 +61,7 @@ Web tarayıcısının, yürütülen ER biçimi tarafından oluşturulan metin do
 
 Gereken ER bileşenlerini tasarlamak için bu konunun [Ek 2](#appendix2) bölümündeki adımları izleyin. Artık her biri **Giriş noktası 1** tanımı için model eşlemeyi içeren **Eşleme (Genel)** ve **Eşleme (Genel) özel** model eşleme yapılandırmalarına sahipsiniz.
 
-![ER yapılandırma sayfası](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![ER yapılandırma sayfası.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>Yapılandırılmış biçimi çalıştırma
 
@@ -71,7 +71,7 @@ Gereken ER bileşenlerini tasarlamak için bu konunun [Ek 2](#appendix2) bölüm
 
 Seçili ER biçiminin yürütülmesinin başarısız olduğunu unutmayın. **Eşleme (Genel)** ve **Eşleme (Genel) özel** model eşleme yapılandırmalarında **Eşlemeleri öğrenme modeli** ve **Giriş noktası 1** tanımı için birden fazla model eşlemesi olduğunu bildiren bir hata iletisi alırsınız. Bu ileti ayrıca bu yapılandırmalardan birini varsayılan yapılandırma olarak seçmenizi önerir.
 
-![ER yapılandırma sayfası](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![ER yapılandırma sayfası.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Varsayılan eşleme yapılandırmasını tanımlama
 
@@ -82,7 +82,7 @@ Seçili ER biçiminin yürütülmesinin başarısız olduğunu unutmayın. **Eş
 3.  **Model eşleme için varsayılan** seçeneğini **Evet** olarak ayarlayın.
 4.  **Kaydet**'i seçin.
 
-![ER yapılandırma sayfası](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![ER yapılandırma sayfası.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Yapılandırılmış biçimi çalıştırma
 
@@ -101,7 +101,7 @@ Gereken ER bileşenlerini tasarlamak için bu konunun [Ek 3](#appendix3) bölüm
 
 **Eşleme (FR)** model eşleme yapılandırması sürüm 1'in yalnızca Fransızca ülke/bölge bağlamına sahip Finance şirketlerinde çalıştırılan **Eşlemeleri öğrenme modeli** modelinin ER biçimleri için geçerli olacak şekilde yapılandırıldığını unutmayın.
 
-![ER yapılandırma sayfası](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![ER yapılandırma sayfası.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>Yapılandırılmış biçimi çalıştırma
 
@@ -121,7 +121,7 @@ Seçili ER biçiminin yürütülmesinin başarılı olduğunu unutmayın. Web ta
 3.  **Model eşleme için varsayılan** seçeneğini **Evet** olarak ayarlayın.
 4.  **Kaydet**'i seçin.
 
-![ER yapılandırma sayfası](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![ER yapılandırma sayfası.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Yapılandırılmış biçimi çalıştırma
 
@@ -195,7 +195,7 @@ Tabloda artı işareti (+), ER biçimini (Finance veya RCS) çalıştırmak içi
 1.  Gezinti bölmesinde, **Modüller \> Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırma hata ayıklama günlüğü**'ne gidin.
 2.  **Bu sayfayı yeniden yükleyin** düğmesini seçin.
 
-![ER çalıştırma günlükleri sayfası](./media/RCS-Context-specific-mapping-DebugLog.PNG)
+![ER çalıştırma günlükleri sayfası.](./media/RCS-Context-specific-mapping-DebugLog.PNG)
 
 Yürütülen ER biçimi için ER hata ayıklama günlüğüne yeni bir kayıt eklendiğini unutmayın. Bu kaydın **Düzey** alanı **Bilgi** olarak ayarlandığından kayıt bilgi amaçlıdır. Biçim bileşeni alanı **Eşleme yapılandırması** olarak ayarlandığından kayıt, (**Yapılandırma adı** alanında seçilen) **Eşlemeleri öğrenme biçimi** ER biçiminin yürütülmesi sırasında kullanılan model eşleme hakkında sizi bilgilendirir. **Oluşturulan metin** alanının içeriği, **Eşleme (FR)** yapılandırmasında yer alan **Eşleme (FR)** eşleme bileşeninin bu raporu çalıştırmak için kullanıldığı konusunda sizi bilgilendirir.
 
@@ -236,7 +236,7 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 14. Açılan iletişim kutusunda, **Ad** alanına **İşlev tanımı** girin.
 15. **Ekle**'yi seçin.
 
-    ![ER veri modeli tasarımcısı sayfası](./media/RCS-Context-specific-mapping-Model.PNG)
+    ![ER veri modeli tasarımcısı sayfası.](./media/RCS-Context-specific-mapping-Model.PNG)
 
 16. **Kaydet**'i seçin.
 17. Sayfayı kapatın.
@@ -276,7 +276,7 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 5.  **Kaydet**'i seçin.
 6.  **Formül tasarımcısı** sayfasını kapatın.
 
-    ![ER model eşleme tasarımcısı sayfası](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![ER model eşleme tasarımcısı sayfası.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  **Kaydet**'i seçin.
 8.  **Model eşleme tasarımcısı** sayfasını kapatın
@@ -289,12 +289,12 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 15. **Kaydet**'i seçin.
 16. **Formül tasarımcısı** sayfasını kapatın.
 
-    ![ER model eşleme tasarımcısı sayfası](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![ER model eşleme tasarımcısı sayfası.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. **Kaydet**'i seçin.
 18. **Model eşleme tasarımcısı** sayfasını kapatın
 
-    ![ER model eşlemeleri sayfası](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![ER model eşlemeleri sayfası.](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. **Model eşlemeleri** sayfasını kapatın
 
@@ -335,7 +335,7 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 2.  **İşlev açıklaması** alanını seçin.
 3.  **Bağla**'yı seçin.
 
-    ![ER biçim tasarımcısı sayfası](./media/RCS-Context-specific-mapping-Format.PNG)
+    ![ER biçim tasarımcısı sayfası.](./media/RCS-Context-specific-mapping-Format.PNG)
 
 4.  **Kaydet**'i seçin.
 5.  Sayfayı kapatın.
@@ -369,7 +369,7 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 6.  **Kaydet**'i seçin.
 7.  Sayfayı kapatın.
 
-    ![ER model eşleme tasarımcısı sayfası](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![ER model eşleme tasarımcısı sayfası.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  **Kaydet**'i seçin.
 9.  Sayfayı kapatın.
@@ -380,12 +380,12 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 14. **Kaydet**'i seçin.
 15. Sayfayı kapatın.
 
-    ![ER model eşleme tasarımcısı sayfası](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![ER model eşleme tasarımcısı sayfası.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. **Kaydet**'i seçin.
 17. Sayfayı kapatın.
 
-    ![ER model eşlemeleri sayfası](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![ER model eşlemeleri sayfası.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Sayfayı kapatın.
 
@@ -432,7 +432,7 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 7.  **Kaydet**'i seçin.
 8.  Sayfayı kapatın.
 
-    ![ER model eşleme tasarımcısı sayfası](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![ER model eşleme tasarımcısı sayfası.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  **Kaydet**'i seçin.
 10. Sayfayı kapatın.
@@ -444,12 +444,12 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 16. **Kaydet**'i seçin.
 17. Sayfayı kapatın.
 
-    ![ER model eşleme tasarımcısı sayfası](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![ER model eşleme tasarımcısı sayfası.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. **Kaydet**'i seçin.
 19. Sayfayı kapatın.
 
-    ![ER model eşlemeleri sayfası](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![ER model eşlemeleri sayfası.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Sayfayı kapatın.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: beacff21c6468e9c4b387a654e95f25572c0ede9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348380"
 ---
 # <a name="visibility-into-material-exceptions"></a>Malzeme özel durumlarının görülebilirliği
 
@@ -37,7 +37,7 @@ Yayımlanmamış bir ürün reçetesi satırının veya formül satırının, sa
 
 Aşağıdaki şekilde, mavi çubuk kaynakta planlanmış olan bir üretim işimi temsil eder. İş 1 Mayıs 2017 tarihinde (01/05/2017) başlaması için zamanlanır. Bu tarih ham madde tarihidir. Başka bir deyişle, BOM ve formül satırlarında işe atanan malzemelerin bu tarihte hazır olması gerekir. Şekildeki diğer tarih olan 6 Mayıs 2017 (06/05/2017) çalışma alanı tarihini temsil eder. Bu örnekte, ham madde tarihi çalışma alanı tarihinden öncedir. Bu nedenle, hammadde tüketiminin başlangıcı olduğu düşünülen tarih geçmiştir ve ürün reçetesi ve tarih satırları dikkat gösterilmesi için ölçütü karşılamaktadır.
 
-![Ham madde tarihinin çalışma alanı tarihinden önce olduğu bir üretim işi örneği](./media/improved-visibility.png)
+![Ham madde tarihinin çalışma alanı tarihinden önce olduğu bir üretim işi örneği.](./media/improved-visibility.png)
 
 ## <a name="unreleased-material-lines-needing-attention"></a>Dikkat gerektiren serbest bırakılmamış malzeme satırları
 

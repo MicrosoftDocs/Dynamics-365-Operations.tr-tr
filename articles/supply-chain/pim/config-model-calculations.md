@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0806a5b36b04e77a5a6d10f3c2eb3d7ba680e75
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829630"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356428"
 ---
 # <a name="product-configuration-model-calculations"></a>Ürün yapılandırma modeli hesaplamaları
 
@@ -70,7 +70,7 @@ Bu örnek, hedef özniteliği olarak `textFixedList` metin özniteliğini kullan
 
 Aşağıdaki ekran görüntüsü, bu öznitelik için ayarların sisteminizde nasıl görünebileceğini gösterir.
 
-![Öznitelik türü ayarları Örnek 2](media/model-calculations-example2.png "Öznitelik türü ayarları Örnek 2")
+![Öznitelik türü ayarları Örnek 2.](media/model-calculations-example2.png "Öznitelik türü ayarları Örnek 2")
 
 Öznitelik aşağıdaki koşul deyiminde kullanılır:
 
@@ -92,7 +92,7 @@ Bu örnek, önceki örnekten `textFixedList` hedef özniteliğini kullanır. Ayr
 
 Aşağıdaki ekran görüntüsü, bu öznitelik için ayarların sisteminizde nasıl görünebileceğini gösterir.
 
-![Öznitelik türü ayarları Örnek 3](media/model-calculations-example3.png "Öznitelik türü ayarları Örnek 3")
+![Öznitelik türü ayarları Örnek 3.](media/model-calculations-example3.png "Öznitelik türü ayarları Örnek 3")
 
 `textFixedList` Özniteliğinin değeri aşağıdaki koşul deyimi kullanılarak hesaplanır:
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1417232baeaf03721bd0b25cc3f9fd5f750c65d5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052277"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353674"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Sosyal Haklar yönetiminde ACA raporları oluşturma
 
@@ -48,11 +48,11 @@ Ekonomik Bakım kapsamı grupları, aynı koşullara sahip birden çok çalışa
 
 1. **Sosyal Haklar yönetimi** çalışma alanında, **Ekonomik Bakım kapsamı grubu**'nu seçin.
 
-    ![Ekonomik Bakım kapsamı grubunu seçme](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Ekonomik Bakım kapsamı grubunu seçme.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Yeni bir Ekonomik Bakım kapsamı grubu oluşturmak için **Yeni**'yi veya var olan bir grubu değiştirmek için **Düzenle**'yi seçin.
 
-    ![Yeni veya Düzenle'yi seçme](./media/hr-benefits-management-aca-new.png)
+    ![Yeni veya Düzenle'yi seçme.](./media/hr-benefits-management-aca-new.png)
 
 3. Aşağıdaki alanları ayarlayın.
 
@@ -67,7 +67,7 @@ Ekonomik Bakım kapsamı grupları, aynı koşullara sahip birden çok çalışa
     | Grup geçerlilik başlangıcı | Bu kaydın geçerli olduğu ilk tarih. |
     | Grup geçerliliği sonu | Bu kaydın geçerli olduğu son tarih. Sona erme tarihi yoksa **Hiçbir Zaman** girin. |
 
-    ![Kapsam grubu oluşturma](./media/hr-benefits-management-aca-new-group.png)
+    ![Kapsam grubu oluşturma.](./media/hr-benefits-management-aca-new-group.png)
 
 4. **Kaydet**'i seçin.
 
@@ -77,11 +77,11 @@ Ekonomik Bakım kapsamı grupları, aynı koşullara sahip birden çok çalışa
 2. Çalışanların atanacağı grubu seçin.
 3. **Toplu atama**'yı seçin.
 
-    ![Toplu atama'yı seçme](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Toplu atamayı seçme.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Listeden çalışanları seçin ve sonra **Ata**'yı seçin.
 
-    ![Seçilen çalışanları bir gruba atama](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Seçilen çalışanları bir gruba atama.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Kapsama seçeneklerinin birden fazla sürümünü tutma
 
@@ -111,12 +111,12 @@ Ekonomik Bakım kapsamı grubunun herhangi bir değeri için özel durumlar girm
 2. Listeden çalışanı seçin.
 3. **İstihdam** sekmesinde, **Daha fazla bilgi** bölümünde E **konomik Bakım kapsamı**'nı seçin.
 
-    ![Bir çalışan için seçenekleri değiştirme](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Bir çalışan için seçenekleri değiştirme.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. **Düzenle** öğesini seçin.
 5. Değişiklik gerektiren her ay için **Varsayılanı geçersiz kıl** onay kutusunu seçin ve diğer değerleri gerektiği gibi değiştirin.
 
-    ![Varsayılan değerleri geçersiz kılma](./media/hr-benefits-management-aca-override-default.png)
+    ![Varsayılan değerleri geçersiz kılma.](./media/hr-benefits-management-aca-override-default.png)
 
 6. **Kaydet**'i seçin.
 
@@ -131,7 +131,7 @@ Bir sosyal hak planının raporlanıp raporlanmayacağını belirtmek için şu 
 3. **Düzenle** öğesini seçin.
 4. **Ekonomik Bakım Yasası kapsamında bildiriliyor** seçeneğini **Evet** olarak ayarlayın.
 
-    ![Sağlık bakımı kapsamasını raporlama](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Sağlık bakımı kapsamasını raporlama.](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. **Kaydet**'i seçin.
 
@@ -147,23 +147,23 @@ ACA 1095-B ve 1095-C formları oluşturabilir ve bunları çalışanlarınızın
     > [!NOTE]
     > 500'den fazla çalışan için 1095-C formları yazdırıyorsanız birden fazla PDF dosyası alırsınız. **Belge yönetimi parametreleri** sayfasındaki **Megabayt cinsinden maksimum dosya boyutu** alanının değerini **150**'ye çıkarmanızı öneririz. (Bu sayfayı hızlı bir şekilde açmak için gezinti çubuğundaki arama alanını kullanabilirsiniz.)
     >
-    > ![Maksimum dosya boyutunu değiştirme](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Maksimum dosya boyutunu değiştirme.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Raporlarınızın durumunu denetlemek ve görüntülemek için gezinti çubuğundaki arama alanını kullanarak **Elektronik raporlama işleri** sayfasını açın.
 
-    ![Elektronik raporlama işleri sayfasını arama](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Elektronik raporlama işleri sayfasını arama.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Görüntülenecek raporu seçin ve sonra **Dosyaları göster**'i seçin.
 
-    ![Dosyaları gösterme](./media/hr-benefits-management-aca-show-files.png)
+    ![Dosyaları gösterme.](./media/hr-benefits-management-aca-show-files.png)
 
 5. **Aç**'ı seçin.
 
-    ![Dosya açma](./media/hr-benefits-management-aca-open-file.png)
+    ![Dosya açma.](./media/hr-benefits-management-aca-open-file.png)
 
 6. Tarayıcı penceresinin altında görünen Bildirim çubuğundan zip dosyasını açın ve raporu seçin. PDF dosyasını görüntüleyebilir veya yazdırabilirsiniz.
 
-    ![Örnek 1095-C formu](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Örnek 1095-C formu.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>ACA kapsamı bilgilerini görüntüleme
 
@@ -178,7 +178,7 @@ Bu bilgileri görüntülemek için aşağıdaki adımları izleyin.
 1. **Sosyal Haklar yönetimi** çalışma alanında, **Çalışan Ekonomik Bakım kapsamı**'nı seçin.
 2. **Grup adı** alanından bir grup seçin.
 
-    ![ACA kapsamını görüntüleme](./media/hr-benefits-management-aca-view-coverage.png)
+    ![ACA kapsamını görüntüleme.](./media/hr-benefits-management-aca-view-coverage.png)
 
 Ekonomik Bakım kapsama grubundaki varsayılan değerlerden herhangi biri geçersiz kılınmışsa değiştirilen değerin yanında bir yıldız işareti görünür. 12 ayın tamamı için değerler aynı ise ve geçersiz kılınmamışsa, değer **Tüm 12 ay** sütununda görünür.
 
@@ -198,11 +198,11 @@ Listelerden herhangi birini Microsoft Excel'e dışarı aktarmak için şu adım
 
 Kendi kaynaklarından teminat ayırmayla sigorta kapsamı sağladığınız için kapsanan kişileri bildirmeniz gerekiyorsa **ACA raporlanabilir** olarak işaretlenmiş sosyal hak planları kapsamındaki bakmakla yükümlü olunan kişileri görüntüleyebilirsiniz. Eylem bölmesinde, **Bakmakla yükümlü olunan kişi kapsamı**'nı seçin.
 
-![Bakmakla yükümlü olunan kişi kapsamını görüntüleme](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Bakmakla yükümlü olunan kişi kapsamını görüntüleme.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 Çalışanın bakmakla yükümlü olduğu kişilerin kapsam bilgileri gösterilir.
 
-![Bakmakla yükümlü olunan kişi kapsamı](./media/hr-benefits-management-aca-dependents.png)
+![Bakmakla yükümlü olunan kişi kapsamı.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > Sayfa yalnızca **ACA raporlanabilir** olarak işaretlenmiş sosyal hak planlarını gösterir.

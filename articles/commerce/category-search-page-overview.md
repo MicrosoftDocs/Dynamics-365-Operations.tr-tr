@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794361"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351285"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış
 
@@ -31,7 +31,7 @@ Bu konu, Microsoft Dynamics 365 Commerce e-Ticaret'te varsayılan kategori açı
 
 Varsayılan kategori giriş sayfası, Web sitesi kullanıcılarının gezinti hiyerarşisinde bir kategori seçdiklerinde aldığı bir sayfa. Kategori sayfası gözatmanıza olanak tanır ve ayrıca kategorilere ayrılmış ürünleri sıralayabilir ve bunları iyileştirebilirsiniz.
 
-![Varsyılan kategori açılış sayfası](./media/SimpleCategoryLandingDressCategory.png)
+![Varsyılan kategori açılış sayfası.](./media/SimpleCategoryLandingDressCategory.png)
 
 Sayfanın üst bölümünde, ticaret yöneticisinin kategorilere ayrılmış tüm ürün kategorilerini ve diğer sayfaları gösteren bir başlık yer vardır. Konfigürasyon, kanal gezinme hiyerarşisinin konfigürasyonunun bir parçası olarak gerçekleştirilir. Sayfanın alt bölümünde, bir alışverişçinin ilgilenebileceği çeşitli konularda hızlı bağlantılar içeren bir altbilgi yer almaktadır.
 
@@ -55,7 +55,7 @@ Kategori için aşağıdaki bileşenler gereklidir:
 
 Kategori giriş sayfasının belirli bir kategori için daha özel bir deneyim olmasını istiyorsanız, o kategori için kategori giriş sayfasını "zenginleştirebilirsiniz". Örneğin, alışverişçinin dikkatini çekmek için pazarlama videosu ve bazı kategori öykülerinde bir hikaye ekleyebilirsiniz. Daha fazla bilgi için bkz. [Kategori giriş sayfasını zenginleştirme](enrich-category-page.md).
 
-![Zenginleştirilmiş kategori açılış sayfası](./media/CategoryLandingPages.png)
+![Zenginleştirilmiş kategori açılış sayfası.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Otomatik önerme ve arama sonuçları sayfaları
 
@@ -69,11 +69,11 @@ Aşağıda, gösterilebilecek öneri türleri yer verilmektedir:
 - **Ürünler**, ürün ayrıntıları sayfasına doğrudan bağlantılar sağlar.
 - **Kapsamlı kategori arama önerileri**, çeşitli kategorileri listeler ve kullanıcıların anahtar sözcüğü belirli bir kategoride aramasını sağlar.
 
-![Derinlikli otomatik önerme](./media/ImmersiveAutoSuggestUX.png)
+![Derinlikli otomatik önerme.](./media/ImmersiveAutoSuggestUX.png)
 
 Kullanıcılar anahtar sözcük veya kapsamlı kategori arama önerinden birini seçtiklerinde veya girdikleri arama terimi için hiçbir öneri olmadığında, bunlar arama sonuçları sayfasına yönlendirilir. Kullanıcılar daha sonra, istenen maddeyi bulmak için arama sonuçları listesine göz atabilir, sıralayabilir ve belirginleştirebilirsiniz.
 
-![Arama giriş sayfası](./media/SearchLanding.png)
+![Arama giriş sayfası.](./media/SearchLanding.png)
 
 Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
 
@@ -94,7 +94,7 @@ Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
 
 >[!NOTE]
 >Bu bulut destekli arama özellikleri 10.0.8 sürümünden başlayarak kullanılabilir. **Commerce parametreleri > konfigürasyon parametrelerinin** altında "ProductSearch.UseAzureSearch set to 'true'" olduğundan emin olun. 
-![Bulut destekli arama için yapılandırma parametreleri](./media/CloudPoweredSearchConfigurationParameters.png)
+![Bulut destekli arama için yapılandırma parametreleri.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

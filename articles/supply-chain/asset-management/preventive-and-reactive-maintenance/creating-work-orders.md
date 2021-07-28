@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2fe07790f64f7e7f672980f80a3e56804cefd66
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836746"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351549"
 ---
 # <a name="creating-work-orders"></a>İş emirleri oluşturma
 
@@ -48,7 +48,7 @@ Bakım zamanlamanızı temel alan iş emirleri oluşturmak için aşağıdaki ad
 
     **İş emri oluşturun** iletişim kutusu görüntülenir. **Bakım tahmini saatleri** alanında, seçili satırlar için tahmini saatlerin toplam sayısı gösterilir.
 
-    ![İş emri oluşturun iletişim kutusu](media/18-preventive-maintenance.png)
+    ![İş emri oluşturma iletişim kutusu.](media/18-preventive-maintenance.png)
 
 1. **Parametreler** bölümünde, oluşturulması gereken iş emirlerinin sayısını belirtin. Aşağıdaki seçeneklerden birini belirleyin:
 

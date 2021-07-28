@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e51c6914aab7261862a7ce180376b67d01711e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754276"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359471"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Maliyet muhasebesi analizi güvenliğini ayarlama Power BI içeriği
 
@@ -42,11 +42,11 @@ Erişim düzeyinde güvenliği Power BI'ya yaymak için, Power BI içeriği sahi
 3. **Maliyet muhasebesi analizi** Power BI içeriği için veri kümesini bulun.
 4. Güvenlik sayfasını açın.
 
-    ![Güvenlik sayfasını açma](./media/CA-picture-1.png)
+    ![Güvenlik sayfasını açma.](./media/CA-picture-1.png)
 
 5. **Maliyet nesne denetleyicisi** rolü zaten oluşturulmuştur. Maliyet muhasebesi erişim düzeyi organizasyon hiyerarşisinin bir parçası olan diğer üyeleri ekleyin.
 
-    ![Üyeleri ekleme](./media/CA-picture-2.png)
+    ![Üyeleri ekleme.](./media/CA-picture-2.png)
 
 **Maliyet nesnesi denetleyicisi** rolüne eklenen kullanıcılar, Maliyet muhasebesi erişim düzeyi organizasyon hiyerarşisindeki tanıma göre yalnızca görmelerine izin verilen verileri görecektir.
 

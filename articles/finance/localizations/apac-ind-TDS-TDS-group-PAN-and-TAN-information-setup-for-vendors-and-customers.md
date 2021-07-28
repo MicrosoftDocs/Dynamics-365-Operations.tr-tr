@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023659"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358278"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Satıcılar ve müşteriler için TDS grubu, PAN ve TAN bilgilerini ayarlama
 
@@ -31,7 +31,7 @@ Bu konu, satıcı ve müşteriler için Kaynakta Kesilen Vergi (TDS) grubu, kal�
 
 1. **Borç hesapları \> Satıcılar \> Tüm satıcılar** veya **Alacak hesapları \> Müşteriler \> Tüm müşteriler**'e gidin.
 
-    [![Tüm satıcılar sayfası](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![Tüm satıcılar sayfası.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. Eylem bölmesinde, satıcı veya müşteri oluşturmak üzere **Yeni**'yi seçin ve gerekli ayrıntıları girin. Alternatif olarak, varolan bir satıcı veya müşteriyi de seçebilirsiniz.
 3. **Fatura ve teslimat** hızlı sekmesinde, **Stopaj vergisi** bölümünde, satıcı veya müşteri için stopaj vergisi, TDS veya Kaynakta Tahsil Edilen Vergiyi (TCS) hesaplamak için **Stopaj vergisini hesapla** seçeneğini **Evet** olarak ayarlayın.
@@ -54,13 +54,13 @@ Bu konu, satıcı ve müşteriler için Kaynakta Kesilen Vergi (TDS) grubu, kal�
     - Şirket
     - HUF
     - Kesinleştir
-    - Tek tek
+    - Kişi
     - AOP
     - BOI
     - Yerel makam
     - Diğerleri
 
-    [![Vergi bilgileri hızlı sekmesi](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![Vergi bilgileri hızlı sekmesi.](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. Eylem Bölmesinde, **Satıcı** sekmesinde, **Kayıt** grubunda, **Adresleri yönet** sayfasını açmak için **Kayıt Kimlikleri**'ni seçin.
 10. **Adresleri yönet** sayfasında, **Vergi bilgileri** hızlı sekmesinde, vergi kayıt girişlerini yönetebildiğiniz **Vergi bilgilerini yönet** sayfasını açmak için **Ekle** veya **Düzenle**'yi seçin.

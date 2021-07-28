@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897780"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356715"
 ---
 # <a name="one-voucher"></a>Bir fiş
 
@@ -33,18 +33,18 @@ Mali günlükler için (günlük fişi, sabit kıymet günlüğü, satıcı öde
 
 - Günlük adını (**Genel muhasebe** \> **Günlük ayarı** \> **Günlük adları**), **Yeni fiş** alanı **Yalnızca bir fiş numarası** olacak şekilde ayarlayın. Günlüğe eklediğiniz her satır artık aynı fişte yer alır. Bu nedenle fiş, aynı satırda bir hesap/mahsup hesap veya birleşimi olarak çok satırlı bir fiş şeklinde girilebilir.
 
-    [![Tek satır](./media/same-line.png)](./media/same-line.png)
+    [![Tek satır.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > Bir fiş tanımının **yalnızca Bir fiş numarası** olarak ayarlanan günlük adlarını **içermediğini** ve kullanıcının yalnızca Genel muhasebe türlerini içeren bir fiş girdiğini unutmayın. Bu konuda Bir fiş, birden çok satıcı, müşteri, banka, sabit kıymet veya proje içeren bir fiş olduğu anlamına gelir.
 
 - Mahsup hesabın olmadığı çok satırlı bir fiş girin.
 
-    [![Çok satırlı fiş](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Çok satırlı fiş.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Hesabın ve mahsup hesabın **Satıcı**/**Satıcı**, **Müşteri**/**müşteri**, **Satıcı**/**Müşteri** veya **Banka**/**Banka** gibi bir yardımcı defter hesap türü içerdiği bir fiş girin.
 
-    [![Yardımcı defter fişi](./media/subledger.png)](./media/subledger.png)
+    [![Yardımcı defter fişi.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Bir fiş ile ilgili sorunlar
 
@@ -52,11 +52,11 @@ Bir fiş işlevi; hesap kapatma, vergi hesaplaması, hareketi geri alma, yardım
 
 Örneğin, aşağıdaki fişi deftere naklettiğinizi düşünelim.
 
-[![Çok satırlı fiş örneği](./media/example.png)](./media/example.png)
+[![Çok satırlı fiş örneği.](./media/example.png)](./media/example.png)
 
 Daha sonra **Mali Bilgiler** çalışma alanında, **Satıcıya göre giderler** raporunu oluşturursunuz. Bu raporda, gider hesap bakiyelerini satıcı grubu ve ardından satıcı altında gruplar. Rapor oluşturulurken, sistem 250,00 tutarındaki giderin hangi satıcı grupları/satıcılar tarafından tahakkuk edildiğini belirleyemez. Hareket ayrıntıları eksik olduğundan sistem, 250,00 harcamanın tamamının fişte bulunan ilk satıcı tarafından tahakkuk edildiğini varsayar. Bu nedenle, 600120 numaralı ana hesap bakiyesine dahil olan 250,00 harcama, o satıcı grubu/satıcı altında gösterilir. Ancak, fişteki ilk satıcı çok yüksek olasılıkla doğru satıcı değildir. Bu nedenle, rapor büyük olasılıkla hatalıdır.
 
-[![Satıcıya göre gider raporu](./media/expenses.png)](./media/expenses.png)
+[![Satıcıya göre gider raporu.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Bir fiş'in geleceği
 

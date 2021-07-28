@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64b228954c040050f605d60cd416c112f3b12e25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f00ca2748c3c8f7ec839069f21a5846377b6be04
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802057"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349564"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Çevre birimlerini satış noktasına (POS) bağlama
 
@@ -78,7 +78,7 @@ Kanal düzeyinde belirtilen donanım istasyonunun kendisi donanım istasyonu URL
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>Çevre birimi cihazlarına bağlı MPOS
 
-[![Geleneksel, sabit satış noktası](./media/traditional-300x279.png)](./media/traditional.png)
+[![Geleneksel, sabit satış noktası.](./media/traditional-300x279.png)](./media/traditional.png)
 
 Geleneksel, sabit POS senaryosunda MPOS'u POS çevre birimlerine bağlamak için önce kaydın kendisine gidin ve bir donanım profili atayın. POS kayıtlarını **Retail and Commerce** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** altında bulabilirsiniz. 
 
@@ -97,7 +97,7 @@ Son olarak, MPOS'ta **localhost** donanım istasyonunu seçmek için **Donanım 
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>Bağımsız donanım istasyonlu MPOS veya Bulut POS
 
-[![Paylaşılan çevre birimleri](./media/shared-300x254.png)](./media/shared.png)
+[![Paylaşılan çevre birimleri.](./media/shared-300x254.png)](./media/shared.png)
 
 Bu senaryoda bağımsız donanım istasyonu MPOS ve Bulut POS istemcileri arasında paylaşılır. Bu senaryoda donanım istasyonunun kullandığı indirme paketi, bağlantı noktası ve donanım profilini belirtmek için bir donanım istasyonu profili oluşturmanız gerekir. Donanım istasyonu profilini **Retail and Commerce** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım istasyonu profilleri** altında bulabilirsiniz. 
 

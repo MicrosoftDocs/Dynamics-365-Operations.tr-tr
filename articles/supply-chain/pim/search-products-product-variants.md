@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b99f668061f429baf56cddb957049833bd74939
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8867eabde5fb0999e0a67f11cfa29e1e4fbc6855
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812751"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359993"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama
 
@@ -58,7 +58,7 @@ Aşağıdaki örnekler ürün ve ürün çeşitlerini kullanarak çeşitli senar
 **Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama parametreleri** sayfasında **Sonuç sayısı** alanını kullanarak arama sonuçları sayısını sınırlandırabilirsiniz. Bu alanı 0 olarak ayarlarsanız tüm arama sonuçları gösterilir. Örneğin, 10 olarak ayarlarsanız en fazla 10 arama sonucu gösterilir.
 
 ## <a name="configure-the-product-search"></a>Ürün aramasını yapılandırma
-Ürün ve ürün çeşidi arama özelliğini kullanmadan önce ürün aramayı yapılandırmak için şu adımları izleyin. [![Ürün aramasını yapılandırmak için 3 adım\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
+Ürün ve ürün çeşidi arama özelliğini kullanmadan önce ürün aramayı yapılandırmak için şu adımları izleyin. [![Ürün aramasını yapılandırmak için 3 adım\_AXAppFall.](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
 ### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>Adım 1: Tüm ilgili ürün ve ürün çeşidi kimlik tanımlayıcılarını ve boyutlarını arama ölçütlerine dahil edin
 

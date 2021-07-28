@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f50bc2828df19062a6bdced6faaa7b4d66c38bed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 52d8b1055517bc544eea6a8e405a8b6d5c0eee0a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792787"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356866"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
@@ -34,7 +34,7 @@ DOM siparişin yerine getirilmesini, karmaşık bir sistem ve işlem ağında en
 
 Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döngüsü gösterilmektedir.
 
-![DOM bağlamında satış siparişi yaşam döngüsü](./media/flow.png "DOM bağlamında satış siparişi yaşam döngüsü")
+![DOM bağlamında satış siparişi yaşam döngüsü.](./media/flow.png "DOM bağlamında satış siparişi yaşam döngüsü")
 
 ## <a name="set-up-dom"></a>DOM'u ayarlama
 
@@ -200,7 +200,7 @@ DOM, işleme anında sipariş ve sipariş satırlarını burada açıklandığı
 
 DOM kuralları, stok kısıtlamalarını ve iyileştirmeleri uyguladıktan sonra müşterinin teslimat adresine en yakın konumu seçer.
 
-![Satış siparişi ölçütü](./media/ordercriteria.png "Satış siparişi ölçütü")
+![Satış siparişi ölçütü.](./media/ordercriteria.png "Satış siparişi ölçütü")
 
 ## <a name="results-of-dom-runs"></a>DOM çalıştırma işlemlerinin sonuçları
 
@@ -212,7 +212,7 @@ Oluşturulan tüm karşılama planlarını görüntülemek için aşağıdaki ad
 2. **Dağıtılmış sipariş yönetimi** çalışma alanında, **Karşılama Planları** kutucuğunu seçin.
 3. Karşılama planını görüntülemek için ilgili sipariş karşılama planının kimliğini seçin.
 
-    Karşılama planının sipariş ayrıntıları bölümü çalıştırma işleminin parçası olan orijinal satış siparişi satırlarını gösterir. Sipariş ayrıntıları bölümü, standart satış sipariş satırı alanının yanı sıra aşağıdaki DOM ile ilgili üç alanı da içerir:
+    Karşılama planının sipariş ayrıntıları bölümü çalıştırma işleminin parçası olan orijinal satış siparişi satırlarını gösterir. Sipariş ayrıntıları bölümü, standart satış siparişi satırı alanının yanı sıra aşağıdaki DOM ile ilgili üç alanı da içerir:
 
     - **Karşılama türü**: Bu alan satış siparişi satırının tam olarak satıldığını, kısmen kullanıldığını veya bir konuma hiç satılmadığını gösterir.
     - **Böl**: Bu alan, bir adet satış satırının bölünerek farklı konumlara satılıp satılmadığı gösterir.

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1a25e3d5bc1cc5c1c7509186451fdfef50dd6cf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c8a22a356053789f97fd4f3f9437d57978a67943
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792351"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352144"
 ---
 # <a name="add-product-recommendations-on-pos"></a>POS'ta ürün önerileri ekleme
 
@@ -39,7 +39,7 @@ Temel olarak ürün önerileri; zengin, çekici ve özel ürün keşfi deneyimle
 
     - Mağaza çalışanı farklı kanallardan gerçekleştirilen önceki hareketlere bakarken **Ürün ayrıntıları** sayfasını ziyaret ederse öneriler hizmeti, birlikte satın alınabilecek ek maddeleri önerir.
 
-    [![Ürün ayrıntıları sayfasında öneriler](./media/proddetails.png)](./media/proddetails.png)
+    [![Ürün ayrıntıları sayfasında öneriler.](./media/proddetails.png)](./media/proddetails.png)
 
 2. **Hareket** sayfasında:
 
@@ -48,7 +48,7 @@ Temel olarak ürün önerileri; zengin, çekici ve özel ürün keşfi deneyimle
     > [!NOTE]
     > **Hareket** sayfasında önerileri görüntülemek için, perakendecinin Dynamics 365 Commerce'da ekran düzenini güncelleştirmesi gerekir. **Öneriler** denetimi, **Hareket** sayfasına geçirilmelidir.
 
-    [![Hareketler sayfasında öneriler](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Hareketler sayfasında öneriler.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>POS önerilerini etkinleştirmek için Commerce yapılandırma
 

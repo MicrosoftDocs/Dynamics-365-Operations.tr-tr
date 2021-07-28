@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743859"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351854"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER şablonlarının yedekleme depolaması
 
@@ -65,19 +65,19 @@ Bu özellik için, geçerli ortamdaki yeni bir ER biçimi yapılandırmasının 
 > [!NOTE]
 > Bu parametre, uygulama kullanıcısı ve kaydedilmiş şirkete özel olarak tanımlanır.
 
-![ER konfigürasyon sayfası](./media/GER-BackupTemplates-1.png)
+![ER yapılandırma sayfası.](./media/GER-BackupTemplates-1.png)
 
 Aşağıdaki örnekte **Toplu işte bozuk şablonları geri yükleme yordamını otomatik olarak çalıştır** parametresi **Açık** olarak ayarlandığında beliren ileti gösterilmektedir.
 
-![Satıcı ödeme günlüğü sayfası](./media/GER-BackupTemplates-2.png)
+![Satıcı ödeme günlüğü sayfası.](./media/GER-BackupTemplates-2.png)
 
 Aşağıdaki örnekte , **Toplu iş** sayfasındaki **Bozuk şablonları dahili veritabamı yedeklemesinden geri yükle** toplu işi gösterilmektedir.
 
-![Toplu iş sayfası](./media/GER-BackupTemplates-3.png)
+![Toplu iş sayfası.](./media/GER-BackupTemplates-3.png)
 
 Tamamlanan **Bozuk şablonları dahili veritabanı yedeklemesinden geri yükle** toplu işlemininin yürütme günlüğü yedek depolama konumundan birincil depolama konumuna geri yüklenmiş şablonlar hakkında bilgi içerir.
 
-![Toplu iş geçmişi sayfası](./media/GER-BackupTemplates-4.png)
+![Toplu iş geçmişi sayfası.](./media/GER-BackupTemplates-4.png)
 
 Varsayılan olarak, ER biçim yapılandırmalarında şablonların yedek kopyalarının otomatik oluşturulması işlemi etkindir. Şablonların yedek kopyalarını yapmayı durdurmak, **Şablonun yedek kopyalarını yapmayı durdur** seçeneğini **Elektronik raporlama parametreleri** sayfasının **Ekler** sekmesinde **Evet** olarak ayarlayın. Bu sayfayı **Elektronik raporlama** çalışma alanından açabilirsiniz.
 
@@ -85,7 +85,7 @@ Varsayılan olarak, ER biçim yapılandırmalarında şablonların yedek kopyala
 
 Ortamınızı Finance and Operations 10.0.5 (2019 Ekim) sürümüne yükselttiyseniz ve çalıştırılabilir ER biçimi yapılandırmalarını içeren yeni bir ortama geçiş yapmak istiyorsanız, geçiş işlemi gerçekleşmeden önce **Elektronik raporlama parametreleri** sayfasında **Yedek depolamayı doldur** seçeneğini seçin. Bu düğme, tüm kullanılabilir şablonların yedek kopyalarını oluşturma işlemini başlatır, böylece şablonlar ER yedekleme depolaması alanında depolanabilir.
 
-![Elektronik raporlama parametreleri sayfası](./media/GER-BackupTemplates-5.png)
+![Elektronik raporlama parametreleri sayfası.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>El ile kurtarma
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 94ecd623d445e23cc41829c51429e4783daa49f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304379"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355985"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Planlı siparişleri görüntüleme, yönetme ve onaylama
 
@@ -65,7 +65,7 @@ Planlı siparişlerden kesinleştirilmiş sipariş oluşturma işleminde planlı
 
 Aşağıdaki resim, onay iş akışı uygulamak için her bir planlı siparişe atanan **Durum** değerini nasıl kullanabileceğinizi gösterir. Onay işlemi uygulamak için, önceki bölümde açıklandığı şekilde her bir planlı sipariş için **Durum** değerini manuel olarak düzeltin.
 
-![Planlı sipariş akışı](media/approved-planned-orders-1.png)
+![Planlı sipariş akışı.](media/approved-planned-orders-1.png)
 
 > [!TIP]
 > Değiştirilmiş planlı siparişleri onaylamanız önerilir. Aksi takdirde, düzenlemeler bir sonraki planlama çalıştırması tarafından yok sayılacaktır ve bunların üzerine yazılacaktır.

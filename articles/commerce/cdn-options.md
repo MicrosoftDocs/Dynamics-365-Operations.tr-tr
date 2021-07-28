@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6e8fb2baf85be0eaecfffcc7ec6cbb457c3bb04
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021902"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351261"
 ---
 # <a name="content-delivery-network-implementation-options"></a>İçerik teslimi ağı uygulama seçenekleri
 
@@ -40,7 +40,7 @@ Commerce ortamlarıyla aşağıdaki üç CDN uygulama seçeneği kullanılabilir
 
 Aşağıdaki örnekte Commerce mimarisine genel bakış verilmektedir.
 
-![Commerce mimarisine genel bakış](media/Commerce_CDN-Option_ComparisonModels.png)
+![Commerce mimarisine genel bakış.](media/Commerce_CDN-Option_ComparisonModels.png)
 
 Commerce siteniz için bir Azure Front Door örneği ayarlama hakkında daha fazla bilgi için bkz. [CDN Desteği ekleme](add-cdn-support.md).
 
@@ -54,7 +54,7 @@ Aşağıdaki tabloda içerik bitiş noktalarını yönetmek üzere, Commerce tar
 
 Aşağıdaki resimde, Commerce tarafından sağlanan Azure Front Door örneğinin mimarisi gösterilmektedir.
 
-![Commerce tarafından sağlanan Azure Front Door örneği](media/Commerce_CDN-Option_CommerceFrontDoor.png)
+![Commerce tarafından sağlanan Azure Front Door örneği.](media/Commerce_CDN-Option_CommerceFrontDoor.png)
 
 ## <a name="use-a-customer-owned-azure-front-door-instance"></a>Müşteriye ait bir Azure Front Door örneği kullanma
 
@@ -66,7 +66,7 @@ Aşağıdaki tabloda içerik bitiş noktalarını yönetmek üzere, müşteriye 
 
 Aşağıdaki resimde, müşteriye ait bir Azure Front Door örneği içeren bir Commerce altyapısı gösterilmektedir.
 
-![Müşteriye ait bir Azure Front Door örneği içeren bir Commerce altyapısı](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
+![Müşteriye ait bir Azure Front Door örneği içeren bir Commerce altyapısı.](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
 
 ## <a name="use-an-external-cdn-service"></a>Harici bir CDN hizmeti kullanma
 
@@ -78,7 +78,7 @@ Aşağıdaki tabloda içerik son noktalarını yönetmek için harici bir CDN hi
 
 Aşağıdaki resimde, harici bir CDN hizmeti içeren bir Commerce altyapısı gösterilmektedir.
 
-![Harici CDN hizmeti içeren Commerce altyapısı](media/Commerce_CDN-Option_ExternalFrontDoor.png)
+![Harici CDN hizmeti içeren Commerce altyapısı.](media/Commerce_CDN-Option_ExternalFrontDoor.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

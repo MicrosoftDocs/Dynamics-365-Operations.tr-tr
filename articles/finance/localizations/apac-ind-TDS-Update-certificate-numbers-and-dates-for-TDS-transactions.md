@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a698a8ccc781167060400068dc4011d318b5fe53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023654"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360235"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>TDS hareketleri için sertifika numaraları ve tarihlerini güncelleştirme
 
@@ -33,7 +33,7 @@ TDS hareketleri için sertifika numaralarını ve tarihlerini güncelleştirmek 
 
 1. **Vergi \> Beyanlar \> Stopaj vergisi \> Sertifikayı güncelleştir**'e gidin.
 
-    [![Sertifikayı güncelleştir sayfası](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![Sertifikayı güncelleştir sayfası.](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. **Sertifikayı güncelleştir** sayfasında, **Seçim** bölümünde, **Vergi türü** alanında, **TDS**'yi seçin.
 3. **Sertifika numarası** alanında, müşterinin veya satıcının TDS sertifika numarasını seçin.
@@ -60,4 +60,4 @@ TDS hareketleri için sertifika numaralarını ve tarihlerini güncelleştirmek 
 8. TDS hareketleri için alt ızgaradaki **Sertifika numarası** ve **Sertifika tarihi** alanlarını güncelleştirmek için **Güncelleştir**'i seçin.
 10. **Vergi \> Dolaylı vergiler \> Stopaj vergisi \> Düşürülebilir sertifikası**'na gidin ve **Sertifika hareketleri** sayfasında yeni sertifika numaralarına sahip güncelleştirilmiş hareket satırlarını görüntülemek için **Sorgulama**'yı seçin.
 
-    [![Sertifika hareketleri sayfası](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![Sertifika hareketleri sayfası.](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

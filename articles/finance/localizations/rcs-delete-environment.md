@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 637962cf63bfd8c2330726f33545f939ec91d58d
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: cf82abbe5493eac9665323738441fa016205e9ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295830"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355019"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - RCS ortamını silme
 
@@ -38,11 +38,11 @@ Bu konudaki yordamı tamamlamadan önce, aşağıdaki önkoşulların yerine get
 1. RCS'yi açın ve **Elektronik raporlama** çalışma alanı kutucuğunu seçin.
 2. **İlgili bağlantılar** bölümünde, **RCS ortamını sil**'i seçin.
 
-    ![İlgili bağlantılar bölümünde RCS ortamı bağlantısını silme](media/01_RCS-Delete-Environ-Related-Link.PNG)
+    ![İlgili bağlantılar bölümünde RCS ortamı bağlantısını silme.](media/01_RCS-Delete-Environ-Related-Link.PNG)
 
 3. Görüntülenen iletişim kutusunda, ortam silme kapsamı hakkındaki iletileri gözden geçirin.
 
-    ![RCS ortamını sil iletişim kutusundaki iletiler](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
+    ![RCS ortamını sil iletişim kutusundaki iletiler.](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
 
     > [!IMPORTANT]
     > RCS ortamının silinmesi geri alınamaz.

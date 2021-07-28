@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 60ad0dd821dc91576a59cf73ec46da4aefd34a2f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94abcf7189dc7c1f5587eb06d47650dc707c5007
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794271"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352410"
 ---
 # <a name="manage-ratings-and-reviews"></a>Derecelendirme ve incelemeleri yönetme
 
@@ -45,7 +45,7 @@ Commerce site oluşturucuda bir inceleme okumak için aşağıdaki adımları iz
 
 Ek filtreler, gözden geçirmeleri dönem, derecelendirme, kanal veya ilgi durumu (kapalı, yanıtlanan veya rapor edilen) ile sınırlamanıza olanak sağlar.
 
-![Düzenleme giriş sayfası](media/rnr-moderation-home.png) 
+![Düzenleme giriş sayfası.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>İncelemeyi yanıtlama 
 
@@ -59,7 +59,7 @@ Commerce site oluşturucuda bir incelemeyi yanıtlamak için aşağıdaki adıml
 1. Yanıt metnini ve Yanıtlayıcı için gösterilmesi gereken adı girin. Varsayılan Yanıtlayıcı adı **moderatör**'dür.
 1. Tamamladıktan sonra **Yanıt gönder**'i seçin.
 
-![İncelemeyi yanıtlama](media/rnr-moderation-response.png) 
+![İncelemeyi yanıtlama.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Bir inceleme atın 
 
@@ -82,7 +82,7 @@ Commerce site oluşturucuda müşteri verilerini bulmak ve silmek için aşağı
 1. Müşterinin herhangi bir gözden geçirme faaliyeti varsa (örneğin, gönderimleri gözden geçirin, başka bir müşterinin incelemelerinin yardım veya başka bir müşterinin inceliğindeki Yorumlar hakkında oy varsa), sonuçlar gösterilir. Her madde için **Sil** düğmesi bulunur.
 1. Silinmesi gereken her bir madde için **Sil**'i seçin. Onaylamanız istendiğinde **Evet**'i seçin. 
     
-![Müşteri verilerini silme](media/rnr-moderation-delete-reviews.png) 
+![Müşteri verilerini silme.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Verilerin sistemden tümüyle kaldırılması yedi gün kadar sürebilir. Moderatörler müşterileri bu gecikmeyle bilgilendirmelidir.
@@ -106,23 +106,23 @@ Commerce site oluşturucuda dereceledirmeler ve incelemeler eğilimlerini görme
 1. **Ev \> Gözden geçirmeler \> Raporlama**'ya gidin.
 1. Şablonu indirmek için **PowerBI şablonu** seçin.
 
-    ![Power BI şablonunu indirme](media/rnr-moderation-reports.png) 
+    ![Power BI şablonunu indirme.](media/rnr-moderation-reports.png) 
 
 1. Power BI uygulamayı kullanarak karşıdan yüklenen şablonu açın. Görüntülenen **Web içeriğine erişim** iletişim kutusunu kapatın ve sonra da görüntülenen "Yenile" hata iletisini kapatın.
 1. **Giriş** sayfasına gidin, **Düzenle sorgular**'ı seçin ve sonra **veri kaynağı ayarlarını** seçin.
 1. **Veri kaynağı ayarları** iletişim kutusunda **kaynağı değiştir** 'i seçin.
 1. **URL** alanına önceki yordama indirdiğiniz İnceleme verilerinin yolunu girin (örneğin, **c:\\incelemeler\\İncelemelerVerileri.csv**).
 
-    ![Virgülle ayrılmış değerler iletişim kutusundaki URL alanı](media/rnr-powerbi-datasource-settings.png) 
+    ![Virgülle ayrılmış değerler iletişim kutusundaki URL alanı.](media/rnr-powerbi-datasource-settings.png) 
 
 1. **Tamam** seçin ve daha sonra **Değişiklikleri uygulay**'ı seçin. Değişikliklerinizi veri kaynağına uygulamak için iki dakika arasında bir süre sürer.
 1. Derecelendirmeleri ve İnceleme eğilimlerini görüntülemek için **eğilim sayfası** seçin.
 
-    ![Derecelendirmelere ve incelemeler trendleri](media/rnr-powerbi-dashboard-template.png) 
+    ![Derecelendirmelere ve incelemeler trendleri.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Derecelendirme ve incelemelere genel bakış](ratings-reviews-overview.md)
+[Derecelendirmelere ve incelemelere genel bakış](ratings-reviews-overview.md)
 
 [Derecelendirme ve incelemeleri kullanmayı kabul etme](opt-in-ratings-reviews.md)
 

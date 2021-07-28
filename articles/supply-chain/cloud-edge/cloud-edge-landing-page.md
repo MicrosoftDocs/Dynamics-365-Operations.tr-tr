@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261758"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354821"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri
 
@@ -41,7 +41,7 @@ Bulut ve uç ölçek birimleri atölye ve ambar yürütme iş yüklerinin farkl�
 
 Ölçek birimleri, özel işleme kapasitesi ekleyerek merkezi Supply Chain Management hub ortamınızı genişletir. Ölçek birimleri bulutta çalışabilir. Alternatif olarak, yerel tesislerde uçta ve şirket içinde de çalıştırabilirsiniz.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Ölçek birimlerini içeren Dynamics 365":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Ölçek birimlerini içeren Dynamics 365.":::
 
 Ölçek birimleri, atanan iş yükleri için esneklik, güvenilirlik ve ölçek sağlar. Uç ölçek birimlerinin bağlantısı bulut merkezi ortamından geçici olarak kaldırılabilir ve çalışanlar uçta atanan iş yüklerinde çalışmaya devam edebilir.
 
@@ -157,7 +157,7 @@ Korumalı alan veya üretim ortamlarınızdan birini yeni topolojiye eklemek iç
 
 Giriş düzeyi SKU *Temel* olarak ve daha performanslı SKU *Standart* olarak bilinir. Her SKU, belirli sayıda aylık işlemle önceden yüklenir. Ancak, her SKU için fazla kullanım eklentileri ekleyerek aylık işlem bütçesini artırabilirsiniz.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Bulut ölçek birimleri için eklentiler":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Bulut ölçek birimleri için eklentiler.":::
 
 > [!TIP]
 > Gereksinimlerinizi en iyi karşılayan boyutlandırmayı belirlemek için, gereksinim duyduğunuz aylık işlem boyutunu anlamak üzere iş ortağınız ve Microsoft ile birlikte çalışın.
@@ -181,11 +181,11 @@ Aradığınız kiracı listede yoksa [LCS](https://lcs.dynamics.com/v2)'ye gidin
 
 Liste, her kiracı için ekleme durumunu gösterir.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Dynamics 365 Kiracılar sekmesindeki kiracıların listesi":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Dynamics 365 Kiracılar sekmesindeki kiracıların listesi.":::
 
 LCS kiracısı için katılım istemek üzere **Başlamak için buraya tıklayın**'ı seçin. Koşulları kabul etmelisiniz. Ayrıca, Microsoft'un ekleme işlemiyle ilgili iletişimleri gönderebileceği bir iş e-posta adresi de sağlamanız gerekir.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Kiracı için kayıt gönderme":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Kiracı için kayıt gönderme.":::
 
 Microsoft, kayıt formunda sağladığınız adrese bir e-posta göndererek isteğinizi gözden geçirecek ve sonraki adımlar hakkında sizi bilgilendirecektir. Microsoft, iş senaryonuz için karma topolojide ölçek birimlerini etkinleştirmek üzere sizinle yakından çalışacaktır.
 
@@ -195,13 +195,13 @@ Ekleme tamamlandıktan sonra, ölçek birimlerini ve iş yüklerini yapılandır
 
 [Ölçek Birimi Yöneticisi portalına](https://aka.ms/SCMSUM) gidin ve kiracı hesabınızı kullanarak oturum açın. **Ölçek birimlerini yapılandır** sayfasında, önceden listelenmemişse bir hub ortamı ekleyebilirsiniz. Daha sonra ölçek birimleri ve iş yükleri ile yapılandırmak istediğiniz hub'ı seçebilirsiniz.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Ölçek birimi ve iş yükü yönetimi deneyimi":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Ölçek birimi ve iş yükü yönetimi deneyimi.":::
 
 Aboneliklerinizde bulunan bir veya daha fazla ölçek birimini eklemek için **Ölçek birimleri ekle**'yi seçin.
 
 **Tanımlanan iş yükleri** sekmesinde, ölçek birimlerinizden birine ambar yönetimi iş yükü eklemek için **İş yükü oluştur** düğmesini kullanın. Her iş yükü için iş yükü tarafından sahip olunacak işlemlerin bağlamını belirtmeniz gerekir. Ambar yönetimi iş yükleri için bağlam, belirli bir tesis ve tüzel kişilikteki belirli bir ambardır.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="İş yükü oluşturma":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="İş yükü oluşturma.":::
 
 > [!TIP]
 > Zaman içinde, yaşam döngüsü yönetimi işlemlerini kolaylaştırmaya yardımcı olmak için Ölçek Birim Yöneticisi deneyimine artımlı geliştirmeler eklenecektir. Geçerli sürüme yönelik özellikler, Supply Chain Management için dağıtılmış, karma topolojiye katılma sürecinde olan müşteriler tarafından kullanılabilen bir katılım el kitabında belgelenmiştir. <!-- KFM: Add a link to the handbook when it is published -->

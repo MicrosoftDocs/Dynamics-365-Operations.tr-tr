@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9392245abe5858b03b8324dcb471f5652aed7cd6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c2d88315d95d8376cd1b00ddb11ba008f11a98c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813905"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351621"
 ---
 # <a name="calculate-item-forecast"></a>Madde tahminini hesapla
 
@@ -56,7 +56,7 @@ Bu, belirli bir döneme ait beklenen madde tüketiminin (iş emirlerini tamamlam
 
 8. Maddelerle ilgili ürün, depolama alanı veya izleme boyutlarını görmek istiyorsanız, **Boyutları görüntüle** düğmesine tıklayın. İlgili onay kutularını seçin ve **Tamam**'a tıklayın.
 
-![Şekil 1](media/02-capacity-planning.png)
+![Şekil 1.](media/02-capacity-planning.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

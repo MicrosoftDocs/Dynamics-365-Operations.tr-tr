@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37efef723a7ca5e5f2333ff41cdf8351156e9bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 393239571de8a8d845107a8a8a151748c6b963c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821621"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356009"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile FIFO
 
@@ -51,7 +51,7 @@ Bu örnekte ürün model grubu, fiziksel değeri dahil edecek şekilde işaretle
 
 Yeni cari ortalama maliyet fiyatı, mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. Aşağıdaki çizimlerde **Fiziksel değeri dahil et** seçenek kullanılmadığında FIFO stok modelinin bu hareket serisindeki etkilerini gösterir. 
 
-![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan FIFO](./media/fifowithoutincludephysicalvalue.gif) 
+![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan FIFO.](./media/fifowithoutincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -83,7 +83,7 @@ Yeni cari ortalama maliyet fiyatı, mali olarak güncelleştirilen hareketlerin 
 
 5b hareketi 1b giriş hareketine karşılık olarak kapatılır. Bu çıkış hareketine negatif 11.25 ABD Doları tutarında bir düzeltme yapılır. Yeni cari ortalama maliyet fiyatı 27.50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında FIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
 
-![Fiziksel Değeri Dahil Et Seçeneği ile FIFO](./media/fifowithincludephysicalvalue.gif) 
+![Fiziksel Değeri Dahil Et Seçeneği ile FIFO.](./media/fifowithincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -115,7 +115,7 @@ Yeni cari ortalama maliyet fiyatı, mali olarak güncelleştirilen hareketlerin 
 
 Yeni cari ortalama maliyet fiyatı 27.50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. Aşağıdaki çizimde çıkışlar ve girişler kullanıldığında FIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
 
-![İşaretleme ile FIFO](./media/fifowithmarking.gif) 
+![İşaretleme ile FIFO.](./media/fifowithmarking.gif) 
 
 **Diyagramın anahtarı**
 

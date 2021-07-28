@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a79986e3b477865bc1816a1d28c1b7094ae3974
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 30cd077402928bc33949b821b9b114fbf8a632f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809818"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359161"
 ---
 # <a name="add-fault-to-work-order"></a>İş emrine hata ekle
 
@@ -50,7 +50,7 @@ Arıza tasarımcısında tasarlanmış arızaları bir iş emrine ekleyebilirsin
 
 Aşağıdaki şekilde bir arıza merkezi kaydı örneği gösterilmiştir.
 
-![Şekil 1](media/19-work-orders.png)
+![Şekil 1.](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>Varlık arızalarını görüntüleme
