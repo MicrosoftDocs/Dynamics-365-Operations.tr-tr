@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f3fcfae9f4ab458b4f14f18859f22fc25bf98623
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: e7964181a739a8138011abca77d0321d819e0a98
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027636"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354505"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Görev listeleri oluşturma ve görev ekleme
 
@@ -70,7 +70,7 @@ Görev oluştururken görev bağlantıları eklemek için, aşağıdaki adımlar
 
 Aşağıdaki resimde, **görevi düzenle** iletişim kutusunda görev bağlantılarının seçimi gösterilmektedir.
 
-![Düzenle görev iletişim kutusunda görev bağlantıları seçme](media/HQ-POS-Tasks-Linking.png)
+![Düzenle görev iletişim kutusunda görev bağlantıları seçme.](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>Bir göreve bağlanabilmesi için bir POS operasyonu konfigüre et
 

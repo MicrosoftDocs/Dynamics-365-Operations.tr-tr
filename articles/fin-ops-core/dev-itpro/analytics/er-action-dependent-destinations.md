@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893590"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358681"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Eyleme bağlı ER hedeflerini yapılandırma
 
@@ -69,11 +69,11 @@ Geçerli Finance kurulumunda eyleme bağlı ER hedeflerini yapılandırmak ve [y
 
 Aşağıdaki çizimde, tek bir kullanıcı eylemi için her kayıt yapılandırma işleminde ER hedeflerini ayrı hedef kayıtları kümesi olarak nasıl yapılandırabileceğiniz gösterilmektedir.
 
-![Tek bir kullanıcı eylemi için her hedef kaydı yapılandırıldığında ER biçimi için eyleme bağlı hedef ayarları olan elektronik raporlama hedefi sayfası](./media/er-destination-action-dependent-01.png)
+![Tek bir kullanıcı eylemi için her hedef kaydı yapılandırıldığında ER biçimi için eyleme bağlı hedef ayarları olan elektronik raporlama hedefi sayfası.](./media/er-destination-action-dependent-01.png)
 
 Aşağıdaki çizimde, tek bir hedef için her kayıt yapılandırma işleminde ER hedeflerini ayrı hedef kayıtları kümesi olarak yapılandırmayı alternatif olarak nasıl yapabileceğiniz gösterilmektedir.
 
-![Tek bir hedef için her hedef kaydı yapılandırıldığında ER biçimi için eyleme bağlı hedef ayarları olan elektronik raporlama hedefi sayfası](./media/er-destination-action-dependent-01a.png)
+![Tek bir hedef için her hedef kaydı yapılandırıldığında ER biçimi için eyleme bağlı hedef ayarları olan elektronik raporlama hedefi sayfası.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Çalışan ER biçimi için bir eylem kodu sağlanıp söz konusu eylem kodu için hiçbir hedef yapılandırılmamışsa [varsayılan](electronic-reporting-destinations.md#default-behavior) hedef davranışı uygulanır.
@@ -84,7 +84,7 @@ Bir ER biçimi çalıştırıldığında, çalışma zamanında yapılandırıla
 
 Aşağıdaki çizimde, serbest metin faturası [deftere nakledildiğinde](../../../finance/accounts-receivable/create-free-text-invoice-new.md) görüntülenen **Elektronik raporlama biçimi hedefleri** iletişim kutusunun bir örneği gösterilir. **Yazıcı** eylemi sağlanmışsa ve bu konunun önceki kısımlarında belirtilen şekilde bu biçim için ER hedefleri yapılandırılmışsa bu belgeyi oluşturmak için **Serbest metin faturası (Excel)** ER biçimi çalıştırılır.
 
-![Çalıştırılan ER biçimi için başlangıçta yapılandırılmış ER hedeflerini değiştirme seçeneği sunan iletişim kutusu](./media/er-destination-action-dependent-02.gif)
+![Çalıştırılan ER biçimi için başlangıçta yapılandırılmış ER hedeflerini değiştirme seçeneği sunan iletişim kutusu.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Çalıştırılan ER biçiminin birkaç bileşeni için ER hedefi yapılandırdıysanız ER biçiminin yapılandırılmış her bileşeni için ayrı olarak bir seçenek sunulur.
@@ -103,7 +103,7 @@ Sağlanan kullanıcı eylem kodunu doğrulamak için bu adımları izleyin.
 6. **Yapılandırma hata ayıklama günlükleri** sayfasında, ER biçimi çalıştırmanızın günlüğünü bulmak için ER çalıştırma günlüklerini filtreleyin.
 7. ER biçimi çalıştırması için sağlanan bir eylem varsa sağlanan kullanıcı eylemi kodunu gösteren kaydı içermesi gereken günlük girişlerini inceleyin.
 
-    ![ER biçiminin filtreli çalıştırılması için sağlanan kullanıcı eylemi kodu hakkında bilgiler içeren elektronik raporlama çalıştırma günlükleri sayfası](./media/er-destination-action-dependent-03.png)
+    ![ER biçiminin filtreli çalıştırılması için sağlanan kullanıcı eylemi kodu hakkında bilgiler içeren elektronik raporlama çalıştırma günlükleri sayfası.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">İş belgelerinin listesi (1. dalga)</a>
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1abf029e6f72c1c6a827a00483bb34c4abcaec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e5cc7d21a9993985d1ad1fc2684777ff7ceb138
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808148"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354144"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Bakım görevlisi takvimi ve zamanlama
 
@@ -32,7 +32,7 @@ ms.locfileid: "5808148"
 
 Aşağıdaki ekran görüntüsünde, çalışma zamanı takvimi "Üretim" kullanan bir kaynakla ilişkili bir bakım görevlisi örneği gösterilmektedir.
 
-![Şekil 1](media/01-work-order-scheduling.png)
+![Şekil 1.](media/01-work-order-scheduling.png)
 
 Araçlar ve varlıklar için takvim kurulumunun iş emri zamanlayla ilgili olması gerekmez. Varsayım, araçların ve varlıkların bakım için günde 24 saat kullanılabilir durumda olduğudur.
 

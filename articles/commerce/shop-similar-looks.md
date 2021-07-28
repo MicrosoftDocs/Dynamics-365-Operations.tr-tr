@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795393"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357774"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>"Benzer görünümleri araştır" önerilerini etkinleştirme
 
@@ -68,7 +68,7 @@ Commerce Headquarters'da "benzer görünümleri araştır" önerileri özelliği
 
 Aşağıdaki şekilde, Commerce Headquarters'daki **Özellik Yönetimi** sayfasında bulunan **Benzer görünümleri araştır** özelliği gösterilmektedir.
 
-![Commerce Headquarters'daki Özellik Yönetimi sayfasında bulunan Benzer görünümleri araştır özelliği](./media/enableshopsimilarlooks.png)
+![Commerce Headquarters'daki Özellik Yönetimi sayfasında bulunan Benzer görünümleri araştır özelliği.](./media/enableshopsimilarlooks.png)
 
 Önceki görevler tamamlandıktan sonra, POS terminalleri otomatik olarak bağlamsal bir **Benzer görünümleri araştır** paneliyle geliştirilir. **Daha fazlasını gör** öğesini seçerek POS terminali kullanıcıları daha fazla filtreleme yapabilecekleri özel bir "benzer görünümleri araştır" sayfasına gidebilir.
 
@@ -88,7 +88,7 @@ Commerce site oluşturucusunu kullanarak PDP'ye **Benzer görünümleri araştı
 
 Aşağıdaki şekilde, **Benzer Görünümler Araştır Bağlantısını Etkinleştir** onay kutusu ve site oluşturucudaki bir PDP örneğinde bulunan **Benzer görünümler araştır** düğmesi gösterilmektedir.
 
-![Benzer Görünümler Araştır Bağlantısını Etkinleştir onay kutusu ve site oluşturucudaki bir PDP'deki Benzer görünümler araştır düğmesi](./media/SSLecomtooling.png)
+![Benzer Görünümler Araştır Bağlantısını Etkinleştir onay kutusu ve site oluşturucudaki bir PDP'deki Benzer görünümler araştır düğmesi.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749501"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349172"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Hesaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş çağrılarını destekleme
 
@@ -86,7 +86,7 @@ Bu örnekte, Litware, Inc. adlı örnek şirket için bir yapılandırma oluştu
 
     Bu yapılandırmadaki model eşlemesi, bu model için oluşturulan ve Finance and Operations'da yürütülen ER biçimleri için temel veri modelini uygular. Sonuç olarak **Vergi** ve **Gr** veri kaynaklarının içeriği soyut veri kaynakları gibi ER biçimleri için sunulur.
 
-    ![Vergi ve Gr veri kaynaklarını gösteren model eşleme tasarımcısı sayfası](media/er-calculated-field-type-01.png)
+    ![Vergi ve Gr veri kaynaklarını gösteren model eşleme tasarımcısı sayfası.](media/er-calculated-field-type-01.png)
 
 5.  **Model eşleme tasarımcısı** sayfasını kapatın
 6.  **Model eşleme** sayfasını kapatın.
@@ -101,21 +101,21 @@ Bu örnekte, Litware, Inc. adlı örnek şirket için bir yapılandırma oluştu
     - Vergi beyanında aşağıdaki vergilendirme düzeylerini sunmak: normal, azaltılmış ve yok.
     - Her bir vergilendirme düzeyinde birden çok ayrıntı sunmak ve her düzeyde farklı ayrıntılara sahip olmak.
 
-    ![Biçim tasarımcısı sayfası](media/er-calculated-field-type-02.png)
+    ![Biçim tasarımcısı sayfası.](media/er-calculated-field-type-02.png)
 
 4. **Eşleme**'yi seçin.
 5. **Model**, **Veri** ve **Özet** öğelerini genişletin. 
 
     Hesaplanan **Model.Data.Summary.Level** alanı, vergilendirme düzeyi kodunu döndüren ifadeyi içerir (**Normal**, **Azaltılmış**, **Yok** veya **Diğer)**; bu ifade çalışma zamanında **Model.Data.Summary** veri kaynağından elde edilebilecek vergi kodu için metin değeridir.
 
-    ![Parametreli çağrıları öğrenmek için veri modeli modelinin ayrıntılarını gösteren biçim tasarımcısı sayfası](media/er-calculated-field-type-03.png)
+    ![Parametreli çağrıları öğrenmek için veri modeli modelinin ayrıntılarını gösteren biçim tasarımcısı sayfası.](media/er-calculated-field-type-03.png)
 
 6. **Model**.**Data2** öğesini genişletin.
 7. **Model**.**Data2.Summary2** öğesini genişletin.
    
     **Model**.**Data2.Summary2**, **Model.Data.Summary** veri kaynağı hareketi ayrıntılarını vergilendirme düzeyine göre (**Model.Data.Summary.Level** hesaplanan alanı tarafından döndürülen) gruplandırmak ve toplamları hesaplamak üzere yapılandıırlır.
 
-    ![Model.Data2.Summary2 veri kaynağının ayrıntılarını gösteren biçim tasarımcısı sayfası](media/er-calculated-field-type-04.png)
+    ![Model.Data2.Summary2 veri kaynağının ayrıntılarını gösteren biçim tasarımcısı sayfası.](media/er-calculated-field-type-04.png)
 
 8. **Model**.**Data2.Level1**, **Model**.**Data2.Level2** ve **Model**.**Data2.Level3.** hesaplanan alanlarını gözden geçirin. Bu hesaplanan alanlar **Model**.**Data2.Summary2** kayıtları listesini filtremek için kullanılır ve yalnızca belirli bir vergilendirme düzeyini temsil eden kayıtları döndürür.
 9. **Biçim tasarımcısı** sayfasını kapatın.
@@ -155,7 +155,7 @@ Var olan üç alanı kullanmak yerine, gerekli vergilendirme düzeyini filtrelem
 
     Tek bir hesaplanan alan için belirtilebilecek maksimum parametre sayısı 8'dir.
 
-    ![Parametre veri kaynağı listesi](media/er-calculated-field-type-05.png)
+    ![Parametre veri kaynağı listesi.](media/er-calculated-field-type-05.png)
 
 5. **Tamam**'ı seçin.
 
@@ -165,7 +165,7 @@ Bu parametreyi ekleyerek, bu hesaplanan alanı çağırmak için yerinde olması
 
    Yapılandırılan parametre, bu hesaplanan alan için veri kaynakları listesinde bulunur. **Veri kaynağı ekle**'yi seçerek parametreyi yapılandırılan ifadeye ekleyebilirsiniz.
 
-   ![Veri kaynağı alanları](media/er-calculated-field-type-06.png)
+   ![Veri kaynağı alanları.](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>Hesaplanan alan eklemek için ifade tanımlama
 
@@ -181,7 +181,7 @@ Bu parametreyi ekleyerek, bu hesaplanan alanı çağırmak için yerinde olması
 
 5. **Kaydet**'i seçin.
 
-    ![Veri kaynağı alanı bilgileri](media/er-calculated-field-type-07.png)
+    ![Veri kaynağı alanı bilgileri.](media/er-calculated-field-type-07.png)
 
 6. **Formül tasarımcısı** sayfasını kapatın.
 
@@ -191,7 +191,7 @@ Bu parametreyi ekleyerek, bu hesaplanan alanı çağırmak için yerinde olması
 
 **Biçim Tasarımcısı** sayfasında, yapılandırılmış **Düzeyler** parametreli hesaplanan alanı bir **Dize** bağımsız değişkeni gerektirir.
 
-![Hesaplanan alan düzeylerinin genişletilmiş listesi](media/er-calculated-field-type-08.png)
+![Hesaplanan alan düzeylerinin genişletilmiş listesi.](media/er-calculated-field-type-08.png)
 
 ### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Biçim öğelerini bağlamak için yapılandırılmış hesaplanan alanı kullanma
 
@@ -220,7 +220,7 @@ Parametreli hesaplanan alanın yinelenen çağrıları desteklenmez.
 
 **Formülü düzenle**'yi seçebilir ve seçili bağlamada parametreli hesaplanan alanın varsayılan olarak uygulanan bağımsız değişkenini değiştirebilirsiniz. Bu bağımsız değişken eksikse, çalışma zamanında hatalara neden olabilir — kullanıcılara, geçerli biçim doğrulandığında böyle bir durumla ilgili bilgi verilir.
 
-![Doğrulama uyarı bildirimi](media/er-calculated-field-type-10.png)
+![Doğrulama uyarı bildirimi.](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>Bir kayıt döndüren parametreli bir hesaplanan alan yapılandırma
 Parametreli hesaplanan alan bir kayıt döndürdüğünde, öğeleri biçimlendirmek için bu kaydın ayrı alanların bağlamasını desteklemesi gerekir. Bu gibi durumlarda parametreli hesaplanan alanı çağırmak için bir bağımsız değişkenin değerini içeren üst bir bağlama olmaz — bu değerin tek bir kayıt alanı bağlamasında tanımlanması gerekir.
@@ -272,7 +272,7 @@ Parametreli hesaplanan alan bir kayıt döndürdüğünde, öğeleri biçimlendi
 8. **Formül düzenle**’yi seçin.
 9. İfadeyi **Model.Data2.LevelRecord("None").aggregated.Base** olarak değiştirin.
 
-![Güncelleştirilmiş ifade](media/er-calculated-field-type-11.png)
+![Güncelleştirilmiş ifade.](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>Kullanılmayan hesaplanan alanları kaldırma
 

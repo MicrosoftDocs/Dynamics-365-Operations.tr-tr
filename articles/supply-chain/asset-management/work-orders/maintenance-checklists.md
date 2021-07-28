@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 57a7d5920de610cd6d38a8184b96f75a7563911b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 135887e4ca8dfc6cae9aa73b316815ed3a7041a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347104"
 ---
 # <a name="maintenance-checklists"></a>Bakım denetim listeleri
 
@@ -75,7 +75,7 @@ Bakım denetim listeleri varsayılan bakım işi türü tanımından oluşturulu
 
 Aşağıdaki şekilde bir bakım denetim listesi örneği gösterilmiştir.
 
-![Şekil 1](media/14-work-orders.png)
+![Şekil 1.](media/14-work-orders.png)
 
 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750576"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352924"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Birden çok çalışma sayfasına sahip veri şablonları
 
@@ -32,13 +32,13 @@ Uygulamadaki veri yönetimi, veri varlıkları için Microsoft Excel tabanlı ş
 
 İkinci varlık olan **Ambarlar**'ı **Dosya Ekle** formunu kapatmadan seçerseniz, çalışma sayfası araması **Ambarlar** çalışma sayfasını dosyayı yeniden karşıya yüklemenize gerek kalmadan seçmenize olanak tanır. Yeni bir dosyayı karşıya yüklemenin tek nedeni **Ambarlar** verisinin farklı bir dosyada bulunması olabilir.
 
-![Birden çok çalışma sayfası](./media/AddFileMultipleWorkSheets.png)
+![Birden çok çalışma sayfası.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Çalışma sayfası ile varlık eşlemesini düzeltme
 
 Çalışma sayfasının bir içe aktarma işinde veri varlığı eşlemesi kılavuzdan düzeltilebilir. Kılavuzdaki **Çalışma sayfası** sütunu eşlenen dosyadaki çalışma sayfalarını gösterir. Açılan menüden başka bir çalışma sayfasını seçebilirsiniz. Seçilen çalışma sayfası zaten veri projesindeki bir varlıkla eşlenmişse, sistem değişikliği onaylamanızı ister. Tüm eşlemeleri ızgarada düzeltmenizi öneririz.
 
-![Çalışma sayfası eşlemesini güncelleştirme](./media/UpdateMappings.png)
+![Çalışma sayfası eşlemesini güncelleştirme.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Yeni bir dosyayla yeniden eşleme
 

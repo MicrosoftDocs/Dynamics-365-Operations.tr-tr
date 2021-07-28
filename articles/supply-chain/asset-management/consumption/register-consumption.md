@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f38b01d94fd2efcce5de210f77124fdc24be6e39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50ace9a2f8f5fa39dc927e11f0acd707167ef126
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837909"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346238"
 ---
 # <a name="register-consumption"></a>Tüketimi kaydetme
 
@@ -54,7 +54,7 @@ Bazı durumlarda, bir iş emrine tahmin satırları ekleyebilir veya silebilirsi
 
 Aşağıdaki ekran görüntüsü, **İş emri günlüklerindeki** bir iş emrindeki bir saat ve madde kaydı örneğini gösterir.
 
-![Şekil 1](media/01-consumption.png)
+![Şekil 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Birkaç iş emri işine sahip iş emirlerindeki saatleri bölme
@@ -73,13 +73,13 @@ Bir iş emri birkaç iş emri işi içeriyorsa, iş saatlerini **Saatleri böl**
 
 6. **Saatler** alanına bölünecek çalışma saatleri sayısını ekleyin.
 
-    ![Şekil 2](media/02-consumption.png)
+    ![Şekil 2.](media/02-consumption.png)
 
 7. **Tamam**'a tıklayın.
 
 *Örnek:* Aşağıdaki ekran görüntüsünde, üç iş emri işi içeren bir iş emrine ait günlük satırları gösterilir. Üç iş saati içeren ilk satır bölünmüştür ve her bir iş emri işine bir saat kaydedilir. Üç saat kayıt satırı oluşturulduktan sonra, orijinal saat kayıt satırı (örnekteki ilk satır) ile ne yapılacağına karar verirsiniz. Olduğu gibi tutabilir veya silebilirsiniz. 
 
-![Şekil 3](media/03-consumption.png)
+![Şekil 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Tüketim kayıtlarında mali boyutlar
 

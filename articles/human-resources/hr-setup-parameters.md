@@ -2,7 +2,7 @@
 title: Human Resources parametrelerini yapılandırma
 description: Bu konuda, Dynamics 365 Human Resources'da şirkete özel parametrelerin nasıl ayarlanacağı açıklanmaktadır.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052421"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356548"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resources parametrelerini yapılandırma
 
@@ -30,7 +30,7 @@ Human Resources parametrelerinin ayarları şirketler arasında paylaşılır an
 
 İki sayfa Human Resources parametrelerini ayarlamak için kullanılır. Şirketler arasında paylaşılan parametreler için **İnsan Kaynakları paylaşılan parametreleri** sayfasını kullanırsınız. Şirkete özgü parametreler için (diğer bir deyişle, tek bir şirket için uygulanan ayarlar) **İnsan Kaynakları parametreleri** sayfasını kullanırsınız.
 
-![Human Resources parametrelerini yapılandır'a gidin](./media/hr-employee-self-service-human-resources-parameters.png)
+![Human Resources parametrelerini yapılandır'a gidin.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 **İnsan Kaynakları parametreleri** sayfasında ayarlar altı sekmeye ayrılır:
 
@@ -51,14 +51,15 @@ Her sekme, tek bir şirketle ilgili bilgileri içerir.
 
 **genel** sekmesindeki ayarlar, Devamsızlık, yaralanma ve hastalık ve yeni işe alma hakkında bilgi görünümünü belirler. Bu sekmedeki ayarlar, çalışırken görünen bazı varsayılan girdileri de tanımlar. Özellikle, bu sekme şunları sağlar:
 
-- Açık devamsızlık hareketlerine uygulanacak rengi seçme
-- Raporlar için kullanılacak stil sayfasını belirtme
-- Eğitim kursları ve devamsızlık kaydı arasındaki tümleştirmeyi etkinleştirme
+- Açık devamsızlık hareketlerine uygulanacak rengi seçme.
+- Raporlar için kullanılacak stil sayfasını belirtme.
+- Eğitim kursları ve devamsızlık kaydı arasındaki tümleştirmeyi etkinleştirme.
 - Bu tümleştirmeyi denetlemek için kullanılan devamsızlık kodunu seçme.
 - Yaralanma ve hastalık durumlarının ne kadar süreyle saklanılacağını belirtme.
 - Yeni bir çalışan işe alındığında gösterilen varsayılan kimlik numarasını belirtme.
+- Hizmet yıllarını hesaplamak için kullanılacak tarihi belirtin. 
 
-![Genel sekmesi](./media/hr-setup-parameters-general.png)
+![Genel sekmesi.](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>İşe alma
 
@@ -76,7 +77,7 @@ Human Resources'da, ücret planlarına erişimi kısıtlamayı ve varsayılan bi
 
 Ücret hakkında daha fazla bilgi için bkz. [Ücret planlarına genel bakış](hr-compensation-overview.md).
 
-![Ücret sekmesi](./media/hr-setup-parameters-compensation.png)
+![Ücret sekmesi.](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>Numara serileri
 
@@ -96,13 +97,13 @@ Daha fazla bilgi için bkz. [Numara serilerine genel bakış](../fin-ops-core/fi
 > [!NOTE]
 > Çalışılan saat sayısı 1250'yi aşamaz ve 12 ay İstihdam uzunluğunu aşamaz. Bu en büyük değerler Amerika Birleşik Devletleri'nde federal yasalara uygundur.
 
-![Numara serileri sekmesi](./media/hr-setup-parameters-number-sequences.png)
+![Numara serileri sekmesi.](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 FMLA sekmesinde FMLA uygunluk gereksinimlerini ve FMLA destek hakkı saatlerini ayarlarsınız. Daha fazla bilgi için bkz. [İzin ve devamsızlık parametreleri yapılandırma](hr-leave-and-absence-parameters.md).
 
-![FMLA sekmesi](./media/hr-setup-parameters-fmla.png)
+![FMLA sekmesi.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>Personel self servisi
 
@@ -115,7 +116,7 @@ FMLA sekmesinde FMLA uygunluk gereksinimlerini ve FMLA destek hakkı saatlerini 
 
 Personel self servisi'ni ayarlama hakkında daha fazla bilgi için bkz. [Personel ve Yönetici self servisi'ne genel bakış](hr-employee-manager-self-service-overview.md).
 
-![Personel self servisi sekmesi](./media/hr-setup-parameters-employee-self-service.png)
+![Personel self servisi sekmesi.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Yönetici self servis
 
@@ -129,13 +130,13 @@ Personel self servisi'ni ayarlama hakkında daha fazla bilgi için bkz. [Persone
 
 Yönetici self servisi'ni ayarlama hakkında daha fazla bilgi için bkz. [Personel ve Yönetici self servisi'ne genel bakış](hr-employee-manager-self-service-overview.md).
 
-![Yönetici self servisi sekmesi](./media/hr-setup-parameters-manager-self-service.png)
+![Yönetici self servisi sekmesi.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Kazanç yönetimi
 
 Kazanç yönetimi sekmesinde, Kazanç yönetimi için e-posta seçeneklerini yapılandırabilirsiniz. Kazanç yönetimini ayarlama ve kullanma hakkında bilgi için bkz. [Kazanç yönetimine genel bakış](hr-benefits-management-overview.md).
 
-![Kazanç yönetimi sekmesi](./media/hr-setup-parameters-benefits-management.png)
+![Kazanç yönetimi sekmesi.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>İzin ve devamsızlık
 
@@ -145,7 +146,7 @@ Kazanç yönetimi sekmesinde, Kazanç yönetimi için e-posta seçeneklerini yap
 
 **Ödeme yöntemleri** sekmesinde, kuruluşunuz tarafından desteklenen ödeme yöntemlerini seçebilirsiniz. Ücretleri yapılandırma hakkında daha fazla bilgi için bkz. [Ücret planlarına genel bakış](hr-compensation-overview.md).
 
-![Ödeme yöntemleri sekmesi](./media/hr-setup-parameters-payment-methods.png)
+![Ödeme yöntemleri sekmesi.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

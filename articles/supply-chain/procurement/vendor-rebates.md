@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822479"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344232"
 ---
 # <a name="vendor-rebates"></a>Satıcı indirimleri
 
@@ -53,7 +53,7 @@ Bir satıcı indirim sözleşmesi, bir satıcı ile şirketin önceden belirli b
 
 **Satıcı indirim sözleşmeleri** sayfasını açmak için **Satınalma ve kaynak** &gt; **Satıcı indirimleri** &gt; **İndirim sözleşmeleri**'ni seçin.
 
-![Satınalma sözleşmesi](media/purchase-agreement.PNG)
+![Satınalma sözleşmesi.](media/purchase-agreement.PNG)
 
 **Satıcı indirim sözleşmeleri** sayfasında, bir satıcı sözleşmesinin anlaşılmış koşullarının ayrıntılarını görüntüleyebilirsiniz.
 
@@ -129,7 +129,7 @@ Talepler onaylandığında, Borç hesapları (A/P) tarafından işlenebilirler. 
 
     Bir indirim tahakkuk günlüğü indirim talebi için nakledilir. Bu nakil, Tahakkuk Satıcı İndirimleri Alacak hesabını beklenen satıcı kredileri için borçlandırır ve ara Tahakkuk Satıcı İndirim Alınan hesabını beklenen kazanç için alacaklandırır.
 
-    ![İleti](media/message.png)
+    ![İleti.](media/message.png)
 
 5. İndirim listesinde, satırı seçin ve sonra Eylem Panosu'nda **İndirim hareketleri**'ni görmek için seçin ve bu indirim tahakkuk nakli için günlük toplu iş numarasına gidin.
 

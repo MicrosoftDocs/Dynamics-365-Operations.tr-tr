@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: af19a3abd78d543d82f7a8d017e2dc413115a6d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 679c2453068695caca03ac9618573eba0686b863
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018446"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347332"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>"Sonraki ödemelerim için kaydet" seçeneği görünmüyor
 
@@ -34,9 +34,9 @@ Bu konu, bir e-ticaret sitesinin ödeme sayfasında **ödeme yöntemi** altında
 
 Aşağıdaki resimde **sonraki ödemelerim için kaydet** onay kutusunun yer aldığı bir ödeme sayfası örneği gösterilmektedir.
 
-![Ödeme modülündeki sonraki ödemelerim için kaydet onay kutusu](media/payment-module-save-payment.jpg)
+![Ödeme modülündeki sonraki ödemelerim için kaydet onay kutusu.](media/payment-module-save-payment.jpg)
 
-## <a name="resolution"></a>Çözünürlük
+## <a name="resolution"></a>Çözüm
 
 ### <a name="verify-that-the-dynamics-365-payment-connector-for-adyen-is-correctly-configured-in-commerce-headquarters"></a>Commerce Headquarters'da Adyen için Dynamics 365 Paymet Connector'ın doğru yapılandırıldığını doğrulayın
 
@@ -46,7 +46,7 @@ Commerce Headquarters'da Adyen için Dynamics 365 Paymet Connector'ın doğru ya
 1. Çevrimiçi mağazayı seçin.
 1. **Ödeme Hesapları** hızlı sekmesinde, **e-ticarette ödeme bilgilerinin kaydedilmesine izin ver** alanındaki değerin **Doğru** olarak ayarlandığından emin olun.
 
-![Commerce Headquarters'da e-ticaret alanında ödeme bilgilerinin kaydedilmesine izin verme](media/payment-connector-save-payment.jpg)
+![Commerce Headquarters'da e-ticaret alanında ödeme bilgilerinin kaydedilmesine izin verme.](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055304"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357400"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Başvuran İzleme Sistemi tümleştirme API'si tanıtımı
 
@@ -26,7 +26,7 @@ ms.locfileid: "6055304"
 
 Bu konuda Dynamics 365 Human Resources Başvuran İzleme Sistemi (ATS) tümleştirme API'si açıklanmaktadır. API'nin amacı, Dynamics 365 Human Resources ile iş ortaklığı yapılan ATS'ler arasında kolaylaştırılmış tümleştirmeleri etkinleştirmektir.
 
-![ATS tümleştirme akışı](media/hr-admin-integration-ats-api-introduction-flow.png)
+![ATS tümleştirme akışı.](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 Tümleştirilmiş deneyim, bir işe alma yöneticisi işe alım isteği oluşturduğunda Human Resources'da başlar. İstek etkinleştirildiğinde, ATS bir işe alım projesi oluşturma isteği için ayrıntıyı çeker. Ardından, pozisyonlar için bir aday seçmek ve işe almak için işe alım ardışık düzenini izler. Son olarak, ATS seçilen adayın kaydını Human Resources'a göndererek iki yönlü tümleştirmeyi tamamlar. Aday kaydı daha sonra çalışan kaydını oluşturmak için daha fazla ekleme doğrulaması ve iş akışından geçebilir.
 
@@ -69,7 +69,7 @@ Veri modeli iki ana varlığa odaklanır:
 
 Aşağıdaki diyagramda API içindeki ilişkiler gösterilmektedir. Çeşitli türlerin, Human Resources'da önceden var olan ve burada belirtilmeyen diğer varlıkların yabancı anahtarları vardır. Bu belge, işe alma tümleştirme senaryolarına özgü varlıklar hakkında bilgi sağlar. Ancak Dynamics 365 Human Resources için Dataverse Web API'sinde tümleştirmenizle de ilgili olabilecek birçok başka varlık vardır. Örneğin, burada tanımlanmayan çalışanlar, işler, pozisyonlar veya diğer varlıklar için de ayrıntıya ihtiyacınız olabilir. Bu varlıkların çoğuna yabancı anahtar ilişkilerinde veya gezinti özelliklerinde referans verilir.
 
-![ATS Tümleştirme API'si veri modeli](media/hr-admin-integration-ats-api-data-model.png)
+![ATS Tümleştirme API'si veri modeli.](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>İşe alma isteği ve ilgili varlıklar ve seçenek kümeleri
 

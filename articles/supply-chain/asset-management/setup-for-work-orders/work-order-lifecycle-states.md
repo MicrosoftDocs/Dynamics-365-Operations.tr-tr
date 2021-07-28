@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 04e0bb3b1b99299c344a393e72cbe6f380e380af
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5facd333c9a76f391b36de71fa3a8e276fe2583f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825626"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350630"
 ---
 # <a name="work-order-lifecycle-states"></a>İş emri yaşam döngüsü durumları
 
@@ -35,7 +35,7 @@ ms.locfileid: "5825626"
 
 Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Genel** hızlı sekmesindeki **İş emri** ve **Plan** bölümlerini açıklar(**Kıymet yönetimi** \> **Kurulum** \> **İş emirleri** \> **Yaşam döngüsü durumları**).
 
-![İş emri yaşam döngüsü durumu sayfası](media/09-setup-for-work-orders.png)
+![İş emri yaşam döngüsü durumu sayfası.](media/09-setup-for-work-orders.png)
 
 | Seçenek adı                   | Tanım |
 |-------------------------------|-------------|
@@ -93,7 +93,7 @@ Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Gen
     - **Bakım kesinti süresi** seçeneği bir çalışma emrinin güncelleştirildiği yaşam döngüsü durumu için **Evet** olarak ayarlanmışsa, bakım kesinti süresi doğrulaması iş emriyle ilişkili olan kıymet üzerinde gerçekleştirilir. Bakım kesinti süresi kaydı yapılırsa ancak **Sona erdirilmiş** bir kayıt yoksa, iş emri bu yaşam döngüsü durumuna güncelleştirildiğinde bir ileti gösterilir.
     - Standart proje kurulumu, kıymet yönetimi kurulumunuz için gerekli tüm aşamaları içermiyorsa, **Proje yönetimi ve muhasebe parametreleri** sayfasının **Proje aşaması** sekmesinde Kullanıcı tanımlı proje aşamalarını ayarlayabilirsiniz. Aşağıdaki şekil **Proje yönetimi ve muhasebe parametreleri** sayfasındaki **Proje aşaması** sekmesini gösterir.
 
-    ![Çeşitli proje türleri için proje aşamalarını ayarlama sayfası](media/10-setup-for-work-orders.png)
+    ![Çeşitli proje türleri için proje aşamalarını ayarlama sayfası.](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Bir iş emrini güncelleştediğiniz yaşam döngüsü durumu devre dışı ise, iş emriyle ilişkili, ancak henüz deftere nakledilmemiş Günlükler otomatik olarak silinir. Bu davranış, kullanılmayan verilerin otomatik olarak temizlenmesine yardımcı olur. (**Etkin** seçeneği **İş emri yaşam döngüsü** sayfasının **Genel** hızlı sekmesinde **Hayır** olarak ayarlanmışsa yaşam döngüsü durumu devre dışı bırakılır.)
@@ -111,7 +111,7 @@ Türleri kullanma nedeni, örneğin bir iş emri veya bir kıymet üzerinde bir 
 
 Aşağıdaki şekil iş emri türleri, yaşam döngüsü modelleri ve yaşam döngüsü durumları arasındaki ilişkiyi gösterir.
 
-![İş emri türü sayfası ile İş emri yaşam döngüsü modelleri sayfası karşılaştırması](media/11-setup-for-work-orders.png)
+![İş emri türü sayfası ile İş emri yaşam döngüsü modelleri sayfası karşılaştırması.](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>İş emri yaşam döngüsü modelleri
 
@@ -126,16 +126,16 @@ Aşağıdaki şekil iş emri türleri, yaşam döngüsü modelleri ve yaşam dö
 
 5. **Yaşam döngüsü durumları** hızlı sekmesinde yaşam döngüsü modeline eklenmesi gereken yaşam döngüsü durumlarını seçin:
 
-    - Yaşam döngüsü modelinde bir yaşam döngüsü durumu kullanmak için durumu **Kalan yaşam döngüsü durumları** bölümünden seçin ve sağ ok düğmesini ![Sağ ok](media/12-setup-for-work-orders.png) seçerek durumu **Seçili yaşam döngüsü durumları** bölümüne taşıyın.
-    - Yaşam döngüsü modelinde tüm kullanılabilir yaşam döngüsü durumlarını kullanmak için **Tüm kullanılabilir aşamaları seç** düğmesini ![Tüm kullanılabilir aşamaları seç](media/13-setup-for-work-orders.png) seçin. Tüm yaşam döngüsü durumları **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
-    - Yaşam döngüsü modelinden bir yaşam döngüsü durumunu kaldırmak için durumu **Seçili yaşam döngüsü durumları** bölümünden seçin ve sol ok düğmesini ![Sol ok](media/14-setup-for-work-orders.png) seçerek durumu **Kalan yaşam döngüsü durumları** bölümüne taşıyın.
+    - Yaşam döngüsü modeline bir yaşam döngüsü durumu eklemek istiyorsanız, modeli **Kalan yaşam döngüsü durumları** bölümünde seçin ve sonra sağ ok düğmesini ![Sağ ok.](media/12-setup-for-work-orders.png) seçerek **Seçilen yaşam döngüsü durumları** bölümüne taşıyın.
+    - Yaşam döngüsü modelinde tüm kullanılabilir yaşam döngüsü durumlarını kullanmak için **Tüm kullanılabilir aşamaları seç** düğmesini ![Tüm kullanılabilir aşamaları seç.](media/13-setup-for-work-orders.png) seçin. Tüm yaşam döngüsü durumları **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
+    - Yaşam döngüsü modelinden bir yaşam döngüsü durumunu kaldırmak istiyorsanız, modeli **Seçili yaşam döngüsü durumları** bölümünde seçin ve sonra sol ok düğmesini ![Sol ok.](media/14-setup-for-work-orders.png) seçerek **Kalan döngüsü durumları** bölümüne taşıyın.
 
 6. Seçili yaşam döngüsü durumunu takip edebilecek yaşam döngüsü durumlarını tanımlamak için **Yaşam döngüsü durumu güncelleştirmeleri**'ni seçin.
 7. **Güncelleştirmeler** hızlı sekmesinde, **Planlanan durum** alanında, iş emri zamanlamasını tamamladığınız bir iş emri için, önceki yaşam döngüsü durumuna bakmaksızın her zaman seçilmesi gereken iş emri yaşam döngüsü durumunu seçin.
 8. **Zamanlanmamış yaşam döngüsü durumu** alanında, iş emri zamanlaması silinirse iş emri için her zaman seçilmesi gereken yaşam döngüsü durumunu seçin.
 9. İş emri yaşam döngüsü modelini kaydedin.
 
-![İş emri yaşam döngüsü modelleri sayfası](media/15-setup-for-work-orders.png)
+![İş emri yaşam döngüsü modelleri sayfası.](media/15-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

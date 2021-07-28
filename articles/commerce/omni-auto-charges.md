@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022719"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353072"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Çok yönlü kanal gelişmiş otomatik masrafları
 
@@ -43,7 +43,7 @@ Gelişmiş otomatik masraflar özelliğiyle, POS kullanıcıları tanımlanan he
 
 **Perakende ve Ticaret \> Genel merkez kurulumu \> Parametreler \> Ticaret parametreleri** sayfasında, **Müşteri siparişleri** sekmesine gidin. **Masraflar** hızlı sekmesinde, **Gelişmiş otomatik masrafları kullan**'ı **Evet** olarak ayarlayın.
 
-![Gelişmiş otomatik masraflar parametresi](media/advancedchargesparameter.png)
+![Gelişmiş otomatik masraflar parametresi.](media/advancedchargesparameter.png)
 
 Gelişmiş otomatik masraflar etkin olduğunda, kullanıcıların bir sevkiyat masrafını POS terminalinde, tümünü sevk veya seçilen müşteri siparişini sevk seçeneği seçildiğinde sevkiyat masrafını el ile girmeleri daha fazla gerekmez. POS sipariş masrafları sistematik olarak hesaplanır ve POS hareketine eklenir (oluşturulan siparişin kriteriyle eşleşen, karşılık gelen otomatik masraf tablosu bulunursa). Kullanıcılar ayrıca, POS ekranı düzenlerine eklenebilecek başlık veya satır düzeyi masrafları el ile yeni eklenen POS işlemleri üzerinden ekleyebilir veya koruyabilir.
 
@@ -86,7 +86,7 @@ Sırasıyla **Alacak hesapları \> masraflar kurulumu \> Otomatik masraflar** se
 
 Karayolu teslimatı masrafları için **Otomatik masraflar** sayfasının satırlar bölümünde, 0,01$ ve 100$ arasındaki siparişler için uygulanacak masrafı 10,00$ olarak ayarlayın. 100,01$ üzeri siparişler için masraf olmadığını belirtmek üzere başka bir masraf satırı oluşturun.
 
-![İki otomatik masraf tabloları örneği](media/headerchargesexample.png)
+![İki otomatik masraf tabloları örneği.](media/headerchargesexample.png)
 
 Hava teslimatı masrafları için otomatik masraflar formunun satırlar bölümünde, tüm siparişlere uygulanacak 20,00$ tutarında bir masraf ayarlayın (0,01$ ve 9.999.999$ arasında değer için).
 
@@ -116,7 +116,7 @@ Sırasıyla **Alacak Hesapları \> masraflar kurulumu \> Otomatik masraflar** se
 
 **Düzey** açılır menüsünü **Satır** olarak ayarlayın ve kurulum ücretinin uygulanacağı belirli ürün veya ürün grubu için tüm müşteriler için yeni bir otomatik masraf kaydı oluşturun.
 
-![Bir satır düzeyinde otomatik masraflar tablosu örneği](media/linechargesexample.png)
+![Bir satır düzeyinde otomatik masraflar tablosu örneği.](media/linechargesexample.png)
 
 Değişiklikleri Commerce Scale Unit/Kanalı Veritabanına gönderin böylece POS onları **1040 dağıtım zamanlaması** işini çalıştırırken kullanabilir.
 
@@ -136,7 +136,7 @@ Bir perakendeci, mağazadan ürün sipariş eden bir müşteriye özel eve tesli
 
 Senaryo için uygun masraf konunu tanımlamak için bu senaryoda kullanılacak masraf kodunun, **Alacak Hesapları \> masraflar kurulumu \> masraflar**'e giderek doğru şekilde yapılandırıldığından emin olun.
 
-![masraflar örneği](media/chargesexample.png)
+![Masraflar örneği.](media/chargesexample.png)
 
 masraf, ilgili indirim veya promosyonlar amacıyla "sevkiyat" ile ilgili masraf olarak dikkate alınacaksa, **Nakliye masrafı**'ni masraflar kodu üzerinde **Evet** olarak ayarlayın Masrafın sistematik olarak iade işlemi sırasında POS uygulamasında sistematik olarak iade edilmesine olanak sağlanıyorsa, **İade edilebilir**'i **Evet** olarak ayarlayın. **İade edilebilir** bayrağı yalnızca **Gelişmiş otomatik masraflar** parametresi **Evet** olarak ayarlanmışsa uygulanabilir.
 

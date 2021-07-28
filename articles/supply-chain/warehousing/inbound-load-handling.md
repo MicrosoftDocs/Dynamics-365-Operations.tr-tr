@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103180"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359799"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
@@ -30,7 +30,7 @@ Her gelen yük için, sisteminizde zaten ilgili bir satış siparişi bulunmalı
 
 Aşağıdaki şekil, ambarınıza ulaştığında satınalma siparişi miktarları içeren gelen yükleri işlemek için kullanılan tipik akışı gösterir.
 
-![Gelen yükü işleme işlemi](media/inbound-process.png "Gelen yükü işleme işlemi")
+![Gelen yükü işleme işlemi.](media/inbound-process.png "Gelen yükü işleme işlemi")
 
 1. **Satıcı satınalma siparişini onaylar.**
 
@@ -293,7 +293,7 @@ Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir men
 
     Diğer tüm ayarları varsayılan değerleriyle bırakabilirsiniz.
 
-    ![Mobil cihaz menü öğesi ayarları](media/inbound-mobile-menu-items.png "Mobil cihaz menü öğesi ayarları")
+    ![Mobil cihaz menü öğesi ayarları.](media/inbound-mobile-menu-items.png "Mobil cihaz menü öğesi ayarları")
 
     Mobil cihaz menü öğeleri ayarlama hakkında daha fazla bilgi için bkz. [Ambar işi için mobil cihazları ayarlama](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ Bu yordamda, el ile bir satınalma siparişi ve ilişkili bir yük oluşturacaks
     - **Yük** hızlı sekmesinde, **Yük durumu** alanı _Açık_ olarak ayarlanır.
     - **Yük satırları** bölümünde, **Miktar** alanının _10_ olarak ayarlandığı ve **İş oluşturulan miktar** alanının  _0_ (sıfır) olarak ayarlandığı tek bir satır vardır.
 
-    ![Yük ayrıntıları](media/inbound-load-details.png "Yük ayrıntıları")
+    ![Yük ayrıntıları.](media/inbound-load-details.png "Yük ayrıntıları")
 
 1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Onayla\> Gelen sevkiyat**'ı seçin. **Yük durumunun** _Sevk edildi_ olarak değiştiğini unutmayın.
 1. Bir sonraki yordamda kullanabilmeniz için **Yük kodu** değerini not edin.

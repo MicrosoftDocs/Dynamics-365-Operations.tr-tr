@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751668"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359017"
 ---
 # <a name="generate-printable-fti-forms"></a>Yazdırılabilir FTI formları oluşturma
 
@@ -77,7 +77,7 @@ ER altyapısını kullanarak FTI formları oluşturmak için ER biçimlerini SSR
 3. İşlenecek faturaların kapsamını belirtmek için belge düzeyini seçin.
 4. Belirtilen belge düzeyi için ER biçimini seçin.
 
-![Yazdırma yönetimi kurulumu](media/FTIbyGER-PMSetting.png)
+![Yazdırma yönetimi kurulumu.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Yalnızca **CustomersInvoicing** veri modelinin **FreeTextInvoice** kök tanımlayıcısını kullanan ER biçimleri seçili biçim için **Rapor biçimi arama** alanında görünür.
@@ -87,9 +87,9 @@ FTI formları ER altyapısında SSRS raporlarıyla aynı şekilde oluşturulur.
 
 FTI formları oluşturmak için faturaları aralığa göre veya seçime göre seçebilirsiniz. 
 
-![Fatura seçimi](media/FTIbyGER-InvoiceSelection.png)
+![Fatura seçimi.](media/FTIbyGER-InvoiceSelection.png)
 
-![Fatura önizlemesi](media/FTIbyGER-InvoiceExcelPreview.png)
+![Fatura önizlemesi.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 FTI formlarını bu şekilde yazdırmak için ER biçimlerini kullandığınızda varsayılan ER dosya hedefleri kullanılır. Hedefi değiştiremezsiniz. ER biçimleri için ER hedeflerini yapılandırma hakkında daha fazla bilgi için bkz. [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ FTI formlarını bu şekilde yazdırmak için ER biçimlerini kullandığınızd
 > - **Ad:** ERFormatDestinationRuntimeMaintain
 > - **Etiket:** Çalışma zamanında kullanılacak elektronik raporlama biçimi hedefini koru
 
-![Elektronik raporlama hedefi](media/FTIbyGER-ERFileDestinationSetting.png)
+![Elektronik raporlama hedefi.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Elektronik raporlama biçimi hedefi](media/FTIbyGER-ERFileDestinationUsage.png)
+![Elektronik raporlama biçimi hedefi.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 ER altyapısı şu anda oluşturulan belgeler için aşağıdaki hedefleri destekler:
 
@@ -128,7 +128,7 @@ FTI çözümünüz için şablon olarak kullanmak üzere örnek ER yapılandırm
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>Örnek ER biçimine uygulanan özellikler
 Örnek ER biçimi yapılandırmasında, FTI formları oluşturmak için şablon olarak bir Excel dosyası kullanılır.
 
-![Biçim tasarımcısı](media/FTIbyGER-ERFormat.png)
+![Biçim tasarımcısı.](media/FTIbyGER-ERFormat.png)
 
 Şu anda bu örnek ER biçimi, FTI formları oluşturmak için aşağıdaki özellikleri desteklemektedir:
 
@@ -179,7 +179,7 @@ Oluşturulan fatura formuna ek olarak havale parası transfer makbuzları aşağ
 - Finlandiya için ülke/bölge bağlamını kullanan ve **Havale hesabı** ve **Banka barkodu** olarak işaretli en az bir banka hesabı olan tüzel kişilik için. 
 - **Fince** ile ilişkilendirilmiş ödeme ekinin gerektirdiği şekilde işaretlenen bir fatura için.
 
-![Havale makbuzu](media/FTIbyGER-GiroSlip.PNG)
+![Havale makbuzu.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > Örnek ER biçimi, ayrı çalışma sayfasında isteğe bağlı olarak havale parası transfer makbuzu oluşturacak şekilde yapılandırılmıştır.
@@ -194,7 +194,7 @@ E-posta hedeflerini yapılandırmak için örnek ER biçimine ilişkin aşağıd
 - E-posta konu metnine şu ER ifadesi aracılığıyla erişilebilir: **Emailing.TxtToUse.Subject**.
 - E-posta gövde metnine şu ER ifadesi aracılığıyla erişilebilir: **Emailing.TxtToUse.Body**.
 
-![Hedef ayarları](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Hedef ayarları.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 Varsayılan e-posta konusu ve gövde metni, örnek ER biçiminde tanımlanır. Dil, biçim etiketlerine bağlıdır. Önceden tanımlanmış **ERFTITMP** koduna sahip özel bir kuruluşun e-posta şablonu eklenmemişse e-postalar için bu varsayılan metin kullanılır.
 
@@ -203,9 +203,9 @@ Varsayılan e-posta konusu ve gövde metni, örnek ER biçiminde tanımlanır. D
 
 Faturasını işlediğiniz tüzel kişilik için önceden tanımlanmış **ERFTITMP** koduna sahip kuruluşun e-posta şablonu eklenirse, e-posta konusunun ve gövde metninin şablonunu, e-postayı oluşturmak için kullanılır. 
 
-![Kuruluş e-posta şablonları](media/FTIbyGER-EmailTemplate.png)
+![Kuruluş e-posta şablonları.](media/FTIbyGER-EmailTemplate.png)
 
-![E-posta şablonu yükleme](media/FTIbyGER-EmailTemplateBody.png)
+![E-posta şablonu yükleme.](media/FTIbyGER-EmailTemplateBody.png)
 
 Örnek ER biçiminin **Emailing.TxtToUse.Subject** ER ifadesi, %1 yer tutucunun herhangi bir oluşumunu işlenen fatura numarasıyla değiştirecek şekilde yapılandırılmıştır.
 
@@ -218,7 +218,7 @@ Faturasını işlediğiniz tüzel kişilik için önceden tanımlanmış **ERFTI
 - "%5", şirketin ilgili kişisinin unvanıyla değiştirilir.
 - "%6", şirketin ilgili kişisinin e-posta adresiyle değiştirilir.
 
-![E-posta](media/FTIbyGER-Email.PNG)
+![E-posta.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)

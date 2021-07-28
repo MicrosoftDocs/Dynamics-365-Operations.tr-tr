@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798999"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349340"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'te deneme
 Dynamics 365 Commerce'te denemeyi E-ticaret sayfalarınızın verimliliği hakkındaki varsayımları doğrulamak ve verilere dayalı güvenilirlikle kararlar vermek için kullanın. Commerce, sayfalar, modüller ve parçalar üzerinde A/B testi gerçekleştirme desteği sunar ve web sitenizde önerilen değişikliklerin etkisini ölçmenize olanak tanır.
@@ -39,7 +39,7 @@ Commerce sitesi oluşturucuda **varyasyonlar** olarak bilinen sayfa ve içerik i
 ## <a name="experimentation-lifecycle"></a>Deneme yaşam döngüsü
 Deneme ayarlama, varyasyonlar oluşturma ve deneme çalıştırma yinelemeli bir işlemdir. Aşağıdaki diyagram Commerce ve üçüncü taraf hizmetindeki deneme yaşam döngüsünü göstermektedir. 
 
-[ ![Deneme yaşam döngüsü](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Deneme yaşam döngüsü.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Deneme işlemindeki her adım hakkında daha fazla bilgi için aşağıdaki konulara bakın.
 - [Varsayım tanımlama ve deneme için ölçümleri belirleme](experimentation-identify.md)

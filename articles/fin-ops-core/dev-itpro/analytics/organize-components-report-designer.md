@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb3e09ad849b250ed3f1d7aec910b44d591cb88e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e1672ee1777150a7f78c03d07dc79df118a3632f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751644"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347888"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Rapor tasarımcısında rapor bileşenlerini düzenlemek
 
@@ -47,7 +47,7 @@ Aynı anda birden fazla rapor oluşturmak için rapor tanımlarını gruplandır
 ### <a name="create-a-report-group"></a>Rapor grubu oluşturma
 
 1. Rapor Tasarımcısı'nda gezinme bölmesinde **Rapor Grupları** seçeneğine tıklayın.
-2. **Dosya** menüsünde, **Yeni** &gt; **Rapor Grubu Tanımı**'na tıklayarak görüntüleyici penceresinde yeni bir rapor grubu açın. Alternatif olarak, araç çubuğundaki **Rapor Grubu** düğmesine ![Rapor Grubu](media/report-group.gif "Rapor Grubu") tıklayın.
+2. **Dosya** menüsünde, **Yeni** &gt; **Rapor Grubu Tanımı**'na tıklayarak görüntüleyici penceresinde yeni bir rapor grubu açın. Alternatif olarak, araç çubuğundaki **Rapor Grubu** düğmesine ![Rapor Grubu.](media/report-group.gif "Rapor Grubu") düğmesine tıklayın.
 3. **Rapor Grubu** sekmesine tıklayın. Bu raporun oluşturulması için tek rapor tanımlarındaki bilgileri geçersiz kılmak üzere, **Tek rapor tanımlarındaki şirket, ayrıntı ve tarih ayarlarını geçersiz kıl** onay kutusunu işaretleyin. Şirket adı, ayrıntı düzeyi, geçici ayar ve tarih bilgileri otomatik olarak girilir, ancak güncelleştirmeler yapabilirsiniz.
 4. Raporlama para birimlerini gösteren birden fazla rapor oluşturmak için **Tüm raporlama para birimlerini ekle** onay kutusunu seçin. Böylece raporu görüntülediğinizde, Web Görüntüleyici'deki **Para Birimi** düğmesine tıklayarak birden fazla görünüme erişebilirsiniz.
 5. Rapor grubuna eklemek üzere raporları seçmek için **Gruptaki raporlar** alanında **Ekle**'ye tıklayın. **Ekle** iletişim kutusunda birden fazla rapor seçmek için, raporları seçerken Ctrl tuşunu basılı tutun. Rapor seçme işlemini tamamladığınızda **Tamam** öğesine tıklayın.
@@ -58,7 +58,7 @@ Aynı anda birden fazla rapor oluşturmak için rapor tanımlarını gruplandır
 1. Rapor Tasarımcısı'nda gezinme bölmesinde **Rapor Grupları** seçeneğine tıklayın.
 2. Değiştirilecek rapor grubuna çift tıklayın.
 3. **Rapor Grubu** sekmesinde, istediğiniz değişiklikleri yapın.
-4. Değiştirilen rapor grubunu kaydetmek için **Dosya** menüsünde **Kaydet**'e tıklayın. Bunun yerine, araç çubuğunda **Kaydet** düğmesine de ![Kaydet](media/save.gif "Kaydet") tıklayabilirsiniz.
+4. Değiştirilen rapor grubunu kaydetmek için **Dosya** menüsünde **Kaydet**'e tıklayın. Bunun yerine, araç çubuğunda **Kaydet** düğmesine de ![Kaydet.](media/save.gif "Kaydet") tıklayabilirsiniz.
 
 > [NOT] Ayarlanan aralıklarda oluşturulmaları için planlanan raporlarınız varsa bu ayarları geçersiz kılarak hemen bir rapor oluşturabilirsiniz.
 
@@ -66,11 +66,11 @@ Aynı anda birden fazla rapor oluşturmak için rapor tanımlarını gruplandır
 
 1. Rapor Tasarımcısı'ndaki gezinti bölmesinde **Rapor Grupları**'na tıklayın.
 2. Oluşturmak için rapor grubunu açın.
-3. Rapor oluşturmak için **Rapor Oluştur** düğmesine ![Rapor Oluştur](media/generate-report.gif "Rapor Oluştur") tıklayın.
+3. Rapor oluşturmak için **Rapor Oluştur** düğmesine ![Rapor Oluştur.](media/generate-report.gif "Rapor Oluştur") tıklayın.
 
 ### <a name="delete-a-report-group"></a>Bir rapor grubunu silme
 
-1. Rapor Tasarımcısı'ndaki gezinti bölmesinde **Rapor Grupları**'na tıklayın.
+1. Rapor Tasarımcısı'nda gezinme bölmesinde **Rapor Grupları** seçeneğine tıklayın.
 2. Silinecek rapor grubuna sağ tıklayın ve ardından **Sil**'i seçin.
 3. Bir onay mesajı göründüğünde, **Evet**'e tıklayın.
 

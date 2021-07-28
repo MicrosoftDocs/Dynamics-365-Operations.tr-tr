@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 12ba639ccf670997d4f16325172aa351732a5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023645"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348921"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>TDS vergi türü için stopaj vergisi kapatma dönemlerini ayarlama
 
@@ -31,7 +31,7 @@ Bu konu, Kaynakta Kesilen Vergi (TDS) kapatma dönemleri için kapatma dönemler
 
 1. **Vergi \> Dolaylı vergiler \> Stopaj vergisi \> Stopaj vergisi kapatma dönemleri**'ne gidin.
 
-    [![Stopaj vergisi kapatma dönemleri sayfası](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![Stopaj vergisi kapatma dönemleri sayfası.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. TDS vergi türü için stopaj vergisi kapatma dönemlerini ayarlamak üzere **Vergi türü** alanında **TDS**'yi seçin.
 3. Bir satır oluşturmak için **Yeni**'yi seçin.
@@ -47,6 +47,6 @@ Bu konu, Kaynakta Kesilen Vergi (TDS) kapatma dönemleri için kapatma dönemler
     > [!NOTE]
     > Dönemsel TDS kapatma işlemini çalıştırmak için, **Genel muhasebe \> Dönemsel \> Stopaj vergisi \> Stopaj vergisi ödemesi**'ne gidin.
 
-    [![Stopaj vergisi ödemesi sayfası](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![Stopaj vergisi ödemesi sayfası.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
 12. Sayfayı kapatın.

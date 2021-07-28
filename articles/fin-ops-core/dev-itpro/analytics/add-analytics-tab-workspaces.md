@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754610"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354457"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
 
@@ -54,11 +54,11 @@ Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımla
 3. **Yeni Madde Ekle** iletişim kutusunda, **Operasyonlar Yapıları** altında **Kaynak** şablonunu seçin.
 4. X++ meta verisindeki raporu referans olarak kullanacak bir ad girin ve **Ekle**'yi tıklatın.
 
-    ![Yeni Madde Ekle iletişim kutusu](media/analytical-workspace-add.png)
+    ![Yeni Madde Ekle iletişim kutusu.](media/analytical-workspace-add.png)
 
 5. Analitik raporun tanımını içeren .pbix dosyasını bulun ve **Aç**'ı tıklatın.
 
-    ![Bir Kaynak dosya iletişim kutusu seçin](media/analytical-workspace-select-resource.png)
+    ![Bir Kaynak dosya iletişim kutusu seçin.](media/analytical-workspace-select-resource.png)
 
 Şimdi .pbix dosyasını bir Dynamics 365 kaynağı olarak ekledikten sonra, raporları çalışma alanlarına katıştırabilir ve menü öğelerini kullanarak doğrudan bağlantılar ekleyebilirsiniz.
 
@@ -67,7 +67,7 @@ Bu örnekte Filo Yönetimi modelinde, **Analizler** sekmesini **FMClerkWorkspace
 
 Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasarımcısında nasıl görüneceğini gösterir.
 
-![Değişikliklerden önce FMClerkWorkspace formu](media/analytical-workspace-definition-before.png)
+![Değişikliklerden önce FMClerkWorkspace formu.](media/analytical-workspace-definition-before.png)
 
 **Rezervasyon yönetimi** çalışma alanının form tanımını genişletmek için şu adımları izleyin.
 
@@ -92,7 +92,7 @@ Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasa
 
 Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl görüneceğini gösterir.
 
-![Değişikliklerden sonra FMClerkWorkspace](media/analytical-workspace-definition-after.png)
+![Değişikliklerden sonra FMClerkWorkspace.](media/analytical-workspace-definition-after.png)
 
 Çalışma alanı raporunu katıştırmak için kullanılacak form denetimlerini ekledikten sonra, düzeni bulunduracak üst denetimin boyutunu tanımlamalısınız. Varsayılan olarak hem **Filtrelre Bölmesi** sayfası hem de **Sekmeler** sayfası raporda görünür olur. Bunula birlikte, bu denetimlerin görünürlüğünü raporun hedef tüketicisi için uygun şekilde değiştirebilirsiniz.
 
@@ -142,7 +142,7 @@ Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl
 
 Katıştırılmış rapor görüntüleme denetimini başlatmak için iş mantığı ekleme görevini şimdi tamamladınız. Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra çalışma alanının nasıl görüneceğini gösterir.
 
-![Çalışma alanına katıştırılmış rapor](media/analytical-workspace-final.png)
+![Çalışma alanına katıştırılmış rapor.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Sayfa başlığının altındaki çalışma alanı sekmelerini kullanarak mevcut operasyonel görünümlere erişebilirsiniz.

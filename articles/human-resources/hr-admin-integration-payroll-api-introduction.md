@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058572"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360580"
 ---
 # <a name="payroll-integration-api-introduction"></a>Bordro tümleştirme API'sına giriş
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058572"
 
 Bu belgede, Dynamics 365 Human Resources Bordro tümleştirme API'sı açıklanmaktadır. API, Human Resources ve iş ortağı bordro sistemleri arasında uçtan uca sorunsuz tümleştirmeler sağlar. Tümleşik deneyim Human Resources'ta personel profili, maaş ve kesinti ve katkı bilgileri ile başlar. Bir çalışanı işe alıp gerekli profili ve ödeme bilgilerini Human Resources'a girdiğinizde bordro sistemi, bordroyu işlerken kullanmak için bu bilgileri çeker. Çalışan veya ödeme bilgilerinde yapılan tüm güncelleştirmeler de sonraki ödeme çalıştırmasında kullanılmak üzere çekilir.
 
-![Bordro tümleştirme akışı](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Bordro tümleştirme akışı.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Tümleştirmeyi etkinleştirmek için Human Resources'ta aşağıdaki bileşenler bulunur:
 
@@ -60,7 +60,7 @@ API'ye yönelik sanal tablolar oluşturma hakkında bilgi için bkz. [Dataverse 
 
 Aşağıdaki diyagramda API içindeki ilişkiler gösterilmektedir. Çeşitli türlerin, Human Resources'da önceden var olan ve burada belirtilmeyen diğer varlıkların yabancı anahtarları vardır. Bu belge, bordro tümleştirme senaryolarına özgü varlıklar hakkında bilgi sağlar. Ancak Human Resources için Dataverse Web API'sında tümleştirmenizle de ilgili olabilecek birçok başka varlık vardır. Bu varlıkların bazılarına yabancı anahtar ilişkilerinde veya gezinti özelliklerinde referans verilir.
 
-![Bordro Tümleştirme API'sı veri modeli](media/hr-admin-payroll-api-data-model.png)
+[![Bordro Tümleştirme API'sı veri modeli.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Bordrolu personel ve ilgili varlıklar
 
@@ -68,7 +68,8 @@ Varlıklar:
 
 - [Bordrolu personel](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Bordrolu çalışanın adresi](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Bordro sabit ücret planı](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Bordro sabit ücret planı](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Bordro değişken ücret planı](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Bordrolu pozisyon işi](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Bordrolu pozisyon](hr-admin-integration-payroll-api-payroll-position.md)
 

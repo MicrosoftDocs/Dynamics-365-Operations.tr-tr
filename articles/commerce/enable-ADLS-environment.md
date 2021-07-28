@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ac440362379475b05c6a37019c25e3a96be3739
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792619"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349508"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Dynamics 365 Commerce ortamında Azure Data Lake Storage'yi etkinleştirme
 
@@ -59,7 +59,7 @@ Azure Data Lake Storage'yi etkinleştirmek için gereken adımlara daha ayrınt�
 
 Aşağıdaki resimde örnek bir Azure Data Lake Storage yapılandırması gösterilmektedir.
 
-![Azure Data Lake Storage yapılandırması örneği](./media/exampleADLSConfig1.png)
+![Azure Data Lake Storage yapılandırması örneği.](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>Azure Data Lake Storage bağlantısını test etme
 
@@ -79,7 +79,7 @@ Varlık deposu için otomatik yenilemeyi etkinleştirmek üzere bu adımları iz
 
 Aşağıdaki resimde, otomatik yenilemenin etkinleştirildiği bir Varlık deposu örneği gösterilmektedir.
 
-![Otomatik yenileme özelliği etkin olan Varlık deposu örneği](./media/exampleADLSConfig2.png)
+![Otomatik yenileme özelliği etkin olan Varlık deposu örneği.](./media/exampleADLSConfig2.png)
 
 Artık Azure Data Lake Storage ortam için yapılandırılmış durumdadır. 
 

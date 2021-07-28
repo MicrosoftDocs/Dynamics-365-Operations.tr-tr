@@ -14,12 +14,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 86f475cc0b78c620309301516b6c3b525b640637
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 25464c89352f44a77a96dee6ad2f633b7a55669e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791569"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350292"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Web etkinliği olay toplamasını iptal etme
 [!include [banner](includes/banner.md)]
@@ -40,7 +40,7 @@ Commerce Headquarters'daki (HQ) Hesap yönetiminde, yöneticiler kullanıcılar�
 1. HQ istemcisindeki **Tüm müşteriler** sayfasında, bir müşteriyi arayıp seçin.
 1. Müşteri ayrıntıları sayfasındaki **Perakende** hızlı sekmesinin **Gizlilik** bölümünde **Web etkinliğini izleme** seçeneğini **Evet** olarak ayarlayın.
 
-    ![Gizlilik ayarları](media/Disablepersonalizationpart2.png)
+    ![Gizlilik ayarları.](media/Disablepersonalizationpart2.png)
 
 1. **Kaydet**'i seçip sayfayı kapatın.
 

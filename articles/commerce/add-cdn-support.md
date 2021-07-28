@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936842"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346840"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>İçerik teslim ağı (CDN) için destek ekleme
 
@@ -74,11 +74,11 @@ Azure Front Door Service'te bir arka uç havuzu yapılandırmak için aşağıda
 
 Aşağıdaki resimde, Azure Front Door Service'te arka uç ana bilgisayar adı girilmiş halde **Bir arka uç ekle** iletişim kutusu gösterilmektedir.
 
-![Arka uç havuzu iletişim kutusu Ekle](./media/CDN_BackendPool.png)
+![Arka uç havuzu iletişim kutusu ekleme.](./media/CDN_BackendPool.png)
 
 Aşağıdaki resimde, Azure Front Door Service'te varsayılan yük dengeleme değerleriyle birlikte **Bir arka uç havuzu ekle** iletişim kutusu gösterilmektedir.
 
-![Arka uç havuzu iletişim kutusu ekle devamı](./media/CDN_BackendPool_2.png)
+![Arka uç havuzu iletişim kutusu ekleme devamı.](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > Commerce için kendi Azure Front Door Service'inizi kurarken **sistem durumu araştırmalarının** devre dışı olduğundan emin olun.
@@ -107,13 +107,13 @@ Etki alanınız yeniyse ve önceden varolan yayındaki bir etki alanı değilse,
 
 Aşağıdaki resimde, Azure ön kapı hizmeti'ndeki **CNAME yapılandırması** iletişim kutusu gösterilmektedir.
 
-![CNAME Konfigürasyon iletişim kutusu](./media/CNAME_Configuration.png)
+![CNAME Yapılandırması iletişim kutusu.](./media/CNAME_Configuration.png)
 
 Sertifikayı yönetmek için Azure ön kapı hizmetini kullanabilir veya özel etki alanı için kendi sertifikanızı kullanabilirsiniz.
 
 Aşağıdaki resimde, Azure ön kapı hizmeti'ndeki **Özel alan HTTPS** iletişim kutusu gösterilmektedir.
 
-![Özel etki alanı HTTPS iletişim kutusu](./media/Custom_Domain_HTTPS.png)
+![Özel etki alanı HTTPS iletişim kutusu.](./media/Custom_Domain_HTTPS.png)
 
 Azure Front Door'unuza özel etki alanı eklemeyle ilgili ayrıntılı yönergeler için bkz. [Front Door'a özel etki alanı ekleme](/azure/frontdoor/front-door-custom-domain).
 

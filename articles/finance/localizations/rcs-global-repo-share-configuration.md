@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 530cb77ccbca1b6946b5a96cee4e6226ed3467e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838757"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361270"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Regulatory Configuration Services (RCS)/Genel depodaki Elektronik raporlama (ER) yapılandırmalarını harici kuruluşlarla paylaşma
 
@@ -47,7 +47,7 @@ Paylaşmak istediğiniz yapılandırmanın Genel depoya önceden yüklenmiş old
 
 1. **Elektronik raporlama** çalışma alanında, yapılandırma sağlayıcınız için **Depolar**'ı seçin.
 
-    ![Konfigürasyon sağlayıcıları](media/1_RCS_Repo_for_config_provider.JPG)
+    ![Yapılandırma sağlayıcıları.](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. **Genel havuz** \> **Aç**'ı seçin.
 3. Paylaşmak istediğiniz yapılandırmayı arayın. Aramanızı daraltmak için filtre alanını kullanabilirsiniz. Yapılandırmayı Genel depoda bulamazsanız [Elektronik raporlama (ER) yapılandırmasının yeni bir sürümünü oluşturma ve yükleme](rcs-global-repo-upload.md) konusundaki adımları izleyin.
@@ -61,11 +61,11 @@ Yapılandırma sağlayıcınız altında bir yapılandırma oluşturulduktan son
 3. Paylaşmak istediğiniz yapılandırmayı seçin.
 4. **Paylaşıldı** hızlı sekmesinde **Kuruluş**'u seçin.
 
-    ![Paylaşıldı hızlı sekmesi](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Paylaşıldı hızlı sekmesi.](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. İletişim kutusunda, harici kuruluşun etki alanı adını girin ve **Tamam**'ı seçin.
 
-    ![Yapılandırma sürümünü harici kuruluş ile paylaş iletişim kutusu](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Yapılandırma sürümünü harici kuruluş ile paylaş iletişim kutusu.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 Yapılandırma, harici kuruluşla paylaşılır ve Genel depodaki bu kuruluş tarafından kullanılabilir. Buradan, kuruluşun RCS örneğine veya Finance and Operations uygulama örneklerine içe aktarılabilir.
 

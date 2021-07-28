@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830136"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352724"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile ağırlıklı ortalama
 
@@ -65,7 +65,7 @@ Aşağıdaki senaryoda, mali olarak güncelleştirilmiş giriş ve çıkış def
 
 Aşağıdaki diyagramda, bu hareketler serisi, Ağırlıklı ortalama stok modeli ve Fiziksel değeri dahil et seçeneği kullanılmadan doğrudan kapatma ilkesi seçimlerinin etkileriyle birlikte gösterilmektedir. 
 
-![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan Ağırlıklı Ortalama Doğrudan Kapatma    ](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan Ağırlıklı Ortalama Doğrudan Kapatma.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Diyagram anahtarı**
 - Stok hareketleri dikey oklarla temsil edilir.
@@ -99,7 +99,7 @@ Aşağıdaki hareketler aşağıdaki grafikte gösterilmektedir:
 
 Aşağıdaki diyagramda, bu hareketler serisi, Ağırlıklı ortalama stok modeli ve Fiziksel değeri dahil et seçeneği kullanılmadan özetlenmiş kapatma ilkesi seçimlerinin etkileriyle birlikte gösterilmektedir. 
 
-![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan Ağırlıklı Ortalama Özet Kapatma    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan Ağırlıklı Ortalama Özet Kapatma.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Diyagram anahtarı**
 - Stok hareketleri dikey oklarla temsil edilir.
@@ -128,7 +128,7 @@ Aşağıdaki hareketler aşağıdaki grafikte gösterilmektedir:
 
 Aşağıdaki diyagramda, bu hareketler serisi, Ağırlıklı ortalama stok modeli ve Fiziksel değeri dahil et seçeneği ile doğrudan kapatma ilkesi seçimlerinin etkileriyle birlikte gösterilmektedir. 
 
-![Fiziksel Değeri Dahil Et Seçeneği ile Ağırlıklı Ortalama Doğrudan Kapatma](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Fiziksel Değeri Dahil Et Seçeneği ile Ağırlıklı Ortalama Doğrudan Kapatma.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Diyagram anahtarı**
 - Stok hareketleri dikey oklarla temsil edilir.
@@ -161,7 +161,7 @@ Aşağıdaki hareketler aşağıdaki grafikte gösterilmektedir:
 
 Aşağıdaki diyagramda, bu hareketler serisi, ağırlıklı ortalama stok modeli ve Fiziksel değeri dahil et seçeneği kullanılmadan özetlenmiş kapatma ilkesi seçimlerinin etkileriyle birlikte gösterilmektedir. 
 
-![Fiziksel Değeri Dahil Et Seçeneği ile Ağırlıklı Ortalama Özet Kapatma    ](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Fiziksel Değeri Dahil Et Seçeneği ile Ağırlıklı Ortalama Özet Kapatma.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Diyagram anahtarı**
 - Stok hareketleri dikey oklarla temsil edilir.
@@ -209,7 +209,7 @@ Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziks
 
 Aşağıdaki diyagram bu hareketler serisini, işaretleme ile Ağırlıklı ortalama stok modeli seçmenin etkileriyle birlikte gösterir. 
 
-![İşaretleme ile Ağırlıklı Ortalama    ](./media/weightedaveragewithmarking.gif) 
+![İşaretleme ile Ağırlıklı Ortalama.](./media/weightedaveragewithmarking.gif) 
 
 **Diyagram anahtarı**
 - Stok hareketleri dikey oklarla temsil edilir.

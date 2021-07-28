@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023646"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358398"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>TDS imtiyaz sertifikası numaralarını kaydetme
 
@@ -33,7 +33,7 @@ Bu konu, satıcılara verilen Kaynakta Kesilen Vergi (TDS) imtiyaz sertifikası 
 2. **Vergi türü** alanında, TDS vergi türü için imtiyaz sertifikalarını kaydetmek üzere **TDS**'yi seçin.
 3. Bir satır oluşturmak için, **Genel bakış** sekmesinde **Alt+N**'yi seçin.
 
-    [![Yeni satırın başlığı](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![Yeni satırın başlığı.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. **Stopaj vergisi kodu** alanında, satıcı imtiyaz sertifikalarının verildiği TDS vergi kodunu seçin. **Stopaj vergisi kodu adı** alanı, TDS vergi kodunun adını gösterir.
 5. **Başlangıç tarihi** ve **Bitiş tarihi** alanlarında, imtiyazlı temele göre satıcı için TDS'yi hesaplamak üzere TDS vergi kodunu kullanan imtiyaz sertifikasının geçerlilik süresini tanımlayın.
@@ -50,6 +50,6 @@ Bu konu, satıcılara verilen Kaynakta Kesilen Vergi (TDS) imtiyaz sertifikası 
 
 11. **Sertifika** alanında, TDS imtiyaz sertifika numarasını girin.
 
-    [![Sertifika hızlı sekmesi](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![Sertifika hızlı sekmesi.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. Sayfayı kapatın.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d25d583580af3d73a3ac1eaebc9f7d8413c6563
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018745"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360228"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>RCS genel deposunda yapılandırmaları sona erdirme
 
@@ -45,7 +45,7 @@ Yapılandırmayı sona erdirmek için aşağıdaki adımları tamamlayın.
 2. **Sona erdir** parametresini **Evet** olarak ayarlayın.
 3. Yapılandırmaları sona erdirmek için **Tamam**'ı seçin. Değişiklikleri kaydettiğinizde, **Sona erdirilen tarih** alanı doldurulacaktır.
 
-![Yapılandırmayı sona erdirme bilgileri](media/Discontinue-details-2.png)
+![Yapılandırmayı sona erdirme bilgileri.](media/Discontinue-details-2.png)
   
 Yapılandırmayı istediğiniz zaman **paylaşılan** olarak geri döndürebilir veya sona erdirme bilgilerini ayarlayabilirsiniz. Bir yapılandırmayı paylaştırırsanız, ileride yapılacak sona erdirme için planlarınızı belirtecek şekilde **desteklendiği son tarih** ve sona erdirmeyle ilgili tüm diğer bilgileri belirtin.
 

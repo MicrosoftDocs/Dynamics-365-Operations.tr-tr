@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814692"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347674"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini tasarlama
 
@@ -32,7 +32,7 @@ ms.locfileid: "5814692"
 
 Aşağıdaki çizimde gösterildiği gibi her sekme dört bölüme ayrılmıştır.
 
-![Sekme düzeni](media/pfe-tab-layout.png "Sekme düzeni")
+![Sekme düzeni.](media/pfe-tab-layout.png "Sekme düzeni")
 
 Çizimde aşağıdaki öğeler gösterilir:
 
@@ -47,7 +47,7 @@ Yeni bir sekme oluşturmak ve yapılandırmak için bu adımları izleyin:
 
 1. **Sekme tasarla** sayfasını açmak için, eylem bölmesinde **Sekme tasarla**'yı seçin.
 
-    ![Sekme tasarla sayfası](media/pfe-design-tabs.png "Sekme tasarla sayfası")
+    ![Sekme tasarla sayfası.](media/pfe-design-tabs.png "Sekme tasarla sayfası")
 
 1. Eylem Bölmesi'nde **Yeni**'yi seçin.
 
@@ -67,7 +67,7 @@ Gereksinim duyduğunuz tüm sekmeleri tasarladıktan sonra, bunları bir yapıla
 
 1. **Üretim denetimi \> Ayarlar \> Üretim yürütme \> Üretim katı yürütmesini konfigüre et**'e gidin.
 
-    ![Üretim katı yürütmeyi yapılandır](media/pfe-config-prod-floor-execution.png "Üretim katı yürütmeyi yapılandır")
+    ![Üretim katı yürütmeyi yapılandırma.](media/pfe-config-prod-floor-execution.png "Üretim katı yürütmeyi yapılandır")
 
 1. **Sekme seçimi** hızlı sekmesinde **Ekle**'yi seçin.
 

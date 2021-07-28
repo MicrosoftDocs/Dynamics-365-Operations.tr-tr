@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897344"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347846"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Alacak dekontlarındaki orijinal faturalara başvurular
 
@@ -51,7 +51,7 @@ Orijinal faturalara yapılan referansların ilgili alacak dekontlarına yazdır�
 1. **Alacak hesapları** \> **Kurulum** \> **Alacak hesapları parametreleri**'ne gidin.
 2. **Güncelleştirmeler** sekmesinde, **Fatura** hızlı sekmesinde, **Alacak faturalama düzenini satış ve proje fatura raporlarına uygula** seçeneğini **Evet** olarak ayarlayın.
 
-![Alacak hesapları parametrelerini yapılandırma](media/original-invoice-number-in-credit-note.jpg)
+![Alacak hesapları parametrelerini yapılandırma.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>Orijinal faturalara referansları tanımlama
 
@@ -65,7 +65,7 @@ Belge türüne göre orijinal faturalara referansları tanımlamak için aşağ�
 4. Eylem Bölmesi'nde, **Fatura** sekmesindeki **İşlevler** grubunda **Alacak faturalaması**'nı seçin.
 5. Orijinal faturaya olan referansı girin ve düzeltme nedenini seçin.
 
-![Serbest metin faturası için referans tanımlama](media/reference-original-invoice-FTI.jpg)
+![Serbest metin faturası için referans tanımlama.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>Müşteri alacak dekontu
 
@@ -74,7 +74,7 @@ Belge türüne göre orijinal faturalara referansları tanımlamak için aşağ�
 3. Eylem Bölmesi'nde, **Satış** sekmesindeki **Alacak dekontu** grubunda **Alacak dekontu**'nu seçin.
 4. Düzeltme nedenini girin. Orijinal faturaya olan referans otomatik olarak kurulur.
 
-![Satış siparişi için referans tanımlama](media/reference-original-invoice-SO.jpg)
+![Satış siparişi için referans tanımlama.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>Proje alacak dekontu
 
@@ -84,13 +84,13 @@ Belge türüne göre orijinal faturalara referansları tanımlamak için aşağ�
 4. **Alacak faturalaması**'nı seçin.
 5. Düzeltme nedenini girin. Orijinal faturaya olan referans otomatik olarak kurulur.
 
-![Proje faturası için referans tanımlama](media/reference-original-invoice-project.jpg)
+![Proje faturası için referans tanımlama.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>Alacak dekontlarını yazdırma
 
 Serbest metin, müşteri ve proje alacak dekontlarını yazdırdığınızda, orijinal faturaya referans ve düzeltme sebebini içerecektir.
 
-![Yazdırılmış alacak dekontu](media/credit-note-FTI.jpg)
+![Yazdırılmış alacak dekontu.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > Orijinal faturalara yapılan başvuruların yazdırılacağını varsayarak belgelerin yazdırılabilir biçimlerinin doğru yapılandırılmış olduğundan emin olun.

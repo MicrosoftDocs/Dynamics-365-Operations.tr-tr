@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054920"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346286"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Dataverse sanal tablo sorgularını iyileştirme
 
@@ -50,13 +50,13 @@ Bu etkiyi örneğin Çalışan (**mshr_hcmworkerentity**) veya temel çalışan 
 - **Sorgu zaman aşımı**: Sorgu zaman aşımına uğrayabilir ve şu hatayı döndürebilir: "Finance and Operations'ı çağırmak için bir belirteç alındı ancak Finance and Operations InternalServerError türünde bir hata döndürdü."
 - **Beklenmeyen hata**: Sorgu şu iletiyle birlikte 400 hata türünü döndürebilir: "Beklenmeyen bir hata oluştu."
 
-  ![HcmWorkerBaseEntity üzerinde 400 hata türü](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![HcmWorkerBaseEntity üzerinde 400 hata türü.](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **Azaltma**: Sorgu sunucu kaynaklarını aşırı kullanabilir ve azaltmaya maruz olabilir. Bu durumda, sorgu şu hatayı döndürür: "Finance and Operations'ı çağırmak için bir belirteç alındı ancak Finance and Operations 429 türünde bir hata döndürdü." Human Resources'ta azaltma konusunda daha fazla bilgi için bkz. [Azaltmayla ilgili SSS](./hr-admin-integration-throttling-faq.md).
 
-  ![HcmWorkerBaseEntity üzerinde 429 hata türü](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![HcmWorkerBaseEntity üzerinde 429 hata türü.](./media/HcmWorkerBaseEntityErrorType429.png)
 
-## <a name="resolution"></a>Çözünürlük
+## <a name="resolution"></a>Çözüm
 
 ### <a name="limit-the-number-of-columns-included-in-your-data-query"></a>Veri sorgunuz dahil edilen sütunların sayısını sınırlayın
 
@@ -96,7 +96,7 @@ Dataverse sanal bir tablosu için Power BI raporu oluştururken yukarıda sözü
 2. **Veri Al** penceresinde, arama kutusuna **Common Data Service** yazıp **Common Data Service** bağlayıcısını ve **Bağlan**'ı seçin.
 3. Common Data Service penceresinin **Sunucu URL**'si alanına, Dataverse ortamınızın kuruluş URI'sını girip **Tamam**'ı seçin.
   
-   ![Dataverse ortamınız için URI girin](./media/PowerBIDataverseURLSetup.png)
+   ![Dataverse ortamınız için URI girin.](./media/PowerBIDataverseURLSetup.png)
   
 4. Gezgin penceresinde, **Varlıklar** düğümünü genişletin.
 5. Arama kutusuna **mshr_hcmworkerbaseentity** girin ve varlığı seçin.
@@ -113,7 +113,7 @@ Dataverse sanal bir tablosu için Power BI raporu oluştururken yukarıda sözü
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Power Query Düzenleyicisi için Gelişmiş Düzenleyici'de sorguyu güncelleştirme](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Power Query Düzenleyicisi için Gelişmiş Düzenleyici'de sorguyu güncelleştirme.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. **Tamam**'ı seçin.
 
@@ -138,7 +138,7 @@ Bu soruna bir çözüm bulmak için, ilgili tablolardan herhangi bir veri alanı
 
 Yalnızca gereksinim duyduğunuz sütunların Power App için veri almak üzere sorguya dahil edildiğinden emin olmak üzere [Power Apps İzleyicisi](/powerapps/maker/monitor-overview)'ni kullanabilirsiniz. Uygulamanız için seçtiğiniz sütunların verileri almak için en uygun sütunlar olmasını sağlamak amacıyla getRows işlemi için oluşturulan URL'yi görüntüleyebilirsiniz.
 
-![getData işlemini analiz etmek için Power Apps İzleyicisi'ni kullanma](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![getData işlemini analiz etmek için Power Apps İzleyicisi'ni kullanma.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>Veri sorgusuna filtre uygulama
 

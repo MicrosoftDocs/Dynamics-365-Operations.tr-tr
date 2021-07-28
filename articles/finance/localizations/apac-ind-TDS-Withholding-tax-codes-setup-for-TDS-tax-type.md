@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d56a23f7af7633e1761a8a7c48f71381d6f14df2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 57de382c6d363a6c1d87cf734e9aedb32d6009a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023670"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349940"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>TDS vergi türü için stopaj vergisi kodlarını ayarlama
 
@@ -31,7 +31,7 @@ Bu konu, Kaynakta Kesilen Vergi (TDS) için vergi kodlarının nasıl ayarlanaca
 
 1. **Vergi \> Dolaylı vergiler \> Stopaj vergisi \> Stopaj vergisi kodları**'na gidin.
 
-    [![Stopaj vergisi kodları sayfası](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
+    [![Stopaj vergisi kodları sayfası.](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
 
 2. Eylem bölmesinde, TDS için stopaj vergisi kodu oluşturmak üzere **Yeni**'yi seçin ve gerekli ayrıntıları girin.
 3. **Genel** hızlı sekmesinde, **Vergi türü** alanında, vergi kodunu TDS vergi kodu olarak sınıflandırmak için **TDS**'yi seçin.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016167"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354969"
 ---
 # <a name="cost-and-date-control"></a>Maliyet ve tarih kontrolü
 
@@ -58,7 +58,7 @@ Varlıklar, işlevsel yerleşimler ve çalışma emirleri için oluşturulan hes
 
     Aşağıdaki şekil, **Varlık maliyet denetimi** iletişim kutusunun bir örneğini gösterir.
 
-    ![Varlık Maliyet Denetimi iletişim kutusu](media/01-controlling-and-reporting.png)
+    ![Varlık Maliyet Denetimi iletişim kutusu.](media/01-controlling-and-reporting.png)
 
 10. **Varlık maliyet denetimi** sayfasında, hesaplamanın gerekli ayrıntı düzeyini göstermek için **Gruplama ölçütü** düğmelerine tıklayın. Seçilen **Gruplandırma ölçütü** düğmeleri vurgulanır. Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.
 
@@ -71,7 +71,7 @@ Aşağıdaki ekran görüntüsü, **Varlık maliyet denetimi** içinde hesaplama
 - **Açık taahhüt edilen maliyet** alanı, sipariş ettiğiniz veya aldığınız, ancak henüz ödenmemiş olan maddeler, saatler ve servisler için ödeme taahhütlerini gösterir. 
 - Tüm tüketim kayıtları deftere nakledildikten sonra, ilgili maliyetler **Fiili maliyet** alanında gösterilir.
 
-![Varlık maliyet denetiminde örnek hesaplama sonuçları](media/02-controlling-and-reporting.png)
+![Varlık maliyet denetiminde örnek hesaplama sonuçları.](media/02-controlling-and-reporting.png)
 
 Maliyet hesaplaması yapmanın bir başka yolu **Tüm varlıklar** veya **Etkin varlıklar** içinde çoklu varlıkları seçmektir. Daha sonra, **genel** sekmesindeki **maliyet denetimi** düğmesini tıklatın. **Varlık maliyet denetimi** iletişim kutusunda, seçilen kıymetler hızlı sekme **dahil edilecek kayıtlar** içindeki **Varlık** alanına otomatik eklenir. **Tamam**'ı tıklattın ve seçilen varlıklar için bir maliyet hesaplaması gösterilir. Aynı işlem **Tüm işlem yapılacak yerleşimler** veya **Etkin işlem yapılacak yerleşimler** içindeki işlem yapılacak yerleşimler ve **Tüm iş emirleri** veya **Etkin iş emirleri** içindeki tüm iş emirleri için kullanılabilir.
 
@@ -99,7 +99,7 @@ Aşağıdaki ekran görüntüsü, **İş emri tarih denetimi** içinde hesaplama
 - **Ortalama bitiş gecikmesi** alanı, fiili bitiş tarihiyle karşılaştırıldığında bir iş emri için planlanan bitiş tarihi arasındaki farkı gösterir. Örneğin, gerçek bitiş tarihi planlanan bitiş tarihinden üç gün sonra ise, bu alanda "3" görüntülenir.  
 - **Oluşum** alanları, planlanan ve fiili başlangıç tarihiyle ilişkili olarak sapmalarının kaç kere yinelendiğini ve iş emrindeki zamanlanan ve gerçek bitiş tarihini gösterir.
 
-![İş emri tarihi denetiminde örnek hesaplama sonuçları](media/03-controlling-and-reporting.png)
+![İş emri tarihi denetiminde örnek hesaplama sonuçları.](media/03-controlling-and-reporting.png)
 
 
 

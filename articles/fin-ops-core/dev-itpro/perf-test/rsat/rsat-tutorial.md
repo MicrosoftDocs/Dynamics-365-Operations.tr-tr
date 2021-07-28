@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866168"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357530"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi
 
@@ -67,11 +67,11 @@ RSAT, bir görevin farklı veri yapılandırmalarıyla çalışacak şekilde etk
 
 Bu özellik, bir eylemin meydana geldiğini doğrulamak için kullanılabilir. Örneğin, bir üretim emri oluşturulduğunda, tahmin edildiğinde ve ardından başlatıldığında, uygulama üretim emrinin başlatıldığını size bildiren bir "Üretim-Başlangıcı" iletisi gösterir.
 
-![Üretim – Başlangıç bildirimi](./media/use_rsa_tool_05.png)
+![Üretim – Başlangıç bildirimi.](./media/use_rsa_tool_05.png)
 
 Uygun kayıt için Excel parametre dosyasının **MessageValidation** sekmesine ileti metnini girerek bu iletiyi RSAT ile doğrulayabilirsiniz.
 
-![Mesaj doğrulama sekmesi](./media/use_rsa_tool_06.png)
+![Mesaj doğrulama sekmesi.](./media/use_rsa_tool_06.png)
 
 Test olayı çalıştırıldıktan sonra Excel parametre dosyasındaki ileti gösterilen iletiyle karşılaştırılır. İletiler eşleşmezse test olayı başarısız olur.
 
@@ -104,15 +104,15 @@ Test olayını çalıştırdığınızda RSAT, çalışma dizinindeki test olayl
 
 Aşağıdaki resim bu senaryo için akış işlemini gösterir.
 
-![Gösteri senaryosu için akış](./media/use_rsa_tool_14.png)
+![Gösteri senaryosu için akış.](./media/use_rsa_tool_14.png)
 
 Aşağıdaki şekil, LCS İş Süreci Modelleyicisinde bu senaryoya ilişkin iş süreçleri hiyerarşisini gösterir.
 
-![Demo senaryosu için iş süreçleri](./media/use_rsa_tool_15.png)
+![Demo senaryosu için iş süreçleri.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>Strateji – Önemli öğrenme
 
-### <a name="data"></a>Veriler
+### <a name="data"></a>Veri
 
 - Temsili veri birimlerinizin (ürün/altın yapılandırma verilerinin bir kopyası ve geçirilen veriler) olduğundan emin olun.
 - Görev kaydediciyle yeni veri oluşturduğunuzda, var olan adlarla çakışmayacak test adları oluşturun (örneğin, **RSATxxx** gibi bir önek kullanın).

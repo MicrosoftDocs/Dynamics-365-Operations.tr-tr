@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897588"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355095"
 ---
 # <a name="dimension-hierarchy"></a>Boyut hiyerarşisi
 
@@ -39,7 +39,7 @@ Boyut hiyerarşileri Maliyet muhasebesinin çeşitli yerlerinde kullanılır. Bi
 
 Bir boyut hiyerarşisi örneği burada verilmiştir.
 
-![Bir boyut hiyerarşisi örneği](./media/dimension-hierarchy.png)
+![Bir boyut hiyerarşisi örneği.](./media/dimension-hierarchy.png)
 
 Aşağıdaki boyut türleri için bir boyut hiyerarşisi oluşturulabilir:
 
@@ -80,7 +80,7 @@ Bir boyut hiyerarşisi, bir düğüm ve yaprak düğüm ilişkilerine sahip bir 
 
 Burada Finans ve İnsan kaynakları yönetimi altındaki departmanları ve derleme ve ambalaj üretim altındaki departmanları aşağıdaki Organizasyon yapısını, küçük bir şirket vardır.
 
-![Bir kuruluş yapısı örneği](./media/dimension-hierarchy-org.png)
+![Bir kuruluş yapısı örneği.](./media/dimension-hierarchy-org.png)
 
 Bir maliyet nesne boyutu, kuruluştaki tüm maliyet merkezlerini temsil eder
 

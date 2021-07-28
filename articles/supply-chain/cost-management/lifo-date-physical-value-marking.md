@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821549"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344580"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO Tarihi
 
@@ -55,7 +55,7 @@ Bu örnekte ürün model grubu, fiziksel değeri dahil edecek şekilde işaretle
 
 Yeni cari ortalama maliyet fiyatı, 15,00 ABD Doları tutarında mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. 
 
-Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanılmadığında LIFO Tarihi stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![Fiziksel Değeri Dahil Et Seçeneği ile LIFO Tarihi](./media/lifodatewithoutincludephysicalvalue.gif) 
+Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanılmadığında LIFO Tarihi stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![Fiziksel Değeri Dahil Et Seçeneği ile LIFO Tarihi.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -90,7 +90,7 @@ Aşağıdaki çizimde bu hareketler gösterilmiştir:
 
 Yeni cari ortalama maliyet fiyatı, 20,00 ABD Doları tutarında mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. 
 
-Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![Fiziksel Değeri Dahil Et Seçeneği ile LIFO Tarihi](./media/lifodatewithincludephysicalvalue.gif) 
+Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![Fiziksel Değeri Dahil Et Seçeneği ile LIFO Tarihi.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -136,7 +136,7 @@ Aşağıdaki çizimde bu hareketler gösterilmiştir:
 
 Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. 
 
-Aşağıdaki çizimde, çıkışlar ve girişler arasında işaretleme kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![İşaretleme ile LIFO Tarihi    ](./media/lifodatewithmarking.gif) 
+Aşağıdaki çizimde, çıkışlar ve girişler arasında işaretleme kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![İşaretleme ile LIFO Tarihi.](./media/lifodatewithmarking.gif) 
 
 **Diyagramın anahtarı**
 

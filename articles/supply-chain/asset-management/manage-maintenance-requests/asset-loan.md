@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 712f3e7cdfb8d521ae2afb59d90bc5102da53cb7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9be41f459b8ec8ca8ccad2360218b32299cb319e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813399"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354941"
 ---
 # <a name="asset-loans"></a>Ödünç varlıklar
 
@@ -44,7 +44,7 @@ ms.locfileid: "5813399"
 
 Diğer yerlere veya müşterilere ödünç vermiş olduğunuz tüm varlıkların listesini görüntülemek için **Varlık yönetimi** \> **Ortak** \> **Ödünç varlık** \> **Tüm ödünç varlıklar**'ı seçin. Bir varlık için **Sona erdi** kutusu seçiliyse varlık şirketiniz için iade edilmiş olarak kalır.
 
-![Bakım Taleplerini Yönetme](media/06-manage-maintenance-requests.png)
+![Bakım Taleplerini Yönetme.](media/06-manage-maintenance-requests.png)
 
 **Etkin ödünç varlıklar** sayfasında henüz şirketinize iade edilmeyen tüm ödünç varlıkların listesini görüntüleyebilirsiniz.
 

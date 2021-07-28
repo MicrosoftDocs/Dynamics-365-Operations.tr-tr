@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820581"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356137"
 ---
 # <a name="revenue-recognition-reallocation"></a>Gelir kabulü yeniden tahsisatı
 
@@ -48,7 +48,7 @@ Yeniden tahsisat kısmen veya tamamen faturalanmış satış siparişlerinde yap
 
 Her kuruluş, düzeltmenin yalnızca genel muhasebeyi mi güncelleştireceğine, yoksa alacak hesaplarını da güncelleştirip güncellemeyeceğine karar vermelidir. Verilen karar, **Genel muhasebe parametreleri** (**Gelir kabulü \> Kurulum \> Genel muhasebe parametreleri**) sayfasının **Gelir kabulü** sekmesindeki **Fatura düzeltmelerini Alacak hesaplarına deftere naklet** seçeneğinin doğru ayarını belirler. Uygun ayar senaryoya bağlıdır. Olası senaryolar hakkında daha fazla bilgi için bu konu başlığının ilerleyen bölümlerinde yer alan [Yeniden tahsis için senaryolar](#scenarios-for-reallocation) bölümündeki bağlantıları kullanın.
 
-[![Genel muhasebe parametreleri sayfasındaki Gelir kabulü sekmesi](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Genel muhasebe parametreleri sayfasındaki Gelir kabulü sekmesi.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 **Fatura düzeltmelerini Alacak hesaplarına deftere naklet** seçeneği **Evet** olarak ayarlanırsa yeniden tahsisat işlemi aşağıdaki sonucu üretir:
 
@@ -76,7 +76,7 @@ Belirtildiği gibi, yalnızca Genel muhasebeyi veya hem Genel muhasebeyi hem de 
 
 Yeniden tahsisat işlemini başlatmak için yeniden tahsis etmeniz gereken tüm satış siparişlerinde **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et**'i seçin. Alternatif olarak **Gelir tanıma \> Periyodik görevler \> Fiyatı yeni sipariş satırlarıyla yeniden tahsis et**'e gidin ve ardından müşteri hesabı gibi uygun filtreleri girin.
 
-[![Fiyatı yeni sipariş satırlarıyla yeniden tahsis et sayfası](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![Fiyatı yeni sipariş satırlarıyla yeniden tahsis et sayfası.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasının üst kılavuzu **Satış** olarak adlandırılır. Müşterinin satış siparişlerini listeler. Yeniden tahsis edilmesi gereken satış siparişlerini seçin. Proje satış siparişleri yeniden tahsis edilemediği için proje satış siparişlerini seçemezsiniz. Proje harici satış siparişleri yalnızca bir kez yeniden tahsis edilebildiği için zaten yeniden tahsisat kimliği olan satış siparişlerini de seçemezsiniz. Yeniden tahsisat kimliği olan satış siparişleri başka bir kullanıcı tarafından yeniden tahsisat için işaretlenmiştir.
 
@@ -86,23 +86,23 @@ Gerekli satış sipariş satırlarını seçtikten sonra, burada açıklandığ�
 
 - **Yeniden tahsisatı güncelleştir**: Seçili satış sipariş satırlarının yeni gelir fiyatı tutarlarını hesaplayın. Bir satır kaldırıldıysa veya iptal edildiyse yalnızca seçtiğiniz mevcut satırlar için yeniden tahsisat yapılır. Aşağıdaki resimde, yeniden tahsisat güncelleştirilmeden önce satış sipariş satırlarının nasıl göründüğüne dair bir örnek gösterilmektedir.
 
-    [![Yeniden tahsisat güncelleştirilmeden önce satış sipariş satırları](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Yeniden tahsisat güncelleştirilmeden önce satış sipariş satırları.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     Yeni gelir fiyatı tutarları, **Satırlar** kılavuzundaki **Yeniden tahsis edilen tutar** sütununda gösterilir. Bu noktada, yeniden tahsisat işlenmiştir ancak henüz hesaplanmamıştır. Aşağıdaki resimde, yeniden tahsisat güncelleştirildikten sonra satış sipariş satırlarının nasıl göründüğüne dair bir örnek gösterilmektedir.
 
-    [![Yeniden tahsisat güncelleştirildikten sonra satış sipariş satırları](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Yeniden tahsisat güncelleştirildikten sonra satış sipariş satırları.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
 - **İşlem**: Yeniden tahsis edilen gelir fiyatlarını işleme veya deftere nakletme. Bu düğmeyi seçtikten sonra, yeniden tahsisatı tersine çevirmenin bir yolu yoktur. **İşlem**'i seçmeden önce **Yeniden tahsisatı güncelleştir**'i seçmediyseniz yeniden tahsisat otomatik olarak çalıştırılır.
 
-    - Hiçbir satış sipariş satırı faturalanmadıysa gelir fiyatı tutarları yeniden tahsisat için seçilen satış siparişlerinde güncelleştirilir.
-    - Bir veya daha fazla satış sipariş satırı faturalandıysa düzeltilen muhasebe girişleri deftere nakledilir ve faturalanan satış sipariş satırı için oluşturulan gelir çizelgesi ayrıntıları düzeltilir.
+    - Hiçbir satış siparişi satırı faturalanmadıysa gelir fiyatı tutarları yeniden tahsisat için seçilen satış siparişlerinde güncelleştirilir.
+    - Bir veya daha fazla satış siparişi satırı faturalandıysa düzeltilen muhasebe girişleri deftere nakledilir ve faturalanan satış siparişi satırı için oluşturulan gelir planı ayrıntıları düzeltilir.
 
 - **Beklenen fiş**: Faturalanan tüm satış sipariş satırları için oluşturulan muhasebe girişlerinin önizlemesini gösterir. Hiçbir satır faturalanmadıysa hiçbir şey gösterilmez. **Beklenen fiş**'i seçmeden önce **Yeniden tahsisatı güncelleştir**'i seçmediyseniz yeniden tahsisat otomatik olarak çalıştırılır.
 - **Gelir tahsisi**: Seçilen tüm satırlar için gelir fiyatı tahsisatını gösteren bir sayfa açar. Sayfadaki bilgilerin hiçbirini değiştiremezsiniz. Yeniden tahsisat yapmak için kullanılan satır tutarlarını gösterir.
 
-    [![Yeniden tahsisat için kullanılan satır tutarları](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Yeniden tahsisat için kullanılan satır tutarları.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
-- **Seçilen müşteri için verileri sıfırla**: Yeniden tahsisat işlemi başlatılıp tamamlanmadıysa yalnızca seçilen müşteri için yeniden tahsisat tablosundaki verileri temizleyin. Örneğin, yeniden tahsisat için birden çok satış sipariş satırı işaretlersiniz **İşlem**'i seçmeden sayfayı açık bırakır ve sayfa zaman aşımına uğrar. Bu durumda, satış sipariş satırları işaretli olarak kalır ve başka bir kullanıcı tarafından yeniden tahsisat işlemini tamamlamak için kullanılamaz. Sayfa açıldığında boş olabilir. Bu durumda, başka bir kullanıcının yeniden tahsisat işlemini tamamlayabilmesi için **Seçilen müşteri için verileri sıfırla** düğmesi kullanılarak işlenmemiş satış siparişleri temizlenebilir.
+- **Seçilen müşteri için verileri sıfırla**: Yeniden tahsisat işlemi başlatılıp tamamlanmadıysa yalnızca seçilen müşteri için yeniden tahsisat tablosundaki verileri temizleyin. Örneğin, yeniden tahsisat için birden çok satış siparişi satırı işaretlersiniz **İşlem**'i seçmeden sayfayı açık bırakır ve sayfa zaman aşımına uğrar. Bu durumda, satış sipariş satırları işaretli olarak kalır ve başka bir kullanıcı tarafından yeniden tahsisat işlemini tamamlamak için kullanılamaz. Sayfa açıldığında boş olabilir. Bu durumda, başka bir kullanıcının yeniden tahsisat işlemini tamamlayabilmesi için **Seçilen müşteri için verileri sıfırla** düğmesi kullanılarak işlenmemiş satış siparişleri temizlenebilir.
 
 ## <a name="scenarios-for-reallocation"></a>Yeniden tahsisat için senaryolar
 

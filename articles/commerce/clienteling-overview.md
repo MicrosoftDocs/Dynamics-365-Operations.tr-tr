@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937024"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352700"
 ---
 # <a name="clienteling-overview"></a>Müşteri rehberliğine genel bakış
 
@@ -68,7 +70,7 @@ Ortamınızda müşteri rehberliği işlevini açmak için aşağıdaki adımlar
 
 1. **Özellik yönetimi** çalışma alanında, özellikleri **Perakende ve ticaret** modülüne göre filtreleyin.
 
-    ![Commerce modülü için özellikler listesinde müşteri rehberliği](./media/Enable_clienteling.png "Perakende ve ticaret modülü için özellikler listesinde müşteri rehberliği")
+    ![Commerce modülü için özellikler listesinde müşteri rehberliği.](./media/Enable_clienteling.png "Perakende ve ticaret modülü için özellikler listesinde müşteri rehberliği")
 
 2. **Şimdi etkinleştir** öğesini seçerek **Müşteri rehberliği** özelliğini açın.
 3. **Commerce Parametreleri** sayfasında, **Numara serisi** sekmesinde, **Müşteri defteri tanımlayıcısı** satırını seçin. Ardından **Numara serisi kodu** alanından bir numara serisi seçin. Sistem, bu numara serisini müşteri defterlerine bir kod atamak için kullanır.
@@ -83,7 +85,7 @@ Ortamınızda müşteri rehberliği işlevini açmak için aşağıdaki adımlar
 
 6. **Commerce parametreleri** sayfasında, **Müşteri rehberliği** sekmesinde, **Müşteri defteri öznitelik grubu** alanında, oluşturduğunuz öznitelik grubunu seçin.
 
-    ![Seçilen müşteri defteri öznitelik grubu](./media/Client%20book%20attributes.png "Seçilen müşteri defteri öznitelik grubu")
+    ![Seçilen müşteri defteri öznitelik grubu.](./media/Client%20book%20attributes.png "Seçilen müşteri defteri öznitelik grubu")
 
 7. POS'ta gerçekleşen faaliyetleri yakalamak için **Faaliyet türleri** sayfasında (**Retail and Commerce \> Müşteriler \> Faaliyet türleri**) faaliyet türlerini tanımlayın.
 
@@ -95,7 +97,7 @@ Ortamınızda müşteri rehberliği işlevini açmak için aşağıdaki adımlar
 
 Bu yordamı tamamladıktan sonra, satış yetkilileri POS'ta müşteri ayrıntıları sayfasını açabilir ve müşteri defterlerine müşteriler ekleyebilir, müşteriler için faaliyetleri ve notları görüntüleyip yakalayabilir ve müşteri defterini filtrelemek için müşteri ve müşteri defteri özniteliklerini kullanarak müşterileri hedefleyebilir. Aşağıdaki şekilde bir müşteri defteri örneği gösterilmiştir.
 
-![Müşteri defteri örneği](./media/client_book.png "Müşteri defteri örneği")
+![Müşteri defteri örneği.](./media/client_book.png "Müşteri defteri örneği")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Customer Insights'ın Commerce ile tümleştirilmesini açma
 

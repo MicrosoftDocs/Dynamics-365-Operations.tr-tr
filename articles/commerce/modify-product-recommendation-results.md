@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfe04881e71558ed326025d8f2545c3c611df3aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a319007b32a8a52bd4a0c0af337ed8fd4062cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796982"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346680"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>AI-ML tabanlı ürün önerisi sonuçlarını ayarlama
 
@@ -51,7 +51,7 @@ Parametreleri değiştirmeden önce, aşağıdaki sonuçların nasıl etkilendik
 
 "En iyi satış" ürün listesi, değiştirilebilen bir parametreye sahiptir:
 
-![Örnek en iyi satış listesi varsayılan parametresi](./media/examplebestsellingparameters.PNG)
+![Örnek en iyi satış listesi varsayılan parametresi.](./media/examplebestsellingparameters.PNG)
 
 1. **Son X günden satışları dahil et** - Ürün sipariş etmek için geçerli tarihten önce belirtilen gün sayısındaki satış işlemleri. Yukarıdaki varsayılan değer, son 30 gün içinde bir ürünün yaptığı tüm satınalmaların, ürünün en iyi satış çok popüler olan ürün listesine yerleştirilmesiyle ilgili olarak kullanılmasını önerir. 
 
@@ -65,13 +65,13 @@ Parametreleri değiştirmeden önce, aşağıdaki sonuçların nasıl etkilendik
 1.  Tabloya ürün eklemek için **Satır ekle** seçin. 
 1.  Ürün sütunu altında, **adı** veya **ürün numarasını** kullanarak ürünü arayın.
 
-    ![Yeni ürün listesinde ürün arama örneği](./media/examplenewlistconfiguration1.png)
+    ![Yeni ürün listesinde ürün arama örneği.](./media/examplenewlistconfiguration1.png)
 
 1.  Satır türü sütunu altında, iki seçenekten birini belirleyin:
     -   **Dahil et** – bir ürünü listenin önüne zorlar
     -   **Dışla** – bir ürünün listede görünmesini kaldırır
     
-    ![Ürünü yeni ürün listesinden içerme veya hariç tutma örneği](./media/examplenewlistconfiguration2.png)
+    ![Ürünü yeni ürün listesinden içerme veya hariç tutma örneği.](./media/examplenewlistconfiguration2.png)
 
 1.  **Görüntüleme sırasının** değiştirilmesi, **dahil** edilen ürünlerin listede görüneceği sırayı değiştirir.
     - İki ürün aynı **görüntü sipariş** değerine sahipse, bu iki sonucun son sırası arka ofisten farklı olabilir.
@@ -87,11 +87,11 @@ Parametreleri değiştirmeden önce, aşağıdaki sonuçların nasıl etkilendik
 Bir çekirdek ürünle ilgili sonuçları el ile eklemek veya kaldırmak için aşağıdaki adımları izleyin:
 1.  **Tohum ürünü** seçin. 
 1.  **Ürün** sütunu altında, **adı** veya **ürün numarasını** kullanarak ürünü arayın.
-![Yeni ürün listesinde ürün arama örneği](./media/exampleFBTlistconfiguration1.png)
+![Yeni ürün listesinde ürün arama örneği.](./media/exampleFBTlistconfiguration1.png)
 1. **Satır türü** sütunu altında, iki seçenekten birini belirleyin:
     - **Dahil et** – bir ürünü listenin önüne zorlar
     - **Dışla** – bir ürünün listede görünmesini kaldırır     
-![En sık satın alınan listede ürün ekleme veya çıkarma örneği](./media/exampleFBTlistconfiguration2.png)
+![En sık satın alınan listede ürün ekleme veya çıkarma örneği.](./media/exampleFBTlistconfiguration2.png)
 1.  Tablodan ürün kaldırmak için: kaldırılacak satırı seçin ve Kaldır 'ı seçin.
 
 

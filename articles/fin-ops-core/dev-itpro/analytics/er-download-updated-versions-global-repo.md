@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5f7ae0888656dd452af17e33d600f7894b801b1d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893968"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351734"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>ER konfigürasyonlarının güncelleştirilmiş sürümlerini içe aktar
 
@@ -41,11 +41,11 @@ Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının gü
 2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 3. **Yerelleştirme yapılandırmaları** sayfasında **İlgili bağlantılar** bölümünde **Yapılandırma sürümleri güncellemelerini içe aktarma** kutucuğunu seçin.
 
-    ![Yerelleştirme yapılandırmaları sayfası](./media/er-download-updated-versions-global-repo1.png)
+    ![Yerelleştirme yapılandırmaları sayfası.](./media/er-download-updated-versions-global-repo1.png)
 
 4. **Elektronik raporlama konfigürasyonları sürümleri güncelleştirmelerini içe aktar** iletişim kutusunda, **çalıştırma modu** alanında **yalnızca kullanılabilir güncelleştirmeleri göster**'i seçin. Daha sonra **Tamam**'ı seçin. 
 
-    ![Çalışma modu alanı yalnızca kullanılabilir güncelleştirmeleri gösterecek şekilde ayarlandı](./media/er-download-updated-versions-global-repo2.png)
+    ![Çalışma modu alanı yalnızca kullanılabilir güncelleştirmeleri gösterecek şekilde ayarlandı.](./media/er-download-updated-versions-global-repo2.png)
 
 5. Aldığınız iletileri gözden geçirin. Bu iletiler, geçerli Finance örneğindeki ER konfigürasyonlarla ilgili aşağıdaki bilgileri ve bunların genel havuz içeriğiyle nasıl karşılaştırılacağını sağlar:
 
@@ -72,14 +72,14 @@ Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının gü
 4. **Elektronik raporlama konfigürasyonları sürümleri güncelleştirmelerini içe aktar** iletişim kutusunda, **çalıştırma modu** alanında, Global depodan geçerli finans örneğine ER konfigürasyonların en son sürümlerini içe aktarmak için, **en son güncelleştirmeleri içe aktar**'ı seçin.
 5. İçe aktarma için bir toplu iş planlamak üzere, **Arka planda çalıştır** hızlı sekmesinde, **Toplu işleme** seçeneğini **Evet** olarak ayarlayın. İçe aktarmayı belirli aralıklarla tekrarlamak istiyorsanız, gerekli yinelemeyi konfigüre edin.
 
-    ![En son güncelleştirmeleri Içe aktarmak için çalışma modu alanı ayarla](./media/er-download-updated-versions-global-repo5.png)
+    ![En son güncelleştirmeleri Içe aktarmak için çalışma modu alanı ayarla.](./media/er-download-updated-versions-global-repo5.png)
 
 6. **Tamam**'ı seçin.
 7. Hangi konfigürasyon sürümlerinin içe aktarıldığını öğrenmek için aşağıdaki adımlardan birini izleyin:
 
     - Toplu işi kullanmak yerine, içe aktarmayı etkileşimli olarak çalıştırırsanız, aldığınız iletileri gözden geçirin.
 
-        ![Etkileşimli içe aktarma çalıştırması sırasında alınan iletiler](./media/er-download-updated-versions-global-repo6.png)
+        ![Etkileşimli içe aktarma çalıştırması sırasında alınan iletiler.](./media/er-download-updated-versions-global-repo6.png)
 
     - İçe aktarmayı toplu iş modunda çalıştırırsanız, şu adımları izleyin:
 
@@ -87,7 +87,7 @@ Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının gü
         2. **Elektronik raporlama konfigürasyonları güncelleştirmeleri güncelleştirmelerini içe aktar** işini bulun ve seçin ve sonra eylem bölmesinde, **toplu iş** sekmesinde, iş geçmişini görüntülemek için **toplu iş geçmişi**'ni seçin.
         3. **Toplu iş geçmişi** sayfasında, **Günlük**'ü seçin. Sonra, aldığınız iletide, iş günlüğünü görüntülemek için **Mesaj ayrıntıları** bağlantısını seçin.
 
-        ![İş günlükleri](./media/er-download-updated-versions-global-repo7.png)
+        ![İş günlükleri.](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > İçe aktarılan versiyonlar hemen kullanılabilir olacağından, ER konfigürasyonlarının güncelleştirilmiş sürümlerini doğrudan Global depodan üretim ortamına içe aktarmak için bir yinelenen toplu iş zamanlamanızı önermiyoruz. Bunun yerine, ER konfigürasyonlarının sürümlerini bir korumalı alan ortamına dağıtmak için bu yaklaşımı kullanın. Bunlar, daha sonra üretim ortamına dağıtılmadan önce korumalı alan ortamında değerlendirilebilirler.

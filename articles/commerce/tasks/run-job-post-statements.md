@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804245"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347478"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Deyimleri nakletmek için işi yapılandır ve çalıştır
 
@@ -31,9 +31,9 @@ Bu yordam, seçili bir mağaza veya mağaza grubuna ilişkin ekstreleri deftere 
 2. Ekstreleri toplu işle deftere naklet'e tıklayın.
     * Bir kuruluş hiyerarşisi seçin ve kuruluş düğümleri ağacından tek bir mağaza veya bir düğüm seçin. Bir mağaza grubu için toplu iş oluşturmak istiyorsanız bir düğüm belirtin.  
     * Seçiminizi eklemek için oka tıklayın.  
-3. Arka plan sekmesinde Çalıştır'a tıklayın. ![Arka planda çalıştır](../dev-itpro/media/runbackground.png "Arka planda çalıştır") 
+3. Arka plan sekmesinde Çalıştır'a tıklayın. ![Arka planda çalıştır.](../dev-itpro/media/runbackground.png "Arka planda çalıştır") 
 4. Toplu işlem onay kutusunu işaretleyin veya işaretini kaldırın.
-![Toplu İşlem](../dev-itpro/media/batchprocessing.png "Toplu İşlem ve yineleme") 
+![Toplu İşleme.](../dev-itpro/media/batchprocessing.png "Toplu İşlem ve yineleme") 
 5. Yineleme'ye tıklayın.
 6. Başlangıç tarihi alanına bir tarih girin.
 7. Başlangıç saati alanına saati girin.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051821"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359689"
 ---
 # <a name="recruit-job-candidates"></a>İş adaylarını işe alma
 
@@ -61,13 +61,13 @@ Kuruluşunuzun birden çok konumu varsa, bu dosyaları ekleyerek bunları ekleye
 
 3. **İşe alma istek yerleşimi** alanına yerleşim adını girin.
 
-   ![İşe alma isteği Ekle konumu](./media/hr-recruit-0a-add-location.png)
+   ![İşe alma isteği Ekle konumu.](./media/hr-recruit-0a-add-location.png)
 
 4. **Açıklama** alanında konumu için bir açıklama girin.
 
 5. **Konum** altında, **Ekle**'yi seçin. **Yeni Adres** yerleşimi görünürse, konumun adresini girin.
 
-   ![Adresi gir](./media/hr-recruit-0b-address.png)
+   ![Adresi girme.](./media/hr-recruit-0b-address.png)
 
 6. **İlgili kişi bilgileri** altında yerleşimin ilgili kişisinin bilgilerini girin.
 
@@ -83,11 +83,11 @@ Yöneticiler İnsan Kaynakları işe alma istekleri gönderebilir. Ayrı bir iş
 
 3. **İşe almak için talep** seçin.
 
-   ![İşe alma isteği başlat](./media/hr-recruit-1-request-to-recruit.png)
+   ![İşe alma isteği başlatma.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. **Açıklama**, **iş** ve **Tahmini Başlangıç tarihi** alanlarını tamamlayın.
 
-   ![İşe alma isteğini tamamlayın](./media/hr-recruit-2-request-to-recruit.png)
+   ![İşe alma isteğini tamamlama.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. **Devam**'ı seçin. Konumlarınıza ilişkin işe alma isteği görüntülenir.
 
@@ -95,7 +95,7 @@ Yöneticiler İnsan Kaynakları işe alma istekleri gönderebilir. Ayrı bir iş
 
 7. **İş** altında, gerekli tüm bilgileri değiştirin ve sonra **işten ayrıntıları oluştur**'u seçin.
 
-   ![İşten ayrıntı oluştur](./media/hr-recruit-3-create-details-from-job.png)
+   ![İşten ayrıntı oluşturma.](./media/hr-recruit-3-create-details-from-job.png)
 
    İşe alma isteğinin geri kalanı girdiğiniz işle ilgili varsayılan bilgilerle doldurulur.
 
@@ -103,13 +103,13 @@ Yöneticiler İnsan Kaynakları işe alma istekleri gönderebilir. Ayrı bir iş
 
 9. **Pozisyonlar** altında, **Ekle** 'yi seçin ve sonra bu işe alma isteği için bir pozisyon seçin.
 
-   ![Pozisyon Ekle](./media/hr-recruit-4-select-position.png)
+   ![Pozisyon ekleme.](./media/hr-recruit-4-select-position.png)
 
 10. **Yetenekler**'in altında , **Ekle**'yi seçin ve sonra da bir yetenek seçin.
 
 11. **Eğitim gereksinimleri** altında , **Ekle**'yi seçin ve sonra **eğitim** ve **eğitim düzeyi** açılan listelerinden değerleri seçin.
 
-   ![Eğitim gereksinimleri Ekle](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Eğitim gereksinimleri ekleme.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. **Yorum** altında gerektiği şekilde yorumlar ekleyin.
 
@@ -117,7 +117,7 @@ Yöneticiler İnsan Kaynakları işe alma istekleri gönderebilir. Ayrı bir iş
 
 14. İşe alma isteğiniz tamamlandığında ve işe alma işlemini başlatmaya hazır olduğunuzda, menü çubuğunda **Etkinleştir**'i seçin.
 
-   ![İşe alma isteğini etkinleştir](./media/hr-recruit-6-activate-recruit-request.png)
+   ![İşe alma isteğini etkinleştirme.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. **Kaydet**'i seçin.
 
@@ -131,7 +131,7 @@ Bir yönetici iseniz ve kendi isteklerinizi görüntülemek istiyorsanız:
 
 3. **Ekip bilgilerim** altında, **İşe alma istekleri** sekmesini seçin.
 
-   ![Işe alma istekleri sekmesini seçin](./media/hr-recruit-7-recruiting-requests.png)
+   ![İşe alma istekleri sekmesini seçme.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. İşe alma isteğini görüntülemek veya düzenlemek için bunu kılavuzda seçin.
 
@@ -141,7 +141,7 @@ Bir İK Pro iseniz ve tüm işe alma isteklerini görüntülemek istiyorsanız:
 
 2. **Işe alma istekleri** seçin.
 
-   ![Personel yönetiminde işe alma isteklerini görüntüle](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Personel yönetiminde işe alma isteklerini görüntüleme.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. İşe alma isteğini görüntülemek veya düzenlemek için bunu kılavuzda seçin.
 
@@ -155,7 +155,7 @@ Kuruluşunuz işe alma isteklerini yönetmek için başka bir uygulamayla tümle
 
 3. **İşe alma** altında **Adaylar**'ı seçin.
 
-   ![Adayları görüntüle](./media/hr-recruit-9-candidates.png)
+   ![Adayları görüntüleme.](./media/hr-recruit-9-candidates.png)
 
 4. Aday eklemek için **Yeni**'yi seçin. Varolan bir adayı düzenlemek için, listeden aday seçin ve **Düzenle**'yi seçin. Aday profili görüntülenir.
 
@@ -163,7 +163,7 @@ Kuruluşunuz işe alma isteklerini yönetmek için başka bir uygulamayla tümle
 
 6. **İşe alma isteği** altında adayı bağlamak için bir işe alma isteği seçin. **Tahmini Başlangıç tarihi**, **işe alma Yöneticisi**, **Konum** ve **Açıklama alanlarını** gerektiği gibi tamamlayın.
 
-   ![İşe alma isteğine bağla](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![İşe alma isteğine bağlantı.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Aday kaydına dahil etmek istediğiniz aşağıdaki alanlardaki tüm bilgileri tamamlayın:
    - **Yorumlar**
@@ -182,11 +182,11 @@ Bir adayı işe almak için hazır olduğunuzda, adayı bir çalışana aktarmak
 
 1. Aday formunda **işe al**'ı seçin.
 
-   ![Adayı işe al](./media/hr-recruit-11-hire.png)
+   ![Adayı işe alma.](./media/hr-recruit-11-hire.png)
 
 2. **İşe yeni çalışan** formunda, **Ayrıntılar** altında tüm alanları doldurun.
 
-   ![Yeni işe alma ayrıntılarını girin](./media/hr-recruit-12-hire-new-worker.png)
+   ![Yeni işe alma ayrıntılarını girme.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. **Pozisyon ayrıntıları** altında , bilgileri gerektiği gibi doğrulayın ve değiştirin.
 
@@ -199,11 +199,11 @@ Bir adayı işe almak için hazır olduğunuzda, adayı bir çalışana aktarmak
 
 ## <a name="decide-not-to-hire-a-candidate"></a>Aday işe gerekmediğine karar verme
 
-Bir adayı işe gerekmediğine karar verirseniz, aşağıdaki yordamı izleyerek onları vetele alma işleminden çıkarabilirsiniz. 
+Bir adayı işe almamaya karar verirseniz, aşağıdaki yordamı izleyerek onları vetele alma işleminden çıkarabilirsiniz. 
 
 1. Aday formunda **işe alma**'ı seçin.
 
-   ![Adayı işe alma](./media/hr-recruit-13-do-not-hire.png)
+   ![Adayı işe alma.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Bir **neden kodu** seçin ve açıklama ekleyin.
 
@@ -215,7 +215,7 @@ Gerekirse, bir adayı işe aldıktan sonra kapatabilirsiniz. Örneğin, bir aday
 
 - Aday formunda **Adayı kapat**'ı seçin.
 
-  ![Adayı bırakın.](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Adayı bırakma.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 225fd6a07fee29414ac30a4602b4dfccdc4d742b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 698c556b8839ae1d657ef02796fe08ab9cd3621e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800627"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346046"
 ---
 # <a name="create-legal-entities"></a>Tüzel kişilik oluşturma
 
@@ -44,7 +44,7 @@ Dynamics 365 Commerce'te yeni bir tüzel kişilik oluşturmak için bu adımlar�
 1. **Ülke/bölge** alanına bir değer girin veya buradan bir değer seçin.
 1. **Tamam**'ı seçin. 
 
-   ![Tüzel kişilik oluşturma](media/legal-entities.png)
+   ![Tüzel kişilik oluşturma.](media/legal-entities.png)
 
 1. **Genel** bölümünde, tüzel kişilik hakkında aşağıdaki genel bilgileri girin: 
    1. Arama adı gerekiyorsa bir arama adı girin. Arama adı, bu tüzel kişilik için arama yapılmasında kullanılabilecek alternatif bir addır. 
@@ -67,7 +67,7 @@ Dynamics 365 Commerce'te yeni bir tüzel kişilik oluşturmak için bu adımlar�
 
 Aşağıdaki resimde örnek bir tüzel kişiliğin ayrıntıları gösteriliyor.
 
-![Tüzel kişilik genel bölümü](media/legal-entities-general.png)
+![Tüzel kişilik genel bölümü.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Ek kaynaklar
 

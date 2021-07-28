@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837957"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360137"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Kıymet yönetimi mobil çalışma alanını kullanma
 
@@ -60,7 +60,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1. Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.
 
-    ![Çalışma alanını seçme](media/am-mobile-01.png "Çalışma alanını seçme")
+    ![Çalışma alanını seçme.](media/am-mobile-01.png "Çalışma alanını seçme")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Atanan iş emri işlerini Takvim görünümünde görüntüleme
 
@@ -72,7 +72,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1. İş ayrıntılarını görmek için listeden bir iş emri işi seçin: Varlık ve işlem yapılacak yerleşim ayrıntıları ile **Ekler**, **Denetim listeleri**, **Araçlar**, **Varlık sayaçları**, **Notlar**, **Günlükler**'i görüntülemek için diğer gezinti bağlantıları.
 
-    ![Atanan iş emri işlerini Takvim görünümünde görüntüleme](media/am-mobile-02.png "Atanan iş emri işlerini Takvim görünümünde görüntüleme")
+    ![Atanan iş emri işlerini Takvim görünümünde görüntüleme.](media/am-mobile-02.png "Atanan iş emri işlerini Takvim görünümünde görüntüleme")
 
 ## <a name="create-a-work-order-job"></a>İş emri işi oluşturma
 
@@ -90,7 +90,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1. **Tamam**'ı seçin.
 
-    ![Satır ekle ekranı](media/am-mobile-03.png "Satır ekle ekranı")
+    ![Satır ekle ekranı.](media/am-mobile-03.png "Satır ekle ekranı")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>İş emri işine ek ekleme
@@ -112,7 +112,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1. **Tamam**'ı seçin.
 
-    ![İş emri işi için ekleri görüntüleme ve ekleme](media/am-mobile-04.png "İş emri işi için ekleri görüntüleme ve ekleme")
+    ![İş emri işi için ekleri görüntüleme ve ekleme.](media/am-mobile-04.png "İş emri işi için ekleri görüntüleme ve ekleme")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>İş emri işindeki bakım denetim listesini görüntüleme
 
@@ -129,7 +129,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1. Önceki sayfaya dönmek için geri düğmesini (**<**) seçin.
 
-    ![Bakım denetim listesi ve satır ayrıntıları](media/am-mobile-05.png "Bakım denetim listesi ve satır ayrıntıları")
+    ![Bakım denetim listesi ve satır ayrıntıları.](media/am-mobile-05.png "Bakım denetim listesi ve satır ayrıntıları")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Bir iş emri işinde varlık sayaçlarını görüntüleme ve güncelleştirme
 
@@ -146,7 +146,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1. Yeni bir sayaç değeri girin ve **Bitti**'yi seçin.
 
-    ![Kıymet sayaçlarını görüntüleme ve güncelleştirme](media/am-mobile-06.png "Kıymet sayaçlarını görüntüleme ve güncelleştirme")
+    ![Kıymet sayaçlarını görüntüleme ve güncelleştirme.](media/am-mobile-06.png "Kıymet sayaçlarını görüntüleme ve güncelleştirme")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>İş emri işinde tüketimi kaydetme
 
@@ -178,7 +178,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
     1. Gider kaydı için **Maiyet fiyatı**'nı girin.
     1. **Tamam**'ı seçin.
 
-    ![İş emri günlüğünü güncelleştirme](media/am-mobile-07.png "İş emri günlüğünü güncelleştirme")
+    ![İş emri günlüğünü güncelleştirme.](media/am-mobile-07.png "İş emri günlüğünü güncelleştirme")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>İş emrindeki yaşam döngüsü durumunu güncelleştirme
 
@@ -194,7 +194,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1. **Tamam**'ı seçin.
 
-    ![İş emrindeki yaşam döngüsü durumunu güncelleştirme](media/am-mobile-08.png "İş emrindeki yaşam döngüsü durumunu güncelleştirme")
+    ![İş emrindeki yaşam döngüsü durumunu güncelleştirme.](media/am-mobile-08.png "İş emrindeki yaşam döngüsü durumunu güncelleştirme")
 
 ## <a name="create-a-maintenance-request"></a>Bakım talebi oluşturma
 
@@ -216,7 +216,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1. **Tamam**'ı seçin.
 
-    ![Bakım talebi oluşturma](media/am-mobile-09.png "Bakım talebi oluşturma")
+    ![Bakım talebi oluşturma.](media/am-mobile-09.png "Bakım talebi oluşturma")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Bakım talebine ek ekleme
 
@@ -236,7 +236,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1. **Tamam**'ı seçin.
 
-    ![Bakım talebine ek ekleme](media/am-mobile-10.png "Bakım talebine ek ekleme")
+    ![Bakım talebine ek ekleme.](media/am-mobile-10.png "Bakım talebine ek ekleme")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

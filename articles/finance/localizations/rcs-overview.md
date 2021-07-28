@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358134"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -41,7 +43,7 @@ RCS aşağıdaki özellikleri sunar:
 
 RCS'ye [Regulatory Configuration Service sayfasından](https://marketing.configure.global.dynamics.com/) kaydolabilir veya oturum açabilirsiniz.
 
-![RCS kaydolma/oturum açma](media/202103_RCS%20Marketing%20page_updated_1.jpg)
+![RCS kaydolma/oturum açma.](media/202103_RCS%20Marketing%20page_updated_1.jpg)
 
 **Regulatory Configuration Service** sayfasında, hizmetin ek kullanım hüküm ve koşullarını inceleyin ve kabul edin ve ardından aşağıdaki düğmelerden birini seçin:
 
@@ -91,7 +93,7 @@ Ancak bazı senaryolarda, ER biçimlerinin belirli bir tüzel kişilikle ilişki
 
 Hizmet sayfasından RCS'ye kayolduğunuzda Azure Active Directory (Azure AD) ile ilgili bir sorunla karşılaşabilirsiniz. Aldığınız hata iletisi, RCS kaydolma işleminin şu an kapalı olduğunu ve kaydolma işlemini tamamlayabilmeniz için etkinleştirilmesi gerektiğini gösterir.
 
-![RCS kaydolma hata iletisi](media/01_RCSSignUpError.jpg)
+![RCS kaydolma hata iletisi.](media/01_RCSSignUpError.jpg)
 
 Sorun, dinamik aboneliklere kaydolma izniniz olmadığını ve `AllowAdHocSubscriptions` özelliğinin kiracınızda etkin olması gerektiğini gösterir. 
 

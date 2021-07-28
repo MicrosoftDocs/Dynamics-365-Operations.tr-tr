@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 00f7d076d745cb750dbfdd3a95130196edd888bc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 250b2a050acc384c6971fa7f7385681ef15f9a1f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795775"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352458"
 ---
 # <a name="manually-create-curated-recommendations"></a>Seçkin önerileri el ile oluşturma
 
@@ -47,7 +47,7 @@ Seçkin bir ürün önerisi listesi oluşturmak için aşağıdaki adımları iz
 
 ## <a name="example-list"></a>Örnek Listesi
 
-![Arka ofis içindeki örnek seçkin liste](./media/examplecuratedrecolist.png)
+![Arka ofis içindeki örnek seçkin liste.](./media/examplecuratedrecolist.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

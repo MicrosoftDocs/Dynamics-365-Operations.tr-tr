@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188137"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359873"
 ---
 # <a name="sales-and-marketing-overview"></a>Satış ve pazarlamaya genel bakış
 
@@ -29,18 +31,18 @@ Satış akışında çeşitli veri türlerini elde etmek, depolamak ve kullanmak
 
 ## <a name="marketing"></a>Pazarlama
 
-Potansiyel müşteriler bulup onlarla ilişkiler kurmak için pazarlama kampanyalarını ve etkinliklerini kullanın. Böylelikle, ilk etkileşimler satış ilişkileri haline gelebilir. Aşağıdaki süreç akışı, pazarlama için iş sürecini gösterir. [![Pazarlama için iş süreci](./media/marketing01.jpg)](./media/marketing01.jpg)
+Potansiyel müşteriler bulup onlarla ilişkiler kurmak için pazarlama kampanyalarını ve etkinliklerini kullanın. Böylelikle, ilk etkileşimler satış ilişkileri haline gelebilir. Aşağıdaki süreç akışı, pazarlama için iş sürecini gösterir. [![Pazarlama için iş süreci.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>İlişkiler
 
-Satış ve pazarlamada potansiyel müşterilerle yaptığınız ilk etkileşimler çeşitli durumlarda yaşanabilir. Örneğin, fuara katılırken bir müşteri adayı bulabilirsiniz veya kuruluşunuz toplu bir e-posta gönderme kampanyası yaptıktan sonra bir müşteri adayıyla olası bir iş fırsatı yakalayabilirsiniz. Bir tarafın varlığının akışını, o taraf müşteri haline gelmeden önce anlamanız çok önemlidir. Potansiyel bir müşteri, gerçek bir müşteri haline gelirken varlık ilişkilerinin akışı, aşağıdaki grafikte gösterilmiştir. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+Satış ve pazarlamada potansiyel müşterilerle yaptığınız ilk etkileşimler çeşitli durumlarda yaşanabilir. Örneğin, fuara katılırken bir müşteri adayı bulabilirsiniz veya kuruluşunuz toplu bir e-posta gönderme kampanyası yaptıktan sonra bir müşteri adayıyla olası bir iş fırsatı yakalayabilirsiniz. Bir tarafın varlığının akışını, o taraf müşteri haline gelmeden önce anlamanız çok önemlidir. Potansiyel bir müşteri, gerçek bir müşteri haline gelirken varlık ilişkilerinin akışı, aşağıdaki grafikte gösterilmiştir. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Kampanyalar
 
 Kampanya, aday müşterilerin ilgili kişilerini, müşteri adaylarını, iş fırsatlarını ve kampanyaya katılmak için seçilmiş müşterileri hedefler. Supply Chain Management'ta müşteri potansiyelini en üst düzeye çıkarmak için telefonla pazarlama, postalama ve e-posta kampanyaları gibi çeşitli kampanya türleri oluşturabilirsiniz. Kampanyanız ilerledikçe ve olumlu yanıtlar aldıkça kampanyaya olumlu yanıt veren alıcılarla satış sürecine başlayabilirsiniz.
 
 ## <a name="sales"></a>Satış
-Teklifler oluşturmak, yeni ve mevcut müşterilere dikey ve çapraz satış yapmak, satış siparişleri oluşturmak ve müşteriler için satış faturaları oluşturmak için satış işlevlerini kullanın. Aşağıdaki süreç akışı, satış için iş sürecini gösterir. [![Satış için iş süreci](./media/sales01.jpg)](./media/sales01.jpg)
+Teklifler oluşturmak, yeni ve mevcut müşterilere dikey ve çapraz satış yapmak, satış siparişleri oluşturmak ve müşteriler için satış faturaları oluşturmak için satış işlevlerini kullanın. Aşağıdaki süreç akışı, satış için iş sürecini gösterir. [![Satış için iş süreci.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Satış teklifleri
 

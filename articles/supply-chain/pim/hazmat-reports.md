@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 07f103680cacc1273b2b28f6e4e905d6dabb006a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14de281927fa3e6410627839005c6b81a93d89bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820334"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347032"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Tehlikeli malzeme sorguları ve raporları
 
@@ -29,7 +29,7 @@ Microsoft Dynamics 365 Supply Chain Management, tehlikeli malzemeler ile ilgili 
 
 Aşağıdaki resimde, sistem tehlikeli malzeme raporları oluştururken gerçekleşen faaliyet sırasını gösterilmektedir.
 
-![Tehlikeli malzeme raporları için faaliyet sırası](media/hazmat-report-sequence.png "Tehlikeli malzeme raporları için faaliyet sırası")
+![Tehlikeli malzeme raporları için faaliyet sırası.](media/hazmat-report-sequence.png "Tehlikeli malzeme raporları için faaliyet sırası")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Tehlikeli malzeme raporlarını ayarlama
 
