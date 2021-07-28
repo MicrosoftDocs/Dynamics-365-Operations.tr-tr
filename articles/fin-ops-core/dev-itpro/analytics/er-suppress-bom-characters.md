@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2b26e31748f97603b0b175f79a8daae2650261d7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893288"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345900"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Oluşturulan dosyalardaki BOM karakterlerini gizlemek için ER yapılandırmaları tasarlama
 
@@ -29,14 +29,14 @@ Giden belgeler oluşturmak için bir [Elektronik raporlama (ER)](general-electro
 > [!NOTE]
 > Biçim yanlış bir kodlama adı içeriyorsa değişikliklerinizi biçim ayarlarında kaydettiğinizde hata oluşur.
 
-![Biçim tasarımcısı sayfasına kök öğe ekleme](./media/er-suppress-bom-characters-image1.gif)
+![Biçim tasarımcısı sayfasına kök öğe ekleme.](./media/er-suppress-bom-characters-image1.gif)
 
 Kodlama olarak **UTF-8**, **UTF-16** veya **UTF-32** kodlamalarını belirtirseniz **BOM karakterlerini gizle** seçeneği sunulur. Düzenlenebilir ER biçimi çalıştırıldığında çalışma zamanında oluşturulan giden dosyalarda [bayt sırası işareti (BOM) karakterlerini](/globalization/encoding/byte-order-mark) gizlemek için bu seçeneği **Evet** olarak ayarlayın.
 
 > [!NOTE]
 > **Kodlama** alanını boş bırakırsanız varsayılan **UTF-8** kodlaması kullanılır.
 
-![Biçim tasarımcısı sayfasında BOM karakterlerini gizle seçeneğini ayarlama](./media/er-suppress-bom-characters-image2.gif)
+![Biçim tasarımcısı sayfasında BOM karakterlerini gizle seçeneğini ayarlama.](./media/er-suppress-bom-characters-image2.gif)
 
 Çalışma zamanında işlevi incelemek için uygun yordamı tamamlayın. Örneğin, [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md) konusundaki adımları tamamlayın. Konunun [Hesaplamada, oluşturulan çıktının temel alınması için biçimi değiştirme](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) bölümündeki adımları tamamladıktan sonra aşağıdaki ek adımları da izleyin.
 
@@ -59,7 +59,7 @@ Kodlama olarak **UTF-8**, **UTF-16** veya **UTF-32** kodlamalarını belirtirsen
 
     Göreceğiniz ilk fark dosya üst bilgisinde olur. SampleXmlReport.xml file dosyası, BOM karakteri içerirken SampleXmlReport (1).xml dosyası içermez.
 
-    ![Dosya karşılaştırma yardımcı programı kullanarak, oluşturulan dosyaları karşılaştırma](./media/er-suppress-bom-characters-image3.png)
+    ![Dosya karşılaştırma yardımcı programı kullanarak, oluşturulan dosyaları karşılaştırma.](./media/er-suppress-bom-characters-image3.png)
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

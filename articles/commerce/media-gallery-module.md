@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271292"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346728"
 ---
 # <a name="media-gallery-module"></a>Ortam galerisi modülü
 
@@ -41,7 +41,7 @@ Ortam galerisi modülleri için bazı kullanım örnekleri şunlardır:
 
 Aşağıdaki çizimdeki örnekte, bir ortam galerisi modülü kullanılarak PDP'de bir satın alma kutusu ürün resimleri barındırılmaktadır.
 
-![Ürün ayrıntıları sayfasında ortam galerisi modülünü kullanarak ana bilgisayar bilgileri sunan bir satın alma kutusu örneği](./media/ecommerce-pdp-buybox.PNG)
+![Ürün ayrıntıları sayfasında ortam galerisi modülünü kullanarak ana bilgisayar bilgileri sunan bir satın alma kutusu örneği.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Ortam galerisi özellikleri
 
@@ -59,11 +59,11 @@ Aşağıdaki çizimdeki örnekte, bir ortam galerisi modülü kullanılarak PDP'
 
 Aşağıdaki çizimde, tam ekran ve yakınlaştırma seçeneklerinin kullanılabilir olduğu bir ortam galerisi modülü örneği gösterilmektedir.
 
-![Tam ekran ve yakınlaştırma seçeneklerinin kullanılabilir olduğu bir ortam galerisi modülü örneği](./media/ecommerce-media-zoom.png)
+![Tam ekran ve yakınlaştırma seçeneklerinin kullanılabilir olduğu bir ortam galerisi modülü örneği.](./media/ecommerce-media-zoom.png)
 
 Aşağıdaki çizimde, seçilmiş resimlerin bulunduğu bir ortam galerisi modülü örneği gösterilmektedir (yani, belirtilen resimler ürün kimliğine veya sayfa bağlamına bağlı değildir).
 
-![Seçilmiş resimler içeren bir ortam galerisi modülü örneği](./media/ecommerce-media-curated.PNG)
+![Seçilmiş resimler içeren bir ortam galerisi modülü örneği.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Ticari ölçek birim etkileşimi
 

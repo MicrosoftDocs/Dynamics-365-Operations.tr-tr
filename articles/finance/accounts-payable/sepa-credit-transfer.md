@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 03732ecd5a0cd59d15fa1f9f0691571bd0a19606
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897174"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346462"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredi transferine genel bakış
 
@@ -30,7 +32,7 @@ Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar iç
 
 ## <a name="what-is-a-credit-transfer-message"></a>Kredi transferi iletisi nedir?
 Kredi aktarma iletisi, başlatan bir tarafın (şirketinizin) kendi hesabından alacaklıya para taşımak için gönderdiği bir istektir. Kredi transferi iletilerinin ülke/bölge özelinde ve bankaya özel uygulamaları vardır. Bunlardan bazıları bir ülkede/bölgede kullanılırken, bazıları standart haline gelmektedir. İyi bilinen bir küresel standart, ISO 20022 ve Kredi transferi gibi başlatma iletileridir. Aşağıdaki şekilde, seçilen kredi aktarma iletileri arasındaki ilişkiler ve kapsam gösterilmektedir. 
-![Kredi tansferi](./media/credit-transfer.jpg) Kredi transferi iletileri 
+![Kredi transferi.](./media/credit-transfer.jpg) Kredi transferi iletileri 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>ISO 20022 ve SEPA ödemeleri nedir?
 Tek Euro ödemeleri Alanı (SEPA), Avrupa Komisyonu tarafından ayarlanır ve tüm elektronik ödemelerin birey, işletme veya kuruluş ve bankanın bulunduğu ülke/bölgeden bağımsız olarak yurtiçi olarak kabul edildiğini belirler. Ulusal ödemeler ve sınır ötesi ödemeler arasında hiçbir fark yoktur. SEPA, 28 Avrupa Birliği (AB) üyesi devletleri ve ayrıca İzlanda, Liechtenstein, Norveç, İsviçre, Monako ve San Marino'yu içerir. SEPA, Avrupa Ekonomik Alanı (EEA) içinde ödeme hareketleri için tek bir pazar oluşturulmasına yardımcı olur. Sonuçta, SEPA'nın bankalar, işyerleri ve bireylerin çalışması gereken ödeme sayısını azaltması beklenir. Avrupa Komisyonu, Ödeme Hizmetleri Yönergesi (PSD) aracılığıyla SEPA ödemeleri için yasal temeli kurmuştur. Avrupa Ödemeler Konseyi (EPC), aşağıdaki etkinlikler aracılığıyla SEPA'yı destekler:

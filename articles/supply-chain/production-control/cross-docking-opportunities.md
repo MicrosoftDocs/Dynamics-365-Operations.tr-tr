@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190100"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347698"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Üretim emirlerinden çıkış noktalarına çapraz sevk
 
@@ -42,7 +42,7 @@ Bir ürün üretim çıkış konumuna (3) bitmiş olarak bildirilir ve bir forkl
 -   Bir treyler bölme kapısına zaten atanmışsa, kamyon sürücüsü ürünü doğrudan treylere yüklemek üzere yönlendirilir.
 -   Ürünü nakletmek için planlanmış etkinlik yoksa, forklift sürücüsü ürünü dahili bir ambar (5) konumunda depolamak üzere yönlendirilir.
 
-[![fırsatçı çapraz sevk](./media/scenario1.png)](./media/scenario1.png)
+[![fırsatçı çapraz sevk.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Çapraz sevk yapılandır
 Çapraz sevk işlemini **iş ilkelerinde** yapılandırırsınız. Bir iş ilkesi, bir iş emri türü, konum ve ürün içerir. Aşağıdaki örnekte, çapraz sevk ürün X ve konum Y için yapılandırılır.

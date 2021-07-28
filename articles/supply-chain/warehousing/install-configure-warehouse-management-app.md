@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049328"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346094"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
 
@@ -78,28 +78,28 @@ Ambar Yönetimi mobil uygulamasının belirli bir Supply Chain Management sunucu
 1. Azure aboneliğine erişimi olan kullanıcının adını ve parolasını girin.
 1. Azure portalında, sol gezinti bölmesinde, **Azure Active Directory** uygulamasını seçin.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Supply Chain Management tarafından kullanılan Azure AD örneğiyle çalıştığınızdan emin olun.
 1. **Yönet** listesinde **Uygulama kayıtları**'nı seçin.
 
-    ![Uygulama kayıtları](media/app-connect-azure-register.png "Uygulama kayıtları")
+    ![Uygulama kayıtları.](media/app-connect-azure-register.png "Uygulama kayıtları")
 
 1. **Uygulamayı kaydet** sihirbazını açmak için araç çubuğunda **Yeni kayıt**'ı seçin.
 1. Uygulama için bir ad girin, **Yalnızca bu kuruluş dizinindeki hesaplar** seçeneğini belirleyin ve ardından **Kayıt**'ı seçin.
 
-    ![Uygulama kaydetme sihirbazı](media/app-connect-azure-register-wizard.png "Uygulama kaydetme sihirbazı")
+    ![Uygulama kaydetme sihirbazı.](media/app-connect-azure-register-wizard.png "Uygulama kaydetme sihirbazı")
 
 1. Yeni uygulama kaydınız açıldı. Daha sonra gereksinim duyacağınız **Uygulama (istemci) Kodu** değerini not edin. Bu kod, bu konuda daha sonra *istemci kimliği* olarak ifade edilecektir.
 
-    ![Uygulama (istemci) kodu](media/app-connect-azure-app-id.png "Uygulama (istemci) kodu")
+    ![Uygulama (istemci) kodu.](media/app-connect-azure-app-id.png "Uygulama (istemci) kodu")
 
 1. **Yönet** listesinde **Sertifika ve parolalar**'ı seçin. Ardından, uygulamayı kimlik doğrulama için nasıl yapılandırmak istediğinize bağlı olarak aşağıdaki düğmelerden birini seçin. (Daha fazla bilgi için bu konunun ilerisindeki [Sertifika veya istemci parolası kullanarak kimlik doğrulaması](#authenticate) bölümüne bakın.)
 
     - **Karşıya yükleme sertifikası**: Bir sertifikayı parola olarak kullanmak için karşıya yükleyin. Daha güvenli ve tamamen otomatikleştirilebilir olduğu için bu yaklaşımı öneriyoruz. Ambar Yönetimi mobil uygulamasını Windows cihazlarında çalıştırıyorsanız sertifikayı yükledikten sonra gösterilen **Parmak İzi** değerini not edin. Sertifikayı Windows cihazlarında yapılandırırken bu değere ihtiyacınız olacaktır.
     - **Yeni istemci parolası**: **Parolalar** bölümüne bir anahtar açıklama ve süre girerek bir anahtar oluşturun ve **Ekle**'yi seçin. Anahtarın bir kopyasını oluşturun ve güvenli bir şekilde saklayın.
 
-    ![Sertifika ve parolalar](media/app-connect-azure-authentication.png "Sertifika ve parolalar")
+    ![Sertifika ve parolalar.](media/app-connect-azure-authentication.png "Sertifika ve parolalar")
 
 Azure AD uygulamasında web hizmeti uygulamalarını ayarlama hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
@@ -119,7 +119,7 @@ Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak iç
     1. Kullanıcı oluşturun.
     1. Ambarlama mobil cihaz kullanıcısını atayın.
 
-    ![Ambarlama mobil cihaz kullanıcısını atama](media/app-connect-app-users.png "Ambarlama mobil cihaz kullanıcısını atama")
+    ![Ambarlama mobil cihaz kullanıcısını atayın.](media/app-connect-app-users.png "Ambarlama mobil cihaz kullanıcısını atama")
 
 1. Azure AD uygulamanızı, Ambar Yönetimi mobil uygulaması kullanıcısı ile ilişkilendirin:
 
@@ -127,7 +127,7 @@ Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak iç
     1. Satır oluşturun.
     1. Önceki bölümde not ettiğiniz istemci kimliğini girin, kimliğe bir ad verin ve az önce oluşturduğunuz kullanıcıyı seçin. Tüm cihazlarınızı etiketlemenizi öneririz. Sonrasında, cihaz kaybolursa cihazın Supply Chain Management erişimini bu sayfadan kolayca kaldırabilirsiniz.
 
-    ![Azure Active Directory uygulamaları](media/app-connect-aad-apps.png "Azure Active Directory uygulamaları")
+    ![Azure Active Directory uygulamaları.](media/app-connect-aad-apps.png "Azure Active Directory uygulamaları")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Sertifika veya istemci parolası kullanarak kimlik doğrulama
 
@@ -213,30 +213,30 @@ Bağlantı ayarlarını bir dosyadan veya bir QR kodundan içe aktarmak için a�
 
 1. Mobil cihazınızda Ambar Yönetimi mobil uygulamasını başlatın. Uygulamayı ilk kez başlattığınızda, bir hoş geldiniz iletisi görüntülenir. **Bir bağlantı seç**'i seçin.
 
-    ![Hoş geldiniz iletisi](media/app-configure-welcome-screen.png "Hoş geldiniz iletisi")
+    ![Karşılama iletisi.](media/app-configure-welcome-screen.png "Hoş geldiniz iletisi")
 
 1. Bağlantı ayarlarını bir dosyadan içeri aktarıyorsanız ve dosya kaydedilirken varsayılan ad ve konunm kullanılmışsa uygulama, dosyayı zaten bulmuş olabilir. Bu durumda 4. adıma geçin. Aksi durumda, **Bağlantıyı ayarla**'yı sçein ve ardından 3. adıma geçin.
 
-    ![Bağlantı kur](media/app-configure-set-up-connection.png "Bağlantı kur")
+    ![Bağlantı kurma.](media/app-configure-set-up-connection.png "Bağlantı kur")
 
 1. **Bağlantı kurulumu** iletişim kutusunda, ayarları nasıl içeri aktarmak istediğinize bağlı olarak **Dosyadan ekle** veya **QR kodundan ekle** seçeneklerinden birini belirleyin.
 
     - Bağlantı ayarlarını bir dosyadan içeri aktarıyorsanız **Dosyadan ekle**'yi seçin, yerel cihazınızda dosyaya göz atın ve dosyayı seçin. Özel bir konum seçerseniz uygulama konumu kaydeder ve bir sonraki sefer otomatik olarak kullanır.
     - QR kodunu tarayarak bağlantı ayarlarını içerş aktarıyorsanız **QR kodundan ekle**'yi seçin. Uygulama, cihazın kamerasını kullanmak için sizden izin ister. İzin verdikten sonra kamera başlatılır, böylece tarama için kullanılabilir. Cihazın kamerasının kalitesine ve QR kodunun karmaşıklığına bağlı olarak doğru bir tarama elde etmekte zorlanabilirsiniz. Bu durumda, her QR kodu için yalnızca bir bağlantı oluşturarak QR kodunun karmaşıklığını azaltmaya çalışın. (Şu anda, QR kodunu taramak için yalnızca cihazın kamerasını kullanabilirsiniz.)
 
-    ![Bağlantı kurulum menüsü](media/app-configure-connection-setup-flyout.png "Bağlantı kurulum menüsü")
+    ![Bağlantı kurulumu menüsü.](media/app-configure-connection-setup-flyout.png "Bağlantı kurulum menüsü")
 
 1. Bağlantı ayarları başarıyla yüklendiğinde, seçilen bağlantı gösterilir.
 
-    ![Bağlantı ayarları yüklendi](media/app-configure-select-connection.png "Bağlantı ayarları yüklendi")
+    ![Bağlantı ayarları yüklendi.](media/app-configure-select-connection.png "Bağlantı ayarları yüklendi")
 
 1. Android cihazı kullanıyorsanız ve kimlik doğrulama için bir sertifika kullanıyorsanız cihaz sizden sertifikayı seçmenizi ister.
 
-    ![Android cihazda sertifika komutunu seçme](media/app-configure-select-certificate.png "Android cihazda sertifika komutunu seçme")
+    ![Android cihazda sertifika komutunu seçme.](media/app-configure-select-certificate.png "Android cihazda sertifika komutunu seçme")
 
 1. Uygulama, Supply Chain Management sunucunuza bağlanır ve oturum açma sayfasını gösterir.
 
-    ![Oturum açma sayfası](media/app-configure-sign-in-page.png "Oturum açma sayfası")
+    ![Oturum açma sayfası.](media/app-configure-sign-in-page.png "Oturum açma sayfası")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Uygulamayı el ile yapılandırma
 
@@ -246,15 +246,15 @@ Dosyanız veya QR kodunuz yoksa, Azure AD uygulaması aracılığıyla Supply Ch
 1. Uygulama **Tanıtım modunda** başlatılırsa **Bağlantı ayarları**'nı seçin. Uygulama başlatıldığında **Oturum aç** sayfası gösterilirse **Bağlantıyı değiştir**'i seçin.
 1. **Bağlantıyı ayarla**'yı seçin.
 
-    ![Bağlantı kur](media/app-configure-set-up-connection.png "Bağlantı kur")
+    ![Bağlantı kurma.](media/app-configure-set-up-connection.png "Bağlantı kur")
 
 1. **El ile giriş**'i seçin.
 
-    ![Bağlantı kurulum menüsü](media/app-configure-connection-setup-flyout.png "Bağlantı kurulum menüsü")
+    ![Bağlantı kurulumu menüsü.](media/app-configure-connection-setup-flyout.png "Bağlantı kurulum menüsü")
 
     **Yeni Bağlantı** sayfası gösterilir ve bağlantı ayarlarını manuel olarak girmek için gerekli ayarlar görüntülenir.
 
-    ![El ile bağlantı alanları](media/app-configure-input-manually.png "El ile bağlantı alanları")
+    ![El ile bağlantı alanları.](media/app-configure-input-manually.png "El ile bağlantı alanları")
 
 1. Aşağıdaki bilgileri girin:
 

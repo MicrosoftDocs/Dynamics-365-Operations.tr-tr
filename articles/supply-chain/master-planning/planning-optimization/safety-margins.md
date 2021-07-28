@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908305"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347746"
 ---
 # <a name="safety-margins"></a>Emniyet marjları
 
@@ -41,7 +41,7 @@ Emniyet marjlarının amacı, normal sağlama süresinin ötesinde bazı tampon 
 
 Aşağıdaki şekilde, bu emniyet marjlarının zamanla nasıl uygulanacağını gösterilir.
 
-![Emniyet marjları](media/safety-margins-1.png)
+![Güvenlik marjları.](media/safety-margins-1.png)
 
 Tüm marjlar gün olarak tanımlanır. Varsayılan değer olan *0* (sıfır) hiçbir marjın uygulanmadığını belirtir. Birden fazla marj ayarlarsanız, bunların tümü tedarik *emri tarihinden* talep *gereksinim tarihine* kadar olan toplam zamana eklenir. Örneğin, bir kurulum sağlama süresine sahip değildir ve üç marj türünün tümü bir güne ayarlanır. Bu durumda, tedarik emri tarihi ile talep gereksinim tarihi arasında üç gün olacaktır, bu nedenle sipariş tarihi 1 Temmuz ise, gereksinim tarihi 4 Temmuz olur.
 
@@ -51,7 +51,7 @@ Giriş marjı büyük olasılıkla üç emniyet marjının en çok kullanılanı
 
 Aşağıdaki çizimde giriş marjları vurgulanır.
 
-![Giriş marjı](media/safety-margins-2.png)
+![Giriş marjı.](media/safety-margins-2.png)
 
 Giriş marjı genellikle, ambar kaydı veya sistemdeki genel sağlama süresinin bir parçası olarak hesaba katılmayan başka zaman alan süreçler için zaman sağlamak amacıyla tampon olarak kullanılır. Satınalmalar için, bir avantajı ise satınalma emrine ait *teslimat tarihinin* uygun şekilde ileriye doğru hareket ettirilebilmesidir. Bir emniyet marjı kullanmak yerine sağlama süresini artırdığınızda, satıcıdan son dakikada teslim etmesi istenecektir.
 
@@ -66,7 +66,7 @@ Eldeki stok tedarik olarak kullanıldığında bir giriş marjının uygulanmad�
 
 Aşağıdaki çizimde sipariş yenileme sınırı vurgulanır.
 
-![Sipariş yenileme sınırı](media/safety-margins-3.png)
+![Sipariş yenileme sınırı.](media/safety-margins-3.png)
 
 Sipariş yenileme sınırı, master planlama sırasında planlanan tüm siparişler için malzeme sağlama zamanının önüne eklenir. Bu nedenle, bir tedarik emrinin oluşturulması için ek süre sağlar. Bu marj genellikle, tedarik emirlerinin oluşturulması sırasında gerekli olan onay işlemleri veya diğer iç işlemlere zaman sağlamak amacıyla tampon olarak kullanılır. Yeniden sipariş sınırı tedarik *emri tarihi* ile *başlangıç tarihi* arasına konur.
 
@@ -77,7 +77,7 @@ Sipariş yenileme sınırı, master planlama sırasında planlanan tüm sipariş
 
 Aşağıdaki çizimde çıkış marjı vurgulanır.
 
-![Çıkış marjı](media/safety-margins-4.png)
+![Çıkış marjı.](media/safety-margins-4.png)
 
 Master planlama sırasında çıkış marjı talep gereksinim tarihinden düşülür. Gelen talep emirlerine cevap vermek ve sevk etmek için zaman kazanmanıza yardımcı olur. Bu marj, genellikle sevkiyat ve ilgili ambar çıkış işlemlerine zaman sağlamak amacıyla tampon olarak kullanılır.
 
@@ -165,7 +165,7 @@ Aşağıdaki şekilde, emniyet marjları hesaplanırken hangi takvimlerin uygula
 - **Ambar (WH):** sarı
 - **(V) satıcı:** mavi
 
-[![Takvim kurulumu genel görünüm matrisi](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Takvim kurulumu genel görünüm matrisi.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Gecikmeleri hesaplama
 
@@ -173,11 +173,11 @@ Sistem bir siparişin geciktirilip gecikmediğini belirlediğinde, üç güvenli
 
 Örneğin, bir maddenin bir günlük sağlama süresi ve üç günlük giriş marjı vardır. Bu madde için bir satış siparişi bugün gerekli olarak ayarlandı. Bu durumda, gecikme, *sağlama süresi* + *girişi marjı* = dört gün olarak hesaplanır. Bu nedenle, bugün 14 Ağustos ise, dört günlük gecikme 18 Ağustos'ta bir teslimat oluşturur. Aşağıdaki şekilde bu örnek gösterilmiştir.
 
-![Gecikme hesaplama örneği](media/safety-margins-delays.png)
+![Gecikme hesaplama örneği.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama](get-started.md)
+[Planlama Optimizasyonunu kullanmaya başlama](get-started.md)
 
 [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
 

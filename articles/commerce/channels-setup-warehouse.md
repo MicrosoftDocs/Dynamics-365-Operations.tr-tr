@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800507"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345996"
 ---
 # <a name="warehouse-set-up"></a>Ambarı ayarlama
 
@@ -45,7 +45,7 @@ Bir ambar tesisini yapılandırmak için bu adımları izleyin.
 
 Aşağıdaki resimde örnek bir ambar tesisi gösterilmektedir.
 
-![Örnek ambar tesisi](media/warehouse-site.png)
+![Örnek ambar tesisi.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse&quot;></a>Ambar ayarlama
 
@@ -98,7 +98,7 @@ Standart, hasarlı ve iade stok için ambar stok yerleşimleri ayarlamak üzere 
     
 Aşağıdaki resimde San Francisco'daki bir ambar stok yerleşiminin kurulumu gösterilmektedir.
 
-![Örnek stok yerleşimi kurulumu](media/warehouse-inventory-locations.png)
+![Örnek stok yerleşimi kurulumu.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Ambar kurulumunu tamamlama
 
@@ -121,7 +121,7 @@ Ambar kurulumunu tamamlamak için bu adımları izleyin.
 
 Aşağıdaki resimde, yapılandırılmış bir ambarın ayrıntıları gösterilmektedir.
 
-![Yapılandırılmış ambar örneği](media/warehouse-sample.png)
+![Yapılandırılmış ambar örneği.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

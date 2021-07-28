@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796498"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345220"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Satış noktasında (POS) sipariş bildirimlerini görüntüleme
 
@@ -72,14 +72,14 @@ POS düğmeleri artık çalışanların hangi görevlerle hemen ilgilenilmesi ge
 
 Aşağıdaki örnek düğme grubu tasarımcısındaki canlı içerik ayarlarını göstermektedir.
 
-![Düğme grubu tasarımcısında canlı içerik ayarları](./media/ButtonGridDesigner.png "Düğme grubu tasarımcısında canlı içerik ayarları")
+![Düğme grubu tasarımcısında canlı içerik ayarları.](./media/ButtonGridDesigner.png "Düğme grubu tasarımcısında canlı içerik ayarları")
 
 Bir düğmedeki bildirim sayımını göstermek için, doğru ekran düzeninin güncelleştirilmesini sağlamanız gerekir. POS tarafından kullanılan ekran düzenini belirlemek için, sağ üst köşedeki ayarlar **Ayarlar** simgesini seçin ve **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** not edin. Şimdi Edge tarayıcısını kullanarak **Ekran düzeni** sayfasına gidin, yukarıda tanımlanan **Ekran düzeni kimliği** ile **Düzen çözünürlüğü** öğelerini bulun ve **Canlı içeriği etkinleştir** onay kutusunu seçin. **Perakende ve Ticaret \> Perakende ve Ticaret BT \> Dağıtım zamanlaması**'na gidin ve düzen değişikliklerini eşitlemek için 1090 (Kayıtlar) işini çalıştırın.
 
-![POS 'un kullandığı ekran mizanpajını bul](./media/Choose_screen_layout.png "Ekran düzenini bulun")
+![POS 'un kullandığı ekran düzenini bulma.](./media/Choose_screen_layout.png "Ekran düzenini bulun")
 
 Aşağıdaki örnekte, farklı boyuttaki düğmeler için **İçerik hizalama** alanında **Sağ üst** ve **Merkez** seçimlerinin etkisini göstermektedir.
 
-![POS düğmelerinde canlı içeriği](./media/ButtonsWithLiveContent.png "POS düğmelerinde canlı içeriği")
+![POS düğmelerinde canlı içerik.](./media/ButtonsWithLiveContent.png "POS düğmelerinde canlı içeriği")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

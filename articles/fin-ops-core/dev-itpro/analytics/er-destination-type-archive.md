@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 079eda04fcc41fc637419a83452db10b89ed1ab9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a9e0f07241de003dd2971e0d336f89795ad1319b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894040"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348032"
 ---
 # <a name="archive-er-destination-type"></a>Arşiv ER hedef türü
 
@@ -30,7 +30,7 @@ Giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER
 
 Oluşturulan belgeyi Microsoft SharePoint klasörüne veya Microsoft Azure Depolama'ya göndermek için bu seçeneği kullanabilirsiniz. Seçili belge türü ile tanımlanan bir hedefe çıktı göndermek için **Etkin** değerini **Evet** olarak ayarlayın. Yalnızca grubun **Dosya** olarak ayarlandığı belge türleri seçim için kullanılabilir. Belge [türlerini](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) **Kuruluş yönetimi** \> **Belge yönetimi** \> **Belge türleri**'nde tanımlarsınız. ER hedefleri için yapılandırma, belge yönetim sistemi için yapılandırma ile aynıdır.
 
-[![Belge türleri sayfası](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
+[![Belge türleri sayfası.](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 
 Konum dosyanın kaydedildiği yeri belirler. **Arşiv** hedefi etkinleştirildikten sonra, sonuçlar İş arşivinde kaydedilebilir. Sonuçları **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Elektronik raporlama arşivlenmiş işler** içerisinde görebilirsiniz.
 
@@ -41,7 +41,7 @@ Konum dosyanın kaydedildiği yeri belirler. **Arşiv** hedefi etkinleştirildik
 
 Dosyayı belirlenen bir SharePoint klasörüne kaydedebilirsiniz. Varsayılan SharePoint sunucusunu tanımlamak için **Kuruluş yönetimi** \> **Belge yönetimi** \> **Belge yönetimi parametreleri**'ne gidin. **SharePoint** sekmesinde, SharePoint klasörünü yapılandırın. Sonra, bunu ER çıktısının kaydedileceği klasör olarak seçebilirsiniz. Bu belge türünde **SharePoint** konumunun seçilmesi gerekir.
 
-[![Bir SharePoint klasörü seçmek](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
+[![Bir SharePoint klasörü seçme.](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
 
 ## <a name="azure-storage"></a>Azure Depolama
 

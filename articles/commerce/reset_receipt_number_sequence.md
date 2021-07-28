@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: cabce32a43e55f3a3f19bc2d78547d9bab0d89a2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a08d14369057ceb9b23e9d6f9a79847c6175f88e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792061"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345094"
 ---
 # <a name="reset-receipt-numbers"></a>Makbuz numaralarını sıfırlama 
 
@@ -55,7 +55,7 @@ Sıfırlamayı açmak için aşağıdaki adımları izleyin.
 1. **Makbuz türünü Sıfırla** alanında, **yalnızca bir kez** veya **yıllık**'ı seçin.
 1. **Tamam**'ı seçin.
 
-![Makbuz sıfırlama tarihi seçme](media/Enable_receipt_reset.png "Makbuz sıfırlama tarihi seçme")
+![Makbuz sıfırlama tarihi seçme.](media/Enable_receipt_reset.png "Makbuz sıfırlama tarihi seçme")
 
 Bir tarih seçtikten sonra, **sonraki giriş numarası sıfırlama tarihi** sütununda görüntülenir. Sıfırlama tarihi tüm giriş hareketi türleri için geçerlidir. Bu nedenle, makbuz numarası serisi tüm makbuz tipleri için sıfırlanacaktır.
 

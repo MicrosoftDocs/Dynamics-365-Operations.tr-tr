@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184034"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345512"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -73,7 +73,7 @@ Hub aşağıdaki verilere sahiptir:
 
 Ölçek birimleri, dalganın serbest bırakılmasından sonra gerçek dalga işlemenin (iş tahsisatı, stok yenileme işi ve talep işi oluşturma gibi) sahibidir. Bu nedenle, ambar çalışanları, ölçek birimine bağlı bir Ambar Yönetimi mobil uygulaması kullanarak giden işleri işleyebilir.
 
-![Dalga işleme akışı](./media/wes-wave-processing-ga.png "Dalga işleme akışı")
+![Dalga işleme akışı.](./media/wes-wave-processing-ga.png "Dalga işleme akışı")
 
 ### <a name="process-work-and-ship"></a>İşleme işi ve sevkiyat
 
@@ -81,7 +81,7 @@ Son iş süreci, stoku son sevkiyat yerleşimine (Baydoor) koyduğu vakit ölçe
 
 Merkez, hareketleri *Çekildi* olarak güncelleştirdiğinde, yükleme için giden sevkiyat onayını ve ilişkili satış sevk irsaliyesini ya da transfer emri sevkiyatını işleyebilir.
 
-![Giden işleme akışı](./media/WES-outbound-processing-19.png "Giden işleme akışı")
+![Giden işleme akışı.](./media/WES-outbound-processing-19.png "Giden işleme akışı")
 
 ## <a name="inbound-process-flow"></a>Gelen işlem akışı
 
@@ -107,11 +107,11 @@ Hub aşağıdaki verilere sahiptir:
 
 *Ambara serbest bırakma* işlemini kullanmıyorsanız ve bu nedenle *ambar siparişlerini* kullanmıyorsanız hub, ambar teslim alma işlemini ve iş işlemeyi ölçek birimlerinden bağımsız olarak işleyebilir.
 
-![Gelen işlem akışı](./media/wes-inbound-ga.png "Gelen işlem akışı")
+![Gelen işlem akışı.](./media/wes-inbound-ga.png "Gelen işlem akışı")
 
 Ölçek birimi ambar emrine karşı bir ambar uygulaması alma işlemi aracılığıyla gelen kaydı gerçekleştirirken, ölçek birimi iş yükü, merkeze ilgili satınalma siparişi satırı hareketlerini *kayıtlı* olarak güncelleştirmesi üzere bir sinyal gönderir. Bu işlem tamamlanır tamamlanmaz, bir satınalma siparişi ürün girişini merkezde çalıştırabilirsiniz.
 
-![Gelen işleme akışı](./media/WES-inbound-processing-19.png "Gelen işleme akışı")
+![Gelen işleme akışı.](./media/WES-inbound-processing-19.png "Gelen işleme akışı")
 
 ## <a name="supported-processes-and-roles"></a>Desteklenen süreçler ve roller
 

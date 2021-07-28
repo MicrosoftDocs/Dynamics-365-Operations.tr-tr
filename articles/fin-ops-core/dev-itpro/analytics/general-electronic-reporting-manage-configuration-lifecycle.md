@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893213"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345750"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
 
@@ -80,7 +80,7 @@ Aşağıdaki ER ile ilgili nedenlerden dolayı, ER yapılandırmalarını geliş
 
 Geliştirme ortamı içinde tasarlanan ER yapılandırmaları, yapılandırma değerlendirmesi (uygun işlem tümleştirme, sonuçların doğruluğu ve performans) ve kalite güvencesi (role dayalı erişim hakları doğruluğu ve görev ayrımı gibi) için test ortamına [yüklenebilir](#data-persistence-consideration). ER yapılandırması değişimi sağlayan özellikler bu amaçla kullanılabilir. Kanıtlanan ER yapılandırmaları hizmet aboneleri ile paylaşılmak için LCS'ye veya dahili kullanım için üretim ortamına [aktarılabilir](#data-persistence-consideration).
 
-![ER yapılandırma yaşam döngüsü](./media/ger-configuration-lifecycle.png)
+![ER yapılandırma yaşam döngüsü.](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Veri kalıcılığının dikkate alınması
 

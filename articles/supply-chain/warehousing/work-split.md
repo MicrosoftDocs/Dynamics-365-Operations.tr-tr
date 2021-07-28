@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830774"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344158"
 ---
 # <a name="work-split"></a>İş bölme
 
@@ -51,7 +51,7 @@ Ardından, aşağıdaki şekilde listelenen *İş bölme* özelliğini açın:
 - **İşi böl**: Geçerli iş kimliğini ayrı çalışanlar tarafından işlenebilen birden çok küçük iş kimliğine böler.
 - **İş bölme oturumunu iptal et**: İş bölme oturumunu iptal eder ve işi işlemeye hazır hale getirir.
 
-![İşi böl ve İş bölme oturumunu iptal et düğmeleri](media/Work_split_buttons.png "İşi böl ve İş bölme oturumunu iptal et düğmeleri")
+![İşi böl ve İş bölme oturumunu iptal et düğmeleri.](media/Work_split_buttons.png "İşi böl ve İş bölme oturumunu iptal et düğmeleri")
 
 > [!IMPORTANT]
 > Aşağıdaki koşullardan herhangi biri karşılanırsa **İşi böl** düğmesi kullanılamaz:
@@ -94,7 +94,7 @@ Yeni bir iş engelleme nedeni, *İşi böl*, iş kimliği bölme işleminin deva
 
     Geçerli işin **İş engelleme nedeni** alanı *İşi böl* olarak ayarlanır ve iş engellenir.
 
-    ![Engelleme nedeni](media/Blocking_reason.png "Engelleme nedeni")
+    ![Engelleme nedeni.](media/Blocking_reason.png "Engelleme nedeni")
 
 1. Geçerli iş kimliğinden kaldırılacak satırları seçin ve yeni bir iş kimliği ekleyin. Aşağıdaki olaylar gerçekleşir:
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838262"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345246"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Ambar hareketleri için ürün filtrelerini yapılandırma
 
@@ -46,11 +46,11 @@ Başlamadan önce yerine getirilmesi gereken önkoşullar aşağıdaki tabloda g
 1. **Filtre başlığı** alanında bir değer seçin.
 1. **Filtre kodu** alanına bir değer girin.
 
-    ![Ürün filtresi ayarlama](media/Product_Filters10.png "Ürün filtresi ayarlama")
+    ![Ürün filtresi ayarlama.](media/Product_Filters10.png "Ürün filtresi ayarlama")
 
 1. **Açıklama** alanına, kodun adını girin. Örneğin, *Kod 2* satıcıları temsil edebilir. Böylece, belirli bir satıcı veya satıcı grubu için bir ürün filtresi oluşturabilirsiniz. Daha fazla bilgi için bu konunun ilerleyen kısımlarında yer alan [Satıcı filtre kodlarını ayarlama](#vendor-product-filters) bölümüne bakın.
 
-    ![Ürün filtreleri kümesi](media/Product_Filters.png "Ürün filtreleri kümesi")
+    ![Ürün filtreleri kümesi.](media/Product_Filters.png "Ürün filtreleri kümesi")
 
 ## <a name="set-up-product-filter-groups"></a>Ürün filtresi gruplarını ayarlama
 
@@ -69,7 +69,7 @@ Filtre gruplarını ayarlamak için aşağıdaki adımları izleyin.
 1. **Madde grubu** alanında, ürün filtresinin uygulanacağı madde grubunu seçin.
 1. **Kod 1** ile **Kod 10** alanları arasında, gruba eklenecek filtre kodlarını gereken şekilde seçin.
 
-    ![Madde grubu](media/ProdFilterGroup.png "Madde grubu")
+    ![Madde grubu.](media/ProdFilterGroup.png "Madde grubu")
 
 > [!NOTE]
 > Sayfayı kapatırken bir hata iletisi alırsanız, kod kurulumu eksik olabilir. **Madde grupları** sayfasında, **Madde grubu için filtre kodu 1 ata**, **Madde grubu için filtre kodu 2 ata** vb. onay kutularını seçerek kodları bir madde grubu için zorunlu hale getirebilirsiniz.
@@ -88,7 +88,7 @@ Madde gruplarında filtre kodlarını ayarlamak için aşağıdaki adımları iz
 
     Yayınlanmış bir ürünü güncelleştirmek için **Serbest bırakılan ürün ayrıntıları** sayfasını açın ve ardından Eylem Bölmesinde **Düzenle**'yi seçin. Kodlarla ilişkilendirilmiş filtreler **Ambar** hızlı sekmesinde kullanılabilir hale gelir.
 
-    ![Madde grupları](media/ItemGroup10.png "Madde grupları")
+    ![Madde grupları.](media/ItemGroup10.png "Madde grupları")
 
 1. **Madde grubu filtresi** bölümünde, filtre grubunun bir madde için varsayılan filtre grubu olması için eşleşmesi gereken filtrelerin onay kutularını seçin.
 

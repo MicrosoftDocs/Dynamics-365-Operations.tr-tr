@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8d6687ddaae28ebf278aca6a78ba798e2e79edd8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 41d135af00618dbe4046338c8d0e6f5a01f33892
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791933"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345018"
 ---
 # <a name="retail-statements"></a>Perakende ekstreleri
 
@@ -31,7 +31,7 @@ Dynamics 365 Commerce içerisinde, ekstre deftere nakletme işlemi, Bulut satı�
 
 Aşağıdaki çizimde ekstre deftere nakletme işlemi gösterilmiştir. Bu işlemde, POS içerisinde kaydedilen hareketler, istemciye Commerce planlayıcısı kullanılarak aktarılır. İstemci hareketleri aldıktan sonra, mağaza için hareket ekstrelerinı oluşturabilir, hesaplayabilir ve deftere nakledebilirsiniz.
 
-[![Beyan deftere nakletme işlemi](./media/retail-statements.png)](./media/retail-statements.png)
+[![Beyan deftere nakletme işlemi.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>ekstreleri oluşturmak ve deftere nakletmek
 

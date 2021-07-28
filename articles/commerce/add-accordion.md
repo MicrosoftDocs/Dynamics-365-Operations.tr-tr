@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba973299291276fe48d82360e203ca28f02aaffb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ddca8a3cc136080aa63f58cda3ba32bf6d2ca37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796282"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346984"
 ---
 # <a name="accordion-module"></a>Akordiyon modülü
 
@@ -34,7 +34,7 @@ Her akordiyon modülü içinde bir veya daha fazla akordiyon madde modülü ekle
 
 Aşağıdaki resimde, bir mağazanın sık sorulan sorular (SSS) sayfasındaki bilgileri düzenlemek için kullanılan bir akordiyon modülü örneği gösterilmektedir.
 
-![Akordiyon modülü örneği](./media/ecommerce-accordion.PNG)
+![Akordiyon modülü örneği.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Akordiyon modülü özellikleri
 

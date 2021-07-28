@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7c94cdfda4bab43cfc753374d517e22fd21da4bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190297"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343850"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel için bütçe planlama şablonları
 
@@ -37,17 +37,17 @@ Bütçe planlama belgeleri bir veya daha fazla düzen kullanılarak görüntüle
 1. **Bütçe planları listesini** (**Bütçeleme** &gt; **Bütçe planları**) açın. 
 2. Yeni bir bütçe plan belgesi oluşturmak için **Yeni** üzerine tıklayın. 
 
-   [![Bütçe planları listesi](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Bütçe planları listesi.](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Satır eklemek için **Ekle** seçeneğini kullanın. Bütçe planı belge düzeni yapılandırmasını görüntülemek için **Düzenler** üzerine tıklayın. 
 
-   [![Bütçe planları ekle](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Bütçe planları ekleme.](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Düzen yapılandırmasını gözden geçirebilir ve gerektiği gibi ayarlayabilirsiniz. 
 1. **Şablon** &gt; **Oluştur** üzerine giderek bu düzen için bir Excel dosyası oluşturun. 
 2. Şablon oluşturulduktan sonra, **Şablon** &gt; **Görüntüle** üzerine giderek açın ve bütçe planı belge şablonunu görüntüleyin. Excel dosyasını yerel sürücünüze kaydedebilirsiniz. 
 
-[![Farklı kaydet](./media/bpt3-1024x545.png)](./media/bpt3.png)
+[![Farklı kaydet.](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Bütçe planı belgesi düzeni, bir Excel şablonu onunla ilişkilendirilen sonra düzenlenemez. Düzeni değiştirmek için ilişkili Excel şablon dosyasını silin ve onu yeniden oluşturun. Bu, düzendeki ve çalışma sayfasındaki alanları eşit tutmak için gereklidir. 
@@ -64,7 +64,7 @@ Başlık bilgisi eklemek için, Excel dosyasındaki üst satırı seçin ve boş
 
 İmleci Excel dosyası üzerinde istenilen konuma getirin. Seçilen konuma alan etiketi eklemek için **Etiket ekle** üzerine tıklayın. Seçilen yere değer alanı eklemek için **Değer Ekle** seçeneğini işaretleyin. Tasarımcıyı kapatmak için **Kapat** üzerine tıklayın.
 
-## <a name="select-add-valuemediabpt7png"></a>[![Değer Ekle'yi seçme](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Değer Ekle'yi seçme.](./media/bpt7.png)](./media/bpt7.png)
 
 ## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Bütçe planı belge şablonu tablosuna bir hesaplanmış sütun ekleyin
 
@@ -72,11 +72,11 @@ Daha sonra, hesaplanmış sütunlar, oluşturulmuş bütçe planı belge şablon
 
 **Veri Bağlayıcısı** içerisinde **Tasarım** üzerine tıklayarak tabloya sütunlar ekleyin. **BudgetPlanWorksheet** veri kaynağının yanındaki **Düzenle** üzerine tıklayarak sütunlar eklemeye başlayın.
 
-[![Sütun eklemeye başlama](./media/bpt8-1024x301.png)](./media/bpt8.png) 
+[![Sütun eklemeye başlama.](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
 Seçili alan grubu, şablonda kullanılan sütunları görüntüler. Yeni bir sütun eklemek için **Formül** üzerine tıklayın. Yeni sütuna bir ad verin ve formülü **Formül** alanına yapıştırın. Sütunu yerleştirmek için **Güncelleştir** düğmesini tıklatın.
 
-[![Sütun ekleme](./media/bpt12-1024x565.png)](./media/bpt12.png)
+[![Sütun ekleme.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
 > Formülü tanımlamak için, formülü elektronik tabloda oluşturun ve sonra **Tasarım** penceresine yapıştırın. Finance and Operations'a bağlı bir tablo genellikle "AXTable1" olarak adlandırılır. Örneğin, İstek Q1 : İstek Q4 sütunlarını elektronik sayfada özetlemk için, formül = AxTable1\[İstek Q1\]+AxTable1\[İstek Q2\]+AxTable1\[İstek Q3\]+AxTable1\[İstek Q4\].
@@ -85,11 +85,11 @@ Seçili alan grubu, şablonda kullanılan sütunları görüntüler. Yeni bir s�
 
 Kaydedin ve Excel dosyasını kapatın. **Düzenler** içerisinde **Şablon &gt; Karşıya Yükle**'ye tıklayarak kaydedilmiş Excel şablonunu bütçe planında kullanılmak üzere karşıya yükleyin. 
 
-[![Excel şablonunu karşıya yükleme](./media/bpt10-1024x352.png)](./media/bpt10.png) 
+[![Excel şablonunu karşıya yükleme.](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
 **Düzenler** kaydırıcısını kapatın. **Bütçe planı** belgesi içinde **Çalışma sayfası** üzerine tıklayarak belgeyi Excel'de görüntüleyin ve düzenleyin. Ayarlanabilir Excel şablonu, bu bütçe planı çalışma sayfasını oluşturmak için kullanıldı ve hesaplanmış sütunlar önceki adımlarda tanımlanan formüller kullanılarak güncelleştirilir. 
 
-[![Belgeyi Excel'de görüntüleme ve düzenleme](./media/bpt111-1024x431.png)](./media/bpt111.png)
+[![Belgeyi Excel'de görüntüleme ve düzenleme.](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
 ## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Bütçe planı şablonlarını oluşturmak için ipuçları ve püf noktalar
 ### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Bir bütçe planı şablonu için ek veri kaynakları ekleyebilir ve kullanabilir miyim?
@@ -102,21 +102,21 @@ Evet, **Tasarım** menüsünü, Excel şablonundaki aynı ya da diğer sayfalara
 
 Evet **Veri Bağlayıcısı** seçeneğini açarak **Tasarım** seçeneğini diğer kullanıcılardan gizleyin.
 
-[![Veri Bağlayıcı seçeneklerini açma](./media/bpt13-1024x565.png)](./media/bpt13.png)
+[![Veri Bağlayıcı seçeneklerini açma.](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
 **Veri bağlayıcısı seçeneklerini** genişletin ve **Tasarım etkinleştir** onay kutusunu temizleyin. Bu, **Tasarım** seçeneğini **Veri bağlayıcısından** gizleyecektir.
 
-[![Veri bağlayıcıda Tasarım seçeneğini gizleme](./media/bpt14-1024x592.png)](./media/bpt14.png)
+[![Veri bağlayıcıda Tasarım seçeneğini gizleme.](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
 ### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Kullanıcıların verilerle çalışırken veri bağlayıcısını yanlışlıkla kapatmalarını engelleyebilir miyim?
 
 Kullanıcıların onu kapatmasını engellemek için şablonu kilitlemeyi öneririz. Kilidi açmak için **Veri bağlayıcısı** üzerine tıklayın, sağ üst köşede bir ok belirir. 
 
-[![Kilidi açma](./media/bpt15-1024x285.png)](./media/bpt15.png) 
+[![Kilidi açma.](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
 Ek bir menü için oku tıklatın. **Kilidi** seçin.
 
-### <a name="select-lockmediabpt16png"></a>[![Kilidi seçme](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Kilidi seçme.](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Bütçe planı şablonlarımla hücre biçimlendirme, koşullu biçimlendirme ve grafikler gibi diğer Excel özelliklerini kullanabilir miyim?
 

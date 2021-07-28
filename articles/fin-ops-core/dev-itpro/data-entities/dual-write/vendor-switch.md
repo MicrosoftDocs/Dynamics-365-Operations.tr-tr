@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 5a18fed2eac4c120dca20a1d7797d047639275b9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 70904ee716aabd019210e92895a894810bde27fb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750606"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346532"
 ---
 # <a name="switch-between-vendor-designs"></a>Satıcı tasarımları arasında geçiş yapma
 
@@ -48,14 +48,14 @@ ms.locfileid: "5750606"
 
 1. **Satıcı** tablosu için bir iş akışı işlemi oluşturun ve **Hesaplar Tablosunda Satıcılar Oluşturma** iş akışı işlemi şablonunu seçin. Daha sonra **Tamam**'ı seçin. Bu iş akışı **Hesap** tablosu için satıcı oluşturma senaryosunu işler.
 
-    ![Hesaplar Tablosunda Satıcılar Oluşturma iş akışı işlemi](media/create_process.png)
+    ![Hesaplar Tablosunda Satıcılar Oluşturma iş akışı işlemi.](media/create_process.png)
 
 2. **Satıcı** tablosu için bir iş akışı işlemi oluşturun ve **Hesaplar Tablosunda Satıcıları Güncelleştirme** iş akışı işlemi şablonunu seçin. Daha sonra **Tamam**'ı seçin. Bu iş akışı **Hesap** tablosu için satıcı güncelleştirme senaryosunu işler.
 3. **Hesap** tablosu için bir iş akışı işlemi oluşturun ve **Satıcılar Tablosunda Satıcılar Oluşturma** iş akışı işlemi şablonunu seçin.
 4. **Hesap** tablosu için bir iş akışı işlemi oluşturun ve **Satıcılar Tablosunda Satıcıları Güncelleştirme** iş akışı işlemi şablonunu seçin.
 5. İş akışlarını gereksinimlerinize göre gerçek zamanlı iş akışları veya arka plan iş akışları olarak yapılandırabilirsiniz. Bir iş akışını arka plan iş akışı olarak konfigüre etmek için, **bir arka plan iş akışına dönüştür** ü seçin.
 
-    ![Arka plan iş akışına dönüştürme düğmesi](media/background_workflow.png)
+    ![Arka plan iş akışına dönüştürme düğmesi.](media/background_workflow.png)
 
 6. **Kuruluş** türünde satıcılarla ilgili bilgileri depolamak üzere **Hesap** tablosunu kullanmaya başlamak için **Hesap** ve **Satıcı** tablolarına yönelik olarak oluşturduğunuz iş akışlarını etkinleştirin.
 

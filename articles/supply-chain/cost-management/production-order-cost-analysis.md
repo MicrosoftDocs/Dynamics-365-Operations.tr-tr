@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12e9446c145752cd74fb71884fcabe9d4bd03c68
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4d0a298a8f782ae318971e99c03e864fa5a4ef88
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187710"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343662"
 ---
 # <a name="production-order-cost-analysis"></a>Üretim emri maliyet analizi
 
@@ -41,7 +41,7 @@ Farklar, raporlanan üretim faaliyetleri ile üretim maddesinin standart maliyet
 
 Aşağıdaki diyagramda, bir üretim emrinin gerçek maliyetleriyle, üretim emrinin sonlandırılması anında maddenin maliyet kaydı içersindeki hesaplanan maliyetler arasındaki farkı açıklayan dört fark gösterilmektedir. 
 
-![Tamamlanmış bir üretim emrindeki farklılıkları dikkate alan farklar](./media/control.jpg) 
+![Tamamlanmış bir üretim emrindeki farklılıkları dikkate alan farklar.](./media/control.jpg) 
 
 **Fark** sayfasını veya **Üretim farkı** raporunu kullanarak üretim farklarını analiz edebilirsiniz. Ayrıntılı farkları maddeye ve operasyon kaynağına veya maliyet grubuna göre görüntülemek için görüntüleme seçeneklerini kullanın. Stok parametrelerindeki maliyet kırılımına yönelik ilke, farkların maliyet grubunca izlenip izlenmeyeceğini belirler. Özetlenmiş farkları görüntülemek için **tekli**, **çoklu** ve **toplam** görüntüleme seçeneklerini de kullanabilirsiniz. Ayrıntılı fark bilgileri, her farkın kaynağını anlamanıza yardımcı olur. Bir üretim emrini sonlandırmadan önce farkları tahmin etmek için, **Maliyet tahminleri ve maliyetlendirme** raporunda sağlanan ayrıntılı bilgileri analiz edin.
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c3a0cc24a77b29cedaa10ebb4d6e2ad2a4cbf629
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839992"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344770"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektronik faturalamaya genel bakış
 
@@ -98,7 +100,7 @@ Elektronik faturalama LCS'den yüklendiğinde ve gerekli kurulum tüm gerekli uy
 
 Aşağıdaki şekil, Elektronik faturalama ile arasındaki veri akışının nasıl olduğunu gösterir.
 
-![Elektronik faturalamada veri akışı](media/e-invoicing-service-data-flow-diagram-overview.png)
+![Elektronik faturalamada veri akışı.](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
 Elektronik faturalandırmanın etkinleştirilmesi ve kullanılması, kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimlerde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.

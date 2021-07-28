@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129836"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345196"
 ---
 # <a name="create-returns-in-pos"></a>POS'ta iade oluşturma
 
@@ -48,7 +48,7 @@ Arama ölçütleriyle eşleşen bir hareket veya sipariş bulunursa, **İade edi
 
 POS, iade edilebilir ürünler listesindeki her bir sipariş satırı için, orijinal satınalma miktarıyla ilgili bilgileri ve daha önce işlenmiş olan tüm iadelerin miktarlarını gösterir. Bir sipariş satırı için kullanıcının girdiği iade miktarı, **İade edilebililir** alanının değerine eşit veya bundan küçük olmalıdır.
 
-![İade edilebilir ürünler sayfası](media/returnslist.png)
+![İade edilebilir ürünler sayfası.](media/returnslist.png)
 
 İade işleme sırasında, bir kullanıcının fiziksel ürünü varsa ve o ürünün bir barkodu varsa, kullanıcı iadeyi kaydetmek için barkodunu tarayabilir. Barkodlar her tarandığında, iade miktarı bir maddeye göre artar. Ancak, barkod etiketinin bir yerleşik miktarı varsa, bu miktar **Şimdi iade edilen** alanına girilir.
 
@@ -97,6 +97,13 @@ Kanal tarafı bilgileri herhangi bir nedenle güncel değilse ve çevrimdışı 
 
 > [!NOTE]
 > **POS'ta birleşik işlem deneyimi** özelliği açıldığında, serileştirilmiş ürün iadelerinin doğrulanmasını destekleyen yeni isteğe bağlı özellikler kullanılabilir duruma gelir. Daha fazla bilgi için bkz. [Satış noktasında (POS) seri numarası denetimli ürünleri iade etme](POS-serial-returns.md).
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Kısmi miktarlı iadeler için doğru vergi hesaplamasını etkinleştirme
+
+Bu özellik, bir sipariş birden çok fatura kullanılarak iade edildiğinde, vergilerin sonunda uygulanan vergi tutarına eşit olmasını sağlar.
+1.  **Özellik yönetimi** çalışma alanına gidin ve **Kısmi miktarlı iadeler için uygun vergi hesaplamasını etkinleştir**'i arayın.
+2.  **Kısmi miktarlı iadelerle ilgili doğru vergi hesaplamasını etkinleştir**'ı seçin ve ardından **Etkinleştir**'e tıklayın.
+
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

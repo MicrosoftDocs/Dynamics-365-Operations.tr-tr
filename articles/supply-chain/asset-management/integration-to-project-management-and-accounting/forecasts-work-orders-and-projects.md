@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813833"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345440"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Tahminler, iş emirleri ve projeler
 
@@ -58,13 +58,13 @@ Bu bilgilerden bazıları bir iş emrinde bulunmayabilir. Bu nedenle, bir iş em
 
 Örneğin, aşağıdaki örnekte, **Kamyon Motoru** varlık türünün ayarlanma şekli nedeniyle,  **Kamyon Motoru** varlık türü ile oluşturulan her iş emri işi 000186 proje kodunun alt projesi olacaktır.
 
-![Şekil 1](media/01-integration-to-pma.png)
+![Şekil 1.](media/01-integration-to-pma.png)
 
 İş emri işindeki proje kodunun ve ilgili faaliyet numarasının amacı, iş emri işiyle ilgili maliyetleri ve bunun üzerinde seçilen varlığı **Proje yönetimi ve muhasebe** modülünde izlemektir. (Proje kodunu ve faaliyet numarasını görüntülemek için **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri** öğesini ve ardından iş emrini seçin. **Satır ayrıntıları** hızlı sekmesinde, **Proje kodu** alanı proje kodunu ve **Faaliyet numarası** alanı faaliyet numarasını gösterir.) Varlık Yönetiminde maliyet kontrolü ile ilgili daha fazla bilgi için bkz. [Maliyet ve tarih kontrolü](../controlling-and-reporting/cost-and-date-control.md).
 
 Aşağıdaki örnekte, iş emri projelerinin ve ilgili proje faaliyetlerinin grafik genel görünümü gösterilmektedir.
 
-![Şekil 2](media/02-integration-to-pma.png)
+![Şekil 2.](media/02-integration-to-pma.png)
 
 Bir iş emrinde yeni bir iş emri işi oluşturulduğunda, iş için otomatik olarak bir iş emri projesi oluşturulur. İş emri işiyle ilgili olan varlığın mali boyutları otomatik olarak iş emri projesine transfer edilir.
 
@@ -86,17 +86,17 @@ Varlık işlem yapılacak bir yerleşime yüklenmişse ancak daha sonra başka b
 
 Aşağıdaki örnekte iş emri proje grupları, ilgili proje türleri, proje aşamaları ve iş emri yaşam döngüsü durumları arasındaki ilişkilendirmeler gösterilmiştir.
 
-![Şekil 3](media/03-integration-to-pma.png)
+![Şekil 3.](media/03-integration-to-pma.png)
 
-![Şekil 4](media/04-integration-to-pma.png)
+![Şekil 4.](media/04-integration-to-pma.png)
 
-![Şekil 5](media/05-integration-to-pma.png)
+![Şekil 5.](media/05-integration-to-pma.png)
 
 İş emri projelerini ayarlamayla ilgili bilgi için bkz. [İş emri proje kurulumu](../setup-for-work-orders/work-order-project-setup.md). İş emri yaşam döngüsü durumları oluşturma hakkında bilgi için bkz. [İş emri yaşam döngüsü durumları](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 Aşağıdaki örnekte **Varlık yönetimi** modülünde **Proje yönetimi ve muhasebe** modülüyle tümleştirmeyi etkinleştirmek için oluşturulan çeşitli projelere ilişkin grafik genel görünüm gösterilmektedir. Ayrıca, projelerin ilişkili olduğu iş süreçlerini de gösterir.
 
-![Şekil 6](media/06-integration-to-pma.png)
+![Şekil 6.](media/06-integration-to-pma.png)
 
 
 

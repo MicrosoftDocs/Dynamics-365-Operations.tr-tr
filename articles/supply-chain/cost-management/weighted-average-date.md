@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821309"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343712"
 ---
 # <a name="weighted-average-date"></a>Ağırlıklı ortalama tarihi
 
@@ -39,7 +39,7 @@ Ağırlıklı ortalama = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (
 
 Stok kapatma sırasında, hesaplama aşağıdaki görselde gösterildiği gibi, her gün kapanış dönemi boyunca gerçekleştirilir. 
 
-![Ağırlıklı ortalama tarihi günlük hesaplama modeli](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Ağırlıklı ortalama tarihi günlük hesaplama modeli.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Satış siparişleri, stok günlükler ve üretim emirleri gibi stoktan ayrılan stok hareketleri deftere nakil tarihinde tahmini maliyet fiyatından gerçekleştirilir. Tahmini maliyet fiyatı, yürütülen ortalama maliyet fiyatı olarak da bilinir. Stok kapanış tarihinde, sistem önceki dönemlere, önceki güne ve geçerli güne ait stok hareketlerini inceler. Bu analiz, aşağıdaki kapanış ilkelerinden hangisinin kullanılacağını belirlemek için kullanılır:
 
@@ -72,7 +72,7 @@ Aşağıdaki çizimde bu hareketler gösterilmiştir:
 -   2b. Her biri 10,00 ABD Doları maliyetindeki 2 miktar için güncelleştirilen stok mali çıkışı.
 -   3. Stok kapanışı, stok mali girişini stok mali çıkışına kapatmak için doğrudan kapatma yöntemi kullanılarak gerçekleştirilmiştir.
 
-![Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama tarihi doğrudan kapatma](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama tarihi doğrudan kapatma.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Çizimin anahtarı:**
 
@@ -126,7 +126,7 @@ Sistem özetlenen stok transferi hareketini oluşturur ve deftere nakleder. Ayr�
 
 Aşağıdaki çizimde, bu hareketler serisi, ağırlıklı ortalama stok modeli ve **Fiziksel değeri dahil et** seçeneği kullanılmadan özetlenmiş kapatma ilkesi seçimlerinin etkileriyle birlikte gösterilmektedir. 
 
-![Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama tarihi özetlenmiş kapatma](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama tarihi özetlenmiş kapatma.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Çizimin anahtarı**
 
@@ -175,7 +175,7 @@ Hareketin deftere nakledilmeden önce bir giriş için bir çıkış hareketi i�
 
 Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. Aşağıdaki çizim bu hareketler serisini, işaretleme ve ağırlıklı ortalama tarihi stok modeli kullanmanın etkilerini gösterir.
 
-![İşaretleme ile ağırlıklı ortalama tarihi](./media/weightedaveragedatewithmarking.gif) 
+![İşaretleme ile ağırlıklı ortalama tarihi.](./media/weightedaveragedatewithmarking.gif) 
 
 **Çizimin anahtarı:**
 

@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 044a5c21e4ebf1bf83edc74335e655b9388bc1d4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fc7d47897d1a332ba1af7305525f9e75bca12afd
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795609"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337515"
 ---
 # <a name="product-recommendations-overview"></a>Ürün önerilerine genel bakış
 
@@ -32,6 +32,9 @@ Microsoft Dynamics 365 Commerce, e-ticaret Web sitesi ve satış noktası (POS) 
 Ürün önerileri, müşterilerin kendilerine hizmet veren bir deneyim sağlarken istedikleri ürünleri kolayca ve hızlı bir şekilde bulmasına olanak tanır. Çapraz satış ve yukarı satış, müşterilerin başlangıçta satın almayı amaçlamadıkları ek ürünler bulmasına yardımcı olmak için de kullanılabilir. Öneriler, ürün bulmayı geliştirmek için kullanıldığında, daha fazla dönüştürme fırsatı oluşturabilir, satış gelirini artırabilir ve hatta müşteri memnuniyetini ve korunmasını bile yükseltebilir.
 
 e-Ticarette, ürün önerileri büyük ölçekli Microsoft önerileri makine öğrenme teknolojileriyle desteklenmektedir.
+
+Bu hizmet Dynamics 365 Commerce'a bir eklentidir. Daha fazla bilgi için, en son [Microsoft Dynamics 365 Lisans kılavuzunu](https://go.microsoft.com/fwlink/?LinkId=866544) indirin.
+
 
 ## <a name="recommendation-service"></a>Öneri servisi
 

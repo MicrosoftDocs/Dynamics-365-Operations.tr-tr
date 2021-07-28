@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753516"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348008"
 ---
 # <a name="email-er-destination-type"></a>E-posta ER hedef türü
 
@@ -48,13 +48,13 @@ Bir veya birden fazla çıkış dosyasını e-postayla göndermek için **Elektr
 
 E-posta adreslerini ER içerisinde iki şekilde yapılandırabilirsiniz. Yapılandırma, aynen Yazdırma Yönetimi özelliğinin tamamladığı şekilde tamamlanabilir veya bir formülle bir e-posta yapılandırmasına doğrudan başvuru kullanarak bir e-posta adresini çözümleyebilirsiniz.
 
-[![E-posta hedefi için Etkin seçeneğini Evet olarak ayarlama](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+[![E-posta hedefi için Etkin seçeneğini Evet olarak ayarlama.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>E-posta adresi türleri
 
 **Hedef ayarları** iletişim kutusundaki **Kime** veya **Bilgi** alanının yanındaki **Düzenle**'yi seçerseniz **E-posta gönderilecek adres** iletişim kutusu gösterilir. **Ekle**'yi seçin ve ardından kullanılacak e-posta adresinin türünü seçin. Şu anda **Yazdırma Yönetimi e-postası** ve **Yapılandırma e-postası** olmak üzere iki tür e-posta desteklenmektedir.
 
-[![E-posta adresinin türünü seçme](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![E-posta adresinin türünü seçme.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Yazdırma Yönetimi e-postası
 
@@ -84,7 +84,7 @@ Alternatif olarak, giden belge oluşturduğunuz tarafın ilgili kişi ayrıntıl
 
 **Formül tasarımcısı** sayfasında, **Formül** alanına, desteklenen bir role belgeye özel bir referans girin. Referansı yazmak yerine, **Veri kaynağı** bölmesinde, yapılandırılan rolün hesabını temsil eden veri kaynağı düğümünü seçin ve ardından formülü güncelleştirmek için **Veri kaynağı ekle**'yi seçin. Örneğin, satıcı ödemelerini işlemek için kullanılan **ISO 20022 Borç Transferi** yapılandırması ile ilgili e-posta hedefini yapılandırıyorsanız satıcı hesabını temsil eden düğüm `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID` öğesidir.
 
-![Bir e-posta kaynağı hesabını yapılandırma](./media/er_destinations-emaildefineaddresssource.gif)
+![Bir e-posta kaynağı hesabını yapılandırma.](./media/er_destinations-emaildefineaddresssource.gif)
 
 Yapılandırılan rolün hesap numaraları Microsoft Dynamics 365 Finance'in tüm kurulumu için benzersiz ise **E-posta gönderilecek adres** iletişim kutusundaki **E-posta kaynağının şirketi** alanı boş kalabilir.
 
@@ -108,7 +108,7 @@ Bunun yerine, [Genel adres defteri](../../fin-ops/organization-administration/ov
 
 Kullandığınız yapılandırmanın veri kaynaklarında tek bir e-posta adresi veya noktalı virgüllerle (;) ayrılan birden fazla e-posta adresi döndüren bir düğüm varsa e-posta adresi türü olarak **Yapılandırma e-postası**'nı seçin. Doğru biçimlendirilmiş bir e-posta adresi veya noktalı virgüllerle ayrılan doğru biçimlendirilmiş e-posta adresleri almak için formül tasarımcısında [veri kaynaklarını](general-electronic-reporting.md#FormatComponentOutbound) ve [işlevleri](er-formula-language.md#functions) kullanabilirsiniz. Örneğin, **ISO 20022 Borç Transferi** yapılandırmasını kullanıyorsanız, kapak yazısının gönderilmesi gereken satıcı ilgili kişisi ayrıntılarından alınan satıcı birincil e-posta adresini temsil eden düğüm `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` düğümüdür.
 
-[![Bir e-posta adresi kaynağını yapılandırma](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![Bir e-posta adresi kaynağını yapılandırma.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>Biçim bileşenlerini gruplandırma
 
@@ -126,11 +126,11 @@ Biçim bileşenleri grubunu çözmek için **Dosya hedefi** hızlı sekmesinde g
 
 Aşağıdaki çizimde, PDF biçiminde tahsilat mektubunu ve uygun müşteri faturalarını içeren sıkıştırılmış bir giden dosya üretmek üzere yapılandırılmış bir ER biçiminin yapısı gösterilmektedir.
 
-[![Giden belgeler oluşturan bir ER biçiminin yapısı](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![Giden belgeler oluşturan bir ER biçiminin yapısı.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 Aşağıdaki çizimde, bu konu başlığında anlatılan şekilde ayrı bileşenleri gruplandırma ve yeni grup için **E-posta** hedefinin etkinleştirilmesi gösterilmektedir. Böylece uygun müşteri faturaları ile birlikte tahsilat mektubunun e-posta ekleri olarak gönderilir.
 
-[![Ayrı bileşenleri gruplandırma ve E-posta hedefini etkinleştirme](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![Ayrı bileşenleri gruplandırma ve E-posta hedefini etkinleştirme.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052469"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344700"
 ---
 # <a name="configure-dataverse-integration"></a>Dataverse tümleştirmesini yapılandırma
 
@@ -48,15 +48,15 @@ Aşağıdaki durumlarda tümleştirmeyi kapatmak isteyebilirsiniz:
 
 1. Dataverse ile tümleştirme için ayarları görüntülemek veya yapılandırmak istediğiniz Human Resources kurulumunda **Sistem yönetimi** kutucuğunu seçin.
 
-    [![Sistem yönetimi kutucuğu](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Sistem yönetimi kutucuğu.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. **Bağlantılar** sekmesini seçin.
 
-    [![Bağlantılar sekmesi](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Bağlantılar sekmesi.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. **Tümleştirmeler** altında, **Dataverse yapılandırması**'nı seçin.
 
-    [![Dataverse yapılandırması bağlantısı](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Dataverse yapılandırması bağlantısı.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Human Resources ve Dataverse arasında tümleştirmeyi açma veya kapatma
 
@@ -67,7 +67,7 @@ Aşağıdaki durumlarda tümleştirmeyi kapatmak isteyebilirsiniz:
 
 - Tümleştirmeyi kapatmak için, seçeneği **Hayır** olarak ayarlayın.
 
-[![Dataverse tümleştirmesini açma veya kapatma](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![Dataverse tümleştirmesini açma veya kapatma.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Veri taşıma görevleri gerçekleştirirken Dataverse tümleştirmesini kapatmanız önerilir. Büyük veri yüklemeleri, performansı önemli ölçüde etkileyebilir. Örneğin, 2000 çalışan karşıya yüklemek, tümleştirme etkinleştirildiğinde birkaç saat sürebilir ve devre dışı bırakıldığında bir saatten az olabilir. Bu örnekte verilen sayılar yalnızca gösterim amaçlıdır. Kayıtları içe aktarmak için gereken tam süre birçok etkene göre büyük ölçüde değişebilir.
@@ -98,7 +98,7 @@ Human Resources ve Dataverse arasındaki veri eşitleme sırasında sorunlarla k
 
 - Human Resources kaydının ve Dataverse satırının ilişkisini kaldırmak için **Dataverse tablosu** alanında tabloyu seçin ve ardından **İzleme bilgilerini temizle**'yi seçin.
 
-[![İzleme bilgilerini temizleme](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![İzleme bilgilerini temizleme.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 İzlemeyi temizledikten sonra tabloda tam eşitleme çalıştırmak için sonraki yordama bakın.
 
@@ -116,7 +116,7 @@ Human Resources ile Dataverse arasında bir tablonun tam eşitlemesini çalışt
 
 2. **Şimdi eşitle**'yi seçin.
 
-[![Tam eşitleme çalıştırma](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![Tam eşitleme çalıştırma.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

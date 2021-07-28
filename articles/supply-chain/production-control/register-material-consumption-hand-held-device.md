@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2c70b6ecd284acc8817970e090583603d1b8e110
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189654"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345416"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Mobil cihaz kullanarak malzeme tüketimini kaydetme
 
@@ -30,7 +30,7 @@ Bu konu, bir taşınabilir aygıt kullanarak üretimdeki ham madde tüketimini k
 
 ## <a name="introduction"></a>Giriş
 
-Bu iş akışı malzeme izlenebilirliği için sıkı bir gereksinim varsa geçerlidir. Bu gibi durumlarda, malzemelerin izlenebilirliğini korumak için tam saat ve miktar tüketim için bildirilmelidir. Bu işlem, kayıt zamanı ile gerçek tüketimin gerçekleştiği zaman arasında bir denkleştirme bulunan önce veya sonra otomatik tüketim işleminin tersi olarak görülebilir. Bu, izlenebilirlik gereksinimleri olan bazı maddeler için neden otomatik tüketimi stratejisi kullanılamayacağını açıklar. Taşınabilir cihaz kullanarak üretimdeki ham madde tüketimi kaydını etkinleştirmek için bir iş akışının nasıl ayarlanacağını açıklayan basit bir senaryoya bakalım. [![bir taşınabilir cihaz kullanarak hammadde tüketimi kaydını etkinleştirmek için iş akışını ayarla](./media/scenario3.png)](./media/scenario3.png)
+Bu iş akışı malzeme izlenebilirliği için sıkı bir gereksinim varsa geçerlidir. Bu gibi durumlarda, malzemelerin izlenebilirliğini korumak için tam saat ve miktar tüketim için bildirilmelidir. Bu işlem, kayıt zamanı ile gerçek tüketimin gerçekleştiği zaman arasında bir denkleştirme bulunan önce veya sonra otomatik tüketim işleminin tersi olarak görülebilir. Bu, izlenebilirlik gereksinimleri olan bazı maddeler için neden otomatik tüketimi stratejisi kullanılamayacağını açıklar. Taşınabilir cihaz kullanarak üretimdeki ham madde tüketimi kaydını etkinleştirmek için bir iş akışının nasıl ayarlanacağını açıklayan basit bir senaryoya bakalım. [![bir taşınabilir cihaz kullanarak hammadde tüketimi kaydını etkinleştirmek için iş akışını ayarlama.](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Senaryo ayrıntıları
 

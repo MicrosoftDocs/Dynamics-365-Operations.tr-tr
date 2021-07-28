@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866314"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345798"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Mali raporlarda raporlama ağacı tanımları
 
@@ -170,23 +170,23 @@ Raporlama birimlerinin yapısı aşağıdaki raporlama ağacında verildiği gib
 - En düşük düzeydeki ayrıntı raporlama birimleri (Yurtiçi Satışlar, Otomatik Satışlar, Müşteri Hizmetleri ve Operasyonlar) departmanları mali verilerde temsil eder. Bu raporlama birimleri diyagram gölgeli alanındadır.
 - Üst düzey özet birimleri ayrıntılı birim bilgilerini özetler.
 
-[![Contoso Özet Rapor Yapısı - Örnek 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso Özet Rapor Yapısı - Örnek 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Raporlama birimi yapısı: Örnek 2
 
 Aşağıdaki diyagramda, raporlama ağacı iş işlevlerine göre ayrılmış bir organizasyon yapısına sahiptir.
 
-[![Contoso Özet Rapor Yapısı - Örnek 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso Özet Rapor Yapısı - Örnek 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Boyutlardan Raporlama Birimleri Ekle iletişim kutusu örneği
 
 Aşağıdaki resim, **Boyutlardan Raporlama Birimleri Ekle** iletişim kutusunun bir örneğini göstermektedir. Bu örnekte, sonuçlar iş birimleri, maliyet merkezleri ve departmanların birleşimini döndürür.
 
-[![Raporlama Birimleri Ekle](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Raporlama Birimleri Ekleme.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 Sonuç olarak ortaya çıkan raporlama ağacı tanımı iş birimine, ardından maliyet merkezine ve sonra departmana göre sıralanır. Beşinci raporlama biriminin boyutu **İş Birimi = \[001\], Maliyet Merkezi =\[\], Departman = \[022\]** şeklindedir ve iş birimi 001 ve departman 022'ye özel hesaplar için bir raporlama birimini tanımlar.
 
-[![Raporlama ağacının resmi](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Raporlama ağacının resmi.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Veri toplama örnekleri
 
@@ -194,11 +194,11 @@ Aşağıdaki örnekler toplanan veriler için bir raporlama ağacı tanımında 
 
 #### <a name="example-1"></a>Örnek 1
 
-[![Çoklu şirket toplaması](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Çoklu şirket toplaması.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Örnek 2
 
-[![Şirketler arası departman toplaması](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Şirketler arası departman toplaması.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

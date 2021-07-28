@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908579"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344282"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Dynamics 365 Supply Chain Management'ı (Varlık yönetimi) Dynamics 365 Guides ile tümleştirme
 
@@ -56,38 +56,38 @@ Kılavuzu bakım denetim listesi şablonuyla ilişkilendirmek için aşağıdaki
     1. **Bakım denetim listesi satırları** hızlı sekmesinde, kılavuzu ilişkilendirmek istediğiniz satırı seçin.
     1. **İlişkili kılavuzlar** hızlı sekmesinde, **Kılavuz Ekle**'yi seçin.
 
-        ![Kılavuzu bakım denetim listesi satırıyla ilişkilendirme](media/am-guides-integration-add-guide.png "Kılavuzu bakım denetim listesi satırıyla ilişkilendirme")
+        ![Kılavuzu bakım denetim listesi satırıyla ilişkilendirme.](media/am-guides-integration-add-guide.png "Kılavuzu bakım denetim listesi satırıyla ilişkilendirme")
 
     1. **Ad** alanında bir kılavuz seçin ve ardından **Kaydet**'i seçin.
 
-        ![Ad alanında bir kılavuz seçme](media/am-guides-integration-select-guide.png "Ad alanında bir kılavuz seçme")
+        ![Ad alanında bir kılavuz seçme.](media/am-guides-integration-select-guide.png "Ad alanında bir kılavuz seçme")
 
 1. Bakım denetim listesi şablonunu bir iş türüyle ilişkilendirme:
 
     1. [Bir bakım işi türü oluşturun](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) veya varolan bir bakım işi türünü seçin.
     1. Eylem Bölmesinde **Bakım işi türü varsayılanları**'nı seçin.
 
-        ![Bakım işi türü varsayılanları düğmesi](media/am-guides-integration-job-defaults.png "Bakım işi türü varsayılanları düğmesi")
+        ![Bakım işi türü varsayılanları düğmesi.](media/am-guides-integration-job-defaults.png "Bakım işi türü varsayılanları düğmesi")
 
     1. Bir satır oluşturun ve **Kaydet**'i seçin.
 
-        ![Satır oluşturma](media/am-guides-integration-add-line.png "Satır oluşturma")
+        ![Satır oluşturun.](media/am-guides-integration-add-line.png "Satır oluşturma")
 
     1. Eylem Bölmesinde, **Bakım denetim listesi**'ni seçin.
 
-        ![Bakım denetim listesi düğmesi](media/am-guides-integration-maintenance-checklist.png "Bakım denetim listesi düğmesi")
+        ![Bakım denetim listesi düğmesi.](media/am-guides-integration-maintenance-checklist.png "Bakım denetim listesi düğmesi")
 
     1. **Bakım denetim listesi satırları** hızlı sekmesinde, bir satır ekleyin ve sonra **Tür** alanının değerini **Şablon** olarak değiştirin.
 
-        ![Tür değerini değiştirme](media/am-guides-integration-checklist-lines.png "Tür değerini değiştirme")
+        ![Tür değerini değiştirme.](media/am-guides-integration-checklist-lines.png "Tür değerini değiştirme")
 
     1. **Satır ayrıntıları** hızlı sekmesinde, **Şablon** alanında, kılavuzla ilişkilendirdiğiniz şablonu ve ardından **Kaydet**'i seçin.
 
-        ![Şablon seçme](media/am-guides-integration-checklist-line-details.png "Şablon seçme")
+        ![Şablon seçme.](media/am-guides-integration-checklist-line-details.png "Şablon seçme")
 
 1. [Bir iş emri oluşturun ](work-orders/manually-created-workorders.md#create-work-order) ve ardından kılavuzla ilişkilendirdiğiniz bakım denetim listesi şablonunu kullanan bakım işi türünü seçin. Kılavuz, iş emriyle otomatik olarak ilişkilendirilir.
 
-    ![Bakım işi türü seçme](media/am-guides-integration-create-work-order.png "Bakım işi türü seçme")
+    ![Bakım işi türü seçme.](media/am-guides-integration-create-work-order.png "Bakım işi türü seçme")
 
 1. İş emri ve çalışanlar ile ilişkilendirilmiş kılavuzu görüntüleyin:
 
@@ -95,11 +95,11 @@ Kılavuzu bakım denetim listesi şablonuyla ilişkilendirmek için aşağıdaki
     1. İş emri için [bakım denetim listesini açın](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job).
     1. İlişkili kılavuzu görmek için bir denetim listesi satırı seçin.
 
-        ![Denetim listesi satırıyla ilişkilendirilmiş kılavuz](media/am-guides-integration-show-guide.png "Denetim listesi satırıyla ilişkilendirilmiş kılavuz")
+        ![Denetim listesi satırıyla ilişkilendirilmiş kılavuz.](media/am-guides-integration-show-guide.png "Denetim listesi satırıyla ilişkilendirilmiş kılavuz")
 
     1. Kılavuzu HoloLens'te açın.
 
-        ![Kılavuzu HoloLens'te açın](media/am-guides-integration-hololens-select.png "Kılavuzu HoloLens'te açma")
+        ![Kılavuzu HoloLens'te açma.](media/am-guides-integration-hololens-select.png "Kılavuzu HoloLens'te açma")
 
 > [!NOTE]
 > Ayrıca, bir kılavuzu doğrudan bir iş emrinin veya iş türünün bakım denetim listesinde ilişkilendirebilirsiniz.

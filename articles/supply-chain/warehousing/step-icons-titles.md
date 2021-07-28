@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049376"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344508"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama
 
@@ -25,7 +25,7 @@ Bu konuda, Warehouse Management mobil uygulaması için yeni veya özelleştiril
 
 Aşağıdaki çizimlerde, adım simgelerinin ve başlıkların Warehouse Management mobil uygulamasında nasıl göründüğü gösterilmektedir.
 
-![Warehouse Management mobil uygulamasında adım simgesi ve adım başlığı örneği](media/step-icon-example.png "Warehouse Management mobil uygulamasında adım simgesi ve adım başlığı örneği")
+![Warehouse Management mobil uygulamasında adım simgesi ve adım başlığı örneği.](media/step-icon-example.png "Warehouse Management mobil uygulamasında adım simgesi ve adım başlığı örneği")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>Sisteminizde bu özelliği etkinleştirme
 
@@ -350,13 +350,13 @@ Bu örnek, özel bir görev akışı için adım simgelerinin ve başlıkların�
 
 Aşağıdaki şekilde bu görev akışı gösterilmiştir.
 
-![Görev akışı diyagramı](media/step-icons-example-task-flow.png "Görev akışı diyagramı")
+![Görev akışı diyagramı.](media/step-icons-example-task-flow.png "Görev akışı diyagramı")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Kapsayıcı giriş sayfası için adım sınıfı oluşturma
 
 Kapsayıcı giriş sayfası, çalışanın bir kapsayıcı kimliği taramasına veya girmesine izin verir.
 
-![Kapsayıcı giriş sayfası](media/step-icons-example-container-input.png "Kapsayıcı giriş sayfası")
+![Kapsayıcı giriş sayfası.](media/step-icons-example-container-input.png "Kapsayıcı giriş sayfası")
 
 Kapsayıcı giriş sayfasında, giriş alanının denetim adı `ContainerId`. Bu denetim adı [adım kimlikleri listesinde](#step-ids-classes) olmadığından, temel alan varolan bir adımı bulamazsınız. Bu nedenle, adımı temsil eden bir adım sınıfı oluşturmanız gerekir. Aşağıda bir örnek verilmiştir.
 
@@ -382,7 +382,7 @@ Adım simgesi atamak için, bu konunun önceki bölümlerindeki [Kullanılabilir
 
 Ağırlık giriş sayfası, çalışanın bir ağırlık girmesini sağlar.
 
-![Ağırlık giriş sayfası](media/step-icons-example-weight-input.png "Ağırlık giriş sayfası")
+![Ağırlık giriş sayfası.](media/step-icons-example-weight-input.png "Ağırlık giriş sayfası")
 
 Ağırlık giriş sayfasında, giriş alanının denetim adı `Weight`, bu da [adım kimlikleri listesindedir](#step-ids-classes). Bu nedenle, `WHSMobileAppStepWeight` sınıfta tanımlanan adım simgesi ve başlığı sizin için kabul edilebilirse, bu adım için hiçbir şeyi değiştirmeniz gerekmemektedir.
 

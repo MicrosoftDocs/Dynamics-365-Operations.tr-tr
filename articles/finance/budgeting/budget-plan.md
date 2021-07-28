@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 3673705ba4a8d69c32848881d6a280a09047d1e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188033"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343898"
 ---
 # <a name="budget-planning"></a>Bütçe planlama
 
@@ -47,11 +47,11 @@ Julia, Almanya'daki Contoso Entertainment Systems (DEMF) firmasında finans yön
 
 Senaryo için bütçe planlama şeması aşağıdaki gibi görünür:
 
-![Bütçe planlama yapılandırma şeması](./media/screenshot1-300x152.png)
+![Bütçe planlama yapılandırma şeması.](./media/screenshot1-300x152.png)
 
 Julia, bütçe hazırlamak için aşağıdaki Excel şablonunu kullanır:
 
-[![Excel şablonu](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
+[![Excel şablonu.](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
 ## <a name="exercise-1-configuration"></a>Alıştırma 1: Yapılandırma
 
@@ -60,27 +60,27 @@ Tüm bütçe süreci Finans departmanında cereyan etmektedir, bu nedenle Julia 
 
 1.1. Kuruluş hiyerarşilerine gidin (Kuruluş yönetimi &gt; Kuruluşlar &gt; Kuruluş hiyerarşileri) ve Yeni düğmesine tıklayın.
 
-![Kuruluş hiyerarşileri](./media/screenshot3.png) 
+![Kuruluş hiyerarşileri.](./media/screenshot3.png) 
 
 1.2. Ad kutusuna kuruluş hiyerarşisinin adını yazın ve Amaç ata seçeneğine tıklayın.
 
 1.3. Bütçe planlama amacını seçin, Ekle'ye tıklayın ve yeni oluşturulan kuruluş hiyerarşisini atayın. 
 
-[![Amaç ata](./media/screenshot5.png)](./media/screenshot5.png)
+[![Amaç atama.](./media/screenshot5.png)](./media/screenshot5.png)
 
 1.4. Yukarıdaki adımı Güvenlik kuruluş amacı için yineleyin. İşiniz bittiğinde formu kapatın.
 
 1.5. Kuruluş Hiyerarşileri formunda Görüntüle'ye tıklayın. Hiyerarşi tasarımcısında Düzenle'ye tıklayın ve Ekle seçeneğine tıklayarak bir hiyerarşi oluşturun.
 
-[![Ekle](./media/screenshot7.png)](./media/screenshot7.png) 
+[![Ekle.](./media/screenshot7.png)](./media/screenshot7.png) 
 
 1.6. Bütçeleme hiyerarşi için Finans departmanını seçin. 
 
-[![Finans](./media/screenshot8.png)](./media/screenshot8.png)
+[![Finans.](./media/screenshot8.png)](./media/screenshot8.png)
 
 1.7. İşiniz bittiğinde Yayımla ve Kapat'a tıklayın. Hiyerarşinin yayımlanması için geçerlilik tarihi olarak 1.1.2015 tarihini seçin.
 
-[![Yürürlük tarihi](./media/screenshot9.png)](./media/screenshot9.png)
+[![Yürürlük tarihi.](./media/screenshot9.png)](./media/screenshot9.png)
 
 ### <a name="task-2-configure-user-security"></a>Görev 2: Kullanıcı güvenliği yapılandırma
 Bütçe planlama, bütçe plan verilerine erişim yapılandırmak için özel güvenlik ilkeleri kullanır. Julia'nın kendisi için Finans bütçe planlarına erişim yetkisi vermesi gerekiyor. 
@@ -90,15 +90,15 @@ Bütçe planlama, bütçe plan verilerine erişim yapılandırmak için özel g�
 
 2.2. Bütçeleme &gt; Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma seçimlerini yapın. Parametreler sekmesinde, Güvenlik modeli değerini Güvenlik kuruluşlarına göre olarak ayarlayın. 
 
-[![Parametreler](./media/screenshot11.png)](./media/screenshot11.png) 
+[![Parametreler.](./media/screenshot11.png)](./media/screenshot11.png) 
 
 2.3. Sistem yönetimi &gt; Kullanıcılar &gt; Kullanıcılar seçimlerini yapın. Kullanıcıya Yönetici (Julia Funderburk) Bütçe yöneticisi görevi verin. 
 
-[![Bütçe yöneticisi](./media/screenshot12.png)](./media/screenshot12.png) 
+[![Bütçe yöneticisi.](./media/screenshot12.png)](./media/screenshot12.png) 
 
 2.4. Kullanıcı görevini seçin ve Kuruluş ata seçeneğine tıklayın. 
 
-[![Kuruluş ata](./media/screenshot13.png)](./media/screenshot13.png)
+[![Kuruluşlar ata.](./media/screenshot13.png)](./media/screenshot13.png)
 
 2.5. “Belirli organizasyonlara erişim izni ver” öğesini seçin. İlk adımda oluşturulan Kuruluş hiyerarşisi'ni seçin. Finans düğümünü seçin ve Alt öğelerle ver düğmesine tıklayın. 
 
@@ -109,7 +109,7 @@ Bütçe planlama, bütçe plan verilerine erişim yapılandırmak için özel g�
 
 *Not: İsterseniz bu alıştırma için yeni senaryolar oluşturabilir ve mevcut senaryolar yerine bunları kullanabilirsiniz.* 
 
-[![Yeni senaryolar](./media/screenshot15.png)](./media/screenshot15.png) 
+[![Yeni senaryolar.](./media/screenshot15.png)](./media/screenshot15.png) 
 
 *Not: Julia, bütçe hazırlama için resmi onay sürecini kullanmıyor, bu nedenle bu laboratuvarda İş Akışları, Aşamalar ve İş akışı aşamaları kurulumunu geçiyoruz, Otomatik kurulumu kullanıyor – iş akışını onaylıyoruz. Bu iş akışı yapılandırması için eke bakın*
 
@@ -118,17 +118,17 @@ Bütçe plan sütunları, bütçe plan belgesi düzeninde kullanılabilen Parasa
 
 4.1. Bütçeleme&gt;Ayar &gt; Bütçe planlama &gt; Bütçe planlama yapılandırması seçeneğinde Sütunlar sayfasını açın. Formun sağ üst köşesindeki Office düğmesine tıklayın ve Sütunlar (filtrelenmemiş) seçeneğini belirleyin. 
 
-[![Filtrelenmemiş sütunlar](./media/screenshot16.png)](./media/screenshot16.png) 
+[![Filtrelenmemiş sütunlar.](./media/screenshot16.png)](./media/screenshot16.png) 
 
 4.2. Sistem, değerlerin doldurulması için kullanılacak bir Excel çalışma kitabı açar. İstenirse Düzenlemeyi Etkinleştir ve Bu uygulamaya güven seçeneğine tıklayın. 
 
 4.3. Değerleri doldurmak için daha fazla sütuna ihtiyaç duyacağız. Kılavuza sütunlar eklemek için sağ kenar bölmesinde Tasarım'a tıklayın. 
 
-[![Tasarım](./media/screenshot19.png)](./media/screenshot19.png) 
+[![Tasarım.](./media/screenshot19.png)](./media/screenshot19.png) 
 
 4.4. Kılavuza eklenebilecek sütunları görmek için PlanColumns yanındaki kalem düğmesine tıklayın. 
 
-[![Düzenleme](./media/screenshot20.png)](./media/screenshot20.png) 
+[![Düzenle.](./media/screenshot20.png)](./media/screenshot20.png) 
 
 4.5. Her bir kullanılabilir alana çift tıklayarak bunları Seçili alanlar'a ekleyin ve Güncelleştir'e tıklayın. 
 
@@ -136,7 +136,7 @@ Bütçe plan sütunları, bütçe plan belgesi düzeninde kullanılabilen Parasa
 
 4.7. Uygulamaya geri dönün ve sayfayı yenileyin. Yayımlanan değerler görüntülenir. 
 
-[![Yenile](./media/screenshot23.png)](./media/screenshot23.png)
+[![Yenile.](./media/screenshot23.png)](./media/screenshot23.png)
 
 ### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Görev 5: Bütçe planı belge düzenleri ve şablonları oluşturma
 Düzen; kullanıcı, bütçe planı belgesini açtığında bütçe planı belge satırları ızgarasının nasıl görüneceğini tanımlar. Aynı verileri farklı açılardan görmek için bütçe planı belge düzenine geçiş yapılması da mümkündür. Şimdi, bütçe planı belgesiyle kullanılmak üzere tanımlanan sütunlara sahip olan Julia'nın şimdi de bütçe verilerini oluşturmak için kullandığı Excel tablosuna oldukça benzer bir görünüme sahip olacak bir bütçe plan belgesi düzeni oluşturması gerekiyor (bu laboratuvardaki Senaryoya genel bakış bölümüne bakın) 
@@ -147,14 +147,14 @@ Düzen; kullanıcı, bütçe planı belgesini açtığında bütçe planı belge
 -   Önceki adımda Öğeler bölümünde oluşturulan tüm bütçe planı sütunlarını listeleyin. Önceki yılık fiili tutarları dışındaki tüm sütunları düzenlenebilir hale getirin.
 -   Izgarada hangi mali boyutları Tanımlar göstermesi gerektiğini seçmek için Tanımlar düğmesini tıklayın.
 
-[![Açıklamalar](./media/screenshot24.png)](./media/screenshot24.png) 
+[![Açıklamalar.](./media/screenshot24.png)](./media/screenshot24.png) 
 
 Bütçe planı düzen tanımına göre, Bütçe verilerini düzenlemek için alternatif bir yöntem olarak kullanılmak üzere Excel şablonu oluşturabilirsiniz. Excel şablonunun, bütçe planı düzen tanımıyla eşleşmesi gerektiğinden Excel şablonu oluşturulduktan sonra bütçe planı düzenini düzenleyemezsiniz, bu nedenle bu görev tüm düzen bileşenleri tanımlandıktan sonra gerçekleştirilmelidir. 
 
 5.2. 5.1 üzerinde oluşturulan düzen için. adım, Şablon &gt; Oluştur düğmesine tıklayın. Uyarı mesajını onaylayın. Şablonu görüntülemek için Şablon &gt; Görünüm düğmelerini tıklayın. 
 
 *Not: "Farklı Kaydet" olarak seçtiğinizden ve düzenleyebilmek için şablonun nerede kaydedileceğinizi seçtiğinizden emin olun. Kullanıcı iletişim kutusunda kaydetmeden "Aç" seçerse, dosya kapandığında yapılmış olan değişiklikler korunmaz.* 
-[![Şablon görünümü](./media/screenshot25.png)](./media/screenshot25.png) 
+[![Şablon görünümü.](./media/screenshot25.png)](./media/screenshot25.png) 
 
 5.3. &lt; İsteğe bağlı adım&gt; Daha kullanıcı dostu hale getirmek için Excel şablonunu değiştirin: Toplama formülleri, başlık alanları, biçimlendirme vb. ekleyin. Değişiklikleri kaydedin ve dosyayı Düzen &gt; Yükle'ye tıklayarak bütçe planı düzenine yükleyin. 
 
@@ -174,11 +174,11 @@ Julia, bütçe planlarını girmeye başlamak için yukarıdaki tüm kurulumu bi
 
 *Not: Alternatif düzenler düğmesini tıklayarak ek belge düzenleri oluşturabilir ve bunları bütçe planlama iş akışı aşamasına dahil edilmek üzere atayabilirsiniz.* 
 
-[![Diğer düzenler](./media/screenshot27.png)](./media/screenshot27.png) 
+[![Alternatif düzenler.](./media/screenshot27.png)](./media/screenshot27.png) 
 
 6.2. Bu bütçe planlama iş akışını etkinleştirmek için Eylemler &gt; Etkinleştir'i seçin. 
 
-[![Etkinleştir](./media/screenshot28.png)](./media/screenshot28.png)
+[![Etkinleştir.](./media/screenshot28.png)](./media/screenshot28.png)
 
 ## <a name="exercise-2-process-simulation"></a>Alıştırma 2: İşlem simülasyonu
 
@@ -187,26 +187,26 @@ Julia, bütçe planlarını girmeye başlamak için yukarıdaki tüm kurulumu bi
 
 7.2. Oluşturma süreci tarafından oluşturulan bir bütçe planını bulmak için Bütçeleme &gt; Bütçe planları seçeneğine gidin. 
 
-[![Bütçe planı](./media/screenshot30.png)](./media/screenshot30.png) 
+[![Bütçe planı.](./media/screenshot30.png)](./media/screenshot30.png) 
 
 7.3. Belge numarası köprüsünü tıklayarak belge bilgilerini açın. Bütçe planı, bu laboratuvar sırasında oluşturulan düzende tanımlandığı şekilde görüntülenir. 
 
-[![Bütçe planı görünümü](./media/screenshot31.png)](./media/screenshot31.png)
+[![Bütçe planı görünümü.](./media/screenshot31.png)](./media/screenshot31.png)
 
 ### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Görev 8: Önceki yılın fiili değerlerine dayalı olarak mevcut yıl bütçesi oluşturma
 Bütçe planları için bir senaryodaki bilgileri kolayca başka bir senaryoya kopyalamak / bunları dönemler arasında dağıtmak / boyutlara atamak için bütçe planında tahsisat yöntemleri kullanılabilir. Mevcut yıl bütçesini önceki yılı fiili tutarlarından oluşturmak için tahsisatları kullanacağız. 
 
 8.1. Bütçe planı belge kılavuzundaki tüm satırları seçin ve Bütçe tahsis et seçeneğine tıklayın. 
 
-[![Tüm satırlar](./media/screenshot32.png)](./media/screenshot32.png) 
+[![Tüm satırlar.](./media/screenshot32.png)](./media/screenshot32.png) 
 
 8.2. Tahsisat yöntemi, Dönem anahtarı, Kaynak ve hedef senaryoları seçin ve Tahsis Et'e tıklayın. 
 
-[![Tahsis et](./media/screenshot33.png)](./media/screenshot33.png)
+[![Tahsis et.](./media/screenshot33.png)](./media/screenshot33.png)
 
 Önceki yılın gerçek tutarları, geçerli yılın bütçesine kopyalanır ve bunları Satış eğrisi dönem anahtarını kullanarak dönemlere tahsis edin. 
 
-[![Satış eğrisi](./media/screenshot34.png)](./media/screenshot34.png)
+[![Satış eğrisi.](./media/screenshot34.png)](./media/screenshot34.png)
 
 ### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Görev 9: Bütçe planı belgesini Excel kullanarak ayarlama ve belgeyi son haline getirme
 9.1. Excel'de belge içeriklerini açmak için Çalışma Sayfası düğmesine tıklayın.
@@ -215,9 +215,9 @@ Bütçe planları için bir senaryodaki bilgileri kolayca başka bir senaryoya k
 
 9.3. Bütçe planı belgesine geri dönün. İş Akışı &gt; Belgeyi Otomatik Onaylamaya gönder seçeneğine tıklayın.
 
-[![Otomatik-onayla](./media/screenshot37.png)](./media/screenshot37.png) 
+[![Otomatik-onayla.](./media/screenshot37.png)](./media/screenshot37.png) 
 
-İş akışı tamamlandıktan sonra bütçe planı belge aşaması Onaylandı olarak değişir. [![Onaylandı](./media/screenshot38.png)](./media/screenshot38.png)
+İş akışı tamamlandıktan sonra bütçe planı belge aşaması Onaylandı olarak değişir. [![Onaylandı.](./media/screenshot38.png)](./media/screenshot38.png)
 
 ## <a name="appendix"></a>Ek
 
@@ -225,21 +225,21 @@ Bütçe planları için bir senaryodaki bilgileri kolayca başka bir senaryoya k
 
 A. Bütçeleme &gt; Ayar &gt; Bütçe planlama &gt; Bütçeleme iş akışları. Bütçe planlama iş akışları şablonunu kullanarak yeni bir iş akışı oluşturun:
 
-[![Yeni bir iş akışı oluşturun](./media/screenshot39.png)](./media/screenshot39.png)
+[![Yeni bir iş akışı oluşturun.](./media/screenshot39.png)](./media/screenshot39.png)
 
 Bu iş akışı yalnızca bir görev içerir: Aşama geçişi bütçe planı. 
 
-[![Aşama geçişi bütçe planı](./media/screenshot40.png)](./media/screenshot40.png) 
+[![Aşama geçişi bütçe planı.](./media/screenshot40.png)](./media/screenshot40.png) 
 
 İş akışını kaydetme ve etkinleştirme. 
 
 B. Bütçeleme &gt; Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma seçimlerini yapın. Aşamalar sekmesinde 2 aşama oluşturun: Başlangıç ve Gönderildi. 
 
-[![Başlangıç ve gönderilen](./media/screenshot41.png)](./media/screenshot41.png)
+[![Başlangıç ve gönderilen.](./media/screenshot41.png)](./media/screenshot41.png)
 
 C. Bütçeleme &gt; Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma seçimlerini yapın. İş Akışı Aşamaları sekmesinde, A adımında oluşturulan iş akışı Otomatik Onaylama'yı Başlangıç ve Gönderildi aşamalarıyla ilişkilendirin.
 
-[![Bütçeleme ve bütçe planlama](./media/screenshot42.png)](./media/screenshot42.png)  
+[![Bütçeleme ve bütçe planlama.](./media/screenshot42.png)](./media/screenshot42.png)  
 
 
 

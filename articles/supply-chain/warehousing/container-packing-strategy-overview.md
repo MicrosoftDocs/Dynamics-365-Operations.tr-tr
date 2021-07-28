@@ -7,16 +7,17 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343736"
 ---
 # <a name="container-packing-strategies"></a>Konteyner paketleme stratejileri
 
@@ -251,7 +252,7 @@ Sevkiyat konsolidasyonu ilkesi ayralamak için aşağıdaki adımları izleyin.
 1. Listeden **Varsayılan** ilkeyi seçin.
 1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde **Seçili alanlar** listesinde, **Alan adı** alanının *Sipariş numarası* olarak ayarlandığı satırı seçin.
-1. Alanı **Kalan alanlar** listesine taşımak için **Kaldır** düğmesini ![Sol ok](media/backward-button.png) seçin.
+1. **Kaldır** düğmesini ![sol ok.](media/backward-button.png) seçerek alanı **Kalan alanlar** listesine taşıyın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>Ürün için fiziksel boyutlar ayarlama

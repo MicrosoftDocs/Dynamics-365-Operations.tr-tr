@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825722"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347176"
 ---
 # <a name="asset-types"></a>Varlık türleri
 
@@ -45,9 +45,9 @@ Her varlık türü için, varlık türü kurulumu varyasyonları oluşturulabili
 7. **Kaydet**'i seçin.
 8. **Bakım işi türleri** hızlı sekmesinde varlık türüyle ilişkili olması gereken bakım işi türlerini seçin.
 
-    - Bir bakım işi türü seçmek için türü **Kalan bakım işi türleri** alanında seçin ve daha sonra sağ ok düğmesini ![Sağ ok düğmesi](media/29-setup-for-objects.png) seçerek **Seçili bakım iş türleri** bölümüne taşıyın.
-    - Tüm kullanılabilir bakım işi türlerini seçmek için ![Tüm okları ilerlet](media/30-setup-for-objects.png) düğmesini seçin. Tüm bakım iş türleri **Kalan bakım işi türleri** alanından **Seçili bakım işi türleri** alanına aktarılır.
-    - Bakım işi türü seçimini iptal etmek için türü **Seçili bakım işi türleri** alanında seçin ve daha sonra sol ok düğmesini ![Sol ok düğmesi](media/31-setup-for-objects.png) seçerek **Kalan bakım işi türleri** bölümüne taşıyın.
+    - Bir bakım işi türü seçmek için türü **Kalan bakım işi türleri** alanında seçin ve daha sonra sağ ok düğmesini ![Sağ ok düğmesi.](media/29-setup-for-objects.png) seçerek **Seçili bakım işi türleri** bölümüne taşıyın.
+    - Tüm kullanılabilir bakım işi türlerini seçmek için ![Tüm okları ilerlet.](media/30-setup-for-objects.png) düğmesini seçin . Tüm bakım iş türleri **Kalan bakım işi türleri** alanından **Seçili bakım işi türleri** alanına aktarılır.
+    - Bir bakım işi türü seçimini iptal etmek için türü **Seçili bakım işi türleri** alanında seçin ve daha sonra sol ok düğmesini ![Sol ok düğmesi.](media/31-setup-for-objects.png) seçerek **Kalan bakım işi türleri** alanına taşıyın.
 
 9. Ayrıca, varlık türüyle ilişkilendirilmesi gereken sayaçları da seçebilirsiniz. **Sayaçlar** hızlı sekmesinde, adım 8'de bakım işi türleri için açıklanan yöntemleri kullanarak seçimlerinizi yapın. Sayaçların nasıl ayarlanacağı konusunda daha fazla bilgi için bkz. [Sayaçlar](counters.md).
 10. Ayrıca, varlık türüyle ilişkilendirilmesi gereken öznitelik türlerini de seçebilirsiniz. **Öznitelik türleri** hızlı sekmesinde, adım 8'de bakım işi türleri için açıklanan yöntemleri kullanarak seçimlerinizi yapın. Ardından, tercih edilen öznitelik türleri sırasını oluşturmak için **Seçili öznitelik türleri** alanında bir öznitelik türü seçin ve bunu taşımak için yukarı ok ve aşağı ok düğmelerini kullanın. Öznitelik türleri sırası bu varlık türünü kullanan varlıklarda gösterilir. Varlık öznitelikleri hakkında daha fazla bilgi için bkz. [Bakım öznitelik türleri](../setup-for-functional-locations/specification-types.md).

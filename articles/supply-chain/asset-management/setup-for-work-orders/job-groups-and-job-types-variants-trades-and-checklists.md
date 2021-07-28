@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 252829ac2d070833023f1b49aef615cc376f37b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117095"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344652"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Bakım işi tipleri, kategoriler, çeşitler, performans ve denetim listeleri
 
@@ -54,7 +54,7 @@ Bakım denetim listesi şablonları ve bakım denetim listesi değişkenleri, ba
 
     Bakım işi türü kategorilerini bakım işi türleriyle ilişkilendirmenizin ardından **İş türleri** alanı bu bakım işi türü kategorisiyle ilgili bakım işi türü sayısını gösterir.
 
-![Bakım işi türü kategorileri sayfası](media/01-setup-for-work-orders.png)
+![Bakım işi türü kategorileri sayfası.](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>Bakım işi türü çeşidi oluşturma
 
@@ -68,7 +68,7 @@ Bakım denetim listesi şablonları ve bakım denetim listesi değişkenleri, ba
 
     **Ayrıntılar** hızlı sekmesinde **İş türleri** alanı bu bakım işi türü çeşidine eklenen bakım işi türlerinin sayısını gösterir.
 
-![Bakım işi türü varyantları sayfası](media/02-setup-for-work-orders.png)
+![Bakım işi türü varyantları sayfası.](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Bakım zanaatı oluşturma
 
@@ -89,7 +89,7 @@ Bakım denetim listesi şablonları ve bakım denetim listesi değişkenleri, ba
 
     **Ayrıntılar** hızlı sekmesinde **Sertifikalar** alanı bu bakım zanaatına eklenen sertifikaların sayısını gösterir.
 
-![Bakım işi zanaat sayfası](media/03-setup-for-work-orders.png)
+![Bakım işi ticaret sayfası.](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Bakım denetim listesi değişkeni oluşturma
 
@@ -110,7 +110,7 @@ Bakım işi türü varsayılanında bakım denetim listesi satırları oluşturd
 6. **Değer** alanına bir değer açıklaması girin.
 7. **Sonuç** alanında satır için bir sonuç seçin.
 
-![Bakım denetim listesi değişkenleri sayfası](media/04-setup-for-work-orders.png)
+![Bakım denetim listesi değişkenleri sayfası.](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Bakım denetim listesi şablonu oluşturma
 
@@ -139,7 +139,7 @@ Bakım denetim listesi şablonları bir çalışanın iş emrini doğru şekilde
 
     **Ayrıntılar** hızlı sekmesinde **Denetimler** alanı, şablonunuzdaki denetim listesi satırlarının toplam sayısını gösterir. Bu sayı, şablonunuzda başvurduğunuz var olan şablondaki iç içe satırları içerir.
 
-![Bakım denetim listesi şablonları sayfası](media/05-setup-for-work-orders.png)
+![Bakım denetim listesi şablonları sayfası.](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Bakım işi türü oluşturma
 
@@ -162,7 +162,7 @@ Bakım denetim listesi şablonları bir çalışanın iş emrini doğru şekilde
 
 11. **Varlık türleri** hızlı sekmesinde bakım işi türüne varlık türleri ekleyebilirsiniz.
 
-![Bakım işi türleri sayfası](media/06-setup-for-work-orders.png)
+![Bakım işi türleri sayfası.](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Bakım işi türü varsayılan sıraları ve ilgili tahminler, bakım denetim listeleri, araçlar, açıklama ve ekler oluşturma
 
@@ -231,7 +231,7 @@ Bakım denetim listesi şablonları bir çalışanın iş emrini doğru şekilde
 31. Bakım işi türü varsayılanını başka bakım işi türü varsayılanına kopyalamak için başka kuruluma kopyalamak üzere bakım işi türü varsayılanını, **Kurulumu kopyala**'yı ve ardından kopyalanacak bakım işi türü varsayılanını seçin.
 32. Şu anda bakım işi türü varsayılan satırını kullanan varlıkların, bakım planlarının veya bakım sıralarının listesini görüntülemek için satırı ve ardından **Kullanan**'ı seçin.
 
-![Bakım işi türü varsayılanları sayfası](media/07-setup-for-work-orders.png)
+![Bakım işi türü varsayılanları sayfası.](media/07-setup-for-work-orders.png)
 
 Sistem, iş emri satırında kullanılması gereken kullanılabilir bakım işi türü varsayılanını seçtiğinde seçim varlığa ve ilgili varlık türü kurulumuna bağlıdır. Varlık Yönetimi, olası eşleşmeyi denetlemek için varlık türüyle ilgili bakım işi türüyle ilgili tüm bakım işi türü varsayılan kayıtlarını tarar. Her zaman ilk önce en belirgin birleşimi denetler. Diğer bir deyişle, Varlık Yönetimi en belirgin birleşimi bulmak için önce **Ticaret** alanı için olası eşleşmeyi denetler. Eşleşme bulamazsa **Bakım işi** alanı için eşleşmeleri denetler. Eşleşme bulunmazsa eşleşme için **Bakım işi türü** alanını ve devamını denetler (**Ticaret**, ardından **Bakım işi türü çeşidi**, ardından **Bakım işi türü**, ardından **Varlık**, ardından **Model**, ardından **Üretici** ve ardından **Varlık türü**). Eşleşme bulunmazsa yalnızca bakım işi türünün seçildiği varsayılan kaydı kullanılır.
 
@@ -252,7 +252,7 @@ Gerekli bakım işi türü varsayılan birleşimlerini oluşturmanızın ardınd
 4. Bakım denetim listeleri, tahminler ve araçlar için ilgili kurulumu görmek üzere bir bakım işi türü birleşimi seçin. **Bakım işi türü varsayılanları** hızlı sekmesindeki **Ayrıntılar** bölümü, seçilen bakım işi türü birleşimiyle ilgili bakım denetim listeleri, tahmin edilen saatler, maddeler ve daha fazlasının sayısını gösterir.
 5. Seçilen bakım işi türünün ayrıntılarını görüntülemek için **Bakım işi türleri**'ni seçin.
 
-![Varlık bakım işi türleri sayfası](media/08-setup-for-work-orders.png)
+![Varlık bakım işi türleri sayfası.](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Bakım işi türü tahminlerinin otomatik güncelleştirmesi
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021283"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345536"
 ---
 # <a name="archive-inventory-transactions"></a>Stok hareketlerini arşivleme
 
@@ -64,7 +64,7 @@ Stok hareketlerini arşivlemek için bu adımları izleyin.
 
     **Stok hareketlerini arşivleme** sayfası görüntülenir ve arşivlenen işlem kayıtlarının listesini gösterir.
 
-    ![Stok hareketlerini arşivleme sayfası](media/archive-inventory-empty.png "Stok hareketlerini arşivleme sayfası")
+    ![Stok hareketlerini arşivleme sayfası.](media/archive-inventory-empty.png "Stok hareketlerini arşivleme sayfası")
 
 1. Stok hareketi arşivi oluşturmak için Eylem Bölmesinde **Stok hareketlerini arşivleme**'yi seçin.
 1. **Stok hareketlerini arşivleme** iletişim kutusunda, **Parametreler** hızlı sekmesinde aşağıdaki alanları ayarlayın:
@@ -72,7 +72,7 @@ Stok hareketlerini arşivlemek için bu adımları izleyin.
     - **Kapalı genel muhasebe dönemindeki başlangıç tarihi**: Arşive dahil edilecek en erken hareket tarihini seçin.
     - **Kapalı genel muhasebe dönemindeki bitiş tarihi**: Arşive dahil etmek için en son hareket tarihini seçin.
 
-    ![Stok hareketlerini arşivleme iletişim kutusu](media/archive-inventory-dates.png "Stok hareketlerini arşivleme iletişim kutusu")
+    ![Stok hareketlerini arşivleme iletişim kutusu.](media/archive-inventory-dates.png "Stok hareketlerini arşivleme iletişim kutusu")
 
     > [!NOTE]
     > Yalnızca [ön koşulları](#prerequisites) karşılayan dönemler seçim için kullanılabilir.
@@ -87,7 +87,7 @@ Stok hareketlerini arşivlemek için bu adımları izleyin.
 
 **Stok hareketlerini arşivleme** sayfası arşivleme geçmişinizin tamamını gösterir. Kılavuzdaki her satır, arşivin oluşturulduğu tarih, oluşturan kullanıcı ve durumu gibi bilgileri gösterir.
 
-![Stok hareketlerini arşivleme sayfasındaki arşivleme geçmişi](media/archive-inventory-full.png "Stok hareketlerini arşivleme sayfasındaki arşivleme geçmişi")
+![Stok hareketlerini arşivleme sayfasındaki arşivleme geçmişi.](media/archive-inventory-full.png "Stok hareketlerini arşivleme sayfasındaki arşivleme geçmişi")
 
 Sayfanın üst kısmında açılan listede, kılavuzda gösterilen arşivlere filtre uygulamak için aşağıdaki değerlerden birini seçin:
 
@@ -109,7 +109,7 @@ Kılavuzun üstündeki araç çubuğu, seçili bir arşivle çalışmak için ku
 
 - **Arşivlenen hareketler**: Seçili arşivin tüm ayrıntılarını görüntüleyin. Görüntülenen **Arşivlenen hareketler** sayfası arşivdeki tüm hareketleri gösterir.
 
-    ![Arşivlenen hareketler sayfası](media/archive-inventory-transactions.png "Arşivlenen hareketler sayfası")
+    ![Arşivlenen hareketler sayfası.](media/archive-inventory-transactions.png "Arşivlenen hareketler sayfası")
 
     **Arşivlenen hareketler** sayfasında belirli bir hareket hakkında daha fazla bilgi görüntülemek için kılavuzda hareketi seçin ve sonra eylem bölmesinde **Arşivlenen işlem ayrıntıları**'nı seçin. Görüntülenen **Arşivlenen hareket ayrıntıları** sayfası, genel muhasebe deftere nakli, ilgili alt genel muhasebe referansları ve mali boyutlar gibi bilgileri gösterir.
 

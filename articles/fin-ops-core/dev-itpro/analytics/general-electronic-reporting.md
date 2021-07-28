@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944377"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345702"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -101,7 +103,7 @@ Biçim bileşeni, raporlama çıktısında kullanılabilen belirli dosyaları ek
 
 Aşağıdaki görsel, verinin bu biçimler için nasıl aktığını gösterir.
 
-[![Giden biçim bileşenleri için veri akışı](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Giden biçim bileşenleri için veri akışı.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Biçim yapılandırmasının eşleşmesini, tek bir ER biçim yapılandırmasını çalıştırmak ve giden bir elektronik belge oluşturmak için tanımlamanız gerekir.
 
@@ -115,7 +117,7 @@ Bir biçim bileşeni, çalışma zamanında içe aktarılan gelen belgenin plan�
 
 Aşağıdaki görsel, verinin bu biçimler için nasıl aktığını gösterir.
 
-[![Gelen biçim bileşenleri için veri akışı](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Gelen biçim bileşenleri için veri akışı.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Gelen bir elektronik belgeden veri içe aktarmak için tek bir ER biçim yapılandırması çalıştırmak için bir biçim yapılandırmasının arzulanan eşlemesini ve ayrıca bir model eşlemesinin tümleştirme noktasını tanımlamanız gerekir. Aynı model eşlemesini ve hedefleri, farklı türde gelen belgeler için farklı biçimlerle birlikte kullanabilirsiniz.
 
@@ -290,7 +292,7 @@ ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son s
 
 Finance için ER yapılandırmalarının listesi sürekli olarak güncelleştirilmektedir. Şu anda desteklenen ER yapılandırmalarının listesini incelemek için [Genel depo](er-download-configurations-global-repo.md)'yu açın. **Kullanımdan kaldırma ayrıntıları** hızlı sekmesinde, kullanımdan kaldırılmış olan veya artık bakım sağlanmayan yapılandırmalar hakkındaki bilgileri inceleyebilirsiniz. 
 
-![Yapılandırma deposu sayfasında Genel depo içerikleri](./media/er-overview-03.gif)
+![Yapılandırma deposu sayfasında Genel depo içerikleri.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

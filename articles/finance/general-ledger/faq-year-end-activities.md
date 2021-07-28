@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 379bb8a1f969a74618db0e57c84c2038db1b631c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822843"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345488"
 ---
 # <a name="year-end-activities-faq"></a>Yıl sonu faaliyetleriyle ilgili SSS 
 
@@ -29,9 +29,9 @@ Bu konu başlığı, yıl sonu kapanış faaliyetlerine yardımcı olmak için d
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Genel muhasebe: Yıl sonu kapanışını çalıştırdığımızı ve geri almadığımızı nasıl anlarım?
 Kuruluşların yıl sonu kapanışını yürütmeye çalışıp bunun yerine yıl sonu kapanışını geri almaya çalıştıklarını tespit ettik. Yıl sonu kapanışı gerçekten hızlı bir şekilde sonlanıyorsa veya yıl sonu kapanışı açılış bakiyeleri oluşturmuyorsa **Yıl sonu kapanışı**'ndaki (**Genel muhasebe > Dönem kapanışı > Yıl sonu kapanışı > Mali kapanışı çalıştır**) **Önceki kapanışı geri al** ayarını doğrulayın. 
 
-[![Yıl sonu kapanışını çalıştırma ve yıl sonu kapanışını geri alma](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+[![Yıl sonu kapanışını çalıştırma ve yıl sonu kapanışını geri alma.](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
 
-**Önceki kapanış geri al** seçimi **Evet** olarak ayarlanırsa önceki yıl sonu kapanışı tersine çevrilir. Geri alma işlemi çalıştırılırken, yıl sonu kapanışı hiç çalıştırılmamış gibi tüm kapanış bakiyesi ve açılış bakiyesi girişleri silinir. Fişler silinir. Yıl sonu kapanışı otomatik olarak yeniden çalıştırılmaz. İşlemi yeniden başlatmanız gerekir, bu kez **Önceki kapanışı geri al** seçeneğini **Hayır** olarak değiştirin. 
+**Önceki kapanışı geri al** seçimi **Evet** olarak ayarlanırsa önceki yıl sonu kapanışı tersine çevrilir. Geri alma işlemi çalıştırılırken, yıl sonu kapanışı hiç çalıştırılmamış gibi tüm kapanış bakiyesi ve açılış bakiyesi girişleri silinir. Fişler silinir. Yıl sonu kapanışı otomatik olarak yeniden çalıştırılmaz. İşlemi yeniden başlatmanız gerekir, bu kez **Önceki kapanışı geri al** seçeneğini **Hayır** olarak değiştirin. 
 
 > [!NOTE]
 > Kapanış bakiyesi girişi isteğe bağlı olarak kapatılan yıl içinde oluşturulur. Bu durum yalnızca **Aktarım sırasında kapanış hareketleri oluştur** adlı Genel muhasebe parametresi **Evet** olarak ayarlanırsa oluşur. Açılış bakiyesi girişi her zaman oluşturulur çünkü bu, gelecek yılın başlangıç bakiyesidir.  
@@ -39,11 +39,11 @@ Kuruluşların yıl sonu kapanışını yürütmeye çalışıp bunun yerine yı
 ## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>Genel muhasebe: Yıl sonu kapanışı için Geri Al ve Sil GL parametresi arasındaki fark nedir?
 **Yıl sonu kapanışı** iletişim kutusunda bulunan **Önceki kapanışı geri al** parametresi ile Genel muhasebede (**Genel muhasebe > Dönem kapanışı > Yıl sonu kapanışı > Mali kapanışı çalıştır**) yer alan **Aktarım sırasında yıl sonu kapanışı hareketlerini sil** parametresi arasındaki farkla ilgili bir karışıklık söz konusu olabilir.  
 
-[![Yıl sonu kapanışı için Geri Al ile Sil GL parametresi arasındaki fark](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+[![Yıl sonu kapanışı için Geri Al ile Sil GL parametresi arasındaki fark.](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
 
 Yıl sonu kapanışı hiç çalıştırılmamış gibi, tüm kapanış ve açılış bakiyesi girişlerini silmek için yıl sonu kapatma işlemi çalıştırılırken açılan iletişim menüsünde **Önceki kapanışı geri al**'ı seçin. Fişler silinir. Yıl sonu kapanışı otomatik olarak yeniden çalıştırılmaz. Yıl sonu kapanışını çalıştırmak için bu işlemi yeniden başlatmanız gerekir. Bu kez, **Önceki kapanışı geri al** seçeneğini **Hayır** olarak ayarlayın (**Genel muhasebe > Genel muhasebe kurulumu > Genel muhasebe parametreleri**). 
 
-[![Genel muhasebe parametresi ayarı](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+[![Genel muhasebe parametresi ayarı.](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
 
 Genel muhasebedeki **Aktarım sırasında yıl sonu hareketlerini sil** parametresi, yalnızca yıl sonu kapanışını çalıştırırken (geri alırken değil) kullanılır (**Önceki kapanışı geri al** seçimi **Hayır** olarak ayarlanmıştır). Bu parametre **Evet** olarak ayarlanırsa tüm kapanış bakiyesi ve açılış bakiyesi girişleri silinir ve yıl sonu kapanışı yeniden çalıştırılır. Bu işlem, kuruluş son yıl sonu kapanışından sonraki ayarlamalar da dahil olmak üzere tüm hareketlerin kapanış bakiyesi ve açılış bakiyesi girişleri için tek bir muhasebe girişinde deftere naklini istediğinde kullanılır. 
 
@@ -60,7 +60,7 @@ Yıl sonu kapanışını çalıştırırken, her boyut kümesi bakiyesi yeniden 
 
 Gereksiz boyut kümeleri **BudgetDimensionFocusInitializeBalance** (**Genel muhasebe > Hesap planı > Boyutlar > Mali boyut kümeleri)** toplu işini de etkiler.
 
-[![Mali boyut kümeleri](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
+[![Mali boyut kümeleri.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Yıl sonu kapanış şablonu yapılandırması
 Yıl sonu kapanış şablonu, kuruluşların kar ve zarar bakiyelerini elde tutulan kazançlara aktarırken korunmasını istedikleri mali boyut düzeyini seçmelerine olanak tanır. Ayarlar, kuruluşların bakiyeleri elde tutulan kazançlara taşırken ayrıntılı mali boyutları (**Tümünü kapat**) korumasına veya tutarları tek bir boyut değerine (**Tekli kapat**) özetlemeyi seçmesine olanak tanır. Bu durum, her mali boyut için tanımlanabilir. Bu ayarlar hakkında daha fazla bilgi için [Yıl sonu kapanışı](year-end-close.md) konu başlığına bakın.
@@ -72,14 +72,14 @@ Kuruluşunuzun yıl sonu kapanışını son çalıştırmasından bu yana 10.0.1
  
 ## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Genel muhasebe: Dönem kapanışı - Yıl sonu kapanışı ne işe yarar?
  
-[![Dönem kapanışı, yıl sonu kapanışı](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
+[![Dönem kapanışı, yıl sonu kapanışı.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
 ### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Mali boyut kümelerinin yeniden oluşturulması için performans iyileştirmeleri (yeni özellik)
 Sürüm 10.0.16'ya eklenen yeni bir özellik, yıl sonu kapanışı ve konsolidasyonu işlemlerinin performansını artırır. Özellik, Mali boyut kümelerinin yeniden oluşturulması için performans iyileştirmeleri olarak adlandırılmıştır. Bu özellik, boyut kümelerinin yalnızca ilgili bir zaman dilimi için yeniden oluşturulabilmesi için boyut kümelerinin yeniden oluşturulma biçimini değiştirir. Önceki sürümlerde, boyut kümeleri tüm tarihler için yeniden oluşturuluyordu. Örneğin, 2020 yılını kapatıyorsanız sistem yalnızca 2020 mali yılı içindeki hareketlerin bakiyelerini yeniden oluşturur. 1 Kasım 2020 ile 30 Kasım 2020 tarihleri arasında bir konsolidasyon işlemi çalıştırıyorsanız sistem yalnızca o tarih aralığının bakiyelerini yeniden oluşturur.
 
 Bu özellik, hataya neden olan değişiklik olarak kabul edilir; özelliği **Özellik yönetimi** çalışma alanını kullanarak etkinleştirmeniz gerekir.
  
-[![Yıl sonu kapanışı](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+[![Yıl sonu kapanışı.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Borç hesapları: 2020 yılı için 1099 yıl sonu raporlamasını desteklemek üzere ne gibi değişiklikler yapıldı?
 
@@ -114,15 +114,15 @@ Hayır. 1099'u Güncelleştir yordamı, tek seferde tek bir satıcı için gerç
 ## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Borç hesapları: 1099: 1099'u Güncelleştir aracında "Mevcut 1099 tutarlarını yeniden hesapla" ve "Tümünü güncelleştir".
 **Mevcut 1099 tutarlarını yeniden hesapla** onay kutusu, **Tümünü güncelleştir** onay kutusuyla birlikte kullanıldığında 1099 tutarını ödenen toplam değerlere sıfırlar. 
 
-[![1099 Vergisi hareketleri: Güncelleştirme yordamını çalıştırmadan önce](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+[![1099 Vergisi hareketleri: Güncelleştirme yordamını çalıştırmadan önce.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
 
 **Mevcut 1099 tutarlarını yeniden hesapla** onay kutusu, yalnızca faturada kısmi 1099 değerleri olduğunda veya 1099 Vergisi formunda değiştirildiğinde devreye girer. Örneğin, 1000,00 dolar değerinde bir faturanız olduğunu ancak kullanıcının 1099 tutarına el ile 500,00 dolarlık fatura girdiğini varsayalım.
 
-[![1099 Vergisi hareketleri: Tümünü güncelleştir ve Mevcut 1099 tutarlarını yeniden hesapla](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
+[![1099 Vergisi hareketleri: Tümünü güncelleştir ve Mevcut 1099 tutarlarını yeniden hesapla seçeneklerini işaretleme.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
 Bu ödendiğinde, ödenen 1099 tutarı 500,00 dolar olacaktır. Yeniden hesaplama yordamını gerçekleştirirseniz sistem, 1099 tutarını ödenen toplam tutar olan 1000,00 dolar olarak değiştirir.
 
-[![1099 Vergisi hareketleri: 1099 yordamını çalıştırdıktan sonra](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
+[![1099 Vergisi hareketleri: 1099 yordamını çalıştırdıktan sonra.](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
 
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Borç hesapları: 1099: 1099 hareketlerini el ile oluştur
 Bir kuruluşun faturayla ilişkili olmayan 1099 hareketlerini el ile oluşturması gerekebilir. **Borç hesapları > Periyodik görevler > 1099 vergisi > 1099 için satıcı kapatma**'ya giderek 1099 hareketlerini el ile ekleyebilirsiniz. **El ile 1099 hareketleri** düğmesini seçin. 
