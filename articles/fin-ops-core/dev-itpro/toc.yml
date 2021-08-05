@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: 10.0.19 için platform güncelleştirmeleri (Haziran 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: 10.0.18 için platform güncelleştirmeleri (Mayıs 2021)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -364,8 +362,10 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: Self servis dağıtımla dağıtılan ortamlarda sorun giderme
                       href: deployment/troubleshoot-newinfrastructure.md
-                    - name: Self servis ortamlarda planlı bakımla ilgili SSS
+                    - name: Self servis ortamlarda planlı bakım ile ilgili SSS
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: İş sürekliliği ve olağanüstü durum kurtarma
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: Azure Resource Manager'da işe alım sürecini tamamlama
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute ve Finance and Operations
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Commerce Scale Unit'e (bulut) güncelleştirmeleri ve uzantıları uygulama
                   href: deployment/Update-retail-channel.md
+                - name: Commerce Scale Unit (bulut) için otomatik güncelleştirme
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Commerce Scale Unit'i (bulut) başlatma
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Kanalları farklı bir Commerce Scale Unit'e geçirme
@@ -392,6 +394,8 @@
                       href: deployment/on-premises-overview.md
                     - name: Şirket içi dağıtımları planlama ve hazırlama
                       href: deployment/plan-onprem-deployment.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) tarafından desteklenen yazılımlar
+                      href: deployment/onprem-compatibility.md
                     - name: Donanım boyutlandırma gereksinimleri
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Dynamics 365 Finance + Operations (on-premises) uygulamasında kimlik doğrulaması
@@ -500,11 +504,9 @@
               items:
                 - name: Geliştirme ortamları
                   href: dev-tools/access-instances.md
-                - name: Yerleşik geliştirme ortamları yapılandırma
+                - name: Yerleşik geliştirme ortamlarını yapılandırma
                   href: dev-tools/configure-developer-vm.md
-                - name: Geliştirme makinelerinde yeni kullanıcılar oluşturma
-                  href: dev-tools/enable-development-machine.md
-                - name: Yönetici erişimine izin vermeyen VM'ler geliştirme ve oluşturmaya ilişkin SSS
+                - name: Yönetici erişimine izin verilmeyen VM'ler geliştirme ve oluşturma ile ilgili SSS
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Azure DevOps'a erişmek için yerel ortamları yeniden adlandırma
                   href: migration-upgrade/vso-machine-renaming.md
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Taraf ve genel adres defteri
                       href: data-entities/dual-write/party-gab.md
-                    - name: Taraf veri modeli ile Power Portal'ı kullanma
+                    - name: Taraf veri modeli ile Microsoft Power Apps portallarını kullanma
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Taraf ve genel adres defteri modeline yükseltme
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1600,10 +1602,12 @@
                   href: migration-upgrade/app-validation-process.md
                 - name: AX 2012 yükseltmesi - İşlev testi geçişleri
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: AX 2012 yükseltmesi - Servise alma için hazırlama
+                - name: AX 2012 yükseltmesi - Servise almak için hazırlama
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: AX 2012 yükseltmesi - Servise alma
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: AX 2012'den yükseltme - Veri yükseltme ile ilgili SSS
+                  href: migration-upgrade/upgrade-faq.md
                 - name: AX 2012'den yükseltmeyi etkileyen değişiklikler
                   items:
                     - name: Hesap planı ayırıcısını benzersiz yapma

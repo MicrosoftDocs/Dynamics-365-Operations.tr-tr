@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (Haziran 2021)
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: Finance 10.0.18 (Mayıs 2021)
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -186,7 +184,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/finance/toc.json
                 - name: Servise almak için hazırlama
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/finance/toc.json
-                - name: Servise almayla ilgili SSS
+                - name: Servise alma ile ilgili SSS
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Servis isteği gönderme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/finance/toc.json
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Sınır ötesi hizmetler raporu
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Satınalma harçları
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Bahreyn
               items:
                 - name: Bahreyn'e genel bakış
@@ -1992,11 +1992,15 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: AB İnstrastat beyanı oluşturma
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: Fransızca İntrastat
+                      href: localizations/emea-fra-intrastat.md
+                    - name: İtalyanca İntrastat
+                      href: localizations/emea-ita-intrastat.md
                 - name: Stok günlüğü raporları
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Fatura düzenleme son tarihleri
                   href: localizations/emea-invoice-issue-deadline.md
-                - name: Fatura işlemleri
+                - name: Fatura işleme
                   href: localizations/emea-invoice-processing.md
                 - name: AB giriş sertifikası düzenleme
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
@@ -2968,6 +2972,12 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'Kayıtlarla KDV beyannamesi (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: JPK-V7M raporlama için hazırlama
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: JPK-V7M raporlama
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: JPK-V7M raporundaki belirli iş senaryolarının ayrıntıları
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Katar
               items:
                 - name: Katar'a genel bakış
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Alacak hesaplarında şüpheli alacak rezervleri
                       href: localizations/rus-bad-debts.md
+                    - name: Vergi kıymeti ve vergi borcu kayıtlarını hesaplama
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Suudi Arabistan
               items:
                 - name: Suudi Arabistan'a genel bakış
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Katıştırılmış resimlere sahip Office biçimlerinde rapor oluşturma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel'de bir rapor oluşturmak için bir ER biçimi tasarlama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Oluşturulan dosyalarda ürün reçetesi karakterlerini gizleme

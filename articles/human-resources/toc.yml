@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 12 Temmuz 2021
+          href: hr-whats-new-2021-07-12.md
         - name: 22 Haziran 2021
           href: hr-whats-new-2021-06-22.md
         - name: 20 Mayıs 2021
@@ -249,12 +251,14 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: Lifecycle Services'ı anlama
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
-        - name: Teams'de Human Resources uygulaması
+        - name: Teams'te Human Resources uygulaması
           href: hr-admin-teams-leave-app.md
         - name: Servise almak için hazırlama
           href: hr-admin-go-live-prepare.md
-        - name: Servise almayla ilgili SSS
+        - name: Servise alma ile ilgili SSS
           href: hr-admin-go-live-faq.md
+        - name: Human Resources altyapısını birleştirme ile ilgili SSS
+          href: hr-infrastructure-merge-faq.md
         - name: Belge kaynakları
           items:
             - name: Yardım sistemi
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: Ücret planlarını işleme
               href: hr-compensation-process.md
+            - name: Personeli ödemeye hazır olarak işaretleme
+              href: hr-compensation-payroll.md
         - name: Kazançları yönetme
           items:
             - name: Kazanç yönetimi
@@ -715,13 +721,13 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Yaşam olayı türlerini yapılandırma
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Plan türleri oluşturma
+                    - name: Plan türüne genel bakış
                       href: hr-benefits-setup-plan-types.md
                     - name: Neden kodlarını ayarlama
                       href: hr-benefits-setup-reason-codes.md
                     - name: Katman kodlarını ayarlama
                       href: hr-benefits-setup-tier-codes.md
-                    - name: Oranları yapılandırma
+                    - name: Fiyatları yapılandırma
                       href: hr-benefits-setup-rates.md
                     - name: Kesintileri yapılandırma
                       href: hr-benefits-setup-deductions.md
@@ -807,6 +813,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Takım ve şirket takvimlerini görüntüleme
               href: hr-employee-self-service-calendar.md
+            - name: Devamsızlık yöneticisi rolünü yapılandırma
+              href: hr-configure-absence-manager.md
             - name: İzin satın alma ve satma ilkelerini yönetme
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: İzin satın alma ve satma iş akışları oluşturma
