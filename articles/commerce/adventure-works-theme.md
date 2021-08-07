@@ -2,7 +2,7 @@
 title: Adventure Works temasına genel bakış
 description: Bu konu, Adventure Works temasına genel bakış sağlar ve bunun Microsoft Dynamics 365 Commerce'deki site sayfalarına nasıl uygulanacağını açıklar.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479551"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655644"
 ---
 # <a name="adventure-works-theme-overview"></a>Adventure Works temasına genel bakış
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu, Adventure Works temasına genel bakış sağlar ve bunun Microsoft Dynamics 365 Commerce'deki site sayfalarına nasıl uygulanacağını açıklar.
 
 Dynamics 365 Commerce'te e-ticaret için Adventure Works adlı bir tema bulunur. Adventure Works teması, spor ve eğlence ürünlerini gösterir ve zengin ve geliştirilmiş bir öykü anlatma deneyimi için optimize edilmiştir. E-ticaret müşterilerine yönelik kapsamlı ve etkileyici bir çevrimiçi alışveriş deneyimi oluşturmak için modern bir görünüm, yeni düzenler ve animasyon efektleri sağlar.
 
-Adventure Works teması aşağıdaki yeni iş akışlarını sağlar:
+## <a name="trial-environments-in-commerce"></a>Commerce'teki deneme ortamları
 
-- Video oynatıcı modülü artık ek öykü anlatımı için başlık, paragraf ve bağlantı işlevlerini desteklemektedir.
-- Alışveriş sepetine ekle eylemi, bir bildirim sağlamak yerine mini sepeti çağırır.
+Adventure Works temasının işletmeden tüketiciye (B2C) ve işletmeden işletmeye (B2B) siteler için dağıtıldığında nasıl göründüğünü görmek için aşağıdaki deneme sitelerini ziyaret edin:
+
+- [Adventure Works B2C sitesi](https://www.adventure-works.com/)
+- [Adventure Works B2B sitesi](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>Tema özellikleri
+
+Adventure Works teması aşağıdaki yeni özellikleri sunar:
+
+- Video oynatıcı modülü artık ek hikaye anlatımı için başlık, paragraf ve bağlantı işlevselliğini destekler.
+- Animasyon aracılığıyla daha iyi içerik geçişleri var.
+- "Sepete ekle" eylemi, bildirim sağlamak yerine mini sepeti çağırır.
 - Hızlı bakış modülü, hem masaüstü hem de mobil görüntüleme pencerelerindeki kayan bir bölmedir.
-- Boş bir sepette artık promosyonlar gösterilebilir.
+- Site sayfaları için yeni düzenler var. 
+- Pazarlama içeriği, boş olduklarında sepet ve mini sepet için yapılandırılabilir.
+- Mini sepette "50 TL'nin üzerindeki siparişlerde ücretsiz kargo" gibi promosyon mesajları gösterilebilir.
+- Açıklama kartları arama ve kategori sayfalarında işlenir.
 
-Adventure Works teması, Commerce modülü kitaplığında aşağıdaki öykü anlatma modüllerini içerir:
+Adventure Works teması artık Commerce modül kitaplığında aşağıdaki hikaye anlatımı modüllerini içerir:
 
-- Kutucuk listesi modülü
-- Etkileşimli özellik modülü
-- Abone ol modülü
-- Etkin görüntü modülü
-- Görüntü listesi modülü
+- [Kutucuk listesi modülü](tile-list-module.md)
+- [Etkileşimli özellik modülü](interactive-feature-module.md)
+- [Etkin görüntü modülü](active-image-module.md)
+- [Abonelik modülü](subscribe-module.md)
+- [Görüntü listesi modülü](image-list-module.md)
 
 Adventure Works teması tamamen duyarlıdır ve masaüstü, mobil ve tablet görüntüleme pencereleri için en iyi duruma getirilmiş bir deneyim sunar.
 
@@ -77,6 +89,10 @@ Adventure Works teması, **Görünüm uzantıları** ve **Modül tanımı** uzan
 Benzer şekilde, diğer modüller modül tanımı uzantılarını içerir. Örneğin, [sepet simgesi modülü](cart-icon-module.md) modül tanım uzantıları kullanılarak uygulanan iki **Boş Sepet** ve **Promosyon İçeriği** yuvası içerir. Ek olarak, mobil görüntüleme pencerelerinde logoyu desteklemek için üst bilgi modülüne yeni bir **Mobil Logo** özelliği eklenmiştir. Bu özellik, üst bilgi modülü tanım uzantısı olarak uygulanır.
 
 Tema uzantıları hakkında daha fazla bilgi için bkz. [Tema uzantıları](e-commerce-extensibility/theme-module-extensions.md).
+
+## <a name="install-the-adventure-works-theme"></a>Adventure Works temasını yükleme
+
+Adventure Works temasını yükleme hakkında bilgi için bkz. [Adventure Works temasını yükleme](install-adventure-works.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

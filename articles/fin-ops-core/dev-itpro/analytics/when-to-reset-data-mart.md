@@ -2,7 +2,7 @@
 title: Veri reyonunu sıfırlamayla ilgili SSS
 description: Bu konu, veri reyonu sıfırlama hakkında sık sorulan bazı soruların yanıtlarını sağlar.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266621"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638279"
 ---
 # <a name="data-mart-resets-faq"></a>Veri reyonunu sıfırlamayla ilgili SSS
 
@@ -37,6 +37,9 @@ Aşağıdaki ifadelerden biri veya daha fazlası sizin durumunuza için geçerli
 
 - Uygulama veritabanı geri yüklendi.
 - Bir destek bileti açtınız ve Destek mühendisi sorun giderme adımının bir parçası olarak veri reyonunu sıfırlamanızı istedi.
+ 
+> [!NOTE]
+> Veri reyonunu sıfırlama işlemi, veritabanınızdaki genel muhasebe ve bütçe hareketlerinin sayısından etkilenir. Sisteminizdeki işlem sayısına bağlı olarak, bir veri reyonu sıfırlaması 15 dakika kadar kısa bir sürede tamamlanabilir veya dört saate kadar sürebilir. Ancak sıfırlamanız dört saatten uzun sürüyorsa Destek ekibine başvurmanızı öneririz.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Veri reyonu sıfırlama ne zaman uygun değildir?
 

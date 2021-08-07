@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314297"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538866"
 ---
 # <a name="payroll-employee"></a>Bordrolu personel
 
@@ -32,15 +32,19 @@ Fiziksel ad: mshr_payrollemployeeentity.
 
 Bu varlık çalışan hakkında bilgi sağlar. Bu varlığı kullanmadan önce [Bordro tümleştirme parametrelerini](hr-admin-integration-payroll-api-parameters.md) ayarlamanız gerekir.
 
+>[!IMPORTANT] 
+>**FirstName**, **MiddleName**, **LastName**, **NameValidFrom** ve **NameValidTo** alanları artık bu varlıkta kullanılamayacak. Bu durum, **EmploymentStartDate** ve **EmploymentEndDate** alanlarıyla **HcmEmployment** olan bu varlığı destekleyen tek bir geçerlilik tarihli veri kaynağı olduğundan emin olmaya yöneliktir.
+
+>Bu alanlar, Platform Güncelleştirmesi 43'te yayınlanan **DirPersonNameHistoricalEntity**'de kullanılabilir. **Kişi** alanında **PayrollEmployeeEntity** ile **DirPersonNameHistoricalEntity** arasında bir OData ilişkisi vardır. Alternatif olarak, **DirPersonNameHistoricalEntity** varlığı, **PersonHistoricalNames** ortak adı kullanılarak doğrudan OData aracılığıyla sorgulanabilir.
+
+
 ## <a name="properties"></a>Özellikler
 
 | Özellik<br>**Fiziksel ad**<br>**_Türü_** | Kullan | Tanım |
 | --- | --- | --- |
 | **Personel numarası**<br>mshr_personnelnumber<br>*Dize* | Salt okunur<br>Gerekli | Çalışanın benzersiz personel numarası. |
 | **Birincil alan**<br>mshr_primaryfield<br>*Dize* | Gerekli<br>Sistem tarafından oluşturulan |  |
-| **Soyadı**<br>mshr_lastname<br>*Dize* | Salt okunur<br>Gerekli | Çalışanın soyadı. |
 | **Tüzel kişilik kodu**<br>mshr_legalentityID<br>*Dize* | Salt okunur<br>Gerekli | Tüzel kişiliği (şirket) belirtir. |
-| **Geçerlilik başlangıcı**<br>mshr_namevalidfrom<br>*Tarih Saat Sapması* | Salt okunur <br>Gerekli | Personel bilgilerinin geçerlilik başlangıç tarihi.  |
 | **Cinsiyet**<br>mshr_gender<br>[mshr_hcmpersongender seçenek kümesi](hr-admin-integration-payroll-api-gender.md) | Salt okunur<br>Gerekli | Çalışanın cinsiyeti. |
 | **Bordrolu personel varlık kodu**<br>mshr_payrollemployeeentityid<br>*GUID* | Gerekli<br>Sistem tarafından oluşturulan | Personeli benzersiz olarak tanımlamak için sistem tarafından oluşturulan GUID değeri. |
 | **İstihdam başlama tarihi**<br>mshr_employmentstartdate<br>*Tarih saat sapması* | Salt okunur<br>Gerekli | Çalışanın işe başlama tarihi. |
@@ -50,8 +54,6 @@ Bu varlık çalışan hakkında bilgi sağlar. Bu varlığı kullanmadan önce [
 | **Geçerlilik bitişi**<br>mshr_namevalidto<br>*Tarih Saat Sapması* |  Salt okunur<br>Gerekli | Personel bilgilerinin geçerlilik bitiş tarihi. |
 | **Doğum tarihi**<br>mshr_birthdate<br>*Tarih Saat Sapması* | Salt okunur <br>Gerekli | Çalışanın doğum tarihi |
 | **Kimlik numarası**<br>mshr_identificationnumber<br>*Dize* | Salt okunur <br>Gerekli |Çalışan için tanımlanan tanımlama numarası.  |
-| **Adı**<br>mshr_firstname<br>*Dize* | Salt okunur<br>Gerekli | Çalışanın adı. |
-| **İkinci ad**<br>mshr_middlename<br>*Dize* | Salt okunur<br>Gerekli |Çalışanın ikinci adı.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Bordrolu personel için örnek sorgu
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d7bba084b03f8698c8bf31d171d5e4e486ed06ad
-ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
+ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187259"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646499"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plan geçmişini ve planlama günlüklerini görüntüleme
 
@@ -34,6 +34,19 @@ Planın geçmişini görüntülemek için **Master planlama** \> **Ayar** \> **P
 Planlama Optimizasyonu master planlama çalıştırma işlerinin geçmişi, master plan başına yalnızca 60'a kadar kayıt saklar. Yeni bir master planlama hesaplaması çalıştırdığınızda, ilgili planın en eski geçmiş kaydı silinir.
 
 İşlerin başlama zamanını ve durumunu görmeye ek olarak, belirli bir iş için günlüğü de görüntüleyebilirsiniz. Günlük, ek bilgiler ve uyarılar içerir. Tüm işlerin günlüğü olmayabilir. İşin günlüğünü görüntülemek için **Günlük** öğesini seçin. Günlük girişleri, iş tamamlandıktan sonra yalnızca 30 gün saklanır. Bu tarihten sonra otomatik olarak silinirler.
+
+Master planlama işlemi ayarlandığında **Arka planda çalıştır** hızlı sekmesindeki **Toplu işlem** seçeneği etkinleştirilmişse toplu işlem günlüğü ana planlama çalıştırması sırasında oluşturulan uyarılar ve hatalar hakkında daha fazla bilgi gösterir. Örneğin, otomatik kesinleştirme hataları yalnızca toplu iş günlüğünde yakalanır. **Geçmiş** sayfasındaki günlüklerde gösterilmezler.
+
+Master planlama çalıştırması sırasında oluşan otomatik kesinleştirme hatalarını ve diğer uyarıları veya hataları görüntülemek için şu adımları izleyin.
+
+1. **Sistem Yönetimi \> Sorgular \> Toplu işler**'e gidin.
+1. İlgilendiğiniz ana planlama çalıştırmasını temsil eden kaydı bulun ve seçin. (Örneğin, **Proje açıklaması** alanının değeri *Master planlama* ile başlayabilir.)
+1. **Toplu işler** sayfası için *gelişmiş formu* mu yoksa *eski (geliştirilmemiş)* formu mu kullandığınıza bağlı olarak şu adımlardan birini izleyin:
+
+    - Gelişmiş formu kullanıyorsanız: Eylem Bölmesi'nde **Toplu işlem geçmişi**'ni seçin. Ardından, **Toplu işlem geçmişi** sayfasında, Eylem Bölmesi'nde **Günlük**'ü seçin.
+    - Eski formu kullanıyorsanız: Eylem Bölmesi'nde, **Toplu işlem** sekmesinde **Günlük**'ü seçin.
+
+1. İşlem sırasında yakalanan tüm uyarıları ve hataları görüntüleyebileceğiniz **İleti ayrıntıları** bölmesini açmak için **İleti ayrıntıları**'nı seçin.
 
 ## <a name="related-resources"></a>İlgili kaynaklar
 

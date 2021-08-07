@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350848"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542427"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Başlangıç kurulumu sırasında sorunları giderme
 
@@ -71,7 +71,7 @@ Uygulama onayı sağlamak için aşağıdaki adımları izleyin.
 
 Çift-yazmanın doğru çalışmasını sağlamak için, konfigürasyon sırasında seçtiğiniz şirketler Dataverse ortamda oluşturulur. Varsayılan olarak, bu şirketler salt okunurdur **IsDualWriteEnable** özelliği **doğru** olarak ayarlanır. Ek olarak, varsayılan sorumlu departman sahibi ve ekibi oluşturulur ve şirket adını içerir. Eşlemeleri etkinleştirmeden önce varsayılan takım sahibinin belirtildiğinden emin olun. **Companies (CDM\_Company)** tablosunu bulmak için aşağıdaki adımları izleyin.
 
-1. Dynamics 365'deki model kullanımlı uygulamada, sağ üst köşedeki filtreyi seçin.
+1. Müşteri etkileşimi uygulamasında, sağ üst köşedeki filtreyi seçin.
 2.  açılır listede, **Şirket**'ı seçin.
 3. Sonuçları görmek için **Çalıştır** 'ı seçin.
 4. Çift-yazmayı konfigüre ettiğinizde bağlanan şirketi seçin.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350752"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542503"
 ---
 # <a name="general-troubleshooting"></a>Genel sorun giderme
 
@@ -61,14 +61,14 @@ Package Deployer aracını yükledikten sonra, aşağıdaki adımları izleyerek
 
 İz günlüğünü açmak için aşağıdaki adımları izleyin.
 
-1. Dynamics 365'teki model yönetimli uygulamada oturum açın, **Ayarlar** sayfasını açın ve sonra **Sistem** altında **Yönetim**'i seçin.
+1. Müşteri etkileşimi uygulamasında oturum açın, **Ayarlar** sayfasını açın ve **Sistem** altında **Yönetim**'i seçin.
 2. **Yönetim** sayfasında **Sistem Ayarları**'nı seçin.
 3. **Özelleştirme** sekmesinde, eklenti izleme günlüğünü etkinleştirmek için **Eklenti ve özel iş akışı etkinliği izleme** sütununda **Tümü** seçeneğini belirleyin. Yalnızca özel durumlar gerçekleştiğinde izleme günlüklerini günlüğe kaydetmek istiyorsanız, bunun yerine **özel durum** seçebilirsiniz.
 
 
 İz günlüğünü açmak için aşağıdaki adımları izleyin.
 
-1. Dynamics 365'teki model yönetimli uygulamada oturum açın, **Ayarlar** sayfasını açın ve sonra **Özelleştirme** altında **Eklenti İzleme Günlüğü**'nü seçin.
+1. Müşteri etkileşimi uygulamasında oturum açın, **Ayarlar** sayfasını açın ve **Özelleştirme**'nin altında **Eklenti İzleme Günlüğü** öğesini seçin.
 2. **Tür Adı** sütununun **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** olarak ayarlandığı izleme günlüklerini bulun.
 3. Tam günlüğü görüntülemek için bir öğeyi çift tıklatın ve sonra **yürütme** hızlı sekmesinde **ileti öbeği** metnini gözden geçirin.
 

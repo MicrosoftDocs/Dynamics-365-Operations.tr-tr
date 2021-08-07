@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.20 önizlemesi (2021 Ağustos)
+title: Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.20 (Ağustos 2021)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.20'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301758"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641068"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 önizlemesi (2021 Ağustos)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.20 (Ağustos 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.20'deki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.886 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.20'teki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.886 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Mayıs 2021
 - **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Temmuz 2021
 - **Sürüm genel kullanılabilirliği (otomatik güncelleştirme):** Ağustos 2021
 
-
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
 Aşağıdaki tabloda, bu sürümde yer alan özellikler yer almaktadır. *Özellik* sütunu, her bir özellik için resmi kullanıma sunma tarihlerini görebileceğiniz [kullanıma sunma planına](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantılar sağlar. *Ek bilgi* sütunu, ilgili belgelerin diğer ayrıntılrını ve/veya bağlantılarını sağlar.
 
-Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir. Listelenen özelliklerden bazıları hala önizleme görünümünde, bazılaru genel olarak kullanılabilir durumda olabilir.
+Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
 | Özellik alanı | Özellik | Daha fazla bilgi |
 |---|---|---|
@@ -49,7 +47,7 @@ Aşağıdaki tabloda, bu sürümde yer alan özellik iyileştirmeleri yer almakt
 
 | Özellik alanı | Özellik&nbsp;yönetiminde&nbsp;özellik&nbsp;adı | Daha fazla bilgi |
 |---|---|---|
-| Master planlama | Planlama Optimizasyonu için Negatif günler | Bu önizleme özelliği , tedarik gruplarında tanımlanan **negatif günle** r parametresine dayalı olarak gecikme toleransını dikkate almak Için planlama en iyileştirmesi sağlar. |
+| Master planlama | Planlama Optimizasyonu için Negatif günler | Bu özellik, Planlama İyileştirmesi'nin karşılama gruplarında tanımlanan **Negatif günler** parametresine göre gecikme toleransını dikkate almasını sağlar. |
 | Master planlama | Ayarlanan talep tahmininin paralel yetkilendirmesi | Bu özellik, ayarlanmış talep tahmin sayfasından **ayarlanmış talep tahmininin** paralel olarak yetkilendirilmeye olanak tanır. Yüksek sayıda tahminlerde yetki bulunduğunda, bu özelliğin amacı performansı artırmakla aynıdır. Yetkilendirilme sırasında, Kullanıcı, Yetkilendirme iletişim kutusundaki **iş parçacığı sayısını** belirtebilir. |
 | Master planlama | (Önizleme) Planlı toplu ve paketli siparişler için toplu iş olarak yürütülebilen kesinleştirme ve konsolidasyon | Bu özellik sayesinde planlı toplu paketli siparişleri kesinleştirmek ve konsolide etmek için toplu işleri kullanabilirsiniz. |
 | Üretim denetimi | Genel rotaları kopyala | Bu özellik, madde özel olmayan rotaları kullanıcıların kopyalamasına olanak tanımak için rotayı Kopyala işlevini geliştirir. Bir maddeye henüz atanmamış bir rotanın üzerine yazmak için rota işlevini Kopyala işlevi kullanıldıktan sonra, sistemin tüm ilgili bilgileri (tesis, rota grubu, kaynak gereksinimleri ve çeşitli saatler gibi) güncelleştirmesi için olanak tanır. |
@@ -75,7 +73,7 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.20 sürümü için platform güncelleştirmeleri (Temmuz 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.20 sürümü için platform güncelleştirmeleri (Temmuz 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

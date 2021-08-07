@@ -4,30 +4,21 @@ description: Bu konu, çift yazmadan aday müşteriden nakde hakkında bilgi sa�
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0fcbc5b0f571e9f2cf7f1ad7c1e976d022199b47
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361430"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542283"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Çift yazmada aday müşteriden nakde
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Birçok işletmenin önemli bir hedefi, aday müşterileri müşterilere dönüştürmek ve bu müşterilerle devam eden bir iş ilişkisi sürdürmektir. Microsoft Dynamics 365 uygulamalarında, aday müşteriden nakde süreci teklifler veya sipariş işleme iş akışları aracılığıyla gerçekleştirilir ve mali değerler için mutabakat sağlanır ve kabul edilir. Çift yazma ile aday müşteriden nakde tümleştirmesi, Dynamics 365 Sales veya Dynamics 365 Supply Chain Management'ta oluşturulan bir teklif ve sipariş alır ve teklif ve siparişi her iki uygulamada da kullanılabilir duruma getirir.
 
@@ -70,6 +61,7 @@ Satış teklifleri Sales veya Supply Chain Management'ta oluşturulabilir. Sales
 + **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** sütunları varsayılan eşlemelerin parçası değildir. Bu sütunları eşleştirmek için, tablonun aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşlemesi ayarlamanız gerekir.
 
 Field Service çözümünü de kullanıyorsanız, **Teklif Satırı Hızlı Oluştur** parametresini yeniden etkinleştirdiğinizden emin olun. Parametrenin yeniden etkinleştirilmesi, hızlı oluştur işlevini kullanarak teklif satırları oluşturmaya devam etmenize olanak tanır.
+
 1. Dynamics 365 Sales uygulamanıza gidin.
 2. Üst gezinti çubuğunda ayarlar simgesini seçin.
 3. **Gelişmiş Ayarlar**'ı seçin.
@@ -121,43 +113,25 @@ Aday müşteriden nakde, aşağıdaki tabloda gösterildiği gibi veri etkileşi
 
 | Finance and Operations uygulamaları | Müşteri etkileşimi uygulamaları | Tanım |
 |-----------------------------|-----------------------------------|-------------|
-| Satış faturası başlıkları V2    | faturalar                          | Finance and Operations uygulamasındaki Satış faturası başlıkları V2 tablosu, satış siparişleri için faturalar ve serbest metin faturaları içerir. Dataverse'te çift yazma için serbest metin fatura belgelerini filtreleyecek bir filtre uygulanır. |
-| Satış faturası satırları V2      | invoicedetails                    |             |
-| CDS satış siparişi başlıkları     | salesorders                       |             |
-| CDS satış siparişi satırları       | salesorderdetails                 |             |
-| Satış siparişi kaynak kodları    | msdyn\_salesorderorigins          |             |
-| CDS satış teklifi başlığı  | teklifler                            |             |
-| CDS satış teklifi satırları   | quotedetails                      |             |
+[Tüm ürünler](mapping-reference.md#138) | msdyn_globalproducts | |
+[Müşteriler V3](mapping-reference.md#101) | hesaplar | |
+[Müşteriler V3](mapping-reference.md#116) | ilgili kişiler | |
+[İlgili Kişiler V2](mapping-reference.md#221) | msdyn_contactforparties | |
+[CDS satış siparişi başlıkları](mapping-reference.md#217) | salesorders | |
+[CDS satış siparişi satırları](mapping-reference.md#216) | salesorderdetails | |
+[CDS satış teklifi başlığı](mapping-reference.md#215) | teklifler | |
+[CDS satış teklifi satırları](mapping-reference.md#214) | quotedetails | |
+[Serbest bırakılan ürünler V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
+[Satış faturası başlıkları V2](mapping-reference.md#118) | faturalar | Finance and Operations uygulamasındaki Satış faturası başlıkları V2 tablosu, satış siparişleri için faturalar ve serbest metin faturaları içerir. Dataverse'te çift yazma için serbest metin fatura belgelerini filtreleyecek bir filtre uygulanır. |
+[Satış faturası satırları V2](mapping-reference.md#117) | invoicedetails | |
+[Satış siparişi kaynak kodları](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
-Aday müşteriden nakde için ilgili temel tablo eşlemeleri şunlardır:
-
-+ [Müşteriler V3 ve hesaplar](customer-mapping.md#customers-v3-to-accounts)
-+ [CDS İlgili Kişileri V2 ve contacts](customer-mapping.md#cds-contacts-v2-to-contacts)
-+ [Müşteriler V3 ve ilgili kişiler](customer-mapping.md#customers-v3-to-contacts)
-+ [Serbest bırakılan ürünler V2 ve msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
-+ [Tüm ürünler ve msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
-+ [Fiyat listesi](product-mapping.md)
+Fiyat listeleri hakkında bilgi için bkz. [Birleşik ürün deneyimi](product-mapping.md).
 
 ## <a name="limitations"></a>Sınırlamalar
+
 - İade siparişleri desteklenmez.
 - Alacak dekontları desteklenmez.
-- Ana veriler için müşteri veya satıcı gibi mali boyutlar ayarlanmalıdır. Bir teklife veya satış siparişine müşteri eklendiğinde müşteri kaydıyla ilişkilendirilmiş mali boyutlar otomatik olarak siparişe aktarılır. Şu anda çift yazma, ana veriler için mali boyut verilerini içermez. 
-
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
-
-[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
-
-[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
-
-[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
-
-[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
-
-[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
-
-[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
+- Ana veriler için müşteri veya satıcı gibi mali boyutlar ayarlanmalıdır. Bir teklife veya satış siparişine müşteri eklendiğinde müşteri kaydıyla ilişkilendirilmiş mali boyutlar otomatik olarak siparişe aktarılır. Şu anda çift yazma, ana veriler için mali boyut verilerini içermez.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

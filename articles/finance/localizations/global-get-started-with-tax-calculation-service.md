@@ -2,7 +2,7 @@
 title: Vergi Hesaplamayı kullanmaya başlama
 description: Bu konuda, Vergi Hesaplamasının nasıl ayarlanacağı açıklanmaktadır.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336668"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644986"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Vergi Hesaplama (Önizleme) kullanmaya başlama
 
@@ -58,15 +58,16 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yordamı yalnızca bir kez tamamlamanız gerekir ve RCS'deki herhangi bir tüzel kişilikte tamamlayabilirsiniz.
 
 1. [RCS](https://marketing.configure.global.dynamics.com/)'de oturum açın
-2. **Elektronik raporlama** çalışma alanında, yeni bir yapılandırma sağlayıcısı ekleyin. Sağlayıcının adı olarak şirket adınızı kullanın. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-3. Oluşturduğunuz yapılandırma sağlayıcısını seçin ve sonra **etkin olarak ayarla**'yı seçin.
-4. **Microsoft** yapılandırma sağlayıcısını seçin ve ardından **depolar**'ı seçin.
-5. **Tür** alanında **Genel**'i seçin.
-6. **Aç**'ı seçin.
-7. **Vergi Veri Modeli**'ne gidin, dosya ağacını genişletin ve ardından **Vergi Yapılandırması**'nı seçin.
-8. En son sürümü seçin ve ardından **içe aktar**'ı seçin.
-9. **Genelleştirme özellikleri (Önizleme)** çalışma alanına geri dönün, **Özellikler**'i seçin, **Vergi Hesaplama** kutucuğunu seçin ve sonra **Ekle**'yi seçin.
-10. Aşağıdaki özellik türlerinden birini seçin:
+2. **Özellik yönetimi** çalışma alanında, **Genelleştirme özellikleri** özelliğini belirleyip etkinleştirin.
+3. **Elektronik raporlama** çalışma alanında, yeni bir yapılandırma sağlayıcısı ekleyin. Sağlayıcının adı olarak şirket adınızı kullanın. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+4. Oluşturduğunuz yapılandırma sağlayıcısını seçin ve sonra **etkin olarak ayarla**'yı seçin.
+5. **Microsoft** yapılandırma sağlayıcısını seçin ve ardından **depolar**'ı seçin.
+6. **Tür** alanında **Genel**'i seçin.
+7. **Aç**'ı seçin.
+8. **Vergi Veri Modeli**'ne gidin, dosya ağacını genişletin ve ardından **Vergi Yapılandırması**'nı seçin.
+9. En son sürümü seçin ve ardından **içe aktar**'ı seçin.
+10. **Genelleştirme özellikleri** çalışma alanına dönün, **Özellikler**'i seçin, **Vergi Hesaplaması** kutucuğunu ve **Ekle**'yi seçin.
+11. Aşağıdaki özellik türlerinden birini seçin:
 
     - **Yeni özellik** – Boş içeriğe sahip bir özellik ayarı oluşturun.
     - **Varolan özelliğe dayalı** – Varolan bir özellikten özellik oluşturun ve varolan özellik ayarından içeriği kopyalayın.

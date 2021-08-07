@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056336"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639426"
 ---
 # <a name="request-a-leave-of-absence"></a>Devamsızlık izni isteği
 
@@ -49,9 +49,13 @@ Bir devamsızlık durumu için istek gönderebilir ve Dynamics 365 Human Resourc
 
 2. Devamsızlık talebi bırak görüntülemek için **Devamsızlığı görüntüle** seçeneğini belirleyin .
 
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Diğer sistemlerdeki veya eski sistemlerdeki izin taleplerini içeri aktarma
+
+Başka bir sistemden izin taleplerini içeri aktarmak için uygun izin hareketlerini oluşturmak üzere normal iş akışından geçmeniz gerekir. Alternatif olarak, tamamlanmış durumdaki izin banka hareketlerini ve izin taleplerini içeri aktarabilirsiniz. Yalnızca izin taleplerini içeri aktarırsanız izin banka hareketlerinin otomatik olarak oluşturulmadığını unutmayın.
+
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[İzni askıya alma](hr-leave-and-absence-suspend-leave.md)
+[İzni askıya al](hr-leave-and-absence-suspend-leave.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

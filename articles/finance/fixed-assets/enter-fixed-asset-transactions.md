@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
+ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815728"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6645384"
 ---
 # <a name="fixed-asset-transaction-options"></a>Sabit kıymet hareketi seçenekleri
 
@@ -46,7 +46,7 @@ Sabit kıymet alımı için bir satınalma siparişi veya Stoktan sabit kıymetl
 ## <a name="general-ledger"></a>Genel muhasebe
 Tüm sabit kıymet hareket türleri Genel günlük sayfasına nakledilebilir. Ayrıca, sabit kıymet hareketlerini deftere nakletmek için Sabit kıymetlerdeki günlükleri kullanabilirsiniz.
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>Sabit kıymet hareketleri tiplerini girme seçenekleri
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>Sabit kıymet hareketleri tiplerini girme seçenekleri
 
 
 | Hareket türü                    | Modül                   | Seçenekler                                   |
@@ -61,10 +61,20 @@ Tüm sabit kıymet hareket türleri Genel günlük sayfasına nakledilebilir. Ay
 | ** **                               | Genel muhasebe           | Yevmiye fişi                           |
 | ** **                               | Alacak hesapları      | Dekont / Serbest metin faturası                         |
 
-
 Sabit kıymetlerin amortisman dönemleri kalan değerleri, bir amortisman hareketi türü günlük satırı, el ile oluşturulur ve bir veri varlığı üzerinden içeri aktarılır. Bu değer, amortisman teklif işlemi, günlük satırı oluşturmak için kullanıldığında güncelleştirilir.
 
 Daha fazla bilgi için bkz: [Sabit kıymet tümleştirmesi](fixed-asset-integration.md).
 
+### <a name="transactions-that-require-different-voucher-numbers"></a>Farklı makbuz numaraları gerektiren hareketler
+
+Aşağıdaki Sabit kıymet hareketleri farklı makbuz numaraları kullanır:
+
+- Bir kıymet üzerinde ek bir alım yapılır ve "yakalama" amortismanı hesaplanır.
+- Bir kıymet bölünür.
+- Elden çıkarma amortismanını hesaplamak için bir parametre açılır ve ardından kıymet elden çıkarılır.
+- Bir kıymetin servis tarihi alım tarihinden öncedir. Bu nedenle, bir amortisman düzeltmesi deftere nakledilir.
+
+> [!NOTE]
+> Hareketleri girerken tüm hareketlerin aynı sabit kıymet için geçerli olduğundan emin olun. Fiş birden fazla sabit kıymet içeriyorsa **Yeni Fiş** alanı, Genel muhasebedeki **Günlük adları** sayfasında **Yalnızca bir fiş numarası** olarak ayarlansa bile deftere nakledilmez. Fişe birden fazla sabit kıymet eklerseniz "Fiş başına yalnızca bir sabit kıymet hareketi olabilir" iletisini alırsınız ve fişi deftere nakledemezsiniz.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

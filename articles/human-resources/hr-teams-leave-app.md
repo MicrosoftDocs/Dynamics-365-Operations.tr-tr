@@ -2,7 +2,7 @@
 title: Teams'de izin isteklerini yönetme
 description: Bu konuda Microsoft Teams uygulamasındaki Dynamics 365 Human Resources uygulamasında, nasıl izin isteneceği gösterilmektedir.
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356524"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639450"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 
@@ -166,6 +166,10 @@ Dynamics 365 Human Resources Teams uygulamasında oturum açarken veya uygulamay
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Teams'de Human Resource uygulaması oturumu açılamıyor
 
 Uygulamada oturum açamazsınız, Microsoft Teams'de oturum açarken kullandığınız hesap Dynamics 365 Human Resources'taki bir personel kaydıyla ilişkilendirilmemiş olabilir. Çalışan kaydınızın doğru bir şekilde ilişkilendirildiğinden emin olmak için sistem yöneticinize başvurun.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Ayarlar'da Dynamics 365 Human Resources ortamını bulamıyorum
+
+Doğru Dynamics 365 ortamını seçemiyorsanız kullanıcı kaydı doğru eşitlenmemiş olabilir. Kullanıcı kaydını yeniden oluşturmak ve kullanıcı kimlik bilgileriyle ilişkilendirmek için sistem yöneticinize başvurun. Ardından birkaç dakika içinde Microsoft Teams için Human Resources uygulamasında oturum açmayı deneyin.
 
 ### <a name="translations-dont-display-correctly"></a>Çeviriler doğru görüntülenmiyor
 

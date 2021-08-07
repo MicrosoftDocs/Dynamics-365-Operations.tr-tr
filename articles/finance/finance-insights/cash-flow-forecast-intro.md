@@ -2,7 +2,7 @@
 title: Nakit akışı tahmini (önizleme)
 description: Bu konuda, Nakit akışı tahmini özelliği açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3f16c8471123969443af52ff9bed7fc017b8e9c2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f4b48122ea54c201888d71afb5fb731ebcab230d
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339227"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638788"
 ---
 # <a name="cash-flow-forecast-preview"></a>Nakit akışı tahmini (önizleme)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Nakit akışı her işletme için kritik öneme sahiptir. Hatta kar elde eden şirketler bile, acil gereksinimlerini karşılamak için nakit akışını korumazsa borçlarını ödeyemeyebilir. Mali içgörülerdeki nakit akışı tahmini özelliği, şirketlerin nakit bakiyelerini etkili şekilde izlemesine ve yönetmelerine yardımcı olabilir. Bu özellik, işletmelerin nakit akışlarını geçmişe kıyasla daha doğru tahmin edebilmeleri için makine öğrenimini kullanır. Ayrıca yöneticilere, geçerli nakit pozisyonlarındaki fırsatları en iyi duruma getirecek kararlar alma konusunda yardımcı olabilir. 
 

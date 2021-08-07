@@ -1,6 +1,6 @@
 ---
-title: Taraf veri modeli ile Power Portal'ı kullanma
-description: Bu konu, Çift yazma taraf veri modeli nedeniyle Power Portal Web rollerine yapılan değişiklikleri açıklamaktadır.
+title: Microsoft Power Apps portallarını Taraf veri modeliyle kullanma
+description: Bu konuda, çift yazmadaki taraf veri modeli nedeniyle Microsoft Power Apps portalları için web rollerinde yapılan değişiklikler açıklanmaktadır.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358629"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542575"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>Taraf veri modeli ile Power Portal'ı kullanma
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Microsoft Power Apps portallarını Taraf veri modeliyle kullanma
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
 [!INCLUDE[rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Çift yazma uygulama düzenleme çözümü sürüm 2.0.999.0 ve sonraki sürümleri, Hesap ve İlgili kişi tabloları için tarafta ve genel adres defterindeki veri modeli değişikliklerini içerir. Değişiklikler, gelişmiş iş senaryolarını destekleyen çok-çok ilişkisi sağlar. Bu değişiklikler, müşteri portalı dahil, kullanıma hazır veya çift yazma yüklenmeden önce ortamınızda varolan portal web rolleri tarafından desteklenmez. Web rollerinin beklendiği gibi çalışması için yeni veri modelini kullanarak yeni Web rolleri oluşturmanız gerekir. 
+Çift yazma uygulama düzenleme çözümü sürüm 2.0.999.0 ve sonraki sürümleri, Hesap ve İlgili kişi tabloları için tarafta ve genel adres defterindeki veri modeli değişikliklerini içerir. Değişiklikler, gelişmiş iş senaryolarını destekleyen çok-çok ilişkisi sağlar. Bu değişiklikler, müşteri portalı dahil, kullanıma hazır veya çift yazma yüklenmeden önce ortamınızda varolan portal web rolleri tarafından desteklenmez. Web rollerinin beklendiği gibi çalışması için yeni veri modelini kullanarak yeni web rolleri oluşturmanız gerekir. 
 
 Özetle, tabloların etkileşim şekli değişti, ancak müşteri portalındaki tablo izinleri değişmedi. Bu konu, yeni gelişmiş veri modeliyle çalışan yeni Web rollerinin nasıl oluşturulacağını açıklamaktadır.
 
@@ -44,13 +44,13 @@ Bu yeni tablo izinlerini oluşturmak için şu adımları izleyin:
 
     Üç yeni izin oluşturmalısınız:
 
-    + İlgili kişi - Taraf bağlantısı
-    + Taraf - Hesap bağlantısı
-    + Hesap - Sipariş bağlantısı
+    + **İlgili Kişi** ile **Taraf** tablo bağlantısı
+    + **Taraf** ile **Hesap** tablo bağlantısı
+    + **Hesap** ile **Sipariş** tablo bağlantısı
 
 4. Şu parameteleri ayarlayarak İlgili kişi - taraf bağlantısı için yeni bir izin oluştup Kaydedin:
 
-    + **Ad**: Taraf - hesap bağlantısı (veya sizin seçiminiz)
+    + **Ad**: **Taraf** ile **Hesap** tablo bağlantısı (veya seçiminiz)
     + **Tablo adı**: msdyn_contactforparty
     + **Web sitesi**: Müşteri Portalı
     + **Kapsam**: İlgili kişi

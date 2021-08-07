@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 825cc5b9355695a648c857e5197b5b93a21fdb43
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: d25ddfc992d49c9a3c24d03cb0c71d68f7aa21fa
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115227"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641116"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Formüllerdeki ve içeriklerindeki değişiklikleri yönetme
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management'un işlem üretme yeteneklerini kullanıyorsanız, aşağıdaki değişiklikleri yönetmek için ilgili formül yönetimi yeteneklerini de kullanabilirsiniz:
 

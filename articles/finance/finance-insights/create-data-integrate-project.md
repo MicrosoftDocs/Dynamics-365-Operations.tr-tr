@@ -2,7 +2,7 @@
 title: Veri tümleştirici projesi oluşturma (önizleme)
 description: Bu konuda, veri tümleştirici projesinin nasıl oluşturulacağı açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 59f85c64ea7b1f539a245e08b76bd6a34797b0ca
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: bea1fe3df255bd07a205f90cff8c546cee422fa3
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186480"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638668"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Veri tümleştirici projesi oluşturma (önizleme)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, veri tümleştirici projesinin nasıl oluşturulacağı açıklanmaktadır.
 

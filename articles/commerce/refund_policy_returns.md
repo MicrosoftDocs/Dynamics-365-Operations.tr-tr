@@ -2,7 +2,7 @@
 title: Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleştirme
 description: Bu konu, bir kanal için iade ve para iadesi ilkesinin nasıl ayarlanacağını açıklar.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345120"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558309"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleştirme
 
@@ -36,12 +36,21 @@ Bu konu, bir kanal için iade ve para iadesi ilkesinin nasıl ayarlanacağı ad�
 
 ## <a name="enable-return-policy"></a>İade İlkesini etkinleştir
 
-Kanal iade ilkesi işlevini etkinleştirmek için aşağıdakileri yapın:
+Commerce genel merkezinde kanal iade ilkesi işlevini etkinleştirmek için şu adımları izleyin.
 
 1. Dynamics 365 Commerce'de **Özellik yönetimi** çalışma alanına gidin.
 1. **Kanal iade ilkelerini etkinleştirme** özelliğini, özellik adları listesinde arayın.
 1. **Şimdi etkinleştir**'i seçin.
-1. **Dağıtım planlaması** sayfasında, özellik değişikliğini dağıtmak için **1110** (Genel yapılandırma) işini çalıştırın. 
+1. **Dağıtım planlaması** sayfasında, özellik değişikliğini dağıtmak için **1110** (Genel yapılandırma) işini çalıştırın.
+
+## <a name="initialize-the-commerce-scheduler"></a>Commerce planlayıcısını başlatma
+
+**Kanal iade ilkelerini etkinleştir** özelliğini etkinleştirdikten sonra, yeni özellik veritabanı değişikliklerinin Commerce Data Exchange (CDX) eşitlemesi yoluyla eklenmesini sağlamak için Commerce planlayıcısını başlatmanız gerekir. 
+
+Commerce genel merkezinde Commerce planlayıcısınıı başlatmak için şu adımları izleyin.
+
+- **Retail ve Commerce \> Genel merkez ayarı \> Commerce planlayıcısı \> Commerce planlayıcısını başlat**'a gidin. Alternatif olarak, "Commerce planlayıcısını başlatma" araması yapabilirsiniz.
+- **Commerce Planlayıcısı Başlat** iletişim kutusunda, **Var olan yapılandırmayı sil** seçeneğinin **Hayır** olarak ayarlandığından emin olun ve **Tamam**'ı seçin.
 
 ## <a name="configure-return-policy"></a>İade İlkesi yapılandırma
 

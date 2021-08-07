@@ -4,24 +4,17 @@ description: Bu konu Finance and Operations uygulamaları ile Dataverse arasınd
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 36cfed92535c1df3ba55fd56bc8aa2f9eccf3003
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346508"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542451"
 ---
 # <a name="integrated-vendor-master"></a>Tümleşik satıcı aslı
 
@@ -29,9 +22,7 @@ ms.locfileid: "6346508"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
-*Satıcı* terimi, bir tedarikçi organizasyonunu veya bir işletmeye mal veya servis sağlayan tek bir sahip anlamına gelir. *Satıcı* Microsoft Dynamics 365 Supply Chain Management'da yerleşik bir kavram olmasına karşın Dynamics 365'teki model temelli uygulamalarda satıcı kavramı yoktur. Ancak, satıcı bilgilerini depolamak üzere **Hesap/İlgili Kişi** tablosuna aşırı yükleme yapabilirsiniz. Tümleşik satıcı Yöneticisi, Dynamics 365 ' te model temelli uygulamalarda açık bir satıcı kavramı tanıtır. **Hesap/İlgili Kişi** tablosundaki yeni satıcı tasarımını kullanabilir veya satıcı verilerini depolayabilirsiniz. Çift yazım, her iki yaklaşımdan destekler.
+*Satıcı* terimi, bir tedarikçi organizasyonunu veya bir işletmeye mal veya servis sağlayan tek bir sahip anlamına gelir. *Satıcı*, Microsoft Dynamics 365 Supply Chain Management'ta yerleşik bir kavram olmasına rağmen, müşteri etkileşimi uygulamalarında satıcı kavramı yoktur. Ancak, satıcı bilgilerini depolamak üzere **Hesap/İlgili Kişi** tablosuna aşırı yükleme yapabilirsiniz. Tümleşik satıcı yöneticisi, müşteri etkileşimi uygulamalarında açık bir satıcı konsepti sunar. **Hesap/İlgili Kişi** tablosundaki yeni satıcı tasarımını kullanabilir veya satıcı verilerini depolayabilirsiniz. Çift yazım, her iki yaklaşımdan destekler.
 
 Her iki yaklaşımdan satıcı verileri, Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service ve Power Apps portalları arasında tümleştirilir. Supply Chain Management'ta, veriler satınalma talepleri ve satınalma siparişleri gibi iş akışlarında kullanılabilir.
 
@@ -52,27 +43,17 @@ Dataverse'teki **Hesap/İlgili Kişi** tablosunda satıcı verilerini saklamak i
 
 Satıcı verileri, satıcıyla ilgili satıcı grubu, adresler, iletişim bilgileri, ödeme profili ve fatura profili gibi tüm bilgileri içerir. Tablo eşlemeleri koleksiyonu, aşağıdaki tabloda gösterildiği gibi satıcı veri etkileşimi sırasında birlikte çalışır.
 
-Finance and Operations uygulamaları | Diğer Dynamics 365 uygulamaları     | Tanım
+Finance and Operations uygulamaları | Müşteri etkileşimi uygulamaları     | Tanım
 ----------------------------|-----------------------------|------------
-Satıcı V2                   | Hesap                     | Satıcı bilgilerini depolamak için Hesap tablosunu kullanan işletmeler, aynı şekilde kullanmaya devam edebilir. Ayrıca, Finance and Operations uygulamaları tümleştirmesi nedeniyle gelen açık satıcı işlevlerinden de yararlanabilir.
-Satıcı V2                   | Msdyn\_vendors              | Satıcılar için özel bir çözüm kullanan işletmeler, Finance and Operations uygulamaları tümleştirmesi nedeniyle Dataverse'da sunulmakta olan kullanıma hazır satıcı kavramından yararlanabilir. 
-Satıcı grupları               | msdyn\_vendorgroups         | Bu şablon satıcı grubu bilgilerini eşitler.
-Satıcı ödeme yöntemi       | msdyn\_vendorpaymentmethods | Bu şablon, satıcı ödeme yöntemi bilgilerini eşitler.
-CDS İlgili Kişileri V2             | ilgili kişiler                    | [İlgili kişiler](customer-mapping.md#cds-contacts-v2-to-contacts) şablonu, müşterilerin ve satıcıların tüm birincil, ikincil ve üçüncül ilgili kişi bilgilerini eşitler.
-Ödeme planı satırları      | msdyn\_paymentschedulelines | [Ödeme planı satırları](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines) şablonu, müşterilerin ve satıcıların referans verilerini eşitler.
-Ödeme planı            | msdyn\_paymentschedules     | [Ödeme planları](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules) şablonu, müşterilerin ve satıcıların ödeme planı referans verilerini eşitler.
-Ödeme günü satırları CDS V2    | msdyn\_paymentdaylines      | [Ödeme günü satırları](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) şablonu, müşterilerin ve satıcıların ödeme günü satırları referans verilerini eşitler.
-Ödeme günleri CDS            | msdyn\_paymentdays          | [Ödeme günleri](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays) şablonu, müşterilerin ve satıcıların ödeme günleri referans verilerini eşitler.
-Ödeme koşulları            | msdyn\_paymentterms         | [Ödeme koşulları](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms) şablonu, müşterilerin ve satıcıların ödeme koşulları referans verilerini eşitler.
-Ad ekleri                | msdyn\_nameaffixes          | [Ad ekleri](customer-mapping.md#name-affixes-to-msdyn_nameaffixes) şablonu, müşterilerin ve satıcıların ad ekleri referans verilerini eşitler.
-
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [Vendors](includes/VendorsV2-msdyn-vendors.md)]
-
-[!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
-
-[!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
+[CDS İlgili Kişileri V2](mapping-reference.md#115) | ilgili kişiler | Bu şablon, müşterilerin ve satıcıların tüm birincil, ikincil ve üçüncül ilgili kişi bilgilerini eşitler.
+[Ad ekleri](mapping-reference.md#155) | msdyn_nameaffixes | Bu şablon, müşterilerin ve satıcıların ad ekleri referans verilerini eşitler.
+[Ödeme günü satırları CDS V2](mapping-reference.md#157) | msdyn_paymentdaylines | Bu şablon, müşterilerin ve satıcıların ödeme günü satırları referans verilerini eşitler.
+[Ödeme günleri CDS](mapping-reference.md#158) | msdyn_paymentdays | Bu şablon, müşterilerin ve satıcıların ödeme günleri referans verilerini eşitler.
+[Ödeme planı satırları](mapping-reference.md#159) | msdyn_paymentschedulelines | Müşterilerin ve satıcıların ödeme planı satırları referans verilerini eşitler.
+[Ödeme planı](mapping-reference.md#160) | msdyn_paymentschedules | Bu şablon, müşterilerin ve satıcıların ödeme planı referans verilerini eşitler.
+[Ödeme koşulları](mapping-reference.md#161) | msdyn_paymentterms | Bu şablon, müşterilerin ve satıcıların ödeme koşulları (ödeme koşulları) referans verilerini eşitler.
+[Satıcılar V2](mapping-reference.md#202) | msdyn_vendors | Satıcılar için özel bir çözüm kullanan işletmeler, Finance and Operations uygulamaları tümleştirmesi nedeniyle Dataverse'da sunulmakta olan kullanıma hazır satıcı kavramından yararlanabilir.
+[Satıcı grupları](mapping-reference.md#200) | msdyn_vendorgroups | Bu şablon satıcı grubu bilgilerini eşitler.
+[Satıcı ödeme yöntemi](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Bu şablon, satıcı ödeme yöntemi bilgilerini eşitler.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

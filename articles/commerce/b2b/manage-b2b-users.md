@@ -2,24 +2,24 @@
 title: B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 description: Bu konuda, yöneticilerin işletmeden işletmeye (B2B) e-ticaret web sitelerinde iş ortağı kullanıcıları ekleme, düzenleme ve silme yöntemleri açıklanmaktadır.
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936668"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655618"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 
@@ -67,7 +67,7 @@ Commerce Headquarters'da bir iş ortağı yöneticisi kullanıcısını onaylama
 
 1. **Perakende ve Ticaret IT \> Dağıtım planı**'na gidin ve yeni oluşturulan müşteri ve müşteri hiyerarşisi kayıtlarını kanal veritabanına göndermek için **1010** (**Müşteriler**) işini çalıştırın.
 
-İstek onaylandıktan ve müşteri ile müşteri hiyerarşisi kayıtları kanal veritabanıyla eşitlendikten sonra, istekte bulunan kişi, isteği gönderdiğinde sağladığı e-posta adresini kullanarak B2B e-ticaret web sitesinde oturum açabilir. Kullanıcılar, hesaplarının parolasını tanımlamak için kayıt akışını kullanabilir.
+İstek onaylandıktan ve müşteri ile müşteri hiyerarşisi kayıtları kanal veritabanıyla eşitlendikten sonra, istekte bulunan kişi, isteği gönderdiğinde sağladığı e-posta adresini kullanarak B2B e-ticaret web sitesinde oturum açabilir. Kullanıcılar, hesaplarının parolasını tanımlamak için kayıt akışını kullanabilir. Kimlik sağlayıcı (Azure AD B2C) kaydının kayıt veya oturum açma sırasında oluşturulan B2B müşteri kaydına bağlanmasını sağlamak için [Kimlik kayıtlarının müşteri hesaplarına otomatik olarak bağlanmasını etkinleştirme](../identity-record-linking.md) başlıklı makaledeki yönergeleri izleyin.
 
 ## <a name="onboard-additional-business-partner-users"></a>Ek iş ortağı kullanıcıları ekleme
 
@@ -83,7 +83,7 @@ B2B e-ticaret web sitesine ek iş ortağı kullanıcıları eklemek için şu ad
 
 1. Yeni iş ortağı kullanıcısını kanal veritabanıyla eşitlemek için **1010** (**Müşteriler**) işini çalıştırın.
 
-Müşteri kaydı eşitlendikten sonra, B2B e-ticaret web sitesinde kullanıcının durumu **Etkin** olarak ayarlanır ve yeni kullanıcı, e-posta adresini kullanarak B2B e-ticaret web sitesinde oturum açabilir. Kullanıcılar, hesaplarının parolasını tanımlamak için kayıt akışını kullanabilir.
+Müşteri kaydı eşitlendikten sonra, B2B e-ticaret web sitesinde kullanıcının durumu **Etkin** olarak ayarlanır ve yeni kullanıcı, e-posta adresini kullanarak B2B e-ticaret web sitesinde oturum açabilir. Kullanıcılar, hesaplarının parolasını tanımlamak için kayıt akışını kullanabilir. Kimlik sağlayıcı (Azure AD B2C) kaydının kayıt veya oturum açma sırasında oluşturulan B2B müşteri kaydına bağlanmasını sağlamak için [Kimlik kayıtlarının müşteri hesaplarına otomatik olarak bağlanmasını etkinleştirme](../identity-record-linking.md) başlıklı makaledeki yönergeleri izleyin.
 
 ## <a name="edit-business-partner-user-details"></a>İş ortağı kullanıcı ayrıntılarını düzenleme
 

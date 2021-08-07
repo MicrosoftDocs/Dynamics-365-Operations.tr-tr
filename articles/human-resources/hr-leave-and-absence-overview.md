@@ -2,7 +2,7 @@
 title: İzin ve devamsızlığa genel bakış
 description: Dynamics 365 Human Resources'ta İzin ve devamsızlık çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve sunar. Ayrıca, istekleri yönetmek için iş akışları ve personelin izin istemesi için sezgisel bir self servis sayfası sunar.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339727"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639498"
 ---
 # <a name="leave-and-absence-overview"></a>İzin ve devamsızlığa genel bakış
 
@@ -33,8 +33,9 @@ Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlama
 Çalışanlarınız için izin planları oluşturabilmeniz için, önce birkaç Kurulum adımı yapmanız gerekir:
 
 - [Bırakma ve devamsızlık parametrelerini konfigüre et](hr-leave-and-absence-parameters.md)
-- [Çalışma süresi takvimleri oluşturma](hr-leave-and-absence-working-time-calendar.md)
-- [Bir izin isteğini iş akışı oluşturma](hr-leave-and-absence-workflow.md)
+- [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md)
+- [İzin isteği iş akışı oluşturma](hr-leave-and-absence-workflow.md)
+- [Devamsızlık yöneticisi rolünü yapılandırma](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>İzin planları oluşturmak ve yönetmek
 
@@ -50,8 +51,9 @@ Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlama
 
 Çalışanlarınız talep dışı bırakma saatleri gönderebilir ve bunları, **çalışan self servis** çalışma alanında yönetebilirsiniz.
 
-[İzin isteme](hr-employee-self-service-request-time-off.md)
-[İzin ve devamsızlık isteklerini yönetme](hr-employee-self-service-manage-requests.md)
+- [İzin iste](hr-employee-self-service-request-time-off.md)
+- [İzin ve devamsızlık isteklerini yönetme](hr-employee-self-service-manage-requests.md)
+- [Devamsızlık yöneticisi rolünü yapılandırma](hr-configure-absence-manager.md)
 
 
 
