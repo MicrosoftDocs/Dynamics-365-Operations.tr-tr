@@ -2,7 +2,7 @@
 title: İçerik teslimi ağı uygulama seçenekleri
 description: Bu konu, Microsoft Dynamics 365 Commerce ortamlarıyla kullanılabilecek içerik teslim ağı (CDN) uygulaması için farklı seçenekleri inceler. Bu seçenekler arasında, yerel, Commerce tarafından sağlanan Azure Front Door örnekleri ve müşterilere ait Azure Front Door örnekleri bulunur.
 author: BrianShook
-ms.date: 03/11/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e6425d7e473d1d1c263624599d54c6b040d90cb
+ms.sourcegitcommit: a52ad281071b3a49c461e5853e82f302dd33095a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351261"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6657131"
 ---
 # <a name="content-delivery-network-implementation-options"></a>İçerik teslimi ağı uygulama seçenekleri
 
@@ -74,7 +74,7 @@ Aşağıdaki tabloda içerik son noktalarını yönetmek için harici bir CDN hi
 
 | Avantajlar | Dezavantajlar |
 |------|------|
-| <ul><li>Bu seçenek, varolan etki alanı zaten harici bir CDN'de barındırılıyorsa yararlıdır.</li><li>Rakip CDN'ler (örneğin, Akamai) daha fazla WAF özelliğine sahip olabilir.</li></ul> | <ul><li>Ayrı bir sözleşme ve ek maliyetlendirme gereklidir.</li><li>SSL ek maliyet gerektirebilir.</li><li>Hizmet Azure bulut yapısından ayrı olduğundan, ek altyapı yönetilmelidir.</li><li>Bu hizmet uç noktada ve güvenlik kurulumunda daha uzun süre yatırım gerektirebilir.</li><li>Hizmet kendi kendine yönetilir.</li><li>Hizmet kendi kendine izlenir.</li></ul> |
+| <ul><li>Bu seçenek, varolan etki alanı zaten harici bir CDN'de barındırılıyorsa yararlıdır.</li><li>WAF: Harici sağlayıcıya bağlıdır.</li></ul> | <ul><li>Ayrı bir sözleşme ve ek maliyetlendirme gereklidir.</li><li>SSL ek maliyet gerektirebilir.</li><li>Hizmet Azure bulut yapısından ayrı olduğundan, ek altyapı yönetilmelidir.</li><li>Bu hizmet uç noktada ve güvenlik kurulumunda daha uzun süre yatırım gerektirebilir.</li><li>Hizmet kendi kendine yönetilir.</li><li>Hizmet kendi kendine izlenir.</li></ul> |
 
 Aşağıdaki resimde, harici bir CDN hizmeti içeren bir Commerce altyapısı gösterilmektedir.
 

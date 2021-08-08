@@ -1,5 +1,5 @@
 ---
-title: Satınalma sözleşmesinden satınalma sevk emri oluşturma
+title: Satın alma siparişi oluştururken satın alma sözleşmesini uygulama
 description: Bu yordam, bir satınalma siparişi oluşturduğunuzda bir satın alma sözleşmesini kullanmayı gösterir.
 author: kamaybac
 ms.date: 08/09/2019
@@ -12,49 +12,49 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd3f837590cd7fe09ad385d0baac6c16fcf145d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 341d3f37936bcca8d8b273894b4a12debfe6eced
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812289"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647194"
 ---
-# <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Satınalma sözleşmesinden satınalma sevk emri oluşturma
+# <a name="apply-a-purchase-agreement-when-creating-a-purchase-order"></a>Satın alma siparişi oluştururken satın alma sözleşmesini uygulama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu yordam, bir satınalma siparişi oluşturduğunuzda bir satın alma sözleşmesini kullanmayı gösterir. Satınalma siparişi başlığına kopyalanacak genel terimler olduğundan, satınalma siparişi oluşturduğunuzda satın alma sözleşmesinin uygulanması gereklidir. Genellikle bu görev bir satınalma aracısı tarafından gerçekleştirilir. Bu kılavuz için bir önkoşul olarak bir satıcı ve öğeler için bir ürün miktarı taahüdüne sahip etkili satınalma anlaşmanızın olması gerekir. Aynı yordam, diğer tür taahhütleri içeren bir satın alma sözleşmeniz varsa da kullanılabilir. Bu kılavuzu USMF demo şirketinde çalıştırabilirsiniz. USMF kullanıyorsanız, bu kılavuzu ayarlamak için gerekli önkoşulları sağlamak için "satın alma sözleşmesi oluştur" kılavuzunu çalıştırabilirsiniz.
-
+Bu yordam, bir satınalma siparişi oluşturduğunuzda bir satın alma sözleşmesini kullanmayı gösterir. Satın alma siparişi başlığına kopyalanacak genel terimler olduğundan, satınalma siparişi oluşturduğunuzda satın alma sözleşmesinin uygulanması gereklidir. Genellikle bu görev bir satınalma aracısı tarafından gerçekleştirilir. Bu kılavuz için bir önkoşul olarak bir satıcı ve öğeler için bir ürün miktarı taahüdüne sahip etkili satınalma anlaşmanızın olması gerekir. Aynı yordam, diğer tür taahhütleri içeren bir satın alma sözleşmeniz varsa da kullanılabilir.
 
 ## <a name="create-a-purchase-order"></a>Satınalma siparişi oluşturma
-1. **Gezinti bölmesi**'nde, **Çalışma alanları > Satınalma siparişi hazırlığı**'ne gidin. 
-2. **Yeni satınalma siparişi**'ne tıklayın.
-3. **Satıcı hesabı** alanında, açılır menü düğmesine tıklayarak aramayı açın.
-4. Listede, istenen kaydı bulun ve seçin.
-5. Listede, seçili satırdaki bağlantıya tıklayın.
-6. **Genel** hızlı sekmesini genişletin.
-7. **Satınalma sözleşmesi** alanında, aramayı açmak için açılır menü düğmesine tıklayın. Satıcı için kullanılabilir tüm sözleşmeler burada listelenir. Kullanmak istediğiniz etkin sözleşmeyi bulun.  
-8. Listede, seçili satırdaki bağlantıya tıklayın.
-9. **Evet** seçeneğini tıklatın.
-10. **Tamam**'a tıklayın.
 
-## <a name="add-a-line"></a>Bir satır ekleyin
-1. **Madde numarası** alanına bir değer girin. Taahhüt üzerinde belirli stok ve konum boyutları mevcutsa, sözleşmeden faydalanabilmeniz için satınalma siparişi satırında aynı değeri girmeniz gerekir.  
-2. **Site** alanında, aramayı açmak için aşağı açılır düğmeyi tıklayın. Siparişte veya satıcıda varsayılan olarak bulunan değer halihazırda tesis için girilmiş olabilir. Bu durumda, bu adımı atlayın.  
-3. Listede, istenen kaydı bulun ve seçin.
-4. Listede, seçili satırdaki bağlantıya tıklayın.
-5. **Miktar** alanına bir sayı girin. Fiyatın taahhütten kopyalandığını doğrulayın.  
+1. **Üretim ve kaynak \> Çalışma alanları \> Satın alma siparişi hazırlama**'ya gidin.
+1. Eylem Bölmesinde **Yeni satınalma siparişi**'ni seçin.
+1. **Satınalma siparişi oluştur** iletişim kutusu açılır. Bir **Satıcı hesabı** seçin. Diğer adres alanlarını inceleyin ve gerektiği gibi ayarlayın.
+1. **Genel** hızlı sekmesini genişletin.
+1. **Satınalma anlaşması** alanında, kullanmak istediğiniz etkin anlaşmayı bulun ve seçin. Satıcı için kullanılabilir tüm sözleşmeler burada listelenir.  
+1. **Evet**'i seçin.
+1. **Tamam**'ı seçin.
+
+## <a name="add-a-line"></a>Satır ekleyin
+
+1. **Madde numarası** alanına bir değer girin. Taahhüt üzerinde belirli stok ve konum boyutları mevcutsa, sözleşmeden faydalanabilmeniz için satınalma siparişi satırında aynı değeri girmeniz gerekir.
+1. **Site** alanında, aramayı açmak için açılır menü düğmesini seçin. Siparişte veya satıcıda varsayılan olarak bulunan değer halihazırda tesis için girilmiş olabilir. Bu durumda, bu adımı atlayın.  
+1. Listede, istenen kaydı bulun ve seçin.
+1. Listeden, seçilen satırdaki bağlantıyı seçin.
+1. **Miktar** alanına bir sayı girin. Fiyatın taahhütten kopyalandığını doğrulayın.  
 
 ## <a name="look-up-the-commitment"></a>Taahhüdü bulun
-1. **Satırı güncelleştir** öğesine tıklayın.
-2. **İlişik** öğesine tıklayın. Burada satın alma sözleşmesinin ayrıntılarını alabilirsiniz. Örneğin, fiyatı ve fiyatın ve iskontonun sabit olup olmadığını görebilirsiniz, bu da satınalma siparişi üzerindeki fiyatınızı ya da iskontonuzu taahhüdün üzerinde bulunandan değiştirirseniz, sistemin bağlantıyı kaldırarak satınalma siparişi satırının taahhüdü yerine getirmesinin önüne geçer. Ayrıca, taahhüdün üzerindeki miktarın, taahhüdü yerine getiren tüm siparişlerin toplamını geçemeyeceği anlamına gelen, Maksimum uygulanır kuralının seçili olup olmadığını da görürsünüz.  
-3. Sayfayı kapatın.
+
+1. **Satırı güncelleştir**'i seçin.
+1. **Eklendi**'yi seçin. Burada satın alma sözleşmesinin ayrıntılarını alabilirsiniz. Örneğin, fiyatı ve fiyatın ve iskontonun sabit olup olmadığını görebilirsiniz, bu da satınalma siparişi üzerindeki fiyatınızı ya da iskontonuzu taahhüdün üzerinde bulunandan değiştirirseniz, sistemin bağlantıyı kaldırarak satınalma siparişi satırının taahhüdü yerine getirmesinin önüne geçer. Ayrıca, taahhüdün üzerindeki miktarın, taahhüdü yerine getiren tüm siparişlerin toplamını geçemeyeceği anlamına gelen, Maksimum uygulanır kuralının seçili olup olmadığını da görürsünüz.  
+1. Sayfayı kapatın.
 
 ## <a name="look-up-the-purchase-agreement"></a>Satınalma sözleşmesi'ni bulun
-1. **Eylem Bölmesi**'nde, **Genel** öğesine tıklayın.
-2. **Satınalma sözleşmesi**'ne tıklayın.
-3. Sayfayı kapatın.
-4. Sayfayı kapatın.
+
+1. **Eylem Bölmesinde**, **Genel**'i seçin.
+1. **Satınalma anlaşması**'nı seçin.
+1. Sayfayı kapatın.
+1. Sayfayı kapatın.
 
 
 

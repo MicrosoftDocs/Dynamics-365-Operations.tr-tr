@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c53d28192c5bf673baccd76e4cfb6e0453fe29d
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e155263daf2f33531abefdc45c5046a5ab5bca11
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337941"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647218"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Tedarik ve kaynak atama ana sayfası
 
@@ -76,10 +76,9 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 -   [Tekrar eden satınalma siparişi oluşturma](tasks/create-repeat-purchase-order.md)
 -   [Satış siparişinden satınalma siparişi oluşturma](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Tek seferlik tedarikçi için bir satınalma siparişi oluşturun](tasks/create-purchase-order-one-time-supplier.md)
--   [Teslimat planlı bir satınalma siparişi oluşturun](tasks/create-purchase-order-delivery-schedule.md)
--   [Satın alma iade siparişi oluşturun](tasks/create-purchase-return-order.md)
--   [Satınalma sözleşmesinden satınalma sevk emri oluşturma](tasks/create-purchase-release-order-purchase-agreement.md)
--   [Satınalma siparişini oluştururken satınalma sevk emri oluşturma](tasks/create-purchase-release-order-creating-purchase-order.md)
+-   [Teslimat planı olan satınalma siparişi oluşturma](tasks/create-purchase-order-delivery-schedule.md)
+-   [Satınalma iade siparişi oluşturma](tasks/create-purchase-return-order.md)
+-   [Satın alma siparişi oluştururken satın alma sözleşmesini uygulama](tasks/create-purchase-release-order-purchase-agreement.md)
 -   [Konsinye stok yenileme siparişi oluşturma](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>Fiyatlar ve iskontolar

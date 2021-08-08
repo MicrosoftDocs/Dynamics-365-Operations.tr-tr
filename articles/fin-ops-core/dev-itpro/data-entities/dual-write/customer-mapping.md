@@ -4,24 +4,17 @@ description: Bu konu, Finance and Operations ve Dataverse arasındaki müşteri 
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8f85759f650e1c0e2a1d228b6429d218edac8ef4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350923"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542551"
 ---
 # <a name="integrated-customer-master"></a>Tümleşik müşteri aslı
 
@@ -29,8 +22,7 @@ ms.locfileid: "6350923"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Müşteri verileri birden fazla Dynamics 365 uygulamasında ana kopyalı olabilir. Örneğin, bir müşteri satırının kaynağı Dynamics 365 Sales (Dynamics 365'te model temelli uygulama) içindeki satış faaliyetleri olabilir veya satırın kaynağı Dynamics 365 Commerce (bir Finance and Operations uygulaması) içindeki perakende faaliyeti olabilir. Müşteri verilerinin kaynaklandığı yerden bağımsız olarak, arka planda tümleştirilir. Tümleşik Müşteri Yöneticisi, herhangi bir Dynamics 365 uygulamasındaki ana müşteri verilerine esneklik sağlar ve Dynamics 365 uygulama paketi arasında müşterinin kapsamlı bir görünümünü sağlar.
+Müşteri verileri birden fazla Dynamics 365 uygulamasında ana kopyalı olabilir. Örneğin, bir müşteri Dynamics 365 Sales (müşteri etkileşimi uygulaması) satış aktivitesinde ortaya çıkabilir veya bir satır Dynamics 365 Commerce'teki (finans ve operasyon uygulaması) perakende aktivitesi aracılığıyla ortaya çıkabilir. Müşteri verilerinin kaynaklandığı yerden bağımsız olarak, arka planda tümleştirilir. Tümleşik Müşteri Yöneticisi, herhangi bir Dynamics 365 uygulamasındaki ana müşteri verilerine esneklik sağlar ve Dynamics 365 uygulama paketi arasında müşterinin kapsamlı bir görünümünü sağlar.
 
 ## <a name="customer-data-flow"></a>Müşteri veri akışı
 
@@ -50,43 +42,18 @@ Satış yapılabilir olmayan bir ilgili kişi bir teklif veya sipariş sürecine
 
 Müşteri verileri, müşteriyle ilgili müşteri grubu, adresler, iletişim bilgileri, ödeme profili, fatura profili ve bağlılık durumu gibi tüm bilgileri içerir. Tablo eşlemeleri koleksiyonu, aşağıdaki tabloda gösterildiği gibi, müşteri veri etkileşimi sırasında birlikte çalışır.
 
-Finance and Operations uygulamaları | Diğer Dynamics 365 uygulamaları         | Tanım
+Finance and Operations uygulamaları | Müşteri etkileşimi uygulamaları         | Tanım
 ----------------------------|---------------------------------|------------
-CDS İlgili Kişileri V2             | ilgili kişiler                        | Bu şablon, müşterilerin ve satıcıların tüm birincil, ikincil ve üçüncül ilgili kişi bilgilerini eşitler.
-Müşteri grupları             | msdyn_customergroups            | Bu şablon müşteri grubu bilgilerini eşitler.
-Müşteri ödeme yöntemi     | msdyn_customerpaymentmethods    | Bu şablon, müşteri ödeme yöntemi bilgilerini eşitler.
-Müşteriler V3                | hesaplar                        | Bu şablon, ticari ve kurumsal müşterilere ilişkin müşteri ana bilgilerini eşitler.
-Müşteriler V3                | ilgili kişiler                        | Bu şablon tüketicilere ve son kullanıcılara ilişkin müşteri ana verilerini eşitler.
-Ad ekleri                | msdyn_nameaffixes               | Bu şablon, müşterilerin ve satıcıların ad ekleri referans verilerini eşitler.
-Ödeme günü satırları CDS V2    | msdyn_paymentdaylines           | Bu şablon, müşterilerin ve satıcıların ödeme günü satırları referans verilerini eşitler.
-Ödeme günleri CDS            | msdyn_paymentdays               | Bu şablon, müşterilerin ve satıcıların ödeme günleri referans verilerini eşitler.
-Ödeme planı satırları      | msdyn_paymentschedulelines      | Müşterilerin ve satıcıların ödeme planı satırları referans verilerini eşitler.
-Ödeme planı            | msdyn_paymentschedules          | Bu şablon, müşterilerin ve satıcıların ödeme planı referans verilerini eşitler.
-Ödeme koşulları            | msdyn_paymentterms              | Bu şablon, müşterilerin ve satıcıların ödeme koşulları (ödeme koşulları) referans verilerini eşitler.
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [mapping contacts contacts](includes/CDSContactsV2-contacts.md)]
-
-[!include [mapping customer group](includes/CustCustomerGroup-msdyn-customergroups.md)]
-
-[!include [mapping customer payment method](includes/CustomerPaymentMethod-msdyn-customerpaymentmethods.md)]
-
-[!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
-
-[!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
-
-[!include [mapping payment day lines](includes/PaymentDayLinesCdsV2-msdyn-paymentdaylines.md)]
-
-[!include [mapping payment days](includes/PaymentDaysCds-msdyn-paymentdays.md)]
-
-[!include [mapping payment schedule lines](includes/PaymentScheduleLines-msdyn-paymentschedulelines.md)]
-
-[!include [mapping payment schedules](includes/PaymentSchedules-msdyn-paymentschedules.md)]
-
-[!include [mapping terms of payment](includes/TermsofPayment-msdyn-paymentterms.md)]
-
+[CDS İlgili Kişileri V2](mapping-reference.md#115) | ilgili kişiler | Bu şablon, müşterilerin ve satıcıların tüm birincil, ikincil ve üçüncül ilgili kişi bilgilerini eşitler.
+[Müşteri grupları](mapping-reference.md#126) | msdyn_customergroups | Bu şablon müşteri grubu bilgilerini eşitler.
+[Müşteri ödeme yöntemi](mapping-reference.md#127) | msdyn_customerpaymentmethods | Bu şablon, müşteri ödeme yöntemi bilgilerini eşitler.
+[Müşteriler V3](mapping-reference.md#101) | hesaplar | Bu şablon, ticari ve kurumsal müşterilere ilişkin müşteri ana bilgilerini eşitler.
+[Müşteriler V3](mapping-reference.md#116) | ilgili kişiler | Bu şablon tüketicilere ve son kullanıcılara ilişkin müşteri ana verilerini eşitler.
+[Ad ekleri](mapping-reference.md#155) | msdyn_nameaffixes | Bu şablon, müşterilerin ve satıcıların ad ekleri referans verilerini eşitler.
+[Ödeme günü satırları CDS V2](mapping-reference.md#157) | msdyn_paymentdaylines | Bu şablon, müşterilerin ve satıcıların ödeme günü satırları referans verilerini eşitler.
+[Ödeme günleri CDS](mapping-reference.md#158) | msdyn_paymentdays | Bu şablon, müşterilerin ve satıcıların ödeme günleri referans verilerini eşitler.
+[Ödeme planı satırları](mapping-reference.md#159) | msdyn_paymentschedulelines | Müşterilerin ve satıcıların ödeme planı satırları referans verilerini eşitler.
+[Ödeme planı](mapping-reference.md#160) | msdyn_paymentschedules | Bu şablon, müşterilerin ve satıcıların ödeme planı referans verilerini eşitler.
+[Ödeme koşulları](mapping-reference.md#161) | msdyn_paymentterms | Bu şablon, müşterilerin ve satıcıların ödeme koşulları (ödeme koşulları) referans verilerini eşitler.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

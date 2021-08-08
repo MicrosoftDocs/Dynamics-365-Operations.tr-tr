@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a1e94067e2dcca59f03e01520f16a09da1bd4f52
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360580"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560002"
 ---
 # <a name="payroll-integration-api-introduction"></a>Bordro tümleştirme API'sına giriş
 
@@ -30,8 +30,8 @@ Bu belgede, Dynamics 365 Human Resources Bordro tümleştirme API'sı açıklanm
 
 Tümleştirmeyi etkinleştirmek için Human Resources'ta aşağıdaki bileşenler bulunur:
 
-- Bir çalışanı ödeme için hazır olarak işaretleme işlevi
-- Uygulamaları tümleştirmeye yeni işlevsellik açan bir tümleştirme API'sı
+- [Bir çalışanı ödemeye hazır olarak işaretleme işlevi.](hr-compensation-payroll.md)
+- Uygulamaları tümleştirmeye yeni işlevselliği açan bir tümleştirme API'si.
 
 ## <a name="microsoft-dataverse"></a>Microsoft Dataverse
 
