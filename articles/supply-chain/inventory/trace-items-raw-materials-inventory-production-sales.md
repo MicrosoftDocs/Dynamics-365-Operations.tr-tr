@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3487f4790e1c32ce827c62dcedde810783bd6fe7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 44b7b4f61d282d7d73ca3fc1729fd4c6e5176b45e632f52fab2583ddc23c71f3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775687"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme
 

@@ -94,6 +94,8 @@
                   items:
                     - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.21 (Ekim 2021)
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (Ağustos 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (Haziran 2021)
@@ -516,8 +518,16 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: POS'taki "para üstü" iletişim kutusunu atlama
                       href: dev-itpro/skip-change-due.md
-                    - name: Adyen ödeme bağlayıcısı
-                      href: dev-itpro/adyen-connector.md
+                    - name: Adyen için Dynamics 365 Payment Connector
+                      items:
+                        - name: Adyen için Dynamics 365 Payment Connector'a genel bakış
+                          href: dev-itpro/adyen-connector.md
+                        - name: Adyen için Dynamics 365 Payment Connector'ı ayarlama
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: Adyen için Dynamics 365 Payment Connector ile ilgili SSS
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Adyen için Dynamics 365 Payment Connector sorunlarını giderme
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Adyen bağlayıcısı ile çevrimiçi ödeme araçlarını kaydetme
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Adyen bağlayıcısını kullanan Güçlü Müşteri Kimlik Doğrulaması (SCA)
@@ -1182,6 +1192,10 @@
               items:
                 - name: Çevrimiçi kanal raporları oluşturma
                   href: generate-reports.md
+            - name: Hedefleme
+              items:
+                - name: 'Cihaz, pazar ve coğrafi konum hedefleme'
+                  href: targeting-overview.md
             - name: Deney
               items:
                 - name: Dynamics 365 Commerce'te deneme
@@ -1336,6 +1350,10 @@
               items:
                 - name: Rusya için Commerce yerelleştirmesi
                   href: localizations/rus-commerce-localization.md
+                - name: Rusya için Commerce yerelleştirmesi ayarlama
+                  href: localizations/rus-commerce-setup.md
+                - name: Rusya için Commerce'te ön ödemeler
+                  href: localizations/rus-commerce-prepayments.md
             - name: İsveç
               items:
                 - name: Yazar kasa işlevi

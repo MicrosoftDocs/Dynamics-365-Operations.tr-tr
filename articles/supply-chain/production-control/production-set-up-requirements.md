@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68e04be6d7c727adc48996e97499361006d048bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9b0ccbd1781ccb5aa7f5f62ea86888e1673cb77653af57f6c49319a2b5089ebf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782455"
 ---
 # <a name="production-setup-requirements"></a>Üretim kurulumu gereksinimleri
 
