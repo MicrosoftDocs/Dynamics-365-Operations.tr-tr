@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 40e2bb78e6a4db51f61f4197a9cd444226e7f71b012468274b85306bb8f185d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726146"
 ---
 # <a name="asset-leasing-get-started"></a>Varlık kiralamaya başlama
 

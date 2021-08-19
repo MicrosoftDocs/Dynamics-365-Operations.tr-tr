@@ -1,8 +1,8 @@
 ---
 title: Satış siparişleri için askıda krediler
 description: Bu konuda, bir satış siparişini kredi bekletmeye sokmak için kullanılan kuralların kurulumu açıklanmaktadır.
-author: mikefalkner
-ms.date: 01/25/2019
+author: JodiChristiansen
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827662"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723979"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Satış siparişleri için askıda krediler
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, bir satış siparişini kredi bekletmeye sokmak için kullanılan kuralların kurulumu açıklanmaktadır. Kredi yönetimi durdurma kuralları tek bir müşteriye veya bir müşteri grubuna uygulanabilir. Durdurma kuralları, aşağıdaki durumlara yanıtları tanımlar:
 
@@ -41,6 +42,11 @@ Ek olarak, bir satış siparişini durduracak ek senaryoları denetleyen iki par
 
 Bir müşteri bir satış hareketi başlattığında, satış siparişindeki bilgiler, kredinin müşteriye genişletilip genişletilmeyeceği ve satışın ileriye doğru hareket etmesine izin verilip verilmeyeceği kararına kılavuzluk yapan bir engelleme kuralları kümesine göre incelenir. Ayrıca, durdurma kurallarını geçersiz kılacak ve satış siparişinin işlenmesine izin verecek hariç tutmalar da tanımlayabilirsiniz. Durdurma kurallarını ve hariç tutma kurallarını **Kredi yönetimi > Kurulum > Kredi yönetimi kurulumu > Durdurma kuralları** sayfasında ayarlayabilirsiniz.
 
+Sürüm 10.0.21 itibarıyla Kredi yönetimindeki durdurma kuralları, daha fazla esneklik sağlamak için aşağıdaki şekillerde yeniden tasarlandı:
+
+- Genişletilebilirlik istekleri etkinleştirildi, böylece kendi durdurma kurallarınızı oluşturabilirsiniz.
+- **Satış siparişini serbest bırak** onay kutusu artık tüm durdurma kuralları için kullanılabilir. Daha önce, bu yalnızca Satış siparişi durdurma kuralı için kullanılabiliyordu. Bu onay kutusu seçilirse hariç tutma kuralı, satış siparişlerini engelleyebilecek diğer kurallar dikkate alınmaksızın satış siparişini serbest bırakır. Bu onay kutusu yalnızca **Hariç tutma** kural türü için kullanılabilir.
+
 ### <a name="days-overdue"></a>Aşılan gün sayısı
 
 Vadesi belirli bir gün sayısını geçmiş bir veya daha fazla faturası olan müşteriye durdurma kuralı uygulanıyorsa, **Vade sonrası gün sayısı** sekmesini açın.
@@ -57,7 +63,7 @@ Vadesi belirli bir gün sayısını geçmiş bir veya daha fazla faturası olan 
 5. Bir **Değer türü** seçin. Varsayılan giriş, sabit bir gün sayısıdır. Bir hariç tutma oluşturuyorsanız, sabit bir gün sayısı veya bir tutar belirtebilirsiniz. 
 6. Bir sipariş incelenmek üzere kredi yönetimi bekletme işlemine koyulmadan önce, seçilen durdurma kuralı için izin verilecek **Vadesi sonrası** gün sayısını girin. Vade sonrası gün sayısı, faturanın vadesi geçmiş olarak kabul edilmeden önce sahip olabileceği, ödeme vade tarihinden sonraki gün sayısına eklenen ek mehil gün sayısını temsil eder. Hariç tutma için **Değer türünü** bir tutar olarak belirttiyseniz, o tutar için bir tutar ve para birimi girin.
 
-### <a name="accounts-status"></a>Hesapların durumu
+### <a name="account-status"></a>Hesap durumu
 
 Durdurma kuralı, seçili hesap durumunu taşıyan bir müşteriye uygulanıyorsa **Hesap durumu** sekmesini açın.
 1. Ayarladığınız kuralın türünü seçin.  **Durdurma** bir siparişi durduran bir kural oluşturur. **Hariç tutma**, bir siparişi durdurma işleminden bir kuralı hariç tutacak bir kural oluşturur. 
@@ -102,7 +108,7 @@ Durdurma kuralı, vadesi geçmiş tutarları olan müşterilere uygulanıyorsa *
    - Bir siparişi durduran bir kural oluşturmak için **Durdurma**'yı seçin. 
    - Bir siparişi durdurma işleminden bir diğer kuralı hariç tutacak bir kural oluşturmak için **Hariç tutma**'yı seçin. 
 5. Bir siparişi incelenmek üzere kredi yönetimi durdurmaya koymadan önce, seçili durdurma kuralı için **Vadesi geçen tutar**'ı girin. 
-6. Kredi limitinin ne kadarının kullanıldığını test etmek için kullanılacak değer türünü tanımlayan **Değer türü**'nü seçin. Durdurma kuralları için bir yüzde oranı gerekir ancak bir hariç tutmada sabit bir tutar veya yüzde olabilir. Eşik, kredi limitiyle ilgilidir.
+6. Kredi limitinin ne kadarının kullanıldığını test etmek için kullanılacak değer türünü tanımlayan **Değer türü**'nü seçin. Durdurma kuralları ve hariç tutma kuralları yalnızca **Vadesi geçen tutar** için yüzdeye izin verir. Eşik, kredi limitiyle ilgilidir.
 7. Bir müşteri kredi yönetimi bekletme işlemine koyulmadan önce, seçili kural için **Kredi limiti eşiği** değerini girin. Bu, değer türünde seçilecek değer türüne göre bir tutar veya yüzde değeri olabilir.
 8. Kural, **Vadesi geçen tutarın** ve **Kredi limiti eşiğinin** aşılıp aşılmadığını denetler. 
 
@@ -122,8 +128,6 @@ Durdurma kuralı satış siparişinin değerine uygulanıyorsa **Satış sipari�
    - Bir siparişi durduran bir kural oluşturmak için **Durdurma**'yı seçin. 
    - Bir siparişi durdurma işleminden bir diğer kuralı hariç tutacak bir kural oluşturmak için **Hariç tutma**'yı seçin. 
 5. Bir siparişi kredi yönetimi durdurmaya koymadan önce, seçili durdurma kuralı için **Satış siparişi tutarı**'nı girin. 
-
-Satış siparişi kuralı diğer kuralların tümünü geçersiz kılan ek bir ayar içerir. Satış siparişini diğer kuralların hiçbirine bağlı kalmadan serbest bırakacak bir hariç tutma oluşturmak için, hariç tutma satırında **Satış siparişini serbest bırak** onay kutusunu seçin.
 
 ### <a name="credit-limit-used"></a>Kullanılan alacak limiti
 

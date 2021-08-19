@@ -2,7 +2,7 @@
 title: Hediye kartı modülü
 description: Bu konu hediye kartı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ın site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728351"
 ---
 # <a name="gift-card-module"></a>Hediye kartı modülü
 
@@ -48,11 +48,17 @@ Aşağıdaki resimde ödeme sayfasında kullanılan bir hediye kartı modülü �
 
 - **Ek alanları göster** – Bu özellik, her zaman varsayılan olarak görüntülenen hediye kartı numarasına ek olarak, hediye kartları için hangi alanların görüntüleneceğini tanımlar. Örneğin, bazı hediye kartları bir kişisel kimlik numarası (PIN) görüntülemeyi ve başka hediye kartları PIN ve son kullanma tarihini görüntülemeyi destekler. Alternatif olarak, bu özellik yalnızca hediye kartı numarasını görüntüleyebilen ve ek alanlar içermeyen "Hiçbiri" seçeneğine ayarlanabilir.
 
-Desteklenen değerler:
--   PIN
--   Son kullanma tarihi
--   PIN ve son kullanma tarihi 
--   Hiçbiri
+    Aşağıdaki değerler desteklenir:
+
+    - PIN
+    - Bitiş tarihi
+    - PIN ve son kullanma tarihi 
+    - Hiçbiri
+
+- **Konuk kullanıcılar için etkinleştir**: Bu özellik etkinleştirildiğinde konuk kullanıcılar, hediye kartlarındaki bakiyeleri kullanabilir veya denetleyebilir. Bu özellik, Commerce genel merkezinde hediye kartları için anonim erişimin (konuk erişimi) etkinleştirilmesini gerektirir. Daha fazla bilgi için bkz. [Konuk ödemeleri için hediye kartı ödemelerini etkinleştirme](#enable-gift-card-payments-for-guest-checkout).
+
+> [!IMPORTANT]
+> **Konuk kullanıcılar için etkinleştir** özelliği, Commerce 10.0.21 sürümü itibarıyla kullanılabilir. Bunun için Commerce modül kitaplığı paketi sürüm 9.31'in yüklü olması gerekir.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Hediye kartı modülleri için site ayarları
 

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c4301c31a5152dce73497208f02efb1da4611e1c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723067"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Aralık 2017)
 

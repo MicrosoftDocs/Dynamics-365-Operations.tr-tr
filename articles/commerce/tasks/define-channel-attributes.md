@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726419"
 ---
 # <a name="define-channel-attributes"></a> Kanal özniteliklerini tanımlama
 
@@ -30,8 +30,8 @@ Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin. Öznitelikler
 
 ## <a name="define-channel-product-attribute"></a>Kanal ürün özniteliğini tanımlayın.
 1. Retail and Commerce > Kanal Kurulumu > Kanal kategorileri ve ürün öznitelikleri'ne gidin.
-2. Ağaçta 'Contoso Retail\Fashion\Houston' seçin.
-3. Düzenle öğesine tıklayın.
+2. Ağaçta, "Contoso Retail\Fashion\Houston" seçeneğini belirleyin.
+3. Düzenle'ye tıklayın.
 4. Kategori hiyerarşisi alanına bir değer girin veya buradan bir değer seçin.
     * Gezinti hiyerarşisi, kanallarınız içindeki ürüne gitmek için kullanılır.  
 5. Öznitelik grubu bölümünü genişletin.

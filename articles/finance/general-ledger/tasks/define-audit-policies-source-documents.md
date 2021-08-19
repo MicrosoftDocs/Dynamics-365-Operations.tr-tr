@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62ebe3d6ba1208bd5f9a2082969b1960c413c152
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836973"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722683"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Kaynak belgeler için denetim ilkeleri tanımlama
 
@@ -39,9 +39,9 @@ Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açı
 11. **Yeni**'yi seçin.
 12. **Ad** alanına bir değer yazın.
 13. **İlke organizasyonları**  bölümünü genişletin.
-14. Ağaçta **Contoso Entertainment System USA** seçeneğini ve ardından **Ekle**'yi seçin.
-15. Ağaçta **Contoso Consulting USA** seçeneğini ve ardından **Ekle**'yi seçin.
-16. Ağaçta **Contoso Retail USA** seçeneğini ve ardından **Ekle**'yi seçin.
+14. Ağaçta, **Contoso Entertainment System USA** seçeneğini belirleyin ve ardından **Ekle**'yi seçin.
+15. Ağaçta, **Contoso Consulting USA** seçeneğini belirleyin ve ardından **Ekle**'yi seçin.
+16. Ağaçta, **Contoso Retail USA** seçeneğini belirleyin ve ardından **Ekle**'yi seçin.
 17. **İlke organizasyonları** bölümünü daraltın.
 18. **İlke kuralları**  bölümünü genişletin.
 19. Listede, önceden oluşturulmuş İlke Kuralı'nı bulup seçin.

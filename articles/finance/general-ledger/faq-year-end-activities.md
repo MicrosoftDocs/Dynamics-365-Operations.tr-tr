@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1b7606314b9cf7050a565822b5b9e23beb0cb4978b20e88596c5002d918cfcd9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725086"
 ---
 # <a name="year-end-activities-faq"></a>Yıl sonu faaliyetleriyle ilgili SSS 
 
@@ -63,9 +63,9 @@ Gereksiz boyut kümeleri **BudgetDimensionFocusInitializeBalance** (**Genel muha
 [![Mali boyut kümeleri.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Yıl sonu kapanış şablonu yapılandırması
-Yıl sonu kapanış şablonu, kuruluşların kar ve zarar bakiyelerini elde tutulan kazançlara aktarırken korunmasını istedikleri mali boyut düzeyini seçmelerine olanak tanır. Ayarlar, kuruluşların bakiyeleri elde tutulan kazançlara taşırken ayrıntılı mali boyutları (**Tümünü kapat**) korumasına veya tutarları tek bir boyut değerine (**Tekli kapat**) özetlemeyi seçmesine olanak tanır. Bu durum, her mali boyut için tanımlanabilir. Bu ayarlar hakkında daha fazla bilgi için [Yıl sonu kapanışı](year-end-close.md) konu başlığına bakın.
+Yıl sonu kapanış şablonu, kuruluşların kar ve zarar bakiyelerini yedek akçeye aktarırken korunmasını istedikleri mali boyut düzeyini seçmelerine olanak tanır. Ayarlar, kuruluşların bakiyeleri yedek akçeye taşırken ayrıntılı mali boyutları (**Tümünü kapat**) korumasına veya tutarları tek bir boyut değerine (**Tekli kapat**) özetlemeyi seçmesine olanak tanır. Bu durum, her mali boyut için tanımlanabilir. Bu ayarlar hakkında daha fazla bilgi için [Yıl sonu kapanışı](year-end-close.md) konu başlığına bakın.
 
-Kuruluşunuzun gereksinimlerini değerlendirmenizi ve mümkünse performansı artırmak için **Tekli kapat** yıl sonu kapanışı seçeneğini kullanarak mümkün olduğunca çok boyutu kapatmanızı öneririz. Tek bir boyut değerine (boş bir değer de olabilir) kapatarak sistem, elde tutulan kazanç hesabı girişleri için bakiyeleri belirlerken daha az ayrıntı hesaplar.
+Kuruluşunuzun gereksinimlerini değerlendirmenizi ve mümkünse performansı artırmak için **Tekli kapat** yıl sonu kapanışı seçeneğini kullanarak mümkün olduğunca çok boyutu kapatmanızı öneririz. Tek bir boyut değerine (boş bir değer de olabilir) kapatarak sistem, yedek akçe hesabı girişleri için bakiyeleri belirlerken daha az ayrıntı hesaplar.
 
 ### <a name="10013-update-or-later"></a>10.0.13 güncelleştirmesi veya sonrası
 Kuruluşunuzun yıl sonu kapanışını son çalıştırmasından bu yana 10.0.13 veya sonraki bir sürüme güncelleştirme yaptıysanız [HashV2 özelliğinin uygulanması](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/verify-hash-function-changes-after-update-to-dynamics-365-finance-2020-release-wave-2) nedeniyle yıl sonu kapanışı daha uzun sürebilir. (*Hash* terimi, diğer dize alanlarından hesaplanan bir alanı ifade eder. Hash GUID değerini hesaplayacak API, güvenliği artırmak için güncelleştirilmiştir.) Yıl sonu kapanış işlemini hızlandırmak için yıl sonu kapanışını çalıştırmadan önce boyut kümelerinin bakiyelerini yeniden oluşturmanızı öneririz. 10.0.13 güncelleştirmesini aldıktan sonra boyut kümesi bakiyelerinin yeniden oluşturulması işlemini gerçekleştirdiyseniz yeniden oluşturma işlemini yeniden çalıştırmanız gerekmez.

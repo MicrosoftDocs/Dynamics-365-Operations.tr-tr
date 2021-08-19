@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728639"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Management için standart kayıtlı görünümler
 
@@ -77,6 +77,18 @@ Aşağıdaki tabloda, Tedarik ve kaynak atama modülü için kullanılabilir kay
 | Satın alma siparişi ayrıntıları | Mali yönetim | Bu basitleştirilmiş görünüm, faturalamanın yanı sıra fiyatları, toplamları ve ücretleri denetleme gibi mali işlemlerle ilgili etkinlikleri gerçekleştirmek için en iyi duruma getirilmiştir. | Satın alma siparişleri için kayıtlı görünümler |
 | Satın alma siparişi ayrıntıları | Sipariş onayı | Bu basitleştirilmiş görünüm, satınalma siparişlerini onaylamak için en iyi duruma getirilmiştir. | Satın alma siparişleri için kayıtlı görünümler |
 
+## <a name="saved-views-for-the-product-information-management-module"></a>Ürün bilgisi yönetim modülü için kayıtlı görünümler
+
+Aşağıdaki tabloda, Ürün bilgisi yönetimi modülü için kullanılabilir kayıtlı görünümler açıklanmaktadır.
+
+| Sayfa | Görünüm adı | Görünüm açıklaması | Özellik adı |
+|---|---|---|---|
+| Serbest bırakılan ürün listesi | Ürün oluşturma | Ürün oluşturulurken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
+| Serbest bırakılan ürün ayrıntıları | Ürün oluşturma | Ürün oluşturulurken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
+| Serbest bırakılan ürün ayrıntıları | Lojistik bilgileri yönetimi | Ürünlere yönelik lojistik bilgileri yönetilirken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
+| Serbest bırakılan ürün ayrıntıları | Satın alma bilgileri yönetimi | Ürünlere yönelik satın alma bilgileri yönetilirken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
+| Serbest bırakılan ürün ayrıntıları | Satış bilgileri yönetimi | Ürünlere yönelik satışla ilgili bilgiler yönetilirken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
+
 ## <a name="saved-views-for-the-production-control-module"></a>Üretim denetimi modülü için kayıtlı görünümler
 
 Aşağıdaki tabloda, Üretim denetimi modülü için kullanılabilir kayıtlı görünümler açıklanmaktadır.
@@ -110,7 +122,7 @@ Aşağıdaki tabloda, Ambar yönetimi modülü için kullanılabilir kayıtlı g
 | Tüm sevkiyatlar | Gelen işleme | Bu basitleştirilmiş görünüm, yalnızca gelen sevkiyatları işlemek için en sık kullanılan alanları içerir. | Sevkiyat işleme için kayıtlı görünümler |
 | Tüm sevkiyatlar | Giden işleme | Bu basitleştirilmiş görünüm, yalnızca giden sevkiyatları işlemek için en sık kullanılan alanları içerir. | Sevkiyat işleme için kayıtlı görünümler |
 | Tüm dalgalar | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Dalga işleme için kayıtlı görünüm |
-| Yük planlama çalışma ekranı | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | İş planlama workbench'i için kayıtlı görünüm |
+| Yük planlama çalışma ekranı | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Yük planlama çalışma ekranı için kayıtlı görünüm |
 | İş ayrıntıları | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | İş ayrıntıları sayfası için kayıtlı görünüm |
 
 
