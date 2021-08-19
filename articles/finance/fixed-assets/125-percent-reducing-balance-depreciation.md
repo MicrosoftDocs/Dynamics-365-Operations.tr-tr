@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1d05ec02d47a563c0d7ae7cb0fafdbad45bd140
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 68afee1840707a74ca3a0ac9643c2a23761da8da6d2e85e6b79d48bee4aad27c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745001"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>Yüzde 125 azalan bakiyeli amortisman
 

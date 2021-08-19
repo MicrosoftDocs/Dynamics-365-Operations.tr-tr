@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6001fd7be1e0c6c0cb45f712b6d2d18cf1703e68
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b03287689d0cb78b2b733864329233d065e1d6665f970ca75086ea7a4ae16d5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019699"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773885"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Dynamics 365 Commerce geliştiricileri için öğrenme kataloğu
 

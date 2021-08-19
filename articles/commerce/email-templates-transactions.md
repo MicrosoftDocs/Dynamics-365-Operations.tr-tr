@@ -2,7 +2,7 @@
 title: Hareket olayları için e-posta şablonları oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce uygulamasındaki hareket olayları için e-posta şablonlarının nasıl oluşturulacağı, yükleneceği ve yapılandırılacağı açıklanmaktadır.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bfc773bec035ceee151e2e2dd8925aa772747452
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2da1044cd332d841a8c18f7139d0d8c09bad95f446494034060e59416b4018b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718719"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Hareket olayları için e-posta şablonları oluşturma
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce uygulamasındaki hareket olayları için e-posta şablonlarının nasıl oluşturulacağı, yükleneceği ve yapılandırılacağı açıklanmaktadır.
-
-## <a name="overview"></a>Özet
 
 Dynamics 365 Commerce, müşterileri hareket olayları konusunda uyaran e-postalar göndermek için kullanıma hazır bir çözüm sunar (örneğin, bir sipariş verildiğinde, sipariş malzeme çekme için hazır olduğunda veya sipariş sevk edildiğinde). Bu konuda, hareket e-postaları göndermek için kullanılan e-posta şablonlarını oluşturma, yükleme ve yapılandırma adımları açıklanmaktadır.
 
@@ -79,26 +77,33 @@ Aşağıdaki yer tutucular, satış siparişi düzeyinde (satış satırları se
 | Yer tutucu adı     | Yer tutucu değeri                                            |
 | -------------------- | ------------------------------------------------------------ |
 | customername         | Siparişi veren müşterinin adı.               |
-| salesid              | Siparişin satış kodu.                                   |
-| deliveryaddress      | Sevk edilen siparişler için teslimat adresi.                     |
 | customeraddress      | Müşterinin adresi.                                 |
 | customeremailaddress | Müşterinin ödeme sırasında girdiği e-posta adresi.     |
+| salesid              | Siparişin satış kodu.                                   |
+| orderconfirmationid  | Sipariş oluşturulurken elde edilen çapraz kanal kimliği. |
+| channelid            | Siparişin verildiği perakende kanalının veya çevrimiçi kanalın kimliği. |
+| deliveryname         | Teslimat adresi için belirtilen ad.        |
+| deliveryaddress      | Sevk edilen siparişler için teslimat adresi.                     |
 | deliverydate         | Teslimat tarihi.                                           |
 | shipdate             | Sevk tarihi.                                               |
 | modeofdelivery       | Siparişin teslim modu.                              |
+| ordernetamount       | Siparişin toplam tutarından, toplam verginin çıkarılması.         |
+| iskonto             | Siparişin toplam iskontosu.                            |
 | masraflar              | Siparişin toplam masrafları.                             |
 | vergi                  | Siparişin toplam vergisi.                                 |
 | toplam                | Siparişin toplam tutarı.                              |
-| ordernetamount       | Siparişin toplam tutarından, toplam verginin çıkarılması.         |
-| iskonto             | Siparişin toplam iskontosu.                            |
 | storename            | Siparişin verildiği mağazanın adı.            |
 | storeaddress         | Siparişi veren mağazanın adresi.              |
 | storeopenfrom        | Siparişi veren mağazanın açılış saati.         |
 | storeopento          | Siparişi veren mağazanın kapanış saati.         |
-| pickupstorename      | Siparişin alınacağı mağazanın adı.     |
-| pickupstoreaddress   | Siparişin alınacağı mağazanın adresi.  |
-| pickupopenstorefrom  | Siparişin alınacağı mağazanın açılış saati. |
-| pickupopenstoreto    | Siparişin alınacağı mağazanın kapanış saati. |
+| pickupstorename      | Siparişin alınacağı mağazanın adı.\* |
+| pickupstoreaddress   | Siparişin alınacağı mağazanın adresi.\* |
+| pickupopenstorefrom  | Siparişin alınacağı mağazanın açılış saati.\* |
+| pickupopenstoreto    | Siparişin alınacağı mağazanın kapanış saati.\* |
+| pickupchannelid      | Teslimatın alma şekli için belirtilen mağazanın kanal kimliği.\* |
+| packingslipid        | Siparişteki satırlar paketlendiğinde oluşturulan sevk irsaliyesinin kimliği.\* |
+
+\* Bu yer tutucular yalnızca **Sipariş alma için hazır** bildirim türü için kullanıldığında veri döndürür. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Sipariş satırı yer tutucuları (satış satırı düzeyi)
 
@@ -106,7 +111,10 @@ Aşağıdaki yer tutucular, müşteri siparişindeki her bir ürün (satır) iç
 
 | Yer tutucu adı               | Yer tutucu değeri |
 |--------------------------------|-------------------|
-| productid                      | Satır için ürün kodu. |
+| productid                      | <p>Ürünün kimliği. Bu kimlik, çeşitleri hesaba katar.</p><p><strong>Not:</strong> Bu yer tutucu, yerini **lineproductrecid** aldığından kullanım dışı bırakıldı.</p> |
+| lineproductrecid               | Ürünün kimliği. Bu kimlik, çeşitleri hesaba katar. Bu, bir öğeyi çeşit düzeyinde benzersiz şekilde tanımlar. |
+| lineitemid                     | Ürünün ürün düzeyinde kimliği. (Bu kimlik, çeşitleri hesaba katmaz.) |
+| lineproductvariantid           | Ürün çeşidinin kimliği. |
 | lineproductname                | Ürünün adı. |
 | lineproductdescription         | Ürünün açıklaması. |
 | linequantity                   | Satır için sipariş edilen birim sayısı ile ölçü biriminin toplamı (örneğin, **ea** veya **çifti**). |
@@ -125,6 +133,8 @@ Aşağıdaki yer tutucular, müşteri siparişindeki her bir ürün (satır) iç
 | linedeliverydate               | Satır için teslimat tarihi. |
 | linedeliverymode               | Satır için teslimat modu. |
 | linedeliveryaddress            | Satır için teslimat adresi. |
+| linepickupdate                 | Teslimatın alma modunun kullanıldığı siparişler için müşterinin belirttiği alma tarihi. |
+| linepickuptimeslot             | Teslimatın alma modunun kullanıldığı siparişler için müşterinin belirttiği alma zaman aralığı. |
 | giftcardnumber                 | Hediye kartı türündeki ürünler için hediye kartı numarası. |
 | giftcardbalance                | Hediye kartı türündeki ürünler için hediye kartı bakiyesi. |
 | giftcardmessage                | Hediye kartı türündeki ürünler için hediye kartı iletisi. |

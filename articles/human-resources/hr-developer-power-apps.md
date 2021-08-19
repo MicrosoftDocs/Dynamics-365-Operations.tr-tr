@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b1ebe17063d954b52a0607d39e3ea08518adb89
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a466ef2d2002ebc9d35b33571009727626cd5c678e995d42a00dbe64a2806729
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057610"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778067"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Power Apps ve Power Automate ile genişletme
 

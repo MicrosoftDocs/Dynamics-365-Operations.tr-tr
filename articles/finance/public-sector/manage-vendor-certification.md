@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b6e4194a4b3463476a32679ff11b35affc131faa
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 932b8bc2982a7c38404ff4203fce7fb65c1182d4490d2aad5a6d78fd809ec768
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736124"
 ---
 # <a name="maintain-vendor-certification"></a>Satıcı sertifikasını koruma
 
@@ -23,13 +23,20 @@ ms.locfileid: "6270516"
 
 Bu konu, **Satıcı işbirliği çalışma alanı**'nı kullanarak satıcılarınızın sertifikalarını korumak için kullanabileceği adımları açıklamaktadır. Sertifika örnekleri arasında Kadın İşletme Girişimi (WBE) veya Enerji ve Çevre Tasarımında Liderlik (LEED) şirketi olabilir. Satıcıların, **Satıcı bilgileri** çalışma alanına sertifika bilgilerini girmesi gerekir. Burada satıcılar, **Daha fazla ayrıntı** seçeneğini belirler ve ardından **Sertifikalar**'ı seçer.
 
+## <a name="turn-on-the-vendor-certification-feature"></a>Satıcı sertifikasyonu özelliğini açma
+
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+
+- **Modül** - *Borç hesapları*
+- **Özellik adı** - *Satıcı işbirliği sertifika yönetimini etkinleştirme*
+
 ## <a name="add-a-new-certification"></a>Yeni sertifika ekleme
 
 Yeni bir sertifika eklemek için, **Satıcı bilgileri** çalışma alanında **Sertifika** ızgarasının üzerinde bulunan **Ekle** düğmesini seçin. Aşağıdaki bilgileri girin:
- 
+
 - Sertifika sertifikası
 - Sertifika türü
-- Sertifika organizasyonu 
+- Sertifika organizasyonu
 - Sertifika tarihi
 - Borç tutarı (geçerliyse)
 - Geçerlilik tarihi
@@ -42,9 +49,9 @@ Satıcılarınız tarafından bu sayfaya girilen sertifikalara "Satıcı" kayna�
 
 Satıcılar gerektiğinde, sertifikalarını düzenleyebilir veya silebilir.
 
-## <a name="vendor-collaboration-generated-certification-records"></a>Satıcı işbirliğiyle oluşturulmuş sertifika kayıtları 
- 
+## <a name="vendor-collaboration-generated-certification-records"></a>Satıcı işbirliğiyle oluşturulmuş sertifika kayıtları
+
 Sertifika bilgileri bir satıcı tarafından eklendikten sonra, bilgiler, **Satıcı işbirliğiyle oluşturulmuş sertifika kayıtları** sayfasında görüntülenecektir. Sayfayı açmak için, **Borç hesapları > Sorgular > Satıcı raporları > Satıcı işbirliğiyle oluşturulmuş sertifikalar**'a gidin. Varsayılan olarak, tüm yeni veya değiştirilmiş sertifika kayıtları görüntülenir. Borç hesabı görevlisi, değişiklikleri görüntüleyebilir ve doğrulama işlemi aracılığıyla bilgileri doğrulayabilir. Bilgiler onaylandıktan sonra, sayfada listelenen sertifika kaydı incelendi olarak seçilip işaretlenebilir. Kaydın incelendi olarak işaretlenmesi, bunu varsayılan listeden kaldırır.
- 
-Tüm sertifika değişiklikleri, **Satıcı işbirliğiyle oluşturulan sertifikalar** sayfasında görüntülenir. Sayfada bir değişiklik görüntülenmiyorsa satıcı hesabı, geçerlilik tarihi aralığı veya incelenmiş sertifika değişiklikleri bilgilerinin eklenip eklenmeyeceğini belirlemeyle ilgili filtreleri ayarlayarak bunu görüntüleyebilirsiniz. 
+
+Tüm sertifika değişiklikleri, **Satıcı işbirliğiyle oluşturulan sertifikalar** sayfasında görüntülenir. Sayfada bir değişiklik görüntülenmiyorsa satıcı hesabı, geçerlilik tarihi aralığı veya incelenmiş sertifika değişiklikleri bilgilerinin eklenip eklenmeyeceğini belirlemeyle ilgili filtreleri ayarlayarak bunu görüntüleyebilirsiniz.
 

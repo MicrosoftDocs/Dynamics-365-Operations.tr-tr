@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 47ade053846e39ae6e5a914bb002b20a18b8ecde
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 38c50dd80a68c5ccdab59f6da039cbd209f06067addce341a931ddb1d127438e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749740"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713320"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)
 

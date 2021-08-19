@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 94fa4dca7ff8372d4cf1aeee225e821574f4104048db5ad8a816be2bce496de8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639450"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725878"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 

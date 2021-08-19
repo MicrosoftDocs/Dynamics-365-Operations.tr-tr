@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96c1cccccd2b20626dba14d9b0cb97bef10732fd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749716"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724455"
 ---
 # <a name="view-and-design-financial-reports"></a>Mali raporları görüntüleme ve tasarlama
 
@@ -151,7 +151,7 @@ Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir Kon
 4. **Dosya** &gt; **Farklı Kaydet** seçimlerini yapın ve rapora **Konsolide Bilanço ve Gelir Beyannamesi Yan Yana** adını verin.
 5. Taban yılını 2012 olarak değiştirin.
 6. Ağaç türü açılır okunu tıklayın ve **Organizasyon Hiyerarşileri** seçimini yapın.
-7. Ağaç açılır okuna tıklayın ve **Contoso Holdings** seçimini yapın.
+7. Ağaç açılır okuna tıklayın ve **Contoso Holdings** seçeneğini belirleyin.
 8. Değişiklikleri kaydedin ve raporu oluşturun. İstenirse, tüm raporlama birimlerini seçin. Raporun oluşturulması tamamlandığında ve rapor açıldığında raporu inceleyebilirsiniz.
 9. **Rapor Seçenekleri** öğesini seçin.
 10. **Boyut filtresi ekle** öğesini ve **Departman** öğesini seçin.

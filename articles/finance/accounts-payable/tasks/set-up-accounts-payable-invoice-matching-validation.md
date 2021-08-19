@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 15fbb5481e3ff8760f536f1d5eeff76370216b37
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 017b0197563b9d7fd03f5fc927353be8d16586090f467cff792016431e0fafad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722875"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Borç hesapları fatura eşleştirme doğrulaması ayarlama
 

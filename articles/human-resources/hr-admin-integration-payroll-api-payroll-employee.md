@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538866"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768203"
 ---
 # <a name="payroll-employee"></a>Bordrolu personel
 
@@ -33,27 +33,25 @@ Fiziksel ad: mshr_payrollemployeeentity.
 Bu varlık çalışan hakkında bilgi sağlar. Bu varlığı kullanmadan önce [Bordro tümleştirme parametrelerini](hr-admin-integration-payroll-api-parameters.md) ayarlamanız gerekir.
 
 >[!IMPORTANT] 
->**FirstName**, **MiddleName**, **LastName**, **NameValidFrom** ve **NameValidTo** alanları artık bu varlıkta kullanılamayacak. Bu durum, **EmploymentStartDate** ve **EmploymentEndDate** alanlarıyla **HcmEmployment** olan bu varlığı destekleyen tek bir geçerlilik tarihli veri kaynağı olduğundan emin olmaya yöneliktir.
-
->Bu alanlar, Platform Güncelleştirmesi 43'te yayınlanan **DirPersonNameHistoricalEntity**'de kullanılabilir. **Kişi** alanında **PayrollEmployeeEntity** ile **DirPersonNameHistoricalEntity** arasında bir OData ilişkisi vardır. Alternatif olarak, **DirPersonNameHistoricalEntity** varlığı, **PersonHistoricalNames** ortak adı kullanılarak doğrudan OData aracılığıyla sorgulanabilir.
-
+>**FirstName**, **MiddleName**, **LastName**, **NameValidFrom** ve **NameValidTo** alanları artık bu varlıkta kullanılamayacak. Bu, bu varlığı yedekleyen yalnızca bir yürürlük tarihli veri kaynağı olmasını sağlar.
+>Bu alanlar, Platform Güncelleştirmesi 43'te yayınlanan **DirPersonNameHistoricalEntity**'de kullanılabilir. **Kişi** alanında **PayrollEmployeeEntity** ile **DirPersonNameHistoricalEntity** arasında bir OData ilişkisi vardır. 
 
 ## <a name="properties"></a>Özellikler
 
 | Özellik<br>**Fiziksel ad**<br>**_Türü_** | Kullan | Tanım |
 | --- | --- | --- |
-| **Personel numarası**<br>mshr_personnelnumber<br>*Dize* | Salt okunur<br>Gerekli | Çalışanın benzersiz personel numarası. |
-| **Birincil alan**<br>mshr_primaryfield<br>*Dize* | Gerekli<br>Sistem tarafından oluşturulan |  |
-| **Tüzel kişilik kodu**<br>mshr_legalentityID<br>*Dize* | Salt okunur<br>Gerekli | Tüzel kişiliği (şirket) belirtir. |
-| **Cinsiyet**<br>mshr_gender<br>[mshr_hcmpersongender seçenek kümesi](hr-admin-integration-payroll-api-gender.md) | Salt okunur<br>Gerekli | Çalışanın cinsiyeti. |
+| **Personel numarası**<br>mshr_personnelnumber<br>*Dize* | Salt okunur | Çalışanın benzersiz personel numarası. |
+| **Birincil alan**<br>mshr_primaryfield<br>*Dize* | Salt okunur<br>Sistem tarafından oluşturulan |  |
+| **Tüzel kişilik kodu**<br>mshr_legalentityID<br>*Dize* | Salt okunur | Tüzel kişiliği (şirket) belirtir. |
+| **Cinsiyet**<br>mshr_gender<br>[mshr_hcmpersongender seçenek kümesi](hr-admin-integration-payroll-api-gender.md) | Salt okunur | Çalışanın cinsiyeti. |
 | **Bordrolu personel varlık kodu**<br>mshr_payrollemployeeentityid<br>*GUID* | Gerekli<br>Sistem tarafından oluşturulan | Personeli benzersiz olarak tanımlamak için sistem tarafından oluşturulan GUID değeri. |
-| **İstihdam başlama tarihi**<br>mshr_employmentstartdate<br>*Tarih saat sapması* | Salt okunur<br>Gerekli | Çalışanın işe başlama tarihi. |
-| **Tanımlama türü kimliği**<br>mshr_identificationtypeid<br>*Dize* |Salt okunur<br>Gerekli | Çalışan için tanımlanan tanımlama türü. |
-| **İş bitiş tarihi**<br>mshr_employmentenddate<br>*Tarih saat sapması* | Salt okunur<br>Gerekli |Çalışanın istihdam bitiş tarihi.  |
-| **Veri alanı kimliği**<br>mshr_dataareaid_id<br>*GUID* | Gerekli <br>Sistem tarafından oluşturulan | Tüzel kişiliği (şirket) tanımlaması için sistem tarafından oluşturulan GUID değeri. |
-| **Geçerlilik bitişi**<br>mshr_namevalidto<br>*Tarih Saat Sapması* |  Salt okunur<br>Gerekli | Personel bilgilerinin geçerlilik bitiş tarihi. |
-| **Doğum tarihi**<br>mshr_birthdate<br>*Tarih Saat Sapması* | Salt okunur <br>Gerekli | Çalışanın doğum tarihi |
-| **Kimlik numarası**<br>mshr_identificationnumber<br>*Dize* | Salt okunur <br>Gerekli |Çalışan için tanımlanan tanımlama numarası.  |
+| **İstihdam başlangıç tarihi**<br>mshr_employmentstartdate<br>*Tarih saat sapması* | Salt okunur | Çalışanın işe başlama tarihi. |
+| **Tanımlama türü kimliği**<br>mshr_identificationtypeid<br>*Dize* |Salt okunur | Çalışan için tanımlanan tanımlama türü. |
+| **İş bitiş tarihi**<br>mshr_employmentenddate<br>*Tarih saat sapması* | Salt okunur |Çalışanın istihdam bitiş tarihi.  |
+| **Veri alanı kimliği**<br>mshr_dataareaid_id<br>*GUID* | Salt okunur <br>Sistem tarafından oluşturulan | Tüzel kişiliği (şirket) tanımlaması için sistem tarafından oluşturulan GUID değeri. |
+| **Geçerlilik bitişi**<br>mshr_namevalidto<br>*Tarih Saat Sapması* |  Salt okunur | Personel bilgilerinin geçerlilik bitiş tarihi. |
+| **Doğum tarihi**<br>mshr_birthdate<br>*Tarih Saat Sapması* | Salt okunur | Çalışanın doğum tarihi |
+| **Kimlik numarası**<br>mshr_identificationnumber<br>*Dize* | Salt okunur |Çalışan için tanımlanan tanımlama numarası.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Bordrolu personel için örnek sorgu
 

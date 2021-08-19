@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94df9dd706c2540779db70e794e4a0a3f2dd186
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 06adca12c172dffa241fe44a6b64bb30863bcb4a8f3867429ad10bc852efd7c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730238"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Saat ve işe devamda devamsızlık kaydı
 
