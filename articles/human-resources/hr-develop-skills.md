@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 816822d1f3d365b4c5571c13e9f596e1c5d5e59c
-ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
+ms.openlocfilehash: a8025dd4000a3678e7f7eb7faebfa45852f0054570a2948dadbc21913c63f578
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6076571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732165"
 ---
 # <a name="configure-skills"></a>Yetenekleri konfigüre et
 

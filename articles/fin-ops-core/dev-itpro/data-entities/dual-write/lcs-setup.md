@@ -1,8 +1,8 @@
 ---
 title: Lifecycle Services'dan çift yazma kurulumu
 description: Bu konuda, Microsoft Dynamics Lifecycle Services (LCS) portalından nasıl çift yazma bağlantısı ayarlayacağınız açıklanmaktadır.
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729055"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services'dan çift yazma kurulumu
 
@@ -66,5 +66,18 @@ Varolan bir Dataverse ortam için çift yazma ayarlamak için bir Microsoft [des
 
 > [!NOTE]
 > Ortamların bağlantısını LCS kullanarak kaldıramazsınız. Bir ortamın bağlantısını kaldırmak için Finance and Operations ortamdaki **Veri tümleştirme** çalışma alanını açın ve sonra **Bağlantıyı kaldır**'ı seçin.
+
+## <a name="linking-mismatch"></a>Bağlama uyuşmazlığı
+
+Çift yazma ortamınız bir Dataverse kurulumuna bağlanırken LCS ortamınızın başka bir Dataverse kurulumuna bağlanması mümkündür. Bu bağlama uyuşmazlığı, beklenmeyen davranışa neden olabilir ve verilerin yanlış ortama gönderilmesiyle sonuçlanabilir. Çift yazma için kullanılacak önerilen ortam, Power Platform tümleştirmesinin parçası olarak oluşturulan ortamdır ve uzun vadeli olarak bu, ortamlar arasında bağlantı oluşturmanın tek yolu olacaktır.
+
+Ortamınızda bağlama uyuşmazlığı varsa LCS'de ortam ayrıntıları sayfanızda "Microsoft, ortamınızın Çift yazma aracılığıyla Power Platform Tümleştirmesi'nde belirtilenden farklı bir hedefe bağlandığını algıladı; bu önerilen bir durum değildir" gibi bir uyarı görüntülenir:
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform tümleştirme bağlantısı eşleşmiyor.":::
+
+Bu hatayla karşılaşırsanız gereksinimlerinize göre iki seçenek vardır:
+
++ LCS ortam ayrıntıları sayfanızda belirtildiği üzere [Çift yazma ortamlarının bağlantısını kaldırın ve yeniden bağlayın (Bağlantıyı sıfırlayın veya değiştirin)](relink-environments.md#scenario-reset-or-change-linking). Microsoft desteği olmadan çalıştırabileceğinizden bu ideal bir seçenektir.  
++ Bağlantınızı çift yazmada tutmak isterseniz önceki bölümde belgelendiği gibi mevcut Dataverse ortamınızı kullanmak için Power Platform tümleştirmesini değiştirmek üzere Microsoft Desteği'nden yardım isteyebilirsiniz.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

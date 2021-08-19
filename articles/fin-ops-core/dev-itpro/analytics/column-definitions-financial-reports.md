@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2b3b45b155528c6037b332f2dc381bfe7bea0ed1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 199dceb91195a3488dd269786a8cd59811d8d828db686c3636e3d6320c77bbeb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729107"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
@@ -494,7 +494,7 @@ Bir boyut filtresi, **FD** sütununu belirli boyut değerleriyle sınırlandırm
 - +Hesap=\[1100\],Departman
 - +Hesap=\[1100\]
 
-Ayrıca, tam eşleştirme için alfasayısal karakterlerin herhangi bir kombinasyonunu kullanabilir ve kısmi boyutlar tanımlayabilirsiniz. Örneğin, **Konum = \[10*\*\]**, 10 ile başlayan tüm konum boyutu değerlerini içerir.
+Ayrıca, tam eşleştirme için alfasayısal karakterlerin herhangi bir kombinasyonunu kullanabilir ve kısmi boyutlar tanımlayabilirsiniz. Örneğin, **Konum = \[10\*\]**, 10 ile başlayan tüm konum boyutu değerlerini içerir.
 
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Bir rapordaki bir sütun için boyut filtresi uygulama
 

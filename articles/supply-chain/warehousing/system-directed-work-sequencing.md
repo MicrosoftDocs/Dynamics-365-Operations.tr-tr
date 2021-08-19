@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5387aaf5a5e0d20ac22595fbea86a25fdf38a771
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e349df6b7e2a627562c65b961385625b0ad95b5423fa25b9139af3a8a227321b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733336"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistemin yönlendirdiği iş sıralaması
 
@@ -140,7 +140,7 @@ Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, 
 
 ### <a name="location-directives"></a>Konum yönergeleri
 
-Varsayılan Contoso verilerini kullanıyorsanız, yerleşim yönergesi eyleminin sorgusu için değişiklik yapılması gerekmez. Ancak, özelliği Contoso dışı bir ortama uyguladığınızda yerleşim yönergelerinin satış siparişlerindeki maddeleri yakalayacağından emin olmak için yeni bir yerleşim yönergesi oluşturun. Tanıtım ortamındaki ayarları doğrulamak için aşağıdaki adımları izleyin.
+Varsayılan Contoso verilerini kullanıyorsanız yerleşim yönergesi eyleminin sorgusu için değişiklik yapılması gerekmez. Ancak özelliği Contoso dışı bir ortama uyguladığınızda yerleşim yönergelerinin satış siparişlerindeki maddeleri yakalayacağından emin olmak için yeni bir yerleşim yönergesi oluşturun. Tanıtım ortamındaki ayarları doğrulamak için aşağıdaki adımları izleyin.
 
 1. **Ambar Yönetimi** \> **Kurulum** \> **Konum yönergeleri** seçeneğine gidin.
 1. **İş siparişi türü** alanında *Satış siparişi*'ni seçin.

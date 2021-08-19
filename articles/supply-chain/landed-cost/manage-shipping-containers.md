@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 134e8001a22d62487ead5c4fbd137d61791be6c0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 62a19262f4101105654ff948cef634d825b22c4189c73eb236bd1a4730a412f5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021188"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734199"
 ---
 # <a name="manage-shipping-containers"></a>Seyahat konteynerlerini yönetme
 

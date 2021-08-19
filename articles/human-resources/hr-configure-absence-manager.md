@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8a8250b36d2774ac308637253b780592df316cd
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732357"
 ---
 # <a name="configure-the-absence-manager-role"></a>Devamsızlık yöneticisi rolünü yapılandırma
 
@@ -89,16 +89,21 @@ Hiyerarşi türü tanımlandıktan sonra, pozisyon hiyerarşisi raporu pozisyona
 
 ## <a name="absence-manager-workspace"></a>Devamsızlık yöneticisi çalışma alanı
 
-**Çalışan Self Servisi** çalışma alanında, **Devamsızlık yöneticisi** sekmesi, İzin hiyerarşisinde devamsızlık yöneticisine atanan personelle ilgili devamsızlık bilgilerini gösterir.
+**Çalışan Self Servisi** çalışma alanında, **İzin yönetimi** sekmesi, İzin hiyerarşisinde devamsızlık yöneticisine atanan personelle ilgili devamsızlık bilgilerini gösterir. Devamsızlık yöneticisinin kullanabildiği birkaç seçenek vardır: 
+ - İzin isteklerini inceleyin.</br>
+ - Bir çalışan adına izin isteği gönderin.</br>
+ - İzin hiyerarşisinin parçası olarak izinlere atanan tüm çalışanları görüntüleyin.</br>
+ - Devamsızlık yöneticisi takvimini görüntüleyin.</br>
 
-**İzin ve devamsızlık** sekmesinde, her çalışan için aşağıdaki seçenekler kullanılabilir:
-
-- **İzin**: Seçili personel için bakiyeleri, onaylanmış izinleri ve izin taleplerini görüntüleyin.
-- **İzin bakiyeleri**: Seçili personelin farklı izin planları için bakiyelerin listesini görüntüleyin.
+**İzin yönetimi** çalışma alanında iki sekme vardır:
+ - **İzin istekleri**: Bu sekme, devamsızlık yöneticisinin onaylayabildiği tüm bekleyen izin isteklerini listeler. Devamsızlık yöneticisi aynı anda birden fazla kayıt seçebilir ve bunlar üzerinde işlem gerçekleştirebilir. Şirketler arası izin görünümü etkinse bu liste, erişimi olan tüm tüzel kişilikler genelinde bekleyen izin isteklerini gösterir. Aksi takdirde, seçili durumdaki tüzel kişilik için bekleyen izin isteklerini gösterir. </br>
+ - **Tüm çalışanlar**: Bu sekme, İzin hiyerarşisinde devamsızlık yöneticisine atanan tüm çalışanları listeler. Her çalışan için kullanılabilen birkaç seçenek vardır:
+    - **İzin isteme**: Seçili çalışan için yeni bir izin isteği gönderin.</br>
+    - **İzin**: Seçili personel için bakiyeleri, onaylanmış izinleri ve izin taleplerini görüntüleyin.</br>
 
 ## <a name="approve-time-off-requests"></a>İzin taleplerini onaylama
 
-Devamsızlık yöneticileri, personelin izin taleplerini onaylayabilir veya reddedebilir. Gerektiğinde personel adına da talep oluşturabilirler.
+Devamsızlık yöneticileri, personelin izin taleplerini onaylayabilir veya reddedebilir. 
 
 > [!IMPORTANT]
 > Devamsızlık yöneticilerinin izin talaplerini onaylaması veya reddetmesi için izin talebi iş akışının izin talebi çalışma öğelerinin gözden geçirilmek üzere yöneticilere atanacak şekilde yapılandırılması gerekir.
@@ -109,15 +114,13 @@ Devamsızlık yöneticileri, personelin izin taleplerini onaylayabilir veya redd
 >
 > İzin talebi iş akışını oluşturma hakkında bilgi için bkz. [İzin talebi iş akışı oluşturma](hr-leave-and-absence-workflow.md).
 
-1. **Çalışan Self Servisi** çalışma alanında **Devamsızlık yöneticisi** sekmesini seçin.
+1. **Çalışan Self Servisi** çalışma alanında, **İzin yönetimi** sekmesini seçin.
 
-2. **Devamsızlık yöneticisi** sekmesinde, istediğiniz çalışanı seçin.
+2. **İzin istekleri** sekmesinde, işlem yapmak istediğiniz izin isteklerini seçin. Bu liste görünümünde birden fazla kayıt seçebilirsiniz.
 
-3. **Ayrıntılar**'ı seçin ve sonra **İzin**'i seçin.
+3. İzin isteğini Onaylamak, Reddetmek veya Devretmek için ızgaranın üst kısmındaki eylem düğmelerini kullanın. 
 
-4. İzin talebini bulun ve **Onay** seçeneğini belirleyin. Daha sonra izin talebini onaylamak veya iptal etmek için bir seçenek belirleyebilirsiniz.
-
-**İptal** durumu, talebin reddedildiğini gösterir. **Tamamlandı** durumu, talebin onaylandığını gösterir.
+Alternatif olarak, kullanıcı ayrıca soldaki **İzin istekleri** kutucuğunu kullanarak izin isteği iş öğelerinin listesine de gidebilir. 
 
 ## <a name="view-time-off-in-the-calendar"></a>İzni takvimde görüntüleme
 
@@ -126,7 +129,7 @@ Devamsızlık yöneticisi rolündeki kullanıcılar izin taleplerini takvimlerin
 > [!IMPORTANT]
 > Sistem yöneticisi, devamsızlık yöneticisi takvimi için görünüm seçeneklerini yapılandırmalıdır. **İzin ve devamsızlık parametreleri** sayfasında, **Takvim** sekmesinde, doğum günlerini, ayrıntı içermeyen devamsızlıkları, devamsızlıkları ve bekleyen izin taleplerini gizleme veya gösterme seçenekleri vardır. Takvim görünümü seçeneğini çalışan türüne göre filtreleme seçeneği de vardır.
 
-1. **Çalışan Self Servisi** çalışma alanında **Devamsızlık yöneticisi**'ni ve ardından **Devamsızlık yöneticisi takvimi**'ni seçin.
+1. **Çalışan Self Servisi** çalışma alanında, **İzin yönetimi**'ni seçin ve ardından **Devamsızlık yöneticisi takvimi** seçeneğini belirleyin.
 
 2. **Tarih** alanına istediğiniz tarihleri girin.
 

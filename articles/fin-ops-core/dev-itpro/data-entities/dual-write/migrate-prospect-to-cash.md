@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-01-04
-ms.openlocfilehash: f6758fe366c2ea59dc75be2f1070650eb5c2f9fc
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 46f869265e589ad8e0c94a839df70e54fe781c5a4e7f992e6534e883b21801ae
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733135"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Aday müşteriden nakde verilerini Veri Tümleştiriciden çift yazmaya geçirme
 
