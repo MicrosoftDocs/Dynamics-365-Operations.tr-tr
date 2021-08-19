@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1ad6efdced9bce924fbf5bc207c92fa2c3a6c79d
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 566686b6a86e67c87f75f9f2e397592174d3d749034f18997ca8ce651c2594a2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760406"
 ---
 # <a name="you-cant-apply-a-template-to-create-a-released-product"></a>Serbest bırakılan bir ürün oluşturmak için şablon uygulayamazsınız.
 
