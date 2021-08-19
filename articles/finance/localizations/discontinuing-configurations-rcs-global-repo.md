@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 1d25d583580af3d73a3ac1eaebc9f7d8413c6563
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712182"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>RCS genel deposunda yapılandırmaları sona erdirme
 

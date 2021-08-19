@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 35cf3b4413b5288a823527d24a5db759b6bfbf37
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f1301f61e6bc0d408d4883b238808f66b14abc2d372e97671c71ba7dd5174124
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721988"
 ---
 # <a name="module-library-overview"></a>Modül kitaplığına genel bakış
 

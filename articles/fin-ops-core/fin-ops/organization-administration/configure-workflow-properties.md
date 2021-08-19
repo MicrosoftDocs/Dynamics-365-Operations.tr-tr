@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d55665df9efdc87f8a7c42a132bad11b4c4426e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8fabd5a18879b54ce99a71513812fdcdba10a05c6dc91dcc95d34336c8327f4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715178"
 ---
 # <a name="configure-workflow-properties"></a>İş akışı özelliklerini yapılandırma
 

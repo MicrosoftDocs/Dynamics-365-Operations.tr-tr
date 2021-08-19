@@ -2,7 +2,7 @@
 title: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
 description: Bu konuda, Elektronik raporlama (ER) yapılandırmasını tasarlama ve bağımlılığını diğer yazılım bileşenlerinden ayırma açıklanmaktadır.
 author: NickSelin
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4aef052a77428bb783a3a098754ca4dcc1b4296
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755118"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717606"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
 
@@ -138,5 +138,8 @@ Oluşturulan yapılandırmaları sistemden sileceğiz ve onları LCS havuzundan 
     * Model 'Örnek eşleşme' eşleme yapılandırmasının, seçilen veri modeli yapılandırması ile birlikte indirildiğini unutmayın. İki dosya birlikte indirilmiştir çünkü 'Örnek eşleşme', seçilen veri modelini uyguluyor olarak tanımlanmıştır ve uygulama için uygulanabilirdir. 'Örnek eşleşme (alternatif)' yapılandırması, gerekli uygulama sürümü yerine getirilmediği için indirilmemiştir.   
     * Finance and Operations'ta oturum açar, aynı sağlayıcıya kaydolur, aynı LCS projesine erişir ve aynı veri modeli yapılandırmasını indirirseniz, 'Örnek eşleme (alternatif)' yapılandırması indirilir ve 'Örnek eşleme' yapılandırması atlanır.  
 
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

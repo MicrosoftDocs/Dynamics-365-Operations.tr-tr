@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 731c42bf278dd823863fb92936513d4478aeddd1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e9b1f721366cac625ca91539034c229b23d1eab6f053ddfb5326ad837d925bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718888"
 ---
 # <a name="credit-subscription-transactions"></a>Abonelik işlemlerini alacaklandırma 
 

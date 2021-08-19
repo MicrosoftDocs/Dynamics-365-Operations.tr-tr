@@ -2,7 +2,7 @@
 title: Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni ve değiştirilmiş özellikleri listeler.
 author: ivanv-microsoft
-ms.date: 06/07/2021
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,38 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61124728942c0b8162de9f687ae752773c47d07e
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261804"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720096"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="2070"></a>2.0.7.0
+
+### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Sürüm 2.0.7.0'daki yeni özellikler, düzeltmeler ve iyileştirmeler
+
+- Uygulamanın en son yayımlanan sürümünü denetleyen **Hakkında** sayfasına bir bölüm eklendi.
+- Sayfalar arasında hızlı kaydırma ve çekme kolaylaştırıldı.
+- İş listesindeki artan/azalan düğmesinin simgesi değiştirildi.
+- Daha fazla bilgi sığdırmak için **Ayrıntılar** kartındaki kenar boşlukları azaltıldı.
+- Uygulamanın zamanla yavaşlama sorununu azaltmak için çeşitli performans iyileştirmeleri uygulandı.
+- Ekrana sığdırılandan daha fazla denetim varsa ve bu da sayfalamaya neden oluyorsa döndürücü denetimi artık sayfayla aynı şekilde kaymaz.
+- Görev başlığını göstermek yerine son taranan değeri göstermeye öncelik verildi, bu nedenle bunların çakışması durumunda görev başlığı kesilir.
+- Sistemin yanıt vermemesine neden olan çeşitli sorunlar giderildi.
+- Çeşitli yerlerdeki metinler artık bazı dillerde kesilmiyor.
+- Uygulama artık varsayılan olarak tam ekran modunda çalışıyor.
+- Bazı cihazlarda ana sayfadaki taramaların zaman zaman yok sayılmasına neden olan bir sorun giderildi.
+
+### <a name="known-issues-in-version-2070"></a>Sürüm 2.0.7.0'daki bilinen sorunlar
+
+- Bazı cihazlarda, uygulamayı başlattığınızda veya bir göreve başladığınızda şu hata iletisini alırsınız: "Belirtilen boyut için uygun bir görünüm bulunamıyor." Bu hata iletisini herhangi bir cihazınızda görüyorsanız Warehouse Management mobil uygulamasını o cihazda 2.0.6.0 sürümüne düşürmeli ve uygulamanın bir sonraki sürümü yayımlanana kadar yükseltmeyi bekletmelisiniz.
 
 ## <a name="version-2060"></a>Sürüm 2.0.6.0
 

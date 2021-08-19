@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9ececb030432028512ff2d75a772761df4d416a7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a5e627fcd8d25558d766cdf4d3b7c8d9c8544fb5476a978859e9e3ac83f6475c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718232"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>TDS vergi türü için stopaj vergisi bilişen gruplarını ayarlama
 

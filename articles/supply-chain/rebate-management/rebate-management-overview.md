@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720264"
 ---
 # <a name="rebate-management-module-overview"></a>İndirim yönetimi modülüne genel bakış
 
@@ -91,10 +91,9 @@ Kullanıcıların artık iki adımda yapılan anlaşmaları veya provizyonların
 
 İndirimler hesaplanırken, işlem deftere nakil gerçekleşmeden önce gözden geçirilebilecek işlemler oluşturur. Ayrı bir işlem, indirim ve yönetim hareketlerini deftere nakleder. Daha sonra teklif edilen hareketlere nakil sırasında bir günlük, alacak dekontu veya borç hareketi oluşturulabilir. Uyumluluk, verimlilik ve saydamlık sağlamak için raporlama beyanları ve işlem listeleri elde edilebilir.
 
-
 ## <a name="guaranteed-royalty-payments"></a>Garantili kâr payı ödemeleri
 
-İndirim yönetiminde, otomatik ödeme oluşturma, garantili minimumlar geçerli olsa bile, kâr paylarını hızlı ve kolay bir şekilde ele almanıza olanak tanır. 
+İndirim yönetiminde, otomatik ödeme oluşturma, garantili minimumlar geçerli olsa bile, kâr paylarını hızlı ve kolay bir şekilde ele almanıza olanak tanır.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Harcama - indirim oranını en yüksek düzeye çıkarma
 

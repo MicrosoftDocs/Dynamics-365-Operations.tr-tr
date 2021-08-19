@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-05-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a7ab4c7263947767164702fb7dd6da7573175253
-ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.openlocfilehash: a24f199484c7596189b19e4cddf344e9186c6044edd2906affca9b530de44168
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924291"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722211"
 ---
 # <a name="work-cant-be-canceled-because-its-blocked"></a>İş, durdurulduğu için iptal edilemiyor
 

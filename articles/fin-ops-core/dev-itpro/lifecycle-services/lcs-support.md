@@ -2,7 +2,7 @@
 title: Finance and Operations Uygulamalar veya Lifecycle Services (LCS) için destek alın
 description: Bu makale Finance and Operations uygulamaları veya Microsoft Dynamics Lifecycle Services (LCS) ile yardım almayı açıklar.
 author: EricMoos
-ms.date: 09/16/2020
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b32ae88f9c4439b83ae60e6a0b5f0e16280fcf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4314545941cd4c401325aad7651c8882db322f58aae54e85dbad2548733cc95e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713346"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Finance and Operations Uygulamalar veya Lifecycle Services (LCS) için destek alın
 
@@ -48,7 +48,7 @@ Bu makale Finance and Operations uygulamaları veya Microsoft Dynamics Lifecycle
 <td><a href="https://lcs.dynamics.com/">LCS'de</a>, Microsoft Bilgi Bankası (KB) makalelerini, düzeltmeleri ve bildirilen sorunlara yönelik geçici çözümleri hızlıca aramak için <strong>Konu arama'yı</strong> kullanın. Raporlanan belirli bir işlev alanı için hangi sorunlar düzeltilme aşamasında olduğunu veya halihazırda düzeltilmiş olduğunu görebilirsiniz. Daha fazla bilgi için bkz. <a href="issue-search-lcs.md">Konu arama (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Uygulama içi destek alın.</td>
+<td>Finance and Operations uygulamanız içinde destek alın.</td>
 <td>Uygulamanın sağ üst köşesindeki <strong>Yardım</strong> (<strong>?</strong>) düğmesini seçin ve sonra <strong>Destek</strong>'i seçin. Sorunlar, LCS içindeki <strong>Etkin sorunlar</strong> sekmesinde raporlanır. Yöneticiler orada, şirket içinde destek sağlayıp sağlamadıklarını belirleyebilir veya sorunları Microsoft 'a gönderebilir.</td>
 </tr>
 <tr>

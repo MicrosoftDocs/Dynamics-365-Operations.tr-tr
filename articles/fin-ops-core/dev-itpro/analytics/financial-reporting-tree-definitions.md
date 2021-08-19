@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714647"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Mali raporlarda raporlama ağacı tanımları
 

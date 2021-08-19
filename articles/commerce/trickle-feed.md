@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e0686b1b3113440808ea195683e15fb2c66b4558
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 900480c926df58cc1eaca052903384ceeadcccbdc3a0ede8a35f4b2a8ff87556
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719453"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Perakende mağaza hareketleri için akış tabanlı sipariş oluşturma
 

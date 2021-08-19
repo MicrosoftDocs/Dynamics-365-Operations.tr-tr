@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7e8a37e31201845b94547850b8979a103f0729e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c78af42313d83ebec5a56f83682f394c5e9d21f08851aaa0493563163d76046b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352676"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722042"
 ---
 # <a name="cloud-powered-search-overview"></a>Bulut destekli aramaya genel bakış
 

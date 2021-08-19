@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9855915bd4d1f8ebb0c73bf53e7032af4972c45
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b61c0b9d48557e25ec5aec43dd6546605d35b6fa2ac810d55b3333a8f00289
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720169"
 ---
 # <a name="integration-for-service-agreements-and-projects"></a>Projeler ve servis sözleşmeleri için tümleştirme 
 
