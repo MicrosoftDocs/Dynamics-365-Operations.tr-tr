@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712874"
 ---
 # <a name="put-to-wall---put-to-store"></a>Duvara yerleştirme - mağazaya yerleştirme
 
@@ -44,7 +44,7 @@ Bu ambarlama işlevi, ışık yönlendirmeli ayrıştırma ve zorla açma gibi d
 
 ## <a name="setup"></a>Ayar
 
-Bu demo için, standart Contoso verileri ve ambar *62* kullanılır. Daha sonra belirtilen bazı eklemeler de kullanılmıştır.
+Bu tanıtım için standart Contoso verileri ve ambar *62* kullanılır. Daha sonra belirtilen bazı eklemeler de kullanılmıştır.
 
 ### <a name="location-type"></a>Yerleşim türü
 
@@ -355,7 +355,7 @@ Tasnif tamamlandıktan sonra oluşturulan işe kılavuz olacak yerleşim yönerg
 
 Bu senaryo, ambarın yerleşimlerde küçük maddeleri depoladığı ve bu maddelerin sevk edilmeden önce kutular içinde paketlenmesinin gerekli olduğu ve paketleme istasyonu işlevinin gerçekten uygun olmadığı bir durumun benzetimini yapar. Çalışanlar, çekme hızını artırmak için birden fazla müşteri ve farklı adres için aynı anda siparişleri çeker. Çekme işlemi tamamlandıktan sonra çalışanlar, çekilen maddelerin gereken ölçütlere göre doğru kutuya tasnif edilebileceği tasnif yerleşimine gelir. Bu örnekte, sevkiyat kodu doğru kutuyu belirlemekte kullanılır, çünkü her sevkiyat farklı bir adrese sahiptir. Yükteki tüm maddeler paketlendikten ve sevkiyat bazında tasnif edildikten sonra, kutular hazırlama alanına taşınacak ve bir kamyona yüklenecektir.
 
-Senaryoya başlamadan önce, tüm standart ambar işlevlerinin ambarınız için doğru ayarlandığından emin olun. Bu amaç için standart Contoso ambar *62* kullanılır. Kurulumundaki açıklamasının yanı sıra standart yapılandırmalar da değiştirilmemiştir.
+Senaryoya başlamadan önce, tüm standart ambar işlevlerinin ambarınız için doğru ayarlandığından emin olun. Bu amaç için standart Contoso ambarı *62* kullanılır. Kurulumundaki açıklamasının yanı sıra standart yapılandırmalar da değiştirilmemiştir.
 
 ### <a name="create-demand"></a>Talep oluşturma
 

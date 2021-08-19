@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 95a8e1c6daa78250118a8a16010ef4cc1b1ae693
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6468265097da77dcd446dc077a62fa5323bf1fad5561bff610d4c920915546fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811546"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711795"
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Kesikli üretim kaynak grubunu tanımlama
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345044"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715346"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
@@ -126,12 +126,12 @@ Commerce ile en geniş cihaz yelpazesinin kullanılabilmesini sağlamaya yardım
 > [!NOTE]
 > OPOS desteği OPOS sürücülerine sahip tüm cihazlar için destek garanti etmez. Commerce önce OPOS aracılığıyla cihaz türünü veya sınıfını desteklemelidir. Ayrıca, hizmet nesneleri CCO'ların en son sürümü ile daima güncel olmayabilir. Ayrıca, genel olarak, hizmet nesnelerinin kalitesinin farklılık gösterdiğini de unutmamanız gerekir.
 
-### <a name="windows&quot;></a>Windows
+### <a name="windows"></a>Windows
 
 POS'ta makbuz yazdırm OPOS için optimize edilmiştir. OPOS Windows ile yazdırmaya göre daha hızlı olma eğilimindedir. Bu nedenle, özellikle 40 sütunlu makbuzların yazdırıldığı ve hareket sürelerinin hızlı olduğu ortamlarında OPOS kullanmak iyi bir fikirdir. Çoğu cihaz için OPOS denetimleri kullanacaksınız. Ancak, bazı OPOS makbuz yazıcılar Windows sürücüleri de destekler. Windows sürücüsü kullanarak, son yazı tiplerine ve birden çok kasa için bir ağ yazıcısına erişebilirsiniz. Ancak, Windows sürücüleri kullanmanın dezavantajları vardır. Aşağıda bazı dezavantaj örnekleri verilmiştir:
 
 -   Windows sürücüleri kullanıldığında, görüntüler yazdırma oluşmadan önce işlenir. Bu nedenle, yazdırma OPOS denetimleri kullanan yazıcılara göre daha yavaş olma eğilimindedir.
--   Yazıcı aracılığıyla bağlanan cihazlar (&quot;papatya zinciri") Windows sürücüleri kullanıldığında düzgün çalışmayabilir. Örneğin, kasa çekmecesi açılamayabilir veya slip yazıcısı beklediğiniz gibi çalışmayabilir.
+-   Yazıcı aracılığıyla bağlanan cihazlar ("papatya zinciri") Windows sürücüleri kullanıldığında düzgün çalışmayabilir. Örneğin, kasa çekmecesi açılamayabilir veya slip yazıcısı beklediğiniz gibi çalışmayabilir.
 -   Ayrıca OPOS kağıt kesme veya slip yazdırma gibi makbuz yazıcılara özgü daha geniş bir değişkenler kümesini destekler.
 -   Windows yazıcıları, IIS donanım istasyonu aracılığıyla desteklenmez. 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46532fce05b7faf15b3dc2e843dcd93a976c0da1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e8cf6338e17c9d4f0f50e5c36291ce4f81800f76951e873f2e0cf435cc3cc97e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713090"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma
 

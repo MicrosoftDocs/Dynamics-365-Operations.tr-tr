@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716504"
 ---
 # <a name="rebate-management-deals"></a>İndirim yönetimi anlaşmaları
 
@@ -102,6 +102,7 @@ Bu yordam yeni anlaşmanın başlık düzeyini oluşturur. Daha sonra, anlaşmay
         - *Tümü*: Anlaşma satırı tüm maddeler için geçerlidir.
 
     - **Madde ilişkisi**: **Madde kodu** alanında *Tablo*'yu seçtiyseniz, anlaşma satırının uygulandığı maddeyi seçin. *Grup* seçeneğini belirlediyseniz madde grubunu seçin. *Tümü*’nü seçtiyseniz bu alan kullanılamaz.
+    - **Birim türü**: Anlaşma satırı için geçerli olan birim türünü seçin (*Stok birimi* veya *Fiili ağırlık birimi*). Bu alanın daha eski kayıtlar için boş olabileceğini unutmayın. Bu durumda *Stok birimi* değeri varsayılan olarak alınır.
     - **(Stok yönetimi parametreleri)**: Anlaşma satırındaki geri kalan alanlarda, anlaşmaya dahil olan maddeleri (madde boyutu, renk, stil, tesis ve ambar gibi) tanımlamak için kullanılacak stok yönetimi parametrelerinin değerlerini belirtin. Boyutları eklemek veya kaldırmak için, Eylem bölmesinde **boyutları görüntüle**'yi seçin.
 
 1. Eylem bölmesinde, **Kaydet**'i seçin.

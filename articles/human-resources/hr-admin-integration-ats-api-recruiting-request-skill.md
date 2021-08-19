@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52dc7a839249ad8d55bb1f52cc5efe15cdf18e13
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 9347b6f2e18c7ec12c18137846507532fc9fcc3149a3638d12c070dc848a1fc7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712133"
 ---
 # <a name="recruiting-request-skill"></a>İşe alma isteği becerisi
 
