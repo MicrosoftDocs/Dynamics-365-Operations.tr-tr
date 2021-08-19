@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730022"
 ---
 # <a name="planned-cross-docking"></a>Planlanmış çapraz sevk
 
@@ -117,6 +117,9 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
     - **Sıra numarası:** *1*
     - **Tedarik kaynağı:** *Satınalma siparişi*
 
+> [!NOTE]
+> Belirli bir çapraz sevk şablonu kullanıldığında kontrol etmek için bir sorgu ayarlayabilirsiniz. Çapraz sevk şablonları için sorguda yalnızca *InventTable* (öğeler) tablosu ve içten birleştirilen *WHSInventTable* (WHS öğeleri) tablosu vardır. Sorguya başka tablolar eklemek isterseniz bunları yalnızca *birleştirmelerden çık* veya *birleştirmelerden çıkma* kullanarak birleştirebilirsiniz. Birleştirilmiş tablolara filtre uyguladığınızda birleştirilen tabloda eşleşen her kayıt için ana tablodan bir kayıt alınır. Birleştirme türü *birleştirmeden çık* ise arama, ilk eşleştirme bulunduğunda sonlanır. Örneğin, satış siparişi satırı tablosunu öğeler tablosuyla birleştirirseniz sistem, en az bir satış siparişi satırında tanımlanan koşulun bulunduğu öğeleri doğrular ve döndürür. Esas olarak, veriler alt (satış siparişi satırı) tablodan değil, üst (öğeler) tablodan alınır. Bu nedenle, satış siparişi satırları veya müşteriler gibi kaynak belgelere göre filtre uygulama işlemi kullanıma hazır olarak gerçekleştirilemez.
+
 ### <a name="create-a-work-class"></a>İş sınıfı oluşturma
 
 1. **Ambar yönetimi \> Kurulum \> İş \> İş sınıfları** seçeneğine gidin.
@@ -151,6 +154,9 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
     - **İş sınıfı kodu:** *CrossDock*
 
 1. **Kaydet**'i seçin ve *51 Çapraz Sevk* şablonu için **Geçerli** onay kutusunun işaretlendiğini onaylayın.
+1. İsteğe bağlı: İş şablonunun kullanılacağı zamanı ve yeri denetlemek için ölçüt ayarlamak isterseniz **Sorguyu düzenle**'yi seçin.
+
+    Belirli iş şablonu kullanıldığında kontrol etmek için bir sorgu ayarlayabilirsiniz. Örneğin, bir şablonun yalnızca belirli bir konumda çalışacak şekilde kullanılabileceğini belirtebilirsiniz. Çapraz sevk iş şablonunun belirli bir konumda uygulanmasını isterseniz gelen işlemler (satınalma, çapraz sevk ve stok yenileme) için iş oluşturma, yerine koyma satırından başladığından **Konum** alanında değil, **Başlangıç konumu** alanında filtre uygulamanız gerekir. İş oluşturulduğunda konum yönergesi, **Konum** alanını yerine koyma konumu olarak ayarlar. Ancak çekme konumu, **Başlangıç konumu** alanında depolanır.
 
 > [!NOTE]
 > *Çekme* ve *Koyma* iş türleri için iş sınıfı kodları aynı olmalıdır.

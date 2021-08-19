@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b8779f0ece4f9befe612750ceb9c78e19a7a483
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 6d9331b8a8af74f86febff1d72538efa24aa6978f41a4c6b21375d1d6c856267
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748921"
 ---
 # <a name="public-sector-home-page"></a>Kamu sektörü giriş sayfası
 

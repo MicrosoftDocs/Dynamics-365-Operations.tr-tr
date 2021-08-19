@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 79eb7d750869ef365ad117ecc024afc8db2edbf7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 241892e8f6ea04616aa9c605b4a2019d2de0ebe868ee7ebc1d5b56f5ce172bd5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723515"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Ambar işlemleri için kalite yönetimi
 

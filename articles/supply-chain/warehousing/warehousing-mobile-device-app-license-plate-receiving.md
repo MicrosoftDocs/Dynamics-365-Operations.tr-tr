@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6bfa77f6d55e3b0a7a678ec552040a47514e4872a0a05e9f6e522eab2a5c11f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735027"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulaması aracılığıyla plaka teslim alma
 
