@@ -2,7 +2,7 @@
 title: Regulatory Configuration Services'teki (RCS) elektronik faturalamayı yapılandırma
 description: Bu konuda, Dynamics 365 Regulatory Configuration Services'te (RCS) Elektronik faturalamanın nasıl yapılandırılacağı açıklanmaktadır.
 author: gionoder
-ms.date: 05/19/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
-ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6075155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757986"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Regulatory Configuration Services'teki (RCS) elektronik faturalamayı yapılandırma
 
@@ -46,21 +46,13 @@ Elektronik faturalama özellikleri, Elektronik faturalama aracılığıyla elekt
 
 Son olarak, özellikler, vergi dairesi veya bazı onaylı kuruluşlar taraflardan barındırılan harici web hizmetleriyle ileti alışverişini ve elektronik faturada yetkilendirme veya onay damgası taleplerini desteklemektedir.
 
-### <a name="availability-of-electronic-invoicing-features"></a>Elektronik faturalama özelliklerinin kullanılabilirliği
+## <a name="availability-of-electronic-invoicing-features"></a>Elektronik faturalama özelliklerinin kullanılabilirliği
 
 Elektronik faturalama özelliklerinin kullanılabilirliği ülkeye veya bölgeye bağlıdır. Bazı özellikler genel kullanıma sunulsa da, diğerleri önizleme aşamasındadır.
 
-#### <a name="generally-available-features"></a>Genel kullanıma sunulan özellikler
+### <a name="generally-available-features"></a>Genel kullanıma sunulan özellikler
 
 Aşağıdaki tabloda, genel kullanıma sunulan elektronik faturalama özellikleri gösterilmektedir.
-
-| Ülke/bölge | Özellik adı                         | İş belgesi |
-|----------------|--------------------------------------|-------------------|
-| Mısır          | Mısır elektronik faturası (EG) | Satış faturaları ve proje faturaları |
-
-#### <a name="preview-features"></a>Önizleme özellikleri
-
-Aşağıdaki tabloda, şu anda önizleme aşamasında olan elektronik faturalama özellikleri gösterilmektedir.
 
 | Ülke/bölge | Özellik adı                         | İş belgesi |
 |----------------|--------------------------------------|-------------------|
@@ -68,17 +60,27 @@ Aşağıdaki tabloda, şu anda önizleme aşamasında olan elektronik faturalama
 | Belçika        | Belçika elektronik faturası (BE)      | Satış faturaları ve proje faturaları |
 | Brezilya         | Brezilya NF-e (BR)                  | Mali belge modeli 55, düzeltme mektupları, iptaller ve atmalar |
 | Brezilya         | Brezilya NFS-e ABRASF Curitiba (BR) | Hizmet mali belgeleri |
+| Brezilya         | Brezilya NF-e e-postadan içeri aktarma (BR) | Mali belge modeli 55 |
 | Danimarka        | Danimarka elektronik faturası (DK)       | Satış faturaları ve proje faturaları |
+| Mısır          | Mısır elektronik faturası (EG)     | Satış faturaları ve proje faturaları |
 | Estonya        | Estonya elektronik faturası (EE)     | Satış faturaları ve proje faturaları |
 | Finlandiya        | Finlandiya elektronik faturası (FI)      | Satış faturaları ve proje faturaları |
 | Fransa         | Fransa elektronik faturası (FR)       | Satış faturaları ve proje faturaları |
 | Almanya        | Alman elektronik faturası (DE)       | Satış faturaları ve proje faturaları |
 | İtalya          | FatturaPA (IT)                       | Satış faturaları ve proje faturaları |
-| Meksika         | Meksika CFDI (MX)                    | Satış faturaları, sevk irsaliyeleri, stok transferleri, ödeme tamamlayıcıları ve iptaller |
 | Hollanda    | Hollanda elektronik faturası (NL)        | Satış faturaları ve proje faturaları |
 | Norveç         | Norveç elektronik faturası (NO)    | Satış faturaları ve proje faturaları |
 | İspanya          | İspanya elektronik faturası (ES)      | Satış faturaları ve proje faturaları |
 | Avrupa         | PEPPEOL elektronik faturası            | PEPPOL satış faturaları ve proje faturaları |
+| Avrupa         | PEPPOL satıcı faturası                | PEPPOL satıcı faturalarını içeri aktarma |
+
+### <a name="preview-features"></a>Önizleme özellikleri
+
+Aşağıdaki tabloda, şu anda önizleme aşamasında olan elektronik faturalama özellikleri gösterilmektedir.
+
+| Ülke/bölge | Özellik adı                         | İş belgesi |
+|----------------|--------------------------------------|-------------------|
+| Meksika         | Meksika CFDI (MX)                    | Satış faturaları, sevk irsaliyeleri, stok transferleri, ödeme tamamlayıcıları ve iptaller |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>Elektronik faturalama özelliklerinin yapılandırılabilir bileşenleri
 
@@ -204,10 +206,10 @@ Aşağıdaki tabloda, kullanılabilir eylemler ve bunların şu anda genel kulla
 | Eylem                                        | Tanım                                                                  | Kullanılabilirlik         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Belgeyi dönüştür                            | Belgeyi dönüştürmek için Elektronik Raporlama biçimini çalıştırın.                   | Genel kullanılabilir  |
-| XML belgesini imzalama                             | Xml belgelerini dijital imzayla imzalayın.                                   | Ön izlemede           |
-| Mısır Vergi Dairesi için json belgesini imzalama | Mısır Vergi Dairesi için dijital imzalı json belgelerini imzalayın.       | Genel kullanılabilir  |
+| XML belgesini imzalama                             | Xml belgelerini dijital imzayla imzalayın.                                   | Genel kullanılabilir  |
+| Mısır Vergi Dairesi için json belgesini imzala | Mısır Vergi Dairesi için dijital imzalı json belgelerini imzalayın.       | Genel kullanılabilir  |
 | Mısır ETA hizmeti ile tümleştirme           | Mısır Vergi Dairesi ile iletişim kurun.                                     | Genel kullanılabilir  |
-| Brezilya SEFAZ Hizmetini çağırma                  | Mali belge gönderimi için Brezilya SEFAZ hizmeti ile tümleştirme yapın.       | Ön izlemede           |
+| Brezilya SEFAZ Hizmetini çağırma                  | Mali belge gönderimi için Brezilya SEFAZ hizmeti ile tümleştirme yapın.       | Genel kullanılabilir  |
 | Meksika PAC Hizmetini çağırma                      | CFDI gönderimi için Meksika PAC hizmetiyle tümleştirme yapın.                      | Ön izlemede           |
 | Yanıtı işle                              | Web hizmeti çağrısından alınan yanıtı analiz edin.                     | Genel kullanılabilir  |
 | MS kullanma Power Automate                         | Microsoft Power Automate'te yerleşik akışla tümleştirme yapın.                       | Ön izlemede           |

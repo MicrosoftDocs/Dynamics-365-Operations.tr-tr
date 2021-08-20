@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9f7d3648514bcdb3ad249c657f34ecc5e1d817d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d906ed3cb7af0af9e0137f878c39d5ad47616a783688ad70b1465bd0b2d470aa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763346"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
 

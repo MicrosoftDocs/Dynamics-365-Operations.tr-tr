@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a2d41dd0470a4abae1a8238be8f1549fb094a026
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bfc3f6898087445e0276994ceeb52c178785bf3604fa163939327e99a0564f64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795751"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753120"
 ---
 # <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>Perakende hareketlerini düzenlemek için bir Excel çalışma kitabı oluşturma
 

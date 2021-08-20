@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b495c9a02a872d4b360b5f7216b1db3f7d366daf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761338"
 ---
 # <a name="add-or-copy-leases-preview"></a>Kiralama ekleme veya kopyalama (Önizleme)
 

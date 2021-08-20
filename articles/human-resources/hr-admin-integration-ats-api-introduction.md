@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8dacca05c47f50099ca1420413ef80430b7ebf1850a799d1208328581699242d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357400"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751230"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Başvuran İzleme Sistemi tümleştirme API'si tanıtımı
 

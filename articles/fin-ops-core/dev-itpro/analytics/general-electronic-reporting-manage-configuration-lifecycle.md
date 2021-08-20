@@ -2,7 +2,7 @@
 title: Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
 description: Bu konu, Dynamics 365 Finance için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar.
 author: NickSelin
-ms.date: 04/13/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345750"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767791"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
 
@@ -82,20 +82,34 @@ Geliştirme ortamı içinde tasarlanan ER yapılandırmaları, yapılandırma de
 
 ![ER yapılandırma yaşam döngüsü.](./media/ger-configuration-lifecycle.png)
 
-## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Veri kalıcılığının dikkate alınması
+## <a name="data-persistence-consideration"></a>Veri kalıcılığının dikkate alınması
 
 Bir ER [yapılandırmasının](general-electronic-reporting.md#Configuration) farklı [sürümlerini](general-electronic-reporting.md#component-versioning) Finance kurulumunuza ayrı ayrı [aktarabilirsiniz](tasks/er-import-configuration-lifecycle-services.md). ER yapılandırmasının yeni bir sürümü içeri aktarıldığında sistem, bu yapılandırmanın taslak sürümünün içeriğini denetler:
 
-   - Geçerli Finance kurulumunda içe aktarılan sürüm bu yapılandırmanın en yüksek sürümünden daha düşükse, bu yapılandırmanın taslak sürümünün içeriği değişmeden kalır.
-   - İçeri aktarılan sürüm bu yapılandırmanın geçerli Finance kurulumundaki diğer herhangi bir sürümünden daha yüksek olduğunda, içeri aktarılan sürümün içeriği bu yapılandırmanın taslak sürümüne kopyalanır ve son tamamlanan sürümü düzenlemeye devam etmenize olanak tanır.
+- Geçerli Finance kurulumunda içe aktarılan sürüm bu yapılandırmanın en yüksek sürümünden daha düşükse, bu yapılandırmanın taslak sürümünün içeriği değişmeden kalır.
+- İçeri aktarılan sürüm bu yapılandırmanın geçerli Finance kurulumundaki diğer herhangi bir sürümünden daha yüksek olduğunda, içeri aktarılan sürümün içeriği bu yapılandırmanın taslak sürümüne kopyalanır ve son tamamlanan sürümü düzenlemeye devam etmenize olanak tanır.
 
 Bu yapılandırmanın sahibi etkinleştirilmiş olan yapılandırma [sağlayıcısıysa](general-electronic-reporting.md#Provider), bu yapılandırmanın taslak sürümü **Yapılandırmalar** sayfasının **Sürümler** hızlı sekmesinde size gösterilir (**Kuruluş yönetimi** > **Elektronik raporlama** > **Yapılandırmalar**). Yapılandırmanın taslak sürümünü seçebilir ve ilgili ER tasarımcısını kullanarak içeriğini [değiştirebilirsiniz](er-quick-start2-customize-report.md#ConfigureDerivedFormat). Bir ER yapılandırmasının taslak sürümünü düzenlediğinizde içeriği artık geçerli Finance kurulumundaki yapılandırmanın en yüksek sürümünün içeriğiyle eşleşmez. Değişikliklerinizin kaybolmasını önlemek için sistem, bu yapılandırmanın sürümünün geçerli Finance kurulumundaki yapılandırmanın en yüksek sürümünden yüksek olduğundan, içeri aktarmanın devam edemediğine ilişkin bir hata görüntüler. Bu durumda, örneğin **X** biçim yapılandırmasıyla **'X' biçimi sürümü tamamlanmadı** hatası görüntülenir.
 
 Taslak sürümünde yaptığınız değişiklikleri geri almak için, **Sürümler** hızlı sekmesinde, Finance içindeki en yüksek tamamlanmış veya paylaşılan sürümü ve ardından **Bu sürümü al** seçeneğini belirleyin. Seçili sürümün içeriği taslak sürümüne kopyalanır.
 
+## <a name="applicability-consideration"></a>Uygulanabilirlik değerlendirmesi
+
+ER yapılandırmasının yeni bir sürümünü tasarladığınızda diğer yazılım bileşenlerinde bunun [bağımlılığını](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) tanımlayabilirsiniz. Bu adım, bu yapılandırmanın sürümünü bir ER havuzundan veya harici bir XML dosyasından indirmeyi ve bu sürümün daha fazla kullanımını denetlemek için bir önkoşul olarak kabul edilir. ER yapılandırmasının yeni bir sürümünü içeri aktarmayı denediğinizde sistem, sürümün içeri aktarılıp aktarılamayacağını denetlemek için yapılandırılmış önkoşulları kullanır.
+
+Bazı durumlarda, ER yapılandırmalarının yeni sürümlerini içeri aktardığınızda sistemin yapılandırılmış önkoşulları yok sayması gerekebilir. İçeri aktarma sırasında sistemin önkoşulları yok sayması için şu adımları izleyin.
+
+1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
+2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
+3. **İçeri aktarma sırasında ürün güncelleştirmeleri ve sürüm önkoşulu denetimini atla** seçeneğini **Evet** olarak ayarlayın.
+
+    > [!NOTE]
+    > Bu parametre kullanıcıya özel ve şirkete özeldir.
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 
+[ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

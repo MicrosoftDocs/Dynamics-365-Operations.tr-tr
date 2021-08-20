@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769910"
 ---
 # <a name="expense-management-power-bi-content"></a>Gider yönetimi Power BI içeriği
 
