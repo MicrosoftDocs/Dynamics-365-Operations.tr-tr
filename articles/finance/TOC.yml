@@ -68,10 +68,12 @@
               items:
                 - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Finance'taki yenilikler veya değişiklikler
+                - name: Finance'teki yenilikler veya değişiklikler
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.21 (Ekim 2021)
+                      href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (Ağustos 2021)
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (Haziran 2021)
@@ -1168,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Office'te mali günlük şablonlarını açma
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Neden bu hareketi tersine çeviremiyorum?
+                  href: general-ledger/cant-reverse-transctns.md
         - name: Mali raporlama
           items:
             - name: Mali raporlamayı kullanmaya başlama
@@ -1498,12 +1502,16 @@
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Elektronik Faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Yeni bir Elektronik faturalama özelliği oluşturma
+                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Brezilya için Elektronik Faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Mısır için Elektronik Faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Meksika için Elektronik Faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Satıcı faturalarını içeri aktarmak için elektronik faturalama hizmetini kullanma
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronik Faturalamayı ayarlama
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronik Faturalama ile ilgili SSS
@@ -1514,8 +1522,12 @@
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Vergi Hesaplamayı kullanmaya başlama
                       href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                    - name: Satış vergisi uygulanabilirliği ve satış vergisi grubu belirleme mantığı
+                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Transfer emirleri için vergi özelliği desteği
                       href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Vergi dahil fiyatlar etkinleştirildiğinde fiyatın üzerine vergi hesaplama
+                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                     - name: Vergi yapılandırmalarına veri alanları ekleme
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
@@ -1528,6 +1540,10 @@
                       items:
                         - name: Birden çok KDV kaydı için raporlama
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Fransa için raporlama
+                          items:
+                            - name: KDV beyannamesi
+                          href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Hollanda için raporlama
                           items:
                             - name: KDV beyannamesi
@@ -1544,6 +1560,8 @@
               items:
                 - name: Avustralya'ya genel bakış
                   href: localizations/australia.md
+                - name: Avustralya bankaları için banka dosyası biçimleri
+                  href: localizations/apac-aus-bank-file-formats.md
                 - name: İş faaliyet raporu (BAS)
                   href: localizations/apac-aus-business-activity-statement.md
                 - name: Rapor kutuları ekleme ve BAS oluşturma
@@ -1552,6 +1570,8 @@
                   href: localizations/apac-aus-low-value-pool-depreciation.md
                 - name: BAS için neden kodlarını ayarlama
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
+                - name: Ödeme süreleri raporlama şeması
+                  href: localizations/apac-aus-payment-times-report.md
             - name: Avusturya
               items:
                 - name: Avusturya'ya genel bakış
@@ -1802,6 +1822,8 @@
                   href: localizations/china.md
                 - name: Çin'de 21Vianet tarafından işletilen Finance and Operations
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
+                - name: Çince fiş türleri için hesap grupları seçimi
+                  href: localizations/apac-chn-account-groups-selection.md
                 - name: Ürün reçetesi karşılaştırması
                   href: localizations/apac-chn-bom-comparison.md
                 - name: Hesap planının Çince hiyerarşisi
@@ -1870,6 +1892,10 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: KDV beyannamesi (Çek Cumhuriyeti)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Banka hesapları için banka sembolleri
+                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
+                - name: Topluluk içi KDV
+                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: Yıl sonu kapanışı
                   href: localizations/emea-cze-hun-year-end.md
             - name: Danimarka
@@ -1992,15 +2018,11 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: AB İnstrastat beyanı oluşturma
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                    - name: Fransızca İntrastat
-                      href: localizations/emea-fra-intrastat.md
-                    - name: İtalyanca İntrastat
-                      href: localizations/emea-ita-intrastat.md
                 - name: Stok günlüğü raporları
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Fatura düzenleme son tarihleri
                   href: localizations/emea-invoice-issue-deadline.md
-                - name: Fatura işleme
+                - name: Fatura işlemleri
                   href: localizations/emea-invoice-processing.md
                 - name: AB giriş sertifikası düzenleme
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
@@ -2120,6 +2142,8 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: Fransızca kambiyo senetleri ve senetler
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+                - name: Fransızca İntrastat
+                  href: localizations/emea-fra-intrastat.md
                 - name: NAF kodları ve siret numaraları
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: NAF kodlarını ve Siret numaralarını ayarlama
@@ -2138,6 +2162,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Müşterinin ödeme yöntemini güncelleştirme
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: KDV beyannamesi
+                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2 raporu
                   href: localizations/emea-fra-das2-report.md
             - name: Almanya
@@ -2162,6 +2188,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: KDV beyannamesinin elektronik iletimi (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Almanca İntrastat
+                  href: localizations/emea-deu-intrastat.md
                 - name: Almanya için KDV beyannamesi
                   href: localizations/emea-de-vat-declaration.md
                 - name: Elektronik müşteri faturaları raporu
@@ -2170,6 +2198,8 @@
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektronik vergi beyannameleri ayarlama
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
+                - name: Satışlardan kaynaklanan alacak faturaları için ayrı bir etiket yazdırma
+                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: Macaristan
               items:
                 - name: Macaristan'a genel bakış
@@ -2616,6 +2646,8 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Banka verileri kullanılabilirliği geliştirmesi
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: İtalyanca İntrastat
+                  href: localizations/emea-ita-intrastat.md
                 - name: Intrastat bildiriminde kilogram başına sair masraflar
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Niyet mektupları - Her zamanki ihracatçılar için faturalama
@@ -2836,6 +2868,8 @@
                   href: localizations/emea-ltu-isaf.md
                 - name: Litvanya için Vergi Standart Denetim Dosyası (SAF-T)
                   href: localizations/emea-ltu-saf-t.md
+                - name: Malların şirket içinde taşınması için transfer belgelerini ayarlama
+                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: Malezya
               items:
                 - name: Malezya'ya genel bakış
@@ -2970,14 +3004,18 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: BH/AH döviz kuru farkını bölme
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: Polonya için PKWiU kodlarını ayarlama ve kullanma
+                  href: localizations/emea-pol-pkwiu-code.md
                 - name: 'Kayıtlarla KDV beyannamesi (JPK_V7M, VDEK)'
-                  href: localizations/emea-pol-vdek.md
-                - name: JPK-V7M raporlama için hazırlama
-                  href: localizations/emea-pol-vdek-setup.md
-                - name: JPK-V7M raporlama
-                  href: localizations/emea-pol-vdek-reporting.md
-                - name: JPK-V7M raporundaki belirli iş senaryolarının ayrıntıları
-                  href: localizations/emea-pol-vdek-scenarios.md
+                  items:
+                    - name: 'Kayıtlarla KDV beyannamesine (JPK_V7M, VDEK) genel bakış'
+                      href: localizations/emea-pol-vdek.md
+                    - name: JPK-V7M raporlama için hazırlama
+                      href: localizations/emea-pol-vdek-setup.md
+                    - name: JPK-V7M raporlama
+                      href: localizations/emea-pol-vdek-reporting.md
+                    - name: JPK-V7M raporundaki belirli iş senaryolarının ayrıntıları
+                      href: localizations/emea-pol-vdek-scenarios.md
             - name: Katar
               items:
                 - name: Katar'a genel bakış
@@ -3200,6 +3238,8 @@
                       href: localizations/rus-reporting-deferrals.md
                 - name: Vergi muhasebesi
                   items:
+                    - name: Vergi kayıtları ve vergi kaydı günlüğü oluşturma
+                      href: localizations/rus-profit-tax-registers.md
                     - name: Gelir ve gider kodları
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Varlık vergisi kayıtları
@@ -3216,6 +3256,10 @@
                       href: localizations/rus-bad-debts.md
                     - name: Vergi kıymeti ve vergi borcu kayıtlarını hesaplama
                       href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
+                    - name: Mal taşınması için vergi kayıtları
+                      href: localizations/rus-goods-movement-tax-registers.md
+                    - name: Diğer vergi kayıtları
+                      href: localizations/rus-other-tax-registers.md
             - name: Suudi Arabistan
               items:
                 - name: Suudi Arabistan'a genel bakış
@@ -3304,8 +3348,6 @@
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Satış KDV'si raporu
                   href: localizations/apac-tha-sales-vat-report.md
-                - name: Satın alma hareketleri için ortalama KDV
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Stopaj vergisi
                   href: localizations/apac-tha-withholding-tax.md
             - name: Birleşik Arap Emirlikleri (BAE)

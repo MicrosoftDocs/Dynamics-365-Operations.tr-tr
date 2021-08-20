@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641140"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773549"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management sürüm 10.0.19'teki yenilikler ve değişiklikler (Haziran 2021)
 
@@ -35,6 +35,7 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 
 | Özellik alanı | Özellik | Daha fazla bilgi |
 |---|---|---|
+| Stok&nbsp;ve&nbsp;lojistik | [Satıcının gönderdiği banka ayrıntılarını onaylama ve kaydetme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [Satıcı banka hesabı bilgilerini koruma](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | Stok ve lojistik | [İlgili kişi veri varlığını dışa aktarma optimizasyonu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Bu özellik Etkinleştirildiğinde, başvurulan verilerde yapılan değişiklikler ilgili kişilerin sonraki artımlı dışa aktarma işlemine eklenmesine neden olmaz. Bu özellik devre dışı bırakıldığında, başvurulan verilerde yapılan değişiklikler ilgili kişilerin sonraki artımlı dışa aktarma işlemine eklenmesine neden lur. |
 | Stok ve lojistik | [Ölçek birimlerine sahip ambar yürütme yeteneği için artımlı geliştirmeler](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[İleti işlemci iletileri](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Ambar stoku düzeltmesi](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Stok ve lojistik | [Satış teklifi sayfasındaki Belge giriş ve Belge sonuç alanları için arama özelliği](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Bu özellik, **Satış teklifi** sayfasındaki **Belge giriş** ve **Belge sonuç** alanları için arama özelliği ekler.<br><br>Varsayılan olarak bu özellik etkindir. |

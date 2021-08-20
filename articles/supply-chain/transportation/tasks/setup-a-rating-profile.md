@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d359394ee0086edc5c8b9a3a0c48cf5933963ceb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: de5789e1b8e36fc52f308967961fe12389628209ff423e26928d1fb15395a08f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772388"
 ---
 # <a name="rating-profiles"></a>Değerlendirme profilleri
 

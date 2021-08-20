@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773525"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.20 (Ağustos 2021)
 
@@ -47,7 +47,6 @@ Aşağıdaki tabloda, bu sürümde yer alan özellik iyileştirmeleri yer almakt
 
 | Özellik alanı | Özellik&nbsp;yönetiminde&nbsp;özellik&nbsp;adı | Daha fazla bilgi |
 |---|---|---|
-| Master planlama | Planlama Optimizasyonu için Negatif günler | Bu özellik, Planlama İyileştirmesi'nin karşılama gruplarında tanımlanan **Negatif günler** parametresine göre gecikme toleransını dikkate almasını sağlar. |
 | Master planlama | Ayarlanan talep tahmininin paralel yetkilendirmesi | Bu özellik, ayarlanmış talep tahmin sayfasından **ayarlanmış talep tahmininin** paralel olarak yetkilendirilmeye olanak tanır. Yüksek sayıda tahminlerde yetki bulunduğunda, bu özelliğin amacı performansı artırmakla aynıdır. Yetkilendirilme sırasında, Kullanıcı, Yetkilendirme iletişim kutusundaki **iş parçacığı sayısını** belirtebilir. |
 | Master planlama | (Önizleme) Planlı toplu ve paketli siparişler için toplu iş olarak yürütülebilen kesinleştirme ve konsolidasyon | Bu özellik sayesinde planlı toplu paketli siparişleri kesinleştirmek ve konsolide etmek için toplu işleri kullanabilirsiniz. |
 | Üretim denetimi | Genel rotaları kopyala | Bu özellik, madde özel olmayan rotaları kullanıcıların kopyalamasına olanak tanımak için rotayı Kopyala işlevini geliştirir. Bir maddeye henüz atanmamış bir rotanın üzerine yazmak için rota işlevini Kopyala işlevi kullanıldıktan sonra, sistemin tüm ilgili bilgileri (tesis, rota grubu, kaynak gereksinimleri ve çeşitli saatler gibi) güncelleştirmesi için olanak tanır. |
