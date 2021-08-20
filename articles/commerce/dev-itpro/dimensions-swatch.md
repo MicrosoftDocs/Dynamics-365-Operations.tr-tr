@@ -2,7 +2,7 @@
 title: Ürün boyutu değerlerini renk örneği olarak görünecek şekilde yapılandırma
 description: Bu konuda, ürün boyutu değerlerinin Microsoft Dynamics 365 Commerce genel merkezde renk örnekleri olarak nasıl yapılandırılacağı açıklanmaktadır.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638306"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764626"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Ürün boyutu değerlerini renk örneği olarak görünecek şekilde yapılandırma
 
@@ -46,7 +46,7 @@ Aşağıdaki resimde, bir Commerc arama sonuçları liste sayfasındaki renkleri
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Commerce genel merkezinde görüntü boyutlarını renk örnekleri olarak etkinleştirme özelliği
 
-Commerce genel merkezinde renk örnekleri olarak görüntü boyutları özelliğini etkinleştirmek için **Çalışma Alanları \> Özellik yönetimi**'ne gidin ve **Ürün boyutu değerleri için görüntü desteğini etkinleştir** özelliğini açın. Bu özellik bayrağı etkinleştirildiğinde, Commerce genel merkezindeki uygun tablolarda her boyut için üç yeni alan eklenir: **Onaltılık**, **URL** (görüntüler için) ve **RefinerGroup**.
+Commerce genel merkezinde renk örnekleri olarak görüntü boyutları özelliğini etkinleştirmek için **Çalışma Alanları \> Özellik yönetimi**'ne gidin ve **Renk örneği olarak boyutları temsil edecek mekanizmayı etkinleştir** özelliğini açın. Bu özellik bayrağı etkinleştirildiğinde, Commerce genel merkezindeki uygun tablolarda her boyut için üç yeni alan eklenir: **Onaltılık**, **URL** (görüntüler için) ve **RefinerGroup**.
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>Commerce genel merkezinde boyut değerlerini yapılandırma
 
@@ -125,9 +125,22 @@ Renk örneklerinin PDF'ler ve liste sayfaları gibi boyut seçimi gerektiren e-t
 
 Ayrıca, arama sonuçları modülleri için **Ürün özniteliklerini arama sonuçlarına ekle** özelliğini etkinleştirmeniz gerekir. Siteniz özelleştirilmiş kategori sayfaları kullanıyorsa, bu sayfalarda kullanılan arama sonuçları modüllerini güncelleştirmeniz gerekir, böylece **ürün özniteliklerini arama sonuçlarına dahil et** özelliği etkinleştirilir. Daha fazla bilgi için bkz. [Arama sonuçları modülü](../search-result-module.md).
 
+## <a name="inventory-awareness-on-swatches"></a>Renk örneklerinde stok tanıma
+
+Renk örneklerinde, ürün çeşidi renginin veya boyutunun stok kullanılabilirliğini gösteren isteğe bağlı bir özellik vardır. Örneğin, bir ürün birden çok boyutta satılır ancak bazı boyutlar stokta yoktur. Bu durumda, stok dışı ürünlerin renk örnekleri, kullanılabilir olmadıklarını göstermek için farklı şekilde işlenir. Bu özellik, ürün kullanılabilirliğini belirlemek için gerekli olan müşteri tıklaması sayısını azaltmaya yardımcı olur.
+
+Renk örneği stok kullanılabilirliği özelliği, renk örneklerinin görüntülendiği PDP'lerde ve arama veya kategori listesi sayfalarında kullanılmak üzere yapılandırılabilir. Etkinleştirmek için [ortam galerisi modülünde](../media-gallery-module.md) **Boyut seçiminde ortamı güncelleştirme** özelliğini **Doğru** olarak ayarlamanız gerekir. Bu ayar, boyutlar seçildiğinde ortam galerisi görüntülerinin güncelleştirilmesini sağlar. 
+
+> [!IMPORTANT]
+> Renk örneği stok kullanılabilirliği özelliği, Commerce 10.0.21 sürümü itibarıyla kullanılabilir. Bunun için Commerce modül kitaplığı paketi sürüm 9.31'in yüklü olması gerekir.
+
+Aşağıdaki çizimde, bir PDP'nin boyut renk örneklerinde stok tanıma örneği gösterilmektedir.
+
+![Bir PDP'nin boyut renk örneklerinde stok tanıma örneği](../dev-itpro/media/swatch_inventory.png)
+
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Renk örneklerini POS ve diğer kanallarda görüntüleme
 
-Commerce şu anda Satış Noktası (POS) ve diğer kanallarda renk örneklerinin görüntülenmesini destekleyen ilk çalıştırma uygulamasına sahip değildir. Ancak, renk örneği görüntüleme işlevini, kanal API'lerinin renk örneklerini işlemek için gereken onaltılık kodları ve görüntü URL'lerini döndürmesini sağlayan bir uzantı olarak uygulayabilirsiniz.
+Commerce şu anda satış noktası (POS) ve diğer kanallarda renk örneklerinin görüntülenmesini destekleyen ilk çalıştırma uygulamasına sahip değildir. Ancak kanal API'leri renk örneklerini işlemek için gereken onaltılık kodları ve görüntü URL'lerini döndürdüğünden renk örneği görüntüleme işlevini bir uzantı olarak uygulayabilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

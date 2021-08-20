@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8a186a4ac58115f3ff855e0a16429dc0778a18c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 53c475402d9f81b469469874ab961ef686ea3730df2ac4a55164b1042716592d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816400"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771239"
 ---
 # <a name="service-intervals"></a>Servis aralıkları
 
