@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740707"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -142,7 +142,7 @@ Aşağıdaki iş emri türleri şu anda ölçek birimi dağıtımlarında WES i�
 
 - Satış siparişleri
 - Transfer sorunu
-- Stok yenileme
+- Stok yenileme (üretim için hammadde dahil değildir)
 - Stok hareketi
 - Döngü sayımı
 - Satış siparişleri (ambar siparişlerine bağlı)
@@ -298,6 +298,7 @@ Aşağıdaki tablo, ambar yönetimi üretim senaryolarının hangilerinin geçer
 | Tamamlandı ve tamalanan ürünler kaldırıldı olarak bildirme | Evet | Evet |
 | Yerine konan ortak ürün ve yan ürün | Evet | Evet |
 | <p>Üretimle ilgili diğer tüm ambar yönetim süreçleri, aşağıdakiler dahil olmak üzere:</p><li>Ambara serbest bırak</li><li>Üretim dalgası işleme</li><li>Hammadde çekme</li><li>Kanban yerine koyma</li><li>Kanban çekme</li><li>Üretim emrini başlat</li><li>Üretim ıskartası</li><li>Üretimdeki son palet</li><li>Malzeme tüketimini kaydet</li><li>Kanban boş</li></ul> | Evet | No |
+| Hammadde stok yenilemesi | No | No |
 
 ## <a name="maintaining-scale-units-for-wes"></a>WES için ölçek birimleri bakımı
 

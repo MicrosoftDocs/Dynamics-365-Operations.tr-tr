@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e47c3f998b563c775da77c48edcb7b8abcba4a04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 89ff650b0813318573fa273533ba31b57e35696a551105cca7e1a247099b218f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824498"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739718"
 ---
 # <a name="service-orders"></a>Servis siparişleri   
 

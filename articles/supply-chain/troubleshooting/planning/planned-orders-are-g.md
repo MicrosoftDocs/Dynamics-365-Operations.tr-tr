@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: anderso
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1ea4bdb3729d163126234e02524cef331051cd48
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: f3170bcb723e2d7483258bb0ecf786e62f2aa3d196745074c2ac554bc212ec55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026990"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742016"
 ---
 # <a name="master-planning-generates-planned-orders-for-phantom-products"></a>Master planlama, hayali ürünler için planlı siparişler oluşturuyor
 

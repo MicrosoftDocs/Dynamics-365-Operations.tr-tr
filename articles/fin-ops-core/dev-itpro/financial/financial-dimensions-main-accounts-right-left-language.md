@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: rcarlson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26fd186415db0adf01b8c53b188171fcf86fbc88
-ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
+ms.openlocfilehash: b583c1a286167ca8ca042dac647d57140a63639bb1da2218e966c5f18f04d204
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6111674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739481"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar
 

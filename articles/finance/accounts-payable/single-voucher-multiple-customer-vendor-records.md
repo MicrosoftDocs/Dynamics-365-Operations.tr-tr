@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9c321315f91de6cf0f2029c26bd4f398a73830
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6194013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737053"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 

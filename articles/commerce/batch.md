@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2453ed711d47e062c82d3888ff471b770b5bb2ef
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3bea1d73325596458bafd9f952e69809b174c386eb2c053daa0a2b5b4bed4de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739574"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Toplu işle izlenen maddeler için geliştirilmiş işleme
 

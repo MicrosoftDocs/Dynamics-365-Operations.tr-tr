@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740851"
 ---
 # <a name="copy-an-instance"></a>Örnek kopyala
 
@@ -52,9 +52,9 @@ Bir İnsan Kaynakları veritabanını kopyaladığınızda aşağıdaki olaylar 
 
 - Microsoft Azure Blob depolama birimindeki belgeler bir ortamdan diğerine kopyalanmaz. Bunun sonucunda, ekli tüm belge ve şablonlar kopyalanmaz ve kaynak ortamda kalır.
 
-- Yönetici kullanıcı dışındaki tüm kullanıcı hesapları ve iç hizmet kullanıcıları devre dışı bırakılacak. Yönetici kullanıcı, diğer kullanıcılar sisteme geri dönmeden önce verileri silebilir veya karartırabilir.
+- "Sistem Yöneticisi" güvenlik rolüne ve diğer iç hizmet kullanıcı hesaplarına sahip olanlar haricindeki tüm kullanıcılar kullanılamaz. Yönetici kullanıcı, diğer kullanıcılar sisteme geri dönmeden önce verileri silebilir veya karartırabilir.
 
-- Yönetici kullanıcının, belirli hizmetlere veya URL'lere tümleştirme son noktalarına yeniden bağlanması gibi gerekli yapılandırma değişikliklerini yapması gerekir.
+- "Sistem Yöneticisi" güvenlik rolüne sahip kullanıcılar, tümleştirme uç noktalarını belirli hizmetlere veya URL'lere yeniden bağlama gibi gerekli yapılandırma değişikliklerini yapmalıdır.
 
 ## <a name="copy-the-human-resources-database"></a>İnsan Kaynakları veritabanını Kopyala
 
@@ -71,11 +71,11 @@ Bu görevi tamamlamak için, önce bir örneği kopyalayın ve sonra Power Apps 
 
 4. **Örneği kopyala** görev bölmesinde, üzerine yazılacak örneği seçin ve sonra **Kopyala**'yı seçin. **Kopyalama durumu** alanı değerinin **tamamlandı** olarak güncelleştirilmesini bekleyin.
 
-   ![[Üzerine yazılacak örneği seçme.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Üzerine yazılacak kurulumu seçin.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. **Power Platform**'u seçin ve Microsoft Power Platform Yönetim Merkezi'nde oturum açın.
 
-   ![[Power Platform seçme.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Power Platform'u seçin.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Kopyalanacak Power Apps ortamını seçin ve sonra **Kopyala**'yı seçin.
 
@@ -111,7 +111,7 @@ Ortama özel oldukları için bu öğelerden bazıları kopyalanmaz. **BatchServ
 
 Bir örneği kopyaladığınızda aşağıdaki durumlar da değişir:
 
-- Yönetici dışındaki tüm kullanıcılar **devre dışı** olarak ayarlandı.
+- "Sistem Yöneticisi" güvenlik rolüne sahip olanlar haricindeki tüm kullanıcılar **Devre Dışı** olarak ayarlanır.
 
 - Bazı sistem işleri hariç, tüm toplu işler **stopaj** olarak ayarlanmıştır.
 
