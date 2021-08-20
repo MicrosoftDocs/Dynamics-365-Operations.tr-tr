@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e0bade4066cc65086f864cba29b21201965ac3ea12191240a74c0f46645a2aac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722427"
 ---
 # <a name="archive-inventory-transactions"></a>Stok hareketlerini arşivleme
 

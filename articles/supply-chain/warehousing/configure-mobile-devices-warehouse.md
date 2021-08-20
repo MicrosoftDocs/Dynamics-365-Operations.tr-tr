@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 657dd864885bc7c8216aab95a73f389f21f7cccd
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: acf5e191f1d4b12a59490a5ab8f222c5351886c33eedcb8833921541d1bda7d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102938"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736587"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 

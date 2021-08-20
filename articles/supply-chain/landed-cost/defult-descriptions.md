@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 25dd72c86b22b50eccef22a5d2cbcfcf04280684
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c68d0ae43ee2350225a0a0e32578f300b8faebe18aa575a5f737a49fd4c0c1a3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736731"
 ---
 # <a name="default-descriptions-for-the-general-ledger"></a>Genel muhasebe için varsayılan açıklamalar
 

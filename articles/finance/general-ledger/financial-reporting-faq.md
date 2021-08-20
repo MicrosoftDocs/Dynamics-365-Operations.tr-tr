@@ -2,7 +2,7 @@
 title: Mali raporlama ile ilgili SSS
 description: Bu konuda, Mali raporlama hakkında sık sorulan bazı soruların yanıtları sağlanmaktadır.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733623"
 ---
 # <a name="financial-reporting-faq"></a>Mali raporlama ile ilgili SSS
 
@@ -77,5 +77,29 @@ Bu ileti, Mali raporlama kullanılırken sistem veri reyonunda mali meta veriler
 
 - Report Designer'da **Araçlar \> Tümleştirme durumu**'na giderek verilerin tümleştirme durumunu inceleyin. Tümleştirme tamamlanmamışsa tamamlanmasını bekleyin. Ardından, iletiyi aldığınızda yaptığınız işlemi yeniden deneyin.
 - Sorunu tanımlamak ve üzerinde çalışmak için Destek ile iletişime geçin. Sistemde tutarsız veriler olabilir. Destek mühendisleri, bu sorunu sunucuda tanımlamanıza ve güncelleştirme gerektirebilecek belirli verileri bulmanıza yardımcı olabilir.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Geçmiş kuru dönüştürme işleminin seçimi rapor performansını nasıl etkiler?
+
+Geçmiş kur genellikle yedek akçe, kaynak, tesis, ekipman ve öz varlık hesaplarıyla birlikte kullanılır. Geçmiş kur, Mali Muhasebe Standartları Kurulu (FASB) veya genel kabul görmüş muhasebe ilkeleri (GAAP) yönergelerine göre gerekli olabilir. Daha fazla bilgi için bkz. [Mali raporlamada para birimi özellikleri](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>Kaç çeşit döviz kuru vardır?
+
+Üç tür kur vardır:
+
+- **Geçerli kur**: Bu tür genellikle bilanço hesaplarında kullanılır. Genellikle *spot döviz kuru* olarak bilinir ve ayın son günü veya önceden belirlenmiş başka bir tarihteki kur olabilir.
+- **Ortalama kur**: Bu tür genellikle gelir tablosu (kar/zarar) hesaplarında kullanılır. Ortalama kuru, basit ortalama veya ağırlıklı ortalama hesaplayacak şekilde ayarlayabilirsiniz.
+- **Geçmiş kur**: Bu tür genellikle yedek akçe, kaynak, tesis, ekipman ve öz varlık hesaplarıyla birlikte kullanılır. Bu hesaplar, FASB veya GAAP yönergelerine göre gerekli olabilir.
+
+## <a name="how-does-historical-currency-translation-work"></a>Geçmiş para birimi dönüştürme nasıl işler?
+
+Kurlar hareket tarihine özgüdür. Bu nedenle her hareket, en yakın döviz kuruna göre ayrı ayrı dönüştürülür.
+
+Geçmiş para birimi dönüştürmede, ayrı ayrı hareket ayrıntıları yerine önceden hesaplanmış dönem bakiyeleri kullanılabilir. Bu davranış, geçerli kuru dönüştürme davranışından farklıdır.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>Geçmiş para birimi dönüştürme performansı nasıl etkiler?
+
+Raporlarda sunulan veriler güncelleştirildiğinde hareket ayrıntıları denetlenerek tutarların yeniden hesaplanması gerektiğinden gecikme olabilir. Bu gecikme, kurlar her güncelleştirildiğinde veya daha fazla hareket deftere nakledildiğinde tetiklenir. Örneğin, geçmiş dönüştürme işlemi için günde birkaç kez binlerce hesap ayarlanıyorsa rapordaki verilerin güncelleştirilmesinden önce bir saat kadar gecikme olabilir. Diğer taraftan belirtilen hesaplar daha az sayıdaysa rapor verilerindeki güncelleştirmeler için işleme süresi dakikalara veya daha kısa bir süreye düşürülebilir.
+
+Benzer şekilde geçmiş türü hesaplar için para birimi dönüştürme kullanılarak raporlar oluşturulduğunda harekat başına ek hesaplamalar yapılır. Hesap sayısına bağlı olarak rapor oluşturma süresi iki kat fazla olabilir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

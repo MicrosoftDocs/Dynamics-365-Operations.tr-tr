@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ad2a86fbc17f107a065330a56da6cdcca69e172
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352578"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736416"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Commerce ortamında birden fazla B2C kiracısı yapılandırma
 

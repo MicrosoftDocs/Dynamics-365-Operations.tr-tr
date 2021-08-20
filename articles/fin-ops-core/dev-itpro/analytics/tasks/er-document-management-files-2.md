@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e79dd0a6c68aa6ba7b857c31c9159c68543d93b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d20738fbdfd85390870c935576d954d3050029f557fe8b5b690329f9e4a0aab4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733761"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-2---extend-data-model"></a>ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 2 - Veri modelini genişletme)
 

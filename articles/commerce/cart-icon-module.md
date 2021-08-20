@@ -2,7 +2,7 @@
 title: Sepet simgesi modülü
 description: Bu konu sepet simgesi modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ın site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9e3850d98e716d1bbea2017f6e8c9d75f19adc9
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735690"
 ---
 # <a name="cart-icon-module"></a>Sepet simgesi modülü
 
@@ -35,9 +35,14 @@ Aşağıdaki resimde, Fabrikam üstbilgisinde mini sepet görüntüleyen bir al�
 
 ## <a name="module-properties"></a>Modül özellikleri
 
-- **Mini sepeti göster** – Doğru olduğunda, bu özellik sepet simgesi üzerine gelindiğinde sepet özetinin (mini sepet) görüntülenmesini sağlar. Bu işlev yalnızca masaüstü görünüm bağlantı noktaları için desteklenir.
+- **Mini sepeti göster**: Bu özellik **Doğru** olarak ayarlandığında, kullanıcılar sepet simgesinin üzerine geldiğinde sepet özeti (mini sepet) gösterilir. Bu işlev yalnızca masaüstü görünüm bağlantı noktaları için desteklenir.
+- **Anonim ödemeye izin ver**: Bu özellik **Doğru** olarak ayarlandığında mini sepet, oturum açmayan kullanıcıların konuk ödemesi yapmasına olanak tanır. Bu özellik, Commerce modül kitaplığı paketinin parçası olarak Commerce 10.0.21 sürümünde kullanılabilir.
+- **Öğelerin sırası**: Bu özellik, öğelerin mini sepette görüntülenme sırasını denetler. **Yeni öğeler listenin üst kısmına eklenir** seçeneği belirlendiğinde sepete eklenen yeni öğeler, mini sepet öğeleri listesinin üst kısmında görüntülenir. **Yeni öğeler listenin alt kısmına eklenir** varsayılan seçeneği belirlendiğindeyse sepete eklenen yeni öğeler, mini sepet öğeleri listesinin alt kısmında görüntülenir. Bu özellik, Commerce modül kitaplığı paketinin parçası olarak Commerce 10.0.21 sürümü itibarıyla kullanılabilir.
 
-## <a name="module-properties-in-the-adventure-works-theme"></a>Adventure Works temasında modül özellikleri
+> [!IMPORTANT]
+> **Anonim ödemeye izin ver** ve **Öğelerin sırası** özellikleri, Commerce 10.0.21 sürümü itibarıyla kullanılabilir. Bu özellikler için Commerce modül kitaplığı paketi sürüm 9.31'in yüklü olması gerekir.
+
+## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Adventure Works temasında modül özellikleri ve yuvalar
 
 Adventure Works temalarında, sepet simge modülü mini sepet için iki ek yuva içerir. Bu yuvalar, modül tanımı uzantısı olarak bulunur.
 

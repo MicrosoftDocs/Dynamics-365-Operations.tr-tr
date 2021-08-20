@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 174b80adbe61c455983307c6065b75704ce93ce9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a30c1efd2fa37a5fb192156ab6edf1d57be8cad36c781f236385fc6884bda097
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736707"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Varış yeri maliyetlerini tahmin etme ve yönetme
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 296e11befb0dc916faab2eb0388188852bc3ceb6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 311c907cdb91a1ad87c7dac45c273810fea5cfd53dce3013dda870c1932b3a25
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736100"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (10 Mart 2020)
 
