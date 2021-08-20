@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: bf7211d3e922fb7ad6b66f6ec70ffc2fe7b5db81
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 80f1a019408dfcfc972127d7cc5f1d353bbbf1e6c8631cfc4fe1683cba5f6abe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763975"
 ---
 # <a name="delivery-alternatives"></a>Teslimat alternatifleri
 

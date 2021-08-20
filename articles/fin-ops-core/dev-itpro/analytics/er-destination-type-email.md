@@ -2,7 +2,7 @@
 title: E-posta ER hedef türü
 description: Bu konuda, Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için e-posta hedefinin nasıl yapılandırılacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 12/03/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348008"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769331"
 ---
 # <a name="email-er-destination-type"></a>E-posta ER hedef türü
 
@@ -42,23 +42,43 @@ Ayrıca, birden fazla **Klasör** veya **Dosya** bileşenini bir arada [grupland
 
 Tek bir ER biçimi yapılandırması için birden çok bileşen grubu yapılandırılabilir. Bu şekilde, her bileşen grubu için bir e-posta hedefi ve tüm bileşenler için bir e-posta hedefi yapılandırabilirsiniz.
 
-## <a name="configure-an-email-destination"></a>E-posta hedefi yapılandırma
+## <a name="enable-an-email-destination"></a>E-posta hedefi etkinleştirme
 
-Bir veya birden fazla çıkış dosyasını e-postayla göndermek için **Elektronik raporlama hedefi** sayfasındaki **Dosya hedefi** hızlı sekmesinde ızgaradan bir bileşen veya bileşen grubu seçin ve ardından **Ayarlar**'ı seçin. Gösterilen **Hedef ayarları** iletişim kutusundaki **E-posta** sekmesinde **Etkin** seçeneğini **Evet** olarak ayarlayın. Ardından e-posta alıcılarını belirtebilir ve e-posta iletisinin konusunu ve metnini düzenleyebilirsiniz. E-posta metni ve konusu için sabit bir metin ayarlayabilir veya ER [formüllerini](er-formula-language.md) kullanarak dinamik e-posta metinleri oluşturabilirsiniz.
+E-posta ile bir veya daha fazla çıktı dosyası göndermek için şu adımları izleyin.
 
-E-posta adreslerini ER içerisinde iki şekilde yapılandırabilirsiniz. Yapılandırma, aynen Yazdırma Yönetimi özelliğinin tamamladığı şekilde tamamlanabilir veya bir formülle bir e-posta yapılandırmasına doğrudan başvuru kullanarak bir e-posta adresini çözümleyebilirsiniz.
+1. **Elektronik raporlama hedefi** sayfasında, **Dosya hedefi** hızlı sekmesinde ızgaradaki bir bileşeni veya bileşen grubunu seçin.
+2. **Ayarları**'ı seçin ve ardından **Hedef ayarları** iletişim kutusundaki **E-posta** sekmesinde **Etkin** seçeneğini **Evet** olarak ayarlayın.
 
 [![E-posta hedefi için Etkin seçeneğini Evet olarak ayarlama.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
+## <a name="configure-an-email-destination"></a>E-posta hedefi yapılandırma
+
+E-postayı göndereni ve e-posta alıcılarını belirtebilir ve e-postanın konusunu ve metnini düzenleyebilirsiniz. E-posta metni ve konusu için sabit metin ayarlayabilir veya ER [formüllerini](er-formula-language.md) kullanarak dinamik e-posta metinleri oluşturabilirsiniz.
+
+Varsayılan olarak, geçerli kullanıcı adına bir e-posta gönderilir. Farklı bir e-posta göndereni belirtmek için **Kimden** alanını yapılandırmanız gerekir.
+
+> [!NOTE]
+> E-posta hedefi yapılandırıldığında **Kimden** alanı yalnızca `ERFormatDestinationSenderEmailConfigure` güvenlik ayrıcalığına sahip kullanıcılar tarafından görülebilir, **ER biçim hedefleri için gönderen e-posta adresini yapılandırın**.
+>
+> E-posta hedefi [çalıştırma zamanında](electronic-reporting-destinations.md#security-considerations) değiştirme için teklif edildiğinde **Kimden** alanı yalnızca `ERFormatDestinationSenderEmailMaintain` güvenlik ayrıcalığına sahip kullanıcılar tarafından görülebilir, **ER biçim hedefi için gönderen e-posta adresini koruyun**.
+>
+> Geçerli kullanıcınınkinden farklı bir e-posta adresi kullanmak için **Kimden** alanı yapılandırıldığında **Farklı gönder** veya **Adına gönder** izni önceden doğru şekilde [ayarlanmalıdır](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide). Aksi takdirde, çalıştırma zamanında şu özel durum oluşur: "E-posta, \<current user account\> hesabından \<from email account\> adına gönderilemiyor, lütfen \<from email account\> hesabında "Farklı gönder" izinlerini kontrol edin."
+
+Bir e-posta adresinden fazlasını döndürmek için **Kimden** alanını yapılandırabilirsiniz. Bu durumda, listedeki ilk adres e-posta gönderen adresi olarak kullanılır.
+
+E-posta alıcılarını belirtmek için **Kime** ve **Bilgi** (isteğe bağlı) alanlarını yapılandırmanız gerekir.
+
+E-posta adreslerini ER içerisinde iki şekilde yapılandırabilirsiniz. Yapılandırma, aynen Yazdırma Yönetimi özelliği ile aynı şekilde tamamlanabilir veya bir formülle bir e-posta yapılandırmasına doğrudan başvuru kullanarak e-posta adresini çözümleyebilirsiniz.
+
 ## <a name="email-address-types"></a>E-posta adresi türleri
 
-**Hedef ayarları** iletişim kutusundaki **Kime** veya **Bilgi** alanının yanındaki **Düzenle**'yi seçerseniz **E-posta gönderilecek adres** iletişim kutusu gösterilir. **Ekle**'yi seçin ve ardından kullanılacak e-posta adresinin türünü seçin. Şu anda **Yazdırma Yönetimi e-postası** ve **Yapılandırma e-postası** olmak üzere iki tür e-posta desteklenmektedir.
+**Hedef ayarları** iletişim kutusunda **Kimden**, **Kime** veya **Bilgi** alanının yanındaki **Düzenle**'yi seçerseniz uygun **E-postanın geldiği adres**, **E-postanın gönderileceği adres** veya **E-posta bilgi** iletişim kutusu görüntülenir. Burada, e-postayı göndereni ve e-posta alıcılarını yapılandırabilirsiniz. **Ekle**'yi seçin ve ardından kullanılacak e-posta adresinin türünü seçin. Şu anda **Yazdırma Yönetimi e-postası** ve **Yapılandırma e-postası** olmak üzere iki tür e-posta desteklenmektedir.
 
 [![E-posta adresinin türünü seçme.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Yazdırma Yönetimi e-postası
 
-E-posta adresi türü olarak **Yazdırma Yönetimi e-postası**'nı seçerseniz aşağıdaki alanları ayarlayarak **E-posta gönderilecek kişi** iletişim kutusuna sabit e-posta adresleri girebilirsiniz:
+E-posta adresi türü olarak **Yazdırma Yönetimi e-postasını** seçerseniz aşağıdaki alanları ayarlayarak **E-postanın geldiği adres**, **E-postanın gönderileceği adres** veya **E-posta bilgi** iletişim kutusuna sabit e-posta adresleri girebilirsiniz:
 
 - **E-posta kaynağı** alanında **Hiçbiri** seçeneğini belirleyin.
 - **";" ile ayrılan ek e-posta adresleri** alanına sabit e-posta adreslerini girin.
@@ -74,6 +94,7 @@ Alternatif olarak, giden belge oluşturduğunuz tarafın ilgili kişi ayrıntıl
 - Başvuran
 - Olası satıcı
 - Onaylanmamış satıcı
+- Tüzel kişilik
 
 Örneğin, satıcı ödemelerini işlemek amacıyla kullanılan bir ER biçimi için e-posta hedefi yapılandırırken **Satıcı** rolünü seçin.
 
@@ -106,7 +127,7 @@ Bunun yerine, [Genel adres defteri](../../fin-ops/organization-administration/ov
 
 ### <a name="configuration-email"></a>Konfigürasyon e-postası
 
-Kullandığınız yapılandırmanın veri kaynaklarında tek bir e-posta adresi veya noktalı virgüllerle (;) ayrılan birden fazla e-posta adresi döndüren bir düğüm varsa e-posta adresi türü olarak **Yapılandırma e-postası**'nı seçin. Doğru biçimlendirilmiş bir e-posta adresi veya noktalı virgüllerle ayrılan doğru biçimlendirilmiş e-posta adresleri almak için formül tasarımcısında [veri kaynaklarını](general-electronic-reporting.md#FormatComponentOutbound) ve [işlevleri](er-formula-language.md#functions) kullanabilirsiniz. Örneğin, **ISO 20022 Borç Transferi** yapılandırmasını kullanıyorsanız, kapak yazısının gönderilmesi gereken satıcı ilgili kişisi ayrıntılarından alınan satıcı birincil e-posta adresini temsil eden düğüm `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` düğümüdür.
+Kullandığınız yapılandırmanın veri kaynaklarında tek bir e-posta adresi veya noktalı virgüllerle (;) ayrılan birden fazla e-posta adresi döndüren bir düğüm varsa e-posta adresi türü olarak **Yapılandırma e-postası**'nı seçin. Doğru biçimlendirilmiş bir e-posta adresi veya noktalı virgüllerle ayrılan doğru biçimlendirilmiş e-posta adresleri almak için formül tasarımcısında [veri kaynaklarını](general-electronic-reporting.md#FormatComponentOutbound) ve [işlevleri](er-formula-language.md#Functions) kullanabilirsiniz. Örneğin, **ISO 20022 Borç Transferi** yapılandırmasını kullanıyorsanız, kapak yazısının gönderilmesi gereken satıcı ilgili kişisi ayrıntılarından alınan satıcı birincil e-posta adresini temsil eden düğüm `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` düğümüdür.
 
 [![Bir e-posta adresi kaynağını yapılandırma.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

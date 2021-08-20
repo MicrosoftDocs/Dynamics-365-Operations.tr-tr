@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 057dfd841524ad331aadb2ceca762a867d47fa86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: df23be9a657b7001b4974e7802a507c0c54a18dacb46354a68699d759827e941
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751970"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749592"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Mevcut personeli işe alma yoluyla istihdam etme
 

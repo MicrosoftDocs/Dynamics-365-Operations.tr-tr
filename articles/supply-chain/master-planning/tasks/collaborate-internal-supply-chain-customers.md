@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e663be2a24df8b208bd3902933259ac281db9f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 131615d3087ec9fac16f757d89c526c177f26e2ab7b2ef6560bb8b02c4dbc88e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766062"
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>İç tedarik zinciri müşterileriyle iş birliği
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 5093e42b0b5247c24c271ad50c80889516586d58
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 4760a87bdcf0f109d5f78dae289446efa12bf359e7fe4b4beb0a983f68d95f34
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020899"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758628"
 ---
 # <a name="shipping-information-setup"></a>Sevkiyat bilgileri kurulumu
 

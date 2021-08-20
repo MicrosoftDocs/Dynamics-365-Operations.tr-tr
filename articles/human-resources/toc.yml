@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 26 Temmuz 2021
+          href: hr-whats-new-2021-07-26.md
         - name: 12 Temmuz 2021
           href: hr-whats-new-2021-07-12.md
         - name: 22 Haziran 2021
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: 21 Ocak 2021
           href: hr-whats-new-2021-01-21.md
-        - name: 2 Aralık 2020
-          href: hr-whats-new-2020-12-02.md
-        - name: 22 Ekim 2020
-          href: hr-whats-new-2020-10-22.md
-        - name: 6 Ekim 2020
-          href: hr-whats-new-2020-10-06.md
-        - name: 26 Eylül 2020
-          href: hr-whats-new-2020-09-26.md
-        - name: 16 Eylül 2020
-          href: hr-whats-new-2020-09-16.md
-        - name: 3 Eylül 2020
-          href: hr-whats-new-2020-09-03.md
-        - name: 20 Ağustos 2020
-          href: hr-whats-new-2020-08-20.md
-        - name: 6 Ağustos 2020
-          href: hr-whats-new-2020-08-06.md
-        - name: 23 Temmuz 2020
-          href: hr-whats-new-2020-07-23.md
-        - name: 8 Temmuz 2020
-          href: hr-whats-new-2020-07-08.md
-        - name: 25 Haziran 2020
-          href: hr-whats-new-2020-06-23.md
-        - name: 11 Haziran 2020
-          href: hr-whats-new-2020-06-11.md
-        - name: 28 Mayıs 2020
-          href: hr-whats-new-2020-05-28.md
-        - name: 14 Mayıs 2020
-          href: hr-whats-new-2020-05-14.md
-        - name: 1 Mayıs 2020
-          href: hr-whats-new-2020-05-01.md
-        - name: 2020 Yenilik Arşivleri
+        - name: Yeniliklere ilişkin arşivler 2020
           items:
+            - name: 2 Aralık 2020
+              href: hr-whats-new-2020-12-02.md
+            - name: 22 Ekim 2020
+              href: hr-whats-new-2020-10-22.md
+            - name: 6 Ekim 2020
+              href: hr-whats-new-2020-10-06.md
+            - name: 26 Eylül 2020
+              href: hr-whats-new-2020-09-26.md
+            - name: 16 Eylül 2020
+              href: hr-whats-new-2020-09-16.md
+            - name: 3 Eylül 2020
+              href: hr-whats-new-2020-09-03.md
+            - name: 20 Ağustos 2020
+              href: hr-whats-new-2020-08-20.md
+            - name: 6 Ağustos 2020
+              href: hr-whats-new-2020-08-06.md
+            - name: 23 Temmuz 2020
+              href: hr-whats-new-2020-07-23.md
+            - name: 8 Temmuz 2020
+              href: hr-whats-new-2020-07-08.md
+            - name: 25 Haziran 2020
+              href: hr-whats-new-2020-06-23.md
+            - name: 11 Haziran 2020
+              href: hr-whats-new-2020-06-11.md
+            - name: 28 Mayıs 2020
+              href: hr-whats-new-2020-05-28.md
+            - name: 14 Mayıs 2020
+              href: hr-whats-new-2020-05-14.md
+            - name: 1 Mayıs 2020
+              href: hr-whats-new-2020-05-01.md
             - name: 13 Nisan 2020
               href: hr-whats-new-2020-04-13.md
             - name: 3 Nisan 2020
@@ -473,6 +475,10 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: İzin isteği
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Kazançlarla ilgili varlıklar
+              items:
+                - name: Bordrolu çalışan kazanç planı
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: Seçenek kümeleri
               items:
                 - name: Cinsiyet
@@ -483,9 +489,13 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: İşlem türü
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: Kazanç planı türü kapağı
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Çalışan kazanç planı durumu
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: Kullanıcı Kılavuzu
       items:
-        - name: Genel bakış
+        - name: Genel Bakış
           href: hr-hrpro-overview.md
         - name: Human Resources'ı ayarlama
           items:
