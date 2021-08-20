@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760526"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17'daki yenilikler veya değişiklikler (Nisan 2021)
 
@@ -52,6 +52,8 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 - [Varış yeri maliyeti](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - Daha fazla bilgi için bkz. [Varış yeri maliyeti modülü](../landed-cost/landed-cost-overview.md).
 
 - [Paketleme ve depolama boyutları](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Daha fazla bilgi için bkz. [Paketleme ve depolama için farklı boyutlar ayarlama](../warehousing/packing-vs-storage-dimensions.md).
+
+- [Paralel dalga tahsisatı](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/parallel-wave-allocation)<br> - Daha fazla bilgi için bkz. [Dalga tahsisatı](../warehousing/wave-allocation-method.md).
 
 - [Stok ve lojistik için kayıtlı görünümler](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - Daha fazla bilgi için bkz. [Supply Chain Management için standart kayıtlı görünümler](saved-views-scm.md).
 

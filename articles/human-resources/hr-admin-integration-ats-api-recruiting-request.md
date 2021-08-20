@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e56d956016fa43ac980ecc9118000f41569ca98a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1d89fbd96ae3b54e41c9bf033700d1d589b448b55e36900c08cf6aae0a0b6ffd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780710"
 ---
 # <a name="recruiting-request"></a>İşe alma isteği
 

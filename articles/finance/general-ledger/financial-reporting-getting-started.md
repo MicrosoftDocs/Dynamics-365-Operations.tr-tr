@@ -2,7 +2,7 @@
 title: Mali raporlamaya genel bakış
 description: Bu konu, Microsoft Dynamics 365 Finance içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar.
 author: aprilolson
-ms.date: 12/04/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf07b12d83221952aefb80ab6a5b651bb4ef3762
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: da997af4c4cab7b99dfa14f185de6a7c057d6831b7ee576787c17b550fa60194
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748222"
 ---
 # <a name="get-started-with-financial-reporting"></a>Financial Reporting kullanmaya başlama 
 
@@ -47,10 +47,10 @@ Bir tüzel kişilik için finansal raporlar oluşturmak ve üretmek için, bu t�
 -   Hesap planı
 -   Para Birimi
 -   En az bir hesaba hareket nakletme
--   Ana Hesap, **Genel Muhasebe > Genel Muhasebe Kurulumu > Financial Reporting Kurulumu** Seçili sütununda listelenir
+-   MainAccount, **Mali raporlama ayarı** sayfasında (**Genel muhasebe > Genel muhasebe ayarı > Mali raporlama ayarı**) **Seçili** sütununda listelenir
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Financial Reporting'e güvenlik erişimi verme
-Finansal raporlama işlevleri uygun ayrıcalıklara sahip ve güvenlik rolleri aracılığıyla görevler atanmış kullanıcılar için kullanılabilirdir. Aşağıdaki bölümlerde bu ayrıcalıklar ve görevler, ilişkili rollerle birlikte listelenmiştir.
+Financial Reporting işlevlerini, uygun ayrıcalıklara sahip ve güvenlik rolleri aracılığıyla görevler atanmış kullanıcılar kullanılabilir. Aşağıdaki bölümlerde bu ayrıcalıklar ve görevler, ilişkili rollerle birlikte listelenmiştir.
 
 ### <a name="duties"></a>Görev
 
@@ -79,7 +79,7 @@ Finansal raporlama işlevleri uygun ayrıcalıklara sahip ve güvenlik rolleri a
 | Mali raporlar oluştur            | Mali raporlar oluştur            | CEO, CFO, Muhasebeci                                                            |
 | Mali raporları görüntüle                | Mali performansı gözden geçir          | Hiçbiri atanmadı                                                                   |
 
-Bir kullanıcı eklendikten veya bir rol değiştikten sonra, kullanıcının birkaç dakika içinde mali raporlamaya erişebilmesi gerekir. 
+Bir kullanıcı eklendikten veya bir rol değiştikten sonra, kullanıcının birkaç dakika içinde Financial Reporting'e erişebilmesi gerekir. 
 
 > [!NOTE]
 > sysadmin rolü finansal raporlamadaki tüm rollere eklenir.
@@ -160,15 +160,52 @@ Sorun 1: **Yeni** veya **Düzenle**'yi seçtiğinizde Rapor Tasarımcısı başl
 Sorun 2: Kullanıcıya Financial Reporting kullanmak için gerekli izinler atanmadı. 
 
 * Kullanıcının izni olup olmadığını doğrulamak için, şu hata iletisi altında **Evet**'i seçin: "Financial Reporting sunucusuna bağlanılamıyor. Devam etmek ve farklı bir sunucu adresi belirtmek istiyorsanız Evet'i seçin." Ardından **Bağlantı Sınama** sekmesini seçin. İzniniz yoksa şu iletiyi alırsınız: "Bağlantı girişimi başarısız oldu. Kullanıcı sunucuya bağlanmak için uygun izinlere sahip değil. Sistem yöneticinize başvurun."
-* Gerekli izinler, [Financial Reporting'e güvenlik erişimi verme](#granting-security-access-to-financial-reporting) üzerinde listelenmiştir. Financial Reporting'de güvenlik bu ayrıcalıkları temel alır. Bu ayrıcalıklar (veya bu ayrıcalıkları içeren başka bir güvenlik rolü) size atanmadıkça erişiminiz olmayacaktır. 
+* Gerekli izinler, yukarıdaki [Financial Reporting'e güvenlik erişimi verme](#granting-security-access-to-financial-reporting) bölümünde listelenmiştir. Financial Reporting'de güvenlik, bu ayrıcalıkları temel alır. Bu ayrıcalıklar (veya bu ayrıcalıkları içeren başka bir güvenlik rolü) size atanmadıkça erişiminiz olmayacaktır. 
 * **Şirket Kullanıcıları Sağlayıcısı'dan Şirkete** tümleştirme görevi (kullanıcı tümleştirmesinden sorumludur ve kullanıcı tümleştirmesi olarak da bilinir) 5 dakikalık bir aralıkta çalışır. Tüm izin değişikliklerinin Financial Reporting'de geçerli olması 10 dakika kadar sürebilir. 
   Başka bir kullanıcı Rapor Tasarımcısını açabiliyorsa, **Araçlar**'ı ve ardından **Tümleştirme Durumu**'nu seçin. Financial Reporting kullanma izni atadığınız için "Şirket Kullanıcıları Sağlayıcısından Şirkete" tümleştirme eşlemesinin başarılı şekilde çalışıp çalışmadığını doğrulayın. 
 * Başka bir hata **Dynamics kullanıcısı ile Financial Reporting kullanıcısı tümleştirmesinin** tamamlanmasını engellemiş olabilir. Ya da, bir veri reyonu sıfırlama işlemi başlatılmış ve henüz tamamlanmamış veya başka bir sistem hatası oluşmuş olabilir. İşlemi daha sonra yeniden çalıştırmayı deneyin. Sorun devam ederse, sistem yöneticinize başvurun.
 
-Sorun 3: Önceki ClickOnce Rapor Tasarımcısı oturum açma sayfasından devam edebilirsiniz ancak Rapor Tasarımcısında oturum açma işlemini tamamlayamazsınız. 
+Sorun 3: Önceki **ClickOnce Report Designer** oturum açma sayfasından devam edebilirsiniz ancak Report Designer içinde oturum açma işlemini tamamlayamazsınız. 
 
-* Oturum açma kimlik bilgilerinizi girdiğinizde yerel bilgisayarınızda ayarlanan saat ile Financial Reporting sunucusundaki saat arasında en fazla beş dakikalık bir fark olmalıdır. Beş dakikadan uzun bir fark varsa, sistem oturum açma işlemine izin vermez. 
-* Bu durumda, bilgisayarınızın saatini otomatik olarak ayarlamak için Windows seçeneğinin etkinleştirilmesi önerilir. 
+* Sistemde oturum açtığınızda yerel bilgisayarınızda ayarlanan saat ile Financial Reporting sunucusundaki saat arasında en fazla beş dakikalık bir fark olmalıdır. Beş dakikadan uzun bir süre farkı varsa sistem, oturum açma işlemine izin vermez. 
+* Bilgisayarınızdaki saat, Financial Reporting sunucusundaki saatten farklıysa bilgisayarınızın saatini otomatik olarak ayarlamak için Windows seçeneğini etkinleştirmenizi öneririz. 
+
+## <a name="troubleshoot-report-designer-issues-with-event-viewer"></a>Olay görüntüleyici ile Report Designer sorunlarını giderme
+
+Financial Reporting'i kullanırken ortaya çıkan sorunlardan bazılarını analiz etmek için Olay görüntüleyiciyi kullanabilirsiniz. 
+
+### <a name="what-happens-when-you-have-connections-issues-with-financial-reporting"></a>Financial Reporting ile ilgili bağlantı sorunlarınız olduğunda ne olur? 
+
+Microsoft desteği ile konuşmanızı daha etkili hale getirmek ve daha hızlı çözüme ulaşmak için atabileceğiniz bazı adımlar aşağıdadır. 
+ 
+Aşağıdaki adımlar, Financial Reporting için Olay görüntüleyicisi iletilerini açma işlemi konusunda yol gösterir. Olay görüntüleyicinin oluşturduğu günlükler, bağlantı sorununun kaynağını hızlıca belirlemek için destek mühendislerine yardımcı olur. Destek ile iletişim kurarken bu günlüklerin kopyalarını biletle birlikte gönderin.
+
+> 1.    RegisterETW.zip dosyasını istemci iş istasyonuna (tercihen Masaüstü) kopyalayın ve [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster) dosyasını ayıklayın.
+
+> 2.    Windows Olay görüntüleyicinin kapalı olduğundan emin olun.
+
+> 3.    Yönetici PowerShell komut istemi açın ve RegisterETW.ps1 dosyasının bulunduğu dizine gidin.
+
+> 4.    Şu komutu çalıştırın: .\RegisterETW.ps1
+   
+   PowerShell'de başarılı bir çıkış, **Tamamlanan RegisterETW komut dosyası** iletisiyle doğrulanır.
+Olay görüntüleyiciyi yeniden açtığınızda artık **Microsoft > Dynamics** altında şu günlükleri görürsünüz: * MR-Client * MR-DVT * MR-Integration * MR-Logger * MR-Reporting * MR_SchedulerTasks * MR-Sql * MR-TraceManager
+   
+> 5. Sorunu Report Designer'da yeniden oluşturun.
+   
+> 6. Olay görüntüleyiciyi kullanarak MR-Logger olaylarını dışarı aktarın.
+
+## <a name="troubleshoot-issues-connecting-to-financial-reporting"></a>Financial Reporting'e bağlanma ile ilgili sorunları giderme
+
+Sorun: "Financial Reporting sunucusuna bağlanılamıyor" hatasını alırsınız.
+
+* Sorunun Chrome ve Edge internet tarayıcılarında oluşup oluşmadığını belirleyin.
+* Sorun yalnızca tek tarayıcıda oluşuyorsa ClickOnce sorunu olabilir. 
+* Bağlantı hatası iletisini aldığınızda hangi iletinin görüntülendiğini görmek için bağlantıyı test etmek üzere **Test Et**'i seçin. 
+* Bu sorun, başka bir kullanıcının Financial Reporting erişimi olmamasından kaynaklanabilir. Erişimi yoksa kullanıcı, izne sahip olmadığını belirten bir ileti alır.
+* Sorun birden çok tarayıcıda meydana geliyorsa iş istasyonunuzdaki saatin Otomatik olarak ayarlandığından emin olun.
+* Bağlanıp bağlanamadığını görmek için iş istasyonunuzda oturum açmak üzere Dynamics 365 Finance'te güvenlik yöneticisi haklarına ve ağ etki alanında yönetici haklarına sahip bir kullanıcıyla birlikte çalışın. Bu kullanıcı bağlanabiliyorsa sorun ağ izinleriyle ilgili olabilir.
+* İş istasyonunda, güvenlik duvarını geçici olarak devre dışı bırakın. Ardından Report Designer'a bağlanabiliyorsanız sorun güvenlik duvarınızla ilgilidir. Sorunu çözmek için kuruluşunuzun BT departmanıyla birlikte çalışın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 - [Mali raporları görüntüle](view-financial-reports.md)

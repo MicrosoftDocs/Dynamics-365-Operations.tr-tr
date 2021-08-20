@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad4ec9f016b78425a2661d8df643ea67efc51fc9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c98bde5bff55d6c1b1af47e7cd150f828e73655275901591aaf698c0831f7d01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768327"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Marjinal taban ve Hesaplama yöntemi temel alınarak Satış vergisi oranları
 

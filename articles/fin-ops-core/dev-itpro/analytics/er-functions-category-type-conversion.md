@@ -3,7 +3,6 @@ title: Tür dönüştürme kategorisindeki ER işlevlerinin listesi
 description: Bu konu, elektronik raporlama (ER) uygulamasında desteklenen dönüştürme işlevleri hakkında bilgi sağlar.
 author: NickSelin
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 199d51ae8a4dbdd7d2f3bd290a2b487ceb1174dc
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a6d678c2a38039285bd835abcbbaf13ec00298c0660c62e7496a5d7405db8f61
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752616"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766421"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Tür dönüştürme kategorisindeki ER işlevlerinin listesi
 

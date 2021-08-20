@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: a42e26464a35ef72b416aaff7a410f2318602aea38767dbe5e06b4f032dc08be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769023"
 ---
 # <a name="customer-posting-profiles"></a>Müşteri deftere nakil profilleri
 
