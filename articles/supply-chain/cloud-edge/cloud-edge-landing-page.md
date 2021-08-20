@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780686"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri
 
@@ -102,7 +102,7 @@ Mevcut üretim ortamınız LCS'de **Self Servis** türüyle etiketlenmelidir. Bu
 > [!IMPORTANT]
 > Hizmet olarak altyapı (IaaS) olarak çalışan ortam türleri desteklenmez. Bu ortamlar genellikle LCS'deki **Microsoft Tarafından Yönetilen** türüyle etiketlenir. Bu tür ortamlarınız varsa, **Self Servis** türüne geçiş zaman çizelgenizi anlamak için Microsoft ilgili kişinizle birlikte çalışın.
 
-Microsoft, Supply Chain Management'ın tüm bulut ortamlarını bir IaaS modelinden Service Fabric'te barındırılan bir topolojiye geçirme sürecindedir. Bu hareket, daha iyi ölçeklenebilirlik sağlar ve hizmet yönetimini kolaylaştırmaya yardımcı olur. Bu nedenle, dağıtım ve bakım işlemleri daha hızlıdır. Benzer şekilde, hizmet bileşenleri mikro hizmetler kavramına geçirilmektedir ve hizmet barındırma modeli sanal makine (VM) modelinden hafif kapsayıcılı mimariye [geçirilecektir](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm).
+Microsoft, Supply Chain Management'ın tüm bulut ortamlarını bir IaaS modelinden Service Fabric'te barındırılan bir topolojiye geçirme sürecindedir. Bu hareket, daha iyi ölçeklenebilirlik sağlar ve hizmet yönetimini kolaylaştırmaya yardımcı olur. Bu nedenle, dağıtım ve bakım işlemleri daha hızlıdır. Benzer şekilde, hizmet bileşenleri mikro hizmetler kavramına geçirilmektedir ve hizmet barındırma modeli sanal makine (VM) modelinden hafif kapsayıcılı mimariye [geçirilecektir](/virtualization/windowscontainers/about/containers-vs-vm).
 
 Sonuç olarak, aynı Service Fabric tabanlı kapsayıcılı hizmet altyapısı, bir kurulumun bulutta bir merkez veya bulutta ya da uçta bir ölçek birimi olmasına bakılmaksızın hizmetin hem bulut hem de uç kurulumlarını destekleyecektir.
 

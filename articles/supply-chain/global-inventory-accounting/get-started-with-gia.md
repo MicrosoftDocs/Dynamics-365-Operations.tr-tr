@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336991"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773308"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Stok Muhasebesi kullanmaya başlama
 
@@ -42,7 +42,7 @@ Global Stok Muhasebesi, Supply Chain Management'ta yerleşik olan tüm maliyet y
 > [!IMPORTANT]
 > Global Stok Muhasebesi kullanmak için, LCS etkin bir yüksek kullanılabilirlik ortamına sahip olmanız (OneBox ortamı değil) gerekir. Ek olarak, Supply Chain Management sürüm 10.0.19 veya üstünü çalıştırıyor olmalısınız.
 
-Global Stok Muhasebesi genel önizlemesine kaydolmak için, LCS ortam kimliğinizi e-posta ile [Global Stok Muhasebesi ekibine gönderin](mailto:GlobalInventoryAccounting@service.microsoft.com). Program için onaylandıktan sonra, takım Global Stok Muhasebesi Beta anahtarı ve servis uç noktalarınızı içeren bir takip e-postası gönderir. Beta anahtarını aldıktan sonra [eklentiyi yükleyebilirsiniz](#install).
+Global Stok Muhasebesi genel önizlemesine kaydolmak için, LCS ortam kimliğinizi e-posta ile [Global Stok Muhasebesi ekibine gönderin](mailto:GlobalInvAccount@microsoft.com). Program için onaylandıktan sonra, takım Global Stok Muhasebesi Beta anahtarı ve servis uç noktalarınızı içeren bir takip e-postası gönderir. Beta anahtarını aldıktan sonra [eklentiyi yükleyebilirsiniz](#install).
 
 ## <a name="licensing"></a>Lisans
 

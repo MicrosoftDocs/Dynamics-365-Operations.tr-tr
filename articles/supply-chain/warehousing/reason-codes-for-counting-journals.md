@@ -1,8 +1,8 @@
 ---
 title: Stok sayımı neden kodları
 description: Bu konu sayım görevleri için neden kodlarının nasıl ayarlanacağını ve uygulanacağını açıklar.
-author: Mirzaab
-ms.date: 03/15/2017
+author: perlynne
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,22 @@ ms.reviewer: kamaybac
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a6b8a686b6aee6b52b3f43caf8acae9f371f8804
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: 4510ed7033e7c4e5187905906dcbef63f05a130bafcb7d9f19bbb360a7298119
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838214"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012103"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Stok sayımı neden kodları
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
-Neden kodları sayım işleminin sonucunu ve bu işlem sırasında oluşan tutarsızlıkları analiz etmenize olanak tanır. Kırılmış palet veya stok örneklerine dayanan stok ayarlaması gibi bir sayım yapma nedeni belirtebilirsiniz.
+Neden kodları sayım işleminin sonucunu ve bu işlem sırasında oluşan tutarsızlıkları analiz etmenize olanak tanır. Kırılmış palet veya stok örneklerine dayanan stok ayarlaması gibi bir sayım yapma nedeni belirtebilirsiniz. Aynı zamanda, her stok ayarlamasının nedenine bağlı olarak eldeki stok ayarlamalarının değerini uygun mahsup hesap defterine nakletmek için ayarlama işlevini kullanabilirsiniz.
 
 ## <a name="recommendation"></a>Öneri
 
@@ -35,17 +36,32 @@ Sistemi ayarlamadan önce neden kodları ile çalışmak için bir strateji tan�
 - Neden kodları ambarlarda zorunlu olmalı mı?
 - Neden kodları bazı maddelerde zorunlu mu yoksa veya isteğe bağlı mı olmalı?
 - Ne kadar neden kodu gerekli?
+- Ayarlamalar için neden kodlarının sınırlı listesini önceden seçmeniz gerekir mi?
 - Barkod tarayıcısı kullanıcıları neden kodlarını nasıl kullanacak? Neden kodları önceden seçilmiş mi, zorunlu mu yoksa düzenlenemez mi olsun?
 - Ambar çalışanları için mobil tarayıcıda farklı neden kodu davranışı gerekli mi? Yanıtınız evet ise, daha fazla menü öğesi oluşturabilir ve bunları farklı kişilere atayabilirsiniz.
+- Neden kodları mali mahsup hesap defterine nakledilmeyi yönlendirir mi?
 
-## <a name="where-reason-codes-apply"></a>Neden kodlarının uygulandığı yerler
+## <a name="turn-on-reason-code-features-in-your-system"></a>Sisteminizdeki neden kodu özelliklerini açma
 
-Birden fazla neden kodu ilkesi oluşturabilirsiniz ve her neden kodu ilkesinin iki sayım nedeni kodu ilkesi olabilir. Sayım neden kodu ilkeleri ambar düzeyi veya madde düzeyinde kullanılabilir.
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
-## <a name="set-up-reason-code-policies"></a>Neden kodu ilkeleri ayarlama
+Bu konuda açıklanan tüm özellikleri sisteminizde görmüyorsanız muhtemelen *Mahsup hesaplara bağlı yapılandırılabilir neden kodlarını kullanarak eldeki stok ayarlamalarını deftere nakletme* özelliğini açmanız gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
-1. **Stok yönetimi** \> **Kurulum** \> **Stok** \> **Sayım neden kodu ilkeleri**'ni seçin ve yeni bir neden kodu ilkesi oluşturun.
-2. **Sayım neden kodu türü** alanında **Zorunlu** veya **İsteğe bağlı**'yı seçerek neden kodunun aşağıdaki sayım günlüklerinden birinde isteğe bağlı mı yoksa zorunlu bir eylem mi olması gerektiğini belirtin:
+- **Modül:** *Ambar yönetimi*
+- **Özellik adı:** *Mahsup hesaplara bağlı yapılandırılabilir neden kodlarını kullanarak eldeki stok ayarlamalarını deftere nakletme*
+
+## <a name="set-up-reason-codes"></a>Neden kodlarını ayarla
+
+### <a name="set-up-reason-code-policies"></a>Neden kodu ilkeleri ayarlama
+
+Sayım nedeni kodlarının ne zaman ve nasıl uygulanacağını denetlemek için birden çok neden kodu ilkesi oluşturabilirsiniz. Her neden kodu ilkesi iki sayım nedeni kodu türünden (*İsteğe Bağlı* veya *Zorunlu*) birini içerebilir. Sayım nedeni kodu ilkeleri, ambar düzeyinde veya madde düzeyinde kullanılabilir.
+
+Neden kodu ilkesi oluşturmak için şu adımları izleyin.
+
+1. **Stok yönetimi** \> **Kurulum** \> **Stok** \> **Sayım nedeni kodu ilkeleri**'ne gidin.
+1. Eylem Bölmesi'nde, ızgaraya bir ilke eklemek için **Yeni**'yi seçin.
+1. Yeni ilke için **Ad** alanını ayarlayın.
+1. **Sayım nedeni kodu türü** alanında, bir neden kodu seçiminin aşağıdaki stok ayarlaması işlemlerinden birinde isteğe bağlı veya zorunlu olması gerektiğini belirtmek için *Zorunlu* veya *İsteğe Bağlı*'yı seçin:
 
     - Döngü Sayısı (mobil cihaz)
     - Nokta Sayısı (mobil cihaz)
@@ -53,34 +69,63 @@ Birden fazla neden kodu ilkesi oluşturabilirsiniz ve her neden kodu ilkesinin i
     - Ayarlama etkin (mobil cihaz)
     - Ayarlama devre dışı (mobil cihaz)
     - Sayım Günlüğü (zengin istemci)
+    - Miktar düzeltmesi/Çevrimiçi sayım (zengin istemci)
 
-Ayrıca tek tek ambarlar ve ürünler için de neden kodu ayarlayabilirsiniz. Ürünler için neden kodu ayarı ambar ayarını yok sayabilir.
+Tek tek ambarlar ve ürünler için de neden kodu ilkeleri ayarlayabilirsiniz. Bir ürün için neden kodu kurulumu, ürünün ambarının kurulumunu geçersiz kılabilir.
 
-## <a name="mandatory-reason-codes"></a>Zorunlu neden kodları
+> [!NOTE]
+> **Sayım nedeni kodu ilkeleri** alanının *Zorunlu* olarak ayarlandığı ambarlar ve maddeler için bir neden kodu sağlanana kadar sayım günlüğü tamamlanamaz ve kapatılamaz. Daha fazla bilgi edinmek için sonraki bölüme bakın.
 
-**Zorunlu** parametresi ambarlar veya maddeler için neden kodu yapılandırmasında ayarlanırsa, sayım günlüğü tamamlanamaz ve bir neden kodu sağlanan kadar kapatılır.
+### <a name="assign-counting-reason-code-policies-to-warehouses"></a>Ambara sayım nedeni kodu ilkeleri atama
 
-### <a name="set-up-reason-codes-for-warehouses"></a>Ambarlar için neden kodları ayarlama
+Ambara sayım nedeni kodu ilkesi atamak için şu adımları izleyin.
 
-1. **Stok yönetimi** \> **Kurulum** \> **Stok dökümü** \> **Ambarlar**'ı seçin.
-2. **Ambar** sekmesindeki **Sayım neden kodu ilkesi** alanında, aşağıdaki seçeneklerden birini seçin:
+1. **Stok yönetimi** \> **Kurulum** \> **Stok dökümü** \> **Ambarlar**'a gidin.
+1. Liste bölmesinde bir ambar seçin.
+1. Eylem Bölmesi'nde **Ambar** sekmesindeki **Kurulum** grubunda, **Sayım nedeni kodu ilkesi**'ni seçin. Ardından **Sayım nedeni kodu ilkesi ata** açılır iletişim kutusunda, şu adımlardan birini izleyin:
 
-    - **Boş** – Madde için ayarlanan parametre sayım günlüklerinin ürün için zorunlu olup olmadığını belirlemek için kullanılır.
-    - **Zorunlu** – Ambar için sayım günlüklerinde daima bir neden kodu gereklidir.
-    - **İsteğe bağlı** – Ambar için sayım günlüklerinde bir neden kodu gerekli değildir.
+    - Sayım günlüklerinin zorunlu olup olmadığını belirlemek üzere ilke ayarını her madde için kullanmak üzere hiç değer girmeyin (veya mevcut değeri silin).
+    - Ambar için sayım günlüklerinde bir neden kodu istemek üzere **Sayım nedeni kodu türü** alanının *Zorunlu* olarak ayarlandığı bir neden ilkesi seçin.
+    - Neden kodu, ambar için sayım günlüklerinde isteğe bağlıysa **Sayım nedeni kodu türü** alanının *İsteğe Bağlı* olarak ayarlandığı bir neden ilkesi seçin.
 
-### <a name="set-up-reason-codes-for-products"></a>Ürünler için neden kodları ayarlama
+### <a name="assign-counting-reason-code-policies-to-products"></a>Sayım nedeni kodu ilkelerini ürünlere atama
 
-1. **Ürün bilgileri yönetimi** \> **Ürünler** \> **Serbest bırakılan ürünler**'i seçin.
-2. **Ürün** sekmesinde **Sayım neden kodu ilkesi** 'ni ve aşağıdaki seçeneklerden birini seçin:
+Ürüne bir sayım nedeni kodu ilkesi atamak için şu adımları izleyin.
 
-    - **Boş** – Ambar için ayarlanan parametre sayım günlüklerinin ürün için zorunlu olup olmadığını belirlemek için kullanılır.
-    - **Zorunlu** – Ürün için sayım günlüklerinde daima bir neden kodu gereklidir. Bu ayar ambar düzeyindeki neden kodu ayarını geçersiz kılar.
-    - **İsteğe bağlı** – Ürün için sayım günlüklerinde bir neden kodu gerekli değildir. Bu ayar ambar düzeyindeki neden kodu ayarını geçersiz kılar.
+1. **Ürün bilgileri yönetimi** \> **Ürünler** \> **Serbest bırakılmış ürünler**'e gidin.
+1. Izgarada bir ürün seçin.
+1. Eylem Bölmesi'nde **Ürün** sekmesindeki **Kurulum** grubunda, **Sayım nedeni kodu ilkesi**'ni seçin. Ardından **Sayım nedeni kodu ilkesi ata** açılır iletişim kutusunda, şu adımlardan birini izleyin:
 
-### <a name="use-reason-codes-in-counting-journals"></a>Sayım günlüklerinde neden kodları kullanma
+    - Sayım günlüklerinin ürün için zorunlu olup olmadığını belirlemek üzere ilke ayarını depo için kullanmak üzere hiç değer girmeyin (veya mevcut değeri silin).
+    - Ürün için sayım günlüklerinde bir neden kodu istemek üzere **Sayım nedeni kodu türü** alanının *Zorunlu* olarak ayarlandığı bir neden ilkesi seçin. Bu ayar ambar düzeyindeki neden kodu ayarını geçersiz kılar.
+    - Neden kodu, ürün için sayım günlüklerinde isteğe bağlıysa **Sayım nedeni kodu türü** alanının *İsteğe Bağlı* olarak ayarlandığı bir neden ilkesi seçin. Bu ayar ambar düzeyindeki neden kodu ayarını geçersiz kılar.
 
-Bir sayım günlüğüne, aşağıda türde sayımlar için neden kodları ekleyebilirsiniz:
+### <a name="set-up-counting-reason-codes"></a>Sayım nedeni kodları ayarlama
+
+Sayım nedeni kodlarınızı ayarlamak için şu adımları izleyin.
+
+1. **Stok yönetimi** \> **Kurulum** \> **Stok** \> **Sayım nedeni kodu ilkesi**'ne gidin.
+1. Eylem bölmesinde, kılavuzuna satır eklemek için **Yeni**'yi seçin.
+1. **Sayım nedeni kodu** ve **Açıklama** yeni satırda aşağıdaki alanları ayarlayın.
+1. Mahsup hesabı atamak için **Mahsup hesap** alanına bir değer girin veya seçin.
+
+    > [!NOTE]
+    > Mahsup hesabı bir sayım nedeni koduna atanırsa bu sayım nedeni koduna sahip bir sayım günlüğünü deftere naklettiğinizde değer, varsayılan stok deftere nakil profili hesabı yerine atanan mahsup hesabına nakledilir.
+
+### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Sayım nedeni kodu grupları ayarlama
+
+*Sayım nedeni kodu grupları*, sayım nedeni kodları listesini sınırlamak için Warehouse Management mobil uygulamasında *Ayarlama etkin* ve *Ayarlama devre dışı* menü öğelerinin parçası olarak kullanılabilir. (Sayım nedeni kodu grupları hakkında daha fazla bilgi için bu bölümün ilerleyen bölümlerinde yer alan [Ayarlama etkin ve Ayarlama devre dışı için mobil cihaz menü öğeleri ayarlama](#setup-adjustment-in-out) bölümüne bakın.)
+
+1. **Stok yönetimi** \> **Kurulum** \> **Stok** \> **Sayım nedeni kodu grupları**'na gidin.
+1. Eylem Bölmesi'nde, bir grup eklemek için **Yeni**'yi seçin.
+1. Yeni grup için **Sayım nedeni kodu** ve **Grup açıklaması** alanlarını ayarlayın.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. **Ayrıntılar** bölümünde, ızgaraya bir satır eklemek için **Yeni**'yi seçin. Ardından, yeni satır için **Sayım nedeni kodu** alanını ayarlayın. 
+1. Gerektiği şekilde daha fazla kod atamak için önceki adımı tekrarlayın. Gruptan bir kod kaldırmanız gerekiyorsa kodu seçin ve ardından araç çubuğunda **Sil** seçeneğini belirleyin.
+
+### <a name="set-up-reason-codes-for-mobile-device-menu-items"></a>Mobil cihaz menü öğeleri için neden kodları ayarlama
+
+Aşağıdaki eldeki stoku düzeltme türleri için neden kodlarını yapılandırabilirsiniz:
 
 - Döngü Sayımı
 - Nokta Sayımı
@@ -88,59 +133,92 @@ Bir sayım günlüğüne, aşağıda türde sayımlar için neden kodları ekley
 - Ayarlama etkin
 - Ayarlama devre dışı
 
-Neden kodları **Sayım günlüğü** türündeki sayım günlüklerindeki günlük satırlarına eklenir.
-
-1. **Stok Yönetimi** \> **Günlük girişleri** \> **Madde sayımı** \> **Sayım**'a gidin.
-2. Sayım günlüğü satır ayrıntılarında **Sayım neden kodu** alanında, bir seçenek belirleyin.
-
-### <a name="view-the-counting-history-as-its-recorded-by-reason-codes"></a>Sayım geçmişini neden kodları tarafından kaydedildiği gibi görme
-
-- **Stok yönetimi** \> **Sorgular ve raporlar** \> **Sayım geçmişi**'ni ve ardından **Sayım neden kodu** alanında bir neden kodu aracılığıyla kaydedilmiş olan sayım geçmişini görüntüleyin.
-
-### <a name="use-a-reason-code-for-a-quantity-adjustment"></a>Miktar ayarlaması için neden kodu kullanma
-
-1. **Eldeki stok** sayfasında **Miktarı ayarla**'yı seçin. **Eldeki stok** sayfasını farklı yollarla açabilirsiniz. Örneğin **Stok yönetimi** \> **Sorgular ve raporlar** \> **Eldeki stok**'a gidin.
-2. **Miktarı ayarla**'yı ve daha sonra **Sayım neden kodu** alanından neden kodu seçin.
-
-### <a name="configure-reason-codes-for-mobile-device-menu-items"></a>Mobil cihaz menü öğeleri için neden kodları yapılandırma
-
-Bir mobil cihaz menü öğesinde herhangi bir sayım türü için neden kodları yapılandırabilirsiniz. Mobil cihaz menü öğesi yapılandırması aşağıdaki bilgileri içerir:
+Çoğu durumda, her ilgili mobil cihaz menü öğesi için aşağıdaki bilgileri tanımlayabilirsiniz:
 
 - Neden kodunun mobil cihaz çalışanına sayım sırasında gösterilip gösterilmeyeceği
 - Mobil cihaz menü öğesinde gösterilen varsayılan neden kodu.
 - Kullanıcının neden kodunu düzenleyip düzenleyemeyeceği.
 
-### <a name="set-up-reason-codes-on-a-mobile-device"></a>Mobil cihazda neden kodları ayarlama
+#### <a name="set-up-mobile-device-menu-items-for-a-counting-process"></a>Sayım işlemi için mobil cihaz menü öğeleri ayarlama
 
-1. **Ambar yönetimi** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menüsü öğeleri**'ni seçin.
-2. **Döngü sayısı** sekmesinde **Döngü sayımı**'nı seçin.
-3. **Varsayılan sayım neden kodu** alanında, sayım mobil cihaz menü öğesi kullanılarak yapıldığında kaydedilmesi gereken varsayılan neden kodunu ayarlayın.
-4. **Sayım neden kodunu görüntüle** alanında, her fark kaydedildikten sonra neden kodunun gösterilmesi için **Satır**'ı seçin. Alternatif olarak, neden kodunun gösterilmemesi gerekiyorsa **Gizle**'yi seçin.
-5. **Sayım neden kodunu düzenle** seçeneğini **Evet** veya **Hayır** olarak ayarlayın. Bu seçeneği **Evet** olarak ayarlarsanız, çalışan sayım sırasında mobil cihazda gösterildiğinde neden kodunu düzenleyebilir.
+Sayım işlemi için bir mobil cihaz menü öğesi ayarlamak üzere şu adımları izleyin.
+
+1. **Warehouse Management** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menü öğeleri**'ne gidin.
+1. Liste bölmesinde ilgili menü öğesini seçin veya yeni bir menü öğesi oluşturun.
+1. Eylem Bölmesinde, **Döngü sayımı**'nı seçin.
+1. **Varsayılan sayım nedeni kodu** alanında, saymak için mobil cihaz menü öğesi kullanıldığında kaydedilmesi gereken varsayılan neden kodunu ayarlayın.
+1. **Sayım nedeni kodunu görüntüle** alanında, aşağıdaki değerlerden birini seçin:
+
+    - *Satır*: Her fark kaydedildikten sonra neden kodunu gösterir.
+    - *Gizle*: Neden kodunu göstermez.
+
+1. Sayım sırasında mobil cihazda gösterildiğinde çalışanın neden kodunu düzenlemesine izin vermek için **Sayım nedeni kodunu düzenle**'yi *Evet* olarak ayarlayın. Çalışanın kodu düzenlemesini önlemek için *Hayır* olarak ayarlayın.
 
 > [!NOTE]
-> **Döngü sayımı** düğmesi sayımın yapılabileceği herhangi bir mobil cihaz menüsünde etkinleştirilebilir. Örnek nokta sayısı, kullanıcı yönlendirmeli iş ve sistem yönlendirmeli iş için menü öğelerini içerir.
+> **Döngü sayımı** düğmesi sayımın yapılabileceği herhangi bir mobil cihaz menüsünde etkinleştirilebilir. Örnekler arasında nokta sayımı, kullanıcı yönlendirmeli iş ve sistem yönlendirmeli iş için menü öğeleri sayılabilir.
 
-## <a name="cycle-count-approvals"></a>Döngü sayımı onayları
+#### <a name="set-up-mobile-device-menu-items-for-adjustment-in-and-adjustment-out"></a><a name="setup-adjustment-in-out"></a>Ayarlama etkin ve Ayarlama devre dışı için mobil cihaz menü öğesi ayarlama
 
-Bir sayım onaylanmadan önce kullanıcı sayımla ilişkili neden kodunu değiştirebilir. Sayım onaylandığında neden kodu sayım günlüğü satırlarına girilir.
+Ayarlama etkin ve ayarlama devre dışı için mobil cihaz menü öğesi ayarlamak üzere şu adımları izleyin.
 
-### <a name="modify-cycle-count-approvals"></a>Döngü sayımı onaylarını değiştirme
+1. **Warehouse Management** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menü öğeleri**'ne gidin.
+1. Eylem Bölmesi'nde, menü öğesini oluşturmak için **Yeni**'yi seçin.
+1. Yeni menü öğesi için **Mobil öğe adı** ve **Başlık** alanlarını ayarlayın.
+1. **Mod** alanını *İş* olarak ayarlayın.
+1. **Mevcut işi kullan** seçeneğinde *Hayır*'ı işaretleyin.
+1. **İş oluşturma işlemi** alanında, *Ayarlama etkin* veya *Ayarlama devre dışı*'nı seçin.
+1. **Genel** hızlı sekmesinde, aşağıdaki alanları ayarlayın. (**İş oluşturma işlemi** alanında *Ayarlama etkin* veya *Ayarlama devre dışı*'nı seçtiğinizde tüm bu alanlar eklenir.)
 
-1. **Ambar yönetimi** \> **Döngü sayımı** \> **İnceleme bekleyen döngü sayımı işi**'ni seçin.
-2. **Döngü sayımı**'nı seçin ve daha sonra **Neden kodu** alanından yeni bir neden kodu seçin.
+    - **İşlem kılavuzu kullan**: *Ayarlama devre dışı* işlemi oluşturuyorsanız bu seçeneği *Evet* olarak ayarladığınızdan emin olun. *Ayarlama devre dışı* işlemi oluşturuyorsanız bu seçenek her zaman *Evet* olarak ayarlanır.
+    - **Varsayılan sayım nedeni kodu**: Sayımı yapmak için mobil cihaz menü öğesi kullanıldığında kaydedilmesi gereken varsayılan neden kodunu ayarlayın.
+    - **Sayım nedeni kodunu görüntüle**: Aşağıdaki değerlerden birini seçin:
 
-### <a name="modify-the-mobile-device-menu-item-for-adjustment-in-and-adjustment-out"></a>Ayarlama etkin ve Ayarlama devre dışı için mobil cihaz menü öğesini değiştirme
+        - *Satır*: Her fark kaydedildikten sonra neden kodunu gösterir.
+        - *Gizle*: Neden kodunu göstermez.
 
-1. **Ambar yönetimi** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menü öğeleri**'ni ve ardından **Ayarlama etkin ve devre dışı**'nı seçin.
-2. **Mevcut işi kullan** seçeneğinde **Hayır**'ı işaretleyin.
-3. **İş oluşturma işlemi** alanında **Ayarlama etkin**'i seçin.
+    - **Sayım nedeni kodunu düzenle**: Sayım sırasında mobil cihazda gösterildiğinde çalışanın neden kodunu düzenlemesine izin vermek için bu seçeneği *Evet* olarak ayarlayın. Çalışanın kodu düzenlemesini önlemek için *Hayır* olarak ayarlayın.
+    - **Sayım nedeni kodu grubu**: Çalışanlara sunulan seçeneklerin listesini sınırlandırmak istiyorsanız bir neden kodu grubu seçin. Neden kodu gruplarını ayarlamak hakkında daha fazla bilgi için bu konunun önceki bölümündeki [Sayım nedeni kodu ilkesi ayarlama](#reason-groups) bölümüne bakın. 
 
-İş oluşturma işlemi sırasında **Ayarlama etkin** veya **Ayarlama devre dışı** seçildiğinde aşağıdaki alanlar mobil cihaz menüsüne eklenir:
+> [!NOTE]
+> Sayım nedeni kodu grubunu **İşlem kılavuzu kullan** seçeneğinin *Evet* olarak ayarlandığı *Ayarlama etkin* ve *Ayarlama devre dışı* menü öğelerine atadığınızda Warehouse Management mobil uygulamasında işlemenin parçası olarak sayım nedeni kodlarının sınırlı bir listesini alabilirsiniz.
+>
+> **İşlem kılavuzu kullan** seçeneği yanlışlıkla büyük düzeltme miktarlarının oluşmasını engellemeye de yardımcı olabilir. (Örneğin, bir çalışan bir miktar değeri yerine yanlışlıkla bir madde numarasının barkodunu tarayabilir.) Bu işlevi ayarlamak için **İşlem kılavuzu kullan** seçeneğini ilgili menü öğesi için *Evet* olarak ayarlayın. Ardından **Warehouse Management \> Kurulum \> Çalışan**'a gidin ve çalışanın kaydedebileceği maksimum düzeltme miktarını belirtmek üzere her ilgili ambar çalışanı için **Düzeltme miktarı sınırı** alanını ayarlayın.
 
-- Varsayılan sayım nedeni kodu
-- Sayım nedeni kodunu görüntüle
-- Sayım nedeni kodunu düzenle
+## <a name="processing-that-uses-counting-reason-codes"></a>Sayım nedeni kodlarını kullanan işlem
 
+Çalışanlar Warehouse Management mobil uygulamasını kullandıklarında, neden kodları kaydedilir. Sayım onay işlemi tanımlanmadığı sürece kaydedilen neden kodları, izleyen sayım günlüğü deftere nakil işleminin parçası olarak hemen kullanılır.
+
+### <a name="cycle-count-approvals"></a>Döngü sayımı onayları
+
+Bir sayım onaylanmadan önce çalışan sayımla ilişkili neden kodunu değiştirebilir. Sayım onaylandığında neden kodu sayım günlüğü satırlarına girilir.
+
+#### <a name="modify-reason-codes-for-cycle-count-approvals"></a>Döngü sayımı onayları için neden kodlarını değiştirme
+
+Döngü sayımı onayını değiştirmek için şu adımları izleyin.
+
+1. **Warehouse Management** \> **Döngü sayımı** \> **İnceleme bekleyen döngü sayımı işi**'ne gidin.
+1. Izgarada bir döngü sayımını seçin.
+1. Eylem Bölmesindeki **İş** sekmesinde, **Döngü Sayımı**'nı seçin. Ardından, **Neden kodu** alanında yeni bir neden kodu seçin.
+
+Neden kodları *Sayım günlüğü* türündeki sayım günlüklerindeki günlük satırlarına eklenir.
+
+1. **Stok yönetimi** \> **Günlük girişleri** \> **Madde sayımı** \> **Sayım**'a gidin.
+2. Sayım günlüğünün satır ayrıntılarındaki **Sayım nedeni kodu** alanında, geçerli durumunuza uygun neden kodunu seçin.
+
+### <a name="view-the-reason-codes-recorded-in-the-counting-history"></a>Sayım geçmişinde kaydedilen neden kodlarını görüntüleme
+
+Sayım geçmişinde kaydedilen neden kodlarını görüntülemek için şu adımları izleyin.
+
+1. **Stok yönetimi** \> **Sorgular ve raporlar** \> **Sayım geçmişi**'ne gidin.
+1. Liste bölmesinde bir madde sayımı kaydını seçin.
+1. **Sayma nedeni kodu** alanında, bir neden kodu aracılığıyla kaydedilen sayım geçmişini görüntüleyin.
+
+### <a name="use-reason-codes-for-quantity-adjustment-or-online-counting"></a>Miktar düzeltmesi veya çevrimiçi sayım için neden kodları kullanma
+
+Miktar düzeltmesi veya çevrimiçi sayım için neden kodları kullanmak üzere şu adımları izleyin.
+
+1. **Stok yönetimi \> Sorgular ve raporlar \>> Eldeki stok** öğesine gidin.
+1. Eylem Bölmesi'nde **Miktar düzeltmesi**'ni seçin.
+1. **Miktar düzeltmesi**'ni seçin ve ardından **Sayım nedeni kodu** alanında bir neden kodu seçin.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

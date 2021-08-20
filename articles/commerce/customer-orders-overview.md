@@ -1,8 +1,8 @@
 ---
-title: Satış Noktası'ndaki (POS) müşteri siparişleri
-description: Bu konuda, Satış Noktası'ndaki (POS) müşteri siparişleri hakkında bilgi verilir. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
+title: Satış noktasındaki (POS) müşteri siparişleri
+description: Bu konuda, satış noktasındaki (POS) müşteri siparişleri hakkında bilgi sağlanmaktadır. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 author: josaw1
-ms.date: 01/06/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755095"
 ---
-# <a name="customer-orders-in-point-of-sale-pos"></a>Satış Noktası'ndaki (POS) müşteri siparişleri
+# <a name="customer-orders-in-point-of-sale-pos"></a>Satış noktasındaki (POS) müşteri siparişleri
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Satış Noktası'ndaki (POS) müşteri siparişlerinin nasıl oluşturulup yönetileceği ile ilgili bilgi verilir. Müşteri siparişleri, alışverişçilerin sonraki bir tarihte ürün çekmek, farklı bir konumdan ürünü çekmek veya maddelerin kendilerine gönderilmelerini sağlamak istedikleri satışları yakalamak için kullanılabilir. 
+Bu konuda, satış noktası (POS) uygulamasında müşteri siparişlerinin nasıl oluşturulup yönetileceği ile ilgili bilgi sağlanmaktadır. Müşteri siparişleri, alışverişçilerin sonraki bir tarihte ürün çekmek, farklı bir konumdan ürünü çekmek veya maddelerin kendilerine gönderilmelerini sağlamak istedikleri satışları yakalamak için kullanılabilir. 
 
 Çok kanallı ticaret dünyasında pek çok perakendeci, çeşitli ürün ve yerine getirme gereksinimlerini karşılamak için müşteri siparişleri seçeneği veya özel siparişler sağlar. Burada bazı tipik senaryolar vardır:
 
@@ -132,6 +132,10 @@ POS [ekran düzeninin](./pos-screen-layouts.md), müşteri siparişlerinin oluş
 > [!IMPORTANT]
 > Tüm perakende siparişler POS uygulaması aracılığıyla düzenlenemez. Çağrı merkezi kanalında oluşturulan siparişler, bu kanalda [Sipariş tamamlamayı etkinleştir](./set-up-order-processing-options.md#enable-order-completion) ayarı açıksa, POS üzerinden düzenlenemez. Doğru ödeme işleminin yapıldığından emin olmak için, bir çağrı merkezi kanalında oluşturulan ve Sipariş tamamlamayı etkinleştirme işlevini kullanan siparişlerin Commerce Headquarters'da çağrı merkezi uygulaması aracılığıyla düzenlenmesi gerekir.
 
+> [!NOTE]
+> Commerce genel merkezinde çağrı merkezi dışı bir kullanıcı tarafından oluşturulan POS'ta sipariş ve teklifleri düzenlememenizi öneririz. Bu siparişler ve teklifler, Commerce fiyatlandırma altyapısını kullanmaz. Bu nedenle, POS'ta düzenlendiklerinde Commerce fiyatlandırma altyapısı bunları yeniden fiyatlandırır.
+
+
 Sürüm 10.0.17 ve sonrasında, kullanıcılar,sipariş kısmen karşılanabilse bile POS uygulaması üzerinden uygun siparişleri düzenleyebilir. Ancak, tamamen faturalanmış siparişler POS üzerinden düzenlenemez. Bu özelliği etkinleştirmek için **Özellik yönetimi** çalışma alanında **Satış Noktası'nda kısmen karşılanmış siparişleri düzenle** özelliğini açın. Bu özellik etkin değilse veya sürüm 10.0.16 veya öncesini kullanıyorsanız kullanıcılar yalnızca sipariş tam olarak açıksa POS'ta müşteri siparişlerini düzenleyebilirler. Ayrıca, özellik etkinleştirildiğinde, hangi mağazaların kısmi olarak karşılanan siparişleri düzenleyebileceğini sınırlayabilirsiniz. Belirli mağazalar için bu özelliği devre dışı bırakma seçeneği, **Genel** hızlı sekmesi altındaki **İşlevsellik profili** aracılığıyla konfigüre edilebilir.
 
 
@@ -142,7 +146,23 @@ Sürüm 10.0.17 ve sonrasında, kullanıcılar,sipariş kısmen karşılanabilse
 5. Ödeme işlemini seçerek düzenleme işlemini tamamlayın.
 6. Herhangi bir değişiklik yapmadan düzenleme işleminden çıkmak için, **Hareketi hükümsüz kıl** işlemini kullanabilirsiniz.
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Siparişler düzenlendiğinde fiyatlandırma etkisi
 
+Siparişler POS'ta veya bir Commerce e-ticaret sitesinde verildiğinde müşteriler bir tutar taahhüt eder. Bu tutar bir fiyat içerir ve ayrıca bir iskonto da içerebilir. Sipariş veren ve ardından bu siparişi değiştirmek için (örneğin, başka bir öğe eklemek için) çağrı merkeziyle iletişime geçen müşteri, iskonto uygulanması konusunda belirli beklentilere sahiptir. Mevcut sipariş satırlarındaki promosyonların süresi dolsa bile müşteri, başlangıçta bu satırlara uygulanan iskontoların etkin kalmasını bekler. Ancak sipariş başlangıçta verildiğinde etkin iskonto yoksa ancak bu tarihten sonra bir iskonto yürürlüğe girdiyse müşteri, yeni iskontonun değiştirilen siparişe uygulanmasını bekler. Aksi takdirde müşteri, mevcut siparişi iptal edebilir ve ardından yeni iskontonun uygulandığı yeni bir sipariş oluşturabilir. Bu senaryoda, müşterilerin taahhüt ettiği fiyatların ve iskontoların korunması gerektiği gösterilmektedir. Aynı zamanda POS ve çağrı merkezi kullanıcıları, satış siparişi satırlarının fiyatlarını ve iskontolarını gerektiği gibi yeniden hesaplama esnekliğine sahip olmalıdır.
+
+POS'ta siparişler geri çekilip düzenlendiğinde mevcut sipariş satırlarının fiyatları ve iskontoları "kilitli" olarak kabul edilir. Diğer bir deyişle, bazı sipariş satırları iptal edilmiş veya değiştirilmiş olsa da ya da yeni sipariş satırları eklense bile bunlar değişmez. Mevcut satış satırlarının fiyatlarını ve iskontolarını değiştirmek için POS kullanıcısı, **Yeniden Hesapla** seçeneğini belirlemelidir. Ardından fiyat kilidi, mevcut sipariş satırlarından kaldırılır. Ancak Commerce 10.0.21 sürümünden önce çağrı merkezinde bu özellik kullanılamıyordu. Bunun yerine, sipariş satırlarındaki tüm değişiklikler fiyatların ve iskontoların yeniden hesaplanmasına neden oluyordu.
+
+Commerce 10.0.21 sürümünde, **Özellik yönetimi** çalışma alanında **Ticari siparişler için istenmeyen fiyat hesaplamasını engelle** adlı yeni bir özellik kullanılabilir. Bu özellik, varsayılan olarak açıktır. Açıldığında tüm e-ticaret siparişleri için yeni bir **Fiyat kilitli** özelliği kullanılabilir. Herhangi bir kanaldan verilen siparişler için sipariş yakalama tamamlandıktan sonra bu özellik tüm sipariş satırları için otomatik olarak etkinleştirilir (yani, onay kutusu seçilidir). Daha sonra Commerce fiyatlandırma altyapısı bu sipariş satırlarını tüm fiyat ve iskonto hesaplamalarından hariç tutar. Bu nedenle, sipariş düzenlendiğinde sipariş satırları varsayılan olarak fiyatlandırma ve iskonto hesaplamasından hariç tutulur. Ancak çağrı merkezi kullanıcıları, sipariş satırları için özelliği devre dışı bırakabilir (yani onay kutusunun işaretini kaldırabilir) ve ardından mevcut sipariş satırlarını fiyatlandırma hesaplamalarına dahil etmek için **Yeniden Hesapla** seçeneğini belirleyebilir.
+
+Mevcut bir sipariş satırına el ile iskonto uygularken bile çağrı merkezi kullanıcılarının, iskontoyu uygulamadan önce satış satırının **Fiyat kilitli** özelliğini devre dışı bırakması gerekir.
+
+Çağrı merkezi kullanıcıları ayrıca **Satış siparişi** sayfasının Eylem Bölmesi'ndeki **Satış** sekmesinde **Hesapla** grubundaki **Fiyat kilidini kaldır** seçeneğini belirleyerek de toplu olarak sipariş satırları için **Fiyat kilitli** özelliğini devre dışı bırakabilir. Bu durumda fiyat kilidi, düzenlenebilir olmayan satırlar (diğer bir deyişle, **Kısmen faturalandı** veya **Faturalandı** durumuna sahip satırlar) haricinde tüm sipariş satırlarından kaldırılır. Ardından, siparişteki değişiklikler tamamlanıp gönderildikten sonra fiyat kilidi tüm sipariş satırlarına yeniden uygulanır.
+
+> [!IMPORTANT]
+> **Ticari siparişler için istenmeyen fiyat hesaplamasını engelle** özelliği açıldığında, fiyatlandırma iş akışlarında ticari sözleşme değerlendirmesi kurulumu yok sayılır. Diğer bir deyişle, ticari sözleşme değerlendirmesi iletişim kutusunda **Fiyat kilitli** bölümü gösterilmez. Bu davranış, ticari sözleşme değerlendirmesi kurulumunun ve fiyat kilidi özelliğinin benzer bir amaca sahip olması nedeniyle gerçekleşir: istenmeyen fiyat değişikliklerini önlemek. Ancak ticari sözleşme değerlendirmesi için kullanıcı deneyimi, kullanıcıların yeniden fiyatlandırma amacıyla bir veya daha fazla sipariş satırı seçmesinin gerektiği büyük siparişlerde iyi ölçeklenmez.
+
+> [!NOTE]
+> **Fiyat kilitli** özelliği yalnızca **Çağrı merkezi** modülü kullanıldığında bir veya daha fazla seçili satır için devre dışı bırakılabilir. POS'un davranışı değişmeden kalır. Diğer bir deyişle, POS kullanıcısı seçili sipariş satırları için fiyatların kilidini açamaz. Ancak mevcut tüm sipariş satırlarından fiyat kilidini kaldırmak için **Yeniden Hesapla** seçeneğini belirleyebilir.
 
 ### <a name="cancel-a-customer-order"></a>Müşteri siparişini iptal etme
 

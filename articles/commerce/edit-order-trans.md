@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5113f7ac0d308076ebaa9daeca0929eb537e94ab
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 99ad5be36587a3f726f5b40cccfdd30ab0ef48e1a87563a884f83264f40842fc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792693"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765302"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Çevrimiçi siparişi ve zaman uyumsuz müşteri siparişi hareketlerini düzenleme ve denetleme
 

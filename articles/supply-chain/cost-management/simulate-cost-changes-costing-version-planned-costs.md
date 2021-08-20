@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 627c45a6cd7b647c0cb11ad4a4470bf143fff6cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e288a5f00e43901ba1bf6ec50f460be4b62ea2db73adbaf0f9204c988e812f58
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821477"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781573"
 ---
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişikliklerinin benzetimini yapın
 

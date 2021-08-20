@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86e048139da28c04c9f5ca03d71f92e5a7e60652
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d65d641cca1bf681dc84b8faaa9292b5a98a7221fd453351228a94671f75ad62
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836002"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776812"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>İade maliyet fiyatı ve iade lot kodu        
 

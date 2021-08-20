@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db75b09f1ae1f83a88a5e5eaef0c8c1b8eab5901
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 27dc29109693c06913c8107e27e79a48cf2c9db7146ff3a5919305366641af3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804149"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774473"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Hazır raporlar oluştur ve çalıştır
 
@@ -36,7 +36,7 @@ Bu kaydı oluşturmak için kullanılan demo verisi şirketi USRT'dir. Bu kayıt
 4. Başlangıç tarihi alanına bir tarih girin.
 5. Bitiş tarihi alanına bir tarih girin.
 6. Kanal alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-7. Ağaçta 'Contoso Retail\Contoso Retail USA\Central\Houston' seçeneğini seçin.
+7. Ağaçta, "Contoso Retail\Contoso Retail USA\Central\Houston" seçeneğini belirleyin.
     * Bu, Commerce raporlama için varsayılan kuruluş hiyerarşisini gösterir.   Kuruluş yönetimi > Kuruluşlar > Kuruluş hiyerarşisi amaçları'na gidin, Commerce raporlama seçeneğini belirleyin ve Atanan hiyerarşiler altından Varsayılan sütununun işaretlendiği hiyerarşi adını işaretleyin. Demo verilerin (bu görev kaydı için kullanılan) bir parçası olarak, raporlama amacı için varsayılan kuruluş hiyerarşisi Bölgeye göre Mağazaları'dır.     
 8. Tamam'a tıklayın.
 9. Görünüm alanında bir seçenek seçin.
@@ -48,7 +48,7 @@ Bu kaydı oluşturmak için kullanılan demo verisi şirketi USRT'dir. Bu kayıt
 2. Başlangıç tarihi alanına bir tarih girin.
 3. Bitiş tarihi alanına bir tarih girin.
 4. Kanal alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-5. Ağaçta 'Contoso Retail\Contoso Retail USA\West\Seattle' seçeneğini seçin.
+5. Ağaçta, "Contoso Retail\Contoso Retail USA\West\Seattle" seçeneğini belirleyin.
     * Bu, Commerce raporlama için varsayılan kuruluş hiyerarşisini gösterir. Kuruluş yönetimi > Kuruluşlar > Kuruluş hiyerarşisi amaçları'na gidin, Commerce raporlama seçeneğini belirleyin ve Atanan hiyerarşiler altından Varsayılan sütununun işaretlendiği hiyerarşi adını işaretleyin. Demo verilerin (bu görev kaydı için kullanılan) bir parçası olarak, raporlama amacı için varsayılan kuruluş hiyerarşisi Bölgeye göre Mağazaları'dır.     
 6. Tamam'a tıklayın.
 7. Tamam'a tıklayın.

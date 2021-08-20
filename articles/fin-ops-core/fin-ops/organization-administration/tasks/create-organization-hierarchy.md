@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d27bec86302f3e6cef8318a0d846f31d2d9c6a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0623f4e97514246c3fb04e7bfbfe1254e8e08847566282f9a28aa526c806aa47
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758981"
 ---
 # <a name="create-an-organization-hierarchy"></a>Bir kuruluş hiyerarşisi oluşturma
 

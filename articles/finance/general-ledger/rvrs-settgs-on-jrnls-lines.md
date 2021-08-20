@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 74020f6fc9b0fa8e05a1e2a09fd13dcd60490dc0
-ms.sourcegitcommit: 817716c2e96f24af0ef1d7d5323afdeccdc602f3
+ms.openlocfilehash: d0659fbd814d3fb86b2f4a1ecb6162614ab8a4f125029fbb04f08cc5fb52b45c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "6028590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780834"
 ---
 # <a name="reverse-settings-on-journals-and-lines"></a>Günlükler ve satırlardaki ayarları tersine çevirme
 
