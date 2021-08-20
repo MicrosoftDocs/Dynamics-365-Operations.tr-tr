@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bbd15ca83ab116286a3d681887f076896653c76
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2a57dc7f41e283d097daef1b92b6b22c093655ff48c7a3778f7ab541ebb24964
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810594"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746100"
 ---
 # <a name="service-order-item-requirements"></a>Servis siparişi madde gereksinimleri   
 
