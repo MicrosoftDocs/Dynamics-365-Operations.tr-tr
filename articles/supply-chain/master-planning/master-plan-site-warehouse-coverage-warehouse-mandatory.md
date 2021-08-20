@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32e88b351b33bb9ada3833be0f5f9267dffc39fb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0f93602c9f6f5ec1816bd7e81732c6b1d51a6e845f0653b8b561005efdfa52f4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746999"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>Tesis ve ambar kapsamı için master planlama, ambar zorunlu
 

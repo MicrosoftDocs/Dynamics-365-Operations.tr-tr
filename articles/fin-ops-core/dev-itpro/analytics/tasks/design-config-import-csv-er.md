@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05beb15413362aea557fb80fb471c10e1f832184
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b42f0cf8c7260c85d405a5dfdcd50323ffee4d4528b982997a802b859ab8327b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747283"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>CSV dosyalarından veri almak için ER yapılandırmaları tasarlama
 

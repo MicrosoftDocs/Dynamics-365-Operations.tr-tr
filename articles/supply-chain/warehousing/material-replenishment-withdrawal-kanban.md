@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742596"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Çekme kanbanlarıyla stok yenileme
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c9b4ba6b55bbe26637f612390354d43a71b3eab
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 87977ff004e0785ec1d31fe3abac2728f87e7083348895b58e58f46cd3e79925
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357179"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748895"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Kişisel bilgilerin düzenlenmesini kısıtlama
 
