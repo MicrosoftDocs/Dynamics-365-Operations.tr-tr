@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 45aa5931b5d958dd32bd165b414957fa7b366d077cef67621221ce19b56b67d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772815"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>Vergi hesaplanmıyor veya vergi tutarı sıfır
 

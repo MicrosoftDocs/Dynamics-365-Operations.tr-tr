@@ -2,7 +2,7 @@
 title: NF-e özel sertifika doğrulaması
 description: Bu konu, NF-e özel sertifikasını etkinleştirme ve kullanma hakkında bilgi sağlar.
 author: gionoder
-ms.date: 10/06/2020
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 895513f51798a797ebf59f8a5be4f5cde006726d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8144e16b127bdbe954ef44f52c5ac71689a2036e6085e9a4ccc8bb17f91ae9b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813980"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755603"
 ---
 # <a name="nf-e-custom-certificate-validation"></a>NF-e özel sertifika doğrulaması
 
 [!include [banner](../includes/banner.md)]
 
-NF-e özel sertifika doğrulama özelliğini etkinleştirdiğinizde, özel doğrulama Web hizmetleriyle bağlantı yapılmasına izin verir. Bu bağlantı, SEFAZ üzerinden NF-e aktarmak ve yetkilendirme almak için gereklidir.
+Brezilya Kök Sertifika Yetkilisi tarafından verilen sertifikalardaki **Sunucu kimlik doğrulama amacı** özelliği varsayılan olarak kapalıdır ve el ile etkinleştirilmesi gerekir. Bazı durumlarda, otomatik sertifika güncelleştirme bu özelliği artık etkin olmayacak şekilde değiştirebilir. Bu durumda TLS bağlantısı etkilenir ve artık güvenilir olmayabilir. Minas Gerais (MG) ve Paraná (PR) eyaletlerinin üretim ortamlarında Brezilya elektronik mali belge modeli 55'i (NF-e) verme yeteneği de etkilenebilir.
 
-Sertifika V5'deki **Sunucu kimlik doğrulama amacı** özelliği, Brezilya Kök Sertifika Yetkilisi tarafından verilir. Bu özellik varsayılan olarak kapalıdır ve el ile etkinleştirilmesi gerekir. Bazı durumlarda, otomatik sertifika güncelleştirme bu özelliği artık etkin olmayacak şekilde değiştirebilir. Bu durumda, TLS bağlantısı etkilenir ve artık güvenilir değildir. Minas Gerais (MG) ve Paraná (PR) eyaletlerinin üretim ortamlarında NF-e verme yeteneği de etkilenebilir.
-
-Bu güncelleştirme, sertifika doğrulaması için alternatif bir çözüme olanak tanır, başka bir deyişle, güvenli bir iletişim kurma olanağı vardır.
-
-
-
+**NF-e özel sertifika doğrulaması** için düzeltmeyi etkinleştirmek üzere **Özellik yönetimi**'ne gidin. Bu özellik, V5 ve V10 sertifika doğrulamaları için alternatif bir çözüm sağlar ve NF-e'nin güvenli iletimi ve SEFAZ'den yetkilendirme alımı için gereken web hizmetleriyle güvenilir bağlantıya olanak tanır.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

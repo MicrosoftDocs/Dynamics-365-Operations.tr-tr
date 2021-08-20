@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: smnatara
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1fa54cdfdbc5608fb6c7114dced0f96bab47253e
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: b8aef8835e90b7437bb7833c13c3d287d4ca836bf1fefc01bfeafef1c93329bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026997"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768606"
 ---
 # <a name="multiple-inventory-transactions-for-batch-numbers-when-on-physical-update-is-disabled"></a>Fiziksel güncelleştirmede seçeneği devre dışıyken toplu iş numaraları için çoklu stok hareketleri
 

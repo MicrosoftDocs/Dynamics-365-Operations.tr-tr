@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: b0de3d9280c43fc7e2bb2568d4a57250da4dfebf
-ms.sourcegitcommit: 9f3b6c00f82694b5f8eb1bda75411801c0fccf4a
+ms.openlocfilehash: ceb0a60ccf3d1c989d8663e933faaa5e430d314695e20990c9086cd1b8325ff1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6315691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773739"
 ---
 # <a name="configure-expenditure-reviewers"></a>Harcama gözden geçiricilerini yapılandırma
 [!include[banner](../includes/banner.md)]
