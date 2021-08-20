@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 480e4bd41fcd24e7a9c8ce6704eacb03069f19c8
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a8ebe9292716988b31999ea837bb338aeae0157538f833da5aa058cd43d3f13d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755464"
 ---
 # <a name="questionnaires"></a>Soru formları
 

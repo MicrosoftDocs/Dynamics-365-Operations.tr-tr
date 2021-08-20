@@ -2,7 +2,7 @@
 title: Çerez uyumluluğu
 description: Bu konu, tanımlama bilgisi uyumu ve Microsoft Dynamics 365 Commerce'in içerdiği varsayılan ilkelerin dikkate alınması konularını açıklamaktadır.
 author: BrianShook
-ms.date: 07/01/2021
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747709"
 ---
 # <a name="cookie-compliance"></a>Çerez uyumluluğu
 
@@ -54,6 +54,10 @@ Aşağıdaki tabloda, Dynamics 365 Commerce siteleri tarafından yerleştirilen 
 | \_msdyn365___muid_                            | Ortam için Deneme etkinleştirilirse kullanılır; deneme amacıyla kullanıcı kimliği olarak kullanılır. | 1 yıl |
 | \_msdyn365___exp_                             | Ortam için Deneme etkinleştirilirse kullanılır; performans yük dengelemesini ölçmek için kullanılır.         | 1 saat |
 | d365mkt                                       | Mağaza konumu önerileri için kullanıcının IP adresini izlemek üzere konum tabanlı algılama, **Site Ayarları \> Genel \> Konum tabanlı mağaza algılamayı etkinleştir**'deki Commerce site oluşturucusunda etkinleştirilmişse kullanın.      | 1 saat |
+| \_msdyn365___tuid_                           | Yalnızca ortam için deneme etkinleştirildiyse kullanılır; kullanıcı tanımlayıcısı olarak işlev görecek bir GUID oluşturur. Değer, kullanıcının oturum açma durumu değiştirilirse değişir.      | 1 yıl |
+| \_msdyn365___aud_0                          | Hedefleme tarafından kullanılan segment değerlerini depolar ve yalnızca hedefleme bir site kullanıcısı tarafından istenen sayfada veya parçada yapılandırılırsa çalışır. Tanımlama bilgisi yalnızca segment değerleri üçüncü taraf bir segmentasyon sağlayıcısından gelirse yerleştirilir.      | 7 gün |
+| \_msdyn365___aud_1                           | Hedefleme tarafından kullanılan segment değerlerini depolar ve yalnızca hedefleme bir site kullanıcısı tarafından istenen sayfada veya parçada yapılandırılırsa çalışır. Tanımlama bilgisi yalnızca segment değerleri üçüncü taraf bir segmentasyon sağlayıcısından gelirse yerleştirilir.      | 7 gün |
+| \_msdyn365___aud_2                           | Hedefleme tarafından kullanılan segment değerlerini depolar ve yalnızca hedefleme bir site kullanıcısı tarafından istenen sayfada veya parçada yapılandırılırsa çalışır. Tanımlama bilgisi yalnızca segment değerleri üçüncü taraf bir segmentasyon sağlayıcısından gelirse yerleştirilir.      | 7 gün |
 
 Site kullanıcısı bir sitedeki herhangi bir sosyal medya bağlantısını seçerse, aşağıdaki tabloda yer alan tanımlama bilgileri de tarayıcılarında izlenir.
 

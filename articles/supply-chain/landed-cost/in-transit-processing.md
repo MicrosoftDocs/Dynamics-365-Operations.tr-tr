@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744810"
 ---
 # <a name="goods-in-transit-processing"></a>Transitteki malları işleme
 
@@ -104,6 +104,7 @@ Varış günlüğü oluşturarak da mal alabilirsiniz. Doğrudan seyahat sayfas�
 1. Seyahati, konteyneri veya folyoyu açın.
 1. Eylem Bölmesinde **Yönet** sekmesinde **İşlevler** grubunda **Varış günlüğü oluştur**'u seçin.
 1. **Varış günlüğü oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
+
     - **Miktarı başlat**: Transitteki miktardan miktarı ayarlamak için bu seçeneği *Evet* olarak ayarlayın. Bu seçenek *Hayır* olarak ayarlanırsa transitteki mallardan hiçbir varsayılan miktar ayarlanmaz.
     - **Transitteki mallardan oluştur**: Seçili seyahat, konteyner veya folyo için seçili transitteki mal transit satırlarından miktar almak üzere bu seçeneği *Evet* olarak ayarlayın.
     - **Sipariş satırlarından oluştur**: Satın alma siparişi satırlarından varış günlüğündeki varsayılan miktarı ayarlamak için bu seçeneği *Evet* olarak ayarlayın. Varış günlüğündeki varsayılan miktar, yalnızca satın alma siparişi satırındaki miktar transitteki mal siparişteki miktarla eşleşiyorsa bu şekilde ayarlanabilir.
@@ -140,4 +141,21 @@ Varış yeri maliyeti, **Konum yönergeleri** sayfasına *Transitteki mallar* ad
 
 ### <a name="work-templates"></a>İş şablonları
 
+Bu bölümde, **Son teslim alma maliyeti** modülünün iş şablonlarına eklediği özellikler açıklanmaktadır.
+
+#### <a name="goods-in-transit-work-order-type"></a>Transitteki mallar iş emri türü
+
 Varış yeri maliyeti, **İş şablonları** sayfasına *Transitteki mallar* adlı yeni bir iş emri türü ekler. Bu iş emri türü, [satın alma siparişi iş şablonlarıyla](/dynamicsax-2012/appuser-itpro/create-a-work-template)aynı şekilde yapılandırılmalıdır.
+
+#### <a name="work-header-breaks"></a>İş başlığı molaları
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+*Transitteki mallar* iş emri türüne sahip iş şablonları iş başlıklarını bölecek şekilde yapılandırılabilir. **İş şablonları** sayfasında, aşağıdaki adımlardan birini izleyin:
+
+- Şablonun **Genel** sekmesinde, iş başlığının maksimum değerlerini ayarlayın. Bu maksimum değerler, satınalma siparişi iş şablonlarıyla aynı şekilde çalışırlar. (Daha fazla bilgi için bkz. [satınalma siparişi iş şablonları](/dynamicsax-2012/appuser-itpro/create-a-work-template).)
+- Sıralama için kullanılan alanlara göre sistemin ne zaman yeni iş başlıkları oluşturması gerektiğini tanımlamak için **İş başlığı sonları** düğmesini kullanın. Örneğin, her kapsayıcı kimliği için bir iş başlığı oluşturmak amacıyla, Eylem Bölmesi'nde **Sorguyu düzenle**'yi seçin ve ardından **Kapsayıcı Kimliği** alanını sorgu düzenleyicisinin **Sıralama** sekmesine ekleyin. **Sıralama** sekmesine eklenen alanlar *gruplandırma alanları* olarak seçilebilir. Gruplandırma alanlarını ayarlamak için Eylem Bölmesi'nde **İş başlığı sonları**'nı seçin ve ardından gruplandırma alanı olarak kullanmak istediğiniz her alan için **Bu alana göre gruplandır** sütununun onay kutusunu işaretleyin.
+
+Kayıtlı miktar orijinal sipariş miktarını aşarsa son teslim alma maliyeti [fazla bir hareket oluşturur](over-under-transactions.md). İş başlığı tamamlandığında sistem, ana sipariş miktarı için stok hareketlerinin durumunu güncelleştirir. Ancak birincil olan tamamen satın alındıktan sonra öncelikle fazla harekete bağlı olan miktarı güncelleştirir.
+
+Halihazırda kaydedilmiş olan fazla hareket için bir iş başlığını iptal ederseniz fazla hareket, öncelikle iptal edilen miktar kadar azaltılır. Fazla hareket miktarı 0'a (sıfır) indirildikten sonra kayıt kaldırılır ve ek miktarlar birincil sipariş miktarına karşı kayıttan çıkarılır.
