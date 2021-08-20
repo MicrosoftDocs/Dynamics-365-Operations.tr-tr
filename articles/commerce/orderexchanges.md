@@ -2,7 +2,7 @@
 title: Bir iade emrinde bir değişiklik yapılandırma ve işleme
 description: Bu konuda, Dynamics 365 Commerce için bir iadede bir değişikliğin nasıl yapılandırılacağı açıklanmaktadır.
 author: josaw1
-ms.date: 11/12/2018
+ms.date: 07/28/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 46d6e912aca64951da2865f5609a9dc22fbbcbe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804613"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758348"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Bir iade emrinde bir değişiklik yapılandırma ve işleme
 
@@ -32,7 +32,10 @@ Ancak, değişikliklerin iade emirlerinde yapıldığı senaryoları desteklemek
 
 ## <a name="configure-commerce-to-support-exchanges-on-return-orders"></a>Commerce uygulamasını iade emirlerinde değişiklikleri destekleyecek şekilde yapılandırma
 
-Sistemi, iade emirlerinde değişiklikleri destekleyecek şekilde yapılandırmak için bu adımları izleyin.
+> [!NOTE]
+> Commerce sürüm 10.0.20 ve sonraki sürümlerde, "POS'ta birleşik iade işleme deneyimi" olarak adlandırılan yeni bir özellik mevcuttur. Bu özelliği etkinleştirirseniz aşağıdaki kurulum adımları gerekmez. **İadeleri satış siparişleri olarak işle** kalıcı olarak yapılandırılmış bir ayar haline gelir ve bunu değiştiremezsiniz.
+
+Sistemi iade emirlerinde değişiklikleri destekleyecek şekilde yapılandırmak için (**POS'ta birleşik iade işleme deneyimi** özelliği etkin değilse) şu adımları izleyin.
 
 1. **Retail ve Commerce \> Genel merkez ayarı \> Parametreler \> Commerce parametreleri**'ne gidin. **Müşteri siparişleri** hızlı sekmesinde, **İade emirlerine satış siparişleri olarak işlem yap** seçeneğini **Evet** olarak ayarlayın.
 2. **Genel yapılandırma dağıtım planı** işini (**1110**) çalıştırın.

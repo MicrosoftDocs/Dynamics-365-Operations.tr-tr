@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2851c36594384dd62f4bb95263cfd4407aec104
-ms.sourcegitcommit: 71952e97774547230285026c6a3a6caea2512920
+ms.openlocfilehash: 4ebe5a6ae19d00b94247381c700ff21d31910fcac1968ab4f8a673f89ddd2f0f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "6614845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782647"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 12 Temmuz 2021
 

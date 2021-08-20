@@ -72,6 +72,8 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.21 (Ekim 2021)
+                      href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (Ağustos 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (Haziran 2021)
@@ -1601,6 +1603,8 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Planlama Optimizasyonunu kullanmaya başlama
                   href: master-planning/planning-optimization/get-started.md
+                - name: Planlama Optimizasyonu sürüm işlemi ve sürüm geçmişi
+                  href: master-planning/planning-optimization/release-process.md
                 - name: Planlama Optimizasyonu uygunluk analizi
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Planlama Optimizasyonu tarafından kullanılmayan parametreler
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Kapsam zaman dilimleri
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: Planlama Optimizasyonu ile net gereksinimler ve ilişkilendirme bilgileri
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Planlı siparişleri onaylama
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Kesinleşmiş planlı siparişler
@@ -1709,6 +1715,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: İç tedarik zinciri müşterileriyle işbirliği yapma
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+                - name: Yerleşik master planlama ile net gereksinimler ve ilişkilendirme bilgileri
+                  href: master-planning/net-requirements-built-in-master-planning.md
             - name: Tahmin
               items:
                 - name: Talep ve tedarik tahmini
@@ -1967,6 +1975,8 @@
                   href: procurement/request-quotations.md
                 - name: Teklif talebi oluşturma
                   href: procurement/tasks/create-request-quotation.md
+                - name: RFQ'lar için kapalı teklif
+                  href: procurement/sealed-bidding.md
                 - name: RFQ kullanan bir talep oluşturma
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: RFQ'lar için puanlama yöntemi oluşturma
@@ -2281,6 +2291,8 @@
               href: engineering-change-management/product-readiness.md
             - name: Ürün serbest bırakma yapısı
               href: engineering-change-management/release-product-structure.md
+            - name: Mühendislik ürünleri için çeşit oluşturma
+              href: engineering-change-management/engineering-variants.md
             - name: Mühendislik değişim yönetimi hakkında SSS
               href: engineering-change-management/change-management-faq.md
         - name: Üretim denetimi
@@ -2603,6 +2615,8 @@
               href: rebate-management/rebate-management-overview.md
             - name: İndirim yönetimi modülünü ayarlama ve yapılandırma
               items:
+                - name: Sisteminiz için İndirim yönetimi modülünü açma
+                  href: rebate-management/rebate-management-enable.md
                 - name: İndirim yönetimi parametreleri
                   href: rebate-management/rebate-management-parameters.md
                 - name: İndirim yönetimi anlaşması iş akışları
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: 'İndirimleri işleme, inceleme ve deftere nakletme'
               href: rebate-management/process-review-post.md
+            - name: Kesinti workbench'ini kullanarak kesintileri yönetme
+              href: rebate-management/deduction-workbench.md
         - name: Satış ve pazarlama
           items:
             - name: Satış ve pazarlamaya genel bakış
@@ -3057,7 +3073,9 @@
               href: landed-cost/in-transit-processing.md
             - name: Fazla/eksik hareketleri işleme
               href: landed-cost/over-under-transactions.md
-            - name: Son teslim alma maliyeti sorgulamaları
+            - name: Yerine koyma için izlemeyi güncelleştirme
+              href: landed-cost/update-tracking-putaway.md
+            - name: Son teslim alma maliyeti sorguları
               href: landed-cost/landed-cost-inquiries.md
             - name: Son teslim alma maliyeti raporları
               href: landed-cost/landed-cost-reports.md
@@ -3117,6 +3135,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Sistem tarafından yönlendirilen küme malzeme çekme
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Satış siparişleri ve transfer emirleri için fazla malzeme çekme
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Paketleme ve depolama için farklı boyutlar ayarlama
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: Toplu iş ve plaka onayı
@@ -3509,6 +3529,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Ambar yönetimi
               items:
+                - name: Müşteri beklemede olduğundan sevkiyat onaylanamıyor
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: Yük satırlarında sıfır miktar olduğundan sevkiyat onaylanamıyor
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: Serbest bırakılan miktar negatif olacağından yükleme satırı güncelleştirilemiyor
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
                 - name: İptal edilen ürün girişleri hareket durumunu kaydedilmiş olarak güncelleştirmiyor
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: Fiziksel güncelleştirme miktarının ondalık yuvarlaması yanlış

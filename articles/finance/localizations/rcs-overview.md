@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4ee68b691bba7f3314b5278b0bcc26504c1583335914a1e7c645abd5303f02c6
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358134"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012025"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -49,6 +49,9 @@ RCS'ye [Regulatory Configuration Service sayfasından](https://marketing.configu
 
 - **Kaydol**: Hizmeti ilk kez kullanacaksanız ve kuruluşunuza servis ortamı sağlamak için iş e-posta adresi kullanıyorsanız
 - **Oturum aç**: Hizmete daha önce kaydolduysanız ve kuruluşunuzun ortamına erişmek istiyorsanız
+
+> [!NOTE] 
+> Kaydolduktan sonra RCS ortamına ek bir SysAdmin kullanıcısı eklemenizi öneririz. Bu kullanıcı, ortam için ortak yönetici olarak sağlanır. Bu, SysAdmin rolü bu ortamın kullanıcılarını yöneteceğinden RCS ortamına erişim için kararlılık sağlamaya yardımcı olur. **RCS çalışma alanı > Sistem Yönetimi**'ni kullanarak kullanıcı ekleyebilirsiniz.
 
 ## <a name="regional-availability"></a>Bölgesel kullanılabilirlik
 

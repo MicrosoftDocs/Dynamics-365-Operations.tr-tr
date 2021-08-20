@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 55eb7c5f2419bf1cb2ac0a33a82ab931a3ef380f
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: f76b75a968e9ee9a3c545f646077c16282b5b185aa88025653f7443fbcfd9581
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881554"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770677"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Deftere nakledilen kira hareketlerini ters kaydetme
 

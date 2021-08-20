@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 877587601c780a2724517afe88f046ff11caf7d2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e67369fac733a7b0aa65ef5968d29320f119f6c1a79e5b0874d7fc61e0b2c700
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759956"
 ---
 # <a name="create-workflows-overview"></a>İş akışlarına genel bakış
 

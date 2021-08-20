@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 84b8c075d485a96ee4a086ab69215a29de50a429
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: eba305a6a5e1b32636e17bba090047d6167ecebd4f0fe49b17b5267c71b98773
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757027"
 ---
 # <a name="deliver-employee-benefits-program"></a>Çalışan yararları programı teslim et
 

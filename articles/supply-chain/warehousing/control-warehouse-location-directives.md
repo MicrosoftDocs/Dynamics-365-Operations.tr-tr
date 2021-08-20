@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36471cf76615e22c2ca80163756e2fd05aaf6a0f
-ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
+ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "5911284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770156"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>İş şablonları ve konum yönergeleri ile ambar işini denetleyin
 

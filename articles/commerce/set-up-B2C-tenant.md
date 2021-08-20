@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1351b9f22416e8ce6d90022997f0a15e9eb4042a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772264"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
