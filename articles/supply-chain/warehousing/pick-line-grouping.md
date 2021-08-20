@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: fe0e63ef742b7bfd09684a94d273a1841d24599c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757506"
 ---
 # <a name="pick-line-grouping"></a>Malzeme çekme satırı gruplandırması
 
@@ -116,7 +116,7 @@ Az önce oluşturduğunuz menü öğesini **Giden** menüsüne eklemek için aş
     - **Madde M9201:** her biri *3*
     - **Madde M9202:** her biri *9*
 
-1. Siparişleri ambara serbest bırakmadan önce, çekme yerleşimlerinin tüm siparişlerdeki tüm maddeler için yeterli stok içerdiğinden emin olmanız gerekir. Satış siparişi çekme için hangi malzeme çekme konumlarının kullanıldığını belirlemek için **yerleşim yönergesi** ayarını gözden geçirin. *51* ambarı için Contoso tanıtım veri ortamını kullanıyorsanız, kullanılabilir stok olduğundan emin olun.
+1. Siparişleri ambara serbest bırakmadan önce, çekme yerleşimlerinin tüm siparişlerdeki tüm maddeler için yeterli stok içerdiğinden emin olmanız gerekir. Satış siparişi çekme için hangi malzeme çekme konumlarının kullanıldığını belirlemek için **yerleşim yönergesi** ayarını gözden geçirin. Ambar *51* için Contoso tanıtım veri ortamını kullanıyorsanız kullanılabilir stok olduğundan emin olun.
 
     Şimdi her bir satır için stoku rezerve etmelisiniz.
 

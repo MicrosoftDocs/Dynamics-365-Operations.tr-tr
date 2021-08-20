@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: efb90e5821b2bbb57396c85722f96a43b7ace0ff
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8dcf63717c993fe63a931c9be2b7f3dad20ec119bee7f414c8590eb40b20057d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835256"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775950"
 ---
 # <a name="set-up-bills-of-exchange"></a>Kambiyo senetlerini ayarlama
 

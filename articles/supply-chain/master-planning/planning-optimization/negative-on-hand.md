@@ -2,7 +2,7 @@
 title: Eldeki eksi miktarları planlama
 description: Bu konu, planlama en iyileştirmesi kullanılırken eldeki eksi stokun nasıl işlendiğini açıklar.
 author: ChristianRytt
-ms.date: 02/18/2020
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1c403e23309dda36dd1c99e22bbae0aa2d6d76a4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97688e09aae9706dd85e7965aa08c7ea873a44d81391c39406e2e6367660e0d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813111"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758556"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Eldeki eksi miktarları planlama
 
@@ -73,17 +73,29 @@ Bu durumda, planlama alt yapısı, 13 ambar için eldeki miktarın 0 PC olduğun
 
 Sonuç 25 adete ait planlı bir sipariş. (= 25 adet &minus; 0 adet) 13 numaralı ambarı 0 adetten 25 adede kadar doldurmak için.
 
+## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Eldeki negatif stoğa karşı bir ayırma olduğunda planlama
+
+Fiziksel ayırmalar varken stoğu ayarlarsanız bir siparişin negatif stoğa karşı fiziksel olarak ayrıldığı bir duruma neden olabilirsiniz. Bu durumda, bir fiziksel ayırma mevcut olduğundan Planlama Optimizasyonu eldeki stok girişi henüz sistemde kayıtlı olmasa bile eldeki stok tarafından desteklendiğini varsayar. Bu nedenle, stok yenilemenin gerekli olmadığını varsayarak sipariş miktarını yenilemek için planlı bir sipariş oluşturmaz.
+
+Aşağıdaki örnek bu senaryoyu göstermektedir.
+
+### <a name="example"></a>Örnek
+
+Sistem aşağıdaki şekilde yapılandırılmıştır:
+
+- *FG* ürünü mevcuttur ve eldeki stok miktarı *10* adettir.
+- Ürün yapılandırması, fiziksel negatif stoğa izin verir.
+- *10* adet *FG* ürünü için bir satış siparişi var.
+- Satış siparişi miktarı, mevcut eldeki stoğa karşı fiziksel olarak ayrılmıştır.
+
+Ardından, eldeki envanter 0 (sıfır) olacak şekilde *FG* ürününün miktarını ayarlarsınız. Eldeki ürün stoğu sıfır olduğundan satış siparişi miktarı artık negatif stoğa karşı ayrılmıştır. Ancak master planlamayı şimdi çalıştırırsanız Planlama Optimizasyonu, fiziksel ayırmayı sağlamak üzere gerekli eldeki stoğun var olduğunu varsayacağı için satış siparişini tedarik etmek üzere planlı bir sipariş oluşturulmayacaktır.
+
 ## <a name="related-resources"></a>İlgili kaynaklar
 
-[Planlamayı En İyi Duruma Getirmeye genel bakış](planning-optimization-overview.md)
-
-[Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama](get-started.md)
-
-[Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
-
-[Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
-
-[Planlama işini iptal etme](cancel-planning-job.md)
-
+- [Planlama Optimizasyonuna genel bakış](planning-optimization-overview.md)
+- [Planlama Optimizasyonunu kullanmaya başlama](get-started.md)
+- [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
+- [Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
+- [Planlama işini iptal etme](cancel-planning-job.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
