@@ -98,7 +98,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Özel yardıma genel bakış
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Alan açıklamalarını görüntüleme ve dışa aktarma
+                - name: Alan açıklamalarını görüntüleme ve dışarı aktarma
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Görev Kaydedici
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/supply-chain/toc.json
@@ -222,6 +222,26 @@
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Regulatory Configuration Service – Lifecycle Services deposu kullanımdan kaldırılıyor
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ER yapılandırmalarını Supply Chain Management'a indirme
+                      items:
+                        - name: RCS'den yapılandırmaları indirme
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Yapılandırmaları RCS'den içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Genel depo (GR)
+                      items:
+                        - name: Yapılandırmaları GR'den içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Yapılandırmaları GR'ye yükleme
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: GR'de yapılandırmaları paylaşma
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: RCS Genel deposundaki yapılandırmaları durdurma
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektronik Faturalama
                   items:
                     - name: Elektronik Faturalamaya genel bakış
@@ -543,7 +563,7 @@
               href: ../finance/general-ledger/tasks/create-account-structures.md?toc=/dynamics365/supply-chain/toc.json
             - name: Bütçelemeye genel bakış
               href: ../finance/budgeting/basic-budgeting-overview-configuration.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Boyut oluşturma ve boyut üyelerini içe aktarma
+            - name: Boyut oluşturma ve boyut üyelerini içeri aktarma
               href: ../finance/cost-accounting/cost-dimension.md?toc=/dynamics365/supply-chain/toc.json
             - name: Maliyet öğesi boyutları
               href: ../finance/cost-accounting/cost-elements.md?toc=/dynamics365/supply-chain/toc.json
@@ -867,7 +887,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Hazırlanan ER çözümünü hedef uygulamada test etme
                       items:
-                        - name: Yapılandırmaları RCS'den içe aktarma
+                        - name: Yapılandırmaları RCS'den içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
@@ -1197,7 +1217,7 @@
               items:
                 - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içe aktarma
+                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmalar tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/supply-chain/toc.json
@@ -1207,21 +1227,21 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER çözümleri kullanarak gelen dosyalardan verileri içe aktarma
+            - name: ER çözümleri kullanarak gelen dosyalardan verileri içeri aktarma
               items:
                 - name: Genel belgeleri farklı biçimlerde ayrıştırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/supply-chain/toc.json
-                - name: El ile seçilen dosyalardan veri içe aktarmayı yapılandırma
+                - name: El ile seçilen dosyalardan veri içeri aktarmayı yapılandırma
                   items:
                     - name: Harici XML dosyasından veri aktarmak için yapılandırmalar oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
-                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içe aktarmayı yapılandırma
+                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içeri aktarmayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Dosyaları XML biçiminde içe aktarma
+                - name: Dosyaları XML biçiminde içeri aktarma
                   items:
-                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
+                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içeri aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içe aktarmak için ER biçimleri yapılandırma
+                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içeri aktarmak için ER biçimleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
             - name: Yapılandırma yaşam döngüsü
               items:
@@ -1231,36 +1251,12 @@
                   items:
                     - name: Yapılandırmaları LCS 'ye yükleme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Yapılandırmaları LCS'den içe aktarma
+                    - name: Yapılandırmaları LCS'den içeri aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
                     - name: LCS'den yapılandırmaları indirme
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Yapılandırmaları içe aktarma (LBD)
+                    - name: Yapılandırmaları içeri aktarma (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Services (RCS)
-                  items:
-                    - name: RCS'de genelleştirme özellikleri
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER yapılandırmalarını Supply Chain Management'a indirme
-                      items:
-                        - name: RCS'den yapılandırmaları indirme
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Yapılandırmaları RCS'den içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Genel depo (GR)
-                      items:
-                        - name: Yapılandırmaları GR'den içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Yapılandırmaları GR'ye yükleme
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: GR'de yapılandırmaları paylaşma
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: RCS Genel deposundaki yapılandırmaları durdurma
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: Hızlı başlangıç kılavuzları
               items:
                 - name: Özel bir elektronik belge oluşturmak için ER biçimi ayarlama
@@ -1574,7 +1570,19 @@
             - name: Stok hareketlerini arşivleme
               href: inventory/archive-inventory-transactions.md
             - name: Stok Görünürlüğü Eklentisi
-              href: inventory/inventory-visibility.md
+              items:
+                - name: Stok Görünürlüğü Eklentisine genel bakış
+                  href: inventory/inventory-visibility.md
+                - name: Stok Görünürlüğünü ayarlama
+                  href: inventory/inventory-visibility-setup.md
+                - name: Stok Görünürlüğünü yapılandırma
+                  href: inventory/inventory-visibility-configuration.md
+                - name: Stok Görünürlüğü rezervasyonları
+                  href: inventory/inventory-visibility-reservations.md
+                - name: Stok Görünürlüğü Power App
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: Stok Görünürlüğü genel API'leri
+                  href: inventory/inventory-visibility-api.md
         - name: IoT Zekası
           items:
             - name: IoT Zekası giriş sayfası
@@ -1607,9 +1615,11 @@
                   href: master-planning/planning-optimization/release-process.md
                 - name: Planlama Optimizasyonu uygunluk analizi
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Yerleşik master planlama ile Planlama Optimizasyonu arasındaki farklar
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Planlama Optimizasyonu tarafından kullanılmayan parametreler
                   href: master-planning/planning-optimization/not-used-parameters.md
-                - name: Plana filtreler uygulama
+                - name: Plana filtre uygulama
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Talep tahmini ile master planlama
                   href: master-planning/planning-optimization/demand-forecast.md
@@ -1737,7 +1747,7 @@
                       href: master-planning/manual-adjustments-baseline-forecast.md
                     - name: Düzeltilen tahmini yetkilendirme
                       href: master-planning/authorize-adjusted-forecast.md
-                    - name: Talep tahminleri için geçmiş verilerini içe aktarma
+                    - name: Talep tahminleri için geçmiş verilerini içeri aktarma
                       href: master-planning/import-historical-data.md
                     - name: Talep tahminini hesaplarken aykırı değerleri geçmiş hareket verilerinden kaldırma
                       href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
@@ -1793,9 +1803,9 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/supply-chain/toc.json
             - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Varlık verilerini Excel'de açma ve Excel Eklentisi'ni kullanarak güncelleştirme
+            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Excel'de Aç deneyimleri oluşturma
+            - name: Excel'de Aç deneyimleri ile ilgili SSS
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Excel menüsünde Açık satırlara şablon ekleme
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1975,8 +1985,6 @@
                   href: procurement/request-quotations.md
                 - name: Teklif talebi oluşturma
                   href: procurement/tasks/create-request-quotation.md
-                - name: RFQ'lar için kapalı teklif
-                  href: procurement/sealed-bidding.md
                 - name: RFQ kullanan bir talep oluşturma
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: RFQ'lar için puanlama yöntemi oluşturma
@@ -2075,7 +2083,7 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Satıcı banka hesabı bilgilerini koruma
                   href: ../finance/accounts-payable/maintain-vendor-bank-info.md
-                - name: Satıcı kataloglarını içe aktarma
+                - name: Satıcı kataloglarını içeri aktarma
                   href: procurement/vendor-catalogs-import.md
                 - name: PunchOut e-tedariki için harici katalog ayarlama
                   href: procurement/set-up-external-catalog-for-punchout.md
@@ -3301,6 +3309,8 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Ambar uygulamasını yükleme ve bağlama
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Mobil barkod desteği
+                      href: warehousing/mobile-barcode-support.md
                     - name: Warehouse Management mobil uygulamasında kamera kullanarak barkodları tarama
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Warehouse Management mobil uygulamasının bağlantı sorunlarını giderme
@@ -3311,6 +3321,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Ambar işi için mobil cihazları ayarlama
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Warehouse Management mobil uygulaması için adım başlıklarını ve yönergeleri özelleştirme
+                      href: warehousing/mobile-app-titles-instructions.md
                     - name: Warehouse Management mobil uygulaması aracılığıyla plaka teslim alma
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
@@ -3331,7 +3343,7 @@
                   href: warehousing/mobile-device-user-settings.md
                 - name: Ambar uygulaması olayı işleme
                   href: warehousing/warehouse-app-events.md
-                - name: Ambar uygulamasını özelleştirme
+                - name: Ambar mobil işlemlerini genişletme
                   items:
                     - name: Kılavuz çerçevesini işleme
                       href: warehousing/process-guide-framework.md
@@ -3403,8 +3415,8 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Plaka etiketleri için belge rotası düzeni
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Mobil barkod desteği
-                      href: warehousing/mobile-barcode-support.md
+                    - name: GS1 barkodları ve QR kodları
+                      href: warehousing/gs1-barcodes.md
                     - name: Transfer emirleri için ambar ayarlama
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Ambar yapılandırması ile ilgili sorunları giderme
@@ -3479,7 +3491,7 @@
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Negatif günler içinde bir satın alma mevcut olduğunda planlı satın alma siparişi oluşturuluyor
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: 'Talep tahmini kayıtlarını içe aktardığınızda, tahmin edilen birim maliyeti güncelleştirilemiyor'
+                - name: 'Talep tahmini kayıtlarını içeri aktardığınızda, tahmin edilen birim maliyeti güncelleştirilemiyor'
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Ambar talebi tahmin boyutu tahmin satırlarından kaldırılamıyor
                   href: troubleshooting/planning/warehouse-removal-fr.md

@@ -218,9 +218,9 @@
                   href: data-entities/config-key-entities.md
                 - name: Yapılandırma veri paketleri
                   href: data-entities/configuration-data-packages.md
-            - name: Veri içe ve dışa aktarma işleri
+            - name: Veri içe ve dışarı aktarma işleri
               items:
-                - name: Veri içe ve dışa aktarma işlerine genel bakış
+                - name: Veri içe ve dışarı aktarma işlerine genel bakış
                   href: data-entities/data-import-export-job.md
                 - name: İçeri aktarma işlerinde tarih ve saati eşitleme
                   href: data-entities/data-synchronize-date-and-time.md
@@ -304,7 +304,7 @@
                   href: database/dbmovement-scenario-general-refresh.md
                 - name: Üretim veritabanı kopyasındaki hataları ayıklama
                   href: database/dbmovement-scenario-debugdiag.md
-                - name: Standart kullanıcı kabul testi (UAT) veritabanının kopyasını dışa aktarma
+                - name: Standart kullanıcı kabul testi (UAT) veritabanının kopyasını dışarı aktarma
                   href: database/dbmovement-scenario-exportuat.md
                 - name: Altın yapılandırma promosyonu
                   href: database/dbmovement-scenario-goldenconfig.md
@@ -328,12 +328,10 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: Veritabanı yenilemesi oluşturma
                       href: database/api/v1/reference-create-refresh.md
-                    - name: Ver tabanı dışa aktarması oluşturma
+                    - name: Ver tabanı dışarı aktarması oluşturma
                       href: database/api/v1/reference-create-export.md
                     - name: İşlem faaliyeti durumunu alma
                       href: database/api/v1/reference-get-status.md
-                    - name: Ortamları başlatma ve durdurma
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Tanıtım verileri
           items:
             - name: Tanıtım verilerine genel bakış
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: İş sürekliliği ve olağanüstü durum kurtarma
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Azure Resource Manager'da işe alım sürecini tamamlama
+                - name: Azure Resource Manager'da ekleme sürecini tamamlama
                   href: deployment/arm-onboarding.md
+                - name: ABD Kamu LCS projeleri için Azure Resource Manager ekleme sürecini tamamlama
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute ve Finance and Operations
                   href: deployment/expressroute.md
                 - name: Finance and Operations mimarisi
@@ -576,7 +576,7 @@
                   href: dev-tools/element-designers.md
                 - name: Öğe kullanımını belirleme komutları
                   href: dev-tools/element-usage.md
-                - name: Modelleri dışa ve içe aktarma
+                - name: Modelleri dışa ve içeri aktarma
                   href: dev-tools/models-export-import.md
                 - name: Visual Studio'da meta veri arama
                   href: dev-tools/metadata-search-visual-studio.md
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: İş ortakları için LCS
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful API'leri
+                  items:
+                    - name: Ortamları başlatma ve durdurma
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Ortam meta verilerini getirme
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Ortam geçmişini getirme
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Ortam RSAT sertifikası posta kodunu getirme
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Lifecycle Services'deki yenilikler veya değişiklikler
                   href: lifecycle-services/whats-new-lcs.md
             - name: Lifecycle Services kullanıcı kılavuzu
@@ -1138,22 +1148,24 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Sorun giderme
                       items:
-                        - name: Finance and Operations uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Genel sorun giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Başlangıç kurulumu sırasında sorunları giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Başlangıç eşitlemesi sırasında sorunları giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Finance and Operations uygulamalarında çift yazma ile ilgili sorunları giderme
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Canlı eşitleme sorunlarını giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Finance and Operations uygulamalarında çift yazma ile ilgili sorunları giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Taraf ve genel adres defteri sorunlarını giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Çözüm farkındalığıyla ilgili sorunları giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Finance and Operations uygulamalarının yükseltmeleriyle ilgili sorunları giderme
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Genel sorun giderme
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Finance and Operations uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: Çift yazmayla ilgili sık sorulan sorular
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Sanal varlıklar
@@ -1520,7 +1532,7 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Kullanıcıları güvenlik rollerine atama
                   href: sysadmin/tasks/assign-users-security-roles.md
-                - name: Veri yönetimi kullanarak özelleştirilmiş güvenlik yapılandırmasını içe veya dışa aktarma
+                - name: Veri yönetimi kullanarak özelleştirilmiş güvenlik yapılandırmasını içe veya dışarı aktarma
                   href: sysadmin/import-export-customized-security.md
                 - name: Görev kayıtları için güvenlik tanılaması
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
@@ -1640,9 +1652,9 @@
                   href: migration-upgrade/create-package-templates-dmt.md
                 - name: AX 2009 geçişi - Geçiş grupları oluşturma
                   href: migration-upgrade/create-definition.md
-                - name: AX 2009 geçişi - Paketleri dışa aktarma
+                - name: AX 2009 geçişi - Paketleri dışarı aktarma
                   href: migration-upgrade/ax2009-upgrade-export-package.md
-                - name: AX 2009 geçişi - Paketleri içe aktarma
+                - name: AX 2009 geçişi - Paketleri içeri aktarma
                   href: migration-upgrade/ax2009-upgrade-import-package.md
             - name: Kod geçişi ve yükseltmesi
               items:

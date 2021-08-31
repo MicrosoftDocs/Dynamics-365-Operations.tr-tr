@@ -120,7 +120,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
                 - name: Özel yardıma genel bakış
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Alan açıklamalarını görüntüleme ve dışa aktarma
+                - name: Alan açıklamalarını görüntüleme ve dışarı aktarma
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Görev kaydedici
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/commerce/toc.json
@@ -256,7 +256,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Modern POS mimarisi
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Çevrimiçi mağaza kanalı yayımlama
+                - name: Çevrimiçi mağaza kataloğu yayımlama
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI içeriği
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -1268,6 +1268,26 @@
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory Configuration Service – Lifecycle Services deposu kullanımdan kaldırılıyor
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: ER yapılandırmalarını Commerce'e indirme
+                  items:
+                    - name: RCS'den yapılandırmaları indirme
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Yapılandırmaları RCS'den içeri aktarma
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                - name: Genel depo (GR)
+                  items:
+                    - name: Yapılandırmaları GR'den içeri aktarma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
+                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Yapılandırmaları GR'ye yükleme
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                    - name: GR'de yapılandırmaları paylaşma
+                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                    - name: RCS Genel deposundaki yapılandırmaları durdurma
+                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Avusturya
               items:
                 - name: Avusturya için mali kayıt hizmeti tümleştirme örneği
@@ -1315,6 +1335,12 @@
                 - name: Yazar kasa işlevi
                   href: localizations/emea-fra-cash-registers.md
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
+                  href: localizations/emea-fra-fi-deployment.md
+                - name: Mali arşiv ve veri bütünlüğünü doğrulama
+                  href: localizations/emea-fra-fiscal-archive.md
+                - name: Fransa için eski işlevlerden geçiş yapma
+                  href: localizations/emea-fra-fi-migration.md
+                - name: Yazar kasalara ilişkin dağıtım kılavuzları (eski)
                   href: localizations/emea-fra-deployment.md
             - name: Almanya
               items:
@@ -1350,6 +1376,8 @@
               items:
                 - name: Rusya için Commerce yerelleştirmesi
                   href: localizations/rus-commerce-localization.md
+                - name: Rusya için Commerce POS'ta basitleştirilmiş müşteri adresi biçimi
+                  href: localizations/rus-simplified-address.md
                 - name: Rusya için Commerce yerelleştirmesi ayarlama
                   href: localizations/rus-commerce-setup.md
                 - name: Rusya için Commerce'te ön ödemeler
@@ -1490,7 +1518,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Hazırlanan ER çözümünü hedef uygulamada test etme
                       items:
-                        - name: Yapılandırmaları RCS'den içe aktarma
+                        - name: Yapılandırmaları RCS'den içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
                         - name: Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/commerce/toc.json
@@ -1820,7 +1848,7 @@
               items:
                 - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/commerce/toc.json
-                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içe aktarma
+                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmalar tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/commerce/toc.json
@@ -1830,21 +1858,21 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/commerce/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/commerce/toc.json
-            - name: ER çözümleri kullanarak gelen dosyalardan verileri içe aktarma
+            - name: ER çözümleri kullanarak gelen dosyalardan verileri içeri aktarma
               items:
                 - name: Genel belgeleri farklı biçimlerde ayrıştırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/commerce/toc.json
-                - name: El ile seçilen dosyalardan veri içe aktarmayı yapılandırma
+                - name: El ile seçilen dosyalardan veri içeri aktarmayı yapılandırma
                   items:
                     - name: Harici XML dosyasından veri aktarmak için yapılandırmalar oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
-                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içe aktarmayı yapılandırma
+                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içeri aktarmayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
-                - name: Dosyaları XML biçiminde içe aktarma
+                - name: Dosyaları XML biçiminde içeri aktarma
                   items:
-                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
+                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içeri aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
-                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içe aktarmak için ER biçimleri yapılandırma
+                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içeri aktarmak için ER biçimleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
             - name: Yapılandırma yaşam döngüsü
               items:
@@ -1854,36 +1882,12 @@
                   items:
                     - name: Yapılandırmaları LCS 'ye yükleme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
-                    - name: Yapılandırmaları LCS'den içe aktarma
+                    - name: Yapılandırmaları LCS'den içeri aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
                     - name: LCS'den yapılandırmaları indirme
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Yapılandırmaları içe aktarma (LBD)
+                    - name: Yapılandırmaları içeri aktarma (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Services (RCS)
-                  items:
-                    - name: RCS'de genelleştirme özellikleri
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER yapılandırmalarını Commerce'e indirme
-                      items:
-                        - name: RCS'den yapılandırmaları indirme
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Yapılandırmaları RCS'den içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Genel depo (GR)
-                      items:
-                        - name: Yapılandırmaları GR'den içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Yapılandırmaları GR'ye yükleme
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: GR'de yapılandırmaları paylaşma
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: RCS Genel deposundaki yapılandırmaları durdurma
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Hızlı başlangıç kılavuzları
               items:
                 - name: Özel bir elektronik belge oluşturmak için ER biçimi ayarlama
@@ -2110,9 +2114,9 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/commerce/toc.json
             - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
-            - name: Varlık verilerini Excel'de açma ve Excel Eklentisi'ni kullanarak güncelleştirme
+            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: Excel'de Aç deneyimleri oluşturma
+            - name: Excel'de Aç deneyimleri ile ilgili SSS
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Excel menüsünde Açık satırlara şablon ekleme
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
@@ -2360,6 +2364,8 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Güvenli anahtar yönetimi için Azure Key Vault'u ayarlama
                       href: e-commerce-extensibility/set-up-key-vault.md
+                    - name: İstek işlem hattı eklenti kancası oluşturma
+                      href: e-commerce-extensibility/request-pipeline-hook.md
                 - name: Veri eylemleri geliştirme
                   items:
                     - name: Veri eylemlerine genel bakış
@@ -2422,6 +2428,12 @@
                   items:
                     - name: Bağlayıcıları yapılandırma ve etkinleştirme
                       href: e-commerce-extensibility/connectors.md
+                - name: Performans
+                  items:
+                    - name: Sayfa önbelleğe almayı yapılandırma
+                      href: e-commerce-extensibility/page-caching.md
+                    - name: Veri eylemi örnek önbelleği
+                      href: e-commerce-extensibility/instance-cache.md
                 - name: Telemetri ve analiz
                   items:
                     - name: Telemetri kaydedici

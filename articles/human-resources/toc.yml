@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 9 Ağustos 2021
+          href: hr-whats-new-2021-08-09.md
         - name: 26 Temmuz 2021
           href: hr-whats-new-2021-07-26.md
         - name: 12 Temmuz 2021
@@ -127,7 +129,7 @@
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Excel'de varlık verilerini güncelleştirme
                   href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                - name: Excel'de Aç deneyimleri oluşturma
+                - name: Excel'de Aç deneyimleri ile ilgili SSS
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Office tümleştirmesi ile ilgili sorunları giderme
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
@@ -163,11 +165,11 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Yapılandırma veri paketleri
                   href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-            - name: Veri içe ve dışa aktarma işleri
+            - name: Veri içe ve dışarı aktarma işleri
               items:
-                - name: Veri içe ve dışa aktarma işlerine genel bakış
+                - name: Veri içe ve dışarı aktarma işlerine genel bakış
                   href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                - name: Genel günlük varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar
+                - name: Genel günlük varlığını kullanarak fişleri içeri aktarmaya yönelik en iyi uygulamalar
                   href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: Veri varlıkları için geliştirme
               items:
@@ -269,7 +271,7 @@
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
             - name: Özel yardıma genel bakış
               href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: Alan açıklamalarını görüntüleme ve dışa aktarma
+            - name: Alan açıklamalarını görüntüleme ve dışarı aktarma
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: Görev Kaydedici
               href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json

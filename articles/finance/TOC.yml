@@ -98,7 +98,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
                 - name: Özel yardıma genel bakış
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Alan açıklamalarını görüntüleme ve dışa aktarma
+                - name: Alan açıklamalarını görüntüleme ve dışarı aktarma
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Görev Kaydedici
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/finance/toc.json
@@ -558,9 +558,9 @@
               href: cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
             - name: Kredi mektupları ve ithalat tahsilatları
               href: cash-bank-management/letters-of-credit-import-collections.md
-            - name: Kredi mektuplarını dışa aktarma
+            - name: Kredi mektuplarını dışarı aktarma
               href: cash-bank-management/tasks/export-letter-credit.md
-            - name: Kredi mektubunu içe aktarma
+            - name: Kredi mektubunu içeri aktarma
               href: cash-bank-management/tasks/import-letter-credit.md
             - name: Teminat mektupları
               href: cash-bank-management/letters-of-guarantee.md
@@ -598,17 +598,17 @@
               items:
                 - name: Gelişmiş banka mutabakatı kurulum süreci
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Gelişmiş banka mutabakatı içe aktarma sürecini ayarlama
+                - name: Gelişmiş banka mutabakatı içeri aktarma sürecini ayarlama
                   href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: Banka mutabakatı eşleştirme kurallarını ayarlama
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlama
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Gelişmiş banka mutabakatı MT940 İçe Aktarma – Birleşik veri varlığı yükseltme
+                - name: Gelişmiş banka mutabakatı MT940 İçeri Aktarma – Birleşik veri varlığı yükseltme
                   href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Gelişmiş banka mutabakatına genel bakış
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Banka ekstresi dosyasını içe aktarma sorunlarını giderme
+                - name: Banka ekstresi dosyasını içeri aktarma sorunlarını giderme
                   href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Banka günlüğü bileşik varlığını güncelleştirme
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
@@ -630,7 +630,7 @@
               href: general-ledger/tasks/create-account-structures.md
             - name: Bütçelemeye genel bakış
               href: budgeting/basic-budgeting-overview-configuration.md
-            - name: Boyut oluşturma ve boyut üyelerini içe aktarma
+            - name: Boyut oluşturma ve boyut üyelerini içeri aktarma
               href: cost-accounting/cost-dimension.md
             - name: Maliyet öğesi boyutları
               href: cost-accounting/cost-elements.md
@@ -694,7 +694,7 @@
               href: general-ledger/electronic-messaging-setup.md
             - name: Elektronik iletiler işleviyle çalışma
               href: general-ledger/electronic-messaging-work-with-em.md
-            - name: Excel raporu oluşturmak için basit bir dışa aktarma ER biçimi çağırma
+            - name: Excel raporu oluşturmak için basit bir dışarı aktarma ER biçimi çağırma
               href: general-ledger/electronic-messaging-example.md
         - name: Gider yönetimi
           items:
@@ -716,7 +716,7 @@
               href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
             - name: Gider makbuzu işleme
               href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: Kredi kartı hareketlerini içe aktarma ve yönetme
+            - name: Kredi kartı hareketlerini içeri aktarma ve yönetme
               href: /dynamics365/project-operations/prod-exp/import-credit-card
             - name: Gider raporundaki dağıtımlar
               href: /dynamics365/project-operations/prod-exp/expense-report-distributions
@@ -920,7 +920,7 @@
                   href: asset-leasing/set-up-lease-wrkflw.md
                 - name: Kira onayı iş akışları kullanma
                   href: asset-leasing/use-create-lease-wrkflw.md
-                - name: Kira içe aktarma çerçevesi üzerinden kiraları yönetme
+                - name: Kira içeri aktarma çerçevesi üzerinden kiraları yönetme
                   href: asset-leasing/manage-leases-thru-imprt-framewrk.md
             - name: Varlık kiralama raporları
               href: asset-leasing/asset-leasing-rprts.md
@@ -1170,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Office'te mali günlük şablonlarını açma
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Dengesizlik nedeniyle günlük deftere nakil hatası
+                  href: general-ledger/posting-fail-imbalance.md
                 - name: Neden bu hareketi tersine çeviremiyorum?
                   href: general-ledger/cant-reverse-transctns.md
         - name: Mali raporlama
@@ -1374,7 +1376,7 @@
                   href: public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
                 - name: Kamu sektöründe satıcı sertifika türü oluşturma
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
-                - name: Kamu sektöründe birden fazla tek seferlik satıcıyı ve faturayı içe aktarma
+                - name: Kamu sektöründe birden fazla tek seferlik satıcıyı ve faturayı içeri aktarma
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
                 - name: Faturalarda muhasebe dağılımlarını düzenlemeyi sınırlama
                   href: public-sector/restrict-edit-accounting-distributions.md
@@ -1482,6 +1484,26 @@
                       href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service – Lifecycle Services deposu kullanımdan kaldırılıyor
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
+                    - name: ER yapılandırmalarını Finance'a indirme
+                      items:
+                        - name: RCS'den yapılandırmaları indirme
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Yapılandırmaları RCS'den içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Genel depo (GR)
+                      items:
+                        - name: Yapılandırmaları GR'den içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Yapılandırmaları GR'ye yükleme
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: GR'de yapılandırmaları paylaşma
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: RCS Genel deposundaki yapılandırmaları durdurma
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronik Faturalama
                   items:
                     - name: Elektronik Faturalamaya genel bakış
@@ -1520,40 +1542,56 @@
                   items:
                     - name: Vergi Hesaplamaya genel bakış
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Vergi Hesaplamayı kullanmaya başlama
-                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                    - name: Satış vergisi uygulanabilirliği ve satış vergisi grubu belirleme mantığı
-                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: Transfer emirleri için vergi özelliği desteği
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: Vergi dahil fiyatlar etkinleştirildiğinde fiyatın üzerine vergi hesaplama
-                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                    - name: Vergi yapılandırmalarına veri alanları ekleme
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Ana veri arama için ortam ayarlama
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: Çoklu KDV kayıt numarası
-                      href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: Birden çok KDV kaydı için raporlama
+                    - name: Kurulum
                       items:
+                        - name: Vergi Hesaplamayı kullanmaya başlama
+                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Ana veri arama için ortam ayarlama
+                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Belirleme
+                      items:
+                        - name: Satış vergisi uygulanabilirliği ve satış vergisi grubu belirleme mantığı
+                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                    - name: Hesaplama
+                      items:
+                        - name: Vergi dahil fiyatlar etkinleştirildiğinde fiyatların üzerine vergi hesaplama
+                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
+                        - name: Vergi hesaplama yuvarlama kuralları
+                          href: localizations/tax-calculation-rounding-rules.md
+                    - name: Çoklu KDV kaydı
+                      items:
+                        - name: Çoklu KDV kayıt numarası
+                          href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Birden çok KDV kaydı için raporlama
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Fransa için raporlama
                           items:
                             - name: KDV beyannamesi
-                          href: localizations/emea-fra-VAT-declaration-preview-France.md
+                              href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Hollanda için raporlama
                           items:
                             - name: KDV beyannamesi
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: AB satış listesi
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: İsviçre için raporlama
+                          items:
+                            - name: KDV beyannamesi
+                              href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Birleşik Krallık için raporlama
                           items:
                             - name: KDV için MTD ile tümleştirmeye hazırlanma
                               href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Transfer emri için Vergi Hesaplamayı etkinleştirme
+                      items:
+                        - name: Transfer emirleri için vergi özelliği desteği
+                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Uzantı
+                      items:
+                        - name: Vergi yapılandırmalarına veri alanları ekleme
+                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
+                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
             - name: Mevzuat güncelleştirmeleri
               href: localizations/regulatory-updates.md
             - name: Avustralya
@@ -1630,11 +1668,11 @@
                       href: localizations/latam-bra-configure-fiscal-books.md
                     - name: ICMS vergisi mali belgeleri
                       href: localizations/latam-bra-icms-tax-fiscal-documents.md
-                    - name: Mali belgeleri içe aktarma
+                    - name: Mali belgeleri içeri aktarma
                       href: localizations/latam-bra-import-fiscal-documents.md
-                    - name: Genel muhasebe konsolidasyonundaki tüzel kişilik hareketlerini dışa ve içe aktarma
+                    - name: Genel muhasebe konsolidasyonundaki tüzel kişilik hareketlerini dışa ve içeri aktarma
                       href: localizations/latam-bra-general-ledger-consolidation-transactions.md
-                    - name: NF-e XML belgelerini ve DANFE dosyalarını içe aktarma ve doğrulama
+                    - name: NF-e XML belgelerini ve DANFE dosyalarını içeri aktarma ve doğrulama
                       href: localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
                     - name: Metin dosyalarını kullanan hizmet elektronik mali belgesi
                       href: localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
@@ -1704,12 +1742,14 @@
                       href: localizations/latam-bra-nfe-certs.md
                     - name: NF-e özel sertifika doğrulaması
                       href: localizations/nf-e-custom-certificate-validation.md
-                    - name: 'NF-e XML belgelerini ve DANFE dosyalarını ayarlama, içe aktarma ve doğrulama'
+                    - name: 'NF-e XML belgelerini ve DANFE dosyalarını ayarlama, içeri aktarma ve doğrulama'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: NF-e federal parametrelerini ayarlama
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Mali kuruluş için NF-e parametrelerini ayarlama
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.005 – Elektronik mali belgesinde (NF-e) düzen ve doğrulama güncelleştirmeleri
+                      href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – NF-e için aracı satışları dijital platformu
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 - NF-e/NFC-e için vergi kazançları ve muafiyet kuralları
@@ -1834,11 +1874,11 @@
                   href: localizations/apac-chn-vouchers.md
                 - name: Vergi tümleştirmesini yapılandırma
                   href: localizations/apac-chn-tax-integration.md
-                - name: Çin Altın vergisi tümleştirmesi dışa aktarma ayarları
+                - name: Çin Altın vergisi tümleştirmesi dışarı aktarma ayarları
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Sabit kıymetler amortisman yöntemleri
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Çin Altın Vergisi veri varlığını içe aktarma
+                - name: Çin Altın Vergisi veri varlığını içeri aktarma
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Aylık ortalama maliyet modeli
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -1910,7 +1950,7 @@
                   href: localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
                 - name: Kamu sektörü müşterisi için proje faturası oluşturma ve deftere nakletme
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
-                - name: OIOUBL elektronik faturalama yapılandırmalarını içe aktarma
+                - name: OIOUBL elektronik faturalama yapılandırmalarını içeri aktarma
                   href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
                 - name: Ödeme makbuzu olan serbest metin faturasını deftere nakletme
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
@@ -1988,11 +2028,11 @@
                   href: localizations/tasks/eur-00011-eu-sales-list-report.md
                 - name: ISO20022 dosyaları
                   items:
-                    - name: ISO20022 dosyalarını içe aktarma
+                    - name: ISO20022 dosyalarını içeri aktarma
                       href: localizations/emea-ISO20022-file-formats.md
-                    - name: ISO20022 talimatlı ödeme yapılandırmasını içe aktarma
+                    - name: ISO20022 talimatlı ödeme yapılandırmasını içeri aktarma
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
-                    - name: ISO20022 alacak transferi yapılandırmasını içe aktarma
+                    - name: ISO20022 alacak transferi yapılandırmasını içeri aktarma
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: ISO20022 alacak transferleri için şirket banka hesapları ayarlama
                       href: localizations/tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md
@@ -2006,7 +2046,7 @@
                       href: localizations/tasks/set-up-bank-accounts-iso20022-direct-debits.md
                     - name: ISO20022 alacak transferleri için satıcıları ve satıcı banka hesaplarını ayarlama
                       href: localizations/tasks/set-up-vendor-iso20022-credit-transfers.md
-                    - name: ISO20022 ödeme biçimini kullanarak satıcı ödemeleri oluşturma ve dışa aktarma
+                    - name: ISO20022 ödeme biçimini kullanarak satıcı ödemeleri oluşturma ve dışarı aktarma
                       href: localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
                 - name: İntrastat
                   items:
@@ -2176,7 +2216,7 @@
                   items:
                     - name: Almanca denetim dosyasına genel bakış
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: Denetim dosyası yapılandırmasını içe aktarma
+                    - name: Denetim dosyası yapılandırmasını içeri aktarma
                       href: localizations/tasks/import-german-audit-file-configuration.md
                     - name: Denetim dosyası oluşturma
                       href: localizations/tasks/german-audit-file.md
@@ -2284,7 +2324,7 @@
                           items:
                             - name: Vergi altyapısına genel bakış
                               href: general-ledger/tax-engine.md
-                            - name: Yapılandırmayı içe aktarma
+                            - name: Yapılandırmayı içeri aktarma
                               href: general-ledger/tax-engine-import-configuration.md
                             - name: Gelişmiş formül tasarımcısı
                               href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
@@ -2334,8 +2374,6 @@
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: Vergi hareketleri
                           items:
-                            - name: Ürün ve hizmetlerin ödemesinde GST TDS
-                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: Satınalma hareketleri
                               items:
                                 - name: Kayıtlı olmayan satıcılardan satınalmalar
@@ -2366,10 +2404,14 @@
                                   href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
                                 - name: Örnekleme maddesinin yok edilmesiyle ilgili kalite emirleri
                                   href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                                - name: Satınalma iade siparişleri
+                                - name: Satınalma iade emirleri
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: Ters giderler bulunan satıcı avans ödemeleri
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                                - name: Ürün ve hizmetlerin ödemesinde GST TDS
+                                  href: localizations/ind-gst-tds-payment-goods-services.md
+                                - name: Ürün ve hizmetlerin ödemesinde GST TCS
+                                  href: localizations/ind-gst-tcs-payment.md
                             - name: Satış hareketleri
                               items:
                                 - name: Vergiye tabi malların müşteriye satışı
@@ -2664,7 +2706,7 @@
                   href: localizations/emea-ita-exil-bank-remittance.md
                 - name: Benzersiz sertifika
                   href: localizations/emea-ita-exil-unique-certification.md
-                - name: Kambiyo senedi protestosu içe aktarma
+                - name: Kambiyo senedi protestosu içeri aktarma
                   href: localizations/emea-ita-exil-protest-boe.md
                 - name: Vergi üst sınırı
                   href: localizations/emea-ita-exil-tax-plafond.md
@@ -2756,9 +2798,9 @@
                   href: localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
                 - name: Değer düşüklüğü muhasebesi
                   href: localizations/apac-jpn-impairment-accounting-fixed-assets.md
-                - name: JBA dosya biçimine sahip müşteri ödemesini içe aktarma
+                - name: JBA dosya biçimine sahip müşteri ödemesini içeri aktarma
                   href: localizations/tasks/import-customer-payment-jba-file-format.md
-                - name: Posta kodlarını içe aktarma
+                - name: Posta kodlarını içeri aktarma
                   href: localizations/apac-jpn-import-postal-codes.md
                 - name: T hesabı formunda giriş günlüğü
                   href: localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
@@ -2964,7 +3006,7 @@
                   href: localizations/tasks/no-00003-customer-vendor-payment-formats.md
                 - name: Ödeme koduna göre müşteri ödemesi
                   href: localizations/tasks/no-00002-customer-payment-based-payment-id.md
-                - name: Nets içe aktarma biçimi
+                - name: Nets içeri aktarma biçimi
                   href: localizations/emea-nor-nets-import-format.md
                 - name: KDV beyanı
                   href: localizations/emea-nor-sales-tax-payment-report.md
@@ -3032,7 +3074,7 @@
                       href: localizations/rus-ledger-transactions-preview.md
                     - name: Para birimi hareketleri için döviz kurlarını ayarlama
                       href: localizations/rus-exchange-difference.md
-                    - name: Para birimi döviz kurlarını CBRF'den içe aktarma
+                    - name: Para birimi döviz kurlarını CBRF'den içeri aktarma
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Genel muhasebe çevirisi
                       href: localizations/rus-ledger-translation-procedure.md
@@ -3132,14 +3174,16 @@
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: Sabit kıymetleri transfer etme
                           href: localizations/rus-fixed-asset-transfer.md
+                        - name: Sabit kıymetler için birleştirilmiş yazdırma formları
+                          href: localizations/printing-forms-fixed-assets.md
+                        - name: Sorgular ve raporlar
+                          href: localizations/rus-fa-inquiries-reports.md
                     - name: Değerli olmayan sabit kıymetler ve iş kıyafetleri
                       items:
-                        - name: Değerli olmayan sabit kıymetler (NVFAs) (Rusya)
+                        - name: Değerli olmayan sabit kıymetler (NVFA'lar) (Rusya)
                           href: localizations/rus-not-valuable-assets.md
                         - name: İş kıyafetleri/özel donanım muhasebesi (Rusya)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                        - name: Sabit kıymetler için birleştirilmiş yazdırma formları
-                          href: localizations/printing-forms-fixed-assets.md
                 - name: Alacak ve borç hesapları
                   items:
                     - name: Alacak dekontu düzeltmeleri (Rusya)
@@ -3218,7 +3262,7 @@
                       href: localizations/rus-officials.md
                     - name: Şirket bölümleri
                       href: localizations/rus-company-divisions.md
-                    - name: Rusça adres biçimleri ve FIAS'dan içe aktarma
+                    - name: Rusça adres biçimleri ve FIAS'dan içeri aktarma
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: Ertelemeler
                   items:
@@ -3316,9 +3360,9 @@
               items:
                 - name: İsveç'e genel bakış
                   href: localizations/sweden.md
-                - name: İsveç'te denetçiler için mali bilgileri dışa aktarma
+                - name: İsveç'te denetçiler için mali bilgileri dışarı aktarma
                   href: localizations/emea-swe-sie-standard-report.md
-                - name: Ödeme biçimlerini içe aktarma
+                - name: Ödeme biçimlerini içeri aktarma
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: İsveç için satış vergisi ödeme raporu
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
@@ -3326,10 +3370,12 @@
               items:
                 - name: İsviçre'ye genel bakış
                   href: localizations/switzerland.md
-                - name: ESR'de müşteri ödemelerini içe aktarma
+                - name: ESR'de müşteri ödemelerini içeri aktarma
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: İsveç QR senetleri
                   href: localizations/emea-che-swiss-qr-bills.md
+                - name: KDV beyannamesi
+                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Tayland
               items:
                 - name: Tayland'a genel bakış
@@ -3729,7 +3775,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Hazırlanan ER çözümünü hedef uygulamada test etme
                       items:
-                        - name: Yapılandırmaları RCS'den içe aktarma
+                        - name: Yapılandırmaları RCS'den içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                         - name: Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
@@ -4061,7 +4107,7 @@
               items:
                 - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/finance/toc.json
-                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içe aktarma
+                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmalar tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/finance/toc.json
@@ -4071,21 +4117,21 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/finance/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/finance/toc.json
-            - name: ER çözümleri kullanarak gelen dosyalardan verileri içe aktarma
+            - name: ER çözümleri kullanarak gelen dosyalardan verileri içeri aktarma
               items:
                 - name: Genel belgeleri farklı biçimlerde ayrıştırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/finance/toc.json
-                - name: El ile seçilen dosyalardan veri içe aktarmayı yapılandırma
+                - name: El ile seçilen dosyalardan veri içeri aktarmayı yapılandırma
                   items:
                     - name: Harici XML dosyasından veri aktarmak için yapılandırmalar oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
-                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içe aktarmayı yapılandırma
+                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içeri aktarmayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
-                - name: Dosyaları XML biçiminde içe aktarma
+                - name: Dosyaları XML biçiminde içeri aktarma
                   items:
-                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
+                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içeri aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
-                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içe aktarmak için ER biçimleri yapılandırma
+                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içeri aktarmak için ER biçimleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/finance/toc.json
             - name: Yapılandırma yaşam döngüsü
               items:
@@ -4095,36 +4141,12 @@
                   items:
                     - name: Yapılandırmaları LCS 'ye yükleme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                    - name: Yapılandırmaları LCS'den içe aktarma
+                    - name: Yapılandırmaları LCS'den içeri aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
                     - name: LCS'den yapılandırmaları indirme
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Yapılandırmaları içe aktarma (LBD)
+                    - name: Yapılandırmaları içeri aktarma (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory Services (RCS)
-                  items:
-                    - name: RCS'de genelleştirme özellikleri
-                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: ER yapılandırmalarını Finance'a indirme
-                      items:
-                        - name: RCS'den yapılandırmaları indirme
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Yapılandırmaları RCS'den içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Genel depo (GR)
-                      items:
-                        - name: Yapılandırmaları GR'den içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Yapılandırmaları GR'ye yükleme
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: GR'de yapılandırmaları paylaşma
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: RCS Genel deposundaki yapılandırmaları durdurma
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Hızlı başlangıç kılavuzları
               items:
                 - name: Özel bir elektronik belge oluşturmak için ER biçimi ayarlama
@@ -4353,9 +4375,9 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/finance/toc.json
             - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
-            - name: Varlık verilerini Excel'de açma ve Excel Eklentisi'ni kullanarak güncelleştirme
+            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: Excel'de Aç deneyimleri oluşturma
+            - name: Excel'de Aç deneyimleri ile ilgili SSS
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Excel menüsünde Açık satırlara şablon ekleme
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json
