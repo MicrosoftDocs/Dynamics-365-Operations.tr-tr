@@ -2,19 +2,19 @@
 title: Taraf ve genel adres defteri
 description: Bu konu, Çift yazmanın taraf ve genel adres defteri işlevlerini açıklamaktadır.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729788"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386697"
 ---
 # <a name="party-and-global-address-book"></a>Taraf ve genel adres defteri
 
@@ -139,7 +139,10 @@ Izgara aşağıdaki sütunları içerir:
 
 İstediğiniz sayıda adresi oluşturmak için ızgaranın üzerindeki **Yeni Elektronik Adres** düğmesini kullanabilirsiniz.
 
-Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürümlerde, tüm elektronik adres ve posta adresi alanları, **Özet** ve **Ayrıntılar** sekmelerinde olduğu gibi diğer sekmelerden de kaldırılacaktır.
+Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürümlerde, tüm posta adresi ve elektronik adres alanları, **Özet** ve **Ayrıntılar** sekmelerinde olduğu gibi diğer sekmelerden de kaldırılacaktır. **Ayrıntılar** sekmesinde görüntülenen ilgili kişi ayrıntıları birincil telefon, birincil e-posta, birincil telefon, birincil faks ve birincil Twitter kimliği gibi birincil elektronik adresin salt okunur kopyalarıdır. Müşteri adayı uygunluk işlemi sırasında hem iş telefonu numarası hem de cep telefonu numarası sağlayabilirsiniz. **IsMobile=No** ise iş telefonu numarası birincil telefon; **IsMobile=Yes** ise cep telefonu numarası ikincil telefon olarak kabul edilir.
+
+> [!TIP]
+> Posta adreslerini ve elektronik adresleri yönetmek için **Hesap** ve **İlgili Kişi** formlarındaki **Adresler** ve **Elektronik Adresler** sekmelerini kullanın. Bu, adres verilerinin Finance and Operations uygulamalarıyla eşitlenmesini sağlar.
 
 ## <a name="setup"></a>Ayar
 
@@ -249,13 +252,11 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
     [CDS satış siparişi başlıkları](mapping-reference.md#217) | salesorders
     [Satış faturası başlıkları V2](mapping-reference.md#118) | faturalar
 
-> [!Note]
+> [!NOTE]
 > `CDS Contacts V2 (contacts)` eşleme, 1. adımda durdurduğunuz eşlemedir. Başka eşlemeler çalıştırmayı denediğinizde, bu 2 eşleme bağlılar listesinde görüntülenebilir. Bu eşlemeleri çalıştırmayın.
-
-> [!Note]
+>
 > Taraf ve genel adres defteri çözümü yüklüyse, `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` adlı eklentiyi devre dışı bırakmanız gerekir. Taraf ve genel adres defteri çözümünü kaldırdıysanız eklentiyi yeniden etkinleştirmeniz gerekir.
-
-> [!Note]
+>
 > **Firma**, **İlgili kişi** ve **Satıcı** tablolarına dahil edilen `msdyn_*partynumber` alanı (tek satırlık metin alanı) bundan sonra kullanılmamalıdır. Etiket adında açıklık adına **(Kullanım dışı)** ön eki bulunmaktadır. Bunun yerine, **msdyn_partyid** alanını kullanın. Alan, **msdyn_party** tablosunda arama yapar.
 
 > Tablo Adı | Eski alan | Yeni alan
@@ -296,7 +297,6 @@ Daha fazla bilgi için, bkz. [Çift yazma eşleme başvurusu](mapping-reference.
 
 + Finance and Operations uygulamalarında, adres ile birlikte bir müşteri oluşturup bunu kaydederseniz, adres, **Adres** tablosuna eşitlenmeyebilir. Bu, çift yazma platformunun sıralama sorunundan kaynaklanır. Geçici çözüm olarak, önce müşteriyi oluşturun ve kaydedin. Sonra adresi ekleyin.
 + Finance and Operations uygulamalarında, bir müşteri kaydının bir birincil adresi olduğunda ve o müşteri için yeni bir ilgili kişi oluşturduğunuzda, ilgili kişi kaydı ilişkili müşteri kaydından birincil adresi alır. Bu, satıcı ilgili kişisi için de gerçekleşir. Dataverse şu anda bu davranışı desteklemiyor. Çift yazma etkinse, Finance and Operations uygulamasından birincil adresle devralınan müşteri ilgili kişisi, Dataverse'e adresiyle birlikte eşitlenir.
-+ `msdyn_partyelectronicaddress` tablosundan gelen elektronik adresler, **Firma** ve **İlgili kişi** tablolarındaki elektronik adres alanlarına akmıyor. Bu sorunu artımlı bir sürümde düzeltmeyi planlıyoruz. **Firma** ve **İlgili kişi** tablolarındaki elektronik adres alanlarında varolan verilerin üzerine yazılmaz.
 + **Firma**, **İlgili kişi** ve **Satıcı** formlarının elektronik adres sekmesinde belirlenen elektronik adresler `msdyn_partyelectronicaddress` tablosundan geliyor. Bu bilgiler satış siparişi, teklif ve satınalma siparişi gibi ilişkili hareketlerine akmıyor. Bu sorunu artımlı bir sürümde düzeltmeyi planlıyoruz. Firma ve ilgili kişi kayıtlarındaki elektronik adres alanlarında bulunan veriler; satış siparişi, teklif ve satınalma siparişi gibi hareketler üzerinde çalışmaya devam eder.
 + Finance and Operations uygulamalarında **İlgili kişi ekle** formundan bir ilgili kişi kaydı oluşturabilirsiniz. **İlgili kişiyi görüntüle** formundan yeni bir ilgili kişi oluşturmaya çalıştığınızda eylem başarısız olur. Bu, bilinen bir sorundur.
 

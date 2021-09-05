@@ -1,8 +1,8 @@
 ---
 title: Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel biçiminde bir rapor oluşturmak için bir ER biçimi tasarlama
-description: Bu konu, sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış resim ve şekillere sahip iş belgeleri oluşturmak için elektronik raporlama (ER)) kullanmayı açıklamaktadır.
+description: Bu konuda, sayfa üst bilgilerine veya alt bilgilerine eklenmiş resim ve şekillere sahip iş belgeleri oluşturmak için Elektronik raporlamanın (ER) nasıl kullanılacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 06/28/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1115be8c33eeaf16c1a533e63b31d87b0fc5f68d6469ff075428f72ac146b2f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746647"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344132"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel biçiminde bir rapor oluşturmak için bir ER biçimi tasarlama
 

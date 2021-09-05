@@ -1,8 +1,8 @@
 ---
 title: Human Resources'ı sağla
-description: Bu konuda, Dynamics 365 Human Resources için yeni bir üretim ortam sağlama işlemi adım adım anlatılmaktadır.
-author: andreabichsel
-ms.date: 06/14/2021
+description: Bu konuda, Microsoft Dynamics 365 Human Resources için yeni bir üretim ortamı hazırlama işlemi açıklanmaktadır.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58ffce072c8b73f4907b18c6c60b022f9a3b55f26cb785238367254021afdc28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756160"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393535"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı sağla
 
@@ -28,9 +28,15 @@ ms.locfileid: "6756160"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Bu konuda, Dynamics 365 Human Resources için yeni bir üretim ortam sağlama işlemi adım adım anlatılmaktadır. Bu konuda, İnsan Kaynaklarını bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla aldığınız varsayılır. Zaten insan kaynakları hizmet planını içeren mevcut bir Microsoft Dynamics 365 lisansınız varsa ve bu konudaki adımları tamamlayamıyorsanız Destek birimine başvurun.
+Bu konuda, Microsoft Dynamics 365 Human Resources için yeni bir üretim ortamı hazırlama işlemi açıklanmaktadır. 
 
-Başlamak için, genel yöneticinin [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com)'da oturum açması (LCS) ve yeni bir İnsan Kaynakları projesi oluşturması gerekir. İnsan Kaynaklarını sağlamanızı bir lisans sorunu engellemediği sürece, Destek biriminden veya Dynamics Hizmet Mühendisliği (DSE) temsilcilerinden yardım almanız gerekmez.
+## <a name="prerequisites"></a>Önkoşullar
+
+Yeni bir üretim ortamını hazırlamaya başlayabilmeniz için aşağıdaki önkoşulların yerine getirilmiş olması gerekir:
+
+- Human Resources'ı bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla satın almış olmalısınız. Zaten İnsan Kaynakları hizmet planını içeren mevcut bir Microsoft Dynamics 365 lisansınız varsa ve bu konudaki adımları tamamlayamıyorsanız Destek birimine başvurun.
+
+- Genel yönetici, [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) hizmetinde oturum açmış ve yeni bir Human Resources projesi oluşturmuş olmalıdır. 
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources deneme ortamı sağlama
 
@@ -42,7 +48,7 @@ Deneme ortamlarının üretim ortamı olarak kullanılmaları amaçlanmamıştı
 
 İlk Human Resources ortamınızı oluşturmadan önce, projeniz için ortam ihtiyaçlarını dikkatlice planlamalısınız. Human Resources'a temel abonelikte iki ortam bulunur: üretim ortamı ve korumalı alan ortamı. Projenizin karmaşıklığına bağlı olarak, proje etkinliklerini desteklemek için ek korumalı alan ortamları satın almanız gerekebilir. 
 
-Ek ortamlar için dikkat edilmesi gereken noktalar şunlardır, ancak bunlarla sınırlı değildir:
+Ek ortamlar için dikkat edilmesi gereken hususlar:
 
 - **Veri taşıma**: Korumalı alan ortamınızın proje boyunca test amacıyla kullanılmasına izin vermek için veri taşıma etkinlikleri için ek bir ortam düşünmeniz gerekebilir. Ek bir ortama sahip olduğunuzda, test ve yapılandırma etkinlikleri aynı anda farklı bir ortamda gerçekleşirken veri geçişleri etkinliklerinin devam etmesine olanak tanır.
 - **Tümleştirme**: Tümleştirmeleri yapılandırmak ve test etmek için ek bir ortam düşünmeniz gerekebilir. Bu, Ceridian Dayforce LinkedIn Talent Hub tümleştirmeleri gibi yerel tümleştirmeleri veya bordro, başvuran izleme sistemleri veya yan hak sistemleri ve sağlayıcıları gibi özel tümleştirmeleri içerebilir.
@@ -50,10 +56,11 @@ Ek ortamlar için dikkat edilmesi gereken noktalar şunlardır, ancak bunlarla s
 - **Çok aşamalı proje**: Projenin ilk yayınlanmasından sonra planlanan bir proje aşamasında yapılandırmayı, veri geçişini, testi veya diğer etkinlikleri desteklemek için ek bir ortama ihtiyacınız olabilir.
 
  > [!IMPORTANT]
- > GOLD yapılandırma ortamınız olarak projeniz boyunca üretim ortamınızı kullanmanızı öneririz. Korumalı alan ortamını üretim ortamına kopyalayamadığınızdan, bu önemlidir. Bu nedenle, yayına aldığınızda GOLD ortamınız üretim ortamınızdır ve bu ortamda kesin bitiş faaliyetlerinizi tamamlayacaksınız.</br></br>
- > Yayınlamadan önce sahte bir kesin bitiş gerçekleştirmek için korumalı alanınızı veya başka bir ortamı kullanmanızı öneririz. Bunu, GOLD yapılandırmanızın olduğu üretim ortamını korumalı alan ortamınıza yenileyerek yapabilirsiniz.</br></br>
- > Yayınlama işlemi sırasında son verileri üretim ortamına geçirmek için gereken veri paketlerinin her birini içeren ayrıntılı bir kesin bitiş denetim listesi tutmanızı öneririz.</br></br>
- > Ayrıca, TEST ortamınız olarak projeniz boyunca korumalı alan ortamınızı kullanmanızı öneririz. Ek ortamlara ihtiyacınız olursa kuruluşunuz bunları ek bir ücret karşılığında satın alabilir.</br></br>
+ > Ortamınızı değerlendirirken aşağıda belirtilenleri uygulamanızı öneririz:
+ > - Projeniz boyunca üretim ortamınızı GOLD yapılandırma ortamınız olarak kullanın. Korumalı alan ortamını üretim ortamına kopyalayamadığınızdan, bu önemlidir. Bu nedenle, yayına aldığınızda GOLD ortamınız üretim ortamınızdır ve bu ortamda kesin bitiş faaliyetlerinizi tamamlayacaksınız.</br></br>
+ > - Servise alma işleminizi gerçekleştirmeden önce sahte bir kesin bitiş gerçekleştirmek için korumalı alanınızı veya başka bir ortamı kullanın. Bunu, GOLD yapılandırmanızın olduğu üretim ortamını korumalı alan ortamınıza yenileyerek yapabilirsiniz.</br></br>
+ > - Servise alma kesin bitiş işlemi sırasında son verileri üretim ortamına geçirmek için gereken veri paketlerinin her birini içeren ayrıntılı bir kesin bitiş denetim listesi tutun.</br></br>
+ > - Projeniz boyunca korumalı alan ortamınızı TEST ortamınız olarak kullanın. Ek ortamlara ihtiyacınız olursa kuruluşunuz bunları ek bir ücret karşılığında satın alabilir.</br></br>
 
 ## <a name="create-an-lcs-project"></a>LCS projesi oluşturma
 
@@ -86,7 +93,7 @@ Bir LCS projesi oluşturduktan sonra, bir ortama İnsan Kaynakları sağlayabili
     > Human Resources örneği türü ayarlandıktan sonra değiştirilemez. Devam etmeden önce doğru örnek türünün seçilmiş olduğundan emin olun.</br></br>
     > İnsan Kaynakları örnek türü, Power Apps Yönetim Merkezi'nde ayarladığınız Microsoft Power Apps ortamının örnek türünden ayrıdır.
     
-3. Ortamınızın İnsan Kaynakları Test Sürümü deneyiminde kullanılan aynı tanıtım verileri kümesini içermesini istiyorsanız **Tanıtım Verilerini Ekle** seçeneğini seçin. Demo verileri uzun vadeli tanıtım veya eğitim ortamları için yararlıdır ve üretim ortamları için hiçbir zaman kullanılmamalıdır. İlk dağıtım sırasında bu seçeneği seçmeniz gerekir. Var olan bir dağıtımı sonra güncelleştiremezsiniz.
+3. Ortamınızın, Human Resources Deneme ortamında kullanılan tanıtım verileri kümesini içermesini istiyorsanız **Tanıtım Verilerini Ekle** seçeneğini belirleyin. Demo verileri uzun vadeli tanıtım veya eğitim ortamları için yararlıdır ve üretim ortamları için hiçbir zaman kullanılmamalıdır. İlk dağıtım sırasında bu seçeneği seçmeniz gerekir. Var olan bir dağıtımı sonra güncelleştiremezsiniz.
 
 4. İnsan Kaynakları, Power Apps tümleştirmesi ve genişletilebilirliği sağlamak amacıyla daima bir Microsoft Power Apps ortamında sağlanır. Devam etmeden önce bu konudaki "Power Apps ortamı seçme" bölümünü okuyun. Power Apps ortamınız yoksa, LCS'de Ortamları yöneti seçin veya Power Apps Yönetim Merkezi'ne gidin. Ardından [Power Apps ortamı oluşturma](/powerapps/administrator/create-environment) adımlarını izleyin.
 
@@ -115,7 +122,7 @@ Human Resources veri kullanımını, Power Apps araçlarını kullanarak tümle�
 
 4. Veri tümleştirme ve test stratejileri göz önünde bulundurmalıdır: örneğin Korumalı alan, UAT veya Üretim. Human Resources ortamının eşlendiği Power Apps ortamını daha sonra değiştirmek kolay olmayacağından, dağıtımınızla ilgili çeşitli etkileri dikkatlice değerlendirin.
 
-5. Human Resources için aşağıdaki Power Apps ortamlarını kullanamazsınız. Bunlar LCS içindeki seçim listesinden filtrelenmiştir:
+5. Aşağıdaki Power Apps ortamları Human Resources için kullanılamaz. Bunlar LCS içindeki seçim listesinden filtrelenmiştir:
  
     - **Varsayılan Power Apps ortamları** - Her kiracıya otomatik olarak varsayılan Power Apps ortamı sağlanmakla birlikte, bu ortamları Humans Resources ile kullanmanızı önermeyiz. Tüm kiracı kullanıcıları Power Apps ortamına erişebilir ve Power Apps veya Power Automate tümleştirmelerini test ederken veya keşfederken üretim verilerini istemeden bozabilir.
    
@@ -147,7 +154,7 @@ Human Resources ortamı verileri her zaman oluşturulduğu Azure coğrafyasında
 
 ## <a name="grant-access-to-the-environment"></a>Ortama erişim izni verme
 
-Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardır. Ek uygulama kullanıcılarına erişim izninin açıkça verilmesi gerekir. Human Resources ortamında kullanıcılar eklemeniz ve kullanıcılara uygun roller atamanız gerekir. İnsan Kaynakları'nı dağıtan genel yönetici, başlatmayı tamamlamak ve diğer kiracı kullanıcılar için erişim sağlamak üzere Attract ve Onboard'ı da başlatmalıdır. Bu gerçekleştirilene kadar, diğer kullanıcılar Attract ve Onboard'a erişemez ve erişim ihlali hataları alır. Daha fazla bilgi için bkz. [Yeni kullanıcılar oluşturmak](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ve [Kullanıcıları güvenlik rollerine atamak](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardır. Ek uygulama kullanıcılarına erişim izninin açıkça verilmesi gerekir. Human Resources ortamında kullanıcılar eklemeniz ve kullanıcılara uygun roller atamanız gerekir. Daha fazla bilgi için bkz. [Yeni kullanıcılar oluşturmak](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ve [Kullanıcıları güvenlik rollerine atamak](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

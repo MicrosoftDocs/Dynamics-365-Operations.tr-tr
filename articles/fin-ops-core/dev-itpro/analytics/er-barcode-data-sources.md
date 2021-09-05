@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 973e46d5e5e7e9efb3037757ccb2b30f319ad13fd92261d58fde10fe0c235f9b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72c79c37ca5b5f98637ba5069e25465bb1391306
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714623"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343275"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Barkod görüntüleri oluşturmak için Barkod veri kaynaklarını kullanma
 
@@ -123,7 +123,7 @@ Ek olarak, sağlanan ER çözümü için değiştirilmiş şablonu içeren aşa�
 
 | İçerik açıklaması | Dosya adı                 |
 |---------------------|---------------------------|
-| Rapor şablonu     | [Check template Excel.xlsx](https://download.microsoft.com/download/1/f/6/1f671963-73aa-48d5-ae69-45f21fe7dfb4/Cheque%20template.xlsx) |
+| Rapor şablonu     | [Check template Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Bir yapılandırma sağlayıcısını etkinleştirme
 

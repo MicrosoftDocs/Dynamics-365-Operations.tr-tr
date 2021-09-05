@@ -1,8 +1,8 @@
 ---
 title: Personel self servisini yapılandırma
 description: Microsoft Dynamics 365 Human Resources'ta, kutucukları çalışan self serviste üst düzey gezinti için yapılandırabilirsiniz.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cafd89d30ca3876953df099e2e7b7cc9c3e1fdc0f69bb039310434f8d770f6f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721595"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423330"
 ---
 # <a name="configure-employee-self-service"></a>Personel self servisini yapılandırma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources'ta, kutucukları çalışan self serviste üst düzey gezinti için yapılandırabilirsiniz. Kazanç planı kutucukları kullanıcıları uygun oldukları kazanç planlarına yönlendirir.
+Microsoft Dynamics 365 Human Resources uygulamasında, **Personel self servisi**'nde üst düzey gezinme için kutucukları yapılandırabilirsiniz. Kazanç planı kutucukları kullanıcıları uygun oldukları kazanç planlarına yönlendirir.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Kazanç planları kutucuğu ayarlama
 
@@ -39,9 +39,9 @@ Microsoft Dynamics 365 Human Resources'ta, kutucukları çalışan self serviste
    | Alan | Tanım |
    | --- | --- |
    | **Kutucuk kodu** | Kutucuk için benzersiz tanımlayıcı. |
-   | **Kutucuk etiketi metni** | Self serviste kutucuk için görüntülenecek metin |
-   | **Tanım** | Kutucuğun bir açıklaması. |
-   | **Internet adresi** | Çalışan Self Servis sayfasının URL'sini girin. |
+   | **Kutucuk etiketi metni** | **Personel self servisi** bölümünde kutucuk için görünecek metin. |
+   | **Açıklama** | Kutucuğun bir açıklaması. |
+   | **Internet adresi** | **Personel self servisi** sayfasının URL'sini girin. |
    | **Kutucuk boyutu** | Döşemenin boyutu: küçük, orta veya büyük. |
    | **Hedef** | Sayfanın yeni bir pencerede mi yoksa geçerli pencerede mi açılacağını belirtir. |
    | **Kutucuk arka plan görüntüsü** | Kutucuk için kullanılacak görüntünün URL'si (isteğe bağlı). |
@@ -61,9 +61,9 @@ Microsoft Dynamics 365 Human Resources'ta, kutucukları çalışan self serviste
    | Alan | Tanım |
    | --- | --- |
    | **Kutucuk kodu** | Kutucuk için benzersiz tanımlayıcı. |
-   | **Kutucuk etiketi metni** | Self serviste kutucuk için görüntülenecek metin. |
+   | **Kutucuk etiketi metni** | **Personel self servisi** bölümünde kutucuk için görünecek metin. |
    | **Açıklama** | Kutucuğun bir açıklaması. |
-   | **Internet adresi** | Çalışan Self Servis sayfasının URL'sini girin. |
+   | **Internet adresi** | **Personel self servisi** sayfasının URL'sini girin. |
    | **Kutucuk boyutu** | Döşemenin boyutu: küçük, orta veya büyük. |
    | **Hedef** | Sayfanın yeni bir pencerede mi yoksa geçerli pencerede mi açılacağını belirtir. |
    | **Kutucuk arka plan görüntüsü** | Kutucuk için kullanılacak görüntünün URL'si (isteğe bağlı). |

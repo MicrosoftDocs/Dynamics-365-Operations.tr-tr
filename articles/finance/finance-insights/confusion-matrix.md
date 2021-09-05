@@ -1,5 +1,5 @@
 ---
-title: Makine öğrenimi modellerinin sonuçları (önizleme)
+title: Makine öğrenimi modellerinin sonuçları
 description: Bu konuda, makine öğrenimi (ML) modellerindeki karışıklık matrisleri, sınıflandırma problemleri ve doğruluk konuları ele alınmaktadır. Amaç, ML tahmin sonuçlarındaki doğruluğu daha iyi anlamanıza yardımcı olmaktır.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: eef57c4515aecad83c1a7d74e9251c536e3671a7f1eec5a1ae3bbb62ec0fcb2f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2545f7d043e139606c51bc559e3aacbe73abccfc
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764324"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386649"
 ---
-# <a name="results-of-machine-learning-models-preview"></a>Makine öğrenimi modellerinin sonuçları (önizleme)
+# <a name="results-of-machine-learning-models"></a>Makine öğrenimi modellerinin sonuçları
 
 [!include [banner](../includes/banner.md)]
 

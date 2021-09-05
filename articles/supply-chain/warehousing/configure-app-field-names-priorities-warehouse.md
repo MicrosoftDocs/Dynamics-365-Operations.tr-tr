@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31b1d9e26a5c21a6be5fd89992316e1d6e657c183a71d5155d8d76e83362c845
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9f9504ec87fd58bbf685519108477a48055da93
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721163"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344162"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulaması için alanları yapılandırma
 
@@ -50,7 +50,7 @@ Ambarlama'yı mobil cihazınızda kullandığınızda, meta verini cihazınızda
 <tbody>
 <tr class="odd">
 <td>Tercih edilen giriş modu</td>
-<td>Bu seçenek, seçilen alan adı için bir tarama alanının mı yoksa elle girdi girişi alanının mı gösterileceğini belirler. Bu, barkodlar alanda kullanılıyorsa alanların ayırt edilmesi için kullanışlıdır. <strong>Not:</strong> Tercih edilen giriş modu <strong>Tarama</strong> olarak ayarlanmış alanlar için, barkod okunamaz veya zarar görmüşse, bilgileri el ile girebilirsiniz.</td>
+<td>Bu seçenek, seçilen alan adı için bir tarama alanının mı yoksa elle girdi girişi alanının mı gösterileceğini belirler. Bu, barkodlar alanda kullanılıyorsa alanların ayırt edilmesi için kullanışlıdır. <strong>Not:</strong> Tercih edilen giriş modu <strong>Tarama</strong> olarak ayarlanmış alanlar için barkod okunamıyorsa veya zarar görmüşse bilgileri el ile girebilirsiniz.</td>
 </tr>
 <tr class="even">
 <td>Giriş türü</td>

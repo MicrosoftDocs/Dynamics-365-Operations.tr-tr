@@ -9,15 +9,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 997cec3b09b5bb26636cd1b3f308cf86c2ca10b2debfc8a29c387178782a8d33
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 66e73ff2bd5dbff2cb0bcca8e0645c485f3a0bba
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731631"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402409"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Commerce Microsoft İş Ortağı Dynamics 365 Commerce satış ve pazarlama rolleri için öğrenme kataloğu
 

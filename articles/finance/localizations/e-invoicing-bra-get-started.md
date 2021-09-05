@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd37c98b64e6074d54b40e20f87f24912abcdd75575aa92e1e2b7345d3cce5a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccf2a78a5ffdb95b334f751944fdd010bf8cbf01
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730489"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345209"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Brezilya için Elektronik faturalamayı kullanmaya başlama 
 
@@ -55,7 +55,7 @@ Uygulama kurulumunu Finance veya Supply Chain Management bağlı uygulamanıza d
 
 Bu bölüm, [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusunun **Uygulama kurulumunu ülkeye özgü yapılandırma** bölümünü tamamlayıcı niteliktedir.
 
-1. RCS'te **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama* kutucuğunu seçin.
+1. RCS'te **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
 2. **Elektronik faturalama özellikleri** sayfasında, **Brezilya NF-e (BR)** elektronik faturalama özelliğinin seçili olduğunu doğrulayın.
 3. **Sürümler** sekmesinde **Taslak** sürümünün seçili olduğunu doğrulayın.
 4. **Ayarlar** sekmesinde, **Uygulama kurulumu**'nu seçin ve **bağlı uygulama** alanında, dağıtma işlemini yapmak istediğiniz uygulamayı seçin.

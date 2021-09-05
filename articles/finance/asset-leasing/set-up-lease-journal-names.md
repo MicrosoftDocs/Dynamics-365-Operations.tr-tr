@@ -15,18 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7caabeaf92bbce63cc30b2fb76111b33455af1910c2ea822453c550c61e02dd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740896"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343226"
 ---
 # <a name="set-up-lease-journal-names"></a>Kiralama günlüğü adlarını ayarlama
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Kiralama günlüğü adları, Varlık kiralama hareketlerinin nakledildiği günlükleri belirtir. Yalnızca **Varlık kiralama** günlük türüne atanmış günlük adları, **Varlık kiralama parametreleri** sayfasında **İlk Kabul** ve **Aylık Günlük Adı** alanlarında gösterilir. Yalnızca **satıcı faturası kaydı** günlük türü **Satıcı günlüğü adı** alanına atanabilir.
+
+Sistem, hareketler ve zamanlamalar arasındaki farkları önlemek için belirli mali alanların düzenlenmesini kilitler. Kilitlenen bazı alanlar şunlardır: **Hesap**, **Tutarlar**, **Mali boyutlar**, **Para birimi** ve **Hareket türü**. Ayrıca zamanlamalar ve hareketler arasında farklara neden olabileceğinden Varlık kiralama yevmiye defteri girişlerine yevmiye defteri girişi satırları ekleyemez veya bunları silemezsiniz.
+
 
 Kiralama günlüğü adlarını yapılandırmak için aşağıdaki adımları izleyin.
 

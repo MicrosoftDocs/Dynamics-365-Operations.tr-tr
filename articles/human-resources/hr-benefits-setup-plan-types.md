@@ -1,8 +1,8 @@
 ---
 title: Plan türüne genel bakış
-description: Microsoft Dynamics 365 Human Resources'ta plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır. Her plan türü, plan türüyle ilgili kuralları belirleyen bir plan türü koduna sahiptir.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Microsoft Dynamics 365 Human Resources'ta plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8966b0aa01795ff00832e480a186c05fa129e7c728112f81cf4f78b6b0915463
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732742"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423403"
 ---
 # <a name="plan-type-overview"></a>Plan türüne genel bakış
 
@@ -32,10 +32,10 @@ Her plan tipi bir çalışanın türünün veya birden fazla bir plana kayıt ya
 
 Bir plan türü ilgili kişiler içeriyorsa, plan türü ilgili kişilerin lehdar veya bağımlı olup olmadığını gösterir. Örneğin, temel bir ömür planı türü, temel bir tıbbi plan türünün bağımlıları olması halinde lehsiz olurdu. Bazı durumlarda, bir planın kişisel ilgili kişisi olmayabilir. Örneğin, esnek bir harcama hesabı veya Park kesintisi.
 
-Plan türü, kapsam seçeneklerini tanımlayabilir. Kapsam seçenekleri, kapsma seçeneği formunda tanımlanmıştır. Tedarik seçeneği, plan türüne uygun olan kazancın veya ilgili kişilerin tutarını belirtebilir. Örneğin, ilgili kişi türü lehdar ise, kapsam seçeneği, lehdar kullanıldığında kazancın ne kadar uygun olacağını tanımlamalıdır. İlgili kişi türü bağımlı ise, kapsam seçeneğinin bağımlı ve çalışan arasındaki ilişkiyi tanımlaması gerekir. 
+Plan türü, kapsam seçeneklerini tanımlayabilir. Kapsam seçenekleri **Kapsam seçeneği** sayfasında tanımlanır. Tedarik seçeneği, plan türüne uygun olan kazancın veya ilgili kişilerin tutarını belirtebilir. Örneğin, ilgili kişi türü lehdar ise, kapsam seçeneği, lehdar kullanıldığında kazancın ne kadar uygun olacağını tanımlamalıdır. İlgili kişi türü bağımlı ise, kapsam seçeneğinin bağımlı ve çalışan arasındaki ilişkiyi tanımlaması gerekir. 
 
 > [!IMPORTANT]
-> Form, yeni bir avantaj planı oluşturulduğunda kullanılabilen seçenekleri etkileyen önemli verileri içerir:
+> Sayfa, yeni bir kazanç planı oluşturulduğunda kullanılabilen seçenekleri etkileyen temel verileri içerir:
 >
 > - **Plan türü kodu**: Bu alan, gerçek yan hak ayarlandığında **Yapılandırma** sekmesinde gösterilenleri etkiler.  
 > - **Eşzamanlı kayıt**: Bu alan, birden çok kayda izin verilip verilmeyeceğini belirler. (Tıbbi bir plan için bu alan genellikle **Bir kayıt** olarak ayarlanır.)

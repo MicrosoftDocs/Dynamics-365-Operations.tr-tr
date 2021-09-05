@@ -1,8 +1,8 @@
 ---
 title: Dataverse sanal tablolarını yapılandırma
-description: Bu konu, Dynamics 365 Human Resources için sanal tabloların nasıl yapılandırılacağını göstermektedir. Mecvut sanal tabloları oluşturun ve güncelleştirin ve oluşturulan ve kullanılabilir tabloları inceleyin.
-author: andreabichsel
-ms.date: 01/25/2021
+description: Bu konuda, var olan sanal tabloların nasıl yapılandırılacağı, oluşturulacağı, güncelleştirileceği ve Dynamics 365 Human Resources için oluşturulan ve kullanılabilir tabloların nasıl analiz edileceği gösterilmektedir.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721619"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414676"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse sanal tablolarını yapılandırma
 
@@ -140,6 +140,9 @@ Sonraki adım, sanal tablo veri kaynağını Power Apps ortamında yapılandırm
 
      >[!NOTE]
      >Hata almamak için URL'nin sonuna "**/**" karakteri eklediğinizden emin olun.
+
+     >[!NOTE]
+     >Hedef URL, sanal tabloların veriler için işaret edeceği Human Resources ortamını belirler. Üretim ortamınızın bir kopyasını oluşturarak bir korumalı alan ortamı oluşturursanız bu değeri yeni korumalı alan ortamınızın ad alanı URL'sine güncelleştirin. Bu, sanal tabloların üretim ortamına işaret etmeye devam etmesi yerine sanal tabloların korumalı alan ortam verilerine bağlanmasını sağlar.
 
    - **Kiracı Kimliği**: Azure Active Directory (Azure AD) kiracı kimliği.
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764896"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402237"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Dynamics 365 Supply Chain Management yöneticileri için öğrenme kataloğu
 
@@ -61,6 +61,14 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Finance and Operations: 7.x'ten 8+'ya yükseltme (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 7.X sürümünden 8.X sürümüne yükseltme işlemini ele alacağımız bir sonraki Teknik Sohbet'te lütfen bize katılın. Kod yükseltme ve veri yükseltme için uygulanacak çeşitli senaryo ve adımları ele alacağız. Ayrıca, genişletilebilirlik talebi senaryolarını ve uygun durumlarda bu taleplerin nasıl oluşturulacağını ele alacağız. | Bir web konferansını ücretsiz olarak kaydetme | 61 dakika |
 | [7.0 (RTW)/7.1 (Sürüm 1611) sürümünden 7.2 (Temmuz 2017) sürümüne yükseltme yapma (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Bu oturumda, Dynamics 365 Finance and Operations uytgulaması v7.0 (RTW) ve v7.1 (1611) sürümlerinden v7.2 (Temmuz 2017) sürümüne yükseltme işlemini açıklayacağız. Canlı müşteriler ile devam eden projeler (henüz canlı olmayan) arasında net bir ayrım yaparız. | Bir web konferansını ücretsiz olarak kaydetme | 58 dakika |
 | [AX2012'den Dynamics 365 for Operations'a Yükseltme (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Bu Teknik Sohbet'te, kod ve verileri Dynamics AX 2012'den Dynamics 365 for Operations'a yükseltmeye genel bir bakış sunacağız. | Bir web konferansını ücretsiz olarak kaydetme | 45 dakika |
+| [AX2009'dan Dynamics 365 for Operations'a Geçiş Araçları (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | Bu oturumda, AX2009'dan D365 for Operations'a geçiş sırasında size yardımcı olabilecek araçlar ele alınacaktır. | Bir web konferansını ücretsiz olarak kaydetme | 55 dakika |
+| [AX2009 Geçiş Aracı](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | Bu oturumda, AX2009'dan D365 for Operations'a geçiş sırasında size yardımcı olabilecek araçlar ele alınacaktır. | Bir web konferansını ücretsiz olarak kaydetme | 55 dakika |
+
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| İçerik | Tanım | Biçim | Uzunluk |
+|---------|-------------|--------|--------|
+| [Dynamics 365 Supply Chain Management için mühendislik değişikliği yönetimini ayarlama](/learn/paths/set-up-engineering-change-management/) | Günümüzde üreticiler; sürekli kısalan ürün yaşam döngüleri, yüksek kalite ve güvenilirlik gereksinimleri ve ürün güvenliğine daha fazla önem vermeyi gerektiren koşullarda başarılı olmak için güçlü ürün veri yönetimi, sürüm denetimi ve mühendislik değişim yönetimine ihtiyaç duymaktadır. Bu öğrenme yolunda mühendislik değişim yönetiminin nasıl ayarlanacağı hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
 
 ## <a name="servicing"></a>Bakım<a name="servicing"></a>
 
@@ -69,6 +77,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Finance and Operations: Özellik Yönetimi (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Özellik yönetimi deneyimine ilişkin Teknik Sohbet. Her bir sürümde sunulan özellikleri görüntüleyebileceğiniz, etkinleştirebileceğiniz, devre dışı bırakabileceğiniz ve zamanlayabileceğiniz bir çalışma alanı sağlar. Varsayılan olarak, bu özellikler kapalıdır. Çalışma alanını, bu özellikleri açıp ilgili belgelere bakmak için kullanabilirsiniz. Sürüm 10.0.3'te sunulan özellikleri ve gelecek sürümlere yönelik planlarımızı öğrenmek için bu toplantıya katılın. | Bir web konferansını ücretsiz olarak kaydetme | 47 dakika |
 | [Finance and Operations: Bakım, Destek ve Üretimi Sürdürme (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Dynamics 365 for Finance and Operations üretim ortamınızı etkili bir şekilde desteklemeye, bu ortamın bakımını yapmaya ve bu ortam için servis hizmeti sunmaya ilişkin Teknik Sohbet. | Bir web konferansını ücretsiz olarak kaydetme | 53 dakika |
 | [Finance And Operations: Microsoft Tarafından Yönetilen Sürekli Güncelleştirmeler (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | Finance and Operations için Sürekli Güncelleştirme temposu başladı! Microsoft Tarafından Yönetilen Sürekli Güncelleştirmeler, Lifecycle Services'ta zaten bulunan kullanıcı deneyimi ve gelecek güncelleştirmeleri ele almak için lütfen bu süre boyunca bize katılın. | Bir web konferansını ücretsiz olarak kaydetme | 61 dakika |
+| [Finance And Operations: Microsoft Tarafından Yönetilen Sürekli Güncelleştirmeler: Yenilikler - 1 Kasım 2018 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | Bu süre boyunca Microsoft Tarafından Yönetilen Sürekli Güncelleştirmeler temposunda yapılan güncelleştirmelerin yanı sıra Lifecycle Services'taki kullanıcı deneyimini inceleyeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 59 dakika |
 | [Microsoft Tarafından Yönetilen Sürekli Güncelleştirmeler: Yenilikler (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Bu süre boyunca, Microsoft Tarafından Yönetilen Sürekli Güncelleştirmeler hakkındaki ilk duyurularımızdan bu yana yapılan yenilikleri açıklayacağız. Güncelleştirme temposunu ve sürece ilişkin değerli geri bildirimlerinize nasıl yanıt verdiğimizi ele alarak güncelleştirmelerinizi yönetebileceğiniz gelecek Lifecycle Services kullanıcı deneyimini inceleyeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 56 dakika |
 | [Microsoft Tarafından Yönetilen Sürekli Güncelleştirmeler (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | Microsoft'un, en son sürüm ile sisteminizi güncel tutmaya yönelik planlarını tartışacağız. Zaman çizelgeleri, önemli ve önemsiz güncelleştirmelerin uyumu, planlanmış prosedürler, sonuçlar ve optimum sonuçlar için yapmanız gerekenlerden bahsedeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 62 dakika |
 | [İzleme, Optimizasyon Danışmanı ve Önemli Bilgi Bankaları (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | İzleme özelliklerini, Microsoft'un üretim ortamınızda sizin için izlediği şeyleri, optimizasyon danışmanı ile bu danışmanın kapsamının nasıl genişletilebileceğini, LCS'deki "Kritik X ++ güncelleştirmeleri" deneyimini ve LCS'deki "Rapor üretim kesintisi" seçeneğini ele alacağız. | Bir web konferansını ücretsiz olarak kaydetme | 40 dakika |
@@ -86,6 +95,5 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | İçerik  | Tanım  | Biçim  |
 |----------|--------------|---------|
 | [Dynamics 365 Temel Bilgileri](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Microsoft Dynamics 365, Power Platform, bulut kavramları, lisanslama seçenekleri ile dağıtım ve sürüm seçeneklerini bildiğinizi kanıtlayın. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

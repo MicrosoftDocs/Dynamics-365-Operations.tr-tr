@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8386adc3f0e9c9a782e6cd5d4ba770f9650583b8ff3f32c3ac23478475d085ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 094d7f0f5642653c6e059952783041b1430e98d6
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753807"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384647"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Ambar uygulamasını yükleme ve bağlama
 
@@ -136,7 +136,7 @@ Bağlantı ayarlarını bir dosyadan veya bir QR kodundan alabilirsiniz. Her iki
 | ConnectionName | Bağlantı ayarlarının adını belirtin. En fazla 20 karakter kullanılabilir. Bu değer, bir bağlantı ayarının benzersiz tanımlayıcısı olduğu için listede benzersiz olduğundan emin olun. Cihazda aynı ada sahip bir bağlantı zaten varsa içe aktarılan dosyadaki ayarlar tarafından geçersiz kılınır. |
 | ActiveDirectoryClientAppId | [Azure Active Directory uygulamasında bir web hizmeti uygulaması oluşturma](#create-service) bölümünde Azure AD uygulamasını ayarlarken not ettiğiniz istemci kimliğini belirtin. |
 | ActiveDirectoryResource | Supply Chain Management uygulamasının kök URL'sini belirtin. |
-| ActiveDirectoryTenant | Supply Chain Management sunucusuyla kullandığınız Azure AD kiracısını belirtin. Bu değer `https://login.windows.net/<your-Azure-AD-tenant-ID>` formuna sahiptir. İşte bir örnek: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| ActiveDirectoryTenant | Supply Chain Management sunucusuyla kullandığınız Azure AD etki alanı adını belirtin. Bu değer `https://login.windows.net/<your-Azure-AD-domain-name>` formuna sahiptir. İşte bir örnek: `https://login.windows.net/contosooperations.onmicrosoft.com`. Azure AD etki alanı adınızı bulma hakkında daha fazla bilgi için bkz. [Kullanıcının önemli kimliklerini bulma](/partner-center/find-ids-and-domain-names). |
 | Şirket | Uygulamanın bağlanmasını istediğiniz tüzel varlığı Supply Chain Management uygulamasında belirtin. |
 | ConnectionType | (İsteğe bağlı) Bağlantı ayarının bir ortama bağlanmak için sertifika veya istemci parolası kullanıp kullanmayacağını belirtin. Geçerli değerler *"certificate"* ve *"clientsecret"* değerleridir. Varsayılan değer *"certificate"* değeridir.<p>**Not:** İstemci parolaları içe aktarılamaz.</p> |
 | IsEditable | (İsteğe bağlı) Uygulama kullanıcısının bağlantı ayarını düzenleyip düzenleyemeyeceğini belirtin. Geçerli değerler *"true"* ve *"false"* değerleridir. Varsayılan değer *"true"* değeridir. |
@@ -248,7 +248,7 @@ Azure AD uygulaması aracılığıyla Supply Chain Management sunucusuna erişeb
         > [!NOTE]
         > Bu değeri eğik çizgi (/) ile bitirmeyin.
 
-    - **Active Directory kiracısı**: Supply Chain Management sunucusuyla kullandığınız Azure AD kiracısını girin. Bu değer `https://login.windows.net/<your-Azure-AD-tenant-ID>` formuna sahiptir. İşte bir örnek: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Active Directory kiracısı**: Supply Chain Management sunucusuyla kullandığınız Azure AD etki alanı adını girin. Bu değer `https://login.windows.net/<your-Azure-AD-domain-name>` formuna sahiptir. İşte bir örnek: `https://login.windows.net/contosooperations.onmicrosoft.com`. Azure AD etki alanı adınızı bulma hakkında daha fazla bilgi için bkz. [Kullanıcının önemli kimliklerini bulma](/partner-center/find-ids-and-domain-names).
 
         > [!NOTE]
         > Bu değeri eğik çizgi (/) ile bitirmeyin.

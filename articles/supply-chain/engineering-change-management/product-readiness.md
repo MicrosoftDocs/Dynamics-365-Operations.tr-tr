@@ -1,6 +1,6 @@
 ---
-title: Ürün hazır olma durumu
-description: Bu konu, bir ürün için gerekli ana verilerin işlemlerde kullanılmadan önce tamamlandığından emin olmak için hazırlık denetimlerini nasıl kullanabileceğinizi açıklar.
+title: Ürün hazırlığı
+description: Bu konuda, bir ürün için gerekli ana verilerin işlemlerde kullanılmadan önce tamamlandığından emin olmak için hazırlık denetimlerini nasıl kullanabileceğiniz açıklanmaktadır.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
+ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723563"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7415333"
 ---
 # <a name="product-readiness"></a>Ürün hazır olma durumu
 
 [!include [banner](../includes/banner.md)]
 
-İşlemlerde kullanılmadan önce bir ürün için gerekli tüm ana verilerin belirtildiğinden emin olmak için hazırlık denetimlerini kullanabilirsiniz. Hazırlık denetimleri kullanıldığında, bir kullanıcı veya ekip önceden tanımlanmış belirli verileri doğrulamadan sorumlu hale getirilir. Bir ürün için açık hazırlık denetimi varsa, ürün serbest bırakılmaz veya işlemlerde kullanılamaz.
+İşlemlerde kullanılmadan önce bir ürün için gerekli tüm ana verilerin belirtildiğinden emin olmak için hazırlık denetimlerini kullanabilirsiniz. Hazırlık denetimleri kullanıldığında, bir kullanıcı veya ekip önceden tanımlanmış belirli verileri doğrulamadan sorumlu hale getirilir. Bir ürün için açık hazırlık denetimi varsa ürün hareketlerde kullanılamaz.
 
-Bir mühendislik ürünü, varyantı veya sürümü için **Etkin** onay kutusu, yalnızca gerekli tüm veriler girildikten ve doğrulandıktan sonra ve tüm hazırlık denetimleri işlendikten sonra kullanılabilir. Bu noktada, ürün, sürüm veya varyant diğer şirketlere serbest bırakılabilir ve işlemlerde kullanılabilir. Yeni ürünler, yeni varyantlar ve yeni mühendislik sürümleri için hazırlık denetimleri oluşturabilirsiniz.
+Bir mühendislik ürünü, varyantı veya sürümü için **Etkin** onay kutusu, yalnızca gerekli tüm veriler girildikten ve doğrulandıktan sonra ve tüm hazırlık denetimleri işlendikten sonra kullanılabilir. Bu noktada; ürün, sürüm veya çeşit hareketlerde kullanılabilir. Yeni ürünler, yeni varyantlar ve yeni mühendislik sürümleri için hazırlık denetimleri oluşturabilirsiniz.
 
 Hazırlık denetimlerini standart (mühendislik dışı) ürünlere de uygulayabilirsiniz. Daha fazla bilgi için, bu konunun sonraki bölümlerinde yer alan [Standart ürünler üzerinde hazırlık denetimleri](#standard-products) bölümüne bakın.
 

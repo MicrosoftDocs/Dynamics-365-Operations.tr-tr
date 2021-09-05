@@ -1,8 +1,8 @@
 ---
-title: İşlem kayıt uygunluğu
-description: Bu makalede, kayıt uygunluk işleminin nasıl çalıştırıldığı açıklanır.
-author: andreabichsel
-ms.date: 04/06/2020
+title: Kayıt uygunluğunu işleme
+description: Bu konuda, kayıt uygunluğunu işleminin nasıl çalıştırıldığı açıklanmaktadır.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782084"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417496"
 ---
-# <a name="process-enrollment-eligibility"></a>İşlem kayıt uygunluğu
+# <a name="process-enrollment-eligibility"></a>Kayıt uygunluğunu işleme
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu makalede, kayıt uygunluk işleminin nasıl çalıştırıldığı açıklanır.
+Bu konuda, kayıt uygunluğunu işleminin nasıl çalıştırıldığı açıklanmaktadır.
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **işlem** altında, kayıt **uygunluk işlemini** seçin.
 
@@ -53,11 +53,11 @@ Bu makalede, kayıt uygunluk işleminin nasıl çalıştırıldığı açıklan�
 
 ## <a name="view-process-results"></a>İşlem Sonuçlarını Görüntüleme
 
-Bu makalede, uygunluk işlemi sonuçlarının nasıl görüntüleneceği açıklanmaktadır.
+Bu konuda, uygunluk işlemi sonuçlarının nasıl görüntüleneceği açıklanmaktadır.
 
 1.  **Kazanç yönetimi** çalışma alanında, **İşleme** altında, **İşlem sonuçları**'nı seçin.
 
-2.  **İşlem sonuçları** formunda, aşağıdaki alanlar belirtilir:
+2.  **İşlem sonuçları** sayfasında, aşağıdaki alanlar belirtilir:
 
    | Alan | Tanım |
    | --- | --- |

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773549"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384671"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management sürüm 10.0.19'teki yenilikler ve değişiklikler (Haziran 2021)
 
@@ -41,7 +41,7 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 | Stok ve lojistik | [Satış teklifi sayfasındaki Belge giriş ve Belge sonuç alanları için arama özelliği](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Bu özellik, **Satış teklifi** sayfasındaki **Belge giriş** ve **Belge sonuç** alanları için arama özelliği ekler.<br><br>Varsayılan olarak bu özellik etkindir. |
 | Stok ve lojistik | [Özel donanımınızda uç ölçek birimleriyle ambar yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Özel donanımda LBD kullanarak kenar ölçek birimleri dağıtma](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | İmalat | [Özel donanımınızda uç ölçek birimleriyle üretim yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [LBD kullanarak özel donanımda kenar ölçek birimleri dağıtma](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Planlama | [Planlama Optimizasyonu için sonsuz kapasite planlaması](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Bu özellik, Planlama Optimizasyonu için sonsuz kapasiteye sahip kapasite planlaması sağlar. Bu özellik olmadan, planlı üretim emirleri, planlama zaman diliminden bağımsız olarak, serbest bırakılan ürünler stok sağlama süresinden sağlama sürelerini alır. |
+| Planlama | [Planlama Optimizasyonu için sonsuz kapasite planlaması](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Sonsuz kapasiteyle planlama](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Planlama | Sorgu temelli planlı sipariş kesinleştirme | [Kesinleşmiş planlı siparişler](../master-planning/planning-optimization/planned-order-firming.md) |
 | Ürün bilgileri yönetimi | [Çeşit önerileri sayfa geliştirmeleri](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Önceden tanımlanmış ürün çeşitleri oluşturma](../pim/tasks/create-predefined-product-variants.md) |
 

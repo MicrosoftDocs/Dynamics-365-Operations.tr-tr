@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4811c65a32e27668d1247086d962366eb8369d5e9fe28a105e1d6a020bca325d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
+ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737761"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7392486"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Kiralamaları sabit varlıklarla ilişkilendirme
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, mevcut bir sabit varlığın yeni bir kiralamayla nasıl ilişkilendirileceği açıklanır. Bir sabit varlığı kiralamayla ilişkilendirdiğinizde, ilk kabuldeki kullanım hakkı (ROU) varlığı sabit varlığın alım maliyeti olur.
 
@@ -49,8 +50,18 @@ Sabit bir varlığı kiralamayla ilişkilendirmeden önce Sabit varlıklarda sab
 
 Artık Sabit varlıklardaki standart amortisman işlevi kullanılarak sabit varlığa amortisman uygulanabilir. Amortisman hakkında daha fazla bilgi için bkz. [Amortisman yöntemleri ve kuralları](../fixed-assets/depreciation-methods-conventions.md).
 
+Kiralama, sabit kıymetle ilişkilendirildiğinde sabit kıymet defterindeki **Servis ömrü** alanı aşağıdaki ölçütlerden en küçük değerle uyumlu olacak şekilde güncelleştirilir: 
+
+ - Varlığın faydalı ömrü
+ - İlişkili kiralama defterindeki kiralama süresi
+
+Kiralama defteri için **Sahiplik aktarımı** alanı **Evet** olarak ayarlanmışsa **Servis ömrü** alanındaki değer her zaman varlığın faydalı ömrü olur. 
+ 
+Varlık kiralama sırasında kullanım hakkı varlığına uygulanan amortismanda olduğu gibi, kullanım hakkı varlığına süreli kiralama boyunca amortisman uygulanmasını sağlamak için kiralamanın her ayarlanışında Servis ömrü güncelleştirilir.
+
 > [!NOTE]
 > Sabit varlığı bir kiralamayla ilişkilendirirseniz Varlık kiralamada **Varlık amortismanı** ve **Kira değer düşüşü** düğmeleri devre dışı bırakılır. Sabit varlıklardaki varlık amortismanı ve kira değer düşüşü hareketlerini görüntüleyebilirsiniz. Bir sorgu formu açan **Varlık hareketleri** düğmesi de devre dışı bırakılır. **Varlık hareketleri** sorgu formunu Sabit varlıklarda da açabilirsiniz.  
 
+**Sabit kıymetler** ve **Sabit kıymet defteri** sayfaları, bir sabit kıymetle ilişkili kiralama kimliğini görüntüler. Sabit kıymet bir kiralama ile ilişkilendirilmişse **Sabit kıymetler** sayfasındaki **Kiralama bilgileri** hızlı sekmesinde kiralama kimliği ve kiralama açıklaması görüntülenir. Kiralama defterleriyle ilişkili sabit kıymet defterleri için **Kiralama kimliği**, **Kiralama açıklaması** ve **Defter türü** alanları, bir kiralama defteriyle ilişkili olduklarını belirtmek için **Kiralama bilgileri** hızlı sekmesinde seçilen sabit kıymet defterine ilişkin bilgileri görüntüler.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

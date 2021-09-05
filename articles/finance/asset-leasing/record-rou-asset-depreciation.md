@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778374"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345382"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Kullanım hakkı varlığı amortismanı kaydetme (Önizleme)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Bir kuruluşun bilanço tablosunda kabul edilen kiralamalar için, kullanım hakkı (ROU) varlığına aylık amortisman uygulanır. Bu konu, amortisman için günlük girişinin nasıl oluşturulacağını açıklamaktadır. Deftere nakil profilinize ve kiralama türünüze bağlı olarak, amortisman gider genel muhasebe hesabını borçlandırı ve birikmiş amortisman genel muhasebe hesabını alacaklandırır. Bu girişler her kiralama için ayrı ayrı oluşturulabilir veya toplu iş günlük işlevleri kullanılarak birden fazla kiralama için oluşturulabilir.
 
@@ -36,6 +38,9 @@ Bir kuruluşun bilanço tablosunda kabul edilen kiralamalar için, kullanım hak
 
 2. Amortisman dönemini seçin ve **Günlük oluştur**'u seçin. Amortismanı kaydetmek için kullanılacak günlüğün oluşturulduğunu bildiren bir ileti alırsınız.
 3. **Varlık kiralama günlüğü** sayfasını açmak için **Günlükler \> Varlık kiralama günlükleri**'ni seçin. Burada, oluşturulan amortisman gideri günlük girişini görüntüleyebilirsiniz.
+
+   Sistem, hareketler ve zamanlamalar arasındaki farkları önlemek için belirli mali alanların düzenlenmesini kilitler. Kilitlenen bazı alanlar şunlardır: **Hesap**, **Tutarlar**, **Mali boyutlar**, **Para birimi** ve **Hareket türü**. Ayrıca zamanlamalar ve hareketler arasında farklara neden olabileceğinden Varlık kiralama yevmiye defteri girişlerine yevmiye defteri girişi satırları ekleyemez veya bunları silemezsiniz.
+
 4. Günlük girişini seçin ve amortisman girişini Genel muhasebe defterine kaydetmek için **Deftere naklet**'i seçin.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>İşletme kiralamaları için ROU varlığı amortisman giderinin hesaplanması

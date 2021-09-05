@@ -2,7 +2,7 @@
 title: POS'ta stok arama işlemi
 description: Bu konu, mağazalar ve ambarlar genelinde ürünlerin eldeki stok kullanılabilirliğini görüntülemek için stok arama işleminin Dynamics 365 Commerce satış noktasında (POS) nasıl kullanılacağını açıklar.
 author: boycezhu
-ms.date: 05/11/2021
+ms.date: 08/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: b697583f2ebf9950ad805d4f415dafb2c891de8052d4a47563b048059475030f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745344"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343848"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>POS'ta stok arama işlemi
 
@@ -38,10 +38,10 @@ Stok arama işlemi POS uygulamasından başlatıldığında, POS kasiyeri stok b
 
 Tek bir ürün için stok arama işlemi, bir yerleşim listesi ile ilgili olarak aşağıdaki ürün bilgilerini gösteren bir stok arama listesi görünümü sağlar:
 
-- **Stok** - Bir ürünün "kullanılabilir fiziksel" miktarını gösterir.
-- **Ayrılmış** - Genel merkezden alınan "fiziksel olarak rezerve edilmiş" miktara başvurur.
-- **Sipariş edilmiş** - Genel merkezden alınan "toplam sipariş edilen" miktarına başvurur.
-- **Birim** - Genel merkezde konfigüre edilen stok ölçü birimine başvurur.
+- **Stok**: Bir ürünün "kullanılabilir fiziksel" miktarını ifade eder.
+- **Ayrılmış**: Genel merkezden alınan "fiziksel olarak rezerve edilmiş" miktarı ifade eder.
+- **Sipariş edilen**: Genel merkezden alınan "toplam sipariş edilen" miktarı ifade eder.
+- **Birim**: Genel merkezde yapılandırılan stok ölçü birimini ifade eder.
 
 Yerleşimlerin liste görünümü, aşağıdaki örnek görüntüde gösterildiği gibi, geçerli mağazanın bağlantılı olduğu karşılama gruplarında yapılandırılan tüm mağaza ve ambarları içerir.
 
@@ -52,25 +52,26 @@ Yerleşimlerin liste görünümü, aşağıdaki örnek görüntüde gösterildi�
 
 Aşağıdaki eylemler, POS uygulama çubuğundan kullanılabilir:
 
-- **Sırala** - Bu eylem, POS kullanıcısının, liste görünümündeki verileri çeşitli ölçütlere göre sıralamasına izin verir. Yerleşim temelli sıralama, varsayılan sıralama seçeneğidir. 
-  - **Coğrafi konum** (geçerli depoya kıyasla, en yakın yerleşimden en uzak yerleşime)
-  - **Ad** (artan veya azalan sırada)
-  - **Mağaza numarası** (artan veya azalan sırada)
-  - **Stok** (azalan sırada)
-  - **Ayrılmış** (azalan sırada)
-  - **Sipariş edilmiş** (azalan sırada)
-- **Filtre** - Bu eylem, POS kullanıcısının belirli bir yerleşim için filtre uygulanmış verileri görüntülemesine olanak tanır.
-- **Mağaza kullanılabilirliğini göster** -Bu eylem, POS kullanıcısının seçili depodaki bir ürünle ilgili olarak kullanılabilir taahhüt (KM) miktarlarını görüntülemesine olanak tanır.
-- **Mağaza konumunu göster** - Bu eylem, seçili mağazaya ait harita görünümü, adres ve mağaza saatlerini göstermek için ayrı bir sayfa açar.
-- **Mağazadan teslim alma** - Bu eylem, seçilen mağazadan teslim alınacak ürün için bir müşteri siparişi oluşturur ve kullanıcıyı hareket ekranına yönlendirir.
-- **Ürün sevk et** - Bu eylem, seçilen mağazadan sevk edilecek ürün için bir müşteri siparişi oluşturur ve kullanıcıyı hareket ekranına yönlendirir.
-- **Tüm çeşitleri görüntüle** - Çeşitleri olan bir ürün için, bu eylem liste görünümünden ürünün tüm çeşitleriyle ilgili stok bilgilerini görüntüleyen bir matris görünümüne geçer.
-- **Harekete ekle** - Bu eylem, ürünü alışveriş sepetine ekler ve kullanıcıyı hareket ekranına yönlendirir.
+- **Sırala**: Bu eylem, POS kullanıcısının, liste görünümündeki verileri çeşitli ölçütlere göre sıralamasına izin verir. Yerleşim temelli sıralama, varsayılan sıralama seçeneğidir.
+
+    - **Coğrafi konum** (geçerli mağazaya olan mesafeye göre en yakın yerleşimden en uzak yerleşime)
+    - **Ad** (artan veya azalan sırada)
+    - **Mağaza numarası** (artan veya azalan sırada)
+    - **Stok** (azalan sırada)
+    - **Ayrılmış** (azalan sırada)
+    - **Sipariş edilmiş** (azalan sırada)
+
+- **Filtre**: Bu eylem, POS kullanıcısının belirli bir yerleşim için filtre uygulanmış verileri görüntülemesine olanak tanır.
+- **Mağaza kullanılabilirliğini göster**: Bu eylem, POS kullanıcısının seçili mağazadaki bir ürünle ilgili olarak kullanılabilir taahhüt (KM) miktarlarını görüntülemesine olanak tanır.
+- **Mağaza konumunu göster**: Bu eylem, seçili mağazaya ait harita görünümü, adres ve mağaza saatlerini göstermek için ayrı bir sayfa açar.
+- **Mağazadan teslim al**: Bu eylem, seçilen mağazadan teslim alınacak ürün için bir müşteri siparişi oluşturur ve kullanıcıyı hareket ekranına yönlendirir.
+- **Ürün sevk et**: Bu eylem, seçilen mağazadan sevk edilecek ürün için bir müşteri siparişi oluşturur ve kullanıcıyı hareket ekranına yönlendirir.
+- **Tüm çeşitleri görüntüle**: Bu eylem, çeşitleri olan bir ürün için liste görünümünden ürünün tüm çeşitleriyle ilgili stok bilgilerini görüntüleyen bir matris görünümüne geçer.
+- **Harekete ekle**: Bu eylem, ürünü alışveriş sepetine ekler ve kullanıcıyı hareket ekranına yönlendirir.
 
 > [!NOTE]
-> Yerleşime dayalı bir sıralama için, bir yerleşim ve geçerli mağaza arasındaki mesafe, Commerce genel merkezde tanımlanan koordinatlarla (enlem ve boylam) belirlenir. Mağaza için, yerleşim bilgileri mağazayla ilişkilendirilmiş olan faaliyet biriminin birincil adresinde tanımlanmıştır. Mağaza olmayan ambar için, yerleşim bilgileri ambar adresinde tanımlanmıştır. Geçerli mağazada tanımlanmış koordinatlar yoksa, yerleşim temelli sıralama seçeneği listenin en üstündeki geçerli mağazayı görüntüler ve sonra diğer yerleşimleri ada göre sıralar.
-
-> [!NOTE]
+> Commerce 10.0.17 sürümünde tanıtılan yerleşim temelli sıralama, geçerli mağazayı en üstte gösterir. Diğer yerleşimler için yerleşim ve geçerli mağaza arasındaki mesafe, Commerce genel merkezde tanımlanan koordinatlara göre (enlem ve boylam) belirlenir. Mağaza için, yerleşim bilgileri mağazayla ilişkilendirilmiş olan faaliyet biriminin birincil adresinde tanımlanmıştır. Mağaza olmayan ambar için, yerleşim bilgileri ambar adresinde tanımlanmıştır. 10.0.17'den önceki sürümlerde liste görünümü her zaman geçerli mağazayı en üstte gösterir ve diğer yerleşimleri alfabetik olarak sıralar.
+>
 > **Mağaza kullanılabilirliğini göster**, **Mağaza konumunu göster**, **Mağazada teslim al** ve **Ürünü sevk et** eylemleri, mağaza dışı yerleşimlerde kullanılamaz.
 
 ## <a name="inventory-lookup-matrix-view-for-variants"></a>Çeşitler için stok arama matrisi görünümü
@@ -93,12 +94,12 @@ Matris görünümündeki boyut değerlerinin görüntülenme düzeni, Commerce g
 
 Aşağıdaki eylemler, matris görünümü hücresinde kullanılabilir:
 
-- **Şimdi sat** - Bu eylem, seçili ürün çeşidini alışveriş sepetine ekler ve kullanıcıyı hareket ekranına yönlendirir.
-- **Mağazadan teslim alma** - Bu eylem, seçilen mağazadan teslim alınacak ürün çeşidi için bir müşteri siparişi oluşturur ve kullanıcıyı hareket ekranına yönlendirir.
-- **Ürün sevk et** - Bu eylem, seçilen mağazadan sevk edilecek ürün çeşidi için bir müşteri siparişi oluşturur ve kullanıcıyı hareket ekranına yönlendirir.
-- **Kullanılabilirlik** - Bu eylem kullanıcıyı seçili mağazada seçili ürün çeşidi için KM miktarlarını gösteren ayrı bir sayfaya götürür.
-- **Tüm yerleşimleri göster** - Bu eylem, seçilen ürün çeşidinin stok bilgilerini gösteren standart stok kullanılabilirlik listesi görünümüne geçer.
-- **Ürün ayrıntılarını görüntüle** - Bu eylem, kullanıcıyı seçili ürün çeşidinin ürün ayrıntıları sayfasına (PDP) yönlendirir.
+- **Şimdi sat**: Bu eylem, seçili ürün çeşidini alışveriş sepetine ekler ve kullanıcıyı hareket ekranına yönlendirir.
+- **Mağazadan teslim al**: Bu eylem, seçilen mağazadan teslim alınacak ürün çeşidi için bir müşteri siparişi oluşturur ve kullanıcıyı hareket ekranına yönlendirir.
+- **Ürün sevk et**: Bu eylem, seçilen mağazadan sevk edilecek ürün çeşidi için bir müşteri siparişi oluşturur ve kullanıcıyı hareket ekranına yönlendirir.
+- **Kullanılabilirlik**: Bu eylem kullanıcıyı seçili mağazada seçili ürün çeşidi için KM miktarlarını gösteren ayrı bir sayfaya götürür.
+- **Tüm yerleşimleri göster**: Bu eylem, seçilen ürün çeşidinin stok bilgilerini gösteren standart stok kullanılabilirliği listesi görünümüne geçer.
+- **Ürün ayrıntılarını görüntüle**: Bu eylem, kullanıcıyı seçili ürün çeşidinin ürün ayrıntıları sayfasına (PDP) yönlendirir.
 
 ## <a name="access-inventory-lookup-from-other-pages-in-pos"></a>POS'taki diğer sayfalardan stok aramasına erişim
 
@@ -124,7 +125,5 @@ Commerce 10.0.9 ve önceki sürümlerde, stok arama işlemindeki **kullanılabil
 [POS kullanıcı arabirimi görsel yapılandırmaları](pos-screen-layouts.md)
 
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

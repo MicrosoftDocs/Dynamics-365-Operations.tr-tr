@@ -2,7 +2,7 @@
 title: Commerce'ta B2C kiracısı ayarlama
 description: Bu konu, Dynamics 365 Commerce'ta kullanıcı sitesi kimlik doğrulaması için Azure Active Directory (Azure AD) işletme-müşteri arası (B2C) kiracılarınızın nasıl kurulacağını açıklamaktadır.
 author: BrianShook
-ms.date: 03/17/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772264"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344510"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -34,6 +34,9 @@ Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışl
  
  > [!NOTE]
  > Commerce değerlendirme ortamları Gösterim amacıyla önceden yüklenmiş bir Azure AD B2C kiracısı ile gelir. Aşağıdaki adımları kullanarak kendi Azure AD B2C kiracınızı yüklemek, değerlendirme ortamları için gerekli değildir.
+
+> [!TIP]
+> Azure AD Kimlik Koruması ve Koşullu Erişim ile site kullanıcılarınızı daha fazla koruyabilir ve Azure AD B2C kiracılarınızın güvenliğini artırabilirsiniz. Azure AD B2C Premium P1 ve Premium P2 kiracılarına sunulan özellikleri incelemek için bkz. [Azure AD B2C için Kimlik Koruması ve Koşullu Erişim](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Azure portalında mevcut bir AAD B2C kiracısı oluşturma veya bu kiracıya bağlantı sağlama
 

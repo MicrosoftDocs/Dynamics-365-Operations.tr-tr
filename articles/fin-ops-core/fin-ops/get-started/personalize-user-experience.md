@@ -2,7 +2,7 @@
 title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719313"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344386"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -169,7 +169,7 @@ Pano, çoğunlukla uygulamayı açtığınızda gördüğünüz ilk sayfadır. B
 Panoda bulunan benzersiz bir kişiselleştirme özelliği kutucuk ekleyebilme özelliğidir. 
 
 - **Tam sayfa uygulamaları** özelliği kapalıysa, panoda bir öğeye sağ tıklayıp sonra da **Çalışma alanı ekle**'yi seçerek yeni bir kutucuk eklersiniz. Panonun alt kısmında yeni bir çalışma alanı kutucuğu oluşturulur. Bu yeni çalışma alanı kutucuğunu istediğiniz gibi yeniden adlandırabilirsiniz. Bu konunun [Çalışma alanına liste, kutucuk ve bağlantı ekleme](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) bölümünde açıklandığı gibi, çalışma alanına listeler, kutucuklar ve bağlantılar da ekleyebilirsiniz.
-- **Tam sayfa uygulamaları** özelliği kapalıysa, panoda bir öğeye sağ tıklayıp sonra da **Uygulama ekle**'yi seçerek yeni bir kutucuk eklersiniz. İletişim kutusunda, yeni bir çalışma alanına bir kutucuk veya Power Apps ya da bir web sitesinden içerik içeren bir kutucuk eklemeyi seçin. Sonra belirlediğiniz seçeneği yapılandırmak için ilgili adımları izleyin. Panonun alt kısmında yeni bir kutucuk oluşturulur. 
+- **Tam sayfa uygulamaları** özelliği kapalıysa, panoda bir öğeye sağ tıklayıp sonra da **Uygulama ekle**'yi seçerek yeni bir kutucuk eklersiniz. İletişim kutusunda, yeni bir çalışma alanına bir kutucuk veya Power Apps ya da bir web sitesinden içerik içeren bir kutucuk eklemeyi seçin. Sonra belirlediğiniz seçeneği yapılandırmak için ilgili adımları izleyin. Panonun alt kısmında yeni bir kutucuk oluşturulur. Bu katıştırılmış uygulamaları ekleme, düzenleme, silme ve paylaşma hakkında daha fazla bilgi için bkz. [Power Apps'teki tuval uygulamalarını katıştırma](embed-power-apps.md) ve [Üçüncü taraf uygulamaları katıştırma](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Kişiselleştirmeler paylaşma
 

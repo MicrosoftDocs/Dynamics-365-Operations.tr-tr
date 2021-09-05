@@ -4,24 +4,17 @@ description: Bu konu, ilk eşitlemede olabilecek sorunları çözmenize yardımc
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736386"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416993"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Başlangıç eşitlemesi sırasında sorunları giderme
 
@@ -46,7 +39,7 @@ Eşleme şablonları etkinleştirildikten sonra, haritaların durumu **çalış�
 
 Eşlemeyi ve ilk senkronizasyonu çalıştırmayı denediğinizde aşağıdaki hata iletisini alabilirsiniz:
 
-*(\[Hatalı İstek\], Uzak sunucu hata verdi: (400) Hatalı İstek.), AX dışarı aktarma işlemi bir hatayla karşılaştı*
+*(\[Hatalı İstek\], Uzak sunucu bir hata döndürdü: (400) Hatalı İstek.), AX dışarı aktarma işlemi bir hatayla karşılaştı.*
 
 Burada tam hata mesajı tablosu için bir örnek verilmiştir.
 
@@ -198,7 +191,7 @@ Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında de
 
         ![CustomerAccount ve ContactPersonId alanını güncelleştirmek için veri tümleştirme projesi.](media/cust_selfref6.png)
 
-    2. Finance and Operations uygulamasında yalnızca filtre ölçütleriyle eşleşen satırların güncelleştirilmesi için şirket ölçütlerini Dataverse tarafında filtreye ekleyin. Filtre eklemek için filtre düğmesini seçin. Ardından, **Sorguyu düzenle** iletişim kutusunda **\_msdyn\_company\_value eq '\<guid\>'** gibi bir filtre sorgusu ekleyebilirsiniz. 
+    2. Finance and Operations uygulamasında yalnızca filtre ölçütleriyle eşleşen satırların güncelleştirilmesi için şirket ölçütlerini Dataverse tarafında filtreye ekleyin. Filtre eklemek için filtre düğmesini seçin. Ardından, **Sorguyu düzenle** iletişim kutusunda **\_msdyn\_company\_value eq '\<guid\>'** gibi bir filtre sorgusu ekleyebilirsiniz.
 
         > [NOT] Filtre düğmesi yoksa, veri tümleştirme ekibinin kiracınızda filtre yeteneğini etkinleştirmesini istemek için bir destek bileti oluşturun.
 
@@ -210,5 +203,36 @@ Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında de
 
 8. Finance and Operations uygulamasında, **Müşteriler V3** tablosu için değişiklik izlemeyi yeniden açın.
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>10'dan fazla arama alanına sahip eşlemelerde ilk eşitleme hataları
+
+**Müşteriler V3 - Firmalar**, **Satış siparişleri** eşlemelerinde bir ilk eşitleme çalıştırmayı denediğinizde veya 10'dan fazla arama alanı olan bir eşlemede hata aldığınızda aşağıdaki hata iletisini alırsınız:
+
+*CRMExport: Paket yürütme tamamlandı. Hata Açıklaması 5 https://xxxxx//datasets/yyyyy/tables/accounts/items?$select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq 'id')&$orderby=accountnumber asc'den veri alma girişimleri başarısız oldu.*
+
+Sorgudaki arama sınırlaması nedeniyle varlık eşlemesi 10'dan fazla arama içerdiğinde ilk eşitleme başarısız olur. Daha fazla bilgi için bkz. [Sorguyla ilgili tablo kayıtlarını alma](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query).
+
+Bu sorunu düzeltmek için şu adımları izleyin:
+
+1. Arama sayısının 10 veya daha az olması için çift yazma varlık eşlemesinden isteğe bağlı arama alanlarını kaldırın.
+2. Eşlemeyi kaydedin ve ilk eşitlemeyi yapın.
+3. İlk adım için ilk eşitleme başarılı olduğunda kalan arama alanlarını ekleyin ve ilk adımda eşitlediğiniz arama alanlarını kaldırın. Arama alanlarının sayısının 10 veya daha az olduğundan emin olun. Eşlemeyi kaydedin ve ilk eşitlemeyi çalıştırın.
+4. Tüm arama alanları eşitlenene kadar bu adımları yineleyin.
+5. Tüm arama alanlarını yeniden eşlemeye ekleyin, eşlemeyi kaydedin ve **İlk eşitlemeyi atla** ile eşlemeyi çalıştırın.
+
+Bu işlem, eşlemeyi canlı eşitleme modu için etkinleştirir.
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>Taraf posta adreslerinin ve taraf elektronik adreslerinin ilk eşitlemesi sırasında bilinen bir sorun
+
+Taraf posta adreslerinin ve taraf elektronik adreslerinin ilk eşitlemesini çalıştırmayı denediğinizde aşağıdaki hata iletisini alabilirsiniz:
+
+*Taraf numarası Dataverse uygulamasında bulunamadı.*
+
+Finance and Operations uygulamalarında **Kişi** ve **Kuruluş** türündeki tarafları filtreleyen **DirPartyCDSEntity** öğesinde ayarlanmış bir aralık vardır. Sonuç olarak, **CDS Tarafları – msdyn_parties** eşlemesinin ilk eşitlemesi, **Tüzel Kişilik** ve **Faaliyet Birimi** dahil olmak üzere diğer türdeki tarafları eşitlemez. İlk eşitleme **CDS Taraf posta adresleri (msdyn_partypostaladdresses)** veya **Taraf İlgili Kişileri V3 (msdyn_partyelectronicaddresses)** için çalıştığında bu hatayla karşılaşabilirsiniz.
+
+Her türden partinin Dataverse ile başarılı bir şekilde eşitlenebilmesi için Finance and Operations varlığındaki taraf türü aralığını kaldırmak üzere bir düzeltme üzerinde çalışıyoruz.
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Müşteriler veya İlgili Kişiler verileri için ilk eşitlemeyi çalıştırırken herhangi bir performans sorunu yaşıyor musunuz?
+
+**Müşteri** verileri için ilk eşitlemeyi çalıştırdıysanız ve **Müşteri** eşlemelerini çalıştırıp ardından da **İlgili Kişiler** verileri için ilk eşitlemeyi çalıştırırsanız **İlgili Kişi** adresleri için **LogisticsPostalAddress** ve **LogisticsElectronicAddress** tablolarına yapılan eklemeler ve güncelleştirmeler sırasında performans sorunlarıyla karşılaşabilirsiniz. Aynı genel posta adresi ve elektronik adres tabloları **CustCustomerV3Entity** ve **VendVendorV2Entity** için izlenir ve çift yazma, diğer tarafa veri yazmak için daha fazla sorgu oluşturmaya çalışır. **Müşteri** için ilk eşitlemeyi zaten çalıştırdıysanız **İlgili Kişiler** verileri için ilk eşitlemeyi çalıştırmadan önce ilgili eşlemeyi durdurun. **Satıcı** verileri için de aynısını yapın. İlk eşitleme tamamlandığında ilk eşitlemeyi atlayarak tüm eşlemeleri çalıştırabilirsiniz.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

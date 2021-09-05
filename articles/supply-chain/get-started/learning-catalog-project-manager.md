@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 76e7c0be047decb40019be207a735be27f79d78b4cde9321e8c3728bdbd45e35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b337e80db6d47354dc187477832add370a164172
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760550"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402213"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management ile çalışan uygulama proje yöneticileri için öğrenme kataloğu
 
@@ -27,8 +27,8 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="get-started"></a>Başlayın<a name="get-started"></a>
 
-| İçerik | Tanım  | Biçim  | Uzunluk    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
+| İçerik | Tanım | Biçim | Uzunluk |
+|---------|-------------|--------|--------|
 | [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Belki Microsoft Dynamics 365 ve Power Platform uygulamalarını kullanmaya nereden başlayacağınızı bilmiyorsunuz? İş uygulamalarının gücününün işinizi dönüştürmeye nasıl yardımcı olabileceğini öğrenin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 7 saat |
 | [Dynamics 365 ve Power Platform Temel Bilgileri](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5.5 saat |
 | [Finance and Operations uygulamalarını kullanmaya başlama](/learn/paths/get-started-finance-operations/) | Finance and Operations uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri, küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finance and Operations uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak, Finance and Operations'ın özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |
@@ -38,8 +38,8 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="core-platform-knowledge"></a>Temel platform bilgileri<a name="core-platform-knowledge"></a>
 
-| İçerik  | Tanım  | Biçim   | Uzunluk    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| İçerik | Tanım | Biçim | Uzunluk |
+|---------|-------------|--------|--------|
 | [Finance and Operations uygulamalarının bir uygulamasını tasarlamak ve planlamak için Lifecycle Services kullanın](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS), müşterilerin ve onların iş ortaklarının satış öncesi süreçten uygulama aşamasına ve son olarak üretim ortamına kadar, Finance and Operations uygulamalar projelerini yönetmek için kullandıkları, işbirlikçi bir çalışma alanıdır. Uygulama ve düzenli olarak güncelleştirilen hizmetler konusunda size destek olacak derleme öncesi metodolojiler de dahil olmak üzere projeyi yönetmenize yardımcı olan denetim listelerini ve araçları sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |
 | [-Finance and Operations uygulamalarında kuruluşunuzu yapılandırma](/learn/paths/configure-your-organization-finance-ops/) | Finance and Operations uygulamaları ile çalışan işlevsel bir danışman olarak, müşteriniz için nasıl bir kuruluş ayarlayacağınızı bilmeniz gerekir. Bu öğrenme yolunda size diğer görevlerin yanı sıra tüzel kişilikleri ayarlama, güvenlik ayarlarını uygulama, kullanıcılar için kullanıcı arabirimini kişiselleştirme, mobil uygulamalar tasarlayıp derleme ve ortak tümleştirmeleri uygulama işlemleri gösterilmektedir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 12 saat |
 | [Finance and Operations uygulamaları ile verileri taşıma ve uygulamaya geçirme](/learn/paths/migrate-data-go-live-finance-operations/) | İşlevsel bir danışman olarak, Finance and Operations uygulamalarını kullanmaya başlamak için müşterinizin verilerini geçiş işlemi için hazırlamayı, veri yönetimi konusunda çalışmayı ve kullanıcı kabulü testlerini gerçekleştirmeyi bilmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
@@ -69,8 +69,8 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="supply-chain-management"></a>Tedarik zinciri yönetimi<a name="supply-chain-management"></a>
 
-| İçerik  | Tanım  | Biçim | Uzunluk    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| İçerik | Tanım | Biçim | Uzunluk |
+|---------|-------------|--------|--------|
 | [Dynamics 365 Supply Chain Management'ta ürünleri ve envanteri yapılandırma ve yönetme](/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Ürün bilgileri, tedarik zincirinin ve tüm sektörler arasındaki perakende uygulamalarının bel kemiğini oluşturur. Bir iş çözümünün çeşitli modüllerinde ürüne özgü bilgilerin ve yapılandırmanın ürünler, ürün serileri, ürün reçeteleri ve ürün kategorileri ile ilgili iş süreçlerini yönetmesi gerekir. Stok raporlarında pek çok farklı şekilde ne kadar stoğa sahip olduğunuz gösterilir ve stok yatırımlarınızda nasıl daha etkili olabileceğiniz açıklanır. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 6 saat |
 | [Dynamics 365 Supply Chain Management'ta satın almayı ve satıcıları yapılandırma ve yönetme](/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Satıcı bulma ve satıcılarla çalışma, ürün satın alma ile ürün ve hizmetlerin kaliteli olmasını sağlama süreçlerinin tümü, bir şirketin itibarını ve başarısını etkileyen önemli etkenlerdir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 6 saat |
 | [Dynamics 365 for Finance and Operations'ta ambar yönetimini yapılandırma ve çalışma](/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Ambar süreçlerini bireysel ihtiyaçlarınıza göre optimize edip kolaylaştırmaya yardımcı olan Dynamics 365 for Finance and Operations'taki ambar yönetimi özelliği, stoğunuz için içgörü sağlarken müşteri memnuniyetini artırmaya ve maliyetleri azaltmaya yardımcı olacak araçları sunar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5 saat |
@@ -86,8 +86,8 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="manufacturing"></a>İmalat<a name="manufacturing"></a>
 
-| İçerik  | Tanım  | Biçim    | Uzunluk    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| İçerik | Tanım | Biçim | Uzunluk |
+|---------|-------------|--------|--------|
 | [Dynamics 365 Supply Chain Management'ta ayrı imalatı yapılandırma ve kullanma](/learn/paths/configure-use-discrete-manufacturing-dyn365-supply-chain-mgmt/) | Bir şirket yalnızca basit ürünleri üretiyorsa üretim, üretim katına ulaşan doğru ürün reçetesi (BOM) bölümleriyle doğru zamanda ve uygun kaynakta el ile zamanlanabilir. İmalat işlev danışmanı olarak, müşterinizin üretim yaşam döngüsünü gerçekleştirip denetleyebilmesi için Dynamics 365 for Finance and Operations'ı ayrı imalat için yapılandırmayı bilmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 9 saat |
 | [Dynamics 365 Supply Chain Management'ta yalın imalatı yapılandırma ve kullanma](/learn/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) | Yalın imalat, bir sürekli gelişim yolculuğudur. Buradaki amaç, tam olarak müşterinin istediği şeyi, müşterinin istediği zamanda ve ekonomik olarak üretmektir. Yalın imalatı çeşitli tedarik, üretim ve kaynak bulma stratejilerini bir araya getiren bir birleşik (karma mod) imalat ortamında kullanabilirsiniz. Bu stratejilere üretim emirleri, işlem endüstrileri için toplu siparişler, satınalma siparişleri ve transfer emirleri dahildir. Dynamics 365 for Finance and Operations'taki yalın imalat mimarisi; üretim akışları, etkinlikler ve Kanban kurallarından oluşur. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 6.5 saat |
 | [Dynamics 365 Supply Chain Management'ta süreç imalatını yapılandırma ve kullanma](/learn/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) | Süreç imalatı, ayrı birimlerin ve ürün reçetelerinin kullanıldığı ayrı imalatın aksine formüller ve imalat reçeteleri ile ilişkilidir. Süreç imalatı, üretimin toplu ve yarı sürekli süreçlerde tamamlandığı imalat ortamlarında kullanılır. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 6 saat |
@@ -98,13 +98,12 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="exams"></a>Sınavlar<a name="exams"></a>
 
-| İçerik  | Tanım  | Biçim   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------|
+| İçerik | Tanım | Biçim |
+|---------|-------------|--------|
 | [Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Supply Chain Management İşlev Danışmanı Çalışan](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Supply Chain Management İşlev Danışmanları; müşterileri için maliyet muhasebesi, stok yönetimi, ana planlama ve ambar yönetimini kolaylaştırır. | Maliyeti bölgeye göre değişkenlik gösteren sertifika |
 | [Microsoft Sertifikası: Dynamics 365 for Finance and Operations, İmalat İşlev Danışmanı Çalışan](https://www.microsoft.com/learning/d365-functional-consultant-manufacturing.aspx) | Microsoft Sertifikası: Dynamics 365 for Finance and Operations, İmalat İşlev Danışmanları; dijital ve fiziksel sistemleri tümleştirir, görünürlüğü, imalat verimliliğini ve esnekliğini artırır ve müşterileri için maliyetleri düşürür. | Maliyeti bölgeye göre değişkenlik gösteren sertifika |
 | [Sınav MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; yaygın işlev ve uygulama araçlarını kullanma; güvenliği, işlem ve seçenekleri yapılandırma; veri geçişini gerçekleştirme ve çözümü uygulayıp destekleme gibi teknik görevleri gerçekleştirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
 | [Sınav MB-320: Microsoft Dynamics 365 for Finance and Operations, İmalat](/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; imalatı ayarlama ve yapılandırma; üretim ve yalın imalat siparişleri oluşturma ve yönetme ile üretim toplu iş emirlerini oluşturma, işleme ve yönetme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
 | [Sınav MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; ürün bilgilerini yönetme; stok yönetimini uygulama; tedarik zinciri süreçlerini uygulama ve yönetme; ambar yönetimi ve taşıma yönetimini uygulama ile iş süreçlerini yönetme ve gerçekleştirme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
-title: Dayforce ile tümleştirme yapılandırma
-description: Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümleştirme, bu makalede açıklanan çeşitli yapılandırma adımlarına dayanır. Ödeme işlemini işlemeden önce tümleştirmeyi hem Human Resources'ta hem de Dayforce'ta yapılandırmanız gerekir.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Dayforce ile tümleştirmeyi yapılandırma
+description: Bu konuda, Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümleştirme için gereken yapılandırma adımları açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782743"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414596"
 ---
-# <a name="configure-integration-with-dayforce"></a>Dayforce ile tümleştirme yapılandırma
+# <a name="configure-integration-with-dayforce"></a>Dayforce ile tümleştirmeyi yapılandırma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümleştirme, bu makalede açıklanan çeşitli yapılandırma adımlarına dayanır. Ödeme işlemini işlemeden önce tümleştirmeyi hem Human Resources'ta hem de Dayforce'ta yapılandırmanız gerekir.
+Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümleştirme, bu konuda açıklanan çeşitli yapılandırma adımlarına dayanır. Ödeme işlemini işlemeden önce tümleştirmeyi hem Human Resources'ta hem de Dayforce'ta yapılandırmanız gerekir.
 
 Ödeme işlemlerini tamamlamak için Dayforce gibi bir hizmet kullandığınızda tümleştirmeyi Human Resources'ta etkinleştirmeniz gerekir. Tümleştirme için Human Resources'tan özel veriler gerekir. Bu nedenle, Dayforce ile eşlenmiş verilerin Human Resources'ta tümleştirmeyi destekleyecek şekilde yapılandırıldığını doğrulamanız gerekir. Tümleştirme, aşağıdaki geniş veri kategorilerini kullanır:
 
@@ -35,7 +35,7 @@ Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümle�
 - Ödeme döngüleri, ödeme dönemleri ve kazanç kodları gibi bordro verileri
 - Çalışan verileri
 
-Bu makalede, tümleştirmeyi etkinleştirmek için izlemeniz gereken adımlar açıklanmaktadır. Ayrıca veri türleri ve tümleştirmenin gerektirdiği yapılandırma ayrıntıları da açıklanmaktadır.
+Bu konuda, tümleştirmeyi etkinleştirmek için izlemeniz gereken adımlar ve tümleştirmenin gerektirdiği veri türleri ve yapılandırma ayrıntıları açıklanmaktadır.
 
 ## <a name="enable-the-integration"></a>Tümleştirmeyi etkinleştirme
 
@@ -50,7 +50,7 @@ Human Resources'ta tümleştirmeyi açmak için aşağıdaki adımları izleyin.
 
 Tümleştirme açıldığında veri dışa aktarma paketi ve dosyalar oluşturulur ve sıklık ayarlanır. Bu sıklığı ihtiyaç duyduğunuz şekilde değiştirebilirsiniz.
 
-Azure depolama hesapları ve Azure Depolama bağlantı dizeleri hakkında daha fazla bilgi için aşağıdaki Azure makalelerine bakın:
+Azure depolama hesapları ve Azure Depolama bağlantı dizeleri hakkında daha fazla bilgi için aşağıdaki Azure konularına bakın:
 
 - [Azure depolama hesapları hakkında](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Azure Depolama bağlantı dizelerini yapılandırma](/azure/storage/common/storage-configure-connection-string)
@@ -122,10 +122,10 @@ Dayforce, kazanç planında tanımlanan bordro etkisine göre aşağıdaki kesin
 | Yalnızca katkı          | İşveren kesintisi oluşturulur.             |
 | Kesinti ve katkı | Personel ve işveren kesintileri oluşturulur. |
 
-Kazanç programı tanımlama ve yönetme hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
+Kazanç programı tanımlama ve yönetme hakkında daha fazla bilgi için aşağıdaki konulara bakın:
 
 - [Personel kazançları programı oluşturma](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Yeni kazanç oluştur](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Yeni kazanç oluşturma](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
 - [Kazanç uygunluk kurallarını ve ilkelerini tanımlama](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
 - [Çalışanlara kazanç kaydetme ve çalışanlardan kazanç kaldırma](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
@@ -135,7 +135,7 @@ Kazanç programı tanımlama ve yönetme hakkında daha fazla bilgi için aşağ
 
 Dayforce personelin saatlik veya yıllık ücretlerini hesaplamak için ücret bilgilerini kullanır. Sabit ücret planları ve ödeme oranı dönüştürmeleri gereklidir. Personelin bir sabit ücret planıyla ilişkilendirilmeleri gerekir.
 
-Ücret planları hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
+Ücret planları hakkında daha fazla bilgi için aşağıdaki konulara bakın:
 
 - [Sabit ücret planları oluşturma](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [Değişken ücret planları oluşturma](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -147,7 +147,7 @@ Dayforce personelin saatlik veya yıllık ücretlerini hesaplamak için ücret b
 
 #### <a name="jobs"></a>İşler 
 
-Bir iş, işi gerçekleştiren kişiden beklenen görev ve sorumlulukların toplamıdır. Daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
+Bir iş, işi gerçekleştiren kişiden beklenen görev ve sorumlulukların toplamıdır. Daha fazla bilgi için aşağıdaki konulara bakın:
 
 - [İşin bileşenlerini ayarlama](/dynamics365/unified-operations/talent/create-job)
 - [Yeni işler tanımlama](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
@@ -172,7 +172,7 @@ Pozisyonları ayarlarken aşağıdaki verileri ve yapılandırmayı göz önünd
 
 Aynı departmanda birden fazla pozisyon aynı işle ilişkilendirilmişse bunlar Dayforce'ta tek bir pozisyonda konsolide edilir.
 
-Daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
+Daha fazla bilgi için aşağıdaki konulara bakın:
 
 - [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Pozisyonları ayarlama](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
@@ -181,7 +181,7 @@ Daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
 
 Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden işletme bir birimdir. Departman satış, muhasebe veya İnsan kaynakları gibi kuruluşun belirli bir alanından sorumludur. İşlevsel alanlara bildirmek için bölümleri kullanabilirsiniz. Departmanların kâr ve zarar sorumluluğu olabilir.
 
-Daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
+Daha fazla bilgi için aşağıdaki konulara bakın:
 
 - [Departman oluşturma ve departman hiyerarşisi ile ilişkilendirme](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Yeni departmanlar tanımlama](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)

@@ -2,7 +2,7 @@
 title: E-posta ER hedef türü
 description: Bu konuda, Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için e-posta hedefinin nasıl yapılandırılacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769331"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343872"
 ---
 # <a name="email-er-destination-type"></a>E-posta ER hedef türü
 
@@ -53,9 +53,22 @@ E-posta ile bir veya daha fazla çıktı dosyası göndermek için şu adımlar�
 
 ## <a name="configure-an-email-destination"></a>E-posta hedefi yapılandırma
 
-E-postayı göndereni ve e-posta alıcılarını belirtebilir ve e-postanın konusunu ve metnini düzenleyebilirsiniz. E-posta metni ve konusu için sabit metin ayarlayabilir veya ER [formüllerini](er-formula-language.md) kullanarak dinamik e-posta metinleri oluşturabilirsiniz.
+### <a name="email-content"></a>E-posta içeriği
 
-Varsayılan olarak, geçerli kullanıcı adına bir e-posta gönderilir. Farklı bir e-posta göndereni belirtmek için **Kimden** alanını yapılandırmanız gerekir.
+E-posta iletisinin konusunu ve gövdesini düzenleyebilirsiniz.
+
+**Konu** alanına çalışma zamanında oluşturulan elektronik iletinin konu alanında görünmesi gereken e-posta konusunun metnini girin. **Gövde** alanına, elektronik iletinin gövde alanında görünmesi gereken e-posta gövdesinin metnini girin. E-posta konusu ve gövdesi için sabit metin ayarlayabilir veya ER [formüllerini](er-formula-language.md) kullanarak çalışma zamanında dinamik e-posta metni oluşturabilirsiniz. Yapılandırılan formül, [Dize](er-formula-supported-data-types-primitive.md#string) türünde bir değer döndürmelidir.
+
+E-postanızın gövdesi, e-posta istemcisine bağlı olarak METİN veya HTML biçiminde oluşturulur. HTML ve satır içi Basamaklı Stil Sayfaları'nın (CSS) izin verdiği herhangi bir düzeni, stili ve markalamayı kullanabilirsiniz.
+
+> [!NOTE]
+> E-posta istemcileri, ileti gövdesi için kullandığınız HTML ve CSS dilinde ayarlamalar gerektirebilecek düzen ve stil sınırlamaları uygular. En çok beğenilen e-posta istemcilerinin desteklediği HTML oluşturma konusunun en iyi uygulamalarını öğrenmenizi öneririz.
+>
+> Gövde biçimlendirmesine bağlı olarak satır başı uygulamak için doğru kodlamayı kullanın. Daha fazla bilgi için [Dize](er-formula-supported-data-types-primitive.md#string) veri türünün tanımına bakın.
+
+### <a name="email-addresses"></a>E-posta adresleri
+
+E-postayı gönderenini ve e-posta alıcılarını belirtebilirsiniz. Varsayılan olarak, geçerli kullanıcı adına e-posta gönderilir. Farklı bir e-posta göndereni belirtmek için **Kimden** alanını yapılandırmanız gerekir.
 
 > [!NOTE]
 > E-posta hedefi yapılandırıldığında **Kimden** alanı yalnızca `ERFormatDestinationSenderEmailConfigure` güvenlik ayrıcalığına sahip kullanıcılar tarafından görülebilir, **ER biçim hedefleri için gönderen e-posta adresini yapılandırın**.

@@ -1,8 +1,8 @@
 ---
 title: Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma
 description: Bu konu, görev kılavuzlarını Microsoft Dynamics Lifecycle Services'ye (LCS) kaydetmeyi ve sonra bunları yeniden yürütmeyi açıklar.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8cf6338e17c9d4f0f50e5c36291ce4f81800f76951e873f2e0cf435cc3cc97e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42fad014590abebf159b71227a44eb8df60bf05e
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713090"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416893"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma
 

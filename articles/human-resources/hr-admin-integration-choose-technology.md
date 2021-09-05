@@ -1,8 +1,8 @@
 ---
 title: Veri tümleştirme teknolojisi seçme
-description: Bu makale, Human Resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlar. Gereksinimlerinize en uygun teknolojilere karar vermenize yardımcı olacak farklı tümleştirme teknolojilerini açıklar.
-author: andreabichsel
-ms.date: 02/28/2020
+description: Bu konuda, Human Resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720480"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414726"
 ---
 # <a name="choose-a-data-integration-technology"></a>Veri tümleştirme teknolojisi seçme
 
@@ -28,14 +28,13 @@ ms.locfileid: "6720480"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Bu makale, Dynamics 365 Human Resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlar. Gereksinimlerinize en uygun teknolojilere karar vermenize yardımcı olacak farklı tümleştirme teknolojilerini açıklar.
+Bu konuda, Dynamics 365 Human Resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlanmaktadır. Gereksinimlerinize en uygun teknolojilere karar vermenize yardımcı olacak farklı tümleştirme teknolojilerini açıklar.
 
 ## <a name="data-integration-background"></a>Veri tümleştirme arka planı
 
 İş verileri şirketinizin benzersiz olmasını sağlayan temel varlıktır. İşletmenizin verileri çok değerlidir. İşletmenizde toplanan veriler arasındaki ilişkileri, kuruluşunuzda iş süreçlerini ve iş zekasını geliştirmek amacıyla kullanabilirsiniz. İş verilerinizi hangi sistemden gelirse gelsin kolay, güvenli ve kararlı bir şekilde sağlamak için çalışıyoruz.
 
-Birden çok sistem arasında veri tümleştirme eskiden beri zor olmuştur.
-Microsoft, veri tümleştirmeyi daha kolay hale getirmek için gereken adımları ve bu hedefin [Dataverse](/powerapps/maker/common-data-service/data-platform-intro) ile gerçekleştirmesine yönelik büyük bir adım atıyor.
+Birden çok sistem arasında veri tümleştirme eskiden beri zor olmuştur. Microsoft, veri tümleştirmeyi daha kolay hale getirmek için gereken adımları ve bu hedefin [Dataverse](/powerapps/maker/common-data-service/data-platform-intro) ile gerçekleştirmesine yönelik büyük bir adım atıyor.
 
 Human Resources Dataverse'ı, İnsan Kaynakları verileri için tercih edilen ortak arabirim yapıyor. Zamanla İnsan Kaynakları tarafından yönetilen en önemli verilerin tümünün Dataverse'te sunulacağını düşünüyoruz. Çoğu tümleştirme uygulaması için teknoloji seçeneği olarak Dataverse'i öneriyoruz.
 

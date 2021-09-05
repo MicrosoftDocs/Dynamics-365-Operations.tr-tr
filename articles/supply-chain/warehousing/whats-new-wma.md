@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720096"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386111"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720096"
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>Sürüm 2.0.9.0
+
+Bu sürüm, kullanıcılar bir listenin en üstünden yukarıya çıkarsa uygulamanın yanıt vermeyi durdurmasıyla ilgili bir sorunu giderir.
+
+## <a name="version-2080"></a>Sürüm 2.0.8.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- Supply Chain Management 10.0.21 sürümünde sunulan [adım yönergeleri özelliği](mobile-app-titles-instructions.md) için destek eklendi.
+- Kullanıcılara, katmanları aşağı kaydırarak kapatabileceklerini göstermek için ipucu animasyonu eklendi.
+- Eylem listeleri ve menülerdeki işlev tuşları için destek eklendi. Kullanıcılar, kullanılabilir komutların listesini almak için herhangi bir işlev tuşunu üç saniye basılı tutabilir.
+- Bazı cihazlarda şu hata iletisinin gösterilmesine neden olan bir sorun düzeltildi: "Belirtilen boyut için uygun bir görünüm bulunamıyor."
+- Ekrandaki klavye kullanıldığında tam ekran modunun her zaman çalışmamasıyla ilgili bir sorun düzeltildi.
+- Windows cihazlarda sayfa kaydırmanın çalışmamasıyla ilgili bir sorun düzeltildi.
+- Sistemin yanıt vermemesine neden olan çeşitli sorunlar giderildi.
+
+## <a name="version-2070"></a>Sürüm 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Sürüm 2.0.7.0'daki yeni özellikler, düzeltmeler ve iyileştirmeler
 

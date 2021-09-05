@@ -1,8 +1,8 @@
 ---
 title: Değer modelleri ayarlama
 description: Bu yordam, yeni bir sabit kıymet defterini nasıl oluşturacağınızı ve bir sabit kıymet grubuyla nasıl ilişkilendireceğinizi gösterir.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741548"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344670"
 ---
 # <a name="set-up-value-models"></a>Değer modelleri ayarlama
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 Bu yordam, yeni bir sabit kıymet defterini nasıl oluşturacağınızı ve bir sabit kıymet grubuyla nasıl ilişkilendireceğinizi gösterir. Muhasebeci rolünü ve USMF adlı tüzel kişilik için tanıtım verilerini kullanır.
-
 
 ## <a name="create-a-book"></a>Defter oluşturma
 1. Sabit kıymetler > Kurulum > Defterler'e gidin.
@@ -48,9 +49,10 @@ Bu yordam, yeni bir sabit kıymet defterini nasıl oluşturacağınızı ve bir 
 1. Sabit kıymet grupları'na tıklayın.
 2. Sabit kıymet grubu alanında bir değer girin veya seçin.
 3. Servis ömrü alanına bir sayı girin.
-    * Amortisman dönemlerinin, Servis ömrü ayarlandıktan sonra hesaplandığına dikkat edin.  
-    * Amortisman yöntemini, vergi amaçları için gerektiği şekilde ayarlama olanağınız vardır.  
 
+  - Amortisman dönemleri, sabit kıymetin servis ömrü girildikten sonra hesaplanır.  
+  - Amortisman yöntemi, vergi amacıyla gerektiği şekilde ayarlanabilir.
+  - Kiralamalarla ilişkili sabit kıymetler için **Servis ömrü** alanındaki değer, sabit kıymet defterindeki kiralama süresi veya sabit kıymetin faydalı ömrü arasında daha kısa olanı geçersiz kılar. Kiralama defteri için **Sahiplik aktarımı** alanı **Evet** olarak ayarlanmışsa **Servis ömrü** alanındaki değer her zaman varlığın faydalı ömrü olur.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

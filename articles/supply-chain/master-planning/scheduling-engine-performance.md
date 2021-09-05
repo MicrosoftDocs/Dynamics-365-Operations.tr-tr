@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738281"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343489"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planlama altyapısı performansını iyileştirme
 
@@ -70,7 +70,7 @@ Planlama altyapısının, farklı veri kaynaklarını işleyebilen bir genel alt
 
 Bunu altyapıya gönderirken, aşağıdaki şekilde gösterildiği gibi sekiz işe bölünür (büyütmek istediğiniz görüntüyü seçin).
 
-[! [Altyapı işleri planlama](media/scheduling-engine-jobs.png "Altyapı işleri planlama."](media/scheduling-engine-jobs-large.png)
+[![Altyapı işlerini planlama](media/scheduling-engine-jobs.png "Planlama altyapısı işleri.")](media/scheduling-engine-jobs-large.png)
 
 İki iş arasındaki standart bağlantı `FinishStart` olur; bir işin bitiş saatinin başka bir işin başlangıç saatinden önce olması gerektiğini belirtir. Kurulumun daha sonra işlemi gerçekleştirecek aynı kaynak tarafından gerçekleştirilmesi gerektiğinden, aralarında `OnSameResource` sınırlamaları bulunur. 10 için birincil ve ikincil operasyon arasındaki işler `StartStart` ve `FinishFinish` bağlantıları bulunur; bu, işlerin aynı anda başlaması ve bitmesi gerektiği anlamına gelir ve birincil ve ikincil için aynı kaynağı engelleyecek `NotOnSameResource` sınırlamaları vardır.
 

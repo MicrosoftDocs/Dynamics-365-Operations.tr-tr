@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 81aac53cca91a75cde811c314bd6f7039852d32505fe6540921e17f3d1bbc7ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98d6ceb794716f39c6ae47b300bdb7618a8e688b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739322"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345240"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>TDS vergi kodlarını, TDS vergi gruplarına ekle ve TDS hesaplama formülünü belirle
 
@@ -55,7 +55,7 @@ TDS vergi grubunu ayarlamak, TDS vergi kodlarını gruba iliştirmek ve TDS'yi h
     > [!NOTE]
     > Öncelik kimliği **1** olan TDS vergi kodlarının **Vergilendirilebilir esas** alanı, **Brüt tutar hariç** olarak ayarlanamaz.
 
-12. TDS hesaplaması, TDS vergi grubuna iliştirilmiş her vergi kodu için **Hesaplama ifadesi** alanında belirlenen formüle dayanır. **Hesaplama ifadesi** alanında seçili TDS vergi koduna ait hesaplama ifadesini girmek için artı işareti (**+**), eksi işareti (**-**), çarpma işareti (**\**_) veya bölme işareti (_*/**) düğmesini seçin.
+12. TDS hesaplaması, TDS vergi grubuna iliştirilmiş her vergi kodu için **Hesaplama ifadesi** alanında belirlenen formüle dayanır. **Hesaplama ifadesi** alanında seçili TDS vergi koduna ait hesaplama ifadesini girmek için artı işareti (+), eksi işareti (-), çarpma işareti (\*) veya bölme işareti (/) düğmesini seçin.
 
     > [!NOTE]
     > Öncelik kodu **1** olan TDS vergi kodu için herhangi bir hesaplama ifadesi tanımlanamaz.

@@ -2,34 +2,25 @@
 title: Başlangıç kurulumu sırasında sorunları giderme
 description: Bu konuda, çift yazma tümleştirmesinin ilk kurulumu sırasında oluşabilecek sorunları gidermenize yardımcı olabilecek bilgiler sağlanmaktadır.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 7c51a92ab101937a0ccf630fa0355485e42e9a0deca36c23327d96976f5228b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2b75155aac12d79b9d68cce3e066acaaf80d6764
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758204"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380200"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Başlangıç kurulumu sırasında sorunları giderme
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma tümleştirme hakkında sorun giderme bilgileri sağlar. Bu konu, çift-yazma tümleştirmesinin ilk kurulumu sırasında oluşabilecek sorunları gidermenize yardımcı olabilecek bilgileri sağlar.
 
@@ -46,46 +37,55 @@ Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma
 
 Finance and Operations Ve Dataverse ortamları bağlamak için Azure AD kiracı yöneticisi kimlik bilgileriniz olmalıdır. Ortamları bağladıktan sonra, kullanıcılar kendi hesap kimlik bilgilerini kullanarak oturum açabilir ve mevcut bir tablo eşlemesini güncelleştirebilir.
 
-## <a name="error-when-you-open-the-link-to-dataverse-page"></a>Dataverse sayfa bağlantısını açtığınızda hata oluştu
-
-**Sorunun düzeltilmesi için gerekli olan kimlik bilgileri:** Azure AD Kiracı Yönetimi
-
-Finance and Operations uygulamasında **Dataverse'e bağlantı** açtığınızda aşağıdaki hata iletisini alabilirsiniz:
-
-*Yanıt durum kodu başarıyı göstermiyor: 404 (Bulunamadı)*
-
-Bu hata, onay adımı tamamlanmamışsa oluşur. Onay adımının tamamlanıp tamamlanmadığını doğrulamak için Azure AD kiracı yöneticisi hesabını kullanarak portal.Azure.com oturum açın ve Azure AD **kurumsal uygulamalar** listesinde **33976c19-1db5-4c02-810e-c243db79efde** kimliğine sahip üçüncü taraf uygulamanın görünüp görünmeyeceğini görün. İçermiyorsa, uygulama onayı sağlamalısınız.
-
-Uygulama onayı sağlamak için aşağıdaki adımları izleyin.
-
-1. Yönetici kimlik bilgilerinizi kullanarak aşağıdaki URL 'YI açın. Sizden izin vermeniz istenecektir.
-
-    <https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent>
-
-2. Kiracınıza **33976c19-1db5-4c02-810e-c243db79efde** kimliği olan uygulamayı yükleme izniniz olduğunu belirtmek için **kabul et**'i seçin.
-
-    > [!TIP]
-    > Bu uygulama Dataverse ve Finance and Operations uygulamalarını bağlamak için gerekli. Bu adımla ilgili sorununuz varsa, tarayıcınızı Google Chrome ya da Microsoft Edge'de gizli modunda açın.
-
-## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Şirket verileri ve çift-yazılır takımların bağlantı sırasında doğru şekilde ayarlandığını doğrulayın
-
-Çift-yazmanın doğru çalışmasını sağlamak için, konfigürasyon sırasında seçtiğiniz şirketler Dataverse ortamda oluşturulur. Varsayılan olarak, bu şirketler salt okunurdur **IsDualWriteEnable** özelliği **doğru** olarak ayarlanır. Ek olarak, varsayılan sorumlu departman sahibi ve ekibi oluşturulur ve şirket adını içerir. Eşlemeleri etkinleştirmeden önce varsayılan takım sahibinin belirtildiğinden emin olun. **Companies (CDM\_Company)** tablosunu bulmak için aşağıdaki adımları izleyin.
-
-1. Müşteri etkileşimi uygulamasında, sağ üst köşedeki filtreyi seçin.
-2.  açılır listede, **Şirket**'ı seçin.
-3. Sonuçları görmek için **Çalıştır** 'ı seçin.
-4. Çift-yazmayı konfigüre ettiğinizde bağlanan şirketi seçin.
-5. **Varsayılan sahibi olan takım** sütununun bir değere sahip olduğunu doğrulayın. Aşağıdaki çizimde, **Varsayılan sahibi olan takım** sütunu **USMF Çift Yazma** olarak ayarlanmıştır.
-
-    ![Varsayılan sahip olan takım doğrulama.](media/default_owning_team.png)
-
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Çift-yazma için bağlanabilen yasal tablo veya şirket sayısı sınırını bulma
 
 Haritaları etkinleştirmeyi denediğinizde aşağıdaki hata iletisini alabilirsiniz:
 
-*İkili yazma hatası - Eklenti kaydı başarısız oldu: \[(Proje DWM için bölüm eşlemesi alınamıyor - 1ae35e60-4bc2-4905-88ea-69efd3b29260-.7f12cb89-1550-42e2-858e-4761fc1443ea. Hata, DWM için izin verilen maksimum bölüm sayısını aşıyor - 1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], bir veya daha fazla hata oluştu.*
+*İkili yazma hatası - Eklenti kaydı başarısız oldu: [(DWM -1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea projesi için bölüm eşlemesi alınamıyor. Hata, DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea için izin verilen maksimum bölüm sayısını aşıyor)]. Bir veya daha fazla hata oluştu.*
 
 Ortam bağlamayla ilgili geçerli sınır yaklaşık 40 yasal tablodur. Bu hata, eşlemeleri etkinleştirmeye çalışırsanız ve ortamlar arasında 40'tan fazla yasal tablo bağlanmışsa oluşur.
 
+## <a name="connection-set-failed-while-linking-environment"></a>Ortama bağlanırken bağlantı kümesi başarısız oldu
+
+Çift yazma ortamını bağlarken eylem şu hata iletisiyle başarısız oluyor:
+
+*Bağlantı seti kaydedilemedi! Aynı anahtara sahip bir öğe zaten eklenmiş.*
+
+Çift yazma, aynı ada sahip birden fazla tüzel kişiliği/şirketi desteklemez. Örneğin, Dataverse uygulamasında "DAT" adında iki şirketiniz varsa bu hata iletisini alırsınız.
+
+Müşterinin engelini kaldırmak için Dataverse uygulamasındaki **cdm_company** tablosundan yinelenen kayıtları kaldırın. Ayrıca **cdm_company** tablosunda adı boş bırakılmış kayıtlar varsa bu kayıtları kaldırın veya düzeltin.
+
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Finance and Operations uygulamalarında Çift yazma sayfası açılırken hata oluştu
+
+Çift yazma için bir Dataverse ortamını bağlamaya çalıştığınızda aşağıdaki hata iletisini alabilirsiniz:
+
+*Yanıt durum kodu başarıyı göstermiyor: 404 (Bulunamadı)*
+
+Bu hata, uygulama onay adımı tamamlanmamışsa oluşur. Kiracı yönetici hesabı kullanıp `portal.azure.com` uygulamasında oturum açarak onay verilip verilmediğini doğrulayabilir ve `33976c19-1db5-4c02-810e-c243db79efde` kimliğine sahip 3. taraf uygulamasının AAD'nin Kurumsal uygulamalar listesinde görünüp görünmediğini kontrol edebilirsiniz. Onay verilmemişse veya listede görünmüyorsa onay adımını bir sonraki bölümde açıklandığı şekilde yeniden çalıştırın.
+
+### <a name="providing-app-consent"></a>Uygulama izni sağlama
+
++ Yönetici kimlik bilgilerinizle aşağıdaki URL'yi başlatın.
+
+    `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
+
++ Onaylamak için **Kabul Et**'i seçin. Uygulamayı (`id=33976c19-1db5-4c02-810e-c243db79efde` ile) kiracınıza yüklemek için onay veriyorsunuz.
++ Bu uygulama, Dataverse uygulamasının Finance and Operations uygulamalarıyla iletişim kurması için gereklidir.
+
+    ![İlk eşitleme kurulumu sorunlarını giderme.](media/Initial-sync-setup-troubleshooting-1.png)
+
+> [!NOTE]
+> Bu işe yaramazsa URL'yi Microsoft Edge uygulamasının özel modunda veya Chrome'un gizli modunda başlatın.
+
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>Finance and Operations ortamı bulunamıyor
+
+Aşağıdaki hata iletisini alabilirsiniz:
+
+*Finance and Operations uygulamaları ortamı \*\*\*.cloudax.dynamics.com bulunamıyor.*
+
+Ortamın bulunamaması sorununa neden olabilecek iki sebep vardır:
+
++ Oturum açmak için kullanılan kullanıcı, Finance and Operations kurulumuyla aynı kiracıda değil.
++ Microsoft tarafından barındırılan bazı eski Finance and Operations kurulumlarının bulunmalarıyla ilgili sorunlar vardır. Bu sorunu gidermek için Finance and Operations kurulumunu güncelleştirin. Ortam, herhangi bir güncelleştirmeyle bulunabilir hale gelir.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

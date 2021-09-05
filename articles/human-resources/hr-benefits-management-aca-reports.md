@@ -1,8 +1,8 @@
 ---
 title: Sosyal Hak yönetiminde Ekonomik Bakım Yasası raporları oluşturma
-description: Bu konu, Sosyal Haklar yönetiminin Ekonomik Bakım Yasası (ACA) işveren görevi için Form 1095-B ve Form 1095-C'de bildirilen bilgileri izlemenize nasıl yardımcı olduğunu açıklar.
-author: andreabichsel
-ms.date: 12/28/2020
+description: Bu konuda, Kazanç yönetiminin Ekonomik Bakım Yasası (ACA) işveren yönergesi için Form 1095-B ve Form 1095-C'de bildirilen bilgileri nasıl izlediği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d681514f53dbaf4aafce33722d0c1837c3d270407c19d629c3383ff1a2472d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99ac67795cd3f587e54a84361dd4744b79b4dbbd
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727077"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416266"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Sosyal Haklar yönetiminde ACA raporları oluşturma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Sosyal Haklar yönetimi Ekonomik Bakım Yasası (ACA) işveren görevi için Form 1095-B ve Form 1095-C'de bildirilen bilgileri izlemenize yardımcı olur. Eski **Sosyal Haklar** çalışma alanında ACA raporlama özelliği gibi, bu işlevsellik yalnızca ABD'deki tüzel kişilikler için geçerlidir.
+Kazanç yönetimi, Ekonomik Bakım Yasası (ACA) işveren yönergesi için Form 1095-B ve Form 1095-C'de bildirilen bilgileri izler. Eski **Sosyal Haklar** çalışma alanında ACA raporlama özelliği gibi, bu işlevsellik yalnızca ABD'deki tüzel kişilikler için geçerlidir.
 
 Bu işlevi kullanmak için, önce **Gelişmiş Sosyal Haklar Yönetimi**'ni açmalısınız. Sosyal Haklar yönetimi hakkında önemli uyarılar da dahil olmak üzere daha fazla bilgi için, bkz. [Sosyal Haklar yönetimini etkinleştirme veya devre dışı bırakma](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -145,7 +145,7 @@ ACA 1095-B ve 1095-C formları oluşturabilir ve bunları çalışanlarınızın
 2. Gerekirse parametreleri değiştirin ve sonra **Tamam**'ı seçin.
 
     > [!NOTE]
-    > 500'den fazla çalışan için 1095-C formları yazdırıyorsanız birden fazla PDF dosyası alırsınız. **Belge yönetimi parametreleri** sayfasındaki **Megabayt cinsinden maksimum dosya boyutu** alanının değerini **150**'ye çıkarmanızı öneririz. (Bu sayfayı hızlı bir şekilde açmak için gezinti çubuğundaki arama alanını kullanabilirsiniz.)
+    > 500'den fazla çalışan için 1095-C formları yazdırıyorsanız birden fazla PDF dosyası alırsınız. **Belge yönetimi parametreleri** sayfasındaki **Megabayt cinsinden maksimum dosya boyutu** alanının değerini **150**'ye çıkarmanızı öneririz. (Bu sayfayı hızlı bir şekilde açmak için gezinti çubuğundaki arama alanını kullanın.)
     >
     > ![Maksimum dosya boyutunu değiştirme.](./media/hr-benefits-management-aca-maximum-file-size.png)
 

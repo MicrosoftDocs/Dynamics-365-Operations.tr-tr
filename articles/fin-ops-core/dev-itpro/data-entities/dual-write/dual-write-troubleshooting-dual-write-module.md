@@ -2,26 +2,19 @@
 title: Finance and Operations uygulamalarında çift yazma sorunlarını giderme
 description: Bu konu, Finance and Operations uygulamalardaki çift-yazma modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6689fae215937f58c93cce72df3fa0a1b5aecd3a5ac9913981b253344a1ba13f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90ff55540c153ef4f3ac07bf5316a3abb4755f2c
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720748"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380152"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Finance and Operations uygulamalarında çift yazma sorunlarını giderme
 
@@ -44,8 +37,7 @@ Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma
 
 Çift yazma için yeni bir tablo yapılandırmaya çalıştığınızda aşağıdaki hata iletisini alabilirsiniz. Eşleme oluşturabilecek tek kullanıcı, çift yazma bağlantısını kuran kullanıcıdır.
 
-*Yanıt durum kodu başarıyı göstermiyor: 401 (yetkisiz)*
-
+*Yanıt durum kodu başarıyı göstermiyor: 401 (Yetkisiz).*
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>İkili yazma Kullanıcı arabirimini açtığınızda hata oluştu
 
@@ -61,7 +53,11 @@ Sorunu gidermek için, Microsoft Edge'de bir InPrivate pencere, Chromium'da bir 
 
 Haritaları bağlarken veya oluştururken aşağıdaki hata ile karşılaşabilirsiniz:
 
-*Yanıt durum kodu başarı göstermiyor: 403 (tokenexchange).<br>Oturum kodu: \<your session id\><br> Kök etkinlik kimliği: \<your root activity id\>*
+```dos
+Response status code does not indicate success: 403 (tokenexchange).
+Session ID: \<your session id\>
+Root activity ID: \<your root activity\> id
+```
 
 Bu hata, Çift-yazılabilir veya haritalar oluşturmak için yeterli izniniz yoksa oluşabilir. Bu hata, Dataverse ortamı çift yazma bağlantısını kaldırmadan sıfırlanırsa da oluşabilir. Hem Finance and Operations uygulamaları hem de Dataverse'ta sistem yöneticisi rolüne sahip herhangi bir kullanıcı ortamları bağlayabilir. Yalnızca çift yazma bağlantısını kuran kullanıcı yeni tablo eşlemeleri ekleyebilir. Kurulumdan sonra, sistem yöneticisi rolüne sahip tüm kullanıcılar durumu izleyebilir ve eşlemeleri düzenleyebilir.
 
@@ -75,16 +71,29 @@ Bu hata, bağlı Dataverse ortam kullanılabilir olmadığında oluşur.
 
 Bu sorunu gidermek için, veri tümleştirme ekibi için bir bilet oluşturun. Veri tümleştirme ekibinin eşlemeleri arka uçta **çalışmıyor** olarak işaretlemesi için ağ izlemesini iliştirin.
 
-## <a name="error-while-trying-to-start-a-table-mapping"></a>Bir tablo eşlemesi başlatılmaya çalışılırken hata oluştu
+## <a name="errors-while-trying-to-start-a-table-mapping"></a>Tablo eşlemesi başlatılmaya çalışılırken hatalar oluştu
 
-Bir eşlemenin o durumunu **Çalıştırma** olarak ayarlamaya çalıştığınızda aşağıdakine benzer bir hata alabilirsiniz:
+### <a name="unable-to-complete-initial-data-sync"></a>İlk veri eşitlemesi tamamlanamıyor
+
+İlk veri eşitlemesini çalıştırmayı denediğinizde aşağıdakine benzer bir hatayla karşılaşabilirsiniz:
 
 *İlk veri eşitlemesi tamamlanamıyor. Hata: Çift yazma hatası - eklenti kaydı başarısız oldu: Çift yazma arama meta verileri oluşturulamadı. Hata nesne başvurusu bir nesnenin örneğine ayarlanmadı.*
 
-Bu hata için düzeltme hatanın nedenine bağlıdır:
+Eşlemenin bu durumunu **Çalışıyor** olarak ayarlamak istediğinizde bu hatayı alabilirsiniz. Düzeltme, hatanın nedenine bağlıdır:
 
 + Eşlemeye bağımlı eşlemeler varsa bu tablo eşlemesinin bağımlı eşlemelerini etkinleştirdiğinizden emin olun.
 + Eşlemede kaynak veya hedef sütunlar eksik olabilir. Finance and Operations uygulamalarında bir sütun eksikse, [Eşlemelerde eksik tablo sütunları sorunu](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) bölümündeki adımları izleyin. Dataverse'teki bir sütun eksikse sütunların otomatik olarak eşlemede geri doldurulması için eşlemede **Tabloları yenile** düğmesine tıklayın.
 
+### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Sürüm uyuşmazlığı hatası ve çift yazma çözümlerini yükseltme
+
+Tablo eşlemelerini çalıştırmayı denediğinizde aşağıdaki hata iletilerini alabilirsiniz:
+
++ *Müşteri grupları (msdyn_customergroups): Çift yazma hatası - "Dynamics365Company" Dynamics 365 for Sales çözümünde sürüm uyuşmazlığı var. Sürüm: "2.0.2.10" Gerekli sürüm: "2.0.133"*
++ *"Dynamics365FinanceExtended" Dynamics 365 for Sales çözümünde sürüm uyuşmazlığı var. Sürüm: "1.0.0.0" Gerekli sürüm: "2.0.227"*
++ *"Dynamics365FinanceAndOperationsCommon" Dynamics 365 for Sales çözümünde sürüm uyuşmazlığı var. Sürüm: "1.0.0.0" Gerekli sürüm: "2.0.133"*
++ *"CurrencyExchangeRates" Dynamics 365 for Sales çözümünde sürüm uyuşmazlığı var. Sürüm: "1.0.0.0" Gerekli sürüm: "2.0.133"*
++ *"Dynamics365SupplyChainExtended" Dynamics 365 for Sales çözümünde sürüm uyuşmazlığı var. Sürüm: "1.0.0.0" Gerekli sürüm: "2.0.227"*
+
+Sorunları gidermek için Dataverse uygulamasındaki çift yazma çözümlerini güncelleştirin. Gerekli çözüm sürümüyle eşleşen en son çözüme yükseltmeyi yaptığınızdan emin olun.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

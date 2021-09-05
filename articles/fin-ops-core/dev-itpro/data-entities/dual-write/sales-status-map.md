@@ -4,24 +4,17 @@ description: Bu konu, çift yazma için satış siparişi durumu sütunlarının
 author: dasani-madipalli
 ms.date: 06/25/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: damadipa
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 6eafd9b14d02dec3455b73aeee1264629331a57b8ce760b7db6f6ddbaa7406b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb3e3e87f7615a289f019a5d47dbc596f0266aa5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741666"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416588"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Satış siparişi durumu sütunları için eşlemeyi ayarlama
 

@@ -1,8 +1,8 @@
 ---
 title: Kazanca uygunluk ilkeleri
-description: Bu makalede, kazanç uygunluk ilkeleri hakkında, belirli kazançlara uygun olan kişileri tanımlamanıza yardımcı olacak bilgiler verilmektedir.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Bu konuda, belirli kazançlar için kimlerin uygun olduğunu tanımlayan kazanç uygunluk ilkeleri hakkında bilgi verilmektedir.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 16441
 ms.assetid: 4ad0106f-5b07-4fd5-bc1a-5834fa9b198e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8f0f51bc701af3f5dec2d393a87f589729af147bf44a56c4995991631f0d6379
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88b801be5be4f9abcec4632fe1d96dbd83aaec96
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727173"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416941"
 ---
 # <a name="benefit-eligibility-policies"></a>Kazanca uygunluk ilkeleri
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu makalede, kazanç uygunluk ilkeleri hakkında, belirli kazançlara uygun olan kişileri tanımlamanıza yardımcı olacak bilgiler verilmektedir.
+Bu konuda, belirli kazançlar için kimlerin uygun olduğunu tanımlayan kazanç uygunluk ilkeleri hakkında bilgi verilmektedir.
 
 Kazançlar oluşturduğunuzda hangi kazançların hangi çalışanlar için geçerli olacağına karar verirsiniz. Aşağıdaki tabloda belirli çalışanlar için geçerli hale getirilebilecek kazançlara örnekler verilmiştir.
 

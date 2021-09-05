@@ -1,8 +1,8 @@
 ---
 title: Finans ile tümleştirme SSS
-description: Bu konu altında, bir İnsan Kaynakları ve Finance tümleştirmesinde hangi verilerin eşitleneceği açıklanmaktadır.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Bu konuda, bir Human Resources ve Finance tümleştirmesinde hangi verilerin eşitleneceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782156"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413423"
 ---
 # <a name="integration-with-finance-faq"></a>Finans ile tümleştirme SSS
 
@@ -158,8 +158,7 @@ Bağlantılarınızı oluştururken Dynamics 365 Finance'i ve Dataverse'i seçti
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Çalışmaları eşitlerken “CompanyInfo_FK mevcut değil" veya “Değer 12/31/2154 11:59:59 pm', 'Çalışma sonlanma tarihi' ilgili 'Çalışma' tablosunda bulunamadı.” hatasını alıyorum. Ne yapmalıyım?
 
-Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme, varsayılan şablonun parçası değildir, bu nedenle İnsan Kaynakları ve Dataverse bulunan her bir tüzel varlığın Finance'te de mevcut olması beklenir.
-İlişkili Bağlantı Kümesi için doğru tüzel varlıkları seçtiğinizden emin olun.
+Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme, varsayılan şablonun parçası değildir, bu nedenle İnsan Kaynakları ve Dataverse bulunan her bir tüzel varlığın Finance'te de mevcut olması beklenir. İlişkili Bağlantı Kümesi için doğru tüzel varlıkları seçtiğinizden emin olun.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Projemi ayarladıktan sonra Finance için alan eşleşmesi boş görünüyor. Ne yapmalıyım?
 

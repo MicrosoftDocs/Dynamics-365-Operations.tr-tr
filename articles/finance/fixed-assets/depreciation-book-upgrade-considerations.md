@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 757c8b9f2b57374e4b6d35c9be95b9e1dfe7f249c9ea903009cc26e16711bead
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713816"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344726"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Amortisman defteri yükseltmeye genel bakış
 
@@ -38,23 +38,23 @@ Veri yükseltmesini çalıştırmadan önce, amortisman defteri günlük satırl
 -   **Numara serisi kodu** – Numara serisini belirlemek için kod. Yükseltme tarafından oluşturulacağından, bu numara serisi kodu mevcut olamaz.
     -   Sabit adı: **NumberSequenceDefaultCode**
     -   Varsayılan değer: "FADBUpgr"
--   **Önek** – Fiş numaraları için önek olarak kullanılacak sabit dize değeri.
+-   **Ön Ek**: Fiş numaraları için ön ek olarak kullanılacak sabit dize değeri.
     -   Sabit adı: **NumberSequenceDefaultParameterPrefix**
     -   Varsayılan değer: "FADBUpgr"
 -   **Alfasayısal uzunluk** – Numara serisinin alfasayısal kesiminin uzunluğu.
     -   Sabit adı: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Varsayılan değer: 9
 -   **Başlangıç numarası** - Numara serisinde kullanılacak ilk numara.
-    -   Sabit adı: **NumberSequenceDefaultParameterStartNumber  **
+    -   Sabit adı: **NumberSequenceDefaultParameterStartNumber**
     -   Varsayılan değer: 1
 
 Seçenek 2: **Mevcut kullanıcı tarafından belirlenmiş numara serisi** - Bu seçenek, bu yükseltme için kullanılacak numara serisini tanımlamanıza izin verir. Bu seçeneği, gelişmiş numara serisi yapılandırmasına ihtiyaç duyarsanız kullanın. Bir numara serisini kullanmak için, ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans yükseltme sınıfını aşağıdaki bilgilerle değiştirmelisiniz:
 
 -   **Numara serisi kodu** – Numara serisinin kodu.
-    -   Sabit adı: **NumberSequenceExistingCode **
+    -   Sabit adı: **NumberSequenceExistingCode**
     -   Varsayılan değer: Varsayılan değer yoktur, bu değer numara serisi koduna güncelleştirilmelidir.
 -   **Paylaşılan numara serisi** – Numara serisinin kapsamını tanımlayan Boole değeri. Tüm şirketler arasında paylaşılan numara serileri için "true", şirkete özel kapsam için "false" değerini kullanın. "False" kullanırken, belirtilen ada sahip numara serisi, amortisman defteri hareketleri içeren her şirkette mevcut olmalıdır. Paylaşılan numara serileri, amortisman defter hareketleri içeren her bölümde mevcuttur.
-    -   Sabit adı: **NumberSequenceExistingIsShared **
+    -   Sabit adı: **NumberSequenceExistingIsShared**
     -   Varsayılan değer: true
 
 Parametreler ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans sınıfının başında yer alır. 

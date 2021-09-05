@@ -1,6 +1,6 @@
 ---
 title: Satış siparişi faturaları oluşturma
-description: Bu görev kılavuzunda fatura birleştirme ve toplu işlem dahil bir satış siparişini faturalama açıklanmaktadır.
+description: Bu konuda, fatura birleştirme ve toplu işleme dahil bir satış siparişinin nasıl faturalandırılacağı açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771836"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394622"
 ---
 # <a name="create-sales-order-invoices"></a>Satış siparişi faturaları oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu görev kılavuzunda fatura birleştirme ve toplu işlem dahil bir satış siparişini faturalama açıklanmaktadır. Bu yordam, USMF demo şirketini kullanır.
+Bu konuda, fatura birleştirme ve toplu işleme dahil bir satış siparişinin nasıl faturalandırılacağı açıklanmaktadır. Bu yordam, USMF demo şirketini kullanır.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Satış siparişinden fatura oluşturma
 1. **Gezinti bölmesi > Modüller > Alacak hesapları > Siparişler > Sevk edilen ancak faturalanmayan satış siparişleri**'ne gidin.
 2. Listeden bir satış siparişi seçin. 
-3. **Eylem Bölmesinde**, **Fatura > Oluştur > Fatura** öğesine tıklayın. Bu satış siparişiyle ilişkilendirilmiş birden fazla sevk irsaliyesi bulunmaktadır. Sevk irsaliyesi numarası yerine <multiple> sözcüğü görüntülenecektir.  
+3. **Eylem Bölmesinde**, **Fatura > Oluştur > Fatura** öğesine tıklayın. Bu satış siparişiyle ilişkilendirilmiş birden fazla sevk irsaliyesi bulunmaktadır. Sevk irsaliyesi numarası yerine *birden fazla* sözcüğü görüntülenir.  
 4. **Parametreler** bölümünü genişletin.
     - Faturanın deftere nakledilebilmesi için Nakil öğesinin Evet olarak ayarlanması gerekir. Deftere nakli devre dışı bırakıp yalnızca faturayı yazdırmayı da seçebilirsiniz. Ancak, fatura yerine bir proforma fatura hazırlayarak da aynı sonucu elde edebilirsiniz.  
     - Bu seçenek, toplu işler için kullanılır. Toplu iş çalıştırıldığında, sorgu çalıştırılır.

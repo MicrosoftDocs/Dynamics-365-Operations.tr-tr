@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a0ea3efc08ac9305887727c57a3821c694d6b25d3355edb6a60a6348967842c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b2efa7021c302e771f36179be690fc1c8653a07
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763106"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402385"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Dynamics 365 Finance işlevsel danışmanları için öğrenme kataloğu
 
@@ -34,6 +34,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Belki Microsoft Dynamics 365 ve Power Platform uygulamalarını kullanmaya nereden başlayacağınızı bilmiyorsunuz? İş uygulamalarının gücününün işinizi dönüştürmeye nasıl yardımcı olabileceğini öğrenin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 7 saat |
 | [Dynamics 365 ve Power Platform Temel Bilgileri](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5.5 saat |
 | [Finance and Operations uygulamalarını kullanmaya başlama](/learn/paths/get-started-finance-operations/) | Finance and Operations uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri, küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finance and Operations uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak, Finance and Operations'ın özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |
+| [Dynamics 365 Intelligent Order Management kullanmaya başlama](/learn/modules/get-started-intelligent-order-management/) | Dynamics 365 Intelligent Order Management ile müşteriler siparişlerden karşılamaya kadar düzenlemeyi yönetebilir. Bu özellikler, kuruluşların farklı platformlar ve uygulamalar arasında sipariş akışlarını düzenlemesini sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme modülü | 30 dakika |
 | [Satın almadan önce](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | Finance and Operations'ı hala satın almayı düşünüyor veya satın almaya karar verdiyseniz adım adım yönergelere göz atın. | Belgeler | |
 | [Sürüm planı](/dynamics365/release-plans/) | Dynamics 365'teki en son özellik ve geliştirmeleri keşfedin. | Belgeler | |
 
@@ -41,6 +42,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 | İçerik  | Tanım | Biçim  | Uzunluk    |
 |----------|-------------|---------|-----------|
+| [Success by Design for Dynamics 365 çözümlerini kullanma](/learn/paths/use-success-design/) | FastTrack for Dynamics 365, müşterilerin ve iş ortaklarının Dynamics 365 çözümlerinin başarıyla dağıtılmasını sağlamalarına yardımcı olmak için tasarlanmıştır. Çözüm mimarları bu servisi sunmak için Success by Design kullanmalıdır. Bu öğrenme yolunda Success by Design kavramları açıklanmaktadır. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme modülü | 12 saat |
 | [Finance and Operations uygulamalarının bir uygulamasını tasarlamak ve planlamak için Lifecycle Services kullanın](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS), müşterilerin ve onların iş ortaklarının satış öncesi süreçten uygulama aşamasına ve son olarak üretim ortamına kadar, Finance and Operations uygulamalar projelerini yönetmek için kullandıkları, işbirlikçi bir çalışma alanıdır. Uygulama ve düzenli olarak güncelleştirilen hizmetler konusunda size destek olacak derleme öncesi metodolojiler de dahil olmak üzere projeyi yönetmenize yardımcı olan denetim listelerini ve araçları sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |
 | [-Finance and Operations uygulamalarında kuruluşunuzu yapılandırma](/learn/paths/configure-your-organization-finance-ops/) | Finance and Operations uygulamaları ile çalışan işlevsel bir danışman olarak, müşteriniz için nasıl bir kuruluş ayarlayacağınızı bilmeniz gerekir. Bu öğrenme yolunda size diğer görevlerin yanı sıra tüzel kişilikleri ayarlama, güvenlik ayarlarını uygulama, kullanıcılar için kullanıcı arabirimini kişiselleştirme, mobil uygulamalar tasarlayıp derleme ve ortak tümleştirmeleri uygulama işlemleri gösterilmektedir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 12 saat |
 | [Finance and Operations uygulamaları ile verileri taşıma ve uygulamaya geçirme](/learn/paths/migrate-data-go-live-finance-operations/) | İşlevsel bir danışman olarak, Finance and Operations uygulamalarını kullanmaya başlamak için müşterinizin verilerini geçiş işlemi için hazırlamayı, veri yönetimi konusunda çalışmayı ve kullanıcı kabulü testlerini gerçekleştirmeyi bilmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
@@ -102,6 +104,5 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Mali İşlev Danışmanı Çalışan](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Mali İşlev Danışmanları; küresel mali işlem ve operasyonları birleştirir, görev ve iş akışlarını otomatikleştirir ve müşteri sipariş, satış, faturalama ve raporlama işlemlerini kolaylaştırır. | Maliyeti bölgeye göre değişkenlik gösteren sertifika |
 | [Sınav MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; yaygın işlev ve uygulama araçlarını kullanma; güvenliği, işlem ve seçenekleri yapılandırma; veri geçişini gerçekleştirme ve çözümü uygulayıp destekleme gibi teknik görevleri gerçekleştirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
 | [Sınav MB-310: Microsoft Dynamics 365 for Finance and Operations, Mali İşlemler](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; mali yönetimi ayarlama ve yapılandırma; ortak işlemleri yönetme ve uygulama; borç hesaplarını uygulama ve yönetme ile bütçeleme ve sabit kıymetleri yönetme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

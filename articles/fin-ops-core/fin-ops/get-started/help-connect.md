@@ -2,7 +2,7 @@
 title: Finance and Operations uygulamaları için Yardım deneyimini yapılandırma
 description: Bu konuda, bazı Microsoft Dynamics 365 uygulamalarının Yardım sisteminin bileşenleri hakkında bilgi verilmektedir.
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714535"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343824"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için Yardım deneyimini yapılandırma
 
@@ -54,7 +54,7 @@ Finance and Operations uygulamaları, [https://docs.microsoft.com/dynamics365](/
 > [!IMPORTANT]
 > **Yardım** sekmesini ilk kez açtığınızda Lifecycle Services'e bağlanmanız gerekir. Formun ortasındaki bağlantıyı seçtiğinizden emin olun, bağlantı için bekleyin, iletişim kutusunu kapatın ve **Sistem parametreleri** sayfasına ulaşmak için **Tamam**'ı seçin.
 >
-> [![LCS'ye bağlan](./media/connect-to-lcs-crop-1024x365.png "LCS'ye bağlan."](./media/connect-to-lcs-crop.png)
+> [![LCS'ye bağlan](./media/connect-to-lcs-crop-1024x365.png "LCS'ye bağlanın.")](./media/connect-to-lcs-crop.png)
 
 1. Bağlanmak için Lifecycle Hizmetleri projesini seçin.
 2. Görev kayıtlarını almak için BPM kitaplıkları (Seçili proje içinde) seçin.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751110"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344990"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
@@ -51,6 +51,9 @@ Planlamayı En İyi Duruma Getirme uygunluk analizi sonucu görmek için **Maste
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Uygunluk analizinden elde edilecek olası sonuçlara genel bakış
 
 Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşitli sonuçlar gösterilmektedir. Sayı işaretleri (_\#_) listelenen soruna sahip kayıt sayısını gösteren bir sayıyla değiştirilecektir. Desteklenen veya önizlemedeki özellikler, 10.0.9 sürümünde veya sonraki sürümlerde kullanılabilir ("Beklenen kullanılabilirlik" sütununda daha üst bir sürüm numarası listelenmediği sürece).
+
+> [!NOTE]
+> Bazı tutarsızlıklar, Planlama Optimizasyonu uygunluk analizi tarafından belirlenemez. Daha fazla bilgi için bkz. [Klasik master planlama ile Planlama Optimizasyonu arasındaki farklar](planning-optimization-differences-with-built-in.md).
 
 | Özellik | Listelenen sorun | Açıklama | Beklenen kullanılabilirlik |
 | --- | --- | --- | --- |
@@ -105,6 +108,10 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 [Planlama Optimizasyonuna genel bakış](planning-optimization-overview.md)
 
 [Planlama Optimizasyonunu kullanmaya başlama](get-started.md)
+
+[Klasik master planlama ile Planlama Optimizasyonu arasındaki farklar](planning-optimization-differences-with-built-in.md)
+
+[Planlama Optimizasyonu tarafından kullanılmayan parametreler](not-used-parameters.md)
 
 [Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
 

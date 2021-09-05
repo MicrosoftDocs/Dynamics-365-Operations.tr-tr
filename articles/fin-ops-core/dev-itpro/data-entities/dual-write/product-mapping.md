@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726199"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423459"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
@@ -81,9 +81,9 @@ Bu modelde, ürün Dataverse'teki iki tablonun birleşimiyle gösterilir: **Ür�
 
 ![Ürünler için veri modeli.](media/dual-write-product.png)
 
-Çift yazma işlevi etkin olduğunda, Finance and Operations'taki ürünler **Taslak** durumunda diğer Dynamics 365 ürünlerinde eşitlenir. Aynı para birimiyle ilk fiyat listesine eklenir. Başka bir deyişle, Dynamics 365 uygulamasında, Finance and Operations uygulamasında ürünün serbest bırakıldığı tüzel kişiliğin para birimiyle eşleşen ilk fiyat listesine eklenir. Belirtilen para birimi için fiyat listesi yoksa fiyat listesi otomatik olarak oluşturulur ve ürün buna atanır.
+Çift yazma işlevi etkin olduğunda, Finance and Operations'taki ürünler **Taslak** durumunda diğer Dynamics 365 ürünlerinde eşitlenir. Customer Engagement uygulamasında kullanılan aynı para birimiyle ve fiyat listesi adında alfabetik sıralama kullanılarak ilk fiyat listesine eklenirler. Başka bir deyişle, Dynamics 365 uygulamasında, Finance and Operations uygulamasında ürünün serbest bırakıldığı tüzel kişiliğin para birimiyle eşleşen ilk fiyat listesine eklenir. Belirtilen para birimi için fiyat listesi yoksa fiyat listesi otomatik olarak oluşturulur ve ürün buna atanır.
 
-Varsayılan fiyat listesini birimle ilişkilendiren çift yazma eklentilerin geçerli uygulaması, Finance and Operations uygulamasıyla ilgili para birimini arar ve fiyat listesi adının alfabetik sıralamasını kullanarak customer engagement uygulamasındaki ilk fiyat listesini bulur. Belirli bir para birimi için birden fazla fiyat listeniz olduğunda, bu para birimi için varsayılan fiyat listesi ayarlamak istediğinizde, fiyat listesi adını, o para birimine yönelik diğer fiyat listelerinden alfabetik sıraya göre daha önde olan bir adla güncelleştirmeniz gerekir.
+Varsayılan fiyat listesini birimle ilişkilendiren çift yazma eklentilerin geçerli uygulaması, Finance and Operations uygulamasıyla ilgili para birimini arar ve fiyat listesi adının alfabetik sıralamasını kullanarak customer engagement uygulamasındaki ilk fiyat listesini bulur. Belirli bir para birimi için birden fazla fiyat listeniz olduğunda, bu para birimi için varsayılan fiyat listesi ayarlamak istediğinizde, fiyat listesi adını, o para birimine yönelik diğer fiyat listelerinden alfabetik sıraya göre daha önde olan bir adla güncelleştirmeniz gerekir. Belirtilen para birimi için fiyat listesi yoksa yeni bir tane oluşturulur.
 
 Varsayılan olarak, Finance and Operations uygulamalarındaki ürünler **Taslak** durumundaki diğer Dynamics 365 uygulamalarıyla eşitlenir. Örneğin, satış siparişi tekliflerinde doğrudan kullanmak amacıyla **Etkin** durumdaki ürünü eşitlemek için şu ayarın seçilmesi gerekir: **Sistem > Yönetim > Sistem yönetimi > Sistem ayarları > Satış** sekmesi ve **Ürünleri etkin durumda oluştur = evet** seçeneğini belirleyin.
 

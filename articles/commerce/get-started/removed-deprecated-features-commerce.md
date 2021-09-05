@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740419"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386753"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -32,6 +32,55 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > [!NOTE]
 > Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce 10.0.21 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Lifecycle Services kullanılarak dağıtılan Retail SDK
+
+Retail SDK, Lifecycle Services (LCS) ile birlikte gelir. Bu dağıtım modu, 10.0.21 sürümünde kullanım dışı bırakılmıştır. Bundan sonra Retail SDK başvuru paketleri, kitaplıklar ve örnekler GitHub'daki genel depolarda yayımlanacaktır.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Retail SDK, LCS ile birlikte gelir. LCS işleminin tamamlanması birkaç saat sürer ve işlemin her güncelleştirme için tekrarlanması gerekir. Bundan sonra Retail SDK başvuru paketleri, kitaplıklar ve örnekler GitHub'daki genel depolarda yayımlanacaktır. Uzantı örnekleri ve başvuru paketleri kolayca tüketilebilir ve güncelleştirmeler birkaç dakika içinde tamamlanır. |
+| **Başka bir özellikle mi değiştirildi?**   |  [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md) |
+| **Etkilenen ürün alanları**         | Retail SDK'si |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren LCS VM'leri aracılığıyla gönderilen SDK, Ekim 2022'de kaldırılacaktır. |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Perakende dağıtılabilir paketi ve birleşik POS, Donanım istasyonu ve Bulut Ölçeği birimi yükleyicileri
+
+Retail SDK MSBuild kullanılarak oluşturulan perakende dağıtılabilir paketleri 10.0.21 sürümünde kullanım dışı bırakılmıştır. Bundan sonra, Bulut Ölçek Birimi uzantıları (Commerce Runtime, kanal veritabanı, Gözetimsiz ticari API'ler, Ödemeler ve Bulut Satış Noktası (POS)) için Bulut Ölçek Birimi (CSU) paketini kullanın. POS, Donanım istasyonu ve Şirket içinde barındırılan bulut ölçek birimi için yalnızca uzantılı yükleyiciler kullanın.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Perakende dağıtılabilir paketi, eksiksiz bir uzantı paketleri ve yükleyiciler setinden oluşan birleşik bir pakettir. CSU uzantıları Bulut ölçek birimine gittiğinden ve yükleyiciler mağazalarda dağıtıldığından bu birleşik paket, dağıtımı karmaşık hale getirir. Yükleyicilerde güncelleştirmeleri zorlaştıran uzantı ve temel ürün bulunur. Her yükseltme işleminde, kod birleştirme ve paket oluşturma gerekir. Bu işlemi basitleştirmek üzere uzantı paketleri artık kolay dağıtım ve yönetim için bileşenlere ayrılmıştır. Yeni yaklaşımla, uzantılar ve temel ürün yükleyicileri ayrılır ve kod birleştirme veya yeniden paketleme olmadan bağımsız olarak sunulup yükseltilebilir.|
+| **Başka bir özellikle mi değiştirildi?**   | CSU uzantıları, POS uzantısı yükleyicileri, Donanım istasyonu uzantısı yükleyicileri |
+| **Etkilenen ürün alanları**         | Dynamics 365 Commerce uzantısı ve dağıtım |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren, RetailDeployablePackage'i LCS'de dağıtma desteği Ekim 2022'de kaldırılacaktır. |
+
+Daha fazla bilgi için bkz:
+
++ [Commerce Bulut Ölçek Birimi (CSU) için ayrı bir paket oluşturma](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [Modern POS uzantı paketi oluşturma](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [POS'u yeni bir donanım cihazıyla tümleştirme](../dev-itpro/hardware-device-extension.md)
++ Kod örnekleri
+    + [Bulut Ölçek Birimi](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [POS, CSU ve Donanım istasyonu](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>Retail SDK'da ModernPos.Sln ve CloudPOs.sln
+
+ModernPos.sln, CloudPOs.sln, POS.Extension.csproj ve POS klasörünü kullanarak POS uzantısı geliştirme, 10.0.21 sürümünde kullanım dışı bırakılmıştır. Bundan sonra, POS uzantıları için POS bağımsız paketleme SDK'sini kullanın.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Retail SDK'nin önceki sürümlerinde, POS uzantıları varsa POS'un en son sürümüne güncelleştirmek için bir kod birleştirme ve yeniden paketleme işlemi gerekir. Kod birleştirme, zaman alan bir yükseltme işlemiydi ve depoda tam Retail SDK'yi tutmanız gerekiyordu. Ayrıca çekirdek POS.App projesini derlemeniz gerekiyordu. Bağımsız paketleme modelini kullandığınızda yalnızca uzantınızı korumanız gerekir. POS uzantılarının en son sürümüne güncelleştirme işlemi, projenizin tükettiği NuGet paketi sürümünü güncelleştirmek kadar kolaydır. Uzantılar bağımsız olarak dağıtılabilir ve hizmetler, uzantı yükleyicilerini kullanır. Temel POS ayrı olarak dağıtılıp korunabilir ve temel yükleyici veya kod ile kod birleştirme ya da yeniden paketleme gerekmez. |
+| **Başka bir özellikle mi değiştirildi?**   | [POS bağımsız paketleme SDK'si](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **Etkilenen ürün alanları**         | Dynamics 365 Commerce POS uzantısı ve dağıtımı |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren, Retail SDK'de ModernPos.Sln, CloudPOs.sln ve POS.Extensons.csproj kullanan birleşik POS paketleri ve uzantı modeli desteği Ekim 2022'de kaldırılacaktır. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce 10.0.17 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

@@ -2,7 +2,7 @@
 title: Gezinti araması
 description: Bu konuda, sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
 author: aneesmsft
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82c7bf17eaf0276c448223182b4268a50addb37f1ff115fec0223bc3313905e5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30b56287520bb3536b250a886e74e6cbe30b412
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749616"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344410"
 ---
 # <a name="navigation-search"></a>Gezinti araması
 
@@ -34,7 +34,7 @@ Bu özelliği kullanmak için **Arama** simgesine tıklayarak **Arama** kutusunu
 > [!NOTE]
 > **Arama** kutusu, sayfaları bulmanıza ve sayfalarda gezinmenize yardımcı olur. Belirli verileri veya eylemleri bulmanıza yardımcı olmaz.
 
-[![arama-kutusu.](media/navigation-search.png "Arama kutusu")
+![search-box.](media/navigation-search.png "Arama kutusu")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Belirli bir sayfaya hızlı bir şekilde gitmek
 

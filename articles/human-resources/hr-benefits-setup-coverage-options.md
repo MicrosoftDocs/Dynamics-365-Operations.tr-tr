@@ -1,8 +1,8 @@
 ---
 title: Kapsam seçeneklerini oluşturma
-description: Microsoft Dynamics 365 Human Resources'taki karşılama seçenekleri, bir kazanç planında veya programında bir katılımcının seçimi için kapsam düzeyleridir.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Bu konuda, bir kazanç planında veya programda bir katılımcının seçilmesi için Microsoft Dynamics 365 Human Resources uygulamasındaki kapsam seçenekleri açıklanmaktadır.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 447317d0e9cb23bea21dae448048d05a3d989c89df17e4b8ea836201c20aefff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a553fa1aa4bac0d2fb11b87ee05e4e52c019411d
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741441"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423532"
 ---
 # <a name="create-coverage-options"></a>Kapsam seçeneklerini oluşturma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kapsam seçenekleri, sigorta planında kimlerin kapsanması gerektiğini veya ne kadar teminat olduğunu belirler. Örneğin, bir tıbbi plan için **yalnızca çalışan** seçeneği, **çalışan + 1** seçeneği ve **aile** seçeneğiniz olabilir. Hayat sigortası için **1 x maaş** veya **2 x maaş** için teminat sunabilirsiniz.
+Kapsam seçenekleri, sigorta planında kimlerin kapsanması gerektiğini veya ne kadar teminat olduğunu belirler. Örneğin, bir tıbbi plan için **Yalnızca çalışan** seçeneği, **Çalışan + 1** seçeneği ve **Aile** seçeneğiniz olabilir. Hayat sigortası için **1 x maaş** veya **2 x maaş** için teminat sunabilirsiniz.
 
 Yan hak teminatı seçenekleri tanımlandıktan sonra bunları yeniden kullanabilirsiniz. Bir seçeneği bir veya daha fazla planla ilişkilendirebilirsiniz.
 
@@ -46,7 +46,7 @@ Yan hak teminatı seçenekleri tanımlandıktan sonra bunları yeniden kullanabi
    | **Açıklama** | Kapsam seçeneği için bir açıklama girin. |
    | **Karşılama kodu** | Karşılama kodları, uygun olan her kişi türü için minimum ve maksimum tutarları atar. Bir karşılama kodu, bir plan türü için izin verilen kapsam miktarını veya kapsamayı gösterir. Tedarik tutarını YTL tutarı veya yüzde olarak ifade edebilirsiniz. Örneğin:<ul><li>**Çalışan+1** – nitelikli olması için çalışanın bir bağımlı seçili olması gerekir (birden fazla seçili ise, artık uygun olmayacaktır).</li><li>**Çalışan + aile** – nitelikli olması için çalışanın en az iki yanındaki seçilmiş olması gerekir.</li></ul> |
    | **Maksimum sayı** | Maksimum bağımlı sayısı |
-   | **Durum** | Kapsam seçeneği durumu. Kapsam seçeneğinin durumu etkin değil olarak ayarlandıysa, tedarik seçeneği plan türlerinde seçilemez. |
+   | **Durum** | Kapsam seçeneği durumu. Kapsam seçeneğinin durumu **Etkin Değil** olarak ayarlandıysa Kapsam seçeneği plan türlerinde seçilemez. |
    | **Yüzde** | Yüzde tutarı. Bu alan yalnızca, Kapsam kodu alanında % x maaş seçilmişse etkindir. |
    | **Bölen** | % X maaş kapsam kodunu seçtiğinizde hesaplamada kullanılacak bölen. |
    | **Minimum yüzde** | Yüzde kapsam kodunu seçtiğinizde minimum yüzde. |
@@ -58,8 +58,8 @@ Yan hak teminatı seçenekleri tanımlandıktan sonra bunları yeniden kullanabi
 
    | Alan | Tanım |
    | --- | --- |
-   | **Personel katkı tutarına izin ver** | Sosyal haklar seçildiğinde, çalışanların, kazançlar self servis durumunda katkı tutarını değiştirmesine izin verip vermeyeceğini belirtir. Bu onay kutusunu seçerseniz, sistem, sosyal haklar self servis üzerine girdiği katkı tutarını temel alarak, kazanç planı parametrelerini hesaplar. |
-   | **Personel karşılama tutarına izin ver** | Sosyal haklar seçildiğinde, çalışanların, kazançlar self servis durumunda kapsam tutarını değiştirmesine izin verip vermeyeceğini belirtir. Bu onay kutusunu seçerseniz, sistem, personel self servis üzerine girdiği kapsam tutarını temel alarak, kazanç planı parametrelerini hesaplar. |
+   | **Personel katkı tutarına izin ver** | Çalışanların kazançları seçtiklerinde Kazançlar self servisindeki katkı tutarını değiştirmelerine izin verilip verilmeyeceğini belirtir. Bu onay kutusunu seçerseniz sistem, çalışanın Kazançlar self servise girdiği katkı tutarına göre kazanç planı parametrelerini hesaplar. |
+   | **Personel karşılama tutarına izin ver** | Çalışanların, sosyal hakları seçtiklerinde Kazançlar self servisteki kapsam tutarını değiştirmelerine izin verilip verilmeyeceğini belirtir. Bu onay kutusunu seçerseniz, sistem, personel self servis üzerine girdiği kapsam tutarını temel alarak, kazanç planı parametrelerini hesaplar. |
 
 6. **Kaydet**'i seçin. 
 

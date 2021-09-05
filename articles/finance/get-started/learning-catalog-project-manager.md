@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716633"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402188"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Dynamics 365 Finance ile çalışan uygulama proje yöneticileri için öğrenme kataloğu
 
@@ -61,7 +61,6 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [7.0 (RTW)/7.1 (Sürüm 1611) sürümünden 7.2 (Temmuz 2017) sürümüne yükseltme yapma (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Bu oturumda, Dynamics 365 Finance and Operations uytgulaması v7.0 (RTW) ve v7.1 (1611) sürümlerinden v7.2 (Temmuz 2017) sürümüne yükseltme işlemini açıklayacağız. Canlı müşteriler ile devam eden projeler (henüz canlı olmayan) arasında net bir ayrım yaparız. | Teknik Sohbet (kaydedilmiş web semineri) | 58 dakika |
 | [Finance and Operations: 7.x'ten 8+'ya yükseltme (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 7.X sürümünden 8.X sürümüne yükseltme işlemini ele alacağımız bir sonraki Teknik Sohbet'te lütfen bize katılın. Kod yükseltme ve veri yükseltme için uygulanacak çeşitli senaryo ve adımları ele alacağız. Ayrıca, genişletilebilirlik talebi senaryolarını ve uygun durumlarda bu taleplerin nasıl oluşturulacağını ele alacağız. Bölüm 1/2. | Teknik Sohbet (kaydedilmiş web semineri) | 61 dakika |
 | [AX2012'den Dynamics 365 for Operations'a Yükseltme (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Bu Teknik Sohbet'te, kod ve verileri Dynamics AX 2012'den Dynamics 365 for Operations'a yükseltmeye genel bir bakış sunacağız. | Teknik Sohbet (kaydedilmiş web semineri) | 45 dakika |
-| [Dynamics 365 for Operations'ta Raporlama Seçenekleri (VIR810PAL) ](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | Bu oturumda, Belge Rota Aracısı'na yönelik ipuçları ve püf noktaları da dahil olmak üzere D365 for Operations'taki çeşitli yazdırma senaryolarını ele alacağız. | Teknik Sohbet (kaydedilmiş web semineri) | 60 dakika |
 | [Analizler ve Raporlama Seçenekleri: Yazdırma ve Belge Yönlendirme Aracısı](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| İki alakalı konuya ilişkin bu teknik sohbette lütfen bize katılın. Önce, Dynamics 365 for Finance and Operations Enterprise Edition için Analiz ve Raporlama çözümü modellerini ve araçlarını tartışacağız. Ardından, yazdırma senaryolarını ve Belge Yönlendirme Aracısını tartışacağız. | Teknik Sohbet (kaydedilmiş web semineri) | 45 dakika |
 | [Kurs MB-300T01-A: Dynamics 365 for Finance and Operations'ın temel ortak özellikleri](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Bu kursta Microsoft Dynamics 365 for Finance and Operations'ın temel ortak özellikleri ele alınacaktır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
 | [Kurs MB-300T02-A: Dynamics 365 for Finance and Operations'ta temel yapılandırma](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Bu kursta Microsoft Dynamics 365 for Finance and Operations'ın temel yapılandırma görevleri açıklanmaktadır. | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün |
@@ -93,6 +92,5 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Sınav MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; yaygın işlev ve uygulama araçlarını kullanma; güvenliği, işlem ve seçenekleri yapılandırma; veri geçişini gerçekleştirme ve çözümü uygulayıp destekleme gibi teknik görevleri gerçekleştirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
 | [Sınav MB-310: Microsoft Dynamics 365 for Finance and Operations, Mali İşlemler](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; mali yönetimi ayarlama ve yapılandırma; ortak işlemleri yönetme ve uygulama; borç hesaplarını uygulama ve yönetme ile bütçeleme ve sabit kıymetleri yönetme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
 | [Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Mali İşlev Danışmanı Çalışan](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Mali İşlev Danışmanları; küresel mali işlem ve operasyonları birleştirir, görev ve iş akışlarını otomatikleştirir ve müşteri sipariş, satış, faturalama ve raporlama işlemlerini kolaylaştırır. | Maliyeti bölgeye göre değişkenlik gösteren sertifika |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

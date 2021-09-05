@@ -2,7 +2,7 @@
 title: Üçüncü taraf uygulamaları katıştırma
 description: Bu konu, ürün işlevselliğini artırmak için üçüncü taraf uygulamaların istemciye nasıl katıştırılacağını açıklar.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737811"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345422"
 ---
 # <a name="embed-third-party-apps"></a>Üçüncü taraf uygulamaları katıştırma
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Birçok müşteri, işlerini yürütmek için bir dizi uygulama kullanır. Bu uygulamalardan bazıları, Finance and Operations uygulamalarla birlikte çalışan üçüncü taraf web uygulamalardır. Daha kusursuz bir kullanıcı deneyimi sağlamak için, bu üçüncü taraf uygulamaları doğrudan Finance and Operations uygulamalarınıza katıştırmak için **(Önizleme) tam sayfa uygulamalar** özelliğini kullanabilirsiniz (üçüncü taraf uygulamaların katıştırmaya izin verdikleri varsayılır). Böylece, kullanıcılar sekmeler veya pencereler arasında geçiş yapmak zorunda kalmadan gereksinim duydukları web sitelerine ve uygulamalara erişebilirler.
+Birçok müşteri, işlerini yürütmek için bir dizi uygulama kullanır. Bu uygulamalardan bazıları, Finance and Operations uygulamalarla birlikte çalışan üçüncü taraf web uygulamalardır. Daha kusursuz bir kullanıcı deneyimi sağlamak için bu üçüncü taraf uygulamaları doğrudan Finance and Operations uygulamalarınıza katıştırmak için **Tam sayfa uygulamalar** özelliğini kullanabilirsiniz (üçüncü taraf uygulamaların katıştırmaya izin veriyorsa). Böylece, kullanıcılar sekmeler veya pencereler arasında geçiş yapmak zorunda kalmadan gereksinim duydukları web sitelerine ve uygulamalara erişebilirler.
 
-Ürüne üçüncü taraf uygulamaları katıştırabilmeniz için, Özellik yönetiminde **(Önizleme) Tam sayfa uygulamalar** özelliğini açmanız gerekir. Ardından bir üçüncü taraf uygulamasını veya web sitesini katıştırmak için aşağıdaki yöntemlerden birini kullanabilirsiniz. Bu yöntemler, tuval uygulamalarını Microsoft Power Apps'ten Finance and Operations uygulamalarına katıştırmak için kullanılan yöntemlere benzer.
+Ürüne üçüncü taraf uygulamaları katıştırabilmeniz için Özellik yönetiminde **Tam sayfa uygulamalar** özelliğini açmanız gerekir. Ardından bir üçüncü taraf uygulamasını veya web sitesini katıştırmak için aşağıdaki yöntemlerden birini kullanabilirsiniz. Bu yöntemler, tuval uygulamalarını Microsoft Power Apps'ten Finance and Operations uygulamalarına katıştırmak için kullanılan yöntemlere benzer.
 
 - Varolan bir sayfada uygulamayı veya web sitesini yeni bir sekme sayfası olarak katıştırma (pivot sekmesi, hızlı sekme, dikey pencere veya çalışma alanı bölümü).
 - Panodan uygulama veya web sitesi için yeni bir tam sayfa deneyimi oluşturun.
@@ -64,7 +64,7 @@ Sistemdeki varolan bir sayfaya katıştırılmış bir uygulama eklemek istiyors
 Katıştırmak istediğiniz uygulama varolan bir sayfayla ilişkili değilse veya Finance and Operations uygulaması içinde uygulama için tam sayfa bir deneyim istiyorsanız bu prosedürü kullanın.
 
 1. Panoyu açın.
-2. Sayfayı seçin ve basılı tutun (veya sağ tıklayın), **Kişiselleştir**'i seçin ve ardından **Sayfa ekle**'yi seçin.
+2. Panoyu seçin ve basılı tutun (veya sağ tıklayın), **Kişiselleştir** seçeneğini belirleyin ve ardından **Sayfa ekle**'yi seçin.
 3. **Sayfa ekle** bölmesinde, **Web sitesi**'ni seçin.
 4. Katıştırılmış uygulamayı yapılandırın:
 
@@ -76,15 +76,15 @@ Katıştırmak istediğiniz uygulama varolan bir sayfayla ilişkili değilse vey
     > - Uygulama veya web sitesinin katıştırmaya izin verecek şekilde yapılandırılması gerekir.
 
 5. Uygulamayı panoya yeni bir kutucuk olarak eklemek için **Kaydet**'i seçin.
-6. Panoda yeni kutucuğu seçin ve uygulamanın beklendiği gibi göründüğünü onaylayın. Uygulama görüntülenmiyorsa, bu konunun ilerleyen bölümlerinde yer alan [Sorun giderme](#troubleshooting) bölümüne bakın.
+6. Panoda yeni kutucuğu seçin ve uygulamanın beklendiği gibi göründüğünü onaylayın. Uygulama görüntülenmiyorsa bu konunun ilerleyen bölümlerinde yer alan [Sorun Giderme](#troubleshooting) bölümüne bakın.
 
 ## <a name="sharing-embedded-apps"></a>Katıştırılmış uygulamaları paylaşma
 
 Önceki bölümlerde açıklanan yöntemlerden birini kullanarak bir uygulamayı katıştırdıktan sonra, görünümü sistemdeki diğer kullanıcılarla paylaşmak isteyebilirsiniz. Katıştırılmış bir uygulamayı paylaştırmak için, aşağıdaki yöntemlerden birini kullanın:
 
-- **Görünümü yayımlayın (Önerilen):** Katıştırılmış uygulama bir görünüme kaydedilmişse, bunu paylaşmak için önerilen ve tercih edilen yol, uygun güvenlik rollerine sahip kullanıcılara görünümü yayımlamaktır. Ardından, yayımlanmış görünümle hedeflenen güvenlik rollerine sahip tüm kullanıcılar Finance and Operations uygulamalarında uygulamayı görebilir. Görünümün nasıl yayımlanacağı hakkında daha fazla bilgi için bkz. [Görünümleri yayımlama](saved-views.md#publishing-views).
+- **Görünümü yayımlayın (Önerilen):** Katıştırılmış uygulama bir görünüme kaydedilmişse bunu paylaşmak için önerilen ve tercih edilen yol, hedeflenen tüzel kişiliklerde uygun güvenlik rollerine sahip kullanıcılara görünümü yayımlamaktır. Bu durumda, yalnızca istenen kullanıcılar bu sayfadaki katıştırılmış uygulamayı görüntüler. Görünümün nasıl yayımlanacağı hakkında daha fazla bilgi için bkz. [Görünümleri yayımlama](saved-views.md#publishing-views).
 
-    Ayrıca,katıştırılmış bir uygulamayı panodan tam sayfa deneyimi olarak da yayımlayabilirsiniz. Panoda, uygulamayla ilişkilendirilmiş kutucuğu seçin ve tutun (veya sağ tıklayın), **Kişiselleştir**'i seçin ve ardından **Sayfayı yayımla**'yı seçin. Şuanda yalnızca güvenlik rollerine yayımlayabilirsiniz. Ancak, tüzel kişiliklere yayımlama imkanı da özellik genel kullanıma sunulmadan önce eklenecektir.
+    Ayrıca,katıştırılmış bir uygulamayı panodan tam sayfa deneyimi olarak da yayımlayabilirsiniz. Panoda, uygulamayla ilişkilendirilmiş kutucuğu seçin ve tutun (veya sağ tıklayın), **Kişiselleştir**'i seçin ve ardından **Sayfayı yayımla**'yı seçin. *Yayımlama görünümleri* deneyimine benzer bir deneyim gösterilir ve yayımlamak için güvenlik rollerini seçebilirsiniz. 10.0.21 veya sonraki güncelleştirmede, **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği açıksa uygulamayı istediğiniz tüzel kişiliklere de yayımlayabilirsiniz.
 
 - **Kişiselleştirmeyi kopyalayın:** Görünümleri desteklemeyen sayfalar (örneğin, iletişim kutuları veya çalışma alanları) veya tam sayfa uygulama deneyimi için, kişiselleştirmeyi uygun kullanıcılara kopyalayabilirsiniz. Daha fazla bilgi için bkz. [Kişiselleştirmeleri paylaşma](personalize-user-experience.md#sharing-personalizations).
 

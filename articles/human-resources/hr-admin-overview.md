@@ -1,8 +1,8 @@
 ---
 title: Yönetime genel bakış
-description: Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve sorun gidermenize yardımcı olur .
-author: andreabichsel
-ms.date: 02/03/2020
+description: Bu konuda, Dynamics 365 Human Resources uygulamasını ayarlamak, yönetmek ve uygulamadaki sorunları gidermek için kullanılan yardım konularının ve diğer kaynakların bir listesi sağlanmaktadır.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765626"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393583"
 ---
 # <a name="administration-overview"></a>Yönetime genel bakış
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765626"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve sorun gidermenize yardımcı olur .
+Bu konuda, Dynamics 365 Human Resources uygulamasını ayarlamak, yönetmek ve uygulamadaki sorunları gidermek için kullanılan yardım konularının ve diğer kaynakların bir listesi sağlanmaktadır.
 
 - [Sistem gereksinimleri](hr-admin-system-requirements.md)
 
@@ -92,13 +92,22 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
   - [Ücret işlemini çalıştırma](hr-admin-troubleshooting-compensation.md)
   - [LCS için görev kılavuzunu kaydetme](hr-admin-troubleshooting-task-guide.md)
   - [Güvenlik rolüne göre özel adreslere erişme](hr-admin-troubleshooting-private-addresses.md)
-  - [İnsan Kaynakları Dynamics 365 uygulamalarında görünmez](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources, Dynamics 365 uygulamalarında görünmüyor](hr-admin-troubleshooting-not-in-apps.md)
   - [Raporlama seçenekleri](hr-admin-troubleshooting-reporting.md)
   - [Tümleştirme ile ilgili SSS](hr-admin-troubleshooting-integration.md)
 
+## <a name="additional-resources"></a>Ek kaynaklar
+
+### <a name="elearning-courses"></a>e-Öğrenme kursları
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Human Resources](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path) konusuna bakın.
+
+### <a name="videos"></a>Videolar
+
+Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.
+
 ## <a name="see-also"></a>Ayrıca bkz.
 
-- [İnsan Kaynakları'ndaki yenilikler veya değişiklikler](hr-admin-whats-new.md)
+- [Human Resources'daki yenilikler veya değişiklikler](hr-admin-whats-new.md)
 - [Geliştirici Kılavuzu](hr-developer-overview.md)
 - [Kullanıcı Kılavuzu](hr-hrpro-overview.md)
 

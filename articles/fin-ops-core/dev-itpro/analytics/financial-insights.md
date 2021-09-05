@@ -2,7 +2,7 @@
 title: Mali Analiz
 description: Mali analiz mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767839"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416317"
 ---
 # <a name="financial-analysis"></a>Mali Analiz
 
@@ -36,9 +36,9 @@ ms.locfileid: "6767839"
 > - **Sayfa**: Tek bir .pbix dosyasındaki bir sekme. Her sayfa bir veya daha fazla görsel içerebilir.
 > - **Görsel**: Kart, KPI, grafik, şema, matris veya mali tablo gibi tek bir veri kaynağı. Görsel olarak mali tablo içeren bir sayfada, rapor edilecek verilerin boyutu nedeniyle başka hiçbir görsel olamaz.
 
-Şu anda, **Mali analiz** etkin bir tüzel kişilik veya tüm tüzel kişiliklere ilişkin verileri görüntülemek için kullanılır. Gelecekteki sürümlerde, çalışma alanı görselleri düzenlemek veya oluşturmak için Power BI kullanabileceğiniz bir alan olacaktır.
+**Mali analiz** çalışma alanı, var olan raporlardaki verileri görüntülemenizi ve filtrelemenizi sağlamaya odaklanır. **Mali analiz** çalışma alanına yeni görseller ekleyebilirsiniz. **Mali analiz** çalışma alanı, geçerli şirket ve tüm şirketler için rolün eriştiği tüzel kişiliklerden bağımsız olarak tüm tüzel kişiliklere ilişkin verileri göstermek için kullanılabilir.
 
-**CFO'ya genel bakış** çalışma alanı **Mali analiz** ile aynı görselleri gösterir ancak mevcut raporlardaki verileri görüntülemenize ve filtrelemenize olanak tanımaya odaklanmıştır. Gelecekteki sürümlerde, **Mali analiz** çalışma alanına yeni görseller de ekleyebileceksiniz. Yeni görseller, proje yöneticileri veya borç hesapları yöneticileri gibi diğer rollere odaklanan çalışma alanlarında da kullanılabilir. **CFO'ya genel bakış** çalışma alanı, rolün tüzel kişiliğe erişim izni olup olmadığına bakılmaksızın, tüm tüzel kişiliklerle ilgili verileri göstermeye devam eder.
+- [Panonuza Power BI görselleştirmeleri ekleme veya bunları düzenleme](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance kurulumu
 **Genel muhasebe**

@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce değerlendirme ortamı yapılandırma
 description: Bu konu, sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamının nasıl yapılandırılacağını açıklamaktadır.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742452"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416491"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı yapılandırma
 
@@ -128,7 +128,7 @@ Commerce'de tam veri eşitlemesini çalıştırmak için Commerce Headquarters'd
 Sitede test hareketleri gerçekleştirmek için, aşağıdaki test kredi kartı bilgilerini kullanabilirsiniz:
 
 - **Kart numarası:** 4111-1111-1111-1111
-- **Son kullanma tarihi:** 10/20
+- **Son kullanma tarihi:** 10/30
 - **Kart doğrulama değeri (CVV) kod:** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ Sitede test hareketleri gerçekleştirmek için, aşağıdaki test kredi kartı 
 Sağlama ve yapılandırma adımları tamamlandıktan sonra, değerlendirme ortamınızı kullanmaya başlayabilirsiniz. Yazma deneyimine gitmek için Commerce site oluşturucu URL'sini kullanın. Perakende müşteri site deneyimine gitmek için Commerce sitesi URL'sini kullanın.
 
 Commerce değerlendirme ortamınızla ilgili isteğe bağlı özellikleri yapılandırmak için bkz. [Commerce değerlendirme ortamınız için isteğe bağlı özellikler yapılandırma](cpe-optional-features.md).
+
+> [!NOTE]
+> Commerce değerlendirme ortamları, gösterim amacıyla önceden yüklenmiş Azure Active Directory (Azure AD) işletmeden tüketiciye (B2C) kiracıyla birlikte gelir. Kendi Azure AD B2C kiracınızı yapılandırmak, değerlendirme ortamları için gerekli değildir. Ancak değerlendirme ortamını kendi Azure AD B2C kiracınızı kullanacak şekilde yapılandırıyorsanız lütfen Azure Portal aracılığıyla Azure AD B2C uygulamasına yanıt URL'si olarak ``https://login.commerce.dynamics.com/_msdyn365/authresp`` eklediğinizden emin olun.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -159,6 +162,8 @@ Commerce değerlendirme ortamınızla ilgili isteğe bağlı özellikleri yapıl
 [Microsoft Azure portalı](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce web sitesi](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Commerce'te B2C kiracısı ayarlama](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

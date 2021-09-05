@@ -1,8 +1,8 @@
 ---
 title: Pozisyon hiyerarşisinde metin kesilmesini engelleme ve Visio'ya aktarma
-description: Bu konu adlarını ve pozisyonları kişiler müşteriler yetenek için Microsoft Dynamics 365 Human Resources için hiyerarşi görüntülediğinizde nerede kesiliyor sorununu açıklar. Metin kesme, hiyerarşinin ekran görüntüsünün veya baskısının alınmasını zorlaştırabilir.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasında pozisyon hiyerarşisindeki kişilerin ve pozisyonların adlarının kısaltılması sorununun nasıl düzeltileceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,17 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a9a8d22df0416ef417a6216c3131bfb6d40d200
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779338"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413547"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Konum hiyerarşisi üzerinde metin kesmeden kaçının ve Visio'ya dışa aktarın
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Pozisyon hiyerarşisinde metin kesilmesini engelleme ve Visio'ya aktarma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -43,7 +43,7 @@ Visio'ya dışa aktarmak için aşağıdaki adımları izleyin.
 
 1. İnsan Kaynakları, **pozisyon** listesi sayfasını açın.
 
-    Kuruluş yapısı diyagramına daha fazla bilgi eklemek için **Konumlar** listesine alanlar ekleyin, böylece bu prosedürdeki sihirbazı kullandığınızda kullanılabilir olurlar.
+    Kuruluş yapısı diyagramına daha fazla bilgi eklemek için **Pozisyonlar** listesine alanlar ekleyin, böylece bu yordamın ileri bölümündeki **Kuruluş şeması sihirbazı**'nı kullandığınızda bu alanlar kullanılabilir hale gelir.
 
 2. Eylem Panosu üzerinde **Microsoft Office içinde aç** düğmesini seçin ve sonra **Excel'e dışa aktar** altında, **Konumlar**'ı seçin. Bunun yerine, Ctrl+T tuşlarına basın.
 

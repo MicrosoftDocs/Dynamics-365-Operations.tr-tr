@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: f40b4157520a399f1c2971a425e47b904b3b2f5eb30b87e54f8b810647bcdaeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf23284729cd10569ceb320d5fd30f8429974c3d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747925"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344770"
 ---
 # <a name="product-data-entities"></a>Ürün veri varlıkları
 
@@ -42,7 +42,7 @@ ms.locfileid: "6747925"
 | Serbest bırakılan farklı ürünler V2 | `EcoResDistinctProductV2Entity` | Bu varlık farklı ürünleri dışa aktarmak için kullanılır. Bu ayrı ürünler ürün, alt tür ürünleri ve tüm ürün çeşitlerini ifade eder. |
 | Serbest bırakılan ana ürünler V2 | `EcoResProductMasterV2Entity` | Bu varlık ana ürünleri içe aktarmak ve vermek için kullanılır. Veri yönetimi için etkin değil. |
 | Madde - barkod | `EcoResProductBarcodeEntityV3` | Bu varlık ürünleri ve barkodları dışa aktarmak için kullanılır. Bu varlık, değişiklik izleme, güncelleştirme veya silme işlemlerine izin vermiyor. Barkodlar üzerinde değişiklik izleme, güncelleştirme veya silme işlemlerini kullanmak için **Madde - barkod ilişkilendirmesi** varlığını kullanın. |
-| Madde - barkod ilişkilendirmesi | `EcoResProductBarcodeAssociationEntity` | Bu varlık ürünleri ve barkodları dışa aktarmak için kullanılır. Değişiklik izleme, güncelleştirme ve silme işlemine izin verir. Varlığı kullanmak için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *Madde - barkod geliştirmeleri* etkinleştirilmiş olmalıdır. Barkod ile ürün arasındaki ilişkiyi oluşturan varlık anahtarı `AssociationID`dir. Bu anahtara yönelik destek eklemek için özelliği açtığınızda `InventitemBarcodeAssociation` tablosu, var olan madde barkodu için doldurulacaktır. Tablo, toplu iş kullanılarak doldurulur ve barkod tablonuzda çok sayıda kayıt varsa toplu işlemi çalıştırmak uzun zaman alabilir. Bu nedenle, özelliği etkinleştirmeyi planlamanız ve toplu işi iş programınıza uygun bir zamanda çalıştırmanız önerilir. |
+| Madde - barkod ilişkilendirmesi | `EcoResProductBarcodeAssociationEntity` | Bu varlık ürünleri ve barkodları dışa aktarmak için kullanılır. Değişiklik izleme, güncelleştirme ve silme işlemine izin verir. Varlığı kullanmak için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *Madde - barkod geliştirmeleri* etkinleştirilmiş olmalıdır. Barkod ile ürün arasındaki ilişkiyi oluşturan varlık anahtarı `AssociationID` anahtarıdır. Bu anahtara yönelik destek eklemek için özelliği açtığınızda `InventitemBarcodeAssociation` tablosu, var olan madde barkodu için doldurulur. Tablo, toplu iş kullanılarak doldurulur ve barkod tablonuzda çok sayıda kayıt varsa toplu işlemi çalıştırmak uzun zaman alabilir. Bu nedenle, özelliği etkinleştirmeyi planlamanız ve toplu işi iş programınıza uygun bir zamanda çalıştırmanız önerilir. |
 | Ürün yaşam döngüsü durumları | `EcoResProductLifecycleSateEntity` | Bu varlık, bir ürüne atanabilecek farklı ürün yaşam döngüsü durumlarını içe aktarmak ve dışa aktarmak için kullanılır. |
 
 > [!NOTE]

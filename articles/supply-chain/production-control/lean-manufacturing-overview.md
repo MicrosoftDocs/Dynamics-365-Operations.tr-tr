@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da812bcc7d31db25abc0ed7e6c1a7f9e5433f80bfdfc5421e4e18d6b8af68884
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1374a451c65b4bafdc6efeb10949d1f6eceb4758
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738927"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343930"
 ---
 # <a name="lean-manufacturing-overview"></a>Yalın imalata genel bakış
 
@@ -66,7 +66,7 @@ Yalın üretim, kanban kurallar tarafından yönetilen üretim ve lojistik faali
 Özelleştirilmiş kanban panoları aşağıdaki listede açıklanmaktadır:
 -   Kanban iş zamanlaması: Kanban işlerine genel bir bakış sağlar. Pano, kanban işlerini ve bunların bir veya birden çok iş hücresi için durumlarını görüntüler. İşler, üretim akışı modelinde tanımlanmış planlama dönemine (gün veya hafta) göre listelenir. Zamanlanmış yüklemeleri izleyebilmeniz için tahta aynı zamanda her planlama dönemi için kapasite tüketimini de görüntüler. Kanban işlerinin durumunu değiştirebilir, farklı planlama dönemi kanban işlerini yeniden zamanlayabilir ve başka görevleri gerçekleştirebilirsiniz.
 -   Transfer işleri için kanban panosu – Bu pano, geçerli aktarım işlerine genel bakış sağlar. Malzeme çekme listelerini kaydedebilir ve güncelleştirebilir, transfer işlerini başlatabilir ve tamamlayabilir ve diğer görevleri gerçekleştirebilirsiniz.
--   Süreç işleri için kanban panosu – Bu pano, normal üretim akışını desteklemek ve bir veya birden çok iş hücresinin geçerli durumuna bir bakış sağlamak üzere tasarlanmıştır. Bu panodan Kanban'lara öncelik verebilir, malzeme çekilebilir veya üretilebilir. Ayrıca bu tahta kanbanların raporlaması için barkod taramayı da desteklemek üzere tasarlanmıştır.
+-   Süreç işleri için kanban panosu – Bu pano, normal üretim akışını desteklemek ve bir veya birden çok iş hücresinin geçerli durumuna bir bakış sağlamak üzere tasarlanmıştır. Bu panodan Kanban'lara öncelik verebilir, malzeme çekilebilir veya üretilebilir. Ayrıca bu pano, Kanbanların raporlaması için barkod taramayı da desteklemek üzere tasarlanmıştır.
 
 ## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Kanban işleri ve Supply Chain Management işlemleriyle tümleştirme
 Kanban işleri, Supply Chain Management'ta stok hareketleri için geçerli işlemler ile tamamen tümleşiktir.

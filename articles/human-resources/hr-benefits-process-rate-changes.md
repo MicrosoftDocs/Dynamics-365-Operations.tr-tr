@@ -1,8 +1,8 @@
 ---
-title: Değişiklikleri işleyin
-description: Yeni veya mevcut bir avantaj planının uygunluk kuralı ayarlarında bir değişikliği olduğunda, Microsoft Dynamics 365 Human Resources'ta kazanç oranı değişikliklerini işleyin.
-author: andreabichsel
-ms.date: 04/06/2020
+title: Oran değişikliklerini işleme
+description: Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasında kazanç oranı değişikliklerinin nasıl işleneceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb9206df990fa8980c4c641b565203828715ada9f1d2f2107a7bb707f545e225
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa94584749e72cab7aa3466814ed8ea9d59665da
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718143"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417519"
 ---
-# <a name="process-rate-changes"></a>Değişiklikleri işleyin
+# <a name="process-rate-changes"></a>Oran değişikliklerini işleme
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Yeni veya mevcut bir avantaj planının uygunluk kuralı ayarlarında bir değişikliği olduğunda, Microsoft Dynamics 365 Human Resources'ta kazanç oranı değişikliklerini işleyin. Yeni bir uygunluk kuralı oluşturulup plana atanmışsa, bu durum sisteme, çalışanların şimdi yeni uygunluk seçeneklerine dayalı olarak planlama için uygun olup olmadığını denetlemek amacıyla, alt uygunluğu yeniden çalıştırması için uyarır. 
+Bu konuda, uygunluk kuralı ayarlarındaki yeni veya var olan bir kazanç planında bir değişiklik olduğunda Microsoft Dynamics 365 Human Resources uygulamasında kazanç oranı değişikliklerinin nasıl işleneceği açıklanmaktadır. Yeni bir uygunluk kuralı oluşturulup plana atanmışsa, bu durum sisteme, çalışanların şimdi yeni uygunluk seçeneklerine dayalı olarak planlama için uygun olup olmadığını denetlemek amacıyla, alt uygunluğu yeniden çalıştırması için uyarır. 
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **işlem** altında, **Oran değişimi güncelleme işlemini** seçin.
 

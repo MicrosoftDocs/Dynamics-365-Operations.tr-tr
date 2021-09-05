@@ -1,5 +1,5 @@
 ---
-title: Bütçe tekliflerini etkinleştirme (önizleme)
+title: Bütçe tekliflerini etkinleştirme
 description: Bu konuda, Mali İçgörüler'de Bütçe teklifi özelliğinin nasıl açılacağı açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cc7b06ee40553a254a939babc30e6f5c99f85507c1a3db4e916f480560cf8835
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab65d1b0e366bfe6bdb07688f89d440662165063
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768951"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386498"
 ---
-# <a name="enable-budget-proposals-preview"></a>Bütçe tekliflerini etkinleştirme (önizleme)
+# <a name="enable-budget-proposals"></a>Bütçe tekliflerini etkinleştirme
 
 [!include [banner](../includes/banner.md)]
 

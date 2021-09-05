@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714342"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384597"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 
@@ -113,16 +113,16 @@ Etkilenen hareketleri gözden geçirmek için, seçili hareketleri engellemek ve
     - **Hareketi görüntüle** – Seçili hareket kaydını açın.
     - **Siparişi engelle** – Bu düğme yalnızca **Satış emirleri** sekmesinde kullanılabilir. Seçili satış emri satırını engellemek için seçin.
     - **Satırı engelle** – Bu düğme yalnızca **Satın alma emirleri** sekmesinde kullanılabilir. Seçili satın alma emri satırını engellemek için seçin.
-    - **Sorumluyu bildir** – Bu düğme yalnızca **Satış emirleri** sekmesinde kullanılabilir. Seçili satış emrinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin.
-    - **Sipariş vereni bildir** – Bu düğme yalnızca **Satın alma emirleri** sekmesinde kullanılabilir. Seçili satın alma emrinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin.
-    - **Üretimi bildir** – Bu düğme yalnızca **Üretim emirleri** sekmesinde kullanılabilir. Satış siparişlerinin ve satın alma siparişlerinin aksine, üretim emirlerinin uçtan uca bunlardan sorumlu olarak ayarlanmış tek bir kullanıcısı yoktur. Bunun yerine, çeşitli süpervizörler veya planlamacılar genellikle belirli bir site veya üretimin belirli bir bölümü için (örneğin, belirli kaynaklar veya kaynak grupları için) sahipliği alır. Bu nedenle, bu düğmeyi seçtiğinizde, seçili üretim emriyle ilgili herhangi bir kaynakndan sorumlu olan tüm kullanıcılar bir değişiklik bildirimi alır.
-    - **Hazırlayana bildir** – Bu düğme yalnızca **Satın alma talebi** sekmesinde kullanılabilir. Seçili satın alma talebinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin.
-    - **Satış sorumlusuna bildir** – Bu düğme yalnızca **Fiyat teklifleri** sekmesinde kullanılabilir. Seçili fiyat teklifinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin.
+    - **Sorumluyu bildir** – Bu düğme yalnızca **Satış emirleri** sekmesinde kullanılabilir. Seçili satış emrinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
+    - **Sipariş vereni bildir** – Bu düğme yalnızca **Satın alma emirleri** sekmesinde kullanılabilir. Seçili satın alma emrinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
+    - **Üretimi bildir** – Bu düğme yalnızca **Üretim emirleri** sekmesinde kullanılabilir. Satış siparişlerinin ve satın alma siparişlerinin aksine, üretim emirlerinin uçtan uca bunlardan sorumlu olarak ayarlanmış tek bir kullanıcısı yoktur. Bunun yerine, çeşitli süpervizörler veya planlamacılar genellikle belirli bir site veya üretimin belirli bir bölümü için (örneğin, belirli kaynaklar veya kaynak grupları için) sahipliği alır. Bu nedenle, bu düğmeyi seçtiğinizde, seçili üretim emriyle ilgili herhangi bir kaynakndan sorumlu olan tüm kullanıcılar bir değişiklik bildirimi alır. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
+    - **Hazırlayana bildir** – Bu düğme yalnızca **Satın alma talebi** sekmesinde kullanılabilir. Seçili satın alma talebinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
+    - **Satış sorumlusuna bildir** – Bu düğme yalnızca **Fiyat teklifleri** sekmesinde kullanılabilir. Seçili fiyat teklifinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
     - **Iskarta** – Bu düğme yalnızca **Stok** sekmesinde kullanılabilir. Seçili envanteri ıskartaya çıkarmak için seçin.
     - **Geçmişi görüntüle** – **İŞlemleri açmak için İş etkisi** iletişim kutusunu kullanarak seçili işlemdeki işlemler geçmişini açın. (Örneğin, geçmiş bildirimlerin gönderilip gönderilmediğini veya işlemlerin engellenip engellenmediğini gösterir.) 
     - **Tüm işlemleri görüntüle** – Sadece açık hareketlerin değil, tüm hareketlerin tam listesini açın.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>İşlemler için değişiklik bildirimlerini gözden geçirme ve işleme
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>İşlemler için değişiklik bildirimlerini gözden geçirme ve işleme
 
 Aldığınız değişiklik bildirimlerini aşağıdaki şekillerde okuyabilir ve işleyebilirsiniz:
 

@@ -1,8 +1,8 @@
 ---
 title: Sistem gereksinimleri
-description: Bu makalede, Microsoft Dynamics 365 Human Resources ile ilgili gereksinimler anlatılmaktadır.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Bu konuda, Microsoft Dynamics 365 Human Resources için sistem gereksinimleri listelenmektedir.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ef0176926fd6c5c5d2bc852080dde5273d05d0f2edd20e091d97c71e503dce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15770595a0639c03df1138ec25010ca8168bd9a8
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761104"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393485"
 ---
 # <a name="system-requirements"></a>Sistem gereksinimleri
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu makalede, Microsoft Dynamics 365 Human Resources ile ilgili gereksinimler anlatılmaktadır. Ayrıca, İnsan Kaynaklarının kullanılabildiği ülkeler ve bölgeler ile birlikte İnsan Kaynakları verileri için diller ve yerelleştirme hakkında bilgiler de ana hatlarıyla açıklanmıştır.
+Bu konuda, Microsoft Dynamics 365 Human Resources için sistem gereksinimleri listelenmektedir. Ayrıca, İnsan Kaynaklarının kullanılabildiği ülkeler ve bölgeler ile birlikte İnsan Kaynakları verileri için diller ve yerelleştirme hakkında bilgiler de ana hatlarıyla açıklanmıştır.
 
 ## <a name="supported-web-browsers"></a>Desteklenen web tarayıcıları
 
-İnsan Kaynakları belirtilen işletim sistemleri üzerinde çalışan aşağıdaki web tarayıcılarından herhangi birinde çalışabilir: 
+Kullanıcılar, belirtilen işletim sistemlerinde çalışan aşağıdaki web tarayıcılarından herhangi birini kullanarak Microsoft Dynamics 365 Human Resources uygulamasına erişebilir: 
 
 *   Windows 10 üzerinde Microsoft Edge (son genel olarak yayımlanmış sürüm)
 *   Windows 10, Windows 8.1 veya Windows 7 üzerinde Internet Explorer 11
@@ -39,14 +39,17 @@ Bu makalede, Microsoft Dynamics 365 Human Resources ile ilgili gereksinimler anl
 
 Her web tarayıcısı için en son sürümü bulmak için, yazılım üreticisinin web sitesine gidin. 
 
-> [!NOTE]
-> * Görev Kaydedici'den oluşturulmuş görüntüleri yakalamak ve bunları Microsoft Word belgelerine eklemek için bir Chrome eklentisinin yüklü olması gerekir. 
-> * İş Akışı Düzenleyicisi bir ClickOnce uygulaması olarak başlatılır. Yalnızca Microsoft Edge ve Internet Explorer (desteklenen bir Microsoft Windows sürümü üzerinde) ClickOnce uygulamalarını destekler. İş Akışı Düzenleyicisi ClickOnce uygulaması için 64-bit uyumlu bir işletim sistemi gereklidir.
-> * PDF dosyalarının önizlemesini yapmak için (en son sürüm genel kullanıma açık) Windows 10 üzerinde, Microsoft Edge veya (en son sürüm genel kullanıma açık) Windows 10, Windows 8.1, Windows 8, Windows 7 veya Google Nexus 10 tablet üzerinde Google Chrome gibi modern tarayıcıları kullanmanızı öneririz.
->   Ağ gereksinimleri
-> * İnsan Kaynakları 250-300 milisaniye (ms) veya daha az gecikmeye sahip ağlar için tasarlanmıştır. Bu, bir tarayıcı istemcisinden İnsan Kaynakları'nı barındıran Microsoft Azure veri merkezine iletim süresidir. Ağ gecikmesini [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test") adresinde sınamanızı öneririz.
-> * İnsan Kaynakları için bant genişliği gereksinimlerini senaryoya bağlıdır. En tipik senaryolar 50 kilobayt/saniye (KBps) üzerinde bir bant genişliği gerektirir.
-> 
+## <a name="special-considerations"></a>Özel hususlar
+
+* Görev Kaydedici'nin ekran görüntüleri yakalamasını ve bunları oluşturulan Microsoft Word belgelerine dahil etmesini sağlamak için Chrome uzantısının bir ön sürümünü yüklemeniz gerekir
+* İş Akışı Düzenleyicisi bir ClickOnce uygulaması olarak başlatılır. Yalnızca Microsoft Edge ve Internet Explorer (desteklenen bir Microsoft Windows sürümü üzerinde) ClickOnce uygulamalarını destekler. İş Akışı Düzenleyicisi ClickOnce uygulaması için 64-bit uyumlu bir işletim sistemi gereklidir.
+* PDF dosyalarının önizlemesini yapmak için (en son sürüm genel kullanıma açık) Windows 10 üzerinde, Microsoft Edge veya (en son sürüm genel kullanıma açık) Windows 10, Windows 8.1, Windows 8, Windows 7 veya Google Nexus 10 tablet üzerinde Google Chrome gibi modern tarayıcıları kullanmanızı öneririz.
+
+## <a name="network-requirements"></a>Ağ gereksinimleri
+
+* İnsan Kaynakları 250-300 milisaniye (ms) veya daha az gecikmeye sahip ağlar için tasarlanmıştır. Bu, bir tarayıcı istemcisinden İnsan Kaynakları'nı barındıran Microsoft Azure veri merkezine iletim süresidir. Ağ gecikmesini [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test") adresinde sınamanızı öneririz.
+* İnsan Kaynakları için bant genişliği gereksinimlerini senaryoya bağlıdır. Tipik senaryolar 50 kilobayt/saniye (KB/sn) üzerinde bir bant genişliği gerektirir.
+ 
 > [!WARNING]
 > Kullanıcı sayısıyla minimum bant genişliği gereksinimlerini çarpıp bir müşteri konumundan bant genişliği gereksinimlerini hesaplamayın. Belirli bir konumun eşzamanlı kullanımını hesaplamak çok zordur. Bant genişliği gereksinimleri konusunda kaygıları olan müşteriler İnsan Kaynakları'nın bir deneme sürümünü kullanabilir.
 
@@ -63,6 +66,5 @@ Her web tarayıcısı için en son sürümü bulmak için, yazılım üreticisin
 > Kullanıcı arabirimi başka dillere yerelleştirilmiş olmasına karşın, tüm kullanıcı verileri girildiği dilde depolanır. Diğer dillerde e-postalar ve şablonlar oluşturabilirsiniz ancak zamanlama bilgileri gibi veriler şu anda yalnızca İngilizce olarak kullanılabilir.
 
 Ülkeye veya bölgeye özel özelleştirmeler oluşturmakla ilgilenen bir geliştiricisiyseniz veya şu anda Microsoft tarafından desteklenmeyen bir ülke veya bölge için çözüm oluşturan bir geliştiriciyseniz bkz. [Globalleştirme](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

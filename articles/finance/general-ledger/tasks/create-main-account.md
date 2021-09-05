@@ -1,6 +1,6 @@
 ---
 title: Ana hesap oluşturma
-description: Bu görev kılavuzu, mevcut bir hesap planına ana hesap eklemeyi adım adım açıklar.
+description: Bu yordam, mevcut bir hesap planına bir ana hesap eklemeyi açıklar.
 author: aprilolson
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729642"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394648"
 ---
 # <a name="create-a-main-account"></a>Ana hesap oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu görev kılavuzu, mevcut bir hesap planına ana hesap eklemeyi adım adım açıklar. Bu kayıtta USMF demo şirketi kullanılmaktadır.  
+Bu yordam, mevcut bir hesap planına bir ana hesap eklemeyi açıklar. Bu kayıtta USMF demo şirketi kullanılmaktadır.  
 
 1. **Gezinti bölmesi > Modüller > Genel muhasebe > Hesap planı > Hesaplar > Ana hesaplar**'a gidin.
 2. **Yeni**'ye tıklayın.

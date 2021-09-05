@@ -1,8 +1,8 @@
 ---
 title: Uygunluk kurallarını ve seçeneklerini yapılandırma
-description: Microsoft Dynamics 365 Human Resources'un sosyal haklar yönetiminde, uygunluk kurallarını ve seçeneklerini ayarlayın.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasındaki Kazanç yönetiminde uygunluk kurallarının ve seçeneklerinin nasıl ayarlanacağı açıklanmaktadır.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3aae50b8f7fac6991f187ced44f7d122eb7ed40824bd2d53265fa06bfa87dd6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756136"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423483"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Uygunluk kurallarını ve seçeneklerini yapılandırma 
 
@@ -155,7 +155,7 @@ Kurallar, tek bir ölçüt içinde çoklu koşulları kullanmak üzere daha fazl
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Özel alan ölçütündeki uygunluk koşulları 
 Yukarıdakiyle benzerlik olarak, özel alanlar uygunluk kuralları oluştururken ve aynı şekilde çalışırken kullanılabilir. Örneğin, internet maliyetleri bu konumlarda daha yüksek olduğu için evden çalışan Fargo ve Kopenhag çalışanlarına Internet geri ödeme teklif etmek isteyebilirsiniz. Bunu yapmak için, iki özel alan oluşturun: **Office konumu** (seçim listesi) ve **evden çalışma** (onay kutusu). Sonra **WFH Çalışanları** adında bir kural oluşturun. Kural ölçütü, **Office konumu = Fargo** veya **Kopenhag** *ve* **Evden çalışma = Evet** şeklindedir.
 
-En özel uygunluk kurallarının aşağıdaki görüntüde belirtildiği gibi ayarlanması gerekir. 
+Özel uygunluk kurallarının aşağıdaki görüntüde belirtildiği gibi ayarlanması gerekir. 
 
 ![Özel alan ölçütündeki uygunluk koşulları.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
@@ -217,13 +217,13 @@ Dönemler, kazançların etkili olduğu ve çalışanların ne zaman kayıt yapm
 
    | Alan | Tanım |
    | --- | --- |
-   | Kazanç kredisi kodu | Esnek kredi programının benzersiz tanımlayıcısı. |
-   | Tanım | Esnek kredi programı açıklaması. | 
-   | Başlangıç tarihi | Esnek kredi programının etkin olacağı tarih. |
-   | Bitiş tarihi | Esnek kredi programının son tarihi. Esnek kredi programının zamanlanan bir sona erme tarihi olmadığını belirtmek için varsayılan değeri (12/31/2154) boş bırakabilirsiniz. |
-   | Toplam Kredi Değeri | Her çalışanın avantajları için kullanması gerekecektir kullanılan alacak sayısı. |
-   | Eşit Dağıtma Kuralı | Esnek kredi dönemi ortasında bir çalışan işe alındığında, esnek krediler için kullanılacak kural. </br></br><ul><li>**Hiçbiri** – esnek kredi programı başlatıldıktan sonra işe alındığında çalışan esnek kredi almaz.</li><li>**Tam kredi** – çalışan, işe alındıklarında bağımsız olarak, tüm esnek kredi tutarını alır.</li><li>**Eşit dağıt** – çalışan, başlangıç tarihlerine göre eşit miktarda esnek kredi alır.</li></ul> |
-   | Esnek Kredi Eşit Dağıtma Formülü | Esnek kredi programının kazanç dönemi ortasında bir çalışan işe alındığında, esnek krediler için kullanılacak kural. Kat, istihdam başlangıç tarihine dayanır. Bu alan yalnızca **eşit dağıtma kural** ı alanında **eşit dağıt** seçeneği seçildiğinde kullanılır. </br></br><ul><li>**Günlük** – bir çalışanın gün düzeyine alacağı esnek kredi sayısı. Esnek kredi toplam sayısı dönem içindeki gün sayısına bölünür. Örneğin, bir avantaj dönemi 400 gün ise, sistem günde alınan esnek kredi sayısını hesaplamak üzere, toplam esnek kredi sayısını 400 ile bölecektir.</li><li>**Geçerli ay** - Bir çalışanın geçerli aya yuvarlanmış, ay düzeyine aldığı esnek kredi sayısı. Esnek kredi toplam sayısı dönem içindeki ay sayısına bölünür. Örneğin, bir avantaj dönemi 15 ay ise, sistem ayda alınan esnek kredi sayısını hesaplamak üzere, toplam esnek kredi sayısını 15 ile bölecektir.</li><li>**Sonraki ay** - Bir çalışanın sonraki aya yuvarlanmış, ay düzeyine aldığı esnek kredi sayısı. Esnek kredi toplam sayısı dönem içindeki ay sayısına bölünür. Örneğin, bir avantaj dönemi 15 ay ise, sistem ayda alınan esnek kredi sayısını hesaplamak üzere, toplam esnek kredi sayısını 15 ile bölecektir.</li></ul> |
+   | **Kazanç kredisi kodu** | Esnek kredi programının benzersiz tanımlayıcısı. |
+   | **Tanım** | Esnek kredi programı açıklaması. | 
+   | **Başlangıç tarihi** | Esnek kredi programının etkin olacağı tarih. |
+   | **Bitiş tarihi** | Esnek kredi programının son tarihi. Esnek kredi programının zamanlanan bir sona erme tarihi olmadığını belirtmek için varsayılan değeri (12/31/2154) boş bırakabilirsiniz. |
+   | **Toplam Kredi Değeri** | Her çalışanın avantajları için kullanması gerekecektir kullanılan alacak sayısı. |
+   | **Eşit Dağıtma Kuralı** | Esnek kredi dönemi ortasında bir çalışan işe alındığında, esnek krediler için kullanılacak kural. </br></br><ul><li>**Hiçbiri** – esnek kredi programı başlatıldıktan sonra işe alındığında çalışan esnek kredi almaz.</li><li>**Tam kredi** – çalışan, işe alındıklarında bağımsız olarak, tüm esnek kredi tutarını alır.</li><li>**Eşit dağıt** – çalışan, başlangıç tarihlerine göre eşit miktarda esnek kredi alır.</li></ul> |
+   | **Esnek Kredi Eşit Dağıtma Formülü** | Esnek kredi programının kazanç dönemi ortasında bir çalışan işe alındığında, esnek krediler için kullanılacak kural. Kat, istihdam başlangıç tarihine dayanır. Bu alan yalnızca **eşit dağıtma kural** ı alanında **eşit dağıt** seçeneği seçildiğinde kullanılır. </br></br><ul><li>**Günlük** – bir çalışanın gün düzeyine alacağı esnek kredi sayısı. Esnek kredi toplam sayısı dönem içindeki gün sayısına bölünür. Örneğin, bir avantaj dönemi 400 gün ise, sistem günde alınan esnek kredi sayısını hesaplamak üzere, toplam esnek kredi sayısını 400 ile bölecektir.</li><li>**Geçerli ay** - Bir çalışanın geçerli aya yuvarlanmış, ay düzeyine aldığı esnek kredi sayısı. Esnek kredi toplam sayısı dönem içindeki ay sayısına bölünür. Örneğin, bir avantaj dönemi 15 ay ise, sistem ayda alınan esnek kredi sayısını hesaplamak üzere, toplam esnek kredi sayısını 15 ile bölecektir.</li><li>**Sonraki ay** - Bir çalışanın sonraki aya yuvarlanmış, ay düzeyine aldığı esnek kredi sayısı. Esnek kredi toplam sayısı dönem içindeki ay sayısına bölünür. Örneğin, bir avantaj dönemi 15 ay ise, sistem ayda alınan esnek kredi sayısını hesaplamak üzere, toplam esnek kredi sayısını 15 ile bölecektir.</li></ul> |
    
    Her bir kazanç planının her bir avantaj dönemine göre yalnızca bir esnek kredi programına kaydedildiğinizden emin olun. Aksi durumda, sistem, esnek jenerik vermek için hangi esnek kredi programını kullanacağınızı bilmeyecek ve sorunlarla karşılaşacaksınız. 
 

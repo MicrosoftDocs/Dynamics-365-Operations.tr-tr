@@ -1,8 +1,8 @@
 ---
 title: Kazanç yönetimine genel bakış
-description: Dynamics 365 Human Resources'taki Kazanç yönetimi özelliğine genel bakış. Çalışanlarınızı kullanımı kolay bir çevrimiçi deneyim sayesinde çalışanlarınızın genişletilmiş sosyal haklar seçeneklerini sunun.
-author: andreabichsel
-ms.date: 07/13/2021
+description: Bu konuda, Dynamics 365 Human Resources uygulamasındaki Kazanç yönetimi özelliğine genel bir bakış sağlanmaktadır.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719155"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417535"
 ---
 # <a name="benefits-management-overview"></a>Kazanç yönetimine genel bakış
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Rekabet edebilir durumda kalmak için, en iyi çalışanlarınızı ele almak ve bunları korumak amacıyla zengin bir avantaj kümesi sunmalısınız. Tıp ve diş kapsamı gibi standart avantajlara ek olarak, benimseme yardımı, dinlenme programları ve giyme gibi genişletilmiş hizmetler de sunmak isteyebilirsiniz. Microsoft Dynamics 365 Human Resources'taki Kazanç yönetimi, çok çeşitli kazanç seçeneklerini destekleyen esnek bir çözüm sağlar. İnsan Kaynakları ayrıca, tekliflerinizi gösteren kullanımı kolay bir çalışan deneyimi de içerir.
+Rekabet edebilir durumda kalmak için, en iyi çalışanlarınızı ele almak ve bunları korumak amacıyla zengin bir avantaj kümesi sunmalısınız. Tıp ve diş kapsamı gibi standart avantajlara ek olarak, benimseme yardımı, dinlenme programları ve giyme gibi genişletilmiş hizmetler de sunmak isteyebilirsiniz. Microsoft Dynamics 365 Human Resources uygulamasında kazanç yönetimi, çok çeşitli kazanç seçeneklerini destekleyen esnek bir çözüm sağlar. İnsan Kaynakları ayrıca, tekliflerinizi gösteren kullanımı kolay bir çalışan deneyimi de içerir.
 
 - Geliştirilmiş kazançlar planları, benzersiz kazanç planları oluşturmanıza ve yönetmenize ve karmaşık kazanç oranı tabloları ve iç içe geçmiş katmanları desteklebilmenizi sağlar. Daha kolay bir çalışan deneyimi için, kolayca kazanç programları, paketleri ve otomatik kayıt kuralları oluşturabilirsiniz.
 - Esnek kredi programları, emeklilik ve diğer ömür olaylarını desteklemeye yönelik bir program sağlar.
@@ -37,13 +37,13 @@ Rekabet edebilir durumda kalmak için, en iyi çalışanlarınızı ele almak ve
 Demo verilerine erişmek istiyorsanız korumalı alan ortamınızı yeniden dağıtmanız gerekir.
 
 > [!NOTE]
-> Artık Kazançlar yönetimi formlarını özelleştirebilirsiniz. Artık, kazanç planları için **Kapsama seçeneği**'ne kapsama oranlarıyla ilgili özel alanlar ekleyebilirsiniz. Özel alanlarla çalışma hakkında daha fazla bilgi için bkz. [Özel alanlar](hr-developer-custom-fields.md).
+> Artık Kazançlar yönetimi sayfalarını özelleştirebilirsiniz. Kazanç planları için **Kapsam seçeneği** sayfasına kapsam oranları ile ilgili özel alanlar eklenebilir. Özel alanlarla çalışma hakkında daha fazla bilgi için bkz. [Özel alanlar](hr-developer-custom-fields.md).
 >
 > ![Kazançlar yönetimi özel alanları](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Kazanç Yönetimni etkinleştirme
 
-Bu konuda Human Resources'taki özelliklerin nasıl etkinleştirileceği açıklanır. Ayrıca, Human Resources'taki mevcut özelliklerin hangilerinin Yan Haklar yönetimiyle değiştirildiğini veya Yan Haklar yönetimini açtıktan sonra hangi özelliklerin devre dışı bırakıldığını belirtir.
+Bu konuda, Human Resources'taki özelliklerin nasıl etkinleştirileceği açıklanmaktadır. Ayrıca Human Resources'taki mevcut özelliklerin hangilerinin Kazanç yönetimiyle değiştirildiği ve Kazanç yönetimini etkinleştirdikten sonra hangi özelliklerin devre dışı bırakıldığı da açıklanmaktadır.
 
 > [!IMPORTANT]
 > **Üretim** ortamında Kazanç yönetimini etkinleştirdikten sonra devre dışı bırakamazsınız. **Üretim** ortamında etkinleştirmeden önce Kazanç yönetimini **Korumalı alan** ortamında etkinleştirmenizi ve test etmenizi öneririz. Eski Kazanç işlevi ile ek kurulum gerektiren yeni Kazanç yönetimi işlevi arasında önemli farklar vardır ve üretim ortamına alınmadan önce test edilmesi gerekir.

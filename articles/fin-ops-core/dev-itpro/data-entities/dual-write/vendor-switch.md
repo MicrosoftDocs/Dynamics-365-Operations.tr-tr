@@ -4,24 +4,17 @@ description: Bu konu Finance and Operations uygulamaları ile Dataverse arasınd
 author: RamaKrishnamoorthy
 ms.date: 09/20/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 24a39f35b81c47fb7f17adf335738ac6a32713308be90f6194d24908e152884e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 21f48574d34b810c8ca554a55f1c063893a34b4d
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769233"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416821"
 ---
 # <a name="switch-between-vendor-designs"></a>Satıcı tasarımları arasında geçiş yapma
 

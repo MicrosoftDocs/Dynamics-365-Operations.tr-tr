@@ -2,7 +2,7 @@
 title: ER uygulamasına özgü parametreleri kullanmak için Arama veri kaynaklarını yapılandırma
 description: Bu konu, Elektronik raporlama (ER) biçimlerindeki Arama veri kaynaklarını ER uygulamasına özgü parametreleri kullanacak şekilde nasıl yapılandıracağınızı açıklar.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723201"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343441"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>ER uygulamasına özgü parametreleri kullanmak için Arama veri kaynaklarını yapılandırma 
 
@@ -69,7 +69,7 @@ Seçilen ER biçiminin arama kurallarını, yapılandırılan veri kaynağının
 Aşağıdaki şekil, **Hesaplanan alan** türündeki `Model.Data.Summary.LevelByLookup` veri kaynağının gerekli parametreleri sağlayan yapılandırılmış **Arama** veri kaynağını çağırmak üzere nasıl yapılandırılabileceği gösterilmiştir. Bu çağrıyı çalışma zamanında işlemek için ER, sağlanan koşulları sağlayan ilk kuralı bulmak üzere tanımlanan dizideki yapılandırılan kurallar listesinden geçer. Bu örnekte, sağlanan vergi koduyla eşleşen kodu içeren kural verilmektedir. Sonuç olarak, en uygun kural bulunur ve bulunan kural için yapılandırılan numaralandırma değeri bu veri kaynağı tarafından döndürülür.
 
 > [!NOTE]
-> Uygulanabilir bir kural bulunamazsa özel durum oluşur. Bu özel durumların oluşmasını önlemek için, yapılandırılmamış bir değer olduğunda veya değer olmadığında durumları işlemek üzere kurallar listesinin sonunda ek kurallar oluşturun. **\*Boş değil\*** ve **\*Boş\*** seçeneklerini uygun şekilde kullanın.  
+> Uygulanabilir bir kural bulunamazsa özel durum oluşur. Bu özel durumların oluşmasını önlemek için, yapılandırılmamış bir değer olduğunda veya değer olmadığında durumları işlemek üzere kurallar listesinin sonunda ek kurallar oluşturun. **\*Boş değil**\* ve **\*Boş**\* seçeneklerini uygun şekilde kullanın.  
 >
 > ![Yapılandırılan Arama veri kaynağını çağırmak için bir veri kaynağı ekleme.](./media/er-lookup-data-sources-img7.png)
 

@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720610"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343668"
 ---
 # <a name="budgeting-overview"></a>Bütçelemeye genel bakış
 
@@ -38,7 +38,7 @@ Bütçe kayıt girişleri oluşturmak için birden çok yöntem vardır:
 
 -   Belge bilgilerini **bütçe kayıt girişleri** sayfasına el ile girin.
 -   **Bütçe kayıt girişleri** sayfasında **Excel'de aç** düğmesini tıklatarak açabileceğiniz Microsoft Excel şablonunu kullanın.
--   Bütçe kayıt girişlerini almak için Veri yönetiminde **Bütçe Hesabı Girişleri** veri varlığını kullanın. Bu yöntemi kullanmayı ve bütçe hesabı girişlerini sisteme almanız gerektiğinde **Ayarlama tabanlı** **işlem** parametresini kullanmayı düşünmelisiniz.
+-   Bütçe kayıt girişlerini almak için Veri yönetiminde **Bütçe Hesabı Girişleri** veri varlığını kullanın. Bütçe hesabı girişlerini sisteme almanız gerektiğinde bu yöntemi ve **Ayarlama tabanlı işleme** parametresini kullanmayı düşünmelisiniz.
 -   Şirket bütçe verileri hazırlamak için bütçe planlama işlevini kullanıyorsa, **bütçe kayıt girdisi oluşturur** dönemsel işlemini kullanabilirsiniz.
 
 Bütçe kayıt girişi, bütçe bakiyeleri güncelleştirildiğinde tamamlandı olarak kabul edilir. **Bütçe kayıt girişleri** sayfası üzerinde, seçilen bir bütçe kaydı girişi veya birden fazla giriş için **Bütçe bakiyelerini güncelleştir**'i tıklatın. Bütçe bakiyelerini güncelleştirdikten sonra, bütçe kayıt girişi değişiklikleri durumu **Tamamlandı** olarak değişir. Tamamlanan bütçe kayıt girişi düzenleme için yeniden açılamaz. Bu nedenle, bütçe verilerini ayarlanmalıysa, tamamlanan bütçe kayıt giriş verileri düzeltmek yerine yeni bir bütçe kayıt girişi oluşturmanız gerekir.
@@ -50,7 +50,7 @@ Sonra, bütçe kayıt girişleri onayını yöneten ilkeler varsa, bütçe tür�
 
 **Bütçeleme boyutları** sayfasında, hesap planında kullanılan boyutlara göre, bütçeleme için kullanılan mali boyutları seçmeniz gerekir. Tüm mali boyutları veya bunların alt kümelerini bütçeleme için seçebilirsiniz.
 
-Tüm veya bazı bütçelere karşılık gelen bir *bütçe modeli* tanımlayın. tüm bütçe kayıt girişleri için tek bir bütçe modeli kullanabilirsiniz. Alternatif olarak, bütçe türü, coğrafi konumu veya bütçenin sınıflandırılabildiği başka bir yolla dayalı ayrı modeller oluşturabilirsiniz. 
+Bütçelerin tamamına veya bazılarına karşılık gelen bir *bütçe modeli* tanımlayın. tüm bütçe kayıt girişleri için tek bir bütçe modeli kullanabilirsiniz. Alternatif olarak, bütçe türü, coğrafi konumu veya bütçenin sınıflandırılabildiği başka bir yolla dayalı ayrı modeller oluşturabilirsiniz. 
 
 > [!NOTE] 
 > Bütçe denetimi kullanılırsa, tek bir bütçe modeli belirli bir bütçe döngüsü zaman aralığıyla ilişkilendirebilirsiniz. 

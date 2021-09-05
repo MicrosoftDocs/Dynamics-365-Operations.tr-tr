@@ -1,6 +1,6 @@
 ---
 title: Borç hesaplarından kıymetler oluşturup alın
-description: Bu görev kılavuzu size satınalma işlemiyle sabit kıymet oluşturma ve alımını gösterecek.
+description: Bu yordam, satınalma işlemiyle bir sabit kıymet oluşturmayı ve alımını açıklar.
 author: saraschi2
 ms.date: 08/13/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 035fa86f0ff09faaa21c561cf7934455a6883cd8a7f917ac95bc7d096294d824
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dbac069362a15b5ab1d2dbf88a732a14a3cf709d
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743013"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394670"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Borç hesaplarından kıymetler oluşturup alın
 
 [!include [banner](../../includes/banner.md)]
 
-Bu görev kılavuzu size satınalma işlemiyle sabit kıymet oluşturma ve alımını gösterecek.  Kılavuzda Muhasebeci, Borç hesabı memurları ve demo USMF şirketi kullanılmaktadır.
+Bu yordam, satınalma işlemiyle bir sabit kıymet oluşturmayı ve alımını açıklar.  Kılavuzda Muhasebeci, Borç hesabı memurları ve demo USMF şirketi kullanılmaktadır.
 
 
 ## <a name="set-fixed-assets-parameters"></a>Sabit kıymet parametrelerini ayarlayın

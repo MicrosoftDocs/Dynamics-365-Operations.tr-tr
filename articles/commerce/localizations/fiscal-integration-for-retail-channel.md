@@ -1,8 +1,9 @@
 ---
 title: Commerce kanalları için mali tümleştirmeye genel bakış
 description: Bu konu, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine genel bakış sağlar.
-author: josaw
-ms.date: 02/01/2019
+author: EvgenyPopovMBS
+manager: annbe
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,26 +16,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 6545f3ee488cdd98530839f546ca2e6a434194437dfa98712a1a6ac3407afdbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733953"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343299"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Giriş
+Bu konu, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine bir genel bakıştır. 
 
-Bu konu, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine bir genel bakıştır. Mali tümleştirme, satışların yerel mali yasalar ile mali kaydını etkinleştiren ve perakende sektöründe veri kaçakçılığını önlemeyi amaçlayan çeşitli mali cihazlar ve servisler ile tümleştirmedir. Mali tümleştirme ile kapsanabilecek bazı tipik senaryolar şunlardır:
+Mali tümleştirme, satışların yerel mali yasalar ile mali kaydını etkinleştiren ve perakende sektöründe veri kaçakçılığını önlemeyi amaçlayan çeşitli mali cihazlar ve servisler ile tümleştirmedir. Mali tümleştirme ile kapsanabilecek bazı tipik senaryolar şunlardır:
 
 - Satış noktası (POS) ile bağlantılı bir mali cihazda bir satışı kaydetmek, örneğin mali yazıcı gibi ve müşteriye bir mali giriş yazdırmak.
 - Retail POS içinde tamamlanan satışlar ve iadeler için veri dairesi tarafından işletilen harici bir web hizmetine güvenli bir biçimde bilgi göndermek.
 - Dijital imzalar kullanarak satış hareketlerini değiştirilememesini garanti etmek.
 
-Mali tümleştirme işlevi, Retail POS ve mali cihazlar ve servisler arasındaki tümleştirmeyi daha da geliştirmek ve özelleştirmek için ortak çözüm sağlayan bir çerçevedir. Bu işlev, belirli ülkeler ve bölgeler için temel senaryolarını destekleyen mali tümleştirme örnekleri de içerir ve belirli mali cihazlar ve servisler ile çalışır. Mali tümleştirme örneği, Commerce bileşenlerinin çeşitli eklentilerinden oluşur ve yazılım geliştirme paketine (SDK) dahildir. Mali tümleştirme örnekleri hakkında daha fazla bilgi için bkz. [Retail SDK'da mali tümleştirme örnekleri](#fiscal-integration-samples-in-the-retail-sdk). Retail SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Mali tümleştirme işlevi, Retail POS ve mali cihazlar ve servisler arasındaki tümleştirmeyi daha da geliştirmek ve özelleştirmek için ortak çözüm sağlayan bir çerçevedir. Bu işlev, belirli ülkeler ve bölgeler için temel senaryolarını destekleyen mali tümleştirme örnekleri de içerir ve belirli mali cihazlar ve servisler ile çalışır. Mali tümleştirme örneği, Commerce bileşenlerinin çeşitli eklentilerinden oluşur ve yazılım geliştirme paketine (SDK) dahildir. Mali tümleştirme örnekleri hakkında daha fazla bilgi için bkz. [Commerce SDK'sinde mali tümleştirme örnekleri](#fiscal-integration-samples-in-the-commerce-sdk). Commerce SDK'sini yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Mali tümleştirme örneği tarafından desteklenmeyen diğer senaryoları desteklemek için, Retail POS'u diğer mali cihazlar ve hizmetlerle tümleştirmek veya diğer ülke ve bölgelerin gereksinimlerini karşılamak için mevcut mali tümleştirme örneğini genişletmeniz veya mevcut bir örneği örnek olarak kullanarak yeni bir örnek oluşturmanız gerekir.
 
@@ -55,13 +56,13 @@ Belirli bir POS kaydı için bir mali kayıt işlemi, POS işlev profilindeki ka
 Aşağıdaki örnek tipik mali kayıt yürütme akışı mali bir aygıtı gösterir. Akışı POS içindeki (örneğin, bir satış hareketi sonlandırma) bir etkinlik ile başlar ve aşağıdaki sıralı adımları uygular:
 
 1. POS, CRT'den bir mali belge talep eder.
-2. CRT, geçerli etkinliğin mali kayıt gerektirip gerektirmediğini belirler.
-3. Mali kayıt işlemi ayarlarına dayalı olarak, CRT bir mali bağlayıcıyı ve mali kayıt için kullanılacak karşılık gelen mali belge sağlayıcısını belirler.
-4. CRT, bir hareket veya etkinliği temsil eden bir mali belge oluşturan mali belge sağlayıcısını çalıştırır (örneğin bir XML belgesi).
-5. POS, CRT'nin hazırladığı belgeyi Donanım istasyonuna gönderir.
-6. Donanım istasyonu, mali belgeyi işleyen mali bağlayıcıyı çalıştırır ve bunu mali cihaz veya hizmete iletişim kurar.
-7. POS, mali cihaz veya servisten gelen yanıtı analiz ederek mali kaydın başarılı olup olmadığını anlar.
-8. CRT, yanıtı kanal veritabanına kaydeder.
+1. CRT, geçerli etkinliğin mali kayıt gerektirip gerektirmediğini belirler.
+1. Mali kayıt işlemi ayarlarına dayalı olarak, CRT bir mali bağlayıcıyı ve mali kayıt için kullanılacak karşılık gelen mali belge sağlayıcısını belirler.
+1. CRT, bir hareket veya etkinliği temsil eden bir mali belge oluşturan mali belge sağlayıcısını çalıştırır (örneğin bir XML belgesi).
+1. POS, CRT'nin hazırladığı belgeyi Donanım istasyonuna gönderir.
+1. Donanım istasyonu, mali belgeyi işleyen mali bağlayıcıyı çalıştırır ve bunu mali cihaz veya hizmete iletişim kurar.
+1. POS, mali cihaz veya servisten gelen yanıtı analiz ederek mali kaydın başarılı olup olmadığını anlar.
+1. CRT, yanıtı kanal veritabanına kaydeder.
 
 ![Çözüm şeması.](media/emea-fiscal-integration-solution.png "Çözüm şeması")
 
@@ -117,6 +118,8 @@ Bir mali hareket aşağıdaki ayrıntıları saklar:
 - Mali kaydın durumu: **Tamamlandı**, başarılı kayıt için, **Atlandı** eğer operatör **Atlama** seçeneğini başarısız bir kayıt için seçtiyse veya **Kaydedildi olarak işaretle** eğer operatör **Kaydedildi olarak işaretle** seçeneğini seçtiyse.
 - Seçilen bir mali hareket ile ilgili bilgi kodu hareketleri. Bilgi kodu hareketlerini görüntülemek için **Mali hareketler** hızlı sekmesinde, **Atlanmış** veya **Kaydedildi olarak işaretlenmiş** bir mali hareketi seçin ve sonra **Bilgi kodu hareketleri**'ni seçin.
 
+**Genişletilmiş veri**'yi seçerek mali hareketin bazı özelliklerini de görüntüleyebilirsiniz. Görüntülenebilen özelliklerin listesi, mali hareketi oluşturan mali kayıt işlemine özgüdür. Örneğin, Fransa'da geçerli olan dijital imzalama işlevi için dijital imza, sıra numarası, sertifika parmak izi, karma algoritma tanımlaması ve diğer mali hareket özelliklerini görüntüleyebilirsiniz.
+
 ## <a name="fiscal-texts-for-discounts"></a>İskontolar için mali metinler
 
 Bazı ülkeler ve bölgeler, farklı türde iskontolar uygulandığında mali girişler üzerinde yazdırılması gereken ek metinler için gereksinimlere sahiptir. Mali tümleştirme işlevi, bir mali girişteki bir iskonto satırından sonra iskonto için bir özel metin ayarlamanıza olanak sağlar. El ile iskontolar için bir mali metni POS işlevselliği profilindeki **Ürün iskontosu** bilgi kodu olarak belirtilen bir mali metin için yapılandırabilirsiniz. İskontolar için mali metinleri ayarlama hakkında daha fazla bilgi için bkz. [İskontolar için mali metinler ayarlama](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
@@ -128,26 +131,29 @@ Mali tümleştirme işlevselliği, tümleştirilmiş mali cihaz veya hizmete ili
 - Karşılık gelen eylemleri çalıştıran yeni düğmelerin POS ekranı düzenine eklenmesi gerekir. Daha fazla bilgi için bkz. [POS'tan mali X/Z raporlarını ayarla](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
 - Mali tümleştirme örneğinde, bu operasyonların mali cihazda karşılık gelen operasyonlarla eşleşmesi gerekir.
 
-## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Retail SDK'daki mali tümleştirme örnekleri
+## <a name="fiscal-integration-samples-in-the-commerce-sdk"></a>Commerce SDK'sindeki mali tümleştirme örnekleri
 
-Aşağıdaki mali tümleştirme örnekleri Retail SDK içerisinde şu anda kullanılabilir:
+Aşağıdaki mali tümleştirme örnekleri Commerce SDK'si içerisinde şu anda kullanılabilir:
 
-- [İtalya için yazar kasa tümleştirme örneği](emea-ita-fpi-sample.md)
-- [Polonya için yazar kasa tümleştirme örneği](emea-pol-fpi-sample.md)
-- [Avusturya için mali kayıt hizmeti tümleştirme örneği](emea-aut-fi-sample.md)
-- [Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği](emea-cze-fi-sample.md)
+- [İtalya için yazarkasa tümleştirme örneği](./emea-ita-fpi-sample.md)
+- [Polonya için yazar kasa tümleştirme örneği](./emea-pol-fpi-sample.md)
+- [Avusturya için mali kayıt hizmeti tümleştirme örneği](./emea-aut-fi-sample.md)
+- [Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği](./emea-cze-fi-sample.md)
 - [İsveç için kontrol birimi tümleştirmesi örneği](./emea-swe-fi-sample.md)
 - [Almanya için mali kayıt hizmeti tümleştirme örneği](./emea-deu-fi-sample.md)
 
-Aşağıdaki mali tümleştirme işlevi de ayrıca Retail SDK içinde kullanılabilir ancak mali tümleştirme çerçevesinin avantajlarından faydalanmaz. Bu işlevin mali tümleştirme çerçevesine geçirilmesi daha sonraki güncelleştirmeler için planlanmıştır.
+Aşağıdaki mali tümleştirme işlevi, mali tümleştirme çerçevesi kullanılarak da uygulanır ancak kullanıma hazır olarak sunulur ve Commerce SDK'sine dahil değildir:
 
+- [Brezilya için mali kayıt](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
+- [Fransa için dijital imza](./emea-fra-cash-registers.md)
 
-- [Fransa için dijital imza](emea-fra-cash-registers.md)
-- [Norveç için dijital imza](emea-nor-cash-registers.md)
+Aşağıdaki mali tümleştirme işlevi de ayrıca Commerce SDK'si içinde kullanılabilir ancak mali tümleştirme çerçevesinin avantajlarından faydalanmaz. Bu işlevin mali tümleştirme çerçevesine geçirilmesi daha sonraki güncelleştirmeler için planlanmıştır.
 
-Retail SDK'da kullanılabilen aşağıdaki eski mali tümleştirme işlevi mali tümleştirme çerçevesini kullanmaz ve sonraki güncelleştirmelerde kullanım dışı bırakılacaktır:
+- [Norveç için dijital imza](./emea-nor-cash-registers.md)
+
+Commerce SDK'sinde kullanılabilen aşağıdaki eski mali tümleştirme işlevi mali tümleştirme çerçevesini kullanmaz ve sonraki güncelleştirmelerde kullanım dışı bırakılacaktır:
 
 - [İsveç için kontrol birimi tümleştirmesi örneği (eski)](./retail-sdk-control-unit-sample.md)
-
+- [Fransa için dijital imza (eski)](./emea-fra-deployment.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

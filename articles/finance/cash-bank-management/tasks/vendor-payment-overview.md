@@ -1,6 +1,6 @@
 ---
 title: Satıcı ödemesine genel bakış
-description: Bu görev kılavuzu size satıcı ödemeleri oluşturmak için çeşitli yöntemleri gösterecektir. Bunların arasında ödeme teklifi veya tek seferlik bir ödemeyi elden girmek de bulunmaktadır.
+description: Bu yönerge satıcı ödemeleri oluşturmak için çeşitli yöntemler konusunda size yol gösterecektir. Bunların arasında ödeme teklifi veya tek seferlik bir ödemeyi el ile girmek de bulunmaktadır.
 author: kweekley
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 997d505cc89eaa39b2bac273a5ae381c1c892a9537cbaa9b45156ecbb6fd237c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721839"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394450"
 ---
 # <a name="vendor-payment-overview"></a>Satıcı ödemesine genel bakış
 
 [!include [banner](../../includes/banner.md)]
 
-Bu görev kılavuzu size satıcı ödemeleri oluşturmak için çeşitli yöntemleri gösterecektir. Bunların arasında ödeme teklifi veya tek seferlik bir ödemeyi elden girmek de bulunmaktadır. Bu yordam, USMF demo şirketini kullanır.
+Bu yönerge satıcı ödemeleri oluşturmak için çeşitli yöntemler konusunda size yol gösterecektir. Bunların arasında ödeme teklifi veya tek seferlik bir ödemeyi el ile girmek de bulunmaktadır. Bu yordam, USMF demo şirketini kullanır.
 
 1. **Gezinti bölmesi > Modüller > Borç hesapları > Ödemeler > Ödeme günlüğü**'ne gidin.
 2. **Yeni**'ye tıklayın.

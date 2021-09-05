@@ -2,7 +2,7 @@
 title: Commerce kanalları için mali tümleştirmeyi ayarlama
 description: Bu konu, mali tümleştirme işlevini Commerce kanalları için ayarlama hakkında yönergeler sağlar.
 author: josaw
-ms.date: 02/01/2019
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,28 +14,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fb48eb93d8cf4f26174441de65c0b105c5e8774c2030e844ec7bd1352bff64b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38ad2cc3dc7e511ac6e2ac9484d10ebd2d1d425d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719908"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343325"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeyi ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Giriş
-
 Bu konu, mali tümleştirme işlevini Commerce kanalları için ayarlama hakkında yönergeler sağlar. Mali tümleştirme hakkında daha fazla bilgi için bkz. [Commerce kanalları için mali tümleştirme genel bakışı](fiscal-integration-for-retail-channel.md).
 
 Mali tümleştirme Kurulumu işlemi aşağıdaki görevleri içerir:
 
-1. Mali aygıt veya mali yazıcı gibi mali kayıt amacıyla kullanılan hizmetleri gösteren mali yapılandırma.
-2. Mali aygıt veya hizmetler tarafından mali bağlayıcı kaydedilecek mali belgelerin belge sağlayıcılarını yapılandırın.
-3. Mali kayıt işlemi tanımlayan mali kayıt adımları ve mali bağlayıcı ve her adım için kullanılan sağlayıcıları mali belge sırasını yapılandır.
-4. Mali kayıt işlemini satış noktası (POS) işlev profillerine atayın.
-5. Donanım profilleri için bağlayıcı teknik profilleri atayın.
+- Mali aygıt veya mali yazıcı gibi mali kayıt amacıyla kullanılan hizmetleri gösteren mali yapılandırma.
+- Mali aygıt veya hizmetler tarafından mali bağlayıcı kaydedilecek mali belgelerin belge sağlayıcılarını yapılandırın.
+- Mali kayıt işlemi tanımlayan mali kayıt adımları ve mali bağlayıcı ve her adım için kullanılan sağlayıcıları mali belge sırasını yapılandır.
+- Mali kayıt işlemini satış noktası (POS) işlev profillerine atayın.
+- Donanım profilleri için bağlayıcı teknik profilleri atayın.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Mali kayıt işlemi ayarlamak
 
@@ -49,12 +47,12 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
         - Mali bağlayıcı grubu numarası
         - Kayıt işlemi numarası
 
-    2. **Commerce parametreleri** sayfasında, mali işlevsel profil numarası için numara serilerini tanımlayın.
+    1. **Commerce parametreleri** sayfasında, mali işlevsel profil numarası için numara serilerini tanımlayın.
 
     > [!NOTE]
     > Numara serileri isteğe bağlıdır. Tüm mali tümleştirme varlıkları için numaralar, numara serilerinden veya el ile tanımlanabilir.
 
-2. Mali bağlayıcılar ve mali belge sağlayıcıları.
+1. Mali bağlayıcılar ve mali belge sağlayıcıları.
 
     Bir mali belge sağlayıcısı, işlemlerini temsil eden mali belgeleri ve POS içerisinde, mali cihaz veya servis ile etkileşimde kullanılan kayıtları oluşturmaktan sorumludur. Örneğin, bir mali belge sağlayıcı XML biçiminde bir mali giriş gösterimi oluşturabilir.
 
@@ -65,22 +63,22 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
         > [!TIP]
         > **Görünüm**'ü seçerek, geçerli mali bağlayıcı ile ilişkili tüm işlevleri ve teknik profilleri görebilirsiniz.
 
-    2. **Mali belge sağlayıcıları** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali belge sağlayıcıları**), kullanmayı planladığınız her bir cihaz veya servis için bir XML yapılandırması karşıya yükleyin.
+    1. **Mali belge sağlayıcıları** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali belge sağlayıcıları**), kullanmayı planladığınız her bir cihaz veya servis için bir XML yapılandırması karşıya yükleyin.
 
         > [!TIP]
         > **Görünüm**'ü seçerek, geçerli mali belge sağlayıcı ile ilişkili tüm işlev profillerini görebilirsiniz.
 
-    Mali bağlayıcıların ve mali belge sağlayıcıların yapılandırma örnekleri için bkz. [Retail SDK'daki mali tümleştirme örnekleri](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk).
+    Mali bağlayıcıların ve mali belge sağlayıcıların yapılandırma örnekleri için bkz. [Commerce SDK'deki mali tümleştirme örnekleri](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-commerce-sdk).
 
     > [!NOTE]
     > Veri eşleme mali belge sağlayıcının parçası olarak kabul edilir. Aynı bağlayıcı için farklı veri eşlemeleri (mesela özel durum düzenlemeleri), farklı mali belge sağlayıcıları oluşturmanız gerekir.
 
-3. Bağlayıcı işlev profilleri ve bağlayıcı teknik profilleri oluşturun.
+1. Bağlayıcı işlev profilleri ve bağlayıcı teknik profilleri oluşturun.
 
     1. **Bağlayıcı işlev profilleri** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Bağlayıcı fonksiyonel profilleri**), bu mali bağlayıcıyla ilişkili bir mali bağlayıcı ve mali belge sağlayıcısının her bir kombinasyonu için bir bağlayıcı işlev profili oluşturun.
 
         1. Bir bağlayıcı adı seçin.
-        2. Bir belge sağlayıcı seçin.
+        1. Bir belge sağlayıcı seçin.
 
         Bir bağlayıcı işlev profilinde veri eşleme parametrelerini değiştirebilirsiniz. Mali belge sağlayıcı yapılandırmasındaki varsayılan parametreleri geri yüklemek için **Güncelleştir**'i seçin.
 
@@ -95,39 +93,39 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
         > [!NOTE]
         > Bağlayıcı işlev profilleri şirkete özeldir. Bir mali bağlayıcı ve mali belge sağlayıcısının kombinasyonunu farklı şirketlerde kullanmayı planlıyorsanız, her şirket için bir bağlayıcı işlev profili oluşturmalısınız.
 
-    2. **Bağlayıcı teknik profilleri** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Bağlayıcı teknik profilleri**), her bir mali bağlayıcı için bir bağlayıcı teknik profili oluşturun.
+    1. **Bağlayıcı teknik profilleri** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Bağlayıcı teknik profilleri**), her bir mali bağlayıcı için bir bağlayıcı teknik profili oluşturun.
 
         1. Bir bağlayıcı adı seçin.
-        2. Bir bağlayıcı türü seçin. Bir Donanım istasyonuna bağlı cihazlar için **Yerel**'i seçin.
+        1. Bir bağlayıcı türü seçin. Bir Donanım istasyonuna bağlı cihazlar için **Yerel**'i seçin.
 
             > [!NOTE]
             > Yalnızca yerel bağlayıcı desteklenmektedir.
 
         Bir bağlayıcı teknik profilindeki **Cihaz** ve **Ayarlar** sekmesindeki parametreler değiştirilebilir. Mali bağlayıcı yapılandırmasındaki varsayılan parametreleri geri yüklemek için **Güncelleştir**'i seçin. XML yapılandırmasının yeni sürümü yüklenirken, halihazırda kullanımda olan geçerli mali bağlayıcı veya mali belge sağlayıcıyı belirten bir ileti alırsınız. Bu yordam daha önce bir bağlayıcı işlev profili ve bağlayıcı teknik profillerinde el ile yapılmış olan değişiklikleri geçersiz kılmaz. Yeni bir yapılandırmadan varsayılan parametreler kümesini uygulamak için **Bağlayıcı işlev profilleri** sayfası veya **Bağlayıcı teknik profilleri** sayfasında **Güncelleştir**'i seçin.
 
-4. Mali bağlayıcı grupları oluşturun.
+1. Mali bağlayıcı grupları oluşturun.
 
     Bir mali bağlayıcı grubu, aynı işlevleri gerçekleştiren ve mali kayıt işleminin aynı adımında kullanılan mali bağlayıcıların fonksiyonel profillerini birleştirir. Örneğin, çok sayıda mali yazıcı modeli bir mağazasında kullanılabiliyorsa, bu mali yazıcılar için mali bağlayıcılar bir mali bağlayıcı grubunda birleştirilebilir.
 
     1. **Mali bağlayıcı grubu** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali bağlayıcı gruplar**), yeni bir mali bağlayıcı grubu oluşturun.
-    2. Konnektör grubuna işlevsel profiller ekleyin. **İşlev profilleri** sekmesinde, **Ekle**'yi seçin ve bir profil numarası seçin. Bir mali bağlayıcı grubundaki her bir mali bağlayıcı yalnızca bir fonksiyonel profile sahip olabilir.
-    3. Fonksiyonel profilinin kullanımını durdurmak için **Devre dışı bırak** seçeneğini **Evet** olarak seçin. Bu değişiklik yalnızca geçerli bağlayıcı grubu etkiler. Bağlayıcı başka gruplarda aynı işlev profili kullanmak için devam edebilirsiniz.
+    1. Konnektör grubuna işlevsel profiller ekleyin. **İşlev profilleri** sekmesinde, **Ekle**'yi seçin ve bir profil numarası seçin. Mali bağlayıcı grubundaki her bir mali bağlayıcı yalnızca bir işlevsel profile sahip olabilir.
+    1. Fonksiyonel profilinin kullanımını durdurmak için **Devre dışı bırak** seçeneğini **Evet** olarak seçin. Bu değişiklik yalnızca geçerli bağlayıcı grubu etkiler. Bağlayıcı başka gruplarda aynı işlev profili kullanmak için devam edebilirsiniz.
 
-5. Bir mali kayıt işlemi oluşturun.
+1. Bir mali kayıt işlemi oluşturun.
 
     Bir mali kayıt işlemi, kayıt adımlarının sıralaması ve her bir adım için kullanılacak mali bağlayıcı grubu ile tanımlanır.
 
     1. **Mali kayıt işlemi** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali kayıt işlemi**), mali kaydın her bir benzersiz işlemi için yeni bir kayıt oluşturun.
-    2. İşlem için kayıt adımları ekleyin:
+    1. İşlem için kayıt adımları ekleyin:
 
         1. **Ekle**'yi seçin.
-        2. Bir mali bağlayıcı türü seçin.
-        3. **Grup numarası** alanında, uygun bir mali bağlayıcı grubu seçin.
+        1. Bir mali bağlayıcı türü seçin.
+        1. **Grup numarası** alanında, uygun bir mali bağlayıcı grubu seçin.
 
-6. Mali kayıt işleminin varlıklarını POS profillerine atayın.
+1. Mali kayıt işleminin varlıklarını POS profillerine atayın.
 
     1. **POS işlevi profilleri** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> İşlevsellik profilleri**), mali kayıt işlemini bir POS işlev profiline atayın. **Düzenle**'yi seçin ve sonra **Mali kayıt işlemi** sekmesinde, **İşlem numarası** alanında bir işlem seçin.
-    2. **POS donanım profili** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> Donanım profilleri**), bağlayıcı teknik profillerini bir donanım profiline atayın. **Düzenle**'yi seçin, bir satırı **Mali çevre birimleri** sekmesinde ekleyin, daha sonra **Profil numarası** alanında, bir bağlayıcı teknik profilini seçin.
+    1. **POS donanım profili** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> Donanım profilleri**), bağlayıcı teknik profillerini bir donanım profiline atayın. **Düzenle**'yi seçin, bir satırı **Mali çevre birimleri** sekmesinde ekleyin, daha sonra **Profil numarası** alanında, bir bağlayıcı teknik profilini seçin.
 
     > [!NOTE]
     > Çok sayıda teknik profilleri, aynı donanım profiline ekleyebilirsiniz. Ancak, bir donanım profili veya POS işlevi profili herhangi bir mali bağlayıcı grubuyla yalnızca bir kesişime sahip olmalıdır.
@@ -139,7 +137,7 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
     - Mali belge sağlayıcısı, mali belge sağlayıcı yapılandırmasından veri eşleştirme ayarlarını kullanarak hareket/etkinlik verisini, örn. vergiler ve ödemeler gibi bilgileri bir mali belge oluşturulduğunda kullanır.
     - Mali belge sağlayıcısı bir mali belge oluşturduğunda, mali belge bunu olduğu gibi mali cihaza gönderebilir veya bunu ayrıştırıp ve sonra cihaz uygulama programlama arabirimi (API) komut sırasına dönüştürebilir, iletişimin nasıl ele alındığına bağlı olarak.
 
-7. **Mali kayıt işlemi** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali kayıt işlemi**), mali kayıt işlemini doğrulamak için **Doğrula**'yı seçin.
+1. **Mali kayıt işlemi** sayfasında (**Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali kayıt işlemi**), mali kayıt işlemini doğrulamak için **Doğrula**'yı seçin.
 
     Aşağıdaki durumlarda, bu tür doğrulama çalıştırmanız önerilir:
 
@@ -147,7 +145,7 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
     - Mevcut bir mali kayıt işleminde değişiklik yaptıktan ve bu değişiklikler farklı mali bağlayıcının çalışma zamanında seçilmesine neden olabildikten sonra (örneğin, bir mali kayıt işlemi adımı için bağlayıcı grubu değiştirdiğinizde, bir bağlayıcı grubundaki bağlayıcı işlev profilini etkinleştirin veya yeni bir bağlayıcı işlev profilini bir bağlayıcı grubuna ekleyin).
     - Bağlayıcı teknik profillerin donanım profillerine atamasında değişiklikler yaptıktan sonra.
 
-8. **Dağıtım zamanlaması** sayfasında, **1070** ve **1090** işlerini veriyi kanal veritabanına aktarmak için kullanın.
+1. **Dağıtım zamanlaması** sayfasında, **1070** ve **1090** işlerini veriyi kanal veritabanına aktarmak için kullanın.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>İskontolar mali metinleri ayarlama
 
@@ -156,11 +154,11 @@ Bazı durumlarda, bir iskonto uygulandığında özel bir metnin mali giriş üz
 - POS üzerinde uygulanacak el ile iskontolar için POS işlev profili içindeki **Ürün iskontosu** bilgi kodunda bilgi kodu veya bilgi kodu grubu için bir mali metin ayarlamalısınız.
 
     1. **Mali bağlayıcı grubu** sayfasında, **Mali giriş için metin**'i seçin.
-    2. **Bilgi kodları** sekmesinde, **Ekle**'yi seçin ve bir bilgi kodu veya bilgi kodu grubu seçin.
-    3. **Bilgi kodu numarası**'nda bir değer seçin.
-    4. **Alt kod numarası** alanında, seçilen bilgi kodu için bir alt kodun gerekli olması durumunda bir değer seçin.
-    5. **Mali giriş için metin** alnında, mali girişe yazdırılacak bir mali metin belirleyin.
-    6. **Kullanıcı girişini mali girişe yazdır** seçeneğini **Evet** olarak ayarlayarak mali girişteki metnin kullanıcının POS'ta yazdığı metin ile geçersiz kılınmasını sağlayın. Bu seçenek yalnızca **Metin** giriş türüne sahip bilgi kodları için geçerlidir.
+    1. **Bilgi kodları** sekmesinde, **Ekle**'yi seçin ve bir bilgi kodu veya bilgi kodu grubu seçin.
+    1. **Bilgi kodu numarası** alanında, bir değer seçin.
+    1. **Alt kod numarası** alanında, seçilen bilgi kodu için bir alt kodun gerekli olması durumunda bir değer seçin.
+    1. **Mali giriş için metin** alnında, mali girişe yazdırılacak bir mali metin belirleyin.
+    1. **Kullanıcı girişini mali girişe yazdır** seçeneğini **Evet** olarak ayarlayarak mali girişteki metnin kullanıcının POS'ta yazdığı metin ile geçersiz kılınmasını sağlayın. Bu seçenek yalnızca **Metin** giriş türüne sahip bilgi kodları için geçerlidir.
 
     > [!NOTE]
     > Bilgi kodu gruplarının bağlantılı bilgi kodlarının ve tetiklenmiş bilgi kodlarının kullanıldığı senaryoları destekleyen çeşitli bilgi kodlarını belirtebilirsiniz. Bu senaryolarda, mali giriş, iskontonun uygulandığı hareket satırına bağlantılı tüm bilgi kodlarını içeren mali metni içerecektir.
@@ -168,8 +166,8 @@ Bazı durumlarda, bir iskonto uygulandığında özel bir metnin mali giriş üz
 - Kanala özel iskontolarda, iskonto kimliği için bir mali metin tanımlamalısınız.
 
     1. **Mali bağlayıcı grubu** sayfasında, **Mali giriş için metin**'i seçin.
-    2. **İskontolar** sekmesinde, **Ekle**'yi seçin ve bir iskonto kimliği seçin.
-    3. **Mali giriş için metin** alnında, mali girişe yazdırılacak bir mali metin belirleyin.
+    1. **İskontolar** sekmesinde, **Ekle**'yi seçin ve bir iskonto kimliği seçin.
+    1. **Mali giriş için metin** alnında, mali girişe yazdırılacak bir mali metin belirleyin.
 
     > [!NOTE]
     > Birden fazla iskonto aynı hareket satırına uygulanıyorsa, mali metin bu iskonto satırıyla bağlantılı tüm mali metinleri içerecektir.
@@ -187,8 +185,8 @@ Mali tümleştirme içinde kullanılabilen hata işleme seçenekleri, mali kayı
     > [!NOTE]
     > **Hatada devam et** parametresi etkinse, **Atlamaya izin ver** ve **Kaydedildi olarak işaretlenmeye izin ver** parametreleri otomatik olarak devre dışı bırakılır.
 
-2. Hata işleme iletişim kutusundaki **Atla** ve **Kaydedildi olarak işaretle** seçenekleri, **Kaydı atlamaya izin ver veya kaydedildi olarak işaretle** iznine ihtiyaç duyar. Bu nedenle, **İzin grupları** sayfasında (**Retail ve Commerce \> Çalışanlar \> İzin grupları**), **Kaydı atlamaya izin ver veya kaydedildi olarak işaretle** iznini etkinleştirin.
-3. **Atla** ve **Kaydedildi olarak işaretle** seçenekleri, operatörlerin mali kayıt başarısız olduğunda ek bilgiler girmesine olanak sağlar. Bu işlevi kullanılabilir kılmak için **Atla** ve **Kaydedildi olarak işaretle** bilgi kodlarını bir mali bağlayıcı grubunda belirtmelisiniz. Operatörlerin girdiği bilgi, mali işleme bağlı bir bilgi kodu hareketi olarak kaydedilir. Bilgi kodları hakkında daha fazla bilgi için bkz. [Bilgi kodları ve bilgi kodu grupları](../info-codes-retail.md).
+1. Hata işleme iletişim kutusundaki **Atla** ve **Kaydedildi olarak işaretle** seçenekleri, **Kaydı atlamaya izin ver veya kaydedildi olarak işaretle** iznine ihtiyaç duyar. Bu nedenle, **İzin grupları** sayfasında (**Retail ve Commerce \> Çalışanlar \> İzin grupları**), **Kaydı atlamaya izin ver veya kaydedildi olarak işaretle** iznini etkinleştirin.
+1. **Atla** ve **Kaydedildi olarak işaretle** seçenekleri, operatörlerin mali kayıt başarısız olduğunda ek bilgiler girmesine olanak sağlar. Bu işlevi kullanılabilir kılmak için **Atla** ve **Kaydedildi olarak işaretle** bilgi kodlarını bir mali bağlayıcı grubunda belirtmelisiniz. Operatörlerin girdiği bilgi, mali işleme bağlı bir bilgi kodu hareketi olarak kaydedilir. Bilgi kodları hakkında daha fazla bilgi için bkz. [Bilgi kodları ve bilgi kodu grupları](../info-codes-retail.md).
 
     > [!NOTE]
     > **Ürün** tetikleme işlevi, mali bağlayıcı gruplarındaki **Atla** ve **Kaydedildi olarak işaretle** için kullanılan bilgi kodlarında desteklenmemektedir.
@@ -201,7 +199,7 @@ Mali tümleştirme içinde kullanılabilen hata işleme seçenekleri, mali kayı
     > - **Mali belge** - Başarıyla kaydedilmesi gereken zorunlu bir belge (örn. bir mali giriş).
     > - **Mali olmayan belge** - Hareket veya etkinlik için destekleyici bir belge (örn. bir hediye kartı fişi).
 
-4. Bir sağlık denetimi hatası ortaya çıktıktan sonra operatörün güncel işlemi işlemeye devam etmesi (örneğin, bir hareketin oluşturulması veya sonlandırılması) için **Sağlık denetimi hatasını atlamaya izin ver** iznini **İzin grupları** sayfasından etkinleştirmeniz gerekir (**Retail ve Commerce \> Personeller \> İzin grupları**). Sağlık denetimi işlemi hakkında daha fazla bilgi için bkz. [Mali kayıt sağlık denetimi](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+1. Bir sağlık denetimi hatası ortaya çıktıktan sonra operatörün güncel işlemi işlemeye devam etmesi (örneğin, bir hareketin oluşturulması veya sonlandırılması) için **Sağlık denetimi hatasını atlamaya izin ver** iznini **İzin grupları** sayfasından etkinleştirmeniz gerekir (**Retail ve Commerce \> Personeller \> İzin grupları**). Sağlık denetimi işlemi hakkında daha fazla bilgi için bkz. [Mali kayıt sağlık denetimi](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
 
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Mali X/Z raporlarını POS'tan ayarlamak
 
@@ -210,9 +208,9 @@ Mali X/Z raporlarının POS'tan çalıştırılmasını etkinleştirmek için bi
 - **Düğme kılavuzlar** sayfasında, [Düğme grubu tasarımcısını kullanarak POS düzenlerine POS işlemleri ekleme](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) içindeki talimatları kullanarak tasarımcıyı yükleyin ve bir POS düzenini güncelleştirin.
 
     1. Güncelleştirilecek düzeni seçin. 
-    2. Yeni bir düğme ekleyin ve **Mali x yazdır** düğmesi özelliğini ayarlayın.
-    3. Yeni bir düğme ekleyin ve **Mali Z yazdır** düğmesi özelliğini ayarlayın.
-    4. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişiklikleri kanal veritabanına aktarın.
+    1. Yeni bir düğme ekleyin ve **Mali x yazdır** düğmesi özelliğini ayarlayın.
+    1. Yeni bir düğme ekleyin ve **Mali Z yazdır** düğmesi özelliğini ayarlayın.
+    1. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişiklikleri kanal veritabanına aktarın.
 
 ## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Ertelenen mali kaydın el ile yürütülmesini etkinleştir
 
@@ -221,8 +219,8 @@ Ertelenen mali kaydın el ile yürütülmesini etkinleştirmek için POS düzeni
 - **Düğme kılavuzlar** sayfasında, [Düğme grubu tasarımcısını kullanarak POS düzenlerine POS işlemleri ekleme](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) içindeki talimatları kullanarak tasarımcıyı yükleyin ve bir POS düzenini güncelleştirin.
 
     1. Güncelleştirilecek düzeni seçin.
-    2. Yeni bir düğme ekleyin ve **Mali kayıt işlemini tamamla** düğmesi özelliğini ayarlayın.
-    3. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişikliklerinizi kanal veritabanına aktarın.
+    1. Yeni bir düğme ekleyin ve **Mali kayıt işlemini tamamla** düğmesi özelliğini ayarlayın.
+    1. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişikliklerinizi kanal veritabanına aktarın.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

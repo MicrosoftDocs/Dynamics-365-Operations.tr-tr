@@ -2,7 +2,7 @@
 title: Satır tanımı hücrelerini değiştirme
 description: Bu konu bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır.
 author: ShylaThompson
-ms.date: 02/11/2019
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e0bab0c9ecff1161612a6654209735b23a40aa6d085c6e83cdd44d3bf41e8b5e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734732"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344897"
 ---
 # <a name="modify-row-definition-cells"></a>Satır tanımı hücrelerini değiştirme
 

@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 08ece85c773538283fa31ed72e8af61e2da03845fbaa4e6b0507a65626bce803
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720538"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344070"
 ---
 # <a name="one-voucher"></a>Bir fiş
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>"Bir fiş" nedir?
@@ -81,7 +82,7 @@ Microsoft, müşterilerle yapılan görüşmelere dayanarak, müşterilerin Bir 
 
 Aşağıdaki senaryolar yalnızca Bir fiş işlevi kullanılarak gerçekleştirilebilir. Kuruluşunuzda bu senaryolardan herhangi biri varsa, fişe girilecek birden çok hareketi etkinleştirmeniz gerekir; **genel muhasebe parametreleri** sayfasındaki **Tek bir fiş içinde birden fazla harekete izin ver** parametresi ayarını değiştirin. Bu işlevsel boşluklar, sonraki sürümlerdeki diğer özellikler ile doldurulacaktır.
 
-> [!Note]
+> [!NOTE]
 > [Aşağıdaki senaryolar için **Tek bir fiş içinde birden fazla harekete izin ver** alanı, **Genel muhasebe parametreleri** sayfasındaki **Genel** hızlı sekmesinde Evet olarak ayarlanmalıdır.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Satıcı veya müşteri ödemelerini özet biçiminde banka hesabına nakletme
@@ -115,15 +116,7 @@ Bu senaryoda, tek fişteki müşteriler aynı müşteridir çünkü hareket mü�
 İade periyodik görevi Alacak hesapları modülünden çalışırsa bakiyeyi bir müşteriden satıcıya taşımak için bir hareket oluşturur. Bu senaryo için, müşteriye iade yapmak üzere Bir fiş kullanılmalıdır.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Sabit kıymet bakımı: Yakalama amortismanı, bölünmüş kıymet, elden çıkarmada amortismanı hesaplama
-Aşağıdaki sabit kıymet hareketleri de tek bir fiş içinde birden fazla hareket oluştur:
-
-- Bir kıymet üzerinde ek bir alım yapılır ve "yakalama" amortismanı hesaplanır.
-- Bir kıymet bölünür.
-- Elden çıkarma amortismanını hesaplamak için bir parametre açılır ve ardından kıymet elden çıkarılır.
-- Bir kıymetin servis tarihi alım tarihinden öncedir. Bu nedenle, bir amortisman düzeltmesi deftere nakledilir.
-
-> [!Note]
-> Hareketleri girerken tüm hareketlerin aynı sabit kıymet için geçerli olduğundan emin olun. Fiş birden fazla sabit kıymet içeriyorsa **Yeni Fiş** alanı, Genel muhasebedeki **Günlük adları** sayfasında Yalnızca bir fiş numarası olarak ayarlansa bile deftere nakledilmez. Fişe birden fazla sabit kıymet eklerseniz **Fiş başına yalnızca bir sabit kıymet hareketi olabilir** iletisi görüntülenir ve fişi deftere nakledemezsiniz.  
+10.0.21 ve sonraki sürümlerde, farklı fiş numaraları kullanılarak amortismanı yakalamak, sabit kıymeti bölmek ve sabit kıymeti elden çıkarmak üzere amortismanı hesaplamak için sabit kıymet hareketleri oluşturulacaktır.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a>Kambiyo senetleri ve senetler
 Kambiyo senetleri ve senetler, Bir fiş kullanımı gerektirir çünkü hareketler, müşteri veya satıcı bakiyesini ödeme durumuna bağlı olarak Alacak hesapları/Borç hesapları genel muhasebe hesabından başkasına taşır.

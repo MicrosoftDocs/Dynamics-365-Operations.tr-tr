@@ -1,8 +1,8 @@
 ---
 title: Tüm şirketler için Kazanç yönetimi ve Personel self servisi parametrelerini ayarlama
-description: Microsoft Dynamics 365 Human Resources'ta Kazanç yönetimi ve Personel self servisi için parametreleri yapılandırma.
-author: andreabichsel
-ms.date: 12/07/2020
+description: Microsoft Dynamics 365 Human Resources uygulamasında Kazanç yönetimi ve Personel self servisi için parametreleri yapılandırın.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9c6761c549aaa38d16616f3e9e9084cbff7c93d9350f8adc50720d263efaff25
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cdda08ad2debe6ffe40f1f3fd2ac84ce9fc1d620
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732789"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423435"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Tüm şirketler için Kazanç yönetimi ve Personel self servisi parametrelerini ayarlama
 
@@ -61,7 +61,7 @@ Microsoft Dynamics 365 Human Resources'ta kazanç planları kurmadan önce, kaza
 
    | Alan | Tanım |
    | --- | --- |
-   | **Kazanç doğrulaması** | Kendi kendine faydaların kullanıma alma sırasında kullanılacak doğrulama metni. |
+   | **Kazanç doğrulaması** | Self servis kazançların kullanıma alınması sırasında kullanılacak doğrulama metni. |
    | **Görevlileri otomatik olarak seç** | Plan seçeneklerine uygunluğuna göre otomatik olarak bağımlılar ve lehdarlar oluşturulup oluşturulmayacağını belirtir. |
 
 3. **Kaydet**'i seçin.

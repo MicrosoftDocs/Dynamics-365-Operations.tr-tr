@@ -1,8 +1,8 @@
 ---
 title: Sabit kıymet hareketi seçenekleri
 description: Bu konu, sabit kıymet hareketleri oluşturmak için kullanılabilecek çeşitli yöntemler açıklanmaktadır.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764275"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344702"
 ---
 # <a name="fixed-asset-transaction-options"></a>Sabit kıymet hareketi seçenekleri
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konu, sabit kıymet hareketleri oluşturmak için kullanılabilecek çeşitli yöntemler açıklanmaktadır.
 
@@ -58,14 +59,16 @@ Tüm sabit kıymet hareket türleri Genel günlük sayfasına nakledilebilir. Ay
 | Amortisman                        | Sabit kıymetler             | Sabit kıymetler                              |
 |                                     | Genel muhasebe           | Yevmiye fişi                           |
 | Elden çıkarma                            | Sabit kıymetler             | Sabit kıymetler                              |
-| ** **                               | Genel muhasebe           | Yevmiye fişi                           |
-| ** **                               | Alacak hesapları      | Dekont / Serbest metin faturası                         |
+|                                     | Genel muhasebe           | Yevmiye fişi                           |
+|                                     | Alacak hesapları      | Dekont / Serbest metin faturası                         |
 
-Sabit kıymetlerin amortisman dönemleri kalan değerleri, bir amortisman hareketi türü günlük satırı, el ile oluşturulur ve bir veri varlığı üzerinden içeri aktarılır. Bu değer, amortisman teklif işlemi, günlük satırı oluşturmak için kullanıldığında güncelleştirilir.
+Amortisman hareket türü günlük satırı el ile oluşturulduğunda veya bir veri varlığı aracılığıyla içeri aktarıldığında kalan değer sabit kıymetin amortisman dönemleri için güncelleştirilmez. Kalan değer, amortisman teklif işlemi, günlük satırı oluşturmak için kullanıldığında güncelleştirilir.
 
 Daha fazla bilgi için bkz: [Sabit kıymet tümleştirmesi](fixed-asset-integration.md).
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Farklı makbuz numaraları gerektiren hareketler
+Sistem, aynı dönemde amortismanı iki kez deftere nakletmeyi engeller. Örneğin, iki kullanıcı Ocak ayı için ayrı ayrı amortisman teklifleri oluşturursa ilk kullanıcıdan gelen amortisman ilk yevmiye defterine nakledilir. İkinci kullanıcı amortismanı ikinci yevmiye defterine naklettiğinde sistem, amortismanın son çalıştırıldığı tarihi denetler ve amortismanı aynı dönemde ikinci kez deftere nakletmez.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Farklı bir fiş numarası gerektiren hareketler
 
 Aşağıdaki Sabit kıymet hareketleri farklı makbuz numaraları kullanır:
 

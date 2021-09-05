@@ -1,8 +1,8 @@
 ---
 title: Finance ile tümleştirmeyi yapılandırma
-description: Bu makalede, Dynamics 365 Human Resources'tan Dynamics 365 Finance'e tümleştirme için kullanılabilecek işlevler açıklanmaktadır.
-author: andreabichsel
-ms.date: 03/26/2020
+description: Bu konuda, Dynamics 365 Human Resources ve Dynamics 365 Finance arasındaki tümleştirme açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d4bbd0c95126bd869fafccc3e7c63f65f939d8c6b2a1afec8ff95f8519fe9af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba984d26c5c0b1376c0ad85e5c0665da004a46a5
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756184"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414700"
 ---
 # <a name="configure-integration-with-finance"></a>Finance ile tümleştirmeyi yapılandırma
 
@@ -247,7 +247,7 @@ Human Resources'tan Finance'e tümleştirme, kayıtları kodlarına göre eşlem
 
 Sorun, eşlemeyi yapmak için **Personel numarası** kullanılan **Çalışan** ve **Pozisyonlar**'da oluşabilir. İşler numara serileri kullanmaz. Sonuç olarak, hem Human Resources'ta hem de Finance'te aynı iş kodu mevcutsa, Human Resources bilgileri Dynamics 365 Finance bilgilerinin üzerine yazılır. 
 
-Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)bir önek ekleyebilir veya numara serisinde, diğer sistemin aralığının dışında bir başlangıç numarası ayarlayabilirsiniz. 
+Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)bir ön ek ekleyebilir veya numara serisinde, diğer sistemin aralığının dışında bir başlangıç numarası ayarlayabilirsiniz. 
 
 Çalışan adresi için kullanılan konum kodu, bir numara serisinin parçası değildir. Human Resources'tan bir çalışan adresi Finance'e tümleştirilirken, çalışan adresi Finance'te zaten varsa yinelenen bir adres kaydı oluşturulabilir. 
 

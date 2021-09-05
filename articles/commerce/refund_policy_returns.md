@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763707"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388945"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleştirme
 
@@ -42,15 +42,6 @@ Commerce genel merkezinde kanal iade ilkesi işlevini etkinleştirmek için şu 
 1. **Kanal iade ilkelerini etkinleştirme** özelliğini, özellik adları listesinde arayın.
 1. **Şimdi etkinleştir**'i seçin.
 1. **Dağıtım planlaması** sayfasında, özellik değişikliğini dağıtmak için **1110** (Genel yapılandırma) işini çalıştırın.
-
-## <a name="initialize-the-commerce-scheduler"></a>Commerce planlayıcısını başlatma
-
-**Kanal iade ilkelerini etkinleştir** özelliğini etkinleştirdikten sonra, yeni özellik veritabanı değişikliklerinin Commerce Data Exchange (CDX) eşitlemesi yoluyla eklenmesini sağlamak için Commerce planlayıcısını başlatmanız gerekir. 
-
-Commerce genel merkezinde Commerce planlayıcısınıı başlatmak için şu adımları izleyin.
-
-- **Retail ve Commerce \> Genel merkez ayarı \> Commerce planlayıcısı \> Commerce planlayıcısını başlat**'a gidin. Alternatif olarak, "Commerce planlayıcısını başlatma" araması yapabilirsiniz.
-- **Commerce Planlayıcısı Başlat** iletişim kutusunda, **Var olan yapılandırmayı sil** seçeneğinin **Hayır** olarak ayarlandığından emin olun ve **Tamam**'ı seçin.
 
 ## <a name="configure-return-policy"></a>İade İlkesi yapılandırma
 

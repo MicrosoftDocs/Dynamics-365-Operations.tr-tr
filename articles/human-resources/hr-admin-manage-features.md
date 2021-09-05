@@ -1,8 +1,8 @@
 ---
 title: Human Resources özellikleri yönetme
-description: Dynamics 365 Human Resources'ta yeni özelliklerin nasıl açıldığı veya kapatıldığını öğrenin.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Bu konu Özellik Yönetimi özelliğini ve nasıl kullanabileceğinizi açıklar.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a9c459b2b34164a9be3ed609a99deb4c5b710d340ef560e6f991e760375d6146
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 61e40f7177a1c8cf3d60a9a991ecbb0ed4d93aa1
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738379"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414645"
 ---
 # <a name="manage-features-in-human-resources"></a>Human Resources özellikleri yönetme
 
@@ -69,7 +69,7 @@ Kazanç yönetimi, **Kazançlar** çalışma alanındaki işlevlerin yerini alı
 - **Kazanca uygunluk ilkeleri**
 - **Uygunluk olayları**
 
-Bu formlardaki bilgileri salt okunur modda görüntüleyebilirsiniz. Bilgileri düzenlemek isterseniz, önce Kazanç yönetimini devre dışı bırakmanız gerekir (yalnızca **Korumalı alan** ortamlarına uygulanır).
+Bu sayfalardaki bilgileri salt okunur modda görüntüleyebilirsiniz. Bilgileri düzenlemek isterseniz, önce Kazanç yönetimini devre dışı bırakmanız gerekir (yalnızca **Korumalı alan** ortamlarına uygulanır).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>İzin ve devamsızlığı etkinleştirme veya devre dışı bırakma
 

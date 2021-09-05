@@ -1,12 +1,12 @@
 ---
-title: Vergi Hesaplama (Önizleme)
+title: Vergi Hesaplamaya genel bakış
 description: Bu konu, Vergi Hesaplama özelliğinin tüm kapsamını ve özelliklerini açıklar.
 author: wangchen
-ms.date: 06/03/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4e01247cddad4201760fd56e00e05a8373a1ca6ef7c26ae5e1f5cca63bd8a456
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775106"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394598"
 ---
-# <a name="tax-calculation-preview"></a>Vergi Hesaplama (Önizleme)
+# <a name="tax-calculation-overview"></a>Vergi Hesaplamaya genel bakış
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,44 +33,59 @@ Vergi Hesaplama, Global Tax Engine'in vergi belirleme ve hesaplama sürecini oto
 Vergi Hesaplama hizmeti Dynamics 365 Finance ve Dynamics 365 Supply Chain Management ile tümleşir. Sonuç olarak, Dynamics 365 Project Operations, Dynamics 365 Commerce ve diğer birinci taraf ile üçüncü taraf uygulamaları ile de bütünleşir.
 
 > [!IMPORTANT]
-> Vergi Hesaplama hizmetini etkinleştirdiğinizde, ilgili veriler üzerinde bazı işlemler servis verilerinizi barındıran veri merkezinden farklı bir veri merkezinde gerçekleştirilebilir. Vergi Hesaplama servisini etkinleştirmeden önce [Hükümler ve Koşullar](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)'ı gözden geçirin. Gizliliğiniz bizim için önemlidir. Daha fazla bilgi için [Gizlilik Bildirimimizi](https://go.microsoft.com/fwlink/?LinkId=521839) okuyun.
+> Vergi Hesaplama hizmetini etkinleştirdiğinizde ilgili veriler üzerindeki bazı işlemler, servis verilerinizi barındıran veri merkezinden farklı bir veri merkezinde gerçekleştirilebilir. Vergi Hesaplama hizmetini etkinleştirmeden önce [Hükümler ve Koşullar](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)'ı inceleyin. Gizliliğiniz bizim için önemlidir. Daha fazla bilgi için [Gizlilik Bildirimimizi](https://go.microsoft.com/fwlink/?LinkId=521839) okuyun.
 
-Vergi Hesaplama, artan ölçeklenebilirlik sağlayan mikro hizmet tabanlı bir vergi altyapısıdır. Aşağıdaki görevleri yerine getirmenize yardımcı olur:
+Vergi Hesaplama, artan ölçeklenebilirlik sağlayan ve aşağıdaki görevleri gerçekleştirmenize yardımcı olabilecek mikro hizmet tabanlı bir vergi altyapısıdır:
 
-- Vergi Hesaplama'yı Regulatory Configuration Service (RCS) aracılığıyla yapılandırın. RCS, elektronik raporlama (ER) tasarımcısının gelişmiş bir sürümüdür ve bağımsız bir hizmet olarak edinilebilir.
-- Vergi kodlarının ve oranlarının otomatik olarak belirlenmesi için vergi matrisini yapılandırma.
-- Vergi kayıt numarasının otomatik olarak belirlenmesi için vergi matrisini yapılandırma.
-- Formül ve koşulları tanımlamak için vergi hesaplama tasarımcısını yapılandırma.
-- Vergi belirleme ve hesaplama çözümünü tüzel kişilerle paylaşma.
+- Gelişmiş bir belirleme mekanizması aracılığıyla doğru satış vergisi grubunu, madde satış vergisi grubunu ve vergi kodlarını otomatik olarak belirleyin.
+- Tek bir tüzel kişilikte birden fazla vergi kayıt numarasını destekleyin ve vergiye tabi hareketlerin doğru vergi kayıt numarasını otomatik olarak belirleyin.
+- Transfer emirleri için vergi belirleme, hesaplama, deftere nakletme ve kapatma desteği.
+- Özel iş gereksinimleriniz için yapılandırılabilir vergi hesaplama formülleri ve koşullar tanımlayın.
+- Bakım çabalarını en aza indirmek ve hataları önlemek için vergi belirleme ve hesaplama çözümünü tüzel kişilikler arasında paylaşın.
+- Müşteri ve satıcıların vergi kayıt numaralarını belirleme desteği.
+- Liste kodu belirleme desteği.
+- Vergi dairesi düzeyinde vergi hesaplama parametreleri desteği.
 
-Vergi hesaplama hizmetini kullanmak için, Microsoft Dynamics Lifecycle Services (LCS) içindeki projenizden vergi hesaplama servisi eklentisini yükleyin. Sonra, RCS'deki kurulumu tamamlayın ve Finance ve Supply Chain Management vergi hesaplama hizmetini etkinleştirin. Daha fazla bilgi için bkz. [Vergi hizmetini kullanmaya başlama](./global-get-started-with-tax-calculation-service.md).
+Vergi Hesaplama'yı kullanmak için Microsoft Dynamics Lifecycle Services uygulamasındaki projenizden Vergi Hesaplama eklentisini yükleyin. Ardından [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/) uygulamasındaki kurulumu tamamlayın ve Finance ve Supply Chain Management uygulamalarında Vergi Hesaplaması'nı etkinleştirin. Daha fazla bilgi için bkz. [Vergi hizmetini kullanmaya başlama](global-get-started-with-tax-calculation-service.md).
 
 ## <a name="availability"></a>Kullanılabilirlik
 
-Vergi Hesaplama, yalnızca korumalı alan ortamlarında ve seçili müşteriler için bir genel önizleme programı aracılığıyla kullanılabilir. Sonuç olarak, tüm müşteriler ve üretim ortamlarında genellikle kullanılabilir olacaktır.
+Vergi Hesaplama, 10.0.21 sürümünden itibaren tüm müşteriler tarafından genel olarak üretim ortamlarında kullanılabilir.
 
-Yeni özellikler sunulmaya devam edilmektedir. Bu nedenle, desteklenen özelliklerin kapsam bilgilerini öğrenmek için en güncel belgeleri kontrol edin.
+Yeni özellikler sunulmaya devam edecek. Desteklenen özelliklerin kapsam bilgilerini öğrenmek için en güncel sürüm planını sık sık kontrol edin.
 
-Vergi Hesaplama aşağıdaki Azure bölgelerinde dağıtılır. Ayrıca, müşteri gereksinimlerine göre daha fazla Azure bölgesinde kullanılacak şekilde dağıtılacaktır.
+Vergi Hesaplama aşağıdaki Azure bölgelerinde dağıtılır. Müşteri gereksinimlerine göre daha fazla Azure bölgesi eklenecektir.
 
-- Amerika Birleşik Devletleri
+- Asya Pasifik
+- Avustralya
+- Kanada
 - Avrupa
+- Japonya
+- Birleşik Krallık
+- Amerika Birleşik Devletleri
 
 > [!NOTE]
-> Vergi Hesaplama, Dynamics 365 şirket içi dağıtımlarını desteklemez. Ayrıca Dynamics AX 2012 gibi önceki sürümleri de desteklemez.
+> Vergi Hesaplama, Dynamics AX 2012 gibi Dynamics 365'in önceki sürümlerini veya Dynamics 365'in şirket içi dağıtımlarını desteklemez.
 
-## <a name="feature-highlights"></a>Özellikle ilgili önemli noktalar
+## <a name="data-flow"></a>Veri akışı
 
-- Vergiyi otomatik olarak belirlemek ve hesaplamak için yapılandırılabilir vergi matrisi
-- Çoklu vergisi kayıt numarası desteği
-- Vergi belirleme ve hesaplama için transfer emri desteği
-- Çoklu vergi kayıt numaralarının belirlenmesi için transfer emri desteği
+Vergi Hesaplama için veri akışı işleminin bir özetini burada bulabilirsiniz. 
+
+1. RCS'de vergilendirilebilir belge modeli yapılandırmalarını ve model eşleme yapılandırmalarını görüntüleyin ve içeri aktarın. Gelişmiş bir senaryo için yapılandırmaları genişletmeniz gerekiyorsa bkz. [Vergi yapılandırmalarına veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).
+2. RCS'de vergi özellikleri oluşturun veya vergi özelliklerini koruyun. Vergi oranlarını ve vergi uygulanabilirlik kurallarını yönetmek için vergi özelliklerini kullanabilirsiniz.
+3. Vergi özelliği kurulumu tamamlandıktan sonra vergi yapılandırmalarını ve vergi özelliklerini RCS'den Genel depoya yayımlayın.
+4. Finance'te, belirli bir tüzel kişilik için hangi vergi özelliği kurulumu sürümünün kullanılacağını seçin.
+5. Finance ve Supply Chain Management uygulamalarında hareketleri her zamanki gibi yürütün. Vergi Hesaplaması gerektiğinde istemci bilgileri satış siparişi veya satınalma siparişi gibi hareketten toplar ve yük olarak paketler. Daha sonra verginin hesaplanması için bir istek gönderilir.
+6. Vergi hesaplama isteği istemciden alınır ve hesaplama tamamlanır. Vergi sonucu daha sonra istemciye döndürülür.
+7. Dynamics 365 istemcisi vergi sonucunu alır ve vergi hesaplama sonucunu bir satış vergisi sayfasında sunar.
 
 ## <a name="supported-transactions"></a>Desteklenen işlemler
 
-Vergi Hesaplama tüzel kişilik ve işlem tarafından etkinleştirilebilir. Aşağıdaki işlemler desteklenir:
+Vergi Hesaplama, hareketlere göre etkinleştirilebilir. 
 
-- Satış işlemi
+Aşağıdaki hareketler sürüm 10.0.21'de desteklenmektedir: 
+
+- Satışlar
 
     - Satış teklifi
     - Satış siparişi
@@ -83,7 +98,7 @@ Vergi Hesaplama tüzel kişilik ve işlem tarafından etkinleştirilebilir. Aşa
     - Başlık sair masrafları
     - Satır sair masrafları
 
-- Satın alma işlemi
+- Satınalma
 
     - Satın alma siparişi
     - Onay
@@ -100,10 +115,36 @@ Vergi Hesaplama tüzel kişilik ve işlem tarafından etkinleştirilebilir. Aşa
     - Teklif talebi başlık sair masrafı
     - Teklif talebi satır sair masrafı
 
-- Stok işlemi
+- Stok
 
     - Transfer emri - sevk
     - Transfer emri - al
+
+## <a name="supported-countriesregions"></a>Desteklenen ülkeler/bölgeler
+
+Vergi Hesaplama, tüzel kişilik tarafından etkinleştirilebilir. 
+
+Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.21 sürümünde desteklenir:
+
+- Avusturya
+- Belçika
+- Danimarka
+- Estonya
+- Finlandiya
+- Fransa
+- Almanya
+- Macaristan
+- İzlanda
+- İtalya
+- Letonya
+- Litvanya
+- Hollanda
+- Norveç
+- Polonya
+- İsveç
+- İsviçre
+- Birleşik Krallık
+- Amerika Birleşik Devletleri
 
 ## <a name="related-resources"></a>İlgili kaynaklar
 
