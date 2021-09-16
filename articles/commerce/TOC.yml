@@ -6,6 +6,8 @@
           href: index.md
         - name: Kullanmaya başlama
           items:
+            - name: Hizmet açıklaması
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: Satın almadan önce
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: One Version hizmet güncelleştirmeleri
@@ -92,8 +94,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce'teki yenilikler veya değişiklikler
                   items:
-                    - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
+                    - name: Commerce'teki yenilikler veya değişiklikler giriş sayfası
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.22 (Kasım 2021)
+                      href: get-started/whats-new-commerce-10-0-22.md
                     - name: Commerce 10.0.21 (Ekim 2021)
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (Ağustos 2021)
@@ -254,8 +258,12 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: Commerce Data Exchange ile ilgili sorunları giderme
                       href: dev-itpro/CDX-Troubleshooting.md
+                    - name: Commerce Data Exchange paketlerini birincil dizine göre sıralama
+                      href: CDX-package-sort.md
                 - name: Modern POS mimarisi
                   href: dev-itpro/retail-modern-pos-architecture.md
+                - name: Commerce için çevrimdışı uygulama ve sorun giderme
+                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Çevrimiçi mağaza kataloğu yayımlama
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI içeriği
@@ -704,6 +712,10 @@
                   href: configure-ratings-reviews.md
                 - name: Ürün derecelendirmelerini eşitleme
                   href: sync-product-ratings.md
+                - name: Derecelendirme ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme
+                  href: manual-publish-rating-reviews.md
+                - name: Derecelendirmeler ve incelemeler hakkında SSS
+                  href: ratings-reviews-faq.md
             - name: Stoğunuzu yönetme
               items:
                 - name: Stok
@@ -752,8 +764,10 @@
                   href: enhancedorderrecall.md
                 - name: Çoklu malzeme çekme teslimat şekillerini etkinleştirme
                   href: multiple-pickup-modes.md
-                - name: Satış noktasında müşteri sipariş teslim alımını işleme
+                - name: POS'ta müşteri siparişi teslim alımını işleme
                   href: process-order-pickup-POS.md
+                - name: Konuk olarak ödeme yapma işlemleri için sipariş aramasını etkinleştirme
+                  href: order-lookup-guest.md
             - name: Satış siparişleri
               items:
                 - name: Çağrı merkezi siparişleri oluşturma
@@ -1146,6 +1160,8 @@
                       href: order-confirmation-module.md
                     - name: Hediye kartı modülü
                       href: add-giftcard.md
+                    - name: Sipariş arama modülü
+                      href: order-lookup-module.md
                 - name: Mağaza bulucu modülleri
                   items:
                     - name: Harita modülü
@@ -1174,7 +1190,9 @@
                       href: nav-menu-module.md
                     - name: Site seçicisi modülü
                       href: site-selector.md
-                - name: Modülleri ara
+                    - name: Ülke/bölge seçici modülü
+                      href: country-region-picker-module.md
+                - name: Modülleri arama
                   items:
                     - name: Arama sonuçları modülü
                       href: search-result-module.md
@@ -1196,11 +1214,13 @@
               items:
                 - name: 'Cihaz, pazar ve coğrafi konum hedefleme'
                   href: targeting-overview.md
-            - name: Deney
+                - name: Coğrafi algılama ve yeniden yönlendirmeyi ayarlama
+                  href: geo-detection-redirection.md
+            - name: Deneme
               items:
                 - name: Dynamics 365 Commerce'te deneme
                   href: experimentation-overview.md
-                - name: Varsayım tanımlama ve deneme için ölçümleri belirleme
+                - name: Bir deneme için varsayım tanımlama ve ölçümleri belirleme
                   href: experimentation-identify.md
                 - name: Deneme ayarlama
                   href: experimentation-setup.md
@@ -1258,15 +1278,15 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory Configuration Service
+            - name: Regulatory Configuration Service (RCS)
               items:
-                - name: Regulatory Configuration Service'e genel bakış
+                - name: Regulatory Configuration Service'e (RCS) genel bakış
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service - Globalleştirme özellikleri
+                - name: (RCS) Regulatory Configuration Service (RCS) - Genelleştirme özellikleri
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service'te ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
+                - name: Regulatory Configuration Service'te (RCS) ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service – Lifecycle Services deposu kullanımdan kaldırılıyor
+                - name: Regulatory Configuration Service (RCS) – Lifecycle Services deposu kullanımdan kaldırılıyor
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: ER yapılandırmalarını Commerce'e indirme
                   items:
@@ -1274,20 +1294,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Yapılandırmaları RCS'den içeri aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                - name: Genel depo (GR)
-                  items:
-                    - name: Yapılandırmaları GR'den içeri aktarma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
-                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Yapılandırmaları GR'ye yükleme
-                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                    - name: GR'de yapılandırmaları paylaşma
-                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                    - name: RCS Genel deposundaki yapılandırmaları durdurma
-                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Genel depo (GR)
+                      items:
+                        - name: Yapılandırmaları GR'den içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Yapılandırmaları GR'ye yükleme
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR'de yapılandırmaları paylaşma
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: RCS Genel deposundaki yapılandırmaları durdurma
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Avusturya
               items:
                 - name: Avusturya için mali kayıt hizmeti tümleştirme örneği
@@ -1884,10 +1904,34 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
                     - name: Yapılandırmaları LCS'den içeri aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
-                    - name: LCS'den yapılandırmaları indirme
+                    - name: Yapılandırmaları LCS'den indirme
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Yapılandırmaları içeri aktarma (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service (RCS)
+                  items:
+                    - name: Regulatory Configuration Service'e (RCS) genel bakış
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER yapılandırmalarını Commerce'e indirme
+                      items:
+                        - name: RCS'den yapılandırmaları indirme
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                        - name: Yapılandırmaları RCS'den içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                    - name: Genel depo (GR)
+                      items:
+                        - name: Yapılandırmaları GR'den içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Yapılandırmaları GR'ye yükleme
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: GR'de yapılandırmaları paylaşma
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: RCS Genel deposundaki yapılandırmaları durdurma
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Hızlı başlangıç kılavuzları
               items:
                 - name: Özel bir elektronik belge oluşturmak için ER biçimi ayarlama
@@ -1944,13 +1988,19 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                         - name: Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+                    - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER uygulamasına özgü parametreleri kullanmak için ARAMA veri kaynaklarını yapılandırma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER biçimlerindeki VERİ TOPLAMA veri kaynaklarını kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Veri kaynaklarında hata ayıklama
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Model eşlemelerini yapılandırma
                   items:
-                    - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
+                    - name: Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                     - name: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2014,6 +2064,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Eyleme bağlı hedefleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Yazdırma yönetimi kaydına özel ER hedeflerini yapılandırma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: ER biçimine referans ayarlama
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan raporları otomatik olarak doğrulama
@@ -2062,6 +2114,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
                     - name: Uygulama güncelleştirmesi 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
+                    - name: Uygulama güncelleştirmesi 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.jso
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
                     - name: Abone olma işleyicisinden yanıt istemek için bir olaya abone olma
@@ -2072,6 +2126,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: Kaynak kodundan USER INPUT PARAMETER türünün veri kaynağı değerlerini başlatma
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
+                - name: Kullanıcıların adlandırılmış ER hedeflerini yapılandırmasını ve kullanmasını sağlamak için kodu değiştirme
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
         - name: Finance and Operations (Dynamics 365) mobil uygulaması
           items:
             - name: Mobil uygulama giriş sayfası
@@ -2456,11 +2512,7 @@
               items:
                 - name: Retail SDK mimarisi
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Retail SDK'de yakında yapılacak değişiklikler
-                  href: dev-itpro/UpcomingSDKChanges.md
-                - name: 10.0.10 sürümünden 10.0.13 sürümüne kadar geliştirme ve ALM değişiklikleri
-                  href: dev-itpro/dev-changes-10-13.md
-                - name: Bağımsız ambalaj SDK'sı için bir derleme işlem hattı kurma
+                - name: Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama
                   href: dev-itpro/build-pipeline.md
                 - name: Commerce ve Finance and Operations için derleme sistemlerini birleştirme
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -2586,8 +2638,6 @@
                   href: dev-itpro/retail-server-customer-consumer-api.md
                 - name: Retail Server uzantı API'sı oluşturma (Retail SDK sürüm 10.0.11 ve sonrası)
                   href: dev-itpro/retail-server-icontroller-extension.md
-                - name: Yeni Retail Server uzantı API'si oluşturma (Retail SDK sürüm 10.0.11 ve öncesi)
-                  href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript ve C# proxy'leri
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Harici uygulamalarda Retail Server API'larını kullanma
@@ -2702,8 +2752,10 @@
                   href: troubleshoot/pickup-store-link-missing.md
                 - name: 'Perakende mağazası, mağaza listesinde görünmüyor'
                   href: troubleshoot/pickup-store-missing.md
-                - name: Stoğu olmayan maddeler kullanıma alınamaz
+                - name: Stoğu olmayan maddeler kullanıma alınabilir
                   href: troubleshoot/items-without-inventory-checked-out.md
+                - name: Derecelendirmeler ve incelemeler çözümü etkin olmadığında arama sonuçlarında ve kategori sayfalarında derecelendirme daraltıcı görünüyor
+                  href: troubleshoot/hide-ratings-refiner.md
             - name: SDK ile ilgili sorunları giderme
               items:
                 - name: Katman 1 Retail Server VM'de hata ayıklama için e-ticaret geliştirme ortamı ayarlama

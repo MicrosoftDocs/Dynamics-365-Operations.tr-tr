@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Platform güncelleştirmelerinde yenilikler veya değişiklikler
               items:
-                - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
+                - name: Platform güncelleştirmelerindeki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.22 sürümü için platform güncelleştirmeleri (Kasım 2021)
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: 10.0.20 sürümü için platform güncelleştirmeleri (Ağustos 2021)
@@ -224,7 +226,7 @@
                   href: data-entities/data-import-export-job.md
                 - name: İçeri aktarma işlerinde tarih ve saati eşitleme
                   href: data-entities/data-synchronize-date-and-time.md
-                - name: Genel günlük varlığını kullanarak fişleri içeri aktarma
+                - name: Yevmiye defteri varlığını kullanarak fişleri içeri aktarma
                   href: data-entities/tips-tricks-import-general-journal-entity.md
                 - name: Finance and Operations uygulamaları için veri geçişini iyileştirme
                   href: sysadmin/optimize-data-migration.md
@@ -502,7 +504,7 @@
               href: dev-tools/application-stack-server-architecture.md
             - name: Değerlendirme kopyaları alma
               href: dev-tools/get-evaluation-copy.md
-            - name: Önizleme abonelikleri için kaydolma
+            - name: Önizleme aboneliklerine kaydolma
               href: dev-tools/sign-up-preview-subscription.md
             - name: Geliştirme ortamlarını dağıtma ve ortamlara erişme
               items:
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: X++ programlama dili
               items:
-                - name: X++ ve hata ayıklayıcı özellikleri
-                  href: dev-tools/new-x-debugger-features.md
-                - name: X++ için Visual Studio 2017 gereksinimleri
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: X++ kodu hatalarını ayıklama
-                  href: dev-tools/debug-xpp.md
-                - name: İstek veya yanıt senaryolarındaki EventHandlerResult sınıfları
-                  href: dev-tools/event-handler-result-class.md
-                - name: C# ve X++ kaynak kodu kullanarak iş mantığı yazma
-                  href: dev-tools/write-business-logic.md
-                - name: X ++ ile X ++ derleyici değişiklikleri
-                  href: dev-tools/programming-language-support.md
-                - name: C# için LINQ sağlayıcısı
-                  href: dev-tools/linq-provider-c.md
-                - name: En iyi uygulama kurallarını yazma
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Uygulama Gezgini özellikleri
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: X++ dil desteği
+                  items:
+                    - name: X++ için Visual Studio 2017 gereksinimleri
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: X++ kodu hatalarını ayıklama
+                      href: dev-tools/debug-xpp.md
+                    - name: İstek veya yanıt senaryolarındaki EventHandlerResult sınıfları
+                      href: dev-tools/event-handler-result-class.md
+                    - name: C# ve X++ kaynak kodu kullanarak iş mantığı yazma
+                      href: dev-tools/write-business-logic.md
+                    - name: C# için LINQ sağlayıcısı
+                      href: dev-tools/linq-provider-c.md
+                    - name: En iyi uygulama kurallarını yazma
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Uygulama Gezgini özellikleri
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: X++ dil referansı
                   items:
                     - name: X++ dil referansına genel bakış
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Kitaplıklar
                           href: dev-ref/xpp-library-objects.md
-                        - name: Olaylar
+                        - name: Olaylar ve temsilciler
                           href: dev-ref/xpp-events.md
                     - name: X++ verilerini seçme ve değiştirme
                       items:
@@ -902,10 +902,12 @@
                       href: perf-test/atl-best-practices.md
                     - name: Sık sorulan sorular
                       href: perf-test/atl-faq.md
-            - name: Tarih etkililiği
+            - name: Tarih geçerliliği
               href: dev-tools/date-effectivity.md
             - name: Bağımsız yazılım satıcıları için geliştirme
               items:
+                - name: ISV geliştirme giriş sayfası
+                  href: dev-tools/isv-dev-home-page.md
                 - name: ISV Studio kullanarak X++ modüllerini paketlere bağlama
                   href: dev-tools/isv-studio-solutions.md
                 - name: ISV lisanslaması
@@ -1018,6 +1020,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Sorgu başvuru rehberi
               href: lifecycle-services/querycookbook.md
+            - name: Süresi dolan abonelikler ve veri silme
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Dynamics 365 Translation Service'e genel bakış
@@ -1046,8 +1050,10 @@
                       href: data-entities/dual-write/dual-write-system-req.md
                     - name: Çift yazmayı ayarlama kılavuzu
                       href: data-entities/dual-write/connection-setup.md
-                    - name: İlk eşitleme için dikkat edilecek hususlar
+                    - name: İlk eşitlemede dikkat edilecek hususlar
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Canlı eşitleme limitleri
+                      href: data-entities/dual-write/sync-limits.md
                     - name: Lifecycle Services'dan çift yazma kurulumu
                       href: data-entities/dual-write/lcs-setup.md
                     - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme

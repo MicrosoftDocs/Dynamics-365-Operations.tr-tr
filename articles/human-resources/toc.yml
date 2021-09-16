@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 23 Ağustos 2021
+          href: hr-whats-new-2021-08-23.md
         - name: 9 Ağustos 2021
           href: hr-whats-new-2021-08-09.md
         - name: 26 Temmuz 2021
@@ -169,7 +171,7 @@
               items:
                 - name: Veri içe ve dışarı aktarma işlerine genel bakış
                   href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                - name: Genel günlük varlığını kullanarak fişleri içeri aktarmaya yönelik en iyi uygulamalar
+                - name: Yevmiye defteri varlığını kullanarak fişleri içeri aktarmaya yönelik en iyi uygulamalar
                   href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
             - name: Veri varlıkları için geliştirme
               items:
@@ -543,6 +545,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Adres defterlerini yapılandırma
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konum sahiplerini yönetme
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
             - name: İş akışı sistemi
               items:
                 - name: İş akışı sistemine genel bakış
