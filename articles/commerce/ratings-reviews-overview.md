@@ -15,21 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8b8d8e838b3c42f7dd02ce4adabcb1f412a3834006ad913e8f40191da751c08d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765253"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473489"
 ---
-# <a name="ratings-and-reviews-overview"></a>Derecelendirme ve incelemelere genel bakış
-
+# <a name="ratings-and-reviews-overview"></a>Derecelendirmelere ve incelemelere genel bakış
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta bulunan derecelendirmeleri ve incelemelerini kapsamaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 Derecelendirmeler ve incelemeler, diğer müşterilerin bir ürünü nasıl değerlendirdiklerini öğrenmek isteyen e-ticaret müşterileri için çok önemlidir. Ayrıca, tüketicilerin satın alma kararları verbilmesine yardımcı olabilirler. Dynamics 365 Commerce'De, derecelendirmeler ve İncelemeler çözümünde perakendecilerin ürün incelemelerini ve müşterilerden gelen derecelendirmeleri yakalayabilmesine olanak tanır. Perakendeciler, ortalama derecelendirmeleri gösterebilir ve e-ticaret Web siteleri boyunca bilgileri gözden geçirebilir.
 

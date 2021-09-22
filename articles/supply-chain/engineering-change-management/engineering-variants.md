@@ -10,18 +10,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e2133263f4bee09a3365236601e0d2fdd08a7ae
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766175"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471848"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Mühendislik ürünleri için çeşitler oluşturma
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Bu konuda, mühendislik ürünleri için çeşitlerin nasıl oluşturulacağı açıklanmaktadır.
+
+## <a name="turn-on-variant-generation-for-engineering-products"></a>Mühendislik ürünleri için çeşit oluşturmayı etkinleştirme
+
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+
+- **Modül:** *Mühendislik değişim yönetimi*
+- **Özellik adı:** *Mühendislik ürünleri için çeşit oluşturma*
+
+> [!IMPORTANT]
+> *Mühendislik ürünleri için çeşit oluşturma* özelliği, yalnızca *Mühendislik Değişim Yönetimi* yapılandırma anahtarını etkinleştirdikten sonra sisteminizde görünür olur. Yönergeler için bkz. [Mühendislik değişikliğine genel bakış](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Mühendislik ürününün bir veya daha fazla yeni çeşidini oluşturma
 
@@ -38,10 +49,15 @@ Aşağıdaki yordamda, renk boyutunu içeren birden çok çeşidin nasıl oluşt
 1. Ürün reçetesi (BOM) ekleyin ve gerektiği şekilde çeşide yönlendirin.
 1. Eylem Bölmesi'nde **Ürün** sekmesini açın ve **Ana ürün** grubundan **Ürün boyutları**'nı seçin.
 1. **Ürün boyutları** sayfası açılır. Bu sayfa, var olan her boyut için bir sekme içerir. Her sekmede, her ilgili boyut için destekleyeceğiniz tüm değerlere bir satır ekleyin. (Bu örnekte, **Renk** sekmesinde *Beyaz*, *Sarı* ve *Yeşil* için satırlar ekleyebilirsiniz).
-1. Sayfayı kapatın ve **Serbest bırakılan ürün çeşitleri**'ni seçin. İlk oluşturulan çeşidin (beyaz V-1) görüntülendiğini unutmayın.
-1. **Çeşit önerileri**'ni seçin.
-1. Sistem, oluşturulan renk değerlerine sahip çeşitleri önerir (örneğin, beyaz V-1, sarı V-1 ve yeşil V-1).
-1. Önerilen çeşitleri seçin ve mühendislik şirketi için çeşitleri serbest bırakmak üzere **Tamam**'ı seçin. Aşağıdaki koşulların geçerli olacağını unutmayın: 
+1. Sayfayı kapatın ve ardından **Serbest bırakılan ürün çeşitleri**'ni seçin. Oluşturduğunuz ilk çeşidin (mavi V-1) görüntülendiğine dikkat edin.
+1. Eylem Bölmesi'ndeki **Ürün çeşidi** sekmesinde, **Çeşit önerileri**'ni seçin.
+1. **Çeşit önerileri** iletişim kutusunda, şu adımlardan birini izleyin:
+
+    - İletişim kutusunun üst kısmında, kullanılabilir her boyut için bir bölüm bulunur. Her boyut için çeşit önerisi oluşturmak istediğiniz her değerin onay kutusunu seçin ve ardından araç çubuğunda **Öner**'i seçin. İlgili öneriler, **Önerilen çeşitler** bölümüne eklenir.
+    - Kullanılabilen tüm boyut değerleri birleşimleri için çeşit önerileri oluşturmak üzere araç çubuğunda **Tümünü öner**'i seçin. Öneriler, **Önerilen çeşitler** bölümüne eklenir.
+
+1. **Önerilen çeşitler** bölümünde, oluşturmak istediğiniz her çeşit için onay kutusunu seçin. Ardından, seçilen çeşitleri oluşturmak ve mühendislik şirketine yayınlamak için **Oluştur**'u seçin. Aşağıdaki koşullar geçerlidir:
+
     - Oluşturulan çeşitlerin hiçbirinin bir ürün reçetesi veya rotası olmaz.
     - Bu çeşitlerin öznitelikleri mühendislik kategorisinden gelen bilgiye göre varsayılan olur ve önceki çeşitten kopyalanmaz.
 

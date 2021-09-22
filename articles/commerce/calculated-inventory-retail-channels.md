@@ -2,7 +2,7 @@
 title: Perakende kanalları için stok kullanılabilirliğini hesaplama
 description: Bu konuda, bir şirketin çevrimiçi ve mağaza kanallarındaki ürünler için tahmini eldeki stok kullanılabilirliğini görüntülemek amacıyla Microsoft Dynamics 365 Commerce'in nasıl kullanabileceği açıklanmaktadır.
 author: hhainesms
-ms.date: 04/23/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: da79aadace09ad480fa34bc03220831023e469645bb7d53af1647bd2d35af0ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741824"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472183"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Perakende kanalları için stok kullanılabilirliğini hesaplama
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu konuda, bir şirketin çevrimiçi ve mağaza kanallarındaki ürünler için tahmini eldeki stok kullanılabilirliğini görüntülemek amacıyla Microsoft Dynamics 365 Commerce'in nasıl kullanabileceği açıklanmaktadır.
 
@@ -44,6 +45,21 @@ Kanal tarafında stok hesaplaması, Commerce genel merkezindeki son bilinen kana
 - Mağazaya iade edilen stok
 - Mağaza ambarından karşılanan stok (çekme, paketleme, sevk etme)
 
+Kanal tarafı stok hesaplamasını kullanmak için **En iyi duruma getirilmiş ürün kullanılabilirliğini hesaplama** özelliğini etkinleştirmelisiniz.
+
+Commerce ortamınız **10.0.8 ile 10.0.11** arasındaki sürümlerdeyse şu adımları izleyin.
+
+1. Commerce genel merkezinde, **Retail ve Commerce** \> **Commerce paylaşılan parametreleri**'ne gidin.
+1. **Stok** sekmesinde **Ürün kullanılabilirliği işi** alanında **Ürün Kullanılabilirliği işi için en iyi duruma getirilmiş işlemi kullan**'ı seçin.
+
+Commerce ortamınızın sürümü **10.0.12 veya sonrasındaki** sürümlerdeyse şu adımları izleyin.
+
+1. Commerce genel merkezinde **Çalışma Alanları \> Özellik yönetimi**'ne gidin ve **En iyi duruma getirilmiş ürün kullanılabilirliğini hesaplama** özelliğini etkinleştirin.
+1. Çevrimiçi ve mağaza kanallarınız aynı sipariş karşılama depolarını kullanıyorsa **Gelişmiş e-Ticaret kanal tarafında stok hesaplama mantığı** özelliğini de etkinleştirmeniz gerekir. Bu şekilde, kanal tarafı hesaplama mantığı, mağaza kanalında oluşturulan nakledilmeyen hareketleri dikkate alır. (Bu hareketler peşin hareketler, müşteri siparişleri ve iadeler olabilir.)
+1. **1070** (**Kanal yapılandırması**) işini çalıştırın.
+
+Commerce ortamınız, Commerce sürüm 10.0.8'den önceki bir sürümden yükseltildiyse **En iyi duruma getirilmiş ürün kullanılabilirliğini hesaplama** özelliğini etkinleştirdikten sonra, özelliğin etkin hale gelmesi için **Commerce planlayıcısını başlat**'ı da çalıştırmanız gerekir. Başlatmayı çalıştırmak için **Retail ve Commerce** \> **Genel merkez kurulumu** \> **Commerce planlayıcısı**'na gidin.
+
 Bir önkoşul olarak kanal tarafında stok hesaplamasını kullanmak için, **Ürün kullanılabilirlik** işi tarafından oluşturulan, genel merkezden alınan stok verilerinin periyodik anlık görüntüsünün kanal veritabanlarına gönderilmesi gerekir. Anlık görüntü, genel merkezin bir ürün veya ürün çeşidi ile bir ambarın belirli bir birleşimine ait stok kullanılabilirliği hakkında sahip olduğu bilgileri temsil eder. Yalnızca anlık görüntü çekildiği sırada genel merkezde işlenmiş ve deftere nakledilmiş stok hareketlerini içerir ve dağıtılmış sunucular arasında gerçekleşen sürekli satış işlemleri nedeniyle gerçek zamanlı olarak yüzde 100 doğru olmayabilir.
 
 - Stok, bir mağazadaki bir ürünle ilgili olarak POS uygulamasındaki peşin veya zaman uyumsuz müşteri sipariş satışı aracılığıyla satılmışsa genel merkezin satış için ilgili stok çıkış hareketi hakkındaki bilgilere hemen sahip olmaz. Genel merkez yalnızca P işinin ilgili hareketi mağazanın kanal veritabanından genel merkeze yüklemesinden sonra bu tür mağaza satışları için satılan stok hakkındaki bilgilere sahip olur ve ilgili satış siparişleri ekstre deftere nakil işlemi veya akış deftere nakil işlemleri aracılığıyla oluşturulur. Genel merkezde sipariş oluşturma işlemi ilgili stok hareketlerini oluşturur. 
@@ -58,7 +74,7 @@ Commerce genel merkezde stok anlık görüntüsünü almak için aşağıdaki ad
 
 Anlık görüntü verilerini genel merkezden kanal veritabanlarınıza eşitlemek için aşağıdaki adımları izleyin.
 
-1. **Retail and Commerce \> Retail and Commerce IT \> Dağıtım planı**'na gidin.
+1. **Retail ve Commerce \> Retail ve Commerce BT \> Dağıtım planı**'na gidin.
 1. **1130** (**Ürün kullanılabilirliği**) işini çalıştırarak **Ürün kullanılabilirliği** işinin genel merkezde oluşturduğu anlık görüntü verilerini kanal veritabanlarınızla eşitleyin.
 
 ## <a name="inventory-availability-apis-for-e-commerce"></a>E-ticaret için stok kullanılabilirliği API'leri
@@ -73,9 +89,7 @@ Commerce, bir ürünün stok kullanılabilirliğini sorgulamak üzere e-ticaret 
 
 Her iki API de dahili olarak kanal tarafı hesaplama mantığını kullanır ve istenen ürün ve ambar için tahmini **fiziksel kullanılabilir** miktar, **toplam kullanılabilir** miktar, **ölçü birimi (UoM)** ve **stok düzeyi** değerlerini döndürür. Döndürülen değerler, isterseniz e-ticaret sitenizde gösterilebilir ya da e-ticaret sitenizde diğer iş mantığını tetiklemek için kullanılabilir. Örneğin, "stok dışı" stok düzeyi olan ürünlerin satın alınmasını engelleyebilirsiniz.
 
-Commerce'de yer alan diğer API'ler ürün için genel eldeki miktarları almak üzere doğrudan genel merkeze gidebildiği halde, olası performans sorunları ve bu sık isteklerin genel merkez sunucularınızda yapabileceği ilgili etki nedeniyle bunların bir e-ticaret ortamında kullanılması önerilmez. Ek olarak, kanal tarafı hesaplamada yukarıda sözü edilen iki API, henüz genel merkez tarafından bilinmeyen kanallarda oluşturulan hareketleri hesaba katarak, ürünün kullanılabilirliğiyle ilgili daha doğru bir tahmin sağlayabilir.
-
-Bu iki API'yi kullanmak için, genel merkezdeki **Özellik yönetimi** çalışma alanı ile **En iyi duruma getirilmiş ürün kullanılabilirliği hesaplama** özelliğini etkinleştirmelisiniz. Çevrimiçi ve mağaza kanallarınız aynı satış siparişi karşılama ambarlarını kullanıyorsa ayrıca **Gelişmiş e-Ticaret kanal tarafında stok hesaplama mantığı** özelliğini etkinleştirmeniz gerekir.Böylece, iki API'nin mağaza kanalında oluşturulan deftere nakledilmemiş hareketleri (nakit-ve-hareket, müşteri siparişleri, iadeler) hesaba katarak kanal tarafındaki hesaplama mantığını hesaba katar. Bu özellikleri etkinleştirdikten sonra **1070** (**Kanal yapılandırma**) işini çalıştırmanız gerekir.
+Commerce'de yer alan diğer API'ler ürün için genel eldeki miktarları almak üzere doğrudan genel merkeze gidebildiği halde, olası performans sorunları ve bu sık isteklerin genel merkez sunucularınızda yapabileceği ilgili etki nedeniyle bunların bir e-ticaret ortamında kullanılması önerilmez. Ek olarak, kanal tarafı hesaplama ile yukarıda belirtilen iki API, henüz genel merkezde bilinmeyen kanallarda oluşturulan hareketleri hesaba katarak bir ürünün kullanılabilirliği hakkında daha doğru bir tahmin sağlayabilir.
 
 API çıktısında ürün miktarının nasıl döndürüleceğini tanımlamak için aşağıdaki adımları izleyin.
 
@@ -85,17 +99,17 @@ API çıktısında ürün miktarının nasıl döndürüleceğini tanımlamak i�
 
 **API çıktısında miktar** ayarı, üç seçenek sağlar:
 
-- **İade stok miktarı** - İstenen ürünün fiziksel kullanılabilir ve toplam kullanılabilir miktarı API çıktısında verilir.
-- **Stok tamponu hariç iade stoğu miktarı** -API çıktısında iade edilen miktar, stok tampon değeri çıkarılarak düzeltilir. Stok tamponu hakkında daha fazla bilgi için bkz. [Stok tamponlarını ve stok düzeylerini yapılandırma](inventory-buffers-levels.md).
-- **İade edilmemiş stok miktarı** - API çıktısında yalnızca stok düzeyi döndürülür. Stok düzeyleri hakkında daha fazla bilgi için bkz. [Stok tamponlarını ve stok düzeylerini yapılandırma](inventory-buffers-levels.md).
+- **İade stok miktarı**: İstenen ürünün fiziksel kullanılabilirliği ve toplam kullanılabilir miktarı API çıktısında döndürülür.
+- **Stok tamponu hariç iade stoku miktarı**: API çıktısında iade edilen miktar, stok tampon değeri çıkarılarak düzeltilir. Stok tamponu hakkında daha fazla bilgi için bkz. [Stok tamponlarını ve stok düzeylerini yapılandırma](inventory-buffers-levels.md).
+- **İade edilmemiş stok miktarı**: API çıktısında yalnızca stok düzeyi döndürülür. Stok düzeyleri hakkında daha fazla bilgi için bkz. [Stok tamponlarını ve stok düzeylerini yapılandırma](inventory-buffers-levels.md).
 
 `QuantityUnitTypeValue` API parametresini, API'lerin miktarı hangi birim türünde döndürmelerini istediğinizi belirtmek için kullanabilirsiniz. Bu parametre, **stok birimi** (varsayılan), **satınalma birimi** ve **satış birimi** seçeneklerini destekler. İade edilen miktar, genel merkezdeki ilgili ölçü biriminin (UOM) tanımlanan duyarlığına yuvarlanır.
 
 **GetEstimatedAvailability** API, farklı sorgu senaryolarını desteklemek için aşağıdaki giriş parametrelerini sunar:
 
-- `DefaultWarehouseOnly` - Çevrimiçi kanalın varsayılan ambarında bulunan bir ürünün envanterini sorgulamak için bu parametreyi kullanın. 
-- `FilterByChannelFulfillmentGroup` ve `SearchArea` - `longitude`, `latitude` ve `radius` temel alınarak belirli bir arama alanındaki tüm malzeme çekme konumlarından bir ürünün envanterini sorgulamak için bu iki parametreyi kullanın. 
-- `FilterByChannelFulfillmentGroup` ve `DeliveryModeTypeFilterValue` - Bir çevrimiçi kanalın karşılama grubuna bağlı ve belirli teslimat şekillerini destekleyecek şekilde yapılandırılmış belirli ambarlardan bir ürünün envanterini sorgulamak için bu iki parametreyi kullanın. `DeliveryModeTypeFilterValue` parametresi **tüm** (varsayılan), **sevkiyat** ve **malzeme çekme** seçeneklerini destekler. Örneğin, bir çevrimiçi siparişin çoklu sevkiyat ambarlarında karşılanabileceği bir senaryoda, bir ürünün stok kullanılabilirliğini tüm bu sevk ambarlarında sorgulamak için bu iki parametreyi kullanabilirsiniz. Bu durumda API, sevkiyat ambarlarından her biri için ürünün eldeki miktarını ve stok düzeyinin yanı sıra sorgu kapsamındaki tüm sevk ambarlardan elde edilen miktar ve toplam stok düzeyini döndürür.
+- `DefaultWarehouseOnly`: Çevrimiçi kanalın varsayılan ambarında bulunan bir ürünün stokunu sorgulamak için bu parametreyi kullanın. 
+- `FilterByChannelFulfillmentGroup` ve `SearchArea`: `longitude`, `latitude` ve `radius` temel alınarak belirli bir arama alanındaki tüm malzeme çekme konumlarından bir ürünün stokunu sorgulamak için bu iki parametreyi kullanın. 
+- `FilterByChannelFulfillmentGroup` ve `DeliveryModeTypeFilterValue`: Bir çevrimiçi kanalın karşılama grubuna bağlı ve belirli teslim şekillerini destekleyecek şekilde yapılandırılmış belirli ambarlardan bir ürünün stokunu sorgulamak için bu iki parametreyi kullanın. `DeliveryModeTypeFilterValue` parametresi **tüm** (varsayılan), **sevkiyat** ve **malzeme çekme** seçeneklerini destekler. Örneğin, bir çevrimiçi siparişin çoklu sevkiyat ambarlarında karşılanabileceği bir senaryoda, bir ürünün stok kullanılabilirliğini tüm bu sevk ambarlarında sorgulamak için bu iki parametreyi kullanabilirsiniz. Bu durumda API, sevkiyat ambarlarından her biri için ürünün eldeki miktarını ve stok düzeyinin yanı sıra sorgu kapsamındaki tüm sevk ambarlardan elde edilen miktar ve toplam stok düzeyini döndürür.
  
 Commerce satın alma kutusu, mağaza seçici, istek listesi, sepet ve sepet simge modülleri, e-ticaret sitesinde stok düzeyi iletileri görüntülemek için yukarıda belirtilen API'leri ve parametreleri kullanır. Commerce site oluşturucu, emtia ve satın alma davranışlarını denetlemek için çeşitli stok ayarları sağlar. Daha fazla bilgi için, [Envanter ayarları uygula](inventory-settings.md) konusuna bakın.
 
@@ -113,7 +127,7 @@ Kanal tarafı hesaplama mantığını kullanmak ve gerçek zamanlı servis çağ
 
 Daha sonra aşağıdaki adımları gerçekleştirerek, değişiklikleri genel merkezde dağıtım zamanlaması işlemi aracılığıyla kanallara eşitlemeniz gerekir.
 
-1. **Retail and Commerce \> Retail and Commerce IT \> Dağıtım planı**'na gidin.
+1. **Retail ve Commerce \> Retail ve Commerce BT \> Dağıtım planı**'na gidin.
 1. **1070** (**Kanal yapılandırması**) işini çalıştırın.
 
 Yapılandırma tamamlandıktan sonra, bir POS uygulamasındaki bir kullanıcı **Stok arama** işlemini (standart ve matris görünümleri) kullandığında, fiziksel stokla ilgili olarak sağlanan bilgiler artık gerçek zamanlı bir servis çağrısı kullanmaz. Bunun yerine, geçerli mağazanın fiziksel olarak kullanılabilir stoğu ve karşılama grubundaki tüm mağazalar hakkındaki veriler, Commerce Headquarters'dan kanal veritabanına teslim edilen son bilinen anlık görüntüye göre hesaplanır. Anlık görüntü değeri 1130 işindeki son eşitlenen anlık görüntüye dahil edilmeyen kanal veritabanındaki seçilen ürün için var olan ek satış veya iade hareketlerine göre mevcut fiziksel değeri ayarlamak için kanal tarafı hesaplamasıyla daha da daraltılır. Kanal veritabanında, karşılama grubundaki ambarlardan veya mağazalardan herhangi birine ait hareket verileri yoksa değerin yeniden hesaplanmasında hesaba katılabilecek ek hareketler içermez. Bu nedenle, bu ambarlar veya mağazalar için gösterilebilecek en iyi eldeki stok tahmininde, son bilinen Commerce Headquarters anlık görüntüsüne ait veriler yer alabilir.
@@ -136,6 +150,5 @@ Stoğun mümkün olan en iyi tahminini elde etmek için, aşağıdaki Commerce t
 > - Performans nedeniyle, kanal tarafı stok kullanılabilirliği hesaplamaları e-Ticaret API'sını veya POS kanal tarafı stok mantığını kullanarak stok kullanılabilirliği isteği oluşturmak için kullanıldığında, hesaplamada, hesaplama mantığını yeniden çalıştırmayı gerekçelendirmek için yeterince zaman geçip geçmediğini belirlemek amacıyla bir önbellek kullanılır. Varsayılan önbellek 60 saniyeye ayarlanır. Örneğin, mağazanız için kanal tarafındaki hesaplamayı açtınız ve **Stok arama** sayfasında bulunan bir ürünle ilgili eldeki stoğu görüntülediniz. Daha sonra ürünün bir birimi satılıyorsa **Stok arama** sayfası, önbellek temizlenene kadar azalan stoğu göstermez. Kullanıcılar POS'taki hareketleri deftere naklettikten sonra, eldeki stoğun azaldığını doğrulamadan önce 60 saniye beklemelidir.
 
 İş senaryonuz için daha küçük bir önbellek süresi gerekiyorsa yardım için ürün destek temsilcinize başvurun.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

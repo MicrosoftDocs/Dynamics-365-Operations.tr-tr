@@ -1,5 +1,5 @@
 ---
-title: Stok Görünürlüğü'nü ayarlama
+title: Stok Görünürlüğü Eklentisini Yükleme
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi'nin nasıl yüklendiği açıklanmaktadır.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343596"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474832"
 ---
-# <a name="set-up-inventory-visibility"></a>Stok Görünürlüğü'nü ayarlama
+# <a name="install-and-set-up-inventory-visibility"></a>Stok Görünürlüğü'nü yükleme ve ayarlama
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ Stok Görünürlüğü Eklentisi'ni yüklemeden önce aşağıdaki görevleri ta
     - `Inventory Visibility Integration.zip` (Supply Chain Management'ın çalıştırdığınız bu sürümü 10.0.18 sürümünden daha eskiyse)
 
 > [!NOTE]
-> Şu anda desteklenen ülkeler ve bölgeler arasında Kanada (CCA, ECA), Amerika Birleşik Devletleri (WUS, EUS), Avrupa Birliği (NEU, WEU), Birleşik Krallık (SUK, WUK) ve Avustralya (EAU, SEAU) bulunmaktadır.
+> Şu anda desteklenen ülkeler ve bölgeler arasında Kanada (CCA, ECA), Amerika Birleşik Devletleri (WUS, EUS), Avrupa Birliği (NEU, WEU), Birleşik Krallık (SUK, WUK), Avustralya (EAU, SEAU), Japonya (EJP, WJP) ve Brezilya (SBR, SCUS) bulunmaktadır.
 
 Bu önkoşullarla ilgili herhangi bir sorunuz varsa Stok Görünürlüğü ürün takımına başvurun.
 
@@ -119,6 +119,9 @@ Azure AD'ye uygulama kaydedip istemci gizli anahtarı ekledikten sonra şu adım
 1. **Hüküm ve koşullar** onay kutusunu seçerek hüküm ve koşulları kabul edin.
 1. **Yükle**'yi seçin. Eklentinin durumu **Yükleniyor** olarak gösterilir. Yükleme tamamlandığında sayfayı yenileyin. Durum **Yüklendi** olarak değişecektir.
 
+> [!IMPORTANT]
+> Birden fazla LCS ortamınız varsa her ortam için farklı bir Azure AD uygulaması oluşturun. Farklı ortamlar için Stok Görünürlüğü Eklentisini yüklemek üzere aynı uygulama kimliğini ve kiracı kimliğini kullanırsanız daha eski ortamlar için bir belirteç sorunu oluşur. Yalnızca en son yüklenen geçerlidir.
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Stok Görünürlüğü Eklentisi'ni kaldırma
 
 Stok Görünürlüğü Eklentisi'ni kaldırmak için LCS sayfasında **Kaldır**'ı seçin. Kaldırma işlemi, Stok Görünürlüğü Eklentisi'ni sonlandırır, LCS'den eklentinin kaydını iptal eder ve Stok Görünürlüğü Eklentisi veri önbelleğinde depolanan geçici verileri siler. Ancak Dataverse aboneliğinizde depolanan birincil stok verileri silinmez.
@@ -133,7 +136,7 @@ Dataverse aboneliğinizde depolanan stok verilerini kaldırmak için [Power Apps
 
 Bu çözümler silindikten sonra tablolarda depolanan veriler de silinir.
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Supply Chain Management'ı ayarlama
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Supply Chain Management uygulamasında Stok Görünürlüğü'nü ayarlama
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Stok Görünürlüğü tümleştirme paketini dağıtma
 
@@ -153,8 +156,23 @@ Supply Chain Management ortamınızda aşağıdaki özelliklerin açık olduğun
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Stok Görünürlüğü tümleştirmesini kurma
 
-1. Supply Chain Management'ta **[Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** çalışma alanını açın ve *Stok Görünürlüğü Tümleştirmesi* özelliğini açın.
-1. **Stok Yönetimi \> Kurulum \> Stok Görünürlüğü Tümleştirme parametreleri**'ne gidin ve Stok Görünürlüğü'nü çalıştırdığınız ortamın URL'sini girin. Daha fazla bilgi için bkz. [Hizmet uç noktasını bulma](inventory-visibility-power-platform.md#get-service-endpoint).
+Eklentiyi yükledikten sonra aşağıdaki adımları uygulayarak Supply Chain Management sisteminizi eklentiyle çalışmaya hazırlayın.
+
+1. Supply Chain Management'ta **[Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** çalışma alanını açın ve aşağıdaki özellikleri açın:
+    - *Stok Görünürlüğü Tümleştirmesi*: Gereklidir.
+    - *Rezervasyon denkleştirme ile Stok Görünürlüğü tümleştirmesi*: Önerilir ancak isteğe bağlıdır. Sürüm 10.0.22 veya sonraki bir sürüm gereklidir. Daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](inventory-visibility-reservations.md).
+
+1. **Stok Yönetimi \> Ayar \> Stok Görünürlüğü Tümleştirme parametreleri**'ne gidin.
+1. **Genel** sekmesini açın ve aşağıdaki ayarları yapın:
+    - **Stok Görünürlüğü uç noktası**: Stok Görünürlüğü'nü çalıştırdığınız ortamın URL'sini girin. Daha fazla bilgi için bkz. [Hizmet uç noktasını bulma](inventory-visibility-configuration.md#get-service-endpoint).
+    - **Tek bir istekteki maksimum kayıt sayısı**: Tek bir isteğe dahil edilecek maksimum kayıt sayısı olarak ayarlayın. 1000'den küçük veya 1000'e eşit bir pozitif tamsayı girmeniz gerekir. Varsayılan değer 512'dır. Microsoft Desteği'nden önerilmediği veya değiştirmeniz gerektiğinden emin olmadığınız sürece varsayılan değeri korumanızı kesinlikle öneririz.
+
+1. İsteğe bağlı *Rezervasyon denkleştirme ile Stok Görünürlüğü tümleştirmesi* özelliğini etkinleştirdiyseniz **Reservasyon denkleştirme** sekmesini açın ve aşağıdaki ayarları yapın:
+    - **Rezervasyon denkleştirmeyi etkinleştir**: Bu işlevi etkinleştirmek için *Evet* olarak ayarlayın.
+    - **Rezervasyon denkleştirme değiştirici**: Stok Görünürlüğü'nde yapılan rezervasyonları denkleştirecek stok hareketi durumunu seçin. Bu ayar, denkleştirme işlemlerini tetikleyen sipariş işleme aşamasını belirler. Aşama, siparişin stok hareketi durumuna göre izlenir. Aşağıdakilerden birini seçin:
+        - *Siparişte*: *Harekette* durumu için sipariş oluşturulduğunda bir denkleştirme isteği gönderir. Denkleştirme miktarı, oluşturulan siparişin miktarıdır.
+        - *Rezerve edilmiş*: *Rezerve edilmiş siparişli hareket* durumu için sipariş, rezerve edildiğinde, alındığında, sevk irsaliyesi deftere nakledildiğinde veya faturalandığında bir denkleştirme isteği gönderir. İstek, belirtilen işlem gerçekleştiğinde ilk adım için yalnızca bir kez tetiklenir. Denkleştirme miktarı, ilgili sipariş satırında stok hareketi durumunun *Siparişte* yerine *Siparişli rezerve miktar* (veya sonraki durum) olarak değiştirildiği miktardır.
+
 1. **Stok Yönetimi \> Periyodik \> Stok Görünürlüğü Tümleştirmesi**'ne gidin ve işi etkinleştirin. Supply Chain Management'taki tüm stok değişikliği olayları artık Stok Görünürlüğü'ne nakledilecektir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

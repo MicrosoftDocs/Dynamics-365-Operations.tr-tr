@@ -1,5 +1,5 @@
 ---
-title: Üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri
+title: Dağıtılmış karma topolojide ölçek birimleri
 description: Bu konu, üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri hakkında bilgi sağlar.
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780686"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471752"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Dağıtılmış karma topolojide ölçek birimleri
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780686"
 >
 > Bulut ve uç ölçek birimlerini etkinleştirdiğinizde, bulut ve uç ölçek birimlerinin yapılandırması ve işlenmesiyle ilgili bazı verilerin ABD'de bulunan bir veri merkezinde depolanabileceğini anladığınızı onaylamanız istenir. Bulut ve uç ölçek birimleri için veri işleme hakkında daha fazla bilgi edinmek için, bu konunun sonraki bölümlerinde yer alan [Ölçek birimleri yönetimi sırasında veri işleme](#data-processing-management) bölümüne bakın.
 
-## <a name="core-value-proposition-for-scale-units"></a>Ölçek birimleri için temel değer önerisi
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Dağıtılmış karma topoloji için temel değer önerisi
 
-Üretim ve dağıtım ile çalışan şirketler, önemli iş süreçlerini kesintiye uğramadan ve büyük ölçekte 7/24 çalıştırabilmelidir. Bulut ve uç ölçek birimleri, şirketlerin zaman zaman ağ bağlantısı veya gecikme sorunlarıyla karşılaşsalar bile, görev açısından kritik öneme sahip önemli üretim ve ambar işlemlerini kesintisiz olarak yürütmelerine olanak tanır.
+Üretim ve dağıtım ile çalışan şirketler, önemli iş süreçlerini kesintiye uğramadan ve büyük ölçekte 7/24 çalıştırabilmelidir. Dağıtılmış bir karma topoloji, şirketlerin zaman zaman ağ bağlantısı veya gecikme sorunlarıyla karşılaşsalar bile görev açısından kritik öneme sahip önemli üretim ve ambar işlemlerini kesintisiz olarak yürütmelerine olanak tanır.
 
-Bulut ve uç ölçek birimleri atölye ve ambar yürütme iş yüklerinin farklı ortamlar arasında dağıtılmasını sağlar. Bu işlevsellik, performansın artırılmasına, hizmet kesintilerinin önlenmesine ve çalışma süresini en üst düzeye çıkarılmasına yardımcı olabilir. Ölçek birimleri, Supply Chain Management aboneliğiniz için aşağıdaki eklentiler aracılığıyla sağlanır:
+Dağıtılmış karma topoloji, atölye ve ambar yürütme iş yüklerinin farklı ortamlar arasında dağıtılmasını sağlayan *ölçek birimleri* kavramını sunar. Bu işlevsellik, performansın artırılmasına, hizmet kesintilerinin önlenmesine ve çalışma süresini en üst düzeye çıkarılmasına yardımcı olabilir. Ölçek birimleri, Supply Chain Management aboneliğiniz için aşağıdaki eklentiler aracılığıyla sağlanır:
 
 - Dynamics 365 Supply Chain Management için Bulut Ölçek Birimi Eklentisi ( *Nisan 2021*'de kullanıma sunulmuştur)
 - Dynamics 365 Supply Chain Management için Uç Ölçek Birimi Eklentisi ( *yakında kullanıma sunulacaktır*)

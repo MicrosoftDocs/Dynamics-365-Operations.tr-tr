@@ -2,7 +2,7 @@
 title: Elektronik faturalama yönetim bileşenleri
 description: Bu konu, elektronik faturalama yönetimiyle ilgili bileşenler hakkında bilgi sağlar.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721738"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463893"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektronik faturalama yönetim bileşenleri
 
@@ -31,14 +31,14 @@ Bu konu, elektronik faturalama yönetimiyle ilgili bileşenler hakkında bilgi s
 
 ## <a name="azure"></a>Azure
 
-Key Vault ve depolama hesabının gizli dizilerini oluşturmak için Microsoft Azure kullanın. Sonra, Elektronik faturalamanın yapılandırmasında gizli dizileri kullanın.
+Anahtar kasası için gizli diziler oluşturmak ve depolama hesabı ayarlamak için Microsoft Azure kullanın. Ardından, Elektronik faturalama yapılandırmasında anahtar kasası gizli dizilerini ve depolama hesabı SAS belirtecini kullanın.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-LCS dağıtım projenizde mikro hizmetleri etkinleştirmek amacıyla Microsoft Dynamics Lifecycle Services'i (LCS) kullanın.
+LCS dağıtım projeniz için Elektronik faturalama Eklentisini etkinleştirmek için Microsoft Dynamics'te Lifecycle Services'i (LCS) kullanın.
 
 > [!NOTE]
-> LCS içindeki mikro hizmetin yüklenmesi için en az bir katman 2 sanal makine gereklidir. Ortam planlama hakkında daha fazla bilgi için [ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) konusuna bakın.
+> Eklentilerin LCS'ye yüklenmesi için en az bir **Katman 2 ortamı** gerekir. Ortam planlama hakkında daha fazla bilgi için [ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) konusuna bakın.
  
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
@@ -53,20 +53,21 @@ RCS hakkında daha fazla bilgi için bkz. [Regulatory Configuration Services (RC
 
 Elektronik faturaları konfigüre etmek için RCS'yi kullanabilmeniz için önce, RCS'yi Elektronik faturalama ile iletişime izin verecek şekilde konfigüre etmelisiniz. Bu konfigürasyon **Elektronik raporlama parametreleri** sayfasındaki **Elektronik faturalama** sekmesinde tamamlanmalıdır.
 
-#### <a name="service-endpoint"></a>Hizmet bitiş noktası
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>Hizmet bitiş noktası
 
 Elektronik faturalama çeşitli Azure veri merkezi coğrafyalarında mevcuttur. Aşağıdaki tabloda her bölge için kullanılabilirlik listelenmiştir.
 
-| Azure veri merkezi coğrafyası |
-|----------------------------|
-| Amerika Birleşik Devletleri              |
-| Avrupa                     |
-| Birleşik Krallık             |
-| Asya                       |
+
+| Veri merkezi Azure coğrafyası | Hizmet uç noktası URI'si                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| Amerika Birleşik Devletleri              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| Avrupa                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Birleşik Krallık             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Asya                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>Hizmet ortamları
 
-Hizmet ortamları, Elektronik faturalamanın elektronik faturalama özelliklerinin yürütülmesini desteklemek için oluşturulan mantıksal bölümlerdir. Güvenlik gizli dizileri ve dijital sertifikalar ve idare (erişim izinleri), hizmet ortamı düzeyinde konfigüre edilmelidir.
+Hizmet ortamları, Elektronik faturalamada genelleştirme özelliklerinin yürütülmesini desteklemek için oluşturulan mantıksal bölümlerdir. Güvenlik gizli dizileri ve dijital sertifikalar ve idare (erişim izinleri), hizmet ortamı düzeyinde konfigüre edilmelidir.
 
 Müşteriler istedikleri sayıda servis ortamı oluşturabilir. Bir müşterinin oluşturduğu tüm servis ortamları birbirinden bağımsızdır.
 
@@ -84,8 +85,8 @@ Hizmet ortamları, durum ile yönetilebilir. Olası seçenekler şunlardır:
 
 Elektronik faturalama servisi, tüm iş verilerinizi şirketinize ait Azure kaynaklarında depolamaktan sorumlu olur. Hizmetin doğru çalışmasını ve elektronik faturalama eklentisi için gereken ve bu eklenti tarafından oluşturulan tüm iş verilerine düzgün biçimde erişildiğinden emin olmak için iki ana Azure kaynağı oluşturmanız gerekir:
 
-- Elektronik faturaları depolayacak bir Azure depolama hesabı (Blob depolama)
-- Sertifikaları ve depolama hesabının Tekdüzen Kaynak Tanımlayıcısı'nı (URI) depolamak için bir Azure Key Vault
+- Elektronik faturalar, belge dönüştürmelerinin sonuçları ve harici web hizmetlerinden gelen yanıtlar dahil olmak üzere elektronik belgeleri depolayacak bir Azure depolama hesabıdır (Blob depolama).
+- Sertifikaları ve depolama hesabının tekdüzen kaynak tanımlayıcısı'nı (URI) depolamak için bir Azure anahtar kasası (SAS token).
 
 
 Özel bir Key Vault kaynağı ve müşteri depolama hesabıyla özel olarak Elektronik Faturalama ile kullanılmak üzere ayrılmalıdır. Daha fazla bilgi için bkz. [Azure depolama hesabı ve bir Key Vault oluşturma](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -122,13 +123,13 @@ Finance ve Supply Chain Management ile Elektronik faturalama arasındaki iletiş
 
 Servis uç noktası, elektronik faturalamanın bulunduğu URL'dir. Elektronik fatura kesebilmek için Finance ve Supply Chain Management'ta servis uç noktalarının yapılandırılarak hizmetle iletişim kurulmasına izin vermesi gerekir.
 
-Hizmet uç noktasını konfigüre etmek için **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametresi**'ne gidin ve **Gönderme hizmetleri** sekmesinde, **Elektronik faturalama URL'si** alanına, **Servis uç noktası** bölümünde açıklanan şekilde tabloya URL'yi girin.
+Servis uç noktasını yapılandırmak için **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri**'ne gidin ve ardından **Elektronik faturalama** sekmesindeki **Uç nokta URL'si** alanında bu konunun önceki bölümlerinde yer alan [Hizmet bitiş noktası](#svc-endpoint-uris) bölümündeki tablodan uygun URL'yi girin.
 
 #### <a name="environments"></a>Ortamlar
 
 Finance ve Supply Chain Management'a girilen ortam adı, RCS'de oluşturulan ve Elektronik faturalamaya yayınlanan ortam adına başvurur.
 
-Ortam, elektronik fatura kesmeye yönelik her isteğin, Elektronik faturalamanın hangi elektronik faturalama özelliğinin talebi işlemesi gerektiğini belirleyebildiği bir ortam içermesi için **Elektronik belge parametresi** sayfasının **Gönderim servisleri** sekmesinde konfigüre edilmelidir.
+Ortam, **Elektronik belge parametreleri** sayfasının **Elektronik faturalama** sekmesinde yapılandırılmalıdır. Bu şekilde, her elektronik fatura yayınlama isteği, Elektronik faturalamanın hangi elektronik faturalama özelliğinin isteği işlemesi gerektiğini belirleyebileceği ortamı içerir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

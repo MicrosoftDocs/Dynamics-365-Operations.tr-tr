@@ -2,7 +2,7 @@
 title: Elektronik raporlamada çok dilli raporlar tasarlama
 description: Bu konu, çok dilli raporlar tasarlamak ve oluşturmak için Elektronik raporlama (ER) etiketlerini nasıl kullanabileceğinizi açıklamaktadır.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718441"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473417"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Elektronik raporlamada çok dilli raporlar tasarlama
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Özet
 
@@ -229,10 +231,14 @@ Bu konuda daha önce de anlatıldığı gibi, her [modelin](#LinkModelEnum) **Et
 - **Etiket** özniteliklerini bağlantılı ER etiketinin değeri, döndürülen kaydın **Etiket** alanında saklanır.
 - **Açıklama** özniteliklerini bağlantılı ER etiketinin değeri, döndürülen kaydın **Açıklama** alanında saklanır.
 
+## <a name="performance"></a><a name=performance></a>Performans
+
+Tercih ettiğiniz [dilde](#language) rapor oluşturmak için veya içeriğin tercih ettiğiniz dile göre ayrıştırıldığı gelen belgeyi içeri aktarmak için bir ER biçimi bileşenini yapılandırdığınızda [Özellik yönetimi](../../fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında **ER çalıştırıldığında geçerli kullanıcının tercih ettiği dili önbelleğe al** özelliğini etkinleştirmenizi öneririz. Bu özellik, özellikle ER formülleri ve bağlamalarındaki etiketlere birden çok başvuru ve tercih ettiğiniz dilde kullanıcı iletileri oluşturmak için birçok [doğrulama](general-electronic-reporting-formula-designer.md#TestFormula) kuralı içeren ER biçimi bileşenleri için performansı artırmaya yardımcı olur.
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
-- [Elektronik Raporlama işlevleri](er-formula-language.md#functions)
+- [Elektronik Raporlama işlevleri](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

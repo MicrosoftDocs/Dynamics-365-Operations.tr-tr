@@ -2,7 +2,7 @@
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774421"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463647"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -32,7 +32,29 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Mayıs 2021'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+## <a name="feature-deprecation-effective-august-2021"></a>Ağustos 2021'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Lifecycle Services'de (LCS) Microsoft Azure SQL raporları
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | LCS'de bazı SQL raporlarını kullanımdan kaldırıyoruz. Bu özelliğin yerini başka hizmetler aldığı için artık raporları izlemeniz gerekmez. |
+| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Etkilenen ürün alanları**         | SQL raporları: Geçerli DTU, Geçerli DTU Ayrıntıları, Kilit Ayrıntılarını Al, Geçerli Plan Kılavuzunun Listesi, Sorgu Kimliklerinin Listesini Al, Belirli bir Plan Kimliği için SQL sorgu planını al, Sorgu planlarını ve yürütme durumunu al, Azaltma yapılandırmasını al, Bekleme istatistiklerini al, En pahalı sorguları listele |
+| **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
+| **Durum**                         | Kullanım dışı: Ekim 2021'de planlanan kaldırma tarihi. |
+
+### <a name="azure-sql-actions-in-lcs"></a>LCS'de Azure SQL eylemleri
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | LCS'de bazı SQL eylemlerini kullanımdan kaldırıyoruz.  |
+| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Etkilenen ürün alanları**         | SQL eylemleri: Plan Kodu zorlamak için bir plan kılavuzu oluştur, Tablo ipuçları eklemek için bir plan kılavuzu oluştur, Plan Kılavuzunu kaldır, Sayfa kilitlerini ve kilit ilerletmeyi Devre Dışı Bırak/Etkinleştir, Tablodaki istatistikleri güncelleştir, Dizini yeniden oluştur, Dizin oluştur |
+| **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
+| **Durum**                         | Kullanım dışı: Ekim 2021'de planlanan kaldırma tarihi. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Mayıs 2021'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Lifecycle Services (LCS) içinde genelleştirme portalı
 

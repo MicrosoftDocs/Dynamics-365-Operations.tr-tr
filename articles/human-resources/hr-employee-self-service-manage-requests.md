@@ -1,8 +1,8 @@
 ---
 title: İzin ve devamsızlığı yönetme talepleri
 description: Bırak ve devamsızlık taleplerini Dynamics 365 Human Resources'da görüntüleyin ve onaylayın.
-author: andreabichsel
-ms.date: 04/21/2021
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,27 +12,27 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46b26a3c4f6594bf1e471f241307c2da55d805c65b038233520003db952a2f4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0033196c445a59482798e89913bbb40303462e2b
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769671"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431302"
 ---
 # <a name="manage-leave-and-absence-requests"></a>İzin ve devamsızlık isteklerini yönetme
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources'ta **Çalışan self servis** çalışma alanındaki zaman aşımı isteklerini yönetin. İstekler basit bir tek günlük istek veya çoklu izin ve devamsızlık türlerini içeren çoklu gün isteklerinden oluşabilir. Bir iş akışı etkinleştirilmemişse, istekler otomatik olarak onaylanır. Bir iş akışı etkinleştirilmişse, iş akışının yapılandırmasına bağlı olarak onay otomatik olabilir veya onay gerektirebilir.
+Dynamics 365 Human Resources uygulamasındaki **Personel self servisi** çalışma alanından izin isteklerini yönetin. İstekler, basit tek günlük istekler veya birden çok izin ve devamsızlık türü içeren birden fazla gün için olan istekler olabilir. Bir iş akışı etkinleştirilmemişse, istekler otomatik olarak onaylanır. İş akışı etkinleştirildiğinde iş akışının yapılandırmasına bağlı olarak onay otomatik olabilir veya onay gerektirebilir.
 
-1. **Personel self servisi** çalışma alanında **Takımım**'ı seçin.
+1. **Personel self servisi** çalışma alanını **Ekibim**'i seçin.
 
 2. **Ekip bilgilerim** altında, **İzin ve devamsızlık** sekmesini seçin.
 
-3. Ekip üyelerinizin süre kapama isteklerinizi gerektiği gibi görüntüleyin ve onaylayın.
+3. Takım üyelerinizin izin isteklerini gerektiği şekilde görüntüleyin ve onaylayın.
 
 ## <a name="leave-request-workflow-experience-enhancements"></a>İzin isteği iş akışı deneyimi geliştirmeleri
 

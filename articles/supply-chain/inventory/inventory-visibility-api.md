@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343644"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474664"
 ---
 # <a name="inventory-visibility-public-apis"></a>Stok Görünürlüğü genel API'si
 
@@ -46,6 +46,9 @@ Aşağıdaki tabloda, şu anda kullanılabilen API'ler listelenmektedir:
 
 Microsoft, hazır bir *Postman* istek koleksiyonu sağlamıştır. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
+> [!NOTE]
+> Yolun {environmentId} bölümü, Microsoft Dynamics Lifecycle Services'teki (LCS) ortam kimliğidir.
+
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lifecycle Services ortamınıza göre uç noktayı bulma
 
 Stok Görünürlüğü mikro hizmeti, birden çok coğrafya ve bölgede Microsoft Azure Service Fabric'te dağıtılır. Şu anda isteğinizi ilgili coğrafya ve bölgeye otomatik olarak yönlendirebilecek merkezi bir uç nokta bulunmamaktadır. Bu nedenle, aşağıdaki modeli kullanarak bilgi parçalarını bir URL'de oluşturmanız gerekir:
@@ -54,22 +57,26 @@ Stok Görünürlüğü mikro hizmeti, birden çok coğrafya ve bölgede Microsof
 
 Bölge kısa adı, Microsoft Dynamics Lifecycle Services (LCS) ortamında bulunabilir. Aşağıdaki tabloda, şu anda kullanılabilen bölgeler listelenmektedir.
 
-| Azure bölgesi | Bölge kısa adı |
-|---|---|
-| Doğu Avustralya | eau |
-| Güneydoğu Avustralya | seau |
-| Orta Kanada | cca |
-| Doğu Kanada | eca |
-| Kuzey Avrupa | neu |
-| Batı Avrupa | weu |
-| Doğu ABD | eus |
-| Batı ABD | wus |
-| Güney BK | suk |
-| Batı BK | wuk |
+| Azure bölgesi        | Bölge kısa adı |
+| ------------------- | ----------------- |
+| Doğu Avustralya      | eau               |
+| Güneydoğu Avustralya | seau              |
+| Orta Kanada      | cca               |
+| Doğu Kanada         | eca               |
+| Kuzey Avrupa        | neu               |
+| Batı Avrupa         | weu               |
+| Doğu ABD             | eus               |
+| Batı ABD             | wus               |
+| Güney BK            | suk               |
+| Batı BK             | wuk               |
+| Doğu Japonya          | ejp               |
+| Batı Japonya          | wjp               |
+| Güney Brezilya        | sbr               |
+| Güney Orta ABD    | scus              |
 
 Ada numarası, LCS ortamınızın Service Fabric'te dağıtıldığı yerdir. Şu anda bu bilgileri kullanıcı tarafında almanın yolu yoktur.
 
-Microsoft, Power Apps'te bir kullanıcı arabirimi (UI) oluşturmuştur, böylece mikro hizmetin tam uç noktasını alabilirsiniz. Daha fazla bilgi için bkz. [Hizmet uç noktasını bulma](inventory-visibility-power-platform.md#get-service-endpoint).
+Microsoft, Power Apps'te bir kullanıcı arabirimi (UI) oluşturmuştur, böylece mikro hizmetin tam uç noktasını alabilirsiniz. Daha fazla bilgi için bkz. [Hizmet uç noktasını bulma](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Kimlik Doğrulama
 
@@ -80,66 +87,66 @@ Güvenlik hizmeti belirteci almak için aşağıdaki adımları izleyin.
 1. Azure portalda oturum açın ve bu portalı kullanarak Dynamics 365 Supply Chain Management uygulamanız için `clientId` ve `clientSecret` değerlerini bulun.
 1. Aşağıdaki özelliklere sahip bir HTTP isteği göndererek Azure AD belirteci (`aadToken`) getirin:
 
-    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
-    - **Yöntem:** `GET`
-    - **Gövde içeriği (form verileri):**
+   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **Yöntem:** `GET`
+   - **Gövde içeriği (form verileri):**
 
-        | Anahtar | Değer |
-        |---|---|
-        | client_id | ${aadAppId} |
-        | client_secret | ${aadAppSecret} |
-        | grant_type | client_credentials |
-        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | Anahtar           | Değer                                |
+     | ------------- | ------------------------------------ |
+     | client_id     | ${aadAppId}                          |
+     | client_secret | ${aadAppSecret}                      |
+     | grant_type    | client_credentials                   |
+     | resource      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
 
-    Yanıtta bir Azure AD belirteci (`aadToken`) almanız gerekir. Bu etiket, aşağıdaki örneğe benzeyecektir.
+   Yanıtta bir Azure AD belirteci (`aadToken`) almanız gerekir. Bu etiket, aşağıdaki örneğe benzeyecektir.
 
-    ```json
-    {
-        "token_type": "Bearer",
-        "expires_in": "3599",
-        "ext_expires_in": "3599",
-        "expires_on": "1610466645",
-        "not_before": "1610462745",
-        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-        "access_token": "eyJ0eX...8WQ"
-    }
-    ```
+   ```json
+   {
+       "token_type": "Bearer",
+       "expires_in": "3599",
+       "ext_expires_in": "3599",
+       "expires_on": "1610466645",
+       "not_before": "1610462745",
+       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+       "access_token": "eyJ0eX...8WQ"
+   }
+   ```
 
 1. Aşağıdaki örneğe benzer bir JavaScript Nesne Gösterimi (JSON) isteği düzenleyin.
 
-    ```json
-    {
-        "grant_type": "client_credentials",
-        "client_assertion_type": "aad_app",
-        "client_assertion": "{Your_AADToken}",
-        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
-        "context_type": "finops-env"
-    }
-    ```
+   ```json
+   {
+       "grant_type": "client_credentials",
+       "client_assertion_type": "aad_app",
+       "client_assertion": "{Your_AADToken}",
+       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context_type": "finops-env"
+   }
+   ```
 
-    Aaşağıdaki noktaları unutmayın:
+   Aaşağıdaki noktaları unutmayın:
 
-    - `client_assertion` değeri, önceki adımda aldığınız Azure AD belirteci (`aadToken`) olmalıdır.
-    - `context`değeri, eklentiyi dağıtmak istediğiniz ortam kimliği olmalıdır.
-    - Diğer tüm değerleri örnekte gösterildiği gibi ayarlayın.
+   - `client_assertion` değeri, önceki adımda aldığınız Azure AD belirteci (`aadToken`) olmalıdır.
+   - `context`değeri, eklentiyi dağıtmak istediğiniz LCS ortamı kimliği olmalıdır.
+   - Diğer tüm değerleri örnekte gösterildiği gibi ayarlayın.
 
 1. Aşağıdaki özelliklere sahip bir HTTP isteği gönderin:
 
-    - **URL:** `https://securityservice.operations365.dynamics.com/token`
-    - **Yöntem:** `POST`
-    - **HTTP üst bilgisi:** API sürümünü ekleyin. (Anahtar `Api-Version` ve değer `1.0`.)
-    - **Gövde içeriği:** Önceki adımda oluşturduğunuz JSON isteğini ekleyin.
+   - **URL:** `https://securityservice.operations365.dynamics.com/token`
+   - **Yöntem:** `POST`
+   - **HTTP üst bilgisi:** API sürümünü ekleyin. (Anahtar `Api-Version` ve değer `1.0`.)
+   - **Gövde içeriği:** Önceki adımda oluşturduğunuz JSON isteğini ekleyin.
 
-    Yanıtta bir erişim belirteci (`access_token`) almanız gerekir. Stok Görünürlüğü API'sini çağırmak için taşıyıcı belirteç olarak bu belirteci kullanmanız gerekir. Aşağıda bir örnek verilmiştir.
+   Yanıtta bir erişim belirteci (`access_token`) almanız gerekir. Stok Görünürlüğü API'sini çağırmak için taşıyıcı belirteç olarak bu belirteci kullanmanız gerekir. Aşağıda bir örnek verilmiştir.
 
-    ```json
-    {
-        "access_token": "{Returned_Token}",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
-    ```
+   ```json
+   {
+       "access_token": "{Returned_Token}",
+       "token_type": "bearer",
+       "expires_in": 3600
+   }
+   ```
 
 Sonraki bölümlerde, son adımda alınan belirteci temsil edecek şekilde `$access_token` kullanacaksınız.
 
@@ -160,6 +167,9 @@ Aşağıdaki tabloda, JSON gövdesindeki her bir alanın anlamı özetlenmektedi
 | `quantities` | Eldeki miktarın değiştirilmesi gereken miktar. Örneğin, bir rafa 10 yeni kitap eklenirse bu değer `quantities:{ shelf:{ received: 10 }}` olur. Üç kitap raftan kaldırılırsa veya satılırsa bu değer `quantities:{ shelf:{ sold: 3 }}` olur. |
 | `dimensionDataSource` | Deftere nakil değişikliği olayı ve sorgusunda kullanılan boyutların veri kaynağı. Veri kaynağını belirtirseniz belirtilen veri kaynağındaki özel boyutları kullanabilirsiniz. Stok Görünürlüğü, özel boyutları genel varsayılan boyutlarla eşleştirmek için boyut yapılandırmasını kullanır. `dimensionDataSource` değeri belirtilmezse sorgularınızda yalnızca [temel boyutları](inventory-visibility-configuration.md#data-source-configuration-dimension) kullanabilirsiniz. |
 | `dimensions` | Dinamik bir anahtar-değer çifti. Değerler, Supply Chain Management'ta bazı boyutlarla eşleştirilir. Ancak olayın Supply Chain Management'tan veya harici bir sistemden geldiğini belirtmek için özel boyutlar da (örneğin, _Kaynak_) ekleyebilirsiniz. |
+
+> [!NOTE]
+> `SiteId` ve `LocationId` parametreleri [bölüm yapılandırmasını](inventory-visibility-configuration.md#partition-configuration) oluşturur. Bu nedenle, eldeki değişiklik olayları oluşturduğunuzda, eldeki miktarları ayarladığınızda veya geçersiz kıldığınızda ya da rezervasyon olayları oluşturduğunuzda bunları boyutlarda belirtmeniz gerekir.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Eldeki değişiklik olayı oluşturma
 
@@ -201,6 +211,9 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu örnekte, *
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "PosMachineId": "0001",
         "ColorId": "Red"
     },
     "quantities": {
@@ -211,7 +224,7 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu örnekte, *
 }
 ```
 
-Aşağıdaki örnekte, `dimensionDataSource` olmadan örnek gövde içeriği gösterilmektedir.
+Aşağıdaki örnekte, `dimensionDataSource` olmadan örnek gövde içeriği gösterilmektedir. Bu durumda,`dimensions` [temel boyutlar](inventory-visibility-configuration.md#data-source-configuration-dimension) olur. `dimensionDataSource` ayarlanırsa `dimensions` veri kaynağı boyutları veya temel boyutlar olabilir.
 
 ```json
 {
@@ -219,9 +232,9 @@ Aşağıdaki örnekte, `dimensionDataSource` olmadan örnek gövde içeriği gö
     "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensions": {
-        "ColorId": "Red",
         "SiteId": "1",
-        "LocationId": "11"
+        "LocationId": "11",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -275,6 +288,8 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+            "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId&quot;: &quot;0001"
         },
         "quantities": {
@@ -284,10 +299,11 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
     {
         "id": "654321",
         "organizationId": "usmf",
-        "productId": "@PRODUCT1",
-        "dimensionDataSource": "pos",
+        "productId": "Pants",
         "dimensions": {
-            "PosMachineId&quot;: &quot;0001"
+            "SiteId": "1",
+            "LocationId": "11",
+            "ColorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -341,6 +357,8 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu API'nin dav
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+             "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId": "0001"
         },
         "quantities": {
@@ -359,6 +377,12 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir. Bu API'nin dav
 *Rezerve Etme* API'sini kullanmak için rezervasyon özelliğini açmanız ve rezervasyon yapılandırmasını tamamlamanız gerekir. Daha fazla bilgi için bkz. [Rezervasyon yapılandırması (isteğe bağlı)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Rezervasyon olayı oluşturma
+
+Rezervasyon, farklı veri kaynağı ayarları için yapılabilir. Bu tür bir rezervasyonu yapılandırmak için öncelikle `dimensionDataSource` parametresinde veri kaynağını belirtin. Ardından `dimensions` parametresinde, hedef veri kaynağındaki boyut ayarlarına göre boyutları belirtin.
+
+Rezervasyon API'sini çağırdığınızda istek gövdesinde Boolean `ifCheckAvailForReserv` parametresini belirterek rezervasyon doğrulamasını denetleyebilirsiniz. `True` değeri, doğrulamanın gerekli olduğu anlamına ve `False` değeri, doğrulamanın gerekli olmadığı anlamına gelir. Varsayılan değer `True` değeridir.
+
+Rezervasyonu iptal etmek veya belirtilen stok miktarlarının rezervasyonunu kaldırmak istiyorsanız miktarı negatif bir değere ayarlayın ve doğrulamayı atlamak için `ifCheckAvailForReserv` parametresini `False` olarak ayarlayın.
 
 ```txt
 Path:
@@ -467,14 +491,28 @@ ContentType:
     application/json
 Body:
     {
-        organizationId: string,
+        dimensionDataSource: string, # Optional
         filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
             [dimensionKey:string]: string[],
         },
         groupByValues: string[],
         returnNegative: boolean,
     }
 ```
+
+Bu isteğin gövde kısmında, `dimensionDataSource` isteğe bağlı bir parametre olmaya devam eder. Ayarlanmamışsa `filters` *temel boyutlar* olarak kabul edilir. `filters` için `organizationId`, `productId`, `siteId` ve `locationId` olmak üzere dört gerekli alan vardır.
+
+- `organizationId` yalnızca bir değer içermelidir ancak yine de bir dizidir.
+- `productId` bir veya daha fazla değer içerebilir. Bu boş bir diziyse tüm ürünler döndürülür.
+- `siteId` ve `locationId`, bölümleme için Stok Görünürlüğü'nde kullanılır.
+
+`groupByValues` parametresi, dizin oluşturma yapılandırmanızı takip etmelidir. Daha fazla bilgi için bkz. [Ürün dizini hiyerarşi yapılandırması](./inventory-visibility-configuration.md#index-configuration).
+
+`returnNegative` parametresi, sonuçların negatif girişler içerip içermediğini denetler.
 
 Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
 
@@ -484,7 +522,24 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "LocationId": ["11"],
         "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+Aşağıdaki örneklerde, belirli bir tesis ve konumdaki tüm ürünlerin nasıl sorgulanacağı gösterilmektedir.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": [],
+        "siteId": ["1"],
+        "LocationId": ["11"],
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true
@@ -512,7 +567,7 @@ Query(Url Parameters):
 Aşağıda, örnek bir alma URL'si bulunmaktadır. Bu alma isteği, daha önce sağlanan deftere nakletme örneği ile tam olarak aynıdır.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

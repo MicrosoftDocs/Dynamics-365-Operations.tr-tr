@@ -1,8 +1,8 @@
 ---
 title: Performans incelemeleri oluşturma
 description: Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözden geçirmenin her bölümünün amacını açıklar.
-author: andreabichsel
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a4a9f83c2b6cb30888ed5a797fb72b9f382187cb8f119d15a5fa437ed5aba1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1340653c1e9a21d41743b8e3c0b81a4285245d5a
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732261"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431172"
 ---
 # <a name="create-performance-reviews"></a>Performans incelemeleri oluşturma
 
@@ -65,13 +65,13 @@ Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözde
 30. **Derecelendirmeler** sekmesini seçin.  
 
     - **Derecelendirme ayrıntıları** Hızlı Sekmesi, çalışanların kendilerini derecelendirmelerini ve yöneticinin çalışanı derecelendirmesini sağlar. Ağırlıklar kullanılırsa puanların ağırlık değeri otomatik olarak hesaplanır.  
-    - Bu bölümü görüntülemek için çalışan derecelendirmelerini göstermek üzere parametre ayarlarını etkinleştirin.  
+    - Bu bölümü görüntülemek için **İnsan kaynakları paylaşılan parametreleri** sayfasında çalışan derecelendirmelerini göstermek üzere parametre ayarlarını etkinleştirin.  
 
-31. **Oturum kapatma işlemleri** sekmesini seçin. Oturumu kapatma işlemleri yalnızca iş akışı tamamlandıktan sonra görüntülenir. İş akışı kullanılmazsa çalışan ve yönetici burada listelenir. Gözden geçirme türü ayarlarına göre gerekli onay kutusu seçilidir.  
+31. **Oturum kapatma işlemleri** sekmesini seçin. Oturumu kapatma işlemleri yalnızca iş akışı tamamlandıktan sonra görüntülenir. İş akışı kullanılmazsa çalışan ve yönetici burada listelenir. Gözden geçirme türü ayarlarına göre **Oturum kapatma işlemleri** için **Gerekli** onay kutusu seçilir.  
 32. **Genel** sekmesini seçin.
 
     - Performans dönemi varsayılan başlangıç ve bitiş tarihlerini oluşturur. Bu tarihler düzenlenebilir.  
-    - Durumlar gözden geçirmeye erişimi kontrol eder. **Başlatılmadı** durumu gözden geçirmeyi herkesin görmesine olanak tanır. **İşlemde** durumunu gözden geçirmeyi yalnızca çalışanların görüntülemesine ve düzenlemesine olanak tanır. **Gözden geçirme için hazır**, gözden geçirmeyi yalnızca yöneticinin görüntülemesine ve düzenlemesine olanak tanır. **Son gözden geçirme** durumu, gözden geçirmeyi hem çalışan hem de yöneticinin görmesine ve gözden geçirme türünde ayarlandıysa düzenlemesine olanak tanır. **Tamamlandı** ve **İptal Edildi** durumları gözden geçirmeyi salt okunur hale getirir. Bir gözden geçirme **Reddedildi** durumundaysa ve çalışana geri gönderilirse, hem çalışan hem de yönetici, çalışanın yeniden gönderebilmesi için gerekli düzenlemeleri yapabilir.
+    - Durumlar gözden geçirmeye erişimi kontrol eder. **Başlatılmadı** durumu gözden geçirmeyi herkesin görmesine olanak tanır. **İşlemde** durumunu gözden geçirmeyi yalnızca çalışanların görüntülemesine ve düzenlemesine olanak tanır. **Gözden geçirme için hazır**, gözden geçirmeyi yalnızca yöneticinin görüntülemesine ve düzenlemesine olanak tanır. **Son gözden geçirme** durumu, gözden geçirme türünde **Son gözden geçirmede düzenlemeye izin ver** seçeneği belirlenirse çalışanın ve yöneticinin gözden geçirmeyi görüntülemesine ve düzenlemesine olanak tanır. **Tamamlandı** ve **İptal Edildi** durumları gözden geçirmeyi salt okunur hale getirir. Bir gözden geçirme **Reddedildi** durumundaysa ve çalışana geri gönderilirse, hem çalışan hem de yönetici, çalışanın yeniden gönderebilmesi için gerekli düzenlemeleri yapabilir.
 
 33. **Özet** alanına bir değer yazın.
 34. **Gözden geçirme** sekmesini seçin. Gözden geçirme durumlar arasında ilerledikçe çalışan ve yönetici her bir hedef veya uzmanlık için yorumlar ekleyebilir.  

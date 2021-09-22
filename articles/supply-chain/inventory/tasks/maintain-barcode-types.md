@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 052311e15aeb20b927cbed217a2bda600dad60a5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4102f8036c0aede7c8a2adcaa9b8799a71ac7ada
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345662"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441301"
 ---
 # <a name="maintain-bar-code-types"></a>Barkod türlerini yönetme
 
@@ -32,7 +32,8 @@ Bu yordam, malzeme çekme listesi raporunun bir parçası olarak da kullanılabi
 1. **Barkod ayarı** alanında, bir değer girin.
 1. **Tanım** alanına bir değer girin.
 1. **Barkod türü** alanında, bir seçenek belirleyin.
-    * USMF kullanıyorsanız, 'Code 39' öğesini seçebilirsiniz.  
+    * USMF kullanıyorsanız, 'Code 39' öğesini seçebilirsiniz.
+1. **Maske Kodu** alanında, barkod maskesi kimliğini belirtin. Barkod maskeleri, barkod oluşturmak ve satış noktası (POS) sistemine taranan barkodları hızla tanımlamak için kullanılır. Ayrıntılar için bkz. [Barkod maskelerini ayarlama](../../../commerce/set-up-bar-code-masks.md).
 1. **Boyut** alanında, bir sayı girin.
 1. **Maksimum uzunluk** alanında, bir sayı girin.
 1. **Kaydet**'i seçin.

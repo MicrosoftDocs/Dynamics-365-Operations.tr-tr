@@ -2,7 +2,7 @@
 title: Mağazalardaki müşteri yönetimi
 description: Bu konu, perakendecilerin müşteri yönetimi yeteneklerini Microsoft Dynamics 365 Commerce'teki satış noktasında nasıl etkinleştirebileceğini açıklar.
 author: josaw1
-ms.date: 05/25/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ea2953510d134be0d33a6afa65027a6c9d2816f7dc16ca669859e80ee40f4278
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754428"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472237"
 ---
 # <a name="customer-management-in-stores"></a>Mağazalardaki müşteri yönetimi
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu, perakendecilerin müşteri yönetimi yeteneklerini Microsoft Dynamics 365 Commerce'teki satış noktasında nasıl etkinleştirebileceğini açıklar.
 
@@ -38,32 +39,36 @@ Satış yetkilileri ikincil e-posta adreslerini ve telefon numaralarını da kay
 Perakendeciler, her mağaza için varsayılan bir müşteri ilişkilendirmek amacıyla Commerce genel merkezindeki (**perakende ve Commerce \> Kanallar \> Mağazalar**) **tüm mağazalar** sayfasını kullanabilir. Böylece Commerce, varsayılan müşteri için tanımlanan özellikleri, oluşturulan tüm yeni müşteri kayıtlarına kopyalar. Örneğin, **Müşteri Oluştur** iletişim kutusu, mağazayla ilişkilendirilmiş olan varsayılan müşteriden alınan özellikleri gösterir. Bu özellikler **müşteri türü**, **müşteri grubu**, **makbuz seçeneği**, **makbu e-postası**, **para birimi** ve **dili** içerir. Tüm **ilişkiler** de (müşteri grupları) varsayılan müşteriden devralınır. Ancak, **mali boyutlar** varsayılan müşterinin kendisinden değil, varsayılan müşteriyle ilişkilendirilmiş müşteri grubundan devralınır.
 
 > [!NOTE]
-> **Makbuz e-postası** değeri, yalnızca yeni oluşturulan müşteriler için makbuz e-posta kimliği sağlanmadıysa varsayılan müşteriden kopyalanır. Bu, makbuz e-posta kimliği varsayılan müşteride varsa, e-ticaret sitesinden oluşturulan tüm müşterilerin, müşteriden gelen makbuz e-posta kimliğini yakalamak için kullanıcı arabirimi olmadığı için aynı makbuz e-posta kimliğini alacağı anlamına gelir. **Makbuz e-posta** alanını mağazanın varsayılan müşterisi için boş tutmanızı ve yalnızca mevcut bir makbuz e-posta adresine bağlı bir iş işleminiz varsa kullanmanızı öneririz. 
+> **Makbuz e-postası** değeri, yalnızca yeni oluşturulan müşteriler için makbuz e-posta kimliği sağlanmadıysa varsayılan müşteriden kopyalanır. Bu, makbuz e-posta kimliği varsayılan müşteride varsa, e-ticaret sitesinden oluşturulan tüm müşterilerin, müşteriden gelen makbuz e-posta kimliğini yakalamak için kullanıcı arabirimi olmadığı için aynı makbuz e-posta kimliğini alacağı anlamına gelir. **Makbuz e-postası** alanını mağazanın varsayılan müşterisi için boş bırakmanızı ve yalnızca mevcut bir makbuz e-postası adresine bağlı bir iş süreciniz varsa kullanmanızı öneririz. 
 
 Satış yetkilileri bir müşteri için birden fazla adres kaydedebilir. Müşterinin adı ve telefon numarası, her bir adresle ilişkilendirilmiş iletişim bilgilerinden devralınır. Müşteri kaydının **adresler** hızlı sekmesi, satış yetkilisinin düzenleyebileceği bir **amaç** alanı içerir. Müşteri türü **kişi** ise , varsayılan değer **ev** olur. Müşteri türü **Kuruluş** ise , varsayılan değer **İş** olur. Bu alanın desteklediği diğer değerler **Ev**, **ofis** ve **posta kutusu**'nu içerir. Bir adresin **ülke** alanının değeri, **kuruluş yönetimi \> Kuruluşlar \> işletim birimleri** içindeki Commerce genel merkezinde bulunan **işletim birimi** sayfasında belirtilen birincil adresten devralınır.
 
 ## <a name="sync-customers-and-async-customers"></a>Zaman uyumlu müşteriler ve zaman uyumsuz müşteriler
 
+> [ÖNEMLİ] POS çevrimdışı olduğunda zaman uyumsuz müşteri oluşturma modu devre dışı bırakılsa bile sistem otomatik olarak müşterileri zaman uyumsuz olarak oluşturur. Bu nedenle, Zaman Uyumlu ve Zaman Uyumsuz müşteri oluşturma modları arasındaki seçiminiz ne olursa olsun Commerce genel merkezi yöneticilerinin **P işi**, **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** işi (eski adıyla **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** işi) ve **1010** işi için yinelenen bir toplu iş oluşturması ve zamanlaması gerekir. Böylece tüm Zaman Uyumsuz müşteriler Commerce genel merkezindeki Zaman Uyumlu müşterilere dönüştürülür.
+
 Commerce'te, iki müşteri oluşturma modu vardır: Zaman uyumlu (veya Eşitleme) ve zaman uyumsuz (veya asenkron). Varsayılan olarak, müşteriler zaman uyumlu olarak oluşturulur. Başka bir deyişle, bunlar Commerce genel merkezinde gerçek zamanlı olarak oluşturulur. Zaman uyumlu müşteri oluşturma modu, tüm kanallar arasında yeni müşteriler hemen aranabilir hale geldiği için yararlıdır. Ancak, bir dezavantajı da vardır. Commerce genel merkezine [Commerce Data Exchange: Gerçek Zamanlı Servis](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) çağrıları oluşturduğundan, birçok eşzamanlı müşteri oluşturma çağrısı yapılırsa performans etkilenebilir.
 
-**Zaman uyumsuz modda müşteri oluştur** seçeneği mağazanın işlevsellik profilinde **Evet** olarak ayarlanmışsa (**Perakende ve Commerce \> Channel kurulum \> çevrimiçi mağaza kurulumu \> İşlev profilleri**), gerçek zamanlı Servis çağrıları kanal veritabanında müşteri kayıtları oluşturmak için kullanılmaz. Zaman uyumsuz müşteri oluşturma modu, Commerce genel merkezinin performansını etkilemez. Bir geçici genel benzersiz tanımlayıcı (GUID), her yeni zaman uyumsuz müşteri kaydına atanır ve müşteri hesap kodu olarak kullanılır. Bu GUID, POS kullanıcıları için gösterilmez. Bunun yerine, bu kullanıcılar müşteri hesap kodu olarak **bekleyen eşitlemeyi** görürler. Bu yapılandırma müşterilerinin zaman uyumsuz olarak oluşturulmasını zorsa da, müşteri kayıtlarına yapılan düzenlemelerin her zaman zaman uyumlu olarak yapılacağını unutmayın.
+**Zaman uyumsuz modda müşteri oluştur** seçeneği mağazanın işlevsellik profilinde **Evet** olarak ayarlanmışsa (**Perakende ve Commerce \> Channel kurulum \> çevrimiçi mağaza kurulumu \> İşlev profilleri**), gerçek zamanlı Servis çağrıları kanal veritabanında müşteri kayıtları oluşturmak için kullanılmaz. Zaman uyumsuz müşteri oluşturma modu, Commerce genel merkezinin performansını etkilemez. Bir geçici genel benzersiz tanımlayıcı (GUID), her yeni zaman uyumsuz müşteri kaydına atanır ve müşteri hesap kodu olarak kullanılır. Bu GUID, POS kullanıcıları için gösterilmez. Bunun yerine, bu kullanıcılar müşteri hesap kodu olarak **bekleyen eşitlemeyi** görürler. 
 
 ### <a name="convert-async-customers-to-sync-customers"></a>Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürme
 
-Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürmek için, önce zaman uyumsuz müşterileri Commerce genel merkezine göndermek üzere P-job'ı çalıştırmanız gerekir. Sonra Müşteri hesap kodları oluşturmak için **müşterileri ve iş ortaklarını zaman uyumsuz modda Eşitle** işini çalıştırın. Son olarak, yeni müşteri hesap kodlarını kanallarla eşitlemek için **1010** işini çalıştırın.
+Zaman Uyumsuz müşterileri Zaman Uyumlu müşterilere dönüştürmek için öncelikle Zaman Uyumsuz müşterileri Commerce genel merkezine göndermek üzere **P işi**'ni çalıştırmanız gerekir. Ardından, müşteri hesap kodları oluşturmak için **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** işini (eski adıyla **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle**) çalıştırın. Son olarak, yeni müşteri hesap kodlarını kanallarla eşitlemek için **1010** işini çalıştırın.
 
 ### <a name="async-customer-limitations"></a>Zaman uyumsuz müşteri sınırlamaları
 
 Zaman uyumsuz müşteri işlevinde şu sınırlamalar vardır:
 
-- Müşteri Commerce genel merkezinde oluşturulmadıysa ve yeni müşteri hesap kodu kanala geri eşitlenmediyse zaman uyumsuz müşteri kayıtları düzenlenemez.
+- Müşteri Commerce genel merkezinde oluşturulmadıysa ve yeni müşteri hesap kodu kanala geri eşitlenmediyse zaman uyumsuz müşteri kayıtları düzenlenemez. Bu nedenle, bir müşteri adresinin eklenmesi müşteri profili üzerinde bir düzenleme işlemi şeklinde dahili olarak uygulandığından bir Zaman Uyumsuz müşteri için adres, o müşteri Commerce genel merkeziyle eşitlenene kadar kaydedilemez. Ancak **Müşteri adresleri için zaman uyumsuz oluşturmayı etkinleştir** özelliği etkinleştirilirse Zaman Uyumsuz müşteriler için müşteri adresleri de kaydedilebilir.
 - İlişkiler zaman uyumsuz müşterilerle ilişkilendirilemez. Bu nedenle, yeni zaman uyumsuz müşteriler ilişkileri varsayılan müşteriden devralmaz.
 - Yeni müşteri hesap kodu kanalla geri eşitlenmedikçe, bağlılık programı kartları zaman uyumsuz müşterilere verilemez.
 - Zaman uyumsuz müşteriler ikincil e-posta adresleri ve telefon numaraları kaydedilemez.
 
+Daha önce bahsedilen sınırlamalardan bazıları, işletmeniz için Zaman Uyumlu müşteri seçeneğini tercih etmenize neden olsa da Commerce ekibi, Zaman Uyumsuz müşteri özelliklerini Zaman Uyumlu müşteri özellikleriyle daha yakından eşleştirmek için çalışmaktadır. Örneğin, Commerce uygulamasının 10.0.22 sürümünden itibaren **Özellik yönetimi** çalışma alanında etkinleştirebileceğiniz yeni bir **Müşteri adresleri için zaman uyumsuz oluşturmayı etkinleştir** özelliği, hem Zaman Uyumlu müşteriler hem de Zaman Uyumsuz müşteriler için yeni oluşturulan müşteri adreslerini kaydeder. Bu adresleri Commerce genel merkezindeki müşteri profiline kaydetmek için **P işi**, **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** işi ve **1010** işi için yinelenen bir toplu iş zamanlamanız gerekir. Böylece tüm Zaman Uyumsuz müşteriler Commerce genel merkezindeki Zaman Uyumlu müşterilere dönüştürülür.
+
 ### <a name="customer-creation-in-pos-offline-mode"></a>POS Çevrimdışı modunda müşteri oluşturma
 
-Zaman uyumsuz müşteri oluşturma modu etkinken POS'un çevrimdışı olması durumunda, yeni müşteri kayıtları zaman uyumsuz olarak oluşturulur. Zaman uyumsuz müşteri oluşturma modu devre dışıyken POS'un çevrimdışı olması durumunda, sistem otomatik olarak zaman uyumsuz müşteri oluşturma moduna geçer. Başka bir deyişle, zaman uyumsuz müşteri oluşturma modu devre dışı olsa bile müşteri kayıtları zaman uyumsuz olarak oluşturulabilir. Bu nedenle, Commerce genel merkezi yöneticilerinin zaman uyumsuz müşterilerin Commerce genel merkezinde zaman uyumlu müşterilere dönüştürülmesi için P-job, **Zaman uyumsuz modundan müşteri ve iş ortaklarını Eşitle** işi ve **1010** işi için yinelenen bir toplu iş oluşturup planlaması gerekir.
+POS çevrimdışı olduğunda Zaman Uyumsuz müşteri oluşturma modu devre dışı bırakılsa bile sistem otomatik olarak müşterileri zaman uyumsuz olarak oluşturur. Bu nedenle, daha önce de belirtildiği gibi Commerce genel merkezi yöneticilerinin Zaman Uyumsuz müşterilerin Commerce genel merkezinde Zaman Uyumlu müşterilere dönüştürülmesi için **P işi**, **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** işi ve **1010** işi için yinelenen bir toplu iş oluşturup zamanlaması gerekir.
 
 > [!NOTE]
 > **Paylaşılan müşteri veri tablolarını filtrele** seçeneği, **Commerce kanal şeması** sayfasında **Evet** olarak ayarlanmışsa (**Perakende ve Commerce \> Genel merkez kurulumu \> Commerce Planlayıcı \> Kanal veritabanı grubu**), müşteri kayıtları POS çevrimdışı modunda oluşturulmaz. Daha fazla bilgi için bkz. [Çevrimdışı veri hariç tutma](dev-itpro/implementation-considerations-cdx.md#offline-data-exclusion).

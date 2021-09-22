@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 32beabd40aa62cce832505edd56d92a8a8f12192b821f075e9b1f058d52bf8d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733456"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474952"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyonu ilkesi
 
@@ -858,7 +858,5 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 - [Satış siparişi için aynı toplu işi rezerve etme](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Bir mobil cihazda en eski toplu işi seçme](pick-oldest-batch.md)
 - [Toplu iş ve plaka onayı](batch-and-license-plate-confirmation.md)
-- [Ambar yönetiminde rezervasyonlar ile ilgili sorunları giderme](troubleshoot-warehouse-reservations.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

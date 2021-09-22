@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760526"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474615"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17'daki yenilikler veya değişiklikler (Nisan 2021)
 
@@ -99,11 +99,7 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 
 Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölçüde güncelleştirdik. Önceki bölümde listelendiği gibi, bunların bu sürüm için eklenen yeni özelliklerle ilgili olması gerekmez ancak var olan özelliklerden daha fazla bilgi almanıza yardımcı olabilirler.
 
-### <a name="cost-management"></a>Maliyet yönetimi
-
-- [Maliyet yönetimi sorunlarını giderme](../cost-management/troubleshoot-costmanagement.md)
-
-### <a name="asset-management"></a>Varlık yönetimi
+### <a name="asset-management"></a>Kıymet yönetimi
 
 - [Kıymet yönetimi mobil çalışma alanını ayarlama](../asset-management/set-up-asset-management-mobile.md)
 
@@ -114,8 +110,6 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 - [Kısmi yerleşim döngü sayımı](../warehousing/partial-location-cycle-counting.md)
 
 - [Malzeme çekme satırı gruplandırması](../warehousing/pick-line-grouping.md)
-
-- [Stok işlemleriyle ilgili sorunları giderme](../inventory/troubleshoot-inventory-operations.md)
 
 - [Ambar yerleştirme](../warehousing/warehouse-slotting.md)
 

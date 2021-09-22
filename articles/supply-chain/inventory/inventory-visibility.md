@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344300"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475000"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Stok Görünürlüğü Eklentisi'ne genel bakış
 
@@ -31,22 +31,20 @@ Microsoft Dataverse'te yerleşik bir mikro hizmet olarak Stok Görünürlüğü,
 
 Standartlaştırılmış stok boyutları için yapılandırma seçeneklerini ve hareket türlerini ayarlayarak Stok Görünürlüğü'nü birden çok üçüncü taraf sistemle tümleştirebilirsiniz. Stok Görünürlüğü ayrıca yapılandırılabilir hesaplanmış miktarlar üzerinden özelleştirilmiş genişletilebilirliği de destekler.
 
-## <a name="supported-features"></a>Desteklenen özellikler
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management ile Stok Görünürlüğü tümleştirmesi
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management ile Stok Görünürlüğü tümleştirmesi
+Tümleşik çözüm, stok verilerini Dynamics 365 Supply Chain Management'tan çeker ve stok değişikliklerini sürekli olarak izler. Daha fazla bilgi için bkz.[Stok Görünürlüğü'nü yükleme ve ayarlama](inventory-visibility-setup.md) ve [Stok Görünürlüğü'nü yapılandırma](inventory-visibility-configuration.md).
 
-Tümleşik çözüm, stok verilerini Dynamics 365 Supply Chain Management'tan çeker ve stok değişikliklerini sürekli olarak izler. Daha fazla bilgi için bkz. [Stok Görünürlüğü'nü ayarlama](inventory-visibility-setup.md).
+## <a name="get-a-global-view-of-inventory"></a>Stokun genel görünümünü alma
 
-### <a name="get-a-global-view-of-inventory"></a>Stokun genel görünümünü alma
-
-Tümleşik çözüm, kendi veri kaynaklarınızı tanımlamanıza ve stok verilerini merkezileştirmenize olanak tanır. Daha fazla bilgi için bkz. [Stok Görünürlüğü yapılandırması](inventory-visibility-configuration.md).
+Tümleşik çözüm, kendi veri kaynaklarınızı tanımlamanıza ve stok verilerini merkezileştirmenize olanak tanır. Daha fazla bilgi için bkz. [Stok Görünürlüğü'nü yapılandırma](inventory-visibility-configuration.md).
 
 Stokunuzu görüntülemeye dair iki yaklaşım vardır:
 
 - Yüksek performanslı API üzerinden bir sorgu gönderin. Bu API, doğrudan önbelleğe alınmış bir örnekten gerçek zamanlı stok verilerini döndürebilir. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md) içinde sözleşmeleri ve örnekleri bulabilirsiniz.
 - Eldeki hammadde listesini görüntüleyin. Bu liste, önbelleğe alınmış bir örnekten düzenli olarak eşitlenir ve Dataverse'te görünür. Daha fazla bilgi için bkz. [Stok Görünürlüğü uygulaması](inventory-visibility-power-platform.md).
 
-### <a name="soft-reservations"></a>Geçici rezervasyonlar
+## <a name="soft-reservations"></a>Geçici rezervasyonlar
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

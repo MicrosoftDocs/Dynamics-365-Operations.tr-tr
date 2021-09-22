@@ -2,7 +2,7 @@
 title: Ürün önerilerini etkinleştirme
 description: Bu konu, Microsoft Dynamics 365 Commerce müşterileri için yapay bilgi destek sistemi öğrenme (AI-ML) tabanlı ürün önerilerinin nasıl yapılacağını açıklamaktadır.
 author: bebeale
-ms.date: 08/18/2020
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bfecc53a17eb44c5726103b4df738d6c6b0311aec07ad8eab55fa9c94787957a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a7be82b3a40aba621693f080ff41767fdaea474
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752495"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466328"
 ---
 # <a name="enable-product-recommendations"></a>Ürün önerilerini etkinleştirme
 
@@ -31,32 +31,28 @@ Bu konu, Microsoft Dynamics 365 Commerce müşterileri için yapay bilgi destek 
 
 ## <a name="recommendations-pre-check"></a>Öneriler ön kontrolü
 
-Etkinleştirmeden önce ürün önerilerinin, depolama alanını Azure Data Lake Storage kullanarak geçirmiş olan Commerce müşterileri için desteklendiğini unutmayın. 
+1. Geçerli bir Dynamics 365 Commerce Öneriler lisansına sahip olduğunuzdan emin olun.
+1. Varlık deposunun müşteriye ait bir Azure Data Lake Storage Gen2 hesabına bağlı olduğundan emin olun. Daha fazla bilgi için bkz. [Azure Data Lake Storage'nin satın alındığından ve ortamda başarıyla doğrulandığından emin olma](enable-ADLS-environment.md).
+1. Azure AD Kimlik yapılandırmasının Öneriler için bir giriş içerdiğini onaylayın. Bu eylemin nasıl yapılacağı ile ilgili daha fazla bilgi aşağıda verilmektedir.
+1. Varlık deposunun Azure Data Lake Storage Gen2 için günlük yenilemesinin planlandığından emin olun. Daha fazla bilgi için bkz. [Varlık deposu yenilemesinin otomatik yapıldığından emin olun](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+1. Varlık mağazası için RetailSale ölçümlerini etkinleştirin. Bu işlemin ayarlanması hakkında daha fazla bilgi için bkz. [Ölçümlerle çalışma](/dynamics365/ai/customer-insights/pm-measures).
 
-Öneriler etkinleştirilmeden önce aşağıdaki yapılandırmalar arka ofiste etkinleştirilmelidir:
-
-1. Azure Data Lake Storage'nin satın alındığından ve ortamda başarıyla doğrulandığından emin olun. Daha fazla bilgi için bkz. [Azure Data Lake Storage'nin satın alındığından ve ortamda başarıyla doğrulandığından emin olma](enable-ADLS-environment.md).
-2. Varlık deposu yenilemenin otomatik olarak yapıldığından emin olun. Daha fazla bilgi için bkz. [Varlık deposu yenilemesinin otomatik yapıldığından emin olun](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
-3. Azure AD Kimlik yapılandırmasının Öneriler için bir giriş içerdiğini onaylayın. Bu eylemin nasıl yapılacağı ile ilgili daha fazla bilgi aşağıda verilmektedir.
-
-Ek olarak, RetailSale ölçümlerinin etkinleştirildiğinden emin olun. Bu ayar işlemi hakkında daha fazla bilgi edinmek için bkz. [Ölçümlerle çalışma](/dynamics365/ai/customer-insights/pm-measures).
+Yukarıdaki adımlar tamamlandıktan sonra, önerileri etkinleştirmeye hazır olursunuz.
 
 ## <a name="azure-ad-identity-configuration"></a>Azure AD Kimlik yapılandırması
 
-Bu adım, Hizmet olarak alt yapı (IaaS) yapılandırması çalıştıran tüm müşteriler için gereklidir. Service Fabric (SF) üzerinde çalışan müşteriler için bu adım otomatik olmalıdır ve ayarın beklendiği şekilde yapılandırıldığını doğrulamanız önerilir.
+Bu adım yalnızca hizmet olarak altyapı (IaaS) yapılandırması çalıştıran müşteriler için gereklidir. Azure AD Kimlik yapılandırması, Azure Service Fabric üzerinde çalışan müşteriler için otomatiktir ancak ayarın beklendiği gibi yapılandırıldığını doğrulamanız önerilir.
 
-### <a name="setup"></a>Ayar
+### <a name="setup"></a>Kurulum
 
-1. Arka ofisten, **Azure Active Directory uygulamaları** sayfasını arayın.
-2. "RecommendationSystemApplication-1" için bir giriş olup olmadığını doğrulayın.
+1. Commerce genel merkezinde, **Azure Active Directory uygulamaları** sayfasını arayın.
+1. **RecommendationSystemApplication-1** için bir giriş olup olmadığını kontrol edin. Bir giriş yoksa aşağıdaki bilgileri kullanarak bir tane oluşturun:
 
-Giriş yoksa, aşağıdaki bilgilerle yeni bir giriş ekleyin:
+    - **İstemci Kimliği**: d37b07e8-dd1c-4514-835d-8b918e6f9727
+    - **Ad**: RecommendationSystemApplication-1
+    - **Kullanıcı Kimliği**: RetailServiceAccount
 
-- **İstemcı Kodu** - d37b07e8-dd1c-4514-835d-8b918e6f9727
-- **Ad** - RecommendationSystemApplication-1
-- **Kullanıcı Kimliği** - RetailServiceAccount
-
-Sayfayı kaydet ve kapatın 
+1. Sayfayı kaydet ve kapatın 
 
 ## <a name="turn-on-recommendations"></a>Önerileri açın
 
@@ -71,15 +67,20 @@ Sayfayı kaydet ve kapatın
 ![Önerileri açma.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
-> Bu yordam, ürün öneri listeleri oluşturma işlemini başlatır. Dynamics 365 Commerce'ta veya satış noktasında (POS) listelerin kullanılabilmesi ve görüntülenmesi için birkaç saat gerekli olabilir.
+> - Yukarıdaki yordam, ürün önerisi listeleri oluşturma işlemini başlatır. Dynamics 365 Commerce'ta veya satış noktasında (POS) listelerin kullanılabilmesi ve görüntülenmesi için birkaç saat gerekli olabilir.
+> - Bu yapılandırma, tüm öneriler özelliklerini etkinleştirmez. Kişiselleştirilmiş öneriler, "benzer görünümdeki mağaza"" ve "benzer ürün açıklaması" gibi gelişmiş özellikler, özel özellik yönetimi girişleri tarafından kontrol edilir. Commerce genel merkezinde bu özellikleri etkinleştirme hakkında bilgi için bkz. [Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md), ["Benzer görünüme sahip ürünler" önerilerini etkinleştirme](shop-similar-looks.md) ve ["Benzer açıklamaya sahip ürünler" önerilerini etkinleştirme](shop-similar-description.md).
 
 ## <a name="configure-recommendation-list-parameters"></a>Öneri listesi parametrelerini konfigüre et
 
 Varsayılan olarak, AI-ML tabanlı ürün öneri listesi önerilen değerleri sağlar. Varsayılan önerilen değerleri işinizin akışına uyacak şekilde değiştirebilirsiniz. Varsayılan parametrelerin nasıl değiştirileceği hakkında daha fazla bilgi edinmek için [AI-ML tabanlı ürün öneri sonuçlarınıYönet](modify-product-recommendation-results.md) bölümüne gidin.
 
+## <a name="include-recommendations-in-e-commerce-experiences"></a>E-ticaret deneyimlerine önerileri dahil etme
+
+Commerce genel merkezinde öneriler etkinleştirildikten sonra, e-ticaret deneyimleri için öneri sonuçlarını görüntülemekte kullanılan Commerce modülleri yapılandırılmaya hazırdır. Daha fazla bilgi için bkz. [Ürün topluluğu modülleri](product-collection-module-overview.md).
+
 ## <a name="show-recommendations-on-pos-devices"></a>POS cihazlarındaki önerileri göster
 
-Commerce arka ofisinde önerileri etkinleştirdikten sonra, öneriler panelinin düzenleme aracını kullanarak kontrol POS ekranına eklenmesi gerekir. Bu işlem hakkında bilgi edinmek için bkz. [POS cihazlarında hareket ekranına öneriler denetimi ekleme](add-recommendations-control-pos-screen.md). 
+Commerce genel merkezinde önerileri etkinleştirdikten sonra, öneriler panelinin, düzenleme aracını kullanarak kontrol POS ekranına eklenmesi gerekir. Bu işlem hakkında bilgi edinmek için bkz. [POS cihazlarında hareket ekranına öneriler denetimi ekleme](add-recommendations-control-pos-screen.md). 
 
 ## <a name="enable-personalized-recommendations"></a>Kişiselleştirilmiş önerileri etkinleştirme
 

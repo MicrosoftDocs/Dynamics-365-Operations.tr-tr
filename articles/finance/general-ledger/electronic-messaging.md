@@ -2,7 +2,7 @@
 title: Elektronik mesajlaşma
 description: Bu konu, Microsoft Dynamics 365 Finance içinde elektronik mesajlaşma için kurulum bilgisi ve genel bakış sağlar.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768351"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478736"
 ---
 # <a name="electronic-messaging"></a>Elektronik mesajlaşma
 
@@ -57,6 +57,16 @@ EM işlevi, aşağıdaki senaryoları destekler:
 - Oluşturulan tüm raporları depola ve gözden geçir.
 - Bir mesaj veya mesaj öğesi için çalıştırılmış olan eylemlere ilişkin tüm kayıt bilgisini depola ve gözden geçir.
 - Çeşitli mesaj durumları ve mesaj öğesi durumları ile işlemeyi kontrol et.
+
+## <a name="security-privileges"></a>Güvenlik ayrıcalıkları
+
+Aşağıdaki güvenlik ayrıcalıkları elektronik iletilerde kullanılabilir.
+
+| Güvenlik ayrıcalığı           | Erişim düzeyi | İlişki |
+|------------------------------|--------------|-------------|
+| Elektronik iletileri yönet | Bu ayrıcalık, EM işlevine tam erişim sağlar. Bu ayrıcalığınız varsa elektronik ileti ayarlayabilir ve tüm işlemleri çalıştırabilirsiniz. | Bu ayrıcalık, **Satış vergisi hareketlerini koru** güvenlik görevine dahildir. Bu görev de **Muhasebeci** güvenlik rolüne dahildir. |
+| Elektronik iletileri görüntüle     | Bu ayrıcalık, EM işlevine salt okunur erişim sağlar. Bu ayrıcalığa sahipseniz elektronik ileti ayarlarını ve iletileri görüntüleyebilirsiniz. Ancak herhangi bir şey ayarlayamaz ya da çalıştıramazsınız. | Bu ayrıcalık, **Satış vergisi hareket durumunu sorgula** güvenlik görevine dahildir. Bu görev de aşağıdaki güvenlik rollerine dahildir:<ul><li>Tahsilat yöneticisi</li><li>Alacak hesapları memuru</li><li>Alacak hesapları yöneticisi</li><li>Vergi muhasebecisi</li><li>Muhasebeci</li><li>Muhasebe müdürü</li><li>Muhasebe gözetmeni</li><li>Satış yöneticisi</li><li>Borç hesapları memuru</li></ul> |
+| Elektronik iletileri işle  | Bu ayrıcalık yalnızca **Elektronik iletiler** ve **Elektronik ileti maddeleri** sayfalarına erişim sağlar. Bu ayrıcalığa sahipseniz o sayfalardan çağrılan tüm işlemleri çalıştırabilirsiniz. | Bu ayrıcalık, **Elektronik iletileri çalıştır** güvenlik görevine dahildir. Bu görev de **Elektronik iletileri çalıştır** güvenlik rolüne dahildir. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>EM işlevi tarafından desteklenen ülkeye özel mevzuat özellikleri
 

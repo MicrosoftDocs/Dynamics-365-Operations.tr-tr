@@ -2,7 +2,7 @@
 title: Elektronik faturalamayı kullanmaya başlama
 description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management ile Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732993"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463852"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Elektronik faturalamayı kullanmaya başlama
 
@@ -40,14 +40,14 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Microsoft yapılandırma sağlayıcısından Elektronik faturalama özelliğini içeri aktarma 
 
 1. Regulatory Configuration Service (RCS) hesabınızda oturum açın.
-2. **Genelleştirme özelliği** çalışma alanında, **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
+2. **Genelleştirme özellikleri** çalışma alanında, **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
 3. **İçeri aktar**'ı seçin ve sonra **Eşitle**'yi seçin.
 4. **Yapılandırma sağlayıcısı** sütununu **Microsoft** terimini göre filtreleyin.
-5. Bu konunun başındaki tablodan elektronik faturalama özelliğinin adını seçin ve sonra **İçeri Aktar**'ı seçin.
+5. Tablodan bir Elektronik faturalama özelliğinin adını seçin ve ardından **İçeri Aktar**'ı seçin.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Kuruluş sağlayıcınız altında Elektronik faturalama özelliği oluşturma
 
-1. RCS'te **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
+1. RCS'de **Genelleştirme özellikleri** çalışma alanının **Özellikler** bölümünde **Elektronik faturalama** kutucuğunu seçin.
 2. **Ekle** > **Var olan özelliğe göre**'yi seçin ve **Ad** alanına Elektronik faturalama özelliğinin adını girin.
 3. **Açıklama** alanına özellik için bir açıklama girin.
 4. **Temel özellik alanında**, Microsoft yapılandırma sağlayıcısından içeri aktarılan Elektronik faturalama özelliğini seçin.
@@ -113,7 +113,7 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
     | İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
     | PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
 
-7. Oluşturduğunuz her tablo adı için aşağıdaki tabloya göre bir bağlam değeri seçin ve girin.
+6. Oluşturduğunuz her tablo adı için aşağıdaki tabloya göre bir bağlam değeri seçin ve girin.
 
     | Özellik adı                         | İş belgesi | Bağlam |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
     | İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
     | PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
 
-8. Her tablo adı ve bağlamı için aşağıdaki tabloya göre bir iş belgesi eşleme değeri seçip girin.
+7. Her tablo adı ve bağlamı için aşağıdaki tabloya göre bir iş belgesi eşleme değeri seçip girin.
 
     | Özellik adı                         | İş belgesi | İş belgesi eşleme |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Elektronik faturalama özelliğini Bağlı uygulamaya dağıtma
 
 1. **Sürümler** sekmesinde, dağıtmak istediğiniz Elektronik faturalama özelliği sürümünü seçin.
-4. **Dağıt**'ı seçin.
-5. **Bağlı uygulamaya dağıt** seçeneğini **Evet** olarak ayarlayın.
-6. **Uygulama bağla** alanında Finance veya Supply Chain Management krulumunuzla ilişkili bağlantıyı seçin.
-7. **Hizmet ortamına dağıt** seçeneğini **Hayır** olarak ayarlayın.
-10. **Tamam**'ı seçin.
+2. **Dağıt**'ı seçin.
+3. **Bağlı uygulamaya dağıt** seçeneğini **Evet** olarak ayarlayın.
+4. **Uygulama bağla** alanında Finance veya Supply Chain Management krulumunuzla ilişkili bağlantıyı seçin.
+5. **Hizmet ortamına dağıt** seçeneğini **Hayır** olarak ayarlayın.
+6. **Tamam**'ı seçin.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Finance veya Supply Chain Management'ta Elektronik faturalama özelliğini açma
 

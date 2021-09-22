@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394524"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465089"
 ---
 # <a name="get-started-with-tax-calculation"></a>Vergi Hesaplamayı kullanmaya başlama
 
@@ -49,13 +49,9 @@ Bu konudaki yordamları tamamlamadan önce her ortam türü için önkoşulları
 - Kuruluşunuz için bir RCS ortamı oluşturmanız ve hesabınıza erişebilmeniz gerekir. RCS ortamı oluşturma hakkında daha fazla bilgi için bkz. [Regulatory Configuration Service'e Genel Bakış](rcs-overview.md).
 - İş gereksinimlerinize bağlı olarak, dağıttığınız Finance veya Supply Chain Management ortamının **Özellik yönetimi** çalışma alanında aşağıdaki özelliklerin açık olması gerekir:
 
-    - Vergi Hesaplama
+    - Vergi Hesaplama Servisi
     - Birden çok KDV sicil numarasını destekle
     - Transfer emrindeki vergi
-    - Yalnızca vergi işlemlerine dayalı AB satış listesi transferi
-    - Birden Fazla Vergi Koduna göre intrastat raporlama
-    - Birden Fazla Vergi Koduna göre AB Satış listesi raporlaması
-    - Birden Fazla Vergi Koduna göre satış vergisi beyannamesi
 
 - Dağıttığınız RCS ortamının **Özellik yönetimi** çalışma alanında aşağıdaki özelliklerin açık olması gerekir.
 
@@ -65,18 +61,14 @@ Bu konudaki yordamları tamamlamadan önce her ortam türü için önkoşulları
 
 Test ortamı için aşağıdaki önkoşulların karşılanması gerekir:
 
-- LCS hesabınıza erişiminizin ve KB4616360 özellikli Dynamics 365 sürüm 10.0.18 veya sonraki bir sürümü çalıştıran bir Katman 2 ya da üstü ortam bulunan dağıtılmış bir LCS projenizin olması gerekir.
+- LCS hesabınıza erişiminizin ve Dynamics 365 sürüm 10.0.21 veya sonraki bir sürümünü çalıştıran bir Katman 2 ya da üstü ortam bulunan dağıtılmış bir LCS projenizin olması gerekir.
 - Kuruluşunuz için bir RCS ortamı oluşturmanız ve hesabınıza erişebilmeniz gerekir. RCS ortamı oluşturma hakkında daha fazla bilgi için bkz. [Regulatory Configuration Service'e Genel Bakış](rcs-overview.md).
 - Dağıttığınız Finance veya Supply Chain Management ortamında denemeyi etkinleştirmek için <taxcalc@microsoft.com> adresine e-posta göndererek Microsoft'a başvurmanız gerekir.
 - İş gereksinimlerinize bağlı olarak, dağıttığınız Finance veya Supply Chain Management ortamının **Özellik yönetimi** çalışma alanında aşağıdaki özelliklerin açık olması gerekir:
 
-    - Vergi Hesaplama
+    - Vergi Hesaplama Servisi
     - Birden çok KDV sicil numarasını destekle
     - Transfer emrindeki vergi
-    - Yalnızca vergi işlemlerine dayalı AB satış listesi transferi
-    - Birden Fazla Vergi Koduna göre intrastat raporlama
-    - Birden Fazla Vergi Koduna göre AB Satış listesi raporlaması
-    - Birden Fazla Vergi Koduna göre satış vergisi beyannamesi
 
 - Dağıttığınız RCS ortamının **Özellik yönetimi** çalışma alanında aşağıdaki özelliklerin açık olması gerekir.
 
@@ -103,12 +95,12 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
 7. **Vergi Veri Modeli**'ne gidin, dosya ağacını genişletin ve ardından **Vergi Yapılandırması**'nı seçin.
 8. Finance sürümünüze bağlı olarak, doğru vergi yapılandırması sürümünü seçin ve ardından **İçeri Aktar** seçeneğini belirleyin.
 
-    | Yayım sürümü | Vergi konfigürasyonu                       | Model eşleme                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Vergi Yapılandırması - Avrupa 30.12.82     |                                 |
-    | 10.0.19         | Vergi Hesaplama Yapılandırması 36.38.193 |                                 |
-    | 10.0.20         | Vergi Hesaplama Yapılandırması 40.43.208 |                                 |
-    | 10.0.21         | Vergi Hesaplama Yapılandırması 40.46.212 | Dataverse Model Eşlemesi 40.46.9 |
+    | Yayım sürümü | Vergi konfigürasyonu                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Vergi Yapılandırması - Avrupa 30.12.82     |
+    | 10.0.19         | Vergi Hesaplama Yapılandırması 36.38.193 |
+    | 10.0.20         | Vergi Hesaplama Yapılandırması 40.43.208 |
+    | 10.0.21         | Vergi Hesaplama Yapılandırması 40.46.212 |
 
 9. **Genelleştirme özellikleri** çalışma alanında, **Özellikler**'i seçin, **Vergi Hesaplaması** kutucuğunu ve ardından **Ekle** seçeneğini belirleyin.
 10. Aşağıdaki özellik türlerinden birini seçin:

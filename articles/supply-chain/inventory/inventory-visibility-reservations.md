@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345161"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475048"
 ---
 # <a name="inventory-visibility-reservations"></a>Stok Görünürlüğü rezervasyonları
 
@@ -32,19 +32,20 @@ Stok Görünürlüğü'nü kullanarak rezerve edilen miktarı otomatik olarak de
 
 Rezervasyon özelliğini açtığınızda Supply Chain Management otomatik olarak Stok Görünürlüğü'nü kullanarak yapılan rezervasyonları denkleştirmeye hazır hale gelir.
 
-> [!NOTE]
-> Denkleştirme işlevi için Supply Chain Management sürüm 10.0.22 veya üzeri gerekir. Stok Görünürlüğü rezervasyonlarını kullanmak isterseniz Supply Chain Management'ı sürüm 10.0.22 veya üzerine yükseltene kadar beklemenizi öneririz.
-
-## <a name="turn-on-the-reservation-feature"></a>Rezervasyon özelliğini açma
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>Rezervasyon özelliğini açma ve ayarlama
 
 Rezervasyon özelliğini açmak için şu adımları izleyin.
 
-1. Power Apps'te, **Stok Görünürlüğü**'nü açın.
+1. Power Apps'te oturum açın ve **Stok Görünürlüğü**'nü açın.
 1. **Yapılandırma** sayfasını açın.
 1. **Özellik Yönetimi** sekmesinde, *OnHandReservation* özelliğini açın.
 1. Supply Chain Management'ta oturun açın.
-1. **Stok Yönetimi \> Kurulum \> Stok Görünürlüğü tümleştirme parametreleri**'ne gidin.
-1. **Rezervasyon denkleştirme** altında, **Rezervasyon denkleştirmeyi etkinleştir** seçeneğini *Evet* olarak ayarlayın.
+1. **[Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** çalışma alanına gidin ve *Rezervasyon denkleştirme ile Stok Görünürlüğü tümleştirmesi* özelliğini (sürüm 10.0.22 veya sonraki bir sürümü gerektirir) etkinleştirin.
+1. **Stok Yönetimi \> Kurulum \> Stok Görünürlüğü tümleştirme parametreleri**'ne gidin ve **Rezervasyon denkleştirme** sekmesini açarak aşağıdaki ayarları yapın:
+    - **Rezervasyon denkleştirmeyi etkinleştir**: Bu işlevi etkinleştirmek için *Evet* olarak ayarlayın.
+    - **Rezervasyon denkleştirme değiştirici**: Stok Görünürlüğü'nde yapılan rezervasyonları denkleştirecek stok hareketi durumunu seçin. Bu ayar, denkleştirme işlemlerini tetikleyen sipariş işleme aşamasını belirler. Aşama, siparişin stok hareketi durumuna göre izlenir. Aşağıdakilerden birini seçin:
+        - *Siparişte*: *Harekette* durumu için sipariş oluşturulduğunda bir denkleştirme isteği gönderir. Denkleştirme miktarı, oluşturulan siparişin miktarıdır.
+        - *Rezerve edilmiş*: *Rezerve edilmiş siparişli hareket* durumu için sipariş, rezerve edildiğinde, alındığında, sevk irsaliyesi deftere nakledildiğinde veya faturalandığında bir denkleştirme isteği gönderir. İstek, belirtilen işlem gerçekleştiğinde ilk adım için yalnızca bir kez tetiklenir. Denkleştirme miktarı, ilgili sipariş satırında stok hareketi durumunun *Siparişte* yerine *Siparişli rezerve miktar* (veya sonraki durum) olarak değiştirildiği miktardır.
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Stok Görünürlüğü'nde rezervasyon özelliğini kullanma
 
@@ -56,13 +57,21 @@ Rezervasyon hiyerarşisi, rezervasyonlar yapıldığında belirtilmesi gereken b
 
 Rezervasyon hiyerarşisi, dizin hiyerarşisinden farklı olabilir. Bu bağımsızlık, kullanıcıların daha hassas rezervasyonlar yapmak için gereksinimleri belirtmek üzere boyutları bölebilecekleri kategori yönetimi uygulamalarına olanak tanır.
 
-Power Apps'te geçici bir rezervasyon hiyerarşisi yapılandırmak için **Yapılandırma** sayfasını açın ve ardından, **Geçici rezervasyon eşlemesi** sekmesinde boyutları ve hiyerarşi düzeylerini ekleyerek ve/veya düzenleyerek rezervasyon hiyerarşisini ayarlayın.
+Power Apps'te geçici bir rezervasyon hiyerarşisi yapılandırmak için **Yapılandırma** sayfasını açın ve ardından **Geçici rezervasyon hiyerarşisi** sekmesinde boyutları ve hiyerarşi düzeylerini ekleyerek ve/veya düzenleyerek rezervasyon hiyerarşisini ayarlayın.
+
+Geçici rezervasyon hiyerarşiniz, bölüm yapılandırmasını oluşturduklarından bileşen olarak `SiteId` ve `LocationId` öğelerini içermelidir.
+
+Rezervasyonları yapılandırma hakkında daha fazla bilgi için bkz. [Rezervasyonları yapılandırma](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="call-the-reservation-api"></a>Rezervasyon API'sini çağırma
 
 Rezervasyonlar, `/api/environment/{environment-ID}/onhand/reserve` gibi hizmetin URL'sine bir POST isteği göndererek Stok Görünürlüğü hizmetinde yapılır.
 
 Rezervasyon için istek gövdesinde bir kuruluş kimliği, ürün kimliği, rezerve edilen miktarlar ve boyutlar bulunmalıdır. İstek, her rezervasyon kaydı için benzersiz bir rezervasyon kimliği oluşturur. Rezervasyon kaydı, ürün kimliğinin ve boyutların benzersiz birleşimini içerir.
+
+Rezervasyon API'sini çağırdığınızda istek gövdesinde Boolean `ifCheckAvailForReserv` parametresini belirterek rezervasyon doğrulamasını denetleyebilirsiniz. `True` değeri, doğrulamanın gerekli olduğu anlamına ve `False` değeri, doğrulamanın gerekli olmadığı anlamına gelir. Varsayılan değer `True` değeridir.
+
+Rezervasyonu iptal etmek veya belirtilen stok miktarlarının rezervasyonunu kaldırmak istiyorsanız miktarı negatif bir değere ayarlayın ve doğrulamayı atlamak için `ifCheckAvailForReserv` parametresini `False` olarak ayarlayın.
 
 Aşağıda, referans olarak bir istek gövdesi örneği bulunmaktadır.
 
@@ -108,18 +117,9 @@ Belirli bir rezervasyon denkleştirme değiştiricisi içeren stok hareketi duru
 
 Denkleştirme miktarı, stok hareketlerinde belirtilen stok miktarını izler. Stok Görünürlüğü hizmetinde rezerve edilen miktar yoksa denkleştirme gerçekleşmez.
 
-> [!NOTE]
-> Denkleştirme işlevi, sürüm 10.0.22 itibarıyla kullanılabilir
+### <a name="set-up-the-reservation-offset-modifier"></a>Rezervasyon denkleştirme değiştiriciyi ayarlama
 
-### <a name="set-up-the-reserve-offset-modifier"></a>Rezerve denkleştirme değiştiricisini ayarlama
-
-Rezerve denkleştirme değiştiricisi, denkleştirmeleri tetikleyen sipariş işleme aşamasını belirler. Aşama, siparişin stok hareketi durumuna göre izlenir. Rezervasyon denkleştirme değiştiricisini ayarlamak için şu adımları izleyin.
-
-1. **Stok Yönetimi \> Kurulum \> Stok Görünürlüğü tümleştirme parametreleri \> Rezervasyon denkleştirme**'ye gidin.
-1. **Rezervasyon denkleştirme değiştiricisi** alanını, aşağıdaki değerlerden biri olarak ayarlayın:
-
-    - *Siparişte*: *Harekette* durumu için sipariş oluşturulduğunda bir denkleştirme isteği gönderir.
-    - *Rezerve edilmiş*: *Rezerve edilmiş siparişli hareket* durumu için sipariş, rezerve edildiğinde, alındığında, sevk irsaliyesi deftere nakledildiğinde veya faturalandığında bir denkleştirme isteği gönderir. İstek, belirtilen işlem gerçekleştiğinde ilk adım için yalnızca bir kez tetiklenir.
+Daha önce yapmadıysanız rezervasyon değiştiriciyi [Rezervasyon özelliğini açma ve ayarlama](#turn-on) bölümünde açıklandığı gibi ayarlayın.
 
 ### <a name="set-up-reservation-ids"></a>Rezervasyon kimliklerini ayarlama
 

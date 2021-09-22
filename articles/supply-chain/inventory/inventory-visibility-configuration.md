@@ -1,5 +1,5 @@
 ---
-title: Stok Görünürlüğü yapılandırma
+title: Stok Görünürlüğünü yapılandırma
 description: Bu konuda, Stok Görünürlüğü'nün nasıl yapılandırılacağını açıklanmaktadır.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 92e42b22d424ab80303d771f760cfcf0599b9f4c
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345045"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474688"
 ---
-# <a name="inventory-visibility-configuration"></a>Stok Görünürlüğü yapılandırma
+# <a name="configure-inventory-visibility"></a>Stok Görünürlüğünü yapılandırma
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Bu konuda, Stok Görünürlüğü'nün nasıl yapılandırılacağını açıklanmaktadır.
+Bu konuda, Power Apps'te Stok Görünürlüğü uygulamasını kullanarak Stok Görünürlüğü'nü yapılandırma açıklanmaktadır.
 
 ## <a name="introduction"></a><a name="introduction"></a>Giriş
 
@@ -35,27 +35,58 @@ Stok Görünürlüğü ile çalışmaya başlamadan önce, bu konuda açıkland�
 - [Rezervasyon yapılandırma (isteğe bağlı)](#reservation-configuration)
 - [Varsayılan yapılandırma örneği](#default-configuration-sample)
 
-> [!NOTE]
-> Stok Görünürlüğü yapılandırmalarını [Microsoft Power Apps](./inventory-visibility-power-platform.md#configuration)'te görüntüleyebilir ve düzenleyebilirsiniz. Yapılandırma tamamlandıktan sonra uygulamada **Yapılandırmayı Güncelleştir**'i seçin.
+## <a name="prerequisites"></a>Önkoşullar
 
-## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Veri kaynağı yapılandırma
+Başlamadan önce, Stok Görünürlüğü Eklentisini [Stok Görünürlüğü'nü yükleme ve ayarlama](inventory-visibility-setup.md) bölümünde açıklandığı gibi yükleyin ve ayarlayın.
 
-Veri kaynağı, verilerinizin geldiği sistemi temsil eder. Örnekler arasında `fno` ("Dynamics 365 Finance and Operations uygulamaları" anlamına gelir) ve `pos` ("satış noktası" anlamına gelir) bulunmaktadır.
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Power Apps özellik yönetiminde Stok Görünürlüğü özelliklerini etkinleştirme
 
-Veri kaynağı yapılandırması aşağıdaki bölümleri içerir:
+Stok Görünürlüğü Eklentisi, Power Apps kurulumunuza birkaç yeni özellik ekler. Varsayılan olarak, bu özellikler kapalıdır. Bunları kullanmak için Power Apps'te **Yapılandırma** sayfasını açın ve ardından **Özellik Yönetimi** sekmesinde aşağıdaki özellikleri açın.
 
-- Boyut (boyut eşleme)
-- Fiziksel ölçü
-- Hesaplanan ölçü
+- *OnHandReservation*
+- *OnHandMostSpecificBackgroundService*
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Hizmet uç noktasını bulma
+
+Doğru Stok Görünürlüğü hizmeti uç noktasını bilmiyorsanız Power Apps'te **Yapılandırma** sayfasını açın ve ardından sağ üst köşedeki **Hizmet Uç Noktasını Göster**'i seçin. Sayfa doğru hizmet uç noktasını gösterir.
+
+## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Stok Görünürlüğü uygulamasının Yapılandırma sayfası
+
+Power Apps'te, [Stok Görünürlüğü uygulamasının](inventory-visibility-power-platform.md) **Yapılandırma** sayfası eldeki yapılandırmasını ve geçici rezervasyon yapılandırmasını ayarlamanıza yardımcı olur. Eklenti yüklendikten sonra varsayılan yapılandırma, Microsoft Dynamics 365 Supply Chain Management'tan (`fno` veri kaynağı) alınan değeri içerir. Varsayılan ayarları inceleyebilirsiniz. Ek olarak, iş gereksinimlerinize ve harici sisteminizin stok deftere nakil gereksinimlerine göre yapılandırmayı, stok değişikliklerinin birden çok sistem arasında deftere nakledilme, düzenlenme ve sorgulanma şeklini standartlaştırmak için değiştirebilirsiniz. Bu konunun geri kalan bölümlerinde **Yapılandırma** sayfasının her bir bölümünün nasıl kullanılacağı açıklanmaktadır.
+
+Yapılandırma tamamlandıktan sonra uygulamada **Yapılandırmayı Güncelleştir** seçeneğinin belirlendiğinden emin olun.
+
+## <a name="data-source-configuration"></a>Veri kaynağı yapılandırma
+
+Her veri kaynağı, verilerinizin geldiği bir sistemi temsil eder. Örnek veri kaynağı adları arasında `fno` ("Dynamics 365 Finance and Operations uygulamaları" anlamına gelir) ve `pos` ("satış noktası" anlamına gelir) bulunmaktadır. Varsayılan olarak Supply Chain Management, Stok Görünürlüğü'nde varsayılan veri kaynağı (`fno`) olarak ayarlanır.
 
 > [!NOTE]
 > `fno` veri kaynağı, Dynamics 365 Supply Chain Management için rezerve edilmiştir.
 
-### <a name="dimension-dimension-mapping"></a><a name="data-source-configuration-dimension"></a>Boyut (boyut eşleme)
+Veri kaynağı eklemek için şu adımları izleyin.
 
-Boyut yapılandırmasının amacı, boyut birleşimlerine göre olayları ve sorguları deftere nakletmek için çoklu sistem tümleştirmesini standart hale getirmektir.
+1. Power Apps ortamınızda oturum açın ve **Stok Görünürlüğü**'nü açın.
+1. **Yapılandırma** sayfasını açın.
+1. **Veri Kaynağı** sekmesinde, bir veri kaynağı eklemek için **Yeni Veri Kaynağı**'nı seçin.
 
-Stok Görünürlüğü aşağıdaki genel temel boyutları destekler.
+> [!NOTE]
+> Bir veri kaynağı eklediğinizde, Stok Görünürlüğü hizmetinin yapılandırmasını güncelleştirmeden önce veri kaynağı adınızı, fiziksel ölçüleri ve boyut eşlemelerini doğrulamaya dikkat edin. **Yapılandırmayı Güncelleştirme**'yi seçtikten sonra bu ayarları değiştiremezsiniz.
+
+Veri kaynağı yapılandırması aşağıdaki bölümleri içerir:
+
+- Boyutlar (boyut eşleme)
+- Fiziksel ölçüler
+- Hesaplanan ölçüler
+
+### <a name="dimensions-dimension-mapping"></a><a name="data-source-configuration-dimension"></a>Boyutlar (boyut eşleme)
+
+Boyut yapılandırmasının amacı, boyut birleşimlerine göre olayları ve sorguları deftere nakletmek için çoklu sistem tümleştirmesini standart hale getirmektir. Stok Görünürlüğü, veri kaynağınızın boyutlarından eşlenebilir temel boyutların listesini sağlar. Eşleme için otuz üç boyut kullanılabilir.
+
+- Varsayılan olarak, veri kaynaklarınızdan biri olarak Supply Chain Management kullanıyorsanız 13 boyut, Supply Chain Management standart boyutlarıyla eşlenir. Diğer on iki boyut (`inventDimension1` aracılığıyla `inventDimension12`) Supply Chain Management'ta özel boyutlara eşlenir. Kalan sekiz boyut, harici veri kaynaklarıyla eşleyebileceğiniz genişletilmiş boyutlardır.
+- Supply Chain Management'ı veri kaynaklarınızdan biri olarak kullanmıyorsanız boyutları serbestçe eşleyebilirsiniz. Aşağıdaki tabloda, kullanılabilir boyutların tam listesi gösterilmektedir.
+
+> [!NOTE]
+> Boyutunuz varsayılan boyut listesinde değilse ve harici bir veri kaynağı kullanıyorsanız eşlemeyi yapmak için `ExtendedDimension1` aracılığıyla `ExtendedDimension8` kullanmanızı öneririz.
 
 | Boyut türü | Temel boyut |
 |---|---|
@@ -73,7 +104,8 @@ Stok Görünürlüğü aşağıdaki genel temel boyutları destekler.
 | Ambara özel | `LicensePlateId` |
 | Diğerleri | `VersionId` |
 | Stok (özel) | `InventDimension1` - `InventDimension12` |
-| Dahili | `ExtendedDimension1` - `ExtendedDimension8` |
+| Uzantı | `ExtendedDimension1` - `ExtendedDimension8` |
+| Sistem | `Empty` |
 
 > [!NOTE]
 > Önceki tabloda listelenen boyut türleri yalnızca referans amaçlıdır. Bunları Stok Görünürlüğü'nde tanımlamanız gerekmez.
@@ -92,11 +124,24 @@ Harici sistemler, RESTful API'leri aracılığıyla Stok Görünürlüğü'ne er
 
 Boyut eşlemesi yapılandırarak harici boyutları doğrudan Stok Görünürlüğü'ne gönderebilirsiniz. Stok Görünürlüğü daha sonra otomatik olarak harici boyutları temel boyutlara dönüştürür.
 
+Boyut eşlemeleri eklemek için şu adımları izleyin.
+
+1. Power Apps ortamınızda oturum açın ve **Stok Görünürlüğü**'nü açın.
+1. **Yapılandırma** sayfasını açın.
+1. **Veri Kaynağı** sekmesinde, **Boyut Eşlemeleri** bölümünde, boyut eşlemeleri eklemek için **Ekle**'yi seçin.
+    ![Boyut eşlemeleri ekleme](media/inventory-visibility-dimension-mapping.png "Boyut eşlemeleri ekleme")
+
+1. **Boyut Adı** alanında, kaynak boyutunu belirtin.
+1. **Temel Boyuta** alanında, Stok Görünürlüğü'nde eşleştirmek istediğiniz boyutu seçin.
+1. **Kaydet**'i seçin.
+
+Örneğin, veri kaynağınız bir ürün rengi boyutu içeriyorsa bunu `exterchannel` veri kaynağına bir `ProductColor` özel boyutu eklemek için `ColorId` temel boyutuyla eşleyebilirsiniz. Ardından `ColorId` temel boyutuyla eşlenir.
+
 ### <a name="physical-measures"></a>Fiziksel ölçüler
 
-Fiziksel ölçüler miktarı değiştirir ve stok durumunu yansıtır. Gereksinimlerinize göre kendi fiziksel ölçülerinizi tanımlayabilirsiniz.
+Veri kaynağı, Stok Görünürlüğü'ne bir stok değişikliğini naklettiğinde bu değişikliği *fiziksel ölçüler* kullanarak nakleder. Fiziksel ölçüler miktarı değiştirir ve stok durumunu yansıtır. Gereksinimlerinize göre kendi fiziksel ölçülerinizi tanımlayabilirsiniz. Sorgular fiziksel ölçülere göre olabilir.
 
-Stok Görünürlüğü, Supply Chain Management'a (`fno` veri kaynağı) bağlı varsayılan fiziksel ölçülerin bir listesini sağlar. Aşağıdaki tabloda, fiziksel ölçülerin bir örneği sağlanmaktadır.
+Stok Görünürlüğü, Supply Chain Management'a (`fno` veri kaynağı) bağlı varsayılan fiziksel ölçülerin bir listesini sağlar. Bu varsayılan fiziksel ölçüler, Supply Chain Management'taki **Eldekilerin listesi** sayfasındaki stok hareket durumlarından alınır (**Stok yönetimi \> Sorgular ve Raporlar \> Eldekilerin listesi**). Aşağıdaki tabloda, fiziksel ölçülerin bir örneği sağlanmaktadır.
 
 | Fiziksel ölçü adı | Tanım |
 |---|---|
@@ -117,11 +162,33 @@ Stok Görünürlüğü, Supply Chain Management'a (`fno` veri kaynağı) bağlı
 | `ReservOrdered` | Siparişli rezerve miktar |
 | `ReservPhysical` | Fiziksel rezerve miktar |
 
-### <a name="calculated-measures"></a><a name="data-source-configuration-calculated-measure"></a>Hesaplanan ölçüler
+Veri kaynağı, Supply Chain Management ise varsayılan fiziksel ölçüleri yeniden oluşturmanız gerekmez. Ancak, harici veri kaynakları için aşağıdaki adımları izleyerek yeni fiziksel ölçüler oluşturabilirsiniz.
 
-Hesaplanan ölçüler, fiziksel ölçülerin birleşiminden oluşan özelleştirilmiş bir hesaplama formülü sağlar. Bu işlev, özelleştirilmiş ölçümü oluşturmak için eklenecek bir dizi fiziksel ölçü ve/veya çıkarılacak bir dizi fiziksel ölçü tanımlamanıza olanak tanır.
+1. Power Apps ortamınızda oturum açın ve **Stok Görünürlüğü**'nü açın.
+1. **Yapılandırma** sayfasını açın.
+1. **Veri kaynağı** sekmesinde, **Fiziksel ölçüler** bölümünde **Ekle**'yi seçin, bir kaynak ölçüsü adı belirtin ve değişikliklerinizi kaydedin.
 
-Örneğin, aşağıdaki sorgu sonucuna sahipsiniz.
+### <a name="calculated-measures"></a>Hesaplanan ölçüler
+
+Hem stok fiziksel ölçülerini hem de *özel hesaplanmış ölçüleri* sorgulamak için Stok Görünürlüğü'nü kullanabilirsiniz. Hesaplanan ölçüler, fiziksel ölçülerin birleşiminden oluşan özelleştirilmiş bir hesaplama formülü sağlar. Bu işlev, özelleştirilmiş ölçümü oluşturmak için eklenecek bir dizi fiziksel ölçü ve/veya çıkarılacak bir dizi fiziksel ölçü tanımlamanıza olanak tanır.
+
+Yapılandırma, toplam toplu çıkış miktarını elde etmek için eklenen veya çıkartılan bir dizi değiştirici tanımlamanızı sağlar.
+
+Özel hesaplanmış bir ölçü ayarlamak için şu adımları izleyin.
+
+1. Power Apps ortamınızda oturum açın ve **Stok Görünürlüğü**'nü açın.
+1. **Yapılandırma** sayfasını açın.
+1. **Hesaplanan Ölçü** sekmesinde, hesaplanmış bir ölçü eklemek için **Yeni Hesaplanmış Ölçü**'yü seçin. Ardından, alanları aşağıdaki tabloda açıklandığı gibi ayarlayın.
+
+    | Alan | Değer |
+    |---|---|
+    | Yeni hesaplanan ölçü adı | Hesaplanan ölçünün adını girin. |
+    | Veri kaynağı | Sorgulama sistemi bir veri kaynağıdır. |
+    | Değiştirici veri kaynağı | Değiştiricinin veri kaynağını girin. |
+    | Değiştirici | Değiştirici adını girin. |
+    | Değiştirici türü | Değiştirici türünü seçin (*Toplama* veya *Çıkarma*). |
+
+Örneğin, aşağıdaki sorgu sonucunu almış olabilirsiniz.
 
 ```json
 [
@@ -202,7 +269,7 @@ Bu hesaplama formülü kullanıldığında, yeni sorgu sonucu özelleştirilmiş
 ]
 ```
 
-Özel ölçümlerdeki hesaplama ayarına göre `MyCustomAvailableforReservation` çıkışı 100 + 50 + 80 + 90 + 30 – 10 – 20 – 60 – 40 = 220'dir.
+Özel ölçümlerdeki hesaplama ayarına göre `MyCustomAvailableforReservation` çıkışı 100 + 50 – 10 + 80 – 20 + 90 + 30 – 60 – 40 = 220'dir.
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Bölüm yapılandırma
 
@@ -230,11 +297,21 @@ Stok Görünürlüğü, _dizinleri_ ayarlamanıza izin vererek esneklik sağlar.
 | Boyut | Sorgu sonucunun toplandığı temel boyutlar. |
 | Hiyerarşi | Hiyerarşi sorgulanabilen desteklenen boyut birleşimlerini tanımlamak için kullanılır. Örneğin, hiyerarşi sırası `(ColorId, SizeId, StyleId)` olan bir boyut kümesi ayarlarsınız. Bu durumda sistem, dört boyutlu birleşimlerde sorguları destekler. İlk birleşim boş, ikincisi `(ColorId)`, üçüncüsü `(ColorId, SizeId)` ve dördüncüsü `(ColorId, SizeId, StyleId)` birleşimidir. Diğer birleşimler desteklenmez. Daha fazla bilgi için aşağıdaki örneğe bakın. |
 
+Ürün hiyerarşi dizininizi ayarlamak için şu adımları izleyin.
+
+1. Power Apps ortamınızda oturum açın ve **Stok Görünürlüğü**'nü açın.
+1. **Yapılandırma** sayfasını açın.
+1. **Ürün Hiyerarşi Dizini** sekmesinde, **Boyut Eşlemeleri** bölümünde, boyut eşlemeleri eklemek için **Ekle**'yi seçin.
+1. Varsayılan olarak, dizinlerin bir listesi sağlanır. Var olan bir dizini değiştirmek için ilgili dizin bölümünde **Düzenle** veya **Ekle**'yi seçin. Yeni bir dizin kümesi oluşturmak için **Yeni dizin kümesi**'ni seçin. Her dizin kümesindeki her bir satır için **Boyut** alanında, temel boyutlar listesinden seçim yapın. Aşağıdaki alanlar için değerler otomatik olarak oluşturulur:
+
+    - **Küme numarası**: Aynı kümeye (dizin) ait boyutlar birlikte gruplanır ve bunlara aynı küme numarası atanır.
+    - **Hiyerarşi**: Hiyerarşi, bir boyut grubunda (dizin) sorgulanabilen desteklenen boyut birleşimlerini tanımlamak için kullanılır. Örneğin, *Stil*, *Renk* ve *Boyut* hiyerarşi sırasına sahip bir boyut grubu ayarlarsanız sistem üç sorgu grubunun sonucunu destekler. İlk grup sadece stildir. İkinci grup stil ve renk birleşimidir. Üçüncü grup stil, renk ve boyutun bir birleşimidir. Diğer birleşimler desteklenmez.
+
 ### <a name="example"></a>Örnek
 
 Bu bölüm, hiyerarşinin nasıl çalıştığını gösteren bir örnek sağlar.
 
-Stokunuzda aşağıdaki maddeler var.
+Aşağıdaki tabloda, bu örnek için kullanılabilir stokun bir listesi verilmiştir.
 
 | Ürün | ColorId | SizeId | StyleId | Miktar |
 |---|---|---|---|---|
@@ -246,7 +323,7 @@ Stokunuzda aşağıdaki maddeler var.
 | Tişört | Kırmızı | Küçük | Normal | 6 |
 | Tişört | Kırmızı | Büyük | Normal | 7 |
 
-Dizin aşağıdaki gibidir.
+Aşağıdaki tabloda, dizin hiyerarşisinin nasıl ayarlanacağı gösterilmektedir.
 
 | Küme Numarası | Boyut | Hiyerarşi |
 |---|---|---|
@@ -284,6 +361,8 @@ Dizin, eldeki stoku aşağıdaki yollarla sorgulamanıza olanak tanır:
 
 > [!NOTE]
 > Bölüm yapılandırmasında tanımlanan temel boyutlar, dizin yapılandırmalarında tanımlanmamalıdır.
+> 
+> Yalnızca tüm boyut birleşimleri tarafından toplanan stoku sorgulamanız gerekiyorsa `Empty` temel boyutunu içeren tek bir dizin ayarlayabilirsiniz.
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Rezervasyon yapılandırma (isteğe bağlı)
 
@@ -296,22 +375,37 @@ Geçici rezervasyon özelliğini kullanmak istiyorsanız rezervasyon yapılandı
 
 ### <a name="soft-reservation-mapping"></a>Geçici rezervasyon eşleme
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Rezervasyon yaptığınızda, eldeki stokun şu anda rezervasyon için uygun olup olmadığını bilmek isteyebilirsiniz. Doğrulama, fiziksel ölçülerin bir birleşiminin bir hesaplama formülünü temsil eden hesaplanmış bir ölçüyle bağlantılıdır.
 
-Örneğin, bir rezervasyon ölçüsü, `iv` (Stok Görünürlüğü) veri kaynağından alınan `SoftReservOrdered` fiziksel ölçüsünü temel alır. Bu durumda, burada gösterildiği gibi `iv` veri kaynağının `AvailableToReserve` hesaplanmış ölçüsünü ayarlayabilirsiniz.
+Fiziksel ölçüden hesaplanan ölçüye eşlemeyi ayarlayarak, Stok Görünürlüğü hizmetinin fiziksel ölçüye göre rezervasyon kullanılabilirliğini otomatik olarak doğrulamasını sağlarsınız.
 
-| Hesaplama türü | Veri kaynağı | Fiziksel ölçü |
-|---|---|---|
-| Fark hesap eki | `fno` | `AvailPhysical` |
-| Fark hesap eki | `pos` | `Inbound` |
-| Çıkarma | `pos` | `Outbound` |
-| Çıkarma | `iv` | `SoftReservOrdered` |
+Bu eşlemeyi ayarlamadan önce, fiziksel ölçüler, hesaplanmış ölçüler ve bunların veri kaynakları, Power Apps'te (bu konuda daha önce açıklandığı gibi) **Yapılandırma** sayfasının **Veri kaynağı** ve **Hesaplanan ölçü** sekmelerinde tanımlanmalıdır.
 
-Ardından, `SoftReservOrdered` rezervasyon ölçüsünden `AvailableToReserve` hesaplanmış ölçüsüne bir eşleme sağlamak için bir geçici rezervasyon eşlemesi ayarlayın.
+Geçici rezervasyon eşlemesini tanımlamak için şu adımları izleyin.
 
-| Fiziksel ölçü veri kaynağı | Fiziksel ölçü | Rezerve edilebilir veri kaynağı | Rezerve edilebilir hesaplanan ölçü |
-|---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+1. Geçici rezervasyon ölçüsü olarak hizmet eden fiziksel ölçüyü tanımlayın (örneğin, `SoftReservOrdered`).
+1. **Yapılandırma** sayfasının **Hesaplanan ölçü** sekmesinde, fiziksel ölçüyle eşlemek istediğiniz AFR hesaplama formülünü içeren *rezerve edilebilir* (AFR) hesaplanmış ölçüyü tanımlayın. Örneğin, `AvailableToReserve`'i (rezerve edilebilir) önceden tanımlanmış `SoftReservOrdered` fiziksel ölçüsüyle eşlenecek şekilde ayarlayabilirsiniz. Bu şekilde, `SoftReservOrdered` stok durumuna sahip olan hangi miktarların rezerve edilebileceğini bulabilirsiniz. Aşağıdaki tabloda, AFR hesaplama formülü gösterilmektedir.
+
+    | Hesaplama türü | Veri kaynağı | Fiziksel ölçü |
+    |---|---|---|
+    | Fark hesap eki | `fno` | `AvailPhysical` |
+    | Fark hesap eki | `pos` | `Inbound` |
+    | Çıkarma | `pos` | `Outbound` |
+    | Çıkarma | `iv` | `SoftReservOrdered` |
+
+    Hesaplanan ölçüyü, rezervasyon ölçüsünün temel aldığı fiziksel ölçüyü içerecek şekilde ayarlamanızı öneririz. Bu şekilde, hesaplanan ölçü miktarı rezervasyon ölçüsü miktarından etkilenir. Bu nedenle, bu örnekte `iv` veri kaynağının `AvailableToReserve` hesaplanan ölçüsü, bileşen olarak `iv` kaynağındaki `SoftReservOrdered` fiziksel ölçüsünü içermelidir.
+
+1. **Yapılandırma** sayfasını açın.
+1. **Geçici rezervasyon eşlemesi** sekmesinde, fiziksel ölçüden hesaplanan ölçüye eşlemeyi ayarlayın. Önceki örnek için `AvailableToReserve`'i önceden tanımlanmış `SoftReservOrdered` fiziksel ölçüsüyle eşleştirmek için aşağıdaki ayarları kullanabilirsiniz.
+
+    | Fiziksel ölçü veri kaynağı | Fiziksel ölçü | Rezerve edilebilir veri kaynağı | Rezerve edilebilir hesaplanan ölçü |
+    |---|---|---|---|
+    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+
+    > [!NOTE]
+    > **Geçici Rezervasyon Eşleme** sekmesini düzenleyemiyorsanız **Özellik Yönetimi** sekmesinde *OnHandReservation* özelliğini açmanız gerekebilir.
 
 Şimdi, `SoftReservOrdered` üzerinden rezervasyon yaptığınızda Stok Görünürlüğü, rezervasyon doğrulamasını yapmak için otomatik olarak `AvailableToReserve` ve ilgili hesaplama formülünü bulur.
 
@@ -348,11 +442,16 @@ Bu durumda, aşağıdaki hesaplama geçerlidir:
 
 Bu nedenle, `iv.SoftReservOrdered` üzerinden rezervasyon yapmaya çalışırsanız ve miktar `AvailableToReserve` (10) değerinden küçük veya eşit ise rezervasyonu yapabilirsiniz.
 
+> [!NOTE]
+> Rezervasyon API'sini çağırdığınızda istek gövdesinde Boolean `ifCheckAvailForReserv` parametresini belirterek rezervasyon doğrulamasını denetleyebilirsiniz. `True` değeri, doğrulamanın gerekli olduğu anlamına ve `False` değeri, doğrulamanın gerekli olmadığı anlamına gelir. Varsayılan değer `True` değeridir.
+
 ### <a name="soft-reservation-hierarchy"></a>Geçici rezervasyon hiyerarşisi
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Rezervasyon hiyerarşisi, rezervasyonlar yapıldığında belirtilmesi gereken boyutların sırasını açıklar. Ürün dizini hiyerarşisinin eldeki sorgular için çalıştığı şekilde çalışır.
 
-Rezervasyon hiyerarşisi, ürün dizini hiyerarşisinden bağımsızdır. Bu bağımsızlık, kullanıcıların daha hassas rezervasyonlar yapmak için gereksinimleri belirtmek üzere boyutları bölebilecekleri kategori yönetimi uygulamalarına olanak tanır.
+Rezervasyon hiyerarşisi, ürün dizini hiyerarşisinden bağımsızdır. Bu bağımsızlık, kullanıcıların daha hassas rezervasyonlar yapmak için gereksinimleri belirtmek üzere boyutları bölebilecekleri kategori yönetimi uygulamalarına olanak tanır. Geçici rezervasyon hiyerarşiniz, bölüm yapılandırmasını oluşturduklarından bileşen olarak `SiteId` ve `LocationId` öğelerini içermelidir. Rezervasyon yaptığınızda ürün için bir bölüm belirtmeniz gerekir.
 
 Aşağıda, bir geçici rezervasyon hiyerarşisi örneği verilmiştir.
 
@@ -364,10 +463,8 @@ Aşağıda, bir geçici rezervasyon hiyerarşisi örneği verilmiştir.
 | `SizeId` | 4 |
 | `StyleId` | 5 |
 
-Bu örnekte, aşağıdaki boyut serilerinde rezervasyon yapabilirsiniz:
+Bu örnekte, aşağıdaki boyut serilerinde rezervasyon yapabilirsiniz. Rezervasyon yaptığınızda ürün için bir bölüm belirtmeniz gerekir. Bu nedenle, kullanabileceğiniz temel hiyerarşi `(SiteId, LocationId)` öğesidir.
 
-- `()`: Hiçbir boyut belirtilmedi.
-- `(SiteId)`
 - `(SiteId, LocationId)`
 - `(SiteId, LocationId, ColorId)`
 - `(SiteId, LocationId, ColorId, SizeId)`
@@ -375,9 +472,24 @@ Bu örnekte, aşağıdaki boyut serilerinde rezervasyon yapabilirsiniz:
 
 Geçerli bir boyut serisi, boyuta göre boyut rezervasyon hiyerarşisini kesinlikle izlemelidir. Örneğin, `(SiteId, LocationId, SizeId)` hiyerarşi sırası, `ColorId` eksik olduğundan geçerli değildir.
 
+## <a name="complete-and-update-the-configuration"></a>Yapılandırmayı tamamlama ve güncelleştirme
+
+Yapılandırmayı tamamladıktan sonra, Stok Görünürlüğü'nde tüm değişiklikleri uygulamalısınız. Değişiklikleri kaydetmek için Power Apps'te **Yapılandırma** sayfasının sağ üst köşesinde **Yapılandırmayı Güncelleştirme**'yi seçin.
+
+**Yapılandırmayı Güncelleştirme**'yi ilk kez seçtiğinizde sistem, kimlik bilgilerinizi ister.
+
+- **İstemci Kimliği**: Stok Görünürlüğü için oluşturduğunuz Azure uygulaması kimliği.
+- **Kiracı kimliği**: Azure kiracısı kimliğiniz.
+- **İstemci Gizli Anahtarı**: Stok Görünürlüğü için oluşturduğunuz Azure uygulaması kimliği.
+
+Oturum açtıktan sonra, Stok Görünürlüğü hizmetinde yapılandırma güncelleştirilir.
+
+> [!NOTE]
+> Stok Görünürlüğü hizmetinin yapılandırmasını güncelleştirmeden önce veri kaynağı adınızı, fiziksel ölçülerinizi ve boyut eşlemelerinizi doğruladığınızdan emin olun. **Yapılandırmayı Güncelleştirme**'yi seçtikten sonra bu ayarları değiştiremezsiniz.
+
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>Varsayılan yapılandırma örneği
 
-Stok Görünürlüğü, başlatma aşaması sırasında bir varsayılan yapılandırma ayarlar. Yapılandırmayı gerektiği şekilde değiştirebilirsiniz.
+Stok Görünürlüğü, başlatma aşaması sırasında ayrıntıları burada verilen bir varsayılan yapılandırma ayarlar. Bu yapılandırmayı gerektiği şekilde değiştirebilirsiniz.
 
 ### <a name="data-source-configuration"></a>Veri kaynağı yapılandırma
 

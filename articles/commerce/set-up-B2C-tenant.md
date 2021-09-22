@@ -2,7 +2,7 @@
 title: Commerce'ta B2C kiracısı ayarlama
 description: Bu konu, Dynamics 365 Commerce'ta kullanıcı sitesi kimlik doğrulaması için Azure Active Directory (Azure AD) işletme-müşteri arası (B2C) kiracılarınızın nasıl kurulacağını açıklamaktadır.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344510"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466280"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -37,6 +37,26 @@ Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışl
 
 > [!TIP]
 > Azure AD Kimlik Koruması ve Koşullu Erişim ile site kullanıcılarınızı daha fazla koruyabilir ve Azure AD B2C kiracılarınızın güvenliğini artırabilirsiniz. Azure AD B2C Premium P1 ve Premium P2 kiracılarına sunulan özellikleri incelemek için bkz. [Azure AD B2C için Kimlik Koruması ve Koşullu Erişim](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>Dynamics ortam önkoşulları
+
+Başlamadan önce, aşağıdaki önkoşulları yerine getirmesini sağlayarak Dynamics 365 Commerce ortamınızın ve e-ticaret kanalınızın uygun şekilde yapılandırıldığından emin olun.
+
+- Commerce genel merkezindeki **AllowAnonymousAccess** POS işlemleri değerini "1" olarak ayarlayın:
+    1. **POS İşlemleri**'ne gidin.
+    1. İşlemler ızgarasında sağ tıklayın ve **Kişiselleştir**'i seçin.
+    1. **Alan ekle**'yi seçin.
+    1. Kullanılabilir sütunlar listesinde, **AllowAnonymousAccess** sütununu seçerek ekleyin.
+    1. **Güncelleştir**'i seçin
+    1. **612** "Müşteri ekleme" işlemi için **AllowAnonymousAccess**'i "1" olarak değiştirin.
+    1. **1090 (Kayıtlar)** işini çalıştırın.
+- Commerce genel merkezindeki numara sırası müşteri hesabı **El İle** özniteliğini **Hayır** olarak ayarlayın:
+    1. **Retail ve Commerce \> Genel merkez ayarı \> Parametreler \> Alacak hesapları parametreleri**'ne gidin.
+    1. **Numara serileri**'ni seçin.
+    1. **Müşteri hesabı** satırında, **Numara Sıra Kodu** değerini çift tıklayın.
+    1. Numara serisinin **Genel** hızlı sekmesinde, **El İle** seçeneğini **Hayır** olarak ayarlayın.
+
+Dynamics 365 Commerce ortamınızın dağıtımından sonra, ortamda [Çekirdek verileri başlatma](enable-configure-retail-functionality.md) da önerilir.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Azure portalında mevcut bir AAD B2C kiracısı oluşturma veya bu kiracıya bağlantı sağlama
 

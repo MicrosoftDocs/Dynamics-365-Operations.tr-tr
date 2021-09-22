@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0919706ddcc70fecd15df6bf1cbdd58fe9a8e337b2d45cd61a4fb9d821e4114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: b9c82f28dcc7ebd223b2483ca257ba934024d755
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757818"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475096"
 ---
 # <a name="inventory-forecasts"></a>Stok tahminleri
 
@@ -94,7 +94,7 @@ Aşağıdaki tabloda, **Tedarik tahmini** sayfasındaki **Genel bakış** sekmes
 
 | Command | Tanım |
 |---|---|
-| Tahmini tahsis et | Bir tahsisat yöntemi kullanıyorsanız, tahmin hareketi için ayrı çizelge satırları oluşturun. Daha sonra satırın miktarı, tüm zaman dilimi için tarihe (seçilen zaman aralıklarına göre), miktara ve tutara göre dağıtılır. |
+| Tahmini tahsis et | Bir tahsisat yöntemi kullanıyorsanız, tahmin hareketi için ayrı çizelge satırları oluşturun. Daha sonra satırın miktarı, tüm zaman dilimi için tarihe (seçilen zaman aralıklarına göre), miktara ve tutara göre dağıtılır. (Bu konunun sonraki bölümlerinde yer alan [Tahmini tahsis et](#allocate-forecast) bölümüne bakın.) |
 | Toplu güncelleştirme | **Tahmin işlemlerini düzenle** sayfasını açın. (Bu bölümün ileriki kısımlarında yer alan [Tahmin hareketlerinin toplu güncelleştirme ](#bulk-update) bölümünü inceleyin.) |
 | Stok tahmini | Seçili madde/model kombinasyonu için filtre uygulanan **Stok tahmini** sayfası görünümünü açın. (Bu bölümün ileriki kısımlarında yer alan [Stok tahmini](#inventory-forecast) bölümünü inceleyin.) |
 | Madde gereksinimi oluştur | Projeyle ilgili tahmin hareketleri için madde gereksinimleri ve satış siparişi veya madde günlüğü satırları oluşturabileceğiniz iletişim kutusunu açın. Bu komut hem tedarik tahmin satırları hem de talep tahmin satırları için kullanılabilir olmakla birlikte, **Tedarik tahmini** sayfasında kullanılamaz. |
@@ -201,7 +201,7 @@ Aşağıdaki tabloda, **Talep tahmini** sayfasındaki **Genel bakış** sekmesin
 
 | Command | Tanım |
 |---|---|
-| Tahmini tahsis et | Bir tahsisat yöntemi kullanıyorsanız, tahmin hareketi için ayrı çizelge satırları oluşturun. Daha sonra satırın miktarı, tüm zaman dilimi için tarihe (seçilen zaman aralıklarına göre), miktara ve tutara göre dağıtılır. |
+| Tahmini tahsis et | Bir tahsisat yöntemi kullanıyorsanız, tahmin hareketi için ayrı çizelge satırları oluşturun. Daha sonra satırın miktarı, tüm zaman dilimi için tarihe (seçilen zaman aralıklarına göre), miktara ve tutara göre dağıtılır. (Bu konunun sonraki bölümlerinde yer alan [Tahmini tahsis et](#allocate-forecast) bölümüne bakın.)|
 | Toplu güncelleştirme | **Tahmin işlemlerini düzenle** sayfasını açın. (Bu bölümün ileriki kısımlarında yer alan [Tahmin hareketlerinin toplu güncelleştirme ](#bulk-update) bölümünü inceleyin.) |
 | Stok tahmini | Seçili madde/model kombinasyonu için filtre uygulanan **Stok tahmini** sayfası görünümünü açın. (Bu bölümün ileriki kısımlarında yer alan [Stok tahmini](#inventory-forecast) bölümünü inceleyin.) |
 | Madde gereksinimi oluştur | Projeyle ilgili tahmin hareketleri için madde gereksinimleri ve satış siparişi veya madde günlüğü satırları oluşturabileceğiniz iletişim kutusunu açın. |
@@ -296,7 +296,7 @@ Aşağıdaki tabloda, **Talep tahmini** sayfasının **Genel bakış** sekmesind
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Talep tahmini sayfasındaki Tahsisat ızgarası
 
-Bir madde tahsisat anahtarı kullanıyorsanız veya bir ya da daha fazla gelecek dönem için madde tahmini girdiyseniz, **Genel bakış** sekmesindeki araç çubuğunda **Tahmin tahsisatı**'nı seçerek tahmini tahsis edebilirsiniz. Miktar daha sonra, **Tahsisat** ızgarasındaki satırlar tarafından belirtilen şekilde dağıtılır.
+Bir madde tahsisat anahtarı kullanıyorsanız veya bir ya da daha fazla gelecek dönem için madde tahmini girdiyseniz, **Genel bakış** sekmesindeki araç çubuğunda **Tahmin tahsisatı**'nı seçerek tahmini tahsis edebilirsiniz. Miktar daha sonra, **Tahsisat** ızgarasındaki satırlar tarafından belirtilen şekilde dağıtılır. (Bu konunun sonraki bölümlerinde yer alan [Tahmini tahsis et](#allocate-forecast) bölümüne bakın.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Stok tahmini
 
@@ -328,6 +328,25 @@ Aşağıdaki tabloda **Stok tahmini** sayfasındaki kılavuzdaki alanlar açıkl
 | **Alt ürün reçetesi** | Özel alt ürün reçetesinin ürün reçetesi numarası. |
 | **Alt rota** | Özel alt rotanın rota numarası. |
 | (Diğer boyutlar) | Ek boyutlar, ızgarada sütunlar olarak gösterilebilir. Görüntülenen ek boyutları seçmek için Eylem Bölmesinde **Stok \> Görüntüleme boyutları**'nı seçin. |
+
+## <a name="allocate-forecast"></a><a name="allocate-forecast"></a>Tahmini tahsis et
+
+Seçili tahmin hareketi satırlarını işlemek için aşağıdaki prosedürü kullanın. Tahmin tahsis ettiğinizde, miktar daha sonra **Tahsisat** ızgarasındaki satırlarla gösterildiği gibi dağıtılır.
+
+1. Tahmin oluşturduğunuz varlığın türüne ve oluşturmak istediğiniz tahminin türüne bağlı olarak [Tahmin satırlarını görüntüleme ve el ile girme](#manual-entry) bölümünde açıklandığı gibi bir tedarik veya talep tahmini sayfası açın.
+1. Tedarik veya talep tahmini satırları sayfasında bir tahmin satırı seçin ve ardından **Genel Bakış** sekmesindeki araç çubuğunda **Tahmini tahsis et**'i seçin.
+1. **Tahmini tahsis et** iletişim kutusunda, aşağıdaki tabloda açıklanan alanları ayarlayın. (**Yöntem** alanında seçtiğiniz değer kullanılabilen diğer alanları belirler.)
+
+    | Alan | Tanım |
+    |---|---|
+    | Yöntem | <p>Tahmin işlemini tahsis etmek için kullanılan yöntemi seçin:</p><ul><li>**Hiçbiri** – Tahsisat yoktur.</li><li>**Dönem** – Her dönem için aynı miktarı tahmin edin. Bu değeri seçerseniz, **Beher** alanında bir miktar ve **Birim** alanında bir zaman birimi belirleyin.</li><li>**Anahtar** – Tahmini, **Dönem anahtarı** alanında belirttiğiniz dönem tahsis anahtarına göre tahsis edin. Mevsimsel varyasyonları hesaba katmak istediğinizde bu yöntemi kullanabilirsiniz.</li><ul>|
+    | Birim miktar | <p>Tahminin geleceğe uzandığı zaman aralıklarının sayısını girin. Bu alan yalnızca **Yöntem** alanında *Dönem* seçildiğinde kullanılabilir.</p><p>Örneğin, **Yöntem** alanında *Dönem* seçeneğini belirlediğinizde, **Beher** alanına *1* girin, **Birim** alanından *Aylar* seçeneğini belirleyin. Ardından, **Bitiş** alanında bir yıl sonraki bir bitiş tarihi belirtirsiniz. Bu durumda, gelecek yılın her ayı için, başlık satırında belirtilen madde ve miktara dayanan bir tahmin satırı oluşturulur. |
+    | Birim | Zaman aralığının birimini seçin: *Gün*, *Ay* veya *Sene*. Tahsis işlemi, **Beher** alanında belirttiğiniz gün, ay veya yıl sayısına karşılık gelir.|
+    | Dönem anahtarı | Tahmini tahsis etmek için kullanılan dönem tahsisat anahtarını belirtin. Daha fazla bilgi için bkz. [Bütçe planlama verileri tahsisatı](../../finance/budgeting/budget-planning-data-allocation.md). |
+    | Son | Ayarlarınız için geçerli olan bitiş tarihini **Başına** ve **Birim** alanlarında belirtin. |
+
+1. Ayarlarınızı onaylamak için **Tamam**'ı seçin.
+1. Sonuçları aynı satır için **Tahsisat** sekmesinde inceleyebilirsiniz.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Tahmin hareketlerini toplu güncelleştirme
 

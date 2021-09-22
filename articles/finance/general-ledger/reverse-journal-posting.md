@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753492"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463601"
 ---
 # <a name="reverse-journal-posting"></a>Ters günlük nakli
 
@@ -28,13 +28,17 @@ ms.locfileid: "6753492"
 
 Bu konu, Microsoft Dynamics 365 Finance'in bir günlüğün tamamını veya kaynağından bağımsız olarak, hareket listesinden bir veya daha fazla fişi ters kaydetmenize olanak sağlayan yetenekleri açıklamaktadır. 
 
+Bu konuda açıklanan özelliklerden birini kullanabilmeniz için bu özelliğin sisteminizde açılmış olması gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için **özellik yönetimi** çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+ - Modül: Genel muhasebe
+ - Özellik adı: **Birden çok belgeyi toplu tersine çevirme**
+
 ## <a name="reversing-journals"></a>Günlükleri ters kaydetme
 
 Günlük satırlarını tek tek ters kaydedebilirsiniz. Ters günlük nakli ile tüm mali günlüğü de tersine çevirebilirsiniz. Bir günlüğü ters kaydetmek için: 
 
-- Mali günlüğü açın ve deftere nakledilmiş günlükleri filtreleyin.
+- Deftere nakledilmiş günlüklerde filtre uygulayın ve günlükte **Satırlar** görünümünü açın.
 - Sayfanın üst tarafındaki **Ters kaydet** menüsüne tıklayın.
-- Toplam fiş ve fiş satırı sayısının yanı sıra, ters kaydedilmekte olan satırların toplam tutarını görürsünüz
+- Toplam fiş ve fiş satırı sayısının yanı sıra, ters kaydedilmekte olan satırların toplam tutarını görürsünüz.
 - Varolan hareket tarihlerini kullanmak için **Evet**'i, yeni bir hareket girmek için **Hayır**'ı seçin. Bazı durumlarda, orijinal hareketin dönemi kapalı olabilir ve ters kayıt için yeni bir hareket tarihi girmeniz gerekebilir.
 - **Hayır**'ı seçtiyseniz, ters kayıt için bir hareket tarihi girin. 
 - Ters kayıt hareketine eklenmesini istediğiniz bir açıklama girin.
@@ -52,8 +56,8 @@ Tüm alt defterlerdeki **Fiş hareket listesinden** fişleri de ters kaydedebili
 
 Bir veya daha fazla fişi ters kaydetmek için: 
 
-- Sayfanın üst tarafındaki **Ters kaydet** menüsünü seçin.
-- Toplam fiş ve fiş satırı sayısının yanı sıra, ters kaydedilmekte olan satırların toplam tutarını görürsünüz.
+- Sayfanın üst tarafındaki **Tüm günlüğü tersine çevirme açılan** menüsünü seçin.
+- Toplam fiş ve fiş satırı sayısı ve ters kaydedilmekte olan satırların toplam tutarı görüntülenir.
 - Varolan hareket tarihlerini kullanmak için **Evet**'i, yeni bir hareket girmek için **Hayır**'ı seçin. Bazı durumlarda, orijinal hareketin dönemi kapalı olabilir ve ters kayıt için yeni bir hareket tarihi girmeniz gerekebilir.
 - **Hayır**'ı seçtiyseniz, ters kayıt için bir hareket tarihi girin. 
 - Ters işlem hareketini açıklamak için bir açıklama girin.

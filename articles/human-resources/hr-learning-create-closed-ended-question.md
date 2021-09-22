@@ -1,8 +1,8 @@
 ---
 title: Kapalı uçlu soru oluşturma
 description: Kapalı uçlu sorular, yanıtlayan kişinin arasından seçim yapabileceği seçenekler sunmanızı sağlar.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion, HcmLearningWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4daa277ba1b71238314de975c1e8a54f9ece408d6fc2a314828bc0592129af2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731973"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465185"
 ---
 # <a name="create-a-closed-ended-question"></a>Kapalı uçlu soru oluşturma
 
@@ -30,42 +30,42 @@ Kapalı uçlu sorular, yanıtlayan kişinin arasından seçim yapabileceği seç
 
 
 ## <a name="create-an-answer-group"></a>Yanıt grubu oluşturma
-1. Sırasıyla Anket > Tasarım > Yanıt grupları seçimlerini yapın.
-2. Yeni'ye tıklayın.
-3. Yanıt grubu alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
+1. **Soru Formu** > **Tasarım** > **Yanıt grupları**'na gidin.
+2. **Yeni**'ye tıklayın.
+3. **Yanıt grubu** alanına bir değer yazın.
+4. **Tanım** alanına bir değer girin.
     * Yanıt grubunun bir soru için her kullanılışında, yanıtların farklı bir düzende yerleştirilmesi için rastgele seç özelliğini kullanın.  
-5. Yanıtla'yı tıklatın.
-6. Yeni'ye tıklayın.
+5. **Yanıt**'a tıklayın.
+6. **Yeni**'ye tıklayın.
     * Sıra numarası rastgele seç, yanıt grubu için seçili olmadıkça yanıtların görüntülenme sırasını denetler.  
     * Soru formunu puanlamak için yanıtların puan vermesi sağlanabilir.  
-7. Puanlar alanına bir sayı girin.
+7. **Puanlar** alanına bir sayı girin.
     * Seçilen yanıtın doğru olduğunu belirtmek üzere işaretlenebilir. Bu, soru formunu puanlamak için kullanılabilir.  
-8. Yanıt alanına bir değer yazın.
+8. **Yanıt** alanına bir değer yazın.
     * Yanıt grubu için yanıt seçim seçenekleri oluşturmaya devam edin.  
-9. Yeni'ye tıklayın.
-10. Puanlar alanına bir sayı girin.
-11. Yanıt alanına bir değer yazın.
-12. Yeni'yi tıklatın.
-13. Puanlar alanına bir sayı girin.
-14. Yanıt alanına bir değer yazın.
-15. Yeni'yi tıklatın.
-16. Puanlar alanına bir sayı girin.
-17. Yanıt alanına bir değer yazın.
-18. Yeni'yi tıklatın.
-19. Puanlar alanına bir sayı girin.
-20. Yanıt alanına bir değer yazın.
+9. **Yeni**'ye tıklayın.
+10. **Puanlar** alanına bir sayı girin.
+11. **Yanıt** alanına bir değer yazın.
+12. **Yeni**'ye tıklayın.
+13. **Puanlar** alanına bir sayı girin.
+14. **Yanıt** alanına bir değer yazın.
+15. **Yeni**'ye tıklayın.
+16. **Puanlar** alanına bir sayı girin.
+17. **Yanıt** alanına bir değer yazın.
+18. **Yeni**'ye tıklayın.
+19. **Puanlar** alanına bir sayı girin.
+20. **Yanıt** alanına bir değer yazın.
 21. Sayfayı kapatın.
 22. Sayfayı kapatın.
 
 ## <a name="create-the-question"></a>Soruyu oluşturun.
-1. Soru formu > Tasarım > Sorular'a gidin.
-2. Yeni'ye tıklayın.
+1. **Soru Formu** > **Tasarım** > **Sorular**'a gidin.
+2. **Yeni**'ye tıklayın.
 3. Tür alanını ilgili soruları birlikte gruplandırmak için kullanın.
     * Kapalı uçlu sorular için onay kutusu, alternatif düğmesi veya birleşik giriş kutusu giriş türlerini kullanabilirsiniz.  
-4. Giriş türü alanında bir seçenek seçin.
-5. Yanıt grubu alanında bir değer girin veya seçin.
-6. Metin alanına bir değer yazın.
+4. **Giriş türü** alanında bir seçenek belirleyin.
+5. **Yanıt grubu** alanında bir değer girin veya seçin.
+6. **Metin** alanına bir değer yazın.
 
 
 

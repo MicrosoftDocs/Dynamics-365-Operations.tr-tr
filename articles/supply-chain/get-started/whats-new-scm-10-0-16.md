@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712061"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474928"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Management 10.0.16'deki yenilikler veya değişiklikler (Şubat 2021)
 
@@ -54,36 +54,12 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 - [Sabit tabanlı ürün yapılandırması için öznitelik tabanlı satış fiyatları](../pim/attribute-based-product-configurator.md)
 - [Otomatik gider tahsisatı](../procurement/automatic-charges-allocation.md)
 - [Tehlikeli malzemelere genel bakış](../pim/hazmat-overview.md) (ve ilgili konular)
-- [Master planlama için Planlama İyileştirmesi'ne geçiş](../master-planning/new-master-planning-engine.md)
+- [Master planlama için Planlama Optimizasyonuna geçiş](../master-planning/new-master-planning-engine.md)
 - [cXML geliştirmeleri satın alma](../procurement/purchasing-cxml-enhancements.md)
-- [Maliyet yönetimi sorunlarını giderme](../cost-management/troubleshoot-costmanagement.md)
-- [Gelen ambar operasyonlarında sorun giderme](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Yük oluşturma ve sevkiyatlarla ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Master planlama ile ilgili sorunları giderme](../master-planning/troubleshoot-masterplanning.md)
-- [Giden ambar işlemlerinde sorun giderme](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Kısmi serbest bırakma ve kısmi sevkiyatlarla ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Ürün yapılandırıcısındaki sorunları giderme](../pim/troubleshooting-productconfigurator.md)
-- [Ürün bilgileri ile ilgili sorunları giderme](../pim/troubleshooting-productinformation.md)
-- [Tedarik ve kaynak atama iş akışı ile ilgili sorunları giderme](../procurement/troubleshoot-procurementworkflows.md)
-- [Satınalma siparişleri ile ilgili sorunları giderme](../procurement/troubleshoot-purchaseorders.md)
-- [Fiyatlar, iskontolar, sözleşmeler ve indirimler ile ilgili sorunları giderme](../procurement/troubleshooting-pricediscountagreements.md)
-- [Ürün girişleri ve faturalama ile ilgili sorunları giderme](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Gizli üretimle ilgili sorunları giderme](../production-control/troubleshoot-discretemanufacturing.md)
-- [Malzeme çekme ve paketleme ile ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Süreç üretimi ile ilgili sorunları giderme](../production-control/troubleshoot-processmanufacturing.md)
-- [Ambar yönetiminde rezervasyonlarla ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Satış siparişleri ile ilgili sorunları giderme](../sales-marketing/troubleshooting-sales.md)
-- [Satış teklifleri ile ilgili sorunları giderme](../sales-marketing/troubleshooting-salesquotation.md)
-- [Gelişmiş ambar yönetimine yükseltme ve geçiş ile ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Ambar yönetimi mobil uygulama bağlantısı sorunları ile ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Ambar yapılandırması ile ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Ambar stok yenileme sorunlarını giderme](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Ambar kurulumuyla ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-setup.md)
-- [Ambar işiyle ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-work.md)
 - [Yerine koyma kümeleri](../warehousing/putaway-clusters.md)
 - [Stok yenileme stratejileri](../warehousing/replenishment-strategies.md)
 - [İş bölme](../warehousing/work-split.md)
-- [Konum yönergeleriyle çalışma](../warehousing/create-location-directive.md)
+- [Yerleşim yönergeleriyle çalışma](../warehousing/create-location-directive.md)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

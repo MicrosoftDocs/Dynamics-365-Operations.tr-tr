@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416192"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481327"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Supply Chain Management fiyatlandırma altyapısıyla istek üzerine eşitleme
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Supply Chain Management, ticari sözleşmeleri, Fiyat lis
     + Toplam Vergi
     + Toplam Tutar
     
-5. Sistemin fiyatı hesaplamak amacıyla ticaret ve satış anlaşmalarını dikkate aldığından emin olmak için:
+5. Sistemin fiyatı hesaplamak amacıyla ticari sözleşmeleri dikkate aldığından emin olmak için:
     1. Supply Chain Management ortamınıza gidin.
     2. **Alacak hesapları \> Kurulum \> Alacak hesapları parametreleri**'ne gidin.
     3. Yan gezinti çubuğunda **Fiyatlar** sekmesini seçin.
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management, ticari sözleşmeleri, Fiyat lis
 
 Sales'ta **fiyat siparişi** seçeneğini belirlediğinizde, ilgili satış siparişi için Supply Chain Management'te **Satış Siprişi \> Görüntüle** sekmesindeki **Toplamlar** işlevi çağrılır. Sales içindeki sipariş toplamlarında bulunan değerler, Supply Chain Management'ta karşılık gelen sütunları doldurmak için kullanılır.
 
-Supply Chain Management'ta satış siparişi toplamı hesaplandığında, hesaplama müşteri ve satış siparişinde listelenen ürünler için varolan ticari sözleşmeleri ve satış anlaşmalarını değerlendirir. Toplamları hesaplamak için bu bilgiler kullanılır. **Fiyat siparişi** seçildiğinde, Sales, Supply Chain Management'de yapılan tüm kurulumu otomatik olarak yansıtır.
+Supply Chain Management'ta satış siparişi toplamı hesaplandığında hesaplama, müşteri ve satış siparişinde listelenen ürünler için mevcut ticari sözleşmeleri değerlendirir. Toplamları hesaplamak için bu bilgiler kullanılır. **Fiyat siparişi** seçildiğinde, Sales, Supply Chain Management'de yapılan tüm kurulumu otomatik olarak yansıtır.
 
 ## <a name="limitations"></a>Sınırlamalar
 

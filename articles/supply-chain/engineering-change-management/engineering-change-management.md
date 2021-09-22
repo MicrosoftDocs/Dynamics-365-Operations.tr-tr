@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384597"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467434"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 
@@ -122,6 +122,9 @@ Etkilenen hareketleri gözden geçirmek için, seçili hareketleri engellemek ve
     - **Geçmişi görüntüle** – **İŞlemleri açmak için İş etkisi** iletişim kutusunu kullanarak seçili işlemdeki işlemler geçmişini açın. (Örneğin, geçmiş bildirimlerin gönderilip gönderilmediğini veya işlemlerin engellenip engellenmediğini gösterir.) 
     - **Tüm işlemleri görüntüle** – Sadece açık hareketlerin değil, tüm hareketlerin tam listesini açın.
 
+> [!IMPORTANT]
+> **Üretime bildir** düğmesi, yalnızca sisteminizde *Üretim için mühendislik bildirimleri* özelliği açıksa kullanılabilir. Yönergeler için bkz. [Mühendislik değişikliğine genel bakış](product-engineering-overview.md).
+
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>İşlemler için değişiklik bildirimlerini gözden geçirme ve işleme
 
 Aldığınız değişiklik bildirimlerini aşağıdaki şekillerde okuyabilir ve işleyebilirsiniz:
@@ -131,6 +134,9 @@ Aldığınız değişiklik bildirimlerini aşağıdaki şekillerde okuyabilir ve
 - Üretim emirleri için, yalnızca yönettiğiniz üretim kaynakları için geçerli olan değişiklik bildirimlerini gözden geçirmeyi seçebilirsiniz. **Üretim kat yönetimi** çalışma alanında, Eylem Bölmesi'nde, **Çalışma alanımı yapılandır** öğesini seçerek sayfaya filtre uygulayın ve böylece yalnızca yönettiğiniz üretim üniteleri, gruplar ve/veya kaynakları göstersin. **Özet** bölümünde, **değiştirilen ürünlere sahip Üretim emirleri** adlı bir kutucuk, filtre ayarlarınızla eşleşen bildirimlerin sayısını gösterir. Filtrenizin ölçütlerine uyan hareketlerin tam listesini gösteren **Mühendislik bildirimleri** sayfasını açmak için bu kutucuğu seçin.
 
 **Mühendislik bildirimleri** sayfasında üretim emri bildirimlerini gözden geçirirken, sütun değerlerini seçerek veya Eylem Bölmesi'ndeki ilgili komutları kullanarak ilgili değişiklik emirlerine veya üretim emirlerine bağlantıları takip edebilirsiniz. Bir değişikliği değerlendirmeyi tamamladıktan ve üretim emirlerini gerektiği gibi iptal ettikten veya değiştirdikten sonra, bir bildirimi çözümlenmiş olarak işaretleyebilirsiniz. Bildirimi seçin ve eylem bölmesinde **Çözümle** 'yi seçin. Bildirim tüm kullanıcıların görünümlerinden kaldırılır.
+
+> [!IMPORTANT]
+> Üretim emirleri ile ilgili bildirim gönderebilmeniz için sisteminizde *Üretim için mühendislik bildirimleri* özelliğinin açık olması gerekir. Yönergeler için bkz. [Mühendislik değişikliğine genel bakış](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Değişiklik isteğinden değişiklik emri oluşturma
 

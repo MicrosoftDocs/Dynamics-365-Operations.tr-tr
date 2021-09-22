@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4a77b157e9dd5ee1f551cbb59abbc89aaa28d325cc74a77e6624f25902c5b19e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731901"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471704"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar siparişleri
 
@@ -27,16 +27,18 @@ ms.locfileid: "6731901"
 
 ## <a name="what-are-warehouse-orders"></a>Ambar siparişleri nelerdir?
 
-*Ambar siparişleri*, merkez ve ölçek birimi ambar dağıtımlarını desteklemek için oluşturulan bir sipariş türüdür. Bunlar, bir ölçek biriminde ambar iş yükü çalıştırırken stok almanızı sağlar. Şu anda yalnızca satınalma siparişleriyle birlikte kullanılabilirler.
+*Ambar siparişleri*, merkez ve ölçek birimi ambar dağıtımlarını desteklemek için kullanılan bir sipariş türüdür. Bunlar, bir ölçek biriminde ambar iş yükü çalıştırırken stok almanızı ve göndermenizi sağlar.
 
-Ambar siparişleri, bir gelen satın alma siparişinin işlenmesi sırasında fiziksel eldeki stoku kaydetmek için Ambar Yönetimi mobil uygulamasının kullanıldığı durumlarda olduğu gibi, ambar yönetimi işleminin bir parçası olarak kullanılır. Ambar siparişleri, ambar yönetim işlemlerini kullanmak üzere etkinleştirilen ölçek birimi ambarının ve ürünlerinin belirtildiği satınalma siparişleri için kullanılabilen bir *Ambara serbest bırak* işleminin parçası olarak oluşturulur.
+Ambar siparişleri, hem gelen hem de giden ambar yönetimi işlemlerinin bir parçası olarak kullanılır. Merkezde başlatılan *Ambara serbest bırakma* işleminin bir parçası olarak oluşturulurlar.
+Warehouse Mobile App, gelen siparişlerin işlenmesi sırasında eldeki fiziksel stoku kaydetmek için kullanılır. Bu, bir ölçek birimi ambarı ve ambar yönetimi işlemlerini kullanmak için etkinleştirilen maddeleri belirten satınalma siparişleri ve üretim emirleri için kullanılabilir.
+Giden ambar siparişleri, transfer emirleri ve satış siparişleri için sevkiyat dalgası işleminin bir parçası olarak kullanılır.
 
 > [!IMPORTANT]
 > Ambar siparişleri yalnızca [bulut ve uç ölçek birimleri için ambar yönetimi iş yüklerini](cloud-edge-workload-warehousing.md) kullanan dağıtımlarda kullanılabilir.
 
-## <a name="create-a-warehouse-order"></a>Ambar siparişi oluşturma
+## <a name="create-an-inbound-warehouse-order"></a>Gelen ambar emri oluşturma
 
-Ambar siparişi oluşturmak için şu adımları izleyin.
+Satınalma siparişi işlemi için gelen ambar siparişi oluşturmak üzere aşağıdaki adımları izleyin.
 
 1. Merkezde çalışan Microsoft Dynamics 365 Supply Chain Management kurulumunda oturum açın. (Merkezde oturumunuz açıkken *Ambara serbest bırak* işlemini başlatmanız gerekir.)
 1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.

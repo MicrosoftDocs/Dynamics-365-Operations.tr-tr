@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736635"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474784"
 ---
 # <a name="forecast-reduction-keys"></a>Tahmin azaltma anahtarları
 
@@ -86,7 +86,18 @@ Bu durumda, tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gere
 
 ### <a name="transactions--reduction-key"></a>Hareketler - azaltma anahtarı
 
-**Hareketler - azaltma anahtarını** seçerseniz: Tahmin gereksinimleri azaltma anahtarı tarafından tanımlanan meydana gelen hareketlere göre azaltılır.
+**Tahmin gereksinimlerini azaltmak için kullanılan yöntem** alanını *Hareketler: azaltma anahtarı* olarak ayarlarsanız azaltma anahtarı ile tanımlanan dönemlerde gerçekleşen donanımlı talep hareketleri ile tahmin gereksinimleri azaltılır.
+
+Uygun bulunan talep, **Karşılama grupları** sayfasındaki **Tahmin azaltma ölçütü** alanıyla tanımlanır. **Tahmin azaltma ölçütü** alanını *Siparişler* olarak ayarlarsanız yalnızca satış siparişi hareketleri uygun bulunan talep olarak kabul edilir. *Tüm hareketler* olarak ayarlarsanız tüm şirketlerarası olmayan çıkış stok hareketleri uygun bulunan talep olarak kabul edilir. Şirketlerarası satış siparişlerinin de uygun bulunan talep olarak değerlendirilmesi gerekiyorsa **Şirketlerarası siparişleri dahil et** seçeneğini *Evet* olarak ayarlayın.
+
+Tahmin azaltma, azaltma anahtarı dönemindeki ilk (en erken) talep tahmini kaydıyla başlar. Donanımlı stok hareketlerinin miktarı, aynı azaltma anahtarı dönemindeki talep tahmin satırlarının miktarından fazlaysa stok hareketlerinin bakiyesi önceki dönemdeki talep tahmin miktarını (tüketilmemiş tahmin varsa) azaltmak için kullanılır.
+
+Önceki azaltma anahtarı döneminde tüketilmeyen tahmin kalmamışsa bir sonraki aydaki tahmin miktarını azaltmak için stok hareketleri bakiyesi (tüketilmemiş tahmin varsa) kullanılır.
+
+Azaltma anahtarı satırlarındaki **Yüzde** alanının değeri, **Tahmin gereksinimlerini azaltmak için kullanılan yöntem** alanı *Hareketler: azaltma anahtarı* olarak ayarlandığında kullanılmaz. Azaltma anahtarı dönemini tanımlamak için yalnızca tarihler kullanılır.
+
+> [!NOTE]
+> Bugünün tarihinde veya öncesinde yayımlanan herhangi bir tahmin yok sayılır ve planlı siparişler oluşturmak için kullanılmaz. Örneğin, ay için talep tahmininiz 1 Ocak'ta oluşturulur ve 2 Ocak'ta talep tahminini içeren master planlamayı çalıştırırsanız hesaplama 1 Ocak tarihli talep tahmini satırını yoksayar.
 
 #### <a name="example-transactions--reduction-key"></a>Örnek: Hareketler - azaltma anahtarı
 

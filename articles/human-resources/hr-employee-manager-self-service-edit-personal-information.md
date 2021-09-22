@@ -1,8 +1,8 @@
 ---
 title: Kişisel bilgileri düzenle
-description: Bu makalede, çalışan ve yönetici self servis'deki kişisel bilgilerin nasıl düzenleneceği anlatılmaktadır.
-author: andreabichsel
-ms.date: 03/19/2020
+description: Bu makalede, Personel ve Yönetici self servisindeki kişisel bilgilerin nasıl düzenleneceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b4537601491c97c24cfa1fef5088cbf1ac276df76534034117161b0fe79dc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715909"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431474"
 ---
 # <a name="edit-personal-information"></a>Kişisel bilgileri düzenle
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kişisel bilgilerinizi **çalışan self servis çalışma alanındaki** Dynamics 365 Human Resources'ta düzenleyebilirsiniz.
+Kişisel bilgilerinizi Dynamics 365 Human Resources uygulamasındaki **Personel self servisi** çalışma alanında düzenleyebilirsiniz.
 
 Düzenleyebileceğiniz kişisel bilgiler şunları içerir:
 
@@ -40,7 +40,7 @@ Düzenleyebileceğiniz kişisel bilgiler şunları içerir:
 >[!NOTE]
 >İlgili kişi bilgileri gibi belirli türde kişisel bilgileri düzenleyemeyebilirsiniz. Daha fazla bilgi için bkz. [Kişisel bilgileri düzenlemeyi kısıtlama](hr-employee-self-service-restrict-editing.md).
 
-Genel adres defteri nde ayarlanan parametreler, kişisel bilgilerinizi görebileceğiniz rolleri belirler.
+**Genel adres defteri parametreleri** sayfasında ayarlanan parametreler, hangi rollerin kişisel bilgilerinizi görebileceğini belirler.
 
 1. İnsan Kaynakları, **çalışan Self servis**'ı seçin.
 

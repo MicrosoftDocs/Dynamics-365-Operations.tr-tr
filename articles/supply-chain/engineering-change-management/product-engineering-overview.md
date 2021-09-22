@@ -2,7 +2,7 @@
 title: Mühendislik değişikliği yönetimine genel bakış
 description: Bu konuda, ürün sürümü oluşturma ve yönetme, ürün yaşam döngüleri ve mühendislik değişikliklerini yönetmenize yardımcı olan mühendislik değişikliği yönetimine genel bir bakış sağlanmaktadır.
 author: t-benebo
-ms.date: 11/11/2020
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f2d577d9e48ced9d4c516a66e4f53671417875cbfb51bd6bdc2cb0938d83c01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: Release 10.0.21
+ms.openlocfilehash: b4fe2d62bc8084cf8c0d10b7bcb94f08cc618900
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714968"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467410"
 ---
 # <a name="engineering-change-management-overview"></a>Mühendislik değişikliği yönetimine genel bakış
 
@@ -43,9 +43,11 @@ Mühendislik değişikliği yönetimi, ürün sürümü oluşturma ve yönetme, 
 
 Önceki video ([Dynamics 365 Supply Chain Management'taki değişiklik yönetimi özellikleri](https://youtu.be/N313FqvRuBc)) YouTube'daki [Finance and Operations oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yer almaktadır.
 
-## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Sisteminiz için mühendislik değişikliği yönetimi ve sürüm boyutu özelliklerini açma
+## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Sisteminiz için mühendislik değişikliği yönetimi özelliklerini açma
 
-Mühendislik değişikliği yönetimini kullanabilmeniz için hem *Mühendislik Değişikliği Yönetimi* özelliğini hem de özelliğin yapılandırma anahtarını etkinleştirmeniz gerekir. Hareketlerdeki ürünlerin sürüm boyutunu da izlemek istiyorsanız (isteğe bağlı) *Ürün sürüm boyutu* özelliğini ve özelliğin yapılandırma anahtarını da etkinleştirmeniz gerekir.
+Mühendislik değişikliği yönetimini kullanabilmeniz için hem *Mühendislik Değişikliği Yönetimi* özelliğini hem de özelliğin yapılandırma anahtarını etkinleştirmeniz gerekir. Hareketlerdeki ürünlerin sürüm boyutunu da izlemek istiyorsanız (isteğe bağlı) hem *Ürün sürümü boyutu* özelliğini hem de özelliğin yapılandırma anahtarını etkinleştirmeniz gerekir. Bu önkoşullar gerektiği gibi ayarlandıktan sonra mühendislik değişikliği yönetiminin isteğe bağlı ek özelliklerini açabilirsiniz.
+
+### <a name="turn-on-the-basic-engineering-change-management-features"></a>Temel mühendislik değişikliği yönetimi özelliklerini açma
 
 Önce aşağıdaki adımları izleyerek özelliği etkinleştirin.
 
@@ -53,6 +55,8 @@ Mühendislik değişikliği yönetimini kullanabilmeniz için hem *Mühendislik 
 1. Güncelleştirmeleri denetleyin.
 1. *Mühendislik Değişikliği Yönetimi* adlı özelliği açın.
 1. Kullanmak istiyorsanız *Ürün boyutu sürümü* adlı özelliği de açın.
+
+### <a name="turn-on-the-required-configuration-keys"></a>Gerekli yapılandırma anahtarlarını açma
 
 Sonra, aşağıdaki adımları izleyerek yapılandırma anahtarını açın.
 
@@ -70,5 +74,18 @@ Sonra, aşağıdaki adımları izleyerek yapılandırma anahtarını açın.
 
 > [!IMPORTANT]
 > 2022 Nisan'dan itibaren, tüm yeni yüklemelerde **Mühendislik Değişim Yönetimi** ve **Ürün boyutu- Sürüm** için lisans anahtarları varsayılan olarak etkinleştirilir, ancak gerekirse bunları devre dışı bırakabilirsiniz.
+
+### <a name="turn-on-additional-engineering-change-management-features"></a>Ek mühendislik değişikliği yönetimi özelliklerini açma
+
+Mühendislik değişikliği yönetimi temel özelliklerini açtıktan ve yapılandırma anahtarlarını etkinleştirdikten sonra özellik yönetimine çeşitli ek ve isteğe bağlı mühendislik değişikliği yönetimi özellikleri eklenir. Bu özelliklerin her biri **Mühendislik değişikliği yönetimi** modülü altında listelenmiştir. Aşağıdaki tablo isteğe bağlı tüm özellikleri açıklar ve daha fazla bilgi için bağlantılar sağlar.
+
+| Özellik yönetiminde özellik adı | Tanım |
+|---|---|
+| Mevcut ürünlerde değişiklik yönetimini etkinleştirme | <p>Bu özellik, mühendislik değişikliği yönetimini kullanarak yönetmeye başlayabilmeniz için var olan ürünleri mühendislik ürünlerine dönüştürmenizi sağlar.</p><p>Daha fazla bilgi için bkz. [Mevcut ürünlerde değişiklik yönetimini etkinleştirme](change-management-existing-products.md).</p> |
+| Üretim bölümü için mühendislik bildirimleri | <p>Mühendislikte bir ürün değiştirildiğinde bu değişiklikler hakkında üretime bilgi vermek önemli olabilir. Bu şekilde, üretim çalışanları bileşen değiştirme, ürün reçetesi (BOM) değiştirme veya rota değiştirme gibi uygun önlemleri alabilir. Bu özellik, üretilmekte olan ürünlerde yapılan değişiklikler hakkında üretime bildirimde bulunmanızı sağlar.</p><p>Daha fazla bilgi için bkz. [Mühendislik ürünlerindeki değişiklikleri yönetme](engineering-change-management.md).</p> |
+| Mühendislik Değişikliği Yönetimi'nde geliştirilmiş öznitelik devralma | <p>Bu özellik, bitmiş ürünler veya ara ürünlerin özniteliklerinin yönetimini basitleştirir. Bu özellik açık duruma getirildiğinde bir maddeye ait olan tüm öznitelikleri belirlemek daha kolaydır ve o maddeden ana maddeye yayılması gereken öznitelikleri seçebilirsiniz. Bu özellik, örneğin bitmiş bir ürünün bir bileşeni kırılabilir, zehirli veya yanıcı olduğunda kullanışlıdır çünkü kırılabilir, zehirli veya yanıcı özniteliği bu sayede kolayca tanımlayabilir ve bunu bitmiş ürüne yayabilirsiniz.</p><p>Daha fazla bilgi için bkz. [Mühendislik öznitelikleri ve mühendislik özniteliği araması](engineering-attributes-and-search.md).</p> |
+| Ürün hazır olma denetimleri | <p>Bu özellik, standart (mühendislik dışı) ürünler için hazırlık denetimleri uygulamanıza olanak tanır. Ürün kullanılabilir duruma getirilmeden ve hareketlerde kullanılmadan önce her ürünün tam olarak tanımlandığından ve gerekli tüm ilkelerin yapılandırıldığından emin olmak için ürün hazırlık denetimleri kullanın. Bu özelliği bir süre kullandıktan sonra devre dışı bırakırsanız standart ürünler için var olan tüm hazırlık denetimleri silinir.</p><p>Daha fazla bilgi için bkz. [Ürün hazırlığı](product-readiness.md).</p> |
+| Formüllerdeki ve formül içeriklerindeki değişiklikleri yönet | <p>Bu özellik, formül bileşenlerinde, ortak ürünlerde ve yan ürünlerde yapılan değişiklikleri izlemenizi sağlar.</p><p>Daha fazla bilgi için bkz. [Formüllerde ve içeriklerindeki değişiklikleri yönetme](manage-formula-changes.md).</p> |
+| Mühendislik ürünleri için çeşit oluşturma | <p>Bu özellik, mühendislik ürünleri için kullanılabilir boyut değerlerine göre çeşitler oluşturmanıza olanak tanır.</p><p>Daha fazla bilgi için bkz. [Mühendislik ürünleri için çeşitler oluşturma](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

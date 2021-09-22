@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778688"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474856"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Talep tahminleri ile master planlama
 
@@ -137,32 +137,85 @@ Bu durumda, tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gere
 
 #### <a name="transactions--reduction-key"></a>Hareketler - azaltma anahtarı
 
-**Hareketler - azaltma anahtarını** seçerseniz: Tahmin gereksinimleri azaltma anahtarı tarafından tanımlanan meydana gelen hareketlere göre azaltılır.
+**Tahmin gereksinimlerini azaltmak için kullanılan yöntem** alanını *Hareketler: azaltma anahtarı* olarak ayarlarsanız azaltma anahtarı ile tanımlanan dönemlerde gerçekleşen donanımlı talep hareketleri ile tahmin gereksinimleri azaltılır.
+
+Uygun bulunan talep, **Karşılama grupları** sayfasındaki **Tahmin azaltma ölçütü** alanıyla tanımlanır. **Tahmin azaltma ölçütü** alanını *Siparişler* olarak ayarlarsanız yalnızca satış siparişi hareketleri uygun bulunan talep olarak kabul edilir. *Tüm hareketler* olarak ayarlarsanız tüm şirketlerarası olmayan çıkış stok hareketleri uygun bulunan talep olarak kabul edilir. Şirketlerarası satış siparişlerinin de uygun bulunan talep olarak değerlendirilmesi gerekiyorsa **Şirketlerarası siparişleri dahil et** seçeneğini *Evet* olarak ayarlayın.
+
+Tahmin azaltma, azaltma anahtarı dönemindeki ilk (en erken) talep tahmini kaydıyla başlar. Donanımlı stok hareketlerinin miktarı, aynı azaltma anahtarı dönemindeki talep tahmin satırlarının miktarından fazlaysa stok hareketlerinin bakiyesi önceki dönemdeki talep tahmin miktarını (tüketilmemiş tahmin varsa) azaltmak için kullanılır.
+
+Önceki azaltma anahtarı döneminde tüketilmeyen tahmin kalmamışsa bir sonraki aydaki tahmin miktarını azaltmak için stok hareketleri bakiyesi (tüketilmemiş tahmin varsa) kullanılır.
+
+Azaltma anahtarı satırlarındaki **Yüzde** alanının değeri, **Tahmin gereksinimlerini azaltmak için kullanılan yöntem** alanı *Hareketler: azaltma anahtarı* olarak ayarlandığında kullanılmaz. Azaltma anahtarı dönemini tanımlamak için yalnızca tarihler kullanılır.
+
+> [!NOTE]
+> Bugünün tarihinde veya öncesinde yayımlanan herhangi bir tahmin yok sayılır ve planlı siparişler oluşturmak için kullanılmaz. Örneğin, ay için talep tahmininiz 1 Ocak'ta oluşturulur ve 2 Ocak'ta talep tahminini içeren master planlamayı çalıştırırsanız hesaplama 1 Ocak tarihli talep tahmini satırını yoksayar.
 
 ##### <a name="example-transactions--reduction-key"></a>Örnek: Hareketler - azaltma anahtarı
 
 Bu örnek, azaltma anahtarı tarafından tanımlanan dönemler boyunca gerçekleşen fiili siparişlerin talep tahmini gereksinimlerini nasıl azalttığını gösterir.
 
-Bu örnek için **Hareketler - azaltma anahtarı**'nı **Tahmin gereksinimlerini azaltma yöntemi** alanında, **Master planlamalar** sayfasında seçin.
+[![Master planlama çalıştırılmadan önceki dönemden kalan siparişler ve tahminler.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-Aşağıdaki satış siparişleri 1 Ocak'tadır.
+Bu örnek için *Hareketler - azaltma anahtarı*'nı **Tahmin gereksinimlerini azaltma yöntemi** alanında, **Master planlamalar** sayfasında seçin.
 
-| Ay    | Gerekli parça sayısı |
-|----------|--------------------------|
-| Ocak  | 956                      |
-| Şubat | 1.176                    |
-| Mart    | 451                      |
-| Nisan    | 119                      |
+Aşağıdaki talep tahmini satırları 1 Nisan'da mevcuttur.
 
-Önceki örnekte kullanılan aylık 1.000 parçalık aynı talep tahminini kullanıyorsanız, aşağıdaki gereksinim miktarları ana planlamaya aktarılır.
+| Date     | Öngörülen parça sayısı |
+|----------|-----------------------------|
+| Nisan 5  | 100                         |
+| Nisan 12 | 100                         |
+| Nisan 19 | 100                         |
+| Nisan 26 | 100                         |
+| Mayıs 3    | 100                         |
+| Mayıs 10   | 100                         |
+| Mayıs 17   | 100                         |
 
-| Ay                | Gerekli parça sayısı |
-|----------------------|---------------------------|
-| Ocak              | 44                        |
-| Şubat             | 0                         |
-| Mart                | 549                       |
-| Nisan                | 881                       |
-| Mayıs - Aralık arası | 1,000                     |
+Nisan ayında aşağıdaki satış siparişleri vardır.
+
+| Date     | Talep edilen parça sayısı |
+|----------|----------------------------|
+| Nisan 27 | 240                        |
+
+[![Nisan siparişlerine göre oluşturulan planlı tedarik.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+Master planlama 1 Nisan'da çalıştırıldığında aşağıdaki gereksinim miktarları master plana aktarılır. Görüldüğü gibi, Nisan ayı tahmin hareketleri bu hareketlerin ilkinden başlayarak sıralı bir şekilde 240 adet talep miktarı kadar azaltılmıştır.
+
+| Date     | Gerekli parça sayısı |
+|----------|---------------------------|
+| Nisan 5  | 0                         |
+| Nisan 12 | 0                         |
+| Nisan 19 | 60                        |
+| Nisan 26 | 100                       |
+| Nisan 27 | 240                       |
+| Mayıs 3    | 100                       |
+| Mayıs 10   | 100                       |
+| Mayıs 17   | 100                       |
+
+Şimdi, Mayıs dönemi için yeni siparişlerin içeri aktarıldığını varsayalım.
+
+Mayıs ayında aşağıdaki satış siparişleri vardır.
+
+| Date   | Talep edilen parça sayısı |
+|--------|----------------------------|
+| Mayıs 4  | 80                         |
+| Mayıs 11 | 130                        |
+
+[![Nisan ve Mayıs siparişlerine göre oluşturulan planlı tedarik.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+Master planlama 1 Nisan'da çalıştırıldığında aşağıdaki gereksinim miktarları master plana aktarılır. Görüldüğü gibi, Nisan ayı tahmin hareketleri bu hareketlerin ilkinden başlayarak sıralı bir şekilde 240 adet talep miktarı kadar azaltılmıştır. Ancak Mayıs ayı tahmin hareketleri, Mayıs ayındaki ilk talep tahmin işleminden başlayarak toplam 210 adet azaltılmıştır. Ancak dönem başına toplamlar korunur (Nisan'da 400 ve Mayıs'ta 300).
+
+| Date     | Gerekli parça sayısı |
+|----------|---------------------------|
+| Nisan 5  | 0                         |
+| Nisan 12 | 0                         |
+| Nisan 19 | 60                        |
+| Nisan 26 | 100                       |
+| Nisan 27 | 240                       |
+| Mayıs 3    | 0                         |
+| Mayıs 4    | 80                        |
+| Mayıs 10   | 0                         |
+| Mayıs 11   | 130                       |
+| Mayıs 17   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Hareketler - dinamik dönem
 

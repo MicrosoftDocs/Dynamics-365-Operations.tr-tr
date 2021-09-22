@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393535"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441177"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı sağla
 
@@ -43,6 +43,11 @@ Yeni bir üretim ortamını hazırlamaya başlayabilmeniz için aşağıdaki ön
 İlk korumalı alanınızı veya üretim ortamınızı sağlamadan önce, Human Resources işlevselliğini doğrulamak için bir [Human Resources deneme ortamı](https://go.microsoft.com/fwlink/p/?LinkId=2115962) sağlamak isteyebilirsiniz. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar İnsan Kaynakları için sistem yönetimi deneyimi aracılığıyla davet edilebilir. 
 
 Deneme ortamlarının üretim ortamı olarak kullanılmaları amaçlanmamıştır. 60 günlük deneme süresi ile sınırlıdır. Deneme süresi sona erdiğinde, ortam ve ortamdaki tüm verilerin silinir ve kurtarılamaz. Ortam bir korumalı alana veya üretim ortamına dönüştürülemez. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
+
+Human Resources deneme ortamı oluştururken kiracıda ayrıca bir Power Apps deneme ortamı oluşturulur ve Human Resources ortamına bağlanır. "TestDrive" adlı Power Apps ortamı, Human Resources ortamı ile aynı deneme süresine sahiptir.
+
+> [!NOTE]
+> Kimliği doğrulanmış kullanıcının Power Apps deneme ortamları oluşturma izni yoksa Human Resources deneme ortamı hazırlanamaz. Kullanıcı, Power Platform yönetim merkezinde deneme ortamları oluşturabilen kullanıcı grubuna dahil edilmelidir. Daha fazla bilgi için bkz. [Power Platform yönetim merkezinde kimlerin ortam oluşturup yönetebileceğini denetleme](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Human Resources ortamlarını planlama
 
@@ -69,7 +74,7 @@ Ek ortamlar için dikkat edilmesi gereken hususlar:
 1. İnsan Kaynaklarına abone olmak için kullandığınız hesabı kullanarak [LCS](https://lcs.dynamics.com/Logon/Index)'de oturum açın.
 
    > [!NOTE]
-   > Sağlamanın başarılı olmasını sağlamak için, Human Resources ortamını sağlamak için kullandığınız hesap, Human Resources ortamıyla ilişkilendirilmiş Power Apps ortamındaki **Sistem Yöneticisi** veya **Sistem Özelleştirici** rolüne atanmalıdır. Power Platform'da kullanıcılara güvenlik rolleri atama hakkında daha fazla bilgi edinmek için bkz. [Kaynaklara kullanıcı güvenliği yapılandırma](/power-platform/admin/database-security).
+   > Sağlamanın başarılı olmasını sağlamak için, Human Resources ortamını sağlamak için kullandığınız hesap, Human Resources ortamıyla ilişkilendirilmiş Power Apps ortamındaki **Sistem Yöneticisi** veya **Sistem Özelleştirici** rolüne atanmalıdır. Power Platform'da kullanıcılara güvenlik rolleri atama hakkında daha fazla bilgi için bkz. [Kaynaklara kullanıcı güvenliği yapılandırma](/power-platform/admin/database-security).
 
 2. Yeni bir proje oluşturmak için artı işaretini (**+**) seçin.
 

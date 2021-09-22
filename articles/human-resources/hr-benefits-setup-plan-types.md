@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423403"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431423"
 ---
 # <a name="plan-type-overview"></a>Plan türüne genel bakış
 
@@ -28,14 +28,15 @@ ms.locfileid: "7423403"
 
 Plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır. Her plan türü, plan türüyle ilgili kuralları belirleyen bir plan türü koduna sahiptir. Örneğin, **Temel yaşam** planı türü, bir tür hayat sigortası planı olduğundan ve **Yaşam** planı türü kodu için oluşturulmuş kurallara uyması gerektiğinden, **Yaşam** planı türü koduna sahip olacaktır. Başka bir plan türü **Ek yaşam** olabilir. Bu plan türü, **Yaşam** planı türü koduna da sahip olacaktır.
 
-Her plan tipi bir çalışanın türünün veya birden fazla bir plana kayıt yapıp kaydedemeyeceğini gösterir. Örneğin, bir çalışan plan türü ömrü ile ilgili temel ömür ve ek kullanım ömrü ilkelerine kayıt yapabilir. Bir çalışanın büyük olasılıkla tıbbi tip bir ilkeye kaydetmesine izin verilir.
+Her plan tipi bir çalışanın türünün veya birden fazla bir plana kayıt yapıp kaydedemeyeceğini gösterir. Örneğin, bir çalışan plan türü ömrü ile ilgili **Temel ömür** ve **Ek kullanım ömrü** ilkelerine kayıt yapabilir. Bir çalışanın büyük olasılıkla tıbbi tip bir ilkeye kaydetmesine izin verilir.
 
-Bir plan türü ilgili kişiler içeriyorsa, plan türü ilgili kişilerin lehdar veya bağımlı olup olmadığını gösterir. Örneğin, temel bir ömür planı türü, temel bir tıbbi plan türünün bağımlıları olması halinde lehsiz olurdu. Bazı durumlarda, bir planın kişisel ilgili kişisi olmayabilir. Örneğin, esnek bir harcama hesabı veya Park kesintisi.
+Bir plan türü ilgili kişiler içeriyorsa, plan türü ilgili kişilerin lehdar veya bağımlı olup olmadığını gösterir. Örneğin, temel bir tıbbi plan türünün bağımlıları varken **Temel ömür** plan türünün lehtarları olurdu. Bazı durumlarda, bir planın kişisel ilgili kişisi olmayabilir. Örneğin, esnek bir harcama hesabı veya Park kesintisi.
 
-Plan türü, kapsam seçeneklerini tanımlayabilir. Kapsam seçenekleri **Kapsam seçeneği** sayfasında tanımlanır. Tedarik seçeneği, plan türüne uygun olan kazancın veya ilgili kişilerin tutarını belirtebilir. Örneğin, ilgili kişi türü lehdar ise, kapsam seçeneği, lehdar kullanıldığında kazancın ne kadar uygun olacağını tanımlamalıdır. İlgili kişi türü bağımlı ise, kapsam seçeneğinin bağımlı ve çalışan arasındaki ilişkiyi tanımlaması gerekir. 
+
+Plan türü, kapsam seçeneklerini tanımlayabilir. Kapsam seçenekleri **Kapsam seçenekleri** sayfasında tanımlanır. Tedarik seçeneği, plan türüne uygun olan kazancın veya ilgili kişilerin tutarını belirtebilir. Örneğin, ilgili kişi türü **Lehdar** ise kapsam seçeneği, kazanç kullanıldığında lehdarın ne kadar uygun olacağının koşullarını tanımlamalıdır. İlgili kişi türü **Bağımlı** ise kapsam seçeneğinin bağımlı ve çalışan arasındaki ilişkiyi tanımlaması gerekir. 
 
 > [!IMPORTANT]
-> Sayfa, yeni bir kazanç planı oluşturulduğunda kullanılabilen seçenekleri etkileyen temel verileri içerir:
+> **Plan türleri** sayfası, yeni bir kazanç planı oluşturulduğunda kullanılabilen seçenekleri etkileyen temel verileri içerir:
 >
 > - **Plan türü kodu**: Bu alan, gerçek yan hak ayarlandığında **Yapılandırma** sekmesinde gösterilenleri etkiler.  
 > - **Eşzamanlı kayıt**: Bu alan, birden çok kayda izin verilip verilmeyeceğini belirler. (Tıbbi bir plan için bu alan genellikle **Bir kayıt** olarak ayarlanır.)

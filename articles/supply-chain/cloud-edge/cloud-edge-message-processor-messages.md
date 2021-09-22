@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748871"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471656"
 ---
 # <a name="message-processor-messages"></a>İleti işlemci iletileri
 
@@ -44,7 +44,7 @@ Aradığınız bir iletiyi bulmak için **İleti işlemci iletileri** sayfasın�
   - *Sıraya alındı* – İleti, ileti işlemcisi tarafından işlenmeye hazır.
   - *İşlendi* – İleti, ileti işlemcisi tarafından başarıyla işlendi.
   - *İptal edildi* - İleti işlendi ancak işlem başarısız oldu.
-- **İleti içeriği** – Filtre, ileti içeriğinde tam metin araması yapar. (İleti içeriği kılavuzda görüntülenmez.) Filtre, birçok özel simgeyi ("-" gibi) boşluk olarak işler ve tüm boşluk karakterlerini Boole VEYA işleçleri olarak değerlendirir. T=Örneğin bunun anlamı, "USMF-123456" değerine eşit belirli bir `journalid` arıyorsanız sistem, "usmf" veya "123456" içeren tüm iletileri bulur (bu liste muhtemelen uzun bir liste olacaktır). Bu nedenle, daha belirgin sonuçlar almak için yalnızca "123456" girilmesi daha iyi olacaktır.
+- **İleti içeriği** – Filtre, ileti içeriğinde tam metin araması yapar. (İleti içeriği kılavuzda görüntülenmez.) Filtre, birçok özel simgeyi ("-" gibi) boşluk olarak işler ve tüm boşluk karakterlerini Boole VEYA işleçleri olarak değerlendirir. Örneğin bu, "USMF-123456" değerine eşit belirli bir `journalid` arıyorsanız sistemin, "usmf" veya "123456" içeren tüm iletileri bulacağı anlamına gelir (bu liste muhtemelen uzun bir liste olacaktır). Bu nedenle, daha belirgin sonuçlar almak için yalnızca "123456" girilmesi daha iyi olacaktır.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Örnek ileti türü: Stok ayarlaması mali güncelleştirmesi iste
 
@@ -65,7 +65,7 @@ Bir iletiyle ilgili ayrıntılı bilgileri, iletiyi ızgarada seçip ardından h
 
 ## <a name="message-processor-batch-job"></a>İleti işlemcisi toplu işlemi
 
-Bir bulut ve kenar dağıtımı çalıştırılırken, işlem için yeni bir ileti oluşturulurken *İleti işlemcisi* toplu işi otomatik olarak gönderilir, bu nedenle bu işi manuel olarak zamanlamanız gerekmez.
+Ölçek birimleriyle bir dağıtılmış karma topoloji çalıştırılırken işlem için yeni bir ileti oluşturulursa *İleti işlemcisi* toplu işi otomatik olarak gönderilir. Bu nedenle, bu işi el ile zamanlamanız gerekmez.
 
 Gerekirse, **Sistem yönetimi > İleti işlemcisi > İleti işlemcisi**'ne giderek toplu işe erişebilirsiniz.
 
