@@ -1007,10 +1007,14 @@
                 - name: Planlı bakım aralığıyla ilgili SSS
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: İzleme ve tanılama
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: İzleme ve tanılama araçları
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Ham bilgi günlüklerini sorgulamak için Azure Veri Gezgini kullanma
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Ortam hizmetlerini yeniden başlatma
               href: lifecycle-services/restart-environment-services.md
-            - name: Üretim kesintisini raporlama
+            - name: Üretim kesintisi raporlama
               href: lifecycle-services/report-production-outage.md
             - name: Kullanıcı oturum açma bilgilerini izleme
               href: lifecycle-services/user-logins.md

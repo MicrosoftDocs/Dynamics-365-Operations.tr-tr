@@ -80,8 +80,6 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (Ağustos 2021)
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (Haziran 2021)
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -1663,13 +1661,15 @@
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Gecikme toleransı (negatif günler)
                   href: master-planning/planning-optimization/delay-tolerance.md
-                - name: Satınalma talepleri
+                - name: Satın alma talepleri
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Üretim planlaması
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Sonsuz kapasiteyle planlama
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Planlama Optimizasyonu ile stok işaretleme
+                - name: Yeteneğe dayalı kaynak seçimiyle planlama
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: Planlama İyileştirmesi ile stok işaretleme
                   href: master-planning/planning-optimization/marking.md
                 - name: Şirketlerarası planlama
                   href: master-planning/planning-optimization/Intercompany-planning.md
@@ -2017,6 +2017,8 @@
                   href: procurement/request-quotations.md
                 - name: Teklif talebi oluşturma
                   href: procurement/tasks/create-request-quotation.md
+                - name: RFQ'lar için kapalı teklif
+                  href: procurement/sealed-bidding.md
                 - name: RFQ kullanan bir talep oluşturma
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: RFQ'lar için puanlama yöntemi oluşturma

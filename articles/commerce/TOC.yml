@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (Ağustos 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19 (Haziran 2021)
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Kategori fiyatlandırma kuralları kullanarak ticaret sözleşmeleri oluşturma
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Tam fiyat ve iskonto hesaplamasını erteleme
+                  href: delayed-price-calculation.md
             - name: Öneriler
               items:
                 - name: Ürün önerilerine genel bakış
@@ -1326,11 +1326,13 @@
                   href: localizations/latam-bra-nfce-cancel-return.md
                 - name: Çevrimdışı yedek modunda düzenlenen NFC-e belgelerinin ertelenen kaydı
                   href: localizations/latam-bra-nfce-contingency-mode.md
-                - name: Brezilya mali belgelerini Commerce genel merkezinde perakende ekstreleri aracılığıyla yayınlama
+                - name: Brezilya mali belgelerini Commerce Headquarters'da perakende ekstreleri aracılığıyla deftere nakletme
                   href: localizations/latam-bra-retail-statements.md
+                - name: Brezilya için Commerce POS'ta Adyen için Dynamics 365 Payment Connector
+                  href: localizations/latam-bra-adyen.md
             - name: Doğu Avrupa
               items:
-                - name: Ortak
+                - name: Genel
                   items:
                     - name: Doğru Avrupa'ya yönelik Commerce için avans faturaları
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -2436,9 +2438,9 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Temel veri eylemleri
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: Retail Server API'lerini çağırma
+                    - name: Commerce Scale Unit API'larını çağırma
                       href: e-commerce-extensibility/call-retail-server-apis.md
-                    - name: Retail Server uzantı API'lerini çağırma
+                    - name: Retail Server uzantı API'larını çağırma
                       href: e-commerce-extensibility/call-retail-extension-api.md
                 - name: Gelişmiş veri eylemi konuları
                   items:
@@ -2512,11 +2514,9 @@
               items:
                 - name: Retail SDK mimarisi
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama
+                - name: Bağımsız paketleme SDK'sı için derleme işlem hattı ayarlama
                   href: dev-itpro/build-pipeline.md
-                - name: Commerce ve Finance and Operations için derleme sistemlerini birleştirme
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
-                - name: Retail SDK'yi Visual Studio 2015'ten Visual Studio 2017'ye geçirme
+                - name: Retail SDK'yı Visual Studio 2015'ten Visual Studio 2017'ye geçirme
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Retail SDK genişletilebilirlik örnekleri
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
@@ -2624,12 +2624,10 @@
                           items:
                             - name: POS uzantılarında Knockout.js kullanma
                               href: dev-itpro/pos-extension/knockout-pos-extension.md
-                            - name: Özel gözetimsiz Commerce API'lerini kullanma
+                            - name: Özel gözetimsiz Commerce API'larını kullanma
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Hardware Station genişletilebilirliği
               items:
-                - name: Hardware Station ve genişletilebilirlik
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: POS'u yeni bir donanım cihazıyla tümleştirme
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Server genişletilebilirliği

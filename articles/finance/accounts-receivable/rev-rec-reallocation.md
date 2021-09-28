@@ -2,7 +2,7 @@
 title: Gelir kabulü yeniden tahsisatı
 description: Bu konu başlığında, kuruluşların sözleşmeden doğan satış koşulları değiştirildiğinde gelir fiyatlarını yeniden hesaplamasına olanak tanıyan yeniden tahsisat hakkında bilgi sağlanmaktadır. Birden çok senaryoda gelir kabulünün nasıl gerçekleştiğini açıklayan diğer konu başlıklarına bağlantılar içermektedir.
 author: kweekley
-ms.date: 12/21/2020
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50ae395c370947e348714ce5685123328849966f3a67903e9ddf8c27dee42f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53304842bdbe7dadb435ab3a0381f3835c2c443a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745049"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487030"
 ---
 # <a name="revenue-recognition-reallocation"></a>Gelir kabulü yeniden tahsisatı
 
@@ -34,11 +34,23 @@ Kuruluşunuz, yeniden tahsisatın gerekli olup olmadığını kendisi belirlemel
 
 Yeniden tahsisat işlemiyle ilgili birkaç önemli sınırlama vardır:
 
-- İşlem yalnızca bir kez çalıştırılabilir. Bu nedenle, yalnızca tüm değişiklikler sonuçlandıktan sonra çalıştırmanız önemlidir.
+- İşlem yalnızca bir kez çalıştırılabilir. Bu nedenle, yalnızca tüm değişiklikler tamamlandıktan sonra çalıştırmanız önemlidir.
+
+    - Bu sınırlama 10.0.17 sürümü ve sonraki sürümlerde kaldırılır.
+
 - İşlem, proje satış siparişlerinde çalıştırılamaz.
+
+    - Bu sınırlama 10.0.17 sürümü ve sonraki sürümlerde kaldırılır.
+
 - Birden çok satış siparişi söz konusuysa bu siparişler aynı müşteri hesabına ait olmalıdır.
 - Yeniden tahsis edilen tüm satış siparişleri aynı hareket para biriminde olmalıdır.
 - İşlem çalıştırıldıktan sonra tersine çevrilemez veya geri alınamaz.
+
+    - Bu sınırlama 10.0.17 sürümü ve sonraki sürümlerde kaldırılır.
+
+- Yeniden tahsisat, yalnızca satış siparişleri veya proje satış siparişleri için yapılabilir. Satış siparişi ve proje satış siparişi birleşimleri için gerçekleştirilemez.
+
+    - Bu sınırlama 10.0.17 sürümü ve sonraki sürümlerde kaldırılır.
 
 ## <a name="set-up-reallocation"></a>Yeniden tahsisatı ayarlama
 
@@ -78,9 +90,9 @@ Yeniden tahsisat işlemini başlatmak için yeniden tahsis etmeniz gereken tüm 
 
 [![Fiyatı yeni sipariş satırlarıyla yeniden tahsis et sayfası.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-**Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasının üst kılavuzu **Satış** olarak adlandırılır. Müşterinin satış siparişlerini listeler. Yeniden tahsis edilmesi gereken satış siparişlerini seçin. Proje satış siparişleri yeniden tahsis edilemediği için proje satış siparişlerini seçemezsiniz. Proje harici satış siparişleri yalnızca bir kez yeniden tahsis edilebildiği için zaten yeniden tahsisat kimliği olan satış siparişlerini de seçemezsiniz. Yeniden tahsisat kimliği olan satış siparişleri başka bir kullanıcı tarafından yeniden tahsisat için işaretlenmiştir.
+**Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasının üst kılavuzu **Satış** olarak adlandırılır. Müşterinin satış siparişlerini listeler. Yeniden tahsis edilmesi gereken satış siparişlerini seçin. Satış siparişinde yeniden tahsisat kodu varsa satış siparişi başka bir kullanıcı tarafından yeniden tahsisat için işaretlenmiştir. Bir veya daha fazla satış siparişi daha önceden yeniden tahsis edildiyse ve başka bir yeniden tahsisata dahil edilmeleri gerekiyorsa, öncelikle bu satış siparişlerindeki yeniden tahsisatının geri alınması gerekir. Sipariş daha sonra yeni bir yeniden tahsisata eklenebilir. Daha fazla bilgi edinmek için bu konunun devamında yer alan [Yeniden tahsisatı geri alma](#undo-a-reallocation) ve [Birden çok kez yeniden tahsis etme](#reallocate-multiple-times) bölümlerine bakın.
 
-Sayfadaki alt ızgara **Satırlar** olarak adlandırılır. **Satış** kılavuzunda bir veya daha fazla satış siparişi seçtikten sonra, **Satırlar** kılavuzu satış sipariş satırlarını gösterir. Yeniden tahsis edilmesi gereken satış sipariş satırlarını seçin. Yalnızca bir satış siparişi seçtiyseniz aynı satış siparişindeki satırların yeniden tahsis edilmesi gerekir. Bu durum, satış sipariş satırlarından biri daha önce faturalandığında ve sonra yeni bir satır eklendiğinde veya var olan bir satır kaldırıldığında ya da iptal edildiğinde oluşabilir. Bir satır kaldırıldıysa kılavuzda görünmez. Bu nedenle, seçilemez. Ancak, yeniden tahsisat işlemi çalıştırıldığında yine de dikkate alınır.
+Sayfadaki alt ızgara **Satırlar** olarak adlandırılır. **Satış** ızgarasında bir veya daha fazla satış siparişi seçtikten sonra **Satırlar** ızgarası satış siparişi satırlarını gösterir. Yeniden tahsis edilmesi gereken satış sipariş satırlarını seçin. Yalnızca bir satış siparişi seçtiyseniz aynı satış siparişindeki satırların yeniden tahsis edilmesi gerekir. Bu durum, satış sipariş satırlarından biri daha önce faturalandığında ve sonra yeni bir satır eklendiğinde veya var olan bir satır kaldırıldığında ya da iptal edildiğinde oluşabilir. Bir satır kaldırıldıysa kılavuzda görünmez. Bu nedenle, seçilemez. Ancak, yeniden tahsisat işlemi çalıştırıldığında yine de dikkate alınır.
 
 Gerekli satış sipariş satırlarını seçtikten sonra, burada açıklandığı gibi Eylem Bölmesindeki düğmeleri kullanın:
 
@@ -104,7 +116,27 @@ Gerekli satış sipariş satırlarını seçtikten sonra, burada açıklandığ�
 
 - **Seçilen müşteri için verileri sıfırla**: Yeniden tahsisat işlemi başlatılıp tamamlanmadıysa yalnızca seçilen müşteri için yeniden tahsisat tablosundaki verileri temizleyin. Örneğin, yeniden tahsisat için birden çok satış siparişi satırı işaretlersiniz **İşlem**'i seçmeden sayfayı açık bırakır ve sayfa zaman aşımına uğrar. Bu durumda, satış sipariş satırları işaretli olarak kalır ve başka bir kullanıcı tarafından yeniden tahsisat işlemini tamamlamak için kullanılamaz. Sayfa açıldığında boş olabilir. Bu durumda, başka bir kullanıcının yeniden tahsisat işlemini tamamlayabilmesi için **Seçilen müşteri için verileri sıfırla** düğmesi kullanılarak işlenmemiş satış siparişleri temizlenebilir.
 
-## <a name="scenarios-for-reallocation"></a>Yeniden tahsisat için senaryolar
+## <a name="undo-a-reallocation"></a>Yeniden tahsisatı geri alma
+
+Yeniden tahsisat, başka bir yeniden tahsisat işlemi çalıştırılarak geri alınır. Yeniden tahsisat tekrar gerçekleştirilir ve kullanıcı ikinci yeniden tahsisat işlemine dahil etmek üzere farklı satış siparişi satırları seçer.
+
+Yeniden tahsisat iki veya daha fazla farklı satış siparişinden gerçekleştirilmişse, yeniden tahsisata dahil edilen herhangi bir satış siparişindeki **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** öğesi seçilerek geri alınabilir. **Gelir kabulü \> Periyodik görevler \> Fiyatı yeni sipariş satırlarıyla yeniden tahsis et**'e giderek yeniden tahsisatı geri alamazsınız çünkü bu şekilde açılan bir sayfa yalnızca yeniden tahsisat kodu olmayan satış siparişlerini gösterir. Yeniden tahsisat kodu, belge yeniden tahsis edildikten sonra atanır.
+
+**Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasında, sözleşmesinin dışında tutulması gereken satış siparişlerinin işaretini kaldırın. Yeniden tahsisatı işlemek için Eylem Bölmesindeki **Tahsisatı güncelleştir** ve **İşle** gibi uygun düğmeleri kullanın. Etkin satış siparişi hariç tüm satış siparişlerinin işareti kaldırılırsa değişiklik işlendiğinde yeniden tahsisat kodu kaldırılır.
+
+Yeniden tahsisat, tam veya kısmen faturalandırılmış bir satış siparişine yeni bir satır eklenerek yapılmışsa, yeniden tahsisat yalnızca söz konusu satır satış siparişinden kaldırılıp yeniden tahsisat tekrar çalıştırılarak geri alınabilir. Satış siparişindeki tüm satırların aynı sözleşmenin parçası olduğu varsayıldığından satış siparişi satırı kaldırılmalıdır. **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasındayken bir satış siparişi satırının işaretini kaldıramazsınız.
+
+## <a name="reallocate-multiple-times"></a>Birden çok kez yeniden tahsis etme
+
+Sözleşmede birden fazla değişiklik yapılmışsa aynı satış siparişi için birden çok kez yeniden tahsisat yapılabilir. Her yeniden tahsisat, satış siparişine veya değişiklikleri bir arada gruplandırmak için satış siparişi grubuna yeniden tahsisat kodu atama işlemini tetikler. Birden fazla yeniden tahsisat yapılırsa, her ek yeniden tahsisat ilk yeniden tahsisattaki yeniden tahsisat kodunu kullanır.
+
+Örneğin, satış siparişi 00045 girilir ve birden çok satırı vardır. Satış siparişi tamamen faturalandığında, yeni bir satış siparişi satırı eklenir. Daha sonra satış siparişi 00045'ten **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfası açılarak veya **Gelir kabulü \> Periyodik görevler \>Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasına gidilerek yeniden tahsisat çalıştırılır. **Reall000001** yeniden tahsisat kodu satış siparişine atanır.
+
+Aynı sözleşme için ikinci bir satış siparişi (00052) oluşturulur. Yeniden tahsisat, satış siparişi 00045'ten (satış siparişi 00052'den değil) **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfası açılarak tekrar çalıştırılabilir. **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasını satış siparişi 00052'den açarsanız kendisine bir yeniden tahsisat kodu atanmış olduğundan satış siparişi 00045 gösterilmez. Sayfa yalnızca yeniden tahsisat kodu olmayan satış siparişlerini gösterir.
+
+İkinci yeniden tahsisatı yapmanın iki yolu vardır. Satış siparişi 00045'in yeniden tahsisatını geri alabilirsiniz. Bu durumda, yeniden tahsisat kodu kaldırılır ve yeniden tahsisatı, satış siparişi 00045 veya satış siparişi 00052'den yapabilirsiniz. Alternatif olarak, satış siparişi 00045'ten **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasını açabilir ve ikinci satış siparişini ekleyebilirsiniz. Yeniden tahsisat işlendiğinde, **Reall000001** yeniden tahsisat kodu hem satış siparişi 00045 hem de satış siparişi 00052'ye yeniden atanacaktır.
+
+## <a name="scenarios-for-reallocation"></a>Yeniden tahsisat senaryoları
 
 Aşağıdaki konu başlıklarında gelir kabulü için çeşitli senaryolar ele alınmaktadır:
 
@@ -112,6 +144,5 @@ Aşağıdaki konu başlıklarında gelir kabulü için çeşitli senaryolar ele 
 - [Gelir kabulü yeniden tahsisatı - Senaryo 2](rev-rec-reallocation-scenario-2.md): İki satış siparişi girilir ve ardından müşteri ilk satış siparişi faturalandıktan sonra sözleşmeye bir madde ekler.
 - [Gelir kabulü yeniden tahsisatı - Senaryo 3](rev-rec-reallocation-scenario-3.md): Mevcut, faturalanan bir satış siparişine yeni bir satır eklenir.
 - [Gelir kabulü yeniden tahsisatı - Senaryo 4](rev-rec-reallocation-scenario-4.md): Mevcut, kısmen faturalanan satış siparişinden bir satır kaldırılır.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

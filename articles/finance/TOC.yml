@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (Ağustos 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (Haziran 2021)
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -450,7 +448,9 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Tahsilat işlemi otomasyonu
                   href: accounts-receivable/collections-process-automate.md
-                - name: Alacak yönetimi ayarı
+                - name: Tahsilat işlemi otomasyonu için parametreleri yapılandırma
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
+                - name: Alacak yönetimi kurulumu
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Alacak yönetimi kurulum bilgileri
                   href: accounts-receivable/cm-setup-information.md
@@ -1635,8 +1635,10 @@
                 - name: KDV beyanı
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Sınır ötesi hizmetler raporu
-                  href: localizations/emea-aut-cross-border-services-report.md
-                - name: Satınalma harçları
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: Intrastat raporu
+                  href: localizations/emea-aut-intrastat.md
+                - name: Satın alma harçları
                   href: localizations/emea-aut-purchase-duties.md
             - name: Bahreyn
               items:
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM ayarlama ve yönetme
                   href: localizations/emea-bel-prodcom-report.md
+                - name: Yurtiçi satışlar için yıllık KDV kaydı
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: Brezilya
               items:
                 - name: Brezilya'ya genel bakış
@@ -2974,6 +2978,8 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Elektronik faturalar
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
+                - name: İrsaliye (Carta de Porte) eki (sürüm 1.0)
+                  href: localizations/latam-mex-carta-de-porte.md
                 - name: Elektronik genel muhasebe ekstreleri
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Meksika tüzel kişilikleri için vergi kaydı kodlarını girme
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Satıcı kayıt kodları
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Umman
-              items:
-                - name: Umman'a genel bakış
-                  href: localizations/oman.md
-                - name: Umman için KDV beyannamesi (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Hollanda
               items:
                 - name: Hollanda'ya genel bakış
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: AB satış listesi
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: Yeni Zelanda
+              items:
+                - name: Yeni Zelanda için GST beyannamesi formu GST101A (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: Norveç
               items:
                 - name: Norveç'e genel bakış
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Norveç'te elektronik müşteri faturaları
                   href: localizations/emea-nor-e-invoices.md
+            - name: Umman
+              items:
+                - name: Umman'a genel bakış
+                  href: localizations/oman.md
+                - name: Umman için KDV beyannamesi (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Polonya
               items:
                 - name: Polonya'ya genel bakış
@@ -3450,20 +3460,20 @@
                           href: localizations/emea-gbr-mtd-vat-integration.md
                         - name: HMRC'nin MTD KDV web hizmetiyle birlikte çalışması için ortamınızı hazırlama
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: HMRC'nin MTD web hizmetiyle birlikte çalışması için Finance ortamınızı yetkilendirme
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Birlikte çalışabilirliği MTD KDV korumalı alan ile test etme
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: HMRC'nin MTD web hizmetine KDV iadesi gönderme
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: MTD KDV'si için Elektronik iletileri ayarlamaya yönelik denetim listesi
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Kağıt biçiminde KDV beyannamesi oluşturma (KDV 100 raporu)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
-                        - name: Birleşik Krallık'taki KDV beyannameleri için KDV kurulum ayrıntıları
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Birlikte çalışabilirliği MTD KDV korumalı alanı ile test etme
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: HMRC'nin MTD web hizmetiyle birlikte çalışması için Finance ortamınızı yetkilendirme
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: HMRC'nin MTD web hizmetine KDV iadesi gönderme
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: HMRC'den KDV ödemeleri ve borçlar hakkındaki bilgileri alma
                           href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: Birleşik Krallık'taki KDV beyannameleri için KDV ayarı ayrıntıları
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Kağıt biçiminde KDV beyannamesi oluşturma (KDV 100 raporu)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Ödeme uygulamaları raporundaki istatistikler
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Amerika Birleşik Devletleri
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: Excel raporlarına dinamik olarak sütun eklemek için biçimleri çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: Excel'de oluşturulan belgeleri sayfalandırmak için ER biçimi tasarlama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Raporları Word biçiminde oluşturmak için yapılandırmalar tasarlama
                   items:
                     - name: Word biçiminde raporlar oluşturmak için yeni ER yapılandırması tasarlama

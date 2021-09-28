@@ -2,7 +2,7 @@
 title: Supply Chain Management giriş sayfası
 description: Bu sayfada Supply Chain Management özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ac5a8005851dc2894a0fbed74f47be6e1e14b58
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416563"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487876"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management giriş sayfası
 
@@ -62,7 +62,6 @@ Bu kısa videoda, Microsoft Dynamics 365 for Finance and Operations sürüm 8.0'
 
 Bu kısa videolarda, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3'e (Aralık 2017) eklenen yeni tedarik zinciri yönetimi özellikleri özetlenmektedir.
 
-- [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg) 
 - [En iyi duruma getirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Yapılandırmayı kopyalamak için ambar şablonu kullanma](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
