@@ -1,8 +1,8 @@
 ---
 title: Ücreti kademeleri ayarlama
 description: Ücret kılavuzları, sabit ücret planları için ödeme yapıları tanımlamak ve sağlamak için kullanılır.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRCCompGrid, HRCCompGridView, HcmCompensationWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9592c993cb1d1d392c5cd349663325d326d821521ca7042ba593d74e8f3b5d2f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732477"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483829"
 ---
 # <a name="set-up-compensation-grids"></a>Ücreti kademeleri ayarlama
 
@@ -28,68 +28,67 @@ ms.locfileid: "6732477"
 
 
 ## <a name="set-up-information-about-the-compensation-grid"></a>Ücret kılavuzuyla ilgili bilgileri ayarlama
-1. İnsan kaynakları > Ücret > Sabit ücret > Ücret kılavuzları'na gidin.
-2. Yeni'ye tıklayın.
-3. Kılavuz alanında bir değer girin.
-4. Açıklama alanına bir değer girin.
-5. Tür alanında, bir seçenek seçin.
-6. Referans ayarı alanında bir değer girin veya bir değer seçin.
-7. Para birimi alanında bir değer girin veya bir değer seçin.
-8. Para birimi alanına bir değer yazın.
-9. Yürürlük tarihi alanına bir tarih girin.
+1. **İnsan kaynakları** > **Ücret** > **Sabit ücret** > **Ücret ızgaraları**'na gidin.
+2. **Yeni**'ye tıklayın.
+3. **Izgara** alanına bir değer yazın.
+4. **Tanım** alanına bir değer girin.
+5. **Tür** alanında, bir seçenek belirtin.
+6. **Referans** ayarı alanında bir değer girin veya seçin.
+7. **Para birimi** alanında bir değer girin veya bir değer seçin.
+8. **Yürürlük tarihi** alanına bir tarih girin.
 
 ## <a name="add-levels-to-the-compensation-structure"></a>Ücret yapısına düzey ekleme
-1. Ücret yapısı'nı tıklatın.
+1. **Ücret yapısı**'na tıklayın.
 2. Listede, seçili satırı işaretleyin.
-3. Düzey alanında bir değer girin veya bir değer seçin.
-4. Yeni'yi tıklatın.
+3. **Düzey** alanında bir değer girin veya seçin.
+4. **Yeni**'ye tıklayın.
 5. Listede, seçili satırı işaretleyin.
-6. Düzey alanında bir değer girin veya bir değer seçin.
-7. Yeni'yi tıklatın.
+6. **Düzey** alanında bir değer girin veya seçin.
+7. **Yeni**'ye tıklayın.
 8. Listede, seçili satırı işaretleyin.
-9. Düzey alanında bir değer girin veya bir değer seçin.
-10. Yeni'yi tıklatın.
+9. **Düzey** alanında bir değer girin veya seçin.
+10. **Yeni**'ye tıklayın.
 11. Listede, seçili satırı işaretleyin.
-12. Düzey alanında bir değer girin veya bir değer seçin.
-13. Yeni'yi tıklatın.
+12. **Düzey** alanında bir değer girin veya seçin.
+13. **Yeni**'ye tıklayın.
 14. Listede, seçili satırı işaretleyin.
-15. Düzey alanında bir değer girin veya bir değer seçin.
+15. **Düzey** alanında bir değer girin veya seçin.
 
 ## <a name="fill-in-the-compensation-structure-with-values"></a>Ücret yapısını değerlerle doldurma
 1. Listede, seçili satırı işaretleyin.
     * Bu noktada, ücret değerleri tablodaki her bir alanda el ile girilebilir ya da Toplu değiştirme işlevi kullanılarak birden fazla alan kolayca doldurabilir ve temel hesaplamalar gerçekleştirilebilir.  
-2. Toplu değişiklik seçeneğine tıklayın.
+2. **Toplu değişiklik**'e tıklayın.
     * Bu kılavuz için, ilk önce birinci düzeyin orta noktasının değeri tablodaki tüm alanlara uygulanır. Bu, ücret matrisi için esas alınacaktır.  
-3. Ayarlama türü alanında bir seçenek belirleyin.
-4. Ayarlama tutarı alanına bir sayı girin.
+3. **Ayarlama türü** alanında bir seçenek belirleyin.
+4. **Ayarlama tutarı** alanına bir sayı girin.
 5. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
-6. Kılavuza uygula'ya tıklayın.
+6. **Kılavuza uygula**'ya tıklayın.
     * Ardından, miktarları sonraki her düzeyde belirli bir yüzde veya miktarda artırmak için toplu değiştirme işlevi kullanılır. Bu örnekte, her derecenin kendi orta noktaları arasında %12,5'luk bir fark olacaktır.  
-7. Ayarlama türü alanında bir seçenek belirleyin.
-8. Ayarlama tutarı alanına bir sayı girin.
+7. **Ayarlama türü** alanında bir seçenek belirleyin.
+8. **Ayarlama tutarı** alanına bir sayı girin.
 9. Listede, istenen kaydı bulun ve seçin.
 10. Listede, istenen kaydı bulun ve seçin.
 11. Listede, istenen kaydı bulun ve seçin.
 12. Listede, istenen kaydı bulun ve seçin.
-13. Kılavuza uygula'ya tıklayın.
+13. **Kılavuza uygula**'ya tıklayın.
 14. Listede, istenen kaydı bulun ve seçin.
 15. Listede, istenen kaydı bulun ve seçin.
 16. Listede, istenen kaydı bulun ve seçin.
-17. Kılavuza uygula'ya tıklayın.
+17. **Kılavuza uygula**'ya tıklayın.
 18. Listede, istenen kaydı bulun ve seçin.
 19. Listede, istenen kaydı bulun ve seçin.
-20. Kılavuza uygula'ya tıklayın.
+20. **Kılavuza uygula**'ya tıklayın.
 21. Listede, istenen kaydı bulun ve seçin.
 22. Kılavuza uygula'ya tıklayın.
     * Her düzey için Minimum ve Maksimum referans noktaları ayarlamak üzere toplu değiştirme işlevi kullanılır. Bu örnek %50 fark değeri kullanır, böylece Minimum referans noktası - %20 ve Maksimum referans noktası olarak +%20 olarak ayarlanır.  
-23. Ayarlama tutarı alanına bir sayı girin.
-24. Referans noktası alanında bir değer girin veya bir değer seçin.
+23. **Ayarlama tutarı** alanına bir sayı girin.
+24. **Referans noktası** alanında bir değer girin veya seçin.
 25. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
-26. Kılavuza uygula'ya tıklayın.
-27. Ayarlama tutarı alanına bir sayı girin.
-28. Referans noktası alanında bir değer girin veya bir değer seçin.
+26. **Kılavuza uygula**'ya tıklayın.
+27. **Ayarlama tutarı** alanına bir sayı girin.
+28. **Referans noktası** alanında bir değer girin veya seçin.
 29. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
-30. Kılavuza uygula'ya tıklayın.
+30. **Kılavuza uygula**'ya tıklayın.
 
 
 

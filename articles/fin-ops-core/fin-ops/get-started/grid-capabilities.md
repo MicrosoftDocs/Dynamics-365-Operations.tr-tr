@@ -2,7 +2,7 @@
 title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu özelliklere erişebilmek için yeni ızgara özelliğini etkinleştirmeniz gerekir.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775254"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483866"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
@@ -30,7 +30,7 @@ Yeni ızgara denetimi, kullanıcı üretkenliğini artırmak, verilerinizin daha
 -  Toplamların hesaplanması
 -  Sistemi önceden hazırlama
 -  Matematik ifadelerini değerlendirme 
--  Sekmeli verileri gruplandırma (**Kılavuzlar halinde gruplandırma (Önizleme)** özelliği kullanarak ayrıca etkinleştirilmiştir)
+-  Sekmeli verileri gruplandırma (**Kılavuzlar halinde gruplandırma** özelliğini kullanarak ayrıca etkinleştirilmiştir)
 -  Sütunları dondurma
 
 ## <a name="calculating-totals"></a>Toplamların hesaplanması
@@ -93,7 +93,7 @@ Verimlilik rampa olarak, kullanıcılar bir kılavuzdaki sayısal hücrelere mat
 Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eşittir işaretiyle (**=**) başlatın. Desteklenen işleçler ve söz dizimi hakkında daha fazla bilgi edinmek için bkz. [Desteklenen matematik simgeleri](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Sekmeli verileri gruplandırma
-İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu işlem Microsoft Excel'e veri aktararak ve özet tablolar kullanarak yapılırken, yeni kılavuz denetim özelliğine bağlı olan ve sürüm 10.0.16/Platform update 40 ile genel kullanıma sunulan **Kılavuzlarda gruplandırma** özelliği sayesinde kullanıcılar sekmeli verilerini Finance and Operations uygulamalarında ilginç yollarla organize edebilirler. Bu özellik **Toplamlar** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde alt toplamlar sunarak verilere anlamlı bilgiler yüklemenize olanak sağlar.
+İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu işlem Microsoft Excel'e veri aktararak ve özet tablolar kullanarak yapılırken, yeni kılavuz denetim özelliğine bağlı olan **Kılavuzlarda gruplandırma** özelliği sayesinde kullanıcılar sekmeli verilerini Finance and Operations uygulamalarında ilginç yollarla düzenleyebilir. Bu özellik **Toplamlar** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde alt toplamlar sunarak verilere anlamlı bilgiler yüklemenize olanak sağlar.
 
 Bu özelliği kullanmak için, gruplandırmada kullanmak istediğiniz sütuna sağ tıklayın ve **Bu sütuna göre gruplandır**'ı seçin. Bu eylem, verileri, seçilen sütuna göre sıralar, kılavuzun başına yeni bir **Gruplandırma ölçütü** sütunu ve her grubun başına "üst bilgi satırları" ekler. Bu üst bilgi satırları her grup hakkında aşağıdaki bilgileri sağlar: 
 -  Grubun veri değeri 
@@ -108,9 +108,6 @@ Verileri tek bir sütuna göre gruplandırdıktan sonra, istediğiniz sütunda *
 
 Dilediğiniz zaman, bir sütuna sağ tıklayıp **Grubu Çöz**'ü seçerek söz konusu sütundaki gruplandırmayı kaldırabilirsiniz. Ayrıca, **Izgara seçenekleri**'ni ve ardından **Tümünün grubunu çöz**'ü seçerek tüm sütunlardaki gruplandırmayı kaldırabilirsiniz.   
 
-Sürüm 10.0.16/Platform update 40 öncesinde yalnızca tek bir gruplandırma düzeyi destekleniyordu. Bu sürümlerde, veriler gruplandırılmışsa ve farklı bir sütun için **Bu sütuna göre gruplandır**'ı seçerseniz asıl gruplandırma değiştirilir.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Grupları genişletme ve daraltma
 Verilerin ilk gruplandırmasında tüm gruplar genişletilmiş olacaktır. Tek grupları daraltarak verilerin özetlenmiş görünümlerini oluşturabilir veya verilerde gezinmeye yardımcı olması için grup genişletme ve daraltma özelliklerini kullanabilirsiniz. Bir grubu genişletmek veya daraltmak için, ilgili grup üst bilgisi satırında çift ayraç (>) düğmesini seçin. Bireysel grupların genişletme/daraltma durumunun kişiselleştirme bölümünde **kaydedilmeyeceğini** unutmayın.
 
@@ -118,10 +115,10 @@ Verilerin ilk gruplandırmasında tüm gruplar genişletilmiş olacaktır. Tek g
 Kılavuzdaki ilk sütunun en üstündeki onay kutusunu seçerek kılavuzdaki tüm satırları seçmeniz (veya seçimini kaldırmanız) için, ilgili grup üst bilgi satırındaki onay kutusunu seçerek bir gruptaki tüm satırları hızlıca seçebilir (veya seçimini kaldırırsınız). Grup üst bilgi satırındaki onay kutusu, tüm satırlar seçili, hiçbir satır seçilmemiş veya yalnızca bazıları seçili olsa bile, bu gruptaki satırların geçerli seçim durumunu her zaman yansıtır.
 
 ### <a name="hiding-column-names"></a>Sütun adlarını gizleme
-Veriler gruplandırılırken, varsayılan davranış sütun adını grup başlık satırında göstermektir. 10.0.14/platform güncelleştirmesi 38 sürümünden başlayarak, **Kılavuz seçenekleri** > **Grup sütun adını gizle** seçeneğini belirleyerek grup üstbilgisi satırlarında sütun adını gizlemeyi seçebilirsiniz.
+Veriler gruplandırılırken, varsayılan davranış sütun adını grup başlık satırında göstermektir. **Izgara seçenekleri** > **Grup sütun adını gizle** seçeneğini belirleyerek grup üst bilgisi satırlarında sütun adını gizlemeyi seçebilirsiniz.
 
 ## <a name="freezing-columns"></a>Sütunları dondurma
-Izgaradaki bazı sütunlar, bağlam açısından görünümün dışında kalmalarını istemeyeceğiniz kadar önemli olabilir. Hatta, bu sütunlardaki değerlerin her zaman görünür olmasını istersiniz. 10.0.17 sürümünde, **Izgaradaki sütunları dondur** özelliği kullanıcılara bu esnekliği sunar. 
+Izgaradaki bazı sütunlar, bağlam açısından görünümün dışında kalmalarını istemeyeceğiniz kadar önemli olabilir. Bunun yerine, bu sütunlardaki değerlerin her zaman görünür olmasını isteyebilirsiniz. **Izgaradaki sütunları dondur** özelliği kullanıcılara bu esnekliği sağlar. 
 
 Bir sütunu dondurmak için sütunun üst bilgisine sağ tıklayın ve **Sütunu dondur**'u seçin. Bu adımı ilk kez tamamladığınızda, seçili sütun ilk sütun olur ve artık görünümden kaymaz. Dondurulan sonraki sütunlar son dondurulmuş sütunun sağına eklenir. Dondurulmuş sütunları gereken şekilde yeniden sıralamak için standart taşıma işlevini kullanabilirsiniz. Ancak, dondurulmuş sütunlar, dondurulmamış sütunlar kümesi arasında görünecek şekilde taşınamaz. Benzer şekilde, dondurulmamış sütunlar, dondurulmuş sütunlar kümesi arasında görünecek şekilde taşınamaz.
 
@@ -132,32 +129,16 @@ Yeni ızgaradaki satır seçimi ve satır durumu sütunlarının, her zaman ilk 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Yeni kılavuz denetimini ortamımda nasıl etkinleştirebilirim? 
 
-**10.0.9 / Platform güncelleştirmesi 33 ve sonrası**
+**Yeni kılavuz denetimi** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Özellik yönetiminde özelliği etkinleştirdikten sonra, sonraki tüm kullanıcı oturumları yeni ızgara denetimini kullanır. 
 
-**Yeni kılavuz denetimi** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Diğer genel Önizleme özellikleri gibi, üretim için bu özelliğin etkinleştirilmesi, [Tamamlayıcı Kullanım Koşulları Sözleşmesine](public-preview-terms.md) tabidir.  
-
-**10.0.8 / Platform güncelleştirmesi 32 ve 10.0.7 / Platform güncelleştirmesi 31**
-
-**Yeni kılavuz denetimi** özelliği, aşağıdaki adımları izleyerek ek test ve tasarım değişiklikleri sağlamak amacıyla katman 1 (geliştirme/test) ve katman 2 (korumalı alan) ortamlarında etkinleştirilebilir.
-
-1.  **Uçuşu etkinleştirin**: Aşağıdaki SQL beyanını yürütün: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. Statik deneme sürümü önbelleğini temizlemesi için **IIS'yi Sıfırla**'yın. 
-
-3.  **Özelliği bulun**: **Özellik Yönetimi** çalışma alanına gidin. **Yeni kılavuz denetimi** tüm özellikler listesinde görünmezse, **Güncelleştirmeleri denetle**'yi seçin.   
-
-4.  **Özelliği etkinleştirin**: Özellikler listesinde **Yeni kılavuz denetimi** özelliğini bulun ve Ayrıntılar bölmesindeki **Şimdi etkinleştir**'i seçin. Tarayıcı yenilemenin gerekli olduğunu unutmayın. 
-
-Sonraki tüm kullanıcı oturumları yeni ızgara denetimi etkin olarak başlayacaktır.
+Bu özellik, 10.0.21 sürümünden itibaren varsayılan olarak etkinleştirilir ve sürüm 10.0.25 ile zorunlu hale gelmesini hedeflenmiştir. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Geliştirici] Ayrı sayfalar için yeni ızgarayı kullanmayı devre dışı bırakma 
-Kuruluşunuz yeni kılavuzla ilgili bazı sorunlar içeren bir sayfayı saptadığı zaman, tek bir formun, sistemin geri kalanında yeni kılavuz denetimiyle yararlanmaya devam ederken, eski kılavuz denetimini kullanmasına izin veren bir API sürüm 10.0.13/Platform güncelleştirmesi 37'den itibaren kullanılabilir. Ayrı bir sayfayı yeni kılavuzdan geri çevirmek için forma ait `run()` yöntemine aşağıdaki `super()` çağrı gönderisini ekleyin.
+Kuruluşunuz yeni kılavuzla ilgili bazı sorunlar içeren bir sayfayı saptadığı zaman, tek bir formun, sistemin geri kalanında yeni kılavuz denetimiyle yararlanmaya devam ederken, eski kılavuz denetimini kullanmasına izin veren bir API kullanılabilir. Ayrı bir sayfayı yeni kılavuzdan geri çevirmek için forma ait `run()` yöntemine aşağıdaki `super()` çağrı gönderisini ekleyin.
 
  ```this.forceLegacyGrid();```
 
-Bu API, yeni kılavuz denetiminin zorunlu hale geleceği Ekim 2021'e kadar kabul edilecek. Herhangi bir sorun bu API'nin kullanılmasını gerektiriyorsa, bunları Microsoft'a bildirin.
+Bu API şu anda Nisan 2022 için hedeflenen yeni ızgara denetimi zorunlu olana kadar kabul edilecektir. Herhangi bir sorun bu API'nin kullanılmasını gerektiriyorsa, bunları Microsoft'a bildirin.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Daha önce ızgarayı devre dışı bıraktıktan sonra bir sayfayı yeni ızgarayı kullanmaya zorlama
 Yeni ızgaranın tek bir sayfada kullanılmamasını seçtiyseniz ilgili sorunlar çözüldükten sonra yeni ızgarayı yeniden etkileştirmek isteyebilirsiniz. Bunu yapmak üzere `forceLegacyGrid()` için çağrıyı kaldırmanız gerekir. Değişiklik, aşağıdakilerden biri gerçekleşene kadar etkili olmaz:

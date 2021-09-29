@@ -2,7 +2,7 @@
 title: Devamsızlık yöneticisi rolünü yapılandırma
 description: Bu konuda, çalışan izninin yönetimi için Devamsızlık yöneticisi rolünün nasıl ayarlanacağı açıklanmaktadır.
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732357"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485766"
 ---
 # <a name="configure-the-absence-manager-role"></a>Devamsızlık yöneticisi rolünü yapılandırma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 Bazı kuruluşlarda, çalışan yöneticileri ekiplerinin iznini yönetmeyebilir. Bunun yerine, devamsızlık yöneticisi bu işlemi birden çok departman ve takımdaki ekip üyeleri için işleyebilir. Devamsızlık yöneticileri izin yönetimi için aşağıdaki özelliklere sahiptir:
 
@@ -38,7 +36,7 @@ Bazı kuruluşlarda, çalışan yöneticileri ekiplerinin iznini yönetmeyebilir
 
 1. **Sistem yönetimi** çalışma alanında **Özellik yönetimi**'ni seçin.
 
-2. **Özellik yönetimi** sekmesinde, **(Önizleme) İzinleri devamsızlık yöneticisi yönetsin** özelliğini etkinleştirin.
+2. **Özellik yönetimi** sekmesinde, **İzinleri devamsızlık yöneticisi yönetsin** özelliğini etkinleştirin.
 
 ## <a name="define-a-custom-hierarchy"></a>Özel hiyerarşi tanımlama
 
@@ -66,7 +64,7 @@ Hiyerarşi türü tanımlandıktan sonra, pozisyon hiyerarşisi raporu pozisyona
 
 ## <a name="assign-the-absence-manager-role-to-a-user"></a>Devamsızlık yöneticisi rolünü kullanıcıya atama
 
-İzin taleplerini onaylamalarını veya reddetmelerini sağlamak için personele Devamsızlık yöneticisi rolü atanmalıdır.
+İzin isteklerini onaylamalarını veya reddetmelerini sağlamak için personele Devamsızlık yöneticisi rolü atanmalıdır.
 
 1. **Sistem yöneticisi** çalışma alanında **Bağlantılar**'ı seçin.
 
@@ -89,7 +87,7 @@ Hiyerarşi türü tanımlandıktan sonra, pozisyon hiyerarşisi raporu pozisyona
 
 ## <a name="absence-manager-workspace"></a>Devamsızlık yöneticisi çalışma alanı
 
-**Çalışan Self Servisi** çalışma alanında, **İzin yönetimi** sekmesi, İzin hiyerarşisinde devamsızlık yöneticisine atanan personelle ilgili devamsızlık bilgilerini gösterir. Devamsızlık yöneticisinin kullanabildiği birkaç seçenek vardır: 
+**Çalışan self servisi** çalışma alanında, **İzin yönetimi** sekmesi, İzin hiyerarşisinde devamsızlık yöneticisine atanan personelle ilgili devamsızlık bilgilerini gösterir. Devamsızlık yöneticisinin kullanabildiği birkaç seçenek vardır: 
  - İzin isteklerini inceleyin.</br>
  - Bir çalışan adına izin isteği gönderin.</br>
  - İzin hiyerarşisinin parçası olarak izinlere atanan tüm çalışanları görüntüleyin.</br>
@@ -99,22 +97,22 @@ Hiyerarşi türü tanımlandıktan sonra, pozisyon hiyerarşisi raporu pozisyona
  - **İzin istekleri**: Bu sekme, devamsızlık yöneticisinin onaylayabildiği tüm bekleyen izin isteklerini listeler. Devamsızlık yöneticisi aynı anda birden fazla kayıt seçebilir ve bunlar üzerinde işlem gerçekleştirebilir. Şirketler arası izin görünümü etkinse bu liste, erişimi olan tüm tüzel kişilikler genelinde bekleyen izin isteklerini gösterir. Aksi takdirde, seçili durumdaki tüzel kişilik için bekleyen izin isteklerini gösterir. </br>
  - **Tüm çalışanlar**: Bu sekme, İzin hiyerarşisinde devamsızlık yöneticisine atanan tüm çalışanları listeler. Her çalışan için kullanılabilen birkaç seçenek vardır:
     - **İzin isteme**: Seçili çalışan için yeni bir izin isteği gönderin.</br>
-    - **İzin**: Seçili personel için bakiyeleri, onaylanmış izinleri ve izin taleplerini görüntüleyin.</br>
+    - **İzin**: Seçili personel için bakiyeleri, onaylanmış izinleri ve izin isteklerini görüntüleyin.</br>
 
-## <a name="approve-time-off-requests"></a>İzin taleplerini onaylama
+## <a name="approve-time-off-requests"></a>İzin isteklerini onaylama
 
-Devamsızlık yöneticileri, personelin izin taleplerini onaylayabilir veya reddedebilir. 
+Devamsızlık yöneticileri, personelin izin isteklerini onaylayabilir veya reddedebilir. 
 
 > [!IMPORTANT]
-> Devamsızlık yöneticilerinin izin talaplerini onaylaması veya reddetmesi için izin talebi iş akışının izin talebi çalışma öğelerinin gözden geçirilmek üzere yöneticilere atanacak şekilde yapılandırılması gerekir.
+> Devamsızlık yöneticilerinin izin isteklerini onaylaması veya reddetmesi için izin isteği iş akışının izin isteği alışma öğelerinin gözden geçirilmek üzere yöneticilere atanacak şekilde yapılandırılması gerekir.
 >
-> 1. **İnsan kaynakları iş akışları** sayfasında, izin talebi iş akışını seçin veya oluşturun.
+> 1. **İnsan kaynakları iş akışları** sayfasında, izin isteği iş akışını seçin veya oluşturun.
 > 2. **Hiyerarşiyi ilişkilendir** seçeneğini belirleyin ve **Hiyerarşi adı** alanında **İzin**'i seçin.
 > 3. İş akışı tasarımcısında iş akışını güncelleştirin. **Atama türü** altında, **Hiyerarşi** seçeneğini belirleyin ve **Hiyerarşi seçimi** sekmesindeki **Yapılandırılabilir hiyerarşi**'yi seçin.
 >
-> İzin talebi iş akışını oluşturma hakkında bilgi için bkz. [İzin talebi iş akışı oluşturma](hr-leave-and-absence-workflow.md).
+> İzin isteği iş akışını oluşturma hakkında bilgi için bkz. [İzin isteği iş akışı oluşturma](hr-leave-and-absence-workflow.md).
 
-1. **Çalışan Self Servisi** çalışma alanında, **İzin yönetimi** sekmesini seçin.
+1. **Çalışan self servisi** çalışma alanında, **İzin yönetimi** sekmesini seçin.
 
 2. **İzin istekleri** sekmesinde, işlem yapmak istediğiniz izin isteklerini seçin. Bu liste görünümünde birden fazla kayıt seçebilirsiniz.
 
@@ -124,12 +122,12 @@ Alternatif olarak, kullanıcı ayrıca soldaki **İzin istekleri** kutucuğunu k
 
 ## <a name="view-time-off-in-the-calendar"></a>İzni takvimde görüntüleme
 
-Devamsızlık yöneticisi rolündeki kullanıcılar izin taleplerini takvimlerinde görüntüleyebilir. İzin takvimine erişmek için aşağıdaki adımları izleyin.
+Devamsızlık yöneticisi rolündeki kullanıcılar izin isteklerini takvimlerinde görüntüleyebilir. İzin takvimine erişmek için aşağıdaki adımları izleyin.
 
 > [!IMPORTANT]
-> Sistem yöneticisi, devamsızlık yöneticisi takvimi için görünüm seçeneklerini yapılandırmalıdır. **İzin ve devamsızlık parametreleri** sayfasında, **Takvim** sekmesinde, doğum günlerini, ayrıntı içermeyen devamsızlıkları, devamsızlıkları ve bekleyen izin taleplerini gizleme veya gösterme seçenekleri vardır. Takvim görünümü seçeneğini çalışan türüne göre filtreleme seçeneği de vardır.
+> Sistem yöneticisi, devamsızlık yöneticisi takvimi için görünüm seçeneklerini yapılandırmalıdır. **İzin ve devamsızlık parametreleri** sayfasında, **Takvim** sekmesinde, doğum günlerini, ayrıntı içermeyen devamsızlıkları, devamsızlıkları ve bekleyen izin isteklerini gizleme veya gösterme seçenekleri vardır. Takvim görünümü seçeneğini çalışan türüne göre filtreleme seçeneği de vardır.
 
-1. **Çalışan Self Servisi** çalışma alanında, **İzin yönetimi**'ni seçin ve ardından **Devamsızlık yöneticisi takvimi** seçeneğini belirleyin.
+1. **Personel self servisi** çalışma alanında, **İzin yönetimi**'ni ve ardından **Devamsızlık yöneticisi takvimi**'ni seçin.
 
 2. **Tarih** alanına istediğiniz tarihleri girin.
 

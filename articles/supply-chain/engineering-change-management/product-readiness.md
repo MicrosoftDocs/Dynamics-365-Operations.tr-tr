@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415333"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500619"
 ---
-# <a name="product-readiness"></a>Ürün hazır olma durumu
+# <a name="product-readiness"></a>Ürün hazırlığı
 
 [!include [banner](../includes/banner.md)]
 
-İşlemlerde kullanılmadan önce bir ürün için gerekli tüm ana verilerin belirtildiğinden emin olmak için hazırlık denetimlerini kullanabilirsiniz. Hazırlık denetimleri kullanıldığında, bir kullanıcı veya ekip önceden tanımlanmış belirli verileri doğrulamadan sorumlu hale getirilir. Bir ürün için açık hazırlık denetimi varsa ürün hareketlerde kullanılamaz.
+İşlemlerde kullanılmadan önce bir ürün için gerekli tüm ana verilerin belirtildiğinden emin olmaya yardımcı olmak üzere hazırlık denetimlerini kullanabilirsiniz. Hazırlık denetimleri kullanıldığında, bir kullanıcı veya ekip önceden tanımlanmış belirli verileri doğrulamadan sorumlu hale getirilir.
 
-Bir mühendislik ürünü, varyantı veya sürümü için **Etkin** onay kutusu, yalnızca gerekli tüm veriler girildikten ve doğrulandıktan sonra ve tüm hazırlık denetimleri işlendikten sonra kullanılabilir. Bu noktada; ürün, sürüm veya çeşit hareketlerde kullanılabilir. Yeni ürünler, yeni varyantlar ve yeni mühendislik sürümleri için hazırlık denetimleri oluşturabilirsiniz.
+Bir mühendislik ürünü, varyantı veya sürümü için gerekli tüm veriler girildikten ve doğrulandıktan sonra ve tüm hazırlık denetimleri işlendikten sonra **Etkin** onay kutusunu işaretleyebilirsiniz. Ürün, sürüm veya varyant için bir veya birden fazla onay işlenmediyse **Etkin** onay kutusunu işaretlemeyi denediğinizde tüm onayların tamamlanmadığına dair bir istem uyarısı alırsınız.
 
-Hazırlık denetimlerini standart (mühendislik dışı) ürünlere de uygulayabilirsiniz. Daha fazla bilgi için, bu konunun sonraki bölümlerinde yer alan [Standart ürünler üzerinde hazırlık denetimleri](#standard-products) bölümüne bakın.
+Yeni mühendislik ürünleri, varyantları ve sürümleri için hazırlık denetimleri oluşturabilirsiniz. Hazırlık denetimlerini standart (mühendislik dışı) ürünlere de uygulayabilirsiniz (ayrıca bkz. [Standart ürünler üzerinde hazırlık denetimleri](#standard-products)). 
+
+Tüm hazırlık denetimleri tamamlanmasa bile standart ürünleri hareketlerde kullanabilirsiniz. Bir ürünün hareketlerde kullanılmasını engellemeniz gerekirse yaşam döngüsü durumunu kullanın. Ürünün hareketlerde kullanılmasını engelleyen bir yaşam döngüsü durumu atayabilir ve ardından tüm hazırlık denetimleri tamamlandıktan sonra gerekli hareketlere izin veren yeni bir yaşam döngüsü durumu atayabilirsiniz.
 
 ## <a name="types-of-readiness-checks"></a>Hazırlık denetimi türleri
 
@@ -182,7 +184,7 @@ Bir mühendislik kategorisine hazırlık ilkesi atamak için aşağıdaki adıml
 
 ### <a name="enable-readiness-checks-on-standard-products"></a>Standart ürünlerde hazırlık kontrollerini etkinleştirin
 
-Sisteminizin standart ürünlerde hazırlık denetimleri yapmasını sağlamak için şu adımları izleyin.
+Sisteminizin standart ürünlerde hazırlık denetimleri yapmasını sağlamak için aşağıdaki adımları izleyin.
 
 - [Mühendislik değişikliği yönetimine genel bakış](product-engineering-overview.md) bölümünde açıklandığı gibi sisteminizde Mühendislik değişikliği yönetimini etkinleştirin.
 - *Ürün hazırlık denetimleri* adlı özelliği açmak için [Özellik yönetimini](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanın.

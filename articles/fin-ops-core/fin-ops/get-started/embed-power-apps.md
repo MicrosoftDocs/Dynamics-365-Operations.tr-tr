@@ -2,7 +2,7 @@
 title: Power Apps uygulamasından tuval uygulamalarını ekleme
 description: Bu konu ürün işlevselliğini artırmak için Microsoft Power Apps uygulamasından tuval uygulamalarının istemciye nasıl katıştırılacağını açıklar.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344541"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488066"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Power Apps uygulamasından tuval uygulamalarını ekleme
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps, geliştiricilerin ve teknik olmayan kullanıcıların mobil cihazlar, tabletler ve web için kod yazmak zorunda kalmadan özel iş uygulamaları oluşturmalarına olanak tanır. Finance and Operations uygulamaları Power Apps ile tümleştirmeyi destekler. Ürün işlevselliğini artırmak için, siz, kuruluşunuz veya daha geniş bir ekosistem tarafından geliştirilen tuval uygulamaları, Finance and Operations uygulamalarına katıştırılabilir. Örneğin, Power Apps'ten, başka bir sistemden alınan bilgilerle bir Finance and Operations uygulamasına destek olan bir tuval uygulaması oluşturabilirsiniz.
 

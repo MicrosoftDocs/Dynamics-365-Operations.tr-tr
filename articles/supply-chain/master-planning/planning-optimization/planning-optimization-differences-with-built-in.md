@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a102f1d77362f650c060ce5d0aee5b62d2102532
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 63f3bc6cb7563ee6ff719272a0795efffcb40bc8
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344966"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500209"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Yerleşik master planlama ile Planlama Optimizasyonu arasındaki farklar
 
@@ -33,6 +33,8 @@ Planlama Optimizasyonu sonuçları, yerleşik master planlama motorundan alınan
 | Plan kopyalama, plan silme ve plan sürümünü temizleme | <p>Gezinti bölmesinde **Master planlama \> Master planlama \> Planları yönet** altındaki aşağıdaki öğeler devre dışı bırakılmıştır:</p><ul><li>Plan kopyala</li><li>Planı sil</li><li>Sürüm temizleme planla</li></ul> |
 | Sipariş iadeleri | İade emirleri dikkate alınmaz. |
 | Zamanlama ile ilgili özellikler | Ayrıntılı bilgi için bkz. [Sonsuz kapasiteyle zamanlama](infinite-capacity-planning.md#limitations). |
+| Emniyet stoğu karşılama | Planlama Optimizasyonu'nda, **Madde karşılama** sayfasındaki **Minimum karşılama** alanı için her zaman *Bugünün tarihi + tedarik süresi* seçeneği kullanılır. Bu, emniyet stoku için tedarik süresi dahil edilmezse düşük eldeki stok için oluşturulan planlı siparişler sağlama süresi nedeniyle her zaman gecikeceğinden istenmeyen planlı siparişleri ve diğer sorunları önlemeye yardımcı olur. |
+| Emniyet stoku ilişkilendirme ve net gereksinimler | *Emniyet stoku* gereksinim türü dahil edilmez ve **Net gereksinimler** sayfasında görüntülenmez. Emniyet stoku, talebi temsil etmez ve kendisiyle ilişkilendirilmiş gereksinim tarihi yoktur. Bunun yerine, her zaman stokta bulunması gereken miktar ile ilgili kısıtlama ayarlar. Ancak master planlama sırasında planlı siparişleri hesaplarken **Minimum** alan değeri yine de dikkate alınır. Bu değerin dikkate alındığını görmek için **Net gereksinimler** sayfasında **Kümülatif miktar** sütununu incelemenizi öneririz. |
 | Taşıma takvimleri | **Teslimat şekilleri** sayfasındaki **Taşıma takvimi** sütunundaki değer yok sayılır. |
 
 ## <a name="additional-resources"></a>Ek kaynaklar

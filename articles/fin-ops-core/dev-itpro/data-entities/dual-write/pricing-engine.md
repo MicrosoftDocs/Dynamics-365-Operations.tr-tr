@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
-ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
+ms.openlocfilehash: 4467d313aa2518b23434ec05989eb3e87cd35dfa
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7481327"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485770"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Supply Chain Management fiyatlandırma altyapısıyla istek üzerine eşitleme
 
@@ -60,6 +60,7 @@ Sales içindeki sütunlar doldurulduğunda, aşağıdaki sınırlamalar geçerli
 + Supply Chain Management'ta bulunan masraf ve gider tahsisatının kurulumu Sales içinde çoğaltılmaz.
 + Fiyatlandırma, Supply Chain Management'ta satış siparişi satırı sayfasındaki **Perakende Kanalı** sütununda belirtilen özel perakende fiyatlandırmasını dikkate almıyor.
 + Supply Chain Management'ın **ticari kesinti Yönetimi** bölümünde tanımlanan iskontolar dikkate alınmazlar.
++ Fiyatlandırmada satış sözleşmeleri dikkate alınmaz.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

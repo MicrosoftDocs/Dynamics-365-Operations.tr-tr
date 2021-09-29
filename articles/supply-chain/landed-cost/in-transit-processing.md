@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af7ac416053a90766138f999ce69d9993ee2ff6c
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744810"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500291"
 ---
 # <a name="goods-in-transit-processing"></a>Transitteki malları işleme
 
@@ -133,7 +133,7 @@ Varış yeri maliyeti, transitteki malların işlenmesini desteklemek için mobi
 
 Bu işlemlerin yapılandırma ayarları, [satın alma siparişi alma ve yerine koyma işi oluşturma işlemleri](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work) ayarlarına benzerdir. Ancak *Transitteki mal madde teslim alma ve yerine koyma* işlemi, aşağıdaki alanı da ekler.
 
-- **Sevkiyat konteynerini etkinleştirme tamamlandı**: Bu seçenek *Evet* olarak ayarlanırsa yerine koyma işi tamamlandığında, Ambar Yönetimi mobil uygulaması **Sevkiyat konteyneri tamamlandı** olarak adlandırılan ek bir seçenek sağlar. Bu seçenek belirlendiğinde, çalışandan konteynerin tamamlandığını onaylaması istenir. Bu noktada, tüm kısa girişler bir eksik işlem olarak işlenir.
+- **Sevkiyat konteynerini etkinleştirme tamamlandı**: Bu seçenek *Evet* olarak ayarlanırsa yerine koyma işi tamamlandığında, Warehouse Management mobil uygulaması **Sevkiyat konteyneri tamamlandı** olarak adlandırılan ek bir seçenek sağlar. Bu seçenek belirlendiğinde, çalışandan konteynerin tamamlandığını onaylaması istenir. Bu noktada, tüm kısa girişler bir eksik işlem olarak işlenir.
 
 ### <a name="location-directives"></a>Konum yönergeleri
 
@@ -148,8 +148,6 @@ Bu bölümde, **Son teslim alma maliyeti** modülünün iş şablonlarına ekled
 Varış yeri maliyeti, **İş şablonları** sayfasına *Transitteki mallar* adlı yeni bir iş emri türü ekler. Bu iş emri türü, [satın alma siparişi iş şablonlarıyla](/dynamicsax-2012/appuser-itpro/create-a-work-template)aynı şekilde yapılandırılmalıdır.
 
 #### <a name="work-header-breaks"></a>İş başlığı molaları
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 *Transitteki mallar* iş emri türüne sahip iş şablonları iş başlıklarını bölecek şekilde yapılandırılabilir. **İş şablonları** sayfasında, aşağıdaki adımlardan birini izleyin:
 

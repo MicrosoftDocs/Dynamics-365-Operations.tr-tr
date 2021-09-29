@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.21 önizlemesi (Ekim 2021)
+title: Dynamics 365 Supply Chain Management 10.0.21 sürümündeki yenilikler veya değişiklikler (Ekim 2021)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.21'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391220"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500567"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21 önizlemesi (Ekim 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21 sürümündeki yenilikler veya değişiklikler (Ekim 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.21'deki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.960 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.21 sürümündeki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.960 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Ağustos 2021
 - **Sürüm genel kullanılabilirliği (kendi kendini güncelleştirme):** Eylül 2021
@@ -46,13 +45,14 @@ Dağıtım uyarıya rağmen çalışacak. Ancak Lifecycle Services'te (LCS) aşa
 
 Aşağıdaki tabloda, bu sürümde yer alan özellikler yer almaktadır. *Özellik* sütunu, her bir özellik için resmi kullanıma sunma tarihlerini görebileceğiniz [kullanıma sunma planına](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantılar sağlar. *Ek bilgi* sütunu, ilgili belgelerin diğer ayrıntılrını ve/veya bağlantılarını sağlar.
 
-Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir. Listelenen özelliklerden bazıları hala önizleme görünümünde, bazılaru genel olarak kullanılabilir durumda olabilir.
+Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
 | Özellik alanı | Özellik | Daha fazla bilgi |
 |---|---|---|
-| Stok&nbsp;ve&nbsp;lojistik | [Dynamics 365 Supply Chain Management için Genel Stok Muhasebesi Eklentisi](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Genel Stok Muhasebesi giriş sayfası](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Stok&nbsp;ve&nbsp;lojistik | [Dynamics 365 Supply Chain Management için Genel Stok Muhasebesi Eklentisi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Genel Stok Muhasebesi giriş sayfası](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Stok&nbsp;ve&nbsp;lojistik | [Mahsup hesaplarla bağlantılı kodları kullanarak eldeki stok ayarlamalarını deftere nakletme](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Stok sayımı neden kodları](../warehousing/reason-codes-for-counting-journals.md) |
 | Stok&nbsp;ve&nbsp;lojistik | [Satış teklifinin başvurulan veri dışarı aktarma ilkesi](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Teklifler tarafından başvurulan verilerdeki değişikliklerin bu tekliflerin (veya satırların) sonraki artımlı dışarı aktarma işlemine eklenmesine neden olup olmayacağını seçin. Bu tür teklifleri veya satırları eklemeyi seçmezseniz artımlı dışarı aktarma işlemleri daha hızlı çalışır.<br><br>Bu özellik, **Alacak hesapları parametreleri** sayfasına **Değişiklik izleme sırasında satış teklifi başvurulan verilerini atla** adlı bir ayar ekler. |
+| Stok&nbsp;ve&nbsp;lojistik | Kapalı teklif <!-- KFM: Add RP link when available --> | [RFQ'lar için kapalı teklif](../procurement/sealed-bidding.md) |
 | Stok&nbsp;ve&nbsp;lojistik | [GS1 biçimi standartlarını kullanarak ambarda barkodları tarama](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 barkodları ve QR kodları](../warehousing/gs1-barcodes.md) |
 | Stok&nbsp;ve&nbsp;lojistik | [Stok Görünürlüğü Eklentisi için geçici rezervasyon](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Stok Görünürlüğü rezervasyonları](../inventory/inventory-visibility-reservations.md) |
 | Stok&nbsp;ve&nbsp;lojistik | [İndirim yönetimi için kesinti ve fiili ağırlık geliştirmeleri](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Kesinti workbench'ini kullanarak kesintileri yönetme](../rebate-management/deduction-workbench.md )<br><br>[İndirimleri işleme, inceleme ve deftere nakletme](../rebate-management/process-review-post.md)<br><br>[İndirim yönetimi anlaşmaları](../rebate-management/rebate-management-deals.md) |

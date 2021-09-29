@@ -1,24 +1,26 @@
 ---
 title: Almanca İntrastat
 description: Bu konu, Almanya'daki İntrastat bildirimi hakkında bilgi içerir.
-author: andosip
-ms.date: 08/2/2021
+author: anasyash
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: e1dbf0997417f9f1ad313e6a7b3c2c9cfae41efc6b1cfda60a5500ae0af94709
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759855"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487937"
 ---
 # <a name="german-intrastat"></a>Almanca İntrastat
 
-**İntrastat** sayfası, Avrupa Birliği (AB) ülkeleri arasındaki ticaret hakkında bilgi oluşturmak ve raporlamak için kullanılır. Alman Intrastat bildirimi, raporlama için mal ticareti hakkında bilgi içerir.
+[!include [banner](../includes/banner.md)]
+
+**İntrastat** sayfası, Avrupa Birliği (AB) ülkeleri arasındaki ticaret hakkında bilgi oluşturmak ve raporlamak için kullanılır. Alman Intrastat bildirimi, raporlama için mal ticareti hakkında bilgi içerir. Rapor, [INSTAT/XML biçiminde 6.2 Dosya bildirimleri](https://www-idev.destatis.de/idev/doc/intra_en/hilfe6_2.html) sayfasında sunulan Alman yetkililerin yönergelerine göre biçimlendirilir.
 
 Aşağıdaki tabloda, Almanca İntrastat bildirimine dahil edilen alanlar gösterilmektedir.
 
@@ -71,15 +73,16 @@ Aşağıdaki tabloda, Almanca İntrastat bildirimine dahil edilen alanlar göste
     3. **Rapor biçimi eşlemesi** alanında **İntrastat raporu**'nu seçin.
     4. **Emtia kodu hiyerarşisi** hızlı sekmesinde, **Kategori hiyerarşisi** alanında **İntrastat**'ı seçin.
     5. **Hareket kodu** alanında mal transferleri için hareket kodunu seçin. Bu kodu, ücret karşılığında fiili veya planlı bir mal aktarımına neden olan hareketler ve ayrıca düzeltmeler için kullanırsınız. Düzeltmeler için de kullanırsınız.
-    6. **Alacak dekontu** alanında malların iadesi için hareket kodunu seçin. Bu kodu, hareket kodu altında kaydedilen orijinal hareketten sonra malların iadesi için kullanılırsınız.
-    7. **Yetkili** alanında, İntrastat yetkilisini seçin.
-    8. **Vergi** > **Dolaylı vergiler** > **Satış vergisi** > **Satış vergisi makamları**'na gidin ve önceki adımda seçtiğiniz İntrastat yetkilisi için aşağıdaki bilgileri girin:
+    6. **Alacak dekontu** alanında malların iadesi için hareket kodunu seçin.
+    7. **Çalışan** alanında, İntrastat raporu için ilgili kişiyi seçin. Alternatif olarak, **İlgili Kişi** sekmesinde **Ad**, **Telefon**, **Faks**, **E-posta** ve **İnternet adresi** alanlarında değer girin veya seçin. Bu alanlar rapora dahil edilir.
+    8. **Yetkili** alanında, İntrastat yetkilisini seçin.
+    9. **Vergi** > **Dolaylı vergiler** > **Satış vergisi** > **Satış vergisi makamları**'na gidin ve önceki adımda seçtiğiniz İntrastat yetkilisi için aşağıdaki bilgileri girin:
 
        - Yetki tanımlaması
        - Adres
        - İletişim bilgileri
 
-    9. **Ülke/bölge özellikleri** sekmesinde, **Ülke/bölge** alanında, şirketinizin iş yaptığı tüm ülke veya bölgeleri listeleyin. Ülke veya bölgenin İntrastat raporunuzda görüntülenmesi amacıyla her ülke veya bölge için **Ülke/bölge türü** alanında **EU** seçeneğini belirleyin.
+    10. **Ülke/bölge özellikleri** sekmesinde, **Ülke/bölge** alanında, şirketinizin iş yaptığı tüm ülke veya bölgeleri listeleyin. Ülke veya bölgenin İntrastat raporunuzda görüntülenmesi amacıyla her ülke veya bölge için **Ülke/bölge türü** alanında **EU** seçeneğini belirleyin.
 
 4. Bölge kodlarını ayarlayın.
 
@@ -112,7 +115,7 @@ Aşağıdaki tabloda, Almanca İntrastat bildirimine dahil edilen alanlar göste
 
 ### <a name="intrastat-transfer"></a>İntrastat transferi
 
-**İntrastat** sayfasındaki Eylem Bölmesi'nde satış siparişleri, serbest metin faturaları, satınalma siparişleri, satıcı faturaları, satıcı ürün makbuzları **,** proje faturaları ve transfer emirlerinden topluluk içi ticaret hakkındaki bilgileri otomatik olarak aktarmak için **Transfer Et**'i seçin. Yalnızca varış ülkesi veya bölgesi (gönderimler için) veya konsinye (gelenler için) olarak bir AB ülkesine sahip belgeler aktarılır.
+**İntrastat** sayfasındaki Eylem Bölmesi'nde satış siparişleri, serbest metin faturaları, satınalma siparişleri, satıcı faturaları, satıcı ürün makbuzları **,** proje faturaları ve transfer emirlerinden topluluk içi ticaret hakkındaki bilgileri otomatik olarak aktarmak için **Transfer Et**'i seçin. Yalnızca varış ülkesi veya bölgesi (gönderimler için) veya konsinye (gelişler için) olarak bir AB ülkesine sahip belgeler aktarılacaktır.
 
 Alternatif olarak, Eylem Bölmesi'nde **Yeni**'yi seçerek hareketleri el ile girebilirsiniz.
 

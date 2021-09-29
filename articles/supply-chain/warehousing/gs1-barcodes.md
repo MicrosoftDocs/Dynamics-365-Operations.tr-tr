@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ef28fcaf308225a78bcbac42f591e6b24b21b1b1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 8f438e18356a6c16cc75bb59153ae7353d984a5a
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384549"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500342"
 ---
 # <a name="gs1-bar-codes-and-qr-codes"></a>GS1 barkodları ve QR kodları
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Ambar çalışanlarının genellikle bir madde, palet veya konteynerin hareketlerini kaydetmek için mobil cihaz tarayıcısı kullanırken birkaç görevi tamamlaması gerekir. Bu görevler, mobil cihazda barkodları taramayı ve bilgileri el ile girmeyi içerebilir. Barkodlarda, Microsoft Dynamics 365 Supply Chain Management ile tanımlayıp yönettiğiniz şirkete özel bir biçim kullanılır.
 
@@ -44,7 +43,7 @@ Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yön
 
 **Ambar yönetimi parametreleri** sayfasında, genel GS1 seçeneklerini oluşturan birkaç ayar sağlanır.
 
-Genel GS1 seçeneklerini ayarlamak için şu adımları izleyin.
+Genel GS1 seçeneklerini ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri**'ne gidin.
 1. **Barkodlar** hızlı sekmesinde, aşağıdaki alanları ayarlayın:
@@ -72,7 +71,7 @@ Lojistik yöneticileri, standart uluslararası uygulama tanımlayıcılarını k
 
 Hızlı bir şekilde başlamak için yaygın uluslararası uygulama tanımlayıcılarının listesini yükleyebilirsiniz. Daha sonra gerektiği gibi listeyi genişletebilir veya düzenleyebilirsiniz.
 
-Standart uygulama tanımlayıcılarını yüklemek için şu adımları izleyin.
+Standart uygulama tanımlayıcılarını yüklemek için aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi \> Kurulum \> GS1 \> GS1 uygulama tanımlayıcıları**'na gidin.
 1. Eylem Bölmesinde **Varsayılan ayar oluştur**'u seçin.
@@ -84,7 +83,7 @@ Standart uygulama tanımlayıcılarını yüklemek için şu adımları izleyin.
 
 Şirketinizin kullandığı bazı veya tüm uygulama tanımlayıcıları, standart kümeden farklıysa sıfırdan kendi kodlarınızı oluşturabilir veya standart kümeyi gerektiği şekilde özelleştirebilirsiniz.
 
-Kendi GS1 uygulama tanımlayıcılarınızı ayarlamak ve özelleştirmek için şu adımları izleyin.
+Kendi GS1 uygulama tanımlayıcılarınızı ayarlamak ve özelleştirmek için aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi \> Kurulum \> GS1 \> GS1 uygulama tanımlayıcıları**'na gidin.
 1. Şu adımlardan birini izleyin:
@@ -123,7 +122,7 @@ Genel GS1 kurulumunu oluşturmak için **Ambar yönetimi \> Kurulum \> GS1 \> GS
 
 ### <a name="customize-the-standard-generic-gs1-setup"></a>Standart genel GS1 kurulumunu özelleştirme
 
-Genel GS1 kurulumunu özelleştirmek için şu adımları izleyin.
+Genel GS1 kurulumunu özelleştirmek için aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi \> Kurulum \> GS1 \> GS1 genel kurulumu**'na gidin.
 1. Şu adımlardan birini izleyin:
@@ -146,7 +145,7 @@ Menü öğesine GS1 ilkesi atanmadıysa sistem yalnızca tek bir değer yakalaya
 
 Hızlı bir şekilde başlamak için bir dizi GS1 ilkesi yükleyebilirsiniz. Daha sonra gerektiği gibi ilkeleri genişletebilir veya düzenleyebilirsiniz.
 
-Standart uygulama tanımlayıcılarını yüklemek için şu adımları izleyin.
+Standart uygulama tanımlayıcılarını yüklemek için aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi \> Kurulum \> GS1 \> GS1 ilkesi**'ne gidin.
 1. Eylem Bölmesinde **Varsayılan ayar oluştur**'u seçin.
@@ -156,7 +155,7 @@ Standart uygulama tanımlayıcılarını yüklemek için şu adımları izleyin.
 
 ### <a name="set-up-custom-specific-gs1-policies"></a>Özel belirli GS1 ilkelerini ayarlama
 
-GS1 ilkelerinizi ayarlamak ve özelleştirmek için şu adımları izleyin.
+GS1 ilkelerinizi ayarlamak ve özelleştirmek için aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi \> Kurulum \> GS1 \> GS1 ilkesi**'ne gidin.
 1. Şu adımlardan birini izleyin:

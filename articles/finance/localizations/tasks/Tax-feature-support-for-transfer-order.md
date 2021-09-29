@@ -1,8 +1,8 @@
 ---
 title: Transfer emirleri için vergi özelliği desteği
 description: Bu konu, vergi hesaplama servisi kullanılarak transfer emirleri için yeni vergi özelliği desteğini açıklamaktadır.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1c47c327841b8c712220e440e2aa6b4fe2b31b4a1ccd03dc0a200dbeb7394071
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721701"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500088"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Transfer emirleri için vergi özelliği desteği
 
@@ -53,7 +53,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
         4. **Ücret** sekmesinde **Ekle**'yi seçin.
         5. **Genel** bölümünde **Muaf**'ı **Evet** olarak değiştirin.
 
-        ![NL-Vergi muafiyet kodu.](../media/tax-feature-support-02.png)
+           ![NL-Vergi muafiyet kodu.](../media/tax-feature-support-02.png)
 
     - Belçika ambarında bir transfer emri alındığında, karşı ödeme mekanizması **BE-RC-21** ve **BE-RC+21** Vergi kodları kullanılarak uygulanır.
         
@@ -66,7 +66,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
         6. **Genel** bölümünde **Karşı Ödeme**'yi **Evet** olarak değiştirin.
         7. **Kaydet**'i seçin.
 
-        ![Ters giderler için BE-RC-21 vergi kodu.](../media/tax-feature-support-03.png)
+           ![Ters giderler için BE-RC-21 vergi kodu.](../media/tax-feature-support-03.png)
         
         Vergi kodu **BE-RC+21**'i oluşturun.
         1. **Ekle**'yi seçin, **Vergi kodu** alanına **BE-RC-21** yazın.
@@ -76,7 +76,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
         5. **Vergi oranı** alanına **21** girin.
         6. **Kaydet**'i seçin.
 
-        ![Ters giderler için BE-RC+21 vergi kodu.](../media/tax-feature-support-04.png)
+           ![Ters giderler için BE-RC+21 vergi kodu.](../media/tax-feature-support-04.png)
 
 3. Vergi kodlarının uygulanabilirliğini tanımlayın.
 
@@ -97,6 +97,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
         7. **Vergi grubu** alanına ve **Madde vergi grubu** kısmına, Finance sisteminizde tanımlanan ilgili satış vergisi grubunu ve madde satış vergisi grubunu girin.
         
         Transfer emri girişi için başka bir kural ekleyin.
+        
         1. **Uygulanabilirlik kuralları** sekmesinde **Ekle**'yi seçin.
         2. **İş süreci** alanında, kuralı transfer emri için uygulanabilir hale getirmek üzere **Stok**'u seçin.
         3. **Sevkiyatın yapıldığı ülke/bölge** alanına **NLD**'yi girin.
@@ -105,7 +106,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
         6. **Vergi kodları** alanında **BE-RC+21** ve **BE-RC-21**'i seçin.
         7. **Vergi grubu** alanına ve **Madde vergi grubu** kısmına, Finance sisteminizde tanımlanan ilgili satış vergisi grubunu ve madde satış vergisi grubunu girin.
 
-        ![Uygulanabilirlik kuralları.](../media/image5.png)
+           ![Uygulanabilirlik kuralları.](../media/image5.png)
 
 4. Yeni vergi özelliği sürümünü tamamlayın ve yayımlayın.
 
@@ -115,7 +116,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
 
 Transfer emirleri için vergileri etkinleştirmek ve ayarlamak için bu adımları izleyin.
 
-1. Finance'te **Çalışma alanları** \> **Özellik yönetimi**'ne gidin.
+1. Finance'te, **Çalışma alanları** > **Özellik yönetimi**'ne gidin.
 2. Listede, **transfer emrinde vergi** özelliğindeki vergiyi bulun ve seçin ve açmak için **şimdi etkinleştir**'i seçin.
 
     > [!IMPORTANT]
@@ -128,10 +129,10 @@ Transfer emirleri için vergileri etkinleştirmek ve ayarlamak için bu adımlar
     > [!IMPORTANT]
     > Bu adımı, vergi servisinin ve transfer emirlerinde vergi işlevinin kullanılabilir olmasını istediğiniz her tüzel kişilik için tamamlamalısınız.
 
-    1. **Vergi** \> **Ayarlama** \> **Vergi yapılandırması** \> **Vergi servis ayarı**'na gidin.
+    1. **Vergi** > **Ayarlama** > **Vergi yapılandırması** > **Vergi servis ayarı**'na gidin.
     2. **İş süreci** alanında **stok**'u seçin.
 
-    ![İş süreci alanını ayarlama.](../media/image8.png)
+      ![İş süreci alanını ayarlama.](../media/image8.png)
 
 4. Karşı ödeme mekanizmasının ayarlandığını doğrulayın. **Genel Kayıt defteri** \> **Ayarlama** \> **Parametreler**'e gidin ve **Karşı ödeme** sekmesinde **Karşı ödemeyi etkinleştir** seçeneğinin **Evet** olarak ayarlandığını doğrulayın.
 
@@ -140,10 +141,10 @@ Transfer emirleri için vergileri etkinleştirmek ve ayarlamak için bu adımlar
 5. İlgili vergi kodlarının, vergi gruplarının, madde vergi gruplarının ve KDV kayıt numaralarının vergi servis kılavuzuna göre Finance'te ayarlandığını doğrulayın.
 6. Bir geçiş transit hesabı ayarlayın. Bu adım yalnızca bir transfer emrine uygulanan vergi, vergi muafiyet veya karşı ödeme mekanizması için geçerli olmadığı durumlarda gereklidir.
 
-    1. **Vergi** \> **Ayarlama** \> **Satış vergisi** \> **Genel muhasebe deftere nakil grupları**'na gidin.
+    1. **Vergi** > **Kurulum** > **Satış vergisi** \ **Genel muhasebe deftere nakil grupları**'na gidin.
     2. **Ara geçiş** alanında bir kayıt defteri hesabı seçin.
 
-    ![Bir geçiş transit hesabı seçme.](../media/image10.png)
+       ![Bir geçiş transit hesabı seçme.](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>Transfer emri işlemleri için temel envanteri ayarlama
 
@@ -151,7 +152,7 @@ Transfer emri işlemlerini etkinleştirmek üzere temel envanteri ayarlamak içi
 
 1. Farklı ülkelerde veya bölgelerde ambarlarınız için sevk çıkış yeri ve sevk gidiş yeri siteleri oluşturun ve her tesis için birincil adresi ekleyin.
 
-    1. **Ambar yönetimi** \> **Kurulum** \> **Ambar** \> **Tesisler** öğesine gidin.
+    1. **Ambar yönetimi** > **Kurulum** > **Ambar** > **Tesisler**'e gidin.
     2. Bir ambara daha sonra atayacağınız tesisi oluşturmak için **yeni**'yi seçin.
     3. Oluşturmanız gereken tüm diğer tesisler için 2. adımı yineleyin.
 
@@ -162,11 +163,11 @@ Transfer emri işlemlerini etkinleştirmek üzere temel envanteri ayarlamak içi
 
 2. Sevkiyat çıkış yeri, transit ve sevkiyat varış yeri ambarları oluşturun. Bir ambarda tutulan tüm adres bilgileri, vergi hesaplaması sırasında tesis adresini geçersiz kılar.
 
-    1. **Ambar yönetimi** \> **Ayarlama** \> **Ambar** \> **Ambarlar**'a gidin.
+    1. **Ambar yönetimi** > **Ayarlama** > **Ambar** > **Ambarlar**'a gidin.
     2. Bir ambar oluşturmak için **Yeni**'yi seçin ve ilgili tesise atayın.
     3. Gerektiğinde her tesis için bir ambar oluşturmak üzere 2. adımı yineleyin.
 
-    ![Ambar ayarlama.](../media/image12.png)
+       ![Ambar ayarlama.](../media/image12.png)
 
     > [!NOTE]
     > Sevkiyat çıkış yeri ambarı için, Transfer emri işlemleri için **transit ambarı** alanında bir transit ambarı seçilmelidir.
@@ -175,7 +176,7 @@ Transfer emri işlemlerini etkinleştirmek üzere temel envanteri ayarlamak içi
 
 3. Transfer emri işlemleri için envanter deftere nakil yapılandırmasını ayarlayın.
 
-    1. **Stok Yönetimi** \> **Ayarlama** \> **Deftere nakil** \> **Deftere nakil** sayfasına gidin.
+    1. **Stok yönetimi** > **Ayarlama** > **Deftere nakil** > **Deftere nakil**'e gidin.
     2. **Stok** sekmesinde, bir kayıt defteri hesabının hem **stok sorunu** hem de **stok girişi** deftere nakli için ayarlandığını doğrulayın.
 
         ![Stok sorunu ve stok girişi deftere naklini ayarlama.](../media/image14.png)
@@ -187,3 +188,6 @@ Transfer emri işlemlerini etkinleştirmek üzere temel envanteri ayarlamak içi
     4. Kayıt defteri hesabının, **birimler arası alacak** deftere nakil için ayarlandığını doğrulayın.
 
         ![Birimler arası alacak deftere nakli ayarlama.](../media/image16.png)
+        
+        
+  [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: TaxTrans'ta hatalı alan değeri
 description: Bu konu, TaxTrans'taki hatalı alan değerleriyle ilgili sorunları giderme hakkında bilgi sağlar.
-author: bijian
+author: EricWangChen
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c1c034c6037d2e8920d9744903debebb2dc537f2644093d5e1eef66f2681191
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 00424d98d5ff99123edf42ee19919d149e7a6abc
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746356"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488299"
 ---
 # <a name="incorrect-field-value-in-taxtrans"></a>TaxTrans'ta hatalı alan değeri
 

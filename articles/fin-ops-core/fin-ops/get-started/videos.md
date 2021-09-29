@@ -2,7 +2,7 @@
 title: Videolar
 description: Bu sayfa Finance and Operations uygulamaları için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşmalar videolarını listeler.
 author: sericks007
-ms.date: 04/12/2021
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 1fa07f8a021bb5b4138b833ce8a7ff68c6f06d2f9eae560f776b220195213658
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777350"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488003"
 ---
 # <a name="videos"></a>Videolar 
 
@@ -32,9 +32,8 @@ ms.locfileid: "6777350"
 
 ## <a name="videos-for-finance-and-operations-development-and-administration"></a>Finance and Operations geliştirme ve yönetim ile ilgili videolar
 
-### <a name="data-integration"></a>Veri tümleştirme
+### <a name="data-integration"></a>Veri bütünleştirmesi
 
-- [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg)
 - [İş emrini Dynamics 365 for Field Service ile Finance and Operations uygulamaları arasında eşitleme](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Veri yönetimi

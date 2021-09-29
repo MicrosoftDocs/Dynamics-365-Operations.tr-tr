@@ -1,27 +1,39 @@
 ---
 title: Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni ve değiştirilmiş özellikleri listeler.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386111"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485634"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20100"></a>Sürüm 2.0.10.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- Listeler ve sayfalar üzerinden çekme animasyonu eklendi.
+- Bağlantı hata sayfasında metin artık doğru kaydırılmaktadır.
+- Varsayılan değerleri olmayan birleşik kutular artık doğru şekilde görüntülenmektedir.
+- Alt başlık alanındaki bilgiler artık yalnızca tam ayrıntılar sayfasında gösterilmektedir.
+- Boş giriş alanları artık ayrıntılar kartında gösterilmemektedir.
+- Onay değerleri artık ayrıntılar kartında yinelenmemektedir.
+- Sistemin yanıt vermemesine neden olan çeşitli sorunlar giderildi.
 
 ## <a name="version-2090"></a>Sürüm 2.0.9.0
 

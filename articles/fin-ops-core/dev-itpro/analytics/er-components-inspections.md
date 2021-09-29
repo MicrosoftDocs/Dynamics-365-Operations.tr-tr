@@ -2,7 +2,7 @@
 title: Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 description: Bu konuda, oluşabilecek çalışma zamanı sorunlarını önlemek için yapılandırılmış elektronik raporlama (ER) bileşenlerinin nasıl denetleneceği açıklamaktadır.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718635"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488126"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 
@@ -229,6 +229,12 @@ Aşağıdaki tabloda, ER tarafından sağlanan denetlemeler hakkında genel bilg
 <p>Üst bilgiler/alt bilgiler( &lt;bileşen türü: üst bilgi veya alt bilgi&gt;) tutarsız</p>
 <p><b>Çalışma Zamanı:</b>Yapılandırılan ER biçiminin taslak sürümü yürütülürse, son yapılandırılan bileşen çalışma zamanında kullanılır.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Sayfa bileşeninin tutarsız ayarı</a></td>
+<td>Veri bütünlüğü</td>
+<td>Hata</td>
+<td>Çoğaltma olmaksızın ikiden fazla aralık bileşeni var. Lütfen gereksiz bileşenleri kaldırın.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Tutarsız **Excel\\Üst bilgi** veya **Excel\\Alt bilgi** bileşenlerinden birin
 #### <a name="option-2"></a>Seçenek 2
 
 Tutarsız **Excel\\üst bilgi** veya **Excel\\Alt bilgi** bileşenlerinden birinin **üst bilgi/alt bilgi görünümü** özelliğinin değerini değiştirin.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Sayfa bileşeninin tutarsız ayarı
+
+Giden belgesi oluşturmak için bir Excel şablonu kullanmak üzere ER biçim bileşeni [yapılandırdığınızda](er-fillable-excel.md) ER formüllerini kullanarak oluşturulan bir belgeyi sayfalandırmak için **Excel\\Sayfa** bileşeni ekleyebilirsiniz. Eklediğiniz her **Excel\\Sayfa** bileşeni için birçok iç içe [Aralık](er-fillable-excel.md#range-component) bileşeni ekleyebilir ve yine de aşağıdaki [yapı](er-fillable-excel.md#page-component-structure) ile uyumlu kalabilirsiniz:
+
+- İlk iç içe **Aralık** bileşeni, **Yineleme yönü** özelliği **Yineleme yok** olarak ayarlanacak şekilde yapılandırılabilir. Bu aralık, oluşturulan belgelerde sayfa üst bilgileri oluşturmak için kullanılır.
+- **Yineleme yönü** özelliğinin **Dikey** olarak ayarlandığı durumda diğer birçok iç içe **Aralık** bileşenini ekleyebilirsiniz. Bu aralıklar, oluşturulan belgeleri doldurmak için kullanılır.
+- Son iç içe **Aralık** bileşeni, **Yineleme yönü** özelliği **Yineleme yok** olarak ayarlanacak şekilde yapılandırılabilir. Bu aralık, oluşturulan belgelerde sayfa alt bilgileri oluşturmak ve gerekli sayfa sonlarını eklemek için kullanılır.
+
+Bu yapıyı tasarım zamanında ER biçim tasarımcısında ER biçimi için izlemezseniz doğrulama hatası oluşur ve şu hata iletisini alırsınız: "Çoğaltma olmaksızın ikiden fazla aralık bileşeni var. Lütfen gereksiz bileşenleri kaldırın."
+
+### <a name="automatic-resolution"></a>Otomatik çözüm
+
+Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
+
+### <a name="manual-resolution"></a>El ile çözüm
+
+#### <a name="option-1"></a>Seçenek 1
+
+Tüm tutarsız **Excel\\Aralık** bileşenleri için **Yineleme yönü** özelliğini değiştirerek yapılandırılmış biçimi değiştirin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

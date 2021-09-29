@@ -2,7 +2,7 @@
 title: Planlama Optimizasyonu yayımlama işlemi ve sürüm geçmişi
 description: Bu konuda, Planlama Optimizasyonu için yayımlama işlemi ve sürüm geçmişi hakkında bilgi verilmektedir.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d0f7a9f59d1034451c5c2dec1150c017bda27ad4
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 1bf08fc75aa2c05b2f2974ee46ec16609505f696
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474712"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506795"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planlama Optimizasyonu yayımlama işlemi ve sürüm geçmişi
 
@@ -33,6 +33,7 @@ Planlama Optimizasyonu, ortamınızda güncelleştirildiğinde herhangi bir bild
 
 | Değişiklikler | Özellik yönetimi ayrıntıları | Yayın tarihleri |
 |---|---|---|
+| <p>**Planlama yöntemi** *İşlemleri planlama* olarak ayarlanan master planlar için destek eklendi.</p><p>**Rota grupları** sayfasında, *Kurulum* veya *İşlem* için **Rota/iş türü** bulunan satırlarda **Etkinleştirme**, **Çalışma zamanı** ve **Kapasite** onay kutularının ayarlarını dikkate alın. </p><p>Genel performans, kalite ve kararlılık iyileştirmeleri. | <p>İşlemleri planlama, 10.0.20 sürümünden itibaren özellik yönetiminde kullanılabilir.</p><p>Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması*</p>  | 9 - 17 Eylül 2021 |
 | Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik yönetimi gerekmez. | 25 - 30 Ağustos 2021 |
 | <p>**Sağlama süresi** alanı planlı siparişlere eklendi.</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri.</p> | Özellik yönetimi gerekmez. | 12 - 17 Ağustos 2021 |
 | <p>Sonsuz kapasite planlaması için kaynak türü gereksinimleri eklendi.</p><p>Sonsuz kapasite planlaması için kaynak verimliliği ve takvim verimliliği iyileştirildi.</p><p>Daha fazla bilgi için bkz. [Sonsuz kapasiteyle zamanlama](infinite-capacity-planning.md). | <p>10.0.20 sürümünden itibaren özellik yönetiminde kullanılabilir.</p><p>Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması*</p> | 6 - 12 Temmuz 2021 |

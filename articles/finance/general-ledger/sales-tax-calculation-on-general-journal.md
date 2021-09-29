@@ -1,7 +1,7 @@
 ---
 title: Yevmiye defteri satırlarında satış vergisi hesaplaması
 description: Bu konu, yevmiye defteri satırlarında farklı hesap türleri (satıcı, müşteri, genel muhasebe ve proje) için satış vergilerinin nasıl hesaplandığını açıklamaktadır.
-author: EricWang
+author: EricWangChen
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: EricWang
+ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 96a87e5de3fb247e4554a64ecff3a4c63477b6a70f7a969b80f538601cda08bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746380"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488323"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Yevmiye defteri satırlarında satış vergisi hesaplaması
 [!include [banner](../includes/banner.md)]
@@ -99,7 +99,7 @@ Aşağıdaki şekilde, bir fişte yalnızca hesap türü **Genel Muhasebe** olan
 
 •   Satış vergisi kodu vergiden muaf ise, satış vergisi yönü Vergiden Muaf Satınalma'dır.
 
-Aksi takdirde, günlük tutarı borç (pozitif) ise satış vergisi yönü Satış Vergisi Alacağı; günlük tutarı alacak (negatif) ise, satış vergisi yönü Satış Vergisi Borcu olur.
+Aksi takdirde, günlük tutarı borç (pozitif) ise satış vergisi yönü Satış Vergisi Alacağı; günlük tutarı alacak (negatif) ise satış vergisi yönü Satış Vergisi Borcu olur.
 
 Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
 

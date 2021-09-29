@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441177"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488095"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı sağla
 
@@ -41,6 +41,8 @@ Yeni bir üretim ortamını hazırlamaya başlayabilmeniz için aşağıdaki ön
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources deneme ortamı sağlama
 
 İlk korumalı alanınızı veya üretim ortamınızı sağlamadan önce, Human Resources işlevselliğini doğrulamak için bir [Human Resources deneme ortamı](https://go.microsoft.com/fwlink/p/?LinkId=2115962) sağlamak isteyebilirsiniz. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar İnsan Kaynakları için sistem yönetimi deneyimi aracılığıyla davet edilebilir. 
+
+Deneme ortamları, bir İnsan Kaynakları ortamına erişimi olmayan kişiler için insan kaynakları işlevini değerlendirme olanağı sağlar. Deneme ortamı sağlıyorsanız ve kimliği doğrulanmış kullanıcının mevcut bir veya daha fazla İnsan Kaynakları ortamına erişimi zaten varsa Kullanıcı mevcut ortama ya da ortam listesine yeniden yönlendirilir.
 
 Deneme ortamlarının üretim ortamı olarak kullanılmaları amaçlanmamıştır. 60 günlük deneme süresi ile sınırlıdır. Deneme süresi sona erdiğinde, ortam ve ortamdaki tüm verilerin silinir ve kurtarılamaz. Ortam bir korumalı alana veya üretim ortamına dönüştürülemez. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
 
@@ -135,7 +137,12 @@ Human Resources veri kullanımını, Power Apps araçlarını kullanarak tümle�
    
     - **Desteklenmeyen coğrafyalar** - Ortam, desteklenen bir coğrafyada olmalıdır. Daha fazla bilgi için bkz. [Desteklenen coğrafyalar](hr-admin-setup-provision.md#supported-geographies).
 
-6. Kullanılacak doğru ortamı belirledikten sonra, sağlama işlemine devam edebilirsiniz. 
+6. Ortam için **Dynamics 365 uygulamalarını etkinleştir** seçeneği belirlenirse İnsan Kaynakları verilerini Power Apps ortamı ile tümleştirmek üzere yalnızca çift yazma özellikleri kullanılabilir. Çift yazma hakkında daha fazla bilgi için bkz. [Çift yazma giriş sayfası](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
+
+    > [!NOTE]
+    > Power Apps ortamı oluşturulduğunda **Dynamics 365 uygulamalarını etkinleştir** seçeneği belirlenmelidir. Sağlama sırasında bu seçenek belirlenmezse verileri Dynamics 365 Human Resources ile Power Apps ortamı arasında tümleştirmek veya ortamda Dynamics 365 Sales ve Field Service gibi Dynamics 365 uygulamalarını yüklemek için Çift yazmayı kullanamazsınız. Bu seçenek geri alınamaz. Daha fazla bilgi için Power Platform belge sitesinde [Yeni bir ortam oluştururken dikkate alınması gereken bazı önemli noktalar](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) bölümüne bakın.
+
+7. Kullanılacak doğru ortamı belirledikten sonra, sağlama işlemine devam edebilirsiniz. 
 
 ### <a name="supported-geographies"></a>Desteklenen coğrafyalar
 

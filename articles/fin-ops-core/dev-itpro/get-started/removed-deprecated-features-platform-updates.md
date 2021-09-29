@@ -2,7 +2,7 @@
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463647"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500121"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -38,7 +38,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | LCS'de bazı SQL raporlarını kullanımdan kaldırıyoruz. Bu özelliğin yerini başka hizmetler aldığı için artık raporları izlemeniz gerekmez. |
+| **Kullanımı sonlandırma/kaldırma nedeni** |   Tüm etkinlikler ve izleme; dahili olarak, platform tarafından ve otomasyon üzerinden gerçekleştirilir. Bu işlem için el ile müdahale gerekmez.|
 | **Başka bir özellikle mi değiştirildi?**   | No |
 | **Etkilenen ürün alanları**         | SQL raporları: Geçerli DTU, Geçerli DTU Ayrıntıları, Kilit Ayrıntılarını Al, Geçerli Plan Kılavuzunun Listesi, Sorgu Kimliklerinin Listesini Al, Belirli bir Plan Kimliği için SQL sorgu planını al, Sorgu planlarını ve yürütme durumunu al, Azaltma yapılandırmasını al, Bekleme istatistiklerini al, En pahalı sorguları listele |
 | **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
@@ -181,7 +181,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | [Yeni kılavuz denetimi](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Sürüm 10.0.13'te, yeni kılavuz denetimi genellikle kullanılabilirdir ve müşteriler isteğe bağlı olarak bu özelliği açabilir. Yeni kılavuz denetimi Ekim 2021 sürümünde zorunlu olacaktır. Yeni kılavuz denetimi zorunlu hale geldiğinde **forceLegacyGrid()** API kabul edilmeyecek. |
+| **Durum**                         | Sürüm 10.0.13'te, yeni kılavuz denetimi genellikle kullanılabilirdir ve müşteriler isteğe bağlı olarak bu özelliği açabilir. Yeni kılavuz denetimi, Ekim 2021 sürümüyle varsayılan olarak kullanılabilecektir ve şu anda Nisan 2022'de zorunlu olması hedeflenmektedir. Yeni kılavuz denetimi zorunlu hale geldiğinde **forceLegacyGrid()** API kabul edilmeyecek. |
 
 ### <a name="personalization-without-saved-views"></a>Kaydedilmiş görünümler olmadan kişiselleştirme 
 
@@ -232,7 +232,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Tablo meta veri tanımlarındaki alan grupları, geçersiz alan referansları içerebilir. Bu alan grupları dağıtılırsa, Financial Reporting ve  Microsoft SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Platform güncelleştirmesi 23, bu meta veri veri sorununun giderilmesi için bir derleyici *uyarısı* getirdi. Finance and Operations uygulamalarının 10.0.11 sürümü için platform güncelleştirmeleri bu sorunu bir derleyici *hatası* olarak sınıflandırır.<p>Bu sorunu düzeltmek için şu adımları izleyin.</p><ol><li>Geçersiz alan referansını tablo alanı grubu tanımından kaldırın.</li><li>Yeniden derleyin.</li><li>Hataların giderildiğinden emin olun.</li></ol> |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Tablo meta veri tanımlarındaki alan grupları, geçersiz alan referansları içerebilir. Bu alan grupları dağıtılırsa, Financial Reporting ve  Microsoft SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Platform güncelleştirmesi 23, bu meta veri veri sorununun giderilmesi için bir derleyici *uyarısı* getirdi. Finance and Operations uygulamalarının 10.0.11 sürümü için platform güncelleştirmeleri bu sorunu bir derleyici *hatası* olarak sınıflandırır.<p>Bu sorunu düzeltmek için aşağıdaki adımları izleyin.</p><ol><li>Geçersiz alan referansını tablo alanı grubu tanımından kaldırın.</li><li>Yeniden derleyin.</li><li>Hataların giderildiğinden emin olun.</li></ol> |
 | **Başka bir özellikle mi değiştirildi?**   | Bu derleyici hatası, derleyici uyarısının kalıcı olarak yerini alır.  |
 | **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |

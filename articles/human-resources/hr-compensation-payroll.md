@@ -2,7 +2,7 @@
 title: Ödemeye hazır
 description: Bu konu, Dynamics 365 Human Resources'ta bir personeli ödemeye hazır işaretlemeyi gösterir.
 author: marcelbf
-ms.date: 07/13/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70b3f31db459fe021caf08fe09b2e44a597294d1992ee16a69efd8745941a4bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732429"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483794"
 ---
 # <a name="ready-to-pay"></a>Ödemeye hazır
 
@@ -39,7 +39,7 @@ Personel bilgilerini toplamak ve doğrulamak zaman alıcı ve hata yapma olasıl
 
 Bir personeli ödemeye hazır olarak işaretlemek için:
 
-1. **Maaş yönetimi**'ni açın. Çalışma alanında iki kutucuk vardır 
+1. **Maaş yönetimi**'ni açın. Çalışma alanında iki kutucuk vardır: 
     - **Çalışanlar ödemeye hazır**
     - **Ödemeye hazır olmayan personel**
     ![Maaş yönetimi çalışma alanı.](./media/hr-ready-to-pay-1-workspace.png)
@@ -53,22 +53,20 @@ Bir personeli ödemeye hazır olarak işaretlemek için:
 
 ## <a name="validation"></a>Doğrulama
 
-Bir personeli ödemeye hazır olarak işaretlemeden önce, sistem, profil eksiksiz olduğunda temel bir doğrulama yapacaktır.
+Bir personeli ödemeye hazır olarak işaretlemeden önce personelin profil, eksiksizlik açısından doğrulanır.
 
 ![Sonuçları doğrulayın.](./media/hr-ready-to-pay-3-results.png)
 
-Aşağıdaki tablo, gerçekleştirilen doğrulamaların her biri hakkında bilgi sağlar. 
-
 | Doğrulama | Ayrıntılı |
 | --- | --- |
-| Adres amacı parametresi | **Bordro adresleri amacını kullan** parametresinin açık olup olmadığını doğrular. |
-| Bordro adresi | Çalışan profilinde "Bordro ikamet yeri" veya "Bordro iş yeri" amacına sahip en az bir adres olup olmadığını ve amaç başına yalnızca bir adres olup olmadığını doğrular. |
-| İstihdam | Çalışanın en az bir istihdamı (mevcut, önceki veya gelecekteki) olup olmadığını doğrulayın. |
-| Kimlik numarası | "Bordro işlemede kimlik türlerini kullan" parametresinin evet olup olmadığını ve parametrede belirtilen kimlik türünün çalışan profilinde doldurulup doldurulmadiğini doğrular. |
-| Ad ve soyadı | **Ad** ve **Soyadı** alanlarının doldurulup doldurulmadığını denetleyerek çalışan profilinin geçerli olup olmadığını doğrular.|
-| Pozisyon numarası | Çalışanın atanmış bir pozisyonu olup olmadığını doğrulayın. |
-| Doğum tarihi | Çalışan profilinin geçerli olup olmadığını doğrular ve **Doğum Günü** alanının doldurulup doldurulduğunu denetler. |
-| Maaş | Çalışanın sabit bir ücret planına kayıtlı olup olmadığını doğrulayın. |
+| **Adres amacı parametresi** | **Bordro adresleri amacını kullan** parametresinin seçili olduğunu onaylar. |
+| **Bordro adresi** | Çalışan profilinde **Bordro ikamet konumu** veya **Bordro iş konumu** amacına sahip en az bir adres bulunduğunu ve amaç başına yalnızca bir adres olduğunu onaylar. |
+| **İstihdam** | Çalışanın en az bir istihdamı (mevcut, önceki veya gelecekteki) olduğunu onaylar. |
+| **Kimlik numarası** | **İnsan kaynakları parametreleri** sayfasında **Bordro işlemede kimlik türlerini kullan** alanının **Evet** olduğunu ve parametrede belirtilen kimlik türünün çalışan profilinde doldurulup doldurulmadığını onaylar. |
+| **Ad ve soyadı** | **Ad** ve **Soyadı** alanlarının doldurulduğunu onaylar.|
+| **Pozisyon numarası** | Çalışanın atanmış bir pozisyonu olduğunu onaylar. |
+| **Doğum tarihi** | **Doğum günü** alanının doldurulduğunu onaylar. |
+| **Maaş** | Çalışanın bir sabit ücret planına kayıtlı olduğunu onaylar. |
 
 Bu doğrulamalardan biri başarısız olursa personeli ödemeye hazır olarak işaretleyemezsiniz.
 
@@ -77,7 +75,7 @@ Bu doğrulamalardan biri başarısız olursa personeli ödemeye hazır olarak i�
 ## <a name="known-issues"></a>Bilinen sorunlar
 
 - Özellik yönetiminde **Kolaylaştırılmış personel girişi** özelliğini devre dışı bırakmalısınız. Bu özelliği kullanırsanız maaş yönetimi çalışma alanındaki kutucuklar düzgün çalışmaz.
-- Çalışan formunda, **Bordro sekmesi**, **Ödemeye hazır** grubu herhangi bir kullanıcı rolü için kullanılabilir. 
+- **Çalışan** sayfasında, **Bordro sekmesi**, **Ödemeye hazır** grubu herhangi bir kullanıcı rolü için kullanılabilir. 
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

@@ -2,7 +2,7 @@
 title: DATETIMEFORMAT ER işlevi
 description: Bu konu, DATETIMEFORMAT Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 01/04/2021
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e141c445a81f3b436d540265533836b8c775deadbf2a85e47127bb28674a3ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1add2ccb348a9b518e0121be1184fbf6a684a0df
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767180"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485558"
 ---
 # <a name="datetimeformat-er-function"></a>DATETIMEFORMAT ER işlevi
 
 [!include [banner](../includes/banner.md)]
 
-`DATETIMEFORMAT` işlev, belirli bir tarih/saat değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen [kültür](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) içinde metin olarak gösteren bir *dize* değeri döndürür. Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](/dotnet/standard/base-types/standard-date-and-time-format-strings) ve [özel](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+`DATETIMEFORMAT` işlevi, belirli bir tarih/saat değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen [kültür](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) içinde metin olarak gösteren bir *[Dize](er-formula-supported-data-types-primitive.md#string)* değeri döndürür. Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](/dotnet/standard/base-types/standard-date-and-time-format-strings) ve [özel](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>Sözdizimi 1
 
@@ -41,20 +41,20 @@ DATETIMEFORMAT (datetime, format, culture)
 
 ## <a name="arguments"></a>Bağımsız değişkenler
 
-`datetime`: *TarihSaat*
+`datetime`: *[Tarih Saat](er-formula-supported-data-types-primitive.md#datetime)*
 
 Biçimlendirilecek tarihi ve saati gösteren tarih/saat değeri.
 
 `format`: *Dize*
 
-Çıkış dizesinin biçimi.
+Çıkış dizesinin biçimi. Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](/dotnet/standard/base-types/standard-date-and-time-format-strings) ve [özel](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 > [!NOTE]
 > Standart biçim veya özel biçim kullanırken biçim dizesi büyük/küçük harfe duyarlıdır. Örneğin, [standart](/dotnet/standard/base-types/standard-date-and-time-format-strings) "d" biçim tanımlayıcısı kısa tarih modelini kullanarak tarihi döndürürken standart "D" biçim tanımlayıcısı uzun tarih modelini kullanarak tarihi döndürür. Ek olarak, [özel](/dotnet/standard/base-types/custom-date-and-time-format-strings) "M" biçim tanımlayıcısı 1 ile 12 arasındaki ayları döndürürken özel "m" biçim tanımlayıcısı 0 ile 59 arasındaki dakikaları döndürür.
 
 `culture`: *Dize*
 
-Biçimlendirme için kullanılacak kültür.
+Biçimlendirme için kullanılacak kültür. Desteklenen kültürler hakkında bilgi için bkz. [kültür](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>Dönüş değerleri
 

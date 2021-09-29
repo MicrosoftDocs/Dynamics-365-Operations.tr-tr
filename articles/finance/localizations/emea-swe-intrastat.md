@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417094"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486958"
 ---
 # <a name="swedish-intrastat"></a>İsveççe İntrastat
 
@@ -48,7 +48,7 @@ Daha fazla bilgi için bkz. [Yapılandırma hizmeti Genel deposundan ER yapılan
 3. **Rapor biçimi eşlemesi** alanında **İntrastat raporu**'nu seçin.
 4. **Emtia kodu hiyerarşisi** hızlı sekmesinde, **Kategori hiyerarşisi** alanında **İntrastat**'ı seçin.
 5. **Hareket kodu** alanında mal transferleri için hareket kodunu seçin. Bu kodu, ücret (mali veya başka türlü) karşılığında fiili ya da planlı bir mal aktarımına neden olan hareketler için kullanırsınız. Düzeltmeler için de kullanırsınız. İsveç'teki şirketler tek basamaklı işlem kodları kullanır.
-6. **Alacak dekontu** alanında malların iadesi için hareket kodunu seçin. Bu kodu, hareket kodu altında kaydedilen orijinal hareketten sonra malların iadesi için kullanılırsınız. İsveç'teki şirketler tek basamaklı işlem kodları kullanır.
+6. **Alacak dekontu** alanında malların iadesi için hareket kodunu seçin.
 7. **Ülke/bölge özellikleri** sekmesinde, **Ülke/bölge** alanında, şirketinizin iş yaptığı tüm ülke veya bölgeleri listeleyin. AB üyesi olan her ülkenin İntrastat raporunuzda görüntülenmesi amacıyla her ülke için **Ülke/bölge türü** alanında **EU** seçeneğini belirleyin.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>İntrastat bildirimi için ürün parametrelerini ayarlama

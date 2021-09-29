@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345278"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500612"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Stok sayımı neden kodları
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Neden kodları sayım işleminin sonucunu ve bu işlem sırasında oluşan tutarsızlıkları analiz etmenize olanak tanır. Kırılmış palet veya stok örneklerine dayanan stok ayarlaması gibi bir sayım yapma nedeni belirtebilirsiniz. Aynı zamanda, her stok ayarlamasının nedenine bağlı olarak eldeki stok ayarlamalarının değerini uygun mahsup hesap defterine nakletmek için ayarlama işlevini kullanabilirsiniz.
 
@@ -43,8 +42,6 @@ Sistemi ayarlamadan önce neden kodları ile çalışmak için bir strateji tan�
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Sisteminizdeki neden kodu özelliklerini açma
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Bu konuda açıklanan tüm özellikleri sisteminizde görmüyorsanız muhtemelen *Mahsup hesaplara bağlı yapılandırılabilir neden kodlarını kullanarak eldeki stok ayarlamalarını deftere nakletme* özelliğini açmanız gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ambar yönetimi*
@@ -56,7 +53,7 @@ Bu konuda açıklanan tüm özellikleri sisteminizde görmüyorsanız muhtemelen
 
 Sayım nedeni kodlarının ne zaman ve nasıl uygulanacağını denetlemek için birden çok neden kodu ilkesi oluşturabilirsiniz. Her neden kodu ilkesi iki sayım nedeni kodu türünden (*İsteğe Bağlı* veya *Zorunlu*) birini içerebilir. Sayım nedeni kodu ilkeleri, ambar düzeyinde veya madde düzeyinde kullanılabilir.
 
-Neden kodu ilkesi oluşturmak için şu adımları izleyin.
+Neden kodu ilkesi oluşturmak için aşağıdaki adımları izleyin.
 
 1. **Stok yönetimi** \> **Kurulum** \> **Stok** \> **Sayım nedeni kodu ilkeleri**'ne gidin.
 1. Eylem Bölmesi'nde, ızgaraya bir ilke eklemek için **Yeni**'yi seçin.
@@ -78,7 +75,7 @@ Tek tek ambarlar ve ürünler için de neden kodu ilkeleri ayarlayabilirsiniz. B
 
 ### <a name="assign-counting-reason-code-policies-to-warehouses"></a>Ambara sayım nedeni kodu ilkeleri atama
 
-Ambara sayım nedeni kodu ilkesi atamak için şu adımları izleyin.
+Ambara sayım nedeni kodu ilkesi atamak için aşağıdaki adımları izleyin.
 
 1. **Stok yönetimi** \> **Kurulum** \> **Stok dökümü** \> **Ambarlar**'a gidin.
 1. Liste bölmesinde bir ambar seçin.
@@ -90,7 +87,7 @@ Ambara sayım nedeni kodu ilkesi atamak için şu adımları izleyin.
 
 ### <a name="assign-counting-reason-code-policies-to-products"></a>Sayım nedeni kodu ilkelerini ürünlere atama
 
-Ürüne bir sayım nedeni kodu ilkesi atamak için şu adımları izleyin.
+Ürüne bir sayım nedeni kodu ilkesi atamak için aşağıdaki adımları izleyin.
 
 1. **Ürün bilgileri yönetimi** \> **Ürünler** \> **Serbest bırakılmış ürünler**'e gidin.
 1. Izgarada bir ürün seçin.
@@ -102,7 +99,7 @@ Ambara sayım nedeni kodu ilkesi atamak için şu adımları izleyin.
 
 ### <a name="set-up-counting-reason-codes"></a>Sayım nedeni kodları ayarlama
 
-Sayım nedeni kodlarınızı ayarlamak için şu adımları izleyin.
+Sayım nedeni kodlarınızı ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Stok yönetimi** \> **Kurulum** \> **Stok** \> **Sayım nedeni kodu ilkesi**'ne gidin.
 1. Eylem bölmesinde, kılavuzuna satır eklemek için **Yeni**'yi seçin.
@@ -141,7 +138,7 @@ Aşağıdaki eldeki stoku düzeltme türleri için neden kodlarını yapılandı
 
 #### <a name="set-up-mobile-device-menu-items-for-a-counting-process"></a>Sayım işlemi için mobil cihaz menü öğeleri ayarlama
 
-Sayım işlemi için bir mobil cihaz menü öğesi ayarlamak üzere şu adımları izleyin.
+Sayım işlemi için bir mobil cihaz menü öğesi ayarlamak üzere aşağıdaki adımları izleyin.
 
 1. **Warehouse Management** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menü öğeleri**'ne gidin.
 1. Liste bölmesinde ilgili menü öğesini seçin veya yeni bir menü öğesi oluşturun.
@@ -159,7 +156,7 @@ Sayım işlemi için bir mobil cihaz menü öğesi ayarlamak üzere şu adımlar
 
 #### <a name="set-up-mobile-device-menu-items-for-adjustment-in-and-adjustment-out"></a><a name="setup-adjustment-in-out"></a>Ayarlama etkin ve Ayarlama devre dışı için mobil cihaz menü öğesi ayarlama
 
-Ayarlama etkin ve ayarlama devre dışı için mobil cihaz menü öğesi ayarlamak üzere şu adımları izleyin.
+Ayarlama etkin ve ayarlama devre dışı için mobil cihaz menü öğesi ayarlamak üzere aşağıdaki adımları izleyin.
 
 1. **Warehouse Management** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menü öğeleri**'ne gidin.
 1. Eylem Bölmesi'nde, menü öğesini oluşturmak için **Yeni**'yi seçin.
@@ -194,7 +191,7 @@ Bir sayım onaylanmadan önce çalışan sayımla ilişkili neden kodunu değiş
 
 #### <a name="modify-reason-codes-for-cycle-count-approvals"></a>Döngü sayımı onayları için neden kodlarını değiştirme
 
-Döngü sayımı onayını değiştirmek için şu adımları izleyin.
+Döngü sayımı onayını değiştirmek için aşağıdaki adımları izleyin.
 
 1. **Warehouse Management** \> **Döngü sayımı** \> **İnceleme bekleyen döngü sayımı işi**'ne gidin.
 1. Izgarada bir döngü sayımını seçin.
@@ -207,7 +204,7 @@ Neden kodları *Sayım günlüğü* türündeki sayım günlüklerindeki günlü
 
 ### <a name="view-the-reason-codes-recorded-in-the-counting-history"></a>Sayım geçmişinde kaydedilen neden kodlarını görüntüleme
 
-Sayım geçmişinde kaydedilen neden kodlarını görüntülemek için şu adımları izleyin.
+Sayım geçmişinde kaydedilen neden kodlarını görüntülemek için aşağıdaki adımları izleyin.
 
 1. **Stok yönetimi** \> **Sorgular ve raporlar** \> **Sayım geçmişi**'ne gidin.
 1. Liste bölmesinde bir madde sayımı kaydını seçin.
@@ -215,7 +212,7 @@ Sayım geçmişinde kaydedilen neden kodlarını görüntülemek için şu adım
 
 ### <a name="use-reason-codes-for-quantity-adjustment-or-online-counting"></a>Miktar düzeltmesi veya çevrimiçi sayım için neden kodları kullanma
 
-Miktar düzeltmesi veya çevrimiçi sayım için neden kodları kullanmak üzere şu adımları izleyin.
+Miktar düzeltmesi veya çevrimiçi sayım için neden kodları kullanmak üzere aşağıdaki adımları izleyin.
 
 1. **Stok yönetimi \> Sorgular ve raporlar \>> Eldeki stok** öğesine gidin.
 1. Eylem Bölmesi'nde **Miktar düzeltmesi**'ni seçin.

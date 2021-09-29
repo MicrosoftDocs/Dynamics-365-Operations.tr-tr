@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474904"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506867"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management sürüm 10.0.19'teki yenilikler ve değişiklikler (Haziran 2021)
 
@@ -40,8 +40,7 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 | Stok ve lojistik | [Ölçek birimlerine sahip ambar yürütme yeteneği için artımlı geliştirmeler](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[İleti işlemci iletileri](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Ambar stoku düzeltmesi](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Stok ve lojistik | [Satış teklifi sayfasındaki Belge giriş ve Belge sonuç alanları için arama özelliği](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Bu özellik, **Satış teklifi** sayfasındaki **Belge giriş** ve **Belge sonuç** alanları için arama özelliği ekler.<br><br>Varsayılan olarak bu özellik etkindir. |
 | Stok ve lojistik | [Özel donanımınızda uç ölçek birimleriyle ambar yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Özel donanımda LBD kullanarak kenar ölçek birimleri dağıtma](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| İmalat | [Özel donanımınızda uç ölçek birimleriyle üretim yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [LBD kullanarak özel donanımda kenar ölçek birimleri dağıtma](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Planlama | [Planlama Optimizasyonu için sonsuz kapasite planlaması](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Sonsuz kapasiteyle planlama](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| İmalat | [Özel donanımınızda uç ölçek birimleriyle üretim yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Özel donanımda LBD kullanarak kenar ölçek birimleri dağıtma](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Planlama | Sorgu temelli planlı sipariş kesinleştirme | [Kesinleşmiş planlı siparişler](../master-planning/planning-optimization/planned-order-firming.md) |
 | Ürün bilgileri yönetimi | [Çeşit önerileri sayfa geliştirmeleri](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Önceden tanımlanmış ürün çeşitleri oluşturma](../pim/tasks/create-predefined-product-variants.md) |
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744190"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488214"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Mevcut ürünlerde değişiklik yönetimini etkinleştirme
 
@@ -47,7 +47,9 @@ Bu nedenle, farklı bir ürününüz varsa bunu yalnızca hareketlerdeki ürün 
 
 Her mühendislik ürününe bir *mühendislik ürünü kategorisi* atanmalıdır. Bu atamayı **Mühendislik ürününe dönüştür** sihirbazını çalıştırdığınızda yaparsınız. Bu ürünleri dönüştürmeden *önce* ilgili tüm standart ürünler için mühendislik ürün kategorileri bulunmalıdır.
 
-Mühendislik ürünü kategorisi, bir mühendislik ürünü oluşturmak için temel oluşturur ve bir dizi varsayılan değer ve ilke oluşturur. Mühendislik ürünü kategorisi, atadığınız ürünle eşleşmelidir. Örneğin, ürün türü ve boyut grubu hem ürün hem de mühendislik ürünü kategorisiyle eşleşmelidir. Daha fazla bilgi için bkz. [Mühendislik sürümleri ve mühendislik ürünü kategorileri](engineering-versions-product-category.md).
+Mühendislik ürünü kategorisi, bir mühendislik ürünü oluşturmak için temel oluşturur ve bir dizi varsayılan değer ve ilke oluşturur. Mühendislik öznitelikleri ve bunların varsayılan değerleri (mühendislik kategorisi için tanımlandığı üzere) elde edilen mühendislik ürününe de uygulanır. Öznitelik değerlerini düzenleyebilir ve/veya gerektiğinde elde edilen ürüne daha fazla mühendislik özniteliği ekleyebilirsiniz.
+
+Mühendislik ürünü kategorisi, atadığınız ürünle eşleşmelidir. Örneğin, ürün türü ve boyut grubu hem ürün hem de mühendislik ürünü kategorisiyle eşleşmelidir. Daha fazla bilgi için bkz. [Mühendislik sürümleri ve mühendislik ürünü kategorileri](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > **Mühendislik ürününe dönüştür** sihirbazı, ürünü yalnızca sürümün hareketlerde izlenmediği mühendislik ürünlerine dönüştürebilir. Bu nedenle, var olan ürünleri dönüştürmek için oluşturduğunuz mühendislik ürünü kategorileri için **Hareketlerdeki sürümü izle** seçeneğini *Hayır* olarak ayarlanmalıdır.

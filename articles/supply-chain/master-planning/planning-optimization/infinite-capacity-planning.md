@@ -2,7 +2,7 @@
 title: Sonsuz kapasiteyle planlama
 description: Bu konu, Planlamayı En İyi Duruma Getirme için sonsuz kapasite planlaması hakkında bilgi sağlar. Geçerli özellik sınırlamaları da açıklanmaktadır.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471680"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506819"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Sonsuz kapasiteyle planlama
 
@@ -27,7 +27,12 @@ ms.locfileid: "7471680"
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Sonsuz kapasite planlama özelliğini açma
 
-Sisteminiz bu konuda açıklanan özelliği içermiyorsa [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını açın ve *Planlamayı En İyi Duruma Getirme için sonsuz kapasite planlama* özelliğini açın.
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+
+- **Modül:** *Master planlama*
+- **Özellik adı:** *Planlama Optimizasyonu için sonsuz kapasite zamanlaması*
+
+Bu özellik hakkında daha fazla bilgi için bkz. [Yeteneğe dayalı kaynak seçimi ile zamanlama](capability-based-scheduling.md).
 
 ## <a name="added-functionality"></a>Eklenen işlev
 
@@ -42,7 +47,7 @@ Planlama süresi sırasında sistem bir operasyon için belirtilen *kaynak gerek
 - Kaynak türü
 - Kaynak
 - Kaynak grubu
-- Yetenek
+- Yetenek (Daha fazla bilgi için bkz. [Yeteneğe dayalı kaynak seçimi ile zamanlama](capability-based-scheduling.md).)
 
 > [!NOTE]
 > Yetenekler veya sertifika gereksinimleri gibi insan kaynaklarıyla ilgili gereksinimler henüz desteklenmemektedir.
@@ -55,7 +60,6 @@ Planlama süresi sırasında sistem bir operasyon için belirtilen *kaynak gerek
 
 Planlamayı En İyi Duruma Getirme için planlamayı kullandığınızda aşağıdaki sınırlamalar geçerlidir:
 
-- Özellik yalnızca iş planlamayı destekler. Operasyon planlamaya ilişkin ayarlar, master planlardaki planlama yöntemine bakılmaksızın, planlama sırasında dikkate alınmaz.
 - Özellik yalnızca sonsuz kapasiteyi destekler.
 - Özellik, kaynak yük işlevini desteklemez.
 - Özellik rota hurdasını dikkate almaz.

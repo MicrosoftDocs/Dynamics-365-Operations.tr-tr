@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715346"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500315"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
@@ -562,7 +562,7 @@ Bu yapılandırma, donanım istasyonlarını diğer aygıtlarla paylaşan tüm M
 > Cihazlar genellikle farklı donanım istasyonları kullanıyorsa, Modern POS'u kasiyerlerden ödeme işlemini başlatırken bir donanım istasyonu seçmelerini isteyecek şekilde yapılandırmanızı öneririz. **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Yazar kasalar** öğesine tıklayın. Kasayı seçin ve ardından **Ödeme sırasında seç** seçeneğini **Evet** olarak ayarlayın. Değişiklikleri kanal veritabanıyla eşitlemek için **1090** dağıtım planını kullanın.
 
 ## <a name="extensibility"></a>Genişletilebilirlik
-Donanım istasyonu için genişletilebilirlik senaryoları hakkında daha fazla bilgi için bkz. [Donanım İstasyonu genişletilebilirliği](dev-itpro/hardware-station-extensibility.md).
+Donanım istasyonuna dair genişletilebilirlik senaryoları hakkında bilgi için bkz. [POS'u yeni bir donanım cihazıyla tümleştirme ve uzantı yükleyicisini oluşturma](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Güvenlik
 Geçerli güvenlik standartlarına göre aşağıdaki ayarları üretim ortamında kullanılmalıdır: 

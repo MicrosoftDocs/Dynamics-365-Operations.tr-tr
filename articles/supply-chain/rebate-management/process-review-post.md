@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729422"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500487"
 ---
 # <a name="process-review-and-post-rebates"></a>İndirimleri işleme, inceleme ve deftere nakletme
 
@@ -44,8 +44,6 @@ Bu konuda, indirim yönetimi anlaşmaları üzerinde işlem yapmak, iskontoları
 
 ## <a name="create-source-transactions"></a>Kaynak hareketleri oluşturma
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Geçerli bir İndirim yönetimi anlaşması oluşturmadan önce veya sonra kaynak işlemleri olan satış siparişlerini veya satınalma siparişlerini oluşturabilirsiniz.
 
 Her bir anlaşma satırını, bir satış siparişi veya satınalma siparişi için teslimatı ya da faturayı deftere naklederek otomatik olarak bir indirim provizyonu oluşturacak şekilde ayarlayabilirsiniz. Anlaşma satırı için **Hareket türü** alanını *Teslimat* veya *Fatura* olarak ayarlayın ve **Deftere naklederken işle** seçeneğini *Evet* olarak ayarlayın. **Hareket türü** alanı *Sipariş* olarak ayarlanmışsa deftere nakil sırasında işleme devre dışı bırakılır. Anlaşma etkinleştirildikten sonra oluşturulan kaynak hareketleri için bu konunun daha ilerideki [İndirim yönetimi anlaşmalarını işleme](#process-deals) bölümünde açıklandığı gibi provizyonu yine de işleyebilirsiniz.
@@ -59,7 +57,7 @@ Kaynak hareketleri oluşturmadan önce alacaklar hesapları için **Fiyat ayrın
 
 ### <a name="create-a-source-transaction"></a>Kaynak hareketi oluşturma
 
-Kaynak hareketi oluşturmak için şu adımları izleyin.
+Kaynak hareketi oluşturmak için aşağıdaki adımları izleyin.
 
 1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin.
 1. **Yeni**'yi seçin.
@@ -91,7 +89,7 @@ Kaynak hareketi oluşturmak için şu adımları izleyin.
     - **İndirim yönetimi satıcı indirimi tutarı** (satış siparişleri ve satınalma siparişleri)
 
 1. **Fiyat ayrıntılarını** kapatın.
-1. Satış siparişi, yeni görüntülediğiniz indirimler için uygun değilse indirimleri hariç tutmak için şu adımları izleyin. (Ancak genellikle indirimleri hariç tutmazsınız.)
+1. Satış siparişi, yeni görüntülediğiniz indirimler için uygun değilse indirimleri hariç tutmak için aşağıdaki adımları izleyin. (Ancak genellikle indirimleri hariç tutmazsınız.)
 
     1. **Satış siparişi satırları** hızlı sekmesinde ilgili satırı seçin.
     1. **Satır ayrıntıları** hızlı sekmesindeki **Fiyat ve iskonto** sekmesinde, **İndirim yönetiminden hariç tut** seçeneğini *Evet* olarak ayarlayın. Bu seçenek satınalma siparişleri için uygulanmaz. Ayrıca müşteri indirimleri yalnızca bu seçenek *Evet* olarak ayarlandığında hariç tutulur. Müşteri kâr payı ve satıcı indirimleri hala uygulanabilir.
@@ -158,11 +156,9 @@ Belirli anlaşmalar veya anlaşma satırlarını işlemek yerine, aynı anda bir
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>İndirim workbench'ini kullanarak anlaşmaları işleme
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Özel anlaşmaları veya anlaşma satırlarını işlemek yerine aynı anda birden çok anlaşmayı işlemek için *indirim workbench*'ini kullanabilirsiniz. İsteğe bağlı olarak kayıt filtreleri uygulayabilir ve/veya tekrarlayan bir çizelge ayarlayabilirsiniz. Herhangi bir satırı seçmeniz gerekmez. Sistem, ayarladığınız tarih ve filtre gereksinimlerini karşılayan tüm satırları işler.
 
-İndirim workbench'ini kullanarak anlaşmaları işlemek için şu adımları izleyin.
+İndirim workbench'ini kullanarak anlaşmaları işlemek için aşağıdaki adımları izleyin.
 
 1. **İndirim yönetimi \> İndirim yönetimi anlaşmaları \> İndirim workbench'i** bölümüne gidin.
 1. Eylem Bölmesi'ndeki **İndirim workbench'i** sekmesinde, **İşlem** grubunda, aşağıdaki komutlardan birini seçin:
@@ -183,7 +179,7 @@ Bir veya daha fazla anlaşma işlediğinizde sistem deftere nakletmeden önce g�
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-deals-list-page"></a>İndirim anlaşmaları listesi sayfasını kullanarak İndirim yönetimi hareketlerini görüntüleme ve düzenleme
 
-İndirim anlaşmaları listesi sayfasını kullanarak İndirim yönetimi hareketlerini görüntülemek ve düzenlemek için şu adımları izleyin.
+İndirim anlaşmaları listesi sayfasını kullanarak İndirim yönetimi hareketlerini görüntülemek ve düzenlemek için aşağıdaki adımları izleyin.
 
 1. Şu adımlardan birini izleyin:
 
@@ -214,9 +210,7 @@ Bir veya daha fazla anlaşma işlediğinizde sistem deftere nakletmeden önce g�
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>İndirim workbench'ini kullanarak İndirim yönetimi hareketlerini görüntüleme ve düzenleme
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
-İndirim workbench'ini kullanarak İndirim yönetimi hareketlerini görüntülemek ve düzenlemek için şu adımları izleyin.
+İndirim workbench'ini kullanarak İndirim yönetimi hareketlerini görüntülemek ve düzenlemek için aşağıdaki adımları izleyin.
 
 1. **İndirim yönetimi \> İndirim yönetimi anlaşmaları \> İndirim workbench'i** bölümüne gidin.
 1. **Göster** alanını *Deftere nakledilmemiş* olarak ayarlayın.
@@ -295,9 +289,7 @@ Belirli anlaşmalar veya anlaşma satırları için işlemleri deftere nakletmek
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>İndirim workbench'ini kullanarak işlemleri deftere nakletme
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
-Provision, indirim veya silme hareketlerini işledikten sonra, tüm anlaşmalar için bir veya daha fazla özel hareket satırı için oluşturulan hareketleri gözden geçirmek ve deftere nakletmek üzere indirim workbench'ini kullanmak için şu adımları izleyin.
+Provision, indirim veya silme hareketlerini işledikten sonra, tüm anlaşmalar için bir veya daha fazla özel hareket satırı için oluşturulan hareketleri gözden geçirmek ve deftere nakletmek üzere indirim workbench'ini kullanmak için aşağıdaki adımları izleyin.
 
 1. **İndirim yönetimi \> İndirim yönetimi anlaşmaları \> İndirim workbench'i** bölümüne gidin.
 1. Izgarada, deftere nakletmek istediğiniz her bir hareket satırı için satırı seçin. Nakledilmemiş provizyon, indirim ve/veya silme hareketlerini seçebilirsiniz. Geçerli olan kurallar şunlardır:
@@ -332,9 +324,7 @@ Provision, indirim veya silme hareketlerini işledikten sonra, tüm anlaşmalar 
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>İndirim workbench'ini kullanarak günlükleri inceleme
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
-İndirim workbench'ini kullanarak günlükleri incelemek için şu adımları izleyin.
+İndirim workbench'ini kullanarak günlükleri incelemek için aşağıdaki adımları izleyin.
 
 1. **İndirim yönetimi \> İndirim yönetimi anlaşmaları \> İndirim workbench'i** bölümüne gidin.
 1. **Göster** alanını _Tümü_ veya _Deftere Nakledildi_ olarak ayarlayın.
@@ -342,8 +332,6 @@ Provision, indirim veya silme hareketlerini işledikten sonra, tüm anlaşmalar 
 1. İlgili günlüklerin, belgelerin veya maddelerin listesi görüntülenir. Herhangi bir günlük, belge veya öğe hakkında daha fazla bilgi görüntülemek için, ilgili satırı seçin ve eylem bölmesinde **Ayrıntıları görüntüle**'yi seçin.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Kesinti workbench'inde indirim yönetimi hareketleri
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Aşağıdaki **Ödeme türü** değerlerinden birine sahip bir İndirim yönetimi hareketini deftere naklettiğinizde, sistem ilgili müşteri hesabı için bir müşteri kesinti günlüğü veya serbest metin faturası oluşturur:
 
@@ -358,9 +346,7 @@ Daha fazla bilgi için bkz. [Kesinti workbench'ini kullanarak kesintileri yönet
 
 ## <a name="purge-unposted-transactions"></a>Deftere nakledilmemiş işlemleri temizleme
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
-Provision, indirim veya silme hareketlerini işledikten sonra, seçilen deftere nakledilmemiş hareketleri temizlemek için şu adımları izleyin.
+Provision, indirim veya silme hareketlerini işledikten sonra, seçilen deftere nakledilmemiş hareketleri temizlemek için aşağıdaki adımları izleyin.
 
 1. **İndirim yönetimi \> İndirim yönetimi anlaşmaları \> İndirim workbench'i** bölümüne gidin.
 2. **Göster** alanını *Deftere nakledilmemiş* olarak ayarlayın.
@@ -369,9 +355,7 @@ Provision, indirim veya silme hareketlerini işledikten sonra, seçilen deftere 
 
 ## <a name="cancel-a-posted-provision"></a>Deftere nakledilen provizyonu iptal etme
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
-Provizyonu işleyip deftere naklettikten sonra, deftere nakledilen provizyon hareketlerini iptal etmek için şu adımları izleyin.
+Provizyonu işleyip deftere naklettikten sonra, deftere nakledilen provizyon hareketlerini iptal etmek için aşağıdaki adımları izleyin.
 
 1. **İndirim yönetimi \> İndirim yönetimi anlaşmaları \> İndirim workbench'i** bölümüne gidin.
 2. **Göster** alanını *Deftere Nakledildi* olarak ayarlayın.

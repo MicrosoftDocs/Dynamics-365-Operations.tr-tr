@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736683"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484061"
 ---
 # <a name="demand-forecasting-overview"></a>Talep tahminine genel bakış
 
@@ -34,7 +34,9 @@ Talep tahmini, satış siparişlerinden bağımsız talebi ve müşteri sipariş
 Başlangıç tahmini oluşturmak için, geçmiş hareketlerin özeti Azure üzerinde barındırılan Microsoft Azure Machine Learning'e geçirilir. Bu hizmet kullanıcılar arasında paylaşılmadığı için, sektöre özgü gereklilikleri karşılayacak şekilde kolayca uyarlanabilir. Tahmini görselleştirmek, tahmini ayarlamak ve tahminin doğruluğu hakkındaki ana performans göstergelerini (KPI'ler) görüntülemek için Supply Chain Management'ı kullanabilirsiniz.
 
 > [!NOTE]
-> Microsoft Azure Machine Learning Studio (klasik), makine öğrenimiyle tahmin oluşturma için gereklidir. Ocak 2021 itibariyle Japonya Doğu, Orta Güney ABD, Güneydoğu Asya, Orta Batı ABD ve Batı Avrupa'da kullanılabilir. Mevcut kullanılabilirlik hakkında güncelleştirilmiş bilgiler için bkz. [Bölgeye Göre Azure Ürünleri](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+> Microsoft Azure Machine Learning Studio (klasik), makine öğrenimiyle tahmin oluşturma için gereklidir. 1 Aralık 2021 itibarıyla yeni Machine Learning Studio (klasik) kaynakları oluşturamayacaksınız. Ancak mevcut Machine Learning Studio (klasik) kaynaklarınızı 31 Ağustos 2024 tarihine kadar kullanmaya devam edebilirsiniz. Güncelleştirilmiş bilgiler için bkz. [Azure Machine Learning Studio](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio).
+> 
+> Dynamics 365 Supply Chain Management sürüm 10.0.23 ve sonrası, yeni Azure Machine Learning Studio'yu destekler.
 
 ## <a name="key-features-of-demand-forecasting"></a>Talep tahmininin ana özellikleri
 

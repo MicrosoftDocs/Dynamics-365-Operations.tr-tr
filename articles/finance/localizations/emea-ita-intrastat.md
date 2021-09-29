@@ -1,20 +1,20 @@
 ---
 title: İtalya Intrastat
 description: Bu konu, İtalya'daki Intrastat raporlaması hakkında bilgi içerir.
-author: andosip
-ms.date: 7/9/2021
+author: anasyash
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: f80a82f4c3c00ee263cc0bf31b0dc5fc69a05dea324fe96e3e0db9a13a488fac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779380"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488271"
 ---
 # <a name="italian-intrastat"></a>İtalya Intrastat
 
@@ -598,11 +598,8 @@ Yetkili makama iki rapor göndermelisiniz. Raporlardan biri topluluk içi gönde
 - **Kapak sayfası**
 
 - **Bölüm 1. Mallar**: Bu bölüm, İntrastat beyanname dönemiyle aynı raporlama dönemindeki malların faturalarıyla ilgili normal hareketler ve alacak dekontları hakkında bilgi içerir.
-
 - **Bölüm 2. Mal düzeltmeleri**: Bu bölüm, önceki İntrastat raporlama dönemlerindeki malların faturalarıyla ilgili düzeltmeler ve alacak dekontları hakkında bilgi içerir.
-
 - **Bölüm 3. Hizmetler**: Bu bölüm, İntrastat beyanname dönemiyle aynı raporlama dönemindeki servislerin faturalarıyla ilgili normal hareketler ve alacak dekontları hakkında bilgi içerir.
-
 - **Bölüm 4. Hizmetler için düzeltmeler**: Bu bölüm, önceki İntrastat raporlama dönemlerindeki servislerin faturalarıyla ilgili düzeltmeler ve alacak dekontları hakkında bilgi içerir.
 
 ## <a name="set-up-intrastat"></a>İntrastat'ı ayarlama
@@ -611,21 +608,14 @@ Yetkili makama iki rapor göndermelisiniz. Raporlardan biri topluluk içi gönde
 
 İntrastat ile çalışmaya başlamadan önce aşağıdaki genel bilgiler ayarlanmalıdır:
 
--   Emtia kodları. Hizmetler için altı basamaklı emtia kodları tanımlamanız gerekir.
-
--   Hareket kodları. İtalya'nın tek basamaklı işlem kodları kullandığını unutmayın.
-
--   Taşıma yöntemleri.
-
--   İstatistik prosedürleri.
-
--   Dış ticaret parametreleri.
-
--   Ambarlama.
-
--   Serbest bırakılan ürün ayrıntıları.
-
--   Temsilci iletişim bilgileri.
+   - Emtia kodları. Hizmetler için altı basamaklı emtia kodları tanımlamanız gerekir.
+   - Hareket kodları. İtalya'nın tek basamaklı işlem kodları kullandığını unutmayın.
+   - Taşıma yöntemleri.
+   - İstatistik prosedürleri.
+   - Dış ticaret parametreleri.
+   - Ambarlama.
+   - Serbest bırakılan ürün ayrıntıları.
+   - Temsilci iletişim bilgileri.
 
 Daha fazla bilgi için bkz. [İntrastat'a genel bakış](emea-intrastat.md).
 
@@ -633,97 +623,68 @@ Daha fazla bilgi için bkz. [İntrastat'a genel bakış](emea-intrastat.md).
 
 İntrastat ile çalışabilmeniz için İtalyanca'ya özgü seçenekleri ayarlamak için bu adımları izleyin.
 
-1.  [Microsoft Dynamics Lifecycle Services'te (LCS),](https://lcs.dynamics.com/Logon/Index) paylaşılan varlık kitaplığında, İntrastat bildirimi için aşağıdaki Elektronik raporlama (ER) yapılandırmalarının en son sürümünü yükleyin:
+1. [Microsoft Dynamics Lifecycle Services'te (LCS),](https://lcs.dynamics.com/Logon/Index) paylaşılan varlık kitaplığında, İntrastat bildirimi için aşağıdaki Elektronik raporlama (ER) yapılandırmalarının en son sürümünü yükleyin:
 
-    -   Intrastat modeli
+    - Intrastat modeli
+    - Intrastat raporu
+    - İntrastat (IT)
 
-    -   Intrastat raporu
+    Daha fazla bilgi için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını yükleme](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-    -   İntrastat (IT)
-
-Daha fazla bilgi için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını yükleme](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
-
-2.  Dynamics 365 Finance'te, **Vergi** &gt; **Kurulum** &gt; **Dış ticaret parametreleri**'ne gidin.
-
-3.  **İntrastat** sekmesinde, **Genel** hızlı sekmesinde aşağıdaki alanları ayarlayın:
+2. Dynamics 365 Finance'de **Vergi** > **Kurulum** > **Dış ticaret parametreleri**'ne gidin.
+3. **İntrastat** sekmesinde, **Genel** hızlı sekmesinde aşağıdaki alanları ayarlayın:
 
     - **Menşe/hedef**: Şirketinizin ilçesini seçin. Bu ilçe gönderimlerde kullanılacak.
-
-    <!-- -->
-
     - **Hareket kodu**: Mülk transferleri için hareket kodunu seçin. Bu kod, ücret karşılığında fiili veya planlı bir mülk aktarımına neden olan hareketler ve ayrıca düzeltmeler için kullanılır.
 
-    - **Alacak dekontu**: Malların iadesi için hareket kodunu seçin. Bu kod, özgün hareket hareket kodu altında kaydedildikten sonra malların iadesi için kullanılır.
-
+    - **Alacak dekontu**: Malların iadesi için hareket kodunu seçin.
     - **Satış raporlama dönemi**: İhracat beyannamesi için raporlama dönemini seçin: **Aylık** veya **Üç Aylık**. Üç aylık bildirimler basitleştirilmiş biçimde dışarı aktarılır.
-
     - **Satınalma raporlama dönemi**: İthalat beyannamesi için raporlama dönemini seçin: **Aylık** veya **Üç Aylık**. Üç aylık bildirimler basitleştirilmiş biçimde dışarı aktarılır.
 
-4.  **Elektronik raporlama** hızlı sekmesinde, aşağıdaki alanları ayarlayın:
+4. **Elektronik raporlama** hızlı sekmesinde, aşağıdaki alanları ayarlayın:
 
     - **Dosya biçimi eşlemesi**: **İntrastat (IT)**'yi seçin.
-
-    <!-- -->
-
     - **Rapor biçimi eşlemesi**: **İntrastat raporu**'nu seçin.
 
-5.  **Emtia kodu hiyerarşisi** hızlı sekmesinde, **Kategori hiyerarşisi** alanında **İntrastat**'ı seçin.
+5. **Emtia kodu hiyerarşisi** hızlı sekmesinde, **Kategori hiyerarşisi** alanında **İntrastat**'ı seçin.
+6. **İstatistiksel değer** hızlı sekmesinde, gerekirse **İstatistiksel verileri yazdır ve dışarı aktar** seçeneğini **Evet** olarak ayarlayın. Bu ayar istatistiksel bölümün aktarımını etkinleştirir. İstatistik bölümü; ağırlıklar, ek birimler, istatistiksel değerler, teslimat koşulları, teslimat planlaması, taşıma şekilleri ve menşe bölgeler hakkındaki verilerden oluşur.
 
-6.  **İstatistiksel değer** hızlı sekmesinde, gerekirse **İstatistiksel verileri yazdır ve dışarı aktar** seçeneğini **Evet** olarak ayarlayın. Bu ayar istatistiksel bölümün aktarımını etkinleştirir. İstatistik bölümü; ağırlıklar, ek birimler, istatistiksel değerler, teslimat koşulları, teslimat planlaması, taşıma şekilleri ve menşe bölgeler hakkındaki verilerden oluşur.
+    > [!NOTE]
+    > Üç aylık bir bildirim için İntrastat raporu istatistiksel bölümü veya teslimat koşulları ve taşıma şekilleri hakkındaki bilgileri içermez. Daha fazla bilgi için bu konunun [Genel bakış](#overview) bölümündeki tabloya bakın.
 
->[!NOTE]
->
->Üç aylık bir bildirim için İntrastat raporu istatistiksel bölümü veya teslimat koşulları ve taşıma şekilleri hakkındaki bilgileri içermez. Daha fazla bilgi için bu konunun [Genel bakış](#overview) bölümündeki tabloya bakın.
+7. **Ülke/bölge özellikleri** sekmesinde, kuruluşunuzun iş yaptığı tüm ülke/bölgeleri listeleyin. Her ülke/bölge için aşağıdaki alanları ayarlayın:
 
-7.  **Ülke/bölge özellikleri** sekmesinde, kuruluşunuzun iş yaptığı tüm ülke/bölgeleri listeleyin. Her ülke/bölge için aşağıdaki alanları ayarlayın:
+    - **Taraf ülkesi/bölgesi**: Ülke/bölge kodunu seçin.
+    - **İntrastat kodu**: İki basamaklı İntrastat kodunu girin.
+    - **Para birimi**: Ülke/bölgenin ulusal para birimini belirtin. Satıcı euro kullanmayan bir AB ülkesinde bulunuyorsa fatura tutarları hem satıcının para birimi hem de euro cinsinden bildirilecektir. Örneğin, satıcı Danimarka'da bulunuyorsa ithalat beyannamesi için bildirilen tutarlar hem Danimarka kronu (DKK) hem de euro (EUR) olur.
+    - **Ülke/bölge türü**: Kuruluşunuzla ilgili ülkenin veya bölgenin türünü seçin. İntrastat günlüğü için yalnızca **AB** ve **Özel yurtiçi** türündeki ülke/bölgeler transfer edilecektir.
 
-- **Taraf ülkesi/bölgesi**: Ülke/bölge kodunu seçin.
+    > [!NOTE]
+    > **Özel yurt içi** türündeki ülke/bölgeler için intrastat raporu dosyasındaki aşağıdaki alanlar atlanır: **Ağırlık**, **Ek birimler**, **İstatistiksel değer**, **Teslimat koşulları**, **Taşıma kodu**, **Menşe ülke/hedef bölge** ve **Menşe/hedef ilçe**. Örneğin, **Taraf ülkesi/bölgesi** alanında **SMR (San Marino)** öğesini seçin ve sonra **Ülke/bölge türü** alanında **Özel yurtiçi**'ni seçin.
 
-- **İntrastat kodu**: İki basamaklı İntrastat kodunu girin.
-
-- **Para birimi**: Ülke/bölgenin ulusal para birimini belirtin. Satıcı euro kullanmayan bir AB ülkesinde bulunuyorsa fatura tutarları hem satıcının para birimi hem de euro cinsinden bildirilecektir. Örneğin, satıcı Danimarka'da bulunuyorsa ithalat beyannamesi için bildirilen tutarlar hem Danimarka kronu (DKK) hem de euro (EUR) olur.
-
-- **Ülke/bölge türü**: Kuruluşunuzla ilgili ülkenin veya bölgenin türünü seçin. İntrastat günlüğü için yalnızca **AB** ve **Özel yurtiçi** türündeki ülke/bölgeler transfer edilecektir.
-
->[!NOTE]
->
->**Özel yurt içi** türündeki ülke/bölgeler için intrastat raporu dosyasındaki aşağıdaki alanlar atlanır: **Ağırlık**, **Ek birimler**, **İstatistiksel değer**, **Teslimat koşulları**, **Taşıma kodu**, **Menşe ülke/hedef bölge** ve **Menşe/hedef ilçe**. Örneğin, **Taraf ülkesi/bölgesi** alanında **SMR (San Marino)** öğesini seçin ve sonra **Ülke/bölge türü** alanında **Özel yurtiçi**'ni seçin.
-
-8.  **Borç hesapları** &gt; **Kurulum** &gt; **Teslimat koşulları**'na gidin.
-
-9.  Kılavuzda teslimat koşullarını seçin.
-
+8. **Borç hesapları** > **Kurulum** > **Teslimat koşulları**'na gidin.
+9. Kılavuzda teslimat koşullarını seçin.
 10. **Genel** hızlı sekmesinde, **İntrastat kodu** alanına, İntrastat raporunda kullanılacak tek basamaklı kodu girin.
-
 11. Bu adımları izleyerek müşterilere ve satıcılara vergi muafiyet numaraları atayın. Bu numaralar İntrastat raporunda görünecektir.
-
--   **Vergi** &gt; **Kurulum** &gt; **Satış vergisi** &gt; **Vergi muafiyet numaraları**'na gidin ve müşterileriniz ve satıcılarınız için tüm vergi muafiyeti numaralarını listeleyin. Her iş ortağı için aşağıdaki alanları ayarlayın:
+12. **Vergi** > **Kurulum** > **Satış vergisi** > **Vergi muafiyet numaraları**'na gidin ve müşterileriniz ve satıcılarınız için tüm vergi muafiyeti numaralarını listeleyin. Her iş ortağı için aşağıdaki alanları ayarlayın:
 
     - **Ülke/bölge**: İş ortağının ülkesini veya bölgesini seçin.
-
     - **Vergi muafiyet numarası**: İş ortağının vergi muafiyet numarasını girin.
-
     - **Şirket adı**: İş ortağının adını girin.
 
-<!-- -->
+13. **Alacak hesapları** > **Müşteriler** > **Tüm müşteriler**'e gidin ve her müşteri için şu adımları izleyin:
 
--   **Alacak hesapları** &gt; **Müşteriler** &gt; **Tüm müşteriler**'e gidin ve her müşteri için şu adımları izleyin:
+    1. Müşteri seçin.
+    2. **Fatura ve teslimat** hızlı sekmesinde, **Satış vergisi** bölümünde, **Vergi muafiyet numarası** alanında **Tümü**'nü seçin.
+    3. Müşterinin vergi muafiyet numarasını seçin.
 
-    1.  Müşteri seçin.
+14. **Borç hesapları** > **Satıcılar** > **Tüm satıcılar**'a gidin ve her satıcı için şu adımları izleyin:
 
-    2.  **Fatura ve teslimat** hızlı sekmesinde, **Satış vergisi** bölümünde, **Vergi muafiyet numarası** alanında **Tümü**'nü seçin.
+    1. Bir satıcı seçin.
+    2. **Fatura ve teslimat** hızlı sekmesinde, **Satış vergisi** bölümünde, **Vergi muafiyet numarası** alanında **Tümü**'nü seçin.
+    3. Satıcının vergi muafiyet numarasını seçin.
 
-    3.  Müşterinin vergi muafiyet numarasını seçin.
-
--   **Borç hesapları** &gt; **Satıcılar** &gt; **Tüm satıcılar**'a gidin ve her satıcı için şu adımları izleyin:
-
-    1.  Bir satıcı seçin.
-
-    2.  **Fatura ve teslimat** hızlı sekmesinde, **Satış vergisi** bölümünde, **Vergi muafiyet numarası** alanında **Tümü**'nü seçin.
-
-    3.  Satıcının vergi muafiyet numarasını seçin.
-
-12. **Vergi** &gt; **Kurulum** &gt; **Dış ticaret** &gt; **İntrastat sıkıştırması**'na gidin ve İntrastat bilgileri özetlendiğinde karşılaştırılması gereken alanları seçin. İtalya için **Vergi muafiyet numarası**, **Hareket kodu**, **Emtia**, **Teslimat koşulları**, **Taşıma**, **Ülke/bölge**, **Menşe ülke/bölge**, **Menşe ilçe**, **Menşe/hedef**, **Para birimi**, **Ay**, **Üç Ay** ve **Düzeltme yılı**'nı seçin.
+15. **Vergi** > **Kurulum** > **Dış ticaret** > **İntrastat Sıkıştırması** seçeneğine gidin ve İntrastat bilgileri özetlendiğinde karşılaştırılacak alanları seçin. İtalya için **Vergi muafiyet numarası**, **Hareket kodu**, **Emtia**, **Teslimat koşulları**, **Taşıma**, **Ülke/bölge**, **Menşe ülke/bölge**, **Menşe ilçe**, **Menşe/hedef**, **Para birimi**, **Ay**, **Üç Ay** ve **Düzeltme yılı**'nı seçin.
 
 ## <a name="italian-vendor-invoice-journal-for-foreign-trade"></a>Dış ticaret için İtalyanca satıcı fatura günlüğü
 
@@ -742,7 +703,7 @@ Satıcı fatura günlüğüyle çalışırken, İntrastat raporunuzu etkileyen b
 
 AB ülkeleri arasındaki ticaretle ilgili bilgileri yönetmek için İntrastat günlüğünü kullanın.
 
-İntrastat günlüğünü açmak için **Vergi** &gt; **Beyannameler** &gt; **Dış ticaret** &gt; **İntrastat**'a gidin. Her hareket için aşağıdaki bilgiler gösterilir:
+İntrastat günlüğünü açmak için **Vergi** &gt; **Bildirimler** &gt; **Dış ticaret** &gt; **İntrastat**'a gidin. Her hareket için aşağıdaki bilgiler gösterilir:
 
 | **Alan**                              | **Açıklama**                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -762,10 +723,10 @@ AB ülkeleri arasındaki ticaretle ilgili bilgileri yönetmek için İntrastat g
 >
 >Raporlama dönemiyle aynı dönemde negatif düzeltme (alacak dekontu) alırsanız bu adımları izleyerek İntrastat günlüğünü el ile değiştirmeniz gerekir.
 >
->1.  **Vergi** &gt; **Beyannameler** &gt; **Dış Ticaret** &gt; **İntrastat**'a gidin.
->2.  Düzeltme olarak işaretlenmiş hareketi bulun ve silin.
->3.  Özgün hareketi bulun ve **Fatura tutarı** alanının değerini uygun şekilde değiştirin.
->Örneğin, 10.000 birim tutarında bir faturanız var ve -2.000 için bir alacak dekontu alıyorsunuz. Bu durumda, İntrastat günlüğünü açmanız ve -2.000 için hareketi bulup silmeniz gerekir. Ardından, 10.000 için özgün hareketi bulun ve fatura tutarını 8.000 (= 10.000 - 2.000) olarak ayarlayın.
+> 1. **Vergi** > **Bildirimler** > **Dış ticaret** > **İntrastat**'a gidin.
+> 2. Düzeltme olarak işaretlenmiş hareketi bulun ve silin.
+> 3. Özgün hareketi bulun ve **Fatura tutarı** alanının değerini uygun şekilde değiştirin.
+> Örneğin, 10.000 birim tutarında bir faturanız var ve -2.000 için bir alacak dekontu alıyorsunuz. Bu durumda, İntrastat günlüğünü açmanız ve -2.000 için hareketi bulup silmeniz gerekir. Ardından, 10.000 için özgün hareketi bulun ve fatura tutarını 8.000 (= 10.000 - 2.000) olarak ayarlayın.
 
 ### <a name="intrastat-transfer"></a>İntrastat transferi
 
@@ -773,235 +734,30 @@ Eylem Bölmesi'nde, satış siparişlerinizden, serbest metin faturalarınızdan
 
 Alternatif olarak, Eylem Bölmesi'nde **Yeni**'yi seçerek hareketleri el ile girebilirsiniz.
 
-Her hareket için **Genel** sekmesinde İtalya'ya özgü birkaç parametre ayarlayabilirsiniz.
+Her hareket için **Genel** sekmesinde İtalya'ya özgü birkaç parametre ayarlayabilirsiniz. Aşağıdaki tabloda, alanlar hakkında daha fazla bilgi sağlanmaktadır.
 
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Alan</strong></p>
-</td>
-<td>
-<p><strong>Açıklama</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Genel</strong> bölümü</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Madde türü</p>
-</td>
-<td>
-<p>Bu alan <strong>Mallar</strong> veya <strong>Hizmetler</strong> olarak ayarlanabilir.</p>
-<p>Bir hareketin hizmet olarak kabul edilmesi için fatura satırınız aşağıdaki yollardan biriyle ayarlanmalıdır:</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Emtia kodu yok.</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Altı haneli bir emtia kodu var</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Menşe ülke/bölge</strong> bölümü</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Menşei ülke/bölge</p>
-</td>
-<td>
-<p>Ürün veya hizmetin menşe ilçesi. Bu değer <strong>Serbest bırakılan ürünler</strong> sayfasında belirtilir.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Kodlar</strong> bölümü</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Teslimat şekli</p>
-</td>
-<td>
-<p>Teslimat şekli. Teslimat şeklini belirtmek için <strong>Satış ve pazarlama</strong> &gt; <strong>Kurulum</strong> &gt; <strong>Dağıtım</strong> &gt; <strong>Teslimat şekilleri</strong>'ne gidin.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Düzeltmeler</strong> bölümü</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Ay</p>
-</td>
-<td>
-<p>Özgün hareketin ayı.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Üç aylık dönem</p>
-</td>
-<td>
-<p>Özgün hareketin çeyreği.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Düzeltme yılı</p>
-</td>
-<td>
-<p>Özgün hareketin yılı.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Orijinal Intrastat kaydı</p>
-</td>
-<td>
-<p>Hizmet düzeltmeleri için özgün İntrastat kaydının numarasını girin.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;"><strong>Fatura değeri</strong> bölümü</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Para Birimi</p>
-</td>
-<td>
-<p>İş ortağının ulusal para birimi.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Hareket para birimi cinsinden fatura tutarı</p>
-</td>
-<td>
-<p>İş ortağının ulusal para birimi cinsinden fatura tutarı.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Hareket para birimi cinsinden fatura masrafları tutarı</p>
-</td>
-<td>
-<p>İş ortağının ulusal para birimi cinsinden fatura ücretleri.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Hareket para birimi cinsinden fatura değeri</p>
-</td>
-<td>
-<p>İş ortağının ulusal para birimi cinsinden fatura değeri.</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Alan | Tanım |
+|-------|-------------|
+| Madde türü | Bu alan **Mallar** veya **Hizmetler** olarak ayarlanabilir.<br> Bir hareketin hizmet olarak kabul edilmesi için fatura satırınız aşağıdaki yollardan biriyle ayarlanmalıdır:<br>- Emtia kodu yok<br>- Altı haneli bir emtia kodu var  |
+| Menşei ülke/bölge | Ürün veya hizmetin menşe ilçesi. Bu değer **Serbest bırakılan ürünler** sayfasında belirtilir. |
+| Teslimat şekli | Teslimat şekli. <br>Teslimat şeklini belirtmek için **Satış ve pazarlama** > **Kurulum** > **Dağıtım** > **Teslimat şekilleri**'ne gidin. |
+| Ay | Özgün hareketin ayı. |
+| Üç aylık dönem | Özgün hareketin çeyreği. |
+| Düzeltme yılı | Özgün hareketin yılı. |
+| Orijinal Intrastat kaydı | Hizmet düzeltmeleri için özgün İntrastat kaydının numarasını girin. |
+| Para Birimi | İş ortağının ulusal para birimi. |
+| Hareket para birimi cinsinden fatura tutarı | İş ortağının ulusal para birimi cinsinden fatura tutarı. |
+| Hareket para birimi cinsinden fatura masrafları tutarı | İş ortağının ulusal para birimi cinsinden fatura ücretleri. |
+| Hareket para birimi cinsinden fatura değeri | İş ortağının ulusal para birimi cinsinden fatura değeri. |
 
 İş ortağının ulusal para birimi cinsinden fatura giderleri hakkında daha fazla bilgi için bkz. [İntrastat'a genel bakış önkoşullar (Çeşitli giderler)](emea-intrastat.md).
 
 ### <a name="generate-an-intrastat-report"></a>İntrastat raporu oluşturma
 
-1.  İntrastat raporu oluşturmak için **Vergi** &gt; **Beyannameler** &gt; **Dış ticaret** &gt; **İntrastat**'a gidin.
-
-2.  Eylem Bölmesi'nde **Çıktı** &gt; **Rapor**'u seçin.
-
-3.  **İntrastat Raporu** iletişim kutusunda aşağıdaki alanları ayarlayın.
-
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Alan</strong></p>
-</td>
-<td>
-<p><strong>Açıklama</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p><strong>Tarih</strong> bölümü</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Başlangıç tarihi</p>
-</td>
-<td>
-<p>Raporun başlangıç tarihini seçin.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Bitiş tarihi</p>
-</td>
-<td>
-<p>Raporun bitiş tarihini seçin.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p><strong>Dışarı aktarma seçenekleri</strong> bölümü</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Dosya oluştur</p>
-</td>
-<td>
-<p>.txt dosyası oluşturmak için bu seçeneği <strong>Evet</strong> olarak ayarlayın.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Dosya adı</p>
-</td>
-<td>
-<p>İntrastat raporunuz için .txt dosyasının adını girin.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Rapor oluştur</p>
-</td>
-<td>
-<p>.xlsx dosyası oluşturmak için bu seçeneği <strong>Evet</strong> olarak ayarlayın.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Rapor dosyası adı</p>
-</td>
-<td>
-<p>İntrastat raporunuz için .xlsx dosyasının adını girin.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Yön</p>
-</td>
-<td>
-<p>Topluluk içi gelenlerle ilgili bir rapor için <strong>Gelenler</strong>'i seçin. Topluluk içi gönderimler hakkında rapor için <strong>Gönderimler</strong>'i seçin.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p><strong>Dosya biçimi eşlemesi</strong> bölümü</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Referans numarası</p>
-</td>
-<td>
-<p>Belge numarasını girin. Bu değer İntrastat dosya raporundaki <strong>Dosya numarası</strong> kodunu etkiler. Daha fazla bilgi için bkz. Dosya biçimi.</p>
-</td>
-</tr>
-</tbody>
-</table>
+1. İntrastat raporu oluşturmak için **Vergi** > **Bildirimler** > **Dış ticaret** > **İntrastat**'a gidin.
+2. Eylem Bölmesi'nde **Çıkış** > **Rapor**'u seçin.
+3. **İntrastat Raporu** iletişim kutusunda, raporun başlangıç ve bitiş tarihlerini seçin.
+4. **Dosya oluştur** alanında, .txt dosyası oluşturmak ve dosyanın adını girmek için **Evet**'i seçin.
+5. **Rapor oluştur** alanında, .xlsx dosyası oluşturmak ve ardından raporun adını girmek için **Evet**'i seçin.
+6. Raporun konusuna bağlı olarak **Gelenler** veya **Gönderimler**'i seçin.
+7. **Referans numarası** alanında belge numarasını girin. Bu değer, İntrastat dosya raporundaki dosya numarası kodunu etkiler. 

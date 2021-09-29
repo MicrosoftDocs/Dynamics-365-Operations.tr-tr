@@ -2,7 +2,7 @@
 title: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
 description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748484"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488150"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -138,6 +138,55 @@ Görüntüleri ve şekilleri gömme hakkında daha fazla bilgi için, bkz. [ER k
 
 **PageBreak** bileşeni, Excel'i yeni bir sayfa başlatmaya zorlar. Excel'in varsayılan sayfalandırmasını kullanmak istediğinizde bu bileşen gerekli değildir ancak Excel'in, ER biçiminizle sayfalandırmayı yapılandırmasını istediğinizde bunu kullanmanız gerekir.
 
+## <a name="page-component"></a><a name="page-component"></a>Sayfa bileşeni
+
+### <a name="overview"></a>Genel bakış
+
+Excel'in ER biçiminizi izlemesini ve oluşturulan bir giden belgede sayfalandırmayı yapılandırmasını istediğinizde **Sayfa** bileşenini kullanabilirsiniz. ER biçimi, **Sayfa** bileşeninin altındaki bileşenleri çalıştırdığında gerekli sayfa sonları otomatik olarak eklenir. Bu işlem sırasında oluşturulan içeriğin boyutu, Excel şablonunun sayfa düzeni ve Excel şablonunda seçilen kağıt boyutu dikkate alınır.
+
+Oluşturulan bir belgeyi, her biri farklı bir sayfalandırmaya sahip farklı bölümlere ayırmanız gerekiyorsa her **Sayfa** bileşeninde birden fazla [Sayfa](er-fillable-excel.md#sheet-component) bileşeni yapılandırabilirsiniz.
+
+### <a name="structure"></a><a name="page-component-structure"></a>Yapı
+
+**Sayfa** bileşeni altındaki ilk bileşen **Yineleme yönü** özelliğinin **Yineleme yok** olarak ayarlandığı bir [Aralık](er-fillable-excel.md#range-component) bileşeniyse bu aralık, geçerli **Sayfa** bileşeninin ayarlarına dayalı sayfalandırma için sayfa üst bilgisi olarak kabul edilir. Bu biçim bileşeniyle ilişkilendirilen Excel aralığı, geçerli **Sayfa** bileşeninin ayarları kullanılarak oluşturulan her sayfanın başında yinelenir.
+
+> [!NOTE]
+> Doğru sayfalandırma için Excel şablonunuzda [Üstte yinelenecek satırlar](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409) aralığı yapılandırılmışsa bu Excel aralığının adresi daha önce açıklanan **Aralık** bileşeniyle ilişkili Excel aralığının adresine eşit olmalıdır.
+
+**Sayfa** bileşeni altındaki son bileşen **Yineleme yönü** özelliğinin **Yineleme yok** olarak ayarlandığı bir **Aralık** bileşeniyse bu aralık, geçerli **Sayfa** bileşeninin ayarlarına dayalı sayfalandırma için sayfa alt bilgisi olarak kabul edilir. Bu biçim bileşeniyle ilişkilendirilen Excel aralığı, geçerli **Sayfa** bileşeninin ayarları kullanılarak oluşturulan her sayfanın altında yinelenir.
+
+> [!NOTE]
+> Doğru sayfalandırma için **Aralık** bileşenleriyle ilişkili Excel aralıkları çalışma zamanında yeniden boyutlandırılmamalıdır. **Metni hücrede kaydır** ve **Satır yüksekliğini otomatik sığdır** Excel [seçeneklerini](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84) kullanarak bu aralığın hücrelerini biçimlendirmenizi önermiyoruz.
+
+Oluşturulan bir belgenin nasıl doldurulacağını belirtmek için isteğe bağlı **Aralık** bileşenleri arasına birden çok başka **Aralık** bileşeni ekleyebilirsiniz.
+
+**Sayfa** bileşeni altındaki iç içe **Aralık** bileşenleri kümesi daha önce açıklanan yapıya uymuyorsa tasarım zamanı sırasında ER biçim tasarımcısında bir doğrulama [hatası](er-components-inspections.md#i17) oluşur. Hata iletisi, sorunun çalışma zamanında sorunlara neden olabileceğini bildirir.
+
+> [!NOTE]
+> Doğru çıktı oluşturmak için **Aralık** bileşeninin **Yineleme yönü** özelliği **Yineleme yok** olarak ayarlanmışsa **Sayfa** bileşeni altındaki herhangi bir **Aralık** bileşeni için bir bağlama belirtmeyin; aralık, sayfa üst bilgileri veya sayfa alt bilgileri oluşturacak şekilde yapılandırılır.
+
+Sayfa başına çalışan toplamları ve toplamları hesaplamak için sayfalandırmayla ilgili toplama ve sayma istiyorsanız gerekli [Veri toplama](er-data-collection-data-sources.md) veri kaynaklarını yapılandırmanızı öneririz. Oluşturulan bir Excel belgesini sayfalandırmak üzere **Sayfa** bileşeninin nasıl kullanılacağını öğrenmek için [Excel biçiminde oluşturulan belgeleri sayfalandırmak için ER biçimi tasarlama](er-paginate-excel-reports.md) bölümündeki yordamları tamamlayın.
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>Sınırlamalar
+
+Excel sayfalandırması için **Sayfa** bileşenini kullandığınızda sayfalandırma tamamlanana kadar oluşturulan belgenin kaç sayfa olacağını bilemezsiniz. Bu nedenle, ER formüllerini kullanarak toplam sayfa sayısını hesaplayamaz ve oluşturulan bir belgenin doğru sayfa sayısını son sayfadan önceki herhangi bir sayfaya yazdıramazsınız.
+
+> [!TIP]
+> Excel üst bilgisinde veya alt bilgisinde bu sonucu elde etmek için üst bilgiler ve alt bilgiler için özel Excel [biçimlendirmesini](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) kullanın.
+
+Dynamics 365 Finance sürüm 10.0.22'de düzenlenebilir biçimdeki bir Excel şablonunu güncelleştirdiğinizde yapılandırılmış **Sayfa** bileşenleri dikkate alınmaz. Bu işlev, Finance'in sonraki sürümleri için dikkate alınır.
+
+Excel şablonunuzu [koşullu biçimlendirme](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting) kullanacak şekilde yapılandırırsanız şablonunuz bazı durumlarda beklendiği gibi çalışmayabilir.
+
+### <a name="applicability"></a>Uygulanabilirlik
+
+**Sayfa** bileşeni, [Excel dosyası](er-fillable-excel.md#excel-file-component) biçimi bileşeni için yalnızca bu bileşen Excel'de bir şablon kullanacak şekilde yapılandırıldığında çalışır. Excel şablonunu bir Word şablonuyla [değiştirirseniz](tasks/er-design-configuration-word-2016-11.md) ve ardından düzenlenebilir ER biçimini çalıştırırsanız **Sayfa** bileşeni yok sayılır.
+
+**Sayfa** bileşeni yalnızca **Elektronik raporlama çerçevesinde EPPlus kitaplığı kullanımını etkinleştir** özelliği etkinleştirildiğinde çalışır. ER, bu özellik devre dışıyken **Sayfa** bileşenini işlemeye çalışırsa çalışma zamanında bir özel durum oluşur.
+
+> [!NOTE]
+> ER biçimi, geçerli olmayan bir hücreye başvuran en az bir formül içeren bir Excel şablonu için **Sayfa** bileşenini işlerse çalışma zamanında bir özel durum oluşur. Çalışma zamanı hatalarını önlemeye yardımcı olmak için Excel şablonunu [#REF! hatası nasıl düzeltilir](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be) bölümünde açıklandığı gibi düzeltin.
+
 ## <a name="footer-component"></a>Alt bilgi bileşeni
 
 **Alt bilgi** bileşeni, Excel çalışma kitabında oluşturulan çalışma sayfasının alt bilgilerini doldurmak için kullanılır.
@@ -197,9 +246,12 @@ Düzenlenebilir bir ER biçimini doğruladığınızda Excel adının şu anda k
 Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturulduğunda, söz konusu belgenin bazı hücrelerinde Excel formülleri olabilir. **Elektronik raporlama çerçevesinde EPPlus kitaplığı kullanımını etkinleştir** özelliği etkinleştirildiğinde, kullanılan Excel şablonundaki **Hesaplama Seçenekleri** [parametresinin](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) değerini değiştirerek formüllerin ne zaman hesaplanacağını kontrol edebilirsiniz.
 
 - Oluşturulan belgeye yeni aralıklar, hücreler vb. her eklendiğinde tüm bağımlı formülleri yeniden hesaplamak için **Otomatik**'i seçin.
+
     >[!NOTE]
     > Bu, birden çok ilişkili formül içeren Excel şablonları için performans sorununa neden olabilir.
+
 - Belge oluşturulduğunda formüllerin yeniden hesaplanmasını önlemek için **El ile** seçeneğini belirleyin.
+
     >[!NOTE]
     > Formülün yeniden hesaplanması, oluşturulan belge Excel kullanılarak önizleme için açıldığında el ile gerçekleştirilir.
     > Oluşturulan belgede, formül içeren hücrelerde değer bulunmayabilir. Bu nedenle, Excel'de önizleme olmadan oluşturulan belge kullanımını varsayan bir ER hedefi (PDF dönüşümü, posta gönderme) yapılandırırken bu seçeneği kullanmayın.

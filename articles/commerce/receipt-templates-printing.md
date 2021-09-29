@@ -2,7 +2,7 @@
 title: Giriş biçimleri ayarlama ve tasarlama
 description: Bu makale makbuz, fatura ve diğer belgelerin nasıl yazdırılacağını belirlemek için form düzenlerinin nasıl değiştirileceğini açıklar. Dynamics 365 Commerce, çeşitli form düzenlerini kolayca oluşturmak ve değiştirmek için kullanabileceğiniz bir form düzeni tasarımcısına sahiptir.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715370"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500183"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Giriş biçimleri ayarlama ve tasarlama
 
@@ -46,7 +46,12 @@ Bu makale makbuz, fatura ve diğer belgelerin nasıl yazdırılacağını belirl
 
 ## <a name="print-images"></a>Resimleri yazdırma
 
-Makbuz tasarımcısı, makbuz üzerinde yazdırılacak görüntüleri belirtmek için kullanılabilen bir **Logo** değişkeni içerir. **Logo** değişkenini kullanan makbuzlara dahil edilen görüntüler, tek renkli bit eşlem (.bmp) dosya türleri olmalıdır. Makbuz tasarımcısında bir. bmp görüntüsü belirtilirse ancak yazıcıya gönderildiğinde yazdırılmazsa dosya boyutu çok büyük olabilir veya görüntüdeki piksel boyutları yazıcıyla uyumlu olmayabilir. Böyle bir durumla karşılaşırsanız, görüntü dosyasının çözünürlüğünü azaltmayı deneyin.   
+Makbuz tasarımcısı bir **Logo** değişkeni içerir. Makbuzlarda yazdırılması gereken bir görüntüyü belirtmek için bu değişkeni kullanabilirsiniz. **Logo** değişkenini kullanarak makbuzlarda yazdırılan görüntüler, tek renkli bit eşlem (.bmp) dosya türleri olmalıdır. Makbuz tasarımcısında bir bitmap görüntüsü belirtilirse ancak makbuz yazıcıya gönderildiğinde yazdırılmazsa bunun nedeni aşağıdaki sorunlardan biri olabilir:
+
+- Dosya boyutu çok büyük veya görüntünün piksel boyutları yazıcıyla uyumlu değil. Bu durumda, görüntü dosyasının çözünürlüğünü veya boyutlarını azaltmayı deneyin.
+- Bazı Satış Noktası için Nesne Bağlama ve Katıştırma (OPOS) yazıcı sürücüleri, logo görüntülerini yazdırmak için donanım istasyonlarının kullanıldığı **PrintMemoryBitmap** yöntemini uygulamaz. Bu durumda, ayırdığınız veya paylaştığınız donanım istasyonunun **HardwareStation.Extension.config** dosyasına aşağıdaki bayrağı eklemeyi deneyin:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Bir giriş biçimi tasarlama
 
@@ -68,7 +73,7 @@ Form belgesinin düzenini grafik olarak oluşturmak için form düzen tasarımc�
     - **Hizala** – Alanı **Sola** veya **Sağa** hizalayın.
     - **Dolgu karakteri** – Boşluk karakterini belirleyin. Varsayılan olarak boş bir alan kullanılır, ancak herhangi bir karakter girebilirsiniz.
     - **Önek** – Alanın başında görünen değeri girin. Bu ayar sadece düzenin **Satırlar** bölümünde uygulanır.
-    - **Karakterler** – Öğe bir değişken içeriyorsa, alanın içerebileceği maksimum karakter sayısını belirtin. Alandaki metin, belirttiğiniz karakter sayısından uzunsa, metin alana sığacak şekilde kesilir.
+    - **Karakterler** – Öğe bir değişken içeriyorsa, alanın içerebileceği maksimum karakter sayısını belirtin. Alandaki metin, belirttiğiniz karakter sayısından uzunsa metin alana sığacak şekilde kesilir.
     - **Değişken** – Öğe bir değişken içeriyorsa ve özelleştirilemiyorsa, bu onay kutusu otomatik olarak seçilir.
     - **Yazı tipi** – Yazı tipi stilini **Normal** veya **Kalın** olarak ayarlayın. Kalın harfler normal harflerden iki kat daha fazla yer kaplar. Bu yüzden, bazı karakterler kesilebilir.
     - **Yazı tipi boyutu** – Yazı tipi boyutunu **Normal** veya **Büyük** olarak ayarlayın. Büyük harfler normal harflerden iki kat daha büyüktür. Bu nedenle, büyük harfler kullanmak makbuzda harflerin üst üste gelmesine neden olabilir.

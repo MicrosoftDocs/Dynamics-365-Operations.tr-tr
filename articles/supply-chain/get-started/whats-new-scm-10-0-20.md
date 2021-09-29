@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773525"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506843"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.20 (Ağustos 2021)
 
@@ -38,6 +38,7 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 | Stok&nbsp;ve&nbsp;lojistik | [Satış siparişi ayrıntıları performans iyileştirmesi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | Bu özellik satış siparişlerini açarken özellikle birçok satır içeren siparişler için Kullanıcı arabirimini daha fazla tepki verir. |
 | İmalat | [Kalite emirleri oluşturmak için proses otomasyon akışlarını çağırın](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/invoke-process-automation-flows-create-quality-orders) | [Kalite emirleri oluşturmak için proses otomasyon akışlarını çağırın](../production-control/process-automation-quality-orders.md ) |
 | İmalat | [Üretim için geliştirilmiş üretim katı yürütme arabirimi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) | [Üretim katı yürütme arabirimini yapılandırma](../production-control/production-floor-execution-configure.md) |
+| Planlama | [Planlama Optimizasyonu için sonsuz kapasite planlaması](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Sonsuz kapasiteyle planlama](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Ürün bilgileri yönetimi | [Formüllerdeki ve içeriklerindeki değişiklikleri yönetme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [Formüllerdeki ve içeriklerindeki değişiklikleri yönetme](../engineering-change-management/manage-formula-changes.md) |
 | Ürün bilgileri yönetimi | [Ürün hazır olma denetimleri](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/product-readiness-checks) | [Ürün hazırlığı](../engineering-change-management/product-readiness.md) |
 

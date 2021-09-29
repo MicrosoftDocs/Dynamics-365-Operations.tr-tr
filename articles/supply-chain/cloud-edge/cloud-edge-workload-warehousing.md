@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471728"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500440"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -91,7 +91,7 @@ Hub aşağıdaki verilere sahiptir:
 
 **Satın alma siparişlerini otomatik olarak serbest bırakma** işlevini kullanırken, sorguyu temel alan belirli satın alma siparişi satırlarını seçebilirsiniz. Tipik bir senaryo örneği, ertesi gün gelmesi beklenen tüm onaylanmış satın alma siparişi satırlarını serbest bırakan yinelenen bir toplu işlem ayarlamaktır.
 
-Çalışan, ölçek birimine bağlı bir Ambar Yönetimi mobil uygulamasını kullanarak teslim alma işlemini çalıştırabilir. Veriler daha sonra ölçek birimi tarafından kaydedilir ve gelen ambar siparişine göre raporlanır. Sonraki yerine koyma işlemlerinin oluşturulması ve işlenmesi de ölçek birimi tarafından yönetilir.
+Çalışan, ölçek birimine bağlı bir Warehouse Management mobil uygulamasını kullanarak teslim alma işlemini çalıştırabilir. Veriler daha sonra ölçek birimi tarafından kaydedilir ve gelen ambar siparişine göre raporlanır. Sonraki yerine koyma işlemlerinin oluşturulması ve işlenmesi de ölçek birimi tarafından yönetilir.
 
 *Ambara serbest bırakma* işlemini kullanmıyorsanız ve bu nedenle *ambar siparişlerini* kullanmıyorsanız hub, ambar teslim alma işlemini ve iş işlemeyi ölçek birimlerinden bağımsız olarak işleyebilir.
 
@@ -142,7 +142,7 @@ Aşağıdaki iş türleri bir ölçek biriminde oluşturulabilir ve bu nedenle, 
 Şu anda ölçek birimlerinde başka türde kaynak belge işleme veya ambar işi desteklenmemektedir. Örneğin, ölçek birimindeki bir ambar yürütme iş yükü için transfer emri alımı işlemeyi (transfer girişi) gerçekleştiremezsiniz; bunun merkez kurulumu tarafından işlenmesi gerekir.
 
 > [!NOTE]
-> Desteklenmeyen işlevler için mobil cihaz menü öğeleri ve düğmeleri, ölçek birimi dağıtımına bağlı olduğunda _Ambar Yönetimi mobil uygulamasında_ gösterilmez.
+> Desteklenmeyen işlevler için mobil cihaz menü öğeleri ve düğmeleri, ölçek birimi dağıtımına bağlı olduğunda _Warehouse Management mobil uygulamasında_ gösterilmez.
 > 
 > Bir ölçek biriminde iş yükü çalıştırıyorsanız merkezdeki belirli bir ambar için desteklenmeyen işlemleri çalıştıramazsınız. Bu konunun ilerleyen kısımlarında sağlanan tablolar desteklenen özellikleri gösterir.
 >
@@ -157,6 +157,7 @@ Aşağıdaki ambar yönetimi işlevi şu anda ölçek birimi iş yükleri için 
 
 - Yüke atanan satınalma siparişi satırlarının gelen işlemesi.
 - Proje için satınalma siparişlerinin gelen işlemesi.
+- Varış yeri maliyetini yönetme, seferleri kullanma ve transitteki malları izleme.
 - Etkin **Sahip** ve/veya **Seri numarası** izleme boyutları olan maddeler için gelen ve giden işleme.
 - Engelleme durumu değeri olan stoku işleme.
 - Herhangi bir iş hareketi işlemi sırasında stok durumunun değiştirilmesi.
@@ -187,7 +188,8 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 |--------------------------------------------------------------|-----|------------------------------|
 | Kaynak belge işleme                                   | Evet | No |
 | Yük ve taşıma yönetimini işleme                | Evet, ancak yalnızca yük planlama işlemleri. Taşıma yönetimi işlemi desteklenmez  | No |
-| Ambara serbest bırak                                         | Evet | No |
+| Varış yeri maliyeti ve transitteki malları teslim alma                                         | Evet | No |
+| Ambara serbest bırakma                                         | Evet | No |
 | Planlanmış çapraz sevk                                        | No  | No |
 | Sevkiyat konsolidasyonu                                       | Evet, yük planlamasını kullanırken | Evet |
 | Sevkiyat dalgası işleme                                     | No  |Evet, **Yük oluşturma ve sıralama** dışında |

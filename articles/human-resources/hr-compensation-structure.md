@@ -1,8 +1,8 @@
 ---
 title: Ücret yapısı geliştirme
-description: Bu makale, bir Sabit ücret planı oluşturma ve çalışanların uygunluk kuralları aracılığıyla plana kaydedilmesini sağlama konusunda sizi yönlendirir.
-author: andreabichsel
-ms.date: 02/10/2020
+description: Bu konuda, sabit ücret planının nasıl oluşturulacağı ve çalışanların uygunluk kuralları aracılığıyla plana nasıl kaydedileceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPar
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec30d6259b755bf7c304e8796b32d373027ce7ff
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732381"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483964"
 ---
 # <a name="develop-a-compensation-structure"></a>Ücret yapısı geliştirme
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu makale, bir Sabit ücret planı oluşturma ve çalışanların uygunluk kuralları aracılığıyla plana kaydedilmesini sağlama konusunda sizi yönlendirir. Bu makale USMF demo verilerini kullanır ve ücret ve sosyal haklar yöneticilerine uygulanır.
+Bu konuda, sabit ücret planı oluşturma ve çalışanları uygunluk kuralları aracılığıyla plana kaydetme işlemleri açıklanmaktadır. Bu konuda, USMF demo verileri kullanılmaktadır ve işlemler, ücret ve kazanç yöneticileri için geçerlidir.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Sabit ücret planı oluşturma
 
@@ -42,7 +42,7 @@ Bu makale, bir Sabit ücret planı oluşturma ve çalışanların uygunluk kural
 
 7. **Tür** alanında, sabit ücret planının bir **Bant**, **Derece** veya **Adım** planı olup olmadığını seçin.
 
-8. **İzin verilen öneri onay kutusu**, İşlem olayı sırasında bu plana eklenen tüm eylemler için varsayılan değer olarak işlev görür. Önerilere izin vermek, ücreti işlerken hesaplanan kılavuz tutarı geçersiz kılmanızı sağlar.
+8. **İzin verilen önerisi** onay kutusu, İşlem olayı sırasında bu plana eklenen tüm eylemler için varsayılan değerdir. Önerilere izin vermek, ücreti işlerken hesaplanan kılavuz tutarı geçersiz kılmanızı sağlar.
 
 9. **Aralık dışında toleransı**, belirli bir düzey için belirtilen ücret yapısı aralığının dışında kalan ücret tutarlarının nasıl ele alınacağını belirtmenize olanak tanır. **Aralık dışı tolerans** alanını **yok** olarak ayarlamak, herhangi bir maaş tutarını kullanmanızı sağlar. **Yumuşak tolerans**, ücret tutarı bu düzeye ilişkin minimum referans noktası tutarından düşük olduğunda veya bu düzeye ilişkin maksimum tutardan yüksek olduğunda kullanıcıyı uyarır. Kullanıcı uyarıyı yok sayıp devam edebilir. **Sert tolerans**, bir çalışanın ücreti düzeye ilişkin minimum ve maksimum referans noktalarının dışında olacak şekilde ayarlandığında hata verir ve çalışanın ücretini bu aralıkta olacak şekilde otomatik olarak düzenler.
 
