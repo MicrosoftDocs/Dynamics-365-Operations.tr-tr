@@ -3,8 +3,10 @@
   items:
     - name: Yenilikler
       items:
-        - name: Human Resources'taki yenilikler veya değişiklikler
+        - name: Human Resources'daki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 20 Eylül 2021
+          href: hr-whats-new-2021-09-20.md
         - name: 06 Eylül 2021
           href: hr-whats-new-2021-09-06.md
         - name: 23 Ağustos 2021
@@ -291,7 +293,9 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Takılmış toplu işleri sıfırlama
               href: hr-admin-troubleshooting-batch-execution.md
-            - name: Analitik raporlar güncelleştirilmiyor
+            - name: Dataverse eşitlemesini sıfırlama
+              href: hr-admin-troubleshooting-dataverse-sync.md
+            - name: Analiz raporları güncelleştirilmiyor
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Power Apps Yönetim merkezinde ortam oluşturulamıyor
               href: hr-admin-troubleshooting-power-apps.md
@@ -485,6 +489,12 @@
               items:
                 - name: Bordrolu çalışan kazanç planı
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Diğer varlıklar
+              items:
+                - name: Kişi adı geçmişi
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Dönüştürme oranı
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Seçenek kümeleri
               items:
                 - name: Cinsiyet
@@ -495,7 +505,7 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: İşlem türü
                   href: hr-admin-integration-payroll-api-process-type.md
-                - name: Kazanç planı türü kapağı
+                - name: Kazanç planı türü kapsamı
                   href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
                 - name: Çalışan kazanç planı durumu
                   href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
@@ -543,11 +553,13 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Genel adres defterini yapılandırma
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Adres kurulumu
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: Adres defterleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Adres defterlerini yapılandırma
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
-                - name: Konum sahiplerini yönetme
+                - name: Yerleşim sahiplerini yönetme
                   href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
             - name: İş akışı sistemi
               items:
@@ -641,7 +653,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
-            - name: Tarih/saat tarih ve saat dilimleri
+            - name: Tarih/saat verileri ve saat dilimleri
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
         - name: Personeli yönetme
           items:
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: ACA raporlama
                   href: hr-benefits-management-aca-reports.md
+                - name: Kazanç beyanı
+                  href: hr-benefits-statement.md
             - name: Kazanç programı tanımlama ve yönetme
               href: hr-benefits-manage-program.md
             - name: Kazanca uygunluk ilkeleri

@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Kar payı sözleşmesi yönetimi
               href: accounts-payable/royalty-contract.md
+            - name: Alacak dekontlarında özgün faturaların referansları (satıcı faturaları)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Ödemeler ve kapatmalar
               items:
                 - name: Borç hesapları için merkezi ödemeler
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Anlık görüntülere genel bakış
                   href: finance-insights/payment-snapshots.md
+            - name: Finance Insights'ta sorun gidermeyle ilgili SSS
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Proje yönetimi ve muhasebe
           items:
             - name: Proje yönetimi ve muhasebeye genel bakış
@@ -1570,10 +1574,14 @@
                           href: localizations/tax-calculation-rounding-rules.md
                     - name: Çoklu KDV kaydı
                       items:
-                        - name: Çoklu KDV kayıt numarası
+                        - name: Birden çok KDV kayıt numarası
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Birden çok KDV kaydı için raporlama
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Avusturya için raporlama
+                          items:
+                            - name: KDV beyannamesi
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Fransa için raporlama
                           items:
                             - name: KDV beyannamesi
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Sınır ötesi hizmetler raporu
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Intrastat raporu
+                - name: Avusturya İntrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Satın alma harçları
                   href: localizations/emea-aut-purchase-duties.md
+                - name: KDV beyannamesi
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahreyn
               items:
                 - name: Bahreyn'e genel bakış
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Üç aylık KDV iletişim raporu
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: Bloke liste raporu
-                  href: localizations/emea-ita-black-list-report.md
                 - name: Yetki tarihi ve mali günlük
                   href: localizations/emea-ita-competence-date.md
                 - name: Sabit kıymetlerin amortismanı
@@ -3801,6 +3809,8 @@
           items:
             - name: Elektronik raporlamaya genel bakış
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Elektronik raporlama bileşenleri
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Yapılandırmalar
               items:
                 - name: Yapılandırmalar oluşturma
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Genel adres defterini yapılandırma
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Adres kurulumu
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Adres defterleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Adres defterlerini yapılandırma
@@ -4613,7 +4625,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/finance/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/finance/toc.json
-            - name: Tarih/saat tarih ve saat dilimleri
+            - name: Tarih/saat verileri ve saat dilimleri
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/finance/toc.json
         - name: ABD Bordrosu
           items:

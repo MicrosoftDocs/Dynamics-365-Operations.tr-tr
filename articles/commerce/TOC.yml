@@ -1398,12 +1398,16 @@
               items:
                 - name: Rusya için Commerce yerelleştirmesi
                   href: localizations/rus-commerce-localization.md
-                - name: Rusya için Commerce POS'ta basitleştirilmiş müşteri adresi biçimi
-                  href: localizations/rus-simplified-address.md
                 - name: Rusya için Commerce yerelleştirmesi ayarlama
                   href: localizations/rus-commerce-setup.md
                 - name: Rusya için Commerce'te ön ödemeler
                   href: localizations/rus-commerce-prepayments.md
+                - name: Rusya için Commerce POS'ta basitleştirilmiş müşteri adresi biçimi
+                  href: localizations/rus-simplified-address.md
+                - name: Rusya için yazar kasa tümleştirme örneği
+                  href: localizations/rus-fpi-sample.md
+                - name: Rusya için müşteri bilgileri yönetimi
+                  href: localizations/rus-customer-information.md
             - name: İsveç
               items:
                 - name: Yazar kasa işlevi
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Genel adres defterini yapılandırma
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Adres kurulumu
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Adres defterleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Adres defterlerini yapılandırma
@@ -2324,12 +2330,16 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/commerce/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
-            - name: Tarih/saat tarih ve saat dilimleri
+            - name: Tarih/saat verileri ve saat dilimleri
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: Genişletilebilirlik
           items:
             - name: Commerce geliştirme ve genişletilebilirlik
-              href: dev-itpro/dev-retail-home-page.md
+              items:
+                - name: BT uzmanları ve geliştiriciler için Commerce
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Yerel geliştirme ortamı ayarlama
+                  href: dev-itpro/setup-local-dev-env.md
             - name: Çevrimiçi kanal genişletilebilirliği
               items:
                 - name: Çevrimiçi kanal genişletilebilirliğine genel bakış

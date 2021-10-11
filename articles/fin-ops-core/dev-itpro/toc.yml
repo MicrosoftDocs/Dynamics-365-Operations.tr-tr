@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: 10.0.20 sürümü için platform güncelleştirmeleri (Ağustos 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: 10.0.19 için platform güncelleştirmeleri (Haziran 2021)
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -1080,6 +1078,8 @@
                   items:
                     - name: Varlık ve alan eşlemelerini özelleştirme
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Çift yazma için özelleştirme kılavuzu
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Çoklu varlık eşlemelerini işleme
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Çift yazma kurulumundan sonra tüzel kişiliği düzenleme

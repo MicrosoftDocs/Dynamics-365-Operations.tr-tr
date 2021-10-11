@@ -286,7 +286,7 @@
                       href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
                       href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Çoklu KDV kayıt numarası
+                    - name: Birden çok KDV kayıt numarası
                       href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Ana veri arama için ortam ayarlama
                       href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Planlama Optimizasyonu tarafından kullanılmayan parametreler
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Tedarik planı
+                  href: master-planning/supply-schedule.md
                 - name: Plana filtre uygulama
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Talep tahmini ile master planlama
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Giden planlanmış şirketlerarası talebi görüntüleme
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: İç tedarik zinciri müşterileriyle işbirliği yapma
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Yerleşik master planlama ile net gereksinimler ve ilişkilendirme bilgileri
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Tahmin
@@ -1989,7 +1989,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/supply-chain/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Tarih/saat tarih ve saat dilimleri
+            - name: Tarih/saat verileri ve saat dilimleri
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Tedarik ve kaynak atama
           items:
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Satınalma siparişi onayı mobil çalışma alanı
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Dahili kullanım için şirketlerarası satınalma siparişi oluşturma ve faturalama
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Şirketlerarası sipariş fiyat farklılıklarını denetleme
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Satınalma siparişindeki malların girişini kaydetme
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Satınalma siparişi oluşturma
               items:
                 - name: Satınalma siparişlerini el ile oluşturma
@@ -2725,10 +2729,66 @@
               items:
                 - name: Fiyat benzetimi
                   href: sales-marketing/price-simulation.md
-                - name: Satış tekliflerini toplu olarak oluşturma
+                - name: Satış tekliflerini toplu oluşturma
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Satış teklifleri oluşturma ve düzenleme
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: Şirketlerarası ticaret
+              items:
+                - name: Şirketlerarası ticareti ayarlama
+                  items:
+                    - name: Şirketlerarası ticareti ayarlama
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Şirketlerarası parametreler
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Şirketlerarası ticaret için satıcıları, müşterileri ve maddeleri ayarlama'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Şirketlerarası siparişlerde giderleri ayarlama
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Şirketlerarası siparişi deftere nakletmek üzere parametreleri ayarlama
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Şirketlerarası bilgileri eşitleme
+                  items:
+                    - name: Şirketlerarası fiyatları ve iskontoları eşitleme
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Şirketlerarası giderleri eşitleme
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Şirketlerarası müşteri bilgilerini eşitleme
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Şirketlerarası değerlendirme kodlarını eşitleme
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Şirketlerarası satış siparişleri ve faturaları
+                  items:
+                    - name: Birkaç şirkette şirketlerarası satınalma ve satış siparişleri oluşturma
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Şirketlerarası siparişler ve iade emirleri
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Dahili kullanım için şirketlerarası satış siparişi oluşturma
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Harici müşteri için şirketlerarası satış siparişi oluşturma ve faturalama
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Şirketlerarası rezervasyonlar
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Orijinal şirketlerarası satış siparişini değiştirme veya silme
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Şirketlerarası siparişleri değiştirme
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Şirketlerarası toplu iş ve seri numaraları
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Şirketlerarası sevk irsaliyeleri
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Şirketlerarası müşteri faturaları için ödemeleri otomatik olarak kaydetme
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Şirketlerarası satınalma siparişleri
+                  items:
+                    - name: Dahili kullanım için şirketlerarası satınalma siparişi oluşturma ve faturalama
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Şirketlerarası sipariş fiyat farklılıklarını denetleme
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Şirketlerarası para birimi dönüştürmeleri
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Şirketlerarası master planlama
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: İadeler
               items:
                 - name: Satış iadeleri
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Son teslim alma maliyeti modülünü ayarlama ve yapılandırma
               items:
+                - name: Sisteminiz için Son teslim alma maliyeti modülünü açma
+                  href: landed-cost/landed-cost-enable.md
                 - name: Son teslim alma maliyeti parametreleri
                   href: landed-cost/landed-cost-parameters.md
                 - name: Son teslim alma maliyeti tedarik ve kaynak atama parametreleri
@@ -3185,7 +3247,9 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Yerleşim yönergesi stoktan çekme yaşlandırma
                       href: warehousing/location-directive-inventory-picking-aging.md
-                    - name: Giden sıralama
+                    - name: Bağlama
+                      href: warehousing/anchoring.md
+                    - name: Giden tasnif
                       href: warehousing/outbound-sorting.md
                     - name: Duvara yerleştirme - mağazaya yerleştirme
                       href: warehousing/put-to-wall-put-to-store.md
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Bir mobil cihazda en eski toplu işi seçme
                       href: warehousing/pick-oldest-batch.md
+                - name: Genel mobil cihaz parametreleri
+                  href: warehousing/mobile-device-parameters.md
                 - name: Mobil cihaz kullanıcı ayarları
                   href: warehousing/mobile-device-user-settings.md
                 - name: Ambar uygulaması olayı işleme
