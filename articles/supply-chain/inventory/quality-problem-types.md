@@ -1,7 +1,7 @@
 ---
 title: Uygunsuzluklar için sorun türleri
 description: Bu konu, uygunsuzluklar için sorun türlerinin nasıl oluşturulacağını ve kullanılacağını açıklamaktadır.
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ded53fd273ace8a6ed7f37219ca50ade329d9f08249596b524b1e3673d6ad547
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744834"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568819"
 ---
 # <a name="problem-types-for-nonconformances"></a>Uygunsuzluklar için sorun türleri
 

@@ -2,7 +2,7 @@
 title: Varlık verilerini Excel ile görüntüleme ve güncelleştirme
 description: Bu konuda, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Microsoft Dynamics Excel eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761366"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592677"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Varlık verilerini Excel ile görüntüleme ve güncelleştirme 
 
@@ -60,7 +60,7 @@ Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Ex
 
 6. **Tamam**'ı ve ardından **Evet**'i seçerek değişikliği onaylayın. Excel eklentisi yeniden başlar ve meta verileri yükler.
 
-    **Tasarım** düğmesi kullanılabilir hale gelir. Excel eklentisinde bir **Uygulamaları yükle** düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Daha fazla bilgi için bu konunun [Sorun giderme](../office-integration/use-excel-add-in.md#troubleshooting) bölümündeki "Uygulamaları yükle düğmesi görünüyor" konusuna bakın.
+    **Tasarım** düğmesi kullanılabilir hale gelir. Excel eklentisinde bir **Uygulamaları yükle** bağlantısı varsa büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Bu sorunu gidermeye yönelik daha fazla bilgi için [Uygulamaları yükle](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) sorun giderme girişine bakın.
 
 7. **Tasarım**'ı seçin. Excel eklentisi varlık meta verilerini alır.
 8. **Tablo ekle**'yi seçin. Varlıkların listesi görüntülenir. Varlıklar "Ad - Etiket" biçiminde listelenir.
@@ -136,7 +136,7 @@ Bir ortamdaki çalışma kitabından okunan veriler başka bir ortama kopyalanab
 ## <a name="troubleshooting"></a>Sorun Giderme
 Bazı kolay adımlarla çözülebilecek birkaç sorun var.
 
-- **Uygulamaları yükle düğmesi görünüyor** – Oturum açıldıktan sonra Excel eklentisinde bir **Uygulamaları** yükle düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Bu sorunu çözmek için, Excel eklentisinin sağ üst köşesinde doğru kullanıcı adının göründüğünü doğrulayın. Yanlış kullanıcı adı görünüyorsa, adı seçin, oturumu kapatın ve yeniden oturum açın.
+- **"Uygulamaları yükle" bağlantısı görünüyor**: Bu sorunu gidermeye yönelik daha fazla bilgi için [Uygulamaları yükle](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) sorun giderme girişine bakın. 
 - **"Yasak" iletisi alıyorsunuz** – Excel eklentisi meta verileri yüklerken "Yasak" iletisi alırsanız, Excel eklentisinde oturum açan hesabın, hedeflenen hizmeti, örneği veya veritabanını kullanma izni yoktur. Bu sorunu çözmek için, Excel eklentisinin sağ üst köşesinde doğru kullanıcı adının göründüğünü doğrulayın. Yanlış kullanıcı adı görünüyorsa, adı seçin, oturumu kapatın ve yeniden oturum açın.
 - **Excel'de boş bir web sayfası görünüyor**: Oturum açma işlemi sırasında boş bir web sayfası açılıyorsa, hesap için AD FS gerekiyordur ancak Excel eklentisini çalıştıran Excel'in sürümü, oturum aç iletişim kutusunu yükleyecek kadar yeni değildir. Bu sorunu çözmek için, kullandığınız Excel sürümünü güncelleştirin. Gecikmeli bir kanalda bulunan bir kuruluştayken Excel sürümünü güncelleştirmek için [Office dağıtım aracını](/deployoffice/overview-office-deployment-tool) kullanarak [gecikmeli kanaldan geçerli kanala geçin](/deployoffice/overview-update-channels).
 - **Veri değişiklikleri yayımladığınızda zaman aşımı iletisi alıyorsunuz**: Varlıkta yapılan veri değişikliklerini yayımlamaya çalışırken zaman aşımı iletileri alıyorsanız etkilenen çalışma kitabının yayımlama toplu işi boyutunu azaltabilirsiniz. Kayıt değişikliklerinde büyük boyutlarda mantık tetikleyen varlıklar, zaman aşımlarını önlemeye yardımcı olmak için güncelleştirmelerin daha küçük toplu işlerle gönderilmesini gerektirebilir.

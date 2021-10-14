@@ -1,7 +1,7 @@
 ---
 title: Varışa genel bakış
 description: Bu konu, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varış genel bakış sayfası bu özelliğin bir parçasıdır ve gelen maddelere, varması beklenen maddeler olarak genel bir bakış sağlamaktadır.
-author: perlynne
+author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 296e26d2006f3601d4c519128797690474bc150d57b58a6b06b1372ea311eb04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780662"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567451"
 ---
 # <a name="arrival-overview"></a>Varışa genel bakış
 
@@ -44,7 +44,7 @@ Bir alıcı memur olan Sami, geçerli tarihte nelerin gelmesinin beklendiğini b
 -   Uygun varış günlüğü referansına erişin (yani, **Madde varışı** günlüğü veya **Üretim girişi** günlüğü) ve ürün giriş güncelleştirmesi için hazır olan günlükleri tanımlayın.
 
 ## <a name="arrival-overview-page"></a>Varış genel bakış sayfası
-**Varış genel bakış** sayfasını açmak için **Stok yönetimi** &gt; **Gelen siparişler** &gt; **Varış genel bakış** üzerine tıklayın. Teslim alınması beklenen siparişlerin bir listesini görebilirsiniz. Genel bakış, başlık ve satırlara ayrılmıştır. Başlık bilgisi, sipariş türüne, beklenen giriş tarihine ve teslimat hedefine göre gruplanır. Bir başlık satırı varış için seçildiğinde, giriş referansıyla ilişkili olan tüm ayrıntı satırları, sayfanın satır ayrıntıları kısmında varış için seçilir. Tüm ilgili günlük satırları deftere nakledildiğinde, bu bilgi gösterilmez.
+**Varış genel bakış** sayfasını açmak için **Stok yönetimi** &gt; **Gelen siparişler** &gt; **Varış genel bakış** üzerine tıklayın. Teslim alınması beklenen siparişlerin bir listesini görebilirsiniz. Genel bakış, başlık ve satırlara ayrılmıştır. Başlık bilgisi, sipariş türüne, beklenen giriş tarihine ve teslimat hedefine göre gruplanır. Bir başlık satırı varış için seçildiğinde, giriş referansıyla ilişkili olan tüm ayrıntı satırları, sayfanın satır ayrıntıları kısmında varış için seçilir. Tüm ilgili yevmiye defteri satırları deftere nakledildiğinde, bu bilgi gösterilmez.
 
 ### <a name="arrival-overview-profiles"></a>Varış genel bakış profilleri
 
@@ -70,7 +70,7 @@ Bu örnekte, **Varış genel bakış** sayfasının hızlı sekmesindeki **Varı
 
 [![Bir günlük adı belirtme.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
--   **Ambar** ve **Konum** alanlarında değerleri belirtirseniz, bu değerler günlük satırlarına uygulanır. Değerleri belirtmezseniz, sistem stok hareketinde belirtilen boyuttan değerleri kullanır.
+-   **Ambar** ve **Konum** alanlarında değerleri belirtirseniz, bu değerler yevmiye defteri satırlarına uygulanır. Değerleri belirtmezseniz, sistem stok hareketinde belirtilen boyuttan değerleri kullanır.
 
 #### <a name="items-that-are-received-from-one-expected-receipt-order"></a>Bir beklenen giriş siparişinden alınan maddeler
 

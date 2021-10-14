@@ -1,7 +1,7 @@
 ---
 title: Stok uygunluğu denetleme
 description: Bu prosedürde size belirli bir madde numarası için eldeki ve fiziksel stoğun nasıl kontrol edileceği gösterilmektedir.
-author: ShylaThompson
+author: yufeihuang
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 894c153761dc29e3d5d9fc22900d96a50ae33b6d5db92623118e229a9aedafe4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c1533dc677c53e90d73077e06a67c71cebc1b7e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758652"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574629"
 ---
 # <a name="check-the-availability-of-stock"></a>Stok uygunluğu denetleme
 

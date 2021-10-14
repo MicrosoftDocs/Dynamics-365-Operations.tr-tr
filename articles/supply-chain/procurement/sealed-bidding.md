@@ -1,22 +1,22 @@
 ---
 title: RFQ'lar için kapalı teklif
 description: Bu konuda, satıcının teklifinin satın alma personeli tarafından açılana kadar satıcı teklifi yanıtlarının gizli kalması için kapalı tekliflerin nasıl ayarlanacağı açıklanmaktadır.
-author: yanansong
+author: Henrikan
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yanansong
+ms.author: henrikan
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500646"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578092"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>RFQ'lar için kapalı teklif
 
@@ -53,7 +53,11 @@ Bu özelliği ayarlamaya veya kullanmaya başlamadan önce, bu özelliğin siste
 Supply Chain Management, tüm kapalı teklifleri korumak ve bunları uygun zamana kadar gizli tutmak için şifreleme anahtarları kullanır. Gerekli anahtarları oluşturmak ve yönetmek için Key Vault'un özelliklerinden yararlanır. Bu nedenle, sistemi etkinleştirmek için Supply Chain Management'tan bir anahtar kasasına bağlantı ayarlamanız gerekir.
 
 > [!IMPORTANT]
-> Anahtar kasası, kuruluşunuzun sahibi olduğu bir Azure aboneliğinde (Supply Chain Management'ı çalıştırdığınız abonelik değil) oluşturulmalıdır.
+> Kapalı teklif için kullandığınız anahtar kasaları aşağıdaki gereksinimleri karşılamalıdır:
+>
+> - Geliştirme ve test için bir korumalı alan kullanıyorsanız korumalı alan için ayrılmış bir anahtar kasanız ve üretim için ayrı bir kasanız olmalıdır.
+> - Her anahtar kasası, kuruluşunuzun sahibi olduğu bir Azure aboneliğinde (Supply Chain Management'ı çalıştırdığınız abonelik değil) oluşturulmalıdır.
+> - Her anahtar kasası, yalnızca kapalı teklif verme için kullanılmalıdır. Kapalı teklif anahtar kasalarınızı başka herhangi bir amaçla kullanmamalısınız.
 
 Her teklif kendi gizli anahtarını alır. Bu anahtar, kullanıcı teklifi her görüntülediğinde, güncelleştirdiğinde veya mührü açtığında kullanılır.
 

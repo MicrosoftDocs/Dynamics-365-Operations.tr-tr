@@ -1,7 +1,7 @@
 ---
 title: Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme
 description: Bu konu altında, satış siparişlerini Dynamics 365 Sales ve Dynamics 365 Supply Chain Management arasında eşitlemek için kullanılan temel görevler ve şablonlar açıklanmaktadır.
-author: ChristianRytt
+author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9e95ba361bddf4e43b205fe580bb6f4a91dd88248a0c059ad65e66ef07de83c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad23190433b2843ec5063b5fa5b30351fcd86390
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753240"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566443"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme
 
@@ -189,19 +189,19 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Satış Siparişleri (Supply Chain Management'tan Sales'e) - Doğrudan: OrderHeader
 
-[![Veri tümleştirmede şablon eşleme.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Veri tümleştirmede şablon eşleme, Satış Siparişleri (Supply Chain Management'tan Sales'e): Doğrudan: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Satış Siparişleri (Supply Chain Management'tan Sales'e) - Doğrudan: OrderLine
 
-[![Veri tümleştirmede şablon eşleme.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Veri tümleştirmede şablon eşleme, Satış Siparişleri (Supply Chain Management'tan Sales'e): Doğrudan: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Satış Siparişleri (Sales'den Supply Chain Management'a) - Doğrudan: OrderHeader
 
-[![Veri tümleştirmede şablon eşleme.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Veri tümleştirmede şablon eşleme, Satış Siparişleri (Sales'den Supply Chain Management'a): Doğrudan: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Satış Siparişleri (Sales'den Supply Chain Management'a) - Doğrudan: OrderLine
 
-[![Veri tümleştirmede şablon eşleme.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Veri tümleştirmede şablon eşleme, Satış Siparişleri (Sales'den Supply Chain Management'a): Doğrudan: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>İlgili konular
 

@@ -3,7 +3,7 @@ title: Commerce kanalları için mali tümleştirmeye genel bakış
 description: Bu konu, Dynamics 365 Commerce içinde kullanılabilen mali tümleştirme yeterliliklerine genel bakış sağlar.
 author: EvgenyPopovMBS
 manager: annbe
-ms.date: 08/10/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 323d9f4816a4f622143692ead3d1871980b19b52
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343299"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512592"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeye genel bakış
 
@@ -141,6 +141,7 @@ Aşağıdaki mali tümleştirme örnekleri Commerce SDK'si içerisinde şu anda 
 - [Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği](./emea-cze-fi-sample.md)
 - [İsveç için kontrol birimi tümleştirmesi örneği](./emea-swe-fi-sample.md)
 - [Almanya için mali kayıt hizmeti tümleştirme örneği](./emea-deu-fi-sample.md)
+- [Rusya için yazar kasa tümleştirme örneği](./rus-fpi-sample.md)
 
 Aşağıdaki mali tümleştirme işlevi, mali tümleştirme çerçevesi kullanılarak da uygulanır ancak kullanıma hazır olarak sunulur ve Commerce SDK'sine dahil değildir:
 

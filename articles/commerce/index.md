@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0c5922a046376c8dd6284daa892cd0640e0ca1fb9054d63c6f206ed008cc293d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2fc5746d3a05eb85afbcb73079146fee899cebc7
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761622"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595372"
 ---
 # <a name="commerce-home-page"></a>Commerce giriş sayfası
 
@@ -59,4 +59,4 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 
-Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Commerce](https://docs.microsoft.com/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path) konusuna bakın.
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Commerce](/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path) konusuna bakın.

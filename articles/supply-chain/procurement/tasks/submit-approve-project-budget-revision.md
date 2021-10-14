@@ -1,7 +1,7 @@
 ---
 title: Proje bütçe revizyonu gönderme ve onaylama
 description: Bu yordam, bir proje bütçesini düzeltme hakkında bilgi sağlar.
-author: kamaybac
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5eaf5ba8b2c2b05d8ea92d2e1862155c4dda598ee2c041adbff7538a6e4a6e4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 089c235ac60ce9712da92e445a9c811424f80d00
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722331"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577012"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>Proje bütçe revizyonu gönderme ve onaylama
 

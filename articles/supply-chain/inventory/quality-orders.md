@@ -1,7 +1,7 @@
 ---
 title: Kalite emirleri
 description: Bu konuda, kalite emirlerinin el ile veya otomatik olarak nasıl oluşturulacağı ve incelemeler gerçekleştirmek ve Microsoft Dynamics 365 Supply Chain Management'ta test sonuçlarını kaydetmek için bunlarla nasıl çalışılacağı açıklanmaktadır.
-author: perlynne
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d06cd7766f4445a248e0394e75ae390314762cf211a2780da76b4f52aa5bccd4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739814"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571869"
 ---
 # <a name="quality-orders"></a>Kalite emirleri
 

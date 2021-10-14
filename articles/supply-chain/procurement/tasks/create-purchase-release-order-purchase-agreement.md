@@ -1,7 +1,7 @@
 ---
 title: Satın alma siparişi oluştururken satın alma sözleşmesini uygulama
 description: Bu yordam, bir satınalma siparişi oluşturduğunuzda bir satın alma sözleşmesini kullanmayı gösterir.
-author: kamaybac
+author: Henrikan
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1913181e85929951ce240ac31a0ac3f1351f6ae51f6ed2790bae577b2100b308
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 130524dc8e0c8724e35bf13c6b250ab721383711
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731259"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570381"
 ---
 # <a name="apply-a-purchase-agreement-when-creating-a-purchase-order"></a>Satın alma siparişi oluştururken satın alma sözleşmesini uygulama
 
@@ -29,7 +29,7 @@ Bu yordam, bir satınalma siparişi oluşturduğunuzda bir satın alma sözleşm
 
 1. **Üretim ve kaynak \> Çalışma alanları \> Satın alma siparişi hazırlama**'ya gidin.
 1. Eylem Bölmesinde **Yeni satınalma siparişi**'ni seçin.
-1. **Satınalma siparişi oluştur** iletişim kutusu açılır. Bir **Satıcı hesabı** seçin. Diğer adres alanlarını inceleyin ve gerektiği gibi ayarlayın.
+1. **Satınalma siparişi oluştur** iletişim kutusu açılır. **Satıcı hesabı** seçin. Diğer adres alanlarını inceleyin ve gerektiği gibi ayarlayın.
 1. **Genel** hızlı sekmesini genişletin.
 1. **Satınalma anlaşması** alanında, kullanmak istediğiniz etkin anlaşmayı bulun ve seçin. Satıcı için kullanılabilir tüm sözleşmeler burada listelenir.  
 1. **Evet**'i seçin.

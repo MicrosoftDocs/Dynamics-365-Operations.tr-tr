@@ -2,7 +2,7 @@
 title: Stok Görünürlüğü genel API'si
 description: Bu konuda, Stok Görünürlüğü tarafından sağlanan genel API'ler açıklanmaktadır.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474664"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592500"
 ---
 # <a name="inventory-visibility-public-apis"></a>Stok Görünürlüğü genel API'si
 
@@ -82,6 +82,8 @@ Microsoft, Power Apps'te bir kullanıcı arabirimi (UI) oluşturmuştur, böylec
 
 Platform güvenlik belirteci, Stok Görünürlüğü genel API'sini çağırmak için kullanılır. Bu nedenle, Azure AD uygulamanızı kullanarak bir _Azure Active Directory (Azure AD) belirteci_ oluşturmanız gerekir. Daha sonra güvenlik hizmetinden _erişim belirtecini_ almak için Azure AD belirteci kullanmanız gerekir.
 
+Microsoft, kullanıma hazır bir *Postman* belirteç koleksiyonu sağlar. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+
 Güvenlik hizmeti belirteci almak için aşağıdaki adımları izleyin.
 
 1. Azure portalda oturum açın ve bu portalı kullanarak Dynamics 365 Supply Chain Management uygulamanız için `clientId` ve `clientSecret` değerlerini bulun.
@@ -131,7 +133,7 @@ Güvenlik hizmeti belirteci almak için aşağıdaki adımları izleyin.
    - `context`değeri, eklentiyi dağıtmak istediğiniz LCS ortamı kimliği olmalıdır.
    - Diğer tüm değerleri örnekte gösterildiği gibi ayarlayın.
 
-1. Aşağıdaki özelliklere sahip bir HTTP isteği gönderin:
+1. Aşağıdaki özelliklere sahip bir HTTP isteği göndererek erişim belirteci (`access_token`) getirin:
 
    - **URL:** `https://securityservice.operations365.dynamics.com/token`
    - **Yöntem:** `POST`
@@ -148,7 +150,8 @@ Güvenlik hizmeti belirteci almak için aşağıdaki adımları izleyin.
    }
    ```
 
-Sonraki bölümlerde, son adımda alınan belirteci temsil edecek şekilde `$access_token` kullanacaksınız.
+> [!IMPORTANT]
+> Stok Görünürlüğü genel API'lerini çağırmak için *Postman* istek koleksiyonunu kullandığınızda her istek için bir taşıyıcı belirteci eklemelisiniz. Taşıyıcı belirtecinizi bulmak için istek URL'sinin altındaki **Yetkilendirme** sekmesini seçin, **Taşıyıcı Belirteci** türünü seçin ve son adımda getirilen erişim belirtecini kopyalayın. Bu konunun sonraki bölümlerinde son adımda getirilen belirteci temsil etmek için `$access_token` kullanılacaktır.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Eldeki değişiklik olayları oluşturma
 
@@ -508,7 +511,7 @@ Bu isteğin gövde kısmında, `dimensionDataSource` isteğe bağlı bir paramet
 
 - `organizationId` yalnızca bir değer içermelidir ancak yine de bir dizidir.
 - `productId` bir veya daha fazla değer içerebilir. Bu boş bir diziyse tüm ürünler döndürülür.
-- `siteId` ve `locationId`, bölümleme için Stok Görünürlüğü'nde kullanılır.
+- `siteId` ve `locationId`, Stok Görünürlüğü'nde bölümleme için kullanılır. *Eldekini sorgulama* isteğinde birden fazla `siteId` ve `locationId` değeri belirtebilirsiniz. Geçerli sürümde hem `siteId` hem de `locationId` değerlerini belirtmelisiniz.
 
 `groupByValues` parametresi, dizin oluşturma yapılandırmanızı takip etmelidir. Daha fazla bilgi için bkz. [Ürün dizini hiyerarşi yapılandırması](./inventory-visibility-configuration.md#index-configuration).
 

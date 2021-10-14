@@ -1,7 +1,7 @@
 ---
 title: Diğer modüllerle bütçe planlama tümleştirmesi
 description: Bütçe planları aşağıdaki çeşitli farklı kaynaklardan oluşturulabilir. Periyodik işlemin temel unsurları tüm kaynaklar için aynıdır.
-author: ShylaThompson
+author: panolte
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a5841fe48ddf18e3966e25333c5e578912fa0c43c2a7cb27ad24fadd9ad8fb5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceae7296ef6d8a0f181c306bd533694c0219e467
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762376"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594754"
 ---
 # <a name="budget-planning-integration-with-other-modules"></a>Diğer modüllerle bütçe planlama tümleştirmesi
 

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4dde844d38448b2de5c5e0c9b2da4a16405f83c0d72f3a20b9e29afe84d322ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743494"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569011"
 ---
 # <a name="zone-threshold-replenishment"></a>Bölge eşiği stok yenilemesi
 
@@ -276,11 +276,11 @@ Sisteminizde örnek senaryoyu destekleyecek yeterli sayıda stok bulunduğundan 
 1. Stok yenileme işinin maddeleri *TOPLU* kodlu bölgeden çekeceği bölge çekme konumu yönergesinde belirtilen bir toplu yerleşimde madde *A0001* için yeterli stok bulunduğundan emin olun. Toplam stok, stok yenileme şablonunda belirtilen gerekli maksimum miktardan (*150*) fazla olmalıdır.
 1. İsteğe bağlı olmakla birlikte önerilir: Stok ayarlama günlüğü oluşturmak için şu adımları izleyin:
 
-    1. **Stok yönetimi \> Günlük girişleri \> Maddeler \> Stok ayarlama**'ya gidin.
+    1. **Stok yönetimi \> Yevmiye defteri girişleri \> Maddeler \> Stok ayarlama**'ya gidin.
     1. **Yeni**'yi seçin.
     1. **Stok günlüğü oluştur** iletişim kutusundaki **Ambar** alanında *61*'i seçin.
     1. **Tamam**'ı seçin.
-    1. **Günlük satırları** hızlı sekmesinde **Yeni** düğmesini kullanarak kılavuza üç satır ekleyin ve aşağıdaki değerleri ayarlayın. Her satırı ayarlamayı bitirdikten sonra **Kaydet**'i seçin.
+    1. **Yevmiye defteri satırları** hızlı sekmesinde **Yeni** düğmesini kullanarak kılavuza üç satır ekleyin ve aşağıdaki değerleri ayarlayın. Her satırı ayarlamayı bitirdikten sonra **Kaydet**'i seçin.
 
         - **Satır 1:**
 

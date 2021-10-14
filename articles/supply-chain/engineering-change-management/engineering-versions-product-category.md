@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 18f187ef6805b8d2bfe777aaad54ad2cf0fb0d71a981c5b02932f3cccf2404e9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776422"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572901"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Mühendislik sürümleri ve mühendislik ürünü kategorileri
 

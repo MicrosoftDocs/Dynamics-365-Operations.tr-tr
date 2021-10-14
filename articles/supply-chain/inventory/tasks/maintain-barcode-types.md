@@ -1,7 +1,7 @@
 ---
 title: Barkod türlerini yönetme
 description: Bu yordam, malzeme çekme listesi raporunun bir parçası olarak da kullanılabilen yeni bir barkod açıklamasının nasıl ayarlanacağını gösterir.
-author: perlynne
+author: yufeihuang
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4102f8036c0aede7c8a2adcaa9b8799a71ac7ada
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b689d1fc85d59ac87efa1903fd7122ae5ff011da
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441301"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571125"
 ---
 # <a name="maintain-bar-code-types"></a>Barkod türlerini yönetme
 

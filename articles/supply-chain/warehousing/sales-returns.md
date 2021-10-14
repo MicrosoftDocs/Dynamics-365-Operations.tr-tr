@@ -1,7 +1,7 @@
 ---
 title: Satış iadeleri
 description: Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
-author: omulvad
+author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08c32fd989bfbaecf92641fdbbebfad5c823d258fc2583f20186bb7281e3e03f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731091"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565291"
 ---
 # <a name="sales-returns"></a>Satış iadeleri
 
@@ -196,7 +196,7 @@ Varış işlemi sırasında iadeler ambar varışları için genel işlemle tüm
 
 **Karantina yönetimi** seçeneği ayarını **Evet** yaparak, iade satırı için bir karantina emri oluşturabilirsiniz. Bir satır inceleme amacıyla karantinaya gönderildiyse, değerlendirme kodu belirtemezsiniz. 
  
-Malın stok modeli grubunda **Karantina yönetimi** seçeneği ayarını **Evet** yaparsanız, **Günlük satırları** sayfasındaki **Karantina yönetimi** seçeneği Varış günlüğü satırı için işaretlenir ve değiştirilemez. Satır karantinaya gönderilirse, ilgili karantina ambarını belirtmeniz gerekir. 
+Malın stok modeli grubunda **Karantina yönetimi** seçeneği ayarını **Evet** yaparsanız, **Yevmiye defteri satırları** sayfasındaki **Karantina yönetimi** seçeneği Varış günlüğü satırı için işaretlenir ve değiştirilemez. Satır karantinaya gönderilirse, ilgili karantina ambarını belirtmeniz gerekir. 
 
 Varış satırı incelemeye gönderilmiyorsa, ambar varış memuru değerlendirme kodunu doğrudan Varış günlüğü satırında belirtmeli ve ardından Varış günlüğünü nakletmelidir. Aynı değerlendirme kodu iade satırının tüm miktar atanmayacaksa veya satırın tüm miktarı teslim alınmadıysa satırı bölmeniz gerekir. Bir Varış günlüğü satırını böldüğünüz zaman, iade satırını da (**SatışSatırı**) böler ve yeni bir lot kodu oluşturursunuz. Varış günlüğü satırının miktarını azaltarak satırı bölebilirsiniz. Günlük deftere nakledilince kalan miktar için **Beklenen** durumunda yeni bir iade satırı oluşturulur. Satırı **İşlevler** &gt; **Böl**'e tıklayarak da bölebilirsiniz.
 

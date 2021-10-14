@@ -1,24 +1,21 @@
 ---
 title: Regression Suite Automation Tool eğitimi
 description: Bu konu, Regression Suite Automation Tool'un (RSAT) nasıl kullanılacağını gösterir. Çeşitli özellikleri tanımlar ve gelişmiş komut dosyası kullanan örnekler sağlar.
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.custom: 21761
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714561"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556777"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi
 
@@ -82,13 +79,19 @@ Test olayı çalıştırıldıktan sonra Excel parametre dosyasındaki ileti gö
 
 Bu özellik, görev kaydı sırasında gerçekleştirilen adımların ekran görüntülerini alır. Denetleme veya hata ayıklama amacıyla yararlıdır.
 
-- Bu özelliği kullanmak için RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini  **yanlış**'tan **doğru**'ya çevirin.
+- Kullanıcı arabirimi ile RSAT çalıştırırken bu özelliği kullanmak için RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini **yanlış**'tan **doğru**'ya çevirin.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Test olayını çalıştırdığınızda RSAT, çalışma dizinindeki test olaylarının oynatma klasöründeki adımlarının anlık görüntülerini (görüntüler) oluşturur. RSAT'ın eski bir sürümünü kullanıyorsanız, görüntüler **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** konumuna kaydedilir, çalıştırılan her test olayı için ayrı bir klasör oluşturulur.
+- CLI tarafından RSAT çalıştırılırken bu özelliği kullanmak için (örneğin, Azure DevOps) RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini **yanlış**'tan **doğru**'ya çevirin.
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+Test olaylarını çalıştırdığınızda RSAT, adımların anlık görüntülerini (görüntüler) oluşturur ve bunları çalışma dizinindeki test olaylarının oynatma klasörüne kaydeder. Oynatma klasöründe **StepSnapshots** adında ayrı bir alt klasör oluşturulur. Bu klasör, çalıştırılan test olaylarının anlık görüntülerini içerir.
 
 ## <a name="assignment"></a>Assignment
 
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 Aşağıdaki örnek bir satınalma siparişinin sipariş durumunu bulmak için bir Open Data Protocol (OData) çağrısı kullanır. Durum **faturalanmamışsa**, örneğin, faturayı deftere nakleden bir RSAT test olayı çağrısı yapabilirsiniz.
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 9342ab8121b41aa98d93d80198296f721d6e080182e432ead0f84ac7b051fc06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 48e3b93b7e53a47673f824d35ac95b65d8566bce
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717759"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594815"
 ---
 # <a name="clienteling-overview"></a>Müşteri rehberliğine genel bakış
 
@@ -125,7 +125,7 @@ Tümleştirmeyi ayarlamak için aşağıdaki adımları izleyin.
 - **Gizli Diziler** bölümünün altında:
     - **Ad**: Herhangi bir ad, örneğin "CISecret".
     - **Açıklama**: Herhangi bir değer.
-    - **Gizli Dizi**: **kasa**://<Name of key vault>/<name of secret>> Bu örnekte "vault://KeyVaultName/SecretName" olacaktır.
+    - **Gizli dizi**: **kasa**:`//<Name of key vault>/<name of secret>>` Bu örnekte `vault://KeyVaultName/SecretName` olacaktır.
 
 Alanları güncelleştirdikten sonra, gizli diziye Commerce uygulaması tarafından erişilebildiğinden emin olmak için **Doğrula**'yı seçin.
 

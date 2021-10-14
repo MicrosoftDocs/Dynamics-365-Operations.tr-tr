@@ -1,7 +1,7 @@
 ---
 title: Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma
 description: Bu yordam, plaka birleştirme işi için mobil cihaz menüsü öğesi oluşturmayı gösterir.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6891da5b6f088e708c07301c6c441032ab0e65902e3e5d57aabba3b027594760
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 92c971bef440d9f5ba0949b7ba93c1614e998d39
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757482"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574101"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma
 

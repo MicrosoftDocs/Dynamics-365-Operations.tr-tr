@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05e9d6441cf99dce3f4663b9d5ba57e2b386e8c2f3060f75550270083f3b98b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76131b6cc7ee58d4a095da4ac56cd97124e42587
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741465"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559374"
 ---
 # <a name="payroll-position"></a>Bordrolu pozisyon
 
@@ -32,22 +32,29 @@ Fiziksel ad: mshr_payrollpositionentity.
 
 Bu varlık belirtilen çalışan için pozisyonla ilgili bilgi sağlar.
 
-Fiziksel ad: 
+Fiziksel ad: mshr_payrollpositionentity.
 
 ## <a name="properties"></a>Özellikler
 
-| Özellik<br>**Fiziksel ad**<br>**_Türü_** | Kullan | Tanım |
+| Özellik</br>**Fiziksel ad**</br>**_Tür_** | Kullan | Tanım |
 | --- | --- | --- |
-| **Yıllık mesai saatleri**<br>annualregularhours<br>*Ondalık* | Salt okunur<br>Gerekli | Pozisyonda tanımlanan yıllık düzenli saatler.  |
-| **Bordro pozisyon ayrıntıları varlık kimliği**<br>payrollpositiondetailsentityid<br>*Guid* | Gerekli<br>Sistem tarafından oluşturulan. | Pozisyonu benzersiz olarak tanımlamak için sistem tarafından oluşturulan GUID değeri.  |
-| **Birincil alan**<br>mshr_primaryfield<br>*Dize* | Gerekli<br>Sistem tarafından oluşturulan |  |
-| **Pozisyon iş kimliği değeri**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Salt okunur<br>Gerekli<br>Yabancı anahtar: mshr_payrollpositionjobentity için mshr_PayrollPositionJobEntity |Pozisyonla ilişkili işin kimliği.|
-| **Sabit ücret planı kimlik değeri**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Salt okunur<br>Gerekli<br>Yabancı anahtar: mshr_payrollfixedcompensationplanentity içinmshr_FixedCompPlan_id  | Pozisyonla ilişkili sabit ücret planının kimliği. |
-| **Ödeme döngüsü kimliği**<br>mshr_primaryfield<br>*Dize* | Salt okunur<br>Gerekli | Pozisyonda tanımlanan ödeme döngüsü. |
-| **Tüzel kişilik tarafından ödenen**<br>paidbylegalentity<br>*Dize* | Salt okunur<br>Gerekli | Ödemeyi yapmak için sorumlu pozisyonda tanımlanan tüzel kişilik. |
-| **Pozisyon kodu**<br>mshr_positionid<br>*Dize* | Salt okunur<br>Gerekli | Pozisyonun kimliği. |
-| **Geçerlilik bitişi**<br>validto<br>*Tarih Saat Sapması* | Salt okunur<br>Gerekli |Pozisyon ayrıntılarının geçerlilik başlangıç tarihi.  |
-| **Geçerlilik başlangıcı**<br>validfrom<br>*Tarih Saat Sapması* | Salt okunur<br>Gerekli |Pozisyon ayrıntılarının geçerlilik bitiş tarihi.  |
+| **Pozisyon kodu**</br>mshr_positionid</br>*Dize* | Salt okunur | Pozisyonun kimliği. |
+| **Ödeme döngüsü kimliği**</br>mshr_paycycleid</br>*Dize* | Salt okunur | Pozisyonda tanımlanan ödeme döngüsü. |
+| **Yıllık mesai saatleri**</br>annualregularhours</br>*Ondalık* | Salt okunur | Pozisyonda tanımlanan yıllık düzenli saatler. |
+| **Tüzel kişilik tarafından ödenen**</br>paidbylegalentity</br>*Dize* | Salt okunur | Pozisyonda tanımlanan ve ödeme yapmaktan sorumlu olan tüzel kişilik. |
+| **Geçerlilik bitişi**</br>validto</br>*Tarih Saat Sapması* | Salt okunur | Pozisyon ayrıntılarının geçerlilik bitiş tarihi. |
+| **Geçerlilik başlangıcı**</br>validfrom</br>*Tarih Saat Sapması* | Salt okunur | Pozisyon ayrıntılarının geçerlilik başlangıcı tarihi. |
+| **Birincil alan**</br>mshr_primaryfield</br>*Dize* | Sistem tarafından oluşturulan | Birincil alan. |
+| **Bordro pozisyon ayrıntıları varlık kimliği**</br>payrollpositiondetailsentityid</br>*Guid* | Gerekli</br>Sistem tarafından oluşturulan. | Pozisyonu benzersiz bir şekilde tanımlamak için sistem tarafından oluşturulan genel benzersiz tanımlayıcı (GUID) değeri. |
+
+## <a name="relations"></a>İlişkiler
+
+| Özellik değeri | İlgili varlık | Gezinti özelliği | Tahsilat türü |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
+| _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | Geçerli değil |
+| _mshr_fk_job_id_value | mshr_payrollpositionjobentity | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_Payroll |
+| _mshr_fk_positionassignmentv2_id_value | mshr_hcmpositionworkerassignmentv2entity | mshr_FK_PositionAssignmentV2_id | Geçerli değil |
 
 ## <a name="example-query"></a>Örnek sorgu
 

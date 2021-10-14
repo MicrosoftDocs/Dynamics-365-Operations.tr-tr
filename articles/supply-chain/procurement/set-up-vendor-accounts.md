@@ -1,7 +1,7 @@
 ---
 title: Satıcı hesaplarını ayarlama
 description: Bu konu, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar.
-author: kamaybac
+author: Henrikan
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17b605bbc54eace6e643e4f8849bce6806d5728526b3d83e3102783ef8f1992c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772484"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565483"
 ---
 # <a name="set-up-vendor-accounts"></a>Satıcı hesaplarını ayarlama
 
@@ -109,7 +109,7 @@ Birden fazla satıcı aynı fatura adresine sahipse veya bir satıcı bir üçü
 Eğer bir satıcı banka hesabına ödeme yapmanız gerekiyorsa, satıcının bankası ve banka hesabı bilgisini **Satıcı banka hesapları** sayfasından girebilirsiniz. Ayrıca banka hesabının ödemeleri ve doğrulaması için bilgileri de girebilirsiniz. Örneğin, satıcı banka hesaplarına provizyonlar ekleyebilirsiniz. Bu provizyonlar daha sonra hesap verisini, örneğin rota numarası ve hesap numaralarının teyit edilmesine kullanılabilir. Satıcıya yapılacak ödemeler için bir varsayılan hesap belirtmeniz gerekir. Ancak, gerçek bir ödeme yaptığınızda, bu hesabı satıcının diğer hesaplarından birine değiştirebilirsiniz.
 
 ## <a name="ledger-accounts"></a>Genel muhasebe hesapları
-Fatura günlüklerinde otomatik olarak beliren varsayılan hesapları belirtilen satıcı için belirleyebilirsiniz. Bu işlevsellik, zaman içerisinde aynı satıcılardan genellikle aynı türde öğelere ve hizmetlere ödeme yapıyorsanız faydalı olabilir. Varsayılan bir hesap belirttiğinizde, hesap günlüklerine hızlı ve verimli bir şekilde günlük girişleri yapabilirsiniz. Belirttiğiniz varsayılan hesaplar satınalma siparişlerinde veya **Satıcı faturası** üzerinden girilen satıcı faturalarında kullanılmaz.  
+Fatura günlüklerinde otomatik olarak beliren varsayılan hesapları belirtilen satıcı için belirleyebilirsiniz. Bu işlevsellik, zaman içerisinde aynı satıcılardan genellikle aynı türde öğelere ve hizmetlere ödeme yapıyorsanız faydalı olabilir. Varsayılan bir hesap belirttiğinizde, hesap günlüklerine hızlı ve verimli bir şekilde yevmiye defteri girişleri yapabilirsiniz. Belirttiğiniz varsayılan hesaplar satınalma siparişlerinde veya **Satıcı faturası** üzerinden girilen satıcı faturalarında kullanılmaz.  
 
 Satıcı kaydındaki **Fatura** sekmesinde açabileceğiniz **Varsayılan hesap ayarı** sayfasında varsayılan hesapları seçebilirsiniz. Burada seçtiğiniz hesaplar, bir günlük girdisinde bulunduğunuzda, satıcı için filtrelenmiş hesaplar listesinde görünecektir. Hesaplardan birini varsayılan hesap olarak ayarlayabilirsiniz.
 

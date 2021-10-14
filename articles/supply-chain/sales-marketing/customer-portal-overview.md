@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Supply Chain Management için Müşteri portalına genel bakış
 description: Bu konu müşteri portalını tanıtır ve bunu kimin nasıl çalıştığını açıklar.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,19 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fc0f8187c10bfc95f94e59b62be8e89d4556dbfc373294aa17579d8c69caed18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 79dc0527c4e65b6984ea3bf043a653961fcab14f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764023"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572685"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management için Müşteri portalına genel bakış
 
+[!include [banner](../includes/banner.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="what-is-the-customer-portal"></a>Müşteri Portalı nedir?

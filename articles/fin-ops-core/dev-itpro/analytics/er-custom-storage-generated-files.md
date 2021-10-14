@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 83b2d3c35e3e68aaad22bc03a46b17abc1526073895057717fd055dacdfbee5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718489"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594921"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumları belirtme
 
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Mevcut `AssetRollForwardService` sınıfını değiştirin ve rapor çalıştırıcısı için özel bir hedef fabrikası ayarlamak amacıyla bir kod yazın. Özel bir hedef fabrikası oluşturulduğunda, hedef klasörü belirten uygulama temelli parametreye geçilir. Bu şekilde, bu hedef klasör oluşturulan dosyaları depolamak için kullanılır.
 
     > [!NOTE] 
-    > Belirtilen klasörün (bu örnekte **c:\\0**) AOS hizmetini çalıştıran sunucunun yerel dosya sisteminde mevcut olduğundan emin olun. Aksi takdirde, çalışma zamanında [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) özel durumu oluşturulur.
+    > Belirtilen klasörün (bu örnekte **c:\\0**) AOS hizmetini çalıştıran sunucunun yerel dosya sisteminde mevcut olduğundan emin olun. Aksi takdirde, çalışma zamanında [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) özel durumu oluşturulur.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

@@ -14,14 +14,16 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 96a0fe7d646d2d0d64d608a3bc105c06af3c810af8980cff95668601925ebb6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10a30d8fae52a25b7d65b5a9cc991677df33a2a7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731139"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574893"
 ---
 # <a name="carrier-groups"></a>Taşıyıcı grupları
+
+[!include [banner](../../includes/banner.md)]
 
 Taşıyıcı grubu, sevkiyat taşıyıcıları ve taşıyıcı hizmetleri topluluğudur. Her taşıyıcı grubu, kendisine ait olan sevkiyat taşıyıcıları ve taşıyıcı hizmetleri için tercih edilen sırayı belirtir.
 

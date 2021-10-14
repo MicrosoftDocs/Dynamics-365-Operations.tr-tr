@@ -1,7 +1,7 @@
 ---
 title: Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişleriyle eşitleme
 description: Bu konu, Field Service'taki iş emirlerini Supply Chain Management'daki satış siparişleriyle eşitlemek için kullanılan şablonları ve temel görevleri açıklar.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d7688e757a3ab9746ae0307a7c15f0624c1d8aceeb0dc935b0da32d3ab2994b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752694"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568387"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişleriyle eşitleme
 
@@ -245,31 +245,31 @@ Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 
 Filtre: (msdyn_systemstatus ne 690970005) ve (msdyn_systemstatus ne 690970000) ve (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Veri tümleştirmede şablon eşleme.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![İş emirlerinden Satış siparişlerine için Veri tümleştirmede şablon eşleme (Field Service'ten Supply Chain Management'a): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>İş emirlerinden Sales siparişlerine (Field Service'tan Supply Chain Management'a): WorkOrderServiceLineEstimate
 
 Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus ne 690970000) ve (msdynce_orderhasexternalmaintainedproductsonly eq true) ve (msdyn_linestatus eq 690970000) ve (msdynce_headersystemstatus ne 690970004)
 
-[![Veri tümleştirmede şablon eşleme.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![İş emirlerinden Satış siparişlerine için Veri tümleştirmede şablon eşleme (Field Service'ten Supply Chain Management'a): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>İş emirlerinden Sales siparişlerine (Field Service'tan Supply Chain Management'a): WorkOrderServiceLineUsed
 
 Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus ne 690970000) ve (msdynce_orderhasexternalmaintainedproductsonly eq true) ve ((msdyn_linestatus eq 690970001) veya (msdynce_headersystemstatus eq 690970004))
 
-[![Veri tümleştirmede şablon eşleme.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![İş emirlerinden Satış siparişlerine için Veri tümleştirmede şablon eşleme (Field Service'ten Supply Chain Management'a): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>İş emirlerinden Sales siparişlerine (Field Service'tan Supply Chain Management'a): WorkOrderProductLineEstimate
 
 Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus ne 690970000) ve (msdynce_orderhasexternalmaintainedproductsonly eq true) ve (msdyn_linestatus eq 690970000) ve (msdynce_headersystemstatus ne 690970004) ve (msdyn_allocated eq true)
 
-[![Veri tümleştirmede şablon eşleme.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![İş emirlerinden Satış siparişlerine için Veri tümleştirmede şablon eşleme (Field Service'ten Supply Chain Management'a): WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>İş emirlerinden Sales siparişlerine (Field Service'tan Supply Chain Management'a): WorkOrderProductLineUsed
 
 Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus ne 690970000) ve (msdynce_orderhasexternalmaintainedproductsonly eq true) ve ((msdyn_linestatus eq 690970001) veya (msdynce_headersystemstatus eq 690970004) veya (msdyn_allocated ne true))
 
-[![Veri tümleştirmede şablon eşleme.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![İş emirlerinden Satış siparişlerine için Veri tümleştirmede şablon eşleme (Field Service'ten Supply Chain Management'a): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

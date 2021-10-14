@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472237"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563073"
 ---
 # <a name="customer-management-in-stores"></a>Mağazalardaki müşteri yönetimi
 
@@ -45,7 +45,8 @@ Satış yetkilileri bir müşteri için birden fazla adres kaydedebilir. Müşte
 
 ## <a name="sync-customers-and-async-customers"></a>Zaman uyumlu müşteriler ve zaman uyumsuz müşteriler
 
-> [ÖNEMLİ] POS çevrimdışı olduğunda zaman uyumsuz müşteri oluşturma modu devre dışı bırakılsa bile sistem otomatik olarak müşterileri zaman uyumsuz olarak oluşturur. Bu nedenle, Zaman Uyumlu ve Zaman Uyumsuz müşteri oluşturma modları arasındaki seçiminiz ne olursa olsun Commerce genel merkezi yöneticilerinin **P işi**, **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** işi (eski adıyla **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** işi) ve **1010** işi için yinelenen bir toplu iş oluşturması ve zamanlaması gerekir. Böylece tüm Zaman Uyumsuz müşteriler Commerce genel merkezindeki Zaman Uyumlu müşterilere dönüştürülür.
+> [!IMPORTANT]
+> POS çevrimdışı olduğunda Zaman Uyumsuz müşteri oluşturma modu devre dışı bırakılsa bile sistem otomatik olarak müşterileri zaman uyumsuz olarak oluşturur. Bu nedenle, Zaman Uyumlu ve Zaman Uyumsuz müşteri oluşturma modları arasındaki seçiminiz ne olursa olsun Commerce genel merkezi yöneticilerinin **P işi**, **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** işi (eski adıyla **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** işi) ve **1010** işi için yinelenen bir toplu iş oluşturması ve zamanlaması gerekir. Böylece tüm Zaman Uyumsuz müşteriler Commerce genel merkezindeki Zaman Uyumlu müşterilere dönüştürülür.
 
 Commerce'te, iki müşteri oluşturma modu vardır: Zaman uyumlu (veya Eşitleme) ve zaman uyumsuz (veya asenkron). Varsayılan olarak, müşteriler zaman uyumlu olarak oluşturulur. Başka bir deyişle, bunlar Commerce genel merkezinde gerçek zamanlı olarak oluşturulur. Zaman uyumlu müşteri oluşturma modu, tüm kanallar arasında yeni müşteriler hemen aranabilir hale geldiği için yararlıdır. Ancak, bir dezavantajı da vardır. Commerce genel merkezine [Commerce Data Exchange: Gerçek Zamanlı Servis](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) çağrıları oluşturduğundan, birçok eşzamanlı müşteri oluşturma çağrısı yapılırsa performans etkilenebilir.
 

@@ -1,7 +1,7 @@
 ---
 title: Sevkiyat taşıyıcılarını ayarlama
 description: Bu konu, bir Sevkiyat taşıyıcısı ayarlamayı ve hizmet, sevkiyat modu, taşıma ödemesi, taşıma kısıtlamaları ve sevkiyat oranı gibi ayrıntıları tanımlamayı gösterir.
-author: ShylaThompson
+author: Henrikan
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 480fb7cdc99cd83ba881d626e3c45427f7554681630766aff82457ac11a9eb0b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751014"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567668"
 ---
 # <a name="set-up-shipping-carriers"></a>Sevkiyat taşıyıcılarını ayarlama
 

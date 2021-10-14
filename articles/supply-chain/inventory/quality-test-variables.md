@@ -1,7 +1,7 @@
 ---
 title: Kalite yönetimi test değişkenleri
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta kalite emirleriyle niteliksel testlerin kullanılabilmesi için, test değişkenlerinin nasıl oluşturulacağını açıklar.
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8233864d6b668c8462a59a425e66b1aec38576633922062573d8605c9c73d2a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4495c3d3f8df9f07ec079d8e497a17979abbe3ee
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734223"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575884"
 ---
 # <a name="quality-management-test-variables"></a>Kalite yönetimi test değişkenleri
 

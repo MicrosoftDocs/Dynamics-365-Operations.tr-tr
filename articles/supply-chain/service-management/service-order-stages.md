@@ -1,7 +1,7 @@
 ---
 title: Servis siparişi aşamaları
 description: Servis siparişi aşamalarını tanımlayarak ve bunları çalışanlara atayarak, servis kuruluşundaki çeşitli kişilerin gerçekleştirdiği görevler üzerinden servis siparişi akışını kontrol edersiniz.
-author: ShylaThompson
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ef52171efd422fdbd8593af4c2a5fd968dac1209ddff6cb695e22534a94678b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a43cbe0cf5993a305ff500f34f0da5d3763084c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711627"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576340"
 ---
 # <a name="service-order-stages"></a>Servis siparişi aşamaları   
 

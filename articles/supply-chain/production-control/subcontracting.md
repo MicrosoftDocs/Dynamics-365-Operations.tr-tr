@@ -1,7 +1,7 @@
 ---
 title: Alt sözleşme
 description: Bu konu, Dynamics 365 Supply Chain Management içinde üretimde taşeron kullanımın için bir inceleme rehberi yapmanıza olanak sağlar.
-author: christophernread
+author: johanhoffmann
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: josaw
+ms.author: johanho
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 678256a301a34f354a1fbf7844f5e3de0ad7e882b5d68c5d0310abcdea4a97de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c4ef554406c727cc410f8dca5f41264be01060b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778615"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579364"
 ---
 # <a name="subcontracting"></a>Alt sözleşme
 
@@ -245,9 +245,9 @@ El cihazı kullanan ambar çalışanları için bir parola tanımlamalısınız.
     Bir malzeme çekme listesi, Kaplama operasyonunda kullanılan malzemeler ve servis maddesi için oluşturulmuştur. Servis maddesi, alt taşeron verilen operasyonun maliyetini temsil eder.
 
 36. Eylem Bölmesinde, **Görüntüle** sekmesinde, **Malzeme çekme listesi**'ni açmak için **Malzeme çekme listesi**'ni seçin.
-37. Deftere nakledilmemiş olan malzeme çekme listesini seçin, daha sonra günlük satırlarını görmek için günlük numarasını seçin.
+37. Deftere nakledilmemiş olan malzeme çekme listesini seçin, daha sonra yevmiye defteri satırlarını görmek için günlük numarasını seçin.
 
-    ![Malzeme çekme listesi sayfasındaki günlük satırları.](./media/subcontract25_picking-list.png)
+    ![Malzeme çekme listesi sayfasındaki yevmiye defteri satırları.](./media/subcontract25_picking-list.png)
 
 38. Eylem bölmesinde **Yazdır** \> **Malzeme çekme listesi**'ni seçin ve **Malzeme çekme listesi raporu** iletişim kutusunu açın.
 39. **Teslimat notu düzenini kullanın** seçeneğini **Evet** olarak ayarlayın.

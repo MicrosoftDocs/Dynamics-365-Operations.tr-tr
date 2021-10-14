@@ -1,7 +1,7 @@
 ---
 title: Ürün reçeteleri ve formüller
 description: Bu konu, ürün ve ürün çeşitleri tanımlarının merkezi bir parçası olan ürün reçeteleri (BOM'lar) ve formüller hakkında bilgi sağlar.
-author: cvocph
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f4a0e61ce0f703dfef0da605b5ec8e0c5a96470fd8b856415043266451ca433
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724808"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578020"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Ürün reçeteleri ve formüller
 

@@ -1,7 +1,7 @@
 ---
 title: Borç hesapları için fatura eşleştirmeye genel bakış
 description: Borç hesapları faturası eşleştirme, satıcı faturasını, satın alma siparişini ve ürün alındı bilgilerini eşleştirme işlemidir.
-author: abruer
+author: sunfzam
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c9f7c19d81a22feaeccc31a3f3d390b1a721485083c32e215b155e7896a06d7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: befc9b9ef3dcd5545ff3f252a706cab546165cb0
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737442"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595077"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Borç hesapları için fatura eşleştirmeye genel bakış
 

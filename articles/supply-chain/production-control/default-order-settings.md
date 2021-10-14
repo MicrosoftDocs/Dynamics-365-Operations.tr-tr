@@ -1,7 +1,7 @@
 ---
 title: Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
 description: Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar.
-author: t-benebo
+author: johanhoffmann
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5cdba1b3aaa121eed3b8f870d21aa7e58d2c7b14aa25563cd437d3769b35e872
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750064"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579436"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
 
@@ -85,9 +85,9 @@ Varsayılan stok siparişi ayarları şunları oluştururken de uygulanır:
 
 Bir hareket oluştururken, Supply Chain Management'ın varsayılan sipariş ayarlarını tanımlamaya çalışabilmesi için satırdaki serbest bırakılan bir ürünün tam tanımını belirtmeniz gerekir. Yayımlanan ürünün tam tanımında, madde numarası ve yapılandırma, ebat, stil, sürüm, renk gibi tüm aktif ürün boyutları harekette belirtilir. Örneğin, serbest bırakılan bir ürün çeşidi için el ile bir satın alma siparişi oluşturursanız tesis, ambar, miktar ve sağlama süresi varsayılan olarak sipariş satırında görüntülenmeden önce gerekli tüm ürün boyutlarını belirtmeniz gerekir. 
 
-Sipariş veya günlük satırlarını oluştururken varsayılan sipariş ayarları parametrelerinin tamamı uygulanmaz. Miktarlar ve sağlama süreleri yalnızca uygun olduğunda varsayılan olarak görüntülenir. Örneğin, bir günlük satırı sayıldığında, sadece site ve ambar bir satır oluşturulduğunda varsayılan olarak görüntülenirler. Bu nedenle, çoklu veya minimumlar üzerinde varsayılan miktar veya denetimler, satırı veya günlüğü deftere naklederken gerçekleştirilmeyecektir. 
+Sipariş veya yevmiye defteri satırlarını oluştururken varsayılan sipariş ayarları parametrelerinin tamamı uygulanmaz. Miktarlar ve sağlama süreleri yalnızca uygun olduğunda varsayılan olarak görüntülenir. Örneğin, bir yevmiye defteri satırı sayıldığında, sadece site ve ambar bir satır oluşturulduğunda varsayılan olarak görüntülenirler. Bu nedenle, çoklu veya minimumlar üzerinde varsayılan miktar veya denetimler, satırı veya günlüğü deftere naklederken gerçekleştirilmeyecektir. 
 
-Sipariş veya günlük satırı oluşturulduğunda sistem her zaman varsayılan tesis ve ambarı bulmayı dener. Tesis, diğer ayarlarda her zaman varsayılan olarak görüntülenmez. Örneğin, satış siparişi veya satınalma siparişi oluştururken sipariş başlığındaki site otomatik olarak sipariş satırlarında kullanılır. Ürün reçetesi satırı oluştururken, ürün reçetesi başlığındaki site kullanılır. Tesis belirlendikten sonra ambar için varsayılan olarak kullanılabilen tesise özgü herhangi bir sipariş ayarını bulmak için kullanılır. 
+Sipariş veya yevmiye defteri satırı oluşturulduğunda sistem her zaman varsayılan tesis ve ambarı bulmayı dener. Tesis, diğer ayarlarda her zaman varsayılan olarak görüntülenmez. Örneğin, satış siparişi veya satınalma siparişi oluştururken sipariş başlığındaki site otomatik olarak sipariş satırlarında kullanılır. Ürün reçetesi satırı oluştururken, ürün reçetesi başlığındaki site kullanılır. Tesis belirlendikten sonra ambar için varsayılan olarak kullanılabilen tesise özgü herhangi bir sipariş ayarını bulmak için kullanılır. 
 
 Varsayılan sipariş türü, satınalma ve stok sağlama süreleri **Madde kapsamı** sayfası üzerindeki madde karşılama kuralları tarafından geçersiz kılınabilir. Varsayılan sipariş ayarları üretim ve transfer sağlama süreleri arasında ayrım yapılmasına izin vermese de, madde kapsam kuralları buna izin verir. Ancak madde kapsama ayarı planlı üretimi ve planlı transfer emirlerini oluştururken yalnızca Master planlama (MRP) tarafından kullanılır ve el ile üretim ve transfer emirleri oluştururken uygulanmaz. 
 

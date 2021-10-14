@@ -1,7 +1,7 @@
 ---
 title: Servis nesnelerine genel bakış
-description: Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymetleri ve ürünleridir.
-author: ShylaThompson
+description: Bu konuda, servis nesneleriyle nasıl çalışılacağına ilişkin bir genel bakış sağlanmaktadır.
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 161d17d14af6351409e2405ae104f2b87e363ce349dd9b8e26d2c14e5fb9fa14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cf5e146bb7eab4df5807c6a55f773bfb31a4c5e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770180"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571389"
 ---
 # <a name="service-objects-overview"></a>Servis nesnelerine genel bakış
 

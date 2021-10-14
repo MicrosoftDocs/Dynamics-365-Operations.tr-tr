@@ -1,7 +1,7 @@
 ---
 title: Tedarik kataloğu oluşturma
 description: Bu konu tedarik kataloğunun nasıl oluşturulacağını açıklar.
-author: kamaybac
+author: Henrikan
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: ProcCategoryHierarchyManagement, CatProcureCatalogListPage, CatP
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9bec131798a67695bc3ea27cbbdea404d4494382e25e97b2931508ec7d52fca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ef3747874d43143925bd08dbecc2d60f4e38701a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746927"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565435"
 ---
 # <a name="create-a-procurement-catalog"></a>Tedarik kataloğu oluşturma
 

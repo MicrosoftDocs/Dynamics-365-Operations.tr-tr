@@ -1,7 +1,7 @@
 ---
 title: Ambardaki stok düzeylerini ayarlama (temel ambarlama)
 description: Bu yordam, ürünlerin ambardaki stok düzeylerini ayarlamak için bir stok ayarlama günlüğünü oluşturma ve deftere nakletme işlemini size gösterecektir.
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee20fdcb1a0b28500f85cfe50eb942ac565a2960e5bceed7d4d4427bc9bd7218
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 02458d588c9925a1f4cb9afeada793dfc55a2071
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765526"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573837"
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ambardaki stok düzeylerini ayarlama (temel ambarlama)
 
@@ -36,7 +36,7 @@ Bu yordam, ürünlerin ambardaki stok düzeylerini ayarlamak için bir stok ayar
     * Diğer bazı alanlar, seçtiğiniz stok ayarlama günlük adı kurulumu temel alınarak doldurulur.  
 5. Tamam'a tıklayın.
 
-## <a name="create-journal-lines"></a>Günlük satırları oluştur
+## <a name="create-journal-lines"></a>Yevmiye defteri satırları oluştur
 1. Yeni'ye tıklayın.
 2. Listede madde numarası alanını işaretleyin.
 3. Madde numarası alanında bir maddeyi seçin. Demo verileri şirket USMF'yi kullanıyorsanız, 'D0001' yazın.

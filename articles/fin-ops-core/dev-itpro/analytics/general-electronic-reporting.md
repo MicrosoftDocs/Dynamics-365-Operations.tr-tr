@@ -2,7 +2,7 @@
 title: Elektronik raporlamaya (ER) genel bakış
 description: Bu konuda, Elektronik raporlama aracına dair genel bir bakış sunulmaktadır. Anahtar kavramlar, desteklenen senaryolar ve çözümün parçası olan biçimler açıklanmaktadır.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9bb0b427f4fe30ab95efabf8ab9871b681e35d51c0fbaf5a162235640d2f376
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723177"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562188"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -50,7 +50,14 @@ ER altyapısı aşağıdaki yeteneklere sahiptir:
 
 ### <a name="components"></a>Bileşenler
 
-ER iki tür bileşeni destekler: **Veri modeli** ve **Biçim**.
+ER, aşağıdaki bileşen türlerini destekler:
+
+- Veri modeli
+- Model eşleme
+- Biçim
+- Meta veriler
+
+Daha fazla bilgi için bkz: [Elektronik raporlama bileşenleri](er-overview-components.md).
 
 #### <a name="data-model-and-model-mapping-components"></a>Veri modeli ve model eşleme bileşenleri
 
@@ -61,7 +68,7 @@ Bir veri modeli bileşeni, bir veri yapısının soyut bir temsilidir. Belirli b
 
 Bir iş varlık veri modeli (kayıt) kapsayıcı olarak temsil edilir. İş varlık özellikleri veri öğelerini (alanları) olarak temsil edilir. Her veri öğesinin benzersiz bir ad, etiket, açıklama ve değeri vardır. Her bir veri öğesinin değeri, dize, tamsayı, tarih, çetele, Boole vb. olarak tanınacak şekilde tasarlanabilir. Ayrıca başka bir kayıt veya kayıt listesi olabilir.
 
-Tek bir veri modeli bileşeni, birden fazla etki alanı iş varlığı hiyerarşisi içerebilir. Çalışma zamanında rapora özel veri akışı destekleyen bir model eşleştirmesi içerebilir. Hiyerarşiler eşleme modeli kökü olarak seçilen tek bir kayıt tarafından ayrıştırılır. Örneğin, ödeme etki alanının veri modeli aşağıdaki eşlemeleri destekliyor olabilir:
+Tek bir veri modeli bileşeni, birden fazla etki alanı iş varlığı hiyerarşisi içerebilir. Ayrıca çalıştırma zamanında rapora özel bir veri akışını destekleyen model eşlemelerini de içerebilir. Hiyerarşiler eşleme modeli kökü olarak seçilen tek bir kayıt tarafından ayrıştırılır. Örneğin, ödeme etki alanının veri modeli aşağıdaki eşlemeleri destekliyor olabilir:
 
 - Şirket \> Satıcı \> AP etki alanının ödeme hareketleri
 - Müşteri \> Şirket \> AR etki alanının ödeme hareketleri
@@ -71,13 +78,13 @@ Tek bir veri modeli bileşeni, birden fazla etki alanı iş varlığı hiyerarş
 Giden elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki özellikleri içerir:
 
 - Veri modeli için veri kaynakları olarak farklı veri türlerini kullanabilir. Örneğin tabloları, veri varlıklarını, yöntemleri veya çeteleleri kullanabilir.
-- Bazı verilerin çalışma zamanında belirtilmesi gerekiyorsa bir veri modeli için veri kaynağı olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
+- Çalışma zamanında bazı verilerin belirtilmesi gerektiğinde bir veri modeli için veri kaynakları olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
 - Verinin gerekli gruplara dönüştürülmesini destekler. Veriyi filtrelemenize, sıralamanıza, toplamanıza ve Microsoft Excel formüllerine benzerlik gösteren, formüller aracılığıyla tasarlanmış mantıksal hesaplanan alanlar eklemenize olanak sağlar. Daha fazla bilgi için bkz. [Elektronik raporlamada (ER) formül tasarımcısı](general-electronic-reporting-formula-designer.md).
 
 Gelen elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki özellikleri içerir:
 
 - Farklı güncelleştirilebilir veri öğelerini hedefler olarak kullanabilir. Bu veri öğeleri tablolar, veri varlıkları ve görünümler içerir. Veri, gelen elektronik raporlardan veriyi kullanarak güncelleştirilebilir. Birden çok hedef tek bir model eşlemede kullanılabilir.
-- Bazı verilerin çalışma zamanında belirtilmesi gerekiyorsa bir veri modeli için veri kaynağı olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
+- Çalışma zamanında bazı verilerin belirtilmesi gerektiğinde bir veri modeli için veri kaynakları olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
 
 Bir veri modeli bileşeni, raporlamayı veri kaynaklarının fiziksel uygulamasından ayırmak için raporlama için bir birleştirilmiş veri kaynağı olarak kullanılacak her bir iş etki alanı için tasarlanır. Etki alanına özel iş konseptlerini ve işlevlerini, bir raporlama biçiminin ilk tasarımını ve gelecekteki bakımını daha verimli hale getirecek bir biçimde temsil eder.
 
@@ -85,10 +92,10 @@ Bir veri modeli bileşeni, raporlamayı veri kaynaklarının fiziksel uygulamas�
 
 Biçim bileşeni çalışma zamanında oluşturulacak raporlama çıktısının planıdır. Plan aşağıdaki öğelerden oluşur:
 
-- Çalışma zamanında oluşturulan giden elektronik belgenin yapısı ve içeriğini tanımlayan biçim.
+- Çalışma zamanında oluşturulan giden elektronik belgenin yapısını ve içeriğini tanımlayan biçim.
 - Bir dizi kullanıcı giriş parametresi ve seçilen model eşlemesini kullanan etki alanına özgü veri modeli olarak veri kaynakları.
 - Çalışma zamanında veri akışı ve biçim çıktı oluşturma kurallarını belirten bir biçimi için tek tek öğelerini barındıran biçim veri kaynaklarının bağlama kümesi olarak biçim eşleme.
-- Bir biçim doğrulaması bağlamında çalışan bağlı olarak çalışma zamanında rapor oluşturmayı denetleyen yapılandırılabilir kurallar kümesi olarak. Örneğin, bir satıcının ödemelerinin çıktı oluşturmasını durduran bir kural olabilir ve seçilen satıcının, örneğin banka hesap numarası gibi belirli öznitelikleri eksik olduğunda bir özel durum ilan edebilir.
+- Çalışan bağlama bağlı olarak, çalışma zamanında rapor oluşturmayı kontrol eden yapılandırılabilir kurallar kümesi olarak biçim doğrulaması. Örneğin, bir satıcının ödemelerinin çıktı oluşturmasını durduran bir kural olabilir ve seçilen satıcının, örneğin banka hesap numarası gibi belirli öznitelikleri eksik olduğunda bir özel durum ilan edebilir.
 
 Biçim bileşeni aşağıdaki işlevleri destekler:
 

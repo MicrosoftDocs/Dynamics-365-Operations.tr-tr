@@ -1,7 +1,7 @@
 ---
 title: Gönderme takımlarını ayarla
 description: Bu konuda, gönderme takımı oluşturma açıklanmıştır.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2e68e617d0d1abf1d0073bbe588496e129616492d74d9a9af995b2c14b76a43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 48d35e4a49393a73f6c22c3ba78c65e72701d335
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777803"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571365"
 ---
 # <a name="set-up-dispatch-teams"></a>Gönderme takımlarını ayarla 
 
