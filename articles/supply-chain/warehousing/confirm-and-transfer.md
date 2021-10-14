@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767963"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592640"
 ---
 # <a name="confirm-and-transfer"></a>Onayla ve aktar
 
@@ -45,8 +45,8 @@ Yalnızca aşağıdaki ölçütlere uyan yükleri bölebilirsiniz:
 
 - Bir veya daha fazla yükleme satırında malzeme çekme miktarları var.
 - Yükleme durumu, yüklenden daha küçük.
-- Yükleme satırı verisi yok. (Bu veriler, hazırlama konumunda lisans levhası konsolidasyonu aracılığıyla oluşturulur ve *Onayla ve transfer* özelliği, lisans levha birleştirmeyi desteklemiyor.)
-- Şu anda ambalaj yerleşimindeki sevk için bekleyen stok yok. (Bu *Onayla ve transfer* özelliği, paket istasyonuna çekilen ancak henüz paketlenememiş olan stoğu desteklemez.)
+- Yükleme satırı verisi yok. (Bu veriler, hazırlama konumunda lisans levhası konsolidasyonu aracılığıyla oluşturulur ve Onayla ve transfer özelliği, lisans levha birleştirmeyi desteklemiyor.)
+- Şu anda ambalaj yerleşimindeki sevk için bekleyen stok yok. (*Onayla ve transfer et* özelliği, paketlenen konteynerler yükleme işi yaratılarak hazırlama konumlarına yerleştirilmediği sürece paketleme istasyonuna çekilmiş ancak henüz paketlenmemiş stoğu desteklemez.)
 
 > [!NOTE]
 > Bu işlevsellik, malzeme çekme öncesinde hiç çalıştırılmamış ve oluşturmayacak ambarlarda kullanılması gereken taşıma yükleme işlevselliğinden farklıdır, ancak bunun yerine mevcut taşıma alanını malzeme çekme tamamlandıktan sonra yükler.

@@ -1,7 +1,7 @@
 ---
 title: Serileştirilen maddelerle çalışma
 description: Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
-author: omulvad
+author: Henrikan
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50d591db4b71aad06c76242123cd1a4f9e866acb47df616c4ae3911ab52275bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713578"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571701"
 ---
 # <a name="working-with-serialized-items"></a>Serileştirilen maddelerle çalışma
 
@@ -56,7 +56,7 @@ Evet, aşağıdaki koşulların yerine getirilmesi durumunda seri numaraları d�
 -   **Sevk irsaliyeleri**: Seri hale getirilmiş maddeler içeren bir sevk irsaliyesi satırını kısmi olarak düzeltemezsiniz. Satır için tüm miktarı tersine çevirmeniz gerekir. Bir sevk irsaliyesi iptal edilir veya düzeltilirse, aynı seri hale getirilmiş maddeler için yeni bir sevk irsaliyesi oluştururken tersine çevrilen seri numaralarını yeniden kaydetmeniz gerekmez. Daha önce kaydedilmiş olan numaralar kullanılır.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Belirli bir sevk irsaliyesiyle birlikte sevk edilen veya bir faturaya eklenmiş olan seri numaralarını görebilir miyim?
-Evet. Belgeye eklenmiş olan tüm seri numaralarının listesini görüntülemek için sevk irsaliyesi günlük satırında veya fatura günlüğü satırında bir sorgu çalıştırabilirsiniz.
+Evet. Belgeye eklenmiş olan tüm seri numaralarının listesini görüntülemek için sevk irsaliyesi yevmiye defteri satırında veya fatura günlüğü satırında bir sorgu çalıştırabilirsiniz.
 
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>Elimde bulunan seri hale getirilmiş maddeleri görüntüleyebilir miyim?
 Hayır. Seri numaraları maddeler satılana kadar kaydedilmediğinden elinizde bulunan seri hale getirilmiş maddeleri göremezsiniz.

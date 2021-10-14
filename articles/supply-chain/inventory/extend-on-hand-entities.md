@@ -1,7 +1,7 @@
 ---
 title: Eldeki stok verisi varlıklarını genişletme
 description: Bu konuda, INVENTORSITEONHANDENTITY ve INVENTWAREHOUSEONHANDENTITY görünümlerine genişletilmiş alanlar eklemeye ve eldeki stok verisi varlıklarının uzantılarla çalışabilme özelliklerine ilişkin bir örnek sunulmaktadır.
-author: sherry-zheng
+author: yufeihuang
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-27
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e6430d7b4dd346fed4c8c5dcb2e50a98c162e78db9872a93ead3e0eb9fe41c77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 8161d951c3296b63476c4e7b527efca163a4f4b3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774909"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577708"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Eldeki stok verisi varlıklarını genişletme
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386350"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594843"
 ---
 # <a name="model-management-lifecycle"></a>Model yönetimi yaşam döngüsü
 
@@ -32,4 +32,4 @@ Yapay zeka modelini bir korumalı alan ortamında eğitmenizi ve sonra bunu üre
 
 Yapay zeka modeli mevcut fatura ve müşteri verilerini temel aldığından, korumalı alan ortamının üretim verilerinin en son kopyası olması önemlidir. [Müşteri ödeme tahminlerini kullan](use-customer-payment-predictions.md) adımlarını izleyerek modelinizin eğitimi yapmaya başlayabilirsiniz. Model yeniden elde eğitildikten sonra, [Başlangıçtaki müşteri ödeme tahmini modelini değerlendir](evaluate-payment-prediction.md) konusunda açıklandığı gibi sonuçları değerlendirin. Modeli geliştirmeye yardımcı olabilecek özellik ve filtre birleşimlerini denemek için [tahmin modelini geliştirme](improve-model.md) içindeki bilgileri kullanın.
 
-Eğitim sonuçları istediğiniz gibi olduğunda, modeli üretim ortamınıza aktarmak için [AI modelinizi dağıtma](https://docs.microsoft.com/ai-builder/distribute-model) adımlarını izleyin.
+Eğitim sonuçları istediğiniz gibi olduğunda, modeli üretim ortamınıza aktarmak için [AI modelinizi dağıtma](/ai-builder/distribute-model) adımlarını izleyin.

@@ -1,7 +1,7 @@
 ---
 title: Servis nesneleri oluşturma
-description: Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymetleri ve ürünleridir.
-author: ShylaThompson
+description: Bu konuda, servis nesnelerinin nasıl oluşturulacağını gösteren bir yordam açıklanmaktadır.
+author: kamaybac
 ms.date: 02/21/2018
 ms.topic: article
 ms.prod: ''
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 524871ea50b08133982d72f8e0d069868a5d1359907a97f530e84b6335a5fb55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2b8fe68a502501e0377d443e685b254736438574
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772412"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575279"
 ---
 # <a name="create-service-objects"></a>Servis nesneleri oluşturma  
 
 [!include [banner](../includes/banner.md)]
-   
-Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymetleri ve ürünleridir. 
 
-1. **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Servis nesneleri**'ni tıklayın.
-2. Araç çubuğunda **Yeni**'ye tıklayın.
+Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymetleri ve ürünleridir.
+
+1. **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Servis nesneleri**'ne gidin.
+2. Araç çubuğunda **Yeni**'yi seçin.
 3. **Açıklama** alanında nesne için bir açıklama girin.
 4. **Servis nesne grubu** alanında nesnenin ait olduğu grubu seçin. 
 5. İsteğe bağlı: Servis nesnesi satırı için bir öğe seçin veya bir şablon ürün reçetesi seçin.

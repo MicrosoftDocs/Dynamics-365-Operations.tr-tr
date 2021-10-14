@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474832"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581877"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Stok Görünürlüğü'nü yükleme ve ayarlama
 
@@ -35,63 +35,11 @@ Stok Görünürlüğü Eklentisi'ni yüklemeden önce aşağıdaki görevleri ta
 
 - En az bir ortamın dağıtıldığı bir LCS uygulama projesi edinin.
 - Eklentilerin ayarlanması için önkoşulların tamamlandığından emin olun. Bu önkoşullar hakkında bilgi için bkz. [Eklentilere genel bakış](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Stok Görünürlüğü, çift yazma bağlantısı gerektirmez.
-- Aşağıdaki gerekli dosyaları almak için [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü ürün takımına başvurun:
-
-    - `InventoryServiceApplication.PackageDeployer.zip`
-    - `Inventory Visibility Integration.zip` (Supply Chain Management'ın çalıştırdığınız bu sürümü 10.0.18 sürümünden daha eskiyse)
 
 > [!NOTE]
 > Şu anda desteklenen ülkeler ve bölgeler arasında Kanada (CCA, ECA), Amerika Birleşik Devletleri (WUS, EUS), Avrupa Birliği (NEU, WEU), Birleşik Krallık (SUK, WUK), Avustralya (EAU, SEAU), Japonya (EJP, WJP) ve Brezilya (SBR, SCUS) bulunmaktadır.
 
-Bu önkoşullarla ilgili herhangi bir sorunuz varsa Stok Görünürlüğü ürün takımına başvurun.
-
-## <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Ayarlama Dataverse
-
-Dataverse'i Stok Görünürlüğü ile kullanılabilecek şekilde ayarlamak için Stok Görünürlüğü paketini dağıtmak üzere Package Deployer aracını kullanın. Aşağıdaki alt bölümlerde, her bir görevin nasıl tamamlanacağı açıklanmaktadır.
-
-> [!NOTE]
-> Şu anda yalnızca LCS'yi kullanarak oluşturulan Dataverse ortamları desteklenmektedir. Dataverse ortamınız başka bir yolla (örneğin, Power Apps yönetim merkezini kullanarak) oluşturulduysa ve Supply Chain Management ortamınıza bağlıysa eşleşme sorununu çözmek için ilk olarak Stok Görünürlüğü ürün takımına başvurmanız gerekir. Ardından Stok Görünürlüğü'nü yükleyebilirsiniz.
-
-### <a name="migrate-from-an-old-version-of-the-dataverse-solution"></a>Dataverse çözümünün eski bir sürümünden geçiş yapma
-
-Stok Görünürlüğü Dataverse çözümünün eski bir sürümünü yüklediyseniz bu yönergeleri kullanarak sürümünüzü güncelleştirin. İki durum vardır:
-
-- **Durum 1:** Dataverse'i `Inventory Visibility Dataverse Solution_1_0_0_2_managed.zip` çözümünü içeri aktararak el ile ayarladıysanız şu adımları izleyin:
-
-    1. Aşağıdaki üç dosyayı indirin:
-
-        - `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip`
-        - `InventoryServiceBase_managed.cab`
-        - `InventoryServiceApplication.PackageDeployer.zip`
-
-    1. Şu adımları izleyerek `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip` ve `InventoryServiceBase_managed.cab` dosyalarını el ile Dataverse'e içeri aktarın:
-
-        1. Dataverse ortamınızın URL'sini açın.
-        1. **Çözümler** sayfasını açın.
-        1. **İçe aktar**'ı seçin.
-
-    1. `InventoryServiceApplication.PackageDeployer.zip` paketini dağıtmak için Package Deployer aracını kullanın. Yönergeler için daha sonra bu konudaki [Paketi dağıtmak için Package Deployer aracını kullanma](#deploy-package) bölümüne bakın.
-
-- **Durum 2:** Dataverse'i eski `.*PackageDeployer.zip` paketini yüklemeden önce Package Deployer aracını kullanarak ayarladıysanız `InventoryServiceApplication.PackageDeployer.zip` dosyasını indirin ve güncelleştirme işlemi yapın. Yönergeler için [Paketi dağıtmak için Package Deployer aracını kullanma](#deploy-package) bölümüne bakın.
-
-### <a name="use-the-package-deployer-tool-to-deploy-the-package"></a><a name="deploy-package"></a>Paketi dağıtmak için Package Deployer aracını kullanma
-
-1. Geliştirici araçlarını, [NuGet'ten araçları indirme](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget) bölümünde açıklandığı şekilde yükleyin.
-1. Aşağıdaki adımları izleyerek Teams grubundan indirdiğiniz `InventoryServiceApplication.PackageDeployer.zip` dosyasının engelini kaldırın:
-
-    1. Dosyayı seçin ve basılı tutun (veya sağ tıklayın) ve ardından **Özellikler**'i seçin.
-    1. **Özellikler** iletişim kutusunda, **Genel** sekmesinde, **Güvenlik** bölümünü bulun, **Engellemeyi Kaldır**'ı seçin ve değişikliği uygulayın. **Genel** sekmesinde **Güvenlik** bölümü yoksa dosya engelli değildir. Bu durumda, sonraki adıma geçin.
-
-    ![İndirilen dosyanın engellemesini kaldırma](media/unblock-file.png "İndirilen dosyanın engellemesini kaldırma")
-
-1. Aşağıdaki öğeleri bulmak için `InventoryServiceApplication.PackageDeployer.zip` dosyasının sıkıştırmasını açın:
-
-    - `InventoryServiceApplication` klasörü
-    - `[Content_Types].xml` dosyası
-    - `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll` dosyası
-
-1. Bu öğelerin her birini `.\Tools\PackageDeployment` dizinine kopyalayın. (Bu dizin, geliştirici araçlarını yüklediğinizde oluşturulmuştur.)
-1. `.\Tools\PackageDeployment\PackageDeployer.exe` dosyasını çalıştırın ve çözümleri içeri aktarmak için ekrandaki yönergeleri izleyin.
+Bu ön koşullarla ilgili herhangi bir sorunuz varsa [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü ürün takımıyla iletişime geçin.
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Stok Görünürlüğü Eklentisini Yükleme
 
@@ -102,7 +50,11 @@ Azure AD'ye uygulama kaydedip istemci gizli anahtarı ekledikten sonra şu adım
 1. [LCS](https://lcs.dynamics.com/Logon/Index)'de oturum açın
 1. Ana sayfada, ortamınızın dağıtıldığı projeyi seçin.
 1. Proje sayfasında, eklentiyi yüklemek istediğiniz ortamı seçin.
-1. Ortam sayfasında, **Power Platform tümleştirmesi** bölümünde aşağı kaydırarak **Ortam eklentileri** bölümünü bulun. Burada, Dataverse ortam adını bulabilirsiniz.
+1. Ortam sayfasında, **Power Platform tümleştirmesi** bölümünde aşağı kaydırarak **Ortam eklentileri** bölümünü bulun. Burada, Dataverse ortam adını bulabilirsiniz. Dataverse ortam adının Stok Görünürlüğü için kullanmak istediğiniz ad olduğunu onaylayın.
+
+    > [!NOTE]
+    > Şu anda yalnızca LCS'yi kullanarak oluşturulan Dataverse ortamları desteklenmektedir. Dataverse ortamınız başka bir yolla (örneğin, Power Apps yönetim merkezini kullanarak) oluşturulduysa ve Supply Chain Management ortamınıza bağlıysa eşleşme sorununu çözmek için ilk olarak [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü ürün takımına başvurmanız gerekir. Ardından Stok Görünürlüğü'nü yükleyebilirsiniz.
+
 1. **Ortam eklentileri** bölümünde, **Yeni bir eklenti yükleyin**'i seçin.
 
     ![LCS'deki ortam sayfası](media/inventory-visibility-environment.png "LCS'deki ortam sayfası")
@@ -118,6 +70,7 @@ Azure AD'ye uygulama kaydedip istemci gizli anahtarı ekledikten sonra şu adım
 
 1. **Hüküm ve koşullar** onay kutusunu seçerek hüküm ve koşulları kabul edin.
 1. **Yükle**'yi seçin. Eklentinin durumu **Yükleniyor** olarak gösterilir. Yükleme tamamlandığında sayfayı yenileyin. Durum **Yüklendi** olarak değişecektir.
+1. Dataverse uygulamasında, sol gezinme bölmesinde **Uygulamalar** bölümünü seçin ve **Stok Görünürlüğü** Power Apps uygulamasının başarıyla yüklendiğini doğrulayın. **Uygulamalar** bölümü yoksa [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü ürün takımıyla iletişime geçin.
 
 > [!IMPORTANT]
 > Birden fazla LCS ortamınız varsa her ortam için farklı bir Azure AD uygulaması oluşturun. Farklı ortamlar için Stok Görünürlüğü Eklentisini yüklemek üzere aynı uygulama kimliğini ve kiracı kimliğini kullanırsanız daha eski ortamlar için bir belirteç sorunu oluşur. Yalnızca en son yüklenen geçerlidir.
@@ -126,13 +79,13 @@ Azure AD'ye uygulama kaydedip istemci gizli anahtarı ekledikten sonra şu adım
 
 Stok Görünürlüğü Eklentisi'ni kaldırmak için LCS sayfasında **Kaldır**'ı seçin. Kaldırma işlemi, Stok Görünürlüğü Eklentisi'ni sonlandırır, LCS'den eklentinin kaydını iptal eder ve Stok Görünürlüğü Eklentisi veri önbelleğinde depolanan geçici verileri siler. Ancak Dataverse aboneliğinizde depolanan birincil stok verileri silinmez.
 
-Dataverse aboneliğinizde depolanan stok verilerini kaldırmak için [Power Apps](https://make.powerapps.com) uygulamasını açın, gezinti çubuğunda **Ortam** seçeneğini belirleyin ve LCS ortamınızla bağlantılı Dataverse ortamını seçin. Ardından **Çözümler**'e gidin ve aşağıdaki beş çözümü silin:
+Dataverse aboneliğinizde depolanan stok verilerini kaldırmak için [Power Apps](https://make.powerapps.com) uygulamasını açın, gezinti çubuğunda **Ortam** seçeneğini belirleyin ve LCS ortamınızla bağlantılı Dataverse ortamını seçin. Ardından **Çözümler**'e gidin ve aşağıdaki beş çözümü şu sırayla silin:
 
-- Dynamics 365 çözümlerinde Stok Görünürlüğü uygulaması için bağlayıcı çözümü
-- Dynamics 365 FNO SCM Stok Görünürlüğü Uygulamalar Çözümü
-- Stok Hizmeti Yapılandırması
-- Tek Başına Stok Görünürlüğü
-- Dynamics 365 FNO SCM Stok Görünürlüğü Temel Çözümü
+1. Dynamics 365 çözümlerinde Stok Görünürlüğü uygulaması için bağlayıcı çözümü
+1. Dynamics 365 FNO SCM Stok Görünürlüğü Uygulamalar Çözümü
+1. Stok Hizmeti Yapılandırması
+1. Tek Başına Stok Görünürlüğü
+1. Dynamics 365 FNO SCM Stok Görünürlüğü Temel Çözümü
 
 Bu çözümler silindikten sonra tablolarda depolanan veriler de silinir.
 

@@ -1,7 +1,7 @@
 ---
 title: Stok yenileme yöntemleri ve miktar değişikliği
 description: Bu konu, Planlamayı En İyi Duruma Getirme'deki stok yenileme yöntemleri hakkında bilgi sağlar. Ayrıca, bir ürün için birden çok sipariş miktarının sonucu nasıl etkilediğini açıklar.
-author: crytt
+author: ChristianRytt
 ms.date: 6/1/2021
 ms.topic: article
 ms.search.form: ReqGroup, ReqItemTable, InventItemOrderSetup
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19853bdb3c469dbfea3a3a0165a9cb5f47e73122cc695de3535a58f6e65e7933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 017dabb46265769bf727056a9bf1a8c0cfdc99f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759539"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567307"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Stok yenileme yöntemleri ve miktar değişikliği
 

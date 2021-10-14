@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772290"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581150"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS'ta giden stok işlemi
 
@@ -116,7 +116,7 @@ Bir barkodun her taramasında, **şimdi sevk etme** alanındaki miktar bir birim
 
 ### <a name="over-delivery-shipping-validations"></a>Fazla teslimat sevkiyat doğrulamaları
 
-Belge satırları alma işlemi sırasında geçerlilikler meydana gelir. Bunlar fazla teslimat için doğrulama içerirler. Bir Kullanıcı bir satın alma siparişinde sipariş edilen sayıdan daha fazla stok almayı denerse ancak fazla teslimat Konfigüre edilmezse veya teslim alınan miktar, satın alma siparişi satırı için konfigüre edilen fazla teslimat toleransını aşarsa, Kullanıcı hata alır fazlalık miktarı almasına izin verilmez.
+Doğrulamalar, belge satırları için karşılama işlemi sırasında gerçekleşir. Bunlar fazla teslimat için doğrulama içerirler. Kullanıcı, bir transfer emrinde sipariş edilenden daha fazla stok sevk etmeye çalışırsa ancak fazla teslimat yapılandırılmazsa veya sevk edilen miktar, transfer emri satırı için yapılandırılan fazla teslimat toleransını aşarsa kullanıcı bir hata alır ve fazla miktarı sevk etmesine izin verilmez.
 
 ### <a name="underdelivery-close-lines"></a>Eksik teslimat kapatma satırları
 

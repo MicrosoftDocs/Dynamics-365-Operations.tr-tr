@@ -1,7 +1,7 @@
 ---
 title: Gelişmiş ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
 description: Bu konu, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösteren bir senaryo sunar.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f7a4df39fbf6e2bbdba16f953fa519b239dd9debef6efe55cd6b85d10e36b9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741201"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565267"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Gelişmiş ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
 
@@ -44,7 +44,7 @@ Aşağıdaki senaryo, ambar yönetimi kullanan bir madde varış günlüğü ba�
 
 1. Sisteminizin, önceki bölümde özetlenen gereksinimleri karşılayan, onaylanmış bir satın alma siparişi içerdiğinden emin olun. Bu senaryoda, *USMF* şirketi, *1001* satıcı hesabı, *51* ambarı ve *M9200* madde numarası için *10 PL* (10 palet) ilgili sipariş satırı bulunan bir satın alma siparişi kullanılmıştır.
 1. Kullanacağınız Satın alma siparişi numarasını not edin.
-1. **Stok yönetimi \> Günlük girişleri \> Madde varışı \> Madde varışı** öğesine gidin.
+1. **Stok yönetimi \> Yevmiye defteri girişleri \> Madde varışı \> Madde varışı** öğesine gidin.
 1. Eylem Bölmesi'nde **Yeni**'yi seçin.
 1. **Ambar yönetimi günlüğü oluştur** iletişim kutusu açılır. **Ad** alanında bir günlük adı seçin.
     - *USMF* örnek verilerini kullanıyorsanız, *WHS* öğesini seçin.
@@ -56,7 +56,7 @@ Aşağıdaki senaryo, ambar yönetimi kullanan bir madde varış günlüğü ba�
     ![Gelen maddeler günlüğü.](../media/item-arrival-journal-header.png "Gelen maddeler günlüğü")
 
 1. Günlük başlığını oluşturmak için **Tamam**'ı seçin.
-1. **Günlük satırları** bölümünde **satır ekle**'yi seçin ve aşağıdaki verileri girin:
+1. **Yevmiye defteri satırları** bölümünde **satır ekle**'yi seçin ve aşağıdaki verileri girin:
     - **Öğe numarası** *M9200* olarak ayarlayın. **Tesis**, **Ambar** ve **miktar** 10 palet (her biri 1000) için stok işlemi verilerine dayalı olarak ayarlanır.
     - **Konum**: *001* olarak ayarlanır. Bu belirli konum plakaları izlemez.
 

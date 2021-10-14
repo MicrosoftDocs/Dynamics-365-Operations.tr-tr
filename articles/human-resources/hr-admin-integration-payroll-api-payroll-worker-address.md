@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3fc5f333333b9a832ecb9c185473e476ac231d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761986"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559521"
 ---
 # <a name="payroll-worker-address"></a>Bordrolu çalışanın adresi
 
@@ -34,22 +34,28 @@ Bu varlık, belirli bir çalışan için bordro yerleşimi konumunu ve bordro ç
 
 ## <a name="properties"></a>Özellikler
 
-| Özellik</br>**Fiziksel ad**</br>**_Türü_** | Kullan | Tanım |
+| Özellik</br>**Fiziksel ad**</br>**_Tür_** | Kullan | Tanım |
 | --- | --- | --- |
-| **Şehir**</br>mshr_city</br>*Dize* | Salt okunur</br>Gerekli | Adres için tanımlanan şehir.   |
-| **Personel numarası**</br>mshr_personnelnumber</br>*Dize* | Salt okunur</br>Gerekli | Çalışanın benzersiz personel numarası.  |
-| **Ülke bölge**</br>mshr_countryregionid</br>*Dize* | Salt okunur</br>Gerekli | Adres için tanımlanan ülke bölge.  |
-| **Geçerlilik başlangıcı**</br>mshr_postaladdressvalidfrom</br>*Tarih Saat Sapması* | Salt okunur </br>Gerekli | Adresin geçerlilik başlangıç tarihi. |
-| **Çalıştığı adres** </br> mshr_isworkedinaddressbr </br>*[mshr_NoYes seçenek kümesi](hr-admin-integration-payroll-api-no-yes.md)* | Salt okunur</br>Gerekli | Adresin çalışanın çalıştığı yer olup olmadığını gösterir. |
-| **İlçe**</br>mshr_county</br>*Dize* | Salt okunur</br>Gerekli | Adres için tanımlanan ilçe.  |
-| **Bordrolu çalışan adresi kimliği**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Gerekli</br>Sistem tarafından oluşturulan | Adresi benzersiz olarak tanımlamak için sistem tarafından oluşturulan GUID değeri.  |
-| **Birincil alan**</br>mshr_primaryfield</br>*Dize* | Salt okunur</br>Gerekli |  |
-| **Sokak**</br>mshr_street</br>*Dize* | Salt okunur</br>Gerekli | Adres için tanımlanan cadde. |
-| **Geçerlilik bitişi**</br>mshr_postaladdressvalidto</br>*Tarih Saat Sapması* | Salt okunur </br>Gerekli | Adresin geçerlilik bitiş tarihi.  |
-| **Yerleşim kodu**</br>mshr_locationidbr>*String* | Salt okunur <br>Gerekli | Adres kimliği.  |
-| **Posta kodu**</br>mshr_zipcode<br>*Dize* | Salt okunur <br>Gerekli |Çalışan için tanımlanan tanımlama numarası.  |
-| **Yaşadığı adres**</br>mshr_islivedinaddressbr </br> *[mshr_NoYes seçenek kümesi](hr-admin-integration-payroll-api-no-yes.md)* | Salt okunur</br>Gerekli | Adresin çalışanın yaşadığı yer olup olmadığını gösterir. |
-| **İl**</br>mshr_state</br>*Dize* | Salt okunur</br>Gerekli | Adres için tanımlanan il.  |
+| **Personel numarası**</br>mshr_personnelnumber</br>*Dize* | Salt okunur | Çalışanın benzersiz personel numarası. |
+| **Yerleşim kodu**</br>mshr_locationidbr>*String* | Salt okunur | Adres kimliği. |
+| **Yaşadığı adres**</br>mshr_islivedinaddressbr </br> *[mshr_NoYes seçenek kümesi](hr-admin-integration-payroll-api-no-yes.md)* | Salt okunur | Adresin, personelin yaşadığı yer olup olmadığını gösteren bir değer. |
+| **Çalıştığı adres** </br> mshr_isworkedinaddressbr </br>*[mshr_NoYes seçenek kümesi](hr-admin-integration-payroll-api-no-yes.md)* | Salt okunur | Adresin, personelin çalıştığı yer olup olmadığını gösteren bir değer. |
+| **Ülke bölge**</br>mshr_countryregionid</br>*Dize* | Salt okunur</br>Gerekli | Adres için tanımlanan ülke veya bölge. |
+| **Posta kodu**</br>mshr_zipcode<br>*Dize* | Salt okunur | Personel için tanımlanan kimlik numarası. |
+| **Cadde**</br>mshr_street</br>*Dize* | Salt okunur | Adres için tanımlanan cadde. |
+| **Şehir**</br>mshr_city</br>*Dize* | Salt okunur | Adres için tanımlanan şehir. |
+| **İl**</br>mshr_state</br>*Dize* | Salt okunur | Adres için tanımlanan eyalet veya il. |
+| **İlçe**</br>mshr_county</br>*Dize* | Salt okunur | Adres için tanımlanan ülke/bölge. |
+| **Geçerlilik başlangıcı**</br>mshr_postaladdressvalidfrom</br>*Tarih Saat Sapması* | Salt okunur | Adresin geçerlilik başlangıç tarihi. |
+| **Geçerlilik bitişi**</br>mshr_postaladdressvalidto</br>*Tarih Saat Sapması* | Salt okunur | Adresin geçerlilik bitiş tarihi. |
+| **Birincil alan**</br>mshr_primaryfield</br>*Dize* | Salt okunur | Birincil alan. |
+| **Bordrolu çalışan adresi kimliği**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Sistem tarafından oluşturulan | Adresi benzersiz bir şekilde tanımlamak için sistem tarafından oluşturulan genel benzersiz tanımlayıcı (GUID) değeri. |
+
+## <a name="relations"></a>İlişkiler
+
+| Özellik değeri | İlgili varlık | Gezinti özelliği | Tahsilat türü |
+| --- | --- | --- | --- |
+| _mshr_fk_worker_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
 
 ## <a name="example-query"></a>Örnek sorgu
 

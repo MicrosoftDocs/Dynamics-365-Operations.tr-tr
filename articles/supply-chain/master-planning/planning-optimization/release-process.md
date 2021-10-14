@@ -1,7 +1,7 @@
 ---
 title: Planlama Optimizasyonu yayımlama işlemi ve sürüm geçmişi
 description: Bu konuda, Planlama Optimizasyonu için yayımlama işlemi ve sürüm geçmişi hakkında bilgi verilmektedir.
-author: crytt
+author: ChristianRytt
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1bf08fc75aa2c05b2f2974ee46ec16609505f696
-ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
+ms.openlocfilehash: ec1683554e389948a64aee68e4d069be1e93cc1a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "7506795"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567355"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planlama Optimizasyonu yayımlama işlemi ve sürüm geçmişi
 

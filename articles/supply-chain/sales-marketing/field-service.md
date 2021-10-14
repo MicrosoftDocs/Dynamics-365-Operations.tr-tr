@@ -1,7 +1,7 @@
 ---
 title: Microsoft Dynamics 365 Field Service'e genel bakışla tümleştirme
 description: Bu konu Microsoft Dynamics 365 Field Service ile tümleştirme hakkında bilgi sağlar.
-author: ChristianRytt
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ecfd19cf79b9547c67b5bb90cef451d4aeab8f5ee775e50578161783e370462f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23661bca91ccd7b7a04c763e60cfca9a99d62bfa
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761770"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566467"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Microsoft Dynamics 365 Field Service'e genel bakışla tümleştirme
 
@@ -58,7 +58,7 @@ Saha teknisyenlerine, Supply Chain Management'tan stok bilgisi hakkında içgör
 - Dynamics 365 Field Service iş emirleriyle bağlantılı Supply Chain Management projeleri
 - Supply Chain Management projeleri ile bağlantıya sahip Dynamics 365 Field Service iş emirleri, bu proje numarasını satış siparişlerine proje içinden faturalamasına izin vermek için uygular. 
 
-![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/FSv2overview.png)
+![Stok ve proje bilgileri dahil olmak üzere Supply Chain Management ve Field Service arasındaki iş süreçlerinin eşitlenmesi.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Field Service ile Supply Chain Management arasındaki tümleştirmenin ikinci aşaması aşağıdaki şablonların eşitlenmesini sağlar:
 - Ambarlar (Supply Chain Management'tan Field Service'a) - Supply Chain Management'tan Field Service'a Ambarlar [Gelişmiş Sorgu] 

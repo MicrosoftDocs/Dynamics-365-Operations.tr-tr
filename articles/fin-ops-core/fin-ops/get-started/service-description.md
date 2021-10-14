@@ -2,19 +2,19 @@
 title: Finance and Operations uygulamaları için hizmet açıklaması
 description: Bu konuda, Finance and Operations uygulamaları için hizmet açıklaması sağlanmaktadır.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472517"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581828"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için hizmet açıklaması
 
@@ -28,7 +28,7 @@ Finance and Operations uygulamaları, [Microsoft Azure](https://azure.microsoft.
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-Bu uygulamalar, [iş zekası](/power-bi/fundamentals/power-bi-service-overview), [altyapı](https://azure.microsoft.com/global-infrastructure/), [hesaplama](/azure/service-fabric/service-fabric-overview) ve [veritabanı hizmetleri](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview) ile birlikte kuruluşların sektöre özel ve operasyonel iş süreçlerini yürütmesini sağlar. Uygulama ortakları tarafından desteklenen müşteriler, benzersiz iş süreçlerine en uygun iş uygulaması mantığı yapılandırmasını belirler. İşlevler ve iş süreçleri, aşağıdaki çözümlerden biri veya bunların birleşimi aracılığıyla artırılabilir veya genişletilebilir:
+Bu uygulamalar, [iş zekası](/power-bi/fundamentals/power-bi-service-overview), [altyapı](https://azure.microsoft.com/global-infrastructure/), [hesaplama](/azure/service-fabric/service-fabric-overview) ve [veritabanı hizmetleri](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/) ile birlikte kuruluşların sektöre özel ve operasyonel iş süreçlerini yürütmesini sağlar. Uygulama ortakları tarafından desteklenen müşteriler, benzersiz iş süreçlerine en uygun iş uygulaması mantığı yapılandırmasını belirler. İşlevler ve iş süreçleri, aşağıdaki çözümlerden biri veya bunların birleşimi aracılığıyla artırılabilir veya genişletilebilir:
 
 - Yerleşik [kişiselleştirme deneyimi](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md) araçları
@@ -197,17 +197,17 @@ Aşağıdaki tabloda, hizmetle ilgili bazı genel senaryolar ve faaliyetler aç�
 | Tüm üretim kurulumlarını ve üretim dışı kurulumları sağlayın. | X | |
 | Dağıtılmış üretim kurulumlarını ve üretim dışı kurulumları doğrulayın. | | X |
 | **Hizmet güncelleştirmeleri** | |
-| Microsoft, hizmet güncelleştirmelerini belirlenen üretim dışı ve üretim kurulumlarına uygular. | X | X |
-| Güncelleştirmeyi LCS'den indirin, güncelleştirmeyi tanımlayın, geliştirin ve test edin ve kod güncelleştirme paketini LCS'ye yeniden sağlayın. | | X |
-| Uzantı güncelleştirmelerinin üretim kurulumuna uygulanmasını isteyin. | | X |
+| Hizmet güncelleştirmelerini belirlenen üretim dışı ve üretim kurulumlarına uygulayın. | X | |
+| LCS'den korumalı alan kurulumlarına hizmet güncelleştirmelerini el ile uygulayın. Güncelleştirmeyi tanımlayın, geliştirin, sınayın ve kod güncelleştirme paketini LCS'ye geri sağlayın. | | X |
+| Üretim kurulumuna uygulanacak uzantı güncelleştirmelerini isteyin ve zamanlayın. | | X |
 | Güncelleştirmeler uygulanmadan önce üretim kurulumu için bir kod ve veri yedeği oluşturun. | X | |
 | Herhangi bir hata durumunda üretim kurulumunu koda ve veri yedeklemesine geri alın. | X | |
 | **Veri yönetimi (yedekleme, geri yükleme ve güncelleştirme)** | | |
 | Veritabanını yedekleyin. | X | |
 | Yüksek kullanılabilirliği ve olağanüstü durum kurtarma planını belirleyin. | X | |
-| Üretim kurulumu veritabanının performansını izleyin. | X | X |
-| Performans için üretim kurulumu veritabanını ayarlayın. | X | X |
-| Üretim kurulumu veritabanını üretim dışı kuruluma kopyalama işlemini başlatın. | | X |
+| Üretim kurulumu veritabanının performansını izleyin. | X | |
+| Performans için üretim kurulumu veritabanını ayarlayın. | X | |
+| Üretim kurulumu veritabanını, üretim dışı bir kurulum için belirli bir noktaya yenileyin. | | X |
 | **Altyapıyı güncelleştirme** | | |
 | Düzenli altyapı güncelleştirmeleri zamanlayın. | X | |
 | **Ölçeği artırma ve azaltma (kullanıcılar, depolama ve kurulumlar)** | | |
@@ -215,7 +215,7 @@ Aşağıdaki tabloda, hizmetle ilgili bazı genel senaryolar ve faaliyetler aç�
 | LCS Abonelik tahmin aracında kullanım değişikliklerini güncelleştirin. | | X |
 | Hizmet kullanımını etkileyen önemli performans sorunlarını bildirin. | | X |
 | Geçerli hizmet için gereken kaynakları proaktif olarak yönetin. | X | |
-| Olayları araştırın ve sorunları giderin. | X | X |
+| Olayları araştırın ve sorunları giderin. | X | |
 | **Güvenlik (kullanıcı erişimi)** | | |
 | Kullanıcıya hizmet erişimi sağlayın. | | X |
 | LCS aracılığıyla dağıtılan kurulumların yönetimi ve işletimi için LCS projesine erişim sağlayın. | | X |

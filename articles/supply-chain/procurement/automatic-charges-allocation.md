@@ -1,23 +1,23 @@
 ---
 title: Otomatik masraf tahsisatı
 description: Microsoft Dynamics 365 Supply Chain Management masraflar özelliği, Satınalma siparişlerine veya satış siparişlerine masrafları otomatik olarak tahsis etmenize yardımcı olur.
-author: dasani-madipalli
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753951"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592552"
 ---
 # <a name="automatic-allocation-of-charges"></a>Otomatik masraf tahsisatı
 
@@ -26,6 +26,16 @@ ms.locfileid: "6753951"
 Çalıştığınız müşteriye veya sattığınız ürüne bağlı olarak belirli ek masraflar uygulamak isteyebilirsiniz. Microsoft Dynamics 365 Supply Chain Management *masraflar* özelliği, Satınalma siparişlerine veya satış siparişlerine masrafları otomatik olarak tahsis etmenize yardımcı olur.
 
 Otomatik masraflar, bir satış siparişi veya satınalma siparişi oluşturduğunuzda otomatik olarak uygulanır. Belirli satıcılar, müşteriler, satıcı grupları veya maddeler için otomatik masraflar tanımlayabilirsiniz. Ayrıca, tüm satıcılar, müşteriler veya maddeler için geçerli olan otomatik masraflar da tanımlayabilirsiniz.
+
+## <a name="set-up-parameters"></a>Parametreleri ayarla
+
+Özellikle masrafları otomatik olarak tahsis etmek istediğinizde **Tedarik ve kaynak atama parametreleri** sayfasında bu konuyla ilgili birkaç ayar vardır. Bu kurulumu tamamlamak için bu adımları izleyin.
+
+1. **Tedarik ve kaynak atama \> Kurulum \> Tedarik ve kaynak atama parametrelerine** gidin.
+1. **Fiyatlar** sekmesini açın.
+1. **Fiyatlar** hızlı sekmesinde, aşağıdaki ayarları yapın:
+    - **Başlık için otomatik masrafları bul**: Masrafların satın alma siparişi başlıkları için otomatik olarak tahsis edilip edilmeyeceğini belirtir. Masrafların otomatik olarak tahsis edilmesi işlevini kullanmak için bu ayarı *Evet* olarak belirleyin.
+    - **Satır için otomatik masrafları bul**: Masrafların satın alma siparişi satırları için otomatik olarak tahsis edilip edilmeyeceğini belirtir. Masrafların otomatik olarak tahsis edilmesi işlevini kullanmak için bu ayarı *Evet* olarak belirleyin.
 
 ## <a name="set-up-charges-codes"></a>Masraf kodlarını ayarlama
 

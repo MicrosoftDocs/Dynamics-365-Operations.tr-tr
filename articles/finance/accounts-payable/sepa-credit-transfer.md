@@ -1,7 +1,7 @@
 ---
 title: SEPA kredi transferine genel bakış
 description: Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar. SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan özel türde bir ödemedir (euro cinsinden). Bu başlık altında, bir kredi transferi ödeme dosyasının nasıl ayarlanacağı ve aktarılacağı da açıklanmaktadır.
-author: ShylaThompson
+author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7d0d5cea3ee3a8476eeb99b99087f55a60306c4717b58403b3beb43ad84a2da
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7bc62f6912433d698024b20e61f54b9a6aea2bbb
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737221"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594779"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredi transferine genel bakış
 
@@ -61,7 +61,7 @@ Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan va
 -   Tüzel kişiliği ve banka hesap bilgilerini de ayarlamanız gerekir.
 -   Banka hesabı numaraları, IBAN'lar ve bazen SWIFT kodları (BIC'ler) veya diğer kimlikler geçerli kredi transferi ödemeleri oluşturmak için gereklidir. Bu nedenle, satıcı banka hesabı ve transferi isteyen kuruluşun banka hesabı için bunları ayarlamanız gerekir.
 -   Kredi transfer iletisinde atıfta bulunulan taraflar için katma değer vergisi (KDV) numaraları gibi ek bilgiler gerekebilir. İstendiğinde satıcılar ve tüzel kişiler için bu bilgilerin ayarlanması gerekir.
--   Borç hesapları ödeme yöntemlerinden bazıları, çoğunlukla ISO 20022 tabanlı ödeme yöntemleri **Ödeme biçimi kod kümeleri** için **Hizmet türü** = **SLEV** gibi ek kurulumlar gerektirebilir. Bu kodlar, ödeme işleme sırasında ödeme hareketleri için ek etiketleme olarak kullanılır. Varsayılan Ödeme kodu değerleri (örneğin **Kategori amacı**, **Masrafı taşıyan**, **Yerel enstrüman** ve **Hizmet düzeyi**) iki yerde ayarlanabilir. İlk yer **Borç hesapları ödeme günlüğü başlığı** ve ikincisi ise **Borç hesapları ödeme yöntemleri**'dir. Ödeme günlüğü satırları oluşturulurken, ödeme günlüğü başlığında ayarlanan Ödeme kodu değerleri bir günlük satırına aktarılır; ayarlanmazsa, Ödeme yöntemlerinden alınan değerler kullanılır.
+-   Borç hesapları ödeme yöntemlerinden bazıları, çoğunlukla ISO 20022 tabanlı ödeme yöntemleri **Ödeme biçimi kod kümeleri** için **Hizmet türü** = **SLEV** gibi ek kurulumlar gerektirebilir. Bu kodlar, ödeme işleme sırasında ödeme hareketleri için ek etiketleme olarak kullanılır. Varsayılan Ödeme kodu değerleri (örneğin **Kategori amacı**, **Masrafı taşıyan**, **Yerel enstrüman** ve **Hizmet düzeyi**) iki yerde ayarlanabilir. İlk yer **Borç hesapları ödeme günlüğü başlığı** ve ikincisi ise **Borç hesapları ödeme yöntemleri**'dir. Ödeme günlüğü satırları oluşturulurken, ödeme günlüğü başlığında ayarlanan Ödeme kodu değerleri bir yevmiye defteri satırına aktarılır; ayarlanmazsa, Ödeme yöntemlerinden alınan değerler kullanılır.
 
 ## <a name="what-parameters-are-available-for-generating-credit-transfer-payments"></a>Kredi transfer ödemeleri üretmek için hangi parametreler kullanılabilir?
 Özel parametreler listesi kredi transfer biçimine bağlıdır. Aşağıdaki tabloda, bir satıcı ödeme günlüğünde Almanya için ISO 20022 kredi transfer ödeme dosyası oluştururken kullanılabilecek parametrelerin listesi gösterilmektedir. **Arka planda çalıştır** sekmesindeki seçenekleri kullanarak, ödeme üretimini toplu iş modunda çalıştırabilirsiniz.

@@ -1,7 +1,7 @@
 ---
 title: Etkinlik tabanlı alt sözleşme verme
 description: Bu konu, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar.
-author: cvocph
+author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0be6bff303b057a98c399c36eb35c3df8177376112143052b3c0e5652b62a286
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740635"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566843"
 ---
 # <a name="activity-based-subcontracting"></a>Etkinlik tabanlı alt sözleşme verme
 

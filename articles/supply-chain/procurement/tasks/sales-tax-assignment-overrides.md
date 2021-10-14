@@ -1,7 +1,7 @@
 ---
 title: Satış vergisi atama ve geçersiz kılma
 description: Bu yordam ticaret kanallarına satış vergisi gruplarının nasıl atanacağını gösterir.
-author: kamaybac
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: RetailStoreTable, RetailTaxOverrideCode, RetailTaxOverrideGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90674fd6e0824a112ef0b77eeb512ad20f0c76d7a8504abad2c4608c0cd16845
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f72c9ffde760c1bc151ee15fe050f3704e43d83e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711843"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577228"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a> Satış vergisi atama ve geçersiz kılma
 

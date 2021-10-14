@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343824"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594869"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için Yardım deneyimini yapılandırma
 
@@ -30,7 +30,7 @@ Bu konuda, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management,
 
 ## <a name="help-architecture"></a>Yardım mimarisi
 
-Finance and Operations uygulamaları, [https://docs.microsoft.com/dynamics365](/dynamics365/) sitesinde yayınlanan kavramsal genel bakışları ve diğer konuları içerir. Bu içeriğe daha sonra ürün içi **Yardım** bölmesinden erişilebilir. Aşağıdaki örnek Yardım sisteminin bölümlerini gösterir.
+Finance and Operations uygulamaları, [Microsoft Dynamics 365 belgeleri](/dynamics365/) sitesinde yayınlanan kavramsal genel bakışları ve diğer konuları içerir. Bu içeriğe daha sonra ürün içi **Yardım** bölmesinden erişilebilir. Aşağıdaki örnek Yardım sisteminin bölümlerini gösterir.
 
 [![Yardım mimarisi.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ Finance and Operations uygulamaları, [https://docs.microsoft.com/dynamics365](/
 ## <a name="adding-task-guides"></a>Görev kılavuzları ekleme
 
 > [!NOTE]
-> **Görev kılavuzları** sekmesi şu anda Human Resources veya Commerce'te mevcut değildir. <!--We are currently working to enable this functionality in a future release.--> Ancak, Human Resources'ın Başlarken deneyimindeki görev kılavuzları, temel işlevselliği sağlamak üzere kullanılabilir kalıyor. Hem Human Resources hem de Commerce için [https://docs.microsoft.com/dynamics365](/dynamics365/) sitesinde yordamsal Yardım mevcuttur.
+> **Görev kılavuzları** sekmesi şu anda Human Resources veya Commerce'te mevcut değildir. <!--We are currently working to enable this functionality in a future release.--> Ancak, Human Resources'ın Başlarken deneyimindeki görev kılavuzları, temel işlevselliği sağlamak üzere kullanılabilir kalıyor. Hem Human Resources hem de Commerce için [Microsoft Dynamics 365 belgeleri](/dynamics365/) sitesinde yordamsal Yardım mevcuttur.
 
 **Sistem parametreleri** sayfasında sistem yöneticileri, bir uygulama için ilgili görev kılavuzu kitaplıklarına erişimi yapılandırabilir.
 

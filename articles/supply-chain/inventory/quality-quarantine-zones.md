@@ -1,7 +1,7 @@
 ---
 title: Uygunsuzluklar için karantina bölgeleri
 description: Bu konu, uygunsuzluklar için karantina bölgelerinin nasıl oluşturulacağını ve kullanılacağını açıklamaktadır.
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c770da899f07597896d0d392b5192ddc4162bec6271d0e11c34797d7a15f857e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 207950a2ff4057853488f75d0e302a049d228b76
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754047"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578476"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>Uygunsuzluklar için karantina bölgeleri
 

@@ -1,7 +1,7 @@
 ---
 title: Bir madde geliş günlüğü kullanılarak temel ambarlama için etkinleştirilen madde için maddeleri kaydetme
 description: Bu prosedürde, Stok yönetimi modülündeki "temel depolama" işlevini kullanırken madde varış günlüğüyle maddelerin nasıl kaydedileceğini göreceksiniz.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c36513587754939da4e1791b687871f71e7e8fa3d3e9990609cb7ede1c32cc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 76dd2bfd57db7dfd5c2baf59a864e59a509a64e0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760238"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577804"
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Bir madde geliş günlüğü kullanılarak temel ambarlama için etkinleştirilen madde için maddeleri kaydetme
 
@@ -43,7 +43,7 @@ Bu prosedürde, Stok yönetimi modülündeki "temel depolama" işlevini kullanı
 2. Satır oluştur'a tıklayın.
     * Satırlar bu günlüğe el ile girilebilir veya otomatik olarak oluşturulabilir. Burada size bunun otomatik olarak nasıl oluşturulduğu gösterilecek.  
 3. Miktarı başlat onay kutusunu işaretleyin veya kutunun işaretini kaldırın.
-    * Bu, satın alma siparişi satırında kaydedilmemiş miktarı olan günlük satırlarında miktarı başlatır.  
+    * Bu, satın alma siparişi satırında kaydedilmemiş miktarı olan yevmiye defteri satırlarında miktarı başlatır.  
 4. Tamam'a tıklayın.
 
 ## <a name="post-the-journal"></a>Günlüğü deftere naklet

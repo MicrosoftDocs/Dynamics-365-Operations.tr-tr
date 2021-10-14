@@ -1,7 +1,7 @@
 ---
 title: Satın alma siparişleri için iş şablonunu ayarlama
 description: Bu konu, alınan ürünler yerine koyulurken kullanılacak basit bir iş şablonunun nasıl ayarlanacağını açıklar.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4fb9038a680bd804f12ea7debe1eb631f6631da1da9667e4c335ed8673a179f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718840"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572301"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Satın alma siparişleri için iş şablonunu ayarlama
 

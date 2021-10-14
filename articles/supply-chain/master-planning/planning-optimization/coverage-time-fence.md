@@ -16,14 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f32c3fd523c3272665b4b45b6d3e136591d12cda191766970ebfaf74b81f0558
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32bf890d1ff74155a75862afd6b0e861fbfc10e2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726880"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567331"
 ---
 # <a name="coverage-time-fences"></a>Kapsam zaman dilimleri
+
+[!include [banner](../../includes/banner.md)]
 
 Bu konuda, Planlamayı En İyi Duruma Getirme'yi kullanırken *kapsam zaman dilimlerinin* nasıl ayarlanacağı açıklanmaktadır. Planlayıcılar, planlama ufkunu (gün olarak karşılama zaman dilimi) tanımlayabilir ve bu dönemin dışında kalan tedariki ve talebi hariç tutabilir. Bu sayede, kapsam zaman dilimleri, aylarca tepki vermenizi gerektirmeyen tedarik önerilerinin neden olduğu "gürültü"nün önlenmesine yardımcı olur. Örnekler arasında, gelecek yılın tahmini ve normal sağlama süresinin dışında verilen müşteri siparişleri yer alır.
 

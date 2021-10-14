@@ -1,7 +1,7 @@
 ---
 title: Stok Görünürlüğü Eklentisi'ne genel bakış
 description: Bu konuda, Stok Görünürlüğü'nün ne olduğu açıklanmakta ve özellikleri tanımlanmaktadır.
-author: sherry-zheng
+author: yufeihuang
 ms.date: 10/26/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475000"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575183"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Stok Görünürlüğü Eklentisi'ne genel bakış
 

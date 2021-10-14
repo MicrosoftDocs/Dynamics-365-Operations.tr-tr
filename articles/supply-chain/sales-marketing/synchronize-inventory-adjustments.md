@@ -1,7 +1,7 @@
 ---
 title: Stok transferlerini ve düzeltmelerini Field Service'ten Supply Chain Management'a eşitleme
 description: Bu konu stok düzeltmelerini ve aktarmalarını Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f1fc4b65fefcc050591f721cf5271fdd79f1b648d992be988af7ac02e220850c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83ab46904815b177640c87fef58ce208d00d800a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717903"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566395"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Stok transferlerini ve düzeltmelerini Field Service'ten Supply Chain Management'a eşitleme
 
@@ -72,12 +72,12 @@ Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>Stok düzeltmesi (Field Service'ten Supply Chain Management'a): Stok düzeltmesi
 
-[![Veri tümleştirmede şablon eşleme.](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![Veri tümleştirmede şablon eşleme, Stok düzeltmesi (Field Service'ten Supply Chain Management'a): Stok düzeltmesi.](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Stok transferi (Field Service'ten Supply Chain Management'a): Stok transferi
 
-[![Veri tümleştirmede şablon eşleme.](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![Veri tümleştirmede şablon eşleme, Stok transferi (Field Service'ten Supply Chain Management'a): Stok transferi.](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

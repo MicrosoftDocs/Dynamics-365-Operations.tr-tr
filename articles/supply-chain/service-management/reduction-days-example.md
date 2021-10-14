@@ -1,7 +1,7 @@
 ---
 title: Azaltma günleri örneği
 description: Azaltma günleri örneği.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,30 +15,29 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ba0cfde66476d052f0c9a048977026341a5295c21603385c5b3774a15be5232
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727810"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567955"
 ---
-# <a name="reduction-days-example"></a>Azaltma günleri örneği 
+# <a name="reduction-days-example"></a>Azaltma günleri örneği
 
 [!include [banner](../includes/banner.md)]
-
 
 Bir müşterinin bakım aboneliği için aşağıda açıklandığı şekilde bir abonelik hareketi oluşturdunuz.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,21 +65,20 @@ Bir müşterinin bakım aboneliği için aşağıda açıklandığı şekilde bi
 </tbody>
 </table>
 
-
 Müşteri, iki gün için (19 ve 11 Mart) servis karşılama ihtiyacı olmadığını bildiriyor. Abonelikten bu iki günü düşmeyi kabul ediyorsunuz.
 
 Aşağıdaki tabloda açıklandığı gibi **Azaltma günleri** türünde yeni bir işlem oluşturursunuz.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -108,16 +106,10 @@ Aşağıdaki tabloda açıklandığı gibi **Azaltma günleri** türünde yeni b
 </tbody>
 </table>
 
-
 Mart 2011'e ait işlemler faturalandırıldığında, 200 EUR değerindeki satış fiyatından 12,90 EUR düşülür. Abonelik işlemi için borçlandırılabilir tutar bu durumda 187,10 EUR olur ve iki işlem toplam 187,10 EUR olarak faturalandırılır.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Abonelik ücretlerindeki günleri azaltma](reduce-the-days-on-subscription-fees.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

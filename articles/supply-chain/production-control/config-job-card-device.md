@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bead8a80110df174c094d0729fbde3d96b230cbf
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344009"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576964"
 ---
 # <a name="configure-job-card-for-devices"></a>Cihazlar için iş kartını konfigüre et
 

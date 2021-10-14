@@ -4,18 +4,18 @@ description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.21'daki yeni v
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500567"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579748"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21 sürümündeki yenilikler veya değişiklikler (Ekim 2021)
 
@@ -26,20 +26,6 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.21 sürümündeki
 - **Sürümün önizlemesi:** Ağustos 2021
 - **Sürüm genel kullanılabilirliği (kendi kendini güncelleştirme):** Eylül 2021
 - **Sürüm genel kullanılabilirliği (otomatik güncelleştirme):** Ekim 2021
-
-## <a name="known-deployment-issue"></a>Bilinen dağıtım sorunu
-
-IaaS üzerinde sürüm 10.0.21'i dağıtırken aşağıdaki dağıtım uyarısını alabilirsiniz:
-
-**Uyarı kodu:** 95017
-
-**Uyarı iletisi:** \[SetupDiagnostics\] komut dosyası, VM'ye karşı yürütmede başarısız oldu
-
-Dağıtım uyarıya rağmen çalışacak. Ancak Lifecycle Services'te (LCS) aşağıdaki bilinen sorunlar gerçekleşebilir:
-
-- **Ortam izleme** sayfasında, **Ayrıntılı sürüm bilgilerini görüntüle** bağlantısı görünmez. Bu nedenle, ortamınızda yüklü modüllerin belirli sürümlerini göremezsiniz. Bu veriler olmadan, düzeltmeleri uygulayan işlem, modül sürümü önkoşullarının karşılandığını doğrulamak için bu verileri kullandığından sonraki düzeltmeler başarısız olabilir. Üretimde oluşturulan PEAP/Önizlemeyi kullanmak veya düzeltmeleri uygulamak mümkün olmadığından etki minimum olmalıdır.
-- SQL ile İlgili Bilgiler altında **Ortam İzleme** sayfasındaki **Performans Ölçüleri** ve **Dizin Analizi** sekmelerinde veri görüntülenmez. Diğer tüm **Ortam İzleme** özellikleri istendiği gibi çalışır.
-- **Tam Sistem Tanılama** sayfasına erişilemez. Gecelik toplayıcı çalıştırmalarının durumuyla ilgili veriler ve kuralları tarafından algılanan sorunlar da gösterilmez.
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
