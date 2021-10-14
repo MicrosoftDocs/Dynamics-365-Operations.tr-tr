@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722643"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559595"
 ---
 # <a name="payroll-position-job"></a>Bordrolu pozisyon işi
 
@@ -34,16 +34,22 @@ Fiziksel ad: mshr_payrollpositionjobentity.
 
 ## <a name="properties"></a>Özellikler
 
-| Özellik<br>**Fiziksel ad**<br>**_Türü_** | Kullan | Tanım |
+| Özellik</br>**Fiziksel ad**</br>**_Tür_** | Kullan | Tanım |
 | --- | --- | --- |
-| **İş Kodu**<br>mshr_jobid<br>*Dize* | Salt okunur<br>Gerekli |İşin kimliği. |
-| **Geçerlilik başlangıcı**<br>mshr_validto<br>*Tarih Saat Sapması* | Salt okunur <br>Gerekli | Pozisyon ve iş ilişkisinin geçerlilik başlangıç tarihi. |
-| **Geçerlilik bitişi**<br>mshr_validto<br>*Tarih Saat Sapması* | Salt okunur <br>Gerekli | Pozisyon ve iş ilişkisinin geçerlilik bitiş tarihi.  |
-| **Pozisyon kodu**<br>mshr_positionid<br>*Dize* | Salt okunur<br>Gerekli | Pozisyonun kimliği. |
-| **Birincil alan**<br>mshr_primaryfield<br>*Dize* | Gerekli<br>Sistem tarafından oluşturulan |  |
-| **Pozisyon iş kimliği değeri**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Salt okunur<br>Gerekli<br>Yabancı anahtar: mshr_payrollpositionjobentity için mshr_PayrollPositionJobEntity |Pozisyonla ilişkili işin kimliği.|
-| **Sabit ücret planı kimlik değeri**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Salt okunur<br>Gerekli<br>Yabancı anahtar: mshr_payrollfixedcompensationplanentity içinmshr_FixedCompPlan_id  | Pozisyonla ilişkili sabit ücret planının kimliği. |
-| **Bordro pozisyon iş varlığı kimliği**<br>mshr_payrollpositionjobentityid<br>*Guid* | Gerekli<br>Sistem tarafından oluşturulan. | İşi benzersiz olarak tanımlamak için sistem tarafından oluşturulan GUID değeri.  |
+| **Pozisyon kodu**</br>mshr_positionid</br>*Dize* | Salt okunur | Pozisyonun kimliği. |
+| **Geçerlilik başlangıcı**</br>mshr_validto</br>*Tarih Saat Sapması* | Salt okunur | Pozisyon ve iş ilişkisinin geçerlilik başlangıç tarihi. |
+| **Geçerlilik bitişi**</br>mshr_validto</br>*Tarih Saat Sapması* | Salt okunur | Pozisyon ve iş ilişkisinin geçerlilik bitiş tarihi. |
+| **İş Kodu**</br>mshr_jobid</br>*Dize* | Salt okunur | İşin kimliği. |
+| **Birincil alan**</br>mshr_primaryfield</br>*Dize* | Sistem tarafından oluşturulan | Birincil alan. |
+| **Bordro pozisyon iş varlığı kimliği**</br>mshr_payrollpositionjobentityid</br>*Guid* | Sistem tarafından oluşturulan. | İşi benzersiz bir şekilde tanımlamak için sistem tarafından oluşturulan genel benzersiz tanımlayıcı (GUID) değeri. |
+
+## <a name="relations"></a>İlişkiler
+
+| Özellik değeri | İlgili varlık | Gezinti özelliği | Tahsilat türü |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | Geçerli değil |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>Örnek sorgu
 

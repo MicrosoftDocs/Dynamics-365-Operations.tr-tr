@@ -1,7 +1,7 @@
 ---
 title: Ürün yapılandırma modellerine genel bakış
 description: Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapısı oluşturmanızı sağlar.
-author: cvocph
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48cabc174cd46d95631010692da5972c182b36167d520cfefd9742b4b522ca73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8c583a9a5023b188788b3c2199a7602c425be93
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722379"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568531"
 ---
 # <a name="product-configuration-models-overview"></a>Ürün yapılandırma modellerine genel bakış
 

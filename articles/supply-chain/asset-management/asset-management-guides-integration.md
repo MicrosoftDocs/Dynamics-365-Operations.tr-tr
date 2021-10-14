@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Supply Chain Management'ı (Varlık yönetimi) Dynamics 365 Guides ile tümleştirme
 description: Bu konu, günlük servis ve bakım iş akışlarınızda karma gerçeklik kılavuzlarından yararlanmak için Microsoft Dynamics 365 Supply Chain Management'taki Varlık yönetimi modülünün Dynamics 365 Guides ile nasıl tümleştirileceğini açıklar.
-author: kamaybac
+author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: johanho
 ms.search.validFrom: 2020-04-28
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 94d98aa011d0db3991c14596f5d6bdecc0fb6c831915ae124f623fa57277fcfe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721547"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568267"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Dynamics 365 Supply Chain Management'ı (Varlık yönetimi) Dynamics 365 Guides ile tümleştirme
+
+[!include [banner](../includes/banner.md)]
 
 Günlük servis ve bakım iş akışlarınızda karma gerçeklik kılavuzlarından yararlanmak için Microsoft Dynamics 365 Supply Chain Management'taki **Varlık yönetimi** modülünü Dynamics 365 Guides ile tümleştirebilirsiniz. Bir kılavuz Varlık yönetimi iş emriyle ilişkilendirilmişse, Supply Chain Management (Dynamics 365) mobil uygulamasında iş emrinin bakım denetim listesini açan bir çalışan bir kılavuzun kullanılabilir olduğunu görür. Çalışan daha sonra kılavuzu Dynamics 365 Guides HoloLens uygulamasında bulabilir ve açabilir.
 

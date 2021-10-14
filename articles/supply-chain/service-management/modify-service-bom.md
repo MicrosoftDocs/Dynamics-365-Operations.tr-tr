@@ -1,7 +1,7 @@
 ---
 title: Servis Ürün Reçetesini Değiştirme
 description: Servis Ürün Reçetesini Değiştirin.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c081e31cd60069ac7ba8cb2c52e974bf5d2e2870467465404c229bee6b6ef57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a363a8997b0a5dc92ee4953f10eac87988d4725a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767352"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573285"
 ---
 # <a name="modify-a-service-bom"></a>Servis Ürün Reçetesini Değiştirme 
 

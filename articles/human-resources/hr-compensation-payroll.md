@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483794"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559619"
 ---
 # <a name="ready-to-pay"></a>Ödemeye hazır
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Bir personeli ödemeye hazır olarak işaretlemek istiyorsanız önce özellik yönetiminde **(Önizleme) bordro tümleştirmesi** işlevini etkinleştirmeniz gerekir. Önizleme özelliklerini etkinleştirmeyle ilgili daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Bu doğrulamalardan biri başarısız olursa personeli ödemeye hazır olarak i�
 
 **Ödemeye hazır** alanı **Hayır** ise bu, çalışan profilinin tamamlandığından emin olmak için bir eylem gerçekleştirmeniz gerektiğinin bir göstergesidir. Bu, herhangi bir veri varlığında verilerin açığa çıkmasını durdurmaz. 
 
-## <a name="known-issues"></a>Bilinen sorunlar
+## <a name="process-automation"></a>İşlem Otomasyonu
 
-- Özellik yönetiminde **Kolaylaştırılmış personel girişi** özelliğini devre dışı bırakmalısınız. Bu özelliği kullanırsanız maaş yönetimi çalışma alanındaki kutucuklar düzgün çalışmaz.
-- **Çalışan** sayfasında, **Bordro sekmesi**, **Ödemeye hazır** grubu herhangi bir kullanıcı rolü için kullanılabilir. 
+[Süreç Otomasyonu](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation)'nu kullanarak tüm personelin doğrulamasını otomatik hale getirebilirsiniz. **Ücret yönetimi** çalışma alanında **Bağlantılar** \> **Parametreler** \> **Süreç Otomasyonları**'na gidin.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

@@ -2,7 +2,7 @@
 title: Satış vergisi kodlarını ayarlama
 description: Bu konuda, Dynamics 365 Finance'da satış vergisi kodlarının nasıl ayarlanacağı açıklanmaktadır.
 author: twheeloc
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5ce2c8d9a117871191dd1c2d32d822bcc72d76fabaec146d9b8c27fc85dc058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719210"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562114"
 ---
 # <a name="set-up-sales-tax-codes"></a>Satış vergisi kodlarını ayarlama
 
@@ -38,11 +38,19 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 8. Arabirimin üst kısmındaki **Eylem Bölmesinde**, **Satış vergisi kodunu** seçin.
 9. **Değerler**'i seçin.
 10. Bu vergi kodunun değerini **değer** sütununa girin.
-    - **Hesaplama** hızlı sekmesindeki Kaynak alanında Birim başına tutar seçiliyse, değer, hareketteki miktarla çarpılarak satış vergisi tutarı hesaplanır.  Vergi kodu birim tabanlı bir vergi değilse, değer, satış vergisi tutarını hesaplamak için bu vergi kodunun Kaynağına uygulanan yüzdedir.     
+
+    **Hesaplama** hızlı sekmesindeki **Menşe** alanında **Birim başına tutar** seçiliyse değer ile hareketteki miktarla çarpılarak satış vergisi tutarı hesaplanır.  Vergi kodu, birim tabanlı bir vergi değilse değer, satış vergisi tutarını hesaplamak için bu vergi kodunun Menşei'ne uygulanan bir yüzdedir.     
+
 11. **Kaydet**'i seçin.
 12. Sayfayı kapatın.
 13. **Kaydet**'i seçin.
 
+Microsoft Dynamics 365 Finance uygulamasının 10.0.22 sürümü itibarıyla [Vergi hizmeti](../../localizations/global-tax-calcuation-service-overview.md)'ni kullanıyorsanız ve **Özellik yönetimi** çalışma alanında [**Birden çok KDV sicil numarasını destekle**](../../localizations/emea-multiple-vat-registration-numbers.md) özelliği etkinleştirilmişse Vergi kodunun türünü belirtmek için **Vergi türü** alanını kullanabilirsiniz. Aşağıdaki değerler kullanılabilir:
 
+- Standart KDV
+- Düşürülen KDV
+- %0 KDV
+- Tüketim vergisi
+- Diğer
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

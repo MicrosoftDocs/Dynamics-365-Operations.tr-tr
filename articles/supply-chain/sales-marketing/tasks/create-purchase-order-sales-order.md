@@ -1,7 +1,7 @@
 ---
 title: Satış siparişinden satınalma siparişi oluşturma
 description: Bu yordam, bir satış siparişine göre nasıl satınalma siparişi oluşturulacağını gösterir.
-author: omulvad
+author: Henrikan
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFro
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 00bd0677113f0029732023dd84fcb1b9bf58648d5611000a3d95376c7d9131e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4ca91f17c13e210a4df6c22e0ed12370179bb866
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781842"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572484"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Satış siparişinden satınalma siparişi oluşturma
 

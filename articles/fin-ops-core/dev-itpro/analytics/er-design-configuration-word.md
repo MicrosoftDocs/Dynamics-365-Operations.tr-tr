@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718369"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595274"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için yeni bir ER yapılandırması tasarlama
 
@@ -46,7 +46,7 @@ Word biçimindeki raporlar için şablon olarak Word belgesi kullanmak için yen
 
 ![Biçim tasarımcısı sayfasına iç içe öğeler ekleme.](./media/er-design-configuration-word-image4.gif)
 
-Tasarım aşamasında değişikliklerini ER biçimine kaydettiğinizde hiyerarşik biçim yapısı, ekli Word şablonunda **Rapor** adlı [özel XML bölümü](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) olarak saklanır. Değiştirilen şablona erişmeniz, Finance'ten indirmeniz, yerel olarak depolamanız ve Word masaüstü uygulamasında açmanız gerekir. Aşağıdaki çizimde, **Rapor** özel XML bölümünü içeren denetim raporu için yerel olarak depolanan örnek şablon gösterilmektedir.
+Tasarım aşamasında değişikliklerini ER biçimine kaydettiğinizde hiyerarşik biçim yapısı, ekli Word şablonunda **Rapor** adlı [özel XML bölümü](/visualstudio/vsto/custom-xml-parts-overview) olarak saklanır. Değiştirilen şablona erişmeniz, Finance'ten indirmeniz, yerel olarak depolamanız ve Word masaüstü uygulamasında açmanız gerekir. Aşağıdaki çizimde, **Rapor** özel XML bölümünü içeren denetim raporu için yerel olarak depolanan örnek şablon gösterilmektedir.
 
 ![Word masaüstü uygulamasında örnek rapor şablonunun önizlemesini görüntüleme.](./media/er-design-configuration-word-image5.gif)
 

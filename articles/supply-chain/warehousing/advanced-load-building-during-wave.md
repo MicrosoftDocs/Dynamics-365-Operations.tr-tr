@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0115d58c059724fddc3d6232d341e10630229fa394e462af96176e75a2a8f86c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 08e44b4e37f28ec91eeb8e53930de5133607bd66
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773141"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574749"
 ---
 # <a name="advanced-load-building-during-wave"></a>Dalga sırasında gelişmiş yük oluşturma
 
@@ -92,11 +92,11 @@ Bu gösteriyi, üretim sisteminde çalışırken bu özelliği kullanmaya yönel
 
 #### <a name="create-inventory-in-warehouse-62"></a>62. Ambarda stok oluştur
 
-1. **Stok yönetimi** \> **Günlük girişleri** \> **Maddeler** \> **Stok ayarlama**'ya gidin.
+1. **Stok yönetimi** \> **Yevmiye defteri girişleri** \> **Maddeler** \> **Stok ayarlama**'ya gidin.
 1. Eylem Bölmesinde, **Yeni**'yi seçin.
 1. **Stok günlüğü oluştur** iletişim kutusunda, **ambar** alanındaki **özet** hızlı sekmesinde, *62* girin. Tüm diğer alanlar için varsayılan değerleri kabul edin.
 1. İletişim kutusunu kapatmak için **Tamam**'ı seçin.
-1. **Stok Ayarlama** sayfası açılır. **Günlük Satırları** hızlı sekmesinde, satır eklemek için **Yeni**'yi seçin.
+1. **Stok Ayarlama** sayfası açılır. **Yevmiye defteri satırları** hızlı sekmesinde, satır eklemek için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın. Tüm diğer alanlar için varsayılan değerleri kabul edin.
 
     - **Madde numarası:** *M9200*

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343872"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595215"
 ---
 # <a name="email-er-destination-type"></a>E-posta ER hedef türü
 
@@ -75,7 +75,7 @@ E-postayı gönderenini ve e-posta alıcılarını belirtebilirsiniz. Varsayıla
 >
 > E-posta hedefi [çalıştırma zamanında](electronic-reporting-destinations.md#security-considerations) değiştirme için teklif edildiğinde **Kimden** alanı yalnızca `ERFormatDestinationSenderEmailMaintain` güvenlik ayrıcalığına sahip kullanıcılar tarafından görülebilir, **ER biçim hedefi için gönderen e-posta adresini koruyun**.
 >
-> Geçerli kullanıcınınkinden farklı bir e-posta adresi kullanmak için **Kimden** alanı yapılandırıldığında **Farklı gönder** veya **Adına gönder** izni önceden doğru şekilde [ayarlanmalıdır](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide). Aksi takdirde, çalıştırma zamanında şu özel durum oluşur: "E-posta, \<current user account\> hesabından \<from email account\> adına gönderilemiyor, lütfen \<from email account\> hesabında "Farklı gönder" izinlerini kontrol edin."
+> Geçerli kullanıcınınkinden farklı bir e-posta adresi kullanmak için **Kimden** alanı yapılandırıldığında **Farklı gönder** veya **Adına gönder** izni önceden doğru şekilde [ayarlanmalıdır](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group). Aksi takdirde, çalıştırma zamanında şu özel durum oluşur: "E-posta, \<current user account\> hesabından \<from email account\> adına gönderilemiyor, lütfen \<from email account\> hesabında "Farklı gönder" izinlerini kontrol edin."
 
 Bir e-posta adresinden fazlasını döndürmek için **Kimden** alanını yapılandırabilirsiniz. Bu durumda, listedeki ilk adres e-posta gönderen adresi olarak kullanılır.
 

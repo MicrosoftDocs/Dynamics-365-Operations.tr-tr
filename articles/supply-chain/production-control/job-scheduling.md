@@ -1,7 +1,7 @@
 ---
 title: İş planlama çizelgeleme
 description: Bu makale, operasyon planlamasından daha ayrıntılı bir planlama biçimi olan iş planlaması hakkında bilgi sağlar. İşleri veya mağaza siparişlerini tek tek programlamak ve üretim ortamını kontrol etmek için iş planlamayı kullanabilirsiniz.
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19431
 ms.assetid: aef37341-91d8-4263-80eb-35d9584be156
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc782a46f01464f2e0fea7eaf1d05a915bf735c7b4280676e45442af9440ae98
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 698fb31b1a2790b737b30f15b50f0f8ecdd59286
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717112"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570261"
 ---
 # <a name="job-scheduling"></a>İş planlama çizelgeleme
 

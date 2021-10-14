@@ -1,7 +1,7 @@
 ---
 title: Ambardaki stoğu sayma
 description: Bu konu, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak için stok sayım günlüğü oluşturma ve deftere nakletme işlemini açıklar.
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cc89e3773005502c193364a721a835fe01dde9f1f22046e9c10c7d186b508d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4b7dd3788d3cbf80bfba373f5b6ce9d2e0ca0c07
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768155"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578428"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Ambardaki stoğu sayma
 
@@ -29,14 +29,14 @@ Bu konu, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak içi
 
 
 ## <a name="create-an-inventory-counting-journal"></a>Stok sayım günlüğü oluşturma
-1. **Gezinti bölmesi > Modüller > Stok yönetimi > Günlük girişleri > Ürün sayımı > Sayım**'a gidin.
+1. **Gezinti bölmesi > Modüller > Stok yönetimi > Yevmiye defteri girişleri > Ürün sayımı > Sayım**'a gidin.
 2. **Yeni**'yi seçin.
 3. **Ad** alanında açılır listeden kullanmak istediğini stok sayımı günlük adını seçin. Diğer bazı alanlar, seçtiğiniz stok sayımı günlük adı kurulumu temel alınarak doldurulur.  
 4. **Çalışan** alanında, aramayı açmak için açılır menü düğmesini seçin.
 5. Listede kullanmak istediğiniz çalışanı **Seçin**.
 6. **Tamam**'ı seçin.
 
-## <a name="create-journal-lines"></a>Günlük satırları oluştur
+## <a name="create-journal-lines"></a>Yevmiye defteri satırları oluştur
 1. **Yeni**'yi seçin.
 2. **Madde numarası** alanında, açılır menü listesinden istediğiniz kaydı seçin. Demo verileri şirket USMF'yi kullanıyorsanız, **A0001** öğesini seçin.  
 3. **Tesis** alanında, açılır menü listesinden istediğiniz kaydı seçin. Demo verileri şirket USMF'yi kullanıyorsanız, tesis **2** öğesini seçin.

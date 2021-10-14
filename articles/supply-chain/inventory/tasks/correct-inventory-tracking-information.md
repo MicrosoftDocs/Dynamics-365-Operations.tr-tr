@@ -1,7 +1,7 @@
 ---
 title: Stok izleme bilgilerini düzeltme
 description: Bu yordam, stok izleme bilgilerini düzeltmek için bir stok transfer günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar.
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aae70bf74f3b640167a01d8a5935989d7225695dc5d4f3817ac2ce92d191cb31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 69921651ecd0969e9cdd3cdd3740db212a1953e1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766715"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573813"
 ---
 # <a name="correct-inventory-tracking-information"></a>Stok izleme bilgilerini düzeltme
 
@@ -34,7 +34,7 @@ Bu yordam, stok izleme bilgilerini düzeltmek için bir stok transfer günlüğ�
 3. Ad alanına bir değer girin veya buradan bir değer seçin.
 4. Tamam'a tıklayın.
 
-## <a name="create-journal-lines"></a>Günlük satırları oluştur
+## <a name="create-journal-lines"></a>Yevmiye defteri satırları oluştur
 1. Yeni'ye tıklayın.
 2. Madde numarası alanında bir değer girin veya seçin.
     * USPI kullanıyorsanız, M5003 öğesini seçin.  

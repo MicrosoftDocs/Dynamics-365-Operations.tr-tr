@@ -1,7 +1,7 @@
 ---
 title: Şablon ürün reçetesi oluşturma
 description: Çeşitli yöntemler kullanarak şablon ürün reçetesi oluşturabilirsiniz.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f83048e5b4d7493b05351e4a711b7aa1f479f3911d67f8e030e0c9a3a8a1e178
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c10bf5e758a1752e1c50c602db85e0c53ee3e662
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720240"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571509"
 ---
 # <a name="create-a-template-bom"></a>Şablon ürün reçetesi oluşturma   
 

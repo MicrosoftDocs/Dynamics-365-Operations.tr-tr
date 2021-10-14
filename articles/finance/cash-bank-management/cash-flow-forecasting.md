@@ -1,8 +1,8 @@
 ---
 title: Nakit akışı tahmini
 description: Bu konu, nakit akışı genel görünüm işlemine bir genel bakış sağlar. Nakit akışı tahmininin sistemdeki diğer modüllerle nasıl tümleşik olduğunu da açıklar.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779458"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547967"
 ---
 # <a name="cash-flow-forecasting"></a>Nakit akışı tahmini
 
@@ -83,7 +83,10 @@ Belirli müşteri deftere nakil profilleri için **Likidite hesabı** varsayıla
 
 ### <a name="budgeting"></a>Bütçeleme
 
-Bütçe modellerinden oluşturulan bütçeler, nakit akışı tahminlerine dahil edilebilir. **Nakit akışı tahmin kurulumu** sayfası üzerindeki **Bütçeleme** sekmesinde, tahmine dahil edilecek bütçe modellerini seçin. Varsayılan olarak yeni bütçe kayıt girişleri, bütçe modeli nakit akışı tahminleri için etkinleştirildikten sonra tahminlere dahil edilir. Nakit akışı tahminine dahil edilme, tekil bütçe kayıt girişlerinde geçersiz kılınabilir.
+Bütçe modellerinden oluşturulan bütçeler, nakit akışı tahminlerine dahil edilebilir. **Bütçeleme** sekmesindeki **Nakit akışı tahmin kurulumu** sayfasında, tahmine dahil edilecek bütçe modellerini seçin. Varsayılan olarak yeni bütçe kayıt girişleri, bütçe modeli nakit akışı tahminleri için etkinleştirildikten sonra tahminlere dahil edilir.
+
+Bütçe kayıt girişleri, kişiselleştirme yoluyla nakit akışı tahminine bireysel olarak dahil edilebilir. **Bütçe kaydı girişi** sayfasına "Nakit akışı tahminlerine dahil et" sütununu eklediğinizde sistem tahmine ayrı bir bütçe kaydı girişi eklemek için **Nakit akışı tahmini kurulumu** sayfasındaki ayarların üzerine yazar.
+
 
 ### <a name="inventory-management"></a>Stok Yönetimi
 
@@ -144,7 +147,7 @@ Geçerli şirketin çalışma alanına erişim **Geçerli şirketin nakit akış
 
 **Nakit genel bakış – geçerli şirket** çalışma alanı, nakit akışı tahmin analizlerini şirketin tanımlanmış muhasebe para birimi cinsinden gösterir. Analizler için kullanılan muhasebe para birimi, **Genel muhasebe** sayfasında tanımlanır. Bu çalışma alanı, geçerli şirket için nakit akışı tahmini ve banka hesabı bakiyelerine bir genel bakışı gösterir. Nakit girişleri ve çıkışlarının bir grafiği, gelecekteki nakit hareketleri ve bakiyeleri muhasebe para birimi cinsinden, tahmin edilen hareketler hakkında ayrıntılı bilgiyle birlikte gösterir. Tahmin edilen para birimi bakiyelerini de görebilirsiniz.
 
-Nakit akışı tahmin analizleri hakkında daha fazla bilgi için [Nakit genel bakışı Power BI içeriği](./cash-overview-power-bi-content.md) konusuna göz atın.
+Nakit akışı tahmin analizleri hakkında daha fazla bilgi için bkz. [Nakit genel bakışı Power BI içeriği](Cash-Overview-Power-BI-content.md).
 
 Ek olarak, belirli hesaplar, siparişler ve maddeler hakkındaki nakit akışı tahmin verisini aşağıdaki sayfalarda görebilirsiniz:
 

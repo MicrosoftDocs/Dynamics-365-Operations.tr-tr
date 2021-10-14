@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386753"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559571"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -37,6 +37,18 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 [!include [banner](../includes/preview-banner.md)]
 
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Commerce parametrelerinde çakışan iskontoların işlenme ayarı
+
+**Commerce parametreleri** sayfasındaki **Çakışan iskontoların işlenmesi** ayarı, Commerce 10.0.21 sürümünde kullanım dışı bırakılmıştır. Gelecekte, Commerce fiyatlandırma altyapısı, çakışan iskontoların en uygun birleşimini belirlemek için tek bir algoritma kullanacaktır.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | <p>Commerce parametrelerindeki **Çakışan iskontoların işlenmesi** ayarı, Commerce fiyatlandırma altyapısının nasıl arama yaptığını denetler ve çakışan iskontoların en uygun birleşimini belirler. Bu ayar şu anda üç seçenek sunuyor:<p><ul><li> **En iyi performans**: Bu seçenek, en iyi iskonto birleşimini zamanında önceliklendirmek, değerlendirmek ve belirlemek için gelişmiş bir buluşsal algoritma ve [marjinal değer sıralaması](../optimal-combination-overlapping-discounts.md) yöntemini kullanır.</li><li>**Dengelenmiş hesaplama**: Bu seçenek, geçerli kod tabanında tıpkı **En iyi performans** seçeneği gibi çalışır. Bu nedenle, bu seçenek esasen yinelenmiş bir seçenektir.</li><li>**Kapsamlı hesaplama**: Bu seçenek, fiyat hesaplaması sırasında tüm olası iskonto birleşimlerini kullanan eski bir algoritma kullanır. Bu seçenek, çok fazla satırı ve miktarı olan siparişler için performans sorunlarına neden olabilir.</li></ul><p>Yapılandırmayı basitleştirmeye, performansı iyileştirmeye ve eski algoritmanın neden olduğu sorunları azaltmaya yardımcı olmak için **Çakışan iskontoların işlenmesi** ayarını tamamen kaldıracağız ve Commerce fiyatlandırma altyapısının dahili mantığını artık yalnızca gelişmiş algoritmayı (**En iyi performans** seçeneğinin kullandığı algoritma) kullanacak şekilde güncelleştireceğiz.</p> |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır. **Dengelenmiş hesaplama** veya **Kapsamlı hesaplama** seçeneğini kullanan kuruluşların bu özellik kaldırılmadan önce **En iyi performans** seçeneğine geçmesini öneririz. |
+| **Etkilenen ürün alanları**         | Fiyatlandırma ve iskontolar |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Ekim 2022'de yayımlanacak 10.0.21 sürümü itibarıyla **Çakışan iskontoların işlenmesi** ayarı Commerce parametrelerinden kaldırılacaktır. |
+
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Lifecycle Services kullanılarak dağıtılan Retail SDK
 
 Retail SDK, Lifecycle Services (LCS) ile birlikte gelir. Bu dağıtım modu, 10.0.21 sürümünde kullanım dışı bırakılmıştır. Bundan sonra Retail SDK başvuru paketleri, kitaplıklar ve örnekler GitHub'daki genel depolarda yayımlanacaktır.
@@ -55,7 +67,7 @@ Retail SDK MSBuild kullanılarak oluşturulan perakende dağıtılabilir paketle
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Perakende dağıtılabilir paketi, eksiksiz bir uzantı paketleri ve yükleyiciler setinden oluşan birleşik bir pakettir. CSU uzantıları Bulut ölçek birimine gittiğinden ve yükleyiciler mağazalarda dağıtıldığından bu birleşik paket, dağıtımı karmaşık hale getirir. Yükleyicilerde güncelleştirmeleri zorlaştıran uzantı ve temel ürün bulunur. Her yükseltme işleminde, kod birleştirme ve paket oluşturma gerekir. Bu işlemi basitleştirmek üzere uzantı paketleri artık kolay dağıtım ve yönetim için bileşenlere ayrılmıştır. Yeni yaklaşımla, uzantılar ve temel ürün yükleyicileri ayrılır ve kod birleştirme veya yeniden paketleme olmadan bağımsız olarak sunulup yükseltilebilir.|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Perakende dağıtılabilir paketi, eksiksiz bir uzantı paketleri ve yükleyiciler setinden oluşan birleşik bir pakettir. CSU uzantıları Bulut ölçek birimine gittiğinden ve yükleyiciler mağazalarda dağıtıldığından bu birleşik paket, dağıtımı karmaşık hale getirir. Yükleyicilerde güncelleştirmeleri zorlaştıran uzantı ve temel ürün bulunur. Her yükseltme işleminde, kod birleştirme ve paket oluşturma gereklidir. Bu işlemi basitleştirmek üzere uzantı paketleri artık kolay dağıtım ve yönetim için bileşenlere ayrılmıştır. Yeni yaklaşımla, uzantılar ve temel ürün yükleyicileri ayrılır ve kod birleştirme veya yeniden paketleme olmadan bağımsız olarak sunulup yükseltilebilir.|
 | **Başka bir özellikle mi değiştirildi?**   | CSU uzantıları, POS uzantısı yükleyicileri, Donanım istasyonu uzantısı yükleyicileri |
 | **Etkilenen ürün alanları**         | Dynamics 365 Commerce uzantısı ve dağıtım |
 | **Dağıtım seçeneği**              | Tümü |
@@ -100,7 +112,7 @@ ModernPos.sln, CloudPOs.sln, POS.Extension.csproj ve POS klasörünü kullanarak
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Aralık 2020 itibarıyla geçerli olmak üzere, tüm Dynamics 365 ürünleri için Microsoft Internet Explorer 11 desteği kullanım dışı, bırakılacaktır ve Internet Explorer 11, Ağustos 2021'den sonra desteklenmeyecektir.<br><br>Bu, Internet Explorer 11 arabirimi aracılığıyla kullanılmak üzere tasarlanmış olan Dynamics 365 ürünlerini kullanan müşterileri etkileyecektir. Ağustos 2021'den sonra, Internet Explorer 11, bu tür Dynamics 365 ürünleri için desteklenmeyecektir. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Aralık 2020 itibarıyla geçerli olmak üzere tüm Dynamics 365 ürünleri için Microsoft Internet Explorer 11 desteği kullanım dışı, bırakılacaktır ve Internet Explorer 11, Ağustos 2021'den sonra desteklenmeyecektir.<br><br>Bu, Internet Explorer 11 arabirimi aracılığıyla kullanılmak üzere tasarlanmış olan Dynamics 365 ürünlerini kullanan müşterileri etkileyecektir. Ağustos 2021'den sonra, Internet Explorer 11, bu tür Dynamics 365 ürünleri için desteklenmeyecektir. |
 | **Başka bir özellikle mi değiştirildi?**   | Müşterilerin Microsoft Edge'e geçiş yapması önerilir.|
 | **Etkilenen ürün alanları**         | Tüm Dynamics 365 ürünleri |
 | **Dağıtım seçeneği**              | Tümü|

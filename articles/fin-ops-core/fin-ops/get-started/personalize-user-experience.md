@@ -2,7 +2,7 @@
 title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344386"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581077"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -119,7 +119,8 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalarla gerçekleştiril
 
 - Bir öğeyi seçip özelliklerini değiştirmek için **Seç** aracını kullanın. Bu aracı kullanmak için, araç çubuğunda **Seç** düğmesini seçin ve sonra istediğiniz öğeyi seçin. Öğenin özelliklerini değiştirebileceğiniz özellik penceresi görünür. Sayfada kişiselleştirilebilecek başka öğeler için işlemi yineleyebilirsiniz. Bazı senaryolarda bazı kişiselleştirme özelliklerinin kullanılabilir olmayacağını unutmayın. Örneğin, gerekli bir alanı kilitleyemezsiniz.
 - Sayfadaki bir öğeyi gizlemek için **Gizle** aracını kullanın. Bu aracı kullanmak için, araç çubuğunda **Gizle** düğmesini seçin ve sonra gizlenecek öğeyi seçin. **Gizle** aracını kullandığınız zaman, gizli durumdaki tüm öğeler görünür hale gelir ancak gölgeli bir kapsayıcıda gösterilirler. Böylece, öğeyi seçerek görünür yapabilirsiniz. Öğeler gizli olduğunda sayfanın nasıl görüneceğini görmek için başka bir kişiselleştirme aracına geçin veya kişiselleştirme araç çubuğunu kapatın.
-- Sayfanıza alan eklemek için **Alan ekle** aracını kullanın. Bu aracı kullandığınızda, yalnızca sayfa tanımının bir parçası olan alanlar ekleyebilirsiniz. Geçerli sayfa tanımının bir parçası olmayan yeni alanların nasıl oluşturulacağı hakkında bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](user-defined-fields.md). Araç çubuğunda **Alan ekle** düğmesini seçtikten sonra, ilk olarak, alan eklemek istediğiniz kılavuzu veya bölümü seçmeniz gerekir. Bir iletişim kutusunda, seçilen kılavuz veya bölümle ilgili alanların listesi görüntülenir. İletişim kutusunda, eklenecek bir veya daha fazla alan seçin ve ardından **Güncelleştir**'i seçin. Önceden eklediğiniz bir alanı kaldırmak için bu işlemi yineleyin ancak iletişim kutusundaki alan seçimini temizleyin.
+- Sayfanıza alan eklemek için **Alan ekle** aracını kullanın. Bu aracı kullandığınızda yalnızca sayfa tanımının parçası olan alanlar ekleyebilirsiniz. Geçerli sayfa tanımının bir parçası olmayan yeni alanların nasıl oluşturulacağı hakkında bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](user-defined-fields.md). Araç çubuğunda **Alan ekle** düğmesini seçtikten sonra, ilk olarak, alan eklemek istediğiniz kılavuzu veya bölümü seçmeniz gerekir. Bir iletişim kutusunda, seçilen kılavuz veya bölümle ilgili alanların listesi görüntülenir. İletişim kutusunda, **Önerilen alanlar** veya **Tüm alanlar** listesinden eklemek için bir veya daha fazla alan seçin. İstediğiniz alanları seçtikten sonra **Güncelleştir**'i seçin. Önceden eklediğiniz bir alanı kaldırmak için bu işlemi yineleyin ancak iletişim kutusundaki alan seçimini temizleyin.
+    - **Önerilen alanlar** listesi, kuruluşunuzdaki diğer kullanıcılar tarafından daha önce eklenmiş alanları gösterir. Bu alan listesi, **Önerilen toplu işin** yinelenme sıklığına göre güncelleştirilir. Sayfadaki Filtre bölmesini kullanarak yeni filtre alanları eklerken de benzer bir deneyim yaşanır.
 - Bir öğeyi mevcut öğeler grubu içinde farklı bir konuma taşımak için **Taşı** aracını kullanın. Bir öğeyi üst grubunun dışına taşıyamazsınız. Bu aracı kullanmak için, araç çubuğunda **Taşı** düğmesini seçin ve sonra taşınacak öğeyi seçin. Bir öğeyi seçtiğinizde uygulama öğenin taşınabileceği konumları belirler. Bu konumlara *bırakma alanları* denir. Öğeyi mevcut grup içinde sürükledikçe, her bırakma bölgesi, öğenin bırakılabileceği alanın yanında renkli ve kalın bir çizgi olarak gösterilir.
 - Sayfanın klavye sekmesi sırasından bir öğeyi kaldırmak için **Atla** aracını kullanın. Araç çubuğunda **Atla** düğmesini seçtiğiniz zaman, atlanmış durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Etkileşimli olarak sekme sırasına alan ekleme veya kaldırma yapabilirsiniz.
 - Bir öğenin hızlı sekme özet bölümünde görünmesini isterseniz **Başlıkta göster** aracını kullanın. Araç çubuğunda **Başlıkta göster** düğmesini seçtiğiniz zaman, özet alanı olarak seçilen tüm alanlar gölgeli bir kapsayıcıda gösterilir. Hızlı sekme özetine etkileşimli olarak alan ekleyebilir veya hızlı sekme özetinden alanları seçerek kaldırabilirsiniz.

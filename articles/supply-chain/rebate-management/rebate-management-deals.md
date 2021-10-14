@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 18d03ad89942997d8b5e794bb8d79a67821ef2c4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716504"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580564"
 ---
 # <a name="rebate-management-deals"></a>İndirim yönetimi anlaşmaları
 
@@ -138,7 +138,7 @@ Anlaşmanızdaki her bir satır için, **indirim yönetimi detayları** hızlı 
 | Yalnızca ödenmiş faturalar | Hesaplamanın yalnızca tam olarak ödenen faturaları dikkate alması gerekiyorsa bu seçeneği *Evet* olarak ayarlayın. (Başka bir deyişle, indirimler kısmen ödenen faturalar için hesaplanmaz.) Bu seçenek yalnızca **İşlem türü** alanı *fatura* olarak ayarlandığında kullanılabilir. |
 | Serbest metinleri dahil et | Serbest metin faturalarını indirim hesaplamasına dahil etmek için bu seçeneği *Evet* olarak ayarlayın. Serbest metin faturaları yalnızca **Madde kodu** alanı *tümü* olarak ayarlanmış olan anlaşma satırları için dahil edilebilir. |
 | Kapatma iskontosunu dahil etme | İlk kapatma iskontosuna göre indirimi azaltmak için bu seçeneği *Evet* olarak ayarlayın. Kuruluşun ilk kapatma iskontosunu alacağı varsayılır. Kapanış iskontosunun daha sonra kullanılmasını etkinleştirmek için bu seçeneği *Hayır* olarak ayarlayın. |
-| Belge notları | İndirim işlemi günlük satırlarında işlem metni olarak kullanılması gereken notları girin. |
+| Belge notları | İndirim işlemi yevmiye defteri satırlarında işlem metni olarak kullanılması gereken notları girin. |
 
 ### <a name="settings-on-the-dates-tab"></a>Tarihler sekmesindeki ayarlar
 
