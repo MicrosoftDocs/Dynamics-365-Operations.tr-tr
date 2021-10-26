@@ -3,11 +3,13 @@
   items:
     - name: Yenilikler
       items:
-        - name: Human Resources'daki yenilikler veya değişiklikler
+        - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 5 Ekim 2021
+          href: hr-whats-new-2021-10-04.md
         - name: 20 Eylül 2021
           href: hr-whats-new-2021-09-20.md
-        - name: 06 Eylül 2021
+        - name: 6 Eylül 2021
           href: hr-whats-new-2021-09-06.md
         - name: 23 Ağustos 2021
           href: hr-whats-new-2021-08-23.md

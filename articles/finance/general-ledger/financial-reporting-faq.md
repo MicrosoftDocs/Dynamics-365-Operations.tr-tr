@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733623"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605291"
 ---
 # <a name="financial-reporting-faq"></a>Mali raporlama ile ilgili SSS
 
@@ -100,6 +100,29 @@ Geçmiş para birimi dönüştürmede, ayrı ayrı hareket ayrıntıları yerine
 
 Raporlarda sunulan veriler güncelleştirildiğinde hareket ayrıntıları denetlenerek tutarların yeniden hesaplanması gerektiğinden gecikme olabilir. Bu gecikme, kurlar her güncelleştirildiğinde veya daha fazla hareket deftere nakledildiğinde tetiklenir. Örneğin, geçmiş dönüştürme işlemi için günde birkaç kez binlerce hesap ayarlanıyorsa rapordaki verilerin güncelleştirilmesinden önce bir saat kadar gecikme olabilir. Diğer taraftan belirtilen hesaplar daha az sayıdaysa rapor verilerindeki güncelleştirmeler için işleme süresi dakikalara veya daha kısa bir süreye düşürülebilir.
 
-Benzer şekilde geçmiş türü hesaplar için para birimi dönüştürme kullanılarak raporlar oluşturulduğunda harekat başına ek hesaplamalar yapılır. Hesap sayısına bağlı olarak rapor oluşturma süresi iki kat fazla olabilir.
+Benzer şekilde geçmiş türü hesaplar için para birimi dönüştürme kullanılarak raporlar oluşturulduğunda harekat başına ek hesaplamalar yapılır. Hesap sayısına bağlı olarak, rapor oluşturma süresi iki kat fazla olabilir.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Tahmini Veri Reyonu tümleştirme aralıkları nelerdir?
+
+Financial Reporter, Dynamics 365 Finance'ten Financial Reporter veritabanına veri kopyalamak için 16 görev kullanır. Aşağıdaki tabloda bu 16 görev listelenmekte ve her görevin hangi sıklıkta çalıştığını belirten aralık gösterilmektedir. Aralıklar değiştirilemez.
+
+| Ad                                                       | Aralık | Aralık zamanlaması |
+|------------------------------------------------------------|----------|-----------------|
+| AX 2012 Hesap Kategorileri - Hesap Kategorisi            | 41       | Dakika         |
+| AX 2012 Hesapları - Hesap                                | 7        | Dakika         |
+| AX 2012 Şirketleri - Şirket                               | 300      | Saniye         |
+| AX 2012 Şirketleri - Kuruluş                          | 23       | Dakika         |
+| AX 2012 Boyut Birleşimleri - Boyut Birleşimi    | 1        | Dakika         |
+| AX 2012 Boyut Değerleri - Boyut Değeri                | 11       | Dakika         |
+| AX 2012 Boyutları - Boyut                            | 31       | Dakika         |
+| AX 2012 Döviz Kurları - Döviz Kuru                    | 17       | Dakika         |
+| AX 2012 Mali Yılları - Mali Yıl                        | 13       | Dakika         |
+| AX 2012 Genel Muhasebe İşlemleri - Olgu                | 1        | Dakika         |
+| AX 2012 Kuruluş Hiyerarşileri - Ağaç                   | 3.600    | Saniye         |
+| AX 2012 Senaryoları - Senaryo                              | 29       | Dakika         |
+| AX 2012 İşlem Türü Niteleyicileri - Olgu Türü Niteleyicisi | 19       | Dakika         |
+| Bakım Görevi                                           | 1        | Dakika         |
+| MR Rapor Tanımları - AX7 Mali Raporları             | 45       | Saniye         |
+| MR Rapor Sürümleri - AX Mali Rapor Sürümleri         | 45       | Saniye         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

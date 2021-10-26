@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: Bağlantılı geri ödemeler
                   href: dev-itpro/linked-refunds.md
+                - name: Adyen için Dynamics 365 Commerce Payment Connector ile bağlantılı olmayan geri ödemeleri işleme
+                  href: dev-itpro/unlinked-refunds.md
                 - name: Mağazanın ürün çeşitlerine dahil olmayan ürünleri satma ve iade etme
                   href: sell-return-outside-assortments.md
                 - name: Bir iade emrinde bir değişiklik yapılandırma ve işleme

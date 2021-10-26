@@ -2813,6 +2813,8 @@
               href: sales-marketing/trade-allowance.md
             - name: Yeni bir ticari sözleşme oluşturma
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Satış geçmişi temizleme işlemi performans iyileştirmeleri
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Servis yönetimi
           items:
             - name: Servis yönetimine genel bakış
@@ -3707,13 +3709,15 @@
                   href: troubleshooting/production/the-warehouse-in-pic.md
             - name: İndirim yönetimi
               items:
-                - name: 'Müşteri indirimleri, madde indirim grupları kullanılarak biriktirilemiyor'
+                - name: Madde indirim grupları kullanılarak müşteri indirimleri biriktirilemiyor
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Satış ve pazarlama
               items:
-                - name: Bir ürün demeti maddesi şirketlerarası bir işlemde desteklenmiyor
+                - name: Satış güncelleştirme geçmişi temizleme işi başarısız oluyor veya performans sorunları var
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
+                - name: Ürün demeti maddesi şirketlerarası bir işlemde desteklenmiyor
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: Bir satış siparişiyle bağlantılı şirketlerarası satınalma siparişi iptal edilemiyor
+                - name: Satış siparişiyle bağlantılı şirketlerarası satınalma siparişi iptal edilemiyor
                   href: troubleshooting/sales/cancel-intercompany-purchase-order.md
                 - name: Bir sipariş iptal edilirken rezervasyonlar kaldırılamıyor
                   href: troubleshooting/sales/cancel-order-reservations-not-removed.md
