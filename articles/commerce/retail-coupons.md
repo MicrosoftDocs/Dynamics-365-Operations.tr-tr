@@ -1,8 +1,8 @@
 ---
 title: Perakende satışlar için kupon ayarlama
-description: Bu konu kuponlarına genel bakış sağlar ve bunların nasıl ayarlanacağını açıklar.
-author: scott-tucker
-ms.date: 06/04/2020
+description: Bu konu kuponlarına genel bakış sağlar ve bunların nasıl ayarlanacağını Dynamics 365 Commerce'te açıklar.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bc79970528e23397b756fa15a715fba834edcc06e4522c6c35b64aede4976300
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745320"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603135"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Perakende satışlar için kupon ayarlama
 
@@ -40,6 +40,8 @@ Kupon oluşturmak için iskontoyu ve kuponu ayrı olarak oluşturun. Bunun ardı
 > Bir Kupon bir iskontoya bağlandıktan sonra, kupon ayarları tarafından yönetildiklerinden Commerce'deki iskonto sayfasında için birçok alan salt okunur olur. Bu alanlar standart tarih aralıkları ve durum alanlarını içerir.
 > 
 > Kuponu çağrı merkezi kanalında kullanırken, kuponla ilişkilendirilmiş iskontonun uygulanmasını sağlamak için **Yeniden hesapla** düğmesini **(Satış sekmesi > Hesapla > Yeniden hesapla)** seçmeniz gerekir. Bu ek adım gelecekteki bir sürümde kaldırılacaktır.
+
+Bir satış hareketine satış noktasında (POS) kupon uygulamak için **kupon kodu** veya **kupon bar kodu** kullanabilirsiniz. **Kupon kodunu** kullanmak için POS **İşlemi** [ekranı düzeninde](pos-screen-layouts.md) **Kupon kodu Ekle** işlemi konfigüre edilmelidir. **Kupon kodu Ekle**'yi seçin ve kupon kodunu girin. Alternatif olarak, **kupon bar kodunu** kullanmak için barkodu tarayın veya **hareket** ekranındaki sayısal klavyeyi kullanarak barkodu girin.
 
 ### <a name="limited-use-coupons"></a>Sınırlı kullanım kuponları
 

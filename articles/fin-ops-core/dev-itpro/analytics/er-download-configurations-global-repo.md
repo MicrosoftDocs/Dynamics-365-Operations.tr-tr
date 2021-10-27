@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724429"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605343"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir
 
@@ -63,7 +63,7 @@ Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yap
     > [!NOTE]
     > Mevcut Finance örnekte bulunan ER yapılandırma sürümleri için **İçe Aktar** düğmesi kullanılamaz.
 
-    ![Yapılandırma deposu sayfası.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Konfigürasyon havuzu sayfası, yapılandırmalar hızlı sekmesi.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Filtreli yapılandırmasını içe aktarma
 
@@ -77,7 +77,7 @@ Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yap
 4. Filtre uygulanan konfigürasyonları Global depodan geçerli örneğe indirmek için **konfigürasyonlar** hızlı sekmesinde **içe aktar**'ı seçin.
 5. **Konfigürasyonlar** hızlı sekmesinde, belirtilen seçim koşullarını temizlemek için **filtreyi Sıfırla**'yı seçin.
 
-    ![Yapılandırma deposu sayfası.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Konfigürasyon havuzu sayfası, sürümler hızlı sekmesi, Içe aktar düğmesi.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > ER ayarlarına bağlı olarak yapılandırmalar içeri aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu konunun ilgili kaynaklar listesine göz atın.

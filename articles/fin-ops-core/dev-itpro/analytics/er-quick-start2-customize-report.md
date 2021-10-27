@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ec7f5bcf9f01512d22f502a4b512f2919b3caf348eb1f5c4365238d6fd3f476
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770032"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605243"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Özel elektronik belge oluşturmak için ER biçimini ayarlama
 
@@ -160,7 +160,7 @@ Microsoft Dynamics 365 Finance'un geçerli örneğine standart ER yapılandırma
     - **Ödeme modeli eşleştirmesi 1611** – Bu konfigürasyon, veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulduğunu açıklayan [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni içerir.
     - **BACS (UK)** – Bu konfigürasyon [Biçim](general-electronic-reporting.md#FormatComponentOutbound) ve biçim eşleme bileşenlerini içerir. Format bileşeni rapor düzenini belirtir. Biçim eşleme bileşeni model veri kaynağını içerir ve çalışma süresinde bu veri kaynağı kullanılarak rapor düzeninin nasıl doldurulacağını belirtir.
 
-![Yapılandırmalar sayfası.](./media/er-quick-start2-imported-solution1.png)
+![Belirtilen ER konfigürasyonlara sahip yapılandırmalar sayfası ağaçta kullanılabilir.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>İşleme için satıcı ödemesini hazırlayın
 
@@ -222,7 +222,7 @@ Elektronik ödeme yöntemini içe aktarılan ER biçim konfigürasyonu kullanaca
 4. **Dosya formatları** Hızlı sekmesinde **Genel elektronik Dışa aktarma biçimi** seçeneğini **Evet** olarak ayarlayın.
 5. **Dışa aktarma biçimi yapılandırması** alanında, **BACS (UK)** biçim yapılandırması seçin.
 
-    ![Ödeme yöntemleri - satıcılar sayfası.](./media/er-quick-start2-method-of-payment1.png)
+    ![Satıcı ödemelerini standart bir biçim kullanarak işlemek üzere elektronik ödeme yöntemi ayarlamak için ödeme yöntemleri sayfası.](./media/er-quick-start2-method-of-payment1.png)
 
 6. **Kaydet**'i seçin.
 
@@ -273,7 +273,7 @@ Bu durumda, Litware, Inc. temsilcisi olarak, **BACS (UK)** Microsoft tarafından
 
 **BACS (Birleşik Krallık özel)** ER biçimi yapılandırmasının sürüm 1.1.1 oluşturulur. Bu sürüm **taslak** [durumuna](general-electronic-reporting.md#component-versioning) sahip ve düzenlenebilir. Özel ER biçiminizin geçerli içeriğinin,  Microsoft tarafından sağlanan biçimin içeriğiyle aynıdır.
 
-![Yapılandırmalar sayfası.](./media/er-quick-start2-derived-format-configuration1.png)
+![BACS (Birleşik Krallık özel) ER biçimi yapılandırmasının sürüm 1.1.1 ile yapılandırmalar sayfası.](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Özel biçim düzenleme
 
@@ -349,7 +349,7 @@ Satıcı ödemelerini işlemek için özel ER formatının kullanılabilmesi iç
 4. **Dosya formatı** Hızlı sekmesinde **Genel elektronik Dışa aktarma biçimi** seçeneğini **Evet** olarak ayarlayın.
 5. **Dışa aktarma biçimi yapılandırması** alanında, **BACS (UK özel)** biçim yapılandırması seçin.
 
-    ![Ödeme yöntemleri - satıcılar sayfası.](./media/er-quick-start2-method-of-payment2.png)
+    ![Satıcı ödemelerini özel bir biçim kullanarak işlemek üzere elektronik ödeme yöntemi ayarlamak için ödeme yöntemleri sayfası.](./media/er-quick-start2-method-of-payment2.png)
 
 6. **Kaydet**'i seçin.
 
@@ -378,7 +378,7 @@ Satıcı ödemelerini işlemek için özel ER formatının kullanılabilmesi iç
 
         Özel ER formatının yapısına uygun olarak, oluşturulan dosyadaki ödeme satırı şimdi, ödemesi işlenmiş olan Satıcının banka hesabı için [girilen](#DefineSWIFTCode) SWIFT koduyla [başlar](#PositionSWIFTCode).
 
-        ![TXT biçiminde ödeme dosyası.](./media/er-quick-start2-payment-file2.png)
+        ![Satıcının ödemesini işlemek için kullanılan, TXT biçimindeki ödeme dosyası.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Standart ER biçimi yapılandırmalarının yeni sürümlerini içe aktarın
 
@@ -395,7 +395,7 @@ Geçerli Finans örneğine standart ER yapılandırmalarının yeni sürümlerin
 5. **Sürümler** FastTab üzerinde, seçili ER biçim yapılandırmasının gerekli **3.3** sürümünü seçin.
 6. Seçili sürümü Global depo'dan mevcut Finance örneğine indirmek için **İçe Aktarma**'ya tıklayın.
 
-![Yapılandırma deposu sayfası.](./media/er-quick-start2-import-solution2.png)
+![Konfigürasyon havuzu sayfası, sürümler hızlı sekmesi, Içe aktar düğmesi.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > [Global depoya](er-download-configurations-global-repo.md) erişmede sorun yaşıyorsanız, bunun yerine LCS'den gelen [yapılandırmaları karşıdan yükleyebilirsiniz](download-electronic-reporting-configuration-lcs.md).
@@ -507,7 +507,7 @@ Sürüm 1.1.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm
 
         Özel ER formatının yapısına uygun olarak, oluşturulan dosyadaki ödeme satırı şimdi, ödemesi işlenmiş olan Satıcının banka hesabı için girilen SWIFT koduyla başlar.
 
-        ![TXT biçiminde ödeme dosyası.](./media/er-quick-start2-payment-file3.png)
+        ![Yeniden temellendirilen ER biçimi kullanarak satıcının ödemesini işlemek için kullanılan, TXT biçimindeki ödeme dosyası.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Ek kaynaklar
 

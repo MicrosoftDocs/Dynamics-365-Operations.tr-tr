@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500440"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641173"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -171,7 +171,8 @@ Aşağıdaki ambar yönetimi işlevi şu anda ölçek birimi iş yükleri için 
 - Eldeki negatif stokla işleme.
 - Sevkiyat notlarıyla ambar işi işleme.
 - Malzeme işlemesi/ambar otomasyonu ile ambar işi işleme.
-- Ürün ana verileri görüntüsünün kullanımı (örn. Warehouse Management mobil uygulamasında).
+- Ürün ana verileri görüntüleri (ör. Warehouse Management mobil uygulamasında).
+- Ürünler için şirketler arası veri paylaşımı.
 
 > [!WARNING]
 > Bazı ambar işlevleri, ölçek biriminde ambar yönetimi iş yüklerini çalıştıran ambarlar için kullanılamaz ve merkezde ya da ölçek birimi iş yükünde desteklenmez.
@@ -188,8 +189,7 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 |--------------------------------------------------------------|-----|------------------------------|
 | Kaynak belge işleme                                   | Evet | No |
 | Yük ve taşıma yönetimini işleme                | Evet, ancak yalnızca yük planlama işlemleri. Taşıma yönetimi işlemi desteklenmez  | No |
-| Varış yeri maliyeti ve transitteki malları teslim alma                                         | Evet | No |
-| Ambara serbest bırakma                                         | Evet | No |
+| Ambara serbest bırak                                         | Evet | No |
 | Planlanmış çapraz sevk                                        | No  | No |
 | Sevkiyat konsolidasyonu                                       | Evet, yük planlamasını kullanırken | Evet |
 | Sevkiyat dalgası işleme                                     | No  |Evet, **Yük oluşturma ve sıralama** dışında |
@@ -222,9 +222,10 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 
 | İşle                                                          | Hub | Ölçek biriminde ambar yürütme iş yükü<BR>*("Evet" olarak işaretlenmiş maddeler yalnızca ambar siparişleri için geçerlidir)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Kaynak&nbsp;belge&nbsp;türü                             | Evet | No |
-| Yük ve taşıma yönetimini işleme                    | Evet | No |
-| Gelen sevkiyat onayı                                    | Evet | No |
+| Kaynak&nbsp;belge&nbsp;türü                             | Evet | Hayır |
+| Yük ve taşıma yönetimini işleme                    | Evet | Hayır |
+| Varış yeri maliyeti ve transitteki malları teslim alma                       | Evet | Hayır |
+| Gelen sevkiyat onayı                                    | Evet | Hayır |
 | Ambara satın alma siparişi serbest bırakma (ambar siparişi işleme) | Evet | No |
 | Ambar sipariş satırlarının iptali<p>Bunun yalnızca satıra karşılık kayıt gerçekleştirilmediği durumlarda desteklendiğini unutmayın</p> | Evet | No |
 | Satınalma siparişi maddesini teslim alma ve yerine koyma                       | <p>Evet,&nbsp;ambar&nbsp;siparişi&nbsp;yoksa</p><p>Hayır, ambar siparişi olduğunda</p> | <p>Evet, satınalma siparişinin bir <i>yükün</i> parçası olmadığı durumlarda</p> |

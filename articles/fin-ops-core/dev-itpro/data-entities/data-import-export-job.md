@@ -2,7 +2,7 @@
 title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: peakerbl
-ms.date: 04/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f9ae06893a8247828fa4d3c2cb40b9155043c87
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404046"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612376"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -198,16 +198,10 @@ Temizleme işlemini zamanlarken, temizleme ölçütlerini tanımlamak için aşa
 > [!NOTE]
 > Hazırlama tablolarındaki kayıtlar tamamen temizlenmemekte ise, temizleme işinin tekrarda çalışacak şekilde zamanlandığından emin olun. Yukarıda açıklandığı gibi, tüm Temizleme yürütmelerindeki iş, yalnızca sağlanan maksimum saat içinde bulunabilecek kadar fazla yürütme kodunun temizlenmesine neden olacak. Kalan hazırlama kayıtlarının temizlenme işlemine devam edebilmek için, işin belirli aralıklarla çalışacak şekilde zamanlanması gerekir.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>İş geçmişi temizleme ve arşivleme (Platform update 39 veya sürüm 10.0.15'te önizleme olarak sunulur)
+## <a name="job-history-clean-up-and-archival"></a>İş geçmişi temizleme ve arşivleme 
 İş geçmişi temizleme ve arşivleme işlevi, temizleme işlevinin önceki sürümlerinin yerine geçer. Bu bölümde bu yeni özellikler açıklanmaktadır.
 
-Temizleme işlevinde yapılan ana değişikliklerden biri, geçmişi temizlemek için sistem toplu işinin kullanılmasıdır. Sistem toplu işi kullanıldığında, Finance and Operations uygulamaları temizleme toplu işini otomatik olarak zamanlar ve sistem hazır olduğunda çalıştırır. Toplu işlemin el ile zamanlanmasına gerek kalmaz. Bu varsayılan yürütme modunda toplu iş, gece yarısı 12'den başlayarak her saat yürütülür ve son 7 günün yürütme geçmişi saklanır. Temizlenen geçmiş, ileride alınabilecek şekilde arşivlenir.
-
-> [!NOTE]
-> Bu işlev önizleme sürümünde olduğundan sistem toplu işi, DMFEnableExecutionHistoryCleanupSystemJob sınırlı dağıtımı üzerinden etkinleştirilene kadar hiçbir yürütme geçmişini silmez. Özellik sonraki sürümlerde herkesin kullanımına sunulduğunda bu sınırlı dağıtıma gerek kalmayacak ve sistem toplu işi yukarıda açıklandığı gibi, tanımlanan zamanlamaya göre sistem hazır olduğunda temizleme ve arşivleme işlemini başlatacaktır. 
-
-> [!NOTE]
-> Sonraki bir sürümde, temizleme işlevinin önceki sürümleri Finance and Operations uygulamalarından kaldırılacaktır.
+Temizleme işlevinde yapılan ana değişikliklerden biri, geçmişi temizlemek için sistem toplu işinin kullanılmasıdır. Sistem toplu işi kullanıldığında, Finance and Operations uygulamaları temizleme toplu işini otomatik olarak zamanlar ve sistem hazır olduğunda çalıştırır. Toplu işlemin el ile zamanlanmasına gerek kalmaz. Bu varsayılan yürütme modunda toplu iş, gece yarısı başlayarak her saat yürütülür ve son 7 günün yürütme geçmişi saklanır. Temizlenen geçmiş, ileride alınabilecek şekilde arşivlenir. Sürüm 10.0.20 ile başlayarak her zaman açık bu özellik.
 
 Temizleme işlemindeki ikinci değişiklik, temizlenen yürütme geçmişinin arşivlenmesidir. Temizleme işi, silinen kayıtları DIXF tarafından düzenli tümleştirmeler için kullanılan blob depolamaya arşivler. Arşivlenen dosya, DIXF paketi biçiminde olur ve 7 gün boyunca blob'da kullanılabilir olur. Dosya bu süre içinde indirilebilir. Arşivlenen dosya için varsayılan 7 günlük süre, parametrelerde en fazla 90 güne kadar değiştirilebilir.
 

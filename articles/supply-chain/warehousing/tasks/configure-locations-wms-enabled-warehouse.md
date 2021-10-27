@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e4e3322bbeb64472bdcd27f9ff571fe45ef87d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574125"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599360"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>WMS özellikli bir ambarda yerleşimleri yapılandırma
 
@@ -33,7 +33,7 @@ Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri
 2. **Yeni**'ye tıklayın.
 3. **Ambar** alanına bir değer yazın.
 4. **Ad** alanına bir değer yazın.
-5. **Tesis** alanına bir değer yazın.
+5. **Site** alanında, varolan bir site değerini seçin veya yazın.
 6. **Ambar** bölümünü genişletin.
 7. **Ambar yönetimi süreçlerini kullan** seçeneğini Evet olarak ayarlayın. Bu ayar, ambar çalışma ve mobil aygıtları kullanarak gelişmiş ambar işlemleri çalıştırmanızı sağlar.
 8. Sayfayı kapatın.

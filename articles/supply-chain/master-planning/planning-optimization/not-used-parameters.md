@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 61cdbe3d966d06193b1dc5c145233e53be3946ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7e1b4e6df2c514b55ec101c0edf22590041628
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571077"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645770"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Planlamayı En İyi Duruma Getirme tarafından kullanılmayan parametreler
 
@@ -53,18 +53,6 @@ Planlamayı En İyi Duruma Getirme, **Master planlama parametreleri** sayfasınd
   - **Giriş saati** - *Planlama* desteği bekleniyor.
   - **Üretim** - *Planlama* desteği bekleniyor.
   - **Proje** bölümündeki alanlar – *Planlama* desteği bekleniyor.
-
-- **Standart güncelleştirme** sekmesi:
-
-  - **İşaretlemeyi güncelleştir** – *Kesinleştirme* desteği bekleniyor.
-  - **Hata oluşursa kesinleştirmeyi durdur** – *Kesinleştirme* desteği bekleniyor.
-  - **Satıcıya göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Alıcı grubuna göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Satınalma sözleşmesine göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Döneme göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Satınalma sözleşmesi bul** – *Kesinleştirme* desteği bekleniyor.
-  - **Planlama önceliğine göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Döneme göre grupla** – *Kesinleştirme* desteği bekleniyor.
 
 ## <a name="coverage-groups-page"></a>Karşılama grupları sayfası
 

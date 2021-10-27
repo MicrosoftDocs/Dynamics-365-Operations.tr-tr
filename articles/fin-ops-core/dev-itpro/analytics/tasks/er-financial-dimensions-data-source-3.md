@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548eec45739a52d4eb168a80660540196225b2ed482d2104a4cd0d00503109dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773800"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605197"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 3 - Raporu tasarlama)
 
@@ -92,7 +92,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 59. Öznitelik Ekle'ye tıklayın.
 60. Ad alanına, 'Açıklama' yazın.
 61. Tamam'a tıklayın.
-![ER İşlem tasarımcısı sayfası.](../media/er-financial-dimensions-guides-format1.png)
+![Biçim tasarımcısı sayfa ağacı.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Rapor öğelerini veri kaynakları ile eşleme
 1. Eşleme sekmesini tıklatın.
@@ -141,7 +141,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 44. Bağla'yı tıklatın.
 45. Kaydet'e tıklayın.
 46. Sayfayı kapatın.
-![ER İşlem tasarımcısı sayfası.](../media/er-financial-dimensions-guides-format2.png)
+![Biçim Tasarımcısı sayfası, veri kaynaklarıyla eşlenen rapor öğeleri.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

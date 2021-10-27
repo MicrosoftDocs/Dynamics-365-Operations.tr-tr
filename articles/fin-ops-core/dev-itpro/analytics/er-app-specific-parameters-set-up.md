@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa3cab78574ac3779aaea000f0b2b88ff625c37
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749837"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605267"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Her tüzel kişilik için ER biçiminin parametrelerini ayarlama
 
@@ -58,8 +58,6 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
 1.  **DEMF** tüzel kişiliğini seçin.
 2.  Yapılandırma ağacında **LE verilerinin nasıl aranacağını öğrenmek için biçimlendirme** biçimini seçin.
 3.  Eylem Bölmesinde, **Yapılandırmalar** sekmesindeki **Uygulama özel parametreleri** grubunda **Ayar**'ı seçin.
-
-    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     **Uygulama özel parametreleri** sayfasında **LE verilerinin nasıl aranacağını öğrenmek için biçimlendirme** biçiminin **Seçici** veri kaynağı için kuralları yapılandırabilirsiniz.
     
@@ -75,14 +73,14 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
 
     Arama, seçim için vergi kodlarının bir listesini gösterir. Bu liste, temel ER biçiminde yapılandırılmış **Model.Data.Tax** veri kaynağı tarafından döndürülür. Bu veri kaynağı **Ad** alanını içerdiğinden her vergi kodunun adı aramada görünür.
 
-    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![ER uygulaması özel parametreler sayfası, Kod alanı yedeklemesi.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  **VAT19** vergi kodunu seçin.
 8.  Yeni kaydın **Arama sonucu** alanında aramayı açmak için açılır menü okunu seçin. Arama, seçimin TaxationLevel biçim numaralandırması için değerlerin listesini gösterir.
 
     Oturum açtığınız kullanıcının tercih ettiği dil olarak Almanca seçiliyse aramadaki değerlerin etiketlerinin temel ER biçiminde çevrilmiş olmaları koşuluyla Almanca olacağını unutmayın. Ek olarak, bir arama veri kaynağının etiketi çevrilmişse bu etiket kullanıcının **Aramalar** sekmesinde tercih ettiği dilde görünür.
 
-    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![ER uygulamaya özgü parametreler sayfası, arama sonuçları Almanca'nın tercih edilen dilinde görünür.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  **Normal vergilendirme** değerini seçin.
 
@@ -120,7 +118,7 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
     
     Bu son kaydı ekleyerek aşağıdaki kuralı tanımlarsınız: Bağımsız değişken olarak geçirilen vergi kodu önceki kuralların herhangi birini karşılamadığında arama veri kaynağı istenen vergilendirme düzeyi olarak **Diğer** değerini döndürür.
 
-    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![ER uygulamaya özel parametreler sayfası, koşullar hızlı sekmesini diğerinin son kaydı ile açar.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. **Durum** alanında **Tamamlandı**'yı seçin.
 
@@ -160,7 +158,7 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
 
     Arama şimdi, yapılan seçim için **USMF** şirket vergisinin vergi kodlarının bir listesini sunar.
 
-    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![ER uygulamaya özgü parametreler sayfası, USMF şirketi için vergi kodları listesini gösteren kod alanı araması.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  **EXEMPT** vergi kodunu seçin.
 9.  Yeni kaydın **Arama sonuçları** alanında **Vergilendirme yok** değerini seçin.
@@ -225,13 +223,13 @@ ER biçimi ile uygulamaya özel parametreler arasındaki ilişki, ER biçiminin 
 
 1.  Var olan bir **ERSolutionAppSpecificParametersDesigner** menü öğesini yeniden kullanın veya kendi **ERSolutionAppSpecificParametersDesigner** menü öğenizi uygulayın.
 
-    ![Visual Studio sayfası.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Visual Studio sayfası, Özellikler bölmesi.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Şu adımlardan birini izleyin:
 
     1.  Yeni bir menü öğesi düğmesi oluşturun ve **Veri Kaynağı** özelliğini **ERSolutionTable** olarak ayarlayarak **ERSolutionTable** tablosundan ilgili kayda bağlayın.
     
-        ![Visual Studio sayfası.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Visual Studio sayfası, tasarım bölmeleri.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Basit bir düğme oluşturun ve aşağıdaki örnekte gösterildiği gibi **Tıklandı** yöntemini geçersiz kılın.
     

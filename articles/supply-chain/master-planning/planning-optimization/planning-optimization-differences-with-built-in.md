@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9972c5761a8445c6802f58b0ffad6226cf8ee38c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 14f0e07913af708e9eb3491ab4bc99e85462e5dd
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568699"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645818"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Yerleşik master planlama ile Planlama Optimizasyonu arasındaki farklar
 
@@ -29,7 +29,7 @@ Planlama Optimizasyonu sonuçları, yerleşik master planlama motorundan alınan
 | Genişletilebilir boyutlar | **Depolama boyutu grupları** veya **İzleme boyutu grupları** sayfasında **Boyuta göre kapsam planı** onay kutusu seçili olsa bile planlı siparişlerde genişletilebilir boyutlar boştur. |
 | Filtrelenmiş üretim çalışmaları | Ayrıntılar için bkz. [Üretim planlaması: Filtreler](production-planning.md#filters). |
 | Tahmin planlama | Tahmin planlama desteklenmez. Master planlamaya bir tahmin modeli atandığında master planlamayı kullanmanızı öneririz. |
-| Planlanan siparişler için numara serileri | Planlanan siparişler için numara serileri desteklenmez. Hizmet tarafında planlı sipariş numaraları oluşturulur. |
+| Planlanan siparişler için numara serileri | Planlanan siparişler için numara serileri desteklenmez. Hizmet tarafında planlı sipariş numaraları oluşturulur. Planlı sipariş numarası normalde 10 basamakla gösterilir, ancak sıra, planlanan siparişler sayımında planlama çalıştırma sayısı ve diğer 10 basamak için tahsis edilen 20 karakter üzerine oluşturulmuştur. |
 | Plan kopyalama, plan silme ve plan sürümünü temizleme | <p>Gezinti bölmesinde **Master planlama \> Master planlama \> Planları yönet** altındaki aşağıdaki öğeler devre dışı bırakılmıştır:</p><ul><li>Plan kopyala</li><li>Planı sil</li><li>Sürüm temizleme planla</li></ul> |
 | Sipariş iadeleri | İade emirleri dikkate alınmaz. |
 | Zamanlama ile ilgili özellikler | Ayrıntılı bilgi için bkz. [Sonsuz kapasiteyle zamanlama](infinite-capacity-planning.md#limitations). |

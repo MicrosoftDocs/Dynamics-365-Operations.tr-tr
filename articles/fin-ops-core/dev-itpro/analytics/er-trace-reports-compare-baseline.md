@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: ecca65508c048e2946d912f2bf0292d811fb4eabac9602a35f1ce26f4ebe1da6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769936"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605217"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Oluşturulan rapor sonuçlarını izleme ve temel değerlerle karşılaştırma
 
@@ -76,7 +76,7 @@ Bu konudaki adımları tamamlamak için öncelikle [Yapılandırma sağlayıcıl
 3. Açılan iletişim kutusunda, **Ad** alanına **ER temelini öğrenme modeli**'ni girin.
 4. ER veri modeli girişinin oluşturulmasını onaylamak için **Yapılandırma yarat**'ı seçin.
 
-![Yapılandırma oluşturma açılan iletişim kutusu.](media/GER-BaselineSample-ModelAdd.PNG "Yapılandırma oluşturma açılan iletişim kutusunun ekran görüntüsü")
+![Konfigürasyon oluştur iletişim kutusu, yeni bir ER model konfigürasyonu ekleyin.](media/GER-BaselineSample-ModelAdd.PNG "Yapılandırma oluşturma açılan iletişim kutusunun ekran görüntüsü")
 
 ### <a name="design-a-data-model"></a>Bir veri modeli tasarlama
 
@@ -99,7 +99,7 @@ Bu konudaki adımları tamamlamak için öncelikle [Yapılandırma sağlayıcıl
 3. **Ad** alanına **ER temellerini öğrenme biçimi** girin.
 4. ER biçim girişinin oluşturulmasını onaylamak için **Yapılandırma yarat**'ı seçin.
 
-![Yapılandırma oluşturma açılan iletişim kutusu.](media/GER-BaselineSample-FormatAdd.PNG "Yapılandırma oluşturma açılan iletişim kutusunun ekran görüntüsü")
+![Konfigürasyon oluştur iletişim kutusu, yeni bir ER biçim konfigürasyonu ekleyin.](media/GER-BaselineSample-FormatAdd.PNG "Yapılandırma oluşturma açılan iletişim kutusunun ekran görüntüsü")
 
 ### <a name="design-a-format"></a>Bir biçim tasarlama
 
@@ -107,41 +107,41 @@ Bu örnekte, XML belgeleri oluşturmak için basit bir ER biçimi oluşturacaks�
 
 1. **Yapılandırmalar** sayfasında Eylem Bölmesindeki **Tasarımcı**'yı seçin.
 2. **Kök ekle**'yi seçin.
-2. Açılan iletişim kutusunda şu adımları izleyin:
+3. Açılan iletişim kutusunda şu adımları izleyin:
 
     1. Ağaçta **Common\\File**'ı seçin.
     2. **Ad** alanına, **Çıktı** yazın.
     3. **Tamam**'ı seçin.
 
-3. **Ekle**'yi seçin.
-4. Açılan iletişim kutusunda şu adımları izleyin:
+4. **Ekle**'yi seçin.
+5. Açılan iletişim kutusunda şu adımları izleyin:
 
     1. Ağaçta **XML\\Element**'i seçin.
     2. **Ad** alanına, **Belge** girin.
     3. **Tamam**'ı seçin.
 
-5. Ağaçta **Output\\Document**'i seçin.
-6. **Ekle**'yi seçin.
-7. Açılan iletişim kutusunda şu adımları izleyin:
+6. Ağaçta **Output\\Document**'i seçin.
+7. **Ekle**'yi seçin.
+8. Açılan iletişim kutusunda şu adımları izleyin:
 
     1. Ağaçta **XML\\Attribute**'u seçin.
     2. **Ad** alanına, **Kimlik** yazın.
     3. **Tamam**'ı seçin.
 
-    ![Biçim tasarımcısı sayfası.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Biçim tasarımcısı sayfasının ekran görüntüsü")
+    ![Biçim tasarlama sayfası, ağaçta seçili XML özniteliği.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Biçim tasarımcısı sayfasının ekran görüntüsü")
 
-8. **Eşleme** sekmesinde **Sil**'i seçin.
-9. **Kök ekle**'yi seçin.
-10. Açılan iletişim kutusunda ağaçtaki **Genel\\Kullanıcı giriş parametresi**'ni seçin ve aşağıdaki adımları takip edin:
+9. **Eşleme** sekmesinde **Sil**'i seçin.
+10. **Kök ekle**'yi seçin.
+11. Açılan iletişim kutusunda ağaçtaki **Genel\\Kullanıcı giriş parametresi**'ni seçin ve aşağıdaki adımları takip edin:
 
     1. **Ad** alanına, **Kimlik** yazın.
     2. **Etiket** alanına, **Kimlik Gir** yazın.
     3. **Tamam**'ı seçin.
 
-11. Ağaçta **Output\\Document\\Id**'yi seçin.
-12. **Bağla**'yı seçin ve sonra **Kaydet**'i seçin.
+12. Ağaçta **Output\\Document\\Id**'yi seçin.
+13. **Bağla**'yı seçin ve sonra **Kaydet**'i seçin.
 
-![Biçim tasarımcısı sayfası.](media/GER-BaselineSample-FormatMappingDesign.PNG "Biçim tasarımcısı sayfasının ekran görüntüsü")
+![Biçim tasarım sayfası, Eşleme sekmesi.](media/GER-BaselineSample-FormatMappingDesign.PNG "Biçim tasarımcısı sayfasının ekran görüntüsü")
 
 Tasarlanan yapıya bağlı olarak, yapılandırılmış biçim bir XML dosyası oluşturur. Bu XML kullanıcının bir ER çalışma zamanı kutusuna girdiği değere ayarlanmış **Kimlik** özelliğine sahip **Kök** öğresini içerir.
 
@@ -201,7 +201,7 @@ Bu temel **ER temellerini öğrenme biçimi** biçimi için eklenir.
 10. **Temel** alanında **out.Admin** ekini girin ya da seçin.
 11. **Kaydet**'i seçin.
 
-![Elektronik raporlama biçimi temelleri sayfası.](media/GER-BaselineSample-SetupBaselineLine.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
+![Elektronik raporlama biçimi temelleri sayfası, temeller seçili olan Temeller Hızlı Sekmesi.](media/GER-BaselineSample-SetupBaselineLine.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Tasarlanan ER biçimini çalıştırma ve sonuçları analiz etmek için günlüğü gözden geçirme
 
@@ -212,7 +212,7 @@ Bu temel **ER temellerini öğrenme biçimi** biçimi için eklenir.
 5. **Tamam**'ı seçin.
 6. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar hata ayıklama**'ya gidin.
 
-    ![Elektronik raporlama çalıştırma günlükleri sayfası.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Elektronik raporlama çalıştırma günlükleri sayfasının ekran görüntüsü")
+    ![Elektronik raporlama çalışma günlükleri sayfası ve eşit temeller vardır.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Elektronik raporlama çalıştırma günlükleri sayfasının ekran görüntüsü")
 
     > [!NOTE]
     > Yürütme günlükleri, oluşturulan dosyanın yapılandırılmış bir temelle karşılaştırılmasının sonuçlarıyla ilgili bilgiler içerir. Bu örnekte, günlük, oluşturulan dosya ve temelin eşit olduğunu gösterir.
@@ -228,7 +228,7 @@ Bu temel **ER temellerini öğrenme biçimi** biçimi için eklenir.
 5. **Tamam**'ı seçin.
 6. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar hata ayıklama**'ya gidin.
 
-    ![Elektronik raporlama çalıştırma günlükleri sayfası.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Elektronik raporlama çalıştırma günlükleri sayfasının ekran görüntüsü")
+    ![Elektronik raporlama çalışma günlükleri sayfası ve farklı temeller vardır.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Elektronik raporlama çalıştırma günlükleri sayfasının ekran görüntüsü")
 
     > [!NOTE]
     > Yürütme günlükleri, oluşturulan dosyanın yapılandırılmış bir temelle karşılaştırılmasının sonuçlarıyla ilgili bilgiler içerir. Bu örnekte, günlük, oluşturulan dosya ve temelin farklı olduğunu gösterir.

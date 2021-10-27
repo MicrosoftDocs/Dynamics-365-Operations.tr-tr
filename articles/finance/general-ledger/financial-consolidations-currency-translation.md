@@ -1,8 +1,8 @@
 ---
 title: Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
 description: Bu konuda, genel muhasebede mali konsolidasyonlar ve para birimi çevirme açıklanır.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748992"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615947"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
 
@@ -182,5 +182,17 @@ Mali raporlamanın desteklediği konsolidasyon senaryolarından bazıları:
 ## <a name="generating-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 Konsolide mali tabloları oluşturabileceğiniz senaryolar hakkında bilgi için bkz. [Konsolide mali tabloları oluşturma](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Büyük konsolidasyonlara yönelik performans iyileştirme
+
+Birçok genel muhasebe hareketi olan ortamlar en iyi olandan daha yavaş çalışabilir. Bu sorunu gidermek için, Kullanıcı tanımlı tarih sayısı kullanan toplu işlerin paralel işlemesini ayarlayabilirsiniz. Çözümün istendiği gibi çalışmasına dikkat etmek için, bir tarih aralığı kabı döndürmek üzere birleştirmeye bir uzantı noktası ekleyin. Temel uygulama, konsolidasyonun başlangıç ve bitiş tarihleri için bir tarih aralığı içermelidir. Temel uygulamadaki tarih aralıkları, boşluklar veya örtüşmeleri içermediğinden emin olmak için doğrulanır. Tarih aralıkları, her şirket için paralel toplu iş paketleri oluşturmak için kullanılır.
+
+Organizasyonunuzun gereksinimlerini karşılamak için tarih aralıkları sayısını özelleştirebilirsiniz. Tarih aralıklarının sayısını özelleştirerek, herhangi bir ayırma mantığı olmadığı için test etmeyi ve Varolan koddaki etkiyi en aza indirmenize yardımcı olabilirsiniz. Gereken tek yeni testler toplu iş paketleri oluşturulmasını, tarih aralıklarını doğrulamayı ve toplu işlerin toplu iş için bir araya getirilbildiğini doğrulamak amacıyla tarih aralıklarının bir alt kümesini test etmek için geçerlidir. 
+
+Bu özellik, bir toplu işte çalıştırılan işlem genel muhasebedeki konsolidasyon sürecini geliştirir. Geliştirme, konsolidasyonu paralel olarak işlenebilecek birden çok göreve bölerek genel muhasebe birleştirme işleminin performansını geliştirir. Bir konsolidasyonu çalıştırmak için varsayılan yöntemde, her görev genel muhasebe faaliyetinin sekiz gün değerinde bir değer işler. Ancak, oluşturulan numara görevlerini özelleştirmenizi sağlayan bir uzantı noktası eklenmiştir.
+
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için **özellik yönetimi** çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+
+- **Modül:** Genel muhasebe
+- **Özellik adı:** Büyük konsolidasyonlara yönelik performans iyileştirme
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

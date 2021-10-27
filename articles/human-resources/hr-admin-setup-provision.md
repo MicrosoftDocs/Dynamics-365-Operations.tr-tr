@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488095"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644539"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı sağla
 
@@ -49,7 +49,7 @@ Deneme ortamlarının üretim ortamı olarak kullanılmaları amaçlanmamıştı
 Human Resources deneme ortamı oluştururken kiracıda ayrıca bir Power Apps deneme ortamı oluşturulur ve Human Resources ortamına bağlanır. "TestDrive" adlı Power Apps ortamı, Human Resources ortamı ile aynı deneme süresine sahiptir.
 
 > [!NOTE]
-> Kimliği doğrulanmış kullanıcının Power Apps deneme ortamları oluşturma izni yoksa Human Resources deneme ortamı hazırlanamaz. Kullanıcı, Power Platform yönetim merkezinde deneme ortamları oluşturabilen kullanıcı grubuna dahil edilmelidir. Daha fazla bilgi için bkz. [Power Platform yönetim merkezinde kimlerin ortam oluşturup yönetebileceğini denetleme](//power-platform/admin/control-environment-creation).
+> Kimliği doğrulanmış kullanıcının Power Apps deneme ortamları oluşturma izni yoksa Human Resources deneme ortamı hazırlanamaz. Kullanıcı, Power Platform yönetim merkezinde deneme ortamları oluşturabilen kullanıcı grubuna dahil edilmelidir. Daha fazla bilgi için bkz. [Power Platform yönetim merkezinde kimlerin ortam oluşturup yönetebileceğini denetleme](/power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Human Resources ortamlarını planlama
 

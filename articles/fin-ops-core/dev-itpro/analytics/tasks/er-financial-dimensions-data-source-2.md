@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 921077cb3bc2d01c418f653194e948a2f29cc90dbd562d022ca69aa083a6ef54
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713906"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605417"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2 - Model eşleme)
 
@@ -56,14 +56,14 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 21. Ana hesap iste alanında Evet'i seçin.
     * Kullanıcıların ana hesabı boyutlar listesinin bir parçası olarak seçmesine izin vermek için 'Ana hesabı iste' seçeneğini Evet olarak ayarlayın.   Bu seçenek Hayır olarak ayarlandığında, ana hesap boyutlar listesine dahil edilmez ve 'Ana hesap zorunlu' seçeneği etkinleştirilir. "Ana hesap zorunlu" seçeneği Evet olarak ayarlandığında, kullanıcının seçiminden bağımsız olarak, ana hesabı boyutlar listesine ekleyin.  
 22. Tamam'a tıklayın.
-![ER model eşleme tasarımcısı sayfası.](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Finansal boyutların Ayrıntılar veri kaynağı özellikleri dışarı slayt.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' öğesini seçin.
 24. Kök ekle'ye tıklayın.
 25. Ad alanına 'LedgerJournal' yazın.
 26. Sorgu iste alanında Evet'i seçin.
 27. Tablo alanına 'LedgerJournalTable' yazın.
 28. Tamam'a tıklayın.
-![ER model eşleme tasarımcısı sayfası.](../media/er-financial-dimensions-guides-model-mapping2.png)
+![Model eşleme Tasarımcısı sayfası, tablo kayıtları veri kaynağı türü.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Veri modeli öğelerini eklenen veri kaynaklarına eşleme
 1. Ağaçta, 'Günlük' öğesini genişletin.
@@ -94,7 +94,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 25. Ağaçta, 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Ana hesap ve boyutlar' öğesini seçin.
 26. Ağaçta, 'Günlük\Hareket\Boyut verileri' öğesini seçin.
 27. Bağla'yı tıklatın.
-![ER model eşleme tasarımcısı sayfası.](../media/er-financial-dimensions-guides-model-mapping3.png)
+!Model eşleme Tasarımcısı sayfası, eşleme sekmesi, veri kaynakları ağacı.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Ağaçta, 'LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)' öğesini seçin.
 29. Ağaçta, 'Günlük\Hareket\Borç' öğesini seçin.
 30. Bağla'ya tıklayın.
@@ -144,7 +144,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 3. Durumu değiştir öğesine tıklayın.
 4. Tamamla öğesine tıklayın.
 5. Tamam'a tıklayın.
-![ER model eşleme tasarımcısı sayfası.](../media/er-financial-dimensions-guides-model-mapping5.png)
+![ER yapılandırma sayfası.](../media/er-financial-dimensions-guides-model-mapping5.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

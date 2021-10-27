@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0b324891b38f851f8cce9210e3d09a26d567a291
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b1a40db34d42c3f25e910309a9e5ef7b0e7e0361
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386599"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599388"
 ---
 # <a name="enable-customer-payment-predictions"></a>Müşteri ödeme tahminlerini etkinleştirme
 
@@ -41,7 +41,7 @@ Bu konuda, Mali içgörülerde Müşteri ödeme tahminleri özelliğinin nasıl 
 2. Müşteri ödeme içgörüleri özelliğini açın:
 
     1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
-    2. **Müşteri ödeme içgörüleri (önizleme)** adlı özelliği bulun.
+    2. **(önizleme) Müşteri ödeme içgörüleri** adlı özelliği bulun.
     3. **Şimdi etkinleştir**'i seçin.
 
     Müşteri ödeme içgörüleri özelliği açılır ve yapılandırmaya hazır hale gelir.

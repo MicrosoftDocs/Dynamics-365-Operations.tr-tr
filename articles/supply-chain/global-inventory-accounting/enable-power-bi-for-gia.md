@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b00de29a4f12719e469c063861b52e0fc20c5f1
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773357"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641123"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Global Stok Muhasebesi için Power BI'yı etkinleştirme
 
@@ -49,7 +49,10 @@ Power BI tümleştirmesini ayarlamak için aşağıdaki adımları izleyin.
 1. Aşağıdaki adımları izleyerek **Global Stok Muhasebesi** Power BI raporunu yapılandırın:
 
     1. **Çalışma alanım**'a gidin, Global Stok Muhasebesi veri kümesini bulun ve **Seçenekler** menüsünde **Ayarlar**'ı seçin.
-    1. **Global stok muhasebesi ayarları**'nda **Parametreler**'i genişletin ve tüm parametreleri gerektiği gibi güncelleştirin.
+    1. **Global stok muhasebesi ayarları**'nda **Parametreler**'i genişletin ve tüm parametreleri gerektiği gibi güncelleştirin. Özellikle, aşağıdaki ayarları kontrol edin:
+        1. LCS içindeki **ortam ayrıntıları** sayfasında bulunan değerleri kullanarak varsayılan **Dataverse URL**'nin ve **ortam kimliği** değerlerinin üzerine yazın ( **Power Platform tümleştirme** bölümünde).
+        1. **Veri kaynağı kimlik bilgileri** bölümündeki **CD'lerin** etiketinin yanında **Kimlik bilgilerini düzenle** bağlantısını seçin. Daha sonra **OAuth2** kimlik doğrulama yöntemini kullanarak Dataverse hesabınızda oturum açın.
+    1. **Çalışma alanım \> Raporlar \> Global Stok Muhasebesi**'ndeki Power BI raporlarının şimdi düzgün çalışıyor olduğunu doğrulayın ve içeriği sisteminizden görüntüleyin.
 
 1. Uygulamayı, [PowerBI.com tümleştirmesini yapılandırma](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process) bölümünde açıklandığı gibi kaydedin.
 1. Aşağıdaki adımları izleyerek **Global Stok Muhasebesi** Power BI raporu dosyasını Dynamics 365 Supply Chain Management ile tümleştirin:
