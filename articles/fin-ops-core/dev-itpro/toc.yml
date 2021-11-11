@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Platform güncelleştirmelerinde yenilikler veya değişiklikler
               items:
-                - name: Platform güncelleştirmelerindeki yenilikler veya değişiklikler giriş sayfası
+                - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.23 sürümü için platform güncelleştirmeleri
+                  href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: 10.0.22 sürümü için platform güncelleştirmeleri (Kasım 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: 10.0.20 sürümü için platform güncelleştirmeleri (Ağustos 2021)
-                  href: get-started/whats-new-platform-updates-10-0-20.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -32,42 +32,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: İş olayları
-          items:
-            - name: İş olaylarına genel bakış
-              href: business-events/home-page.md
-            - name: Uygulama iş olayları
-              href: business-events/app-business-events.md
-            - name: İş akışı iş olayları
-              href: business-events/business-events-workflow.md
-            - name: Toplu iş olayları
-              href: business-events/system-business-events.md
-            - name: İş olayları olarak uyarılar
-              href: business-events/alerts-business-events.md
-            - name: Microsoft Flow'daki iş olayları
-              href: business-events/business-events-flow.md
-            - name: İş olayları geliştirici belgeleri
-              href: business-events/business-events-dev-doc.md
-            - name: İş olayları sorunlarını giderme
-              href: business-events/troubleshooting.md
-            - name: İş olayları için kullanım örnekleri
-              href: business-events/potential-use-cases.md
-            - name: Öğreticiler
-              items:
-                - name: İş olayları ve Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: İş olayları ve Azure Event Grid
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: İş olayları ve Azure Service Bus
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: İş olayları ve iş akışı onayları
-                  href: business-events/how-to/how-to-workflow.md
-                - name: İş olayları ve Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: İş olayları ve Azure Event Hubs
-                  href: business-events/how-to/event-hub.md
-                - name: Mali dönem kapanışında iş olayları
-                  href: business-events/how-to/period-close.md
         - name: Sürekli teslimat
           items:
             - name: Sürekli teslimat giriş sayfası
@@ -592,11 +556,11 @@
               items:
                 - name: X++ dil desteği
                   items:
-                    - name: X++ için Visual Studio 2017 gereksinimleri
+                    - name: X++ için Visual Studio gereksinimleri
                       href: dev-tools/developer-tools-vs2017.md
                     - name: X++ kodu hatalarını ayıklama
                       href: dev-tools/debug-xpp.md
-                    - name: İstek veya yanıt senaryolarındaki EventHandlerResult sınıfları
+                    - name: İstek veya yanıt senaryolarında EventHandlerResult sınıfları
                       href: dev-tools/event-handler-result-class.md
                     - name: C# ve X++ kaynak kodu kullanarak iş mantığı yazma
                       href: dev-tools/write-business-logic.md
@@ -606,6 +570,8 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: Uygulama Gezgini özellikleri
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: SysSetupConfigAttribute özniteliği
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: X++ dil referansı
                   items:
                     - name: X++ dil referansına genel bakış
@@ -1038,6 +1004,10 @@
           items:
             - name: Microsoft Power Platform ve Finance and Operations tümleştirmesi
               href: power-platform/overview.md
+            - name: Power Platform tümleştirmesini etkinleştirme
+              href: power-platform/enable-power-platform-integration.md
+            - name: Kimlik doğrulaması ve yetkilendirme
+              href: power-platform/authentication-and-authorization.md
             - name: Çift yazma
               items:
                 - name: Çift yazma giriş sayfası
@@ -1084,6 +1054,8 @@
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Çift yazma kurulumundan sonra tüzel kişiliği düzenleme
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Bakım için çift yazmayı duraklatma
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: Hata yönetimi ve uyarı bildirimleri
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Uygulama yaşam döngüsü yönetimi
@@ -1176,6 +1148,8 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                         - name: Finance and Operations uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Tablo eşleme durumu denetimi için hata kodları
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: Çift yazmayla ilgili sık sorulan sorular
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Sanal varlıklar
@@ -1186,12 +1160,52 @@
                   href: power-platform/entity-modeling.md
                 - name: Uygulama yaşam döngüsü yönetimi
                   href: power-platform/application-lifecycle-management.md
-                - name: Finance and Operations ve Dataverse yönetici referansı
+                - name: Dataverse sanal varlıklarını yapılandırma
                   href: power-platform/admin-reference.md
+                - name: Dataverse sanal varlıklarını etkinleştirme
+                  href: power-platform/enable-virtual-entities.md
                 - name: Finance and Operations ile Power Apps portalları
                   href: power-platform/power-portal-reference.md
                 - name: Finance and Operations sanal varlıkları ile ilgili SSS
                   href: power-platform/faq.md
+            - name: İş olayları
+              items:
+                - name: İş olaylarına genel bakış
+                  href: business-events/home-page.md
+                - name: Uygulama iş olayları
+                  href: business-events/app-business-events.md
+                - name: İş akışı iş olayları
+                  href: business-events/business-events-workflow.md
+                - name: Toplu iş olayları
+                  href: business-events/system-business-events.md
+                - name: İş olayları olarak uyarılar
+                  href: business-events/alerts-business-events.md
+                - name: Veri olayları
+                  href: business-events/data-events.md
+                - name: Power Automate'teki iş olayları
+                  href: business-events/business-events-flow.md
+                - name: İş olayları geliştirici belgeleri
+                  href: business-events/business-events-dev-doc.md
+                - name: İş olayları sorunlarını giderme
+                  href: business-events/troubleshooting.md
+                - name: İş olayları için kullanım örnekleri
+                  href: business-events/potential-use-cases.md
+                - name: Öğreticiler
+                  items:
+                    - name: İş olayları ve Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: İş olayları ve Azure Event Grid
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: İş olayları ve Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: İş olayları ve iş akışı onayları
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: İş olayları ve Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: İş olayları ve Azure Event Hubs
+                      href: business-events/how-to/event-hub.md
+                    - name: Mali dönem kapanışında iş olayları
+                      href: business-events/how-to/period-close.md
             - name: Eklentiler
               items:
                 - name: Eklentilere genel bakış
@@ -1582,6 +1596,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: Yürütülen bir toplu işi iptal etme
                   href: sysadmin/batch-abort.md
+                - name: Toplu İş OData API'si
+                  href: sysadmin/batch-odata-api.md
             - name: En iyi duruma getirme danışmanı
               items:
                 - name: En iyi duruma getirme danışmanına genel bakış

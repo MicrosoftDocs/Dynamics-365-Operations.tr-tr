@@ -94,14 +94,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce'teki yenilikler veya değişiklikler
                   items:
-                    - name: Commerce'teki yenilikler veya değişiklikler giriş sayfası
+                    - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.23
+                      href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (Kasım 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
                     - name: Commerce 10.0.21 (Ekim 2021)
                       href: get-started/whats-new-commerce-10-0-21.md
-                    - name: Commerce 10.0.20 (Ağustos 2021)
-                      href: get-started/whats-new-commerce-10-0-20.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -938,6 +938,8 @@
                   href: enable-store-detection.md
                 - name: E-ticaret için dijital hediye kartları
                   href: digital-gift-cards.md
+                - name: Ücretsiz olarak satın alınacak bir ürünü yapılandırma
+                  href: configure-free-product.md
                 - name: Dynamics 365 Commerce siteleri için tarayıcı gereksinimleri
                   href: browser-requirements.md
             - name: Örnek siteye genel bakış
@@ -1518,6 +1520,8 @@
           items:
             - name: Elektronik raporlamaya genel bakış
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: Elektronik raporlama bileşenleri
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/commerce/toc.json
             - name: Yapılandırmalar
               items:
                 - name: Yapılandırmalar oluşturma
@@ -1582,6 +1586,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/commerce/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
                         - name: DateTimeFormat
@@ -1726,6 +1732,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/commerce/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: NumeralsToText
@@ -1832,12 +1840,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: Farklı biçimlerde giden belgeler oluşturmak için ER biçimleri tasarlama
               items:
+                - name: OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                 - name: Excel biçiminde giden belgeler oluşturmak için yapılandırmalar tasarlama
                   items:
                     - name: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/commerce/toc.json
-                    - name: OPENXML biçiminde rapor oluşturma örneği
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Excel şablonlarını yeniden uygulayarak ER biçimlerini değiştirme
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
                     - name: Excel raporlarına sütunları yatay yönlü genişletilebilir aralıklar olarak dinamik şekilde ekleme
@@ -1846,6 +1854,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
                         - name: Excel raporlarına dinamik olarak sütun eklemek için biçimleri çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
+                    - name: Excel'de oluşturulan belgeleri sayfalandırmak için ER biçimi tasarlama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Raporları Word biçiminde oluşturmak için yapılandırmalar tasarlama
                   items:
                     - name: Word biçiminde raporlar oluşturmak için yeni ER yapılandırması tasarlama
@@ -1868,6 +1878,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
                         - name: Katıştırılmış resimlere sahip Office biçimlerinde rapor oluşturma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
+                    - name: Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel'de bir rapor oluşturmak için bir ER biçimi tasarlama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan dosyalarda ürün reçetesi karakterlerini gizleme
@@ -2004,8 +2016,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Veri kaynaklarında hata ayıklama
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Model eşlemelerini yapılandırma
                   items:
                     - name: Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
@@ -2123,19 +2133,23 @@
                     - name: Uygulama güncelleştirmesi 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                     - name: Uygulama güncelleştirmesi 10.0.21
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.jso
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
+                    - name: Uygulama güncelleştirmesi 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
                     - name: Abone olma işleyicisinden yanıt istemek için bir olaya abone olma
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: Özel hedef fabrikası için ER hedefi oluşturmayı devretme
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Oluşturulan belgeler için özel hedef uygulama
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                    - name: Oluşturulan belgeler için özel hedef uygulama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: Kaynak kodundan USER INPUT PARAMETER türünün veri kaynağı değerlerini başlatma
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
                 - name: Kullanıcıların adlandırılmış ER hedeflerini yapılandırmasını ve kullanmasını sağlamak için kodu değiştirme
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
+                - name: Gelen belgeler için özel ER kaynağı uygulama
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
         - name: Finance and Operations (Dynamics 365) mobil uygulaması
           items:
             - name: Mobil uygulama giriş sayfası

@@ -70,16 +70,16 @@
               items:
                 - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Finance'teki yenilikler veya değişiklikler
+                - name: Finance'taki yenilikler veya değişiklikler
                   items:
-                    - name: Finance'teki yenilikler veya değişiklikler giriş sayfası
+                    - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.23
+                      href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (Kasım 2021)
                       href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (Ekim 2021)
                       href: get-started/whats-new-changed-10-0-21.md
-                    - name: Finance 10.0.20 (Ağustos 2021)
-                      href: get-started/whats-new-changed-10-0-20.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -240,6 +240,10 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Satıcı faturası otomasyonu için kurulum seçenekleri
                   href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Ön ödemeleri otomatik olarak satıcı faturalarına uygulamaya genel bakış
+                  href: accounts-payable/apply-prepymnts-overview.md
+                - name: Satıcı faturalarını içe aktarırken fatura satırları oluşturma
+                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: Faturaları iş akışı sistemine gönderme ve ürün giriş satırlarını eşleştirme
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Satıcı faturası otomasyonu sonuçlarını görüntüleme
@@ -272,6 +276,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Satıcı deftere nakil profilleri
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Satıcı faturası tarihleri
+              href: accounts-payable/vendor-invoice-dates.md
             - name: Borç hesapları ile alacak hesapları için yabancı para birimi yeniden değerleme işlemi
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Mobil fatura onayları
@@ -990,6 +996,8 @@
                   href: general-ledger/tasks/create-main-account.md
                 - name: Hesap planınızı planlama
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Yerel hesap planınızı planlama
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Genel muhasebe hesapları arasındaki hareketleri kapatma
                   href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
                 - name: Genel muhasebe hesabı diğer adlarını ayarlama
@@ -1104,6 +1112,8 @@
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: Satış vergisi ödemesi oluşturma
                   href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: Özelleştirilmiş para birimi ondalık basamak sayısına göre vergi kapatmayı yuvarlama
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
                 - name: Belgelerde satış vergisi hareketleri oluşturma
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: Satış vergisi için genel muhasebe deftere nakil grupları ayarlama
@@ -1546,6 +1556,8 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Meksika için Elektronik Faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Suudi Arabistan için Elektronik faturalamayı kullanmaya başlama
+                          href: localizations/e-invoicing-sa-get-started.md
                         - name: Satıcı faturalarını içeri aktarmak için elektronik faturalama hizmetini kullanma
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronik Faturalamayı ayarlama
@@ -1568,6 +1580,8 @@
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: Satış vergisi geçerliliği ve satış vergisi grubunu belirleme mantığı
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                        - name: Nakit iskontosu hesaplama ayarı için vergi dairesi parametrelerini kullanma
+                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Hesaplama
                       items:
                         - name: Vergi dahil fiyatlar etkinleştirildiğinde fiyatların üzerine vergi hesaplama
@@ -1594,6 +1608,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: AB satış listesi
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: İspanya için raporlama
+                          items:
+                            - name: 'KDV Hakkında Hemen Bilgi Sağlama (Suministro Inmediato de Información del IVA, SII)'
+                              href: localizations/emea-esp-sii-spain.md
                         - name: İsveç için raporlama
                           items:
                             - name: KDV beyannamesi
@@ -1604,18 +1622,24 @@
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Birleşik Krallık için raporlama
                           items:
-                            - name: KDV için MTD ile tümleştirmeye hazırlanma
-                              href: localizations/emea-gbr-mtd-vat-integration.md
+                            - name: KDV beyannamesi
+                              href: localizations/emea-gbr-vat-declaration.md
                     - name: Transfer emri için Vergi Hesaplamayı etkinleştirme
                       items:
                         - name: Transfer emirleri için vergi özelliği desteği
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: Uzantı
+                        - name: Transfer emri belgelerindeki vergi bilgilerini yazdırma
+                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
+                    - name: Uzatma
                       items:
                         - name: Vergi yapılandırmalarına veri alanları ekleme
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
+                        - name: Ana veri arama için vergi yapılandırmalarını özelleştirme
+                          href: localizations/customize-tax-configurations-master-data-lookup.md
+                    - name: Vergi Hesaplama ile ilgili SSS
+                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Mevzuat güncelleştirmeleri
               href: localizations/regulatory-updates.md
             - name: Avustralya
@@ -1684,6 +1708,8 @@
                   href: localizations/emea-bel-prodcom-report.md
                 - name: Yurtiçi satışlar için yıllık KDV kaydı
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
+                - name: Belçika İntrastat'ı
+                  href: localizations/emea-bel-intrastat.md
             - name: Brezilya
               items:
                 - name: Brezilya'ya genel bakış
@@ -2312,6 +2338,8 @@
                   href: localizations/apac-ind-scope.md
                 - name: Hindistan yerelleştirmesindeki yenilikler veya değişiklikler
                   items:
+                    - name: 10.0.20 - 10.0.22 sürümlerindeki yenilikler veya değişiklikler
+                      href: localizations/ind-news-letter-10-0-20-22.md
                     - name: 10.0.15 - 10.0.19 sürümlerindeki yenilikler veya değişiklikler
                       href: localizations/ind-news-letter-10-0-15-19.md
                     - name: 10.0.14 sürümündeki yenilikler veya değişiklikler
@@ -2680,11 +2708,17 @@
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
                         - name: TDS işlemleri için sertifika numaralarını ve tarihleri güncelleştirme
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+            - name: Endonezya
+              items:
+                - name: Endonezya'ya genel bakış
+                  href: localizations/indonesia.md
+                - name: Endonezya için KDV beyannamesi
+                  href: localizations/apac-idn-ppn-declaration.md
             - name: İtalya
               items:
                 - name: İtalya'ya genel bakış
                   href: localizations/italy.md
-                - name: KDV beyanlarıyla ilgili ayrıntılar
+                - name: KDV beyannameleri ile ilgili ayrıntılar
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Üç aylık KDV iletişim raporu
                   href: localizations/emea-ita-quarterly-vat-communication.md
@@ -3024,6 +3058,8 @@
                   href: localizations/emea-nl-audit-file.md
                 - name: KDV beyannamesi (Hollanda)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Hollanda İntrastat'ı
+                  href: localizations/emea-nl-intrastat.md
                 - name: AB satış listesi
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Yeni Zelanda
@@ -3352,6 +3388,8 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: Banka belge masraflarını sevkiyata tahsis etme
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
+                - name: Suudi Arabistan'da elektronik müşteri faturaları
+                  href: localizations/emea-sau-e-invoices.md
             - name: Singapur
               items:
                 - name: Singapur'a genel bakış
@@ -3378,6 +3416,8 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: Topluluk içi KDV
                   href: localizations/emea-esp-intra-community-vat.md
+                - name: İspanyolca İntrastat
+                  href: localizations/emea-esp-intrastat.md
                 - name: Tek seferlik müşteriler
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: İspanyolca düzene sahip çekleri yazdırma
@@ -3462,28 +3502,26 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Ters kaydedilecek KDV için satış vergisi grupları ayarlama
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Birleşik Krallık için raporlama
+                - name: KDV için Vergiyi Dijitalleştirme (MTD)
                   items:
-                    - name: KDV için Vergiyi Dijitalleştirme (MTD)
-                      items:
-                        - name: Birleşik Krallık'ta Vergiyi Dijitalleştirme (MTD) KDV iadesi gönderimi
-                          href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: HMRC'nin MTD KDV web hizmetiyle birlikte çalışması için ortamınızı hazırlama
-                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: MTD KDV'si için Elektronik iletileri ayarlamaya yönelik denetim listesi
-                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Birlikte çalışabilirliği MTD KDV korumalı alanı ile test etme
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: HMRC'nin MTD web hizmetiyle birlikte çalışması için Finance ortamınızı yetkilendirme
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: HMRC'nin MTD web hizmetine KDV iadesi gönderme
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: HMRC'den KDV ödemeleri ve borçlar hakkındaki bilgileri alma
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                        - name: Birleşik Krallık'taki KDV beyannameleri için KDV ayarı ayrıntıları
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: Kağıt biçiminde KDV beyannamesi oluşturma (KDV 100 raporu)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: Birleşik Krallık'ta Vergiyi Dijitalleştirme (MTD) KDV iadesi gönderimi
+                      href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: HMRC'nin MTD KDV web hizmetiyle birlikte çalışması için ortamınızı hazırlama
+                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                    - name: MTD KDV'si için Elektronik iletileri ayarlamaya yönelik denetim listesi
+                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                    - name: Birlikte çalışabilirliği MTD KDV korumalı alanı ile test etme
+                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                    - name: HMRC'nin MTD web hizmetiyle birlikte çalışması için Finance ortamınızı yetkilendirme
+                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                    - name: HMRC'nin MTD web hizmetine KDV iadesi gönderme
+                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                    - name: HMRC'den KDV ödemeleri ve borçlar hakkındaki bilgileri alma
+                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                    - name: Birleşik Krallık'taki KDV beyannameleri için KDV ayarı ayrıntıları
+                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                    - name: Kağıt biçiminde KDV beyannamesi oluşturma (KDV 100 raporu)
+                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Ödeme uygulamaları raporundaki istatistikler
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Amerika Birleşik Devletleri
@@ -3877,6 +3915,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -4021,6 +4061,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4421,6 +4463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: Uygulama güncelleştirmesi 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
+                    - name: Uygulama güncelleştirmesi 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
                     - name: Abone olma işleyicisinden yanıt istemek için bir olaya abone olma
@@ -4433,6 +4477,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: Kullanıcıların adlandırılmış ER hedeflerini yapılandırmasını ve kullanmasını sağlamak için kodu değiştirme
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: Gelen belgeler için özel ER kaynağı uygulama
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: Mobil uygulama
           items:
             - name: Mobil uygulama giriş sayfası

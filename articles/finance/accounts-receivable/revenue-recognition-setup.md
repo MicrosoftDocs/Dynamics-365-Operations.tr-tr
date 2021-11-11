@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c395aabfc8705b4713cf1041b5644ac478d8c1a4c4c211334aea3572f1618b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759029"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675213"
 ---
 # <a name="revenue-recognition-setup"></a>Gelir kabulü kurulumu
 [!include [banner](../includes/banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "6759029"
 Gerekli olan tüm kurulum için menü maddelerini içeren yeni bir **Gelir kabulü** modülü eklenmiştir. Bu konuda, kurulum seçenekleri ve bunların etkileri açıklanmaktadır.
 
 > [!NOTE]
-> Gelir kabulü özelliği Özellik yönetiminden açılamaz. Şu anda, bu özelliği etkinleştirmek için yapılandırma anahtarları kullanmanız gerekir.
-
-> Paket işlevi dahil olmak üzere gelir kabulünün, Commerce kanallarında (e-ticaret, POS, çağrı merkezi) kullanımı desteklenmez. Gelir kabulü ile yapılandırılan maddeler, Commerce kanallarında oluşturulan siparişlere veya hareketlere eklenmemelidir.
+> Gelir kabulü özelliği artık varsayılan olarak Özellik yönetimi aracılığıyla etkinleştirilmektedir. Kuruluşunuz bu özelliği kullanmıyorsa **Özellik yönetimi** çalışma alanından kapatabilirsiniz.
+>
+> Paket işlevi dahil olmak üzere gelir kabulü, Commerce kanallarında (e-ticaret, POS ve çağrı merkezi) desteklenmez. Gelir kabulü için yapılandırılan maddeler, Commerce kanallarında oluşturulan siparişlere veya hareketlere eklenmemelidir.
 
 **Gelir kabulü** modülünde aşağıdaki kurulum seçenekleri vardır:
 
@@ -40,12 +40,16 @@ Gerekli olan tüm kurulum için menü maddelerini içeren yeni bir **Gelir kabul
     - Madde grupları ve serbest bırakılan ürünler
     - Gelir planını tanımlama
     - Gelir fiyatını tanımlama
+    - Stok kurulumu
 
-        - Deftere nakil profilleri
-        - Ürün demetleri
+        - Gelir planını tanımlama
+        - Gelir fiyatını tanımlama
 
-    - Ürün demeti bileşenleri
-    - Ürün demeti maddesi
+    - Deftere nakil profilleri
+    - Ürün demetleri
+
+        - Ürün demeti bileşenleri
+        - Ürün demeti maddesi
 
 - Proje kurulumu
 
@@ -91,20 +95,27 @@ Gelir planları, **Gelir planları** sayfasında (**Gelir kabulü \> Kurulum \> 
 - **Otomatik sözleşme şartları**: Sözleşme başlangıç ve bitiş tarihlerinin otomatik olarak ayarlanması gerekirse bu onay kutusunu seçin. Bu tarihler otomatik olarak yalnızca **Sözleşme desteğini deftere naklet** gelir türündeki serbest bırakılan ürünler için ayarlanır. Sözleşme başlangıç tarihi otomatik olarak satış siparişi satırının talep edilen sevk tarihi olarak ayarlanır ve sözleşme bitiş tarihi de otomatik olarak başlangıç tarihi artı gelir planının kurulumunda tanımlanan ay veya tekrar sayısı olarak ayarlanır. Örneğin, satış siparişi satırındaki ürünün bir yıllık garantisi vardır. Varsayılan gelir planı **12M**'dir (12 ay) ve bu gelir planı için **Otomatik sözleşme şartları** onay kutusu seçilmiştir. Satış siparişi satırındaki talep edilen sevk tarihi 16 Aralık 2019 ise varsayılan sözleşme başlangıç tarihi 16 Aralık 2019 ve varsayılan sözleşme bitiş tarihi 15 Aralık 2020'dir.
 - **Kabul esası**: Kabul esası, gelir fiyatının tekrarlar boyunca nasıl tahsis edileceğini belirler.
 
-    - **Tarihe göre aylık**: Tutar, her aydaki gerçek gün sayısına göre tahsis edilir.
+    - **Güne göre aylık**: Tutar, her takvim ayındaki gerçek gün sayısına göre tahsis edilir.
     - **Aylık**: Tutar, tekrarlarda tanımlanan ay sayısı boyunca eşit olarak tahsis edilir.
     - **Tekrarlar**: Tutar, tekrarlar boyunca eşit olarak tahsis edilir ancak kabul yöntemi olarak **Gerçek başlangıç tarihi** seçeneğini belirlerseniz fazladan bir dönem içerebilir.
+    - **Güne göre mali dönem**: Tutar, her mali dönemdeki gerçek gün sayısına göre tahsis edilir. 
 
-- **Kabul yöntemi**: Kabul yöntemi, fatura için gelir planında ayarlanan varsayılan tarihleri belirler.
+    **Güne göre aylık** ve **Güne göre mali dönem** sonuçları, mali dönemler takvim aylarını takip ettiğinde aynı olur. Tek özel durum, kabul yönteminin **Ay/dönem sonu** olarak ayarlanması ve bir satış siparişi satırında **Sözleşme başlangıç tarihi** ve **Bitiş tarihi** alanlarının boş bırakılmasıdır.
+
+- **Kabul yöntemi**: Kabul yöntemi, fatura için gelir planında ayarlanan tarihleri belirler.
 
     - **Gerçek başlangıç tarihi**: Plan, sözleşme başlangıç tarihini (sözleşme desteğini deftere naklet \[PCS\] maddeleri için) veya fatura tarihini (temel ve temel olmayan maddeler için) kullanarak oluşturulur.
-    - **Ayın 1'i**: İlk plan satırındaki tarih, sözleşme başlangıç tarihidir (veya fatura tarihi). Ancak sonraki tüm plan satırları ayın ilk günü için oluşturulur.
+    - **Ayın/dönemin ilk günü**: İlk plan satırındaki tarih, sözleşme başlangıç tarihidir (veya fatura tarihi). Ancak sonraki tüm plan satırları, ayın veya mali dönemin ilk günü için oluşturulur.
     - **Ay ortasından bölme**: İlk plan satırındaki tarih, fatura tarihine bağlıdır. Fatura, ayın ilk on beş gününde deftere nakledilirse gelir planı, ayın ilk günü kullanılarak oluşturulur. Fatura, ayın on altıncı gününde veya sonrasında deftere nakledilirse gelir planı, bir sonraki ayın ilk günü kullanılarak oluşturulur.
-    - **Sonraki ayın 1'i**: Plandaki tarih, sonraki ayın ilk günüdür.
 
-Genel dönemleri ve her dönemde kabul edilen yüzdeleri görüntülemek için **Gelir planı ayrıntıları** düğmesini seçin. Varsayılan olarak **Kabul etme yüzdesi** değeri, dönem sayısı boyunca eşit olarak bölünür. Kabul esası **Aylık** veya **Tekrarlar** olarak ayarlanırsa kabul yüzdesi değiştirilebilir. Kabul yüzdesini değiştirdiğinizde bir uyarı iletisi toplamın yüzde 100'e eşit olmadığını belirtir. İletiyi alırsanız satırları düzenlemeye devam edebilirsiniz. Ancak sayfayı kapatmadan önce toplam yüzde 100'e eşit olmalıdır.
+        **Ay ortasından bölme** kabul esası **Güne göre mali dönem** olarak ayarlanmışsa seçilemez.
 
-[![Gelir planı ayrıntıları.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **Sonraki ayın/dönemin ilk günü**: Planın başladığı tarih, sonraki ayın veya mali dönemin ilk günüdür.
+    - **Ay/dönem sonu**: İlk plan satırındaki tarih, sözleşme başlangıç tarihidir (veya fatura tarihi). Ancak sonraki tüm plan satırları, ayın veya mali dönemin son günü için oluşturulur. 
+
+Genel dönemleri ve her dönemde kabul edilen yüzdeleri görüntülemek için **Gelir planı ayrıntıları** düğmesini seçin. Varsayılan olarak **Kabul etme yüzdesi** değeri, dönem sayısı boyunca eşit olarak bölünür. Kabul esası **Aylık** olarak ayarlanırsa kabul yüzdesi değiştirilebilir. Kabul yüzdesini değiştirdiğinizde bir uyarı iletisi toplamın yüzde 100'e eşit olmadığını belirtir. Bu iletiyi alırsanız satırları düzenlemeye devam edebilirsiniz. Ancak sayfayı kapatmadan önce toplam yüzde 100'e eşit olmalıdır.
+
+[![Gelir planı ayrıntıları.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Stok kurulumu
 
