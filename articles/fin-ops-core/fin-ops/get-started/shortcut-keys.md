@@ -2,7 +2,7 @@
 title: Klavye kısayolları
 description: Bu konu, Finance and Operations uygulamasıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerinin genel görünümünü sağlar.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743183"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647548"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Aşağıdaki klavye kısayolları, verileri hızlı ve etkili şekilde Finance and Operations uygulamasında girmenize yardımcı olabilir.
 
@@ -147,15 +148,16 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Bir kılavuzda varsayılan eylemi yürüt<blockquote>[!NOTE] Bu kısayol odak köprü içeren bir hücre ve o sütundaki tüm hücreleri köprüler etkinleştirilir.</blockquote> | Gir                           |
 | Seçilen satır ile başlık satırı arasında odağı değiştirme                                                               | Alt+Shift+H                     |
 | Geçerli sütunu daha büyük/daha küçük yapma (odakta başlık satırı varken)                                                  | Sağ ok / Sol ok        |
-| Geçerli sütun için ızgara filtrelemeyi açma (odakta başlık satırı varken)                                              | Gir                           |
+| Geçerli sütun için ızgara filtrelemeyi açma (odakta başlık satırı varken)                                              | Enter                           |
+| Geçerli sütunu içeriğe uyacak şekilde yeniden boyutlandırın (üst bilgi satırına odaklanarak)                                           | A                               |
 
 ## <a name="input-control-shortcuts"></a>Giriş denetimi kısayolları
 
-| Bunu yapmak için                                                                   | Basın                         |
+| Bunu yapmak için                                                                   | Şuna basın:                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Köprüyü aç                                                           | Ctrl+Enter                    |
-| Tarih alanına oturum tarihini girme                                       | B                         |
-| Tarih alanına geçerli tarihi girme                                       | A                         |
+| Tarih alanına oturum tarihini girme                                       | B                             |
+| Tarih alanına geçerli tarihi girme                                       | A                             |
 | Arama, açılan kutu, tarih seçici, açılır iletişim kutusu açma                         | Alt+Aşağı ok                |
 | Aramayı, açılan kutuyu, tarih seçiciyi, açılır iletişim kutusunu kapatma                        | Esc                           |
 | Odağı bir aramaya taşıma (arama zaten açıkken)                   | Alt+Aşağı ok                |
@@ -202,8 +204,8 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Taşıma aracını kullan (kişiselleştirme modunda)                                                                       | P                                   |
 | Geçerli denetimi taşımak üzere seç (Taşıma aracını kullanırken ve taşımak üzere denetim henüz seçilmemişken)  | Boşluk veya Enter                      |
 | (Taşıma aracını kullanırken) taşımak için kontrol temizle                                                                   | Esc                                 |
-| Seçilen denetim için bir sonraki konuma taşı (Taşıma aracını kullanırken)                                          | Tab veya Sağ ok veya Aşağı ok    |
-| Seçilen denetim için bir önceki konuma taşı (Taşıma aracını kullanırken)                                      | Shift+Tab veya Sol ok veya Yukarı ok |
+| Seçilen denetimi bir sonraki konuma taşı (Taşıma aracını kullanırken)                                              | Tab veya Sağ ok veya Aşağı ok    |
+| Seçilen denetimi bir önceki konuma taşı (Taşıma aracını kullanırken)                                          | Shift+Tab veya Sol ok veya Yukarı ok |
 | Gizle aracını kullan (kişiselleştirme modunda)                                                                       | H                                   |
 | Geçerli denetimin görünür olup olmadığını değiştir (Gizle aracını kullanılırken)                                     | Boşluk veya Enter                      |
 | Atla aracını kullan (kişiselleştirme modunda)                                                                       | K                                   |

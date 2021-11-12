@@ -2,7 +2,7 @@
 title: Metin kategorisindeki ER işlevlerinin listesi
 description: Bu konu, elektronik raporlama (ER) uygulamasında desteklenen metin işlevleri hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741026"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647572"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Metin kategorisindeki ER işlevlerinin listesi
 
@@ -32,7 +32,7 @@ ms.locfileid: "6741026"
 | İşlev | Tanım |
 |----------|-------------|
 | [Char](er-functions-text-char.md) | Bu işlev, belirtilen Unicode sayısı tarafından başvurulan tek bir karakteri gösteren bir *dize* değeri döndürür. |
-| [Art arda eklemek](er-functions-text-concatenate.md) | Bu işlev, bir dizeye katıldıktan sonra, belirtilen tüm metin dizelerini bir *dize* değeri olarak döndürür. |
+| [Art arda eklemek](er-functions-text-concatenate.md) | Bu işlev, bir dizeye katıldıktan sonra, belirtilen tüm metin dizelerini bir *Dize* değeri olarak döndürür. |
 | [Biçim](er-functions-text-format.md) | Bu işlevi, belirtilen dizeyi, tüm **%N** oluşumlarını *N*'ci bağımsız değişken ile değiştirerek biçimlendirdikten sonra *Dize* değeri olarak döndürür. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Bu işlevi, belirtilen numaralandırma veri kaynağındaki belirli bir *Enum* değerini *dize* değeri olarak belirtilen numaralandırma adını kullanarak arar. *Numaralama* değeri bulunursa, işlev bunu döndürür. |
 | [GuidValue](er-functions-text-guidvalue.md) | Bu işlevi, belirtilen *Dize* veri türündeki girişi *GUID* veri türünde bir veri öğesine dönüştürür. |
@@ -40,7 +40,8 @@ ms.locfileid: "6741026"
 | [Sola](er-functions-text-left.md) | Bu işlev belirtilen dizenin başından itibaren belirtilen sayıda karakteri gösteren bir *dize* değeri döndürür. |
 | [Len](er-functions-text-len.md) | Bu işlev, belirtilen dizedeki karakter sayısını bir *tamsayı* değeri olarak döndürür. |
 | [Lower](er-functions-text-lower.md) | Bu işlev, küçük harflere dönüştürüldükten sonra bir *dize* değeri olarak belirtilen metin dizesini döndürür. |
-| [Mid](er-functions-text-mid.md) | Bu işlev belirtilen pozisyondan başlayarak belirtilen dizenin başından itibaren belirtilen sayıda karakteri gösteren bir *dize* değeri döndürür. |
+| [Mid](er-functions-text-mid.md) | Bu işlev belirtilen pozisyondan başlayarak belirtilen dizenin başından itibaren belirtilen sayıda karakteri gösteren bir *[Dize](er-formula-supported-data-types-primitive.md#string)* değeri döndürür. |
+| [NewGUID](er-functions-text-newguid.md) | Bu işlev, yeni oluşturulan bir *[GUID](er-formula-supported-data-types-primitive.md#guid)* değerini döndürür. |
 | [NumberFormat](er-functions-text-numberformat.md) | Bu işlev, belirli bir tarih değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen kültür içinde belirtilen sayıyı gösteren bir *dize* değeri döndürür. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Bu işlevi belirtilen sayıyı bir *dize* değeri olarak (metin dizelerine dönüştürüldükten sonra) belirtilen dilde yazılmış şekilde döndürür. |
 | [PadLeft](er-functions-text-padleft.md) | Bu işlevi, belirtilen dizenin başlangıcının belirtilen karakterlerin bir veya daha fazlasıyla doldurulduğu belirtilen uzunlukta bir *dize* döndürür. |

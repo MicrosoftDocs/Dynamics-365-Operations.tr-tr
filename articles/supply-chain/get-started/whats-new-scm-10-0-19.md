@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7638482"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647227"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management sürüm 10.0.19'teki yenilikler ve değişiklikler (Haziran 2021)
 
@@ -48,7 +48,7 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 
 Aşağıdaki tabloda, bu sürümde yer alan özellik iyileştirmeleri yer almaktadır. Bunların her biri varolan bir özellik için artımlı bir geliştirme sağlar. Bunlar yalnızca geliştirmeler olduğundan, [sürüm planında](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) listelenmezler. Ancak, bu geliştirmelerin mevcut özelleştirmelerinizle veya tercihlerinizle çakışmayacağından emin olmak için, her biri varsayılan olarak kapatılmıştır (aksi belirtilmedikçe). Bu özelliklerden herhangi birini kullanmak istiyorsanız, bunları [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde açıkça etkinleştirmeniz gerekir.
 
-| Özellik alanı | Özellik&nbsp;yönetiminde&nbsp;özellik&nbsp;adı | Daha fazla bilgi |
+| Modül | Özellik&nbsp;yönetiminde&nbsp;özellik&nbsp;adı | Daha fazla bilgi |
 |---|---|---|
 | Satış ve pazarlama | Satış geçmişi temizleme performansı iyileştirmeleri | Satış geçmişi temizleme, yüksek satış güncelleştirmeleri hacmine sahip ortamlarda seyrek çalıştırılırsa uzun sürebilir. Süreyi azaltmak ve güvenilirliği artırmak için bu özellik temizlemeyi sınırlı bir süre çalışan toplu işlere böler. Mümkün olduğunda, kilitlemeyi en aza indirmek ve temizleme sırasında işlem tablolarını birleştirmekten kaçınmak için veritabanı yeteneklerinden yararlanılacaktır. Daha fazla bilgi için bkz. [Satış geçmişi temizleme işlemi performans iyileştirmeleri](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Satış ve pazarlama | Talep edilen giriş tarihini, şirketlerarası siparişlerin Onaylanan tarihiyle güncelleştir | Bu özellik, şirketlerarası doğrudan teslimat kullanırken satış ve satınalma tarihi alan değerlerine ne olacağını denetlemenizi sağlar. Sistemin istenen tarihleri güncelleştirip güncelleştirmeyeceğini veya güncelleştirmeyi atlayıp atlamayacağını seçebilirsiniz. Güncelleştirmeyi atlarsanız, istenen tarihler müşterinin isteklerini temsil eder. Güncelleştirmeyi etkinleştirirseniz, istenen tarihler (teslimat tarihi denetimini kullanırken) yalnızca başlangıçta müşterinin istediğini temsil eder. Teslim tarihi denetimi, *Yok*'dan farklı olduğunda, başlangıçta isteneni geçersiz kılar. Bu seçeneği, şirketlerarası satıcı veya müşteri ayarlarında **Onaylanan tarih ayarıyla yeni İstenen giriş tarihini güncelleştir**'i kullanarak ayarlayabilirsiniz.<br><br>Özellik devre dışı bırakılırsa, sistem teslimat tarihi denetim kuralına göre orijinal satış siparişlerinde istenen giriş tarihinin üzerine yazar, ancak istenen sevkiyat tarihi olduğu gibi kalır. |

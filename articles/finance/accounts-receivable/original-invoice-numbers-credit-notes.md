@@ -2,7 +2,7 @@
 title: Alacak dekontlarındaki orijinal faturalara başvurular
 description: Bu konu, ilgili alacak dekontlarında orijinal fatura numaralarının nasıl ayarlanacağını ve yazdırılacağını açıklamaktadır.
 author: ilkond
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723859"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700367"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Alacak dekontlarındaki orijinal faturalara başvurular
 
@@ -95,5 +95,10 @@ Serbest metin, müşteri ve proje alacak dekontlarını yazdırdığınızda, or
 > [!NOTE]
 > Orijinal faturalara yapılan başvuruların yazdırılacağını varsayarak belgelerin yazdırılabilir biçimlerinin doğru yapılandırılmış olduğundan emin olun.
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>Borç dekontlarında özgün faturalarla ilgili referanslar
+
+Varsayılan olarak, orijinal faturalara yapılan başvurular alacak dekontları için girilebilir. Örneğin, orijinal faturalardaki negatif (azalan) düzeltmeleri yaparken referanslar girebilirsiniz.
+
+Orijinal faturaların pozitif (artan) düzeltmelerini yaptığınızda referans girmek için **Özellik yönetimi** çalışma alanındaki **Borç dekontlarına ait orijinal faturalara başvurular**'ı etkinleştirmelisiniz.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

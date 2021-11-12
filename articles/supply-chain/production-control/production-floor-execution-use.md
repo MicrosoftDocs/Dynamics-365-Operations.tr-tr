@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569349"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678701"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -93,7 +93,6 @@ Etkin işler aşağıdaki sütunlar vardır:
 1. **Kesinti süresini kaydet**: Makinenin kesinti süresini kaydedebileceğiniz bir iletişim kutusu açmak için bu düğmeyi seçin. Bir neden kodu seçebilir ve kesinti süresi için bir tarih/saat aralığı girebilirsiniz. Makinenin kesinti süresi kaydı, makine kıymetinin verimliliğini hesaplamak için kullanılır.
 1. **Görüntüle veya düzenle**: Mevcut kesinti süresi kayıtlarını düzenleyebileceğiniz veya görüntüleyebileceğiniz bir iletişim kutusu açmak için bu düğmeyi seçin.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Üretim işlerini başlatma ve tamamlama
 
 Çalışanlar, **tüm işler** sekmesinde iş seçip **işi Başlat** iletişim kutusunu açmak için **işi Başlat**'ı seçerek bir üretim işi başlatır.
@@ -109,6 +108,32 @@ Etkin işler aşağıdaki sütunlar vardır:
 Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etkin işler** sekmesinde bir iş seçip sonra **İlerlemeyi Raporla**'yı seçerek üretilen sağlam miktarları rapor edebilir. Sonra, **İlerlemeyi Raporla** iletişim kutusunda, çalışan sayısal klavyeyi kullanarak sağlam miktarı girer. Varsayılan olarak miktar boştur. Bir miktar girildikten sonra, çalışan, işin durumunu *devam ediyor*, *Durduruldu* veya *tamamlandı* olarak güncelleştirebilir.
 
 ![İlerlemeyi raporla iletişim kutusu.](media/pfei-report-progress-dialog.png "İlerlemeyi raporla iletişim kutusu")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Ortak ürün ve yan ürünleri olan toplu iş emirleriyle ilgili iyi miktarlar raporlama
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+Çalışanlar, toplu iş emirleriyle ilgili ilerlemeyi bildirmek için üretim tabanı yürütme arabirimini kullanabilir. Bu raporlama, ortak ürünlerde ve yan ürünlerde raporlamayı içerir.
+
+Bazı üreticiler, özellikle işlem endüstrileri, üretim süreçlerini yönetmek için toplu iş emirleri kullanır. Toplu iş emirleri formüllerden oluşturulur ve bu formüller, çıkış olarak ortak ürünlere ve ürünlere sahip olacak şekilde tanımlanabilir. Bu toplu iş emirleriyle ilgili geribildirim raporlanırsa, çıktı tutarının formül maddesine ve ayrıca ortak ürünlerde ve ürünlere göre kaydedilmiş olması gerekir.
+
+Bir çalışan bir toplu iş emrindeki bir işi tamamladığında veya kısmen tamamladığında, sipariş için çıktı olarak tanımlanan her ürün için sağlam veya ıskarta miktarları rapor edebilir. Toplu iş emri için çıktı olarak tanımlanan ürünler *Formül*, *Ortak ürün* veya *Yan ürün* türünde olabilir.
+
+Ürünlere doğru miktarları bildirmek için, çalışan **Etkin işler** sekmesinde bir iş seçer ve sonra **Rapor ilerlemesini** seçer.
+
+Sonra, **Rapor ilerleme durumu** iletişim kutusunda, çalışan raporlamak üzere toplu iş siparişi için çıktı olarak tanımlanan ürünler arasından seçim yapabilir. Çalışan, listedeki bir veya daha fazla ürün seçebilir ve **Rapor ilerlemesini** seçebilir. Her ürün için, miktar varsayılan olarak boştur ve çalışan miktarı girmek için sayısal klavyeyi kullanabilir. Çalışan, seçili ürünler arasında hareket etmek için **Önceki** ve **Sonraki** düğmelerini kullanabilir. Her ürün için bir miktar girildikten sonra, çalışan, işin durumunu *devam ediyor*, *Durduruldu* veya *tamamlandı* olarak güncelleştirebilir.
+
+![Ortak ürünler ve yan ürünler bildirme](media/report-co-by-products.png "Ortak ürünler ve yan ürünler bildirme")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Planlama maddeleri için toplu iş emirleri üzerinde raporlama
+
+Bir çalışan bir planlama maddesi için toplu iş emrindeki bir işi tamamladığında, bu maddeler *Formül* türünde bir madde içermediği için, yalnızca ortak ürün ve ürünlere ait miktarları raporlarsınız.
+
+### <a name="reporting-co-product-variation"></a>Ortak ürün çeşitlemesi ile raporlama
+
+**Ortak ürün çeşitleri** seçeneğinin *Evet* olarak ayarlandığı bir formül sürümünden toplu iş emri oluşturulursa, çalışan, toplu iş emirleriyle ilgili tanımın bir parçası olmayan ortak ürünlerde rapor verebilir. Bu işlev, üretim sürecinde beklenmeyen ürün çıktısının oluşabileceği senaryolarda kullanılır.
+
+Bu durumda, çalışan, rapor ilerlemesi iletişim kutusunda **Ortak ürünler çeşitlerini** seçerek ortak ürün ve rapor edilecek miktarı belirtebilir. Çalışan, ortak ürün olarak tanımlanan tüm serbest bırakılan ürünler arasından seçim yapabilir.
 
 ## <a name="reporting-scrap"></a>Hurda raporlaması
 

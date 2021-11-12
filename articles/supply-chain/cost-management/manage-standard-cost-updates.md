@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579772"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678678"
 ---
 # <a name="manage-standard-cost-updates"></a>Maliyet güncelleştirmelerini yönetme
 
@@ -43,8 +43,6 @@ Aşağıdaki örnekte, bir üretim ortamında standart maliyetleri güncelleşti
 Bu örnekte 2020 yılı boyunca güncelleştirmeleri yönetmek için bir ek maliyetlendirme versiyonu kullanılmıştır. Her toplu güncelleştirme için ayrı bir versiyon gibi birden fazla ek maliyetlendirme versiyonu da kullanılabilirdi. Birden fazla maliyetlendirme kullanıldığında, etkin maliyetler birden fazla maliyetlendirme sürümüne dağıtılacağından geri dönüşün etkin maliyetler şeklinde ifade edilmesi gerekir.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Standart maliyet yeniden değerlemesi için mali boyutlar
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Yeni bir standart fiyat etkinleştirildiğinde, genellikle eldeki stok değeri standart maliyet yeniden değerlemesi hareketleriyle yeniden değerlenir. Genellikle maddenin mali boyutları daha sonra hareketlerde deftere nakledilir. Ancak mali boyutların deftere nakledilip nakledilmeyeceğini ve nasıl nakledileceğini denetlemek istiyorsanız *Stok standart maliyeti yeniden değerlemesi için mali boyutları varsayılana ayarlama seçenekleri* adlı özelliği açmak için [özellik yönetimini](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanın. Bu özelliği etkinleştirdikten sonra **Maliyet yönetimi > Stok muhasebesi ilkeleri kurulumu > Parametreler**'e gidin ve yeni **Mali boyut kaynağı** açılır listesini aşağıdaki değerlerden birine ayarlayın.
 

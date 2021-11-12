@@ -1,8 +1,8 @@
 ---
 title: Satıcı faturası otomasyonu için kurulum seçenekleri (Önizleme)
 description: Bu konu, satıcı faturası otomasyonu ayarlamak ve yapılandırma için kullanılabilen seçenekleri açıklar.
-author: abruer
-ms.date: 10/16/2020
+author: sunfzam
+ms.date: 10/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32f105ffcf41f5e39ec34ec6500040e28673086d25196a32690975ee0234ab43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724291"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675481"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Satıcı faturası otomasyonu için kurulum seçenekleri
 
@@ -27,12 +27,18 @@ ms.locfileid: "6724291"
 
 Bu konu, satıcı faturası otomasyonu ayarlamak ve yapılandırma için kullanılabilen seçenekleri açıklar. Fatura otomasyonu özellikleri aşağıdaki kurulum parametresi türlerini kullanır:
 
+- İçe aktarılan faturalardaki peşinatlar otomatik olarak uygulanacak parametreler.
 - İçe aktarılan satıcı faturalarını iş akışı sistemine gönderme ve deftere nakledilen ürün giriş satırlarını bekleyen satıcı fatura satırlarına eşleştirmeye yönelik parametreler.
 - İşleme otomasyonu arka plan görevleriyle ilgili parametreler. İşlem otomasyonu çerçevesi, içe aktarılan satıcı faturalarını iş akışı sistemine göndermek için kullanılır. Ayrıca, deftere nakledilen ürün giriş satırlarını bekleyen satıcı fatura satırlarıyla otomatik olarak eşleştirmek ve ürün giriş satırlarıyla otomatik olarak eşlenen manuel faturalar için fatura eşleştirme doğrulaması gerçekleştirmek amacıyla da kullanılır. Farklı iş süreçleri seçili bir işlemin ne sıklıkta çalıştırılacağını tanımlamak için bu çerçeveyi kullanır. **Ürün girişini fatura satırlarıyla eşleştir** ve **Satıcı faturalarını iş akışına gönder** arka plan işlemlerindeki kullanılabilir sıklıklar **Saat** ve **Günlük**'tür.
 
 Bir arka plan göreviyle ilgili bilgileri ayarlamak veya görüntülemek için, **Sistem Yönetimi \>Kurulum \> İşlem otomasyonları**'na gidin **Arka plan görevi** sekmesini seçin.
 
 Satıcı faturası deftere nakli aracılığıyla içe aktarma işleminden temassız otomasyon elde etmek için, bir satıcı faturası iş akışı ayarlamanız gerekir. İş akışı ayarlamak için **Borç hesapları > Kurulum > Borç hesapları iş akışları**'na gidin. Faturanın el ile müdahale olmadan başlangıçtan bitişe kadar işlendiğinden emin olmak için, iş akışı yapılandırmanıza otomatik deftere nakil görevi eklemeniz gerekir.
+
+## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>İçe aktarılan faturalardaki peşinatlar otomatik olarak uygulanacak parametreler
+
+- **İçe aktarılan faturalar için ön ödemeyi otomatik olarak uygula** – Bu seçenek **Evet** olarak ayarlandığında, sistem, satıcı faturaları içe aktarıldığında ilgili satınalma siparişi için var olan peşinatlar otomatik olarak arar. Uygulanabilecek peşinatlar bulunursa, alınan satıcı faturalarındaki peşinatlar uygulamak için ek bir satır eklenir.
+- **Ön ödeme uygulaması hatası durumunda takip etme otomasyon sürecini engelle** – Bu seçenek **Evet** olarak ayarlandığında, ön ödeme uygulanmazsa faturalar bloke edilir. Makbuz eşleştirme süreci ve bir iş akışı işlemine gönderim gibi diğer otomatikleştirilmiş işlemler gibi, fatura otomasyon işlemi de ön ödeme el ile uygulanarak bloke faturaları çekmez. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>İçe aktarılan satıcı faturalarını iş akışı sistemine gönderme parametreleri
 

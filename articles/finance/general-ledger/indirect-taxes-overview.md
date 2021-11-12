@@ -1,7 +1,7 @@
 ---
 title: Satış vergisine genel bakış
 description: Bu konuda, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır.
-author: ShylaThompson
+author: kailiang
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18b5103c78234b0470fa7255e6987b57e82248ff4b7879d795f405fa021d2a91
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aa1f3f261459bca9321e0f71ac328ac0734b96f
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715106"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726847"
 ---
 # <a name="sales-tax-overview"></a>Satış vergisine genel bakış
 

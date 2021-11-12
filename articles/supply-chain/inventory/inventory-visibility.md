@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575183"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678921"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Stok Görünürlüğü Eklentisi'ne genel bakış
 
@@ -45,8 +45,6 @@ Stokunuzu görüntülemeye dair iki yaklaşım vardır:
 - Eldeki hammadde listesini görüntüleyin. Bu liste, önbelleğe alınmış bir örnekten düzenli olarak eşitlenir ve Dataverse'te görünür. Daha fazla bilgi için bkz. [Stok Görünürlüğü uygulaması](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>Geçici rezervasyonlar
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Geçici rezervasyon, bir işletmenin örneğin fazla satışı önleyecek şekilde satış siparişi tamamlamayı desteklemek için belirli bir ürün miktarını rezerve etmesi gerektiğinde uygulanır. Supply Chain Management'ta veya başka sipariş yönetimi sistemlerinde bir satış siparişi oluşturulup onaylandığında Stok Görünürlüğü'ne miktarı rezerve etme isteği gönderilir. Stok Görünürlüğü, boyut ayrıntılarına ve belirli stok hareket türlerine sahip ürünleri rezerve etmenize olanak tanır. (Daha fazla bilgi için bkz. [Stok Görünürlüğü uygulaması](inventory-visibility-power-platform.md).) Miktar başarıyla rezerve edildikten sonra rezervasyon kimliği döndürülür. Supply Chain Management'ta veya diğer sipariş yönetimi sistemlerinde orijinal siparişe geri bağlantı sağlamak için bu rezervasyon kimliğini kullanabilirsiniz.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384623"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647637"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
 
@@ -109,7 +109,7 @@ Azure AD uygulamasında web hizmeti uygulamalarını ayarlama hakkında daha faz
     - [Hızlı Başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](/azure/active-directory/develop/quickstart-register-app)
     - [Nasıl yapılır: Kaynaklara erişebilen bir Azure AD uygulaması ve hizmet sorumlusu oluşturmak için portalı kullanma](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Supply Chain Management içinde bir kullanıcı hesabı oluşturma ve yapılandırma
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Supply Chain Management içinde bir kullanıcı hesabı oluşturma ve yapılandırma
 
 Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak için aşağıdaki adımları izleyin.
 
@@ -117,17 +117,24 @@ Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak iç
 
     1. Supply Chain Management uygulamasında **Sistem yönetimi \> Kullanıcıları \> Kullanıcıları**'na gidin.
     1. Kullanıcı oluşturun.
-    1. Ambarlama mobil cihaz kullanıcısını atayın.
+    1. *Ambarlama mobil cihaz kullanıcısı* rolünü kullanıcıya atayın.
 
     ![Ambarlama mobil cihaz kullanıcısını atayın.](media/app-connect-app-users.png "Ambarlama mobil cihaz kullanıcısını atama")
 
 1. Azure AD uygulamanızı, Ambar Yönetimi mobil uygulaması kullanıcısı ile ilişkilendirin:
 
     1. **Sistem yönetimi \> Kurulum \> Azure Active Directory uygulamaları**'na gidin.
-    1. Satır oluşturun.
-    1. Önceki bölümde not ettiğiniz istemci kimliğini girin, kimliğe bir ad verin ve az önce oluşturduğunuz kullanıcıyı seçin. Tüm cihazlarınızı etiketlemenizi öneririz. Sonrasında, cihaz kaybolursa cihazın Supply Chain Management erişimini bu sayfadan kolayca kaldırabilirsiniz.
+    1. Eylem Bölmesinde, bir satır oluşturmak için **Yeni**'yi seçin.
+    1. **İstemci kimliği** alanında, önceki bölümde not ettiğiniz istemci kimliğini girin.
+    1. **Ad** alanına, bir ad girin.
+    1. **Kullanıcı kimliği** alanında, yeni oluşturduğunuz kullanıcı kimliğini seçin.
 
     ![Azure Active Directory uygulamaları.](media/app-connect-aad-apps.png "Azure Active Directory uygulamaları")
+
+> [!TIP]
+> Bu ayarları kullanmanın bir yolu, fiziksel aygıtlarınızın her biri için Azure'da bir istemci kimliği oluşturmak ve sonra her bir istemci kodunu **Azure Active Directory uygulamalar** sayfasına eklemektir. Sonrasında, cihaz kaybolursa cihazın Supply Chain Management erişimini bu sayfadan istemci kimliğini kaldırarak kolayca kaldırabilirsiniz. (Bu yaklaşım, bu konunun ilerisinde anlatıldığı gibi, her aygıta kaydedilen bağlantı kimlik bilgileri de bir istemci kimliği belirtmesine karşı çalışır.)
+>
+> Ek olarak, her istemci kimliği için varsayılan dil, sayı biçimi ve saat dilimi ayarları, burada eşlenen **Kullanıcı kimliği** değeri için ayarlanmış tercihlerde oluşturulur. Bu nedenle, istemci kimliğine göre her aygıt veya aygıt koleksiyonunda varsayılan ayar oluşturmak için bu tercihleri kullanabilirsiniz. Ancak, bir çalışanın cihazda oturum açmak için kullandığı *ambar uygulama kullanıcı hesabı* için de tanımlanmışsa, bu varsayılan ayarlar geçersiz kılınır. (Daha fazla bilgi için [Mobil aygıt kullanıcı hesapları](mobile-device-work-users.md) bölümüne bakın.)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Sertifika veya istemci parolası kullanarak kimlik doğrulama
 

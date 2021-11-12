@@ -2,7 +2,7 @@
 title: Elektronik raporlama (ER) hedefleri
 description: Bu konuda, elektronik raporlama hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi verilmektedir.
 author: nselin
-ms.date: 05/19/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743323"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647105"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -164,12 +164,12 @@ PDF dönüştürme seçeneğinin geçerli Finance kurulumunda kullanılabilmesin
 
 ### <a name="applicability"></a>Uygulanabilirlik
 
-PDF dönüştürme seçeneği yalnızca Office (Excel veya Word) biçiminde çıktı oluşturmak için kullanılan dosya bileşenleri (**Excel dosyası**) için açılabilir. Bu seçenek etkinleştirildiğinde, Office biçiminde oluşturulan çıktı otomatik olarak PDF biçimine dönüştürülür. **10.0.18 sürümünden önceki** Finance sürümlerinde Bu seçeneği yalnızca **Excel\\Dosya** türünde [Excel](er-fillable-excel.md) veya [Word](er-design-configuration-word.md) biçiminde çıktı oluşturmak için kullanılan bileşenler için etkinleştirebilirsiniz. Ancak, **Sürüm 10.0.18 ve sonrasında** Bu seçeneği **ortak\\dosya** türü bileşenleri için de etkinleştirebilirsiniz.
+**10.0.18 sürümünden önceki** Finance sürümlerinde PDF dönüştürme seçeneği yalnızca Office (Excel veya Word) biçiminde çıktı oluşturmak için kullanılan **Excel\\Dosya** bileşenleri için etkinleştirilebilir. Bu seçenek etkinleştirildiğinde, Office biçiminde oluşturulan çıktı otomatik olarak PDF biçimine dönüştürülür. Ancak, **Sürüm 10.0.18 ve sonrasında** Bu seçeneği **ortak\\dosya** türü bileşenleri için de etkinleştirebilirsiniz.
 
 > [!NOTE]
 > **Ortak\\ dosya** türünün ER bileşeni için PDF dönüştürme seçeneğini etkinleştirdiğinizde aldığınız uyarı iletisine dikkat edin. Bu ileti, tasarım zamanında, seçili dosya bileşeninin çalışma zamanında PDF biçimindeki içeriği veya PDF'e dönüştürülebilir içeriği göstereceğini garanti etmenin bir yolu olmadığını bildirir. Bu nedenle, yalnızca seçilen dosya bileşeninin PDF biçimindeki içeriği veya PDF'e dönüştürülebilir içeriği çalışma zamanında göstermek üzere yapılandırılmış olduğundan eminseniz bu seçeneği etkinleştirmelisiniz.
 > 
-> **Excel\\dosya** türünde bir bileşen için PDF dönüştürme seçeneğini etkinleştirirseniz bu bileşen içeriği PDF dışındaki bir formatta gösterirse ve oluşturulan içerik PDF formatına dönüştürülemiyorsa, çalışma zamanında bir özel durum oluşur. Aldığınız ileti, oluşturulan içeriğin PDF biçimine dönüştürülemediğini size bildirir.
+> Biçim bileşeni için PDF dönüştürme seçeneğini etkinleştirirseniz bu bileşen içeriği PDF dışındaki bir formatta gösterirse ve oluşturulan içerik PDF formatına dönüştürülemiyorsa, çalışma zamanında bir özel durum oluşur. Aldığınız ileti, oluşturulan içeriğin PDF biçimine dönüştürülemediğini size bildirir.
 
 ### <a name="limitations"></a>Sınırlamalar
 
@@ -189,16 +189,26 @@ PDF dönüştürmeyi bir dosya hedefi için açmak için **PDF'e dönüştür** 
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">PDF dönüştürmesi için bir sayfa yönlendirmesi seçin</a>
 
-Excel biçiminde bir ER yapılandırması oluşturur ve bunu PDF formatına dönüştürmek istiyorsanız, PDF belgesinin sayfa yönünü belirleyebilirsiniz. Excel biçiminde bir çıktı dosyası üreten bir dosya hedefi için PDF dönüştürmesini açmak üzere **PDF 'ye Dönüştür** onay kutusunu seçtiğinizde, **sayfa yönlendirme** alanı **PDF dönüştürme ayarları** hızlı sekmesinde kullanılabilir. **Sayfa yönlendirme** alanında, tercih edilen yönlendirmeyi seçin.
+Excel biçiminde bir ER yapılandırması oluşturur ve bunu PDF formatına dönüştürmek istiyorsanız, PDF belgesinin sayfa yönünü açıkça belirleyebilirsiniz. Excel biçiminde bir çıktı dosyası üreten bir dosya hedefi için PDF dönüştürmesini açmak üzere **PDF 'ye Dönüştür** onay kutusunu seçtiğinizde, **sayfa yönlendirme** alanı **PDF dönüştürme ayarları** hızlı sekmesinde kullanılabilir. **Sayfa yönlendirme** alanında, tercih edilen yönlendirmeyi seçin.
 
 [![PDF dönüştürmesi için bir sayfa yönlendirmesi seçme.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-> [!NOTE]
-> PDF sayfa yönlendirmesini belirleme seçeneğine sahip olmak için, Finance 10.0.10 sürümünü veya sonraki bir sürümü yüklemelisiniz.
->
-> Seçili sayfa yönlendirmesi Excel biçiminde oluşturulan tüm ER konfigürasyonlara uygulanır ve daha sonra PDF formatına dönüştürülür.
->
-> Word biçimindeki bir ER yapıladırması PDF biçimine dönüştürülmüşse PDF belgesinin sayfa yönü Word belgesinden alınır.
+PDF sayfa yönlendirmesini belirleme seçeneğine sahip olmak için, Finance 10.0.10 sürümünü veya sonraki bir sürümü yükleyin. **10.0.23 sürümden önceki** Finans sürümlerinde bu seçenek aşağıdaki sayfa yönlendirme seçeneklerini sunar:
+
+- Dikey
+- Yatay
+
+Seçili sayfa yönlendirmesi Excel biçiminde oluşturulan ve PDF biçiminde dönüştürülen tüm çıkış belgelerinin sayfalarına uygulanır.
+
+Ancak, **sürüm 10.0.23 ve sonrasında**, sayfa yönlendirme seçenekleri listesi aşağıdaki gibi genişletilmiştir:
+
+- Dikey
+- Yatay
+- Çalışma sayfasına özel
+
+**Çalışma sayfasına özgü** seçeneğini belirlediğinizde, oluşturulan Excel çalışma kitabının her çalışma sayfası, kullanılan Excel şablonunda bu çalışma sayfası için yapılandırılmış olan sayfa yönlendirmesi kullanılarak PDF'ye dönüştürülür. Bu nedenle, dikey ve yatay sayfalar içeren son PDF belgeniz olabilir. 
+
+Word biçimindeki bir ER yapıladırması PDF biçimine dönüştürülmüşse PDF belgesinin sayfa yönü her zaman Word belgesinden alınır.
 
 ## <a name="output-unfolding"></a>Çıktı açma
 

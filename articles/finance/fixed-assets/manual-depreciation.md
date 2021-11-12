@@ -1,7 +1,7 @@
 ---
 title: El ile amortisman
 description: Bu makalede, el ile amortisman yöntemi hakkında genel bir bakış verilmektedir.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 444506bdbf33cb1bd05ae7b55f2059e0eb1ab5b136e8fb1adb6f9e5f53b7067c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5b62bbdd5d745bc9d0745cc6fa6d6e8034a61e3
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743037"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674839"
 ---
 # <a name="manual-depreciation"></a>El ile amortisman
 
@@ -30,11 +30,11 @@ Bu makalede, el ile amortisman yöntemi hakkında genel bir bakış verilmektedi
 
 Sabit kıymet amortisman profilini ayarlayıp **Amortisman profilleri** sayfasının **Yöntem** alanındaki **El ile** seçeneğini işaretlediğinize, amortisman profiline atanan sabit kıymetlerin amortismanı, takvim yılında her aralık için girdiğiniz yüzdeyle saptanır. Yüzdeler ayarladığını aralıklar **Amortisman profilleri** sayfasının **Dönem sıklığı** alanındaki **Genel** hızlı sekmesinde seçtiğiniz değere göre deftere nakledilir. Seçebileceğiniz değerler şunlardır:
 
--   Yıllık
--   Aylık
--   Üç aylık
--   Yarım yıllık
--   Günlük
+- Yıllık
+- Aylık
+- Üç aylık
+- Yarım yıllık
+- Günlük
 
 Dönem sıklığını seçtikten sonra, **El ile girilen planlar**'ı seçin ve her bir deftere nakletme sıklığı için yüzdeler ayarlayın. El ile yapılan planlamalar ve deftere nakledilen aralıklar, bu makalenin devamında aşağıdaki örneklerde gösterildiği gibi amortisman tutarını tanımlar. El ile amortisman her zaman alım fiyatının bir yüzdesi olarak hesaplanır. El ile amortisman için, amortismanın aralıklarına girdiğiniz yüzdeler, toplam yüzde 100'e tamamlanmak zorunda değildir. El ile amortisman, **Defterler**'de genellikle özel amaçlar için (örneğin, vergi) periyodik olmayan amortismanları belirlemek için kullanılan, esnek bir amortisman yöntemidir.
 

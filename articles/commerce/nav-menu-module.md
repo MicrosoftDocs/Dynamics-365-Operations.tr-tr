@@ -2,7 +2,7 @@
 title: Gezinti menüsü modülleri
 description: Bu konu gezinti menüsü modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761598"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713864"
 ---
 # <a name="navigation-menu-module"></a>Gezinti menüsü modülleri
 
@@ -41,8 +41,8 @@ Aşağıdaki çizimde, iki düzey kategori hiyerarşisi ve bazı statik menü ö
 |---------------------------|-----------------------|-------------|
 | Kaynak                  | **Perakende**, **El ile yazma**, **Perakende ve el ile yazma** | **Perakende** değeri, Commerce yönetim merkezinde kanal gezinme hiyerarşisinin gezinti menüsünde görüntülenmesini sağlar. **El ile yazma** değeri statik menü öğelerinin oluşturulmasına izin verir. **Perakende ve el ile yazma** değeri, her ikisinin karışımına izin verir. |
 | Kategori resimlerini göster | **Doğru** veya **yanlış**    | Etkinleştirildiğinde, bu özellik gezinti menüsündeki kategori resimlerini her kategori için Commerce yönetim merkezinde tanımlandığı şekilde görüntüler. Commerce sürüm 10.0.14'e eklendi. |
-| Promosyonları gösterme | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, promosyonlar resimler, bağlantılar ve metin kullanılarak yapılandırılabilir. Bu özellik, Commerce 10.0.17 sürümüne eklenmiştir. |
-| Promosyon ekleme | Metin görüntü veya bağlantı | **Promosyonları göster** özelliği etkinleştirildiğinde, gezinti menüsünde promosyon içeriği olarak metin, görüntü veya bağlantı ekleyebilirsiniz. |
+| Promosyon görüntülerini göster | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, promosyonlar resimler, bağlantılar ve metin kullanılarak yapılandırılabilir. Bu özellik, Commerce 10.0.17 sürümüne eklenmiştir. |
+|Kategori promosyon içeriği ekleme | Metin görüntü veya bağlantı | **Promosyon görüntülerini göster** özelliği etkinleştirildiğinde, gezinti menüsünde promosyon içeriği olarak metin, görüntü veya bağlantı ekleyebilirsiniz. |
 | Çok düzeyli gezinti menüsünü etkinleştir | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, gezinti menüsü gezinti hiyerarşisinin birden çok düzeyini gösterebilir. Bu özellik Commerce 10.0.15 sürümünde bulunur. |
 | Düzey sayısı | tamsayı | Bu özellik, **çok düzeyli gezinti menüsünü etkinleştir** özelliği **true** olarak ayarlandığında gösterilmesi gereken düzey sayısını tanımlar. |
 | Statik menü öğesi| Değerler dizisi| Bir menü öğesi adını statik site sayfasının bağlantısıyla ilişkilendiren statik menü öğeleri. Menü öğelerini diğer menü öğelerinin altında oluşturabilirsiniz. Varsayılan olarak, statik menüler kök düzeyinde görünür ve varsa kanal gezinme hiyerarşisine eklenir. |

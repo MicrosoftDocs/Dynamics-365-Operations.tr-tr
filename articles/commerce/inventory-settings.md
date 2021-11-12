@@ -2,7 +2,7 @@
 title: Stok ayarlarını uygula
 description: Bu konu, stok ayarlarını kapsamaktadır ve Microsoft Dynamics 365 Commerce'ta bunların nasıl uygulanacağını açıklar .
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f57f1f941fe0c0c70394d1ecbf8d88a13c7a3682fdfa8b5439a4f3830f616876
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765278"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647596"
 ---
 # <a name="apply-inventory-settings"></a>Stok ayarlarını uygula
 
@@ -39,7 +39,7 @@ Commerce Site Builder 'da stok eşikleri ve aralıkları bir ürün ya da katego
 
 ## <a name="inventory-settings"></a>Envanter ayarları
 
-Commerce'da stok ayarları, site oluşturucuda **Site Ayarlar \> Uzantılar \> Envanter yönetimi** tanımlanır . Beş stok ayarı vardır; bunlardan biri eskidir (kullanım dışı):
+Commerce'da stok ayarları, site oluşturucuda **Site Ayarlar \> Uzantılar \> Envanter yönetimi** tanımlanır . Altı stok ayarı vardır; bunlardan biri eskidir (kullanım dışı):
 
 - **Uygulama üzerinde stok denetimini etkinleştir** – Bu ayar, ürün envanteri denetimini açar. Mağaza modüllerinde satın alma kutusu, alışveriş sepeti ve çekme için ürün stoğu kontrol edilir ve yalnızca stok varsa alışveriş sepetine bir ürün eklenmesine izin verilir.
 - **Stok düzeyi temeli** - Bu ayar, stok düzeylerinin nasıl hesaplandığını tanımlar. Kullanılabilir değerler **Toplam kullanılabilir**, **fiziksel kullanılabilir** ve **stok dışı eşikler** dir. Commerce'da stok eşikleri ve aralıkları her ürün ya da kategori için tanımlanabilir. Stok API'Leri **Toplam kullanılabilir** özelliğin ve **fiziksel kullanılabilir** özelliğin ürün stok bilgilerini döndürür. Perakende, **kullanılabilen toplam** veya **fiziksel kullanılabilir** değerin stok sayısını ve stokta bulunmayan ve stok dışı durumları için bunlara karşılık gelen aralıkları belirlemek için kullanılabilir olup olmadığına karar verir.
@@ -48,8 +48,13 @@ Commerce'da stok ayarları, site oluşturucuda **Site Ayarlar \> Uzantılar \> E
 
 - **Çoklu ambarlar için stok düzeyi** – Bu ayar, stok düzeyinin varsayılan ambar veya çoklu ambarlara göre hesaplanmasını sağlar. **Tekli ambar seçeneğine göre** seçeneği, stok düzeylerini varsayılan ambara dayalı olarak hesaplar. Alternatif olarak bir e-ticaret sitesi, karşılamayı kolaylaştırmak için birden çok ambara işaret edebilir. Bu durumda, **Teslimat ve Malzeme Çekme ambarları için toplamaya göre** seçeneği, stok kullanılabilirliğini belirtmek için kullanılır. Örneğin, bir müşteri bir öğe satın aldığında ve teslimat modu olarak "sevkiyat" seçeneğini seçtiğinde, söz konusu öğe, karşılama grubundaki kullanılabilir stok bulunan herhangi bir ambardan sevk edilebilir. Ürün ayrıntıları sayfası (PDP), karşılama grubunda herhangi bir kullanılabilir sevkiyat ambarında stok varsa sevkiyat için "Stokta" iletisini gösterecektir. 
 
-> [!IMPORTANT] 
-> **Birden çok ambar için stok düzeyi**, Commerce sürüm 10.0.19'dan itibaren mevcuttur. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+    > [!IMPORTANT] 
+    > **Birden çok ambar için stok düzeyi**, Commerce sürüm 10.0.19'dan itibaren mevcuttur. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+- **Ürün listesi sayfaları için stok ayarları** – Bu ayar, ürün toplama ve arama sonuçları modülleri tarafından işlenen ürün listelerinde stok dışı ürünlerin nasıl gösterileceğini tanımlar. Kullanılabilir değerler: **Diğer ürünlerle aynı sırada görüntülenir**, **Listeden stokta bulunan ürünleri gizler** ve **Listenin sonunda stok dışı ürünleri görüntüler**. Bu ayarı kullanmak için, önce Commerce Headquarters'da bazı önkoşul ayarlarını konfigüre etmelisiniz. Daha fazla bilgi için bkz. [Arama sonuçları modülü için stok farkındalığını etkinleştirme](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+
+    > [!IMPORTANT] 
+    > **Ürün listesi sayfaları için envanter ayarları**, Commerce sürüm 10.0.20'dan itibaren mevcuttur. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Stok aralıkları** – Bu ayar, site modüllerinde iletinin gösterildiği stok aralıklarını tanımlar. Yalnızca, **Toplam kullanılabilir** değer veya **stok düzeyi ayar temel alınarak** ayarı için **fiziksel kullanılabilir** değer seçildiğinde uygulanabilir. Kullanılabilir değerler **tümü**, **düşük ve stok dışı** ve **Stok dışında**.
 

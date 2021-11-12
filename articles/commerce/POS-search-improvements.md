@@ -2,7 +2,7 @@
 title: Satış noktasında (POS) ürün arama ve müşteri arama
 description: Bu konu Dynamics 365 Commerce içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar.
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716407"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700101"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 
@@ -45,9 +45,9 @@ Bir yerel ürün arama, aşağıdaki ürün özellikleri içerisinde arar:
 - Tanım
 - Boyutlar
 - Barkod
-- Arama adı
+- Ad ara
 
-### <a name="additional-local-product-search-capabilities"></a>Ek yerel ürün arama yetenekleri
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Ek yerel ürün arama yetenekleri (geleneksel SQL tam metin araması) 
 
 - Çoklu anahtar sözcük aramaları için (yani, arama terimleri kullanan aramalar için) perakendeciler aramanın *herhangi bir* arama terimi ile mi eşleşen yoksa yalnızca *tüm* arama terimleriyle mi eşleşen sonuçları dahil edeceğini yapılandırabilir. Bu işlev için ayar, POS işlevi profilinde, **Ürün arama** olarak adlandırılan yeni bir grupta kullanılabilir. Varsayılan ayar **Herhangi bir arama terimi ile eşleş**'tir. Bu ayar aynı zamanda önerilen ayardır. **Herhangi bir arama terimiyle eşleştir** ayarı kullanıldığında, tamamen veya kısmen bir veya daha fazla arama sözcüğüne uyan tüm ürünler sonuç olarak döndürülür. Bu sonuçlar, en çok eşleşen anahtar kelimeye sahip ürünlere göre (tam veya kısmi) artan düzende sıralanır.
 
@@ -55,6 +55,8 @@ Bir yerel ürün arama, aşağıdaki ürün özellikleri içerisinde arar:
 
     - Arama yalnızca tek tek ürün özellikleri üzerinde yapılır. Örneğin, en az bir ürün özelliğinde, yalnızca tüm aranan kelimeleri içeren ürünler döndürülür.
     - Boyutlar aranmaz.
+> [!NOTE]
+> POS işlevselliği profillerindeki aşağıdaki **Herhangi arama terimini eşleştir**/**Tüm arama terimlerini eşleştir** yapılandırmaları, yalnızca **yerel** ürün aramaları (geleneksel SQL tüm metin arama) deneyimleri için geçerlidir. Bu yapılandırmanın, bulut destekli arama deneyimleri üzerinde etkisi yoktur. Yeni arama motoru, ürün arama sonuçlarıyla ilgili arama sonucunu destekleyen kendi gelişmiş algoritmasıdır. 
 
 - Perakendeciler ürün aramayı, kullanıcılar ürün adlarını yazarken arama sonuçlarını gösterecek şekilde yapılandırabilir. Bu işlev için yeni bir ayar, POS işlevi profilinde, **Ürün arama** olarak adlandırılan bir grupta kullanılabilir. Bu ayarın adı **Yazarken arama önerilerini göster**'dir. Bu işlev, çalışanların aradıkları ürünü hızlıca bulmalarına yardımcı olabilir çünkü tam adını yazmalarına gerek kalmaz.
 - Ürün arama algoritması şimdi ayrıca aranan terimleri ürünün **Arama adı** özelliğinde de arar.
@@ -147,7 +149,5 @@ Aşağıdaki listede, bulut destekli müşteri arama işlevinin varolan arama i�
 > Azure Cognitive search hizmetini kullanan müşteri arama yeteneği, önizleme için sınırlı bölgelerde kullanılabilir. Müşteri arama özelliği aşağıdaki bölgelerde *kullanılamaz*:
 > - Brezilya
 > - Hindistan
-> - Kanada
-> - Birleşik Krallık
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

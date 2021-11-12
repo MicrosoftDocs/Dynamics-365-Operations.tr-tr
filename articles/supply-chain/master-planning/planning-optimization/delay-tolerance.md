@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577492"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678579"
 ---
 # <a name="delay-tolerance-negative-days"></a>Gecikme toleransı (negatif günler)
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Gecikme toleransı işlevi, Planlamayı En İyi Duruma Getirme özelliğinin karşılama grupları için ayarlanan **Negatif günler** değerini dikkate almasını sağlar. Master planlama sırasında uygulanan gecikme toleransı süresini uzatmak için kullanılır. Bu şekilde, mevcut tedarik talebi kısa bir gecikmeyle karşılayabilecekse yeni tedarik emirleri oluşturmaktan kaçınabilirsiniz. İşlev'n amacı, belirli bir talep için yeni bir tedarik emri oluşturmanın mantıklı olup olmadığını belirlemektir.
 

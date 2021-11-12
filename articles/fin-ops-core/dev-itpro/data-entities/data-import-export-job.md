@@ -2,7 +2,7 @@
 title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612376"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675381"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -68,6 +68,9 @@ Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seç
 | Excel                  | Excel                                      | \-Yok-                     |
 | XML                    | \-Yok-                                      | XML- XML Öğesi-Öznitelik |
 | Sınırlandırılmış, sabit genişlik | Virgül, noktalı virgül, sekme, dikey çubuk, iki nokta üst üste | \-Yok-                     |
+
+> [!NOTE]
+> **Satır sınırlayıcısı**, **Sütun sınırlayıcısı** ve **Metin niteleyicisi** için doğru değeri seçmek, **Dosya formatı** seçeneği **Sınırlandırılmış** olarak ayarlandıysa önemlidir. İçe aktarma ve dışa aktarma sırasında hatalara yol açacağından, verilerinizin sınırlayıcı veya niteleyici olarak kullanılan karakteri içermediğinden emin olun.
 
 ### <a name="sequence-the-entities"></a>Varlıkları sıralayın
 Varlıklar bir veri şablonunda veya içe veya dışa aktarma işlerinde sıralanabilir. Birden fazla veri varlığı içeren bir iş çalıştırdığınızda, veri varlıklarının doğru sıralandığından emin olmanız gerekir. Öncelikli olarka, varlıklar arasında işlevsel bağımlılıkları adreslendirebilmek için varlıkları sıralarsınız. Varlıklar işlevsel bağımlılıklara sahip değilse, paralel içe veya dışa aktarma için zamanlanabilirler.

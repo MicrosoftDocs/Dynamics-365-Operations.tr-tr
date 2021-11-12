@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463852"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700391"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Elektronik faturalamayı kullanmaya başlama
 
@@ -84,6 +84,7 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
 | Norveç elektronik faturası (NO)    | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
 | İspanya elektronik faturası (ES)      | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
 | PEPPEOL elektronik faturası            | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| Suudi Arabistan elektronik faturası (SA)| <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Uygulama kurulumunu yapılandırma
@@ -112,6 +113,7 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
     | Norveç elektronik faturası (NO)    | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
     | İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
     | PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
+    | Suudi Arabistan elektronik faturası (SA)| <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
 
 6. Oluşturduğunuz her tablo adı için aşağıdaki tabloya göre bir bağlam değeri seçin ve girin.
 
@@ -133,6 +135,7 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
     | Norveç elektronik faturası (NO)    | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
     | İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
     | PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
+    | Suudi Arabistan elektronik faturası (SA)| <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
 
 7. Her tablo adı ve bağlamı için aşağıdaki tabloya göre bir iş belgesi eşleme değeri seçip girin.
 
@@ -154,6 +157,7 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
     | Norveç elektronik faturası (NO)    | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
     | İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
     | PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
+    | Suudi Arabistan elektronik faturası (SA)| <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Uygulama kurulumunun ülkeye özel yapılandırması
@@ -207,6 +211,8 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
     | Norveç elektronik faturası (NO)                     | Norveç          |
     | PEPPEOL elektronik faturası                             | Genel          |
     | İspanya elektronik faturası (ES)                       | İspanya           |
+    | Suudi Arabistan elektronik faturası (SA)                 | Suudi Arabistan    |
+    
 
 4. **Kaydet**'i seçin.
 
@@ -244,6 +250,7 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
 - [Meksika için Elektronik faturalamayı kullanmaya başlama](e-invoicing-mex-get-started.md)
 - [İtalya için Elektronik faturalamayı kullanmaya başlama](e-invoicing-ita-get-started.md)
 - [Mısır'da elektronik müşteri faturaları](emea-egy-e-invoices.md)
+- [Suudi Arabistan'da elektronik müşteri faturaları](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

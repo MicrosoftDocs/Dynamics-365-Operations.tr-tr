@@ -2,7 +2,7 @@
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 09/27/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
+ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595157"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7725061"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -31,6 +31,64 @@ Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde ka
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="feature-removal-effective-october-2021"></a>Özellik kaldırma geçerlilik tarihi: 2021 Ekim
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Lifecycle Services'de (LCS) Microsoft Azure SQL raporları
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Tüm etkinlikler ve izleme; dahili olarak, platform tarafından ve otomasyon üzerinden gerçekleştirilir. Bu işlem için el ile müdahale gerekmez.|
+| **Başka bir özellikle mi değiştirildi?**   | Evet, artık bu yetenekleri geçersiz kılan otomatik bir sistem var. |
+| **Etkilenen ürün alanları**         | SQL raporları: Geçerli DTU, Geçerli DTU Ayrıntıları, Kilit Ayrıntılarını Al, Geçerli Plan Kılavuzunun Listesi, Sorgu Kimliklerinin Listesini Al, Belirli bir Plan Kimliği için SQL sorgu planını al, Sorgu planlarını ve yürütme durumunu al, Azaltma yapılandırmasını al, Bekleme istatistiklerini al, En pahalı sorguları listele |
+| **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
+| **Durum**                         | Kaldırıldı |
+
+### <a name="azure-sql-actions-in-lcs"></a>LCS'de Azure SQL eylemleri
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | LCS'de bazı SQL eylemlerini kullanımdan kaldırıyoruz. Tüm etkinlikler ve izleme; dahili olarak, platform tarafından ve otomasyon üzerinden gerçekleştirilir. Bu işlem için el ile müdahale gerekmez. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, artık bu yetenekleri geçersiz kılan otomatik bir sistem var. |
+| **Etkilenen ürün alanları**         | SQL eylemleri: Plan Kodu zorlamak için bir plan kılavuzu oluştur, Tablo ipuçları eklemek için bir plan kılavuzu oluştur, Plan Kılavuzunu kaldır, Sayfa kilitlerini ve kilit ilerletmeyi Devre Dışı Bırak/Etkinleştir, Tablodaki istatistikleri güncelleştir, Dizini yeniden oluştur, Dizin oluştur |
+| **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
+| **Durum**                         | Kaldırıldı |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Ekim 2021'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+
+### <a name="show-related-document-attachments-feature"></a>"İlgili belge eklerini göster" özelliği
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Özellik, beklenmeyen sonuçlar döndürdü. |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır. Bu işlevlerle ilgili daha fazla plan, standart serbest bırakma bilgi işlem sürecimiz aracılığıyla size gönderilecek. |
+| **Etkilenen ürün alanları**         | Web istemcisi - Belge eki deneyimi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.23 sürümü için platform güncelleştirmeleri
+
+### <a name="ondbsynchronize-event"></a>OnDBSynchronize olayı
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bu olayı yürütecek bir denetim yok. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, **OnDBSynchronzie** olayının geçerli abone olduğu yöntemleri, SysSetup genişletilmiş bir sınıfına taşıyın. |
+| **Etkilenen ürün alanları**         | Veritabanı eşitleme |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı. Planlanan kaldırma tarihi: Ekim 2022. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>SystemNotificationsManager.AddNotification API
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft, bildirim eklerken ek parametreler gerektirir. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, **SystemNotificationsManager.AddSystemNotification()** API. Bu API, üretilen bildirimler için ExpirationDateTime ve RuleID'yi açık olarak ayarlamış olmanızı gerektiriyor. |
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı. Planlanan kaldırma tarihi: Nisan 2023. |
 
 ## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri
 

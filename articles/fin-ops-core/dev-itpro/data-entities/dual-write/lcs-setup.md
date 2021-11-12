@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 9f461837c65c30eace3358c231618aedf428f487
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416663"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675309"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services'dan çift yazma kurulumu
 
@@ -28,8 +28,8 @@ Bu konuda, Microsoft Dynamics Lifecycle Services (LCS) portalından nasıl çift
 
 Power Platform tümleştirmeyi aşağıdaki konularda açıklandığı gibi tamamlamanız gerekir:
 
-+ [Power Platform Tümleştirme - Ortam dağıtımı sırasında etkinleştir](../../power-platform/overview.md#enable-during-environment-deployment)
-+ [Power Platform Tümleştirme - Ortam dağıtımı sonrasında ayarlama](../../power-platform/overview.md#set-up-after-environment-deployment)
++ [Power Platform Tümleştirme - Ortam dağıtımı sırasında etkinleştir](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
++ [Power Platform tümleştirmesi - Ortam dağıtımı sonrasında etkinleştir](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
 ## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Yeni Dataverse ortamları için çift yazmayı ayarlama
 

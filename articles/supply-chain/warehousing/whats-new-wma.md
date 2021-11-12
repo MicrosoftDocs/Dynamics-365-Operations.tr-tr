@@ -10,18 +10,31 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 6ab5f6887cb60d3d0434b59cda82b44eca272d7e
+ms.sourcegitcommit: 60ade60f72fd0fa0683f7a3eaf93439d10cf3373
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485634"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655397"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20110"></a>Sürüm 2.0.11.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- Tanıtılan alanlar için destek eklendi.
+- Donanım klavyesi gezintisi için destek eklendi.
+- İyileştirilmiş erişilebilirlik.
+- Gelişmiş ayrıntılar kartları.
+- Menü-madde adımları için geliştirilmiş sapmalar.
+- Küçük kullanıcı arabirimi geliştirmeleri.
+- Barkod taranırken uygulamanın çökmesine neden olabilecek bir sorun düzeltildi.
+- Sistemin yanıt vermemesine neden olabilen çeşitli sorunlar giderildi.
 
 ## <a name="version-20100"></a>Sürüm 2.0.10.0
 

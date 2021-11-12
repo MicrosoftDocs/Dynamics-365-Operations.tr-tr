@@ -2,7 +2,7 @@
 title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu özelliklere erişebilmek için yeni ızgara özelliğini etkinleştirmeniz gerekir.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483866"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700149"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 Yeni ızgara denetimi, kullanıcı üretkenliğini artırmak, verilerinizin daha ilginç görünümlerini elde etmek ve verilerinize anlamlı bilgiler yüklemek için kullanılabileceğiniz çeşitli yararlı ve güçlü yetenekler sağlar. Bu makalede aşağıdaki yetenekler ele alınıyor: 
@@ -32,6 +33,8 @@ Yeni ızgara denetimi, kullanıcı üretkenliğini artırmak, verilerinizin daha
 -  Matematik ifadelerini değerlendirme 
 -  Sekmeli verileri gruplandırma (**Kılavuzlar halinde gruplandırma** özelliğini kullanarak ayrıca etkinleştirilmiştir)
 -  Sütunları dondurma
+-  Otomatik olarak sütun genişliğine sığdır
+-  Uzatılabilir sütunlar
 
 ## <a name="calculating-totals"></a>Toplamların hesaplanması
 Finance and Operations uygulamalarında kullanıcılar toplamları ızgaralardaki sayısal sütunların alt kısmında görebilme yeteneğine sahiptir. Izgaranın altındaki alt bilgi bölümü bu toplamları gösterir. 
@@ -43,7 +46,7 @@ Finance and Operations uygulamalarda her sekmeli kılavuzun altında altbilgi al
 - Yapılandırılan sayısal sütunların en altındaki genel toplamlar
 - Veri kümesindeki satır sayısı 
 
-Bu alt bilgi varsayılan olarak gizlidir ancak kolayca etkinleştirebilirsiniz. Bir kılavuzun alt bilgisini göstermek için, kılavuzda bir sütun başlığına sağ tıklayın ve **Alt bilgiyi göster** seçeneğini belirleyin. Belirli bir ızgara için alt bilgiyi açtıktan sonra, kullanıcı alt bilgiyi gizlemeyi seçene kadar bu ayar hatırlanır. Alt bilgiyi gizlemek için bir sütun üst bilgisine sağ tıklayın ve **Alt bilgiyi gizle**'yi seçin.  **Alt bilgiyi göster/Alt bilgiyi gizle** eylemi, gelecekteki bir güncelleştirmede yeni bir konuma taşınabilir. 
+Bu alt bilgi varsayılan olarak gizlidir ancak kolayca etkinleştirebilirsiniz. Bir kılavuzun alt bilgisini göstermek için, kılavuz başlığında **Kılavuz seçenekleri** düğmesini seçin ve **Alt bilgiyi göster** seçeneğini belirleyin. Belirli bir ızgara için alt bilgiyi açtıktan sonra, kullanıcı alt bilgiyi gizlemeyi seçene kadar bu ayar hatırlanır. Alt bilgiyi gizlemek için **Kılavuz seçenekleri** menüsünde **Alt bilgiyi gizle**'yi seçin.  
 
 ### <a name="specifying-columns-with-totals"></a>Sütunları toplamlarla belirtme
 Şu anda hiçbir sütun varsayılan olarak toplamları göstermez. Bunun yerine, bu, ızgaralardaki sütunların genişliklerini ayarlamaya benzer şekilde bir kerelik kurulum faaliyeti olarak görülüyor. Bir sütunun toplamlarını görmek istediğinizi belirttiğinizde, sayfayı bir sonraki ziyaretinizde bu ayar hatırlanır.  
@@ -82,7 +85,7 @@ Bu yeni davranışı desteklemek için, satır seçim sütunu düzenleme modunda
 Kullanıcılar, sunucunun işlediği yerin önüne veri girerken arama eksikliği, denetim düzeyinde doğrulama ve varsayılan değerlerin girişi gibi veri giriş deneyimlerinde bazı aksaklıklarla karşılaşabilirler. Bir değerin bulunması için açılan listeye gereksinim duyan kullanıcıların, sunucunun geçerli satırı yakalamasını beklemeleri önerilir. Sunucu o satırı işlediğinde, denetim düzeyinde doğrulama ve varsayılan değerlerin girişi de gerçekleşir.   
 
 ### <a name="pasting-from-excel"></a>Excel'den yapıştırma
-Kullanıcılar her zaman Finance and Operations uygulamalarındaki kılavuzlardan Excel'e **Excel'e aktar** mekanizmasını kullanarak veri aktarabiliyordu. Ancak, sistemden önce veri girebilme özelliği, yeni kılavuzun Excel'den tablo kopyalanmasına ve onları Finance and Operations uygulamalarında doğrudan ızgaralara yapıştırmasına olanak tanır. Yapıştırma işleminin başlatıldığı kılavuz hücresi kopyalanan tablonun nereye yapıştırılacağını belirler. Şu iki durum dışında, kılavuzun içeriği üzerine kopyalanan tablonun içeriği yazılır:
+Kullanıcılar her zaman Finance and Operations uygulamalarındaki kılavuzlardan Microsoft Excel'e **Excel'e aktar** mekanizmasını kullanarak veri aktarabiliyordu. Ancak, sistemden önce veri girebilme özelliği, yeni kılavuzun Excel'den tablo kopyalanmasına ve onları Finance and Operations uygulamalarında doğrudan ızgaralara yapıştırmasına olanak tanır. Yapıştırma işleminin başlatıldığı kılavuz hücresi kopyalanan tablonun nereye yapıştırılacağını belirler. Şu iki durum dışında, kılavuzun içeriği üzerine kopyalanan tablonun içeriği yazılır:
 
 - Kopyalanan tablodaki sütun sayısı, yapıştırma konumundan başlayarak kılavuzda kalan sütun sayısını aşarsa, kullanıcıya ek sütunların yok sayıldığı bildirilir. 
 - Kopyalanan tablodaki satır sayısı, yapıştırma konumundan başlayarak kılavuzdaki satır sayısını aşarsa, yapıştırılan içerik için varolan hücrelerin üzerine yazılır ve kopyalanan tablodaki tüm ek satırlar kılavuzun en altına yeni satırlar olarak eklenir. 
@@ -125,6 +128,9 @@ Bir sütunu dondurmak için sütunun üst bilgisine sağ tıklayın ve **Sütunu
 Bir sütunu çözmek için donmuş sütunun üst bilgisine sağ tıklayın ve **Sütunu çöz**'ü seçin. 
 
 Yeni ızgaradaki satır seçimi ve satır durumu sütunlarının, her zaman ilk iki sütun olarak dondurulduğunu unutmayın. Bu nedenle, bu sütunlar bir ızgaraya dahil edildiğinde, kılavuzdaki yatay kaydırma konumundan bağımsız olarak her zaman kullanıcılar tarafından görülecektir. Bu iki sütun yeniden sıralanamaz.
+
+## <a name="autofit-column-width"></a>Otomatik olarak sütun genişliğine sığdır
+Excel'e benzer şekilde, kullanıcılar bir sütunu o sütunda o anda gösterilen içeriğe göre yeniden boyutlandırmaya otomatik olarak zorlayabilir. Bunu yapmak için, sütundaki boyutlandırma tutamaçlarını çift tıklatın veya odağı sütun başlığına yerleştirin ve **A**'ya basın (otomatik sığdırma için). Bu özellik 10.0.23 sürümünden itibaren sunulmaktadır.  
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Yeni kılavuz denetimini ortamımda nasıl etkinleştirebilirim? 

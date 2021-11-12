@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.22 önizlemesi (Kasım 2021)
+title: Dynamics 365 Supply Chain Management 10.0.22'daki yenilikler veya değişiklikler (Kasım 2021)
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.22'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3f5166338aebe784fe7f95372a437d4ed660de77
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579724"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678847"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Dynamics 365 Supply Chain Management 10.0.22 önizlemesi (Kasım 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Dynamics 365 Supply Chain Management 10.0.22'daki yenilikler veya değişiklikler (Kasım 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.22'deki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.995 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.22 sürümündeki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.995 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Eylül 2021
 - **Sürüm genel kullanılabilirliği (kendi kendini güncelleştirme):** Ekim 2021
@@ -40,13 +39,12 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. *Ö
 
 Aşağıdaki tabloda, bu sürümde dahil edilen özellik iyileştirmeleri listelenmektedir. Bu iyileştirmelerden her biri, mevcut bir özellik için artımlı bir geliştirme sağlar. Bunlar yalnızca iyileştirme olduğundan [sürüm planında](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) listelenmez. Ancak, bu geliştirmelerin mevcut özelleştirmelerinizle veya tercihlerinizle çakışmayacağından emin olmak için, her biri varsayılan olarak kapatılmıştır (aksi belirtilmedikçe). Bu özelliklerden herhangi birini kullanmak istiyorsanız bunları [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) açıkça etkinleştirmeniz gerekir.
 
-| Özellik alanı | Özellik yönetiminde özellik adı | Daha fazla bilgi |
+| Modül | Özellik yönetiminde özellik adı | Daha fazla bilgi |
 |---|---|---|
 | Maliyet yönetimi | Standart maliyet yuvarlama yeniden değerlemeleri için ilgili fişler oluşturma | <p>Bir stok mali deftere nakli (satış siparişi faturası veya stok hareketi gibi) yapıldığında bu özellik, sistemin ilgili standart maliyet yuvarlama yeniden değerlemeleri için ayrı bir fiş oluşturmasına ve bunu mali deftere nakil fişinin ilgili fişi olarak iliştirmesine neden olur.</p><p>Bu özellik olmadan sistem, aynı fiş deftere naklinde ilgili standart maliyet yuvarlama yeniden değerlemelerini kaydeder. Yeniden değerlemeler oturum veya sistem tarihini kullanırken mali deftere nakiller, deftere nakil tarihini kullandığından bu davranış bazen çakışan tarih bilgilerine neden olabilir.</p> |
 | Dağıtılmış karma topoloji | *(Özellik yönetimi gerekmez.)* | <p>Bu sürüm, bulut ve uç ölçek birimleri için ambar yönetimi iş yükünün giden yük planlama yeteneklerini genişletir.</p><p>Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Mühendislik değişikliği yönetimi | Mühendislik ürünleri için çeşit oluşturma | <p>Bu özellik, bir mühendislik ürünü için renk, boyut, stil veya yapılandırma boyutlarına göre farklı çeşitler oluşturmanıza olanak tanır.</p><p>Daha fazla bilgi için bkz. [Mühendislik ürünleri için çeşitler oluşturma](../engineering-change-management/engineering-variants.md).</p> |
 | Stok ve ambar yönetimi | Ayırma farkıyla Stok Görünürlüğü tümleştirmesi | <p>Bu özellik yalnızca *Stok Görünürlüğü Tümleştirmesi* özelliği etkinleştirildikten sonra etkinleştirilebilir. Bu, Stok Görünürlüğü'nde yapılan rezervasyonları denkleştirmede işlevsellik sağlar.</p><p>Daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](../inventory/inventory-visibility-reservations.md).</p> |
-| Satış ve pazarlama | Deftere nakledilmek için seçilebilecek satış siparişi sayısını kısıtlayın | <p>Bu özellik otomatik olarak etkinleştirilir. Bu, **Alacak hesapları parametreleri** sayfasına bir **Deftere nakledilecek maksimum satış siparişi sayısı** alanı ekler. Bu alan, satış siparişi listesi sayfasından onaylar, malzeme çekme listeleri, sevk irsaliyeleri ve faturalar deftere nakledildiğinde seçilebilecek maksimum satış siparişi sayısını tanımlamanıza olanak tanır. Varsayılan değer *100* şeklindedir.</p><p>Bu özellik, önemli sayıda satış siparişi seçildiğinde satış siparişi listesi sayfasının performansını artırmaya yardımcı olur. Periyodik bir görev tarafından işlenebilecek satış siparişi sayısı üzerinde etkisi yoktur.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları
 
@@ -63,7 +61,7 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.22 sürümü için platform güncelleştirmeleri (Kasım 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.22 sürümü için platform güncelleştirmeleri (Kasım 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

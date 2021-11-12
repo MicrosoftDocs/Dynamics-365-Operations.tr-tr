@@ -1,7 +1,7 @@
 ---
 title: Marjinal taban ve Hesaplama yöntemi temel alınarak Satış vergisi oranları
 description: Bu konuda, Marjinal taban ve Hesaplama yöntemi alanlarındaki değerlerin, satış ve satınalma hareketlerindeki vergi oran(lar)ını nasıl belirlediği açıklanmaktadır.
-author: ShylaThompson
+author: kailiang
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c98bde5bff55d6c1b1af47e7cd150f828e73655275901591aaf698c0831f7d01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 55fc5416bafe63d8c32bc19359b4e8ba75b372de
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768327"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7727052"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Marjinal taban ve Hesaplama yöntemi temel alınarak Satış vergisi oranları
 

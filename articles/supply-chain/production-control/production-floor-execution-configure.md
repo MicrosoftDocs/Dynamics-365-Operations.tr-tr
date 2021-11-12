@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576940"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647201"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
@@ -74,6 +74,12 @@ Bu özellik, üretim tabanı yürütme arabirimine bir kıymet yönetimi sekmesi
 Bu özellik, iş listesine bir arama alanı eklemeyi mümkün kılar. Çalışanlar iş kimliği girerek belirli bir iş bulabilir veya sipariş kimliği girerek belirli bir sipariş için tüm işleri bulabilirler. Çalışanlar kimliği tuş takımı kullanarak veya barkod tarayarak girebilir. Kullanmak için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özellikleri açın:
 
 - Üretim katı yürütme arabiriminde iş arama
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Ortak ürünlerde ve yan ürünlerde raporlamayı etkinleştir
+
+Bu özellik, çalışanların toplu iş emirleriyle ilgili ilerlemeyi bildirmek için üretim tabanı yürütme arabirimini kullanmasına olanak tanır. Bu raporlama, ortak ürünlerde ve yan ürünlerde raporlamayı içerir. Bu özelliği kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
+
+- Üretim katı yürütme arabiriminden ortak ve yan ürünler raporu
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Üretim katı yürütme arabirimi yapılandırmalarıyla çalışma
 

@@ -2,7 +2,7 @@
 title: Vergi Hesaplamayı kullanmaya başlama
 description: Bu konuda, Vergi Hesaplamasının nasıl ayarlanacağı açıklanmaktadır.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562138"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647446"
 ---
 # <a name="get-started-with-tax-calculation"></a>Vergi Hesaplamayı kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Bu konu, Vergi Hesaplama'yı kullanmaya başlama hakkında bilgi sağlar. Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance ve Dynamics 365 Supply Chain Management içindeki yapılandırma adımlarını izlemeniz konusunda yol gösterir. Daha sonra, Finance ve Supply Chain Management işlemlerinde Vergi Hesaplama özelliklerinin kullanımıyla ilgili genel işlemi inceler.
 
@@ -41,29 +39,10 @@ Ayarlama dört ana adımdan oluşur:
 
 Bu konudaki yordamları tamamlamadan önce her ortam türü için önkoşulların yerine getirilmesi gerekir.
 
-### <a name="for-a-production-environment"></a>Üretim ortamı için
-
-Üretim ortamı için aşağıdaki önkoşulların karşılanması gerekir:
+Aşağıdaki önkoşulların karşılanması gerekir:
 
 - LCS hesabınıza erişiminizin ve Dynamics 365 sürüm 10.0.21 veya sonrasını çalıştıran bir Katman 2 ya da üstü ortam bulunan dağıtılmış bir LCS projenizin olması gerekir.
 - Kuruluşunuz için bir RCS ortamı oluşturmanız ve hesabınıza erişebilmeniz gerekir. RCS ortamı oluşturma hakkında daha fazla bilgi için bkz. [Regulatory Configuration Service'e Genel Bakış](rcs-overview.md).
-- İş gereksinimlerinize bağlı olarak, dağıttığınız Finance veya Supply Chain Management ortamının **Özellik yönetimi** çalışma alanında aşağıdaki özelliklerin açık olması gerekir:
-
-    - Vergi Hesaplama Servisi
-    - Birden çok KDV sicil numarasını destekle
-    - Transfer emrindeki vergi
-
-- Dağıttığınız RCS ortamının **Özellik yönetimi** çalışma alanında aşağıdaki özelliklerin açık olması gerekir.
-
-    - Globalleştirme özellikleri
-
-### <a name="for-a-test-environment-public-preview"></a>Test ortamı için (Genel Önizleme)
-
-Test ortamı için aşağıdaki önkoşulların karşılanması gerekir:
-
-- LCS hesabınıza erişiminizin ve Dynamics 365 sürüm 10.0.21 veya sonraki bir sürümünü çalıştıran bir Katman 2 ya da üstü ortam bulunan dağıtılmış bir LCS projenizin olması gerekir.
-- Kuruluşunuz için bir RCS ortamı oluşturmanız ve hesabınıza erişebilmeniz gerekir. RCS ortamı oluşturma hakkında daha fazla bilgi için bkz. [Regulatory Configuration Service'e Genel Bakış](rcs-overview.md).
-- Dağıttığınız Finance veya Supply Chain Management ortamında denemeyi etkinleştirmek için <taxcalc@microsoft.com> adresine e-posta göndererek Microsoft'a başvurmanız gerekir.
 - İş gereksinimlerinize bağlı olarak, dağıttığınız Finance veya Supply Chain Management ortamının **Özellik yönetimi** çalışma alanında aşağıdaki özelliklerin açık olması gerekir:
 
     - Vergi Hesaplama Servisi

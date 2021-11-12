@@ -2,7 +2,7 @@
 title: B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 description: Bu konuda, yöneticilerin işletmeden işletmeye (B2B) e-ticaret web sitelerinde iş ortağı kullanıcıları ekleme, düzenleme ve silme yöntemleri açıklanmaktadır.
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734955"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713705"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 
@@ -68,6 +68,18 @@ Commerce Headquarters'da bir iş ortağı yöneticisi kullanıcısını onaylama
 1. **Perakende ve Ticaret IT \> Dağıtım planı**'na gidin ve yeni oluşturulan müşteri ve müşteri hiyerarşisi kayıtlarını kanal veritabanına göndermek için **1010** (**Müşteriler**) işini çalıştırın.
 
 İstek onaylandıktan ve müşteri ile müşteri hiyerarşisi kayıtları kanal veritabanıyla eşitlendikten sonra, istekte bulunan kişi, isteği gönderdiğinde sağladığı e-posta adresini kullanarak B2B e-ticaret web sitesinde oturum açabilir. Kullanıcılar, hesaplarının parolasını tanımlamak için kayıt akışını kullanabilir. Kimlik sağlayıcı (Azure AD B2C) kaydının kayıt veya oturum açma sırasında oluşturulan B2B müşteri kaydına bağlanmasını sağlamak için [Kimlik kayıtlarının müşteri hesaplarına otomatik olarak bağlanmasını etkinleştirme](../identity-record-linking.md) başlıklı makaledeki yönergeleri izleyin.
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>B2B adaylarınız onaylandıklarında veya reddedildiğinde bildirilir
+
+Bir B2B aday müşteri ekleme isteğini onayladığınızda veya reddettiğinizde, müşteri adayına otomatik olarak bir e-posta bildirimi gönderebilirsiniz. 
+
+Commerce Headquarters'da B2B aday müşteri onaylı veya B2B aday müşteri bildirimi türü olayları için e-posta bildirimleri ayarlamak üzere aşağıdaki adımları izleyin.
+
+1. B2B aday müşteri onaylandığında veya B2B aday müşteri reddedildiğinde bildirim türü tetiklendiğinde aday postalara gönderilecek e-postalar için e-posta şablonları oluşturun.
+
+    B2B aday müşteri tarafından onaylanan yer tutucular ve aday müşteri adayı reddedilen bildirim türleri desteği hakkında bilgi için, bkz. [Bildirim türleri](../email-templates-transactions.md#notification-types). E-posta şablonları oluşturma hakkında bilgi için bkz. [E-posta şablonu oluşturma](../email-templates-transactions.md#create-an-email-template). 
+
+1. E-posta bildirim profilinize B2B aday müşteri adayı onaylı ve B2B aday müşteri adayı bildirim türlerini ekleyin ve bunları oluşturduğunuz e-posta şablonlarıyla eşleyin. E-posta bildirim profilleri hakkında daha fazla bilgi için, bkz. [E-posta bildirim profili kurulumu](../email-notification-profiles.md). 
 
 ## <a name="onboard-additional-business-partner-users"></a>Ek iş ortağı kullanıcıları ekleme
 

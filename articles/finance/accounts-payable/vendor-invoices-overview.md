@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722803"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647152"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
@@ -72,12 +72,9 @@ Kuruluşunuz, satıcı faturalarını gözden geçirme işlemini yönetmek için
 Bir faturanın iş akışına gönderilmesini engelleyebilmenizin çeşitli yolları aşağıda verilmiştir.
 
 - **Fatura toplamı ve kaydedilen toplam eşit değil.** Faturayı gönderen kişi, toplamların eşit olmadığına dair bir uyarı alır. Uyarı, faturayı iş akışına yeniden göndermeden önce bakiyeleri düzeltmek için bir fırsat sağlar. Bu özellik, **Özellik yönetimi** sayfasındaki  **Fatura toplamı ve kaydedilen fatura toplamı eşit olmadığında iş akışına göndermeyi engelle** parametresi etkin olduğunda kullanılabilir. 
-
 - **Fatura tahsis edilmemiş masraflar içeriyor.** Faturayı gönderen kişi, faturada tahsis edilmemiş masraflar olduğunu belirten bir uyarı alacak ve faturayı iş akışına yeniden göndermeden önce düzeltebilecektir. Bu özellik, **Özellik yönetimi** sayfasındaki  **Satıcı faturasında tahsis edilmemiş masraflar olduğunda iş akışına göndermeyi engelle** parametresi etkin olduğunda kullanılabilir.
-
 - **Fatura, deftere nakledilen başka bir faturayla aynı fatura numarasını içeriyor.** Faturayı gönderen kişi, yinelenen numaraya sahip bir faturanın bulunduğunu belirten bir ileti alır. Yinelenen numara, faturayı iş akışına yeniden göndermeden önce düzeltilebilir. Borç hesaplarında, **Kullanılan fatura numarasını denetle** parametresi, **Yineleneni reddet** olarak ayarlandığında bu uyarı görüntülenir. Bu özellik, **Özellik yönetimi** sayfasındaki **Fatura numarası deftere nakledilmiş bir faturada zaten varsa ve sisteminiz yinelenen fatura numaralarını kabul etmek üzere yapılandırılmadıysa iş akışına gönderimi engelle** parametresi etkin olduğunda kullanılabilir.
-
-- **Fatura, fatura miktarının eşleşen ürün giriş miktarından az olduğu bir satır içerir.** Faturayı gönderen veya deftere nakletmeye çalışan kişi, miktarların eşit olmadığını belirten bir ileti alır. Bu mesaj, faturayı iş akışına yeniden göndermeden önce değerleri düzeltmek için bir fırsat sağlar. Bu özellik, **Özellik yönetimi** sayfasında **satıcı faturalarının deftere naklini ve iş akışına gönderilmesini engelle** parametresi açıksa ve **Borç hesapları parametreleri** sayfasındaki **Deftere Nakil ve İş Akışına Gönderimi Engelle** parametresi açıksa kullanılabilir.  
+- **Fatura, fatura miktarının eşleşen ürün giriş miktarından az olduğu bir satır içerir.** Faturayı gönderen veya deftere nakletmeye çalışan kişi, miktarların eşit olmadığını belirten bir ileti alır. Bu mesaj, faturayı iş akışına yeniden göndermeden önce değerleri düzeltmek için bir fırsat sağlar. Bu özellik, **Özellik yönetimi** sayfasında **satıcı faturalarının deftere naklini ve iş akışına gönderilmesini engelle** parametresi açıksa ve **Borç hesapları parametreleri** sayfasındaki **Deftere Nakil ve İş Akışına Gönderimi Engelle** parametresi açıksa kullanılabilir.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Satıcı faturalarını ürün girişlerine eşleştirmek
 
@@ -122,9 +119,32 @@ Kurtarılamayan bir hata nedeniyle durdurulan bir iş akışı örneği, iş ak�
 **İş akışı geçmişi** sayfasını kullanarak iş akışı durumunu **Taslak** olarak sıfırlayabilirsiniz. Bu sayfayı **Satıcı faturasından** veya **Ortak > Sorgular > İş akışı** gezintisini açabilirsiniz. İş akışı durumunu **Taslak** olarak sıfırlamak için **Geri çağır**'ı seçin. Ayrıca,**Satıcı faturası** veya **Bekleyen satıcı faturaları** sayfasında **Geri çağır** eylemini seçerek iş akışı durumunu Taslak'a sıfırlayabilirsiniz. İş akışı durumu **Taslak** olarak sıfırlandıktan sonra, **Satıcı faturası** sayfasında düzenlenmeye açık hale gelir.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Bekleyen satıcı faturaları sayfasında fatura toplamını görüntüleme
+
 **Borç hesapları parametreleri** sayfasındaki **Bekleyen satıcı faturaları listesinde fatura toplamını göster** parametresini etkinleştirerek, **Bekleyen satıcı faturaları** sayfasındaki fatura toplamını görüntüleyebilirsiniz. 
 
+## <a name="vendor-open-transactions-report"></a>Satıcı açık hareketleri raporu
 
+**Satıcı açık hareketleri** raporu, belirttiğiniz tarihe göre her satıcı için açık hareketlerle ilgili ayrıntılı bilgi sağlar. Bu rapor genellikle, satıcı defter hareketleri ile genel muhasebe hesabı hareketleri arasındaki bakiyeleri doğrulamak için kullanılan denetim yordamı sırasında kullanılır.
+
+Her hareket için rapor aşağıdaki ayrıntıları içerir:
+
+- Fatura numarası
+- Hareket tarihi
+- Fiş numarası
+- Hareket para birimi ve muhasebe para birimi cinsinden hareket tutarı
+- Hareket para birimi ve muhasebe para birimi cinsinden kredi bakiyesi
+- Hareket para birimi ve muhasebe para birimi cinsinden borç bakiyesi
+- Muhasebe para birimi cinsinden alt toplam tutarı
+- Ödeme vade tarihi
+
+### <a name="filter-the-data-on-the-report"></a>Rapordaki verileri filtreleme
+
+**Satıcı açık hareketleri** raporunu oluşturduğunuz zaman aşağıdaki varsayılan parametreler kullanılabilir. Bu parametreleri, rapora dahil edilecek verileri filtrelemek için kullanabilirsiniz.
+
+- **Gelecekteki kapanışı hariç tut** – **Açık hareketlere göre** her alana girilen tarihten sonra kapatılan hareketleri hariç tutmak için bu onay kutusunu seçin.
+- **Başına açık hareket sayısı** – Bu tarihte açık olan hareketleri dahil etmek için bir tarih girin. Bir tarih girmezseniz, bu alan maksimum tarihe ayarlanır. (Maksimum tarih, sistemin kabul edeceği en son tarih olan 31 Aralık 2154'tür.) Varsayılan olarak, raporun bir sonraki çalışmasında, bu alan en son girilen tarihi ayarlar.
+
+Rapora dahil edilen hareket verilerini daha fazla sınırlandırmak için, **Dahil edilecek kayıt** alanı altındaki filtreleri kullanabilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

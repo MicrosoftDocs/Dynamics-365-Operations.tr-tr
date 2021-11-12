@@ -1,7 +1,7 @@
 ---
-title: Amortisman defteri yükseltme genel bakışı
-description: Önceki sürümlerde, sabit kıymetler için değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı.
-author: ShylaThompson
+title: Amortisman defteri yükseltmeye genel bakış
+description: Bu konu, sabit kıymetlerdeki geçerli defter işlevini açıklamaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,25 +13,25 @@ ms.custom:
 - intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: c36e0ab53f8a10e81e1bed207417861066dd6917
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344726"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675165"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Amortisman defteri yükseltmeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations'ta (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır. 
+Bu konu, sabit kıymetlerdeki geçerli defter işlevini açıklamaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir. Değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Defter işlevi, tüm organizasyonunuzun sabit kıymet süreçleri için tek bir sayfa, sorgu ve rapor kümesi kullanmanızı sağlar. Bu konu, yükseltme öncesinde dikkate almanız gereken bazı şeyler sağlar. 
 
-Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Amortisman defterleri **Genel muhasebeye naklet** seçeneği **Hayır** olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı **Yok** ile ayarlanmış bir genel muhasebe günlük adına taşınır. Amortisman defteri hareketleri, Sabit kıymet hareketlerine taşınacaktır. 
+Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Amortisman defterleri Genel muhasebeye naklet seçeneği Hayır olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı Yok ile ayarlanmış bir genel muhasebe günlük adına taşınır. Amortisman defteri hareketleri, Sabit kıymet hareketlerine taşınacaktır.
 
-Veri yükseltmesini çalıştırmadan önce, amortisman defteri günlük satırlarını hareket fişlerine yükseltmek için kullanabileceğiniz iki seçeneği ve fiş serileri için kullanılacak numara serisini anlamanız gerekir. 
+Veri yükseltmesini çalıştırmadan önce, amortisman defteri günlük satırlarını hareket fişlerine yükseltmek için kullanabileceğiniz iki seçeneği ve fiş serileri için kullanılacak numara serisini anlamanız gerekir.
 
 1. Seçenek: **Sistem tarafından tanımlanan numara serisi** - Bu, yükseltme performansını en iyi duruma getirmek için varsayılan seçenektir. Yükseltme numara serisi çerçevesini kullanmaz, bunun yerine fişleri küme tabanlı bir yaklaşım ile tahsis eder. Yükseltmeden sonra, yeni numara serisi **Sonraki numara kümesi** ile yükseltme hareketlerine uygun şekilde dayanarak oluşturulacaktır. Varsayılan olarak, kullanılan numara serisi FADBUpgr\#\#\#\#\#\#\#\#\# biçiminde olacaktır. Bu yaklaşımı kullanırken biçimi ayarlayabilmeniz için birkaç parametre vardır:
 

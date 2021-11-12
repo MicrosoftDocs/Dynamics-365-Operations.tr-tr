@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: ebf104502783cf4046dc7b265a7ecda30cf2e8cf
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472694"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675061"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konuda, derecelendirmelerin ve incelemelerin Microsoft Dynamics 365 Commerce uygulamasında moderatör tarafından el ile yayımlanmasının nasıl etkinleştirileceği ve derecelendirmelerin ve incelemelerin el ile nasıl yayımlanacağı açıklanmaktadır.
 

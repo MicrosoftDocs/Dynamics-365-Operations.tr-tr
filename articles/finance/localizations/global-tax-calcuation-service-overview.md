@@ -2,7 +2,7 @@
 title: Vergi Hesaplamaya genel bakış
 description: Bu konu, Vergi Hesaplama özelliğinin tüm kapsamını ve özelliklerini açıklar.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394598"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647069"
 ---
 # <a name="tax-calculation-overview"></a>Vergi Hesaplamaya genel bakış
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Vergi Hesaplama, Global Tax Engine'in vergi belirleme ve hesaplama sürecini otomatikleştirmesini ve basitleştirmesini sağlayan, aşırı ölçeklenebilir çok kiracılı bir servistir. Tax Engine tam olarak konfigüre edilebilir. Konfigüre edilebilecek öğeler vergilendirilebilir veri modeli, vergi kodu, vergi uygulanabilirlik matrisi ve vergi hesaplama formülü ile sınırlı değildir. Tax Engine Microsoft Azure çekirdek hizmetler platformunda çalışır ve modern teknoloji ve artan ölçeklenebilirlik sunar.
 
@@ -120,6 +118,10 @@ Aşağıdaki hareketler sürüm 10.0.21'de desteklenmektedir:
     - Transfer emri - sevk
     - Transfer emri - al
 
+Aşağıdaki hareketler sürüm 10.0.23'de desteklenmektedir: 
+
+- Serbest metin faturası
+
 ## <a name="supported-countriesregions"></a>Desteklenen ülkeler/bölgeler
 
 Vergi Hesaplama, tüzel kişilik tarafından etkinleştirilebilir. 
@@ -145,6 +147,28 @@ Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.21
 - İsviçre
 - Birleşik Krallık
 - Amerika Birleşik Devletleri
+
+Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.22 sürümünde desteklenir:
+
+- Avustralya
+- Bahreyn
+- Kanada
+- Mısır
+- Hong Kong Çin ÖİB
+- Kuveyt
+- Yeni Zelanda
+- Umman
+- Katar
+- Suudi Arabistan
+- Güney Afrika
+- Birleşik Arap Emirlikleri
+
+Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.23 sürümünde desteklenir:
+
+- Tayland
+- Japonya
+- Malezya
+- Singapur
 
 ## <a name="related-resources"></a>İlgili kaynaklar
 

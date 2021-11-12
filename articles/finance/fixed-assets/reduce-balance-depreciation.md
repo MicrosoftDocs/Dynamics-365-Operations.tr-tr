@@ -1,7 +1,7 @@
 ---
-title: Bakiyeli amortismanı azaltma
-description: Bu makale, amortismanın Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
-author: ShylaThompson
+title: Azalan bakiyeli amortisman
+description: Bu konu, amortismanın Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
+author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
@@ -12,56 +12,56 @@ ms.reviewer: roschlom
 ms.custom: 3281
 ms.assetid: 1b86763d-d47c-4a6a-a9a6-d97a736750da
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30e7d135e927867272176b492a536819cafafd23fdc3da234ed1aac265a4d0c5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f734a0cedf6d9ee7967c3bbed0dfcf95cf33f1cd
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758885"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674637"
 ---
-# <a name="reduce-balance-depreciation"></a>Bakiyeli amortismanı azaltma
+# <a name="reduce-balance-depreciation"></a>Azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, amortismanın Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
+Bu konu, amortismanın Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 
-Bir sabit kıymet amortisman profili oluşturduğunuzda ve Amortisman profilleri sayfasındaki Yöntem alanından Azalan bilançoyu seçtiğinizde, bu amortisman profilinin atandığı kıymetler her amortisman döneminde aynı yüzdeyle amortismana ayrılır.
+Bir sabit kıymet amortisman profili oluşturduğunuzda ve **Amortisman profilleri** sayfasındaki **Yöntem** alanından Azalan bilançoyu seçtiğinizde, bu amortisman profilinin atandığı kıymetler her amortisman döneminde aynı yüzdeyle amortismana ayrılır.
 
-Azalan bilanço amortismanını ayarlamak için Amortisman profilleri sayfasındaki Genel FastTab altındaki alanlardan seçimler yapmalısınız. Öncelikle, Amortisman yılı alanından bir yıl seçin. Seçiminize bağlı olarak, aşağıdaki bölümlerde anlatıldığı şekilde, Dönem sıklığı alanında farklı seçenekler görüntülenecektir. 
+Azalan bilanço amortismanını ayarlamak için **Amortisman profilleri** sayfasındaki **Genel** hızlı sekmesi altındaki alanlardan seçimler yapmalısınız. Öncelikle, **Amortisman yılı** alanından bir yıl seçin. Seçiminize bağlı olarak, aşağıdaki bölümlerde anlatıldığı şekilde, **Dönem sıklığı** alanında farklı seçenekler görüntülenecektir. 
 
-Ayrıca, amortisman profili için Yüzde alanına bir değer girmeniz gerekir. Tam amortisman seçeneğini belirlerseniz kalan amortisman, son amortisman dönemini temel alınır ve bu, büyük bir tutar olabilir. Bazı ülkeler/bölgeler doğrusal amortisman yöntemine geçiş özelliğini kullanmaz. Alternatif amortisman yönteminin tutarı birincil amortisman profili tutarına eşit veya daha büyükse değişim gerçekleştirilir ve alınan amortisman tutarı alternatif yöntemin tutarı olarak kabul edilir. 
+Ayrıca, amortisman profili için **Yüzde** alanına bir değer girmeniz gerekir. **Tam amortisman** seçeneğini belirlerseniz kalan amortisman, son amortisman dönemini temel alınır ve bu, büyük bir tutar olabilir. Bazı ülkeler/bölgeler doğrusal amortisman yöntemine geçiş özelliğini kullanmaz. Alternatif amortisman yönteminin tutarı birincil amortisman profili tutarına eşit veya daha büyükse değişim gerçekleştirilir ve alınan amortisman tutarı alternatif yöntemin tutarı olarak kabul edilir. 
 
-Bir kıymet yüzde hesaplamasına dayanarak tamamen amortismana ayrılmayacağından, bir kıymeti tamamen amortismana ayırmak için Tam amortisman seçeneği belirlemelisiniz.
+Bir kıymet yüzde hesaplamasına dayanarak tamamen amortismana ayrılmayacağından, bir kıymeti tamamen amortismana ayırmak için **Tam amortisman** seçeneği belirlemelisiniz.
 
 ## <a name="select-a-depreciation-year"></a>Amortisman yılının seçilmesi
-Amortisman profilleri sayasındaki Amortisman yılı alanından Takvim Yılı veya Mali Yıl seçimi yapabilirsiniz. Seçiminiz, Dönem sıklığı alanında bulunan seçenekleri tanımlar. Varsayılan seçenek Takvim yılıdır.
+**Amortisman profilleri** sayasındaki **Amortisman yılı** alanından **Takvim** Yılı veya **Mali** Yıl seçimi yapabilirsiniz. Seçiminiz, **Dönem sıklığı** alanında bulunan seçenekleri tanımlar. Varsayılan seçenek **Takvim yılıdır**.
 
 ### <a name="calendar"></a>Takvim
 
-Takvim seçeneği tipik olarak her yıl 1 Ocak itibariyle net defter değerinden hurda değeri çıkarılarak hesaplanan amortisman temelini günceller. Bu konunun ilerleyen bölümlerinde verilen azalan bilanço amortismanı örneğinde, amortismana esas olan değer, hesaplama sütunundaki ilk ifadenin payıdır. 
+**Takvim seçeneği** tipik olarak her yıl 1 Ocak itibariyle net defter değerinden hurda değeri çıkarılarak hesaplanan amortisman temelini günceller. Bu konunun ilerleyen bölümlerinde verilen azalan bilanço amortismanı örneğinde, amortismana esas olan değer, hesaplama sütunundaki ilk ifadenin payıdır. 
 
-Takvim seçimini yaparsanız, amortisman artışı nakil tarihleri ve takvim yılı genelindeki tutarları belirleyen Dönem sıklığı alanında şu seçenekler mevcut olacaktır:
+**Takvim** seçimini yaparsanız, amortisman artışı nakil tarihleri ve takvim yılı genelindeki tutarları belirleyen **Dönem sıklığı** alanında şu seçenekler mevcut olacaktır:
 
--   31 Aralık tarihindeki yıllık nakiller.
--   Aylık seçeneği her takvim ayının sonunda bir aylık tutarı nakleder.
--   Üç aylık seçeneği, üç aylık takvim döneminin sonunda (31 Mart, 30 Haziran, 30 Eylül ve 31 Aralık) bir üç aylık tutar nakleder.
--   Altı Aylık seçeneği, altı aylık takvim döneminde ( 30 Haziran ve 31 Aralık) bir altı aylık tutar nakleder.
--   Günlük seçeneği her gün için bir işlem kullanarak günlük amortisman yöntemi için amortisman tutarını nakleder.
+- 31 Aralık tarihindeki yıllık nakiller.
+- Aylık seçeneği her takvim ayının sonunda bir aylık tutarı nakleder.
+- Üç aylık seçeneği, üç aylık takvim döneminin sonunda (31 Mart, 30 Haziran, 30 Eylül ve 31 Aralık) bir üç aylık tutar nakleder.
+- Altı Aylık seçeneği, altı aylık takvim döneminde ( 30 Haziran ve 31 Aralık) bir altı aylık tutar nakleder.
+- Günlük seçeneği her gün için bir işlem kullanarak günlük amortisman yöntemi için amortisman tutarını nakleder.
 
-Örneğin, Yıllık seçeneğini belirlerseniz yıllık amortisman her yılın 31 Aralık tarihinde yalnızca bir defa nakledilir. Aylık seçeneğini belirlerseniz aylık amortisman her ayı, yıllık amortisman tutarının 1/12'si oranında nakleder
+Örneğin, **Yıllık** seçeneğini belirlerseniz yıllık amortisman her yılın 31 Aralık tarihinde yalnızca bir defa nakledilir. **Aylık** seçeneğini belirlerseniz aylık amortisman her ayı, yıllık amortisman tutarının 1/12'si oranında nakleder.
 
 ### <a name="fiscal"></a>Mali
 
-Amortisman yılı alanından Mali Yıl seçimini yaparsanız düz çizgi amortisman yöntemi kullanılır. Defter sayfasında seçilen mali takvim için Mali takvimler sayfasında ayarlanan mali yıl temel alınarak hesaplanır. Örneğin, 1 Temmuz ile 30 Haziran arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her mali dönem için ayarlanır. Bir sonraki mali yılın uzunluğu, Mali takvimler sayfasında yeni bir mali yıl oluşturduğunuzda belirlenen mali dönemlere dayalı olacaktır.
+**Amortisman yılı** alanından **Mali yıl** seçimini yaparsanız düz çizgi amortisman yöntemi kullanılır. **Defter** sayfasında seçilen mali takvim için **Mali takvimler** sayfasında ayarlanan mali yıl temel alınarak hesaplanır. Örneğin, 1 Temmuz ile 30 Haziran arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her mali dönem için ayarlanır. Bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasında yeni bir mali yıl oluşturduğunuzda belirlenen mali dönemlere dayalı olacaktır.
 
 
-Mali yıl seçimini yaparsanız Dönem sıklığı alanında şu seçenekler kullanılabilir:
+**Mali yıl** seçimini yaparsanız **Dönem sıklığı** alanında şu seçenekler kullanılabilir:
 
--   Yıllık seçeneği, mali yılın son gününde mali yıl için tek bir tutar olarak hesaplanan toplam amortisman tutarını nakleder.
--   Mali dönem, Defter sayfasında seçilen mali takvim için veya bir sabit kıymet defteri için seçilen mali takvim için tanımlanan mali dönemlere aktarılan mali yıl için hesaplanan toplam amortisman tutarını nakleder.
+- Yıllık seçeneği, mali yılın son gününde mali yıl için tek bir tutar olarak hesaplanan toplam amortisman tutarını nakleder.
+- Mali dönem, **Defter** sayfasında seçilen mali takvim için veya bir sabit kıymet defteri için seçilen mali takvim için tanımlanan mali dönemlere aktarılan mali yıl için hesaplanan toplam amortisman tutarını nakleder.
 
 ## <a name="example-of-reducing-balance-depreciation"></a>Azalan bakiye amortismanı örneği
 
@@ -76,7 +76,7 @@ Amortismana esas olan değerin yüzde 30'u (net defter değeri eksi hurda değer
 | 3. yıl | (5.200 - 1.000) \* %30 = 1.260            | (5.200 - 1.260) = 3.940               |
 
 
--
+
 
 
 

@@ -2,7 +2,7 @@
 title: Tarih ve zaman kategorisindeki ER işlevlerinin listesi
 description: Bu konu, elektronik raporlama (ER) uygulamasında desteklenen tarih ve saat işlevleri hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760062"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647275"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Tarih ve zaman kategorisindeki ER işlevlerinin listesi
 
@@ -31,8 +31,9 @@ Elektronik raporlama (ER) Tarih ve saat işlevleri, tarih ve saat değerlerinden
 
 | İşlev | Tanım |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | Bu işlev, belirtilen başlangıç tarihinden önceki veya sonraki gün sayısı olan bir *tarih saat* değeri döndürür. |
-| [DateFormat](er-functions-datetime-dateformat.md) | Bu işlev, belirli bir tarih değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen kültür içinde metin olarak gösteren bir *dize* değeri döndürür. |
+| [AddDays](er-functions-datetime-adddays.md) | Bu işlev, belirtilen başlangıç tarihinden önceki veya sonraki gün sayısı olan bir *[Tarih Saat](er-formula-supported-data-types-primitive.md#datetime)* değerini döndürür. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | Bu işlev, başka bir saat dilimindeki belirli bir tarih/saat değerinden bir saat dilimindeki tarih/saat değerine dönüştürülmüş bir *Tarih Saat* değeri döndürür. |
+| [DateFormat](er-functions-datetime-dateformat.md) | Bu işlev, belirli bir tarih değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen kültür içinde metin olarak gösteren bir *[Dize](er-formula-supported-data-types-primitive.md#string)* değeri döndürür. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Bu işlev, belirli bir tarih/saat değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen kültür içinde metin olarak gösteren bir *dize* değeri döndürür. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Bu işlev, belirli bir metin değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen kültür içinde tarih/saat değeri olarak gösteren bir *TarihSaat* değeri döndürür. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Bu işlev, Eşgüdümlü evrensel saatdeki (Greenwich saati \[GMT\]) belirli bir tarih değerinden bir tarih/saat değerine dönüştürülmüş bir *tarih saat* değeri döndürür. |

@@ -2,7 +2,7 @@
 title: JSONVALUE ER işlevi
 description: Bu konu, JSONVALUE Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 12/11/2019
+ms.date: 10/25/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b034755602a2f999892d2b976c80550b7a3d7f3cd179816dd7aa1edefe6a0270
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff33098e5be4dd9748d01d45b596360617305724
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733785"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700075"
 ---
 # <a name="jsonvalue-er-function"></a>JSONVALUE ER işlevi
 
@@ -41,7 +41,7 @@ JSON verileri içeren *Dize* türünün veri kaynağının geçerli yolu.
 
 `path`: *Dize*
 
-JSON verileri sklar değeri tanımlayıcısı.
+JSON verileri sklar değeri tanımlayıcısı. İlgili JSON düğümlerinin adlarını ayırmak için eğik çizgi (/) kullanın. Bir JSON dizisindeki belirli bir değerin dizinini belirtmek için köşeli ayraç (\[\]) gösterimini kullanın. Bu dizin için sıfır tabanlı numaralandırmanın kullanıldığını unutmayın.
 
 ## <a name="return-values"></a>Dönüş değerleri
 
@@ -49,13 +49,37 @@ JSON verileri sklar değeri tanımlayıcısı.
 
 Sonuç metin değeri.
 
-## <a name="example"></a>Örnek
+## <a name="example-1"></a>Örnek 1
 
 **JsonField** veri kaynağı, aşağıdaki veriyi JSON biçiminde içerir: **{"BuildNumber":"7.3.1234.1", "KeyThumbprint":"7366E"}**. Bu durumda `JSONVALUE (JsonField, "BuildNumber")` ifadesi, *dize* veri türünün şu değerini döndürür: **"7.3.1234.1".**
+
+## <a name="example-2"></a>Örnek 2
+
+*Hesaplanmış alan* türünün **JsonField** veri kaynağı aşağıdaki ifadeyi içerir: `"{""workers"": [ {""name"": ""Adam"", ""age"": 30, ""emails"": [""AdamS@Contoso.com"", ""AdamS@Hotmail.com"" ]}, { ""name"": ""John"", ""age"": 21, ""emails"": [""JohnS@Contoso.com"", ""JohnS@Aol.com""]}]}"`
+
+Bu ifade, , aşağıdaki verileri JSON biçiminde gösteren bir [*Dize*](er-formula-supported-data-types-primitive.md#string) değeri döndürmek için yapılandırılmıştır.
+
+```json
+{
+    "workers": [
+        {
+            "name": "Adam",
+            "age": 30,
+            "emails": [ "AdamS@Contoso.com", "AdamS@Hotmail.com" ]
+        },
+        {
+            "name": "John",
+            "age": 21,
+            "emails": [ "JohnS@Contoso.com", "JohnS@Aol.com" ]
+        }
+    ]
+}
+```
+
+Bu durumda `JSONVALUE(json, "workers/[1]/emails/[0]")` ifadesi, *Dize* veri türünün şu değerini döndürür: `JohnS@Contoso.com`
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Metin işlevleri](er-functions-category-text.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

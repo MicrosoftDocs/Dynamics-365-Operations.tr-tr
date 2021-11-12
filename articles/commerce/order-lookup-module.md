@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fa61a20ffd9a31f800c48b71832be7547952119f
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472691"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675129"
 ---
 # <a name="order-lookup-module"></a>Sipariş arama modülü
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konuda, sipariş arama modülü kapsanmaktadır ve bunun Microsoft Dynamics 365 Commerce'te nasıl yapılandırılacağı açıklanmaktadır.
 
@@ -34,11 +33,11 @@ Aşağıdaki şekilde, sipariş arama modülü tarafından oluşturulan formun b
 
 ![Sayfadaki sipariş arama modülü için form.](./media/OrderLookup_module.PNG)
 
-## <a name="order-lookup-module-properties&quot;></a>Sipariş arama modülü özellikleri
+## <a name="order-lookup-module-properties"></a>Sipariş arama modülü özellikleri
 
 | Özellik adı     | Değer     | Tanım |
 |-------------------|-----------|-------------|
-| Başlık           | Metin      | Formun üst kısmında görünen başlık (örneğin, &quot;Siparişinizi bulun"). |
+| Başlık           | Metin      | Formun üst kısmında görünen başlık (örneğin, "Siparişinizi bulun"). |
 | Zengin metin         | Zengin metin | Başlığın altında görüntülenen isteğe bağlı açıklayıcı metin. |
 | Sipariş durumu türü | Enum      | <p>Sipariş onay koduna ek olarak formun müşteriden isteyeceği bilgi türünü seçin. Şu anda aşağıdaki değerler desteklenmektedir:</p><ul><li><b>E-posta</b>: Form, müşterilerin siparişi yerleştirdiklerinde kullandıkları e-posta adresini girebildikleri bir alan içermektedir.</li><li><b>Hiçbiri</b>: Form, sipariş onay kodu dışında hiçbir bilgi istemez.</li></ul> |
 

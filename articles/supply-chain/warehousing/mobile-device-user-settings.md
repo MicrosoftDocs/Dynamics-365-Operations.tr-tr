@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769431"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647497"
 ---
 # <a name="mobile-device-user-settings"></a>Mobil cihaz kullanıcı ayarları
 
@@ -54,7 +54,7 @@ Tüm cihaz markaları, cihaz modelleri ve/veya çalışanlar için geçerli olan
 
 Mobil cihazlarınız için kullanıcı ayarları oluşturmak ve yönetmek için aşağıdaki adımları izleyin.
 
-1. **Ambar yönetimi \> Mobil cihaz \> Mobil cihaz kullanıcı ayarları**'na gidin.
+1. **Ambar yönetimi \> Kurulum \>Mobil cihaz \> Mobil cihaz kullanıcı ayarları**'na gidin.
 1. Kaydını açmak için liste bölmesinde var olan bir kullanıcı ayarları profilini seçin. Alternatif olarak yeni bir profil oluşturmak için eylem bölmesinde **Yeni**'yi seçin.
 
     Liste bölmesindeki her profil, profilin uygulandığı markayı, modeli ve/veya kullanıcı kimliğini belirtmek için etiketlenmiştir. Daha genel profiller, bu özelliklerin bazıları veya tümü için *Tümü* değerine sahiptir.
@@ -83,7 +83,7 @@ Ayar profillerinizle kullanılabilecek cihaz markalarını ve modellerini görü
 
 Mobil cihaz markalarınızı ve modellerinizi oluşturmak ve yönetmek için bu adımları izleyin.
 
-1. **Ambar yönetimi \> Mobil cihaz \> Mobil cihaz markaları**'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz markaları**'na gidin.
 1. Liste bölmesinde, kaydını açmak için bir mobil cihaz markası seçin. Alternatif olarak yeni bir marka oluşturmak için eylem bölmesinde **Yeni**'yi seçin.
 1. Yeni veya seçilen cihaz markası kaydının başlık bölümünde, aşağıdaki alanları ayarlayın:
 

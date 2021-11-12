@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474688"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678483"
 ---
 # <a name="configure-inventory-visibility"></a>Stok Görünürlüğünü yapılandırma
 
@@ -366,16 +366,12 @@ Dizin, eldeki stoku aşağıdaki yollarla sorgulamanıza olanak tanır:
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Rezervasyon yapılandırma (isteğe bağlı)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Geçici rezervasyon özelliğini kullanmak istiyorsanız rezervasyon yapılandırması gereklidir. Yapılandırma iki temel bölümden oluşur:
 
 - Geçici rezervasyon eşleme
 - Geçici rezervasyon hiyerarşisi
 
 ### <a name="soft-reservation-mapping"></a>Geçici rezervasyon eşleme
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Rezervasyon yaptığınızda, eldeki stokun şu anda rezervasyon için uygun olup olmadığını bilmek isteyebilirsiniz. Doğrulama, fiziksel ölçülerin bir birleşiminin bir hesaplama formülünü temsil eden hesaplanmış bir ölçüyle bağlantılıdır.
 
@@ -446,8 +442,6 @@ Bu nedenle, `iv.SoftReservOrdered` üzerinden rezervasyon yapmaya çalışırsan
 > Rezervasyon API'sini çağırdığınızda istek gövdesinde Boolean `ifCheckAvailForReserv` parametresini belirterek rezervasyon doğrulamasını denetleyebilirsiniz. `True` değeri, doğrulamanın gerekli olduğu anlamına ve `False` değeri, doğrulamanın gerekli olmadığı anlamına gelir. Varsayılan değer `True` değeridir.
 
 ### <a name="soft-reservation-hierarchy"></a>Geçici rezervasyon hiyerarşisi
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Rezervasyon hiyerarşisi, rezervasyonlar yapıldığında belirtilmesi gereken boyutların sırasını açıklar. Ürün dizini hiyerarşisinin eldeki sorgular için çalıştığı şekilde çalışır.
 
@@ -747,8 +741,6 @@ Aşağıdaki tabloda, varsayılan dizin yapılandırması gösterilmektedir.
 Bu bölümde, varsayılan rezervasyon yapılandırması açıklanmaktadır.
 
 #### <a name="reservation-mapping"></a>Rezervasyon eşlemesi
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Aşağıdaki tabloda, varsayılan rezervasyon eşlemesi gösterilmektedir.
 
