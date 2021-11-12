@@ -72,14 +72,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Supply Chain Management'taki yenilikler veya değişiklikler
                   items:
-                    - name: Supply Chain Management'taki yenilikler veya değişiklikler giriş sayfası
+                    - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (Kasım 2021)
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (Ekim 2021)
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: Supply Chain Management 10.0.20 (Ağustos 2021)
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -1659,7 +1659,9 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Satın alma ticari sözleşmeleri ile master planlama
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Güvenlik marjları
+                - name: Planlama Optimizasyonu tarafından kullanılan tarih ve saat parametreleri
+                  href: master-planning/planning-optimization/date-time-used.md
+                - name: Emniyet marjları
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Gecikme toleransı (negatif günler)
                   href: master-planning/planning-optimization/delay-tolerance.md
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Genel adres defterini yapılandırma
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Adres kurulumu
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Adres defterleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Adres defterlerini yapılandırma
@@ -2427,19 +2431,7 @@
                       href: production-control/release-production-orders.md
                     - name: Üretim emirlerini tamamlandı olarak bildirme
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Üretim katı yürütme arabirimini ayarlama ve kullanma
-                      items:
-                        - name: Üretim katı yürütme arabirimini yapılandırma
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Üretim katı yürütme arabirimini tasarlama
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
-                          href: production-control/production-floor-execution-use.md
-                        - name: Üretim katı yürütme arabirimini düzenleme
-                          href: production-control/production-floor-execution-styles.md
-                    - name: Cihazlar için iş kartını konfigüre et
+                    - name: Cihazlar için iş kartını yapılandırma
                       href: production-control/config-job-card-device.md
                     - name: İş kartı cihazından tamamlandı olarak bildirme
                       href: production-control/report-finished-job-device.md
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Üretimin deftere nakli
                       href: cost-management/production-posting.md
+            - name: Üretim katı yürütme arabirimini ayarlama ve kullanma
+              items:
+                - name: Üretim katı yürütme arabirimini yapılandırma
+                  href: production-control/production-floor-execution-configure.md
+                - name: Üretim katı yürütme arabirimini tasarlama
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
+                  href: production-control/production-floor-execution-setup.md
+                - name: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
+                  href: production-control/production-floor-execution-use.md
+                - name: Üretim katı yürütme arabirimini düzenleme
+                  href: production-control/production-floor-execution-styles.md
         - name: İndirim yönetimi
           items:
             - name: İndirim yönetimi modülüne genel bakış
@@ -3391,7 +3395,11 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Warehouse Management mobil uygulaması için adım başlıklarını ve yönergeleri özelleştirme
                       href: warehousing/mobile-app-titles-instructions.md
-                    - name: Warehouse Management mobil uygulaması aracılığıyla plaka teslim alma
+                    - name: Mobil cihazdaki adımlar için yükseltilen alanları yapılandırma
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Mobil cihaz menü öğelerindeki adımlar için sapmaları yapılandırma
+                      href: warehousing/warehouse-app-detours.md
+                    - name: Warehouse Management mobil uygulaması aracılığıyla plaka alma
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3405,10 +3413,12 @@
                       href: warehousing/mixed-license-plate-receiving.md
                     - name: Bir mobil cihazda ambar içindeki eski toplu işleri görüntülemeyi yapılandırma
                       href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Bir mobil cihazda en eski toplu işi seçme
+                    - name: Mobil cihazda en eski toplu işi seçme
                       href: warehousing/pick-oldest-batch.md
                 - name: Genel mobil cihaz parametreleri
                   href: warehousing/mobile-device-parameters.md
+                - name: Mobil cihaz kullanıcı hesapları
+                  href: warehousing/mobile-device-work-users.md
                 - name: Mobil cihaz kullanıcı ayarları
                   href: warehousing/mobile-device-user-settings.md
                 - name: Ambar uygulaması olayı işleme
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Ambar yönetimi
               items:
+                - name: Ambar mobil uygulaması
+                  items:
+                    - name: Uygulama bağlantısı ayarlanırken sertifika yolu için güven çıpası bulunamadı
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: WMS'ye güncelleştirme ve geçiş yapılırken sertifika yolu için güven çıpası bulunamadı
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Kullanılabilir stok olsa da toplu iş numarası için otomatik rezervasyon komut istemi gösteriliyor
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Bitmemiş stok yenileme işi nedeniyle malzeme çekme işinin engeli kaldırılamıyor
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: 'Stok, plaka denetimli bir konuma taşınamıyor'
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Uygulama bağlantısı ayarlanırken sertifika yolu için güven çıpası bulunamadı
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: Küme profili bulunamıyor
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: Teslimat notu düzeltmesi işlenemiyor
@@ -3817,10 +3831,8 @@
                   href: troubleshooting/warehousing/specify-dimensions-above-location.md
                 - name: 'Onaylanmamış satınalma siparişleri, Ürün girişlerini güncelleştir görevi çalıştırıldıktan sonra onaylanıyor'
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Bir satış siparişi satırındaki stok ayırma geri alınamıyor
+                - name: Satış siparişi satırındaki stok ayırma geri alınamıyor
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: WMS'ye güncelleştirme ve geçiş yapılırken sertifika yolu için güven çıpası bulunamadı
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Müşteri beklemede olduğundan sevkiyat onaylanamıyor
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: Yük satırlarında sıfır miktar olduğundan sevkiyat onaylanamıyor
