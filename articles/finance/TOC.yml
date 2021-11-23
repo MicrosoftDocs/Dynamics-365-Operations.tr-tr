@@ -708,48 +708,6 @@
               href: general-ledger/electronic-messaging-work-with-em.md
             - name: Excel raporu oluşturmak için basit bir dışarı aktarma ER biçimi çağırma
               href: general-ledger/electronic-messaging-example.md
-        - name: Gider yönetimi
-          items:
-            - name: Gider yönetimine genel bakış
-              href: /dynamics365/project-operations/prod-exp/expense-management
-            - name: Yeniden tasarlanan gider raporları
-              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
-            - name: Gider yönetimini planlama
-              href: /dynamics365/project-operations/prod-exp/plan-expense-management
-            - name: Gider yönetimi parametreleri
-              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
-            - name: Gider yönetimi mobil çalışma alanı
-              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
-            - name: Gider yönetimi için iş akışları ayarlama
-              href: /dynamics365/project-operations/prod-exp/expense-workflows
-            - name: Gider yönetimi iş akışı
-              href: /dynamics365/project-operations/prod-exp/expense-workflow
-            - name: Gider temsilcisini yönetme
-              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
-            - name: Gider makbuzu işleme
-              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: Kredi kartı hareketlerini içeri aktarma ve yönetme
-              href: /dynamics365/project-operations/prod-exp/import-credit-card
-            - name: Gider raporundaki dağıtımlar
-              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
-            - name: Şirketlerarası giderler
-              href: /dynamics365/project-operations/prod-exp/intercompany-expense
-            - name: Gider ilkelerini tanımlama
-              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
-            - name: Gider raporu görüntüleme
-              href: /dynamics365/project-operations/prod-exp/view-expense-report
-            - name: Gider raporunu deftere nakletme
-              href: /dynamics365/project-operations/prod-exp/post-expense
-            - name: Gider raporları ve birden çok onaylayan
-              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: Gider yönetiminde KDV kurtarma
-              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
-            - name: Harcırah kuralları
-              href: /dynamics365/project-operations/prod-exp/per-diem
-            - name: Seyahat talepleri
-              href: /dynamics365/project-operations/prod-exp/travel-req
-            - name: Gider raporundaki kişisel giderler
-              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Sabit kıymetler
           items:
             - name: Sabit kıymetler giriş sayfası
@@ -1248,9 +1206,7 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Kurulum ve yönetim
               items:
-                - name: Genel önizleme için Finance Insights'ı yapılandırma
-                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: Özel önizleme için Finance Insights'ı yapılandırma
+                - name: Finance Insights'ı yapılandırma
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Müşteri ödeme tahminlerini etkinleştirme
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1288,88 +1244,6 @@
                   href: finance-insights/payment-snapshots.md
             - name: Finance Insights'ta sorun gidermeyle ilgili SSS
               href: finance-insights/finance-insights-troubleshooting-faq.md
-        - name: Proje yönetimi ve muhasebe
-          items:
-            - name: Proje yönetimi ve muhasebeye genel bakış
-              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
-            - name: Şirketlerarası faturalama
-              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
-            - name: Şirketlerarası proje faturalamasını yapılandırma
-              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
-            - name: İşçilik ve masraflar için standart maliyetleri yapılandırma
-              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
-            - name: Satıcı ödemesi tutma koşulları oluşturma ve uygulama
-              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
-            - name: Ödendiğinde öde satıcı ödemeleri ayarlama ve kullanma
-              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
-            - name: Satınalma girişlerinde proje maliyeti tahakkuku
-              href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: Proje faturalama
-              href: accounts-payable/project-invoicing.md
-            - name: Proje sözleşmeleri
-              href: /dynamics365/project-operations/prod-pma/project-contracts
-            - name: İlerlemeye göre faturalama için gelişmiş sözleşmeler oluşturma
-              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
-            - name: Proje tahminleri ve bütçeler
-              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
-            - name: Proje bütçeleri için tahmin modelleri oluşturma
-              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
-            - name: Proje bütçelerini mali yıl bitişinde transfer etme
-              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
-            - name: Proje satış siparişleri
-              href: /dynamics365/project-operations/prod-pma/project-sales-orders
-            - name: Proje için satınalma siparişleri
-              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
-            - name: Proje teklifleri
-              href: /dynamics365/project-operations/prod-pma/project-quotations
-            - name: 'Proje teklifini onaylama, güncelleştirme ve gönderme'
-              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
-            - name: Teklifi bir projeye transfer etme
-              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
-            - name: Proje kaynak ataması
-              items:
-                - name: Proje kaynak atamasına genel bakış
-                  href: /dynamics365/project-operations/prod-pma/project-resourcing
-                - name: Proje kaynaklarını ayarlama
-                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
-                - name: Kaynak uzmanlıklarını yönetme
-                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
-                - name: Yeni proje oluşturma
-                  href: /dynamics365/project-operations/prod-pma/create-new-project
-                - name: Rol tabanlı fiyatlandırmayı ayarlama
-                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
-                - name: Proje ekibi oluşturma
-                  href: /dynamics365/project-operations/prod-pma/create-project-team
-                - name: Kaynak kapasitesini eşitleme
-                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
-                - name: Proje kaynak zamanlaması performansı
-                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
-                - name: İş kırılım yapısı şablonlarındaki rolleri ayarlama
-                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
-                - name: Planlı kaynaklar için kaynak karşılama
-                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
-            - name: Madde gereksiniminden satınalma siparişindeki maddeleri alma
-              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
-            - name: İş kırılım yapıları
-              items:
-                - name: İş kırılım yapılarına genel bakış
-                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
-                - name: Microsoft Project Client tümleştirmesi
-                  href: /dynamics365/project-operations/prod-pma/project-integration
-                - name: Project mobil uygulamalarına genel bakış
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
-                - name: Proje süresi girişi mobil çalışma alanı
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
-                - name: Project Timesheet mobil uygulaması
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet
-                - name: Mobil cihazda proje zaman çizelgeleri
-                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
-                - name: Project Timesheet mobil uygulaması için özel alanlar uygulama
-                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
-            - name: Proje verme
-              href: /dynamics365/project-operations/prod-pma/project-grants
-            - name: Proje tahminini eleme
-              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Kamu sektörü
           items:
             - name: Kamu sektörü giriş sayfası
@@ -1804,6 +1678,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Mali kuruluş için NF-e parametrelerini ayarlama
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NF-e XML dosyalarını ek olarak taşıma
+                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: NT2020.005 – Elektronik mali belgesinde (NF-e) düzen ve doğrulama güncelleştirmeleri
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – NF-e için aracı satışları dijital platformu
@@ -2190,6 +2066,8 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Kapatma hareketlerini görüntüleme
                   href: localizations/emea-transactions-settlement-form.md
+                - name: Mali neden
+                  href: localizations/emea-financial-reason.md
             - name: Finlandiya
               items:
                 - name: Finlandiya'ya genel bakış
@@ -2750,10 +2628,14 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Banka verileri kullanılabilirliği geliştirmesi
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: İtalya İntrastat
-                  href: localizations/emea-ita-intrastat.md
-                - name: İntrastat için gelenleri ve gönderimleri deftere nakletme
-                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                - name: İntrastat
+                  items:
+                    - name: İtalyanca İntrastat
+                      href: localizations/emea-ita-intrastat.md
+                    - name: İntrastat için gelenleri ve gönderimleri deftere nakletme
+                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                    - name: İntrastat (IT) dosya biçimi
+                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: İntrastat bildiriminde kilogram başına sair masraflar
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Niyet mektupları - Her zamanki ihracatçılar için faturalama
@@ -3110,6 +2992,8 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: Satış vergisi raporları
                   href: localizations/emea-pol-sales-tax-reports.md
+                - name: Lehçe İntrastat
+                  href: localizations/emea-pol-intrastat.md
                 - name: Numara serilerini ambara göre ayarlama
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: Standart denetim dosyası
@@ -4375,6 +4259,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Veri bağlamalarındaki göreli yol
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+                - name: Uygulama sınıfı yöntemlerini çağırmak için ifadeleri tasarlama
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: Finance'te ER çözümlerini kullanma
               items:
                 - name: Çerçeveyi yapılandırma

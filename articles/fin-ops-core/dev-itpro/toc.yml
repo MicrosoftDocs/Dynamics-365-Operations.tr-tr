@@ -1172,6 +1172,8 @@
               items:
                 - name: İş olaylarına genel bakış
                   href: business-events/home-page.md
+                - name: İş olayı uç noktalarını yönetme
+                  href: business-events/managing-business-event-endpoints.md
                 - name: Uygulama iş olayları
                   href: business-events/app-business-events.md
                 - name: İş akışı iş olayları
@@ -1198,12 +1200,16 @@
                       href: business-events/how-to/how-to-eventgrid.md
                     - name: İş olayları ve Azure Service Bus
                       href: business-events/how-to/how-to-servicebus.md
+                    - name: İş olayları ve Azure Service Bus Kuyruğu
+                      href: business-events/how-to/how-to-servicebus-queue.md
                     - name: İş olayları ve iş akışı onayları
                       href: business-events/how-to/how-to-workflow.md
                     - name: İş olayları ve Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
                     - name: İş olayları ve Azure Event Hubs
                       href: business-events/how-to/event-hub.md
+                    - name: Dataverse'te olaylara abone olma
+                      href: business-events/how-to/how-to-dataverse-events.md
                     - name: Mali dönem kapanışında iş olayları
                       href: business-events/how-to/period-close.md
             - name: Eklentiler
@@ -1442,7 +1448,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Yükleme ve yapılandırma
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Regression Suite Automation Tool kullanma
+            - name: Regression Suite Automation Tool'u kullanma
               href: perf-test/rsat/rsat-run.md
             - name: Regression Suite Automation Tool'da test çalışmalarını sürdürme
               href: perf-test/rsat/rsat-maintain-test-cases.md
@@ -1654,8 +1660,6 @@
                   items:
                     - name: Hesap planı ayırıcısını benzersiz yapma
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: Tek fiş günlüklerini ve para birimi yeniden değerlemelerini yükseltme
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: Proje kaynak planlaması veri modeli
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: İş akışı alt sistemi değişiklikleri

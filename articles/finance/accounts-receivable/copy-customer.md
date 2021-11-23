@@ -1,7 +1,7 @@
 ---
 title: Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
 description: Bu konuda, bir müşteriyi aynı müşteri kodunu koruyarak başka bir tüzel kişiliğe kopyalamak için paylaşılan numara sıralarının nasıl kullanılacağı açıklanmaktadır.
-author: mikefalkner
+author: abruer
 ms.date: 08/31/2018
 ms.topic: index-page
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d906ed3cb7af0af9e0137f878c39d5ad47616a783688ad70b1465bd0b2d470aa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a93f0519b292c12ea31a8faf3bff051fc111216
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763346"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753525"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
 

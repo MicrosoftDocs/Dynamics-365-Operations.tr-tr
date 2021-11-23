@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: Eldeki stoğun maliyet değerlerini ayarlama
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Stok değeri depolama raporu
+                - name: Stok değeri raporları
                   href: cost-management/inventory-value-report-storage.md
+                - name: Stok değeri raporu örnekleri ve mantığı
+                  href: cost-management/inventory-value-report-examples.md
                 - name: Stok yaşlandırma raporu depolama
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Stok yaşlandırma raporu örnekleri ve mantığı
@@ -1673,6 +1675,8 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Yeteneğe dayalı kaynak seçimiyle planlama
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: Önceliğe dayalı planlama
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Planlama İyileştirmesi ile stok işaretleme
                   href: master-planning/planning-optimization/marking.md
                 - name: Şirketlerarası planlama
@@ -1719,6 +1723,8 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Maddeler için emniyet stoğu karşılama
                   href: master-planning/safety-stock-replenishment.md
+                - name: Maddelerin minimum kapsamını güncelleştirmek için emniyet stoğu günlüğünü kullanma
+                  href: master-planning/safety-stock-journal.md
                 - name: Gecikmeler
                   href: master-planning/delays.md
                 - name: Master planlama işini iptal etme
@@ -2351,7 +2357,9 @@
               href: production-control/unified-job-ids.md
             - name: Kalite emirleri oluşturmak için proses otomasyon akışlarını çağırma
               href: production-control/process-automation-quality-orders.md
-            - name: Kesikli üretim
+            - name: Üçüncü taraf üretim yürütme sistemleriyle tümleştirme
+              href: production-control/mes-integration.md
+            - name: Aralıklı üretim
               items:
                 - name: Üretim ana verilerini koruma
                   items:
@@ -2649,6 +2657,8 @@
                   href: production-control/production-floor-execution-use.md
                 - name: Üretim katı yürütme arabirimini düzenleme
                   href: production-control/production-floor-execution-styles.md
+                - name: Üretim katı yürütme arabirimini özelleştirme
+                  href: production-control/production-floor-execution-customize.md
         - name: İndirim yönetimi
           items:
             - name: İndirim yönetimi modülüne genel bakış
