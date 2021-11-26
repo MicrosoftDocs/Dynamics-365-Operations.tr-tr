@@ -47,7 +47,7 @@ IFRS 16 defteri, IFRS 16 muhasebe standardı ile uyumlu olacak şekilde ayarlan�
 | Bugünkü Değer / Varlık Adil Değeri Ayarı | 0,00           |
 | Kısa süre eşiği                    | 12             |
 | Düşük Değer Eşiği                     | 5,000.00       |
-| Satıcıya Öde                           | No             |
+| Satıcıya Öde                           | Hayır             |
 
 **Yasal defter**
 
@@ -64,7 +64,7 @@ Yasal defter, şirketin kiralama giderini her ay kira için ödenen nakit tutar�
 | Bugünkü Değer / Varlık Adil Değeri Ayarı | 0,00        |
 | Kısa süre eşiği                    | 0           |
 | Düşük Değer Eşiği                     | 0           |
-| Satıcıya Öde                           | No          |
+| Satıcıya Öde                           | Hayır          |
 
 **Yasal ters kayıt defteri**
 
@@ -81,7 +81,7 @@ Yasal ters kayıt defteri, yasal defterle aynı şekilde ayarlanır.
 | Bugünkü Değer / Varlık Adil Değeri Ayarı | 0,00                           |
 | Kısa süre eşiği                    | 0                              |
 | Düşük Değer Eşiği                     | 0                              |
-| Satıcıya Öde                           | No                             |
+| Satıcıya Öde                           | Hayır                             |
 
 Bu örnekte, **Genel** ve **Ödeme planı satırları** sekmelerinde aşağıdaki ayarlara sahip bir kiralama oluşturulur.
 

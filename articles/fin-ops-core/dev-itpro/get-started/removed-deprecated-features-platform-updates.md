@@ -178,7 +178,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | EP, Finance and Operations uygulamalarında hiçbir zaman desteklenmediğinden, Dynamics AX 2012 Enterprise Portal (EP) ile ilişkili meta veri yapıtları, kullanımdan kaldırıldı. |
-| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanım dışı: EP kodunun tamamının, Ekim 2021 sürümünde kaldırılması planlanıyor. |
@@ -335,7 +335,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Hizmet tarafından işlenen belgelere katıştırılmış olan gezinti URL'leri hassas iş verileri içerebilir. Müşteri verilerini daha iyi korumak amacıyla bir güvenlik önlemi olarak belgelerdeki katıştırılmış ayrıntılandırma bağlantıları için desteği kaldırıyoruz. Kullanıcılar ayrıca, bu değişikliğin sonucunda etkileşimli olarak belge oluştururken gelişmiş performanstan da yararlanacaktır.  |
-| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | Raporlama |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Bu özellik, hizmetten etkin olarak kaldırılmaktadır.<br><br>Modern istemci, uygulamada gezinme konusunda yardımcı olacak otomatik oluşturulmuş bağlantılar içeren görünümler üretmek için birçok seçenek sunar. Hizmet tarafından işlenen sayfalandırılmış belgeler e-postayla gönderilen, arşivlenen ve alıcılar için yazdırılan harici iletişimler için önerilir. Belgeleri doğrudan tarayıcıda önizleme deneyimini geliştirdik (yerel yazıcılara doğrudan erişim sunar). Daha fazla bilgi için bkz. [Katıştırılmış görüntüleyiciyle PDF belgelerini önizleme](../analytics/preview-pdf-documents.md). |

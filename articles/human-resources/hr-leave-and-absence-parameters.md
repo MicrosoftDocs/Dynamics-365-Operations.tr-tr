@@ -1,8 +1,8 @@
 ---
 title: Bırakma ve devamsızlık parametrelerini konfigüre et
-description: Dynamics 365 Human Resources'ta izin ve devamsızlık için insan kaynakları parametrelerini tanımlayın.
-author: andreabichsel
-ms.date: 11/02/2020
+description: Bu konu, Dynamics 365 Human Resources'ta giriş ve devamsızlık için insan kaynakları parametrelerinin nasıl tanımlanacağını açıklamaktadır.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab4b2b3adefa388acfadc77c7b25a6b47d01571f0e58f6ab81101e25d1b548e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d89c4b22d71057fd3b398c91e1fbf04112e4a9
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777971"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728869"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Bırakma ve devamsızlık parametrelerini konfigüre et
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources'ta , izin ve devamsızlık planlarını ayarlamadan önce, aşağıdakiler dahil olmak üzere ilgili tüm insan kaynakları parametrelerinin ayarlarını doğrulamak iyi bir fikirdir.
+Dynamics 365 Human Resources'ta, izin ve devamsızlık planlarını ayarlamadan önce, aşağıdakiler dahil olmak üzere ilgili tüm **İnsan kaynakları parametrelerinin** ayarlarını doğrulamak iyi bir fikirdir:
 
 - İzin talepleri için numara serisi
 - Aile sağlık ve izin Yasası (FMLA) ayarları
@@ -74,7 +74,7 @@ Dynamics 365 Human Resources'ta , izin ve devamsızlık planlarını ayarlamadan
 
     - Bugün veya tahakkuk dönemi itibarıyla bakiyeyi görüntülemek için **Bakiye hesaplaması**'nı seçin. **Bugün itibarıyla bakiye**'yi seçerseniz, bakiye bugün itibarıyla tahakkukların, ayarlamaların ve isteklerin toplamını görüntüler. **Tahakkuk dönemi itibarıyla bakiye**'yi seçerseniz bakiye, izin planındaki sıklık tarafından tanımlanan tahakkuk dönemi itibarıyla tüm tahakkukların, ayarlamaların ve isteklerin toplamını görüntüler. 
 
-    - Sona erme tarihini ilerletme toplu işi için başlangıç zamanını belirleyin.  
+    - **Sona erme tarihini ilerletme** toplu işi için **Başlangıç zamanını** belirleyin.  
     
     - **Personelin izin satın almasına izin ver** ve **Personelin izin satmasına izin ver** için **Evet**'i seçin. Bu seçenekler için **Evet**'i seçerseniz izin satın alma ve satma ilkeleri oluşturabilir ve personelin izin satın alma ve satma istekleri göndermesine olanak tanıyabilirsiniz.
 

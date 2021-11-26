@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678847"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778169"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Dynamics 365 Supply Chain Management 10.0.22'daki yenilikler veya değişiklikler (Kasım 2021)
 
@@ -41,7 +41,6 @@ Aşağıdaki tabloda, bu sürümde dahil edilen özellik iyileştirmeleri listel
 
 | Modül | Özellik yönetiminde özellik adı | Daha fazla bilgi |
 |---|---|---|
-| Maliyet yönetimi | Standart maliyet yuvarlama yeniden değerlemeleri için ilgili fişler oluşturma | <p>Bir stok mali deftere nakli (satış siparişi faturası veya stok hareketi gibi) yapıldığında bu özellik, sistemin ilgili standart maliyet yuvarlama yeniden değerlemeleri için ayrı bir fiş oluşturmasına ve bunu mali deftere nakil fişinin ilgili fişi olarak iliştirmesine neden olur.</p><p>Bu özellik olmadan sistem, aynı fiş deftere naklinde ilgili standart maliyet yuvarlama yeniden değerlemelerini kaydeder. Yeniden değerlemeler oturum veya sistem tarihini kullanırken mali deftere nakiller, deftere nakil tarihini kullandığından bu davranış bazen çakışan tarih bilgilerine neden olabilir.</p> |
 | Dağıtılmış karma topoloji | *(Özellik yönetimi gerekmez.)* | <p>Bu sürüm, bulut ve uç ölçek birimleri için ambar yönetimi iş yükünün giden yük planlama yeteneklerini genişletir.</p><p>Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Mühendislik değişikliği yönetimi | Mühendislik ürünleri için çeşit oluşturma | <p>Bu özellik, bir mühendislik ürünü için renk, boyut, stil veya yapılandırma boyutlarına göre farklı çeşitler oluşturmanıza olanak tanır.</p><p>Daha fazla bilgi için bkz. [Mühendislik ürünleri için çeşitler oluşturma](../engineering-change-management/engineering-variants.md).</p> |
 | Stok ve ambar yönetimi | Ayırma farkıyla Stok Görünürlüğü tümleştirmesi | <p>Bu özellik yalnızca *Stok Görünürlüğü Tümleştirmesi* özelliği etkinleştirildikten sonra etkinleştirilebilir. Bu, Stok Görünürlüğü'nde yapılan rezervasyonları denkleştirmede işlevsellik sağlar.</p><p>Daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](../inventory/inventory-visibility-reservations.md).</p> |

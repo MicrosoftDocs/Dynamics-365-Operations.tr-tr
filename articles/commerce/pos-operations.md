@@ -64,7 +64,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 642 | Tüm Ürünleri Gerçekleştir | Tüm satırlar için teslimat modunu **Teslim alınan** olarak ayarlayın. | Evet | Evet | Hayır | Evet\* | Hayır |
 | 641 | Seçilen Ürünleri Gerçekleştir | Tüm seçili satırlar için teslimat modunu **Teslim alınan** olarak ayarlayın. | Evet | Evet | Hayır | Evet\* | Hayır |
 | 647 | Teslimat şeklini değiştir | Önceden yapılandırılmış sevkiyat satış satırları için teslimat şeklini değiştirin. | Evet | Evet | Hayır | Hayır| Hayır |
-| 1215 | Parolayı değiştir | Bu işlem, POS kullanıcısının parolasını değiştirmesini sağlar. | Evet | Evet | Evet | No | No |
+| 1215 | Parolayı değiştir | Bu işlem, POS kullanıcısının parolasını değiştirmesini sağlar. | Evet | Evet | Evet | Hayır | Hayır |
 | 123 | Ölçü birimini değiştir | Seçilen satır maddesi için ölçü birimi değiştirin. | Evet | Evet | Hayır | Evet | Hayır |
 | 639 | Hareketteki varsayılan satış temsilcisini temizle | Komisyon satış grubunu (satış temsilcisi) hareketten kaldırın. | Evet | Evet | Hayır | Evet | Hayır |
 | 106 | Miktarı temizle | Seçili satırdaki miktarı **1** olarak sıfırlayın. | Evet | Evet | Hayır | Evet | Hayır |
@@ -194,8 +194,8 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 500 | Hareketi hükümsüz kıl | Geçerli hareketi geçersiz kılın. | Evet | Evet | Hayır | Evet | Hayır |
 | 916 | Windows workflow foundation | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
 | 924 | Banka kartları için X raporu | Bu işlem desteklenmez. | Geçerli değil | Geçerli değil | Geçerli değil | Geçerli değil | Evet |
-| 311 | Sistem iskontolarını hareketlerin içinden kaldır | Hareketin, kupon tabanlı iskontolar dahil olmak üzere tüm sistem tarafından uygulanan iskontolarını hareketten kaldırın. Bu, el ile iskontoları kaldırmaz. | Evet | Evet | Evet | Evet | No |
-| 312 | Sistem iskontolarını yeniden uygula | **Hareket üzerindeki sistem iskontolarını kaldır** operasyonunu kullanarak kaldırıldıklarında, harekete sistem iskontolarını yeniden uygulayın . | Evet | Evet | Evet | Evet | No |
+| 311 | Sistem iskontolarını hareketlerin içinden kaldır | Hareketin, kupon tabanlı iskontolar dahil olmak üzere tüm sistem tarafından uygulanan iskontolarını hareketten kaldırın. Bu, el ile iskontoları kaldırmaz. | Evet | Evet | Evet | Evet | Hayır |
+| 312 | Sistem iskontolarını yeniden uygula | **Hareket üzerindeki sistem iskontolarını kaldır** operasyonunu kullanarak kaldırıldıklarında, harekete sistem iskontolarını yeniden uygulayın . | Evet | Evet | Evet | Evet | Hayır |
 
 \* İşlem yalnızca bir müşteri siparişi veya satış teklifi etkinleştirildiğinde çevrimdışı modda ve yalnızca POS işlevleri profilinde müşteri siparişleri ve satış teklifleri için çevrimdışı oluşturma yapılandırılmışsa kullanılabilir. İşlem, siparişler Gerçek Zamanlı Hizmet kullanılarak oluşturulduğunda veya siparişler geri çağrıldığında veya düzenlendiğinde gerçekleştirilemez.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6b75dcb7d56648f3be291cb1c09ec57a53477ec0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344186"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778095"
 ---
 # <a name="wave-label-printing"></a>Dalga etiketi yazdırma
 
@@ -53,7 +53,7 @@ Bu geliştirmeler, paletlemeden önce kolileri etiketlemeyi daha etkili hale get
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Dalga etiketi yazdırma özelliğini açma
 
-*Dalga etiketi yazdırma* özelliğini kullanabilmeniz için sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz. Ancak, özellik hâlâ [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *Dalga etiketi yazdırma*

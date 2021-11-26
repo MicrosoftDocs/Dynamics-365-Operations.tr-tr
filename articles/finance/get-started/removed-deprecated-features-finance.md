@@ -40,7 +40,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Macarca çevrimiçi faturalama sistemiyle birlikte çalışabilirlik elektronik ileti işleme işlemi dışında bırakıldı |
-| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | Uygulama |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanım dışı: 15 Nisan 2022 itibarıyla, "RTIR Sorgusu Fatura Verileri İsteği (HU)" biçimi yapılandırması desteğini sonlandırmayı planlıyoruz. |

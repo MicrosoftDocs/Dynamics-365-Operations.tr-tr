@@ -2,7 +2,7 @@
 title: Elektronik faturalamayı kullanmaya başlama
 description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management ile Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700391"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779706"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Elektronik faturalamayı kullanmaya başlama
 
@@ -57,7 +57,12 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 
 Ülke/bölgeye bağlı olarak, Elektronik faturalama özelliği belirli bir yapılandırma gerektirebilir. 
 
-Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgelerine bakın.
+> [!NOTE]
+> Finlandiya için Elektronik faturalama özelliğini etkinleştirdiğinizde, aramalarda uygulamada özel parametreler desteklenmez. Bu soruna geçici bir çözüm bulmak için, **Elektronik raporlama** modülünde satış faturası ve proje faturası biçimlerinin yapılandırmalarını gözden geçirin. **$PaymentMethodSubstitution** eşleme için hesaplanan alanı el ile ayarlayın ve bu alanı Satış faturası ve proje faturası biçimlerinden **EpiPaymentMeansCode** alanına bağlayın.
+>
+> İtalya için Elektronik faturalama özelliğini etkinleştirdiğinizde, aramalarda uygulamada özel parametreler desteklenmez. Bu soruna geçici bir çözüm bulmak için, **Elektronik raporlama** modülünde **$NaturaReverseCharge** eşleme için hesaplanmış alanı el ile ayarlayın.
+>
+> Diğer bölgelerle ilgili belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgelerine bakın.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Elektronik raporlama için model eşleme yapılandırmalarını içe aktarma
 
@@ -241,6 +246,14 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
 
 3. Kılavuzda bir fatura seçin ve ardından **Sorgula** \> **Gönderim ayrıntıları**'nı seçin.
 
+## <a name="download-an-electronic-document-file"></a>Elektronik belge dosyası karşıdan yükleme
+
+1. **Kuruluş yönetimi** \> **Periyodik** \> **Elektronik belgeler** \> **Elektronik belgeleri gönderme günlüğü**'ne gidin.
+2. **Belge türü** alanında, faturaları içeren tabloyu seçin.
+3. Kılavuzdaki bir belgeyi seçin ve sonra **Elektronik belge** \> **Karşıdan yükleme dosyası**'nı seçin. Karşıdan yükleme için elektronik belge dosyasını içeren bir arşiv önerilecektir.
+
+> [!NOTE]
+> Dosyaları karşıdan yüklemeden önce, RCS'deki Elektronik faturalama özelliği kurulumunda ilgili eylem için **Sonucu dışarı aktar** seçeneğinin açık olması gerekir.
 
 ## <a name="related-topics"></a>İlgili konular
 

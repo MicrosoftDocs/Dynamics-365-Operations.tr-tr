@@ -1,27 +1,27 @@
 ---
 title: Personel yönetimi çalışma alanı
 description: Bu konu, Personel yönetimi çalışma alanının kavramsal öğelerini açıklar.
-author: andreabichsel
-ms.date: 07/01/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: anbichse
-ms.reviewer: anbichse
+ms.author: twheeloc
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 923d4a980c3f8f9b3bf5be1f77d8910081123fa08b068f1fd8fa935312d3a101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754835"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771350"
 ---
 # <a name="personnel-management-workspace"></a>Personel yönetimi çalışma alanı
 
@@ -33,11 +33,11 @@ ms.locfileid: "6754835"
 
 **Faaliyet** sekmesi, çalışanları çalışma sürecindeki aşamalarına göre gruplayan bölümler içerir:
 
-- İşe alınacak adaylar
-- Yakında başlıyor
-- En son işe almalar
-- Çıkış
-- Çıktı
+- **İşe alınacak adaylar**
+- **Yakında başlıyor**
+- **En son işe almalar**
+- **Çıkış**
+- **Çıktı**
 
 Bir çalışan bu aşamaların birinde olduğunda belirli eylemler karttaki bir düğme olarak veya sağ üst köşedeki üç noktayı (**...**) seçtiğinizde görüntülenen menüde kullanılabilir olur. Aşağıdaki alt bölümler **Faaliyet** sekmesinin bölümlerini açıklar ve kullanılabilir eylemleri listeler.
 
@@ -51,9 +51,9 @@ Bir çalışan bu aşamaların birinde olduğunda belirli eylemler karttaki bir 
 
 Aday **İşe alınacak adaylar** bölümünde göründüğünde, aday kartındaki üç noktayı seçerek aşağıdaki eylemleri gerçekleştirebilirsiniz:
 
-- Adayı bırakın.
-- İşe alma
-- İşe Al
+- **Adayı bırakın.**
+- **İşe alma**
+- **İşe Al**
 
 > [!NOTE]
 > Aday listesi Microsoft Dataverse'den dolduruluyorsa, aday ile bir tüzel kişilik ilişkilendirilmediğinden, aynı adaylar tüm tüzel kişiliklerde görüntülenecektir.
@@ -65,7 +65,7 @@ Aday **İşe alınacak adaylar** bölümünde göründüğünde, aday kartındak
 Yönetici kart üzerinde görünmüyorsa, çalışan için bir pozisyon atanmamıştır.
 
 > [!NOTE] 
-> Ekleme görevleri bazen yeni işe alınan bir çalışanın yöneticisine atandığından, onay listesi uygulamadan önce bir çalışana pozisyon atamanızı öneririz. Ancak, hiçbir pozisyon atanmadığı takdirde, yeni çalışanın yöneticisi saptanamaz. Bu durumda, yöneticiye yönelik ekleme görevleri, bunun yerine onay listesi sahibine atanacaktır.
+> Denetim listesini uygulamadan önce bir çalışana pozisyon atamanızı öneririz. Bazı durumlarda, ekleme görevleri, yeni işe alınan bir çalışanın yöneticisine atanır. Ancak, hiçbir pozisyon atanmadığı takdirde, yeni çalışanın yöneticisi saptanamaz. Bu durumda, yöneticiye yönelik ekleme görevleri, bunun yerine onay listesi sahibine atanacaktır.
 
 Çalışanlar **Yakında başlayacak** bölümünde göründüğünde, bunlar için aşağıdaki eylemler kullanılabilir:
 
@@ -85,7 +85,7 @@ Yönetici kart üzerinde görünmüyorsa, çalışan için bir pozisyon atanmam�
 Varsayılan olarak, liste son yedi gün içinde işe alınan çalışanları gösterir. Bu ayarı değiştirmek için, **İnsan Kaynakları parametreleri** sayfasında, **Genel** sekmesinde **En son işe alımlar** için bir zaman dilimi belirleyin. **En son işe alımlar** bölümündeki veriler belirli sayıda gün, ay veya yıl için gösterilebilir. Örneğin, son 14 günde işe alınan çalışanların listesini görüntülemek için, **Dönem** alanını **14** olarak ve **Birim** alanını **Gün** olarak ayarlayın.
 
 > [!NOTE]
-> **İnsan Kaynakları parametreleri** sayfasındaki ayarlar şirkete özeldir. Bu nedenle, en son işe alımlar için görüntülediğiniz zaman dilimi şirkete göre farklılık gösterebilir. Örneğin, USMF şirketinde, son yedi gündeki tüm yeni işe alımları görmek isteyebilirsiniz. Ancak, USSI şirketinde, son 14 gündeki tüm yeni işe alımları görmek isteyebilirsiniz. Bu durumda, her şirkette **İnsan Kaynakları parametreleri** sayfasını açmanız ve parametreleri gerektiği gibi ayarlamanız gerekir.
+> **İnsan Kaynakları parametreleri** sayfasındaki ayarlar şirkete özeldir. Bu nedenle, en son işe alımlar için görüntülediğiniz zaman dilimi şirkete göre farklılık gösterebilir. Örneğin, USMF şirketinde, son yedi gündeki tüm yeni işe alımları görmek isteyebilirsiniz. Ancak, USSI şirketinde, son 14 gündeki tüm yeni işe alımları görmek isteyebilirsiniz. Bu durumda, her şirkette **İnsan Kaynakları parametreleri** sayfasını açın ve parametreleri gerektiği gibi ayarlayın.
 
 Yönetici kart üzerinde görünmüyorsa, çalışan için bir pozisyon atanmamıştır.
 
@@ -132,13 +132,9 @@ Varsayılan olarak, liste sonlandırma tarihi geçmiş yedi gün içinde olan ç
 
 **Personel değişiklikleri** sekmesi tüm çalışan personel eylemlerinin listesini sağlar. Bu liste varsayılan olarak kullanılamaz. İşlevi etkinleştirmek için **İnsan Kaynakları paylaşılan parametreleri** sayfasında, **Personel eylemleri** sekmesinde, **Çalışan eylemlerini etkinleştir** seçeneğini **Evet** olarak ayarlayın.
 
-Personel eylemleri hakkında daha fazla bilgi için, bkz. (Personel Eylemlerine Bağlantı sayfası).
-
 ## <a name="position-changes-tab"></a>Pozisyon değişiklikleri sekmesi
 
 **Pozisyon değişiklikleri** sekmesi tüm pozisyon personel eylemlerinin listesini sağlar. Bu liste varsayılan olarak kullanılamaz. İşlevi etkinleştirmek için **İnsan Kaynakları paylaşılan parametreleri** sayfasında, **Personel eylemleri** sekmesinde, **Pozisyon eylemlerini etkinleştir** seçeneğini **Evet** olarak ayarlayın.
-
-Personel eylemleri hakkında daha fazla bilgi için, bkz. (Personel Eylemlerine Bağlantı sayfası).
 
 ## <a name="open-positions-tab"></a>Açık pozisyonlar sekmesi
 
@@ -151,11 +147,11 @@ Personel eylemleri hakkında daha fazla bilgi için, bkz. (Personel Eylemlerine 
 
 **Süresi dolan kayıtlar** sekmesinde, kullanıcının oturum açtığı şirketteki çalışanlar için süresi dolmuş veya süresi dolacak olan tüm maddeler listelenir. Listede aşağıdaki öğeler görünür:
 
-- Sertifikalar
-- Kimlik
-- Denemeler
-- Filtrelemeler
-- Sınamalar
+- **Sertifikalar**
+- **Kimlik**
+- **Denemeler**
+- **Filtrelemeler**
+- **Sınamalar**
 
 Listenin süresi dolan kayıtları mı yoksa süresi dolmak üzere olan kayıtları mı göstereceğini belirtmek için **İnsan Kaynakları parametreleri** sayfasında, **Genel** sekmesinde **Süresi dolmak üzere olan kayıtlar** veya **Süresi dolan kayıtlar** için bir zaman dilimi tanımlayın. **Süresi dolmak üzere olan kayıtlar** sekmesindeki veriler belirli bir gün sayısı için görüntülenebilir. Örneğin, sonraki 14 günde süresi dolacak kayıtların listesini görmek için **Gün sayısı** alanını **14** olarak ayarlayın.
 

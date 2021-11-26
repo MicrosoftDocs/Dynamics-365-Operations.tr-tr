@@ -421,7 +421,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Geçerli değil</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Hayır</td>
 <td>
 <ol>
 <li>Malzeme çekme işini başlatırken Ambar Yönetimi uygulamasında <strong>Konumu geçersiz kıl</strong> menü öğesini seçin.</li>
@@ -719,7 +719,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 </tr>
 <tr>
 <td><strong>Eksik çekme</strong> türünde bir iş özel durumu ayarlanmıştır ve bu özel durumda ayarlar şöyledir: <strong>Madde yeniden tahsisi</strong> = <strong>El ile</strong>, <strong>Stoğu ayarla</strong> = <strong>Evet</strong> ve <strong>Rezervasyonları kaldır</strong> = <strong>Hayır</strong>. Ek olarak, <strong>El ile madde yeniden tahsisine izin ver</strong> seçeneği çalışanda etkinleştirilmiştir.</td>
-<td>No</td>
+<td>Hayır</td>
 <td>
 <ol>
 <li>Malzeme çekme işini çalıştırırken Ambar yönetimi mobil uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
@@ -732,7 +732,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 </tr>
 <tr>
 <td><strong>Eksik çekme</strong> türünde bir iş özel durumu ayarlanmıştır ve bu özel durumda ayarlar şöyledir: <strong>Madde yeniden tahsisi</strong> = <strong>El ile</strong>, <strong>Stoğu ayarla</strong> = <strong>Evet</strong> ve <strong>Rezervasyonları kaldır</strong> = <strong>Evet</strong>. Ek olarak, <strong>El ile madde yeniden tahsisine izin ver</strong> seçeneği çalışanda etkinleştirilmiştir.</td>
-<td>No</td>
+<td>Hayır</td>
 <td>
 <ol>
 <li>Malzeme çekme işini çalıştırırken Ambar yönetimi mobil uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>

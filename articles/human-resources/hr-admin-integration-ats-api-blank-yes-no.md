@@ -34,7 +34,7 @@ Bu numaralandırma, boşluklara da izin veren Evet/Hayır özellikleri için se�
 | --- | --- | --- |
 | 200000000 | Boş | Hiçbir değer seçilmedi. |
 | 200000001 | Evet | Evet. |
-| 200000002 | No | Hayır. |
+| 200000002 | Hayır | Hayır. |
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

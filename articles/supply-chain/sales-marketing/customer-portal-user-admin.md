@@ -88,9 +88,9 @@ Aşağıdaki tabloda, her bir Web rolündeki kullanıcıların sistemde hangi sa
 
 | Satış siparişi | Yönetici | Müşteri X için müşteri&nbsp;temsilcisi | Yetkilendiren kullanıcı: Jane | Yetkilendiren kullanıcı: Sam | Yetkisiz kullanıcı: May |
 |---|---|---|---|---|---|
-| Müşteri&nbsp;X sipariş veren: &nbsp;Jane | Evet | Evet | Evet | No | No |
-| Müşteri&nbsp;X sipariş veren: &nbsp;Sam | Evet | Evet | No | Evet | No |
-| Müşteri&nbsp;Y Sipariş veren: &nbsp;May | Evet | No | No | No | No |
+| Müşteri&nbsp;X sipariş veren: &nbsp;Jane | Evet | Evet | Evet | Hayır | Hayır |
+| Müşteri&nbsp;X sipariş veren: &nbsp;Sam | Evet | Evet | Hayır | Evet | Hayır |
+| Müşteri&nbsp;Y Sipariş veren: &nbsp;May | Evet | Hayır | Hayır | Hayır | Hayır |
 
 > [!NOTE]
 > Hem Sam, hem Jane, müşteri X için çalışan ilgili kişiler olmakla birlikte, yalnızca kendilerinin yerleştirdikleri siparişleri görebilir, başka birşey görmez. May'in sistemde bir siparişi olsa da, yetkisi olmayan bir kullanıcı olduğu için müşteri portalında o siparişi göremeyebilir. (Ek olarak, siparişi müşteri portalı dışında bir kanala yerleştirmiş olmalıdır.)

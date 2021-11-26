@@ -2,7 +2,7 @@
 title: Nakit pozisyonu
 description: Bu konuda, Nakit akışı tahmini özelliğinin belirli bir dönem için bir kuruluşun nakit pozisyonunu nasıl tahmin ettiği açıklanmaktadır. Ayrıca, farklı dönemlerin tahminlerini göstermek için kullanılabilen seçenekler de açıklanmıştır.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386326"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752893"
 ---
 # <a name="cash-position"></a>Nakit pozisyonu
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Nakit pozisyonu, yakın döneme yönelik bir tahmin olan nakit akışı tahminidir. Bu tahmin, ödeme bekleyen fatura ve siparişleri ödeyen müşterilerden gelen nakit tahsilatlarının tahminine ve satın alma faturaları ile siparişleri için satıcılara ödenen nakit ödemelerinin tahminine dayalıdır.
 
@@ -44,8 +45,5 @@ Satıcılara yapılan ödemeleri tahmin etmek için benzer bir yaklaşım kullan
 - **Banka hesabı** ızgarasında, beklenen nakit girişleri ve çıkışlarının banka bakiyesine etkisi gösterilir.
 
 Nakit pozisyonunu kaydetmek ve düzenlemek için anlık görüntü oluşturun. Anlık görüntülerle nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Anlık görüntülere genel bakış](payment-snapshots.md).
-
-#### <a name="privacy-notice"></a>Gizlilik bildirimi
-Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

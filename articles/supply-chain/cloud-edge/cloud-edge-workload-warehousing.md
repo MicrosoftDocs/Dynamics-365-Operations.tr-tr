@@ -187,34 +187,34 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 
 | İşle                                                      | Hub | Ölçek biriminde ambar yürütme iş yükü |
 |--------------------------------------------------------------|-----|------------------------------|
-| Kaynak belge işleme                                   | Evet | No |
-| Yük ve taşıma yönetimini işleme                | Evet, ancak yalnızca yük planlama işlemleri. Taşıma yönetimi işlemi desteklenmez  | No |
-| Ambara serbest bırak                                         | Evet | No |
-| Planlanmış çapraz sevk                                        | No  | No |
+| Kaynak belge işleme                                   | Evet | Hayır |
+| Yük ve taşıma yönetimini işleme                | Evet, ancak yalnızca yük planlama işlemleri. Taşıma yönetimi işlemi desteklenmez  | Hayır |
+| Ambara serbest bırak                                         | Evet | Hayır |
+| Planlanmış çapraz sevk                                        | Hayır  | Hayır |
 | Sevkiyat konsolidasyonu                                       | Evet, yük planlamasını kullanırken | Evet |
-| Sevkiyat dalgası işleme                                     | No  |Evet, **Yük oluşturma ve sıralama** dışında |
-| Dalga için sevkiyatları saklama                                  | No  | Evet|
-| Ambar iş işleme (plaka baskısı dahil)        | No  | Evet, ancak yalnızca daha önce belirtilmiş desteklenen yetenekler için |
-| Küme malzeme çekme                                              | No  | Evet|
-| "Sevk edilmiş konteyner çekme işlemi" işini işleme dahil elle ambalaj işleme | No <P>Bazı işlemler, yalnızca ilk çekme işlemi ölçek birimi tarafından gerçekleştirildikten sonra yapılabilir ancak aşağıdaki engelli işlemler nedeniyle bu önerilmez.</p>  | No |
-| Konteyneri gruptan kaldır                                  | No  | No |
-| Giden sıralama işleme                                  | No  | No |
+| Sevkiyat dalgası işleme                                     | Hayır  |Evet, **Yük oluşturma ve sıralama** dışında |
+| Dalga için sevkiyatları saklama                                  | Hayır  | Evet|
+| Ambar iş işleme (plaka baskısı dahil)        | Hayır  | Evet, ancak yalnızca daha önce belirtilmiş desteklenen yetenekler için |
+| Küme malzeme çekme                                              | Hayır  | Evet|
+| "Sevk edilmiş konteyner çekme işlemi" işini işleme dahil elle ambalaj işleme | Hayır <P>Bazı işlemler, yalnızca ilk çekme işlemi ölçek birimi tarafından gerçekleştirildikten sonra yapılabilir ancak aşağıdaki engelli işlemler nedeniyle bu önerilmez.</p>  | Hayır |
+| Konteyneri gruptan kaldır                                  | Hayır  | Hayır |
+| Giden sıralama işleme                                  | Hayır  | Hayır |
 | Yükle ilgili belgeleri yazdırma                           | Evet | Evet|
-| Konşimento ve ASN üretimi                            | No  | Evet|
-| Sevkiyat onaylama                                             | No  | Evet|
-| "Onayla ve aktar" ile sevkiyat onayı            | No  | No |
-| Sevk irsaliyesi ve faturalama işlemleri                        | Evet | No |
-| Eksik malzeme çekme (satış siparişleri ve transfer emirleri)                    | No  | Evet, kaynak belgeler için rezervasyonları kaldırmadan|
-| Fazla malzeme çekme (satış siparişleri ve transfer emirleri)                     | No  | Evet|
-| İş yerleşimlerinin değiştirilmesi (satış siparişleri ve transfer emirleri)         | No  | Evet|
-| Tüm iş (satış siparişleri ve transfer emirleri)                    | No  | Evet|
+| Konşimento ve ASN üretimi                            | Hayır  | Evet|
+| Sevkiyat onaylama                                             | Hayır  | Evet|
+| "Onayla ve aktar" ile sevkiyat onayı            | Hayır  | Hayır |
+| Sevk irsaliyesi ve faturalama işlemleri                        | Evet | Hayır |
+| Eksik malzeme çekme (satış siparişleri ve transfer emirleri)                    | Hayır  | Evet, kaynak belgeler için rezervasyonları kaldırmadan|
+| Fazla malzeme çekme (satış siparişleri ve transfer emirleri)                     | Hayır  | Evet|
+| İş yerleşimlerinin değiştirilmesi (satış siparişleri ve transfer emirleri)         | Hayır  | Evet|
+| Tüm iş (satış siparişleri ve transfer emirleri)                    | Hayır  | Evet|
 | İş raporunu yazdırma                                            | Evet | Evet|
-| Dalga etiketi                                                   | No  | Evet|
-| İş bölme                                                   | No  | Evet|
-| İş işleme - "Taşıma yüklemesi" tarafından yönetilir            | No  | No |
-| Çekilen miktarı düş                                       | No  | No |
-| İşi geri al                                                 | No  | No |
-| Sevkiyat onayını tersine çevir                                | No  | Evet|
+| Dalga etiketi                                                   | Hayır  | Evet|
+| İş bölme                                                   | Hayır  | Evet|
+| İş işleme - "Taşıma yüklemesi" tarafından yönetilir            | Hayır  | Hayır |
+| Çekilen miktarı düş                                       | Hayır  | Hayır |
+| İşi geri al                                                 | Hayır  | Hayır |
+| Sevkiyat onayını tersine çevir                                | Hayır  | Evet|
 
 ### <a name="inbound"></a>Gelen
 
@@ -226,27 +226,27 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | Yük ve taşıma yönetimini işleme                    | Evet | Hayır |
 | Varış yeri maliyeti ve transitteki malları teslim alma                       | Evet | Hayır |
 | Gelen sevkiyat onayı                                    | Evet | Hayır |
-| Ambara satın alma siparişi serbest bırakma (ambar siparişi işleme) | Evet | No |
-| Ambar sipariş satırlarının iptali<p>Bunun yalnızca satıra karşılık kayıt gerçekleştirilmediği durumlarda desteklendiğini unutmayın</p> | Evet | No |
+| Ambara satın alma siparişi serbest bırakma (ambar siparişi işleme) | Evet | Hayır |
+| Ambar sipariş satırlarının iptali<p>Bunun yalnızca satıra karşılık kayıt gerçekleştirilmediği durumlarda desteklendiğini unutmayın</p> | Evet | Hayır |
 | Satınalma siparişi maddesini teslim alma ve yerine koyma                       | <p>Evet,&nbsp;ambar&nbsp;siparişi&nbsp;yoksa</p><p>Hayır, ambar siparişi olduğunda</p> | <p>Evet, satınalma siparişinin bir <i>yükün</i> parçası olmadığı durumlarda</p> |
 | Satınalma siparişi satırı teslim alma ve yerine koyma                       | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | <p>Evet, satınalma siparişinin bir <i>yükün</i> parçası olmadığı durumlarda</p></p> |
-| İade emri teslim alma ve yerine koyma                              | Evet | No |
+| İade emri teslim alma ve yerine koyma                              | Evet | Hayır |
 | Karma plaka alımı ve yerine koyma işlemi                       | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet |
-| Yük maddesi teslim alma                                              | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | No |
-| Plaka alma ve yerine koyma                             | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | No |
-| Transfer emri maddesini teslim alma ve yerine koyma                       | Evet | No |
-| Transfer emri satırı teslim alma ve yerine koyma                       | Evet | No |
+| Yük maddesi teslim alma                                              | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
+| Plaka alma ve yerine koyma                             | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
+| Transfer emri maddesini teslim alma ve yerine koyma                       | Evet | Hayır |
+| Transfer emri satırı teslim alma ve yerine koyma                       | Evet | Hayır |
 | Çalışmayı iptal etme (gelen)                                            | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | <p>Evet, ancak yalnızca <b>İşi iptal ederken girişin kaydını sil</b> seçeneği (<b>Ambar yönetimi parametreleri</b> sayfasında) seçili olmadığında</p> |
-| Satın alma siparişi ürün girişi işleme                        | Evet | No |
+| Satın alma siparişi ürün girişi işleme                        | Evet | Hayır |
 | Eksik teslimat ile satınalma siparişi alma                      | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet, ancak yalnızca hub'dan iptal isteğinde bulunarak |
 | Fazla teslimat ile satınalma siparişi alma                       | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet  |
-| *Çapraz sevk* işinin oluşturulmasıyla alma                 | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | No |
-| *Kalite emri* işinin oluşturulmasıyla alma                  | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | No |
-| *Kalite maddesi örnekleme* işinin oluşturulmasıyla alma          | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | No |
-| *Kalite denetiminde kalite* işinin oluşturulmasıyla alma       | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | No |
-| Kalite emrinin oluşturulmasıyla alma                            | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | No |
-| İş işleme - *Küme yerine koyma* ile yönlendirilir                 | Evet | No |
-| *Eksik çekme* ile iş işleme                               | Evet | No |
+| *Çapraz sevk* işinin oluşturulmasıyla alma                 | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
+| *Kalite emri* işinin oluşturulmasıyla alma                  | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
+| *Kalite maddesi örnekleme* işinin oluşturulmasıyla alma          | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
+| *Kalite denetiminde kalite* işinin oluşturulmasıyla alma       | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
+| Kalite emrinin oluşturulmasıyla alma                            | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
+| İş işleme - *Küme yerine koyma* ile yönlendirilir                 | Evet | Hayır |
+| *Eksik çekme* ile iş işleme                               | Evet | Hayır |
 | Plaka yükleme                                           | Evet | Evet |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Ambar işlemleri ve özel durum yönetimi
@@ -261,20 +261,20 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | Ambarı değiştir                                   | Evet | Evet                          |
 | Hareket                                           | Evet | Evet                          |
 | Şablonla hareket                               | Evet | Evet                          |
-| Ambar transferi                                 | Evet | No                           |
-| Ambar uygulamasından transfer emri oluşturma           | Evet | No                           |
+| Ambar transferi                                 | Evet | Hayır                           |
+| Ambar uygulamasından transfer emri oluşturma           | Evet | Hayır                           |
 | Ayarlama (giriş/çıkış)                                | Evet | Evet, ancak stok ayarlama türlerindeki **Rezervasyonları kaldır** ayarı kullanılarak stok rezervasyonunun kaldırılması gereken bir ayarlama senaryosu için değil</p>                           |
-| Stok durumu değişikliği                            | Evet | No                           |
+| Stok durumu değişikliği                            | Evet | Hayır                           |
 | Döngü sayma ve Sayma tutarsızlığı işleme | Evet | Evet                           |
 | Plaka etiketini yeniden yazdırma (plakayı yeniden yazdır)             | Evet | Evet                          |
-| Plaka yapısı                                | Evet | No                           |
-| Plaka bölme                                | Evet | No                           |
-| İç içe plakalar olarak paketle                                | Evet | No                           |
-| Sürücü girişi                                    | Evet | No                           |
-| Sürücü çıkışı                                   | Evet | No                           |
+| Plaka yapısı                                | Evet | Hayır                           |
+| Plaka bölme                                | Evet | Hayır                           |
+| İç içe plakalar olarak paketle                                | Evet | Hayır                           |
+| Sürücü girişi                                    | Evet | Hayır                           |
+| Sürücü çıkışı                                   | Evet | Hayır                           |
 | Toplu iş değerlendirme kodunu değiştirme                      | Evet | Evet                          |
 | Açık iş listesini görüntüle                             | Evet | Evet                          |
-| Plakaları birleştir                         | Evet | No                           |
+| Plakaları birleştir                         | Evet | Hayır                           |
 | Minimum/maksimum ve bölge eşiği stok yenileme işlemi| Evet <p>Sorguların parçası olarak aynı yerleşimleri eklememeniz önerilir</p>| Evet                          |
 | Yerleştirme stok yenileme işleme                  | Evet  | Evet<p>Kurulumun ölçek biriminde gerçekleştirilmesi gerektiğini unutmayın</p>                           |
 | İşi engelleme ve engellemeyi kaldırma                             | Evet | Evet                          |
@@ -290,8 +290,8 @@ Aşağıdaki tabloda, ambar yönetimi üretim senaryolarının hangilerinin şu 
 |---------|-----|------------------------------|
 | Tamamlandı ve tamalanan ürünler kaldırıldı olarak bildirme | Evet | Evet |
 | Yerine konan ortak ürün ve yan ürün | Evet | Evet |
-| <p>Üretimle ilgili diğer tüm ambar yönetim süreçleri, aşağıdakiler dahil olmak üzere:</p><li>Ambara serbest bırak</li><li>Üretim dalgası işleme</li><li>Hammadde çekme</li><li>Kanban yerine koyma</li><li>Kanban çekme</li><li>Üretim emrini başlat</li><li>Üretim ıskartası</li><li>Üretimdeki son palet</li><li>Malzeme tüketimini kaydet</li><li>Kanban boş</li></ul> | Evet | No |
-| Hammadde stok yenilemesi | No | No |
+| <p>Üretimle ilgili diğer tüm ambar yönetim süreçleri, aşağıdakiler dahil olmak üzere:</p><li>Ambara serbest bırak</li><li>Üretim dalgası işleme</li><li>Hammadde çekme</li><li>Kanban yerine koyma</li><li>Kanban çekme</li><li>Üretim emrini başlat</li><li>Üretim ıskartası</li><li>Üretimdeki son palet</li><li>Malzeme tüketimini kaydet</li><li>Kanban boş</li></ul> | Evet | Hayır |
+| Hammadde stok yenilemesi | Hayır | Hayır |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Ambar yürütme için ölçek birimlerinin bakımı
 

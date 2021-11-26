@@ -42,7 +42,7 @@ Bu konudaki örnekler, bu bölümde açıklanan örnek stok hareketi verilerini 
 | Dosya Adı      | Active | Fiziksel stok | Mali stok |
 |-----------|--------|--------------------|---------------------|
 | Tesis      | Evet    | Evet                | Evet                 |
-| Ambar | Evet    | Evet                | No                  |
+| Ambar | Evet    | Evet                | Hayır                  |
 
 ### <a name="inventory-model"></a>Stok modeli
 

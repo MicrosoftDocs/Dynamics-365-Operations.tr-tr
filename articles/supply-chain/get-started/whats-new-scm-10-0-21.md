@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715266"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777949"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21 sürümündeki yenilikler veya değişiklikler (Ekim 2021)
 
@@ -70,10 +70,10 @@ Aşağıdaki tabloda, 10.0.21 sürümünde varsayılan olarak açık özellikler
 | Transfer Emri İptali | 9/1/2021 | 7/13/2020 | Varsayılan olarak açık | Stok ve ambar yönetimi |
 | Stok Günlüğü Kilidini Aç | 9/1/2021 | 8/17/2020 | Varsayılan olarak açık | Stok ve ambar yönetimi |
 | Stok yönetimi için kayıtlı görünümler | 9/1/2021 | 30.09.2020 | Varsayılan olarak açık | Stok ve ambar yönetimi |
-| Ürün reçetesi satırlarındaki ürün reçetesi sürümüne gezinti. | 9/1/2021 | 11/11/2019 | Varsayılan olarak açık | Stok ve ambar yönetimi |
-| Stok günlüklerinde ölçü birimi ve birim miktarı kullanılıyor. | 9/1/2021 | 11/11/2019 | Varsayılan olarak açık | Stok ve ambar yönetimi |
+| Ürün reçetesi satırlarındaki ürün reçetesi sürümüne gezinti | 9/1/2021 | 11/11/2019 | Varsayılan olarak açık | Stok ve ambar yönetimi |
+| Stok günlüklerinde ölçü birimi ve birim miktarı kullanılıyor | 9/1/2021 | 11/11/2019 | Varsayılan olarak açık | Stok ve ambar yönetimi |
 | Boş toplu iş öznitelik değerlerine izin ver | 9/1/2021 | 11/11/2019 | Varsayılan olarak açık | Stok ve ambar yönetimi |
-| Stok transfer emri satırlarının satır numaralarını otomatik artırın. | 9/1/2021 | 10/11/2019 | Varsayılan olarak açık | Stok ve ambar yönetimi |
+| Stok transfer emri satırlarının satır numaralarını otomatik artırın | 9/1/2021 | 10/11/2019 | Varsayılan olarak açık | Stok ve ambar yönetimi |
 | Stok günlüğü onaylama iş akışı | 9/1/2021 | 1/6/2020 | Varsayılan olarak açık | Stok ve ambar yönetimi |
 | Stok kalite yönetimi parametreleri uyarısı özelliğini etkinleştir | 9/1/2021 | 10/7/2019 | Varsayılan olarak açık | Stok ve ambar yönetimi |
 | Satış satırından transfer siparişi oluştur | 9/1/2021 | 8/31/2019 | Varsayılan olarak açık | Stok ve ambar yönetimi |
@@ -93,12 +93,12 @@ Aşağıdaki tabloda, 10.0.21 sürümünde varsayılan olarak açık özellikler
 | Serbest bırakılan ürünler için kayıtlı görünümler | 9/1/2021 | 30.09.2020 | Varsayılan olarak açık | Ürün bilgileri yönetimi |
 | İşleri Onayla ve Transfer et iletişim kutularındaki geliştirmeler | 9/1/2021 | 10/11/2019 | Varsayılan olarak açık | Üretim denetimi |
 | İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası | 9/1/2021 | 8/31/2019 | Varsayılan olarak açık | Üretim denetimi |
-| İş Kartı Terminali sayfasına yeni bir Molayı durdur düğmesi eklendi. | 9/1/2021 | 2/19/2020 | Varsayılan olarak açık | Üretim denetimi |
+| İş Kartı Terminali sayfasına yeni bir Molayı durdur düğmesi eklendi | 9/1/2021 | 2/19/2020 | Varsayılan olarak açık | Üretim denetimi |
 | Alt sözleşmeli maddeler için kısmi girişe olanak tanıyın ve Satıcı türündeki ürün reçetesi satırları için hurda hesaplamasıyla ilgili sorunu düzeltin. | 9/1/2021 | 11/11/2019 | Varsayılan olarak açık | Üretim denetimi |
 | Üretim denetimi için kayıtlı görünümler | 9/1/2021 | 8/17/2020 | Varsayılan olarak açık | Üretim denetimi |
 | Üretim için Dynamics 365 Guides | 9/1/2021 | 7/13/2020 | Varsayılan olarak açık | Üretim denetimi |
 | Üretim katı yürütmesi | 9/1/2021 | 30.09.2020 | Varsayılan olarak açık | Üretim denetimi |
-| Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği. | 9/1/2021 | 5/10/2020 | Varsayılan olarak açık | Üretim denetimi |
+| Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği | 9/1/2021 | 5/10/2020 | Varsayılan olarak açık | Üretim denetimi |
 | Satış siparişinde masraf tahsisatı | 9/1/2021 | 30.09.2020 | Varsayılan olarak açık | Satış ve pazarlama |
 | Deftere nakledilmek için seçilebilecek satış siparişi sayısını kısıtlayın | 9/1/2021 | 9/1/2021 | Varsayılan olarak açık | Satış ve pazarlama |
 | Satış siparişi güncelleştirme geçmişini temizle | 9/1/2021 | 9/1/2021 | Varsayılan olarak açık | Satış ve pazarlama |

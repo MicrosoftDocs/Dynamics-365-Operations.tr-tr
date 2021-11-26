@@ -1,8 +1,8 @@
 ---
-title: Soru formlarını dağıtma ve planlama
-description: Bu makale tasarladığınız anketlerin onları tamamlayacak kişi veya kişi grubu için kullanılabilir olması için onları nasıl dağıtacağınızı açıklar.
-author: andreabichsel
-ms.date: 04/04/2017
+title: Soru formlarını dağıtma ve zamanlama
+description: Bu konu, tasarladığınız anketlerin onları tamamlayacak kişi veya kişi grubu için kullanılabilir olması için onları nasıl dağıtacağınızı açıklar.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60354a3e7fed5403321d5ec4440cece84b13233bef80fcd5c5f61d72e5e3aa85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755527"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729015"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Soru formlarını dağıtma ve planlama
+# <a name="distribute-and-schedule-questionnaires"></a>Soru formlarını dağıtma ve zamanlama
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu makale tasarladığınız anketlerin onları tamamlayacak kişi veya kişi grubu için kullanılabilir olması için onları nasıl dağıtacağınızı açıklar. 
+Bu konu, tasarladığınız anketlerin onları tamamlayacak kişi veya kişi grubu için kullanılabilir olması için onları nasıl dağıtacağınızı açıklar. 
 
 Bir anketi dağıtmanın birden çok yolu vardır:
 
--   Anketi aktif olarak işaretleyin. Ardından anket, erişimi kısıtlamak için bir anket grubu ayarlanmadığı sürece tüm çalışanlar tarafından kullanılabilir.
+-   Anketi **Aktif** olarak işaretleyin. Ardından anket, erişimi kısıtlamak için bir anket grubu ayarlanmadığı sürece tüm çalışanlar tarafından kullanılabilir.
 -   Bir anket grubuna haklar atayın. Anket daha sonra seçili grubun tüm üyeleri tarafından kullanılabilir.
 -   Planlı yanıt oturumları oluşturun. Anket daha sonra yalnızca belirli bir kişi tarafından kullanılabilir.
 -   Bir planlama oluşturun. Anket daha sonra birden çok kişi tarafından kullanılabilir.
@@ -111,7 +111,7 @@ Planlı bir yanıt oturumu kullanıyorsanız, kişiyi telefon ya da e-postayla d
 Bir ankete atanmış olan tüm yanıtlayanlara bir e-posta hazırlamak ve göndermek için **Anket planlamaları** sayfasını kullanın. **Personel self servisi için e-posta** sekmesinde e-posta metnini girin. Zamanlama başladıktan sonra, e-postayı oluşturmak ve alıcılara göndermek için **İşlevler** &gt; **E-posta gönder** üzerine tıklayın. Yanıtlayanlar web sitesinde oturum açarak soru formunu doldurabilirler. 
 
 > [!NOTE]
-> E-posta işlevlerini kullanmadan önce BT yöneticiniz e-posta ayarlarını **E-posta parametreler** sayfasına girmelidir.
+> E-posta işlevlerini kullanmadan önce BT yöneticiniz e-posta ayarlarını **E-posta parametreleri** sayfasına girmelidir.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Planlanmış bir anketi sonlandırma
 

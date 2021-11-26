@@ -344,7 +344,7 @@ Satınalmada, **Kalite ilişkilendirmeleri** sayfasında **Olay türü** alanın
 </tr>
 <tr>
 <td>Sabit miktar: 1</td>
-<td>No</td>
+<td>Hayır</td>
 <td>
 <p>Toplu iş numarası: Hayır</p>
 <p>Seri numarası: Hayır</p>
@@ -399,7 +399,7 @@ Satınalmada, **Kalite ilişkilendirmeleri** sayfasında **Olay türü** alanın
 </tr>
 <tr>
 <td>Sabit miktar: 2</td>
-<td>No</td>
+<td>Hayır</td>
 <td>
 <p>Toplu iş numarası: Evet</p>
 <p>Seri numarası: Evet</p>

@@ -143,7 +143,7 @@ Bunca çeşitli tümleştirme teknolojileri mevcutken, kullanılacak tümleştir
 | BYOD                   | Evet, İnsan Kaynakları'nda yönetici tarafından zamanlanır        | Zaman Uyumsuz, Toplu                                | Hayır<sup>3</sup>                                    | Yüksek (yüz binlerce kayıt)                    | Tüm DMF varlıklarını destekler           |
 | OData etkin varlıklar | Evet, ara yazılım kullanarak                    | Zaman Uyumlu                                        | Evet, İnsan Kaynakları Veri Hizmeti (OData) ile  | Kullanım durumuna göre değişir (etkileşimli kullanım için sayfalamayı destekler) | Yüksek                                |
 | Excel Eklentisi           | Hayır                                       | Zaman Uyumlu                                        | Hayır                                        | Orta (on binlerce kayıt)                      | Tüm OData etkin varlıkları destekler |
-| Veri Tümleştirici        | Evet, Veri Tümleştirici'de zamanlanır        | Zaman Uyumsuz, Toplu                                | No                                        | Kullanım durumuna göre değişir                                       | Tüm Dataverse tablolarını destekler           |
+| Veri Tümleştirici        | Evet, Veri Tümleştirici'de zamanlanır        | Zaman Uyumsuz, Toplu                                | Hayır                                        | Kullanım durumuna göre değişir                                       | Tüm Dataverse tablolarını destekler           |
 
 <sup>2</sup>Microsoft, Dataverse tabloları için veri kapsamını artırmaya büyük yatırım yapmaktadır. Kapsam kullanılabilir olduğunda Dataverse kullanmanızı öneririz. Şu anda Dataverse veri kapsamı DMF ve OData etkin varlıklara göre düşüktür.
 

@@ -34,7 +34,7 @@ Bu numaralandırma Human Resources sanal varlıklarındaki tipik Boole özellikl
 
 | Değer | Etiket | Tanım |
 | --- | --- | --- |
-| 200000000 | No | Hayır. |
+| 200000000 | Hayır | Hayır. |
 | 200000001 | Evet | Evet. |
 
 ## <a name="see-also"></a>Ayrıca bkz.

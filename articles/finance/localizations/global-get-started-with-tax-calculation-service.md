@@ -201,7 +201,7 @@ Bu bölümdeki ayarlama tüzel kişilik tarafından gerçekleştirilir. Finance'
 3. **Hesaplama** sekmesinde, tüzel kişilik için beklenen yuvarlama kuralını tanımlayın. Yuvarlama mantığı hakkında daha fazla bilgi için bkz. [Vergi hesaplama yuvarlama kuralları](https://go.microsoft.com/fwlink/?linkid=2166988).
 4. **Hata işleme** sekmesinde, tüzel kişilik için beklenen hata işleme yöntemini tanımlayın. Kullanılabilir üç seçenek vardır:
 
-    - No
+    - Hayır
     - Uyarı
     - Hata
 

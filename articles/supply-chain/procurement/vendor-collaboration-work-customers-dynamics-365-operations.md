@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575399"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777633"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı işbirliği
 
@@ -102,7 +102,7 @@ Kamu sektöründe çalışan bir kişi, genele açık olarak sunulan açık ve s
 
     Teklif vermek üzere davet edildiyseniz, aynı RFQ'yu **Yeni teklif davetleri** sayfasında da görebilirsiniz. Bazı durumlarda, açık olan ancak teklif vermek üzere davet edilmediğiniz bir RFQ için teklif vermek isteyebilirsiniz. Bu durumda, müşterinin RFQ servis talebi için kendi kendine daveti etkinleştirilmiş olması durumunda kendi kendinizi davet edebilirsiniz.
 
-    **"Yayımlanmış teklif isteklerini aç" bağlantısını bir döşeme özelliği olarak görüntüle** özelliğini açarak **Yayımlanmış teklif isteklerini aç** bağlantısının erişilebilirliğini geliştirin. Bu özellik, bağlantıyı döşemeye dönüştürür ve kolayca bulunması için belirgin bir konuma taşır.
+    **"Yayımlanmış teklif isteklerini aç" bağlantısını bir döşeme özelliği olarak görüntüle** özelliğini açarak **Yayımlanmış teklif isteklerini aç** bağlantısının erişilebilirliğini geliştirin. Bu özellik, bağlantıyı döşemeye dönüştürür ve kolayca bulunması için belirgin bir konuma taşır. (Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır.)
 
 - Genele sunulan kapalı RFQ'ların listesini görmek için **Kapalı yayımlanan teklif talepleri** bağlantısını seçin. Kapalı bir RFQ süresi dolmuş bir RFQ'dur. Bitiş tarihini ve saatini RFQ başlığında görebilirsiniz.
 

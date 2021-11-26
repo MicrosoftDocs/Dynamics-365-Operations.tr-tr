@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd1906200038c27e63f9434bba27e7146f4c80c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575620"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778143"
 ---
 # <a name="monitor-a-master-planning-run"></a>Master planlama çalışmasını izleme
 
@@ -33,7 +33,7 @@ ms.locfileid: "7575620"
 Bu işlevi kullanmak için aşağıdaki adımları izleyin.
 
 1. **Özellik yönetimi** çalışma alanındaki **Yeni** sekmesinde, listeden **Master planlama ilerlemesi görselleştirmesi**'ni seçin. Özellik, **Yeni** sekmesinde görünmüyorsa **Etkileştirilmemiş** ve **Tümü** sekmelerine bakın.
-1. **Şimdi etkinleştir**'i seçin. Alternatif olarak, **Planla**'yı seçin ve ardından özelliğin açılmasını istediğiniz zamanı seçin.
+1. **Şimdi etkinleştir**'i seçin. Alternatif olarak, **Planla**'yı seçin ve ardından özelliğin açılmasını istediğiniz zamanı seçin. (Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır.)
 
 **Master planlama ilerlemesini görüntüleme** sayfası hem geçmiş planlama işlerini hem de etkin planlama işlerini görüntüleyebilir. 
 

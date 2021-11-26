@@ -170,7 +170,7 @@ Sistemi standart saat ile fazla mesaiyi açıkça ayıracak şekilde yapılandı
 
 | Kayıt belirtimi | Profil belirtim türü | Hesaplama   | Ayar | Ödendi         | Ayar |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Çalışma zamanı       | Fazla mesai                   | Standart zaman | Evet | Ödeme zamanı     | No  |
+| Çalışma zamanı       | Fazla mesai                   | Standart zaman | Evet | Ödeme zamanı     | Hayır  |
 |                    |                            | Ödeme zamanı      | Evet | Fazla mesai ödemesi | Evet |
 
 Hesaplama parametrelerini ayarladıktan sonra, aşağıdaki ödeme maddeleri oluşturulur.

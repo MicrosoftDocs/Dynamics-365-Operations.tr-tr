@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386697"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781356"
 ---
 # <a name="party-and-global-address-book"></a>Taraf ve genel adres defteri
 
@@ -31,7 +31,7 @@ Taraf, bir işle ilgisi bulunan bir kişi veya kuruluştur. Kişi veya kuruluş,
 + **Çalışan** – Bir personel. Örnek olarak bir Contoso personelini verebiliriz.
 + **Satıcı** – Bir tedarikçi kuruluş veya bir işletmeye mal veya servis sağlayan tek bir sahip anlamına gelir. Örneğin, Fabrikam Contoso'ya malzeme satıyorsa Fabrikam, Contoso'nun bir satıcısıdır.
 + **İlgili kişi** – İletişime geçilecek kişi. Örneğin, Contoso Fabrikam'dan malzeme satın alıyorsa Contoso'daki bir personel Fabrikam'daki ilgili kişiyle bağlantı kurar.
-+ **Müşteri** – Bir şirketten bir şey satın alan kişi veya şirkettir. Örneğin, Contoso Fabrikam'dan malzeme satın alıyorsa Contoso bir Fabrikam müşterisidir.
++ **Müşteri** – Bir şirketten bir şey satın alan kişi veya şirkettir. Örneğin, Contoso Fabrikam'dan malzeme satın alıyorsa o zaman Contoso bir Fabrikam müşterisidir.
 
 Taraf modeli, özellikle bir taraf birden fazla rol oynadığında kuruluşlar ve kişiler arasındaki orta seviye ve karmaşık ilişkileri temsil etmek için kullanılır. Burada bazı genel örnekler verilmiştir:
 

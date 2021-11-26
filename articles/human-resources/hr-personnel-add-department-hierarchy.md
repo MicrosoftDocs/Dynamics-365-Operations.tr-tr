@@ -1,8 +1,8 @@
 ---
 title: Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
-description: Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden işletme bir birimdir. Departman satış, muhasebe veya İnsan kaynakları gibi kuruluşun belirli bir alanından sorumludur. İşlevsel alanlara bildirmek için bölümleri kullanabilirsiniz. Departmanların kâr ve zarar sorumluluğu olabilir.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden işletme bir birimdir. Departman satış, muhasebe veya İnsan kaynakları gibi kuruluşun belirli bir alanından sorumludur.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1fa6d2b18a1b92236a153e453560430cc0d4c1c6e2cde0431c1e1cc68128bd0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2caa4f1e7be4be54766921a9e38c97d22b8200c7
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727029"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731624"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
 
@@ -32,15 +32,15 @@ Bir departman maliyet merkezleri grubu da içerebilir. Departmanlar için pozisy
 
 | Alan               | Açıklama                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dosya Adı                | Departman için bir ad girin.                                                                                                                                                                                  |
-| Departman numarası   | **Numara serileri** sayfasında **kuruluş numarası**'na bir numara serisi kodu atadıysanız varsayılan değer otomatik olarak oluşturulabilir.                                                 |
-| Arama adı         | Departman için aramada kullanılabilecek bir ad veya kısa ad girin.                                                                                                                                            |
-| Not                | Buraya ek bilgi girin                                                                                                                                                                            |
-| Hiyerarşide        | Seçili bir onay kutusu, departman hiyerarşisine bir departman dahil edildiğini gösterir. Bir bölümü bölüm hiyerarşisine ekleme hakkında daha fazla bilgi için bu makalenin ilerisindeki bilgilere bakın. |
-| DUNS numarası         | DUNS Veri Evrensel Sayı Sistemi anlamına gelir. Bu, Dun & Bradstreet tarafından verilen bir dokuz basamaklı bir sayıdır.                                                                                                     |
-| Yönetici             | Departmanı yöneten kişiyi girin.                                                                                                                                                                    |
-| Adresler           | Departman için adres bilgilerini ekleyin. Örneğin, departmanın bulunduğunu bina için posta adresini ekleyin.                                                                          |
-| İletişim bilgileri | Departman için ilgili kişi verilerini ekleyin. Örneğin, departmanda hizmet masası için bir telefon numarası ekleyin.                                                                                           |
+| **Dosya Adı**                | Departman için bir ad girin.                                                                                                                                                                                  |
+| **Departman numarası**   | **Numara serileri** sayfasında **kuruluş numarası**'na bir numara serisi kodu atadıysanız varsayılan değer otomatik olarak oluşturulabilir.                                                 |
+| **Arama adı**         | Departman için aramada kullanılabilecek bir ad veya kısa ad girin.                                                                                                                                            |
+| **Not**                | Buraya ek bilgi girin                                                                                                                                                                            |
+| **Hiyerarşide**        | Seçili bir onay kutusu, departman hiyerarşisine bir departman dahil edildiğini gösterir. Bir bölümü bölüm hiyerarşisine ekleme hakkında daha fazla bilgi için bu makalenin ilerisindeki bilgilere bakın. |
+| **DUNS numarası**         | DUNS Veri Evrensel Sayı Sistemi anlamına gelir. Bu, Dun & Bradstreet tarafından verilen bir dokuz basamaklı bir sayıdır.                                                                                                     |
+| **Yönetici**             | Departmanı yöneten kişiyi girin.                                                                                                                                                                    |
+| **Adresler**           | Departman için adres bilgilerini ekleyin. Örneğin, departmanın bulunduğunu bina için posta adresini ekleyin.                                                                          |
+| **İletişim bilgileri** | Departman için ilgili kişi verilerini ekleyin. Örneğin, departmanda hizmet masası için bir telefon numarası ekleyin.                                                                                           |
 
 Bölüm hiyerarşisine bir bölüm eklemek için aşağıdaki adımları izleyin.
 

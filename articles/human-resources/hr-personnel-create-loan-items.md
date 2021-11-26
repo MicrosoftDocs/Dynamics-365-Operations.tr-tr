@@ -1,8 +1,8 @@
 ---
 title: Ödünç verme maddeleri oluştur
 description: Ödünç verilen maddeler, telefonlar veya bilgisayarlar gibi şirketinizin çalışanlarına ödünç verdiği fiziksel öğeleri izlemek için yardımcı kayıtlardır.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp, Hcm
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5fb303015c3616bd2d033517bc21fda0834e9135b92e16374df26a98188c75ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a812887f20a8ae5ae3b677ac452a498230c244a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718095"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731748"
 ---
 # <a name="create-loan-items"></a>Ödünç verme maddeleri oluştur
 
@@ -30,32 +30,32 @@ ms.locfileid: "6718095"
 
 
 ## <a name="create-loan-types"></a>Ödünç verme türleri oluşturma
-1. İnsan Kaynakları > Çalışanlar > Ödünç maddeler > Ödünç verme türleri seçeneğine gidin.
-2. Yeni'ye tıklayın.
-3. Ödünç verme türü alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
+1. **İnsan Kaynakları** > **Çalışanlar** > **Ödünç maddeler** > **Ödünç verme türleri** seçeneğine gidin.
+2. **Yeni**'yi tıklatın.
+3. **Ödünç verme türü** alanına bir değer yazın.
+4. **Tanım** alanına bir değer girin.
 5. Bu ödünç verme türüne atanan maddelerin süresinin geçebileceği gün sayısını girin. 
-6. Kaydet'e tıklayın.
+6. **Kaydet**'e tıklayın.
 7. Sayfayı kapatın.
 8. Sayfayı yenileyin.
 
 ## <a name="create-loan-items"></a>Ödünç verme maddeleri oluşturun
-1. İnsan Kaynakları > Çalışanlar > Ödünç maddeler > Ödünç verilen maddeler seçeneğine gidin.
-2. Ödünç verilen maddeler oluşturma'ya tıklayın.
-3. Miktar'da bir sayı girin.
-4. Açıklama alanına bir değer girin.
-5. Ödünç verme türü alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+1. **İnsan Kaynakları** > **Çalışanlar** > **Ödünç maddeler** > **Ödünç verilen maddeler** seçeneğine gidin.
+2. **Ödünç verilen maddeler oluşturma**'ya tıklayın.
+3. **Miktar**'da bir sayı girin.
+4. **Tanım** alanına bir değer girin.
+5. **Ödünç verme türü** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 6. Listede, istenen kaydı bulun ve seçin.
 7. Listede, seçili satırdaki bağlantıya tıklayın.
 8. Maddenin ödünç verilebileceği gün sayısını girin.
     * Ödünç verilen ekipman sayfasındaki Planlanan iade alanında bulunan varsayılan değer geçerli tarih ve bu sayı toplanarak hesaplanır.  
-9. Sorumlu kişi alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-10. Seç'e tıklayın.
-11. Başlangıç değeri alanına bir numara girin.
-12. Aralık alanına bir sayı girin.
-13. Biçim alanına bir değer yazın.
-    * Örneğin, ödünç verilen madde için başlangıç numarası 10 ise, Biçim alanında iki sayı sembolü girin.  
-14. Tamam'a tıklayın.
+9. **Sorumlu kişi** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+10. **Seç**'e tıklayın.
+11. **Başlangıç değeri** alanına bir numara girin.
+12. **Aralık** alanına bir sayı girin.
+13. **Biçim** alanına bir değer yazın.
+    * Örneğin, ödünç verilen madde için başlangıç numarası 10 ise, **Biçim** alanında iki sayı sembolü girin.  
+14. **Tamam**'a tıklayın.
 15. Sayfayı yenileyin.
 
 

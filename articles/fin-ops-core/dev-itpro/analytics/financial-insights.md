@@ -89,8 +89,8 @@ Aşağıdaki karşılaştırma grafiği iki seçeneğin ayrılmasına yardımcı
 
 | Özellik                                                   | Financial Reporting                                               | Mali analiz |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Varsayılan raporları düzenle**                                 | Evet                                                               | No |
-| **Yeni raporlar oluştur**                                   | Evet                                                               | No |
+| **Varsayılan raporları düzenle**                                 | Evet                                                               | Hayır |
+| **Yeni raporlar oluştur**                                   | Evet                                                               | Hayır |
 | **Raporları yazdır**                                        | Evet                                                               | Hayır |
 | **Excel'e aktar**                                      | Evet                                                               | Sınırlı Ham verileri Excel'e aktarır, biçimlendirilmiş bir rapora değil |
 | **Raporlama hiyerarşisini/Kuruluş hiyerarşisini destekle**   | Evet                                                               | Hayır |

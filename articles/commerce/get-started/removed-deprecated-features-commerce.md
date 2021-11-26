@@ -101,7 +101,7 @@ ModernPos.sln, CloudPOs.sln, POS.Extension.csproj ve POS klasörünü kullanarak
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu sürümden itibaren, Dynamics 365 Headquarters'daki **Commerce planlayıcı parametreleri** formunda, **Gün cinsinden tam veri kümesi oluşturma aralığı** alanı kullanım dışı olacaktır. Ayrıca, bu sürümden itibaren, değerin düzenlenememesi için alan görsel olarak kaldırılır. Bu, **0** değeri olarak kalır. |
-| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | Dynamics 365 Commerce |
 | **Dağıtım seçeneği**              | Tümü|
 | **Durum**                         | Kaldırıldı. Bu alanı kullanmayın veya içindeki değeri değiştirmeyin.|

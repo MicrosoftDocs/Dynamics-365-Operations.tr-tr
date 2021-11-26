@@ -1,8 +1,8 @@
 ---
 title: Teams'de izin isteklerini yönetme
 description: Bu konuda Microsoft Teams uygulamasındaki Dynamics 365 Human Resources uygulamasında, nasıl izin isteneceği gösterilmektedir.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94fa4dca7ff8372d4cf1aeee225e821574f4104048db5ad8a816be2bce496de8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725878"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771543"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 
@@ -41,7 +41,7 @@ Dynamics 365 Human Resources uygulamasını Teams mağazasında bulabilirsiniz.
 Uygulama otomatik olarak oturum açmazsa oturum açmak için **Ayarlar** sekmesini seçin.
 
 > [!NOTE]
-> Oturum açma iletişim kutusunu görmüyorsanız açılır pencerelere izin vermek için tarayıcı ayarlarınızı kontrol edin. 
+> Oturum açma iletişim kutusunu görmüyorsanız açılır pencerelere izin vermek için tarayıcı ayarlarınızı güncelleştirin. 
 
 Birden fazla Human Resources örneğine erişiminiz varsa **Ayarlar** sekmesinden, hangi ortama bağlanmak istediğinizi seçebilirsiniz.
 
@@ -53,13 +53,13 @@ Birden fazla Human Resources örneğine erişiminiz varsa **Ayarlar** sekmesinde
 Uygulama yüklendikten sonra botun, sizin adınıza gerçekleştirebileceği eylem türlerini bildiren bir hoş geldiniz iletisi görüntülenir.
 
 > [!NOTE]
-> Bot ile ilk kez etkileşimde bulunurken oturum açmanız gerekebilir. Oturum açma iletişim kutusunu görmüyorsanız açılır pencerelere izin vermek için tarayıcı ayarlarınızı kontrol edin.
+> Bot ile ilk kez etkileşimde bulunduğunuzda oturum açmanız gerekir. Oturum açma iletişim kutusunu görmüyorsanız açılır pencerelere izin vermek için tarayıcı ayarlarınızı güncelleştirin.
 
 Bottan şunları isteyebilirsiniz:
 
 - Geçerli çıkış bakiylerinizi görüntüleyin. Örneğin, "bakiyeleri görüntüle" yazan bir ileti gönderin.
 
-- Kendiniz için bir izin isteği başlatın. Örneğin, "izin al" veya "sonraki Perşembe ve Cuma günleri izin almak istiyorum" şeklinde bir ileti gönderin, böylece tatil izin türüne izin vermek üzere daha belirgin olur. 
+- Kendiniz için bir izin isteği başlatın. Örneğin, "İzin al" veya "Sonraki Perşembe ve Cuma günleri izin almak istiyorum" şeklinde bir ileti gönderin, böylece tatil izin türüne izin vermek üzere daha belirgin olur. 
 
   ![Teams sohbetinde izin isteği başlatma.](./media/hr-teams-leave-app-initiate.png)
 
@@ -113,7 +113,7 @@ Bottan şunları isteyebilirsiniz:
    
 ### <a name="respond-to-teams-notifications"></a>Teams bildirimlerini yanıtlama
 
-Siz veya onaylayan taraf olduğunuz bir çalışan izin talebi gönderdiğinde, Teams'de Human Resources uygulamasından bir bildirim alırsınız. Görüntülemek için bildirimi seçebilirsiniz. Bildirimler **Sohbet** alanında da görünür.
+Siz veya onaylayan taraf olduğunuz bir çalışan izin talebi gönderdiğinde, Teams'de Human Resources uygulamasından bir bildirim alırsınız. Ayrılma isteğini görüntülemek için bildirimi seçebilirsiniz. Bildirimler **Sohbet** alanında da görünür.
 
 Onaylayan iseniz, bildirimden **Onayla** veya **Reddet** seçeneklerini belirleyebilirsiniz. Ayrıca, isteğe bağlı bir ileti de sağlayabilirsiniz.
 
@@ -167,7 +167,7 @@ Dynamics 365 Human Resources Teams uygulamasında oturum açarken veya uygulamay
 
 Uygulamada oturum açamazsınız, Microsoft Teams'de oturum açarken kullandığınız hesap Dynamics 365 Human Resources'taki bir personel kaydıyla ilişkilendirilmemiş olabilir. Çalışan kaydınızın doğru bir şekilde ilişkilendirildiğinden emin olmak için sistem yöneticinize başvurun.
 
-### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Ayarlar'da Dynamics 365 Human Resources ortamını bulamıyorum
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Ayarlarda Dynamics 365 Human Resources ortamını bulamıyorum
 
 Doğru Dynamics 365 ortamını seçemiyorsanız kullanıcı kaydı doğru eşitlenmemiş olabilir. Kullanıcı kaydını yeniden oluşturmak ve kullanıcı kimlik bilgileriyle ilişkilendirmek için sistem yöneticinize başvurun. Ardından birkaç dakika içinde Microsoft Teams için Human Resources uygulamasında oturum açmayı deneyin.
 
@@ -199,7 +199,7 @@ Teams uygulamasında izin isteklerini onaylamaya çalışırken hata alırsanız
 
 2. Kullanıcıların, **Sohbet** sekmesinde izin isteklerini onaylamak için kullandıkları kimlik bilgileriyle oturum açtığından emin olun. Doğru kimlik bilgileriyle oturum açmak için "oturumu Kapat" ve ardından "oturum aç" iletilerini kullanın.
 
-3. Sorun devam ederse, sistem yöneticisi olarak İş Olayları sistem toplu işinin durumunu denetleyin. Bekleme veya yürütme aşamasındaysa, birkaç dakika sonra yeniden denetleyin. Durum değişmeden kalırsa, bir destek bileti oluşturun. Böylece ekibimiz sorunu gidermeye yardımcı olur.
+3. Sorun devam ederse, sistem yöneticisi olarak **İş Olayları sistem** toplu işinin durumunu denetleyin. **Bekleme** veya **Yürütme** aşamasındaysa, birkaç dakika sonra yeniden denetleyin. Durum değişmeden kalırsa, bir destek bileti oluşturun. Böylece ekibimiz sorunu gidermeye yardımcı olur.
 
 ## <a name="known-accessibility-issues"></a>Bilinen erişilebilirlik sorunları
 
@@ -208,7 +208,7 @@ Teams'te Human Resources uygulama, gelecekteki sürümlerde düzeltilirken aşa�
 | Çıkış | Geçici çözüm veya açıklama |
 | --- | --- |
 | Masaüstünde %400 yakınlaştırma eylemi, bazı eylem düğmelerini görünümden gizler. | Bu yakınlaştırma düzeyini destekleyene kadar bunun yerine Büyüteç kullanmanızı öneririz. |
-| **Zaman aşımı** sekmesinde, VoiceOver zaman kılavuzu için üstbilgiyi okurken düğme eylemini duyurur. | Kılavuz içindeki başlık ve öğeler yıla göre gruplandırılır ve bunlar daraltılabilir öğelerdir. VoiceOver, bunu işlem yapılabilir bir madde olarak yorumlar, ancak böyle değildir. |
+| **Zaman aşımı** sekmesinde, VoiceOver zaman kılavuzu için üstbilgiyi okurken düğme eylemini duyurur. | Kılavuz içindeki başlık ve öğeler yıla göre gruplandırılır ve bunlar daraltılabilir öğelerdir. VoiceOver, bu sunumu yapılabilir bir madde olarak yorumlar, ancak böyle değildir. |
 | **İzin süresi** sekmesinde, Yeni bir istekte **neden koduna** giderken fazladan bir çekme hareketi vardır. | Çekme gezintisinin alınmaya çalıştığı gizli denetim yoktur. |
 | **İzin süresi** sekmesinde, takvim açıkken çekme yaparken yeni bir istekte en üstte veya bir istek düzenlenirken denetimin dışında sona erer. | **Bugüne git**'e ulaştığınızda , denetimin sonuna kadar, en üste geri dönmek için ters yönde çekin. |
 | **Sohbet** sekmesinde, yardımcı aracı veya klavye gezintisini kullanırken bir tarih girdiğinizde odak en üste geri atlar. | Sekmesini yeniden girin. |
@@ -219,7 +219,7 @@ Teams'te Human Resources uygulama, gelecekteki sürümlerde düzeltilirken aşa�
 
 Microsoft Teams platformundaki Dynamics 365 Human Resources botu ile kullanıcının metin girişleri, temel alınan sorguyu/amacı anlamak için analiz edilir. Kullanıcının "Arama hesabı Contoso" şeklindeki girişi Microsoft’un Cognitive Service'lerinden biri olan Language Understanding Intelligent Service (LUIS) adındaki hizmete yönlendirilir. LUIS hakkında daha fazla bilgiyi  [buradan](https://www.luis.ai/) edinebilirsiniz. LUIS hizmeti, kullanıcı girdisinin amacı (bu durumda amaç bilgi bulmaktır) ile amaçlanan hedef varlığı (bu durumda, amaçlanan varlık Contoso adlı bir hesaptır) belirginleştirir veya anlar. Bu bilgiler daha sonra, Dynamics 365 Human Resources uygulamasından gelen verilerle etkileşime giren ve kullanıcı sorgusu için istenen bilgileri alan Microsoft'un  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/) servisine aktarılır. 
 
-Botu kurarak ve kullanıma erişimine izin vererek LUIS hizmetinin ve Azure bot çerçevesinin, girdinin arkasındaki amacı işlemesine izin vermesini kabul edersiniz; bu da gelişmiş bir etkileşimli kullanıcı deneyimi sağlar. LUIS hizmeti ve Azure bot çerçevesi, Dynamics 365 Human Resources ile karşılaştırıldığında farklı uyum düzeylerine sahip olabilir. LUIS hizmeti, yalnızca kullanıcı sorgularına erişebilecek ve kullanıcının Dynamics 365 Human Resources verilerine veya hesabına bağlanacak şekilde tasarlanmamış olmasına rağmen Dynamics 365 Human Resources botunun bir kullanıcısı; Müşteri Verilerini, Kişisel Verileri veya diğer verileri içeren bir sorguya gönüllü olarak girebilir ve bu sorgu içeriğini LUIS hizmetine ve Azure bot çerçevesine gönderilebilir. 
+Botu kurarak ve kullanıma erişimine izin vererek LUIS hizmetinin ve Azure bot çerçevesinin, girdinin arkasındaki amacı işlemesine izin vermesini kabul edersiniz; bu da gelişmiş bir etkileşimli kullanıcı deneyimi sağlar. LUIS hizmeti ve Azure bot çerçevesi, Dynamics 365 Human Resources ile karşılaştırıldığında farklı uyum düzeylerine sahip olabilir. LUIS hizmeti, yalnızca kullanıcı sorgularına erişebilecek ve kullanıcının Dynamics 365 Human Resources verilerine veya hesabına bağlanacak şekilde tasarlanmamış olmasına rağmen Dynamics 365 Human Resources botunun bir kullanıcısı; Müşteri Verilerini, Kişisel Verileri veya diğer verileri içeren bir sorguya gönüllü olarak girebilir ve bu sorgu içeriğini LUIS hizmetine ve Azure Bot Framework'e gönderilebilir. 
 
 Kullanıcıya ait sorguların ve iletilerin içeriği LUIS sisteminde en fazla 30 gün saklanır, bekleme sırasında şifrelenir ve eğitim veya hizmet iyileştirmesi için kullanılmaz. Cognitive Services hakkında daha fazla bilgiyi  [buradan](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/) edinebilirsiniz. 
 
@@ -227,7 +227,7 @@ Microsoft Teams platformundaki uygulamaların yönetici ayarlarını yönetmek i
 
 ### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid ve Azure Cosmos DB
 
-Microsoft Teams'de Dynamics 365 Human Resources uygulamasını kullanılırken, belirli müşteri verileri kiracının Human Resources hizmetinin dağıtıldığı coğrafi bölgenin dışına akabilir.
+Microsoft Teams'te Dynamics 365 Human Resources uygulamasını kullanılırken, belirli müşteri verileri kiracının Human Resources hizmetinin dağıtıldığı coğrafi bölgenin dışına akabilir.
 
 Dynamics 365 Human Resources çalışanın izin talebini ve iş akışı görev ayrıntılarını Microsoft Azure Event Grid ve Microsoft Teams uygulamalarına iletir. Bu veriler 24 saate kadar Microsoft Azure Event Grid uygulamasında saklanabilir ve Amerika Birleşik Devletlerinde işlenir, iletim ve bekleyen veri şifrelenir ve eğitim veya hizmet iyileştirmeleri için Microsoft veya onun alt işlemcileri tarafından kullanılmaz. Verilerinizin Teams içinde nerede depolandığını anlamak için bkz. [Microsoft Teams içinde verilerin konumu](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 

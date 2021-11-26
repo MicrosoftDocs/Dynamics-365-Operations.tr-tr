@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647201"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777973"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
@@ -39,7 +39,7 @@ Bu konu, iş kartı aygıtını konfigüre etmek için çeşitli seçenekleri a�
 
 ### <a name="the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimi
 
-Bu konu, bu başlıkta açıklanan birincil özelliktir. Üretim katı yürütme arabirimini sisteminize ekler. Etkinleştirmek için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özellikleri açın:
+Bu konu, bu başlıkta açıklanan birincil özelliktir. Supply Chain Management sürüm 10.0.21 itibariyle, varsayılan olarak açıktır. Üretim katı yürütme arabirimini sisteminize ekler. Etkinleştirmek için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özellikleri açın:
 
 - Üretim katı yürütmesi
 
@@ -47,19 +47,19 @@ Bu konu, bu başlıkta açıklanan birincil özelliktir. Üretim katı yürütme
 
 Bu özellikler, üretim katı yürütme arabiriminin plaka işlevlerini kullanılabilir hale getirir. Bu özelliği kullanmak istiyorsanız [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin (bu sırayla):
 
-1. İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası
+1. İş Kartı Cihazına eklenme işi tamamlandı bildirimi için plaka (Supply Chain Management sürüm 10.0.21'den itibaren bu özellik varsayılan olarak etkindir.)
 1. İş kartı cihazında tamamlandı olarak bildirme sırasında otomatik plaka numarası oluşturmayı etkinleştirin
 
 ### <a name="print-labels"></a>Etiket yazdır
 
 Bu özellikler, üretim katı yürütme arabiriminin etiket yazdırma işlevlerini kullanılabilir hale getirir. Bu özelliği kullanmak istiyorsanız [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin (bu sırayla):
 
-1. İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası
+1. İş Kartı Cihazına eklenme işi tamamlandı bildirimi için plaka (Supply Chain Management sürüm 10.0.21'den itibaren bu özellik varsayılan olarak etkindir.)
 1. İş Kartı Cihazından etiket yazdır
 
 ### <a name="allow-locking-the-touch-screen"></a>Dokunmatik ekranın kilitlenmesini sağla
 
-Bu özellik, çalışanların dokunmatik ekranı hijyenik hale getirmesini sağlayan üretim katı yürütme arabirimine bir düğme ekler. Kullanmak için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özellikleri açın:
+Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Çalışanların dokunmatik ekranı hijyenik hale getirmesini sağlayan üretim katı yürütme arabirimine bir düğme ekler. Bu özelliği kullanmak istiyorsanız [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özelliği açın:
 
 - Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği
 

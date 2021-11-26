@@ -2,7 +2,7 @@
 title: Nakit akışı tahminini etkinleştirme
 description: Bu konuda, Mali İçgörüler'de Nakit akışı tahminleri özelliğinin nasıl açılacağı açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,45 +15,37 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b5e54772b132b4098df8259e954a484a0838ee38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: d968f28126cf205a487d84301aa28f1251713386
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386723"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752700"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Nakit akışı tahminini etkinleştirme
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, Mali İçgörüler'de Nakit akışı tahminleri özelliğinin nasıl açılacağı açıklanmaktadır.
+Bu konuda, Finance Insights'da Nakit akışı tahminleri özelliğinin nasıl açılacağı açıklanmaktadır.
 
 > [!NOTE]
 > Nakit akışında ödeme tahminlerini kullanmak için [Müşteri ödeme tahminlerini etkinleştirme](enable-cust-paymnt-prediction.md) konusunda anlatılan şekilde Müşteri ödeme tahminleri özelliğini ayarlamanız gerekir.
-
-1. Ortamın birincil Azure SQL kurulumuna bağlanmak için Microsoft Dynamics Lifecycle Services (LCS) portalındaki ortam sayfasında yer alan bilgileri kullanın. Korumalı alan ortamına sınırlı dağıtımları açmak için aşağıdaki Transact-SQL (T-SQL) komutunu çalıştırın. (Uygulama Nesne Sunucusu \[AOS\] hizmetine uzaktan bağlanmadan önce IP adresinize erişimi açmanız gerekebilir.)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
-
-    > [!NOTE]
-    > Sürüm 10.0.20 veya sonrasını kullanıyorsanız veya bir Service Fabric dağıtımı kullanıyorsanız bu adımı atlayın. Mali içgörüler ekibi, bu sınırlı dağıtımı sizin için açmış olmalıdır. Özelliği **Özellik yönetimi** çalışma alanında görmüyorsanız veya özelliği açmaya çalışırken sorun yaşıyorsanız <fiap@microsoft.com> adresiyle iletişime geçin.
   
-2. **Özellik yönetimi** çalışma alanını açın ve şu adımları izleyin:
+1. **Özellik yönetimi** çalışma alanını açın ve şu adımları izleyin:
 
     1. **Güncelleştirmeleri denetle**'yi seçin.
-    2. Aşağıdaki özellikleri açın:
+    2. **Tümü** sekmesinde, **Nakit akışı tahminlerini** arayın. Bu özelliği bulamazsanız **(Önizleme) Nakit akışı tahminleri**'ni arayın. 
+    3. Özelliği etkinleştirin.
 
-        - Yeni kılavuz denetimi
-        - Izgaralarda gruplandırma (önizleme) 
-        - Müşteriye ödeme tahminleri (önizleme)
-        - Nakit akışı tahminleri (önizleme)
-
-3. **Nakit ve banka yönetimi \> Nakit akışı tahmin kurulumu** bölümüne gidin ve tahminlere eklenmesi gereken likidite hesaplarını ekleyin.
+2. **Nakit ve banka yönetimi \> Nakit akışı tahmin kurulumu** bölümüne gidin ve tahminlere eklenmesi gereken likidite hesaplarını ekleyin. Ayrıca, **Alacak hesapları** ve **Borç hesapları** sekmelerindeki ödemeler için likidite hesabı da ayarlayın. Nakit akışı tahminini yeniden hesaplatın unutmayın.
 
     > [!NOTE]
     > Likidite hesapları ayarlanmamışsa nakit akışı oluşturulamaz.
+    >
+    > Nakit akışı tahminlerini ayarlamak hakkında daha fazla bilgi için bkz: [Nakit akışı tahmini](../cash-bank-management/cash-flow-forecasting.md).
 
-4. **Nakit ve banka yönetimi \> Kurulum \> Mali İçgörüler (preview) \> Nakit akışı tahminleri (önizleme)** bölümüne gidin ve şu adımları izleyin:
+3. **Nakit ve banka yönetimi \> Kurulum \> Mali İçgörüler (preview) \> Nakit akışı tahminleri (önizleme)** bölümüne gidin ve şu adımları izleyin:
 
     1. **Nakit akışı tahmini** sekmesinde, **Özelliği etkinleştir**'i seçin.
     2. **Tahmin modeli oluştur** seçeneğini belirleyin.

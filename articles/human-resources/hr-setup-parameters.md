@@ -1,8 +1,8 @@
 ---
 title: Human Resources parametrelerini yapılandırma
 description: Bu konuda, Dynamics 365 Human Resources'da şirkete özel parametrelerin nasıl ayarlanacağı açıklanmaktadır.
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739263"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771447"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resources parametrelerini yapılandırma
 
@@ -65,7 +65,7 @@ Her sekme, tek bir şirketle ilgili bilgileri içerir.
 
 **İşe Alım** sekmesindeki ayarlar, başvuru sahiplerine otomatik olarak gönderilen yazışmalar için kullanılan belge türlerini tanımlar. Talep edilmemiş başvurular için kullanılan işe alım projesini de belirtebilirsiniz.
 
-İşe alma projesi eskimesi için tanımlanan dönem, **İşe alma yönetimi** çalışma alanındaki **Eskiyen projeler** kutucuğuna dahil edilen işe alma projesini belirleyen işe alma projeleri belirler. Uygulama son başvuru tarihi uyarısı için tanımlanan dönem **işe alma** çalışma alanındaki **son başvuru tarihi yaklaşan** döşemesindeki son başvuru tarihi yaklaşan işe alma projeleri görüntülemek için kullanılan uygulama son uyarısı için kullanılır.
+**İşe alma projesi eskimesi** için tanımlanan dönem,işe alma **İşe alma yönetimi** çalışma alanındaki **Eskiyen projeler** kutucuğuna dahil edilen işe alma projesini belirleyen işe alma projeleri belirler. Uygulama son başvuru tarihi uyarısı için tanımlanan dönem **işe alma** çalışma alanındaki **son başvuru tarihi yaklaşan** döşemesindeki son başvuru tarihi yaklaşan işe alma projeleri görüntülemek için kullanılan uygulama son uyarısı için kullanılır.
 
 İşe alma hakkında daha fazla bilgi için bkz. [İş adaylarını işe alma](hr-personnel-recruit.md).
 
@@ -107,20 +107,20 @@ FMLA sekmesinde FMLA uygunluk gereksinimlerini ve FMLA destek hakkı saatlerini 
 
 ## <a name="employee-self-service"></a>Personel self servisi
 
-**Personel self servisi** sekmesindeki ayarlar, Personel self servisi'nin personele nasıl görüneceğine etki eder. Bu sekmede şunları yapabilirsiniz:
+**Personel self servisi** sekmesindeki ayarlar, **Personel self servisi**'nin personele nasıl görüneceğine etki eder. Bu sekmede aşağıdaki görevleri tamamlayabilirsiniz:
 
-- Personel self servisi çalışma alanı için ad girme
+- **Personel self servisi** çalışma alanı için ad girme
 - Yöneticinin çalışanlar için hangi bilgileri girebileceğini seçme
 - Çalışanlar için yararlı bağlantılar ekleme
 - Çalışanların iletişim bilgilerini eklemelerini veya düzenlemelerini kısıtlama. Daha fazla bilgi için bkz. [Kişisel bilgileri düzenlemeyi kısıtlama](hr-employee-self-service-restrict-editing.md).
 
-Personel self servisi'ni ayarlama hakkında daha fazla bilgi için bkz. [Personel ve Yönetici self servisi'ne genel bakış](hr-employee-manager-self-service-overview.md).
+**Personel self servisi**'ni ayarlama hakkında daha fazla bilgi için bkz. [Personel ve Yönetici self servisi'ne genel bakış](hr-employee-manager-self-service-overview.md).
 
 ![Personel self servisi sekmesi.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Yönetici self servis
 
-**Yönetici self servisi** sekmesindeki ayarlar, yöneticilerin Yönetici self servisinde neler gördüğünü etkiler. Bu sekmede aşağıdaki seçenekleri yapılandırabilirsiniz:
+**Yönetici self servisi** sekmesindeki ayarlar, yöneticilerin **Yönetici self servisinde** neler gördüğünü etkiler. Bu sekmede aşağıdaki seçenekleri yapılandırabilirsiniz:
 
 - Süresi dolan kayıtlar için aralık
 - Bilgi yöneticileri süresi dolan kayıtları görüntüleyebilir
@@ -128,13 +128,13 @@ Personel self servisi'ni ayarlama hakkında daha fazla bilgi için bkz. [Persone
 - Çıkış yapan çalışanların görünümleri
 - Yöneticiler için yararlı bağlantılar
 
-Yönetici self servisi'ni ayarlama hakkında daha fazla bilgi için bkz. [Personel ve Yönetici self servisi'ne genel bakış](hr-employee-manager-self-service-overview.md).
+**Yönetici self servisi**'ni ayarlama hakkında daha fazla bilgi için bkz. [Personel ve Yönetici self servisi'ne genel bakış](hr-employee-manager-self-service-overview.md).
 
 ![Yönetici self servisi sekmesi.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Kazanç yönetimi
 
-Kazanç yönetimi sekmesinde, Kazanç yönetimi için e-posta seçeneklerini yapılandırabilirsiniz. Kazanç yönetimini ayarlama ve kullanma hakkında bilgi için bkz. [Kazanç yönetimine genel bakış](hr-benefits-management-overview.md).
+**Kazanç yönetimi** sekmesinde, Kazanç yönetimi için e-posta seçeneklerini yapılandırabilirsiniz. Kazanç yönetimini ayarlama ve kullanma hakkında bilgi için bkz. [Kazanç yönetimine genel bakış](hr-benefits-management-overview.md).
 
 ![Kazanç yönetimi sekmesi.](./media/hr-setup-parameters-benefits-management.png)
 

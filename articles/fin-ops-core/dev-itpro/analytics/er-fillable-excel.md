@@ -2,7 +2,7 @@
 title: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
 description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488150"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731650"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -85,6 +85,8 @@ ER İşlem tasarımcısının **Eşleme** sekmesinde, bileşenin oluşturulan bi
 
 **Aralık** bileşeni, ER bileşeni tarafından kontrol edilmesi gereken bir Excel aralığını belirtir. Aralığın adı, bu bileşenin **Excel aralığı** özelliğinde tanımlanır.
 
+### <a name="replication"></a>Yineleme
+
 **Yineleme yönü** özelliği, aralığın oluşturulan bir belgede tekrarlanıp tekrarlanmayacağını ve nasıl tekrarlanacağını belirtir:
 
 - **Yineleme yönü** özelliği **Yineleme yok** olarak ayarlanırsa oluşturulan Excel'de uygun Excel aralığı yinelenmez.
@@ -92,6 +94,8 @@ ER İşlem tasarımcısının **Eşleme** sekmesinde, bileşenin oluşturulan bi
 - **Yineleme yönü** özelliği **Yatay** olarak ayarlanırsa oluşturulan Excel'de uygun Excel aralığı yinelenir. Yinelenen her aralık, bir Excel şablonundaki orijinal aralığın sağına yerleştirilir. Yineleme sayısı, ER bileşenine bağlı **Kayıt listesi** türünün bir veri kaynağındaki kayıt sayısı ile tanımlanır.
 
 Yatay yineleme hakkında daha fazla bilgi edinmek için [Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma](tasks/er-horizontal-1.md) bölümündeki adımları izleyin.
+
+### <a name="nested-components"></a>Yuvalanmış bileşenler
 
 **Aralık** bileşeni, adlandırılmış uygun Excel aralıklarındaki değerleri girmek için kullanılan diğer iç içe geçirilmiş ER bileşenlerine sahip olabilir.
 
@@ -105,11 +109,40 @@ Yatay yineleme hakkında daha fazla bilgi edinmek için [Excel raporlarına dina
     > [!NOTE]
     > Excel uygulamasının, girilen değerleri giden belgeyi açan yerel bilgisayarın yerel ayarına göre biçimlendirmesini sağlamak için bu deseni kullanın.
 
+### <a name="enabling"></a>Etkinleştiriliyor
+
 ER İşlem tasarımcısının **Eşleme** sekmesinde, bileşenin oluşturulan bir belgeye konulması gerekip gerekmediğini belirtmek için bir **Aralık** bileşeni için **Etkin** özelliğini yapılandırabilirsiniz:
 
 - **Etkin** özelliğinin bir ifadesi, çalışma zamanında **Doğru** değerini döndürecek şekilde yapılandırılmışsa veya hiçbir ifade yapılandırılmamışsa uygun aralık, oluşturulan belgeye doldurulur.
 - **Etkin** özelliğinin bir ifadesi, çalışma zamanında **Yanlış** değerini döndürecek şekilde yapılandırılmışsa ve bu aralık tüm satırları veya sütunları temsil etmiyorsa oluşturulan belge içinde uygun aralık doldurulmaz.
 - **Etkin** özelliğinin bir ifadesi, çalışma zamanında **Yanlış** değerini döndürmek üzere yapılandırılmışsa ve bu aralık, tüm satırları veya sütunları temsil ediyorsa oluşturulan belge, bu satırları ve sütunları gizli satırlar ve sütunlar olarak içerir.
+
+### <a name="resizing"></a>Yeniden boyutlandırma
+
+Excel şablonunuzu, metin verilerini sunmak üzere hücreleri kullanacak şekilde konfigüre edebilirsiniz. Hücre içindeki metnin tamamının oluşturulmuş belgede görünür olmasını sağlamak için, bu hücreyi metnin otomatik olarak sarmalamak üzere konfigüre edebilirsiniz. Kaydırılan metin tam olarak görülemiyorsa, o hücreyi içeren satırı, yüksekliğini otomatik olarak ayarlamak için de yapılandırabilirsiniz. Daha fazla bilgi için, [Hücrelerdeki kesilmiş verileri düzeltme](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e) bölümündeki "Metni bir hücrede kaydırma" bölümüne bakın.
+
+> [!NOTE]
+> Bilinen bir [Excel sınırlaması](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) nedeniyle, metni sarmalamak üzere hücreleri konfigüre etseniz ve bu hücreleri içeren satırları kaydırılmış metne uyacak şekilde yüksekliğini otomatik olarak ayarlamak için konfigüre etseniz bile, birleştirilmiş hücreler ve bunları içeren satırlar için **AutoFit** ve **Metni kaydır** Excel özelliklerini kullanamazsınız. 
+
+Dynamics 365 Finance sürüm 10.0.23 itibariyle, oluşturulan bir belgede ilgili satır içinde metni sarmalamak üzere yapılandırılmış en az bir birleştirilmiş hücre olduğunda, oluşturulduğu sırada, o satırda iç içe geçmiş hücrelerin içeriğine otomatik olarak uyacak şekilde yapılandırılmış her satırın yüksekliği olan boyutu hesaplamaya zorlayabilirsiniz. Daha sonra hesaplanan yükseklik, satırdaki tüm hücrelerin oluşturulan belgede görünür olmasını sağlamak üzere satırı yeniden boyutlandırmak için kullanılır. Giden belgeler oluşturmak üzere Excel şablonlarını kullanmak üzere yapılandırılmış bir ER biçimi çalıştırdığınızda bu işlevi kullanmaya başlamak için aşağıdaki adımları izleyin.
+
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+2. **Yerelleştirme yapılandırmaları** sayfasında **İlgili bağlantılar** bölümünde **Elektronik raporlama parametreleri** kutucuğunu seçin.
+3. **Elektronik raporlama parametreler** sayfasında, **Çalışma zamanı** sekmesinde, **Satır yüksekliğine otomatik sığdır** seçeneğini **Evet** olarak ayarlayın.
+
+Bu kuralı tek bir ER biçimi için değiştirmek istediğinizde, aşağıdaki adımları tamamlayarak bu biçimin taslak sürümünü güncelleyin.
+
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları**'nı seçin.
+3. **Konfigürasyonlar** sayfasında, sol bölmedeki konfigürasyonlar ağacında, giden belgeler oluşturmak için Excel şablonunu kullanmak üzere tasarlanan bir er konfigürasyonu seçin.
+4. **Sürümler** hızlı sekmesinde durumu **Taslak** olan yapılandırma sürümünü seçin.
+5. Eylem Bölmesinde, **Tasarımcı**'yı seçin.
+6. **Biçim tasarımcısı** sayfasında, sol bölmedeki biçim ağacında Excel şablonuna bağlı Excel bileşenini seçin.
+7. **Biçim** sekmesinde **Satır yüksekliğini ayarla** alanında, çalışma zamanında düzenlenmiş bir ER biçimi tarafından oluşturulan bir giden belgedeki satırların yüksekliğini değiştirmek için zorlanıp zorlanmayacağını belirtmek için bir değer seçin:
+
+    - **Varsayılan** – **Elektronik raporlama parametreleri** sayfasındaki **Satır yüksekliğini otomatik sığdır** alanında konfigüre edilen genel ayarı kullanır.
+    - **Evet** – Genel ayarı geçersiz kılın ve çalışma süresinde satır yüksekliğini değiştirin.
+    - **Hayır** – Genel ayarı geçersiz kılın ve çalışma süresinde satır yüksekliğini değiştirmeyin.
 
 ## <a name="cell-component"></a>Hücre bileşeni
 

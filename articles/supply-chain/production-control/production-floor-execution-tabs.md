@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6752d79a71a673fedb0caff7b6ad1023093269c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570189"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790878"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini tasarlama
 
@@ -53,13 +53,13 @@ Yeni bir sekme oluşturmak ve yapılandırmak için bu adımları izleyin:
 
 1. Sayfanın üst bilgisinde aşağıdaki ayarları yapın:
 
-    - **Sekme adı**: Sekme için bir ad belirtin.
-    - **Ana görünüm**: Önceden tanımlanmış iş listeleri (*Etkin işler*, *Tüm işler* veya *Makinem*) arasında seçim yapın.
-    - **Ayrıntılar görünümü**: Boş bir değer veya **İş ayrıntıları** arasında seçim yapın. Boş değeri seçerseniz, sekmede ayrıntılı görünüm olmaz. **İş detayları**'nı seçerseniz, ayrıntılı görünümde ana görünümdeki iş listesinde seçilen işin ayrıntılı açıklaması yer alır.
+    - **Sekme adı** - Sekme için bir ad belirtin.
+    - **Ana görünüm** - Önceden tanımlanmış iş listeleri (*Etkin işler*, *Tüm işler* ve *Makinem*) arasında seçim yapın.
+    - **Ayrıntılar görünümü** - Boş bir değer veya **İş ayrıntıları** arasında seçim yapın. Boş değeri seçerseniz, sekmede ayrıntılı görünüm olmaz. **İş detayları**'nı seçerseniz, ayrıntılı görünümde ana görünümdeki iş listesinde seçilen işin ayrıntılı açıklaması yer alır.
 
 1. **Birincil araç çubuğu** bölümünde, birincil araç çubuğunda hangi düğmelerin kullanılabilir olmasını istediğinizi seçin. **Kullanılabilir eylemler** sütunu, eklenebilecek tüm düğmelerin listesini gösterir. **Seçilen eylemler** sütunları, geçerli yapılandırmaya dahil edilen tüm düğmelerin listesini gösterir. Sütunlar arasında seçili öğeleri gerektiği gibi taşımak için sütunlar arasındaki düğmeleri kullanın. Düğmelerin kullanıcı arabiriminde sunulduğu sırayı denetlemek için **Seçili eylemler** sütununun yanındaki yukarı ve aşağı düğmelerini kullanın.
 
-1. **İkincil** **araç çubuğu** bölümünde, ikincil araç çubuğunda hangi düğmelerin kullanılabilir olmasını istediğinizi seçin. **Kullanılabilir eylemler** sütunu, eklenebilecek tüm düğmelerin listesini gösterir. **Seçilen eylemler** sütunları, geçerli yapılandırmaya dahil edilen tüm düğmelerin listesini gösterir. Sütunlar arasında seçili öğeleri gerektiği gibi taşımak için sütunlar arasındaki düğmeleri kullanın. Düğmelerin kullanıcı arabiriminde sunulduğu sırayı denetlemek için **Seçili eylemler** sütununun yanındaki yukarı ve aşağı düğmelerini kullanın.
+1. **İkincil araç çubuğu** bölümünde, ikincil araç çubuğunda hangi düğmelerin kullanılabilir olmasını istediğinizi seçin. **Kullanılabilir eylemler** sütunu, eklenebilecek tüm düğmelerin listesini gösterir. **Seçilen eylemler** sütunları, geçerli yapılandırmaya dahil edilen tüm düğmelerin listesini gösterir. Sütunlar arasında seçili öğeleri gerektiği gibi taşımak için sütunlar arasındaki düğmeleri kullanın. Düğmelerin kullanıcı arabiriminde sunulduğu sırayı denetlemek için **Seçili eylemler** sütununun yanındaki yukarı ve aşağı düğmelerini kullanın.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Sekmeyi yapılandırma ile ilişkilendirme
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37d78e97a6c7f9152ab0b893a35a3ae70d5adabc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579652"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778045"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Temel tahminde manüel ayarlamalar yapma
 
@@ -67,7 +67,7 @@ Tahmin hakkında daha fazla bilgi görüntülemek için **Talep tahmini ayrınt�
 
 **Notlar:**
 
--   Özellik yönetiminin **talep tahmini ayrıntılarında tahmin modeli seçimini** etkinleştirirseniz, geçmiş tahmini için **talep tahmin ayrıntıları** sayfasında dahil edilecek tahmin modellerini seçebilirsiniz.
+-   Özellik yönetiminin **talep tahmini ayrıntılarında tahmin modeli seçimini** etkinleştirirseniz, geçmiş tahmini için **talep tahmin ayrıntıları** sayfasında dahil edilecek tahmin modellerini seçebilirsiniz. (Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır.)
 -   Sayfanın **tahmin** bölümünde görülen güven aralığı, güven aralığı üst sınırı ile güven aralığı alt sınırı arasındaki farkı temsil eder. Üst ve alt sınırların değerlerini görmek için, **Grafiksel olarak geçmiş talep ve tahmin** bölümündeki grafikte gezinin.
 -   Talep tahmini Microsoft Azure Machine Learning kullanırsanız oluşturulan tahminde olması gereken güven düzeyi yüzdesini belirtebilirsiniz. Güven aralığı talep tahmini için iyi tahminler olarak hareket eden bir değerler aralığından oluşur. Yüzde 95'lik bir güven düzeyi yüzdesi, talep tahmininin güven aralığı sınırlarının dışına çıkma konusunda yüzde 5'lik bir risk bulunduğunu gösterir.
 

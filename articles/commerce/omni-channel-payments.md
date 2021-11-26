@@ -1,7 +1,7 @@
 ---
 title: Çoklu kanal ödemeleri genel bakışı
 description: Bu konu, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü sağlar.
-author: rubendel
+author: BrianShook
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 11198795ebc09acd740546e0b18260e8ea2ddfc1dcc2ff38feafecc220655f1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b01a5b08304b04b924da20310b6eee0c50e9d0e
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743419"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779730"
 ---
 # <a name="omni-channel-payments-overview"></a>Çoklu kanal ödemeleri genel bakışı
 

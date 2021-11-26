@@ -117,6 +117,3 @@ Aşağıdaki tabloda, projelerin LinkedIn'e nakledilmesi ile ilgili farklı seç
 [Microsoft Dynamics 365 Talent - Attract'te LinkedIn Recruiter ile aday kaynağı bulma](./attract-linkedin-recruiter.md)
 
 [LinkedIn ve Microsoft Dynamics 365 Talent - Attract ile tümleştirmede sorun giderme](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

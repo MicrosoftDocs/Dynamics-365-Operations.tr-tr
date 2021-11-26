@@ -92,8 +92,8 @@ Aşağıdaki tablolarda, bu örnekte kullanılan kiralama için **Genel** ve **�
     | Hareket tarihi       | 01.01.2022 |
     | Kalan dönemler      | 84       |
     | Naklet                   | Evet      |
-    | Deftere nakletmeden önce önizle | No       |
-    | Defteri kapat             | No       |
+    | Deftere nakletmeden önce önizle | Hayır       |
+    | Defteri kapat             | Hayır       |
 
 6. Bir değer düşüşü gideri günlük girişi oluşturulmuş ve deftere nakledilmiştir. Bunu görüntülemek için kiralama defterinde varlığın kiralama günlüğüne gidin. Değer düşüşü tutarının, Değer düşüşü gideri deftere nakil hesabına borç olarak ve ROU varlığı deftere nakil hesabına alacak olarak kaydedildiğine dikkat edin.
 7. Değer düşüşünün net etkisini görmek için, yükümlülük ve varlık hareketleri tablolarına gidin. Değer düşüşü giderinin ROU varlığını azaltmasına rağmen kiralama yükümlülüğü defter tutarını değiştirmediğine dikkat edin.

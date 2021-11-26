@@ -47,11 +47,11 @@ Aşağıdaki tabloda, bazı tipik indirim Azaltma ilkesi kurulumu örnekleri gö
 
 | İndirim azaltma ilkesi | Tanım | Azaltmayı uygulama | Azaltma tabanı | Azaltmadan hariç tut |
 |---|---|---|---|---|
-| Ertelenmiş | İndirimi azalt | Evet | İkisi birden | No |
+| Ertelenmiş | İndirimi azalt | Evet | İkisi birden | Hayır |
 | Exclreb | İndirimi hariç tut | Evet | İndirim | Evet |
 | Miktar çarpanı | Birden çok indirim | Evet | İkisi birden | Evet |
-| Hiçbiri | Yalnızca provizyon ve indirim | No | İkisi birden | Evet |
-| Sağlama | Yalnızca provizyon | Evet | Sağlama | No |
+| Hiçbiri | Yalnızca provizyon ve indirim | Hayır | İkisi birden | Evet |
+| Sağlama | Yalnızca provizyon | Evet | Sağlama | Hayır |
 | İndirim | Yalnızca indirim | Evet | İndirim | Evet |
 
 ## <a name="examples-of-rebate-reduction-principle-calculations"></a>İndirim Azaltma ilkesi hesaplama örnekleri

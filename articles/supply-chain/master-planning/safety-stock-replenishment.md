@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-oldolg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 28f902c589cd80f1c34dc2758232548309db9aca
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474640"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790950"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Maddeler için emniyet stoğu karşılama
 
@@ -189,5 +189,9 @@ Sistem emniyet stoğu gereksinimi hareketinin satış satırları, ürün reçet
 Master planlamanın karşılama aşaması sırasında, emniyet stoğu yenileme önceliği artık geriye atılmaz. Eldeki stok diğer talep türlerinden önce kullanılabilir. Gecikmenin hesaplanması sırasında, emniyet stoğunun kullanılması durumunda zamanında teslim edilip edilemeyeceğini belirlemek amacıyla geciken satış satırlarının, ürün reçetesi satırı gereksinimlerinin ve diğer tüm talep türlerinin üzerine geçmek üzere yeni bir mantık eklenir. Sistem emniyet stoğunu kullanarak gecikmeleri en aza indirebileceğini belirlerse, satış satırları veya ürün reçetesi satırları başlangıçtaki karşılamayı emniyet stoğuyla doldurur ve sistem bunun yerine emniyet stoğu yenilemesini tetikler.
 
 Plan veya madde gecikme hesaplaması için ayarlanmazsa, emniyet stoğu sınırlaması diğer talep türleriyle aynı önceliğe sahip olur. Bu, eldeki stok rezervi bulunduğu ve diğer talep türlerinden önce başka kullanılabilir stok olduğu anlamına gelir.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+- [Maddeler için minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma](safety-stock-journal.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

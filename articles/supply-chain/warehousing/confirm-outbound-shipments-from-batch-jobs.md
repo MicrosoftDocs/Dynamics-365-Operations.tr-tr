@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d47b88fcc5e25fc85377b52fa9832916a4bb2217
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572397"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778485"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Toplu işlerden giden sevkiyatları onayla
 
@@ -27,7 +27,7 @@ Bu konuda, kullanıma hazır yüklemeler için giden transfer emri sevkiyatları
 
 ## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Toplu işlerden giden sevkiyatları onaylama özelliğini etkinleştirme
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Özellik şu şekilde listelenmiştir:
+Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek veya devre dışı bırakmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
 
 - **Modül**  - *Ambar yönetimi*
 - **Özellik adı** - *Toplu işlerden giden sevkiyatları onaylama*

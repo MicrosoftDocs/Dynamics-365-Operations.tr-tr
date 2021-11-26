@@ -333,9 +333,9 @@ Microsoft, Finance and Operations müşterilerine üç destek planı sunar: Prem
 | Sınırsız onarım olayı gönderme | Evet | Evet | Evet |
 | LCS aracılığıyla 7/24 erişim | Evet | Evet | Evet |
 | Olay yanıt süresi | Bir saatten az | Bir saatten az | Sonraki iş günü |
-| Danışmanlık saatleri | Havuzlar sözleşmeye göre alınır. | No | No |
-| Ayrılmış destek hesabı yöneticisi | Evet | No | No |
-| Ayrılmış destek mühendisi | Ayrı bir sözleşmeyle bağlı olma | No | No |
+| Danışmanlık saatleri | Havuzlar sözleşmeye göre alınır. | Hayır | Hayır |
+| Ayrılmış destek hesabı yöneticisi | Evet | Hayır | Hayır |
+| Ayrılmış destek mühendisi | Ayrı bir sözleşmeyle bağlı olma | Hayır | Hayır |
 
 Daha fazla bilgi için bkz. [Destek'e genel bakış](/power-platform/admin/support-overview).
 

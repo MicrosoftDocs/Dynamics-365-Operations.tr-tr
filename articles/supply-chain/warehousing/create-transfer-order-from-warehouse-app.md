@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746831"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777827"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Ambar uygulamasından transfer emirleri oluşturma
 
@@ -36,7 +36,7 @@ Bu özelliği kullanabilmeniz için, özelliği ve önkoşullarını sisteminizd
 1. Daha sonra şu şekilde listelenen *Ambar uygulamasından transfer emirleri oluştur* özelliğini etkinleştirin:
     - **Modül** - Ambar yönetimi
     - **Özellik adı** - Ambar uygulamasından transfer emirleri oluşturma ve etkinleştirme
-1. Giden sevkiyatların işlenmesini otomatikleştirmek için, [Giden sevkiyatları toplu işlerden onayla](confirm-outbound-shipments-from-batch-jobs.md) özelliğini de etkinleştirmeniz gerekir. Bu özellik şu şekilde listelenmiştir:
+1. Giden sevkiyatların işlenmesini otomatikleştirmek için, [Giden sevkiyatları toplu işlerden onayla](confirm-outbound-shipments-from-batch-jobs.md) özelliğini de etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek veya devre dışı bırakmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
     - **Modül** - Ambar yönetimi
     - **Özellik adı** - Toplu işlerden giden sevkiyatları onaylama
 

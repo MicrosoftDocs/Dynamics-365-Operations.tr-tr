@@ -1,7 +1,7 @@
 ---
 title: " Kayıtlar oluşturma ve ilişkilendirme"
 description: Bu yordam, bir satış noktası (POS) kaydının nasıl oluşturulacağını gösterir.
-author: rubencdelgado
+author: BrianShook
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ff6fb42cd0b080ff576aa3a784cfce985d69fe0347af44dfa9935b4e8e5ffe00
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 48ad1891955b15d22f3cecac128a831adabdac87
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743371"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779439"
 ---
 # <a name="create-and-associate-registers"></a> Kayıtlar oluşturma ve ilişkilendirme
 

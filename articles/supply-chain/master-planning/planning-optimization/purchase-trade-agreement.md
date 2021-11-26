@@ -75,14 +75,14 @@ Aşağıdaki tablo, yayınlanmış bir ürün ve ilişkili satınalma ticari anl
 
 | Serbest bırakılan: Satıcı | Varsayılan sipariş ayarları: Sağlama süresi | Madde karşılama: satıcıyı geçersiz kıl | Madde karşılama: sağlama süresini geçersiz kıl | Ticari sözleşme: Satıcı | Ticari sözleşme: sağlama süresi | Ticari sözleşme: sağlama süresini göz ardı et | Sonuçta elde edilen satıcı | Sonuçta elde edilen sağlama süresi |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | No | No | US003 | 3 | No | **US001** | **1** |
-| US001 | 1 | ***Evet: US002** _ | _*_Evet: 2_*_ | US003 | 3 | No | **US002** | **2** |
-| *(Boş)* | 1 | No | No | ***US003** _ | _*_3_*_ | No | **US003** | **3** |
-| *(Boş)* | ***1** _ | No | No | _*_US003_*_ | 3 | Evet | **US003** | **1** |
-| *(Boş)* | ***1** _ | _*_Evet: US002_*_ | No | US003 | 3 | No | **US002** | **1** |
-| *(Boş)* | ***1** _ | _*_Evet: US002_*_ | No | US003 | 3 | No | **US002** | **1** |
-| *(Boş)* | 1 | No | Evet: 2 | ***US003** _ | _*_3_*_ | No | **US003** | **3** |
-| *(Boş)* | 1 | No | ***Evet: 2** _ | _*_US003_*_ | 3 | Evet | **US003** | **2** |
+| ***US001** _ | _*_1_*_ | Hayır | Hayır | US003 | 3 | Hayır | **US001** | **1** |
+| US001 | 1 | ***Evet: US002** _ | _*_Evet: 2_*_ | US003 | 3 | Hayır | **US002** | **2** |
+| *(Boş)* | 1 | Hayır | Hayır | ***US003** _ | _*_3_*_ | Hayır | **US003** | **3** |
+| *(Boş)* | ***1** _ | Hayır | Hayır | _*_US003_*_ | 3 | Evet | **US003** | **1** |
+| *(Boş)* | ***1** _ | _*_Evet: US002_*_ | Hayır | US003 | 3 | Hayır | **US002** | **1** |
+| *(Boş)* | ***1** _ | _*_Evet: US002_*_ | Hayır | US003 | 3 | Hayır | **US002** | **1** |
+| *(Boş)* | 1 | Hayır | Evet: 2 | ***US003** _ | _*_3_*_ | Hayır | **US003** | **3** |
+| *(Boş)* | 1 | Hayır | ***Evet: 2** _ | _*_US003_*_ | 3 | Evet | **US003** | **2** |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

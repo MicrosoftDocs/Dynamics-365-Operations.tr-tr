@@ -2,7 +2,7 @@
 title: Iframe modülü
 description: Bu konu iframe modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767302"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754026"
 ---
 # <a name="iframe-module"></a>Iframe modülü
 
@@ -66,7 +66,10 @@ Bir sayfaya harici bir video göstermek üzere bir iframe modülü eklemek için
 1. İhtiyacınıza göre, **Başlık** ve **Yükseklik** gibi diğer özellikleri ayarlayın.
 1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. Sitenizdeki pazarlama sayfasına gidin. Videonun iframe modülünde işlendiğini görürsünüz.
- 
+
+> [!NOTE]
+> iFrame modülü harici içerik barındırdığı için, site yazarları bir iFrame modülü içinde barındırılan içeriğin ilgili pazardaki içerik sınırlama ilkelerini ihlal etmemesini sağlamalıdır. iFrame modülünü kullanan bir sayfada içerik ihlali varsa site yazarı, site oluşturucuda sayfayı açıp, iFrame modülü yuvasında **Modülü kaldır**'ı seçerek ve sonra sayfayı kaydedip yeniden yayımlayarak iFrame modülünü kaldırabilir.
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Modül kitaplığına genel bakış](starter-kit-overview.md)
