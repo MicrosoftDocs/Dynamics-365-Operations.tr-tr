@@ -1,7 +1,7 @@
 ---
 title: Kalanı kapat
 description: Ayırma etkinliğinden kalan tutarı, bu tutarı bir genel muhasebe hesabına uygulayarak kapatabilirsiniz.
-author: mikefalkner
+author: roschlom
 ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 1eb82c1f5982b30052acb2cb7659f6c07f2a4da54b68f602a2afb4e499fbcc73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719800"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754108"
 ---
 # <a name="settle-remainder"></a>Kalanı kapat
 

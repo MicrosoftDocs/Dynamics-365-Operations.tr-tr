@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735908"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777877"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Dalga sırasında dalga etiketi yazdırmayı zamanlama
 
@@ -33,7 +33,7 @@ Dalga etiketi yazdırmayı yapılandırma işlemi karmaşıktır ve doğru yapı
 Bu konuda açıklanan özellikleri kullanmak için, bunların sisteminiz için etkinleştirilmiş olması gerekir. Özellikleri aşağıdaki sırada açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanın:
 
 1. *Dalga etiketi yazdırma*: Bu özellik, dalga etiketi yazdırma için dalga işlemi yöntemini etkinleştirmek için gereklidir.
-1. *Kuruluş genelinde iş durdurma*: Bu özellik, planlanan iş oluşturma işleminin hem el ile hem de otomatik yapılandırılması için gereklidir.
+1. *Kuruluş genelinde iş durdurma*: Bu özellik, planlanan iş oluşturma işleminin hem el ile hem de otomatik yapılandırılması için gereklidir. (Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz.)
 1. *Görev tabanlı dalga etiketi yazdırma*: Bu özellik, dalga etiketi yazdırmayı ayrı bir hareket kapsamına bölmek için gereklidir.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>Yeni dalga adımı yöntemini el ile etkinleştirme

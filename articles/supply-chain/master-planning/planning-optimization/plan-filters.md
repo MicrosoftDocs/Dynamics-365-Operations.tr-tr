@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: c2fbaa6945cf46b7ef09232e6004f09b487ea7c822e72225dc00d3d28ecb008e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780210"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729039"
 ---
 # <a name="apply-filters-to-a-plan"></a>Plana filtre uygulama
 
@@ -43,7 +43,7 @@ A, B ve C maddelerini içeren bir plan filtresi ayarlanır. Ardından master pla
 - **Tüm maddeleri içeren çalışma zamanı filtresi (boş filtre):** A, B ve C maddeleri planlama çalışmasına dahil edilir ve A ve B maddelerinin önceki planlama çıktısı üzerine yazılır.
 
 > [!NOTE]
-> **Master planlama parametreleri** sayfasında **Geçerli dinamik master plan** olarak seçilen planda bir plan filtresi ayarlamaktan kaçınmanız gerekir. Aksi takdirde, dinamik master plan işlevleri filtrelenen maddelerle sınırlandırılır. Örneğin, net gereksinimler, plan filtresinin parçası olmayan bir madde için güncelleştirilirse hiçbir sonuç oluşturulmaz.
+> **Master planlama parametreleri** sayfasında **Geçerli dinamik master plan** olarak seçilen plan üzerinde bir plan filtresi ayarlarsanız, dinamik master plan işlevi filtre uygulanan maddelerle sınırlandırılır. Örneğin, net gereksinimler, plan filtresinin parçası olmayan bir madde için güncelleştirilirse hiçbir sonuç oluşturulmaz.
 
 ## <a name="related-resources"></a>İlgili kaynaklar
 

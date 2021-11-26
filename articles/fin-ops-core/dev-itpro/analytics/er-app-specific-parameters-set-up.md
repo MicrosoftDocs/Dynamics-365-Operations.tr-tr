@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675406"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733475"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Her tüzel kişilik için ER biçiminin parametrelerini ayarlama
 
@@ -226,15 +226,6 @@ ER biçiminin uygulamaya özel parametreleri, tüzel kişiliğe bağlıdır. Bir
 **ER biçimlerinin önceki sürümlerinden uygulamaya özel parametreler kullan** özelliğini kullanmadığınız takdirde, bir ER biçiminin sürümü için uygulamaya özel parametreler belirleyip ardından bunu geçerli Finance örneğinde aynı biçimin sonraki sürümüne aktarırsanız, geçerli uygulamaya özel parametreler içe aktarılan sürüme uygulanmaz. Daha fazla bilgi için bu konunun sonraki kısımlarında yer alan [Mevcut parametreleri tekrar kullanma](#reuse-existing-parameters) bölümüne bakın.
 
 İçe aktarmak için bir dosya seçtiğinizde bu dosyadaki uygulamaya özel parametrelerin yapısının, içe aktarma için seçilen ER biçimindeki **Arama** türünde karşılık gelen veri kaynaklarının yapısıyla karşılaştırıldığını unutmayın. Varsayılan olarak içe aktarma, uygulamaya özel her parametrenin yapısı içe aktarma için seçilen ER biçiminde ilgili veri kaynağının yapısıyla eşleştiğinde tamamlanır. Yapılar eşleşmezse içe aktarmanın tamamlanmadığını bildiren bir uyarı iletisi alırsınız. İçe aktarma işlemini zorlarsanız seçilen ER biçimi için uygulamaya özel var olan parametreler temizlenir ve bunları en baştan ayarlamanız gerekir.
-
-Dynamics 365 Finance 10.0.23 sürümünden başlayarak, varsayılan davranışı değiştirebilir ve **Özellik yönetimi** çalışma alanındaki **İçe aktarılırken uygulamaya özgü parametreleri hizalamaya olanak vererek** bir uyarı iletisi almaktan kurtulabilirsiniz. Bu özellik etkinleştirildiğinde, içe aktardığınız uygulamaya özel parametrelerin yapısı, içe aktarma için seçilen hedef ER biçimindeki karşılık gelen veri kaynaklarının yapısından farklıysa içe aktarma aşağıdaki durumlarda başarılı olur:
-
-- Hedef ER biçiminin yapısı, **Arama** türünün varolan tüm veri kaynaklarına yeni koşul sütunları eklenerek değiştirildi. İçe aktarma tamamlandığında, uygulamaya özel parametreler güncelleştirilir. Uygulamaya özgü parametrelerin tüm içe aktarılan kayıtlarında, eklenen her koşul sütunundaki değerler o sütunun [veri türü](er-formula-supported-data-types-primitive.md) için varsayılan değer ile başlatılır.
-- Hedef ER biçiminin yapısı, **Arama** türünün varolan tüm veri kaynaklarından bazı koşul sütunlarının çıkarılmasıyla değiştirildi. İçe aktarma tamamlandığında, uygulamaya özel parametreler güncelleştirilir. Uygulamaya özgü parametrelerin tüm içe aktarılan kayıtlarında, kaldırılmış olan her koşul sütunundaki değerler silinir.
-- Hedef ER biçiminin yapısı, **Arama** türüne yeni veri kaynakları eklenerek değiştirildi. İçe aktarma tamamlandığında, eklenen aramalar uygulamaya özel parametrelere iliştirilir.
-- Hedef ER biçiminin yapısı, **Arama** türünün varolan tüm veri kaynaklarından bazılarının değiştirildi. İçe aktarma tamamlandığında, hedef ER biçiminden kaldırılmış **Arama** türünün veri kaynaklarıyla ilişkili tüm yapılar, içe aktarılan uygulamaya özel parametrelerden silinir.
-
-İçe aktarma tamamlandığında, yalnızca açıklanan değişikliklere ek olarak, içe aktarılan uygulamaya özel parametrelerin durumu **Devam ediyor** olarak değiştirilir. Bir uyarı iletisi, otomatik olarak ayarlanmış uygulamaya özel parametrelerin el ile düzenlenmesi gerektiğini bildirir.
 
 ### <a name="reuse-existing-parameters"></a>Varolan parametreleri yeniden kullanma
 

@@ -2,7 +2,7 @@
 title: Nakit akışı tahmini
 description: Bu konu, nakit akışı genel görünüm işlemine bir genel bakış sağlar. Nakit akışı tahmininin sistemdeki diğer modüllerle nasıl tümleşik olduğunu da açıklar.
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547967"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752916"
 ---
 # <a name="cash-flow-forecasting"></a>Nakit akışı tahmini
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Nakit akışı tahmin araçlarını gelen nakit akışı ve para birimi gereksinimlerini analiz etmek için kullanabilir, böylece şirketin gelecekteki nakit ihtiyacını öngörebilirsiniz. Nakit akışının tahminini elde etmek için aşağıdaki görevleri tamamlamalısınız:
 
@@ -93,9 +94,12 @@ Bütçe kayıt girişleri, kişiselleştirme yoluyla nakit akışı tahminine bi
 Stok tedarik ve talep tahminleri nakit akışı tahminlerine dahil edilebilir. **Nakit akışı tahmin kurulumu** sayfasındaki **Stok yönetimi** sekmesinde, nakit akışı tahminine dahil edilecek tahmin modelini seçin. Nakit akışı tahminine dahil edilme, tekil tedarik ve talep tahmin satırlarında geçersiz kılınabilir.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Nakit akışı tahmini için Boyutları ayarlama
-**Nakit akışı tahmin kurulumu** sayfasındaki yeni bir sekme, **Nakit akışı tahmini** çalışma alanında filtre uygulamak için hangi mali boyutları kullanacağınızı kontrol etmenizi sağlar. Bu sekme yalnızca Nakit akışı tahminleri özelliği etkinleştirildiğinde görüntülenir. 
+**Nakit akışı tahmin kurulumu** sayfasındaki yeni bir sekme, **Nakit akışı tahmini** çalışma alanında filtre uygulamak için hangi mali boyutları kullanacağınızı kontrol etmenizi sağlar. Bu sekme yalnızca Finance Insights'ta Nakit akışı tahminleri etkinleştirildiğinde görüntülenir. 
 
 **Boyutlar** sekmesinde, filtre için kullanılacak boyut listesinden seçim yapın ve bunları sağ sütuna taşımak için ok tuşlarını kullanın. Nakit akışı tahmin verilerinin filtrelenmesi için yalnızca iki boyut seçilebilir. 
+
+### <a name="setting-up-external-source"></a>Harici kaynağı ayarlama
+Dış veriler nakit akışı tahminlerine girilebilir veya içeri aktarılabilir. Harici veriler girilmeden veya içe aktarılmadan önce, harici kaynakların ayarlanması gerekir. **Harici kaynak** sekmesinde harici nakit akışı kategorileri ayarlayın. Kategori, **Giden** veya **Gelen** olabilir. **Likidite**, deftere nakil türü olarak seçilmelidir. **Yasal varlık ayarları** kılavuzunda, yasal varlıkları ve harici nakit akışı kategorilerinin uygulanacağı ilgili ana firmaları seçin.
 
 ### <a name="project-management-and-accounting"></a>Proje yönetimi ve muhasebe
 

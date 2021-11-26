@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569299"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778243"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>İş kartı cihazından tamamlandı olarak bildirme
 
@@ -218,7 +218,7 @@ Gelişmiş ambar işlemleri, bu amaçla ayarlanmış ambar yerleşimlerinde bulu
 
 Bu bölümde anlatılan özellikleri kullanmak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri (Bu sırada) açmanız gerekir:
 
-1. İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası
+1. İş Kartı Cihazına eklenme işi tamamlandı bildirimi için plaka (Supply Chain Management sürüm 10.0.21'den itibaren bu özellik varsayılan olarak etkindir.)
 1. İş kartı cihazında tamamlandı olarak bildirme sırasında otomatik plaka numarası oluşturmayı etkinleştirin
 1. İş Kartı Cihazından etiket yazdır
 

@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f92fa528f98dd04d99145eba311994848a5db2f02b70412f00e8ef17c63bf74e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 897cc7bb3515dfbd545fa27781a5abf8e8198107
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746596"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782976"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>Finans ve vergi referans verilerine erişim
 

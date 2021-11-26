@@ -1,7 +1,7 @@
 ---
 title: Alacak limiti ayarlamaları
 description: Bu konu, kredi limiti ayarlamalarının nasıl yapılacağını ve ekleneceğini açıklamaktadır.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: eb65d8a7a0ae34ff6222561b20538da65862d10e7b18fda60a42d55e8b5516ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724123"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753910"
 ---
 # <a name="credit-limit-adjustments"></a>Alacak limiti ayarlamaları 
 

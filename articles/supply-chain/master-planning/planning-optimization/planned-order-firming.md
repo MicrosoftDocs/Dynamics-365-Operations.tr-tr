@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764848"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778533"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 
@@ -39,7 +39,7 @@ Bu konuda her yöntem ayrıntılı olarak açıklanmaktadır.
 
 Paralel kesinleştirme, birden fazla iş parçacığı arasında paralel olarak çalışarak kesinleştirme işlemini hızlandırır. Bu yaklaşım, birçok plan kesinleştirilirken yararlı olabilir.
 
-Bu işlevi sisteminizde kullanmak için, [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlı siparişlerin paralel kesinleştirmesi* özelliğini etkinleştirin.
+Bu işlevi sisteminizde kullanmak için, [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlı siparişlerin paralel kesinleştirmesi* özelliğini etkinleştirin. (Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Filtre ile planlı sipariş kesinleştirmesini etkinleştirme
 
@@ -51,7 +51,7 @@ Bu işlevi sisteminizde kullanmak için, [Özellik yönetimi](../../../fin-ops-c
 
 Otomatik kesinleştirme, kesinleştirme zaman dilimi sırasında planlı siparişleri master planlama işleminin parçası olarak kesinleştirmenize olanak tanır. Otomatik kesinleştirme, Supply Chain Management'ta dahili olarak yer alan planlama altyapısında her zaman desteklenir. Ancak, bunu Planlama Optimizasyonuyla birlikte kullanmak için özelliği etkinleştirmelisiniz.
 
-Bu işlevi sisteminizde kullanmak için, [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlama Optimizasyonu için otomatik kesinleştirme* özelliğini etkinleştirin.
+Bu işlevi sisteminizde kullanmak için, [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Planlama Optimizasyonu için otomatik kesinleştirme* özelliğini etkinleştirin. (Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır.)
 
 ## <a name="manually-firm-planned-orders"></a>Planlı siparişleri el ile kesinleştirme
 

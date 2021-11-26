@@ -1,8 +1,8 @@
 ---
 title: Yedekleme planı geliştirme
 description: Kuruluşunuz büyüdükçe, ardıl planlamasına başlamalısınız.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca1d9dda75038d937e2a3dad4582feefa617aac9f7f3f1a75ffd274c69c68ae9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed10813c30b9a49b84a7e8e333fbac3d1e26720a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768227"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731528"
 ---
 # <a name="develop-a-succession-plan"></a>Yedekleme planı geliştirme
 
@@ -48,7 +48,7 @@ Kuruluşunuz büyüdükçe, ardıl planlamasına başlamalısınız. Ardıl plan
 20. **Önem** alanında bir seçenek belirleyin.
 21. Listede satır 4'ü seçin.
 22. **İsteğe Bağlı** onay kutusunu seçin.
-23. Önem alanında bir seçenek seçin.
+23. **Önem** alanında bir seçenek belirleyin.
 24. Yetenek eşleştirmesinde bulunan uzmanlıkları görüntülemek veya düzenlemek için **Eğitim** hızlı sekmesini genişletin.
 25. **Yürüt**'ü seçin.
 26. **Tamam**'ı seçin.

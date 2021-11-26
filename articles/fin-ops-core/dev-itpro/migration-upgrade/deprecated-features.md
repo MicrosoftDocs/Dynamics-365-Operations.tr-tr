@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745188"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753038"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -84,7 +84,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanımına son verildi: 1 Ekim 2020 itibarıyla **setUtcString()** yöntemini desteklememeyi planlıyoruz. Geliştiriciler bunun yerine **setUtcDateTime()** yöntemini kullanmalıdır. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Bloke liste raporu (IT) – Özellik referansı IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blok listesi raporu (IT) – Özellik referansı IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -371,7 +371,7 @@ Personel idari bilgilerini yönetmek, çalışanların zaman çizelgesi ayrınt�
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics 365 portföyünün genel stratejik odağına Bordro dahil değildir. Ortaklar ve ISV'ler, yerel düzenlemeler ve vergi güncelleştirmeleriyle uyumlu olan bordro işlevleri sağlamak için en iyi şekilde konumlandırılmıştır.|
-| **Başka bir özellikle mi değiştirildi?**   | No|
+| **Başka bir özellikle mi değiştirildi?**   | Hayır|
 | **Etkilenen ürün alanları**         | Rusya için Bordro ve İnsan Kaynakları Yönetimi |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 10.0 sürümünün gelecekteki güncelleştirmelerinden biridir. |

@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579892"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778269"
 ---
 # <a name="work-split"></a>İş bölme
 
@@ -33,7 +33,7 @@ ms.locfileid: "7579892"
 
 İş bölme işlevini kullanamadan önce, özelliği ve sisteminizdeki ön koşul özelliğini açmanız gerekir. Yöneticiler özelliklerin durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir.
 
-İlk olarak, zaten açık değilse, *Kuruluş genelinde iş engelleme* özelliğini açın. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+İlk olarak, zaten açık değilse, *Kuruluş genelinde iş engelleme* özelliğini açın. Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz. Ancak, özellik hâlâ [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *Kuruluş çapında işi engelleme*

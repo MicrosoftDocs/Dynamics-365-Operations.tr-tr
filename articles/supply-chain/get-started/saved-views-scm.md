@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 943eee819c08704212ceb5e02921c36e7f1032dc
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728639"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777851"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Management için standart kayıtlı görünümler
 
@@ -47,15 +47,15 @@ Aşağıdaki tabloda, Stok yönetimi modülü için kullanılabilir kayıtlı g�
 
 | Sayfa | Görünüm adı | Görünüm açıklaması | Özellik adı |
 |---|---|---|---|
-| Eldekilerin listesi | Finansal öğeler | Bu basitleştirilmiş görünüm, eldeki stoku yönetirken mali bilgilere odaklanmanızı sağlar. | Stok yönetimi için kayıtlı görünümler |
-| Eldekilerin listesi | Kalite kontrol | Bu basitleştirilmiş görünüm, eldeki stoku yönetirken kalite kontrolüne odaklanmanızı sağlar. | Stok yönetimi için kayıtlı görünümler |
-| Eldekilerin listesi | Teslim alma | Bu basitleştirilmiş görünüm, eldeki stoku yönetirken teslim alma işlemlerine odaklanmanızı sağlar. | Stok yönetimi için kayıtlı görünümler |
-| Eldekilerin listesi | Sevkiyat | Bu basitleştirilmiş görünüm, eldeki stoku yönetirken sevkiyat işlemlerine odaklanmanızı sağlar. | Stok yönetimi için kayıtlı görünümler |
-| Hareketler | Basitleştirilmiş | Bu basitleştirilmiş görünüm, mali bilgiler ve daha az kullanılan diğer alanlarla vakit kaybetmeden stok durumunu incelemenizi sağlar. | Stok yönetimi için kayıtlı görünümler |
-| Transfer emirleri | Sevkiyat | Bu basitleştirilmiş görünüm, transfer emirlerini yönetirken sevkiyat işlemlerine odaklanmanızı sağlar. | Stok yönetimi için kayıtlı görünümler |
-| Transfer emirleri | Teslim alma | Bu basitleştirilmiş görünüm, transfer emirlerini yönetirken alma işlemlerine odaklanmanızı sağlar. | Stok yönetimi için kayıtlı görünümler |
-| Transfer emirleri | Kalite kontrol | Bu basitleştirilmiş görünüm, transfer emirlerini yönetirken kalite kontrolüne odaklanmanızı sağlar. | Stok yönetimi için kayıtlı görünümler |
-| Transfer emirleri | Finansal öğeler | Bu basitleştirilmiş görünüm, transfer emirlerini yönetirken mali bilgilere odaklanmanızı sağlar. | Stok yönetimi için kayıtlı görünümler |
+| Eldekilerin listesi | Finansal öğeler | Bu basitleştirilmiş görünüm, eldeki stoku yönetirken mali bilgilere odaklanmanızı sağlar. | Stok yönetimi için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Eldekilerin listesi | Kalite kontrol | Bu basitleştirilmiş görünüm, eldeki stoku yönetirken kalite kontrolüne odaklanmanızı sağlar. | Stok yönetimi için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Eldekilerin listesi | Teslim alma | Bu basitleştirilmiş görünüm, eldeki stoku yönetirken teslim alma işlemlerine odaklanmanızı sağlar. | Stok yönetimi için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Eldekilerin listesi | Sevkiyat | Bu basitleştirilmiş görünüm, eldeki stoku yönetirken sevkiyat işlemlerine odaklanmanızı sağlar. | Stok yönetimi için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Hareketler | Basitleştirilmiş | Bu basitleştirilmiş görünüm, mali bilgiler ve daha az kullanılan diğer alanlarla vakit kaybetmeden stok durumunu incelemenizi sağlar. | Stok yönetimi için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Transfer emirleri | Sevkiyat | Bu basitleştirilmiş görünüm, transfer emirlerini yönetirken sevkiyat işlemlerine odaklanmanızı sağlar. | Stok yönetimi için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Transfer emirleri | Teslim alma | Bu basitleştirilmiş görünüm, transfer emirlerini yönetirken alma işlemlerine odaklanmanızı sağlar. | Stok yönetimi için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Transfer emirleri | Kalite kontrol | Bu basitleştirilmiş görünüm, transfer emirlerini yönetirken kalite kontrolüne odaklanmanızı sağlar. | Stok yönetimi için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Transfer emirleri | Finansal değerler | Bu basitleştirilmiş görünüm, transfer emirlerini yönetirken mali bilgilere odaklanmanızı sağlar. | Stok yönetimi için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Master planlama modülü için kayıtlı görünümler
 
@@ -83,11 +83,11 @@ Aşağıdaki tabloda, Ürün bilgisi yönetimi modülü için kullanılabilir ka
 
 | Sayfa | Görünüm adı | Görünüm açıklaması | Özellik adı |
 |---|---|---|---|
-| Serbest bırakılan ürün listesi | Ürün oluşturma | Ürün oluşturulurken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
-| Serbest bırakılan ürün ayrıntıları | Ürün oluşturma | Ürün oluşturulurken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
-| Serbest bırakılan ürün ayrıntıları | Lojistik bilgileri yönetimi | Ürünlere yönelik lojistik bilgileri yönetilirken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
-| Serbest bırakılan ürün ayrıntıları | Satın alma bilgileri yönetimi | Ürünlere yönelik satın alma bilgileri yönetilirken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
-| Serbest bırakılan ürün ayrıntıları | Satış bilgileri yönetimi | Ürünlere yönelik satışla ilgili bilgiler yönetilirken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kayıtlı görünümler |
+| Serbest bırakılan ürün listesi | Ürün oluşturma | Ürün oluşturulurken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Serbest bırakılan ürün ayrıntıları | Ürün oluşturma | Ürün oluşturulurken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Serbest bırakılan ürün ayrıntıları | Lojistik bilgileri yönetimi | Ürünlere yönelik lojistik bilgileri yönetilirken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Serbest bırakılan ürün ayrıntıları | Satın alma bilgileri yönetimi | Ürünlere yönelik satın alma bilgileri yönetilirken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Serbest bırakılan ürün ayrıntıları | Satış bilgileri yönetimi | Ürünlere yönelik satışla ilgili bilgiler yönetilirken gösterilen, yalnızca en sık kullanılan alanları içeren basitleştirilmiş bir sayfa görünümü. | Serbest bırakılan ürünler için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Üretim denetimi modülü için kayıtlı görünümler
 
@@ -95,10 +95,10 @@ Aşağıdaki tabloda, Üretim denetimi modülü için kullanılabilir kayıtlı 
 
 | Sayfa | Görünüm adı | Görünüm açıklaması | Özellik adı |
 |---|---|---|---|
-| Üretim emri ürün reçetesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
-| Üretim emri ayrıntıları sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
-| Üretim emri malzeme çekme listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
-| Üretim emirleri listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
+| Üretim emri ürün reçetesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Ürün kontrolü için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Üretim emri ayrıntıları sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Ürün kontrolü için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Üretim emri malzeme çekme listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Ürün kontrolü için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
+| Üretim emirleri listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Ürün kontrolü için kaydedilmiş görünümler (Varsayılan olarak, sürüm 10.0.21 ile başlayarak açıktır.) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Satış ve pazarlama modülü için kayıtlı görünümler
 

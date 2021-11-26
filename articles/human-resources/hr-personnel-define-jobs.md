@@ -1,8 +1,8 @@
 ---
 title: Yeni işler tanımlama
 description: Bu görevde yeni iş oluşturmaya odaklanılmaktadır.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 088f49d7887616300b4a9ea07f91598d65afbf6899e678b2c5c51797b4966ef0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 844661db4798c23b0b25d4ce7c2cc1862893a5dc
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770468"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771395"
 ---
 # <a name="define-new-jobs"></a>Yeni işler tanımlama
 
@@ -28,48 +28,54 @@ ms.locfileid: "6770468"
 
 Bu görevde yeni iş oluşturmaya odaklanılmaktadır. El ile giriş ve şablondan kopyalama işlevleri kullanılarak tamamlanır. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev, insan kaynakları uzmanlarına yöneliktir.
 
-1. İnsan kaynakları > İşler > İşler'e gidin.
-2. Yeni'ye tıklayın.
-3. İş alanına bir değer girin.
-4. Açıklama alanına bir değer girin.
-5. İş için kullanılacak standart bir başlık seçin. 
-    * Girilen başlık, işe atanan yeni pozisyonlar için varsayılan değer olarak kullanılır.  
+1. **İnsan kaynakları \> İşler \> İşler**'e gidin.
+2. **Yeni**'yi seçin.
+3. **İş** alanına bir değer girin.
+4. **Açıklama** alanında bir değer girin.
+5. İş için kullanılacak standart bir başlık seçin.
+
+    Bu başlık, işe atanan yeni pozisyonlar için varsayılan değer olarak kullanılır.
+
 6. Listede, istenen kaydı bulun ve seçin.
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Maksimum pozisyon sayısı grubunda "Maksimum pozisyon"u seçin
+7. Listeden, seçilen satırdaki bağlantıyı seçin.
+8. **Maksimum pozisyon sayısı** grubunda **Maksimum pozisyon**'u seçin.
 9. Maksimum pozisyon sayısını girin. 
-    * Pozisyon atamalarının, buraya girilen en yüksek değeri aşmasına izin verilmez.  
-10. Açıklama bölümünün genişletilmiş görünümüne geçin.
-11. Not alanına İş için bir standart bir açıklama girin.
-    * Açıklama, burada tanımlanmış işe atanan tüm pozisyonlar için geçerlidir.  
-12. İş sınıflandırması bölümünün genişletilmiş görünümüne geçin.
-13. İnsan kaynaklarında standart raporlamada kullanılacak bir iş işlevi seçin.
-14. Listede, istenen kaydı bulun ve seçin.
-15. Listede, seçili satırdaki bağlantıya tıklayın.
-16. Kuruluşunuzda işleri daha ayrıntılı sınıflandırmak için bir İş türü seçin. 
-    * İş türleri tüm İnsan Kaynakları'ndaki raporlarda kullanılabilir.  
-17. Listede, istenen kaydı bulun ve seçin.
-18. Listede, seçili satırdaki bağlantıya tıklayın.
-19. Ücret bölümünün genişletilmiş görünümüne geçin.
-20. Ücret düzeyi seçin.
-    * Ücret düzeyi, bir personelin o işte alabileceği Minimum ve Maksimum ücret düzeyini tanımlar. Ücret kuralları, personelin ücretinin aralık dışında olup olmadığını belirler.  
-21. Listede, istenen kaydı bulun ve seçin.
-22. Listede, seçili satırdaki bağlantıya tıklayın.
-23. Yetenekler bölümünün genişletilmiş görünümüne geçin.
-    * Yetenekler, Eğitim ve Sertifikalar hızlı sekmelerindeki alanların boş olduğuna dikkat edin. Bir iş şablonundaki bilgileri kopyaladıktan sonra bu alanlardaki bilgiler tek bir adımda girilir.   
-24. Kaydet'e tıklayın.
-25. Kopyalama kaynağı'na tıklayın.
-26. Şablondan kopyala'ya tıklayın.
-27. İş şablonu alanında, açılır menü düğmesine tıklayarak aramayı açın.
-28. Listede, istenen kaydı bulun ve seçin.
-29. Listede, seçili satırdaki bağlantıya tıklayın.
-30. Not seçeneğine tıklayın.
-    * Yalnızca seçtiğiniz öğeler seçili işe kopyalanır.    
-31. Tamam'a tıklayın.
-32. Sertifikalar bölümünün genişletilmiş görünümüne geçin.
-33. Eğitim bölümünün genişletilmiş görünümüne geçin.
-34. Kaydet'e tıklayın.
 
+    Bu sayıyı aşan pozisyon atamalarına izin verilmez.
 
+10. **Açıklama** bölümünde, **Not** alanına **İş için bir standart bir açıklama girin**.
+
+    Bu açıklama, tanımladığınız işe atanan tüm pozisyonlar için geçerlidir.
+
+11. **İş sınıflandırması** bölümünde, İnsan kaynaklarında standart raporlamada kullanılacak bir iş işlevi seçin.
+12. Listede, istenen kaydı bulun ve seçin.
+13. Listeden, seçilen satırdaki bağlantıyı seçin.
+14. **İş türü** alanında, kuruluşunuzda işleri daha ayrıntılı sınıflandırmak için bir iş türü seçin.
+
+    İş türleri tüm İnsan Kaynakları'ndaki raporlarda kullanılabilir.
+
+15. Listede, istenen kaydı bulun ve seçin.
+16. Listeden, seçilen satırdaki bağlantıyı seçin.
+17. **Ücret** bölümünde, bir ücret düzeyi seçin.
+
+    Ücret düzeyi, bir personelin o işte alabileceği minimum ve maksimum ücret düzeyini tanımlar. Ücret kuralları, personelin ücretinin aralık dışında olup olmadığını belirler.
+
+18. Listede, istenen kaydı bulun ve seçin.
+19. Listeden, seçilen satırdaki bağlantıyı seçin.
+20. **Yetenekler** bölümünde, **Yetenekler**, **Eğitim** ve **Sertifikalar** hızlı sekmelerindeki alanların boş olduğuna dikkat edin. Bir iş şablonundaki bilgileri kopyaladıktan sonra bu alanlardaki bilgiler tek bir adımda girilir.
+21. **Kaydet**'i seçin.
+22. **Kopyalama kaynağı**'nı seçin.
+23. **Şablondan kopyala**'yı seçin.
+24. **İş şablonu** alanında aramayı açmak için açılır menü okunu seçin.
+25. Listede, istenen kaydı bulun ve seçin.
+26. Listeden, seçilen satırdaki bağlantıyı seçin.
+27. **Not** seçeneğini belirleyin.
+
+    Yalnızca seçtiğiniz öğeler seçili işe kopyalanır.
+
+28. **Tamam**'ı seçin.
+29. **Sertifikalar** bölümünü genişletin.
+30. **Eğitim** bölümünü genişletin.
+31. **Kaydet**'i seçin.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

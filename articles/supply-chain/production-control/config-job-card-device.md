@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576964"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777752"
 ---
 # <a name="configure-job-card-for-devices"></a>Cihazlar için iş kartını konfigüre et
 
@@ -34,19 +34,19 @@ Bu konuda açıklanan ayarlardan birkaçı sisteminizde kullanılabilmesi için 
 
 Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin (sırasıyla):
 
-1. İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası
+1. İş Kartı Cihazına eklenme işi tamamlandı bildirimi için plaka (Supply Chain Management sürüm 10.0.21'den itibaren bu özellik varsayılan olarak etkindir.)
 1. İş kartı cihazında tamamlandı olarak bildirme sırasında otomatik plaka numarası oluşturmayı etkinleştirin
 
 ### <a name="print-label"></a>Etiket yazdır
 
 Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin (sırasıyla):
 
-1. İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası
+1. İş Kartı Cihazına eklenme işi tamamlandı bildirimi için plaka (Supply Chain Management sürüm 10.0.21'den itibaren bu özellik varsayılan olarak etkindir.)
 1. İş Kartı Cihazından etiket yazdır
 
 ### <a name="allow-locking-of-touch-screen"></a>Dokunmatik ekranın kilitlenmesini sağla
 
-Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
+Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Bu özelliği kullanmak istiyorsanız [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özelliği açın:
 
 - Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği
 

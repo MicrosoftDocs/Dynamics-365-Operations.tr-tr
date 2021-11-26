@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f4a7ee091d73e2104571ac9134a9de9bab0a7074
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575476"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777779"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML geliştirmeleri satın alma
 
@@ -28,7 +28,7 @@ _Satın alma cXML geliştirmeleri_ özelliği, satınalma talepleri için kullan
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>cXML geliştirmeleri satın alma özelliğini açma
 
-Özelliği etkinleştirmek için, **[Özellik Yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** sayfasını açın ve *cXML Geliştirmeleri Satın Alma* adlı özelliği arayın. Özelliği seçin ve açmak için **Şimdi etkinleştir** düğmesini seçin.
+Özelliği etkinleştirmek için, **[Özellik Yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** sayfasını açın ve *cXML Geliştirmeleri Satın Alma* adlı özelliği arayın. Özelliği seçin ve açmak için **Şimdi etkinleştir** düğmesini seçin. (Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır.)
 
 Bu özelliği açtıktan sonra, aşağıdaki üç alanda ayarları yapılandırmalısınız:
 

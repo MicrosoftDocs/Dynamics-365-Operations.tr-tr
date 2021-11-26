@@ -1,8 +1,8 @@
 ---
 title: Takvimler ve çalışma zamanları oluşturma
 description: Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar. Bu konuda bir çalışma saati şablonunu temel alan bir iş takvimi tanımlama işlemi açıklanmaktadır.
-author: andreabichsel
-ms.date: 07/09/2019
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalend
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e25acf541fe607d1b28ba8a0492186f2a8eaad949c84d8d61ba492a2072e38e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c1d299a77c5a02c531838aae0750dea87e89e34
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727005"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731697"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Takvimler ve çalışma zamanları oluşturma
 
@@ -32,9 +32,9 @@ Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıkl
 2. **Takvimler**'i seçin.
 3. **Yeni**'yi seçin.
 4. **Takvim** alanında takviminizi sınıflandırın. Bu, bir işlemler kaynağına veya kaynak grubuna takvim atarken referans olarak kullanılan takvimin kodudur.  
-5. **Ad** alanında, takviminizi adlandırın.
+5. **Ad** alanında, takviminiz için bir ad girin.
 6. **Saat cinsinden standart çalışma günü** alanında bir sayı girin.
-7. Satırın seçili olduğundan emin olun. Ardından Eylem Bölmesi'nden **Çalışma zamanları**'nı seçin.
+7. Satırın seçili olduğundan emin olun. Ardından **Eylem Bölmesi**'nden **Çalışma zamanları**'nı seçin.
 8. **Çalışma zamanları oluştur**'u seçin. İş planlaması yapabilmek istediğiniz dönem içindeki her bir gün için çalışma saatleri oluşturun. Zaman geçtikçe, ek dönemler için çalışma zamanları oluşturabilirsiniz.  
 9. **Başlangıç tarihi** alanına bir tarih girin. Bu, takvimin açılması gereken ilk gündür.  
 10. **Bitiş tarihi alanına** bir tarih girin. Bu, takvimin açılacağı son gündür.  

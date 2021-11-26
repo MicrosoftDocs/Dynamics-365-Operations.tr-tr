@@ -2,7 +2,7 @@
 title: Müşteri ödeme tahminleri kullanma
 description: Bu konu, Mali içgörülerimn deneme sürümünü kullanmak için gerekli ön koşulları ve kapsamlı adımları açıklar.
 author: ShivamPandey-msft
-ms.date: 07/17/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,33 +15,29 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 156136508c5465dc9351434251afc3bbdb9c6052
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386302"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752796"
 ---
 # <a name="use-customer-payment-predictions"></a>Müşteri ödeme tahminleri kullanma
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konu, Müşteri ödeme tahminlerinin nasıl kullanılacağını açıklar. Bu özelliği kullanmadan önce, kurulum adımlarını tamamladığınızdan emin olun. Daha fazla bilgi için bkz. [Müşteri ödeme tahminlerini etkinleştirme](enable-cust-paymnt-prediction.md).
 
-**Müşteri alacak ve tahsilatlarını yönetme** çalışma alanında ve **Harekete göre ödeme tahminleri** ile **Müşteriye göre ödeme tahmini** adlı iki yeni liste sayfasında müşteri ödeme tahminlerini görebilirsiniz.
+**Müşteri alacak ve tahsilatlarını yönetme** çalışma alanında ve **Hareket ödeme tahminleri** ile **Müşteri ödeme tahminleri** adlı iki yeni liste sayfasında müşteri ödeme tahminlerini görebilirsiniz.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Müşteri alacak ve tahsilatlarını yönetme çalışma alanı
 
-**Müşteri alacak ve tahsilatlarını yönetme** çalışma alanı, **Harekete göre ödeme tahmini** ve **Yüksek oranda geç bakiye öngörülen müşteriler** adlı iki yeni kutucuk içerir.
+**Müşteri alacak ve tahsilatlarını yönetme** çalışma alanı, **Hareket ödeme tahminleri** ve **Müşteri ödeme tahminleri** adlı iki yeni kutucuk içerir.
 
-- **Hareket başına ödeme tahmini** kutucuğu, **Zamanında** demetinde yüzde 50'den daha az ödeme olasılığı olan açık müşteri hareketlerinin sayısı gösterilir. **Hareket başına ödeme tahminleri** liste sayfasını açmak için bu kutucuğu seçebilirsiniz.
-- **Yüksek oranda geç bakiye öngörülen müşteriler**, toplam bakiyenin yarısından (yüzde 50) fazlasının geç ve/veya çok geç ödeneceği tahmin edilen müşterilerin sayısını gösterir. **Müşteri başına ödeme tahmini** liste sayfasını açmak için bu kutucuğu seçebilirsiniz.
+### <a name="transaction-payment-predictions-list-page"></a>Hareket ödeme tahminleri liste sayfası
 
-[![Müşteri alacak ve tahsilatlarını yönetme çalışma alanı.](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
-
-### <a name="payment-predictions-per-transaction-list-page"></a>Hareket başına ödeme tahminleri liste sayfası
-
-**Hareket başına ödeme tahminleri** liste sayfasında, açık hareketlerin ödeme olasılığını **Zamanında**, **Geç** ve **Çok geç** demetlerinde görebilirsiniz. Izgaradaki her hareket için **Zamanında olasılığı** sütununda, faturanın vade tarihinde veya daha önce ödenme olasılığı gösterilir. Zamanında ödeme olasılığının yüzde 50'den az olduğu durumlarda geç ödeme riskini belirtmek için **Zamanında olasılığı** sütunundaki yüzdenin yanında kırmızı bir daire görünür.
+**Hareket ödeme tahminleri** liste sayfasında, açık hareketlerin ödeme olasılığını **Zamanında**, **Geç** ve **Çok geç** demetlerinde görebilirsiniz. Izgaradaki her hareket için **Zamanında olasılığı** sütununda, faturanın vade tarihinde veya daha önce ödenme olasılığı gösterilir. Zamanında ödeme olasılığının yüzde 50'den az olduğu durumlarda geç ödeme riskini belirtmek için **Zamanında olasılığı** sütunundaki yüzdenin yanında kırmızı bir daire görünür.
 
 [![Hareket başına ödeme tahmini sayfası.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
@@ -55,9 +51,9 @@ Sayfanın sağ tarafındaki **İlgili bilgiler** bölmesinde tahminler hakkında
 
 [![İlgili bilgiler bölmesinde ödeme tahminleri için grafik göstergeler.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
-### <a name="payment-prediction-per-customer-list-page"></a>Müşteri başına ödeme tahmini liste sayfası
+### <a name="customer-payment-predictions-list-page"></a>Müşteri ödeme tahminleri liste sayfası
 
-**Müşteri başına ödeme tahmini** liste sayfası, toplam açık bakiyeyi ve **Zamanında**, **Geç** ve **Çok geç** demetlerinde ödenmesi tahmin edilen tutarı gösterir.
+**Müşteri ödeme tahminleri** liste sayfası, toplam açık bakiyeyi ve **Zamanında**, **Geç** ve **Çok geç** demetlerinde ödenmesi tahmin edilen tutarı gösterir.
 
 [![Müşteri başına ödeme tahminleri liste sayfası.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
@@ -81,11 +77,11 @@ Bu durumda, her bir demet için ödemeler aşağıdaki şekilde tahmin edilir.
 
 Sayfanın sağ tarafındaki **İlgili bilgiler** bölümünde tahminler hakkında daha fazla ayrıntı sağlanır.
 
-- Izgarada seçilen hareket için **Ödeme tahminleri** hızlı sekmesi; **Zamanında**, **Geç** ve **Çok Geç** demetlerinde ödeme tahminlerinin ayrıntılarını gösterir. **Başlıca etmenler** bölümü, ödemeleri etkileyen başlıca etmenleri gösterir. Başlıca etmenler, seçilen hareketin ve/veya söz konusu hareket müşterisinin öznitelikleridir.
+- Izgarada seçilen hareket için **Ödeme tahminleri** hızlı sekmesi; **Zamanında**, **Geç** ve **Çok Geç** demetlerinde ödeme tahminlerinin ayrıntılarını gösterir.
 - **Müşteri içgörüleri** hızlı sekmesi, seçili hareketin müşterisi için geçerli faturayı, ödemeyi ve tahsilat istatistiklerini gösterir.
 - **Müşteri geçmişi** hızlı sekmesi, müşterinin ödeme geçmişini **Zamanında**, **Geç** ve **Çok geç** demetlerinde gösterir.
 
-**Başlıca etmenler** bölümündeki ve **Müşteri içgörüleri** ile **Müşteri geçmişi** hızlı sekmelerindeki veriler, ödeme tahminlerinin açıklanmasına yardımcı olur. Bunlar, tahminlerin etkililiğine duyduğunuz güveni artırmaya yardımcı olabilir.
+**Customer Insights** ve **Müşteri geçmişi** hızlı sekmelerindeki veriler, ödeme tahminlerinin açıklanmasına yardımcı olur. Bunlar, tahminlerin etkililiğine duyduğunuz güveni artırmaya yardımcı olabilir.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Ödeme tahminlerinin doğruluğunu iyileştirme
 
@@ -96,11 +92,5 @@ Sayfanın sağ tarafındaki **İlgili bilgiler** bölümünde tahminler hakkınd
 Doğruluk oranından memnun değilseniz AI Builder uzantısı deneyimini açmak için **Model doğruluğunu iyileştir** bağlantısını seçin. AI Builder uzantısı deneyiminde, ödeme olasılıklarını doğru şekilde tahmin etmek için önemli olduğu düşündüğünüz alanları seçene kadar alanları seçebilir veya seçimlerini iptal edebilirsiniz. İşlemi tamamladığınızda thamin modelini kolayca yeniden eğitebilir ve yaptığınız değişiklikleri yayımlayabilirsiniz. Yeni eğitilen tahmin modeli, Dynamics 365 Finance'te tahminler için otomatik olarak seçilebilir.
 
 [![AI Builder uzantısı deneyimi.](./media/ai-builder.png)](./media/ai-builder.png)
-
-## <a name="release-details"></a>Serbest bırakma ayrıntıları
-
-Mali içgörüler genel önizleme, Amerika Birleşik Devletleri, Avrupa ve Birleşik Krallık'ta deneme için sunulmuştur. Microsoft, destek sunduğu bölge sayısını kademeli olarak artırmaktadır.
-
-Genel önizleme özellikleri, yalnızca Katman 2 korumalı alan ortamlarında açık olabilir ve açılmalıdır. Korumalı alan ortamında oluşturulan kurulum ve AI modelleri, üretim ortamına geçirilemez. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Önizlemeleri için Ek Kullanım Koşulları](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

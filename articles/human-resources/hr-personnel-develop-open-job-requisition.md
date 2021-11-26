@@ -1,8 +1,8 @@
 ---
 title: İş talebi oluşturma ve açma
 description: İşe alım projeleri, işe alım sürecinizi yönetmenize yardımcı olur.
-author: andreabichsel
-ms.date: 02/03/2021
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruiting
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df60f6461c52e45849d3de89fde4ae53f915dbc3cce417a30790acf443c5fecc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778784"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731573"
 ---
 # <a name="create-and-open-job-requisition"></a>İş talebi oluşturma ve açma
 
@@ -39,7 +39,7 @@ ms.locfileid: "6778784"
 6. Listede, kaydınızı bulup seçin.
 7. Listeden, seçilen satırdaki bağlantıyı seçin.
 8. **Seç**'i seçin.
-9. Departman alanında, aramayı açmak için açılır menü düğmesini seçin.
+9. **Departman** alanında, aramayı açmak için açılır menü düğmesini seçin.
 10. Listeden, seçilen satırdaki bağlantıyı seçin.
 11. **İş** alanında, aramayı açmak için açılır menü düğmesini seçin.
 12. Listede, kaydınızı bulup seçin.
@@ -58,10 +58,10 @@ ms.locfileid: "6778784"
 25. **Bitiş tarihi** alanına bir tarih girin.
 26. **Kaydet**'i seçin.
 27. Sayfayı kapatın.
-28. İş ilanları'nı seçin.
+28. **İş ilanları**'nı seçin.
 29. **Kaydet**'i seçin.
 30. Sayfayı kapatın.
-31. **Employee Self-Service'te görüntüle** onay kutusunu işaretleyin veya işaretini kaldırın. **Employee Self-Service'te görüntüle** onay kutusunu seçin. Bu seçim, işe alım projesini Employee Self-Service sayfalarında çalışanlara görünür hale getirir.
+31. **Çalışan self serviste görüntüle** onay kutusunu işaretleyin veya işaretini kaldırın. **Çalışan self serviste görüntüle** onay kutusunu seçin. Bu seçim, işe alım projesini **Çalışan self servis** sayfalarında çalışanlara görünür hale getirir.
 32. **İşe alma projesi durumu**'nu seçin.
 33. **Başlat**'ı seçin. **Başlatıldı** durumu, projenin başvuruları almaya hazır olduğu anlamına gelir.  
 34. **Tamam**'ı seçin.

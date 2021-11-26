@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e850b44479d36c16db3c993e196cd6bfdbc52ee7
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: d52ff69cfd7a81eb9f19a0ef498c6ceeea77b360
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416613"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782368"
 ---
 # <a name="note-integration"></a>Not tümleştirmesi
 
@@ -26,9 +26,9 @@ ms.locfileid: "7416613"
 
 Müşteri bilgileri aşağıdaki yollarla sınıflandırılabilir:
 
-+ **Bir Dynamics 365 kullanıcısının bir müşteri adına işlediği eyleme dönüştürülebilir bilgiler** – Örneğin, Contoso (bir Dynamics 365 kullanıcısı) bir oyun gösterisi gerçekleştiriyor olsun. Contoso müşterilerinden biri (bir müşteri) oyun gösterisine katılmak istiyor. Müşteri, bir Contoso çalışanından kendisi için oyun gösterisinde bir yer ayırtmasını istiyor. Kayıt, Contoso'nun etkinlik katılımcı takvimine işleniyor.
++ **Bir Dynamics 365 kullanıcısının bir müşteri adına işlediği eyleme dönüştürülebilen bilgiler**: Örneğin, Contoso (bir Dynamics 365 kullanıcısı) bir oyun gösterisi yürütüyor. Contoso müşterilerinden biri (bir müşteri) oyun gösterisine katılmak istiyor. Müşteri, bir contoso çalışanından kendisi için oyun gösterisinde bir yer ayırtmasını istiyor. Kayıt, Contoso'nun etkinlik katılımcı takvimine işleniyor.
 + **Bir Dynamics 365 kullanıcısı için eyleme dönüştürülebilen bilgiler**: Örneğin, bir Surface birimi satın alan bir müşteri, cihazın teslim edilmeden önce hediye paketi yapılmasını belirten özel talimatlar giriyor. Bu talimatlar paketlemeden sorumlu olan Contoso çalışanı tarafından işlenmesi gereken, eyleme dönüştürülebilen bilgilerdir.
-+ **Eyleme dönüştürülemeyen bilgiler** – Örneğin, bir müşteri Contoso mağazasını ziyaret eder ve mağaza görevlisiyle konuşmaları sırasında *Halo* oyunları ve oyun aksesuarlarıyla ilgilendiğini ifade eder. Mağaza görevlisi bu bilgiyi not eder. Daha sonra, ürün öneri altyapısı bunu müşteriye önerilerde bulunmak için kullanır.
++ **Eyleme dönüştürülemeyen bilgiler**: Örneğin, bir müşteri Contoso mağazasını ziyaret eder ve mağaza görevlisiyle konuşmaları sırasında *Halo* oyunları ve oyun aksesuarlarıyla ilgilendiğini ifade eder. Mağaza görevlisi bu bilgiyi not eder. Daha sonra, ürün öneri altyapısı bunu müşteriye önerilerde bulunmak için kullanır.
 
 Genel olarak, eyleme dönüştürülebilen bilgiler, Finance and Operations uygulamalardaki ve customer engagement uygulamalarında *etkinlikler* olarak kaydedilir. Eyleme dönüştürülemeyen bilgiler, Finance and Operations uygulamalarda *notlar* ve customer engagement uygulamalarında *ek açıklamalar* olarak kaydedilir.
 

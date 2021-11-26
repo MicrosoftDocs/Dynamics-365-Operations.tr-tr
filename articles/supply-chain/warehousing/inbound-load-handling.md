@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577852"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778071"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
@@ -205,7 +205,7 @@ Aşağıdaki tabloda, **Yük başına birden fazla ürün girişine izin ver** a
 | Yük başına birden fazla ürün girişine izin ver | Yük miktarı | Yük durumu | Not |
 |---|---|---|---|
 | Bu alan kullanılamıyorsa (10.0.10 öncesi sürümler) | <p>Yük miktarı, kayıtlı miktara eşit olacak şekilde ayarlanır.</p><p>Yük miktarının 0 (sıfır) olarak güncelleştirilmesi, kayıt yapılmadığı anlamına gelir, yük satırı silinir.</p><p>Yükte herhangi bir yük satırı yoksa, yük silinir.</p> | _Alınan_ | Sipariş satırının kayıtlı miktarı için birden çok yük varsa, yalnızca girişin deftere nakledildiği yükün durumu _Teslim alındı_ olarak güncelleştirilir. |
-| No | <p>Yük miktarı, yük koduyla ilişkilendirilmiş kayıtlı miktara eşit olacak şekilde ayarlanır.</p><p>Stok hareketi için bir yük kodu kaydedilmezse, davranış 10.0.10 önceki sürümlerdeki davranışla eşleşir.</p> | _Alınan_ | |
+| Hayır | <p>Yük miktarı, yük koduyla ilişkilendirilmiş kayıtlı miktara eşit olacak şekilde ayarlanır.</p><p>Stok hareketi için bir yük kodu kaydedilmezse, davranış 10.0.10 önceki sürümlerdeki davranışla eşleşir.</p> | _Alınan_ | |
 | Evet | Güncelleştirme yok | _Teslim alındı_, toplam kayıtlı yük miktarı yük miktarına eşit veya daha fazlaysa | |
 | Evet | Güncelleştirme yok | _Sevk edildi_ veya _İşlemde_, toplam kayıtlı yük miktarı yük miktarından azsa | |
 
@@ -267,7 +267,7 @@ Bu senaryolar, _Yük başına birden fazla ürün girişine izin ver_ özelliği
 
 1. **Özellik yönetimi** çalışma alanını açın. (Bu çalışma alanının nasıl bulunacağı ve kullanılacağı hakkında tüm ayrıntılar için bkz. [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Aşağıdaki listelenen şekilde  _Satınalma siparişi stok hareketlerini yükle ilişkilendir_ özelliğini açın:
+1. _Satınalma siparişi stok hareketlerini yükle ilişkilendir_ özelliğinin açık olduğundan emin olun. Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz. Ancak, özellik hâlâ [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde aşağıdaki şekilde listelenir:
 
     - **Modül:** _Ambar yönetimi_
     - **Özellik adı:** _Satınalma siparişi stok hareketlerini yükle ilişkilendir_

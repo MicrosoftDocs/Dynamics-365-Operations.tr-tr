@@ -1,8 +1,8 @@
 ---
 title: İzin ve devamsızlığa genel bakış
-description: Dynamics 365 Human Resources'ta İzin ve devamsızlık çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve sunar. Ayrıca, istekleri yönetmek için iş akışları ve personelin izin istemesi için sezgisel bir self servis sayfası sunar.
-author: andreabichsel
-ms.date: 07/16/2021
+description: Dynamics 365 Human Resources'ta İzin ve devamsızlık çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve sunar.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6dc63554f5ed32b2b3b387ef3fa4bcde2c202489003a99cb414547e33160ac8e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0088f9fe070ee4054c531ca128daba9389054902
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764170"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728625"
 ---
 # <a name="leave-and-absence-overview"></a>İzin ve devamsızlığa genel bakış
 

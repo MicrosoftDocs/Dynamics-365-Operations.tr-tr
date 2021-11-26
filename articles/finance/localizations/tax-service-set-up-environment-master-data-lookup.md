@@ -1,8 +1,8 @@
 ---
-title: Ana veri arama için ortam ayarlama
-description: Bu konu, Vergi Hesaplama ana veri arama işlevini kullanmak için ortamınızı nasıl ayarlayabileceğinizi açıklamaktadır.
+title: Vergi hesaplama konfigürasyonu için master veri aramasını etkinleştir
+description: Bu konu, vergi hesaplama ana veri arama işlevini nasıl etkinleştirebileceğinizi ve kurabileceğinizi açıklamaktadır.
 author: kai-cloud
-ms.date: 10/26/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
+ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700416"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749522"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>Ana veri arama için ortam ayarlama
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Vergi hesaplama konfigürasyonu için master veri aramasını etkinleştir 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Vergi Hesaplama ana veri arama işlevini kullanmak için ortamınızı nasıl ayarlayabileceğinizi açıklamaktadır.
+Bu konu, vergi hesaplama ana veri arama işlevini nasıl etkinleştirebileceğinizi ve kurabileceğinizi açıklamaktadır. **Satıcı hesabı**, **Madde kodu** ve **Teslimat şartı** gibi alanlar için vergi hesaplama konfigürasyonundaki değerleri seçmek üzere bir açılır liste kullanılabilir. Bu değerler, bağlantılı Microsoft Dynamics 365 Finance ortamından Microsoft Dataverse veri kaynağı kullanılarak alınır.
 
 1. Microsoft Dynamics Lifecycle Services'ta (LCS) Microsoft Power Platform tümleştirmesi ayarlayın. Daha fazla bilgi için bkz. [Microsoft Power Platform tümleştirmesi - Eklentilere genel bakış](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Bu adımı tamamladıktan sonra, bir Microsoft Power Platform ortamın adı, **Power Platform tümleştirmesi** bölümünde görünür.
 2. [Microsoft Power Platform yönetim merkezine](https://admin.powerplatform.microsoft.com/environments) gidin ve ortam adını seçin. Ortam URL'si sağlanır.

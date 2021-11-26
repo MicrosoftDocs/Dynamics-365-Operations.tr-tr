@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576124"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778219"
 ---
 # <a name="replenishment-over-location-capacity"></a>Yerleşim kapasitesine göre stok yenileme
 
@@ -32,8 +32,8 @@ Bazı yüksek hacimli veya alan kısıtlamalı ambarlar, malzeme çekme konumuna
 
 Bu özelliği kullanılabilir hale getirmek için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin (bu sırayla):
 
-1. Kuruluş çapında işi engelleme
-1. Yerleşim kapasitesine göre stok yenileme
+1. Kuruluş genelinde iş durdurma (Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz.)
+1. Konum kapasitesine göre stok yenileme
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Örnek senaryo için özelliği ayarlama
 

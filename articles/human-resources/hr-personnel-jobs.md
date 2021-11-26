@@ -1,26 +1,26 @@
 ---
 title: İşin bileşenlerini ayarlama
 description: Bu konu, bir işin içerebileceği konsept öğelerini açıklar ve bu öğeleri kuruluşunuzda nasıl kullanabileceğiniz hakkında örnekler sağlar.
-author: andreabichsel
-ms.date: 06/24/2021
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754788"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731577"
 ---
 # <a name="set-up-the-components-of-a-job"></a>İşin bileşenlerini ayarlama
 
@@ -60,7 +60,7 @@ Arama özelliğini kullanarak açabileceğiniz **İş ailesi** sayfasını kulla
 İş işlevlerini, **İş işlevleri** sayfasını kullanarak yönetirsiniz. **İş işlevleri** sayfası üzerinde, bir kimlik saptama kodu ve iş işlevi için kısa bir açıklama girersiniz.
 
 ## <a name="compensation"></a>Maaş
-Bir projede pozisyona sahip bir çalışana sabit ücret planı atamak için, iş üzerinde ücret düzeylerini ayarlamanız gerekir. Ücret yapısında (ücret ızgarası) minimum, orta nokta ve maksimum tutarlar ayarlandığında, ücret düzeyi kullanılır. Sabit ücret planı oluşturulduğunda, ücret yapısı seçilir. Ücret yapısı ücret düzeyini de içerir. Bir çalışan için sabit bir ücret planı seçerken, seçim için kullanılabilen ücret düzeyleri, çalışanın pozisyonunun ilişkili olduğu işe bağlıdır. Ücret ayarlama hakkında daha fazla bilgi için bkz. [Ücret planları](hr-compensation-overview.md).
+Bir projede pozisyona sahip bir çalışana sabit ücret planı atamak için, iş üzerinde ücret düzeylerini ayarlamanız gerekir. Ücret yapısında (ücret ızgarası) minimum, orta nokta ve maksimum tutarlar ayarlandığında, **Ücret düzeyi** kullanılır. Sabit ücret planı oluşturulduğunda, ücret yapısı seçilir. Ücret yapısı ücret düzeyini de içerir. Bir çalışan için sabit bir ücret planı seçerken, seçim için kullanılabilen ücret düzeyleri, çalışanın pozisyonunun ilişkili olduğu işe bağlıdır. Ücret ayarlama hakkında daha fazla bilgi için bkz. [Ücret planları](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>İş yetenekleri
 İş yetenekleri, bir işi gerçekleştirmek için gerekli olan yetenekleri açıklar. Yetenek düzeyinin her iş yeteneğiyle ilişkilendirilmesi gerekir. Yetenek düzeyleri kullanıcı tanımlıdır. Bunlar yetenek için gerekli olan bilgi düzeyini veya yeterliliği gösterir. Örneğin, şirketler 1-5 gibi sayısal düzeyler ayarlayabilir, burada **1** acemi ve **5** uzman düzeyi belirtir. Alternatif olarak, şirketler **Acemi**, **Orta** veya **Uzman** etiketli düzeyler ayarlayabilir. Yetenek düzeyi ayarlandıktan sonra, yeteneğin önem derecesi de ayarlanabilir. Örneğin, bir muhasebecinin güçlü Microsoft Excel bilgisine sahip olması gerekiyorsa, **Excel bilgisi** olarak adlandırılan bir yetenek oluşturulabilir. Yetenek düzeyi daha sonra **Orta** olarak ve önem derecesi **En çok** olarak ayarlanabilir.

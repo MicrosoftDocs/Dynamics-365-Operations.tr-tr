@@ -2,7 +2,7 @@
 title: Finance Insights kurulumu ile ilgili sorunları giderme
 description: Bu konuda, Finance Insights yeteneklerini kullandığınızda oluşabilecek sorunlar listelenmektedir. Ayrıca bu sorunların nasıl düzeltileceği açıklanmıştır.
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512902"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752629"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights kurulumu ile ilgili sorunları giderme
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, Finance Insights yeteneklerini kullandığınızda oluşabilecek sorunlar listelenmektedir. Ayrıca bu sorunların nasıl düzeltileceği açıklanmıştır.
 
@@ -53,6 +54,12 @@ Veri tümleştirme projelerinizi güncelleştirmek için [Power Platform yöneti
 
 1. Finance Insights önizleme sürümünü kullanıyorsanız **Müşteri ödeme içgörüleri sonuçları (CDS'den Fin ve Ops'a)** şablonuyla ilişkili DI projesini kaldırın.
 2. [Veri tümleştirici projesi oluşturma](create-data-integrate-project.md) bölümündeki adımları izleyin. **Müşteri ödeme içgörüleri sonuçları (CDS'den Fin, Ops 10.0.17 ve sonraki sürümlere)** şablonunu kullanın.
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Belirti: Müşteri ödeme tahminleri kurulum sayfasındaki bağlantıları kullanarak AI Builder'I açmayı denediğimde, şu hata iletisini niçin alıyorum: "Üzgünüz, bir bağlantı kesilmesi oldu"?
+
+### <a name="resolution"></a>Çözüm
+
+Dynamics 365 Finance kullanıcıların, ortam için bir Microsoft Power Apps kullanıcı hesabına sahip olmaları ve bu kullanıcı hesabının Sistem özelleştirici rolüne sahip olması gerekir. Microsoft Power Apps sistem yöneticisi, kullanıcı hesabını oluşturup role atayabilir. Sonra <https://make.preview.powerapps.com/> adresine gidebilir, bu kullanıcı hesabını kullanarak oturum açabilir ve bağlantıları yeniden deneyebilirsiniz.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Belirti: Nakit akışı tahmini çalışma alanındaki Nakit tahmini sekmesinde neden veri gösterilmiyor?
 

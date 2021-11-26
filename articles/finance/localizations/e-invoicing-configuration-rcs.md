@@ -2,7 +2,7 @@
 title: Regulatory Configuration Services'teki (RCS) elektronik faturalamayı yapılandırma
 description: Bu konuda, Dynamics 365 Regulatory Configuration Services'te (RCS) Elektronik faturalamanın nasıl yapılandırılacağı açıklanmaktadır.
 author: gionoder
-ms.date: 07/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757986"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779682"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Regulatory Configuration Services'teki (RCS) elektronik faturalamayı yapılandırma
 
@@ -28,7 +28,7 @@ ms.locfileid: "6757986"
 
 Bu konu, Dynamics 365 Regulatory Configuration Services'teki (RCS) Elektronik faturalamanın yapılandırma yetenekleri hakkında bilgi sağlar.
 
-Elektronik faturalamanın, herhangi bir kodlama yapmak zorunda kalmadan elektronik faturaların iş ve mevzuat gereksinimlerini karşılamanıza yardımcı olması yapılandırma özellikleri sayesindedir. Elektronik faturaların bir web hizmetleri tarafından elektronik olarak onaylanması gereken senaryolarda, yapılandırma özellikleri, herhangi bir kod yapmadan bir web hizmetleriyle ileti alışverişi gereksinimlerini karşılamanıza da yardımcı olur.
+Elektronik faturalamanın, herhangi bir kodlama yapmak zorunda kalmadan elektronik faturaların iş ve mevzuat gereksinimlerini karşılamanıza yardımcı olması yapılandırma özellikleri sayesindedir. Elektronik faturaların bir web hizmeti tarafından elektronik olarak onaylanması gereken senaryolarda, yapılandırma özellikleri, herhangi bir kod yapmadan bir web hizmetiyle ileti alışverişi gereksinimlerini karşılamanıza da yardımcı olur.
 
 ## <a name="electronic-reporting"></a>Elektronik raporlama
 
@@ -73,6 +73,7 @@ Aşağıdaki tabloda, genel kullanıma sunulan elektronik faturalama özellikler
 | İspanya          | İspanya elektronik faturası (ES)      | Satış faturaları ve proje faturaları |
 | Avrupa         | PEPPEOL elektronik faturası            | PEPPOL satış faturaları ve proje faturaları |
 | Avrupa         | PEPPOL satıcı faturası                | PEPPOL satıcı faturalarını içeri aktarma |
+| Suudi Arabistan   | Suudi Arabistan elektronik faturası (SA)| Satış faturaları ve proje faturaları |
 
 ### <a name="preview-features"></a>Önizleme özellikleri
 
@@ -196,6 +197,11 @@ Aşağıdaki listelerde, elektronik faturalama özellikleri için kullanılabile
 
 - Satış faturası (ES)
 - Proje faturası (ES)
+
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Suudi Arabistan (SA) elektronik fatura: Suudi Arabistan için satış ve proje faturaları
+
+- Satış e-faturası (SA)
+- Proje e-faturası (SA)
 
 Elektronik Faturalama hizmetiyle kullanmak üzere kullanıma hazır ER biçimi yapılandırmalarına ek olarak, kendi ER biçim yapılandırmalarınızı da oluşturabilirsiniz. Ancak, Elektronik Faturalama özellikleriyle kullanılmak üzere oluşturulan biçim yapılandırmaları, Finance veya Supply Chain Management tablolarına veya ilgili meta verilerden herhangi birine doğrudan başvuruyu desteklemez. Yalnızca ER modeli eşlemesine yapılan başvurular desteklenir.
 

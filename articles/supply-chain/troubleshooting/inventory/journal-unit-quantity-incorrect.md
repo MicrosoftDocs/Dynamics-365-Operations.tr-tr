@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 39f462ae325aa1104a25a8290daed70388e624ec
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 074be71d7b6ec1acab6307a79e397c2a2a045c39
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7477829"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778437"
 ---
 # <a name="the-unit-and-unit-quantity-arent-working-correctly-in-the-inventory-journal"></a>Birim ve birim miktarı stok günlüğünde doğru çalışmıyor
 
@@ -31,7 +31,7 @@ Stok günlüğünde birimlerle ve miktarlarla çalışırken aşağıdaki sorunl
 
 Bu sorunu düzeltmek için şu adımları izleyin.
 
-1. **Özellik yönetimi** çalışma alanında, *Stok günlüklerinde ölçü birimi ve birim miktarı kullanımı* özelliğinin açık olduğundan emin olun. Bu özellik, günlüğe **Birim** ve **Birim miktarı** alanlarını ekler.
+1. **Özellik yönetimi** çalışma alanında, *Stok günlüklerinde ölçü birimi ve birim miktarı kullanımı* özelliğinin açık olduğundan emin olun. Bu özellik, günlüğe **Birim** ve **Birim miktarı** alanlarını ekler. (Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır.)
 1. Özellik etkinleştirildikten sonra **Miktar**, **Birim miktarı** ve **Birim** alanlarını aşağıdaki şekilde kullanın.
 
     - **Miktar**: Serbest bırakılan ürün için tanımlanan varsayılan birimi kullanarak miktarı belirtin. Ancak, varsayılan birimin kendisi burada gösterilmez. Varsayılan birim ile **Birim** alanında seçilen birim arasında dönüştürme işlemi ayarlandıysa, **Miktar** alanı **Birim miktarı** ve **Birim** alanlarındaki seçimlere göre otomatik olarak güncelleştirilir.

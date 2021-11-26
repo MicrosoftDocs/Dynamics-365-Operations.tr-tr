@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471752"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733451"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Dağıtılmış karma topolojide ölçek birimleri
 
@@ -32,8 +32,8 @@ ms.locfileid: "7471752"
 
 Dağıtılmış karma topoloji, atölye ve ambar yürütme iş yüklerinin farklı ortamlar arasında dağıtılmasını sağlayan *ölçek birimleri* kavramını sunar. Bu işlevsellik, performansın artırılmasına, hizmet kesintilerinin önlenmesine ve çalışma süresini en üst düzeye çıkarılmasına yardımcı olabilir. Ölçek birimleri, Supply Chain Management aboneliğiniz için aşağıdaki eklentiler aracılığıyla sağlanır:
 
-- Dynamics 365 Supply Chain Management için Bulut Ölçek Birimi Eklentisi ( *Nisan 2021*'de kullanıma sunulmuştur)
-- Dynamics 365 Supply Chain Management için Uç Ölçek Birimi Eklentisi ( *yakında kullanıma sunulacaktır*)
+- Dynamics 365 Supply Chain Management için Bulut Ölçek Birimi Eklentisi
+- Dynamics 365 Supply Chain Management için Uç Ölçek Birimi Eklentisi
 
 İş yükü özellikleri, artımlı geliştirmeler aracılığıyla sürekli olarak yayımlanmaktadır.
 
@@ -51,21 +51,12 @@ Dağıtılmış karma topoloji, atölye ve ambar yürütme iş yüklerinin farkl
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Bir ölçek birimindeki özel ambar yönetimi iş yükü özellikleri
 
-Ambar yönetimi iş yükü, genel kullanıma sunaln ölçek birimleri için dağıtılmış ilk iş yüküdür.
-
-Ambar yönetimi için ölçek birimleri aşağıdaki özellikleri sunar:
-
-- Sistem, satış siparişleri ve talep stok yenilemesi için seçili dalga yöntemlerini işleyebilir.
-- Ambar çalışanları, Ambar Yönetimi mobil uygulamasını kullanarak satış ve talep stok yenileme ambar işlerini çalıştırabilir.
-- Ambar çalışanları,Ambar Yönetimi mobil uygulamasını kullanarak eldeki stokta sorgu çalıştırabilirler.
-- Ambar çalışanları Ambar Yönetimi mobil uygulamasını kullanarak stok hareketleri oluşturabilir ve çalıştırabilir.
-- Ambar çalışanları satın alma siparişlerini kaydedebilir ve Ambar Yönetimi mobil uygulamasını kullanarak siparişleri kaydedebilir.
-
+Ambar yönetimi iş yükü yalıtılmış bir dağıtımda ambar yönetimi işlemlerini çalıştırmanıza olanak tanır.
 Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Bir ölçek birimindeki özel üretim yürütme iş yükü özellikleri
 
-Üretim iş yükünün ilk sürümü şu anda önizleme aşamasındadır ve aşağıdaki özellikleri sunar:
+Üretim iş yükü aşağıdaki olanakları sağlar:
 
 - Makine operatörleri ve üretim katı denetçileri operasyonel üretim planına erişebilirler.
 - Makine operatörleri, gizli ve süreç üretim işleri çalıştırarak planı güncel tutabilir.
@@ -191,17 +182,33 @@ Microsoft, kayıt formunda sağladığınız adrese bir e-posta göndererek iste
 
 Ekleme tamamlandıktan sonra, ölçek birimlerini ve iş yüklerini yapılandırmak için bağlantı noktasını kullanabilirsiniz.
 
-### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Ölçek Birim Yöneticisi portalını kullanarak bulut ölçek birimlerini ve iş yüklerini yönetme
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Ölçek Birim Yöneticisi portalını kullanarak ölçek birimlerini ve iş yüklerini yönetme
 
 [Ölçek Birimi Yöneticisi portalına](https://aka.ms/SCMSUM) gidin ve kiracı hesabınızı kullanarak oturum açın. **Ölçek birimlerini yapılandır** sayfasında, önceden listelenmemişse bir hub ortamı ekleyebilirsiniz. Daha sonra ölçek birimleri ve iş yükleri ile yapılandırmak istediğiniz hub'ı seçebilirsiniz.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Ölçek birimi ve iş yükü yönetimi deneyimi.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Ölçek birimi Yöneticisi portalı, Ölçek birimlerini konfigüre et sayfası.":::
 
 Aboneliklerinizde bulunan bir veya daha fazla ölçek birimini eklemek için **Ölçek birimleri ekle**'yi seçin.
 
 **Tanımlanan iş yükleri** sekmesinde, ölçek birimlerinizden birine ambar yönetimi iş yükü eklemek için **İş yükü oluştur** düğmesini kullanın. Her iş yükü için iş yükü tarafından sahip olunacak işlemlerin bağlamını belirtmeniz gerekir. Ambar yönetimi iş yükleri için bağlam, belirli bir tesis ve tüzel kişilikteki belirli bir ambardır.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="İş yükü oluşturma.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="İş yükleri tanımla iletişim kutusu.":::
+
+#### <a name="manage-workloads"></a>İş yüklerini yönetme
+
+Bir veya daha fazla iş yükü etkinleştirildiğinde, aşağıdaki tabloda listelenenler gibi işlemleri başlatmak ve yönetmek için **İş yüklerini yönet** seçeneğini kullanın.
+
+| İşle | Tanım |
+|---|---|
+| Ölçek birimi iletişimini duraklat | Hub ve ölçek birimi arasında ardışık düzen iletilerini duraklatın. Bu işlem, iletişimi durduracak ve merkez ile ölçek birimleri arasındaki veri kanalını boşaltacaktır. Merkezdeda veya ölçek biriminde bir Supply Chain Management hizmeti işlemi çalıştırmadan önce bu işlemi çalıştırmanız gerekir, ancak bunu başka durumlarda da kullanabilirsiniz. |
+| Ölçek birimi iletişimini devam ettir | Hub ve ölçek birimi arasında ardışık düzen iletilerini devam ettirin. Örneğin, merkez veya ölçek biriminde bir Supply Chain Management hizmeti işlemi çalıştırdıktan sonra bu işlemi kullanmanız gerekebilir. |
+| İş yüklerini yükseltme | Merkez ve ölçek birimi iş yükleri arasındaki yeni işlevleri eşitleyin. Örneğin, servis talebi iş yüküne yeni tablolar veya alanlar eklediğine yönelik hizmet verirken bu işlemi kullanmanız gerekebilir. |
+| İş yüklerini ölçek birimine aktar | Merkez üzerinde çalışmakta olan bir iş yükünü ölçek birimine taşınacak şekilde zamanlayın. Bu işlem çalıştırıldığında, verilerin eşitlenmesi akacaktır ve hem merkez hem de ölçek birimi iş yükünün sahipliğini değiştirecek şekilde ayarlanır. |
+| Ölçek birimini merkeze aktarma | Ölçek birimi üzerinde çalışmakta olan bir iş yükünü merkeze taşınacak şekilde zamanlayın. Bu işlem çalıştırıldığında, verilerin eşitlenmesi akacaktır ve hem merkez hem de ölçek birimi iş yükünün sahipliğini değiştirecek şekilde ayarlanır.
+| Merkeze acil durum geçişi | <p>Varolan bir iş yükünü hemen merkeze aktarın. *Bu işlem, yalnızca merkezde kullanılabilir olan verilerin sahipliğini değiştirir.*</p><p><strong>Uyarı:</strong> Bu işlem eşitlenmemiş veriler ve iş işleme hataları nedeniyle veri kaybına neden olabilir. Bu nedenle, ölçek birimi makul bir süre içinde azaltılamaz bir kesinti içerdiğinden, iş süreçlerinin merkez üzerinde işlenmesi gereken acil durumlarda kullanılmalıdır.</p> |
+| Çıkarma dağıtılmış topoloji | Bir ölçek birimi dağıtımını kaldırın ve iş yükü işlemesi olmadan yalnızca merkez üzerinde çalıştırın. |
+
+:::image type="content" source="media/sum-manage-workloads.png" alt-text="Ölçek birimi ve iş yükü yönetimi deneyimi.":::
 
 > [!TIP]
 > Zaman içinde, yaşam döngüsü yönetimi işlemlerini kolaylaştırmaya yardımcı olmak için Ölçek Birim Yöneticisi deneyimine artımlı geliştirmeler eklenecektir. Geçerli sürüme yönelik özellikler, Supply Chain Management için dağıtılmış, karma topolojiye katılma sürecinde olan müşteriler tarafından kullanılabilen bir katılım el kitabında belgelenmiştir. <!-- KFM: Add a link to the handbook when it is published -->

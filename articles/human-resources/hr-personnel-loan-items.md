@@ -1,8 +1,8 @@
 ---
 title: Çalışanlara ödünç verilen öğeleri yönetme
 description: Ödünç verilen maddeler, yöneticilerin şirketin çalışanlarına ödünç verdiği fiziksel öğeleri izlemede yardımcı kayıtlardır.
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760598"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728771"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Çalışanlara ödünç verilen öğeleri yönetme
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760598"
 
 Ödünç verilen maddeler, yöneticilerin şirketin çalışanlarına ödünç verdiği fiziksel öğeleri izlemede yardımcı kayıtlardır. 
 
-Aşağıdaki noktalar şirket çalışanlarına ödünç verilebilecek öğeleri listeler:
+İirket çalışanlarına ödünç verilebilecek öğelerle ilgili bazı örnekler:
+
 -   Cep telefonları
 -   Otomobiller
 -   Bilgisayar ekipmanı
@@ -37,7 +38,7 @@ Her fiziksel öğeye karşılık gelen bir ödünç verilen madde olmalıdır. �
 
 Bir maddeyi ödünç verirken, maddenin ödünç verildiği tarihi ve planlanan iade tarihini girin. Madde iade edildiğinde, asıl iade tarihini girin.
 
-Çalışanlar, kendilerine ödünç verilen maddelerin kaydını görüntülemek için Çalışan self servis çalışma alanını kullanabilirler. Ek fiziksel öğeler alırlarsa, mevcut kayıtlarını düzenleyebilir veya yeni ödünç verilen maddeler girebilirler.  İş akışı, yeni veya mevcut ödün verilen öğeleri onay işleminden yönlendirmek üzere ayarlanabilir. 
+Çalışanlar, kendilerine ödünç verilen maddelerin kaydını görüntülemek için **Çalışan self servis** çalışma alanını kullanabilirler. Ek fiziksel öğeler alırlarsa, mevcut kayıtlarını düzenleyebilir veya yeni ödünç verilen maddeler girebilirler. Bir iş akışı, yeni veya mevcut ödün verilen öğeleri onay işleminden yönlendirmek üzere ayarlanabilir. 
 
 Yöneticiler doğrudan raporları aracılığıyla ödünç öğeleri görüntüleyebilirler. Ayrıca çalışanları adına yeni bir ödünç verilen maddeler ekleme izni de verilebilirler.
 

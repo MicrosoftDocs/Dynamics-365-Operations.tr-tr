@@ -1,7 +1,7 @@
 ---
 title: Alacak ve tahsilatlara genel bakış
 description: Bu konu, alacak ve tahsilatlar işlevselliğine genel bir bakış sağlamaktadır.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 24df4ffe5b8af7535611bdf71472bc580ef594e94c96cdafc0e4ec52a5d07c13
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d7c04c11c16871b67e60e957d1b8f25ee309fde
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763370"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753646"
 ---
 # <a name="credit-and-collections-overview"></a>Alacak ve tahsilatlara genel bakış
 

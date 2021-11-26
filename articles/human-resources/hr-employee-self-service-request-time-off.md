@@ -1,8 +1,8 @@
 ---
 title: İzin süresi iste
 description: Dynamics 365 Human Resources'ta izin süresi isteyin.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756112"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771424"
 ---
 # <a name="request-time-off"></a>İzin süresi iste
 
@@ -42,7 +42,7 @@ Dynamics 365 Human Resources'ta izin için istekler gönderebilir, tatilinizi g�
 
 6. İsteğinizi göndermeye hazır olduğunuzda **Gönder**'i seçin. Aksi durumda, **Taslağı kaydet**'i seçin.
 
-Yeni bir izin talebi gönderen çalışanlar, izin taleplerini oluşturmak için farklı izin türleri seçebilirler. Ancak, tek bir izin talebinin parçası olarak seçilen tüm izin türleri aynı izin birimine sahip olmalıdır. Çalışanlar, her izin türü için izin birimini **İzin talebinde bulunma** formunda görüntüleyebilir.
+Yeni bir izin talebi gönderen çalışanlar, izin taleplerini oluşturmak için farklı izin türleri seçebilirler. Ancak, tek bir izin isteğinin parçası olarak seçilen tüm izin türleri aynı izin birimine sahip olmalıdır. Çalışanlar, her izin türü için izin birimini **İzin isteme** sayfasında görüntüleyebilir.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Mevcut bir izne ek ekleme
 
@@ -58,13 +58,13 @@ Varolan bir zamanı isteği güncelleştirirken, bir ek ekleyebilirsiniz. Ayrıc
 
 1. **Çalışan Self servis** çalışma alanında, **izin bakiye** döşemesinin dışında **Diğer (...)** seçin.
 
-2. Onaylanan saat isteğinizi görüntülemek için **onaylanan izin** seçeneğini belirleyin . Bekleyen saat isteğinizi görüntülemek için **izin istekleri** seçeneğini belirleyin.
+2. Onaylanan saat isteğinizi görüntülemek için **onaylanan izin** seçeneğini belirleyin. Bekleyen saat isteğinizi görüntülemek için **İzin istekleri** seçeneğini belirleyin.
 
 ## <a name="cancel-time-off-requests"></a>İzin süresi isteklerini iptal etme
 
 1. **Çalışan Self servis** çalışma alanında, **İzin Bakiyesi** kutucuğunun dışında **İzini görüntüle**'yi seçin.
 
-2. **İzin** formunda, iptal edilecek bir veya daha fazla izin isteğini seçin.
+2. **İzin** sayfasında, iptal edilecek bir veya daha fazla izin isteğini seçin.
 
 3. **İptal et** düğmesini seçin.
 

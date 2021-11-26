@@ -1,8 +1,8 @@
 ---
 title: Anketler oluşturma
-description: Bu makale bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Bu konu bir anket oluşturma işlemini açıklar.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c2a8c156aa75b02b69da3ee70a1ee60ea9d73a8aa67c70babdaaad88d6eb81f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755576"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729063"
 ---
 # <a name="create-questionnaires"></a>Anketler oluşturma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu makale bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
+Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
 
 Dikkatli şekilde tasarlanmış bir anket, topladığınız verilerin kalitesini artırabilir. Dikkatli tasarım ile bir anket için uygun zamanda uygun seçenekleri daha iyi seçebilirsiniz. Aşağıdaki noktalar etkili bir anket planlamanıza yardımcı olabilir:
 
@@ -63,7 +63,7 @@ Anketler, cevaplar ve sorular oluşturmadan önce bazı önkoşulların yerine g
 
 ### <a name="questionnaire-types"></a>Soru formu tipleri
 
-Anket türleri gereklidir ve bir anket oluşturduğunuzda atanmalıdır. Anket türleri anketleri daha kolay yönetmenize ve sınıflandırmanıza yardımcı olur. Anketleri sınıflandırmak ve birbirinden ayırt etmek için anket türlerini kullanın. Örneğin, çok sayıda anketin içinden seçim yapmanız gerekiyorsa, belirli bir anketi bulmayı kolaylaştırmak için bunları filtreleyebilirsiniz. Aşağıda bazı anket türü örnekleri verilmiştir:
+**Anket türleri** gereklidir ve bir anket oluşturduğunuzda atanmalıdır. **Anket türleri** anketleri daha kolay yönetmenize ve sınıflandırmanıza yardımcı olur. Anketleri sınıflandırmak ve birbirinden ayırt etmek için anket türlerini kullanın. Örneğin, çok sayıda anketin içinden seçim yapmanız gerekiyorsa, belirli bir anketi bulmayı kolaylaştırmak için bunları filtreleyebilirsiniz. Aşağıda bazı anket türü örnekleri verilmiştir:
 
 -   İnsan kaynakları gelişimi
 -   Müşteri araştırmaları
@@ -71,9 +71,9 @@ Anket türleri gereklidir ve bir anket oluşturduğunuzda atanmalıdır. Anket t
 
 ### <a name="question-types"></a>Soru tipleri
 
-Soru türleri gereklidir ve bir soru oluşturduğunuzda atanmalıdır. 
+**Soru türleri** gereklidir ve bir soru oluşturduğunuzda atanmalıdır. 
 
-Raporlama için soruları kategorilere ayırmak için soru türlerini kullanın. Soru türleri aynı zamanda soruları bulmayı kolaylaştırır çünkü **Sorular** sayfasındaki türleri filtre olarak kullanabilirsiniz. Aşağıda bazı soru türü örnekleri verilmiştir:
+Raporlama için soruları kategorilere ayırmak için **Soru türlerini** kullanın. **Soru türleri** aynı zamanda soruları bulmayı kolaylaştırır çünkü **Sorular** sayfasındaki türleri filtre olarak kullanabilirsiniz. Aşağıda bazı soru türü örnekleri verilmiştir:
 
 -   İnsan kaynakları
 -   İşi yönetme
@@ -105,7 +105,7 @@ Kapalı-uçlu sorular için olası yanıt listesi sağlamak için, cevapları **
 
 Yanıt grupları ve yanıtlar soruların oluşturulduğu bilgilerin ana gövdesini oluşturan bileşenlerdir. Bir yanıt grubu oluşturduktan sonra, yanıt grubunu **Sorular** sayfasındaki **Yanıt grubu** alanındaki bir soruyla ilişkilendirebilirsiniz. 
 
-Bir yanıt grubu aynı anketteki birden çok soru için kullanılabilir ve aynı zamanda birden çok anket üzerinde kullanılabilir. 
+Bir **Yanıt grubu** aynı anketteki birden çok soru için kullanılabilir ve aynı zamanda birden çok anket üzerinde kullanılabilir. 
 
 > [!NOTE]
 > Tamamlanmış anketlerde zaten kullanılmış olarak bir yanıt grubundaki yanıt metnini değiştirirseniz veriyi değerlendirmek zorlaşabilir ve anket sonuçları geçersiz olabilir. Bir yanıt grubunu değiştirmeniz gerekiyorsa varo lanı değiştirmek yerine yeni bir yanıt grubu oluşturmayı göz önünde bulundurun. Bir soruya veya yanıta eklenmiş olan veya yanıtlanmış olan yanıt gruplarını silemezsiniz.
@@ -171,7 +171,7 @@ Bir ankette, aşağıdaki soru türlerini silemezsiniz:
 
 ### <a name="result-groups"></a>Sonuç grupları
 
-Bir ankete sorular eklediğinizde sonuç grupları isteğe bağlıdır. 
+Bir ankete sorular eklediğinizde **Sonuç grupları** isteğe bağlıdır. 
 
 Bir sonuç grubu puanları hesaplamak ve bir anketin sonuçlarını kategorilere ayırmak için kullanılır. Sonuç grupları kullanırsanız, aşağıdaki görevleri gerçekleştirebilirsiniz:
 
