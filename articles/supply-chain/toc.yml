@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Fransa'daki Finance and Operations uygulamaları
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Yenilikler veya değişiklikler
               items:
                 - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
@@ -2147,7 +2143,7 @@
               items:
                 - name: Proje kaynak bilgilerini ayarlama
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Proje bütçelerini gönderme ve onaylama
+                - name: Proje bütçesi iş akışı oluşturma ve gönderme
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Proje bütçe revizyonlarını gönderme ve onaylama
                   href: procurement/tasks/submit-approve-project-budget-revision.md

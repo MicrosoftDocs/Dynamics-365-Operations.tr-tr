@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Fransa'daki Finance and Operations uygulamaları
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Yenilikler veya değişiklikler
               items:
                 - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: Müşteri yaşlandırma raporu
               href: accounts-receivable/customer-aging.md
+            - name: Müşteri yaşlandırma veri depolaması
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Müşteri için silme günlüğü oluşturma
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Gelişmiş notlar yönetimi
@@ -1476,6 +1474,10 @@
                           items:
                             - name: KDV beyannamesi
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Almanya için raporlama
+                          items:
+                            - name: KDV beyannamesi
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Hollanda için raporlama
                           items:
                             - name: KDV beyannamesi
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: İkinci yılda ek alımlar için amortisman düzeltmeleri
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: KDV beyannamesi
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: KDV beyannamesinin elektronik iletimi (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Almanca İntrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: Almanya için KDV beyannamesi
+                - name: KDV beyanı
                   href: localizations/emea-de-vat-declaration.md
                 - name: Elektronik müşteri faturaları raporu
                   href: localizations/emea-deu-e-invoices.md

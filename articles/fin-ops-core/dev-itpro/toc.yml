@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: 'Yardımı genişletme, özelleştirme ve yardım için işbirliği yapma'
                   href: help/contributor-guide.md
+            - name: Dağıtımla ilgili konular
+              items:
+                - name: Dynamics 365 Finance ve Dynamics 365 Supply Chain Management için bağımsız ve yerel bulut dağıtım seçenekleri
+                  href: deployment/deployment-options-geo.md
+                - name: ABD Government Community Cloud (GCC) için Finance ve Supply Chain Management
+                  href: deployment/us-gcc-deployment.md
+                - name: Çin'de 21Vianet tarafından işletilen Finance ve Supply Chain Management
+                  href: deployment/china-local-deployment.md
+                - name: Fransa'daki Finance and Operations uygulamaları
+                  href: deployment/france-local-deployment.md
         - name: Geliştirme ve özelleştirme
           items:
             - name: Geliştirme ve özelleştirme giriş sayfası
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Taraf ve genel adres defteri modeline yükseltme
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Taraf verilerini görüntüle
+                      href: data-entities/dual-write/view-party.md
                     - name: Not tümleştirmesi
                       href: data-entities/dual-write/notes-integration.md
                     - name: Eşleme referansı
@@ -1584,9 +1596,9 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Toplu işler oluşturma
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Toplu işlerde otomatik yeniden denemeleri etkinleştirme
+                - name: Toplu iş yeniden denemelerini etkinleştirme
                   href: sysadmin/retryable-batch.md
-                - name: Toplu işi kopyalama
+                - name: Toplu iş kopyalama
                   href: sysadmin/copy-batch-job.md
                 - name: Etkin toplu iş dönemleri
                   href: sysadmin/activeperiod.md
