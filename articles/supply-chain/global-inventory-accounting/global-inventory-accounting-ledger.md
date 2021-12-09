@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: b29bb1aea9e96b5ef39303025cb286f0d1fde12c
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 0130aef7212256a11ca9d27ffdd4af7a0aa6d98c
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678895"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860445"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Global Stok Muhasebesi genel defteri
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Global Stok Muhasebesi'nin kendi genel muhasebe defterleri kümesi vardır. İlgili bir tüzel kişilik için stokla ilgili bir hareket işlendiğinde, sistem bu hareketi gerektiği gibi herhangi bir sayıdaki Global Stok Muhasebesi genel muhasebe defterlerinde hesaplayabilir.
 

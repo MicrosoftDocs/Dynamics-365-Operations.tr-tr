@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752629"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827065"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights kurulumu ile ilgili sorunları giderme
 
@@ -70,3 +70,26 @@ Nakit ve banka yönetimindeki nakit akışı tahmini işlevi ve Finance Insights
 İlk olarak, nakit akışı tahmini ve likidite hesaplarını kurun ve etkinleştirin. Daha fazla bilgi için bkz. [Nakit akışı tahminleri](../cash-bank-management/cash-flow-forecasting.md). Bu kurulum tamamlandıysa ancak beklediğiniz sonuçları görmüyorsanız daha fazla bilgi için [Nakit akışı tahmin kurulumu ile ilgili sorunları giderme](../cash-bank-management/cash-flow-forecasting-tsg.md) bölümüne bakın.
 
 Ardından, Finance Insights'taki Nakit akışı tahminleri özelliğinin (**Nakit ve banka yönetimi \> Kurulum \> Finance Insights \> Nakit akışı tahminleri**) etkinleştirildiğini ve AI modelinin eğitiminin tamamlandığını onaylayın. Eğitim tamamlanmadıysa model eğitim sürecini başlatmak için **Şimdi tahminde bulun**'u seçin.
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Belirti: Microsoft Dynamics Lifecycle Services'de, Yeni eklenti yükle düğmesi neden görünmüyor?
+
+### <a name="resolution"></a>Çözüm
+
+Öncelikle Microsoft Dynamics Lifecycle Services'de (LCS) oturum açan kullanıcıya **Proje güvenlik rolü** alanında **Ortam Yöneticisi** veya **Proje Sahibi** rolü atandığından emin olun. Yeni eklentilerin yüklenmesi için bu proje güvenlik rollerinden biri gereklidir.
+
+Size doğru proje güvenlik rolü atanmışsa, **Yeni eklenti yükle** düğmesini görmek için tarayıcı pencerenizi yenilemeniz gerekebilir.
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Belirti: Finance Insights eklentisi yükleniyor gibi görünmüyor. Bunun nedeni nedir?
+
+### <a name="resolution"></a>Çözüm
+
+Aşağıdaki adımların tamamlanması gerekiyor.
+
+- Power Portal yönetim merkezinde **Sistem yöneticisi** ve **Sistem Özelleştirici** erişiminiz olduğunu doğrulayın.
+- Eklentiyi yükleyen kullanıcıya bir Dynamics 365 Finance veya eşdeğer bir lisans uygulandığını doğrulayın.
+- Aşağıdaki Azure AD uygulamasının, Azure AD'de kayıtlı olduğunu doğrulayın: 
+
+  | Uygulama                  | Uygulama kodu           |
+  | ---------------------------- | ---------------- |
+  | Microsoft Dynamics ERP Mikro Hizmetleri CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+  

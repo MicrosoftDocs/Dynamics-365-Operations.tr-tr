@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 792245e7821fe2ecb147e2b4756f3178fcdb17d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569685"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825387"
 ---
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları
 
@@ -39,7 +39,7 @@ Dynamics 365 Supply Chain Management içinde, bir ürün için birincil kimlik t
 
 Çoğu durumda ürün numarası, en başta Dynamics 365 Supply Chain Management'ta oluşturulmaz. Bunun yerine, bir ürün yaşam döngüsü yönetimi (PLM) sistemi veya ürün veri yönetimi (PDM) sistemindeki bir ürünle ilişkilendirilir. Bu durumda, ürünleri ve ürün çeşitlerini içe aktarmak için veri varlıklarını kullanırsınız. Supply Chain Management, daha sonra tüm işlemlerdeki numaraları kullanır.
 
-Supply Chain Management'ı uyguladığınızda ürün numaralarıyla ilgili stratejinize özel önem vermeniz gerekir. İyi bir numaralandırma sistemi lojistik akışları geliştirir ve hataları engellemeye yardımcı olur. İyi bir ürün tanımlayıcısı en çok 15 karakter uzunluğundadır. İdeal olarak, 10 karakterden daha kısa olur ve en fazla beş sınıflandırma karakteri içerir. Ayrıca, hızlı aramalar sağlamak için arama adlarını da kullanabilirsiniz. Bir arama adı bir ürünün sınıflandırmalarını temsil eden ek bir addır.
+Supply Chain Management'ı uyguladığınızda ürün numaralarıyla ilgili stratejinize özel önem vermeniz gerekir. İyi bir numaralandırma sistemi lojistik akışları geliştirir ve hataları engellemeye yardımcı olur. İyi bir ürün tanımlayıcısının 20 veya daha az karakter içermesi gerekir, ancak genellikle 10 karakterden az ve 5'ten fazla karakter kullanmanızı öneririz. Ayrıca, hızlı aramalar sağlamak için arama adlarını da kullanabilirsiniz. Bir arama adı bir ürünün sınıflandırmalarını temsil eden ek bir addır.
 
 Ayrıca Microsoft Dataverse kullanılırken Supply Chain Management'taki ürün numarası, Microsoft Dataverse'taki ürün numarasıdır. Ürün çeşitleri, Dataverse ile ayrı ürünler olarak eşitlenir.
 

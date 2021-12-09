@@ -2,7 +2,7 @@
 title: Elektronik iletileri ayarlama
 description: Bu konu, Elektronik iletiler (EM) işlevinin nasıl ayarlanacağı hakkında bilgi sağlar.
 author: liza-golub
-ms.date: 07/07/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2b62efabfae26a6cc004604e687a49bce992d78a30f0d441aa74fa5cde70e063
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752187"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860570"
 ---
 # <a name="set-up-electronic-messages"></a>Elektronik iletileri ayarlama
 
@@ -34,6 +34,7 @@ Bir varlık paketini içe aktarmazsanız, EM işlevini el ile ayarlayabilirsiniz
 - [Ek alanlar](#additional)
 - [Yürütülebilir sınıf ayrıntıları](#executable)
 - [Kayıtları doldur eylemleri](#populate)
+- [Birden fazla şirketten kayıtları doldurma](#multiple-companies-populate)
 - [Web uygulamaları](#applications)
 - [Web hizmeti ayarları](#settings)
 - [İleti işleme eylemleri](#actions)
@@ -139,6 +140,38 @@ Doldurulmuş kayıt eylemlerini, İleti öğeleri tablosuna kayıtlar ekleyecek 
 | Şirket                | Bu alan, **Özellik yönetimi** çalışma alanında **Kayıtları doldur eylemleri için şirketler arası sorgular** özelliği açıldığında kullanılabilir. Kayıtları doldur eylemlerine yönelik şirketler arası veri kaynakları ayarlamak için bu özelliği kullanın. Veriler birden fazla şirketten getirilebilir. |
 | Kullanıcı sorgusu             | <p>Izgaranın üst kısmında **Sorguyu düzenle**'yi seçerek bir sorgu ayarlarsanız ve verilerin doldurulduğu seçili ana tabloya uygulanması gereken ölçütleri belirtirseniz, bu onay kutusu otomatik olarak seçilir. Aksi taktirde tüm kayıtlar seçilen anan tablo kaynağından doldurulur.</p><p>**Özellik yönetimi** çalışma alanında **Kayıtları doldur eylemleri için şirketler arası sorgular** özelliği açık olduğunda ve kayıtların birden fazla şirketten toplanması gerektiğinde, raporlamaya eklenmesi gereken her ek tüzel kişilik için bir satır ekleyin. Her yeni satır için **Sorguyu düzenle**'yi seçin ve satırdaki **Şirket** alanında belirtilen tüzel kişiliğe özel ilgili bir ölçüt belirtin. Bitirdiğinizde, **Veri kaynakları kurulumu** ızgarasında raporlamaya eklenmesi gereken tüm tüzel kişilikler için satırlar yer alır.</p> |
 
+## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a>Birden fazla şirketten kayıtları doldurma
+
+Şirketinizin aynı finans veri tabanındaki çoklu tüzel kişilikler raporlanması gerekiyorsa, verilerin raporlamaya eklenmesi gereken tüm tüzel kişilikler için [kayıtları doldur eylemlerini](#populate) ayarlayın.
+
+Bu özelliği Finans ortamınızda etkinleştirmek için aşağıdaki adımları izleyin. 
+
+1. **Çalışma alanları** \> **Özellik yönetimi**'ne gidin.
+2. Listedeki, **Kayıtları doldur eylemleri için şirket arası sorgular** özelliğini bulup seçin.
+3. **Şimdi etkinleştir**'i seçin. 
+
+Verilerin raporlamaya eklenmesi gereken birden fazla şirket için [kayıtları doldur eylemlerini](#populate) ayarlamak üzere aşağıdaki adımları izleyin.
+
+1. **Vergi** \> **Kurulum** \> **Elektronik iletiler** \> **Kayıtları doldur eylemleri**'ne gidin.
+
+    **Kayıtları doldur eylemleri için şirketler arası sorgular** özelliği etkinleştirildiğinde, **Kayıtları doldur eylemi** sayfasındaki **Veri kaynakları kurulum** kılavuzunda bir **Şirket** alanı bulunur. [Kayıtları doldur eylemlerinin](#populate) genel kurulumu sırasında oluşturulan varolan kayıtlar için, bu alan geçerli yasal varlığın tanımlayıcısını gösterir.
+
+2. **Veri kaynakları kurulumu** kılavuzunda, raporlamaya dahil edilmesi gereken her alt yasal varlık için bir satır ekleyin ve aşağıdaki alanları ayarlayın.
+
+    | Alan adı             | Değer |
+    |------------------------|-------|
+    | Ad                   | Bu kaydın nereden geldiğini anlamanıza yardımcı olacak bir metin girin. Örneğin **Veri kaynağı adı - Alt Şirket 1** girin. |
+    | İleti maddesi türü      | EM işleminiz için gerekli olan ileti öğesi türünü seçin. |
+    | Hesap türü           | EM işleminiz için gerekli olan hesap türünü belirtin. EM işlemesinin belirli hesap türleri yoksa, **Tümü** seçeneğini belirleyin. |
+    | Ana tablo adı      | EM işleminiz için gerekli olan ana tablonun adını belirtin. |
+    | Belge numarası alanı  | EM işleminiz kayıtlarında belge numarasını içeren alanı belirtin. |
+    | Belge tarihi alanı    | EM işleminiz kayıtlarında belge tarihini içeren alanı belirtin. |
+    | Belge hesabı alanı | EM işleminiz kayıtlarında belge hesabını içeren alanı belirtin. |
+    | Şirket                | Alt yasal varlığın kimliğini seçin. |
+    | Kullanıcı sorgusu             | Bu onay kutusu, **Sorguyu düzenle**'yi seçerek ölçüt tanımladığınızda otomatik olarak seçilir. |
+
+3. Her yeni satır için **Sorguyu düzenle**'yi seçin ve satırdaki **Şirket** alanında belirtilen tüzel kişilik için bir ölçüt belirtin.
+
 ## <a name="web-applications"></a><a id="applications"></a>Web uygulamaları
 
 Bir web uygulamasını Open Authorization (OAuth) 2.0'yi destekleyecek şekilde ayarlamak için web uygulaması ayarlarını kullanın. OAuth, kullanıcıların uygulamaya kendileri adına "güvenli temsili erişim" sağlamalarını ve bunu kimlik bilgilerine erişmeden yapmalarını sağlayan açık bir standarttır. Bir erişim kodu ve erişim belirteci alarak bir kimlik doğrulama işleminden geçebilirsiniz. **Vergi** \> **Kurulum** \> **Elektronik iletiler**\> **Web uygulamaları**'na giderek web uygulaması ayarlarını ayarlayabilirsiniz.
@@ -214,6 +247,7 @@ Aşağıdaki tablo, **Mesaj işleme eylemleri** sayfasındaki alanları açıkla
 | Yürütülebilir sınıf                          | Mevcut bir yürütülebilir sınıf ayarı seçin. Bu alan, yalnızca **Mesaj öğesi yürütme düzeyi** ve **Mesaj öğesi yürütme düzeyi** yürleri için kullanılabilirdir. |
 | Kayıtları doldur eylemi                   | Mevcut bir kayıt doldurma eylemini seçin. Bu alan yalnızca **Kayıtları doldur** türünün eylemleri için kullanılabilirdir. |
 | Web hizmeti                               | Mevcut bir Web hizmeti seçin. Bu alan yalnızca **Web servisi** türünün eylemleri için kullanılabilirdir. |
+| Gönderilecek dosyanın adı                         | Bu eylem tarafından gönderilmesi gereken elektronik bir iletinin ek adını girin. Birden çok ek aynı özgün dosya adına sahipse, en yeni olan gönderilir. Belirtilen özgün dosya adına sahip bir ek bulunamazsa, istek olmadan gönderilir. Bu alan yalnızca **Web servisi** türünün eylemleri için kullanılabilirdir. |
 | Dosya adı                                 | Eylemin sonucu olacak dosyanın adını belirtin. Bu dosya, web sunucusunun yanıtı veya oluşturulan rapor olabilir. Bu alan yalnızca **Web servisi** ve **Elektronik raporlama dışa aktarma iletisi** türlerinde eylemler için kullanılabilir. |
 | Dosyaları kaynak belgelere ekle          | Oluşturulan dosyaları EM öğeleri için başvurulan ana tablodaki kayıtlara iliştirmek üzere bu onay kutusunu seçin. Bu alan yalnızca **Web hizmeti** ve **Elektronik raporlamayı dışa aktar** türlerindeki eylemler için kullanılabilir. |
 | Dosyaları çıktı arşivinden maddelere ekleyin | Ayrı XML dosyalarını çıkış arşiv dosyasından ayıklamak ve bunları ilgili elektronik ileti öğelerine eklemek için bu onay kutusunu seçin. Bu alan yalnızca **Elektronik raporlamayı dışa aktar** türünde eylemler için kullanılabilir. |

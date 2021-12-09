@@ -2,7 +2,7 @@
 title: Finance Insights için Yapılandırma
 description: Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752990"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827040"
 ---
 # <a name="configuration-for-finance-insights"></a>Finance Insights için Yapılandırma
 
@@ -43,14 +43,34 @@ Ortamları dağıtmak için aşağıdaki adımları uygulayın.
 
 2. Finance Insights'ı bir korumalı alanda yapılandırıyorsanız tahminlerin çalışabilmesi için üretim verilerini ilgili ortama kopyalamanız gerekebilir. Tahmin modeli, tahminleri oluşturmak için birkaç senelik verileri kullanır. Contoso demo verileri, tahmin modelini yeterince geliştirmek için yeterli tarihsel veri içermez. 
 
+## <a name="configure-your-azure-ad-tenant"></a>Azure AD kiracınızı konfigüre edin
+
+Dataverse ve Microsoft Power Platform uygulamaları ile kullanılabilmesi için Azure Active Directory'nin (Azure AD) yapılandırılması gerekir. Bu konfigürasyon, LCS içindeki **Proje güvenlik rolü** alanında kullanıcıya **Proje Sahibi** rolünün veya **Ortam Yöneticisi** rolünün atanmasını gerektirir.
+
+Aşağıdaki kurulumun tamamlandığını doğrulayın:
+
+- Power Portal yönetim merkezinde **Sistem yöneticisi** ve **Sistem Özelleştirici** erişiminiz var.
+- Finance Insights eklentisini yükleyen kullanıcıya bir Dynamics 365 Finance veya eşdeğer bir lisans uygulanır.
+
+Aşağıdaki Azure AD uygulamaları, Azure AD'de kayıtlıdır.
+
+|  Uygulama                             | Uygulama kodu                               |
+|------------------------------------------|--------------------------------------|
+| Microsoft Dynamics ERP Mikro Hizmetleri CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>Dataverse'ı yapılandırma
 
 Finance Insights için Dataverse'ü yapılandırmak için aşağıdaki adımları uygulayın.
 
 - LCS'de, ortam sayfasını açın ve **Power Platform Tümleştirme** bölümünün zaten ayarlı olduğunu doğrulayın.
 
-    - Zaten ayarlıysa Finance ortamına bağlı Dataverse ortam adının listelenmiş olması gerekir.
-    - Henüz ayarlı değilse **Kurulum**'u seçin. Dataverse ortamının kurulumu bir saate kadar sürebilir. Kurulum başarıyla tamamlandığında, Finance ortamına bağlı Dataverse ortam adının listelenmiş olması gerekir.
+    - Dataverse zaten ayarlıysa Finance ortamına bağlı Dataverse ortam adının listelenmiş olması gerekir.
+    - Dataverse henüz ayarlı değilse **Kurulum**'u seçin. Dataverse ortamının kurulumu bir saate kadar sürebilir. Kurulum başarıyla tamamlandığında, Finance ortamına bağlı Dataverse ortam adının listelenmiş olması gerekir.
+    - Bu tümleştirme varolan bir Microsoft Power Platform ortamıyla ayarlandıysa, bağlı ortamın devre dışı durumda olmadığından emin olmak için yöneticinize başvurun.
+
+        Daha fazla bilgi için bkz. [Power Platform tümleştirmesini etkinleştirme](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md). 
+
+        Microsoft Power Platform yönetim sitesine erişmek için şuraya gidin: <https://admin.powerplatform.microsoft.com/environments>.
 
 ## <a name="configure-the-finance-insights-add-in"></a>Finance Insights eklentisini yapılandırma
 

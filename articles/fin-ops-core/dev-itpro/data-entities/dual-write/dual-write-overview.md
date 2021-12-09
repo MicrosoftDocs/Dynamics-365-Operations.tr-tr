@@ -10,12 +10,12 @@ ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 69abd2b6d4026ef1b5b85d52c561bb060cf82123
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781476"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817373"
 ---
 # <a name="dual-write-overview"></a>Çift yazmaya genel bakış
 
@@ -68,11 +68,7 @@ ms.locfileid: "7781476"
 + Eldeki stok kullanılabilirliğini ve ayrıntılarını arama yeteneği
 + Proje-nakit deneyimi
 + Parti kavramıyla birden çok adres ve rolü işleyebilme yeteneği
-+ Kullanıcılar için tek kaynak yönetimi
-+ Perakendecilik ve pazarlama için tümleşik kanallar
-+ Promosyonlar ve indirimler ile görünürlük
-+ Servis isteği işlevleri
-+ Kolaylaştırılmış servis işlemleri
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>Çift-yazma kullanmanın başlıca nedenleri
 

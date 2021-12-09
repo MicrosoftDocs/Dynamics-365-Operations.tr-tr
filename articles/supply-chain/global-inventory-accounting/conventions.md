@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 97c27006ce95d0cd4551fec209f40328779b435b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 7844671202a03533eb6215f557a206c13978e902
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678603"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860704"
 ---
 # <a name="conventions"></a>Kurallar
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Kural, sistem davranışını etkileyen ilke kümesi için bir kapsayıcıdır. İş gereksinimlerinize göre, Global Stok Muhasebesinde maliyetlerin nasıl muhasebeleştirileceğini belirleyen çeşitli ilkelerin bir bileşimini kullanarak kurallar tanımlamanız gerekir. Genel defterlerde uygulanan muhasebe ilkelerine tutarlılığı sağlamak için, her kuralı bir veya daha fazla defterle ilişkilendirebilirsiniz.
 

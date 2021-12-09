@@ -2,26 +2,22 @@
 title: Maliyetlendirme tabloları
 description: Maliyetlendirme tablosunun kurulumu için iki hedef gerekir. İlk hedef olarak, üretilmiş bir madde veya üretim emri hakkındaki satılan malların maliyetini görüntüleme biçimini tanımlarsınız. Biçimlendirilmiş görüntüye maliyetlendirme tablosu adı verilir. İkinci hedef olarak, dolaylı maliyetleri hesaplama temelini tanımlarsınız. Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliğini temel alır. Bu makalede maliyetlendirme tablosu kurulumunun iki hedefi açıklanmıştır.
 author: AndersGirke
-ms.date: 06/20/2017
+ms.date: 11/18/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 53201
-ms.assetid: e7d72b43-3892-49ae-8821-9eede3f4d24a
-ms.search.region: global
-ms.search.industry: Manufacturing
+ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28597fde8257c6b6518fd52a636354cf2b64b658
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 64b8a9b8b29193f25e706e52424de2af3454aec8
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579820"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825370"
 ---
 # <a name="costing-sheets"></a>Maliyetlendirme tabloları
 
@@ -29,9 +25,18 @@ ms.locfileid: "7579820"
 
 Maliyetlendirme tablosunun kurulumu için iki hedef gerekir. İlk hedef olarak, üretilmiş bir madde veya üretim emri hakkındaki satılan malların maliyetini görüntüleme biçimini tanımlarsınız. Biçimlendirilmiş görüntüye maliyetlendirme tablosu adı verilir. İkinci hedef olarak, dolaylı maliyetleri hesaplama temelini tanımlarsınız. Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliğini temel alır. Bu makalede maliyetlendirme tablosu kurulumunun iki hedefi açıklanmıştır. 
 
+Aşağıdaki tabloda, varsayılan ayarlar tarafından her role verilen erişim düzeyi de dahil olmak üzere, maliyetlendirme sayfalarına erişebilen hazır olmayan güvenlik rolleri listelenmiştir.
+
+| Rol | Erişim
+|---|---|
+| Muhasebe müdürü | Düzenle |
+| Stok muhasebe memuru | Göster |
+| Stok muhasebecisi | Göster |
+
 Maliyetlendirme tablosu, üretilmiş bir ürün veya bir üretim emri için satılmış olan malların maliyeti hakkındaki görüntüleme biçimidir. Bir maliyetlendirme tablosu ayarladığınızda, bilgilerin biçimini ve de dolaylı maliyetlerin hesaplanmasının bazını tanımlayabilirsiniz. Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliklerini temel alır. Maliyetlendirme tablosu ayarının iki hedefi hakkında daha fazla bilgi şu şekildedir:
--   **Maliyetlendirme tablosunun biçimini tanımlayın.** Bir maliyetlendirme tablosu için kullanıcı tanımlı biçim, üretilmiş olan satılan malların maliyetini içeren maliyetlerin segmentasyonunu belirler. Örneğin, bir ürünün satılan mallarının maliyeti, maliyet gruplarına dayalı olarak malzeme, işçilik ve genel giderler olarak bölümlenebilir. Bu maliyet grupları ürünlere, rota operasyonları için maliyet kategorilerine ve dolaylı maliyet hesaplama formüllerine atanır. Maliyetlendirme tablosunun biçimi, birden fazla maliyet grubu tanımlandığında genellikle ara toplamları gerektirir. Örneğin, malzemeyle ilişkili birden çok maliyet grubu bir araya toplanabilir. Maliyetlendirme tablosu biçiminin tanımlanması isteğe bağlıdır, ancak dolaylı maliyetler hesaplanacaksa bir maliyetlendirme tablosu biçiminin tanımlanması gerekir.
--   **Dolaylı maliyetlerin hesaplanma temelini tanımlayın.** Dolaylı maliyetler, üretilmiş bir ürünün imalatıyla ilişkili üretim genel giderini yansıtır. Dolaylı maliyet hesaplama formülü bir ek talep ya da oran olarak ifade edilebilir. Ek talep, bir değerin yüzdesini, oran ise bir rota operasyonu için saat başına tutarı temsil eder. Bir maliyet grubu, bir işçilik maliyeti grubu için yüzde 100 ek talep veya makine maliyet grubu için 50,00 ABD Doları saatlik oran gibi, hesaplama formülünün temelini tanımlar. Bir hesaplama formülü ve maliyet grubu temelini tanımlamak istiyorsanız, genel gideri temsil eden maliyet grubunu tanımlamanızı ve kullanılan bir ek talep ya da oran yaklaşımının seçilmesini gerektirir.
+
+- **Maliyetlendirme tablosunun biçimini tanımlayın.** Bir maliyetlendirme tablosu için kullanıcı tanımlı biçim, üretilmiş olan satılan malların maliyetini içeren maliyetlerin segmentasyonunu belirler. Örneğin, bir ürünün satılan mallarının maliyeti, maliyet gruplarına dayalı olarak malzeme, işçilik ve genel giderler olarak bölümlenebilir. Bu maliyet grupları ürünlere, rota operasyonları için maliyet kategorilerine ve dolaylı maliyet hesaplama formüllerine atanır. Maliyetlendirme tablosunun biçimi, birden fazla maliyet grubu tanımlandığında genellikle ara toplamları gerektirir. Örneğin, malzemeyle ilişkili birden çok maliyet grubu bir araya toplanabilir. Maliyetlendirme tablosu biçiminin tanımlanması isteğe bağlıdır, ancak dolaylı maliyetler hesaplanacaksa bir maliyetlendirme tablosu biçiminin tanımlanması gerekir.
+- **Dolaylı maliyetlerin hesaplanma temelini tanımlayın.** Dolaylı maliyetler, üretilmiş bir ürünün imalatıyla ilişkili üretim genel giderini yansıtır. Dolaylı maliyet hesaplama formülü bir ek talep ya da oran olarak ifade edilebilir. Ek talep, bir değerin yüzdesini, oran ise bir rota operasyonu için saat başına tutarı temsil eder. Bir maliyet grubu, bir işçilik maliyeti grubu için yüzde 100 ek talep veya makine maliyet grubu için 50,00 ABD Doları saatlik oran gibi, hesaplama formülünün temelini tanımlar. Bir hesaplama formülü ve maliyet grubu temelini tanımlamak istiyorsanız, genel gideri temsil eden maliyet grubunu tanımlamanızı ve kullanılan bir ek talep ya da oran yaklaşımının seçilmesini gerektirir.
 
 Her hesap formülünün bir maliyet kaydı olarak girilmesi gerekir. Maliyet kaydı belirtilen bir maliyetlendirme sürümünden, bir ek talep yüzdesi veya bir oran tutarı, maliyet grubu temeli, bir durum ve bir yürürlük tarihinden oluşur. Bir maliyet kaydı ilk olarak girildiğinde **Bekleyen** durumundadır ve bir yürürlük tarihi vardır. Maliyet kaydını etkinleştirdiğinizde, kaydın durumu geçerli etkin kayıt olacak şekilde güncellenir ve yürürlük tarihi de etkinleştirme tarihine güncellenir. Maliyet kaydı, tesise özel bir hesaplama formülü için bir tesisi de belirtebilir. Alternatif olarak, hesaplama formülünü şirket genelinde bir formül belirtmek için **Tesis** alanını boş bırakabilirsiniz. Maliyet kaydı isteğe bağlı olarak, hesaplama formülü ürün başına işaretlendiğinde belirtilen bir ürünü veya ürün grubunu içerebilir. 
 
@@ -42,11 +47,5 @@ Bir maliyetlendirme versiyonu için geçerli olan iki engelleme ilkesi, bekleyen
 Maliyetlendirme tablosu biçimini ve dolaylı maliyetlerin hesaplamalarını tanımladıktan sonra, bilgileri doğrulamak ve kaydetmek için ayrı bir adım gerçekleştirmelisiniz. Maliyetlendirme tablosu, satılan malların maliyeti hakkındaki bilgilerin tutarlı biçimde görüntülenebilmesi için şirket çapında bir biçimi temsil eder. 
 
 Maliyetlendirme tablosu **Ürün maliyetini hesapla** sayfasının bir kısmı olarak görüntülenir. Maliyetlendirme tablosu, **Ürün fiyatı** sayfasında üretilmiş bir ürünün hesaplanmış maliyet kaydı veya **Ürün reçetesi hesaplama sonuçları** sayfasında siparişe özgü bir hesaplama kaydı için görüntülenebilir. Ayrıca, bir üretim emrinin **Fiyat hesaplama** sayfasının bir bölümü olarak da görüntülenebilir.
-
-
-
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

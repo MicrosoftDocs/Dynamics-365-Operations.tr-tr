@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 268ee58583306bdd99e5d5cd5bb436a328a5648b
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678507"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860495"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Global Stok Muhasebesi giriş sayfası
 
 [!INCLUDE [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Uluslararası kuruluşlar, yerel ve küresel muhasebe standartlarına uymaları için yetkililerin artan baskısı altındadır. Stok değerlemesi uyumun sağlanmasında önemli bir rol oynar. Microsoft Dynamics 365 Supply Chain Management için Global Stok Muhasebesi Eklentisi, kuruluşların (özellikle uluslararası kuruluşların) stok muhasebesi yapmak için birden çok maliyetli genel muhasebe çözümü kullanmasını sağlayan kapsamlı bir çözüm sağlar. Bu nedenle, bu kuruluşlar aynı anda birden fazla muhasebe standardına ve dahili yönetim muhasebesiyle aynı anda uyumlu olabilir.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: e84df8aa4f3e4079cf97d35b0d67a75d68dbb4b2
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678701"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860545"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -111,7 +111,8 @@ Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etki
 
 ## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Ortak ürün ve yan ürünleri olan toplu iş emirleriyle ilgili iyi miktarlar raporlama
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] 
+<!--KFM: Preview until GA with 10.0.23 -->
 
 Çalışanlar, toplu iş emirleriyle ilgili ilerlemeyi bildirmek için üretim tabanı yürütme arabirimini kullanabilir. Bu raporlama, ortak ürünlerde ve yan ürünlerde raporlamayı içerir.
 
