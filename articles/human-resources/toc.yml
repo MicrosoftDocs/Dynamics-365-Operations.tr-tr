@@ -4,6 +4,8 @@
     - name: Yenilikler
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
+          href: hr-whats-new-2021-11-29.md
+        - name: 29 Kasım 2021
           href: hr-admin-whats-new.md
         - name: 5 Ekim 2021
           href: hr-whats-new-2021-10-04.md
@@ -793,6 +795,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Oran değişikliklerini işleme
                       href: hr-benefits-process-rate-changes.md
+                - name: Personel kazancı seçimi
+                  href: employee-select-benefits-ess.md
                 - name: ACA raporlama
                   href: hr-benefits-management-aca-reports.md
                 - name: Kazanç beyanı

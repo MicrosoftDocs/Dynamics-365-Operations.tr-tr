@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: Finance'taki yenilikler veya değişiklikler
                   items:
-                    - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
+                    - name: Finance'teki yenilikler veya değişiklikler giriş sayfası
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24 (Şubat)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23 (Ocak)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (Kasım 2021)
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: Finance 10.0.21 (Ekim 2021)
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -514,10 +514,12 @@
               href: budgeting/budgeting-overview.md
             - name: Bütçe planlamaya genel bakış
               href: budgeting/budget-planning-overview-configuration.md
-            - name: Bütçe denetimine genel bakış
+            - name: Bütçe kontrolüne genel bakış
               href: budgeting/budget-control-overview-configuration.md
             - name: Bütçelemeye genel bakış
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: Kullanılabilen bütçe fonları
+              href: budgeting/budget-funds-available.md
             - name: Pozisyon tahmini
               href: budgeting/position-forecasting.md
             - name: Bütçe planlama gerekçe belgeleri
@@ -1434,16 +1436,26 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronik Faturalamayı ayarlama
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: Power Platform eklentisi yönetici referansı
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Elektronik Faturalama ile ilgili SSS
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Vergi Hesaplama
                   items:
                     - name: Vergi Hesaplamaya genel bakış
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Kurulum
+                    - name: Ayarlama
                       items:
                         - name: Vergi Hesaplamayı kullanmaya başlama
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Vergi kodlarını ayarlama
+                          href: localizations/set-up-tax-codes.md
+                        - name: Vergi gruplarını ayarlama
+                          href: localizations/set-up-tax-groups.md
+                        - name: Madde vergi gruplarını ayarlama
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: Vergi hesaplamalarını içeri ve dışarı aktarma
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Ana veri arama için ortam ayarlama
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Belirleme
@@ -2594,6 +2606,8 @@
               items:
                 - name: Endonezya'ya genel bakış
                   href: localizations/indonesia.md
+                - name: Vergi faturası numaralandırması ve faturalama
+                  href: localizations/apac-idn-invoicing.md
                 - name: Endonezya için KDV beyannamesi
                   href: localizations/apac-idn-ppn-declaration.md
             - name: İtalya
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Elektronik müşteri faturaları
                   href: localizations/emea-ita-e-invoices.md
+                - name: Satıcı elektronik faturaları
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Yıllık vergi iletişimi
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Ödeme izlenebilirliği
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: KDV beyanı
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: Altinn'a doğrudan gönderimle KDV iadesi
+                  items:
+                    - name: Altinn'a doğrudan gönderimle KDV iadesine genel bakış
+                      href: localizations/emea-nor-vat-return.md
+                    - name: ID-porten web portalında tümleştirme noktası kaydetme
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: ID-porten ve Altinn web hizmetleriyle birlikte çalışması için ortamınızı hazırlama
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: KDV iadesi için Elektronik iletileri ayarlamaya yönelik denetim listesi
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: ID-Porten ve Altinn web hizmetleriyle birlikte çalışması için Finance ortamınızı yetkilendirme
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: Altinn web hizmetine KDV iadesi gönderme
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Norveç için Vergi Standart Denetim Dosyası (SAF-T)
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Norveç'te elektronik müşteri faturaları
@@ -3831,6 +3861,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
                     - name: List
                       items:
                         - name: Liste işlevleri

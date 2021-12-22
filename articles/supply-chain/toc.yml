@@ -68,9 +68,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Supply Chain Management'taki yenilikler veya değişiklikler
                   items:
-                    - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
+                    - name: Supply Chain Management'taki yenilikler veya değişiklikler giriş sayfası
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.23
+                    - name: Supply Chain Management 10.0.24 (Şubat 2022)
+                      href: get-started/whats-new-scm-10-0-24.md
+                    - name: Supply Chain Management 10.0.23 (Ocak 2022)
                       href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (Kasım 2021)
                       href: get-started/whats-new-scm-10-0-22.md
@@ -947,6 +949,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
                     - name: List
                       items:
                         - name: Liste işlevleri
@@ -3753,7 +3757,7 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Ambar yönetimi
               items:
-                - name: Ambar mobil uygulaması
+                - name: Warehouse mobile app
                   items:
                     - name: Uygulama bağlantısı ayarlanırken sertifika yolu için güven çıpası bulunamadı
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md

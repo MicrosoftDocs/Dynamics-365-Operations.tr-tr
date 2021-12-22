@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Platform güncelleştirmelerinde yenilikler veya değişiklikler
               items:
-                - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
+                - name: Platform güncelleştirmelerindeki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
-                - name: 10.0.23 sürümü için platform güncelleştirmeleri
+                - name: 10.0.24 sürümü için platform güncelleştirmeleri (Şubat 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: 10.0.23 sürümü için platform güncelleştirmeleri (Ocak 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: 10.0.22 sürümü için platform güncelleştirmeleri (Kasım 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Azure Data Lake'e genel bakış
-              href: data-entities/azure-data-lake-overview.md
-            - name: Azure Data Lake'e aktarmayı yapılandırma
+            - name: Azure Data Lake'e dışarı aktarmaya genel bakış
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Azure Data Lake'e dışarı aktarma eklentisini yükleme
               href: data-entities/configure-export-data-lake.md
             - name: Azure Data Lake'teki Finance and Operations uygulamaları
               href: data-entities/finance-data-azure-data-lake.md
@@ -402,10 +402,12 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: Şirket içi dağıtımları yeniden dağıtma
                       href: deployment/redeploy-on-prem.md
-                    - name: 'AOS düğümünü kaldırma, yeniden yükleme veya ekleme'
+                    - name: AOS düğümünü kaldırıp yeniden yükleme veya ekleme
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Birden çok ortam için aynı AD FS kurulumunu yeniden kullanma
                       href: deployment/onprem-reuseadfs.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) ortamlarının SQL Server kurulumunu yükseltme
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Yerel aracı
                   items:
                     - name: AD FS Microsoft 365 uyumluluğu
@@ -1012,7 +1014,7 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Microsoft Power Platform tümleştirmesi
           items:
-            - name: Microsoft Power Platform ve Finance and Operations tümleştirmesi
+            - name: Genel bakış
               href: power-platform/overview.md
             - name: Power Platform tümleştirmesini etkinleştirme
               href: power-platform/enable-power-platform-integration.md

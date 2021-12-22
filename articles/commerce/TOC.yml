@@ -90,9 +90,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce'teki yenilikler veya değişiklikler
                   items:
-                    - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
+                    - name: Commerce'teki yenilikler veya değişiklikler giriş sayfası
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: Commerce 10.0.24 (Şubat 2022)
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: Commerce 10.0.23 (Ocak 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (Kasım 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,6 +546,8 @@
                       href: duplicate-payment-protection.md
                     - name: Çok yönlü kanal ödemelerine genel bakış
                       href: omni-channel-payments.md
+                    - name: Mağazadan alma için birden fazla kullanılabilir ödeme yöntemi
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Çok yönlü kanal Commerce siparişi ödemeleri
                       href: dev-itpro/commerce-payments.md
                     - name: Kredi kartı hareketi verilerini arşivleme
@@ -814,6 +818,10 @@
           items:
             - name: Mağazalarda müşteri yönetimi
               href: customer-mgmt-stores.md
+            - name: Zaman uyumsuz müşteri oluşturma modu
+              href: async-customer-mode.md
+            - name: Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürme
+              href: convert-async-to-sync.md
             - name: Müşteri rehberliği
               items:
                 - name: Müşteri rehberliğine genel bakış
@@ -1328,8 +1336,10 @@
                   href: localizations/latam-bra-nfce-cancel-return.md
                 - name: Çevrimdışı yedek modunda düzenlenen NFC-e belgelerinin ertelenen kaydı
                   href: localizations/latam-bra-nfce-contingency-mode.md
-                - name: Brezilya mali belgelerini Commerce Headquarters'da perakende ekstreleri aracılığıyla deftere nakletme
+                - name: Brezilya mali belgelerini Commerce genel merkezinde perakende ekstreleri aracılığıyla deftere nakletme
                   href: localizations/latam-bra-retail-statements.md
+                - name: Brezilya için Commerce POS'ta SAT bulunan CF-e mali belgesi ve tümleştirmesi
+                  href: localizations/latam-bra-cf-e-sat.md
                 - name: Brezilya için Commerce POS'ta Adyen için Dynamics 365 Payment Connector
                   href: localizations/latam-bra-adyen.md
             - name: Doğu Avrupa
@@ -1378,11 +1388,13 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Hindistan için yükseltme ve N-1 desteği
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: QR kodları oluşturma ve bunları makbuzlara yazdırma
+                - name: Hindistan için QR kodları oluşturma ve bunları makbuzlara yazdırma
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: E-ticaret siteleri için Ürün ve Hizmet Vergisi (GST) tümleştirmesi
+                  href: localizations/apac-ind-e-commerce.md
             - name: İtalya
               items:
-                - name: İtalya için yazarkasa tümleştirme örneği
+                - name: İtalya için yazar kasa tümleştirme örneği
                   href: localizations/emea-ita-fpi-sample.md
                 - name: İtalya için müşteri bilgileri yönetimi
                   href: localizations/emea-ita-customer-information.md
@@ -1616,6 +1628,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
                     - name: List
                       items:
                         - name: Liste işlevleri

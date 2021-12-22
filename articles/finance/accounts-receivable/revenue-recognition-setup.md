@@ -2,7 +2,7 @@
 title: Gelir kabulü kurulumu
 description: Bu konuda, Gelir kabulü için kurulum seçenekleri ve bunların etkileri açıklanmaktadır.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675213"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867232"
 ---
 # <a name="revenue-recognition-setup"></a>Gelir kabulü kurulumu
 [!include [banner](../includes/banner.md)]
@@ -61,7 +61,7 @@ Gelir kabulü için yeni bir günlük türü kullanıma alınmıştır. Günlük
 
 İkinci senaryo, yeniden tahsis yapıldıktan sonra bir günlük oluşturulduğunda gerçekleşir. Yeniden tahsis işlemi, bir satış siparişi satırı daha önce faturalandırılmış satış siparişine eklendiğinde veya orijinal sözleşmenin parçası olan bir satır içerecek şekilde yeni bir satış siparişi oluşturulduğunda gerçekleşir. Fatura, yeni satış siparişi satırı eklenmeden önce deftere nakledildiyse deftere nakledilen müşteri faturası için düzeltici bir muhasebe girişi oluşturulmalıdır.
 
-Günlük, **Günlük adları** sayfasında (**Gelir kabulü \> Kurulum \> Günlük adları**) ayarlanır. Günlük türü, **Gelir kabulü** olarak ayarlanmalıdır. Gelir kabulü günlüğü, deftere nakletmek için deftere nakil katmanını seçmenizi sağlar.
+Günlük, **Günlük adları** sayfasında (**Gelir kabulü \> Kurulum \> Günlük adları**) ayarlanır. Günlük türü, **Gelir kabulü** olarak ayarlanmalıdır. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Gelir kabulü için parametreler
 
