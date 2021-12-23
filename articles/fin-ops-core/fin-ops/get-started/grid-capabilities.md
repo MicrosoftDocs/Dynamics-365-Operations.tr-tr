@@ -2,7 +2,7 @@
 title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu özelliklere erişebilmek için yeni ızgara özelliğini etkinleştirmeniz gerekir.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700149"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890892"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
@@ -119,6 +119,9 @@ Kılavuzdaki ilk sütunun en üstündeki onay kutusunu seçerek kılavuzdaki tü
 
 ### <a name="hiding-column-names"></a>Sütun adlarını gizleme
 Veriler gruplandırılırken, varsayılan davranış sütun adını grup başlık satırında göstermektir. **Izgara seçenekleri** > **Grup sütun adını gizle** seçeneğini belirleyerek grup üst bilgisi satırlarında sütun adını gizlemeyi seçebilirsiniz.
+
+### <a name="grouping-on-date-and-time-columns"></a>Tarih ve saat sütunlarında gruplandırma
+10.0.24 sürümünden itibaren, Tarih veya Tarih Saat alanları için yıl, ay veya güne göre gruplandırma seçeneği eklendi. İlgili başlık satırı içindeki "değer" grubu, o alandaki biçimle eşleşir. Ayrıca, Tarih Saat ve Saat alanları için saat, dakika veya saniye olarak gruplandırma olanağınız da olacaktır.    
 
 ## <a name="freezing-columns"></a>Sütunları dondurma
 Izgaradaki bazı sütunlar, bağlam açısından görünümün dışında kalmalarını istemeyeceğiniz kadar önemli olabilir. Bunun yerine, bu sütunlardaki değerlerin her zaman görünür olmasını isteyebilirsiniz. **Izgaradaki sütunları dondur** özelliği kullanıcılara bu esnekliği sağlar. 

@@ -2,7 +2,7 @@
 title: B2B e-ticaret sitesi ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te nasıl bir işletmeden işletmeye (B2B) e-ticaret sitesi kurulacağı açıklanmaktadır.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713760"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891397"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-ticaret sitesi ayarlama
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 İşletmeler arası (B2B) e-ticaret siteleri, B2B kullanıcısı için iş akışını iyileştiren bazı önemli özellikler sağlar. Bu konuda, Microsoft Dynamics 365 Commerce'te nasıl B2B e-ticaret sitesi kurulacağı açıklanmaktadır. B2B'ye özgü senaryoları etkinleştirmek için yapılandırılması gereken modüller ve site ayarları anlatılmaktadır.
 
@@ -306,6 +307,30 @@ Commerce site oluşturucuda bir sepet sayfasına hızlı ekleme modülü eklemek
 
 > [!NOTE] 
 > Hızlı ekleme modülü, Commerce 10.0.17 sürümü itibarıyla kullanılabilir. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Ürün ayrıntıları sayfasına toplu satın alma modülü ekleme
+
+Ürün ayrıntıları sayfasındaki (PDP) toplu satın alma modülü, alıcının bir ürünün birden fazla çeşidini hızlı bir şekilde sepete eklemesini sağlayan matris tabanlı bir deneyim sağlar. Bir site kullanıcısının aynı ürünün birden fazla çeşidini sipariş etmesi gerektiğinde, bu deneyim ürün boyutlarının birleşimini seçme, miktarı tanımlama, varyantı sepete ekleme ve ardından diğer ürün boyutları kombinasyonları için işlemi tekrarlama ihtiyacını ortadan kaldırır.
+
+Commerce site oluşturucuda bir PDP'ye toplu satın alma modülü eklemek için aşağıdaki adımları izleyin.
+
+1. **Şablonlar**'a gidin ve sitenizin PDP şablonunu seçin.
+1. **Düzenle** öğesini seçin.
+1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda, **Toplu satın alma** modülünü seçin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
+1. **Sayfalar**'a gidin ve sitenizin PDP'sini seçin.
+1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Kapsayıcı** modülü için özellikler panelinde, **Genişlik** altında **Dolgu Kapsayıcısı**'nı seçin.
+1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda, **Toplu satın alma** modülünü seçin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
+
+> [!NOTE] 
+> Toplu satın alma modülü Commerce 10.0.24 sürümü itibarıyla kullanılabilirdir. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

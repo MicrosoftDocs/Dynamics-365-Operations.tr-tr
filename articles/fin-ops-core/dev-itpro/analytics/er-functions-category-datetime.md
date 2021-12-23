@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647275"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890789"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Tarih ve zaman kategorisindeki ER işlevlerinin listesi
 
@@ -37,8 +37,8 @@ Elektronik raporlama (ER) Tarih ve saat işlevleri, tarih ve saat değerlerinden
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Bu işlev, belirli bir tarih/saat değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen kültür içinde metin olarak gösteren bir *dize* değeri döndürür. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Bu işlev, belirli bir metin değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen kültür içinde tarih/saat değeri olarak gösteren bir *TarihSaat* değeri döndürür. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Bu işlev, Eşgüdümlü evrensel saatdeki (Greenwich saati \[GMT\]) belirli bir tarih değerinden bir tarih/saat değerine dönüştürülmüş bir *tarih saat* değeri döndürür. |
-| [DateValue](er-functions-datetime-datevalue.md) | Bu işlev, belirli bir metin değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen kültür içinde tarih/saat değeri olarak gösteren bir *Tarih* değeri döndürür. |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | Bu işlev, Ocak 1 ve belirtilen tarih arasındaki günlerin sayısının bir *tamsayı* temsilini döndürür. |
+| [DateValue](er-functions-datetime-datevalue.md) | Bu işlev, belirli bir metin değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen kültür içinde tarih/saat değeri olarak gösteren bir *[Tarih](er-formula-supported-data-types-primitive.md#date)* değeri döndürür. |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | Bu işlev, Ocak 1 ve belirtilen tarih arasındaki günlerin sayısının bir *[Tamsayı](er-formula-supported-data-types-primitive.md#integer)* temsilini döndürür. |
 | [Vade erteleme gün sayısı](er-functions-datetime-days.md) | Bu işlev, belirli bir tarihte ve ikinci belirtilen tarih arasındaki günlerin sayısının bir *tamsayı* temsilini döndürür. |
 | [Now](er-functions-datetime-now.md) | Bu işlev, geçerli uygulama sunucusu tarih ve saatini temsil eden bir *TarihSaat* değeri döndürür. |
 | [NullDate](er-functions-datetime-nulldate.md) | Bu işlev, **boş** tarihi temsil eden bir *tarih* değeri döndürür (1 Ocak, 1900). |
@@ -46,6 +46,7 @@ Elektronik raporlama (ER) Tarih ve saat işlevleri, tarih ve saat değerlerinden
 | [SessionNow](er-functions-datetime-sessionnow.md) | Bu işlev, geçerli uygulama oturumu tarih ve saatini temsil eden bir *TarihSaat* değeri döndürür. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Bu işlev, geçerli uygulama oturumu tarih temsil eden bir *Tarih* değeri döndürür. |
 | [Bugün](er-functions-datetime-today.md) | Bu işlev, geçerli uygulama sunucusu tarih temsil eden bir *Tarih* değeri döndürür. |
+| [WeekNum](er-functions-datetime-weeknum.md) | Bu işlev, yıl içinde haftayı temsil eden bir *Tamsayı* değeri döndürür. |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

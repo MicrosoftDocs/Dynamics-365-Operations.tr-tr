@@ -1,7 +1,7 @@
 ---
 title: Mobil cihaz kullanıcı ayarları
 description: Bu konuda, ambar çalışanları için mobil cihaz kullanıcı ayarlarının nasıl yönetileceği açıklanmaktadır.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647497"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901908"
 ---
 # <a name="mobile-device-user-settings"></a>Mobil cihaz kullanıcı ayarları
 

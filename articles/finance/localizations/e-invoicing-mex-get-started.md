@@ -2,7 +2,7 @@
 title: Meksika için Elektronik faturalamayı kullanmaya başlama
 description: Bu konu, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742165"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881603"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Meksika için Elektronik faturalamayı kullanmaya başlama
 
@@ -35,7 +35,15 @@ Bu konu, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardım
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu konudaki adımları gerçekleştirmeden önce, [elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) adımlarını tamamlamanız gerekir.
+Bu konudaki adımları tamamlamadan önce, [Elektronik faturalama hizmeti yönetimine başlama](e-invoicing-get-started-service-administration.md) ve [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusundaki adımları tamamlamanız gerekir.
+
+## <a name="set-up-the-cadena-xslt"></a>Cadena XSLT'yi ayarlama
+
+Cadena XSLT şemasını CFDI işleme için genelleştirme özelliğine eklemek için aşağıdaki adımları tamamlayın.
+
+1. Şemayı [SAT web sitesinden](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt)indirin.
+2. Şemayı bir zip dosyasına sıkıştırın.
+3. XSLT dosyasını yeni kapsayıcı için Hizmet ortamınızda ayarlanan Azure Depolama hesabınıza kaydedin.
 
 ## <a name="rcs-setup"></a>RCS kurulumu
 
@@ -127,6 +135,17 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 
 > [!NOTE]
 > **İptal** ve **İptal isteği** özelliği kurulumları için **Meksika PAC servisini çağır** eylemi URL'sini güncelleştirmek üzere aynı adımları kullanın.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Cadena XLST şemasının yolunu ayarlama
+
+1. **Özellik sürümü kurulumu** sayfasında, **Değişkenler** sekmesinde, **DigitalSignatureXSLT** değişkeni adını seçin.
+2. **Değerler** alanına şunu girin: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
+   
+    burada: <RelativePath> = çift ters eğik kenarlı klasör\\klasör\\ dosya adı, ContainerName hizmet için kullanılan kapsayıcıyı belirtmelidir.
+   
+    Değişkene örnek olarak şu verilebilir:
+    
+    {"path":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Taslak sürümünü bir E-faturalama ortamına atama
 

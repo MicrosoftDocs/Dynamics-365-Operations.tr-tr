@@ -2,7 +2,7 @@
 title: Yıl sonu kapanışı
 description: Bu başlık, genel muhasebe yıl sonu kapatma işlemini çalıştırmak için gerekli kurulum ve adımları açıklar.
 author: kweekley
-ms.date: 07/10/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5677ebeee6b8260280d4c9c7c8a7a0e18e7bd78f68a42d23967948a2e75120cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778278"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892489"
 ---
 # <a name="year-end-close"></a>Yıl sonu kapanışı
 
@@ -44,7 +44,7 @@ Yıl sonu kapanış işlemini çalıştırmadan önce, aşağıdakiler için aya
 **Genel muhasebe parametreleri** sayfasında **Mali yıl kapanışı** altında:
 
 - Önceki yıl sonu kapanışından sistem tarafından oluşturulan açılış hareketinin silinip silinmeyeceğini belirtmek için **Yıl sonu kapanışı yeniden çalıştırıldığında var olan yıl sonu girişlerini sil** seçeneği kullanılır. Bu seçenek **Evet** olarak ayarlanırsa önceki açılış ve isteğe bağlı kapanış hareketleri silinir ve yeni bir açılış veya kapanış hareketi geçerli bakiyelere göre oluşturulur. Bu seçenek **Hayır** olarak ayarlanırsa önceki açılış ve isteğe bağlı kapanış hareketleri kalır ve ek bir açılış ve kapanış hareketi, bakiyeleri ileriye doğru, önceki yıl kapanışı hareketlerinden ileriye doğru ayarlamak için oluşturulur.
-- **Aktarma sırasında kapanış hareketleri oluştur** seçeneği, kar ve zarar hesaplarına ait bakiyeleri 0 (sıfır) durumuna getirmek için kapatılan mali yılın kapanış hareketlerini oluşturması için kullanılır. Bu seçenek **Evet** olarak ayarlanırsa hem açılış hareketi hem de kapanış hareketi oluşturulur. Bu seçenek **Hayır** olarak ayarlanırsa yalnızca açılış hareketi bir sonraki mali yılda, bakiyeleri aktarmak için oluşturulur. Kar ve zarar hesabı bakiyelerini, mali yılın sonunda kalır.
+- **Aktarma sırasında kapanış hareketleri oluştur** seçeneği, tüm ana hesaplara ait bakiyeleri 0 (sıfır) durumuna getirmek için kapatılan mali yılın kapanış hareketlerini oluşturması için kullanılır. Bu seçenek **Evet** olarak ayarlanırsa hem açılış hareketi hem de kapanış hareketi oluşturulur. Bu seçenek **Hayır** olarak ayarlanırsa yalnızca açılış hareketi bir sonraki mali yılda, bakiyeleri aktarmak için oluşturulur. Ana hesap bakiyeleri, mali yılın sonunda kalır.
 - **Mali yıl durumunu kalıcı kapalı olarak ayarlama** seçeneği, mali yılı kalıcı olarak kapalı duruma ayarlamak için kullanılır. Kalıcı olarak kapatılmış durumundaki dönemler yeniden açılamadığı için bu seçeneği dikkatli kullanın. Bu nedenle, düzeltmeler mali yıla nakledilemez. En iyi uygulama olarak, bu seçenek **Hayır** olarak ayarlanmalıdır.
 - **Makbuz numarası doldurulmalıdır** seçeneği kaldırıldı. Yıl sonu kapatma işlemi çalıştırıldığında artık bir fiş gereklidir. O sırada makbuz numarası el ile girilir.
 

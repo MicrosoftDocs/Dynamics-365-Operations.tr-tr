@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595274"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867318"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için yeni bir ER yapılandırması tasarlama
 

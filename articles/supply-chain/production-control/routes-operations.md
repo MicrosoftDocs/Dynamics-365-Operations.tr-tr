@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b31f949304dfc9cf8723c29c1354c35ff41dbe17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566707"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891965"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
@@ -223,7 +223,7 @@ Bu yaklaşımı kullandığınız zaman, **Operasyon ilişkileri** sayfası, ça
 Bir operasyonun kaynak gereksinimlerinin bir parçası olarak bir operasyon kaynağı veya kaynak grubu belirtmezseniz, geçerli kaynaklar farklı hızlarda çalışabilir. Bu nedenle, bir operasyonu yürütmek için gereken süre değişebilir. Bu sorunu gidermek amacıyla, işlem süresinin nasıl hesaplanacağını belirtmek için, operasyon ilişkisindeki **Formül** alanını kullanabilirsiniz. Aşağıdaki seçenekler bulunur:
 
 - **Standart** – (Varsayılan seçenek) Hesaplama, yalnızca operasyon ilişkisindeki alanları kullanır ve belirtilen çalışma süresini sipariş miktarıyla çarpar.
-- **Kapasite** – Hesaplamaya, operasyon kaynağındaki **Kapasite** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır. Operasyon kaynağında belirtilen değer saat başına kapasitedir. **İşlem süresi** **Sipariş miktarı** bölü **Kapasite** olarak hesaplanır.
+- **Kapasite** – Hesaplamaya, operasyon kaynağındaki **Kapasite** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır. Operasyon kaynağında belirtilen değer saat başına kapasitedir. **İşlem süresi** **Sipariş miktarı** bölü **Kapasite** olarak hesaplanır. Kapasite değeri, belirli bir ölçü birimine özgü değildir ve bu nedenle, yalnızca hesaplamalarda kullanılmayan bir tanımlayıcı alan olan **Kapasite birimi** alanına göre dönüştürülmez.
 - **Parti** – Parti kapasitesi, operasyon ilişkisinden alınan bilgilerle hesaplanır. Parti sayısı ve dolayısıyla işlem süresi sipariş miktarına göre hesaplanabilir.
 - **Kaynak parti** – Bu seçenek temelde **Parti** seçeneğiyle aynıdır. Ancak, hesaplamaya, operasyon kaynağındaki **Parti kapasitesi** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır.
 

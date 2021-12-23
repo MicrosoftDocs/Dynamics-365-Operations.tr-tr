@@ -1,8 +1,8 @@
 ---
 title: Ekstre deftere nakil işlevi geliştirmeleri
 description: Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.
-author: josaw1
-ms.date: 05/14/2019
+author: analpert
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,19 +10,20 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: anpurush
+ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49fc9003eae562a155fd8e30345ba4590d36e15b61f9f6a3f0b5896cb720f414
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772216"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891455"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Ekstre deftere nakil işlevi geliştirmeleri
 
 [!include [banner](includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu konu ekstre deftere nakli özelliğinde yapılan ilk geliştirme kümesini açıklar. Bu iyileştirmeler Microsoft Dynamics 365 for Finance and Operations 7.3.2 içinde kullanılabilirdir.
 
@@ -116,9 +117,17 @@ Bir ekstre çeşitli işlemlerden geçer (örneğin Oluştur, Hesapla, Temizle v
 
 ### <a name="aggregated-transactions"></a>Toplanan hareketler
 
-Deftere nakil işlemi sırasında satış hareketleri yapılandırmaya göre toplanır. Toplanan bu hareketler sistemde saklanır ve satış siparişleri oluşturmak için kullanılır. Toplanan her hareket sistemde karşılık gelen bir satış siparişi oluşturur. Toplanan hareketleri **Yürütme ayrıntıları** grubundaki **Toplanan hareketler** düğmesini kullanarak görebilirsiniz.
+Deftere nakil işlemi sırasında nakit ve taşıma hareketleri müşteri ve ürün bazında toplanır. Bu nedenle, oluşturulan satış siparişlerinin ve satırların sayısı azalır. Toplanan hareketler sistemde saklanır ve satış siparişleri oluşturmak için kullanılır. Toplanan her hareket sistemde karşılık gelen bir satış siparişi oluşturur. 
 
-Toplanan hareketin **Satış siparişi ayrıntısı** sekmesi aşağıdaki bilgileri gösterir:
+Bir ekstre tam olarak deftere nakledilmezse toplu hareketleri ekstrede görüntüleyebilirsiniz. Eylem Bölmesinde, **Ekstre** sekmesindeki **Yürütme ayrıntıları** gurubunda **Toplanan işlemler**'i seçin.
+
+![Tam olarak deftere nakledilmemiş bir ekstre için toplanan hareketler düğmesi.](media/aggregated-transactions.png)
+
+Deftere nakledilen ekstreler için toplanan hareketleri **Deftere Nakledilen ekstreler** sayfasında görüntüleyebilirsiniz. Eylem Bölmesinde, **Sorgular**'ı ve sonra **Toplanan hareketler**'i seçin.
+
+![Deftere nakledilen ekstreler için toplu hareketler komutu.](media/aggregated-transactions-posted-statements.png)
+
+Toplanan hareketin **Satış siparişi ayrıntıları** hızlı sekmesi aşağıdaki bilgileri gösterir:
 
 - **Kayıt kodu** - Toplanan hareketin kodu.
 - **Ekstre numarası** – Toplanan hareketin ait olduğu ekstre.
@@ -127,12 +136,28 @@ Toplanan hareketin **Satış siparişi ayrıntısı** sekmesi aşağıdaki bilgi
 - **Toplanan satır sayısı** – Toplanan hareket ve satış siparişi için toplam satır sayısı.
 - **Durum** – Toplanan işlemin son durumu.
 - **Fatura kodu** – Toplanan hareket için satış siparişi faturalandığında, satış faturası kodu. Bu alan boşsa, satış siparişi için fatura deftere nakledilmemiştir.
+- **Hata kodu** – Bu alan, toplama bir hata durumundaysa ayarlanır.
+- **Hata iletisi** – Bu alan, toplama bir hata durumundaysa ayarlanır. İşlemin başarısız olmasına neyin neden olduğuyla ilgili ayrıntıları gösterir. Sorunu gidermek için hata kodundaki bilgileri kullanabilir ve daha sonra işlemi elle yeniden başlatabilirsiniz. Çözüm türüne bağlı olarak, toplanan satışların silinmesi ve yeni bir deyimde işlenmesi gerekebilir.
 
-Toplanan hareketin **Hareket ayrıntıları** sekmesi toplanan harekete çekilmiş olan tüm hareketleri gösterir. Toplanan hareketteki toplanan satırlar hareketlerinden toplanan tüm kayıtları gösterir. Toplanan satırlar ayrıca madde, çeşit, miktar, fiyat, net tutar, birim ve ambar gibi ayrıntıları gösterir. Temel olarak, toplanan her satır bir satış siparişi satırına karşılık gelir.
+![Toplanan bir hareketin Satış siparişi ayrıntıları hızlı sekmesindeki alanlar.](media/aggregated-transactions-error-message-view.png)
 
-**Toplanan hareketler** sayfasından, **Satış siparişini XML'e aktar** düğmesini kullanarak belirli bir toplanan hareket için XML indirebilirsiniz. XML dosyasını, satış siparişi oluşturma ve deftere nakletmeyle ilgili hata ayıklama sorunları için kullanabilirsiniz. XML dosyasını indirin, test ortamına yükleyin ve sorunu test ortamında ayıklayın. Toplanan hareketler için XML dosyası indirme işlevi deftere nakledilmiş olan ekstreler için kullanılamaz.
+Toplanan hareketin **Hareket ayrıntıları** hızlı sekmesi, toplanan harekete çekilmiş olan tüm hareketleri gösterir. Toplanan hareketteki toplanan satırlar hareketlerinden toplanan tüm kayıtları gösterir. Toplanan satırlar ayrıca madde, çeşit, miktar, fiyat, net tutar, birim ve ambar gibi ayrıntıları gösterir. Temel olarak, toplanan her satır bir satış siparişi satırına karşılık gelir.
 
-Toplanan hareket görünümü aşağıdaki faydaları sağlar:
+![Toplanan bir hareketin hareket ayrıntıları hızlı sekmesi.](media/aggregated-transactions-sales-details.png)
+
+Bazı durumlarda, toplanan hareketler konsolide satış siparişlerini deftere nakledemeyebilir. Bu gibi durumlarda, bir hata kodu ekstre durumuyla ilişkilendirilir. Yalnızca hataları olan toplu hareketleri görüntülemek için onay kutusunu seçerek toplanan hareketler görünümünde **Yalnızca hataları göster** filtresini etkinleştirebilirsiniz. Bu filtreyi etkinleştirerek sonuçları, çözüm gerektiren hataları olan toplu hareketlerle sınırlandırabilirsiniz. Bu hataların nasıl düzeltileceği hakkında bilgi için bkz. [Çevrimiçi sipariş ve zaman uyumsuz müşteri siparişi hareketlerini düzenleme ve denetleme](edit-order-trans.md).
+
+![Toplanan hareketler görünümünde Yalnızca hataları göster filtresinin onay kutusu.](media/aggregated-transactions-failure-view.png)
+
+**Toplanan hareketler** sayfasından, **Toplama verilerini dışarı aktar** düğmesini kullanarak belirli bir toplanan hareket için XML indirebilirsiniz. Satış siparişi oluşturma ve deftere nakletmeyi içeren gerçek veri ayrıntılarını görmek için XML'i, herhangi bir XML biçimlendiricisinde gözden geçirebilirsiniz. Toplanan hareketler için XML dosyası indirme işlevi deftere nakledilmiş olan ekstreler için kullanılamaz.
+
+![Toplanan hareketler sayfasındaki Toplama verilerini dışarı aktar düğmesi.](media/aggregated-transactions-export.png)
+
+Satış siparişlerindeki verileri veya satış siparişini destekleyen verileri düzelterek hatayı düzeltememeniz durumunda, **Müşteri siparişini sil** düğmesi kullanılabilir olur. Bir siparişi silmek için başarısız olan toplu hareketi seçin ve sonra **Müşteri siparişini sil**'i seçin. Hem toplu hareket hem de karşılık gelen satış siparişi silinir. Artık düzenleme ve denetleme işlevini kullanarak hareketleri gözden geçirebilirsiniz. Hareketler, yeni bir deyim aracılığıyla yeniden işlenebilirler. Tüm hatalar giderildikten sonra, ilgili ekstre için ekstreyi deftere naklet işlevini çalıştırarak ekstre deftere nakletmeye devam edebilirsiniz.
+
+![Toplanan hareketler görünümünde Müşteri siparişini sil düğmesi.](media/aggregated-transactions-delete-cust-order.png)
+
+Toplanan hareketleri görünümü aşağıdaki faydaları sağlar:
 
 - Kullanıcı satış siparişi oluşturma sırasında başarısız olan toplanan hareketleri ve faturalama sırasında başarısız olan satış siparişlerini görebilir.
 - Kullanıcı hareketlerin nasıl toplandığını görebilir.

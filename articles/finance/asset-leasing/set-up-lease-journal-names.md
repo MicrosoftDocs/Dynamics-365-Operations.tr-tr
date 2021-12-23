@@ -2,7 +2,7 @@
 title: Kiralama günlüğü adlarını ayarlama
 description: Bu konu, kiralama günlüğü adlarının nasıl tanımlanacağını açıklamaktadır. Kiralama günlüğü adları, Varlık kiralamada girişlerin nakledildiği günlükleri belirtir.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343226"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890762"
 ---
 # <a name="set-up-lease-journal-names"></a>Kiralama günlüğü adlarını ayarlama
 
@@ -33,12 +33,13 @@ Kiralama günlüğü adları, Varlık kiralama hareketlerinin nakledildiği gün
 Sistem, hareketler ve zamanlamalar arasındaki farkları önlemek için belirli mali alanların düzenlenmesini kilitler. Kilitlenen bazı alanlar şunlardır: **Hesap**, **Tutarlar**, **Mali boyutlar**, **Para birimi** ve **Hareket türü**. Ayrıca zamanlamalar ve hareketler arasında farklara neden olabileceğinden Varlık kiralama yevmiye defteri girişlerine yevmiye defteri girişi satırları ekleyemez veya bunları silemezsiniz.
 
 
-Kiralama günlüğü adlarını yapılandırmak için aşağıdaki adımları izleyin.
+Kiralama günlüğü adlarını yapılandırmak için aşağıdaki adımları tamamlayın.
 
 1. **Varlık kiralama \> Kurulum \> Varlık kiralama parametreleri**'ne gidin.
 2. **Genel** sekmesindeki **İlk kabul günlük adı** alanında bir günlük seçin. Tüm ilk kabul günlüğü girişleri bu günlük adına nakledilecek.
 3. **Fatura günlük adı** alanında, bir günlük seçin. Kiralama defteri için **Satıcıya öde** seçeneği **Evet** olarak ayarlanmışsa kiralama ve gider ödeme faturaları bu günlük adına nakledilir.
 4. **Kiralama günlüğü adı** alanında, bir günlük seçin. Tüm amortisman, faiz ve kısa süreli yeniden sınıflama girişleri bu günlük adına nakledilecek. Kiralama defteri için **Satıcıya öde** seçeneği **Hayır** olarak ayarlanmışsa kira ödemeleri ve gider ödeme girişleri de bu günlük adına nakledilir.
+5. **Kiralama değişiklik günlüğü adı** alanında, bir günlük seçin. Kira ayarlama, sonlandırma ve değer düşüklüğü hareketleri bu günlük adına nakledilir. Seçtiğiniz günlük adının kendisine atanmış bir iş akışı veya onayı olmamalıdır. Kira değişiklik günlüğü adı tanımlanmamışsa kira ayarlaması, sonlandırma ve değer düşüklüğü hareketleri **Kiralama günlüğü adı** alanında seçilen günlük adına nakledilir. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

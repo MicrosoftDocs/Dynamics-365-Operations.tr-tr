@@ -2,7 +2,7 @@
 title: Elektronik raporlamaya (ER) genel bakış
 description: Bu konuda, Elektronik raporlama aracına dair genel bir bakış sunulmaktadır. Anahtar kavramlar, desteklenen senaryolar ve çözümün parçası olan biçimler açıklanmaktadır.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562188"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867309"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562188"
 
 Bu konu, Elektronik raporlama (ER) aracına genel bakış sağlar. Temel kavramlar, ER'nin desteklediği senaryolar ve çözümün bir parçası olarak tasarlanan ve yayınlanan biçimlerin listesini içermektedir.
 
-ER çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun olarak hem gelen hem de giden elektronik belgeler için biçimleri yapılandırmak amacıyla kullanabileceğiniz bir araçtır. ER, yaşam döngüleri boyunca bu biçimleri yönetmenizi sağlar. Örneğin, yeni mevzuat gerekliliklerini uygulayabilir ve devlet kurumları, bankalar ve diğer taraflarla elektronik olarak belge alışverişi yapmak için gerekli biçimde işletme belgeleri oluşturursunuz.
+ER, düzenleyici elektronik raporlama ve ödemeler oluşturmanıza ve sürdürmenize yardımcı olan yapılandırılabilir bir araçtır. Aşağıdaki üç konsepte dayanmaktadır:
+
+- Kodlama yerine yapılandırma:
+
+    - Yapılandırma, bir işletme kullanıcısı tarafından yapılabilir ve geliştirici gerektirmez.
+    - Veri modeli işletme terimleriyle tanımlanır.
+    - Görsel düzenleyiciler, ER yapılandırmasının tüm bileşenlerini oluşturmak için kullanılır.
+    - Veri dönüştürme için kullanılan dil Microsoft Excel‘de kullanılan dile benzerdir.
+
+- Birden çok Dynamics 365 Finance sürümü için tek bir yapılandırma:
+
+    - İşletme terimleriyle tanımlanan etki alanına özgü bir veri modelini yönetin.
+    - Sürüme bağımlı veri modeli eşlemelerinde uygulama sürümü ayrıntılarını ayırın.
+    - Veri modeline bağlı olarak, geçerli sürümün birden çok sürümü için bir biçim yapılandırmasını koruyun.
+
+- Kolay veya otomatik yükseltme:
+
+    - ER yapılandırmalarının sürümünü oluşturma işlemi desteklenir.
+    - Microsoft Dynamics Lifecycle Services (LCS) Varlıklar kitaplığı, sürüm değişimi amacıyla, ER yapılandırmaları için bir depo olarak kullanılabilir.
+    - Özgün ER yapılandırmalarını temel alan yerelleştirmeler alt sürümler olarak tanıtılabilir.
+    - ER yapılandırma ağacı, sürümler için bağımlılıkları kontrol etmeye yardımcı olan bir araç olarak sağlanır.
+    - Yerelleştirmedeki farklılıklar veya delta yapılandırma kaydedilerek özgün ER yapılandırmasının yeni bir sürümüne otomatik yükseltmeyi etkinleştirir.
+    - Yerelleştirme sürümlerinin otomatik olarak yükseltilmesi sırasında keşfedilen çakışmalar el ile kolayca çözülebilir.
+
+ER, elektronik biçim yapıları tanımlamanıza ve ardından veriler ve algoritmalar kullanarak yapıların nasıl doldurulması gerektiğini açıklamanıza olanak tanır. Veri dönüştürme için Excel diline benzeyen bir formül dili kullanabilirsiniz. Veritabanından biçime eşlemeyi daha yönetilebilir, yeniden kullanılabilir ve biçim değişikliklerinden bağımsız hale getirmek için bir ara veri modeli konsepti kullanıma sunulmuştur. Bu konsept, uygulama ayrıntılarının biçim eşlemesinden gizlenmesini ve tek bir veri modelinin birden çok biçim eşlemesi için yeniden kullanılmasını sağlar.
+
+ER'yi, çeşitli ülke ve bölgelerin yasal gereksinimlerine uygun olarak hem gelen hem de giden elektronik belgelerin biçimlerini yapılandırmak için kullanabilirsiniz. ER, yaşam döngüleri boyunca bu biçimleri yönetmenizi sağlar. Örneğin, yeni mevzuat gerekliliklerini uygulayabilir ve devlet kurumları, bankalar ve diğer taraflarla elektronik olarak belge alışverişi yapmak için gerekli biçimde işletme belgeleri oluşturursunuz.
 
 ER altyapısı geliştiricilerden ziyade iş kullanıcılarını hedefler. Çünkü kod yerine biçimleri yapılandırırsınız, elektronik belgeler için biçimler oluşturmak ve ayarlamak için süreçler daha hızlı ve kolaydır.
 
-ER şimdilik TEXT, XML, Microsoft Word belgesi ve OPENXML çalışma sayfası biçimlerini desteklemektedir. Ancak bir uzantı arabirimi ek biçimleri destekler.
+ER şu anda TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel, and OPENXML çalışma sayfası biçimlerini destekler.
 
 ## <a name="capabilities"></a>Beceriler
 
@@ -48,6 +74,10 @@ ER altyapısı aşağıdaki yeteneklere sahiptir:
 
 ## <a name="key-concepts"></a>Kilit kavramlar
 
+### <a name="main-data-flow"></a>Ana veri akışı
+
+[![ER ana veri akışı.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Bileşenler
 
 ER, aşağıdaki bileşen türlerini destekler:
@@ -59,74 +89,6 @@ ER, aşağıdaki bileşen türlerini destekler:
 
 Daha fazla bilgi için bkz: [Elektronik raporlama bileşenleri](er-overview-components.md).
 
-#### <a name="data-model-and-model-mapping-components"></a>Veri modeli ve model eşleme bileşenleri
-
-Bir veri modeli bileşeni, bir veri yapısının soyut bir temsilidir. Belirli bir iş etki alanını, bu etki alanı için raporlama gereksinimlerini tatmin edecek ayrıntıyla tanımlamak için kullanılır. Veri modeli bileşeni aşağıdaki bölümlerden oluşur:
-
-- <a name="DataModelComponent"></a>Etki alanına özgü iş varlıkları kümesi olarak veri modeli ve bu varlıkların aralarındaki ilişkilerin hiyerarşik olarak tanımı.
-- <a name="ModelMappingComponent"></a>Seçilen uygulama veri kaynaklarını, veri bileşenine ilişkin veri akışı ve işletme veri popülasyonu kurallarını çalışma zamanında belirten bir veri modelinin tek tek öğelerine bağlayan model eşleme.
-
-Bir iş varlık veri modeli (kayıt) kapsayıcı olarak temsil edilir. İş varlık özellikleri veri öğelerini (alanları) olarak temsil edilir. Her veri öğesinin benzersiz bir ad, etiket, açıklama ve değeri vardır. Her bir veri öğesinin değeri, dize, tamsayı, tarih, çetele, Boole vb. olarak tanınacak şekilde tasarlanabilir. Ayrıca başka bir kayıt veya kayıt listesi olabilir.
-
-Tek bir veri modeli bileşeni, birden fazla etki alanı iş varlığı hiyerarşisi içerebilir. Ayrıca çalıştırma zamanında rapora özel bir veri akışını destekleyen model eşlemelerini de içerebilir. Hiyerarşiler eşleme modeli kökü olarak seçilen tek bir kayıt tarafından ayrıştırılır. Örneğin, ödeme etki alanının veri modeli aşağıdaki eşlemeleri destekliyor olabilir:
-
-- Şirket \> Satıcı \> AP etki alanının ödeme hareketleri
-- Müşteri \> Şirket \> AR etki alanının ödeme hareketleri
-
-Şirket ve ödeme hareketleri gibi iş varlıklarının bir defa tasarlandığını unutmayın. Daha sonra farklı eşleşmeler bunları yeniden kullanır.
-
-Giden elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki özellikleri içerir:
-
-- Veri modeli için veri kaynakları olarak farklı veri türlerini kullanabilir. Örneğin tabloları, veri varlıklarını, yöntemleri veya çeteleleri kullanabilir.
-- Çalışma zamanında bazı verilerin belirtilmesi gerektiğinde bir veri modeli için veri kaynakları olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
-- Verinin gerekli gruplara dönüştürülmesini destekler. Veriyi filtrelemenize, sıralamanıza, toplamanıza ve Microsoft Excel formüllerine benzerlik gösteren, formüller aracılığıyla tasarlanmış mantıksal hesaplanan alanlar eklemenize olanak sağlar. Daha fazla bilgi için bkz. [Elektronik raporlamada (ER) formül tasarımcısı](general-electronic-reporting-formula-designer.md).
-
-Gelen elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki özellikleri içerir:
-
-- Farklı güncelleştirilebilir veri öğelerini hedefler olarak kullanabilir. Bu veri öğeleri tablolar, veri varlıkları ve görünümler içerir. Veri, gelen elektronik raporlardan veriyi kullanarak güncelleştirilebilir. Birden çok hedef tek bir model eşlemede kullanılabilir.
-- Çalışma zamanında bazı verilerin belirtilmesi gerektiğinde bir veri modeli için veri kaynakları olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
-
-Bir veri modeli bileşeni, raporlamayı veri kaynaklarının fiziksel uygulamasından ayırmak için raporlama için bir birleştirilmiş veri kaynağı olarak kullanılacak her bir iş etki alanı için tasarlanır. Etki alanına özel iş konseptlerini ve işlevlerini, bir raporlama biçiminin ilk tasarımını ve gelecekteki bakımını daha verimli hale getirecek bir biçimde temsil eder.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Giden elektronik belgeler için biçim bileşenleri
-
-Biçim bileşeni çalışma zamanında oluşturulacak raporlama çıktısının planıdır. Plan aşağıdaki öğelerden oluşur:
-
-- Çalışma zamanında oluşturulan giden elektronik belgenin yapısını ve içeriğini tanımlayan biçim.
-- Bir dizi kullanıcı giriş parametresi ve seçilen model eşlemesini kullanan etki alanına özgü veri modeli olarak veri kaynakları.
-- Çalışma zamanında veri akışı ve biçim çıktı oluşturma kurallarını belirten bir biçimi için tek tek öğelerini barındıran biçim veri kaynaklarının bağlama kümesi olarak biçim eşleme.
-- Çalışan bağlama bağlı olarak, çalışma zamanında rapor oluşturmayı kontrol eden yapılandırılabilir kurallar kümesi olarak biçim doğrulaması. Örneğin, bir satıcının ödemelerinin çıktı oluşturmasını durduran bir kural olabilir ve seçilen satıcının, örneğin banka hesap numarası gibi belirli öznitelikleri eksik olduğunda bir özel durum ilan edebilir.
-
-Biçim bileşeni aşağıdaki işlevleri destekler:
-
-- Raporlama çıktısının çeşitli biçimlerde tek tek dosyalar şeklinde oluşturulması: örneğin metin, XML, Microsoft Word belgesi veya çalışma sayfası.
-- Birden fazla dosyanın ayrı ayrı oluşturulması ve bu dosyaların zip dosyalarına kapsüllenmesi.
-
-Biçim bileşeni, raporlama çıktısında kullanılabilen belirli dosyaları eklemenize olanak sağlar:
-
-- OPENXML çalışma biçiminde çıktı için şablon olarak kullanılabilen bir çalışma sayfasını içeren Excel çalışma kitapları
-- Word dosyaları, Microsoft Word belgesi biçiminde çıktı için bir şablon olarak kullanılabilecek bir belge içerebilirler.
-- Önceden tanımlanmış dosyalar olarak biçim çıktısına dahil edilebilen diğer dosyalar
-
-Aşağıdaki görsel, verinin bu biçimler için nasıl aktığını gösterir.
-
-[![Giden biçim bileşenleri için veri akışı.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Biçim yapılandırmasının eşleşmesini, tek bir ER biçim yapılandırmasını çalıştırmak ve giden bir elektronik belge oluşturmak için tanımlamanız gerekir.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Gelen elektronik belgeler için biçim bileşenleri
-
-Bir biçim bileşeni, çalışma zamanında içe aktarılan gelen belgenin planıdır. Plan aşağıdaki öğelerden oluşur:
-
-- Çalışma zamanında içe aktarılan veriyi içeren gelen elektronik belgenin yapısını ve içeriğini tanımlayan bir biçim. Bir biçim bileşeni, bir gelen belgeyi metin ve XML gibi çeşitli biçimlerde ayrıştırmak için kullanılır.
-- Etki alanına özel bir veri modelinin öğelerine ayrı ayrı biçim öğeleri bağlayan bir biçim eşlemesi. Çalışma zamanında, veri modelindeki öğeler, bir gelen belgedeki verileri içe aktarmak için veri akışını ve kuralları belirtir ve daha sonra veriyi bir veri modelinde depolar.
-- Bir biçim doğrulaması bağlamında çalışan bağlı olarak çalışma zamanında veri içe aktarmayı denetleyen yapılandırılabilir kurallar kümesi olarak. Örneğin, bir satıcının ödemelerini içeren bir banka ekstresinin veri içe aktarması durduran bir kural olabilir ve satıcının satıcı kimlik saptama kodu gibi belirli öznitelikleri eksik olduğunda bir özel durum ilan edebilir.
-
-Aşağıdaki görsel, verinin bu biçimler için nasıl aktığını gösterir.
-
-[![Gelen biçim bileşenleri için veri akışı.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Gelen bir elektronik belgeden veri içe aktarmak için tek bir ER biçim yapılandırması çalıştırmak için bir biçim yapılandırmasının arzulanan eşlemesini ve ayrıca bir model eşlemesinin tümleştirme noktasını tanımlamanız gerekir. Aynı model eşlemesini ve hedefleri, farklı türde gelen belgeler için farklı biçimlerle birlikte kullanabilirsiniz.
 
 #### <a name="component-versioning"></a>Bileşen sürüm oluşturma
 

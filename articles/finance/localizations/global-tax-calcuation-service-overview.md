@@ -2,7 +2,7 @@
 title: Vergi Hesaplamaya genel bakış
 description: Bu konu, Vergi Hesaplama özelliğinin tüm kapsamını ve özelliklerini açıklar.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647069"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892436"
 ---
 # <a name="tax-calculation-overview"></a>Vergi Hesaplamaya genel bakış
 
@@ -64,6 +64,20 @@ Vergi Hesaplama aşağıdaki Azure bölgelerinde dağıtılır. Müşteri gereks
 
 > [!NOTE]
 > Vergi Hesaplama, Dynamics AX 2012 gibi Dynamics 365'in önceki sürümlerini veya Dynamics 365'in şirket içi dağıtımlarını desteklemez.
+
+## <a name="versions"></a>Sürümler
+Vergi hesaplama yapılandırmanızı, Finance veya Supply Chain Management sürümünüzle eşleşen sürümle içeri aktarmanız ve ayarlamanız önerilir.
+
+| Finance veya Supply Chain Management sürümü | Vergi yapılandırması sürümü               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | Vergi Yapılandırması - Avrupa 30.12.82     |
+| 10.0.19         | Vergi Hesaplama Yapılandırması 36.38.193 |
+| 10.0.20         | Vergi Hesaplama Yapılandırması 40.43.208 |
+| 10.0.21         | Vergi Hesaplama Yapılandırması 40.48.215 |
+| 10.0.22         | Vergi Hesaplama Yapılandırması 40.48.215 |
+| 10.0.23         | Vergi Hesaplama Yapılandırması 40.50.221 |
+| 10.0.24         | Vergi Hesaplama Yapılandırması 40.50.225 |
+
 
 ## <a name="data-flow"></a>Veri akışı
 
@@ -169,6 +183,10 @@ Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.23
 - Japonya
 - Malezya
 - Singapur
+
+Tüzel kişiliğin birincil adresi için aşağıdaki ülkeler/bölgeler 10.0.24 sürümünde desteklenir:
+
+- Meksika
 
 ## <a name="related-resources"></a>İlgili kaynaklar
 

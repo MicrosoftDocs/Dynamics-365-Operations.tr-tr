@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777779"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900722"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML geliştirmeleri satın alma
 
@@ -141,7 +141,7 @@ Harici kataloğunuz için tüm özellikleri ayarlamayı ve diğer ayarları yap�
 
 [Sipariş özelliklerini ayarlama](#set-order-properties) bölümünde belirtildiği gibi, sağlanan cXML'nizin ilgili satınalma siparişi ve/veya satıcı kayıtlarına iliştirilmiş notlardan metin içermesini istiyorsanız, harici katalog kurulumunda **POCOMMENTS** ve/veya **VENDCOMMENTS** özelliklerini _TRUE_ olarak ayarlayabilirsiniz. Bu bölümde sistemin, kullanıyorsanız bu ekleri nasıl seçtiği ve işlediği hakkında daha fazla ayrıntı sağlanır.
 
-Sistemin bakacağı not tiplerini ayarlamak için, **Satın alma ve kaynak hizmeti \> Kurulum \> Formlar \> Form kurulumu** sayfasına gidin. Daha sonra, **Satınalma siparişi** sekmesinde, **Eklenecek belge türü** alanını, dahil etmek istediğiniz not tipine göre ayarlayın. Belge ekleri değil, yalnızca metin notları dahil edilir.
+Sistemin bakacağı not tiplerini ayarlamak için **Satın alma ve kaynak hizmeti \> Kurulum \> Formlar \> Form kurulumu** sayfasına gidin. Daha sonra, **Satınalma siparişi** sekmesinde, **Eklenecek belge türü** alanını, dahil etmek istediğiniz not tipine göre ayarlayın. Belge ekleri değil, yalnızca metin notları dahil edilir.
 
 ![Form kurulum sayfası.](media/cxml-form-setup.png "Form kurulum sayfası")
 

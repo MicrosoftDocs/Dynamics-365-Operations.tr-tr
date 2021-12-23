@@ -2,7 +2,7 @@
 title: Resimleri karşıya yükleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce' site oluşturucuda görüntüleri karşıya yükleme yöntemi açıklanmaktadır.
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423267"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891534"
 ---
 # <a name="upload-images"></a>Resimleri karşıya yükleme
 
@@ -41,7 +41,8 @@ Görüntü karşıya yüklenirken, aşağıdaki bilgiler belirtilebilir.
 - **Karşıya yükleme sonrasında varlıkları yayımla**: Bu onay kutusu seçildiğinde, görüntü veya görüntüler karşıya yüklemeden hemen sonra yayımlanır.
 
 > [!NOTE]
-> Kategori atanan görüntü varlıkları da belirli bir kategorinin varlıklarını aramaya yardımcı olacak şekilde kategori ile otomatik olarak etiketlenir.
+> - Kategori atanan görüntü varlıkları da belirli bir kategorinin varlıklarını aramaya yardımcı olacak şekilde kategori ile otomatik olarak etiketlenir.
+> - Ürün ayrıntı sayfaları, ürün adını kullanarak dinamik olarak **Alt Metni** oluşturur, böylece ürün görüntüsü için **Alt Metnin** değiştirilmesi işlenmiş görüntü üzerinde hiçbir etkiye sahip olmayacaktır.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Çok yönlü kanal görüntüleri için adlandırma kuralları 
 

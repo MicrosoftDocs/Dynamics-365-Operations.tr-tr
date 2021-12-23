@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474856"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867259"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Talep tahminleri ile master planlama
 
@@ -88,7 +88,7 @@ Bir tahmini bir master planlamaya dahil etmek ve tahmin gereksinimlerini azaltma
 
 - Hiçbiri
 - Yüzde - azaltma anahtarı
-- Hareketler - azaltma anahtarı (Planlama İyileştirmesi ile henüz desteklenmiyor)
+- Hareketler - azaltma anahtarı
 - Hareketler - dinamik dönem
 
 Aşağıdaki bölümler her seçenek hakkında daha fazla bilgi sağlar.

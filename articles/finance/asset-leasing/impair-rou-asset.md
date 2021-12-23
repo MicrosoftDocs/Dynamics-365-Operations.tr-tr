@@ -2,7 +2,7 @@
 title: Kullanım hakkı varlıklarının değerini düşürme
 description: Bu konu, değer düşüşünü kaydeden ve Muhasabe Standartları Kodlaması Konu 842 (ACS 842) işletme kiralamasının varlık amortisman planlamasını düzelten bir işlevi açıklamaktadır.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 816f65cff77339ef8684c0449ed2e5f0762b17a2e22174412d5ea9f2a1a62069
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723835"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890842"
 ---
 # <a name="impair-right-of-use-assets"></a>Kullanım hakkı varlıklarının değerini düşürme
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Kullanım hakkı (ROU) varlığının defter tutarı düşürülebilir değilse varlığın değerinin düşüp düşmediğini test etmeniz gerekebilir. Varlığın değerinin düştüğünü belirlerseniz Varlık kiralama değer düşüşünü kaydedebilir ve amortisman planlamasını buna göre düzeltebilir. Bu konu, bir değer düşüşünü kaydeden ve Muhasabe Standartları Kodlaması Konu 842 (ACS 842) işletme kiralamasının amortisman planlamasını düzelten bir işlevi açıklamaktadır. Aynı yöntem, Uluslararası Mali Raporlama Standardı 16 (IFRS 16) kiralamaları için de geçerlidir.
 
@@ -37,13 +38,16 @@ Kiralamanın IFRS 16 kapsamında finansal kiralama veya ASC 842 kapsamında işl
 3. Gösterilen iletişim kutusundaki **Değer düşüşü tutarı** alanına varlık değer düşüşü tutarını girin. ROU varlığını azaltmak için, pozitif bir değer girmeniz gerekir.
 4. **Hareket tarihi** alanına, değer düşüşü girişinin deftere nakledilmesi gereken tarihi girin.
 5. **Kalan dönemler** alanına, amortisman uygulanacak kalan ay sayısını girin.
-6. Sistemin değer düşüşü gideri günlük girişini otomatik olarak deftere nakletmesini istiyorsanız **Deftere nakil** parametresini açın. Bu parametreyi kapalı bırakırsanız, sistem girişi oluşturur ancak deftere nakletmez. Daha sonra, girişi **Varlık kiralama günlükleri** sayfasından deftere nakledebilirsiniz.
-7. Teklif edilen girişi oluşturulmadan veya deftere nakledilmedne önce görüntülemek için **Deftere nakletmeden önce önizle** seçeneğini **Evet** olarak ayarlayın.
-8. Kiralama defterini kapatmak için **Defteri kapat**'ı **Evet** olarak ayarlayın. Bu eylem geri alınamaz. Kapalı kiralamalar için girişler deftere nakledilemez ve kapalı kiralamalar düzeltilemez.
-9. Değer düşüşü girişini oluşturmak veya deftere nakletmek için **Tamam**'ı seçin.
-10. Değeri düşürülen varlık amortisman planlamasını görüntülemek için ilgili kiralama defterinin varlık amortisman planını açın. Şimdi varlık, **Kalan dönemler** alanına girdiğiniz ay sayısı boyunca sabit esasa göre değer düşüşüne uğrayacaktır.
-11. Değer düşüşü gider günlüğü girişini görmek için, değeri düşürülen kiralama defterinin Eylem Bölmesinde **Varlık kiralama günlüğü**'nü seçin. Sistem, değer düşüşü gideri defere nakil hesabını borçlandıran ve varlık kiralama deftere nakil hesabını alacaklandıran bir günlük girişi oluşturur.
-12. ROU varlığının yeni defter değerini görüntülemek için kiralama defterinin eylem bölmesinde **Varlık hareketleri**'ni seçin.
+6. Önerilen kıymet bakiyesini ve mali girişi oluşturulmadan veya deftere nakledilmeden önce görüntülemek için **Önizleme** seçeneğini ayarlayın.
+7. Kiralama defterini kapatmak için **Defteri kapat**'ı **Evet** olarak ayarlayın. **Kiralamayı yeniden aç** durumunu kullanarak bu eylemi geri alabilirsiniz. Kapalı kiralamalar için girişler deftere nakledilemez ve kapalı kiralamalar düzeltilemez. 
+8. Değer düşüşü girişini oluşturmak veya deftere nakletmek için **Deftere naklet**'i seçin.
+
+    > [!NOTE]
+    > Değer düşüklüğü hareketi deftere nakledildikten sonra yeni bir kitap sürümü oluşturulur.
+
+9. Değeri düşürülen varlık amortisman planlamasını görüntülemek için ilgili kiralama defterinin varlık amortisman planını açın. Şimdi varlık, **Kalan dönemler** alanına girdiğiniz ay sayısı boyunca sabit esasa göre değer düşüşüne uğrayacaktır.
+10. Değer düşüşü gider günlüğü girişini görmek için, değeri düşürülen kiralama defterinin Eylem Bölmesinde **Varlık kiralama günlüğü**'nü seçin. Sistem, değer düşüşü gideri defere nakil hesabını borçlandıran ve varlık kiralama deftere nakil hesabını alacaklandıran bir günlük girişi oluşturur. 
+11. ROU varlığının yeni defter değerini görüntülemek için kiralama defterinin eylem bölmesinde **Varlık hareketleri**'ni seçin.
 
 ## <a name="example-of-rou-asset-impairment"></a>ROU varlığının değerini düşürme örneği
 

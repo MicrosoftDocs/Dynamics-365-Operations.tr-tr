@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: roschlom
-ms.date: 04/14/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7ce7353de5795fd82e53bb1b7919c95dae4fe0ab6b8f536361613a7bcae19101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781213"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890965"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -32,6 +32,58 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > [!NOTE]
 > Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Finance 10.0.24 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>İsveç için satış vergisi raporu (raporlama kodlarına dayalı tasarım)
+
+[İsveç için satış vergisi raporları](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni bir KDV beyannamesi tasarımı olan [İsveç için KDV beyannamesi](../localizations/emea-swe-vat-declaration-sweden.md) ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar, İsveç için satış vergisi raporunu (İsveç rapor düzeni) artık desteklememeyi planlıyoruz. Yeni **KDV beyannamesi XML'i (SE)** ve **KDV beyannamesi Excel'i (SE)** Elektronik raporlama (ER) biçimleri, **Vergi beyanı** modeli altında sunulmaktadır. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Avusturya için KDV beyannamesi (raporlama kodlarına dayalı tasarım)
+
+[Avusturya için KDV beyannamesi ayrıntıları](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni bir KDV beyannamesi tasarımı olan [Avusturya için KDV beyannamesi](../localizations/emea-aut-vat-declaration-austria.md) ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar, **KDV beyannamesi modeli** altındaki **KDV beyannamesi (AT)** Elektronik raporlama (ER) biçimini artık desteklememeyi planlıyoruz. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (AT)** ve **KDV beyannamesi Excel (AT)** biçimleri tanıtıldı. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Almanya için ELSTER beyannamesi (raporlama kodlarına dayalı tasarım)
+
+[KDV beyanı](../localizations/emea-de-vat-declaration.md)</br>
+[Almanya için elektronik vergi beyannamesini ayarlama](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[KDV beyannamesinin elektronik iletimi (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni bir KDV beyannamesi tasarımı olan [Almanya için KDV beyannamesi](../localizations/emea-deu-vat-declaration-germany.md) ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar **Elster (DE)** ve **Elster modeli** elektronik raporlama (ER) biçimleri için desteği kaldırmayı planlıyoruz. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (DE)** ve **KDV beyannamesi Excel (DE)** biçimleri tanıtıldı. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Hollanda için OB beyannamesi (raporlama kodlarına dayalı tasarım)
+
+[OB beyannamesi](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni bir KDV beyannamesi tasarımı olan [Hollanda için KDV beyannamesi](../localizations/emea-nl-vat-declaration-netherlands.md) ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar **OB beyanı (NL)** ve **OB beyan modeli** elektronik raporlama (ER) biçimleri için desteği kaldırmayı planlıyoruz. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (NL)** ve **KDV beyannamesi Excel (NL)** biçimleri tanıtıldı. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance 10.0.20 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

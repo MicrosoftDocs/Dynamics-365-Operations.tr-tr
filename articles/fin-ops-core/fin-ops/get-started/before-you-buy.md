@@ -2,7 +2,7 @@
 title: Satın almadan önce
 description: Dynamics 365 Finance, Dynamics 365 Supply Chain Management veya Dynamics 365 Commerce satın almayı düşündüğünüz zaman yararlanacağınız adım adım yönergeler.
 author: ShellyBakke
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 0218dd93440c3cd76f16ac954dd7956998873931444fa1334e7382a177ff3fc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757207"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874596"
 ---
 # <a name="before-you-buy"></a>Satın almadan önce
 
@@ -42,7 +42,7 @@ Dağıtım seçeneği olarak şirket içini seçtiğinizde aşağıdaki önemli 
 - [Şirket içi dağıtımlar için sistem gereksinimleri](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Şirket içi dağıtımlar, Microsoft Azure dahil herhangi bir genel bulut altyapısında desteklenmemektedir.
+> Şirket içi dağıtımlar, Microsoft Azure dahil herhangi bir genel bulut altyapısında desteklenmemektedir. Ancak, [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) ve [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/) üzerinde çalışmaları desteklenir.
 
 Daha fazla bilgi için bkz. [Dağıtım seçenekleri](../../dev-itpro/deployment/choose-deployment-type.md).
 

@@ -2,7 +2,7 @@
 title: Teams'de Human Resources uygulaması
 description: Bu konu sizi Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulamasıyla tanıştırır.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e44b9fa40971710d8316c055c4d2ac51f9ab266
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771519"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913501"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams'de Human Resources uygulaması
 
@@ -111,6 +111,9 @@ Aşağıdaki iş öğeleri gelecekteki sürümler için planlanmıştır:
 ## <a name="troubleshooting"></a>Sorun Giderme
 
 Bir kullanıcı Human Resources Teams uygulamasında oturum açarken veya uygulamayı kullanırken sorun yaşarsa bu sorun giderme yönergelerini izleyin. Sorun giderme işleminden sonra hala sorun yaşıyorsanız, desteğe başvurun. Daha fazla bilgi için [Destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) bölümüne bakın.
+
+### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>Teams İnsan Kaynakları uygulamasının güncel olduğundan emin olun
+Teams İnsan Kaynakları uygulamasıyla ilgili sorunlarla karşılaşırsanız en son sürümü çalıştırdığınızı onaylamanız gerekir. Varsayılan sürüm 1.1.5'tir. Teams uygulamasını güncelleştirme hakkında yönergeler için [Teams belgelerine](/MicrosoftTeams/apps-update-experience) bakın.
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Teams'de Human Resource uygulaması oturumu açılamıyor
 

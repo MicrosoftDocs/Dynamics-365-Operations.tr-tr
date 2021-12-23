@@ -2,7 +2,7 @@
 title: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
 description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 10/29/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731650"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890885"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturmak için yapılandırabileceğiniz bir ER [biçim bileşeni](general-electronic-reporting.md#FormatComponentOutbound) olan bir [Elektronik raporlama (ER)](general-electronic-reporting.md) biçimi yapılandırması tasarlayabilirsiniz. Bu amaçla belirli ER biçimli bileşenler kullanılmalıdır.
+Microsoft Excel çalışma kitabı biçiminde giden belge oluşturmak üzere yapılandırabileceğiniz ER biçimi bileşenine sahip bir [Elektronik raporlama (ER)](general-electronic-reporting.md) biçimi yapılandırması tasarlayabilirsiniz. Bu amaçla belirli ER biçimli bileşenler kullanılmalıdır.
 
 Bu özellik hakkında daha fazla bilgi edinmek için [OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama](tasks/er-design-reports-openxml-2016-11.md) konusundaki adımları izleyin.
 
@@ -330,6 +330,40 @@ Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturulduğunda
 6. Yazdırılabilir bir FTI belgesi oluşturun ve oluşturulan belgenin alt bilgisini gözden geçirin.
 
     ![Excel biçiminde Oluşturulan belgenin alt bilgisini gözden geçirme.](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Örnek 2: Birleştirilmiş hücrelerde EPPlus sorununu düzeltme
+
+Excel çalışma kitabı biçiminde giden belge oluşturmak için bir ER biçimi çalıştırabilirsiniz. **Özellik yönetimi** çalışma alanında **Elektronik raporlama çerçevesinde EPPlus kitaplığının kullanımını etkinleştir** özelliği etkinleştirildiğinde, [EPPlus kitaplığı](https://www.nuget.org/packages/epplus/4.5.2.1), Excel çıktısı oluşturmak için kullanılır. Ancak, bilinen [Excel davranışı](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) ve bir EPPlus kitaplığı sınırlaması nedeniyle, şu özel durumla karşılaşabilirsiniz: "Birleştirilmiş hücreler silinemez/üzerine yazılamaz. Bir aralık, başka bir birleştirilmiş aralıkla kısmen birleştirilir." Bu özel duruma ne tür Excel şablonlarının neden olabileceğini ve sorunu nasıl giderebileceğinizi öğrenmek için aşağıdaki örneği tamamlayın.
+
+1. Excel masaüstü uygulamasında, yeni bir Excel çalışma kitabı oluşturun.
+2. **Sayfa1** çalışma sayfasında, **A2** hücresine **ReportTitle** adını ekleyin.
+3. **A1** ve **A2** hücrelerini birleştirin.
+
+    ![Excel masaüstü uygulamasındaki tasarlanmış Excel çalışma kitabındaki A1 ve A2 hücrelerini birleştirmenin sonuçlarını gözden geçirin.](./media/er-fillable-excel-example2-1.png)
+
+3. **Yapılandırmalar** sayfasında, Excel çalışma kitabı biçiminde giden belge oluşturmak için [yeni bir ER biçimi ekleyin](er-fillable-excel.md#add-a-new-er-format).
+4. **Biçim tasarımcısı** sayfasında, tasarlanan Excel çalışma kitabını giden belgeler için yeni bir şablon olarak eklenen ER biçimine [içeri aktarın](er-fillable-excel.md#template-import).
+5. **Eşleme** sekmesinde, [Hücre](er-fillable-excel.md#cell-component) türünün **ReportTitle** bileşeninin bağlamasını yapılandırın.
+6. Yapılandırılmış ER biçimini çalıştırın. Aşağıdaki özel durumun ortaya çıktığına dikkat edin: "Birleştirilmiş hücreler silinemez/üzerine yazılamaz. Bir aralık, başka bir birleştirilmiş aralıkla kısmen birleştirilir."
+
+    ![Biçim tasarımcısı sayfasında yapılandırılmış ER biçimini çalıştırmanın sonuçlarını gözden geçirin.](./media/er-fillable-excel-example2-2.png)
+
+Sorunu aşağıdaki yöntemlerden biriyle girebilirsiniz:
+
+- **Daha kolay ancak önerilmez:** **Özellik yönetimi** çalışma alanında, **Elektronik raporlama çerçevesinde EPPlus kitaplığının kullanımını etkinleştir** özelliğini kapatın. Bu yaklaşım daha kolay olsa da, bazı ER işlevleri yalnızca **Elektronik raporlama çerçevesinde EPPlus kitaplığının kullanımını etkinleştir** özelliği etkin olduğunda desteklendiğinden, kullanırsanız başka sorunlarla karşılaşabilirsiniz.
+- **Önerilir:** Aşağıdaki adımları uygulayın:
+
+    1. Excel masaüstü uygulamasında, Excel çalışma kitabını aşağıdaki yollardan biriyle değiştirin:
+
+        - **Sayfa1** çalışma sayfasında, **A1** ve **A2** hücrelerini ayırın.
+        - **=Sheet1!$A$2** olan **ReportTitle** adı başvurusunu **=Sheet1!$A$1** olarak değiştirin.
+
+        ![Excel masaüstü uygulamasında, tasarlanmış Excel çalışma kitabındaki başvuruyu değiştirmenin sonuçlarını gözden geçirin.](./media/er-fillable-excel-example2-3.png)
+
+    2. **Biçimlendirme tasarımcısı** sayfasında, var olan şablonu güncelleştirmek için değiştirilmiş Excel çalışma kitabını düzenlenebilir ER biçimine [içeri aktarın](er-fillable-excel.md#template-import).
+    3. Değiştirilen ER biçimini çalıştırın.
+
+        ![Excel masaüstü uygulamasında oluşturulan belgeyi gözden geçirin.](./media/er-fillable-excel-example2-4.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

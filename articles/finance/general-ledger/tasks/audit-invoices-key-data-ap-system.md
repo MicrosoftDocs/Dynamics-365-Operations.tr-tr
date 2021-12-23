@@ -1,7 +1,7 @@
 ---
 title: Borç hesaplarındaki faturaları ve önemli verileri denetleme
 description: Bu konuda borç hesaplarındaki faturaların ve önemli verilerin nasıl denetleneceği açıklanır.
-author: saraschi2
+author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, V
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 783da0fed3065aebd1f5cb19c819eb0a925d1e02970433035db69c1b105bede8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f49f8c87f628d68f2c7f355b93cdf5e0a9403251
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779848"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883731"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Borç hesaplarındaki faturaları ve önemli verileri denetleme
 

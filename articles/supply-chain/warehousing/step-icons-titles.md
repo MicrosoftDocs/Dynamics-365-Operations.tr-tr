@@ -1,21 +1,21 @@
 ---
 title: Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama
 description: Bu konuda, Warehouse Management mobil uygulaması için yeni veya özelleştirilmiş görev akışları için adım simgelerinin ve başlıklarının nasıl atandığı açıklanmaktadır.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d1d595e7f8ae3cf344c891844845738a4592328eecc326f11e9a2aa0e303785a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b8d663fa9743fae83654ed9938b4131e0fa08b9
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733360"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902204"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama
 

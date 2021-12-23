@@ -1,7 +1,7 @@
 ---
 title: Sabit kıymet ileri taşıma raporu
 description: Bu konu Sabit kıymet ileti taşıma raporunun nasıl kullanıldığını açıklar.
-author: saraschi2
+author: moaamer
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a605f3dac679d98d57f32f9672315c63f1fd7763d111f244f51435d313fd0349
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747119"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883605"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Sabit kıymet ileri taşıma raporu
 

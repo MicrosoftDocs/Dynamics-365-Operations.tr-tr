@@ -2,19 +2,19 @@
 title: Finance and Operations uygulamaları için hizmet açıklaması
 description: Bu konuda, Finance and Operations uygulamaları için hizmet açıklaması sağlanmaktadır.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825412"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898401"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için hizmet açıklaması
 
@@ -314,7 +314,7 @@ Microsoft'un Olağanüstü Durum Kurtarma planları ve yordamları, Sistem ve Ku
 | Microsoft, birincil üretim kurulumu dağıtıldığında Azure eşleştirilmiş veri merkezinde ikincil bir ortam sağlar. Daha fazla bilgi için bkz. [İş sürekliliği ve olağanüstü durum kurtarma (BCDR): Azure Eşleştirilmiş Bölgeleri](/azure/best-practices-availability-paired-regions). | Hiçbiri |
 | Microsoft, birincil üretim kurulumu dağıtıldığında Azure SQL ve Azure Blob Depolama'nın coğrafi olarak yedeklenmesini sağlar. | Hiçbiri |
 | Microsoft, Azure SQL veritabanlarında otomatik yedeklemeyi etkinleştirir. | Hiçbiri |
-| <p>Microsoft, kesinti oluştuğunda müşteri için yük devretme işlemi gerçekleştirilmesinin gerekip gerekmediğini ve veri kaybı olup olmayacağını belirler. Veri kaybı beş saniyeye kadar oluşabilir. Daha fazla bilgi için bkz. [Azure SQL Veritabanı Coğrafi Olarak Geri Yükleme](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>Microsoft, veri kaybı durumunda yük devretme işlemi için müşteriden onay ister.</p> | Veri kaybı durumunda müşterinin yük devretmeyi tetiklemek için yazılı onay vermesi gerekebilir. |
+| <p>Microsoft, kesinti oluştuğunda müşteri için yük devretme işlemi gerçekleştirilmesinin gerekip gerekmediğini ve veri kaybı olup olmayacağını belirler. Müşteriler, kesinti veya zamanlamaya bağlı olarak 15 dakikaya kadar veri kaybı yaşayabilir. | Veri kaybı durumunda müşterinin yük devretmeyi tetiklemek için yazılı onay vermesi gerekebilir. |
 | Yük devretme gerçekleştiğinde ilgili hizmet sınırlı modda çalışır. Güncelleştirme bakımı, yük devretme modunda tetiklenemez. | Müşteri, yük devretme modunda paket dağıtımlarını veya diğer düzenli bakım isteklerini talep edemez. |
 | Microsoft, veri merkezi faaliyete geçtiğinde birincil Azure bölgesindeki üretim kurulumuna geri döner. Normal işlemler devam eder. | Müşterinin, birincil Azure bölgesindeki üretim kurulumuna geri dönüş için onay vermesi gerekebilir. |
 

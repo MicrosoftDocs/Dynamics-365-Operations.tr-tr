@@ -2,7 +2,7 @@
 title: Adventure Works temasını yükleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te Adventure Works temasının nasıl yükleneceği açıklanmaktadır.
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763848"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913714"
 ---
 # <a name="install-the-adventure-works-theme"></a>Adventure Works temasını yükleme
 
@@ -32,7 +32,7 @@ Bu konuda, Microsoft Dynamics 365 Commerce'te Adventure Works temasının nasıl
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Adventure Works temasını yüklemeden önce, Retail Cloud Scale Unit (RCSU), Commerce çevrimiçi yazılım geliştirme kiti (SDK) ve Commerce modül kitaplığını içeren bir Dynamics 365 Commerce ortamınız (Commerce sürüm 10.0.20 veya üstü) olmalıdır. Commerce SDK ve modül kitaplığını yükleme hakkında bilgi için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md). 
+Adventure Works temasını yüklemeden önce, Retail Cloud Scale Unit (RCSU), Commerce çevrimiçi yazılım geliştirme kiti (SDK) ve Commerce modül kitaplığını içeren bir Dynamics 365 Commerce ortamınız (Commerce sürüm 10.0.20 veya üstü) olmalıdır. Commerce SDK'sı ve modül kitaplığını yükleme hakkında bilgi için bkz. [Geliştirme ortamı oluşturma](e-commerce-extensibility/setup-dev-environment.md). 
 
 ## <a name="installation-steps"></a>Yükleme adımları
 
@@ -48,11 +48,19 @@ Adventure Works tema paketi **dynamics365-commerce** akışında, **@msdyn365-co
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Paketi yerel ortamınıza yüklemek için komut isteminden aşağıdaki komutu çalıştırın. Bu komut, package.json dosyasını bağımlılığı içerebilecek şekilde otomatik olarak güncelleştirir.
+Paketi yerel ortamınıza yüklemek için komut isteminden `yarn add THEME_PACKAGE@VERSION` komutunu çalıştırın; burada **THEME_PACKAGE** tema paketi (@msdyn365-commerce-theme/adventureworks-theme-kit) ve **VERSION** kullanılmakta olan modül kitaplığının sürüm numarasıdır. Tema paketinin sürümleri ile modül kitaplığının eşleşmesi önemlidir. Kullanılacak doğru modül kitaplığı sürüm numarasını bulmak için package.json dosyasını açın ve **bağımlılıklar** bölümünün altında **başlangıç paketi** değerini bulun. Aşağıdaki örnekte, package.json dosyası modül kitaplığının Dynamics 365 Commerce 10.0.22 sürümüyle eşlenen 9.32 sürümünü kullanır.  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-**package.json** dosyasında, tema sürümünü belirli bir sürüme güncelleştirmeniz gerekir.
+Aşağıdaki örnek, Adventure Works temasının 9.32 sürümünü eklemek için `yarn add` komutunun nasıl çalıştırılacağını gösterir. Komut, package.json dosyasını bağımlılığı içermesi için otomatik olarak güncelleştirir.
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+Modül kitaplığı sürümünü güncelleştirme hakkında daha fazla bilgi için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md). 
 
 > [!IMPORTANT]
 > - Tema sürümü, tüm özelliklerin beklendiği gibi çalıştığından emin olmak için modül kitaplığı sürümüyle eşleşmelidir. 

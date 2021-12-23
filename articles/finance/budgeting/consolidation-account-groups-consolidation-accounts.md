@@ -1,7 +1,7 @@
 ---
 title: Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları
-description: Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların Microsoft Dynamics 365 Finance içerisinde nasıl kullanıldıkları hakkında bilgi sağlar.
-author: aprilolson
+description: Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların nasıl kullanıldıkları hakkında bilgi sağlar.
+author: panolte
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
@@ -12,25 +12,25 @@ ms.reviewer: roschlom
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
-ms.author: aolson
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3e6671e5f3ceff671210011913a3a91194613c7c0e4e1d8e8063e4e27e5f3cf5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 489f5417b6044e02d4711a03a17d6c19031cc2ee
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727432"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883399"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların Microsoft Dynamics 365 Finance içerisinde nasıl kullanıldıkları hakkında bilgi sağlar.
+Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların nasıl kullanıldıkları hakkında bilgi sağlar.
 
 ## <a name="consolidation-account-groups"></a>Konsolidasyon hesap grupları
 
-Konsolidasyon hesabı grupları, verileri konsolide etmek için kullanmak isteyebileceğiniz hesap gruplarını oluşturmanıza olanak sağlar. Çoğunlukla, bir konsolidasyon hesabı grubu, devletin zorunlu kıldığı hesap planlarını veya eşleşme hesaplarını, şirketin yönetim merkezi tarafından tanımlanmış bir gruba temsilini sağlar. Konsolidasyon hesap gruplarını **Konsolidasyonlar** modülünün **Kurulum** alanında bulabilirsiniz. Yeni bir grup eklediğinizde, hesap grubu için bir kimlik tanımlayıcısı ve bir ad girersiniz.
+Konsolidasyon hesabı grupları, verileri konsolide etmek için kullanmak isteyebileceğiniz hesap gruplarını oluşturmanıza olanak sağlar. Genellikle, bir konsolidasyon hesabı grubu devletin zorunlu kıldığı hesap planını temsil eder. Bir konsolidasyon hesabı grubu, hesapları şirketin yönetim merkezi tarafından tanımlanan bir gruba da eşlenebilir. Konsolidasyon hesap gruplarını **Konsolidasyonlar** modülünün **Kurulum** alanında bulabilirsiniz. Yeni bir grup eklediğinizde, hesap grubu için bir kimlik tanımlayıcısı ve bir ad girersiniz.
 
 ## <a name="additional-consolidation-accounts"></a>İlave konsolidasyon hesapları
 Ek konsolidasyon hesapları, mevcut bir hesap planlarından bir hesabı, bir konsolidasyon hesabı grubuna atamanıza olanak sağlar. Daha sonra bir konsolidasyon hesabı değeri ve adı belirtebilirsiniz. 

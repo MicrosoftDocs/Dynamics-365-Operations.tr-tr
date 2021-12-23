@@ -2,7 +2,7 @@
 title: Kazanç yönetimine genel bakış
 description: Bu konuda, Dynamics 365 Human Resources uygulamasındaki Kazanç yönetimi özelliğine genel bir bakış sağlanmaktadır.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: dc06fd2ef4992b4ef2e20ace4f5c6bcc0bffb9d2
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417535"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892514"
 ---
 # <a name="benefits-management-overview"></a>Kazanç yönetimine genel bakış
 
@@ -109,21 +109,29 @@ Yan hak planlarını ayarlama hakkında daha fazla bilgi için bkz. [Yan hak pla
 
 ## <a name="configure-required-employee-information"></a>Gerekli personel bilgilerini yapılandırma
 
-Çalışanları yan haklara kaydedebilmek için gerekli bilgileri sağlamanız gerekir. Her çalışanın bir pozisyonu olmalıdır. Çalışanları başlangıç tarihlerinde sabit bir ücret planına kaydetmeniz veya yıllık yan haklar maaş tutarına sahip olmaları gerekir. Ayrıca, **Çalışan** sayfasının **İstihdam ayrıntıları** bölümünde, **Yan hak ödeme sıklığı** alanında bir değer seçmeniz gerekir.
+Çalışanları yan haklara kaydedebilmek için gerekli bilgileri sağlamanız gerekir. 
 
-Komisyonlar gibi ek ücret alan personeliniz varsa, çalışan kaydından bir **Kazançlar yıllık maaş** tutarı ekleyebilirsiniz. İnsan Kaynakları, karşılama tutarlarını belirlerken yıllık sabit ücret tutarı yerine **Kazançlar yıllık maaş** alanını kullanacaktır. **Yan hak yıllık maaşı** personel işe başlama tarihi veya kazanç dönemi başlangıcı (hangisi sonraysa) itibarıyla geçerli olacaktır. Bir personel için hem sabit ücret hem de kazançlar yıllık maaş tutarı kaydedilirse, karşılama tutarlarını belirlemede kazançlar yıllık maaş kullanılır.
+Çalışanın kendisine atanmış bir **Pozisyonu** olmalıdır. Bir **Pozisyon**, **Çalışan ataması** güncelleştirilerek **Çalışan** veya **Pozisyon** sayfalarında çalışana atanabilir. 
+
+Daha sonra, çalışanların başlangıç tarihinde sabit bir ücret planına kaydolmaları veya **Yıllık yan haklar maaşı** tutarına sahip olmaları gerekir. Bir çalışana **Sabit ücret** atamadan önce bir **Pozisyon** atanmalıdır. 
+
+> [!NOTE] 
+> **Sabit ücret başlangıç tarihi**, **Pozisyon atama tarihinden** önce olamaz.
+
+Alternatif olarak, komisyonlar gibi ek ücret alan personeliniz varsa, çalışan kaydından bir **Kazançlar yıllık maaş** tutarı ekleyebilirsiniz. İnsan Kaynakları, karşılama tutarlarını belirlerken **Yıllık sabit ücret tutarı** yerine **Kazançlar yıllık maaş** alanını kullanacaktır. **Yan hak yıllık maaşı** personel işe başlama tarihi veya kazanç dönemi başlangıcı (hangisi sonraysa) itibarıyla geçerli olacaktır. Ancak, **Yan haklar yıllık maaşı**'nı atamak için bir pozisyon gerekli değildir. **Yan haklar yıllık maaşı** özelliğini etkinleştirmek için **Yan haklar yönetimi** sekmesindeki **İnsan kaynakları paylaşılan parametreleri** sayfasına gidin. Bu özellik, varsayılan olarak kapalıdır.
+
+> [!IMPORTANT]
+> Bir personel için hem **Sabit ücret** hem de **Kazançlar yıllık maaş tutarı** kaydedilirse, karşılama tutarlarını belirlemede **Kazançlar yıllık maaş** kullanılır. **Çalışan** sayfasının **İstihdam ayrıntıları** bölümünde, **Yan hak ödeme sıklığı** alanında bir değer seçmeniz gerekir.
 
 ## <a name="configure-optional-employee-information"></a>İsteğe bağlı personel bilgilerini yapılandırma
-
 Cinsiyet veya yaşa dayalı oranlar kullanan bir kazanç planı oluşturduğunuzda, bir çalışanın kazanç maliyetini hesaplamak için doğum tarihi ve cinsiyet girmeniz gerekir.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Uygunluğu belirlemek için çalışanları işleme
+Çalışanlar planlara kaydedilmeden önce hangi planlara uygun olduklarını belirlemek için uygunluk işlemesi çalıştırılır. Uygunluk işleminin sonuçlarını **İşlem sonuçları görüntüleyicisi**'nde görüntüleyebilirsiniz. Daha fazla bilgi için bkz. [Kayıt uygunluğunu işleme](hr-benefits-process-enrollment-eligibility.md).
 
-Çalışanlar planlara kaydedilmeden önce hangi planlara uygun olduklarını belirlemek için uygunluk işlemesi çalıştırılır. Uygunluk sürecinin sonuçlarını işlem sonuçları görüntüleyicisinde görüntüleyebilirsiniz. Daha fazla bilgi için bkz. [Kayıt uygunluğunu işleme](hr-benefits-process-enrollment-eligibility.md).
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Çalışanlar, **Employee Self-Service**'i kullanarak planları seçer (isteğe bağlı)
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>Çalışanlar, Çalışan Self Servisi hizmeti aracılığıyla planları seçer (isteğe bağlı)
-
-Açık kayıt gerçekleştiğinde, çalışanlar yeni işe alındığında veya bir yaşam olayı oluştuğunda, çalışanlar Çalışan Self Servisi yoluyla yan haklarını seçebilir veya güncelleyebilir. Daha fazla bilgi için bkz. [Çalışan Self Servisi yapılandırma](hr-benefits-setup-employee-self-service.md).
+Açık kayıt gerçekleştiğinde, çalışanlar yeni işe alındığında veya bir yaşam olayı oluştuğunda, çalışanlar **Employee Self-Service**'i kullanarak yan haklarını seçebilir veya güncelleştirebilir. Daha fazla bilgi için bkz. [Çalışan Self Servisi yapılandırma](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Çalışan planı seçimlerini onaylama
 

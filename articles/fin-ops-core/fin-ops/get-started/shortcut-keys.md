@@ -2,7 +2,7 @@
 title: Klavye kısayolları
 description: Bu konu, Finance and Operations uygulamasıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerinin genel görünümünü sağlar.
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800205"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913530"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Aşağıdaki klavye kısayolları, verileri hızlı ve etkili şekilde Finance and Operations uygulamasında girmenize yardımcı olabilir.
 
@@ -128,7 +127,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="grid-shortcuts"></a>Kılavuz kısayolları
 
-| Bunu yapmak için                                                                                                             | Şuna basın:                            |
+| Bunu yapmak için                                                                                                             | Şuna basın:                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | Dikey kaydırma                                                                                                     | Fare tekerleği                     |
 | Yatay kaydırma                                                                                                   | Shift + Fare tekerleği             |
@@ -150,12 +149,13 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Bir kılavuzda varsayılan eylemi yürüt<blockquote>[!NOTE] Bu kısayol odak köprü içeren bir hücre ve o sütundaki tüm hücreleri köprüler etkinleştirilir.</blockquote> | Gir                           |
 | Seçilen satır ile başlık satırı arasında odağı değiştirme                                                               | Alt+Shift+H                     |
 | Geçerli sütunu daha büyük/daha küçük yapma (odakta başlık satırı varken)                                                  | Sağ ok / Sol ok        |
+| Geçerli sütunu sonraki/önceki konuma taşıyın (üst bilgi satırına odaklanarak)                                   | Ctrl+Shift+Sağ ok / Ctrl+Shift+Sol ok |
 | Geçerli sütun için ızgara filtrelemeyi açma (odakta başlık satırı varken)                                              | Enter                           |
-| Geçerli sütunu içeriğe uyacak şekilde yeniden boyutlandırın (üst bilgi satırına odaklanarak)                                           | A  (veya sütun boyutlandırma tutamacını çift tıklatın) |
+| Geçerli sütunu içeriğe uyacak şekilde yeniden boyutlandırın (üst bilgi satırına odaklanarak)                                           | A (veya sütun boyutlandırma tutamacını çift tıklatın) |
 
 ## <a name="input-control-shortcuts"></a>Giriş denetimi kısayolları
 
-| Bunu yapmak için                                                                   | Şuna basın:                          |
+| Bunu yapmak için                                                                   | Şuna basın:                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Köprüyü aç                                                           | Ctrl+Enter                    |
 | Tarih alanına oturum tarihini girme                                       | B                             |
@@ -242,7 +242,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="task-recorder-shortcuts"></a>[Görev kaydedici](../../dev-itpro/user-interface/task-recorder.md) kısayolları 
 
-| Bunu yapmak için                                                                    | Şuna basın:                       |
+| Bunu yapmak için                                                                    | Şuna basın:                      |
 |-------------------------------------------------------------------------------|----------------------------|
 | Kaydı durdur (kayıt sırasında)                                          | Alt+R,S                    |
 | Görev kaydedici bölmesinin görünürlüğünü değiştir (kayıt sırasında)             | Alt+R,T                    |

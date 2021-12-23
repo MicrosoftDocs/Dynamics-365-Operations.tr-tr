@@ -1,7 +1,7 @@
 ---
 title: Sabit kıymet deftere nakil profilleri ayarlama
-description: Bu görev kılavuzunda Sabit kıymet deftere nakil profilleri ayarlanacak.
-author: saraschi2
+description: Bu yordamda, sabit kıymet deftere nakil profillerinin nasıl ayarlanacağı gösterilmiştir.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2708997848352205cab2e425c9ae1fb531b8a566ba86a65ba2cbeb7e0b5c2b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767635"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883780"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Sabit kıymet deftere nakil profilleri ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu görev kılavuzunda Sabit kıymet deftere nakil profilleri ayarlanacak.  Kılavuzda Muhasebeci rolü ve USMF adlı tüzel kişilik için demo verileri kullanılmaktadır.  Özel hesap planınız ve mali raporlama gereksinimleriniz için deftere nakil profilleri oluşturulması gerekmesine karşın, bu görev kılavuzunda verilen örnekler temel bir deftere nakil profiline aittir.
+Bu yordamda, sabit kıymet deftere nakil profillerinin nasıl ayarlanacağı gösterilmiştir. Özel hesap planınız ve mali raporlama gereksinimleriniz için deftere nakil profilleri oluşturulması gerekmesine karşın, bu konuda verilen örnekler temel bir deftere nakil profiline aittir.
 
 1. Gezinti bölmesinde **Modüller > Sabit kıymetler > Kurulum > Sabit kıymet deftere nakil profilleri**'ne gidin.
 2. **Yeni**'ye tıklayın.

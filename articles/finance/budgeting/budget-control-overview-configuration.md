@@ -2,7 +2,7 @@
 title: Bütçe kontrolüne genel bakış
 description: Bu konu bütçe denetimi özelliğini tanıtır ve kuruluşunuzun mali kaynaklarının yönetimini en iyi duruma getirmek için bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772891"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890737"
 ---
 # <a name="budget-control-overview"></a>Bütçe kontrolüne genel bakış
 
@@ -78,9 +78,7 @@ Ardından, **Bütçe aşımı izinleri** sekmesinde, kullanıcı gruplarını be
 Ardından **Kullanılabilen bütçe fonları** sekmesinde, kullanılabilir bütçe fonlarını hesaplamak için kullanılan formülü tanımlayabilirsiniz. Bir kuruluşun mali kaynaklarını yönetmede ne kadar tutucu davrandığına dayalı olarak veya yönetmelikler veya endüstri gereksinimleri dikkate alınarak bu hesaplama, taslak veya nakledilmemiş belgeleri içerebilir. 
 
 > [!NOTE]
-> Hesaplama bir bütçe döngüsü sırasında değiştirilirse daha önce bütçe kontrolü denetimlerinden geçen ve nakledilen veya tamamlanan belgeler bu değişikliklerden etkilenmez. 10.0.17 uygulama sürümünde, sınırlı sayıda müşteri için yeni bir **Yalnızca hesaplama için kullanılabilen bütçe fonlarındaki tutarları izle** özelliği kullanıma sunuldu. Bu özellik, BudgetSourceTracking tablolarında hangi verilerin izlendiklerini değiştirmenize olanak tanır. Bu özellik açıldığında, tutarlar yalnızca kullanılabilir bütçe fonları hesaplamasında kullanılmak üzere seçilmişse depolanır. **Yalnızca hesaplama için kullanılabilen bütçe fonlarındaki tutarları izle** etkinleştirilmesini talep etmek için Destek ekibine başvurun. 
-
-### <a name="documents-and-journals"></a>Belgeler ve günlükler
+> Hesaplama bir bütçe döngüsü sırasında değiştirilirse daha önce bütçe kontrolü denetimlerinden geçen ve nakledilen veya tamamlanan belgeler bu değişikliklerden etkilenmez. **Yalnızca kullanılabilir bütçe fonları hesaplamasındaki izleme tutarları** adlı bir özellik, BudgetSourceTracking tablolarında hangi verilerin izleneceğini değiştirmenize olanak sağlar. Bu özellik açıldığında, tutarlar yalnızca kullanılabilir bütçe fonları hesaplamasında kullanılmak üzere seçilmişse depolanır. Daha fazla bilgi için bkz. [Kullanılabilir bütçe fonları](budget-funds-available.md).
 
 Ardından, **Belgeler ve günlükler** sekmesinde hangi kaynak belgelerinin ve günlüklerinin bütçe kontrolü denetimlerine tabi tutulacağını ve denetimin satır girişinde mi, yoksa tüm belge düzeyinde mi gerçekleştirileceğini tanımlayabilirsiniz. 
 

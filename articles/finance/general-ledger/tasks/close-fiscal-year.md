@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 013a5b1ac5b99c6a8ac75885e6d65067d5ed4c2ffd5cc5f625a73963666c0a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779525"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902519"
 ---
 # <a name="close-the-fiscal-year"></a>Mali yılı kapatma
 
@@ -36,7 +36,7 @@ Bu yordam, bakiyeleri yeni bir mali yıla aktaran yıl sonu kapanış işlemini 
 
 4. **Aktarma sırasında kapanış hareketleri oluştur** seçeneği için 'Evet'i veya 'Hayır'ı seçin.
 
-    Evet olarak ayarlanırsa, iki hareket oluşturulur. İlk fiş P&L genel muhasebe hareketlerini sıfıra getirmek için kapatılan mali yılda oluşturulur, ikinci fiş ise başlangıç bakiyeleri için bir sonraki mali yılda oluşturulur. Hayır olarak ayarlanırsa başlangıç bakiyeleri için bir sonraki mali yılda tek bir fiş oluşturulur.  
+    Evet olarak ayarlanırsa, iki hareket oluşturulur. İlk fiş tüm genel muhasebe hareketlerini sıfıra getirmek için kapatılan mali yılda oluşturulur, ikinci fiş ise başlangıç bakiyeleri için bir sonraki mali yılda oluşturulur. Hayır olarak ayarlanırsa başlangıç bakiyeleri için bir sonraki mali yılda tek bir fiş oluşturulur.  
 
 5. **Mali yıl durumunu kalıcı olarak kapatıldı** olarak ayarla için Evet'i veya Hayır'ı seçin.
 

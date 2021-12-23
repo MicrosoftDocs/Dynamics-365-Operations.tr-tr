@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: zezhangzhao
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d8f0e027761a42871f9fc543319ba47fe457f23b8b7f937b8f847cc16922610e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737271"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883580"
 ---
 # <a name="project-invoicing"></a>Proje faturalama
 
@@ -58,7 +58,7 @@ Aşağıdaki hareketler için fatura teklifleri oluşturabilirsiniz:
 
 Bir fatura teklifinde ücret hareketleri oluşturabilirsiniz. Ayrıca saat, gider, madde ve ücret hareketlerinin satış fiyatı üzerinde değişiklik yapabilirsiniz. Bir fatura teklifini deftere naklettiğinizde, güncel fiyatlar ve hareketler proje raporları ve hareket geçmişine eklenir. 
 
-Bir proje için birden fazla müşteri faturası oluşturmak için, her fatura için bir fatura teklifi oluşturmanız gerekir. Örneğin, hareket türüne göre fatura oluşturabilirsiniz. Saatleri bir müşteri faturasında ve kalemleri bir diğer faturada belirtmek için, saat hareketleri ve ücret hareketleri için ayrı fatura teklifleri oluşturmanız gerekir. 
+Bir proje için birden fazla müşteri faturası oluşturmak için, her fatura için bir fatura teklifi oluşturmanız gerekir. Örneğin, hareket türüne göre fatura oluşturabilirsiniz. Saatleri bir müşteri faturasında ve kalemleri bir diğer faturada belirtmek için saat hareketleri ve ücret hareketleri için ayrı fatura teklifleri oluşturmanız gerekir. 
 
 Bir projenin birden fazla finansman kaynağı varsa, her finansman kaynağı için ayrı bir fatura teklifi oluşturabilirsiniz. **Finansman kuralları** sayfasında, hareketin her bir finansman kaynağına tahsis edilecek yüzdesini tanımlayabilir ve yuvarlama farklarınının nakledileceği kaynağı da belirtebilirsiniz.
 

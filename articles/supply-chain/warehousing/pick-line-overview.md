@@ -1,7 +1,7 @@
 ---
 title: Bir mobil cihaz menü öğesini malzeme çekme satırı özeti sağlayacak şekilde ayarlama
 description: Bu konu, bir mobil cihazda ambar çalışmasını işleyen ambar çalışanlarına tüm iş satırlarının listesinin nasıl tanımlanacağını açıklar. Bu özellik, malzeme çekme sırasını en iyi duruma getirebilmek için bir iş emrindeki çekme satırlarının genel görünümüne gerek duyan ambar çalışanları için kullanışlı olabilir.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8bb5a7851987b71d5a1df1d37054547f28ecf9a4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7d3a8972c5d2f4c52dddef458ebd6079118cadfe
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580060"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901934"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Bir mobil cihaz menü öğesini malzeme çekme satırı özeti sağlayacak şekilde ayarlama
 

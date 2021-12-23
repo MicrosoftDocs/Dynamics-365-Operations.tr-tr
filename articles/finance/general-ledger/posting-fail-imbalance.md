@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605441"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903262"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Dengesizlik nedeniyle yevmiye defterine nakil hatası
 
@@ -52,13 +52,13 @@ Desteklenen bir senaryoda, bir fişin birden fazla hareket para birimi olabilir.
 
 Fişin tüm satırlarında aynı hareket para birimi varsa ve hareket para birimi tutarları dengelendiyse sistem muhasebe para birimi tutarlarının dengeli olduğunu doğrular. Fiş yabancı para birimi cinsinden girilirse hareket para birimi tutarlarını muhasebe para birimine çevirmek için fiş satırlarındaki döviz kuru kullanılır. Öncelikle, fişin her satırı çevrilir ve iki ondalık basamağa yuvarlanır. Ardından toplam borçları ve toplam alacakları belirlemek için satırlar toplanır. Her satır çevrildiğinden toplam borçlar ve toplam alacaklar dengelenmeyebilir. Ancak aradaki farkın net değeri **Genel muhasebe parametreleri** sayfasında tanımlanan **Maksimum kuruş farkı** değeri dahilindeyse fiş deftere nakledilir ve fark otomatik olarak Kuruş farkı hesabına nakledilir.
 
-Fişte birden fazla hareket para birimi varsa fişin her satırı muhasebe para birimine çevrilir ve iki onluk noktaya yuvarlanır, ardından toplam borçları ve toplam alacakları belirlemek için satırlar toplanır. Dengeli kabul edilebilmesi için, ödemeler ve krediler çevrildiği şekilde veya muhasebe para birimi kuruş yuvarlama farkı dahil olduğunda dengeli olmalıdır.
+Fişte birden fazla hareket para birimi varsa fişin her satırı muhasebe para birimine çevrilir ve iki onluk noktaya yuvarlanır, ardından toplam borçları ve toplam alacakları belirlemek için satırlar toplanır. Dengeli sayılabilmesi için borç ve kredilerin muhasebe para birimi cinsinden dengelenmiş olması gerekir.  Borç ve kredileri bakiyeye getirmek için muhasebe para birimi cinsinden fişe hiçbir zaman bir kuruş fark hesabı eklenmez. 
 
 ### <a name="reporting-currency"></a>Raporlama para birimi
 
 Fişin tüm satırlarında aynı hareket para birimi varsa ve hareket para birimi tutarları dengelendiyse sistem, raporlama para birimi tutarlarının dengeli olduğunu doğrular. Fiş yabancı para birimi cinsinden girilirse hareket para birimi tutarlarını raporlama para birimine çevirmek için fiş satırlarındaki döviz kuru kullanılır. Öncelikle, fişin her satırı çevrilir ve iki ondalık basamağa yuvarlanır. Ardından toplam borçları ve toplam alacakları belirlemek için satırlar toplanır. Her satır çevrildiğinden toplam borçlar ve toplam alacaklar dengelenmeyebilir. Ancak aradaki fark **Genel muhasebe parametreleri** sayfasında tanımlanan **Raporlama para birimi cinsinden maksimum kuruş yuvarlama** değeri dahilindeyse fiş deftere nakledilir ve fark otomatik olarak Kuruş farkı hesabına nakledilir.
 
-Fişte birden fazla hareket para birimi varsa fişin her satırı raporlama para birimine çevrilir ve iki onluk noktaya yuvarlanır, ardından toplam borçları ve toplam alacakları belirlemek için satırlar toplanır. Dengeli kabul edilebilmesi için, ödemeler ve krediler çevrildiği şekilde veya raporlama para birimi kuruş yuvarlama farkı dahil olduğunda dengeli olmalıdır.
+Fişte birden fazla hareket para birimi varsa fişin her satırı raporlama para birimine çevrilir ve iki onluk noktaya yuvarlanır, ardından toplam borçları ve toplam alacakları belirlemek için satırlar toplanır. Dengeli olarak kabul edilebilmesi için borç ve kredilerin raporlama para birimi cinsinden dengelenmiş olması gerekir.  Borç ve kredileri dengeye getirmek için raporlama para birimi cinsinden fişe hiçbir zaman bir akçe fark hesabı eklenmez.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Muhasebe para birimi dengesizliği örneği
 

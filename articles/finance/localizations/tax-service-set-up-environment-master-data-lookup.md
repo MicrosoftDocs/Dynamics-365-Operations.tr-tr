@@ -2,7 +2,7 @@
 title: Vergi hesaplama konfigürasyonu için master veri aramasını etkinleştir
 description: Bu konu, vergi hesaplama ana veri arama işlevini nasıl etkinleştirebileceğinizi ve kurabileceğinizi açıklamaktadır.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749522"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867364"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Vergi hesaplama konfigürasyonu için master veri aramasını etkinleştir 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, vergi hesaplama ana veri arama işlevini nasıl etkinleştirebileceğinizi ve kurabileceğinizi açıklamaktadır. **Satıcı hesabı**, **Madde kodu** ve **Teslimat şartı** gibi alanlar için vergi hesaplama konfigürasyonundaki değerleri seçmek üzere bir açılır liste kullanılabilir. Bu değerler, bağlantılı Microsoft Dynamics 365 Finance ortamından Microsoft Dataverse veri kaynağı kullanılarak alınır.
+Bu konu, vergi hesaplama ana veri arama işlevini nasıl etkinleştirebileceğinizi ve kurabileceğinizi açıklamaktadır. **Tüzel kişilik**, **Satıcı hesabı**, **Madde kodu** ve **Teslim koşulu** gibi alanlar için vergi hesaplama yapılandırmasındaki değerleri seçmek üzere bir açılan liste kullanılabilir. Bu değerler, bağlantılı Microsoft Dynamics 365 Finance ortamından Microsoft Dataverse veri kaynağı kullanılarak alınır.
+
+> [!NOTE] 
+> Vergi hesaplama yöneticisi veri arama işlevi isteğe bağlı işlevselliktir. Regulatory Configuration Service'teki (RCS) **Vergi Hizmeti Dataverse veri kaynağı desteği** özelliğini devre dışı bırakırsanız aşağıdaki adımları atlayabilirsiniz. Ancak, bu durumda, açılan liste vergi hesaplama yapılandırmasında kullanılamaz.
 
 1. Microsoft Dynamics Lifecycle Services'ta (LCS) Microsoft Power Platform tümleştirmesi ayarlayın. Daha fazla bilgi için bkz. [Microsoft Power Platform tümleştirmesi - Eklentilere genel bakış](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Bu adımı tamamladıktan sonra, bir Microsoft Power Platform ortamın adı, **Power Platform tümleştirmesi** bölümünde görünür.
 2. [Microsoft Power Platform yönetim merkezine](https://admin.powerplatform.microsoft.com/environments) gidin ve ortam adını seçin. Ortam URL'si sağlanır.

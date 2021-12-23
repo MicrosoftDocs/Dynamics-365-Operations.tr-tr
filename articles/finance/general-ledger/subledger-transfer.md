@@ -2,7 +2,7 @@
 title: Yardımcı defterden genel muhasebeye transfer
 description: Bu konu, genel muhasebedeki alt defter transfer işlemiyle ilgili olan özellikleri açıklar.
 author: rcarlson
-ms.date: 07/20/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 03c04a5eb8b544b582019ddd204382900b162d952842c901f69ed4a853bd8183
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716657"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900742"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Yardımcı defterden genel muhasebeye transfer
 
@@ -39,7 +39,7 @@ Sürüm 10.0.8'de **Zaman uyumsuz** seçeneğinin performansını artırmak içi
 
 Yardımcı defter toplu işlerinin zaman uyumsuz aktarımı işlevi, yardımcı defterden genel muhasebeye veri aktarımını iyileştirmeye yardımcı olur. İşlev, daha küçük hareket kümelerini gruplayarak ve hareketleri gruplar halinde aktararak hareketleri daha verimli bir şekilde işler. Hareketler gruplandığında, toplu iş sunucusunun kaynakları daha verimli kullanılır.
 
-Yardımcı defter toplu işlerinin zaman uyumsuz aktarımı, toplu iş sunucusunun kurulmuş, çevrimiçi ve çalışır olmasını gerektirir. Aksi takdirde, **Zaman Uyumsuz** aktarım seçeneği çalışmaz.
+Alt genel muhasebe toplu işlemlerine ilişkin zaman uyumsuz aktarım toplu iş görevleri, toplu iş sunucusunda hemen yürütülmek üzere oluşturulduğundan, bu işlem sunucusunun ayarlanmasını, çevrimiçi olmasını ve çalışmasını gerektirir. **Genel muhasebeye alt muhasebe aktarımı performansını iyileştirme** özelliği etkinken, **Süreç otomasyonu yoklama sistem işi** adlı **Süreç otomasyonu** sistem toplu işi de etkinleştirilmelidir. Daha fazla bilgi için bkz. [İşlem otomasyonu](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 Toplu iş düzeyindeki verimlilik değişikliği, sistemdeki tüm tüzel kişilikler için yinelenen tek bir toplu işlem kullanır. Çalışma zamanında, henüz transfer edilmemiş gerekli kayıtları işlemek için yeni bir toplu işlem oluşturulur. Sistem yönetimindeki **İşlem otomasyonu** sayfasından daha fazla ayar kontrol edilebilir. Bu sayfada, arka plan işlemini değiştirebilir, sıklığı değiştirebilir ve bir uyku süresi tanımlayabilirsiniz.
 

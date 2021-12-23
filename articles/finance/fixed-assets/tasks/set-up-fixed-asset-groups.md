@@ -1,7 +1,7 @@
 ---
 title: Sabit kıymet gruplarını ayarla
 description: Bu konu yeni bir sabit kıymet grubunun nasıl oluşturulacağı açıklar.
-author: saraschi2
+author: moaamer
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: AssetGroup, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 04a054fb0233a9f47fd8df38cf0bd60d0662bae80c433d7f2f8ed21c0f1bfdf8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a39d709d739ac4fea4bf79e3174d2fbe39d4ded
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771692"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883806"
 ---
 # <a name="set-up-fixed-asset-groups"></a>Sabit kıymet gruplarını ayarla
 

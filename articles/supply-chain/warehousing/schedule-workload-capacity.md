@@ -1,7 +1,7 @@
 ---
 title: İş yükü kapasitesini zamanlama
 description: Bu konuda, bir ambardaki çalışanlar veya tüm ambar için iş yükü kapasitesinin nasıl ayarlanacağı ve zamanlanacağı açıklanmaktadır.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 004abe379004d0dc8d0bff526872312bfa7a994b0f7422d1c415927bbecc90ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f66eb1b2f35d19aba0f4f8f2804577a62ac14e79
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780494"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901958"
 ---
 # <a name="schedule-workload-capacity"></a>İş yükü kapasitesini zamanlama
 

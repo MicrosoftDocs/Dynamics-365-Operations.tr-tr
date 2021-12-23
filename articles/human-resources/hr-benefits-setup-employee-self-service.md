@@ -1,8 +1,8 @@
 ---
-title: Personel self servisini yapılandırma
+title: Employee Self-Service'i yapılandırma
 description: Microsoft Dynamics 365 Human Resources'ta, kutucukları çalışan self serviste üst düzey gezinti için yapılandırabilirsiniz.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423330"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898452"
 ---
 # <a name="configure-employee-self-service"></a>Personel self servisini yapılandırma
 
@@ -34,19 +34,16 @@ Microsoft Dynamics 365 Human Resources uygulamasında, **Personel self servisi**
 
 2. **Kazanç planları kutucuk kurulumu** sekmesini seçin ve sonra **yeni**'yi seçin.
 
-3. Aşağıdaki alanların değerleri belirtin:
+3. Aşağıdaki alanların değerleri belirtin.
 
    | Alan | Tanım |
    | --- | --- |
+   | **Plan türü kodu** | Bu kutucuk **Yan haklar self servisi**'nde seçildiğinde görüntülenen plan türü. |
    | **Kutucuk kodu** | Kutucuk için benzersiz tanımlayıcı. |
-   | **Kutucuk etiketi metni** | **Personel self servisi** bölümünde kutucuk için görünecek metin. |
-   | **Açıklama** | Kutucuğun bir açıklaması. |
-   | **Internet adresi** | **Personel self servisi** sayfasının URL'sini girin. |
-   | **Kutucuk boyutu** | Döşemenin boyutu: küçük, orta veya büyük. |
-   | **Hedef** | Sayfanın yeni bir pencerede mi yoksa geçerli pencerede mi açılacağını belirtir. |
+   | **Kutucuk etiketi metni** | **Yan haklar self servisinde** kutucuk için görüntülenecek metin. |
+   | **Tanım** | Kutucuğun bir açıklaması. |
    | **Kutucuk arka plan görüntüsü** | Kutucuk için kullanılacak görüntünün URL'si (isteğe bağlı). |
-   | **Başlangıç** | Döşemenin başlangıç tarihi ve saati kullanılabilir olmalıdır. |
-   | **End** | Döşemenin bitiş tarihi ve saati kullanılabilir olmalıdır. |
+   | **Açık kaydı izleme** | Bu plan türü için açık kayıt ilerlemesini izlemek üzere bu seçeneği belirleyin. Örneğin, **Plan türü = Diğer** şeklinde oluşturulmuş planlar olabilir. Bunlar, kayıt ilerleme durumunu izlemek istemediğiniz isteğe bağlı planlar olabilir. Bu plan türünü seçmezseniz **Açık kayıt** sekmesinde kayıt ilerleme durumu veya kayıt tamamlaması izlendiğinde bu tür bir plan yoksayılır. Bu ayar, tüm dönemler ve tüzel kişilikler için seçilen plan türü için geçerlidir. |
 
 4. **Kaydet**'i seçin.
 
@@ -56,19 +53,16 @@ Microsoft Dynamics 365 Human Resources uygulamasında, **Personel self servisi**
 
 2. **Esnek kredi planı kutucuk kurulumu** sekmesini seçin ve sonra **yeni**'yi seçin.
 
-3. Aşağıdaki alanların değerleri belirtin:
+3. Aşağıdaki alanların değerleri belirtin.
 
    | Alan | Tanım |
    | --- | --- |
+   | **Kazanç kredisi kodu** | Bu kutucuk **Yan haklar self servisi**'nde seçildiğinde görüntülenecek esnek kredi programı planları. |
    | **Kutucuk kodu** | Kutucuk için benzersiz tanımlayıcı. |
-   | **Kutucuk etiketi metni** | **Personel self servisi** bölümünde kutucuk için görünecek metin. |
-   | **Açıklama** | Kutucuğun bir açıklaması. |
-   | **Internet adresi** | **Personel self servisi** sayfasının URL'sini girin. |
-   | **Kutucuk boyutu** | Döşemenin boyutu: küçük, orta veya büyük. |
-   | **Hedef** | Sayfanın yeni bir pencerede mi yoksa geçerli pencerede mi açılacağını belirtir. |
+   | **Kutucuk etiketi metni** | **Yan haklar self servisinde** kutucuk için görüntülenecek metin. |
+   | **Tanım** | Kutucuğun bir açıklaması. |
    | **Kutucuk arka plan görüntüsü** | Kutucuk için kullanılacak görüntünün URL'si (isteğe bağlı). |
-   | **Başlangıç** | Döşemenin başlangıç tarihi ve saati kullanılabilir olmalıdır. |
-   | **End** | Döşemenin bitiş tarihi ve saati kullanılabilir olmalıdır. |
+   | **Açık kaydı izleme** | Bu plan türü için açık kayıt ilerlemesini izlemek üzere bu seçeneği belirleyin. Örneğin, **Plan türü = Diğer** şeklinde oluşturulmuş planlar olabilir. Bunlar, kayıt ilerleme durumunu izlemek istemediğiniz isteğe bağlı planlar olabilir. Bu plan türünü seçmezseniz **Açık kayıt** sekmesinde kayıt ilerleme durumu veya kayıt tamamlaması izlendiğinde bu tür bir plan yoksayılır. Bu ayar, tüm dönemler ve tüzel kişilikler için seçilen plan türü için geçerlidir. |
 
 4. **Kaydet**'i seçin.
 

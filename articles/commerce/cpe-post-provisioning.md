@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce değerlendirme ortamı yapılandırma
 description: Bu konu, sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamının nasıl yapılandırılacağını açıklamaktadır.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416491"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913739"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı yapılandırma
 
@@ -39,6 +39,7 @@ Commerce değerlendirme ortamınız sona kadar sağlanmış olduktan sonra, orta
 1. Listeden ortamınızı seçin.
 1. Sağdaki ortam bilgilerinde **Ortamda oturum aç**'a tıklayın. Commerce Headquarters'a gönderilirsiniz.
 1. Sağ üst köşede **USRT** hukuk varlığının seçildiğinden emin olun.
+2. **Commerce parametreleri > Konfigürasyon parametreleri** bölümüne gidin ve "**roductSearch.UseAzureSearch** için **doğru** olarak ayarlanmış bir giriş olduğundan emin olun. Bu giriş eksikse e-ticaret web siteniz ile ilişkilendirilmiş Commerce Scale Unit için bu girişi ekleyebilir ve **Kanal Vertabanı > Tam Eşitleme**'yi çalıştırabilirsiniz.
 
 Commerce Headquarters'daki sağlama sonrası etkinlikler sırasında, **USRT** yasal varlığının her zaman seçili olduğundan emin olun.
 
@@ -105,6 +106,12 @@ Commerce'de işleri etkinleştirmek için şu adımları izleyin:
     1. Etkin kaydı seçin.
     1. Eylem Bölmesi'nde **Toplu iş**'te **Durumu değiştir**'i tıklayın.
     1. **İptal ediliyor**'u ve ardından **Tamam**'ı seçin.
+
+1. İşin durumu **Durduruldu** ise aşağıdaki adımları gerçekleştirin:
+
+    1. Etkin kaydı seçin.
+    1. Eylem Bölmesi'nde **Toplu iş**'te **Durumu değiştir**'i tıklayın.
+    1. **Bekliyor**'u seçin ve sonra **Tamam**'i seçin.
 
 İsteğe bağlı olarak, yineleme aralığını aşağıdaki işler için bir (1) dakikaya ayarlayabilirsiniz:
 

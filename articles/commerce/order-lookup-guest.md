@@ -2,7 +2,7 @@
 title: Konuk ödemeleri için sipariş aramayı etkinleştirme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te konuk ödemeleri için sipariş aramanın nasıl etkinleştirileceği açıklanmaktadır.
 author: stuharg
-ms.date: 09/01/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674988"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891512"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Konuk ödemeleri için sipariş aramayı etkinleştirme
 
@@ -58,11 +58,21 @@ Commerce genel merkezindeki **Müşteri siparişleri** sayfasında **Sipariş ar
 > [!NOTE]
 > Bu seçenekler, müşterinin adresi ve müşterinin kredi kartı numarasının son dört basamağı gibi kişisel verilerin anonim konuk kullanıcılara ne zaman gösterileceğini belirler. Kayıtlı müşterilerin gizliliğinin korunmasına yardımcı olmak için **Yalnızca konuk siparişleri** seçeneğini belirlemenizi öneririz. Ancak en güvenli seçenek **Hiçbir Zaman**'dır.
 
-**Konuk siparişi aramasına kişisel verileri dahil et** alanının değerini değiştirdikten sonra, Commerce genel merkezinde **Retail ve Commerce \> Retail ve Commerce BT \> Dağıtım planı**'na giderek 1070 (**Kanal yapılandırması**) işini çalıştırmalısınız.
+**Kişisel verileri konuk siparişi aramasına dahil et** alanının değerini değiştirdikten sonra, **Retail ve Commerce \> Retail ve Commerce BT \> Dağıtım planı**'na giderek Commerce Headquarters'da 1070 işini (**Kanal yapılandırması**) çalıştırmanız gerekir.
 
 ## <a name="configure-the-order-lookup-module"></a>Sipariş arama modülünü yapılandırma
 
 Commerce modülü kitaplığındaki sipariş arama modülü, konuk kullanıcıların siparişleri aramak için kullandıkları formu oluşturmak için kullanılır. Sipariş arama modülü, müşterinin oturum açmasını gerektirmeyen herhangi bir sayfanın gövde yuvasına dahil edilebilir. Modülün nasıl yapılandırılacağı hakkında bilgi için bkz. [Sipariş arama modülü](order-lookup-module.md).
+
+## <a name="configure-the-order-details-page"></a>Sipariş ayrıntıları sayfasını yapılandırma
+
+Konuk kullanıcıların sipariş ayrıntılarını görüntüleyebilmeleri için e-ticaret sitenizdeki sipariş ayrıntıları sayfasının oturum açmayı gerektirmeyen şekilde yapılandırılması gerekir. Sipariş ayrıntıları sayfanızın oturum açma gereksinimini kapatmak için sayfayı Commerce site oluşturucusunda açın, ağaç görünümünde **Varsayılan sayfa (gerekli)** yuvasını seçin ve sağdaki özellikler bölmesinin altındaki **Oturum açmayı gerektir?** onay kutusunun işaretini kaldırın.
+
+## <a name="add-a-link-to-order-details-in-transactional-emails"></a>İşlem e-postalarındaki sipariş ayrıntılarına bağlantı ekleme
+
+Siparişle ilgili e-postalarda, müşterileri sipariş bilgileri sayfasına götüren bir bağlantı veya düğme sağlayabilirsiniz. Bu bağlantıyı veya düğmeyi eklemek için e-ticaret sitenizdeki sipariş ayrıntıları sayfasına işaret eden bir HTML köprüsü oluşturun ve aşağıdaki örnekte gösterildiği gibi sipariş onay kimliği ve müşterinin e-posta adresini URL parametreleri olarak geçirin.
+
+`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

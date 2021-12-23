@@ -2,7 +2,7 @@
 title: Hareket olayları için e-posta şablonları oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce uygulamasındaki hareket olayları için e-posta şablonlarının nasıl oluşturulacağı, yükleneceği ve yapılandırılacağı açıklanmaktadır.
 author: bicyclingfool
-ms.date: 10/26/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 69ba8821cde6788d6e0accb37288f92acdfc776c
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 25d7fcb803645f50ee4f5c608f5b6e789dfe3c31
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713810"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913764"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Hareket olayları için e-posta şablonları oluşturma
 
@@ -136,7 +136,7 @@ B2B adayı onaylandı bildirim türü aşağıdaki ek yer tutucuları destekler.
 | `storename`        | Adayın oluşturulduğu kanalın adı. |
 | `storeurl`         | Varsayılan olarak boştur. Bu yer tutucuyu kullanmak için özel bir uzantı oluşturulmalıdır. |
 
-### <a name="b2b-prospect-approved"></a>B2B aday müşterisi onaylandı
+### <a name="b2b-prospect-rejected"></a>B2B aday müşterisi reddedildi
 
 *B2B aday müşteri reddedildi* bildirimi türü, müşteri adayının ekleme talebi Commerce Headquarters'ta reddedildiğinde tetiklenir. B2B aday bilgilerini onaylama veya reddetme hakkında daha fazla bilgi için, bkz. [Yeni bir iş ortağı için yönetici kullanıcıyı ayarlama](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
 

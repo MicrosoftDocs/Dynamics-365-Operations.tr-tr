@@ -2,7 +2,7 @@
 title: Sabit kıymet amortismanı
 description: Bu konuda Sabit kıymetlerin amortismanına genel bir bakış sunulmuştur.
 author: moaamer
-ms.date: 10/30/2017
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,25 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54da35a39791a9e528896f3decd10476ad5af2d9
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675012"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890992"
 ---
 # <a name="fixed-asset-depreciation"></a>Sabit kıymet amortismanı
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda Sabit kıymetlerin amortismanına genel bir bakış sunulmuştur.
 
 Amortisman, normalde sabit varlığın değerini bilançoda düşüren periyodik bir harekettir ve kâr-zarar hesabından bir masraf olarak düşülür. Bu nedenle ana hesap bilançoda genellikle periyodik amortismanı alacaklandırmak için kullanılır. Mahsup hesap, hesap planının kâr ve zarar bölümündeki bir hesaptır.
 
-## <a name="depreciation-adjustment"></a>Amortisman Düzeltmeleri
+Sürüm 10.0.24 itibarıyla **Defterler** sayfasındaki **Pozitif amortismanı hesapla** kıymet defteri yapılandırma seçeneği, negatif defter değeri (alacak) ile elde edilen sabit kıymetin borçlandırılmasını sağlar.
+
+## <a name="depreciation-adjustment"></a>Amortisman düzeltmesi
 Genellikle, yalnızca deftere nakledilmiş bir amortisman hareketine yönelik düzeltmeler bir amortisman düzeltmesi şeklinde deftere nakledilir. Bu nedenle ana hesap ve mahsup hesap tıpkı amortisman hesapları gibi ayarlanır. Amortisman düzeltmesi olumlu veya olumsuz bir tutar olabilir, ancak ana hesabın (bir bilanço hesabı olarak) ve mahsup hesabın (genellikle bir kar ve zarar hesabı olarak) işlevselliği aynı kalır.
 
 ## <a name="extraordinary-depreciation"></a>Olağandışı amortisman

@@ -1,22 +1,22 @@
 ---
 title: Warehouse Management mobil uygulamasında tanıtılan alanların adımlarını yapılandırma
 description: Bu konuda, Warehouse Management mobil uygulaması için görev akışlarındaki addımlar için belirli bilgileri nasıl tanıtıp vurgulayacağınız açıklanır.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 392fc4d7e4f423b38e8394fa25d2e42de913bfc6
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 117730fd7b744e0462e10468e32a13203d0695bf
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860470"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901858"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasında tanıtılan alanların adımlarını yapılandırma
 

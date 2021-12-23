@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.23 önizlemesi
+title: Dynamics 365 Supply Chain Management 10.0.23 önizlemesi (Ocak 2022)
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.23'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777803"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891811"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Dynamics 365 Supply Chain Management 10.0.23 önizlemesi
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 önizlemesi (Ocak 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,12 +26,13 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 
 - **Sürüm önizlemesi:** Ekim 2021
 - **Sürüm genel kullanılabilirliği (kendi kendini güncelleştirme):** Aralık 2021
+- **Sürüm genel kullanılabilirliği (otomatik güncelleştirme):** Ocak 2022
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
 Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. *Özellik* sütunu, her bir özellik için resmi kullanıma sunma tarihlerini görebileceğiniz [kullanıma sunma planına](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantılar sağlar. *Ek bilgi* sütunu, ilgili belgelerin diğer ayrıntılrını ve/veya bağlantılarını sağlar. Özelliğin nasıl açılacağını belirlemek için *Etkinleştiren* sütununa bakın. Özellik yönetimini kullanma hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Bu konu ilk kez yayımlandıktan sonra derlemeye eklenen özellikleri dahil etmek için bu konuya güncelleştirmeler uygulayabiliriz.
 
-| Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren   |
+| Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
 | Genel adres defteri | Adres kurulumundaki her ülke/bölge için varsayılan il/bölge tanımlama | Artık, global adres defteri için adres kurulumundaki her bir ülke/bölge için varsayılan bir il/bölge tanımlayabilirsiniz. Varsayılan il/bölge ayarlandığında, o ülke/bölge için yeni bir ilçe veya şehir kaydı oluşturduğunuzda, bu değer il/bölge alanlarında girilen varsayılan değerdir. Ayrıca bkz. [Adres kurulumu](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | Varsayılan olarak etkinleştirilir. |
 | Stok&nbsp;ve&nbsp;lojistik | [Warehouse Management mobil uygulamasında görevleri durdurma](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Mobil cihaz menü öğelerindeki adımlar için sapmaları yapılandırma](../warehousing/warehouse-app-detours.md) | Özellik yönetimi (*Warehouse Management uygulama sapmaları*) |
@@ -53,7 +54,8 @@ Bu özelliklerden herhangi birini etkinleştirmek veya devre dışı bırakmak i
 | Stok ve ambar yönetimi | \[Rusya\] Satış siparişleri için mali fişteki düzeltme bayrağına göre Storno mali stok hareketlerini deftere naklet | Bu özellik, Rusya için kredi notu düzeltmeleri işlevini etkiler. Genel muhasebedeki düzeltme seçeneğine göre satış faturalarına ait stok hareketlerinin deftere nakledilmesini sağlar. Bu özellik etkinleştirildiğinde, stok hareketinin mali fişindeki **Düzeltme** işareti ve stok hareketlerinde **Storno** işareti arasında başka tutarsızlık yoktur. |
 | Stok ve ambar yönetimi | (Rusya) Stok bakiyesi ciro raporu hesaplamasını toplu olarak çalıştır | Supply Chain Management'ın Rus yerelleştirmeleri için bu özellik, *Stok bakiyesi ciro* raporunu toplu iş içinde çalıştırma, depolama ve daha önce oluşturulan raporları görüntüleme olanağı sağlar. |
 | Stok ve ambar yönetimi | (Rusya) Stok yönetiminde ülkeye veya bölgeye özgü birincil formlarda yerel dildeki çevirileri kullan | Supply Chain Management'ın Rus yerelleştirmeleri için bu özellik Rusya'ya özgü şu stok belgesi çıktılarında ürün/madde adları ve ölçü birimleri için Rusça çevirilerin kullanılmasını sağlar: Sayım listesi (INV-3), Sayım listesi (INV-5) ve Sayım listesi (INV-6). |
-| Tedarik ve kaynak atama | Satın alma siparişi güncelleştirme geçmişini temizle | Bu özellik, satınalma siparişi güncelleştirmeleri ile ilgili geçici geçmiş kayıtları temizlemenizi sağlar. **Tüm satınalma siparişleri** sayfasındaki eylem bölmesine **Satınalma güncelleştirme geçmişini temizle** adı verilen yeni bir düğme ekler. Varsayılan olarak bu özellik etkindir. |
+| Master planlama | Talep tahmini için Azure Machine Learning Hizmeti | Bu özellik, Azure Machine Learning Hizmeti'nin tarihsel verilere dayalı olarak talep tahminleri oluşturmasına olanak tanır. Daha fazla bilgi için bkz. [Talep tahmini kurulumu](../master-planning/demand-forecasting-setup.md). |
+| Tedarik ve kaynak atama | Satınalma siparişi güncelleştirme geçmişini temizle | Bu özellik, satınalma siparişi güncelleştirmeleri ile ilgili geçici geçmiş kayıtları temizlemenizi sağlar. **Tüm satınalma siparişleri** sayfasındaki eylem bölmesine **Satınalma güncelleştirme geçmişini temizle** adı verilen yeni bir düğme ekler. Varsayılan olarak bu özellik etkindir. |
 | Üretim denetimi | (Önizleme) Otomatik olarak deftere nakledilen malzeme çekme listeleri için ambarın etkinleştirildiği malzemeleri otomatik çekme | Bu özellik, otomatik olarak deftere nakledilen, türetilen ve geriye dönük malzeme çekme listesi günlükleri için stok boyutlarını otomatik olarak çekmenize ve çözümlemenize olanak tanır. |
 | Üretim denetimi | Planlanan tüketim tarihine göre hammadde son tarihlerini doğrula | Bu özellik, üretim sırasında kullanılmak üzere toplu iş hariç bir madde rezerve edildiğinde toplu sona erme tarihlerinin nasıl doğrulanacağını değiştirir. Bu özellik etkinleştirildiğinde, toplu iş sona erme tarihi, üretim ürün reçetesi satırında veya toplu iş emri formülü satırında belirlendiği şekilde planlanan tüketim tarihine (hammadde tarihi) göre doğrulanır. Bu özellik devre dışı bırakıldığında toplu iş sona erme tarihi, üretim emri veya toplu iş emrinin planlanan teslim tarihine (daha önce) göre doğrulanır. |
 | Satış ve pazarlama | Yaşına göre satış güncelleştirme geçmişini temizle | Bu özellik, **Satış güncelleştirme geçmişi temizliği** periyodik görevini çalıştırırken tutulacak maksimum kayıt yaş kaydını ayarlamanızı sağlar. Eski kayıtlar silinecek. Bu, geçerlilik süresi her zaman görevin çalıştırıldığı tarihe göre hesaplandığı için, görevi belirli aralıklarla çalışacak şekilde ayarladığınızda yararlıdır. Bu özellik olmadan, yalnızca tutulacak en eski kayıtlar için belirli bir tarih ayarlayabilirsiniz. |
