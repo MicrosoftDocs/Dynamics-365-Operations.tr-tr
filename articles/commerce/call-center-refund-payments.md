@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 93eff7a54f9d3851c59b83a28d3aa61a8de7bc41f2a845be21c8bf4d1c6401d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731043"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944725"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Çağrı merkezlerinde iade ödemelerini işleme
 
@@ -33,11 +33,14 @@ Microsoft Dynamics 365 Commerce Headquarters'da çağrı merkezi kullanıcısı 
 
 Çağrı merkezi, iade siparişine uygulanması gereken ödeme yöntemini belirlemek için orijinal siparişin ödeme yöntemini kullanır. Bu işlem aşağıdaki orijinal ödeme yöntemleri için şu şekilde çalışır:
 
-- **Normal** (nakit) veya **Çek**: Oluşturulan bir iade siparişi, normal (nakit) veya çek ödeme türü kullanılarak ödenen orijinal bir siparişe başvuruyorsa, çağrı merkezi uygulaması **Çağrı merkezi iade yöntemleri** sayfasındaki yapılandırmalara başvurur. Bu sayfa, kuruluşların sipariş para birimine göre, normal veya çek ödeme türü kullanılarak başlangıçta ödenen siparişler için müşterilere nasıl iade yapılacağını tanımlamasını sağlar. **Çağrı merkezi iade yöntemleri** sayfası, kuruluşların müşteriye sistem tarafından oluşturulan bir iade çeki gönderilip gönderilmeyeceğini veya dahili müşteri hesabı bakiyesine karşılık bir müşteri hesabı kredisi oluşturulup oluşturulmayacağını seçmelerini de sağlar. Bu senaryolarda, çağrı merkezi mantığı iade siparişinin para birimine başvurur ve iade satış siparişinde bir iade satırı oluşturmak için bu para biriminin **Perakende ödeme yöntemi** değerini kullanır. Daha sonra, eşlenen AR ödeme yöntemini kullanan bir alacak hesapları (AR) müşteri ödeme günlüğü para birimine bağlanır.
+- **Normal** (nakit) veya **Çek**: Oluşturulan bir iade siparişi, normal (nakit) veya çek ödeme türü kullanılarak ödenen orijinal bir siparişe başvuruyorsa, çağrı merkezi uygulaması **Çağrı merkezi iade yöntemleri** sayfasındaki yapılandırmalara başvurur. Bu sayfa, kuruluşların sipariş para birimine göre, normal veya çek ödeme türü kullanılarak başlangıçta ödenen siparişler için müşterilere nasıl iade yapılacağını tanımlamasını sağlar. **Çağrı merkezi iade yöntemleri** sayfası, kuruluşların sistem tarafından oluşturulan bir iade çekinin müşteriye gönderilip gönderilmeyeceğini seçmesine olanak tanır. Bu senaryolarda, çağrı merkezi mantığı iade siparişinin para birimine başvurur ve iade satış siparişinde bir iade satırı oluşturmak için bu para biriminin **Perakende ödeme yöntemi** değerini kullanır. Daha sonra, eşlenen AR ödeme yöntemini kullanan bir alacak hesapları (AR) müşteri ödeme günlüğü para birimine bağlanır.
 
     Aşağıdaki resimde, müşterinin USD para birimine bağlı bir satış siparişinden ürünleri iade ettiği ve başlangıçta normal veya çek ödeme türü kullanılarak ödendiği bir senaryonun yapılandırması gösterilmektedir. Bu senaryoda, sistem tarafından oluşturulan bir iade çeki aracılığıyla müşteriye iade yapılacaktır. **REF-CHK** AR ödeme yöntemi, iade çeki ödeme türü olarak yapılandırılmıştır.
 
     ![Normal ve orijinal ödemeleri denetlemek için çağrı merkezi iade yöntemlerini yapılandırma.](media/callcenterrefundmethods.png)
+
+    > [!NOTE]
+    > Müşteri hesabı, nakit veya çek ödemeleri için desteklenen bir iade yöntemi değildir.
 
 - **Kredi kartı**: Oluşturulan bir iade siparişi, kredi kartı kullanılarak ödenen orijinal bir siparişe başvurduğunda, iade ödemeleri için çağrı merkezi mantığı iade siparişine aynı orijinal kredi kartını uygular.
 - **Bağlılık programı kartı**: Oluşturulan bir iade siparişi, müşteri bağlılık kartı kullanılarak ödenen orijinal bir siparişe başvurduğunda, iade ödemeleri için çağrı merkezi mantığı para iadesini aynı bağlılık programı kartına uygular.

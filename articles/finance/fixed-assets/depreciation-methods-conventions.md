@@ -2,7 +2,7 @@
 title: Amortisman yöntemleri
 description: Bu makalede, Microsoft Dynamics 365 Finance tarafından desteklenen amortisman kurallarına ve amortisman yöntemlerine bir genel bakış sunulmuştur.
 author: moaamer
-ms.date: 04/25/2017
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6abf98b4c1eee3657960a1912445171acc0686a
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 3f0f3b8be86225fd68df9b099e5c8e13a220a213
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674538"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927441"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Amortisman yöntemleri ve kuralları
 
@@ -46,7 +46,7 @@ Aşağıdaki amortisman kurallarından birini seçebilirsiniz:
 -   Yarı yıl (sonraki yıl)
 
 Aşağıdaki amortisman yöntemlerinden birini seçebilirsiniz.
--   Straight0-line servis ömrü
+-   Sabit servis ömrü
 -   Azalan bakiye
 -   El ile
 -   Faktör

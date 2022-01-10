@@ -2,7 +2,7 @@
 title: Kredi yönetimi parametreleri kurulumu
 description: Bu konuda, işletmenizin Kredi yönetimini işletmenizin gereksinimlerini karşılayacak şekilde yapılandırmak için kullanabileceğiniz seçenekler açıklanmaktadır.
 author: JodiChristiansen
-ms.date: 08/03/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 768fb5121ae6be513c4a533a20027cf784640b2a
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753477"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921227"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredi yönetimi parametreleri kurulumu
 
@@ -31,7 +31,7 @@ Kredi yönetimini denetleyen parametreleri değiştirebileceğiniz **Kredi** bö
 
 ### <a name="credit-holds"></a>Alacak tutmalar
 
-- Satış siparişi bekletme listesinden serbest bırakıldıktan sonra satış siparişi değeri (genişletilmiş fiyat) arttığı zaman deftere nakil kurallarının yeniden denetlenmesini zorunlu kılmak için **Bekletilen sipariş serbest bırakıldıktan sonra satış siparişi değerinin düzenlemesine izin ver** seçeneğini **Hayır** olarak ayarlayın. .
+- Satış siparişi bekletme listesinden serbest bırakıldıktan sonra satış siparişi değeri (genişletilmiş fiyat) arttığı zaman deftere nakil kurallarının yeniden denetlenmesini zorunlu kılmak için **Bekletilen sipariş serbest bırakıldıktan sonra satış siparişi değerinin düzenlemesine izin ver** seçeneğini **Hayır** olarak ayarlayın.
 - **İptal edilen siparişlerin nedenleri** alanında, bir satış siparişinin kredi yönetimi bekletme işlemi iptal edildiğinde varsayılan olarak kullanılacak serbest bırakma nedenini seçin.
 - Bir satış siparişindeki müşteri bir müşteri kredi grubuna dahil olduğu zaman müşteri kredi grubunun kredi limitini denetlemek için **Müşteri kredi grubunun kredi limitini denetle** seçeneğini **Evet** olarak ayarlayın. Grubun kredi limiti kontrol edilir ve yeterliyse, müşterinin kredi limiti kontrol edilir.
 - Satış siparişindeki yeni ödeme koşullarının müşterinin varsayılan ödeme koşullarından farklı olup olmadığını belirlemek amacıyla ödeme koşulları derecelerini kontrol etmek için **Ödeme koşulları yükseldiği zaman kredi limitini denetle**'yi **Evet** olarak ayarlayın. Yeni ödeme koşullarının derecesi orijinal ödeme koşullarınınkinden daha yüksekse, sipariş, kredi yönetimi bekletme işlemine alınır.
@@ -72,6 +72,10 @@ Bazı deftere nakil denetim noktaları için mehil gün sayısı belirtebilirken
 
 - Kredi yönetiminde, müşteri kredi limiti müşterinin para birimiyle gösterilir. Müşterinin para biriminde kredi limiti için döviz kuru türünü tanımlamanız gerekir. **Kredi limiti döviz kuru türü** alanında, birincil kredi limitini müşterinin kredi limitine dönüştürmek için kullanılması gereken döviz kuru türünü seçin.
 - Kullanıcıların kredi limitlerini **Müşteri** sayfasında düzenlemelerini engellemek için **Kredi limitlerinin el ile düzenlenmesine izin ver** seçeneğini **Hayır** yapın. Bu seçenek **Hayır** olarak ayarlanırsa, müşterinin kredi limitindeki değişiklikler yalnızca kredi limiti düzeltme hareketleriyle yapılabilir.
+- Kredi yönetimi engelleme kuralları işaretlendiğinde stok rezervasyonlarını göz ardı etmek için **Stok rezervasyonlarını atla** seçeneğini **Evet** olarak ayarlayın. Bu durumda sistem, stok rezervasyon miktarından bağımsız olarak satır miktarlarının tamamını denetler ve denetim noktası mehil sürelerini etkinleştirir.
+- Kredi yönetimi etkinleştirildiğinde, **Kredi limiti aşıldığında ileti** alanının ayarı yalnızca serbest metin faturalarını işlemek için kullanılır. Müşteriler kredi limitini aştığında iletiler yine de satış siparişlerine eklense de bu iletilerin varlığı, malzeme çekme listeleri ile sevk irsaliyelerinin onaylanıp yazdırılmasını veya faturaların deftere nakledilmesini engellemez.
+
+    Kredi yönetimi varsayılan olarak etkindir, ancak bunu devre dışı bırakabilirsiniz. Etkinleştirildiğinde, müşterilerin kredi limitini ne zaman aştığını belirlemek için kredi yönetimi engelleme kurallarını ve denetim noktalarını kullanırsınız. Devre dışı bırakılmışsa, **Kredi limiti aşıldığında ileti** alanının ayarına bağlı olarak satış siparişlerine eklenen iletiler, müşterilerin kredi limitini ne zaman aştığını belirlemenize yardımcı olabilir.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numara serileri ve paylaşılan numara serisi parametreleri
 

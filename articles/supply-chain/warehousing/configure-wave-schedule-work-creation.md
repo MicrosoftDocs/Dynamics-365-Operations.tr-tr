@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778389"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920136"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Dalga sırasında iş oluşturmayı zamanlama
 
@@ -54,7 +54,7 @@ Varolan görev ve dalga işleme yapılandırmaları, son olarak dalgaları işle
 Gerekirse, aşağıdakileri yaparak, *kuruluş genelinde iş oluşturmayı planla dalga yöntemi* özelliğini etkinleştirdiğinizde otomatik olarak yapılan ayarların herhangi birini veya tümünü el ile geri alabilirsiniz:
 
 - Dalga şablonları için **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin. *İş oluşturmayı planla* yöntemini, *İş oluştur* ile değiştirin.
-- Ambar parametreleri için **Ambar yönetimi\>Kurulum \> Ambar yönetim parametreleri**'ne gidin. **Dalga işleme** sekmesinde, **dalgaları toplu işle** ve **kilidi bekle (ms)** için tercih ettiğiniz değerleri uygulayın.
+- Ambar parametreleri için **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri**'ne gidin. **Dalga işleme** sekmesinde, **dalgaları toplu işle** ve **kilidi bekle (ms)** için tercih ettiğiniz değerleri uygulayın.
 - Dalga yöntemleri için **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri**'ne gidin. `WHSScheduleWorkCreationWaveStepMethod` öğesini seçin ve Eylem Panosundan **Görev Yapılandırması**'nı seçin. Listelenen her ambar için toplu iş görevlerini ve atanan dalga grubu sayısını gerektiği gibi değiştirin veya silin.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Planlanan iş oluşturmayı elle yapılandırma
@@ -65,7 +65,7 @@ Gerekirse, aşağıdakileri yaparak, *kuruluş genelinde iş oluşturmayı planl
 
 Ambar işi oluştururken paralel zaman uyumsuz yöntemden yararlanmak için dalga işleminizin toplu iş olarak çalışıyor olması gerekir. Bunu ayarlamak için:
 
-1.  **Ambar yönetimi \> Kurulum \> Ambar yönetimi parametreleri**'ne gidin.
+1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri**'ne gidin.
 1. **Genel** sekmesinde, **Dalgaları toplu iş halinde işle** seçeneğini *Evet* olarak ayarlayın. İsteğe bağlı olarak, toplu iş kuyruğu işlemenin diğer işlemlerle aynı anda çalışmasını önlemek için özel bir **Dalga işleme toplu iş grubu** da seçebilirsiniz.
 1. Sistem, aynı anda birden fazla dalga işlerken geçerli olan **Kilit süresini bekle (ms)** özelliğini de ayarlayabilirsiniz. Daha uzun dalga işlemleri için *60000* değerini öneririz.
 
@@ -73,8 +73,8 @@ Ambar işi oluştururken paralel zaman uyumsuz yöntemden yararlanmak için dalg
 
 Yeni dalga adımı yöntemini oluşturarak ve bu yöntemi paralel zaman uyumsuz görev işleme için etkinleştirerek başlayın.
 
-1.  **Ambar yönetimi \>Kurulum \> Dalgalar \> Dalga işleme yöntemleri**'ne gidin.
-1.  **Yöntemi yeniden oluştur**'u seçin; *WHSScheduleWorkCreationWaveStepMethod* yönteminin sevkiyat dalga şablonlarınızda kullanabileceğiniz dalga işleme yöntemleri listesine eklendiğini görürsünüz.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri**'ne gidin.
+1. **Yöntemi yeniden oluştur**'u seçin ve *WHSScheduleWorkCreationWaveStepMethod* yönteminin sevkiyat dalga şablonlarınızda kullanabileceğiniz dalga işleme yöntemleri listesine eklendiğini unutmayın.
 1. *WHSScheduleWorkCreationWaveStepMethod* **Yöntem adı**'na sahip kaydı seçin ve **Görev yapılandırması**'nı seçin.
 1. Izgaraya yeni satır eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve aşağıdaki ayarları kullanın:
 
@@ -84,7 +84,7 @@ Yeni dalga adımı yöntemini oluşturarak ve bu yöntemi paralel zaman uyumsuz 
 
 Şimdi, *İş oluşturmayı zamanla* dalga işleme yöntemini kullanmak için mevcut bir dalga şablonunu güncelleştirmeye hazırsınız (veya yeni bir tane oluşturabilirsiniz).
 
-1.  **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
 1. Eylem Bölmesinde, **Düzenle**'yi seçin.
 1. Liste bölmesinde, güncelleştirmek istediğiniz dalga şablonunu seçin (tanıtım verilerini kullanarak test ediyorsanız, *24 Sevkiyat varsayılan*'ı kullanabilirsiniz).
 1. **Yöntemler** hızlı sekmesini genişletin ve **Kalan yöntemler** ızgarasında *İş oluşturmayı zamanla* **Adı**'na sahip satırı seçin.

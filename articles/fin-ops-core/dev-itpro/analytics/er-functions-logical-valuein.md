@@ -2,7 +2,7 @@
 title: VALUEIN ER işlevi
 description: Bu konu, VALUEIN Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 08/18/2020
+ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f230b05cd88554d30106337ae3e3f684c958c76eaf8ad8eae0dceda53f0b6862
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: efa811df360b2ca38eb59bac849e70041405fa81
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729083"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922374"
 ---
 # <a name="valuein-er-function"></a>VALUEIN ER işlevi
 
@@ -62,6 +62,9 @@ Genel olarak, `VALUEIN` işlevi bir dizi **OR** koşuluna çevrilir. **OR** koş
 ```
 
 Bazı durumlarda, bu `EXISTS JOIN` işleci kullanılarak veritabanı SQL deyimine çevrilebilir.
+
+> [!NOTE]
+> `VALUEIN` işlevinin döndürdüğü değer, bu işlevin [`FILTER`](er-functions-list-filter.md) işlevinin mi yoksa [`WHERE`](er-functions-list-where.md) işlevinin mi seçim ölçütünü belirtmek için kullanıldığına bağlı olarak [farklı şekilde kullanılır](er-functions-list-filter.md#usage-notes).
 
 ## <a name="example-1"></a>Örnek 1
 

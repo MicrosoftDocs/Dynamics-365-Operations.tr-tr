@@ -1,8 +1,8 @@
 ---
 title: Veritabanı günlüğü yapılandırma ve yönetme
 description: Veritabanı günlükleri ile Dynamics 365 Human Resources'taki tablo ve alanlardaki değişiklikleri izleyebilirsiniz.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781669"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924832"
 ---
 # <a name="configure-and-manage-database-logging"></a>Veritabanı günlüğü yapılandırma ve yönetme
 
@@ -93,14 +93,14 @@ Veritabanı günlüklerinin tümünü veya bir bölümünü aşağıdaki seçene
 Veritabanı günlüğü temizleme işlemi ayarlamak için aşağıdaki adımları izleyin: 
 
 1. **Sistem yönetimi > Bağlantılar > Veritabanı > Veritabanı günlükleri**'ne gidin. **Günlüğü temizle**'yi seçin.
-
-2. Aşağıdaki seçeneklerden birini girerek, günlükleri silmek üzere seçebileceğiniz bir yöntem seçin:
+2. **Eklenecek kayıtlar** üst bilgisinde **Filtrele**'yi seçin.
+3. Silinecek günlükleri seçmek için kullanılacak yöntemi seçin. Aşağıdaki seçeneklerden birini girin:
 
    - Tablo ID
    - Günlük türü
-   - Oluşturma tarihi ve saati
+   - Oluşturulma tarihi ve saati
 
-3. Günlük temizleme görevinin ne zaman çalıştırılacağını belirlemek için **Veritabanı günlüklerini temizleme** sekmesini kullanın. Varsayılan olarak, veritabanı günlükleri 30 gün süreyle kullanılabilir.
+4. Günlük temizleme görevinin ne zaman çalıştırılacağını belirlemek için **Veritabanı günlüklerini temizleme** sekmesini kullanın. Varsayılan olarak, veritabanı günlükleri 30 gün süreyle kullanılabilir.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

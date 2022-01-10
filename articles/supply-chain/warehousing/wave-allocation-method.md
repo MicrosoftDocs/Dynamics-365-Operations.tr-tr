@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fd874f3c6c1f4d25b3257d6465686dcb8e95b933
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576028"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920610"
 ---
 # <a name="wave-allocation"></a>Dalga tahsisatı
 
@@ -77,7 +77,7 @@ Paralel tahsisat işleme, dalganın toplu işlenmesini gerektirir. Bu nedenle, �
 
 Gerekirse, *Dalga Yöntemi tahsisi için dalga paralelizasyonu* özelliği örneğiniz için otomatik olarak etkinleştirildiğinde varsayılan olarak yapılan ayarların her birini geri alabilirsiniz. Bunun için:
 
-- **Ambar yönetimi\>Kurulum \> Ambar yönetim parametreleri**'ne gidin. **Dalga işleme** sekmesinde, **dalgaları toplu işle** ve **kilidi bekle (ms)** için tercih ettiğiniz değerleri uygulayın.
+- **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri**'ne gidin. **Dalga işleme** sekmesinde, **dalgaları toplu işle** ve **kilidi bekle (ms)** için tercih ettiğiniz değerleri uygulayın.
 - **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri**'ne gidin. `allocateWave` yöntemini seçin. Eylem bölmesinde, yöntemin paralel çalışacak şekilde ayarlandığı her ambarı listeleyen bir sayfa açmak için **görev yapılandırmasını** seçin. Listelenen her ambar için toplu iş görevlerini ve atanan dalga grubu sayısını gerektiği gibi değiştirin veya silin.
 
 ## <a name="troubleshooting"></a>Sorun Giderme

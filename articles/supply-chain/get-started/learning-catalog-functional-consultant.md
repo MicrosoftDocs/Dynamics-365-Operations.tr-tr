@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7271436bd155918dfdac792486c89966e7adb18c
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a028de4bd37b965d55783dad4b39378d6400bf4b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402654"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920760"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Dynamics 365 Supply Chain Management işlevsel danışmanları için Öğrenme Kataloğu
 
@@ -113,7 +113,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Dynamics 365 Supply Chain Management için Varlık Yönetimini yapılandırma](/learn/paths/configure-asset-management-dyn365-supply-chain-mgmt/) | Varlık Yönetimi, şirketinizin günlük operasyonlarında kullanılan varlıkları yönetmek için kullanılan bir Dynamics 365 Supply Chain Management eklentisidir. Bu varlık türlerine bazı örnekler makine, üretim ekipmanı ve forkliftlerdir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 7 saat |
 | [Dynamics 365 Supply Chain Management için Varlık Yönetimi ile çalışma](/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | Varlık Yönetimi, şirketinizin günlük operasyonlarında kullanılan varlıkları yönetmek için kullanılan bir Dynamics 365 Supply Chain Management eklentisidir. Bu varlık türlerine bazı örnekler makine, üretim ekipmanı ve forkliftlerdir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 12.5 saat |
 | [Dynamics 365 Supply Chain Management'ta ürün sürümü bilgilerini yönetme](/learn/paths/manage-product-version-engineering-change-management/) | Dynamics 365 Supply Chain Management için Mühendislik Değişim Yönetimi Eklentisi, bir mühendislik ürününün yaşam döngüsü boyunca ürün sürümü bilgilerini yönetmek için yapılandırılmış bir süreç sunar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
-| [Dynamics 365 Supply Chain Management için mühendislik değişikliği yönetimini ayarlama](/learn/paths/set-up-engineering-change-management/) | Günümüzde üreticiler; sürekli kısalan ürün yaşam döngüleri, yüksek kalite ve güvenilirlik gereksinimleri ve ürün güvenliğine daha fazla önem vermeyi gerektiren koşullarda başarılı olmak için güçlü ürün veri yönetimi, sürüm denetimi ve mühendislik değişim yönetimine ihtiyaç duymaktadır. Bu öğrenme yolunda mühendislik değişim yönetiminin nasıl ayarlanacağı hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
+| [Dynamics 365 Supply Chain Management için mühendislik değişikliği yönetimini ayarlama](/learn/paths/set-up-engineering-change-management/) | Günümüzde üreticiler; ürün yaşam döngülerinin giderek daha da kısaldığı, kalite ve güvenilirlik gereksinimlerinin arttığı ve ürün güvenliğine daha da fazla yoğunlaşıldığı bir dünyada başarılı olmak için güçlü ürün veri yönetimi, sürüm denetimi ve mühendislik değişikliği yönetimine ihtiyaç duymaktadır. Bu öğrenme yolunda mühendislik değişim yönetiminin nasıl ayarlanacağı hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
 | [Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Supply Chain Management İşlev Danışmanı Çalışan](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Supply Chain Management İşlev Danışmanları; müşterileri için maliyet muhasebesi, stok yönetimi, ana planlama ve ambar yönetimini kolaylaştırır. | Maliyeti bölgeye göre değişkenlik gösteren sertifika | |
 
 ## <a name="exams"></a>Sınavlar<a name="exams"></a>

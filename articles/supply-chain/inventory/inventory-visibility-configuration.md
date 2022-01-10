@@ -2,7 +2,7 @@
 title: Stok Görünürlüğünü yapılandırma
 description: Bu konuda, Stok Görünürlüğü'nün nasıl yapılandırılacağını açıklanmaktadır.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678483"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920310"
 ---
 # <a name="configure-inventory-visibility"></a>Stok Görünürlüğünü yapılandırma
 
@@ -61,7 +61,7 @@ Yapılandırma tamamlandıktan sonra uygulamada **Yapılandırmayı Güncelleşt
 Her veri kaynağı, verilerinizin geldiği bir sistemi temsil eder. Örnek veri kaynağı adları arasında `fno` ("Dynamics 365 Finance and Operations uygulamaları" anlamına gelir) ve `pos` ("satış noktası" anlamına gelir) bulunmaktadır. Varsayılan olarak Supply Chain Management, Stok Görünürlüğü'nde varsayılan veri kaynağı (`fno`) olarak ayarlanır.
 
 > [!NOTE]
-> `fno` veri kaynağı, Dynamics 365 Supply Chain Management için rezerve edilmiştir.
+> `fno` veri kaynağı, Supply Chain Management için rezerve edilmiştir. Stok Görünürlüğü eklentiniz bir Supply Chain Management ortamıyla tümleşikse veri kaynağındaki `fno` ile ilgili yapılandırmaları silmemenizi öneririz.
 
 Veri kaynağı eklemek için şu adımları izleyin.
 
@@ -273,17 +273,17 @@ Bu hesaplama formülü kullanıldığında, yeni sorgu sonucu özelleştirilmiş
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Bölüm yapılandırma
 
-Bölüm yapılandırma, temel boyutların bir birleşiminden oluşur. Veri dağıtım modelini tanımlar. Aynı bölümdeki veri işlemleri yüksek performansı destekler ve çok fazla maliyeti yoktur. Bu nedenle, iyi bölüm modelleri önemli kazançlara katkıda bulunabilir.
-
-Stok Görünürlüğü aşağıdaki varsayılan bölüm yapılandırmasını sağlar.
+Şu anda bölüm yapılandırması, verilerin nasıl dağıtıldığını gösteren iki temel boyuttan (`SiteId` ve `LocationId`) oluşur. Aynı bölüm altındaki işlemler daha düşük maliyetle daha yüksek performans sağlayabilir. Aşağıdaki tabloda, Stok Görünürlüğü eklentisinin sağladığı varsayılan bölüm yapılandırması gösterilmiştir.
 
 | Temel boyut | Hiyerarşi |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> Varsayılan bölüm yapılandırması yalnızca referans içindir. Bunu Stok Görünürlüğü'nde tanımlamanız gerekmez. Şu anda bölüm yapılandırma yükseltmesi desteklenmemektedir.
+Çözüm varsayılan olarak bu bölüm yapılandırmasını içerir. Bu nedenle, *kendiniz tanımlamak zorunda değilsiniz*.
+
+> [!IMPORTANT]
+> Varsayılan bölüm yapılandırmasını özelleştirmeyin. Yapılandırmayı siler veya değiştirirseniz beklenmeyen bir hataya neden olabilirsiniz.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Ürün dizini hiyerarşisi yapılandırma
 
