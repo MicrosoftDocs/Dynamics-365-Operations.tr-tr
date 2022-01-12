@@ -2,7 +2,7 @@
 title: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
 description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890885"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943624"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -364,6 +364,22 @@ Sorunu aşağıdaki yöntemlerden biriyle girebilirsiniz:
     3. Değiştirilen ER biçimini çalıştırın.
 
         ![Excel masaüstü uygulamasında oluşturulan belgeyi gözden geçirin.](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>Sınırlamalar
+
+### <a name="known-epplus-library-limitations"></a>Bilinen EPPlus kitaplığı sınırlamaları
+
+#### <a name="external-data-sources"></a>Harici veri kaynakları
+
+Şablonlarınızdan biri, [harici veri kaynağına](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b) başvuran bir PowerPivot modeline dayanan PivotTable içeriyorsa ve **Elektronik raporlama çerçevesinde EPPlus kitaplığı kullanımını etkinleştir** özelliği etkinse, Excel biçiminde bir giden belge oluşturmak için söz konusu şablonu kullanan bir ER biçimi çalıştırdığınızda şu hata iletisini alırsınız: "The cachesource is not a worksheet." Bu sorunu gidermek için aşağıdaki seçenekleri kullanabilirsiniz:
+
+- **Önerilen:** Kullandığınız Excel çözümünü yeniden tasarlayın:
+
+    1. Ayrı bir Excel çalışma kitabında (çalışma kitabı A) pivotları içeren bölümü izole edin. 
+    2. Finance'ten gerekli ayrıntıların bulunduğu ikinci bir Excel çalışma kitabı (çalışma kitabı B) oluşturmak için ER'yi kullanın. 
+    3. Çalışma kitabı B oluşturulur oluşturulmaz, çalışma kitabı A'da çalışma kitabı B'ye başvurun.
+
+- Özelliği devre dışı bırakmak için EPPlus'tan farklı bir seçenek kullanın. 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

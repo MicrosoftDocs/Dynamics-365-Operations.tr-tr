@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 1b5742ddf7e5e2c5c32c446a0bde08f4964d6b95
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: f6402d7f9f433ca621c475bd62553529943dbe62
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891886"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920560"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24 önizlemesi (Şubat 2022)
 

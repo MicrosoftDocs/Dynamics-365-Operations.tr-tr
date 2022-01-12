@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
+ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 58b23058582c949a757ec5c141e218b36833ec21e72c35db89762017dc26ae19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752954"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927416"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Genel önizleme için Finance Insights (önizleme) sürüm 10.0.20 ve sonrası için yapılandırma
 

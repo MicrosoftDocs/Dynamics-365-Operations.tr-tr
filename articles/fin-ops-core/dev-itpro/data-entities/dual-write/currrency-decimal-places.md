@@ -2,19 +2,19 @@
 title: Çift yazma için para birimi veri türü geçişi
 description: Bu konu, çift yazmanın para birimi için desteklediği ondalık basamak sayısının nasıl değiştirileceğini açıklamaktadır.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782819"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917742"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Çift yazma için para birimi veri türü geçişi
 
@@ -83,9 +83,20 @@ Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için 
 
 ![Belirli bir yerel ayar için para birimi ayarları.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>tablolar: Para birimi sütunu
+### <a name="tables-currency-column"></a>Tablolar: Para birimi sütunu
 
 Belirli para birimi sütunları için yapılandırılabilecek ondalık basamak sayısı dört ile sınırlıdır.
 
+### <a name="default-currency-decimal-precision"></a>Varsayılan para birimi ondalık duyarlığı
+Geçiş senaryolarında ve geçiş dışı senaryolarda varsayılan para birimi ondalık duyarlığının beklenen davranışı için aşağıdaki tabloya bakın. 
+
+| Oluşturulma tarihi  | Para birimi ondalık alanı    | Mevcut kuruluş (Para birimi alanının geçişi yapılmadı) | Mevcut kuruluş (Para birimi alanının geçişi yapıldı) | Derleme 9.2.21062.00134 sonrası oluşturulan yeni kuruluş |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Derleme 9.2.21111.00146 öncesi oluşturulan para birimi alanı  |     |  |       |
+|    | Kullanıcı arabiriminde görünen maksimum duyarlık   | 4 basamak    | 10 basamak    | Yok    |
+| | Veritabanı ve DB sorgu sonuçları kullanıcı arabiriminde görünen maksimum duyarlık         | 4 basamak   | 10 basamak   | Yok    |
+| Derleme 9.2.21111.00146 sonrası oluşturulan para birimi alanı |    |  |     |   |
+|   | Kullanıcı arabiriminde görünen maksimum ondalık duyarlığı     | 4 basamak   | 10 basamak   | 10 basamak     |
+|          | Veritabanı ve DB sorgu sonuçları kullanıcı arabiriminde görünen maksimum ondalık duyarlığı | 10 basamak. Ancak yalnızca 4 tanesi önemli olup 4 ondalık basamak dışındaki tüm basamaklar sıfırdır. Bu, gerekirse kuruluşun daha basit ve hızlı şekilde geçirilmesini sağlar. | 10 basamak      | 10 basamak     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

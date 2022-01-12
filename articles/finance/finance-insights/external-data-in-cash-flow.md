@@ -1,8 +1,8 @@
 ---
-title: Nakit akışı tahminlerinde dış verileri kullanma
+title: Nakit akışı tahminlerinde dış veriler
 description: Bu konuda, dış verilerin nakit akışı tahminlerine girilebilmesi veya içeri aktarılması için tamamlamanız gereken kurulum adımları açıklanmıştır.
 author: rcarlson
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: dbfa04228cf63c0874a7d69af4e2b932544c0d7f
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 66b097b2936e61c619d45ad103440eddbb983feb
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753014"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945813"
 ---
-# <a name="use-external-data-in-cash-flow-forecasts"></a>Nakit akışı tahminlerinde dış verileri kullanma
+# <a name="external-data-in-cash-flow-forecasts"></a>Nakit akışı tahminlerinde dış veriler
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]

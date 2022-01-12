@@ -1,22 +1,22 @@
 ---
 title: Dalga sırasında dalga etiketi yazdırmayı zamanlama
 description: Bu konuda, görev tabanlı dalga etiketi yazdırma işlevselliğinin nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777877"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920161"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Dalga sırasında dalga etiketi yazdırmayı zamanlama
 
@@ -40,7 +40,7 @@ Bu konuda açıklanan özellikleri kullanmak için, bunların sisteminiz için e
 
 Öncelikler yeni dalga adımı yöntemini oluşturmanız ve bu yöntemi paralel zaman uyumsuz görev işleme için etkinleştirmeniz gerekir.
 
-1.  **Ambar yönetimi \>Kurulum \> Dalgalar \> Dalga işleme yöntemleri**'ne gidin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri**'ne gidin.
 1. Eylem bölmesinde, **Yöntemi yeniden oluştur**'u seçin. *waveLabelPrinting*'in sevkiyat dalga şablonlarınızda kullanabileceğiniz dalga işlemi yöntemleri listesine eklendiğine dikkat edin.
 1. **Yöntem adı** alanının *waveLabelPrinting* olarak ayarlandığı kaydı seçin ve sonra Eylem Bölmesi'nde **Görev yapılandırması**'nı seçin.
 1. Eylem bölmesinde, kılavuzuna satır eklemek için **Yeni**'yi seçin. Ardından yeni satırda aşağıdaki alanları ayarlayın:
@@ -51,7 +51,7 @@ Bu konuda açıklanan özellikleri kullanmak için, bunların sisteminiz için e
 
 Artık mevcut bir dalga şablonsunu, *Dalga etiketi yazdırma* dalgası işleme yöntemini kullanarak güncelleştirebilirsiniz. Alternatif olarak, onu kullanan yeni bir dalga şablonu oluşturabilirsiniz.
 
-1.  **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
 1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
 1. Liste bölmesinde, güncelleştirilecek dalga şablonunu seçin. (Demo verilerini test amacıyla kullanıyorsanız *24 Sevkiyat varsayılanı*'nı seçebilirsiniz.)
 1. **Yöntemler** hızlı sekmesinde bulunan **Kalan yöntemler** sütununda, **Ad** alanının *waveLabelPrinting* olarak ayarlandığı satırı seçin.

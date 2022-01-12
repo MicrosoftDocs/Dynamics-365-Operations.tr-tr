@@ -1,5 +1,5 @@
 ---
-title: Mühendislik değişikliği yönetimine genel bakış
+title: Mühendislik değişikliği yönetimine genel bakış (video içerir)
 description: Bu konuda, ürün sürümü oluşturma ve yönetme, ürün yaşam döngüleri ve mühendislik değişikliklerini yönetmenize yardımcı olan mühendislik değişikliği yönetimine genel bir bakış sağlanmaktadır.
 author: t-benebo
 ms.date: 08/26/2021
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 89a3eb584275e52910726ca5a9ed53f744f10b8d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574701"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937672"
 ---
 # <a name="engineering-change-management-overview"></a>Mühendislik değişikliği yönetimine genel bakış
 
@@ -26,9 +26,9 @@ ms.locfileid: "7574701"
 
 ## <a name="feature-summary"></a>Özellik özeti
 
-Günümüzde üreticiler; sürekli kısalan ürün yaşam döngüleri, yüksek kalite ve güvenilirlik gereksinimleri ve ürün güvenliğine daha fazla önem vermeyi gerektiren koşullarda başarılı olmak için güçlü ürün verileri yönetimi, sürüm denetimi ve mühendislik değişikliği yönetimine ihtiyaç duymaktadır.
+Günümüzde üreticiler; ürün yaşam döngülerinin giderek daha da kısaldığı, kalite ve güvenilirlik gereksinimlerinin arttığı ve ürün güvenliğine daha da fazla yoğunlaşıldığı bir dünyada başarılı olmak için güçlü ürün verileri yönetimi, sürüm denetimi ve mühendislik değişikliği yönetimine ihtiyaç duymaktadır.
 
-Mühendislik değişikliği yönetimi yapıyı ve disiplini ürün verileri yönetim süreciyle birleştirir ve ürünlerin iş akışları tarafından desteklenen denetimli bir şekilde tanımlanmasını, serbest bırakılmasını ve gözden geçirilmesini sağlar. Ürün sürümleri ve mühendislik değişikliği yönetimi aracılığıyla, mühendislik değişikliklerinin etkisini değerlendirebilir ve bu değişiklikleri ürün yaşam döngüsü boyunca uygulayabilirsiniz.
+Mühendislik değişikliği yönetimi, ürün veri yönetimi sürecine yapı ve disiplin katar ve ürünlerin iş akışları tarafından desteklenen denetimli bir şekilde tanımlanmasını, sunulmasını ve gözden geçirilmesini sağlar. Ürün sürümleri ve mühendislik değişikliği yönetimi aracılığıyla, mühendislik değişikliklerinin etkisini değerlendirebilir ve bu değişiklikleri ürün yaşam döngüsü boyunca uygulayabilirsiniz.
 
 Mühendislik değişikliği yönetimi, ürün sürümü oluşturma ve yönetme, ürün yaşam döngüleri ve mühendislik değişikliklerini yönetmenize yardımcı olur. Temel özelliklerinin listesi aşağıdadır:
 

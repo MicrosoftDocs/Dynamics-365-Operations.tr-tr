@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a11455c4e3f59ef52d9a1e3d2e6a10c57a070a79
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402237"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920435"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Dynamics 365 Supply Chain Management yöneticileri için öğrenme kataloğu
 
@@ -68,7 +68,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 | İçerik | Tanım | Biçim | Uzunluk |
 |---------|-------------|--------|--------|
-| [Dynamics 365 Supply Chain Management için mühendislik değişikliği yönetimini ayarlama](/learn/paths/set-up-engineering-change-management/) | Günümüzde üreticiler; sürekli kısalan ürün yaşam döngüleri, yüksek kalite ve güvenilirlik gereksinimleri ve ürün güvenliğine daha fazla önem vermeyi gerektiren koşullarda başarılı olmak için güçlü ürün veri yönetimi, sürüm denetimi ve mühendislik değişim yönetimine ihtiyaç duymaktadır. Bu öğrenme yolunda mühendislik değişim yönetiminin nasıl ayarlanacağı hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
+| [Dynamics 365 Supply Chain Management için mühendislik değişikliği yönetimini ayarlama](/learn/paths/set-up-engineering-change-management/) | Günümüzde üreticiler; ürün yaşam döngülerinin giderek daha da kısaldığı, kalite ve güvenilirlik gereksinimlerinin arttığı ve ürün güvenliğine daha da fazla yoğunlaşıldığı bir dünyada başarılı olmak için güçlü ürün veri yönetimi, sürüm denetimi ve mühendislik değişikliği yönetimine ihtiyaç duymaktadır. Bu öğrenme yolunda mühendislik değişim yönetiminin nasıl ayarlanacağı hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
 
 ## <a name="servicing"></a>Bakım<a name="servicing"></a>
 

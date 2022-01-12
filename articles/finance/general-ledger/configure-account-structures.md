@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3632f115b1ef4cd3a41a483270fb5f6bb6c73526ce9322f16a6533265302937c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
+ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719776"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "7945553"
 ---
 # <a name="configure-account-structures"></a>Hesap yapıları yapılandır
 
@@ -79,7 +79,7 @@ Bir günlük girerken ve kar ve zarar aralığında bir hesap seçtiğinizde, de
 
 ## <a name="more-than-7-criteria-needed"></a>7'den fazla ölçüt gerekli
 
-7'den fazla ölçüte gereksiniminiz varsa, sonraki satırda ölçüt eklemeye devam edebilirsiniz. **İzin verilen değer ayrıntıları** bölümünde çalışırken, yedinci ölçütü girdikten sonra **+Yeni ölçütler ekle** işlevinin artık etkin olmadığı dikkatinizi çekecektir. Bu birçok etkene bağlıdır. Örneğin: 
+7'den fazla ölçüte gereksiniminiz varsa, sonraki satırda ölçüt eklemeye devam edebilirsiniz. **İzin verilen değer ayrıntıları** bölümünde çalışırken, yedinci ölçütü girdikten sonra **+Yeni ölçütler ekle** işlevinin artık etkin olmadığını fark edeceksiniz. Bu birçok etkene bağlıdır. Örneğin: 
  - Sütun genişliği 
  - Verilerin nasıl depolandığı 
  - **İzin verilen değer ayrıntıları** denetiminin performansı
@@ -101,7 +101,7 @@ Hesap yapılarınızı ayarlarken takip edebileceğiniz bazı iyi uygulama örne
 - Hesap yapısında her segment için yıldız işareti koymakla yetinmeyin, özel olarak gelişmiş kurallardan da yararlanın. Bu yönetimi zorlaştırabilir ve bakım sırasında sık sık kullanıcı hatasına neden olarak sistemde deftere nakil işlemini durdurabilir.
 
 ## <a name="account-structure-activation"></a>Hesap yapısı etkinleştirme
-Yeni kurulumu veya bir hesap yapısında değişikliği yeterli bulduğunuz zaman yapıyı etkinleştirmeniz gerekir. Bir hesap yapısı genel muhasebeye atanırsa, bu etkinleştirme uzun süren bir işlem haline gelebilir çünkü sistemdeki deftere nakledilmemiş tüm hareketlerin yeni yapıya eşitlenmesi gerekir. Deftere nakledilmiş hareketler hesap yapısı değişikliklerinden etkilenmez.
+Hesap yapısındaki yeni ayarlarınızı veya değişikliği yeterli bulduğunuz zaman hesap yapısını etkinleştirmeniz gerekir. Bir hesap yapısı genel muhasebeye atanırsa, bu etkinleştirme uzun süren bir işlem haline gelebilir çünkü sistemdeki deftere nakledilmemiş tüm hareketlerin yeni yapıya eşitlenmesi gerekir. Deftere nakledilmiş hareketler hesap yapısı değişikliklerinden etkilenmez.
 
 Daha fazla bilgi için bkz. [Hesap planınızı hesaplama](plan-chart-of-accounts.md), [Mali boyutlar](financial-dimensions.md) ve [Hesap ve boyut kombinasyonları (segmentlere ayrılmış giriş kontrolü) girme](enter-account-dimension-combinations-segmented-entry-control.md).
 

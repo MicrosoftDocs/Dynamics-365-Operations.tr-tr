@@ -2,7 +2,7 @@
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 10/28/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725061"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927491"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -74,7 +74,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu olayı yürütecek bir denetim yok. |
-| **Başka bir özellikle mi değiştirildi?**   | Evet, **OnDBSynchronzie** olayının geçerli abone olduğu yöntemleri, SysSetup genişletilmiş bir sınıfına taşıyın. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, **OnDBSynchronize** olayıyla abone olunan mevcut yöntemleri SysSetup genişletilmiş sınıfına taşıyın. |
 | **Etkilenen ürün alanları**         | Veritabanı eşitleme |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kaldırıldı. Planlanan kaldırma tarihi: Ekim 2022. |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893657"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931993"
 ---
 # <a name="add-or-copy-leases-preview"></a>Kiralama ekleme veya kopyalama (Önizleme)
 
@@ -50,6 +50,9 @@ Kiralamaya ilişkin bilgileri girmeyi tamamladıktan sonra, kiralama planı olu�
     **Defter ayrıntıları** sayfası, kiralamaya tahsis edilmiş olan defterlerde kiralamanın nasıl hesaplandığını gösterir. Buradan, kira planlamalarını görebilirsiniz.
 
     Ödeme planı, **Kiralama ekle** sayfasındaki **Ödeme planı satırları** sekmesinden alınan girişleri içerir. Her ödeme tutarını ve değişken ödemeyi değiştirmeye devam edebilirsiniz. Kiralama yükümlülüğü değiştirilen ödeme planına göre hesaplanır.
+    
+> [!NOTE]
+> Kira ödemesi başlangıç tarihi, kiralamanın başlangıç tarihiyle aynı veya daha ileri bir tarih olmalıdır. Ödeme başlangıç tarihi, kiralamanın başlangıç tarihinden önceki bir tarihse bir hata iletisi alırsınız. 
 
 4. Ödeme planını incelemeyi tamamladıktan sonra **Planlamayı onayla**'yı seçin. Planlama onaylandıktan sonra kiralama, artık düzenlenemez.
 

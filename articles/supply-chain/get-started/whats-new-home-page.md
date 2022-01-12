@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5e15854b125c0d2d697484cc6e4b22458de491b
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: b21fba6fbfd4fe2a645efd56fb3592252c2a3fe0
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891836"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920635"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management içindeki Yenilikler veya değişiklikler
 
@@ -29,10 +29,10 @@ ms.locfileid: "7891836"
 
 Dynamics 365 Supply Chain Management'ın her sürümündeki yenilikleri veya değişiklikleri görmek için aşağıdaki konulara bakın.
 
-| Sürüm | Yapı numarası | Otomatik güncelleştirme kullanılabilirliği | Daha fazla bilgi |
+| Sürüm | Yapı numarası | Otomatik güncelleştirme kullanılabilirliği | Daha fazla bilgi edinin |
 |---|---|---|---|
-| 10.0.24 | 10.0.1084 | Şubat 2022 | [Dynamics 365 Supply Chain Management 10.0.24'daki yenilikler veya değişiklikler](whats-new-scm-10-0-24.md) |
-| 10.0.23 | 10.0.1037 | 2022 Ocak | [Dynamics 365 Supply Chain Management 10.0.23 önizlemesi](whats-new-scm-10-0-23.md) |
+| 10.0.24 | 10.0.1084 | Şubat 2022 | [Dynamics 365 Supply Chain Management 10.0.24 önizlemesi](whats-new-scm-10-0-24.md) |
+| 10.0.23 | 10.0.1037 | 2022 Ocak | [Dynamics 365 Supply Chain Management 10.0.23'daki yenilikler veya değişiklikler](whats-new-scm-10-0-23.md) |
 | 10.0.22 | 10.0.995 | Kasım 2021 | [Dynamics 365 Supply Chain Management 10.0.22'daki yenilikler veya değişiklikler](whats-new-scm-10-0-22.md) |
 | 10.0.21 | 10.0.960 | 2021 Ekim | [Dynamics 365 Supply Chain Management 10.0.21'daki yenilikler veya değişiklikler](whats-new-scm-10-0-21.md) |
 | 10.0.20 | 10.0.886 | Ağustos 2021 | [Dynamics 365 Supply Chain Management'ın 10.0.20 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-20.md) |

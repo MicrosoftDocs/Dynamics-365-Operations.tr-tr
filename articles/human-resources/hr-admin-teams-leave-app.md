@@ -2,7 +2,7 @@
 title: Teams'de Human Resources uygulaması
 description: Bu konu sizi Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulamasıyla tanıştırır.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913501"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924734"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams'de Human Resources uygulaması
 
@@ -41,6 +41,21 @@ Dynamics 365 Human Resources uygulamasını Teams mağazasında bulabilirsiniz. 
 Teams'de uygulama izinlerini yönetme hakkında bilgi için bkz. [Microsoft Teams platformunda uygulama izin ilkelerini yönetme](/MicrosoftTeams/teams-app-permission-policies).
 
 Kullanıcılarınızın uygulamadaki İzin ve devamsızlık takvimini görüntülemesini istiyorsanız Özellik yönetimindeki **Teams'de İzin ve devamsızlık takvimi** özelliğini etkinleştirmeniz gerekir. Özellikleri etkinleştirme hakkında daha fazla bilgi edinmek için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>Uygulamayı güncelleştirme
+>[!NOTE]
+> 20 Aralık 2021 itibarıyla, Microsoft kiracısında barındırılan Human Resources Uygulaması bot hizmetleri kullanımdan alınacaktır. Yükleme için kullanıma sunulan güncel uzantı (sürüm 1.1.5) etkilenmeyecektir. Ana etki, güncel olmayan uzantı (sürüm 1.1.4) üzerinde olacaktır. Bu sürümdeki sohbet botu çalışmayı durduracaktır. **İzin** sekmesi her iki uzantıda da çalışmaya devam edecek.
+
+1.1.4 sürümünde sohbet botu, iletilere yanıt vermeyi durduracaktır. Örneğin, **Oturum aç**, **Bakiyeleri görüntüle** ve **İzni gör**. Uygulama en son sürüme el ile güncelleştirilmelidir. Daha fazla bilgi için bkz. [Microsoft Teams'de uygulamaları güncelleştirme](/MicrosoftTeams/apps-update-experience).
+
+1.1.5 sürümüne güncelleştirmek için aşağıdaki adımları tamamlayın:
+1. Microsoft Teams'de **Uygulamalar**'a gidin.
+2. **Human Resources** uygulamasını bulun.
+3. **Yükselt**'i seçin.
+
+**Hakkında** sekmesine giderek veya **Kişisel uygulama** bölümüne giderek Human Resources uygulamasının sürümünü kontrol edebilirsiniz. 
+
+![Human Resources **Hakkında** sekmesi.](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Teams'de Human Resources uygulaması için bildirimleri etkinleştirme
 

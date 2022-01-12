@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778533"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920735"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 
@@ -80,6 +80,9 @@ Planlı siparişleri el ile kesinleştirmek için, kesinleştirmek istediğiniz 
     - **Satın alma anlaşmasına göre gruplandır** – Varolan satınalma anlaşmalarıyla aynı satıcıya sahip planlı satınalma siparişlerini gruplandırmak ve satınalma anlaşması başına bir satınalma siparişi oluşturmak için bu seçeneği *Evet* olarak ayarlayın. **Satıcıya göre grupla** etkinleştirildiğinde bu seçenek otomatik olarak etkinleştirilir. **Satın alma sözleşmesine göre gruplandır**'ı kullanmak için **Satın alma sözleşmesini bul**, **Master planlama parametreleri** sayfasında *Evet* olarak ayarlanmalıdır.
     - **Döneme göre grupla** ( **Satınalma siparişleri** bölümünde) – Planlı satınalma siparişlerinin gruplandırılmasını istediğiniz dönemi seçin. Bu seçeneği kullanmak için aynı zamanda **Satıcıya göre gruplandır** seçeneğini seçmeniz gerekir.
     - **Döneme göre grupla** ( **Transferler** bölümünde) – Planlı satınalma siparişlerinin gruplandırılmasını istediğiniz transferi seçin. Siparişler, **Kaynak ambar** ve **Hedef ambar** değerleri temel alınarak gruplandırılır.
+
+    > [!NOTE]
+    > "Gruplandırma ölçütü" seçeneklerinden her biri, sistemin her bir planlı siparişi, gruplandırmadan kaynaklanan tek satın alma siparişindeki bir satıra dönüştürmesine neden olur.
 
     ![Kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi.](./media/manual-firming.png "Kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi")
 

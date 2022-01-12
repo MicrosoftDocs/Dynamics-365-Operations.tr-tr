@@ -1,8 +1,8 @@
 ---
 title: Tahsilat mektubu sırası oluşturma
 description: Tahsilat mektubu sırası oluşturmak için bu yordamı kullanın.
-author: abruer
-ms.date: 07/22/2019
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753598"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921237"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Tahsilat mektubu sırası oluşturma
 
@@ -31,10 +31,10 @@ Tahsilat mektubu sırası oluşturmak için bu yordamı kullanın. Bu görevde U
 3. **Tahsilat mektubu sırası** alanında, sırayı temsil edecek bir sıra kodu girin. Bir deftere nakil profili ayarladığınız zaman kullanılır.
 4. **Tanım** alanına bir değer girin.  Ödeme şartları isteğe bağlıdır. Buraya bir değer girerseniz, tahsilat mektubu ücreti faturasında, müşteriyle depolanan ödeme şartları yerine bu ödeme şartları kullanılır.  
 5. **Tahsilat mektubu kodu** alanında, göndermek istediğiniz ilk tahsilat mektubunun kodunu seçin. İlk tahsilat mektubu, faturadaki vade tarihine, bu satırdaki Gün alanında mehil süresi için girdiğiniz değere ve bu satıra girdiğiniz diğer bilgilere göre oluşturulur.  
-6. **Tanım** alanına bir değer girin. Ücretin para birimi, müşteri para biriminin varsayılan değeri olur. Bu para birimi kodu, fatura para biriminden farklı olabilir.  
-7. Sırada gönderilecek sonraki tahsilat mektubunu eklemek için **Ekle**'ye tıklayın. Çoğu durumda, ilk tahsilat mektubu yalnızca bir uyarıdır. Gerekirse ücretler ekleyebilirsiniz.  
-8. Tahsilat mektubu kodu alanında, sıradaki gönderilecek sonraki tahsilat mektubunu seçin.
-9. **Tanım** alanına bir değer girin.
+6. **Tanım** alanına bir değer girin. 
+7. Ücretin varsayılan para birimi, tüzel kişiliğin para birimidir. Bu para birimi kodu, fatura para biriminden farklı olabilir.   
+8. Sırada gönderilecek sonraki tahsilat mektubunu eklemek için **Ekle**'ye tıklayın. Çoğu durumda, ilk tahsilat mektubu yalnızca bir uyarıdır. Gerekirse ücretler ekleyebilirsiniz.  
+9. **Tahsilat mektubu kodu** alanında, sıradaki gönderilecek sonraki tahsilat mektubunu seçin.
 10. **Ana hesap** alanında, ücretler için kullanılacak gelir hesabını seçin.
 11. Bu tahsilat mektubu deftere nakledilince yansıtılacak ücreti girin.
 12. **Madde Satış vergisi grubu** alanında, aramayı açmak için açılır menü düğmesine tıklayın. Ücret üzerinden satış vergileri hesaplamak gerekiyorsa bir madde satış vergisi grubu seçin.  

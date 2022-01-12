@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 00beaba2d3ddb3672d335d4176723b77a8dc263650cae343a3bbcdfd52601d45
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a642114d6fee90b084e2d7c3cb432d2b8fb29a95
+ms.sourcegitcommit: 3f77e0b988f6dd0c9edfdec1dbd9815380501dbb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763398"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7916954"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Kaldırılan veya kullanım dışı bırakılan özellikler ana sayfası
 
@@ -30,6 +30,7 @@ Aşağıdaki konularda, Finance and Operations uygulamalarındaki kaldırılan v
 - [Dynamics 365 Commerce uygulamasından kaldırılan veya kullanım dışı bırakılan özellikler](../../../commerce/get-started/removed-deprecated-features-commerce.md)
 - [Dynamics 365 Finance uygulamasından kaldırılan veya kullanım dışı bırakılan özellikler](../../../finance/get-started/removed-deprecated-features-finance.md)
 - [Dynamics 365 Supply Chain Management uygulamasından kaldırılan veya kullanım dışı bırakılan özellikler](../../../supply-chain/get-started/removed-deprecated-features-scm-updates.md)
+- [Dynamics 365 Project Operations uygulamasından kaldırılan veya kullanım dışı bırakılan özellikler](/project-operations/whats-new/removed-depreciated-features-project)
 - [Kaldırılan veya kullanım dışı bırakılan platform özellikleri](../../dev-itpro/get-started/removed-deprecated-features-platform-updates.md)
 - [Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler](../../dev-itpro/migration-upgrade/deprecated-features.md)
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3abe82bb888b7501b00af44b48bfb40fbe8e2ee3
-ms.sourcegitcommit: 6ef4906621fbb4e3afaf2b0d6697536288365bb1
+ms.openlocfilehash: 4f53171361b655ab4ae05894d098203df0af8d60
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868649"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920785"
 ---
 # <a name="demand-forecasting-setup"></a>Talep tahmini kurulumu
 
@@ -195,9 +195,6 @@ Aşağıdaki parametreler varsayılan olarak sağlanır. (Bu standart listeye ge
 ## <a name="set-up-the-azure-machine-learning-service"></a><a name="setup-amls"></a>Azure Machine Learning Hizmeti'ni ayarlama
 
 Supply Chain Management, kendi Azure aboneliğinizde ayarlamanız ve çalıştırmanız gereken Azure Machine Learning Hizmeti'ni kullanarak talep tahminlerini hesaplar. Bu bölümde, Azure'da Azure Machine Learning Hizmeti'nin nasıl ayarlanacağı ve ardından Supply Chain Management ortamınıza nasıl bağlanacağı açıklanmaktadır.
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: Preview until 10.0.23 GA -->
 
 ### <a name="enable-the-azure-machine-learning-service-in-feature-management"></a>Özellik yönetiminde Azure Machine Learning Hizmeti'ni etkinleştirme
 

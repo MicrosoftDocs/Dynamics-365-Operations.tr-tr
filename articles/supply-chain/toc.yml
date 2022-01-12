@@ -4,7 +4,35 @@
       items:
         - name: Dynamics 365 Supply Chain Management giriş sayfası
           href: index.md
-        - name: Kullanmaya başlama
+        - name: Yenilikler veya değişiklikler
+          items:
+            - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Supply Chain Management'taki yenilikler veya değişiklikler
+              items:
+                - name: Supply Chain Management'taki yenilikler veya değişiklikler giriş sayfası
+                  href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.24 (Şubat 2022)
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: Supply Chain Management 10.0.23 (Ocak 2022)
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: Supply Chain Management 10.0.22 (Kasım 2021)
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: Supply Chain Management 10.0.21 (Ekim 2021)
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: Kaldırılan veya kullanım dışı bırakılan özellikler
+              items:
+                - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özellikler
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Ertelenen AX 2012 özellikleri
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Kullanmaya başlayın
           items:
             - name: Hizmet açıklaması
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Yenilikler veya değişiklikler
-              items:
-                - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Supply Chain Management'taki yenilikler veya değişiklikler
-                  items:
-                    - name: Supply Chain Management'taki yenilikler veya değişiklikler giriş sayfası
-                      href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.24 (Şubat 2022)
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: Supply Chain Management 10.0.23 (Ocak 2022)
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: Supply Chain Management 10.0.22 (Kasım 2021)
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: Supply Chain Management 10.0.21 (Ekim 2021)
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: Kaldırılan veya kullanım dışı bırakılan özellikler
-                  items:
-                    - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özellikler
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Ertelenen AX 2012 özellikleri
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Belge kaynakları
               items:
                 - name: Yardım sistemi
@@ -256,7 +256,7 @@
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Kullanım yönetimi panosu
                       href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Kullanmaya başlama
+                    - name: Kullanmaya başlayın
                       items:
                         - name: Elektronik Faturalama hizmet yönetimini kullanmaya başlama
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
@@ -1617,6 +1617,8 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: Stok Görünürlüğü genel API'leri
                   href: inventory/inventory-visibility-api.md
+                - name: Stok Görünürlüğü ipuçları
+                  href: inventory/inventory-visibility-tips.md
         - name: IoT Zekası
           items:
             - name: IoT Zekası giriş sayfası
@@ -2829,9 +2831,9 @@
               href: sales-marketing/tasks/create-new-trade-agreement.md
             - name: Satış geçmişi temizleme işlemi performans iyileştirmeleri
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
-        - name: Servis yönetimi
+        - name: Hizmet yönetimi
           items:
-            - name: Servis yönetimine genel bakış
+            - name: Hizmet yönetimine genel bakış
               href: service-management/service-management-home-page.md
             - name: Müşteri hizmetlerini ayarlama
               items:
@@ -3573,6 +3575,8 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Master planlama
               items:
+                - name: 'Sistem, birden fazla sipariş üzerinde çalışırken planlı bir sipariş bulamıyor'
+                  href: troubleshooting/planning/planned-order-not-exist.md
                 - name: 'Ürün reçetesi açılımı, kesinleştirilmiş ve tahmini üretim emirlerinde farklı şekilde işlev gösteriyor'
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: Planlanan bir siparişi yeniden zamanladığınızda gecikme değeri güncelleştirilmiyor

@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Çeviri belleği dosyaları
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOps uzantısı (Genel Önizleme)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Microsoft Power Platform tümleştirmesi
           items:
             - name: Genel bakış
@@ -1236,7 +1238,7 @@
           items:
             - name: Mobil platform kaynakları
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Kullanmaya başlama
+            - name: Kullanmaya başlayın
               items:
                 - name: Mobil platformu kullanmaya başlama
                   href: mobile-apps/platform/mobile-platform-getting-started.md
@@ -1600,8 +1602,10 @@
                   href: sysadmin/tasks/create-batch-job.md
                 - name: Toplu iş yeniden denemelerini etkinleştirme
                   href: sysadmin/retryable-batch.md
-                - name: Toplu iş kopyalama
+                - name: Toplu işi kopyalama
                   href: sysadmin/copy-batch-job.md
+                - name: Önceliğe dayalı toplu iş zamanlaması
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Etkin toplu iş dönemleri
                   href: sysadmin/activeperiod.md
                 - name: Etkin toplu iş dönemleri için yaz saati uygulaması desteği

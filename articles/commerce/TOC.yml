@@ -4,7 +4,7 @@
       items:
         - name: Dynamics 365 Commerce giriş sayfası
           href: index.md
-        - name: Kullanmaya başlama
+        - name: Kullanmaya başlayın
           items:
             - name: Hizmet açıklaması
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (Kasım 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21 (Ekim 2021)
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -842,7 +840,7 @@
           items:
             - name: Ekstrelere genel bakış
               href: retail-statements.md
-            - name: Hareket tutarlılık denetleyicisi
+            - name: Ekstre hesaplama işlemi için mağaza hareketlerini doğrulama
               href: valid-checker.md
             - name: Perakende hareketi tutarlılık denetleyicisinde kuralları devre dışı bırakma
               href: disable-consistency-check-rule.md
@@ -858,7 +856,7 @@
                   href: create-excel-edit.md
                 - name: Perakende hareketlerini düzenlemek için Excel çalışma kitabına alanlar ekleme
                   href: add-fields-excel.md
-            - name: Perakende mağaza hareketleri için akış tabanlı sipariş oluşturma
+            - name: Perakende mağaza hareketleri için kademeli akış tabanlı sipariş oluşturma
               href: trickle-feed.md
             - name: 'Perakende mağazasına yönelik ekstreler oluşturma, hesaplama ve deftere nakletme'
               href: tasks/create-calculate-post-statement-retail-store.md
@@ -1286,6 +1284,8 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Commerce kanalı için mali tümleştirmeyi ayarlama
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Mali tümleştirme örneği için derleme işlem hattı ayarlama
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory Configuration Service (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: Avusturya için mali kayıt hizmeti tümleştirme örneği
                   href: localizations/emea-aut-fi-sample.md
+                - name: Avusturya için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brezilya
               items:
                 - name: Brezilya için Commerce yerelleştirmesi
@@ -1358,12 +1360,16 @@
                   items:
                     - name: Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
                       href: localizations/emea-cze-fi-sample.md
+                    - name: Çek Cumhuriyeti için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Polonya
                   items:
                     - name: Polonya için yazar kasa tümleştirme örneği
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Polonya için müşteri bilgileri yönetimi
                       href: localizations/emea-pol-customer-information.md
+                    - name: Polonya için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Fransa
               items:
                 - name: Yazar kasa işlevi
@@ -1380,6 +1386,8 @@
               items:
                 - name: Almanya için mali kayıt hizmeti tümleştirme örneği
                   href: localizations/emea-deu-fi-sample.md
+                - name: Almanya için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Hindistan
               items:
                 - name: Yazar kasalar için Ürün ve Hizmet Vergisi (GST) tümleştirmesi
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: İtalya için müşteri bilgileri yönetimi
                   href: localizations/emea-ita-customer-information.md
+                - name: İtalya için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Meksika
               items:
                 - name: Meksika için genel CFDI e-faturaları
@@ -1407,6 +1417,8 @@
                 - name: Yazar kasa işlevi
                   href: localizations/emea-nor-cash-registers.md
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: Yazar kasalara ilişkin dağıtım kılavuzları (eski)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rusya
               items:
@@ -1432,6 +1444,8 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: İsveç için kontrol birimi tümleştirmesi örneği
                   href: localizations/emea-swe-fi-sample.md
+                - name: İsveç için kontrol birimi tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
+                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Kontrol birimleriyle Retail POS tümleştirmesi örneği (eski)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Raporlama ve Power BI tümleştirmeleri
@@ -2376,7 +2390,7 @@
               items:
                 - name: Çevrimiçi kanal genişletilebilirliğine genel bakış
                   href: e-commerce-extensibility/overview.md
-                - name: Kullanmaya başlama
+                - name: Kullanmaya başlayın
                   items:
                     - name: E-ticaret çevrimiçi genişletilebilirlik geliştirmesini kullanmaya başlama
                       href: e-commerce-extensibility/sdk-getting-started.md
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: İstek işlem hattı eklenti kancası oluşturma
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: Görüntü bileşeni
+                      href: e-commerce-extensibility/image-component.md
                 - name: Veri eylemleri geliştirme
                   items:
                     - name: Veri eylemlerine genel bakış
@@ -2574,6 +2590,8 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: GitHub ve NuGet'ten örnekler ve paketler indirme
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Modern POS oluşturmak için bir Visual Studio 2017 oluşturma aracısı ayarlama
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: Retail SDK ile ilgili SSS
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Satış noktası (POS) genişletilebilirliği

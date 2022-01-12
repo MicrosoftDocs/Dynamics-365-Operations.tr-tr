@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 680d5ed929a396bfb2d3c7f05351ab6c93d29256c825c618cb166aac444aa5d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726909"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920535"
 ---
 # <a name="product-dimensions"></a>Ürün boyutları
 
@@ -78,7 +78,7 @@ Bir şirket kot kumaşından ürünler satıyor. *Kot* maddesi renk ve boyut boy
 
 ## <a name="the-version-product-dimension"></a>Sürüm ürün boyutu
 
-Sürüm, tedarik zincirinde bir ürünün birden fazla sürümünü korumanıza ve izlemenize yardımcı olmayı amaçlayan bir ürün boyutudur. Sürüm izleme, ürün kullanım ömrü, artan kalite ve güvenilirlik gereksinimleri ve ürün güvenliği gerektiren bir dünyada çalışan üreticilerin başarısı için gereklidir.
+Sürüm, tedarik zincirinde bir ürünün birden fazla sürümünü korumanıza ve izlemenize yardımcı olmayı amaçlayan bir ürün boyutudur. Sürüm izleme; ürün yaşam döngülerinin giderek daha da kısaldığı, kalite ve güvenilirlik gereksinimlerinin arttığı ve ürün güvenliğine daha da fazla yoğunlaşıldığı bir dünyada faaliyet gösteren üreticilerin başarısı için gereklidir.
 
 Standart ürün boyutu olarak sürüm, varolan ürün boyutlarına (boyut, stil, renk ve yapılandırma) benzer şekilde davranır. Bu nedenle, bunu ürün sürümlerinin izlenmesi dışında başka amaçlar için kullanabilirsiniz.
 

@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891806"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920285"
 ---
-# <a name="saleshistorycleanupperformanceimprovements"></a>Satış geçmişi temizleme işlemi performans iyileştirmeleri
+# <a name="sales-history-cleanup-performance-improvements"></a>Satış geçmişi temizleme işlemi performans iyileştirmeleri
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "7891806"
 
 Özellik etkinleştirildikten sonra, **Satış güncelleştirme geçmişi temizliği** toplu işlemi (**Satış ve pazarlama \> dönemi görevleri \> Temizleme \> Satış güncelleme geçmiş temizleme**), daha önce olduğu gibi çalışacak, ancak daha iyi performans ve en fazla 2 saat boyunca çalışacaktır. Bu, belirli bir bekletme süresi çerçevesi için tüm verileri temizlemek amacıyla birkaç kez çalıştırılması gerekebilecek anlamına gelir.
 
-## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>Satış geçmişi temizleme işlemi performans iyileştirmeleri özelliğini aç
+## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>Satış geçmişi temizleme işlemi performans iyileştirmeleri özelliğini açma
 
 Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
