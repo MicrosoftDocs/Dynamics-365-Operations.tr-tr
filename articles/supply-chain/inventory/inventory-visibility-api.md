@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920130"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952639"
 ---
 # <a name="inventory-visibility-public-apis"></a>Stok Görünürlüğü genel API'si
 
@@ -48,6 +48,8 @@ Microsoft, hazır bir *Postman* istek koleksiyonu sağlamıştır. Şu paylaşı
 
 > [!NOTE]
 > Yolun {environmentId} bölümü, Microsoft Dynamics Lifecycle Services'teki (LCS) ortam kimliğidir.
+> 
+> Toplu API, her istek için en fazla 512 kayıt döndürebilir.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lifecycle Services ortamınıza göre uç noktayı bulma
 
@@ -249,7 +251,7 @@ Aşağıdaki örnekte, `dimensionDataSource` olmadan örnek gövde içeriği gö
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Birden fazla değişiklik olayı oluşturma
 
-Bu API aynı anda birden çok kayıt oluşturabilir. Bu API ile [tek olay API'si](#create-one-onhand-change-event) arasındaki tek fark, `Path` ve `Body` değerleridir. Bu API için `Body` bir dizi kayıt sağlar.
+Bu API aynı anda birden çok kayıt oluşturabilir. Bu API ile [tek olay API'si](#create-one-onhand-change-event) arasındaki tek fark, `Path` ve `Body` değerleridir. Bu API için `Body` bir dizi kayıt sağlar. En fazla kayıt sayısı 512'dir. Yani, eldeki toplu API değişimi, bir seferde 512 değişiklik olayına kadar destek alabilir.
 
 ```txt
 Path:

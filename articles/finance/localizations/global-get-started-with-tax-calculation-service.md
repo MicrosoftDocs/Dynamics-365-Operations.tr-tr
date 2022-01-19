@@ -2,7 +2,7 @@
 title: Vergi Hesaplamayı kullanmaya başlama
 description: Bu konuda, Vergi Hesaplamasının nasıl ayarlanacağı açıklanmaktadır.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,74 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647446"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952533"
 ---
 # <a name="get-started-with-tax-calculation"></a>Vergi Hesaplamayı kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Vergi Hesaplama'yı kullanmaya başlama hakkında bilgi sağlar. Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance ve Dynamics 365 Supply Chain Management içindeki yapılandırma adımlarını izlemeniz konusunda yol gösterir. Daha sonra, Finance ve Supply Chain Management işlemlerinde Vergi Hesaplama özelliklerinin kullanımıyla ilgili genel işlemi inceler.
+Bu konu, Vergi Hesaplama'yı kullanmaya başlama hakkında bilgi sağlar. Bu konudaki bölümler, Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS) ve Dynamics 365 Finance ile Dynamics 365 Supply Chain Management içindeki yüksek düzey tasarım ve yapılandırma adımlarını izlemeniz konusunda yol gösterir. 
 
-Ayarlama dört ana adımdan oluşur:
+Ayarlama üç ana adımdan oluşur.
 
 1. LCS'de Vergi Hesaplama eklentisini yükleyin.
 2. RCS'de, Vergi Hesaplama özelliğini ayarlayın. Bu ayar bir tüzel kişiliğe özgü değildir. Finance ve Supply Chain Management tüzel kişileri arasında paylaşılabilir.
 3. Finance ve Supply Chain Management'ta tüzel kişiliğe göre Vergi Hesaplama parametrelerini ayarlayın.
-4. Finance ve Supply Chain Management'ta satış siparişleri gibi işlemler oluşturun ve vergileri belirlemek ve hesaplamak için Vergi Hesaplama eklentisini kullanın.
+
+## <a name="high-level-design"></a>Üst düzey tasarım
+
+### <a name="runtime-design"></a>Çalışma zamanı tasarımı
+
+Aşağıdaki görsel, Vergi Hesaplamasının üst düzey çalışma zamnını gösterir. Vergi Hesaplama birçok Dynamics 365 uygulamalarıyla tümleştirilebileceğinden, bu görselde örnek olarak Finance ile arasındaki tümleştirme kullanılır.
+
+1. Satış siparişi veya satınalma siparişi gibi bir hareket, Finance içinde oluşturulur.
+2. Finance otomatik olarak satış vergisi grubunun ve madde satış vergisi grubunun varsayılan değerlerini kullanır.
+3. Harekette **Satış vergisi** düğmesi seçildiğinde, vergi hesaplaması tetiklenir. Finance ardından yükü Vergi Hesaplama hizmetine gönderir.
+4. Vergi Hesaplama Hizmeti aynı anda daha doğru bir satış vergisi grubu ve madde satış vergisi grubu bulmak için vergi özelliğindeki önceden tanımlanmış kurallarla olan yüke karşılık eşleştirir.
+
+    - Yük, **Vergi Grubu Uygulanabilirlik** matrisiyle eşleştiribilecekse, satış vergisi grubu değerini uygulanabilirlik kuralındaki eşlenen vergi grubu değeriyle geçersiz kılar. Aksi durumda, Finance'deki satış vergisi grubu değerini kullanmaya devam eder.
+    - Yük, **Vergi Grubu Uygulanabilirlik** matrisiyle eşleştirilemiyorsa madde satış vergisi grubu değerini uygulanabilirlik kuralındaki eşlenen madde vergi grubu değeriyle geçersiz kılar. Aksi durumda, Finance'deki madde satış vergisi grubu değerini kullanmaya devam eder.
+
+5. Vergi Hesaplama Hizmeti, satış vergi grubu ve madde satış vergi grubu birleşimini kullanarak nihai vergi kodlarını belirler.
+6. Vergi Hesaplama Servisi, belirlenen son vergi kodlarına göre vergi hesaplamaktadır.
+7. Vergi Hesaplama Servisi, vergi hesaplama sonucunu Finance'e döndürür.
+
+![Vergi Hesaplaması çalışma zamanı tasarımı.](media/tax-calculation-runtime-logic.png)
+
+### <a name="high-level-configuration"></a>Üst düzey konfigürasyon
+
+Aşağıdaki adımlar, Vergi Hesaplama Hizmeti için konfigürasyon işleminin üst düzey genel görünümünü sağlar.
+
+1. LCS projenizde **Vergi Hesaplama** eklentisini yükleyin.
+2. RCS'de, **Vergi Hesaplama** özelliğini oluşturun.
+3. RCS'de, **Vergi Hesaplama** özelliğini ayarlayın:
+
+    1. Vergi yapılandırma sürümünü seçin.
+    2. Vergi kodları oluşturun.
+    3. Vergi grubu oluşturun.
+    4. Madde vergi grubu oluşturun.
+    5. İsteğe bağlı: Müşteri veya satıcı ana verilerinden girilen varsayılan satış vergisi grubunu geçersiz kılmak istiyorsanız, vergi grubu uygulanabilirliğini oluşturun.
+    6. İsteğe bağlı: Madde ana verilerinden girilen varsayılan madde satış vergisi grubunu geçersiz kılmak istiyorsanız, madde grubu uygulanabilirliğini oluşturun.
+
+4. RCS'de **Vergi Hesaplama** özelliğini tamamlayın ve yayımlayın.
+5. Finance'de, yayınlanmış **Vergi Hesaplama** özelliğini seçin.
+
+Bu adımlar tamamlandıktan sonra, aşağıdaki ayarlar otomatik olarak RCS'den Finance'e eşitlenir.
+
+- Satış vergisi kodları
+- Satış vergisi grupları
+- Madde satış vergisi grupları
+
+Bu konudaki kalan bölümler, daha ayrıntılı yapılandırma adımları sağlar.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu konudaki yordamları tamamlamadan önce her ortam türü için önkoşulların yerine getirilmesi gerekir.
-
-Aşağıdaki önkoşulların karşılanması gerekir:
+Bu konudaki kalan prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerine getirilmesi gerekir:<!--TO HERE-->
 
 - LCS hesabınıza erişiminizin ve Dynamics 365 sürüm 10.0.21 veya sonrasını çalıştıran bir Katman 2 ya da üstü ortam bulunan dağıtılmış bir LCS projenizin olması gerekir.
 - Kuruluşunuz için bir RCS ortamı oluşturmanız ve hesabınıza erişebilmeniz gerekir. RCS ortamı oluşturma hakkında daha fazla bilgi için bkz. [Regulatory Configuration Service'e Genel Bakış](rcs-overview.md).
@@ -72,15 +115,7 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
 5. **Tür** alanında **Genel**'i seçin.
 6. **Aç**'ı seçin.
 7. **Vergi Veri Modeli**'ne gidin, dosya ağacını genişletin ve ardından **Vergi Yapılandırması**'nı seçin.
-8. Finance sürümünüze bağlı olarak, doğru vergi yapılandırması sürümünü seçin ve ardından **İçeri Aktar** seçeneğini belirleyin.
-
-    | Yayım sürümü | Vergi konfigürasyonu                       |
-    | --------------- | --------------------------------------- |
-    | 10.0.18         | Vergi Yapılandırması - Avrupa 30.12.82     |
-    | 10.0.19         | Vergi Hesaplama Yapılandırması 36.38.193 |
-    | 10.0.20         | Vergi Hesaplama Yapılandırması 40.43.208 |
-    | 10.0.21         | Vergi Hesaplama Yapılandırması 40.48.215 |
-
+8. Finance sürümünüze bağlı olarak, doğru [vergi yapılandırması sürümünü](global-tax-calcuation-service-overview.md#versions) seçin ve ardından **İçeri Aktar** seçeneğini belirleyin.
 9. **Genelleştirme özellikleri** çalışma alanında, **Özellikler**'i seçin, **Vergi Hesaplaması** kutucuğunu ve ardından **Ekle** seçeneğini belirleyin.
 10. Aşağıdaki özellik türlerinden birini seçin:
 
@@ -209,42 +244,3 @@ Bu bölümdeki ayarlama tüzel kişilik tarafından gerçekleştirilir. Finance'
 
 5. **Çoklu KDV kaydı** sekmesinde, çoklu KDV kayıtları senaryosu altında çalışmak için KDV beyannamesi, AB Satış Listesi ve İntrastat'ı ayrı ayrı açabilirsiniz. Çoklu KDV kayıtlarına yönelik vergi raporlama hakkında daha fazla bilgi için bkz. [Birden çok KDV kaydı için raporlama](emea-reporting-for-multiple-vat-registrations.md).
 6. Kurulumu kaydedin ve her ek tüzel kişilik için önceki adımları yineleyin. Yeni bir sürüm yayımlandığında ve bunu uygulamak istediğinizde **Vergi hesaplama parametreleri** sayfasının **Genel** sekmesindeki **Özellik kurulumu** alanını ayarlayın (bkz. adım 2).
-
-## <a name="transaction-processing"></a>İşlem işleme
-
-Tüm ayarlama yordamlarını tamamladıktan sonra Finance'te vergiyi belirleyip hesaplamak için Vergi Hesaplama'yı kullanabilirsiniz. İşlemleri işleme adımları aynı kalır. Aşağıdaki işlemler Finance sürüm 10.0.21'de desteklenmektedir:
-
-- Satış işlemi
-
-    - Satış teklifi
-    - Satış siparişi
-    - Onay
-    - Malzeme çekme listesi
-    - Sevk irsaliyesi
-    - Satış faturası
-    - Alacak dekontu
-    - Sipariş iadesi
-    - Masraf başlığı
-    - Satır masrafı
-
-- Satın alma işlemi
-
-    - Satın alma siparişi
-    - Onay
-    - Giriş listesi
-    - Ürün girişi
-    - Satınalma faturası
-    - Masraf başlığı
-    - Satır masrafı
-    - Alacak dekontu
-    - Sipariş iadesi
-    - Satınalma talebi
-    - Satın alma talebi satır masrafı
-    - Teklif talebi
-    - Teklif talebi başlık masrafı
-    - Teklif talebi satır masrafı
-
-- Stok işlemi
-
-    - Transfer emri - sevk
-    - Transfer emri - al

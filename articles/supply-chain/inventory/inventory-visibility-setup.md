@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581877"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952508"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Stok Görünürlüğü'nü yükleme ve ayarlama
 
@@ -71,6 +71,9 @@ Azure AD'ye uygulama kaydedip istemci gizli anahtarı ekledikten sonra şu adım
 1. **Hüküm ve koşullar** onay kutusunu seçerek hüküm ve koşulları kabul edin.
 1. **Yükle**'yi seçin. Eklentinin durumu **Yükleniyor** olarak gösterilir. Yükleme tamamlandığında sayfayı yenileyin. Durum **Yüklendi** olarak değişecektir.
 1. Dataverse uygulamasında, sol gezinme bölmesinde **Uygulamalar** bölümünü seçin ve **Stok Görünürlüğü** Power Apps uygulamasının başarıyla yüklendiğini doğrulayın. **Uygulamalar** bölümü yoksa [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü ürün takımıyla iletişime geçin.
+
+> [!TIP]
+> Kullanışlı kılavuzlar bulabileceğiniz, en son güncelleştirmelerinizi alabileceğiniz ve envanter görünürlüğünün kullanımıyla ilgili soruları alabileceğiniz, Stok Görünürlüğü Eklentisi kullanıcı grubuna katılmanızı öneririz. Katılmak için lütfen [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com)'da Stok Görünürlüğü ürün ekibine e-posta gönderin ve Supply Chain Management ortam kimliğinizi ekleyin.
 
 > [!IMPORTANT]
 > Birden fazla LCS ortamınız varsa her ortam için farklı bir Azure AD uygulaması oluşturun. Farklı ortamlar için Stok Görünürlüğü Eklentisini yüklemek üzere aynı uygulama kimliğini ve kiracı kimliğini kullanırsanız daha eski ortamlar için bir belirteç sorunu oluşur. Yalnızca en son yüklenen geçerlidir.

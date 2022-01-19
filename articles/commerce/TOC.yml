@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Güvenli anahtar yönetimi için Azure Key Vault'u ayarlama
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: İstek işlem hattı eklenti kancası oluşturma
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: Görüntü bileşeni
                       href: e-commerce-extensibility/image-component.md
                 - name: Veri eylemleri geliştirme

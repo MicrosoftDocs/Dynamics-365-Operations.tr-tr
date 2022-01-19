@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890842"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947352"
 ---
 # <a name="impair-right-of-use-assets"></a>Kullanım hakkı varlıklarının değerini düşürme
 
@@ -44,6 +44,8 @@ Kiralamanın IFRS 16 kapsamında finansal kiralama veya ASC 842 kapsamında işl
 
     > [!NOTE]
     > Değer düşüklüğü hareketi deftere nakledildikten sonra yeni bir kitap sürümü oluşturulur.
+
+    > Kira, bir işletim kirası olarak sınıflandırılıyorsa, değer düşüşü ardından aylık amortisman, sabit amortisman kullanılarak hesaplanır.
 
 9. Değeri düşürülen varlık amortisman planlamasını görüntülemek için ilgili kiralama defterinin varlık amortisman planını açın. Şimdi varlık, **Kalan dönemler** alanına girdiğiniz ay sayısı boyunca sabit esasa göre değer düşüşüne uğrayacaktır.
 10. Değer düşüşü gider günlüğü girişini görmek için, değeri düşürülen kiralama defterinin Eylem Bölmesinde **Varlık kiralama günlüğü**'nü seçin. Sistem, değer düşüşü gideri defere nakil hesabını borçlandıran ve varlık kiralama deftere nakil hesabını alacaklandıran bir günlük girişi oluşturur. 
@@ -100,6 +102,7 @@ Aşağıdaki tablolarda, bu örnekte kullanılan kiralama için **Genel** ve **�
     | Defteri kapat             | Hayır       |
 
 6. Bir değer düşüşü gideri günlük girişi oluşturulmuş ve deftere nakledilmiştir. Bunu görüntülemek için kiralama defterinde varlığın kiralama günlüğüne gidin. Değer düşüşü tutarının, Değer düşüşü gideri deftere nakil hesabına borç olarak ve ROU varlığı deftere nakil hesabına alacak olarak kaydedildiğine dikkat edin.
+
 7. Değer düşüşünün net etkisini görmek için, yükümlülük ve varlık hareketleri tablolarına gidin. Değer düşüşü giderinin ROU varlığını azaltmasına rağmen kiralama yükümlülüğü defter tutarını değiştirmediğine dikkat edin.
 
 Değer düşüşünün dikkate almanız gereken başka bir etkisi daha bulunur. ROU varlık tutarı artık kiralama yükümlülüğünden çok daha düşük olduğundan, tutar daha önce olduğundan farklı bir şekilde amorti edilmelidir. Özellikle, varlık artık hareket tarihinden başlayarak kalan 84 kiralama ayı boyunca sabit esasa göre amorti edilir.

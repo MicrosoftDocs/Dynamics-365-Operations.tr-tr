@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937672"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952610"
 ---
 # <a name="engineering-change-management-overview"></a>Mühendislik değişikliği yönetimine genel bakış
 
@@ -71,6 +71,7 @@ Sonra, aşağıdaki adımları izleyerek yapılandırma anahtarını açın.
 
 1. Sürüm boyutunu da kullanmak istiyorsanız **Ürün boyutu - Sürüm** onay kutusunu da seçin. (Bu onay kutusu listede daha aşağıdadır, **Mühendislik Değişim Yönetimi** düğümünün içinde değildir.)
 1. [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın.
+1. Konfigürasyon anahtarlarının doğru şekilde etkinleştirildiğinden emin olmak için veritabanı eşitlemeyi çalıştırın.
 
 > [!IMPORTANT]
 > 2022 Nisan'dan itibaren, tüm yeni yüklemelerde **Mühendislik Değişim Yönetimi** ve **Ürün boyutu- Sürüm** için lisans anahtarları varsayılan olarak etkinleştirilir, ancak gerekirse bunları devre dışı bırakabilirsiniz.

@@ -4,7 +4,7 @@
       items:
         - name: Dynamics 365 Finance giriş sayfası
           href: index.md
-        - name: Kullanmaya başlama
+        - name: Kullanmaya başlayın
           items:
             - name: Hizmet açıklaması
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Nakit akışı tahminini etkinleştirme
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Nakit akışı tahminlerinde dış veriler
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Bütçe tekliflerini etkinleştirme
                   href: finance-insights/enable-budget-proposal.md
                 - name: Veri tümleştirici projesi oluşturma
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: Nakit pozisyonu
                   href: finance-insights/cash-position.md
-                - name: Nakit akışı tahmini
+                - name: Nakit tahmini
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Nakit akışı tahminlerinde dış verileri kullanma
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Müşteri ödeme tahminleri
                   href: finance-insights/payment-insights-overview.md
                 - name: Müşteri ödeme tahminleri kullanma
@@ -1416,7 +1416,7 @@
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: Kullanım yönetimi panosu
                       href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
-                    - name: Kullanmaya başlama
+                    - name: Kullanmaya başlayın
                       items:
                         - name: Elektronik Faturalama hizmet yönetimini kullanmaya başlama
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Suudi Arabistan için Elektronik faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: SDI ile İtalyan FatturaPA doğrudan tümleştirmesini ayarlama
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Satıcı faturalarını içeri aktarmak için elektronik faturalama hizmetini kullanma
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronik Faturalamayı ayarlama
@@ -1512,7 +1514,11 @@
                           items:
                             - name: KDV beyannamesi
                               href: localizations/emea-gbr-vat-declaration.md
-                    - name: Transfer emri için Vergi Hesaplamayı etkinleştirme
+                        - name: Norveç için raporlama
+                          items:
+                            - name: KDV beyannamesi
+                              href: localizations/emea-nor-vat-declaration.md
+                    - name: Transfer emri için Vergi Hesaplamasını etkinleştirme
                       items:
                         - name: Transfer emirleri için vergi özelliği desteği
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
@@ -1557,7 +1563,7 @@
                 - name: KDV beyanı
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Sınır ötesi hizmetler raporu
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Avusturya İntrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Satın alma harçları
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Sabit kıymetler amortisman yöntemleri
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Çin Altın Vergisi veri varlığını içeri aktarma
+                - name: Çin Altın Vergisi dosyalarını içeri aktarma
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Aylık ortalama maliyet modeli
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: Finlandiya için satış vergisi ödeme raporu
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Fince İntrastat
+                  href: localizations/emea-fin-intrastat.md
             - name: Fransa
               items:
                 - name: Fransa'ya genel bakış
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: Endonezya için KDV beyannamesi
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Endonezya için stopaj vergisi raporu
+                  href: localizations/apac-idn-wht-declaration.md
             - name: İtalya
               items:
                 - name: İtalya'ya genel bakış

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891938"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952689"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Üçüncü taraf üretim yürütme sistemleriyle tümleştirme
 
@@ -37,10 +37,17 @@ Aşağıdaki şekil, tümleşik bir çözümde alınan iş olayları, işlemler 
 
 ## <a name="turn-on-the-mes-integration-feature"></a>MES tümleştirme özelliğini açma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+Aşağıdaki prosedürde açıklandığı şekilde, bu özelliği kullanabilmeden önce yöneticinizin bunu sisteminizde açması gerekir.
 
-- **Modül:** *Üretim denetimi*
-- **Özellik adı:** *Üretim yürütme sistemi tümleştirmesi*
+1. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin.
+1. **Zaman ve katılım** lisans anahtarının etkin olduğundan emin olun (onay işareti gösterir). Üretim yürütme sisteminin işlevlerini ve verilerini kontrol ettiğinden, bu lisans anahtarı gereklidir. Bu etkin değilse, aşağıdaki adımları uygulayın:
+    1. Sisteminizi [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım moduna alın.
+    1. **Lisans yapılandırması** sayfasında, **zaman ve katılım** onay kutusunu seçin.
+    1. [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın
+1. **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
+1. Listelenen özelliği aşağıdaki şekilde açın (ayrıca bkz. [Özellik yönetimi genel bakışı](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
+    - **Modül:** *Üretim denetimi*
+    - **Özellik adı:** *Üretim yürütme sistemi tümleştirmesi*
 
 ## <a name="processes-available-for-mes-integration"></a>MES entegrasyonu için kullanılabilen işler
 

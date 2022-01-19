@@ -2,19 +2,19 @@
 title: Finance and Operations uygulamaları için hizmet açıklaması
 description: Bu konuda, Finance and Operations uygulamaları için hizmet açıklaması sağlanmaktadır.
 author: tomhig
-ms.date: 12/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898401"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952378"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için hizmet açıklaması
 
@@ -117,7 +117,7 @@ Finance and Operations uygulamaları, dünya çapında çeşitli Azure bölgeler
 ### <a name="countryregion-specific-considerations"></a>Ülkeye/bölgeye özel konular
 
 - Fransa'da yerel veri yerleşimi gerektiren kuruluşlarla iş yapan, düzenlemeye tabi sektörler veya ticari kuruluşlardaki müşterilerin [Fransa'da Finance and Operations](../../dev-itpro/deployment/france-local-deployment.md) uygulamasını incelemesi gerekir.
-- Çin'de faaliyet gösteren müşterilerin [Çin'de 21Vianet tarafından işletilen Finance and Operations](../../dev-itpro/deployment/china-local-deployment.md) uygulamasını incelemesi gerekir.
+- Çin'de faaliyet gösteren müşterilerin [Azure Çin Playbook](/azure/china/) ve [Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamasını](../../dev-itpro/deployment/china-local-deployment.md) incelemesi gerekir.
 - Rusya'da faaliyet gösteren müşterilerin [Rusça kişisel veri yerelleştirme yasasını](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia) incelemesi gerekir.
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Genel Veri Koruma Yönetmeliği (GDPR)
@@ -356,6 +356,7 @@ Microsoft, hizmetin aylık yüzde 99,9 kullanılabilirlik oranını taahhüt ede
 - **[Lisans kılavuzu](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)**: Dynamics 365'i lisanslama hakkında daha fazla bilgi edinmek için bu kılavuzu kullanın.
 - **[Müşteri desteği](https://dynamics.microsoft.com/support/)**: Dynamics 365 uygulamalarınız için sektör lideri destek alın.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)**: Uygulama yaşam döngünüzü yönetin ve tahmin edilebilir, tekrarlanabilir, yüksek kaliteli uygulamalara geçiş yapın.
+- **[Dynamics 365 Uygulama Kılavuzu](https://aka.ms/D365ImplementationGuideFlip)** - Dynamics 365 Uygulama Kılavuzu, zamanla sınanan Success by Design ilkelerini belgelemektedir ve Dynamics 365 çözümlerini geliştirmek, oluşturmak, test etmek ve dağıtmak için tavsiyeler sunar.
 
 ## <a name="definitions"></a>Tanımlar
 
@@ -428,6 +429,10 @@ SLA, Microsoft çevrimiçi hizmetleri için geçerlidir. Daha fazla bilgi için 
 ### <a name="service-update"></a>Hizmet güncelleştirmesi
 
 Microsoft, hizmet güncelleştirmeleri aracılığıyla Finance and Operations ortamlarına tutarlı bir şekilde hizmet sağlar. Müşteriler, iş gereksinimlerine göre kendi hizmet güncelleştirme takvimlerini belirler. Daha fazla bilgi için bkz. [Bir Sürüm hizmeti güncelleştirmeleri](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+Bir Dynamics 365 çözümü için en uygun mimariyi, güvenlik, performans ve Kullanıcı deneyimini sağlamak amacıyla, kritik aşamalardaki bir uygulamayı sistematik olarak yönlendiren bir çerçeve.
 
 ### <a name="user"></a>Kullanıcı
 

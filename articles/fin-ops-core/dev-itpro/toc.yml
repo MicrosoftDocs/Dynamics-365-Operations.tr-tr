@@ -510,8 +510,10 @@
                   href: dev-tools/pipeline-asset-upload.md
                 - name: Kıymetleri Azure Pipelines kullanarak dağıtma
                   href: dev-tools/pipeline-deploy-asset.md
-                - name: Azure Pipelines'ta Lifecycle Services (LCS) bağlantısı oluşturma
+                - name: Azure Pipelines'da Lifecycle Services (LCS) bağlantısı oluşturma
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Azure Pipelines'da LCS bağlantı kimlik doğrulama görevlerini MSAL için güncelleştirme
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: Yeni NuGet paketleri için barındırılan Azure Pipeline'ı güncelleştirme
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Azure Pipelines'ta eski bir işlem hattını güncelleştirme
@@ -1482,8 +1484,10 @@
               href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: En iyi uygulamalar
               href: perf-test/rsat/rsat-best-practices.md
-            - name: Regression Suite Automation Tool kullanarak veri belirsizliği testi
+            - name: Regression Suite Automation Tool'u kullanarak veri belirsizliği testi
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Regression Suite Automation Tool'u (RSAT) paralel yürütme ile çalıştırma
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Sorun giderme
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Lifecycle Services kullanarak çözümler yayımlama

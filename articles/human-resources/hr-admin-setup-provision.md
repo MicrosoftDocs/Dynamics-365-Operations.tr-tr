@@ -2,7 +2,7 @@
 title: Human Resources'ı sağla
 description: Bu konuda, Microsoft Dynamics 365 Human Resources için yeni bir üretim ortamı hazırlama işlemi açıklanmaktadır.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644539"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952714"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı sağla
 
@@ -44,7 +44,7 @@ Yeni bir üretim ortamını hazırlamaya başlayabilmeniz için aşağıdaki ön
 
 Deneme ortamları, bir İnsan Kaynakları ortamına erişimi olmayan kişiler için insan kaynakları işlevini değerlendirme olanağı sağlar. Deneme ortamı sağlıyorsanız ve kimliği doğrulanmış kullanıcının mevcut bir veya daha fazla İnsan Kaynakları ortamına erişimi zaten varsa Kullanıcı mevcut ortama ya da ortam listesine yeniden yönlendirilir.
 
-Deneme ortamlarının üretim ortamı olarak kullanılmaları amaçlanmamıştır. 60 günlük deneme süresi ile sınırlıdır. Deneme süresi sona erdiğinde, ortam ve ortamdaki tüm verilerin silinir ve kurtarılamaz. Ortam bir korumalı alana veya üretim ortamına dönüştürülemez. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
+Deneme ortamlarının üretim ortamı olarak kullanılmaları amaçlanmamıştır. 30 günlük deneme süresi ile sınırlıdır. Deneme süresi sona erdiğinde, ortam ve ortamdaki tüm verilerin silinir ve kurtarılamaz. Ortam bir korumalı alana veya üretim ortamına dönüştürülemez. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
 
 Human Resources deneme ortamı oluştururken kiracıda ayrıca bir Power Apps deneme ortamı oluşturulur ve Human Resources ortamına bağlanır. "TestDrive" adlı Power Apps ortamı, Human Resources ortamı ile aynı deneme süresine sahiptir.
 

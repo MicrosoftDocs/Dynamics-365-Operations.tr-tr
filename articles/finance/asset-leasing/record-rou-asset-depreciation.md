@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345382"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947327"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Kullanım hakkı varlığı amortismanı kaydetme (Önizleme)
 
@@ -35,7 +35,7 @@ Bir kuruluşun bilanço tablosunda kabul edilen kiralamalar için, kullanım hak
 1. **Kiralama özeti** sayfasında bir kiralama seçin. Ardından, **Varlık amortisman planı** sayfasını açmak için **Defterler \> Varlık amortisman planı**'nı seçin.
 
     ROU varlığı amortisman gideri günlük girişi, **Amortisman Gideri** sütunundaki tutara dayanır. Muhasebe standardına uyum kılavuzu örneği için bu konunun ilerleyen kısımlarındaki [Finansal kiralamalar için ROU varlığı amortisman giderinin hesaplanması](#calculation-of-rou-asset-amortization-expense-for-finance-leases) bölümüne bakın.
-
+    
 2. Amortisman dönemini seçin ve **Günlük oluştur**'u seçin. Amortismanı kaydetmek için kullanılacak günlüğün oluşturulduğunu bildiren bir ileti alırsınız.
 3. **Varlık kiralama günlüğü** sayfasını açmak için **Günlükler \> Varlık kiralama günlükleri**'ni seçin. Burada, oluşturulan amortisman gideri günlük girişini görüntüleyebilirsiniz.
 
@@ -70,6 +70,8 @@ Daha önce belirtildiği gibi sabit kiralama gideri, tüm ödemelerin toplamın�
 
 > [!NOTE]
 > ASC 842 uyarınca, bir işletme kiralaması için ROU varlığının amortismanı gelir tablosunda kiralama gideri olarak sınıflandırılır. Görünürlük açısından Varlık kiralama, girişi ROU varlığının amortismanı olarak tanımlar. Ancak, borç girişi bir işletme kiralama gideri hesabına atanmalıdır ve alacak girişi, doğrudan işletme kiralaması için ROU varlığına atanmalıdır. Bununla birlikte, kiralama parametrelerinde, alacak girişlerinin işletme ROU varlıkları için birikmiş amortisman hesabına yapılması gerektiğini belirtebilirsiniz.
+
+Kira, bir işletim kirası olarak sınıflandırılıyorsa, değer düşüşü ardından aylık amortisman, sabit amortisman kullanılarak hesaplanır.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Finansal kiralamalar için ROU varlığı amortisman giderinin hesaplanması
 
