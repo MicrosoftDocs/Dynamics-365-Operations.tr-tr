@@ -3,22 +3,21 @@ title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: peakerbl
 ms.date: 10/21/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a7e867b2815920a68e3cd79843ba7b15ed6bb635
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675381"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7981997"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -204,7 +203,7 @@ Temizleme işlemini zamanlarken, temizleme ölçütlerini tanımlamak için aşa
 ## <a name="job-history-clean-up-and-archival"></a>İş geçmişi temizleme ve arşivleme 
 İş geçmişi temizleme ve arşivleme işlevi, temizleme işlevinin önceki sürümlerinin yerine geçer. Bu bölümde bu yeni özellikler açıklanmaktadır.
 
-Temizleme işlevinde yapılan ana değişikliklerden biri, geçmişi temizlemek için sistem toplu işinin kullanılmasıdır. Sistem toplu işi kullanıldığında, Finance and Operations uygulamaları temizleme toplu işini otomatik olarak zamanlar ve sistem hazır olduğunda çalıştırır. Toplu işlemin el ile zamanlanmasına gerek kalmaz. Bu varsayılan yürütme modunda toplu iş, gece yarısı başlayarak her saat yürütülür ve son 7 günün yürütme geçmişi saklanır. Temizlenen geçmiş, ileride alınabilecek şekilde arşivlenir. Sürüm 10.0.20 ile başlayarak her zaman açık bu özellik.
+Temizleme işlevinde yapılan ana değişikliklerden biri, geçmişi temizlemek için sistem toplu işinin kullanılmasıdır. Sistem toplu işi kullanıldığında, Finance ve Operations uygulamaları temizleme toplu işini otomatik olarak zamanlar ve sistem hazır olduğunda çalıştırır. Toplu işlemin el ile zamanlanmasına gerek kalmaz. Bu varsayılan yürütme modunda toplu iş, gece yarısı başlayarak her saat yürütülür ve son 7 günün yürütme geçmişi saklanır. Temizlenen geçmiş, ileride alınabilecek şekilde arşivlenir. Sürüm 10.0.20 ile başlayarak her zaman açık bu özellik.
 
 Temizleme işlemindeki ikinci değişiklik, temizlenen yürütme geçmişinin arşivlenmesidir. Temizleme işi, silinen kayıtları DIXF tarafından düzenli tümleştirmeler için kullanılan blob depolamaya arşivler. Arşivlenen dosya, DIXF paketi biçiminde olur ve 7 gün boyunca blob'da kullanılabilir olur. Dosya bu süre içinde indirilebilir. Arşivlenen dosya için varsayılan 7 günlük süre, parametrelerde en fazla 90 güne kadar değiştirilebilir.
 

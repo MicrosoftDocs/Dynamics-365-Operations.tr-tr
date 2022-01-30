@@ -1,8 +1,8 @@
 ---
 title: İşe alma süreçlerini yönetme
-description: Bu makalede, işe alanların işe alma sürecindeki adımları izlemek için kullanabileceği bir kavram açıklanmaktadır.
+description: Bu konuda, işe alanların işe alma sürecindeki adımları izlemek için kullanabileceği bir kavram açıklanmaktadır.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf873a58900fa86d068d9ebc75f4f389e7d8359cc685d4635e083437c55ae56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753002"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7965076"
 ---
 # <a name="manage-recruiting-processes"></a>İşe alma süreçlerini yönetme
 
@@ -42,7 +42,7 @@ Bu konu açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınm
 - Uygulama son başvuru tarihi
 - Tahmini işe başlangıç tarihi
 
-İşe alma projesi, açık pozisyon için duyuru yapılmak üzere **Personel self servis** altında kullanılan **İş ilanını** içerir. Açık pozisyonun çalışanlara gösterilmesi için işe alma projesinin mutlaka bir **İş ilanına** sahip olması, **Personel self serviste göster** alanının Evet konumuna ayarlanmış olması, **Başvuru son tarihinin** daha ileri bir tarih olması ve işe alma projesinin durumunun **Başlatıldı** olması gerekir. Aşağıdaki tabloda olası işe alma projesi durumları ve bunlara ilişkin açıklamalar listelenmiştir.
+İşe alma projesi, açık pozisyon için duyuru yapılmak üzere **Personel self servis** sayfası altında kullanılan **İş ilanı** değerini içerir. Açık pozisyonun çalışanlara gösterilmesi için işe alma projesinin mutlaka bir **İş ilanı** değerine sahip olması, **Personel self serviste göster** alanının **Evet** konumuna ayarlanmış olması, **Başvuru son tarihi** alanının daha ileri bir tarih olması ve işe alma **Projesinin durumu** değerinin **Başlatıldı** olması gerekir. Aşağıdaki tabloda olası işe alma projesi durumları ve bunlara ilişkin açıklamalar listelenmiştir.
 
 | Durum    | Şunları gösterir…                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Bu konu açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınm
 
 ## <a name="applicants"></a>Başvuranlar
 
-Bir başvuran, kuruluşunuzdaki bir işe başvuran bir kişidir. Başvuranlar kuruluşunuz içindeki tüm tüzel varlıklar arasında paylaşılarak, içerisinde arama yapabileceğiniz geniş bir yetenek havuzunu size sağlar. Başvuru sahipleri için yeterlilikleri, referansları, lojman taleplerini ve kişisel bilgileri saklayabilirsiniz. Bir başvuran kaydı oluşturduğunuzda, Genel Adres Defteri'nde o başvuran kişi için kayıt oluşturulur. Başvuru sahipleri için aşağıdaki genel adres defterini güncellemek için **Başvuru sahibi** sayfasını kullanabilirsiniz:
+Bir başvuran, kuruluşunuzdaki bir işe başvuran bir kişidir. Başvuranlar, organizasyonunuzdaki tüm yasal varlıklar arasında paylaşılır. Bu nedenle, içinde arama yapılacak büyük bir havuz vardır. Başvuru sahipleri için yeterlilikleri, referansları, lojman taleplerini ve kişisel bilgileri saklayabilirsiniz. Bir başvuran kaydı oluşturduğunuzda, Genel Adres Defteri'nde o başvuran kişi için kayıt oluşturulur. Başvuru sahipleri için aşağıdaki genel adres defterini güncellemek için **Başvuru sahibi** sayfasını kullanabilirsiniz:
 
 - Adres bilgileri
 - İletişim bilgileri
@@ -84,7 +84,7 @@ Başvuru durumu bir uygulamanın işe alma işleminin neresinde olduğunu göste
 
 ### <a name="correspondence-actions"></a>Yazışma eylemleri
 
-Bir **Başvuru sahibi'nin** iletişim eylemi, başvuruyu gönderen başvuru sahibiyle iletişim kurmak için kullandığınız belgeyi veya e-posta şablonunu belirler. **Başvuru yer işaretlerini** yazışma eylemleri ile ilişkilendirerek Başvuru, Başvuran, Mülakat ve İşe alma proje sayfaları içerisindeki değerleri kullanarak başvuranlarla iletişimini sağlayabilirsiniz. **Başvuru e-posta şablonları** belirli bir duruma ve yazışma eylemi kombinasyonuna sahip başvuranlara hızlı bir biçimde e-postalar göndermek için yazışma eylemleri için oluşturulabilir. Örneğin, Alındı **Durumuna** ve Alındı **Yazışma eylemi**'ne sahip tüm başvuranlara bir Onay e-postası gönderebilirsiniz. E-postayı gönderdikten sonra başvuranların durumunu otomatik olarak güncelleştirme seçeneğiniz vardır.
+Bir başvuru sahibinin iletişim eylemi, başvuruyu gönderen başvuru sahibiyle iletişim kurmak için kullandığınız belgeyi veya e-posta şablonunu belirler. **Başvuru yer işaretlerini** yazışma eylemleri ile ilişkilendirerek **Başvuru**, **Başvuran**, **Mülakat** ve **İşe alma proje** sayfaları içerisindeki değerleri kullanarak başvuranlarla iletişimini sağlayabilirsiniz. İlgili eylemler için **başvuru e-posta şablonları** oluşturarak, başvurularında belirli bir durum ve karşılık gelen eylem kombinasyonu olan başvuranlara hızlıca e-posta gönderebilirsiniz. Örneğin, **Alındı** **Durum** değerine ve **Alındı** **Yazışma eylemi** durumuna sahip tüm başvuranlara bir onay e-postası gönderebilirsiniz. E-postayı gönderdikten sonra, başvuranların durumunu otomatik olarak güncelleştirme seçeneğiniz vardır.
 
 ## <a name="application-routing"></a>Başvuru rotası
 
@@ -101,6 +101,5 @@ Açık bir pozisyon için iyi bir aday olabilecek kişilerin belirlenmesi için 
 ## <a name="hiring-applicants"></a>Başvuru sahiplerinin işe alınması
 
 Bir başvuru sahibini işe almak için **Uygulamalar** sayfasını kullanın. Bir başvuru sahibini işe aldığınızda başvuru kaydının durumu **İşe alındı** olarak değişir ve başvuru sahibinin genel adres defteri kişi kaydı, yeni çalışan kaydıyla ilişkilendirilir. Yeni çalışan kaydı için genel adres defteri bilgileri üzerindeki değişiklikler yanı zamanda başvuru kaydında da görüntülenir. Bu, yeni çalışan kuruluşunuzda başka bir işe başvurursa veri girişini azaltmaya yardımcı olabilir. Bir çalışanı yeni bir pozisyonda işe almak için, nakil işlemini başlatmak üzere **Başvuru durumu** açılır menüsünde **Konum değiştir**'i tıklatın.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

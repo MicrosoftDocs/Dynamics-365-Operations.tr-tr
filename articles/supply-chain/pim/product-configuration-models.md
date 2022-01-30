@@ -3,7 +3,7 @@ title: Ürün yapılandırma modellerine genel bakış
 description: Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapısı oluşturmanızı sağlar.
 author: t-benebo
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8c583a9a5023b188788b3c2199a7602c425be93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568531"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984658"
 ---
 # <a name="product-configuration-models-overview"></a>Ürün yapılandırma modellerine genel bakış
 

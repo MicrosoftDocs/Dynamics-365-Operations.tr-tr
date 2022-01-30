@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b0ccbd1781ccb5aa7f5f62ea86888e1673cb77653af57f6c49319a2b5089ebf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfde8b40927ceaa216878d58ef72c5d91e9ebe01
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782455"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968808"
 ---
 # <a name="production-setup-requirements"></a>Üretim kurulumu gereksinimleri
 
@@ -39,7 +39,7 @@ Bu makalede, Üretim denetimiyle çalışabilmenize ilişkin kurulum gereksiniml
 -   Madde grupları tanımlama..
 -   Madde grupları için genel muhasebe hesapları ayarlama.
 -   Stok yönetimindeki stok tablosunu ayarlama.
--   Stok Yönetimi'nde ürün reçeteleri (BOM) ve ürün reçetesi versiyonları oluşturun.
+-   Ürün bilgileri yönetiminde ürün reçeteleri (BOM) ve ürün reçetesi versiyonları oluşturun.
 
 ## <a name="required-calendar-and-resource-setup"></a>Gereken takvim ve kaynak kurulumu
 Üretim Denetimi'ni kullanmadan önce Kuruluş Yönetimi'ni açın ve aşağıdaki sırayla takvim ve işlem kaynaklarını oluşturun ve tanımlayın:

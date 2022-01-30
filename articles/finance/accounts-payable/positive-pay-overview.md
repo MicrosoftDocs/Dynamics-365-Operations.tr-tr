@@ -3,7 +3,7 @@ title: Pozitif ödemeye genel bakış
 description: Bu makalede bir bankaya sunulabilecek çeklerin bir elektronik listesinin oluşturulması için kullanılan pozitif ödemeler hakkında bilgi verilmiştir.
 author: panolte
 ms.date: 08/22/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankPositivePaySummary
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5a428a945be8fd6b570cc4ad61e1f1d285b2a0205e72aab2418c300bdb967da3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5f36230b68986cffc985353a7130ba429dabd10e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737343"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984064"
 ---
 # <a name="positive-pay-overview"></a>Pozitif ödemeye genel bakış
 

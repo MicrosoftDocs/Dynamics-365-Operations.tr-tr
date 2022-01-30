@@ -2,23 +2,22 @@
 title: Mühendislik değişikliği yönetimine genel bakış (video içerir)
 description: Bu konuda, ürün sürümü oluşturma ve yönetme, ürün yaşam döngüleri ve mühendislik değişikliklerini yönetmenize yardımcı olan mühendislik değişikliği yönetimine genel bir bakış sağlanmaktadır.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952610"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985224"
 ---
 # <a name="engineering-change-management-overview"></a>Mühendislik değişikliği yönetimine genel bakış
 
@@ -39,9 +38,9 @@ Mühendislik değişikliği yönetimi, ürün sürümü oluşturma ve yönetme, 
 - İş akışları tarafından desteklenen mühendislik değişikliği istekleri
 - İş akışları tarafından desteklenen mühendislik değişikliği siparişleri
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-Önceki video ([Dynamics 365 Supply Chain Management'taki değişiklik yönetimi özellikleri](https://youtu.be/N313FqvRuBc)) YouTube'daki [Finance and Operations oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yer almaktadır.
+Önceki video ([Dynamics 365 Supply Chain Management'ta değişim yönetimi özellikleri](https://youtu.be/N313FqvRuBc)), [Finance ve Operations oynatma listesindedir](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ve YouTube'da yer almaktadır.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Sisteminiz için mühendislik değişikliği yönetimi özelliklerini açma
 
@@ -71,7 +70,9 @@ Sonra, aşağıdaki adımları izleyerek yapılandırma anahtarını açın.
 
 1. Sürüm boyutunu da kullanmak istiyorsanız **Ürün boyutu - Sürüm** onay kutusunu da seçin. (Bu onay kutusu listede daha aşağıdadır, **Mühendislik Değişim Yönetimi** düğümünün içinde değildir.)
 1. [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın.
-1. Konfigürasyon anahtarlarının doğru şekilde etkinleştirildiğinden emin olmak için veritabanı eşitlemeyi çalıştırın.
+1. Veritabanı, yapılandırma anahtarlarının doğru şekilde etkinleştirildiğinden emin olmak için eşitlenmelidir. Üzerinde çalıştığınız ortamın türüne bağlı olarak aşağıdaki adımlardan birini gerçekleştirin:
+    - **Katman 1 (geliştirme) ortamları için**: Projenizi Microsoft Visual Studio'da açın ve **Dynamics 365 \> Veritabanı eşitle \> Eşitle**'yi seçin.
+    - **Katman 2 (ve daha yüksek) ortamlar için**: Ortamı bakım moduna geçirdikten sonra otomatik olarak eşitler, bu adımı atlayabilirsiniz.
 
 > [!IMPORTANT]
 > 2022 Nisan'dan itibaren, tüm yeni yüklemelerde **Mühendislik Değişim Yönetimi** ve **Ürün boyutu- Sürüm** için lisans anahtarları varsayılan olarak etkinleştirilir, ancak gerekirse bunları devre dışı bırakabilirsiniz.

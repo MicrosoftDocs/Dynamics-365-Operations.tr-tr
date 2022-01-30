@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7857920a04faaebaee44d5485f7b2ffc2e675f59e7c9dc15b2b86376207e3a2d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772142"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964865"
 ---
 # <a name="work-with-style-presets"></a>Stil ön ayarlarıyla çalışma
 
@@ -115,8 +115,6 @@ Hazır ayarın stil değerleri herkese açık Web sitenizde etkin hale getirilir
 [CSS geçersiz kılma dosyalarıyla çalışma](css-override-files.md)
 
 [Favicon ekleme](add-favicon.md)
-
-[Hoş geldiniz iletisi ekleme](add-welcome-message.md)
 
 [Telif hakkı bildirimi ekleme](add-copyright-notice.md)
 

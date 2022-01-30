@@ -2,22 +2,22 @@
 title: Düzenleme güncelleştirmeleri
 description: Bu konu altında, Microsoft Dynamics 365 Finance için planlanan ve yayınlanan mevzuat güncelleştirmelerinin listesi verilmektedir.
 author: VStamberg
-ms.date: 07/15/2021
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772757"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016113"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -25,7 +25,7 @@ ms.locfileid: "6772757"
 
 Bu konu altında, desteklenen Dynamics 365 Finance yerelleştirmelerinde yayınlanması planlanan mevzuat güncelleştirmelerinin listesi verilmektedir. Teslimat saatleri değişebilir ve öngörülen işlevsellik farklı olabilir veya yayınlanmayabilir. Daha fazla bilgi için bkz. [Microsoft ilkesi](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Mevzuat güncelleştirmeleri, yeni veya değişen ülkeye özel yasaları desteklemek için sunulan özelliklerdir. Planlanan ve yayınlanan ülkeye özel özellikler hakkında ek bilgi almak için bkz. [Dynamics 365 ve Power Platform sürüm planları](/business-applications-release-notes/index)
+Mevzuat güncelleştirmeleri, yeni veya değişen ülkeye özel yasaları desteklemek için sunulan özelliklerdir. Planlanan ve yayınlanan ülkeye özel özellikler hakkında ek bilgi almak için bkz. [Dynamics 365 ve Power Platform sürüm planları](/business-applications-release-notes/index).
 
 Microsoft, yeni mevzuat gereksinimlerini olabildiğince erken uygulamaya çalışır. Gerçek teslim tarihi yasanın duyurulma tarihi, yerel otoritelerden gereksinim ayrıntılarının alınabilmesi, değerleme araçlarının mevcut olması ve değişikliğin boyutu ve karmaşıklığına bağlıdır.
 
@@ -71,7 +71,7 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-- Planlanan ve yayınlanan tüm mevzuat güncelleştirmelerini [Lifecycle Service - Konu arama](https://lcs.dynamics.com/Logon/Index) üzerinde bulun (oturum açma gerekli).
+- Tüm planlanan ve serbest bırakılmış ülkeye özel mevzuat güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Ülkeye özel mevzuat güncelleştirmelerini arama](search-for-regulatory-updates.md). (Giriş zorunludur.)
 - Desteklenen yerelleştirmelerin listesi için [Uluslararası kullanılabilirlik kılavuzuna](https://aka.ms/dynamics_365_international_availability_deck) göz atın.
 
 

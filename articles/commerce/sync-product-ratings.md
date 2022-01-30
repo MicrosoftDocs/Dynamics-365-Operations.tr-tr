@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a50c09dc9fd8a4c18bbd01c70338279ac0ad9ae6
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473537"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967962"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme
 
@@ -130,6 +130,16 @@ Aşağıdaki çizim, çağrı merkezi kanallarında ürün derecelendirmeleri ö
 [Derecelendirme ve incelemeleri yönetme](manage-reviews.md)
 
 [Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
+
+[Ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+[Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme](manual-publish-rating-reviews.md)
+
+[Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma](import-export-reviews.md)
+
+[Hizmetten hizmete kimlik doğrulamasını yapılandırma](service-to-service-auth.md)
+
+[Derecelendirmeler ve incelemelerle ilgili SSS](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

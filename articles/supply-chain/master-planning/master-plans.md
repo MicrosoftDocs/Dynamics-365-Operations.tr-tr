@@ -3,7 +3,7 @@ title: Master planlara genel bakış
 description: Şirketinizin günlük çalışma faaliyetlerini desteklemek, izlemek istediğiniz farklı planlama stratejilerinin benzetimini gerçekleştirmek ve dahili performans veya müşteri memnuniyetiyle ilgili şirket politikası uygulamak için çeşitli master planlar kullanın.
 author: ChristianRytt
 ms.date: 05/28/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ReqParameters, ReqPlanSched
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75f18d708bf71a7bec1d8a5bd95008aaa2ec4d90
-ms.sourcegitcommit: 2084fc166d027f8192a08cd5c00169c448869ac8
+ms.openlocfilehash: 03467778025287f3692e171bea37b1bfb2ca1646
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7582552"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982366"
 ---
 # <a name="master-plans-overview"></a>Master planlara genel bakış
 

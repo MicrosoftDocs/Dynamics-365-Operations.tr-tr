@@ -3,24 +3,23 @@ title: Mağaza sipariş karşılama
 description: Bu konu, Mağaza sipariş karşılama konusuna genel bir bakış sağlar.
 author: BrianShook
 ms.date: 10/30/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d22d01ab82148ba389cb7c14722bd07df91f762d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779658"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983354"
 ---
 # <a name="store-order-fulfillment"></a>Mağaza sipariş karşılama
 

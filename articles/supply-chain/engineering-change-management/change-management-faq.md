@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba489358ef2d74e816186f29956aea5538a2432825c7d949e7c9cc23d947b997
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714390"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007619"
 ---
 # <a name="engineering-change-management-faq"></a>Mühendislik değişim yönetimi SSS
 
@@ -63,6 +63,11 @@ Aşağıdaki tablolarda, bu işlemler sırasında kopyalanan alanlar gösterilmi
 | **Ürün çeşitleri** | **Varsayılan ürün varyantı** bölümündeki tüm alanlar | Mühendislik şirketi için kopyalanan alanların aynıları |
 
 Önceki tabloda gösterilen alanlara ek olarak, tüm varsayılan sipariş ayarları serbest bırakılmış madde şablonundan kopyalanır (hem ürün mühendislik şirketinde oluşturulduğunda hem de operasyonel şirkete serbest bırakıldığında). (Serbest bırakılan bir madde şablonunun varsayılan sipariş ayarlarını görüntülemek için ilgili **Serbest bırakılan ürün ayrıntıları** sayfasını açın ve ardından Eylem Bölmesi'nde **Stoğu Yönet** sekmesinde **Varsayılan sipariş ayarları**'nı seçin.)
+
+> [!NOTE]
+>
+> - Birim, şablondan alınır.
+> - Dynamics 365 Commerce İilevleri kullanan perakendeciler için bir ürüne bir perakende kategorisi atarken, perakende kategorisi serbest bırakılan ürün düzeyi için birçok alan için varsayılan değerleri uygular. Bu varsayılanlar, şablon tarafından önceden ayarlanmış veya mühendisten kopyalanmış olabilecek varsayılan değerlerin üzerine yazar.
 
 ## <a name="should-i-create-a-separate-legal-entity-for-engineering-products-or-use-an-existing-legal-entity"></a>Mühendislik ürünleri için ayrı bir tüzel kişilik mi oluşturmalıyım yoksa mevcut tüzel kişiliği mi kullanmalıyım?
 

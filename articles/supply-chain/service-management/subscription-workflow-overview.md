@@ -3,24 +3,23 @@ title: Abonelik iş akışı özeti
 description: Bu konu, abonelik iş akışına genel bir bakış sağlar.
 author: kamaybac
 ms.date: 05/07/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup, SMASubscriptionCreateDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98591a2bf712cc4df70ab18b5e65b37218d5b709
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cd1484563e9650b9ddae543e3440eec2a3ed075c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569973"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983057"
 ---
 # <a name="subscription-workflow-overview"></a>Abonelik iş akışı özeti 
 

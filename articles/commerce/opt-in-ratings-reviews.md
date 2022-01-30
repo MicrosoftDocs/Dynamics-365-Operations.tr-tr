@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9fe8e9403ccbdc1e26620ae33c6a3866af06b23c
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: fd6715539693389f25800a40c0beffcdc1b0de72
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473441"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968015"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Derecelendirme ve incelemeleri kullanmayı kabul etme
 
@@ -58,7 +58,13 @@ Sitenizde derecelendirme ve İncelemeler kullanmayı kabul etmek için aşağıd
 
 [Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
 
+[Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme](manual-publish-rating-reviews.md)
 
+[Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma](import-export-reviews.md)
+
+[Hizmetten hizmete kimlik doğrulamasını yapılandırma](service-to-service-auth.md)
+
+[Derecelendirmeler ve incelemelerle ilgili SSS](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

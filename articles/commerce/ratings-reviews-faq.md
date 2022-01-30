@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d3642392ed2cf231f261b24428756c6e32a79f98
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c6356f7c085b93e3e3f292e72f813f823e924487
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674586"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968189"
 ---
 # <a name="ratings-and-reviews-faq"></a>Derecelendirmeler ve incelemelerle ilgili SSS
 
@@ -41,5 +41,17 @@ Otomatik yayımlamayı önlemek için derecelendirmeler ve incelemelerin el ile 
 [Derecelendirme ve incelemeleri kullanmayı kabul etme](opt-in-ratings-reviews.md)
 
 [Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme](manual-publish-rating-reviews.md)
+
+[Derecelendirme ve incelemeleri yönetme](manage-reviews.md)
+
+[Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
+
+[Ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+[Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme](manual-publish-rating-reviews.md)
+
+[Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma](import-export-reviews.md)
+
+[Hizmetten hizmete kimlik doğrulamasını yapılandırma](service-to-service-auth.md)
 
 [Derecelendirme iyileştirici, derecelendirmeler ve incelemeler çözümü etkin olmadığında arama sonuçlarında ve kategori sayfalarında görünüyor](troubleshoot/hide-ratings-refiner.md)

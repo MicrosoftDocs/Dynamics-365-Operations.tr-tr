@@ -1,6 +1,6 @@
 ---
-title: Genel önizleme için Finance Insights (önizleme) sürüm 10.0.20 ve sonrası için yapılandırma
-description: Bu konu, genel önizleme için Finance Insights sürüm 10.0.20 ve sonrasında bulunan özellikleri kullanmak üzere sisteminizi yapılandırma yöntemini açıklamaktadır.
+title: Finance Insights için Yapılandırma - 10.0.20 sürümü ve sonrası
+description: Bu konu, Finance Insights sürüm 10.0.20 ve sonrasında bulunan özellikleri kullanmak üzere sisteminizi yapılandırma yöntemini açıklamaktadır.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927416"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968974"
 ---
-# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Genel önizleme için Finance Insights (önizleme) sürüm 10.0.20 ve sonrası için yapılandırma
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finance Insights için Yapılandırma - 10.0.20 sürümü ve sonrası
 
 [!include [banner](../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konu, genel önizleme için Finance Insights sürüm 10.0.20 ve sonrasında bulunan özellikleri sisteminizin kullanabilmesi için Dynamics 365 Finance sürüm 10.0.20'yi yapılandırma yöntemini açıklamaktadır.
+Finance Insights, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konu, Finance Insights sürüm 10.0.20 ve sonrasında bulunan özellikleri sisteminizin kullanabilmesi için Dynamics 365 Finance sürüm 10.0.20'yi yapılandırma yöntemini açıklamaktadır.
 
 > [!NOTE]
 > Bu konuda açıklanan yapılandırma adımları yalnızca Finance sürüm 10.0.20 ve sonrası için geçerlidir. Finance Insights'ı sürüm 10.0.19 ve öncesinde ayarlamak için bkz. [Sürüm 10.0.19'e kadar Finance Insights yapılandırmaları](configure-for-fin-insites.md).
@@ -38,7 +38,7 @@ Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microso
 
 Ortamları dağıtmak için aşağıdaki adımları uygulayın.
 
-1. Microsoft Dynamics Lifecycle Services'da (LCS), bir Finance ortamı oluşturun veya güncelleştirin. Ortam, sürüm 10.0.20 veya daha sonraki bir Finance and Operations uygulamaları sürümü gerektirir.
+1. Microsoft Dynamics Lifecycle Services'da (LCS), bir Finance ortamı oluşturun veya güncelleştirin. Ortam, Finance ve Operations uygulamalarının uygulama sürüm 10.0.20 veya daha yeni bir sürümünü gerektirir.
 2. Ortam, Korumalı Alan içinde yüksek kullanılabilirlik (HA) ortamı olmalıdır. (Bu ortam türü aynı zamanda Katman 2 ortamı olarak da bilinir.) Daha fazla bilgi için bkz. [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Finance Insights'ı bir korumalı alanda yapılandırıyorsanız tahminlerin çalışması için üretim verilerini ilgili ortama kopyalamanız gerekebilir. Tahmin modeli, tahminleri oluşturmak için birkaç senelik verileri kullanır. Contoso demo verileri, tahmin modelini yeterince geliştirmek için yeterli tarihsel veri içermez. 
 
@@ -126,7 +126,7 @@ Azure'yi yapılandırmak için Windows PowerShell betik dosyasını kullanmayla 
         - **Performans**: **Standart** seçeneğini belirlemenizi öneririz.
         - **Hesap türü**: **StorageV2**'yi seçmelisiniz.
 
-    3. **Gelişmiş seçenekler** iletişim kutusunda **Data Lake Storage 2. Nesil** seçeneği için **Hiyerarşik ad alanları** bölümünde **Etkinleştir**'i seçin. Bu özelliği etkinleştirmezseniz Power BI veri akışları gibi hizmetleri kullanarak, Finance and Operations uygulamalarının yazdığı verileri kullanamazsınız.
+    3. **Gelişmiş seçenekler** iletişim kutusunda **Data Lake Storage 2. Nesil** seçeneği için **Hiyerarşik ad alanları** bölümünde **Etkinleştir**'i seçin. Bu özelliği etkinleştirmezseniz Power BI veri akışları gibi hizmetleri kullanarak, Finance ve Operations uygulamalarının yazdığı verileri kullanamazsınız.
     4. **İncele ve oluştur**'u seçin. Dağıtım tamamlandığında, yeni kaynak Azure portalında gösterilir.
     5. Oluşturduğunuz depolama hesabına gidin.
     6. Sol menüde **Erişim anahtarları**'nı seçin.
@@ -752,6 +752,6 @@ Eklentinin yüklenmesi birkaç dakika sürebilir.
 
 ## <a name="feedback-and-support"></a>Geri bildirim ve destek
 
-Geri bildirim sağlamak veya destek almak istiyorsanız lütfen [Finance Insights (Önizleme)](mailto:fiap@microsoft.com) ekibine e-posta gönderin.
+Geri bildirim sağlamak veya destek almak istiyorsanız lütfen [Finance Insights](mailto:fiap@microsoft.com) ekibine e-posta gönderin.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

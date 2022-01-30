@@ -2,25 +2,25 @@
 title: Kiralama parametrelerini yapılandırma (Önizleme)
 description: Bu konuda, Varlık kiralamayla ilgili yapılandırma ayarları (ör. güvenlik bilgileri ve muhasebe ayarları) açıklanmaktadır.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeasePostingAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e5f0aeddfa9d3f27500b033d4b4fb0fb1731105a28be4a6934b2328d62df6ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a644b3c9d9ed4fc86a816af1ab338b96b1aa7ad
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779050"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968089"
 ---
 # <a name="configure-lease-parameters"></a>Kiralama parametrelerini yapılandırma
 
@@ -39,10 +39,11 @@ Birçok yapılandırma ayarı, Varlık kiralamanın davranışını etkiler. Bu 
 
     Bu seçeneği **Evet** olarak ayarlarsanız ve defterin hareket türü **Kümülatif Yakalama Seçeneği A veya B** ise sistem, **Alternatif borçlanma oranı** alanını **Defter kurulumu** sayfasındaki **Geçişte alternatif borçlanma oranı** değerine ayarlar. Bu seçenek **Hayır** olarak ayarlanırsa, defterin geçiş türüne bakılmaksızın, üst kiralamadaki oran **Defter ayrıntıları** sayfasındaki **Alternatif borçlanma oranı** alanının değerine ayarlanır.
 
-4. Amortisman gider hareketlerinin tersine çevrilmesine izin vermek için **Kapalı defter sürümünde amortisman ters işlemlerine izin ver** seçeneğini **Evet** olarak ayarlayın. Defter sürümü kapalı olsa bile gider hareketleri tersine çevrilebilir.
+4. Amortisman gider hareketlerinin tersine çevrilmesine izin vermek için **Kapalı defterde amortisman ters işlemlerine izin ver** seçeneğini **Evet** olarak ayarlayın. Defter sürümü kapalı olsa bile gider hareketleri tersine çevrilebilir.
 
     > [!NOTE]
     > Bu seçeneği **Hayır** olarak tutmanızı öneririz. Bu seçeneğin ayarı, kapatılmış bir defter sürümüne yanlışlıkla amortisman uygulanmasını önlemek için doğrulama ve denetim amaçlı kullanılır. Seçenek **Hayır** olarak kaldığında, net defter değerinin ve gelecekteki amortisman hesaplamalarının doğru olmasına yardımcı olursunuz.
 
+5. **Kira** sayfasının **Ödeme planı satırları** hızlı sekmesindeki ödeme tutarlarının dökümüne izin vermek için **Ödeme tutarı dökümüne izin ver** seçeneğini **Evet** olarak ayarlayın. Ödeme dökümü tipleri, **Ödeme tutarı türleri** sayfasında **Kurulum** altında tanımlanır. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

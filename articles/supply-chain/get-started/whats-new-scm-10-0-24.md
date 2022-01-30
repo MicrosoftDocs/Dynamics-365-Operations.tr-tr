@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.24 önizlemesi (Şubat 2022)
+title: Dynamics 365 Supply Chain Management 10.0.24'deki yenilikler veya değişiklikler (Şubat 2022)
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.24'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f6402d7f9f433ca621c475bd62553529943dbe62
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920560"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986315"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24 önizlemesi (Şubat 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24'deki yenilikler veya değişiklikler (Şubat 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.24'deki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1084 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.24 sürümündeki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.1084 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Önizleme sürümü:** Aralık 2021
 - **Sürüm genel kullanılabilirliği (otomatik güncelleştirme):** Ocak 2022
@@ -69,9 +68,9 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.24 sürümü için platform güncelleştirmeleri (Kasım 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.24 sürümü için platform güncelleştirmeleri (Kasım 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

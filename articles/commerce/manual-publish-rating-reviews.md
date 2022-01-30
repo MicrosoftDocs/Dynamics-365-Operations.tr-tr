@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675061"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968215"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme
 
@@ -68,3 +68,17 @@ Aşağıdaki şekilde, Commerce site oluşturucudaki **Düzenleme** sayfasında 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Derecelendirmelere ve incelemelere genel bakış](ratings-reviews-overview.md)
+
+[Derecelendirme ve incelemeleri kullanmayı kabul etme](opt-in-ratings-reviews.md)
+
+[Derecelendirme ve incelemeleri yönetme](manage-reviews.md)
+
+[Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
+
+[Ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+[Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma](import-export-reviews.md)
+
+[Hizmetten hizmete kimlik doğrulamasını yapılandırma](service-to-service-auth.md)
+
+[Derecelendirmeler ve incelemelerle ilgili SSS](ratings-reviews-faq.md)

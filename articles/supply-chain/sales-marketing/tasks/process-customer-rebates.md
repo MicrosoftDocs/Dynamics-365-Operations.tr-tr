@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573357"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969099"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Müşteri indirimlerini oluşturma ve işleme
 
@@ -69,7 +69,7 @@ Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesapla
 2. **Biriktir**'e tıklayın.
 3. **Müşteri** alanına bir değer girin veya buradan bir değer seçin.
 4. **Başlangıç tarihi** alanında bugünün tarihini seçin.
-5. **Tamam**'a tıklayın. **Biriktir** işlevinin çalıştırılması sonucunda tahmini talep tutarı, şimdi müşterinin ilgili dönemde toplam satış hacminin, indirimin ilk oluşturulduğu zaman göre daha yüksek olduğu gerçeğine göre ayarlanır. Daha detaya girmek gerekirse, satılan toplam miktar 100 birime ulaştığı için, müşteri artık ürün başına 40 ABD doları (anlaşmanın ikinci miktar kırılması uyarınca) veya toplam 400 ABD doları toplam indirim miktarına hak kazanmıştır. Fark ek 800 USD için bir yeni talep için "ayarlama" olarak kaydedilir. Biriktirme güncelleştirmesinde dahil edilen indirim talebinin durumu şimdi Hesaplandı olarak ayarlanmıştır. 
+5. **Tamam**'a tıklayın. **Biriktir** işlevinin çalıştırılması sonucunda tahmini talep tutarı, şimdi müşterinin ilgili dönemde toplam satış hacminin, indirimin ilk oluşturulduğu zaman göre daha yüksek olduğu gerçeğine göre ayarlanır. Daha detaya girmek gerekirse, satılan toplam miktar 100 birime ulaştığı için, müşteri artık ürün başına 40 ABD doları (anlaşmanın ikinci miktar kırılması uyarınca) veya toplam 4,000 ABD doları toplam indirim miktarına hak kazanmıştır. Fark ek 800 USD için bir yeni talep için "ayarlama" olarak kaydedilir. Biriktirme güncelleştirmesinde dahil edilen indirim talebinin durumu şimdi Hesaplandı olarak ayarlanmıştır. 
 6. Listede, tüm satırları işaretleyin.
 7. **Onayla**'ya tıklayın.
 8. **İşle**'ye tıklayın.

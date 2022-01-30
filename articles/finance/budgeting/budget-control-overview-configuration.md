@@ -3,7 +3,7 @@ title: Bütçe kontrolüne genel bakış
 description: Bu konu bütçe denetimi özelliğini tanıtır ve kuruluşunuzun mali kaynaklarının yönetimini en iyi duruma getirmek için bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar.
 author: panolte
 ms.date: 11/08/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890737"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986068"
 ---
 # <a name="budget-control-overview"></a>Bütçe kontrolüne genel bakış
 

@@ -1,60 +1,61 @@
 ---
 title: Aday seçim araçlarını tanımlama ve dağıtma
 description: Boş konumları doldurmak için kalifiye aday havuzu bulmak, özellikle de konum benzersiz beceri grubu gerektirdiğinde zor olabilir.
-author: andreabichsel
-ms.date: 11/20/2020
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cae72f9ad1e627c1de547de9689f951a6aea0f9eb37d426034652332a7929a22
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23ac3067c03bf2cf336848301e8c27b60da8dc8c
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723043"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964869"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Aday seçim araçlarını tanımlama ve dağıtma
 
 [!include [banner](../../includes/banner.md)]
 
-Boş konumları doldurmak için kalifiye aday havuzu bulmak, özellikle de konum benzersiz beceri grubu gerektirdiğinde zor olabilir.  Ancak, gereksinim duyduğunuz becerilere sahip adaylar zaten kuruluşunuzda çalışıyor olabilir. Mevcut çalışanlar veya yeni başvuranlar arasında belirli bir yetenek kümesi arayabilirsiniz. Bu, işverene açık bir konum için geçmişte veya yeni başvuru yapanları hızlı şekilde toplama ve eleme ya da mevcut çalışan havuzundan olası adayları bulma olanağı sağlar. Yetenek eşleme işlevinin açık bir konum için doğru kişiyi bulmanıza nasıl yardımcı olacağını öğrenmek üzere bu görev kaydını kullanın. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+Boş konumları doldurmak için kalifiye aday havuzu bulmak, özellikle de konum benzersiz beceri grubu gerektirdiğinde zor olabilir. Ancak, gereksinim duyduğunuz becerilere sahip adaylar zaten kuruluşunuzda çalışıyor olabilir. Mevcut çalışanlar veya yeni başvuranlar arasında belirli bir yetenek kümesi arayabilirsiniz. Bu, işverene açık bir konum için geçmişte veya yeni başvuru yapanları hızlı şekilde toplama ve eleme ya da mevcut çalışan havuzundan olası adayları bulma olanağı sağlar. Yetenek eşleme işlevinin açık bir konum için doğru kişiyi bulmanıza nasıl yardımcı olacağını öğrenmek üzere bu prosedürü kullanın. Bu yordamı oluşturmak için **USMF** demo verileri şirketi kullanılmıştır.
 
-1. İnsan Kaynakları > Yetkinlikler > Yetenek analizi > Yetenek eşleme profilleri'ne gidin.
-2. Yeni'ye tıklayın.
-3. Yetenek eşleme alanına, yetenek eşleme için bir ad girin.  Örnek: Muhasebeci.
-4. Açıklama alanına, yetenek eşleme açıklamasını girin.
-5. Tarih alanına bir tarih girin.
-6. Profili al'a tıklayın.
-    * Aramanın temeli olarak seçilen Kişi, İş veya Kurstan Sertifika, Beceri ve Eğitim verilerini almak için Alma profilini kullanın.   Ardından ölçüt ekleyip kaldırabilir, ölçütün isteğe bağlı olup olmadığını belirtebilir ve ölçütün önemini derecelendirebilirsiniz.  
-7. İş'e tıklayın.
-8. İş alanına bir değer girin veya buradan bir değer seçin.
-9. Tamam'a tıklayın.
-10. Aralık hızlı sekmesini genişletin ve departman gibi ek bilgileri ekleyin.
-11. Sertifikaları görmek veya düzenlemek için Sertifikalar hızlı sekmesini genişletin.
-12. Becerileri görmek veya düzenlemek için Beceriler hızlı sekmesini genişletin.
-13. Eğitim ölçütünü görmek veya düzenlemek için Eğitim hızlı sekmesini genişletin.
-14. Yürüt'e tıklayın.
-15. Tamam'a tıklayın.
-16. Sonuçlar'a tıklayın.
-17. Sonuçlar'a tıklayın.
-18. Devam'ı tıklatın.
-19. Sertifikalar'a tıklayın.
-    * Listelenen her kişi için ayrıntılara inebilir ve eğitim, beceriler ve mesleki deneyim ile ilgili ayrıntıları görebilirsiniz.  
+1. **İnsan kaynakları \> Uzmanlıklar \> Yetenek analizi \> Yetenek eşleştirme profilleri**'ne gidin.
+2. **Yeni**'yi seçin.
+3. **Yetenek eşleştirmesi** alanına, yetenek eşleştirmeniz için bir ad girin. Örneğin, **Muhasebeci** yazın.
+4. **Açıklama** alanına, yetenek eşleme açıklamasını girin.
+5. **Tarih** alanına bir tarih girin.
+6. Aramanın temeli olarak kullanmak üzere seçilen kişi, iş veya kurstan sertifika, beceri ve eğitim verilerini almak için **Alma profilini** kullanın. Ardından ölçüt ekleyip kaldırabilir, ölçütün isteğe bağlı olup olmadığını belirtebilir ve ölçütün önemini derecelendirebilirsiniz.
+7. **İş**'i seçin.
+8. **İş** alanına bir değer girin veya buradan bir değer seçin.
+9. **Tamam**'ı seçin.
+10. **Aralık** hızlı sekmesinde departman gibi ek bilgileri ekleyin.
+11. Sertifikaları görmek veya düzenlemek için **Sertifikalar** hızlı sekmesine gidin.
+12. Becerileri görmek veya düzenlemek için **Beceriler** hızlı sekmesine gidin.
+13. Eğitim ölçütünü görmek veya düzenlemek için **Eğitim** hızlı sekmesine gidin.
+14. **Yürüt**'ü seçin.
+15. **Tamam**'ı seçin.
+16. **Sonuç**'u seçin.
+17. **Sonuç**'u seçin.
+18. **Özgeçmiş**'i seçin.
+19. **Sertifikalar**'ı seçin.
+
+    Listelenen her kişi için ayrıntılara inebilir ve eğitim, beceriler ve mesleki deneyim ile ilgili ayrıntıları görebilirsiniz.
+
 20. Sayfayı kapatın.
 21. Sayfayı kapatın.
 22. Sonucu yeniden seçin.
-23. Rapor'a tıklayın.
-    * Rapor, en iyi eşleşmeleri raporun üst kısmında listeler.  Bir boşluk öğesinin listelendiğini görebilirsiniz.  Bu, beceri eşlemede listelenen düzey ile kişiye atanan beceri düzeyi arasındaki farktır.  
+23. **Rapor**'u seçin.
+
+    En iyi eşleşmeler, raporun üst kısmında listelenir. Bir boşluk öğesinin listelendiğini görmelisiniz. Bu öğe, beceri eşlemede listelenen düzey ile kişiye atanan beceri düzeyi arasındaki farktır.
+
 24. Sayfayı kapatın.
-25. Kaydet'e tıklayın.
-
-
+25. **Kaydet**'i seçin.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

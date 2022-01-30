@@ -3,7 +3,7 @@ title: Birleştirme ve elemeye genel bakış
 description: Bu konu konsolidasyon ve eleme işlemleri hakkında genel bilgi sağlar. Sık sorulan bazı soruların yanıtlarını içerir.
 author: panolte
 ms.date: 01/11/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidate
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3134c55458d09e2f9ec3aca3ce5c20afdbdf1d3
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: d844bc37d24fe1fc363a108702a2aae32b72f9e0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883451"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983579"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Birleştirme ve elemeye genel bakış
 

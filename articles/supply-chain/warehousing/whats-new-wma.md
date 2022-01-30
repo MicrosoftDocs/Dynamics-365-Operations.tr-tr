@@ -2,7 +2,7 @@
 title: Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni ve değiştirilmiş özellikleri listeler.
 author: Mirzaab
-ms.date: 09/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901900"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007586"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20140"></a>Sürüm 2.0.14.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- Varsayılan Gönder düğmesini devre dışı bırakan bir sorun düzeltildi.
+
+## <a name="version-20130"></a>Sürüm 2.0.13.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+ 
+- Daha yumuşak animasyona sahip, sayfalar arasında iyileştirilmiş kaydırma.
+- Kaydırma hareketleriyle ilgili sezgisel olmayan yanıtlar ve zaman zaman donan ekranlar çözüldü.
+- Daha iyi okunabilmesi için koyu mod metin ve arka plan renk birleşimleri geliştirildi.
+- Uygulama penceresi yeniden boyutlandırıldığında metnin çok küçük hale gelmesine neden olan bir sorun düzeltildi.
+- Barkod taranırken uygulamanın çökmesine neden olan bir sorun düzeltildi.
+- Kaydırıcıyı düğmeyle değiştirme olasılığı eklendi.
+- Uygulamanın, "AADSTS7000215: Geçersiz gizli anahtar sağlandı" hata mesajını göstermesine neden olan sorun çözüldü.
+- Aşağı yönlü hareketi kullanarak bir sayfanın nasıl kapatılacağını gösteren ipucu animasyonu düzeltildi.
+- Aşağı kaydırma hareketi kullanarak bir sayfayı kapatma olasılığı eklendi.
+- **Kullanıcı ayarları** sayfasında açılan liste başlıklarının gösterilmediği bir sorun düzeltildi.
+- Uygulamanın ondalık ayırıcı olarak virgülü (,) tanımadığı bir yerelleştirme sorunu düzeltildi.
+- İyileştirilmiş erişilebilirlik.
+- Gelişmiş erişilebilirlik sağlamak amacıyla **Yeni bağlantı** sayfasında gezinti düzeltildi.
+- Giriş alanı seçerken yumuşak (ekran) klavyenin görünmez olduğu bir sorun düzeltildi.
+- Kullanıcılar penceresini hızla yeniden boyutlandırdığında uygulamanın çökmesine neden olabilecek bir sorun düzeltildi.
+- Hızlı bir tuş basışının bazen uzun bir baskı olarak yorumlandığı bir sorun düzeltildi.
+- Supply Chain Management'ta yapılan alan özelleştirmeleri nedeniyle uygulama düzeninin bozulmasına neden olan bir sorun düzeltildi.
+- Madde yerleşimlerinin doğru olarak görüntülenmediği bir sorun düzeltildi.
+- Ürün varyantı iş akışı için kısa bir malzeme çekme ile ilgili bir sorun düzeltildi.
+- Önceden ayarlanmış varsayılan değerler içeren alanların gereksiz doğrulaması kaldırıldı.
+- Artan performans.
+- Kullanıcıların kart sayfasında nasıl filtre uygulanacağını ve sıralanın yer aldığı alanları seçmesine olanak sağlayan yeni bir ayar eklendi.
 
 ## <a name="version-20110"></a>Sürüm 2.0.11.0
 

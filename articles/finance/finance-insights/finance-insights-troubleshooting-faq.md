@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827065"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968848"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights kurulumu ile ilgili sorunları giderme
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, Finance Insights yeteneklerini kullandığınızda oluşabilecek sorunlar listelenmektedir. Ayrıca bu sorunların nasıl düzeltileceği açıklanmıştır.
 
@@ -55,7 +54,7 @@ Veri tümleştirme projelerinizi güncelleştirmek için [Power Platform yöneti
 1. Finance Insights önizleme sürümünü kullanıyorsanız **Müşteri ödeme içgörüleri sonuçları (CDS'den Fin ve Ops'a)** şablonuyla ilişkili DI projesini kaldırın.
 2. [Veri tümleştirici projesi oluşturma](create-data-integrate-project.md) bölümündeki adımları izleyin. **Müşteri ödeme içgörüleri sonuçları (CDS'den Fin, Ops 10.0.17 ve sonraki sürümlere)** şablonunu kullanın.
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Belirti: Müşteri ödeme tahminleri kurulum sayfasındaki bağlantıları kullanarak AI Builder'I açmayı denediğimde, şu hata iletisini niçin alıyorum: "Üzgünüz, bir bağlantı kesilmesi oldu"?
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Belirti: Müşteri ödeme tahminleri kurulum sayfasındaki bağlantıları kullanarak AI Builder'ı açmayı denediğimde, şu hata iletisini niçin alıyorum: "Üzgünüz, bir bağlantı kesilmesi oldu"?
 
 ### <a name="resolution"></a>Çözüm
 

@@ -3,23 +3,22 @@ title: Ambar yönetimi genel bakış
 description: Ambar yönetimini ambar işlemlerini izlemek ve otomatikleştirmek için kullanın.
 author: Mirzaab
 ms.date: 04/20/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5929b8a7de5f65239c0c6213ee238f9821577275
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579964"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982864"
 ---
 # <a name="warehouse-management-overview"></a>Ambar yönetimine genel bakış
 

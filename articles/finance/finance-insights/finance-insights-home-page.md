@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813759"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968823"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insights giriş sayfası
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Finance Insights, şirketinizin nakit akışını doğru ve anlaşılır şekilde tahmin etmek için yapılandırılabilir ve genişletilebilir çözümler sağlar, bekleyen alacak ödemeleri için ödemeyi ne zaman alacağınızı tahmin eder ve bütçeleme sürecinizi hızlandırabilecek bir bütçe teklifi oluşturur. Bu özellikler, sağladığınız verileri kullanarak (bir bürodan tüketici rapor bilgileri gibi üçüncü bir tarafın verileri de dahil) modeller oluşturmak için akıllı makine öğrenme şablonlarını kullanır. Bu akıllı yetenekler karar verme ve geçerli ve beklenen iş sorunlarını etkili şekilde yanıtlamak için önlem almanıza yardımcı olur. Finance Insights ile kullanılan veya çıktısını aldığınız tüm veriler sizin sorumluluğunuzdadır.
 
 > [!NOTE]
-> Finance Insights önizlemesi, Amerika Birleşik Devletleri, Kanada, Avrupa, Asya Pasifik, Japonya, Avusturalya, Yeni Zelanda ve Birleşik Krallık'ta dağıtım için sunulmuştur. Microsoft, destek sunduğu bölge sayısını kademeli olarak artırmaktadır.
+> Finance Insights, Amerika Birleşik Devletleri, Kanada, Avrupa, Asya Pasifik, Japonya, Avusturalya, Yeni Zelanda ve Birleşik Krallık'ta dağıtım için sunulmuştur. Microsoft, destek sunduğu bölge sayısını kademeli olarak artırmaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 

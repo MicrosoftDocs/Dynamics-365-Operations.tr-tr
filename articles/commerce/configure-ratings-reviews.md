@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473561"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968114"
 ---
 # <a name="configure-ratings-and-reviews"></a>Derecelendirme ve incelemeleri yapılandırma
 
@@ -87,9 +87,17 @@ Aşağıdaki çizim, bu yapılandırmasının Dynamics 365 Commerce'te nasıl g�
 
 [Derecelendirme ve incelemeleri yönetme](manage-reviews.md)
 
-[Ürün ayrıntıları sayfalarındaki derecelendirme ve İnceleme modüllerini konfigüre edin](ratings-reviews-modules.md)
-
 [Dynamics 365 Retail'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+[Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme](manual-publish-rating-reviews.md)
+
+[Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma](import-export-reviews.md)
+
+[Hizmetten hizmete kimlik doğrulamasını yapılandırma](service-to-service-auth.md)
+
+[Derecelendirmeler ve incelemelerle ilgili SSS](ratings-reviews-faq.md)
+
+[Derecelendirme ve inceleme modülleri](ratings-reviews-modules.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

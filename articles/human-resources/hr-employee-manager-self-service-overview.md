@@ -3,7 +3,7 @@ title: Personel ve Yönetici self servisine genel bakış
 description: Bu makalede, Personel ve Yönetici self servisi çalışma alanına genel bir bakış sağlanmaktadır.
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cea92092701f960f12aa74efe4c82c379a2b2c6d
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431223"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992053"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Personel ve Yönetici self servisine genel bakış
 

@@ -3,7 +3,7 @@ title: Regulatory Configuration Service
 description: Bu konu, Regulatory Configuration Service (RCS) yeteneklerine genel bakış sağlar ve hizmete nasıl erişebileceğinizi açıklar.
 author: JaneA07
 ms.date: 06/04/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 312fe318009a05de63fdba6aa8e6431836993957
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 816b1bf9da9acdd5999320f39fb68fb6deda197c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345185"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983479"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 

@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: 10.0.23 sürümü için platform güncelleştirmeleri (Ocak 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
-                - name: 10.0.22 sürümü için platform güncelleştirmeleri (Kasım 2021)
-                  href: get-started/whats-new-platform-updates-10-0-22.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -46,7 +44,7 @@
               href: dev-tools/aio-deployable-packages.md
             - name: Otomatik derlemede model sürümlerini güncelleştirme
               href: dev-tools/version-models-build.md
-        - name: Veri tümleştirmesi
+        - name: Veri tümleştirme
           items:
             - name: Finance and Operations uygulamaları ile üçüncü taraf hizmetler arasında tümleştirme
               href: data-entities/integration-overview.md
@@ -96,41 +94,41 @@
                       items:
                         - name: Aday müşteriden nakde
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                        - name: Sales'daki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Finance and Operations'daki ürünleri doğrudan Sales'teki ürünlerle eşitleme
+                        - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'daki ilgili kişilerle veya müşterilerle eşitleme
+                        - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
                         - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                         - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
+                        - name: Finance and Operations'taki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: Field Service ile tümleştirmeyi yapılandırma
                       items:
                         - name: Field Service ile tümleştirmeyi yapılandırmaya genel bakış
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Finance and Operations'daki ürünleri Field Service'teki ürünlerle eşitleme
+                        - name: Finance and Operations'taki ürünleri Field Service'teki ürünlerle eşitleme
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Field Service'teki iş emirlerini Finance and Operations'daki satış siparişleriyle eşitleme
+                        - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Field Service'teki sözleşme faturalarını Finance and Operations'daki serbest metin faturalarıyla eşitleme
+                        - name: Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Stok transferlerini ve ayarlamalarını Field Service'ten Finance and Operations'a eşitleme
+                        - name: Stok transferlerini ve ayarlamalarını Field Service'dan Finance and Operations'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Stok düzeyi bilgilerini Field Service'ten Finance and Operations'a eşitleme
+                        - name: Stok düzeyi bilgilerini Field Service'dan Finance and Operations'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Stok birimli ürünleri Finance and Operations'dan Field Service'e eşitleme
+                        - name: Stok birimli ürünleri Finance and Operations'tan Field Service'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Proje listesini Finance and Operations'dan Field Service'e eşitleme
+                        - name: Proje listesini Finance and Operations'tan Field Service'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Ambarları Finance and Operations'dan Field Service'e eşitleme
+                        - name: Ambarları Finance and Operations'tan Field Service'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Proje içeren iş emirlerini Field Service'ten Finance and Operations'a eşitleme
+                        - name: Proje içeren iş emirlerini Field Service'tan Finance and Operations'a eşitleme
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation tümleştirmesini yapılandırma
+                    - name: Project Service Automation tümleştirmesi yapılandırma
                       items:
                         - name: Project Service Automation'a genel bakış
                           href: /dynamics365/project-operations/prod-pma/PSA-integration
@@ -554,7 +552,7 @@
                   href: dev-tools/element-designers.md
                 - name: Öğe kullanımını belirleme komutları
                   href: dev-tools/element-usage.md
-                - name: Modelleri dışa ve içeri aktarma
+                - name: Modelleri dışa ve içe aktarma
                   href: dev-tools/models-export-import.md
                 - name: Visual Studio'da meta veri arama
                   href: dev-tools/metadata-search-visual-studio.md
@@ -1054,6 +1052,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Çift yazma için varlık eşlemeyi etkinleştirme
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Ayrılmış çift yazma uygulama düzenleme paketi
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: Çift yazma için para birimi veri türü geçişi
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: Satış siparişi durumu alanları için eşlemeyi ayarlama
@@ -1522,7 +1522,7 @@
                   href: lcs-solutions/regulatory-watch-communication.md
                 - name: Yerelleştirme modellerinin ayrılması
                   href: lcs-solutions/separate-localization-models.md
-                - name: Yasal uyarılar gönderme
+                - name: Yasalarla ilgili uyarılar gönderme
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Destek
           items:
@@ -1694,7 +1694,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: AX 2009'daki verileri geçirme
               items:
-                - name: AX 2009'dan Finance and Operations'a verileri geçirme
+                - name: Verileri AX 2009'dan Finance and Operations'a geçirme
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 geçişi - Veri geçişi aracını yükleme
                   href: migration-upgrade/install-dmt.md

@@ -1,5 +1,5 @@
 ---
-title: "\"Yeterli kapasite bulunamadı\" planlama altyapısı hatasını düzeltme"
+title: "\"Yeterli kapasite bulunamadı\" planlama altyapısı hatasını ve sınırlı kapasiteyi düzeltme"
 description: Bu konuda, "%1 üretim emri planlanamadı" hatasının nedenleri ve çözümleri hakkında bilgi sağlanmaktadır. Yeterli kapasite bulunamadı" planlama altyapısı hatasını gidermenize yardımcı olacak bir bağlantı sağlanmaktadır..
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565771"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985042"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>"Yeterli kapasite bulunamadı" planlama altyapısı hatasını düzeltme
 
@@ -105,5 +105,11 @@ Kaynak grubundaki kullanılabilir kapasiteyi incelemek için şu adımları izle
 
 1. **Kuruluş yönetimi \> Kaynaklar \> Kaynak grupları** bölümüne gidin ve planlanamayan emre uygun bir kaynak grubu seçin.
 1. Eylem Bölmesi'nde, **Kaynak grubu** sekmesinde, **Görüntüle** grubunda,**Kapasite yükü** veya **Kapasite yükü, grafik olarak** seçeneğini belirleyin ve kullanılabilir kapasite olduğundan emin olun.
+
+## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Ana planlama, kaynak takvim kapatıldığında bir kaynağı ayırır
+
+Operasyon planlama kullanırken master planlama, birincil kaynak grubunun takvimine göre kapasite planlayacaktır. İkincil operasyonu birincil işlemle aynı zamanda kitap içine alıp, ikincil operasyonun takvimlerini veya kapasitesini dikkate almaz. Bu, üretim emrinin kapalı bir takvimde veya ikincil operasyonun kullanılabilir olmadığı bir zamanda zamanlanmasına (takvim kapalı, kapasite yok) neden olabilir.
+
+İş planlama kullanırken, master planlama sipariş planlarken hem birincil hem de ikincil operasyonun kapasitesini ve takvimini dikkate alır. Siparişin planlanması için her iki operasyonun kaynakları için takvimler açık olması ve kullanılabilir kapasiteye sahip olması gerekir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

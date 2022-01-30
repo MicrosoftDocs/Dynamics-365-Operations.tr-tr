@@ -3,7 +3,7 @@ title: Bütçelemeye genel bakış
 description: Microsoft Dynamics 365 Finance içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
 author: panolte
 ms.date: 04/29/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
@@ -17,20 +17,20 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343668"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986522"
 ---
-# <a name="budgeting-overview"></a>Bütçelemeye genel bakış
+# <a name="budgeting-overview"></a>Bütçelemeye genel bakış 
 
 [!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 Finance içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
 
-## <a name="overview"></a>Genel bakış
+## <a name="overview"></a>Özet
 
 Tüzel kişilik için onaylanan bütçe *bütçe kayıt girişi* olarak bilinen bir belge içinde tutulur. Bütçe kaydı giriş belgesindeki satırlar *bütçe hesabı* girişleri olarak bilinir ve mali boyut bilgileri, tarihler ve onaylanan bütçelerin tutarlarını içerir. Bütçe kayıt giriş belgesi, genel muhasebe fiili tutarların bütçe tutarlarıyla karşılaştırıldığı temel mali raporlar ve sorgu sayfaları ile tümleşiktir. 
 

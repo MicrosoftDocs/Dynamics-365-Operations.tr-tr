@@ -1,27 +1,26 @@
 ---
 title: Özellik yönetimine genel bakış
-description: Bu konu Özellik Yönetimi özelliğini ve nasıl kullanabileceğinizi açıklar.
+description: Bu konu, Özellik Yönetimini ve bunu nasıl kullanabileceğinizi açıklar.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488190"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984471"
 ---
 # <a name="feature-management-overview"></a>Özellik yönetimine genel bakış
 
@@ -75,9 +74,9 @@ Bu özellikler için **Özellik durumu** sütunu boştur. Başlangıçta yayıml
 > [!NOTE]
 > Bu özellikler otomatik olarak etkinleştirileceğinden, kuruluşunuzun bu özellikleri almaya hazır olup olmadığını veya daha fazla zaman gerekip gerekmediğini belirlemeniz önemlidir. Daha fazla zaman gerekiyorsa bu özellikleri geçici olarak devre dışı bırakmanız gerekebilir. Bir özelliğin **Varsayılan olarak açık** durumuna geçişinin genellikle özelliğin **Zorunlu** durum haline gelmesi hedeflenmeden önceki ana sürümde yapıldığını unutmayın. Bu noktada, özelliği devre dışı bırakma seçeneğiniz olmaz. 
 
-### <a name="released-features-mandatory"></a>Yayımlanan özellikler (zorunlu)
+### <a name="mandatory"></a>Zorunlu
 
-**Yayımlanan** durumu, özellikler için son durumdur. Özelliklerin açık olduğunu ve Microsoft ile iletişim kurmadan bunları devre dışı bırakamayacağınızı gösterir. İsteğe bağlı özelliklerin iki ana sürümden sonra zorunlu hale gelmesi beklenir. Kritik özellikler, özel durum nedeniyle zorunlu olarak tanıtılabilir.
+**Zorunlu** durumu, özellikler için beklenen son durumdur. Özelliklerin açık olduğunu ve Microsoft ile iletişim kurmadan bunları devre dışı bırakamayacağınızı gösterir. İsteğe bağlı özelliklerin iki ana sürümden sonra zorunlu hale gelmesi beklenir. Kritik özellikler, özel durum nedeniyle zorunlu olarak tanıtılabilir.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Beklenen özellik yaşam döngüsü örneği
 

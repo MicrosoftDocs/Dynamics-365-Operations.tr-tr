@@ -2,25 +2,25 @@
 title: Endeks oranına bağlı kira ödemelerini yeniden değerleme
 description: Bu konu, endeks oranındaki bir değişiklik nedeniyle değişken kira ödemeleri değiştiğinde, kullanım hakkı (ROU) varlığı için kiralama yükümlülüğünde yapılan düzeltmeyi açıklamaktadır.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b3eed28ba6fc5af02c1bbf430cc9779426084f0eaf4e027141bbdd18a70dde4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734598"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968068"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Endeks oranına bağlı kira ödemelerini yeniden değerleme
 
@@ -43,7 +43,7 @@ Endeks oranına bağlı kira ödemelerini yeniden değerlemek için bu adımlar�
 4. Arka plan işlemine eklenmesi gereken kiraların seçilmesiyle ilgili filtreleri belirleyin ve ardından **Tamam**'ı seçin.
 
     **Endeks Oranı yeniden değerleme önizlemesi** iletişim kutusu görüntülenir ve yeniden değerlenecek kiralamaları gösterir. Ayrıca, varlık ve sorumluluk düzeltmelerini veya değişken ödeme ayarlamalarını gösterir.
-    
+
 5. Kiralamaların yeniden değerlemeye alınmasını önlemek için yeniden değerlenmesi **gereken** kiralamaları seçin. Hiçbir kiralama seçmezesniz tüm kiralamalar yeniden değerlenir. Bitirdiğinizde kira ödemelerini yeniden değerlemek için **Tamam**'ı seçin.
 6. Belirli bir endeks yeniden değerleme işlemi için oluşturulan hareketleri görüntülemek için işlem kimliğini seçin ve ardından **Hareketler**'i seçin.
 
@@ -66,5 +66,7 @@ Yeniden değerleme tarihinde başlatılan yeni oluşturulmuş ödeme planını g
 
 Günlük girişi, endeks yeniden değerlemesiyle ilgili olan kira ödemesi değişikliğini kaydetmek için düzeltme günlük girişini otomatik olarak deftere nakleder.
 
+> [!NOTE]
+> **Kira ayrıntıları** sayfasının **Genel** hızlı sekmesinde **Ödeme tutarı dökümü** seçeneği etkinleştirilmişse ve ilişkili defter, IFRS 16 ise dizin yeniden değerleme süreci **Ödeme tutarı dökümü** iletişim kutusunda otomatik olarak bir kayıt ekler. Dizin yeniden değerleme nedeniyle, tutar ödeme için yapılan değişikliği yansıtır. Kayıt, **IRFS 16 dizin yeniden değerlendirmesi için kullanıldı** olarak işaretlenir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

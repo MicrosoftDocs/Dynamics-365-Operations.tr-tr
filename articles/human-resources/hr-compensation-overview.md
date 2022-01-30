@@ -3,24 +3,23 @@ title: Ücret planları
 description: Bu konuda, ücret planlarını yönetmek ve işlemek için ücret yönetiminin nasıl kullanılacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 08/25/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 64169ebc5bbd2f0a9b4be3d4ec076c8814e6eb97
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 99ecfd6c2014e89fc35c2868e4aaca455b5b9ab3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483841"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983504"
 ---
 # <a name="compensation-plans"></a>Ücret planları
 

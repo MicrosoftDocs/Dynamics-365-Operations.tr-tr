@@ -3,7 +3,7 @@ title: Elektronik raporlamaya (ER) genel bakış
 description: Bu konuda, Elektronik raporlama aracına dair genel bir bakış sunulmaktadır. Anahtar kavramlar, desteklenen senaryolar ve çözümün parçası olan biçimler açıklanmaktadır.
 author: NickSelin
 ms.date: 11/02/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867309"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986159"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -143,7 +143,7 @@ ER havuzu ER konfigürasyonlarını depolar. Aşağıdaki ER havuzu türleri şu
 
 Bir **LCS paylaşımlı kitaplık** deposu Lifecycle Services (LCS) içindeki Paylaşılan varlık kitaplığındaki yapılandırmaların listesine erişim sağlar. Bu türde bir ER deposu, yalnızca Microsoft sağlayıcısı için kaydedilebilir. LCS Paylaşılan varlık kitaplığından ER yapılandırmalarının en güncel sürümlerini mevcut kuruluma aktarabilirsiniz.
 
-**LCS projesi** havuzu, havuz kaydedildiğinde seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli kurulumdan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları bir **LCS projesi** deposundan geçerli Finance and Operations uygulamalarınıza kurulumuna da aktarabilirsiniz.
+**LCS projesi** havuzu, havuz kaydedildiğinde seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli kurulumdan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları bir **LCS projesi** deposundan geçerli Finance ve Operations uygulamalarının kurulumuna da aktarabilirsiniz.
 
 Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Yapılandırmaları bir **Dosya sistemi** deposundan geçerli kuruluma da aktarabilirsiniz. 
 

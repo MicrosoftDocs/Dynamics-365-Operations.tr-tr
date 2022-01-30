@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06c28e078a09cfadda6cbb0565bcaf8564681efaae8f57817922afb07ff4e6b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725446"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964566"
 ---
 # <a name="add-languages-to-your-site"></a>Sitenize dil ekleme
 
@@ -164,8 +164,6 @@ Eklediğiniz dil, site düzenleme ortamında kullanacak şekilde konfigüre edeb
 [CSS geçersiz kılma dosyalarıyla çalışma](css-override-files.md)
 
 [Favicon ekleme](add-favicon.md)
-
-[Hoş geldiniz iletisi ekleme](add-welcome-message.md)
 
 [Telif hakkı bildirimi ekleme](add-copyright-notice.md)
 

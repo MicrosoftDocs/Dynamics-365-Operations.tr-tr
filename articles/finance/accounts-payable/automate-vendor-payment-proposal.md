@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 483621a5de2980212926ac1011c16f1b82e4a3d075bbe9bcbbe6a0e35f06e5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749114"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966727"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Satıcı ödeme tekliflerini otomatikleştirme
 
@@ -32,6 +32,9 @@ Yinelenen bir zamanlamada satıcıları ödeyen kuruluşların, satıcı ödeme 
 - Sonuçta elde edilen ödemelerin kaydedildiği satıcı ödeme günlüğü
 
 Ödeme teklif tahminleri otomatik olarak ödemeleri deftere nakletmez. Bu nedenle, şu anda oluşturulan ödemeleri onaylamak için kullandığınız herhangi bir doğrulama ve iş akışı işlemini kullanmaya devam edebilirsiniz.
+
+> [!NOTE]
+> Bu işlevden yararlanmak için, **Satıcı ödeme teklifi otomasyonu** özelliği Özellik yönetiminde etkinleştirilmelidir. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Satıcı ödeme tekliflerinin oluşumunu tanımla
 

@@ -3,7 +3,7 @@ title: Hub birleştirme kullanarak yükleri planlamaya genel bakış
 description: Bu makalede aynı müşteriye farklı ambarlardan ürün teslim ederken veya ürünler farklı satıcılardan aynı ambara teslim edilirken sevkiyatları bir hub'da konsolide etme özelliği açıklanmaktadır.
 author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, TMSParameters
@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 248bc0cc4d00dfc5ccff7edfb555af31645649d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fd47a5745719873cc491d93b9a98a7fde609fe38
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574941"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985823"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>Hub birleştirme kullanarak yükleri planlamaya genel bakış
 

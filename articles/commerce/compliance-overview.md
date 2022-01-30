@@ -3,23 +3,22 @@ title: Uyumluluğa genel bakış
 description: Bu konu, şirketinizin sitelerini uyumlu hale getirmek için Microsoft Dynamics 365 Commerce'un sağladığı uyumluluk kılavuzunun bir genel bakışı.
 author: BrianShook
 ms.date: 01/08/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9c1c5f389bc67df53ee0a56ae7bff84ee9dcd24bdc2897914223e8d183ce4692
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d90bbce5949468966d995710cdad69484aa90c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747733"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983304"
 ---
 # <a name="compliance-overview"></a>Uyumluluğa genel bakış
 

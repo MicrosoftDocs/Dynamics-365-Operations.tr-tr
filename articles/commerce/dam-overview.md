@@ -3,24 +3,23 @@ title: Dijital varlık yönetimine genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce site oluşturucusunda dijital varlık yönetimine genel bakış sağlar.
 author: psimolin
 ms.date: 03/03/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f244612ee59bf20d33ad9f5967bc7950e71bff7ac928430826f196eee6a0e716
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 73c41d97727c461a959d05e76c27efa49e9b5775
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756593"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983200"
 ---
 # <a name="digital-asset-management-overview"></a>Dijital varlık yönetimine genel bakış
 

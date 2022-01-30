@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 89f1716cd71d191f419dfd1fb1db887af62335504724b4f08ead701d7f57efc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4a9a7fed4393f9c35b0bdc765fe7d0723c193f89
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715468"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964768"
 ---
 # <a name="add-a-copyright-notice"></a>Telif hakkı bildirimi ekleme
 
@@ -65,8 +65,6 @@ Telif hakkı bildirimini içeren altbilgi, seçili şablonu kullanan tüm sayfal
 [CSS geçersiz kılma dosyalarıyla çalışma](css-override-files.md)
 
 [Favicon ekleme](add-favicon.md)
-
-[Hoş geldiniz iletisi ekleme](add-welcome-message.md)
 
 [Sitenize dil ekleme](add-languages-to-site.md)
 

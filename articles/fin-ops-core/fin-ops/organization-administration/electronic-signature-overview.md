@@ -3,7 +3,7 @@ title: Elektronik imzalara genel bakış
 description: Bu makale, elektronik imzalara genel bakış sağlar ve nasıl kullanılabileceklerini açıklar.
 author: maertenm
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4436d2570b6fc6e18936ddd57f658e601b08075febdb26d41d4bf80088ac99f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9f80ecef043a697d288fed99e3118e268d4f993
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714508"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983654"
 ---
 # <a name="electronic-signatures-overview"></a>Elektronik imzalara genel bakış
 
