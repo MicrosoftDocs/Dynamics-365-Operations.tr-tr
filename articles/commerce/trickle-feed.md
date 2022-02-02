@@ -2,7 +2,7 @@
 title: Perakende mağaza hareketleri için kademeli akış tabanlı sipariş oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta mağaza hareketleri için kademeli akış tabanlı sipariş oluşturma işlemi açıklanmaktadır.
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921257"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964641"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Perakende mağaza hareketleri için kademeli akış tabanlı sipariş oluşturma
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Commerce sürüm 10.0.5 ve sonraki sürümlerde, tüm ekstre deftere nakil işlemlerini, kademeli akış tabanlı ekstre deftere nakil işlemlerine geçirmenizi öneririz. Önemli performans ve iş avantajları, kademeli akış işlevini kullanmayla ilişkilidir. Satış hareketleri gün içinde işlenir. Ödeme ve nakit yönetimi hareketleri gün sonunda mali tablolara işlenir. Kademeli akış işlevi; satış siparişlerinin, faturaların ve ödemelerin sürekli işlenmesini sağlar. Bu nedenle, stok, gelir ve ödemeler gerçek zamanlıya yakın olarak güncelleştirilip tanınabilir.
+Microsoft Dynamics 365 Commerce sürüm 10.0.5 ve sonraki sürümlerde, tüm ekstre deftere nakil işlemlerini, kademeli akış tabanlı ekstre deftere nakil işlemlerine geçirmenizi öneririz. Önemli performans ve iş avantajları, kademeli akış işlevini kullanmayla ilişkilidir. Satış hareketleri gün içinde işlenir. Ödeme ve nakit yönetimi hareketleri gün sonunda mali tablolara işlenir. Kademeli akış işlevi; satış siparişlerinin, faturaların ve ödemelerin sürekli işlenmesini sağlar. Bu nedenle stok, gelir ve ödemeler gerçek zamanlıya yakın olarak güncelleştirilip kabul edilir.
 
 ## <a name="use-trickle-feed-based-posting"></a>Kademeli akış tabanlı deftere nakil özelliğini kullanma
 
@@ -47,6 +47,10 @@ Aşağıdaki işleri yüksek sıklıkta çalıştırılacak şekilde zamanlayın
 ### <a name="financial-statements"></a>Mali tablolar
 
 Mali tablo işleme, gün sonu işlemi olacak şekilde tasarlanmıştır. Bu tür ekstre işleme yalnızca **Vardiya** kapatma yöntemini destekler ve yalnızca kapalı vardiyaları alır. Ekstreler, mali mutabakatla sınırlıdır. Yalnızca ödemeler için sayılan tutar ile hareket tutarı arasındaki tutar farklarına yönelik günlükleri ve diğer nakit yönetimi hareketlerine ilişkin günlükleri oluşturur.
+
+Mali tablolar ayrıca şu hareketlerin incelenmesine de olanak tanır: kasa sayımı hareketleri, ödeme hareketleri, bankaya nakledilen ödeme hareketleri ve kasa ödemesi hareketleri. Ödeme ayrıntıları sayfası yalnızca bir mali tablo seçildiğinde görünür.
+
+![Yalnızca bir mali tablo seçildiğinde, deftere nakledilen ekstrelerin ödeme ayrıntıları bölümünü gösteren resim.](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 Aşağıdaki mali tablo işlerinin başlangıç ve bitiş zamanlarını, beklenen gün sonuna göre zamanlayın:
 
