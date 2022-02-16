@@ -8,10 +8,12 @@
           items:
             - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: Finance'teki yenilikler veya değişiklikler
+            - name: Finance'taki yenilikler veya değişiklikler
               items:
-                - name: Finance'teki yenilikler veya değişiklikler giriş sayfası
+                - name: Finance'taki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.25 (Nisan)
+                  href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (Şubat)
                   href: get-started/whats-new-changed-10-0-24.md
                 - name: Finance 10.0.23 (Ocak)
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: Videolar
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
-                - name: Sözlük
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: Öğrenme kataloğu
               items:
                 - name: Öğrenme kataloğu giriş sayfası
@@ -218,6 +218,8 @@
                   href: accounts-payable/vendor-copy.md
                 - name: Fatura günlüğüne satıcı faturası kaydetme
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
+                - name: Fatura günlüğüne bir ödemeyi uygulama
+                  href: accounts-payable/payment-invoice-journal.md
             - name: Borç hesaplarındaki faturaları ve önemli verileri denetleme
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: Üç yönlü eşleştirme ilkeleri
@@ -1036,6 +1038,8 @@
                   href: general-ledger/one-voucher-faq.md
                 - name: Genel muhasebe hesabı kapatmaları
                   href: general-ledger/ledger-settlements.md
+                - name: Genel muhasebe kapatma ile yıl sonu kapanışı arasındaki farka duyarlılık
+                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
             - name: Dönem sonu kapanışı
               items:
                 - name: Genel muhasebeyi dönem sonunda kapatma
@@ -1050,81 +1054,7 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: Yıl sonu faaliyetleriyle ilgili SSS
                   href: general-ledger/faq-year-end-activities.md
-            - name: Satış vergisi
-              items:
-                - name: Satış vergisine genel bakış
-                  href: general-ledger/indirect-taxes-overview.md
-                - name: Marjinal taban ve hesaplama yöntemlerine dayalı satış vergisi oranları
-                  href: general-ledger/marginal-base-field.md
-                - name: Satış vergisi ödemeleri ve yuvarlama kuralları
-                  href: general-ledger/round-sales-tax-payments.md
-                - name: Kaynak alanında satış vergisi hesaplama yöntemleri
-                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Satış vergisi kodları için tam tutar ve aralık hesaplama seçenekleri
-                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Yevmiye defteri satırlarında satış vergisi hesaplaması
-                  href: general-ledger/sales-tax-calculation-on-general-journal.md
-                - name: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
-                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Günlükte ertelenen vergi hesaplamasını etkinleştirme
-                  href: general-ledger/enable-delayed-tax-calculation.md
-                - name: Satış vergisi ödemesi oluşturma
-                  href: general-ledger/tasks/create-sales-tax-payment.md
-                - name: Özelleştirilmiş para birimi ondalık basamak sayısına göre vergi kapatmayı yuvarlama
-                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                - name: Belgelerde satış vergisi hareketleri oluşturma
-                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Satış vergisi için genel muhasebe deftere nakil grupları ayarlama
-                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Satış vergisi makamlarını ayarlama
-                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Satış vergisi kodlarını ayarlama
-                  href: general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlama
-                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Satış vergisi raporlama kodlarını ayarlama
-                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Satış vergisi için çift para birimi desteği
-                  href: general-ledger/dual-currency-for-tax.md
-                - name: Genel muhasebe hareket raporuna göre satış vergisi belirtimi
-                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                - name: Satış vergisi kapatma dönemlerini ayarlama
-                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Deftere nakledilen satış vergisi hareketlerini görüntüleme
-                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: Kod raporuna göre Satış vergisi ödemesini yazdırma
-                  href: general-ledger/print-sales-tax-payment-by-code-report.md
-                - name: Satış vergisi sorun giderme
-                  items:
-                    - name: Vergi hesaplanmaz veya vergi tutarı sıfırdır
-                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                    - name: Vergi hesaplama performansı işlemleri etkiler
-                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                    - name: TaxTrans'ta yanlış alan değeri
-                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                    - name: TaxTrans kaydı oluşturulmuyor
-                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                    - name: Vergi fişteki yanlış genel muhasebe hesabına nakledilir
-                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                    - name: Fiş oluşturulmaz
-                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-            - name: Stopaj vergisi
-              items:
-                - name: Stopaj vergisini ayarlama
-                  href: general-ledger/tasks/set-up-withholding-tax.md
-                - name: Genel stopaj vergisi
-                  items:
-                    - name: Global stopaj vergisine genel bakış
-                      href: general-ledger/global-withholding-tax-overview.md
-                    - name: Global stopaj vergisini ayarlama
-                      href: general-ledger/set-up-global-withholding-tax.md
-                    - name: Satın alma hareketlerinde stopaj vergisi
-                      href: general-ledger/withholding-tax-in-purchase-transactions.md
-                    - name: Satış hareketlerinde stopaj vergisi
-                      href: general-ledger/withholding-tax-in-sales-transactions.md
-                    - name: Stopaj vergisi ödemesi oluşturma
-                      href: general-ledger/create-a-withholding-tax-payment.md
-            - name: Denetim workbench'i
+            - name: Denetim çalışma ekranı
               items:
                 - name: Denetim ilkesi kuralları
                   href: general-ledger/audit-policy-rules.md
@@ -1538,6 +1468,82 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: Vergi Hesaplama ile ilgili SSS
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
+            - name: Vergi
+              items:
+                - name: Satış vergisi
+                  items:
+                    - name: Satış vergisine genel bakış
+                      href: general-ledger/indirect-taxes-overview.md
+                    - name: Marjinal taban ve hesaplama yöntemlerine dayalı satış vergisi oranları
+                      href: general-ledger/marginal-base-field.md
+                    - name: Satış vergisi ödemeleri ve yuvarlama kuralları
+                      href: general-ledger/round-sales-tax-payments.md
+                    - name: Kaynak alanında satış vergisi hesaplama yöntemleri
+                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                    - name: Satış vergisi kodları için tam tutar ve aralık hesaplama seçenekleri
+                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Yevmiye defteri satırlarında satış vergisi hesaplaması
+                      href: general-ledger/sales-tax-calculation-on-general-journal.md
+                    - name: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
+                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Günlükte ertelenen vergi hesaplamasını etkinleştirme
+                      href: general-ledger/enable-delayed-tax-calculation.md
+                    - name: Satış vergisi ödemesi oluşturma
+                      href: general-ledger/tasks/create-sales-tax-payment.md
+                    - name: Özelleştirilmiş para birimi ondalık basamak sayısına göre vergi kapatmayı yuvarlama
+                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
+                    - name: Belgelerde satış vergisi hareketleri oluşturma
+                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                    - name: Satış vergisi için genel muhasebe deftere nakil grupları ayarlama
+                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                    - name: Satış vergisi makamlarını ayarlama
+                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                    - name: Satış vergisi kodlarını ayarlama
+                      href: general-ledger/tasks/set-up-sales-tax-codes.md
+                    - name: Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlama
+                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                    - name: Satış vergisi raporlama kodlarını ayarlama
+                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                    - name: Satış vergisi için çift para birimi desteği
+                      href: general-ledger/dual-currency-for-tax.md
+                    - name: Genel muhasebe hareket raporuna göre satış vergisi belirtimi
+                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                    - name: Satış vergisi kapatma dönemlerini ayarlama
+                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                    - name: Deftere nakledilen satış vergisi hareketlerini görüntüleme
+                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                    - name: Kod raporuna göre Satış vergisi ödemesini yazdırma
+                      href: general-ledger/print-sales-tax-payment-by-code-report.md
+                    - name: Satış vergisi sorun giderme
+                      items:
+                        - name: Vergi hesaplanmaz veya vergi tutarı sıfırdır
+                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                        - name: Vergi hesaplama performansı işlemleri etkiler
+                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                        - name: TaxTrans'ta yanlış alan değeri
+                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                        - name: TaxTrans kaydı oluşturulmuyor
+                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                        - name: Vergi fişteki yanlış genel muhasebe hesabına nakledilir
+                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                        - name: Fiş oluşturulmaz
+                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+                - name: Stopaj vergisi
+                  items:
+                    - name: Stopaj vergisini ayarlama
+                      href: general-ledger/tasks/set-up-withholding-tax.md
+                    - name: Genel stopaj vergisi
+                      items:
+                        - name: Global stopaj vergisine genel bakış
+                          href: general-ledger/global-withholding-tax-overview.md
+                        - name: Global stopaj vergisini ayarlama
+                          href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Satın alma hareketlerinde stopaj vergisi
+                          href: general-ledger/withholding-tax-in-purchase-transactions.md
+                        - name: Satış hareketlerinde stopaj vergisi
+                          href: general-ledger/withholding-tax-in-sales-transactions.md
+                        - name: Stopaj vergisi ödemesi oluşturma
+                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: Mevzuat güncelleştirmeleri
               href: localizations/regulatory-updates.md
             - name: Mevzuat güncelleştirmelerini arama
@@ -3106,6 +3112,10 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: Hesap faaliyeti raporları
                       href: localizations/rus-account-activity-reports.md
+                    - name: Federal Muhasebe Standardı 27-2021
+                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
+                    - name: Rusça muhasebe belgelerini depolamak için Elektronik raporlama hedeflerini etkinleştirme
+                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: Avans sahipleri
                   items:
                     - name: Rusya'daki avans sahiplerine genel bakış
@@ -3208,6 +3218,8 @@
                           href: localizations/rus-not-valuable-assets.md
                         - name: İş kıyafetleri/özel donanım muhasebesi (Rusya)
                           href: localizations/rus-working-clothes-instruments-accounting.md
+                    - name: Kıymet yönetimi modülünü sabit kıymetlerle tümleştirme
+                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: Alacak ve borç hesapları
                   items:
                     - name: Alacak dekontu düzeltmeleri (Rusya)
@@ -3242,6 +3254,8 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: Komisyon satışları
                           href: localizations/rus-sales-on-commission.md
+                    - name: Alacak hesapları ve borç hesaplarında yerel raporlar ve birincil formlar
+                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: Stok
                   items:
                     - name: Satıcıdan alınan transitteki mallar
@@ -3486,170 +3500,6 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: 1099 raporlaması için tedarikçi ayarlama
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
-        - name: Human Resources
-          items:
-            - name: Human Resources'a genel bakış
-              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Altyapı sürümü 10.0.25
-              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
-            - name: Human Resources'ı ayarlama
-              items:
-                - name: Human Resources parametrelerini yapılandırma
-                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Human Resources paylaşılan parametrelerini yapılandırma
-                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: İnsan kaynakları iş akışlarını ayarlama
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Tarih ve Saat alanlarını anlama
-                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
-            - name: Personeli yönetme
-              items:
-                - name: İş gücünüzü düzenleme
-                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: İşin bileşenlerini ayarlama
-                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Departmanları tanımlama
-                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
-                - name: Hiyerarşiye bir departman ekleme
-                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: İşleri tanımlama
-                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Çalışma zamanları takvimi oluşturma
-                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: Personel eylemleriyle ilgili SSS
-                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Personel bilgilerini yönetmek için iş akışları kullanma
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Pozisyonun raporlama ilişkilerini değiştirme
-                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
-                - name: Çalışan bilgilerini girme
-                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
-                - name: Maddeleri çalışanlara ödünç verme
-                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
-                - name: Ödünç verme maddeleri oluşturma
-                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Ödünç verme maddelerini yönetme
-                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Yedekleme planı geliştirme
-                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
-                - name: Proje zaman çizelgelerini girme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
-                - name: Toplu işe alma projeleri
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
-                - name: Toplu işe alma projesi oluşturma
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
-                - name: Pozisyonları ayarlama
-                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Yaralanma ve hastalık bilgilerini ayarlama
-                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-                - name: Personelin yaralanma ve hastalık bilgilerini koruma
-                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-            - name: Adayları işe alma
-              items:
-                - name: İşe alma süreçlerini yönetme
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: Toplu işe alma projeleri
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: Toplu işe alma projeleri oluşturma
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: Başvuran ve başvuru verilerini el ile girme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: İş talepleri geliştirme ve açma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: Pozisyonları ayarlama
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: Adayları işe alma yoluyla istihdam etme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: Mevcut bir personeli işe alma yoluyla istihdam etme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: Aday seçim araçlarını tanımlama ve dağıtma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Ücret planları ayarlama
-              items:
-                - name: Ücret planlarına genel bakış
-                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Ücret kademelerini ayarlama
-                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
-                - name: Ücret yapısı ve planı geliştirme
-                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
-                - name: Sabit ücret planları oluşturma
-                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Değişken ücret planları oluşturma
-                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Personeli sabit ücret planına kaydetme
-                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
-                - name: Personeli değişken ücret planına kaydetme
-                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
-                - name: Ücret işlemini tanımlama ve sonuçları hesaplama
-                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: Ücret planlarını işleme
-                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
-            - name: Kazançları yönetme
-              items:
-                - name: Kazanç programı tanımlama ve yönetme
-                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
-                - name: Kazanca uygunluk ilkeleri
-                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Kazanca uygunluk işlemi
-                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
-                - name: Kazanca uygunluk kurallarını ve ilkelerini tanımlama
-                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
-                - name: Personel kazançları programı oluşturma
-                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
-                - name: Yeni kazançlar oluşturma
-                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
-                - name: Çalışanları kazançlara kaydetme
-                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
-                - name: Kazanç geçerlilik bitiş tarihlerini yönetme
-                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
-                - name: ACA raporları oluşturma
-                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Personeli geliştirme
-              items:
-                - name: Performans yönetimine genel bakış
-                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: İş gücü becerilerini dengeleme
-                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: Performans günlüğünüze ekleme
-                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
-                - name: Hedef oluşturma
-                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
-                - name: Performans değerlendirmesi oluşturma
-                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
-            - name: Kurslar oluşturma
-              items:
-                - name: Eğitim kursları ayarlama
-                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
-                - name: Soru formlarına genel bakış
-                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Soru formları tasarlama
-                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Soru formlarını dağıtma ve planlama
-                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Planlamayı kullanarak soru formlarını dağıtma
-                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
-                - name: Soru formu sonuçlarını görüntüleme
-                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Soru formu sonuçlarını analiz etme
-                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Açık uçlu soru oluşturma
-                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Kapalı uçlu soru oluşturma
-                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Bağımlı soru oluşturma
-                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
-            - name: Çalışma alanı güvenliği ve uyumluluğu (ABD)
-              items:
-                - name: Form I-9 doğrulama
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
-                - name: Form I-9 kullanarak istihdam uygunluğunu doğrulama
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
-                - name: Form I-9 belge türlerini ayarlama
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
-                - name: Engelli Amerikalılar Yasası ile uyumluluk
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
-                - name: Çalışan konaklamalarını yönetme
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: Raporlama ve Power BI tümleştirmeleri
           items:
             - name: Power BI ile raporlama ve analiz
@@ -4005,6 +3855,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                        - name: GetLabelText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -4191,6 +4043,8 @@
                   items:
                     - name: Harici XML dosyasından veri aktarmak için yapılandırmalar oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
+                    - name: El ile seçilen dosyalardan toplu iş modunda veri içeri aktarmayı yapılandırma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
                 - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içeri aktarmayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: Dosyaları XML biçiminde içeri aktarma
@@ -4271,6 +4125,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: Raporları çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: GROUPBY veri kaynaklarını kullanarak kayıtları gruplandırıp sayım ve toplam yapma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Sayım ve toplam gerçekleştirmek için oluşturulan çıktıyı veri kaynağı olarak kullanma
                       items:
                         - name: Biçim oluşturma
@@ -4423,6 +4279,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                     - name: Uygulama güncelleştirmesi 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
+                    - name: Uygulama güncelleştirmesi 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
                     - name: Abone olma işleyicisinden yanıt istemek için bir olaya abone olma
@@ -4487,7 +4345,7 @@
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json
             - name: Microsoft Office'te Aç menüsünü özelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/finance/toc.json
-            - name: E-posta yapılandırma ve gönderme
+            - name: E-postayı yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/finance/toc.json
             - name: E-posta deneyimleri geliştirme
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/finance/toc.json
@@ -4629,7 +4487,7 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/finance/toc.json
             - name: Belge yönetimini yapılandırma
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/finance/toc.json
-            - name: E-posta yapılandırma ve gönderme
+            - name: E-postayı yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/finance/toc.json
             - name: Tarih/saat verileri ve saat dilimleri
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/finance/toc.json
@@ -4753,9 +4611,11 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'CustTrans::settleTransaction kullanarak hareketleri kapatma'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Finance and Operations uygulamaları geliştirme ve yönetimi
+    - name: Finans ve operasyon uygulamalarını geliştirme ve yönetme
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782144"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075409"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations uygulama belgeleri
 
@@ -81,11 +81,13 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Bölgesel mevzuat özellikleri</a></p>
 
 <h3><a href="hr/hr-landing-page.md">İnsan kaynakları</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Personel self servisi</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Personel yönetimi</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">İzin ve devamsızlık</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Kazançlar</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Personel gelişimi ve eğitim</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Soru formları</a></p>
-<p><a href="hr/manage-recruiting-process.md">İşe alma</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">ABD bordrosu</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Personel gelişimi</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Öğrenme</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">ABD bordrosu</a></p>
 
 </td>
 <td>
@@ -129,13 +131,8 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 <h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
 <p><a href="../../commerce/call-center-functionality.md">Çağrı merkezi</p>
 <p><a href="../../commerce/define-maintain-retail-channels.md">Kanal kurulumu ve yönetimi</p>
-<p><a href="../../commerce/retail-peripherals-overview.md">MPOS ve Bulut POS</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS ve Cloud POS</p>
 <p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce geliştiricisi ve yönetimi</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Yönetici Kılavuzu</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Geliştirici Kılavuzu</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Kullanıcı Kılavuzu</a></p>
 
 
 </td>

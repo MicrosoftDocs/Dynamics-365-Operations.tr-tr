@@ -14,6 +14,8 @@
               items:
                 - name: Platform güncelleştirmelerindeki yenilikler veya değişiklikler giriş sayfası
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.25 sürümü için platform güncelleştirmeleri (Nisan 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: 10.0.24 sürümü için platform güncelleştirmeleri (Şubat 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: 10.0.23 sürümü için platform güncelleştirmeleri (Ocak 2022)
@@ -430,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Paketi kaldırma
                   href: deployment/uninstall-deployable-package.md
+                - name: Özel X + + betiklerini sıfır kesinti ile çalıştırma
+                  href: deployment/run-custom-scripts.md
                 - name: Paket uygulama sorunlarını giderme
                   href: deployment/deployable-package-troubleshooting.md
             - name: Özel yardım dağıtma
@@ -850,10 +854,12 @@
                   href: perf-test/testing-validation.md
                 - name: Visual Studio'da test projeleri
                   href: perf-test/testing-support.md
-                - name: Sürekli derleme ve test otomasyonunu ortamı dağıtma ve kullanma
+                - name: Sürekli derleme ve test otomasyonu ortamını dağıtma ve kullanma
                   href: perf-test/continuous-build-test-automation.md
                 - name: Sınıf ve yöntem özniteliklerini kullanarak SysTest filtrelemesi
                   href: perf-test/systest-filtering.md
+                - name: Birden çok değeri test etmek için SysTestRow özniteliği
+                  href: perf-test/systest-row.md
                 - name: Kabul testi kitaplığı
                   items:
                     - name: Kabul testi kitaplığı kaynakları
