@@ -18,17 +18,17 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: edb4d1217617ee3bcb7f528da4aad42fb4fb6b82
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576916"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062964"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Üretimdeki çalışanlar için karma gerçeklik Kılavuzları sağlama
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Üretim süreçlerinde çalışan çalışanlar, çalışmaları bağlamında doğru zamanda sağlanan ilgili yönergelerden faydalanır. *Yönergeler* aşağıdakiler dahil olmak üzere birçok iş alanında uygulanır: derleme servis, operasyonlar, sertifika ve güvenlik. Devam eden eğitim yönergeleri bu temel iş işlevlerinin tümünde, çalışanların daha fazlasını elde etmesine ve daha iyi çalışmasına yardımcı olabilir.
 

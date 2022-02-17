@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c7e64dbfe6a300c097b5b3711ac4310f3386df11
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944752"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077152"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Norveç için yazar kasalara ilişkin dağıtım kılavuzları
 
@@ -29,7 +29,7 @@ Bu konu, Norveç için Microsoft Dynamics 365 Commerce yerelleştirmesine yönel
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>Norveç için mali kaydı ayarlama
 
-Norveç için mali kayıt örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Retail SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\SequentialSignatureNorway** klasöründe bulunur (örneğin, [sürüm/9.34'teki örnek](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). Örnek, Commerce Runtime'ın (CRT) uzantıları olan bir mali belge sağlayıcısı ve mali bağlayıcıdan [oluşur](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices). Retail SDK'yi kullanma hakkında daha fazla bilgi için [Retail SDK mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md) konularına bakın.
+Norveç için mali kayıt örneği, [mali tümleştirme işlevine](fiscal-integration-for-retail-channel.md) dayanır ve Retail SDK'nin bir parçasıdır. Örnek, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\SequentialSignatureNorway** klasöründe bulunur (örneğin, [sürüm/9.34'teki örnek](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). Örnek, Commerce Runtime'ın (CRT) uzantıları olan bir mali belge sağlayıcısı ve mali bağlayıcıdan [oluşur](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services). Retail SDK'yi kullanma hakkında daha fazla bilgi için [Retail SDK mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md) ve [Bağımsız paketleme SDK'si için derleme işlem hattı ayarlama](../dev-itpro/build-pipeline.md) konularına bakın.
 
 [Commerce kanalları için mali tümleştirmeyi ayarlama](./setting-up-fiscal-integration-for-retail-channel.md) konusunda açıklanan mali kayıt ayarlama adımlarını tamamlayın:
 

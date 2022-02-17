@@ -2,7 +2,7 @@
 title: Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme
 description: Bu konu; İnsan kaynakları içinde tutulan kuruluş öğeler olan departmanlar, işler ve pozisyonlar hakkında kavramsal bilgileri açıklar.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731820"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071544"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -48,30 +51,16 @@ Bir departman, organizasyonun satış veya muhasebe gibi belirli organizasyon al
 
 ## <a name="jobs-and-positions"></a>İşler ve pozisyonlar
 Bir iş, işi gerçekleştiren birinden beklenen görev ve sorumluluklar toplamıdır. Bir pozisyon, bir işin bireysel eşdüşümüdür. İşle ilgili pozisyonlar için sorumluluk alanları, iş görevleri, iş işlevleri, beceriler, eğitim bilgileri ve bir iş için gereken sertifikalar da gereklidir.
+
 ### <a name="job-tasks"></a>İş görevleri
+
 O işe yönelik pozisyondaki bir işçinin tamamlaması gereken temel görevleri açıklayan iş görevleri oluşturabilirsiniz. Birden fazla işe aynı iş görevi eklenebilir ve bu işlere yönelik pozisyonlar bu iş görevlerini alacaktır. İş görevlerine örnekler aşağıdaki tabloda listelenmiştir.
 
-<table>
-<thead>
-<tr class="header">
-<th>İş</th>
-<th>İş görevi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Satış yöneticisi</td>
-<td><ul>
-<li><span class="input">Perf-review</span> – Her bir satış personelinin performansını gözden geçirin.</li>
-<li><span class="input">Abs-review</span> – Her bir satış personelinin devamsızlık taleplerini veya kayıtlarını onaylayın veya reddedin.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Muhasebeci</td>
-<td><span class="input">FIN-Report</span> – Finans müdürüne haftalık mali raporlar sunun.</td>
-</tr>
-</tbody>
-</table>
+| İş           | İş görevi                                                |
+|---------------|-------------------------------------------------------------|
+| Satış yöneticisi | Perf-review – Her bir satış personelinin performansını gözden geçirin.    |
+| Muhasebeci    | Abs-review – Her bir satış personelinin devamsızlık taleplerini veya kayıtlarını onaylayın veya reddedin. |
+
 
 ### <a name="job-functions"></a>İş işlevleri
 

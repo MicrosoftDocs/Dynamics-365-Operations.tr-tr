@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 46f7358684502a4bf05854fbcb5cca9a1eb2c87c
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 65bf91faba049b3fed4d80e020d77b82e48cceb6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548067"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069007"
 ---
 # <a name="benefit-statement"></a>Yan hak bildirimi
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 **Yan hak bildirimi** raporu, çalışanın şu anda kayıtlı olduğu avantajların açıklamasını sağlar. Rapora, doğrudan bir çalışan veya kazanç yöneticisi tarafından erişilebilir. **Yan hak bildirimi**; çalışanın kayıtlı kazançları, karşılama seçenekleri, maliyetleri, kayıtlı bağımlıları veya lehdarlarının listesini sağlar. Bildirim, tek bir çalışan veya birden çok çalışan için yazdırılabilir.
 

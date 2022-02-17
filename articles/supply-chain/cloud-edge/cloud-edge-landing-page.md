@@ -4,18 +4,19 @@ description: Bu konu, üretim ve ambar yönetimi iş yükleri için bulut ve uç
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
+ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733451"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065776"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Dağıtılmış karma topolojide ölçek birimleri
 
@@ -51,8 +52,7 @@ Dağıtılmış karma topoloji, atölye ve ambar yürütme iş yüklerinin farkl
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Bir ölçek birimindeki özel ambar yönetimi iş yükü özellikleri
 
-Ambar yönetimi iş yükü yalıtılmış bir dağıtımda ambar yönetimi işlemlerini çalıştırmanıza olanak tanır.
-Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](cloud-edge-workload-warehousing.md).
+Ambar yönetimi iş yükü, genel kullanıma sunulacak ölçek birimleri için dağıtılmış ilk iş yüküdür. Bu, ambar işlemlerinizin yalıtılmış bakım aralıklarını kullanarak esnek bir ortamda ölçeklenmesini ve çalışmasını sağlar. Ambar yönetimi iş yükü, birçok kuruluş merkez ambar yönetimi işlemini destekler. Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Bir ölçek birimindeki özel üretim yürütme iş yükü özellikleri
 

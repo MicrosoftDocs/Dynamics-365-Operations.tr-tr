@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec6d47c44136f7a105a702358370dd676d9339c1
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018360"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024579"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources altyapı birleştirme - Yayın 10.0.25 güncelleştirmesi
 
@@ -53,7 +53,7 @@ Birleştirme işlemi, İnsan Kaynakları kullanıcılarına aşağıdaki yollarl
     | Performans incelemelerini yazdır | Performans incelemelerini PDF formatında yazdırabilirsiniz. | Genel kullanılabilir | 
     | **Yönetici self servisi** ndeki özel bağlantılar | **Yönetici self servisi**'nin **İlgili bağlantılar** bölümünde görünen özel bağlantılar oluşturabilirsiniz. | Genel kullanılabilir | 
     | Şirketler arası ücret görünümü | Kullanıcılar , şirketler arasında geçiş yapmak zorunda kalmadan tüm tüzel kişiliklerde **Yönetici self servisi** içindeki maaş planlarını görüntüleyebilirler. | Genel kullanılabilir | 
-    | İşe göre çoklu ücret düzeylerini yapılandırma\*&dagger; | İşlerde artık çoklu ücret düzeyleri desteklenir. | Genel kullanılabilir | 
+    | İşe göre çoklu ücret düzeylerini yapılandırma\*&dagger; | İşlerde artık çoklu ücret düzeyleri desteklenir. | Önizleme | 
     | Görev Yönetimi\* | Ekleme, çıkarma ve geçiş işlemi için denetim listeleri ve görevler oluşturabilirsiniz. | Önizleme | 
     | Kolaylaştırılmış personel girişi | Bu özellik, varolan **Çalışan** sayfasında güncelleştirilmiş bir kullanıcı deneyimi sağlar. | Önizleme | 
     | İnsan kaynakları kullanıcı deneyimi geliştirmeleri | Sonraki bölümdeki tabloya bakın.  | Önizleme | 

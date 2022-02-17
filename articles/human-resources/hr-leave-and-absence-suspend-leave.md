@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b3665a614e6fa39daa558770ac9acb2f34b8764
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 8b11b75e2cc53482f3fccf8fdd0aa4f1af3453d9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728941"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069491"
 ---
 # <a name="suspend-leave"></a>İzni askıya al
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

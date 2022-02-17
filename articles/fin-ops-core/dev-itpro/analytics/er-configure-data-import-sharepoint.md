@@ -2,7 +2,7 @@
 title: SharePoint'ten veri aktarımını yapılandırma
 description: Bu konu, Microsoft SharePoint'ten nasıl veri aktarılacağını açıklamaktadır.
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675357"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074778"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePoint'ten veri aktarımını yapılandırma
 
@@ -192,11 +192,11 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 
 ## <a name=""></a><a name="limitations">Sınırlamalar</a>
 
-ER çerçevesi, veri içeri aktarma için katılımsız modda model eşleme yürütecek yeni bir toplu iş başlatma özelliği sunmaz. Bunu yapmak için, yapılandırılan ER model eşlemenin gelen dosyalardan verileri içeri aktarmak üzere uygulama kullanıcı arabiriminden çağrılabilmesi amacıyla yeni bir mantık geliştirmeniz gerekir. Bu nedenle, bazı mühendislik çalışmaları gereklidir. 
+Dynamics 365 Finance'in 10.0.25 öncesi sürümlerde ER çerçevesinin kullanıcı arabirimi, katılımsız modda veri içeri aktarma için model eşleme çalıştıracak yeni bir toplu iş başlatma olanağı sunmaz. Bunu yerine, yapılandırılan ER model eşlemenin gelen dosyalardan verileri içeri aktarmak üzere uygulama kullanıcı arabiriminden çağrılabilmesi amacıyla yeni bir mantık geliştirmeniz gerekir. Bu mantığı geliştirmek için bazı mühendislik çalışmaları gereklidir. 
 
-İlgili ER API'si hakkında daha fazla bilgi edinmek için [Application update 7.3 için ER çerçevesi API değişiklikleri](er-apis-app73.md) konu başlığındaki [Veri içeri aktarma için biçim eşleme çalıştırma kodu](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) bölümüne bakın.
+İlgili ER API'si hakkında daha fazla bilgi edinmek için [Application update 7.3 için ER çerçevesi API değişiklikleri](er-apis-app73.md) başlığındaki [Veri içeri aktarma için biçim eşleme çalıştırma kodu](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) bölümüne bakın. Özel mantığınızın nasıl uygulanabileceğini görmek için `Application Suite` modelinin `BankImport_RU` sınıfındaki kodu inceleyin. `BankImport_RU` sınıfı, `RunBaseBatch` sınıfını genişletir. Özellikle, `ERIModelMappingDestinationRun` nesnesinin ER model eşlemesinin çalıştırıcısı olarak oluşturulduğu `runER()` yöntemini inceleyin.
 
-Özel mantığınızın nasıl uygulanabileceğini görmek için `Application Suite` modelinin `BankImport_RU` sınıfındaki kodu inceleyin. Bu sınıf, `RunBaseBatch` sınıfını genişletir. Özellikle, `ERIModelMappingDestinationRun` nesnesinin ER model eşlemesinin çalıştırıcısı olarak oluşturulduğu `runER()` yöntemini inceleyin.
+Finance 10.0.25 sürümü ve sonrasında ER çerçevesi kullanıcı arabirimi, veri içeri aktarma için katılımsız modda model eşleme çalıştıracak yeni bir toplu iş başlatma özelliği sunar. Bu işlem hakkında daha fazla bilgi edinmek için [Seçilen dosyalardan verileir toplu iş modunda içeri aktarma](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -205,6 +205,8 @@ ER çerçevesi, veri içeri aktarma için katılımsız modda model eşleme yür
 [Application update 7.3 için ER çerçevesi API değişiklikleri](er-apis-app73.md)
 
 [Application update 10.0.23 için ER çerçevesi API değişiklikleri](er-apis-app10-0-23.md)
+
+[Application update 10.0.25 için ER çerçevesi API değişiklikleri](er-apis-app10-0-25.md)
 
 
 

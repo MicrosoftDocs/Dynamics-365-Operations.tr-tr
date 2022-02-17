@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738161"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087382"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
 
@@ -138,7 +138,6 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 - Çeşit özelliği etkin fiili ağırlık ürünleri, çeşit birim ölçümlerini dönüştürme özelliğiyle birlikte kullanılamaz.
 - Fiili ağırlık ürünleri ticari bir "ürün seti" olarak işaretlenemez.
 - Fiili ağırlık ürünleri yalnızca fiili ağırlık işleme birimlerine sahip bir birim sıra grubu, ile fiili ağırlık biriminin en düşük sıralamada olmasıyla kullanılabilir.
-- Fiili ağırlık ürünleri için stok birimi yalnızca dönüşüm 1'den büyük bir nominal miktar oluşturduğunda fiili ağırlık birimine dönüştürülebilir.
 - Fiili ağırlık ürünler için barkod kurulumu değişken ağırlık ayarını desteklemiyor.
 
 ### <a name="order-processing"></a>Sipariş işleme

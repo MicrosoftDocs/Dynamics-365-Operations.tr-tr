@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52740246f745272f238ec3dcf8e53f7310e4b24271da4a5d6388a1b9c4706521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774861"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074979"
 ---
 # <a name="safety-margins"></a>Emniyet marjları
 
@@ -61,9 +61,6 @@ Eldeki stok tedarik olarak kullanıldığında bir giriş marjının uygulanmad�
 
 ### <a name="reorder-margin"></a>Sipariş yenileme sınırı
 
-> [!NOTE]
-> **Çok yakında:** Bu özellik henüz Planlama Optimizasyonu için desteklenmiyor. Desteklenene kadar, **Madde sağlama süresine eklenen sipariş yenileme sınırı** için girilen tüm değerler *0* (sıfır) olarak kabul edilir.
-
 Aşağıdaki çizimde sipariş yenileme sınırı vurgulanır.
 
 ![Sipariş yenileme sınırı.](media/safety-margins-3.png)
@@ -71,9 +68,6 @@ Aşağıdaki çizimde sipariş yenileme sınırı vurgulanır.
 Sipariş yenileme sınırı, master planlama sırasında planlanan tüm siparişler için malzeme sağlama zamanının önüne eklenir. Bu nedenle, bir tedarik emrinin oluşturulması için ek süre sağlar. Bu marj genellikle, tedarik emirlerinin oluşturulması sırasında gerekli olan onay işlemleri veya diğer iç işlemlere zaman sağlamak amacıyla tampon olarak kullanılır. Yeniden sipariş sınırı tedarik *emri tarihi* ile *başlangıç tarihi* arasına konur.
 
 ### <a name="issue-margin"></a>Çıkış marjı
-
-> [!NOTE]
-> **Çok yakında:** Bu özellik henüz Planlama Optimizasyonu için desteklenmiyor. Desteklenene kadar, **Gereksinim tarihinden kesilen çıkış marjı** için girilen tüm değerler *0* (sıfır) olarak kabul edilir.
 
 Aşağıdaki çizimde çıkış marjı vurgulanır.
 

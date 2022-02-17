@@ -1,26 +1,26 @@
 ---
 title: Müşteri faturası oluşturma
-description: '**Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır.'
+description: Satış siparişi için müşteri faturası kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır.
 author: ShivamPandey-msft
-ms.date: 01/12/2018
+ms.date: 02/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 369f0737ee4026c32ffbae6b11b5815c5548d83d564aebf2eae4b1c246e73508
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723883"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087435"
 ---
 # <a name="create-a-customer-invoice"></a>Müşteri faturası oluşturma
 
@@ -42,6 +42,23 @@ Daha fazla bilgi için bkz.:
 
 
 Bir **Proforma fatura** bir fatura deftere nakledilmeden önce gerçek fatura tutarlarının bir tahmini olarak hazırlanan faturadır. Satış siparişi için müşteri faturası veya bir serbest metin faturası için bir proforma fatura yazdırabilirsiniz.
+
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Satış siparişi müşteri faturası veri varlıklarını kullanma
+Satış siparişinin müşteri faturası hakkındaki bilgileri almak ve vermek için veri varlıklarını kullanabilirsiniz. Satış faturası başlığındaki ve satış faturası satırlarındaki bilgiler için farklı varlıklar vardır.
+
+Satış faturası başlığındaki bilgiler için aşağıdaki varlıklar kullanılabilir:
+
+- **Satış faturası günlüğü başlığı** varlığı (SalesInvoiceJournalHeaderEntity)
+- **Satış faturası başlıkları V2** varlığı (SalesInvoiceHeaderV2Entity)
+
+Satış başlığı içeri aktarma ve dışarı aktarma işlemleri için daha performanslı bir deneyim sağladığından, **Satış faturası günlüğü başlığı** varlığını kullanmanızı öneririz. Bu varlık, satış faturası başlığındaki satış vergisi değerini temsil eden **Satış vergisi tutarını** (INVOICEHEADERTAXAMOUNT) içermez. İş senaryonuz bu bilgileri gerektiriyorsa satış faturası başlığı bilgilerini içeri aktarmak ve dışarı aktarmak için **Satış faturası başlıkları V2** varlığını kullanın.
+
+Satış faturası satırlarıyla ilgili bilgiler için aşağıdaki varlıklar kullanılabilir:
+
+- **Müşteri faturası satırları** varlığı (BusinessDocumentSalesInvoiceLineItemEntity)
+- **Satış faturası satırları V3** varlığı (SalesInvoiceLineV3Entity)
+
+Dışarı aktarmalar için hangi satır varlığını kullanacağınızı belirlerken, tam bir gönderme veya artımlı gönderme kullanılıp kullanılmayacağını göz önünde bulundurun. Ayrıca, veri birleşimini de göz önünde bulundurun. **Satış faturası satırları V3** varlığı daha karmaşık senaryoları destekler (örneğin, stok alanlarıyla eşleme). Ayrıca tam gönderme dışarı aktarma senaryolarını da destekler. Artımlı gönderimler için **Müşteri faturası satırları** varlığını kullanmanızı öneririz. Bu varlık, **Satış faturası satırları V3** varlığından çok daha basit bir veri kompozisyonu içerir ve özellikle stok alanı tümleştirmesi gerekli değilse tercih edilir. Satır varlıkları arasındaki eşleme desteğindeki farklılıklar nedeniyle, **Müşteri faturası satırları** varlığı genellikle **Satış faturası satırları V3** varlığından daha hızlı performansa sahiptir.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Satış siparişine dayalı olan tekil müşteri faturalarını deftere nakledin veya yazdırın.
 Bir satış siparişini temel alan bir fatura oluşturmak için bu işlemi kullanın. Mal veya hizmeti teslim etmeden önce müşteriye fatura kesmek isterseniz bunu yapabilirsiniz. 

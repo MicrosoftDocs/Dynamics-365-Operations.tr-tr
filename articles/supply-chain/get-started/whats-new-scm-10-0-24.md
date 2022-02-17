@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986315"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087562"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24'deki yenilikler veya değişiklikler (Şubat 2022)
 
@@ -34,6 +34,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
 | Dağıtılmış karma topoloji | [Ölçek birimlerinde gelişmiş ambar yürütme iş yükleri](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md) | Varsayılan olarak etkinleştirilir. |
+| Dağıtılmış karma topoloji | [Bulut ve uç ölçek birimi için ambar yönetimi iş yükünde üretim emrini başlatma](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri](../cloud-edge/cloud-edge-workload-manufacturing.md) | Özellik yönetimi (*Bulut ve uç ölçek birimi için ambar yönetimi iş yükünde üretim emrini başlatma*)  |
 | Planlama | [Sipariş yenileme sınırı ve çıkış marjı için Planlamayı En İyi Duruma Getirme desteği](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Emniyet marjları](../master-planning/planning-optimization/safety-margins.md) | Varsayılan olarak etkinleştirilir. |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Bu sürümdeki özellik iyileştirmeleri
@@ -47,7 +48,6 @@ Bu özelliklerden herhangi birini açmak veya kapatmak istiyorsanız bunu [özel
 | Üretim denetimi | Üretim emirleri için isteğe bağlı malzeme kullanılabilirliği kontrolü | Bu özellik, **Üretim katı yönetimi** çalışma alanından kullanılabilen **Üretim emirlerini serbest bırak** sayfasını açmayı hızlandırır. Bu özellik olmadan, sistem, sayfayı açar açmaz listelenen tüm üretim emirleri için malzemelerin kullanılabilir olup olmadığını otomatik olarak kontrol eder ve bu da çok sayıda siparişiniz varsa önemli zaman alabilir. Bu özellik etkinleştirildiğinde, sistem bunun yerine, malzemeleri yalnızca seçili siparişler için ve gerektiğinde denetlemeyi başlatmak için kullanabileceğiniz bir araç çubuğu düğmesi sağlar. |
 | Üretim denetimi | (Önizleme) Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı) | Bu özellik, çalışanların malzeme tüketimini, toplu iş numaralarını ve seri numaralarını kaydetmek için üretim katı yürütme arabirimini kullanmalarını sağlar. Bu özellik yalnızca gelişmiş ambar işlemlerini (WMS) kullanmak üzere etkinleştirilmemiş maddeleri destekler. WMS etkin maddeler için destek gelecekteki bir sürüm için planlanmıştır.<p>Özellikle proses endüstrilerindekiler olmak üzere bazı üreticilerin, her bir toplu iş veya üretim emri için tüketilen malzeme miktarını açıkça kaydetmesi gerekir. Örneğin, çalışanlar çalışırken tüketilen malzeme miktarını tartmak için bir ölçek kullanabilir. Tam malzeme izlenebilirliğini sağlamak için bu kuruluşların her ürünü üretirken hangi parti numaralarının tüketildiğini de kaydetmeleri gerekir. |
 | Üretim denetimi | Bulut ve uç ölçek birimleri için ambar yönetimi iş yükünde tamamlandı olarak bildirme | Bu özellik, uygulama bir bulut veya kenar ölçeği birimindeki ambar yönetimi iş yüküne karşı çalışırken bir üretim veya toplu iş siparişini tamamlandı olarak bildirmek için çalışanların Warehouse Management mobil uygulamasını kullanmasına olanak tanır. Daha fazla bilgi için bkz. [Ölçek biriminde tamamlandı ve yerine kondu olarak bildirme](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Üretim denetimi | Bulut ve uç ölçek birimi için ambar yönetimi iş yükünde üretim emrini başlatma | Bu özellik, uygulama bir bulut veya kenar ölçeği birimindeki ambar yönetimi iş yüküne karşı çalışırken bir üretim veya toplu iş siparişini başlatmak için çalışanların Warehouse Management mobil uygulamasını kullanmasına olanak tanır. |
 | Ambar yönetimi | Yeni yük planlama workbench'i sayfaları | İki yeni yük planlama workbench'i sayfasını etkinleştirir: **Gelen yük planlama workbench'i** ve **Giden yük planlama workbench'i**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları
@@ -70,7 +70,7 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.24 sürümü için platform güncelleştirmeleri (Kasım 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.24 sürümü için platform güncelleştirmeleri (Şubat 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

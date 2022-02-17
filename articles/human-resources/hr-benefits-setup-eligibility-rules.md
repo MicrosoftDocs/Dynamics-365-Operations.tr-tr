@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: e87bef8994fe1eac0089764c8d4f9b18289c13ea
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423483"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069642"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Uygunluk kurallarını ve seçeneklerini yapılandırma 
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -229,7 +232,7 @@ Dönemler, kazançların etkili olduğu ve çalışanların ne zaman kayıt yapm
 
 ## <a name="configure-programs"></a>Programları konfigüre et
 
-Programlar, ortak uygunluk kuralları kümesini paylaşan bir dizi kazanç planındaysa. Her bir plan için, programın tamamı yerine uygunluk kuralları tanımlayabilirsiniz. Örneğin, Contoso Kanada FTE programı veya Contoso Avrupa Executive-seviye programı. 
+Programlar, ortak uygunluk kuralları kümesini paylaşan bir dizi kazanç planındaysa. Her bir plan için, programın tamamı yerine uygunluk kuralları tanımlayabilirsiniz. Örneğin, contoso Kanada FTE programı veya contoso Avrupa Executive-seviye programı. 
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Kurulum** altında, **Uygunluk kuralları ve seçenekleri** seçin.
 

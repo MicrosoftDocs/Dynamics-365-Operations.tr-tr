@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c2f7b660d364be6e62d484e67908201027190a8a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488066"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065131"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Power Apps uygulamasından tuval uygulamalarını ekleme
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Power Apps, geliştiricilerin ve teknik olmayan kullanıcıların mobil cihazlar, tabletler ve web için kod yazmak zorunda kalmadan özel iş uygulamaları oluşturmalarına olanak tanır. Finance and Operations uygulamaları Power Apps ile tümleştirmeyi destekler. Ürün işlevselliğini artırmak için, siz, kuruluşunuz veya daha geniş bir ekosistem tarafından geliştirilen tuval uygulamaları, Finance and Operations uygulamalarına katıştırılabilir. Örneğin, Power Apps'ten, başka bir sistemden alınan bilgilerle bir Finance and Operations uygulamasına destek olan bir tuval uygulaması oluşturabilirsiniz.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Microsoft Power Apps, geliştiricilerin ve teknik olmayan kullanıcıların mobil cihazlar, tabletler ve web için kod yazmak zorunda kalmadan özel iş uygulamaları oluşturmalarına olanak tanır. Finans ve Operasyon uygulamaları, Power Apps ile tümleştirmeyi destekler. Sizin, kuruluşunuzun veya daha geniş ekosistemin geliştirdiği tuval uygulamaları, ürünün işlevselliğini artırmak için Finans ve Operasyon uygulamalarına gömülebilir. Örneğin, başka bir sistemden alınan bilgilerle bir Finans ve Operasyon uygulamasını desteklemek için Power Apps'ten bir tuval uygulaması oluşturabilirsiniz.
 
 Katıştırılmış tuval uygulamaları hakkında daha fazla bilgi için [Tuval uygulamalarını katıştırma](https://www.youtube.com/watch?v=x3qyA1bH-NY) kısa videosunu izleyin.
 
@@ -32,7 +35,7 @@ Katıştırılmış tuval uygulamaları hakkında daha fazla bilgi için [Tuval 
 
 İstemciye Power Apps'ten bir tuval uygulaması katıştırmadan önce, istediğiniz görsellere ve/veya işleve sahip bir uygulama bulmanız veya oluşturmanız gerekir. Bu konu, uygulama oluşturma işleminin ayrıntılı açıklamasını içermez. Power Apps uygulamasında yeni iseniz, [Power Apps belgelere](/powerapps/) bakın.
 
-Tuval uygulamasını Finance and Operations uygulamasına katıştırmanın üç yolu vardır. Senaryonuza en uygun yaklaşımı kullanabilirsiniz. 
+Bir tuval uygulamasını Finans ve Operasyon uygulamasına katıştırmanın üç yolu vardır. Senaryonuza en uygun yaklaşımı kullanabilirsiniz. 
 
 - Tuval uygulamasını, bir sayfanın standart Eylem Bölmesi'ndeki **Power Apps** düğmesine katıştırın. Bu şekilde eklediğiniz uygulamalar **Power Apps** menü düğmesinde maddeler olarak görünür ve uygulamalar yan bölmelerde açılır. 
 - Tuval uygulamasını doğrudan yeni sekme sayfası (pivot sekmesi, hızlı sekme, dikey pencere veya çalışma alanı bölümü) olarak mevcut bir sayfaya katıştırın.
@@ -65,7 +68,7 @@ Aşağıdaki yordamda, tuval uygulamasının Power Apps'ten mevcut bir sayfaya n
 
 ### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Panodan tuval uygulamasını tam sayfa deneyimi olarak katıştırma
 
-Uygulama mevcut bir sayfayla ilgili değilse veya uygulamayı Finance and Operations uygulamasında tam sayfa deneyimi olarak yüzeye çıkarmak istiyorsanız panodan bir tuval uygulamasını katıştırmak isteyebilirsiniz.
+Uygulama mevcut bir sayfayla ilgili değilse veya uygulamayı Finans ve Operasyon uygulamasında tam sayfa bir deneyim olarak ortaya çıkarmak istiyorsanız panodan bir tuval uygulaması katıştırmak isteyebilirsiniz.
 
 > [!NOTE]
 > Bu yeteneği kullanılabilir hale getirmek için Özellik yönetiminde **Tam sayfa uygulamalar** özelliğini açmalısınız. 
@@ -83,7 +86,7 @@ Tuval uygulamasını katıştırdığınızda, aşağıdaki parametreleri ayarla
 
 - **Ad**: Katıştırılmış uygulamayı içeren düğme veya sekme için gösterilmesi gereken metni girin. Genellikle, bu alanda uygulamanın adını tekrar etmek isteyebilirsiniz.
 - **Uygulama kodu**: Katıştırmak istediğiniz tuval uygulaması için genel benzersiz tanımlayıcıyı (GUID) belirtin. Bu değeri almak için [make.powerapps.com](https://make.powerapps.com) adresinde uygulamayı bulun ve **Ayrıntılar** altından **Uygulama Kimliği** alanını bulun.
-- **Uygulama için giriş bilgisi**: İsteğe bağlı olarak uygulamaya geçirmek istediğiniz verileri içeren alanı seçebilirsiniz. Uygulamanın Finance and Operations uygulamalarından gönderilen verilere nasıl erişebileceğine ilişkin ayrıntılar için bu konunun ilerleyen kısımlarında yer alan [Finance and Operations uygulamalarından gönderilen verilerden yararlanan uygulamalar oluşturma](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) bölümüne bakın.
+- **Uygulama için giriş bilgisi**: İsteğe bağlı olarak uygulamaya geçirmek istediğiniz verileri içeren alanı seçebilirsiniz. Uygulamanın Finans ve Operasyon uygulamalarından gönderilen verilere nasıl erişebileceği hakkında bilgi için bu konunun sonraki bölümlerinde yer alan [Finans ve Operasyon uygulamalarından gönderilen verilerden yararlanan bir uygulama oluşturma](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) bölümüne bakın.
 
     Sürüm 10.0.19 itibarıyla, geçerli tüzel kişilik aynı zamanda **cmp** URL parametresi aracılığıyla tuval uygulamasına bağlam olarak geçirilir. Bu davranış, söz konusu uygulama bu bilgileri kullanana kadar hedef tuval uygulamasını etkilemez.
 
@@ -104,15 +107,15 @@ Sayfaya bir tuval uygulamasını katıştırıldıktan ve düzgün çalıştığ
     - **Kayıtlı görünümler** özelliği kapalıysa sistem yöneticisi **Kişiselleştirme** sayfası aracılığıyla uygun kullanıcı kümesine tuval uygulamasını içeren bir kişiselleştirme verebilir. Alternatif olarak, sayfanızın kişiselleştirmelerini dışarı aktarabilir ve ardından bunları bir veya daha fazla kullanıcıya gönderebilirsiniz. Bu kullanıcıların her biri daha sonra kişiselleştirmeyi içeri aktarabilir. Kişiselleştirme araç çubuğunda, kişiselleştirmeleri dışarı ve içeri aktarmanıza olanak sağlayan düğmeler vardır.
 
 > [!NOTE]
-> Tuval uygulaması harici kullanıcılarla paylaşılıyorsa, bu kullanıcılar Finance and Operations uygulamaların içinde katıştırılmış uygulamayı kullanamaz. Ancak, bunlar doğrudan Power Apps içinden uygulamaya erişebilir. Harici kullanıcılar, Finance and Operations uygulamasının dağıtıldığı Microsoft 365 Azure Directory'ye ait olmayan konukları ve kullanıcıları içerir.
+> Tuval uygulaması harici kullanıcılarla paylaşıldıysa, bu kullanıcılar Finans ve Operasyon uygulamalarının içindeki gömülü uygulamayı kullanamaz. Ancak, bunlar doğrudan Power Apps içinden uygulamaya erişebilir. Dış kullanıcılar, Finans ve Operasyon uygulamasının dağıtıldığı Microsoft 365 Azure Directory'e ait olmayan konukları ve kullanıcıları içerir.
 
 Üründeki kişiselleştirme özelliklerini ve onları nasıl kullanacağınıza dair daha fazla ayrıntı için bkz. [kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
 
-## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Finance and Operations uygulamalarından gönderilen verileri kullanan bir tuval uygulaması oluşturma
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Finans ve Operasyon uygulamalarından gönderilen verileri kullanan bir tuval uygulaması oluşturma
 
-Bir Finance and Operations uygulamasına katıştırılacak bir tuval uygulaması oluşturduğunuzda, işlemin önemli bir bölümü Finance and Operations uygulamasındaki giriş verilerini kullanmaktır. Power Apps geliştirme deneyiminde, bir Finance and Operations uygulamasından geçirilen giriş verilerine **Param("EntityId")** değişkeni kullanarak erişilebilir. Ek olarak, 10.0.19 sürümünden başlayarak, geçerli tüzel kişilik aynı zamanda **Param("cmp")** değişkeni aracılığıyla tuval uygulamasına içerik olarak geçirilir. 
+Bir Finans ve Operasyon uygulamasına gömülecek bir tuval uygulaması oluşturduğunuzda, sürecin önemli bir parçası bu Finans ve Operasyon uygulamasındaki giriş verilerini kullanmaktır. Power Apps geliştirme deneyiminden, bir Finans ve Operasyon uygulamasından geçirilen giriş verilerine **Param("EntityId")** değişkeni kullanılarak erişilebilir. Ek olarak, 10.0.19 sürümünden başlayarak, geçerli tüzel kişilik aynı zamanda **Param("cmp")** değişkeni aracılığıyla tuval uygulamasına içerik olarak geçirilir. 
 
-Örneğin, uygulamanın OnStart işlevinde, Finance and Operations uygulamalarından alınan giriş verilerini bir değişkene şu şekilde ayarlayabilirsiniz:
+Örneğin, uygulamanın OnStart işlevinde, Finans ve Operasyon uygulamalarından giriş verilerini aşağıdaki gibi bir değişkene ayarlayabilirsiniz:
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -122,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Tuval uygulamasını görüntüleme
 
-Katıştırılmış bir tuval uygulamasını Finance and Operations uygulamalarındaki bir sayfada görüntülemek için, katıştırılmış uygulamanın bulunduğu sayfaya gitmeniz yeterlidir. Uygulamalara, standart Eylem Bölmesi'ndeki **Power Apps** düğmesi kullanılarak erişilebildiğini unutmayın. Alternatif olarak, bir sayfada yeni bir sekme, hızlı sekme, dikey pencere veya bir çalışma alanındaki yeni bir bölüm olarak doğrudan görüntülenebilirler. Kullanıcılar sayfaya ilk kez bir uygulama yüklemeye çalıştıklarında, oturum açmaları istenir. Bu adım, kullanıcıların uygulamayı kullanmak için uygun izinlere sahip olmasını gerektirir.
+Finans ve Operasyon uygulamalarındaki bir sayfada gömülü tuval uygulamasını görüntülemek için, gömülü bir uygulamaya sahip bir sayfaya gitmeniz yeterlidir. Uygulamalara, standart Eylem Bölmesi'ndeki **Power Apps** düğmesi kullanılarak erişilebildiğini unutmayın. Alternatif olarak, bir sayfada yeni bir sekme, hızlı sekme, dikey pencere veya bir çalışma alanındaki yeni bir bölüm olarak doğrudan görüntülenebilirler. Kullanıcılar sayfaya ilk kez bir uygulama yüklemeye çalıştıklarında, oturum açmaları istenir. Bu adım, kullanıcıların uygulamayı kullanmak için uygun izinlere sahip olmasını gerektirir.
 
 ## <a name="editing-an-embedded-app"></a>Katıştırılmış bir uygulamayı düzenleme
 

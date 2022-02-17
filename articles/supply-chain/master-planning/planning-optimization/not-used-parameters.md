@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 55b174b426b02e59f75d58e9a6cf32991089ca22
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728967"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087511"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Planlamayı En İyi Duruma Getirme tarafından kullanılmayan parametreler
 
@@ -160,6 +160,10 @@ Planlamayı En İyi Duruma Getirme, **Master planlar** sayfasında bulunan aşa�
   - **Hesaplanan gecikmeyi gereksinim tarihine ekle** (**Planlanan üretim emirleri** bölümünde) – *Hesaplanan gecikmeler* desteği bekleniyor.
   - **Hesaplanan gecikmeyi gereksinim tarihine ekle** (**Planlanan transfer** bölümünde) – *Hesaplanan gecikmeler* desteği bekleniyor.
   - **Hesaplanan gecikmeyi gereksinim tarihine ekle** (**Planlı kanban** bölümünde) – *Hesaplanan gecikmeler* desteği bekleniyor.
+
+- **Eylem iletisi** hızlı sekmesi:
+
+  - **Ertelenen tarihi gereksinim tarihi olarak güncelleştir** - Bu parametre, Planlama İyileştirmesi ile kullanımdan kaldırıldı.
 
 - **Sıralama** Hızlı sekmesi:
 

@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754149"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063759"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (14 Mayız 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3244 uygulanır. Bazı başlıklardaki parantez içindeki numaralar  Lifecycle Services (LCS) destek numaralarına referans verir.
+
+Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3244 uygulanır. Bazı başlıklardaki parantez içindeki numaralar Lifecycle Services (LCS) destek numaralarına referans verir.
 
 ## <a name="platform-changes"></a>Platform değişiklikleri
 
-Platform değişiklikleri, bu haftaki sürüme dahil edildi. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.10 sürümü için platform güncelleştirmeleri (Mayıs 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Bu sürümde, hata düzeltmeleri ve kaydedilmiş görünümlerde değişiklikler bulunmaktadır.
+Platform değişiklikleri, bu haftaki sürüme dahil edildi. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.10 sürümü için platform güncelleştirmeleri (Mayıs 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Bu sürümde, hata düzeltmeleri ve kaydedilmiş görünümlerde değişiklikler bulunmaktadır.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Dataverse seçim listelerinin İzin sabit listeleriyle tutarlı olduğundan emin olma (436343)
 

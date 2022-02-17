@@ -1,6 +1,6 @@
 ---
 title: Tümleşik müşteri aslı
-description: Bu konu, Finance and Operations ve Dataverse arasındaki müşteri verileri tümleştirmesini açıklar.
+description: Bu konu Finans ve Operasyon ile Dataverse arasında müşteri verisi tümleştirmesini açıklar.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 48070628aafd7daac65327a484c87dc01ffb3954
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 41e4b6c192b6125a144e4d5ef952ba0975821d44
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781702"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063301"
 ---
 # <a name="integrated-customer-master"></a>Tümleşik müşteri aslı
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Müşteri verileri birden fazla Dynamics 365 uygulamasında ana kopyalı olabilir. Örneğin, bir müşteri Dynamics 365 Sales (müşteri etkileşimi uygulaması) satış aktivitesinde ortaya çıkabilir veya bir satır Dynamics 365 Commerce'teki (finans ve operasyon uygulaması) perakende aktivitesi aracılığıyla ortaya çıkabilir. Müşteri verilerinin kaynaklandığı yerden bağımsız olarak, arka planda tümleştirilir. Tümleşik Müşteri Yöneticisi, herhangi bir Dynamics 365 uygulamasındaki ana müşteri verilerine esneklik sağlar ve Dynamics 365 uygulama paketi arasında müşterinin kapsamlı bir görünümünü sağlar.
 
@@ -30,9 +30,9 @@ Müşteri verileri birden fazla Dynamics 365 uygulamasında ana kopyalı olabili
 
 ![Müşteri veri akışı.](media/dual-write-customer-data-flow.png)
 
-Müşteriler, geniş anlamda iki türde sınıflandırılabilir: ticari/kuruluş müşterileri ve tüketiciler/son kullanıcılar. Bu iki tür müşteri Finance and Operations ve Dataverse uygulamasında farklı şekilde saklanır ve işlenir.
+Müşteriler, geniş anlamda iki türde sınıflandırılabilir: ticari/kuruluş müşterileri ve tüketiciler/son kullanıcılar. Bu iki tür müşteri Finans ve Operasyon ve Dataverse uygulamasında 'da farklı şekilde saklanır ve işlenir.
 
-Finance and Operations uygulamasında, ticari/kuruluş müşterileri ve tüketiciler/son kullanıcılar **CustTable** (CustomerCustomerV3Entity) adlı tek bir tabloda yönetilir ve **Tür** özniteliğine göre sınıflandırılır. ( **Tür** **Kuruluş** olarak ayarlanırsa, müşteri ticari/kurumsal müşteridir; **Tür** **Kişi** olarak ayarlanırsa, müşteri bir tüketici/son kullanıcıdır.) Birincil ilgili kişi bilgileri SMMContactPersonEntity tablosu aracılığıyla işlenir.
+Finans ve Operasyon'ta, ticari/kuruluş müşterileri ve tüketiciler/son kullanıcılar **CustTable** (CustCustomerV3Entity) adlı tek bir tabloda yönetilir ve **Tür** özniteliğine göre sınıflandırılır. ( **Tür** **Kuruluş** olarak ayarlanırsa, müşteri ticari/kurumsal müşteridir; **Tür** **Kişi** olarak ayarlanırsa, müşteri bir tüketici/son kullanıcıdır.) Birincil ilgili kişi bilgileri SMMContactPersonEntity tablosu aracılığıyla işlenir.
 
 Dataverse'te, ticari/kurumsal müşteriler Hesap tablosunda yönetilir ve **RelationshipType** özniteliği **Müşteri** olarak ayarlandığında, müşteri olarak tanımlanır. Hem tüketiciler/son kullanıcılar hem de ilgili kişi, İlgili Kişi tablosuyla temsil edilir. Bir tüketici/son kullanıcı ve bir ilgili kişi arasında net bir ayrım sağlamak için **İlgili Kişi** tablosunda **Satış yapılabilir** adlı bir Boole bayrağı bulunur. **Satış yapılabilir** için değer **Doğru** olduğunda, ilgili kişi bir tüketici/son kullanıcıdır ve bu ilgili kişi için teklifler ve siparişler oluşturulabilir. **Satış yapılabilir** için değer **Yanlış** olduğunda, ilgili kişi yalnızca bir müşterinin birincil ilgili kişisidir.
 
@@ -42,7 +42,7 @@ Satış yapılabilir olmayan bir ilgili kişi bir teklif veya sipariş sürecine
 
 Müşteri verileri, müşteriyle ilgili müşteri grubu, adresler, iletişim bilgileri, ödeme profili, fatura profili ve bağlılık durumu gibi tüm bilgileri içerir. Tablo eşlemeleri koleksiyonu, aşağıdaki tabloda gösterildiği gibi, müşteri veri etkileşimi sırasında birlikte çalışır.
 
-Finance and Operations uygulamaları | Müşteri etkileşimi uygulamaları         | Tanım
+Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları         | Tanım
 ----------------------------|---------------------------------|------------
 [CDS İlgili Kişileri V2](mapping-reference.md#115) | ilgili kişiler | Bu şablon, müşterilerin ve satıcıların tüm birincil, ikincil ve üçüncül ilgili kişi bilgilerini eşitler.
 [Müşteri grupları](mapping-reference.md#126) | msdyn_customergroups | Bu şablon müşteri grubu bilgilerini eşitler.
