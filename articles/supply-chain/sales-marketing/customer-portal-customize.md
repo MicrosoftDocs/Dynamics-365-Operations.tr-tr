@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 548a81d8145d6762508163f17ca7367cb5ecd849
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579028"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063505"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Müşteri portalını özelleştirme ve kullanma
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Bu konuda, kutudan bulunmayan farklı sayfalar müşteri portalında açıklanmıştır. Sayfaların ne yaptığını ve bunları nasıl özelleştirebileceğinizi açıklar.
 

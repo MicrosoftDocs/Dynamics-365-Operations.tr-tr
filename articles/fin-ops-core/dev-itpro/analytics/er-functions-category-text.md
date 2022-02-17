@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647572"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075512"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Metin kategorisindeki ER işlevlerinin listesi
 
@@ -35,6 +35,7 @@ ms.locfileid: "7647572"
 | [Art arda eklemek](er-functions-text-concatenate.md) | Bu işlev, bir dizeye katıldıktan sonra, belirtilen tüm metin dizelerini bir *Dize* değeri olarak döndürür. |
 | [Biçim](er-functions-text-format.md) | Bu işlevi, belirtilen dizeyi, tüm **%N** oluşumlarını *N*'ci bağımsız değişken ile değiştirerek biçimlendirdikten sonra *Dize* değeri olarak döndürür. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Bu işlevi, belirtilen numaralandırma veri kaynağındaki belirli bir *Enum* değerini *dize* değeri olarak belirtilen numaralandırma adını kullanarak arar. *Numaralama* değeri bulunursa, işlev bunu döndürür. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Bu işlev, belirtilen bir etiketin belirtilen dilde çevirisini temsil eden bir *[Dize](er-formula-supported-data-types-primitive.md#string)* değeri döndürmek için belirli bir etiketi arar. |
 | [GuidValue](er-functions-text-guidvalue.md) | Bu işlevi, belirtilen *Dize* veri türündeki girişi *GUID* veri türünde bir veri öğesine dönüştürür. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Bu işlevi, verileri, belirtilen koda göre skaler bir değer çıkarmak için belirtilen yolla erişilen JavaScript Nesne Gösterimi (JSON) biçiminde ayrıştırın. Sonra da bir *dize* değeri olarak ayıklanan skalar değeri döndürür. |
 | [Sola](er-functions-text-left.md) | Bu işlev belirtilen dizenin başından itibaren belirtilen sayıda karakteri gösteren bir *dize* değeri döndürür. |

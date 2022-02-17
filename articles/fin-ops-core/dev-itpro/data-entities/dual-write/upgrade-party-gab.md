@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
-ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
+ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "8015727"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060497"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Taraf ve genel adres defteri modeline yükseltme
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [Microsoft Azure Data Factory şablonları](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema), çift yazmadaki aşağıdaki verileri, taraf ve genel adres defteri modellerine çift yazmalı olarak yükseltmenize yardımcı olur: **Firma**, **İlgili Kişi** ve **Satıcı** tabloları ve posta ile elektronik adresler.
 
@@ -57,10 +57,10 @@ Parti ve genel adres defteri modeline yükseltmek için aşağıdaki önkoşulla
 
 Yükseltme için aşağıdaki hazırlık gereklidir:
 
-+ **Tam eşitleme:** Hem Finance and Operations ortamı hem de Customer Engagement ortamı, **Firma (Müşteri)**, **İlgili kişi** ve **Satıcı** tabloları için tam olarak eşitlenmiş durumda bulunur.
++ **Tam eşitleme:** Hem Finans ve Operasyon ortamı hem de Customer Engagement ortamı, **Firma (Müşteri)**, **İlgili kişi** ve **Satıcı** tabloları için tam olarak eşitlenmiş durumda bulunur.
 + **Tümleştirme anahtarları:** Müşteri etkileşimi uygulamalarındaki **Hesap (Müşteri)**, **İlgili Kişi** ve **Satıcı** tabloları kullanıma hazır gönderilen tümleştirme anahtarlarını kullanıyor. Tümleştirme anahtarlarını özelleştirdiyseniz, şablonu özelleştirmeniz gerekir.
 + **Taraf numarası:** Yükseltilecek tüm **Hesap (Müşteri)**, **İlgili Kişi** ve **Satıcı** kayıtlarında bir taraf numarası bulunur. Taraf numarası olmayan kayıtlar yok sayılır. Bu kayıtları yükseltmek istiyorsanız, yükseltme işlemine başlamadan önce onlara bir taraf numarası ekleyin.
-+ **Sistem kesintisi:** Yükseltme işlemi sırasında, hem Finance and Operations ortamı hem de Customer Engagement ortamını çevrimdışına almanız gerekir.
++ **Sistem kesintisi:** Yükseltme işlemi sırasında, hem Finans ve Operasyon ortamı hem de Customer Engagement ortamını çevrimdışına almanız gerekir.
 + **Anlık görüntü:** Hem Finance ve Operations hem de Customer Engagement uygulamalarının anlık görüntüsünü alın. Gerekirse önceki durumu geri yüklemek için anlık görüntüleri kullanabilirsiniz.
 
 ## <a name="deployment"></a>Dağıtım

@@ -1,6 +1,6 @@
 ---
 title: Genel sorun giderme
-description: Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma tümleştirme hakkında genel sorun giderme bilgileri sağlar.
+description: Bu konu, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında genel sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781186"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062350"
 ---
 # <a name="general-troubleshooting"></a>Genel sorun giderme
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma tümleştirme hakkında genel sorun giderme bilgileri sağlar.
+
+Bu konu, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında genel sorun giderme bilgileri sağlar.
 
 > [!IMPORTANT]
 > Bu konu adresiyle ilgili bazı sorunların sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
@@ -44,37 +44,37 @@ Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma
 2. **Tür Adı** sütununun **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** olarak ayarlandığı izleme günlüklerini bulun.
 3. Tam günlüğü görüntülemek için bir öğeyi çift tıklatın ve sonra **yürütme** hızlı sekmesinde **ileti öbeği** metnini gözden geçirin.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Finance and Operations Uygulamalardaki canlı eşitleme sorunlarını gidermek için hata ayıklama modunu etkinleştir
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Finans ve Operasyon uygulamalarındaki canlı eşitleme sorunlarını gidermek için hata ayıklama modunu etkinleştirme
 
 **Hataları görüntülemek için gerekli rol:** Sistem Yöneticisi
 
-Dataverse Uygulamada yer Finance and Operations alan çift-yazılır hatalar ortaya çıkabilir. Hatalar için ayrıntılı günlük kaydını etkinleştirmek üzere aşağıdaki adımları izleyin:
+Dataverse'te ortaya çıkan çift yazma hataları Finans ve Operasyon uygulamasında görünebilir. Hatalar için ayrıntılı günlük kaydını etkinleştirmek üzere aşağıdaki adımları izleyin:
 
-1. Finance and Operations uygulamasındaki tüm proje yapılandırmaları için **DualWriteProjectConfiguration** tablosunda bir **IsDebugMode** bayrağı vardır.
-2. Excel eklentisini kullanarak **DualWriteProjectConfiguration** öğesini açın. Eklentiyi kullanmak için Finance and Operations Excel eklentisinde tasarım modunu etkinleştirin ve sayfaya **DualWriteProjectConfiguration** öğesini ekleyin. Daha fazla bilgi için bkz. [Varlık verilerini Excel ile görüntüleme ve güncelleştirme](../../office-integration/use-excel-add-in.md).
+1. Finans ve Operasyon uygulamasındaki tüm proje yapılandırmaları için **DualWriteProjectConfiguration** tablosunda bir **IsDebugMode** bayrağı vardır.
+2. Excel eklentisini kullanarak **DualWriteProjectConfiguration** öğesini açın. Eklentiyi kullanmak Finans ve Operasyon Excel eklentisinde tasarım modunu etkinleştirin ve sayfaya **DualWriteProjectConfiguration** öğesini ekleyin. Daha fazla bilgi için bkz. [Varlık verilerini Excel ile görüntüleme ve güncelleştirme](../../office-integration/use-excel-add-in.md).
 3. Projede **IsDebugMode** öğesini **Evet** olarak ayarlayın.
 4. Hata oluşturan senaryoyu çalıştırın.
 5. Ayrıntılı günlükler **DualWriteErrorLog** tablosunda saklanır.
 6. Tablo tarayıcısında veri aramak için şu bağlantıyı kullanın: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, gerektiğinde `999` değiştirilir.
 7. 37 ve sonraki platform güncelleştirmeleri için kullanılabilen [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe)'ten sonra yeniden güncelleştirin. Bu düzeltmeyi yüklediyseniz hata ayıklama modu daha fazla günlük yakalar.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Finance and Operations Uygulamaya ilişkin sanal makinedeki eşitleme hatalarını denetle
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Finans ve Operasyon uygulamasına ilişkin sanal makinedeki eşitleme hatalarını denetleme
 
 **Hataları görüntülemek için gerekli rol:** Sistem yöneticisi
 
 1. Microsoft Dynamics Lifecycle Services (LCS)'de oturum açın.
 2. Çift yazma sınaması gerçekleştirmek için seçtiğiniz LCS projesini açın.
 3. **Bulutta barındırılan ortamlar** kutucuğunu seçin.
-4. Finance and Operations Uygulamanın sanal makinesine (VM) oturum açmak Için uzak masaüstü 'nü kullanın. LCS içinde gösterilen yerel hesabı kullanın.
+4. Finans ve Operasyon uygulamasının sanal makinesine (VM) oturum açmak için Uzak Masaüstü'nü kullanın. LCS içinde gösterilen yerel hesabı kullanın.
 5. Olay Görüntüleyiciyi açın.
 6. **Uygulamalar ve Hizmetler günlükleri \> Microsoft \> Dynamics \> AX-DualWriteSync \> İşletim**'e gidin.
 7. En son hataların listesini gözden geçirin.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamadan başka bir Dataverse ortam bağlantısını kaldır ve bağlantıyı kes
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Finans ve Operasyon uygulamasından başka bir Dataverse ortam bağlantısını kaldırma
 
-**Ortamın bağlantısını kaldırmak için gerekli rol:** Finance and Operations veya Dataverse uygulaması için sistem yöneticisi.
+**Ortamın bağlantısını kaldırmak için gerekli rol:** Finans ve Operasyon uygulaması veya Dataverse için sistem yöneticisi.
 
-1. Finance and Operations Uygulamaya oturum açın.
+1. Finans ve Operasyon uygylamasında oturum açın.
 2. **Çalışma alanları \> veri yönetimi**'ne gidin ve **ikili yazma** kutucuğunu seçin.
 3. Çalışan tüm eşlemeleri seçin ve **Durdur**'u tıklatın.
 4. **Ortam bağlantısını kaldırma**'yı seçin.

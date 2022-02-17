@@ -2,33 +2,30 @@
 title: Ekstre deftere nakil işlevi geliştirmeleri
 description: Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.
 author: analpert
-ms.date: 12/03/2021
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9a5a7d6394a87eccde8e1c364caaaabdb0297fd2
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982215"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087615"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Ekstre deftere nakil işlevi geliştirmeleri
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu ekstre deftere nakli özelliğinde yapılan ilk geliştirme kümesini açıklar. Bu iyileştirmeler Microsoft Dynamics 365 for Finance and Operations 7.3.2 içinde kullanılabilirdir.
 
 ## <a name="activation"></a>Etkinleştirme
 
-Varsayılan olarak, Finance and Operations 7.3.2 dağıtımı sırasında program eski ekstre deftere nakil özelliğini kullanacak şekilde ayarlanır. Geliştirilmiş ekstre deftere nakil özelliğini etkinleştirmek için buna ilişkin yapılandırma anahtarını etkinleştirmeniz gerekir.
+Varsayılan olarak, Finans ve Operasyon 7.3.2 dağıtımı sırasında program eski ekstre deftere nakil özelliğini kullanacak şekilde ayarlanır. Geliştirilmiş ekstre deftere nakil özelliğini etkinleştirmek için buna ilişkin yapılandırma anahtarını etkinleştirmeniz gerekir.
 
 - **Sistem Yönetimi** \> **Kurulum** \> **Lisans yapılandırması**'na gidin ve daha sonra **Perakende ve Ticaret** düğümü altından **Ekstreler (eski)** onay kutusunun seçimini kaldırın ve **Ekstreler** onay kutusunu işaretleyin.
 
@@ -53,12 +50,24 @@ Ekstre deftere nakli özelliğinde yapılan geliştirmelerin bir parçası olara
 
 - **Sayımın devre dışı bırakılması gerekli** – Bu seçenek **Evet** olarak ayarlandığında, sayılan tutar ile hareket tutarı arasındaki fark mağazaları için **Ekstre** hızlı sekmesinde belirtilen eşiğin dışında olsa bile ekstre deftere nakil işlemi devam eder.
 
+> [!NOTE]
+> Commerce sürüm 10.0.14 sürümünden sonra **Perakende ekstreleri - İç besleme** özelliği etkinleştirildiğinde, **Stoku deftere naklet** toplu işlemi artık geçerli değildir ve çalıştırılamaz.
+
 Ek olarak, aşağıdaki parametreler **Ticaret parametleri** sayfasının **Deftere nakil** sekmesindeki **Toplu işleme** hızlı sekmesinde kullanıma sunulmuştur: 
 
 - **Paralel ekstre deftere nakil maksimum sayısı** - Bu alan, çoklu ekstreleri deftere nakletmek için kullanılacak toplu iş görevlerini tanımlar. 
 - **Ekstre başına sipariş işleme için maksimum iş parçacığı** - Bu alan, tek bir ekstre için satış siparişleri oluşturmak ve faturalamak üzere ekstre deftere nakli toplu işi tarafından kullanılan maksimum iş parçacığı sayısını gösterir. Ekstre deftere nakil işlemi tarafından kullanılacak toplam iş parçacığı sayısı, bu parametredeki değer **Paralel ekstre deftere nakil maksimum sayısı** parametresindeki değerle çarpılarak hesaplanır. Bu parametrenin değerinin çok yüksek bir değere ayarlanması, ekstre deftere nakil işleminin performansını olumsuz etkileyebilir.
 - **Toplama dahil edilen maksimum hareket satırı** - Bu alan, yenisi oluşturulmadan önce tek bir toplam harekete dahil edilecek hareket satırlarının sayısını tanımlar. Toplu hareketler müşteri, iş tarihi veya mali boyutlar gibi farklı toplama ölçütleri temel alınarak oluşturulur. Tek bir hareketindeki satırların, farklı toplu hareketler arasında bölünemeyeceğini unutmayın. Bu, toplu hareketteki satırların sayısının, farklı ürünlerin sayısı gibi etkenlere bağlı olarak biraz daha yüksek veya düşük olma olasılığı bulunduğu anlamına gelir.
 - **Mağaza hareketlerini doğrulamak için maksimum iş parçacığı sayısı** - Bu alan, hareketlerini doğrulamak için kullanılacak iş parçacıklarının sayısını tanımlar. Hareketlerinin doğrulanması, hareketler ekstrelerden çekilmeden önce gerçekleşmesi gereken bir adımdır. **Ticaret parametreleri** sayfasının **Deftere nakil** sekmesindeki **Hediye kartı** hızlı sekmesinde bir **Hediye kartı ürünü** tanımlamanız gerekir. Kuruluş hediye kartları kullanmasa bile tanımlanması gerekir.
+
+Aşağıdaki tabloda, önceki parametreler için önerilen değerler listeler. Bu değerler test edilmeli ve dağıtım yapılandırmasına ve kullanılabilir altyapıya göre uyarlanmalıdır. Önerilen değerlerdeki herhangi bir artış diğer toplu işlemeyi olumsuz etkileyebilir ve doğrulanmalıdır.
+
+| Parametre | Önerilen değer | Ayrıntılar |
+|-----------|-------------------|---------|
+| Paralel ekstre deftere nakil işlemi için maksimum sayı | <p>Bu parametreyi **Ekstre** işini çalıştıran toplu iş grubu için kullanılabilen toplu iş görevlerinin sayısına ayarlayın.</p><p>**Genel kural:** Uygulama Nesne Sunucusu (AOS) sanal sunucu sayısını, AOS sanal sunucusu başına kullanılabilen toplu iş görevlerinin sayısıyla çarpın.</p> | **Perakende ekstreleri - İç besleme** özelliği etkinleştirildiğinde bu parametre geçerli değildir. |
+| Ekstre başına sipariş işleme için maksimum iş parçacığı sayısı | Değerleri **4**'te test etmeye başlayın. Genellikle, değer **8**'i geçmemelidir. | Bu parametre, satış siparişleri oluşturmak ve deftere nakletmek için kullanılan iş parçacığı sayısını belirtir. Ekstre başına deftere nakil için kullanılabilen iş parçacığı sayısını temsil eder. |
+| Toplama dahil edilen maksimum hareket satırı | Değerleri **1000**'te test etmeye başlayın. Genel merkez yapılandırmasına bağlı olarak, daha küçük siparişler performans için daha yararlı olabilir. | Bu parametre, ekstre deftere nakli sırasında her satış siparişine dahil edilecek satır sayısını belirler. Bu sayıya ulaşıldıktan sonra satırlar yeni bir siparişe bölünür. Satış satırlarının sayısı kesin olmasa da, bölme işlemi satış siparişi düzeyinde gerçekleştiğinden, ayarlanan sayıya yakın olacaktır. Bu parametre, adlandırılmış müşterisi olmayan perakende hareketleri için satış siparişleri oluşturmak için kullanılır. |
+| Mağaza hareketlerini doğrulamak için maksimum iş parçacığı sayısı | Bu parametreyi **4** olarak ayarlamanızı ve yalnızca kabul edilebilir performansa sahip değilseniz artırmanızı öneririz. Bu işlemin kullandığı iş parçacığı sayısı, toplu iş sunucusu tarafından kullanılabilen işlemci sayısını aşamaz. Buraya çok fazla iş parçacığı atarsanız diğer toplu işlemeleri etkileyebilirsiniz. | Bu parametre, belirli bir mağaza için aynı anda doğrulanabilecek işlem sayısını denetler. |
 
 > [!NOTE]
 > Ekstre deftere nakilleriyle ilgili olan ve mağazalar ile **Ticaret parametreleri** sayfasında tanımlanan tüm ayarların ve parametreler, geliştirilmiş ekstre deftere nakil özelliğine uygulanabilir.

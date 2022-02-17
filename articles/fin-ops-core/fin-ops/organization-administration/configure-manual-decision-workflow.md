@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bfe14dc96c2e20f06594808bc45a82699465bb2ab61328b1b22b663db49d98f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754942"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065667"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>İş akışında el ile girilen kararları yapılandırma
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konu, el ile bir kararın özelliklerini yapılandırmayı açıklar.
 

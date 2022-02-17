@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548579"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075006"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Harici bir müşteri için şirketlerarası satış siparişi oluşturma ve faturalama
 
@@ -75,5 +75,18 @@ Bu adımları B tüzel kişiliğinde yapın. Bu yordam, resimde 2 etiketli kutuy
 1. Satış siparişini ve ardından **Tamam** sekmesini seçin.
 
 Şirketlerarası satış siparişi için müşteri faturası otomatik olarak B tüzel kişiliğinde deftere nakledilir. Şirketlerarası satıcı faturası daha sonra otomatik olarak oluşturulur ve A tüzel kişiliğinde deftere nakledilir. Orijinal satış siparişi doğrudan teslimat olarak ayarlandıysa A tüzel kişiliğindeki orijinal satış siparişi için müşteri faturası oluşturulur.
+
+> [!NOTE]
+> Daha önce, şirketlerarası satış senaryolarında, satıcı faturası iş akışı şirketlerarası satınalma şirketinde yapılandırılmışsa şirketlerarası satış siparişi başarıyla faturalanamıyordu. Bu nedenle, şirketlerarası satınalma şirketi için satıcı faturası iş akışının kapatılmış olması gerekiyordu. 
+> 
+> Bu sınırlama, 10.0.25 sürümündeki yeni bir özellik ile düzeltilmiştir. Şirketlerarası satış siparişleri artık şirketlerarası satınalma şirketinde satıcı faturası iş akışı yapılandırıldığında faturalanabilri.
+> 
+> Bu özelliği etkinleştirmek için şu adımları izleyin.
+>
+> 1. Şirketlerarası satış tüzel kişiliğini seçin.  
+> 2. **Alacak hesapları \> Müşteriler \> Tüm müşteriler**'e gidin.
+> 3. Şirketlerarası satınalma şirketi için müşteriyi seçin.
+> 4. **Genel \> Kurulum \> Şirketlerarası**'na gidin.
+> 5. **Satınalma siparişi ilkeleri** sekmesinde, **Şirketlerarası satıcı faturaları için satıcı faturası iş akışını atla** parametresini seçin.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

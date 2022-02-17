@@ -2,7 +2,7 @@
 title: Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 description: Bu konuda, oluşabilecek çalışma zamanı sorunlarını önlemek için yapılandırılmış elektronik raporlama (ER) bileşenlerinin nasıl denetleneceği açıklamaktadır.
 author: NickSelin
-ms.date: 08/26/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488126"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074803"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 
 [!include[banner](../includes/banner.md)]
 
-Her yapılandırılmış [Elektronik raporlama (ER)](general-electronic-reporting.md)[biçimi](general-electronic-reporting.md#FormatComponentOutbound) ve [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni, tasarım zamanında [doğrulanabilir](er-fillable-excel.md#validate-an-er-format). Bu doğrulama sırasında, yürütme hataları ve performans düşüşü gibi oluşabilecek çalışma zamanı sorunlarını önlemeye yardımcı olmak için tutarlılık denetimi çalıştırılır. Bulunan her sorun için denetim, sorunlu öğenin yolunu belirtir. Bazı sorunlar için, otomatik düzeltme kullanılabilir.
+Her yapılandırılmış [Elektronik raporlama (ER)](general-electronic-reporting.md)[biçimi](er-overview-components.md#format-components-for-outgoing-electronic-documents) ve [model eşleme](er-overview-components.md#model-mapping-component) bileşeni, tasarım zamanında [doğrulanabilir](er-fillable-excel.md#validate-an-er-format). Bu doğrulama sırasında, yürütme hataları ve performans düşüşü gibi oluşabilecek çalışma zamanı sorunlarını önlemeye yardımcı olmak için tutarlılık denetimi çalıştırılır. Bulunan her sorun için denetim, sorunlu öğenin yolunu belirtir. Bazı sorunlar için, otomatik düzeltme kullanılabilir.
 
 Varsayılan olarak, aşağıdaki durumlarda yukarıda belirtilen ER bileşenlerini içeren bir ER yapılandırması için doğrulama otomatik olarak uygulanır:
 
@@ -236,6 +236,15 @@ Aşağıdaki tabloda, ER tarafından sağlanan denetlemeler hakkında genel bilg
 <td>Hata</td>
 <td>Çoğaltma olmaksızın ikiden fazla aralık bileşeni var. Lütfen gereksiz bileşenleri kaldırın.</td>
 </tr>
+<tr>
+<td><a href='#i18'>ORDERBY işlevi içeren bir ifadenin yürütülebilirliği</a></td>
+<td>Yürütülebilirlik</td>
+<td>Hata</td>
+<td>
+<p>ORDERBY işlevinin liste ifadesi sorgulanabilir değil.</p>
+<p><b>Çalışma zamanı hatası:</b> Sıralama desteklenmiyor. Bu konuda daha fazla ayrıntı öğrenmek için yapılandırmayı doğrulayın.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -365,7 +374,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 8. Yeni iç içe alanı **$AccNumber** olarak adlandırın ve `TRIM(Vendor.AccountNum)` ifadesini içerecek şekilde yapılandırın.
 9. **Model eşleme tasarımcısı** sayfasında düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin ve **Vendor** veri kaynağındaki `FILTER(Vendor, Vendor.AccountNum="US-101")` ifadesinin sorgulanabildiğini doğrulayın.
 
-    ![İfadenin Model eşleme tasarımcısı sayfasında sorgulanabildiğini doğrulama.](./media/er-components-inspections-04.gif)
+    ![FILTER işlevini içeren ifadenin Model eşleme tasarımcısı sayfasında sorgulanabildiğini doğrulama.](./media/er-components-inspections-04.gif)
 
 10. **Vendor** veri kaynağı, **FilteredVendor** veri kaynağı ifadesinin doğrudan SQL deyimine çevrilmesine izin vermeyen **Hesaplanan alan** türünde iç içe alan içerdiğinden doğrulama hatası oluşur.
 
@@ -671,19 +680,19 @@ Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çal
 
 ![Biçim tasarımcısı sayfasında biçim eşleme çalıştırması sırasında oluşan çalışma zamanı hatası.](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution&quot;></a>Otomatik çözüm
+### <a name="automatic-resolution"></a>Otomatik çözüm
 
 Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
 
-### <a name=&quot;manual-resolution&quot;></a>El ile çözüm
+### <a name="manual-resolution"></a>El ile çözüm
 
-#### <a name=&quot;option-1&quot;></a>Seçenek 1
+#### <a name="option-1"></a>Seçenek 1
 
 **Vendor** veri kaynağından **Önbellek** işaretini kaldırın. **FilteredVendor** veri kaynağı yürütülebilir hale gelir ancak **FilteredVendor** veri kaynağı her çağrıldığında VendTable tablosunda başvurulan **Vendor** veri kaynağına erişilecektir.
 
-#### <a name=&quot;option-2&quot;></a>Seçenek 2
+#### <a name="option-2"></a>Seçenek 2
 
-**FilteredVendor** veri kaynağı ifadesini, `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` yerine `WHERE(Vendor, Vendor.AccountNum="US-101")` olacak şekilde değiştirin. Bu durumda, VendTable tablosunda başvurulan **Vendor** veri kaynağına yalnızca **Vendor** veri kaynağı ilk çağrıldığında erişilir. Ancak, kayıt seçimi bellekte yapılır. Bu nedenle, bu yaklaşım düşük performansa neden olabilir.
+**FilteredVendor** veri kaynağı ifadesini, `FILTER(Vendor, Vendor.AccountNum="US-101")` yerine `WHERE(Vendor, Vendor.AccountNum="US-101")` olacak şekilde değiştirin. Bu durumda, VendTable tablosunda başvurulan **Vendor** veri kaynağına yalnızca **Vendor** veri kaynağı ilk çağrıldığında erişilir. Ancak, kayıt seçimi bellekte yapılır. Bu nedenle, bu yaklaşım düşük performansa neden olabilir.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Eksik bağlama
 
@@ -892,6 +901,47 @@ Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
 #### <a name="option-1"></a>Seçenek 1
 
 Tüm tutarsız **Excel\\Aralık** bileşenleri için **Yineleme yönü** özelliğini değiştirerek yapılandırılmış biçimi değiştirin.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>ORDERBY işlevi içeren bir ifadenin yürütülebilirliği
+
+Yerleşik [ORDERBY](er-functions-list-orderby.md) ER işlevi, işlevin bağımsız değişkeni olarak belirtilen **[Kayıt listesi](er-formula-supported-data-types-composite.md#record-list)** türünün ER veri kaynağı kayıtlarını sıralamak için kullanılır.
+
+`ORDERBY` işlevinin bağımsız değişkenleri, sıralanmış verileri kayıt listesi olarak almak için tek bir veritabanı çağrısı yaparak uygulama tabloları, görünümleri ve veri varlıklarının kayıtlarını sıralamak için [belirtilebilir](er-functions-list-orderby.md#syntax-2). **Kayıt listesi** türündeki bir veri kaynağı, işlevin bağımsız değişkeni olarak kullanılır ve çağrı için uygulama kaynağını belirtir.
+
+ER, `ORDERBY` işlevinde başvurulan veri kaynağına doğrudan veritabanı sorgusu oluşturulup oluşturulamayacağını denetler. Doğrudan sorgu oluşturulamazsa ER model eşleme tasarımcısında bir doğrulama hatası oluşur. Aldığınız iletide, `ORDERBY` işlevini içeren ER ifadesinin çalışma zamanında çalıştırılamadığı belirtilir.
+
+Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
+
+1. ER model eşleme bileşenini yapılandırmaya başlayın.
+2. **Dynamics 365 for Operations \\ Tablo kayıtları** türünde bir veri kaynağı ekleyin.
+3. Yeni veri kaynağını **Vendor** olarak adlandırın. **Tablo** alanında, bu veri kaynağının **VendTable** tablosunu isteyeceğini belirtmek için **VendTable** seçeneğini belirleyin.
+4. **Hesaplanan alan** türünde bir veri kaynağı ekleyin.
+5. Yeni veri kaynağını **OrderedVendors** olarak adlandırın ve `ORDERBY("Query", Vendor, Vendor.AccountNum)` ifadesini içerecek şekilde yapılandırın.
+ 
+    ![Model eşleme tasarımcı sayfasında veri kaynaklarını yapılandırma.](./media/er-components-inspections-18-1.png)
+
+6. **Model eşleme tasarımcısı** sayfasında düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin ve **OrderedVendors** veri kaynağındaki ifadenin sorgulanabildiğini doğrulayın.
+7. Kırpılan satıcı hesap numarasını almak için **Hesaplanan alan** türünde iç içe bir alan ekleyerek **Vendor** veri kaynağını değiştirin.
+8. Yeni iç içe alanı **$AccNumber** olarak adlandırın ve `TRIM(Vendor.AccountNum)` ifadesini içerecek şekilde yapılandırın.
+9. **Model eşleme tasarımcısı** sayfasında düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin ve **Vendor** veri kaynağındaki ifadenin sorgulanabildiğini doğrulayın.
+
+    ![Vendor veri kaynağındaki ifadenin Model eşleme tasarımcısı sayfasında sorgulanabildiğini doğrulama.](./media/er-components-inspections-18-2.png)
+
+10. **Vendor** veri kaynağı, **OrderedVendors** veri kaynağı ifadesinin doğrudan veritabanı deyimine çevrilmesine izin vermeyen **Hesaplanan alan** türünde iç içe alan içerdiğinden doğrulama hatası oluşur. Doğrulama hatasını yoksayıp bu model eşlemesini çalıştırmak için **Çalıştır**'ı seçerseniz çalışma zamanında aynı hata oluşur.
+
+### <a name="automatic-resolution"></a>Otomatik çözüm
+
+Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
+
+### <a name="manual-resolution"></a>El ile çözüm
+
+#### <a name="option-1"></a>Seçenek 1
+
+**Vendor** veri kaynağına, **Hesaplanan alan** türünde iç içe geçmiş bir alan eklemek yerine, **FilteredVendors** veri kaynağına **$AccNumber** iç içe alanını ekleyin ve bu alanı `TRIM(FilteredVendor.AccountNum)` ifadesini içerecek şekilde yapılandırın. Bu şekilde, `ORDERBY("Query", Vendor, Vendor.AccountNum)` ifadesi veritabanı düzeyinde çalıştırılabilir ve **$AccNumber** iç içe alanının hesaplanması daha sonra yapılabilir.
+
+#### <a name="option-2"></a>Seçenek 2
+
+**FilteredVendors** veri kaynağı ifadesini, `ORDERBY("Query", Vendor, Vendor.AccountNum)` yerine `ORDERBY("InMemory", Vendor, Vendor.AccountNum)` olacak şekilde değiştirin. Büyük bir veri hacmi bulunan bir tablo (işlem tablosu) için ifadeyi değiştirmenizi önermeyiz çünkü bu durumda tüm kayıtlar getirilir ve gerekli kayıtların sıralanması işlemi bellekte yapılır. Bu nedenle, bu yaklaşım düşük performansa neden olabilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

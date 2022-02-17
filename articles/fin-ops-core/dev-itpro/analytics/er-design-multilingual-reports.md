@@ -2,7 +2,7 @@
 title: Elektronik raporlamada çok dilli raporlar tasarlama
 description: Bu konu, çok dilli raporlar tasarlamak ve oluşturmak için Elektronik raporlama (ER) etiketlerini nasıl kullanabileceğinizi açıklamaktadır.
 author: NickSelin
-ms.date: 09/03/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e5c6b28dc115719922e418cb7a6156032d994d39
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674441"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074954"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Elektronik raporlamada çok dilli raporlar tasarlama
 
@@ -28,9 +28,9 @@ ms.locfileid: "7674441"
 
 ## <a name="overview"></a>Özet
 
-Bir iş kullanıcısı olarak, [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesini, çeşitli ülkelerin veya bölgelerin yasal gereksinimlerine uygun şekilde oluşturulması gereken giden belgeler için biçimler yapılandırmak amacıyla kullanabilirsiniz. Bu gereksinimler, giden belgelerin farklı ülkeler veya bölgeler için farklı dillerde oluşturulmasını gerektirdiğinde, dile bağlı kaynaklar içeren tek bir ER [biçimi](general-electronic-reporting.md#FormatComponentOutbound) yapılandırabilirsiniz. Bu şekilde, çeşitli ülkeler veya bölgeler için giden belgeler oluşturmak üzere biçimi yeniden kullanabilirsiniz. Ayrıca, bir giden belgeyi ilgili müşteriler, satıcılar, alt kuruluşlar veya diğer taraflar için farklı dillerde oluşturmak üzere tek bir ER biçimi kullanmak isteyebilirsiniz.
+Bir iş kullanıcısı olarak, [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesini, çeşitli ülkelerin veya bölgelerin yasal gereksinimlerine uygun şekilde oluşturulması gereken giden belgeler için biçimler yapılandırmak amacıyla kullanabilirsiniz. Bu gereksinimler, giden belgelerin farklı ülkeler veya bölgeler için farklı dillerde oluşturulmasını gerektirdiğinde, dile bağlı kaynaklar içeren tek bir ER biçimi yapılandırabilirsiniz. Bu şekilde, çeşitli ülkeler veya bölgeler için giden belgeler oluşturmak üzere biçimi yeniden kullanabilirsiniz. Ayrıca, bir giden belgeyi ilgili müşteriler, satıcılar, alt kuruluşlar veya diğer taraflar için farklı dillerde oluşturmak üzere tek bir ER biçimi kullanmak isteyebilirsiniz.
 
-ER veri modellerini ve model eşlemelerini, oluşturulan belgelere hangi uygulama verilerinin konulacağını belirleyen veri akışını tanımlamak için yapılandırılmış ER biçimlerinin veri kaynakları olarak yapılandırabilirsiniz. Bir ER yapılandırma [sağlayıcısı](general-electronic-reporting.md#Provider) olarak, belirli giden belgeleri oluşturmak üzere ER çözümünün bileşenleri olarak yapılandırılmış [veri modelleri](general-electronic-reporting.md#data-model-and-model-mapping-components), [model eşlemeleri](general-electronic-reporting.md#data-model-and-model-mapping-components) ve [biçimler](general-electronic-reporting.md#FormatComponentOutbound) [yayımlayabilirsiniz](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs). Müşterilerin, kullanılabilmesi ve özelleştirilebilmesi için yayımlanmış ER çözümü [yüklemesine](general-electronic-reporting-manage-configuration-lifecycle.md) olanak tanıyabilirsiniz. Müşterilerin başka dillerde konuşabildiğini düşünüyorsanız, ER bileşenlerini dile bağlı kaynaklar içerecek şekilde yapılandırabilirsiniz. Bu şekilde, düzenlenebilir bir ER bileşeninin içeriği, tasarım zamanında müşterinin kullanıcı tarafından tercih edilen dilinde sunulabilir.
+ER veri modellerini ve model eşlemelerini, oluşturulan belgelere hangi uygulama verilerinin konulacağını belirleyen veri akışını tanımlamak için yapılandırılmış ER biçimlerinin veri kaynakları olarak yapılandırabilirsiniz. ER yapılandırması [sağlayıcısı](general-electronic-reporting.md#Provider) olarak belirli giden belgeler oluşturmak için yapılandırılmış [veri modellerini](general-electronic-reporting.md#data-model-and-model-mapping-components), [model eşlemelerini](general-electronic-reporting.md#data-model-and-model-mapping-components)ve biçimlerini bir ER çözümünün bileşenleri olarak [yayımlayabilirsiniz](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) . Müşterilerin, kullanılabilmesi ve özelleştirilebilmesi için yayımlanmış ER çözümü [yüklemesine](general-electronic-reporting-manage-configuration-lifecycle.md) olanak tanıyabilirsiniz. Müşterilerin başka dillerde konuşabildiğini düşünüyorsanız, ER bileşenlerini dile bağlı kaynaklar içerecek şekilde yapılandırabilirsiniz. Bu şekilde, düzenlenebilir bir ER bileşeninin içeriği, tasarım zamanında müşterinin kullanıcı tarafından tercih edilen dilinde sunulabilir.
 
 Dile bağlı kaynakları ER etiketleri olarak yapılandırabilirsiniz. Böylece, ER bileşenlerini aşağıdaki amaçlarla yapılandırmak için bu etiketleri kullanabilirsiniz:
 
@@ -232,6 +232,19 @@ Bu konuda daha önce de anlatıldığı gibi, her [modelin](#LinkModelEnum) **Et
 ## <a name="performance"></a><a name=performance></a>Performans
 
 Tercih ettiğiniz [dilde](#language) rapor oluşturmak için veya içeriğin tercih ettiğiniz dile göre ayrıştırıldığı gelen belgeyi içeri aktarmak için bir ER biçimi bileşenini yapılandırdığınızda [Özellik yönetimi](../../fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında **ER çalıştırıldığında geçerli kullanıcının tercih ettiği dili önbelleğe al** özelliğini etkinleştirmenizi öneririz. Bu özellik, özellikle ER formülleri ve bağlamalarındaki etiketlere birden çok başvuru ve tercih ettiğiniz dilde kullanıcı iletileri oluşturmak için birçok [doğrulama](general-electronic-reporting-formula-designer.md#TestFormula) kuralı içeren ER biçimi bileşenleri için performansı artırmaya yardımcı olur.
+
+Bir ER yapılandırma sürümünün durumunu **Taslak**'tan **Tamamlandı**'ya değiştirdiğinizde, yapılandırma sürümü ER etiketleri içeriyorsa, bu etiketler uygulama veritabanında depolanır. Depolama şeması, **ER etiketlerini depolama alanını hızlandır** özelliğinin durumuna bağlıdır:
+
+- Özellik etkinleştirilmemişse, tüm etiketler **ERSOLUTIONVERSIONTABLE** tablosunun **LABELXML** alanında tek bir XML kod parçacığı olarak depolanır.
+- Özellik etkinleştirilmişse **ERSOLUTIONVERSIONLABELSTABLE** tablosundaki her dil için ayrı bir kayıt oluşturulur. Bu tablonun **CONTENTS** alanı, dil başına etiketleri sıkıştırılmış XML kod parçacığı olarak depolar.
+
+**Özellik yönetimi** çalışma alanında **ER etiketleri depolama alanını hızlandır** özelliğini etkinleştirmenizi öneririz. Bu özellik, ağ bant genişliği kullanımını ve genel sistem performansını artırmaya yardımcı olur çünkü çoğu durumda, tek bir ER yapılandırmasıyla çalışırken tek bir dilin ER etiketleri kullanılır.
+
+Tüm ER yapılandırmalarının etiketlerini eş zamanlı Finance örneğinde tutmak üzere seçili depolama alanı şemasını uygulamak için aşağıdaki adımları tamamlayın.
+
+1. **Kuruluş yönetimi** > **Periyodik** > **Tüm ER yapılandırmaları için şemayı depolayan seçili etiketleri uygula**'ya gidin.
+2. **Tamam**'ı seçin.
+
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -2,7 +2,7 @@
 title: Finance Insights kurulumu ile ilgili sorunları giderme
 description: Bu konuda, Finance Insights yeteneklerini kullandığınızda oluşabilecek sorunlar listelenmektedir. Ayrıca bu sorunların nasıl düzeltileceği açıklanmıştır.
 author: panolte
-ms.date: 11/03/2021
+ms.date: 01/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968848"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064878"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights kurulumu ile ilgili sorunları giderme
 
@@ -92,3 +92,25 @@ Aşağıdaki adımların tamamlanması gerekiyor.
   | ---------------------------- | ---------------- |
   | Microsoft Dynamics ERP Mikro Hizmetleri CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Belirti: Hata, "Seçili filtre aralığı için herhangi bir veri bulamadık. Lütfen farklı bir filtre aralığı seçin ve yeniden deneyin." 
+
+### <a name="resolution"></a>Çözüm
+
+Beklendiği gibi çalıştığını ve verileri AI Builder'dan Finance'e tekrar doğru ekledikten sonra çalıştığını doğrulamak için veri entegratörü kurulumunu denetleyin.  
+Daha fazla bilgi için bkz. [Veri tümleştirme projesi oluşturma](../finance-insights/create-data-integrate-project.md).
+
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Belirti: Müşteri ödeme tahmini eğitimi başarısız oldu ve AI Builder hatası alındı: "Tahmin, modeli eğitmek için yalnızca 2 ayrı sonuç değerine sahip olmalıdır. İki sonuca eşleyin ve yeniden eğitin", "Eğitim raporu sorunu: IsNotMinRequiredDistinctNonNullValues".
+
+### <a name="resolution"></a>Çözüm
+
+Bu hata, geçen yıl **Zamanında**, **Geç** ve **Çok geç** kategorilerinde açıklanan her kategoriyi temsil eden yeterli geçmiş işlem olmadığını gösterir. Bu hatayı gidermek için **Çok geç** işlem dönemini ayarlayın. **Çok geç** işlem süresini ayarlamak hatayı düzeltmezse, **Müşteri ödeme tahminleri** eğitim amacıyla her kategoride veriye ihtiyaç duyduğundan kullanmak için en iyi çözüm değildir.
+
+**Zamanında**, **Geç** ve **Çok geç** kategorilerini ayarlama hakkında daha fazla bilgi için bkz. [Müşteri ödeme tahminlerini etkinleştirme](../finance-insights/enable-cust-paymnt-prediction.md).
+
+## <a name="symptom-model-training-failed"></a>Belirti: Model eğitiminin başarısız olması
+
+### <a name="resolution"></a>Çözüm
+
+**Nakit akışı tahmin** modeli eğitimi, bir yıldan fazla süren ve 100'den fazla hareket içeren veriler gerektirir. Bu hareketlerin nakit akışı tahmini kurulumuna dahil edilen likidite hesaplarını etkilemesi gerekir.
+
+**Müşteri ödeme tahminlerinin** oluşturulması için son altı ila dokuz ay içinde en az 100 müşteri faturası ve ödeme hareketi gerekir.  

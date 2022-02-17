@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 418047a0643ee29b89763dbe2b030753f405b575
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: d87803b6ae0ada3ed2de6e4e7da5ffa57bf22eec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559687"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064853"
 ---
 # <a name="person-name-history"></a>Kişi adı geçmişi
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

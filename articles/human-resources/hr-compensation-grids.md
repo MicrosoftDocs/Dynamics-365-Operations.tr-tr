@@ -2,7 +2,7 @@
 title: Ücreti kademeleri ayarlama
 description: Ücret kılavuzları, sabit ücret planları için ödeme yapıları tanımlamak ve sağlamak için kullanılır.
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483829"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071512"
 ---
 # <a name="set-up-compensation-grids"></a>Ücreti kademeleri ayarlama
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -67,28 +70,16 @@ ms.locfileid: "7483829"
 7. **Ayarlama türü** alanında bir seçenek belirleyin.
 8. **Ayarlama tutarı** alanına bir sayı girin.
 9. Listede, istenen kaydı bulun ve seçin.
-10. Listede, istenen kaydı bulun ve seçin.
-11. Listede, istenen kaydı bulun ve seçin.
-12. Listede, istenen kaydı bulun ve seçin.
-13. **Kılavuza uygula**'ya tıklayın.
-14. Listede, istenen kaydı bulun ve seçin.
-15. Listede, istenen kaydı bulun ve seçin.
-16. Listede, istenen kaydı bulun ve seçin.
-17. **Kılavuza uygula**'ya tıklayın.
-18. Listede, istenen kaydı bulun ve seçin.
-19. Listede, istenen kaydı bulun ve seçin.
-20. **Kılavuza uygula**'ya tıklayın.
-21. Listede, istenen kaydı bulun ve seçin.
-22. Kılavuza uygula'ya tıklayın.
+10. **Kılavuza uygula**'ya tıklayın.
     * Her düzey için Minimum ve Maksimum referans noktaları ayarlamak üzere toplu değiştirme işlevi kullanılır. Bu örnek %50 fark değeri kullanır, böylece Minimum referans noktası - %20 ve Maksimum referans noktası olarak +%20 olarak ayarlanır.  
-23. **Ayarlama tutarı** alanına bir sayı girin.
-24. **Referans noktası** alanında bir değer girin veya seçin.
-25. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
-26. **Kılavuza uygula**'ya tıklayın.
-27. **Ayarlama tutarı** alanına bir sayı girin.
-28. **Referans noktası** alanında bir değer girin veya seçin.
-29. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
-30. **Kılavuza uygula**'ya tıklayın.
+11. **Ayarlama tutarı** alanına bir sayı girin.
+12. **Referans noktası** alanında bir değer girin veya seçin.
+13. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
+14. **Kılavuza uygula**'ya tıklayın.
+15. **Ayarlama tutarı** alanına bir sayı girin.
+16. **Referans noktası** alanında bir değer girin veya seçin.
+17. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
+18. **Kılavuza uygula**'ya tıklayın.
 
 
 

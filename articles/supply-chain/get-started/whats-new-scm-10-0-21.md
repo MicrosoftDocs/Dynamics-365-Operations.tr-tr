@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777949"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075311"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21 sürümündeki yenilikler veya değişiklikler (Ekim 2021)
 
@@ -39,7 +39,6 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 | Stok&nbsp;ve&nbsp;lojistik | [Mahsup hesaplarla bağlantılı kodları kullanarak eldeki stok ayarlamalarını deftere nakletme](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Stok sayımı neden kodları](../warehousing/reason-codes-for-counting-journals.md) |
 | Stok&nbsp;ve&nbsp;lojistik | [Satış teklifinin başvurulan veri dışarı aktarma ilkesi](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Teklifler tarafından başvurulan verilerdeki değişikliklerin bu tekliflerin (veya satırların) sonraki artımlı dışarı aktarma işlemine eklenmesine neden olup olmayacağını seçin. Bu tür teklifleri veya satırları eklemeyi seçmezseniz artımlı dışarı aktarma işlemleri daha hızlı çalışır.<br><br>Bu özellik, **Alacak hesapları parametreleri** sayfasına **Değişiklik izleme sırasında satış teklifi başvurulan verilerini atla** adlı bir ayar ekler. |
 | Stok&nbsp;ve&nbsp;lojistik | [Kapalı teklif](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [RFQ'lar için kapalı teklif](../procurement/sealed-bidding.md) |
-| Stok&nbsp;ve&nbsp;lojistik | [GS1 biçimi standartlarını kullanarak ambarda barkodları tarama](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 barkodları ve QR kodları](../warehousing/gs1-barcodes.md) |
 | Stok&nbsp;ve&nbsp;lojistik | [Stok Görünürlüğü Eklentisi için geçici rezervasyon](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Stok Görünürlüğü rezervasyonları](../inventory/inventory-visibility-reservations.md) |
 | Stok&nbsp;ve&nbsp;lojistik | [İndirim yönetimi için kesinti ve fiili ağırlık geliştirmeleri](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Kesinti workbench'ini kullanarak kesintileri yönetme](../rebate-management/deduction-workbench.md )<br><br>[İndirimleri işleme, inceleme ve deftere nakletme](../rebate-management/process-review-post.md)<br><br>[İndirim yönetimi anlaşmaları](../rebate-management/rebate-management-deals.md) |
 | Stok&nbsp;ve&nbsp;lojistik | [Ambar uygulaması adım yönergeleri](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Warehouse Management mobil uygulaması için adım başlıklarını ve yönergeleri özelleştirme](../warehousing/mobile-app-titles-instructions.md) |
@@ -138,9 +137,9 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

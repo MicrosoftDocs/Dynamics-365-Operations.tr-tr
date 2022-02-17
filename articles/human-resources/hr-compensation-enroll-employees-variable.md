@@ -13,24 +13,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431326"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071575"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Çalışanı bir değişken tazminat planına kaydetme
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Tazminat ve Kazançlar yöneticisi, nakit ve nakit olmayan personel ikramiyelerini hesaplamak için personeli değişken ücret planlarına kaydedebilir. Bu yordamda, bir değişken ücret planının oluşturulduğu ve planda **Kaydı etkinleştir** alanının Evet olarak ayarlandığı, söz konusu değişken ücret planı için uygunluk kuralları oluşturulduğu varsayılmaktadır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordamı başlatmak için **İnsan kaynakları** > **Çalışanlar** > **Personel** > **Ücret** > **Değişken plan kaydı**'na gidin.
+Tazminat ve Kazançlar yöneticisi, nakit ve nakit olmayan personel ikramiyelerini hesaplamak için personeli değişken ücret planlarına kaydedebilir. Bu yordamda, bir değişken ücret planının oluşturulduğu ve planda **Kaydı etkinleştir** alanının **Evet** olarak ayarlandığı, söz konusu değişken ücret planı için uygunluk kuralları oluşturulduğu varsayılmaktadır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordamı başlatmak için **İnsan kaynakları** > **Çalışanlar** > **Personel** > **Ücret** > **Değişken plan kaydı**'na gidin.
 
-1. **Yeni**'ye tıklayın.
+1. **Yeni**'yi tıklatın.
 2. **Plan** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
     * Plan arama, yalnızca, Uygunluk kurallarına göre personelin uygun olduğu değişken ücret planlarını gösterecek biçimde filtre edilir.  
 3. Listede, seçili satırdaki bağlantıya tıklayın.
-4. Genel bölümünün genişletilmiş görünümüne geçin.
+4. **Genel** bölümünün genişletilmiş görünümüne geçin.
 5. **Yürürlük tarihi** alanına bir tarih girin.
 6. **Kaydet**'e tıklayın.
 7. **Geçersiz Kılmalar** bölümünün genişletilmiş görünümüne geçin.

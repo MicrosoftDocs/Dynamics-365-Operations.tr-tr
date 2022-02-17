@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ddf8bbffd9caa0821ade6bf44c72edad48de303ba37b44f0d363340b3bcdb50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739511"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065082"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Genel günlük varlığını kullanarak fişleri içeri aktarma
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konuda, Yevmiye defteri varlığı kullanılarak Yevmiye defterine veri aktarmak için ipuçları verilmektedir.
 

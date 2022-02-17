@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414726"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065053"
 ---
 # <a name="choose-a-data-integration-technology"></a>Veri tümleştirme teknolojisi seçme
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Bu konuda, Dynamics 365 Human Resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlanmaktadır. Gereksinimlerinize en uygun teknolojilere karar vermenize yardımcı olacak farklı tümleştirme teknolojilerini açıklar.
 
@@ -68,7 +71,7 @@ Dataverse tabloları ve ilişkili API'leri; web uygulamalarından, web hizmetler
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF varlıkları
 
-Temelde Finance and Operations uygulamalarıyla aynı platformda oluşturulan Human Resources, bir [Veri Yönetimi Çerçevesi (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json) sağlar. DMF, Veri İçe Dışa Aktarma Çerçevesi (DIXF) olarak da bilinir. Human Resources, Human Resources verilerini içe aktarmak ve dışa aktarmak için kullanabileceğiniz bir veri varlıkları kümesi sağlar. Dataverse tabloları, Human Resources için tercih edilen veri tümleştirme arabirimi olsa da, DMF varlıkları aşağıdakiler gibi bazı durumlarda yararlıdır:
+Temelde Finans ve Operasyon uygulamalarıyla aynı platformda oluşturulan Human Resources, bir [Veri Yönetimi Çerçevesi (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json) sağlar. DMF, Veri İçe Dışa Aktarma Çerçevesi (DIXF) olarak da bilinir. Human Resources, Human Resources verilerini içe aktarmak ve dışa aktarmak için kullanabileceğiniz bir veri varlıkları kümesi sağlar. Dataverse tabloları, Human Resources için tercih edilen veri tümleştirme arabirimi olsa da, DMF varlıkları aşağıdakiler gibi bazı durumlarda yararlıdır:
 
 - Dataverse tabloları şu anda kullanılamıyor.
 
@@ -111,7 +114,7 @@ BYOD, bir [Azure Data Factory](/azure/data-factory/) ardışık düzeni için ve
 
 ### <a name="odata-enabled-entities"></a>OData etkin varlıklar
 
-Çoğu DMF varlığı İnsan Kaynakları veri hizmetine (OData) erişimi etkinleştirilmiş durumdadır. [Finance and Operations OData hizmeti](/dynamics365/unified-operations/dev-itpro/data-entities/odata) için sağlanan belgeler, kendi OData tarafından sağlanan varlıklarınızı oluşturmak dışında Human Resources için geçerlidir.
+Çoğu DMF varlığı İnsan Kaynakları veri hizmetine (OData) erişimi etkinleştirilmiş durumdadır. [Finans ve Operasyon OData hizmeti](/dynamics365/unified-operations/dev-itpro/data-entities/odata) için sağlanan belgeler, kendi OData tarafından sağlanan varlıklarınızı oluşturmak dışında Human Resources için geçerlidir.
 
 Dataverse ve Dataverse'in sağladığı OData uygulaması ([Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)) üzerinden), İnsan Kaynakları veri hizmetine tercih edilmekle birlikte, İnsan Kaynakları veri hizmeti şu anda İnsan Kaynakları verileri için daha eksiksiz varlık kapsamına sahiptir.
 
@@ -129,7 +132,7 @@ Veri Tümleştirici projeleri Dataverse toplu iş tümleştirmeleri için uygund
 
 ### <a name="power-query"></a>Power Query
 
-Veri Tümleştirici [Power Query](/power-query/power-query-what-is-power-query)'yi de destekler ([Gelişmiş Sorgu özelliği](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering) aracılığıyla). Power Query zengin M formül dili dahil güçlü, esnek veri filtreleme ve dönüştürme işlemi sağlar. Power BI raporları geliştirdiyseniz, Power Query büyük olasılıkla tanıdık gelecektir.
+Veri Tümleştirici [Power Query](/power-query/power-query-what-is-power-query)'yi de destekler ([Gelişmiş Sorgu özelliği](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering) aracılığıyla). Power Query, zengin M formül dili dahil güçlü, esnek veri filtreleme ve dönüştürme işlemi sağlar. Power BI raporları geliştirdiyseniz Power Query büyük olasılıkla tanıdık gelecektir.
 
 ## <a name="deciding-on-an-integration-technology"></a>Bir tümleştirme teknolojisinde karar kılma
 

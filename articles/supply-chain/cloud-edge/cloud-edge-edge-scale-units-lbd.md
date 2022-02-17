@@ -2,7 +2,7 @@
 title: LBD kullanarak özel donanımda uç ölçek birimleri dağıtma
 description: Bu konu, yerel iş verilerini (LBD) temel alan özel donanım ve dağıtım kullanarak şirket içi kenar ölçek birimlerinin nasıl sağlanması gerektiğini açıklamaktadır.
 author: cabeln
-ms.date: 11/29/2021
+ms.date: 01/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920685"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024554"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>LBD kullanarak özel donanımda uç ölçek birimleri dağıtma
 
@@ -26,6 +26,13 @@ Kenar ölçek birimleri, tedarik zinciri yönetimi için dağıtılmış karma t
 Kenar ölçek birimleri yerel iş verileri (LBD) [yerinde ortam](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) oluşturularak dağıtılabilir ve sonra Supply Chain Management için dağıtılmış karma topolojiniz içinde bir ölçek birimi olarak çalışacak şekilde konfigüre edilebilir. Bu, şirket içi LBD ortamını bulutta bir merkez olarak çalışacak şekilde yapılandırılmış olan bir Supply Chain Management ortamı ile ilişkilendirerek elde edilir.  
 
 Bu konu, şirket içi bir LBD ortamının kenar ölçek birimi olarak nasıl ayarlanacağını ve sonra da bir merkez ile nasıl ilişkilendirileceğini açıklar.
+
+## <a name="infrastructure-considerations"></a>Altyapı ile ilgili hususlar
+
+Uç ölçek birimleri, şirket içi ortamlarda çalışır, böylece altyapı gereksinimleri oldukça benzerdir. Ancak, dikkat edilmesi gereken belirli farklılıklar vardır:
+
+- Uç ölçek birimleri Financial Reporting'i kullanmaz, bu nedenle Financial Reporting düğümleri gerekmez.
+- Üretim ve depolama iş yükleri işlem açısından yoğun değildir, bu nedenle işlem gücünü AOS düğümlerine uygun şekilde boyutlandırmayı düşünün.
 
 ## <a name="deployment-overview"></a>Dağıtıma genel bakış
 

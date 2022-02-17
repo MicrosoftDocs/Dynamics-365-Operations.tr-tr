@@ -2,7 +2,7 @@
 title: Finance Insights giriş sayfası
 description: Mali içgörüler, şirketinizin nakit akışını doğru ve anlaşılır şekilde tahmin etmek için yapılandırılabilir ve genişletilebilir modeller sağlar, bekleyen alacak ödemeleri için ödemeyi ne zaman alacağınızı tahmin eder ve bütçeleme sürecinizi hızlandırabilecek bir bütçe teklifi oluşturur. Tüm bu özellikler akıllı makine öğrenimi modellerine dayanır.
 author: ShivamPandey-msft
-ms.date: 11/15/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968823"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087305"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insights giriş sayfası
 
@@ -37,10 +37,6 @@ Finance Insights, şirketinizin nakit akışını doğru ve anlaşılır şekild
 
 Bu bölümde, Mali içgörülerin kullanımıyla ilgili gereksinimler listelenmiştir. Mümkün olan her yerde, ek bilgi kaynaklarının bağlantıları sağlanmıştır.
 
-### <a name="legal-requirements"></a>Yasal gereksinimler
-
-Önizleme programına başvurmak için [Dynamics 365 Finance için Mali içgörüler önizleme sözleşmesi](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u) formunu doldurun.
-
 ### <a name="system-requirements"></a>Sistem gereksinimleri
 
 Finance Insights önizlemesi için Katman 2 ortamı (çoklu kutu) gereklidir. Ortamlar hakkında arka plan bilgileir için [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) konusuna bakın.
@@ -48,6 +44,10 @@ Finance Insights önizlemesi için Katman 2 ortamı (çoklu kutu) gereklidir. Or
 ### <a name="version-requirements"></a>Sürüm gereksinimleri
 
 Bu konu, Microsoft Dynamics 365 Finance sürüm 10.0.21 ve sonraki sürümleri için geçerlidir.
+
+### <a name="license-requirements"></a>Lisans gereksinimleri
+
+Finance Insights, mali öngörüler oluşturmak için AI Builder kredilerini kullanır. Bunun için gerekli tüm lisanslar kiracı lisansına dahil edilir. Her Dynamics 365 Finance kiracısına aylık 20.000 AI Builder kredisi sağlanır. İş gereksinimleri için ek kredi gerekiyorsa, bunlar doğrudan AI Builder'dan satın alabilir.
 
 ### <a name="historical-data-requirements"></a>Geçmişe ait veri gereksinimleri
 

@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c9cd01f5d96794cf3ed7f29a9fae21b67cd298acda36401b7f0f65d073cbbfbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761890"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062198"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Dynamics 365 Human Resources'deki yenilikler veya değişiklikler (06 Ağustos 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3444 uygulanır. Bazı başlıklardaki parantez içindeki numaralar referans için LCS destek numaralarına referans verir.
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platform güncelleştirmesi 10.0.12(36) artık kullanılabilir durumdadır.
 
-Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri (Ağustos 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri (Ağustos 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Sosyal haklar yönetimi için veri yönetimi çerçevesi (DMF) varlıkları
  

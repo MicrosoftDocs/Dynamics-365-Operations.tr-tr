@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 17702ada5bf75a44652e194c2555a83e76e7a36b
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817452"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062298"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>ABD Hükümeti Topluluk Bulutunda (GCC) Dynamics 365 Finance ve Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Seçili Microsoft Dynamics 365 Amerika Birleşik Devletleri (ABD) Hükümeti ürünleri, onaylı kamu sektörü ve özel varlıklar tarafından kullanılabilir. Bu varlıklar, aşağıdaki türlerle sınırlıdır:
 
@@ -38,9 +38,9 @@ Microsoft Dynamics Lifecycle Services (LCS) içindeki uygulama projesi için ilk
 
 ## <a name="environment-deployment"></a>Ortam dağıtımı
 
-Proje ekleme işlemi tamamlandıktan sonra, [Finance and Operations uygulaması müşterileri için Lifecycle Services'de (LCS)](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md) açıklanan LCS'nin ek yeteneklerini gözden geçirebilirsiniz. Sonra ortam dağıtımına geçin.
+Proje ekleme işlemi tamamlandıktan sonra, [Finans ve Operasyon uygulamaları müşterileri için Lifecycle Services](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md)'de (LCS) açıklanan LCS'nin ek yeteneklerini gözden geçirebilirsiniz. Sonra ortam dağıtımına geçin.
 
-- Microsoft tarafından yönetilen ortamları LCS aracılığıyla dağıtmak için, [Finance and Operations uygulaması müşterileri için Lifecycle Services'eki (LCS)](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience) yönergeleri izleyin.
+- Microsoft tarafından yönetilen ortamları LCS aracılığıyla dağıtmak için [Finans ve Operasyon uygulamaları müşterileri için Lifecycle Services](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience)'deki (LCS) yönergeleri izleyin.
 - Bulutta barındırılan ortamlar için bkz. [Dağıtım ve erişim geliştirme ortamları](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). [ABD hükümeti Lifecycle Services projeleri için Azure Resource Manager ekleme işlemini tamamlama](arm-onbarding-us-goverment.md) bölümünde açıklandığı gibi, bağlayıcılarınız için Kaynak Yöneticisi ekleme işlemini tamamlamanız da gerekir.
 
 > [!NOTE]

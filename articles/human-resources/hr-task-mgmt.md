@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 614f37236bbd0239925e37ebf29f59ac006d09cd
-ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
+ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "7948802"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087229"
 ---
 # <a name="task-management"></a>Görev yönetimi
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 Görev yönetimi, işe almak (ekleme), sona erdirmek (çıkarma) ve transfer (geçiş) çalışanları için tamamlanması gereken görevler oluşturmanıza olanak sağlar. Görev yönetimi, denetim listeleri kavramını kullanır. Denetim listesi; ekleme, çıkarma veya geçiş görevlerinin bir listesidir. Görev yönetimi, görevleri birlikte gruplamak ve onları bireylere veya gruplara atamak için denetim listelerini kullanır. Ekleme, çıkarma ve geçişler için denetim listesi işlevi benzerdir.
 

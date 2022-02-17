@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations uygulamalarında çift yazma sorunlarını giderme
-description: Bu konu, Finance and Operations uygulamalardaki çift-yazma modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
+title: Finans ve Operasyon uygulamalarında çift yazma ile ilgili sorunları giderme
+description: Bu konu, Finans ve Operasyon uygulamalarındaki çift-yazma modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781210"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061822"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Finance and Operations uygulamalarında çift yazma sorunlarını giderme
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Finans ve Operasyon uygulamalarında çift yazma ile ilgili sorunları giderme
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma tümleştirme hakkında sorun giderme bilgileri sağlar. Bu konu, Finance and Operations uygulamalardaki **çift-yazma** modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
+
+Bu konu, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında sorun giderme bilgileri sağlar. Bu konu, Finans ve Operasyon uygulamalarındaki **Çift Yazma** modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 
 > [!IMPORTANT]
 > Bu konu adresiyle ilgili bazı sorunların sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Çift yazma modülü bir Finance and Operations uygulamaya yüklenemez
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Finans ve Operasyon uygulamasında çift yazma modülü yüklenemiyor
 
 **Çift- yazılır** sayfayı, **veri yönetimi** çalışma alanında **ikili yazma** kutucuğunu seçerek açamazsınız, veri tümleştirme hizmeti büyük olasılıkla çalışmıyor olabilir. Veri tümleştirme hizmetinin yeniden başlatılmasını istemek için bir destek bileti oluşturun.
 
@@ -49,7 +49,7 @@ Sorunu gidermek için, Microsoft Edge'de bir InPrivate pencere, Chromium'da bir 
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Çift yazma için ortam bağladığınızda veya yeni bir tablo eşlemesi eklediğinizde hata oluştu
 
-**Sorunu düzeltmek için gereken rol:** Hem Finance and Operations uygulamalarında hem de Dataverse'ta sistem yöneticisi.
+**Sorunu düzeltmek için gereken rol:** Finans ve Operasyon uygulamaları ve Dataverse'te sistem yöneticisi.
 
 Haritaları bağlarken veya oluştururken aşağıdaki hata ile karşılaşabilirsiniz:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Bu hata, Çift-yazılabilir veya haritalar oluşturmak için yeterli izniniz yoksa oluşabilir. Bu hata, Dataverse ortamı çift yazma bağlantısını kaldırmadan sıfırlanırsa da oluşabilir. Hem Finance and Operations uygulamaları hem de Dataverse'ta sistem yöneticisi rolüne sahip herhangi bir kullanıcı ortamları bağlayabilir. Yalnızca çift yazma bağlantısını kuran kullanıcı yeni tablo eşlemeleri ekleyebilir. Kurulumdan sonra, sistem yöneticisi rolüne sahip tüm kullanıcılar durumu izleyebilir ve eşlemeleri düzenleyebilir.
+Bu hata, Çift-yazılabilir veya haritalar oluşturmak için yeterli izniniz yoksa oluşabilir. Bu hata, Dataverse ortamı çift yazma bağlantısını kaldırmadan sıfırlanırsa da oluşabilir. Hem Finans ve Operasyon uygulamaları hem de Dataverse'te sistem yöneticisi rolüne sahip herhangi bir kullanıcı ortamları bağlayabilir. Yalnızca çift yazma bağlantısını kuran kullanıcı yeni tablo eşlemeleri ekleyebilir. Kurulumdan sonra, sistem yöneticisi rolüne sahip tüm kullanıcılar durumu izleyebilir ve eşlemeleri düzenleyebilir.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Tablo eşlemesini durdurduğunuzda hata oluştu
 
@@ -82,7 +82,7 @@ Bu sorunu gidermek için, veri tümleştirme ekibi için bir bilet oluşturun. V
 Eşlemenin bu durumunu **Çalışıyor** olarak ayarlamak istediğinizde bu hatayı alabilirsiniz. Düzeltme, hatanın nedenine bağlıdır:
 
 + Eşlemeye bağımlı eşlemeler varsa bu tablo eşlemesinin bağımlı eşlemelerini etkinleştirdiğinizden emin olun.
-+ Eşlemede kaynak veya hedef sütunlar eksik olabilir. Finance and Operations uygulamalarında bir sütun eksikse, [Eşlemelerde eksik tablo sütunları sorunu](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) bölümündeki adımları izleyin. Dataverse'teki bir sütun eksikse sütunların otomatik olarak eşlemede geri doldurulması için eşlemede **Tabloları yenile** düğmesine tıklayın.
++ Eşlemede kaynak veya hedef sütunlar eksik olabilir. Finans ve Operasyon uygulamasında bir sütun eksikse, [Eşlemelerde eksik tablo sütunları sorunu](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) bölümündeki adımları izleyin. Dataverse'teki bir sütun eksikse sütunların otomatik olarak eşlemede geri doldurulması için eşlemede **Tabloları yenile** düğmesine tıklayın.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Sürüm uyuşmazlığı hatası ve çift yazma çözümlerini yükseltme
 

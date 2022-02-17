@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465185"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071560"
 ---
 # <a name="create-a-closed-ended-question"></a>Kapalı uçlu soru oluşturma
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,10 +37,10 @@ Kapalı uçlu sorular, yanıtlayan kişinin arasından seçim yapabileceği seç
 2. **Yeni**'ye tıklayın.
 3. **Yanıt grubu** alanına bir değer yazın.
 4. **Tanım** alanına bir değer girin.
-    * Yanıt grubunun bir soru için her kullanılışında, yanıtların farklı bir düzende yerleştirilmesi için rastgele seç özelliğini kullanın.  
+    * Yanıt grubunun bir soru için her kullanılışında, yanıtların farklı bir düzende yerleştirilmesi için **Rastgele seç** işlevini kullanın.  
 5. **Yanıt**'a tıklayın.
 6. **Yeni**'ye tıklayın.
-    * Sıra numarası rastgele seç, yanıt grubu için seçili olmadıkça yanıtların görüntülenme sırasını denetler.  
+    * Sıra numarası; **Yanıt grubu** için **Rastgele seç** seçili olmadıkça yanıtların görüntülenme sırasını denetler.  
     * Soru formunu puanlamak için yanıtların puan vermesi sağlanabilir.  
 7. **Puanlar** alanına bir sayı girin.
     * Seçilen yanıtın doğru olduğunu belirtmek üzere işaretlenebilir. Bu, soru formunu puanlamak için kullanılabilir.  
@@ -61,8 +64,8 @@ Kapalı uçlu sorular, yanıtlayan kişinin arasından seçim yapabileceği seç
 ## <a name="create-the-question"></a>Soruyu oluşturun.
 1. **Soru Formu** > **Tasarım** > **Sorular**'a gidin.
 2. **Yeni**'ye tıklayın.
-3. Tür alanını ilgili soruları birlikte gruplandırmak için kullanın.
-    * Kapalı uçlu sorular için onay kutusu, alternatif düğmesi veya birleşik giriş kutusu giriş türlerini kullanabilirsiniz.  
+3. **Tür** alanını ilgili soruları birlikte gruplandırmak için kullanın.
+    * Kapalı uçlu sorular için **Onay kutusu**, **Alternatif düğmesi** veya **Birleşik giriş kutusu** giriş türlerini kullanabilirsiniz.  
 4. **Giriş türü** alanında bir seçenek belirleyin.
 5. **Yanıt grubu** alanında bir değer girin veya seçin.
 6. **Metin** alanına bir değer yazın.

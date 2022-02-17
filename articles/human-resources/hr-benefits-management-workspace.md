@@ -2,7 +2,7 @@
 title: Kazanç yönetimi çalışma alanı
 description: Bu konuda, Dynamics 365 Human Resources'daki Kazanç yönetimi çalışma alanı açıklanmaktadır.
 author: twheeloc
-ms.date: 09/21/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: 424f4a2098e05b4f7dc6fa84df133dda81cc59f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512486"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071543"
 ---
 # <a name="benefits-management-workspace"></a>Kazanç yönetimi çalışma alanı
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [applies to](../includes/applies-to-hr.md)]
 
@@ -94,7 +97,7 @@ Farklı bir kazanç dönemini görüntülemek için **Dönem** açılır listesi
 Bir kutucuk veya sekme seçerek eylem öğelerini görüntüleyebilirsiniz. Bir sekme seçerseniz çalışma alanı sayfasında çalışanları görüntüleyebilir ve seçebilirsiniz.
 **Açık kayıt** sekmesi, açık kayıt işlemi için anahtar ölçümleri sağlar. 
 
-Açık kayıt ile ilgili bilgiler, **Kayıt başlangıç tarihi**'nden 30 gün önce görüntülenir. Bu, **Kayıt başlangıç tarihi** alanında **Kazanç yönetimi** > **Bağlantılar** > **Dönemler**'de **Dönemler** ayarında tanımlanır.  Bu ayarı değiştirmek için **Human Resources Paylaşılan parametreleri** > **Kazanç yönetimi** > **Açık kayıt seçenekleri**'ne gidin ve **Sayısı** alanını güncelleştirin.  
+Açık kayıt ile ilgili bilgiler, **Kayıt başlangıç tarihi**'nden 30 gün önce görüntülenir. Bu, **Kayıt başlangıç tarihi** alanında **Kazanç yönetimi** > **Bağlantılar** > **Dönemler**'de **Dönemler** ayarında tanımlanır.  Bu ayarı değiştirmek için **Human Resources paylaşılan parametreleri** > **Kazanç yönetimi** > **Açık kayıt seçenekleri**'ne gidin ve **Sayısı** alanını güncelleştirin.  
 
 **Açık kayıt** sekmesinde aşağıdaki bilgiler kullanılabilir:
  - Açık kayıt işlemini başlatmayan çalışanlar
@@ -109,11 +112,11 @@ Açık kayıt ile ilgili bilgiler, **Kayıt başlangıç tarihi**'nden 30 gün �
   > [!NOTE]
   > **Plan türü** için açık kayıt ilerleme durumunu izlemek istemezseniz **Kazanç yönetimi** > **Bağlantılar** > **Personel self servis parametreleri** > **Kazanç planları kutucuk ayarı**'na gidip **Açık kayıt ilerlemesini izle** alanını güncelleştirerek bunu hariç tutabilirsiniz.  Örneğin, **Plan türü** = **Diğer** şeklinde oluşturulmuş planlara sahip olabilirsiniz. Bunlar, kayıt ilerleme durumunu izlemek istemediğiniz isteğe bağlı planlar olabilir. Bu plan türünü seçmezseniz bu tür planlar, **Açık kayıt** sekmesinde kayıt ilerleme veya tamamlanma durumunu izlerken yok sayılır. Bu ayar, tüm dönemler ve tüzel kişilikler için seçilen plan türüne uygulanır.
 
-- **Devam ediyor**: **Devam ediyor** kutucuğunda, seçimleri devam eden çalışanların sayısı verilir. **Devam ediyor** kutucuğu yalnızca feragat edilen veya seçilen en az bir planı olan çalışanları gösteren filtrelenmiş bir listedir. Personel için varsayılan olarak seçildiklerinden zorunlu planlar dikkate alınmaz ve dahil edilmez. **Çalışan Kazanç Planlarını Topluca Güncelleştirme** sayfasında seçilen ve feragat edilen planları görmek için bu kutucukta detaya inebilirsiniz.
+- **Devam ediyor**: **Devam ediyor** kutucuğunda, seçimleri devam eden çalışanların sayısı verilir. **Devam ediyor** kutucuğu yalnızca feragat edilen veya seçilen en az bir planı olan çalışanları gösteren filtrelenmiş bir listedir. Personel için varsayılan olarak seçildiklerinden zorunlu planlar dikkate alınmaz ve dahil edilmez. **Çalışan yan hak planlarını toplu olarak güncelleştirme** sayfasında seçilen ve feragat edilen planları görmek için bu kutucukta detaya inebilirsiniz.
 
 - **Kazançlara kaydedildi**: **Kazançlara kaydedildi** kutucuğunda, kazançlara tamamen kaydedilen çalışanların sayısı verilir. **Kazançlara kaydedildi** kutucuğu, tümüyle seçilen veya feragat edilen planlara sahip çalışanları gösteren filtrelenmiş bir listedir. Sorgu, **Personel self servis parametreleri** sayfasında açık kayıt için izlenmeyen planları hariç tutar. **Çalışan kazanç planları** sayfasında çalışanların listesini görmek için bu kutucuktan detaya inebilirsiniz.
 
-- **Onaylanmayan seçimler**: **Onaylanmayan seçimler** kutucuğunda, seçilen veya feragat edilen ve onaylanması gereken planlara sahip çalışanların sayısı gösterilir. **Çalışan Kazanç Planlarını Topluca Güncelleştirme** sayfasında görüntülemek için bu kutucuktan detaya inebilirsiniz.
+- **Onaylanmayan seçimler**: **Onaylanmayan seçimler** kutucuğunda, seçilen veya feragat edilen ve onaylanması gereken planlara sahip çalışanların sayısı gösterilir. **Çalışan yan hak planlarını toplu olarak güncelleştirme** sayfasında görüntülemek için bu kutucuktan detaya inebilirsiniz.
 
 **Faaliyet**
 

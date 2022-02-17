@@ -11,12 +11,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1796fbb56467b8a3e5b9431b1db400dc83fbae2f
-ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.openlocfilehash: c86f93ca76168e04a3152de67f40ef408bc096a6
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "8016190"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022961"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>Ülkeye özel mevzuat güncelleştirmelerini arama
 
@@ -68,6 +68,6 @@ Bu konu altında, Microsoft Dynamics 365 Finance için planlanan ve yayınlanan 
 | Birleşik Arap Emirlikleri | [Birleşik Arap Emirlikleri için planlanan ve yayınlanan düzenleme özellikleri](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=43_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
 | Birleşik Krallık       | [Birleşik Krallık için planlanan ve yayınlanan düzenleme özellikleri](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffix.lcs.dynamics.com%2FIssue%2FResults%3Fv%3D8_versionClass%26ct%3D2_categoryClass_6_categoryClass%26ft%3D1_featureClass_2_featureClass_3_featureClass%26cu%3D3_countryClass%26o%3DD%26mode%3DFull%26i%3D2_issueTypeClass_1_issueTypeClass&data=04%7C01%7Cvastrup%40microsoft.com%7C6e8a12140a0548c9224508d94add50a5%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637623136671200065%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=eiZzncdY20RjysdC8rpru54YONhSlJUec093vwFK5jI%3D&reserved=0) |
 
-Aylık güncelleştirmelere dahil edilen Küreselleştirme özellikleri hakkında daha fazla bilgi edinmek için [DGX - KÜRESELLEŞTİRME ÖZELLİKLERİ](https://www.yammer.com/dynamicsaxfeedbackprograms/) Yammer grubuna katılın.
+Aylık güncelleştirmelere dahil edilen Küreselleştirme özellikleri hakkında daha fazla bilgi edinmek için [DGX - KÜRESELLEŞTİRME ÖZELLİKLERİ](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=17055599&view=all) Yammer grubuna katılın.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

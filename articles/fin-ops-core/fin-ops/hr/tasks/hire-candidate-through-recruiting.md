@@ -10,19 +10,23 @@ ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964973"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075385"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>İşe alma yoluyla adayı işe alma
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> Bu konuda belirtilen işlevler şu anda Finance altyapısında Human Resources müşteriler için kullanıma sunulmaktadır.  
+
 
 Bu yordam, bir işverene, belirli bir işe alma projesi aracılığıyla başvuru gönderen bir başvuranı işe almayı sağlar. Bir başvuranı işe alma projesi aracılığıyla işe alırsanız yeni bir çalışan kaydı oluşturulur ve başvuranın kaydı **İşe alındı** durumuna sahip olur. Bu yordamı oluşturmak için **USMF** demo verileri şirketi kullanılmıştır.
 

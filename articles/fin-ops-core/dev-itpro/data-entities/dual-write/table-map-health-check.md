@@ -9,54 +9,54 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: nhelgren
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: c2d1f1e39a5ddccddf6fbbf524ff7eb0945b3c32
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782249"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061290"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Tablo eşlemesi sistem durumu denetimi için hata kodları
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Bu konu, tablo eşlemesi durum denetimi için hata kodlarını açıklamaktadır.
 
 ## <a name="error-100"></a>Hata 100
 
-Hata iletisi: "Finance and Operations önerilerini çalıştırmak için en düşük Finance and Operations platform sürümü, PU 43'tür."
+Hata iletisi şudur: "Finans ve Operasyon önerilerini çalıştırmak için gereken minimum Finans ve Operasyon platformu sürümü PU 43'dür."
 
-Özellik, Finance and Operations uygulamalarının sürüm 10.0.19 veya üstü için platform güncelleştirmeleri gerektiriyor.
+Bu özellik, Finans ve Operasyon uygulamalarının 10.0.19 veya sonraki sürümü için platform güncelleştirmeleri gerektirir.
 
 ## <a name="error-400"></a>Hata 400
 
-Hata iletisi: "\{Finance and Operations UniqueEntityName\} varlığı için iş olayı kayıt verileri bulunamadı. Bu, eşlemenin çalışmadığını veya tüm alan eşlemelerinin tek yönlü olduğu anlamına gelir."
+Hata iletisi şudur: "\{Finans ve Operasyon UniqueEntityName\} varlığı için hiçbir iş olayı kayıt verisi bulunamadı, bu da eşlemenin çalışmadığı veya tüm alan eşlemesinin tek yönlü olduğu anlamına gelir."
 
 ## <a name="error-500"></a>Hata 500
 
-Hata iletisi: "\{proje adı\} projesi için proje konfigürasyonu bulunamadı. Bu, proje etkin değil ya da Customer Engagement'tan Finance and Operations'a tüm alan eşlemelerinin tek yönlü olduğu anlamına gelebilir."
+Hata iletisi: "\{proje adı\} projesi için proje konfigürasyonu bulunamadı. Bu, proje etkinleştirilmedi veya tüm alan eşlemeleri müşteri etkileşiminden Finans ve Operasyon'a tek yönlü olabilir."
 
-Tablo haritası için eşlemeleri denetleyin. Customer Engagement uygulamalarından Finance and Operations uygulamalarına tek yönlülerse, Finance and Operations uygulamalarından Dataverse'e dinamik eşitleme için hiçbir trafik oluşturulmaz.
+Tablo haritası için eşlemeleri denetleyin. Müşteri etkileşimi uygulamalarından Finans ve Operasyon uygulamalarına tek yönlü ise Finans ve Operasyon uygulamalarından Dataverse'e canlı eşitleme için trafik oluşturulmaz.
 
 ## <a name="error-900"></a>Hata 900
 
-Hata iletisi: "\{Finance and Operations UniqueEntityName\} varlığı için geçersiz kaynak filtresi \{sourceFilter\} biçimi."
+Hata iletisi şudur: "\{Finans ve Operasyon UniqueEntityName\} varlığı için geçersiz kaynak filtresi \{sourceFilter\} biçimi."
 
-Finance and Operations uygulamaları için tablo eşlemesinde belirtilen kaynak filtresi sözdizimsel olarak doğru değildir. Filtre ölçütlerini doğrulamak için, bkz. [Dinamik eşitleme sorunlarını giderme](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
+Finans ve Operasyon uygulamaları için tablo eşlemesinde belirtilen kaynak filtre sözdizimsel olarak doğru değildir. Filtre ölçütlerini doğrulamak için, bkz. [Dinamik eşitleme sorunlarını giderme](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
 
 ## <a name="error-1000"></a>Hata 1000
 
-Hata iletisi: "Çift yazma canlı eşitleme için kullanılan \{Finance and Operations UniqueEntityName\} varlığı sorgusu: \{Finance and Operations EntityFilterQueryString\}. Sorgu ölçütlerine uyan kayıtlar canlı eşitleme için oluşturulacak."
+Hata iletisi şudur: "Çift yazma canlı eşitlemesi için kullanılan \{Finans ve Operasyon UniqueEntityName\} varlığı sorgusu, \{Finans ve Operasyon EntityFilterQueryString\}'dir. Sorgu ölçütlerine uyan kayıtlar canlı eşitleme için oluşturulacak."
 
 Döndürülen varlık sorgusu, varlık için yedekleme SQL sorgusudur. Dinamik eşitleme için kullanıma açılan iş verilerini belirleyen sorgudaki iç birleştirmeleri veya filtreleri denetleyin. İç birleştirmeler ve süzgeçler, çift yazılabilir canlı eşitleme için çekilen her kayıt için yerine getirilmesi gereken zorunlu koşullardır.
 
 ## <a name="error-1300"></a>Hata 1300
 
-Hata iletisi: "\{Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} varlığı için sanal alanlar \{s.EntityFieldName\}, çift yazma için izlenemeyebilir."
+Hata iletisi şudur: "\{Finans ve Operasyon EntityMetadata.EntityProperties.LogicalEntityName\} için \{s.EntityFieldName\} sanal alanları çift yazma için izlenmeyebilir."
 
-Finance and Operations tablolarından gelen sanal alanlar izleme için etkin değil. Canlı eşitleme verileri eşitleyebilir, ancak sütunlarda yapılan değişiklikleri çekemez.
+Finans ve Operasyon tablolarındaki sanal alanlar izleme için etkinleştirilmemiştir. Canlı eşitleme verileri eşitleyebilir, ancak sütunlarda yapılan değişiklikleri çekemez.
 
 ## <a name="error-1500"></a>Hata 1500
 
@@ -66,9 +66,9 @@ Varlıktaki veri kaynağında çift yazılabilir olarak eşlenen herhangi bir al
 
 ## <a name="error-1600"></a>Hata 1600
 
-Hata iletisi: "\{Finance and Operations EntityMetadata.EntityProperties.LogicalEntityName\} varlığı için veri kaynağı \{datasource.DataSourceName\}'in bir aralığı var. Yalnızca aralık koşuluna uyan kayıtlar çıkış için çekilir."
+Hata iletisi şudur: "Veri kaynağı: \{Finans ve Operasyon EntityMetadata.EntityProperties.LogicalEntityName\} için \{datasource.DataSourceName\} varlığının bir aralığı var. Yalnızca aralık koşuluna uyan kayıtlar çıkış için çekilir."
 
-Finance and Operations uygulamalarındaki varlıkların filtre aralıklarının etkinleştirildiği veri kaynakları olabilir. Bu aralıklar, canlı eşitlemenin bir parçası olarak çekilen kayıtları tanımlar. Finance and Operations uygulamalarından Dataverse'e yapılan bazı kayıtlar atlanırsa, kayıtların varlık üzerindeki aralık ölçütüne uyup uymadığını denetleyin. Bu denetimi yapmanın basit bir yolu, aşağıdaki örneğe benzeyen bir SQL sorgusu çalıştırmaktır.
+Finans ve Operasyon uygulamalarındaki varlıkların filtre aralıklarının etkinleştirildiği veri kaynakları olabilir. Bu aralıklar, canlı eşitlemenin bir parçası olarak çekilen kayıtları tanımlar. Finans ve Operasyon uygulamalarından bazı kayıtlar Dataverse'e atlanırsa, kayıtların varlıktaki aralık ölçütlerini karşılayıp karşılamadığını denetleyin. Bu denetimi yapmanın basit bir yolu, aşağıdaki örneğe benzeyen bir SQL sorgusu çalıştırmaktır.
 
 ```sql
 select * from <EntityName> where <filter criteria for the records> on SQL.

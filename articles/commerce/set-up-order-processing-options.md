@@ -2,7 +2,7 @@
 title: Çağrı merkezi kanalları ayarlama
 description: Bu konuda, çağrı merkezleri için siparişlerin Dynamics 365 Commerce kullanarak nasıl işleneceği hakkında bilgi verilmektedir.
 author: josaw1
-ms.date: 01/06/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5f9afd1b67d6b164facc4dd15a8680866fe8c5b4e4b491d969cda6554eebb1de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750660"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092444"
 ---
 # <a name="set-up-call-center-channels"></a>Çağrı merkezi kanalları ayarlama
 
@@ -56,6 +56,9 @@ Bir çağrı merkezinin yapılandırmasında üç ayarın çağrı merkezine gö
 Ayrıca, **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, kullanıcılar satış siparişleri oluşturduğunda ve satır maddesi giriş modunda olduğunda **Kaynak** alanı ana satış siparişi başlığında kullanılabilir olacaktır. **Kaynak** alanı bir doğrudan pazarlama satış senaryosunda [katalog kaynak kodunu](/dynamics365/unified-operations/retail/call-center-catalogs) yakalamak için kullanılır. Bu kod promosyonlar ve özel fiyatlar sağlar.
 
 **Sipariş tamamlamayı etkinleştir** ayarı kapalı olsa bile, kullanıcılar hala satış siparişine bir kaynak kodu uygulayabilir. Bununla birlikte, önce **Kaynak** alanına erişmek için satış siparişi başlığı ayrıntılarını açmaları gerekir. Başka bir deyişle, bazı ek tıklamalar gereklidir. Aynı davranış sevki tamamlanan ve öncelikli siparişler gibi özellikler için de geçerlidir. Bu özellikler, çağrı merkezinde oluşturulan tüm siparişler için kullanılabilir. Bununla birlikte, **Sipariş tamamlamayı etkinleştir** ayarı açık olduğunda, kullanıcılar bu özelliklerin yapılandırmasını satış giriş görünümündeyken satış başlığında görebilir. Uygun ayarları ve alanları bulmak için satış siparişi başlığı ayrıntılarına gitmeleri gerekmez.
+
+> [!NOTE]
+> **Çok yönlü kanal Commerce sipariş ödemeleri** özelliği etkinleştirildiğinde, genel merkezde kanalınızın **Retail ve Commerce \> Kanallar \> Çağrı Merkezleri** konumundaki **Genel** hızlı sekmesinde **Sipariş tamamlamayı etkinleştir** düğmesi gizli olur.
 
 ### <a name="enable-direct-selling"></a>Doğrudan satışı etkinleştir
 

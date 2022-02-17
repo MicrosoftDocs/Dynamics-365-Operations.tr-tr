@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902008"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069391"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
 
@@ -143,6 +143,10 @@ Azure AD ile kimlik doğrulaması, bir mobil cihazı Supply Chain Management uyg
 Sertifikalar, bir belirteç istendiğinde uygulamanın kimliğini kanıtlamak için parola olarak kullanılabilir. Sertifikanın genel kısmı Azure portalındaki uygulama kaydına yüklenirken tam sertifikanın Ambar Yönetimi mobil uygulamasının yüklü olduğu her cihaza dağıtılması gerekir. Kuruluşunuz sertifikayı, rotasyonu vb. konularda yönetmekle sorumludur. Kendinden imzalı sertifikalar kullanabilirsiniz ancak her zaman dışa aktarılamayan sertifikalar kullanmalısınız.
 
 Sertifikayı, Ambar Yönetimi mobil uygulamasını çalıştırdığınız her cihazda yerel olarak kullanılabilir hale getirmelisiniz. Intune kullanıyorsanız, Intune denetimli cihazlara yönelik sertifikaları yönetme hakkında bilgi için bkz. [Microsoft Intune'da kimlik doğrulama için sertifika kullanma](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için Warehouse Management mobil uygulamasını yapılandırma
+
+Warehouse Management mobil uygulamasını bir bulut veya uç ölçek birimi ile karşılaştırarak çalıştırmayı planlıyorsanız fazladan birkaç adım gereklidir. Talimatlar için bkz. [Bulut ve uç ölçek birimleri için Warehouse Management mobil uygulamasını yapılandırma](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Bağlantı ayarlarını içe aktararak uygulamayı yapılandırma
 
@@ -306,5 +310,6 @@ Cihazın kaybolması veya güvenliğinin aşılması durumunda, cihazın Supply 
 
 - [Mobil cihaz kullanıcı ayarları](mobile-device-user-settings.md)
 - [Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama](step-icons-titles.md)
+- [Bulut ve uç ölçek birimleri için Warehouse Management mobil uygulamasını yapılandırma](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,7 +6,7 @@ ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
+ms.search.form: PurchTable, InventTransferOrders, SalesTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: ae8e9791b590a32581b66853f55ea11bc389bb19
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891783"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068121"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -36,7 +36,18 @@ Ambar yönetimi iş yükleri, bulut ve uç ölçek birimlerinin ambar yönetimi 
 
 ## <a name="prerequisites"></a>Önkoşullar
 
+Ambar yönetimi iş yüküyle çalışmaya başlamadan önce, sisteminizin bu bölümde açıklandığı gibi hazırlanması gerekir.
+
+### <a name="deploy-a-scale-unit-with-the-warehouse-management-workload"></a>Ambar yönetimi iş yüküyle ölçek birimi dağıtma
+
 Ambar yönetimi iş yüküyle birlikte dağıtılan bir Dynamics 365 Supply Chain Management hub'ına ve ölçek birimine sahip olmalısınız. Mimari ve dağıtım işlemi hakkında daha fazla bilgi için bkz. [Dağıtılmış hibrit topolojide ölçek birimleri](cloud-edge-landing-page.md).
+
+### <a name="turn-on-required-features-in-feature-management"></a>Özellik yönetiminde gerekli özellikleri etkinleştirme
+
+Aşağıdaki özelliklerin her ikisini de açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanın. (Her iki özellik de *Ambar yönetimi* modülünde listelenmektedir.)
+
+- Yerine koyma işini ÖSB'lerden ayır
+- (Önizleme) Gelen ve giden ambar emirleri için ölçek birimi desteği
 
 ## <a name="how-the-warehouse-execution-workload-works-on-scale-units"></a>Ambar yürütme iş yükünü ölçek birimlerinde çalıştırma
 
@@ -108,6 +119,26 @@ Aşağıdaki diyagramda gelen akış ve ayrı ayrı iş süreçlerinin nerede ge
 
 [![Gelen işleme akışı](media/wes_inbound_warehouse_processes-small.png "Gelen işleme akışı")](media/wes_inbound_warehouse_processes.png)
 
+## <a name="production-control"></a>Üretim denetimi
+
+Ambar yönetimi iş yükü, Warehouse Management uygulamasında üretim için aşağıdaki üç akışı destekler:
+
+- Tamamlandı olarak rapor et ve yerine koy
+- Üretim emrini başlat
+- Malzeme tüketimini kaydet
+
+### <a name="report-as-finished-and-put-away"></a>Tamamlandı olarak rapor et ve yerine koy
+
+Çalışanlar, bir üretim veya toplu iş emrini tamamlandı olarak bildirmek için Warehouse Management uygulamasında **Tamamlandı olarak bildir ve yerine koy** akışını kullanabilir Ayrıca, bir toplu iş emrinde ortak ürünleri ve yan ürünleri tamamlandı olarak bildirebilirler. Bir iş tamamlandı olarak bildirildiğinde, sistem genellikle ölçek biriminde yerine koyma ambar işi oluşturur. Yerine koyma işi gerektirmiyorsanız iş ilkelerinizi bunu atlamak için ayarlayabilirsiniz.
+
+### <a name="start-production-order"></a>Üretim emrini başlat
+
+Çalışanlar, bir üretim veya toplu iş emrinin başlangıcını kaydetmek için Warehouse Management uygulamasında **Üretim emrini başlat** akışını kullanabilir.
+
+### <a name="register-material-consumption"></a>Malzeme tüketimini kaydet
+
+Çalışanlar, bir üretim veya toplu iş emri için malzeme tüketimini bildirmek üzere Warehouse Management uygulamasında **Malzeme tüketimini kaydet** akışını kullanabilir. Daha sonra, ölçek birimindeki üretim veya toplu iş emrinde bildirilen malzeme için bir malzeme çekme listesi günlüğü oluşturulur. Günlük satırları tüketilen stokta fiziksel bir rezervasyon yapar. Veriler ölçek birimi ve merkez arasında eşitlendiğinde, bir malzeme çekme listesi günlüğü oluşturulur ve merkez kurulumuna nakledilir.
+
 ## <a name="supported-processes-and-roles"></a>Desteklenen süreçler ve roller
 
 Tüm ambar yönetimi işlemleri ölçek birimindeki ambar yürütme iş yükünde desteklenmez. Bu nedenle, her kullanıcı için kullanılabilen işlevsellikle eşleşen roller atamanızı öneririz.
@@ -139,22 +170,26 @@ Aşağıdaki iş türleri bir ölçek biriminde oluşturulabilir ve bu nedenle, 
 - **Döngü sayımı**: Sayım işlemlerinin parçası olarak ve onay/ret işlemleri bir uyumsuzluk içerir.
 - **Satınalma siparişleri**: Satın alma siparişleri yüklerle ilişkilendirilmediğinde ambar siparişi aracılığıyla yerine koyma işi.
 - **Satış siparişleri**: Basit malzeme çekme ve yükleme.
+- **Transfer makbuzu** – Plaka alma işlemi yoluyla.
 - **Transfer sorunu**: Basit malzeme çekme ve yükleme.
 - **Stok yenileme**: Üretim için hammadde dahil değildir.
 - **Yerine konan mamul mallar**: Tamamlandı olarak bildirme sonrası üretim süreci.
 - **Ortak ürün ve yan ürün yerine koyma**: Tamamlandı olarak bildirme sonrası üretim süreci.
+<!-- - **Packed container picking** - After manual packing station processing. -->
 
-Şu anda ölçek birimlerinde başka türde kaynak belge işleme veya ambar işi desteklenmemektedir. Örneğin, ölçek birimindeki bir ambar yürütme iş yükü için transfer emri alımı işlemeyi (transfer girişi) gerçekleştiremezsiniz; bunun merkez kurulumu tarafından işlenmesi gerekir.
+Şu anda ölçek birimlerinde başka türde kaynak belge işleme veya ambar işi desteklenmemektedir. Örneğin, bir ölçek birimindeki ambar yürütme iş yüküyle karşılaştırmalı olarak çalıştırdığınızda, iade siparişlerini işlemek için satış iade siparişi alma işlemini kullanamazsınız. Bunun yerine, bu işlem merkez kurulumu tarafından yapılmalıdır.
 
 > [!NOTE]
 > Desteklenmeyen işlevler için mobil cihaz menü öğeleri ve düğmeleri, ölçek birimi dağıtımına bağlı olduğunda _Warehouse Management mobil uygulamasında_ gösterilmez.
-> 
+>
+> Warehouse Management mobil uygulamasını bir bulut veya uç ölçek birimiyle karşılaştırmalı olarak çalışacak şekilde ayarlamak için birkaç ek adım gerekir. Daha fazla bilgi için bkz. [Warehouse Management mobil uygulamasını bulut ve uç ölçek birimleri için yapılandırma](cloud-edge-workload-setup-warehouse-app.md).
+>
 > Bir ölçek biriminde iş yükü çalıştırıyorsanız merkezdeki belirli bir ambar için desteklenmeyen işlemleri çalıştıramazsınız. Bu konunun ilerleyen kısımlarında sağlanan tablolar desteklenen özellikleri gösterir.
 >
 > Seçili ambar iş türleri hem merkezde hem de ölçek birimlerinde oluşturulabilir ancak yalnızca sahibi olan merkez veya ölçek birimi (verileri oluşturan dağıtım) tarafından saklanabilir.
 >
 > Belirli bir işlem, ölçek birimi tarafından desteklense bile gerekli tüm verilerin merkezden ölçek birimine veya ölçek biriminden merkeze eşitlenmeyebileceğini ve bu durumun beklenmeyen sistem işlemesi riski oluşturabileceğini unutmayın. Bu senaryonun örnekleri şunları içerir:
-> 
+>
 > - Yalnızca merkez dağıtımında bulunan bir veri tablosu kaydıyla birleştirilen bir yerleşim yönergesi sorgusu kullanmanız.
 > - Konum durumu ve/veya yerleşim hacimsel yük işlevleri kullanmanız. Bu veriler, dağıtımlar arasında eşitlenmeyecek ve bu nedenle yalnızca dağıtımlardan birinde eldeki yerleşim stokunu güncelleştirirken çalışacaktır.
 
@@ -174,16 +209,16 @@ Aşağıdaki ambar yönetimi işlevi şu anda ölçek birimi iş yükleri için 
 - Fiili ağırlık maddeleriyle işleme.
 - Yalnızca Taşıma yönetimi (TMS) için etkinleştirilen maddelerle işleme.
 - Eldeki negatif stokla işleme.
+- Ürünler için şirketler arası veri paylaşımı. <!-- Planned -->
 - Sevkiyat notlarıyla ambar işi işleme.
 - Malzeme işlemesi/ambar otomasyonu ile ambar işi işleme.
 - Ürün ana verileri görüntüleri (ör. Warehouse Management mobil uygulamasında).
-- Ürünler için şirketler arası veri paylaşımı.
 
 > [!WARNING]
 > Bazı ambar işlevleri, ölçek biriminde ambar yönetimi iş yüklerini çalıştıran ambarlar için kullanılamaz ve merkezde ya da ölçek birimi iş yükünde desteklenmez.
-> 
+>
 > Diğer özellikler her ikisinde de işlenebilir, ancak zaman uyumsuz veri güncelleştirme işlemi nedeniyle aynı ambar için hem merkezdeki hem de ölçek birimindeki eldeki stokun güncelleştirilmesi gibi bazı senaryolarda dikkatli kullanılmaları gerekir.
-> 
+>
 > Hem merkezde hem de ölçek birimlerinde desteklenen belirli işlevler (*iş engelleme* gibi), yalnızca verilerin sahibi için desteklenir.
 
 ### <a name="outbound-supported-only-for-sales-and-transfer-orders"></a>Giden (yalnızca satış siparişleri ve transfer emirleri için desteklenir)
@@ -211,6 +246,7 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | Sevk irsaliyesi ve faturalama işlemleri                        | Evet | Hayır |
 | Eksik malzeme çekme (satış siparişleri ve transfer emirleri)                    | Hayır  | Evet, kaynak belgeler için rezervasyonları kaldırmadan|
 | Fazla malzeme çekme (satış siparişleri ve transfer emirleri)                     | Hayır  | Evet|
+| Plakaları birleştir                                   | Hayır  | Evet|
 | İş yerleşimlerinin değiştirilmesi (satış siparişleri ve transfer emirleri)         | Hayır  | Evet|
 | Tüm iş (satış siparişleri ve transfer emirleri)                    | Hayır  | Evet|
 | İş raporunu yazdırma                                            | Evet | Evet|
@@ -220,6 +256,8 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | Çekilen miktarı düş                                       | Hayır  | Evet|
 | İşi geri al                                                 | Hayır  | Evet|
 | Sevkiyat onayını tersine çevir                                | Hayır  | Evet|
+| Ambar sipariş satırlarının iptal edilmesini isteme                      | Evet | Hayır, ancak istek onaylanır veya reddedilir |
+| <p>Transfer emirlerini alma için serbest bırak</p><p>Bu işlem, transfer emri sevkiyat işleminin bir parçası olarak otomatik gerçekleşir. Ancak, gelen ambar siparişi satırları iptal edilirse veya yeni iş yükü dağıtım işleminin bir parçası olarak, bir ölçek biriminde plakayı almayı etkinleştirmek için el ile kullanılabilir.</p> | Evet | Hayır|
 
 ### <a name="inbound"></a>Gelen
 
@@ -232,17 +270,17 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | Varış yeri maliyeti ve transitteki malları teslim alma                       | Evet | Hayır |
 | Gelen sevkiyat onayı                                    | Evet | Hayır |
 | Ambara satın alma siparişi serbest bırakma (ambar siparişi işleme) | Evet | Hayır |
-| Ambar sipariş satırlarının iptali<p>Bunun yalnızca *iptal isteği* işlemi işlenirken satıra karşılık kayıt gerçekleştirilmediği durumlarda desteklendiğini unutmayın</p> | Evet | Hayır |
+| Ambar sipariş satırlarının iptal edilmesini isteme                            | Evet | Hayır, ancak istek onaylanır veya reddedilir |
+| Satın alma siparişi kaynak belge ürün girişi işleme                        | Evet | Hayır |
 | Satınalma siparişi maddesini teslim alma ve yerine koyma                       | <p>Evet,&nbsp;ambar&nbsp;siparişi&nbsp;yoksa</p><p>Hayır, ambar siparişi olduğunda</p> | <p>Evet, satınalma siparişinin bir <i>yükün</i> parçası olmadığı durumlarda</p> |
 | Satınalma siparişi satırı teslim alma ve yerine koyma                       | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | <p>Evet, satınalma siparişinin bir <i>yükün</i> parçası olmadığı durumlarda</p></p> |
 | İade emri teslim alma ve yerine koyma                              | Evet | Hayır |
 | Karma plaka alımı ve yerine koyma işlemi                       | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet |
 | Yük maddesi teslim alma                                              | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
-| Plaka alma ve yerine koyma                             | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
+| Satınalma siparişi Plaka teslim alma ve yerine koyma              | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
+| Transfer emri Plaka teslim alma ve yerine koyma             | Hayır | Evet |
 | Transfer emri maddesini teslim alma ve yerine koyma                       | Evet | Hayır |
 | Transfer emri satırı teslim alma ve yerine koyma                       | Evet | Hayır |
-| Çalışmayı iptal etme (gelen)                                            | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | <p>Evet, ancak yalnızca <b>İşi iptal ederken girişin kaydını sil</b> seçeneği (<b>Ambar yönetimi parametreleri</b> sayfasında) seçili olmadığında</p> |
-| Satın alma siparişi ürün girişi işleme                        | Evet | Hayır |
 | Eksik teslimat ile satınalma siparişi alma                      | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet, ancak yalnızca hub'dan iptal isteğinde bulunarak |
 | Fazla teslimat ile satınalma siparişi alma                       | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet  |
 | *Çapraz sevk* işinin oluşturulmasıyla alma                 | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
@@ -251,7 +289,8 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | *Kalite denetiminde kalite* işinin oluşturulmasıyla alma       | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
 | Kalite emrinin oluşturulmasıyla alma                            | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır |
 | İş işleme - *Küme yerine koyma* ile yönlendirilir                 | Evet | Hayır |
-| *Eksik çekme* ile iş işleme                               | Evet | Evet |
+| *Eksik çekme* ile iş işleme                               | Evet | Hayır |
+| Çalışmayı iptal etme (gelen)                                            | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | <p>Evet, ancak yalnızca <b>İşi iptal ederken girişin kaydını sil</b> seçeneği (<b>Ambar yönetimi parametreleri</b> sayfasında) seçili olmadığında</p> |
 | Plaka yükleme                                           | Evet | Evet |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Ambar işlemleri ve özel durum yönetimi
@@ -274,12 +313,11 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | Plaka etiketini yeniden yazdırma (plakayı yeniden yazdır)             | Evet | Evet                          |
 | Plaka yapısı                                | Evet | Hayır                           |
 | Plaka bölme                                | Evet | Hayır                           |
-| İç içe plakalar olarak paketle                                | Evet | Hayır                           |
+| İç içe plakalar olarak paketle                      | Evet | Hayır                           |
 | Sürücü girişi                                    | Evet | Hayır                           |
 | Sürücü çıkışı                                   | Evet | Hayır                           |
 | Toplu iş değerlendirme kodunu değiştirme                      | Evet | Evet                          |
 | Açık iş listesini görüntüle                             | Evet | Evet                          |
-| Plakaları birleştir                         | Evet | Hayır                           |
 | Minimum/maksimum ve bölge eşiği stok yenileme işlemi| Evet <p>Sorguların parçası olarak aynı yerleşimleri eklememeniz önerilir</p>| Evet                          |
 | Yerleştirme stok yenileme işleme                  | Evet  | Evet<p>Kurulumun ölçek biriminde gerçekleştirilmesi gerektiğini unutmayın</p>                           |
 | İşi engelleme ve engellemeyi kaldırma                             | Evet | Evet                          |
@@ -292,28 +330,46 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 Aşağıdaki tabloda, ambar yönetimi üretim senaryolarının hangilerinin şu anda ölçek birimi iş yüklerinde desteklendiği gösterilmektedir.
 
 | İşle | Hub | Ölçek biriminde ambar yürütme iş yükü |
-|---------|-----|------------------------------|
-| Tamamlandı ve tamalanan ürünler kaldırıldı olarak bildirme | Evet | Evet |
-| Yerine konan ortak ürün ve yan ürün | Evet | Evet |
-| Üretim emrini başlat | Evet | Evet |
-| <p>Üretimle ilgili diğer tüm ambar yönetim süreçleri, aşağıdakiler dahil olmak üzere:</p><li>Ambara serbest bırak</li><li>Üretim dalgası işleme</li><li>Hammadde çekme</li><li>Kanban yerine koyma</li><li>Kanban çekme</li><li>Üretim ıskartası</li><li>Üretimdeki son palet</li><li>Malzeme tüketimini kaydet</li><li>Kanban boş</li></ul> | Evet | Hayır |
-| Hammadde stok yenilemesi | Hayır | Hayır |
+|---------|-----|----------------------------------------------|
+| Üretim emri kaynak belgesini işleme    | Evet | Hayır |
+| Ambara serbest bırakma                           | Evet | Hayır |
+| Üretim emrini başlat                         | Evet | Evet|
+| Ambar siparişleri oluşturma                        | Evet | Hayır |
+| Ambar sipariş satırlarının iptal edilmesini isteme        | Evet | Hayır, ancak istek onaylanır veya reddedilir |
+| Tamamlandı ve tamalanan ürünler kaldırıldı olarak bildirme | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet|
+| Yerine konan ortak ürün ve yan ürün             | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet|
+| Malzeme tüketimini kaydet                  | Evet | Evet|
+| Üretim dalgası işleme                     | Evet | Hayır |
+| Hammadde çekme                           | Evet | Hayır |
+| Kanban yerine koyma                                | Evet | Hayır |
+| Kanban çekme                                 | Evet | Hayır |
+| Kanban boş                                   | Evet | Hayır |
+| Üretim ıskartası                               | Evet | Hayır |
+| Üretimdeki son palet                         | Evet | Hayır |
+| Hammadde stok yenilemesi                     | Hayır  | Hayır |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Ambar yürütme için ölçek birimlerinin bakımı
 
 Hem hub hem de ölçek birimlerinde birden çok toplu iş çalışır.
 
-Hub dağıtımında toplu işleri el ile koruyabilirsiniz. **Ambar yönetimi \> Periyodik görevler \> Arka ofis iş yükü yönetimi**'nde aşağıdaki toplu işleri yönetebilirsiniz:
+Merkez dağıtımında şu toplu işleri el ile koruyabilirsiniz:
 
-- Ölçek biriminden hub'a ileti işlemcisi
-- Kaynak sipariş girişlerini kaydet
-- Ambar siparişlerini tamamla
+- **Ambar yönetimi \> Periyodik görevler \> Arka ofis iş yükü yönetimi**'nde aşağıdaki toplu işleri yönetin:
 
-Ölçek birimlerindeki iş yükünde, **Ambar yönetimi \> Periyodik görevler \> İş yükü yönetimi**'nde aşağıdaki toplu işleri yönetebilirsiniz:
+    - Ölçek biriminden hub'a ileti işlemcisi
+    - Kaynak sipariş girişlerini kaydet
+    - Ambar siparişlerini tamamla
 
-- Dalga tablosu kayıtlarını işleme
+- **Ambar yönetimi \> Periyodik görevler \> İş yükü yönetimi**'nde aşağıdaki toplu işleri yönetin:
+
+    - Ambar hub'ından ölçek birimine ileti işlemcisi
+    - Ambar girişi deftere nakli için ambar sipariş satırı girişlerini işle
+
+Ölçek birimi dağıtımlarında, **Ambar yönetimi \> Periyodik görevler \> İş yükü yönetimi**'nde aşağıdaki toplu işleri yönetebilirsiniz:
+
+- Dalga tablosu kayıtlarını işle
 - Ambar hub'ından ölçek birimine ileti işlemcisi
-- Ambar sipariş satırları için miktar güncelleştirme isteklerini işle
+- Ambar girişi deftere nakli için ambar sipariş satırı girişlerini işle
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

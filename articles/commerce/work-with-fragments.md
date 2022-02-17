@@ -2,7 +2,7 @@
 title: Parçalarla çalışma
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta parçaları neden, ne zaman ve ne zaman kullanılacağını açıklamaktadır.
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a19f064b63ce476252064253032d35697bd69c84c4c93db1d0349a57527c2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776206"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090756"
 ---
 # <a name="work-with-fragments"></a>Parçalarla çalışma 
 
@@ -121,6 +121,20 @@ Commerce site oluşturucuda bir parçayı düzenlemek için aşağıdaki adımla
 1. Parçanın modül özelliklerini ve yapısını gereksinim duyduğunuz şekilde Düzenle. İşlem, düzenleme modüllerinin sayfa düzenleyici görünümde düzenlenmesi işlemine benzer.
 
 Bir parçayı sayfada, şablonda veya üst parçada seçerek ve sağdaki Özellikler bölmesinde **parça Düzenle** 'yi seçerek düzenleyebilirsiniz.
+
+### <a name="rename-a-fragment"></a>Parçaları yeniden adlandırma
+
+Site oluşturucuda bir parçayı yeniden adlandırmak için şu adımları izleyin.
+
+1. Soldaki gezinti bölmesinde, **Parçalar**'ı seçin.
+1. Yeniden adlandırmak istediğiniz parçanın parça adını seçin.
+1. Parçayı düzenlemeye başlamak için **Düzenle**'yi seçin. Parça zaten başka bir kişi tarafından düzenlenmişse parçayı düzenleyemeyeceğinizi unutmayın.
+1. Parça özellikleri bölmesinde, parça adının yanındaki kalem simgesini seçin.
+1. Parça adını gerektiği gibi düzenleyin.
+1. Ad değişikliğini onaylamak için onay işaretini seçin.
+1. **Düzenlemeyi bitir**'i seçin.
+
+Daha sonra, bir parçayı oluşturulduktan sonra düzenleyerek ve ardından özellik bölmesinde parça adının yanındaki kalem simgesini seçerek yeniden adlandırabilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

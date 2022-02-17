@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd9c39bb3b5e221694fe20a8085c9099040cb422
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: b7c2423faa4a0c50d9d319a9e6f489e2946c36a7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431142"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071594"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Personeli sabit ücret planına kaydetme
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,8 +34,8 @@ Tazminat ve kazançlar yöneticisi, personelin ödeme oranlarını yönetmek ama
 3. Listede, seçili satırdaki bağlantıya tıklayın.
 4. **Pozisyon** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 5. Listede, seçili satırdaki bağlantıya tıklayın.
-    * Görüntülenen düzey, Pozisyondaki İşin Maaş Düzeyi'ndendir. Çalışana maaş atanabilmesi için önce İş üzerinde düzeyin ayarlanması gerekir.  
-6. **Plan** alanında, personel için sabit ücret planını seçin. Plan arama, yalnızca, Uygunluk kurallarına göre personelin uygun olduğu planları gösterecek biçimde filtre edilir.
+    * Görüntülenen düzey, **Pozisyon**'a atanmış **İş**'in **Ücret** hızlı sekmesi > **Seviye** alanındandır. Çalışana maaş atanabilmesi için önce İş üzerinde düzeyin ayarlanması gerekir.  
+6. **Plan** alanında, personel için sabit ücret planını seçin. **Plan** arama, yalnızca, **Uygunluk kuralları**'na göre personelin uygun olduğu planları gösterecek biçimde filtre edilir.
 7. Listede, istenen kaydı bulun ve seçin.
     * Maaşın **Yürürlük** ve **Bitiş** tarihlerinin varsayılan değerleri, çalışanın pozisyon atamasının başlangıç ve bitiş tarihlerinden alınır. Bu tarihleri gerektiği gibi ayarlayabilirsiniz.  
     * Sabit ücret planı bir adım planıysa, personel için doğru ödeme oranını içeren adım seçin. Sabit ücret planı bir kademeli plan veya bant planıysa, personel için doğru ödeme oranını girin. Ödeme oranı, planın toleransı ayarlarına ve iş maaş düzeyinin minimum maksimum referans noktalarına bakılarak doğrulanır.  

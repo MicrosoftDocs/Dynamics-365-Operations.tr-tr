@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471656"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069441"
 ---
 # <a name="message-processor-messages"></a>İleti işlemci iletileri
 
@@ -29,7 +29,7 @@ ms.locfileid: "7471656"
 
 İleti işlemcisi iletileri, [üretim iş yükleri](cloud-edge-workload-manufacturing.md) ve [ambar yönetimi iş yükleri](cloud-edge-workload-warehousing.md) için bulut ve kenar ölçek birimleri çalıştırıldığında kullanılır.
 
-Merkez ve ölçek birim dağıtım ortamları arasındaki senkronizeliği korumak için büyük miktarlarda veri alışverişi yapılır ancak bu veri alışverişlerinin yalnızca birkaçı *ileti işlemcisi* tarafından işlenir. İleti işlemcisi tarafından işlem gören iletileri, **Sistem yönetimi > İleti işlemcisi > İleti işlemcisi iletileri**'ne giderek görüntüleyebilirsiniz.
+Merkez ve ölçek birimi dağıtım ortamları, eşitlenmiş olarak kalmak için büyük miktarda veri alıp verir. Alıp verilen verilerin bir kısmı, *ileti işleyicide* ek mantıkları tetikler. İleti işlemcisi tarafından işlenen iletileri, **Sistem yönetimi > İleti işlemcisi > İleti işlemcisi iletileri**'ne giderek görüntüleyebilirsiniz.
 
 ## <a name="message-grid-columns-and-filters"></a>İleti ızgarası sütunları ve filtreleri
 

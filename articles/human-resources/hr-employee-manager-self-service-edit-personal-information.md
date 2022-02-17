@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431474"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071511"
 ---
 # <a name="edit-personal-information"></a>Kişisel bilgileri düzenle
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ Düzenleyebileceğiniz kişisel bilgiler şunları içerir:
     - Kimlik numarası eklemek için **Yeni**'yi seçin. Gerekli alanları doldurun ve **Kaydet**'i seçin.
     - Bir numarayı düzenlemek için **Düzenle** seçin. Gerekli alanları düzenleyin ve **Kaydet**'i seçin.
 
-7. Ödeme yapmak istediğiniz yöntemleri değiştirmek için **ödeme bilgilerim** sekmesini seçin. Bu sekme yalnızca **insan kaynakları parametreleri** formunda ödeme yöntemleri etkinleştirilmişse kullanılabilir. HR **banka taslağını**, **nakit**, **çek**, **elektronik ödeme** veya **diğerini** etkinleştirebilir. HR ayrıca elektronik ödeme doğrulamasını (ABD maaş için kullanılır), banka hesabı ve rota numarası doğrulamasını da devre dışı bırakabilir.
+7. Ödeme yapmak istediğiniz yöntemleri değiştirmek için **Ödeme bilgilerim** sekmesini seçin. Bu sekme yalnızca **Human Resources parametreleri** sayfasında ödeme yöntemleri etkinleştirilmişse kullanılabilir. HR **banka taslağını**, **nakit**, **çek**, **elektronik ödeme** veya **diğerini** etkinleştirebilir. HR ayrıca elektronik ödeme doğrulamasını (ABD maaş için kullanılır), banka hesabı ve rota numarası doğrulamasını da devre dışı bırakabilir.
 
 8. Profiliniz için İnsan Kaynakları görüntülenen resmi değiştirmek için, **görüntü** sekmesini seçin. Organizasyonunuzun ayarlarına bağlı olarak, resimler onay için yönlendirilebilir.
 

@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0410e8cad5d18c3c8efd96d065967515a657f7edbd0256d148cdb6c6d0b7df41
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749424"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069971"
 ---
 # <a name="view-workflow-history"></a>İş akışı geçmişini görüntüleme
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Bu konuda işlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntüleme adımları açıklanmaktadır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

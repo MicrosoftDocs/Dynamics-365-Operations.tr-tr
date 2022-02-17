@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ed7ddb192b338f6373e8b53be710c961d918921f
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: bd7180c8f53687d561c429456387e0fe999dd508
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728845"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070187"
 ---
 # <a name="view-and-manage-address-changes"></a>Adres değişikliklerini görüntüleme ve yönetme
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

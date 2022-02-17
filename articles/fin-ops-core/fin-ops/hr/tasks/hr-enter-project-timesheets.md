@@ -13,14 +13,17 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e33b9216838313e8f294f4f0f196b07a3d5cc9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964946"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070487"
 ---
 # <a name="enter-project-timesheets"></a>Proje zaman çizelgelerini girme
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Bu yöntem, bir zaman çizelgesini, boş zaman çizelgesi sayfası kullanarak oluşturmanızı sağlar. Yeni Zaman Çizelgesi, önceki bir zaman çizelgesi bilgilerini veya **Sık Kullanılanlarım** sayfasındaki proje ve faaliyet atamalarını baz alabilir. Varsayılan olarak, **Tüm zaman çizelgeleri** listesi sayfası, geçerli dönem için tüm zaman çizelgelerini görüntüler. **Çizelgelerim** sayfasındaki **Göster** alanını, çizelgeleri süre ya da proje zaman çizelgesi listesine göre filtrelemek, veya diğer çalışanlar adına oluşturulan zaman çizelgelerini görüntülemek için kullanabilirsiniz. Bu yordamı oluşturmak için **USSI** demo verileri şirketi kullanılmıştır.
 

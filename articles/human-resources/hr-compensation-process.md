@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 413143afb578aed29ce0836aaa3ac98ffc0c6cc3
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484108"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071576"
 ---
 # <a name="process-compensation"></a>Ücret işleme
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Sabit ücret planlarınız Yüzde türünde işe alma kuralı kullanıyorsa iste
 
 **Planlar** sekmesindeki **Ekle** düğmesine tıklayarak işlem olayına bir ücret planı ekleyin. **Başka dengeleme kullan**, **Dengeleme faktörü** ve **Dengeleme açıklaması** sütunları yalnızca değişken ücret planları için kullanılır ve bu konuda ele alınmamaktadır.
 
-Kaydı kaydedin ve **Eylemler** sekmesindeki **Ekle** düğmesine tıklayarak seçili plan için sabit ücret eylemleri ekleyin. Eylem için hesaplanan rehber artıştan farklı bir tutar girmek için **Öneriyi etkinleştir** seçeneğini kullanın. Birden fazla ücret eylemini bağlamak için önceki eylemin sonucunu temel alan bir eylemi hesaplamak üzere **Önceki sonucu kullan** seçeneğini işaretleyin. Sabit ücret eylemleri, açıklayıcı adlar verebileceğiniz ücret mantığı türleridir. Derece ve Bant planları için yalnızca aşağıdaki türde sabit ücret eylemleri ekleyebilirsiniz:
+Kaydı kaydedin ve **Eylemler** sekmesindeki **Ekle** düğmesine tıklayarak seçili plan için sabit ücret eylemleri ekleyin. Eylem için hesaplanan rehber artıştan farklı bir tutar girmek için **Öneriyi etkinleştir** seçeneğini kullanın. Birden fazla ücret eylemini bağlamak için önceki eylemin sonucunu temel alan bir eylemi hesaplamak üzere **Önceki sonucu kullan** seçeneğini işaretleyin. Sabit ücret eylemleri, açıklayıcı adlar verebileceğiniz ücret mantığı türleridir. **Derece** ve **Bant** planları için yalnızca aşağıdaki türde sabit ücret eylemleri ekleyebilirsiniz:
 
-| Sabit ücret eylemi türü | İşlev                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sabit ücret eylemi türü | İşlev                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Öz Varlık                        | Öz varlık eylemleri personelin döngü bitiş tarihi itibarıyla ödeme oranını personelin işinde belirtilen düzey için en alt referans noktasıyla karşılaştırır. Personelin ödeme oranı minimum referans noktasından daha küçükse, aralık içinde personel için minimum noktaya getirmek için gerekli artış hesaplanır.                                                                                |
 | Liyakat                         | Başarı eylemleri artışı personelin döngü bitiş tarihi itibarıyla ödeme oranını ve personelin departmanı, iş birimi veya konumu için sabit artış bütçesinde yer alan artış yüzdesini temel alarak hesaplar.                                                                                                                                                                                         |
 | Genel                       | Genel eylemler artışı Yüzdeyi temel alarak hesaplar veya personele bir sabit tutar verir. Bu, **Genel** sekmesinin **Sabit ücret** ayarlarına göre belirlenir.                                                                                                                                                                                                                        |
@@ -53,12 +56,12 @@ Kaydı kaydedin ve **Eylemler** sekmesindeki **Ekle** düğmesine tıklayarak se
 
 Yalnızca Adım Adım plan türüne sahip **Sabit ücret** eylemleri ekleyebilirsiniz.
 
-| Sabit ücret eylemi türü | İşlev                                                                                                                                                                                           |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sabit ücret eylemi türü | İşlev                |
+|--------------------------------|------------------------------|
 | Aşama                           | **Genel** sekmesinde, bu Adım eyleminin çalışanları 0 adım mı, 1 adım mı yoksa 2 adım mı ilerletmesi gerektiğini belirtin.                                                                                  |
 |                                | **0 adım** - Çalışan üzerinde olduğu geçerli adıma göre ödeme oranı alacaktır.                                                                                                                      |
 |                                | **1 adım** - Sistem çalışanın kendi düzeyi için zaten en son referans noktasında olup olmadığını kontrol eder.                                                                                             |
-|                                | **2 adım** - Sistem çalışanı geçerli düzeyde iki adım ilerletir. Sistem çalışanı yalnızca kendi düzeyindeki son referans noktasına erişmiş olması durumunda bir veya sıfır adım hareket ettirir. |
+|                                | **2 adım** - Personel, geçerli düzeyde iki adım ilerler. Personel, yalnızca kendi düzeyindeki son referans noktasına erişmiş olması durumunda bir veya sıfır adım hareket eder. |
 
 ## <a name="run-the-compensation-process"></a>Ücret işlemini çalıştırma
 İşlem olayı gerekli tarih alanları, planlar ve eylemler ile ayarlandıktan sonra **İşlem olayı** sayfasında **İşlemi çalıştır**'a tıkladığınızda **Ücret işlem olaylarını çalıştır** iletişim kutusu açılır. **İşlem sonuçlarını göster** seçeneğine tıklayarak ücret tutarlarının her çalışan için nasıl hesaplandığını görebilirsiniz. **Tamam**'ı tıklamak döngü bitiş tarihi itibarıyla seçili ücret planlarında olan tüm çalışanlar için ücret işlemini çalıştırır.

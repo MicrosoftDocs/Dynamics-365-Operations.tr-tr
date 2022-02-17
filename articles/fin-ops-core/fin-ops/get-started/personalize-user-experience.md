@@ -2,7 +2,7 @@
 title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
-ms.date: 11/08/2021
+ms.date: 01/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777997"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075434"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konu, uygulamayı nasıl kişiselleştirebileceğinizi açıklamakta ve aşağıdaki konuları nasıl ele almaktadır: 
 
@@ -120,7 +124,9 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalarla gerçekleştiril
 - Bir öğeyi seçip özelliklerini değiştirmek için **Seç** aracını kullanın. Bu aracı kullanmak için, araç çubuğunda **Seç** düğmesini seçin ve sonra istediğiniz öğeyi seçin. Öğenin özelliklerini değiştirebileceğiniz özellik penceresi görünür. Sayfada kişiselleştirilebilecek başka öğeler için işlemi yineleyebilirsiniz. Bazı senaryolarda bazı kişiselleştirme özelliklerinin kullanılabilir olmayacağını unutmayın. Örneğin, gerekli bir alanı kilitleyemezsiniz.
 - Sayfadaki bir öğeyi gizlemek için **Gizle** aracını kullanın. Bu aracı kullanmak için, araç çubuğunda **Gizle** düğmesini seçin ve sonra gizlenecek öğeyi seçin. **Gizle** aracını kullandığınız zaman, gizli durumdaki tüm öğeler görünür hale gelir ancak gölgeli bir kapsayıcıda gösterilirler. Böylece, öğeyi seçerek görünür yapabilirsiniz. Öğeler gizli olduğunda sayfanın nasıl görüneceğini görmek için başka bir kişiselleştirme aracına geçin veya kişiselleştirme araç çubuğunu kapatın.
 - Sayfanıza alan eklemek için **Alan ekle** aracını kullanın. Bu aracı kullandığınızda yalnızca sayfa tanımının parçası olan alanlar ekleyebilirsiniz. Geçerli sayfa tanımının bir parçası olmayan yeni alanların nasıl oluşturulacağı hakkında bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](user-defined-fields.md). Araç çubuğunda **Alan ekle** düğmesini seçtikten sonra, ilk olarak, alan eklemek istediğiniz kılavuzu veya bölümü seçmeniz gerekir. Bir iletişim kutusunda, seçilen kılavuz veya bölümle ilgili alanların listesi görüntülenir. İletişim kutusunda, **Önerilen alanlar** veya **Tüm alanlar** listesinden eklemek için bir veya daha fazla alan seçin. İstediğiniz alanları seçtikten sonra **Güncelleştir**'i seçin. Önceden eklediğiniz bir alanı kaldırmak için bu işlemi yineleyin ancak iletişim kutusundaki alan seçimini temizleyin.
-    - **Önerilen alanlar** listesi, kuruluşunuzdaki diğer kullanıcılar tarafından daha önce eklenmiş alanları gösterir. Bu alan listesi, **Önerilen toplu işin** yinelenme sıklığına göre güncelleştirilir. Sayfadaki Filtre bölmesini kullanarak yeni filtre alanları eklerken de benzer bir deneyim yaşanır.
+
+    **Önerilen alanlar** listesi, kuruluşunuzdaki diğer kullanıcılar tarafından daha önce eklenmiş alanları gösterir. Bu alan listesi, **Önerilen toplu işin** yinelenme sıklığına göre güncelleştirilir. Sayfadaki Filtre bölmesini kullanarak yeni filtre alanları eklerken de benzer bir deneyim yaşanır.
+
 - Bir öğeyi mevcut öğeler grubu içinde farklı bir konuma taşımak için **Taşı** aracını kullanın. Bir öğeyi üst grubunun dışına taşıyamazsınız. Bu aracı kullanmak için, araç çubuğunda **Taşı** düğmesini seçin ve sonra taşınacak öğeyi seçin. Bir öğeyi seçtiğinizde uygulama öğenin taşınabileceği konumları belirler. Bu konumlara *bırakma alanları* denir. Öğeyi mevcut grup içinde sürükledikçe, her bırakma bölgesi, öğenin bırakılabileceği alanın yanında renkli ve kalın bir çizgi olarak gösterilir.
 - Sayfanın klavye sekmesi sırasından bir öğeyi kaldırmak için **Atla** aracını kullanın. Araç çubuğunda **Atla** düğmesini seçtiğiniz zaman, atlanmış durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Etkileşimli olarak sekme sırasına alan ekleme veya kaldırma yapabilirsiniz.
 - Bir öğenin hızlı sekme özet bölümünde görünmesini isterseniz **Başlıkta göster** aracını kullanın. Araç çubuğunda **Başlıkta göster** düğmesini seçtiğiniz zaman, özet alanı olarak seçilen tüm alanlar gölgeli bir kapsayıcıda gösterilir. Hızlı sekme özetine etkileşimli olarak alan ekleyebilir veya hızlı sekme özetinden alanları seçerek kaldırabilirsiniz.
@@ -152,7 +158,10 @@ Listeler içeren bazı sayfalarda, **Çalışma alanına ekle** kişiselleştirm
 
 - Çalışma alanına liste eklerken, çalışma alanında listenin bilgileri istediğiniz gibi göstermesini sağlamak için sayfada listeyi sıralayın veya filtreleyin. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Liste**'yi seçin. **Yapılandır**'ı seçtikten sonra, çalışma alanındaki listede görünmesi gereken sütunları seçebildiğiniz bir iletişim kutusu görünür. Çalışma alanındaki liste için kullanılan etiketi de belirtebilirsiniz.
 - Çalışma alanına kutucuk eklemek için, önce özetlenmesi gereken veya hızlı erişilmesini istediğiniz verileri göstermesi için sayfadaki listeyi filtreleyin. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Kutucuk**'u seçin. **Yapılandır**'ı seçtikten sonra, çalışma alanındaki kutucuk için kullanılması gereken etiketi belirtebildiğiniz bir iletişim kutusu görünür. Kutucukta bir sayı gösterilip gösterilmeyeceğini de belirtebilirsiniz. Kutucuk çalışma alanına eklendikten sonra, geçerli sayfayı çalışma alanından açmak için onu seçebilirsiniz. Böylece,kutucukla ilişkili filtre uygulanmış listeyi görüntüleyebilirsiniz.
-- Bir çalışma alanına bağlantı eklemek için, önce sayfadaki listeyi filtreleyerek, ilgilendiğiniz verileri göstermesini sağlayın. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Bağlantı**'yı seçin. **Yapılandır**'ı seçtikten sonra, bağlantı için kullanılması gereken etiketi belirtebildiğiniz bir iletişim kutusu görünür. İsteğe bağlı olarak, bu bağlantıyı içeren yeni bir bölüm için etiket de belirtebilirsiniz.
+- Bir çalışma alanına bağlantı eklemek için, önce sayfadaki listeyi filtreleyerek, ilgilendiğiniz verileri göstermesini sağlayın. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Bağlantı**'yı seçin. **Yapılandır**'ı seçtikten sonra, bağlantı için kullanılması gereken etiketi belirtebildiğiniz bir iletişim kutusu görünür. İsteğe bağlı olarak, bu bağlantının değiştirilebileceği bir bölüm için de etiket belirtebilirsiniz. Bu bölüm yoksa yeni bir bölüm oluşturulur.
+
+> [!NOTE]
+> 10.0.25 sürümü itibarıyla listenizi, kutucuğunuzu veya bağlantınızı yapılandırdığınızda **Çalışma alanları için kaydedilmiş görünümler desteği** etkinse öğeyi eklemek istediğiniz çalışma alanı görünümlerini seçmeniz gerekebilir. Kullanılabilir çalışma alanı görünümleri her **Yapılandır** iletişim kutusunun **Çalışma alanı seçenekleri** bölümünde görünür. 
 
 Liste, kutucuk veya bağlantıyı bir çalışma alanına ekledikten sonra o çalışma alanı açıp, öğeleri istediğiniz gibi yeniden düzenleyebilirsiniz.
 
@@ -221,7 +230,7 @@ Kaydedilmiş görünümler etkin değilse kişiselleştirmeyi kopyalamak için a
 Kişiselleştirmeleri paylaşmanın başka bir yolu da dışa ve içe aktarmadır. Bireysel kullanıcılar veya bu kişiler adına hareket eden bir yönetici, bu yöntemi kullanarak kendi kişiselleştirmelerini veya görünümlerini dışa aktarabilir ve dışa aktarılan dosyayı içe aktarmaları üzere diğer kullanıcılara verebilir. Alternatif olarak, kullanıcılar yönetici ayrıcalıklarına sahip bir kullanıcıya dışa aktarılan kişiselleştirmelerini verebilir ve böylece söz konusu kullanıcı aynı anda birçok kullanıcıya kişiselleştirme dosyası uygulamak için **kişiselleştirme** yönetim sayfasını kullanabilir.
 
 > [!IMPORTANT]
-> Kişiselleştirmeler, güncelleştirmeler arasında kalıcı olarak, bir hizmet güncelleştirmesinden veya başka bir zamanda tüm kişiselleştirmeleri gereksiz ve önerilmez.   
+> Kişiselleştirmeler, güncelleştirmeler arasında kalıcı olarak, bir hizmet güncelleştirmesinden veya başka bir zamanda tüm kişiselleştirmeleri gereksiz ve önerilmez.
 
 #### <a name="export"></a>Dışarı aktar
 
@@ -271,11 +280,8 @@ Kaydedilmiş görünümler etkin değilse, aşağıdaki adımları izleyin.
 [Kaydedilmiş görünümler](saved-views.md) özelliğini henüz etkinleştirmemiş olan müşteriler için bu sayfanın dört sekmesi vardır:
 
 - **Uygula** – Bir veya birden fazla kullanıcı için bir kişiselleştirmeyi içe aktarabilir veya seçebilirsiniz. Bir kişiselleştirmeyi bir veya daha fazla kullanıcıya uygulamak için önce bir rol ve o role sahip kullanıcıları seçin. Daha sonra, ya seçilen kullanıcılara uygulamak üzere mevcut bir kişiselleştirmeyi seçin veya bir kişiselleştirme dosyasını içe aktarın. Kişiselleştirme doğrulanır ve seçilen tüm kullanıcılara, seçili sayfayı bir dahaki açışlarında uygulanır.
-
 - **Temizle** – Bir sayfanın veya çalışma alanının tüm kişiselleştirmelerini bir veya birden fazla kullanıcı için temizleyebilirsiniz. Önce bir sayfayı veya çalışma alanını özelleştiren kullanıcıların listesini görmek için o sayfayı veya çalışma alanını seçin. Ardından, o sayfa veya çalışma alanı için kişiselleştirmelere sahip olması gereken kullanıcıları seçin ve **Temizle**'yi seçin. Seçili kullanıcıların seçili sayfaya veya çalışma alanına uyguladığı tüm kişiselleştirmeler silinir. Bu eylem geri alınamaz. Ancak, sayfa veya çalışma alanı için kaydedilmiş bir kişiselleştirme varsa, kişiselleştirme yeniden içe aktarılabilir.
-
 - **Kullanıcılar** – Bir kullanıcı seçerek, kullanıcının kişiselleştirdiği sayfaların listesini görün. Bunun ardından, seçili kullanıcıların belirli sayfalar veya tüm sistem için kişiselleştirme kullanma yeteneklerini etkinleştirebilir veya devre dışı bırakabilirsiniz. Ayrıca, kullanıcı için bir kişiselleştirmeyi içe veya dışa aktarabilir ya da temizleyebilirsiniz. Ek olarak, kullanıcı için özellik açıklamalarını sıfırlayabilirsiniz. Bu durumda, kullanıcı yeni özellikler içeren açılır pencereleri önceden devre dışı bırakmışsa, bu özellikler kullanıcının bir sonraki karşılaştığı sefer yeniden görünürler.
-
 - **Sistem:** Tüm kullanıcılar için kişiselleştirmeleri geçici olarak devre dışı bırakabilirsiniz. Bu durumda, tüm kullanıcılar için tüm kişiselleştirmeler silinir ve tüm sayfalar varsayılan durumlarına sıfırlanır. Kişiselleştirmeyi daha sonra yeniden etkinleştirirseniz, tüm kişiselleştirmeler yeniden uygulanır. Ayrıca sistemdeki tüm kullanıcılar için tüm kişiselleştirmeleri kalıcı olarak silebilirsiniz. Silinmiş kişiselleştirmeler kurtarılamaz. Bu nedenle, bu görevi uygulamadan önce, daha sonra içeri aktarmak isteyebileceğiniz kişiselleştirmeleri dışa aktardığınızdan emin olun.
 
 ## <a name="personalizing-inventory-dimensions"></a>Stok boyutlarının kişiselleştirilmesi

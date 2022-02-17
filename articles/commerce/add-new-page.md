@@ -2,7 +2,7 @@
 title: Yeni site sayfası ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'e yeni bir site sayfası ekleme yöntemi açıklanmıştır .
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725398"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090731"
 ---
 # <a name="add-a-new-site-page"></a>Yeni site sayfası ekleme
 
@@ -33,11 +33,11 @@ Siteniz için şablonlar ve parçalar oluşturduktan sonraki adım bunları kull
 
 Yeni sayfanız için bir şablon ya da Düzen kullanabilirsiniz. Daha fazla bilgi için bkz. [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Sayfa adı
+## <a name="specify-the-page-name"></a>Sayfa adını belirtme
 
-Sayfa adı sayfanız için benzersiz olmalıdır. Açıklayıcı olmalıdır, böylece kolayca bulabilmeniz için ve sayfanın ne için amaçlandığı hakkında diğer kişileri de bulabilirsiniz. Sayfa adını daha sonra değiştirilemediğinden, dikkatlice seçin.
+Sayfa adı siteniz için eşsiz olmalı ve kolayca bulabilmeniz ve sayfanın amacı hakkında diğer kişileri de bilgilendirmeniz için açıklayıcı olmalıdır. Daha sonra, özellik bölmesinde sayfa adının yanında bulunan kalem sembolünü seçerek sayfanızı düzenleyip yeniden adlandırabilirsiniz.
 
-## <a name="page-url"></a>Sayfa URL'si
+## <a name="specify-the-page-url"></a>Sayfa URL'sini belirtme
 
 Yeni sayfanız için bir URL girme seçeneğiniz olabilir. Sayfa oluşturduğunuzda, tam bir URL oluşturmak için kullanılacak bir dize girebilirsiniz. Bu dize göreli bir URL veya URL bilgi olarak bilinir. URL bilgisinin temel alınarak tam bir URL oluşturulur ve yeni sayfa buna atanır. Sayfayı yayımlamadan önce URL başlık bilgisinin değiştirilmesini sağlayabilirsiniz. Daha fazla bilgi için bkz. [Sayfa URL'si oluşturma](create-page-URL.md).
 

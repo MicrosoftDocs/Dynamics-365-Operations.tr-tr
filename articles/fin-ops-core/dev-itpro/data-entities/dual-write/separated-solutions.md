@@ -10,30 +10,30 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924878"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063274"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Ayrılmış Dual-write Application Orchestration paketi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Daha önce, Dual-write Application Orchestration paketi aşağıdaki çözümleri içeren tek bir paketti:
 
 - Dynamics 365 Notes
-- Dynamics 365 Finance and Operations Common Anchor
-- Dynamics 365 Finance and Operations Çift Yazma Varlık Eşlemeleri
+- Dynamics 365 Finance ve Operations Ortak Bağlayıcısı
+- Dynamics 365 Finance ve Operations Çift Yazma Varlığı Eşlemeleri
 - Dynamics 365 Varlık Yönetimi Uygulaması
 - Dynamics 365 Varlık Yönetimi
 - HCM Ortak
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Dynamics 365 Finance ve Operations Ortak
 - Dynamics 365 Company
 - Döviz Kurları
 - Field Service Common
@@ -51,14 +51,14 @@ Dual-write Application Core paketi, kullanıcıların herhangi bir müşteri etk
 | Benzersiz ad                           | Görünen ad                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 Company                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance ve Operations Ortak |
 | CurrencyExchangeRates                 | Döviz Kurları                    |
 | msdyn_DualWriteAppCoreMaps            | Çift yazma uygulamaları çekirdek varlık eşlemeleri   |
 | msdyn_DualWriteAppCoreAnchor          | Çift yazma uygulamaları çekirdek sabit noktası        |
 
 Bu pakette aşağıdaki eşlemeler mevcuttur.
 
-| Finance and Operations uygulamaları     | Müşteri etkileşimi uygulamaları                    |
+| Finans ve Operasyon uygulamaları     | Müşteri etkileşimi uygulamaları                    |
 |---------------------------------|---------------------------------------------|
 | Faaliyet birimi                  | msdyn_internalorganizations                 |
 | Kuruluş hiyerarşisi          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ Dual-write Human Resources paketi, Human Resources verilerini eşitlemek için g
 
 Bu pakette aşağıdaki eşlemeler mevcuttur.
 
-| Finance and Operations uygulamaları | Müşteri etkileşimi uygulamaları         |
+| Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları         |
 |-----------------------------|----------------------------------|
 | Etnik kökenler              | cdm_ethnicorigins                |
 | Maaş iş işlevi   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Dual-write Supply Chain paketi, Supply Chain Management verilerini eşitlemek i�
 
 Bu pakette aşağıdaki eşlemeler mevcuttur.
 
-| Finance and Operations uygulamaları                 | Müşteri etkileşimi uygulamaları                      |
+| Finans ve Operasyon uygulamaları                 | Müşteri etkileşimi uygulamaları                      |
 |---------------------------------------------|-----------------------------------------------|
 | Birimler                                       | uoms                                          |
 | CDS satış siparişi başlıkları                     | salesorders                                   |
@@ -197,7 +197,7 @@ Dual-write Finance paketi, Dynamics 365 Finance verilerini eşitlemek için gere
 
 Bu pakette aşağıdaki eşlemeler mevcuttur.
 
-| Finance and Operations uygulamaları             | Müşteri etkileşimi uygulamaları        |
+| Finans ve Operasyon uygulamaları             | Müşteri etkileşimi uygulamaları        |
 |-----------------------------------------|---------------------------------|
 | Stopaj vergisi grupları                  | msdyn_withholdingtaxgroups      |
 | CDS Contacts V2 (Müşteri)              | ilgili kişiler                        |
@@ -247,7 +247,7 @@ Dual-write Notes paketi, not veya ek açıklama verilerini eşitlemek için gere
 
 Bu pakette aşağıdaki eşlemeler mevcuttur.
 
-| Finance and Operations                     | Customer Engagement |
+| Finans ve Operasyon                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Satış siparişi başlığı belge ekleri    | ek açıklamalar         |
 | Müşteri ekleri                       | ek açıklamalar         |
@@ -274,7 +274,7 @@ Dual-write Asset Management paketi, Supply Chain Management veya Dynamics 365 Fi
 
 Bu pakette aşağıdaki eşlemeler mevcuttur.
 
-| Finance and Operations uygulamaları                           | Müşteri etkileşimi uygulamaları                |
+| Finans ve Operasyon uygulamaları                           | Müşteri etkileşimi uygulamaları                |
 |-------------------------------------------------------|-----------------------------------------|
 | Varlık yönetimi garanti                             | msdyn_warranties                        |
 | Varlık yönetimi modelleri                               | msdyn_models                            |

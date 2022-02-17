@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965076"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075487"
 ---
 # <a name="manage-recruiting-processes"></a>İşe alma süreçlerini yönetme
 
-[!include [banner](../includes/banner.md)]
+> [!IMPORTANT]
+> Bu konuda belirtilen işlevler şu anda Finance altyapısında Human Resources müşteriler için kullanıma sunulmaktadır.  
+
 
 Bu konu açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınması işlemleri, başvuru sahibinin ve başvuru bilgilerinin takip edilmesi, başvuru sahipleriyle iş görüşmeleri gerçekleştirilmesi ve organizasyonunuzdaki açık pozisyonların doldurulması amacıyla bir veya daha fazla sayıda aday seçilmesi de dahil olmak üzere işe alan kişilerin bir işe alma sürecindeki adımları takip etmek üzere kullanabileceği bir konsept açıklanmıştır.
 

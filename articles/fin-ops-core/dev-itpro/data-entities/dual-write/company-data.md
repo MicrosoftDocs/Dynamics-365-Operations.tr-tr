@@ -1,6 +1,6 @@
 ---
 title: Dataverse'da şirket kavramı
-description: Bu konu, Finance and Operations ve Dataverse arasındaki şirket verileri tümleştirmesini açıklar.
+description: Bu konu Finans ve Operasyon ile Dataverse arasında şirket verisi tümleştirmesini açıklar.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,27 +9,27 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25bd2cc0df4940f02313b3a61f69b2273e835639
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782097"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061038"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse'da şirket kavramı
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Finance and Operations'da *şirket* kavramı hem yasal bir yapı hem de bir işletme yapısıdır. Ayrıca veriler için bir güvenlik ve görünürlük sınırıdır. Kullanıcılar her zaman tek bir şirket bağlamında çalışır ve verilerin çoğu şirket tarafından çıkarılır.
+
+Finans ve Operasyon'da *şirket kavramı* hem yasal bir yapı hem de bir işletme yapısıdır. Ayrıca veriler için bir güvenlik ve görünürlük sınırıdır. Kullanıcılar her zaman tek bir şirket bağlamında çalışır ve verilerin çoğu şirket tarafından çıkarılır.
 
 Dataverse'da eşdeğer bir kavram yoktur. En yakın kavram, birincil olarak kullanıcı verileri için bir güvenlik ve görünürlük sınırı olan *iş birimidir*. Bu kavram, şirket kavramıyla aynı yasal veya iş etkilerine sahip değildir.
 
 İş birimi ve şirket eşdeğer kavramlar olmadığından, Dataverse tümleştirmesi amacıyla aralarında bire bir (1:1) eşlemesini zorlamak mümkün değildir. Ancak, kullanıcılar varsayılan olarak, uygulamada ve Dataverse'te aynı satırları görebilmelidir; bu nedenle Microsoft, Dataverse'te cdm\_Company adlı yeni bir tabloyu kullanıma sundu. Bu tablo uygulamadaki Şirket tablosuna eşdeğerdir. Satır görünürlüğünün uygulama ve Dataverse'te başlangıçtan itibaren eşdeğer olmasını sağlamaya yardımcı olmak için Dataverse'te veriler için aşağıdaki kurulumu öneriyoruz:
 
-+ Çift yazma için etkinleştirilmiş her bir Finance and Operations Şirket satırı için, ilişkili bir cdm\_Company satırı oluşturulur.
++ Çift yazma için etkinleştirilmiş her Finans ve Operasyon Şirket satırı için ilişkili bir cdm\_Şirket satırı oluşturulur.
 + cdm\_Company satırı oluşturulduğunda ve çift yazma için etkinleştirildiğinde, aynı ada sahip bir varsayılan iş birimi oluşturulur. Bu iş birimi için otomatik olarak varsayılan bir ekip oluşturulsa da, iş birimi kullanılmaz.
 + Aynı ada sahip ayrı bir sahip olan takım oluşturulur. Ayrıca iş birimi ile de ilişkilidir.
 + Varsayılan olarak, oluşturulan ve Dataverse'e çift yazılan herhangi bir satırın sahibi, ilişkili iş birimine bağlı "DW Sahibi" ekibine ayarlanır.
@@ -43,7 +43,7 @@ Bu yapılandırma nedeniyle, USMF şirketiyle ilgili herhangi bir satır, Datave
 + "Satış Yöneticisi" rolü "USMF Satış" takımı üyelerine atanır.
 + "Satış Yöneticisi" rolüne sahip kullanıcılar, üye oldukları aynı işi birimine üye olan hesap satırlarına erişebilir.
 + "USMF Satış" ekibi, daha önce bahsedilen USMF iş birimine bağlıdır.
-+ Bu nedenle, "USMF Satış" ekibinin üyeleri Finance and Operations'taki USMF Şirket tablosundan gelen "USMF DW" kullanıcısı tarafından sahip olunan herhangi bir hesabı görebilir.
++ Bu nedenle, "USMF Satış" ekibinin üyeleri Finans ve Operasyon'taki USMF Şirket tablosundan gelen "USMF DW" kullanıcısı tarafından sahip olunan herhangi bir hesabı görebilir.
 
 ![Takımlar nasıl kullanılabilir.](media/dual-write-company-2.png)
 

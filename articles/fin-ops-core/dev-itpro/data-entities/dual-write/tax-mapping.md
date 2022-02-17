@@ -1,6 +1,6 @@
 ---
 title: Tümleşik vergi
-description: Bu konu Finance and Operations ile Dataverse arasında vergi verileri tümleştirmesini açıklar.
+description: Bu konu Finans ve Operasyon ile Dataverse arasındaki vergi tümleştirmesini açıklar.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d1e74bbbeba019ca48dd823b58251643e96edd0c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782222"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063199"
 ---
 # <a name="integrated-tax"></a>Tümleşik vergi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Vergi ayarı verileri hem dolaylı vergilerin (KDV, GST, Satış vergisi) hem de stopaj vergisinin ayarını tanımlar. Vergi hesaplama kuralını, vergi oranını, vergi muhasebesini, kapatma işlemini ve diğer kavramları açıklar.
 
@@ -28,7 +28,7 @@ Vergi ayarı verileri hem dolaylı vergilerin (KDV, GST, Satış vergisi) hem de
 
 Vergi verileri, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir tablo eşlemeleri koleksiyonudur.
 
-| Finance and Operations uygulamaları | Müşteri etkileşimi uygulamaları | Tanım |
+| Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları | Açıklama |
 |-----------------------------|-----------------------------------|-------------|
 [Madde satış vergisi grubu](mapping-reference.md#196) | msdyn_taxitemgroups | |
 [Satış vergisi makamları](mapping-reference.md#193) | msdyn_taxauthorities | |

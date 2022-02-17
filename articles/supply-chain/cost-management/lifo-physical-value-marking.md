@@ -2,152 +2,149 @@
 title: Fiziksel değer ve işaretleme ile LIFO
 description: Son Giren İlk Çıkar (LIFO), son (en yeni) girişlerin en önce çıkarıldığı bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır.
 author: AndersGirke
-ms.date: 06/20/2017
+ms.date: 02/02/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 55021
-ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60ec1c1c24f05157b72a3ed57abe7dfaaa763093
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fd57d58aa91aa87b1c2feff52a568296fc18ed9b
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578548"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092176"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO
 
 [!include [banner](../includes/banner.md)]
 
-Son Giren İlk Çıkar (LIFO), son (en yeni) girişlerin en önce çıkarıldığı bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır. 
+Son giren ilk çıkar (LIFO), ilk olarak üretilen veya alınan stoğun son satıldığı, kullanıldığı veya ilk elden çıkarıldığı bir stok yönetimi ve değerleme yöntemidir. Microsoft Dynamics 365 Supply Chain Management'ta stok kapanış işlemi sırasında, sistem son girişin ilk çıkışla eşleştirileceği, ve diğerlerinin de bu düzende yapılacağı kapanışları oluşturur. Kapatmalar ve eşleştirme ilkesi, stok hareketlerinin mali tarihine dayanır. Kapatma ve düzeltmelerin ön değerlendirmesi, stok yeniden hesaplama işlemi çalıştırılarak gerçekleştirilebilir.
 
-Son Giren İlk Çıkar (LIFO) stok modelinde, en son (en yeni) girişler ilk önce çıkar. Stok çıkışları, stok hareketinin tarihine dayalı olarak son girişlere göre kapatılır. LIFO'yu kullandığınızda, LIFO kuralını kullanmak zorunda değilsiniz. Bunun yerine, stok hareketlerini, belirli bir madde çıkışının belirli bir girişe göre kapatılması için işaretleyebilirsiniz. LIFO stok modelini kullanırken dönemsel bir stok kapanışı önerilir. 
+Stok hareketlerini, belirli bir madde girişinin belirli bir çıkışa göre kapatılması için işaretleyerek LIFO ilkesini geçersiz kılabilirsiniz. Kapatma oluşturmak ve çıkışların değerini LIFO ilkesine göre ayarlamak için LIFO stok modelini kullandığınızda periyodik stok kapatma işlemi gerekir. Stok kapatma işlemini çalıştırana kadar çıkış hareketleri fiziksel ve mali güncelleştirmeler gerçekleştiği sırada, değişen ortalamaya göre değerlendirilir. İşaretlemeyi kullanmıyorsanız fiziksel veya mali güncelleştirme gerçekleştirildiğinde çalışma ortalaması hesaplanır.
 
 Aşağıdaki örnekler, üç farklı konfigürasyonda LIFO kullanımının etkisini göstermektedir:
 
--   **Fiziksel değeri dahil et** seçeneği olmadan LIFO
--   **Fiziksel değeri dahil et** seçeneği ile LIFO
--   İşaretleme kullanılarak LIFO
+- **Fiziksel değeri dahil et** seçeneği olmadan LIFO
+- **Fiziksel değeri dahil et** seçeneği ile LIFO
+- İşaretleme kullanılarak LIFO
 
 ## <a name="lifo-without-the-include-physical-value-option"></a>Fiziksel değeri dahil et seçeneği kullanılmadan LIFO
-Bu örnekte ürün model grubu, fiziksel değeri dahil edecek şekilde işaretlenmemiştir. Aşağıdaki çizimde bu hareketler gösterilmiştir:
 
--   1a. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   1b. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
--   2a. Her biri 20,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   2b. Her biri 20,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
--   3a. Her biri 25,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   4a. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   4b. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
--   5a. Her biri 20,00 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (mali olarak güncelleştirilen hareketlerin cari ortalaması).
--   5b. Her biri 20,00 ABD Doları maliyet fiyatında 1 miktarındaki stok mali çıkışı (mali olarak güncelleştirilen hareketlerin cari ortalaması).
--   6. Stok kapanışı gerçekleştirilir. LIFO yöntemine dayanarak, mali olarak güncelleştirilen son çıkış mali olarak güncelleştirilen son girişe karşılık kapatılır. Çıkış hareketinde 10,00 ABD Doları tutarında bir düzeltme yapılır.
+Bu örnekte, serbest bırakılan ürünün madde modeli grubunda **Fiziksel değeri dahil et** onay kutusu temizlenmiş değildir. Aşağıdaki çizimde bu hareketler gösterilmiştir:
 
-Yeni cari ortalama maliyet fiyatı, 15,00 ABD Doları tutarında mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. Aşağıdaki çizimde, **Fiziksel değeri dahil et** seçeneği kullanılmadığında LIFO stok modelinin bu hareket serisindeki etkileri gösterilmiştir. 
+- 1a. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 1b. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
+- 2a. Her biri 20,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 2b. Her biri 22,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
+- 3a. 16,00 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (mali olarak deftere nakledilen hareketlerin cari ortalaması).
+- 3b. 16,00 ABD Doları maliyet fiyatında 1 miktarındaki stok mali çıkışı (mali olarak deftere nakledilen hareketlerin cari ortalaması).
+- 4a. Her biri 25,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 5a. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 5b. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
+- 6a. 23,00 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (mali olarak deftere nakledilen hareketlerin cari ortalaması)
+- 7\. Stok kapanışı gerçekleştirilir. LIFO yöntemine dayanarak, ilk mali olarak güncelleştirilen çıkış son mali olarak güncelleştirilen girişe karşılık olarak kapatılır. Bu örnekte, 5b ve 3b arasında bir kapatma oluşturulur. 3b'de 14,00 ABD doları şeklinde bir ayarlama yapılır ve sonuçta elde edilen nihai maliyet 30,00 ABD doları olur.
 
-![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan LIFO.](./media/lifowithoutincludephysicalvalue.gif) 
+Aşağıdaki çizimde, **Fiziksel değeri dahil et** seçeneği kullanılmadığında FIFO stok modelinin bu hareket serisindeki etkileri gösterilmiştir.
+
+![Fiziksel değeri dahil et seçeneği kullanılmadan LIFO.](./media/lifo-without-including-physical-value.png)
 
 **Diyagramın anahtarı**
 
 - Stok hareketleri dikey oklarla temsil edilir.
-- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
-- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyat biçiminde belirtilir.
-- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
-- Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
+- Fiziksel hareketler, daha kısa, açık gri oklarla gösterilir.
+- Mali hareketler, daha uzun siyah oklarla gösterilir.
+- Stoka yapılan girişler eksen üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar eksen altında dikey oklarla temsil edilir.
 - Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
 - Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
-- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
+- Diyagramdaki her tarih ince siyah bir dikey çizgi ile ayrılır. Tarih, diyagramın alt kısmında belirtilmiştir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle temsil edilir.
 - Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
 
 ## <a name="lifo-with-the-include-physical-value-option"></a>Fiziksel değeri dahil et seçeneği kullanılarak LIFO
-**Madde model grupları** sayfasındaki bir madde için **Fiziksel değeri dahil et** onay kutusu seçildiğinde, sistem, cari ortalama maliyet fiyatını hesaplamak için hem fiziksel hem de mali giriş hareketlerini kullanır. Uygun olan yerlerde sistem, fiziksel olarak güncelleştirilmiş çıkış hareketinde düzeltmeler de yapar. **Fiziksel değeri dahil et** seçim kutusunun onay işareti kaldırıldığında, LIFO envanter modeli ile stok kapanışı yalnızca mali olarak güncelleştirilen hareketlerde kapatmalar yapar. 
+
+**Madde model grupları** sayfasındaki bir madde için **Fiziksel değeri dahil et** onay kutusu seçildiğinde, sistem, cari ortalama maliyet fiyatını hesaplamak için hem fiziksel hem de mali giriş hareketlerini kullanır. Uygun olan yerlerde sistem, fiziksel olarak güncelleştirilmiş çıkış hareketinde düzeltmeler de yapar. **Fiziksel değeri dahil et** seçim kutusunun onay işareti kaldırıldığında, LIFO stok modeli ile stok kapanışı yalnızca mali olarak güncelleştirilen hareketlerde kapatmalar yapar.
 
 Aşağıdaki çizimde şu hareketler gösterilmiştir:
 
--   1a. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   1b. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
--   2a. Her biri 20,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   2b. Her biri 20,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
--   3a. Her biri 25,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   4a. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   4b. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
--   5a. Her biri 21,25 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (mali ve fiziksel olarak güncelleştirilmiş hareketlerin cari ortalaması).
--   5b. Her biri 21,25 ABD Doları maliyet fiyatında 1 miktarındaki stok mali çıkışı (mali ve fiziksel olarak güncelleştirilmiş hareketlerin cari ortalaması).
--   6a. Her biri 21,25 ABD Doları maliyet fiyatındaki 1 miktarındaki stok fiziksel çıkışı.
--   7. Stok kapanışı gerçekleştirilir. LIFO yöntemine dayanarak, son çıkış hareketi son güncelleştirilen girişe karşılık ayarlanır veya kapatılır.
+- 1a. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 1b. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
+- 2a. Her biri 20,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 2b. Her biri 22,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
+- 3a. 16,00 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (fiziksel ve mali olarak deftere nakledilmiş hareketlerin cari ortalaması).
+- 3b. 16,00 ABD doları maliyet fiyatında 1 miktarındaki stok mali çıkışı (fiziksel ve mali olarak deftere nakledilmiş hareketlerin cari ortalaması).
+- 4a. Her biri 25,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 5a. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 5b. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
+- 6a. 23,67 ABD doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (fiziksel ve mali olarak deftere nakledilmiş hareketlerin cari ortalaması).
+- 7\. Stok kapanışı gerçekleştirilir. LIFO yöntemine dayanarak, ilk mali olarak güncelleştirilen çıkış son mali olarak güncelleştirilen girişe karşılık olarak kapatılır. Bu örnekte, 3b ve 5b arasında bir kapatma oluşturulur. 3b'de 14,00 ABD doları şeklinde bir ayarlama yapılır ve sonuçta elde edilen nihai maliyet 30,00 ABD doları olur. Ayrıca, hareket 6a, 4a giriş hareketi maliyetine ayarlanacaktır. Giriş mali değil, yalnızca fiziksel olarak güncelleştirildiğinden sistem bu hareketleri kapatmaz. Bunun yerine, fiziksel çıkış hareketine yalnızca 1,33 ABD doları düzeltme nakledilir ve sonuçta elde edilen düzeltilmiş maliyet 25,00 ABD doları olur.
 
-Hareket 6a, 4b giriş hareketine ayarlanacaktır. Giriş mali değil, yalnızca fiziksel olarak güncelleştirildiğinden sistem bu hareketleri kapatmaz. Bunun yerine, fiziksel çıkış hareketine yalnızca 8,75 ABD Doları tutarında bir düzeltme nakledilir. 5b hareketi, 3a fiziksel giriş hareketine ayarlanır. Sistem, ikisi de mali olarak güncelleştirilmediğinden bu hareketleri kapatmaz. Bunun yerine, bu çıkış hareketine yalnızca negatif 3,75 ABD Doları tutarında bir düzeltme yapılır. Yeni cari ortalama maliyet fiyatı 20.00 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. 
+Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir.
 
-Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
-
-![Fiziksel Değeri Dahil Et Seçeneği ile LIFO.](./media/lifowithincludephysicalvalue.gif) 
+![Fiziksel değeri dahil et seçeneği ile LIFO.](./media/lifo-with-included-physical-value.png)
 
 **Diyagramın anahtarı**
 
 - Stok hareketleri dikey oklarla temsil edilir.
-- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
-- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyat biçiminde belirtilir.
-- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
-- Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
+- Fiziksel hareketler, daha kısa, açık gri oklarla gösterilir.
+- Mali hareketler, daha uzun siyah oklarla gösterilir.
+- Stoka yapılan girişler eksen üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar eksen altında dikey oklarla temsil edilir.
 - Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
 - Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
-- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
+- Diyagramdaki her tarih ince siyah bir dikey çizgi ile ayrılır. Tarih, diyagramın alt kısmında belirtilmiştir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle temsil edilir.
 - Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
 
-## <a name="lifo-with-marking"></a>İşaretleme kullanılarak LIFO
-İşaretleme bir hareket giriş hareketini bağlamanıza, işaretlemenize veya vermenize olanak sağlayan bir işlemdir. İşaretleme bir hareket nakledilmeden önce veya nakledildikten sonra gerçekleşebilir. İşaretlemeyi, hareket deftere nakledildiğinde veya stok kapanışı gerçekleştirildiğinde stokun tam maliyetinden emin olmak istediğinizde kullanabilirsiniz. Örneğin, Müşteri Servisi departmanınız önemli bir müşteriden bir acele sipariş kabul etsin. Bu acele bir sipariş olduğundan, müşterinizin gereksinimlerini karşılamak için bu ürün için daha fazla ödemeniz gerekecek. 
+## <a name="lifo-with-marking"></a>İşaretleme ile LIFO
 
-Bu stok maddesinin bu satış siparişi faturası için marja veya satılan malların maliyetine (COGS) yansıtılacağından emin olmanız gerekiyor. Satınalma siparişi deftere nakledildiğinde stok girişi 120,00 ABD Doları maliyetinde yapılır. Bu satış siparişi belgesi, sevk irsaliyesi veya fatura nakledilmeden önce satın alma siparişine işaretlenirse, satılan malların maliyeti maddenin cari ortalama maliyeti yerine 120,00 ABD Doları olur. Satış siparişi sevk irsaliyesi veya faturası işaretlemeden önce nakledilirse satılan malların maliyeti cari ortalama maliyet fiyatında nakledilir. 
+İşaretleme bir hareket giriş hareketini bağlamanıza, işaretlemenize veya vermenize olanak sağlayan bir işlemdir. İşaretleme bir hareket nakledilmeden önce veya nakledildikten sonra gerçekleşebilir. İşaretlemeyi, hareket deftere nakledildiğinde veya stok kapanışı gerçekleştirildiğinde stokun tam maliyetinden emin olmak istediğinizde kullanabilirsiniz. Örneğin, Müşteri Servisi departmanınız önemli bir müşteriden bir acele sipariş kabul etsin. Bu acele bir sipariş olduğundan, müşterinizin gereksinimlerini karşılamak için ürün için daha fazla ödemeniz gerekecek.
 
-Stok kapanışı gerçekleştirilmeden önce bu iki hareket birbirine işaretlenmeye devam edebilir. 
+Bu stok maddesinin satış siparişi faturası için marja veya satılan malların maliyetine (COGS) yansıtılacağından emin olmanız gerekiyor. Satınalma siparişi deftere nakledildiğinde stok girişi 120,00 ABD Doları maliyetinde yapılır. Bu satış siparişi belgesi, sevk irsaliyesi veya fatura nakledilmeden önce satın alma siparişine işaretlenirse, satılan malların maliyeti maddenin cari ortalama maliyeti yerine 120,00 ABD Doları olur. Satış siparişi sevk irsaliyesi veya faturası işaretlemeden önce nakledilirse satılan malların maliyeti cari ortalama maliyet fiyatında nakledilir.
 
-Hareket deftere nakledilmeden önce bir çıkış hareketini bir giriş hareketi için işaretleyebilirsiniz. Bunu **Satış siparişi bilgileri** sayfasındaki bir satış siparişi satırından yapabilirsiniz. Açık giriş hareketlerini **işaretleme** sayfasında görebilirsiniz. 
+Stok kapanışı gerçekleştirilmeden önce bu iki hareket birbirine işaretlenmeye devam edebilir.
 
-Hareket deftere nakledildikten sonra bir giriş için bir çıkış hareketi de işaretleyebilirsiniz. Deftere nakledilmiş bir stok ayarlama günlüğünden, stoklanmış bir madde için açık bir giriş hareketine yönelik bir çıkış hareketini eşleştirebilir veya işaretleyebilirsiniz. 
+Hareket deftere nakledilmeden önce bir çıkış hareketini bir giriş hareketi için işaretleyebilirsiniz. Bu işaretlemeyi **Satış siparişi satırları** hızlı sekmesinde **Stok \> İşaretleme**'yi seçerek **Satış siparişi ayrıntıları** sayfasındaki bir satış siparişi satırında yapabilirsiniz. Açık giriş hareketlerini **İşaretleme** sayfasında görebilirsiniz.
+
+Hareket deftere nakledildikten sonra bir giriş için bir çıkış hareketi de işaretleyebilirsiniz. Deftere nakledilmiş bir stok ayarlama günlüğünden, stoklanmış bir madde için açık bir giriş hareketine yönelik bir çıkış hareketini eşleştirebilir veya işaretleyebilirsiniz.
 
 Aşağıdaki çizimde bu hareketler gösterilmiştir:
 
--   1a. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   1b. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
--   2a. Her biri 20,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   2b. Her biri 20,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
--   3a. Her biri 25,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   4a. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
--   4b. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
--   5a. Her biri 21,25 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (mali ve fiziksel olarak güncelleştirilmiş hareketlerin cari ortalaması).
--   5b. 1 miktarındaki stok mali çıkışı hareket deftere nakledilmeden önce stok girişi 2b'ye işaretlenir. Hareket, her biri 20,00 ABD Doları maliyet fiyatı ile deftere nakledilir.
--   6a. Her biri 21,25 ABD Doları maliyet fiyatındaki 1 miktarındaki stok fiziksel çıkışı.
--   7. Stok kapanışı gerçekleştirilir. Mali olarak güncelleştirilen FIFO hareketini var olan bir girişe işaretlendiği için, bu hareketler birbirine karşılık olarak kapatılır ve bir düzeltme yapılmaz.
+- 1a. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 1b. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
+- 2a. Her biri 20,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 2b. Her biri 22,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
+- 3a. 16,00 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (mali olarak deftere nakledilen hareketlerin cari ortalaması).
+- 3b. 16,00 ABD Doları maliyet fiyatında 1 miktarındaki stok mali çıkışı (mali olarak deftere nakledilen hareketlerin cari ortalaması).
+- 3c. 3b'de stok mali çıkışı, 2b için stok mali çıkışı olarak işaretlenir.
+- 4a. Her biri 25,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 5a. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
+- 5b. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
+- 6a. 23,00 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (mali olarak deftere nakledilen hareketlerin cari ortalaması)
+- 7\. Stok kapanışı gerçekleştirilir. LIFO yöntemini kullanan işaretleme ilkesine göre, işaretlenen hareketler birbirine karşılık olarak kapatılır. Bu örnekte, 3b, 2b'ye karşılık olarak kapatılır ve değeri 22,00 ABD dolarına getirmek için 3b'ye nakledilen 6,00 ABD doları tutarında bir düzeltme deftere nakledilir. Bu örnekte, hiçbir ek kapatma yapılmaz, çünkü kapanış yalnızca mali olarak güncelleştirilmiş hareketler için kapatma oluşturur.
 
-Yeni cari ortalama maliyet fiyatı 27.50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. 
+Yeni cari ortalama maliyet fiyatı 27.50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır.
 
-Aşağıdaki çizimde çıkışlar ve girişler kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
+Aşağıdaki çizimde çıkışlar ve girişler kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir.
 
-![İşaretleme ile LIFO.](./media/lifowithmarking.gif) 
+![İşaretleme ile LIFO.](./media/lifo-with-marking.png)
 
 **Diyagram anahtarı**
 
 - Stok hareketleri dikey oklarla temsil edilir.
-- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
-- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyat biçiminde belirtilir.
-- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
-- Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
+- Fiziksel hareketler, daha kısa, açık gri oklarla gösterilir.
+- Mali hareketler, daha uzun siyah oklarla gösterilir.
+- Stoka yapılan girişler eksen üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar eksen altında dikey oklarla temsil edilir.
 - Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
 - Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
-- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
-- Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
-
-
+- Diyagramdaki her tarih ince siyah bir dikey çizgi ile ayrılır. Tarih, diyagramın alt kısmında belirtilmiştir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle temsil edilir.
+- Stok kapanışıyla gerçekleştirilen kapatmalar ve işaretlemeler, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

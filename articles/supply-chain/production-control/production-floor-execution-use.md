@@ -2,7 +2,7 @@
 title: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 description: Bu konu, bir çalışanın bakış açısından üretim katı yürütme arabiriminin nasıl kullanılacağını açıklar.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 01/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.dyn365.ops.version: 10.0.24
+ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920660"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075031"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -138,6 +138,65 @@ Bu durumda, çalışan, rapor ilerlemesi iletişim kutusunda **Ortak ürünler �
 Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etkin işler** sekmesinde bir iş seçip sonra **Hurdayı Raporla**'yı seçerek hurdayı rapor edebilir. Sonra, **Hurdayı Raporla** iletişim kutusunda, çalışan sayısal klavyeyi kullanarak hurda miktarını girer. Çalışan ayrıca bir neden (*yok*, *makine*, *işleç* veya *malzeme*) seçer.
 
 ![Hurda raporla iletişim kutusu.](media/pfei-report-scrap-dialog.png "Hurda raporla iletişim kutusu")
+
+## <a name="adjust-material-consumption-and-make-material-reservations"></a>Malzeme tüketimini ayarlama ve malzeme ayırmaları yapma
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Çalışanlar her üretim işi için malzeme tüketimini ayarlayabilir. Bu işlevsellik, bir üretim işi tarafından tüketilen gerçek malzeme miktarının planlanan miktardan daha fazla veya daha az olduğu senaryolarda kullanılır. Bu nedenle, stok düzeylerini güncel tutmak için ayarlanmalıdır.
+
+Çalışanlar ayrıca malzemelerin toplu iş ve seri numaraları üzerinde rezervasyon yapabilir. Bu işlevsellik, bir çalışanın malzeme izlenebilirlik gereksinimlerini karşılamak için hangi malzeme toplu iş veya seri numaralarının tüketildiğini el ile belirtmesi gereken senaryolarda kullanılır.
+
+Çalışanlar **Malzemeyi ayarla**'yı seçerek ayarlanacak miktarı belirtebilir. Bu düğme, aşağıdaki senaryolarda kullanılabilir:
+
+- **Hurda raporla** iletişim kutusunda
+- **İlerlemeyi raporla** iletişim kutusunda
+- Sağdaki araç çubuğunda
+
+### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Hurdayı raporla ve İlerlemeyi raporla iletişim kutularından malzeme tüketimini ayarlama
+
+Bir çalışan **İlerlemeyi raporla** veya **Hurdayı raporla** iletişim kutusuna raporlanacak miktarı girdikten sonra **Malzemeyi ayarla** düğmesi kullanılabilir duruma gelir. Kullanıcı bu düğmeyi seçtiğinde, **Malzemeyi ayarla** iletişim kutusu görüntülenir. Bu iletişim kutusu, proje için iyi veya hurdaya çıkarılan miktar bildirildiğinde tüketilmesi planlanan maddeleri listeler.
+
+İletişim kutusundaki listede aşağıdaki bilgiler gösterilir:
+
+- **Ürün numarası** – Ana ürün ve ürün varyantı.
+- **Ürün adı**: Ürünün adı.
+- **Teklif** – Proje için belirtilen miktar için ilerleme veya hurda bildirildiğinde tüketilecek tahmini malzeme miktarı.
+- **Tüketim** – Proje için belirtilen miktar için ilerleme veya hurda bildirildiğinde tüketilecek gerçek malzeme miktarı.
+- **Ayrılan** – Stokta fiziksel olarak ayrılan malzeme miktarı.
+- **Birim** – Ürün reçetesi birimi.
+
+İletişim kutusunun sağ tarafında aşağıdaki bilgiler gösterilir:
+
+- **Ürün numarası** – Ana ürün ve ürün varyantı.
+- **Tahmini** – Tüketecek tahmini miktar.
+- **Başlatıldı** – Üretim işinde başlatılan miktar.
+- **Kalan miktar** – Tahmini miktarın, tüketilmek üzere kalan miktarı.
+- **Serbest bırakılan miktar** – Tüketilen miktar.
+
+Aşağıdaki işlemler gerçekleştirilebilir:
+
+- Çalışan, **Tüketimi ayarla**'yı seçerek malzeme için ayarlanacak miktarı belirtebilir. Miktar onaylandıktan sonra, **Tüketim** sütunundaki miktar ayarlanan miktarla güncelleştirilir.
+- Çalışan **Malzemeyi ayarla**'yı seçtiğinde, bir üretim malzeme çekme listesi günlüğü oluşturulur. Bu günlük, **Malzemeyi ayarla** listesiyle aynı maddeleri ve miktarları içerir.
+- Çalışan **Malzemeyi ayarla** iletişim kutusundaki bir miktarı ayarladığında, ilgili günlük satırındaki **Teklif** alanı aynı miktarla güncelleştirilir. Çalışan **Malzemeyi ayarla** iletişim kutusunda **İptal**'i seçerse, malzeme çekme listesi silinir.
+- Çalışan **Tamam**'ı seçerse malzeme çekme listesi silinmez. **Hurdayı raporla** veya **İlerlemeyi raporla** iletişim kutusunda bildirildiğinde deftere nakledilir.
+- Çalışan **İlerlemeyi raporla** veya **Hurda raporla** iletişim kutusunda **İptal**'i seçerse, malzeme çekme listesi silinir.
+
+### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Sağdaki araç çubuğundan malzeme ayarlama
+
+**Malzemeyi ayarla** düğmesi, sağdaki araç çubuğunda görünecek şekilde yapılandırılabilir. (Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini tasarlama](production-floor-execution-tabs.md).) Çalışan, devam etmekte olan bir üretim işi için **Malzemeyi ayarla**'yı seçebilir. Bu durumda, çalışanın istenen ayarlamaları yapabileceği **Malzemeyi ayarla** iletişim kutusu görüntülenir. İletişim kutusu açıldığında, üretim emri için ayarlanan miktarlar için satırlar içeren bir üretim malzeme çekme listesi oluşturulur. Çalışan **Şimdi deftere naklet**'i seçerse, ayarlama onaylanır ve malzeme çekme listesi deftere nakledilir. Çalışan **İptal**'i seçerse, malzeme çekme listesi silinir ve ayarlama yapılmaz.
+
+### <a name="reserve-materials"></a>Yedek malzemeler
+
+**Malzemeyi ayarla** iletişim kutusunda, bir çalışan **Malzemeyi ayır**'ı seçerek malzeme rezervasyonları yapabilir ve ayarlayabilir. Görüntülenen **Malzemeyi ayır** iletişim kutusu, her depolama ve izleme boyutu için madde için fiziksel olarak kullanılabilir stoku gösterir.
+
+Malzeme gelişmiş ambar işlemleri için etkinleştirilmişse liste malzemenin üretim giriş konumu için yalnızca fiziksel olarak kullanılabilir stoku gösterir. Üretim giriş konumu, üretim işinin planlandığı kaynakta tanımlanır. Madde numarası toplu iş veya seri numarası kontrollüyse, fiziksel olarak kullanılabilir toplu iş ve seri numaralarının tam listesi gösterilir. Rezerve edilecek miktarı belirtmek için, çalışan **Malzemeyi ayır**'ı seçebilir. Varolan bir ayırmayı kaldırmak için, çalışan **Ayırmayı kaldır**'ı seçebilir.
+
+Üretim giriş konumunu ayarlama hakkında daha fazla bilgi için şu blog yazısına bakın: [Üretim giriş konumunu ayarlama](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
+
+> [!NOTE]
+> Çalışan **İlerlemeyi raporla** veya **Hurda raporla** iletişim kutusunda **İptal**'i seçtiğinde, çalışanın **Malzemeyi ayır** iletişim kutusunda yaptığı ayırmalar kalır.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Bir iş tamamlama ve yeni bir proje başlatma
 

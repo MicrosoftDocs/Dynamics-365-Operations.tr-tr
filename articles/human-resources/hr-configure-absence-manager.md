@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 9f1c699358c9cc8de9e975886cfb72edfb0d3f31
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485766"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065238"
 ---
 # <a name="configure-the-absence-manager-role"></a>Devamsızlık yöneticisi rolünü yapılandırma
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

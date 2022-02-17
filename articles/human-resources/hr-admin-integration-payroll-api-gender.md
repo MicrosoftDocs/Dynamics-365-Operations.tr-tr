@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 29e0cf7e67436de1ac73b639c93c498cadc5ff55c18e68bc6b8402c2f340175e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c84c0e43f149224ff5a57220c71b507c42b44e0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778019"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068521"
 ---
 # <a name="payroll---gender-option-set"></a>Bordro - Cinsiyet seçenek kümesi
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

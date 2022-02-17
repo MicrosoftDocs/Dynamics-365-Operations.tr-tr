@@ -2,7 +2,7 @@
 title: Finance Insights için Yapılandırma
 description: Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 11/19/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
+ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827040"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051382"
 ---
 # <a name="configuration-for-finance-insights"></a>Finance Insights için Yapılandırma
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır. Bu konudaki yordamları başarıyla tamamlamak için, [Power Portal yönetim merkezinde](https://admin.powerplatform.microsoft.com/) Sistem yöneticisi ve Sistem özelleştirici erişimine, Dynamics 365 Finance'te Sistem Yöneticisi erişimine ve Microsoft Dynamics Lifecycle Services'ta (LCS) ortam yaratma erişimine sahip olmanız gerekir.
+Finance Insights, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır. Bu konudaki yordamları başarıyla tamamlamak için, [Power Portal yönetim merkezinde](https://admin.powerplatform.microsoft.com/) Sistem yöneticisi ve Sistem özelleştirici erişimine, Dynamics 365 Finance'te Sistem Yöneticisi erişimine ve Microsoft Dynamics Lifecycle Services'ta (LCS) ortam yaratma erişimine sahip olmanız gerekir.
 
 > [!NOTE]
 > Finance Insights'ı ayarlamak için aşağıdaki yordamlar, 10.0.21 ve sonrasına kadar Microsoft Dynamics 365 Finance sürümleri için geçerlidir.
@@ -100,6 +100,9 @@ Eklenti başarıyla yüklendikten sonra, Dynamics 365 Finance'te **Özellik yön
 
    **Insights sağlama durumu denetimi** işlemi başarıyla çalıştırıldıktan sonra, **Özellik yönetimi** çalışma alanında Finance Insights özelliklerini etkinleştirebilirsiniz.
 
+> [!NOTE]
+> **İçgörü sağlama durumu kontrolü** işlemi çalışmazsa **Sistem yönetimi** > **Sorgular** > **Toplu işler** öğesine gidin. **Süreç otomasyonu yoklama sistemi** alanında, işlemi başlatmak için değeri **Bekleniyor** olarak değiştirin. 
+> 
 ## <a name="feedback-and-support"></a>Geri bildirim ve destek
 
 Geri bildirim sağlamak veya destek almak istiyorsanız lütfen [Finance Insights (Önizleme)](mailto:fiap@microsoft.com) ekibine e-posta gönderin.

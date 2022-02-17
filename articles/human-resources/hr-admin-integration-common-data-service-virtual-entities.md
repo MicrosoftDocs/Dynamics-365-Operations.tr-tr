@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414676"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069158"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse sanal tablolarını yapılandırma
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources Microsoft Dataverse'taki sanal bir veri kaynağıdır. Dataverse ve Microsoft Power Platform'dan tam oluşturma, okuma, güncelleştirme ve silme (CRUD) işlemleri sağlar. Sanal tabloların verileri Dataverse'de depolanmaz ancak uygulama veritabanında depolanır.
 
@@ -119,10 +122,10 @@ Sonraki adım, sanal tablo veri kaynağını Power Apps ortamında yapılandırm
 
 4. **Çözüm Durumu Merkezi**'nde, uygulama sayfasının sağ üst kısmında **Gelişmiş Bul** simgesini seçin.
 
-5. **Gelişmiş Bul** sayfasında, **Ara** açılan listesinde **Finance and Operations Sanal Veri Kaynağı Yapılandırmaları**'nı seçin.
+5. **Gelişmiş Bul** sayfasında, **Ara** açılan listesinde **Finans ve Operasyon Sanal Veri Kaynağı Yapılandırmaları**'nı seçin.
 
    > [!NOTE]
-   > Sanal tablo uygulamasının önceki kurulum adımından yüklenmesi birkaç dakika sürebilir. **Finance and Operations Sanal Veri Kaynağı Yapılandırmaları** listede yoksa, bir dakika bekleyip listeyi yenileyin.
+   > Sanal tablo uygulamasının önceki kurulum adımından yüklenmesi birkaç dakika sürebilir. **Finans ve Operasyon Sanal Veri Kaynağı Yapılandırmaları** listede yoksa, bir dakika bekleyip listeyi yenileyin.
 
 6. **Sonuçlar**'ı seçin.
 

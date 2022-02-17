@@ -2,7 +2,7 @@
 title: E-posta bildirimi profili ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta bir e-posta bildirimi profilinin nasıl oluşturulacağı açıklanmaktadır.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a92c21a93766e6583882f50222837366ed4c9a24c2bbfd93933763bd4ffa46bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a7d796a173a6f9dfcd62e1f73e078cac614145e
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771043"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087879"
 ---
 # <a name="set-up-an-email-notification-profile"></a>E-posta bildirimi profili ayarlama
 
@@ -27,7 +27,7 @@ ms.locfileid: "6771043"
 
 Bu konuda, Microsoft Dynamics 365 Commerce'ta bir e-posta bildirimi profilinin nasıl oluşturulacağı açıklanmaktadır.
 
-Kanalları oluştururken, bir e-posta bildirim profili ayarlayabilirsiniz. Bu şekilde, sipariş oluşturma, sipariş Sevkiyat durumu ve ödeme hatası gibi çeşitli işlem olayları için müşterilere e-postalar gönderilebilir.
+Kanalları oluştururken, bir e-posta bildirim profili ayarlayabilirsiniz. E-posta bildirim profili, müşterilerinize bildirim göndereceğiniz satış hareketini (sipariş oluşturuldu, sipariş hazırlandı ve sipariş faturalandı gibi etkinlikler) tanımlar. 
 
 E-posta yapılandırma hakkında daha fazla bilgi için bkz. [E-posta yapılandırma ve gönderme](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -43,7 +43,7 @@ E-posta bildirim profili oluşturmak için bu adımları izleyin.
 
 ### <a name="create-an-email-template"></a>Bir e-posta şablonu oluştur
 
-Bir e-posta bildirim türünü etkinleştirmeden önce, Commerce genel merkezinde bir kuruluş e-posta şablonu oluşturmanız gerekir. Bu şablon, desteklemek istediğiniz her bir dil için e-posta konusu, gönderen, varsayılan dil ve e-posta gövdesini tanımlar.
+Desteklemek istediğiniz her bildirim türü için bir e-posta bildirim türünü etkinleştirmeden önce, Commerce genel merkezinde bir kuruluş e-posta şablonu oluşturmanız gerekir. Bu şablon, desteklenen her bir dil için e-posta konusu, gönderen, varsayılan dil ve e-posta gövdesini tanımlar.
 
 Yeni bir e-posta şablonu oluşturmak için bu adımları izleyin.
 
@@ -61,6 +61,8 @@ Aşağıdaki resimde bazı örnek e-posta şablonu ayarları gösteriliyor.
 
 ![E-posta şablonu ayarları.](media/email-template.png)
 
+E-posta şablonlarının nasıl oluşturulacağı hakkında bilgi için bkz. [İşlem olayları için e-posta şablonları oluşturma](email-templates-transactions.md). 
+
 ### <a name="create-an-email-event"></a>Bir e-posta olayı oluşturma
 
 Bir e-posta olayı oluşturmak için bu adımları izleyin.
@@ -76,10 +78,12 @@ Aşağıdaki resimde bazı örnek olay bildirimi ayarları gösteriliyor.
 
 ![Olay bildirim ayarları.](media/email-notification-profile.png)
 
+> [!NOTE]
+> Müşteri tarafından oluşturulan bildirim türü bir e-posta bildiriminin gönderilebilmesi için önce özelleştirmenin uygulanmasını gerektirir.
+
 ### <a name="next-steps"></a>Sonraki adımlar
 
 Posta gönderebilmek için önce giden posta hizmetinizi yapılandırmanız ve bir toplu iş ayarlamanız gerekir. Daha fazla bilgi için bkz. [E-posta yapılandırma ve gönderme](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
-
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

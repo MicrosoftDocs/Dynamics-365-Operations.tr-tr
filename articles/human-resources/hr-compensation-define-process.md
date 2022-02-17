@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 883948c6e3f7b205d7e0f1f2b6adef1173616dc1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431137"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071528"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Ücret işlemini tanımlama ve sonuçları hesaplama
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,13 +43,13 @@ ms.locfileid: "7431137"
     * Hareket etkin tarihi, yeni ücret oranlarının etkili olması gereken tarihtir. Birçok şirket kendi döngüsünün sonu ile yeni ücret oranlarının yürürlüğe gireceği süre arasında birkaç ay bırakır. Ek zaman, yeni maaşı işleme koyma ve gözden geçirme için kullanılır.  
 8. **Hareket etkin tarihi** alanında bir tarih girin.
     * Zaman noktası, çalışanın ilgili zaman noktasındaki ücret oranlarına dayalı ödül miktarını belirleyen değişken ücret planları için kullanılır.  
-    * Sabit ödemeli eşit dağıtılmış işe alma tarihi, işe alma kuralı yüzdesi olan sabit ücret planlarıyla birlikte kullanılır.  Döngü başlangıç tarihi ile sabit ödemeli eşit dağıtılmış işe alma tarihi arasındaki dönemde işe alınan çalışanlar eşit dağıtılmış yüzde yerine hesaplanan ücret artışlarının %100'ünü alırlar.  
+    * Sabit ödemeli eşit dağıtılmış işe alma tarihi, **Yüzde** işe alma kuralı olan sabit ücret planlarıyla birlikte kullanılır. Döngü başlangıç tarihi ile sabit ödemeli eşit dağıtılmış işe alma tarihi arasındaki dönemde işe alınan çalışanlar eşit dağıtılmış yüzde yerine hesaplanan ücret artışlarının %100'ünü alırlar.  
 9. **Sabit ödemeli eşit dağıtılmış işe alma tarihi** alanında bir tarih girin.
     * Gözden geçirme son tarihi, o zamana kadar tüm işlem sonuçlarının gözden geçirileceği tarihtir; böylece sonuçlar hareket etkin tarihinden önce bir çalışanın ücret kaydına yüklenebilir. Bu alan yalnızca bilgi amaçlıdır.  
 10. **İnceleme son tarihi** alanında bir tarih girin.
 11. **Kaydet**'e tıklayın.
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Bir ücret işlemi için ücret planları ve eylemleri ayarlama
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Bir ücret işlemi için ücret planları ve eylemleri ayarlama
 1. **Kurulum**’a tıklayın.
     * **Kurulum** sayfası bu ücret işleminin parçası olarak işlenecek planların hangileri olacağını seçmenin yanı sıra her plan için gerçekleştirilecek işlemleri belirlemek için de kullanılır.  
 2. **Plan** alanına bir değer girin veya bir değer seçin.
@@ -56,7 +59,7 @@ ms.locfileid: "7431137"
 6. **Ekle** öğesine tıklayın.
 7. **İşlem** alanında işlemin **Liyakat** türünü belirleyin.
     * Ücret işlemleri, seçilen işlem için bu işlemin hesaplamasında çalışanın taban ödemesinin mi yoksa önceki işlemin sonucunun mu başlangıç noktası olarak kullanılacağını belirlemek üzere **Önceki sonucu kullan** alanı kullanılarak birlikte "kayıt altına alınabilir".  
-8. Önceki sonucu kullan alanında, **Evet**'i seçin.
+8. **Önceki sonucu kullan** alanında, **Evet**'i seçin.
 9. **Ekle** öğesine tıklayın.
 10. **İşlem** alanında, İşlemin **Genel** türünü belirleyin.
     * Farklı ücret işlemi türleri farklı alanları etkinleştirir. Genel ücret işlemi türü için bir artış yüzdesi veya artış miktarı belirtilebilir.  
@@ -85,7 +88,7 @@ ms.locfileid: "7431137"
 1. **İşlem sonuçları**'na tıklayın.
 2. **Çalışan sonuçları**'na tıklayın.
 3. Listede, istenen kaydı bulun ve seçin.
-4. Sabit ücret bölümünü genişletin.
+4. **Sabit ücret** bölümünü genişletin.
     * İşleminin sonuçlarını görüntülemek için FastTabs'i genişletin. Bir ücret işlemi için **Önerileri etkinleştir** işaretlenmişse bu işlem için **Öneri** alanları etkinleştirilir.  
 5. Listede, istenen kaydı bulun ve seçin.
     * Tek bir çalışana ilişkin sonuçlar **Sonuçları görüntüle** düğmesine tıklayarak görüntülenebilir.  

@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
-ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
+ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7917742"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061848"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Çift yazma için para birimi veri türü geçişi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Para birimi değerleri için desteklenen ondalık basamak sayısını en fazla 10'a artırabilirsiniz. Varsayılan sınır dört ondalık haneye sahiptir. Ondalık basamakların sayısını artırarak, verileri eşitlemek için çift yazma kullandığınızda veri kaybını engelleyebilirsiniz. Ondalık basamak sayısında artış kabul edilerek yapılan bir değişikliktir. Bunu uygulamak için, Microsoft'tan yardım istemeniz gerekir.
 
@@ -29,7 +29,7 @@ Ondalık basamak sayısının değiştirilmesi işleminde iki adım vardır:
 1. Microsoft'tan geçiş talep edin.
 2. Dataverse'ta ondalık basamak sayısını değiştirin.
 
-Finance and Operations uygulaması ve Dataverse'ın para birimi değerlerinde aynı sayıda ondalık basamak desteklemesi gerekir. Aksi takdirde, bu bilgiler uygulamalar arasında eşitlendiğinde veri kaybı ortaya çıkabilir. Geçiş işlemi para birimi ve döviz kuru değerlerinin depolanma biçimini yeniden yapılandırır, ancak hiçbir veriyi değiştirmez. Geçiş tamamlandıktan sonra, para birimi kodları ve fiyatlandırma için ondalık basamak sayısı artırılabilir ve kullanıcıların girdiği ve görüntülediği verilerde daha fazla ondalık duyarlığı olabilir.
+Finans ve Operasyon uygulaması ve Dataverse'ün para birimi değerlerinde aynı sayıda ondalık basamak desteklemesi gerekir. Aksi takdirde, bu bilgiler uygulamalar arasında eşitlendiğinde veri kaybı ortaya çıkabilir. Geçiş işlemi para birimi ve döviz kuru değerlerinin depolanma biçimini yeniden yapılandırır, ancak hiçbir veriyi değiştirmez. Geçiş tamamlandıktan sonra, para birimi kodları ve fiyatlandırma için ondalık basamak sayısı artırılabilir ve kullanıcıların girdiği ve görüntülediği verilerde daha fazla ondalık duyarlığı olabilir.
 
 Geçiş isteğe bağlıdır. Daha fazla ondalık basamak desteğinden avantaj sağlayabilecekseniz, geçiş yapmayı düşünmeniz önerilir. Dörtten fazla ondalık basamak içeren değerlerin gerekli olmadığı kuruluşların geçiş yapması gerekmez.
 
@@ -37,7 +37,7 @@ Geçiş isteğe bağlıdır. Daha fazla ondalık basamak desteğinden avantaj sa
 
 Dataverse'teki mevcut para birimi sütunları için depolama, dörtten fazla ondalık basamak destekleyemez. Bu nedenle, geçiş işlemi sırasında, para birimi değerleri veritabanındaki yeni dahili sütunlara kopyalanır. Bu işlem, tüm veriler geçirilene kadar sürekli olarak gerçekleşir. Dahili olarak, geçişin sonunda yeni depolama türleri eski depolama türlerinin yerini alır, ancak veri değerleri değiştirilmez. Böylece para birimi sütunları en fazla 10 ondalık basamağı destekleyebilir. Geçiş işlemi sırasında Dataverse kesinti olmadan kullanılabilir.
 
-Aynı zamanda, döviz kurları, geçerli 10 limiti yerine 12'ye kadar ondalık basamağı destekleyecek şekilde değiştirilir. Bu değişiklik, ondalık basamak sayısının hem Finance and Operations hem de Dataverse'te aynı olmasını sağlamak için gereklidir.
+Aynı zamanda, döviz kurları, geçerli 10 limiti yerine 12'ye kadar ondalık basamağı destekleyecek şekilde değiştirilir. Bu değişiklik, ondalık basamak sayısının hem Finans ve Operasyon uygulaması hem de Dataverse'te aynı olmasını sağlamak için gereklidir.
 
 Geçiş hiçbir veriyi değiştirmez. Para birimi ve döviz kuru sütunları dönüştürüldükten sonra, yöneticiler her hareket para birimi ve fiyatlandırma için ondalık basamak sayısını belirterek sistemi, para birimi sütunları için en çok 10 ondalık basamak kullanacak şekilde yapılandırabilir.
 

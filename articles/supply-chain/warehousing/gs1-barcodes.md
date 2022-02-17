@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8f438e18356a6c16cc75bb59153ae7353d984a5a
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 702985ef9726690829e35e43d270477be318fc41
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500342"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075226"
 ---
 # <a name="gs1-bar-codes-and-qr-codes"></a>GS1 barkodları ve QR kodları
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- Preview until 10.0.25 GA -->
 
 Ambar çalışanlarının genellikle bir madde, palet veya konteynerin hareketlerini kaydetmek için mobil cihaz tarayıcısı kullanırken birkaç görevi tamamlaması gerekir. Bu görevler, mobil cihazda barkodları taramayı ve bilgileri el ile girmeyi içerebilir. Barkodlarda, Microsoft Dynamics 365 Supply Chain Management ile tanımlayıp yönettiğiniz şirkete özel bir biçim kullanılır.
 

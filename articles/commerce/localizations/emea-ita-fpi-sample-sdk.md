@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: a7b5f4f042aa5457ff33e9762f0902c5c72f5921
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944852"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076924"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>İtalya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 
@@ -126,7 +126,7 @@ Bir mali belge sağlayıcısı olan uzantının amacı, yazıcıya özgü belgel
 
 CRT uzantısı **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample** öğesidir.
 
-Mali tümleştirme çözümünün tasarımı hakkında daha fazla bilgi için bkz. [Mali cihazlar için mali kayıt işlemi ve mali tümleştirme örnekleri](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+Mali tümleştirme çözümünün tasarımı hakkında daha fazla bilgi için bkz. [Mali cihazlar ve hizmetler için mali kayıt işlemi ve mali tümleştirme örnekleri](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>İstek işleyicisi
 

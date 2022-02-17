@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40fc4c06c563415cd5b1a13c145b778276274fd97279dc9f56ff5e3f8954dc76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732021"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067466"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Dataverse sanal tablo sorgularını iyileştirme
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>Çıkış
 
@@ -47,12 +50,12 @@ Human Resources için Dataverse sanal tablo performansının yavaş olmasının 
 Bu etkiyi örneğin Çalışan (**mshr_hcmworkerentity**) veya temel çalışan (**mshr_hcmworkerbaseentity**) varlığı için yapılan sorgularda görebilirsiniz. Performans sorunu bildiriminin kendisini birkaç farklı yolla görebilirsiniz:
 
 - **Yavaş sorgu yürütme**: Sanal tabloya yönelik sorgu beklenen sonuçları döndürebilir ancak sorgu yürütmenin tamamlaması beklenenden uzun sürebilir.
-- **Sorgu zaman aşımı**: Sorgu zaman aşımına uğrayabilir ve şu hatayı döndürebilir: "Finance and Operations'ı çağırmak için bir belirteç alındı ancak Finance and Operations InternalServerError türünde bir hata döndürdü."
+- **Sorgu zaman aşımı**: Sorgu zaman aşımına uğrayabilir ve şu hatayı döndürebilir: "Finans ve Operasyon'ı çağırmak için bir belirteç alındı ancak Finans ve Operasyon InternalServerError türünde bir hata döndürdü."
 - **Beklenmeyen hata**: Sorgu şu iletiyle birlikte 400 hata türünü döndürebilir: "Beklenmeyen bir hata oluştu."
 
   ![HcmWorkerBaseEntity üzerinde 400 hata türü.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Azaltma**: Sorgu sunucu kaynaklarını aşırı kullanabilir ve azaltmaya maruz olabilir. Bu durumda, sorgu şu hatayı döndürür: "Finance and Operations'ı çağırmak için bir belirteç alındı ancak Finance and Operations 429 türünde bir hata döndürdü." Human Resources'ta azaltma konusunda daha fazla bilgi için bkz. [Azaltmayla ilgili SSS](./hr-admin-integration-throttling-faq.md).
+- **Azaltma**: Sorgu sunucu kaynaklarını aşırı kullanabilir ve azaltmaya maruz olabilir. Bu durumda, sorgu şu hatayı döndürür: "Finans ve Operasyon'ı çağırmak için bir belirteç alındı ancak Finans ve Operasyon, 429 türünde bir hata döndürdü." Human Resources'ta azaltma konusunda daha fazla bilgi için bkz. [Azaltmayla ilgili SSS](./hr-admin-integration-throttling-faq.md).
 
   ![HcmWorkerBaseEntity üzerinde 429 hata türü.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -113,7 +116,7 @@ Dataverse sanal bir tablosu için Power BI raporu oluştururken yukarıda sözü
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Power Query Düzenleyicisi için Gelişmiş Düzenleyici'de sorguyu güncelleştirme.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Power Query Düzenleyicisi için Gelişmiş Düzenleyici'de sorguyu güncelleştirin.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. **Tamam**'ı seçin.
 
