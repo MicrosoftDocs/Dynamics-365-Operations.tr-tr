@@ -1,69 +1,68 @@
 ---
-title: İş talebi oluşturma ve açma
-description: İşe alım projeleri, işe alım sürecinizi yönetmenize yardımcı olur.
-author: twheeloc
-ms.date: 10/28/2021
+title: İş talebi geliştir ve yönet
+description: İşe alma projeleri, işe alma işleminin yönetilmesine yardımcı olur.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 3207d61536422255b574fd126f16075fcddc2c93
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731573"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420874"
 ---
-# <a name="create-and-open-job-requisition"></a>İş talebi oluşturma ve açma
+# <a name="develop-and-open-job-requisition"></a>İş talebi geliştir ve yönet
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-İşe alım projeleri, işe alım sürecinizi yönetmenize yardımcı olur. İşe alma projesi oluşturduktan sonra aşağıdaki görevleri yapabilirsiniz:
 
-- Proje için bir iş ilanı yazın.
-- İlanı Employee Self-Service sayfalarında yayınlayın.
-- İş başvurularını proje ile ilişkilendirin.
-- Bu projenin etkinliklerini izleyin. 
+İşe alma projeleri, işe alma işleminin yönetilmesine yardımcı olur. Her işe alma projesi için işe alınacak iş, işe alanın adı, projenin durumu ve işin bulunduğu departman gibi bilgileri ayarlayabilirsiniz. İşe alma projesini oluşturduktan sonra proje için bir iş ilanını yazabilir, ilanı Çalışan self-servis sayfalarında yayımlayabilir, başvuruları projeyle ilişkilendirebilir ve bu projeyle ilgili etkinlikleri izleyebilirsiniz. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Yordamı başlatmak için İnsan kaynakları > İşe alma > İşe alma projeleri > İşe alma projeleri'ne gidin.
 
-1. **İnsan kaynakları > İşe alım > İşe alım projeleri > İşe alım projeleri**'ne gidin.
-2. **Yeni**'yi seçin.
-3. **İşe alma projesi** alanına bir değer girin.
-4. **Açıklama** alanında bir değer girin.
-5. **İşe alan** alanında, aramayı açmak için açılır menü düğmesini seçin.
-6. Listede, kaydınızı bulup seçin.
-7. Listeden, seçilen satırdaki bağlantıyı seçin.
-8. **Seç**'i seçin.
-9. **Departman** alanında, aramayı açmak için açılır menü düğmesini seçin.
-10. Listeden, seçilen satırdaki bağlantıyı seçin.
-11. **İş** alanında, aramayı açmak için açılır menü düğmesini seçin.
-12. Listede, kaydınızı bulup seçin.
-13. Listeden, seçilen satırdaki bağlantıyı seçin.
-14. **Açık pozisyonlar sayısı alanına** bir rakam girin.
-15. **İşe alım yöneticisi** alanında, aramayı açmak için açılır menü düğmesini seçin.
-16. Listede, kaydınızı bulup seçin.
-17. Listeden, seçilen satırdaki bağlantıyı seçin.
-18. **Seç**'i seçin.
-19. **Uygulama son tarihi** alanına bir tarih girin.
-20. **Medya**'yı seçin. İşe alma projeleri, açık pozisyonları tanıtmak için kullanılacak medya birimlerini belirleme seçeneği içerir.  
-21. **Yeni**'yi seçin.
-22. **Medya** alanında, aramayı açmak için açılır menü düğmesini seçin.
-23. Listeden, seçilen satırdaki bağlantıyı seçin.
-24. **Başlangıç tarihi** alanına bir tarih girin.
-25. **Bitiş tarihi** alanına bir tarih girin.
-26. **Kaydet**'i seçin.
-27. Sayfayı kapatın.
-28. **İş ilanları**'nı seçin.
-29. **Kaydet**'i seçin.
-30. Sayfayı kapatın.
-31. **Çalışan self serviste görüntüle** onay kutusunu işaretleyin veya işaretini kaldırın. **Çalışan self serviste görüntüle** onay kutusunu seçin. Bu seçim, işe alım projesini **Çalışan self servis** sayfalarında çalışanlara görünür hale getirir.
-32. **İşe alma projesi durumu**'nu seçin.
-33. **Başlat**'ı seçin. **Başlatıldı** durumu, projenin başvuruları almaya hazır olduğu anlamına gelir.  
-34. **Tamam**'ı seçin.
+1. Yeni'ye tıklayın.
+2. İşe alma projesi alanına bir değer girin.
+3. Açıklama alanına bir değer girin.
+4. İşe alan alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+5. Listede, istenen kaydı bulun ve seçin.
+6. Listede, seçili satırdaki bağlantıya tıklayın.
+7. Seç'e tıklayın.
+8. Departman alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+9. Listede, seçili satırdaki bağlantıya tıklayın.
+10. İş alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+11. Listede, istenen kaydı bulun ve seçin.
+12. Listede, seçili satırdaki bağlantıya tıklayın.
+13. Açık konum sayısı alanına bir sayı girin.
+14. İşe alma müdürü alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+15. Listede, istenen kaydı bulun ve seçin.
+16. Listede, seçili satırdaki bağlantıya tıklayın.
+17. Seç'e tıklayın.
+18. Başvuru bitiş tarihi alanına bir tarih girin.
+19. Ortam'a tıklayın.
+    * İşe alma projeleri, açık pozisyonları tanıtmak için kullanılacak medya birimlerini belirleme seçeneği içerir.  
+20. Yeni'ye tıklayın.
+21. Ortam alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+22. Listede, seçili satırdaki bağlantıya tıklayın.
+23. Başlangıç tarihi alanına bir tarih girin.
+24. Bitiş tarihi alanına bir tarih girin.
+25. Kaydet'e tıklayın.
+26. Sayfayı kapatın.
+27. İşi ilanları'na tıklayın.
+28. Kaydet'e tıklayın.
+29. Sayfayı kapatın.
+30. Çalışan self servis sayfasında görüntüle onay kutusunu işaretleyin veya işaretini kaldırın.
+    * İşe alma projesinin çalışanlar tarafından Çalışan self servis sayfalarında görüntülenmesini sağlamak için Çalışan self serviste görüntüle onay kutusunu işaretleyin.  
+31. İşe alma projesi durumu'na tıklayın.
+32. Başlat'a tıklayın.
+    * Başlatıldı durumu, projenin başvuru almaya hazır olduğunu gösterir.  
+33. Tamam'a tıklayın.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

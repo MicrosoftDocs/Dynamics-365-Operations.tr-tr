@@ -54,6 +54,3 @@ Finance and Operations için Platform Güncelleştirmesi 18 şimdi Talent sürü
 ## <a name="bug-fixes"></a>Hata düzeltmeleri
 
 Bu sürüm çeşitli ek sorun giderme içermektedir, ACA, ADA ve I9'a referanslar şimdi yalnızca ABD şirketlerinde etkin olacaktır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

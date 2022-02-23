@@ -1,32 +1,33 @@
 ---
 title: Dynamics 365 Human Resources'deki yenilikler veya değişiklikler (13 Nisan 2020)
 description: Bu makalede, 13 Nisan 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: andreabichsel
-ms.date: 04/13/2020
+author: Darinkramer
+manager: AnnBe
+ms.date: 4/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b5af74329fa741a443932a1007a6c2ef6abd3445
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062223"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528533"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Dynamics 365 Human Resources'deki yenilikler veya değişiklikler (13 Nisan 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3136 uygulanır. Bazı başlıklardaki parantez içindeki numaralar referans için LCS destek numaralarına referans verir.
 
@@ -42,9 +43,9 @@ Bu değişiklikle, **Yuvarlama hassasiyeti** alanı şimdi **Yuvarlama türü** 
 
 Artık kayıt bitiş tarihini, "Alan tahakkuk tarihi esası doldurulmalıdır" hatasını almadan düzenleyebilirsiniz.
 
-## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>İstihdam varlığı Dataverse ile eşitlenmiyor (430834)
+## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>İstihdam varlığı Common Data Service ile eşitlenmiyor (430834)
 
-Bu değişiklik, mali boyutlar eklendikten sonra istihdam verilerinin Dataverse eşitlenmemesine yol açan bir sorunu düzeltir. 
+Bu değişiklik, mali boyutlar eklendikten sonra istihdam verilerinin Common Data Service eşitlenmemesine yol açan bir sorunu düzeltir. 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>İş Takvimi Zaman Aralığı varlığı için birden çok üst düzeyi kaldır (431775)
 
@@ -93,8 +94,6 @@ SharePoint'te depolanan belgelere ait belge önizlemesi çalışmazsa, aşağıd
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

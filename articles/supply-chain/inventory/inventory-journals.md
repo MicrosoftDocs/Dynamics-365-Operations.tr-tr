@@ -1,26 +1,29 @@
 ---
 title: Stok günlükleri
 description: Bu konuda, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9370e495bf16ed638646843faaf0ff599fe1abc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2d184b34ec33184d730d5b6eed3db144f1433f1d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573981"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439057"
 ---
 # <a name="inventory-journals"></a>Stok günlükleri
 
@@ -52,7 +55,7 @@ Bir stok ayarlama günlüğü kullandığınızda, stok eklediğinizde, bir öğ
 
 ### <a name="transfer"></a>Transfer et
 
-Transfer günlükleri, herhangi bir maliyet etkileri ilişkilendirme olmadan öğeleri stoklama konumları, toplu işlem veya ürün çeşitleri arasında aktarmak için kullanabilirsiniz. Örneğin, aynı şirket içinde bir ambardan başka bir ambardan öğeleri aktarabilirsiniz. Bir transfer günlüğü kullandığınızda, "kaynak" ve "hedef" stok boyutlarının (örneğin, tesis ve ambar) her ikisini de belirtmelisiniz. Tanımlanan stok boyutları için eldeki stok uygun şekilde değiştirilir. Stok aktarımları, malzemenin hemen hareketlerini yansıtır. Transit stok izlenmez. Transit stok izlenmek zorundaysa, transfer emri kullanmalısınız. Transfer günlüğünü deftere naklettiğinizde, her yevmiye defteri satırı için iki stok hareketi oluşturulur:
+Transfer günlükleri, herhangi bir maliyet etkileri ilişkilendirme olmadan öğeleri stoklama konumları, toplu işlem veya ürün çeşitleri arasında aktarmak için kullanabilirsiniz. Örneğin, aynı şirket içinde bir ambardan başka bir ambardan öğeleri aktarabilirsiniz. Bir transfer günlüğü kullandığınızda, "kaynak" ve "hedef" stok boyutlarının (örneğin, tesis ve ambar) her ikisini de belirtmelisiniz. Tanımlanan stok boyutları için eldeki stok uygun şekilde değiştirilir. Stok aktarımları, malzemenin hemen hareketlerini yansıtır. Transit stok izlenmez. Transit stok izlenmek zorundaysa, transfer emri kullanmalısınız. Transfer günlüğünü deftere naklettiğinizde, her günlük satırı için iki stok hareketi oluşturulur:
 
 -   "Kaynak" konumundaki bir stok çıkışı.
 -   "Hedef" konumundaki bir stok girişi.
@@ -84,10 +87,10 @@ Etiket sayım günlükleri, numaralı bir etiketi lot sayımına atamak için ku
 Bir etiket sayımı günlüğü naklederken, etiket sayım günlüğü satırlarına dayanan yeni bir sayım günlüğü oluşturulur. Etiket sayımı hakkında daha fazla bilgi için bkz. [Stok etiketi sayımı](inventory-tag-counting.md).
 
 ## <a name="working-with-journals"></a>Günlüklerle çalışma.
-Günlüğe bir defada yalnızca bir kullanıcı tarafından erişebilir. Yevmiye defteri satırlarını oluşturmak için aynı anda birkaç kullanıcının günlüklere erişmesi gerekiyorsa, bilgi üzerine yazılmasını önlemek için bu kullanıcılar şu anda kullanılmayan günlükleri seçmesi gerekir. Birden fazla departmanın aynı günlük türünü kullandığı durumlarda, çok sayıda günlük adı oluşturmak (örneğin her departman için bir tane) yararlıdır. Her nakil yordamının kendi benzersiz stok günlüğüne girilmesi için günlükleri bölmek de yardımcı olabilir. Stok hareketleriyle ilişkili nakil yordamları için, periyodik stok düzeltmeleri için bir günlük, stok sayımı için de başka bir günlük oluşturun.
+Günlüğe bir defada yalnızca bir kullanıcı tarafından erişebilir. Günlük satırlarını oluşturmak için aynı anda birkaç kullanıcının günlüklere erişmesi gerekiyorsa, bilgi üzerine yazılmasını önlemek için bu kullanıcılar şu anda kullanılmayan günlükleri seçmesi gerekir. Birden fazla departmanın aynı günlük türünü kullandığı durumlarda, çok sayıda günlük adı oluşturmak (örneğin her departman için bir tane) yararlıdır. Her nakil yordamının kendi benzersiz stok günlüğüne girilmesi için günlükleri bölmek de yardımcı olabilir. Stok hareketleriyle ilişkili nakil yordamları için, periyodik stok düzeltmeleri için bir günlük, stok sayımı için de başka bir günlük oluşturun.
 
-## <a name="posting-journal-lines"></a>Yevmiye defteri satırlarını deftere nakletmek
-Oluşturduğunuz yevmiye defteri satırlarını istediğiniz zaman, bir öğe için ek hareketleri kilitleyene kadar deftere nakledebilirsiniz. Günlüğe girdiğiniz veriler günlükte, yevmiye defteri satırları deftere nakletmeden kapatırsanız bile kalır.
+## <a name="posting-journal-lines"></a>Günlük satırlarını deftere nakletmek
+Oluşturduğunuz günlük satırlarını istediğiniz zaman, bir öğe için ek hareketleri kilitleyene kadar deftere nakledebilirsiniz. Günlüğe girdiğiniz veriler günlükte, günlük satırları deftere nakletmeden kapatırsanız bile kalır.
 
 ## <a name="data-entity-support-for-inventory-journals"></a>Stok günlükleri için varlık veri desteği
 
@@ -95,7 +98,7 @@ Veri varlıkları aşağıdaki türde tümleştirme senaryolarını destekler:
 -    Zaman uyumlu hizmet (OData)
 -  Zaman uyumsuz tümleştirme
 
-Daha fazla bilgi için bkz. [Veri varlıkları](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
+Daha fazla bilgi için bkz. [Veri varlıkları](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
 > Tüm stok günlükleri OData özellikli değildir; bu nedenle verilerin yayımlanması, güncelleştirilmesi ve yeniden Supply Chain Management'a aktarılması için Excel veri bağlayıcısını kullanamazsınız. 
@@ -109,11 +112,8 @@ Bu iki stok günlüğü yalnızca *Stok başlatma* senaryosunu, veri yönetimi i
     -  Başlık 1: 1000 satır içerir
     -  Başlık 2: 1000 satır içerir
     -  Başlık 3: 20 satır içerir
--  Benzersiz satır bilgisinin bir ürün, depolama veya izleme boyutu olabilen stok boyutu başına var olduğu varsayılır. Bu nedenle, aynı içe aktarma projesindeki satırlarda yalnızca tarih alanının farklı olduğu yevmiye defteri satırlarını içe aktarmak mümkün değildir.
+-  Benzersiz satır bilgisinin bir ürün, depolama veya izleme boyutu olabilen stok boyutu başına var olduğu varsayılır. Bu nedenle, aynı içe aktarma projesindeki satırlarda yalnızca tarih alanının farklı olduğu günlük satırlarını içe aktarmak mümkün değildir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Veri varlıkları](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Veri varlıkları](../../dev-itpro/data-entities/data-entities.md)

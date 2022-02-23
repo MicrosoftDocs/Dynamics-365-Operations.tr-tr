@@ -2,22 +2,25 @@
 title: Mühendislik değişikliği yönetimi özelliği kılavuzu
 description: Bu konu, mühendislik değişikliği yönetimiyle nasıl çalışılacağını gösteren uçtan uca bir kılavuz sağlar.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: b6270bbb6780786ed4535ca2987ed44448bd81ad
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574005"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4439758"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Mühendislik değişikliği yönetimi özelliği kılavuzu
 
@@ -57,7 +60,7 @@ Mühendislik verilerinin sahibi bir mühendislik kuruluşu, ürün tasarımı ve
     - **Mühendislik kuruluşu:** *DEMF*
     - **Kuruluş adı:** *Contoso Entertainment System Germany*
 
-    ![Mühendislik kuruluşu ekleme.](media/engineering-org.png "Mühendislik kuruluşu ekleme")
+    ![Mühendislik kuruluşu ekleme](media/engineering-org.png "Mühendislik kuruluşu ekleme")
 
 ### <a name="set-up-the-version-product-dimension-group"></a>Sürüm ürün boyutu grubunu ayarlama
 
@@ -67,7 +70,7 @@ Mühendislik verilerinin sahibi bir mühendislik kuruluşu, ürün tasarımı ve
 1. Yeni boyutu kaydetmek ve değerleri **Ürün boyutları** hızlı sekmesine yüklemek için **Kaydet** seçin.
 1. **Ürün boyutları** hızlı sekmesinde, etkin ürün boyutu olarak **Sürüm**'ü ayarlayın.
 
-    ![Ürün boyut grubu ekleme.](media/product-dimension-groups.png "Ürünu boyut grubu ekleme")
+    ![Ürünu boyut grubu ekleme](media/product-dimension-groups.png "Ürünu boyut grubu ekleme")
 
 ### <a name="set-up-product-lifecycle-states"></a>Ürün yaşam döngüsü durumlarını ayarlama
 
@@ -82,7 +85,7 @@ Bir mühendislik ürünü yaşam döngüsü boyunca ilerlerken her yaşam döng�
 1. Yeni yaşam döngüsü durumunu kaydetmek ve değerleri **Etkin iş süreçleri** hızlı sekmesine yüklemek için **Kaydet** seçin.
 1. **Etkin iş süreçleri** hızlı sekmesinde, kullanılabilir olması gereken iş süreçlerini seçin. Bu örnekte, tüm iş süreçleri için **İlke** alanını *Etkin* olarak bırakın.
 
-    ![Yaşam döngüsü durumu için iş süreçlerini etkinleştirme.](media/product-lifecycle-states-1.png "Yaşam döngüsü durumu için iş süreçlerini etkinleştirme")
+    ![Yaşam döngüsü durumu için iş süreçlerini etkinleştirme](media/product-lifecycle-states-1.png "Yaşam döngüsü durumu için iş süreçlerini etkinleştirme")
 
 1. Başka bir yaşam döngüsü durumu eklemek için **Yeni**'yi seçin ve aşağıdaki değerleri ayarlayın:
 
@@ -92,7 +95,7 @@ Bir mühendislik ürünü yaşam döngüsü boyunca ilerlerken her yaşam döng�
 1. Yeni yaşam döngüsü durumunu kaydetmek ve değerleri **Etkin iş süreçleri** hızlı sekmesine yüklemek için **Kaydet** seçin.
 1. **Etkin iş süreçleri** hızlı sekmesinde, kullanılabilir olması gereken iş süreçlerini seçin. Bu örnekte, tüm iş süreçleri için **İlke** alanını *Uyarıyla etkin* olarak bırakın.
 
-    ![Yaşam döngüsü durumu için iş süreçlerini etkinleştirme (uyarılarla).](media/product-lifecycle-states-2.png "Yaşam döngüsü durumu için iş süreçlerini etkinleştirme (uyarılarla)")
+    ![Yaşam döngüsü durumu için iş süreçlerini etkinleştirme (uyarılarla)](media/product-lifecycle-states-2.png "Yaşam döngüsü durumu için iş süreçlerini etkinleştirme (uyarılarla)")
 
 ### <a name="set-up-a-version-number-rule"></a>Sürüm numarası kuralı ayarlama
 
@@ -103,7 +106,7 @@ Bir mühendislik ürünü yaşam döngüsü boyunca ilerlerken her yaşam döng�
     - **Sayı kuralı:** *Otomatik*
     - **Biçim:** *V-\#\#*
 
-    ![Ürün sürüm numarası kuralı ekleme.](media/version-number-rule.png "Ürün sürüm numarası kuralı ekleme")
+    ![Ürün sürüm numarası kuralı ekleme](media/version-number-rule.png "Ürün sürüm numarası kuralı ekleme")
 
 ### <a name="set-up-a-product-release-policy"></a>Ürün serbest bırakma ilkesi ayarlama
 
@@ -135,7 +138,7 @@ Bir mühendislik ürünü yaşam döngüsü boyunca ilerlerken her yaşam döng�
     - **Rota onayını kopyala:** Bu onay kutusunu seçin.
     - **Rota etkinleştirmesini kopyala:** Bu onay kutusunu seçin.
 
-    ![Ürün serbest bırakma ilkesi ekleme.](media/product-release-policy.png "Ürün serbest bırakma ilkesi ekleme")
+    ![Ürün serbest bırakma ilkesi ekleme](media/product-release-policy.png "Ürün serbest bırakma ilkesi ekleme")
 
 ### <a name="set-up-an-engineering-product-category"></a>Mühendislik ürünü kategorisi ayarlama 
 
@@ -160,7 +163,7 @@ Mühendislik ürünü kategorileri mühendislik ürünleri (diğer bir şekilde,
 1. **Serbest bırakma ilkesi** hızlı sekmesinde, **Ürün serbest bırakma ilkesi** alanını *Bileşenler* olarak ayarlayın.
 1. **Kaydet**'i seçin.
 
-    ![Mühendislik ürün kategorisi ayarlama.](media/product-category-details.png "Mühendislik ürün kategorisi ayarlama")
+    ![Mühendislik ürün kategorisi ayarlama](media/product-category-details.png "Mühendislik ürün kategorisi ayarlama")
 
 ### <a name="set-up-product-acceptance-conditions"></a>Ürün kabul koşullarını ayarlama
 
@@ -168,7 +171,7 @@ Mühendislik ürünü kategorileri mühendislik ürünleri (diğer bir şekilde,
 1. **Mühendislik değişikliği yönetimi &gt; Kurulum &gt; Mühendislik değişikliği yönetimi parametreleri**'ne gidin.
 1. **Serbest bırakma denetimi** sekmesinde, **Ürün kabulü** bölümünde, **Ürün kabulü** alanını *El ile* olarak ayarlayın.
 
-    ![Ürün kabulü koşullarını ayarlama.](media/engineering-change-management-parameters.png "Ürün kabulü koşullarını ayarlama")
+    ![Ürün kabulü koşullarını ayarlama](media/engineering-change-management-parameters.png "Ürün kabulü koşullarını ayarlama")
 
 ## <a name="create-a-new-engineering-product"></a>Yeni bir mühendislik ürünü oluşturma
 
@@ -187,23 +190,23 @@ Mühendislik ürünü, mühendislik değişikliği yönetimi yoluyla sürümü o
     - **Ürün numarası:** *Z0001*
     - **Ürün adı:** *Hoparlör seti*
 
-    ![Mühendislik ürünü ekleme.](media/new-product-dialog.png "Mühendislik ürünü ekleme")
+    ![Mühendislik ürünü ekleme](media/new-product-dialog.png "Mühendislik ürünü ekleme")
 
     **Sürüm** alanının, daha önce ayarladığınız ürün sürüm numarası kuralını kullanarak otomatik olarak ayarladığını unutmayın.
 
 1. Ürün oluşturmak ve iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 1. Yeni ürünün ayrıntılar sayfası açılır. **Depolama boyut grubu**, **İzleme boyutu grubu** ve/veya **Madde modeli grubu** gibi bazı alanlar için değerlerin zaten doldurulduğuna dikkat edin. Ürün *DEMF* tüzel kişiliğine serbest bırakıldığı ve *Bileşenler* mühendislik ürün kategorisiyle ilişkili *Bileşenler* ürün serbest bırakma ilkesini kullandığından, bu alanlar otomatik olarak ayarlanır. Daha önce *DEMF* tüzel kişiliği için bir satır ayarlamak üzere şablon olarak *D0006* maddesini kullandığınız için doldurulan değerler *D0006* maddesinden alınmıştır.
 
-    ![Serbest bırakılan ürün ayrıntıları.](media/product-details.png "Serbest bırakılan ürün ayrıntıları")
+    ![Serbest bırakılan ürün ayrıntıları](media/product-details.png "Serbest bırakılan ürün ayrıntıları")
 
 1. Eylem Bölmesi'nde, **Mühendis** sekmesinde, **Mühendislik değişikliği yönetimi** grubunda, **Mühendislik sürümleri**'ni seçerek ürünün sürümlerini görüntüleyin.
 
-    ![Mühendislik sürümleri.](media/engineering-versions-list.png "Mühendislik sürümleri")
+    ![Mühendislik sürümleri](media/engineering-versions-list.png "Mühendislik sürümleri")
 
 1. **Mühendislik sürümleri** sayfasında, ürün için yalnızca bir sürüm olduğunu ve etkin olduğunu unutmayın.
 1. Ayrıntılarını görüntülemek için sürümü seçin.
 
-    ![Mühendislik sürümü ayrıntıları.](media/engineering-version-details.png "Mühendislik sürümü ayrıntıları")
+    ![Mühendislik sürümü ayrıntıları](media/engineering-version-details.png "Mühendislik sürümü ayrıntıları")
 
 1. **Mühendislik sürümü** sayfasında, **Ürün reçetesi** hızlı sekmesinde **Ürün reçetesi oluştur**'u seçin.
 1. **Ürün reçetesi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
@@ -212,25 +215,25 @@ Mühendislik ürünü, mühendislik değişikliği yönetimi yoluyla sürümü o
     - **Ad:** Hoparlör seti
     - **Tesis:** 1
 
-    ![BOM oluşturma.](media/create-bom.png "BOM oluşturma")
+    ![BOM oluşturma](media/create-bom.png "BOM oluşturma")
 
 1. Ürün reçetesi eklemek için **Tamam**'ı seçin ve iletişim kutusunu kapatın.
 1. **Ürün reçetesi** hızlı sekmesinde **Ürün reçetesi**'ni seçin.
 1. **Ürün reçetesi** sayfasında, **Ürün reçetesi satırları** hızlı sekmesinde, üç satır ekleyin; *D0001*, *D0003* ve *D0006* maddeleri için birer tane olmalıdır.
 
-    ![Ürün reçetesi satırları ekleme.](media/bom.png "Ürün reçetesi satırları ekleme")
+    ![Ürün reçetesi satırları ekleme](media/bom.png "Ürün reçetesi satırları ekleme")
 
 1. **Kaydet**'i seçin.
 1. Sayfayı kapatın.
 1. **Mühendislik sürümü** sayfasında, **Ürün reçetesi** hızlı sekmesinde **Onayla**'yı seçin.
 1. Görünen iletişim kutusunda **Tamam**'ı seçin.
 
-    ![Ürün reçetesini onaylama.](media/approve-dialog.png "Ürün reçetesini onaylama")
+    ![Ürün reçetesini onaylama](media/approve-dialog.png "Ürün reçetesini onaylama")
 
 1. **Mühendislik sürümü** sayfasında, **Ürün reçetesi** hızlı sekmesinde **Etkinleştir**'i seçin.
 1. **Etkin** ve **Onaylandı** onay kutularının ürün reçetesi için seçili olduğuna dikkat edin.
 
-    ![Etkin ve onaylanan ürün reçetesi.](media/approved-bom.png "Etkin ve onaylanan ürün reçetesi")
+    ![Etkin ve onaylanan ürün reçetesi](media/approved-bom.png "Etkin ve onaylanan ürün reçetesi")
 
 1. Sayfayı kapatın.
 
@@ -244,25 +247,25 @@ Mühendislik ürünü, mühendislik değişikliği yönetimi yoluyla sürümü o
 1. Eylem bölmesinde, **Ürün** sekmesinde, **Bakım** grubunda, **Ürün yapısını serbest bırak**'ı seçerek **Ürünleri serbest bırak** sihirbazını açın.
 1. **Serbest bırakılacak mühendislik ürünlerini seç** sayfasında, *Z0001* ürünü için **Seç** onay kutusunu işaretleyin.
 
-    ![Serbest bırakılacak mühendislik ürünlerini seçme.](media/select-eng-product-to-release.png "Serbest bırakılacak mühendislik ürünlerini seçme")
+    ![Serbest bırakılacak mühendislik ürünlerini seçme](media/select-eng-product-to-release.png "Serbest bırakılacak mühendislik ürünlerini seçme")
 
 1. **Serbest bırakma ayrıntıları**'nı seçin.
 1. Serbest bırakılacak ürünün ayrıntılarını ve ürün yapısını inceleyebileceğiniz **Ürün serbest bırakma ayrıntıları** sayfası görüntülenir. **Ürün reçetesi gönder** seçeneğinin *Evet* olarak ayarlanmış olduğuna dikkat edin. Bu nedenle, hem *Z0001* ürünü ve ürün reçetesindeki tüm alt öğeleri serbest bırakılacaktır.
 
     Ayrıntıları gözden geçirmek için sol bölmedeki herhangi bir alt öğeyi seçebilirsiniz. Herhangi bir alt öğenin ürün reçetesi varsa o alt öğenin ürün reçetesini serbest bırakmayı da seçebilirsiniz.
 
-    ![Ürün serbest bırakma ayrıntılarını gözden geçirme.](media/product-release-details.png "Ürün serbest bırakma ayrıntılarını gözden geçirme")
+    ![Ürün serbest bırakma ayrıntılarını gözden geçirme](media/product-release-details.png "Ürün serbest bırakma ayrıntılarını gözden geçirme")
 
 1. **Ürünleri serbest bırak** sihirbazına dönmek için sayfayı kapatın.
 1. **Serbest bırakılacak ürünleri seçin** sayfasını açmak için **İleri**'yi seçin. Herhangi bir standart (mühendislik dışı) ürün seçmiş olsaydınız, bunlar bu sayfada görünürdü. **Ürün yapısını serbest bırak**'ı seçerek standart bir ürün serbest bıraktığınızda, ürünün ürün reçetesi ve rotasının da serbest bırakılacağını unutmayın.
 
-    ![Serbest bırakılacak standart ürünleri seçme.](media/select-std-product-to-release.png "Serbest bırakılacak standart ürünlerini seçme")
+    ![Serbest bırakılacak standart ürünlerini seçme](media/select-std-product-to-release.png "Serbest bırakılacak standart ürünlerini seçme")
 
 1. **Serbest bırakılacak ürün varyantlarını seçin** sayfasını açmak için **İleri**'yi seçin. Bu örnekte, herhangi bir varyant yoktur.
 1. **Şirketleri seçin** sayfasını açmak için **ileri**'yi seçin.
 1. Ürünün serbest bırakılacağı şirketleri seçin. Bu örnekte, **USMF** için onay kutusunu seçin.
 
-    ![Serbest bırakılacak şirketleri seçme.](media/select-release-companies.png "Serbest bırakılacak şirketleri seçme")
+    ![Serbest bırakılacak şirketleri seçme](media/select-release-companies.png "Serbest bırakılacak şirketleri seçme")
 
 1. **Seçimi onaylayın** sayfasını açmak için **ileri**'yi seçin.
 1. **Bitir**'i seçin.
@@ -280,7 +283,7 @@ Mühendislik departmanı artık ürünün kullanılacağı yerel şirketlere bil
 
     **Açık ürün serbest bırakmaları** sayfası, *Kabul edilmeyi bekliyor* durumundaki *Z0001* ürününü gösterir.
 
-    ![Ürün serbest bırakma işlemlerini açma.](media/open-product-releases.png "Ürün serbest bırakma işlemlerini aç")
+    ![Ürün serbest bırakma işlemlerini aç](media/open-product-releases.png "Ürün serbest bırakma işlemlerini aç")
 
 1. **Ürün serbest bırakma ayrıntıları** sayfasını açmak için **Ürün numarası** sütunundaki değeri seçin. Aşağıdaki ayrıntılara dikkat edin:
 
@@ -288,7 +291,7 @@ Mühendislik departmanı artık ürünün kullanılacağı yerel şirketlere bil
     - **Serbest bırakma ayrıntıları** hızlı sekmesi, ürün ve serbest bırakılan sürümü hakkında bilgi gösterir. Burada, geçerlilik tarihi gibi ayarları değiştirebilirsiniz.
     - **Rota** hızlı sekmesi, ürünün rotasını gösterir. Ancak, bu örnekte, herhangi bir rota serbest bırakmadınız.
 
-    ![Ürün serbest bırakma ayrıntıları.](media/product-release-details-2.png "Ürün serbest bırakma ayrıntıları")
+    ![Ürün serbest bırakma ayrıntıları](media/product-release-details-2.png "Ürün serbest bırakma ayrıntıları")
 
 1. Bilgileri gözden geçirmeyi tamamladığınızda, ürünü kabul etmeye ve bu şekilde *USMF* şirketine serbest bırakmaya hazır olursunuz. Eylem Bölmesinde, **Eylemler &gt; Kabul Et**'i seçin.
 1. Ürün artık *USMF* şirketine serbest bırakılır. **Ürün bilgi yönetimi &gt; Ürünler &gt; Serbest bırakılmış ürünler**'e gidin. *Z0001* maddesini görürsünüz.
@@ -304,7 +307,7 @@ Mühendislik departmanı artık ürünün kullanılacağı yerel şirketlere bil
 1. Eylem Bölmesi'nde, **Ürün** sekmesindeki **Yaşam döngüsü durumu** gurubunda **Yaşam döngüsü durumunu değiştir**'i seçin.
 1. **Yaşam döngüsü durumunu değiştir** açılır iletişim kutusunda, **Durum** alanını *Prototip* olarak ayarlayın ve ardından **Tamam**'ı seçin.
 
-    ![Yaşam döngüsü durumunu değiştirme.](media/change-lifecycle-state.png "Yaşam döngüsü durumunu değiştirme")
+    ![Yaşam döngüsü durumunu değiştirme](media/change-lifecycle-state.png "Yaşam döngüsü durumunu değiştirme")
 
 ## <a name="add-the-engineering-product-to-a-sales-order"></a>Bir mühendislik ürününü satış siparişine ekleme
 
@@ -318,7 +321,7 @@ Mühendislik departmanı artık ürünün kullanılacağı yerel şirketlere bil
 
     Maddenin *Prototip* durumunda olduğunu bildiren bir uyarı iletisi alırsınız. Ancak, ileti sadece bir uyarı olduğundan, satış siparişi yine de oluşturulmuştur.
 
-    ![Bir mühendislik ürünü için satış siparişi.](media/sales-order-eng-product.png "Bir mühendislik ürünü için satış siparişi")
+    ![Bir mühendislik ürünü için satış siparişi](media/sales-order-eng-product.png "Bir mühendislik ürünü için satış siparişi")
 
 ## <a name="request-changes-in-the-engineering-product"></a>Mühendislik ürününde değişiklik isteği
 
@@ -328,7 +331,7 @@ Mühendislik departmanı artık ürünün kullanılacağı yerel şirketlere bil
 1. Önceki alıştırmada oluşturduğunuz satış siparişini bulup açın.
 1. **Satış siparişi satırları** hızlı sekmesinde, **Mühendislik değişikliği yönetimi &gt; Yeni mühendislik değişikliği isteği**'ni seçin.
 
-    ![Satış siparişinden mühendislik değişikliği isteği oluşturma.](media/sales-order-eng-change-request.png "Satış siparişinden mühendislik değişikliği isteği oluşturma")
+    ![Satış siparişinden mühendislik değişikliği isteği oluşturma](media/sales-order-eng-change-request.png "Satış siparişinden mühendislik değişikliği isteği oluşturma")
 
 1. Müşterinin geri bildirimine göre mühendislik değişikliği isteğini doldurun. Bu örnekte, aşağıdaki değerleri ayarlayın:
 
@@ -341,7 +344,7 @@ Mühendislik departmanı artık ürünün kullanılacağı yerel şirketlere bil
 1. **Bilgi** hızlı sekmesinde, kılavuza not eklemek için **Yeni &gt; Not**'u seçin.
 1. Yeni notun **Açıklama** alanında, *D0003* maddesinin ürün reçetesinden silinmesi gerektiğini belirtin. Nota daha fazla bilgi eklemeniz gerekiyorsa **Notlar** alanına metin girebilirsiniz.
 
-    ![Mühendislik değişiklik isteği.](media/eng-change-request.png "Mühendislik değişiklik isteği")
+    ![Mühendislik değişiklik isteği](media/eng-change-request.png "Mühendislik değişiklik isteği")
 
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. Maddenin **Ürünler** hızlı sekmesine otomatik olarak eklendiğine ve mühendislik değişikliği isteğinin kaynağının (satış siparişi) **Kaynak** hızlı sekmesine eklendiğine dikkat edin.
@@ -370,31 +373,32 @@ Mühendis şimdi müşteriden gelen isteği gözden geçirir ve ürün için bir
     - **Ürün:** *Z0001*
     - **Etki:** *Yeni sürüm*
 
-    ![Mühendislik değişiklik emri oluşturma.](media/eng-change-order.png "Mühendislik değişikliği emri oluşturma")
+    ![Mühendislik değişikliği emri oluşturma](media/eng-change-order.png "Mühendislik değişikliği emri oluşturma")
 
 1. **Etki** alanını *Yeni sürüm* olarak ayarladığınızda, **Ürün ayrıntıları** hızlı sekmesinin **Ayrıntılar** sekmesindeki **Yeni sürüm** alanı yeni sürüm numarasının ne olacağını gösterir (bu örnekte *V-02*).
 
-    ![Mühendislik değişikliği emri için ürün ayrıntıları.](media/eng-change-order-product-details.png "Mühendislik değişikliği emri için ürün ayrıntıları")
+    ![Mühendislik değişikliği emri için ürün ayrıntıları](media/eng-change-order-product-details.png "Mühendislik değişikliği emri için ürün ayrıntıları")
 
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Ürün ayrıntıları** hızlı sekmesinde, *Z0001* ürününün *V-01* sürümünün ürün reçetesini açmak için **Ürün reçetesi** sekmesinde **Satırlar**'ı seçin.
 
-    ![Mühendislik ürünü ürün reçetesi satırları.](media/eng-product-bom-lines.png "Mühendislik ürünü ürün reçetesi satırları")
+    ![Mühendislik ürünü ürün reçetesi satırları](media/eng-product-bom-lines.png "Mühendislik ürünü ürün reçetesi satırları")
 
 1. *D0003* madde numarası için satırı seçin ve ardından Eylem Bölmesinde **Sil**'i seçin. Bu satırın **Değişiklik türü** alanının değeri *Silindi* olarak değişir.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 
-    ![Değiştirilen mühendislik ürünü ürün reçetesi satırları.](media/eng-product-bom-lines-modified.png "Değiştirilen mühendislik ürünü ürün reçetesi satıraları")
+    ![Değiştirilen mühendislik ürünü ürün reçetesi satıraları](media/eng-product-bom-lines-modified.png "Değiştirilen mühendislik ürünü ürün reçetesi satıraları")
 
 1. **Mühendislik değişikliği emri** sayfasına dönmek için **Ürün reçetesi satırı** sayfasını kapatın.
 1. **Ürün ayrıntıları** hızlı sekmesinde, **Ürün reçetesi** sekmesinde, *Z0001* ürün reçetesi için **Değişiklik türü** alanının değerinin artık *Değiştirildi* olduğuna dikkat edin.
 
-    ![Değiştirilmiş bir ürün reçetesi içeren mühendislik değişikliği emri.](media/eng-change-order-changed-bom.png "Değiştirilmiş bir ürün reçetesi içeren mühendislik değişikliği emri")
+    ![Değiştirilmiş bir ürün reçetesi içeren mühendislik değişikliği emri](media/eng-change-order-changed-bom.png "Değiştirilmiş bir ürün reçetesi içeren mühendislik değişikliği emri")
 
     Değişikliklerin işlenebilmesi için emrin onaylanması gerekir. Değişiklikler işlendiğinde, ürünler mühendislik değişikliği emrine dahil edilen değişikliklerle güncelleştirilir. Bu örnekte, mühendislik değişikliği emrini oluşturan kişi onaylayıcı olarak belirtilmiştir.
 
 1. Eylem Bölmesi'nde, **Değişiklik emri** sekmesindeki **Durumu değiştir** grubunda **Onayla**'yı seçin.
 1. Ürünün bilgilerini güncelleştirmek için **İşle**'yi seçin.
+1. Değişiklik emrini tamamlandı olarak işaretlemek için **Tamamla**'yı seçin.
 
 ## <a name="release-the-changed-product"></a>Değiştirilen ürünü serbest bırakma
 
@@ -407,9 +411,3 @@ Mühendis şimdi müşteriden gelen isteği gözden geçirir ve ürün için bir
 1. Ürünleri serbest bırakmak istediğiniz her şirketi seçin.
 1. **Serbest bırakmalar** iletişim kutusunu kapatıp değişiklik emrine dönmek için **Tamam**'ı seçin.
 1. Eylem Bölmesi'nde, **Değişiklik emri** sekmesinde, **Ürün serbest bırakmaları** grubunda, etkilenen ürünleri seçilen şirketlere serbest bırakmak için **İşle**'yi seçin. Alternatif olarak, serbest bırakma işlemini başlatmak için **Ürün yapısını serbest bırak**'ı seçin.
-
-## <a name="complete-the-change-order"></a>Değişiklik sırasını tamamlama
-
-Başka eylem kalmadığını göstermek üzere değişiklik sırasını tamamlandı olarak işaretlemek için Eylem Bölmesi'nde **Tamamla**'yı seçin.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

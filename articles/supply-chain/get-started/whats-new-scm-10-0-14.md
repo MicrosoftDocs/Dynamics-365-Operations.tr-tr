@@ -2,24 +2,27 @@
 title: Dynamics 365 Supply Chain Management 10.0.14 sürümündeki yenilikler veya değişiklikler (Ekim 2020)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.14'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
+manager: tfehr
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc9b8d9b6c3ef2980e7b676e6c85e3372db8cdd601f25a2b696106991ae40a59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: 4e55bd178e315dfa132ec77fe705d68c68460b44
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739095"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4439735"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Dynamics 365 Supply Chain Management 10.0.14'daki yenilikler veya değişiklikler (Kasım 2020)
 
@@ -33,7 +36,7 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.14'teki
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürüm, güncelleştirilmiş bir platform ve genel iyileştirmeler içerir, ancak Supply Chain Management uygulamasına özgü yeni özellikleri içermez. Yakında sunulacak özellikler hakkında daha fazla bilgi için, bkz. [Sürüm planları](/dynamics365/release-plans/) sitesi.
+Bu sürüm, güncelleştirilmiş bir platform ve genel iyileştirmeler içerir, ancak Supply Chain Management uygulamasına özgü yeni özellikleri içermez. Yakında sunulacak özellikler hakkında daha fazla bilgi için, bkz. [Sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/) sitesi.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -49,7 +52,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.14 platform güncelleştirme
 
 İş uygulamalarımız veya platformumuz için gelecek olan ve en son yayımlanan özellikleri merak ediyor musunuz?
 
-[Dynamics 365: 2020 sürüm dalgası 2 planını](/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
+[Dynamics 365: 2020 sürüm dalgası 2 planını](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 
@@ -61,6 +64,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.14 platform güncelleştirme
 Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) konusunda duyurulacaktır.
 
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

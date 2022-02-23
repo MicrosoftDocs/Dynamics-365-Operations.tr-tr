@@ -1,25 +1,28 @@
 ---
 title: Üretim akışını ve sürümünü doğrulama
 description: Bu yordam, yalın imalat için yeni bir üretim akışının ve bir ilk sürümün nasıl oluşturulacağını gösterir.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d87aa427c2bc3868e255c97ea11fd4e79456eef
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c30947d01cfb85ea3dbf1aa3e4ea8e092efd18cb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573597"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439397"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Üretim akışını ve sürümünü doğrulama
 
@@ -61,6 +64,3 @@ Bu yordam, yalın imalat için yeni bir üretim akışının ve bir ilk sürüm�
     * Döneme ait gerçek döngü süresi, güncel dakikadan geriye yönelik toplanarak hesaplanan gerçek döngü süresinin gün olarak sayısıdır. Değer herhangi bir zamanda değiştirilebilir ve yalnızca gerçek döngü zamanının hesaplanması için kullanılır.  
 13. Kaydet'e tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

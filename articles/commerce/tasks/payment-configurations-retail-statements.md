@@ -2,24 +2,27 @@
 title: " Perakende ekstreleri için ödeme yapılandırmaları"
 description: Bu yordam, Ticaret ekstrelerinin oluşturulması ve nakledilmesini etkileyen Ticaret mağaza ödeme yöntemlerine ilişkin yapılandırmaları gösterir.
 author: jashanno
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3c8c7678d88b3c01138aa098b8830336885e6445fb41931b19bcda2b95b86b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 390ccdfde3f9bb93770d456af7532a42e81955a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712369"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416464"
 ---
 # <a name="payment-configurations-for-retail-statements"></a> Perakende ekstreleri için ödeme yapılandırmaları
 
@@ -50,6 +53,3 @@ Bu kayıt, USRT demo şirketini kullanır.
     * Kasaya nakil tutarlarının nakledileceği hesabı seçin.  
 8. Kaydet'e tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

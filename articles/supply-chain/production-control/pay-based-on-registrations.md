@@ -2,9 +2,11 @@
 title: Kayıtlara dayalı ödeme
 description: Bu konu ödemenin çalışan kayıtları temel alınarak nasıl hesaplanacağını açıklar.
 author: johanhoffmann
+manager: tfehr
 ms.date: 03/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98ca6f7713b2f605a49a97d391fb8485bea78c4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715734"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966392"
 ---
 # <a name="pay-based-on-registrations"></a>Kayıtlara dayalı ödeme
 
@@ -168,7 +170,7 @@ Sistemi standart saat ile fazla mesaiyi açıkça ayıracak şekilde yapılandı
 
 **Hesaplama parametreleri** sayfasında, profil özellik türü olarak **Fazla mesai**'yi seçin ve **Ödeme saati** seçeneğini burada gösterildiği gibi **Hayır** olarak ayarlayın.
 
-| Kayıt belirtimi | Profil belirtim türü | Hesaplama   | Ayar | Ödendi         | Ayar |
+| Kayıt belirtimi | Profil belirtim türü | Hesaplama   |     | Ücretli         |     |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
 | Çalışma zamanı       | Fazla mesai                   | Standart zaman | Evet | Ödeme zamanı     | Hayır  |
 |                    |                            | Ödeme zamanı      | Evet | Fazla mesai ödemesi | Evet |
@@ -559,7 +561,7 @@ Bunun tersine, **Fazla mesaiyi düş** onay kutusu seçili devamsızlık kodu i�
 
 Aşağıdaki örnek, bir çalışanın esnek hesabının devamsızlık dönemi Esnek- dönemine dönüştürülerek nasıl düşürülebileceğini gösterir.
 
-Çalışan saat 07:00'de giriş ve saat 13:00'da çıkış yapar. İşçi, bu saatleri esnek hesabından keserse hafta sonu için eve gidebileceklerine dair bir anlaşmaya sahiptir. İlgili iş gününün kalan kısmı için devamsızlık dönemi çalışan planlı Esnek- döneminde olmadığından çalışan 13:00'da çıkış yaptığında bir devamsızlık kodu seçmesi istenir. İş gününün kalan kısmını Esnek- dönemine çevirmek için çalışan esnek hesabından düşülmek üzere ayarlanmış bir devamsızlık kodu seçebilir.
+Çalışan saat 07:00'de giriş ve saat 13:00'da çıkış yapar. Bu saatleri esnek hesabından düşmesi durumunda hafta sonu için eve gidebileceği konusunda yöneticisiyle bir anlaşmaya varmıştır. İlgili iş gününün kalan kısmı için devamsızlık dönemi çalışan planlı Esnek- döneminde olmadığından çalışan 13:00'da çıkış yaptığında bir devamsızlık kodu seçmesi istenir. İş gününün kalan kısmını Esnek- dönemine çevirmek için çalışan esnek hesabından düşülmek üzere ayarlanmış bir devamsızlık kodu seçebilir.
 
 Bir iş gününde devamsızlık kaydeden çalışanlar için esnek saatlerin bakiyesini azaltmak üzere **Saat ve işe devam** &gt; **Kurulum** &gt; **Gruplar** &gt; **Devamsızlık grupları**'nı ve **Esnek azalt** onay kutusunu seçin.
 
@@ -596,6 +598,3 @@ Bu durumda, çalışanın esnek bakiyesi gerçek çıkış saati ile planlanan �
 - Devamsızlığı otomatik ekle
 
 Esnek saatler için etkinleştirilen bir çalışan için günlük kayıtlar hesaplanırken, **Otomatik esnek- ekleme** alanında belirtilen devamsızlık kodu varsayılan devamsızlık kodu olarak kullanılır. Çalışanın esnek saatler için etkinleştirilmemişse, **Otomatik devamsızlık ekleme** alanında belirtilen devamsızlık kodu kullanılır. Bir şirkette hem esnek saatler için etkinleştirilmiş hem de esnek saatler için etkinleştirilmemiş çalışanlar varsa, her iki parametrenin de ayarlanması gerekir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,27 @@
 ---
 title: Proje satınalma siparişi oluşturma
 description: Bu yordam, size bir proje satınalma siparişi oluşturmayı gösterir.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, PurchCreateOrder, PurchTable, PurchTablePart, InventItemIdLookupPurchase
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d407e0d6af35de2d8c8679ca2ab5f6752688daa
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 825e374e9d450ee187e7ddb1ce5925c3d7e15f25
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565411"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016439"
 ---
 # <a name="create-project-purchase-order"></a>Proje satınalma siparişi oluşturma
 
@@ -45,6 +47,3 @@ Bu yordam, size bir proje satınalma siparişi oluşturmayı gösterir. Bu göre
     * Satışların ve maliyet fiyatlarının kullanılabilir olduğunu doğrulayın. Kullanılabilir olmayıp gerekli oldukları durumda, bilgileri girin.  
 14. Kaydet'e tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

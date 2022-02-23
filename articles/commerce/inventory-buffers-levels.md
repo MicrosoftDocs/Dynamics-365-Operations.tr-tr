@@ -2,28 +2,33 @@
 title: Stok arabelleklerini ve stok düzeylerini konfigüre et
 description: Bu konu, Microsoft Dynamics 365 Commerce sitelerinde stok kullanılabilirliği iletilerini belirleyen stok arabelleklerinin ve stok düzeylerinin konfigüre nasıl yapılandırılacağını açıklamaktadır.
 author: boycezhu
+manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727545"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416454"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Stok arabelleklerini ve stok düzeylerini konfigüre et
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce sitelerinde stok kullanılabilirliği iletilerini belirleyen stok arabelleklerinin ve stok düzeylerinin konfigüre nasıl yapılandırılacağını açıklamaktadır.
+
+## <a name="overview"></a>Özet
 
 Dynamics 365 Commerce yönetim Merkezi, stok verilerini ve satış noktası (POS) uygulamaları, e-ticaret mağazaları ve zaman uyumsuz şekilde envanter çekme ve iletme gibi çeşitli kanalları içerir. Bu nedenle, Commerce merkezdeki eldeki stok sayfası aracılığıyla, POS Kullanıcı arabirimi (UI) aracılığıyla ve e-ticaret stok kullanılabilirlik API 'Leri aracılığıyla elde edilen kullanılabilir stok değerleri, gerçek zamanlı olarak yüzde 100 doğru sonuç vermez.
 
@@ -144,6 +149,3 @@ Stok arabelleklerinin ve stok düzeylerinin girişi, bu API 'Lerin toplam kullan
 [Stok ayarlarını uygula](inventory-settings.md)
 
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,11 @@
 title: GETENUMVALUEBYNAME işlevi
 description: Bu konu, GETENUMVALUEBYNAME Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
+manager: kfend
 ms.date: 09/23/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03759852e5ceb13b79b0df4592bdcef76eb0a82865725c00df40b9cc5f786240
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29d7ec6498090ea47259303237c5a64a26e4926b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774449"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685944"
 ---
 # <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME işlevi
 
@@ -61,7 +64,7 @@ Bir *dize* değeri olarak belirtilen numaralandırma değerinin adı kullanılar
 
 Aşağıdaki örnekte, bir veri modelinde oluşturulan **ReportDirection** numaralandırması gösterilmektedir. Etiketlerin numaralandırma değerleri ile tanımlandığını unutmayın.
 
-![Veri modeli numaralandırması için kullanılabilir değerler.](./media/ER-data-model-enumeration-values.PNG)
+![Veri modeli numaralandırması için kullanılabilir değerler](./media/ER-data-model-enumeration-values.PNG)
 
 Aşağıdaki örnek ayrıntıları göstermektedir:
 
@@ -69,7 +72,7 @@ Aşağıdaki örnek ayrıntıları göstermektedir:
 - Bu işlevin parametresi olarak model numaralandırmaya dayalı **$Direction** veri kaynağı kullanmak için tasarlanan `$IsArrivals` ifadesi.
 - Bu karşılaştırma ifadenin değeri **DOĞRU**'dur.
 
-![Veri modeli numaralandırması örneği.](./media/ER-data-model-enumeration-usage.PNG)
+![Veri modeli numaralandırması örneği](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>Örnek 2
 
@@ -77,14 +80,14 @@ Aşağıdaki örnek ayrıntıları göstermektedir:
 
 Aşağıdaki örnekte, bir model eşlemesinde oluşturulan **TransType** veri kaynağı gösterilmektedir. Bu veri kaynağı **LedgerTransType** uygulama numaralandırması anlamına gelir.
 
-![Uygulama numaralandırmasına başvuran model eşlemesinin veri kaynağı.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![Uygulama numaralandırmasına başvuran model eşlemesinin veri kaynağı](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 Aşağıdaki resim, bir model eşlemesinde yapılandırılan **TransTypeList** veri kaynağını göstermektedir. Bu veri kaynağı **TransType** uygulama numaralandırması temel alınarak yapılandırıldı. `LISTOFFIELDS` işlevi, alan içeren kayıtların listesi olarak tüm numaralandırma değerlerini döndürmek için kullanılır. Bu şekilde, her numaralandırma değerinin ayrıntıları gösterilir.
 
 > [!NOTE]
 > **EnumValue** alanı, `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` ifadesi kullanılarak **TranstTypeList** veri kaynağı için yapılandırılır. Bu alan, bu listedeki her kayıt için bir numaralandırma değeri döndürür.
 
-![Seçilen bir numaralandırmanın tüm numaralandırma değerlerini kayıt listesi olarak döndüren model eşleme veri kaynağı.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![Seçilen bir numaralandırmanın tüm numaralandırma değerlerini kayıt listesi olarak döndüren model eşleme veri kaynağı](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 Aşağıdaki resim, bir model eşlemesinde yapılandırılan **VendTrans** veri kaynağını göstermektedir. Bu veri kaynağı, **VendTrans** uygulama tablosundaki satıcı hareket kayıtlarını döndürür. Her hareketin genel muhasebe türü, **TransType** alanının değeriyle tanımlanır.
 
@@ -93,11 +96,11 @@ Aşağıdaki resim, bir model eşlemesinde yapılandırılan **VendTrans** veri 
 >
 > **TransTypeTitle** alanı, veri modelini veri kaynağı olarak kullanan her ER biçiminde bu bilginin kullanılmasına olanak sağlayan bir veri modelinin **LedgerType** alanına bağlıdır.
 
-![Satıcı hareketlerini döndüren model eşlemesinin veri kaynağı.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![Satıcı hareketlerini döndüren model eşlemesinin veri kaynağı](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 Aşağıdaki şekil, yapılandırılmış model eşlemesini test etmek için [veri kaynağı hata ayıklayıcısını](er-debug-data-sources.md) nasıl kullanabileceğinizi gösterir.
 
-![Yapılandırılan model eşlemesini test etmek için veri kaynağı hata ayıklayıcısını kullanma.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![Yapılandırılan model eşlemesini test etmek için veri kaynağı hata ayıklayıcısını kullanma](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 Bir veri modelinin **LedgerType** alanı, hareket türlerinin etiketlerini beklendiği gibi gösterir.
 
@@ -114,6 +117,3 @@ Bu yaklaşımı büyük miktarda hareket verisi için kullanmayı planlıyorsan�
 [FIRSTORNULL ER işlevi](er-functions-list-firstornull.md)
 
 [WHERE ER işlevi](er-functions-list-where.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

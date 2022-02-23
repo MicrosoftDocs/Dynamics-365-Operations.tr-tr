@@ -2,9 +2,11 @@
 title: Eylem arama
 description: Bu makale, eylem arama işlevini açıklar. Eylem arama, bir sayfadaki eylemleri bulmanıza ve çalıştırmanıza yardımcı olur.
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6277c37ac43b8cc05c8b53da5ca0a1909f58c4f9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070046"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798660"
 ---
 # <a name="action-search"></a>Eylem arama
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu makale, eylem arama işlevini açıklar. Eylem arama, bir sayfadaki eylemleri bulmanıza ve çalıştırmanıza yardımcı olur.
 
@@ -34,7 +33,7 @@ Bu makale, eylem arama işlevini açıklar. Eylem arama, bir sayfadaki eylemleri
 
 Sayfalar, başlıca Eylem Panoları üzerindeki komutları ortaya çıkartır: sayfanın üzerinde görünen standart Eylem Panosu ve sayfanın çeşitli yerlerinde görünen araç çubukları. Önceki sürümlerde, Anahtar İpuçları özelliği, Eylem Panosu üzerindeki herhangi bir düğmeye, Alt tuşu ve daha sonra bir dizi harfe basarak hızla erişmenize izin veriyordu.
 
-[![keyTipsAX6.](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 Eylem araması özelliği, artık kullanılamayan Anahtar İpuçları özelliğinin yerine getirilmiştir. Bu yeni özellik, görünen herhangi bir Eylem Bölmesinden bir düğmeyi hızla aramanıza ve düğmeyi çalıştırmanıza olanak sağlar.
 
@@ -48,7 +47,7 @@ Eylem arama özelliğini kullanmak için aşağıdaki adımları izleyin.
 
 Düğmeyi çalıştırdıktan sonra, çalışmaya devam edebilmeniz için sayfadaki son konumunuz yeniden ön plana geçer.
 
-[![eylem-arama-alanı.](./media/action-search-field.png)](./media/action-search-field.png)
+[![eylem-arama-alanı](./media/action-search-field.png)](./media/action-search-field.png)
 
 Eylem aramasını Ctrl+/ veya Alt+Q tuşuna basarak da başlatabilirsiniz. Sayfadaki son konumunuzu yeniden ön plana almak için klavye kısayoluna tekrar basın.
 
@@ -64,11 +63,11 @@ Bir düğmenin amacını tamamen anlamak için çoğu zaman bu düğmenin hem ko
 
 Örneğin, **eylem arama** alanına **top** yazdınız ve şimdi sonuçlar listesini inceliyorsunuz. Bir düğme için ilk girişte **Toplamlar** adına sahiptir ve vurgulanır. **Satış siparişi** &gt; **Görünüm** düğme yolu da gösterilir. Yolun **Satış siparişi** parçasına karşılık gelen **Satış siparişi** sekmesi, Eylem bölmesinde ve yolun **Görüntüle** parçasına karşılık gelen o sekmede **Görüntüle** grubunda. Benzer şekilde **Toplam indirim** düğmesi (**Sat** &gt; **Hesapla**), bu düğmenin **Hesapla** grubunda, Eylem bölmesinin **Sat** sekmesinde olduğunu size belirtir. Bu nedenle, bu bilgi size tam olarak hangi düğmenin hangi eylem arama tarafından tetiklendiğini anlamanıza yardımcı olur (düğmeyi sonuç listesinden seçerseniz).
 
-[![eylem-arama-alanı-ile-veri.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![eylem-arama-alan-ile-veri](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 Önceki örnekte, eylem arama bir sayfanın en üstündeki standart Eylem Bölmesi'nden sonuçları göstermiştir. Bununla birlikte, eylem arama özelliği sayfada başka yerlerde bulunan görünür araç çubuklarından sonuçları da gösterir. Örneğin, **Satış siparişi satırları** hızlı sekmesindeki **Eldeki stok** düğmesini aradığınızı varsayalım. Bu durumda, sonuç listesindeki düğme yolu (**Satış siparişi satırları** &gt; **Stok** &gt; **Görünüm**), bu düğmenin **Satış siparişleri satırları** hızlı sekmesi üzerindeki **Stok** menü düğmesindeki **Görünüm** başlığı altında olduğunu belirtir.
 
-[![eldeki-stok.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![eldeki-stok](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > Eylem aramasında gösterilmeyen bazı düğmeler vardır. Bunlar açılır iletişim kutusu düğmelerini ve alt formlardaki düğmeleri içerir. 
@@ -76,6 +75,3 @@ Bir düğmenin amacını tamamen anlamak için çoğu zaman bu düğmenin hem ko
 ## <a name="action-search-vs-navigation-search"></a>Eylem arama - Gezinti arama karşılaştırması
 
 Eylem arama ile bir sayfadaki eylemleri bulup çalıştırma amaçlanırken, sayfaları bulup gezinmek için ayrı bir arama mekanizması bulunur. Bu özellik hakkında daha fazla bilgi için, bkz. [Gezinti arama](navigation-search.md) makalesi.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

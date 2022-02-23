@@ -1,60 +1,54 @@
 ---
 title: Stok durdurma oluştur ve sürdür
-description: Bu konu, stok durdurmanın eldeki fiziksel stokun başka çıkış kaynak belgeleri tarafından rezerve edilmesini önlemek üzere nasıl kullanılacağını gösterir.
-author: yufeihuang
-ms.date: 03/23/2021
+description: Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kaynak belgeleri tarafından rezerve edilmesini önlemeyi gösterir.
+author: perlynne
+manager: tfehr
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bad7d4e5794dc543bd750912ef0d3e4460e611b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 12c6e047e15aaab157e6de70f4a09f500af2965f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572853"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439564"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Stok durdurma oluştur ve sürdür
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, stok durdurmanın eldeki fiziksel stokun başka çıkış kaynak belgeleri tarafından rezerve edilmesini önlemek üzere nasıl kullanılacağını gösterir. Bu konudaki prosedürlere başlamadan önce, fiziksel eldeki stoğun kullanılabilir olduğu bir öğenizin olması gerekir.
+Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kaynak belgeleri tarafından rezerve edilmesini önlemeyi gösterir. Yordamı demo veri şirketi USMF kullanarak, gösterilen örnek değerlerle çalıştırabilirsiniz. Bu yordama başlamadan önce eldeki fiziksel stoka sahip bir öğe olması gerekir.
 
-## <a name="block-inventory"></a>Stoku engelle
 
-Stoğun durdurabilmesi için stok durdurma kaydı oluşturmak üzere aşağıdaki adımları izleyin.
-
-1. **Stok yönetimi \> Periyodik görevler \> Stok durdurma**'ya gidin.
-1. Eylem Bölmesinde, **Yeni**'yi seçin.
-1. Yeni durdurma kaydının başlığında, **Öğe numarası** alanını durdurmak istediğiniz öğeye ayarlayıp bir açıklama girin.
-1. **Genel** hızlı sekmesinde, **Miktar** alanına durdurulacak öğe sayısını girin.
-1. **Stok boyutları** hızlı sekmesinde, durdurmak istediğiniz öğelerin bulunduğu tesisi ve ambarı belirtin.
-1. Eylem bölmesinde, **Kaydet**'i seçin.
+## <a name="create-an-inventory-blocking"></a>Stok durdurma oluşturun
+1. **Gezinti panosu**'nda, **Modüller > Stok yönetimi > Periyodik görevler > Stok durdurma**'ya gidin.
+2. **Yeni**'ye tıklayın.
+3. **Madde numarası** alanında, açılır menü düğmesine tıklayarak aramayı açın.
+4. Listede kullanmak istediğiniz maddeyi seçin. Bir madde numarası ile engellemek istediğiniz eldeki fiziksel stoku seçin. USMF kullanıyorsanız, M9201 öğesini seçebilirsiniz.  
+5. **Miktar** alanına bir sayı girin. Madde M9201 kullanıyorsanız, 200'den az seçmeniz gerekir.
+6. **Stok boyutları** hızlı sekmesini genişletin.
+7. **Ambar** alanında, açılır menü düğmesine tıklayarak aramayı açın.
+8. Listede, istenen kaydı bulun ve seçin. Madde M9201 kullanıyorsanız, ambar 51'i seçebilirsiniz.  
+9. **Kaydet**'e tıklayın.
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>Stok durdurma koşullarını güncelleştirin
+1. **Genel** hızlı sekmesinde, **Miktar** alanına bir numara girin. Stok Miktar alanını, engelleyecek miktarı yansıtacak şekilde güncelleştirin.  
+2. **Beklenen tarih** alanında bir tarih girin. Engellenen stokun rezervasyon için ne zaman kullanılabilir hale geleceğini belirtmek için, tarih atamak isteyebilirsiniz. Stok durdurma için Beklenen girişler seçeneği, bir durdurmayı el ile oluşturduğunuzda varsayılan olduğu şekilde, işaretliyse, bu tarih beklenen hareket üzerinde belirir.  
+3. **Kaydet**'e tıklayın.
 
-Stok durdurma kaydını güncelleştirmek için aşağıdaki adımları izleyin.
+## <a name="remove-the-inventory-blocking"></a>Stok durdurmayı kaldırın
+1. **Eylem Bölmesi**'nde, **Sil** öğesine tıklayın.
+2. **Evet** seçeneğini tıklatın.
+3. Sayfayı kapatın.
 
-1. **Stok yönetimi \> Periyodik görevler \> Stok durdurma**'ya gidin.
-1. Liste bölmesinde, ilgili durdurma kaydını seçin.
-1. Kaydı, gerektiği şekilde düzenleyin. Örneğin, durdurulan stoğun rezervasyon için ne zaman kullanılabilir hale geleceğini belirtmek için **Beklenen tarih** alanının değerini değiştirebilirsiniz. **Beklenen girişler** seçeneği seçilmişse tarih, beklenen harekette görüntülenir. (Manuel olarak bir durdurma kaydı oluşturduğunuzda, **Beklenen girişler** seçeneği varsayılan olarak seçilir.)
-1. Eylem bölmesinde, **Kaydet**'i seçin.
-
-## <a name="unblock-inventory"></a>Stok durdurmayı kaldırma
-
-Stoğun durdurmasını kaldırmak için stok durdurma kaydını kaldırmak üzere aşağıdaki adımları izleyin.
-
-1. **Stok yönetimi \> Periyodik görevler \> Stok durdurma**'ya gidin.
-1. Liste bölmesinde, ilgili durdurma kaydını seçin.
-1. Eylem Bölmesi'nde **Sil**'i seçin.
-1. İşlemi onaylamanız istenir. Devam etmek için **Eve**'i seçin.
-1. Sayfayı kapatın.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

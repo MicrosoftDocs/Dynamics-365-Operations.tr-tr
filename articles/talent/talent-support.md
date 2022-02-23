@@ -48,6 +48,3 @@ Bağımsız Onboard uygulaması için destek almak üzere aşağıdaki tablodaki
 | Sorun bildirin. | Sayfanın sağ üst köşesindeki **Yardım** (**?**) düğmesini seçin ve sonra **Sorun bildir**'i seçin. Sorunun açıklamasını girin ve bu sorunun raporlanmasını izlemek istiyorsanız bir e-posta adresi ekleyin. |
 | Talent lisanslama ile ilgili sorularınıza yanıt alın. | Partnerinizle veya Microsoft satış temsilcinizle iletişime geçin. |
 | Onboard içerisinde yeni özellikler ve işlevler talep edin. | **Yardım** düğmesini (**?**) ve ardından **Fikirler**'i seçin. Ayrıca, varolan fikirleri görüntülemek, aramak veya oylamak ya da yeni fikirler eklemek için [Dynamics 365 Talent: Onboard: Fikirler](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard)'i de ziyaret edebilirsiniz. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

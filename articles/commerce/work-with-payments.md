@@ -2,13 +2,16 @@
 title: Çağrı merkezlerinde ödeme yöntemleri
 description: Bu konu Dynamics 365 Commerce'de bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır.
 author: josaw1
+manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b89daf41c8a14f5e03dc2a67c95e9d1fed2d5cab891ae65e20655c285b1f6ac2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762584"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416441"
 ---
 # <a name="payment-methods-in-call-centers"></a>Çağrı merkezlerinde ödeme yöntemleri
 
@@ -50,6 +53,3 @@ Bir ödeme yöntemi oluşturduğunuzda, atayabileceğiniz beş ödeme yöntemi i
 Geri ödeme işleme senaryoları için Çağrı merkezi Alacak hesaplarında tanımlanan ödeme yöntemlerinden bazılarını da kullanır. Bu ödeme yöntemlerini yapılandırmak için **Retail ve Commerce** \> **Kanal kurulumu** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi geri ödeme yöntemleri**'ne gidin. Müşterilere geri ödeme çeklerini işlemek için bu yapılandırmayı tamamlamanız gerekir. Örneğin, bir müşteri bir siparişin ödemesini başlangıçta nakit veya çek kullanarak yaptıysa, kullanıcı müşteriye Alacak hesapları üzerinden bir geri ödeme çeki göndermek isteyebilir. Bu durumda, geri ödemenin düzgün şekilde gerçekleştirilebilmesi için çağrı merkezindeki çek ve nakit ödeme türlerinin Alacak hesaplarındaki doğru ödeme yöntemiyle eşlenmesi gerekir.
 
 Ayrıca, bir kullanıcı Commerce'de bir iade siparişini çağrı merkezi kullanıcısı olarak işlerse ancak iadeyi orijinal satışa bağlayamazsa **İade** ödemesi yönteminin Çağrı merkezi parametrelerinde tanımlanması gerekir. **Retail ve Commerce** \> **Kanal kurulumu** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi parametreleri**'ne gidin ve **RMA/İade** sekmesindeki **Ödeme yöntemi** alanında bir ödeme yönteminin tanımlandığından emin olun. Ödeme yöntemi geri ödemeler için kullanılan ödeme yöntemi olacaktır. Genellikle, bir çek yöntemi veya müşteri hesabı yöntemi olarak tanımlanacaktır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

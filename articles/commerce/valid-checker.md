@@ -1,119 +1,81 @@
 ---
-title: Ekstre hesaplama işlemi için mağaza hareketlerini doğrulama
-description: Bu konuda, Microsoft Dynamics 365 Commerce uygulamasında mağaza hareketlerini doğrulama işlevi açıklanır.
-author: analpert
-ms.date: 01/31/2022
+title: Perakende hareketi tutarlılık denetleyicisi
+description: Bu konuda, Dynamics 365 Commerce'te bulunan hareket tutarlılık denetleyicisi açıklanmaktadır.
+author: josaw1
+manager: AnnBe
+ms.date: 10/07/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: analpert
+ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 3c7ca41b9e8a4c3127c98c756348959530a87996
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087461"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460077"
 ---
-# <a name="validate-store-transactions-for-statement-calculation"></a>Ekstre hesaplama işlemi için mağaza hareketlerini doğrulama
+# <a name="retail-transaction-consistency-checker"></a>Perakende hareketi tutarlılık denetleyicisi
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce uygulamasında mağaza hareketlerini doğrulama işlevi açıklanır. Doğrulama işlemi, ekstre deftere nakil işlemi tarafından alınmadan önce deftere nakil hatalarına neden olacak hareketleri tanımlar ve işaretler.
+Bu konuda, Microsoft Dynamics 365 Commerce'te bulunan hareket tutarlılık denetleyicisi açıklanmaktadır. Tutarlılık denetleyicisi, tutarsız hareketleri ekstre deftere nakil işlemi tarafından alınmadan önce tanımlar ve ayırır.
 
-Bir ekstreyi deftere nakletmeyi denediğinizde ticari hareket tablolarındaki tutarsız veriler nedeniyle doğrulama işlemi başarısız olabilir. Aşağıda bu tutarsızlıklara neden olabilecek bazı etkenlere örnekler verilmiştir:
+Bir ekstre deftere nakledildiğinde deftere nakil işlemi, ticari hareket tablolarında tutarsız verilerin bulunması nedeniyle başarısız olabilir. Veri sorunu, satış noktası (POS) uygulamasında öngörülemeyen aksaklıklardan veya hareketlerin üçüncü taraf POS sistemleri tarafından yanlış aktarılmasından kaynaklanabilir. Bu tutarsızlıkların nasıl görünebileceğine ilişkin örnekler şunlardır: 
 
-- Üst bilgi tablosundaki hareket toplamı, satırlardaki hareket toplamıyla eşleşmiyordur.
-- Üst bilgi tablosunda belirtilen madde sayısı, hareket tablosundaki madde sayısıyla eşleşmiyordur.
-- Üst bilgi tablosundaki vergiler, satırlardaki vergi tutarıyla eşleşmiyordur. 
+- Üstbilgi tablosundaki işlem toplamı, satırlardaki işlem toplamıyla eşleşmiyordur.
+- Üstbilgi tablosundaki satır sayısı, işlem tablosundaki satır sayısıyla eşleşmiyordur.
+- Üstbilgi tablosundaki vergiler, satırlardaki vergi tutarıyla eşleşmiyordur. 
 
-Ekstre deftere nakil işlemi tarafından tutarsız hareketler alınırsa, oluşturulan satış faturaları ve ödeme günlükleri, ekstre deftere nakil işleminin başarısız olmasına neden olabilir. **Mağaza hareketlerini doğrula** işlemi, yalnızca hareket doğrulama kurallarını geçen hareketlerin hareket ekstresi hesaplama işlemine geçirilmesini sağlayarak bu sorunları önler.
+Ekstre deftere nakil işlemi tarafından tutarsız işlemler seçildiğinde tutarsız satış faturaları ve ödeme günlükleri oluşturulur ve bunun sonucunda tüm ekstre deftere nakil işlemi başarısız olur. Ekstrelerin bu durumdan kurtarılması, birden fazla işlem tablosu arasında karmaşık veri düzeltmelerini içerir. Hareket tutarlılık denetleyicisi bu tür sorunları önler.
 
-Aşağıdaki şekilde, hareketleri yüklemek, doğrulamak ve hareket ekstrelerini hesaplayıp deftere nakletmek için yinelenen gün içi işlemler ile mali tabloların hesaplanması ve deftere nakledilmesine yönelik gün sonu işlemler gösterilmektedir.
+Aşağıdaki çizelgede, işlem tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi gösterilmektedir.
 
-![Hareketleri yüklemek, doğrulamak ve hareket ekstrelerini hesaplayıp deftere nakletmek için yinelenen gün içi işlemler ile mali tabloların hesaplanması ve deftere nakledilmesine yönelik gün sonu işlemleri gösteren şekil](./media/valid-checker-statement-posting-flow.png)
+![Hareket tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi](./media/validchecker.png "Perakende hareketi tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi")
 
-## <a name="store-transaction-validation-rules"></a>Mağaza hareketi doğrulama kuralları
+**Mağaza hareketlerini doğrula** toplu işlemi, aşağıdaki senaryolar için ticari hareket tablolarının tutarlılığını denetler.
 
-**Mağaza hareketlerini doğrula** toplu işlemi, aşağıdaki doğrulama kurallarını temel alarak ticari hareket tablolarının tutarlılığını denetler.
+- **Müşteri hesabı**: Hareket tablolarındaki müşteri hesabının Genel Merkez müşteri yöneticisinde de bulunduğunu doğrular.
+- **Satır sayısı**: Hareket başlığı tablosundan alındığı şekilde satır sayısının satış hareket tablolarındaki satır sayısıyla eşleştiğini doğrular.
+- **Fiyata vergi dahildir**: **Fiyata vergi dahildir** parametresinin hareket satırları arasında tutarlı olduğunu ve satış satırındaki fiyatın vergi dahil fiyat ve vergi muafiyeti yapılandırmasına uygun olduğunu doğrular.
+- **Ödeme tutarı**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak ödeme kayıtlarının üst bilgideki ödeme tutarıyla eşleştiğini doğrular.
+- **Brüt tutar**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak üst bilgideki brüt tutarın, satırdaki net tutarların toplamına vergi tutarının eklenmesiyle elde edilen toplam olduğunu doğrular.
+- **Net tutar**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak üst bilgideki net tutarın, satırdaki net tutarların toplamına vergi tutarının eklenmesiyle elde edilen toplam olduğunu doğrular.
+- **Eksik/Fazla ödeme**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak üst bilgideki brüt tutar ile ödeme tutarı arasındaki farkın maksimum eksik ödeme/fazla ödeme yapılandırmasını aşmadığını doğrular.
+- **İskonto tutarı**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak iskonto tablolarındaki iskonto tutarının ve hareket satırı tablolarındaki iskonto tutarının tutarlı olduğunu ve başlıktaki iskonto tutarının satırlardaki iskonto tutarlarının toplamı olduğunu doğrular.
+- **Satır iskontosu**: Hareket satırındaki satır iskontosunun, iskonto tablosunda hareket satırına karşılık gelen tüm satırların toplamı olduğunu doğrular.
+- **Hediye kartı maddesi**: Commerce, hediye kartı maddelerinin iadesini desteklemez. Ancak bir hediye kartının bakiyesi nakde çevrilebilir. Nakde çevirme satırı yerine iade satırı olarak işlenen bir hediye kartı maddesi için ekstre deftere nakil işlemi başarısız olur. Hediye kartı maddeleri için doğrulama işlemi, hareket tablolarındaki yalnızca hediye kartı satır maddelerinin hediye kartı nakde çevirme satırları olmasını sağlamaya yardımcı olur.
+- **Negatif fiyat**: Negatif fiyat hareketi satırı olmadığını doğrular.
+- **Madde ve Ürün Çeşidi**: Hareket satırlarındaki maddelerin ve ürün çeşitlerinin madde ve ürün çeşidi ana dosyasında bulunduğunu doğrular.
+- **Vergi tutarı**: Vergi kayıtlarının satırlardaki vergi tutarlarıyla eşleştiğini doğrular.
+- **Seri numarası**: Seri numarasıyla kontrol edilen maddelere ait hareket satırlarında seri numarasının bulunduğunu doğrular.
+- **İşaret**: Miktar ve net tutardaki işaretin tüm hareket satırlarında aynı olduğunu doğrular.
+- **İş tarihi**: Hareketlere ilişkin tüm iş tarihleri için mali dönemlerin açık olduğunu doğrular.
+- **Masraflar**: Üst bilgi ve satır masrafı tutarının vergi ve vergi muafiyeti yapılandırması dahil olacak şekilde fiyata uygun olduğunu doğrular.
+
+## <a name="set-up-the-consistency-checker"></a>Tutarlılık denetleyicisini ayarlama
+
+**Retail ve Commerce \> Retail ve Commerce BT \> POS deftere nakli** altından "Mağaza hareketlerini doğrula" toplu işini periyodik olarak çalışmak üzere yapılandırın. Toplu iş, "Ekstreleri toplu işle hesapla" ve "Ekstreleri toplu işle deftere naklet" işlemlerinin ayarlanmasına benzer şekilde, mağaza organizasyon hiyerarşisine göre zamanlanabilir. Bu toplu işlemi günde birden fazla kez yürütülecek şekilde yapılandırmanızı ve her P işi uygulamasının sonunda çalıştırılacak şekilde zamanlamanızı öneririz.
+
+## <a name="results-of-validation-process"></a>Doğrulama işleminin sonuçları
+
+Toplu iş olarak gerçekleştirilen doğrulama denetiminin sonuçları, uygun harekette işaretlenir. Hareket kaydındaki **Doğrulama durumu** alanı **Başarılı** veya **Hata** olarak ayarlanabilir ve son doğrulama çalıştırma tarihi, **Son doğrulama saati** alanında görünür.
+
+Doğrulama hatası ile ilgili daha fazla hata açıklaması görmek için ilgili mağaza işlem kaydını seçip **Doğrulama hataları** düğmesine tıklayın.
+
+Doğrulama denetlemesinden geçemeyen işlemler ve henüz doğrulanmamış olan işlemler ekstrelere eklenmez. "Ekstre hesaplama" işlemi sırasında ekstreye eklenebilecek, ancak eklenmemiş olan işlemlerin olması durumunda kullanıcılar bilgilendirilir.
+
+Bir doğrulama hatası bulunursa hatayı düzeltmenin tek yolu, Microsoft Desteği ile iletişime geçmektir. Bir sonraki sürümde kullanıcıların kullanıcı arabiriminde başarısız olan kayıtları düzeltmelerine olanak tanıyan özellik eklenecektir. Değişiklik geçmişini takip etmek için günlüğe kaydetme ve denetleme özellikleri de kullanıma sunulacaktır.
 
 > [!NOTE]
-> Doğrulama kuralları, sonraki sürümlere eklenmeye devam eder.
-
-### <a name="transaction-header-validation-rules"></a>Hareket üst bilgisi doğrulama kuralları
-
-Aşağıdaki tabloda, bu hareketler ekstre deftere nakil işlemine geçirilmeden önce perakende hareketlerinin üst bilgisine göre denetlenen hareket üst bilgisi doğrulama kuralları listelenmektedir.
-
-| Kural | Açıklama |
-|-------|-------------|
-| İş tarihi | Bu kural, hareketin iş tarihinin genel muhasebede açık bir mali dönemle ilişkilendirildiğini doğrular. |
-| Para birimi yuvarlama | Bu kural, hareket tutarlarının para birimi yuvarlama kuralına göre yuvarlandığını doğrular. |
-| Müşteri hesabı | Bu kural, harekette kullanılan müşterinin, veritabanında mevcut olduğunu doğrular. |
-| İskonto tutarı | Bu kural, üst bilgideki iskonto tutarının, satırların iskonto tutarlarının toplamına eşit olduğunu doğrular. |
-| Mali belge deftere nakli durumu (Brezilya) | Bu kural, mali belgenin başarıyla deftere nakledilebileceğini doğrular. |
-| Brüt tutar | Bu kural, hareket üst bilgisindeki brüt tutarın, hareket satırlarının vergi dahil net tutarı artı masraflarla eşleştiğini doğrular. |
-| Net | Bu kural, hareket üst bilgisindeki net tutarın, hareket satırlarının vergi hariç net tutarı artı masraflarla eşleştiğini doğrular. |
-| Net + vergi | Bu kural, hareket üst bilgisindeki brüt tutarın, hareket satırlarının vergi hariç net tutarı artı tüm vergiler ve masraflarla eşleştiğini doğrular. |
-| Madde sayısı | Bu kural, hareket üst bilgisinde belirtilen madde sayısının, hareket satırlarındaki miktarların toplamıyla eşleştiğini doğrular. |
-| Ödeme tutarı | Bu kural, hareket üst bilgisindeki ödeme tutarının, tüm ödeme hareketlerinin toplamıyla eşleştiğini doğrular. |
-| Vergi muafiyeti hesaplaması | Bu kural, masraf satırlarının hesaplanan tutarı ile muaf tutulan vergi tutarının toplamının, hesaplanan orijinal tutara eşit olduğunu doğrular. |
-| Vergi dahil fiyatlandırma | Bu kural, **Vergi fiyata dahildir** bayrağının, hareket üst bilgisi ve vergi hareketleri arasında tutarlı olduğunu doğrular. |
-| Hareket boş değil | Bu kural, hareketin satırlar içerdiğini ve en az bir satırın hükümsüz kılınmadığını doğrular. |
-| Eksik/fazla ödeme | Bu kural, brüt tutar ile ödeme tutarı arasındaki farkın, maksimum eksik ödeme/fazla ödeme yapılandırmasından fazla olmadığını doğrular. |
-
-### <a name="transaction-line-validation-rules"></a>Hareket satırı doğrulama kuralları
-
-Aşağıdaki tabloda, bu hareketler ekstre deftere nakil işlemine geçirilmeden önce perakende hareketlerinin satır ayrıntılarına göre denetlenen hareket satırı doğrulama kuralları listelenmektedir.
-
-| Kural | Açıklama |
-|-------|-------------|
-| Barkod | Bu kural, hareket satırlarında kullanılan tüm madde barkodlarının, veritabanında mevcut olduğunu doğrular. |
-| Masraf satırları | Bu kural, masraf satırlarının hesaplanan tutarı ile muaf tutulan vergi tutarının toplamının, hesaplanan orijinal tutara eşit olduğunu doğrular. |
-| Hediye kartı iadeleri | Bu kural, harekette hediye kartı iadesi olmadığını doğrular. |
-| Madde çeşidi | Bu kural, hareket satırlarında kullanılan tüm maddeler ve tüm çeşitlerin, veritabanında mevcut olduğunu doğrular. |
-| Satır iskontosu | Bu kural, satır iskonto tutarının, iskonto hareketlerinin toplamıyla eşleştiğini doğrular. |
-| Satır vergisi | Bu kural, satır vergisi tutarının, vergi hareketlerinin toplamıyla eşleştiğini doğrular. |
-| Negatif fiyat | Bu kural, hareket satırlarında negatif fiyatların kullanılmadığını doğrular. |
-| Seri numarası denetlendi | Bu kural, seri numarası denetlenen maddelere ait hareket satırında seri numarasının bulunduğunu doğrular. |
-| Seri numarası boyutu | Bu kural, maddenin seri numarası boyutu etkin değilse seri numarasının sağlanmadığını doğrular. |
-| İşaret uyumsuzluğu | Bu kural, tüm hareket satırlarında miktar ve net tutar işaretinin aynı olduğunu doğrular. |
-| Vergiden muaf | Bu kural, satır maddesi fiyatı ile muaf tutulan vergi tutarının toplamının orijinal fiyata eşit olduğunu doğrular. |
-| Vergi grubu ataması | Bu kural, satış vergisi grubu ile madde vergisi grubu birleşiminin, geçerli bir vergi kesişimi oluşturduğunu doğrular. |
-| Ölçü birimi dönüşümleri | Bu kural, tüm satırların ölçü biriminin, stok ölçü birimine geçerli bir şekilde dönüştürüldüğünü doğrular. |
-
-## <a name="enable-the-store-transaction-validation-process"></a>Mağaza hareketi doğrulama işlemini etkinleştir
-
-Commerce genel merkezinde düzenli aralıklarla çalıştırılacak **Mağaza hareketlerini doğrula** işini yapılandırın (**Retail ve Commerce \> Retail ve Commerce BT \> POS deftere nakli**). Toplu iş, mağazanın kuruluş hiyerarşisine göre zamanlanır. Bu toplu işlemi, **P İşi** ve **Hareket ekstresi hesaplaması** toplu işlerinizle aynı sıklıkta çalışacak şekilde yapılandırmanızı öneririz.
-
-## <a name="results-of-the-validation-process"></a>Doğrulama işleminin sonuçları
-
-**Mağaza hareketlerini doğrula** toplu işleminin sonuçları, her perakende mağaza hareketinde görüntülenebilir. Hareket kaydındaki **Doğrulama durumu** alanı **Başarılı**, **Hata** veya **Hiçbiri** olarak ayarlanır. **Son doğrulama saati** alanı, son doğrulama çalıştırmasının tarihini gösterir.
-
-Aşağıdaki tabloda, her bir doğrulama durumu açıklanmaktadır.
-
-| Doğrulama durumu | Açıklama |
-|-------------------|-------------|
-| Başarılı | Tüm etkin doğrulama kuralları geçildi. |
-| Hata | Etkinleştirilmiş bir doğrulama kuralında hata belirlendi. Eylem Bölmesi'nde **Doğrulama hataları**'nı seçerek hatayla ilgili daha fazla ayrıntıyı görüntüleyebilirsiniz. |
-| Hiçbiri | Hareket türü için doğrulama kurallarının uygulanması gerekmez. |
-
-![Doğrulama durumu alanını ve Doğrulama hataları düğmesini gösteren mağaza hareketleri sayfası.](./media/valid-checker-validation-status-errors.png)
-
-Yalnızca doğrulama durumu **Başarılı** olan hareketler, hareket ekstrelerine çekilir. **Hata** durumuna sahip hareketleri görüntülemek için **Mağaza mali öğeleri** çalışma alanında **Peşin satış doğrulama hataları** kutucuğunu inceleyin.
-
-![Mağaza mali öğeleri çalışma alanındaki kutucuklar.](./media/valid-checker-cash-carry-validation-failures.png)
-
-Peşin satış doğrulama hatalarını düzeltme hakkında daha fazla bilgi için bkz. [Peşin ve nakit yönetimi hareketlerini düzenleme ve denetleme](edit-cash-trans.md).
-
-## <a name="additional-resources"></a>Ek kaynaklar
-
-[Peşin ve nakit yönetimi hareketlerini düzenleme ve denetleme](edit-cash-trans.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Bir sonraki sürümde daha fazla senaryoyu desteklemek için ek doğrulama kuralları da eklenecektir.

@@ -2,23 +2,26 @@
 title: Mühendislik değişim yönetimi için ortak değerler oluşturma
 description: Bu konu, mühendislik değişikliği yönetiminin çeşitli bölümlerindeki parametreler için kullanılan ortak değerlerin nasıl kurulacağını açıklar.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductParameters, EngChgEcmSeverityTable, EngChgEcmSeverityRuleSet, EngChgEcmSeverityLookup,EngChgEcmSeverityChart,EngChgEcmRequestSeverityChart,EngChgEcmPriorityTable, EngChgEcmPriorityLookup, EngChgEcmPriorityChart, EngChgEcmMaterialDisposition, EngChgEcmEH
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c2ff21490dc71859d75923dd757e264096d4fcba
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 86de050ef4110e3485a77099440f3402e46cc498
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565939"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4439752"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>Mühendislik değişim yönetimi için ortak değerler oluşturma
 
@@ -88,6 +91,3 @@ Her kural kümesinde, aşağıdaki alanı ayarlayın:
 - **Önem derecesi**: Kuralın oluşturulacağı önem düzeyini seçin. Düzeyler oluşturmak ve adlandırmak için **Mühendislik değişikliği önem dereceleri** sayfasını kullanırsınız. (Daha fazla bilgi için önceki bölüme bakın.)
 
 Geçerli önem derecesi ayarına kural eklemek veya var olan bir kuralı kaldırmak için **Kurallar** hızlı sekmesindeki düğmeleri kullanın. Her kuralda bir **Kural** alanı ve bir **Ad** alanı vardır. Kurallar sistem tarafından kurulur ve bir ürünün sahip olabileceği değişiklik türlerini gösterir. Ad, değişiklik türünü gösterir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

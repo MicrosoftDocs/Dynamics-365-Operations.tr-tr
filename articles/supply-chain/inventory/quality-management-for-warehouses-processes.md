@@ -2,26 +2,27 @@
 title: Ambar işlemleri için kalite yönetimi
 description: Bu konuda, ambar işlemleri özelliği için Kalite yönetimi hakkında bilgiler verilmektedir. Bu özellik kalite yönetimi yeteneklerini genişletir ve kullanıcıların gelişmiş ambar yönetimini kullanarak madde örnekleme kontrollerini ambar teslim alma işlemiyle tümleştirmelerini sağlar.
 author: Henrikan
-ms.date: 03/23/2021
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d81441fcc8cb86927923e76bd1a4d16a141ddc75
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571893"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439574"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Ambar işlemleri için kalite yönetimi
-
-[!include [banner](../includes/banner.md)]
 
 _Ambar işlemleri için kalite yönetimi_ özelliği kalite yönetimi yeteneklerini genişletmenize ve gelişmiş ambar yönetimini kullanarak madde örnekleme kontrollerini ambar teslim alma işlemiyle tümleştirmenize olanak tanır. Ambar işi, yüzdeyi veya sabit miktarı ya da her *n*'înci plakayı temel alarak stoğu kalite kontrol konumuna taşımak için otomatik olarak oluşturulabilir. Bir kalite emri tamamlandıktan sonra, kalite sonuçlarına göre stoku sürecin bir sonraki konumuna taşımak için iş otomatik olarak oluşturulabilir.
 
@@ -45,7 +46,7 @@ _Ambar işlemleri için kalite yönetimi_ özelliği, kalite kontrolü için ger
 
 _Ambar işlemleri için kalite yönetimi_ özelliği açık olduğunda, temel ambar yönetimi ve kalite yönetimi varlıklarının kurulumunu değiştirir. Aşağıdaki şekil, ambar işlemleri için kalite emirlerini etkinleştiren varlıkların genel görünümünü sağlar. Parantez içindeki metin, _Ambar yönetimi işlemleri için kalite yönetimi_ özelliği açılmadan önce kalite yönetimi uygulandığında önerilen eylemleri belirtir.
 
-![Kalite yönetimi varlıkları.](media/quality-management-entity-diagram.png "Kalite yönetimi varlıkları")
+![Kalite yönetimi varlıkları](media/quality-management-entity-diagram.png "Kalite yönetimi varlıkları")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Etkinleştiriciler: Kalite madde örnekleme ve Kalite emri iş emri türleri
 
@@ -60,7 +61,7 @@ _Kalite maddesi örnekleme_ ve _Kalite emri_ iş emri türleri yerleşim yönerg
 
 Stoğu kalite kontrolüne taşımak için ambar işi otomatik olarak oluşturulmadan önce, sisteminizi ayarlamak için aşağıdaki adımları izlemeniz gerekir.
 
-1. _Kalite maddesi örnekleme_ ve _Kalite emri_ iş emri türleri için ayrı iş sınıfları oluşturun. Bu şekilde, uygun işin iki iş emri türüne dayalı olarak otomatik olarak oluşturulabilmesini ve bu işin Ambar Yönetimi mobil uygulaması kullanılarak çalıştırılabilmesini sağlarsınız.
+1. _Kalite maddesi örnekleme_ ve _Kalite emri_ iş emri türleri için ayrı iş sınıfları oluşturun. Bu şekilde, uygun işin iki iş emri türüne dayalı olarak otomatik olarak oluşturulabilmesini ve bu işin ambar uygulaması kullanılarak çalıştırılabilmesini sağlarsınız.
 1. Her iş emri türü için iş şablonu ayarlama:
 
     - Kayıtlı stoğu otomatik olarak kalite kontrol konumuna taşımak için _Kalite maddesi örnekleme_ iş emri türünü kullanan bir iş şablonu ayarlayın.
@@ -164,7 +165,7 @@ _Ambar işlemleri için kalite yönetimi_ özelliği ayrıca, *Miktar belirtimi*
 
 **n'inci plaka başına** alanının değeri, kalite emirlerinin kayıtlı madde sayısıyla ilişkili olarak kaç kez oluşturulduğunu kontrol eder. Örneğin, *3* değeri ilk maddeden başlayarak, her üçüncü maddeyi kalite kontrole gönderir. Değer 0'dan (sıfır) fazla olmalıdır.
 
-Çalışanlar Ambar Yönetimi mobil uygulamasını kullanarak maddeleri teslim alırken, sistem her gelen madde için kalite ilişkisinin ayarlanıp ayarlanmayacağını doğrular. Kalite ilişkisi ayarlanmışsa sistem kalite emirlerini, kalite maddesi örnekleme işini ve satınalma siparişi işinin nasıl oluşturulacağının belirlenmesi için o kalite ilişkisi için yapılandırılan madde örnekleme kaydını kullanır.
+Çalışanlar ambar uygulamasını kullanarak maddeleri teslim alırken, sistem her gelen madde için kalite ilişkisinin ayarlanıp ayarlanmayacağını doğrular. Kalite ilişkisi ayarlanmışsa sistem kalite emirlerini, kalite maddesi örnekleme işini ve satınalma siparişi işinin nasıl oluşturulacağının belirlenmesi için o kalite ilişkisi için yapılandırılan madde örnekleme kaydını kullanır.
 
 > [!NOTE]
 > Web istemcisinde giriş kaydı yapıldığında (küçük kayıt sayfası veya satınalma siparişi satırları için madde varış günlüğü kullanılarak), kurulum ne olursa olsun kalite maddesi örnekleme işi veya satınalma siparişi işi oluşturulmaz. Bunun yerine, bir kalite ilişkisiyle eşleşen maddeler için, yalnızca kalite emirlerinin oluşturulmasını denetlemek amacıyla referansta bulunulan madde örneklemesi kullanılır.
@@ -179,14 +180,14 @@ Aşağıdaki örneklerin **Referans türü** değeri _Satınalma_'dır ve **Olay
 
 | Örnekleme kapsamı | Miktar belirtimi | Güncelleştirilen miktar başına | Depolama boyutu başına | Maddeye göre mola sayısı | n. plaka başına | Sonuç |
 |---|---|---|---|---|---|---|
-| Sipariş | Tam plaka | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Evet</p><p>Plaka: Evet _(kilitli/düzenlenemez)_</p> | Hayır | 3 | <p>**Sipariş satırı miktarı: 100 EA**</p><ol><li>20 EA, LP1 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>20 EA için kalite madde örneklemesi işi</p><p>20 EA için kalite emri 1</p></li><li>20 EA, LP2 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>20 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP3 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>20 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP4 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>20 EA için kalite madde örneklemesi işi</p></li><li>20 EA, LP5 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>20 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
-| Sipariş | Sabit miktar = 1 | Evet | <p>Konum: Evet</p><p>Plaka: Evet</p> | Hayır | Geçerli değil | <p>**Sipariş satırı miktarı: 100**</p><ol><li>20 EA, LP1 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>1 EA için kalite madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP2 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>1 EA için kalite Madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP3 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>1 EA için kalite madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP4 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>1 EA için kalite madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP5 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>1 EA için kalite madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
-| Sipariş | Yüzde = 10 | Hayır | <p>Konum: Hayır</p><p>Plaka: Hayır</p> | Hayır | Geçerli değil | <p>**Sipariş satırı miktarı: 100 EA**</p><ol><li>50 EA, LP1 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>10 EA için kalite madde örneklemesi işi</p><p>10 EA için kalite emri 1</p><p>40 EA (yerine koyma) için satınalma siparişi işi</p></li><li>50 EA, LP2 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>50 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
-| Yükle | Yüzde = 5 | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Hayır</p><p>Plaka: Hayır</p> | Hayır | Geçerli değil | <p>**Sipariş satırı miktarı: 500 EA**</p><p>**İki yük: ilk yük 200 EA, ikinci yük 300 EA**</p><ol><li>100 EA için ilk yük için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>95 EA (yerine koyma) için satınalma siparişi işi</p></li><li>100 EA için ilk yük için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>95 EA (yerine koyma) için satınalma siparişi işi</p></li><li>300 EA için ikinci yük için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>15 EA için kalite madde örneklemesi işi</p><p>15 EA için kalite emri 1</p><p>285 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
-| Sıralama | Yüzde = 10 | Evet | <p>Konum: Evet</p><p>Plaka: Evet</p> | Hayır | Geçerli değil | <p>**Sipariş satırı miktarı: 100**</p><ol><li>50 EA, LP1 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 EA (yerine koyma) için satınalma siparişi işi</p></li><li>50 EA, LP2 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 (yerine koyma) için satınalma siparişi işi</p></li></ol> |
-| Yükle | Tam plaka | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Evet</p><p>Plaka: Evet _(kilitli/düzenlenemez)_</p> | Hayır | 3 | <p>**İki madde:**</p><ul><li>**A maddesi için sipariş satırı miktarı: 120 EA (4 palet)**</li><li>**B maddesi için sipariş satırı miktarı: 90 EA (3 palet)**</li></ul><p>**Bir yük, her sipariş satırıyla iyi yük satırı**</p><ol><li>Madde A, 30 EA, LP1 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde A, 30 EA, LP2 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP3 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP4 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde B, 30 EA, LP5 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde B, 30 EA, LP6 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP7 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li></ol> |
-| Yükle | Tam plaka | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Evet</p><p>Plaka: Evet _(kilitli/düzenlenemez)_</p> | Evet | 3 | <p>**İki madde:**</p><ul><li>**A maddesi için sipariş satırı miktarı: 120 EA (4 palet)**</li><li>**B maddesi için sipariş satırı miktarı: 90 EA (3 palet)**</li></ul><p>**Bir yük, her sipariş satırıyla iyi yük satırı**</p><ol><li>Madde A, 30 EA, LP1 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde A, 30 EA, LP2 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP3 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP4 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde B, 30 EA, LP5 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde B, 30 EA, LP6 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP7 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
-| Yükle | Yüzde = 10 | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Hayır</p><p>Plaka: Hayır</p> | Hayır | Geçerli değil | <p>**Sipariş satırı miktarı: 100 EA**</p><p>**Hiçbir yük oluşturulmadı. Sipariş kapsamı uygulandı.**</p><ol><li>50 EA, LP1 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 EA (yerine koyma) için satınalma siparişi işi</p></li><li>50 EA, LP2 için Ambar Yönetimi mobil uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
+| Sipariş | Tam plaka | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Evet</p><p>Plaka: Evet _(kilitli/düzenlenemez)_</p> | No | 3 | <p>**Sipariş satırı miktarı: 100 EA**</p><ol><li>20 EA, LP1 için ambar uygulamasındaki kayıt girişi<p>20 EA için kalite madde örneklemesi işi</p><p>20 EA için kalite emri 1</p></li><li>20 EA, LP2 için ambar uygulamasındaki kayıt girişi<p>20 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP3 için ambar uygulamasındaki kayıt girişi<p>20 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP4 için ambar uygulamasındaki kayıt girişi<p>20 EA için kalite madde örneklemesi işi</p></li><li>20 EA, LP5 için ambar uygulamasındaki kayıt girişi<p>20 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
+| Sipariş | Sabit miktar = 1 | Evet | <p>Konum: Evet</p><p>Plaka: Evet</p> | No | Geçerli değil | <p>**Sipariş satırı miktarı: 100**</p><ol><li>20 EA, LP1 için ambar uygulamasındaki kayıt girişi<p>1 EA için kalite madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP2 için ambar uygulamasındaki kayıt girişi<p>1 EA için kalite Madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP3 için ambar uygulamasındaki kayıt girişi<p>1 EA için kalite madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP4 için ambar uygulamasındaki kayıt girişi<p>1 EA için kalite madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 EA (yerine koyma) için satınalma siparişi işi</p></li><li>20 EA, LP5 için ambar uygulamasındaki kayıt girişi<p>1 EA için kalite madde örneklemesi işi</p><p>1 EA için kalite emri 1</p><p>19 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
+| Sipariş | Yüzde = 10 | No | <p>Konum: Hayır</p><p>Plaka: Hayır</p> | No | Geçerli değil | <p>**Sipariş satırı miktarı: 100 EA**</p><ol><li>50 EA, LP1 için ambar uygulamasındaki kayıt girişi<p>10 EA için kalite madde örneklemesi işi</p><p>10 EA için kalite emri 1</p><p>40 EA (yerine koyma) için satınalma siparişi işi</p></li><li>50 EA, LP2 için ambar uygulamasındaki kayıt girişi<p>50 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
+| Yükle | Yüzde = 5 | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Hayır</p><p>Plaka: Hayır</p> | No | Geçerli değil | <p>**Sipariş satırı miktarı: 500 EA**</p><p>**İki yük: ilk yük 200 EA, ikinci yük 300 EA**</p><ol><li>100 EA için ilk yük için ambar uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>95 EA (yerine koyma) için satınalma siparişi işi</p></li><li>100 EA için ilk yük için ambar uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>95 EA (yerine koyma) için satınalma siparişi işi</p></li><li>300 EA için ikinci yük için ambar uygulamasındaki kayıt girişi<p>15 EA için kalite madde örneklemesi işi</p><p>15 EA için kalite emri 1</p><p>285 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
+| Sipariş | Yüzde = 10 | No | <p>Konum: Evet</p><p>Plaka: Evet</p> | No | Geçerli değil | <p>**Sipariş satırı miktarı: 100**</p><ol><li>50 EA, LP1 için ambar uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 EA (yerine koyma) için satınalma siparişi işi</p></li><li>50 EA, LP2 için ambar uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 (yerine koyma) için satınalma siparişi işi</p></li></ol> |
+| Yükle | Tam plaka | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Evet</p><p>Plaka: Evet _(kilitli/düzenlenemez)_</p> | No | 3 | <p>**İki madde:**</p><ul><li>**A maddesi için sipariş satırı miktarı: 120 EA (4 palet)**</li><li>**B maddesi için sipariş satırı miktarı: 90 EA (3 palet)**</li></ul><p>**Bir yük, her sipariş satırıyla iyi yük satırı**</p><ol><li>Madde A, 30 EA, LP1 için ambar uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde A, 30 EA, LP2 için ambar uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP3 için ambar uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP4 için ambar uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde B, 30 EA, LP5 için ambar uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde B, 30 EA, LP6 için ambar uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP7 için ambar uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li></ol> |
+| Yükle | Tam plaka | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Evet</p><p>Plaka: Evet _(kilitli/düzenlenemez)_</p> | Evet | 3 | <p>**İki madde:**</p><ul><li>**A maddesi için sipariş satırı miktarı: 120 EA (4 palet)**</li><li>**B maddesi için sipariş satırı miktarı: 90 EA (3 palet)**</li></ul><p>**Bir yük, her sipariş satırıyla iyi yük satırı**</p><ol><li>Madde A, 30 EA, LP1 için ambar uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde A, 30 EA, LP2 için ambar uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP3 için ambar uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP4 için ambar uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde B, 30 EA, LP5 için ambar uygulamasındaki kayıt girişi<p>30 EA için kalite madde örneklemesi işi</p><p>30 EA için kalite emri 1</p></li><li>Madde B, 30 EA, LP6 için ambar uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li><li>Madde A, 30 EA, LP7 için ambar uygulamasındaki kayıt girişi<p>30 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
+| Yükle | Yüzde = 10 | Evet _(kilitli/düzenlenemez)_ | <p>Konum: Hayır</p><p>Plaka: Hayır</p> | No | Geçerli değil | <p>**Sipariş satırı miktarı: 100 EA**</p><p>**Hiçbir yük oluşturulmadı. Sipariş kapsamı uygulandı.**</p><ol><li>50 EA, LP1 için ambar uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 EA (yerine koyma) için satınalma siparişi işi</p></li><li>50 EA, LP2 için ambar uygulamasındaki kayıt girişi<p>5 EA için kalite madde örneklemesi işi</p><p>5 EA için kalite emri 1</p><p>45 EA (yerine koyma) için satınalma siparişi işi</p></li></ol> |
 
 Bir çalışan önceki tabloda gösterilen kalite emirlerinden birini doğrularsa sistem, stoğu kalite kontrol yerleşiminden _Kalite emri_ iş emri türü için yerleşim yönergesinde tanımlanan yerleşime taşımak üzere otomatik olarak kalite emri işi oluşturur. Bu amaç için, iade veya depolama yerleşimi gibi herhangi bir konumu, kalite emrinin test sonucuna bağlı olarak ayarlayabilirsiniz. Bu kurulumun bir örneği için bu konunun sonundaki [örnek senaryoya](#example-scenario) bakın.
 
@@ -238,7 +239,7 @@ Aşağıdaki örnekte **Referans türü** değeri _Satınalma_'dır.
     - **Test grubu:** *Koni*
     - **Madde örnekleme:** *%10*
 
-Satıcı 104 için A0001 maddesinden 10 adetlik miktar için bir satınalma siparişi oluşturulur. Daha sonra, miktarı 10 olan bir satın alma siparişi satırı Ambar Yönetimi mobil uygulaması kullanılarak bir plakaya alındı olarak kaydedilir. Sonuç aşağıdaki gibidir:
+Satıcı 104 için A0001 maddesinden 10 adetlik miktar için bir satınalma siparişi oluşturulur. Daha sonra, miktarı 10 olan bir satınalma siparişi satırı ambar uygulaması kullanılarak bir plakaya alındı olarak kaydedilir. Sonuç aşağıdaki gibidir:
 
 - *Kutu* test grubu için ilk kalite ilişkisinden bir kalite emri vardır. Miktar 5'dir. İlk kalite ilişkisinin ölçütleri, *Kutu* test grubuna göre daha özel olduğundan, ikinci kalite ilişkisinden herhangi bir kalite emri yoktur.
 - *Empedans* test grubu için üçüncü kalite ilişkisinden bir kalite emri vardır. Miktar 10'dir. İlk kalite ilişkisinin ölçütleri, *Empedans* test grubuna göre daha özel olduğundan, dördüncü kalite ilişkisinden herhangi bir kalite emri yoktur.
@@ -456,7 +457,7 @@ Malları kalite kontrol yerleşimine taşımak üzere kurulum işlemini tamamlam
     - **Ambar:** *51*
 
 1. Daha sonra kullanabilmek için satınalma siparişi numarasını not edin.
-1. Ambar Yönetimi mobil uygulaması çalıştıran bir mobil cihaza veya emülatöre gidin ve kullanıcı kimliği olarak *51* ve parola olarak *1* kullanarak ambar 51'de oturum açın.
+1. Ambar uygulaması çalıştıran bir mobil cihaza veya emülatöre gidin ve kullanıcı kimliği olarak *51* ve parola olarak *1* kullanarak ambar 51'de oturum açın.
 1. **Gelen \> Satınalma Teslim alma**'ya gidin ve aşağıdaki değerleri girin:
 
     - **PONum:** Yeni oluşturduğunuz satınalma siparişi numarasını girin
@@ -464,7 +465,7 @@ Malları kalite kontrol yerleşimine taşımak üzere kurulum işlemini tamamlam
     - **Birim:** *ea*
 
 1. Satıra göre teslim almaya devam edin; bir kerede *5 ea*, satır tamamen teslim alınana kadar. (Toplam dört plaka oluşturulur.)
-1. Ambar Yönetimi mobil uygulamasında oturumu kapatın.
+1. Ambar uygulaması oturumunuzu kapatın.
 1. Web istemcisine geri dönün, **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
 1. Satınalma siparişinizi bulun ve açın.
 1. **Satınalma siparişi satırları** bölümünde, *M9201* madde numarasıyla ilgili satırı seçin ve **Satınalma siparişi satırları \> İş ayrıntıları**'nı seçin.
@@ -474,7 +475,7 @@ Malları kalite kontrol yerleşimine taşımak üzere kurulum işlemini tamamlam
 
 Şimdi plakaları belirlenen konumlara taşıyacaksınız. Birinci ve dördüncü plakalar kalite kontrol konumuna gider, buna karşılık ikinci ve üçüncü plakalar doğrudan depolama alanına gider.
 
-1. Ambar Yönetimi mobil uygulaması çalıştıran bir mobil cihaza veya emülatöre gidin ve kullanıcı kimliği olarak *51* ve parola olarak *1* kullanarak ambar 51'de oturum açın.
+1. Ambar uygulaması çalıştıran bir mobil cihaza veya emülatöre gidin ve kullanıcı kimliği olarak *51* ve parola olarak *1* kullanarak ambar 51'de oturum açın.
 1. **Gelen \> Satınalma yerine koyma**'ya gidin ve tüm işinizi kapatıncaya kadar önceki yordamdaki her plakayı yerine koyun.
 
 #### <a name="summary-process-quality-management-work"></a>Özet: Kalite yönetimi işini işleme
@@ -616,14 +617,8 @@ Ambar 51 için iş ve konum verilerini, kalite emirleri tamamlandığında işin
 
 1. **Ambar yönetimi \> Tüm işler**'e gidin.
 1. Yeni oluşturulan işi seçin ve ikinci bir kalite emri işi başlığı oluşturulduğuna ve yerine koyma konumunun *TOPLU-001* olduğuna dikkat edin.
-1. Ambar Yönetimi mobil uygulaması çalıştıran bir mobil cihaza veya emülatöre gidin ve kullanıcı kimliği olarak *51* ve parola olarak *1* kullanarak ambar 51'de oturum açın.
+1. Ambar uygulaması çalıştıran bir mobil cihaza veya emülatöre gidin ve kullanıcı kimliği olarak *51* ve parola olarak *1* kullanarak ambar 51'de oturum açın.
 1. **Kalite \>QMS'den Yerine Koyma**'ya gidin ve tüm işin kapatılması için her iki iş parçasının ilişkili olduğu iki plakanın her birini işleyin.
 
 > [!NOTE]
 > Etkinlik kodunun *Açık iş listesini görüntüle* olduğu bir mobil cihaz menü öğesine bir kalite çıkış girişi eklemeyi düşünün. Örnek olarak, demo verilerdeki **İş listesi** adlı mobil cihaz menü öğesine bakın. Öncelikle *Kalite emri* iş sınıfını kullanıcı tarafından yönlendirilen bir menü öğesine ekleyin; çünkü işin iş listesinde görünmesi için bu iş sınıfı gereklidir. Sonra *Kalite emri* iş sınıfını **İş listesi** menü öğesine ekleyin. Bu durumda, iş listesine erişimi olan kullanıcılar otomatik olarak kalite emri doğrulaması tarafından oluşturulan işi çekebilir ve işleyebilir.
-
-## <a name="additional-resources"></a>Ek kaynaklar
-
-- [Kalite ve uygunsuzluk yönetimine genel bakış](quality-management-processes.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

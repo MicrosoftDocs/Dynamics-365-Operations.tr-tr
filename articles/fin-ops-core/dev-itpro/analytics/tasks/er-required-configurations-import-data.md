@@ -1,10 +1,12 @@
 ---
 title: ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma
-description: Bu konuda, Microsoft Dynamics 365 Finance uygulamasına harici bir dosyadan veri aktarmak üzere Elektronik raporlama yapılandırmalarının nasıl tasarlanacağı açıklanmaktadır.
+description: Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan Microsoft Dynamics 365 Finance uygulamasına verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
@@ -13,25 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720868"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684295"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan uygulamaya verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar. Bu örnekte bir örnek şirket olan Litware, Inc. için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için önce "ER Bir yapılandırma sağlayıcısı oluştur ve bunu etkin olarak işaretle" Görev kılavuzundaki adımları tamamlamanız gerekir. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Ayrıca, aşağıdaki dosyaları da indirip yerel olarak kaydetmelisiniz. 
-
-| İçerik açıklaması                       | Dosya adı                                     |
-|-------------------------------------------|-----------------------------------------------|
-| ER verisi modeli yapılandırması - 1099 | [1099model,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
-| ER biçimi yapılandırması - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
-| XML biçimindeki gelen belge örneği                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
-| Gelen belgenin verisini yönetmek için çalışma sayfası örneği                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
+Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan uygulamaya verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar. Bu örnekte bir örnek şirket olan Litware, Inc. için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için önce "ER Bir yapılandırma sağlayıcısı oluştur ve bunu etkin olarak işaretle" Görev kılavuzundaki adımları tamamlamanız gerekir. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Ayrıca, Elektronik raporlamaya genel bakış konusundan (https://go.microsoft.com/fwlink/?linkid=852550): bağlantıları kullanarak şu dosyaları yerel olarak indirmeniz ve kaydetmeniz gerekir: 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
 ER, iş kullanıcılarına harici veri dosyalarının tablolara .XML veya .TXT biçiminde içeri aktarılmasını yapılandırma özelliği sunar. Öncelikle, içeri aktardığınız verileri temsil etmek üzere soyut veri modeli ve ER veri modeli yapılandırmasının tasarlanması gerekir. Ardından, içeri aktarmakta olduğunuz dosyanın yapısını ve verileri dosyadan soyut veri modeline taşırken kullanacağınız yöntemi tanımlamanız gerekir. Bu soyut veri modeli için tasarlanan veri modeliyle eşleşen ER biçim yapılandırmasının oluşturulması gerekir. Ardından, veri modeli yapılandırması içeri aktarılan verilerin soyut veri modeli verileri olarak nasıl kalıcı hale geldiğini ve tabloları güncelleştirmek için nasıl kullanıldığını tanımlayan bir eşleme ile genişletilmelidir.  ER veri modeli yapılandırması, veri modelinin uygulama hedefleriyle bağını tanımlayan yeni bir model eşlemesiyle birlikte eklenmesi gerekir.  
 
@@ -259,6 +254,3 @@ Test amacıyla bu biçim eşlemesini yürütün. Daha önce indirdiğiniz 1099en
 27. Sayfayı kapatın.
 28. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

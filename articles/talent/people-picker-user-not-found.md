@@ -60,6 +60,3 @@ Kullanıcı üzerindeki **UserType** özelliğini not edin. **UserType** boş is
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

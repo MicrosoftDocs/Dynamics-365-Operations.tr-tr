@@ -1,74 +1,71 @@
 ---
 title: Kazanca uygunluk kurallarını ve ilkelerini tanımlama
-description: Bu konuda, kazanç uygunluk kuralları ve ilkelerinin nasıl oluşturulacağı ve ardından kuralların Kazançlara nasıl atanacağı açıklanmaktadır.
-author: twheeloc
-ms.date: 08/23/2021
+description: Bu makale, size yeni kazanç uygunluk kuralları ve ilkeleri oluşturmayı ve daha sonra kuralları kazançlara atamayı gösterir.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: c2595e40f6f9d1f75a94a3339735cc06bdabd14a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: f46437fef342ab1a4e368063d8b74205ca8e8c05
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067666"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420930"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>Kazanca uygunluk kurallarını ve ilkelerini tanımlama
 
+Bu makale, size yeni kazanç uygunluk kuralları ve ilkeleri oluşturmayı ve daha sonra kuralları kazançlara atamayı gösterir.  
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
+Bu kaydı oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Bu konuda, kazanç uygunluk kuralları ve ilkelerinin nasıl oluşturulacağı ve ardından kuralların kazançlara nasıl atanacağı açıklanmaktadır.  
 
 ## <a name="create-benefit-eligibility-policy-rule-type"></a>Kazanç uygunluk ilkesi kural türü yaratın
-
-1. **İnsan kaynakları > Kazançlar > Uygunluk > Kazanç uygunluğu ilkesi kural türleri**'ne gidin.
-2. **Yeni**'yi seçin.
-3. **Kural adı** alanına bir değer girin.
-4. **Açıklama** alanında bir değer girin.
-5. **Sorgu adı** alanında, açılır menü düğmesini seçerek aramayı açın.
-6. Listeden, seçilen satırdaki bağlantıyı seçin.
-7. **Kaydet**'i seçin.
+1. İnsan Kaynakları > Kazançlar > Uygunluk > Kazanç uygunluk ilkesi ve kural türleri'ne tıklayın.
+2. Yeni'ye tıklayın.
+3. Kural adı alanına bir değer girin.
+4. Açıklama alanına bir değer girin.
+5. Sorgu adı alanında, açılır menü düğmesine tıklayarak aramayı açın.
+6. Listede, seçili satırdaki bağlantıya tıklayın.
+7. Kaydet'e tıklayın.
 8. Sayfayı kapatın.
 
 ## <a name="benefit-eligibility-policy"></a>Kazanç uygunluğu ilkesi
-
-1. **İnsan kaynakları > Kazançlar > Uygunluk > Kazanç uygunluk ilkeleri**'ni seçin.
+1. İnsan Kaynakları > Kazançlar > Uygunluk > Kazanç uygunluk ilkeleri'ne tıklayın.
 2. Varolan bir kazanç ilkesi seçin.
-3. Listeden, seçilen satırdaki bağlantıyı seçin.
-4. **İlke kuruluşları** bölümlerinin genişletilmiş görünümüne geçin. İlkeye dahil etmek istediğiniz kuruluşları ekleyebilir veya kaldırabilirsiniz.
-5. **İlke kuralları** bölümünü genişletin veya daraltın.
-6. Listede, daha önce oluşturduğunuz ilke kuralını bulun.
-7. **İlke kuralı oluştur**'u seçin.
-8. **Geçerlilik tarihi** alanına, ilkenin yürürlüğe girmesini istediğiniz tarihi girin.
-    * Geçerlilik bitiş tarihleri ayarlamak, ilke kurallarında gelecekte değişiklikler yapmanıza olanak tanır, böylece bu değişikliklerin etkili olmasını istediğinizde ilkeye geri dönmenize gerek yoktur.  
-9. Gerekirse, **Koşul ekle** alanına where yan tümcesi ekleyin.
-    * Örneğin, kuralın yalnızca Satış Yöneticileri için geçerli olmasını istiyorsanız where yan tümcesini oluşturabilirsiniz: Where konum açıklaması Satış Yöneticisi'ne eşittir. Kuralda birden çok where deyimlerini birlikte ekleyebilirsiniz.  
-10. **Tamam**'ı seçin.
+3. Listede, seçili satırdaki bağlantıya tıklayın.
+4. İlke kuruluşu bölümlerinin genişletimesini değiştirin.  Burada ilkesine dahil etmek istediğiniz kuruluşları ekleyebilir ve kaldırabilirsiniz.
+5. İlke kuralları bölümünü genişletin veya daraltın.
+6. Daha önce oluşturduğunuz ilke kuralını listede bulun.
+7. İlke kuralı oluştur'a tıklayın.
+8. Etkin tarih alanında, ilkenin etkin hale gelmesini istediğiniz tarihi girin.
+    * Etkili ve bitiş tarihlerini girmek, ilke kurallarında gelecekte değişiklik yapmanıza ve bu değişikliklerin etkin olmasını istediğiniz zamanda bu ilkeye geri dönmenize olan gereksinimi kaldırır.  
+9. 
+    * Kuralın sadece Satış Yöneticilerine uygulanmasını istiyorsanız, Nerede yan tümcesini şunun olacağı şekilde oluşturursunuz: Pozisyon tanımının Satış Yöneticisine eşit olduğunda.  Birden çok Nerede ifadesini Ve/veya ifadeleri ile birlikte kullanabilirsiniz.  
+10. Tamam'a tıklayın.
 11. Sayfayı kapatın.
+12. Sayfayı kapatın.
 
 ## <a name="assign-rule-to-benefit"></a>Kuralı, kazanca atayın
-
-1. **İnsan kaynakları > Kazançlar > Kazançlar**'a gidin.
+1. İnsan kaynakları > Kazançlar > Kazançlar seçeneğine gidin.
 2. Listede, istenen kaydı bulun ve seçin.
-3. Listeden, seçilen satırdaki bağlantıyı seçin.
-4. **Uygunluk kuralları** bölümünü genişletin veya daraltın.
-5. **Düzenle** öğesini seçin.
-6. **Uygunluk** alanında, kuralı seçin.
-7. **Kural türü** alanında, daha önce oluşturduğunuz kuralı seçin.
-9. Listeden, seçilen satırdaki bağlantıyı seçin.
-10. **Kaydet**'i seçin.
+3. Listede, seçili satırdaki bağlantıya tıklayın.
+4. Uygunluk kuralları bölümünü genişletin veya daraltın.
+5. Düzenle'yi tıklatın.
+6. Uygunluk alanında listeden Kurala göre'yi seçin.
+7. Kural türü alanında, aramayı açmak için açılır menü düğmesini tıklatın.
+8. Listede, önceden oluşturduğunuz kuralı bulun ve seçin.
+9. Listede, seçili satırdaki bağlantıya tıklayın.
+10. Kaydet'e tıklayın.
 11. Formu kapatın.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

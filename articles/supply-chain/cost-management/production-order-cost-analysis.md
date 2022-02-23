@@ -2,9 +2,11 @@
 title: Üretim emri maliyet analizi
 description: Bu makalede, tamamlanmış ve geçerli üretim emirleri için yapabileceğiniz maliyet analizi hakkında bilgiler sağlanmıştır. Tahmini maliyetleri ve gerçek maliyetleri Fiyat hesaplaması sayfasını veya Maliyet tahminleri ve maliyetlendirmeler raporunu kullanarak analiz edebilirsiniz. Her bir bileşen maddesine, rota operasyonuna ve dolaylı maliyete yönelik tahmini ve gerçek maliyetler (ve miktar) hakkındaki bilgileri görüntüleyebilirsiniz.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0858e0e9ed0f09a47954274a05f6da1a2537c4a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734271"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967295"
 ---
 # <a name="production-order-cost-analysis"></a>Üretim emri maliyet analizi
 
@@ -41,7 +43,7 @@ Farklar, raporlanan üretim faaliyetleri ile üretim maddesinin standart maliyet
 
 Aşağıdaki diyagramda, bir üretim emrinin gerçek maliyetleriyle, üretim emrinin sonlandırılması anında maddenin maliyet kaydı içersindeki hesaplanan maliyetler arasındaki farkı açıklayan dört fark gösterilmektedir. 
 
-![Tamamlanmış bir üretim emrindeki farklılıkları dikkate alan farklar.](./media/control.jpg) 
+![Tamamlanmış bir üretim emrindeki farklılıkları dikkate alan farklar](./media/control.jpg) 
 
 **Fark** sayfasını veya **Üretim farkı** raporunu kullanarak üretim farklarını analiz edebilirsiniz. Ayrıntılı farkları maddeye ve operasyon kaynağına veya maliyet grubuna göre görüntülemek için görüntüleme seçeneklerini kullanın. Stok parametrelerindeki maliyet kırılımına yönelik ilke, farkların maliyet grubunca izlenip izlenmeyeceğini belirler. Özetlenmiş farkları görüntülemek için **tekli**, **çoklu** ve **toplam** görüntüleme seçeneklerini de kullanabilirsiniz. Ayrıntılı fark bilgileri, her farkın kaynağını anlamanıza yardımcı olur. Bir üretim emrini sonlandırmadan önce farkları tahmin etmek için, **Maliyet tahminleri ve maliyetlendirme** raporunda sağlanan ayrıntılı bilgileri analiz edin.
 
@@ -55,12 +57,10 @@ Ayrı raporlar, her hareket tipi için bilgi sağlar. Raporlanan üretim faaliye
 -   **Süren bitmiş maddeler** − Bu rapor, belirtilen bir hareket tarihi itibariyle geçerli üretim emirlerini ve bitmiş olarak raporlanan hareketleri listeler.
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Üretim farklarının ortak kaynakları](common-sources-of-production-variances.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

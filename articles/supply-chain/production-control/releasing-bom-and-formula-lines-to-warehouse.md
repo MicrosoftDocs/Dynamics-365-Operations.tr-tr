@@ -2,24 +2,27 @@
 title: Ürün reçetesi ve formül satırlarını ambara serbest bırakma
 description: Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hammadde serbest bırakma süreci açıklanmaktadır.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731235"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439643"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Ürün reçetesi ve formül satırlarını ambara serbest bırakma
 
@@ -61,7 +64,7 @@ Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hamm
 
 Aşağıdaki örnekte üretim emri için montaj ve paketlemeyi kapsayan 10 ve 20 şeklinde iki işi bulunan bir üretim emri gösterilmektedir. Her iş bir miktar malzeme tüketmek üzere ayarlanır. Bu örnekte, zaman çizgisi altında yeşil okla belirtilen serbest bırakma zaman aralığı **(LessThanDate())** ölçütünde belirtilen gün sayısına eşittir. Örneğin, **(LessThanDate(2))** işin serbest bırakılmamış olan miktarlara yalnızca iki günlük zaman aralığında bakması gerektiğini belirtir.
 
-![İki toplu işi bulunan bir üretim emri örneği.](media/bach-job-setup.PNG)
+![İki toplu işi bulunan bir üretim emri örneği](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Malzemeyi işlem numarasına göre veya mamul malların miktarıyla orantılı serbest bırakma
 
@@ -78,7 +81,7 @@ Malzemenin serbest bırakılması gereken işlemleri denetlemek için **Ambara s
 
 Aşağıdaki örnekte 10 ve 20 şeklinde iki işlemi bulunan bir üretim emri gösterilmektedir. Bu örnekte, serbest bırakmayı 10 işlemiyle sınırlarsanız yalnızca M9203 malzemesi serbest bırakılacaktır.
 
-![İşlem numarasına göre malzeme serbest bırakma örneği.](media/two-operations.PNG)
+![İşlem numarasına göre malzeme serbest bırakma örneği](media/two-operations.PNG)
 
 Malzemenin, mamul mal miktarına orantılı olarak nasıl serbest bırakılacağı hakkında hızlı bir tanıtım için, YouTube'da [üretim emri serbest bırakma sürecindeki geliştirmeleri](https://www.youtube.com/watch?v=Rm3ojAz6Zu0) hakkındaki kısa videoyu izleyin.
 
@@ -95,6 +98,3 @@ Hammaddeyi kısmi bir mamul ürün miktarı için veya belirli bir birimde serbe
     Kullanılabilir birimler mamul ürününün birim sırası grubu kodunda tanımlanır.
 
     Örneğin, mamul ürün pound (libre) ve palet (PL) arasında şu birin dönüştürmeye sahiptir: 1 PL = 100 libre 10.000 libre mamul ürün için üretim emri oluşturmak üzere üretmeyi planladığınız palet sayısı için hammaddeyi serbest bırakabilirsiniz. Birim olarak **PL** seçin ve ardından **Miktar** alanında karşılık gelen sayıyı seçin.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

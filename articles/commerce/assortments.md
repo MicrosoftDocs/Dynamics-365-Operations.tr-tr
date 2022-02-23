@@ -2,22 +2,25 @@
 title: Ürün çeşidi yönetimi
 description: Bu konu Dynamics 365 Commerce'da ürün çeşidi yönetiminin temel kavramlarını açıklar ve projeniz için uygulamayla ilgili önemli notlar sağlar.
 author: jblucher
+manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717783"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416352"
 ---
 # <a name="assortment-management"></a>Ürün çeşidi yönetimi
 
@@ -35,27 +38,27 @@ Bir kanalın genel ürün karışımı kanala atanan yayımlanmış ürün çeş
 
 Aşağıdaki örnekte, her mağaza için benzersiz bir sınıflama yapılandırılmıştır. Bu durumda, ürün 1 mağaza 1'de kullanılabilir ve yalnızca ürün 2 mağaza 2'de kullanılabilir.
 
-![Her ürün bir mağazada kullanılabilir.](./media/Managing-assortments-figure1.png)
+![Her ürün bir mağazada kullanılabilir](./media/Managing-assortments-figure1.png)
 
 Ürün 2'yi mağaza 1'de kullanılabilir yapmak için, ürünü ürün çeşidi 1'e ekleyebilirsiniz.
 
-![Ürün 2 ürün çeşidi 1'e eklenir.](./media/Managing-assortments-figure2.png)
+![Ürün 2 ürün çeşidi 1'e eklenir](./media/Managing-assortments-figure2.png)
 
 Alternatif olarak, mağaza 1'i ürün çeşidi 2'ye ekleyebilirsiniz.
 
-![Mağaza 1 ürün çeşidi 2'ye eklenir.](./media/Managing-assortments-figure3.png)
+![Mağaza 1 ürün çeşidi 2'ye eklenir](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Kuruluş hiyerarşileri
 
 Aynı ürün çeşitlerini paylaşan birden fazla kanal olması durumunda, ürün çeşitlerini Commerce ürün çeşidi kuruluş hiyerarşisini kullanarak yapılandırabilirsiniz. Bir hiyerarşiden düğümler eklendiğinde, bu düğümdeki tüm kanallar ve alt düğümleri dahil edilir.
 
-![Kuruluş hiyerarşisi.](./media/Managing-assortments-figure4.png)
+![Kuruluş hiyerarşisi](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Ürün kategorileri
 
 Benzer şekilde, ürün tarafında, ürün kategorisi hiyerarşilerini kullanarak ürün grupları ekleyebilirsiniz. Bir veya daha fazla kategori hiyerarşisi düğümü ekleyerek ürün çeşitlerini yapılandırabilirsiniz. Bu durumda, ürün çeşidi bu kategori düğümündeki ve onun alt düğümlerindeki tüm ürünleri içerir.
 
-![Ürün kategorileri.](./media/Managing-assortments-figure5.png)
+![Ürün kategorileri](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Dışarıda bırakılan ürünler veya kategoriler
 
@@ -64,7 +67,7 @@ Benzer şekilde, ürün tarafında, ürün kategorisi hiyerarşilerini kullanara
 > [!NOTE]
 > Bir ürün tanımına göre bir veya daha fazla ürün çeşidine hem dahil ediliyor hem de dışarıda bırakılıyorsa, ürün daima dışarıda bırakılmış olarak kabul edilir.
 
-![Hariç tutulan ürün.](./media/Managing-assortments-figure6.png)
+![Hariç tutulan ürün](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Genel ve serbest bırakılan ürünler
 
@@ -104,6 +107,3 @@ Commerce uygulamanız için ürün çeşitlerini planlayıp yönetirken aşağı
 - **Ürün çeşitleri dışındaki satışlar ve iadeler** – Bu özellik perakendecilerin kendi ürün çeşitlerini mağaza için temel ürün yelpazesine ait ürünler için ürün sayısını vererek etkin biçimde yönetmesine yardımcı olur. Bu özellik ayrıca perakendecilerin bir ürünün yanlışlıkla bir ürün çeşidinde eksik kalması ya da bir ürünün ürün çeşidine ilişkin geçerlilik tarihleri dışında iade edilmesi durumunda yardımcı olur.
 
 Ürün verileri kanal veritabanında yoksa, POS gerekli bilgileri almak için merkeze gerçek zamanlı bir ağrı yapar ve böylece ürün satılabilir, iade edilebilir veya müşteri siparişine konulabilir. Bu şekilde alınan ürün bilgileri yalnızca bu hareket kapsamı süresince kullanılabilir. Ürün ürün çeşidi tanımına eklenmez. Bu nedenle, daha sonra gerektiğinde gerçek zamanlı çağrılar yapılır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

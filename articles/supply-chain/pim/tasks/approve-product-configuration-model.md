@@ -1,24 +1,27 @@
 ---
 title: Ürün yapılandırma modelini onaylama
 description: Bu yordamın çalıştırılması için kullanılabilir en az bir ürün yapılandırma modeli olması gerekir.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductModelVersion, PCApproveProductModelVersion, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2aefc1a26158fd23af7330bfff7a6ac0e8f3e347
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 440ffbdf1db22ac25971922d80a5569a340ba81c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578188"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439310"
 ---
 # <a name="approve-a-product-configuration-model"></a>Ürün yapılandırma modelini onaylama
 
@@ -26,25 +29,23 @@ ms.locfileid: "7578188"
 
 Bu yordamın çalıştırılması için kullanılabilir en az bir ürün yapılandırma modeli olması gerekir. Bu yordam, USMF demo verisi şirketindeki son teknoloji hoparlör modelini kullanılır. Bu modelin önceden onaylandığını unutmayın; yordam yine de tüm işlemi adım adım açıklar.
 
-1. **Ürün bilgileri yönetimi \> Ürünler \> Ürün yapılandırma modelleri**'ne gidin.
-1. Listede, istenen kaydı bulun ve seçin.
+1. Ürün varyantı model tanımı'na tıklayın.
+2. Ürün yapılandırma modelleri'ne tıklayın.
+3. Listede, istenen kaydı bulun ve seçin.
     * Bu yordam için son teknoloji hoparlör modelini seçin.  
-1. **Sürümler**'i seçin.
-1. **Yeni**'yi seçin.
-1. **Ürün numarası** alanında bir değer girin veya seçin.
+4. Sürümler'i tıklatın.
+5. Yeni'ye tıklayın.
+6. Ürün numarası alanında bir değer girin veya seçin.
     * Bir ürüne verilen referans, ürün yapılandırma modelinin bir sürümünü temsil eder. Yalnızca kısıtlama tabanlı yapılandırma teknolojisine sahip olan ana ürünler bu listede görünecektir.  
-1. **Başlangıç tarihi** alanına bir tarih girin.
+7. Başlangıç tarihi alanına bir tarih girin.
     * Ürün modeli sürümünün ne zaman kullanılabilir olacağını belirleyin.  
-1. **Bitiş tarihi** alanına bir tarih girin.
+8. Bitiş tarihi alanına bir tarih girin.
     * Bu ürün modeli sürümünün sona ereceği bitiş tarihini seçin veya Hiçbir zaman seçeneğini belirleyin.  
-1. Açılır iletişim kutusunu açmak için **Onayla**'yı seçin.
-1. **Onaylayan** alanında bir değer girin veya bir değer seçin.
+9. İletişim kutusunu açmak için Onayla'yı tıklatın.
+10. Onaylayan alanında bir değer girin veya bir değer seçin.
     * İşlemlerde kullanılacak ürün modellerinin onaylanmasından sorumlu kişiyi seçin.  
-1. **Tamam**'ı seçin.
-1. **Fiyatlandırma yöntemi** alanında bir seçenek belirleyin.
+11. Tamam'a tıklayın.
+12. Fiyatlandırma yöntemi alanında bir seçenek belirleyin.
     * Ürün modeli versiyonunu etkinleştirin. Bir defada bir ürün modeli için yalnızca bir etkin ürün olması mümkündür.  
-1. Sayfayı kapatın.
+13. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

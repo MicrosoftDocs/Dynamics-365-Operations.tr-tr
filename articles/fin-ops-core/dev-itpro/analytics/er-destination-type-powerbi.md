@@ -2,9 +2,11 @@
 title: Power BI ER hedef türleri
 description: Bu konu, giden belgeler için Power BI ER hedef türünün nasıl yapılandırılacağı hakkında bilgi sağlamaktadır.
 author: NickSelin
+manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 499447b05ef6360cde95049e592d7c9ffe2da1c4ff26937482033b9f705c3acd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3355c3bced950f65964b124fee553d8c5b53c6b0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777440"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679594"
 ---
 # <a name="power-bi-destination"></a>Power BI hedefi
 
@@ -30,12 +32,9 @@ Giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER
 
 Verilerinizi Dynamics 365 Finance kurulumunuzdan Microsoft Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı kullanmak için **Etkin**'i **Evet** olarak ayarlayın. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server örneği üzerinde depolanmalıdır. Daha fazla bilgi için bkz. [Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
-[![Hedef ayarı sayfası.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
+[![Hedef ayarı sayfası](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

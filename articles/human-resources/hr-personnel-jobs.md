@@ -1,33 +1,31 @@
 ---
 title: İşin bileşenlerini ayarlama
 description: Bu konu, bir işin içerebileceği konsept öğelerini açıklar ve bu öğeleri kuruluşunuzda nasıl kullanabileceğiniz hakkında örnekler sağlar.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
-ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
+ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: twheeloc
-ms.search.scope: Human Resources
+ms.author: anbichse
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources, Retail
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c9421646dacc5523f40b28b550881dc4b25dd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 69759c0488563a904f6e80afacb1802611ab1930
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068171"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420927"
 ---
 # <a name="set-up-the-components-of-a-job"></a>İşin bileşenlerini ayarlama
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu konu, bir işin içerebileceği konsept öğelerini açıklar ve bu öğeleri kuruluşunuzda nasıl kullanabileceğiniz hakkında örnekler sağlar. 
 
@@ -40,17 +38,12 @@ Bazı iş ayrıntıları, örneğin iş unvanı, türü ve işlevi, yürürlük 
 
 Arama özelliğini kullanarak açabileceğiniz **Unvanlar** sayfasını kullanarak iş unvanlarını korumak. **Unvanlar** sayfasında, işlerinizde kullanmayı planladığınız unvanları girin.
 
-## <a name="job-types"></a>İş türleri
+## <a name="job-types"></a>İş tipleri
 Benzer işleri kategorilere gruplamak için iş türlerini kullanın. İş türleri, zorunlu değildir. Ancak, maaş yönetimi için uygunluk kuralları oluşturduğunuzda iş türlerini kullanmayı planlıyorsanız, işleri ayarlamadan önce iş tiplerini ayarlamalısınız. İş türlerine bazı örnekler tam zamanlı ve yarı zamanlı veya maaşlı ve saatlik ödemelidir. **İş türleri** sayfasını kullanarak iş türlerini yönetirsiniz. **İş türleri** sayfası üzerinde, iş türü için kısa bir açıklama ve ad girin. **Muaf durumu** alanında, Adil İş Standartları Yasası (FLSA) muafiyet durumunu, şu iş durumuna sahip işler için belirtmek üzere aşağıdaki seçeneklerden birini işaretleyin:
 
 -   **Muafiyet** – İşler, FLSA kapsamı altında fazla mesai dışında tutulurlar.
 -   **Muaf olmayan** – İşler, FLSA kapsamı altında fazla mesai dışında tutulmaz.
 -   **Geçerli değildir** – FLSA kapsamı için geçerli değildir.
-
-## <a name="job-family"></a>İş ailesi
-Bir iş ailesi, benzer bir iş içeren ve benzer eğitim, beceriler, bilgi ve uzmanlığa gereksinim duyan bir iş grubudur. İş ailesi, **İşler** sayfasının **İş sınıflandırması** hızlı sekmesinde ve **Tüm pozisyonlar** sayfasının **Genel** hızlı sekmesinde bir işle bağlantılı olabilir. İş aileleri, işletmeniz ve raporlama gereksinimlerinize bağlı olarak geniş veya özel olabilir. Geniş çaplı iş ailelerine örnek olarak, **Nitelikli işçilik** ve **Yetenek gerektirmeyen işçilik** verilebilir. Özel iş ailelerine örnek olarak **Muhasebe**, **Üretim** ve **Satış** verilebilir.
-
-Arama özelliğini kullanarak açabileceğiniz **İş ailesi** sayfasını kullanarak iş ailelerini yönetin. **İş ailesi** sayfasında, aile için benzersiz bir ad girin ve işleriniz için kullanmayı planladığınız ayrıntılı açıklamayı girin.
 
 ## <a name="job-functions"></a>İş işlevleri
 İş işlevleri, yüksek seviye işlevsellik kategorileri açıklar ve yüksek düzey görevleri ilişkilendirir. İş işlevleri, zorunlu değildir. Tazminat planlarını belirli işlere göre filtrelemek için iş işlevlerini iş tipleriyle birlikte kullanabilirsiniz. **Uygunluk kuralları** sayfasında uygunluk kuralları oluşturarak iş işlevlerini ve iş türlerini, maaş planları ile ilişkilendirebilirsiniz. Bir uygunluk kuralı aracılığıyla tanımlamış olduğunuz belirli bir iş türü ve iş işlevine uygulanacak bir diz seviyeyi bir ücret planına iliştirebilirsiniz. (Bu özellikler hem sabit maaş planları hem de değişken maaş planları için geçerlidir.) Ancak, maaş yönetimi için uygunluk kuralları oluşturduğunuzda iş işlevlerini kullanmayı planlıyorsanız, işleri ayarlamadan önce iş işlevlerini ayarlamalısınız. Aşağıdaki tablo iş işlevlerine bazı örnekleri gösterir.
@@ -61,14 +54,6 @@ Arama özelliğini kullanarak açabileceğiniz **İş ailesi** sayfasını kulla
 | Muhasebeci    | Profesyoneller        |
 
 İş işlevlerini, **İş işlevleri** sayfasını kullanarak yönetirsiniz. **İş işlevleri** sayfası üzerinde, bir kimlik saptama kodu ve iş işlevi için kısa bir açıklama girersiniz.
-
-## <a name="compensation"></a>Maaş
-Bir projede pozisyona sahip bir çalışana sabit ücret planı atamak için, iş üzerinde ücret düzeylerini ayarlamanız gerekir. Ücret yapısında (ücret ızgarası) minimum, orta nokta ve maksimum tutarlar ayarlandığında, **Ücret düzeyi** kullanılır. Sabit ücret planı oluşturulduğunda, ücret yapısı seçilir. Ücret yapısı ücret düzeyini de içerir. Bir çalışan için sabit bir ücret planı seçerken, seçim için kullanılabilen ücret düzeyleri, çalışanın pozisyonunun ilişkili olduğu işe bağlıdır. Ücret ayarlama hakkında daha fazla bilgi için bkz. [Ücret planları](hr-compensation-overview.md).
-
-## <a name="job-skills"></a>İş yetenekleri
-İş yetenekleri, bir işi gerçekleştirmek için gerekli olan yetenekleri açıklar. Yetenek düzeyinin her iş yeteneğiyle ilişkilendirilmesi gerekir. Yetenek düzeyleri kullanıcı tanımlıdır. Bunlar yetenek için gerekli olan bilgi düzeyini veya yeterliliği gösterir. Örneğin, şirketler 1-5 gibi sayısal düzeyler ayarlayabilir, burada **1** acemi ve **5** uzman düzeyi belirtir. Alternatif olarak, şirketler **Acemi**, **Orta** veya **Uzman** etiketli düzeyler ayarlayabilir. Yetenek düzeyi ayarlandıktan sonra, yeteneğin önem derecesi de ayarlanabilir. Örneğin, bir muhasebecinin güçlü Microsoft Excel bilgisine sahip olması gerekiyorsa, **Excel bilgisi** olarak adlandırılan bir yetenek oluşturulabilir. Yetenek düzeyi daha sonra **Orta** olarak ve önem derecesi **En çok** olarak ayarlanabilir.
-
-Bir işteki yetenekler yetenek eşlemede kullanılabilir. Yetenek eşleme, bir iş için gerekli olan yetenek kümesini ve bir çalışanla ilişkili yetenekleri karşılaştırabilir. Daha sonra, örtüşen yetenekleri temel alan bir yüzde eşleşmesi belirleyebilir. Yetenek eşleme hakkında daha fazla bilgi edinmek için, bkz [Yetenekleri yapılandırma](hr-develop-skills.md). 
 
 ## <a name="job-tasks"></a>İş görevleri
 İş görevleri, bir iş için bir konumda olan bir çalışanın tamamlaması gereken temel görevleri açıklar. Aynı iş görevi, birden fazla işe ve bu iş görevlerini kullanan iş pozisyonlarına eklenebilir. Aşağıdaki tablo iş görevlerinin bazı örneklerini gösterir.
@@ -101,7 +86,4 @@ Bir işteki yetenekler yetenek eşlemede kullanılabilir. Yetenek eşleme, bir i
 Bir pozisyondaki çalışanın o iş için sorumlu olacağı iş rollerini, süreçleri ve ürünleri belirtmek üzere sorumluluk alanlarını kullanırsınız. Örneğin, "Muhasebeci" olarak adlandırılan bir iş için, sorumluluk alanlarından biri "Ürün A için mali raporlama" olabilir. Arama işlevi ile bulabileceğiniz **Sorumluluk alanları** sayfasını kullanarak sorumluluk alanlarını yönetirsiniz. **Sorumluluk alanları** sayfasında, sorumluluk için bir isim ve açıklama girin. İsteğe bağlı olarak **Not** alanında ek bilgiler girebilirsiniz. Belirli bir iş için notlar, burada girmiş olduğunuz notları değiştirmeden güncelleştirilebilir.
 
 ## <a name="steps-for-creating-a-job"></a>Bir iş oluşturma adımları
-Yeni bir iş oluşturmaya ilişkin adım adım yordam için [Yeni işler tanımlama](./hr-personnel-define-jobs.md) konusuna başvurun. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Yeni bir iş oluşturmaya ilişkin adım adım yordam için [Yeni işler tanımlama](../fin-and-ops/hr/tasks/define-new-jobs.md) konusuna başvurun. 

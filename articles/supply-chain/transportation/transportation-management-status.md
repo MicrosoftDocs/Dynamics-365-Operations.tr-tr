@@ -2,22 +2,25 @@
 title: Taşıma yönetimi durumları
 description: Bu konuda, bir taşıma durumunun nasıl oluşturulacağı ve o durumun bir taşıyıcı durumuna nasıl eşleneceği açıklanmaktadır.
 author: Henrikan
+manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c5570d3b5b436a35bb57d051bc06cde8b78934e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: 3f7d471771ec2b4703d878fbf395cd90902b6669
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569901"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4439761"
 ---
 # <a name="transportation-management-statuses"></a>Taşıma yönetimi durumları
 
@@ -46,6 +49,3 @@ Taşıma durumunu bir taşıyıcı durumuna eşlemek için şu adımları izleyi
 1. Seçili sevkiyat taşıyıcısı koduyla eşleştirmek istediğiniz taşıma durumu kodunu seçin.
 1. Sevkiyat taşıyıcısı tarafından kullanılan harici kodu girin.
 1. Sayfayı kapatın.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

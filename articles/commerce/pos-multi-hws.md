@@ -1,26 +1,29 @@
 ---
 title: Adanmış ödeme terminalleri ve yazıcı ve nakit çekmecesini sorar
 description: Bu konu, bir adanmış ödeme terminali alma ve kullanıcıdan bir para çekmecesini ve bir makbuz yazıcısı seçmesini sağlayan bilgiler içerir.
-author: BrianShook
+author: rubendel
+manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779782"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416452"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Adanmış ödeme terminalleri ve yazıcı ve nakit çekmecesini sorar
 
@@ -50,13 +53,13 @@ Bu konuda açıklanan işlevsellik Windows için Modern POS ve Android POS istem
 
 Bu işlevsellik, ağ etkin ödeme terminalleri ve makbuz yazıcılarını destekler. Nakit çekmecesini, d/k bağlantı noktası üzerinden ağ etkin giriş yazıcısına bağlayarak nakit çekmecesi desteği sağlayabilirsiniz.
 
-Bu işlev için yerleşik destek, bir [Adyen için Dynamics 365 Ödeme Konnektörü](./dev-itpro/adyen-connector.md?tabs=8-1-3) tarafından sağlanır. Ancak, diğer ödeme bağlayıcıları, ödemeler için Commerce Software Development Kit (SDK) ile desteklenebilir. Desteklenen makbuz yazıcılar, Star Micronics ve Epson kaynaklı ağ etkin giriş yazıcılarını içerir.
+Bu işlev için yerleşik destek, bir [Adyen için Dynamics 365 Ödeme Konnektörü](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3) tarafından sağlanır. Ancak, diğer ödeme bağlayıcıları, ödemeler için Commerce Software Development Kit (SDK) ile desteklenebilir. Desteklenen makbuz yazıcılar, Star Micronics ve Epson kaynaklı ağ etkin giriş yazıcılarını içerir.
 
 Star Micronics giriş yazıcılarını ayarlamak için, aygıtı ağ üzerinden kullanılacak şekilde yapılandırmak üzere yıldız Micronics yazıcı yardımcı programını kullanın. Bu yardımcı program ayrıca, aygıtın IP adresini de sağlar.
 
 Epson makbuz yazıcılarını ayarlamak için, bu aygıtı ağ iletişim kurallarını kullanacak şekilde ayarlamak üzere Epson ePOS-Print yardımcı programını kullanın.
 
-Ağ çevre birimlerinin nasıl ayarlanacağı hakkında daha fazla bilgi için bkz [Ağ çevre desteği genel bakış](./dev-itpro/network-peripherals.md).
+Ağ çevre birimlerinin nasıl ayarlanacağı hakkında daha fazla bilgi için bkz [Ağ çevre desteği genel bakış](https://go.microsoft.com/fwlink/?linkid=2129965).
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>Adanmış ödeme terminalleri ve yazıcı ve nakit çekmecesi komutu ayarlayın
 
@@ -75,9 +78,9 @@ Kasaya atanan donanım profilini ayarlamak için aşağıdaki adımları izleyin
 
     | Aygıt | Türü | Aygıt adı | Ek ayrıntılar |
     |---|---|---|---|
-    | Yazıcı | Ağ | *Herhangi* | Aygıt adı büyük/küçük harf duyarlıdır. **Makbuz profılı kodu,**, Kanal düzeyinde donanım istasyonuna atanan donanım profilinde kurulmuş olan ağ yazıcısıyla eşlenen **makbuz profili kimliğiyle** aynı olmalıdır. |
-    | Kasa çekmecesi | Ağ | *Herhangi* | Aygıt adı büyük/küçük harf duyarlıdır. **Paylaşılan mesaiyi kullan** seçeneğinde **Evet**'i işaretleyin. |
-    | EFT hizmeti | Adyen | Geçerli değil | Kullanıma hazır Adyen ödeme bağlayıcısını kurma hakkında bilgi için, bkz: [Adyen için Dynamics 365 ödeme konnektörü](./dev-itpro/adyen-connector.md?tabs=8-1-3). Diğer ödeme bağlayıcıları, ödemeler için [Commerce Software Development Kit (SDK) ile desteklenebilir](./dev-itpro/end-to-end-payment-extension.md). |
+    | Yazıcı | Geri dönüş | *Herhangi* | Aygıt adı büyük/küçük harf duyarlıdır. **Makbuz profılı kodu,**, Kanal düzeyinde donanım istasyonuna atanan donanım profilinde kurulmuş olan ağ yazıcısıyla eşlenen **makbuz profili kimliğiyle** aynı olmalıdır. |
+    | Kasa çekmecesi | Geri dönüş | *Herhangi* | Aygıt adı büyük/küçük harf duyarlıdır. **Paylaşılan mesaiyi kullan** seçeneğinde **Evet**'i işaretleyin. |
+    | EFT hizmeti | Adyen | Geçerli değil | Kullanıma hazır Adyen ödeme bağlayıcısını kurma hakkında bilgi için, bkz: [Adyen için Dynamics 365 ödeme konnektörü](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Diğer ödeme bağlayıcıları, ödemeler için [Commerce Software Development Kit (SDK) ile desteklenebilir](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | PIN pad | Ağ | **MicrosoftAdyenDeviceV001** | Hiçbiri. |
 
 5. Dynamics 365 Commerce İçinde , **kayıtlar** 'ı arayın.
@@ -85,7 +88,7 @@ Kasaya atanan donanım profilini ayarlamak için aşağıdaki adımları izleyin
 7. Henüz oluşturduğunuz donanım profilini, adanmış bir ödeme terminali kullanması gereken kasaya atayın. Bu kayıt defteri ile eşlenen aygıtın, Windows için modern POS veya Android için Modern POS uygulaması kullanması gerekir.
 8. **Kaydet**'i seçin.
 9. Eylem Bölmesi'ndeki **Kayıtlar** sekmesinde, **IP adreslerini yapılandıra**'ni seçin.
-10. **PIN pad** hızlı sekmesinde, ödeme terminalinin IP adresini girin. Adyen bağlayıcısını kullanarak ödeme terminali IP adresinin nasıl alınacağı hakkında bilgi için, bkz: [adyen için Dynamics 365 ödeme konnektörü](./dev-itpro/adyen-connector.md?tabs=8-1-3).
+10. **PIN pad** hızlı sekmesinde, ödeme terminalinin IP adresini girin. Adyen bağlayıcısını kullanarak ödeme terminali IP adresinin nasıl alınacağı hakkında bilgi için, bkz: [adyen için Dynamics 365 ödeme konnektörü](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3).
 11. **Kaydet**'i seçin.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>Makbuz Yazıcısı ve nakit çekmecesi için donanım profili ayarla
@@ -100,7 +103,7 @@ Ağ girişi yazıcısını ve nakit çekmecesini gruplamak için kullanılan don
     | Aygıt | Türü | Tanım | Ek ayrıntılar |
     |---|---|---|---|
     | Yazıcı | Ağ | **Epson** veya **Star** | Aygıt adı büyük/küçük harf duyarlıdır. **Makbuz profılı kodu,**, kayda atanan donanım profilinde kurulmuş olan yazıcısıyla eşlenen **makbuz profili kimliğiyle** aynı olmalıdır. |
-    | Kasa çekmecesi | Geri dönüş | **Epson** veya **Star** | Aygıt adı büyük/küçük harf duyarlıdır. **Paylaşılan mesaiyi kullan** seçeneğinde **Evet**'i işaretleyin. |
+    | Kasa çekmecesi | Ağ | **Epson** veya **Star** | Aygıt adı büyük/küçük harf duyarlıdır. **Paylaşılan mesaiyi kullan** seçeneğinde **Evet**'i işaretleyin. |
 
 5. **Kaydet**'i seçin.
 
@@ -148,9 +151,6 @@ Mağaza ile ilgili bir girişin yazdırılması ve ödeme için nakit kullanılm
 
 ## <a name="related-articles"></a>İlgili makaleler
 
-- [Android ve iOS'ta uygulamasını ayarlama](./dev-itpro/hybridapp.md)
-- [Adyen için Dynamics 365 Ödeme Bağlayıcısı](./dev-itpro/adyen-connector.md?tabs=8-1-3)
-- [Ağ çevrebirim desteğine genel bakış](./dev-itpro/network-peripherals.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Android ve iOS'ta POS Hybrid uygulamasını ayarlama](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
+- [Adyen için Dynamics 365 Ödeme Bağlayıcısı](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Ağ çevrebirim desteğine genel bakış](https://go.microsoft.com/fwlink/?linkid=2129965)

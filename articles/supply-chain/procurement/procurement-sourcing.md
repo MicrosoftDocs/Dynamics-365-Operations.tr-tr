@@ -1,27 +1,28 @@
 ---
 title: Tedarik ve kaynak atama ana sayfası
 description: Bu konuda, Tedarik ve kaynak atama için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
-author: Henrikan
+author: mkirknel
+manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "50651"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: henrikan
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565507"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439580"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Tedarik ve kaynak atama ana sayfası
 
@@ -76,20 +77,21 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 -   [Tekrar eden satınalma siparişi oluşturma](tasks/create-repeat-purchase-order.md)
 -   [Satış siparişinden satınalma siparişi oluşturma](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Tek seferlik tedarikçi için bir satınalma siparişi oluşturun](tasks/create-purchase-order-one-time-supplier.md)
--   [Teslimat planı olan satınalma siparişi oluşturma](tasks/create-purchase-order-delivery-schedule.md)
--   [Satınalma iade siparişi oluşturma](tasks/create-purchase-return-order.md)
--   [Satın alma siparişi oluştururken satın alma sözleşmesini uygulama](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [Teslimat planlı bir satınalma siparişi oluşturun](tasks/create-purchase-order-delivery-schedule.md)
+-   [Satın alma iade siparişi oluşturun](tasks/create-purchase-return-order.md)
+-   [Satınalma sözleşmesinden satınalma sevk emri oluşturma](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [Satınalma siparişini oluştururken satınalma sevk emri oluşturma](tasks/create-purchase-release-order-creating-purchase-order.md)
 -   [Konsinye stok yenileme siparişi oluşturma](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>Fiyatlar ve iskontolar
 -   [Satınalma sözleşmeleri](purchase-agreements.md)
 -   [Satınalma sözleşmesi oluşturma](tasks/create-purchase-agreement.md)
--   [Satıcı indirimleri](/dynamics/s-e/) (beyaz kağıt)
+-   [Satıcı indirimleri](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (beyaz kağıt)
 
 ## <a name="product-receipt-and-invoicing"></a>Ürün girişi ve faturalandırma
 -   [Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
--   [Satıcı faturalarına genel bakış](../../finance/accounts-payable/vendor-invoices-overview.md)
--   [Satıcı deftere nakil profilleri](../../finance/accounts-payable/vendor-posting-profiles.md)
+-   [Satıcı faturalarına genel bakış](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Satıcı deftere nakil profilleri](../../financials/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Tedarik ve kaynak atama iş akışları
 -   [Tedarik ve kaynak atamaya genel bakış](procurement-sourcing-overview.md)
@@ -102,6 +104,3 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

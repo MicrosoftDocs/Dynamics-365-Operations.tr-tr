@@ -2,9 +2,11 @@
 title: Kuruluş hiyerarşinizi planlama
 description: Kuruluşlar ve kuruluş hiyerarşilerini ayarlamadan önce işinizin nasıl en iyi nasıl modellendirileceğini anladığınızdan emin olun.
 author: sericks007
-ms.date: 02/19/2021
+manager: AnnBe
+ms.date: 08/28/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771884"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694701"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Kuruluş hiyerarşinizi planlama
 
@@ -164,7 +166,7 @@ Tüzel kişilik, tüzel kişiliğin kayıtlı olduğu ülkenin/bölgenin vergi d
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Organizasyon tüzel kişilik olarak modellenmişse
 
-Desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir. 
+Desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir. Her ülke/bölge için hangi raporların kullanılabileceği hakkında daha fazla bilgi edinmek için [Microsoft Dynamics Yerelleştirme Portalı](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC)'na bakın. (Bir CustomerSource girişi zorunludur.)
 
 > [!NOTE]
 > Genel muhasebedeki deftere nakil katmanı, alt şirketten farklı bir muhasebe standardı kullanan bir ana şirket için ayarlama girişleri yapmanıza olanak tanır. Örneğin, genel olarak Birleşik Krallık'taki kabul görmüş muhasebe uygulamalarını kullanan (UK GAAP) bir şirket için deftere nakil katmanında ayarlama girişleri yapabilirsiniz. Bu girişler, ABD'deki genel kabul görmüş muhasebe ilkelerini (GAAP) kullanan bir ana şirkette birleştirilebilir. Ayarlama girişleri UK GAAP raporunu etkilemez.
@@ -239,6 +241,3 @@ Bir organizasyon hiyerarşisi uygularken aşağıdaki en iyi uygulamaları dikka
 - Temel yeniden yapılandırma senaryoları modellemeden önce bir etki analiz ve bir doğrulama testi gerçekleştirmek için hiyerarşinin geçerlilik tarihlerini kullanın.
 - Bir üretim ortamında yeni bir sürümü yayımlamadan önce hiyerarşi değiştirmek için taslak modunu kullanın.
 - Bir üretim ortamındaki bir hiyerarşiye organizasyon etkilemeye veya bu hiyerarşiden organizasyon çıkarmaya yetkili kişi sayısını sınırlandırın. Bu sayının sınırlandırılması, maliyetli hataların yapılması ihtimalini ve düzeltme ihtiyacını azaltacaktır.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

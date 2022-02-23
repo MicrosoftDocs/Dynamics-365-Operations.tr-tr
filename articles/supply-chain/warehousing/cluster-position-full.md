@@ -2,23 +2,26 @@
 title: Küme konumu dolu
 description: Bu konuda, Küme konumu dolu özelliğiyle ilgili bilgiler verilir. Bu özellik, küme malzeme çekme kullanılırken iş kesme kuralına ait daha katı zorlamaya olanak sağlayan bir alternatif sunar, çünkü konteyner ve sepetlerin hacimleri ile ilişki kısıtlamalarda daha büyük hata marjlarına olanak sağlar.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574269"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439658"
 ---
 # <a name="cluster-position-full"></a>Küme konumu dolu
 
@@ -211,7 +214,7 @@ Her biri iki çekme satırı içeren iki iş kodu oluşturulmalıdır. İş kiml
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Mobil cihaz akışı yürütme – ürün için çalışma onayı kurulumu
 
-1. Ambar *61*'de bir kullanıcı olarak Ambar Yönetimi mobil uygulamasına oturum açın.
+1. Ambar uygulamasında ambar *61*'deki bir kullanıcı olarak oturum açın.
 1. **Giden \> Küme malzeme çekme oluşturma** bölümüne gidin.
 
     **GÖREV: Kümeye iş ata** sayfası görüntülenir.
@@ -273,6 +276,3 @@ Bu senaryoda, küme çekme tamamlanmıştır ve kullanıcı, pozisyon 1 ve pozis
     Bir "Küme Tamamlandı" iletisi alırsınız.
 
 Artık kalan miktarı çekmek için **Satış Malzeme Çekme** menü öğesini kullanabilirsiniz. Daha sonra, maddeleri hazırlama yerleşiminden yükleme noktasına taşımak için **Satış yükleme** menü öğesini kullanabilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

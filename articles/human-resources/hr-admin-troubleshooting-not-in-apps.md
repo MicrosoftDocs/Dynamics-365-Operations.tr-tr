@@ -1,34 +1,32 @@
 ---
 title: İnsan Kaynakları Microsoft Dynamics 365 uygulamalarında görünmez
-description: Bu konuda, Microsoft Dynamics 365 Human Resources uygulaması Microsoft Dynamics 365 uygulamaları arasında listelenmemişse ne yapılması gerektiği açıklanmaktadır.
-author: twheeloc
-ms.date: 08/19/2021
+description: Bu konu, bir müşteri Microsoft Dynamics 365 uygulamaları arasında Microsoft Dynamics 365 Human Resources'ı görmüyorsa ne yapılacağı açıklar.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069692"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420916"
 ---
-# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources uygulaması Microsoft Dynamics 365 uygulamalarında görünmüyor
+# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>İnsan Kaynakları Microsoft Dynamics 365 uygulamalarında görünmez
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-**Sorun**
+**Çıkış**
 
 Müşteri, Dynamics 365 Human Resources'ı Microsoft Dynamics 365 uygulamaları arasında görünmüyor.
 
@@ -42,11 +40,11 @@ Kullanıcı, Microsoft Power Apps içinde Ortam Oluşturucu rolüne eklenmiş ol
 
 3. **Güvenlik** sekmesinde, **Ortam rolleri** sekmesinde **Ortam Oluşturucu**'yu seçin.
 
-    ![Ortam rolleri sekmesi.](media/environment-roles.png)
+    ![Ortam rolleri sekmesi](media/environment-roles.png)
 
 4. **Kullanıcılar** sekmesinde, kullanıcıyı kuruluşunuza ekleyin.
 
-    ![Kullanıcılar sekmesi.](media/environment-maker.png)
+    ![Kullanıcılar sekmesi](media/environment-maker.png)
 
 5. **Kaydet**'i seçin.
 
@@ -54,9 +52,6 @@ Kullanıcı, Microsoft Power Apps içinde Ortam Oluşturucu rolüne eklenmiş ol
 
 7. Kullanıcı uygulamalarını güncelleştirmek için **Eşitle**'yi seçin.
 
-    ![Eşitleme düğmesi.](media/get-more.png)
+    ![Eşitleme düğmesi](media/get-more.png)
 
     Eşitleme tamamlandıktan sonra, İnsan Kaynakları ana sayfada görüntülenir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,35 @@
 title: Konteyner modülü
 description: Bu konu konteyner modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715452"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416362"
 ---
 # <a name="container-module"></a>Konteyner modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konu konteyner modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Konteyner modülü, diğer modülleri barındıran bir modüldür. Bir konteyner modülünün birincil amacı, kendisi için ayarlanan özellikler boyunca, içinde olan modüllerin düzenini tanımlamak amacıyla kullanılır. Örneğin, bu modüller iki sütunlu, üç sütunlu, dört sütunlu veya altı sütunlu düzende yan yana görüntülenebilir. Ayrıca, konteyner genişliği ile sınırlanabilirler veya ekranı doldurabilirler. Bir başlık, her konteyner modüle da eklenebilir.
 
@@ -42,7 +47,7 @@ Konteyner modülü, diğer modülleri barındıran bir modüldür. Bir konteyner
 
 Aşağıdaki resimde, ticaret sitesi oluşturucuda döngü modülü içeren bir kapsayıcı modülü örneği gösterilmektedir. Bu örnekte, konteyner modülünün **genişlik** özelliği **Ekranı doldur** ayarlanır.
 
-![Konteyner modülü örneği.](./media/ecommerce-container.PNG)
+![Konteyner modülü örneği](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Konteyner modülü özellikler
 
@@ -70,8 +75,8 @@ Farklı görünüm bağlantı noktaları (mobil cihazlar, tabletler, bilgisayarl
 | Başlık                         | Başlık metni ve başlık etiketi | Konteyner için isteğe bağlı sağlanabilir. |
 | X-küçük Görünüm bağlantı noktası konfigürasyonu | **%25/%75**, **%75/%25**, **%50/%50**, **%67/%33**, **%33/%67** veya **%100** | Bu özellik, ek küçük Görünüm bağlantı noktaları için Düzen tanımlar. |
 | Küçük Görünüm bağlantı noktası konfigürasyonu   | **%25/%75**, **%75/%25**, **%50/%50**, **%67/%33**, **%33/%67** veya **%100** | Bu özellik, mobil cihazlar gibi küçük Görünüm bağlantı noktaları için Düzen tanımlar. |
-| Orta Görünüm bağlantı noktası konfigürasyonu  | **25%/75%**, **75%/25%**, **50%/50%**, **67%/33%**, **33%/67%** veya **100%** | Bu özellik, tabletler gibi orta Görünüm bağlantı noktaları için Düzen tanımlar. |
-| Büyük Görünüm bağlantı noktası konfigürasyonu   | **25%/75%**, **75%/25%**, **50%/50%**, **67%/33%**, **33%/67%** veya **100%** | Bu özellik, bilgisayarlar gibi büyük Görünüm bağlantı noktaları için Düzen tanımlar. |
+| Orta Görünüm bağlantı noktası konfigürasyonu  | **%25/%75**, **%75/%25**, **%50/%50**, **%67/%33**, **%33/%67** veya **%100** | Bu özellik, tabletler gibi orta Görünüm bağlantı noktaları için Düzen tanımlar. |
+| Büyük Görünüm bağlantı noktası konfigürasyonu   | **%25/%75**, **%75/%25**, **%50/%50**, **%67/%33**, **%33/%67** veya **%100** | Bu özellik, bilgisayarlar gibi büyük Görünüm bağlantı noktaları için Düzen tanımlar. |
 
 ## <a name="container-with-3-slots"></a>3 alanlı kapsayıcı
 
@@ -79,9 +84,9 @@ Farklı görünüm bağlantı noktaları (mobil cihazlar, tabletler, bilgisayarl
 
 Farklı görünüm bağlantı noktalarının düzenini en iyi duruma getirmek için ek özellikler kullanılabilir. Her bir görünüm bağlantı noktası için, her bir sütunun genişliği tanımlanabilir. Aşağıdaki sütun genişliği ayarları kullanılabilir:
 
-- **33%/33%/33%** - Üç modül da eşit sütun genişliğine sahiptir.
-- **50%/25%/25%** – ilk modülde yüzde 50 sütun genişliği vardır ve geri kalan iki modülün sütun genişliği yüzde 25'tir. **25%/50%/25%** ve **25%/25%/50%** seçenekler de kullanılabilir.
-- **16%/16%/67%** – İlk iki modülde yüzde 16 sütun genişliği vardır ve üçüncü modülün sütun genişliği yüzde 67'dir. **16%/67%/16%** ve **67%/16%/16%** seçenekler de kullanılabilir.
+- **%33/%33/%33** – Üç modül da eşit sütun genişliğine sahiptir.
+- **50%/25%/%25** - ilk modülde yüzde 50 sütun genişliği vardır ve geri kalan iki modülün sütun genişliği yüzde 25 ' tir. **%25/%50/%25** ve **%25/%25/%50** seçenekler de kullanılabilir.
+- **16%/16%/%67** - ilk iki modülde yüzde 16 sütun genişliği vardır ve üçüncü modülün sütun genişliği yüzde 67 ' tir. **%16/%67/%16** ve **%67/%16/%16** seçenekler de kullanılabilir.
 
 ### <a name="container-with-3-slots-properties"></a>3-yuva özelliklerine sahip konteyner
 
@@ -137,6 +142,3 @@ Bir yeni sayfaya konteyner oynatma modülü eklemek ve gerekli özellikleri ayar
 [Üst bilgi modülü](author-header-module.md)
 
 [Alt bilgi modülü](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

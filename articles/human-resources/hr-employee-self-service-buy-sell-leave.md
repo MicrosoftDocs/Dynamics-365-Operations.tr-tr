@@ -1,33 +1,31 @@
 ---
 title: İzin satın alma ve satma
-description: Bu konuda, Dynamics 365 Human Resources uygulamasında izin satın alma ve satma isteklerinin nasıl gönderileceği açıklanmaktadır.
-author: twheeloc
-ms.date: 08/26/2021
+description: Dynamics 365 Human Resources'ta, şirketiniz tarafından ayarlanan izin satın alma ve satma ilkelerine göre izin satın alma ve satma istekleri gönderebilirsiniz.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveBuyRequestEntry, EssWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ddc50540ba0686f18b6e8875e40f11c378c448f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067491"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421012"
 ---
 # <a name="buy-and-sell-leave"></a>İzin satın alma ve satma
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources'ta, şirketiniz tarafından ayarlanan izin satın alma ve satma ilkelerine göre izin satın alma ve satma istekleri gönderebilirsiniz.  
 
@@ -51,16 +49,7 @@ Bakiyeleriniz otomatik olarak güncelleştirilir veya güncelleştirmeden önce 
 
 Bakiyeleriniz otomatik olarak güncelleştirilir veya güncelleştirmeden önce onay işleminden geçer. Bu, satın alma ilkesinin nasıl yapılandırıldığına bağlıdır.
 
-
-## <a name="troubleshooting"></a>Sorun Giderme 
-
-Bir izin satın alma veya satma talebi iş akışı başarısız olursa, **EssLeaveBuySellRequestApprover** ayrıcalığına sahip kullanıcılar, tüm izin satınalma ve satma taleplerini gözden geçirebilir. Bunu yapmak için **İzin ve devamsızlık > Bağlantılar > İzin satın alma ve satma istekleri > İleti günlüğü**'ne gidin (sol üstte). **İleti günlüğü** kullanıcılara hareketlerin nasıl işlendiğini ve ilişkili iş akışı geçmişini gösterir.
-
-
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)</br>
 [İzin satın alma ve satma ilkelerini yönetme](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

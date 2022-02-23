@@ -91,6 +91,3 @@ Web içeriği (iframe) faaliyeti, iş alım sürecinde veya Aday portalında olu
 
 > [!NOTE]
 > Web içeriği faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

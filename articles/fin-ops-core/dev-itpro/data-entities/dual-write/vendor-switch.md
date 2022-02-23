@@ -1,26 +1,35 @@
 ---
 title: Satıcı tasarımları arasında geçiş yapma
-description: Bu konu Finans ve Operasyon uygulamaları ile Dataverse arasında satıcı verisi tümleştirmesi arasında geçiş yapmayı açıklar.
+description: Bu konu Finance and Operations uygulamaları ile Dataverse arasında satıcı verisi tümleştirmesi arasında geçiş yapmayı açıklar.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2019-09-20
+ms.openlocfilehash: d2c22123d5f05945b34eb107c5b912852aec387a
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062762"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744477"
 ---
 # <a name="switch-between-vendor-designs"></a>Satıcı tasarımları arasında geçiş yapma
 
 [!include [banner](../../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -41,14 +50,14 @@ ms.locfileid: "8062762"
 
 1. **Satıcı** tablosu için bir iş akışı işlemi oluşturun ve **Hesaplar Tablosunda Satıcılar Oluşturma** iş akışı işlemi şablonunu seçin. Daha sonra **Tamam**'ı seçin. Bu iş akışı **Hesap** tablosu için satıcı oluşturma senaryosunu işler.
 
-    ![Hesaplar Tablosunda Satıcılar Oluşturma iş akışı işlemi.](media/create_process.png)
+    ![Hesaplar Tablosunda Satıcılar Oluşturma iş akışı işlemi](media/create_process.png)
 
 2. **Satıcı** tablosu için bir iş akışı işlemi oluşturun ve **Hesaplar Tablosunda Satıcıları Güncelleştirme** iş akışı işlemi şablonunu seçin. Daha sonra **Tamam**'ı seçin. Bu iş akışı **Hesap** tablosu için satıcı güncelleştirme senaryosunu işler.
 3. **Hesap** tablosu için bir iş akışı işlemi oluşturun ve **Satıcılar Tablosunda Satıcılar Oluşturma** iş akışı işlemi şablonunu seçin.
 4. **Hesap** tablosu için bir iş akışı işlemi oluşturun ve **Satıcılar Tablosunda Satıcıları Güncelleştirme** iş akışı işlemi şablonunu seçin.
 5. İş akışlarını gereksinimlerinize göre gerçek zamanlı iş akışları veya arka plan iş akışları olarak yapılandırabilirsiniz. Bir iş akışını arka plan iş akışı olarak konfigüre etmek için, **bir arka plan iş akışına dönüştür** ü seçin.
 
-    ![Arka plan iş akışına dönüştürme düğmesi.](media/background_workflow.png)
+    ![Arka plan iş akışına dönüştürme düğmesi](media/background_workflow.png)
 
 6. **Kuruluş** türünde satıcılarla ilgili bilgileri depolamak üzere **Hesap** tablosunu kullanmaya başlamak için **Hesap** ve **Satıcı** tablolarına yönelik olarak oluşturduğunuz iş akışlarını etkinleştirin.
 
@@ -69,6 +78,3 @@ ms.locfileid: "8062762"
 4. **İlgili Kişi** tablosu için bir iş akışı işlemi oluşturun ve **Satıcılar Tablosunda Kişi türünde Satıcıları güncelleştirme** şablonunu seçin.
 5. İş akışlarını gereksinimlerinize göre gerçek zamanlı iş akışları veya arka plan iş akışları olarak yapılandırabilirsiniz. Bir iş akışını arka plan iş akışı olarak konfigüre etmek için, **bir arka plan iş akışına dönüştür** ü seçin.
 6. **Kişi** türünde satıcılarla ilgili bilgileri depolamak üzere **İlgili Kişi** tablosunu kullanmaya başlamak için **İlgili Kişi** ve **Satıcı** tablolarına yönelik olarak oluşturduğunuz iş akışlarını etkinleştirin.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

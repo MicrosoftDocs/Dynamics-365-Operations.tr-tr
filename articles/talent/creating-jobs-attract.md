@@ -157,6 +157,3 @@ Bir iş oluşturmak için şu adımları izleyin.
 
 13. İşi etkinleştirmek için **Etkinleştir** öğesini seçin.
 14. İşi yayınlamak için **Gönderiler**'e gidin, Talen Careers sitesi veya LinkedIn'in altındaki **Hemen Yayınla**'yı seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

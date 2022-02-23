@@ -1,25 +1,28 @@
 ---
 title: Yeni ambar düzeni oluşturma
 description: Bu konu, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını açıklar.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 09666e95cc90913f1bf8555b9ff2c48aa55369ed
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580900"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439563"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Yeni ambar düzeni oluşturma
 
@@ -60,6 +63,3 @@ Bu konu, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını açıkl
 7. Sayfayı kapatın.
 8. Sayfayı yenileyin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

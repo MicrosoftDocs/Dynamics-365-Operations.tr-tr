@@ -2,25 +2,28 @@
 title: Otomatik tüketim kuralları
 description: Bu konu hammadde tüketiminde kullanılan dört otomatik tüketim prensibini açıklar.
 author: johanhoffmann
+manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7f644f26098bf7ac7d13292d6fbabb09a488d61e29fcd5fbd3cf0d261f0529bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768035"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439233"
 ---
 # <a name="flushing-principles"></a>Otomatik tüketim kuralları
 
@@ -30,7 +33,7 @@ Otomatik tüketim ilkeleri, üretim işlemlerinde kullanılan hammaddeler için 
 
 Malzeme tüketiminden önce, malzemeler giriş konumuna taşınır. Aşağıdaki çizimde işlem gösterilmiştir.
 
-[![scenario4a.](./media/scenario4a.png)](./media/scenario4a.png)
+[![scenario4a](./media/scenario4a.png)](./media/scenario4a.png)
 
 1. Malzeme ambarı
 2. Hammadde çekme
@@ -60,6 +63,3 @@ Otomatik tüketimi tamamla ilkesi, malzemenin üretim emri tamamlandı olarak ra
 
 ### <a name="available-at-location"></a>Yerleşimde kullanılabilir
 Konum otomatik tüketimde kullanılabilir ilkesi, malzeme üretim için çekildi olarak kaydedildiğinde malzemenin otomatik olarak tüketileceğini belirtir. Malzeme, hammadde çekme işi tamamlandığında veya malzeme üretim giriş konumunda kullanılabilir olduğunda ve malzeme hattı ambara serbest bırakıldığında konumdan çekildi olarak kaydedilir. İşlem içinde oluşturulan malzeme çekme listesi, toplu iş içerisinde deftere nakledilir. Bu örnek, örneğin bir üretim emrine karşılık birden fazla malzeme çekme etkinliği varsa uygundur. Bu durumda malzeme çekme listesini el ile güncelleştirmeniz gerekmez ve WIP bakiyesinin geçerli görünümünü elde edebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

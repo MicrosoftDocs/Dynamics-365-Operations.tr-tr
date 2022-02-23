@@ -1,28 +1,28 @@
 ---
 title: Teklif taleplerine (RFQ'lar) genel bakış
 description: Bu konuda, teklif taleplerine (RFQ) genel bakış sağlanmaktadır. Kuruluşlar, satın almak zorunda oldukları maddeler veya hizmetler için çeşitli satıcılardan rekabetçi teklifler almak istediklerinde RFQ'lar yayınlar.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 10/05/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2154"
-- intro-internal
+ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983404"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016943"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Teklif taleplerine (RFQ'lar) genel bakış
 
@@ -39,13 +39,13 @@ RFQ işlemi aşağıdaki görevlerden oluşur:
 
 Aşağıdaki örnekte teklif talebi sürecine genel bakış verilmektedir.
 
-[![RFQ işlemi.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![RFQ işlemi](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 Planlanan siparişlerden, satınalma talebinden veya el ile yapılan bir girişten bir RFQ servis talebi oluşturabilirsiniz. RFQ servis talebi, her satıcıya bir RFQ vermek için kullandığınız temel belgedir.
 
 RFQ servis talebini hazırlayıp satıcıları ekledikten sonra RFQ servis talebinde **Gönder**'i (Kamu sektörü için **Gönder ve yayımla**) seçin. RFQ gönderdiğiniz her satıcı için bir RFQ günlüğü oluşturulur. Gönder eylemi için Yazdırma seçeneklerini her satıcı için arşive gönderilecek bir rapor yazdıracak veya her satıcının e-posta adresine bir rapor gönderecek şekilde ayarlayabilirsiniz. Ayrıca, her satıcıya ilişkin RFQ günlüğü, satıcıya daha sonra gönderebileceğiniz veya yeniden gönderebileceğiniz bir rapor oluşturmak için kullanılabilir. Gönder eylemini, satıcının dolduracağı bir yanıt sayfası oluşturmak için de yapılandırabilirsiniz.
 
-Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmamışsa, satıcılar tekliflerini doğrudan Supply Chain Management'ta girebilir. Daha fazla bilgi için bkz. [Harici müşterilerle satıcı işbirliği](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ve [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
+Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmamışsa, satıcılar tekliflerini doğrudan Supply Chain Management'ta girebilir. Daha fazla bilgi için bkz. [Harici müşterilerle satıcı işbirliği](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ve [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
 
 Gönderdikten sonra bir RFQ'da düzeltme yapmanız gerekirse, RFQ'yu işleminizi tamamladıktan sonra satıcılara iki düzeltme eylemini kullanarak gönderebilirsiniz: Oluştur ve Sonlandır.
 
@@ -80,23 +80,23 @@ Düzeltme işlemini de yapılandırmanız gerekir. Bu yapılandırma işleminin 
 - %Teklifi iade nedeni%
 - %Düzeltme yapma nedeni%
 - %Düzeltmeyi yapan%
-- %Company%
+- %Şirket%
 - %RFQ servis talebi adı%
 - %Expiry Date Time%
-- %Date%
+- %Tarih%
 
-%Teklifi iade nedei% ve %Düzeltme yapma nedeni% belirteçleri, tedarik uzmanının **Düzeltme** sihirbazında düzeltme işlemini tamamlarken girebileceği metinle değiştirilir. %Amendment prepared by% ve %Company% belirteçleri otomatik olarak RFQ'dan alınır. %Date% belirteci geçerli tarih ile değiştirilir.
+%Teklifi iade nedei% ve %Düzeltme yapma nedeni% belirteçleri, tedarik uzmanının **Düzeltme** sihirbazında düzeltme işlemini tamamlarken girebileceği metinle değiştirilir. %Düzeltmeyi yapan% ve %Şirket% belirteçleri otomatik olarak RFQ'dan alınır. %Tarih% belirteci geçerli tarih ile değiştirilir.
 
 Bir RFQ'yu gönderildikten sonra iptal etmek isterseniz, bunu RFQ servis talebinden yapabilirsiniz. E-posta şablonunun iptali için iptal bildiriminin satıcının ilgili kişilerine gönderilmesi gerekir. Şablonu **Tedarik ve kaynak atama parametreleri** sayfasından seçilmelidir. Şablon oluşturulduğunda aşağıdaki değiştirme belirteçlerini içerebilir:
 
 - %İptal sebebi%
 - %RFQ servis talebi%
 - %RFQ'yu iptal eden%
-- %Company%
+- %Şirket%
 - %RFQ servis talebi adı%
-- %Date%
+- %Tarih%
 
-%İptal sebebi% belirteci, tedarik uzmanının **İptal** sihirbazına girebileceği bir metin ile değiştirilir. %Date% belirteci geçerli tarih ile değiştirilir.
+%İptal sebebi% belirteci, tedarik uzmanının **İptal** sihirbazına girebileceği bir metin ile değiştirilir. %Tarih% belirteci geçerli tarih ile değiştirilir.
 
 Bir teklifte, teklifin neden reddedildiği veya kabul edildiğini belirtmek için neden kodları kullanmak isterseniz, **Satıcı nedenleri** sayfasında neden kodları ayarlamanız gerekir.
 
@@ -167,7 +167,7 @@ Düzeltme işlemini daha kısıtlayıcı olacak şekilde yapılandırırsanız, 
 
 Düzeltme işlemini daha az kısıtlayıcı olacak şekilde yapılandırırsanız, zaten gönderilmiş olan bir RFQ'daki alanları değiştirebilmek için **Oluştur**'u seçmeniz gerekmez. Ancak, RFQ'ya el ile bir düzeltme notu eklemeniz ve servis talebini yeniden göndermeniz gerekir. Bu yöntemin yalnızca yanıtlardan (tekliflerden) hiçbirinin düzeltilmemiş olması durumunda kullanılabileceğini unutmayın. Bir yanıt girerseniz ve durumu **Alındı** olursa, **Gönder** düğmesi kullanılamaz. Böyle bir durumda, daha kısıtlayıcı bir işlem gerçekleştirmek zorunda olduğunuzdan **Oluştur**'u ve ardından **Sonlandır**'ı seçmeniz gerekir. Bundan sonra yanıt RFQ servis talebindeki değişiklikleri yansıtacak şekilde sıfırlanır.
 
-Satıcılar teklifleri girmek için satıcı işbirliği arabirimini kullanırsa, satıcıları RFQ servis talebinde yapılan değişiklikler hakkında bilgilendirmek için her zaman düzeltme işlemini kullanmanız gerekir. Bu işlem, satıcıların teklifleri devam ederken eski bir RFQ servis talebine teklif vermeleri durumunu engellemeye yardımcı olur. Satıcı işbirliği işlevi hakkında daha fazla bilgi için bkz. [Harici satıcılarla için satıcı işbirliği](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Satıcılar teklifleri girmek için satıcı işbirliği arabirimini kullanırsa, satıcıları RFQ servis talebinde yapılan değişiklikler hakkında bilgilendirmek için her zaman düzeltme işlemini kullanmanız gerekir. Bu işlem, satıcıların teklifleri devam ederken eski bir RFQ servis talebine teklif vermeleri durumunu engellemeye yardımcı olur. Satıcı işbirliği işlevi hakkında daha fazla bilgi için bkz. [Harici satıcılarla için satıcı işbirliği](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Teklif vermek üzere ek satıcılar davet etmek isterseniz ve RFQ servis talebinde herhangi bir değişiklik yapılmadıysa **Gönder** düğmesini kullanabilirsiniz. Eklediğiniz satıcılar **Gönder** sayfasında görüntülenir ve e-posta davetini alır.
 
@@ -246,6 +246,3 @@ Aşağıdaki örnekte, bir teklifin alındığı ve başka bir teklifin kabul ed
 | Tekliflerden birini kabul edin. (veya en az bir satır gereklidir) |                          Alınan                           |                           Kabul Edildi                           |                    Alınan                    |                    Kabul Edildi                     |                   Alınan                   |                   Kabul Edildi                    |
 |           Diğer tüm teklifleri reddedin.           |                          Reddedildi                           |                           Kabul Edildi                           |                    Reddedildi                    |                    Kabul Edildi                     |                   Reddedildi                   |                   Kabul edildi                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

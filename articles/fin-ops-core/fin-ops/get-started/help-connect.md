@@ -1,10 +1,12 @@
 ---
-title: Finans ve Operasyon uygulamaları için Yardım deneyimini yönetme
-description: Bu konuda, bazı Microsoft Dynamics 365 uygulamalarının Yardım sisteminin bileşenleri hakkında bilgi verilmektedir.
+title: Finance and Operations uygulamaları için Yardım deneyimini yapılandırma
+description: Bu konuda, bazı Microsoft Dynamics 365 uygulamalarının Yardım sisteminin bileşenleri hakkında bilgi verilmektedir. Ayrıca, bu uygulamaların nasıl bağlanacağını açıklar ve özel Yardım oluşturma sürecinin bir özetini sağlar.
 author: margoc
-ms.date: 08/11/2021
+manager: AnnBe
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
@@ -15,34 +17,31 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d000c3f801d382921a027c8ee259fd44ac5cdc80
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071020"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798292"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Yardım deneyimini yönetme
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için Yardım deneyimini yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
-Bu konuda, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ve Dynamics 365 Human Resources gibi Finans ve Operasyon uygulamaları için Yardım sisteminin bileşenlerine genel bir bakış bulacaksınız. Bu konu ayrıca, bu bileşenlerin nasıl bağlanacağını açıklar ve özel Yardım oluşturma sürecinin bir özetini sağlar.
+Bu konuda, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ve Dynamics 365 Human Resources gibi Finance and Operations uygulamaları için Yardım sisteminin bileşenlerine genel bir bakış bulacaksınız. Bu konu ayrıca, bu bileşenlerin nasıl bağlanacağını açıklar ve özel Yardım oluşturma sürecinin bir özetini sağlar.
 
 ## <a name="help-architecture"></a>Yardım mimarisi
 
-Finans ve Operasyon uygulamaları, [Microsoft Dynamics 365 belgeleri](/dynamics365/) sitesinde yayınlanan kavramsal genel bakışları ve diğer konuları içerir. Bu içeriğe daha sonra ürün içi **Yardım** bölmesinden erişilebilir. Aşağıdaki örnek Yardım sisteminin bölümlerini gösterir.
+Finance and Operations uygulamaları, [https://docs.microsoft.com/dynamics365](/dynamics365/) sitesinde yayınlanan kavramsal genel bakışları ve diğer konuları içerir. Bu içeriğe daha sonra ürün içi **Yardım** bölmesinden erişilebilir. Aşağıdaki örnek Yardım sisteminin bölümlerini gösterir.
 
-[![Yardım mimarisi.](./media/help-architecture.png)](./media/help-architecture.png)
+[![Yardım mimarisi](./media/help-architecture.png)](./media/help-architecture.png)
 
 Ürün içi Yardım sistemi, docs.microsoft.com ve bağlı diğer web sitelerinden makaleler alır. Ayrıca Microsoft Dynamics Lifecycle Services (LCS) içindeki İş Süreci Modelleyici'de (BPM) saklanan görev kılavuzlarını da çeker.
 
 ## <a name="adding-task-guides"></a>Görev kılavuzları ekleme
 
 > [!NOTE]
-> **Görev kılavuzları** sekmesi şu anda Human Resources veya Commerce'te mevcut değildir. <!--We are currently working to enable this functionality in a future release.--> Ancak, Human Resources'ın Başlarken deneyimindeki görev kılavuzları, temel işlevselliği sağlamak üzere kullanılabilir kalıyor. Hem Human Resources hem de Commerce için [Microsoft Dynamics 365 belgeleri](/dynamics365/) sitesinde yordamsal Yardım mevcuttur.
+> **Görev kılavuzları** sekmesi şu anda Human Resources veya Commerce'te mevcut değildir. <!--We are currently working to enable this functionality in a future release.--> Ancak, Human Resources'ın Başlarken deneyimindeki görev kılavuzları, temel işlevselliği sağlamak üzere kullanılabilir kalıyor. Hem Human Resources hem de Commerce için [https://docs.microsoft.com/dynamics365](/dynamics365/) sitesinde yordamsal Yardım mevcuttur.
 
 **Sistem parametreleri** sayfasında sistem yöneticileri, bir uygulama için ilgili görev kılavuzu kitaplıklarına erişimi yapılandırabilir.
 
@@ -50,20 +49,20 @@ Finans ve Operasyon uygulamaları, [Microsoft Dynamics 365 belgeleri](/dynamics3
 > - Yardım'ı yapılandırmak için uygulamanın dağıtıldığı kiracıyla aynı kiracıda bir hesap kullanarak oturum açmanız gerekir.
 > - LCS kitaplığına, uygulamanın yerel bir sanal sabit sürücüde (VHD) çalışan bir örneğinden bağlanılamaz.
 
-[![Yardım ayarlarıyla Sistem Parametreleri formu.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Yardım ayarlarıyla Sistem Parametreleri formu](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Çözüm için görev kılavuzlarını yapılandırmak üzere **Sistem parametreleri** sayfasındaki şu adımları izleyin.
 
 > [!IMPORTANT]
 > **Yardım** sekmesini ilk kez açtığınızda Lifecycle Services'e bağlanmanız gerekir. Formun ortasındaki bağlantıyı seçtiğinizden emin olun, bağlantı için bekleyin, iletişim kutusunu kapatın ve **Sistem parametreleri** sayfasına ulaşmak için **Tamam**'ı seçin.
 >
-> [![LCS'ye bağlan](./media/connect-to-lcs-crop-1024x365.png "LCS'ye bağlanın.")](./media/connect-to-lcs-crop.png)
+> [![LCS'ye bağlan](./media/connect-to-lcs-crop-1024x365.png "LCS'ye bağlan")](./media/connect-to-lcs-crop.png)
 
 1. Bağlanmak için Lifecycle Hizmetleri projesini seçin.
 2. Görev kayıtlarını almak için BPM kitaplıkları (Seçili proje içinde) seçin.
 3. BPM kitaplıklarının görüntülenme sırasını ayarlayın. Görüntüleme sırası, kitaplıklardaki görev kayıtlarının **Yardım** bölmesinde hangi sırayla görüneceğini belirler.
 
-Bu adımları tamamladıktan sonra, **Yardım** bölmesini açabilir ve **Görev kılavuzları** sekmesini seçebilirsiniz. Şimdi, Finans ve Operasyon uygulamalarında içinde bulunduğunuz sayfa için geçerli olan görev kılavuzlarını göreceksiniz. Görev kılavuzu bulunamadıysa, anahtar sözcükler girerek aramanızı daraltabilirsiniz.
+Bu adımları tamamladıktan sonra **Yardım** bölmesini açabilir ve **Görev kılavuzları**'nı seçebilirsiniz. Artık, Finance and Operations uygulamalarında bulunduğunuz sayfa için geçerli olan görev kılavuzlarını göreceksiniz. Görev kılavuzu bulunamadıysa, anahtar sözcükler girerek aramanızı daraltabilirsiniz.
 
 ### <a name="showing-translated-task-guides"></a>Çevrilmiş görev kılavuzları gösteriliyor
 
@@ -87,7 +86,7 @@ Bir ortaksanız ve bir kitaplığı şirket kitaplığına yükseltirseniz ve bi
 
 ### <a name="connect-a-custom-help-site"></a>Özel bir Yardım sitesini bağlama
 
-Finans ve Operasyon uygulamaları, nadiren kullanıma hazır biçimlerinde kullanılır. Bunun yerine çözüm, kuruluşun ihtiyaçlarına göre özelleştirilir ve genişletilir. Yardım deneyimini de özelleştirebilir ve genişletebilirsiniz. Örneğin, ürün içi **Yardım** bölmesine özel Yardım ekleyebilirsiniz.
+Finance and Operations uygulamaları, nadiren kullanıma hazır biçimlerinde kullanılır. Bunun yerine çözüm, kuruluşun ihtiyaçlarına göre özelleştirilir ve genişletilir. Yardım deneyimini de özelleştirebilir ve genişletebilirsiniz. Örneğin, ürün içi **Yardım** bölmesine özel Yardım ekleyebilirsiniz.
 
 Microsoft, özel Yardım'ı **Yardım** bölmesine dağıtmanıza ve bağlamanıza yardımcı olacak bir araç seti sağlamıştır. **Yardım** bölmesine bağlı özel bir Yardım çözümünü nasıl ayarlayabileceğiniz hakkında bilgi için bkz. [Özel Yardım'a genel bakış](../../dev-itpro/help/custom-help-overview.md).
 
@@ -100,6 +99,3 @@ Yardım'ı özelleştirmek için araçlar ve işlemler konusunda Microsoft ile i
 [Görev kaydedici kaynakları](../../dev-itpro/user-interface/task-recorder.md)  
 [Görev Kaydedici ile belge veya eğitim oluşturma](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Özel Yardım, GitHub havuzu](https://github.com/microsoft/dynamics356f-o-custom-help)  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

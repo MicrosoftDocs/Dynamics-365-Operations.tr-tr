@@ -1,29 +1,34 @@
 ---
 title: Servis sözleşmelerini karşılamaya genel bakış
 description: Bu konu servis sözleşmelerini karşılama görevlerine genel bir bakış sağlar.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/03/2018
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39fe65638c413f5fbc1ea6ad4922e97f6e8fb35e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65c26c5bcea386e7cdb3a2be95da26dcb53ce44c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985898"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439520"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Servis sözleşmelerini karşılamaya genel bakış
+# <a name="fulfill-service-agreements-overview"></a>Servis sözleşmelerini karşılamaya genel bakış 
 
 [!include [banner](../includes/banner.md)]
+
 
 Bu konu servis sözleşmelerini karşılama görevlerine genel bir bakış sağlar. Bu konu ayrıca, her iş süreci bileşeniyle ilişkili formları listeler ve her iş süreci bileşeniyle ilgili görevleri ele alır.
 
@@ -39,9 +44,9 @@ Aşağıdaki tabloda Servis sözleşmesi karşılama iş süreci bileşenlerini 
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,9 +67,9 @@ Aşağıdaki tabloda Servis sözleşmesi karşılama iş süreci bileşenlerini 
 <td><p>Servis abonelikleri oluşturmak ve güncelleştirmek.</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Sözleşme izleme ve uygulama</p></td>
@@ -77,9 +82,9 @@ Aşağıdaki tabloda Servis sözleşmesi karşılama iş süreci bileşenlerini 
 <td><p>Servis siparişleri oluşturmak ve güncelleştirmek.</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Anlaşmayı güncelleştir ve değerlendir</p></td>
@@ -102,6 +107,3 @@ Aşağıdaki tabloda Servis sözleşmesi karşılama iş süreci bileşenlerini 
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

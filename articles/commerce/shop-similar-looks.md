@@ -2,13 +2,16 @@
 title: "\"Benzer görünümleri araştır\" önerilerini etkinleştirme"
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta "benzer görünümleri araştır" ürün önerilerinin nasıl etkinleştirileceği açıklanmaktadır.
 author: bebeale
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722012"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416499"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>"Benzer görünümleri araştır" önerilerini etkinleştirme
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'ta "benzer görünümleri araştır" ürün önerilerinin nasıl etkinleştirileceği açıklanmaktadır.
+
+## <a name="overview"></a>Genel bakış
 
 Dynamics 365 Commerce' taki "benzer görünümleri araştır" önerileri özelliği, müşterilere görsel olarak benzer ürünler için öneri sağlamak amacıyla yapay zeka ve makine öğreniminden (AI-ML) yararlanır. Commerce'taki tüm perakende kanallarında "benzer görünümleri araştır" önerileri kullanılabilir duruma getirildiğinde, perakendeciler müşterilerin istediklerini kolayca bulmasına yardımcı olarak müşteri memnuniyetini artırabilir.
 
@@ -68,7 +73,7 @@ Commerce Headquarters'da "benzer görünümleri araştır" önerileri özelliği
 
 Aşağıdaki şekilde, Commerce Headquarters'daki **Özellik Yönetimi** sayfasında bulunan **Benzer görünümleri araştır** özelliği gösterilmektedir.
 
-![Commerce Headquarters'daki Özellik Yönetimi sayfasında bulunan Benzer görünümleri araştır özelliği.](./media/enableshopsimilarlooks.png)
+![Commerce Headquarters'daki Özellik Yönetimi sayfasında bulunan Benzer görünümleri araştır özelliği](./media/enableshopsimilarlooks.png)
 
 Önceki görevler tamamlandıktan sonra, POS terminalleri otomatik olarak bağlamsal bir **Benzer görünümleri araştır** paneliyle geliştirilir. **Daha fazlasını gör** öğesini seçerek POS terminali kullanıcıları daha fazla filtreleme yapabilecekleri özel bir "benzer görünümleri araştır" sayfasına gidebilir.
 
@@ -88,7 +93,7 @@ Commerce site oluşturucusunu kullanarak PDP'ye **Benzer görünümleri araştı
 
 Aşağıdaki şekilde, **Benzer Görünümler Araştır Bağlantısını Etkinleştir** onay kutusu ve site oluşturucudaki bir PDP örneğinde bulunan **Benzer görünümler araştır** düğmesi gösterilmektedir.
 
-![Benzer Görünümler Araştır Bağlantısını Etkinleştir onay kutusu ve site oluşturucudaki bir PDP'deki Benzer görünümler araştır düğmesi.](./media/SSLecomtooling.png)
+![Benzer Görünümler Araştır Bağlantısını Etkinleştir onay kutusu ve site oluşturucudaki bir PDP'deki Benzer görünümler araştır düğmesi](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -111,6 +116,3 @@ Aşağıdaki şekilde, **Benzer Görünümler Araştır Bağlantısını Etkinle
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

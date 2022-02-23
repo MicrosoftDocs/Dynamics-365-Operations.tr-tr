@@ -1,10 +1,12 @@
 ---
 title: Bir iş emri için bakım kesinti süresi
 description: Bu konuda bir iş emrinde seçilen kıymet üzerinde bakım kesinti süresi kayıtlarının nasıl oluşturulacağı açıklanır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 38c47a47fdf64c1d3601f6f3f7b84bf128823ec2ceb0c50e586822f6bdb97906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753384"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020923"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Bir iş emri için bakım kesinti süresi
 
@@ -45,7 +47,7 @@ Bir iş emrinde seçilen kıymet üzerinde bakım kesinti süresi kayıtları ol
 
 Aşağıdaki şekilde bir **Bakım kesinti süresi neden kodları** sayfası örneği gösterilmektedir.
 
-![Şekil 1.](media/15-work-orders.png)
+![Şekil 1](media/15-work-orders.png)
 
 Kullanmak istediğiniz bakım kesinti süresi nedeni kodlarını oluşturduktan sonra, iş emirleri ve varlıklar için bakım kesinti süresi kayıtları oluşturabilirsiniz.
 
@@ -71,21 +73,18 @@ Kullanmak istediğiniz bakım kesinti süresi nedeni kodlarını oluşturduktan 
 
 Aşağıdaki şekilde bir bakım kesinti süresi kaydı örneği gösterilmiştir.
 
-![Şekil 2.](media/16-work-orders.png)
+![Şekil 2](media/16-work-orders.png)
 
 Bakım kapalı kalma süresini hesaplamak için kullanılan takvim, varlıklar ve parametreler kurulumunda yaptığınız seçime bağlıdır. **Tüm varlıklar** sayfasının **Sabit kıymetler** hızlı sekmesindeki **Kaynak** alanındaki bir varlıkta kaynak seçildiyse, ilişkili kaynak grubu için takvim kurulumu aşağıdaki şekildeki gibi gösterilir.
 
-![Şekil 3.](media/17-work-orders.png)
+![Şekil 3](media/17-work-orders.png)
 
 Varlık üzerinde bir kaynak seçilmemişse, **Varlık yönetimi parametreleri** sayfasında seçilen standart takvim içinde kullanılır, aşağıdaki şekilde görüntülendiği gibi.
 
-![Şekil 4.](media/18-work-orders.png)
+![Şekil 4](media/18-work-orders.png)
 
 **Varlık yönetimi** > **Sorgular** > **Bakım kesinti süresi**'ne tıklayarak tüm bakım kesinti süresi kayıtlarına genel bir bakışı görebilirsiniz.
 
 >[!NOTE]
 >**Varlık Yönetimi** modülü içinde kullanılan tüm takvimler, **Kuruluş yönetimi** > **Kurulum** > **Takvimler** > **Takvimler** içinde ayarlanır.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

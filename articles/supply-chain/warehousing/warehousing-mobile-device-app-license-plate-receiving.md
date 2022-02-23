@@ -1,30 +1,33 @@
 ---
-title: Ambar Yönetimi mobil uygulaması aracılığıyla plaka teslim alma
-description: Bu konu, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı desteklemek üzere Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağını açıklamaktadır.
+title: Ambar uygulaması aracılığıyla plaka teslim alma
+description: Bu konu, fiziksel stoku almak için bir plaka teslim alma işlemi kullanmayı desteklemek üzere ambar uygulamasının nasıl ayarlanacağını açıklamaktadır.
 author: perlynne
+manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777637"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439681"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulaması aracılığıyla plaka teslim alma
+# <a name="license-plate-receiving-via-the-warehouse-app"></a>Ambar uygulaması aracılığıyla plaka teslim alma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı destekleyecek şekilde Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağını açıklamaktadır.
+Bu konu, fiziksel stoku almak için bir plaka teslim alma işlemi kullanmayı destekleyecek şekilde ambar uygulamasının nasıl ayarlanacağını açıklamaktadır.
 
 Bu işlevi, bir ön sevkiyat bildirimi (ÖSB) ile ilgili gelen stoğun girişini hızlı bir şekilde kaydetmek için kullanabilirsiniz. Ambar yönetim işlemleri transfer emri sevk etmek için kullanıldığında, sistem otomatik olarak bir ÖSB oluşturur. Satınalma siparişi işlemi için, ÖSB el ile kaydedilebilir veya bir gelen ÖSB veri varlığı işlemi kullanılarak otomatik olarak içe aktarılabilir.
 
@@ -70,14 +73,14 @@ Bu işlevselliğin sisteminizde kullanılabilmesini sağlamak için, [özellik y
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Teslim alma özet sayfasını gösterme veya atlama
 
-*Mobil cihazlarda teslim alma özet sayfası görüntülenip görüntülenmeyeceğni denetle* özelliğini, plaka teslim alma işleminin bir parçası olarak ek bir ayrıntılı Ambar Yönetimi mobil uygulaması akışından yararlanmak üzere kullanabilirsiniz.
+*Mobil cihazlarda teslim alma özet sayfası görüntülenip görüntülenmeyeceğni denetle* özelliğini, plaka teslim alma işleminin bir parçası olarak ek bir ayrıntılı Ambarlama uygulaması akışından yararlanmak üzere kullanabilirsiniz.
 
 Bu özellik etkinleştirildiğinde, plaka teslim alma veya plaka teslim alma ve yerine koyma için mobil cihaz menüsü öğeleri bir **Teslim alma özeti sayfası görüntüle** ayarı sağlar. Bu ayar aşağıdaki seçeneklere sahiptir:
 
 - **Ayrıntılı özet görüntüle** - Plaka teslim alma sırasında çalışanlar tam ÖSB bilgilerini gösteren ek bir sayfa görürler.
 - **Özeti atla** – Çalışanlar tüm ÖSB bilgilerini göremez. Ambar çalışanları da bir değerlendirme kodu ayarlayamaz veya teslim alma işlemi sırasında özel durumlar ekleyemez.
 
-Bu işlevselliği sisteminizde kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *mobil cihazlar özelliğinde alıcı özet sayfasının görüntülenip görüntülenmemesini* açmanız gerekir. (Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır.)
+Bu işlevselliği sisteminizde kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *mobil cihazlar özelliğinde alıcı özet sayfasının görüntülenip görüntülenmemesini* açmanız gerekir.
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Transfer emriyle sevkedilen plakaların hedef ambar dışındaki ambarlarda kullanılmasını engelleme
 
@@ -102,6 +105,3 @@ Mobil cihaz menü öğeleri hakkında daha fazla bilgi için bkz. [Ambar işi i�
 *Tamamlandı bildirimi* üretim senaryosu hakkında daha fazla bilgi için [Ambar iş ilkelerine genel bakış](warehouse-work-policies.md)'a bakın.
 
 Giriş yük yönetimi hakkında daha fazla bilgi için bkz. [Satınalma siparişleri için gelen yüklerin ambarda işlenmesi.](inbound-load-handling.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Adres defterleri SSS
 description: Bu konu, adres defterleri hakkında sık sorulan sorulara yanıt sağlar.
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463646"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796910"
 ---
 # <a name="address-books-faq"></a>Adres defterleriyle ilgili SSS
 
@@ -65,13 +67,3 @@ Taraf kayıtlarını Genel Adres Defteri'ne veya uygun varlık sayfasında gireb
 ## <a name="can-i-translate-address-information-for-party-records"></a>Taraf kayıtları için adres bilgilerini çevirebilir miyim?
 
 Adres bilgilerinin çevirilerini ayarlayabilirsiniz, böylece bilgiler programınızda kullanıcı dilinde (sistem dili) görüntülenirken, satış siparişleri gibi belgelerde farklı bir dilde görüntülenecektir. Ülke/bölge adları, adres amaçları ve isim serileri için çeviriler girebilirsiniz. Örneğin, sistem dilinizi Danca'dır ve Fransa'daki bir müşteri için bir satış siparişi oluşturursunuz. Bu durumda, müşteri kaydını program içerisinde Danca olarak görüntüleyebilir fakat yazdırılan satış siparişinde adres bilgilerini Fransızca görüntüleyebilirsiniz. Çevirileri ayarladığınızda, listedeki her öğe için çeviri girmeniz gerekir. Çeviri girmediğiniz her öğe sistem dilinde görüntülenecektir. Örneğin, sistem dilinizi Danca'dır ve İspanya'daki bir müşteriye bir belge gönderiyorsunuz. Adres bilgileri için İspanyolca (ESP) çeviriler girmediyseniz, bu bilgiler hem programda hem de yazdırılan belgede Danca olarak görünür.
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Adresleri içeri aktardıktan sonra kayıtları neden düzenleyemiyorum?
-
-Adresleri içeri aktardığınızda **IsLocationOwner** adlı bir alan oluşur. Bu alan, konum (adres) ile ilişkilendirilen tarafın adresin sahibi olup olmadığını belirtir. Taraf, adresin sahibiyse genel adres defterindeki veya ana kayıt sayfasındaki taraf (müşteri, satıcı veya çalışan gibi) kullanılarak adres düzenlenebilir. Taraf adresin sahibi değilse kayıt düzenlenemez. 
-
-Adresleri içeri aktardığınızda adresin ilişkili taraf kullanılarak düzenlenebilir olmasını istiyorsanız **IsLocationOwner** alanı **Evet** olarak ayarlanmalıdır. Bu alan içeriği yanlış bir şekilde içeri aktarılırsa konum sahibi genel adres defterinde güncelleştirilebilir.
-
-İçeri aktarılan bir adresin konum sahibinin nasıl değiştirileceği hakkında daha fazla bilgi için bkz. [Konum sahiplerini yönetme](./global-address-book-location-owner.md).
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

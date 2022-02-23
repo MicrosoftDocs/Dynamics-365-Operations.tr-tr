@@ -1,54 +1,55 @@
 ---
 title: Dynamics 365 Human Resources'deki yenilikler veya değişiklikler (06 Ağustos 2020)
 description: Bu konuda, 6 Ağustos 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: andreabichsel
-ms.date: 08/06/2020
+author: darinkramer
+manager: AnnBe
+ms.date: 8/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062198"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528437"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Dynamics 365 Human Resources'deki yenilikler veya değişiklikler (06 Ağustos 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3444 uygulanır. Bazı başlıklardaki parantez içindeki numaralar referans için LCS destek numaralarına referans verir.
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platform güncelleştirmesi 10.0.12(36) artık kullanılabilir durumdadır.
 
-Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri (Ağustos 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri (Ağustos 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Sosyal haklar yönetimi için veri yönetimi çerçevesi (DMF) varlıkları
  
 Kazançlar yönetimi varlıkları serbest bırakılıyor. DMF varlıkları, kazanç yönetimini kolayca yapılandırmak için verilerin içe ve dışa aktarılmasına olanak tanır. Verileri taşımak için bir Kazanç yönetimi şablonu kullanıma sunulacaktır. Şablon veri bağımlılıklarını dikkate almak için verileri dışa aktarır ve sıralı şekilde içe aktarır. Daha fazla bilgi için bkz:
 
-- Dynamics 365 2020 sürüm dalgası 1. planında [DMF varlığı desteği](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support)
-- [Veri yönetimine genel bakış](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
+- Dynamics 365 2020 sürüm dalgası 1. planında [DMF varlığı desteği](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support)
+- [Veri yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire, izin istekleri satın alma ve satma için iş akışı oluşturuyor (446557)
 
 Daha fazla bilgi için bkz:
 
-- Dynamics 365 2020 sürümü 2. dalga planında [Çalışanların izin satın almasına ve satmasına olanak tanıyın](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave)
-- [İzin satın alma ve satma ilkelerini yönetme](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-- [İzin satın alma ve satma](./hr-employee-self-service-buy-sell-leave.md)
+- Dynamics 365 2020 sürümü 2. dalga planında [Çalışanların izin satın almasına ve satmasına olanak tanıyın](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave)
+- [İzin satın alma ve satma ilkelerini yönetme](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [İzin satın alma ve satma](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>Çalışan posta adresleri V2 varlığı sınırlı erişimi olan tüzel kişilikler üzerinde erişime sahip (459126)
@@ -61,7 +62,7 @@ Bu değişiklikle, **Çalışan posta adresi V2** varlığı kullanıcıya veril
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>İzin satın alma ve satma için yeni varlıklar (473180)
 
-Veri yönetimi çerçevesi varlıkları şimdi izin satın alma ve satma için kullanılabilir. Daha fazla bilgi için bkz. [Veri yönetimine genel bakış](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Veri yönetimi çerçevesi varlıkları şimdi izin satın alma ve satma için kullanılabilir. Daha fazla bilgi için bkz. [Veri yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Kayıt bilgilerini görüntülerken ve gelişmiş filtreleri kullanırken, kullanıcı diğer çalışanların kayıtlarına erişebiliyordu (472490)
 
@@ -95,9 +96,9 @@ Bu değişiklikle, konum hiyerarşisi dairesel referans algılaması zaman için
 
 Bazı kuruluşlar, çalışanların izin satın alma veya satma olanağı sağlayan bir yarar sağlar. Bu işlem genellikle el ile yönetilir. Bu özellik, İK departmanı ile ilgili ilkelerin ve isteklerin yönetilmesini otomatikleştirir. İzin yönetimi işlemini kolaylaştırır ve hataları gidermek için yardımcı olur. Daha fazla bilgi için bkz:
 
-- Dynamics 365 2020 sürümü 2. dalga planında [Çalışanların izin satın almasına ve satmasına olanak tanıyın](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave)
-- [İzin satın alma ve satma ilkelerini yönetme](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-- [İzin satın alma ve satma](./hr-employee-self-service-buy-sell-leave.md)
+- Dynamics 365 2020 sürümü 2. dalga planında [Çalışanların izin satın almasına ve satmasına olanak tanıyın](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave)
+- [İzin satın alma ve satma ilkelerini yönetme](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [İzin satın alma ve satma](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Tek bir şirket veya tek bir plan için izin tahakkuku
 
@@ -125,15 +126,15 @@ Neden kodları tahakkuk askıya almaya eklenmiştir.
 
 İnsan Kaynakları kişiselleştirme yeteneklerini kullanarak alanları zorunlu hale getirebilirsiniz. Bu özellik için **Kaydedilmiş görünümler** gereklidir . Kayıtlı görünümler hakkında daha fazla bilgi için bkz.
 
-- Dynamics 365 2020 sürümü 2. dalga planında [Kayıtlı görünümler - genel kullanılabilirlik](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)
-- [Kayıtlı görünümleri tamamen kullanan formlar oluşturma](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
+- Dynamics 365 2020 sürümü 2. dalga planında [Kayıtlı görünümler - genel kullanılabilirlik](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)
+- [Kayıtlı görünümleri tamamen kullanan formlar oluşturma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
 
 ### <a name="human-resources-application-in-teams"></a>Teams'de Human Resources uygulaması
 
 Çalışanlar, Microsoft Teams içinde işten geçen zamanı görüntüleyebilir ve talep edebilir . İzin istekleri oluşturmak için bir bot ile etkileşime girebilirler. Daha fazla bilgi için bkz:
 
-- Dynamics 365 2020 sürümü 1. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
-- [Teams'de Human Resources uygulaması](./hr-admin-teams-leave-app.md)
+- Dynamics 365 2020 sürümü 1. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
+- [Teams'de Human Resources uygulaması](https://go.microsoft.com/fwlink/?linkid=2127841)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>Tahakkuk askıya almaları için DMF varlığı kullanılabilir
 
@@ -141,9 +142,9 @@ DMF varlığı artık tahakkuk askıya almalar için kullanılabilir.
 
 ## <a name="coming-soon"></a>Çok yakında
 
-## <a name="checklist-entities-included-in-dataverse"></a>Dataverse'te bulunan denetim listesi varlıkları
+## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'te bulunan denetim listesi varlıkları
 
-Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Dataverse'te kullanılabilir olacaktır.
+Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Common Data Service'te kullanılabilir olacaktır.
 
 ## <a name="known-issues"></a>Bilinen sorunlar
 
@@ -171,9 +172,6 @@ Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkl
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,12 +3,14 @@ title: Mağaza seçicisi modülü
 description: Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772168"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665284"
 ---
 # <a name="store-selector-module"></a>Mağaza seçicisi modülü
 
@@ -29,40 +31,21 @@ ms.locfileid: "6772168"
 
 Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
+## <a name="overview"></a>Özet
+
 Müşteriler, çevrimiçi bir satın alma işleminden sonra seçili bir mağazadan bir ürünü almak için mağaza seçici modülünü kullanabilirler. Commerce sürüm 10.0.13'te mağaza seçici modülü yakındaki mağazaları gösteren bir **Mağaza Bulun** sayfası gösterebilecek ek özellikler de içerir.
 
 Mağaza seçici modülü, arama yarıçapı içindeki mağazaları aramak için kullanıcıların bir konum (şehir, eyalet, adres vb.) girmesini sağlar. Modül ilk açıldığında, mağazaları bulmak için müşterinin tarayıcı konumunu kullanır (izin sağlanırsa).
 
-## <a name="store-selector-module-usage"></a>Mağaza seçicisi modülünün kullanımı
+## <a name="store-selector-module-usage-in-e-commerce"></a>e-Ticarette mağaza seçici modül kullanımı
 
 - Bir mağaza seçici modülü malzeme çekme amacıyla bir mağaza seçmek için ürün ayrıntıları sayfasında (PDP) kullanılabilir.
 - Bir mağaza seçici modülü malzeme çekme amacıyla bir mağaza seçmek için sepet sayfasında kullanılabilir.
 - Mağaza seçici modülü, kullanılabilir tüm mağazaları gösteren bağımsız bir sayfada kullanılabilir.
 
-## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Commerce Headquarters'da karşılama grubu ayarlama
-
-Mağaza seçicinin mevcut mağazaları görüntülemesi için, karşılama grubunun Commerce Headquarters'da ayarlanması gerekir. Daha fazla bilgi için bkz. [Karşılama grupları ayarlama](customer-orders-overview.md#set-up-fulfillment-groups).
-
-Ayrıca, karşılama grubundaki her mağaza için, mağaza yerleşiminin enlem ve boylamı Headquarters'ta tanımlanmalıdır.
-
-Commerce Headquarters'da mağaza konumu için boylam ve enlem değerlerini girmek üzere aşağıdaki adımları izleyin.
-
-1. **Stok yönetimi \> Kurulum \> Stok dökümü** öğelerini seçin.
-1. Sol bölmede ambar konumunu seçin.
-1. **Adresler** hızlı sekmesinde, **Gelişmiş**'i seçin.
-
-    ![Headquarters'daki mağaza ayrıntıları örneği.](./media/Store-address.png)
-
-1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
-1. **Genel** hızlı sekmesinde **Enlem** ve **Boylam** değerlerini girin.
-
-    ![Headquarters'daki bir mağaza için enlem ve boylam ayarı örneği.](./media/Store-latitude-longitude.png)
-
-1. Eylem bölmesinde, **Kaydet**'i seçin. 
-
 ## <a name="bing-maps-integration"></a>Bing Haritalar tümleştirmesi
 
-Mağaza seçici modülü, [Bing Haritalar REST uygulama programlama arabirimleri (API'ler)](/bingmaps/rest-services/) ile Bing'in Coğrafi Kodlama ve Otomatik Öneri özelliklerini kullanacak şekilde Bing Haritalar ile tümleştirilmiştir. Bir Bing Haritalar API anahtarı gereklidir ve Commerce Headquarters'daki paylaşılan parametreler sayfasına eklenmelidir. Geocoding API, bir konumu enlem ve boylam değerlerine dönüştürmek için kullanılır. Autosuggest API ile tümleştirme, kullanıcılar arama alanına konum girerken arama önerilerini göstermek için kullanılır.
+Mağaza seçici modülü, [Bing Haritalar REST uygulama programlama arabirimleri (API'ler)](https://docs.microsoft.com/bingmaps/rest-services/) ile Bing'in Coğrafi Kodlama ve Otomatik Öneri özelliklerini kullanacak şekilde Bing Haritalar ile tümleştirilmiştir. Bir Bing Haritalar API anahtarı gereklidir ve Commerce Headquarters'daki paylaşılan parametreler sayfasına eklenmelidir. Geocoding API, bir konumu enlem ve boylam değerlerine dönüştürmek için kullanılır. Autosuggest API ile tümleştirme, kullanıcılar arama alanına konum girerken arama önerilerini göstermek için kullanılır.
 
 Autosuggest REST API için sitenizin içerik güvenlik ilkesi (CSP) uyarınca aşağıdaki URL'lere izin verildiğinden emin olmanız gerekir. Bu kurulum, site için çeşitli CSP yönergelerine (örneğin, **img-src**) izin verilen URL'leri ekleyerek Commerce site oluşturucuda gerçekleştirilir. Daha fazla bilgi için bkz. [İçerik güvenlik ilkesi](manage-csp.md). 
 
@@ -70,21 +53,21 @@ Autosuggest REST API için sitenizin içerik güvenlik ilkesi (CSP) uyarınca a�
 - **img-src** yönergesine **&#42;.virtualearth.net** ekleyin.
 - **script-src** yönergesine, **&#42;.bing.com, &#42;.virtualearth.net** ekleyin.
 - **script style-src** yönergesine **&#42;.bing.com** ekleyin.
-
+ 
 ## <a name="pickup-in-store-mode"></a>Mağazadan teslim alma modu
 
 Mağaza seçici modülü,bir ürünün teslim alınabileceği mağazaların listesini gösteren bir **Mağazadan teslim alma** modunu destekler. Ayrıca, listedeki her mağaza için mağaza çalışma saatlerini ve ürün stokunu gösterir. Mağaza seçici modülü, ürün kullanılabilirliğini işlemek ve ürünün seçili mağazadaki teslimat modu **mağazadan teslim** olarak ayarlandığında kullanıcının ürünü sepete eklemesini sağlamak için ürünün bağlamını gerektirir. Daha fazla bilgi için bkz. [Stok ayarları](inventory-settings.md). 
 
 Bir ürünün teslim alma için uygun olduğu mağazaları görüntüleyen bir PDF'de bir satın alma kutusu modülüne mağaza seçici modülü eklenebilir. Bir sepet modülüne da eklenebilir. Bu durumda, depo seçici modülü alışveriş sepetindeki her kalem için teslim alma seçeneklerini gösterir. Mağaza seçici modülü uzantılar ve özelleştirmeler aracılığıyla diğer sayfalara veya modüllere de eklenebilir.
 
-Bu senaryosunun çalışması için ürünlerin **teslim alma** modu kullanılacak şekilde yapılandırılması gerekir. Aksi durumda, modül ürün sayfalarında gösterilmez. Teslimat modunun yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat modlarını ayarlama](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Bu senaryosunun çalışması için ürünlerin **teslim alma** modu kullanılacak şekilde yapılandırılması gerekir. Aksi durumda, modül ürün sayfalarında gösterilmez. Teslimat modunun yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat modlarını ayarlama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Aşağıdaki resimde, PDP üzerinde kullanılan bir Mağaza Seçicisi modülü örneği gösterilmektedir.
 
-![Bir ürün detayı sayfasında (PDP) kullanılan mağaza seçici modülü örneği.](./media/BOPIS.PNG)
+![Bir ürün detayı sayfasında (PDP) kullanılan mağaza seçici modülü örneği](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Sürüm 10.0.16 ve sonrasında, bir organizasyonun müşteriler için birden çok malzeme çekme modu tanımlamasına izin veren yeni bir özellik etkinleştirilebilir.  Bu özellik etkinleştirilirse, mağaza Seçicisi ve e-ticaretin diğer modülleri, yapılandırıldıysa, büyük olasılıkla çoklu çekme teslim seçenekleri arasından seçim yapmasına olanak verecek şekilde geliştirilecektir.  Bu özellik hakkında daha fazla bilgi edinmek için [Bu belgeye bakın](./multiple-pickup-modes.md). 
+> Sürüm 10.0.16 ve sonrasında, bir organizasyonun müşteriler için birden çok malzeme çekme modu tanımlamasına izin veren yeni bir özellik etkinleştirilebilir.  Bu özellik etkinleştirilirse, mağaza Seçicisi ve e-ticaretin diğer modülleri, yapılandırıldıysa, büyük olasılıkla çoklu çekme teslim seçenekleri arasından seçim yapmasına olanak verecek şekilde geliştirilecektir.  Bu özellik hakkında daha fazla bilgi edinmek için [Bu belgeye bakın](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Mağaza bulma modu
 
@@ -92,7 +75,7 @@ Mağaza seçici modülü **Mağazaları bul** modunu da destekler. Bu mod, kulla
 
 Aşağıdaki çizimde, bir mağaza konumları sayfasındaki harita modülüyle birlikte kullanılan bir mağaza seçici modülü örneği gösterilmektedir.
 
-![Mağaza konumları sayfasında mağaza seçici modülü ile harita modülü örneği.](./media/ecommerce-Storelocator.PNG)
+![Mağaza konumları sayfasında mağaza seçici modülü ile harita modülü örneği](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Harita oluşturma
 
@@ -110,10 +93,6 @@ Bir haritada mağaza konumlarını göstermek için mağaza seçici modülü har
 | Otomatik öneri seçenekleri: Maksimum sonuç sayısı | Sayı | Bu özellik, Bing Autosuggest API ile gösterilebilecek otomatik öneri sonuçları sayısının üst sınırını tanımlar. |
 | Arama yarıçapı | Sayı | Bu özellik mil cinsinden arama yarıçapını tanımlar. Herhangi bir değer belirtilmezse, varsayılan arama yarıçapı olan 50 mil değeri kullanılır. |
 | Hizmet koşulları | URL |  Bu özellik, Bing Haritalar hizmetini kullanmak için gerekli olan hizmet koşulları URL'sini belirtir. |
-
-## <a name="site-settings"></a>Site ayarları
-
-Mağaza Seçici modülü, [Sepete ürün ekle ayarlarına](add-cart-settings.md) uyar. Mağaza seçici modülünden bir öğe alışveriş sepetine eklendikten sonra, site kullanıcıları uygun yapılandırılmış iş akışlarını görürler.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Bir sayfaya mağaza seçici modülü ekleme
 
@@ -160,13 +139,10 @@ Mağaza seçici modülünü bu konunun yukarısında gösterilen çizimde olduğ
 
 [Sepet ve ödemede hızlı tur](quick-tour-cart-checkout.md)
 
-[Teslimat şekillerini ayarla](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Teslimat şekillerini ayarla](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Kuruluşunuz için Bing Haritalar'ı yönetme](dev-itpro/manage-bing-maps.md)
 
-[Bing Maps REST API'leri](/bingmaps/rest-services/)
+[Bing Maps REST API'leri](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Harita modülü](map-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

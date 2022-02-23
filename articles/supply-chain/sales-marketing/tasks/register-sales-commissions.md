@@ -1,24 +1,27 @@
 ---
 title: Satış komisyonlarını kaydetme
 description: Bu konu, satış komisyonlarının nasıl hesaplanacağını ve kaydedileceğini açıklar.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CommissionTrans, LedgerTransVoucher, CustClassificationGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4aca37350938d54d4acf283093365bfcab64f70
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 57e3b95cb1f4a13b49ddcd336efaeabb12e5defc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575375"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439125"
 ---
 # <a name="register-sales-commissions"></a>Satış komisyonlarını kaydetme
 
@@ -68,6 +71,3 @@ Komisyon işlemi için seçtiğiniz müşteri ve ürün numaralarını not edin 
 3. Sayfayı kapatın.
 4. **Fiş**'i seçin. Önceden tanımlanmış komisyon giderlerine ve komisyon borç hesaplarına nakledilen komisyon tutarlarının fiş hareketlerini gözden geçirebilirsiniz.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

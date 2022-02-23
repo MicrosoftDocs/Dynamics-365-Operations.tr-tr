@@ -2,24 +2,27 @@
 title: WMS özellikli bir ambarda yerleşimleri yapılandırma
 description: Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri kullanan bir ambarın) konum kurulumunun nasıl yapılandırılacağını gösterir.
 author: perlynne
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 31f016c4c8b8b08139836336ac38196fbd1fba6f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599360"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439165"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>WMS özellikli bir ambarda yerleşimleri yapılandırma
 
@@ -33,7 +36,7 @@ Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri
 2. **Yeni**'ye tıklayın.
 3. **Ambar** alanına bir değer yazın.
 4. **Ad** alanına bir değer yazın.
-5. **Site** alanında, varolan bir site değerini seçin veya yazın.
+5. **Tesis** alanına bir değer yazın.
 6. **Ambar** bölümünü genişletin.
 7. **Ambar yönetimi süreçlerini kullan** seçeneğini Evet olarak ayarlayın. Bu ayar, ambar çalışma ve mobil aygıtları kullanarak gelişmiş ambar işlemleri çalıştırmanızı sağlar.
 8. Sayfayı kapatın.
@@ -172,6 +175,3 @@ Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri
 6. Listede, seçili satırdaki bağlantıya tıklayın.
 7. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

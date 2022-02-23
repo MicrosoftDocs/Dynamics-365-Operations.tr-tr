@@ -2,9 +2,11 @@
 title: Şirketler arası mali veri paylaşımını yapılandırma
 description: Bu yordam, şirketler arasında veri paylaşımı sırasında gerçekleşebilecek çakışmaları yapılandırma, etkinleştirme, doğrulamak ve çözümlemeyi gösterir.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportRnr, DMFExecutionHistoryWorkspace, DMFExecutionHistorySummary, DMFExecutionHistoryEntities,  SysDataSharingConfiguration, SysDataSharingDiscrepencies
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c2caaa971790c31ed4c88bd0b2365179fb22b644e3d4512f4f06bb33bd29f8d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aeb9e85d3263d78a8412bd3c300dae8bb1d840ef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736290"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685205"
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>Şirketler arası mali veri paylaşımını yapılandırma
 
@@ -57,6 +59,3 @@ Bu görev kılavuzu Dynamics AX platformu 7.1 veya sonrasını gerektirir.
 27. Sayfayı yenileyin.
 28. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

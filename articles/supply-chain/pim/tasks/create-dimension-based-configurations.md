@@ -1,24 +1,27 @@
 ---
 title: Boyut tabanlı yapılandırmalar oluşturma
 description: Bu prosedürde bir boyut tabanlı ürün için bir yapılandırmanın nasıl tanımlanacağı açıklanmıştır.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, EcoResDimensionBasedConfiguration, ConfigChooseFromRoute, ConfigChooseFromGroup, ConfigChoiceApprove
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d244170d9cbde00e3fe94b291348e9b0e6040813
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c3e5cd2677480b14739f963cf4a74efaa7f2bd2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565627"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439303"
 ---
 # <a name="create-dimension-based-configurations"></a>Boyut tabanlı yapılandırmalar oluşturma
 
@@ -26,30 +29,27 @@ ms.locfileid: "7565627"
 
 Bu prosedürde bir boyut tabanlı ürün için bir yapılandırmanın nasıl tanımlanacağı açıklanmıştır. Bu prosedür, boyut tabanlı yapılandırma kombinasyonlarının nasıl oluşturacağını açıklayan serinin son prosedürüdür. Bu prosedürün uygulanması önceki yedi kayıtta oluşturulan verilere bağlıdır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
-## <a name="find-the-dimension-based-product-master"></a>Boyut tabanlı ürün mastarını bulma
 
-1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
-1. Listede, seçili satırı işaretleyin.
+## <a name="find-the-dimension-based-product-master"></a>Boyut tabanlı ürün mastarını bulma
+1. Serbest bırakılan ürün bakımı'na tıklayın.
+2. Sevk edilen ürünler'e tıklayın.
+3. Listede, seçili satırı işaretleyin.
     * Bu 8 kayıtlı dizinde ilk kayıtta oluşturduğunuz boyut tabanlı ürün mastarını seçin.  
 
 ## <a name="create-configurations"></a>Yapılandırmalar oluşturma
-
-1. **Mühendislik** Eylem Bölmesi'nde, **Yapılandırmaları koru**'yu seçin.
-1. **Yapılandır**'ı seçin.
-1. Listede, seçili satırı işaretleyin.
-1. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.
+1. Mühendislik Eylem Bölmesinde, Yapılandırmaları yönet düğmesini tıklayın.
+2. Yapılandır düğmesini tıklayın.
+3. Listede, seçili satırı işaretleyin.
+4. Madde numarası alanında bir değer girin veya seçin.
     * İlk yapılandırma grubundaki maddelerden herhangi birini seçin.  
-1. Listede, istenen kaydı bulun ve seçin.
-1. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.
+5. Listede, istenen kaydı bulun ve seçin.
+6. Madde numarası alanında bir değer girin veya seçin.
     * İkinci yapılandırma grubundan herhangi bir maddeyi seçin.  
-1. **Tamam**'ı seçin.
-1. Listede, seçili satırı işaretleyin.
-1. **Yapılandırma** alanına bir değer yazın.
+7. Tamam'a tıklayın.
+8. Listede, seçili satırı işaretleyin.
+9. Yapılandırma alanına bir değer yazın.
     * Yapılandırmayı kolayca tanımlamanıza yardımcı olacak bir yapılandırma adı girin.  
-1. **Tanım** alanına bir değer girin.
+10. Açıklama alanına bir değer girin.
     * İçeriğini açıklamak için bir yapılandırma açıklaması girin.  
-1. **Tamam**'ı seçin.
+11. Tamam'a tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

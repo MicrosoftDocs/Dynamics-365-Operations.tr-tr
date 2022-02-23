@@ -1,32 +1,33 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (08 Temmuz 2020)
 description: Bu konuda, 8 Temmuz 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a574436bc7762fbee722af8be2f923d18d01e5b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060801"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528485"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (8 Temmuz 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3382 uygulanır. Bazı başlıklardaki parantez içindeki numaralar referans için LCS destek numaralarına referans verir.
 
@@ -70,9 +71,9 @@ Oluşturulan ve değiştirilen sistem alanları artık Human Resources'taki **Wo
 
 Bu sürüm, bir personel işe alındığında **İşe alma ve ayrıntı ekleme** seçeneği kullanıldığında personel girişinde oluşan bir hatayı (boş referans) düzeltir.
 
-## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Dataverse Çalışan varlığında yapılan değişiklikler Human Resources'ta yansıtılmıyor (455652)
+## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Common Data Service Çalışan varlığında yapılan değişiklikler Human Resources'ta yansıtılmıyor (455652)
 
-Dataverse'teki **Çalışan** varlığında aşağıdaki alanlarda yapılan değişiklikler artık Human Resources'ta görünecek:
+Common Data Service'teki **Çalışan** varlığında aşağıdaki alanlarda yapılan değişiklikler artık Human Resources'ta görünecek:
 
 - **Evden çalışıyor**
 - **Kıdem tarihi**
@@ -91,7 +92,7 @@ Artık İnsan Kaynakları kişiselleştirme yetenekleri kullanarak alan zorunlu 
 
 ## <a name="human-resources-application-in-teams"></a>Teams'de Human Resources uygulaması
 
-Çalışanlar, Microsoft Teams içinde işten geçen zamanı görüntüleyebilir ve talep edebilir . İzin istekleri oluşturmak için bir bot ile etkileşime girebilirler. Daha fazla bilgi için bkz: [Teams'te insan kaynakları uygulama](./hr-admin-teams-leave-app.md). 
+Çalışanlar, Microsoft Teams içinde işten geçen zamanı görüntüleyebilir ve talep edebilir . İzin istekleri oluşturmak için bir bot ile etkileşime girebilirler. Daha fazla bilgi için bkz: [Teams'te insan kaynakları uygulama](https://go.microsoft.com/fwlink/?linkid=2127841). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Sosyal haklar yönetimi için veri yönetimi çerçevesi (DMF) varlıkları
  
@@ -130,16 +131,13 @@ DMF varlığı artık tahakkuk askıya almalar için kullanılabilir.
 
 ## <a name="coming-soon"></a>Çok yakında
 
-## <a name="checklist-entities-included-in-dataverse"></a>Dataverse'te bulunan denetim listesi varlıkları
+## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'te bulunan denetim listesi varlıkları
 
-Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Dataverse'te kullanılabilir olacaktır.
+Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Common Data Service'te kullanılabilir olacaktır.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

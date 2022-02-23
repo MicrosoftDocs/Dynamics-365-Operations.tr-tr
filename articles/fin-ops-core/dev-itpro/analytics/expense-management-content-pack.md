@@ -2,9 +2,11 @@
 title: Gider yönetimi Power BI içeriği
 description: Bu konu, Power BI Gider Yönetimi içerik paketinde nelerin bulunduğunu açıklar.
 author: panolte
+manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -14,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769910"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016464"
 ---
 # <a name="expense-management-power-bi-content"></a>Gider yönetimi Power BI içeriği
 
@@ -41,7 +43,7 @@ Bu konu, Power BI Gider Yönetimi'nde içeriğinde nelerin bulunduğunu açıkla
 Gösterilen tüm tutarlar şirket para birimi cinsindendir. Tüm şirketler hakkında veri gösterilir, ancak ihtiyaç duyulursa bir şirket filtresi ekleyebilirsiniz. 
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
-Gider Yönetici Panosu.pbix ve Gider Kişisel Pano.pbix Power BI içeriğini Microsoft Dynamics Lifecycle services (LCS) içindeki Paylaşılan varlıklarda bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
+Gider Yönetici Panosu.pbix ve Gider Kişisel Pano.pbix Power BI içeriğini Microsoft Dynamics Lifecycle services (LCS) içindeki Paylaşılan varlıklarda bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 İçerik, Gider Yönetimi çalışma alanından, katıştırılmış Power Bi içeriği olarak kullanılabilir. Her gider sahibi, kendileri için kişisel giderlere erişebilir, ancak yalnızca Borç Hesapları elemanları ve yöneticilerinin tüm kullanıcı gider verisini görüntülemek için Yönetici içeriğine erişimleri vardır.
 
 ## <a name="refreshing-the-power-bi-content"></a>Power BI içeriğini yenilemek
@@ -91,6 +93,3 @@ Gider yönetimi Power BI içeriği, TrvBiExpenseMeasurement ölçüsünün ve Bu
 | Personel İstatistikleri | Gider türüne göre maliyet raporları            |
 |                     | Kişisel giderler                       |
 |                     | İstatistik grubuna göre gider raporları     |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,52 +1,39 @@
 ---
-title: Plan türüne genel bakış
-description: Microsoft Dynamics 365 Human Resources'ta plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır.
-author: twheeloc
-ms.date: 08/24/2021
-ms.topic: overview
+title: Plan türleri oluşturma
+description: Microsoft Dynamics 365 Human Resources'ta plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır. Her plan türü, plan türüyle ilgili kuralları belirleyen bir plan türü koduna sahiptir.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b247b3a044a073c2a4d2d9c2ab8507fa2ebe864c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067566"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420961"
 ---
-# <a name="plan-type-overview"></a>Plan türüne genel bakış
+# <a name="create-plan-types"></a>Plan türleri oluşturma
 
+Microsoft Dynamics 365 Human Resources'ta plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır. Her plan türü, plan türüyle ilgili kuralları belirleyen bir plan türü koduna sahiptir. Örneğin, temel kullanım plan türü, bir çeşit ömür iş sigortası planı olduğundan ve ömür planı türü kodu için oluşturulan kurallara uygun olması gereken plan türü kodu ömrüne sahip olacaktır. Başka bir plan türü, planlama türü kod ömrü ile aynı zamanda ek ömür olabilir.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+Her plan tipi bir çalışanın türünün veya birden fazla bir plana kayıt yapıp kaydedemeyeceğini gösterir. Örneğin, bir çalışan plan türü ömrü ile ilgili temel ömür ve ek kullanım ömrü ilkelerine kayıt yapabilir. Bir çalışanın büyük olasılıkla tıbbi tip bir ilkeye kaydetmesine izin verilir.
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Bir plan türü ilgili kişiler içeriyorsa, plan türü ilgili kişilerin lehdar veya bağımlı olup olmadığını gösterir. Örneğin, temel bir ömür planı türü, temel bir tıbbi plan türünün bağımlıları olması halinde lehsiz olurdu. Bazı durumlarda, bir planın kişisel ilgili kişisi olmayabilir. Örneğin, esnek bir harcama hesabı veya Park kesintisi.
 
-Plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır. Her plan türü, plan türüyle ilgili kuralları belirleyen bir plan türü koduna sahiptir. Örneğin, **Temel yaşam** planı türü, bir tür hayat sigortası planı olduğundan ve **Yaşam** planı türü kodu için oluşturulmuş kurallara uyması gerektiğinden, **Yaşam** planı türü koduna sahip olacaktır. Başka bir plan türü **Ek yaşam** olabilir. Bu plan türü, **Yaşam** planı türü koduna da sahip olacaktır.
-
-Her plan tipi bir çalışanın türünün veya birden fazla bir plana kayıt yapıp kaydedemeyeceğini gösterir. Örneğin, bir çalışan plan türü ömrü ile ilgili **Temel ömür** ve **Ek kullanım ömrü** ilkelerine kayıt yapabilir. Bir çalışanın büyük olasılıkla tıbbi tip bir ilkeye kaydetmesine izin verilir.
-
-Bir plan türü ilgili kişiler içeriyorsa, plan türü ilgili kişilerin lehdar veya bağımlı olup olmadığını gösterir. Örneğin, temel bir tıbbi plan türünün bağımlıları varken **Temel ömür** plan türünün lehtarları olurdu. Bazı durumlarda, bir planın kişisel ilgili kişisi olmayabilir. Örneğin, esnek bir harcama hesabı veya Park kesintisi.
-
-
-Plan türü, kapsam seçeneklerini tanımlayabilir. Kapsam seçenekleri **Kapsam seçenekleri** sayfasında tanımlanır. Tedarik seçeneği, plan türüne uygun olan kazancın veya ilgili kişilerin tutarını belirtebilir. Örneğin, ilgili kişi türü **Lehdar** ise kapsam seçeneği, kazanç kullanıldığında lehdarın ne kadar uygun olacağının koşullarını tanımlamalıdır. İlgili kişi türü **Bağımlı** ise kapsam seçeneğinin bağımlı ve çalışan arasındaki ilişkiyi tanımlaması gerekir. 
-
-> [!IMPORTANT]
-> **Plan türleri** sayfası, yeni bir kazanç planı oluşturulduğunda kullanılabilen seçenekleri etkileyen temel verileri içerir:
->
-> - **Plan türü kodu**: Bu alan, gerçek yan hak ayarlandığında **Yapılandırma** sekmesinde gösterilenleri etkiler.  
-> - **Eşzamanlı kayıt**: Bu alan, birden çok kayda izin verilip verilmeyeceğini belirler. (Tıbbi bir plan için bu alan genellikle **Bir kayıt** olarak ayarlanır.)
-> - **İlgili kişi türü**: Bu alan, bakmakla yükümlü olunan kişileri veya yararlananları bir plana eklemeyi sağlar. **Hiçbiri** olarak ayarlanırsa yan haklara kaydedilen çalışanlar bir yararlanan veya bakmakla yükümlü olunan kişi seçme seçeneğine sahip olmaz.
-> - **Kapsam seçenekleri**: Kapsam seçeneklerini plan türleriyle ilişkilendirmek için bu alanı kullanın. Bu plan türü kapsamında olacak bireyleri veya bu plan türü için kullanılabilir kapsam tutarlarını tanımlar. Örneğin, bir tıbbi plan türü için kapsamın yalnızca çalışan, çalışan ve başka bir kişi veya çalışan ve ailesi için kullanılabileceğini belirtebilirsiniz.
-
-## <a name="create-plan-types"></a>Plan türleri oluşturma
+Plan türü, kapsam seçeneklerini tanımlayabilir. Kapsam seçenekleri, kapsma seçeneği formunda tanımlanmıştır. Tedarik seçeneği, plan türüne uygun olan kazancın veya ilgili kişilerin tutarını belirtebilir. Örneğin, ilgili kişi türü lehdar ise, kapsam seçeneği, lehdar kullanıldığında kazancın ne kadar uygun olacağını tanımlamalıdır. İlgili kişi türü bağımlı ise, kapsam seçeneğinin bağımlı ve çalışan arasındaki ilişkiyi tanımlaması gerekir. 
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Kur** altında, **Plan türleri**'nı seçin.
 
@@ -76,6 +63,3 @@ Plan türü, kapsam seçeneklerini tanımlayabilir. Kapsam seçenekleri **Kapsam
    | **Raporlama aralığı** | Yaşam olayının raporlama aralığını gün olarak belirtir. **Not**: tutar girmezseniz, sistem raporlama penceresinin sıfır olmasını varsayar ve ömür olayını işlemez. |
 
 5. **Kaydet**'i seçin. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

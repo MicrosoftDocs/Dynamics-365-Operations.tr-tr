@@ -2,8 +2,11 @@
 title: ROUNDAMOUNT ER işlevi
 description: Bu konu, ROUNDAMOUNT Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b05c6024d9eeecfe74022df10d793055a026d5a159e9c011f37708f6a4e6e0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15a84b086b324ec390d88e8b2617022ad4773977
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770873"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683075"
 ---
 # <a name="roundamount-er-function"></a>ROUNDAMOUNT ER işlevi
 
@@ -69,7 +72,7 @@ Sonuçta elde edilen sayısal değer `decimals` parametrenin belirttiği değeri
 
 `round rule` parametre, **RoundOffType.RoundUp** olarak ayarlandığında bu işlev sıfırdan en uzak en yakın yuvarlama miktarına yuvarlanır.
 
-`round rule` parametresi **RoundOffType.Ordinary** olarak ayarlandığında, bu işlev [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel işlevi ve [ROUND](../dev-ref/xpp-math-run-time-functions.md#round) X++ işlevi gibi davranır.
+`round rule` parametresi **RoundOffType.Ordinary** olarak ayarlandığında, bu işlev [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) Excel işlevi ve [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round) X++ işlevi gibi davranır.
 
 ## <a name="remarks"></a>Açıklamalar
 
@@ -88,6 +91,3 @@ Sayısal değeri belirtilen sayıda ondalık basamağa yuvarlamak için [ROUND](
 [Diğer (belirli iş etki alanı) işlevleri](er-functions-category-other.md)
 
 [Matematik işlevi](er-functions-category-mathematical.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

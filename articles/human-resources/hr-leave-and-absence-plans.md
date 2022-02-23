@@ -1,33 +1,31 @@
 ---
 title: İzin ve devamsızlık planı oluşturma
-description: Bu konu,  farklı izin tipleri için Dynamics 365 Human Resources'ta izin planlarının nasıl oluşturulacağını açıklamaktadır.
-author: twheeloc
-ms.date: 10/28/2021
+description: Dynamics 365 Human Resources'ta farklı izin tipleri için izin planlarını içinde oluşturun.
+author: andreabichsel
+manager: AnnBe
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070262"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420989"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>İzin ve devamsızlık planı oluşturma
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Sunduğunuz her izin türü için Dynamics 365 Human Resources'ta izin ve devamsızlık planlarını tanımlayın. İzin ve devamsızlık planları, yıllık, aylık veya yarı aylık gibi farklı frekanslarda tahakkuk edebilir. Planlar ayrıca tahakkukun belirli bir tarihte tek bir defa oluşacağı bir türde de tanımlanabilir. Örneğin, yıllık olarak değişken tatiller veren bir plan oluşturabilirsiniz.
 
@@ -385,6 +383,3 @@ Tahmin edilen bakiye (30) = Tahakkuk tutarı (10 × 1) + Geçerli bakiye (40) �
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık türlerini yapılandırma](hr-leave-and-absence-types.md)
 - [İzin ve devamsızlık planları tahakkuk etme](hr-leave-and-absence-accrue.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

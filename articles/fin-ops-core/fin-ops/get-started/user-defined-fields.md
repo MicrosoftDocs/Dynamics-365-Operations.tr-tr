@@ -2,9 +2,11 @@
 title: Özel alanlar oluşturma ve bunlarla çalışma
 description: Bu konu uygulamayı işletmenize uygun hale getirmek için kullanıcı arabiriminden nasıl özel alanlar oluşturabileceğinizi açıklar.
 author: jasongre
-ms.date: 05/24/2021
+manager: AnnBe
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
@@ -13,23 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 2ab1c402d99c1d9b7d7dc06e64c93fe43c5a1e9f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: eee5b072f999aab7d4a5e72888abad3915e03d5b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071197"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798130"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Özel alanlar oluşturma ve bunlarla çalışma
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Çok sayıda iş sürecini yönetmek için kullanıma hazır kapsamlı bir alan kümesi olmasına karşın bazen bir şirketin sistemde ek bilgileri izlemesi gerekebilir. Bu alanları geliştirici araçlarında uzantı olarak eklemek için programlayıcılar kullanılabilir, özel alanlar özelliği alanların doğrudan kullanıcı arabiriminden eklenmesine olanak tanır ve web tarayıcınızı kullanarak uygulamanızı işletmenize uygun hale getirmenize olanak tanır.
 
-*Yalnızca özel izinlere sahip kullanıcıların bu özelliğe erişimi vardır.*
+Özel alanlar ekleme yeteneği, platform güncelleştirmesi 13 ve sonraki sürümlerde kullanılabilir. Yalnızca özel izinlere sahip kullanıcıların bu özelliğe erişimi vardır.
 
 Bu videoda bir sayfaya özel alan eklemenin ne kadar kolay olduğu gösterilmektedir: [Özel alanlar ekleme](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -49,9 +48,8 @@ Aşağıdaki adımlar özel alan oluşturma ve bu alanı forma yerleştirme sür
     **Yeni alan oluştur** düğmesini görmüyorsanız, bu özelliği kullanmak için gerekli izinlere sahip değilsinizdir.
 
 7. **Yeni alan oluştur** iletişim kutusuna, aşağıdaki bilgileri girin.
-   
-    1. Bu alanın eklenmesi gereken veritabanı tablosunu seçin. Açılır listede yalnızca özel alanları destekleyen tabloların görüntülendiğini unutmayın. Desteklenen tablolardaki teknik ayrıntılar için aşağıdaki bölüme bakın.
 
+    1. Bu alanın eklenmesi gereken veritabanı tablosunu seçin. Açılır listede yalnızca özel alanları destekleyen tabloların görüntülendiğini unutmayın. Desteklenen tablolardaki teknik ayrıntılar için aşağıdaki bölüme bakın.
     2. Yeni alanın veri türünü seçin. Kullanılabilir veri türleri şunlardır: onay kutusu, tarih, tarih saat, ondalık, numara, seçim listesi ve metin.
 
         - Metin veri türünü seçerseniz, bu alana girilebilecek maksimum metnin uzunluğunu da belirtebilirsiniz.
@@ -64,15 +62,11 @@ Aşağıdaki adımlar özel alan oluşturma ve bu alanı forma yerleştirme sür
 10. İşaretlenen alanları formun seçilen bölgesine eklemek için **Ekle**'ye tıklayın.
 11. **İsteğe bağlı:** Yeni alanları seçilen bölümde istenen konuma taşımak için kişiselleştirme araç çubuğundaki **Taşı** modunu etkinleştirin. Kişisel kullanım için bir formu en iyi duruma getirmek amacıyla çeşitli kişiselleştirme özelliklerinin kullanılmasıyla ilgili daha fazla bilgi edinmek için [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md) bölümüne bakın.
 
-> [!WARNING]
-> Sayfaya eklenen özel bir alana değer girme yeteneği, özel alanla ilişkili tablonun düzenlenebilir veya salt okunur olmasına bağlıdır. Yalnızca ilişkili tablosu okunduğunda, herhangi bir özel alan da dahil olmak üzere bu tabloya bağlı tüm alanlar da salt okunur olacaktır.
-
-
 ## <a name="sharing-custom-fields-with-other-users"></a>Özel alanları diğer kullanıcılarla paylaşma
 
-Özel alan oluşturup sayfada görüntülenmesini sağladıktan sonra, güncelleştirilen ve yeni alanı içeren bu sayfa görünümünü sistemdeki diğer kullanıcılara sunmak isteyebilirsiniz. Bunu üründeki kişiselleştirme özelliklerini kullanarak iki farklı yoldan yapabilirsiniz:
+Özel alan oluşturup formda görüntülenmesini sağladıktan sonra, güncelleştirilen ve yeni alanı içeren bu sayfa görünümünü sistemdeki diğer kullanıcılara sunmak isteyebilirsiniz. Bunu üründeki kişiselleştirme özelliklerini kullanarak iki farklı yoldan yapabilirsiniz:
 
-- Önerilen yol, sayfaya eklenen özel alanla birlikte uygun kullanıcı kümesine **[kaydedilmiş bir görünümü](saved-views.md) yayımlamaktır**. Kaydedilen görünümler özelliği etkinleştirilmemişse, sistem yöneticisi kişiselleştirme formundan istediğiniz kullanıcılara kişiselleştirmeyi uygulayabilir. Daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
+- Önerilen yol bu işlemi bir kişiselleştirmeyi tüm kullanıcılara veya bir kullanıcı alt kümesine sunabilecek olan sistem yöneticisi aracılığıyla gerçekleştirmektir. Daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
 - Alternatif olarak, değişikliklerinizi (*kişiselleştirmeler* denir) dışa aktarabilir, bir veya daha fazla kullanıcıya gönderebilir ve bu kullanıcıların değişikliklerini içe aktarmalarını isteyebilirsiniz. Kişiselleştirme araç çubuğundaki **Yönet** seçeneği kişiselleştirmeleri dışa ve içe aktarmanıza olanak tanır.
 
 ## <a name="managing-custom-fields"></a>Özel alanları yönetme
@@ -143,10 +137,6 @@ Bazı ender durumlarda, bir özel alanın artık gerekli olmadığına karar ver
 
 ## <a name="appendix"></a>Ek
 
-### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>Özel alanıma neden bir değer giremiyorum? 
-
-Sayfa Düzenleme modundayken özel alana bir değer yazamıyorsanız, bunun nedeni alanın eklendiği tablonun şu anda salt okunur olması olabilir. Tablodaki tüm alanlar yalnızca yedekleme tablosu şu anda sayfada salt okunur olarak yapılandırılmışsa okunur hale gelir.   
-
 ### <a name="who-can-create-custom-fields"></a>Özel alanları kimler oluşturabilir?
 
 Sistemi korumak amacıyla, varsayılan olarak yalnızca sistem yöneticileri özel alanlar oluşturabilir. Ancak, kuruluşun gerekli gördüğü kullanıcılara sistem yöneticisi tarafından **Çalışma zamanında özelleştirme yetkili kullanıcısı** güvenlik rolü kullanılarak özel alanlar oluşturma hakkı verilebilir. Bu güvenlik rolüne sahip olmayan kullanıcılar özel alanlar oluşturamaz ancak sistemdeki diğer kullanıcılar tarafından eklenen özel alanları görebilir ve bunlarla etkileşimde bulunabilir.
@@ -172,6 +162,3 @@ Performans ve teknik nedenlerle, şu anda yalnızca aşağıdaki koşulları kar
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Geliştirici araçlarındaki özel alanlara başvurabilir miyim?  
 
 Özel alanlar yalnızca kullanıcı arabiriminden yönetilebilir ve kod tarafından başvurulamaz. 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

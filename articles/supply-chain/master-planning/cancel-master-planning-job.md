@@ -2,13 +2,16 @@
 title: Ana planlama işini iptal etme
 description: Bu konuda, yerleşik planlama işlevini kullanan etkin bir planlama işinin nasıl iptal edileceği açıklanmaktadır.
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace, ReqProcessList
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 27a48473a934e0db9986d6e588fc769ba9d2f605d72b2465976cb20a1ad93d16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f5ce460cc2915d1d4d9b5699723a62ed7f94599
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439547"
 ---
 # <a name="cancel-a-master-planning-job"></a>Ana planlama işini iptal etme
 
@@ -50,6 +53,3 @@ Bunlar yalnızca, master planlama işi **Tamamlanmamış planlama işlemleri** s
 4. **Toplu iş görevlerinde** sona erdirmek istediğiniz görevleri seçin.
 5. **Durumu değiştir**'e tıklayın, **İptal etme**'yi seçip **Tamam**'a tıklayın.
 6. **Toplu işlem görevleri** hızlı sekmesinde, **Durdur**'u tıklatın.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

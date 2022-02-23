@@ -1,24 +1,27 @@
 ---
 title: Yapılandırılabilir ürünler için öznitelik tabanlı fiyatlandırmayı ayarlama
 description: Bu konu, öznitelik tabanlı fiyatlandırmanın nasıl ayarlanacağını açıklar.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4acd7b423396124dd1059602f5aa6460ec5e259
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3a75f3afcf4761ac6a9575eae9a620a1e9f01c8e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578164"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439147"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Yapılandırılabilir ürünler için öznitelik tabanlı fiyatlandırmayı ayarlama
 
@@ -28,18 +31,17 @@ Bu konu, öznitelik tabanlı fiyatlandırmanın nasıl ayarlanacağını açıkl
 
 
 ## <a name="create-a-new-price-model"></a>Yeni bir fiyat modeli oluşturma
-
-1. **Ürün bilgileri yönetimi \> Ürünler \> Ürün yapılandırma modelleri**'ne gidin.
-1. Listede, **Son Teknoloji Hoparlör** satırını seçin ancak ad bağlantısını seçmeyin.
-1. Eylem Bölmesinde, **Model**'i seçin.
-1. **Fiyat modelleri**'ni seçin.
-1. **Yeni**'yi seçin.
-1. **Fiyat modeli adı** alanına bir değer yazın. Modelin tanımlanmasını kolaylaştıracak bir ad kullanın.  
-1. **Tanım** alanına bir değer girin.
-1. **Kaydet**'i seçin.
+1. Giriş sayfasında **Ürün çeşidi model tanımı**'nı seçin.
+2. **Bağlantılar** bölümünde **Ürün yapılandırma modelleri**'ni seçin.
+3. Listede, **Son Teknoloji Hoparlör** satırını seçin ancak ad bağlantısını seçmeyin.
+4. Eylem Bölmesinde, **Model**'i seçin.
+5. **Fiyat modelleri**'ni seçin.
+6. **Yeni**'yi seçin.
+7. **Fiyat modeli adı** alanına bir değer yazın. Modelin tanımlanmasını kolaylaştıracak bir ad kullanın.  
+8. **Tanım** alanına bir değer girin.
+9. **Kaydet**'i seçin.
 
 ## <a name="add-price-elements"></a>Fiyat öğeleri ekleme
-
 1. **Düzenle** öğesini seçin. Ürün modelindeki her bileşen, taban fiyat öğesine ve istenen sayıda fiyat ifade kuralına sahip olabilir. Ayrıca farklı para birimlerinde fiyatlar da ekleyebilirsiniz.  
 2. **Taban fiyat ifadesi** alanına bir değer yazın. Örneğin 100 yazın. Taban fiyat ifadesi sayısal bir değer olabilir veya bir veya daha fazla özniteliği kapsayan aritmetik hesaplamadan oluşabilir.  
 3. **Ekle**'yi seçin.
@@ -50,6 +52,3 @@ Bu konu, öznitelik tabanlı fiyatlandırmanın nasıl ayarlanacağını açıkl
 8. **İfade** alanına bir değer yazın. Örneğin, `50` yazın. 
 9. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

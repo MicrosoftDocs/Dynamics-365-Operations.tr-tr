@@ -1,28 +1,28 @@
 ---
 title: Satınalma talebine genel bakış
 description: Bu konuda, satınalma talebi iş akışı ve satınalma talebinin sahip olabileceği farklı durumlar açıklanmaktadır.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2174"
-- intro-internal
+ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 189debe46ea28808cf3081a7d8f49686298e8c8e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982914"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020091"
 ---
 # <a name="purchase-requisition-overview"></a>Satınalma talebine genel bakış
 
@@ -49,7 +49,7 @@ Bir satın alma talebini gözden geçirme sürecinden tek bir belge olarak geçi
 
 Aşağıdaki şemada bir satın alma talebine ve bir satın alma talebi satırına atanan durumlar iş akışı sürecindeki ilerlemesine göre gösterilmiştir.  
 
-[![Satın alma talebi başlık ve satır durumları.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Satın alma talebi başlık ve satır durumları](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Satın alma talebi başlık ve satır durumu ilişkileri
 
@@ -181,7 +181,7 @@ Talep birleştirme için uygun olmayan veya bir birleştirme talebi için seçil
 
 Talep birleştirme süreci bir iş akışında bir satın alma talebi onaylandığında ve organizasyonunuz için bütçe kontrolü yapılandırılmışsa bütçe rezervasyonları ve ön yükümlülükler kaydedildiğinde başlar. Aşağıdaki şemada talep birleştirme süreç akışı gösterilmiştir.  
 
-[![İsteğe bağlı konsolidasyon için işlem akışı.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![İsteğe bağlı konsolidasyon için işlem akışı](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Onaylanan satınalma talep satırlarını birleştirmek için şu adımları izleyin:
 
@@ -192,7 +192,8 @@ Onaylanan satınalma talep satırlarını birleştirmek için şu adımları izl
 5.  Birleştirilmiş talep satırları veya bir birleştirme fırsatındaki satın alma talebi satırları için satın alma emirleri oluşturun.
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Tüketim talebi oluşturma](tasks/create-requisition-consumption.md)
 
@@ -200,6 +201,3 @@ Onaylanan satınalma talep satırlarını birleştirmek için şu adımları izl
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

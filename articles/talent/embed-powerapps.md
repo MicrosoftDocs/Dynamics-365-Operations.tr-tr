@@ -66,6 +66,3 @@ Alternatif olarak bu adımları izleyin.
 2. Araç çubuğunda, **Power Apps'tenuygulama ekle**'yi seçin.
 
     ![Kişiselleştirme araç çubuğunu kullanarak Power Apps'ten uygulama ekleme](media/powerapp-bar.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

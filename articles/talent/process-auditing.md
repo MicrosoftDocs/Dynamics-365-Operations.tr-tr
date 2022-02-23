@@ -61,6 +61,3 @@ Aşağıdaki veriler işlem denetiminde kullanılabilir.
 |İş başvurusu geçmişi | İş başvurusu (msdyn_JobapplicatonId)<br></br>Durum (msdyn_status) <br></br>Durum açıklaması (msdyn_statusreason) <br></br>Ret nedeni (msdyn_rejectionreason) |
 | Açılan iş geçmişi | Açılan iş (msdyn_JobopeningId) <br></br>Durum (msdyn_jobopeningstatus) <br></br>Durum açıklaması (msdyn_jobopeningstatusreason) |
 | Aday geçmişi | Aday (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

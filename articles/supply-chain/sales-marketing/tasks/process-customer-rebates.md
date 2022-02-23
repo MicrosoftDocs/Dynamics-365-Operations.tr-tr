@@ -1,24 +1,27 @@
 ---
 title: Müşteri indirimlerini oluşturma ve işleme
 description: Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesaplarına tahakkuk edilmesi noktasına kadar nasıl işleneceğini göstermektedir.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a8ebc281036842bdc8965e062990438e1fb466ff
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969099"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439425"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Müşteri indirimlerini oluşturma ve işleme
 
@@ -69,7 +72,7 @@ Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesapla
 2. **Biriktir**'e tıklayın.
 3. **Müşteri** alanına bir değer girin veya buradan bir değer seçin.
 4. **Başlangıç tarihi** alanında bugünün tarihini seçin.
-5. **Tamam**'a tıklayın. **Biriktir** işlevinin çalıştırılması sonucunda tahmini talep tutarı, şimdi müşterinin ilgili dönemde toplam satış hacminin, indirimin ilk oluşturulduğu zaman göre daha yüksek olduğu gerçeğine göre ayarlanır. Daha detaya girmek gerekirse, satılan toplam miktar 100 birime ulaştığı için, müşteri artık ürün başına 40 ABD doları (anlaşmanın ikinci miktar kırılması uyarınca) veya toplam 4,000 ABD doları toplam indirim miktarına hak kazanmıştır. Fark ek 800 USD için bir yeni talep için "ayarlama" olarak kaydedilir. Biriktirme güncelleştirmesinde dahil edilen indirim talebinin durumu şimdi Hesaplandı olarak ayarlanmıştır. 
+5. **Tamam**'a tıklayın. **Biriktir** işlevinin çalıştırılması sonucunda tahmini talep tutarı, şimdi müşterinin ilgili dönemde toplam satış hacminin, indirimin ilk oluşturulduğu zaman göre daha yüksek olduğu gerçeğine göre ayarlanır. Daha detaya girmek gerekirse, satılan toplam miktar 100 birime ulaştığı için, müşteri artık ürün başına 40 ABD doları (anlaşmanın ikinci miktar kırılması uyarınca) veya toplam 400 ABD doları toplam indirim miktarına hak kazanmıştır. Fark ek 800 USD için bir yeni talep için "ayarlama" olarak kaydedilir. Biriktirme güncelleştirmesinde dahil edilen indirim talebinin durumu şimdi Hesaplandı olarak ayarlanmıştır. 
 6. Listede, tüm satırları işaretleyin.
 7. **Onayla**'ya tıklayın.
 8. **İşle**'ye tıklayın.
@@ -79,6 +82,3 @@ Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesapla
     - İndirim tahakkuk hesabı, müşterinin gelecekteki borcunu temsil etmek üzere alacaklandırıldı.
     - İndirim gider hesabı, satışlarla bağlantılı olarak tahakkuk eden maliyeti tanımak üzere borçlandırıldı.   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

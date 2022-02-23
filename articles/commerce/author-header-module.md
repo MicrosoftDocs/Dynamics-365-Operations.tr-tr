@@ -2,24 +2,27 @@
 title: Üst bilgi modülü
 description: Bu konu üst bilgi modüllerini kapsamakta ve Microsoft Dynamics 365 Commerce'te sayfa üst bilgilerinin nasıl oluşturacağını açıklamaktadır.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712802"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4416561"
 ---
 # <a name="header-module"></a>Üst bilgi modülü
 
@@ -27,13 +30,15 @@ ms.locfileid: "6712802"
 
 Bu konu üst bilgi modüllerini kapsamakta ve Microsoft Dynamics 365 Commerce'te sayfa üst bilgilerinin nasıl oluşturacağını açıklamaktadır.
 
+## <a name="overview"></a>Genel bakış
+
 Dynamics 365 Commerce'de sayfa üstbilgisi başlık, promosyon başlığı ve tanımlama bilgisi izin modüllerini içeren bir sayfa parçası olarak yapılandırılır. 
 
 Üst bilgi modülünde bir site logosu, gezinti hiyerarşisinin bağlantıları, sitedeki diğer sayfalara bağlantılar, bir sepet sembolü modülü, bir istek listesi sembolü, oturum açma seçenekleri ve arama çubuğu bulunur. Üst bilgi modülü, sitenin (yani bir masaüstü cihaz veya mobil cihaz) görüntülendiği cihaz için otomatik olarak en iyi duruma getirilir. Örneğin, bir mobil cihazda, gezinti çubuğu bir **menü** düğmesine (bazen *hamburger menüsü* olarak da adlandırılır) daraltılır.
 
 Aşağıdaki resimde giriş sayfasında kullanılan bir üstbilgi modülü örneği gösterilmektedir.
 
-![Üst bilgi modülü örneği.](./media/ecommerce-header.png)
+![üstbilgi modülü örneği](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Üst bilgi modülünün özellikleri
 
@@ -58,16 +63,9 @@ Aşağıdaki modüller bir üstbilgi modülünde kullanılabilir:
 - **Mağaza Seçici** - Mağaza seçici modülü, bir üstbilgi modülünün mağaza seçici yuvasına dahil edilebilir. Kullanıcıların yakındaki mağazalara göz atmasına ve onları bulmasına olanak tanır. Kullanıcılar tercih edilen bir mağaza da belirtebilirler. Bu mağaza üst bilgide görüntülenecektir. Mağaza seçici modülü üst bilgi modülüne dahil edildiğinde, **Mod** özelliği **Mağaza bul** olarak ayarlanmalıdır. Daha fazla bilgi için bkz. [Mağaza seçici modülü](store-selector.md).
 
 > [!NOTE]
-> - Üst bilgi modüllerinde sepet simgesi modülünü kullanma desteği Dynamics 365 Commerce 10.0.11 sürümü itibarıyla kullanılabilir.
-> - Üst bilgi modüllerinde site seçici modülünü kullanma desteği Dynamics 365 Commerce 10.0.14 sürümü itibarıyla kullanılabilir.
-> - Üst bilgi modüllerinde mağaza seçici modülünü kullanma desteği Dynamics 365 Commerce 10.0.15 sürümü itibarıyla kullanılabilir.
-
-## <a name="header-module-in-the-adventure-works-theme"></a>Adventure Works temasında üst bilgi modülü
-
-Adventure Works temasında üst bilgi modülü **Mobil logo** özelliğini destekler. Bu özellik, Mobil görüntüleme pencereleri için bir amblem belirtilebilmesine olanak tanır. **Mobil Logo** özelliği modül tanımı uzantısı olarak kullanılabilir.
-
-> [!IMPORTANT]
-> Adventure Works teması Dynamics 365 Commerce Sürüm 10.0.20 itibarıyla kullanılabilir.
+> - Üst bilgi modüllerinde sepet simgesi modülünü kullanma desteği Dynamics 365 Commerce 10.0.11 sürümünde bulunabilir.
+> - Üst bilgi modüllerinde site seçici modülünü kullanma desteği Dynamics 365 Commerce 10.0.14 sürümünde bulunabilir.
+> - Üst bilgi modüllerinde mağaza seçici modülünü kullanma desteği Dynamics 365 Commerce 10.0.15 sürümünde bulunabilir.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Sayfa için üst bilgi parçası oluşturma
 
@@ -121,6 +119,3 @@ Bir üst bilgi parçası oluşturmak için şu adımları izleyin.
 [Site seçici modülü](site-selector.md)
 
 [Mağaza seçicisi modülü](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Sosyal içerik paylaşım modülü
 description: Bu konu sosyal içerik paylaşım modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730959"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4416556"
 ---
 # <a name="social-share-module"></a>Sosyal içerik paylaşım modülü
 
@@ -28,15 +31,17 @@ ms.locfileid: "6730959"
 
 Bu konu sosyal içerik paylaşım modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
+## <a name="overview"></a>Genel bakış
+
 Sosyal içerik paylaşımı modülleri, kullanıcıların e-ticaret sitesi sayfası URL'lerini Facebook, Twitter, Pinterest ve LinkedIn gibi sosyal medya üzerinde paylaşmasına olanak tanır. Site sayfası URL'Leri e-posta yoluyla da paylaşılabilir. Sosyal içerik paylaşımı modülleri, kullanıcıların ürün bilgilerini paylaşmasına yardımcı olmak için ürün ayrıntıları sayfalarında (PDP'ler) kullanılır.
 
-Her sosyal içerik paylaşım modülü sosyal içerik paylaşımı öğe modülleri için bir kapsayıcıdır. Her sosyal içerik paylaşımı öğe modülü belirli bir sosyal medya sitesini işaret etmek üzere yapılandırılabilir. Facebook, Twitter, Pinterest, LinkedIn ve e-posta ile tümleştirme, hazırda desteklenmektedir. Bir site kullanıcısı bir sosyal medya sembolünü seçtiğinde, ilgili sosyal medya sitesi için bir HTML iframe başlatılır. iframe içinde kullanıcı oturum açarak, görüntüledikleri sayfa içeriğini paylaşabilir.
+Her sosyal içerik paylaşım modülü sosyal içerik paylaşımı öğe modülleri için bir kapsayıcıdır. Her sosyal içerik paylaşımı öğe modülü belirli bir sosyal medya sitesini işaret etmek üzere yapılandırılabilir. Facebook, Twitter, Pinterest, LinkedIn ve e-posta ile tümleştirme, hazırda desteklenmektedir. Bir site kullanıcısı bir sosyal medya sembolünü seçtiğinde, ilgili sosyal medya sitesi için bir HTML iFrame başlatılır. iFrame içinde kullanıcı oturum açarak, görüntüledikleri sayfa içeriğini paylaşabilir.
 
 Her sosyal medya platformu tanımlama bilgilerini izleyebilir, bu nedenle bu modül site kullanıcılarının tanımlama bilgisi onayı bildirim iletisini kabul etmesini gerektirir. Tanımlama bilgisi izni verilmediğinde, modül sayfada gizlenir. Daha fazla bilgi için bkz. [Tanımlama bilgisi uyumluluğu](cookie-compliance.md).
 
 Aşağıdaki çizimde, ürün ayrıntıları sayfasında kullanılan sosyal içerik paylaşım modülüne bir örnek gösterilmektedir.
 
-![Sosyal içerik paylaşım modülü örneği.](./media/ecommerce-socialshare.png)
+![Sosyal içerik paylaşım modülü örneği](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>Sosyal içerik paylaşım modülü özellikleri
 
@@ -77,6 +82,3 @@ Satın al kutusu modülüne bir sosyal içerik paylaşım modülü eklemek için
 [Satın alma kutusu modülü](add-buy-box.md)
 
 [Tanımlama bilgisi uyumluluğu](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
 title: Tahmin azaltma anahtarları
 description: Bu konuda bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqReduceKeyDefaultDataWizard, ReqReduceKey
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbed77fd1abc0e4ae26e2b9ddcc01d3f4a84889f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1fc2b63bfdec1c663027cb4e551589a705c2164e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570837"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439170"
 ---
 # <a name="forecast-reduction-keys"></a>Tahmin azaltma anahtarları
 
@@ -86,18 +89,7 @@ Bu durumda, tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gere
 
 ### <a name="transactions--reduction-key"></a>Hareketler - azaltma anahtarı
 
-**Tahmin gereksinimlerini azaltmak için kullanılan yöntem** alanını *Hareketler: azaltma anahtarı* olarak ayarlarsanız azaltma anahtarı ile tanımlanan dönemlerde gerçekleşen donanımlı talep hareketleri ile tahmin gereksinimleri azaltılır.
-
-Uygun bulunan talep, **Karşılama grupları** sayfasındaki **Tahmin azaltma ölçütü** alanıyla tanımlanır. **Tahmin azaltma ölçütü** alanını *Siparişler* olarak ayarlarsanız yalnızca satış siparişi hareketleri uygun bulunan talep olarak kabul edilir. *Tüm hareketler* olarak ayarlarsanız tüm şirketlerarası olmayan çıkış stok hareketleri uygun bulunan talep olarak kabul edilir. Şirketlerarası satış siparişlerinin de uygun bulunan talep olarak değerlendirilmesi gerekiyorsa **Şirketlerarası siparişleri dahil et** seçeneğini *Evet* olarak ayarlayın.
-
-Tahmin azaltma, azaltma anahtarı dönemindeki ilk (en erken) talep tahmini kaydıyla başlar. Donanımlı stok hareketlerinin miktarı, aynı azaltma anahtarı dönemindeki talep tahmin satırlarının miktarından fazlaysa stok hareketlerinin bakiyesi önceki dönemdeki talep tahmin miktarını (tüketilmemiş tahmin varsa) azaltmak için kullanılır.
-
-Önceki azaltma anahtarı döneminde tüketilmeyen tahmin kalmamışsa bir sonraki aydaki tahmin miktarını azaltmak için stok hareketleri bakiyesi (tüketilmemiş tahmin varsa) kullanılır.
-
-Azaltma anahtarı satırlarındaki **Yüzde** alanının değeri, **Tahmin gereksinimlerini azaltmak için kullanılan yöntem** alanı *Hareketler: azaltma anahtarı* olarak ayarlandığında kullanılmaz. Azaltma anahtarı dönemini tanımlamak için yalnızca tarihler kullanılır.
-
-> [!NOTE]
-> Bugünün tarihinde veya öncesinde yayımlanan herhangi bir tahmin yok sayılır ve planlı siparişler oluşturmak için kullanılmaz. Örneğin, ay için talep tahmininiz 1 Ocak'ta oluşturulur ve 2 Ocak'ta talep tahminini içeren master planlamayı çalıştırırsanız hesaplama 1 Ocak tarihli talep tahmini satırını yoksayar.
+**Hareketler - azaltma anahtarını** seçerseniz: Tahmin gereksinimleri azaltma anahtarı tarafından tanımlanan meydana gelen hareketlere göre azaltılır.
 
 #### <a name="example-transactions--reduction-key"></a>Örnek: Hareketler - azaltma anahtarı
 
@@ -207,7 +199,7 @@ Bu nedenle, aşağıdaki planlı siparişleri oluşturulur.
 Bir tahmin azaltma anahtarı **Hareketler - azaltma anahtarı** ve **Yüzde - azaltma anahtarı** yöntemlerinde tahmin gereksinimlerini azaltmak için kullanılır. Bir azaltma anahtarı oluşturmak ve ayarlamak için bu adımları izleyin.
 
 1. **Master planlama \> Kurulum \> kapsam \> Azaltma anahtarları**'na gidin.
-2. Yeni bir azaltma anahtarı oluşturmak için **Yeni**'yi seçin.
+2. **Yeni**'yi seçin veya bir azaltma anahtarı oluşturmak için **Ctrl+N**'ye basın.
 3. **Azaltma anahtarı** alanında, tahmin edilen azaltma anahtarı için benzersiz bir tanımlayıcı girin. Daha sonra **Adı** alanında, bir ad girin. 
 4. Her bir dönemdeki dönemleri ve azaltma anahtarı yüzdesini tanımlayın:
 
@@ -235,6 +227,3 @@ Bir tahmin azaltma anahtarının, öğenin kapsama grubuna atanmış olması ger
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Master planlara genel bakış](master-plans.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

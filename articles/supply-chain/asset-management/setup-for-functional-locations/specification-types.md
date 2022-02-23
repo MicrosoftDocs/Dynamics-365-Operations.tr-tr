@@ -1,10 +1,12 @@
 ---
 title: Bakım öznitelik türleri
 description: Bu konuda Kıymet Yönetimi'nde öznitelik türleri oluşturma işlemi açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationTypeCopy, EntAssetAttributeType, EntAssetAttributeTypeValue, EntAssetFunctionalLocationType
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec5552d96473403931bbd513ae68ef0fe3069209f52e813963914417ad41b88a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b221e9168fc60b5927bb92de80bd6b9614ad591c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739143"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019816"
 ---
 # <a name="maintenance-attribute-types"></a>Bakım öznitelik türleri
 
@@ -61,6 +63,3 @@ Kendi öznitelik türlerinizi oluşturabilirsiniz. Ayrıca, ürün boyutlarını
 9. Kaydı kaydedin.
 
     **İşlem yapılacak yerleşim türleri** alanında öznitelik türünü kullanan işlem yapılacak yerleşimlerin sayısını gösterir. **Kıymet türleri** alanı bunu kullanan kıymet türlerinin sayısını gösterir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Başlık giderlerini eşleşen satış satırlarına eşit dağıt
 description: Bu konu, Commerce kanal siparişlerine otomatik giderlerin hesaplanmasını ve uygulanması için ek yeterlilikleri, gelişmiş otomatik masraf özelliğini kullanarak açıklar.
 author: hhaines
+manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774521"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416300"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Başlık giderlerini eşleşen satış satırlarına eşit dağıt
 
@@ -30,7 +33,7 @@ ms.locfileid: "6774521"
 
 Bu konu, başlık düzeyi otomatik masrafları gruplandırmayı ve bunları ticaret satış satırlarına eşit dağıtmak için özelliği açıklar. Bu özellik, Retail sürüm 10.0.1 içinde satış noktası (POS) içerisinde ve Retail sürüm 10.0.2 içinde çağrı merkezinde oluşturulmuş hareketler için kullanılabilirdir.
 
-Bu özellik, yalnızca [gelişmiş otomatik masraflar](/dynamics365/unified-operations/retail/omni-auto-charges) özelliği, **Commerce parametreleri** sayfasındaki seçenek kullanılarak açılmışsa kullanılabilirdir. Ek olarak, otomatik giderler için gelişmiş hesaplama yöntemi, yalnızca ticaret kanalları aracılığıyla oluşturulmuş (POS, çağrı merkezi ve Dynamics e-Ticaret platformu) ticaret satış siparişlerine uygulanabilir.
+Bu özellik, yalnızca [gelişmiş otomatik masraflar](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) özelliği, **Commerce parametreleri** sayfasındaki seçenek kullanılarak açılmışsa kullanılabilirdir. Ek olarak, otomatik giderler için gelişmiş hesaplama yöntemi, yalnızca ticaret kanalları aracılığıyla oluşturulmuş (POS, çağrı merkezi ve Dynamics e-Ticaret platformu) ticaret satış siparişlerine uygulanabilir.
 
 Bu yeni özellik, başlık düzeyi otomatik masrafların hesaplanmasına ve satış hareketlerine uygulanmasında kuruluşlara daha fazla esneklik verir.
 
@@ -38,7 +41,7 @@ Sürüm 10.0.1'den önceki uygulama sürümlerinde, belirli bir teslimat modu il
 
 Örneğin, başlık düzeyi otomatik masraflar, teslimat modu **99** ve teslimat modu **11** için tanımlanmıştır. Bir satış siparişi oluşturulur ve teslimat modu **99**, sipariş başlığında tanımlanır. Ancak, satış satırlarının bazıları, teslimat modu **11** kullanılarak sevk edilmek üzere ayarlanmıştır. Bu durumda, yalnızca teslimat modu **99** ile bağlantılı başlık düzeyi masrafları dikkate alınır ve satış siparişine uygulanır.
 
-Commerce içinde, başlık düzeyi masrafları, bir [katmanlı masraf yapılandırması](/dynamics365/unified-operations/retail/configure-call-center-delivery) tanımlamanıza izin veren ek bir özelliğe sahiptir. Örneğin, sipariş değeri 50,00 $ ve 200,00 $ arasındaysa, bir kuruluş 5,00 $ tutarında navlun gideri isteyebilir. Ancak, siparişin değeri 200,01 $ ve 500,00 $ arasındaysa, navlun ücreti 4,00 $ olabilir.
+Commerce içinde, başlık düzeyi masrafları, bir [katmanlı masraf yapılandırması](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) tanımlamanıza izin veren ek bir özelliğe sahiptir. Örneğin, sipariş değeri 50,00 $ ve 200,00 $ arasındaysa, bir kuruluş 5,00 $ tutarında navlun gideri isteyebilir. Ancak, siparişin değeri 200,01 $ ve 500,00 $ arasındaysa, navlun ücreti 4,00 $ olabilir.
 
 Bazı kuruluşlar, başlık düzeyi masraflarla sağlanan katmanlı masraf hesaplamasından faydalanmak ister. Ancak, karma teslimat modları içeren bazı senaryolarda, hesaplanan masrafların her bir satış satırında tanımlanmış teslimat modu ile eşleşmeye dayanmasını da temin etmek isterler.
 
@@ -56,9 +59,9 @@ Bu senaryo, **Eşleşen satış satırlarına eşit dağıt** seçeneği, otomat
 
 Bu senaryoda, kuruluş teslimat modu ilişkisi **99** ve teslimat modu ilişkisi **11** için başlık düzeyi masrafları tanımlamıştır. Teslimat modu **21** için otomatik masraf yapılandırılmamıştır.
 
-![Teslimat modu 99 için eşleşen satır eşit dağıtma kapalı olduğunda otomatik masraf.](media/99_disabled.png)
+![Teslimat modu 99 için eşleşen satır eşit dağıtma kapalı olduğunda otomatik masraf](media/99_disabled.png)
 
-![Teslimat modu 11 için eşleşen satır eşit dağıtma kapalı olduğunda otomatik masraf.](media/11_disabled.png)
+![Teslimat modu 11 için eşleşen satır eşit dağıtma kapalı olduğunda otomatik masraf](media/11_disabled.png)
 
 Bir satış siparişi çağrı merkezinde oluşturulur ve teslimat modu **99** olarak ayarlanır. Bu sipariş beş öğe içerir. İki sipariş satırı, teslimat modu **99** kullanmak üzere yapılandırılmıştır, iki satır teslimat modu **11** kullanmak üzere yapılandırılmıştır ve bir satır teslimat modu **21** kullanmak üzere yapılandırılmıştır, aşağıdaki tabloda gösterildiği gibi.
 
@@ -72,15 +75,15 @@ Bir satış siparişi çağrı merkezinde oluşturulur ve teslimat modu **99** o
 
 Bu senaryoda, siparişin tamamı teslimat modu **99** için otomatik masraf tablosuna karşı değerlendirilir. Tüm satış satırlarının son toplamı, otomatik masraf yapılandırmasında eşleşen bir katmanı belirlemek için kullanılır ve bu masraf sipariş başlığı düzeyinde uygulanır. Bu örnekte, sipariş toplamı 165,00 $ tutarındadır ve 15,00 $ navlun masrafı sipariş başlığına uygulanır. Teslimat modu **11** için yapılandırılan otomatik masraflara hiçbir zaman başvurulmaz veya uygulanmaz.
 
-Bu senaryoda, bir müşteri siparişteki bazı öğeleri iade ederse ve [iade edileceği şekilde masraf kodu yapılandırılmışsa](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), toplam başlık düzeyi masrafı iadeye sistematik olarak uygulanır, yalnızca bazı öğeler iade edilmiş olsa bile.
+Bu senaryoda, bir müşteri siparişteki bazı öğeleri iade ederse ve [iade edileceği şekilde masraf kodu yapılandırılmışsa](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), toplam başlık düzeyi masrafı iadeye sistematik olarak uygulanır, yalnızca bazı öğeler iade edilmiş olsa bile.
 
 ### <a name="scenario-2"></a>Senaryo 2
 
 Bu senaryoda, teslimat modu ilişkisi **99** ve teslimat modu ilişkisi **11** için başlık düzeyi masrafları tanımlanmıştır. Ancak, **Eşleşen satış satırlarına eşit dağıt** seçeneği bu otomatik masraf tabloları için **Evet** olarak ayarlanmıştır.
 
-![Teslimat modu 99 için eşleşen satır eşit dağıtma açık olduğunda otomatik masraf.](media/99_enabled.png)
+![Teslimat modu 99 için eşleşen satır eşit dağıtma açık olduğunda otomatik masraf](media/99_enabled.png)
 
-![Teslimat modu 11 için eşleşen satır eşit dağıtma açık olduğunda otomatik masraf.](media/11_enabled.png)
+![Teslimat modu 11 için eşleşen satır eşit dağıtma açık olduğunda otomatik masraf](media/11_enabled.png)
 
 Bu senaryo, beş satır içeren aynı satış siparişini kullanır. Sipariş başlığındaki teslimat modu **99** olarak ayarlanmıştır ancak satış siparişindeki her bir öğenin teslimat modu aşağıdaki tablodaki gibi yapılandırılmıştır.
 
@@ -130,9 +133,9 @@ Otomatik masraf yapılandırması, eşleşen satış satırlarına eşit dağıt
     - Toplam ürün değeri = 15 $
     - **Masraf değeri = 0 $** (Bu müşteri ve teslimat modu için herhangi bir otomatik masraf yapılandırılmamıştır.)
 
-    ![Teslimat modu 11 masrafları, vurgulanan katmana düşer.](media/step2mode11.png)
+    ![Teslimat modu 11 masrafları, vurgulanan katmana düşer](media/step2mode11.png)
 
-    ![Teslimat modu 99 masrafları, vurgulanan katmana düşer.](media/step2mode99.png)
+    ![Teslimat modu 99 masrafları, vurgulanan katmana düşer](media/step2mode99.png)
 
 3. Sistem, her bir satıra uygulanacak masraf değerini, satırın grubun toplam ürün değerine orantısal ilişkisini dikkate alan eşit dağıtma mantığına dayanarak hesaplar.
 
@@ -163,7 +166,7 @@ Otomatik masraf yapılandırması, eşleşen satış satırlarına eşit dağıt
 
 Bu nedenle, bu örnek için öğe 81334'e 5,62 $ tutarında bir navlun masrafı atanacaktır. Bu giderleri satış satırı için **Giderleri koru** sayfasında görebilirsiniz. Aşağıdaki çizim, bu sayfanın öğe 81334 için nasıl gözükeceğini gösterir.
 
-![Öğe 81334 için satış satırında eşit dağıtılmış masraflar.](media/proratedlinecharge.png)
+![Öğe 81334 için satış satırında eşit dağıtılmış masraflar](media/proratedlinecharge.png)
 
 Bu hesaplama yöntemi, kısmi iade senaryoları için kullanılırsa, masraf kodu iade edilebilirse, masrafın yalnızca bu satıra tahsis edilmiş kısmı, öğe iade edildiğinde geri ödenecektir.
 
@@ -172,6 +175,3 @@ Bu hesaplama yöntemi, kısmi iade senaryoları için kullanılırsa, masraf kod
 [Çok yönlü kanal gelişmiş otomatik masrafları](omni-auto-charges.md)
 
 [Kanala göre otomatik masrafları etkinleştirme ve yapılandırma](auto-charges-by-channel.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

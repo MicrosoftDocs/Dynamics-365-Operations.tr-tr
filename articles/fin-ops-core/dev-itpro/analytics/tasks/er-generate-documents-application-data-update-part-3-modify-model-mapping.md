@@ -1,10 +1,12 @@
 ---
 title: Uygulama verileri içeren belgeler oluşturmak için modelleri ve eşlemeleri değiştirme
-description: Bu konuda, elektronik belge oluşturmak ve uygulama verilerini güncelleştirmek için raporlama yapılandırmalarının nasıl tasarlanacağı açıklanmaktadır. (2. Bölüm - Belge oluşturma).
+description: Bu yordamdaki adımları tamamlamak için ilk önce "ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 2 - Belgeler oluştur)" yordamını tamamlamalısınız.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d7df46bab244d11509b86a27eeed3c2725400b5eb4d0fbf50af1750e7de45d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3401ec98ac1b61572d07fbb30d4465de78473fca
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745900"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684583"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için modelleri ve eşlemeleri değiştirme
 
@@ -166,6 +168,3 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 66. Sayfayı kapatın.
 67. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,33 +1,31 @@
 ---
 title: Ücret yapısı geliştirme
-description: Bu konuda, sabit ücret planının nasıl oluşturulacağı ve çalışanların uygunluk kuralları aracılığıyla plana nasıl kaydedileceği açıklanmaktadır.
-author: twheeloc
-ms.date: 08/25/2021
+description: Bu makale, bir Sabit ücret planı oluşturma ve çalışanların uygunluk kuralları aracılığıyla plana kaydedilmesini sağlama konusunda sizi yönlendirir.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e35f4978cc4e8162c56ba05de28ab5b2366ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065298"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420966"
 ---
 # <a name="develop-a-compensation-structure"></a>Ücret yapısı geliştirme
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Bu konuda, sabit ücret planı oluşturma ve çalışanları uygunluk kuralları aracılığıyla plana kaydetme işlemleri açıklanmaktadır. Bu konuda, USMF demo verileri kullanılmaktadır ve işlemler, ücret ve kazanç yöneticileri için geçerlidir.
+Bu makale, bir Sabit ücret planı oluşturma ve çalışanların uygunluk kuralları aracılığıyla plana kaydedilmesini sağlama konusunda sizi yönlendirir. Bu makale USMF demo verilerini kullanır ve ücret ve sosyal haklar yöneticilerine uygulanır.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Sabit ücret planı oluşturma
 
@@ -45,7 +43,7 @@ Bu konuda, sabit ücret planı oluşturma ve çalışanları uygunluk kuralları
 
 7. **Tür** alanında, sabit ücret planının bir **Bant**, **Derece** veya **Adım** planı olup olmadığını seçin.
 
-8. **İzin verilen önerisi** onay kutusu, İşlem olayı sırasında bu plana eklenen tüm eylemler için varsayılan değerdir. Önerilere izin vermek, ücreti işlerken hesaplanan kılavuz tutarı geçersiz kılmanızı sağlar.
+8. **İzin verilen öneri onay kutusu**, İşlem olayı sırasında bu plana eklenen tüm eylemler için varsayılan değer olarak işlev görür. Önerilere izin vermek, ücreti işlerken hesaplanan kılavuz tutarı geçersiz kılmanızı sağlar.
 
 9. **Aralık dışında toleransı**, belirli bir düzey için belirtilen ücret yapısı aralığının dışında kalan ücret tutarlarının nasıl ele alınacağını belirtmenize olanak tanır. **Aralık dışı tolerans** alanını **yok** olarak ayarlamak, herhangi bir maaş tutarını kullanmanızı sağlar. **Yumuşak tolerans**, ücret tutarı bu düzeye ilişkin minimum referans noktası tutarından düşük olduğunda veya bu düzeye ilişkin maksimum tutardan yüksek olduğunda kullanıcıyı uyarır. Kullanıcı uyarıyı yok sayıp devam edebilir. **Sert tolerans**, bir çalışanın ücreti düzeye ilişkin minimum ve maksimum referans noktalarının dışında olacak şekilde ayarlandığında hata verir ve çalışanın ücretini bu aralıkta olacak şekilde otomatik olarak düzenler.
 
@@ -115,6 +113,3 @@ Yeni sabit ücret planı, plan için Uygunluk kuralları tanımlanana kadar bir 
 
 8. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Planlı yürütme
 description: Bu konuda Varlık Yönetimi'nde zamanlanmış yürütmeyi açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ace2da2c4bc3d5cc404301fc4ecef5ceeef240dae6569a4d28f621b02637930
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976155b685498456952f7d715779d20191712103
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779678"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439328"
 ---
 # <a name="scheduled-execution"></a>Planlı yürütme
 
@@ -39,7 +42,4 @@ Zamanlanmış yürütmeyi ayarlamak için iş emri servis düzeylerini kullanabi
 5. **Zamanlanmış yürütme** alanında zaman aralığını seçin.
 6. **Kaydet**'i seçin.
 
-![Planlı yürütme.](media/20-setup-for-work-orders.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Planlı yürütme](media/20-setup-for-work-orders.png)

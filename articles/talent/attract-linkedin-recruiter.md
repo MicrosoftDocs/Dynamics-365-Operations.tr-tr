@@ -129,6 +129,3 @@ Adaylar, LinkedIn profillerini organizasyonunuzdaki herhangi bir kullanıcıyla 
 [Microsoft Dynamics 365 Talent - Attract'ten LinkedIn'e iş yayınlama](./attract-post-jobs-to-linkedin.md)
 
 [LinkedIn ve Microsoft Dynamics 365 Talent - Attract ile tümleştirmede sorun giderme](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

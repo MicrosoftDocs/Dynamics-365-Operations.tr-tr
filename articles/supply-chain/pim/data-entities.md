@@ -1,27 +1,30 @@
 ---
 title: Ürün veri varlıkları
 description: Bu konu, ürün verilerini içe aktarmak ve vermek için kullanılabilecek farklı varlıklar hakkında bilgi sağlar.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 2784e552d7984bbea9c74ad800c6305ab2a216e9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 20d067effc6139084c5d89b5d4698e1adf2bbf9f
+ms.sourcegitcommit: e9776095b92d19f214cd6765bbe9bf111432a699
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567163"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4439769"
 ---
 # <a name="product-data-entities"></a>Ürün veri varlıkları
 
@@ -42,11 +45,8 @@ ms.locfileid: "7567163"
 | Serbest bırakılan farklı ürünler V2 | `EcoResDistinctProductV2Entity` | Bu varlık farklı ürünleri dışa aktarmak için kullanılır. Bu ayrı ürünler ürün, alt tür ürünleri ve tüm ürün çeşitlerini ifade eder. |
 | Serbest bırakılan ana ürünler V2 | `EcoResProductMasterV2Entity` | Bu varlık ana ürünleri içe aktarmak ve vermek için kullanılır. Veri yönetimi için etkin değil. |
 | Madde - barkod | `EcoResProductBarcodeEntityV3` | Bu varlık ürünleri ve barkodları dışa aktarmak için kullanılır. Bu varlık, değişiklik izleme, güncelleştirme veya silme işlemlerine izin vermiyor. Barkodlar üzerinde değişiklik izleme, güncelleştirme veya silme işlemlerini kullanmak için **Madde - barkod ilişkilendirmesi** varlığını kullanın. |
-| Madde - barkod ilişkilendirmesi | `EcoResProductBarcodeAssociationEntity` | Bu varlık ürünleri ve barkodları dışa aktarmak için kullanılır. Değişiklik izleme, güncelleştirme ve silme işlemine izin verir. Varlığı kullanmak için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *Madde - barkod geliştirmeleri* etkinleştirilmiş olmalıdır. Barkod ile ürün arasındaki ilişkiyi oluşturan varlık anahtarı `AssociationID` anahtarıdır. Bu anahtara yönelik destek eklemek için özelliği açtığınızda `InventitemBarcodeAssociation` tablosu, var olan madde barkodu için doldurulur. Tablo, toplu iş kullanılarak doldurulur ve barkod tablonuzda çok sayıda kayıt varsa toplu işlemi çalıştırmak uzun zaman alabilir. Bu nedenle, özelliği etkinleştirmeyi planlamanız ve toplu işi iş programınıza uygun bir zamanda çalıştırmanız önerilir. |
+| Madde - barkod ilişkilendirmesi | `EcoResProductBarcodeAssociationEntity` | Bu varlık ürünleri ve barkodları dışa aktarmak için kullanılır. Değişiklik izleme, güncelleştirme ve silme işlemine izin verir. Varlığı kullanmak için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *Madde - barkod geliştirmeleri* etkinleştirilmiş olmalıdır. Barkod ile ürün arasındaki ilişkiyi oluşturan varlık anahtarı `AssociationID`dir. Bu anahtara yönelik destek eklemek için özelliği açtığınızda `InventitemBarcodeAssociation` tablosu, var olan madde barkodu için doldurulacaktır. Tablo, toplu iş kullanılarak doldurulur ve barkod tablonuzda çok sayıda kayıt varsa toplu işlemi çalıştırmak uzun zaman alabilir. Bu nedenle, özelliği etkinleştirmeyi planlamanız ve toplu işi iş programınıza uygun bir zamanda çalıştırmanız önerilir. |
 | Ürün yaşam döngüsü durumları | `EcoResProductLifecycleSateEntity` | Bu varlık, bir ürüne atanabilecek farklı ürün yaşam döngüsü durumlarını içe aktarmak ve dışa aktarmak için kullanılır. |
 
 > [!NOTE]
 > Ürünleri sisteme aktarmak için **yayınlanan ürünler v2** veri varlığını yalnızca paylaşılan ürün zaten oluşturulmuşsa kullanabilirsiniz. Aksi durumda, ürünleri sisteme içe aktarmak için **ürün oluşturma** veri varlığını kullanmanız gerekir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

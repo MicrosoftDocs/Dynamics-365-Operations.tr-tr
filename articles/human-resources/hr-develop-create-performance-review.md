@@ -1,31 +1,29 @@
 ---
 title: Performans incelemeleri oluşturma
 description: Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözden geçirmenin her bölümünün amacını açıklar.
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066962"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420931"
 ---
 # <a name="create-performance-reviews"></a>Performans incelemeleri oluşturma
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözden geçirmenin her bölümünün amacını açıklar. Bu yordam, USMF demo veri şirketi kullanılarak oluşturulmuştur.
@@ -68,18 +66,15 @@ Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözde
 30. **Derecelendirmeler** sekmesini seçin.  
 
     - **Derecelendirme ayrıntıları** Hızlı Sekmesi, çalışanların kendilerini derecelendirmelerini ve yöneticinin çalışanı derecelendirmesini sağlar. Ağırlıklar kullanılırsa puanların ağırlık değeri otomatik olarak hesaplanır.  
-    - Bu bölümü görüntülemek için **İnsan kaynakları paylaşılan parametreleri** sayfasında çalışan derecelendirmelerini göstermek üzere parametre ayarlarını etkinleştirin.  
+    - Bu bölümü görüntülemek için çalışan derecelendirmelerini göstermek üzere parametre ayarlarını etkinleştirin.  
 
-31. **Oturum kapatma işlemleri** sekmesini seçin. Oturumu kapatma işlemleri yalnızca iş akışı tamamlandıktan sonra görüntülenir. İş akışı kullanılmazsa çalışan ve yönetici burada listelenir. Gözden geçirme türü ayarlarına göre **Oturum kapatma işlemleri** için **Gerekli** onay kutusu seçilir.  
+31. **Oturum kapatma işlemleri** sekmesini seçin. Oturumu kapatma işlemleri yalnızca iş akışı tamamlandıktan sonra görüntülenir. İş akışı kullanılmazsa çalışan ve yönetici burada listelenir. Gözden geçirme türü ayarlarına göre gerekli onay kutusu seçilidir.  
 32. **Genel** sekmesini seçin.
 
     - Performans dönemi varsayılan başlangıç ve bitiş tarihlerini oluşturur. Bu tarihler düzenlenebilir.  
-    - Durumlar gözden geçirmeye erişimi kontrol eder. **Başlatılmadı** durumu gözden geçirmeyi herkesin görmesine olanak tanır. **İşlemde** durumunu gözden geçirmeyi yalnızca çalışanların görüntülemesine ve düzenlemesine olanak tanır. **Gözden geçirme için hazır**, gözden geçirmeyi yalnızca yöneticinin görüntülemesine ve düzenlemesine olanak tanır. **Son gözden geçirme** durumu, gözden geçirme türünde **Son gözden geçirmede düzenlemeye izin ver** seçeneği belirlenirse çalışanın ve yöneticinin gözden geçirmeyi görüntülemesine ve düzenlemesine olanak tanır. **Tamamlandı** ve **İptal Edildi** durumları gözden geçirmeyi salt okunur hale getirir. Bir gözden geçirme **Reddedildi** durumundaysa ve çalışana geri gönderilirse, hem çalışan hem de yönetici, çalışanın yeniden gönderebilmesi için gerekli düzenlemeleri yapabilir.
+    - Durumlar gözden geçirmeye erişimi kontrol eder. **Başlatılmadı** durumu gözden geçirmeyi herkesin görmesine olanak tanır. **İşlemde** durumunu gözden geçirmeyi yalnızca çalışanların görüntülemesine ve düzenlemesine olanak tanır. **Gözden geçirme için hazır**, gözden geçirmeyi yalnızca yöneticinin görüntülemesine ve düzenlemesine olanak tanır. **Son gözden geçirme** durumu, gözden geçirmeyi hem çalışan hem de yöneticinin görmesine ve gözden geçirme türünde ayarlandıysa düzenlemesine olanak tanır. **Tamamlandı** ve **İptal Edildi** durumları gözden geçirmeyi salt okunur hale getirir. Bir gözden geçirme **Reddedildi** durumundaysa ve çalışana geri gönderilirse, hem çalışan hem de yönetici, çalışanın yeniden gönderebilmesi için gerekli düzenlemeleri yapabilir.
 
 33. **Özet** alanına bir değer yazın.
 34. **Gözden geçirme** sekmesini seçin. Gözden geçirme durumlar arasında ilerledikçe çalışan ve yönetici her bir hedef veya uzmanlık için yorumlar ekleyebilir.  
 35. **Oturum kapatma işlemleri** sekmesini seçin. Çalışan ve yönetici gözden geçirmeyi kapatabilir. Tüm gerekli oturum kapatma işlemleri tamamlandığında durum **Tamamlandı** olarak değişir ve başka değişiklik yapılamaz.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

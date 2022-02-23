@@ -1,10 +1,12 @@
 ---
 title: Satıcı portal kullanıcı güvenliği
 description: Bu makale, Satıcı portalını kullanan dış satıcılar için güvenliğin nasıl ayarlanacağını açıklamaktadır. Bu bilgiler, Dynamics AX'in yalnızca Şubat 2016 &amp; Mayıs 2016 sürümleri için geçerlidir.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30231
 ms.assetid: 3574db17-81c7-4c5a-999b-0098aa0b9cda
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e73e9e874fbb8df029e4eccce922a660513c1bf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1be210728a6d5fa9a26daf9f13865ff08de03d2d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568099"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018206"
 ---
 # <a name="vendor-portal-user-security"></a>Satıcı portalı kullanıcı güvenliği
 
@@ -40,12 +42,10 @@ Tedarikçi portalı kullanan birisi için bir kullanıcı hesabı oluşturmadan 
 
 Aynı kişi için birden çok satıcı hesapları satıcı portal erişimi gerektiriyorsa (farklı tüzel kişilikler için belki de), o kişinin kullanıcı hesaplarının her birini aynı kayıtlı ilgili kişi ile ilişkilendirilmiş olması gerekir. **(Dış) satıcı** rolü satıcı Portal'da kullanılabilir işlevleri kullanmak için gerekli olan temel özellikleri içerir. Bu kurulum yalnızca amaçlanan senaryoda dış kullanıcının gördüğü kullanıcı arayüzüne odaklanmasına garantilemeye yarar.
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Satıcılarla Satıcı portalını kullanarak iş birliği yapın](collaborate-vendors-vendor-portal.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

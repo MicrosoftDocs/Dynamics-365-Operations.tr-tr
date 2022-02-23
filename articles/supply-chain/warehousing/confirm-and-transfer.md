@@ -2,23 +2,26 @@
 title: Onayla ve aktar
 description: Bu konu, kullanıcıların, o yüklerle ilişkilendirilmiş tüm işleri tamamlayabilmeleri için ambardan sevk yüklemelerini sağlayan Onayla ve transfer özelliğinin nasıl kullanılacağını açıklar.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592640"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439065"
 ---
 # <a name="confirm-and-transfer"></a>Onayla ve aktar
 
@@ -45,8 +48,8 @@ Yalnızca aşağıdaki ölçütlere uyan yükleri bölebilirsiniz:
 
 - Bir veya daha fazla yükleme satırında malzeme çekme miktarları var.
 - Yükleme durumu, yüklenden daha küçük.
-- Yükleme satırı verisi yok. (Bu veriler, hazırlama konumunda lisans levhası konsolidasyonu aracılığıyla oluşturulur ve Onayla ve transfer özelliği, lisans levha birleştirmeyi desteklemiyor.)
-- Şu anda ambalaj yerleşimindeki sevk için bekleyen stok yok. (*Onayla ve transfer et* özelliği, paketlenen konteynerler yükleme işi yaratılarak hazırlama konumlarına yerleştirilmediği sürece paketleme istasyonuna çekilmiş ancak henüz paketlenmemiş stoğu desteklemez.)
+- Yükleme satırı verisi yok. (Bu veriler, hazırlama konumunda lisans levhası konsolidasyonu aracılığıyla oluşturulur ve *Onayla ve transfer* özelliği, lisans levha birleştirmeyi desteklemiyor.)
+- Şu anda ambalaj yerleşimindeki sevk için bekleyen stok yok. (Bu *Onayla ve transfer* özelliği, paket istasyonuna çekilen ancak henüz paketlenememiş olan stoğu desteklemez.)
 
 > [!NOTE]
 > Bu işlevsellik, malzeme çekme öncesinde hiç çalıştırılmamış ve oluşturmayacak ambarlarda kullanılması gereken taşıma yükleme işlevselliğinden farklıdır, ancak bunun yerine mevcut taşıma alanını malzeme çekme tamamlandıktan sonra yükler.
@@ -227,6 +230,3 @@ Hareket ilişkilerinin aşağıdaki yollarla güncelleştirilmiş olduğunu da d
 - **Miktarı yeni yük olarak ayır** seçeneği, kalan tüm iş başlıklarındaki *işlem* durumları olduğunda da çalışır. Bu nedenle, çalışanlar zaten çekme emirlerini çalıştırıyor olsa bile işlevleri kullanabilirsiniz.
 - **Açık** veya *Sürüyor* durumuna sahip kalan iş olduğunda *yerine getirilmemiş miktarı iptal et*'i seçerseniz, şu hata iletisini alırsınız: "kalan yükleme miktarı iptal edilemiyor. Yükleme için çalışma var."
 - Kalan çalışma olmadığında ancak yükleme üzerinde serbest bırakılmış yükleme satırları varken **yerine getirilmemiş miktarı iptal et**'i seçerseniz, aşağıdaki hata iletisini alırsınız: "madde için miktar, teslimat altında tanımlanan yüzdeyi aştığından, yükleme sevkiyatı onaylanamadı." Hatayı önlemek için, serbest bırakılmamış yükleme satırındaki **eksik teslimat** yüzdesini yüzde 100 olarak ayarlayabilirsiniz. Serbest bırakılmamış satırlar yeni bir yüklemeye taşınmaz, ancak geçerli yük, eksik teslimat ile onaylanır. Bu durumda, özgün siparişi yeniden serbest bırakabilirsiniz. Bu nedenle, bunu başka şekilde işlemeniz gerekecektir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

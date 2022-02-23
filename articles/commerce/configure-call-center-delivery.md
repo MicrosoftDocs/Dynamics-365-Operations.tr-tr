@@ -2,9 +2,11 @@
 title: Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 description: Bu konu, Dynamics 365 Commerce içinde bir çağrı merkezi siparişinin teslimat modlarını ve giderlerini ayarlamayı açıklar.
 author: josaw1
+manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748583"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963122"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 
@@ -65,11 +67,11 @@ Masraflar belirli bir teslimat şekline, bir teslimat şekli grubuna veya tüm t
 
 Şirketleri genellikle katmanlı masraflar yapılandırır. Bu durumda, müşterinin teslimat için ödeyeceği tutar için, sipariş değeri baz alınır. Katmanlı masrafları yapılandırmak için, **Masraf değeri** alanında masrafın kendisini tanımlamaya ek olarak, **Başlangıç tutarı** ve **Bitiş tutarı** alanlarına değerler girin. Örneğin 50 liradan daha düşük değerli siparişlerde, satıcı, karayoluyla sevkiyat için 5,95 lira masraf alır. Değeri 50 lira ve üzerinde olan ama 100 liradan düşük siparişlerde satıcı 7,95 lira masraf alır. Son olarak, değeri 100 lira ve üzerinde olan siparişlerde satıcı ücretsiz sevkiyat sunar. Aşağıdaki çizimde bu masrafların yapılandırması gösterilmektedir.
 
-![Sabit katmanlı masraflar örneği.](media/fixedtieredcharges.png)
+![Sabit katmanlı masraflar örneği](media/fixedtieredcharges.png)
 
 İş gereksinimlerinize bağlı olarak, masraflar için bir kategoriler karışımı kullanabilirsiniz. Örneğin değeri 100 liranın altında olan tüm siparişlerde sevkiyat için sabit 9,95 lira masraf vardır. Bu durumda değeri 100 liranın üzerindeki siparişlerde teslimat masrafları, sipariş değerinin yüzde 5'i oranıyla hesaplanır. Aşağıdaki çizimde bu masrafların yapılandırması gösterilmektedir.
 
-![Karma katmanlı masraflar örneği.](media/mixedtieredcharges.png)
+![Karma katmanlı masraflar örneği](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Bir çağrı merkezinde sipariş girişi sırasında teslimat şekillerini uygulama
 
@@ -92,6 +94,3 @@ Seçilen teslimat şekli sipariş veya sipariş satırı için tanımlanmış ü
 Örneğin ertesi gün havayoluyla sevk edilecek siparişler için, ambardan malzeme çekme işleminin her gün 13:00'a kadar yapılması gerekir. Bu durumda, bir hızlandırma kodu oluşturulabilir ve bu kod, sistemde yapılandırılmış herhangi bir ertesi gün teslimat şekline bağlanabilir. Ambar, çekme dalgasını oluştururken, **Hızlandır** alanındaki ilgili hızlandırma kodu bir filtre olarak kullanılıp, malzeme çekme işleminin, teslimat şekilleri yalnızca o kodla bağlantılı siparişler için çalıştırılması sağlanabilir.
 
 Ek olarak, bir çağrı merkezi siparişi girilirken ya satış siparişi üst bilgisine veya tek bir satış sipariş satırına el ile bir hızlandırma kodu uygulanabilir. Yine, bu kod, sıralama veya raporlama amacıyla kullanılabilir. Bazı durumlarda, bir müşteri hizmeti sorunu nedeniyle bir siparişin dikkatle ele alınması gerekir. Böyle durumlarda, sipariş karşılama sürecinde siparişin saptanıp öncelik kazanmasına yardımcı olmak için sipariş üst bilgisine veya satırlarına belirli bir hızlandırma kodu uygulanabilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

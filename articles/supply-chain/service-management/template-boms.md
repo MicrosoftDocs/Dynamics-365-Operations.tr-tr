@@ -1,10 +1,12 @@
 ---
 title: Şablon Ürün Reçeteleri
 description: Şablon ürün reçetesi (BOM), düzenli olarak servis verilen servis nesnelerinin bileşenlerinin standart bir listesini sağlar.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
@@ -15,23 +17,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 01cd4cf03fb0ac1a3399673097895513f7180cf1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571319"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965792"
 ---
-# <a name="template-boms"></a>Şablon Ürün Reçeteleri
+# <a name="template-boms"></a>Şablon Ürün Reçeteleri    
 
 [!include [banner](../includes/banner.md)]
+
 
 Şablon ürün reçetesi (BOM), düzenli olarak servis verilen servis nesnelerinin bileşenlerinin standart bir listesini sağlar. Şablon ürün reçetesinde listelenen bileşenler servis nesnesinin ayrı ayrı alt bileşenlerini temsil eder. Bir şablon ürün reçetesini bir servis nesnesine uyguladığınızda, servis nesnesinde değiştirilen alt bileşenlerin kaydını tutabilirsiniz.
 
 Şablon ürün reçetesini bir servis anlaşmasına veya servis siparişine uygulamak için onu bir servis nesnesi ilişkisine eklersiniz.
 
+
 > [!NOTE]
-> Her servis nesnesine yalnızca bir şablon ürün reçetesi uygulayabilirsiniz.
+> <P>Her servis nesnesine yalnızca bir şablon ürün reçetesi uygulayabilirsiniz.</P>
 
 ## <a name="create-a-template-bom"></a>Şablon ürün reçetesi oluşturma
 
@@ -39,8 +43,8 @@ Aşağıdaki tablo bir şablon ürün reçetesi oluşturmak için kullanabilece�
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -68,6 +72,7 @@ Aşağıdaki tablo bir şablon ürün reçetesi oluşturmak için kullanabilece�
 </tbody>
 </table>
 
+
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>Şablon ürün reçetesini servis sözleşmesine veya servis siparişine uygulama
 
 Şablon ürün reçetesini servis sözleşmesine, servis siparişine veya her ikisine uygulayabilirsiniz. Servis anlaşması genellikle müşteriyle uzun dönemli bir ilişkiyi kapsar. Servis ürün reçetesine kaydedilen değiştirmelerin geçmişi, servis sözleşmesinde bulunacak kullanışlı verilerdir.
@@ -78,7 +83,7 @@ Ayrıca, bir servis nesnesinde gerçekleştirilen bir servisin geçmişini kayde
 
 Bir servis ürün reçetesi satırının geçmişini bir servis sözleşmesinden diğerine kopyalayabilirsiniz. Servis geçmişini servis sözleşmeleri arasında kopyalayarak bir madde için değiştirme kaydını koruyabilirsiniz.
 
-### <a name="example"></a>Örnek
+**Örnek**
 
 Bir müşterinin arabası için üç yıllık bir servis anlaşması yaptınız. Bu dönem süresince, müşteri şirketin sunduğu iyi servise alışır. Bu nedenle, sözleşmenin süresi dolduğunda, müşteri yeni bir sözleşme yapmak ister. Artık şirket için daha avantajlı bir anlaşma yapabilirsiniz. Değiştirilen bileşenlerin kaydı gelecekte işinize yarayabileceğinden, servis ürün reçetesinin geçmişini yeni sözleşmeye kopyalarsınız.
 
@@ -96,18 +101,26 @@ Tüm şablon ve servis ürün reçeteleri için ürün reçetesindeki bilgilerin
 
 Şablon ürün reçeteleri kullanmak için iki numara serisi ayarlamanız gerekir. Şablon ürün reçetesi için bir numara serisi ve ürün reçetesi geçmişi satır numarası için bir numara serisi ayarlayın.
 
+
 > [!NOTE]
-> Numara serileri tanımlayıcıları onları gerektiren kayıtlara tahsis etmek için kullanılır. Bir numara serisini bir şablon ürün reçetesi veya ürün reçetesi geçmişi satır numarasına atamak için önce numara serilerinin kodlarını ayarlamanız gerekir.
+> <P>Numara serileri tanımlayıcıları onları gerektiren kayıtlara tahsis etmek için kullanılır. Bir numara serisini bir şablon ürün reçetesi veya ürün reçetesi geçmişi satır numarasına atamak için önce numara serilerinin kodlarını ayarlamanız gerekir.</P>
+
 
 ## <a name="set-up-number-sequences"></a>Numara serileri ayarı
 
-1. **Numara serilerinin** liste sayfasında, şablon ürün reçeteleri ve ürün reçetesi geçmişi satır numarası için numara serileri oluşturun.
-1. **Servis yönetimi** \> **Kurulum** \> **Servis yönetimi parametreleri**'ni seçin.
-1. **Numara serileri**'ni seçin ve ardından **Numara serileri** formunda oluşturduğunuz numara serisi referansları için bir numara serisi kodu seçin.
-1. Değişikliklerinizi kaydetmek için formu kapatın.
+1.  **Numara serilerinin** liste sayfasında, şablon ürün reçeteleri ve ürün reçetesi geçmişi satır numarası için numara serileri oluşturun. 
+
+2.  **Servis yönetimi** \> **Kurulum** \> **Servis yönetimi parametreleri**'ne tıklayın.
+
+3.  **Numara serileri**'ne tıklayın ve **Numara serileri** formunda oluşturduğunuz numara serisi referansları için bir numara serisi kodu seçin.
+
+4.  Değişikliklerinizi kaydetmek için formu kapatın.
+
 
 > [!NOTE]
-> Ürün reçetesi geçmişi satır numarası sistem tarafından ürün reçetesi geçmişi hareketlerini servis sözleşmesi veya servis siparişi ile ilişkilendirmek için kullanılır. Numara kullanıcı arabiriminde görüntülenmez.
+> <P>Ürün reçetesi geçmişi satır numarası sistem tarafından ürün reçetesi geçmişi hareketlerini servis sözleşmesi veya servis siparişi ile ilişkilendirmek için kullanılır. Numara kullanıcı arabiriminde görüntülenmez.</P>
+
+
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
@@ -117,4 +130,6 @@ Tüm şablon ve servis ürün reçeteleri için ürün reçetesindeki bilgilerin
 
 [Servis Ürün Reçetesini Değiştirme](modify-service-bom.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+ 
+
+

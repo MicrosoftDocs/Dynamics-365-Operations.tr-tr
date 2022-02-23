@@ -2,25 +2,34 @@
 title: Çift yazma için para birimi veri türü geçişi
 description: Bu konu, çift yazmanın para birimi için desteklediği ondalık basamak sayısının nasıl değiştirileceğini açıklamaktadır.
 author: RamaKrishnamoorthy
-ms.date: 12/08/2021
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061848"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744387"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Çift yazma için para birimi veri türü geçişi
 
 [!include [banner](../../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Para birimi değerleri için desteklenen ondalık basamak sayısını en fazla 10'a artırabilirsiniz. Varsayılan sınır dört ondalık haneye sahiptir. Ondalık basamakların sayısını artırarak, verileri eşitlemek için çift yazma kullandığınızda veri kaybını engelleyebilirsiniz. Ondalık basamak sayısında artış kabul edilerek yapılan bir değişikliktir. Bunu uygulamak için, Microsoft'tan yardım istemeniz gerekir.
 
@@ -29,7 +38,7 @@ Ondalık basamak sayısının değiştirilmesi işleminde iki adım vardır:
 1. Microsoft'tan geçiş talep edin.
 2. Dataverse'ta ondalık basamak sayısını değiştirin.
 
-Finans ve Operasyon uygulaması ve Dataverse'ün para birimi değerlerinde aynı sayıda ondalık basamak desteklemesi gerekir. Aksi takdirde, bu bilgiler uygulamalar arasında eşitlendiğinde veri kaybı ortaya çıkabilir. Geçiş işlemi para birimi ve döviz kuru değerlerinin depolanma biçimini yeniden yapılandırır, ancak hiçbir veriyi değiştirmez. Geçiş tamamlandıktan sonra, para birimi kodları ve fiyatlandırma için ondalık basamak sayısı artırılabilir ve kullanıcıların girdiği ve görüntülediği verilerde daha fazla ondalık duyarlığı olabilir.
+Finance and Operations uygulaması ve Dataverse'ın para birimi değerlerinde aynı sayıda ondalık basamak desteklemesi gerekir. Aksi takdirde, bu bilgiler uygulamalar arasında eşitlendiğinde veri kaybı ortaya çıkabilir. Geçiş işlemi para birimi ve döviz kuru değerlerinin depolanma biçimini yeniden yapılandırır, ancak hiçbir veriyi değiştirmez. Geçiş tamamlandıktan sonra, para birimi kodları ve fiyatlandırma için ondalık basamak sayısı artırılabilir ve kullanıcıların girdiği ve görüntülediği verilerde daha fazla ondalık duyarlığı olabilir.
 
 Geçiş isteğe bağlıdır. Daha fazla ondalık basamak desteğinden avantaj sağlayabilecekseniz, geçiş yapmayı düşünmeniz önerilir. Dörtten fazla ondalık basamak içeren değerlerin gerekli olmadığı kuruluşların geçiş yapması gerekmez.
 
@@ -37,7 +46,7 @@ Geçiş isteğe bağlıdır. Daha fazla ondalık basamak desteğinden avantaj sa
 
 Dataverse'teki mevcut para birimi sütunları için depolama, dörtten fazla ondalık basamak destekleyemez. Bu nedenle, geçiş işlemi sırasında, para birimi değerleri veritabanındaki yeni dahili sütunlara kopyalanır. Bu işlem, tüm veriler geçirilene kadar sürekli olarak gerçekleşir. Dahili olarak, geçişin sonunda yeni depolama türleri eski depolama türlerinin yerini alır, ancak veri değerleri değiştirilmez. Böylece para birimi sütunları en fazla 10 ondalık basamağı destekleyebilir. Geçiş işlemi sırasında Dataverse kesinti olmadan kullanılabilir.
 
-Aynı zamanda, döviz kurları, geçerli 10 limiti yerine 12'ye kadar ondalık basamağı destekleyecek şekilde değiştirilir. Bu değişiklik, ondalık basamak sayısının hem Finans ve Operasyon uygulaması hem de Dataverse'te aynı olmasını sağlamak için gereklidir.
+Aynı zamanda, döviz kurları, geçerli 10 limiti yerine 12'ye kadar ondalık basamağı destekleyecek şekilde değiştirilir. Bu değişiklik, ondalık basamak sayısının hem Finance and Operations hem de Dataverse'te aynı olmasını sağlamak için gereklidir.
 
 Geçiş hiçbir veriyi değiştirmez. Para birimi ve döviz kuru sütunları dönüştürüldükten sonra, yöneticiler her hareket para birimi ve fiyatlandırma için ondalık basamak sayısını belirterek sistemi, para birimi sütunları için en çok 10 ondalık basamak kullanacak şekilde yapılandırabilir.
 
@@ -75,28 +84,14 @@ Bazı kısıtlamalar bulunur:
 
 Geçiş tamamlandıktan sonra, yöneticiler para birimi duyarlığını ayarlayabilir. **Ayarlar \> Yönetim**'e gidin ve **Sistem Ayarları**'nı seçin. Daha sonra, **Genel** sekmesinde, **Tüm sistemde fiyatlandırma için kullanılan para birimi duyarlığını ayarlayın** sütunundaki değeri aşağıda gösterildiği şekilde değiştirin.
 
-![Para birimi için sistem ayarları.](media/currency-system-settings.png)
+![Para birimi sistem ayarları](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>İş Yönetimi: Para Birimleri
 
 Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için kullanılan para birimi duyarlığından farklı olmasını istiyorsanız, bunu değiştirebilirsiniz. **Ayarlar \> İş Yönetimi**'ne gidin **Para birimleri**'ni ve ardından değiştirilecek para birimini seçin. Sonra, aşağıdaki çizimde gösterildiği gibi, **Para Birimi Duyarlığı** sütununu istediğiniz ondalık basamak sayısına ayarlayın.
 
-![Belirli bir yerel ayar için para birimi ayarları.](media/specific-currency.png)
+![Belirli bir yerel ayarın para birimi ayarları](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>Tablolar: Para birimi sütunu
+### <a name="tables-currency-column"></a>tablolar: Para birimi sütunu
 
 Belirli para birimi sütunları için yapılandırılabilecek ondalık basamak sayısı dört ile sınırlıdır.
-
-### <a name="default-currency-decimal-precision"></a>Varsayılan para birimi ondalık duyarlığı
-Geçiş senaryolarında ve geçiş dışı senaryolarda varsayılan para birimi ondalık duyarlığının beklenen davranışı için aşağıdaki tabloya bakın. 
-
-| Oluşturulma tarihi  | Para birimi ondalık alanı    | Mevcut kuruluş (Para birimi alanının geçişi yapılmadı) | Mevcut kuruluş (Para birimi alanının geçişi yapıldı) | Derleme 9.2.21062.00134 sonrası oluşturulan yeni kuruluş |
-|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
-| Derleme 9.2.21111.00146 öncesi oluşturulan para birimi alanı  |     |  |       |
-|    | Kullanıcı arabiriminde görünen maksimum duyarlık   | 4 basamak    | 10 basamak    | Yok    |
-| | Veritabanı ve DB sorgu sonuçları kullanıcı arabiriminde görünen maksimum duyarlık         | 4 basamak   | 10 basamak   | Yok    |
-| Derleme 9.2.21111.00146 sonrası oluşturulan para birimi alanı |    |  |     |   |
-|   | Kullanıcı arabiriminde görünen maksimum ondalık duyarlığı     | 4 basamak   | 10 basamak   | 10 basamak     |
-|          | Veritabanı ve DB sorgu sonuçları kullanıcı arabiriminde görünen maksimum ondalık duyarlığı | 10 basamak. Ancak yalnızca 4 tanesi önemli olup 4 ondalık basamak dışındaki tüm basamaklar sıfırdır. Bu, gerekirse kuruluşun daha basit ve hızlı şekilde geçirilmesini sağlar. | 10 basamak      | 10 basamak     |
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

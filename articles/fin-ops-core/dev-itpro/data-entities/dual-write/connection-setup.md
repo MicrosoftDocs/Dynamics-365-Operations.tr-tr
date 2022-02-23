@@ -2,19 +2,28 @@
 title: Çift yazma kurulumu kılavuzu
 description: Bu konu, çift yazma kurulumu için desteklenen senaryoları açıklamaktadır.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 10/12/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061616"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744865"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Çift yazma kurulumu kılavuzu
 
@@ -22,11 +31,11 @@ ms.locfileid: "8061616"
 
 [!include [preview-banner](../../includes/preview-banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+Finance and Operations ortamı ve Dataverse ortamı arasında çift yazma bağlantısı ayarlayabilirsiniz.
 
-Finans ve Operasyon ortamı ve Dataverse ortamı arasında çift yazma bağlantısı ayarlayabilirsiniz.
-
-+ **Finans ve Operasyon ortamı**, **Finans ve Operasyon uygulamaları** (ör. Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ve Dynamics 365 Human Resources) için temel platformu sağlar.
++ **Finance and Operations ortamı** **Finance and Operations uygulamaları** için temel alınan platformu sağlar (örneğin, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ve Dynamics 365 Human Resources).
 + **Dataverse ortamı**, **müşteri etkileşimi uygulamaları** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 column Service, Dynamics 365 Marketing ve Dynamics 365 Project Service Automation) için temel platformu sağlar.
 
 > [!IMPORTANT]
@@ -34,92 +43,92 @@ Finans ve Operasyon ortamı ve Dataverse ortamı arasında çift yazma bağlant�
 
 Kurulum mekanizması aboneliğinize ve ortamınıza göre değişir:
 
-+ Finans ve Operasyon uygulamaların yeni kurulumları için, çift yazma bağlantısı kurulumu Microsoft Dynamics Lifecycle Services'ta (LCS) başlar. Microsoft Power Platform lisansına sahipseniz, kiracınızın ortamı yoksa yeni bir Dataverse ortamı alırsınız.
-+ Finans ve Operasyon uygulamaların mevcut kurulumları için,çift yazma bağlantısı kurulumu Finans ve Operasyon ortamında başlar.
++ Finance and Operations uygulamaların yeni kurulumları için, çift yazma bağlantısı kurulumu Microsoft Dynamics Lifecycle Services'ta (LCS) ile başlar. Microsoft Power Platform lisansına sahipseniz, kiracınızın ortamı yoksa yeni bir Dataverse ortamı alırsınız.
++ Mevcut Finance and Operations kurulumları için, çift yazma bağlantısı kurulumu Finance and Operations ortamında başlar.
 
-Bir varlıkta çift yazmaya başlamadan önce, hem Finans ve Operasyon uygulamalarında hem de müşteri etkileşimi uygulamalarında varolan verileri işlemek için bir ilk eşitleme çalıştırabilirsiniz. İki ortam arasında veri eşitlemeniz gerekmiyorsa ilk eşitlemeyi atlayabilirsiniz.
+Bir varlıkta çift yazmaya başlamadan önce, hem Finance and Operations uygulamalarında hem de müşteri etkileşimi uygulamalarında varolan verileri işlemek için bir ilk eşitleme çalıştırabilirsiniz. İki ortam arasında veri eşitlemeniz gerekmiyorsa ilk eşitlemeyi atlayabilirsiniz.
 
 İlk eşitleme, mevcut verileri bir uygulamadan diğerine çift yönlü olarak kopyalamanızı sağlar. Sahip olduğunuz ortamlara ve ortamlardaki veri türüne bağlı olarak birçok farklı kurulum senaryosu mevcuttur.
 
 Aşağıdaki kurulum senaryoları desteklenir:
 
-+ [Yeni Finans ve Operasyon uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu](#new-new)
-+ [Yeni Finans ve Operasyon uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu](#new-existing)
-+ [Veri içeren yeni Finans ve Operasyon uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu](#new-data-new)
-+ [Veri içeren yeni Finans ve Operasyon uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu](#new-data-existing)
-+ [Mevcut Finans ve Operasyon uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu](#existing-new)
-+ [Mevcut Finans ve Operasyon uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu](#existing-existing)
++ [Yeni Finance and Operations uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu](#new-new)
++ [Yeni Finance and Operations uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu](#new-existing)
++ [Verilere sahip yeni Finance and Operations uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu](#new-data-new)
++ [Verilere sahip yeni Finance and Operations uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu](#new-data-existing)
++ [Mevcut Finance and Operations uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu](#existing-new)
++ [Mevcut Finance and Operations uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu](#existing-existing)
 
-## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>Yeni Finans ve Operasyon uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu
+## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>Yeni Finance and Operations uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu
 
-Veri içermeyen yeni bir Finans ve Operasyon uygulaması kurulumu ile müşteri etkileşimi uygulamasının yeni bir kurulumu arasında çift yazma bağlantısı kurmak için, [Lifecycle Services'tan çift yazma kurulumu](lcs-setup.md) bölümündeki adımları izleyin. Bağlantı kurulumu tamamlandığında, aşağıdaki eylemler otomatik olarak gerçekleşir:
+Veri içermeyen yeni bir Finance and Operations uygulaması kurulumu ile müşteri etkileşimi uygulamasının yeni bir kurulumu arasında çift yazma bağlantısı kurmak için, [Lifecycle Services'tan çift yazma kurulumu](lcs-setup.md) bölümündeki adımları izleyin. Bağlantı kurulumu tamamlandığında, aşağıdaki eylemler otomatik olarak gerçekleşir:
 
-- Yeni, boş bir Finans ve Operasyon ortamı sağlanır.
+- Yeni, boş bir Finance and Operations ortamı sağlanır.
 - CRM ana çözümünün yüklendiği, müşteri etkileşimi uygulamasının yeni ve boş bir kurulumu sağlanır.
 - DAT şirket verileri içinçift yazma bağlantısı kurulur.
 - Tablo eşlemeleri canlı eşitleme için etkinleştirilir.
 
 Bu durumda, her iki ortam da canlı veri eşitlemesi için hazırdır.
 
-## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>Yeni Finans ve Operasyon uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu
+## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>Yeni Finance and Operations uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu
 
-Veri içermeyen yeni bir Finans ve Operasyon uygulaması kurulumu ile müşteri etkileşimi uygulamasının mevcut bir kurulumu arasında çift yazma bağlantısı kurmak için, [Lifecycle Services'tan çift yazma kurulumu](lcs-setup.md) bölümündeki adımları izleyin. Bağlantı kurulumu tamamlandığında, aşağıdaki eylemler otomatik olarak gerçekleşir:
+Veri içermeyen yeni bir Finance and Operations uygulaması kurulumu ile müşteri etkileşimi uygulamasının mevcut bir kurulumu arasında çift yazma bağlantısı kurmak için, [Lifecycle Services'tan çift yazma kurulumu](lcs-setup.md) bölümündeki adımları izleyin. Bağlantı kurulumu tamamlandığında, aşağıdaki eylemler otomatik olarak gerçekleşir:
 
-- Yeni, boş bir Finans ve Operasyon ortamı sağlanır.
+- Yeni, boş bir Finance and Operations ortamı sağlanır.
 - DAT şirket verileri içinçift yazma bağlantısı kurulur.
 - Tablo eşlemeleri canlı eşitleme için etkinleştirilir.
 
 Bu durumda, her iki ortam da canlı veri eşitlemesi için hazırdır.
 
-Mevcut Dataverse verilerini Finans ve Operasyon uygulamasıyla eşitlemek için aşağıdaki adımları izleyin.
+Mevcut Dataverse verilerini Finance and Operations uygulamasıyla eşitlemek için aşağıdaki adımları izleyin.
 
-1. Finans ve Operasyon uygulamasında yeni bir şirket oluşturun.
+1. Finance and Operations uygulamasında yeni bir şirket oluşturun.
 2. Şirketi çift yazma bağlantı kurulumuna ekleyin.
 3. Üç harfli Uluslararası Standartlaştırma Kuruluşu (ISO) şirket kodunu kullanarak Dataverse verilerini [önyükleyin](bootstrap-company-data.md).
 4. Verilerini eşitlemek istediğiniz tablolar için **İlk eşitleme** işlevini çalıştırın.
 
 Bir örnek ve alternatif yaklaşım ile ilgili bağlantılar için bu konunun ilerleyen kısımlarındaki [Örnek](#example) bölümüne bakın.
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Veri içeren yeni Finans ve Operasyon uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Verilere sahip yeni Finance and Operations uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu
 
-Verilere sahip yeni bir Finans ve Operasyon uygulaması kurulumu ile müşteri etkileşimi uygulamasının yeni örneği arasında çift yazma bağlantısı kurmak için, bu konunun önceki bölümlerinde yer alan [Yeni Finans ve Operasyon uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu](#new-new)'ndaki adımları uygulayın. Bağlantı kurulumu tamamlandığında, verileri müşteri etkileşimi uygulamasıyla eşitlemek istiyorsanız, aşağıdaki adımları izleyin.
+Verilere sahip yeni bir Finance and Operations uygulaması kurulumu ile müşteri etkileşimi uygulamasının yeni örneği arasında çift yazma bağlantısı kurmak için, bu konunun önceki bölümlerinde yer alan [Yeni Finance and Operations uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu](#new-new)'ndaki adımları uygulayın. Bağlantı kurulumu tamamlandığında, verileri müşteri etkileşimi uygulamasıyla eşitlemek istiyorsanız, aşağıdaki adımları izleyin.
 
-1. Finans ve Operasyon uygulamasını LCS sayfasından açın, oturum açın ve sonra **Veri Yönetimi \> Çift yazma**'ya gidin.
+1. Finance and Operations uygulamasını LCS sayfasından açın, oturum açın ve sonra **Veri Yönetimi \> Çift yazma**'ya gidin.
 2. Verilerini eşitlemek istediğiniz tablolar için **İlk eşitleme** işlevini çalıştırın.
 
 Bir örnek ve alternatif yaklaşım ile ilgili bağlantılar için [Örnek](#example) bölümüne bakın.
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Veri içeren yeni Finans ve Operasyon uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Verilere sahip yeni Finance and Operations uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu
 
-Verilere sahip yeni bir Finans ve Operasyon uygulaması kurulumu ile müşteri etkileşimi uygulamasının mevcut örneği arasında çift yazma bağlantısı kurmak için, bu konunun önceki bölümlerinde yer alan [Yeni Finans ve Operasyon uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu](#new-existing)'ndaki adımları uygulayın. Bağlantı kurulumu tamamlandığında, verileri müşteri etkileşimi uygulamasıyla eşitlemek istiyorsanız, aşağıdaki adımları izleyin.
+Verilere sahip yeni bir Finance and Operations uygulaması kurulumu ile müşteri etkileşimi uygulamasının mevcut örneği arasında çift yazma bağlantısı kurmak için, bu konunun önceki bölümlerinde yer alan [Yeni Finance and Operations uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu](#new-existing)'ndaki adımları uygulayın. Bağlantı kurulumu tamamlandığında, verileri müşteri etkileşimi uygulamasıyla eşitlemek istiyorsanız, aşağıdaki adımları izleyin.
 
-1. Finans ve Operasyon uygulamasını LCS sayfasından açın, oturum açın ve sonra **Veri Yönetimi \> Çift yazma**'ya gidin.
+1. Finance and Operations uygulamasını LCS sayfasından açın, oturum açın ve sonra **Veri Yönetimi \> Çift yazma**'ya gidin.
 2. Verilerini eşitlemek istediğiniz tablolar için **İlk eşitleme** işlevini çalıştırın.
 
-Mevcut Dataverse verilerini Finans ve Operasyon uygulamasıyla eşitlemek için aşağıdaki adımları izleyin.
+Mevcut Dataverse verilerini Finance and Operations uygulamasıyla eşitlemek için aşağıdaki adımları izleyin.
 
-1. Finans ve Operasyon uygulamasında yeni bir şirket oluşturun.
+1. Finance and Operations uygulamasında yeni bir şirket oluşturun.
 2. Şirketi çift yazma bağlantı kurulumuna ekleyin.
 3. Üç harfli ISO şirket kodunu kullanarak Dataverse verilerini [önyükleyin](bootstrap-company-data.md).
 4. Verilerini eşitlemek istediğiniz tablolar için **İlk eşitleme** işlevini çalıştırın.
 
 Bir örnek ve alternatif yaklaşım ile ilgili bağlantılar için [Örnek](#example) bölümüne bakın.
 
-## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>Mevcut Finans ve Operasyon uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu
+## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>Mevcut Finance and Operations uygulaması kurulumu ve yeni müşteri etkileşimi uygulaması kurulumu
 
-Finans ve Operasyon uygulamasının mevcut kurulumu ile müşteri etkileşimi uygulamasının yeni kurulumu arasında çift yazma bağlantısı kurulumu Finans ve Operasyon ortamında gerçekleşir.
+Finance and Operations uygulamasının mevcut kurulumu ile müşteri etkileşimi uygulamasının yeni kurulumu arasında çift yazma bağlantısı kurulumu Finance and Operations ortamında gerçekleşir.
 
-1. [Finans ve Operasyon uygulamasından bağlantıyı kurma](enable-dual-write.md).
+1. [Finance and Operations uygulamasından bağlantıyı ayarlayın](enable-dual-write.md).
 2. Verilerini eşitlemek istediğiniz tablolar için **İlk eşitleme** işlevini çalıştırın.
 
 Bir örnek ve alternatif yaklaşım ile ilgili bağlantılar için [Örnek](#example) bölümüne bakın.
 
-## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>Mevcut Finans ve Operasyon uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu
+## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>Mevcut Finance and Operations uygulaması kurulumu ve mevcut müşteri etkileşimi uygulaması kurulumu
 
-Finans ve Operasyon uygulamasının mevcut kurulumu ile müşteri etkileşimi uygulamasının mevcut kurulumu arasında çift yazma bağlantısı kurulumu Finans ve Operasyon ortamında gerçekleşir.
+Finance and Operations uygulamasının mevcut kurulumu ile müşteri etkileşimi uygulamasının mevcut kurulumu arasında çift yazma bağlantısı kurulumu Finance and Operations ortamında gerçekleşir.
 
-1. [Finans ve Operasyon uygulamasından bağlantıyı kurma](enable-dual-write.md).
-2. Mevcut Dataverse verilerini Finans ve Operasyon uygulamasıyla eşitlemek için üç harfli ISO şirket kodunu kullanarak Dataverse verilerini [önyükleyin](bootstrap-company-data.md).
+1. [Finance and Operations uygulamasından bağlantıyı ayarlayın](enable-dual-write.md).
+2. Mevcut Dataverse verilerini Finance and Operations uygulamasıyla eşitlemek için, üç harfli ISO şirket kodunu kullanarak Dataverse verilerini [önyükleyin](bootstrap-company-data.md).
 3. Verilerini eşitlemek istediğiniz tablolar için **İlk eşitleme** işlevini çalıştırın.
 
 Bir örnek ve alternatif yaklaşım ile ilgili bağlantılar için [Örnek](#example) bölümüne bakın.
@@ -129,6 +138,3 @@ Bir örnek ve alternatif yaklaşım ile ilgili bağlantılar için [Örnek](#exa
 Örneğin, bkz. [Müşterileri Etkinleştirme V3 - İlgili kişiler tablo eşlemesi](enable-entity-map.md#enable-table-map)
 
 İlk eşitlemeyi çalıştırması gereken her bir varlıktaki veri birimlerine dayalı alternatif bir yaklaşım için bkz. [İlk eşitleme için dikkat edilecek hususlar](initial-sync-guidance.md).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

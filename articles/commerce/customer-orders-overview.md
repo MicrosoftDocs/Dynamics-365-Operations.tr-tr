@@ -1,35 +1,36 @@
 ---
-title: Satış noktasındaki (POS) müşteri siparişleri
-description: Bu konuda, satış noktasındaki (POS) müşteri siparişleri hakkında bilgi sağlanmaktadır. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
+title: Satış Noktası'ndaki (POS) müşteri siparişleri
+description: Bu konuda, Satış Noktası'ndaki (POS) müşteri siparişleri hakkında bilgi verilir. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 author: josaw1
-ms.date: 08/02/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 09/03/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom:
-- "260594"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982830"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416412"
 ---
-# <a name="customer-orders-in-point-of-sale-pos"></a>Satış noktasındaki (POS) müşteri siparişleri
+# <a name="customer-orders-in-point-of-sale-pos"></a>Satış Noktası'ndaki (POS) müşteri siparişleri
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, satış noktası (POS) uygulamasında müşteri siparişlerinin nasıl oluşturulup yönetileceği ile ilgili bilgi sağlanmaktadır. Müşteri siparişleri, alışverişçilerin sonraki bir tarihte ürün çekmek, farklı bir konumdan ürünü çekmek veya maddelerin kendilerine gönderilmelerini sağlamak istedikleri satışları yakalamak için kullanılabilir. 
+Bu konuda, Satış Noktası'ndaki (POS) müşteri siparişlerinin nasıl oluşturulup yönetileceği ile ilgili bilgi verilir. Müşteri siparişleri, alışverişçilerin sonraki bir tarihte ürün çekmek, farklı bir konumdan ürünü çekmek veya maddelerin kendilerine gönderilmelerini sağlamak istedikleri satışları yakalamak için kullanılabilir. 
 
 Çok kanallı ticaret dünyasında pek çok perakendeci, çeşitli ürün ve yerine getirme gereksinimlerini karşılamak için müşteri siparişleri seçeneği veya özel siparişler sağlar. Burada bazı tipik senaryolar vardır:
 
@@ -44,30 +45,29 @@ POS'ta müşteri siparişi işlevini kullanmayı denemeden önce, Commerce yöne
 
 ### <a name="configure-modes-of-delivery"></a>Teslimat şekillerini yapılandırma
 
-Müşteri siparişlerini kullanmak için, mağaza kanalının kullanabileceği teslimat şekillerini yapılandırmalısınız. Bir mağazadan sipariş satırları müşteriye sevk edildiğinde kullanılabilecek en az bir teslimat şeklini tanımlamalısınız. Ayrıca sipariş satırları bir mağazadan çekildiğinde kullanılabilecek en az bir teslimatın alma şeklini tanımlamalısınız. Teslimat şekilleri Commerce yönetim merkezinde **Teslimat şekilleri** sayfasında tanımlanır. Commerce kanalları için teslimat şeklinin yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat şekillerini tanımlama](./configure-call-center-delivery.md#define-delivery-modes).
+Müşteri siparişlerini kullanmak için, mağaza kanalının kullanabileceği teslimat şekillerini yapılandırmalısınız. Bir mağazadan sipariş satırları müşteriye sevk edildiğinde kullanılabilecek en az bir teslimat şeklini tanımlamalısınız. Ayrıca sipariş satırları bir mağazadan çekildiğinde kullanılabilecek en az bir teslimatın alma şeklini tanımlamalısınız. Teslimat şekilleri Commerce yönetim merkezinde **Teslimat şekilleri** sayfasında tanımlanır. Commerce kanalları için teslimat şeklinin yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat şekillerini tanımlama](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
 
-![Teslimat şekilleri sayfası.](media/customer-order-modes-of-delivery.png)
+![Teslimat şekilleri sayfası](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Karşılama gruplarını ayarlama
 
-Bazı mağazalar veya depo konumları müşteri siparişlerini karşılamayabilir. Bir kuruluş, karşılama gruplarını yapılandırarak, POS'ta müşteri siparişleri oluşturan kullanıcılara gösterilecek mağaza ve depoları konumu seçeneklerini belirtebilir. Karşılama grupları, **Karşılama grupları** sayfasında yapılandırılır. Kuruluşlar, gereksinim duydukları sayıda karşılama grubu oluşturabilir. Bir karşılama grubu tanımlandıktan sonra, **Mağazalar** sayfasının Eylem Bölmesindeki **Kurulum** sekmesinden **Karşılama grubu ataması**'nı seçerek grubu bir mağazaya bağlayın.
+Bazı mağazalar veya depo konumları müşteri siparişlerini karşılamayabilir. Bir kuruluş, karşılama gruplarını yapılandırarak, POS'ta müşteri siparişleri oluşturan kullanıcılara gösterilecek mağaza ve depoları konumu seçeneklerini belirtebilir. Karşılama grupları, **Karşılama grupları** sayfasında yapılandırılır. Kuruluşlar, gereksinim duydukları sayıda karşılama grubu oluşturabilir. Bir karşılama grubu tanımlandıktan sonra, **Mağazalar** sayfasının Eylem Bölmesi'ndeki **Kurulum** sekmesinde bulunan bir düğme kullanılarak bir mağazaya bağlanır.
 
-Commerce 10.0.12 ve sonraki sürümlerde kuruluşlar, karşılama gruplarında tanımlanan depo veya depo ve mağaza birleşimlerinin sevkiyat, malzeme çekme veya sevkiyat ve malzeme çekme için kullanılıp kullanılmayacağını tanımlayabilir. Bu, sevk edilecek maddeler için müşteri siparişi oluştururken işletmenin hangi ambarların seçilebileceğini ve maddelerin teslim alınması için bir müşteri siparişi oluştururken hangi mağazaların seçilebileceğini belirlemesi için ek esneklik sağlar. Bu yapılandırma seçenekleri kullanmak için **Karşılama grubundan etkinleştirilen "Sevkiyat" veya "Çekme" olarak konumun belirtilebilmesi"** özelliğini etkinleştirmelisiniz. Bir karşılama grubuna bağlı depo bir mağaza değilse, yalnızca sevkiyat konumu olarak yapılandırılabilir. Malzeme çekme için siparişler POS'ta yapılandırıldığında kullanılamaz.
+Commerce 10.0.12 ve sonraki sürümlerde kuruluşlar, karşılama gruplarında tanımlanan depo veya depo/mağaza birleşimlerinin sevkiyat, malzeme çekme veya sevkiyat ve malzeme çekme için kullanılıp kullanılmayacağını tanımlayabilir. Bu nedenle mağaza, konumdan veya sevkiyatla alınacak sipariş oluşturan kullanıcılarına gösterilecek depo ve mağaza seçeneklerini sunan ek esnekliği sağlar. Bu yapılandırma seçeneklerinden yararlanabilmek için, **Karşılama grubundan etkinleştirilen "Sevkiyat" veya "Çekme" olarak konumun belirtilebilmesi"** özelliğini etkinleştirmelisiniz. Bir karşılama grubuna bağlanan depo bir mağaza değilse, yalnızca sevkiyat konumu olarak yapılandırılabilir. Malzeme çekme için siparişler POS'ta yapılandırıldığında kullanılamaz.
 
-![Karşılama grupları sayfası.](media/customer-order-fulfillment-group.png)
+![Karşılama grupları sayfası](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Kanal ayarlarını yapılandırma
 
 POS'ta müşteri siparişleri ile çalışırken, mağaza kanalının bazı ayarlarına dikkat etmeniz gerekir. Bu ayarlar, Commerce yönetim merkezindeki **Mağazalar** sayfasında bulunur.
 
-- **Ambar**: Bu alan, bu mağazaya bağlı nakit ve müşteri malzeme çekme emirleri için stok küçültmekte kullanılacak ambarı gösterir. En iyi yöntem olarak, mağazalar boyunca çakışan iş mantığı sorunlarını önlemek için, her bir mağaza kanalının benzersiz ambarların kullanımını öneririz.
-- **Sevkiyat Ambarı**: Bu alan, seçilen mağazadan gönderilecek müşteri siparişleri için stok küçültmekte kullanılacak ambarı gösterir. Ortamınızda, **Karşılama grubunda yerleşimleri "Sevkiyat" veya "Malzeme çekme" etkin olarak belirtme özelliği** etkinleştirilmişse , POS kullanıcıları, sevkiyatın yapılacağı bir mağaza seçmek yerine, POS'tan sevk etmek için belirli bir ambar seçebilirler. Bu nedenle, bu özellik etkinleştirildiğinde, siparişin oluşturulduğu sırada Kullanıcı siparişi sevk etmek için belirli bir ambarı seçeneği için sevkiyat ambarı artık kullanılmaz.
+- **Ambar**: Bu alan, mağazadan sevkiyat için yapılandırılmış siparişleri karşılamak için kullanılacak ambarı gösterir.
 - **Karşılama grubu ataması**: POS'ta müşteri siparişleri oluşturulurken malzeme çekme konumları veya sevkiyat kaynakları için seçenekleri göstermek üzere referans gösterilen karşılama gruplarını bağlamak için bu düğmeyi seçin (Eylem Bölmesi'ndeki **Kurulum** sekmesinde).
 - **Hedef esaslı vergi kullan**: Bu seçenek, sevkiyat adresinin, müşterinin adresine sevk edilen sipariş satırlarına uygulanacak vergi grubunu belirlemek için teslimat adresinin kullanılıp kullanılmayacağını gösterir.
 - **Müşteri tabanlı vergi kullan**: Bu seçenek, müşterinin teslimat adresi için tanımlanan vergi grubunun evine sevkiyat için POS'ta oluşturulan müşteri siparişlerinin vergilendirilmesi için kullanılıp kullanılmayacağını gösterir.
 
-![Mağazalar sayfasında mağaza kanalı kurulumu.](media/customer-order-all-stores.png)
+![Mağazalar sayfasında mağaza kanalı kurulumu](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Müşteri sipariş parametrelerini ayarlama
 
@@ -80,29 +80,26 @@ POS'ta müşteri siparişlerini oluşturmayı denemeden önce, Commerce yönetim
 - **İptal ücreti yüzdesi**: Müşteri siparişi iptal edildiğinde, bir ücret uygulanacaksa bu tutarı belirtin.
 - **İptal masrafı kodu**: POS ile iptal edilen müşteri siparişleri için iptal gideri uygulandığında kullanılması gereken Alacak hesapları gider kodunu belirtin. Masraf kodu, iptal masrafı için mali deftere nakil mantığını tanımlar.
 - **Sevkiyat masrafı kodu**: **Gelişmiş otomatik masrafları kullan** seçeneği **Evet** olarak ayarlanmışsa, bu parametre ayarının hiçbir etkisi olmaz. Bu seçenek **Hayır** olarak ayarlanmışsa, kullanıcılardan POS'ta müşteri siparişleri oluştururken, sevkiyat masraflarını el ile girmeleri istenir. Kullanıcılar bir sevkiyat masrafı girdiğinde siparişlere uygulanacak Alacak hesapları gider kodunu eşlemek için bu parametreyi kullanın. Masraf kodu, sevkiyat masrafı için mali deftere nakil mantığını tanımlar.
-- **Gelişmiş otomatik masrafları kullan**: POS'ta müşteri siparişleri oluşturulurken sistem tarafından hesaplanan otomatik masrafları kullanmak için bu seçeneği **Evet** olarak ayarlayın. Otomatik masraflar, sevkiyat ücretlerini ve diğer sipariş veya maddeye özel masrafları hesaplamak için kullanılabilir. Gelişmiş otomatik masrafları özelliğini ayarlama ve kullanma hakkında bilgi için bkz. [Çok yönlü kanal gelişmiş otomatik masrafları](./omni-auto-charges.md).
+- **Gelişmiş otomatik masrafları kullan**: POS'ta müşteri siparişleri oluşturulurken sistem tarafından hesaplanan otomatik masrafları kullanmak için bu seçeneği **Evet** olarak ayarlayın. Otomatik masraflar, sevkiyat ücretlerini ve diğer sipariş veya maddeye özel masrafları hesaplamak için kullanılabilir. Gelişmiş otomatik masrafları özelliğini ayarlama ve kullanma hakkında bilgi için bkz. [Çok yönlü kanal gelişmiş otomatik masrafları](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
 
-![Commerce parametreleri sayfasındaki müşteri siparişleri sekmesi.](media/customer-order-parameters.png)
+![Commerce parametreleri sayfasındaki müşteri siparişleri sekmesi](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>POS'ta hareket ekran düzenlerini güncelleştirme
 
-POS [ekran düzeninin](./pos-screen-layouts.md), müşteri siparişlerinin oluşturulmasını ve yönetilmesini destekleyecek şekilde yapılandırıldığından ve gerekli tüm POS işlemlerinin yapılandırıldığından emin olun. Müşteri siparişi oluşturma ve yönetimini doğru şekilde desteklemek için önerilen POS işlemlerinden bazıları şunlardır:
+POS [ekran düzeninin](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts), müşteri siparişlerinin oluşturulmasını ve yönetilmesini destekleyecek şekilde yapılandırıldığından ve gerekli tüm POS işlemlerinin yapılandırıldığından emin olun. Müşteri siparişi oluşturma ve yönetimini doğru şekilde desteklemek için önerilen POS işlemlerinden bazıları şunlardır:
 - **Tüm ürünleri sevk et**: Bu işlem, hareket sepetindeki tüm satırların bir hedefe sevk edileceğini belirtmek için kullanılır.
 - **Seçili ürünleri sevk et**: Bu işlem, hareket sepetindeki seçili satırların bir hedefe sevk edileceğini belirtmek için kullanılır.
 - **Tüm ürünleri çek**: Bu işlem, hareket sepetindeki tüm satırların seçili bir mağaza konumundan çekileceğini belirtmek için kullanılır.
 - **Seçili ürünleri çek**: Bu işlem, hareket sepetindeki seçili satırların seçili bir mağaza konumundan çekileceğini belirtmek için kullanılır.
 - **Tüm ürünleri teslim al**: Bu işlem, hareket sepetindeki tüm satırların teslim alınacağını için belirtmek kullanılır. POS'ta bu işlem kullanılırsa, müşteri siparişi öde ve al hareketine dönüştürülür.
-- **Seçili ürünleri teslim al**: Bu işlem, hareket sepetindeki seçili satırların, satınalma sırasında müşteri tarafından satın alınacağını belirtmek için kullanılır. Bu işlemden yalnızca [karma sipariş](./hybrid-customer-orders.md) senaryosunda yararlanılır.
+- **Seçili ürünleri teslim al**: Bu işlem, hareket sepetindeki seçili satırların, satınalma sırasında müşteri tarafından satın alınacağını belirtmek için kullanılır. Bu işlemden yalnızca [karma sipariş](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders) senaryosunda yararlanılır.
 - **Siparişi geri çağır**: Bu işlem, müşteri siparişlerini aramak ve getirmek için kullanılır, böylece POS kullanıcıları gerektiğinde karşılama ile ilgili işlemlerini düzenleyebilir, iptal edebilir veya gerçekleştirebilir.
 - **Teslimat şeklini değiştir**: Bu işlem, önceden sevkiyat için yapılandırılmış olan satırlar için teslimat şeklini, kullanıcıların "tüm ürünleri sevk et" veya "seçilen ürünleri sevk et" akışının aşamalarının üzerinden yeniden geçmelerine gerek kalmadan teslim etme modunu hızla değiştirmek için kullanılabilir.
 - **Havale geçersiz kılma**: Bu işlem, müşterinin seçili müşteri siparişi için ödeyeceği depozito tutarını değiştirmek için kullanılabilir.
 
-![POS hareket ekranındaki işlemler.](media/customer-order-screen-layout.png)
+![POS hareket ekranındaki işlemler](media/customer-order-screen-layout.png)
 
-## <a name="work-with-customer-orders-in-pos"></a>POS'ta müşteri siparişleriyle çalışma
-
-> [!NOTE]
-> Gelir kabulü işlevi şu anda Ticaret kanallarında (e-ticaret, POS, çağrı merkezi) kullanım için desteklenmiyor. Gelir kabulü ile konfigüre edilen maddeler, Ticaret kanallarında oluşturulan siparişlere eklenemez. 
+## <a name="working-with-customer-orders-in-pos"></a>POS'ta müşteri siparişleriyle çalışma
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Müşteriye sevk edilecek ürünler için bir müşteri siparişi oluşturma
 
@@ -121,7 +118,7 @@ POS [ekran düzeninin](./pos-screen-layouts.md), müşteri siparişlerinin oluş
 2. Sepete ürünler ekle.
 3. Siparişe ait malzeme çekme yapılandırmasını başlatmak için **Seçileni çek** veya **Tümünü çek** seçeneğini belirleyin.
 4. Müşterinin seçili ürünleri çekeceği mağaza konumu seçin.
-5. Maddenin çekilmesi için bir tarih seçin.
+5. Bir malzeme çekme tarihi seçin.
 6. Vadesi gelen hesaplanmış tutarların ödemesini yapmak için ödeme işlevlerini kullanın veya vadesi gelen miktarları değiştirmek için **Havale geçersiz kılma** işlemini kullanın ve sonra ödemeyi uygulayın.
 7. Tam sipariş toplamı ödenmediyse, müşterinin ödemeyi daha sonra (malzeme çekme sırasında) sağlayıp sağlamayacağını veya kredi kartı bilgilerinin güvenli şekilde saklanarak ve malzeme çekme sırasında kullanılıp çekim yapılıp yapılmayacağını seçin.
 
@@ -130,14 +127,12 @@ POS [ekran düzeninin](./pos-screen-layouts.md), müşteri siparişlerinin oluş
 Çevrimiçi veya mağaza kanalında oluşturulan perakende siparişleri gerektiğinde, POS aracılığıyla geri çekilebilir ve düzenlenebilir.
 
 > [!IMPORTANT]
-> Tüm perakende siparişler POS uygulaması aracılığıyla düzenlenemez. Çağrı merkezi kanalında oluşturulan siparişler, bu kanalda [Sipariş tamamlamayı etkinleştir](./set-up-order-processing-options.md#enable-order-completion) ayarı açıksa, POS üzerinden düzenlenemez. Doğru ödeme işleminin yapıldığından emin olmak için, bir çağrı merkezi kanalında oluşturulan ve Sipariş tamamlamayı etkinleştirme işlevini kullanan siparişlerin Commerce Headquarters'da çağrı merkezi uygulaması aracılığıyla düzenlenmesi gerekir.
+> Çağrı merkezi kanalında oluşturulan siparişler, bu kanalda [Sipariş tamamlamayı etkinleştir](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) ayarı açıksa, POS üzerinden düzenlenemez. Doğru ödeme işleminin yapıldığından emin olmak için, bir çağrı merkezi kanalında oluşturulan ve Sipariş tamamlamayı etkinleştirme işlevini kullanan siparişlerin Commerce Headquarters'da çağrı merkezi uygulaması aracılığıyla düzenlenmesi gerekir.
+
+Commerce 10.0.13 ve önceki sürümlerde, kullanıcılar yalnızca siparişler tam olarak açıksa desteklenen müşteri siparişlerini POS üzerinden düzenleyebilirler. Bir siparişin satırları karşılama (çekme, paketleme, vb.) amacıyla işlenmişse, sipariş POS'ta düzenlemek için kilitlenir.
 
 > [!NOTE]
-> Commerce genel merkezinde çağrı merkezi dışı bir kullanıcı tarafından oluşturulan POS'ta sipariş ve teklifleri düzenlememenizi öneririz. Bu siparişler ve teklifler, Commerce fiyatlandırma altyapısını kullanmaz. Bu nedenle, POS'ta düzenlendiklerinde Commerce fiyatlandırma altyapısı bunları yeniden fiyatlandırır.
-
-
-Sürüm 10.0.17 ve sonrasında, kullanıcılar,sipariş kısmen karşılanabilse bile POS uygulaması üzerinden uygun siparişleri düzenleyebilir. Ancak, tamamen faturalanmış siparişler POS üzerinden düzenlenemez. Bu özelliği etkinleştirmek için **Özellik yönetimi** çalışma alanında **Satış Noktası'nda kısmen karşılanmış siparişleri düzenle** özelliğini açın. Bu özellik etkin değilse veya sürüm 10.0.16 veya öncesini kullanıyorsanız kullanıcılar yalnızca sipariş tam olarak açıksa POS'ta müşteri siparişlerini düzenleyebilirler. Ayrıca, özellik etkinleştirildiğinde, hangi mağazaların kısmi olarak karşılanan siparişleri düzenleyebileceğini sınırlayabilirsiniz. Belirli mağazalar için bu özelliği devre dışı bırakma seçeneği, **Genel** hızlı sekmesi altındaki **İşlevsellik profili** aracılığıyla konfigüre edilebilir.
-
+> Commerce 10.0.14 sürümde, [genel önizleme](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) sürümünde sunulan bir özellik siparişin bir kısmı karşılansa bile POS aracılığıyla kullanıcıların müşteri siparişlerini düzenlemesine olanak sağlar. Ancak, tamamen faturalanmış siparişler POS üzerinden düzenlenemez. Bu önizleme özelliğini test etmek ve ek geribildirim sağlamak için, **Özellik yönetimi** çalışma alanında **Satış Noktası'nda kısmen karşılanmış siparişleri düzenle (Önizleme)** özelliğini açın. Çağrı merkezi kanalında oluşturulan ve Sipariş tamamlamayı etkinleştirme işlevini kullanan müşteri siparişleri bu özellik etkinleştirildikten sonra da düzenlenemez.
 
 1. **Siparişi geri çağır** seçeneğini belirleyin.
 2. Siparişi bulmak için filtre girmek üzere **Ara**'yı kullanın ve sonra **Uygula** seçeneğini belirleyin.
@@ -146,23 +141,7 @@ Sürüm 10.0.17 ve sonrasında, kullanıcılar,sipariş kısmen karşılanabilse
 5. Ödeme işlemini seçerek düzenleme işlemini tamamlayın.
 6. Herhangi bir değişiklik yapmadan düzenleme işleminden çıkmak için, **Hareketi hükümsüz kıl** işlemini kullanabilirsiniz.
 
-#### <a name="pricing-impact-when-orders-are-edited"></a>Siparişler düzenlendiğinde fiyatlandırma etkisi
 
-Siparişler POS'ta veya bir Commerce e-ticaret sitesinde verildiğinde müşteriler bir tutar taahhüt eder. Bu tutar bir fiyat içerir ve ayrıca bir iskonto da içerebilir. Sipariş veren ve ardından bu siparişi değiştirmek için (örneğin, başka bir öğe eklemek için) çağrı merkeziyle iletişime geçen müşteri, iskonto uygulanması konusunda belirli beklentilere sahiptir. Mevcut sipariş satırlarındaki promosyonların süresi dolsa bile müşteri, başlangıçta bu satırlara uygulanan iskontoların etkin kalmasını bekler. Ancak sipariş başlangıçta verildiğinde etkin iskonto yoksa ancak bu tarihten sonra bir iskonto yürürlüğe girdiyse müşteri, yeni iskontonun değiştirilen siparişe uygulanmasını bekler. Aksi takdirde müşteri, mevcut siparişi iptal edebilir ve ardından yeni iskontonun uygulandığı yeni bir sipariş oluşturabilir. Bu senaryoda, müşterilerin taahhüt ettiği fiyatların ve iskontoların korunması gerektiği gösterilmektedir. Aynı zamanda POS ve çağrı merkezi kullanıcıları, satış siparişi satırlarının fiyatlarını ve iskontolarını gerektiği gibi yeniden hesaplama esnekliğine sahip olmalıdır.
-
-POS'ta siparişler geri çekilip düzenlendiğinde mevcut sipariş satırlarının fiyatları ve iskontoları "kilitli" olarak kabul edilir. Diğer bir deyişle, bazı sipariş satırları iptal edilmiş veya değiştirilmiş olsa da ya da yeni sipariş satırları eklense bile bunlar değişmez. Mevcut satış satırlarının fiyatlarını ve iskontolarını değiştirmek için POS kullanıcısı, **Yeniden Hesapla** seçeneğini belirlemelidir. Ardından fiyat kilidi, mevcut sipariş satırlarından kaldırılır. Ancak Commerce 10.0.21 sürümünden önce çağrı merkezinde bu özellik kullanılamıyordu. Bunun yerine, sipariş satırlarındaki tüm değişiklikler fiyatların ve iskontoların yeniden hesaplanmasına neden oluyordu.
-
-Commerce 10.0.21 sürümünde, **Özellik yönetimi** çalışma alanında **Ticari siparişler için istenmeyen fiyat hesaplamasını engelle** adlı yeni bir özellik kullanılabilir. Bu özellik, varsayılan olarak açıktır. Açıldığında tüm e-ticaret siparişleri için yeni bir **Fiyat kilitli** özelliği kullanılabilir. Herhangi bir kanaldan verilen siparişler için sipariş yakalama tamamlandıktan sonra bu özellik tüm sipariş satırları için otomatik olarak etkinleştirilir (yani, onay kutusu seçilidir). Daha sonra Commerce fiyatlandırma altyapısı bu sipariş satırlarını tüm fiyat ve iskonto hesaplamalarından hariç tutar. Bu nedenle, sipariş düzenlendiğinde sipariş satırları varsayılan olarak fiyatlandırma ve iskonto hesaplamasından hariç tutulur. Ancak çağrı merkezi kullanıcıları, sipariş satırları için özelliği devre dışı bırakabilir (yani onay kutusunun işaretini kaldırabilir) ve ardından mevcut sipariş satırlarını fiyatlandırma hesaplamalarına dahil etmek için **Yeniden Hesapla** seçeneğini belirleyebilir.
-
-Mevcut bir sipariş satırına el ile iskonto uygularken bile çağrı merkezi kullanıcılarının, iskontoyu uygulamadan önce satış satırının **Fiyat kilitli** özelliğini devre dışı bırakması gerekir.
-
-Çağrı merkezi kullanıcıları ayrıca **Satış siparişi** sayfasının Eylem Bölmesi'ndeki **Satış** sekmesinde **Hesapla** grubundaki **Fiyat kilidini kaldır** seçeneğini belirleyerek de toplu olarak sipariş satırları için **Fiyat kilitli** özelliğini devre dışı bırakabilir. Bu durumda fiyat kilidi, düzenlenebilir olmayan satırlar (diğer bir deyişle, **Kısmen faturalandı** veya **Faturalandı** durumuna sahip satırlar) haricinde tüm sipariş satırlarından kaldırılır. Ardından, siparişteki değişiklikler tamamlanıp gönderildikten sonra fiyat kilidi tüm sipariş satırlarına yeniden uygulanır.
-
-> [!IMPORTANT]
-> **Ticari siparişler için istenmeyen fiyat hesaplamasını engelle** özelliği açıldığında, fiyatlandırma iş akışlarında ticari sözleşme değerlendirmesi kurulumu yok sayılır. Diğer bir deyişle, ticari sözleşme değerlendirmesi iletişim kutusunda **Fiyat kilitli** bölümü gösterilmez. Bu davranış, ticari sözleşme değerlendirmesi kurulumunun ve fiyat kilidi özelliğinin benzer bir amaca sahip olması nedeniyle gerçekleşir: istenmeyen fiyat değişikliklerini önlemek. Ancak ticari sözleşme değerlendirmesi için kullanıcı deneyimi, kullanıcıların yeniden fiyatlandırma amacıyla bir veya daha fazla sipariş satırı seçmesinin gerektiği büyük siparişlerde iyi ölçeklenmez.
-
-> [!NOTE]
-> **Fiyat kilitli** özelliği yalnızca **Çağrı merkezi** modülü kullanıldığında bir veya daha fazla seçili satır için devre dışı bırakılabilir. POS'un davranışı değişmeden kalır. Diğer bir deyişle, POS kullanıcısı seçili sipariş satırları için fiyatların kilidini açamaz. Ancak mevcut tüm sipariş satırlarından fiyat kilidini kaldırmak için **Yeniden Hesapla** seçeneğini belirleyebilir.
 
 ### <a name="cancel-a-customer-order"></a>Müşteri siparişini iptal etme
 
@@ -175,7 +154,7 @@ Mevcut bir sipariş satırına el ile iskonto uygularken bile çağrı merkezi k
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>POS'tan müşteri sipariş sevkiyatını veya malzeme çekmeyi sonlandırma
 
-Bir sipariş oluşturulduktan sonra, maddeler müşteri tarafından bir mağaza konumundan çekilir veya siparişin yapılandırmasına bağlı olarak sevk edilir. Bu işlem hakkında daha fazla bilgi edinmek için [mağaza sipariş karşılama](./order-fulfillment-overview.md) belgelerine bakın.
+Bir sipariş oluşturulduktan sonra, maddeler müşteri tarafından bir mağaza konumundan çekilir veya siparişin yapılandırmasına bağlı olarak sevk edilir. Bu işlem hakkında daha fazla bilgi edinmek için [mağaza sipariş karşılama](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview) belgelerine bakın.
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Müşteri siparişleri için zaman uyumsuz işlem akışı
 
@@ -191,6 +170,3 @@ Müşteri siparişleri POS'ta zaman uyumlu ya da zaman uyumsuz modda oluşturula
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Karma müşteri siparişleri](hybrid-customer-orders.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -85,6 +85,3 @@ Attract denemesinde bulunan tüm özellikleri görmüyor olmanızın birkaç ned
 
 - İş arkadaşınız, Attract ile Kapsamlı İşe Alma Eklentisinin bir deneme veya lisans sürümüyle çalışmaktayken, siz Attract'in temel sürümüyle çalışmaktasınız.
 - Kapsamlı İşe Alma Eklentisi ile Attract'e sahipsiniz, ancak tüm özellikleri kullanmak için doğru rollere atanmadınız. Daha fazla bilgi için bkz: [Attract'te güvenlik ve rol yönetimi](security-attract.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

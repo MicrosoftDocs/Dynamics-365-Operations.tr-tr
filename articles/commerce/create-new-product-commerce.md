@@ -2,9 +2,11 @@
 title: Commerce'ta yeni ürün oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir ürünün nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753734"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965337"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Commerce'ta yeni ürün oluşturma
 
@@ -49,15 +51,15 @@ Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir ürünün nasıl oluştur
 
 Aşağıdaki resimde bir eklenen ürün örneği gösteriliyor.
 
-![Ürün oluşturma.](media/create-new-product.png)
+![Ürün oluşturma](media/create-new-product.png)
 
 Ürün eklendikten sonra, **Ürün açıklaması**, **Çeşit grupları**, **Boyut grupları**, **Ürün öznitelikleri** ve **İlgili ürünler** gibi ek veriler ayarlayabilirsiniz.
 
 Aşağıdaki resimde bir ürünün ek ayrıntıları gösterilmektedir.
 
-![Ürün ayrıntıları.](media/create-new-product-2.png)
+![Ürün ayrıntıları](media/create-new-product-2.png)
 
-### <a name="create-product-variants"></a>Ürün çeşitleri oluştur
+### <a name="create-product-variants"></a>Ürün varyantları oluştur
 
 Ürün alt türü **Ürün aslı** ise, belirli çeşitler oluşturulması gerekecektir. 
 
@@ -74,23 +76,23 @@ Bir ürünü satmak için önce tüzel bir kişiliğe serbest bırakılması ger
 
 1. Ürün sayfasından, **Ürünleri serbest bırak**'ı seçin.
 
-    ![Ürünü serbest bırakma.](media/create-new-product-3.png)
+    ![Ürünü serbest bırakma](media/create-new-product-3.png)
 
 1. Serbest bırakılacak ürünü ve ardından **İleri**'yi seçin.
 
-    ![Serbest bırakılacak ürünü seçme.](media/create-new-product-4.png)
+    ![Serbest bırakılacak ürünü seçme](media/create-new-product-4.png)
 
 1. Serbest bırakılacak ürün çeşitleri kümesini ve ardından **İleri**'yi seçin.
 
-    ![Serbest bırakılacak çeşitleri seçme.](media/create-new-product-5.png)
+    ![Serbest bırakılacak çeşitleri seçme](media/create-new-product-5.png)
 
 1. Tüzel kişiliği ve ardından **İleri**'yi seçin.
 
-    ![Tüzel kişilik seçme.](media/create-new-product-6.png)
+    ![Tüzel kişilik seç](media/create-new-product-6.png)
 
 1. **Bitir**'i seçin.
 
-    ![Ürün serbest bırakma işlemini bitirme.](media/create-new-product-7.png)
+    ![Ürün serbest bırakma işlemini bitirme](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Serbest bırakılmış bir ürünü yapılandırma
 
@@ -105,13 +107,10 @@ Bir ürünü satmak için önce tüzel bir kişiliğe serbest bırakılması ger
 
 Aşağıdaki resimde, serbest bırakılmış bir ürün için yapılandırma örneği gösterilmektedir.
 
-![Serbest bırakılmış ürünü yapılandırma.](media/create-new-product-8.png)
+![Serbest bırakılmış ürünü yapılandırma](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Tüzel kişilik oluştur](channels-legal-entities.md)
+[Tüzel kişilik oluşturma](channels-legal-entities.md)
 
 [Çeşit grubu oluşturma](create-variant-group.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

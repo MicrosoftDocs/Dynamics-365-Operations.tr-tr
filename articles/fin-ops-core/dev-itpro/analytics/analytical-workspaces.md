@@ -2,9 +2,11 @@
 title: Analitik çalışma alanları
 description: Bu konuda kullanılabilir katıştırılmış analitik çalışma alanları listelenmektedir ve çalışma alanları hakkında daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir.
 author: sericks007
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64a960d4658fa38aa45c08c443d12202ebe8acae1cb6fa80113d0132fa226d70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 136c3cdd391f6ff92d6760a17d89ddfeec8d45a1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772070"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683150"
 ---
 # <a name="analytical-workspaces"></a>Analitik çalışma alanları
 [!include[banner](../includes/banner.md)]
@@ -43,6 +45,3 @@ ms.locfileid: "6772070"
 - [Satıcı ödemeleri çalışma alanı](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Ambar performansı Power BI içeriği](warehouse-power-bi-content.md)
 - [İş gücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

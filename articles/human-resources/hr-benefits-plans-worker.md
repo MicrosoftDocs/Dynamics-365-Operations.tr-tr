@@ -1,30 +1,31 @@
 ---
 title: Çalışan kazanç planları oluşturma
-description: Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasında çalışan kazanç planlarının nasıl oluşturulacağı, seçileceği ve onaylanacağı açıklanmaktadır.
-author: twheeloc
-ms.date: 08/23/2021
+description: Çalışanlar için kazanç planları seçmek ve kazanç planı seçimlerini onaylamak Için, Microsoft Dynamics 365 Human Resources'ta çalışan avantajı planları oluşturabilirsiniz.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanEmployee, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 701bc6f1bb3ef684b163c32032e1094c8ae4deb0
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417505"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420889"
 ---
 # <a name="create-worker-benefit-plans"></a>Çalışan kazanç planları oluşturma
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Çalışanlar için kazanç planları seçmek ve kazanç planı seçimlerini onaylamak Için, Microsoft Dynamics 365 Human Resources'ta çalışan avantajı planları oluşturabilirsiniz. Normal olarak, Çalışanlar Çalışan Self Servis'i kullanarak tüm kazanç planlarını seçer ve daha sonra bir yarar Yöneticisi seçimleri onaylar. 
 
@@ -48,6 +49,3 @@ ms.locfileid: "7417505"
    | Planlar | Planlar hızlı sekmesi, belirttiğiniz filtre ölçütüne uyan planları içerir. İK personeli tarafından ayarlanan ilgili konfigürasyon seçenekleri ve çalışanlar tarafından seçilen kayıt seçimleri her satıra dahil edilir. Nitelenmiş alan, plan seçimiyle bir doğrulama çakışması olup olmadığını belirtir. |
 
 4. **Kaydet**'i seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: İş emrini belirli bir tarihte ve saatte zamanlama
 description: Bu konu, Varlık Yönetiminde, iş emrinin belirli bir tarih ve saate nasıl planlanacağını açıklamaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d1264ea034789c9ce052b1da9a74a10dd910fac1a1c762d29bd06ca2063478d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1b9fc2f51e92a4760a612d778b65cfc1b4e2a9e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780305"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017379"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>İş emrini belirli bir tarihte ve saatte zamanlama
 
@@ -38,13 +40,13 @@ Bir iş emrinin belirli bir tarih *ve* saatte zamanlanması gerekiyorsa, Varlık
 
 4. **İş emri başlığı** hızlı sekmesinde, **Beklenen başlangıç** ve **Beklenen bitiş** alanlarına başlangıç ve bitiş tarihlerini ve saatlerini ekleyin.
 
-    ![Şekil 1.](media/05-work-order-scheduling.png)
+    ![Şekil 1](media/05-work-order-scheduling.png)
 
 5. **Genel** sekmesinde, standart planlama işlemini kullanmak için **Zamanla**'ya tıklayın veya iş emrini belirli bir çalışana atamak istiyorsanız **Gönder**'e tıklayın.
 
 6. İş emrinin beklenen dönemde zamanlandığından emin olmak amacıyla varolan herhangi bir kapasite rezervasyonunu geçersiz kılmak için **İş emrini planla** iletişim kutusu > **Sınırlı kapasite** bölümünde aşağıdaki şekilde gösterilen seçimleri yapın. Bu, iş emrinin beklenen başlangıç saatinde başlaması gerektiği için, planlama işleminin varolan kapasite rezervasyonlarını yok sayacağı anlamına gelir.
 
-    ![Şekil 2.](media/06-work-order-scheduling.png)
+    ![Şekil 2](media/06-work-order-scheduling.png)
 
 7. Planlamayı başlatmak için **Tamam**'a tıklayın.
 
@@ -53,6 +55,3 @@ Bir iş emrinin belirli bir tarih *ve* saatte zamanlanması gerekiyorsa, Varlık
 >[!NOTE]
 >İş emri için bir bakım görevlisi planlamak için bu bakım görevlisinin beklenen başlangıç tarihi ve saatinde uygun olması gerekir. Çalışanın uygunluk durumu [çalışan takviminde](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md) ayarlanır. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

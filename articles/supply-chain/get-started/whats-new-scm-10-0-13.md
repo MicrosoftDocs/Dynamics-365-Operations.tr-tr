@@ -2,9 +2,11 @@
 title: Dynamics 365 Supply Chain Management 10.0.13 sürümündeki yenilikler veya değişiklikler (Ekim 2020)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.13'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 238dc7191b5d6cb044b2825e511bdc869d82ca20c03cfbc6129c22a010da3496
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c5358cbc13c10983cfcbdde95fd573f652cc683
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766134"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963572"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Dynamics 365 Supply Chain Management 10.0.13 sürümündeki yenilikler veya değişiklikler (Ekim 2020)
 
@@ -33,23 +35,23 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.13'deki yeni veya
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [Sürüm planları](/dynamics365/release-plans/) sitesindeki ek bilgilere bağlantı sağlar. Ek bağlantılar, söz konusu özellik için kullanılabilir olan ek belgelere götürür. Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
+Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [Sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/) sitesindeki ek bilgilere bağlantı sağlar. Ek bağlantılar, söz konusu özellik için kullanılabilir olan ek belgelere götürür. Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
-- ["Stok kapatma iptali" terminolojisini "stok kapatma ters döndürme" olarak değiştirme](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Daha fazla bilgi için bkz. [Stok kapatma](../cost-management/inventory-close.md).
+- ["Stok kapatma iptali" terminolojisini "stok kapatma ters döndürme" olarak değiştirme](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Daha fazla bilgi için bkz. [Stok kapatma](../cost-management/inventory-close.md).
 
-- [Toplu işlerden giden sevkiyatları onayla](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Daha fazla bilgi için bkz. [Toplu işlerden giden sevkiyatları onaylama](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [Toplu işlerden giden sevkiyatları onayla](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Daha fazla bilgi için bkz. [Toplu işlerden giden sevkiyatları onaylama](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [Çoklu satın alma işi kalemlerini atama](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Daha fazla bilgi için bkz. [Bir iş akışındaki iş kalemlerini atama](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [Çoklu satın alma işi kalemlerini atama](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Daha fazla bilgi için bkz. [Bir iş akışındaki iş kalemlerini atama](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [İş kartı cihazında bitmiş olarak bildirirken seri numaralarını girme](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Daha fazla bilgi için bkz. [İş kartı cihazından tamamlandı olarak bildirme](../production-control/report-finished-job-device.md).
+- [İş kartı cihazında bitmiş olarak bildirirken seri numaralarını girme](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Daha fazla bilgi için bkz. [İş kartı cihazından tamamlandı olarak bildirme](../production-control/report-finished-job-device.md).
 
-- [Ürün sürüm izleme ve geliştirilmiş genişletilebilirlik için yeni stok boyutları](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Daha fazla bilgi için bkz. [Ürün boyutları](../pim/product-dimensions.md).
+- [Ürün sürüm izleme ve geliştirilmiş genişletilebilirlik için yeni stok boyutları](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Daha fazla bilgi için bkz. [Ürün boyutları](../pim/product-dimensions.md).
 
-- [Plakalara göre sipariş taahhütlü rezervasyon](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Daha fazla bilgi için bkz. [Esnek plaka rezervasyonu](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [Plakalara göre sipariş taahhütlü rezervasyon](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Daha fazla bilgi için bkz. [Esnek plaka rezervasyonu](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [İş çekme satırına genel bakış](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [İş çekme satırına genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [Gelen iş için iş ilkesi geliştirmeleri](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Daha fazla bilgi için bkz. [Ambar ilkeleri](../warehousing/warehouse-work-policies.md).
+- [Gelen iş için iş ilkesi geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Daha fazla bilgi için bkz. [Ambar ilkeleri](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -65,7 +67,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.13 platform güncelleştirme
 
 İş uygulamalarımız veya platformumuz için gelecek olan ve en son yayımlanan özellikleri merak ediyor musunuz?
 
-[Dynamics 365: 2020 sürüm dalgası 2 planını](/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
+[Dynamics 365: 2020 sürüm dalgası 2 planını](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 
@@ -77,6 +79,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.13 platform güncelleştirme
 Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) konusunda duyurulacaktır.
 
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

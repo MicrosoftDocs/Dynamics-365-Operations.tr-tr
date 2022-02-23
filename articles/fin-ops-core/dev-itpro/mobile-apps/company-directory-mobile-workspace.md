@@ -2,9 +2,11 @@
 title: Şirket dizini mobil çalışma alanı
 description: Bu konuda, kullanıcıların kuruluşları içindeki diğer personeli görmesini ve iletişim kurmasını sağlayan Şirket dizini mobil çalışma alanı hakkında bilgi verilmektedir.
 author: jcart1106
+manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720660"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683444"
 ---
 # <a name="company-directory-mobile-workspace"></a>Şirket dizini mobil çalışma alanı
 
@@ -77,7 +79,7 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 3.  İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir. Kimlik bilgilerinizi girin.
 4.  Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.
 
-[![Yenilemek için çekin.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Yenilemek için çekin](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Şirket dizinini mobil çalışma alanı kullanarak görüntüleyin
 1.  Mobil uygulamada, **Şirket dizini** çalışma alanını seçin. Personellerin bir listesi görüntülenir.
@@ -87,6 +89,3 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 1.  Mobil uygulamada, **Şirket dizini** çalışma alanını seçin.
 2.  **Arama** alanında, bir personelin adını, soyadını, unvanını veya bölümünü, aramayı başlatmak için girin.
 3.  Bir çalışan seçin. **Personel profili** sayfası görüntülenir. Bu sayfadaki bilgiler arasında personelin adı, soyadı, unvanı ve bölümü bulunur.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

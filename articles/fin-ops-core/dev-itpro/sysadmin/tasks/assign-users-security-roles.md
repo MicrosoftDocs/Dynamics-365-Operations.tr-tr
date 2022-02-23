@@ -2,9 +2,11 @@
 title: Kullanıcıları güvenlik rollerine atama
 description: Finance and Operations uygulamalarına erişmek için kullanıcıların güvenlik rolleri atanmış olmalıdır.
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/06/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d65c4dafda63b7a54dd343652b0f4b498e064f4aee0fba43c34d40d73ac5062
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748348"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679876"
 ---
 # <a name="assign-users-to-security-roles"></a>Kullanıcıları güvenlik rollerine atama
 
@@ -55,6 +57,3 @@ Güvenlik rollerine el ile atanan kullanıcıların yönetici tarafından el ile
 2. Ağaçta bir rol seçin, **Role atanmış kullanıcılar** menüsünde, **Kullanıcıları el ile ata / dışarıda tut**'u seçin.
 4. **Kullanıcıları role ata veya rolün dışında tut**'ta, role atanmamış olan kullanıcılar **Atama modu** **Hiçbiri** olarak listelenir. Role atanması gereken bir veya daha fazla kullanıcı seçin.
 5. **Eylem bölmesi**'nde, **Role ata**'yı seçin. **Atama modu** **El ile** olarak güncelleştirilir ve kullanıcılara atanmış yeni bir rol bulunur.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

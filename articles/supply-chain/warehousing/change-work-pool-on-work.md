@@ -2,23 +2,26 @@
 title: İşteki iş havuzunu değiştir
 description: Bu konu, varolan işin iş havuzunu değiştirmek için iş öğelerinin İş havuzunu değiştir düğmesini nasıl kullanabileceğinizi açıklamaktadır.
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566035"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439336"
 ---
 # <a name="change-work-pool-on-work"></a>İşteki iş havuzunu değiştir
 
@@ -146,6 +149,3 @@ Oluşturulan işi görüntülemek ve iş havuzunu yönetmek için **İş ayrınt
 > **İş havuzunu değiştir** iletişim kutusu göründüğünde, **İş havuzu kimliği** alanı varsayılan olarak boş olabilir. Değişiklikleri uygulamak için **Tamam**'ı seçtiğinizde alan boşsa, iş havuzunu tamamen işten kaldırırsınız.
 >
 > İş havuzlarını değiştirmeye ek olarak, bu yordamı iş havuzu olmayan bir iş öğesine iş havuzu eklemek veya iş havuzu olan bir iş öğesinden iş havuzunu kaldırmak için de kullanabilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

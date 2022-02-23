@@ -59,6 +59,3 @@ Bu sürümde, iş ayrıntıları için **Değişiklikleri yönet** sayfasına i�
 Bu işlevsellik artık korumalı ortamlarda kullanılabilir. Bu özelliği etkinleştirmek için **Sistem yönetimi > Bağlantılar > Kurulum > Sistem parametreleri > Önizleme özellikleri** ne gidin. **Gelişmiş çalışan formu ve gezinme**'yi seçin. Bu değişiklikler tüm kullanıcılar için etkinleştirilir. Bu seçeneği istediğiniz zaman kapatabilirsiniz.
 
 Daha fazla bilgi için, bkz. [Kolaylaştırılmış çalışan girişi ve gezintisi](./streamlined-employee-entry.md). Değişiklikleri görmek için şu videoyu izleyin: [Dynamics 365 for Talent 2019 sürüm dalgası 2'ye genel bakış](https://aka.ms/ROGT19RW2ROV).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

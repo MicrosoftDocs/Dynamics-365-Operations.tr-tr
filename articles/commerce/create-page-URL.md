@@ -2,9 +2,11 @@
 title: URL sayfası oluşturma
 description: Bu konu, sitenizde sayfa URL'SI oluşturmaya yönelik temel kavramları ve yordamları kapsamaktadır.
 author: bicyclingfool
+manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 923723ce6e3f92c5186cd8a562a6e3fee3fdf70dfe8db29c86192cb1db515b1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 062a49df93e442dbe402ac9a78244c966958aaa2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717735"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965265"
 ---
 # <a name="create-a-page-url"></a>URL sayfası oluşturma
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, sitenizde sayfa URL'SI oluşturmaya yönelik temel kavramları ve yordamları kapsamaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Sitenizdeki bir sayfaya işaret eden tam veya mutlak URL, farklı bölümlerden oluşur. Örneğin, URL `https://www.contoso.com/en-us/contactus` aşağıdaki bölümlerden oluşur:
 
@@ -101,6 +106,3 @@ Bir URL'Yi farklı bir URL'ye yeniden yönlendirmek için, aşağıdaki adımlar
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
 [Sitenize dil ekleme](add-languages-to-site.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

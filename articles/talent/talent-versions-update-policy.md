@@ -66,6 +66,3 @@ Talent'ın desteklediği ülkeler, bölgeler ve dillere ilişkin bir PDF dosyas�
 
 Ülkeye veya bölgeye özel özelleştirmeler oluşturmakla ilgilenen bir geliştiricisiyseniz veya şu anda Microsoft tarafından desteklenmeyen bir ülke veya bölge için çözüm oluşturan bir geliştiriciyseniz bkz. [Globalleştirme](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

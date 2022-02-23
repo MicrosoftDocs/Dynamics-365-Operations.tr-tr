@@ -2,9 +2,11 @@
 title: Sistem tarafından yönlendirilen küme malzeme çekme
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta sistemle yönlendirilen küme çekmeye genel bir bakış sağlar.
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3c474705e5260f4be62bc59d8d1d84a1ba597b6f96eafd8f673cc110285fc597
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772364"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965689"
 ---
 # <a name="system-directed-cluster-picking"></a>Sistem tarafından yönlendirilen küme malzeme çekme
 
@@ -204,6 +206,3 @@ Sistemin yönettiği küme çekmeyi ayarlamadan önce, uygun bazı giden işler 
 1. Mobil cihazdaki son adım, kümeyi son konuma **koymada** kullanılır. **Tamam**'ı seçin
     - Bu Yerine koyma işlemi teyit edildiğinde, küme profilindeki **küme sonu** alanında ayarladığınız değere göre küme kapanır ve kesilir. İş kimlikleri de kapatılmıştır.
 1. Mobil cihazda "küme tamamlandı" iletisi gösterilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,6 +56,3 @@ Kuruluşlar, çalışanların şirkete ne zaman katıldığı ve çıktığına 
 ## <a name="known-issue"></a>Bilinen sorun
 
 -   **Sorun:** Bir çalışana yeni bir eklenti eklerken, **Yeni** ve **Düzenle** düğmeleri gri haldedir. **Geçici çözüm:** Eklenti sayfasını açmadan önce, **Çalışan** sayfasındaki bilgi kutularının kapalı olduğundan emin olun. **Çalışan** sayfası yüklendiğinde bilgi kutuları kapalıysa, **Eklentiler** düğmeleri etkinleştirilmiş olacaktır. (Bu sorun sonraki platform güncelleştirmesinde giderilecektir.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

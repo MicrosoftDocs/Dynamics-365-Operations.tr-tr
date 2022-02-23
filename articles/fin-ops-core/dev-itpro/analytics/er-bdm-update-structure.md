@@ -2,9 +2,11 @@
 title: İş belgesi şablonunun yapısını güncelleştirme
 description: Bu konu başlığında, İş belgesi yönetimi özelliği kullanılarak iş belgesi şablonunun yapısının nasıl güncelleştirileceği açıklanmaktadır.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775298"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728101"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>İş belgesi şablonunun yapısını güncelleştirme 
 
@@ -58,7 +60,7 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 
     Yeni şablon, şablon düzenleyicisi sayfasındaki Excel Online eklenmiş denetiminde düzenlenmek üzere açılır.
 
-[![İş belgesi şablonunu düzenlemeye başlamak için İş belgesi yönetimi çalışma alanını kullanma.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![İş belgesi şablonunu düzenlemeye başlamak için İş belgesi yönetimi çalışma alanını kullanma](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Düzenlenebilir şablonun geçerli yapısını inceleme
 
@@ -68,7 +70,7 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 4. **Şablon yapısı** bölmesinde **Rapor \> Fatura \> rptHeader \> rptHeaderPart1** öğesini genişletin.
 5. Finance'teki şablon yapısında **rptHeaderCompLogo** öğesnini, **Rapor \> Fatura \> rptHeader \> rptHeaderPart1** öğesinin alt öğesi olarak sunulduğuna dikkat edin.
 
-[![Düzenlenebilir şablonun geçerli yapısını incelemek için İş belgesi yönetimi çalışma alanını kullanma.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Düzenlenebilir şablonun geçerli yapısını incelemek için İş belgesi yönetimi çalışma alanını kullanma](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Bir resim silerek iş belgesi şablonunun yapısını güncelleştirme
 
@@ -85,7 +87,7 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 4. **Şablon yapısı** bölmesinde **Rapor \> Fatura \> rptHeader \> rptHeaderPart1** öğesini genişletin.
 5. **rptHeaderCompLogo** öğesinin, artık Finance'teki şablon yapısında yer almadığını görebilirsiniz.
 
-[![İş belgesi şablonundan bir resim silmek için İş belgesi yönetimi çalışma alanını kullanma.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![İş belgesi şablonundan bir resim silmek için İş belgesi yönetimi çalışma alanını kullanma](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Bir resim ekleyerek iş belgesi şablonunun yapısını güncelleştirme
 
@@ -97,13 +99,10 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 6. **Şablon yapısı** bölmesinde **Rapor \> Fatura \> rptHeader \> rptHeaderPart1** öğesini genişletin.
 7. Yeni resimin, artık Finance'teki şablon yapısında öğe olarak yer aldığını görebilirsiniz.
 
-[![İş belgesi şablonuna resim eklemek için İş belgesi yönetimi çalışma alanını kullanma.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![İş belgesi şablonuna resim eklemek için İş belgesi yönetimi çalışma alanını kullanma](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>İlgili bağlantılar
 
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 
 [İş belgesi yönetimine genel bakış](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

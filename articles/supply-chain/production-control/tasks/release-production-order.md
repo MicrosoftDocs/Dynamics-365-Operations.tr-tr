@@ -2,9 +2,11 @@
 title: Üretim emrini serbest bırakma
 description: Bu prosedürde bir üretim emrinin nasıl verildiği gösterilmektedir.
 author: johanhoffmann
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmRelease, SrsReportViewerForm, ProdSetupRelease
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d0db7f93e113d8f41effd68ce19aa065b031fd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 82a8316014d28f1c31343a2e54038fc93623cd70
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573669"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966276"
 ---
 # <a name="release-a-production-order"></a>Üretim emrini serbest bırakma
 
@@ -38,6 +40,3 @@ Bu prosedürde bir üretim emrinin nasıl verildiği gösterilmektedir. Bu yönt
 6. Tamam'a tıklayın.
 7. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

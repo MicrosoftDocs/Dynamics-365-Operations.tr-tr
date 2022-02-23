@@ -1,14 +1,17 @@
 ---
-title: Master planlama kurulum sihirbazı (video içerir)
-description: Bu konuda, master planlamayı ayarlamak için master planlama kurulum sihirbazının nasıl çalıştırılacağı açıklanmaktadır.
-author: ChristianRytt
+title: Master planlama kurulum sihirbazı
+description: Bu konu, master planlamayı ayarlamak için kullanılan çeşitli önemli stratejileri ve parametreleri açıklamaktadır.
+author: t-benebo
+manager: tfehr
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937645"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439428"
 ---
 # <a name="master-planning-setup-wizard"></a>Master planlama kurulum sihirbazı
 
@@ -45,13 +48,13 @@ Sihirbazın ilk sayfası, şirketinizin belirli gereksinimlerini sorar. Bu sorul
 
 Hesaplanan iş parçacıklarının sayısı mevcut iplik sayısının yüzde 75'ini aşıyorsa her müşteri için mevcut iş parçacıklarının sayılarının yüzde 75'i ile sınırlandırılır. (Her müşteri için kullanılabilir iş parçacığı sayısı belirlenir.)
 
-Daha fazla bilgi için bkz: [İş parçacığı sayısı](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Daha fazla bilgi için bkz: [İş parçacığı sayısı](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Paket boyutu
 
 Ürün demeti boyutu **1** olarak ayarlanacaktır. Bu değer genellikle en iyi değerdir, çünkü master planlamanın performansını artırmaya yardımcı olur.
 
-Daha fazla bilgi için bkz [: Yardımcı görev ürün demetinde görevler sayısı](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Daha fazla bilgi için bkz [: Yardımcı görev ürün demetinde görevler sayısı](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Toplu iş grubu kesinleştirme
 
@@ -64,7 +67,7 @@ Daha fazla bilgi için bkz [: Yardımcı görev ürün demetinde görevler sayı
 
 Önbellek boyutu **Maksimum** olarak ayarlanacaktır. Bu değer genellikle en iyi değerdir, çünkü master planlamanın performansını artırmaya yardımcı olur.
 
-Daha fazla bilgi için bkz: [İş ürün demetindeki işlere zaman tahsis etme](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Daha fazla bilgi için bkz: [İş ürün demetindeki işlere zaman tahsis etme](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Üretim kurulumu
 
@@ -88,7 +91,7 @@ Bu sayfada kalan sorular ve cevapları aynı şemayı takip ediyor:
 - **Evet, master planı tanımlandığı gibi** – Sihirbaz **Tahmin planı (zaman dilimi)** seçeneğini **Evet** olarak ayarlayacak. Girdiğiniz gün sayısı kullanılacaktır ve kapsam gruplarında ayarlanan değerleri geçersiz kılacaktır.
 - **Evet, grupta tanımlandığı gibi** – Sihirbaz **Tahmin planı (zaman dilimi)** seçeneğini **Hayır** olarak ayarlayacak.
 
-Daha fazla bilgi için bkz. [İş planlama](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Daha fazla bilgi için bkz. [İş planlama](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Planlama seçenekleri
 
@@ -99,7 +102,7 @@ Bu sayfadaki ilk soruya cevabınız (Bireysel işlere bölünmüş işlemleri za
 - **Evet** -İş planlaması kullanılacaktır.
 - **Hayır** – İşlem planlaması kullanılacaktır.
 
-Daha fazla bilgi için bkz. [İşlem planlaması](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) ve [İş planlaması](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Daha fazla bilgi için bkz. [İşlem planlaması](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) ve [İş planlaması](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Talep ve tedarik güncelleştirmeleri
 
@@ -206,6 +209,3 @@ Sihirbazda, Contoso Retailer için aşağıdaki değerler girilir:
     - **Cevap:** "Evet, bu master planda tanımlandığı gibi." **1 gün** girilir.
 
     Contoso, bu mağazaları yenilemek için planlanan satınalma siparişleri oluşturmak üzere mağazalardan onaylanan talepleri kullanır. Master planlama her gün çalıştırıldığından, son günden gelen talepler planlamaya dahil edilecektir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

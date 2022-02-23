@@ -1,32 +1,33 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (12 Şubat 2020)
 description: Bu makalede, 12 Şubat 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac274cc18ddb3392fb118dcc1df7813cbc5b8293
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: b89e022441f69825d9c9c56ecdbca2e09e461b9e
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063041"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526957"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (12 Şubat 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.2867 uygulanır. Bazı başlıklardaki parantez içindeki numaralar Microsoft Dynamics Lifecycle Services (LCS) destek numaralarına referans verir.
 
@@ -34,9 +35,9 @@ Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler aç�
 
 Bu haftanın yayımlanmasıyla **CompFixedEmpls** ve **HcmPersonImage** varlıkları artık genel ve ODAta aracılığıyla kullanılabilir.
 
-## <a name="delete-employment-from-dataverse-doesnt-work-when-employment-details-arent-active-403193"></a>Dataverse işten silme kaynağı iş ayrıntıları etkin olmadığında çalışmaz (403193)
+## <a name="delete-employment-from-common-data-service-doesnt-work-when-employment-details-arent-active-403193"></a>Common Data Service işten silme kaynağı iş ayrıntıları etkin olmadığında çalışmaz (403193)
 
-Bu değişiklik artık etkin iş ayrıntıları bulunmadığı zaman, Dataverse ile iş silme olanağı sağlar.
+Bu değişiklik artık etkin iş ayrıntıları bulunmadığı zaman, Common Data Service ile iş silme olanağı sağlar.
 
 ## <a name="course-registration-workflow-changes-status-to-complete-and-errors-after-second-approval-409749"></a>Kurs kaydı iş akışı, ikinci onayın ardından durumu tamamlandı ve hatalar olarak değiştirir (409749)
 
@@ -54,11 +55,11 @@ Aşağıdaki Önizleme özellikleri 3 Şubat 2020 ' da kullanılabilir:
 
 ### <a name="platform-update-32"></a>Platform güncelleştirmesi 32 
 
-Platform Güncelleştirmesi 32 yakında kullanıma sunulacaktır. [Platform Güncelleştirmesi 32 hakkında daha fazla bilgi edinin ](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+Platform Güncelleştirmesi 32 yakında kullanıma sunulacaktır. [Platform Güncelleştirmesi 32 hakkında daha fazla bilgi edinin ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
 
-### <a name="updated-dataverse-solution"></a>Dataverse Çözüm güncellendi
+### <a name="updated-common-data-service-solution"></a>Common Data Service Çözüm güncellendi
 
-Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma sunulur:
+Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında kullanıma sunulur:
 
 | Tanım | Değiştirme |
 | ----------------------------------------- | --- |
@@ -69,13 +70,11 @@ Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma
 | Yeni değişken ücret kurulumu varlıkları | **Değişken Ücret Planı Türü**</br>**Maaş değişken planı**</br>**Hakediş ödeme kuralları**</br>**Değişken Ücret Planı Düzeyi** |
 | Yeni **çalışan takvimi çalışan** varlığı | **İş takvimi varlığı** eklendi |
 | Yeni **Bordro pozisyon ayrıntısı** varlığı | **Bordro pozisyon ayrıntısı** eklendi |
-| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Dataverse eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
+| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Common Data Service eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

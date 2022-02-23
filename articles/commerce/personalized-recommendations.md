@@ -2,13 +2,16 @@
 title: Kişiselleştirilmiş ürün önerileri etkinleştirme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'un müşterileri için kişiselleştirilmiş ürün önerilerinin nasıl yapılacağı açıklanmaktadır.
 author: bebeale
+manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 74bf2c96d744b8101151be9288a956d46ce3b6885f0cb593dc1b78728b018fb4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770969"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416397"
 ---
 # <a name="enable-personalized-recommendations"></a>Kişiselleştirilmiş önerileri etkinleştirme
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'un müşterileri için kişiselleştirilmiş ürün önerilerinin nasıl yapılacağı açıklanmaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Dynamics 365 Commerce uygulamasında perakendeciler, kişiselleştirilmiş ürün önerileri (kişiselleştirme olarak da bilinir) kullanabilir. Böylece, kişiselleştirilmiş öneriler müşteri deneyimine çevrimiçi ve satış noktasında (POS) dahil edilebilir. Kişiselleştirme işlevi açıldığında, sistem, bir kullanıcının satın alma ve ürün bilgilerini, kişiselleştirilmemiş ürün önerileri oluşturmak üzere ilişkilendirebilir.
 
@@ -50,7 +55,7 @@ Kişiselleştirmeyi açmak için aşağıdaki adımları izleyin.
 1. **Kişiselleştirilmiş ürün önerileri** özelliğini seçin.
 1. **Kişiselleştirilmiş ürün önerileri** özellikler bölmesinde **Şimdi etkinleştir**'i seçin.
 
-![Kişiselleştirmeyi açma.](./media/FeatureManagement_Personalized.PNG)
+![Kişiselleştirmeyi açma](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Kişiselleştirmeyi etkinleştirdiğinizde, kişiselleştirilmiş ürün önerisi listeleri oluşturma işlemi başlatılır. Bu listelerin kullanılabilmesi ve çevrimiçi olarak ve POS'ta görülebilmesi için bir güne kadar gerekli olabilir.
@@ -73,7 +78,7 @@ Kişiselleştirme etkinleştirildikten sonra, perakendeciler, tüm POS terminall
 
 Aşağıdaki resimde, bir çevrimiçi mağaza sayfasındaki "sizin için seçilenler" listesinin bir örneği gösterilmektedir.
 
-![Çevrimiçi "sizin için seçilenler" listeleri.](./media/picksforyou.png)
+![Çevrimiçi "sizin için seçilenler" listeleri](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>POS'ta "müşteri için önerilenler" listeleri
 
@@ -81,7 +86,7 @@ Perakendeciler müşteir seçimi deneyimlerini geliştirmek için, varolan müş
 
 Aşağıdaki resimde, bir POS terminalindeki "Müşteri için önerilenler" listesinin bir örneği gösterilmektedir.
 
-![POS'ta "müşteri için önerilenler" listesi.](./media/picksonpos.png)
+![POS'ta "müşteri için önerilenler" listesi](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Varolan öneri listelerine kişiselleştirmeyi Uygula
 
@@ -89,7 +94,7 @@ Perakendeciler, "yeni", "trend", "En çok satan", "Bunları da sevdiler" ve "Sı
 
 Örneğin, oturum açmış bir Kullanıcı aşağıdaki çizimde yer alan "Trend - varsayılan" listesinde görünen siyah izlemeyi ve kahverengi çalışma ön yüklemeleri 'ni zaten satın aldı. Bu nedenle, Kullanıcı "Trend - kişiselleştirilmiş" listesinde gösterildiği gibi, bu ürünler yerine yeni ürünler görürler.
 
-![Kişiselleştirme uygulanıyor.](./media/applypersonalization.png)
+![Kişiselleştirme uygulanıyor](./media/applypersonalization.png)
 
 Ticaret Sitesi Oluşturmada varolan bir öneri listesine kişiselleştirme uygulamak için, aşağıdaki adımları izleyin.
 
@@ -99,7 +104,7 @@ Ticaret Sitesi Oluşturmada varolan bir öneri listesine kişiselleştirme uygul
 1. **Ürün listesi konfigürasyonu seç** iletişim kutusunda, **Tür**'ün altında, liste türünü seçin.
 1. **Kişiselleştirmeyi Uygula** onay kutusunu seçin ve **Tamam**'ı seçin.
 
-    ![Bir trend listesine kişiselleştirme uygulanıyor.](./media/ApplyPersonalizationToTrending.PNG)
+    ![Bir trend listesine kişiselleştirme uygulanıyor](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Sayfa parçasını kaydedin, düzenlemeyi bitirin ve yayımlayın. Sayfa yayımlandıktan sonra, oturum açan kullanıcılar kişiselleştirilmiş liste listeleri görür.
 
@@ -126,6 +131,3 @@ Ticaret Sitesi Oluşturmada varolan bir öneri listesine kişiselleştirme uygul
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

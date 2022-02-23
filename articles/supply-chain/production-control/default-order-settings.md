@@ -1,27 +1,30 @@
 ---
 title: Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
 description: Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar.
-author: johanhoffmann
+author: t-benebo
+manager: tfehr
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778119"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439591"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
 
@@ -85,9 +88,9 @@ Varsayılan stok siparişi ayarları şunları oluştururken de uygulanır:
 
 Bir hareket oluştururken, Supply Chain Management'ın varsayılan sipariş ayarlarını tanımlamaya çalışabilmesi için satırdaki serbest bırakılan bir ürünün tam tanımını belirtmeniz gerekir. Yayımlanan ürünün tam tanımında, madde numarası ve yapılandırma, ebat, stil, sürüm, renk gibi tüm aktif ürün boyutları harekette belirtilir. Örneğin, serbest bırakılan bir ürün çeşidi için el ile bir satın alma siparişi oluşturursanız tesis, ambar, miktar ve sağlama süresi varsayılan olarak sipariş satırında görüntülenmeden önce gerekli tüm ürün boyutlarını belirtmeniz gerekir. 
 
-Sipariş veya yevmiye defteri satırlarını oluştururken varsayılan sipariş ayarları parametrelerinin tamamı uygulanmaz. Miktarlar ve sağlama süreleri yalnızca uygun olduğunda varsayılan olarak görüntülenir. Örneğin, bir yevmiye defteri satırı sayıldığında, sadece site ve ambar bir satır oluşturulduğunda varsayılan olarak görüntülenirler. Bu nedenle, çoklu veya minimumlar üzerinde varsayılan miktar veya denetimler, satırı veya günlüğü deftere naklederken gerçekleştirilmeyecektir. 
+Sipariş veya günlük satırlarını oluştururken varsayılan sipariş ayarları parametrelerinin tamamı uygulanmaz. Miktarlar ve sağlama süreleri yalnızca uygun olduğunda varsayılan olarak görüntülenir. Örneğin, bir günlük satırı sayıldığında, sadece site ve ambar bir satır oluşturulduğunda varsayılan olarak görüntülenirler. Bu nedenle, çoklu veya minimumlar üzerinde varsayılan miktar veya denetimler, satırı veya günlüğü deftere naklederken gerçekleştirilmeyecektir. 
 
-Sipariş veya yevmiye defteri satırı oluşturulduğunda sistem her zaman varsayılan tesis ve ambarı bulmayı dener. Tesis, diğer ayarlarda her zaman varsayılan olarak görüntülenmez. Örneğin, satış siparişi veya satınalma siparişi oluştururken sipariş başlığındaki site otomatik olarak sipariş satırlarında kullanılır. Ürün reçetesi satırı oluştururken, ürün reçetesi başlığındaki site kullanılır. Tesis belirlendikten sonra ambar için varsayılan olarak kullanılabilen tesise özgü herhangi bir sipariş ayarını bulmak için kullanılır. 
+Sipariş veya günlük satırı oluşturulduğunda sistem her zaman varsayılan tesis ve ambarı bulmayı dener. Tesis, diğer ayarlarda her zaman varsayılan olarak görüntülenmez. Örneğin, satış siparişi veya satınalma siparişi oluştururken sipariş başlığındaki site otomatik olarak sipariş satırlarında kullanılır. Ürün reçetesi satırı oluştururken, ürün reçetesi başlığındaki site kullanılır. Tesis belirlendikten sonra ambar için varsayılan olarak kullanılabilen tesise özgü herhangi bir sipariş ayarını bulmak için kullanılır. 
 
 Varsayılan sipariş türü, satınalma ve stok sağlama süreleri **Madde kapsamı** sayfası üzerindeki madde karşılama kuralları tarafından geçersiz kılınabilir. Varsayılan sipariş ayarları üretim ve transfer sağlama süreleri arasında ayrım yapılmasına izin vermese de, madde kapsam kuralları buna izin verir. Ancak madde kapsama ayarı planlı üretimi ve planlı transfer emirlerini oluştururken yalnızca Master planlama (MRP) tarafından kullanılır ve el ile üretim ve transfer emirleri oluştururken uygulanmaz. 
 
@@ -115,7 +118,7 @@ Sipariş ayarları kurallarını, herhangi bir etkin ürün boyutu veya etkin ü
 
 Aşağıdaki örnek ürünü değerlendirin.
 
-| Ürün                                                | Değer                                   |
+|                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
 | **Ürün adı**                                    | Fotoelektrik sensörü                    |
 | **Madde numarası**                                     | XW56                                    |
@@ -188,7 +191,7 @@ Katı doğrulama, **Varsayılan sipariş ayarları** sayfasının **Satın alma 
 
 ### <a name="enable-the-strict-validation-option"></a>Katı doğrulama seçeneğini etkinleştirme
 
-Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek veya devre dışı bırakmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
+Katı doğrulama seçeneğini kullanabilmeniz için seçeneği sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
 
 - **Modül** - *Ürün bilgileri yönetimi*
 - **Özellik adı** - *Varsayılan sipariş miktarlarında katı doğrulama*
@@ -201,6 +204,3 @@ Doğrulama seçeneğini ayarlamak için:
 1. **Genel** sekmesinde, **Varsayılan sipariş miktarları doğrulaması** öğesini aşağıdaki değerlerden biriyle ayarlayın:
     - **Katı** - Tüm **Standart sipariş miktarı** değerlerinin her hızlı sekmede (**Satın alma siparişi** , **Stok** ve **Satış siparişi**) **Çoklu** değerinin bir katı olmasını sağlamak için bu seçeneği işaretleyin.
     - **Standart** - Standart doğrulamayı kullanmak için bu seçeneği belirleyin (bu özellik etkinleştirilmediğinde aynı şekilde çalışır).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

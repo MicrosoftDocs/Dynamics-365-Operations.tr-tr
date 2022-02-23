@@ -2,31 +2,34 @@
 title: İş ilkeleri
 description: Bu konuda, iş ilkelerinin nasıl ayarlanacağını açıklanmaktadır.
 author: perlynne
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571173"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439709"
 ---
 # <a name="work-policies"></a>İş ilkeleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, sistemin ve Ambar Yönetimi mobil uygulamasının iş ilkelerini destekleyecek şekilde nasıl ayarlanacağını açıklar. Bu işlevi, satın alma veya transfer emirleri aldığınızda ya da üretim sürecini tamamladığınızda, yerine koyma işi oluşturmadan stoku hızlı bir şekilde kaydetmek için kullanabilirsiniz. Bu konu genel bilgileri sağlar. Plaka alma ile ilgili ayrıntılı bilgi için bkz. [Ambar Yönetimi mobil uygulaması üzerinden plaka alma](warehousing-mobile-device-app-license-plate-receiving.md).
+Bu konu, sistemin ve ambar uygulamasının iş ilkelerini destekleyecek şekilde nasıl ayarlanacağını açıklar. Bu işlevi, satın alma veya transfer emirleri aldığınızda ya da üretim sürecini tamamladığınızda, yerine koyma işi oluşturmadan stoku hızlı bir şekilde kaydetmek için kullanabilirsiniz. Bu konu genel bilgileri sağlar. Plaka alma ile ilgili ayrıntılı bilgi için bkz. [Ambar uygulaması üzerinden plaka alma](warehousing-mobile-device-app-license-plate-receiving.md).
 
-İş ilkesi, üretilen bir kalem tamamlandı olarak bildirildiğinde veya Ambar Yönetimi mobil uygulaması kullanılarak mal alındığında ambar işi oluşturulup oluşturulmayacağını denetler. Her iş ilkesini, uygulandığı koşulları tanımlayarak ayarlayabilirsiniz: iş emri türleri ve süreçleri, stok konumu ve (isteğe bağlı olarak) ürünler. Örneğin, A *0001* ürününün satın alma siparişi ambar *24*'te *RECV* konumuna alınmalıdır. Daha sonra, ürün, *RECV* konumunda başka bir işlemde kullanılır. Bu durumda, bir çalışan *A0001* ürününün *RECV* konumuna alındığını bildirdiğinde yerine koyma işi oluşturmayı önleyecek bir iş ilkesi ayarlayabilirsiniz.
+İş ilkesi, üretilen bir kalem tamamlandı olarak bildirildiğinde veya ambar uygulaması kullanılarak mal alındığında ambar işi oluşturulup oluşturulmayacağını denetler. Her iş ilkesini, uygulandığı koşulları tanımlayarak ayarlayabilirsiniz: iş emri türleri ve süreçleri, stok konumu ve (isteğe bağlı olarak) ürünler. Örneğin, A *0001* ürününün satın alma siparişi ambar *24*'te *RECV* konumuna alınmalıdır. Daha sonra, ürün, *RECV* konumunda başka bir işlemde kullanılır. Bu durumda, bir çalışan *A0001* ürününün *RECV* konumuna alındığını bildirdiğinde yerine koyma işi oluşturmayı önleyecek bir iş ilkesi ayarlayabilirsiniz.
 
 > [!NOTE]
 > - Bir iş ilkesinin etkin olması için **İş ilkeleri** sayfasının **Stok konumları** hızlı sekmesinde en az bir konum tanımlamanız gerekir. 
@@ -200,7 +203,7 @@ Satın alma siparişi artık teslim alındı, ancak ilişkilendirilmiş iş yok.
 
 Aşağıdaki örnekte, *PRD-001* ve *PRD-002* olmak üzere iki üretim emri bulunmaktadır. Üretim emri *PRD-001*, *SC1* ürününün *001* konumuna tamamlandı olarak bildirildiği *Derleme* adlı bir işleme sahiptir. Üretim emri *PRD-002*, *Boyama* adlı bir işleme sahiptir ve *001* konumundan *SC* 1 ürününü kullanır. Üretim emri *PRD-002* de *001* konumundan *RM* 1 hammaddesini kullanır. *RM1* hammaddesi, *BULK-001* ambar konumunda depolanır ve hammadde çekmeye yönelik ambar işi tarafından *001* konumuna çekilir. Malzeme çekme işi *PRD-002* üretimi serbest bırakıldığında oluşturulur.
 
-[![Ambar iş ilkeleri.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Ambar iş ilkeleri](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Bu senaryo için bir ambar işi ilkesi yapılandırmayı planlarken, aşağıdaki hususları göz önünde bulundurmalısınız:
 
@@ -295,9 +298,6 @@ Ambar işlemi her zaman ambar çalışmasını içermezler. Bir çalışma ilkes
 
 Mobil cihaz menü öğeleri hakkında daha fazla bilgi için bkz. [Ambar işi için mobil cihazları ayarlama](configure-mobile-devices-warehouse.md).
 
-Plaka alma ve iş ilkeleri ile ilgili ayrıntılı bilgi için bkz. [Ambar Yönetimi mobil uygulaması üzerinden plaka alma](warehousing-mobile-device-app-license-plate-receiving.md).
+Plaka alma ve iş ilkeleri ile ilgili ayrıntılı bilgi için bkz. [Ambar uygulaması üzerinden plaka alma](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Giriş yük yönetimi hakkında daha fazla bilgi için bkz. [Satınalma siparişleri için gelen yüklerin ambarda işlenmesi.](inbound-load-handling.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,11 @@
 title: SUMIF ER işlevi
 description: Bu konu, SUMIF Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
+manager: kfend
 ms.date: 04/27/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8721e0115ab3c5ebe3071fe0b9ca5a80db766b0878d886b186f3f3d39f4a6397
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52f9cdb78efa6fe0dbebd2ffd78cd6e9185d6b2e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747629"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685363"
 ---
 # <a name="sumif-er-function"></a>SUMIF ER işlevi
 
@@ -64,6 +67,3 @@ Bu işlevi kullanma hakkında daha fazla bilgi ve örnekler için bkz. [ER biçi
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Veri toplama işlevleri](er-functions-category-data-collection.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

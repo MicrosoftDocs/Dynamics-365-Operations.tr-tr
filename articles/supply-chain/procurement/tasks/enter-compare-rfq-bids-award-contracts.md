@@ -1,24 +1,26 @@
 ---
 title: RFQ tekliflerini girip karşılaştırma ve işi verme
 description: Bu konuda bir teklif talebine (RFQ) yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından sözleşme için satıcılardan birinin nasıl seçileceği açıklanmıştır.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579484"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016690"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ tekliflerini girip karşılaştırma ve işi verme
 
@@ -32,7 +34,7 @@ Teklifi satıcı veya tedarik uzmanı olarak girebilirsiniz. Daha fazla bilgi i�
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Bir satıcı olarak yanıt girme
 
-1. **Satıcı işbirliği \> Çalışma alanları \> Satıcı teklifi**'ne gidin.
+1. Panoda, **Satıcı teklifi**'ni seçin.
 2. **Yeni teklif davetleri** listesinde, henüz gönderilmiş bir RFQ bulun. Neyin istenmiş olduğunu incelemek için RFQ'yu seçin.
 3. Eklenmiş ekleri gözden geçirmek için **RFQ ekleri**'ni seçin.
 4. Alanları düzenlenebilir yapmak için **Teklif**'i seçin. **Teklif ilerlemesi** alanının **Satıcı güncelleştiriliyor** olarak ayarlandığından emin olun.
@@ -104,6 +106,3 @@ Teklifi satıcı veya tedarik uzmanı olarak girebilirsiniz. Daha fazla bilgi i�
 ## <a name="view-the-purchase-order-that-is-generated"></a>Oluşturulmuş bir satın alma emrini görüntüleme
 
 Eylem Bölmesi'ndeki **Genel** sekmesinde, **Satınalma emri**'ni seçin. Görüntülenen sayfada teklifi kabul ettiğinizde oluşturulmuş olan satın alma emrini görebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

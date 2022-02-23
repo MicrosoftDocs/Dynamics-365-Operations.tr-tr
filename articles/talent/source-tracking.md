@@ -102,6 +102,3 @@ Kullanıcı arabirimini (UI) olumsuz etkilemekten kaçınmak için aşağıdakil
 - **Diğer**
 
 Bunun yerine, **TalentSource** enum'u diğer türde kaynaklar eklemek için genişletebilirsiniz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

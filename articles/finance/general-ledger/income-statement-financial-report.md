@@ -2,25 +2,28 @@
 title: Gelir tablosu mali raporu
 description: Bu makale varsayılan rapor için gelir tablolarını açıklar. Ayrıca, bu raporla ilişkili olan yapı taşlarını açıklar.
 author: jcart1106
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 12294
 ms.assetid: 30820be0-d943-4f8b-8c25-6414ec393b3d
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 118c7207f6efc252c0265d6c8f7b949c0e178203bf8523585aa2bfc53a69a6a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 429283865c66ca5f03608e4a02c3aba5bb5ea7e3
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746404"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645589"
 ---
 # <a name="income-statement-financial-report"></a>Gelir tablosu mali raporu
 
@@ -28,7 +31,8 @@ ms.locfileid: "6746404"
 
 Bu makale varsayılan rapor için gelir tablolarını açıklar. Ayrıca, bu raporla ilişkili olan yapı taşlarını açıklar. 
 
-## <a name="default-income-statement-report"></a>Varsayılan gelir tablosu raporu
+<a name="default-income-statement-report"></a>Varsayılan gelir tablosu raporu
+-------------------------------
 
 | Varsayılan rapor             | Ne yapar                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -56,7 +60,8 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
 
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Mali raporlamaya genel bakış](financial-reporting-getting-started.md)
 
@@ -66,6 +71,3 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

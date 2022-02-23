@@ -72,6 +72,3 @@ Değişikliklerin nasıl yayımlanacağı hakkında daha fazla bilgi için, bkz 
 ### <a name="view-extended-information-for-performance-in-manager-self-service"></a>Yönetim self servisinde performans için genişletilmiş bilgileri görüntüle
 
 Yeni bir seçenek, yöneticilerin hem doğrudan raporların hem de genişletilmiş raporlarının performansını görüntülemesine olanak sağlar. Şu anda, satır yöneticileri performans hedeflerini atayabilir ve güncelleştirebilir ve yeni incelemeler yapabilir. Ek olarak, doğrudan yöneticiler ve bunların çalışanları performans gözden geçirme işleminin sorunsuz şekilde devam etmesine yardımcı olmak için performans günlüklerini koruyabilir ve güncelleştirebilir. Bu değişiklik uygulandığında, yöneticiler, kendi talimatlarına ek olarak, genişletilmiş raporlarının performansla ilgili bilgilerini görüntüleyebilir ve koruyabilirler.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

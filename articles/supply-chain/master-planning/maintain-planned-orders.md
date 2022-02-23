@@ -1,10 +1,12 @@
 ---
 title: Planlı siparişleri koruma
 description: Bu konuda planlı siparişleri yönetme yöntemleri hakkında bilgiler yer alır. Planlı siparişlerin durumunun nasıl güncelleştirileceğini, kesinleştirileceğini ve seçilen planlı sipariş ile aynı duruma sahip planlı siparişlerin nasıl filtreleneceğini açıklar.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 19151
 ms.assetid: 54123f4c-b4ca-4ce4-9358-b067aa04c968
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ec4e50d37403107b31117912423b8bbc8ebb35
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 039fce86ac9649989df1eaa6179c79dd98b8ae3f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575740"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967090"
 ---
 # <a name="maintain-planned-orders"></a>Planlı siparişleri koruma
 
@@ -58,12 +60,10 @@ Birçok siparişi aynı anda kesinleştirmek istiyorsanız çalışmayı koşut 
 > [!NOTE]
 > **Parallelize Kesinleştirme** seçeneği yalnızca Kesinleştirmede birden fazla planlı sipariş seçildiğinde görüntülenir.
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Master planlara genel bakış](master-plans.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,94 +1,70 @@
 ---
-title: Uygun Bakım Yasası (ACA) raporları oluşturma
-description: Ekonomik Bakım Yasası (ACA) raporlaması, Ekonomik Bakım Yasası'nın **İşveren İçin Zorunlu** kısmını desteklemek için 1095-B ve 1095-C formlarını oluşturur.
+title: Ekonomik Bakım Yasası (ACA) raporları oluşturma
+description: Ekonomik Bakım Yasası'nın İşveren Yönergesi bölümündeki Formlar 1095-B ve 1095-C'den raporlanan bilgileri izlemesi gereken işverenlere destek olmak için işlev mevcuttur. Bu işlevin yalnızca Amerika Birleşik Devletleri'ndeki tüzel varlıklar için etkin olduğunu unutmayın.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c8f336e31e77391ef7e2bc2dca901e6a78fbb914
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3555be3067db459625df9f9b0ac6b78fc2715289
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067013"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420943"
 ---
-# <a name="generate-aca-reports"></a>ACA raporları oluşturma
+# <a name="generate-affordable-care-act-aca-reports"></a>Ekonomik Bakım Yasası (ACA) raporları oluşturma
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Ekonomik Bakım Yasası (ACA) raporlaması, Ekonomik Bakım Yasası'nın **İşveren İçin Zorunlu** kısmını desteklemek için 1095-B ve 1095-C formlarını oluşturur.
-
-> [!NOTE]
-> ACA raporlaması yalnızca ABD'deki tüzel kişiler için etkinleştirilir.
+Ekonomik Bakım Yasası'nın **İşveren Yönergesi** bölümündeki Formlar 1095-B ve 1095-C'den raporlanan bilgileri izlemesi gereken işverenlere destek olmak için işlev mevcuttur. Bu işlevin yalnızca Amerika Birleşik Devletleri'ndeki tüzel varlıklar için etkin olduğunu unutmayın.
 
 ## <a name="getting-started"></a>Başlarken
-
-1095-B ve 1095-C formlarının bilgilerini izlemek için önce bir veya daha fazla Ekonomik bakım kapsamı grubu oluşturmanız gerekir. Ekonomik Bakım kapsamı grupları şunları gösterir:
-
-- Bir çalışan için kapsam teklifi
-- Maliyet federal yoksulluk sınırının üzerindeyse, çalışanın en düşük maliyetli aylık prim payı
-- Varsa işveren tarafından kullanılan Safe Harbor
-
-Ekonomik Bakım kapsamı grupları, koşulların aynı olduğu her çalışan kaydını değiştirmeden bu alanların bilgilerini yönetmenize olanak tanır. Sayfadaki **Toplu atama** seçeneğini kullanarak bir veya daha fazla çalışana Ekonomik Bakım karşılama gruplarını kolayca atayabilirsiniz.
+Formlar 1095-B ve 1095-C üzerindeki bilgiler izlemeye başlandığında, ilk önce bir veya birden fazla Ekonomik Bakım kapsama grubu oluşturmalısınız. Bu Ekonomik Bakım kapsama grupları, bir personele sağlanan kapsamanın teklifini belirtmek, personelin en düşük maliyet aylık primi (maliyet federal yoksulluk sınırının üzerindeyse) payı ve mevcutsa, işveren tarafından kullanılan Güvenilen Liman. Ekonomik Bakım Yasası gruplarını kullanmak, tüm koşulların aynı olduğu tüm personel kayıtlarına dokunmak zorunda kalınmadan bu alanlardaki bilgiyi yönetmenize olanak sağlar. Ek olarak, Ekonomik Bakım kapsama grupları, bir veya birden fazla personele, sayfa üzerindeki Toplu atama işlevi kullanarak kolaylıkla atanabilir.
 
 ## <a name="maintaining-multiple-versions-of-a-coverage-group"></a>Bir kapsama grubunun birden fazla sürümünü tutmak
+Herhangi bir kapsama grubunun birden fazla sürümünü tutabilirsiniz, bu da kuruluşunuzda veya sunulan kazançlarda bir değişiklik olduğunda, yeni bir grup oluşturmak ve personeli atamak zorunda olmadan, bu da grubun bilgisini güncel tutacak değişiklikler yapmanıza izin verir. 
 
-Bir kapsama grubunun birden fazla sürümünü tutabilirsiniz. Bu işlevsellik, yeni bir grup oluşturmanıza ve çalışanları yeniden atamanıza gerek kalmadan değişiklik yapmanıza olanak tanır. 
+İhtiyaç duyduğunuz Ekonomik Bakım kapsama gruplarını oluşturduktan sonra, sayfa üzerinde **Toplu atama** işlevini kullanarak grupları personele atamayı seçebilir veya her bir personeli seçip, bu personel için ACA bilgisinin izlenmesinin gerekip gerekmediği belirtebilir ve personeli bir Ekonomik Bakım kapsama grubuna atayabilirsiniz.
 
-ACA kapsama grupları oluşturduktan sonra, **Toplu atama** seçeneğiyle grupları çalışanlara toplu olarak atayabilirsiniz. Ayrıca, ACA bilgilerinin izlenip izlenmeyeceğini ve raporlanıp raporlanmayacağını, bir çalışanın Ekonomik Bakım kapsamı grubuna atanıp atanmayacağını ayrı ayrı belirtebilirsiniz.
+Ekonomik bakım kapsamı bilgisinin bir personel için izlenmesi veya raporlanması gerekmiyorsa, örneğin bir yarı zamanlı personel ise, **Rapor kapsamı** alanı Hayır olarak ayarlanabilir. Her ne kadar ACA bilgisinin izlenmesi gereken her bir personelin bir Ekonomik Bakım kapsama grubuna atanması gerekse de, Ekonomik Bakım kapsama grubuna girilen değerlerden farklı olması gereken herhangi bir ay veya aylar için **Kapsamın teklifi**, **Personelin maliyet payı** ve **Güvenli Liman** seçeneklerini yine de değiştirebilirsiniz.
 
-Yarı zamanlı çalışanlar gibi bazı ACA kapsam bilgilerini izlemeniz gerekmez. Bu durumda, **Rapor kapsamı** alanını **Hayır** olarak ayarlayın. İzlenebilir ACA bilgilerine sahip her çalışanı Ekonomik Bakım kapsama grubuna atamanız gerekse de aşağıdaki seçenekleri aylar için farklı değerlerle değiştirebilirsiniz:
-
-- **Kapsam teklifi**
-- **Personel maliyet payı**
-- **Güvenli Liman**
-
-Ekonomik Bakım kapsamı grubu değerleri için özel durumlar girmek üzere, **İstihdam sekmesindeki** **Ek bilgiler** bölümünün altındaki **Çalışan ayrıntısı** sayfasında **Ekonomik Bakım Kapsamı** bağlantısını seçin.
+Herhangi bir Ekonomik Bakım kapsama grubu değerine istisnalar eklemek için, Çalışma sekmesinin Ek bilgi altında bulunan Çalışan ayrıntı sayfasındaki Ekonomik Bakım Kapsama bağlantısına tıklayın.
 
 ## <a name="reporting-health-care-coverage"></a>Sağlık bakımı kapsamasını raporlama
+Bir tam zamanlı personele sunulan herhangi bir sağlık sigortası kapsamını izlemeye ek olarak, işveren personelin kayıtlı olduğu işveren tarafından sponsorlu kendinden sağlık sigortası kapsaması veriyorsa (çalışma durumlarının tam zamanlı mı yarı zamanlı mı olduğundan bağımsız olarak), ek bilgilerin 1095-C üzerinde raporlanması gerekir. İşveren tarafından desteklenen kazanç planları tarafından kapsanan her personelin (bakmakla yükümlü olduğu kişi dahil), kapsanmış oldukları aylar için rapora dahil edilmeleri gerekir. 
 
-Tam zamanlı çalışanlara sunulan sağlık sigortası kapsamını izlemenin yanı sıra işveren, çalışanın kayıtlı olduğu işveren destekli kendi kaynaklarından teminat ayırmayla sigortalı sağlık kapsamı sunuyorsa (istihdam durumlarının tam zamanlı veya yarı zamanlı olmasına bakılmaksızın), 1095-C hakkında ek bilgilerin bildirilmesi gerekir. İşveren tarafından desteklenen kazanç planları tarafından kapsanan her personelin (bakmakla yükümlü olduğu kişi dahil), kapsanmış oldukları aylar için rapora dahil edilmeleri gerekir. 
+Her bir Kazanç planını raporlanması gerekip gerekmediğini, **ACA raporlanabilir** onay kutusunu seçerek belirtebilirsiniz.
 
-**ACA raporlanabilir** onay kutusunu seçerek her yan hak planının raporlanıp raporlanmayacağını belirtebilirsiniz.
-
-Ayrıca, çalışanlar bakmakla yükümlü olduğu kişilerden herhangi birinin bir sosyal hak kapsamında olmasını seçtiyse, yükümlü oldukları her çalışan için kapsadığı tarihleri **Sosyal hakları koru** sayfasında belirtebilirsiniz. Bakmakla yükümlü olunan kişinin sosyal hak altında olduğunu belirtmek için **Bakılmakla Yükümlü Olunan Kişiler** hızlı sekmesinin eylem bölmesinde **Düzenle** düğmesini seçin.
+Ek olarak, personeller, bakmakla yükümlü oldukları kişilerden herhangi birinin bir kazanç altında kapsanmasını seçmişlerse, bakılmakla yükümlü olan kişinin, her bir personel için kapsandığı tarihleri Kazançları yönet sayfası üzerinde belirtebilirsiniz. Bakılmakla yükümlü kişinin kazanç tarafından kapsandığını belirtmek amacıyla, Bakılmakla yükümlüler hızlı sekmesinin eylem panosunda Düzenle düğmesini seçin.
 
 **Bakılmakla yükümlü kapsama veri yöneticisi** sayfası üzerinde, bakılmakla yükümlü kişinin kazanç tarafından kapsandığı tarihi belirtebilirsiniz. Bu sayfaya tarihler girmek, **Kazançları koru** sayfası üzerindeki **Kapsanan** onay kutusunu otomatik seçer.
 
-## <a name="generate-1095-b-and-1095-c-forms"></a>1095-B ve 1095-C formları oluşturma
+## <a name="generate-1095b-and-1095c-forms"></a>1095B ve 1095C formlarını oluştur
+109-B ve 1095-C formlarını bir ürünün içinden oluşturabilir ve personellerinizin her birine dağıtabilirsiniz. IRS'ye gönderilmek için kullanılabilecek 1095-C'yi ve karşılık gelen 1094-C gönderme dosyalarını elektronik olarak oluşturmak, ayrıca sistem tarafından da oluşturulabilir.  
 
-Ayrıca ürünün içinden 1095-B ve 1095-C formları oluşturabilir ve bunları çalışanlarınızın her birine dağıtabilirsiniz. Sistem ayrıca elektronik olarak 1095-C formları ve 1094-C IRS iletim dosyaları üretebilir.  
-
-1095-C formunu oluştururken, uygun vergi yılını girin ve sosyal güvenlik numaralarının maskelenip maskelenmemesi gerektiğini belirtin. 500'den fazla çalışan için 1095-C formları yazdırıyorsanız birden fazla PDF dosyası alırsınız. **Belge yönetimi parametreleri** penceresindeki **Maksimum dosya boyutu**'nu 150 MB'a artırmanız önerilir.
+1095-C formunu oluştururken, ilgili vergi yılını girin ve sosyal güvenlik numaralarının maskelenmiş olması gerekip gerekmediğini belirtin. 1095-C formlarını 500'den fazla personel için yazdırıyorsanız, birden fazla PDF dosyası alacaksınız. **Belge yönetimi parametreleri** penceresindeki **Maksimum dosya boyutu**'nu 150 MB'a artırmanız önerilir.
 
 ## <a name="viewing-information"></a>Görüntüleme bilgisi
-
 **Çalışan Ekonomik Bakım kapsamı** sayfasını, hangi personellerin her bir kapsama grubuna atandığını, hangi personellerin bir rapora dahil edilmesi gerekmediğini ve hangi personellerin atanmamış olduğunu görmek için kullanabilirsiniz.
 
-Ekonomik Bakım kapsama grubundaki varsayılan değerlerden herhangi biri geçersiz kılınmışsa değiştirilen değerin yanında bir yıldız işareti görünür. 12 ayın tamamı için değerler aynı ise ve geçersiz kılınmamışsa, değer **Tüm 12 ay** sütununda yazdırılır.
+Ekonomik Bakım kapsama grubundaki varsayılan değerlerden herhangi bir geçersiz kılınmışsa, değiştirilmiş olan değerin yanında bir yıldız işareti görüntülenir. 12 ayın tamamı için değerler aynı ise ve geçersiz kılınmamışsa, değer **Tüm 12 ay** sütununda yazdırılır.
 
-Ayrıca, hangi çalışanların ACA raporuna dahil edilemeyecek olarak işaretlendiğini anlamak için sorgulama penceresini de kullanabilirsiniz. Kapsamın kendilerine sunulup sunulmadığını izlemenize gerek yoktur ve yıl sonunda onlara 1095-C yayınlamanıza gerek yoktur. 1095-C almayan tüm çalışanların listesini oluşturmak için **Filtreleme ölçütü** alanında **Raporlanabilir Değil**'i seçin.
+Hangi personellerin ACA raporlanabilir olarak işaretlenmediğini anlamak için sorgulama penceresini de kullanabilirsiniz, yani, onlara kapsamanın teklif edilip edilmediğini izlemeniz gerekmediği ve onlara yıl sonunda 1095-C formu çıkartmak zorunda olmadığınız anlamına gelir. **Filtrele** alanında **ACA raporlanabilir değil** seçerek, 1095-C almamak üzere işaretlemiş tüm personellerin bir listesini oluşturabilirsiniz.
 
-Ayrıca, atanmamış (**ACA Raporu kapsamı** alanı boş) veya **Yıl** alanında seçilen yıl için süresi dolmuş bir Ekonomik Bakım kapsama grubuna atanmış çalışanları görüntüleyebilirsiniz.
+ACA raporlanabilir olmayan personellerin bir listesini görüntülemeye ek olarak, atanmamı ş(**ACA Rapor kapsama** alanı boş) olan herhangi bir personeli görüntüleyebilir veya **Yıl** alanında seçilmiş yıl için süresi dolmuş Ekonomik Bakım kapsama grubuna atanmış personeli görüntüleyebilirsiniz.
 
 Filtreleme seçeneklerinden herhangi birini kullanarak oluşturulan personel listelerini Excel'e aktarabilirsiniz.
 
-Kendi kaynaklarından teminat ayırmayla sigorta kapsamı sağladığınız için kapsanan kişileri bildirmeniz gerekiyorsa **ACA raporlanabilir** olarak işaretlenmiş sosyal hak planları kapsamındaki bakılmakla yükümlü olunan kişileri görüntüleyebilirsiniz. Eylem bölmesinde **Bakılmakla yükümlü olunan kişi kapsamını görüntüle**'yi seçin.
+Bir işveren olarak kendinden sigortalı kapsama sağladığınız için kapsanan bireyleri raporlamanız gerekiyorsa, kazanç planları altında **ACA raporlanabilir** olarak işaretlenmiş bakıma ihtiyaç duyulanları, eylem bölmesi şeridindeki Bakıma ihtiyaç duyulanlar kapsama eylemini seçerek görüntüleyebilirsiniz.
 
-> [!NOTE]
-> Sorgulama penceresinde yalnızca **ACA raporlanabilir** olarak işaretlenmiş sosyal hak planları görüntülenir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+**Not:** Yalnızca planı **ACA raporlanabilir** olarak işaretlenmiş olan kazançlar sorgulama penceresinde görüntülenir.

@@ -2,9 +2,11 @@
 title: Barkod görüntüleri oluşturmak için Barkod veri kaynaklarını kullanma
 description: Bu konu Barkod veri kaynaklarının barkod görüntülerini oluşturmak için nasıl kullanılacağını açıklamaktadır.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 72c79c37ca5b5f98637ba5069e25465bb1391306
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343275"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681436"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Barkod görüntüleri oluşturmak için Barkod veri kaynaklarını kullanma
 
@@ -37,7 +39,7 @@ ER şimdi **Barkod** veri kaynağı türünü destekler. Bu nedenle, artık beli
 
 Aşağıdaki yer tutucular rapor şablonlarında barkod görüntüleri girmek için kullanılabilir:
 
-- Word için [Resim](/office/client-developer/word/content-controls-in-word) içeriği denetimi
+- Word için [Resim](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) içeriği denetimi
 - Excel'de [Resim](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) nesnesi
 
 **Barkod** türünde bir veri kaynağı kullanarak , aşağıdaki biçimlerde barkodlar oluşturabilirsiniz:
@@ -116,21 +118,21 @@ Bu örneği tamamlamak üzere aşağıdaki rollerden biri için Finance'teki USM
 
 | İçerik açıklaması         | Dosya adı                   |
 |-----------------------------|-----------------------------|
-| ER data model configuration | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
-| ER format configuration     | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| ER data model configuration | Model for cheques.xml       |
+| ER format configuration     | Cheques printing format.xml |
 
 Ek olarak, sağlanan ER çözümü için değiştirilmiş şablonu içeren aşağıdaki Excel dosyasını indirin.
 
 | İçerik açıklaması | Dosya adı                 |
 |---------------------|---------------------------|
-| Rapor şablonu     | [Check template Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
+| Rapor şablonu     | Check template Excel.xlsx |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Bir yapılandırma sağlayıcısını etkinleştirme
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasındaki **Yapılandırma sağlayıcıları** bölümünde, **Litware, Inc.** örnek şirketine ait [yapılandırma sağlayıcısının](general-electronic-reporting.md#Provider) listelendiğinden ve etkin olarak işaretlendiğinden emin olun. Listede yoksa veya etkin olarak işaretli değilse [Bir yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları izleyin.
 
-![Yerelleştirme yapılandırmaları sayfasında örnek şirketi etkin olarak ayarlama.](./media/er-barcode-data-source-active-provider.png)
+![Yerelleştirme yapılandırmaları sayfasında örnek şirketi etkin olarak ayarlama](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Sağlanan ER çözümünü içe aktarma
 
@@ -160,14 +162,14 @@ Ek olarak, sağlanan ER çözümü için değiştirilmiş şablonu içeren aşa�
 7. Eylem Bölmesinde, **Yazdırma testi**'ni seçin.
 8. İletişim kutusunda, **Ciro edilebilir çek biçimi** seçeneğini **Evet** olarak ayarlayıp **Tamam**'ı seçin.
 
-    ![Çek düzeni - yazdırma testi iletişim kutusu.](./media/er-barcode-data-source-check-layout.png)
+    ![Çek düzeni - yazdırma testi iletişim kutusu](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Oluşturulan ödeme çekini gözden geçirme
 
 - Oluşturulan çeki Excel'de açın.
 2. Oluşturulan çeki gözden geçirin.
 
-    ![Excel'de oluşturulan ödeme çeki.](./media/er-barcode-data-source-cheque1.png)
+    ![Excel'de oluşturulan ödeme çeki](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>Sağlanan ER çözümünün biçimini değiştirme
 
@@ -175,7 +177,7 @@ Ek olarak, sağlanan ER çözümü için değiştirilmiş şablonu içeren aşa�
 
 Daha önce içe aktardığınız **Cheque template Excel.xlsx** dosyasını açmak için Excel masaüstü uygulamasını kullanabilirsiniz. Bu şablonun, sağlanan ER çözümünde bir ödeme denetimi oluşturmak için kullandığınız şablondan farklı olduğuna dikkat edin. Ayrıca, Bar kod görüntüsü için bir **AmountBarcode** öğesi içerir.
 
-![Excel şablonunda AmountBarcode öğesi.](./media/er-barcode-data-source-cheque2.png)
+![Excel şablonunda AmountBarcode öğesi](./media/er-barcode-data-source-cheque2.png)
 
 Şimdi ER çözümünü değiştirmeniz ve değiştirilen şablonu [yeniden uygulamanız](modify-electronic-reporting-format-reapply-excel-template.md) gerekir.
 
@@ -186,7 +188,7 @@ Daha önce içe aktardığınız **Cheque template Excel.xlsx** dosyasını açm
 5. ER İşlemleri tasarımcısında, sayfanın sağ tarafındaki **Eşleme** sekmesini seçin ve sonra soldaki biçim ağacı bölmesinde **Genişlet/Daralt**'ı seçin.
 6. Tüm hücre biçimi öğelerinin uygun veri kaynaklarına bağlı olduğuna dikkat edin.
 
-    ![ER İşlemleri tasarımcısında hücre biçimi öğelerinin veri kaynaklarına bağlanması.](./media/er-barcode-data-source-cells-bound.png)
+    ![ER İşlemleri tasarımcısında hücre biçimi öğelerinin veri kaynaklarına bağlanması](./media/er-barcode-data-source-cells-bound.png)
 
 7. Sayfanın sağ tarafındaki **Biçim** sekmesini seçin.
 8. Eylem Bölmesinde üç noktayı ( **...**) seçin ve ardından **İçe aktar**'ı seçin.
@@ -195,7 +197,7 @@ Daha önce içe aktardığınız **Cheque template Excel.xlsx** dosyasını açm
 11. Sayfanın sağ tarafındaki **Eşleme** sekmesini seçin ve sonra soldaki biçim ağacı bölmesinde **Genişlet/Daralt**'ı seçin.
 12. **AmountBarcode** hücre öğesinin biçime eklendiğini unutmayın. Bu öğe, Excel şablonuna barkod görüntüsü için yer tutucu olarak eklenmiş olan **AmountBarcode** öğesiyle ilişkilendirilir.
 
-    ![ER İşlemleri tasarımcısındaki biçime eklenen AmountBarcode hücre öğesi.](./media/er-barcode-data-source-cell-added.png)
+    ![ER İşlemleri tasarımcısındaki biçime eklenen AmountBarcode hücre öğesi](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>Yeni bir Barkod veri kaynağı ekleme
 
@@ -204,14 +206,14 @@ Sonra, **Barkod** türünün yeni bir veri kaynağını eklemeniz gerekir.
 1. ER İşlemleri tasarımcısında, sayfanın sağ tarafındaki **Eşleme** sekmesinde, **yazdırma** veri kaynağını seçin.
 2. **Ekle**'yi seçin ve sonra **İşlevler** grubunda **Barkod** veri kaynağı türünü seçin.
 
-    ![Barkod veri kaynağı türünü seçme.](./media/er-barcode-data-source-add.png)
+    ![Barkod veri kaynağı türünü seçme](./media/er-barcode-data-source-add.png)
 
 3. İletişim kutusunda, **Ad** alanına **barkod** girin.
 4. **Barkod biçimi**'nde, **Code 128**'i seçin.
 5. **Genişlik** alanına **500** yazın.
 6. **Tamam**'ı seçin.
 
-    ![Veri kaynağı özellikleri iletişim kutusu.](./media/er-barcode-data-source-add2.png)
+    ![Veri kaynağı özellikleri iletişim kutusu](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>Yeni bir biçim öğesi bağlama
 
@@ -222,7 +224,7 @@ Sonra, yeni biçim öğesini eklediğiniz veri kaynağına bağlamanız gerekir.
 3. Eylem Bölmesinde, **Ayrıntıları göster**'i seçin.
 4. **Barkod** veri kaynağı bağlamada tek bir parametre içeren bir işlev olarak temsil edildiğinden, bağlı biçim öğesi adının otomatik olarak bu parametrenin bağımsız değişkeni olarak alındığını unutmayın.
 
-    ![ER İşlemleri tasarımcısındaki Barkod veri kaynağının ayrıntıları.](./media/er-barcode-data-source-bind1.png)
+    ![ER İşlemleri tasarımcısındaki Barkod veri kaynağının ayrıntıları](./media/er-barcode-data-source-bind1.png)
 
 5. Bağlamayı ayarlamak için **Biçimi düzenle**'yi seçin.
 
@@ -232,7 +234,7 @@ Sonra, yeni biçim öğesini eklediğiniz veri kaynağına bağlamanız gerekir.
 7. **Kaydet**'i seçin ve [ER Formül tasarımcısını](general-electronic-reporting-formula-designer.md) kapatın.
 8. Bağlamanın ayarlanmış olduğuna dikkat edin.
 
-    ![ER İşlemleri tasarımcısında ayarlanan bağlama.](./media/er-barcode-data-source-bind2.png)
+    ![ER İşlemleri tasarımcısında ayarlanan bağlama](./media/er-barcode-data-source-bind2.png)
 
 9. **Kaydet**'i seçin ve ardından ER İşlemleri tasarımcısını kapatın.
 
@@ -277,7 +279,7 @@ Seçilen biçimin taslak sürümü, seçilen biçim çalıştırıldığında ku
 6. **Tamam**'ı seçin.
 7. Oluşturulan çeki gözden geçirin. Çekin ödenecek tutarını kodlamak için bir barkod oluşturulduğuna dikkat edin.
 
-    ![Excel'de barkod ile oluşturulan ödeme çeki.](./media/er-barcode-data-source-cheque3.png)
+    ![Excel'de barkod ile oluşturulan ödeme çeki](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > **Barkod** veri kaynağının bağımsız değişkeni barkod biçimine özgü uygun gereksinimlere uymazsa, bir özel durum oluşur. Örneğin, **Barkod** veri kaynağı sağlanan metin için [EAN-8](https://wikipedia.org/wiki/EAN-8) barkodunu oluşturmak üzere çağrıldığında, metnin uzunluğu yedi karakteri aşarsa bir özel durum oluşur.
@@ -288,7 +290,7 @@ Seçilen biçimin taslak sürümü, seçilen biçim çalıştırıldığında ku
 
 Ancak **Barkod** veri kaynağını, barkodları oluşturmak için kullandığınızda, bu barkodların işlenmesi herhangi bir yazı tipine bağlı değildir. Bu nedenle, barkodların bulunduğu belgeleri PDF formatına kolayca dönüştürebilirsiniz. Aşağıdaki şekilde, yapılandırılan ER [hedefinin](electronic-reporting-destinations.md) ayarına bağlı olarak PDF'ye [dönüştürülmüş](electronic-reporting-destinations.md#OutputConversionToPDF) bir ödeme çekinin önizlemesi gösterilir.
 
-![Ödeme çeki PDF dosyasının önizlemesi.](./media/er-barcode-data-source-cheque4.png)
+![Ödeme çeki PDF dosyasının önizlemesi](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>Sınırlamalar
 
@@ -301,6 +303,3 @@ Ancak **Barkod** veri kaynağını, barkodları oluşturmak için kullandığın
 - [Elektronik Raporlama hedefleri](electronic-reporting-destinations.md)
 - [Elektronik raporlamada formül dili](er-formula-language.md)
 - [NUMBERFORMAT işlevi](er-functions-text-numberformat.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

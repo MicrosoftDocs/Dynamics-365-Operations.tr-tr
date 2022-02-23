@@ -71,6 +71,3 @@ Finance and Operations Platform güncelleştirmesi 24 ile kullanıcılar otomati
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Yinelenen personel denetimi: Arabirim değişikliği
 Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve yinelenenlerin kaç adet olduğunu görüntüleyen bir durum gösterilir. Sağlanan bağlantıyı tespit edilen eşleşmeyi kullanıp kullanmamak üzere yeni bir sayfa açmak için seçebilirsiniz. Yinelenenler formu, veri girişini kesintiye uğratmayı önlemek için otomatik olarak açılmaz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

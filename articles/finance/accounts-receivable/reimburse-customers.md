@@ -2,25 +2,28 @@
 title: Müşterilere tediye
 description: Bu makalede bir müşteri grubu için iade hareketlerinin nasıl oluşturulacağı açıklanmaktadır. Bir müşterinin alacak bakiyesi varsa, müşteriye bakiye tutarı için iade yapabilirsiniz.
 author: JodiChristiansen
+manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14191
 ms.assetid: 53533ee3-470e-458a-ac8b-3815aa4cb502
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c313c03c6f3504f132a836eb6a67207e5f3c5636d43124c5f16d13992b9b604
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770773"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644549"
 ---
 # <a name="reimburse-customers"></a>Müşterilere tediye
 
@@ -46,6 +49,3 @@ Para iadesi hareketleri oluşturduğunuzda borç bakiyesi miktarı için bir sat
 
 5. Oluşturulan para iadesi hareketlerini görüntülemek için **Para iadesi** raporunu kullanın (**Alacak Hesapları \> Sorgular ve raporlar \> Para iadesi raporu**).
 6. Borç hesaplarında para iadesi işlemi tarafından oluşturulan satıcı faturaları için bir ödeme oluşturun. Satıcılara nasıl ödeme yapıalcak hakkında bilgi için bkz. [Satıcı ödemesine genel bakış](../accounts-payable/Vendor-payments-workspace.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

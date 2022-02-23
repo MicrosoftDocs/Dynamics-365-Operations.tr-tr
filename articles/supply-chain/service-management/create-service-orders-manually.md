@@ -1,26 +1,29 @@
 ---
 title: Servis siparişlerini el ile oluşturma
 description: Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis siparişleri** formunu kullanarak el ile oluşturabilirsiniz.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1fad4abcf39021f94db50c07a39803af31f85c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 51cfdb94a368df9e7082af3c768c79df44000342
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578860"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439325"
 ---
 # <a name="create-service-orders-manually"></a>Servis siparişlerini el ile oluşturma    
 
@@ -34,17 +37,17 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Servis sözleşmesinden el ile servis siparişi oluşturma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ni seçin.
+1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
 
 2.  Bir servis anlaşması seçin veya yeni bir servis anlaşması oluşturun.
 
-3.  **Teslim et** sekmesini seçin, **Oluştur** grubunda **Planlanan servis siparişleri**'ni seçerek **Servis siparişleri oluştur** formunu açın.
+3.  **Teslim et** sekmesine tıklayın, **Oluştur** grubunda **Planlanan servis siparişleri**'ne tıklayarak **Servis siparişleri oluştur** formunu açın.
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Servis siparişleri formunda el ile servis siparişi oluşturma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ni seçin.
+1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.
 
-2.  Yeni servis siparişi oluşturmak için **Yeni**'yi seçin.
+2.  Yeni bir servis siparişi oluşturmak için Ctrl+N tuşlarına basın.
 
 3.  Servis siparişi için servis siparişi satırları oluşturun.
 
@@ -53,9 +56,9 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
 
 ## <a name="create-a-service-order-from-a-project"></a>Projeden bir servis siparişi oluşturma
 
-1.  **Proje yönetimi ve muhasebe** \> **Genel** \> **Projeler** \> **Tüm projeler**'e gidin.
+1.  **Proje yönetimi ve muhasebe** \> **Genel** \> **Projeler** \> **Tüm projeler**'e tıklayın.
 
-2.  **Projeler** formunda, **Eylem Bölmesi**'nde **Yönet** sekmesini ve \> **Servis** \> **Servis siparişleri**'ni seçin.
+2.  **Projeler** formunda, **Eylem Bölmesi**'nde **Yönet** sekmesine tıklayın \> **Servis** \> **Servis siparişleri**'ne tıklayın.
 
 3.  **Servis siparişleri** formunda önceki el ile servis siparişi oluşturma yordamını takip edin. **Proje kodu** alanı proje referansını gösterir.
 
@@ -66,19 +69,19 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
 
 **Satış siparişine dayalı yeni bir servis siparişi oluştur** sihirbazını kullanarak **satış siparişleri** formundan bir servis siparişi oluşturabilirsiniz.
 
-1.  **Satış ve pazarlama** \> **Yaygın** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne gidin.
+1.  **Satış ve pazarlama** \> **Yaygın** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne tıklayın.
 
 2.  İlgili satış siparişini açın.
 
-3.  **Satış siparişi** sekmesinde, **Servis siparişi**'ni seçerek **Satış siparişine dayalı yeni bir servis siparişi oluştur** sihirbazını başlatın.
+3.  **Satış siparişi** sekmesinde, **Servis siparişi**'ne tıklayarak **Satış siparişine dayalı yeni bir servis siparişi oluştur** sihirbazını başlatın.
 
-4.  **İleri \>** seçeneğini belirleyin, **Servis siparişi için sözleşme seç** sayfasında aşağıdaki adımları tamamlayın:
+4.  **İleri \>** seçeneğine tıklayın, **Servis siparişi için sözleşme seç** sayfasında aşağıdaki adımları tamamlayın:
     
       - Yeni servis siparişinin ilişkilendirilmesi gereken servis sözleşmesini seçmek için **Servis sözleşmesi** alanını işaretleyin.
     
       - İsteğe bağlı: Bu servis siparişini belirli bir projeyle ilişkilendirmek için **Proje Kodu** alanını kullanın.
 
-5.  **İleri \>** seçeneğini belirleyin, **Servis siparişi oluştur** sayfasında aşağıdaki adımları tamamlayın:
+5.  **İleri \>** seçeneğine tıklayın, **Servis siparişi oluştur** sayfasında aşağıdaki adımları tamamlayın:
     
       - **Tercih edilen servis zamanı** alanında servis çağrısının başlayacağı tarih ve saati girin.
     
@@ -88,17 +91,14 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
     
       - **İlgili Kişi Kimliği** alanında müşterinin şirketinde bu servis siparişiyle ilgili olarak sizinle bağlantı kurması gereken kişiyi seçin.
 
-6.  **İleri \>**'yi ve ardından **Bitir**'i seçin.
+6.  **İleri\>** seçeneğine ve **Bitir**'e tıklayın.
 
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Servis siparişleri](service-orders.md)
+[Servis emirleri](service-orders.md)
 
 [Servis siparişlerini otomatik olarak oluşturma](create-service-orders-automatically.md)
 
 [Servis siparişleri oluştur (sınıf formu)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

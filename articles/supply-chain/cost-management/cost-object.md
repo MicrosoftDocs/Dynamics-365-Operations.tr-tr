@@ -2,9 +2,11 @@
 title: Maliyet nesneleri
 description: Bu makalede, maliyet nesneleri hakkında bilgiler verilmekte, maliyetlerin ve miktarların nasıl biriktirildiği açıklanmaktadır. Maliyet nesnesi, maliyetlerin ve miktarların toplandığı bir varlıktır. Maliyet nesnesi varlığı, bir ürün veya ürün çeşidi (stil, renk vb.) olabilir.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d27e2dcfd8f70c8d4b0f2ae1254f3c4fce63bb4d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 65a0f72f8d97bda36bacd691d545807c413f8825
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572181"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967670"
 ---
 # <a name="cost-objects"></a>Maliyet nesneleri
 
@@ -64,20 +66,18 @@ Aşağıdaki tabloda maliyet nesnesinin ve stok nesnesinin ne oldukları göster
 
 **Not:** **Fiziksel değeri dahil** et parametresinin, önceki hesaplamalar üzerinde etkisi yoktur.
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
-[Ürün boyut grubu](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
+[Ürün boyut grubu](https://technet.microsoft.com/library/aa499382.aspx)
 
-[Depolama boyutu grubu](/dynamicsax-2012//storage-dimension-groups-form)
+[Depolama boyutu grubu](https://technet.microsoft.com/library/hh209317.aspx)
 
-[İzleme boyutu grubu](/dynamicsax-2012//tracking-dimension-groups-form)
+[İzleme boyutu grubu](https://technet.microsoft.com/library/hh209465.aspx)
 
-[Yenilikler veya değişenler](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
+[Yenilikler veya değişenler](../../fin-and-ops/get-started/whats-new-changed.md)
 
 [Maliyet girişleri](cost-entries.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

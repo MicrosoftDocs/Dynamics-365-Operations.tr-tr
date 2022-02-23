@@ -1,32 +1,30 @@
 ---
 title: Güvenlik rolüne göre özel adreslere erişim
-description: Bu konuda, bir müşteri özel adreslere erişemediğinde sorunun nasıl çözüleceği açıklanmaktadır.
-author: twheeloc
-ms.date: 08/19/2021
+description: Bu konu, bir müşterinin özel adreslere erişemediği sorunun çözümünü açıklar.
+author: andreabichsel
+manager: AnnBe
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05895d58cfd108c45c3c75921cb6930b904a6482
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fbe0e8acc1b879e4d7982b33413236432f25f630
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068396"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420914"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>Güvenlik rolüne göre özel adreslere erişim
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Stok çıkışı**
 
@@ -40,7 +38,4 @@ Bu sorunu gidermek için müşterinin çoğaltılan güvenlik rolü için bu ad�
 2. **Özel konum güvenliği** sekmesinde, yeni güvenlik rolünü **Kullanılabilir roller** listesinden **Seçilen roller** listesine taşıyın.
 3. **Kaydet**'i seçin.
 
-![Genel adres defteri parametreleri sayfası.](media/GAD-parameters.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Genel adres defteri parametreleri sayfası](media/GAD-parameters.png)

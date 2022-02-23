@@ -2,13 +2,16 @@
 title: Makbuz numaralarını sıfırlama
 description: Bu konuda, istenen tarihteki çeşitli eylemler için kullanılan giriş numaralarının nasıl sıfırlanacağı açıklanmaktadır (örneğin, mali yıl veya takvim yılı).
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733881"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416358"
 ---
 # <a name="reset-receipt-numbers"></a>Makbuz numaralarını sıfırlama 
 
@@ -55,7 +58,7 @@ Sıfırlamayı açmak için aşağıdaki adımları izleyin.
 1. **Makbuz türünü Sıfırla** alanında, **yalnızca bir kez** veya **yıllık**'ı seçin.
 1. **Tamam**'ı seçin.
 
-![Makbuz sıfırlama tarihi seçme.](media/Enable_receipt_reset.png "Makbuz sıfırlama tarihi seçme")
+![Makbuz sıfırlama tarihi seçme](media/Enable_receipt_reset.png "Makbuz sıfırlama tarihi seçme")
 
 Bir tarih seçtikten sonra, **sonraki giriş numarası sıfırlama tarihi** sütununda görüntülenir. Sıfırlama tarihi tüm giriş hareketi türleri için geçerlidir. Bu nedenle, makbuz numarası serisi tüm makbuz tipleri için sıfırlanacaktır.
 
@@ -65,6 +68,3 @@ Sonraki sıfırlama tarihlerini temizlemek için **sıfırlama tarihini temizle*
 
 > [!NOTE]
 > Seçtiğiniz sıfırlama tarihine ve makbuz formatına bağlı olarak, tekrarlanan Makbuz numaraları olabilir. Satış noktası (POS) sisteminin bu gibi durumları işleyebilmesine karşın, iadelerin işlenmesi için gereken süreyi arttırır, çünkü satışlar ilişkilendirmeleri tekrarlanan girişler arasında seçim yapmak zorundadır. Tekrarlanan girişler planlanan bir sonuç değilse, veri temizlemesine ilişkin diğer zorluklar ortaya çıkabilir. Bu nedenle, sıfırlamadan sonra tekrarlanan öğe numaralarının olmasını önlemeye yardımcı olmak için dinamik Tarih karakterleri (örneğin **ggg**, **AA**, **GG**, **YY**) kullanmanızı öneririz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Satıcı iş birliği kullanıcılarını yönetme
 description: Bu konu, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ff0d11bf2c42f7ae63e3db5f31f3ffea2c28f693
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6356c1d11ba507c0eaa42087bdebe982ef091dbd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578140"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019954"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Satıcı iş birliği kullanıcılarını yönetme
 
@@ -62,7 +64,7 @@ Yeni bir kullanıcı hazırlanması için istekte bulunmadan önce ilgili kişin
 4. **Kullanıcı rolleri ata** bölümünde, yeni kullanıcının sahip olması gereken güvenlik rolleri için **Ata** onay kutusunu işaretleyin.
 5. **Gönder**'e tıklayın.
 
-Satıcı kullanıcısı talebi gönderildiğinde, **Satıcı iş birliği erişimine izin verildi** alanı seçilen satıcı hesabı için **Evet** olarak ayarlanır ve kullanıcı talebi iş akışı başlatılır. İş akışının bir parçası olarak, yeni bir kullanıcı oluşturulur ve güvenlik rolleri atanır. Buna ek olarak, Azure portalı ile etkileşim başlatan ve yeni veya mevcut bir AAD hesabını Supply Chain Management kullanıcı hesabı ile ilişkilendiren bir Azure B2B hizmeti etkinleştirilir. Daha fazla bilgi için bkz. [Azure AD B2B iş birliği nedir?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Satıcı kullanıcısı talebi gönderildiğinde, **Satıcı iş birliği erişimine izin verildi** alanı seçilen satıcı hesabı için **Evet** olarak ayarlanır ve kullanıcı talebi iş akışı başlatılır. İş akışının bir parçası olarak, yeni bir kullanıcı oluşturulur ve güvenlik rolleri atanır. Buna ek olarak, Azure portalı ile etkileşim başlatan ve yeni veya mevcut bir AAD hesabını Supply Chain Management kullanıcı hesabı ile ilişkilendiren bir Azure B2B hizmeti etkinleştirilir. Daha fazla bilgi için bkz. [Azure AD B2B iş birliği nedir?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Kullanıcıyı devre dışı bırakma
 
@@ -91,6 +93,3 @@ Bir kullanıcının devre dışı bırakılmasını talep etmek için:
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,30 +2,35 @@
 title: Site teması seçme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta sitenizin temasını nasıl ayarlayabileceğiniz veya değiştirileceği açıklanmaktadır.
 author: bicyclingfool
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964793"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556441"
 ---
 # <a name="select-a-site-theme"></a>Site teması seçme
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'ta sitenizin temasını nasıl ayarlayabileceğiniz veya değiştirileceği açıklanmaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Sitenin yerleşimi ve stili (örneğin, yazı tipleri, boyutlar ve renkler) seçtiğiniz ve siteye uyguladığınız Tema tarafından tanımlanır. Bir tema, şirketinizdeki bir geliştirici tarafından oluşturulur ve dağıtılır. Temalara genel bakış için, bkz [Temalara genel bakış](e-commerce-extensibility/theming.md). Kural oluşturmayla ve temaları dağıtmayla ilgili daha fazla bilgi için bkz. [Yeni tema oluşturma](e-commerce-extensibility/create-theme.md).
 
@@ -51,6 +56,8 @@ Sitenize uygulanacak temayı seçmek için aşağıdaki adımları izleyin.
 
 [Favicon ekleme](add-favicon.md)
 
+[Hoş geldiniz iletisi ekleme](add-welcome-message.md)
+
 [Telif hakkı bildirimi ekleme](add-copyright-notice.md)
 
 [Sitenize dil ekleme](add-languages-to-site.md)
@@ -61,6 +68,3 @@ Sitenize uygulanacak temayı seçmek için aşağıdaki adımları izleyin.
 
 [Yeni tema oluşturma](e-commerce-extensibility/create-theme.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

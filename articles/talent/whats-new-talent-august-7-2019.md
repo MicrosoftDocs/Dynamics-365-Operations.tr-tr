@@ -60,6 +60,3 @@ Yeni bir seçenek, yöneticilerin hem doğrudan raporların hem de genişletilmi
 ### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 29
 
 Finance and Operations için Platform güncelleştirmesi 29 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations önizleme özellikle platform güncelleştirmesi 29 (Ekim 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

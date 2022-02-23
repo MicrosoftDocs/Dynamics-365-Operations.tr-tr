@@ -58,6 +58,3 @@ Bir pozisyondaki işi değiştirirken **İş ailesi** şimdi seçilen işe varsa
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Çalışma alanlarını oluştururken performans iyileştirmeleri
 Çalışma alanlarındaki analiz sekmeleri artık yalnızca bu sayfalara erişirken yüklenir. Bir gösterge, sayfanın ilk oluşturulması sırasında sayfanın sol üst köşesinde görüntülenecektir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

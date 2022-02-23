@@ -2,24 +2,27 @@
 title: Taban fiyat ve ticari sözleşmeler
 description: Bu yordam kanala özel bir satış fiyatı ticari anlaşmaları oluşturma sürecini gösterir.
 author: josaw1
+manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 282cbe0cb115d6204137613f4754068b8a9a321400d24808eb67266a83d7bcc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730743"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416486"
 ---
 # <a name="base-price-and-trade-agreements"></a>Taban fiyat ve ticari sözleşmeler
 
@@ -67,6 +70,3 @@ Bu yordam kanala özel bir satış fiyatı ticari anlaşmaları oluşturma süre
 38. **Eylem Bölmesi**'nde, Satış'a tıklayın.
 39. **Satış fiyatı**'na tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

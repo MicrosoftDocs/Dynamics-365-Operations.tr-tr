@@ -1,10 +1,12 @@
 ---
 title: Hesap yapıları oluşturma
-description: Bu yordam, hesap yapısı oluşturmayı açıklar.
+description: Bu görev kılavuzu, hesap yapısı oluşturmayı adım adım açıklar.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
@@ -13,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9ba43e243df4ba4b7c0eb6188629686206ff09b
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 4a8df7d7d9c4555bf46ac1cc3f71695837b1369b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394551"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968616"
 ---
 # <a name="create-account-structures"></a>Hesap yapıları oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu yordam, hesap yapısı oluşturmayı açıklar. Adımlarda demo veri şirketi USMF kullanılmaktadır.
+Bu görev kılavuzu, hesap yapısı oluşturmayı adım adım açıklar. Adımlarda demo veri şirketi USMF kullanılmaktadır.
 
 1. **Gezinti bölmesi > Modüller > Genel muhasebe > Hesap planı > Yapılar > Hesap yapılarını yapılandır**'a gidin.
 2. **Eylem bölmesi**'nde, bırakma iletişim kutusunu açmak için **Yeni**'yi seçin.
@@ -58,6 +60,3 @@ Bu yordam, hesap yapısı oluşturmayı açıklar. Adımlarda demo veri şirketi
 29. **Eylem Bölmesinde** **Etkinleştir** öğesine tıklayın.
 30. **Etkinleştir**'e tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

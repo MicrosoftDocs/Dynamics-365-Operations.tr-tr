@@ -1,32 +1,31 @@
 ---
 title: Yapılandırma anahtarları ve veri varlıkları
 description: Bu konu, yapılandırma anahtarları ve veri varlıkları arasındaki ilişkiyi açıklar.
-author: peakerbl
+author: Sunil-Garg
+manager: AnnBe
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.custom: 25341
 ms.assetid: 8e214c95-616b-4ee1-b5a4-fa5ce5147f2c
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: e9cc92563c426136b2543511ad943fd64b335b70
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e6145a2f6925932361851735df55374dda8ca03d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065751"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679393"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Yapılandırma anahtarları ve veri varlıkları
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Verileri içe veya dışa aktarmak için veri varlıklarını kullanmadan önce öncelikle yapılandırma anahtarlarının kullanmayı planladığınız veri varlıkları üzerindeki etkisini belirlemenizi öneririz.
 
@@ -55,24 +54,24 @@ Aşağıdaki tablo, bir nesnenin temelini oluşturan farklı yapılardaki yapıl
 ### <a name="entity-list-refresh"></a>Varlık listesini yenileme
 Varlık listesi yenilendiğinde, veri yönetimi alt yapısı çalışma zamanında kullanım için yapılandırma anahtarı meta verisini oluşturur. Bu meta veri yukarıda açıklanan mantık kullanılarak oluşturulur. Veri yönetimi çerçevesindeki işleri ve varlıkları kullanmadan önce varlık listesi yenileme işleminin tamamlanmasını beklemenizi önemle öneririz. Beklememeniz durumunda, yapılandırm anahtarı meta verisi güncel olmayabilir ve bu da beklenmeyen sonuçlara yol açabilir. Varlık listesi yenilenirken, varlık listesi sayfasında aşağıdaki ileti gösterilir.
 
-![Varlık listesi yenileme.](./media/Entity_refresh_list.png)
+![Varlık listesi yenileme](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Veri varlığı listesi sayfası
 Veri yönetimi çalışma sayfasındaki veri varlığı liste sayfası varlıklara ilişkin yapılandırma anahtarı ayarlarını gösterir. Yapılandırma anahtarlarının veri varlığı üzerindeki etkisini anlamak için bu sayfadan başlayın.
 
 Bu bilgi, varlık yenileme sırasında oluşturulan meta veri kullanılarak gösterilir. Yapılandırm anahtarı sütunu, veri varlığıyla ilişkili olan yapılandırm anahtarının adını gösterir. Bu sütun boş olması veri varlığıyla ilişkilendirilmiş yapılandırma anahtarı olmadığını gösterir. Yapılandırma anahtarı durum sütunu yapılandırma anahtarının durumunu gösterir. Onay işareti varsa, bu anahtarın etkin olduğu anlamına gelir. Boş ise, bu anahtarın devre dışı olduğu ya da ilişkili anahtar bulunmadığı anlamına gelir.
 
-![Varlık listesi sayfası.](./media/Data_entity_list_page.png)
+![Varlık listesi sayfası](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Hedef alanları
 Sonraki adım, yapılandırma anahtarlarının tablolar ve alanlar üzerindeki etkisini görmek üzere veri varlığını ayrıntılı incelemek olacaktır. Bir veri varlığındaki hedef alanlar yapılandırma anahtarını ve veri varlığındaki ilişkili tablolar ve alanlarla ilgili anahtar durumu bilgilerini gösterir. Veri varlığının kendi yapılandırma anahtarı devre dışı bırakılmışsa, bu varlık için hedef alanlar formundaki tabloların ve alanları yapılandırma anahtarının durumu ne olursa olsun tamamen kullanılamaz olacağını bildiren bir uyarı iletisi görüntülenir.
 
-![Hedef alanları.](./media/Target_fields_1.png)
+![Hedef alanları](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Alt varlıklar 
 Bazı varlıklar veri kaynağı olarak başka varlıklara sahiptir veya bileşik veri varlıklarıdır: bu varlıklar için yapılandırma anahtarı bilgisi Alt varlıklar formunda gösterilir. Bu formu, yukarıda açıklanan varlıklar liste sayfasına benzer şekilde kullanın. Alt varlık için hedef alanlar formu da yukarıda açıklandığı şekilde davranır.
 
-![Hedef alanları.](./media/Target_fields_2.png)
+![Hedef alanları](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Veri varlıklarını kullanma
 Yapılandırma anahtarlarının kullanmak istediğiniz veri varlıkları üzerindeki tam etkisini (varsa) anladıktan sonra, veri varlıklarını veri projelerine ekleyerek kullanma aşamasına geçebilirsiniz. 
@@ -94,7 +93,4 @@ Yapılandırma anahtarlarının kullanmak istediğiniz veri varlıkları üzerin
 ### <a name="managing-configuration-key-changes"></a>Yapılandırma anahtarı değişikliklerini yönetme
 Yapılandırma anahtarlarını varlık, tablo veya alan düzeyinde her güncelleştirdiğinizde, varlık yönetimi altyapısındaki varlık listesinin yenilenmesi gerekir. Bu işlem altyapının en son yapılandırma anahtarı ayarlarını almasını sağlar. Varlık listesi yenilenene kadar aşağıdaki ileti varlık listesi sayfasında gösterilir. Güncelleştirilen yapılandırma anahtarı değişiklikleri varlık listesi yenilendikten hemen sonra etkinleşir. Yapılandırma anahtarı değişikleri etkin olduktan sonra beklenen şekilde çalıştığından emin olmak üzere mevcut veri projelerini ve işlerini değerlendirmenizi öneririz.
 
-![Hedef alanları.](./media/Target_fields_3.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Hedef alanları](./media/Target_fields_3.png)

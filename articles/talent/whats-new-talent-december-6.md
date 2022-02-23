@@ -143,6 +143,3 @@ Güncelleştirilmiş eşlemeler şu şekilde görünmelidir.
 
 ![Cinsiyet alanı dönüştürme](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

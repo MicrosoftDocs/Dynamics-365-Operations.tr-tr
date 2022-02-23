@@ -73,6 +73,3 @@ Bir iş süreci şablonu oluşturmak veya kopyalamak ya da iş süreci başlatma
 
 Etkin süreçleri ve ilişkili görevleri görüntülemek için **İş süreçleri** çalışma alanını açın.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

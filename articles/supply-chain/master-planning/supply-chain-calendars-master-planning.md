@@ -1,25 +1,28 @@
 ---
 title: Takvimler ve master planlama
 description: Bu konu tedarik zinciri takvimleri ve master planlamayı nasıl etkiledikleri hakkında genel görünüm sağlar.
-author: ChristianRytt
+author: t-benebo
+manager: tfehr
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568627"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439321"
 ---
 # <a name="calendars-and-master-planning"></a>Takvimler ve master planlama
 
@@ -90,7 +93,7 @@ Bir müşterinin teslimat kabul edebileceği tarihleri belirtmek için bir giri�
 
 Müşteri başına yalnızca bir takvim dahil etmenin mümkün olduğuna dikkat edin. Bir takvimi her bir farklı müşteri adresi için dahil etmeniz gerekirse, adres başına bir müşteri oluşturabilir ve karşılık gelen takvimini atayabilirsiniz. 
 
-Satış siparişi satırındaki talep edilen alındı tarihi müşterinin takviminden ve teslimat tarihi denetim modundan etkilenir. En erken teslimat tarihinin nasıl hesaplandığına dair daha fazla bilgiyi [Sipariş Taahhüt](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations) içinde okuyabilirsiniz.
+Satış siparişi satırındaki talep edilen alındı tarihi müşterinin takviminden ve teslimat tarihi denetim modundan etkilenir. En erken teslimat tarihinin nasıl hesaplandığına dair daha fazla bilgiyi [Sipariş Taahhüt](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations) içinde okuyabilirsiniz.
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Tüzel bir varlık için sevkiyat takvimi
 Bir tüzel varlığın malları sevk edebileceği tarihleri belirtmek için bir teslimat takvimini **Kuruluş yönetimi > Kuruluşlar > Tüzel varlıklar** altında ayarlayabilirsiniz. Tüzel varlığı seçin ve takvimi **Sevkiyat takvimi** alanında bulunan **Dış ticaret ve lojistik** sekmesinde ekleyin. Sevkiyat takvimi tüzel varlık içindeki tüm ambar takvimleri için varsayılanların bir kaynağı olarak iş görür. 
@@ -140,6 +143,3 @@ Kapsama grubu takvimine ilişkin olarak, master planlamada bir geçersiz kılma 
 
 ### <a name="updating-scm-related-calendars"></a>SCM ilgili takvimleri güncelleştirmek
 Tüm ilgili takvimlerin karşılık gelen yerlerde atanmış olması önemliyken (satıcı, müşteri, ambar, teslimat modu veya kapsama grubu), değişiklikleri yansıtmaları için bunları güncelleştirmek de aynı şekilde önemlidir. Sistem üretim, transfer, satın alma ve satış siparişi tarihlerini atanmış takvimlerin kombinasyonuna bağlı olarak tanımlar. Takvimleri karşılık gelen bölgelerinde atamak ve güncelleştirmek için kimin sorumluluğa sahip olduğunu belirtmek en iyi uygulamadır. İş günlerinde bir bozulma veya diğer bir olağandışı değişiklik olması durumunda, takvimleri buna göre güncelleştirmek önemlidir. Takvimlere dayanan tüm görevlerin, örneğin master planlama ve üretim zamanlama gibi, takvimler güncelleştirildikten sonra yeniden çalıştırılması gerekir. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

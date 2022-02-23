@@ -1,35 +1,33 @@
 ---
-title: Anketler oluşturma
-description: Bu konu bir anket oluşturma işlemini açıklar.
-author: twheeloc
-ms.date: 10/28/2021
+title: Soru formları tasarlama
+description: Bu makale bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065213"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421001"
 ---
-# <a name="create-questionnaires"></a>Anketler oluşturma
+# <a name="design-questionnaires"></a>Soru formları tasarlama
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
+Bu makale bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
 
 Dikkatli şekilde tasarlanmış bir anket, topladığınız verilerin kalitesini artırabilir. Dikkatli tasarım ile bir anket için uygun zamanda uygun seçenekleri daha iyi seçebilirsiniz. Aşağıdaki noktalar etkili bir anket planlamanıza yardımcı olabilir:
 
@@ -66,7 +64,7 @@ Anketler, cevaplar ve sorular oluşturmadan önce bazı önkoşulların yerine g
 
 ### <a name="questionnaire-types"></a>Soru formu tipleri
 
-**Anket türleri** gereklidir ve bir anket oluşturduğunuzda atanmalıdır. **Anket türleri** anketleri daha kolay yönetmenize ve sınıflandırmanıza yardımcı olur. Anketleri sınıflandırmak ve birbirinden ayırt etmek için anket türlerini kullanın. Örneğin, çok sayıda anketin içinden seçim yapmanız gerekiyorsa, belirli bir anketi bulmayı kolaylaştırmak için bunları filtreleyebilirsiniz. Aşağıda bazı anket türü örnekleri verilmiştir:
+Anket türleri gereklidir ve bir anket oluşturduğunuzda atanmalıdır. Anket türleri anketleri daha kolay yönetmenize ve sınıflandırmanıza yardımcı olur. Anketleri sınıflandırmak ve birbirinden ayırt etmek için anket türlerini kullanın. Örneğin, çok sayıda anketin içinden seçim yapmanız gerekiyorsa, belirli bir anketi bulmayı kolaylaştırmak için bunları filtreleyebilirsiniz. Aşağıda bazı anket türü örnekleri verilmiştir:
 
 -   İnsan kaynakları gelişimi
 -   Müşteri araştırmaları
@@ -74,9 +72,9 @@ Anketler, cevaplar ve sorular oluşturmadan önce bazı önkoşulların yerine g
 
 ### <a name="question-types"></a>Soru tipleri
 
-**Soru türleri** gereklidir ve bir soru oluşturduğunuzda atanmalıdır. 
+Soru türleri gereklidir ve bir soru oluşturduğunuzda atanmalıdır. 
 
-Raporlama için soruları kategorilere ayırmak için **Soru türlerini** kullanın. **Soru türleri** aynı zamanda soruları bulmayı kolaylaştırır çünkü **Sorular** sayfasındaki türleri filtre olarak kullanabilirsiniz. Aşağıda bazı soru türü örnekleri verilmiştir:
+Raporlama için soruları kategorilere ayırmak için soru türlerini kullanın. Soru türleri aynı zamanda soruları bulmayı kolaylaştırır çünkü **Sorular** sayfasındaki türleri filtre olarak kullanabilirsiniz. Aşağıda bazı soru türü örnekleri verilmiştir:
 
 -   İnsan kaynakları
 -   İşi yönetme
@@ -93,9 +91,9 @@ Numara seri kodları sorular ve yanıtlar düzenlemek için kullanılır. Bu num
 Verilerinizi oluşturmaya başlamadan önce tüm parametreleri tanımlamanız gerekir. Anket parametre ayarlarını istediğiniz zaman değiştirebilirsiniz.
 
 ## <a name="questionnaire-components"></a>Anket bileşenleri
-Soru formlar üç ana öğeden oluşur: çoktan seçmeli sorular için cevapları içeren cevap grupları, sorular ve soru formunun kendisi. İsteğe bağlı olarak, bir soru formundaki soruları sonuç sayfalarına da gruplandırabilirsiniz. Sonuç grupları soruları kategorilere ayırmanızı sağlar ve anket hakkında daha fazla analiz sağlar. 
+Soru formlar üç ana öğeden oluşur: çoktan seçmeli sorular için cevapları içeren cevap grupları, sorular ve soru formunun kendisi.  İsteğe bağlı olarak, bir soru formundaki soruları sonuç sayfalarına da gruplandırabilirsiniz. Sonuç grupları soruları kategorilere ayırmanızı sağlar ve anket hakkında daha fazla analiz sağlar. 
 
-[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Yanıt grupları ve yanıtlar
 
@@ -108,10 +106,10 @@ Kapalı-uçlu sorular için olası yanıt listesi sağlamak için, cevapları **
 
 Yanıt grupları ve yanıtlar soruların oluşturulduğu bilgilerin ana gövdesini oluşturan bileşenlerdir. Bir yanıt grubu oluşturduktan sonra, yanıt grubunu **Sorular** sayfasındaki **Yanıt grubu** alanındaki bir soruyla ilişkilendirebilirsiniz. 
 
-Bir **Yanıt grubu** aynı anketteki birden çok soru için kullanılabilir ve aynı zamanda birden çok anket üzerinde kullanılabilir. 
+Bir yanıt grubu aynı anketteki birden çok soru için kullanılabilir ve aynı zamanda birden çok anket üzerinde kullanılabilir. 
 
 > [!NOTE]
-> Tamamlanmış anketlerde zaten kullanılmış olarak bir yanıt grubundaki yanıt metnini değiştirirseniz veriyi değerlendirmek zorlaşabilir ve anket sonuçları geçersiz olabilir. Bir yanıt grubunu değiştirmeniz gerekiyorsa varo lanı değiştirmek yerine yeni bir yanıt grubu oluşturmayı göz önünde bulundurun. Bir soruya veya yanıta eklenmiş olan veya yanıtlanmış olan yanıt gruplarını silemezsiniz.
+> Tamamlanmış anketlerde zaten kullanılmış olarak bir yanıt grubundaki yanıt metnini değiştirirseniz veriyi değerlendirmek zorlaşabilir ve anket sonuçları geçersiz olabilir. Bir yanıt grubunu değiştirmeniz gerekiyorsa, var olanı değiştirmek yerine yeni bir yanıt grubu oluşturmayı göz önünde bulundurun. Bir soruya veya yanıta eklenmiş olan veya yanıtlanmış olan yanıt gruplarını silemezsiniz.
 
 ### <a name="questions"></a>Sorular
 
@@ -174,7 +172,7 @@ Bir ankette, aşağıdaki soru türlerini silemezsiniz:
 
 ### <a name="result-groups"></a>Sonuç grupları
 
-Bir ankete sorular eklediğinizde **Sonuç grupları** isteğe bağlıdır. 
+Bir ankete sorular eklediğinizde sonuç grupları isteğe bağlıdır. 
 
 Bir sonuç grubu puanları hesaplamak ve bir anketin sonuçlarını kategorilere ayırmak için kullanılır. Sonuç grupları kullanırsanız, aşağıdaki görevleri gerçekleştirebilirsiniz:
 
@@ -195,9 +193,9 @@ Bir ankete sonuç gruplarını kullanarak sorular eklemek için, öncelikle anke
 Yanıtlayanın her kategoride kazandığı puanları değerlendirmek için birden fazla sonuç grubu ayarlayabilirsiniz. Bir anket tamamlandıktan sonra, her sonuç grubu için elde edilen puanları görüntüleyebilirsiniz. 
 
 > [!TIP]
-> Bir anketi ayrı kategoriler yerine puanları kullanarak değerlendirmek için tüm soruları tek bir sonuç grubuna ekleyebilirsiniz. 
+> Bir anketi ayrı kategoriler yerine puanları kullanarak değerlendirmek için tüm soruları tek bir sonuç grubuna ekleyebilirsiniz. 
 
-Her bir sonuç grubu için yanıtlayanların bir anketi tamamladıktan sonra aldıkları bir veya daha fazla puan tabanlı mesaj ekleyebilirsiniz. Görüntülenen metin, yanıtlayanın bir sonuç grubunda elde ettiği puana göre değişebilir. Puan tabanlı mesajları kullanmak için, puan aralıkları ve her aralık için bir açıklama tanımlamalısınız. Yanıtlayan belirli bir aralıkta bir puan aldığında, aralık için metin, sonuç raporuna eklenir. 
+Her bir sonuç grubu için, yanıtlayanların bir anketi tamamladıktan sonra aldıkları bir veya daha fazla puan tabanlı mesaj ekleyebilirsiniz. Görüntülenen metin, yanıtlayanın bir sonuç grubunda elde ettiği puana göre değişebilir. Puan tabanlı mesajları kullanmak için, puan aralıkları ve her aralık için bir açıklama tanımlamalısınız. Yanıtlayan belirli bir aralıkta bir puan aldığında, aralık için metin, sonuç raporuna eklenir. 
 
 Bir sonuç grubu bir anketteki belirli soru gruplarıyla ilişkili olan puanlarla ilgili olduğundan, bir anket için yalnızca belirli bir sonuç grubu kullanabilirsiniz.
 
@@ -209,7 +207,7 @@ Bir sonuç grubu bir anketteki belirli soru gruplarıyla ilişkili olan puanlarl
 -   Liderlik yetenekleri
 -   Teknik yetenekler
 
-Puan tabanlı mesajları kullanmak için, her sonuç grubu için metin aralıkları ayarlayın. Her soruya iki puan atanır. Bu nedenle, her sonuç grubundaki maksimum puan toplamı 10'dur. 
+Puan tabanlı mesajları kullanmak için, her sonuç grubu için metin aralıkları ayarlayın. Her soruya iki puan atanır. Bu nedenle, her sonuç grubundaki maksimum puan toplamı 10'dur. 
 
 Aşağıdaki tablo "liderlik yetenekleri" sonuç grubu için tanımladığınız puan tabanlı mesajları gösterir.
 
@@ -238,5 +236,3 @@ Bir ankette bir soru hiyerarşisi oluşturmak için koşullu sorular kullanmak i
 Tüzel kişilik müşterilerine hem öğeler hem de hizmetler sunar. Bu gibi durumlarda genellikle olduğu gibi, bazı müşteriler yalnızca öğeleri satın alırken, bazıları yalnızca hizmetleri ve bazıları da hem öğeleri hem hizmetleri satın alır. Bu nedenle, tüzel kişilik bir müşteri memnuniyeti anketi dağıttığında, ankete koşullu bir yapı uygular, böylece yalnızca hizmetleri satın alan müşterilerin öğeler hakkındaki soruları yanıtlaması gerekmez. 
 
 Alternatif olarak, bir yanıtlayan soru 1 için cevap A'yı seçtiğinde soru sırasında soru 2'nin gelmesini sağlamak için bir anket ayarlayın. Ancak yanıtlayan soru 1 için cevap B'yi seçerse, sıradaki soru soru 5'tir.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

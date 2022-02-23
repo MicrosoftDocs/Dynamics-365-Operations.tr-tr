@@ -2,12 +2,15 @@
 title: Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme
 description: Bu konu, Microsoft Dynamics 365 Commerce ürün derecelendirmelerinin nasıl eşitleneceğini açıklamaktadır.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967962"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416493"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce ürün derecelendirmelerinin nasıl eşitleneceğini açıklamaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Bir satış noktasında (POS) ve çağrı merkezlerindeki gibi, çok yönlü kanallar içindeki ürün derecelendirmelerini kullanmak için, derecelendirmeler ve İncelemeler hizmetindeki ürün derecelendirmeleri Commerce kanal veritabanına alınmalıdır. Çok yönlü kanallarda ürün derecelendirmeleri sunulduklarında, müşterilerin satış ilişkileri ile etkileşimleri sırasında dolaylı olarak müşterilere yardımcı olabilirler.
 
@@ -57,7 +62,7 @@ Tiaret planlayıcısı başlatmak için aşağıdaki adımları izleyin.
 
 Aşağıdaki çizimde Commerce'de alt iş örneği gösterilmektedir.
 
-![RetailProductRating alt işi ayrıntıları.](media/rnr-hq-ratings-sub-job.png)
+![RetailProductRating alt işi ayrıntıları](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > **RetailProductRating** alt işi bulamazsanız, Commerce Planlayıcısını çalıştırmadan önce **ürün derecelendirmelerini Eşitle** işini ve **1040 CDX** işini zaten çalıştırılmış olabilirsiniz. Bu durumda, **tam veri eşitleme** işini çalıştırmak için aşağıdaki adımları izleyin.
@@ -81,7 +86,7 @@ Derecelendirmeler ve İncelemeler hizmetinden ürün derecelendirmelerini Commer
 
 Aşağıdaki çizimde Commerce'de toplu iş yapılandırması gösterilmektedir.
 
-![Ürün derecelendirmeleri eşitleme toplu işleminin yapılandırması.](media/rnr-hq-batchjob-recurrence.png)
+![Ürün derecelendirmeleri eşitleme toplu işleminin konfigürasyonu](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Ürün değerlendirme eşitlemesiyle ilgili toplu işin başarılı olduğunu doğrulayın
 
@@ -93,7 +98,7 @@ Aşağıdaki çizimde Commerce'de toplu iş yapılandırması gösterilmektedir.
 
 Aşağıdaki şekil toplu iş, iki saatlik aralıklarla çalışacak şekilde zamanlandığında, toplu iş ayrıntılarının Commerce olarak bir örneğini gösterir.
 
-![Ürün derecelendirmesi eşitleme işinin ayrıntıları.](media/rnr-hq-batchjob-status-checking.png)
+![Ürün derecelendirmesi eşitleme işinin ayrıntıları](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Ürün derecelendirmelerini POS'ta kullanılabilir yapın
 
@@ -111,35 +116,22 @@ POS'ta ürün derecelendirmelerini açmak için aşağıdaki adımları izleyin.
 
 Aşağıdaki çizimde, POS'ta ürün derecelendirmelerinin açılacağı Commerce parametrelerinin konfigürasyonunda bir örnek gösterilmektedir.
 
-![POS'ta ürün değerlendirmeleriyle ilgili Commerce parametrelerinin yapılandırması.](media/rnr-hq-enable-ratings-in-pos.png)
+![POS'ta ürün değerlendirmeleriyle ilgili Commerce parametrelerinin konfigürasyonu](media/rnr-hq-enable-ratings-in-pos.png)
 
 Aşağıdaki çizim, POS'ta ürün derecelendirmeleri örneğini gösterir.
 
-![POS'ta ürün derecelendirmeleri.](media/rnr-pos-catalog-ratings.png)
+![POS'ta ürün derecelendirmeleri](media/rnr-pos-catalog-ratings.png)
 
 Aşağıdaki çizim, çağrı merkezi kanallarında ürün derecelendirmeleri örneğini gösterir.
 
-![Çağrı merkezi kanalında ürün derecelendirmeleri.](media/rnr-call-center-ratings.png)
+![Çağrı merkezi kanalında ürün derecelendirmeleri](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Derecelendirmelere ve incelemelere genel bakış](ratings-reviews-overview.md)
+[Derecelendirme ve incelemelere genel bakış](ratings-reviews-overview.md)
 
 [Derecelendirme ve incelemeleri kullanmayı kabul etme](opt-in-ratings-reviews.md)
 
 [Derecelendirme ve incelemeleri yönetme](manage-reviews.md)
 
 [Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
-
-[Ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
-
-[Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme](manual-publish-rating-reviews.md)
-
-[Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma](import-export-reviews.md)
-
-[Hizmetten hizmete kimlik doğrulamasını yapılandırma](service-to-service-auth.md)
-
-[Derecelendirmeler ve incelemelerle ilgili SSS](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

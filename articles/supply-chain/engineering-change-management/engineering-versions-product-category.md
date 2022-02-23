@@ -2,23 +2,26 @@
 title: Mühendislik sürümleri ve mühendislik ürünü kategorileri
 description: Bu konu, mühendislik sürümleri konsepti hakkında bilgi sağlar. Mühendislik sürümleri, bir ürünün farklı durumlarının ve verilerinin güncel ve net tutulmasını ve sistemde görselleştirilebilmesini sağlar.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572901"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4439745"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Mühendislik sürümleri ve mühendislik ürünü kategorileri
 
@@ -48,8 +51,7 @@ Mühendislik ürünlerini kullandığınızda, her ürünün en az bir mühendis
 - Ürünü oluşturan ve ürünün sahibi olan mühendislik şirketi (Daha fazla bilgi için bkz. [Mühendislik şirketleri ve veri sahipliği kuralları](engineering-org-data-ownership-rules.md).)
 - Montaj kılavuzu, kullanım talimatları, resimler ve bağlantılar gibi ilgili mühendislik belgeleri
 - Mühendislik öznitelikleri (Daha fazla bilgi için bkz. [Mühendislik öznitelikleri ve mühendislik özniteliği araması](engineering-attributes-and-search.md).)
-- Mühendislik ürünleri için ürün reçetesi (BOM)
-- Süreç üretimi ürünleri için formüller
+- Mühendislik ürün reçeteleri
 - Mühendislik rotaları
 
 Bu verileri var olan bir sürümde güncelleştirebilir veya bir *mühendislik değişikliği emri* kullanarak yeni bir sürüm oluşturabilirsiniz. (Daha fazla bilgi için bkz. [Mühendislik ürünlerindeki değişiklikleri yönetme](engineering-change-management.md).) Bir ürünün yeni bir sürümünü oluşturursanız sistem mühendislikle ilgili tüm verileri bu yeni sürüme kopyalar. Daha sonra bu yeni sürümün verilerini değiştirebilirsiniz. Bu şekilde, ardışık her sürüm için belirli verileri izleyebilirsiniz. Ardışık mühendislik sürümleri arasındaki farkları karşılaştırmak için tüm değişiklikleri gösteren değişiklik türlerini içeren mühendislik değişikliği emrini inceleyin.
@@ -111,11 +113,9 @@ Mühendislik ürünü kategorisinin **Ayrıntılar** hızlı sekmesinde aşağı
 | Alan | Tanım |
 |---|---|
 | Ürün türü | Kategorinin ürünler veya hizmetler için geçerli olup olmadığını seçin. |
-| Üretim türü | Bu alan yalnızca sisteminizde [formül değişikliği yönetimini](manage-formula-changes.md) etkinleştirdiğinizde görünür. Bu mühendislik ürün kategorisinin geçerli olduğu üretim türünü seçin:<ul><li>**Planlama maddesi** – Planlama maddeleri için formül değişikliği yönetimi yapmak üzere bu mühendislik kategorisini kullanın. Planlama maddeleri formüller kullanır. Formül öğelerine benzerler, ancak bitmiş ürünler değil, yalnızca ortak ürünler ve yan ürünler üretmek için kullanılırlar. Formüller proses üretimi sırasında kullanılır.</li><li>**Ürün reçetesi** – Formül kullanmayan ve genellikle (ancak zorunlu değil) ürün reçetelerini içermeyen mühendislik ürünlerini yönetmek için bu mühendislik kategorisini kullanın.</li><li>**Formül** – Bitmiş ürünler için formül değişikliği yönetimi yapmak üzere bu mühendislik kategorisini kullanın. Bu maddelerin bir formülü olacak, ancak ürün reçetesi olmayacak. Formüller proses üretimi sırasında kullanılır.</li></ul> |
-| Fiili ağırlık | Bu seçenek yalnızca sisteminizde [formül değişikliği yönetimini](manage-formula-changes.md) etkinleştirdiğinizde görünür. Yalnızca **Üretim türü** alanı *Planlama maddesi* veya *Formül* olarak ayarlandığında kullanılabilir. Ağırlık desteği gerektiren öğeleri yönetmek için bu mühendislik kategorisini kullanacaksanız, bu seçeneği *Evet* olarak ayarlayın. |
-| Hareketlerde sürümleri izleme | Ürünün sürümünün tüm hareketlere damgalanıp damgalanmayacağını (lojistik etki) seçin. Örneğin, hareketlerde sürümü izliyorsanız her satış siparişi, belirli bir satış siparişinde ürünün hangi sürümünün satıldığını gösterir. Hareketlerde sürümü izlemiyorsanız satış siparişleri hangi sürümün satıldığını göstermez. Bunun yerine, her zaman en son sürümünü gösterirler.<ul><li>Bu seçenek *Evet* olarak ayarlanırsa ürün için bir ana ürün oluşturulur ve ürünün her sürümü *sürüm* ürün boyutunu kullanan bir varyant olur. **Ürün alt türü** alanı otomatik olarak *Ana ürün* olarak ayarlanır ve **Ürün boyutu grubu** alanında sürüm boyutunun *etkin* olduğu bir ürün boyutu grubu seçmeniz gerekir. Yalnızca *sürümün* etkin bir boyut olduğu ürün boyutu grupları gösterilir. **Düzenle** düğmesini (kalem simgesi) seçerek yeni ürün boyutu grupları oluşturabilirsiniz.</li><li>Bu seçenek *Hayır* olarak ayarlıysa *sürüm* ürün boyutu kullanılmaz. Daha sonra, bir ürün mü yoksa diğer boyutları kullanan bir ana ürün mü oluşturup oluşturmayacağınızı seçebilirsiniz.</li></ul><p>Bu seçenek genellikle sürümler arasında maliyet farkı olan ürünler veya müşteriyle ilgili olarak farklı koşulların geçerli olduğu ürünler için kullanılır. Bu nedenle, her harekette hangi sürümün kullanıldığını belirtmek önemlidir.</p> |
+| Hareketlerde sürümleri izleme | Ürünün sürümünün tüm hareketlere damgalanıp damgalanmayacağını (lojistik etki) seçin. Örneğin, hareketlerde sürümü izliyorsanız her satış siparişi, belirli bir satış siparişinde ürünün hangi sürümünün satıldığını gösterir. Hareketlerde sürümü izlemiyorsanız satış siparişleri hangi sürümün satıldığını göstermez. Bunun yerine, her zaman en son sürümünü gösterirler.<ul><li>Bu seçenek *Evet* olarak ayarlanırsa ürün için bir ana ürün oluşturulur ve ürünün her sürümü *sürüm* ürün boyutunu kullanan bir varyant olur. **Ürün alt türü** alanı otomatik olarak *Ana ürün* olarak ayarlanır ve *sürüm* boyutunun etkin olduğu bir ürün boyutu grubu seçmeniz gerekir. Yalnızca *sürümün* etkin bir boyut olduğu ürün boyutu grupları gösterilir. **Düzenle** düğmesini (kalem simgesi) seçerek yeni ürün boyutu grupları oluşturabilirsiniz.</li><li>Bu seçenek *Hayır* olarak ayarlıysa *sürüm* ürün boyutu kullanılmaz. Daha sonra, bir ürün mü yoksa diğer boyutları kullanan bir ana ürün mü oluşturup oluşturmayacağınızı seçebilirsiniz.</li></ul><p>Bu seçenek genellikle sürümler arasında maliyet farkı olan ürünler veya müşteriyle ilgili olarak farklı koşulların geçerli olduğu ürünler için kullanılır. Bu nedenle, her harekette hangi sürümün kullanıldığını belirtmek önemlidir.</p> |
 | Ürün alt türü | Kategorinin ürün veya ana ürünleri barındırıp barındırmayacağını seçin. Ana ürünler için ürün boyutları kullanılacaktır.
-| Ürün boyut grubu | **Hareketlerde sürümleri izle** ayarı, ürün boyut grubunu seçmenize yardımcı olur. Hareketlerde sürümü izlemek istediğinizi belirtirseniz *sürüm* boyutunun kullanıldığı ürün boyutu grupları gösterilir. Aksi takdirde, yalnızca *sürüm* boyutunun kullanılmadığı ürün boyutu grupları gösterilir. |
+| Ürün boyut grubu | **Hareketlerde sürümleri izle** ayar, ürün alt türünü seçmenize yardımcı olur. Hareketlerde sürümü izlemek istediğinizi belirtirseniz *sürüm* boyutunun kullanıldığı ürün boyutu grupları gösterilir. Aksi takdirde, yalnızca *sürüm* boyutunun kullanılmadığı ürün boyutu grupları gösterilir. |
 | Oluşturma aşamasında ürün yaşam döngüsü durumu | Bir mühendislik ürününün ilk oluşturulduğu zaman sahip olması gereken varsayılan ürün yaşam döngüsü durumunu ayarlayın. Daha fazla bilgi için bkz. [Ürün yaşam döngüsü durumları ve hareketler](product-lifecycle-state-transactions.md). |
 | Sürüm numarası kuralı | Kategori için geçerli olan sürüm numarası kuralını seçin:<ul><li>**El ile**: Her yeni sürüm için sürüm numarasını seçersiniz.</li><li>**Otomatik**: Sistem, tanımladığınız bir biçime göre sürüm numarasını ayarlar. Biçimi ayarlarken, bir rakamı temsil etmek için sayı işaretini (\#) ve sabit bir değeri temsil etmek için herhangi başka bir karakteri kullanın. Örneğin, biçimi *V-\#\#* olarak tanımlarsanız ilk sürüm "V-01" olur, ikinci sürüm "V-02" ve benzeri olacaktır.</li><li>**Liste**: Sistem, tanımladığınız özel değerler listesinden bir sonraki sayıyı alır.</li></ul> |
 | Geçerliliği zorla | Mühendislik sürümlerinin geçerlilik tarihlerinin bitişik olması mı gerektiğini veya boşluklar ve çakışmalar olup olmayacağını seçin. Bu ayar, kategorinin uygulandığı her mühendislik sürümü için **Geçerlilik başlangıç tarihi** ve **Geçerlilik bitiş tarihi** alanlarını kullanma biçimini etkiler.<ul><li>Bu seçenek *Evet* olarak ayarlanmışsa her sürüm için **Geçerlilik başlangıç tarihi** değeri belirtilmelidir ve sürümler arasında ne çakışmalara ne de boşluklara izin verilir. Her mühendislik sürümü için tarih aralığı, varsa, doğrudan önceki ve sonraki mühendislik sürümlerine bağlanır. Bu senaryoda, her zaman en yeni sürüm kullanılır ve eski sürümler artık kullanılmaz.</li><li>Bu seçenek **Hayır** olarak ayarlanırsa, mühendislik sürümleri için geçerlilik tarihi alanlarında herhangi bir kısıtlama yoktur ve hem çakışmalara hem de boşluklara izin verilir. Bu senaryoda, birden çok sürüm aynı anda etkin olabilir ve herhangi bir etkin sürümle çalışabilirsiniz.</li></ul><p>Bu seçenek, ürün sürümüne bağlı ürün ve rotaları da etkiler. Daha fazla bilgi için bu konunun devamında yer alan [Ürün reçetelerini ve rotaları mühendislik sürümlerine bağlana](#boms-routes) bölümüne bakın.</p> |
@@ -142,10 +142,7 @@ Kılavuza eklediğiniz her satır için aşağıdaki alanları ayarlayın.
 
 ### <a name="readiness-policy-fasttab"></a>Hazırlık ilkesi hızlı sekmesi
 
-Bu mühendislik kategorisine bağlı olarak oluşturulan ürünler için geçerli olması gereken hazırlık ilkesini seçmek için **Ürün hazırlık ilkesi** alanını kullanın. Daha fazla bilgi için bkz. [Ürün hazırlığı](product-readiness.md).
-
-> [!NOTE]
-> Sisteminizdeki **Ürün hazırlık denetimleri** özelliğini açtıysanız *Ürün hazırlık politikası* alanı biraz farklı çalışır. (Bu özellik, standart \[mühendislik dışı\] ürünlere hazırlık ilkeleri uygulamanızı sağlar). Daha fazla bilgi için, bkz. [Standart ve mühendislik ürünlerine hazırlık politikaları atama](product-readiness.md#assign-policy).
+Bu kategoriye ait ürünlerde geçerli olan hazırlık ilkesini seçmek için **Ürün hazırlık ilkesi** alanını kullanın. Daha fazla bilgi için bkz. [Ürün hazırlığı](product-readiness.md).
 
 ### <a name="release-policy-fasttab"></a>Serbest bırakma ilkesi hızlı sekmesi
 
@@ -165,6 +162,3 @@ Mühendislik ürün reçeteleri ve rotaları, geçerli oldukları mühendislik s
 *Sürüm* ürün boyutunu kullandığınız ürünlerde (hareketler üzerindeki lojistik etki vardır), sürüm ürün ve rotalara da eklenir. Bu davranış, **Geçerliliği zorla** ayarından bağımsız olarak, ardışık sürümlerin ürün reçetelerini ve rotalarını ayırt etmeye yardımcı olur.
 
 *Sürüm* ürün boyutunu kullanmadığınız ürünlerde (hareketler üzerinde lojistik etki olmadan), sürüm ürün reçetelerine ve rotalara eklenmez. Bu nedenle, ardışık sürümlerin ürün reçeteleri ile rotaları arasında hiçbir fark olmayacaktır. Bu durumda, **Geçerliliği zorla** seçeneğini *Evet* olarak ayarlamanızı öneririz. Bu sayede, mühendislik sürümlerinin çakışmasını önlemeye yardımcı olur ve önceki sürümün ürün reçetesini ve rotasını devre dışı bırakmak zorunda kalmadan daha yeni bir sürümün ürün reçetesi ve rotasını etkinleştirebilirsiniz. Bu durumda **Geçerliliği zorla** seçeneğini *Evet* olarak ayarlarsanız en son sürümü etkinleştirmeden önce eski sürümlerin ürün reçetelerini ve rotalarını el ile devre dışı bırakmanız gerekir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

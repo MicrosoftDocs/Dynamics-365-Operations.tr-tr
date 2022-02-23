@@ -1,10 +1,12 @@
 ---
 title: ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)
-description: Bu konuda, OPENXML biçiminde elektronik belgeler oluşturmak için bir şablon içeren yeni bir Elektronik raporlama yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
+description: Bu konuda Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının OPENXML biçiminde elektronik belgeler oluşturmak için bir şablon içeren, yeni bir Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmaktadır.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753040"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681913"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)
 
@@ -28,7 +30,7 @@ Bu konuda Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki
 
 Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. Bu adımlar, herhangi bir GBSI şirketinde gerçekleştirilebilir.
 
-Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. Ayrıca, şablonu oluştururken, alınacak olan bir Excel dosyası olmalıdır. Bu dosyaya [Ödeme Rapor Şablonu](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx)'ndan erişilebilir.
+Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. Ayrıca, şablonu oluştururken, alınacak olan bir Excel dosyası olmalıdır. Bu dosyaya [Ödeme Rapor Şablonu](https://go.microsoft.com/fwlink/?linkid=862266)'ndan erişilebilir.
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Ödemeler veri modeli konfigürasyonunu yükleme
@@ -148,6 +150,3 @@ Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşt
 17. **Banka hesabı** alanına `GBSI OPER` yazın.
 18. **Tamam**'ı, ardından yeniden **Tamam**'ı seçin. Oluşturulan çalışma sayfasını gözden geçirin; ödeme ayrıntı satırları ve bu ödeme iletisinde kullanılacak her bir para birimi kodu için toplamlar da dahil olmak üzere.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

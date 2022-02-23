@@ -2,25 +2,28 @@
 title: Bölmeden sonra azalan bakiyeli amortisman
 description: Bu konu, Sabit varlıklarda bir varlık bölündükten sonra amortismanı hesaplamak için azalan bakiye yönteminin kullanılmasını açıklamaktadır.
 author: moaamer
+manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737713"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650689"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Bölmeden sonra azalan bakiyeli amortisman
 
@@ -37,11 +40,8 @@ Sabit bir varlığı, varlığın elde edildiği dönemden sonraki mali dönemde
 - İlk mali yılın amortismanı 18.000 ABD dolarına eşittir, aylık amortisman 150 ABD dolarına eşittir ve varlık Kasım 2019'a kadar 738,75 ABD doları tutarında amorti edilmiştir.
 - Kasım 2019'da varlığın yüzde 80'i başka bir sabit varlığa bölünmüştür.
 
-[![Bölmeden sonra azalan bakiyeli amortisman.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Bölmeden sonra azalan bakiyeli amortisman](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Orijinal varlık için amortisman tutarı 1.822,25 ABD dolarıdır. Bu tutar, bölünme hareketi deftere nakledilmeden önceki NDD (9.111,25 ABD doları), artı bölünme hareketinin deftere nakli sırasında oluşan alım düzeltme (-8.000 ABD doları), artı bölünme hareketi sırasında oluşan amortisman düzeltme (711 ABD doları) sonucuna eşittir. Bu nedenle, ikinci yılın amortismanı (1.822,25 × yüzde 18) ÷ 12 = 27,33 ABD dolarıdır.
 
 İlk yılda yeni sabit varlığın amortisman tutarı (8.000 × yüzde 18) ÷ 12 = 120 ABD dolarıdır.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

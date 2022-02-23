@@ -1,10 +1,12 @@
 ---
 title: Çok düzeyli kıymetler
 description: Bu konuda, çok düzeyli kıymetleri oluşturma ve silme açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd4da57c3849095909226db53c23b3c25301acdc
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769623"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021334"
 ---
 # <a name="multi-level-assets"></a>Çok düzeyli kıymetler
 
@@ -59,6 +61,3 @@ Bir kıymetin ilgili alt kıymetleri varsa kıymetler üzerinde kayıtlı bakım
 
 > [!NOTE]
 > Bir kıymeti bu yordamı kullanarak silemezseniz silme işlemini gerçekleştirmenin bir diğer yolu da bir kıymet yaşam döngüsü durumunu bu amaçla ayarlamaktır. Örneğin **Kıymet yaşam döngüsü durumlar** sayfasında **Iskarta** veya **Silindi** yaşam döngüsü durumu ayarlayabilirsiniz.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

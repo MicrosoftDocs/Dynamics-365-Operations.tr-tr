@@ -2,30 +2,36 @@
 title: Tüzel kişilik oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te kanallar oluşturulmadan önce oluşturulup yapılandırılması gereken tüzel kişiliklerin nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740443"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416390"
 ---
 # <a name="create-legal-entities"></a>Tüzel kişilik oluşturma
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te kanallar oluşturulmadan önce oluşturulup yapılandırılması gereken tüzel kişiliklerin nasıl oluşturulacağı açıklanmaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Tüzel kişilik, kayıtlı veya asal bir yapıya sahip olan bir organizasyondur. Tüzel kişilikler yasal sözleşmelere girebilir ve performanslarını raporlayacak bildirimler hazırlamaları gerekir.
 
@@ -44,7 +50,7 @@ Dynamics 365 Commerce'te yeni bir tüzel kişilik oluşturmak için bu adımlar�
 1. **Ülke/bölge** alanına bir değer girin veya buradan bir değer seçin.
 1. **Tamam**'ı seçin. 
 
-   ![Tüzel kişilik oluşturma.](media/legal-entities.png)
+   ![Tüzel kişilik oluşturma](media/legal-entities.png)
 
 1. **Genel** bölümünde, tüzel kişilik hakkında aşağıdaki genel bilgileri girin: 
    1. Arama adı gerekiyorsa bir arama adı girin. Arama adı, bu tüzel kişilik için arama yapılmasında kullanılabilecek alternatif bir addır. 
@@ -67,7 +73,7 @@ Dynamics 365 Commerce'te yeni bir tüzel kişilik oluşturmak için bu adımlar�
 
 Aşağıdaki resimde örnek bir tüzel kişiliğin ayrıntıları gösteriliyor.
 
-![Tüzel kişilik genel bölümü.](media/legal-entities-general.png)
+![Tüzel kişilik genel bölümü](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -80,6 +86,3 @@ Aşağıdaki resimde örnek bir tüzel kişiliğin ayrıntıları gösteriliyor.
 [Kanallara genel bakış](channels-overview.md)
 
 [Kanal kurulum önkoşulları](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

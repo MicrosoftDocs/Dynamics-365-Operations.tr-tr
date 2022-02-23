@@ -2,12 +2,15 @@
 title: Kimlik Doğrulama
 description: Bu makalede, Microsoft Dynamics 365 Human Resources veri uygulama programı arabirimi (API) ile kimlik doğrulaması yapma hakkında genel bakış bilgileri sağlanmaktadır.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3396f0ae6d089f43c39f318dc9d92a88a7db3d7c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070891"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420870"
 ---
 # <a name="authentication"></a>Kimlik Doğrulama
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu makalede, Microsoft Dynamics 365 Human Resources veri uygulama programı arabirimi (API) ile kimlik doğrulaması yapma hakkında genel bakış bilgileri sağlanmaktadır.
 
@@ -84,13 +82,13 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Web Apps için uygulamanın temel URL'sini belirtin. Örneğin, `http://localhost:31544` yerel makinenizde çalışan bir Web uygulamasının URL'si olabilir. Kullanıcılar daha sonra bu URL'yi bir Web istemci uygulamasında oturum açmak için kullanırlar.
         - Ortak istemci uygulamaları için, Azure AD'nin belirteç yanıtlarını döndürmek üzere kullandığı URI 'yi sağlayın. `myapp://auth` Gibi uygulamanıza özel bir değer girin.
 
-        Web uygulamaları veya yerel uygulamalar için belirli örnekleri görmek üzere, [Microsoft Identity platform (önceden geliştiriciler için Azure Active Directory idi)](/azure/active-directory/develop/#quickstarts) üzerinde hızlı başlangıçlara bakın.
+        Web uygulamaları veya yerel uygulamalar için belirli örnekleri görmek üzere, [Microsoft Identity platform (önceden geliştiriciler için Azure Active Directory idi)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts) üzerinde hızlı başlangıçlara bakın.
 
 5. **API izinleri** altında, **izin Ekle** 'yi seçin. Sonra, **Kuruluşumun kullandığı API'ler** sekmesinde **Dynamics 365 Human Resources** arayın ve uygulamanıza **Kullanıcı\_kimliğe bürünme** izni ekleyin. İnsan Kaynakları için Uygulama Kodu: f9be0c49-aa22-4ec6-911a-c5da515226ff. Doğru uygulamayı seçtiğinizden emin olmak için bu kodu kullanın.
 
 6. **Kayıt**'ı seç.
 
-   [![Azure portalında yeni bir uygulama kaydetme.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Azure portalında yeni bir uygulama kaydediliyor](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD, uygulamanıza benzersiz bir uygulama kimliği (istemci kimliği) atar ve sizi uygulamanızın **genel bakış** sayfasına götürür. Uygulamanıza daha fazla özellik eklemek için, marka ve sertifikalar ve gizlilikler için seçenekler gibi diğer yapılandırma seçeneklerini belirleyebilirsiniz.
 
@@ -187,6 +185,3 @@ namespace TalentODataPoC
 ```
 
 Bir erişim belirteci aldıktan sonra, doğrulama üstbilgisindeki belirteci yukarıda açıklandığı şekilde, Data API'ye gönderdiğiniz her istekle bir taşıyıcı belirteci olarak geçireceksiniz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

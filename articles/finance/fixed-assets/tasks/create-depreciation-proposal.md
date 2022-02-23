@@ -2,9 +2,11 @@
 title: Amortisman önerisi oluşturma
 description: Bu konu, toplu amortisman tekliflerinin nasıl işlediğini ve sabit kıymetler için amortisman teklifinin nasıl yapıldığını açıklar.
 author: abruer
+manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6cf285e8764af8c6525fb3f9cbec7306917e57e832777588e8c2c1d4aeed818
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b3d62e982d26afbec7ac04dd80592a73f4a3286f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719258"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968916"
 ---
 # <a name="create-a-depreciation-proposal"></a>Amortisman önerisi oluşturma
 
@@ -45,6 +47,3 @@ Bu konu, toplu amortisman tekliflerinin nasıl işlediğini ve sabit kıymetler 
 3. **Satırlar**'ı seçin.
 4. **Naklet**'i seçin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

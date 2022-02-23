@@ -1,10 +1,12 @@
 ---
 title: Bakım planlarını zamanla
 description: Bu konuda Varlık Yönetimi'nde bakım planlarını zamanlama işlemi açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731331"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016918"
 ---
 # <a name="schedule-maintenance-plans"></a>Bakım planlarını zamanla
 
@@ -52,14 +54,14 @@ ms.locfileid: "6731331"
 
 5. Varlıklarda bakım zamanlaması girişlerinin oluşturulmasını başlatmak için **Tamam**'a tıklayın. Oluşturulan girişler **Tüm bakım zamanlaması** liste sayfasında gösterilir. Aşağıdaki şekilde bir **Bakım planlarını zamanla** iletişim kutusu örneği gösterilmektedir.
 
-![Şekil 1.](media/09-preventive-maintenance.png)
+![Şekil 1](media/09-preventive-maintenance.png)
 
 - **Bakım planlarını zamanla** iletişim kutusunda düzenli aralıklarla otomatik olarak takvim girişleri oluşturmak için **Arka planda çalıştır** hızlı sekmesinde toplu işler ayarlayabilirsiniz.  
 - Önleyici bakım zamanladığınızda sistem tarihi ve saatinden önceki beklenen başlangıç tarihi ve saatine sahip bakım zamanlaması satırları oluşturulmaz.  
 
 Aşağıdaki şekilde zaman temelli bir bakım planı hesaplamasının grafik resmi gösterilmektedir.  
 
-![Şekil 2.](media/10-preventive-maintenance.jpg)
+![Şekil 2](media/10-preventive-maintenance.jpg)
 
 Sayaç temelli bakım planlarıyla ilgili olarak: Aşağıdaki şekillerde, iki farklı sayaç kaydı döngüsü gösterilmektedir. Bunlar, varlığın (araç) her ay yaklaşık 2.000 km çalışmasının beklendiği "V0001" varlığı için ayarlanan bir bakım planını temel alır.
 
@@ -69,10 +71,7 @@ Sonraki şekilde, her ay 2.000 km veya daha fazla değer kaydedilir. Bu nedenle,
 
 Burada açıklanan örnekler, bir varlıkta gerçekleştirilen tüm sayaç kayıtlarının, varlığın aşınma ve yıpranma eğilimini gösterdiğini belirtir. Bu eğilim, bakım planı zamanlaması sırasında hesaplamaya dayalı olarak kullanılır.
 
-![Şekil 3.](media/11-preventive-maintenance.png)
+![Şekil 3](media/11-preventive-maintenance.png)
 
-![Şekil 4.](media/12-preventive-maintenance.png)
+![Şekil 4](media/12-preventive-maintenance.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

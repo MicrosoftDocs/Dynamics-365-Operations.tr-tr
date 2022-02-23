@@ -1,23 +1,26 @@
 ---
 title: Avrupa'ya genel bakış
 description: Bu konu, Avrupa için Microsoft Dynamics 365 Finance belgelendirme kaynaklarına bağlantılar sağlar.
-author: kfend
-ms.date: 01/15/2022
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: global
-ms.author: kfend
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982106"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512223"
 ---
 # <a name="europe-overview"></a>Avrupa'ya genel bakış
 
@@ -38,7 +41,6 @@ Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler ayarlamanıza yardım
 - [AB Satış listesi raporlaması](emea-eu-sales-list.md)
 - [Döviz kuru ayarlamaları](emea-exchange-rate-adjustments.md)
 - [Ödeme yöntemlerine ait dosya biçimleri](emea-select-file-formats-for-the-method-of-payments.md)
-- [Brexit etkisi hakkında finans (Globalleştirme) Kılavuzu](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Mali hizmet (ESR) tümleştirmesi](emea-fiscal-service-integration.md)
 - [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Şirket içi stok transferi için bir transfer belgesi oluşturma](tasks/transfer-document-internal-inventory-transfer.md)
@@ -63,7 +65,6 @@ Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler ayarlamanıza yardım
 - [Fatura işleme](emea-invoice-processing.md)
 - [AB giriş sertifikası düzenleme](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [Desteklenen elektronik faturalama standartları](emea-oioubl-standards-electronic-invoicing.md)
-- [Zorlanan elektronik fatura oluşturma](emea-eur-forced-einvoices.md)
 - [Orijinal fatura referansı (Doğu Avrupa)](tasks/ee-00004-original-invoice-reference.md)
 - [KDV Kodu kullanılarak taraf arama](tasks/eur-00015-party-search-vat-id.md)
 - [Ödeme başvurusu oluşturma aracı](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -93,13 +94,8 @@ Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler ayarlamanıza yardım
   - [KDV raporu oluşturma ve gönderme](tasks/create-submit-vat-report.md)
   - [Doğu Avrupa'ya yönelik kapatma işlemlerindeki hareketleri görüntüleme](emea-transactions-settlement-form.md)
   - [Vergi noktası tarihi (KDV kaydının tarihi)](emea-tax-point-date.md)
-  - [Satıcı KDV kayıt tarihi](emea-date-vendor-VAT-register.md)
-- [Finansal neden özellik uzantısı](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Elektronik raporlamaya genel bakış](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
-- [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Elektronik raporlamaya genel bakış](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

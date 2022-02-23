@@ -1,26 +1,29 @@
 ---
 title: Kıymet hata analizi
 description: Bu konuda Varlık Yönetimi'ndeki varlık hata analizinde açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 880ed35a9780185836218a5c2a7addb2a47eabd737d6bec99794ecb7a0959791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e911f7ca3b67acd9d5a1b170d8c99135da730847
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779290"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439413"
 ---
 # <a name="asset-fault-analysis"></a>Kıymet hata analizi
 
@@ -60,7 +63,7 @@ Aşağıdaki ekran görüntüsünde yalnızca **Belirti** düğmesi seçilidir.
 - Hata kayıtları üç hata belirtiyle yapılmaktadır: "hava sızıntısı", "sigorta yanması" ve "donanım sıkıştı".  
 - **Olasılık %** sütununda, tüm yüzdeler %100 kadar toplanır. Olasılık bu arıza Analizi içindeki tüm **belirti** kayıtlarını temel alan bir olasılıktır.
 
-![Şekil 1.](media/06-controlling-and-reporting.png)
+![Şekil 1](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Belirtilere ve döneme göre grupla
 
@@ -69,7 +72,7 @@ Aşağıdaki ekran görüntüsünde , seçili bir dönem içinde hata kayıtlar�
 - Hata belirtileri şimdi her yıl/ay kaydı olarak gösteriliyor.  
 - **Olasılık %** sütununda, her ay için tüm yüzdeleri eklerseniz, bu değerler %100'e kadar toplanır. Olasılık bu arıza Analizi içindeki **belirti** kayıtlarını temel alan bir olasılıktır. Bir kıymette çok sayıda satır varsa, ancak bir satırda büyük bir yüzde değeri varsa, bu hata belirtisiyle ilgili kayıt sayısını sınırlamak için bir yöntem bulmayı daha yakından incelemek amacıyla hata belirtinin göstergesi olacaktır.
 
-![Şekil 2.](media/07-controlling-and-reporting.png)
+![Şekil 2](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Birden çok belirtiye ve varlığa göre grupla
 
@@ -84,7 +87,7 @@ Aşağıdaki ekran görüntüsünde, arıza kayıtları ile ilgili daha ayrınt�
 - Hata belirtileri şimdi **Varlı** / **Varlık Türü** / **Belirti** kombinasyonlarına ayrılmıştır.  
 - **Olasılık %** sütununda, **Varlık** / **Varlık türü** / **Belirti** için tüm yüzdeleri toplanırsanız, her biri %100'e ulaşır. Olasılık bu arıza Analizi içindeki **belirti** kayıtlarını temel alan bir olasılıktır. Bir kıymette çok sayıda satır varsa, ancak bir satırda büyük bir yüzde değeri varsa, bu hata belirtisiyle ilgili kayıt sayısını sınırlamak için bir yöntem bulmayı daha yakından incelemek amacıyla hata belirtinin göstergesi olacaktır.
 
-![Şekil 3.](media/08-controlling-and-reporting.png)
+![Şekil 3](media/08-controlling-and-reporting.png)
 
 **İki belirtiye, varlığa ve varlık türüne göre grupla**
 
@@ -92,7 +95,7 @@ Aşağıdaki ekran görüntüsünde **Alan**, **Belirti**, **Varlık** ve **Varl
 
 - **Olasılık %** sütununda, bir varlıktaki **Varlık** / **Varlık türü** / **Belirti** için tüm yüzdeleri toplanırsanız, her biri %100'e ulaşır. Olasılık, bu hata analizindeki **Belirti** ve **Alan** kombinasyonuna dayanır. Bir kıymette çok sayıda satır varsa, ancak bir satırda büyük bir yüzde değeri varsa, bu hata alanıyla ilgili kayıt sayısını sınırlamak için bir yöntem bulmayı daha yakından incelemek amacıyla hata alanının göstergesi olacaktır.  
 
-![Şekil 4.](media/09-controlling-and-reporting.png)
+![Şekil 4](media/09-controlling-and-reporting.png)
 
 **Üç belirtiye, varlığa ve varlık türüne göre grupla**
 
@@ -100,12 +103,9 @@ Aşağıdaki ekran görüntüsünde **Tür** eklenmiştir ve bu örnekteki en ay
  
 - **Olasılık %** sütununda, bir varlıktaki **Varlık** / **Varlık türü** / **Belirti** için tüm yüzdeleri toplanırsanız, her biri %100'e ulaşır. Olasılık, bu hata analizindeki **Belirti** ve **Alan** ve **Tür** kombinasyonuna dayanır. Bir kıymette çok sayıda satır varsa, ancak bir satırda büyük bir yüzde değeri varsa, bu hata türüyle ilgili kayıt sayısını sınırlamak için bir yöntem bulmayı daha yakından incelemek amacıyla hata türünün göstergesi olacaktır.
 
-![Şekil 5.](media/10-controlling-and-reporting.png)
+![Şekil 5](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]
 >İş emirlerinde ve bakım taleplerinde oluşturulan tüm arıza kayıtlarının genel bakışı için **Varlık yönetimi** > **Sorgular** > **Varlık arızası** > **Varlık arızaları** üzerine tıklayın. **Varlık arızaları** sayfasında, bir varlık arızası kaydını seçin ve **İlgili bilgi** panosunu genişleterek ilgili iş emri veya bakım talebiyle ilgili bilgiyi görüntüleyin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

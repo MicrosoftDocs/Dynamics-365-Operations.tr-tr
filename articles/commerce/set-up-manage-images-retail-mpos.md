@@ -2,13 +2,16 @@
 title: Modern POS (MPOS) için resimleri ayarlama ve yönetme
 description: Bu makale, Modern POS (MPOS) içinde görüntülenen çeşitli varlıklar için görüntülerin ayarlanmasını ve yönetilmesini sağlayan adımlar açıklanmaktadır.
 author: athinesh99
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 71b90b1bc93c756731960871a0cb7b1e5f416a825399cd135dfbcc7656d6bf65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aff3bee942f3443eb604311d1d804b66421e332d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755043"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416504"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Modern POS (MPOS) için resimleri ayarlama ve yönetme
 
@@ -46,11 +49,11 @@ Aşağıdaki yordamlarda, görüntüler için katalog varlığı için örnek ol
 1. Commerce HQ portalını açın.
 2. **perakende ve ticaret** &gt; **kanal Kurulumu** &gt; **kanal profilleri** tıklayın.
 
-    [![Gezinme.](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![Gezinme](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. Mağazanızın MPOS için kullandığı kanal profilinde **ortam temel URL** alanını media Server'ınızın veya CDN temel URL ile güncelleştirin. Temel URL farklı varlıkların tüm görüntü klasörleri tarafından paylaşılan URL'nin ilk parçasıdır.
 
-    [![Kanal profilleri sayfası.](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![Kanal profilleri sayfası](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Bir varlık için ortam şablonu tanımlama
 
@@ -68,7 +71,7 @@ Aşağıdaki yordamlarda, görüntüler için katalog varlığı için örnek ol
 8. MPOS görüntülere erişmek için bir şablon kullanabilecek şekilde kanal veritabanına yeni şablon itmek için Eşitleme işleri çalıştırın.
 9. Kanal tarafında katalog görüntülerde medya şablonunu güncelleştirmek için **Retail ve Commerce BT** &gt; **Dağıtım zamanlaması**'nda **Katalog İşi 1150** çalıştırdığınızdan emin olun.
 
-    [![Ortam şablonu tanımla iletişim kutusu.](./media/catalog1.png)](./media/catalog1.png)
+    [![Ortam şablonu tanımla iletişim kutusu](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Varlık düzeyinde Görüntü Önizleme
 
@@ -77,7 +80,7 @@ Aşağıdaki yordamlarda, görüntüler için katalog varlığı için örnek ol
 3. **Ekle** ve **Kaldır** düğmelerini örtülü bir şablonu temel alan ve belirli bir görüntü için kullanılan yolu el ile değiştirmek için kullanabilirsiniz. Daha fazla bilgi için bu makalenin ilerisindeki [Varlık öğeleri için ortam şablon üzerine yazma](#overwriting-the-media-template-for-entity-items) bölümüne bakın.
 4. görüntüyü önizleme ve gereken değişiklikleri yaptıktan sonra uygun mağaza için MPOS örneğini başlatın ve Katalog görüntülerinin gösterilip gösterilmediğine bakın.
 
-    [![Resimler iletişim kutusu.](./media/catalog4.png)](./media/catalog4.png)
+    [![Resimler iletişim kutusu](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > Desteklenen tüm beş varlık için aynı yordamı kullanabilirsiniz: çalışan, müşteri, katalog, kategori ve ürün. "Katalog ürünleri" (katalog düzeyinde ayarlanmış ürünler) ve "Kanal Ürünleri" (kanal düzeyinde ayarlanmış ürünler) ürün varlığı için ayarlanan ortam şablonu kullanır. Ürünler ortam şablonu için ürün başına gösterilecek ürün görüntü sayısını seçebilirsiniz. Belirli bir ürün için varsayılan resim de ayarlayabilirsiniz. Bu şekilde, MPOS boş görüntüleri önleyebilir ve hangi resmin ürün öğesi için varsayılan görüntü olarak kullanıldığını denetlemeye yardımcı olabilirsiniz. Aşağıdaki örnekte, her ürünün beş görüntüsü vardır ve ilk resmi varsayılan görüntüsü olarak ayarlanır. Varyant ürünleri ana ürünlerle aynı şekilde davranılır. Görüntü dosyasının dosya adı, ürün numarasına dayanmalıdır. Dosya adı oluşturulurken bazı karakterler de kaçar. Bu nedenle, **Excel için Resim URL'leri oluştur** bölümü kullanarak dosya adını doğrulamak iyidir. Bu makalenin sonraki bölümünde bulunan [Excel'de Düzenle'yi kullanarak üzerine yazma](#overwrite-by-using-edit-in-excel) konusuna bakın.
@@ -108,7 +111,7 @@ Desteklenen beş varlığın tümü için (Çalışan, Müşteri, Katalog, Kateg
 
     Şimdi, son kaydedilmiş ortam şablonuna göre oluşturulan resim URL'lerinin önizlemesini görürsünüz.
 
-    [![Oluştur seçildikten sonra Excel için Resim URL'leri oluştur hızlı sekmesi.](./media/excel2.png)](./media/excel2.png)
+    [![Oluştur seçildikten sonra Excel için Resim URL'leri oluştur hızlı sekmesinde Oluştur'a tıklayın.](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
     > Excel kullanımı için oluşturulan URL'ler tanımlanan medya şablonunun yolunu ve kurallarını kullanır. Bu kurallar, dosya adları için kuralları içerir. Fiziksel görüntüleri Commerce dışında ayarlamış olmanız ve daha önce tanımladığınız medya şablonundan türetilen URL'lerden görüntülerin alınabilmesi beklenir. Bu türetilmiş URL'ler Excel'de düzenle işlevlerini kullanarak geçersiz kılabilirsiniz.
@@ -117,17 +120,17 @@ Desteklenen beş varlığın tümü için (Çalışan, Müşteri, Katalog, Kateg
 6. Microsoft Excel çalışma sayfasını açtıktan sonra **Düzenleme etkinleştir**'i ne zaman istenirse tıklayın.
 7. İstendiğinde, sağ bölmede **bu eklentiye güven**'e tıklayın ve eklenti yükleme tamamlamasını bekleyin.
 
-    [![Bu eklentiye güven.](./media/excel4.jpg)](./media/excel4.jpg)
+    [![Bu eklentiye güven](./media/excel4.jpg)](./media/excel4.jpg)
 
 8. Oturum açmanız istendiğinde, HQ için oturum açmak amacıyla kullandığınız kimlik bilgilerini girin.
 
-    [![Oturum açma komutu.](./media/excel5.png)](./media/excel5.png)
+    [![Oturum açma komutu](./media/excel5.png)](./media/excel5.png)
 
 9. Oturum açtıktan sonra çeşitli katalog girdileri için resim URL'leri listesini görmek mümkün olacaktır.
 10. Çeşitli varlık öğeler için resim URL'leri düzenleyin, ekleyin ve kaldırın.
 11. Ürünler dışındaki tüm varlıklar için resim URL'leri üzerine yazabilirsiniz. Varolan resim URL'sini, resmin yeni hedef URL'sini kullanacak şekilde değiştirin ve dosya adını resim dosyası için yeni dosya adıyla güncelleştirin. Dosya adının kaydın benzersiz sağlanmasına yardımcı olmak için benzersiz olması gerekir.
 
-    [![Excel'de resim URL'leri üzerine yazma.](./media/excel6.jpg)](./media/excel6.jpg)
+    [![Excel'de resim URL'leri üzerine yazma](./media/excel6.jpg)](./media/excel6.jpg)
 
     > [!NOTE]
     > Excel işlevlerini veya varlık madde sayfa düzenleme kullanarak Ürün varlıkları için resim URL'lerinin üzerine yazdığınızda, MPOS her zaman üzerine yazılan resim URL'leri ile birlikte tüm medya şablon görüntü URL'lerini gösterir.
@@ -153,11 +156,11 @@ Sadece üzerine yazılan resim URL'si kayıtları silinebilir. Resim silindikten
 3. Katalog için bu görüntünün MPOS'da gösterilmesini istiyorsanız, varsayılan görüntü olarak ayarlayabilirsiniz.
 4. **Tamam** düğmesine tıklayın. Resim URL'si için bu katalog görüntü güncelleştirilir ve önizlemesi gösterilir.
 
-    [![Yeni görüntü iletişim kutusunda güncelleştirilen URL.](./media/preview3.png)](./media/preview3.png)
+    [![Yeni görüntü iletişim kutusunda URL güncelleştirildi](./media/preview3.png)](./media/preview3.png)
 
 5. Üzerindeki yazılan tüm üzerine resim URL'leri için Görüntü Önizlemesini **katalog resimleri** galeri sayfasında görebilirsiniz.
 
-    [![Katalog görüntü galerisi sayfası.](./media/preview-4.png)](./media/preview-4.png)
+    [![Katalog Resim Galerisi sayfası](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > Galeri şablon görüntü URL Görüntü Önizlemeleri ortam şu anda göstermiyor. Kullanıcının açıkça bir URL üzerinden bu sayfaya sağlıyorsa, katalog, çalışan, müşteri ve kategori varlıklar için hangi resmin varsayılan olduğunu belirtmenizi öneririz, çünkü Commerce Scale Unit istemcileri Katalog, müşteri, çalışan ve kategori başına yalnızca bir resim gösterir. Kullanıcı varsayılan görüntü belirtmiyorsa, sistem varsayılan resmi belirler ve Commerce hizmet arayıcısına (MPOS veya ticaret) gönderir.
@@ -172,7 +175,7 @@ Sadece üzerine yazılan resim URL'si kayıtları silinebilir. Resim silindikten
 4. **Ekle**'ye tıklayın ve resim URL'si üzerine yeni bir URL yazın.
 5. **Tamam** düğmesine tıklayın. Şimdi yeni resmin önizlemesini görebilir ve varsayılan resim olarak ayarlayabilirsiniz.
 
-    [![Yeni görüntü iletişim kutusunda görüntü önizleme.](./media/cat3.png)](./media/cat3.png)
+    [![Yeni görüntü iletişim kutusunda görüntü önizleme](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > Kategori görüntü ilişkilendirme sonrasında kanal yayımlamanız ve değişiklikleri kanal veritabanına yayımlanan sağlanmasına yardımcı sağlamak için Kanal işini çalıştırmanız gerekir.
@@ -193,7 +196,7 @@ MPOS (Commerce Scale Unit veya ağ bağlantısı yok ve hareketler bir yerel çe
 6. MPOS çevrimiçi modunda çalışırken, HQ'da verileri çevrimdışı veritabanında en az bir kez gönderildiğinden emin olmak için katalog işlemini çalıştırın.
 7. MPOS çevrimdışı moduna geçirin. HQ belirli ürün için karşıya görüntü görmelisiniz.
 
-    [![Çevrimdışı modda ürün resmi.](./media/offline1.png)](./media/offline1.png)
+    [![Çevrimdışı modda ürün resmi](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Katalog, kategori, çalışan ve müşteri görüntüleri Çevrimdışı modda MPOS için görünmesini Ayarla
 
@@ -205,7 +208,4 @@ MPOS (Commerce Scale Unit veya ağ bağlantısı yok ve hareketler bir yerel çe
 4. Katalog işini çalıştırın. Bu görüntü şimdi MPOS'de o katalog için çevrimdışı görüntü olarak kullanılacaktır.
 5. Kategori, çalışan ve müşteri gibi diğer varlıklar için benzer bir işlem izleyin.
 
-    [![Çevrimdışı görüntü.](./media/offline2.png)](./media/offline2.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    [![Çevrimdışı resim](./media/offline2.png)](./media/offline2.png)

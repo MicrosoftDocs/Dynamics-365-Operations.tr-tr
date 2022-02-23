@@ -2,13 +2,16 @@
 title: Kişiselleştirilmiş önerilerden vazgeçme
 description: Bu konu, müşterilerin Microsoft Dynamics 365 Commerce'ta kişiselleştirilmiş öneriler almamasına nasıl izin verileceğini açıklamaktadır.
 author: bebeale
+manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772949"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416398"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Kişiselleştirilmiş önerilerden vazgeçme
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, müşterilerin Microsoft Dynamics 365 Commerce'ta kişiselleştirilmiş öneriler almamasına nasıl izin verileceğini açıklamaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Hesap oluşturma sırasında, yeni müşteriler otomatik olarak kişiselleştirilmiş öneriler almak için ayarlanır. Ancak, Dynamics 365 Commerce perakendeciler için kullanıcıların bu önerileri almalarını ve kişisel verilerinin işlenmesini kısıtlamalarını sağlamak amacıyla çeşitli yollar sunar. Kişiselleştirilmiş Önerileri almaya çalışan kimliği doğrulanmış kullanıcılar, kişiselleştirilmiş listeleri hemen görmeyi durdurur. Ek olarak, kişiselleştirme için toplanan tüm kişisel veriler kişiselleştirilmiş öneri modellerinden kaldırılacaktır.
 
@@ -44,11 +49,11 @@ Commerce arka ofiste hesap yönetiminde, perakendeciler Kullanıcı adına geri 
 1. Arka ofis ana sayfasında, **tüm müşterileri** arayın.
 1. Müşteri arayıp seçin ve sonra **perakende** hızlı sekmesini seçin.
 
-    ![Perakende hızlı sekmesi.](./media/Disablepersonalizationpart1.png)
+    ![Perakende hızlı sekmesi](./media/Disablepersonalizationpart1.png)
 
 1. **Gizlilik**'in altında, **kişiselleştirmeyi devre dışı bırak** seçeneğini **Evet** olarak ayarlayın.
 
-    ![Gizlilik ayarları.](./media/Disablepersonalizationpart2.png)
+    ![Gizlilik ayarları](./media/Disablepersonalizationpart2.png)
 
 1. **Kaydet**'i seçip sayfayı kapatın.
 
@@ -99,6 +104,3 @@ Aşağıdaki örnek, bir perakendecin bu görevi nasıl yerine getirebileceği g
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

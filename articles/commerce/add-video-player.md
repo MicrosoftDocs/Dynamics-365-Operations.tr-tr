@@ -2,30 +2,36 @@
 title: Video oynatıcı modülü
 description: Bu konu vide oynatıcı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8d09797d24572a99cc8f5ed2d34b73eb7144af7a35661a929b6a571a20dfed04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731731"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416381"
 ---
 # <a name="video-player-module"></a>Video oynatıcı modülü
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konu vide oynatıcı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Video oynatımını desteklemek için video oynatma modülü kullanılır. Video içeriğinin içerik yönetim sistemi ne (CMS) yüklenmesi ve kullanılabilir olması koşuluyla, herhangi bir sayfaya eklenebilir. Video oynatıcı modülü .mp4 ortam türünü destekler.
 
@@ -43,16 +49,12 @@ Video oynatıcı modülü ikincil ses parçalarını da destekler. Bir video CMS
 
 Aşağıdaki resimde giriş sayfasında kullanılan bir video oynatıcı modülü örneği gösterilmektedir.
 
-![Video oynatıcı modülü örneği.](./media/ecommerce-videoplayer.PNG)
+![Video oynatıcı modülü örneği](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Video oynatıcı modülü özellikleri
 
 | Özellik adı         | Değer                               | Tanım |
 |-----------------------|-------------------------------------|-------------|
-| Başlık               | Başlık metni ve başlık etiketi (**H1**, **H2**, **H3**, **H4**, **H5** veya **H6**) | Varsayılan olarak başlık için **H2** başlık etiketi kullanılır, ancak başlık etiketi erişilebilirlik gereksinimlerini karşılamak için değiştirilebilir. |
-| Zengin metin             | Paragraf metni | Modül zengin metin biçimindeki paragraf metnini destekler. Kalın, altı çizili, italik metin ve köprüler gibi bazı temel zengin metin özellikleri desteklenir. Bu yeteneklerden bazıları, modüle uygulanan sayfa teması tarafından geçersiz kılınabilir. |
-| Bağla                  | Bağlantı metni, bağlantı URL'si, Erişilebilir Zengin İnternet Uygulamaları (ARIA) etiketi ve **Bağlantıyı yeni sekmede aç** seçicisi | Modül bir veya daha fazla "eyleme çağrı" bağlantısı destekler. Bir bağlantı eklenirse, bağlantı metni, bir URL ve bir ARIA etiketi gereklidir. ARIA etiketleri erişilebilirlik gereksinimlerini karşılayacak şekilde açıklayıcı olmalıdır. Bağlantılar yeni bir sekmede açılacak şekilde konfigüre edilebilir. |
-| Alt metin              | Başlık, metin veya bağlantılar | Video oynatıcı modülü için yazar veya tasarımcı adı veya kişisel bloglara bağlantılar gibi ek bağlam eklenebilir. |
 | Otomatik Yürütme             | **Doğru** veya **yanlış**               | Değer **doğru** olarak ayarlandığında, video otomatik olarak yürütülür. |
 | Sesi Kapat                  | **Doğru** veya **yanlış**               | Değer **doğru** olarak ayarlandığında, ses kapatılır. Bu oynatıcı için varsayılan değer **yanlış**'tır. Chrome tarayıcıda, Otomatik yürütme videoları varsayılan olarak kapalı ve ses ancak videoyu el ile oynadığında yürütülür. |
 | Döngü                  | **Doğru** veya **yanlış**               | Değer **doğru** olarak ayarlandığında, video döngü olarak tekrarlanır. |
@@ -62,9 +64,6 @@ Aşağıdaki resimde giriş sayfasında kullanılan bir video oynatıcı modül�
 | Video oynatıcı denetimleri | **Doğru** veya **yanlış**               | Değer **Doğru** olarak ayarlandığında, tüm video oynatıcı denetimler gösterilir. Bu denetimler, oynat ve Duraklat düğmelerini, ilerleme göstergesini ve açıklamalı alt yazıları seçeneklerini içerir. |
 | Poster görüntüsünü gizle     | **Doğru** veya **yanlış**               | Videoda poster karesi olabilir. Bu özelliğin değeri **doğru** olarak ayarlandığında, poster çerçevesi gizlenir. |
 | Maske düzeyi            | **0** ile **100** arasında bir sayı | Stil oluşturma için videoya uygulanan maske. |
-
-> [!IMPORTANT]
-> **Başlık**, **Zengin metin**, **Bağlantı** ve **Alt metin** özellikleri Dynamics 365 Commerce 10.0.20 sürümü itibarıyla kullanılabilir.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Sayfaya video oynatıcı modülü ekleme
 
@@ -107,6 +106,3 @@ Bir yeni sayfaya video oynatma modülü eklemek ve gerekli özellikleri ayarlama
 [Metin bloğu modülü](add-content-rich-block.md)
 
 [İçerik blok modülü](add-hero-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

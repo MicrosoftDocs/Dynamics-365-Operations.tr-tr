@@ -2,30 +2,35 @@
 title: Metin bloku modülü
 description: Bu konu metin bloku modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723323"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416361"
 ---
 # <a name="text-block-module"></a>Metin bloku modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konu metin bloku modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Bir metin bloğu modülü, metin içeriği eklemek için kullanılan bir modüldür. Bu içerik bilgilendirici veya promosyon olabilir.
 
@@ -42,7 +47,7 @@ Metin bloku modüller aşağıdaki yollarla kullanılabilir:
 
 Aşağıdaki resimde giriş sayfasında kullanılan bir metin bloku modülü örneği gösterilmektedir.
 
-![Metin bloğu modülü örneği.](./media/ecommerce-textblock.PNG)
+![Metin bloku modülü örneği](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Metin bloku modülü özellikleri
 
@@ -84,6 +89,3 @@ Bir yeni sayfaya metin bloku modülü eklemek ve gerekli özellikleri ayarlamak 
 
 [Video oynatıcı modülü](add-video-player.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

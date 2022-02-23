@@ -2,9 +2,11 @@
 title: Ağırlıklı ortalama tarihi
 description: Ağırlıklı ortalama tarihi, stoktan çıkışların stok kapatma dönemindeki her ayrı gün için stoka girişi yapılan maddelerin ortalama değeriyle değerlendirildiği ağırlıklı ortalama ilkesini temel alan bir stok modelidir.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572037"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963750"
 ---
 # <a name="weighted-average-date"></a>Ağırlıklı ortalama tarihi
 
@@ -39,7 +41,7 @@ Ağırlıklı ortalama = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (
 
 Stok kapatma sırasında, hesaplama aşağıdaki görselde gösterildiği gibi, her gün kapanış dönemi boyunca gerçekleştirilir. 
 
-![Ağırlıklı ortalama tarihi günlük hesaplama modeli.](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Ağırlıklı ortalama tarihi günlük hesaplama modeli](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Satış siparişleri, stok günlükler ve üretim emirleri gibi stoktan ayrılan stok hareketleri deftere nakil tarihinde tahmini maliyet fiyatından gerçekleştirilir. Tahmini maliyet fiyatı, yürütülen ortalama maliyet fiyatı olarak da bilinir. Stok kapanış tarihinde, sistem önceki dönemlere, önceki güne ve geçerli güne ait stok hareketlerini inceler. Bu analiz, aşağıdaki kapanış ilkelerinden hangisinin kullanılacağını belirlemek için kullanılır:
 
@@ -72,7 +74,7 @@ Aşağıdaki çizimde bu hareketler gösterilmiştir:
 -   2b. Her biri 10,00 ABD Doları maliyetindeki 2 miktar için güncelleştirilen stok mali çıkışı.
 -   3. Stok kapanışı, stok mali girişini stok mali çıkışına kapatmak için doğrudan kapatma yöntemi kullanılarak gerçekleştirilmiştir.
 
-![Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama tarihi doğrudan kapatma.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama tarihi doğrudan kapatma](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Çizimin anahtarı:**
 
@@ -126,7 +128,7 @@ Sistem özetlenen stok transferi hareketini oluşturur ve deftere nakleder. Ayr�
 
 Aşağıdaki çizimde, bu hareketler serisi, ağırlıklı ortalama stok modeli ve **Fiziksel değeri dahil et** seçeneği kullanılmadan özetlenmiş kapatma ilkesi seçimlerinin etkileriyle birlikte gösterilmektedir. 
 
-![Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama tarihi özetlenmiş kapatma.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama tarihi özetlenmiş kapatma](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Çizimin anahtarı**
 
@@ -175,7 +177,7 @@ Hareketin deftere nakledilmeden önce bir giriş için bir çıkış hareketi i�
 
 Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. Aşağıdaki çizim bu hareketler serisini, işaretleme ve ağırlıklı ortalama tarihi stok modeli kullanmanın etkilerini gösterir.
 
-![İşaretleme ile ağırlıklı ortalama tarihi.](./media/weightedaveragedatewithmarking.gif) 
+![İşaretleme ile ağırlıklı ortalama tarihi](./media/weightedaveragedatewithmarking.gif) 
 
 **Çizimin anahtarı:**
 
@@ -193,6 +195,3 @@ Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziks
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

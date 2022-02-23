@@ -2,12 +2,15 @@
 title: Human Resouces ile servise alma için hazırlanma
 description: Bu sayfa, Dynamics 365 Human Resources ile servise alma hakkında rehberlik sağlar.
 author: rachel-profitt
+manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,27 +18,22 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ff7d689129a4015b6085685f4b19ae61bdd549d2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066405"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4421013"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Human Resouces ile servise alma için hazırlanma
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak bir Dynamics 365 Human Resources projesiyle servise almaya nasıl hazırlanılacağını açıklamaktadır. 
 
 Bu grafik, servise alma sürecinin aşamalarını gösterir. 
 
-![Servise alma süreci.](./media/hr-admin-go-live-prepare-process.png)
+![Servise alma süreci](./media/hr-admin-go-live-prepare-process.png)
 
 Aşağıdaki tabloda, süreçteki tüm adımlar, beklenen süre ve eylemden sorumlu olan kişiler listelenmiştir.
 
@@ -45,7 +43,7 @@ Aşağıdaki tabloda, süreçteki tüm adımlar, beklenen süre ve eylemden soru
 | 2 | Denetim listesini tamamlama ve gönderme | Kullanıcı kabul sınamaları (UAT) tamamlandıktan sonra | İş ortağı/müşteri | [FastTrack servise alma değerlendirmesinde](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment) sağlanan yönergeleri izleyin. |
 | 3 | Proje değerlendirmesi (FastTrack) | FastTrack mimarı* | Mimar denetim listesi alındıktan sonra değerlendirmesini sunar ve sorular netleşinceye ve varsa risk azaltıcı etkenler uygulanıncaya kadar inceleme işlemine devam eder. |
 | 4 | Proje Atölyesi (FastTrack) | FastTrack mimarı* | |
-| 5 | Veri paketini içe aktarma | Projeye bağlıdır | İş ortağı/müşteri | [Veri yönetimine genel bakış](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) yönergelerini izleyin.|
+| 5 | Veri paketini içe aktarma | Projeye bağlıdır | İş ortağı/müşteri | [Veri yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages) yönergelerini izleyin.|
 | 6 | Üretime hazır | Önceki adımların tümü tamamlandıktan sonra | İş ortağı/müşteri | İş ortağı/müşteri, üretim ortamının kontrolünü alabilir.|
 | 7 | Kesin bitiş faaliyetleri | Projeye bağlıdır | İş ortağı/müşteri | |
 | 8 | Servise alma | Projeye bağlıdır | Müşteri | |
@@ -55,40 +53,32 @@ Aşağıdaki tabloda, süreçteki tüm adımlar, beklenen süre ve eylemden soru
 
 ## <a name="completing-the-lcs-methodology"></a>LCS yöntemini tamamlama
 
-Her uygulama projesindeki önemli aşamalardan biri üretim ortamının kesin bitişidir. Bir adımı tamamlama sürecinde iki bölüm vardır: 
+Her uygulama projesindeki önemli aşamalardan biri üretim ortamının kesin bitişidir. 
+
+Üretim ortamının canlı operasyonlar için kullanılmasını sağlamaya yardımcı olmak amacıyla, Microsoft, LCS yöntemlerindeki gerekli faaliyetler tamamlandıktan sonra, yalnızca uygulama **çalışma** aşamasına yaklaştığında üretim örneğini sağlar. Aboneliğinizdeki ortamlar hakkında daha fazla bilgi için,  [Dynamics 365 Lisans Kılavuzu](https://go.microsoft.com/fwlink/?LinkId=866544)'na bakın. 
+
+Üretim ortamını istemek için kullanılan  **Yapılandır** düğmesinin kullanılabilmesi için, müşteriler LCS metodolojisinde **analiz**, **tasarım ve geliştirme** ve **test** aşamalarını tamamlamalıdır. LCS'de bir aşamayı tamamlamak için, öncelikle bu aşamada gereken her adımı tamamlamalısınız. Bir aşamadaki tüm adımlar tamamlandığında, tüm aşamayı tamamlayabilirsiniz. Daha sonra değişiklik yapmanız gerekiyorsa, bir aşamayı istediğiniz zaman yeniden açabilirsiniz. Daha fazla bilgi için bkz.  [Finance and Operations uygulamaları müşterileri için Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+
+Bir adımı tamamlama sürecinde iki bölüm vardır: 
 
 - Sığdırma-boşluk analizi veya Kullanıcı kabul sınaması (UAT) gibi gerçek çalışmayı yapın. 
 - İlgili adımı LCS metodolojisinde tamamlandı olarak işaretleyin. 
 
-Uygulamada ilerlerken metodolojide adımları tamamlamak iyi bir harekettir. Son dakikaya kadar beklemeyin. İyi bir uygulamaya sahip olmak, müşterinin yararınadır. 
+Uygulamada ilerlerken metodolojide adımları tamamlamak iyi bir harekettir. Son dakikaya kadar beklemeyin. Üretim ortamını alabilmeniz için tüm adımları tıklatıp geçmeyin. İyi bir uygulamaya sahip olmak, müşterinin yararınadır. 
 
 ## <a name="uat-for-your-solution"></a>Çözümünüz için UAT
 
 UAT aşamasında uyguladığınız tüm iş süreçlerini ve yaptığınız tüm özelleştirmeleri uygulama projesindeki bir korumalı alan ortamında sınamanız gerekir. Başarılı bir servise alma deneyimi için, UAT aşamasını tamamlarken aşağıdakileri göz önünde bulundurmalısınız: 
 
-- UAT işleminizin, GOLD yapılandırmanızdaki verilerin UAT işlemi başlamadan önce ortama kopyalandığı temiz ve yeni bir ortamla başlatılmasını öneririz. Yayınlanana ve ortam üretime dönüştürülene kadar üretim ortamını GOLD ortamınız olarak kullanmanızı öneririz.
 - Test çalışmaları, tüm gereksinim kapsamını kapsamalıdır. 
-- Taşınan verileri kullanarak test edin. Çalışanlar, işler ve pozisyonlar gibi verileri içermelidir. Ayrıca, izin ve devamsızlık tahakkukları gibi açılış bakiyelerini de dahil edin. Son olarak, geçerli kazançlar kayıtları gibi açık işlemleri dahil edin. Veri kümesi son halinde olmasa bile, tüm veri türleriyle sınamayı tamamlayın. 
+- Taşınan verileri kullanarak test edin. Bu veriler çalışanlar, işler ve pozisyonlar gibi ana verileri içermelidir. Ayrıca, izin ve devamsızlık tahakkukları gibi açılış bakiyelerini de dahil edin. Son olarak, geçerli kazançlar kayıtları gibi açık işlemleri dahil edin. Veri kümesi son halinde olmasa bile, tüm veri türleriyle sınamayı tamamlayın. 
 - Kullanıcılara atanan doğru güvenlik rollerini (varsayılan roller ve özel roller) kullanarak test edin. 
 - Çözümün şirket ve sektörlere özgü düzenleme gereksinimleriyle uyumlu olduğundan emin olun. 
 - Tüm özellikleri belgeleyin ve müşterinin onayını alın. 
 
-## <a name="mock-go-live"></a>Sahte yayınlama
-
-Yayınlama işleminden önce, eski sistemlerinizden yeni sisteme geçiş için gereken adımları test etmek üzere sahte bir yayınlama işlemi gerçekleştirmeniz gerekir. Sahte yayınlama işleminizi korumalı alan ortamında gerçekleştirmeli ve tüm adımları kesin bitiş planınıza dahil etmelisiniz.
-
-- Yayınlamaya kadar üretim ortamını GOLD yapılandırma ortamı olarak kullanmanızı öneririz.
-- Üretim ortamını yayınlamadan önce yanlışlıkla yapılan işlemlerden veya güncelleştirmelerden korumak için güçlü bir yönetim sürecine sahip olduğundan emin olun.
-- UAT veya sahte yayınlama işlemi gerçekleştirmeye hazır olduğunuzda, korumalı alan ortamını üretim ortamından yenileyin. Daha fazla bilgi için bkz. [Kurulum kopyalama](hr-admin-setup-copy-instance.md).
-- Kesin bitiş planınızın her adımını korumalı alan ortamında sınayın ve ardından ortamdaki UAT komut dosyalarınızdan nokta denetimleri veya testler gerçekleştirerek korumalı alan ortamını doğrulayın.
-  - Testler, yayınlama işlemi için gereken dönüşümler de dahil olmak üzere tüm veri geçişlerini içermelidir.
-  - İşlem, herhangi bir eski sistemin uygulama kesin bitişini içermelidir.
-  - Sahte kesin bitişteki tümleştirme kesme adımlarını veya harici sistem adımlarını ekleyin.
-- Sahte kesin bitiş sırasında herhangi bir sorun bulursanız ikinci bir sahte kesin bitiş gerekebilir. Bu nedenle, proje planınızda iki sahte kesin bitiş planlamanızı öneririz.
-
 ## <a name="fasttrack-go-live-assessment"></a>FastTrack servise alma değerlendirmesi
 
-FastTrack için uygun olan ve bir FastTrack çözümü mimarı ile çalışan müşteriler Microsoft FastTrack ile servise alma incelemesi tamamlayacaktır. Daha fazla bilgi için bkz.  [Microsoft FastTrack](/dynamics365/fasttrack/). 
+FastTrack için uygun olan ve bir FastTrack çözümü mimarı ile çalışan müşteriler Microsoft FastTrack ile servise alma incelemesi tamamlayacaktır. Daha fazla bilgi için bkz.  [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
 
 Servise almadan yaklaşık sekiz hafta önce, FastTrack ekibi, bir [servise alma denetim listesi](https://go.microsoft.com/fwlink/?linkid=2146013) doldurmanızı isteyecektir.
 
@@ -101,6 +91,3 @@ Denetim listesini gönderdikten sonra, FastTrack çözüm mimarı projeyi incele
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Servise almayla ilgili SSS](hr-admin-go-live-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

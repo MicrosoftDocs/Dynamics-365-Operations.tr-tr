@@ -1,14 +1,17 @@
 ---
 title: Ödeme yöntemleri
 description: Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında mutlaka yapılandırılmalıdır. Bu makale, ayarlayabileceğiniz ödeme türlerini ve bunları ayarlamak için gerekli işlemi açıklamaktadır.
-author: BrianShook
-ms.date: 11/03/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779582"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416437"
 ---
 # <a name="payment-methods"></a>Ödeme yöntemleri
 
@@ -46,11 +49,3 @@ Perakendeciler, sattıkları ürünler ve hizmetler karşılığında çeşitli 
 2. Organizasyon kapsamında kart tipleri ve kart numaraları oluşturma. Kredi kartları veya ATM kartları kabul ediliyorsa, kartlar için bir ödeme yöntemi oluşturmanız ve sonra organizasyon kapsamındaki kart tiplerini ve kart numaralarını oluşturmanız gerekir.
 3. Mağaza ödeme yöntemini ayarlayın. Ödeme yöntemlerini her bir mağazayla ilişkilendirin ve ardından her bir ödeme yöntemi için mağazaya özel ayarları girin.
 4. Mağazalar için kart ödeme yöntemleri ayarlayın. Mağazanın kabul ettiği tüm kart ödeme yöntemleri için kart kurulumunu tamamlayın.
-
-## <a name="handle-change-tendering-for-payment-methods"></a>Ödeme yöntemleri için ödeme değişikliğini işle
-
-Satış noktası hareketleri sırasında fonların müşterilere geri dönmesi gerekiyorsa bazı ödeme yöntemleri doğrudan ödeme değiştirmeyi desteklemez. Ödeme değişikliğini yalnızca **Nakit** ve **Para birimi** ödeme yöntemleri kullanılabilir. 
-
-Bir hareket sırasında ödeme değişimini gerektiren servis taleplerini işlemek gerekiyorsa ancak ödeme yöntemi bunu desteklemiyorsa, bir **Ödeme değişikliği** ödeme yöntemini tanımlayabilirsiniz. Mağaza için mağaza ödeme yöntemlerini ayarladığınızda, kullanılacak ödeme yöntemini seçin. Sonra, **Değiştir** bölümünde **Ödeme değiştir** alanına bir bedel ödemesini değiştir seçeneği girin. Örneğin, nakitin beldel ödemesi değiştirme seçeneği olarak kullanılabileceğini değiştirmek için **1** girebilirsiniz.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

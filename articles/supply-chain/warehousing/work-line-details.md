@@ -2,23 +2,26 @@
 title: İş satırı ayrıntıları
 description: Bu konu, sisteminizdeki bireysel çalışma satırlarının kapsamlı, sıralanabilir ve filtrelenebilir listesini gösteren İş satırı ayrıntıları sayfası hakkında bilgi vermektedir.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778293"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439676"
 ---
 # <a name="work-line-details"></a>İş satırı ayrıntıları
 
@@ -28,7 +31,7 @@ ms.locfileid: "7778293"
 
 ## <a name="turn-on-the-work-line-details-feature"></a>İş satırı ayrıntıları özelliğini açma
 
-Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek veya devre dışı bırakmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *İş satırı ayrıntıları*
@@ -125,6 +128,3 @@ Birkaç malzeme çekme işi oluşturmak için bu adımları izleyin.
 
 > [!IMPORTANT]
 > Bir iş satırı için yalnızca miktarın bir kısmını iptal ederseniz, yük satırından kullanılmayan miktarı da silmeniz gerekir. Aksi durumda, eksik teslimat doğru şekilde ayarlanmadıkça, yükleme satırının sevk onayı verilemez.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

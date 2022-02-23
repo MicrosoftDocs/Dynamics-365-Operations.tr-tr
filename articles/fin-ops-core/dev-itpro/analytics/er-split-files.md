@@ -2,9 +2,11 @@
 title: Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
 description: Bu konu, oluşturulan dosyaların dosya boyutuna ve içerik öğesi miktarına göre nasıl bölüneceği hakkında bilgi sağlamaktadır.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3735bcb06eff966fc364a891b38d44e34e845e35f59314822d13eba40d51d5f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d60266aba42f502e7707bdace921cfee4526b6ae
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769984"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682883"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
 
@@ -38,13 +40,10 @@ Belirlenen sınırlar her aşıldığında, oluşturulan çıktıyı bölmek iç
 
 Bu özellik hakkında daha fazla bilgi için, **7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin bir parçası olan ve [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684)'dan indirilebilen **ER - XML dosyalarını dosya boyutu ve içerik miktarına göre bölme** görev kılavuzunu oynatın. Bu görev kılavuzu, oluşturulan dosyaları dosya boyutu ve içerik öğesi miktarı sınırlarına göre bölmek için bir ER biçimi yapılandırma işleminde size yol gösterir. Görev kılavuzunu tamamlamak için aşağıdaki dosyaları indirmeniz gerekir:
 
-- [ER modeli yapılandırması - XmlFilesSplittingModel.xml](https://download.microsoft.com/download/e/a/f/eaffe96a-22ec-4a32-898a-f4328c91c387/XmlFilesSplittingModel.xml)
-- [ER biçimi yapılandırması - XmlFilesSplittingFormat.xml](https://download.microsoft.com/download/e/9/c/e9c5849b-8254-4cdf-bb00-4c2ebc72ddec/XmlFilesSplittingFormat.xml)
+- [ER modeli yapılandırması - XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [ER biçimi yapılandırması - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 
 [Elektronik raporlamada (ER) formül tasarımcısı](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

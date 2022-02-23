@@ -1,27 +1,30 @@
 ---
 title: Ürün reçetesi tasarımcısı işlevi
 description: Bu konu, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerSetup, BOMDesignerFilterDialog, BOMDesignerBOMVersion, BOMChangeLine
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c068e7f5f4f36663766e21e14cf8e75cf1442f50
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2e845b05d77701191a267de45354c3da25bd7699
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577996"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439344"
 ---
 # <a name="bom-designer-functionality"></a>Ürün reçetesi tasarımcısı işlevi
 
@@ -118,6 +121,3 @@ BOM tasarımcısının ağaç görünümünde gösterilen bilgileri özelleştir
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

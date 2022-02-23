@@ -1,10 +1,12 @@
 ---
-title: Ambar Yönetimi mobil uygulaması için alanları yapılandırma
-description: Bu konu, Ambar Yönetimi mobil uygulamasında gösterilen alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır.
-author: Mirzaab
+title: Ambarlama uygulaması içerisinde alan adlarını yapılandırma
+description: Bu konu, Dynamics 365 Supply Chain Management için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır.
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -13,24 +15,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902308"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963447"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulaması için alanları yapılandırma
+# <a name="configure-app-field-names-in-the-warehouse-app"></a>Ambarlama uygulaması içerisinde alan adlarını yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Ambar Yönetimi mobil uygulamasında gösterilen alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır.
+Bu konu, Dynamics 365 Supply Chain Management için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır. 
 
 > [!NOTE]
-> Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Ambar Yönetimi mobil uygulaması ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır. Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz. Bu konu, bu Ambar Yönetimi mobil uygulamalarının alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların nasıl kullanıldıklarını açıklar.
+> Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Ambarlama, ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır. Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz. Bu konu, bu ambar uygulamaların alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların Ambarlama içerisinde nasıl kullanıldıklarını açıklar. Ambarlama'ya bağlantıyı yapılandırma hakkında ayrıntılı bilgi için [Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](install-configure-warehousing-app.md) eğitimine bakın.
 
 ## <a name="configure-warehouse-app-field-names"></a>Ambar uygulaması alan adlarını yapılandırın
 
@@ -50,7 +52,7 @@ Ambarlama'yı mobil cihazınızda kullandığınızda, meta verini cihazınızda
 <tbody>
 <tr class="odd">
 <td>Tercih edilen giriş modu</td>
-<td>Bu seçenek, seçilen alan adı için bir tarama alanının mı yoksa elle girdi girişi alanının mı gösterileceğini belirler. Bu, barkodlar alanda kullanılıyorsa alanların ayırt edilmesi için kullanışlıdır. <strong>Not:</strong> Tercih edilen giriş modu <strong>Tarama</strong> olarak ayarlanmış alanlar için barkod okunamıyorsa veya zarar görmüşse bilgileri el ile girebilirsiniz.</td>
+<td>Bu seçenek, seçilen alan adı için bir tarama alanının mı yoksa elle girdi girişi alanının mı gösterileceğini belirler. Bu, barkodlar alanda kullanılıyorsa alanların ayırt edilmesi için kullanışlıdır. <strong>Not:</strong> Tercih edilen giriş modu <strong>Tarama</strong> olarak ayarlanmış alanlar için, barkod okunamaz veya zarar görmüşse, bilgileri el ile girebilirsiniz.</td>
 </tr>
 <tr class="even">
 <td>Giriş türü</td>
@@ -137,9 +139,7 @@ Yukarıdaki tabloda ayarlanmış olan ambar uygulaması alan öncelik kümesine 
 
 Kalan meta veri, örneğin Konum, görev sayfasında görüntülenmeyecektir, ancak bir ayrıntılar sayfasında görüntülenir. Kullanıcı arabirimi hakkında daha fazla bilgi almak ve örnekler görmek için şu blog gönderisine bakın [Finance and Operations - Ambarlama](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
-[Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](install-configure-warehousing-app.md)

@@ -1,10 +1,12 @@
 ---
 title: Servis düzeyi ve açıklaması
 description: Bu konuda Varlık Yönetimi'ndeki düzeyleri ve açıklamaları açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758700"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019391"
 ---
 # <a name="service-level-and-description"></a>Servis düzeyi ve açıklaması
 
@@ -45,7 +47,7 @@ Bir iş emri oluşturduğunuzda, ilgili servis düzeylerini tanımlamak ve buna 
 8. Bitiş tarihine ek olarak, iş emri bitiş saatini ayarlamak için **Bitiş saatini ayarla** seçeneğini **Evet** olarak ayarlayın. Sonra **Bitiş saati** alanına bitiş saatini girin. Seçeneği **Hayır** olarak ayarlarsanız günün geçerli saati kullanılır.
 9. **Kaydet**'i seçin.
 
-![İş emri hizmet düzeyi sayfası.](media/19-setup-for-work-orders.png)
+![İş emri hizmet düzeyi sayfası](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Açıklama oluştur
 
@@ -53,6 +55,3 @@ Bir iş emri oluşturduğunuzda, ilgili servis düzeylerini tanımlamak ve buna 
 2. **Yeni**'yi seçin.
 3. **Açıklama** alanına bir açıklama girin.
 4. **Kaydet**'i seçin.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

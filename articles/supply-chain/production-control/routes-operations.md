@@ -1,27 +1,30 @@
 ---
 title: Rotalar ve operasyonlar
 description: Bu konu rotalar ve operasyonlar hakkında bilgi sağlar.
-author: johanhoffmann
+author: sorenva
+manager: tfehr
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
-ms.author: johanho
+ms.author: sorenand
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891965"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439109"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
@@ -29,7 +32,8 @@ ms.locfileid: "7891965"
 
 Bu konu rotalar ve operasyonlar hakkında bilgi sağlar. Rota, bir ürün veya ürün çeşidini üretme sürecini tanımlar. Üretim sürecindeki her adımı (operasyonu) ve bu adımların gerçekleştirilmesi gereken sırayı açıklar. Rota her adım için gerekli operasyon kaynaklarını, gerekli hazırlık süresini ve çalışma süresini, maliyetin nasıl hesaplanacağını tanımlar.
 
-## <a name="overview"></a>Özet
+<a name="overview"></a>Özet
+--------
 
 Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların sırasını açıklar. Rota gerekli operasyon kaynaklarını, operasyonu hazırlayıp gerçekleştirmek için gereken süreyi ve maliyetin nasıl hesaplanacağını da tanımlar. Birden fazla ürün üretmek için aynı rotayı kullanabilirsiniz veya her ürün ya da ürün çeşidi için birer benzersiz rota tanımlayabilirsiniz. Hatta aynı ürün için birden fazla rotanız bile olabilir. Bu durumda, kullanılan rota, üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir. Supply Chain Management'ta rotanın tanımı, birlikte üretim sürecini açıklayan dört ayrı öğeden oluşur:
 
@@ -45,7 +49,7 @@ Rota, bir ürünü veya ürün çeşidini üretmek için kullanılan operasyonla
 
 Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.  
 
-[![Basit rota.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Basit rota](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Üretim denetim parametrelerinde yalnızca basit rotaları etkinleştirirseniz, rotayı tanımladığınız zaman Supply Chain Management operasyon numaralarını otomatik olarak üretir (10, 20, 30 vb.).
 
@@ -53,7 +57,7 @@ Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.
 
 Üretim denetim parametrelerinde daha karmaşık rota ağlarını etkinleştirirseniz, birden çok başlangıç noktasının ve paralel işleyen operasyonların bulunduğu rotalar tanımlayabilirsiniz.  
 
-[![Rota ağı.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rota zinciri](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Her operasyonun tek bir ardıl operasyonu olabilir ve tüm rota tek bir operasyonla bitmek zorundadır.
@@ -64,7 +68,7 @@ Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.
 
 Bazen, bir operasyonu gerçekleştirmek için farklı özelliklere sahip birden fazla operasyon kaynağı kombinasyonu gerekir. Örneğin, bir montaj operasyonu için bir makine, bir alet ve operasyonu denetlemek üzere her iki makine için bir işçi gerekebilir. Bu örnek, bir operasyonun birincil operasyon olarak ve diğerlerinin ikincil olarak belirlendiği paralel operasyonlarla modellenebilir.  
 
-[![Birincil ve ikincil operasyonları olan rota.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Birincil ve ikincil operasyonları olan rota](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Genellikle birincil operasyon darboğaz kaynağını temsil eder ve ikincil operasyonlar için çalışma süresini belirler. Bununla birlikte, sınırlı kapasite içeren zaman planlamasında hem birincil operasyon hem de ikincil operasyonlar için planlanan kaynaklar aynı anda mevcut ve boş kapasiteli olmalıdır.  
 
@@ -78,7 +82,7 @@ Bir rotanın planlama veya üretim sürecinde kullanılabilmesi için onaylanmas
 
 Her rota ayrı olarak onaylanabilir veya onayı kaldırılabilir. Bununla birlikte bir rotanın onayı kaldırıldığında ilgili tüm rota sürümlerinin onayının da kaldırılacağını unutmayın. Üretim denetim parametrelerinde rotaların onayının kaldırılıp kaldırılamayacağını ve onaylanmış rotaların değiştirilip değiştirilemeyeceğini belirtebilirsiniz.  
 
-Her rotanın onaylayanının kaydedildiği bir günlük tutmanız gerekiyorsa, rota onayı için elektronik imzalar isteyebilirsiniz. Bu durumda kullanıcılar bir [elektronik imza](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md) kullanarak kimliklerini onaylatmak zorundadır.
+Her rotanın onaylayanının kaydedildiği bir günlük tutmanız gerekiyorsa, rota onayı için elektronik imzalar isteyebilirsiniz. Bu durumda kullanıcılar bir [elektronik imza](../../fin-and-ops/organization-administration/electronic-signature-overview.md) kullanarak kimliklerini onaylatmak zorundadır.
 
 ## <a name="operations"></a>Operations
 Operasyon üretim sürecindeki bir adıma karşılık gelir. Her operasyonun bir kodu ve basit bir açıklaması vardır. Aşağıdaki tablolarda, bir atölyeye ait tipik operasyon örnekleri gösterilmektedir.
@@ -184,7 +188,7 @@ Bir rota sürümünü etkinleştirdiğinizde, onu ana planlamanın kullanacağı
 
 ### <a name="electronic-signatures"></a>Elektronik imzalar
 
-Her rota sürümünü kimin onayladığının ve etkinleştirdiğinin kaydedildiği bir günlük tutmanız gerekiyorsa, bu görevler için elektronik imzalar isteyebilirsiniz. Böylece rota sürümlerini onaylayan ve etkinleştiren kullanıcıların [elektronik imza](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md) kullanarak kimliklerini doğrulamaları gerekir.
+Her rota sürümünü kimin onayladığının ve etkinleştirdiğinin kaydedildiği bir günlük tutmanız gerekiyorsa, bu görevler için elektronik imzalar isteyebilirsiniz. Böylece rota sürümlerini onaylayan ve etkinleştiren kullanıcıların [elektronik imza](../../fin-and-ops/organization-administration/electronic-signature-overview.md) kullanarak kimliklerini doğrulamaları gerekir.
 
 ### <a name="product-change-that-uses-case-management"></a>Servis talebi yönetiminin kullanıldığı ürün değişikliği
 
@@ -223,7 +227,7 @@ Bu yaklaşımı kullandığınız zaman, **Operasyon ilişkileri** sayfası, ça
 Bir operasyonun kaynak gereksinimlerinin bir parçası olarak bir operasyon kaynağı veya kaynak grubu belirtmezseniz, geçerli kaynaklar farklı hızlarda çalışabilir. Bu nedenle, bir operasyonu yürütmek için gereken süre değişebilir. Bu sorunu gidermek amacıyla, işlem süresinin nasıl hesaplanacağını belirtmek için, operasyon ilişkisindeki **Formül** alanını kullanabilirsiniz. Aşağıdaki seçenekler bulunur:
 
 - **Standart** – (Varsayılan seçenek) Hesaplama, yalnızca operasyon ilişkisindeki alanları kullanır ve belirtilen çalışma süresini sipariş miktarıyla çarpar.
-- **Kapasite** – Hesaplamaya, operasyon kaynağındaki **Kapasite** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır. Operasyon kaynağında belirtilen değer saat başına kapasitedir. **İşlem süresi** **Sipariş miktarı** bölü **Kapasite** olarak hesaplanır. Kapasite değeri, belirli bir ölçü birimine özgü değildir ve bu nedenle, yalnızca hesaplamalarda kullanılmayan bir tanımlayıcı alan olan **Kapasite birimi** alanına göre dönüştürülmez.
+- **Kapasite** – Hesaplamaya, operasyon kaynağındaki **Kapasite** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır. Operasyon kaynağında belirtilen değer saat başına kapasitedir. **İşlem süresi** **Sipariş miktarı** bölü **Kapasite** olarak hesaplanır.
 - **Parti** – Parti kapasitesi, operasyon ilişkisinden alınan bilgilerle hesaplanır. Parti sayısı ve dolayısıyla işlem süresi sipariş miktarına göre hesaplanabilir.
 - **Kaynak parti** – Bu seçenek temelde **Parti** seçeneğiyle aynıdır. Ancak, hesaplamaya, operasyon kaynağındaki **Parti kapasitesi** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır.
 
@@ -252,10 +256,7 @@ Bu nedenle, Etkinleştirme Çakışma için seçildiğinde, ayarların geri kala
 
 - [Kaynak yetenekleri](resource-capabilities.md)
 
-- [Elektronik imzalara genel bakış](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
+- [Elektronik imzalara genel bakış](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

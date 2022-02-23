@@ -2,23 +2,26 @@
 title: Yerleşim ürün boyutu karıştırması
 description: Bu konu, konum ürün boyutu karıştırma hakkında bilgiler sağlar. Bu konum profili işlevi, kullanım sektörü gibi ürün çeşitleri veya boyutları olan ürünler kullanıldığında yerleşim yönetiminin artırılmasına yardımcı olur. Konfigürasyonların, renklerin, stillerin ve boyutların belirli bir yerleşim profili için karıştırılıp karışlamayacağını veya bu boyutlardan yalnızca birinin veya bunların bir bileşimin aynı konuma konulacağını belirlemenize olanak tanır.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578572"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439621"
 ---
 # <a name="location-product-dimension-mixing"></a>Yerleşim ürün boyutu karıştırması
 
@@ -204,9 +207,9 @@ Başlamadan önce, ambar *24*'te *toplu* yerleşim profili kullanan boş konumla
 
 1. **Kaydet**'i seçin.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasında satın alma siparişi satırları alma
+### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Ambar uygulamasında satınalma siparişi satırları al
 
-1. Ambar *24* için etkinleştirilen bir kullanıcı olarak Ambar Yönetimi mobil uygulamasında oturum açın.
+1. Ambar *24*'te etkin olan bir kullanıcı olarak ambarı uygulamasına oturum açın.
 1. **Gelen** menüsünü seçin.
 1. **Satın alma satırı alma**'yı seçin.
 1. **PONUM** alanını seçin ve satınalma siparişi numarasını girin.
@@ -236,5 +239,3 @@ Başlamadan önce, ambar *24*'te *toplu* yerleşim profili kullanan boş konumla
 
 > [!TIP]
 > Bu senaryoyu tekrarlayabilirsiniz ancak bu sefer *TOPLU* **yerleşim profillerindeki** **Ürün boyut karışımına izin ver** hızlı sekmesi altında **Boyut**  - *Hayır* ayarlayın, böylece ürün boyutlarının hiçbiri karışmaz. Bu durumda, satınalma siparişi aldığınızda, her ürün çeşidi yeni bir konuma yerleştirilecek.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

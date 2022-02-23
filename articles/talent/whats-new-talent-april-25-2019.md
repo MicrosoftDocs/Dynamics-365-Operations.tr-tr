@@ -80,6 +80,3 @@ Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve
 
 ### <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
 Finance and Operations Platform güncelleştirmesi 26 ile kullanıcılar otomatik olarak, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

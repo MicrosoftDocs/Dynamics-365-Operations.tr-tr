@@ -2,24 +2,27 @@
 title: Perakende satış fiyatı yönetimi
 description: Bu konu Dynamics 365 Commerce'de satış fiyatları oluşturma ve yönetme kavramlarını açıklar.
 author: ShalabhjainMSFT
-ms.date: 07/28/2021
+manager: AnnBe
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759297"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416302"
 ---
 # <a name="retail-sales-price-management"></a>Retail satış fiyatı yönetimi
 
@@ -40,21 +43,21 @@ Bu konuda şu terimler kullanılmıştır.
 
 ## <a name="price-groups"></a>Fiyat grupları
 
-Fiyat grupları Commerce'de fiyat ve iskonto yönetiminin merkezinde yer alır. Fiyat grupları, Commerce varlıklarına (kanallar, ilişkiler, kataloglar ve bağlılık programları) fiyatlar ve iskontolar atamak için kullanılır. Fiyat grupları tüm fiyat ve iskontolar için kullanıldığından, başlamadan önce bunları nasıl kullanacağınızı planlamak çok önemlidir.
+Fiyat grupları Commerce'de fiyat ve iskonto yönetiminin merkezinde yer alır. Fiyat grupları ticaret varlıklarına (kanallar, ilişkiler, kataloglar ve bağlılık programları) fiyatlar ve iskontolar atamak için kullanılır. Fiyat grupları tüm fiyat ve iskontolar için kullanıldığından, başlamadan önce bunları nasıl kullanacağınızı planlamak çok önemlidir.
 
-Tek başına bir fiyat grubu yalnızca bir ad, bir açıklama ve isteğe bağlı olarak bir fiyatlandırma önceliğidir. Fiyat grupları hakkında hatırlanması gereken ana nokta, bunların Commerce varlıkları ile birlikte iskontoların ve fiyatların sahip olduğu çok-çok ilişkilerini yönetmek için kullanılmasıdır.
+Tek başına bir fiyat grubu yalnızca bir ad, bir açıklama ve isteğe bağlı olarak bir fiyatlandırma önceliğidir. Fiyat grupları hakkında hatırlanması gereken ana nokta fiyatların ticari varlıklar ile birlikte fiyatlar ve iskontoların sahip olduğu çok-çok ilişkileri yönetmek için kullanılmasıdır.
 
-Aşağıdaki örnek fiyat gruplarının nasıl kullanılacağını gösterir. Bu örnekte, "Fiyat grubu"nun tam olarak fiyatlama ve iskonto yönetiminin merkezinde olduğunu unutmayın. Farklı fiyatları ve iskontoları yönetmek için kullanabileceğiniz Commerce varlıkları solda ve gerçek fiyat ve iskonto kayıtları sağdadır.
+Aşağıdaki örnek fiyat gruplarının nasıl kullanılacağını gösterir. Bu örnekte, "Fiyat grubu"nun tam olarak fiyatlama ve iskonto yönetiminin merkezinde olduğunu unutmayın. Farklı fiyatları ve iskontoları yönetmek için kullanabileceğiniz ticari varlıkları solda ve gerçek fiyat ve iskonto kayıtları sağdadır.
 
-![Fiyat grupları.](./media/PriceGroups.png "Fiyat grupları")
+![Fiyat grupları](./media/PriceGroups.png "Fiyat grupları")
 
-Fiyat grupları oluştururken, birden fazla türdeki Commerce varlıkları için tek bir fiyat grubu kullanmamanız gerekir. Aksi takdirde, neden belirli bir fiyat veya iskontonun harekete uygulandığını belirlemek zor olabilir.
+Fiyat grupları oluştururken, birden fazla türdeki ticari varlıklar için tek bir fiyat grubu kullanmamanız gerekir. Aksi takdirde, neden belirli bir fiyat veya iskontonun harekete uygulandığını belirlemek zor olabilir.
 
 Örnekteki kırmızı çizgili satırda da gösterildiği gibi, Commerce, Microsoft Dynamics 365'teki doğudan bir müşteriden ayarlanan fiyat grubu işlevini desteklemez. Bununla birlikte, bu durumda, yalnızca satış fiyatı ticari sözleşmelerini alırsınız. Müşteriye özel fiyatları uygulamak isterseniz, doğrudan müşteri üzerinden fiyat grupları ayarlamamanızı öneririz. Bunun yerine, ilişkileri kullanın. 
 
 Fiyat grubu müşteri için ayarlanmışsa bu fiyat grubu bu müşteri için oluşturulan siparişlerin satış siparişi başlığıyla ilişkili olur. Kullanıcı sipariş başlığındaki fiyat grubunu değiştirirse eski fiyat grubu yalnızca geçerli sipariş için yeni fiyat grubuyla değiştirilir. Örneğin, eski fiyat grubu geçerli siparişi etkilemez, ancak gelecekteki siparişler için müşteriyle ilişkilendirilmeye devam eder.
 
-Aşağıdaki bölümler, fiyat grupları kullanıldığında ayrı gruplar ayarlamak için kullanabileceğiniz Commerce varlıkları hakkında daha fazla bilgi sağlar. Bu varlıklar için fiyatları ve iskontoları yapılandırma iki aşamalı bir işlemdir. Bu adımlar her iki sırayla da yapılabilir. Ancak, bu adım uygulama sırasında bir kez yapılacak bir kurulum olduğundan mantıksal sıra önce varlıklarda fiyat gruplarını ayarlamaktır. Ardından, fiyatlar ve iskontolar oluşturulduğunda, bu fiyatlar ve isontolar üzerinde fiyat gruplarını ayrı ayrı ayarlayabilirsiniz.
+Aşağıdaki bölümler fiyat grupları kullanıldığında ayrı gruplar ayarlamak için kullanabileceğiniz ticari varlıklar hakkında daha fazla bilgi sağlar. Bu varlıklar için fiyatları ve iskontoları yapılandırma iki aşamalı bir işlemdir. Bu adımlar her iki sırayla da yapılabilir. Ancak, bu adım uygulama sırasında bir kez yapılacak bir kurulum olduğundan mantıksal sıra önce varlıklarda fiyat gruplarını ayarlamaktır. Ardından, fiyatlar ve iskontolar oluşturulduğunda, bu fiyatlar ve isontolar üzerinde fiyat gruplarını ayrı ayrı ayarlayabilirsiniz.
 
 ### <a name="channels"></a>Kanallar
 
@@ -214,30 +217,26 @@ Dynamics 365'te satış fiyatlarını ayarlarken, ayarladığınız fiyat değer
 
 Hem vergi dahil hem de vergi hariç türleriyle çalışıyorsanız, fiyatları düzgün şekilde ayarlamanız çok önemlidir çünkü kanaldaki **Satış vergisi dahil fiyat** değiştirilirse müşterinin ödeyeceği toplam fiyat değişecektir.
 
-## <a name="differences-between-commerce-pricing-and-non-commerce-pricing"></a>Commerce fiyatlandırması ile Commerce dışı fiyatlandırma arasındaki farklar
+## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Perakende satış fiyatı ve perakende olmayan satış fiyatı arasındaki farklar
 
-Tüm kanallarda fiyatlarını hesaplamak için tek bir fiyatlandırma altyapısı kullanılır: çağrı merkezi, perakende mağaza ve çevrimiçi mağazalar. Bu, birleşik Commerce senaryolarının etkinleştirilmesine yardımcı olur.
+Tüm kanallarda fiyatlarını hesaplamak için tek bir fiyatlandırma altyapısı kullanılır: Çağrı merkezi, Perakende mağazalar ve Çevrimiçi mağazalar. Bu, birleşik ticaret senaryolarının etkinleştirilmesine yardımcı olur.
 
-Fiyatlandırma, Commerce dışı varlıklar yerine Commerce varlıklarıyla çalışmak üzere tasarlanmıştır. Özellikle, fiyatları ambara göre değil mağazaya göre ayarlamak üzere tasarlanmıştır.
+Fiyatlandırması perakende dışı varlıklar yerine perakende varlıklarla çalışmak üzere tasarlanmıştır. Özellikle, fiyatları ambara göre değil mağazaya göre ayarlamak üzere tasarlanmıştır.
 
-Commerce fiyatlandırma altyapısı şu fiyatlandırma özelliklerini **desteklemez**:
+Fiyatlandırma altyapısı şu fiyatlandırma özelliklerini **desteklemez**:
 
 - Tesis veya tesis ile ambar depolama boyutlarının fiyatlarını ayarlama desteklenmez. Ticari sözleşmeler üzerinde yalnızca tesis boyutunu belirtirseniz, fiyatlandırma altyapısı tesisi dikkate almaz ve tüm sitelere ticari anlaşmayı uygular. Hem tesisi, hem de ambarı belirtirseniz, satıcıların her mağaza/ambar için fiyatları kontrol etmek üzere mağaza fiyat gruplarını kullanması beklendiğinden, tanımsız/sınanmadı.
 - Öznitelik temelli fiyatlandırma desteklenmiyor.
 - Satıcı iskontosu geçişi desteklenmiyor.
-- Genel para birimi özelliği desteklenmez, yani bir ticari sözleşmede **Genel para birimini dahil et** seçimi yapılsa bile bu ticari sözleşme yine de yalnızca ticari sözleşmede tanımlı para birimi için geçerli kabul edilir.
 - Standart Supply Chain Management fiyatlandırma altyapısı, geçerli tarihle birlikte "talep edilen sevk tarihi" ve "talep edilen giriş tarihi" temel alınarak verilen fiyatlandırma hesaplamasını destekler. Ancak, perakende fiyatlandırma Şu anda bu değerleri desteklemiyor. Bunun nedeni, B2C senaryolarında müşteriler istenen teslimat tarihinin madde fiyatını etkilemesini beklemmesidir. Bazı durumlarda, perakendeciler B2B ve B2C operasyonlarına sahiptir. B2B operasyonları için, teslimat tarihlerine göre fiyat değiştirilmesi yaygındır. Bu perakendeciler, B2B iş ve iş amaçlı fiyatlandırılması için Supply Chain Management fiyatlandırmasını kullanabilir. Perakende fiyatlandırma, yalnızca uygulama kullanıcısı bir arama merkezi kullanıcısı olarak eklenirse, bu nedenle perakendeciler, Supply Chain Management fiyatlandırmayla çalışacak olan belirli kullanıcıları atayabilir ve perakende fiyatlandırmayla çalışacak birkaç Kullanıcı atayabilir, diğer bir deyişle bu kullanıcıların çağrı merkezi kullanıcıları olarak eklenmesi gerekir. Ek olarak, **ticaret parametreleri > fiyatlandırma ve iskontolar > muhtelif** bölümünde **fiyatları hesaplamada bugünün tarihini kullan** özelliği açık olmalıdır. Böylece, Supply Chain Management fiyatlandırması için talep edilen sevk tarihi veya talep edilen teslim alma tarihi için hesap alacağı ile ilgili değeri saklayabilirsiniz, ancak perakende fiyatlandırması fiyatlandırma hesaplaması için bugünün tarihini kullanarak devam edebilir.
 
-Ayrıca **yalnızca** Commerce fiyatlandırma altyapısı şu fiyatlandırma özelliklerini destekler:
+Ayrıca, **yalnızca** fiyatlandırma altyapısı şu fiyatlandırma özelliklerini destekler:
 
-- Fiyat, ana ürün fiyatına doğru en belirgin ürün çeşidi fiyatından en az belirgin ürün çeşidi fiyatına giden sırayla, ürün boyutlarını temel alır. İki ürün boyutu (örneğin, renk ve boyut) kullanılarak ayarlanan fiyat yalnızca bir ürün boyutu (örneğin, boyut) kullanılarak ayarlanan fiyattan önce kullanılır.
+- Fiyat, ana ürün fiyatına doğru en belirgin ürün çeşidi fiyatından en az belirgin ürün çeşidi fiyatına giden sırayla, ürün boyutlarını temel alır. İki ürün boyutu (örneğin, renk ve boyut) kullanılarak ayarlanan fiyat yalnızca bir ürün boyutu (örneğin boyut) kullanılarak ayarlanan fiyattan önce kullanılır.
 - Aynı fiyat grubu, fiyat ve iskontoları denetlemek için kullanılabilir.
 
 ## <a name="pricing-api-enhancements"></a>Fiyatlandırma API geliştirmeleri
 
 Fiyat, birçok müşterinin satın alma kararlarını kontrol eden en önemli etkilerinden biridir ve birçok müşteri satın almadan önce çeşitli sitelerdeki fiyatları karşılaştırır. Perakendeciler, rekabetçi fiyatları sağlamalarının sağlanmasına yardımcı olmak için, rakiplerini gözlemler ve genellikle promosyonlar yapar. Bu perakendecilere müşteriler çekmenize yardımcı olmak amacıyla ürün aramasının, Gözat özelliğinin, listelerin ve Ürün Ayrıntıları sayfasının en doğru fiyatları göstermesi çok önemlidir.
 
-Commerce'te **GetActivePrices** uygulama programlama arabirimi (API), basit iskontolar (örneğin, sepetteki diğer maddelere bağımlı olmayan tek satırlı iskontolar) içeren fiyatları döndürür. Bu şekilde, gösterilen fiyatlar müşterilerin maddeler için ödeyeceği gerçek tutara yakın bir yöntemdir. Bu API, tüm basit iskonto türlerini içerir: bağlantı tabanlı, bağlılık programı tabanlı, katalog tabanlı ve kanal tabanlı indirimler. Ek olarak satıcılar, uygulanan indirimlerle ilgili adları ve geçerlilik bilgilerini döndürür ve böylece perakendeciler fiyat için daha ayrıntılı bir açıklama sağlayabilir ve iskontonun geçerliliği yakında sona erecekse aciliyet hissi yaratmasını sağlar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Commerce satış sürümünde, **GetActivePrices** uygulama programlama arabirimi (API), basit iskontolar (örneğin, sepetteki diğer maddelere bağımlı olmayan tek satırlı iskontolar) içeren fiyatları döndürür. Bu şekilde, gösterilen fiyatlar müşterilerin maddeler için ödeyeceği gerçek tutara yakın bir yöntemdir. Bu API, tüm basit iskonto türlerini içerir: bağlantı tabanlı, bağlılık programı tabanlı, katalog tabanlı ve kanal tabanlı indirimler. Ek olarak, satıcılar, uygulanan indirimlerle ilgili adları ve geçerlilik bilgilerini döndürür ve böylece perakendeciler fiyat için daha ayrıntılı bir açıklama sağlayabilir ve iskontonun geçerliliği yakında sona erdiğinde acilinin bir fikir yaratmasını sağlar.

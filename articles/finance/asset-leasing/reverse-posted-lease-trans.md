@@ -2,11 +2,13 @@
 title: Deftere nakledilen kira hareketlerini ters kaydetme
 description: Bu konu, deftere nakledilen bir kira hareketinin nasıl ters kaydedilebileceğini açıklamaktadır. Varlık Kiralama üzerinden oluşturulan tüm hareketler için ters kayıt oluşturulabilir.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseLeaseTransactions
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f76b75a968e9ee9a3c545f646077c16282b5b185aa88025653f7443fbcfd9581
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770677"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969540"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Deftere nakledilen kira hareketlerini ters kaydetme
 
@@ -53,6 +55,3 @@ Tersine kaydedilen hareketi iptal etmek için aşağıdaki adımları izleyin.
 **Ters kayıt izleme**'yi seçtiğinizde, hem orijinal hareketleri, hem de ters kayıt hareketlerini, bağlı izleme numarasıyla birlikte gösteren bir iletişim kutusu görüntülenir.
 
 İlgili **Planlamalar** sayfasını kullanarak iptal işlemlerini de izleyebilirsiniz. **Ters kayıt** alanının işareti kaldırılmış, **Günlük deftere nakledildi** alanı seçilidir. Ayrıca, **En son günlük numarası** alanı iptal hareketinin günlük numarasıyla güncelleştirilir ve **Günlük numarası** alanı ters kayıt günlük numarasıyla güncelleştirilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

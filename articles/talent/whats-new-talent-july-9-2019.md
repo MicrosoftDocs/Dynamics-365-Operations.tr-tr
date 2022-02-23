@@ -115,6 +115,3 @@ Aşağıdaki varlıklar Common Data Service içindeki özel alanlar için etkinl
 - **İzin türü**
 - **Çalışan banka hesabı**
 - **İş takvimi**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

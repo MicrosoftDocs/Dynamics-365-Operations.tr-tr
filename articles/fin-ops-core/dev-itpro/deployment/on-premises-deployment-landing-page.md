@@ -2,26 +2,26 @@
 title: Şirket içi dağıtım giriş sayfası
 description: bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar.
 author: sericks007
-ms.date: 07/01/2021
+manager: AnnBe
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom:
-- "55651"
-- intro-internal
+ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712580"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679356"
 ---
 # <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım giriş sayfası
 
@@ -33,22 +33,19 @@ Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir �
 - [Şirket içi dağıtıma genel bakış](on-premises-overview.md)
 - [Şirket içi dağıtımları planlama ve hazırlama](plan-onprem-deployment.md)
 - [Şirket içi dağıtımlar için sistem gereksinimleri](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Microsoft Dynamics 365 Finance + Operations (şirket içi) destekli yazılım](onprem-compatibility.md)
 - [Şirket içi ortamlar için donanım boyutlandırma gereksinimleri](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Finance + Operations (on-premises) satın alma](../../fin-ops/get-started/purchase-on-premises.md)
 - [Bulut ile şirket içi özellikleri karşılaştırma](../../fin-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>İşe al
 - [Lifecycle Services'da (LCS) şirket içi projeler oluşturma](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Şirket içi ortamlar oluşturma ve dağıtma (Platform update 41 ve sonrası)](setup-deploy-on-premises-pu41.md)
-- [Şirket içi ortamları ayarlama ve dağıtma (Platform güncelleştirmeleri 12 - 40 arası)](setup-deploy-on-premises-pu12.md)
+- [Şirket içi ortamlar oluşturma ve dağıtma (Platform update 12 ve sonrası)](setup-deploy-on-premises-pu12.md)
 - [Şirket içi ortamlara ağ yazıcısı cihazları kurma](../analytics/install-network-printer-onprem.md)
 - [Şirket içi dağıtımlar için SQL Server Reporting Services'ı yapılandırma](../analytics/configure-ssrs-on-premises.md)
 - [Özel modeller geliştirme ve şirket içi ortamlara dağıtma](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Şirket içi dağıtımınızda çalışın
-- [SQL Server Reporting Services (SSRS) düğümlerinde yüksek kullanılabilirliği Yapılandırma](onprem-SSRSHA.md)
-- [Belge yönetimi yapılandırma](../../fin-ops/organization-administration/configure-document-management.md)
+- [Belge yönetimini konfigüre etme](../../fin-ops/organization-administration/configure-document-management.md)
 - [Elektronik raporlama (ER) yapılandırmalarını içe aktarma](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Şirket içi dağıtımlarda belge oluşturma, yayınlama ve yazdırma](../analytics/printing-capabilities-on-premises.md)
 - [Şirket içi ortamlar için proxy'ler yapılandırma](onprem-reverseproxy.md)
@@ -59,10 +56,10 @@ Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir �
 - [Birden çok ortam için aynı AD FS örneğini yeniden kullanma](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Commerce
-- [Şirket içi dağıtımlarda kullanılabilen Commerce özellikleri](../../../commerce/retail-onprem.md)
+- [Şirket içi dağıtımlarda kullanılabilen Commerce özellikleri](../../../retail/retail-onprem.md)
 - [Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları](deploy-retail-onprem.md)
-- [Modern POS (MPOS) yapılandırma, yükleme ve etkinleştirme](../../../commerce/retail-modern-pos-device-activation.md)
-- [Commerce Scale Unit'i yapılandırma ve yükleme](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Modern POS (MPOS) yapılandırma, yükleme ve etkinleştirme](../../../retail/retail-modern-pos-device-activation.md)
+- [Commerce Scale Unit'i yapılandırma ve yükleme](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Yükselt
 - [Şirket ortamlar için yerinde yükseltme işlemi](../migration-upgrade/on-prem-upgrade.md)
@@ -75,6 +72,3 @@ Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir �
 - [Finance and Operations için Kaldırılan veya artık kullanılmayan özellikler](../migration-upgrade/deprecated-features.md)
 - [Yazılım yaşam döngüsü ilkesi ve şirket içi sürümler](../migration-upgrade/on-prem-version-update-policy.md)
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

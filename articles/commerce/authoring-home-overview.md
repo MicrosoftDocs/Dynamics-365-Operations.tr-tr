@@ -2,23 +2,27 @@
 title: Yazma sayfasına genel bakış
 description: Bu konu Microsoft Dynamics 365 Commerce ile tümleştirme hakkında bilgi sağlar.
 author: brendans
+manager: annbe
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984633"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416405"
 ---
 # <a name="authoring-page-overview"></a>Yazma sayfasına genel bakış
 
@@ -26,6 +30,8 @@ ms.locfileid: "7984633"
  [!include [banner](includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 Commerce ile tümleştirme hakkında bilgi sağlar.
+
+## <a name="overview"></a>Genel Bakış
 
 Çeşitli iş gereksinimlerini desteklemek üzere Web siteleri oluşturulabilir. Tüm bir işi temsil edebilir, iş için tek bir kanal sunabilir veya belirli bir izleyiciyi ya da bir hedef kitle segmentini hedefleyebilir. Örneğin, bir giyme üreticisinin sahip olduğu tüm markalar içeren bir Web sitesi bulunabilir. Aynı kıyafet üreticisi, bu markalar için ayrı bir Web sitesine sahip olabilir ve ayrıca Özellik lüks moda, dış giyim ve çocuk modası gibi bir dizi Web sitesi bulunabilir.
 
@@ -39,7 +45,7 @@ Dynamics 365 Commerce birden çok Web sitesinin oluşturulmasını ve yönetilme
 
 Aşağıdaki resimde, düzenleme sayfası gösterilmektedir.
 
-![Dynamics 365 Commerce yazma sayfası.](../commerce/media/authoring_tools_01.png)
+![Dynamics 365 Commerce yazma sayfası](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>Araç seçmek için Giriş düğmesini kullanın
 
@@ -116,6 +122,3 @@ Geliştirme aracı yüklendikten sonra, yazma sayfasına dönmek için **Giriş*
 [Siteniz için arama motoru optimizasyonu (SEO) konuları](search-engine-optimization-considerations.md)
 
 [İçerik Güvenliği İlkesini (CSP) yönetme](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

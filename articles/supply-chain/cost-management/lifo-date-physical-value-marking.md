@@ -2,9 +2,11 @@
 title: Fiziksel değer ve işaretleme ile LIFO Tarihi
 description: Son giren ilk çıkar Tarihi (LIFO Tarihi), LIFO ilkesine dayanan bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır. LIFO Tarihini kullanarak, çıkıştan önce hiçbir giriş yoksa, çıkış, çıkış tarihinden sonraki tüm girişlere karşılık olarak kapatılır. Aynı tarihteki birkaç çıkış son çıkış, son giriş sırasıyla kapatılabilir.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567571"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967645"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO Tarihi
 
@@ -55,9 +57,7 @@ Bu örnekte ürün model grubu, fiziksel değeri dahil edecek şekilde işaretle
 
 Yeni cari ortalama maliyet fiyatı, 15,00 ABD Doları tutarında mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. 
 
-Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanılmadığında LIFO Tarihi stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
-
-![Fiziksel değeri dahil et seçeneği kullanılmadan LIFO Tarihi.](./media/lifodatewithoutincludephysicalvalue.gif) 
+Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanılmadığında LIFO Tarihi stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![Fiziksel Değeri Dahil Et Seçeneği ile LIFO Tarihi](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -92,9 +92,7 @@ Aşağıdaki çizimde bu hareketler gösterilmiştir:
 
 Yeni cari ortalama maliyet fiyatı, 20,00 ABD Doları tutarında mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. 
 
-Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
-
-![Fiziksel değeri dahil et seçeneği kullanılarak LIFO Tarihi.](./media/lifodatewithincludephysicalvalue.gif) 
+Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![Fiziksel Değeri Dahil Et Seçeneği ile LIFO Tarihi](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -140,7 +138,7 @@ Aşağıdaki çizimde bu hareketler gösterilmiştir:
 
 Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. 
 
-Aşağıdaki çizimde, çıkışlar ve girişler arasında işaretleme kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![İşaretleme ile LIFO Tarihi.](./media/lifodatewithmarking.gif) 
+Aşağıdaki çizimde, çıkışlar ve girişler arasında işaretleme kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![İşaretleme ile LIFO Tarihi    ](./media/lifodatewithmarking.gif) 
 
 **Diyagramın anahtarı**
 
@@ -158,6 +156,3 @@ Aşağıdaki çizimde, çıkışlar ve girişler arasında işaretleme kullanıl
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

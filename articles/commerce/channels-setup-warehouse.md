@@ -2,30 +2,36 @@
 title: Ambar ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir kanalla kullanılacak bir ambarın nasıl ayarlanacağı açıklanmaktadır.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734031"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416418"
 ---
 # <a name="warehouse-set-up"></a>Ambarı ayarlama
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir kanalla kullanılacak bir ambarın nasıl ayarlanacağı açıklanmaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Her Commerce kanalı, yapılandırılmış bir ambarın kendisiyle ilişkilendirilmesini gerektirir. Aşağıdaki yordamlarda, bir Commerce kanalı için ambar ayarlamak üzere gereken minimum yapılandırma verilmektedir. Ambar kurulumuyla ilgili daha fazla bilgi için lütfen [Ambar yönetimine genel bakış](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)'a bakın.
 
@@ -45,9 +51,9 @@ Bir ambar tesisini yapılandırmak için bu adımları izleyin.
 
 Aşağıdaki resimde örnek bir ambar tesisi gösterilmektedir.
 
-![Örnek ambar tesisi.](media/warehouse-site.png)
+![Örnek ambar tesisi](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse&quot;></a>Ambar ayarlama
+## <a name="set-up-a-warehouse"></a>Ambar ayarlama
 
 Bir ambarı ayarlamak için bu adımları izleyin.
 
@@ -61,14 +67,14 @@ Bir ambarı ayarlamak için bu adımları izleyin.
     - Bir **Transit ambarı** ayarlamak istiyorsanız, bu adımları izleyerek, **Tür** ayarı **Transit** olan ek bir ambar oluşturmanız gerekir.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 
-## <a name=&quot;set-up-inventory-aisles&quot;></a>Stok koridorlarını ayarla
+## <a name="set-up-inventory-aisles"></a>Stok koridorlarını ayarla
 
 Stok koridorları ayarlamak için bu adımları izleyin.
 
 1. Gezinti bölmesinde **Modüller \> Perakende ve ticaret \> Kanal kurulumu \> Yerleşim ayarı \> Stok koridorları**'na gidin.
 1. Eylem bölmesinde **Yeni**'yi seçin.
 1. **Ambar** açılır listesinde, önceden oluşturulan ambarı seçin.
-1. **Koridor** alanına bir ad girin (örneğin &quot;Var").
+1. **Koridor** alanına bir ad girin (örneğin "Var").
 1. **Ad** alanına bir ad girin (örneğin "Varsayılan koridor").
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 
@@ -98,7 +104,7 @@ Standart, hasarlı ve iade stok için ambar stok yerleşimleri ayarlamak üzere 
     
 Aşağıdaki resimde San Francisco'daki bir ambar stok yerleşiminin kurulumu gösterilmektedir.
 
-![Örnek stok yerleşimi kurulumu.](media/warehouse-inventory-locations.png)
+![Örnek stok yerleşimi kurulumu](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Ambar kurulumunu tamamlama
 
@@ -121,7 +127,7 @@ Ambar kurulumunu tamamlamak için bu adımları izleyin.
 
 Aşağıdaki resimde, yapılandırılmış bir ambarın ayrıntıları gösterilmektedir.
 
-![Yapılandırılmış ambar örneği.](media/warehouse-sample.png)
+![Yapılandırılmış ambar örneği](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -141,6 +147,3 @@ Aşağıdaki resimde, yapılandırılmış bir ambarın ayrıntıları gösteril
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

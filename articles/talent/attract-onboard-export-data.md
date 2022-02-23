@@ -113,5 +113,3 @@ Bu yükleme, aşağıdakileri içeren bir .zip dosyasıdır:
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Dynamics 365 Talent: Attract ve Dynamics 365 Talent: Onboard Uygulamalarının devre dışı bırakılması](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

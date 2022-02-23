@@ -2,30 +2,36 @@
 title: Kuruluş hiyerarşilerini ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te organizasyon hiyerarşilerinin nasıl ayarlanacağı açıklanmaktadır.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746028"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416387"
 ---
 # <a name="set-up-organization-hierarchies"></a>Kuruluş hiyerarşilerini ayarlama
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te organizasyon hiyerarşilerinin nasıl ayarlanacağı açıklanmaktadır.
+
+## <a name="overview"></a>Özet
 
 Kanalları oluşturmadan önce, organizasyon hiyerarşilerinizi ayarlandığınızdan emin olmanız gerekir.
 
@@ -54,7 +60,7 @@ Bir organizasyon hiyerarşisi oluşturmak için bu adımları izleyin.
 
 Aşağıdaki resimde, hayali "Adventure Works" mağazaları kümesi için oluşturulmuş örnek bir organizasyon hiyerarşisi gösterilmektedir.
 
-![Örnek organizasyon hiyerarşisi oluşturma.](media/organizational-hierarchies.png)
+![Örnek organizasyon hiyerarşisi oluşturma](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Hiyerarşiye organizasyonlar ekleme
 
@@ -67,7 +73,7 @@ Bir hiyerarşiye organizasyonlar eklemek için bu adımları izleyin.
 
 Aşağıdaki resimde, "Mall", "Outlet", "Çevrimiçi" ve "Çağrı Merkezi" kanalları için dört maliyet merkezi yer alan hiyerarşi köküne eklenmiş bir tüzel kişilik gösterilmektedir. Bunun ardından, çeşitli perakende ve çağrı merkezi kanalları ve çevrimiçi kanallar her birine eklenebilir.
 
-![Örnek hiyerarşi tasarımcısı.](media/hierarchy-designer.png)
+![Örnek hiyerarşi tasarımcısı](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -82,6 +88,3 @@ Aşağıdaki resimde, "Mall", "Outlet", "Çevrimiçi" ve "Çağrı Merkezi" kana
 [Kanallara genel bakış](channels-overview.md)
 
 [Kanal kurulum önkoşulları](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

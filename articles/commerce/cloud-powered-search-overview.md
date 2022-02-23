@@ -2,29 +2,36 @@
 title: Bulut destekli aramaya genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta bulut destekli aramanın genel görünümünü vermektedir.
 author: ashishmsft
+manager: annbe
 ms.date: 06/29/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983681"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416303"
 ---
 # <a name="cloud-powered-search-overview"></a>Bulut destekli aramaya genel bakış
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta bulut destekli aramanın genel görünümünü vermektedir.
+
+## <a name="overview"></a>Genel Bakış
 
 Ürün bulunabilirliği, müşterilerin kategorilerine, aramaya ve filtre uygulamasına göre hızlı ve kolay bir şekilde ürünleri bulabilmesini sağlamaya yardımcı olur. Perakendeciler, tüm kanallarda müşteri etkileşimi için ürün keşfini bir ana araç olarak kabul edin.
 
@@ -40,7 +47,7 @@ Dynamics 365 Commerce arama deneyiminin, perakendecilere daha iyi ürün bulunab
 
 Aşağıdaki çizimde, tipik gözatma ve arama işlevlerinin bir örneği gösterilmektedir.
 
-![Arama giriş sayfası.](./media/SearchLanding.png)
+![Arama giriş sayfası](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Çok yönlü gezinme ve seçim Özeti 
 
@@ -50,7 +57,7 @@ Aşağıdaki çizimde, tipik gözatma ve arama işlevlerinin bir örneği göste
 
 Aşağıdaki çizimde, çok yönlü gezintinin aramada kullanıldığı bir örnek gösterilmektedir.
 
-![Seçim özeti.](./media/ChoiceSummary.png)
+![Seçim özeti](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Derinlikli otomatik önerme
 
@@ -60,7 +67,7 @@ Dynamics 365 Commerce ayrıca çeşitli kategorilerdeki anahtar sözcük eşleş
 
 Aşağıdaki çizimde, derinlikli otomatik önerinin kullanıldığı bir örnek gösterilmektedir.
 
-![derinlikli otomatik önerme.](./media/ImmersiveAutoSuggestUX.png)
+![derinlikli otomatik önerme](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Sırala
 
@@ -68,13 +75,10 @@ Müşterilerimize, Dynamics 365 Commerce geliştirilmiş sıralama; arama sonuç
 
 >[!NOTE]
 >Bu bulut destekli arama özellikleri 10.0.8 sürümünden başlayarak kullanılabilir. **Commerce parametreleri > konfigürasyon parametrelerinin** altında "ProductSearch.UseAzureSearch set to 'true'" olduğundan emin olun. 
-![Bulut destekli arama için yapılandırma parametreleri.](./media/CloudPoweredSearchConfigurationParameters.png)
+![Bulut destekli arama için yapılandırma parametreleri](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış](category-search-page-overview.md)
 
 [SEO meta verilerini yönetme](manage-seo-metadata.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Üretim yapılarını serbest bırakma
 description: Bu konu, ürünleri mühendislik sürümleriyle birlikte serbest bırakmanın yanı sıra tüm ürün yapılarını nasıl serbest bırakabileceğinizi açıklar. Bu şekilde, mühendislikle ilgili ürün verilerinin farklı tüzel kişiliklerde kolayca yeniden kullanılabilmesini sağlayabilirsiniz.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567499"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967244"
 ---
 # <a name="release-product-structures"></a>Üretim yapılarını serbest bırakma
 
@@ -75,6 +77,8 @@ Bir ürünün nasıl kabul edildiğiyle ilgili örnek için bkz. [Ürünü yerel
 
 Tüm operasyonel şirketler aynı ürün verilerine ihtiyaç duymaz. Genel olarak, mühendislik ürünleri üreten operasyonel şirketler bir ürün reçetesi gerektirirken, sadece mühendislik ürünleri satan operasyonel şirketler ürün reçetesi gerektirmez. Ürünlerin serbest bırakılması için kullanılan parametreleri oluşturmak için serbest bırakma ilkelerini kullanabilirsiniz.
 
+Mühendislik ürünleri için serbest bırakma ilkesi mühendislik ürün kategorisinde atanır ve alan zorunludur. Standart ürünlerde ilke, paylaşılan ürüne atanır ve alan isteğe bağlıdır.
+
 Mühendislik ürünü kategorileri hakkında daha fazla bilgi için bkz. [Mühendislik sürümleri ve mühendislik ürünü kategorileri](engineering-versions-product-category.md).
 
 Serbest bırakma işlemi sırasında ayarları etkileyebilirsiniz.
@@ -103,7 +107,6 @@ Serbest bırakma işlemi sırasında ayarları etkileyebilirsiniz.
 | Alan | Tanım |
 |---|---|
 | Ürün türü | İlkenin *Madde* veya *Hizmet* türündeki ürünler için geçerli olup olmadığını seçin. Kaydı kaydettikten sonra bu ayarı değiştiremezseniz. |
-| Üretim türü | Bu alan yalnızca sisteminizde [formül değişikliği yönetimini](manage-formula-changes.md) etkinleştirdiğinizde görünür. Bu sürüm ilkesinin geçerli olduğu üretim türünü seçin:<ul><li>**Ortak ürün** – Ortak ürünleri yönetmek için bu sürüm ilkesini kullanın. Ortak ürünler proses üretimi sırasında üretilir ve sürümlü veya mühendislik ürünleri değildir. Ortak ürünler için sürüm ilkeleri, **Depolama boyut grubu** ve **İzleme boyut grubu** gibi önemli ayarların bir şirkete yayınlanmadan önce Serbest bırakılmış bir ürün şablonu kullanılarak ayarlanmasını sağlamaya yardımcı olabilir.</li><li>**Yan ürün** – Yan ürünleri yönetmek için bu sürüm ilkesini kullanın. Yan ürünler proses üretimi sırasında üretilir ve sürümlü veya mühendislik ürünleri değildir. Yan ürünler için sürüm ilkeleri, **Depolama boyut grubu** ve **İzleme boyut grubu** gibi önemli ayarların bir şirkete yayınlanmadan önce Serbest bırakılmış bir ürün şablonu kullanılarak ayarlanmasını sağlamaya yardımcı olabilir.</li><li>**Hiçbiri** – Sürümlü veya mühendislik ürünü olmayan standart ürünleri, ortak ürünleri veya yan ürünleri yönetmek için bu ilkeyi kullanın.</li><li>**Planlama maddesi** – Proses üretimi kullanılarak üretilen planlama maddelerini yönetmek için bu serbest bırakma ilkesini kullanın. Planlama maddeleri formüller kullanır. Formül öğelerine benzerler, ancak bitmiş ürünler değil, yalnızca ortak ürünler ve yan ürünler üretmek için kullanılırlar.</li><li>**Ürün reçetesi** – Formül kullanmayan ve genellikle (ancak zorunlu değil) ürün reçetelerini içermeyen mühendislik ürünlerini yönetmek için bu sürüm politikasını kullanın.</li><li>**Formül** – Proses üretimi kullanılarak üretilen bimiş maddelerini yönetmek için bu serbest bırakma ilkesini kullanın. Bu maddelerin bir formülü olacak, ancak ürün reçetesi olmayacak.</li></ul> |
 | Şablonları uygula | İlke kullanıldığında ürün serbest bırakma şablonlarının uygulanıp uygulanmayacağını ve nasıl uygulanacağını belirtmek için aşağıdaki seçeneklerden birini belirleyin:<ul><li>**Her zaman**: Serbest bırakılan ürüne yönelik bir şablon her zaman kullanılmalıdır. Bu seçeneği belirlerseniz serbest bırakma işlemi yaptığınız her şirket için kullanılan şablonu belirtmek üzere **Tüm ürünler** hızlı sekmesini kullanın. **Tüm ürünler** hızlı sekmesinde listelenen her şirket için bir şablon belirtmezseniz ilkeyi kaydetmeye çalıştığınızda bir hata alırsınız.</li><li>**İsteğe bağlı**: **Tüm ürünler** hızlı sekmesinde listelenen bir şirket için serbest bırakılan bir şablon belirtilirse, bu şablon o şirkete serbest bırakma işlemi uyguladığınızda kullanılır. Aksi takdirde hiçbir şablon kullanılmaz. Bu seçeneği belirlerseniz, tüm şirketlere şablon atamadan ilkeyi kaydedebilirsiniz. (Hiçbir uyarı gösterilmez.)</li><li>**Hiçbir zaman**: **Tüm ürünler** hızlı sekmesinde listelenen şirketler için bir şablon belirtilse bile, serbest bırakma işlemi yaptığınız şirketler için hiçbir serbest bırakılan şablon kullanılmaz. Şablon sütunları kullanılamaz.</li></ul> |
 | Active | Serbest bırakma ilkelerinizin korunmasına yardımcı olmak için bu seçeneği kullanın. Bunu, kullandığınız tüm serbest bırakma ilkeleri için *Evet* olarak ayarlayın. Kullanılmadığında etkin olmayan bir serbest bırakma ilkesini işaretlemek için *Hayır* olarak ayarlayın. Mühendislik ürünü kategorisine atanan bir serbest bırakma ilkesini devre dışı bırakamayacağınızı ve yalnızca etkin olmayan serbest bırakma ilkelerini silebileceğinizi unutmayın. |
 
@@ -156,6 +159,3 @@ Bu davranış, yalnızca bir ürün doğrudan serbest bırakılması için seçi
 Örneğin, X ürünü *Tasarım dolapları* ürün sahibi grubuna atanır. X ürünü, *Tasarım hoparlörleri* ürün sahibi grubuna atanmış, Y ürününün ürün reçetesinin de bir parçasıdır. *Tasarım hoparlörleri* ürün sahibi grubundaki bir kullanıcı, Y ürününü ve ürün reçetesini serbest bıraktığında, X ürünü, Y ürünü ile birlikte serbest bırakılacaktır.
 
 Daha fazla bilgi için bkz. [Ürün sahipleri](product-owner.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,6 +62,3 @@ En az bir aday teklif aşamasını tamamladıktan sonra, bir işi **pozisyon dol
    > En az bir aday teklif aşamasını tamamladıktan sonra, bir işi **pozisyon doldurulmuş** olarak kapatabilirsiniz. İş uygulamasına ait **teklif kabul edildi** seçilmişse veya uygulama teklif olarak **kabul edildi** durumunu görüntülemiyorsa, **konum doldurulmuş** seçeneği **neden** listesinde görüntülenmez.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

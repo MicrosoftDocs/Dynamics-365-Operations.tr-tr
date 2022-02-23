@@ -1,36 +1,40 @@
 ---
-title: Nakit pozisyonu
+title: Nakit pozisyonu (Önizleme)
 description: Bu konuda, Nakit akışı tahmini özelliğinin belirli bir dönem için bir kuruluşun nakit pozisyonunu nasıl tahmin ettiği açıklanmaktadır. Ayrıca, farklı dönemlerin tahminlerini göstermek için kullanılabilen seçenekler de açıklanmıştır.
 author: ShivamPandey-msft
-ms.date: 12/21/2021
+manager: AnnBe
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 64b8dcd43024e5c26d33bf12c5fe198711adde56
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968999"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645902"
 ---
-# <a name="cash-position"></a>Nakit pozisyonu
+# <a name="cash-position-preview"></a>Nakit pozisyonu (önizleme)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Nakit pozisyonu, yakın döneme yönelik bir tahmin olan nakit akışı tahminidir. Bu tahmin, ödeme bekleyen fatura ve siparişleri ödeyen müşterilerden gelen nakit tahsilatlarının tahminine ve satın alma faturaları ile siparişleri için satıcılara ödenen nakit ödemelerinin tahminine dayalıdır.
 
 Sistem, müşteri ödemelerini tahmin ederken müşteri ödeme tahmini özelliğinden ödeme tahminlerini kullanır. Ödeme tahminleri olmaksızın, her müşteri için müşteri faturasını ödemeye dönüştürmek için gerekli ortalama süre kullanılarak ödeme tarihi hesaplanır. Açık müşteri siparişleri için sistem, faturalandırılacak müşteri başına sipariş satırları için ortalama gün sayısını kullanarak fatura tarihini hesaplar. Ardından, fatura tarihini ödeme tahmini işlevi için giriş olarak kullanır. Müşteri ödeme tahmin işlevi, her sipariş satırı için bir ödeme tarihi hesaplar. 
 
-Bekleyen faturaların ödeme tarihi, tahmin edilen demet olasılıklarından elde edilen kümülatif dağılım işlevinin yüzde ellisine karşılık gelen bir tarih seçerek ödeme tahminlerinden hesaplanır.
+<*Need text from Jarek or Dave on how payment predictions are converted to a date*> Bekleyen faturaların ödeme tarihi, tahmin edilen demet olasılıklarından elde edilen kümülatif dağılım işlevinin yüzde ellisine karşılık gelen bir tarih seçerek ödeme tahminlerinden tahmin edilir [*estimated*].
 
 Satıcılara yapılan ödemeleri tahmin etmek için benzer bir yaklaşım kullanılır. Sistem, her satıcıyla ilgili olarak bir satıcı faturasını ödemeye dönüştürmek için gereken ortalama süreyi hesaplar. Ardından bu gün sayısı, ödeme tarihini hesaplamak için kullanılır. Açık satıcı siparişleri için sistem, her satıcı için sipariş satırlarını faturaya dönüştürmek için gereken ortalama gün sayısını dikkate alarak fatura tarihini hesaplar. Ardından sistem, her satıcıyla ilgili olarak satıcı faturasını ödemeye dönüştürmek için gereken ortalama süreyi kullanarak ödeme tarihini hesaplar.
 
@@ -45,16 +49,5 @@ Satıcılara yapılan ödemeleri tahmin etmek için benzer bir yaklaşım kullan
 
 Nakit pozisyonunu kaydetmek ve düzenlemek için anlık görüntü oluşturun. Anlık görüntülerle nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Anlık görüntülere genel bakış](payment-snapshots.md).
 
-## <a name="details-of-the-cash-position-capability"></a>Nakit pozisyonu özelliğinin ayrıntıları 
-
-Nakit pozisyonu özelliği aşağıdaki işlevleri içerir. 
-
-- Nakit pozisyonu özelliği, sistemdeki varolan belgelere dayalı nakit akışını ve harici sistemlerden içe aktarılan nakit giriş ve çıkış satırlarını gösterir.
-- Harici sistemlerden gelen nakit akışı verilerini Dynamics 365 Finance'e tümleştirmeyi kolaylaştırır. Nakit pozisyonu, veri içe-dışa aktarma çerçevesini de kullanabilir. Bu çerçeve Excel OData ile tümleştirmeyi kolaylaştırır. Ayrıca, kapsamlı bir nakit pozisyonu çözümü oluşturmak için birden fazla kaynaktaki verileri birleştirebilirsiniz.
-- Akıllı bir nakit pozisyonu sağlar. Nakit pozisyonu, şirketin hesaplarına nakit gelmesini bekleyebileceği zamanı tahmin etmek için müşterinin ödeme davranışına göre oluşturulur.
-- Müşteri siparişleri ve faturaları için müşteri ödeme tahmini AI işlevi, bir sipariş veya fatura ödeneceği sırada müşterinin geçmiş ödeme davranışlarını belirlemek için kullanılır.
-- Satıcı siparişleri ve faturalarında, bir satıcı siparişi veya faturasının ne zaman ödeneceğini belirleyerek nakit çıkışlarını daha doğru hale getirmek için satıcı başına sevkiyat ve fatura ile fatura ödeme arasında ortalama bir süre kullanırız.
-
-Bu, haznedar için geçmiş ödeme davranışlarına dayalı olarak daha doğru bir nakit akışı görünümü oluşturur. 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+#### <a name="privacy-notice"></a>Gizlilik bildirimi
+Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.

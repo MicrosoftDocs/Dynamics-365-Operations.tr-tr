@@ -1,10 +1,12 @@
 ---
 title: Servis abonelikleri
 description: Abonelikler zaman ve malzemeler projesini temel alır. Abonelikleri bir projeden, Servis abonelikleri sayfasından veya bir servis abonelik grubu kullanarak oluşturabilirsiniz.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98e192cb4553d37437a0637af2006550b4340d84
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 04df717dcf6d4710389f06e8534ea24d8697a4cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570093"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965817"
 ---
 # <a name="service-subscriptions"></a>Servis abonelikleri
 
@@ -35,6 +37,3 @@ Dönem kodu, abonelik ücreti döneminin kapsamını veya aboneliğin faturaland
 Dönem kodu servis abonelik grubunda tanımlanır. Servis abonelik grubu aracılığıyla abonelikler için tanımlanır. Oluşturduğunuz herhangi bir yeni abonelik ücreti önerilen bir başlangıç tarihine sahiptir. Bu, oluşturulan ilk dönemse, dönemin başlangıç tarihi veya ikinci ya da sonraki bir dönemse, önceki dönemin bitiş tarihidir.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

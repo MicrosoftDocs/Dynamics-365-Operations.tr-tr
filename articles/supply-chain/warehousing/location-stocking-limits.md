@@ -2,23 +2,26 @@
 title: Konum stoklama sınırları
 description: Bu konu, konum stoklama limitlerinin işlevini açıklamaktadır.
 author: perlynne
+manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
+ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714174"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "4607291"
 ---
 # <a name="location-stocking-limits"></a>Konum stoklama sınırları
 
@@ -81,7 +84,7 @@ Bu örnekte, iki satır için bir satın alma siparişi teslim alma akışı ça
 
 Önce *S* boyutunda *4* birim *PL* miktarı alacak ve oluşturulan iş için yerine koyma satırı konumlarını gözden geçireceksiniz. Daha sonra *L* boyutunda *4* birim *PL* miktarı alacak ve oluşturulan iş için yerine koyma satırı konumlarını gözden geçireceksiniz.
 
-1. Ambar Yönetimi mobil uygulamasında, kullanıcı kimliği *24* ve parola olarak *1*'i kullanarak oturum açın.
+1. Ambar uygulamasında, kullanıcı kimliği *24* ve parola olarak *1*'i kullanarak oturum açın.
 1. **Gelen** \> **Satın Alma Teslim Alma**'ya gidin.
 1. Madde numarası *D0013*'ten *S* boyutunda *4* *PL* alır.
 1. Oluşturulan yerine koyma işini gözden geçirin. Aşağıdaki sonucu görmeniz gerekir:
@@ -101,6 +104,3 @@ Bu görünür hatayı açıklamak için konum stoklama limitlerinin seçim ölç
 
 > [!NOTE]
 > Aynı konumda farklı miktarları olan maddelerin stok yenilemesini denetlemek için konum stoklama limitlerini kullanamazsınız. Bu durumda, bir *stok yenileme şablonu* kullanın.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

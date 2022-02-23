@@ -2,24 +2,26 @@
 title: Şirket içi dağıtımlar için SQL Server Reporting Services'ı yapılandırma
 description: Bu konu, SQL Server Raporlama Servislerinin (SSRS) bir şirket içi dağıtım için yapılandırılması hakkında bilgi sağlar.
 author: PeterRFriis
+manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: peterfriis
+ms.author: perahlff
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 3853158afdab545dacda996c984b265eb8947db7f90faf80319841eb01c14910
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2577705b04beef1f8b03f83ed8536be2e6ab6e83
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726369"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683933"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>Şirket içi dağıtımlar için SQL Server Reporting Services'ı yapılandırma
 
@@ -31,66 +33,63 @@ Bu konudaki adımları kullanarak SQL Server Reporting Services (SSRS) Microsoft
 2. Geçerli makinenin adı olması gereken varsayılan **Sunucu adı**'nı ve **Sunucu Örneğini Raporla**, **MSSQLSERVER** bırakın.
 3. **Bağlan** üzerine tıklayın.
 
-    [![Raporlama servisleri yapılandırma bağlantısı.](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)
+    [![Raporlama servisleri yapılandırma bağlantısı](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)
 
 4. **Hizmet Hesabı** sekmesine tıklayın ve ayarların aşağıdaki grafikle eşleştiğini doğrulayın.
 
-    [![Servis hesabı sekmesi.](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)
+    [![Servis hesabı sekmesi](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)
 
 5. **Web Hizmet URL'si** sekmesine tıklayın ve ayarların aşağıdaki grafikle eşleştiğini doğrulayın.
 
-    [![Web hizmeti URL sekmesi.](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)
+    [![Web hizmeti URL sekmesi](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)
 
 6. **Veritabanı** sekmesine tıklayın ve **Veritabanı Adı** ve **Kimlik bilgisi ayarları**'nın aşağıdaki grafikle eşleştiğini doğrulayın.
 
     > [!NOTE]
     > Yeni bir veritabanı oluşturmanız gerekir. Bunu yapmak için **Veritabanıın Değiştir** üzerine tıklayın ve yeni veritabanı adının **DynamicsAxReportServer** olduğunu doğrulayın.
 
-    [![veritabanı sekmesi.](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)
+    [![veritabanı sekmesi](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)
 
 7. **Web Portal URL'si** sekmesine tıklayın ve ayarların aşağıdaki grafikle eşleştiğini doğrulayın.
 
     > [!NOTE]
     > Portalı oluşturmak ve düzgün biçimde yapılandırmak için **Uygula**'yı tıklamanız gerekir.
 
-    [![web portal url sekmesi.](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
+    [![web portal url sekmesi](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
 
     Portal yapılandırıldıktan sonra, **Web Portalı** sekmesi aşağıdaki grafikle eşleşecektir.
 
-    [![web portal url sekmesi.](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
+    [![web portal url sekmesi](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
 
 8. SQL Server Raporlama Servisleri web portalını görüntülemek için raporlar URL'sini tıklatın.
 9. Portaldayken, **Dynamics** adlı yeni bir klasör oluşturun.
 
-    [![dynamics klasörü.](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+    [![dynamics klasörü](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
 
 10. **Raporlama Servisleri Yapılandırma Yöneticisi** içerisinde, **E-posta Ayarları** sekmesine tıklayın ve ayarların aşağıdaki grafikle eşleştiğini doğrulayın.
 
-    [![e-posta ayarları sekmesi.](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)
+    [![e-posta ayarları sekmesi](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)
 
 11. **Yürütme Hesabı** sekmesine tıklayın ve ayarların aşağıdaki grafikle eşleştiğini doğrulayın.
 
-    [![yürütme hesabı sekmesi.](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
+    [![yürütme hesabı sekmesi](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
 
     **Şifreleme Anahtarları** sekmesindeki varsayılan ayarları değiştirmeyin.
 
-    [![şifreleme anahtarları sekmesi.](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    [![şifreleme anahtarları sekmesi](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
 
 12. **Abonelik Ayarları** sekmesine tıklayın ve ayarların aşağıdaki grafikle eşleştiğini doğrulayın.
 
-    [![abonelik ayarları sekmesi.](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
+    [![abonelik ayarları sekmesi](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
 
     **Dağıtımı Ölçeklendir** sekmesindeki varsayılan ayarları değiştirmeyin.
 
-    [![dağıtımı ölçeklendir sekmesi.](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    [![dağıtımı ölçeklendir sekmesi](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
 
     **Power BI tümleştirmesi** sekmesindeki varsayılan ayarları değiştirmeyin.
 
-    [![power bi tümleştirme sekmesi.](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
+    [![power bi tümleştirme sekmesi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
 
 13. **Raporlama Servisleri Yapılandırma Yöneticisi**'ni kapatmak için **Çıkış**'a tıklayın.
 
-    [![raporlama servisi yapılandırma yöneticisini kapatma.](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+    [![raporlama servisi yapılandırma yöneticisini kapatın](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)

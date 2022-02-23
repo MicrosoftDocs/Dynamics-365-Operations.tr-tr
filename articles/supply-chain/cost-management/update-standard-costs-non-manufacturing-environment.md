@@ -2,13 +2,16 @@
 title: Standart maliyetleri imalat dışı bir ortamda güncelleme
 description: Bu makalede, imalat dışı bir ortamda standart maliyetlerin güncellenmesine yönelik yönergeler sağlanmıştır.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 79723
 ms.assetid: 7ba0c408-2450-4042-9542-6fdf83c12e6c
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 139c72fc60330427336de872d7c9730fd12e291f8cad3f7327380b2003535d78
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 09dca3012952b739a75a6930908752fba73a4550
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757866"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439246"
 ---
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Standart maliyetleri imalat dışı bir ortamda güncelleme
 
@@ -49,6 +52,3 @@ Yeni maddeler için standart maliyetleri düzeltmek, ayarlamak veya güncellemek
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Onarım yönetimi
 description: Geçmişte başarılı olmuş önerilen çözümlerle yardım etmek üzere sorunları sistematik olarak gruplayın.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAConditionTable, SMASymptomArea, SMADiagnosisArea, SMAResolutionTable, SMARepairStage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1456c65f28d2a1d06497ddde81c9e68cc078c061
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4d45732ff35069a64b37b6c53d9e22adf9a9a46d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567931"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439040"
 ---
 # <a name="repair-management"></a>Onarım yönetimi       
 
@@ -35,11 +38,15 @@ Belirtileri, tanıları ve çözüm ayarlarını ayarlayın. Onarım için benze
 
 Belirtileri, tanıları ve onarım çözümünü belirtmek için kullanılacak bilgileri girmek için aşağıdaki ayar formlarını kullanılır.
 
-- **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Durumlar**.
-- **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Belirti alanları**.
--  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Tanı alanları**.
-- **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Çözümler**.
-- **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Onarım aşamaları**.
+1.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Durumlar**'a tıklayın.
+
+2.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Belirti alanları**'na tıklayın.
+
+3.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Tanı alanları**'na tıklayın.
+
+4.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Çözümler**'e tıklayın.
+
+5.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Onarım aşamaları**'na tıklayın.
 
 ## <a name="symptoms-and-conditions"></a>Belirtiler ve durumlar
 
@@ -75,19 +82,19 @@ Onarım işlemindeki her adım için onarım satırları oluşturabilirsiniz.
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Bir servis siparişinde onarım satırı oluşturma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
+1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.
 
 2.  Onarım gerektiren servis kapsamındaki parça içeren servis siparişini seçin.
 
-3.  **Onarım** \> **Onarım satırları**'nı seçerek **Onarım satırları** formunu açın.
+3.  **Onarım** \> **Onarım satırları**'nı tıklayarak **Onarım satırları** formunu açın.
 
-4.  Yeni bir satır oluşturmak için **Yeni**'yi seçin.
+4.  Yeni bir satır oluşturmak için Ctrl+N tuşlarına basın.
 
 5.  Bir servis kapsamında parça seçin. Servis siparişinde bir parça ilişkisiyle ayarlanmış her türlü servis kapsamındaki parçayı seçebilirsiniz.
 
-6.  Onarım satırında ilişkili olan önayarlı belirti, tanı ve uygulama değerlerinden birini seçin ve gerekirse onarım satırında bir not oluşturmak için **Not** sekmesini seçin.
+6.  Onarım satırında ilişkili olan önayarlı belirti, tanı ve uygulama değerlerinden birini seçin ve gerekirse onarım satırında bir not oluşturmak için **Not** sekmesini tıklatın.
 
-7.  Yeni onarım satırını kaydetmek için **Kaydet**'i seçin. **Onarım satırları** formunun **Genel** sekmesindeki **Oluşturma tarihi ve saati** alanı formun kaydedildiği saatle güncelleştirilir.
+7.  Yeni onarım satırını kaydetmek için CTRL+S tuşlarına basın. **Onarım satırları** formunun **Genel** sekmesindeki **Oluşturma tarihi ve saati** alanı formun kaydedildiği saatle güncelleştirilir.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>İlerlemeyi izleme ve bir onarım sorununu çözümleme
 
@@ -106,6 +113,3 @@ Bir onarım sorunu giderildiğinde, onarım satırını kapatabilirsiniz. Onarı
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

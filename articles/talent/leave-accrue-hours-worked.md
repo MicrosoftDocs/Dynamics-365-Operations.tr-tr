@@ -102,6 +102,3 @@ Tek bir tarih yalnızca bir tipi ilişkilendirilmiş olabilir.
 | 000337                | 8/8/2018             | Normal               | 8                    |
 | 000337                | 7/8/2018             | Normal               | 8                    |
 | 000337                | 9/8/2018             | Normal               | 8                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

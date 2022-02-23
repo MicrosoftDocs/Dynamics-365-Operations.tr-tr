@@ -101,6 +101,3 @@ Kuruluşlar, bir çalışan izin talepleri gönderdiğinde belirli izin türleri
 ### <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
 
 Finance and Operations için Platform güncelleştirmesi 26'da kullanıcılar otomatik olarak, bildirimler bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

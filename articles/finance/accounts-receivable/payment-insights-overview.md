@@ -2,27 +2,28 @@
 title: Müşteri ödeme öngörüleri (Önizleme)
 description: Bu konuda, müşterilerin tipik ödeme uygulamalarını daha iyi anlamaya yardımcı olan ödeme içgörüleri özelliği açıklanmıştır. Bu özellik, tahsilat işlemlerini normalde yaptığınızdan daha erken başlatmanıza gerekçe olabilecek durumları belirlemenize yardımcı olabilir.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 11/06/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "14151"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984014"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644645"
 ---
 # <a name="customer-payment-insights-preview"></a>Müşteri ödeme öngörüleri (Önizleme)
 
@@ -49,11 +50,11 @@ Her açık fatura için Müşteri ödeme içgörüleri (Önizleme) üç ödeme o
 
 Müşteri ödeme içgörüleri (Önizleme), beklenen ödemelerin toplu görünümünü de sunar. Bu da kuruluşların üç olasılıktan birinde (Zamanında, Geç ve Çok geç) müşteriden bekleyebilecekleri toplam ödeme tutarını anlamalarına yardımcı olabilir.
 
-[![Ödeme tahminlerinin toplu görünümü.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Ödeme tahminlerinin toplu görünümü](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Ayrıca, her faturaya bir zamanında ödeme yapılma olasılığı da atanır. Zamanında ödeme olasılığı %50'nin altındaysa bu faturalara tahsilat uyarısı gerekebileceğini belirtmek için faturalar kırmızı bir daire ile etiketlenir. 
 
-[![Ödeme olasılıklarının listesi.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Ödeme olasılıklarının listesi](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Ayrıca Müşteri ödeme öngörüleri (Önizleme) tahminleri etkileyen en önemli faktörler, müşteriyle olan işin mevcut durumu ve geçmiş müşteri ödeme davranışı hakkında ayrıntılar gibi tahminleri açıklamak için bağlamsal bilgiler de sağlar. Birçok işletmede, tahsilat süreci reaktif bir faaliyettir; tahsilat süreci faturaların vadesi gelinceye kadar başlamaz. 
 
@@ -72,6 +73,3 @@ Müşteri ödeme içgörüleri (Önizleme) uygulamasını denemek istiyorsanız 
 Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri kullanmamalıdır ve (4) sınırlı desteğe sahiptir.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

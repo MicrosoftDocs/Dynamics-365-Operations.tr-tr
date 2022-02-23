@@ -88,6 +88,3 @@ Power BI'nin harika özelliklerinden biri, bir rapor sayfasındaki tüm görsell
 ## <a name="export-to-excel"></a>Excel'e aktar
 
 Rapor verilerini Excel'de görüntülemek için görseldeki seçenekler menüsüne (üç nokta) tıklayıp **Temel alınan verileri dışa aktar**'ı seçebilirsiniz. Dışa aktarılan veriler Attract'teki kullanıcı izinleri dikkate alınarak filtrelenmiş aktarılır. Daha fazla bilgi için bkz. [Görselleştirmelerden dışa veri aktarma](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

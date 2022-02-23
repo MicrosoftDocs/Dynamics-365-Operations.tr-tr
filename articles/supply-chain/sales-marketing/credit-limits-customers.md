@@ -1,24 +1,27 @@
 ---
 title: Müşteriler için kredi limitleri
 description: Bu makalede, Dynamics 365 Supply Chain Management'ta kredi limitlerinin nasıl çalıştığına genel bir bakış sağlanmıştır.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e98203f03f10b3a7c530cb91211df2af025710dc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574317"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439394"
 ---
 # <a name="credit-limits-for-customers"></a>Müşteriler için kredi limitleri
 
@@ -90,7 +93,7 @@ Dynamics 365'i, bir müşterinin kalan kredisini aşağıdaki şekillerden birin
 
 **Müşterinin kalan kredisi hakkındaki bilgi nerede kullanılır?**
 
-Bir müşterinin bakiyesi ve kalan kredi tutarı, yaşlandırma anlık görüntüsü oluşturduğunuzda hesaplanır ve depolanır ve **Tahsilatlar** formunda görüntülenir. **Tahsilatlar** formunda görüntülenen tutarlar, yeni bir yaşlandırma anlık görüntüsü oluşturulana kadar tüm hareket etkinliğini içermeyebilir. Daha fazla bilgi için bkz. [Alacak hesaplarında koleksiyonlar ve kredi](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
+Bir müşterinin bakiyesi ve kalan kredi tutarı, yaşlandırma anlık görüntüsü oluşturduğunuzda hesaplanır ve depolanır ve **Tahsilatlar** formunda görüntülenir. **Tahsilatlar** formunda görüntülenen tutarlar, yeni bir yaşlandırma anlık görüntüsü oluşturulana kadar tüm hareket etkinliğini içermeyebilir. Daha fazla bilgi için bkz. [Alacak hesaplarında koleksiyonlar ve kredi](https://technet.microsoft.com/library/hh209221.aspx).
 
 Seçilen belgelere bağlı olarak, bir müşterinin bakiyesi ve kalan kredi tutarı hakkında bilgiler, satış siparişleri, sevk irsaliyeleri ve müşteri faturaları güncelleştirildiğinde hesaplanır. Çalışmakta olduğunuz belgenin tutarı, kredi limitinin aşılmasına neden olursa, bir ileti görüntülenir.
 
@@ -135,6 +138,3 @@ Bazen bir müşterinin kredi limitini el ile kontrol etmeniz gerekebilir. Örne�
 1.  **Satış ve pazarlama** \> **Yaygın** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne tıklayın. Bir satış siparişine çift tıklayın.
 
 2.  **Satış siparişi** formunda, Eylem Panosunda, **Yönet** sekmesinde, **Kredi limitini denetle**'ye tıklayın.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

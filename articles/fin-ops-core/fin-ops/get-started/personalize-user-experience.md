@@ -2,9 +2,11 @@
 title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
-ms.date: 01/28/2022
+manager: AnnBe
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -15,20 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075434"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797502"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konu, uygulamayı nasıl kişiselleştirebileceğinizi açıklamakta ve aşağıdaki konuları nasıl ele almaktadır: 
 
@@ -89,7 +87,7 @@ Bir sayfada yapılabilecek en tipik ve önemli değişikliklerden bazıları, k�
 
 Ayrıca, kişiselleştirmelerin en temel türleri de bir öğeye sağ tıklayıp **Kişiselleştir**'i seçerek kullanılabilir. (Sayfanızdaki tüm öğelerin kişiselleştirilemeyeceğini unutmayın.) Bu kişiselleştirme yöntemini kullandığınızda, öğenin *özellik penceresi* görünür.
 
-![Bir öğenin özelliklerini kişiselleştirme.](./media/cli-element-property-window.png)
+![Bir öğenin özelliklerini kişiselleştirme](./media/cli-element-property-window.png)
 
 Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceresini kullanabilirsiniz:
 
@@ -102,7 +100,7 @@ Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceres
 
 Öğeye bağlı olarak, özellik penceresi başka kişiselleştirme yetenekleri içerebilir. Örneğin, bir kutucuğun özellik penceresi sayesinde o kutucuğu bir panoya yükseltebilir ve bir varsayılan panodaki öğeler için özellik penceresiyle yeni bir özel çalışma alanı oluşturabilirsiniz.
 
-### <a name="personalization-toolbar"></a>Kişiselleştirme araç çubuğu
+### <a name="the-personalization-toolbar"></a>Kişiselleştirme araç çubuğu
 
 Bir sayfada birden çok değişiklik veya diğer mekanizmalarla gerçekleştirilemeyen değişiklikler yapmak istiyorsanız (öğeleri yeniden düzenleme istediğinizde), **Kişiselleştirme** araç çubuğunu kullanabilirsiniz. **Kişiselleştirme** araç çubuğunu açmak için, aşağıdaki adımlardan birini izleyin:
 
@@ -111,7 +109,7 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalarla gerçekleştiril
 - Sayfanın Eylem Panosunda, **Seçenekler** sekmesinde, **Kişiselleştir** grubunda, **Bu formu kişiselleştir**'i seçin.
 - Gezinti çubuğundaki **Ayarlar** düğmesini (dişli sembolü) seçin ve sonra **Kişiselleştir**'i seçin.
 
-[![Kişiselleştirme araç çubuğu.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Kişiselleştirme araç çubuğu](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Sayfada gezinme
 
@@ -123,10 +121,7 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalarla gerçekleştiril
 
 - Bir öğeyi seçip özelliklerini değiştirmek için **Seç** aracını kullanın. Bu aracı kullanmak için, araç çubuğunda **Seç** düğmesini seçin ve sonra istediğiniz öğeyi seçin. Öğenin özelliklerini değiştirebileceğiniz özellik penceresi görünür. Sayfada kişiselleştirilebilecek başka öğeler için işlemi yineleyebilirsiniz. Bazı senaryolarda bazı kişiselleştirme özelliklerinin kullanılabilir olmayacağını unutmayın. Örneğin, gerekli bir alanı kilitleyemezsiniz.
 - Sayfadaki bir öğeyi gizlemek için **Gizle** aracını kullanın. Bu aracı kullanmak için, araç çubuğunda **Gizle** düğmesini seçin ve sonra gizlenecek öğeyi seçin. **Gizle** aracını kullandığınız zaman, gizli durumdaki tüm öğeler görünür hale gelir ancak gölgeli bir kapsayıcıda gösterilirler. Böylece, öğeyi seçerek görünür yapabilirsiniz. Öğeler gizli olduğunda sayfanın nasıl görüneceğini görmek için başka bir kişiselleştirme aracına geçin veya kişiselleştirme araç çubuğunu kapatın.
-- Sayfanıza alan eklemek için **Alan ekle** aracını kullanın. Bu aracı kullandığınızda yalnızca sayfa tanımının parçası olan alanlar ekleyebilirsiniz. Geçerli sayfa tanımının bir parçası olmayan yeni alanların nasıl oluşturulacağı hakkında bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](user-defined-fields.md). Araç çubuğunda **Alan ekle** düğmesini seçtikten sonra, ilk olarak, alan eklemek istediğiniz kılavuzu veya bölümü seçmeniz gerekir. Bir iletişim kutusunda, seçilen kılavuz veya bölümle ilgili alanların listesi görüntülenir. İletişim kutusunda, **Önerilen alanlar** veya **Tüm alanlar** listesinden eklemek için bir veya daha fazla alan seçin. İstediğiniz alanları seçtikten sonra **Güncelleştir**'i seçin. Önceden eklediğiniz bir alanı kaldırmak için bu işlemi yineleyin ancak iletişim kutusundaki alan seçimini temizleyin.
-
-    **Önerilen alanlar** listesi, kuruluşunuzdaki diğer kullanıcılar tarafından daha önce eklenmiş alanları gösterir. Bu alan listesi, **Önerilen toplu işin** yinelenme sıklığına göre güncelleştirilir. Sayfadaki Filtre bölmesini kullanarak yeni filtre alanları eklerken de benzer bir deneyim yaşanır.
-
+- Sayfanıza alan eklemek için **Alan ekle** aracını kullanın. Bu aracı kullandığınızda, yalnızca sayfa tanımının bir parçası olan alanlar ekleyebilirsiniz. Geçerli sayfa tanımının bir parçası olmayan yeni alanların nasıl oluşturulacağı hakkında bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](user-defined-fields.md). Araç çubuğunda **Alan ekle** düğmesini seçtikten sonra, ilk olarak, alan eklemek istediğiniz kılavuzu veya bölümü seçmeniz gerekir. Bir iletişim kutusunda, seçilen kılavuz veya bölümle ilgili alanların listesi görüntülenir. İletişim kutusunda, eklenecek bir veya daha fazla alan seçin ve ardından **Güncelleştir**'i seçin. Önceden eklediğiniz bir alanı kaldırmak için bu işlemi yineleyin ancak iletişim kutusundaki alan seçimini temizleyin.
 - Bir öğeyi mevcut öğeler grubu içinde farklı bir konuma taşımak için **Taşı** aracını kullanın. Bir öğeyi üst grubunun dışına taşıyamazsınız. Bu aracı kullanmak için, araç çubuğunda **Taşı** düğmesini seçin ve sonra taşınacak öğeyi seçin. Bir öğeyi seçtiğinizde uygulama öğenin taşınabileceği konumları belirler. Bu konumlara *bırakma alanları* denir. Öğeyi mevcut grup içinde sürükledikçe, her bırakma bölgesi, öğenin bırakılabileceği alanın yanında renkli ve kalın bir çizgi olarak gösterilir.
 - Sayfanın klavye sekmesi sırasından bir öğeyi kaldırmak için **Atla** aracını kullanın. Araç çubuğunda **Atla** düğmesini seçtiğiniz zaman, atlanmış durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Etkileşimli olarak sekme sırasına alan ekleme veya kaldırma yapabilirsiniz.
 - Bir öğenin hızlı sekme özet bölümünde görünmesini isterseniz **Başlıkta göster** aracını kullanın. Araç çubuğunda **Başlıkta göster** düğmesini seçtiğiniz zaman, özet alanı olarak seçilen tüm alanlar gölgeli bir kapsayıcıda gösterilir. Hızlı sekme özetine etkileşimli olarak alan ekleyebilir veya hızlı sekme özetinden alanları seçerek kaldırabilirsiniz.
@@ -154,14 +149,11 @@ Listeler içeren bazı sayfalarda, **Çalışma alanına ekle** kişiselleştirm
 > [!NOTE]
 > [Kaydedilmiş görünümler](saved-views.md) özelliği açıksa bir çalışma alanına ittiğiniz içerik doğrudan bir görünüme bağlıdır. Görünümün sorgusu, çalışma alanındaki verileri getirmek için kullanılır ve çalışma alanındaki ilgili döşeme veya bağlantı sayfayı bu görünüme açar; böylece görünümün sorgu ve kişiselleştirmeleri buna uygulanır. Görünüm güncelleştirilmişse, ilgili çalışma alanı öğeleri yeni görünüm tanımına göre ayarlanacaktır.
 
-[![Çalışma alanına ekleme.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Çalışma alanına ekle](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Çalışma alanına liste eklerken, çalışma alanında listenin bilgileri istediğiniz gibi göstermesini sağlamak için sayfada listeyi sıralayın veya filtreleyin. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Liste**'yi seçin. **Yapılandır**'ı seçtikten sonra, çalışma alanındaki listede görünmesi gereken sütunları seçebildiğiniz bir iletişim kutusu görünür. Çalışma alanındaki liste için kullanılan etiketi de belirtebilirsiniz.
 - Çalışma alanına kutucuk eklemek için, önce özetlenmesi gereken veya hızlı erişilmesini istediğiniz verileri göstermesi için sayfadaki listeyi filtreleyin. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Kutucuk**'u seçin. **Yapılandır**'ı seçtikten sonra, çalışma alanındaki kutucuk için kullanılması gereken etiketi belirtebildiğiniz bir iletişim kutusu görünür. Kutucukta bir sayı gösterilip gösterilmeyeceğini de belirtebilirsiniz. Kutucuk çalışma alanına eklendikten sonra, geçerli sayfayı çalışma alanından açmak için onu seçebilirsiniz. Böylece,kutucukla ilişkili filtre uygulanmış listeyi görüntüleyebilirsiniz.
-- Bir çalışma alanına bağlantı eklemek için, önce sayfadaki listeyi filtreleyerek, ilgilendiğiniz verileri göstermesini sağlayın. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Bağlantı**'yı seçin. **Yapılandır**'ı seçtikten sonra, bağlantı için kullanılması gereken etiketi belirtebildiğiniz bir iletişim kutusu görünür. İsteğe bağlı olarak, bu bağlantının değiştirilebileceği bir bölüm için de etiket belirtebilirsiniz. Bu bölüm yoksa yeni bir bölüm oluşturulur.
-
-> [!NOTE]
-> 10.0.25 sürümü itibarıyla listenizi, kutucuğunuzu veya bağlantınızı yapılandırdığınızda **Çalışma alanları için kaydedilmiş görünümler desteği** etkinse öğeyi eklemek istediğiniz çalışma alanı görünümlerini seçmeniz gerekebilir. Kullanılabilir çalışma alanı görünümleri her **Yapılandır** iletişim kutusunun **Çalışma alanı seçenekleri** bölümünde görünür. 
+- Bir çalışma alanına bağlantı eklemek için, önce sayfadaki listeyi filtreleyerek, ilgilendiğiniz verileri göstermesini sağlayın. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Bağlantı**'yı seçin. **Yapılandır**'ı seçtikten sonra, bağlantı için kullanılması gereken etiketi belirtebildiğiniz bir iletişim kutusu görünür. İsteğe bağlı olarak, bu bağlantıyı içeren yeni bir bölüm için etiket de belirtebilirsiniz.
 
 Liste, kutucuk veya bağlantıyı bir çalışma alanına ekledikten sonra o çalışma alanı açıp, öğeleri istediğiniz gibi yeniden düzenleyebilirsiniz.
 
@@ -179,97 +171,11 @@ Pano, çoğunlukla uygulamayı açtığınızda gördüğünüz ilk sayfadır. B
 Panoda bulunan benzersiz bir kişiselleştirme özelliği kutucuk ekleyebilme özelliğidir. 
 
 - **Tam sayfa uygulamaları** özelliği kapalıysa, panoda bir öğeye sağ tıklayıp sonra da **Çalışma alanı ekle**'yi seçerek yeni bir kutucuk eklersiniz. Panonun alt kısmında yeni bir çalışma alanı kutucuğu oluşturulur. Bu yeni çalışma alanı kutucuğunu istediğiniz gibi yeniden adlandırabilirsiniz. Bu konunun [Çalışma alanına liste, kutucuk ve bağlantı ekleme](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) bölümünde açıklandığı gibi, çalışma alanına listeler, kutucuklar ve bağlantılar da ekleyebilirsiniz.
-- **Tam sayfa uygulamaları** özelliği kapalıysa, panoda bir öğeye sağ tıklayıp sonra da **Uygulama ekle**'yi seçerek yeni bir kutucuk eklersiniz. İletişim kutusunda, yeni bir çalışma alanına bir kutucuk veya Power Apps ya da bir web sitesinden içerik içeren bir kutucuk eklemeyi seçin. Sonra belirlediğiniz seçeneği yapılandırmak için ilgili adımları izleyin. Panonun alt kısmında yeni bir kutucuk oluşturulur. Bu katıştırılmış uygulamaları ekleme, düzenleme, silme ve paylaşma hakkında daha fazla bilgi için bkz. [Power Apps'teki tuval uygulamalarını katıştırma](embed-power-apps.md) ve [Üçüncü taraf uygulamaları katıştırma](embed-website.md).
+- **Tam sayfa uygulamaları** özelliği kapalıysa, panoda bir öğeye sağ tıklayıp sonra da **Uygulama ekle**'yi seçerek yeni bir kutucuk eklersiniz. İletişim kutusunda, yeni bir çalışma alanına bir kutucuk veya Power Apps ya da bir web sitesinden içerik içeren bir kutucuk eklemeyi seçin. Sonra belirlediğiniz seçeneği yapılandırmak için ilgili adımları izleyin. Panonun alt kısmında yeni bir kutucuk oluşturulur. 
 
 ## <a name="sharing-personalizations"></a>Kişiselleştirmeler paylaşma
 
-Bir sayfayı kişiselleştirdikten sonra, kişiselleştirmelerinizi diğer kullanıcılarla paylaşmak için kullanabileceğiniz birkaç yöntem bulunur. Aşağıdaki listede, bu yöntemler en çok önerilenden en az önerilene doğru düzenlenmiştir.
-
-1. Görünümleri kullanıcılara yayımlayın.
-2. Görünümleri veya kişiselleştirmeleri kullanıcılara kopyalayın.
-3. Görünümleri veya kişiselleştirmeleri dışa ve içe aktarın.
-
-### <a name="publish-views-to-users"></a>Görünümleri kullanıcılara yayımlama
-
-[Kaydedilen görünümler](saved-views.md) özelliği açıksa ve sayfa görünümleri destekliyorsa, kişiselleştirmeleri diğer kullanıcılarla paylaşmanın en iyi yolu, görünümü bir veya daha fazla güvenlik rolüne sahip kullanıcılar için yayımlamaktır. Daha fazla bilgi için bkz. [Görünümleri yayımlama](saved-views.md#publishing-views).
-
-### <a name="copy-views-or-personalizations-to-users"></a>Görünümleri veya kişiselleştirmeleri kullanıcılara kopyalama
-
-[Kaydedilen görünümler](saved-views.md) özelliği kapalıysa veya sayfa görünümleri desteklemiyorsa, kişiselleştirmeleri paylaşmak için önerilen yol bunları kullanıcılar arasında kopyalamaktır. Bu yöntem yalnızca ayrıcalıklı kullanıcılar (örneğin, sistem yöneticileri) tarafından kullanılabilir. Ancak, yöneticiler sistemdeki belirli bir kullanıcının kişiselleştirmesini (kaydedilmiş görünümler etkinse kullanıcının kişisel görünümü de dahil) arayabilir ve yapılandırmayı diğer kullanıcılara kopyalayabilir.
-
-Kaydedilmiş görünümler etkinse, kişiselleştirmeleri kopyalamak için aşağıdaki adımları izleyin.
-
-1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
-2. Kişisel görünümleri kopyalamak için şu adımları izleyin:
-
-    1. **Kişisel görünümler**'i seçin.
-    2. Listeden dilediğiniz görünümleri seçin.
-    3. **Kullanıcılara kopyala**'yı seçin.
-    4. Görünümlerin dağıtılacağı kullanıcıları seçin.
-
-    Görünümü desteklemeyen sayfalardaki kişiselleştirmeleri kopyalamak için şu adımları izleyin:
-
-    1. **Kullanıcı ayarlarını** seçin.
-    2. Dağıtmak istediğiniz kişiselleştirmeye sahip kullanıcıyı seçin.
-    3. **Tüm kişiselleştirmeleri yönet**'i seçin.
-    4. Listeden dilediğiniz kişiselleştirmeleri seçin.
-    5. **Kullanıcılara kopyala**'yı seçin.
-    6. Kişiselleştirmelerin dağıtılacağı kullanıcıları seçin.
-
-Kaydedilmiş görünümler etkin değilse kişiselleştirmeyi kopyalamak için aşağıdaki adımları izleyin.
-
-1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
-2. **Uygula**'yı seçin.
-3. Kişiselleştirmenin dağıtılacağı kullanıcıları seçin.
-4. **Varolan kişiselleştirmeyi seç**'i seçin.
-5. İlgilendiğiniz (tek) kişiselleştirmeyi bulun ve seçin.
-6. **Tamam**'ı seçin.
-
-### <a name="export-and-import-views-or-personalizations"></a>Görünümleri veya kişiselleştirmeleri dışa ve içe aktarma
-
-Kişiselleştirmeleri paylaşmanın başka bir yolu da dışa ve içe aktarmadır. Bireysel kullanıcılar veya bu kişiler adına hareket eden bir yönetici, bu yöntemi kullanarak kendi kişiselleştirmelerini veya görünümlerini dışa aktarabilir ve dışa aktarılan dosyayı içe aktarmaları üzere diğer kullanıcılara verebilir. Alternatif olarak, kullanıcılar yönetici ayrıcalıklarına sahip bir kullanıcıya dışa aktarılan kişiselleştirmelerini verebilir ve böylece söz konusu kullanıcı aynı anda birçok kullanıcıya kişiselleştirme dosyası uygulamak için **kişiselleştirme** yönetim sayfasını kullanabilir.
-
-> [!IMPORTANT]
-> Kişiselleştirmeler, güncelleştirmeler arasında kalıcı olarak, bir hizmet güncelleştirmesinden veya başka bir zamanda tüm kişiselleştirmeleri gereksiz ve önerilmez.
-
-#### <a name="export"></a>Dışarı aktar
-
-Genel olarak, kendi görünümlerinizi veya kişiselleştirmelerinizi, uygun sayfayı açıp **Kişiselleştirme** araç çubuğunu açıp **Dışa aktar**'ı seçerek verebilirsiniz. Araç çubuğu hakkında daha fazla bilgi için bu konunun önceki bölümlerinde yer alan [Kişiselleştirme araç çubuğu](#personalization-toolbar) kısmını inceleyin. Alternatif olarak, [kaydedilmiş görünümler](saved-views.md)etkinse, sistem içindeki tüm kişiselleştirmeler listesini görüntülemek için **Ayarlar \> Kullanıcı seçenekleri \> Kişiselleştirme**'ye gidebilirsiniz. Daha sonra dışa aktarılacak görünümleri ya da kişiselleştirmeleri seçebilir ve **Dışa aktar**'ı seçebilirsiniz.
-
-Ek olarak, yöneticiler aşağıdaki adımları izleyerek diğer kullanıcıların kişiselleştirmelerini dışa aktarabilir.
-
-1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
-2. **Kullanıcılar** sekmesinde, dilediğiniz kullanıcıyı seçin.
-3. İlgilendiğiniz görünümü veya kişiselleştirmeyi bulun ve seçin.
-4. **Dışa Aktar**'ı seçin.
-
-#### <a name="import"></a>İthalat
-
-Bir görünümü veya kişiselleştirmeyi içe aktarmak için **Kişiselleştirme** araç çubuğunu açıp **İçe aktar**'ı seçebilirsiniz. Ek olarak, yöneticiler bir dosyayı içe aktarabilir ve bir ya da daha fazla kullanıcıya hemen verebilir.
-
-Kaydedilmiş görünümler etkinse, aşağıdaki adımları izleyin.
-
-1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
-2. Eylem Bölmesinde, **Görünümleri içe aktar \> Kullanıcı görünümleri**'ni seçin.
-3. İçeri aktar modunu seçin:
-
-    - **Belirli kullanıcıları seç** – Görünüm veya kişiselleştirmeyi seçili kullanıcılara verin.
-    - **Olduğu gibi içe aktar** – Görünümü veya kişiselleştirmeyi dışa aktaran kullanıcıya aktarın.
-
-4. **Göz at**'ı seçin ve içe aktarılacak kişiselleştirmeyi bulun ve seçin.
-5. **Sonraki**'yi seçin.
-6. 3. adımda **Belirli kullanıcıları seç** seçeneğini belirlediyseniz, kişiselleştirmenin aktarılacağı kullanıcıları seçin.
-7. **İçe aktar**'ı seçin.
-8. Çakışmaları gerektiği gibi çözümleyin.
-
-Kaydedilmiş görünümler etkin değilse, aşağıdaki adımları izleyin.
-
-1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
-2. **Uygula**'yı seçin.
-3. Kişiselleştirmenin dağıtılacağı kullanıcıları seçin.
-4. **Kişiselleştirmeleri bir dosyadan içe aktar**'ı seçin.
-5. **Göz at**'ı seçin ve içe aktarılacak kişiselleştirmeyi bulun ve seçin.
-6. **Tamam**'ı seçin.
+Bir sayfayı kişiselleştirdikten sonra, kişiselleştirilmiş sayfayı dışa aktararak kişiselleştirmelerinizi diğer kullanıcılarla paylaşabilirsiniz. Böylece, diğer kullanıcılardan kişiselleştirme dosyasını içe aktarmasını isteyebilirsiniz. Alternatif olarak, kişiselleştirmenizi yönetici ayrıcalıklarına sahip bir kullanıcıya verebilirsiniz. Bu Kullanıcı daha sonra **kişiselleştirme** yönetimi sayfasını kullanarak aynı anda birçok kullanıcıya kişiselleştirilme dosyası uygulayabilir.
 
 ## <a name="administration-of-personalizations"></a>Kişiselleştirme yönetimi
 
@@ -289,6 +195,3 @@ Kaydedilmiş görünümler etkin değilse, aşağıdaki adımları izleyin.
 Bir sayfadaki stok boyutlarının ayarlamasını kişiselleştirirseniz, **Görüntü boyutları** seçeneği kullanılarak oluşturulan ayarları dikkate alın. Örneğin, Toplu iş numarası stok boyutu için bir sütunu gizlemek amacıyla kişiselleştirme kullanıyorsunuz ancak sayfa bir daha açıldığında sütun görünüyor. Bu davranış, gösterilen stok boyutu sütunlarını **Boyutların görünümü** ayarlarının kontrol etmesinden kaynaklanır. **Boyutların görünümü** ayarları tüm sayfalar için geçerlidir ve stok boyutu alanlarının ayrı sayfalardaki kişiselleştirme ayarlarını geçersiz kılar.
 
 Bu nedenle, önceki örnekteki Toplu iş numarası stok boyutu için sütunun bir sayfada istemiyorsanız o boyutu, tablonun **Boyutların görünümü** seçeneğinin bir parçası olarak sayfadan temizlemeniz gerekir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

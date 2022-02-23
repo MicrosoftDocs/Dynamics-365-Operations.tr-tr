@@ -1,10 +1,12 @@
 ---
 title: Bakım durumu
 description: Bu konuda Kıymet Yönetimi'nde bakım durumu hesaplama işlemi açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetStatusCalculate, EntAssetStatus
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 138e2e72fbf761d209d288c2bd778c08519b9c69b0715f4466d4838255a2a31e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5bac42d5cdc62361ee9a562e59bafa09ca7a215
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752021"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018508"
 ---
 # <a name="maintenance-status"></a>Bakım durumu
 
@@ -57,14 +59,11 @@ Varlık Yönetiminde belirli bir döneme ait yeni, etkin ve tamamlanmış bakım
 
 Aşağıdaki ekran görüntüsünde, **Yıl** ve **Ay** düğmeleri etkinleştirilmiştir. Bu **Gruplandırma ölçütü** seçenekleri seçili olduğunda, bakım istekleriyle ve iş emirleriyle ilgili iş yükü ve iş emirleri hakkında genel bakış elde edebilirsiniz. 
 
-![Aylık iş yükü örneği.](media/13-controlling-and-reporting.png)
+![Aylık iş yükü örneği](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Örnek 2
 
 Aşağıdaki ekran görüntüsünde, işlem yapılacak yerleşim bilgileri eklendi. Şimdi, coğrafi konumları, fabrikaları veya çalışma alanlarını temsil eden işlem yapılacak konumlar arasında iş yükü ve iş yükünü karşılaştırmak mümkündür. 
 
-![İşlem yapılacak yerleşimlere sahip aylık iş yükü örneği.](media/14-controlling-and-reporting.png)
+![İşlem yapılacak yerleşimlere sahip aylık iş yükü örneği](media/14-controlling-and-reporting.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

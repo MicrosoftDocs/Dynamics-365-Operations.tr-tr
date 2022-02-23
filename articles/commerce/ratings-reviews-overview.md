@@ -2,30 +2,37 @@
 title: Derecelendirme ve incelemelere genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta bulunan derecelendirmeleri ve incelemelerini kapsamaktadır.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1248ce660d765ddade1df7d79786202235019990
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982264"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416528"
 ---
-# <a name="ratings-and-reviews-overview"></a>Derecelendirmelere ve incelemelere genel bakış
+# <a name="ratings-and-reviews-overview"></a>Derecelendirme ve incelemelere genel bakış
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta bulunan derecelendirmeleri ve incelemelerini kapsamaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Derecelendirmeler ve incelemeler, diğer müşterilerin bir ürünü nasıl değerlendirdiklerini öğrenmek isteyen e-ticaret müşterileri için çok önemlidir. Ayrıca, tüketicilerin satın alma kararları verbilmesine yardımcı olabilirler. Dynamics 365 Commerce'De, derecelendirmeler ve İncelemeler çözümünde perakendecilerin ürün incelemelerini ve müşterilerden gelen derecelendirmeleri yakalayabilmesine olanak tanır. Perakendeciler, ortalama derecelendirmeleri gösterebilir ve e-ticaret Web siteleri boyunca bilgileri gözden geçirebilir.
 
@@ -35,7 +42,7 @@ Dynamics 365 Commerce'deki derecelendirmeler ve İncelemeler işlevselliği bir 
 
 Aşağıdaki şekil, derecelendirmelerin ve İncelemeler çözümünün Dynamics 365 Commerce'te nasıl çalıştığı göstermektedir.
 
-![Dynamics 365 for Commerce'te Derecelendirmeler ve incelemeler.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Dynamics 365 for Commerce'te Derecelendirmeler ve incelemeler](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 Dynamics 365 Commerce'teki derecelendirmeler ve İncelemeler çözümü, 40 dilde argo sözcüklerin otomatik olarak yumuşatmasını sağlamak için Azure Cognitive Services'i kullanır. İnsan onayı gerekli olmadığından, denetleme maliyetleri azalır. Sistem Ayrıca, müşteri kaygıları, görüşleri ve açılan isteklerin yanıtlanması ve kullanıcılardan gelen veri isteklerini adreslemek için kullanılabilen aracı araçları da sunar.
 
@@ -52,14 +59,3 @@ Derecelendirmeler ve İncelemeler çözümü Ayrıca derecelendirmelere ve incel
 [Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
 
 [Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
-
-[Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme](manual-publish-rating-reviews.md)
-
-[Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma](import-export-reviews.md)
-
-[Hizmetten hizmete kimlik doğrulamasını yapılandırma](service-to-service-auth.md)
-
-[Derecelendirmeler ve incelemelerle ilgili SSS](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

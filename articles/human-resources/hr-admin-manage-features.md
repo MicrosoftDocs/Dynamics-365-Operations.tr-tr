@@ -1,39 +1,37 @@
 ---
-title: Human Resources özellikleri yönetme
-description: Bu konu Özellik Yönetimi özelliğini ve nasıl kullanabileceğinizi açıklar.
-author: twheeloc
-ms.date: 08/19/2021
+title: Özellikleri yönetme
+description: Dynamics 365 Human Resources'ta yeni özelliklerin nasıl açıldığı veya kapatıldığını öğrenin.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069719"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420977"
 ---
-# <a name="manage-features-in-human-resources"></a>Human Resources özellikleri yönetme
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="manage-features"></a>Özellikleri yönetme
 
 Microsoft Dynamics 365 Human Resources için sürekli olarak kullanıma sunduğumuz yeni yeteneklerin bir parçası olarak, müşterilerimizin yeni özellikleri mümkün olan en kısa sürede deneyimlemesini istiyoruz. Neredeyse genel kullanıma hazır ve kapsamlı bir sınamadan geçirilmiş önizleme özelliklerini sunacağız. Bu özellikleri genel kullanım için yayımlamadan önce müşterilerimizden son kez geribildirim almak istiyoruz.
 
-İnsan Kaynakları'ndaki yeni özellikler hakkında daha fazla bilgi için bkz. [İnsan Kaynakları'ndaki yenilikler](hr-admin-whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Planı](/dynamics365/release-plans/?panel=products1#pivot=products).
+İnsan Kaynakları'ndaki yeni özellikler hakkında daha fazla bilgi için bkz. [İnsan Kaynakları'ndaki yenilikler](hr-admin-whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Planı](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
 
-**Özellik yönetimi** çalışma alanı, her sürümde teslim edilen özelliklerin bir listesini sağlar. Varsayılan olarak, bu özellikler kapalıdır. Çalışma alanını, bu özellikleri açıp ilgili belgelere bakmak için kullanabilirsiniz. Özellik yönetimi hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+**Özellik yönetimi** çalışma alanı, her sürümde teslim edilen özelliklerin bir listesini sağlar. Varsayılan olarak, bu özellikler kapalıdır. Çalışma alanını, bu özellikleri açıp ilgili belgelere bakmak için kullanabilirsiniz. Özellik yönetimi hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 Tüm yeni özellikler en az 30 gün boyunca ve genellikle 30-60 gün önizlemede kalır. Önemli özellikler genellikle önizleme dönemini izleyen her yılın Ekim ve Nisan ayında kullanılabilir. **Özellik yönetimi** çalışma alanında yeni yetenekleri gördüğünüz anda bunları açabilirsiniz. Bazı özellikler varsayılan olarak açık olabilir.
 
@@ -72,7 +70,7 @@ Kazanç yönetimi, **Kazançlar** çalışma alanındaki işlevlerin yerini alı
 - **Kazanca uygunluk ilkeleri**
 - **Uygunluk olayları**
 
-Bu sayfalardaki bilgileri salt okunur modda görüntüleyebilirsiniz. Bilgileri düzenlemek isterseniz, önce Kazanç yönetimini devre dışı bırakmanız gerekir (yalnızca **Korumalı alan** ortamlarına uygulanır).
+Bu formlardaki bilgileri salt okunur modda görüntüleyebilirsiniz. Bilgileri düzenlemek isterseniz, önce Kazanç yönetimini devre dışı bırakmanız gerekir (yalnızca **Korumalı alan** ortamlarına uygulanır).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>İzin ve devamsızlığı etkinleştirme veya devre dışı bırakma
 
@@ -95,6 +93,4 @@ Lütfen kişisel verilerinizi (sizi tanımlamaya yardımcı olabilecek bilgileri
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İnsan Kaynakları'ndaki yenilikler](hr-admin-whats-new.md)
-- [Dynamics 365 ve Power Platform Sürüm Planı](/dynamics365/release-plans/?panel=products1#pivot=products)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Dynamics 365 ve Power Platform Sürüm Planı](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)

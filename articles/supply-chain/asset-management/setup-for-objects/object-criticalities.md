@@ -1,10 +1,12 @@
 ---
 title: Varlık kritiklik türleri
 description: Bu konuda Varlık Yönetiminde varlık kritiklik türleri açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776932"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021716"
 ---
 # <a name="asset-criticality-types"></a>Varlık kritiklik türleri
 
@@ -40,7 +42,7 @@ Kritikliği ayarlamak için önce varlık kurulumunda kullanılması gereken kri
 4. **Ad** alanına kritiklik türü için bir ad girin.
 5. **Faktör** alanına bir faktör girin. Bu faktör, kullanılması gereken kritiklik kaydını belirlemek için iş emri planlaması hesaplaması sırasında kullanılır. (En yüksek faktörüne sahip kayıt her zaman kullanılır.) Bu ayar, aşağıdaki örnekte gösterildiği gibi, aynı kritiklik değerine sahip olan kritiklik satırları oluşturulmuşsa geçerlidir.
 
-    ![Kritiklik türleri sayfası.](media/23-setup-for-objects.png)
+    ![Kritiklik türleri sayfası](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Varlıkla kritiklikleri ayarlama
 
@@ -59,6 +61,3 @@ Kritikliği ayarlamak için önce varlık kurulumunda kullanılması gereken kri
 - İş emrindeki kritiklik, iş emrine bir iş emri satırı eklendiğinde veya silindiğinde yeniden hesaplanır.
 - İş emri birkaç iş emri işi içeriyorsa, daima **Kritiklik türleri** sayfasındaki **Faktör** alanına göre en yüksek kritiklik, iş emri üzerinde kullanılır.
 - Genellikle, varlık kritikliği zaman içinde değişebilir. Kritiklik yeni ekipman satın alma, yenilemeler gibi durumlardan etkilenebilir. Kritiklik tanımlarınızın geçerli üretim kurulumunuz ile eşleştiğinden emin olmak için varlık kritikliklerini düzenli aralıklarla (örneğin, yılda bir veya her iki yılda bir) yeniden değerlendirmeyi düşünün.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

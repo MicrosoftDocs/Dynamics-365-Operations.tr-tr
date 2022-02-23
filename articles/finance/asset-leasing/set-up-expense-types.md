@@ -2,11 +2,13 @@
 title: Gider türlerini ayarlama
 description: Bu konuda Varlık kiralamada giderleri ayarlama açıklanmaktadır.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseExpenseTypeTable
+ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e5af18921314061ba3256559d7fc7ceacef606a9b3d5cc3a8047c83494074fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ab31b16c6ae07466d7655832701e71092064fe1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715154"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969515"
 ---
 # <a name="set-up-expense-types"></a>Gider türlerini ayarlama
 
@@ -56,6 +58,3 @@ Daha sonra, hesapları gider türleriyle ilişkilendirmelisiniz. Gider planı gi
 7. Uygun alanlarda, finansal kiralama ana hesabını ve işletme kiralaması ana hesabını seçin.
 
 Bu adımları tamamladığınızda, seçili bir kiralamanın **Kiralama ayrıntıları** sayfasınde **İcra maliyeti ödeme planı** satırları üzerinden giderleri ekleyebilirsiniz. Alternatif olarak, yeni bir kiralama oluştururken de giderleri ekleyebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

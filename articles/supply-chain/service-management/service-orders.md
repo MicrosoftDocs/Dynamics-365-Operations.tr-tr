@@ -1,30 +1,34 @@
 ---
 title: Servis siparişleri
-description: Bu konuda, servis siparişleriyle nasıl çalışılacağına ilişkin bir genel bakış sağlanmaktadır.
-author: kamaybac
+description: Bir servis siparişi, bir servis teknisyeninin belirli bir tarihte müşteri tesisine yaptığı ziyareti gösterir.
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8dc88d445e1331e1532cb3b7385cda39c4f22e80
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3b049b166edf2b5a318a4b1af85e7f74cfe433f2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566131"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438983"
 ---
-# <a name="service-orders"></a>Servis siparişleri
+# <a name="service-orders"></a>Servis siparişleri   
 
 [!include [banner](../includes/banner.md)]
+
 
 Bir servis siparişi, bir servis teknisyeninin belirli bir tarihte müşteri tesisine yaptığı ziyareti gösterir. Her servis siparişi bir veya daha fazla servis siparişi satırından oluşur. Servis siparişi satırları servis teknisyeninin gerçekleştirmesi gereken saat sayısını ve ilgili maddeleri, giderleri ve ücretleri gösterir.
 
@@ -38,19 +42,19 @@ Servis siparişlerini, sözleşmeyle ilişkilendirmeden tek tek de oluşturabili
 
 
 > [!NOTE]
-> Servis sözleşmesiyle ilişkilendirilmemiş servis siparişleri oluşturmak için **Servis yönetimi parametreleri** sayfasında **Servis sözleşmesi olmadan izin ver** onay kutusunu işaretlemeniz gerekir.
+> <P>Bir servis sözleşmesiyle ilişkilendirilmemiş servis siparişleri oluşturmak için <STRONG>Servis yönetimi parametreleri</STRONG> formunda <STRONG>Servis sözleşmesi olmadan izin ver</STRONG> onay kutusunu işaretlemeniz gerekir.</P>
 
-### <a name="scenario"></a>Senaryo
+**Senaryo**
 
 Aşağıdaki senaryo bir servis sözleşmesiyle ilişkili olmayan bir servis siparişi oluşturmanın yararlı olacağı başka bir durumu açıklar.
 
-Şirket dağıtıcısı bir asansöre acil servis yapılmasını talep eden bir arama alır. Bir servis sözleşmesi ve servis için bir proje ayarlamak için zaman yoktur. Bu nedenle dağıtıcı bir servis siparişini doğrudan **servis siparişleri** sayfasında oluşturur, servis siparişini var olan bir projeye ekler ve servis siparişi satırları oluşturur. Dağıtıcı servis sözleşmesiyle ilişkili olmayan işleri kaydetmek üzere mevcut bir servis siparişi için bir görev veya nesne ilişkisi oluşturabilir. Daha fazla bilgi için bkz. [Servis siparişlerini el ile oluşturma](create-service-orders-manually.md) ve [Servis görevi ilişkileri oluşturma](create-service-task-relations.md).
+Şirket dağıtıcısı bir asansöre acil servis yapılmasını talep eden bir arama alır. Bir servis sözleşmesi ve servis için bir proje ayarlamak için zaman yoktur. Bu nedenle dağıtıcı bir servis siparişini doğrudan **servis siparişleri** formunda oluşturur, servis siparişini varolan bir projeye ekler ve servis siparişi satırları oluşturur. Dağıtıcı servis sözleşmesiyle ilişkili olmayan işleri kaydetmek üzere mevcut bir servis siparişi için bir görev veya nesne ilişkisi oluşturabilir. Daha fazla bilgi için bkz. [Servis siparişlerini el ile oluşturma](create-service-orders-manually.md) ve [Servis görevi ilişkileri oluşturma](create-service-task-relations.md).
 
 ## <a name="monitor-the-progress-of-service-orders"></a>Servis siparişlerinin ilerlemesini izleme
 
 Farklı takımlar ve iş süreçleri üzerinden bir satış siparişi ilerlemesini izlemek için servis siparişleri aşamaları ve neden kodları için bir sistem ayarlayabilirsiniz. Her aşama için izin verilen eylemleri belirtebilirsiniz. Daha fazla bilgi için bkz. [Neden kodları oluşturma](create-reason-codes.md).
 
-### <a name="example"></a>Örnek
+**Örnek**
 
 Bir servis siparişi dağıtıcı tarafından onaylanır. Dağıtıcı servis siparişi aşamasını güncelleştirir ve servis siparişinin servis teknisyenine serbest bırakıldığını belirten bir neden kodu belirtir. Teknisyen müşteri tesisine gider ve servisi yerine getirir.
 
@@ -58,7 +62,7 @@ Bir servis siparişi dağıtıcı tarafından onaylanır. Dağıtıcı servis si
 
 Servis siparişleri için gerekli olan stok maddeleri belirtebilirsiniz. Bununla birlikte, servis siparişi bir proje ile ilişkili olmalıdır. Servis siparişleri için madde gereksinimleri bir proje aracılığıyla işlenir. 
 
-### <a name="example"></a>Örnek
+**Örnek**
 
 Servis sözleşmesinden oluşturulan servis siparişleri sevk memuru tarafından işlenir. Birinci servis siparişinde, dağıtıcı servis teknisyenin eldeki stokta bulunmayan önemli bir yedek parçaya gereksinimi olduğunu fark eder. Bu nedenle, dağıtıcı yedek parça için doğrudan servis siparişinden bir madde gereksinimi oluşturur.
 
@@ -72,7 +76,7 @@ Söz konusu işin iptal edilmesi nedeniyle, Ocak ayı için oluşturulan diğer 
 
 ## <a name="post-from-projects"></a>Projelerden deftere nakletme
 
-Her haftanın sonunda, dağıtıcı belirli bir projeye iliştirilmiş tüm servis siparişlerini deftere nakletmek ister. Bu nedenle, dağıtıcı **Projeler** sayfasında ilgili projeyi bulur ve tamamlanan servis siparişlerini deftere nakleder. Daha fazla bilgi için bkz. [Servis siparişlerini deftere nakletme (sınıf formu)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
+Her haftanın sonunda, dağıtıcı belirli bir projeye iliştirilmiş tüm servis siparişlerini deftere nakletmek ister. Bu nedenle, dağıtıcı **Projeler** formunda ilgili projeyi bulur ve tamamlanan servis siparişlerini deftere nakleder. Daha fazla bilgi için bkz. [Servis siparişlerini deftere nakletme (sınıf formu)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Servis siparişlerini sil
 
@@ -85,6 +89,3 @@ Yılın ikinci yarısında müşteriniz servis ziyaretlerinin çok az sıklıkta
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

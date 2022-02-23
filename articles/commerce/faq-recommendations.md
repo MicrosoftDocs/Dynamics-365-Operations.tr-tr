@@ -2,13 +2,16 @@
 title: Ürün önerileri SSS
 description: Bu konu, ürün önerilerle veya sonuçları ile ilgili sorunları gidermek için kullanabileceğiniz işlemler ve araçlar hakkında bilgi sağlar.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf3df2267671b50c20b28dbdb1c6a21696bf2515
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733977"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416316"
 ---
 # <a name="product-recommendations-faq"></a>Ürün önerileri SSS
 
@@ -68,7 +71,7 @@ Bir maddenin depoda keşfedilmesini engellemelisiniz, **madde sınıflamalar** d
 
 ## <a name="how-do-i-add-a-list-to-an-e-commerce-page"></a>Bir e-ticaret sayfasına nasıl liste ekleyebilirim?
 
-E-ticaret Web sitenize ürün öneri sayfaları ekleme hakkında bilgi için, bkz [Sayfalara ürün öneri listeleri ekle](./product-recommendations.md).
+E-ticaret Web sitenize ürün öneri sayfaları ekleme hakkında bilgi için, bkz [Sayfalara ürün öneri listeleri ekle](add-reco-list-to-page.md).
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>POS'un önerilerini nasıl etkinleştirebilirim?
 
@@ -97,6 +100,3 @@ E-ticaret Web sitenize ürün öneri sayfaları ekleme hakkında bilgi için, bk
 [Seçkin önerileri el ile oluşturma](create-editorial-recommendation-lists.md)
 
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

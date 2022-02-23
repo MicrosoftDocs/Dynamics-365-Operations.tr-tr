@@ -2,9 +2,11 @@
 title: Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)
 description: Bu makale Microsoft Dynamics AX uygulama sürümü 7.0.1'da yeni veya değişen özellikler açıklanmaktadır. Bu sürüm Mayıs 2016 tarihinde yayımlanmıştır ve 7.0.1265.23014 yapım numarasına sahiptir.
 author: sericks007
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748276"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797177"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)
 
@@ -76,7 +78,7 @@ Bu makale Microsoft Dynamics AX uygulama sürümü 7.0.1'da yeni veya değişen 
 </tr>
 <tr>
 <td>Aynı maddenin farklı üretim boyutlarına sahip maddeleri içeren ürün reçetelerini destekleyin.</td>
-<td>Üretimde bir veya daha fazla üretim boyutu kullanırken, maddeyi aynı maddenin farklı seçeneklerine göre üretmek istediğiniz durumlar olabilir. Daha fazla bilgi için bkz. <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">bu blog</a>.</td>
+<td>Üretimde bir veya daha fazla üretim boyutu kullanırken, maddeyi aynı maddenin farklı seçeneklerine göre üretmek istediğiniz durumlar olabilir. Daha fazla bilgi için bkz. <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">bu blog</a>.</td>
 </tr>
 <tr>
 <td>Ürün reçetelerinin birinci düzeyinde döngüsel yapıya sahip üretim emirleri malzeme kaynak planlamasında ürün reçetesi düzeyi hesaplamanın dışında bırakılır.</td>
@@ -104,6 +106,3 @@ Bu makale Microsoft Dynamics AX uygulama sürümü 7.0.1'da yeni veya değişen 
 [Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md)
 
 [Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

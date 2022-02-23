@@ -2,9 +2,11 @@
 title: Parametreli HESAPLANAN ALAN veri kaynakları ekleyerek ER çözümleri performansını iyileştirme
 description: Bu konuda, parametreli HESAPLANAN ALAN veri kaynaklarını ekleyerek, Elektronik raporlama (ER) çözümlerinin performansını artırmaya nasıl yardımcı olabileceğiniz açıklanmaktadır.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753682"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681292"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Parametreli HESAPLANAN ALAN veri kaynakları ekleyerek ER çözümleri performansını iyileştirme
 
@@ -56,7 +58,7 @@ Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözü
     2. ER yapılandırması için XML biçiminde uygun dosyayı seçmek için **Gözat**'ı seçin.
     3. **Tamam**'ı seçin.
 
-![Yapılandırmalar sayfasında içe aktarılan yapılandırmalar.](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Yapılandırmalar sayfasında içe aktarılan yapılandırmalar](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>Örnek ER çözümüne göz atma
 
@@ -76,7 +78,7 @@ Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözü
 
     Bu yapılandırmadaki model eşlemesi, bu model için oluşturulan ve Finance'de yürütülen ER biçimleri için temel veri modelini uygular. Bu nedenle **Trans** veri kaynaklarının içeriği soyut **model** veri kaynakları gibi ER biçimleri için sunulur.
 
-    ![Model eşleme tasarımcı sayfasında Trans veri kaynağı.](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Model eşleme tasarımcı sayfasında Trans veri kaynağı](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. **Model eşleme tasarımcısı** sayfasını kapatın
 5. **Veri kaynağı modeli eşleme** sayfasını kapatın.
@@ -90,7 +92,7 @@ Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözü
 
     Bu ER biçimi, XML biçiminde satıcı hareketleri raporu oluşturmak için tasarlanmıştır.
 
-    ![Biçim tasarımcısı sayfasında veri kaynaklarını ve yapılandırılmış biçim öğelerinin bağlarını biçimlendirme.](media/er-calculated-field-ds-performance-format.png)
+    ![Biçim tasarımcısı sayfasında veri kaynaklarını ve yapılandırılmış biçim öğelerinin bağlarını biçimlendirme](media/er-calculated-field-ds-performance-format.png)
 
 5. **Biçim tasarımcısı** sayfasını kapatın.
 
@@ -103,7 +105,7 @@ ER çözümünün ilk sürümünü tasarlamayı bitirdiğinizi varsayalım. Şim
 1. **DEMF** şirketini seçin.
 2. Bir ER biçimi çalıştırılırken, performans izleme oluşturmak için [ER performans izlemesini aç](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) adımlarını izleyin.
 
-    ![Kullanıcı parametreleri iletişim kutusu.](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Kullanıcı parametreleri iletişim kutusu](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>ER biçimini çalıştır
 
@@ -124,7 +126,7 @@ Geçerli model eşleştirmesinin bazı veri kaynağı öğeleri için yeni bilgi
 - Veri kaynağı kullanılarak veri almada harcanan gerçek süre
 - Aynı zaman, tüm model eşleşmesinin yürütülmesi için harcanan toplam sürenin yüzdesi olarak ifade edilen saat
 
-![Model eşleme tasarımcısı sayfasında yürütme zamanı ayrıntıları.](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Model eşleme tasarımcısı sayfasında yürütme zamanı ayrıntıları](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 **Performans istatistikleri** kılavuzunda, **Trans** veri kaynağının VendTrans tablosunu bir kez çağırdığı gösterilir. **Trans** veri kaynağının **\[265\]\[Q:265\]** değeri, uygulama tablosundan 265 satıcı hareketinin getirildiğini ve veri modeline döndürüldüğünü gösterir.
 
@@ -137,7 +139,7 @@ Geçerli model eşleştirmesinin bazı veri kaynağı öğeleri için yeni bilgi
 
 - Alınan hareketler yalnızca beş satıcı için deftere nakledildiğinden, tekrarlandırılmış her satıcı hareketi için satıcı tablosu çağrılır. 530 çağrının 525 tanesi çoğaltılır. Aşağıdaki şekilde, tekrarlanan çağrılar (veritabanı istekleri) hakkında aldığınız ileti gösterilir.
 
-![Model eşleme tasarımcısı sayfasındaki yinelenen veritabanı istekleri hakkında ileti.](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Model eşleme tasarımcısı sayfasındaki yinelenen veritabanı istekleri hakkında ileti](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Toplam model eşleme yürütme süresinin (yaklaşık sekiz saniye), yüzde 80'ninden fazlasının (yaklaşık 6 saniye) VendTable uygulama tablosundan değerleri alırken harcandığını unutmayın. Bu yüzde beş satıcının iki özniteliği için çok büyük olup, VendTrans uygulama tablosundaki bilginin hacmiyle karşılaştırılır.
 
@@ -172,7 +174,7 @@ Veritabanında çoğaltılan çağrıların engellenmesine yardımcı olmak amac
     3. İletişim kutusunda, **Ad** alanına **Kutu** girin.
     3. **Tamam**'ı seçin.
 
-    ![Model eşleme tasarımcı sayfasında Kutu veri kaynağı.](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Model eşleme tasarımcı sayfasında Kutu veri kaynağı](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. **Hesaplanan alan** türüne ait parametreli bir veri kaynağı eklemek için aşağıdaki adımları izleyin:
 
@@ -208,7 +210,7 @@ Veritabanında çoğaltılan çağrıların engellenmesine yardımcı olmak amac
 
 9. **Kaydet**'i seçin.
 
-    ![Model eşleme tasarımcı sayfasında Vend veri kaynağı.](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Model eşleme tasarımcı sayfasında Vend veri kaynağı](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. **Model eşleme tasarımcısı** sayfasını kapatın
 11. **Model eşlemeleri** sayfasını kapatın
@@ -232,11 +234,11 @@ Yeni bir performans izleme oluşturmak için bu konuda daha önce işlenen [ER b
 
 Model eşleştirmesinde yaptığınız ayarlamaların veritabanındaki yinelenen sorguları elediğine dikkat edin. Bu model eşleme için veritabanı tablolarına ve veri kaynaklarına yapılan çağrı sayısı da azaltılmıştır.
 
-![Model eşleme tasarımcı sayfası 1'de bilgiyi izleme.](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Model eşleme tasarımcı sayfası 1'de bilgiyi izleme](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 Toplam yürütme süresi yaklaşık 20 kat düşürüldü (yaklaşık 8 saniyeden 400 milisaniyeye). Bu nedenle, tüm ER çözümü performansı iyileştirilmiştir.
 
-![Model eşleme tasarımcı sayfası 2'de bilgiyi izleme.](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Model eşleme tasarımcı sayfası 2'de bilgiyi izleme](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>Ek 1: Örnek Microsoft ER çözümünün bileşenlerini indirme
 
@@ -244,9 +246,9 @@ Aşağıdaki dosyaları indirip yerel olarak saklamalısınız.
 
 | Dosya                                        | İçerik |
 |---------------------------------------------|---------|
-| Performans geliştirme modeli.sürüm.1     | [Örnek ER verisi modeli yapılandırması](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
-| Performans geliştirme eşleştirme.sürümü.1.1 | [Örnek ER model eşleme yapılandırması](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
-| Performans geliştirme biçimi.sürümü.1.1  | [Örnek ER biçim yapılandırması](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
+| Performans geliştirme modeli.sürüm.1     | [Örnek ER verisi modeli yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Performans geliştirme eşleştirme.sürümü.1.1 | [Örnek ER model eşleme yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Performans geliştirme biçimi.sürümü.1.1  | [Örnek ER biçim yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>Ek 2: ER altyapısını yapılandırma
 
@@ -298,6 +300,3 @@ ER yapılandırma sağlayıcıları hakkında daha fazla bilgi için bkz. [Yapı
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 - [Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme](trace-execution-er-troubleshoot-perf.md)
 - [Hesaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş çağrılarını destekleme](er-calculated-field-type.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

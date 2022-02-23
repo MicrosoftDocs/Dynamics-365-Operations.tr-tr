@@ -1,31 +1,36 @@
 ---
-title: Kıymet yönetimi mobil çalışma alanını kullanma
+title: Varlık yönetimi mobil çalışma alanı
 description: Bu konu Varlık yönetimi mobil çalışma alanı hakkında bilgiler sağlar.
-author: johanhoffmann
-ms.date: 01/15/2021
+author: josaw1
+manager: tfehr
+ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: mkirknel
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 525f21d076027f1bf339e59fd0e346706044839c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771551"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439126"
 ---
-# <a name="use-the-asset-management-mobile-workspace"></a>Kıymet yönetimi mobil çalışma alanını kullanma
+# <a name="asset-management-mobile-workspace"></a>Varlık yönetimi mobil çalışma alanı
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu **Kıymet yönetimi** mobil çalışma alanı hakkında bilgiler sağlar. Bu çalışma alanı, kullanıcıların bakım taleplerini ve iş emirlerini görüntüleyip oluşturmasına olanak tanır. Ayrıca kullanıcılar, atanan iş emri işlerini takvim veya liste görünümünde görüntüleyebilirler. Varlıklar ve işlem yapılacak yerleşimler de görüntülenip aranabilir.
+
+Bu konu Varlık yönetimi mobil çalışma alanı hakkında bilgiler sağlar. Bu çalışma alanı, kullanıcıların bakım taleplerini ve iş emirlerini görüntüleyip oluşturmasına olanak tanır. Ayrıca kullanıcılar, atanan iş emri işlerini takvim veya liste görünümünde görüntüleyebilirler. Varlıklar ve işlem yapılacak yerleşimler de görüntülenip aranabilir.
+
 
 ## <a name="overview"></a>Genel bakış
 
@@ -39,204 +44,212 @@ Varlık Yönetimi, Dynamics 365 Supply Chain Management'da varlıkların ve iş 
 - İş emri işi oluşturmak, görüntülemek ve düzenlemek, varlık sayaçlarını güncelleştirmek, bakım denetim listesini görüntülemek, iş emri iş notlarını görüntülemek ve düzenlemek, iş emri işi için gerekli araçları görüntülemek.
 - Belirli bir varlık veya işlem yapılacak yerleşimi görüntülemek veya aramak.
 
+
 ## <a name="prerequisites"></a>Önkoşullar
 
-**Kıymet yönetimi** mobil çalışma alanını kullanabilmeniz için, yöneticinizin gerekli kullanıcı ve çalışan hesaplarını ayarlamış ve çalışma alanını yayımlamış olması gerekir. Daha fazla bilgi için bkz. [Kıymet yönetimi mobil çalışma alanını ayarlama](set-up-asset-management-mobile.md).
+Önkoşullar, kuruluşunuza dağıtılan Dynamics 365 Supply Chain Management sürümüne dayalı olarak değişiklik gösterir.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-supply-chain-management"></a>Microsoft Dynamics 365 Supply Chain Management kullanıyorsanız önkoşullar 
+Microsoft Dynamics 365 Supply Chain Management kuruluşunuza dağıtıldıysa sistem yöneticisinin **Varlık yönetimi** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
-
 Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 - [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 - [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Mobil uygulamaya oturum açın
-
 1. Mobil cihazınızda uygulamayı başlatın.
 
-1. Dynamics 365 URL'nizi girin.
+2. Dynamics 365 URL'nizi girin.
 
-1. İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir. Kimlik bilgilerinizi girin.
+3. İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir. Kimlik bilgilerinizi girin.
 
-1. Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.
+4. Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.
 
-    ![Çalışma alanını seçme.](media/am-mobile-01.png "Çalışma alanını seçme")
+![Şekil 1](media/am-mobile-01.png)
+
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Atanan iş emri işlerini Takvim görünümünde görüntüleme
 
 1. Mobil cihazınızda **Varlık yönetimi** çalışma alanını açın.
 
-1. **İş emri işleri takvimim**'i seçin.
+2. **İş emri işleri takvimim**'i seçin.
 
-1. İş emri işlerini görüntülemek istediğiniz tarihi seçin. Listede, her iş emri işi için varlık kodunu ve işlem yapılacak yerleşim kodunu görürsünüz.
+3. İş emri işlerini görüntülemek istediğiniz tarihi seçin. Listede, her iş emri işi için varlık kodunu ve işlem yapılacak yerleşim kodunu görürsünüz.
 
-1. İş ayrıntılarını görmek için listeden bir iş emri işi seçin: Varlık ve işlem yapılacak yerleşim ayrıntıları ile **Ekler**, **Denetim listeleri**, **Araçlar**, **Varlık sayaçları**, **Notlar**, **Günlükler**'i görüntülemek için diğer gezinti bağlantıları.
+4. İş ayrıntılarını görmek için listeden bir iş emri işi seçin: Varlık ve işlem yapılacak yerleşim ayrıntıları ile **Ekler**, **Denetim listeleri**, **Araçlar**, **Varlık sayaçları**, **Notlar**, **Günlükler**'i görüntülemek için diğer gezinti bağlantıları.
 
-    ![Atanan iş emri işlerini Takvim görünümünde görüntüleme.](media/am-mobile-02.png "Atanan iş emri işlerini Takvim görünümünde görüntüleme")
+![Şekil 2](media/am-mobile-02.png)
+
 
 ## <a name="create-a-work-order-job"></a>İş emri işi oluşturma
 
 1. Mobil cihazınızda **Varlık yönetimi** çalışma alanını açın.
 
-1. **Tüm bakım iş emirleri**'ni seçin.
+2. **Tüm bakım iş emirleri**'ni seçin.
 
-1. Yeni bir iş emri işi oluşturmak istediğiniz iş emrini seçin.
+3. Yeni bir iş emri işi oluşturmak istediğiniz iş emrini seçin.
 
-1. **Satır ekle** düğmesini seçin.
+4. **Satır ekle** düğmesini seçin.
 
-1. Yeni bir iş emri işi oluşturmak istediğiniz **Varlığı** seçin.
+5. Yeni bir iş emri işi oluşturmak istediğiniz **Varlığı** seçin.
 
-1. **Bakım İşi türü**, **Bakım işi türü çeşidi** ve **Zanaat**'ı seçin.
+6. **Bakım İşi türü**, **Bakım işi türü çeşidi** ve **Zanaat**'ı seçin.
 
-1. **Tamam**'ı seçin.
+7. **Tamam**'ı seçin.
 
-    ![Satır ekle ekranı.](media/am-mobile-03.png "Satır ekle ekranı")
+![Şekil 3](media/am-mobile-03.png)
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>İş emri işine ek ekleme
 
 1. Mobil cihazınızda **Varlık yönetimi** çalışma alanını açın.
 
-1. **Tüm bakım iş emirleri**'ni seçin.
+2. **Tüm bakım iş emirleri**'ni seçin.
 
-1. Ek eklemek istediğiniz iş emrini > iş emri işini seçin.
+3. Ek eklemek istediğiniz iş emrini > iş emri işini seçin.
     - Alternatif olarak, **İş emri işi ayrıntıları** sayfasına gitmek için ana sayfada **İş emri işleri listem** veya **İş emri işleri takvimim**'i seçebilirsiniz.
 
-1. **İş emri işi ayrıntıları** sayfasında **Ekler**'i seçin.
+4. **İş emri işi ayrıntıları** sayfasında **Ekler**'i seçin.
 
-1. İş emri işindeki mevcut ekleri göreceksiniz. **Ek ekle**'yi seçin.
+5. İş emri işindeki mevcut ekleri göreceksiniz. **Ek ekle**'yi seçin.
 
-1. Ek için **Ad** ve **Notlar** girin.
+6. Ek için **Ad** ve **Notlar** girin.
 
-1. Mobil galeriden fotoğraf seçmek için **Görüntü seç**'i veya fotoğraf çekmek için **Fotoğraf çek**'i seçin.
+7. Mobil galeriden fotoğraf seçmek için **Görüntü seç**'i veya fotoğraf çekmek için **Fotoğraf çek**'i seçin.
 
-1. **Tamam**'ı seçin.
+8. **Tamam**'ı seçin.
 
-    ![İş emri işi için ekleri görüntüleme ve ekleme.](media/am-mobile-04.png "İş emri işi için ekleri görüntüleme ve ekleme")
+![Şekil 4](media/am-mobile-04.png)
+
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>İş emri işindeki bakım denetim listesini görüntüleme
 
 1. Mobil cihazınızda **Varlık yönetimi** çalışma alanını açın.
 
-1. **Tüm bakım iş emirleri**'ni seçin.
+2. **Tüm bakım iş emirleri**'ni seçin.
 
-1. Denetim listelerini görüntülemek istediğiniz iş emrini > iş emri işini seçin.
+3. Denetim listelerini görüntülemek istediğiniz iş emrini > iş emri işini seçin.
     - Alternatif olarak, **İş emri işi ayrıntıları** sayfasına gitmek için ana sayfada **İş emri işleri listem** veya **İş emri işleri takvimim**'i seçebilirsiniz.
 
-1. **İş emri işi ayrıntıları** sayfasında **Denetim listeleri**'ni seçin.
+4. **İş emri işi ayrıntıları** sayfasında **Denetim listeleri**'ni seçin.
 
-1. İş emri işiyle ilgili denetim listesi satırlarının listesini göreceksiniz. **Yönergeleri** görüntülemek ve **Ekler** eklemek için denetim listesi satırı seçin.
+5. İş emri işiyle ilgili denetim listesi satırlarının listesini göreceksiniz. **Yönergeleri** görüntülemek ve **Ekler** eklemek için denetim listesi satırı seçin.
 
-1. Önceki sayfaya dönmek için geri düğmesini (**<**) seçin.
+6. Önceki sayfaya dönmek için geri düğmesini (**<**) seçin.
 
-    ![Bakım denetim listesi ve satır ayrıntıları.](media/am-mobile-05.png "Bakım denetim listesi ve satır ayrıntıları")
+![Şekil 5](media/am-mobile-05.png)
+
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Bir iş emri işinde varlık sayaçlarını görüntüleme ve güncelleştirme
 
 1. Mobil cihazınızda **Varlık yönetimi** çalışma alanını açın.
 
-1. **Tüm bakım iş emirleri**'ni seçin.
+2. **Tüm bakım iş emirleri**'ni seçin.
 
-1. Varlık sayaçlarını görüntülemek istediğiniz iş emrini > iş emri işini seçin.
+3. Varlık sayaçlarını görüntülemek istediğiniz iş emrini > iş emri işini seçin.
     - Alternatif olarak, **İş emri işi ayrıntıları** sayfasına gitmek için ana sayfada **İş emri işleri listem** veya **İş emri işleri takvimim**'i seçebilirsiniz.
 
-1. **İş emri işi ayrıntıları** sayfasında **Varlık sayaçları**'nı seçin.
+4. **İş emri işi ayrıntıları** sayfasında **Varlık sayaçları**'nı seçin.
 
-1. İş emri işiyle ilgili varlık sayaçlarının listesini göreceksiniz. Sayaç değerini güncelleştirmek için bir varlık sayacı satırındaki kalem simgesini seçin.
+5. İş emri işiyle ilgili varlık sayaçlarının listesini göreceksiniz. Sayaç değerini güncelleştirmek için bir varlık sayacı satırındaki kalem simgesini seçin.
 
-1. Yeni bir sayaç değeri girin ve **Bitti**'yi seçin.
+6. Yeni bir sayaç değeri girin ve **Bitti**'yi seçin.
 
-    ![Kıymet sayaçlarını görüntüleme ve güncelleştirme.](media/am-mobile-06.png "Kıymet sayaçlarını görüntüleme ve güncelleştirme")
+![Şekil 6](media/am-mobile-06.png)
+
 
 ## <a name="register-consumption-on-a-work-order-job"></a>İş emri işinde tüketimi kaydetme
 
 1. Mobil cihazınızda **Varlık yönetimi** çalışma alanını açın.
 
-1. **Tüm bakım iş emirleri**'ni seçin.
+2. **Tüm bakım iş emirleri**'ni seçin.
 
-1. Tüketim kayıtları eklemek istediğiniz istediğiniz iş emrini > iş emri işini seçin.
+3. Tüketim kayıtları eklemek istediğiniz istediğiniz iş emrini > iş emri işini seçin.
     - Alternatif olarak, **İş emri işi ayrıntıları** sayfasına gitmek için ana sayfada **İş emri işleri listem** veya **İş emri işleri takvimim**'i seçebilirsiniz.
 
-1. **İş emri işi ayrıntıları** sayfasında **Günlükler**'i seçin.
+4. **İş emri işi ayrıntıları** sayfasında **Günlükler**'i seçin.
 
-1. Çalışma saati kayıtları oluşturmak için **Saat ekle**'yi seçin.
+5. Çalışma saati kayıtları oluşturmak için **Saat ekle**'yi seçin.
     1. Aramadan **Kategori**'yi seçin.
-    1. **Saat** alanında, iş emri işinde harcanan çalışma saatlerinin sayısını girin.
-    1. Uygun **Satır özelliği** öğesini seçin.
-    1. **Tamam**'ı seçin.
+    2. **Saat** alanında, iş emri işinde harcanan çalışma saatlerinin sayısını girin.
+    3. Uygun **Satır özelliği** öğesini seçin.
+    4. **Tamam**'ı seçin.
 
-1. Madde kayıtları oluşturmak için **Madde ekle**'yi seçin.
+6. Madde kayıtları oluşturmak için **Madde ekle**'yi seçin.
     1. Aramadan **Madde numarası**'nı seçin.
-    1. Aramadan **Tesis**'i seçin.
-    1. Tüketilen madde **Miktarını** girin.
-    1. **Tamam**'ı seçin.
+    2. Aramadan **Tesis**'i seçin.
+    3. Tüketilen madde **Miktarını** girin.
+    4. **Tamam**'ı seçin.
 
-1. Gider kayıtları oluşturmak için **Gider ekle**'yi seçin.
+7. Gider kayıtları oluşturmak için **Gider ekle**'yi seçin.
     1. Aramadan **Kategori**'yi seçin.
-    1. Gider kaydı için miktarı girin.
-    1. Aramadan **Satış para birimi**'ni seçin.
-    1. Gider kaydı için **Maiyet fiyatı**'nı girin.
-    1. **Tamam**'ı seçin.
+    2. Gider kaydı için miktarı girin.
+    3. Aramadan **Satış para birimi**'ni seçin.
+    4. Gider kaydı için **Maiyet fiyatı**'nı girin.
+    5. **Tamam**'ı seçin.
 
-    ![İş emri günlüğünü güncelleştirme.](media/am-mobile-07.png "İş emri günlüğünü güncelleştirme")
+![Şekil 7](media/am-mobile-07.png)
+
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>İş emrindeki yaşam döngüsü durumunu güncelleştirme
 
 1. Mobil cihazınızda **Varlık yönetimi** çalışma alanını açın.
 
-1. **Tüm bakım iş emirleri**'ni seçin.
+2. **Tüm bakım iş emirleri**'ni seçin.
 
-1. Yaşam döngüsü durumunu güncelleştirmek istediğiniz iş emrini seçin.
+3. Yaşam döngüsü durumunu güncelleştirmek istediğiniz iş emrini seçin.
 
-1. Ekranın alt kısmındaki **Durumu güncelleştir** düğmesini seçin.
+4. Ekranın alt kısmındaki **Durumu güncelleştir** düğmesini seçin.
 
-1. Listeden yeni bir yaşam döngüsü durumu seçin.
+5. Listeden yeni bir yaşam döngüsü durumu seçin.
 
-1. **Tamam**'ı seçin.
+6. **Tamam**'ı seçin.
 
-    ![İş emrindeki yaşam döngüsü durumunu güncelleştirme.](media/am-mobile-08.png "İş emrindeki yaşam döngüsü durumunu güncelleştirme")
+![Şekil 8](media/am-mobile-08.png)
+
 
 ## <a name="create-a-maintenance-request"></a>Bakım talebi oluşturma
 
 1. Mobil cihazınızda **Varlık yönetimi** çalışma alanını açın.
 
-1. **Tüm bakım talepleri**'ni seçin.
+2. **Tüm bakım talepleri**'ni seçin.
 
-1. Ekranın altınaki **Eylemler** öğesini ve **Bakım talebi oluştur**'u seçin.
+3. Ekranın altınaki **Eylemler** öğesini ve **Bakım talebi oluştur**'u seçin.
 
-1. **Varlık yönetimi**'nde bakım talepleri için numara serisi etkinleştirilmişse, **Bakım talebi** alanı gizlenir çünkü bu alan otomatik olarak doldurulur. **Bakım talebi** alanı görünüyorsa bir bakım talebi kimliği girin.
+4. **Varlık yönetimi**'nde bakım talepleri için numara serisi etkinleştirilmişse, **Bakım talebi** alanı gizlenir çünkü bu alan otomatik olarak doldurulur. **Bakım talebi** alanı görünüyorsa bir bakım talebi kimliği girin.
 
-1. Bir **Bakım talebi türü** seçin.
+5. Bir **Bakım talebi türü** seçin.
 
-1. Bakım talebi için bir **Açıklama** girin.
+6. Bakım talebi için bir **Açıklama** girin.
 
-1. Talep oluşturmak istediğiniz **Varlığı** seçin.
+7. Talep oluşturmak istediğiniz **Varlığı** seçin.
 
-1. Bakım talebi için **Hizmet düzeyi** seçin.
+8. Bakım talebi için **Hizmet düzeyi** seçin.
 
-1. **Tamam**'ı seçin.
+9. **Tamam**'ı seçin.
 
-    ![Bakım talebi oluşturma.](media/am-mobile-09.png "Bakım talebi oluşturma")
+![Şekil 9](media/am-mobile-09.png)
+
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Bakım talebine ek ekleme
 
 1. Mobil cihazınızda **Varlık yönetimi** çalışma alanını açın.
 
-1. **Tüm bakım talepleri**'ni seçin.
+2. **Tüm bakım talepleri**'ni seçin.
 
-1. Ek eklemek istediğiniz bakım talebini seçin.
+3. Ek eklemek istediğiniz bakım talebini seçin.
 
-1. Ekranın alt kısmındaki **Ekler**'i seçin.
+4. Ekranın alt kısmındaki **Ekler**'i seçin.
 
-1. **Ekler ekle**'yi seçin.
+5. **Ekler ekle**'yi seçin.
 
-1. Ek için **Ad** ve **Notlar** girin.
+6. Ek için **Ad** ve **Notlar** girin.
 
-1. Mobil galeriden fotoğraf seçmek için **Resim seç**'i veya fotoğraf çekmek için **Fotoğraf çek**'i seçin.
+7. Mobil galeriden fotoğraf seçmek için **Görüntü seç**'i veya fotoğraf çekmek için **Fotoğraf çek**'i seçin.
 
-1. **Tamam**'ı seçin.
+8. **Tamam**'ı seçin.
 
-    ![Bakım talebine ek ekleme.](media/am-mobile-10.png "Bakım talebine ek ekleme")
+![Şekil 10](media/am-mobile-10.png)
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

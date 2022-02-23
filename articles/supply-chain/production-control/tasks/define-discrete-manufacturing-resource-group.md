@@ -1,25 +1,28 @@
 ---
 title: Kesikli üretim kaynak grubunu tanımlama
 description: Kaynak grubu, genellikle üretim atölyesinde sarı satırlarla tanımlanan fiziki iş hücreleri düzenine karşılık gelen operasyon kaynakları grubudur.
-author: johanhoffmann
+author: sorenva
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: sorenand
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ce76c6f7534e37d8b68d3a6ed1e8eb0457da725
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eaccb566c04d6d4b91ea8cb046931e750a4c6eed
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580660"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439002"
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Kesikli üretim kaynak grubunu tanımlama
 
@@ -55,6 +58,3 @@ Kaynak grubu, genellikle üretim atölyesinde sarı satırlarla tanımlanan fizi
 6. Listede, istenen kaydı bulun ve seçin.
 7. Listede, seçili satırdaki bağlantıya tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

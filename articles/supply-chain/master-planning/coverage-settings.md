@@ -1,27 +1,30 @@
 ---
 title: Kapsam ayarları
 description: Bu konu, Master planlamanın madde gereksinimlerini hesaplamak için kullandığı kapsam ayarlarıyla ilgili bilgi sağlar.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable, ReqItemTableWizard, ReqItemTableSetup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 2494
 ms.assetid: 5a95ae4f-ca75-47d9-a1c3-68c97b42f166
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d0fec443ee4c531d2bc7edc6623d309e863348b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b1134f734f1025151a56b2a72266a6baa5763ba4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569805"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439544"
 ---
 # <a name="coverage-settings"></a>Kapsam ayarları
 
@@ -63,6 +66,3 @@ Her stok yenileme yöntemine aşağıdaki karşılama kodlarından biri atanır:
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Master planlara genel bakış](master-plans.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
 title: Tesis kapsamı için master planlama, ambar zorunlu değil
 description: Bu konu, site boyutunun kapsam olduğu bir maddenin nasıl planlanacağını anlatır.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 2474
 ms.assetid: 316da918-67ae-43c5-baea-00ae559e29b0
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484b178f3ac43f727fd6acb5deb40b7907c931ec
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0f4cde5c570148ca58c4ea583a8f538a72d4957d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579628"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439532"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Tesis kapsamı için master planlama, ambar zorunlu değil
 
@@ -41,11 +44,12 @@ Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği göst
 -   Stok yenileme ilişkileri ambar için tanımlanmıştır. Şu öğeleri tıklatın: **Stok yönetimi &gt; Kurulum &gt; Stok dökümü &gt; Ambarlar**. **Master planlama** sekmesi üzerindeki **Ana ambar** alan grubuna bakın.
 -   Varsayılan sipariş türü Ürün, Satın alma siparişi veya Kanban olarak ayarlıdır. **Ürün bilgileri yönetimi &gt; Ürünler&gt; Serbest bırakılan ürünler** seçeneğine tıklayın. Maddeyi seçin ve ardından **Plan &gt; Varsayılan sipariş ayarları** düğmesini tıklayın. **Varsayılan sipariş ayarları** formunda **Varsayılan sipariş türü** alanına bakınız.
 
-![Tesis karşılama ambarı için talep zorunlu değil.](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
+![Tesis kapsamı talebi ambar zorunlu değil    ](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Master planlama ve birden çok tesis işlevine genel bakış](master-plan-multisite-functionality.md)
 
@@ -59,6 +63,3 @@ Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği göst
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

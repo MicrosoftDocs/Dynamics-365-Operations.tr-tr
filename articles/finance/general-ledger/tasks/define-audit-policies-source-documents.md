@@ -2,9 +2,11 @@
 title: Kaynak belgeler için denetim ilkeleri tanımlama
 description: Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açıklar.
 author: panolte
+manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722683"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021441"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Kaynak belgeler için denetim ilkeleri tanımlama
 
@@ -39,9 +41,9 @@ Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açı
 11. **Yeni**'yi seçin.
 12. **Ad** alanına bir değer yazın.
 13. **İlke organizasyonları**  bölümünü genişletin.
-14. Ağaçta, **Contoso Entertainment System USA** seçeneğini belirleyin ve ardından **Ekle**'yi seçin.
-15. Ağaçta, **Contoso Consulting USA** seçeneğini belirleyin ve ardından **Ekle**'yi seçin.
-16. Ağaçta, **Contoso Retail USA** seçeneğini belirleyin ve ardından **Ekle**'yi seçin.
+14. Ağaçta **Contoso Entertainment System USA** seçeneğini ve ardından **Ekle**'yi seçin.
+15. Ağaçta **Contoso Consulting USA** seçeneğini ve ardından **Ekle**'yi seçin.
+16. Ağaçta **Contoso Retail USA** seçeneğini ve ardından **Ekle**'yi seçin.
 17. **İlke organizasyonları** bölümünü daraltın.
 18. **İlke kuralları**  bölümünü genişletin.
 19. Listede, önceden oluşturulmuş İlke Kuralı'nı bulup seçin.
@@ -85,6 +87,3 @@ Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açı
 57. **İlişkilendirmeler**  bölümünü genişletin.
 58. Listede, istenen kaydı bulun ve seçin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

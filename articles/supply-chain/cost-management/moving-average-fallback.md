@@ -2,26 +2,26 @@
 title: Hareketli ortalama, geri dönüş maliyet sırası
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta hareketli ortalama hesaplamaları için geri dönüş maliyet sıraları hakkında bilgi sağlar.
 author: AndersGirke
+manager: tfehr
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d91b3b4b8d49e59aa03d62f4dd101b5a1ec18c41
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 541b7ecca5c1c36999f573d6d0f2dc0c9e901631
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568219"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967595"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Hareketli ortalama, geri dönüş maliyet sırası
-
-[!include [banner](../includes/banner.md)]
 
 Stoğunuzun maliyetini hesaplamak için kullanabileceğiniz bir yöntem _hareketli ortalama_ kullanmaktır. Her stok maddesiyle en fazla üç maliyet değeri ilişkilendirilebilir:
 
@@ -44,7 +44,4 @@ Hareketli ortalama hesaplamaları için geri dönüş maliyet sırasını seçme
     - **Etkin maliyet - Son çıkış**
     - **Etkin maliyet – Madde fiyatı** - Kuruluşlar, stoklarda düzenli olarak negatif olan ve aynı anda hareket hacmi yüksek olan iş süreçlerini kullandıklarında, performans sorunlarıyla karşılaşabilir. Bu ayar, bu performans sorunlarının etkilerini hafifletmeye yardımcı olabilir.
 
-![Stok muhasebesi parametreleri.](media/inventory-accounting-parameters.png "Stok muhasebesi parametreleri")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Stok muhasebesi parametreleri](media/inventory-accounting-parameters.png "Stok muhasebesi parametreleri")

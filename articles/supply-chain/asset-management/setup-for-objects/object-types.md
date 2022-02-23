@@ -1,10 +1,12 @@
 ---
 title: Varlık türleri
 description: Bu konuda Varlık Yönetimi'nde varlık türleri oluşturma işlemi açıklanmaktadır. Ayrıca, varlık türlerine ilişkin öğeler de açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730390"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017429"
 ---
 # <a name="asset-types"></a>Varlık türleri
 
@@ -45,9 +47,9 @@ Her varlık türü için, varlık türü kurulumu varyasyonları oluşturulabili
 7. **Kaydet**'i seçin.
 8. **Bakım işi türleri** hızlı sekmesinde varlık türüyle ilişkili olması gereken bakım işi türlerini seçin.
 
-    - Bir bakım işi türü seçmek için türü **Kalan bakım işi türleri** alanında seçin ve daha sonra sağ ok düğmesini ![Sağ ok düğmesi.](media/29-setup-for-objects.png) seçerek **Seçili bakım işi türleri** bölümüne taşıyın.
-    - Tüm kullanılabilir bakım işi türlerini seçmek için ![Tüm okları ilerlet.](media/30-setup-for-objects.png) düğmesini seçin . Tüm bakım iş türleri **Kalan bakım işi türleri** alanından **Seçili bakım işi türleri** alanına aktarılır.
-    - Bir bakım işi türü seçimini iptal etmek için türü **Seçili bakım işi türleri** alanında seçin ve daha sonra sol ok düğmesini ![Sol ok düğmesi.](media/31-setup-for-objects.png) seçerek **Kalan bakım işi türleri** alanına taşıyın.
+    - Bir bakım işi türü seçmek için türü **Kalan bakım işi türleri** alanında seçin ve daha sonra sağ ok düğmesini ![Sağ ok düğmesi](media/29-setup-for-objects.png) seçerek **Seçili bakım iş türleri** bölümüne taşıyın.
+    - Tüm kullanılabilir bakım işi türlerini seçmek için ![Tüm okları ilerlet](media/30-setup-for-objects.png) düğmesini seçin. Tüm bakım iş türleri **Kalan bakım işi türleri** alanından **Seçili bakım işi türleri** alanına aktarılır.
+    - Bakım işi türü seçimini iptal etmek için türü **Seçili bakım işi türleri** alanında seçin ve daha sonra sol ok düğmesini ![Sol ok düğmesi](media/31-setup-for-objects.png) seçerek **Kalan bakım işi türleri** bölümüne taşıyın.
 
 9. Ayrıca, varlık türüyle ilişkilendirilmesi gereken sayaçları da seçebilirsiniz. **Sayaçlar** hızlı sekmesinde, adım 8'de bakım işi türleri için açıklanan yöntemleri kullanarak seçimlerinizi yapın. Sayaçların nasıl ayarlanacağı konusunda daha fazla bilgi için bkz. [Sayaçlar](counters.md).
 10. Ayrıca, varlık türüyle ilişkilendirilmesi gereken öznitelik türlerini de seçebilirsiniz. **Öznitelik türleri** hızlı sekmesinde, adım 8'de bakım işi türleri için açıklanan yöntemleri kullanarak seçimlerinizi yapın. Ardından, tercih edilen öznitelik türleri sırasını oluşturmak için **Seçili öznitelik türleri** alanında bir öznitelik türü seçin ve bunu taşımak için yukarı ok ve aşağı ok düğmelerini kullanın. Öznitelik türleri sırası bu varlık türünü kullanan varlıklarda gösterilir. Varlık öznitelikleri hakkında daha fazla bilgi için bkz. [Bakım öznitelik türleri](../setup-for-functional-locations/specification-types.md).
@@ -94,6 +96,3 @@ Genellikle, el ile oluşturulan iş emirleri düzeltici bakım ile ilgiliyken ot
 
 Seçili satırdaki yedek parçanın Varlık Yönetiminde herhangi bir yerde kullanılıp kullanılmadığını görmek için (örneğin varlıklar ve iş emirleriyle ilgili olarak) **Maddenin kullanıldığı yer**'i seçerek **Maddenin kullanıldığı yer** sayfasını açın. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

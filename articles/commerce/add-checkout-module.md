@@ -2,24 +2,27 @@
 title: Ödeme modülü
 description: Bu konuda, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
 author: anupamar-ms
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715518"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4416584"
 ---
 # <a name="checkout-module"></a>Ödeme modülü
 
@@ -27,13 +30,15 @@ ms.locfileid: "6715518"
 
 Bu konuda, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
 
+## <a name="overview"></a>Genel Bakış
+
 Ödeme modülü, sipariş oluşturmak için gerekli olan tüm modülleri barındıran özel bir konteynerdir. Müşterinin satın alma yapmak üzere ilgili tüm bilgileri girmek için kullandığı adım adım bir akış sunar. Sevkiyat adresi, sevkiyat yöntemi ve fatura bilgilerini yakalar. Ayrıca bir sipariş özeti ve bir müşteri siparişiyle ilgili başka bilgiler de sağlar.
 
 Ödeme modülü, verileri sepet koduna göre işler. Bu sepet kodu tarayıcı tanımlama bilgisi olarak kaydedilir. Sipariş edilen maddeler, toplam tutar ve iskontolar gibi ödeme modülündeki bilgileri oluşturmak için bir sepet kodu gereklidir. 
 
 Aşağıdaki resimde ödeme sayfasında kullanılan bir Fabrikam ödeme modülü örneği gösterilmektedir.
 
-![Ödeme modülü örneği.](./media/Checkout.PNG)
+![Ödeme modülü örneği](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Ödeme modülü özellikleri
 
@@ -52,13 +57,13 @@ Kullanıma alma modülü bir sipariş Özeti gösterir ve sipariş yerleştirilm
 
     Aşağıdaki resimde ödeme sayfasında kullanılan bir teslimat adresi modülü örneği gösterilmektedir.
 
-    ![Teslimat Adresi modülü örneği.](./media/ecommerce-shippingaddress.PNG)
+    ![Teslimat Adresi modülü örneği](./media/ecommerce-shippingaddress.PNG)
 
 - **Teslimat seçenekleri** – Bu modül bir müşteriye sipariş için teslimat şekli seçme olanağı sağlar. Bu modülle ilgili daha fazla bilgi için bkz. [Teslimat seçenekleri modülü](delivery-options-module.md).
 
     Aşağıdaki resimde ödeme sayfasında kullanılan bir teslimat seçenekleri modülü örneği gösterilmektedir.
  
-    ![Teslim seçenekleri modülü örneği.](./media/ecommerce-deliveryoptions.PNG)
+    ![Teslim seçenekleri modülü örneği](./media/ecommerce-deliveryoptions.PNG)
 
 - **Ödeme bölümü konteyneri** – bu modül, ödeme akışında bir bölüm oluşturmak üzere birden fazla modül koyacağınız bir konteynerdir. Örneğin, bu konteynerdeki ödemeyle ilgili tüm modülleri tek bir bölüm olarak görünmelerini sağlamak için yerleştirebilirsiniz. Bu modül yalnızca akışın düzenini etkiler.
 
@@ -70,7 +75,7 @@ Kullanıma alma modülü bir sipariş Özeti gösterir ve sipariş yerleştirilm
 
     Aşağıdaki resimde, ödeme sayfasındaki hediye kartı, bağlılık programı puanları ve ödeme modülleri gösterilmektedir.
 
-    ![Ödeme sayfasındaki hediye kartı, bağlılık programı puanları ve ödeme modüllerini gösteren örnek.](./media/ecommerce-payments.PNG)
+    ![Ödeme sayfasındaki hediye kartı, bağlılık programı puanları ve ödeme modüllerini gösteren örnek](./media/ecommerce-payments.PNG)
 
 - **İlgili kişi bilgileri** – bu modül müşterinin bir sipariş için iletişim bilgilerini (e-posta adresi) eklemesine veya değiştirmesine olanak tanır.
 
@@ -80,7 +85,7 @@ Kullanıma alma modülü bir sipariş Özeti gösterir ve sipariş yerleştirilm
 
     Aşağıdaki resimde ödeme sayfasındaki hüküm ve koşullar örneği gösterilmektedir.
 
-    ![Ödeme sayfasındaki hüküm ve koşullar örneği.](./media/ecommerce-checkout-terms.PNG)
+    ![Ödeme sayfasındaki hüküm ve koşullar örneği](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Ticari ölçek birim etkileşimi
 
@@ -122,6 +127,3 @@ Bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak için
 [Sipariş ayrıntıları modülü](order-confirmation-module.md)
 
 [Hediye kartı modülü](add-giftcard.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

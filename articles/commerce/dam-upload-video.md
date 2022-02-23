@@ -2,12 +2,15 @@
 title: Videoları karşıya yükleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce' site oluşturucuda videoları karşıya yükleme yöntemi açıklanmaktadır.
 author: psimolin
-ms.date: 06/09/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735642"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594320"
 ---
 # <a name="upload-videos"></a>Videoları karşıya yükleme
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce' site oluşturucuda videoları karşıya yükleme yöntemi açıklanmaktadır.
+
+## <a name="overview"></a>Özet
 
 Commerce site oluşturucu Ortam Kitaplığı videoları karşıya yüklemenize olanak tanır. Video farklı görünüm pencereleri ve kesme noktaları için otomatik olarak uygun duruma dönüştürüleceğinden her zaman en yüksek bit hızına ve çözünürlüğe sahip video sürümünü yüklemeniz gerekir.
 
@@ -35,7 +40,7 @@ Commerce site oluşturucu Ortam Kitaplığı videoları karşıya yüklemenize o
 Video karşıya yüklenirken, aşağıdaki bilgiler belirtilebilir.
 
 - **Başlık, Açıklama, Anahtar Sözcükler**: Videonun meta verileri.
-- **Açıklamalı alt yazıları otomatik oluştur**: Video için açıklamalı alt yazıların otomatik olarak oluşturulup oluşturulmayacağını belirtir (yalnızca İngilizce dili desteklenir). 
+- **Açıklamalı alt yazıları otomatik oluştur**: Video için açıklamalı alt yazıların otomatik olarak oluşturulup oluşturulmayacağını belirtir.
 - **Açıklamalı Altyazı**: Kullanılacak açıklamalı alt yazıları belirtir.
 - **Normal Ses**: Kullanılacak normal ses parçasını belirtir.
 - **Küçük resim**: Videonun küçük resmini belirtir. Belirtilmezse, otomatik olarak oluşturulacaktır.
@@ -68,6 +73,3 @@ Birden çok varlık türünü aynı anda (örneğin, görüntüler ve videolar) 
 [Görüntü odak noktalarını özelleştirme](dam-custom-focal-point.md)
 
 [Statik dosyaları karşıya yükleme ve sunma](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

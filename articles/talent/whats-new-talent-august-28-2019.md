@@ -90,6 +90,3 @@ Daha fazla bilgi için, bkz. [Kolaylaştırılmış çalışan girişi ve gezint
 ### <a name="platform-update-29"></a>Platform güncelleştirmesi 29
 
 Platform güncelleştirmesi 29 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 for Finance and Operations önizleme özellikle platform güncelleştirmesi 29 (Ekim 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

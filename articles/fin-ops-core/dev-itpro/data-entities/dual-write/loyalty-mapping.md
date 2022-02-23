@@ -2,34 +2,46 @@
 title: Müşteri bağlılık programı kartları ve ödül puanları
 description: Bu konuda, müşteri bağlılık programı kartları ve çift yazmadaki ödül puanlarıyla ilgili verilerin tümleştirilmesi açıklanmaktadır.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 03/10/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: e9044cffceafc46d923d2b693b00644bd1b2ec60
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 28872e9510394cf3d5cee151798d4130b8b6fe27
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061558"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683510"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>Müşteri bağlılık programı kartları ve ödül puanları
 
 [!include [banner](../../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 İşletmeler, müşteri alışverişi ve harcama alışkanlıkları temel alınarak müşterileri sınıflandırmakta ve karmaşık servisler sağlıyor. Örneğin Dynamics 365 Commerce, müşteri bağlılık programı kartlarını, ödüllendirme puanlarını, bağlılık programı tabanlı fiyatlandırmayı ve ödül tabanlı alışveriş deneyimlerini kolaylaştırmak ve işlemek için gerekli altyapıya ve işlevlere sahiptir. Commerce'teki müşteri bağlılık programı kartları ve ödül puanları Dataverse'e eşitlendiğinde, müşteri etkileşimi uygulamaları bu verileri kullanabilir. Örneğin, Dynamics 365 Customer Service kullanıcıları, verileri yardım masasıyla aynı Gelişmiş hizmetleri sağlamak için kullanabilir.
 
 ## <a name="templates"></a>Şablonlar
 
-Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları     | Tanım
+| Finance and Operations uygulamaları | Dynamics 365'teki model yönetimli uygulamalar | Tanım |
 |-----------------------------|-----------------------------------|-------------|
-[Bağlılık programı kartı](mapping-reference.md#149) | msdyn_loyaltycards | Bu şablon müşteri bağlılık programı kartılarıyla ilgili bilgileri eşitler. |
-[Bağlılık programı düzeyleri](mapping-reference.md#226) | msdyn_loyaltylevels | Bu şablon müşteri ödül puanlarıyla ilgili bilgileri eşitler. |
-[Bağlılık programı ödül puanları](mapping-reference.md#150) | msdyn_loyaltyrewardpoints | |
+| Bağlılık programı kartı                | msdyn\_loyaltycards               | Bu şablon müşteri bağlılık programı kartılarıyla ilgili bilgileri eşitler. |
+| Bağlılık programı ödül puanları       | msdyn\_loyaltyrewardpoints        | Bu şablon müşteri ödül puanlarıyla ilgili bilgileri eşitler. |
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
+
+[!include [mapping reward points](includes/LoyaltyRewardPoints-msdyn-loyaltyrewardpoints.md)]

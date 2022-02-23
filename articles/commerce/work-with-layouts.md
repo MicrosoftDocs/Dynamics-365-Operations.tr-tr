@@ -2,30 +2,36 @@
 title: Önceden ayarlanmış düzenlerle çalışma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
 author: phinneyridge
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090857"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416444"
 ---
 # <a name="work-with-preset-layouts"></a>Önceden ayarlanmış düzenlerle çalışma
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'ta önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Bu konudaki yordamları gerçekleştirmeden önce, [hazır ayar ve özel düzenleri](templates-layouts-overview.md#preset-and-custom-layouts) okuduğunuzdan emin olun. Genel genel bakış için, bkz. [Şablonlar ve düzenler genel bakış](templates-layouts-overview.md).
 
@@ -78,7 +84,7 @@ Tipik bir uygulama, varsayılan temayı önceden belirlenmiş bir düzen kullana
 Hazır ayar düzeninizi kullanan tüm alt sayfaların temasını ayarlamak veya değiştirmek için aşağıdaki adımları izleyin.
 
 1. Düzen düzenleyicisinde, soldaki anahat ağacında, sayfa konteyner modülü seçin. (Bu modül genellikle ikinci düğümdür ve **varsayılan sayfa** olarak adlandırılır.)
-1. Sağdaki özellik bölmesindeki **Tema** alanında bir tema seçin.
+1. Sağdaki özellik bölmesinde, **Tema** alanında bir tema seçin.
 
 ## <a name="save-check-in-preview-and-publish-a-preset-layout"></a>Hazır ayar düzenine kaydetme, iade etme, önizleme ve yayımlama
 
@@ -91,30 +97,15 @@ Değişikliklerinizin önizlemesine bakmak için, önceden ayarlanmış düzenin
 
 Değişiklik önceden belirlenmiş yerleşiminizde yapılan değişiklikleri önizledikten sonra, görünümü canlı sitenizde yayımlamak için aşağıdaki adımlardan birini izleyin:
 
-1. **Düzenlere** gidin, düzeni seçin ve sonra **Yayınla**'yı seçin.
-1. Düzen düzenleyicisini açmak için düzen açını ve ardından **Yayımla**'yı seçin.
-1. Yayımlanmamış yerleşime başvuran bir sayfa yayımlayın. Düzen otomatik olarak yayımlanacak.
+* **Düzenlere** gidin, düzeni seçin ve sonra **Yayınla**'yı seçin.
+* Düzen düzenleyicisini açmak için düzen açını ve ardından **Yayımla**'yı seçin.
+* Yayımlanmamış yerleşime başvuran bir sayfa yayımlayın. Düzen otomatik olarak yayımlanacak.
 
 > [!WARNING]
 > Önceden belirlenmiş mizanpajlara birden çok sayfa başvuruyor. Önceden belirlenmiş bir düzeni yayımladığınızda, birden çok sayfanın düzenini etkileyebilirsiniz.
-
-## <a name="rename-a-preset-layout"></a>Önceden belirlenmiş yerleşimi yeniden adlandırma
-
-Site oluşturucuda önceden belirlenmiş bir düzeni yeniden adlandırmak için bu adımları izleyin.
-
-1. Sol gezinti bölmesinde **Düzenler**'i seçin.
-1. Yeniden adlandırmak istediğiniz düzenin düzen adını seçin.
-1. Düzeni düzenlemeye başlamak için **Düzenle**'yi seçin.
-1. Düzen özellikleri bölmesinde, düzen adının yanındaki kalem simgesini seçin.
-1. Düzen adını gerektiği gibi düzenleyin.
-1. Ad değişikliğini onaylamak için onay işaretini seçin.
-1. **Düzenlemeyi bitir**'i seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
 
 [Şablonlarla çalışma](work-with-templates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

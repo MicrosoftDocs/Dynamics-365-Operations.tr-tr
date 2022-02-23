@@ -2,9 +2,11 @@
 title: İş akışı onay işlemlerindeki eylemler
 description: Bu makalede, onay bir iş akışı onay sürecindeki her katılımcının gerçekleştirebileceği eylemler açıklanmaktadır.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,25 +16,22 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070945"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797614"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>İş akışı onay işlemlerindeki eylemler
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Bu makalede, onay bir iş akışı onay sürecindeki her katılımcının gerçekleştirebileceği eylemler açıklanmaktadır.
 
 Bir iş akışı çeşitli gruplarda kişiler içerebilir: Başlatıcı, görev alanlar, karar vericiler ve onaylayıcılar. Örneğin, aşağıdaki gider raporu iş akışında, Sam başlatandır, sıranın üyeleri görevin atananlarıdır, John karar vericidir ve Frank, Sue ve Ann de onaylayıcılardır.
 
-[![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Aşağıdaki bölümlerde her grubun gerçekleştirebileceği iş akışı eylemleri açıklanmıştır.
 
@@ -142,6 +141,3 @@ Onaylayan bir belgede değişiklik yapılmasını talep ederse, belge başlatana
 Örneğin, Sam 12.000 ABD Doları için bir gider raporu gönderdi ve bu belge Sue'ya atandı. Eğer Sue bir değişiklik isteğinde bulunursa, gider raporu Sam'e geri gönderilir.
 
 Sam, daha sonra gider raporunu yeniden gönderebilir. Önce talep edilen değişiklikleri yapabilir veya gider raporunun ilk sürümünü yeniden gönderebilir. Sam gider raporunu yeniden gönderirse, onaylama işleminde ilk onaylayan Frank olduğu için belge onaylanmak üzere Frank'e gönderilir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

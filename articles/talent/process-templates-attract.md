@@ -71,6 +71,3 @@ Faaliyetler hakkında daha fazla bilgi için bkz. [İşe alım süreçlerindeki 
     - Faaliyeti kaldırmak için, genişletin ve faaliyet üst bilgisindeki çöp kutusu düğmesini seçin.
 
 8. **Kaydet**'i seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

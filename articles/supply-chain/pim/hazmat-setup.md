@@ -1,33 +1,37 @@
 ---
 title: Tehlikeli malzemeleri ayarlama
 description: Bu konuda, maddeleri tehlikeli malzeme olarak sınıflandırmak için gerekli verilerin nasıl ayarlanacağı açıklanmaktadır. Tehlikeli malzeme olarak sınıflandırılmış bir madde içeren bir satış siparişi oluşturduğunuzda sistem, satış siparişi sevk edilirken bu sipariş için tehlikeli malzeme belgeleri hazırlar.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778021"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439483"
 ---
 # <a name="set-up-hazardous-materials"></a>Tehlikeli malzemeleri ayarlama
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Tehlikeli malzeme işlevlerini kullanmak için önce maddeleri tehlikeli malzeme olarak sınıflandırmak için gerekli verileri ayarlamanız gerekir. Ardından, tehlikeli malzeme olarak sınıflandırılmış bir madde içeren bir satış siparişi oluşturduğunuzda sistem, satış siparişi sevk edilirken bu sipariş için tehlikeli malzeme belgeleri hazırlar.
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Sisteminiz için tehlikeli malzeme özelliğini açma
 
-Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek veya devre dışı bırakmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ürün bilgileri yönetimi*
 - **Özellik adı:** *Tehlikeli malzeme ürün bilgileri ve sevkiyat belgeleri*
@@ -280,6 +284,3 @@ Bu belirtimin değerlerini ayarlamak için **Ürün bilgileri yönetimi \> Ayar 
 *Tehlikeli malzeme tüneli* belirtimi, kullanılması gereken tünel türlerini tanımlayarak tehlikeli malzemenin taşınabileceği tünel türlerini sınırlar. Tünel kategorileri, tehlikeli taşıma için uygun yönetmelikler tarafından belirlenir. Bu belirtim genellikle yalnızca kara yoluyla taşıma için geçerlidir.
 
 Bu belirtimin değerlerini ayarlamak için **Ürün bilgileri yönetimi \> Ayar \> Tehlikeli malzeme sevkiyat belgeleri \> Tehlikeli malzeme tüneli**'ine gidin. **Tehlikeli malzeme tüneli** sayfasında istediğiniz sayıda tünel tanımlayıcısı oluşturabilir ve her birini tanımlama kodu ve kısa açıklama ile yapılandırabilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

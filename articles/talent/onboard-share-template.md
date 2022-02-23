@@ -71,6 +71,3 @@ Microsoft Dynamics 365 Talent: Onboard - Onboard, belgeleri gözden geçirebilme
 - [Dynamics 365 Talent'teki yenilikler veya değişiklikler](./whats-new.md)
 - [Sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Microsoft Dynamics 365 Talent için destek alma](./talent-support.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

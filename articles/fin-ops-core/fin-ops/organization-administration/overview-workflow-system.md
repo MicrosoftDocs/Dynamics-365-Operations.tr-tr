@@ -2,33 +2,30 @@
 title: İş akışı sistemine genel bakış
 description: Bu konuda iş akışı sistemi açıklanmaktadır.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom:
-- "56381"
-- intro-internal
+ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067945"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797008"
 ---
 # <a name="workflow-system-overview"></a>İş akışı sistemine genel bakış
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konuda iş akışı sistemi açıklanmaktadır.
 
@@ -44,7 +41,7 @@ Bu konuda iş akışı sistemi açıklanmaktadır.
 
 İş akışı, bir iş sürecini temsil eder. Bir görevin kimin tarafından tamamlanacağını, bir kararın kimin tarafından verileceğini veya bir belgenin kimin tarafından onaylanacağını göstererek bir belgenin sistem üzerinde nasıl aktığını veya taşındığını tanımlar. Örneğin, aşağıdaki görselde gider raporları için bir iş akışı gösterilmiştir.
 
-![Kullanıcılara atanan öğelerle birlikte iş akışı.](./media/workflow_user.gif)
+![Kullanıcılara atanan öğelerle birlikte iş akışı](./media/workflow_user.gif)
 
 Bu iş akışını daha iyi anlamak için Haluk'un 7.000 ABD Doları tutarında bir gider raporu teslim ettiğini düşünün. Bu senaryoda, Barış'ın mutlaka Haluk'un kendisine yönlendirdiği makbuzları gözden geçirmesi gerekir. Ardından Atilla ve Sibel'in gider raporunu onaylaması gerekir. Şimdi ise Sam'in 11,000 TL tutarında bir gider raporu teslim ettiğini varsayın. Bu senaryoda, Barış'ın makbuzları gözden geçirmesi ve Atilla, Sibel ve Ayla'nın gider raporunu onaylaması gerekir.
 
@@ -74,6 +71,3 @@ Bu iş akışını daha iyi anlamak için Haluk'un 7.000 ABD Doları tutarında 
 + [İş akışında paralel dalları yapılandırma](configure-parallel-branch-workflow.md)
 + [Satır maddesi iş akışlarını yapılandırma](configure-line-item-workflow.md)
 + [İş akışıyla ilgili SSS](workflow-FAQ.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

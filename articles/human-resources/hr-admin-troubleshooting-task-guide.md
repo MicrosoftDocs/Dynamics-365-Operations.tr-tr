@@ -1,38 +1,36 @@
 ---
 title: Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma
 description: Bu konu, görev kılavuzlarını Microsoft Dynamics Lifecycle Services'ye (LCS) kaydetmeyi ve sonra bunları yeniden yürütmeyi açıklar.
-author: twheeloc
-ms.date: 08/23/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068371"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420945"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Ortam ayrıntıları** 
 
 Microsoft Dynamics Lifecycle Services (LCS) için dağıtılmış olan Microsoft Dynamics 365 Human Resources
 
-**Çıkış**
+**Stok çıkışı**
 
 Müşteri, yeni görev kayıtlarını LCS projesine kaydetmek ve sonra kaydedilen görev kılavuzlarını yeniden oynatmak istiyor.
 
@@ -55,7 +53,7 @@ Bir görev kaydını LCS'ye kaydetmek için şu adımları izleyin.
 10. Bir görev kaydı oluşturmak.
 11. Tamamladığınızda **Lifecycle Services'a kaydet**'i seçin.
 
-    ![Lifecycle Services'a kaydet.](media/task-guides.png)
+    ![Lifecycle Services'a kaydet](media/task-guides.png)
 
 12. Görev kaydının kaydedileceği düğümü ve BPM kütüphanesini seçin.
 
@@ -65,6 +63,3 @@ LCS'den bir görev kılavuzunu yeniden yürütmek için aşağıdaki adımları 
 2. **LCS'ten aç**'ı seçin.
 3. Kaydedilmiş görev kılavuzuna sahip kütüphaneyi ve BPM düğümünü seçin.
 4. Görev kılavuzunu açın.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

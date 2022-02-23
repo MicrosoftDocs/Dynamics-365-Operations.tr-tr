@@ -2,30 +2,35 @@
 title: Görev listeleri oluşturma ve görev ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'tegörev listeleri oluşturma ve bunlara görev ekleme açıklanmaktadır.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756537"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416489"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Görev listeleri oluşturma ve görev ekleme
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'tegörev listeleri oluşturma ve bunlara görev ekleme açıklanmaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Bir *görev*, bir kişinin belirli bir iş parçasını veya belirtilen bir vade tarihinden önce veya bu tarihten önce tamamlanması gereken bir eylemi tanımlar. Dynamics 365 Commerce'De bir görev, ilgili kişi hakkında ayrıntılı yönergeler ve bilgiler içerebilir. Ayrıca, üretkenliği artırmaya yardımcı olmak ve görev sahibinin görevi etkili şekilde tamamlaması için gereken bağlamı sağlamak amacıyla, geri-ofis operasyonları, satış noktası (POS) işlemleri veya site sayfaları ile ilgili bağlantılar içerebilir.
 
@@ -70,7 +75,7 @@ Görev oluştururken görev bağlantıları eklemek için, aşağıdaki adımlar
 
 Aşağıdaki resimde, **görevi düzenle** iletişim kutusunda görev bağlantılarının seçimi gösterilmektedir.
 
-![Düzenle görev iletişim kutusunda görev bağlantıları seçme.](media/HQ-POS-Tasks-Linking.png)
+![Düzenle görev iletişim kutusunda görev bağlantıları seçme](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>Bir göreve bağlanabilmesi için bir POS operasyonu konfigüre et
 
@@ -88,6 +93,3 @@ Bir göreve bağlanabilmesi için bir POS operasyonu konfigüre etmek için aşa
 [Mağazalara veya personele görev listeleri atama](task-mgmt-assign-lists.md)
 
 [POS'ta görev yönetimi](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

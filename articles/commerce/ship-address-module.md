@@ -2,30 +2,35 @@
 title: Sevkiyat adresi modülü
 description: Bu konu sevkiyat adresi modülünü kapsamaktadır ve bu modülün Microsoft Dynamics 365 Commerce'ta nasıl yapılandırılacağını açıklamaktadır.
 author: anupamar-ms
-ms.date: 02/11/2021
+manager: annbe
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765206"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4416587"
 ---
 # <a name="shipping-address-module"></a>Sevkiyat adresi modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konu sevkiyat adresi modülünü ele almaktadır ve bu modülün Microsoft Dynamics 365 Commerce'ta nasıl yapılandırılacağını açıklamaktadır.
+
+## <a name="overview"></a>Genel bakış
 
 Sevkiyat adresi modülü, müşteriye ödeme akışı sırasında bir siparişin sevkiyat adresini ekleme veya seçme olanağı verir. Müşteri oturum açmışsa, o müşteri için önceden kaydedilmiş olan tüm adresler gösterilir ve müşteri bunlar arasından seçim yapabilir. Müşteri Ayrıca yeni bir adres ekleyebilir. Sevkiyat adresi modülü, siparişteki sevkiyat gerektiren tüm maddeler için kullanılır.
 
@@ -37,7 +42,7 @@ Sevkiyat adresi modülü adres doğrulaması sağlamasa da, bu işlev özellişt
 
 Aşağıdaki örnekte ödeme sayfasında kullanılan yeni bir teslimat adresi modülü örneği gösterilmektedir.
 
-![Ödeme sayfasındaki sevkiyat adresi modülü örneği.](./media/ecommerce-shippingaddress.PNG)
+![Ödeme sayfasındaki sevkiyat adresi modülü örneği](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Modül özellikleri
 
@@ -45,8 +50,6 @@ Aşağıdaki örnekte ödeme sayfasında kullanılan yeni bir teslimat adresi mo
 |---------------|--------|-------------|
 | Başlık | Başlık metmi ve başlık etiketi (**H1**, **H2**, **H3**, **H4**, **H5** veya **H6**) | Sevkiyat adresi modülü için isteğe bağlı bir başlık. |
 | Adres türünü göster | **Doğru** veya **yanlış** | Bu isteğe bağlı özellik **Doğru** olarak ayarlanırsa, **Ev** veya **İş** gibi bir adres türü gösterilir. Herhangi bir adres türü belirtilmezse, adres otomatik olarak **Tür**=**Diğer** olarak kaydedilir. |
-| Otomatik öneriyi etkinleştir| **Doğru** veya **yanlış** | Bu isteğe bağlı özellik **Doğru** olarak ayarlanırsa otomatik adres önerileri sağlanacaktır. Bu öneriler Bing Haritalar tarafından desteklenmektedir. Sitenizde Bing Haritalar tümleştirmesini ayarlama hakkında bilgi için, bkz [Mağaza seçicisi modülü](store-selector.md). Bu özellik Commerce 10.0.15 sürümünden itibaren mevcuttur.|
-|Otomatik öneri seçenekleri| Bir sayı| Otomatik adres önerileri etkinse, sağlanacak maksimum öneri sayısı gibi ek seçenekler belirtebilirsiniz.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Ödeme sayfasına sevkiyat adresi modülü ekleme ve gerekli özellikleri ayarlama
 
@@ -69,8 +72,3 @@ Sevkiyat adresi modülü yalnızca bir ödeme modülüne eklenebilir. Sevkiyat a
 [Sipariş ayrıntıları modülü](order-confirmation-module.md)
 
 [Hediye kartı modülü](add-giftcard.md)
-
-[Mağaza seçicisi modülü](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: Ticari sözleşmeler oluşturmak için kategori fiyatlandırma kuralları
 description: Bu yordam, kategori fiyatlandırma kuralı kullanarak satış fiyatı ticaret anlaşmalarının nasıl oluşturulacağını göstermektedir.
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 39418f9d9c5e3edf1db92a6d8271df2c55be94deca814838c133d0ef6703ec09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730719"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416484"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>Ticari sözleşmeler oluşturmak için kategori fiyatlandırma kuralları
 
@@ -56,6 +59,3 @@ Bu yordam, kategori fiyatlandırma kuralı kullanarak satış fiyatı ticaret an
 24. Kategori fiyatı kuralları sekmesini tıklatın.
     * Kanal için belirli kategori fiyatlandırma kuralları bu listede gösterilir.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

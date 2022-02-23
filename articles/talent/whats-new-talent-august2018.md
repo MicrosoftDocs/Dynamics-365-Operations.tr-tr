@@ -85,6 +85,3 @@ Bu özellik hakkında daha fazla bilgiye [Office tümleştirmesi eğitimi](https
 ## <a name="other-fixes"></a>Diğer düzeltmeler
 
 Bu sürüm bir dizi hata düzeltmesi, yeni varlıklar, mevcut varlıklarda düzeltmeler ve yerelleştirilmiş etiket değişiklikleri içerir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

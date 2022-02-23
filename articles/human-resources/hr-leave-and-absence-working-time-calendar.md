@@ -1,33 +1,31 @@
 ---
 title: Çalışma zamanı takvimi oluşturma
 description: Dynamics 365 Human Resources'ta Çalışma zamanı takvimi, tatiller ve çalışma dışı zamanları tanımlayın .
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068931"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420918"
 ---
 # <a name="create-a-working-time-calendar"></a>Çalışma zamanı takvimi oluşturma
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources'deki bir çalışma zamanı takvimi, çalışanların kuruluşunuzda çalıştığı günleri ve saatleri gösterir. Bir çalışan zaman aşımı isteği gönderdiğinde, tatiller ve kapanışlar hakkında endişelenmenize gerek yoktur.
 
@@ -67,7 +65,7 @@ Tatilleri ve kapanışları, çalışma zamanı takviminden ayrı olarak ekleyeb
 
 Çalışmama süreleri çalışma zamanı takviminden ayrı olarak ekleyebilir veya değiştirebilirsiniz.
 
-1. **Kuruluş yönetimi** sayfasında **İŞ DIŞI ZAMAN** üzerine tıklayın.
+1. **Kuruluş yönetimi** sayfasında **Çalışmama süresi** üzerine tıklayın.
 
 2. **Yeni**'yi seçin ve çalışmama süresi ad ve zaman aralığı girin.
 
@@ -77,6 +75,3 @@ Tatilleri ve kapanışları, çalışma zamanı takviminden ayrı olarak ekleyeb
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık türleri yapılandır](hr-leave-and-absence-types.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

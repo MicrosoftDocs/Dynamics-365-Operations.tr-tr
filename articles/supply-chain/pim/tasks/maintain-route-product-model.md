@@ -1,24 +1,26 @@
 ---
 title: Bir ürün modeli için rotayı koruma
 description: Bu yordamın çalıştırılması için bir ürün yapılandırma modeli bulunması gerekir.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCRouteOperationDetails, WrkCtrCapabilityLookUp
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88df8b867ac7f354417add0462e7999747333451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 90ea3f65284cc97906002015c715d9f071202bdb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966842"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Bir ürün modeli için rotayı koruma
 
@@ -26,44 +28,41 @@ ms.locfileid: "7577276"
 
 Bu yordamın çalıştırılması için bir ürün yapılandırma modeli bulunması gerekir. Bu yordam, işlem sırasında yol göstermek için USMF demo şirketindeki son teknoloji hoparlör modelini kullanır.
 
-## <a name="add-a-route-operation"></a>Rota operasyonu ekleme
 
-1. **Ürün bilgileri yönetimi \> Ürünler \> Ürün yapılandırma modelleri**'ne gidin.
-1. Listede, istenen kaydı bulun ve seçin.
+## <a name="add-a-route-operation"></a>Rota operasyonu ekleme
+1. Ürün varyantı model tanımı'na tıklayın.
+2. Ürün yapılandırma modelleri'ne tıklayın.
+3. Listede, istenen kaydı bulun ve seçin.
     * Bu alıştırma için son teknoloji hoparlör modelini seçin.  
-1. Listeden, seçilen satırdaki bağlantıyı seçin.
-1. **Rota operasyonları** bölümünü genişletin.
-1. **Ekle**'yi seçin.
-1. **Ad** alanına bir değer yazın.
-1. **Tanım** alanına bir değer girin.
-1. **Kaydet**'i seçin.
+4. Listede, seçili satırdaki bağlantıya tıklayın.
+5. Rota operasyonları bölümünü genişletin.
+6. Ekle öğesini tıklatın.
+7. İsim alanına bir değer yazın.
+8. Açıklama alanına bir değer girin.
+9. Kaydet'e tıklayın.
 
 ## <a name="enter-route-operation-details"></a>Rota operasyonu ayrıntılarını girme
-
-1. **Rota operasyon ayrıntıları**'nı seçin.
-1. **Operasyon** alanında bir değer girin veya bir değer seçin.
-1. **Operasyon Numarası** içerisinde bir sayı girin.
+1. Rota operasyonu ayrıntıları'nı tıklatın.
+2. Operasyon alanında bir değer girin veya bir değer seçin.
+3. Oper. Hayır. bir sayı girin.
     * Operasyon numarası rota sırasını belirler.  
     * Rota operasyonundaki her bir özellik statik bir değer alabilir veya bir öznitelik ile eşleştirilebilir. Bir öznitelik ile eşleme yapılması yapılandırmanın parçası olarak bir değer ayarlanmasına neden olur.  
-1. **Rota grubu** alanında bir değer girin veya bir değer seçin.
+4. Rota grubu alanında bir değer girin veya bir değer seçin.
     * Rota grubu; maliyetlendirme, tüketim ve ayarlar için temel davranışı belirler.  
-1. **Kurulum** sekmesini seçin.
-1. **Zamanlar** sekmesini seçin.
-1. **İşlem miktarı** alanına bir sayı girin.
+5. Kurulum sekmesine tıklayın.
+6. Zaman sekmesini tıklatın.
+7. İşlem miktarı alanına bir sayı girin.
     * Tek işlem sırasında işlenecek sayıyı belirleyin.  
-1. **Saatler/zaman** alanında bir sayı girin.
+8. Saatler/zaman alanında bir sayı girin.
     * Zaman oranını girin.  
-1. **Ayarla** onay kutusunu işaretleyin.
-1. **Çalışma süresi** alanında bir sayı girin.
+9. Ayarla onay kutusunu işaretleyin.
+10. Çalışma süresi alanında bir sayı girin.
     * Belirttiğiniz miktarın işlenme süresini belirleyin.  
-1. **Kaynak gereksinimleri** sekmesini seçin.
-1. **Ekle**'yi seçin.
-1. Listede, seçili satırı işaretleyin.
-1. **Gereksinim türü** alanında bir seçenek belirleyin.
+11. Kaynak gereksinimleri sekmesini tıklatın.
+12. Ekle öğesini tıklatın.
+13. Listede, seçili satırı işaretleyin.
+14. Gereksinim türü alanında bir seçenek belirleyin.
     * Sahip olmaları gereken belirli kaynakları veya özellikleri belirtmek isteyip istemediğinize karar verin.  
-1. **Gerkesinim** alanında bir değer girin veya bir değer seçin.
-1. **Tamam**'ı seçin.
+15. Gerkesinim alanında bir değer girin veya bir değer seçin.
+16. Tamam'a tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

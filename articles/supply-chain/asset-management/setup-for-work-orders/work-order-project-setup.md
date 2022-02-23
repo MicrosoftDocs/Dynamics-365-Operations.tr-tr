@@ -1,10 +1,12 @@
 ---
 title: İş emri proje kurulumu
 description: Bu konuda Varlık Yönetimi'nde iş emri proje türünü açıklanmaktadır.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754095"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021566"
 ---
 # <a name="work-order-project-setup"></a>İş emri proje kurulumu
 
@@ -69,7 +71,7 @@ Kurulum, **Oroje yönetimi ve muhasebe** modülüyle tam tümleştirmeye olanak 
 
     Varsayılan olarak, başlangıç tarihi iş emri projesini sayfaya eklediğiniz tarihtir. Varsayılan olarak gizli olan, **Geçerlilik başlangıcı** alanı tarafından denetlenir. **Geçerlilik tarihi** alanında **Görüntüle** \> **Tümü**'nü seçin. Daha sonra iş siparişi projesi için sınırlı bir dönem dönemi ayarlamak için **Geçerlilik tarihi** alanını **Bitiş tarihi** alanıyla birlikte kullanabilirsiniz.
 
-    ![İş emri proje kurulumu sayfası.](media/17-setup-for-work-orders.png)
+    ![İş emri proje kurulumu sayfası](media/17-setup-for-work-orders.png)
 
 6. **Proje grubu** sekmesinde **Ekle**'yi seçin.
 7. **İş emri türü** alanında bir iş emri türü seçin.
@@ -77,12 +79,9 @@ Kurulum, **Oroje yönetimi ve muhasebe** modülüyle tam tümleştirmeye olanak 
 9. **Proje grubu** alanında, iş emri tipiyle ilişkili olması gereken proje grubunu seçin. Örneğin, **Önleyici bakım** olarak adlandırılan bir iş emri türü, önceki servis **Prev Maint** veya **Dahili** olarak adlandırılan bir proje grubuyla ilişkilendirilmiş olabilir. Alternatif olarak, **Yatırımlar** ve sabit kıymetlerle ilgili iş emirleri için kullanılan bir yatırım iş emri türü, **Yatırım** veya **Yatırım** adlı bir proje grubuyla ilişkilendirilebilir.
 10. **Kaydet**'i seçin.
 
-![İş emri proje kurulumu sayfası, İş emri ekleme.](media/18-setup-for-work-orders.png)
+![İş emri proje kurulumu sayfası, İş emri ekle](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Bir iş emri satırı her oluşturulduğunda, kıymet yönetimi iş emri iş projesiyle ilişkili olması gereken bir proje grubu arar. Arama, bu konuda açıklanan kuruluma dayanır. Her proje grubunun ilgili bir proje türü vardır. **Zaman ve malzeme** veya **Sabit fiyatlı** proje türüne sahip proje grupları, yalnızca bir müşteri hesabıyla ilişkili kıymetler için geçerlidir.
 >
 > Ana projeler ve proje grupları için, sistem kullanılabilir iş emri projesini veya proje grubunu seçtiğinde, bu seçim önceki yordamı kullanarak oluşturduğunuz kayıtlara dayanır. Kıymet yönetimi, olası bir eşleşmeyi denetlemek için iş emri projesiyle ilişkili kayıtlara geçer. Her zaman ilk önce en belirgin birleşimi denetler. Başka bir deyişle, iş emri ana projesi için Kıymet Yönetimi **Kıymet** alanı için olası bir eşleşme arar. Eşleşme bulamazsa **Kıymet** alanı için eşleşmeleri denetler. Eşleşme bulamazsa **İşlem yapılacak yerleşim** alanı için eşleşmeleri denetler ve bu şekilde devam eder. **İş emri proje ayarı** sayfasının düzeninde gördüğünüz gibi bu davranış en belirgin birleşimi bulmak için Varlık Yönetimi'nin eşleşme için sağdan sola her kaydı denetleyeceği anlamına gelir. Eşleşme bulunmazsa yalnızca proje kodunun seçildiği varsayılan kaydı kullanılır. İlgili proje grubunu bulma işlemi benzerdir. Kıymet yönetimi önce **Kıymet** alanıyla ilgili olası eşleşmeyi denetleyip **Kıymet türü** alanını ve **İş emri türü** alanını denetler. Eşleşme bulunmazsa yalnızca proje grubunun seçildiği varsayılan kaydı kullanılır.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

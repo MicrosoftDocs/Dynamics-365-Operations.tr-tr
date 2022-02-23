@@ -1,10 +1,12 @@
 ---
 title: Servis düzeyi anlaşmalarıyla uyumluluğu görüntüleme
 description: Servis düzeyi anlaşmalarıyla uyumluluğu görüntüleyin.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2386363da8040dfc674ef360a2e8310800320139
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0359e7d314610901c331419ab49a3d1cb446dc5e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574967"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965742"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>Servis düzeyi anlaşmalarıyla uyumluluğu görüntüleme    
 
@@ -46,6 +48,3 @@ ms.locfileid: "7574967"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

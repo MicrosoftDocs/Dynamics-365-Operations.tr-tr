@@ -2,9 +2,11 @@
 title: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 description: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 author: sericks007
-ms.date: 06/02/2021
+manager: AnnBe
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763446"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798316"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 
@@ -36,7 +38,7 @@ Belgeyi gözden geçirdikten sonra, hareket ve eş zamanlı kullanıcı hacminiz
 
 Aşağıdaki görselde gösterilen tüm faktörler boyutlandırmaya katkıda bulunur. Daha ayrıntılı bilgi toplandıkça boyutlandırmayı daha hassas şekilde belirleyebilirsiniz. Destekleyici veri olmadan donanım boyutlandırmanın tutarlı olması olası değildir. Gerekli veri için minimum gereksinim saat başına hareket hat yükünün tepe noktasıdır.
 
-[![Şirket içi ortamlar için donanım boyutlandırma.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Şirket içi ortamlar için donanım boyutlandırma](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Soldan sağa bakıldığında, boyutlandırmayı doğru şekilde tahmin etmek için ilk ve en önemli faktör bir hareket profili veya hareket nitelendirmedir. Saat başına tepe hareket hacmini her zaman bulmak önemlidir. Birden fazla tepe dönemi varsa, bu dönemlerin doğru olarak tanımlanması gerekir.
 
@@ -132,15 +134,10 @@ Bir [boyutlandırma elektronik tablosu](https://adfsdocs.blob.core.windows.net/a
 
 Genel kullanım sürümü için yalnızca bir SSRS düğümü dağıtılabilir. SSRS düğümünüzü test ederken izleyin ve SSRS tarafından kullanılabilir çekirdeklerin sayısını ihtiyaca göre artırın. Önceden yapılandırılmış bir ikincil düğümün SSRS VM'den farklı bir sanal makinede kullanılabilir olduğundan emin olun. Bu, SSRS'yi barındıran sanal makine veya sanal ana bilgisayarda bir sorun olursa önemlidir. Bu durumda, bunların değiştirilmesi gerekir.
 
-Sürüm 10.0.17'den itibaren, yüksek kullanılabilirlik sağlamak için ek SSRS düğümlerini yapılandırmak mümkündür. Daha fazla bilgi için bkz. [SQL Server Reporting Services (SSRS) düğümleri için yüksek kullanılabilirliği yapılandırma](../../dev-itpro/deployment/onprem-ssrsha.md).
-
 ## <a name="environment-orchestrator"></a>Ortam Orchestrator
 
-Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidir. Bu hizmet, birincil Service Fabric hizmeti olarak dağıtılır ve en az üç VM gerektirir. Bu hizmet Service Fabric düzenleme hizmeti ile birlikte yer alır. Bu, kümenin tepe yük noktasına göre boyutlandırılmalıdır. Daha fazla bilgi için bkz. [Service Fabric tek küme dağıtımınızı hazırlayın ve planlayın](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidir. Bu hizmet, birincil Service Fabric hizmeti olarak dağıtılır ve en az üç VM gerektirir. Bu hizmet Service Fabric düzenleme hizmeti ile birlikte yer alır. Bu, kümenin tepe yük noktasına göre boyutlandırılmalıdır. Daha fazla bilgi için bkz. [Service Fabric tek küme dağıtımınızı hazırlayın ve planlayın](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Sanallaştırma ve aşırı talep
 
 AOS gibi pek çok kritik görev hizmetleri ayrılmış kaynaklara (çekirdekler, bellek ve disk) sahip Sanal ana bilgisayarlarda barındırılmalıdır.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

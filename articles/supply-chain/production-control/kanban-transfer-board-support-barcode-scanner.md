@@ -1,35 +1,39 @@
 ---
-title: Barkod tarayıcıları için Kanban transfer panosu desteği
-description: Kanban transfer panosu bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boşaltmak için bir pencere öğesi barkod tarayıcısından tarayıcı girişini destekler.
-author: johanhoffmann
+title: Barkod tarayıcıları desteği için kanban transfer panosu
+description: Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boşaltmak için bir pencere öğesi barkod tarayıcısından tarayıcı girişini destekler.
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b18aad4dcdbf8c2d18960ae306556c3ea679d622
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566823"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439525"
 ---
-# <a name="kanban-transfer-board-support-for-bar-code-scanners"></a>Barkod tarayıcıları için Kanban transfer panosu desteği
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Barkod tarayıcıları desteği için kanban transfer panosu
 
 [!include [banner](../includes/banner.md)]
 
-Kanban transfer panosu bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boşaltmak için bir pencere öğesi barkod tarayıcısından tarayıcı girişini destekler.
+Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boşaltmak için bir pencere öğesi barkod tarayıcısından tarayıcı girişini destekler.
 
-## <a name="registration-modes"></a>Kayıt modları
+<a name="registration-modes"></a>Kayıt modları
+------------------
 
 **Tarayıcı kaydı** FastTab sekmesinde, bir kanban kart numarasını seçtiğinizde veya manuel olarak numarayı Kanban kart numarası alanına yazdığınızda eylemi kontrol eden kayıt modunu seçebilirsiniz.
 
@@ -40,10 +44,11 @@ Kanban transfer panosu bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boş
 | Boşalt                 | Bir Kanban kartının referans verdiği malzeme işleme birimini boş olarak kaydeder.              |
 | Seç                | Bir Kanban kart numarası kaydeder ve referans verilen işi Kanban listesinde otomatik olarak seçer. |
 
- 
-## <a name="registration-mode-select"></a>Kayıt modu Seç
+ 
+Kayıt modu Seç
+------------------------
 
-İş seçmek için barkod okuyucuyu kullandığınızda, kanban panosunun görüntüleme modu değişir. Bu modda, aşağıdaki koşullar geçerlidir:
+İş seçmek için barkod okuyucuyu kullandığınızda, kanban panosunun görüntüleme modu değişir. Bu modda, aşağıdaki koşullar geçerlidir:
 
 -   Yalnızca taranan kanban işi görüntülenir.
 -   Seçilen işin ayrıntıları **Ayrıntılar** FastTab'inde görüntülenir.
@@ -187,6 +192,3 @@ Kanban transfer panosu bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boş
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

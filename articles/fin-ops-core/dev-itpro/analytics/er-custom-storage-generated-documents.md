@@ -2,9 +2,11 @@
 title: Oluşturulan belgeler için özel depolama konumu belirtin
 description: Bu konu, Elektronik raporlama (ER) biçimlerinin oluşturduğu belgeler için depolama konumlarının listesini genişletmeyi açıklar.
 author: NickSelin
+manager: AnnBe
 ms.date: 02/22/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e9afad936a353c8db3c316ad45c4ce28d33b129
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718513"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680818"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumu belirtin
 
@@ -27,7 +29,7 @@ Elektronik raporlama (ER) çerçevesinin Uygulama programlama arabirimi (API), E
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Sürekli yapılandırma destekleyen bir topoloji dağıtmanız gerekir. (Daha fazla bilgi için bkz. [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Bu topolojiye aşağıdaki rollerden biriyle erişiminiz olması gerekir:
+Sürekli yapılandırma destekleyen bir topoloji dağıtmanız gerekir. (Daha fazla bilgi için bkz. [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Bu topolojiye aşağıdaki rollerden biriyle erişiminiz olması gerekir:
 
 - Elektronik raporlama geliştirici
 - Elektronik raporlama işlev danışmanı
@@ -39,7 +41,7 @@ Bu topoloji için geliştirme ortamına da erişiminiz olması gerekir.
 
 Geçerli topolojide [yeni bir ER biçimi oluşturun](tasks/er-format-configuration-2016-11.md) bu sayede bir özel depolama konumu ekleyebileceğiniz belgeler oluşturabilirsiniz. Alternatif olarak [bu topolojiye mevcut bir ER biçimi içe aktarın](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Biçim tasarımcısı sayfası.](media/er-extend-file-storages-format.png)
+![Biçim tasarımcısı sayfası](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > Oluşturduğunuz veya içe aktardığınız ER biçimi, aşağıdaki biçim öğelerinden en az birini içermelidir:
@@ -53,12 +55,12 @@ Geçerli topolojide [yeni bir ER biçimi oluşturun](tasks/er-format-configurati
 
 Bir ER biçiminin oluşturduğu belgelerin nasıl yönlendirileceğini belirtmek için [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md) yapılandırmanız gerekir. Oluşturulan belgeleri dosyalar olarak depolamak için yapılandırılmış her ER hedefinde, Belge yönetimi çerçevesinin belge türünü belirtmeniz gerekir. Farklı belge türleri farklı ER biçimlerinin oluşturduğu belgeleri yönlendirmekte kullanılabilir.
 
-1. Daha önceden oluşturduğunuz veya içe aktardığınız ER biçimi için yeni bir [belge türü](../../fin-ops/organization-administration/configure-document-management.md) ekleyin. Aşağıdaki örnekte, belge türü **FileX**'tir.
+1. Daha önceden oluşturduğunuz veya içe aktardığınız ER biçimi için yeni bir [belge türü](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) ekleyin. Aşağıdaki örnekte, belge türü **FileX**'tir.
 2. Bu belge türünü diğer belge türlerinden ayırt etmek için adında belirli bir anahtar kelime dahil edin. Örneğin, aşağıdaki görselde, adı **(LOCAL) folder**'dır.
 3. **Sınıf** alanında, **Dosya ekle** belirtin.
 4. **Grup** alanında, **Dosya** belirtin.
 
-![Belge türleri sayfası.](media/er-extend-file-storages-document-type.png)
+![Belge türleri sayfası](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Belge türleri şirkete özeldir. Yapılandırılan hedefle ER biçimini birden fazla şirkette kullanmak için her bir şirkette ayrı bir belge türü yapılandırmalısınız.
@@ -113,18 +115,18 @@ public DocuRef insertFile(
 - **Arşiv** – Bu hedef kullanıldığında ERFormatMappingRunJobTable tablosunda oluşturulan ER biçimi için yeni bir kayıt çalıştırılır. Bu kayıttaki **Arşiv** alanı **Hatalı**'dır. ER biçimi başarıyla çalışırsa, oluşturulan belge bu kayda eklenir ve **AttachingFile()** olayı oluşturulur. Bu ER hedefinde seçilen belge türü, eklenen dosyanın depolama konumunu belirle (Microsoft Azure Depolama veya bir Microsoft SharePoint klasörü).
 - **İş arşivi** – Bu hedef kullanıldığında ERFormatMappingRunJobTable tablosunda oluşturulan ER formunda için yeni bir kayıt çalıştırılır. Bu kayıttaki **Arşiv** alanı **Doğru**'dır. ER biçimi başarıyla çalışırsa, oluşturulan belge bu kayda eklenir ve **AttachingFile()** olayı oluşturulur. ER parametrelerinde yapılandırılan belge türü, iliştirilen dosya için depolama konumunu belirler (Azure Depolama veya bir SharePoint klasörü).
 
-![Elektronik raporlama parametreleri sayfası.](media/er-extend-file-storages-parameters.png)
+![Elektronik raporlama parametreleri sayfası](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>Bir ER hedefini yapılandırma
 
-1. Oluşturduğunuz veya içe aktardığınız ER biçiminin önceden belirtilen öğelerden biri için (dosya, klasörü, birleştirme veya ek) arşivlenen hedefleri yapılandırın. Yönergeler için bkz. [ER Yapılandır hedefler](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Oluşturduğunuz veya içe aktardığınız ER biçiminin önceden belirtilen öğelerden biri için (dosya, klasörü, birleştirme veya ek) arşivlenen hedefleri yapılandırın. Yönergeler için bkz. [ER Yapılandır hedefler](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Yapılandırılan hedef için daha önce eklediğiniz belge türünü kullanın. (Bu konudaki örnek için, belge türü **FileX**'tir.)
 
-![Hedef ayarları iletişim kutusu.](media/er-extend-file-storages-destination.png)
+![Hedef ayarları iletişim kutusu](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Kaynak kodu değiştir
 
-1. Microsoft Visual Studio projenize yeni bir sınıf ekleyin ve daha önceden belirtilen **AttachingFile()** etkinliğine abone olmak için kodu yazın. (Kullanılan genişletilebilirlik modeli hakkında daha fazla bilgi için bkz. [EventHandlerResult kullanarak yanıtla](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Örneğin, yeni sınıfta, aşağıdaki eylemleri gerçekleştiren kodu yazın:
+1. Microsoft Visual Studio projenize yeni bir sınıf ekleyin ve daha önceden belirtilen **AttachingFile()** etkinliğine abone olmak için kodu yazın. (Kullanılan genişletilebilirlik modeli hakkında daha fazla bilgi için bkz. [EventHandlerResult kullanarak yanıtla](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Örneğin, yeni sınıfta, aşağıdaki eylemleri gerçekleştiren kodu yazın:
 
     1. Oluşturulan dosyaları, Application Object Server (AOS) servisini çalıştıran sunucunun yerel dosya sisteminin bir klasöründe depolayın.
     2. Bu oluşturulan dosyaları yalnızca yeni belge türü (örneğin, adında "(LOCAL)" anahtar kelimesini içeren **FileX** türü) kullanıldığında, bir dosya ER çalıştırma iş günlüğünün kaydına eklendiğinde.
@@ -173,6 +175,3 @@ public DocuRef insertFile(
 
 - [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 - [Genişletilebilirlik giriş sayfası](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

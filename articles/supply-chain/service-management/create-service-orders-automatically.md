@@ -1,26 +1,29 @@
 ---
 title: Servis siparişlerini otomatik olarak oluşturma
 description: Bir servis sözleşmesi veya birden fazla servis sözleşmesi için servis siparişleri oluşturabilirsiniz.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fc63a720dd06c85be17ca61de1fe7c25f1cf3f7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 914df1626b02110264b895e82dc9301f3aa0afce
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571557"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439486"
 ---
 # <a name="create-service-orders-automatically"></a>Servis siparişlerini otomatik olarak oluşturma    
 
@@ -68,6 +71,3 @@ Servis siparişlerini el ile veya servis sözleşmesi satırından otomatik olar
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

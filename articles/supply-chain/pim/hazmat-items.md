@@ -1,27 +1,31 @@
 ---
 title: Ürün, sipariş, sevkiyat ve yüklerdeki tehlikeli malzemeler
 description: Bu konuda serbest bırakılan ürünler için tehlikeli malzeme özelliklerini ayarlama, tehlikeli maddelerle ilgili stok limitlerini belirleme ve tehlikeli malzemeleri satış siparişine, sevkiyata veya yüke ekleme açıklanmaktadır.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570717"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439495"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Ürün, sipariş, sevkiyat ve yüklerdeki tehlikeli malzemeler
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda serbest bırakılan ürünler için tehlikeli malzeme özelliklerini ayarlama, tehlikeli maddelerle ilgili stok limitlerini belirleme ve tehlikeli malzemeleri satış siparişine, sevkiyata veya yüke ekleme açıklanmaktadır.
 
@@ -217,6 +221,3 @@ Uyumluluk denetlemesini çalıştırmak için aşağıdaki adımları uygulayın
 1. Eylem Bölmesinde, **Yükler** sekmesindeki **Eylemler** grubunda **Uyumluluk denetimi**'ni seçin.
 
 Denetimin sonuçlarını bildiren bir ileti alırsınız.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

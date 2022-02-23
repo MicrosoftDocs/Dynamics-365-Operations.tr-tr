@@ -1,10 +1,12 @@
 ---
 title: Satınalma siparişlerini onaylama
 description: Bu konuda, oluşturulduktan sonra bir satınalma siparişinin geçtiği durumlar ve satınalma siparişlerinde değişiklik yönetiminin etkinleştirilmesinin etkisi açıklanmaktadır.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ae625950e62b2bf5ec092ccda414ee306c62d79
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570549"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018458"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Satınalma siparişlerini onaylama
 
@@ -83,7 +85,8 @@ Bir SAS satırındaki miktarın tamamını iptal etmek için, satırdaki teslim 
 
 SAS, değişiklik yönetimi altındaysa, siparişin veya teslimat bakiyesinin iptal edilmesi gibi tüm değişiklikler iş akışı sistemine gönderilmeli ve işlem tamamlanmadan önce onaylanmalıdır ve stok hareketleri iptal edildi olarak güncelleştirilebilir.
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Satın alma siparişine genel bakış](purchase-order-overview.md)
 
@@ -95,6 +98,3 @@ SAS, değişiklik yönetimi altındaysa, siparişin veya teslimat bakiyesinin ip
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

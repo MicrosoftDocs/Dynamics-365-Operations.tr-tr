@@ -2,9 +2,11 @@
 title: Oluşturulan belgeler için özel depolama konumları belirtme
 description: Bu konu, Elektronik raporlama (ER) biçimleri tarafından oluşturulan belgeler için depolama konumlarının listesini genişletmeyi açıklar.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594921"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680770"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumları belirtme
 
@@ -27,7 +29,7 @@ Elektronik raporlama (ER) çerçevesinin Uygulama programlama arabirimi (API), E
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Sürekli derlemeyi destekleyen bir topoloji dağıtın. Daha fazla bilgi için, [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Bu topoloji, aşapıdaki rollerden biri için erişim izniniz olmalıdır:
+Sürekli derlemeyi destekleyen bir topoloji dağıtın. Daha fazla bilgi için, [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Bu topoloji, aşapıdaki rollerden biri için erişim izniniz olmalıdır:
 
 - Elektronik raporlama geliştirici
 - Elektronik raporlama işlev danışmanı
@@ -41,7 +43,7 @@ Bu konudaki tüm görevler **USMF** şirketinde tamamlanabilir.
 
 Özel bir depolama konumu eklemeyi planladığınız belgeleri oluşturmak için geçerli topolojiye **Sabit kıymet ileri taşıma** ER biçimini [içeri aktarın](er-download-configurations-global-repo.md).
 
-![Yapılandırma deposu sayfası.](./media/er-custom-storage-generated-files-import-format.png)
+![Yapılandırma havuzu sayfası](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Sabit kıymet ileri taşıma raporunu çalıştırma
 
@@ -52,7 +54,7 @@ Bu konudaki tüm görevler **USMF** şirketinde tamamlanabilir.
 5. **Biçim eşleme** alanında, **Sabit kıymet ileri taşıma**'yı seçin.
 6. **Tamam**'ı seçin.
 
-![Sabit kıymet ileri taşıma raporu için çalışma zamanı iletişim kutusu.](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Sabit kıymet ileri taşıma raporu için çalışma zamanı iletişim kutusu](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Microsoft Excel'de, oluşturulan ve indirmeye hazır olan giden belgeyi inceleyin. Bu davranış, hiçbir [hedefin](electronic-reporting-destinations.md) yapılandırılmadığı ve etkileşimli modda çalıştırılan bir ER biçimi için [varsayılan davranıştır](electronic-reporting-destinations.md#default-behavior).
 
@@ -255,7 +257,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Mevcut `AssetRollForwardService` sınıfını değiştirin ve rapor çalıştırıcısı için özel bir hedef fabrikası ayarlamak amacıyla bir kod yazın. Özel bir hedef fabrikası oluşturulduğunda, hedef klasörü belirten uygulama temelli parametreye geçilir. Bu şekilde, bu hedef klasör oluşturulan dosyaları depolamak için kullanılır.
 
     > [!NOTE] 
-    > Belirtilen klasörün (bu örnekte **c:\\0**) AOS hizmetini çalıştıran sunucunun yerel dosya sisteminde mevcut olduğundan emin olun. Aksi takdirde, çalışma zamanında [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) özel durumu oluşturulur.
+    > Belirtilen klasörün (bu örnekte **c:\\0**) AOS hizmetini çalıştıran sunucunun yerel dosya sisteminde mevcut olduğundan emin olun. Aksi takdirde, çalışma zamanında [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) özel durumu oluşturulur.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -339,6 +341,3 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 - [Genişletilebilirlik giriş sayfası](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

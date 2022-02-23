@@ -1,25 +1,28 @@
 ---
 title: Ürün çeşidi başına ölçü birimi dönüşümü
 description: Bu konuda, ürün çeşitleri için ölçü birimi dönüştürmelerinin nasıl ayarlanacağı açıklanmaktadır. Bir kurulum örneği içerir.
-author: t-benebo
+author: johanhoffmann
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579580"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439586"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Ürün çeşidi başına ölçü birimi dönüşümü
 
@@ -56,7 +59,7 @@ Ana ürünü, birim dönüştürmeyi her çeşit için destekleyecek şekilde ya
     - **Ürün**: Bu değeri seçerseniz ana ürün için birim dönüştürme ayarlayabilirsiniz. Bu birim dönüştürme, birim dönüştürmenin tanımlanmadığı tüm ürün çeşitleri için geri dönüş olarak kullanılacaktır.
     - **Ürün çeşidi**: Bu değeri seçerseniz belirli bir ürün çeşidi için birim dönüştürme ayarlayabilirsiniz. Ürün çeşidini seçmek için **Ürün çeşidi** alanını kullanın.
 
-    ![Yeni bir birim dönüştürme ekleme.](media/uom-new-conversion.png "Yeni bir birim dönüştürme ekleme")
+    ![![Yeni bir birim dönüştürme ekleme](media/uom-new-conversion.png "Yeni bir birim dönüştürme ekleme")](media/uom-new-conversion.png "Adding a new unit conversion")
 
 1. Birim dönüştürmenizi ayarlamak için sağlanan diğer alanları kullanın.
 1. Yeni birim dönüştürmeyi kaydetmek için **Tamam**'ı seçin.
@@ -103,7 +106,4 @@ Birim dönüştürmelerini Excel'e aktarmak için **Birim dönüştürmeleri** s
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Ölçü birimlerini yönetme](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Ölçü birimini yönetme](tasks/manage-unit-measure.md)

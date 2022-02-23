@@ -1,27 +1,30 @@
 ---
 title: Stok konumları
 description: Stok konumları ile temel depolama (WSM I) birlikte kullanılarak maddelerin nerede depolandıkları ve maddelerin bir WMS I ambarında nereden çekildikleri belirlenir.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSLocation, WMSBlockingCause, WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c202a679e992c562772cbf6da6e17c4b8149760f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 490f510ca0a5522d7bc892733ff066ebc65bcd24
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573957"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439705"
 ---
 # <a name="inventory-locations"></a>Stok konumları
 
@@ -59,9 +62,7 @@ Konumları bir ambardan diğerine kopyalamak ve sihirbaz üzerinden konum oluşt
 
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Yeni ambar düzeni oluşturma](tasks/create-new-warehouse-layout.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

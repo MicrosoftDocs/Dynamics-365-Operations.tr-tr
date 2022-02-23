@@ -1,26 +1,29 @@
 ---
 title: Elden çıkarma kodlarını ayarla
 description: Müşteri tarafından iade edilen bir maddenin nasıl işleneceğini belirtmek için elden çıkarma kodları ayarlayabilirsiniz.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnDispositionCode
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 973d270d186244904a8390b700aa2ee1fc84cbbc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 16f0ddb9ad956367adc66a952bd8d12551da56a5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576292"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438977"
 ---
 # <a name="set-up-disposition-codes"></a>Elden çıkarma kodlarını ayarla 
 
@@ -31,15 +34,15 @@ Müşteri tarafından iade edilen bir maddenin nasıl işleneceğini belirtmek i
 
 Bir maddenin neden iade edildiğini açıklamaya yardımcı olmak için bir neden kodu da ayarlayabilirsiniz. Neden kodları hakkında daha fazla bilgi için bkz. [İade neden kodlarını ayarlama](set-up-return-reason-code.md).
 
-1.  **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **İadeler** \> **Elden çıkarma kodları**'na gidin.
+1.  **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **İadeler** \> **Elden çıkarma kodları**'na tıklayın.
 
-2.  Yeni değerlendirme kodu oluşturmak için **Yeni**'yi seçin.
+2.  Yeni bir elden çıkarma kodu oluşturmak için **Yeni**'ye tıklayın veya CTRL+N tuşlarına basın.
 
 3.  Benzersiz bir açıklayıcı ad girin, bir eylem seçin ve elden çıkarma kodu için bir açıklama girin.
 
-4.  Bu elden çıkarma koduyla herhangi bir müşteri giderini ilişkilendirmek istiyorsanız, **Giderleri ayarla** formunu açmak için **Giderler** düğmesini seçin.
+4.  Bu elden çıkarma koduyla herhangi bir müşteri giderini ilişkilendirmek istiyorsanız, **Giderleri ayarla** formunu açmak için **Giderler** düğmesini tıklatın.
 
-5.  Şirketin kendi elden çıkarma koduyla eşleşecek herhangi bir harici kod tanımlamak istiyorsanız **Harici kodlar** formunu açmak için **Harici kodlar** düğmesini seçin.
+5.  Şirketin kendi elden çıkarma koduyla eşleşecek herhangi bir harici kod tanımlamak istiyorsanız **Harici kodlar** formunu açmak için **Harici kodlar** düğmesini tıklatın.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
@@ -54,6 +57,3 @@ Bir maddenin neden iade edildiğini açıklamaya yardımcı olmak için bir nede
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

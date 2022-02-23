@@ -2,19 +2,28 @@
 title: Satış siparişi durumu sütunları için eşlemeyi ayarlama
 description: Bu konu, çift yazma için satış siparişi durumu sütunlarının nasıl ayarlanacağını açıklar.
 author: dasani-madipalli
+manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: damadipa
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782296"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744311"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Satış siparişi durumu sütunları için eşlemeyi ayarlama
 
@@ -93,7 +102,7 @@ Satış siparişi durumu sütunlarıyla ilgili eşlemeyi ayarlamak için **IsSOP
 1. Web tarayıcısında `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations` adresine gidin. **\<test-name\>** değerini şirketinizin Sales bağlantısı ile değiştirin.
 2. Açılan sayfada, **organizationId** değerini bulun ve değeri not alın.
 
-    ![organizationId bulma.](media/sales-map-orgid.png)
+    ![organizationId bulma](media/sales-map-orgid.png)
 
 3. Sales'ta, tarayıcı konsolunu açın ve aşağıdaki kodu çalıştırın. 2. adımdaki **organizationId** değerini kullanın.
 
@@ -112,35 +121,32 @@ Satış siparişi durumu sütunlarıyla ilgili eşlemeyi ayarlamak için **IsSOP
     );
     ```
 
-    ![Tarayıcı konsolundaki JavaScript kodu.](media/sales-map-script.png)
+    ![Tarayıcı konsolundaki JavaScript kodu](media/sales-map-script.png)
 
 4. **IsSOPIntegrationEnabled** değerinin **TRUE** olarak ayarlandığını doğrulayın. Değeri kontrol etmek için 1. adımdaki URL'yi kullanın.
 
-    ![IsSOPIntegrationEnabled değeri doğru olarak ayarlanmış.](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled değerinin TRUE olarak ayarlanmış](media/sales-map-integration-enabled.png)
 
 **isIntegrationUser** özniteliğini etkinleştirmek için şu adımları izleyin.
 
 1. Sales'da, **Ayarlar \> Özelleştirme \> Sistemi Özelleştirme** sayfasına gidin, **Kullanıcı tablosu** ögesini seçin ve sonra **Form \> Kullanıcısı** ögesini açın.
 
-    ![Kullanıcı formunu açma.](media/sales-map-user.png)
+    ![Kullanıcı formunu açma](media/sales-map-user.png)
 
 2. Alan Gezgini'nde, **Tümleştirme kullanıcısı modunu** bulun ve forma eklemek için çift tıklayın. Değişikliğinizi kaydedin.
 
-    ![Tümleştirme kullanıcısı modu sütununu forma ekleme.](media/sales-map-field-explorer.png)
+    ![Tümleştirme kullanıcısı modu sütununu forma ekleme](media/sales-map-field-explorer.png)
 
 3. Sales'ta, **Ayarlar \> Güvenlik \> Kullanıcılar** sayfasına gidin ve görünümü **Etkin Kullanıcılar** ayarından **Uygulama kullanıcıları** olarak değiştirin.
 
-    ![Görünümü Etkin Kullanıcılardan Uygulama Kullanıcıları olarak değiştirme.](media/sales-map-enabled-users.png)
+    ![Görünümü Etkin Kullanıcılardan Uygulama Kullanıcıları olarak değiştirme](media/sales-map-enabled-users.png)
 
 4. **DualWrite IntegrationUser** için iki giriş seçin.
 
-    ![Uygulama kullanıcıları listesi.](media/sales-map-user-mode.png)
+    ![Uygulama kullanıcıları listesi](media/sales-map-user-mode.png)
 
 5. **Tümleştirme kullanıcısı modu** sütununun değerini **Evet** olarak değiştirin.
 
-    ![Tümleştirme kullanıcısı modu sütununun değerini Evet olarak değiştirme.](media/sales-map-user-mode-yes.png)
+    ![Tümleştirme kullanıcısı modu sütununun değerini Evet olarak değiştirme](media/sales-map-user-mode-yes.png)
 
 Satış siparişleriniz artık eşlendi.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

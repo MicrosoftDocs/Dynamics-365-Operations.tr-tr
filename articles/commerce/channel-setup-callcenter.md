@@ -2,24 +2,27 @@
 title: Çağrı merkezi kanalı ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir çağrı merkezi kanalının nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
+manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744546"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4416578"
 ---
 # <a name="set-up-a-call-center-channel"></a>Çağrı merkezi kanalı ayarlama
 
@@ -54,11 +57,11 @@ Yeni bir çağrı merkez kanalı oluşturmak ve yapılandırmak için bu adımla
 
 Aşağıdaki resimde yeni bir çağrı merkezi kanalının oluşturulması gösteriliyor.
 
-![Yeni çağrı merkezi kanalı.](media/channel-setup-callcenter-1.png)
+![Yeni çağrı merkezi kanalı](media/channel-setup-callcenter-1.png)
 
 Aşağıdaki resimde örnek bir çağrı merkezi kanalı gösteriliyor.
 
-![Örnek çağrı merkezi kanalı.](media/channel-setup-callcenter-2.png)
+![Örnek çağrı merkezi kanalı](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Ek kanal ayarları
 
@@ -66,7 +69,7 @@ Aşağıdaki resimde örnek bir çağrı merkezi kanalı gösteriliyor.
 
 Aşağıdaki resimde, **Kurulum** sekmesindeki **Teslimat şekilleri** ve **Ödeme yöntemleri** ayarlama seçenekleri gösterilmektedir.
 
-![Ek çağrı merkezi kanal kurulumu eylemleri.](media/channel-setup-callcenter-3.png)
+![Ek çağrı merkezi kanal kurulumu eylemleri](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Ödeme yöntemlerini ayarlama
 
@@ -81,7 +84,7 @@ Aşağıdaki resimde, **Kurulum** sekmesindeki **Teslimat şekilleri** ve **Öde
 
 Aşağıdaki resimde bir nakit ödeme yöntemi örneği gösteriliyor.
 
-![Örnek ödeme yöntemleri.](media/channel-setup-callcenter-payments.png)
+![Örnek ödeme yöntemleri](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Teslimat şekillerini ayarla
 
@@ -97,7 +100,7 @@ Yapılandırılan teslimat şekillerini, **Eylem bölmesindeki** **Ayarla** sekm
 
 Aşağıdaki resimde bir teslimat şekli örneği gösteriliyor.
 
-![Teslimat şekillerini ayarla.](media/channel-setup-retail-7.png)
+![Teslimat şekillerini ayarla](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Kanal kullanıcıları ayarlama
 
@@ -133,6 +136,3 @@ Fiyat grubu ayarlamak için aşağıdakileri yapın.
 [Sahtekarlık uyarılarını ayarlama ve bunlarla çalışma](set-up-fraud-alerts.md)
 
 [Çağrı merkezleri için süreklilik programları ayarlama](set-up-continuity-program.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

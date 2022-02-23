@@ -1,27 +1,30 @@
 ---
 title: Satış siparişi için aynı toplu işi rezerve etme
 description: Bu makalede, bir ürünün, tek bir stok toplu işine karşılık stok rezervasyonuna izin verecek şekilde nasıl ayarlandığı açıklanmaktadır.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d4f3ee5d99648155e663c9ad0849b0b9ae3f80e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576628"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439711"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Satış siparişi için aynı toplu işi rezerve etme
 
@@ -41,7 +44,4 @@ Aynı toplu iş seçimi için bir satış siparişi satırında bir ürüne ili�
 - Bitiş tarihine ve varsa müşterinin ilgili satış yapılabilir gün sayısına göre, toplu işin tarihi geçmiştir. Madde için madde model grubu FEFO (İlk Sona Eren İlk Çıkar) tarih denetimliyse ve malzeme çekme ölçütü olarak bitiş tarihi seçilmişse madde yine rezervasyon için değerlendirilebilir.
 - Bitiş tarihi/son kullanma tarihi ve varsa müşterinin satış yapılabilir gün sayısına göre toplu işin raf ömrü kalan gün sayısı yeterli değildir.
 
-**Etkin ambar yönetimi işlemleri** kullanan bir depolama boyutu grubuyla ilişkilendirilmiş maddeler için, yerleşim boyutunun üstünde tanımlanan toplu iş numarası stok boyutuna sahip bir rezervasyon hiyerarşisi kullanarak belirli toplu iş numaralarını rezerve edebilirsiniz. Bu tür bir rezervasyon hiyerarşisi aynı zamanda bir *Toplu iş üstü \[konum\]* rezervasyon hiyerarşisi olarak da bilinir. Satış ve transfer emri satırları için **toplu rezervasyon** sayfası, kullanılabilir toplu iş numaralarına dayalı olarak çoklu satırları seçmenizi ve rezerve etmenize olanak tanır. Yerin altında toplu iş numarası boyutu olan bir rezervasyon hiyerarşisi (*Toplu iş altı\[konum\]*) kullanıyorsanız ne yapmanız gerektiğini öğrenmek için esnek [Ambar düzeyi boyut rezervasyon ilkesi](../warehousing/flexible-warehouse-level-dimension-reservation.md)'ne bakın.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+**Etkin ambar yönetimi işlemleri** kullanan bir depolama boyutu grubuyla ilişkilendirilmiş maddeler için, yerleşim boyutunun üstünde tanımlanan toplu iş numarası stok boyutuna sahip bir rezervasyon hiyerarşisi kullanarak belirli toplu iş numaralarını rezerve edebilirsiniz. Satış ve transfer emri satırları için **toplu rezervasyon** sayfası, kullanılabilir toplu iş numaralarına dayalı olarak çoklu satırları seçmenizi ve rezerve etmenize olanak tanır. Yerin altında toplu iş numarası boyutu olan bir rezervasyon hiyerarşisi kullanıyorsanız ne yapmanız gerektiğini öğrenmek için [esnek Ambar düzeyi boyut rezervasyon ilkesi](../warehousing/flexible-warehouse-level-dimension-reservation.md) 'ne bakın.

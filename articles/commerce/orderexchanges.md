@@ -2,12 +2,15 @@
 title: Bir iade emrinde bir değişiklik yapılandırma ve işleme
 description: Bu konuda, Dynamics 365 Commerce için bir iadede bir değişikliğin nasıl yapılandırılacağı açıklanmaktadır.
 author: josaw1
-ms.date: 07/28/2021
+manager: AnnBe
+ms.date: 11/12/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6d7688e78a375bc262b1156c5439c0fff7cd1f0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758348"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460113"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Bir iade emrinde bir değişiklik yapılandırma ve işleme
 
@@ -32,10 +35,7 @@ Ancak, değişikliklerin iade emirlerinde yapıldığı senaryoları desteklemek
 
 ## <a name="configure-commerce-to-support-exchanges-on-return-orders"></a>Commerce uygulamasını iade emirlerinde değişiklikleri destekleyecek şekilde yapılandırma
 
-> [!NOTE]
-> Commerce sürüm 10.0.20 ve sonraki sürümlerde, "POS'ta birleşik iade işleme deneyimi" olarak adlandırılan yeni bir özellik mevcuttur. Bu özelliği etkinleştirirseniz aşağıdaki kurulum adımları gerekmez. **İadeleri satış siparişleri olarak işle** kalıcı olarak yapılandırılmış bir ayar haline gelir ve bunu değiştiremezsiniz.
-
-Sistemi iade emirlerinde değişiklikleri destekleyecek şekilde yapılandırmak için (**POS'ta birleşik iade işleme deneyimi** özelliği etkin değilse) şu adımları izleyin.
+Sistemi, iade emirlerinde değişiklikleri destekleyecek şekilde yapılandırmak için bu adımları izleyin.
 
 1. **Retail ve Commerce \> Genel merkez ayarı \> Parametreler \> Commerce parametreleri**'ne gidin. **Müşteri siparişleri** hızlı sekmesinde, **İade emirlerine satış siparişleri olarak işlem yap** seçeneğini **Evet** olarak ayarlayın.
 2. **Genel yapılandırma dağıtım planı** işini (**1110**) çalıştırın.
@@ -51,6 +51,3 @@ Sepet için çeşitli tutarlara yönelik daha iyi bir görüş sağlamak üzere,
 - **Uygulanan havale**: Kullanıcı bir müşteri siparişi teslim alma hareketi gerçekleştirdiğinde bir işlemde uygulanan havale tutarı. Havale geçersiz kılma işlemi yoksa ve yüzde 10 havale yapılandırıldıysa bu alandaki tutar müşteri siparişinin toplam tutarının yüzde 90'ıdır.
 - **Gerçekleşen tutar**: Müşteri siparişi oluşturulduğunda veya düzenlendiğinde ya da bir müşteri siparişi değişikliği sırasında teslimat şeklinin **Gerçekleştirme** olarak ayarlandığı satırların toplam tutarı. Bu alandaki tutar, vergileri ve masrafları içerir.
 - **İade tutarı**: Müşteri siparişi değişikliği sırasında eksi miktarlar içeren satırların toplam tutarı. Bu alandaki tutar, vergileri ve masrafları içerir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

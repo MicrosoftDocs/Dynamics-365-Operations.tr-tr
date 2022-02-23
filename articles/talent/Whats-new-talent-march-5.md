@@ -80,6 +80,3 @@ Pek çok kuruluşta, ücret ve kazanç yöneticileri yalnızca belirli ücret ka
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 24
 Finance and Operations için Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'te (Mart 2019) neler yeni veya değişti.](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

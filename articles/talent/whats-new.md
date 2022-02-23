@@ -33,6 +33,3 @@ Her hafta Talent için yeni sürümler kullanıma sunulur. Bu sürümler, docs.m
 
 İçindekiler tablosu her hafta güncelleştirilmeye devam edecek, bu yüzden Talent'ın en son sürümlerindeki yeni özellikleri ve değişiklikleri bulmak için geri dönün.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

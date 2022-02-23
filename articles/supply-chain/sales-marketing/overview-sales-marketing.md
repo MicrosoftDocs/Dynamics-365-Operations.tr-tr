@@ -2,26 +2,27 @@
 title: Satış ve pazarlamaya genel bakış
 description: Satış akışında çeşitli veri türlerini elde etmek, depolamak ve kullanmak için Satış ve pazarlamayı kullanabilirsiniz. Bu veriler, özgün satış girişimini, gelecekteki takip eylemini ve ek satışları içerir.
 author: kfend
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "92303"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 021ff1ff24e20516b7a8ac1ce206b76aa8e91a2a
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f03db7f830d0b7efa4ba32b9e194a4e3a65266e8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982546"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439094"
 ---
 # <a name="sales-and-marketing-overview"></a>Satış ve pazarlamaya genel bakış
 
@@ -29,20 +30,21 @@ ms.locfileid: "7982546"
 
 Satış akışında çeşitli veri türlerini elde etmek, depolamak ve kullanmak için Satış ve pazarlamayı kullanabilirsiniz. Bu veriler, özgün satış girişimini, gelecekteki takip eylemini ve ek satışları içerir.
 
-## <a name="marketing"></a>Pazarlama
+<a name="marketing"></a>Pazarlama
+---------
 
-Potansiyel müşteriler bulup onlarla ilişkiler kurmak için pazarlama kampanyalarını ve etkinliklerini kullanın. Böylelikle, ilk etkileşimler satış ilişkileri haline gelebilir. Aşağıdaki süreç akışı, pazarlama için iş sürecini gösterir. [![Pazarlama için iş süreci.](./media/marketing01.jpg)](./media/marketing01.jpg)
+Potansiyel müşteriler bulup onlarla ilişkiler kurmak için pazarlama kampanyalarını ve etkinliklerini kullanın. Böylelikle, ilk etkileşimler satış ilişkileri haline gelebilir. Aşağıdaki süreç akışı, pazarlama için iş sürecini gösterir. [![Pazarlama için iş süreci](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>İlişkiler
 
-Satış ve pazarlamada potansiyel müşterilerle yaptığınız ilk etkileşimler çeşitli durumlarda yaşanabilir. Örneğin, fuara katılırken bir müşteri adayı bulabilirsiniz veya kuruluşunuz toplu bir e-posta gönderme kampanyası yaptıktan sonra bir müşteri adayıyla olası bir iş fırsatı yakalayabilirsiniz. Bir tarafın varlığının akışını, o taraf müşteri haline gelmeden önce anlamanız çok önemlidir. Potansiyel bir müşteri, gerçek bir müşteri haline gelirken varlık ilişkilerinin akışı, aşağıdaki grafikte gösterilmiştir. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+Satış ve pazarlamada potansiyel müşterilerle yaptığınız ilk etkileşimler çeşitli durumlarda yaşanabilir. Örneğin, fuara katılırken bir müşteri adayı bulabilirsiniz veya kuruluşunuz toplu bir e-posta gönderme kampanyası yaptıktan sonra bir müşteri adayıyla olası bir iş fırsatı yakalayabilirsiniz. Bir tarafın varlığının akışını, o taraf müşteri haline gelmeden önce anlamanız çok önemlidir. Potansiyel bir müşteri, gerçek bir müşteri haline gelirken varlık ilişkilerinin akışı, aşağıdaki grafikte gösterilmiştir. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Kampanyalar
 
 Kampanya, aday müşterilerin ilgili kişilerini, müşteri adaylarını, iş fırsatlarını ve kampanyaya katılmak için seçilmiş müşterileri hedefler. Supply Chain Management'ta müşteri potansiyelini en üst düzeye çıkarmak için telefonla pazarlama, postalama ve e-posta kampanyaları gibi çeşitli kampanya türleri oluşturabilirsiniz. Kampanyanız ilerledikçe ve olumlu yanıtlar aldıkça kampanyaya olumlu yanıt veren alıcılarla satış sürecine başlayabilirsiniz.
 
 ## <a name="sales"></a>Satış
-Teklifler oluşturmak, yeni ve mevcut müşterilere dikey ve çapraz satış yapmak, satış siparişleri oluşturmak ve müşteriler için satış faturaları oluşturmak için satış işlevlerini kullanın. Aşağıdaki süreç akışı, satış için iş sürecini gösterir. [![Satış için iş süreci.](./media/sales01.jpg)](./media/sales01.jpg)
+Teklifler oluşturmak, yeni ve mevcut müşterilere dikey ve çapraz satış yapmak, satış siparişleri oluşturmak ve müşteriler için satış faturaları oluşturmak için satış işlevlerini kullanın. Aşağıdaki süreç akışı, satış için iş sürecini gösterir. [![Satış için iş süreci](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Satış teklifleri
 
@@ -123,6 +125,3 @@ Proforma fatura, fatura deftere nakledilmeden önce gerçek fatura tutarının b
 #### <a name="blogs"></a>Bloglar
 
 [Dynamics 365 for Finance and Operations'ta satış nasıl işler?](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations) başlıklı yazıda satış sürecine ilişkin bir genel bakış bulabilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

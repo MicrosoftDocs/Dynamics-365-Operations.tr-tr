@@ -1,10 +1,12 @@
 ---
 title: ER Biçim yapılandırmayı kullanarak ödemeler için elektronik belgeler oluşturma
-description: Bu konuda, ödemeleri işlemek üzere elektronik belgeler oluşturmak için yeni bir Elektronik raporlama (ER) biçimi yapılandırmasının nasıl kullanılacağı açıklanmaktadır.
+description: Aşağıdaki yordamlar Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının yeni bir Elektronik Raporlama (ER) biçim yapılandırmasını kullanarak, ödemeleri işlemek için elektronik belgeleri nasıl oluşturabileceğini açıklar.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05295ff36ffd194b3f50fcdd9d7528c787c80f39104f46f9c51890a75a852735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712676"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681745"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER Biçim yapılandırmayı kullanarak ödemeler için elektronik belgeler oluşturma
 
@@ -79,6 +81,3 @@ Bu adımları tamamlamak için, öncelikle "Ödeme belgesi biçimi ile bir yapı
 25. Tamam'a tıklayın.
     * XML biçiminde oluşturulan ödeme dosyasının çözümleyin. Bunu, tasarlanmış belge düzeni ve tanımlanan ödeme işlem özniteliklerini ile karşılaştırın.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: Ürün model bileşenleri oluşturma
 description: Kısıtlama tabanlı ürün yapılandırması modelleri, ürün modeli yapısı oluşturmak için temel olarak bileşenleri kullanır.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCComponentList
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 938af6b7b027a11e0de9cbfa2c3206b52c4c5f84
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f8b640d63776debbe12367439186a72b231d8ada
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570621"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439293"
 ---
 # <a name="create-product-model-components"></a>Ürün model bileşenleri oluşturma
 
@@ -26,14 +29,12 @@ ms.locfileid: "7570621"
 
 Kısıtlama tabanlı ürün yapılandırması modelleri, ürün modeli yapısı oluşturmak için temel olarak bileşenleri kullanır. Bir ürün modeli oluşturulmadan önce bileşenler oluşturulmalıdır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
-1. **Ürün bilgileri yönetimi \> Ürünler \> Ürün yapılandırma modelleri**'ne gidin.
-1. Eylem Bölmesinde, **Model**'i seçin.
-1. **Bileşenler**'i seçin.
-1. **Yeni**'yi seçin.
-1. **Ad** alanına bir değer yazın.
-1. **Tanım** alanına bir değer girin.
-1. Sayfayı kapatın.
+1. Ürün varyantı model tanımı'na tıklayın.
+2. Ürün yapılandırma modelleri'ne tıklayın.
+3. Eylem Bölmesinde,Model öğesine tıklayın.
+4. Bileşenler'i tıklatın.
+5. Yeni'ye tıklayın.
+6. İsim alanına bir değer yazın.
+7. Açıklama alanına bir değer girin.
+8. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

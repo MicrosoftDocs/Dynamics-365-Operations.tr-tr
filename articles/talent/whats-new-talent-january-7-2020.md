@@ -53,6 +53,3 @@ Bu değişiklik, **çalışmayan işçiler** formuna bir silme seçeneği ekler.
 5. Izin vermek için **Silme** iznini ayarlayın.
 6. **Yayımlanmamış nesneler** sekmesini seçin.
 7. **Tümünü yayımla**'yı seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

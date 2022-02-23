@@ -1,66 +1,67 @@
 ---
 title: Yaralanma ve hastalık bilgilerini ayarla
 description: İşverenler, personellerinin başına gelen çalışma alanı kaynaklı hastalık veya yaralanmalardan haberdar olmalıdırlar.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 680f4cc529b6818d763730f253811a6edbe0dd76
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 117ae1d690221dbbe0cf4287a3f986cdb3606623
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070589"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420952"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Yaralanma ve hastalık bilgilerini ayarla
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+İşverenler, personellerinin başına gelen çalışma alanı kaynaklı hastalık veya yaralanmalardan haberdar olmalıdırlar. Yaralanma ve hastalık sayfasını kullanarak iş yeri kaynaklı yaralanma ve hastalıkların raporlanmasını kolaylaştırabilirsiniz. Yaralanmalar ve hastalıklar için tedaviler, maliyetleri ve sonuçlar de dahil olmak üzere türler ayarlayabilirsiniz. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
+1. İnsan Kaynakları > Çalışanlar > Yaralanma ve hastalık > Yaralanma ve hastalık ayarı'na gidin.
+2. Yeni'ye tıklayın.
+3. Yaralanma veya hastalık türü alanına bir değer girin.
+    * Örnek: Kırık  
+4. Açıklama alanına bir değer girin.
+    * Örnek: Kemik kırığı  
+5. Vücut bölümleri sekmesine tıklayın.
+6. Yeni'ye tıklayın.
+7. Vücut bölümleri alanına bir değer yazın.
+    * Örnek: Bilek  
+8. Açıklama alanına bir değer girin.
+    * Örnek: Bilek  
+9. Tedavi türleri sekmesine tıklayın.
+10. Yeni'ye tıklayın.
+11. Tedavi türü alanına bir değer yazın.
+    * Örnek: Atel  
+12. Açıklama alanına bir değer girin.
+    * Örnek: Üzerine splint koyun  
+13. Maliyet türleri sekmesine tıklayın.
+14. Yeni'ye tıklayın.
+15. Maliyet türü alanına bir değer girin.
+    * Örnek: Röntgenler  
+16. Açıklama alanına bir değer girin.
+    * Örnek: Röntgenler  
+17. Sonuç türleri sekmesine tıklayın.
+18. Yeni'ye tıklayın.
+19. Sonuç türü alanına bir değer yazın.
+    * Örnek: Terapi  
+20. Açıklama alanına bir değer girin.
+    * Örnek: Fiziksel terapi  
+21. Önem düzeyleri sekmesine tıklayın.
+    * Özelleştirilebilir önem düzeyleri oluşturulabilir. Örneğin: Önem 1 küçük bir yaralanma anlamına gelebilirken, 3 ciddi bir yaralanmayı göstermektedir.  
+22. Raporlama kurumları sekmesine tıklayın.
+    * Raporlama kurumları, olayın rapor edilmesi gereken kurumlardır. Yaralanma ve hastalık raporlama ile ilgili varsayılan kurum için varsayılan onay kutusunu seçin.  
+23. Kaydet'e tıklayın.
 
-
-İşverenler, personellerinin başına gelen çalışma alanı kaynaklı hastalık veya yaralanmalardan haberdar olmalıdırlar. **Yaralanma ve hastalık** sayfasını kullanarak iş yeri kaynaklı yaralanma ve hastalıkların raporlanmasını kolaylaştırabilirsiniz. Yaralanmalar ve hastalıklar için tedaviler, maliyetleri ve sonuçlar de dahil olmak üzere türler ayarlayabilirsiniz. Bu yordamı oluşturmak için **USMF** demo verileri şirketi kullanılmıştır.
-
-1. **İnsan Kaynakları** \> **Çalışanlar** \> **Yaralanma ve hastalık** \> **Yaralanma ve hastalık ayarı**'na gidin.
-2. **Yeni**'yi seçin.
-3. **Yaralanma veya hastalık türü** alanında bir değer girin (örneğin **Kırık**).
-4. **Açıklama** alanına bir değer girin (örneğin **Kemik kırılması**).
-5. **Vücut bölümleri** sekmesini seçin.
-6. **Yeni**'yi seçin.
-7. **Vücut bölümleri** alanına bir değer girin (örneğin **Bilek**).
-8. **Açıklama** alanına bir değer girin (örneğin **Bilek**).
-9. **Tedavi türleri** sekmesini seçin.
-10. **Yeni**'yi seçin.
-11. **Tedavi türü** alanında bir değer girin (örneğin **Splint**).
-12. **Açıklama** alanına bir değer girin (örneğin **Splint takma**).
-13. **Maliyet türleri** sekmesini seçin.
-14. **Yeni**'yi seçin.
-15. **Maliyet türü** alanında bir değer girin (örneğin **Röntgenler**).
-16. **Açıklama** alanında bir değer girin (örneğin **Röntgenler**).
-17. **Sonuç türleri** sekmesini seçin.
-18. **Yeni**'yi seçin.
-19. **Sonuç türü** alanında bir değer girin (örneğin **Tedavi**).
-20. **Açıklama** alanına bir değer girin (örneğin **Fiziksel terapi**).
-21. **Önem düzeyleri** sekmesini seçin.
-
-    Özelleştirilebilir önem düzeyleri oluşturulabilir. Örneğin: önem 1 küçük bir yaralanma anlamına gelebilirken, 3 ciddi bir yaralanmayı göstermektedir.
-
-22. **Raporlama kurumları** sekmesini seçin.
-
-    Raporlama kurumları, olayın rapor edilmesi gereken kurumlardır. Yaralanma ve hastalıkların raporlanması gereken varsayılan kurum için **Varsayılan** onay kutusunu seçin.
-
-23. **Kaydet**'i seçin.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

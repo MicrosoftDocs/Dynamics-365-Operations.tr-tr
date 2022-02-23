@@ -1,35 +1,33 @@
 ---
-title: Yaşam olayı uygunluğunu işleme
-description: Bu konuda, yaşam olayı uygunluğunun nasıl işleneceği açıklanmaktadır.
-author: twheeloc
-ms.date: 08/23/2021
+title: Ömür olayı uygunluğunu işle
+description: Bu makalede, işlemin ömür olayı uygunluğu için nasıl çalıştırıldığı gösterilmektedir.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3086718ed8dc0a8da988eb2d4cd07a2fff38e52c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 17ecef1412eb0232fbb4782bd9d2d79f210c7e80
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065905"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420886"
 ---
-# <a name="process-life-event-eligibility"></a>Yaşam olayı uygunluğunu işleme
+# <a name="process-life-event-eligibility"></a>Ömür olayı uygunluğunu işle
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Bu konuda, yaşam olayı uygunluğunun nasıl işleneceği açıklanmaktadır.
+Bu makalede, işlemin ömür olayı uygunluğu için nasıl çalıştırıldığı gösterilmektedir.
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **işlem** altında, **Ömür olayı uygunluk işlemini** seçin.
 
@@ -50,6 +48,3 @@ Bu konuda, yaşam olayı uygunluğunun nasıl işleneceği açıklanmaktadır.
    4. **Tamam**'ı seçin. İşlem, ayarladığınız parametrelerle çalışacaktır.
 
 4. **Tamam**'ı seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

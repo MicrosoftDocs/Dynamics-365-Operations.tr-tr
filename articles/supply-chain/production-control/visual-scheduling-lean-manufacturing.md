@@ -2,13 +2,16 @@
 title: Yalın imalat için görsel planlama
 description: Bu konu, üretim planlayıcısının kanban işleri için üretim planını denetlemek ve en iyi duruma getirmek üzere kullanabileceği Kanban zamanlama panosu hakkında bilgiler sağlar.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoard, KanbanJobSchedulingListPage, LeanProductionFlowVisualization, KanbanBoardUnplannedJobs
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764824"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439053"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Yalın imalat için görsel planlama
 
@@ -47,7 +50,7 @@ Yalnızca **İşlem** türündeki işleri planlayabilirsiniz. Kanban işi ve faa
 ## <a name="kanban-schedule-board"></a>Kanban zamanlama panosu
 **Kanban planlama panosu** sayfası aşağıda gösterildiği gibi yedi ana öğe içerir. 
 
-![Kanban planlama panosu.](./media/kanban-schedule-board-1024x554.png)
+![Kanban zamanlama panosu](./media/kanban-schedule-board-1024x554.png)
 1.  Eylem Bölmesi
 2.  Filtre alanları
 3.  Planlanmamış işler için düğme
@@ -71,7 +74,7 @@ Kanban planlama panosunun sağladığı genel görünümü geliştirmek için ka
 ## <a name="plan-unplanned-jobs"></a>Planlanmamış işleri planla
 Planlanmamış kanban işlerini **Planlanmamış iş planlama** iletişim kutusundan planlayabilirsiniz. Bu iletişim kutusunu açmak için geçerli planlanmamış iş sayısını gösteren **Planlanmamış işler** düğmesine tıklayın. Alternatif olarak, Eylem Panosundaki **Pano** sekmesinde bulunan **Planlanmamış iş planlama**'yı tıklayın. İletişim kutusu iş hücresi için planlanmamış kanban işlerinin listesini gösterir. Izgaradaki tüm alanları filtrelemek için **Filtre** alanını kullanabilirsiniz. Örneğin, belirli bir ürün için kanban işlerini filtreleyebilirsiniz. Planlamak istediğiniz işlerin listesini filtreledikten sonra, bunları listeden seçin ve **Tamam**'ı tıklayın. İşleri planlamak için otomatik planlama kullanmak üzere **Otomatik planlama** seçeneğini **Evet** olarak ayarlayın. Bu durumda, işler vade tarihlerine göre bir dönem içinde planlanır. İşleri döneme göre de planlayabilirsiniz. **Dönem** alanında bir dönem seçmeniz yeterlidir. Aşağıdaki örnekte **Planlanmamış iş planlama** iletişim kutusu örneği gösterilmektedir. 
 
-![Planlanmamış işleri planla iletişim kutusu.](./media/plan-unplanned-jobs-1024x564.png)
+![Planlanmamış işleri planla iletişim kutusu](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>Aynı dönem içindeki kanban işleri serisi
 Dönem içindeki seçilen bir veya daha fazla işin serisini değiştirebilirsiniz. Bu özellik, dönem içindeki bazı işlere öncelik vermek istediğinizde yararlı olabilir. Alternatif olarak, yürütme işlemini en iyi duruma getirmek için aynı ürün özniteliklerine sahip işler için seri düzenlemek isteyebilirsiniz. Seriyi sürükle ve bırak işlemiyle veya Eylem Bölmesindeki **Pano** sekmesinde bulunan **Geri** ve **İleri** menü öğelerini kullanarak değiştirebilirsiniz. 
@@ -87,10 +90,8 @@ Kanban planlama panosunu aşağıdaki sayfalarda yer alan menü öğesini kullan
 -   **Üretim akışı görselleştirme** sayfası
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Yalın imalat için kanban iş planlama](lean-manufacturing-kanban-job-scheduling.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,35 +1,38 @@
 ---
 title: Yaşam olayı türlerini yapılandırma
-description: Microsoft Dynamics 365 Human Resources, çalışan kazançları kaydını güncelleştirmek için olayları tanımlamak üzere yaşam olayı türlerini kullanır.
-author: twheeloc
-ms.date: 08/24/2021
+description: Microsoft Dynamics 365 Human Resources, çalışan kazançları kaydını güncelleştirmek için geçerli olduğu olayları tanımlamak için ömür olayı türleri kullanır.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aab35d40af43caff7010998ddce51350584228a1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071593"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420924"
 ---
 # <a name="configure-life-event-types"></a>Yaşam olayı türlerini yapılandırma
 
+Microsoft Dynamics 365 Human Resources, personel kazançları kaydını güncelleştirmek için geçerli olduğu olayları tanımlamak için yaşam olayı türleri kullanır. Örneğin, evliliğe veya çocuğa sahip olun. Her ömür olayı tür kimliği yalnızca bir ömür olay türüyle ilişkilendirilebilir. Örneğin, çalışan adres değişikliği ömür olay türü ile ilişkilendirilmiş adres değişikliği adlı bir ömür olayı kodu oluşturursanız, çalışan adresi değişikliğini etiketlenmiş başka bir kimlik oluşturamazsınız ve bunu çalışan adı olay türü olan çalışanın adres değişikliğiyle ilişkilendirebilirsiniz. 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+Ömür olayı türleri oluşturduktan sonra, onları plan türleriyle ilişkilendirmeniz gerekir. Daha fazla bilgi için, bkz. [Plan türleri oluşturma](hr-benefits-setup-plan-types.md).
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Dynamics 365 Human Resources, personel yan haklar kaydını güncelleştirmek için geçerli olduğu olayları tanımlamak için **Yaşam olayı türleri** kullanır (örn. evlenme veya çocuk sahibi olma). Her ömür olayı tür kimliği yalnızca bir ömür olay türüyle ilişkilendirilebilir. Örneğin, **Personel adres değişikliği** yaşam olayı türü ile ilişkilendirilmiş **Adres değişikliği** adlı bir **Yaşam olayı kimliği** oluşturursanız **Personel adresi değişikliği** olarak etiketlenmiş başka bir kimlik oluşturamazsınız ve bunu **Personel adres değişikliği** adlı yaşam olayı türüyle ilişkilendiremezsiniz. Ömür olayı türü bir plan türüyle ilişkilendirilmemişse, ömür olayı türü bir ömür olayını tetiklemez. Daha fazla bilgi için, bkz. [Plan türleri oluşturma](hr-benefits-setup-plan-types.md).
+   > [!NOTE]
+   > Ömür olayı türleri oluşturduktan sonra, onları plan türleriyle ilişkilendirmeniz gerekir. Daha fazla bilgi için, bkz. [Plan türleri oluşturma](hr-benefits-setup-life-event-types.md).
 
 ## <a name="create-a-life-event-type"></a>Ömür olayı türü oluştur
 
@@ -49,7 +52,7 @@ Dynamics 365 Human Resources, personel yan haklar kaydını güncelleştirmek i�
 
 ## <a name="view-attached-plans"></a>İliştirilmiş planları görüntüle
 
-Seçilen **Yaşam olayı türü**'ne iliştirilmiş planların listesini görebilirsiniz. Ömür olayları bir plan türüne bağlıdır ve plan tipleri bir planla ilişkilendirilir.
+Seçilen ömür olay türüne iliştirilmiş planların listesini görebilirsiniz. Ömür olayları bir plan türüne bağlıdır ve plan tipleri bir planla ilişkilendirilir. 
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Kur** altında, **Yaşam olayı türleri**'nı seçin.
 
@@ -63,29 +66,25 @@ Seçilen **Yaşam olayı türü**'ne iliştirilmiş planların listesini görebi
 
 | Yaşam olayı | Konum | Tetik |
 | --- | --- | --- |
-| **Medeni durum değişikliği** | **Çalışan > profili > kişisel bilgiler > medeni durum**| Medeni durum değişikliği |
-| **İstihdam durumu değişikliği** |**Çalışan > İstihdam > İstihdam geçmişi sayfası** | Çalışma ayrıntısı zaten olan bir çalışan için farklı bir iş durumuyla yeni bir iş ayrıntısı oluşturulması bir ömür olayı tetikleyecektir.  Varolan bir iş ayrıntısını farklı bir iş durumuyla güncelleştirmek de bir ömür olayı tetikler.  |
-| **Personel adres değişikliği** |**Çalışan > profili > adresleri**</li><li>**Çalışan > kişisel bilgileri > Kişisel Kişiler > adresi**</li></ul> | Adreste değişiklik. Yaşam olayının tetiklenmesi için adresin **Birincil** olması gerekir. |
-| **Bakmakla yükümlü olunan kişi değişikliği** |<br><ul><li>**Çalışan > Profil > Kişisel bilgiler > Kişisel ilgili kişiler**/li><li>**Personel self servisi**</li></ul> | Kişisel irtibat ekleyerek bu irtibatı bağlı olarak belirleyin ve **Geçerlilik başlangıç tarihi**'ni belirleyin. Kişisel irtibatın bağlı kişisinin **Geçerlilik bitiş tarihi** bilgilerini güncelleştirin. Kişisel ilgili kişi ilişkisi çocuk, eşinin, yurtiçi partner veya eski eşinin olmalıdır.  |
-| **Doğum veya evlat edinme (bakmakla yükümlü olunan kişi)** |<br><ul><li>**Çalışan > Profil > kişisel bilgileri > Kişisel Kişiler**</li><li>**Personel self servis > Kişisel detayları düzenle > Kişisel irtibatlar**</li></ul>| **Doğum tarihi** veya **Evlat edinilme tarihi** eklendi veya güncelleştirildi. Çocuğun **Doğum tarihi** gereklidir. |
+| **Medeni durum değişikliği** | Çalışan > profili > kişisel bilgiler > medeni durum| Medeni durum değişikliği |
+| **İstihdam durumu değişikliği** | <ul><li>Çalışan > İstihdam</li><li>İstihdam geçmişi sayfası</li></ul> | İstihdam durum değişikliği |
+| **Personel adres değişikliği** | <ul><li>Çalışan > profili > adresleri </li><li>Çalışan > kişisel bilgileri > Kişisel Kişiler > adresi</li></ul> Eklenen, düzenlenen veya silinen adres |
+| **Bakmakla yükümlü olunan kişi değişikliği** | <ul><li>Çalışan > profil > Kişiler > Kişisel bilgileriyle > bir bağımlı ekleme veya silme</li><li>Personel self servisi</li></ul> | Bağımlı olarak eklendi veya silindi. Kişisel ilgili kişi ilişkisi çocuk, eşinin, yurtiçi partner veya eski eşinin olmalıdır. **Geçerli başlangıç** tarihinin güncelleştirilmesi ömür olayını tetikler. Bu tarihi güncelleştirmezseniz, hiçbir ömür olayı tetiklenemez. |
+| **Doğum veya evlat edinme (bakmakla yükümlü olunan kişi)** | <ul><li>Çalışan > profil > Kişiler > Kişisel bilgileriyle > bağımlı ayrıntıları</li><li>Personel self servisi</li></ul> | **Benimseme tarihi** alanı dolduruldu. Alt öğenin Doğum tarihi gereklidir. |
 | **Karşılama kaybı (eş / hayat arkadaşı)** | Çalışan > profil > Kişiler > Kişisel bilgileriyle > bağımlı ayrıntıları > Kapsam kaybı | Kişisel bir ilgili kişi için seçilen, **geçerlilik tarihiyle** birlikte seçili **kapsam kaybı** |
-| Hayat arkadaşı istihdam değişikliği | **Çalışan > Profil > Kişisel bilgiler > Kişisel irtibatlar > Bağlı ayrıntıları > Çalışıyor** | Kişisel irtibat oluşturma ve **Çalışıyor**'u **Evet** olarak ayarlama. Kişisel irtibatı güncelleştirme ve **Çalışıyor** durumunu değiştirme.  |
-| **İzin (Eş/hayat arkadaşı)** | **Çalışan > profil > Kişiler > Kişisel bilgileriyle > bağımlı ayrıntıları > Kapsam kaybı > Devamsızlık izni** | Kişisel irtibat oluşturuldu ve **İzin başlangıç tarihi** belirlendi. Kişisel irtibat **İzin** güncelleştirildi. Kişisel irtibat **İzin başlangıç tarihi** güncelleştirildi.  |
-| **Karşılama değişikliği (pozisyon)** |<br><ul><li>**Çalışan > konumu ataması > çalışan konumu atamaları**</li><li>**Pozisyonlar > pozisyonlar**</li></ul>| Çalışan pozisyondaki pozisyonda yer değiştirme atama kayıtları. Çalışan pozisyonda yer değiştirme atama kayıtları. |
-| **Karşılama değişikliği (maaş)** |<br><ul><li>**Çalışan > Ücret > Sabit planı**</li><li>**Çalışan > Kişisel bilgiler > Kazançlar yıllık ücret**</li></ul>| **Yan haklar yönetimi > Human Resources paylaşılan parametreleri > Yan haklar > Yan haklar yıllık ücret** etkinleştirilmemiş, **Çalışan > Ücret > Sabit plan** bir yaşam olayı oluşturacaktır. **Kazançlar yönetimi > İnsan kaynakları paylaşılan parametreleri > Kazançlar > Kazançlar yıllık ücret** etkinleştirilmiş, **Çalışan > Kişisel Bilgiler > Kazançlar yıllık ücret** bir yaşam olayı oluşturacaktır. |
-| **Medicare (Personel/bakmakla yükümlü olunan kişi)** | **Çalışan > profil > Kişiler > Kişisel bilgileriyle > bağımlı ayrıntıları > Kapsam kaybı > Medicare yürürlük tarihi** | Kişisel irtibat için **Medicare geçerlilik** tarihi eklenmesi veya güncelleştirilmesi bu ömür olayını oluşturur. |
-| **Mahkeme kararıyla destek** | **Çalışan > Profil > Kişisel bilgiler > Kişisel ilgili kişiler > Bağımlı > Mahkeme kararlı destek** (QMSCO/QDRO) ve geçerlilik tarihleri | Bir kişisel irtibat oluştururken, **Mahkeme kararlı destek** **Evet** olarak ayarlanırsa bir ömür olayı oluşturulur. **Mahkeme kararlı destek** veya **Mahkeme kararının bitiş tarihi**'nin güncelleştirilmesi de bir ömür olayı tetikler. |
-| **Ölüm** | **Çalışan > profili > kişisel bilgiler > Ölüm tarihi** | **Ölüm tarihi** girildi veya güncelleştirildi. |
-| **Sigorta kanıtı** | **Çalışan > çalışan > sürümleri > İş geçmişi > Tarih Yöneticisi > Kazanç ayrıntıları** | **Sigorta kanıtı** **Evet** olarak ayarlı. **Sigorta kanıtı doğrulama tarihi** tanımlandı. |
-| **Hak sahibi** | **Çalışan > Profil > kişisel bilgileri > Kişisel Kişiler** | Kişisel ilgili kişi eklenir ve **Lehtar** ve **Geçerlilik tarihi** alanları doldurulur. Kişisel irtibatın **Çocuk**, **Eş**, **Hayat arkadaşı**, **Kardeş**, **Aile Bireyi**, **Diğer** veya **Ebeveyn** türünden olması gerekir |
-| **Personel Medicare'i** | **Çalışan > çalışan > sürümleri > İş geçmişi > Tarih Yöneticisi > Kazanç ayrıntıları** | **Medicare uygunluğu** **Evet** olarak ayarlandı. **Medicare uygunluk tarihi** değiştirildi. |
-| **Doğum günü** | **Kazançlar yönetimi > Ömür olayı değişikliği işleme** | Bu ömür olayları, **Ömür olayı değişikliği işleme**'den oluşturulur. İşlem, seçilen dönemi ve tüzel kişiliği analiz eder ve ilişkili çalışanları bulur. Son doğum gününü hesaplar ve henüz oluşturulmuşsa bir doğum günü ömür olayı oluşturur. |
-| **Çalışan uygunluğu değişikliği (ABD'ye özgü değil)** |<br><ul><li>**Çalışan > İstihdam**</li><li>**Çalışan > çalışan > sürümleri > İş geçmişi**</li></ul>| Aşağıdaki durumlarda bir ömür olayı oluşturur:<br><ul><li>Eski bir iş varken yeni bir iş oluşturma ve çalışan türünün değişmesi.</li><li>Eski bir iş ayrıntısı varken yeni bir iş ayrıntısı oluşturma ve iş türü veya iş kategorisinin değişmesi.</li><li>İş kaydının güncelleştirilmesi ve farklı bir çalışan türünün belirlenmesi.</li><li>İş ayrıntısı kaydının güncelleştirilmesi ve farklı bir iş türü veya kategorisinin belirtilmesi.</li></ul> |
-| **Yeni uygunluk geçersiz kılma (ABD'ye özgü değil)** | **İnsan kaynakları Gelişmiş > kazançlar > planlar > kazançlar > uygunluk kuralı geçersiz kılma** | Yaşam olayı işlemeyi kullanma<br>Bir çalışan için yeni bir kazanç planı uygunluğu geçersiz kılma oluşturma, bu ömür olayını tetikler.<br>BenefitEligibilityRuleOverride.ValidFrom. |
-| **Uygunluk kuralı geçersiz kılmayı değiştirme (ABD'ye özgü değil)** | **İnsan kaynakları Gelişmiş > kazançlar > planlar > kazançlar > uygunluk kuralı geçersiz kılma** | Bir kazan planı uygunluk geçersiz kılmada **Geçerlilik başlangıç tarihi** veya **Geçerlilik bitiş tarihi**'nin güncelleştirilmesi bu ömür olayını tetikler. |
-| **Uygunluk kuralı geçersiz kılma son tarihi (ABD'ye özgü değil)** | Kazançlar yönetimi > Ömür olayı değişikliği işleme  | Bu ömür olayları, **Ömür olayı değişikliği işleme**'den oluşturulur. İşlem, seçilen dönemi ve tüzel kişiliği analiz eder ve ilişkili kazanç planı uygunluk geçersiz kılmaları bulur. Geçersiz kılmaların süresi dolmuşsa, ömür olayları oluşturur. |
-| **Yeni kazanç planı (ABD 'ye özel değil)** | **İnsan kaynakları Gelişmiş > Kazançlar > planlar > yeni** | Geçerli plana uygunluk seçenekleri eklenir. Uygunluk seçenekleri eklenmiş yeni bir plan eklendi.</br></br>IK personelin bu örnekte ömür olayı uygunluk işlemi çalıştırması gerekir. |
-| **Uygunluk kuralı değiştirme (ABD'ye özgü değil)** | **Kazançlar yönetimi > Uygunluk kuralları** | Yaşam olayı uygunluğunu işlemeyi kullanma **BenefitEligibilityRule** kayıtları aşağıdaki değerlere sahip olduğunda günlüğe kaydedilir: **UseEmplCategory**, **UseEmplStatus** veya **UseEmplType**. Yalnızca değiştirilmiş bir kural veya uygunluk ölçütü için zaten varolan ömür olayı hareketlerini güncelleştirir. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Hayat arkadaşı istihdam değişikliği | Çalışan > profil > Kişiler > Kişisel bilgileriyle > bağımlı ayrıntıları > İşe alındı. | <ul><li>Bağımlı Ayrıntılar kaydı oluşturuldu ve **özel ilgili kişi istihdam** kutusu = Evet</li><li>**Özel ilgili kişi istihdam** kutusu değiştirildi (Evet veya Hayır)</li></ul> |
+| **İzin (Eş/hayat arkadaşı)** | Çalışan > profil > Kişiler > Kişisel bilgileriyle > bağımlı ayrıntıları > Kapsam kaybı > Devamsızlık izni | <ul><li>Bağımlı Ayrıntılar kaydı oluşturuldu ve **EhrLOAEffectiveDate** doldurulmuş</li><li>**personPrivateDetails.EhrIsLOA** değiştirildi (Evet veya Hayır)</li><li>**personPrivateDetails.Ehrloaefekttivedate** değiştirildi</li></ul> |
+| **Karşılama değişikliği (pozisyon)** | <ul><li>Çalışan > konumu ataması > çalışan konumu atamaları</li><li>Pozisyonlar > pozisyonlar</li></ul> | <ul><li>Çalışan pozisyondaki pozisyonda yer değiştirme atama kayıtları</li><li>Çalışan pozisyonda yer değiştirme atama kayıtları</li></ul> |
+| **Medicare (Personel/bakmakla yükümlü olunan kişi)** | Çalışan > profil > Kişiler > Kişisel bilgileriyle > bağımlı ayrıntıları > Kapsam kaybı > Medicare yürürlük tarihi | Özel bir ilgili kişi geçerlilik tarihi girdiğinde otomatik olarak tetiklenmez. |
+| **Mahkeme kararıyla destek** | Çalışan > profili > kişisel bilgiler > özel kişiler > bağımlı > mahkemeler sipariş edilen destek (QMSCO/QDRO ve yürürlülük tarihleri | Hiçbir otomatik güncelleştirmeyi tetiklemez. Etkili olmaz; bir ömür olayı kaydeder. |
+| **Ölüm** | Çalışan > profili > kişisel bilgiler > Ölüm tarihi | Bir ölüm tarihi girildi |
+| **Sigorta kanıtı** | <ul><li>Çalışan > çalışan > sürümleri > İş geçmişi > Tarih Yöneticisi > Kazanç ayrıntıları</li><li> Çalışan > İstihdam > kazanç ayrıntıları > doğrulama tarihi</li></ul> | <ul><li>Bir çalışan bir doğrulama tarihine giriyor</li><li>Bir çalışan, beliret EvidenceOfInsurability alanını **Evet** olarak ayarlar</li></ul> |
+| **Lehtar** | Çalışan > Profil > kişisel bilgileri > Kişisel Kişiler | Bir kişisel ilgili kişi eklenir ve **lehdar** kutu ve **geçerlilik tarihi** doldurulur. Kişisel ilgili kişi **çocuk**, **eşinin**, **DomesticPartner**, **kardeş**, **FamilyContact**, **othercontact**, **Ebeveyn**, **BeneficiaryEstate**, **BeneficiaryOrg** veya **BeneficiaryTrust** olmalıdır. |
+| **Personel Medicare'i** | Çalışan > çalışan > sürümleri > İş geçmişi > Tarih Yöneticisi > Kazanç ayrıntıları | <ul><li>**EhrMedicareEligibilityDate** değiştirildi</li><li>**MedicareEligibile** **Evet** olarak ayarlanır</li></ul> |
+| **Doğum günü** | Çalışan > profil > Kişiler > Kişisel bilgileriyle > bağımlı ayrıntıları > Doğum tarihi | Doğum tarihi eklendi veya güncelleştirildi (ömür olayı değişikliği işleminden sonra değil). Örnek: bir çocuk için **Özel ilgili kişi uygunluğu seçenekleri** Kurulum > Kazançlar > Özel ilgili kişi uygunluğu seçeneklerinde Yaş: 26 olarak ayarlandıysa ve İK personeli, bağımlı kişi 26 olduktan sonra Yaşam olayı değişikliği işlemini çalıştırırsa bağımlı öğenin artık kapsama uygun olmadığını bildiren bir ileti görüntülenir. |
+| **Çalışan uygunluğu değişikliği (ABD'ye özgü değil)** | <ul><li>Çalışan > İstihdam</li><li>Çalışan > çalışan > sürümleri > İş geçmişi</li></ul> | <ul><li>Çalışan türü, İş kategorisi veya beş Kullanıcı tanımlı uygunluk alanları değişikliği</li><li>**HcmEmploymentDetail.EhrEmploymentType** değişiklikleri (yeniden işe alma ve işten çıkarma gibi *yeni* iş kayıtları için işlenmediği, yalnızca *değiştirilmiş* istihdam ayrıntısı kayıtları için işlenir)</li></ul> |
+| **Yeni uygunluk geçersiz kılma (ABD'ye özgü değil)** | İnsan kaynakları Gelişmiş > kazançlar > planlar > kazançlar > uygunluk kuralı geçersiz kılma | Yaşam olayı işlemeyi kullanma | EhrBenefitEligibilityRuleOverride.ValidFrom |
+| **Uygunluk kuralı geçersiz kılmayı değiştirme (ABD'ye özgü değil)** | İnsan kaynakları Gelişmiş > kazançlar > planlar > kazançlar > uygunluk kuralı geçersiz kılma | Yaşam olayı işlemeyi kullanma (yalnızca uygunluk kuralı geçersiz kılmada yapılan değişiklikleri **ValidFrom** ve **ValidTo** alanlarında yakalar) |
+| **Uygunluk kuralı geçersiz kılma son tarihi (ABD'ye özgü değil)** | İnsan kaynakları Gelişmiş > kazançlar > planlar > kazançlar > uygunluk kuralı geçersiz kılma | Yaşam olayı değişikliğini işlemeyi kullanma Örneğin, bir planın uygunluk kuralını geçersiz kılma sona erme tarihini bügün 17:00, 17:00'den sonraki herhangi bir zaman ve sonraki günler olarak düzenlerseniz ve sonra Yaşam olayı değişikliği işlemeyi çalıştırırsanız, uygunluk kuralı geçersiz kılmanın sona erdiğini bildiren bir ileti görüntülenir. |
+| **Yeni kazanç planı (ABD 'ye özel değil)** | İnsan kaynakları Gelişmiş > Kazançlar > planlar > yeni | <ul><li>Geçerli plana uygunluk seçenekleri eklenir</li><li>Uygunluk seçenekleri eklenmiş yeni bir plan eklendi</li></ul></br></br>IK personelin bu örnekte ömür olayı uygunluk işlemi çalıştırması gerekir. |
+| **Uygunluk kuralı değiştirme (ABD'ye özgü değil)** | İnsan kaynakları Gelişmiş > kazançlar > Kurallar/seçenekler > uygunluk kuralları | Yaşam olayı uygunluğunu işlemeyi kullanma **EhrBenefitEligibilityRule** kayıtları aşağıdaki değerlere sahip olduğunda günlüğe kaydedilir: **UseEmplCategory**, **UseEmplStatus** veya **UseEmplType**. Yalnızca değiştirilmiş bir kural veya uygunluk ölçütü için zaten varolan ömür olayı hareketlerini güncelleştirir. |

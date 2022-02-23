@@ -2,27 +2,28 @@
 title: Sevkiyat konsolidasyonu ilkeleri
 description: Bu konu, sevkiyat konsolidasyon ilkelerinin esnek yapılandırmasını sağlayan işlevlere genel bir bakış sağlar.
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577972"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654232"
 ---
 # <a name="shipment-consolidation-policies"></a>Sevkiyat konsolidasyonu ilkeleri
-
-[!include [banner](../includes/banner.md)]
 
 Otomatik ve el ile gerçekleştirilen ambara serbest bırakma sırasında, sevkiyat konsolidasyon ilkelerini kullanan sevkiyat konsolidasyon süreci otomatik sevkiyat konsolidasyon işlemine olanak sağlar. Bu özelliğin öncesinde kullanılan otomatik konsolidasyon, sabit kodlanmış alanlar içeriyordu ve bir ambar için ayarlanmış olan **Ambara serbest bırakmada sevkiyatı konsolide et** alanına dayanıyordu.
 
@@ -134,6 +135,3 @@ Aşağıdaki tablo, sevkiyat konsolidasyonu ilkelerini kullanmadığınız sıra
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Sevkiyat konsolidasyon ilkelerini yapılandırma](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

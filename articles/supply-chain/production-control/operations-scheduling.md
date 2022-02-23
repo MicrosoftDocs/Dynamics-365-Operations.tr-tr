@@ -1,10 +1,12 @@
 ---
 title: Operasyon planlama çizelgeleme
 description: Bu konu operasyon planlaması hakkındaki bilgileri sağlar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574581"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966417"
 ---
 # <a name="operations-scheduling"></a>Operasyon planlama çizelgeleme
 
@@ -74,12 +76,10 @@ Operasyon planlamasını çalıştırdığınızda, rotanın belirli kısımlar�
 ## <a name="finite-materials"></a>Sonlu malzemeler
 Sınırlı malzemeyle çalışıyorsanız planlama üretim için gerekli olan malzemelerin kullanılabilirliğine de bağlıdır. Üretim için yeterli kullanılabilir bileşen yoksa üretim ertelenebilir. Planlamada üretim için kullanılabilir olması gereken malzemeleri belirterek malzeme kullanımını temel alabilirsiniz. Kaynak kapasitesini ve malzemelerin kullanılabilirliğini en iyi duruma getirdiğinizde, üretim bu sınırlamalara göre hesaplanır. Üretim emri, kapasite ve malzemeler aynı anda ve gerekli miktarlarda kullanılabilir olduğu anda başlatılacak şekilde planlanabilir.
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [İşlem planlama seçenekleri](operation-scheduling-options.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

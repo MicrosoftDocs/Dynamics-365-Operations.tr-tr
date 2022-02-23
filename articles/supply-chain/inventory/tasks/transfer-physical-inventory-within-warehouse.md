@@ -1,25 +1,28 @@
 ---
 title: Ambar içindeki fiziksel stoğu transfer etme
 description: Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşınması kaydı için bir stok transfer günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar.
-author: yufeihuang
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf5a3711cfcd6e5a2ddce09af8569ea26c3502c8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580804"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439551"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Ambar içindeki fiziksel stoğu transfer etme
 
@@ -32,10 +35,10 @@ Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşı
 1. **Gezinti bölmesinde**, **Stok yönetimi > Maddelerin girdileri> Maddeler > Aktarma** üzerine gidin.
 2. **Yeni**'ye tıklayın.
 3. **Ad** alanına bir değer girin veya buradan bir değer seçin.
-4. **Tamam**'a tıklayın. Her bir yevmiye defteri satırının 'Başlangıç' ve 'Bitiş' boyutlarını belirtmek için seçenek vardır. Bu günlük türü için bunlar önemlidir. Ürünleri yerleşimlere farklı kurallar kullanarak transfer edebilirsiniz. Bu örnekte, aynı ambar içindeki bir ürün bir plaka denetimli olan bir yerleşimden plaka denetimli olmayan bir yerleşime transfer ediliyor.   
+4. **Tamam**'a tıklayın. Her bir günlük satırının 'Başlangıç' ve 'Bitiş' boyutlarını belirtmek için seçenek vardır. Bu günlük türü için bunlar önemlidir. Ürünleri yerleşimlere farklı kurallar kullanarak transfer edebilirsiniz. Bu örnekte, aynı ambar içindeki bir ürün bir plaka denetimli olan bir yerleşimden plaka denetimli olmayan bir yerleşime transfer ediliyor.   
 
-## <a name="create-journal-lines"></a>Yevmiye defteri satırları oluştur
-1. **Yevmiye defteri satırları hızlı sekmesi** içinde **Yeni** üzerine tıklayın.
+## <a name="create-journal-lines"></a>Günlük satırları oluştur
+1. **Günlük satırları hızlı sekmesi** içinde **Yeni** üzerine tıklayın.
 2. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin. USMF kullanıyorsanız, 'A0001' öğesini seçebilirsiniz.  
 3. **Kaynak tesis** alanında bir değer girin veya bir değer seçin. USMF kullanıyorsanız, '2' öğesini seçebilirsiniz.  
 4. **Hedef tesis** alanında bir değer girin veya bir değer seçin. USMF kullanıyorsanız, '2' öğesini seçebilirsiniz.  
@@ -56,6 +59,3 @@ Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşı
 1. **Stok**'u tıklatın.
 2. **Hareketler**'i tıklatın. Burada, günlüğünüzü deftere naklettiğinizde oluşturulan hareketleri görebilirsiniz.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

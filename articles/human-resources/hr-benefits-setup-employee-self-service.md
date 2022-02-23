@@ -1,35 +1,33 @@
 ---
-title: Employee Self-Service'i yapılandırma
+title: Personel self servisini yapılandırma
 description: Microsoft Dynamics 365 Human Resources'ta, kutucukları çalışan self serviste üst düzey gezinti için yapılandırabilirsiniz.
-author: twheeloc
-ms.date: 12/06/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83718856a864123d7941b21c078bcdb96a62cca8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067591"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420988"
 ---
 # <a name="configure-employee-self-service"></a>Personel self servisini yapılandırma
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Microsoft Dynamics 365 Human Resources uygulamasında, **Personel self servisi**'nde üst düzey gezinme için kutucukları yapılandırabilirsiniz. Kazanç planı kutucukları kullanıcıları uygun oldukları kazanç planlarına yönlendirir.
+Microsoft Dynamics 365 Human Resources'ta, kutucukları çalışan self serviste üst düzey gezinti için yapılandırabilirsiniz. Kazanç planı kutucukları kullanıcıları uygun oldukları kazanç planlarına yönlendirir.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Kazanç planları kutucuğu ayarlama
 
@@ -37,16 +35,19 @@ Microsoft Dynamics 365 Human Resources uygulamasında, **Personel self servisi**
 
 2. **Kazanç planları kutucuk kurulumu** sekmesini seçin ve sonra **yeni**'yi seçin.
 
-3. Aşağıdaki alanların değerleri belirtin.
+3. Aşağıdaki alanların değerleri belirtin:
 
    | Alan | Tanım |
    | --- | --- |
-   | **Plan türü kodu** | Bu kutucuk **Yan haklar self servisi**'nde seçildiğinde görüntülenen plan türü. |
    | **Kutucuk kodu** | Kutucuk için benzersiz tanımlayıcı. |
-   | **Kutucuk etiketi metni** | **Yan haklar self servisinde** kutucuk için görüntülenecek metin. |
+   | **Kutucuk etiketi metni** | Self serviste kutucuk için görüntülenecek metin |
    | **Tanım** | Kutucuğun bir açıklaması. |
+   | **Internet adresi** | Çalışan Self Servis sayfasının URL'sini girin. |
+   | **Kutucuk boyutu** | Döşemenin boyutu: küçük, orta veya büyük. |
+   | **Hedef** | Sayfanın yeni bir pencerede mi yoksa geçerli pencerede mi açılacağını belirtir. |
    | **Kutucuk arka plan görüntüsü** | Kutucuk için kullanılacak görüntünün URL'si (isteğe bağlı). |
-   | **Açık kaydı izleme** | Bu plan türü için açık kayıt ilerlemesini izlemek üzere bu seçeneği belirleyin. Örneğin, **Plan türü = Diğer** şeklinde oluşturulmuş planlar olabilir. Bunlar, kayıt ilerleme durumunu izlemek istemediğiniz isteğe bağlı planlar olabilir. Bu plan türünü seçmezseniz **Açık kayıt** sekmesinde kayıt ilerleme durumu veya kayıt tamamlaması izlendiğinde bu tür bir plan yoksayılır. Bu ayar, tüm dönemler ve tüzel kişilikler için seçilen plan türü için geçerlidir. |
+   | **Başlangıç** | Döşemenin başlangıç tarihi ve saati kullanılabilir olmalıdır. |
+   | **End** | Döşemenin bitiş tarihi ve saati kullanılabilir olmalıdır. |
 
 4. **Kaydet**'i seçin.
 
@@ -56,18 +57,18 @@ Microsoft Dynamics 365 Human Resources uygulamasında, **Personel self servisi**
 
 2. **Esnek kredi planı kutucuk kurulumu** sekmesini seçin ve sonra **yeni**'yi seçin.
 
-3. Aşağıdaki alanların değerleri belirtin.
+3. Aşağıdaki alanların değerleri belirtin:
 
    | Alan | Tanım |
    | --- | --- |
-   | **Kazanç kredisi kodu** | Bu kutucuk **Yan haklar self servisi**'nde seçildiğinde görüntülenecek esnek kredi programı planları. |
    | **Kutucuk kodu** | Kutucuk için benzersiz tanımlayıcı. |
-   | **Kutucuk etiketi metni** | **Yan haklar self servisinde** kutucuk için görüntülenecek metin. |
-   | **Tanım** | Kutucuğun bir açıklaması. |
+   | **Kutucuk etiketi metni** | Self serviste kutucuk için görüntülenecek metin. |
+   | **Açıklama** | Kutucuğun bir açıklaması. |
+   | **Internet adresi** | Çalışan Self Servis sayfasının URL'sini girin. |
+   | **Kutucuk boyutu** | Döşemenin boyutu: küçük, orta veya büyük. |
+   | **Hedef** | Sayfanın yeni bir pencerede mi yoksa geçerli pencerede mi açılacağını belirtir. |
    | **Kutucuk arka plan görüntüsü** | Kutucuk için kullanılacak görüntünün URL'si (isteğe bağlı). |
-   | **Açık kaydı izleme** | Bu plan türü için açık kayıt ilerlemesini izlemek üzere bu seçeneği belirleyin. Örneğin, **Plan türü = Diğer** şeklinde oluşturulmuş planlar olabilir. Bunlar, kayıt ilerleme durumunu izlemek istemediğiniz isteğe bağlı planlar olabilir. Bu plan türünü seçmezseniz **Açık kayıt** sekmesinde kayıt ilerleme durumu veya kayıt tamamlaması izlendiğinde bu tür bir plan yoksayılır. Bu ayar, tüm dönemler ve tüzel kişilikler için seçilen plan türü için geçerlidir. |
+   | **Başlangıç** | Döşemenin başlangıç tarihi ve saati kullanılabilir olmalıdır. |
+   | **End** | Döşemenin bitiş tarihi ve saati kullanılabilir olmalıdır. |
 
 4. **Kaydet**'i seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

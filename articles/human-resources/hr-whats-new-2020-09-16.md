@@ -2,12 +2,15 @@
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (16 Eylül 2020)
 description: Bu konuda, 16 Eylül 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
 author: jcart1106
+manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -15,24 +18,22 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cd3424db6bf918b4041f6d12e5d840bc3a8dfef7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a3bb6b809560688a7849b60c15a01fd89038e843
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061585"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527446"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (16 Eylül 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.3557 uygulanır. Bazı özelliklerin yanında bulunan parantez içindeki numaralar Lifecycle Services (LCS) destek numaralarına referans verir.
 
 ## <a name="included-in-this-release"></a>Bu sürümdeki içerik
 
--  [Kayıtlı görünümler - genel kullanılabilirlik](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- Daha fazla bilgi için, bkz. [Kayıtlı görünümler](../fin-ops-core/fin-ops/get-started/saved-views.md). 
+-  [Kayıtlı görünümler - genel kullanılabilirlik](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- Daha fazla bilgi için, bkz. [Kayıtlı görünümler](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/saved-views). 
 
 - **Pozisyon eylemleri** formunda güncelleştirilmiş bir boyut kılavuzu ve yeni iletişim kutusu (469495) vardır.
 
@@ -75,21 +76,21 @@ Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler aç
 
 Çalışanlar, Microsoft Teams içinde işten geçen zamanı görüntüleyebilir ve talep edebilir . İzin istekleri oluşturmak için bir bot ile etkileşime girebilirler. Daha fazla bilgi için bkz:
 
-- Dynamics 365 2020 sürümü 1. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
-- Human Resources belgelerinde [Teams içinde Human Resources uygulaması](./hr-admin-teams-leave-app.md)
+- Dynamics 365 2020 sürümü 1. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
+- Human Resources belgelerinde [Teams içinde Human Resources uygulaması](https://go.microsoft.com/fwlink/?linkid=2127841)
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>Teams'de Human Resources uygulaması önizleme özellikleri
  
 -  **Bildirimler**: Teams'deki Human Resources uygulamasında izin isteklerini gönderen ve onaylayan kişiler bildirim alacak. Onaylayanlar, izin isteklerini onaylayabilir veya reddedebilir. Göndericiler, istek onaylandıysa veya reddedilmişse bilgilendirilir. Daha fazla bilgi için bkz:
-   - Dynamics 365 2020 sürümü 2. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams)
-   - Human Resources belgelerinde [Teams içinde Human Resources uygulamasına ait bildirimleri etkinleştirme](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams)
-   - Human Resources belgelerinde [Tek tek kullanıcılar için Teams bildirimlerini açma veya kapatma](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users)
-   - Human Resources belgelerinde [Teams Bildirimleri](./hr-teams-leave-app.md#respond-to-teams-notifications)
-   - Human Resources belgelerinde [Takımınızın takvimini görüntüleme](./hr-teams-leave-app.md#view-your-teams-leave-calendar)
+   - Dynamics 365 2020 sürümü 2. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams)
+   - Human Resources belgelerinde [Teams içinde Human Resources uygulamasına ait bildirimleri etkinleştirme](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams)
+   - Human Resources belgelerinde [Tek tek kullanıcılar için Teams bildirimlerini açma veya kapatma](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users)
+   - Human Resources belgelerinde [Teams Bildirimleri](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications)
+   - Human Resources belgelerinde [Takımınızın takvimini görüntüleme](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar)
  
 - **Yönetici izin takvimi**: Yöneticiler, doğrudan onlara bağlı çalışanlar için onaylanan ve bekleyen izinleri takvim görünümünde görebilir. Bu görünüm, takım üyelerinin izinde olduğu tarihlerin daha kolay anlaşılmasını sağlar. Daha fazla bilgi için bkz:
-   - Dynamics 365 2020 sürümü 2. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams)
-   - Human Resources belgelerinde [Takımınızın takvimini görüntüleme](./hr-teams-leave-app.md#view-your-teams-leave-calendar)
+   - Dynamics 365 2020 sürümü 2. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams)
+   - Human Resources belgelerinde [Takımınızın takvimini görüntüleme](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar)
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>Bana atanan iş öğeleri listesini konumlandırmak için yapılandırma seçeneği (477004)
 
@@ -97,21 +98,21 @@ Panonun sağ sütunundaki **Bana atanan çalışma öğeleri** listesini konumla
 
 Bu özellik ayrıca, personel eylemleri formlarında görünen iş akışı seçeneklerini de yükseltir. Ayrıca, hızlı erişim için eylem hızlı sekmesinin üstünde iş akışı seçenekleri de görüntülenir. Daha fazla bilgi için bkz: 
 
-- Dynamics 365 2020 sürüm dalga 2 planında [Kuruluş ve personel yönetimi iş akışı deneyimi iyileştirmeleri](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements)
+- Dynamics 365 2020 sürüm dalga 2 planında [Kuruluş ve personel yönetimi iş akışı deneyimi iyileştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements)
 
-![Bana atanan iş öğeleri.](./media/hr-workflow-work-items-assigned-to-me.png)
+![Bana atanan iş öğeleri](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![İş akışı öğelerine hızlı erişim.](./media/hr-workflow-quick-access.png)
+![İş akışı öğelerine hızlı erişim](./media/hr-workflow-quick-access.png)
 
 ### <a name="leave-and-absence-calendar"></a>İzin ve devamsızlık takvimi
 
-Bu sürüm, izin ve devamsızlık takvimleri için ek takvim seçenekleri içerir. Daha fazla bilgi için bkz. [Ekip ve şirket takvimlerini görüntüleyin](./hr-employee-self-service-calendar.md).
+Bu sürüm, izin ve devamsızlık takvimleri için ek takvim seçenekleri içerir. Daha fazla bilgi için bkz. [Ekip ve şirket takvimlerini görüntüleyin](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-calendar).
 
 ## <a name="coming-soon"></a>Çok Yakında
 
-### <a name="checklist-entities-included-in-dataverse"></a>Dataverse'te bulunan denetim listesi varlıkları
+### <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'te bulunan denetim listesi varlıkları
 
-Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Dataverse'te kullanılabilir olacaktır.
+Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Common Data Service'te kullanılabilir olacaktır.
 
 ### <a name="benefits-management-reason-codes"></a>Yan haklar yönetimi neden kodları
 
@@ -120,9 +121,6 @@ Yan haklar yönetimi neden kodları Human Resources içinde var olan neden kodla
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'daki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,32 +1,31 @@
 ---
 title: İzin ve devamsızlığa genel bakış
-description: Dynamics 365 Human Resources'ta İzin ve devamsızlık çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve sunar.
-author: twheeloc
-ms.date: 10/28/2021
-ms.topic: overview
+description: Dynamics 365 Human Resources'ta İzin ve devamsızlık çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve sunar. Ayrıca, istekleri yönetmek için iş akışları ve personelin izin istemesi için sezgisel bir self servis sayfası sunar.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/01/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069033"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420994"
 ---
 # <a name="leave-and-absence-overview"></a>İzin ve devamsızlığa genel bakış
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlamanıza yardımcı olur. **İzin ve devamsızlık** çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve sunar. Ayrıca, istekleri yönetmek için iş akışları ve personelin izin istemesi için sezgisel bir self servis sayfası sunar. Analitik yardım kuruluşunuz, izin planlarınızın bakiyelerini ve kullanımını ölçmenize ve izlemesine yardımcı olur.
 
@@ -35,9 +34,8 @@ Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlama
 Çalışanlarınız için izin planları oluşturabilmeniz için, önce birkaç Kurulum adımı yapmanız gerekir:
 
 - [Bırakma ve devamsızlık parametrelerini konfigüre et](hr-leave-and-absence-parameters.md)
-- [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md)
-- [İzin isteği iş akışı oluşturma](hr-leave-and-absence-workflow.md)
-- [Devamsızlık yöneticisi rolünü yapılandırma](hr-configure-absence-manager.md)
+- [Çalışma süresi takvimleri oluşturma](hr-leave-and-absence-working-time-calendar.md)
+- [Bir izin isteğini iş akışı oluşturma](hr-leave-and-absence-workflow.md)
 
 ## <a name="create-and-manage-leave-plans"></a>İzin planları oluşturmak ve yönetmek
 
@@ -53,10 +51,6 @@ Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlama
 
 Çalışanlarınız talep dışı bırakma saatleri gönderebilir ve bunları, **çalışan self servis** çalışma alanında yönetebilirsiniz.
 
-- [İzin iste](hr-employee-self-service-request-time-off.md)
-- [İzin ve devamsızlık isteklerini yönetme](hr-employee-self-service-manage-requests.md)
-- [Devamsızlık yöneticisi rolünü yapılandırma](hr-configure-absence-manager.md)
+[İzin isteme](hr-employee-self-service-request-time-off.md)
+[İzin ve devamsızlık isteklerini yönetme](hr-employee-self-service-manage-requests.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

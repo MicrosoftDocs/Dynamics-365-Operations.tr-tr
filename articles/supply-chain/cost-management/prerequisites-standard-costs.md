@@ -2,25 +2,28 @@
 title: Standart maliyetler için ön koşullara genel bakış
 description: Bu konu, standart maliyetleri kullanmak için temel adımları açıklar.
 author: AndersGirke
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c25f2109522c7ba549ef7c3ea429873d0e1f06e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9333bda96ceae378ab74892534db13761038a06c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986340"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967370"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Standart maliyetler için ön koşullara genel bakış
 
@@ -65,7 +68,8 @@ Standart maliyetler için bir veya daha fazla maliyetlendirme sürümü oluştur
 Varolan maddelerini standart bir maliyet stok modeline değiştirmek isteyen müşterilerin **Standart maliyet dönüştürmeleri** sayfasını kullanması gerekir.
 
 
-## <a name="related-topics"></a>İlgili konular
+<a name="related-topics"></a>İlgili konular
+--------
 
 [Standart maliyet dönüştürmeye genel bakış](standard-cost-conversion-overview.md)
 
@@ -75,6 +79,3 @@ Varolan maddelerini standart bir maliyet stok modeline değiştirmek isteyen mü
 
 - [Dynamics 365 for Finance and Operations içindeki doğrudan malzemeler için standart maliyetleri ayarlamak](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
 - [Dynamics 365 for Finance and Operations içinde standart işgücü maliyetleri](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme
 description: Bu konu, ürün ve ambar yönetimi geçiş seçenekleri hakkında bilgi sağlar.
 author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45d9809d4bbf1b5a68c3f799ce5d51f9709d276b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775447"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970293"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme 
 
@@ -66,7 +68,7 @@ Yükseltme sırasında engellenen ürünlerin engelini kaldırmak üzere ürünl
 1.  En az bir yeni konum profili oluşturun.
 2.  **Ambar yönetimi** &gt; **Kurulum** &gt; **Ambar yönetimi işlemlerini etkinleştir** &gt; **Ambar kurulumunu etkinleştir**'i tıklayın.
 3.  **Ambar kurulumunu etkinleştir** sayfasında, etkinleştirilmesi gereken ambarları ekleyin. Bu adımı doğrudan sayfadan veya Microsoft Office tümleştirme kullanarak gerçekleştirebilirsiniz.
-4.  Tüm yerleşimlere yerleşim profili atayın. Bu adımı kolaylıkla Microsoft Office tümleştirmeyi doğrudan sayfadan kullanarak gerçekleştirebilirsiniz. Verileri dışa veya içe aktarabilir veya [Veri yönetimi](../../fin-ops-core/dev-itpro/data-entities/data-entities.md) içindeki veri varlığı işlemeyi kullanabilirsiniz.
+4.  Tüm yerleşimlere yerleşim profili atayın. Bu adımı kolaylıkla Microsoft Office tümleştirmeyi doğrudan sayfadan kullanarak gerçekleştirebilirsiniz. Verileri dışa veya içe aktarabilir veya [Veri yönetimi](../../dev-itpro/data-entities/data-entities.md) içindeki veri varlığı işlemeyi kullanabilirsiniz.
 5.  Değişiklikleri doğrulayın. Doğrulama işleminin bir parçası olarak çeşitli veri bütünlüğünü doğrulamaları oluşur. Daha büyük bir yükseltme işleminin bir parçası olarak, oluşan sorunların kaynak uygulamasında düzeltilmesi gerekebilir. Bu durumda, ek veri yükseltme gerekir.
 6.  Değişiklikleri işleyin.
 
@@ -77,9 +79,6 @@ Yükseltme sırasında engellenen ürünlerin engelini kaldırmak üzere ürünl
 3.  **Rezervasyon hiyerarşisi** sayfasında, maddenin depolama ve izleme boyut gruplarına göre yeni bir ayırma hiyerarşisi tanımlayın.
 4.  En azından maddenin stok birimleri için kullanılanlarla aynı birimleri içeren bir veya daha fazla birim sırası grupları oluşturun.
 5.  **Ambar yönetimi** &gt; **Kurulum** &gt; **Ambar yönetimi işlemlerini etkinleştir** &gt; **Maddeler için depolama boyutu grubunu değiştir**'i tıklayın.
-6.  **Maddeler için depolama boyutu grubunu değiştir** sayfasında madde numaraları, depolama boyut grupları ve birim sıra grupları ekleyin. Bu adımı Microsoft Officetümleştirmesi kullanarak doğrudan sayfa üzerinde veya [Veri yönetimi](../../fin-ops-core/dev-itpro/data-entities/data-entities.md) içindeki veri varlığı işlemini kullanarak tamamlayabilirsiniz.
+6.  **Maddeler için depolama boyutu grubunu değiştir** sayfasında madde numaraları, depolama boyut grupları ve birim sıra grupları ekleyin. Bu adımı Microsoft Officetümleştirmesi kullanarak doğrudan sayfa üzerinde veya [Veri yönetimi](../../dev-itpro/data-entities/data-entities.md) içindeki veri varlığı işlemini kullanarak tamamlayabilirsiniz.
 7.  Değişiklikleri doğrulayın. Doğrulama işleminin bir parçası olarak çeşitli veri bütünlüğünü doğrulamaları oluşur. Daha büyük bir yükseltme işleminin bir parçası olarak, oluşan sorunların kaynak uygulamasında düzeltilmesi gerekebilir. Bu durumda, ek veri yükseltme gerekir.
 8.  Değişiklikleri işleyin. Stok boyutlarının güncelleştirilmesi biraz zaman alabilir. İlerlemeyi toplu iş görevlerini kullanarak izleyebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

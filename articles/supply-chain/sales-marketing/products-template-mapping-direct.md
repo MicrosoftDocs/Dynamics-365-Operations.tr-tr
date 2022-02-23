@@ -1,36 +1,39 @@
 ---
 title: Supply Chain Management'taki ürünleri doğrudan Sales'daki ürünlerle eşitleme
 description: Bu konuda, ürünleri Dynamics 365 Sales'dan Dynamics 365 Supply Chain Management'a eşitlemek için kullanılan şablon ve temel görevler ele alınmaktadır.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 6ffd55585ff43f993876de6c669eb61e74a9fd79
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062475"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527326"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Supply Chain Management'taki ürünleri doğrudan Sales'daki ürünlerle eşitleme
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Aday'dan nakde çözümünü kullanmadan önce [Microsoft Dataverse for Apps için veri tümleştirme](/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
+> Aday'dan nakde çözümünü kullanmadan önce [Common Data Service for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
 Bu konuda, ürünleri doğrudan Dynamics 365 Sales'dan Dynamics 365 Supply Chain Management'a eşitlemek için kullanılan şablon ve temel görevler ele alınmaktadır.
 
@@ -38,7 +41,7 @@ Bu konuda, ürünleri doğrudan Dynamics 365 Sales'dan Dynamics 365 Supply Chain
 
 Aday müşteriden nakde çözümü Supply Chain Management ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri Tümleştirme özelliği içindeki Aday müşteriden nakde şablonları, hesaplar, ilgili kişiler, ürünler ve satış teklifleri, satış siparişleri ve satış faturalarının Supply Chain Management ve Sales arasında veri akışını etkinleştirir. Supply Chain Management ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
 
-[![Aday müşteriden nakde çözümünde veri akışı.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Aday müşteriden nakde çözümünde veri akışı](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
@@ -104,7 +107,7 @@ Aşağıdaki görsel, veri tümleştirmede bir şablon eşleme örneğini göste
 > [!NOTE]
 > Eşleme hangi alan bilgilerinin Sales'den Supply Chain Management'a eşitleneceğini gösterir.
 
-![Veri tümleştirici içerisindeki şablon eşleme.](./media/products-direct-template-mapping-data-integrator-1.png)
+![Veri entegratörü içerisindeki şablon eşleme](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
 ## <a name="related-topics"></a>İlgili konular
@@ -121,6 +124,3 @@ Aşağıdaki görsel, veri tümleştirmede bir şablon eşleme örneğini göste
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

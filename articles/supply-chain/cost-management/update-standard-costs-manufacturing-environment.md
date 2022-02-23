@@ -2,13 +2,16 @@
 title: Bir üretim ortamındaki standart maliyetleri güncelleştirme
 description: Bu makale, bir üretim ortamındaki standart maliyetleri güncelleştirme konusunda rehberlik sağlar.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 79663
 ms.assetid: 3a7c3d13-8dbc-442d-a281-ac0ebe99ec83
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0c8cae65ef95e299f9b774c4fa18dbdc615dd169138835f1852ee21a54cba69
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea810daab0ecdee59aba703f38d0001e2965f936
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735267"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439039"
 ---
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Bir üretim ortamındaki standart maliyetleri güncelleştirme
 
@@ -45,6 +48,3 @@ Her durumda, standart maliyetlerin nasıl güncelleştirileceği dikkatle ele al
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

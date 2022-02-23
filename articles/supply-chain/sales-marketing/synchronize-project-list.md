@@ -1,27 +1,30 @@
 ---
 title: Proje listesini Supply Chain Management'tan Field Service'e eşitleme
 description: Bu konu projeleri Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b825e2fce61e96b963ba0d41f8db49ca9ba646f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d80fce409ee92973a6134d96ce839b9722980918
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571605"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438966"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>Proje listesini Supply Chain Management'tan Field Service'e eşitleme
 
@@ -29,7 +32,7 @@ ms.locfileid: "7571605"
 
 Bu konu projeleri Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
-[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/FSProjectOW.png)](./media/FSProjectOW.png)
+[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 Aşağıdaki şablon ve temel görevler, projelerin Supply Chain Management'tan Field Service'e eşitlemesini çalıştırmak için kullanılır.
@@ -63,7 +66,4 @@ Veri varlığı projeleri için izlemeyi etkinleştir
 
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projeler (Supply Chain Management'tan Field Service'e): Projeler
 
-[![Veri tümleştirmede şablon eşleme.](./media/FSProject1.png)](./media/FSProject1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Veri tümleştirmede şablon eşleme](./media/FSProject1.png)](./media/FSProject1.png)

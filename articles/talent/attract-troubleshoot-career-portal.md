@@ -72,5 +72,3 @@ Talent Relationship Ekibine Talent kullanıcı atayın.
 
    1. Yeni bir tarayıcı penceresinden kariyer portalı 'nda oturum açın.
    2. Kariyer portalından iş için geçerlidir. 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

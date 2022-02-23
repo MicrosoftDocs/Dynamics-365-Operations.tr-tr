@@ -2,9 +2,11 @@
 title: Uygulama gelen kutusu kayıtlarını onaylama
 description: Bu yordam personel self servis sayfalarından alınan başvuruların nasıl inceleneceğini gösterir.
 author: andreabichsel
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplicationBasket, HRMApplicationBasketApprove, HRMApplication
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 476e9bf8de408a58edaaf2c488970a1631f4c47610eaa22a136e38c029d2fe0b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c980ca44028c4257078e5493e69499db87ffa30d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736182"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798031"
 ---
 # <a name="approve-application-inbox-records"></a>Uygulama gelen kutusu kayıtlarını onaylama
 
@@ -46,6 +48,3 @@ Bu yordam personel self servis sayfalarından alınan başvuruların nasıl ince
 2. Listede, seçili satırdaki bağlantıya tıklayın.
 3. Ekler bölümünü genişletin.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

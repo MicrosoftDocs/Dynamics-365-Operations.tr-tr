@@ -1,14 +1,17 @@
 ---
-title: Planlı siparişleri görüntüleme, yönetme ve onaylama
-description: Bu konu, planlama optimizasyonunda planlı siparişlerin nasıl görüntüleneceği, yönetileceği ve onaylanacağı hakkında bilgi sağlar.
+title: Planlı siparişleri onayla
+description: Bu konu, planlama optimizasyonu sırasında desteklenen planlı siparişlerin onayını açıklar.
 author: ChristianRytt
-ms.date: 04/07/2021
+manager: tfehr
+ms.date: 08/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,62 +19,27 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2d7daac5a33c77e1b49f689061a8dbcf17c3a1d3501461cf3abc0e9cac5121ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713674"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439271"
 ---
-# <a name="view-manage-and-approve-planned-orders"></a>Planlı siparişleri görüntüleme, yönetme ve onaylama
+# <a name="approve-planned-orders"></a>Planlı siparişleri onayla
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, planlama optimizasyonunda planlı siparişlerin nasıl görüntüleneceği, yönetileceği ve onaylanacağı hakkında bilgi sağlar.
+Bu konu, planlama optimizasyonunda planlı siparişlerin durumunun nasıl güncelleştirileceği hakkında bilgi sağlar.
 
-## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>Planlı siparişleri görüntüleme ve yönetme
+Planlı siparişlerden kesinleştirilmiş sipariş oluşturmak üzere planlı siparişler onayının isteğe bağlı adımı olduğunu unutmayın. Değiştirilmiş Planlı siparişlerin onaylanması önerilir, aksi durumda sonraki planlama çalışması sırasında düzenlemeler yok sayılır ve üzerine yazılır.
 
-Planlı siparişleri, planlı siparişler listesi sayfasında görüntüleyebilir ve yönetebilirsiniz. Çalışmak istediğiniz planlı siparişlerin türüne bağlı olarak aşağıdaki konumlardan birine gidin:
+![Planlı sipariş akışı](media/approved-planned-orders-1.png)
 
-- Master planlama \> Çalışma alanları \> Master planlama
-- Master planlama \> Master planlama \> Planlı siparişler
-- Üretim denetimi \> Üretim emirleri \> Planlı üretim emirleri
-- Tedarik ve kaynak atama \> Satınalma siparişleri \> Planlı satınalma siparişleri
-- Stok Yönetimi \> Gelen siparişler \> Planlı transferler
-- Stok Yönetimi \> Giden siparişler \> Planlı transferler
+**Durum** alanı, aşağıdaki değerleri kullanarak ilerlemenizi izlemenize yardımcı olur:
 
-## <a name="view-and-edit-the-status-of-planned-orders"></a>Planlanan sipariş durumlarını görüntüleme ve düzenleme
+- **İşlem görmedi:** Master planlama, planlı siparişler ürettiğinde, planlı siparişler *İşlem görmedi* durumunda olur. Bu durumdaki planlı siparişler sonraki planlama çalışmasında silinir.
+- **Tamamlandı:** Planlı siparişi kesinleştirmemeye karar verirseniz, durumu *Tamamlandı* olarak değiştirerek bu planlı siparişin değerlendirilmesini tamamladığınızı belirtebilirsiniz. *İşlenmemiş* ve *Tamamlandı* durumlarının sistem tarafından aynı kabul edildiğini unutmayın.
+- **Onaylandı:** Düzenlemeleri korumak istiyorsanız veya planlı bir siparişi kesinleştirmeyi planlıyorsanız, durumunu *Onaylandı* olarak değiştirin. Sonraki bir master planlama çalışması sırasında değiştirilmemeleri veya silinmemeleri için *Onaylandı* durumundaki planlı siparişler sabit olarak kabul edilerek master planlama tarafından tedarik edilmesi beklenir. Bunu başarmak için, planlama mantığı, Master planlama sırasında eski plan versiyonundaki *onaylanan* planlı siparişleri yeni plan sürümüne kopyalar. *Onaylandı* durumundaki planlı siparişlerinin yalnızca belirli master plan içinde tedarik edildiğini unutmayın.
 
-İlerlemenizi izlemeye veya planlı siparişin nasıl işlendiğini değiştirmenizi sağlamak için planlı siparişlerin **Durum** alanlarını kullanabilirsiniz. Aşağıdaki **Durum** değerleri mevcuttur:
-
-- **İşlem görmedi** – Master planlama, planlı siparişler ürettiğinde siparişlere bu durum verilir. Bu duruma sahip planlı siparişler sonraki planlama çalışmasında silinir.
-- **Tamamlandı** – Bu durum, planlı siparişin tamamlandığını gösterir. Planlı bir siparişi kesinleştirmemeye karar vermeniz halinde, durumunu *Tamamlandı* olarak manuel bir şekilde değiştirebilirsiniz. Sistemin, *İşlenmemiş* ve *Tamamlandı* durumlarını aynı şekilde kabul ettiğini unutmayın.
-- **Onaylandı** – Bu durum, planlı siparişin kesinleştirme için onaylandığını gösterir. Planlı bir siparişi kesinleştirmek isterseniz siparişin durumunu *Onaylandı* olarak değiştirebilirsiniz. Planlı bir siparişte yapılmış düzenlemeleri tutmak istiyorsanız veya planlı bir siparişi kesinleştirmeyi planlıyorsanız siparişin durumunu *Onaylandı* olarak değiştirin. *Onaylandı* durumdaki planlı siparişler sabit olarak kabul edilir ve master planlama bunların tedarik edilmesini bekler. Bu nedenle, daha sonra master planlama çalışması sırasında değiştirilmez veya silinmezler. Bu davranışı başarmak için, planlama mantığı, master planlama sırasında eski plan versiyonundaki *Onaylandı* durumuna sahip planlı siparişleri yeni plan sürümüne kopyalar. *Onaylandı* durumuna sahip planlı siparişlerinin yalnızca belirli master plan içinde tedarik edildiğini unutmayın.
-
-Tek bir planlı siparişin durumunu değiştirmek için [herhangi bir planlı sipariş listesi sayfasını açın ](#view-planned-orders), siparişi açın ve ardından aşağıdaki adımlardan birini izleyin:
-
-- **Genel** hızlı sekmesinde, **Durum** alanının değerini değiştirin.
-- Eylem Bölmesi'nde, **Planlı sipariş** sekmesindeki **İşlem** grubunda **Durumu değiştir**'i seçin.
-- Siparişi onaylamak için Eylem Bölmesinde **Onayla**'yı seçin.
-
-Birkaç planlı siparişin durumunu aynı anda değiştirmek için, [herhangi bir planlı sipariş listesi sayfasını açın ](#view-planned-orders), değiştirmek istediğiniz siparişlerin onay kutularını işaretleyin ve sonra aşağıdaki adımlardan birini izleyin:
-
-- Eylem Bölmesi'nde, **Planlı sipariş** sekmesindeki **İşlem** grubunda **Durumu değiştir**'i seçin.
-- Siparişleri onaylamak için Eylem Bölmesinde **Onayla**'yı seçin.
-
-## <a name="approve-planned-orders"></a>Planlı siparişleri onaylama
-
-Planlı siparişlerden kesinleştirilmiş sipariş oluşturma işleminde planlı siparişlerin onayını isteğe bağlı bir adımdır.
-
-Aşağıdaki resim, onay iş akışı uygulamak için her bir planlı siparişe atanan **Durum** değerini nasıl kullanabileceğinizi gösterir. Onay işlemi uygulamak için, önceki bölümde açıklandığı şekilde her bir planlı sipariş için **Durum** değerini manuel olarak düzeltin.
-
-![Planlı sipariş akışı.](media/approved-planned-orders-1.png)
-
-> [!TIP]
-> Değiştirilmiş planlı siparişleri onaylamanız önerilir. Aksi takdirde, düzenlemeler bir sonraki planlama çalıştırması tarafından yok sayılacaktır ve bunların üzerine yazılacaktır.
-
-## <a name="additional-resources"></a>Ek kaynaklar
-
-- [Kesinleşmiş planlı siparişler](planned-order-firming.md)
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+Planlı siparişleri **Master planlama** çalışma alanından, **Planlı sipariş** listesinden veya **Planlı üretim emirleri**, **Planlı satınalma emirleri** ve **Planlı transfer** listelerinden yönetebilirsiniz.

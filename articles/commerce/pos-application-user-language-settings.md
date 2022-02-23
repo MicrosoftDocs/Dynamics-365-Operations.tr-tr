@@ -2,13 +2,16 @@
 title: Satış noktası (POS) uygulaması ve kullanıcı dili ayarları
 description: Bu konu, Modern POS (MPOS) ve Bulut POS'daki dil ayarlarının nasıl değiştirileceğini açıklar.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774545"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416538"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Satış noktası (POS) uygulaması ve kullanıcı dili ayarları
 
@@ -57,11 +60,8 @@ POS kullanıcısının dil ayar,ı uygulama kullanıcı arabiriminde kullanılan
 
 POS kullanıcısının dil ayarı **Perakende ve Ticaret &gt; Dil** menüsünde bulunan **Çalışan** sayfasındaki **Tüm çalışanlar** öğesinden ayarlanır. Ana Profil öğesinden ayarlanmaz. Bu ayar POS tarafından kullanılmaz. Kullanıcının dili ayarlanmamışsa veya çevirilerin mevcut olmadığı bir dile ayarlanmışsa, POS mağazanın diline döner.
 
-| &nbsp;      | Kullanıcı Arabirimi dili                   | Veri dili (ürünler, makbuz biçimleri, satır görüntüleme, vs.) |
+|             | Kullanıcı Arabirimi dili                   | Veri dili (ürünler, makbuz biçimleri, satır görüntüleme, vs.) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Şirket** | Varsayılan Değer                    | Varsayılan Değer                                                       |
 | **Mağaza**   | Şirketi geçersiz kılar          | Şirketi geçersiz kılar                                             |
 | **Kullanıcı**    | Mağazayı veya şirketi geçersiz kılar | Hiçbir Zaman                                                         |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

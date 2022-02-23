@@ -1,24 +1,26 @@
 ---
-title: Uyarılara genel bakış (video içerir)
+title: Uyarılara genel bakış
 description: Bu konu uyarılar hakkında genel bilgileri sağlar. Uyarıları, iş günü sırasında izlemek istediğiniz olaylardan haberdar olmak için kullanabilirsiniz.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/04/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984980"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798606"
 ---
 # <a name="alerts-overview"></a>Uyarılara genel bakış
 
@@ -83,9 +85,6 @@ Uyarı kuralının beş bileşeni vardır:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-[Uyarı kuralı seçenekleri](https://youtu.be/cpzimwOjicM) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) bulunmaktadır.
+[Uyarı kuralı seçenekleri](https://youtu.be/cpzimwOjicM) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde bulunmaktadır](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW).
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

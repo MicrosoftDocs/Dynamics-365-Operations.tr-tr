@@ -1,26 +1,29 @@
 ---
 title: Döngü sayımı
 description: Bu makalede, sayım döngüsünü Ambar yönetiminde bulunan ambar çözümü ile birlikte nasıl kullanabileceğiniz açıklanmaktadır. Bu makale, Stok yönetiminde bulunan ambar çözümü için geçerli değildir.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902234"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439637"
 ---
 # <a name="cycle-counting"></a>Döngü sayımı
 
@@ -34,7 +37,7 @@ Döngü sayımı eldeki stok maddelerini denetlemek için kullanabileceğiniz bi
 2.  **Döngü sayımını işleme** – Döngü sayım işi oluşturduktan sonra, döngü sayım işini bir ambar konumundaki maddeleri sayıp sonucu bir mobil cihaz kullanarak Dynamics 365 Supply Chain Management'a girerek gerçekleştirirsiniz. Alternatif olarak, döngü sayım işi oluşturmadan bir ambar konumundaki maddeleri sayabilirsiniz. Bu süreç, *nokta döngü sayımı* olarak bilinmektedir.
 3.  **Sayılan değerdeki farkları düzeltme** – Bir döngü sayımından sonra, sayılan değerde farklılık olan tüm maddeler **Tüm işler** sayfasında **Gözden geçirilmeyi bekliyor** şeklinde bir iş durumuna sahip olacaktır. Bu farkları **Gözden geçirilmeyi bekleyen döngü sayım işi** sayfasında düzeltebilirsiniz.
 
-Aşağıdaki çizimde döngü sayım işlemi gösterilmiştir. ![Döngü sayımı için süreç akışı.](./media/performcyclecountinginawarehouselocation.jpg)
+Aşağıdaki çizimde döngü sayım işlemi gösterilmiştir. ![Döngü sayımı için süreç akışı](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Döngü sayım öngereklilikleri
 Aşağıdaki tabloda, döngü sayımını kullanmadan önce yerine getirilmesi gereken öngereklilikler gösterilmiştir.
@@ -137,6 +140,3 @@ Sayılan değerdeki farkları düzeltebilir ve ardından sayılan değeri **Göz
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

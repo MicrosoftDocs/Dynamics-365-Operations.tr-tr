@@ -2,30 +2,36 @@
 title: Ürün sayfasını zenginleştirme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te ürün sayfası zenginleştirme yöntemi açıklanmıştır .
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0c663498a65832c68b80ea7166da34914ceefb8c70d6a598f3fa648b199ef156
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777608"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416350"
 ---
 # <a name="enrich-a-product-page"></a>Ürün sayfasını zenginleştirme
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te ürün sayfası zenginleştirme yöntemi açıklanmıştır .
+
+## <a name="overview"></a>Genel Bakış
 
 Varsayılan olarak, siteniz ürün verilerini göstermek için genel bir sayfa kullanır. Bu sayfa, ürünle ilgili temel bilgileri ve bunu satmak için gerekli olan denetimleri içerir. Ancak, Commerce Scale Unit'ten belirli bir ürünle ilgili ek resim veya metinle gelen bilgileri ekleyebilirsiniz. Bu işleme, ürün sayfasını zenginleştirme adı verilir.
 
@@ -66,9 +72,4 @@ Birçok durumda, ürünleriniz için özel ek içerik kullanmak isteyeceksiniz. 
 
 [Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
 
-[Sayfa içeriği erişilebilirliğini doğrulama](verify-accessibility.md)
-
-[URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)

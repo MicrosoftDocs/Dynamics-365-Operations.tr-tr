@@ -1,10 +1,12 @@
 ---
 title: Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
-description: Bu konuda, gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceği açıklanmaktadır.
+description: Bu kılavuz, ER ifadelerinde gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama (ER) yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceğiyle ilgili bilgiler sağlar.
 author: NickSelin
-ms.date: 11/02/2021
+manager: AnnBe
+ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,180 +14,146 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
-ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7751718"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682033"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, ER ifadelerinde gerekli uygulama sınıfları yöntemlerini çağırarak [Elektronik raporlama (ER)](../general-electronic-reporting.md) yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceğiyle ilgili bilgiler sağlar. Çağırma sınıfları için bağımsız değişken değerleri çalışma zamanında dinamik olarak tanımlanabilir. Örneğin, değerler ayrıştırılmasını sağlamak için, ayrıştırma belgesindeki bilgileri temel alabilir.
+Bu kılavuz, ER ifadelerinde gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama (ER) yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceğiyle ilgili bilgiler sağlar. Sınıfları çağırmak için bağımsız değişkenlerin değerleri, çalışma zamanında dinamik olarak (örneğin, doğruluğunu sağlamak için ayrıştırma belgesindeki bilgiye göre) tanımlanabilir. Bu kılavuzda, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. 
 
-Örneğin bu konuda, bir uygulamanın veri güncelleştirmesi için gelen banka ekstrelerini ayrıştırmak üzere bir işlem tasarlayacaksınız. Gelen banka ekstrelerini, Uluslararası Banka Hesabı Numarası (IBAN) kodlarını içeren metin (.txt) dosyaları olarak alacaksınız. Banka ekstrelerini içe aktarma işleminin bir parçası olarak, halihazırda bulunan mantığı kullanarak bu IBAN kodlarının doğru olduğunu doğrulamanız gerekir.
+Bu adımlar herhangi bir veri kümesi kullanılarak tamamlanabilir. Ayrıca şu dosyayı indirmeniz ve yerel olarak kaydetmeniz gerekir: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
-## <a name="prerequisites"></a>Önkoşullar
+Bu adımları tamamlamak için ilk olarak "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.
 
-Bu konudaki prosedürler, **Sistem yöneticisi** veya **Elektronik raporlama geliştiricisi** rolüne atanmış kullanıcılar içindir.
-
-Bu prosedürler herhangi bir veri kümesi kullanılarak tamamlanabilir.
-
-Bunları tamamlamak için şu dosyayı indirmeniz ve yerel olarak kaydetmeniz gerekir: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
-
-Bu konuda, örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu nedenle bu konudaki yordamları tamamlayabilmek için önce aşağıdaki adımları tamamlamanız gerekir.
-
-1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasında, **Litware, Inc.** örnek şirketine ait yapılandırma sağlayıcısının kullanılabildiğinden ve etkin olarak işaretlendiğinden emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) yordamındaki adımları tamamlamanız gerekir.
+1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
+    * Örnek şirket Litware, Inc. için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlendiğini doğrulayın. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.   
+    * Bir uygulamanın veri güncelleştirmesi için gelen banka ekstrekerini ayrıştırmak üzere bir işlem tasarlıyorsunuz. Gelen banka ekstrelerini IBAN kodlarını içeren TXT dosyaları olarak alacaksınız. Banka ekstresi içe aktarma işleminin bir parçası olarak, halihazırda bulunan mantığı kullanarak bu IBAN kodlarının doğru olduğunu doğrulamanız gerekir.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Yeni bir ER modeli yapılandırmasını içe aktarma
-
-1. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırma sağlayıcıları** bölümünde **Microsoft** yapılandırma sağlayıcısı kutucuğunu seçin.
-2. **Depolar**'ı seçin.
-3. **Yerelleştirme depoları** sayfasında **Filtreleri göster**'i seçin.
-4. Global depo kaydını seçmek için, bir **Ad** filtresi alanı ekleyin.
-5. **Ad** alanına, **Genel** yazın. Ardından, **içerir** filtre işlecini seçin.
-6. **Uygula**'yı seçin.
-7. Seçilmiş depo için ER yapılandırmalarını görüntülemek için **[Aç](../er-download-configurations-global-repo.md#open-configurations-repository)**'a tıklayın.
-8. **Yapılandırma deposu** sayfasında yapılandırma ağacında, **Ödeme modeli**'ni seçin.
-9. **Sürümler** hızlı sekmesinde **İçe aktar** düğmesi mevcutsa **Evet**'i seçin.
-
-    **İçe aktar** düğmesi etkinleştirilmemişse, ER yapılandırma **Ödeme modeli**'nin seçili sürümünü zaten içe aktarmışsınızdır.
-
-10. **Konfigürasyon deposu** sayfasını kapatın ve sonra da **Yerelleştirme depoları** sayfasını kapatın.
+1. Listede, istenen kaydı bulun ve seçin.
+    * Microsoft sağlayıcısı kutucuğunu seçin.  
+2. Depolar'a tıklayın.
+3. Filtreleri göster'e tıklayın.
+4. ‘Tür adı’ filtre alanını ekleyin. Ad alanında, "kaynaklar" değerini girin, "içerir" filtre işlecini seçin ve sonra Uygula'ya tıklayın.
+5. Aç'a tıklayın.
+6. Ağaçta 'Ödeme modeli' seçin.
+    * Sürümler hızlı sekmesindeki İçe aktar düğmesi etkinleştirilmemişse, ER yapılandırma 'Ödeme modeli'nin bir sürüm 1'inin zaten içe aktarmışsınızdır. Bu alt görevdeki kalan adımları atlayabilirsiniz.   
+7. İçe aktar'ı tıklatın.
+8. Evet'i tıklatın.
+9. Sayfayı kapatın.
+10. Sayfayı kapatın.
 
 ## <a name="add-a-new-er-format-configuration"></a>Yeni bir ER biçim yapılandırması ekleme
+1. Raporlama konfigürasyonları'na tıklayın.
+    * TXT biçimindeki gelen banka ekstrelerini ayrıştırmak için yeni bir ER biçimi ekleyin.  
+2. Ağaçta 'Ödeme modeli' seçin.
+3. İletişim menüsünü açmak için Yapılandırma oluştur'a tıklayın.
+4. Yeni alanına, 'Biçim veri modeline PaymentModel dayalı' girin.
+5. Ad alanına, 'Banka ekstresi içe aktarma biçimi (örnek)' yazın.
+    * Banka ekstresi içe aktarma biçimi (örnek)  
+6. Veri içe aktarmayı destekler alanında Evet'i seçin.
+7. Konfigürasyon oluştur'u tıklatın.
 
-TXT biçimindeki gelen banka ekstrelerini ayrıştırmak için yeni bir ER biçimi ekleyin.
+## <a name="design-the-er-format-configuration---format"></a>ER biçimi yapılandırması tasarlama - biçim
+1. Tasarımcı'yı tıklatın.
+    * Tasarlanan biçim, harici dosyanın TXT biçimindeki beklenen yapısını gösterir.  
+2. İletişim kutusu menüsünü açmak için Kök ekle'ye tıklayın.
+3. Ağaçta, "Metin\Sıra" öğesini seçin.
+4. Ad alanına 'Kök' yazın.
+    * Kök  
+5. Özel karakterler alanında "Yeni satır - Windows (CR LF)" öğesini seçin.
+    * 'Özel karakterler' alanında 'Yeni satır - Windows (CR LF)' seçeneği seçilmiştir. Bu ayarı temel alarak, ayrıştırma dosyasındaki her satır ayrı bir kayıt olarak ele alınır.  
+6. Tamam'a tıklayın.
+7. Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.
+8. Ağaçta, "Metin\Sıra" öğesini seçin.
+9. Ad alanına 'Satırlar' yazın.
+    * Satırlar  
+10. Çokluluk alanında 'Bir fazla'yı seçin.
+    * ‘Çok katlılık’ alanında 'Bir çok' seçeneği seçilmiştir. Bu ayara bağlı olarak, ayrıştırma dosyasında en az bir satır sunulması beklenir.  
+11. Tamam'a tıklayın.
+12. Ağaçta, 'Kök\Satırlar' öğesini seçin.
+13. Sıra ekle'ye tıklayın.
+14. Ad alanına 'Alanlar' yazın.
+    * Alanlar  
+15. Çokluluk alanında 'Tam bir'i seçin.
+16. Tamam'a tıklayın.
+17. Ağaçta, 'Kök\Satırlar\Alanlar' öğesini seçin.
+18. Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.
+19. Ağaçta seçin 'Text\String'.
+20. İsim alanına 'IBAN' yazın.
+    * IBAN  
+21. Tamam'a tıklayın.
+    * Ayrıştırma dosyasındaki her satırı yalnızca IBAN kodunu içerecek şekilde yapılandırıldı.  
+22. Kaydet'e tıklayın.
 
-1. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmaları raporlama** kutucuğunu seçin.
-2. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni seçin.
-3. **Yapılandırma oluştur**'u seçin. 
-4. Açılan iletişim kutusunda şu adımları izleyin:
-
-    1. **Yeni** alanına, **Biçim veri modeline PaymentModel dayalı** girin.
-    2. **Ad** alanına, **Banka ekstresi içe aktarma biçimi (örnek)** yazın.
-    3. **Veri içe aktarmayı destekler** alanında **Evet**'i seçin.
-    4. Yapılandırma oluşturmayı tamamlamak için **Yapılandırma oluştur**'u seçin.
-
-## <a name="design-the-er-format-configuration--format"></a>ER biçimi yapılandırması tasarlama – Biçim
-
-Harici dosyanın TXT biçimindeki beklenen yapısını gösteren bir ER biçimi tasarlayın.
-
-1. Eklediğiniz **Banka ekstresi içe aktarma biçimi (örnek)** biçim konfigürasyonu için **Tasarımcı**'yı seçin.
-2. **Biçim tasarımcısı** sayfasında, biçim yapısı ağacında **Kök ekle**'yi seçin.
-3. Gösterilen iletişim kutusunda şu adımları izleyin:
-
-    1. Ağaçta **Metin\\Sıra**'yı seçerek **Sıra** biçim bileşenini ekleyin.
-    2. **Ad** alanına, **Kök** girin.
-    3. **Özel karakterler** alanında **Yeni satır - Windows (CR LF)** öğesini seçin. Bu ayarı temel alarak, ayrıştırma dosyasındaki her satır ayrı bir kayıt olarak ele alınır.
-    4. **Tamam**'ı seçin.
-
-4. **Ekle**'yi seçin.
-5. Gösterilen iletişim kutusunda şu adımları izleyin:
-
-    1. Ağaçta, **Metin\\Sıra** öğesini seçin.
-    2. **Ad** alanına, **Satırlar** yazın.
-    3. **Çokluluk** alanında **Bir fazla**'yı seçin. Bu ayara bağlı olarak, ayrıştırma dosyasında en az bir satır sunulması beklenir.
-    4. **Tamam**'ı seçin.
-
-6. Ağaçta, **Kök\\Satırlar** öğesini ve ardından **Sıra Ekle**'yi seçin.
-7. Gösterilen iletişim kutusunda şu adımları izleyin:
-
-    1. **Ad** alanına, **Alanlar** yazın.
-    2. **Çokluluk** alanında **Tam bir**'i seçin.
-    3. **Tamam**'ı seçin.
-
-8. Ağaçta, **Kök\\Satırlar\\Alanlar** öğesini ve ardından **Ekle**'yi seçin.
-9. Gösterilen iletişim kutusunda şu adımları izleyin:
-
-    1. Ağaçta **Metin\\Dize**'yi seçin.
-    2. **Ad** alanına, **IBAN** yazın.
-    3.. **Tamam**'ı seçin.
-
-10. **Kaydet**'i seçin.
-
-Yapılandırma, ayrıştırma dosyasındaki her satırı yalnızca IBAN kodunu içerecek şekilde ayarlandı.
-
-![Biçim tasarımcısı sayfasında Banka ekstresi içe aktarma biçimi (örnek) biçim konfigürasyonu.](../media/design-expressions-app-class-er-01.png)
-
-## <a name="design-the-er-format-configuration--mapping-to-a-data-model"></a>ER biçimi yapılandırması tasarlama – Veri modeliyle eşleme
-
-Bir veri modelini doldurmak üzere ayrıştırma dosyasındaki bilgileri kullanan bir ER biçim eşlemesi tasarlayın.
-
-1. **Biçim tasarımcısı** sayfasında Eylem Panosu üzerinde **Biçimi modele eşle**'yi seçin.
-2. **Veri kaynağı eşleme modeli** sayfasında Eylem Panosu üzerinde **Yeni**'yi seçin.
-3. **Tanım** alanında **BankToCustomerDebitCreditNotificationInitiation**'ı seçin.
-4. **Ad** alanına **Veri modeline eşleme**'yi girin.
-5. **Kaydet**'i seçin.
-6. **Tasarımcı**’yı seçin.
-7. **Model eşleme tasarımcısı** sayfasında, **Veri kaynağı türleri** ağacında, **Dynamics 365 for Operations\\Sınıf**'ı seçin.
-8. **Veri kaynakları** bölümünde, IBAN kodları doğrulaması için varolan uygulama mantığını çağıran bir veri kaynağı eklemek için **Kök ekle**'yi seçin.
-9. Gösterilen iletişim kutusunda şu adımları izleyin:
-
-    1. **Ad** alanına, **Kontrol et\_kodlar** yazın.
-    2. **Sınıf** alanında, **ISO7064** yazın veya seçin.
-    3. **Tamam**'ı seçin.
-
-10. **Veri kaynağı türleri** ağacında, aşağıdaki adımları izleyin:
-
-    1. **Biçim** veri kaynağını genişletin.
-    2. **biçim\\Kök: Sıra(Kök)**'ü genişletin.
-    3. **biçim\\Kök: Sıra(Kök)\\Satırlar: Sıra 1..\* (Satırlar)** öğesini genişletin.
-    4. **biçim\\Kök: Sıra(Kök)\\Satırlar: Sıra 1..\* (Satırlar)\\Alanlar: Sıra 1..1 (Alanlar)** öğesini genişletin.
-
-11. **Veri modeli** ağacında, aşağıdaki adımları izleyin:
-
-    1. Veri modelinin **Ödemeler** alanını genişletin.
-    2. **Ödemeler\\Alacaklı Hesabı(CreditorAccount)** öğesini genişletin.
-    3. **Ödemeler\\Alacaklı Hesabı(CreditorAccount)\\Kimlik saptama** öğesini genişletin.
-    4. **Ödemeler\\Alacaklı Hesabı(CreditorAccount)\\Kimlik saptama\\IBAN** öğesini genişletin.
-
-12. Konfigüre edilen biçimin bileşenlerini veri modeli alanlarına bağlamak için aşağıdaki adımları izleyin:
-
-    1. **biçim\\Kök: Sıra(Kök)\\Satırlar: Sıra 1..\* (Satırlar)** öğesini seçin.
-    2. **Ödemeler**'i seçin.
-    3. **Bağla**'yı seçin. Bu ayarı temel alarak, ayrıştırma dosyasındaki her satır ayrı bir ödeme olarak ele alınır.
-    4. **biçim\\Kök: Sıra(Kök)\\Satırlar: Sıra 1..\* (Satırlar)\\Alanlar: Sıra 1..1 (Alanlar)\\IBAN: Dize(IBAN)** öğesini seçin.
-    5. **Ödemeler\\Alacaklı Hesabı(CreditorAccount)\\Kimlik saptama\\IBAN** öğesini seçin.
-    6. **Bağla**'yı seçin. Bu ayara dayalı olarak, veri modelinin **IBAN** alanı, ayrıştırma dosyasındaki değerle doldurulacaktır.
-
-    ![Model eşleme tasarımcısı sayfasındaki bileşenlerin veri modeli alanlarına biçim bağlamayı bağlama.](../media/design-expressions-app-class-er-02.png)
-
-13. **Doğrulamalar** sekmesinde, ayrıştırmadosyasındaki geçersiz bir IBAN kodu içeren herhangi bir satır için hata iletisi gösteren bir [doğrulama](../general-electronic-reporting-formula-designer.md#Validation) kuralı eklemek için şu adımları izleyin:
-
-    1. **Yeni**'yi seçin ve ardından **Koşulu düzenle**'yi seçin.
-    2. **Formül tasarımcısı** sayfasında, **Veri kaynağı** ağacında, bu sınıfın kullanılabilir yöntemlerini görmek için **ISO7064** uygulama sınıfını temsil eden **Denetim\_kod** veri kaynağını genişletin.
-    3. **Denetim\_kodlar\\verifyMOD1271\_36** öğesini seçin.
-    4. **Veri kaynağını ekle**'yi seçin.
-    5. **Formül** alanına şu [ifadeyi](../general-electronic-reporting-formula-designer.md#Binding) yazın: **Denetim\_codes.verifyMOD1271\_36(format.Root.Rows.Fields.IBAN)**.
-    6. **Kaydet**'i seçip sayfayı kapatın.
-    7. **İleti düzenle**’yi seçin.
-    8. **Formül tasarımcısı** sayfasında, **Formül alanına** **CONCATENATE("Geçersiz IBAN kodu bulundu:&nbsp;", format.Root.Rows.Fields.IBAN)** girin.
-    9. **Kaydet**'i seçip sayfayı kapatın.
-
-    Bu ayarlara dayanarak, doğrulama koşulu, **ISO7064** uygulama sınıfının mevcut **verifyMOD1271\_36** yöntemini çağırarak geçersiz tüm IBAN kodları için *[YANLIŞ](../er-formula-supported-data-types-primitive.md#boolean)* değerini döndürür. IBAN kodu değerinin çalışma zamanında çağırma yönteminin bağımsız değişkeni olarak ayrıştırma metin dosyası içeri temel alınarak dinamik şekilde tanımlandığını unutmayın.
-
-    ![Model eşleme tasarımcı sayfasında doğrulama kuralı.](../media/design-expressions-app-class-er-03.png)
-
-14. **Kaydet**'i seçin.
-15. **Model eşleme tasarımcısı** sayfasını kapatın ve sonra da **Model veri kaynağı eşleme** sayfasını kapatın.
+## <a name="design-the-er-format-configuration--mapping-to-data-model"></a>ER biçimi yapılandırması tasarlama – veri modeliyle eşleme
+1. Biçimi modelle eşle'ye tıklayın.
+2. Yeni'ye tıklayın.
+3. Tanım alanına 'BankToCustomerDebitCreditNotificationInitiation' yazın.
+    * BankToCustomerDebitCreditNotificationInitiation  
+4. Tanımı ResolveChanges.
+5. Ad alanına 'Veri modeliyle eşleme' yazın.
+    * Veri modeline eşleme  
+6. Kaydet'e tıklayın.
+7. Tasarımcı'yı tıklatın.
+8. Ağaçta 'Dynamics 365 for Operations\Sınıf' öğesini seçin.
+9. Kök ekle'ye tıklayın.
+    * IBAN kodları doğrulaması için mevcut uygulama mantığını çağırmak üzere yeni veri kaynağı ekleyin.  
+10. Ad alanına, 'check_codes' yazın.
+    * çek kodları  
+11. Sınıf alanına 'ISO7064' yazın.
+    * ISO7064  
+12. Tamam'a tıklayın.
+13. Ağaçta, 'biçim' metnini genişletin.
+14. Ağaçta, 'biçim\Kök: Sıra(Kök)' öğesini seçin.
+15. Ağaçta, 'biçim\Kök: Sıra(Kök)\Satırlar: Sıra 1..* (Satırlar)' öğesini seçin.
+16. Bağla'ya tıklayın.
+17. Ağaçta, 'biçim\Kök: Sıra(Kök)\Satırlar: Sıra 1..* (Satırlar)' öğesini genişletin.
+18. Ağaçta, 'biçim\Kök: Sıra(Kök)\Satırlar: Sıra 1..* (Satırlar)\Alanlar: Sıra 1..1 (Alanlar)' öğesini genişletin.
+19. Ağaçta, 'biçim\Kök: Sıra(Kök)\Satırlar: Sıra 1..* (Satırlar)\Alanlar: Sıra 1..1 (Alanlar)\IBAN: Dize(IBAN)' öğesini seçin.
+20. Ağaçta 'Ödemeler = biçim.Kök.Satırlar' öğesini genişletin.
+21. Ağaçta, 'Ödemeler = format.Root.Rows\Alacaklı Hesabı(CreditorAccount)' öğesini genişletin.
+22. Ağaçta, 'Ödemeler = format.Root.Rows\Alacaklı Hesabı(CreditorAccount)\Kimlik Saptama' öğesini genişletin.
+23. Ağaçta, 'Ödemeler = format.Root.Rows\Alacaklı Hesabı(CreditorAccount)\Kimlik Saptama\IBAN' öğesini seçin.
+24. Bağla'ya tıklayın.
+25. Doğrulamalar sekmesine tıklayın.
+26. Yeni'ye tıklayın.
+    * Geçersiz IBAN kodu içeren ayrıştırma dosyasındaki herhangi bir satır için bir hata görüntüleyen yeni bir doğrulama kuralı ekleyin.  
+27. Koşulu düzenle'ye tıklayın.
+28. Ağaçta 'check_codes' öğesini genişletin.
+29. Ağaçta, 'check_codes\verifyMOD1271_36' öğesini seçin.
+30. Veri kaynağı ekle'ye tıklayın.
+31. Formül alanına 'check_codes.verifyMOD1271_36(' yazın.
+    * check_codes.verifyMOD1271_36(  
+32. Ağaçta, 'biçim' metnini genişletin.
+33. Ağaçta, 'biçim\Kök: Sıra(Kök)' öğesini seçin.
+34. Ağaçta, 'biçim\Kök: Sıra(Kök)\Satırlar: Sıra 1..* (Satırlar)' öğesini genişletin.
+35. Ağaçta, 'biçim\Kök: Sıra(Kök)\Satırlar: Sıra 1..* (Satırlar)\Alanlar: Sıra 1..1 (Alanlar)' öğesini genişletin.
+36. Ağaçta, 'biçim\Kök: Sıra(Kök)\Satırlar: Sıra 1..* (Satırlar)\Alanlar: Sıra 1..1 (Alanlar)\IBAN: Dize(IBAN)' öğesini seçin.
+37. Veri kaynağı ekle'ye tıklayın.
+38. Formül alanına 'check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)' yazın.
+    * check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)  
+39. Kaydet'e tıklayın.
+40. Sayfayı kapatın.
+    * Doğrulama koşulu herhangi bir geçersiz IBAN kodu için ‘ISO7064’ uygulama sınıfının mevcut ‘verifyMOD1271_36’ yöntemini çağırarak YANLIŞ değeri döndürecek şekilde yapılandırılmıştır. IBAN kodu değerinin çalışma zamanında çağırma yönteminin bağımsız değişkeni olarak ayrıştırma TXT dosyası içeri temel alınarak dinamik şekilde tanımlandığını unutmayın.   
+41. İletiyi düzenle'ye tıklayın.
+42. Formül alanına 'CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)' girin.
+    * CONCATENATE("Geçersiz IBAN kodu bulundu:  ", format.Root.Rows.Fields.IBAN)  
+43. Kaydet'e tıklayın.
+44. Sayfayı kapatın.
+45. Kaydet'e tıklayın.
+46. Sayfayı kapatın.
 
 ## <a name="run-the-format-mapping"></a>Biçim eşlemeyi çalıştırma
+Sınama amacıyla, daha önce yüklediğiniz SampleIncomingMessage.txt dosyasını kullanarak biçim eşlemesi yürütün. Oluşturulan çıktı, seçilen TXT dosyasından içeri aktarılacak verileri içerir ve gerçek içe aktarma sırasında özel veri modelini doldurur.   
+1. Çalıştır öğesine tıklayın.
+    * Gözat düğmesine tıklayın ve önceden indirdiğiniz SampleIncomingMessage.txt dosyasına gidin.  
+2. Tamam'a tıklayın.
+    * Seçili dosyadan içeri aktarılan ve veri modeline taşınan verileri temsil eden XML biçimindeki çıktıyı gözden geçirin. İçe aktarılan TXT dosyasındaki yalnızca 3 satırın işlendiğini unutmayın. Satır 4'teki geçersiz IBAN kodu atlandı ve Bilgi günlüğünde bir hata iletisi sağlandı.  
 
-Sınama amacıyla, daha önce yüklediğiniz SampleIncomingMessage.txt dosyasını kullanarak biçim eşlemesini çalıştırın. Oluşturulan çıktı, seçilen metin dosyasından içeri aktarılacak verileri içerir ve gerçek içe aktarma sırasında özel veri modelini doldurur.
-
-1. **Veri kaynağı eşleme modeli** sayfasında **Çalıştır**'ı seçin.
-2. **Elektronik rapor parametreleri** sayfasında, **Gözat**'ı seçin, indirdiğiniz **SampleIncomingMessage.txt** dosyasına gidin ve dosyayı seçin.
-3. **Tamam**'ı seçin.
-4. **Veri kaynağı eşleme modeli** sayfasında, geçersiz bir IBAN koduyla ilgili bir hata iletisi göreceksiniz.
-
-    ![Modeli veri kaynağına eşleme sayfasında biçim eşleme çalıştırmanın sonucu.](../media/design-expressions-app-class-er-04.png)
-
-5. Seçili dosyadan içeri aktarılan ve veri modeline taşınan verileri temsil eden XML biçimindeki çıktıyı gözden geçirin. İçe aktarılan metin dosyasının yalnızca üç satırının hatasız olarak işlendiğine dikkat edin. Satır 4'teki IBAN kodu geçerli değil ve atlanmış.
-
-    ![XML çıktısı.](../media/design-expressions-app-class-er-05.png)
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

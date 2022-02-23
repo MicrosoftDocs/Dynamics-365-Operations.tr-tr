@@ -1,25 +1,27 @@
 ---
 title: Dynamics 365 Supply Chain Management 10.0.7 sürümündeki yenilikler veya değişiklikler (Ocak 2020)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.7'deki yeni veya değişen özellikler açıklanmaktadır.
-author: kamaybac
+author: josaw1
+manager: tfehr
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 23d9e186a75c79659ddccb07eeaff805f8e1702f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4da0c95d753685cc9cce774dc63309a53bd2fbd0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572877"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963547"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Dynamics 365 Supply Chain Management 10.0.7 sürümündeki yenilikler veya değişiklikler (Ocak 2020)
 
@@ -50,7 +52,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.7 Platform update 31 içerir
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365: 2019 sürüm dalgası 2 planı
 İş uygulamalarımız veya platformumuz için gelecek olan ve en son yayımlanan özellikleri merak ediyor musunuz?
 
-[Dynamics 365: 2019 sürüm dalgası 2 planını](/dynamics365-release-plan/2019wave2/) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
+[Dynamics 365: 2019 sürüm dalgası 2 planını](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 
@@ -62,5 +64,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.7 Platform update 31 içerir
 Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) konusunda duyurulacaktır.
 
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

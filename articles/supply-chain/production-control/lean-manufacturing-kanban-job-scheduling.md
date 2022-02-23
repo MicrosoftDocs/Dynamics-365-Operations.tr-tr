@@ -1,27 +1,30 @@
 ---
 title: Yalın üretim için Kanban iş planlama
 description: Bu makale, kanban iş planlamaları üzerinde görsel denetim sağlamak ve kanban işlerini planlamak için çeşitli yöntemler hakkında bilgi sağlar.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 52961
 ms.assetid: fe3b4822-6140-4b02-bebb-1fc17be2bce8
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f70c3cf44ce90b13250836013636920267d2016d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 77ba67de5585022ab7d506c8cd2acb380a4e3a54
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570237"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439524"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Yalın üretim için Kanban iş planlama
 
@@ -65,10 +68,8 @@ Gün veya hafta olarak kullanılabilir kapasite iş hücresine atanan takvime g�
 
 **Kanban iş planlama çizelgeleme** listesi sayfası seçili iş hücre için kullanılabilir ve kitap haline getirilmiş dönem kapasite gösteren bir bilgi içerir. Üretim akışı modeli seçili zamanlama periyotlara bağlı olarak gün veya hafta dönemleri görüntüleyin.
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

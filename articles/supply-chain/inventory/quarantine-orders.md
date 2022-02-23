@@ -1,26 +1,29 @@
 ---
 title: Karantina emirleri
 description: Bu konuda, karantina emirlerinin stok durdurma için nasıl kullanıldığı açıklanmaktadır.
-author: yufeihuang
-ms.date: 03/23/2021
+author: perlynne
+manager: tfehr
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf0ec8f9f4d862724cb8ab72b48771ed68eaf39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 25ba4aa92d968f4dfb0dc23b1ac459cda2d52b61
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568795"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439572"
 ---
 # <a name="quarantine-orders"></a>Karantina emirleri
 
@@ -28,35 +31,18 @@ ms.locfileid: "7568795"
 
 Bu konuda, karantina emirlerinin stok durdurma için nasıl kullanıldığı açıklanmaktadır.
 
-Karantina emirleri, stoğu durdurmanıza olanak sağlar. Örneğin, maddeleri kalite kontrol nedeniyle karantinaya almak isteyebilirsiniz. Karantinaya alınan stok bir karantina ambarına transfer edilir.
-
-> [!NOTE]
-> (Ambar yönetiminde) gelişmiş ambar yönetimi işlemleri kullanıyorsanız, karantina emri işleme yalnızca iade satış siparişleri için kullanılır.
+Karantina emirleri stok durdurma için kullanılabilir. Örneğin, maddeleri kalite kontrol nedeniyle karantinaya almak isteyebilirsiniz. Karantinaya alınan stok bir karantina ambarına transfer edilir. **Not:** (Ambar yönetiminde) gelişmiş ambar yönetimi işlemleri kullanıyorsanız, karantina emri işleme yalnızca iade satış siparişleri için kullanılır.
 
 ## <a name="quarantine-on-hand-inventory-items"></a>Eldeki stok maddelerini karantinaya alın
-
-Maddeleri karantinaya aldığınızda, karantina emirlerini el ile oluşturabilirsiniz veya gelen işleme sırasında karantina emirlerini otomatik olarak oluşturmak için sistemi ayarlayabilirsiniz.
-
-Sistemi karantina emirlerini otomatik olarak üretecek şekilde ayarlamak için aşağıdaki adımları izleyin.
-
-1. **Stok yönetimi \> Kurulum \> Stok \> Madde modeli grupları** öğesine gidin.
-1. Liste bölmesinde ilgili bir model grubu seçin veya yeni bir model grubu oluşturun.
-1. **Stok ilkeleri** hızlı sekmesinde, **Karantina yönetimi** onay kutusunu seçin.
-1. Sayfayı kapatın.
-1. Teslim alma ambarları için **Ambarı karantinaya al** alanında varsayılan bir ambar alanı belirtin.
-
-Ambarda alındı olarak kaydedilen bir madde **Karantina yönetimi** onay kutusunun seçildiği bir model grubuna aitse sistem bunun için bir karantina emiri oluşturur. Karantina emiri, çalışanların maddeyi karantina ambarına taşıması gerektiğini belirtir.
-
-Karantina emirlerini el ile oluşturduğunuzda, **Karantina emirleri** sayfasında ilişkili madde model grubunda karantina yönetimi için maddenin ayarlanmasına gerek yoktur. Bu işlem için karantinaya alınması gereken eldeki stoğu ve kullanılması gereken karantina ambarını belirtmeniz gerekir. Süreci planlamaya yardımcı olması için karantina emri durumlarını kullanabilirsiniz.
+Maddeleri karantinaya aldığınızda, karantina emirlerini el ile oluşturabilirsiniz veya gelen işleme sırasında karantina emirlerini otomatik olarak oluşturmak için sistemi ayarlayabilirsiniz. Karantina emirlerini otomatik olarak oluşturmak için **Madde modeli grupları** sayfasındaki **Stok ilkeleri** sekmesinde **Karantina yönetimi** seçeneğini seçin. Teslim alma ambarları için **Ambarı karantinaya al** alanında varsayılan bir ambar belirtmeniz de gerekir. Eldeki fiziksel stok satınalma siparişi veya üretim emrinde kaydedildiğinde, karantinaya alınan maddeler otomatik olarak Supply Chain Management'taki karantina ambarına taşınır. Bu taşımanın gerçekleşmesinin nedeni karantina emrinin durumunun **Başladı** olarak değişmesidir. Karantina emirlerini el ile oluşturduğunuzda, ilişkili madde model grubunda karantina yönetimi için maddenin ayarlanmasına gerek yoktur. Bu işlem için karantinaya alınması gereken eldeki stoğu ve kullanılması gereken karantina ambarını belirtmeniz gerekir. Süreci planlamaya yardımcı olması için karantina emri durumlarını kullanabilirsiniz.
 
 ## <a name="quarantine-order-statuses"></a>Karantina emri durumları
-
 Karantina siparişleri aşağıdaki durumlarda olabilir:
 
-- Oluşturulma
-- Başladı
-- Bitirildi olarak bildirildi
-- Bitti
+-   Oluşturulma
+-   Başladı
+-   Bitirildi olarak bildirildi
+-   Bitti
 
 ### <a name="created"></a>Oluşturulma
 
@@ -66,20 +52,18 @@ Karantina emri el ile oluşturulduğunda, fakat madde henüz karantina ambarına
 
 Bir karantina emrinin durumu **Başlatıldı** ise, stok normal ambardan karantina ambarına taşınır ve iki stok hareketi oluşturulur. Bir hareketin durumu **kesinti yapıldı** ve diğer hareket durumu **alınan**. Aynı zamanda, iade aktarımının işlenmesi için iki stok hareketi oluşturulur. Bu hareketler tarihli değildir. Bir hareketin durumu **Ayrıldı fiziksel** ve diğer hareket durumu **sipariş edildi**.
 
-### <a name="reported-as-finished"></a>Tamamlandığı bildirildi
+### <a name="reported-as-finished"></a>Bitirildi olarak bildirildi
 
-Başlatılan bir karantina emrini tamamlandı olarak bildirmek için, emiri açın ve Eylem Bölmesinde **Tamamlandı olarak bildir**'i seçin. Madde karantinadan serbest bırakılır fakat henüz normal ambara geri taşınmaz. Normal ambara taşıma rapor sırasında başlatılabilen madde varış günlüğü ile tamamlanmış olarak işlenebilir.
+**Tamamlandı olarak bildir**'e tıklayarak başlatılan bir karantina siparişinin tamamlandığını bildirebilirsiniz. Madde karantinadan serbest bırakılır fakat henüz normal ambara geri taşınmaz. Normal ambara taşıma Rapor sırasında başlatılabilen Madde varış günlüğü ile tamamlanmış olarak işlenebilir.
 
 ### <a name="ended"></a>Bitti
 
-Karantina emri sonlandırıldığında, madde karantina ambarından normal ambara geri taşınır. Madde hareketinin durumu karantina ambarında *satıldı* ve normal ambarda *satın alınan* olarak ayarlanır.
+Karantina emri sonlandırıldığında, madde karantina ambarından normal ambara geri taşınır. Madde hareketinin durumu karantina ambarında **satıldı** ve normal ambarda **satın alınan** olarak ayarlanır.
 
 ## <a name="quarantine-order-scrap"></a>Karantina siparişi hurda
+Karantina emri işleminin bir parçası olarak stoğu hurdaya çıkartabilirsiniz. Hurdayı işlerken, stoğun durumu karantina ambarından çıkış hareketi tarafından **Satıldı** olarak ayarlanacaktır.
 
-Karantina emri işleminin bir parçası olarak stoğu hurdaya çıkartabilirsiniz. Hurdayı işlerken, stoğun durumu karantina ambarından çıkış hareketi tarafından *Satıldı* olarak ayarlanır.
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
-## <a name="additional-resources"></a>Ek kaynaklar
-
-- [Stok durdurma](inventory-blocking.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Stok durdurma](inventory-blocking.md)

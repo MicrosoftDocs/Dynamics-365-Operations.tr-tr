@@ -6,28 +6,30 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
+ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 46302589ac5139ee6297aba26572225c0e392287
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a3c9ae7f9347aedc9dfba669a788b93f339e9fe8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402532"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439131"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management için Öğrenme kataloğu
 
 Dynamics 365 Supply Chain uygulamasının bir kullanıcısı olarak rolünüz için doğru çevrimiçi eğitimi, bire bir atölyeleri ve etkinlikleri bulun.
 
-<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
     ### <a name="business-and-technical-decision-makers"></a>İş ve Teknik Karar Vericiler
 
@@ -88,11 +90,9 @@ Dynamics 365 Supply Chain uygulamasının bir kullanıcısı olarak rolünüz i�
 
     [Yöneticiler İçin Öğrenme Kataloğu](learning-catalog-administrator.md)
 
-    [Kullanmaya başlama](learning-catalog-administrator.md#get-started)
+    [Başlayın](learning-catalog-administrator.md#get-started)
 
     [Temel platform bilgileri](learning-catalog-administrator.md#core-platform-knowledge)
-
-    [Supply Chain Management](learning-catalog-administrator.md#scm)
 
     [Temel geliştirme](learning-catalog-administrator.md#core-development)
 
@@ -187,6 +187,3 @@ Dynamics 365 Supply Chain uygulamasının bir kullanıcısı olarak rolünüz i�
 
     :::column-end:::
 :::row-end:::
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,29 @@
 ---
 title: Servis siparişi satırlarını taşı
 description: Servis siparişi satırlarını taşıyın.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cb1467284223ba12c777db808980fd3eb592cf3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5aef889641a677838dcebe97451e057f2bfbeada
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576484"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439211"
 ---
 # <a name="move-service-order-lines"></a>Servis siparişi satırlarını taşı 
 
@@ -52,6 +55,3 @@ ms.locfileid: "7576484"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,27 @@
 ---
 title: Finance and Operations uygulama belgeleri
 description: Finance and Operations uygulamaları için belgeler.
-author: tonyafehr
-ms.date: 04/13/2021
+author: robinarh
+manager: AnnBe
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: tfehr
-ms.custom: intro-internal
+ms.reviewer: rhaertle
+ms.custom: 62303
 ms.search.region: Global
-ms.author: tfehr
+ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075409"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694398"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations uygulama belgeleri
 
@@ -44,7 +46,7 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
  <p><a href="get-started/purchase-on-premises.md">Finance and Operations (on-premises) satın alma</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Uygulama yaşam döngüsü</a></h3>
-<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Bir projeyi ekleme</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Servise almak için hazırlama</a></p>
 
@@ -76,18 +78,16 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Maliyet muhasebesi</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Sabit kıymetler</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Genel muhasebe</a></p>
-<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Proje yönetimi</a></p>
+<p><a href="../../finance/project-management/overview-project-management-accounting.md">Proje yönetimi</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Kamu sektörü</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Bölgesel mevzuat özellikleri</a></p>
 
 <h3><a href="hr/hr-landing-page.md">İnsan kaynakları</a></h3>
-<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Personel self servisi</a></p>
-<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Personel yönetimi</a></p>
-<p><a href="../../human-resources/hr-leave-and-absence-overview.md">İzin ve devamsızlık</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Kazançlar</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Personel gelişimi</a></p>
-<p><a href="../../human-resources/hr-learning-courses.md">Öğrenme</a></p>
- <p><a href="hr/localizations/noam-usa-payroll.md">ABD bordrosu</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Personel gelişimi ve eğitim</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Soru formları</a></p>
+<p><a href="hr/manage-recruiting-process.md">İşe alma</a></p>
+<p><a href="hr/localizations/noam-usa-payroll.md">ABD bordrosu</a></p>
 
 </td>
 <td>
@@ -128,11 +128,16 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 </td>
 <td>
 <h3>İlgili ürünler</h3>
-<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
-<p><a href="../../commerce/call-center-functionality.md">Çağrı merkezi</p>
-<p><a href="../../commerce/define-maintain-retail-channels.md">Kanal kurulumu ve yönetimi</p>
-<p><a href="../../commerce/retail-peripherals-overview.md">MPOS ve Cloud POS</p>
-<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Commerce geliştiricisi ve yönetimi</p>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
+<p><a href="../../retail/call-center-functionality.md">Çağrı merkezi</p>
+<p><a href="../../retail/define-maintain-retail-channels.md">Kanal kurulumu ve yönetimi</p>
+<p><a href="../../retail/retail-peripherals-overview.md">MPOS ve Bulut POS</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Commerce geliştiricisi ve yönetimi</p>
+
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Yönetici Kılavuzu</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Geliştirici Kılavuzu</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Kullanıcı Kılavuzu</a></p>
 
 
 </td>
@@ -140,6 +145,3 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

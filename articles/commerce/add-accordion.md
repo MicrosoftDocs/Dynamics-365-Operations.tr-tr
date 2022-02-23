@@ -2,12 +2,15 @@
 title: Akordiyon modülü
 description: Bu konu akordiyon modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719539"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416344"
 ---
 # <a name="accordion-module"></a>Akordiyon modülü
 
@@ -28,13 +31,15 @@ ms.locfileid: "6719539"
 
 Bu konu akordiyon modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
+## <a name="overview"></a>Özet
+
 Akordiyon modülleri, bir sayfadaki bilgileri veya modülleri daraltılabilir bir çekmece benzeri yetenek sağlayarak düzenlemek için kullanılan kapsayıcı benzeri modüllerdir. Bir akordiyon modülü herhangi bir sayfada kullanılabilir.
 
 Her akordiyon modülü içinde bir veya daha fazla akordiyon madde modülü eklenebilir. Her bir akordiyon öğesi modülü daraltılabilir bir çekmeceyi gösterir. Her akordiyon madde modülü içinde bir veya daha fazla modülü eklenebilir. Bir akordiyon madde modülüne eklenebilecek modül türlerinde bir sınırlama yoktur.
 
 Aşağıdaki resimde, bir mağazanın sık sorulan sorular (SSS) sayfasındaki bilgileri düzenlemek için kullanılan bir akordiyon modülü örneği gösterilmektedir.
 
-![Akordiyon modülü örneği.](./media/ecommerce-accordion.PNG)
+![Akordiyon modülü örneği](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Akordiyon modülü özellikleri
 
@@ -82,6 +87,3 @@ SSS sayfaya akordiyon modülü eklemek ve özelliklerini site oluşturucuda ayar
 [Sekme modülü](add-tab.md)
 
 [Metin bloğu modülü](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

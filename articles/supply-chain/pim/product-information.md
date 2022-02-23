@@ -2,31 +2,35 @@
 title: Ürün bilgilerine genel bakış
 description: Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri yönetimi paylaşılan ürün tanımı, kategori ve tüm tüzel kişilikler üzerindeki tanımlayıcıların yanı sıra iş süreçlerine uyum sağlamak üzere belirli ürün yapılandırmalarıyla birlikte çalışır.
 author: t-benebo
+manager: tfehr
 ms.date: 06/01/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063328"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527398"
 ---
 # <a name="product-information-overview"></a>Ürün bilgilerine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri yönetimi paylaşılan ürün tanımı, kategori ve tüm tüzel kişilikler üzerindeki tanımlayıcıların yanı sıra iş süreçlerine uyum sağlamak üzere belirli ürün yapılandırmalarıyla birlikte çalışır. 
 
@@ -55,7 +59,7 @@ Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri 
 
 Ürün tanımı Supply Chain Management'ta oluşturulabilir. Ayrıca ürün yaşam döngüsü yönetimi (PLM), ürün veri yönetimi (PDM) veya ürün bilgi yönetimi (PIM) sistemlerinden de alınabilir. Birden fazla Supply Chain Management kurulumu kullanıldığında bir kurulum, diğer tüm kurulumlar için tipik olarak ürün verilerinin aslı olarak kullanılır. Bu yaklaşım, bir kurulumdan diğerine ürün tanımı bilgilerini aktarmaya olanak tanıyan geniş bir veri varlıkları kümesi tarafından desteklenir.
 
-Ürün verilerinin birden çok kuruluma dağıtılmasını desteklemek için Supply Chain Management Microsoft Dataverse'ı kullanmanıza olanak tanır. Ürün tanımları, bir Supply Chain Management kurulumundan Microsoft Dataverse'a aktarılabilir. Ürün tanımları, daha sonra ürün verileriyle Dynamics 365 Sales gibi diğer iş uygulamalarını sağlamak için kullanılabilir.
+Ürün verilerinin birden çok kuruluma dağıtılmasını desteklemek için Supply Chain Management Common Data Service'ı kullanmanıza olanak tanır. Ürün tanımları, bir Supply Chain Management kurulumundan Common Data Service'a aktarılabilir. Ürün tanımları, daha sonra ürün verileriyle Dynamics 365 Sales gibi diğer iş uygulamalarını sağlamak için kullanılabilir.
 
 Dinamik ve çevik kuruluşlarda ürün bilgileri verilerinin her gün değiştiğini unutmayın. Bu nedenle, verilerin doğru ve gerçek ürün verilerinin korunması kendi başına önemli bir iş sürecidir.
 
@@ -92,6 +96,3 @@ Belirli bir tüzel kişilik için serbest bırakılan ürünler *serbest bırak�
 ### <a name="manually-creating-a-new-released-product"></a>Yeni serbest bırakılan ürünü el ile oluşturma
 
 Kuruluşun iş süreçlerine ve bu işlevin kullanılıp kullanılmayacağıyla ilgili kurallara bağlı olarak tek bir çalıştırmada el ile serbest bırakılan ürün oluşturabilirsiniz. Bu işlev yeni bir ürün oluşturur ve bunu otomatik olarak geçerli tüzel kişiliğe serbest bırakır. Yeni ürün oluşturmak için **Serbest bırakılan ürün bakımı** çalışma alanında veya **Serbest bırakılan ürün** liste sayfasında **Serbest bırakılan ürünler**'e tıklayın.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
 title: Siparişleri doğrudan teslim olarak sevk etme
 description: Bu konu, satış siparişi için bir doğrudan teslimat oluşturmayı göstermektedir.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572453"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966117"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Siparişleri doğrudan teslim olarak sevk etme
 
@@ -79,6 +81,3 @@ Bu konu, satış siparişi için bir doğrudan teslimat oluşturmayı göstermek
     - Doğrudan teslimat sayfası, satınalma aracısına doğrudan teslim edilecek tüm satış siparişi satırlarına yönelik genel bakış sağlayan bir çalışma ekranı olarak iş görür ve bunlara ilgili satınalma siparişlerini oluşturulma imkanı sağlar. Ayrıca, bunlar Onay ve Teslimat sekmelerinde açık doğrudan teslimat siparişlerini ve doğrulanan siparişleri görüntüleyebilir.  
     - Bir doğrudan teslimat siparişi oluşturduktan sonra, bu otomatik olarak Onay sekmesine gönderilir. Doğrudan bu sayfadan siparişi onaylamayı seçebilirsiniz. Satınalma onaylandığında, girişini kaydettirdiğiniz Teslimat sekmesine otomatik olarak taşınır.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,45 +1,58 @@
 ---
-title: Proje bütçesi iş akışı oluşturma ve gönderme
+title: Proje bütçesi gönderme ve onaylama
 description: Bu yordam, bir proje için bütçe oluşturmayı ve göndermeyi gösterir.
-author: Henrikan
-ms.date: 11/22/2021
-ms.topic: article
+author: RichardLuan
+manager: tfehr
+ms.date: 08/13/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.search.industry: Service industries
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f410d824be717537e6dfb5dbd8b71ff7d992e0a
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b871a3fef3515d3a79fb4b55406a93fc16d02faa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860437"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018740"
 ---
-# <a name="create-and-submit-a-project-budget-workflow"></a>Proje bütçesi iş akışı oluşturma ve gönderme
+# <a name="submit-and-approve-project-budget"></a>Proje bütçesi gönderme ve onaylama
 
 [!include [banner](../../includes/banner.md)]
 
-Proje bütçesi oluşturken, projenin tahmini gelirlerini ve maliyetlerini girebilir ve daha sonra gerçek proje hareketlerini denetlemek için bu değerleri kullanabilirsiniz. Proje bütçelemede, tüm özgün bütçeler ve düzeltmeler onay için bir proje iş akışına gönderilmelidir. İş akışı, size bütçe üzerinde artırılmış denetim sağlar ve değişiklik geçmişi kaydı oluşturur. [Proje oluşturduktan](/dynamicsax-2012/appuser-itpro/create-a-project) sonra bir proje için bütçe oluşturmak ve göndermek için bu prosedürü kullanın.
+Bu yordam, bir proje için bütçe oluşturmayı ve göndermeyi gösterir. 
 
-1. **Modüller** > **Proje yönetimi ve muhasebe** > **Projeler** > **Tüm projeler**'e gidin.
-1. Projeler listesinden, projeyi seçin.
-1. Proje ayrıntılar sayfasında, **Plan** sekmesini seçin.
-1. **Bütçe** grubu altında **Proje bütçesi**'ni seçin.
-1. **Genel** hızlı sekmesinde, aşağıdaki bilgileri girin:
-   - **Tanım** kutusuna bir değer girin.
-   - **Orijinal bütçe** için seçenek belirleyin.
-   - **Kalan bütçe** için seçenek belirleyin.
-1. **Maliyet** hızlı sekmesini genişletin ve **Yeni**'yi seçin. Aşağıdaki ayarları yapın:
-   - **Hareket türü** için bir seçenek belirleyin.
-   - Uygun bir **Kategori** seçin.
-   - **Orijinal bütçe**'de bir değer girin.
-1. **Gelirler** hızlı sekmesini genişletin ve **Yeni**'yi seçin. Aşağıdaki ayarları yapın:
-   - **Hareket türü** için bir seçenek belirleyin.
-   - Bir **Kategori** seçin.
-   - **Orijinal bütçe** için bir değer girin.
-1. **Kaydet**'i seçin.
-1. **İş Akışı \> Gönder**'i seçin.
-1. **Orijinal bütçe akışını incele - Gönder** sayfasında, bir **Yorum** girin ve **Gönder**'i seçin.
+Proje bütçesi oluşturduğunuzda, projenin tahmini gelirlerini ve maliyetlerini girebilir ve daha sonra gerçek proje hareketlerini denetlemek için bu değerleri kullanabilirsiniz. Proje bütçelemede, tüm özgün bütçeler ve düzeltmeler onay için bir proje iş akışına gönderilmelidir. İş akışı, size işlem üzerinde artırılmış denetim sağlar ve değişiklik geçmişi kaydı oluşturur.
+
+Bu görev, USSI veri kümesini kullanarak oluşturulmuştur.
+
+1. **Gezinti bölmesinde** **Modüller > Proje yönetimi ve muhasebe > Projeler > Tüm projeler**'e gidin.
+2. Listede, istenen kaydı bulun ve seçin.
+3. Listede, seçili satırdaki bağlantıya tıklayın.
+4. **Eylem Bölmesi**'nde **Plan**'a tıklayın.
+5. **Proje bütçesi**'ne tıklayın.
+6. **Tanım** alanına bir değer girin.
+7. **Maliyet** hızlı sekmesini genişletin.
+8. **Yeni**'ye tıklayın.
+9. **Hareket türü** alanında, bir seçenek belirleyin.
+10. **Kategori** alanına bir değer girin veya buradan bir değer seçin.
+11. **Orijinal bütçe** alanına bir sayı girin.
+12. **Gelirler** hızlı sekmesini genişletin.
+13. **Yeni**'ye tıklayın.
+14. Listede, seçili satırı işaretleyin.
+15. **Hareket türü** alanında, bir seçenek belirleyin.
+16. **Kategori** alanına bir değer girin veya buradan bir değer seçin.
+17. **Orijinal bütçe** alanına bir sayı girin.
+18. **Kaydet**'e tıklayın.
+19. **İş akışı**'na tıklayın.
+20. **Gönder**'e tıklayın.
+21. **Açıklama** alanında bir değer girin.
+22. **Gönder**'e tıklayın.
+

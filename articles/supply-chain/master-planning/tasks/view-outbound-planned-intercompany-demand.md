@@ -1,24 +1,27 @@
 ---
 title: Giden planlanmış şirketlerarası talebi görüntüleme
-description: Bu konuda, giden planlı şirketlerarası talebin nasıl görüntüleneceğini gösteren bir yordam açıklanmaktadır.
-author: ChristianRytt
+description: Bu yordam, şirketlerarası satıcı tarafından karşılanacak tüm planlı siparişlerin nasıl görüntüleneceğini gösterir.
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cf2350d754c5da9d3d428e2b75950d027ccfd63
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 259ce229c18466b7d29fd231dc3f0be8a6906c6b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569757"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439073"
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>Giden planlanmış şirketlerarası talebi görüntüleme
 
@@ -26,18 +29,17 @@ ms.locfileid: "7569757"
 
 Bu yordam, şirketlerarası satıcı tarafından karşılanacak tüm planlı siparişlerin nasıl görüntüleneceğini gösterir. Bu yordamı oluşturmak için kullanılan demo veri şirketi DEMF'dir.
 
-1. **Master planlama**'yı seçin.
-2. **Plan** alanına bir değer girin veya bir değer seçin.
-    * **Plan** alanında, plan *10*'u seçin.  
-3. *Çalıştır*'ı seçin.
-4. **İş parçacığı sayısı** alanına bir rakam girin.
+1. Master planlama'ya tıklayın.
+2. Plan alanında bir değer girin veya bir değer seçin.
+    * Plan alanında, plan 10'u seçin.  
+3. Çalıştır öğesine tıklayın.
+4. İş parçacığı sayısı alanına bir rakam girin.
     * Bu, master planlama için kullanılacak paralel iş parçacıklarının sayısını temsil eder.  
-5. **Tamam**'ı seçin.
+5. Tamam'a tıklayın.
     * Bu işlem biraz zaman alabilir.  
-6. **Planlanan şirketlerarası talep** seçeneğini belirleyin.
-7. **Giden planlanmış şirketlerarası talep** seçeneğini belirleyin.
+6. Planlanan şirketlerarası talep'e tıklayın.
+7. Giden planlı şirketlerarası talep'e tıklayın.
     * Bu sayfa, bir iç tedarik zinciri sayıcısı tarafından yerine getirilecek tüm planlı talebe genel bir bakış sağlar.  
-8. **Yukarı doğru talep ayrıntıları** bölümünü genişletin.
+8. Yukarı doğru talep ayrıntıları bölümünü genişletin.
     * Bu bölümde, talebin nasıl karşılanacağıyla ilgili ayrıntıları görebilirsiniz. Burada ek bilgiler görmeden önce tedarik şirketinde master planlamanın çalıştırılmasını beklemeniz gerekebilir.  
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

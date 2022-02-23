@@ -2,23 +2,26 @@
 title: Madde konsolidasyonu - yerleşim kullanımı
 description: Bu konu, ambar yöneticilerinin ambar içindeki yerleşimlerin hacimsel kullanımını görüntülemesini ve filtrelemesini kolaylaştıran işlev hakkında bilgi sağlar. Yöneticiler yerleşimleri seçip maddeleri konsolide etmek ve böylece ambar alanını daha iyi kullanabilmek için Madde Konsolidasyonu sayfasından doğrudan stok hareketi işi oluşturabilirler.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578620"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439623"
 ---
 # <a name="item-consolidation---location-utilization"></a>Madde konsolidasyonu - yerleşim kullanımı
 
@@ -147,7 +150,7 @@ Bu bölümde, sistemin madde konsolidasyonu ve yerleşim kullanımını kullanma
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
-Aşağıdaki senaryo, ambarda iki yerleşimde stok *ayarlaması* yapmak için ambar yönetimi mobil uygulamasını kullanır.
+Aşağıdaki senaryo, ambarda iki yerleşimde stok *ayarlaması* yapmak için mobil cihazda ambar uygulamasını kullanır.
 
 ### <a name="add-inventory-to-locations"></a>Yerleşimlere stok ekleme
 
@@ -205,6 +208,3 @@ Aşağıdaki senaryo, ambarda iki yerleşimde stok *ayarlaması* yapmak için am
 
     > [!NOTE]
    > Sistem, tamamlanması gereken her bir hareket için bir iş kodu oluşturur. Önceden stok içeren bir yerleşim belirlerseniz, yalnızca bir iş kodu oluşturulur. Yeni bir yerleşim belirtirseniz, iki iş kodu oluşturulur.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

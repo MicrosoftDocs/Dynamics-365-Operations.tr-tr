@@ -153,6 +153,3 @@ Bir teklif, çeşitli nedenlerle herhangi bir aşamada adaydan geri çekilebilir
 ## <a name="closing-an-offer"></a>Teklifi kapatma 
 
 Teklif kabul edildiğinde, reddedildiğinde veya geri alındığında ve başka eylemlere gerekli olmadığında, başka düzenlemeler yapılmaması için o teklif paketini kapatabilirsiniz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

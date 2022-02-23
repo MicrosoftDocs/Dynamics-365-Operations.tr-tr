@@ -2,9 +2,11 @@
 title: Görev kayıtları için güvenlik tanılaması
 description: Bu konu, bir görev kaydı temel alınarak güvenlik izni gereksinimlerinin nasıl analiz edileceği ve yönetileceği hakkında bilgi sağlar.
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745132"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679802"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Görev kayıtları için güvenlik tanılaması
 
@@ -39,7 +41,7 @@ Bu konu, bir görev kaydı temel alınarak güvenlik izni gereksinimlerinin nas�
 
 4. **Kullanıcı kimliği** alanında bir kullanıcı seçin. Kullanıcının bazı menü öğeleri için izni yoksa, **Eksik izinler** alanı **Evet** olarak güncelleştirilir.
   
-  ![Güvenlik menü öğesi ayrıntıları sayfası.](../media/Security-Menu-Item-Details.png)
+  ![Güvenlik menü öğesi ayrıntıları sayfası](../media/Security-Menu-Item-Details.png)
 
 5. Eksik izni veren roller, görevler ve ayrıcalıklar gibi güvenlik nesnelerinin listesini görmek için **Referans ekle**'yi seçin.
 6. Listeden bir güvenlik nesnesi seçin:
@@ -47,6 +49,3 @@ Bu konu, bir görev kaydı temel alınarak güvenlik izni gereksinimlerinin nas�
     - **Rol** seçiliyse, **Kullanıcıya rol ekle**'yi seçin. Bu, **Kullanıcıları rollere ata** sayfasını açar. Daha fazla bilgi için bkz. [Kullanıcıları güvenlik rollerine ata](assign-users-security-roles.md) sayfasına bakın.
     - **Görev** seçilmişse, **Role görev ekle**'yi seçin, görevin ekleneceği rolleri ve ardından **Tamam**'ı seçin.
     - **Ayrıcalık** seçilmişse, **Görevlere ayrıcalık**'yi seçin, görevin ekleneceği rolleri ve ardından **Tamam**'ı seçin.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

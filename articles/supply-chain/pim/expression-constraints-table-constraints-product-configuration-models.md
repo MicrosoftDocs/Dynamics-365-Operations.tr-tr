@@ -1,27 +1,30 @@
 ---
 title: Ürün yapılandırma modellerindeki ifade kısıtlamaları ve tablo kısıtlamaları
 description: Bu konuda ifade kısıtlamalarının ve tablo kısıtlamalarının kullanımı açıklanmaktadır. Kısıtlamalar ürünleri satış siparişi, satış teklifi, satınalma siparişi veya üretim emri için yapılandırdığınızda, seçebileceğiniz öznitelik değerlerini denetler. Kısıtlamaları nasıl oluşturmayı tercih ettiğinizde bağlı olarak ifade kısıtlamalarını veya tablo kısıtlamalarını kullanabilirsiniz.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8775a9225313c0f5a132dbccbe583470fe23beab
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570741"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439496"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Ürün yapılandırma modellerindeki ifade kısıtlamaları ve tablo kısıtlamaları
 
@@ -156,7 +159,7 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 <td><strong>İşleç:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Zaman</td>
+<td>Zamanlar</td>
 <td>Bu, koşullarının ürününü alır. Koşulların sayısı 0 (sıfır) ise, <strong>1</strong> değeri çıkar.</td>
 <td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
@@ -166,7 +169,7 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 </tr>
 <tr class="even">
 <td>Güç</td>
-<td>Vu, üslü değer alır. Kuvveti sağdan sola uygular. (Diğer bir deyişle, sağa ilişkilendirilebilir.) Bu nedenle, <strong>Power[a, b, c]</strong>, <strong>Power[, Power[b, c]]</strong> ile eşdeğerdir. <strong>Power</strong>, üs yalnızca pozitif bir sabit sayı ise kullanılabilir.</td>
+<td>Vu, üslü değer alır. Kuvveti sağdan sola uygular. (Diğer bir deyişle, sağa ilişkilendirilebilir.) Bu nedenle, <strong>Power[a, b, c]</strong>, <strong>Power[a, Power[b, c]]</strong> ile eşdeğerdir. <strong>Power</strong>, üs yalnızca pozitif bir sabit sayı ise kullanılabilir.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>İşleç:</strong> Power[x, 2] == y</li>
@@ -174,13 +177,13 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Maks</td>
+<td>Maks.</td>
 <td>Bu, en büyük koşulu oluşturur. Koşulların sayısı 0 (sıfır) ise, <strong>Sonsuzluk</strong> üretir.</td>
 <td>Max[args]</td>
 <td><strong>İşleç:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Minimum</td>
+<td>Min.</td>
 <td>Bu, en küçük koşulu oluşturur. Koşulların sayısı 0 (sıfır) ise, <strong>Sonsuzluk</strong> üretir.</td>
 <td>Min[args]</td>
 <td><strong>İşleç:</strong> Min[x, y, 2] == z</td>
@@ -219,7 +222,7 @@ Sonraki tablodaki örnekler parantezli yazımın nasıl yazılacağını göster
 |        (x)        |                           Parantezler varsayılan önceliği geçersiz kılar.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>İfade kısıtlamalarım neden hatasız doğrulanmıyor?
-Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapılandırma modelinde alt bileşenleri için çözücü ad olarak kullanamazsınız. Ayrılmış anahtar sözcüklerin bir listesi aşağıdadır:
+Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapılandırma modelinde alt bileşenleri için çözücü ad olarak kullanamazsınız. Kullanamayacağınız anahtar sözcüklerin bir listesi aşağıdadır:
 
 -   Üst
 -   Öğe
@@ -242,7 +245,8 @@ Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapı
 -   Hedef
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Bir ifade kısıtlaması oluşturma](tasks/add-expression-constraint-product-configuration-model.md)
 
@@ -250,6 +254,3 @@ Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapı
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

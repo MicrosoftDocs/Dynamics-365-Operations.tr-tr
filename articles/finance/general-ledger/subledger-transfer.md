@@ -1,48 +1,44 @@
 ---
-title: Yardımcı defterden genel muhasebeye transfer
-description: Bu konu, genel muhasebedeki alt defter transfer işlemiyle ilgili olan özellikleri açıklar.
-author: rcarlson
-ms.date: 12/08/2021
+title: Yardımcı defterden Genel muhasebeye transfer
+description: Bu konu, Microsoft Dynamics 365 Finance içindeki genel muhasebe transfer işlemiyle ilgili olan yetenekleri açıklar.
+author: roschlom
+manager: AnnBe
+ms.date: 09/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
-ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900742"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645182"
 ---
-# <a name="subledger-transfer-to-the-general-ledger"></a>Yardımcı defterden genel muhasebeye transfer
+# <a name="subledger-transfer-to-the-general-ledger"></a>Yardımcı defterden Genel muhasebeye transfer
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, yardımcı defter günlük girişleri toplu işleri aktarma kurallarıyla ilişkili özellikleri açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 Finance'un, alt genel muhasebe günlük girişleri toplu işleri aktarma kurallarıyla ilişkili özellikleri açıklanmaktadır.
 
-Sürüm 8.1'de kuralların aktarılmasına izin vermek için değişiklikler yapıldı ve **Zaman Uyumlu** seçeneği kullanım dışı bırakıldı. Daha fazla bilgi için bkz. [Finance and Operations için kaldırılan veya artık kullanılmayan özellikler](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
+Sürüm 8.1'de kuralların aktarılmasına izin vermek için değişiklikler yapıldı ve **Zaman Uyumlu** seçeneği kullanım dışı bırakıldı. Daha fazla bilgi için bkz. [Finance and Operations için kaldırılan veya artık kullanılmayan özellikler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/finance/toc.json#finance-and-operations-81-with-platform-update-20).
 
-Alt genel muhasebe toplu işlemlerine transfer için aşağıdaki seçenekler kullanılabilir:
+Alt genel muhasebe toplu işlemlerine transfer için aşağıdaki seçenekler kullanılabilir. 
 
-- **Zaman uyumsuz**: Yardımcı defter muhasebe girişlerinin genel muhasebeye transferi hemen zamanlanır. Kaynaklar bu isteği sunucuda işlemek için kullanılabilir olur olmaz Genel muhasebe fişi kaydedilecektir.
-- **Zamanlanmış toplu iş**: Transfer edilmesi gereken yardımcı defter muhasebe girişleri Genel muhasebedeki işleme kuyruğuna eklenir. Kuyruktaki girişler alındıkları sırada işlenir. Kaynaklar toplu işi sunucuda işlemek için kullanılabilir durumdaysa, her Genel muhasebe fişi hesapları planlanan zamanda güncelleştirir.
+ - Zaman uyumsuz – Bu seçenek, hemen, genel muhasebe hesap girişlerinin transfer zamanlamasını General muhasebeye nakleder. Kaynaklar bu isteği sunucuda işlemek için serbest bırakılır bırakılmaz, genel muhasebe fişi kaydedilecektir. 
 
-Sürüm 10.0.8'de **Zaman uyumsuz** seçeneğinin performansını artırmak için iyileştirmeler yapılmıştır. Bu özellik, performansın en iyi duruma getirilmesi **Genel muhasebe Özellik adı alt genel muhasebe aktarımı** altında etkinleştirilir.
-
-Yardımcı defter toplu işlerinin zaman uyumsuz aktarımı işlevi, yardımcı defterden genel muhasebeye veri aktarımını iyileştirmeye yardımcı olur. İşlev, daha küçük hareket kümelerini gruplayarak ve hareketleri gruplar halinde aktararak hareketleri daha verimli bir şekilde işler. Hareketler gruplandığında, toplu iş sunucusunun kaynakları daha verimli kullanılır.
-
-Alt genel muhasebe toplu işlemlerine ilişkin zaman uyumsuz aktarım toplu iş görevleri, toplu iş sunucusunda hemen yürütülmek üzere oluşturulduğundan, bu işlem sunucusunun ayarlanmasını, çevrimiçi olmasını ve çalışmasını gerektirir. **Genel muhasebeye alt muhasebe aktarımı performansını iyileştirme** özelliği etkinken, **Süreç otomasyonu yoklama sistem işi** adlı **Süreç otomasyonu** sistem toplu işi de etkinleştirilmelidir. Daha fazla bilgi için bkz. [İşlem otomasyonu](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
-
-Toplu iş düzeyindeki verimlilik değişikliği, sistemdeki tüm tüzel kişilikler için yinelenen tek bir toplu işlem kullanır. Çalışma zamanında, henüz transfer edilmemiş gerekli kayıtları işlemek için yeni bir toplu işlem oluşturulur. Sistem yönetimindeki **İşlem otomasyonu** sayfasından daha fazla ayar kontrol edilebilir. Bu sayfada, arka plan işlemini değiştirebilir, sıklığı değiştirebilir ve bir uyku süresi tanımlayabilirsiniz.
-
-İşlem otomasyonu kurulumu hakkında daha fazla bilgi için bkz. [İşlem otomasyonu](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- Planlanan toplu iş-bu seçenek, girişlerin teslim alındığı sırada işleneceği genel muhasebede işleme sırasına aktarılan alt genel muhasebe hesap girişlerini ekler. Kaynaklar bu isteği sunucuda işlemek için serbest bırakılır bırakılmaz, genel muhasebe fişi kaydedilecektir. 
+ 
+Sürüm 10.0.8'de Zaman uyumsuz seçeneğinin performansını artırmak için iyileştirmeler yapılmıştır. Bu özellik, performansın en iyi duruma getirilmesi **Genel muhasebe Özellik adı alt genel muhasebe aktarımı** altında etkinleştirilir. 
+ 
+Bu işlevsellik, alt iş defterindeki verilerin genel muhasebeye aktarılmasını geliştirir. Sürecin daha etkili olmasını sağlar ve transfer için birlikte daha küçük hareket kümeleri gruplandırır. Bu, toplu iş sunucusunun daha etkili bir şekilde kullanılmasına olanak sağlar. Bu işlevsellik, Zaman Uyumsuz transfer seçeneğinin çalışması için toplu iş sunucusunun ayarlanmış, çevrimiçi ve çalışır durumda olmasını gerektirir. 

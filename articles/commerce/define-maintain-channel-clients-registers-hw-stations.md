@@ -1,27 +1,30 @@
 ---
 title: Çevre birimlerini satış noktasına (POS) bağlama
 description: Bu konu, çevre birimlerinin Perakende POS'unuza nasıl bağlanacağı açıklanır.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 66912443c25adfae6fa11e6a25c4a97f63a438ba
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779530"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416345"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Çevre birimlerini satış noktasına (POS) bağlama
 
@@ -78,7 +81,7 @@ Kanal düzeyinde belirtilen donanım istasyonunun kendisi donanım istasyonu URL
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>Çevre birimi cihazlarına bağlı MPOS
 
-[![Geleneksel, sabit satış noktası.](./media/traditional-300x279.png)](./media/traditional.png)
+[![Geleneksel, sabit satış noktası](./media/traditional-300x279.png)](./media/traditional.png)
 
 Geleneksel, sabit POS senaryosunda MPOS'u POS çevre birimlerine bağlamak için önce kaydın kendisine gidin ve bir donanım profili atayın. POS kayıtlarını **Retail and Commerce** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** altında bulabilirsiniz. 
 
@@ -97,7 +100,7 @@ Son olarak, MPOS'ta **localhost** donanım istasyonunu seçmek için **Donanım 
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>Bağımsız donanım istasyonlu MPOS veya Bulut POS
 
-[![Paylaşılan çevre birimleri.](./media/shared-300x254.png)](./media/shared.png)
+[![Paylaşılan çevre birimleri](./media/shared-300x254.png)](./media/shared.png)
 
 Bu senaryoda bağımsız donanım istasyonu MPOS ve Bulut POS istemcileri arasında paylaşılır. Bu senaryoda donanım istasyonunun kullandığı indirme paketi, bağlantı noktası ve donanım profilini belirtmek için bir donanım istasyonu profili oluşturmanız gerekir. Donanım istasyonu profilini **Retail and Commerce** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım istasyonu profilleri** altında bulabilirsiniz. 
 
@@ -202,6 +205,3 @@ Etkinleştirmeyle ilgili ek bilgiler cihazın etkinleştirme durumunu değiştir
 ### <a name="client-data-synchronization"></a>İstemci verilerini eşitleme
 
 Cihazın etkinleştirme durumundaki değişiklikler hariç POS istemcisindeki tüm değişikliklerin etkinleştirilmesi için kanal veritabanıyla eşitlenmesi gerekir. Kanal veritabanındaki değişiklikleri eşitlemek için **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Dağıtım planı**'na gidin ve gerekli dağıtım planını çalıştırın. İstemci değişiklikleri için **Kayıtlar** ve **Kanal yapılandırması** dağıtım planlarını çalıştırmalısınız.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

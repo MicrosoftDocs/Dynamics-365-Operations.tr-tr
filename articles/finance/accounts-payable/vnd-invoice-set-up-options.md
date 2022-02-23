@@ -1,25 +1,28 @@
 ---
 title: Satıcı faturası otomasyonu için kurulum seçenekleri (Önizleme)
 description: Bu konu, satıcı faturası otomasyonu ayarlamak ve yapılandırma için kullanılabilen seçenekleri açıklar.
-author: sunfzam
-ms.date: 10/19/2021
+author: abruer
+manager: AnnBe
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: ebab41d8b7697f20095d6d4654718b88c8b08a82
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675481"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665210"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Satıcı faturası otomasyonu için kurulum seçenekleri
 
@@ -27,18 +30,12 @@ ms.locfileid: "7675481"
 
 Bu konu, satıcı faturası otomasyonu ayarlamak ve yapılandırma için kullanılabilen seçenekleri açıklar. Fatura otomasyonu özellikleri aşağıdaki kurulum parametresi türlerini kullanır:
 
-- İçe aktarılan faturalardaki peşinatlar otomatik olarak uygulanacak parametreler.
 - İçe aktarılan satıcı faturalarını iş akışı sistemine gönderme ve deftere nakledilen ürün giriş satırlarını bekleyen satıcı fatura satırlarına eşleştirmeye yönelik parametreler.
 - İşleme otomasyonu arka plan görevleriyle ilgili parametreler. İşlem otomasyonu çerçevesi, içe aktarılan satıcı faturalarını iş akışı sistemine göndermek için kullanılır. Ayrıca, deftere nakledilen ürün giriş satırlarını bekleyen satıcı fatura satırlarıyla otomatik olarak eşleştirmek ve ürün giriş satırlarıyla otomatik olarak eşlenen manuel faturalar için fatura eşleştirme doğrulaması gerçekleştirmek amacıyla da kullanılır. Farklı iş süreçleri seçili bir işlemin ne sıklıkta çalıştırılacağını tanımlamak için bu çerçeveyi kullanır. **Ürün girişini fatura satırlarıyla eşleştir** ve **Satıcı faturalarını iş akışına gönder** arka plan işlemlerindeki kullanılabilir sıklıklar **Saat** ve **Günlük**'tür.
 
 Bir arka plan göreviyle ilgili bilgileri ayarlamak veya görüntülemek için, **Sistem Yönetimi \>Kurulum \> İşlem otomasyonları**'na gidin **Arka plan görevi** sekmesini seçin.
 
 Satıcı faturası deftere nakli aracılığıyla içe aktarma işleminden temassız otomasyon elde etmek için, bir satıcı faturası iş akışı ayarlamanız gerekir. İş akışı ayarlamak için **Borç hesapları > Kurulum > Borç hesapları iş akışları**'na gidin. Faturanın el ile müdahale olmadan başlangıçtan bitişe kadar işlendiğinden emin olmak için, iş akışı yapılandırmanıza otomatik deftere nakil görevi eklemeniz gerekir.
-
-## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>İçe aktarılan faturalardaki peşinatlar otomatik olarak uygulanacak parametreler
-
-- **İçe aktarılan faturalar için ön ödemeyi otomatik olarak uygula** – Bu seçenek **Evet** olarak ayarlandığında, sistem, satıcı faturaları içe aktarıldığında ilgili satınalma siparişi için var olan peşinatlar otomatik olarak arar. Uygulanabilecek peşinatlar bulunursa, alınan satıcı faturalarındaki peşinatlar uygulamak için ek bir satır eklenir.
-- **Ön ödeme uygulaması hatası durumunda takip etme otomasyon sürecini engelle** – Bu seçenek **Evet** olarak ayarlandığında, ön ödeme uygulanmazsa faturalar bloke edilir. Makbuz eşleştirme süreci ve bir iş akışı işlemine gönderim gibi diğer otomatikleştirilmiş işlemler gibi, fatura otomasyon işlemi de ön ödeme el ile uygulanarak bloke faturaları çekmez. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>İçe aktarılan satıcı faturalarını iş akışı sistemine gönderme parametreleri
 
@@ -66,6 +63,3 @@ Aşağıdaki parametreler kullanılabilir:
 
 - **Otomatik eşleştirmeyi deneme sayısı** - İşlemin başarısız olması sonucuna varmadan önce, sistemin ürün girişlerini bir fatura satırıyla eşleştirmek için kaç kez deneme yapması gerektiğini seçin. Belirtilen deneme sayısına ulaşıldığında, fatura otomasyon işleminden kaldırılır.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

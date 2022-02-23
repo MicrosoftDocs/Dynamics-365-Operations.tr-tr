@@ -2,24 +2,27 @@
 title: Ödeme modülü
 description: Bu konu ödeme modülünü kapsamaktadır ve bu modülün Microsoft Dynamics 365 Commerce'ta nasıl yapılandırılacağını açıklamaktadır.
 author: anupamar-ms
-ms.date: 01/07/2022
+manager: annbe
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 27b73f7a05605e4e3ee8f8b72400172b7a8bfc33
+ms.sourcegitcommit: ec78608eb96478b7a57928b60aece129d6799c5b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952481"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4581924"
 ---
 # <a name="payment-module"></a>Ödeme modülü
 
@@ -42,27 +45,27 @@ Ayrıca ödeme modülü de oturum açmış müşterilerin ödeme bilgilerini kay
 Adyen ödeme bağlayıcısı güçlü müşteri kimlik doğrulamasını (SCA) da destekler. Avrupa Birliği (AB) Revize Ödeme Hizmetleri Yönergesi (PSD2), çevrimiçi alışverişçilerin elektronik ödeme yöntemi kullandıklarında çevrimiçi alışveriş deneyimlerinin dışında kimlik doğrulamasının yapılmasını gerektirir. Kullanıma alma akışı sırasında, müşteriler bankacılık sitesine yönlendirilir ve bunları kimlik doğrulamasından sonra Commerce ödeme sağlama akışına yeniden yönlendirilir. Bu yeniden yönlendirme sırasında, bir müşterinin ödeme akışına girdiği bilgiler (örneğin, sevkiyat adresi, teslimat seçenekleri, hediye kartı bilgileri ve bağlılık programı bilgileri) kalır. Adyen ödeme bağlayıcısı özelliği etkinleştirmeden önce, SCA için ödeme bağlayıcısının Commerce Headquarters'da yapılandırılması gerekir. Daha fazla bilgi için bkz. [Adyen kullanarak Güçlü Müşteri Kimlik Doğrulaması](adyen_redirect.md). Bu özellik, Commerce sürüm 10.0.12'te etkinleştirildi.
 
 > [!NOTE]
-> Adyen ödeme Bağlayıcısı için, ödeme modülündeki iframe modülü ancak, adyen URL'sini sitenizin izin verilenler listesine eklediğinizde oluşturulabilir. Bu adımı tamamlamak için, **\*.adyen.com** öğesini sitenizin içerik güvenlik ilkesinin **child-src**, **connect-src**, **img-src**, **script-src** ve **Style-src** yönergelerine ekleyin. Daha fazla bilgi için bkz. [İçerik Güvenlik İlkesini yönetme](manage-csp.md). 
+> Adyen ödeme Bağlayıcısı için, ödeme modülündeki iFrame modülü ancak, adyen URL'sini sitenizin izin verilenler listesine eklediğinizde oluşturulabilir. Bu adımı tamamlamak için, **\*.adyen.com** öğesini sitenizin içerik güvenlik ilkesinin **child-src**, **connect-src**, **img-src**, **script-src** ve **Style-src** yönergelerine ekleyin. Daha fazla bilgi için bkz. [İçerik Güvenlik İlkesini yönetme](manage-csp.md). 
 
 Aşağıdaki resimde, Adyen ödeme sayfasındaki hediye kartı, bağlılık ve ödeme modülleri gösterilmektedir.
 
-![Ödeme sayfasındaki hediye kartı, bağlılık programı, Adyen ve ödeme modüllerini gösteren örnek.](./media/ecommerce-payments.PNG)
+![Ödeme sayfasındaki hediye kartı, bağlılık programı, Adyen ve ödeme modüllerini gösteren örnek](./media/ecommerce-payments.PNG)
 
 ## <a name="dynamics-365-payment-connector-for-paypal"></a>PayPal için Dynamics 365 Payment Connector
 
 Commerce Release 10.0.14 itibariyle, PayPal için Dynamics 365 ödeme Bağlayıcısı ile ödeme modülü de tümleşiktir. Ödeme bağlayıcısını kurma ve yapılandırma hakkında daha fazla bilgi için bkz. [Paypal için Dynamics 365 Ödeme Bağlayıcısı](paypal.md).
  
-Kullanıma alma sayfasında, adyen ve PayPal bağlayıcılarının her ikisi birden yapılandırılmış olabilir. Ödeme modülü, hangi bağlayıcının çalışması gerektiğini belirlemeye yardımcı olan ek özelliklerle geliştirilmiştir. Ayrıntılar için **Desteklenen ödeme tipleri**'ne bakın ve **Birincil ödeme** aşağıdaki tabloda modülü özelliklerine bakın.
+Kullanıma alma sayfasında, adyen ve PayPal bağlayıcılarının her ikisi birden yapılandırılmış olabilir. Ödeme modülü, hangi bağlayıcının çalışması gerektiğini belirlemeye yardımcı olan ek özelliklerle geliştirilmiştir. Ayrıntılar için, **desteklenen ödeme tiplerine bakın** ve **izlenen birincil ödeme** modülü özellikleri.
   
 Ödeme modülü PayPal ödeme bağlayıcısını kullanacak şekilde konfigüre edildiğinde, kullanıma alma sayfasında bir PayPal düğmesi görüntülenir. Müşteri tarafından çağrıldığında, ödeme modülü PayPal bilgilerini içeren bir iframe'i işler. Müşteri, hareketini tamamlamak için oturum açabilir ve bu iframe içinde PayPal bilgilerini sunabilir. Bir müşteri PayPal ile ödeme yapmayı seçtiğinde, siparişteki kalan bakiye PayPal aracılığıyla ücretlendirilecektir.
 
 Tüm faturalama ile ilgili bilgiler, iframe içinde PayPal tarafından işlendiğinden, PayPal ödeme Bağlayıcısı bir faturalama adresi modülü gerektirmiyor. Ancak sevkiyat adresi ve teslim seçenekleri modülleri gereklidir.
 
 Aşağıdaki şekil, biri bir kullanıma alma sayfasında bulunan, diğeri de bir adyen ödeme Bağlayıcısı ve diğeri PayPal ödeme Bağlayıcısı ile konfigüre edilen iki ödeme modülü örneği göstermektedir.
-![Ödeme sayfasındaki Adyen ve Paypal modüllerini gösteren örnek.](./media/ecommerce-paypal.png)
+![Ödeme sayfasındaki Adyen ve Paypal modüllerini gösteren örnek](./media/ecommerce-paypal.png)
 
 Aşağıdaki çizimde, PayPal düğmesi kullanılarak çağrılan PayPal iframe dosyasının bir örneği gösterilmektedir. 
-![Kullanıma alma sayfasında Paypal iframe örneği.](./media/ecommerce-paypal-iframe.png)
+![Kullanıma alma sayfasında Paypal iframe örneği](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Ödeme modülü özellikleri
 
@@ -72,11 +75,11 @@ Aşağıdaki çizimde, PayPal düğmesi kullanılarak çağrılan PayPal iframe 
 | iframe yüksekliği. | Piksel | Piksel cinsinden iframe yüksekliği. Yükseklik gerektiği gibi ayarlanabilir. |
 | Fatura adresini göster | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, faturalama adresi ödeme modülü iframe içinde Adyen tarafından sunulur. **Yanlış** olarak ayarlanırsa, faturalama adresi Adyen tarafından işlenmez ve Commerce kullanıcısının ödeme sayfasında fatura adresini göstermek için bir modül yapılandırması gerekir. PayPal ödeme Bağlayıcısı için, faturalama adresi PayPal içinde tam olarak işlendiğinden, bu alanın bir etkisi olmaz. |
 | Ödeme stilini geçersiz kıl | Geçişli Stil Sayfaları (CSS) kodu | Ödeme modülü bir iframe içinde barındırıldığından, sınırlı stil oluşturma yeteneği vardır. Bu özelliği kullanarak bazı stil özellikleri elde edebilirsiniz. Site stillerini geçersiz kılmak için CSS kodunu bu özelliğin değeri olarak yapıştırmanız gerekir. Site oluşturucu CSS geçersiz kılmaları ve stilleri bu modüle uygulanamaz. |
-|Desteklenen ödeme türleri| Dize| Birden fazla ödeme Bağlayıcısı konfigüre edilmiş ise, Commerce Headquarters ödeme Bağlayıcısı konfigürasyonlarında tanımlandığı şekilde desteklenen ödeme tipi dizesini sağlamanız gerekir (aşağıdaki resme bakın). Boş bırakılırsa, varsayılan olarak adyen ödeme Bağlayıcısı 'nı alır. Commerce sürüm 10.0.14'e eklendi.|
+|Desteklenen ödeme türleri| Dize| Birden fazla ödeme Bağlayıcısı konfigüre edilmiş ise, Commerce Headquarters ödeme Bağlayıcısı konfigürasyonlarında tanımlandığı şekilde desteklenen ödeme tipi dizesini sağlamanız gerekir (izleme resmine bakın). Boş bırakılırsa, varsayılan olarak adyen ödeme Bağlayıcısı 'nı alır. Commerce sürüm 10.0.14'e eklendi.|
 |Birincil ödemedir|  **Doğru** veya **yanlış** | Değer **doğru** ise , kullanıma alma sayfasındaki birincil ödeme bağlayıcısından alınan tüm hata iletileri oluşturulur. Adyen ve PayPal ödeme bağlayıcıları yapılandırılırsa, adyen ile **doğru** değerini Commerce sürüm 10.0.14'e eklenmiş olarak ayarlayın.|
 
 Aşağıdaki çizimde, Commerce Headquarters 'da ödeme Bağlayıcısı konfigürasyonunda "PayPal" olarak ayarlanan **Desteklenen ödeme tipleri** değerinin bir örneği gösterilmektedir.
-![Commerce Headquarters'da desteklenen ödeme tipleri örneği.](./media/ecommerce-paymenttendertypes.png)
+![Commerce Headquarters'da desteklenen ödeme tipleri örneği](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Fatura adresi
 
@@ -90,24 +93,7 @@ Bir faturalama adresi modülü, Adyen ödeme Bağlayıcısı fatura adres satır
 
 Ödeme modülü yalnızca bir ödeme modülüne eklenebilir. Bir ödeme sayfası için ödeme modülü yapılandırmayla ilgili daha fazla bilgi için bkz. [Ödeme modülü](add-checkout-module.md).
 
-## <a name="configure-the-adyen-and-paypal-payment-connectors-when-both-are-used"></a>Her ikisi de kullanıldığında, Adyen ve PayPal ödeme bağlayıcılarını konfigüre edin
-
-Siteniz için hem Adyen hem de PayPal ödeme bağlayıcıları kullanılacaksa her bir bağlayıcı için ödeme modüllerini kullanıma alma modülüne eklemek ve sonra her modülün özelliklerini konfigüre etmek için Commerce site oluşturucuda aşağıdaki adımları izleyin.
-
-1. PayPal ödeme modülünün özellikler bölmesinde şu adımları izleyin:
-
-    1. **Desteklenen ödeme tipleri** özelliği alanında **PayPal** girin.
-    1. **Birincil ödeme** özelliği için onay kutusunu temizleyin.
-    1. **Bağlayıcı kodu kullan** özelliği için onay kutusunu işaretleyin.
-
-1. Adyen ödeme modülünün özellikler bölmesinde şu adımları izleyin:
-
-    1. **Desteklenen ödeme tipleri** özelliği alanını boş bırakın.
-    1. **Birincil ödeme** özelliği için onay kutusunu seçin.
-    1. **Bağlayıcı kodu kullan** özelliği için onay kutusunu işaretleyin.
-
-> [!NOTE]
-> Adyen ve PayPal bağlayıcılarını birlikte kullanılacak şekilde konfigüre ettiğinizde, **Adyen için Dynamics 365 Ödeme Bağlayıcısı** konfigürasyonu, çevrimiçi kanalın **Ödeme Hesapları** bağlayıcısı konfigürasyonunun Commerce Headquarters'ta ilk konumunda olmalıdır. Bağlayıcı sırasını onaylamak veya değiştirmek için, **Çevrimiçi mağazalar**'a gidin ve siteniz için kanalı seçin. Ardından, **Kurulum** sekmesinde, **Ödeme Hesapları** hızlı sekmesinde, **Bağlayıcı** altında, **Adyen için Dynamics 365 Ödeme Bağlayıcısı** konfigürasyonunun ilk konumda olduğundan (yani en üst satırda olduğundan) ve **PayPal için Dynamics 365 Ödeme Bağlayıcısı** konfigürasyonunun ikinci satırda olduğundan emin olun. Yeniden sıralamak için gereken bağlayıcıları ekleyin veya kaldırın.
+Hem Adyen hem de PayPal ödeme bağlayıcıları gerekiyorsa, her iki modülü de ödeme bölümüne ekleyin. **Desteklenen ödeme tipleri** özellik değerinin PayPal için konfigüre edildiğinden emin olun ve adyen için boş bırakın. Adyen için, **birincil ödeme** özelliğini de **doğru** olarak ayarlayın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -132,6 +118,3 @@ Siteniz için hem Adyen hem de PayPal ödeme bağlayıcıları kullanılacaksa h
 [PayPal için Dynamics 365 Payment Connector](paypal.md)
 
 [Adyen bağlayıcısı kullanan Güçlü Müşteri Kimlik Doğrulaması](adyen_redirect.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

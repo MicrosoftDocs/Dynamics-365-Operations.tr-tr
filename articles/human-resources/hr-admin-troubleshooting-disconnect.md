@@ -1,32 +1,30 @@
 ---
-title: İstemcinin bağlantısı kesiliyor
-description: Bu konuda, müşterinin ortamla bağlantısının kesilmesi durumunda neler yapılması gerektiği açıklanmaktadır.
-author: twheeloc
-ms.date: 08/19/2021
+title: İstemcisinin bağlantısı kesiliyor
+description: Bu konu, müşteri ortamından bilinmediği sebeple bağlantısı kesilirse ne yapılacağını açıklar.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071147"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4421023"
 ---
-# <a name="client-disconnects"></a>İstemcinin bağlantısı kesiliyor
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="client-disconnects"></a>İstemcisinin bağlantısı kesiliyor
 
 **Ortam ayrıntıları** 
 
@@ -54,6 +52,3 @@ Microsoft Dynamics 365 Human Resources kullanıcılar aynı anda, aynı kullanı
 Bir tarayıcı türü için yalnızca bir ortamın açık olduğundan emin olun. Kullanıcılar, aynı ortama birden fazla oturumu açabilirler (aynı tarayıcı içinde birden fazla sekmede).
 
 İki ortam arasında aynı zamanda geçiş yapmak isteyen kullanıcılar, her bir ortamı farklı bir tarayıcı türünde açmalıdırlar. (Örneğin, kullanıcı A ortam 1'i Chrome'da ve ortam 2'yi Microsoft Edge'de görüntüleyebilir.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

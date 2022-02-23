@@ -2,30 +2,33 @@
 title: Alım satım varlıkların sıralama düzenini değiştirme
 description: Bu konu, alım satım ilgili çeşitli kuruluşlar için Dynamics 365 Commerce'deki görüntüleme sırasını denetlemeyle ilgili kavramları açıklamaktadır.
 author: josaw1
+manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779554"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416433"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alım satım varlıkların sıralama düzenini değiştirme
 
 
-[!Include [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Perakendeciler, tüm kanallarda müşteri etkileşimi için ürün keşfini bir ana araç olarak kabul edin. Çeşitli işlevler müşterilerin ürünleri kolayca bulmasına yardımcı olabilir. Örneğin kategorilerine, aramaya ve filtreye göz atabilirler.
 
@@ -51,9 +54,9 @@ Bu yordamı tamamlayabilmek için, demo verilerinin çalışma ortamınıza yük
 
 Kanal gezinti hiyerarşisinin görüntüleme sırası, Commerce ürün hiyerarşisi için HQ ve kategoriye göre serbest bırakılan Ürünler için yansıtılır.
 
-![Özel negatif değerlerle sıralanan ürün hiyerarşisi.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Özel negatif değerlerle sıralanan ürün hiyerarşisi](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Ürün hiyerarşisine göre özel sıralanmış, kategoriye göre yayınlanan ürünler.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Ürün hiyerarşisine göre özel sıralanmış, kategoriye göre yayınlanan ürünler](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Kanal gezinme hiyerarşisindeki kategorilerin görüntülenme sırasını konfigüre etme
 
@@ -77,14 +80,11 @@ Bu yordamı tamamlayabilmek için, demo verilerinin çalışma ortamınıza yük
 
 Kanal gezinme hiyerarşisinin görüntüleme sırası HQ, Katalog ve kanallarda yansıtılır.
 
-![Kanal gezinme hiyerarşisi özel sıralandı.](./media/ChannelNavCustomSorted.png)
+![Kanal gezinme hiyerarşisi özel sıralandı](./media/ChannelNavCustomSorted.png)
 
-![Katalog Gezinti hiyerarşisi kanal gezinti hiyerarşisine göre özel sıralandı.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Katalog Gezinti hiyerarşisi kanal gezinti hiyerarşisine göre özel sıralandı](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![Özel sıralı kategorileri olan POS.](./media/POSChannelCategoriesCustomSorted.png)
+![Özel sıralı kategorileri olan POS](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Varsayılan olarak, özel sıralama düzeni özelliği kapalıdır. Bu özelliği ve diğer özellikleri nasıl açacağınızı öğrenmek için [Özellik Yönetimi](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)'ne bakın.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Varsayılan olarak, özel sıralama düzeni özelliği kapalıdır. Bu özelliği ve diğer özellikleri nasıl açacağınızı öğrenmek için [Özellik Yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)'ne bakın.

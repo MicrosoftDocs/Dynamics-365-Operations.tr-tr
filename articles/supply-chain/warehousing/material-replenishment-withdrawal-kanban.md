@@ -2,13 +2,16 @@
 title: Çekme kanbanlarıyla stok yenileme
 description: Bu konu, çekme kanbanının malzeme stok yenileme ve üretim etkinlikleri için nasıl kullanılacağını açıklar.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742596"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439614"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Çekme kanbanlarıyla stok yenileme
 
@@ -30,12 +33,13 @@ ms.locfileid: "6742596"
 Bu konu, çekme kanbanının malzeme stok yenileme ve üretim etkinlikleri için nasıl kullanılacağını açıklar.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Çekme kanbanı kullanan malzeme stok yenileme için iş akışı
+-------------------------------------------------------------------
 
 Çekme kanbanı, malzemenin tüketildiği tek bir öğenin kanbanını ambarlar ve üretim konumları arasında taşımak için kullanılabilir. Çekme kanbanı, malzeme stok yenileme için belirli bir talep için tedariki tetiklemek üzere bir çekme sinyalinin gerekli olduğu, çekmeye dayalı bir çözüm sunmaktadır. 
 
 Aşağıdaki senaryo, bir çekme sinyalinin bir üretim işlemi için malzemenin yenilenmesini tetikleyen bir kanbanın oluşturulduğu, çekme tabanlı bir stok yenileme sistemini gösterir. 
 
-[![Çekme sinyali, üretim işlemi için bir stok yenilenmesi amacıyla bir kanbanın oluşturulmasını tetikler.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Çekme sinyali, üretim işlemi için bir stok yenilenmesi amacıyla bir kanbanın oluşturulmasını tetikler](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Çekme kanbanı
 2.  Kanban "kaynak" konumu ve ambar işi için koyma konumu
@@ -72,7 +76,7 @@ Ambar konumları ve üretim giriş konumu arasındaki mesafe kısaysa, transfer 
 
 Aşağıdaki senaryoda, çekme kanbanının transfer etkinliği, aynı ambardaki iki konum arasında transfer etmek üzere yapılandırılmıştır. Çekme kanbanının transfer etkinliği, otomatik tamamlanmak üzere ayarlanmıştır. 
 
-[![Kanban çekme işi işlendiğinde transfer etkinliği otomatik tamamlanır.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![Kanban çekme işi işlendiğinde transfer etkinliği otomatik tamamlanır](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Hammadde ve üretim için paylaşılan ambar
 2.  Hammaddeler için ambar konumları
@@ -83,6 +87,3 @@ Aşağıdaki senaryoda, çekme kanbanının transfer etkinliği, aynı ambardaki
 
 Bir kanban üretim girişi konumunda tüketildikten sonra, kanban boş olarak kaydedilir ve yeni bir kanban akışa eklenir. Kanban oluşturulduğunda, bir dalga satırı kanban dalgasına atanır. Bir kanban dalgası işlendiğinde, kanban çekme için bir ambar işi oluşturulur. Ambar çalışan, kanban çekme için işi işleme alır ve iş tarafından kanban için malzemeleri bir ambar konumundan almaya yönlendirilir. Bu ambar çalışanı çekmeyi onayladığında, kanban otomatik tamamlanır ve ambar çalışanı malzemeyi üretim giriş konumuna koymaya yönlendirilir.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

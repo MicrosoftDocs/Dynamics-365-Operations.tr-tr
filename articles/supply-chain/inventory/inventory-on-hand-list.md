@@ -1,24 +1,27 @@
 ---
 title: Eldeki stok listesi
 description: Bu konu, eldeki stok ayrıntılarını incelemek için Eldeki stok listesi sayfasının nasıl kullanılacağını açıklar. Çeşitli filtreleme ve sıralama seçeneklerinin birlikte çalışması ve bu seçeneklerin kimi zaman birleştirildiklerinde beklenmedik sonuçlar üretebileceği birçok yolu gösterir.
-author: yufeihuang
+author: sherry-zheng
+manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439714"
 ---
 # <a name="inventory-on-hand-list"></a>Eldeki stok listesi
 
@@ -143,6 +146,3 @@ Elde edilen çıktı aşağıdaki gibidir.
 | IA0001 | 1 | 2 | 2 |
 
 **Filtreler** bölmesindeki ayarların, bu bölümün başlangıcında gösterilen ayrıntılı (toplanmayan) stok tablosuna uygulanacağını unutmayın. Bu nedenle, **Kullanılabilir Fiziksel Miktar** \| **küçüktür veya eşittir** \| _1_ ölçütü o tablodan iki satır bulur (her biri _1_ **Kullanılabilir Fiziksel Miktar** değerini gösterir). Ancak bu senaryoda, **Eldeki liste** sayfası **Ambar** boyutunu gösterecek şekilde ayarlanmamıştır. Bu nedenle, her iki satırda da gösterilen tüm boyutlarda aynı değerler olduğu için iki özgün satırı tek bir sonuç satırına toplar. **Kullanılabilir Fiziksel Miktar** değeri _2_ olarak gösterildiğinden, bu satır filtre ölçütünü ihlal ediyor gibi görünür. Ancak, **Filtreler** bölmesindeki ayarlar, **Eldeki liste** sayfasında gösterilen toplanmış tabloya değil, kaynak tabloya uygulandığı için sonuç doğrudur.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

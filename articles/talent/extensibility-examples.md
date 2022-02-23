@@ -79,6 +79,3 @@ Bu uygulamayı, referanslar göndermek için çalışan self servisi'ne (ESS) ka
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [Kiracılar ve ortamlar arasında uygulamaları geçirmek](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

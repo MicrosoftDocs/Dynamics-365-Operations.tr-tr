@@ -1,31 +1,37 @@
 ---
 title: Ekstre deftere nakil işlevi geliştirmeleri
 description: Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.
-author: analpert
-ms.date: 01/31/2022
+author: josaw1
+manager: AnnBe
+ms.date: 05/14/2019
 ms.topic: article
-audience: Application User, Developer, IT Pro
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
-ms.author: analpert
+ms.search.industry: retail
+ms.author: anpurush
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087615"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416497"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Ekstre deftere nakil işlevi geliştirmeleri
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu ekstre deftere nakli özelliğinde yapılan ilk geliştirme kümesini açıklar. Bu iyileştirmeler Microsoft Dynamics 365 for Finance and Operations 7.3.2 içinde kullanılabilirdir.
 
 ## <a name="activation"></a>Etkinleştirme
 
-Varsayılan olarak, Finans ve Operasyon 7.3.2 dağıtımı sırasında program eski ekstre deftere nakil özelliğini kullanacak şekilde ayarlanır. Geliştirilmiş ekstre deftere nakil özelliğini etkinleştirmek için buna ilişkin yapılandırma anahtarını etkinleştirmeniz gerekir.
+Varsayılan olarak, Finance and Operations 7.3.2 dağıtımı sırasında program eski ekstre deftere nakil özelliğini kullanacak şekilde ayarlanır. Geliştirilmiş ekstre deftere nakil özelliğini etkinleştirmek için buna ilişkin yapılandırma anahtarını etkinleştirmeniz gerekir.
 
 - **Sistem Yönetimi** \> **Kurulum** \> **Lisans yapılandırması**'na gidin ve daha sonra **Perakende ve Ticaret** düğümü altından **Ekstreler (eski)** onay kutusunun seçimini kaldırın ve **Ekstreler** onay kutusunu işaretleyin.
 
@@ -50,24 +56,12 @@ Ekstre deftere nakli özelliğinde yapılan geliştirmelerin bir parçası olara
 
 - **Sayımın devre dışı bırakılması gerekli** – Bu seçenek **Evet** olarak ayarlandığında, sayılan tutar ile hareket tutarı arasındaki fark mağazaları için **Ekstre** hızlı sekmesinde belirtilen eşiğin dışında olsa bile ekstre deftere nakil işlemi devam eder.
 
-> [!NOTE]
-> Commerce sürüm 10.0.14 sürümünden sonra **Perakende ekstreleri - İç besleme** özelliği etkinleştirildiğinde, **Stoku deftere naklet** toplu işlemi artık geçerli değildir ve çalıştırılamaz.
-
 Ek olarak, aşağıdaki parametreler **Ticaret parametleri** sayfasının **Deftere nakil** sekmesindeki **Toplu işleme** hızlı sekmesinde kullanıma sunulmuştur: 
 
 - **Paralel ekstre deftere nakil maksimum sayısı** - Bu alan, çoklu ekstreleri deftere nakletmek için kullanılacak toplu iş görevlerini tanımlar. 
 - **Ekstre başına sipariş işleme için maksimum iş parçacığı** - Bu alan, tek bir ekstre için satış siparişleri oluşturmak ve faturalamak üzere ekstre deftere nakli toplu işi tarafından kullanılan maksimum iş parçacığı sayısını gösterir. Ekstre deftere nakil işlemi tarafından kullanılacak toplam iş parçacığı sayısı, bu parametredeki değer **Paralel ekstre deftere nakil maksimum sayısı** parametresindeki değerle çarpılarak hesaplanır. Bu parametrenin değerinin çok yüksek bir değere ayarlanması, ekstre deftere nakil işleminin performansını olumsuz etkileyebilir.
 - **Toplama dahil edilen maksimum hareket satırı** - Bu alan, yenisi oluşturulmadan önce tek bir toplam harekete dahil edilecek hareket satırlarının sayısını tanımlar. Toplu hareketler müşteri, iş tarihi veya mali boyutlar gibi farklı toplama ölçütleri temel alınarak oluşturulur. Tek bir hareketindeki satırların, farklı toplu hareketler arasında bölünemeyeceğini unutmayın. Bu, toplu hareketteki satırların sayısının, farklı ürünlerin sayısı gibi etkenlere bağlı olarak biraz daha yüksek veya düşük olma olasılığı bulunduğu anlamına gelir.
 - **Mağaza hareketlerini doğrulamak için maksimum iş parçacığı sayısı** - Bu alan, hareketlerini doğrulamak için kullanılacak iş parçacıklarının sayısını tanımlar. Hareketlerinin doğrulanması, hareketler ekstrelerden çekilmeden önce gerçekleşmesi gereken bir adımdır. **Ticaret parametreleri** sayfasının **Deftere nakil** sekmesindeki **Hediye kartı** hızlı sekmesinde bir **Hediye kartı ürünü** tanımlamanız gerekir. Kuruluş hediye kartları kullanmasa bile tanımlanması gerekir.
-
-Aşağıdaki tabloda, önceki parametreler için önerilen değerler listeler. Bu değerler test edilmeli ve dağıtım yapılandırmasına ve kullanılabilir altyapıya göre uyarlanmalıdır. Önerilen değerlerdeki herhangi bir artış diğer toplu işlemeyi olumsuz etkileyebilir ve doğrulanmalıdır.
-
-| Parametre | Önerilen değer | Ayrıntılar |
-|-----------|-------------------|---------|
-| Paralel ekstre deftere nakil işlemi için maksimum sayı | <p>Bu parametreyi **Ekstre** işini çalıştıran toplu iş grubu için kullanılabilen toplu iş görevlerinin sayısına ayarlayın.</p><p>**Genel kural:** Uygulama Nesne Sunucusu (AOS) sanal sunucu sayısını, AOS sanal sunucusu başına kullanılabilen toplu iş görevlerinin sayısıyla çarpın.</p> | **Perakende ekstreleri - İç besleme** özelliği etkinleştirildiğinde bu parametre geçerli değildir. |
-| Ekstre başına sipariş işleme için maksimum iş parçacığı sayısı | Değerleri **4**'te test etmeye başlayın. Genellikle, değer **8**'i geçmemelidir. | Bu parametre, satış siparişleri oluşturmak ve deftere nakletmek için kullanılan iş parçacığı sayısını belirtir. Ekstre başına deftere nakil için kullanılabilen iş parçacığı sayısını temsil eder. |
-| Toplama dahil edilen maksimum hareket satırı | Değerleri **1000**'te test etmeye başlayın. Genel merkez yapılandırmasına bağlı olarak, daha küçük siparişler performans için daha yararlı olabilir. | Bu parametre, ekstre deftere nakli sırasında her satış siparişine dahil edilecek satır sayısını belirler. Bu sayıya ulaşıldıktan sonra satırlar yeni bir siparişe bölünür. Satış satırlarının sayısı kesin olmasa da, bölme işlemi satış siparişi düzeyinde gerçekleştiğinden, ayarlanan sayıya yakın olacaktır. Bu parametre, adlandırılmış müşterisi olmayan perakende hareketleri için satış siparişleri oluşturmak için kullanılır. |
-| Mağaza hareketlerini doğrulamak için maksimum iş parçacığı sayısı | Bu parametreyi **4** olarak ayarlamanızı ve yalnızca kabul edilebilir performansa sahip değilseniz artırmanızı öneririz. Bu işlemin kullandığı iş parçacığı sayısı, toplu iş sunucusu tarafından kullanılabilen işlemci sayısını aşamaz. Buraya çok fazla iş parçacığı atarsanız diğer toplu işlemeleri etkileyebilirsiniz. | Bu parametre, belirli bir mağaza için aynı anda doğrulanabilecek işlem sayısını denetler. |
 
 > [!NOTE]
 > Ekstre deftere nakilleriyle ilgili olan ve mağazalar ile **Ticaret parametreleri** sayfasında tanımlanan tüm ayarların ve parametreler, geliştirilmiş ekstre deftere nakil özelliğine uygulanabilir.
@@ -125,17 +119,9 @@ Bir ekstre çeşitli işlemlerden geçer (örneğin Oluştur, Hesapla, Temizle v
 
 ### <a name="aggregated-transactions"></a>Toplanan hareketler
 
-Deftere nakil işlemi sırasında nakit ve taşıma hareketleri müşteri ve ürün bazında toplanır. Bu nedenle, oluşturulan satış siparişlerinin ve satırların sayısı azalır. Toplanan hareketler sistemde saklanır ve satış siparişleri oluşturmak için kullanılır. Toplanan her hareket sistemde karşılık gelen bir satış siparişi oluşturur. 
+Deftere nakil işlemi sırasında satış hareketleri yapılandırmaya göre toplanır. Toplanan bu hareketler sistemde saklanır ve satış siparişleri oluşturmak için kullanılır. Toplanan her hareket sistemde karşılık gelen bir satış siparişi oluşturur. Toplanan hareketleri **Yürütme ayrıntıları** grubundaki **Toplanan hareketler** düğmesini kullanarak görebilirsiniz.
 
-Bir ekstre tam olarak deftere nakledilmezse toplu hareketleri ekstrede görüntüleyebilirsiniz. Eylem Bölmesinde, **Ekstre** sekmesindeki **Yürütme ayrıntıları** gurubunda **Toplanan işlemler**'i seçin.
-
-![Tam olarak deftere nakledilmemiş bir ekstre için toplanan hareketler düğmesi.](media/aggregated-transactions.png)
-
-Deftere nakledilen ekstreler için toplanan hareketleri **Deftere Nakledilen ekstreler** sayfasında görüntüleyebilirsiniz. Eylem Bölmesinde, **Sorgular**'ı ve sonra **Toplanan hareketler**'i seçin.
-
-![Deftere nakledilen ekstreler için toplu hareketler komutu.](media/aggregated-transactions-posted-statements.png)
-
-Toplanan hareketin **Satış siparişi ayrıntıları** hızlı sekmesi aşağıdaki bilgileri gösterir:
+Toplanan hareketin **Satış siparişi ayrıntısı** sekmesi aşağıdaki bilgileri gösterir:
 
 - **Kayıt kodu** - Toplanan hareketin kodu.
 - **Ekstre numarası** – Toplanan hareketin ait olduğu ekstre.
@@ -144,28 +130,12 @@ Toplanan hareketin **Satış siparişi ayrıntıları** hızlı sekmesi aşağı
 - **Toplanan satır sayısı** – Toplanan hareket ve satış siparişi için toplam satır sayısı.
 - **Durum** – Toplanan işlemin son durumu.
 - **Fatura kodu** – Toplanan hareket için satış siparişi faturalandığında, satış faturası kodu. Bu alan boşsa, satış siparişi için fatura deftere nakledilmemiştir.
-- **Hata kodu** – Bu alan, toplama bir hata durumundaysa ayarlanır.
-- **Hata iletisi** – Bu alan, toplama bir hata durumundaysa ayarlanır. İşlemin başarısız olmasına neyin neden olduğuyla ilgili ayrıntıları gösterir. Sorunu gidermek için hata kodundaki bilgileri kullanabilir ve daha sonra işlemi elle yeniden başlatabilirsiniz. Çözüm türüne bağlı olarak, toplanan satışların silinmesi ve yeni bir deyimde işlenmesi gerekebilir.
 
-![Toplanan bir hareketin Satış siparişi ayrıntıları hızlı sekmesindeki alanlar.](media/aggregated-transactions-error-message-view.png)
+Toplanan hareketin **Hareket ayrıntıları** sekmesi toplanan harekete çekilmiş olan tüm hareketleri gösterir. Toplanan hareketteki toplanan satırlar hareketlerinden toplanan tüm kayıtları gösterir. Toplanan satırlar ayrıca madde, çeşit, miktar, fiyat, net tutar, birim ve ambar gibi ayrıntıları gösterir. Temel olarak, toplanan her satır bir satış siparişi satırına karşılık gelir.
 
-Toplanan hareketin **Hareket ayrıntıları** hızlı sekmesi, toplanan harekete çekilmiş olan tüm hareketleri gösterir. Toplanan hareketteki toplanan satırlar hareketlerinden toplanan tüm kayıtları gösterir. Toplanan satırlar ayrıca madde, çeşit, miktar, fiyat, net tutar, birim ve ambar gibi ayrıntıları gösterir. Temel olarak, toplanan her satır bir satış siparişi satırına karşılık gelir.
+**Toplanan hareketler** sayfasından, **Satış siparişini XML'e aktar** düğmesini kullanarak belirli bir toplanan hareket için XML indirebilirsiniz. XML dosyasını, satış siparişi oluşturma ve deftere nakletmeyle ilgili hata ayıklama sorunları için kullanabilirsiniz. XML dosyasını indirin, test ortamına yükleyin ve sorunu test ortamında ayıklayın. Toplanan hareketler için XML dosyası indirme işlevi deftere nakledilmiş olan ekstreler için kullanılamaz.
 
-![Toplanan bir hareketin hareket ayrıntıları hızlı sekmesi.](media/aggregated-transactions-sales-details.png)
-
-Bazı durumlarda, toplanan hareketler konsolide satış siparişlerini deftere nakledemeyebilir. Bu gibi durumlarda, bir hata kodu ekstre durumuyla ilişkilendirilir. Yalnızca hataları olan toplu hareketleri görüntülemek için onay kutusunu seçerek toplanan hareketler görünümünde **Yalnızca hataları göster** filtresini etkinleştirebilirsiniz. Bu filtreyi etkinleştirerek sonuçları, çözüm gerektiren hataları olan toplu hareketlerle sınırlandırabilirsiniz. Bu hataların nasıl düzeltileceği hakkında bilgi için bkz. [Çevrimiçi sipariş ve zaman uyumsuz müşteri siparişi hareketlerini düzenleme ve denetleme](edit-order-trans.md).
-
-![Toplanan hareketler görünümünde Yalnızca hataları göster filtresinin onay kutusu.](media/aggregated-transactions-failure-view.png)
-
-**Toplanan hareketler** sayfasından, **Toplama verilerini dışarı aktar** düğmesini kullanarak belirli bir toplanan hareket için XML indirebilirsiniz. Satış siparişi oluşturma ve deftere nakletmeyi içeren gerçek veri ayrıntılarını görmek için XML'i, herhangi bir XML biçimlendiricisinde gözden geçirebilirsiniz. Toplanan hareketler için XML dosyası indirme işlevi deftere nakledilmiş olan ekstreler için kullanılamaz.
-
-![Toplanan hareketler sayfasındaki Toplama verilerini dışarı aktar düğmesi.](media/aggregated-transactions-export.png)
-
-Satış siparişlerindeki verileri veya satış siparişini destekleyen verileri düzelterek hatayı düzeltememeniz durumunda, **Müşteri siparişini sil** düğmesi kullanılabilir olur. Bir siparişi silmek için başarısız olan toplu hareketi seçin ve sonra **Müşteri siparişini sil**'i seçin. Hem toplu hareket hem de karşılık gelen satış siparişi silinir. Artık düzenleme ve denetleme işlevini kullanarak hareketleri gözden geçirebilirsiniz. Hareketler, yeni bir deyim aracılığıyla yeniden işlenebilirler. Tüm hatalar giderildikten sonra, ilgili ekstre için ekstreyi deftere naklet işlevini çalıştırarak ekstre deftere nakletmeye devam edebilirsiniz.
-
-![Toplanan hareketler görünümünde Müşteri siparişini sil düğmesi.](media/aggregated-transactions-delete-cust-order.png)
-
-Toplanan hareketleri görünümü aşağıdaki faydaları sağlar:
+Toplanan hareket görünümü aşağıdaki faydaları sağlar:
 
 - Kullanıcı satış siparişi oluşturma sırasında başarısız olan toplanan hareketleri ve faturalama sırasında başarısız olan satış siparişlerini görebilir.
 - Kullanıcı hareketlerin nasıl toplandığını görebilir.
@@ -204,6 +174,3 @@ Kullanıcının görebileceği diğer arka uç geliştirmeleri ekstre deftere na
 
     - **Retail ve Commerce** \> **Genel merkez ayarı** \> **Parametreler** \> **Commerce parametreleri**'ne gidin. Ardından **Deftere nakil** sekmesinde, **Stok güncelleştirme** hızlı sekmesindeki **Ayrıntı düzeyi** alanında **Özet**'i seçin.
     - **Retail ve Commerce** \> **Genel merkez ayarı** \> **Parametreler** \> **Commerce parametreleri**'ne gidin. Ardından **Deftere nakil** sekmesinde **Toplam** hızlı sekmesinde **Fiş hareketleri** seçeneğini **Evet** olarak ayarlayın.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

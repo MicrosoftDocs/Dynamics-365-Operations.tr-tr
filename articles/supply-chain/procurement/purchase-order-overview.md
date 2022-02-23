@@ -1,28 +1,28 @@
 ---
 title: Satınalma siparişine genel bakış
 description: Bu makale, satınalma siparişleri (PO) ve bir PO'nun geçtiği çeşitli aşamalarla ilgili ek makalelere bağlantılar hakkında genel bilgi verir.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "93083"
-- intro-internal
+ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982316"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022243"
 ---
 # <a name="purchase-order-overview"></a>Satınalma siparişine genel bakış
 
@@ -43,7 +43,7 @@ Aşağıdaki makaleler, bir PO'nun geçtiği çeşitli aşamalara genel bir bak�
 -   [Satınalma siparişleri oluşturma](purchase-order-creation.md)
 -   [Satınalma siparişlerini onaylama](purchase-order-approval-confirmation.md)
 -   [Ürün girişi ve satınalma siparişleri karşılaştırması](product-receipt-against-purchase-orders.md)
--   [Satıcı faturalarına genel bakış](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Satıcı faturalarına genel bakış](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Satınalma siparişlerinin türleri
 Üç tip satınalma siparişi vardır: Bir satınalma siparişi oluşturduğunuzda türünü belirtmeniz gerekir. Yeni siparişler için varsayılan sipariş türünü **Tedarik ve kaynak atama parametreleri** sayfasından ayarlayabilirsiniz.
@@ -78,7 +78,8 @@ PO'lar, siparişin ilerlemesini gösteren çeşitli durum alanları içerir. Tü
 -   **Onaylandı**: Bu durum, sipariş onaylandıktan sonra atanır. Normalde, bu durum bir siparişe atanan en son onay durumudur.
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Satınalma siparişleri oluşturma](purchase-order-creation.md)
 
@@ -86,10 +87,7 @@ PO'lar, siparişin ilerlemesini gösteren çeşitli durum alanları içerir. Tü
 
 [Ürün girişi ve satınalma siparişleri karşılaştırması](product-receipt-against-purchase-orders.md)
 
-[Satıcı faturalarına genel bakış](../../finance/accounts-payable/vendor-invoices-overview.md)
+[Satıcı faturalarına genel bakış](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

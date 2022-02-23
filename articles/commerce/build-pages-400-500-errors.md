@@ -2,30 +2,36 @@
 title: 4xx/5xx durum kodu hataları için özel yanıt sayfaları oluşturma
 description: Bu konu, Microsoft Dynamics 365 Commerce'un yazma araçlarını kullanarak 4xx ve 5xx durum kodu hataları için özel yanıt sayfaları oluşturma yöntemini açıklamaktadır .
 author: v-chgri
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741153"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416395"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>4xx/5xx durum kodu hataları için özel yanıt sayfaları oluşturma
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'un yazma araçlarını kullanarak 4xx ve 5xx durum kodu hataları için özel yanıt sayfaları oluşturma yöntemini açıklamaktadır .
+
+## <a name="overview"></a>Genel Bakış
 
 Bir istek başarılı olmazsa, sunucu HTTP durum kodu hata yanıtları verir. 404 durum kodu yakalanarak sayfa bulunamazsa döndürülür ve sunucu hatası oluşursa 500 durum kodu yakalanır ve döndürülür. Dynamics 365 Commerce'te uygulama kullanıcıları bu durum kodu hata yanıtları için kullanıcılara gösterilen özel durum kodu hata yanıtı sayfaları oluşturabilir.
 
@@ -77,6 +83,3 @@ Durum kodu hata yanıtı sayfasına yeniden yönlendirme ayarlamak için aşağ�
 [Yeni site sayfası ekleme](add-new-page.md)
 
 [URL sayfası oluşturma](create-page-url.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

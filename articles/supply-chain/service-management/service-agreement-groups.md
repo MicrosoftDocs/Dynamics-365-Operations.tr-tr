@@ -1,25 +1,29 @@
 ---
 title: Servis sözleşmelerine genel bakış
-description: Bu konuda, servis sözleşmelerinin nasıl çalıştığına ilişkin bir genel bakış sağlanmaktadır.
-author: kamaybac
+description: Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrelenmesi açısından yararlıdır.
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc82cab3543ab64379207443654e1a57cde964a
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 51b51640a09f78ed613994e2ade755c8ad831ea9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983731"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439388"
 ---
 # <a name="service-agreements-overview"></a>Servis sözleşmelerine genel bakış
 
@@ -31,13 +35,10 @@ Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrel
 
 ## <a name="example"></a>Örnek
 
-- Servis sözleşmelerini sunulan servisin düzeyine göre gruplandırabilirsiniz.
-- Şirketinizde oluşturduğunuz üç sözleşme grubu Altın, Gümüş ve Bronz olsun.
-- Şirketinizde yeni bir servis hesabı yöneticisi işe alınmış olsun. Servis yöneticisi Altın sözleşme grubundaki tüm müşterilerle ilgilenmekten sorumludur. Yeni servis yöneticisini sorumlu kişi olarak belirtmeniz gereken tüm sözleşmeleri bulmak üzere Altın sözleşmesi grubundaki sözleşme kayıtlarını filtreleyebilirsiniz.
+-  Servis sözleşmelerini sunulan servisin düzeyine göre gruplandırabilirsiniz. 
+-  Şirketinizde oluşturduğunuz üç sözleşme grubu Altın, Gümüş ve Bronz olsun.
+-  Şirketinizde yeni bir servis hesabı yöneticisi işe alınmış olsun. Servis yöneticisi Altın sözleşme grubundaki tüm müşterilerle ilgilenmekten sorumludur. Yeni servis yöneticisini sorumlu kişi olarak belirtmeniz gereken tüm sözleşmeleri bulmak üzere Altın sözleşmesi grubundaki sözleşme kayıtlarını filtreleyebilirsiniz.
 
 ## <a name="related-topics"></a>İlgili konular
 
 [Servis sözleşmesi grupları oluşturma](create-service-agreement-groups.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

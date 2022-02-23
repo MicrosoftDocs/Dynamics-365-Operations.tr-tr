@@ -1,26 +1,29 @@
 ---
 title: Taşıma yönetimi altyapıları
 description: Nakliye yönetimi motorları, Nakliye yönetimindeki nakliye oranlarının oluşturulması ve işlenmesi için kullanılan mantığı tanımlar.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bce886b8029b3a00c6572642d339efa9dcad4267
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580132"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439667"
 ---
 # <a name="transportation-management-engines"></a>Taşıma yönetimi altyapıları
 
@@ -43,7 +46,8 @@ Aşağıdaki tabloda, kullanılabilecek taşıma yönetimi altyapıları göster
 | **Navlun fatura türü**            | Navlun faturasını ve navlun faturası satırlarını standartlaştırır ve otomatik navlun faturası eşleştirmesi için kullanılır.                                                                                                                                                                                                                |
 
 
-## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Bir sevkıyatı değerlendirmek için hangi altyapılar yapılandırılmalıdır?
+<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Bir sevkıyatı değerlendirmek için hangi altyapılar yapılandırılmalıdır?
+---------------------------------------------------
 
 Bir sevkıyatı belirli bir taşıyıcı kullanarak değerlendirmek için, birden fazla taşıma yönetimi altyapısı yapılandırmanız gerekir. **Değerlendirme altyapısı** gereklidir, ancak **Değerlendirme altyapısı**'nı desteklemek için diğer taşıma yönetimi altyapıları gerekebilir. Örneğin, **Değerlendirme altyapısı**, değerlendirmeyi kaynak ile hedef arasındaki mesafeye dayalı olarak hesaplamak için **Mesafe altyapısı**'ndan veri almak için kullanılabilir.
 
@@ -61,7 +65,8 @@ Birçok durumda, taşıma yönetimi altyapısının kurulum formlarındaki **Par
 |  <em>MileageEngineCode</em>  |                       Veritabanında mesafe altyapısı kaydını tanımlayan mesafe altyapısı kodu.                        |
 | <em>ApportionmentEngine</em> |                        Veritabanında paylaştırma altyapısını tanımlayan genel altyapı kodu.                        |
 
-## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Meta veriler, taşıma yönetimi altyapısında nasıl kullanılır?
+<a name="how-is-metadata-used-in-transportation-management-engines"></a>Meta veriler, taşıma yönetimi altyapısında nasıl kullanılır?
+----------------------------------------------------------
 
 Supply Chain Management'ta tanımlanmış verilere dayanan taşıma yönetimi altyapıları, farklı veri şemaları kullanabilir. Taşıma yönetimi sistemi, farklı taşıma yönetimi altyapılarının aynı genel fiziksel veritabanı tablolarını kullanmasına imkan verir. Altyapı verilerinin çalışma süresini doğru yorumlaması için, veritabanı tablolarına meta veri tanımlayabilirsiniz. Bu, yeni taşıma yönetimi altyapılarının inşa edilmesine yönelik maliyetleri azaltır çünkü Operations'da ek tablo ve form yapıları gerekmez.
 
@@ -84,7 +89,7 @@ Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türler
 | **Bölge altyapısı**                                | Meta verilerin doğrudan ana bölgede ayarlanmasını gerektirir.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Transit zamanı altyapısı** ve **Mesafe altyapısı** | Meta verileri doğrudan mesafe altyapısının yapılandırma kurulum formundan alır.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Değerlendirme altyapısı için meta veri örneği** Taşıma yönetimi altyapısı, kaynak adresin, hedef ilin ve ülke/bölgenin ve sevkıyatın başlangıç ve bitiş noktasının tanımlanmasını gerektirir. Bu gereksinimleri kullanarak, meta veriler aşağıdaki tablodaki gibi görünecektir. Tablo ayrıca hangi veri girişi türü gerektiği hakkında bilgi de içermektedir.
+  **Değerlendirme altyapısı için meta veri örneği** Taşıma yönetimi altyapısı, kaynak adresin, hedef ilin ve ülke/bölgenin ve sevkıyatın başlangıç ve bitiş noktasının tanımlanmasını gerektirir. Bu gereksinimleri kullanarak, meta veriler aşağıdaki tablodaki gibi görünecektir. Tablo ayrıca hangi veri girişi türü gerektiği hakkında bilgi de içermektedir.
 -   Bu bilgileri **Oran bazlı tür** sayfasında **Taşıma yönetimi** &gt; **Kurulum**'da tanımlayın.
 
 | Seri | Dosya Adı                          | Alan türü | Veri tipi | Arama türü    | Zorunlu |
@@ -92,14 +97,5 @@ Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türler
 | 1        | Kaynak posta kodu            | Atama | Dize    | Posta Kodu    | Seçildi  |
 | 2        | Hedef il             | Atama | Dize    | Eyalet          |           |
 | 3        | Hedef başlangıç posta kodu | Atama | Dize    | Posta Kodu    | Seçildi  |
-| 4        | Hedef bitiş posta kodu   | Atama | Dize    | Posta Kodu    | Seçili  |
-| 5        | Hedef ülke           | Assignment | Dize    | Ülke/bölge |           |
-
-### <a name="whitepaper"></a>Teknik inceleme
-
-Daha fazla bilgi için, aşağıdaki teknik incelemeyi indirin (AX2012'yi desteklemek için yazılmıştır ancak Dynamics 365 Supply Chain Management için de geçerlidir)
-
-- [Taşıma yönetimi altyapıları](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+| 4        | Hedef bitiş posta kodu   | Atama | Dize    | Posta Kodu    | Seçildi  |
+| 5        | Hedef ülke           | Atama | Dize    | Ülke/bölge |           |

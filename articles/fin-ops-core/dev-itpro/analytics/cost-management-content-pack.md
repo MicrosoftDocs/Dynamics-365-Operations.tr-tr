@@ -2,9 +2,11 @@
 title: Maliyet yönetimi Power BI içeriği
 description: Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752652"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683907"
 ---
 # <a name="cost-management-power-bi-content"></a>Maliyet yönetimi Power BI içeriği
 
@@ -30,6 +32,11 @@ ms.locfileid: "7752652"
 ## <a name="overview"></a>Genel bakış
 
 **Maliyet yönetimi** Microsoft Power BI içeriği stok muhasebecileri veya kuruluş içinde stok durumundan veya süren işten (WIP) sorumlu olan veya bunlarla ilgilenen veya standart maliyet farklarından sorumlu kişilere yöneliktir.
+
+> [!NOTE]
+> Bu konuda açıklanan **Maliyet yönetimi** Power BI içeriği, Dynamics 365 Finance and Operations 8.0 için geçerlidir.
+> 
+> AppSource sitesinde yayımlanan **Maliyet yönetimi** Power BI içerik paketi kullanımdan kaldırılmıştır. Amortisman hakkında daha fazla bilgi için bkz. [Finance and Operations uygulamasında kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Bu Power BI içeriği stokların performansını izlemenize ve maliyetin bunlar üzerinde nasıl akış sağladığını görselleştirmenize yardımcı olan kategorilere ayrılmış bir biçim sağlar. Ciro oranı, stoğun elde olduğu gün sayısı, doğruluk, tercih ettiğiniz toplama düzeyinde "ABC sınıflandırması" (şirket, madde, madde grubu veya tesis) gibi yönetimsel öngörüler de elde edebilirsiniz. Kullanıma sunulan bu bilgiler, mali tabloya detaylı bir destekleyici olarak da kullanılabilir.
 
@@ -200,6 +207,3 @@ Aşağıda belirtilen temel boyutlar daha büyük hassasiyet ve daha derin anali
 | Tüzel kişilikler                                          | Tüzel kişilik adları                              |
 | Mali takvimler                                        | Mali yıl, Yıl, Üç aylık dönem, Dönem, Ay   |
 | Tesis                                                    | Kod, Ad, Adres, Eyalet, Ülke               |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: ER konfigürasyonlarının güncelleştirilmiş sürümlerini içe aktar
 description: Bu konu, genel amaçlı yapılandırma havuzundan elektronik raporlama (ER) yapılandırmalarının güncel sürümlerinin nasıl içe aktarılacağı açıklamaktadır.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 897663998c6c95ff6d7172de2abc4d4dd6ec5f12
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734900"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679522"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>ER konfigürasyonlarının güncelleştirilmiş sürümlerini içe aktar
 
@@ -28,7 +30,7 @@ ms.locfileid: "6734900"
 
 Elektronik raporlama (ER) [depoları](general-electronic-reporting.md#Repository), [ER konfigürasyonları](general-electronic-reporting.md#Configuration) paylaşmak için kullanılır. Farklı depolardaki ER yapılandırmalarını Microsoft Dynamics 365 Finance örneğiniz için [içe aktarabilirsiniz](download-electronic-reporting-configuration-lcs.md) . ER yapılandırmalarını içe aktardığınızda, [Konfigürasyon sağlayıcıları](general-electronic-reporting.md#Provider)paylaşılabilecek şekilde yeni [sürümler](general-electronic-reporting.md#component-versioning) depoları yayımlayabilir.
 
-Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının güncel sürümlerinin nasıl içe aktarılacağı açıklamaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının güncel sürümlerinin nasıl içe aktarılacağı açıklamaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Kullanılabilir güncelleştirilmiş sürümleri gözden geçirin
 
@@ -41,11 +43,11 @@ Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının gü
 2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 3. **Yerelleştirme yapılandırmaları** sayfasında **İlgili bağlantılar** bölümünde **Yapılandırma sürümleri güncellemelerini içe aktarma** kutucuğunu seçin.
 
-    ![Yerelleştirme yapılandırmaları sayfası.](./media/er-download-updated-versions-global-repo1.png)
+    ![Yerelleştirme yapılandırmaları sayfası](./media/er-download-updated-versions-global-repo1.png)
 
 4. **Elektronik raporlama konfigürasyonları sürümleri güncelleştirmelerini içe aktar** iletişim kutusunda, **çalıştırma modu** alanında **yalnızca kullanılabilir güncelleştirmeleri göster**'i seçin. Daha sonra **Tamam**'ı seçin. 
 
-    ![Çalışma modu alanı yalnızca kullanılabilir güncelleştirmeleri gösterecek şekilde ayarlandı.](./media/er-download-updated-versions-global-repo2.png)
+    ![Çalışma modu alanı yalnızca kullanılabilir güncelleştirmeleri gösterecek şekilde ayarlandı](./media/er-download-updated-versions-global-repo2.png)
 
 5. Aldığınız iletileri gözden geçirin. Bu iletiler, geçerli Finance örneğindeki ER konfigürasyonlarla ilgili aşağıdaki bilgileri ve bunların genel havuz içeriğiyle nasıl karşılaştırılacağını sağlar:
 
@@ -72,14 +74,14 @@ Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının gü
 4. **Elektronik raporlama konfigürasyonları sürümleri güncelleştirmelerini içe aktar** iletişim kutusunda, **çalıştırma modu** alanında, Global depodan geçerli finans örneğine ER konfigürasyonların en son sürümlerini içe aktarmak için, **en son güncelleştirmeleri içe aktar**'ı seçin.
 5. İçe aktarma için bir toplu iş planlamak üzere, **Arka planda çalıştır** hızlı sekmesinde, **Toplu işleme** seçeneğini **Evet** olarak ayarlayın. İçe aktarmayı belirli aralıklarla tekrarlamak istiyorsanız, gerekli yinelemeyi konfigüre edin.
 
-    ![En son güncelleştirmeleri Içe aktarmak için çalışma modu alanı ayarla.](./media/er-download-updated-versions-global-repo5.png)
+    ![En son güncelleştirmeleri Içe aktarmak için çalışma modu alanı ayarla](./media/er-download-updated-versions-global-repo5.png)
 
 6. **Tamam**'ı seçin.
 7. Hangi konfigürasyon sürümlerinin içe aktarıldığını öğrenmek için aşağıdaki adımlardan birini izleyin:
 
     - Toplu işi kullanmak yerine, içe aktarmayı etkileşimli olarak çalıştırırsanız, aldığınız iletileri gözden geçirin.
 
-        ![Etkileşimli içe aktarma çalıştırması sırasında alınan iletiler.](./media/er-download-updated-versions-global-repo6.png)
+        ![Etkileşimli içe aktarma çalıştırması sırasında alınan iletiler](./media/er-download-updated-versions-global-repo6.png)
 
     - İçe aktarmayı toplu iş modunda çalıştırırsanız, şu adımları izleyin:
 
@@ -87,7 +89,7 @@ Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının gü
         2. **Elektronik raporlama konfigürasyonları güncelleştirmeleri güncelleştirmelerini içe aktar** işini bulun ve seçin ve sonra eylem bölmesinde, **toplu iş** sekmesinde, iş geçmişini görüntülemek için **toplu iş geçmişi**'ni seçin.
         3. **Toplu iş geçmişi** sayfasında, **Günlük**'ü seçin. Sonra, aldığınız iletide, iş günlüğünü görüntülemek için **Mesaj ayrıntıları** bağlantısını seçin.
 
-        ![İş günlükleri.](./media/er-download-updated-versions-global-repo7.png)
+        ![İş günlükleri](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > İçe aktarılan versiyonlar hemen kullanılabilir olacağından, ER konfigürasyonlarının güncelleştirilmiş sürümlerini doğrudan Global depodan üretim ortamına içe aktarmak için bir yinelenen toplu iş zamanlamanızı önermiyoruz. Bunun yerine, ER konfigürasyonlarının sürümlerini bir korumalı alan ortamına dağıtmak için bu yaklaşımı kullanın. Bunlar, daha sonra üretim ortamına dağıtılmadan önce korumalı alan ortamında değerlendirilebilirler.
@@ -96,6 +98,3 @@ Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının gü
 
 - [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir](er-download-configurations-global-repo.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

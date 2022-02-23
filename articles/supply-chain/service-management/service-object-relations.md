@@ -1,26 +1,29 @@
 ---
 title: Servis nesnesi ilişkileri
 description: Servis nesnesi ve servis sözleşmesi veya servis siparişi arasında servis nesnesi ilişkileri oluşturabilirsiniz.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 02/21/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eb5b185ca2ef5903eb1739edfdd7b60749babd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e2b1b76dffc2751d51c2a25d831fab512b747c15
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576364"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438987"
 ---
 # <a name="service-object-relations"></a>Servis nesnesi ilişkileri 
 
@@ -75,6 +78,3 @@ Servis kapsamındaki parça ilişkisini kullanarak Ürün Reçetesi Tasarımcıs
 
 Servis sözleşmesi için otomatik olarak servis siparişleri oluşturursanız sözleşmedeki servis nesnesi ilişkileri de servis siparişlerinde oluşturulur.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

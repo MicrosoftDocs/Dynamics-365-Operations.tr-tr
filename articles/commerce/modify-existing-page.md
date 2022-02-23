@@ -2,30 +2,36 @@
 title: Var olan site sayfasını değiştirme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te mevcut site sayfasını değiştirme yöntemi açıklanmıştır.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751555"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416506"
 ---
 # <a name="modify-an-existing-site-page"></a>Var olan site sayfasını değiştirme
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te mevcut site sayfasını değiştirme yöntemi açıklanmıştır.
+
+## <a name="overview"></a>Genel Bakış
 
 Bir sayfayı değiştirmeniz gerektiğinde, ilk adım onu sayfa düzenleyici içinde açar. Sayfanızı içeren siteye gidin ve sonra sayfa listesinde istediğiniz sayfayı bulun. Sayfayı bulamazsanız, yazma aracının zengin arama işlevini kullanabilirsiniz. Tam sayfa adını yazın veya adın ilk birkaç harfini yazıp bir yıldız işareti (\*) yazın. Süzülmüş sayfalar listesi görüntülenir. İstediğiniz sayfayı bulmak için bu listeyi kullanabilirsiniz. Doğru sayfayı bulduktan sonra, sayfa düzenleyicisinde sayfayı açılacak sayfa adını seçin.
 
@@ -80,9 +86,4 @@ Aşağıdaki örnek, video oynatıcı modülünde görünen videoyu değiştirer
 
 [Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
 
-[Sayfa içeriği erişilebilirliğini doğrulama](verify-accessibility.md)
-
-[URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)

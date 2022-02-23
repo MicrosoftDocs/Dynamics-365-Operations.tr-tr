@@ -1,24 +1,26 @@
 ---
 title: Satıcı indirimleri
 description: Bu konu, bir satıcı indirimi ile çalışırken gerçekleştirmek isteyebileceğiniz en yaygın görevlere bir genel bakış sağlar. Satıcı indirimleri, şirketlerin kendi tedarikçi indirim programlarını daha iyi yönetmelerine, kazanılan indirimleri elde etmelerine, yönetmelerine ve izlemelerinde gerek duyulan otomatik görevleri olanak sağlar.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566875"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966667"
 ---
 # <a name="vendor-rebates"></a>Satıcı indirimleri
 
@@ -53,7 +55,7 @@ Bir satıcı indirim sözleşmesi, bir satıcı ile şirketin önceden belirli b
 
 **Satıcı indirim sözleşmeleri** sayfasını açmak için **Satınalma ve kaynak** &gt; **Satıcı indirimleri** &gt; **İndirim sözleşmeleri**'ni seçin.
 
-![Satınalma sözleşmesi.](media/purchase-agreement.PNG)
+![Satınalma sözleşmesi](media/purchase-agreement.PNG)
 
 **Satıcı indirim sözleşmeleri** sayfasında, bir satıcı sözleşmesinin anlaşılmış koşullarının ayrıntılarını görüntüleyebilirsiniz.
 
@@ -129,7 +131,7 @@ Talepler onaylandığında, Borç hesapları (A/P) tarafından işlenebilirler. 
 
     Bir indirim tahakkuk günlüğü indirim talebi için nakledilir. Bu nakil, Tahakkuk Satıcı İndirimleri Alacak hesabını beklenen satıcı kredileri için borçlandırır ve ara Tahakkuk Satıcı İndirim Alınan hesabını beklenen kazanç için alacaklandırır.
 
-    ![İleti.](media/message.png)
+    ![İleti](media/message.png)
 
 5. İndirim listesinde, satırı seçin ve sonra Eylem Panosu'nda **İndirim hareketleri**'ni görmek için seçin ve bu indirim tahakkuk nakli için günlük toplu iş numarasına gidin.
 
@@ -164,6 +166,3 @@ Satıcı indirimlerini ele alma işlemi genellikle çok sayıda el ile izleme g�
 - Doğru indirim talepleri oluşturma
 - Genel muhasebede beklenen alacak ve ara kazancı tahakkuk etmek
 - Satıcı bakiyesini ve gelir tablosunu, doğru hakediş ile güncelleştirmek
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

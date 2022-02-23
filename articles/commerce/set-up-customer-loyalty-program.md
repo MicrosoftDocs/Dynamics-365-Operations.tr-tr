@@ -2,28 +2,29 @@
 title: Bağlılık programına genel bakış
 description: Bu konu, Dynamics 365 Commerce'daki bağlılık özelliklerini ve satıcının bağlılık programına kolayca başlamasına yardımcı olmak için karşılık gelen kurulum adımlarını açıklar.
 author: scott-tucker
+manager: AnnBe
 ms.date: 07/21/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.custom:
-- "16201"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 119046ee2b783e6a4b868fff2b1d7a1b59966e7b
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985174"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4416551"
 ---
 # <a name="loyalty-overview"></a>Bağlılık programına genel bakış
 
@@ -43,7 +44,7 @@ Aşağıdaki seçenekleri içeren bir bağlılık programı ayarlayabilirsiniz.
 
 Commerce'de bağlılık özelliğini etkinleştirmek için çeşitli bileşenleri ayarlamanız gerekir. Aşağıdaki diyagram, bağlılık bileşenlerini ve birbirleriyle ilişkisini gösterir.
 
-![Bağlılık programı ayarlama işlem akışı.](./media/loyaltyprocess.gif "Bağlılık programı bileşenleri ve birbirleriyle ilişkileri")
+![Bağlılık programı ayarlama işlem akışı](./media/loyaltyprocess.gif "Bağlılık programı bileşenleri ve birbirleriyle ilişkileri")
 
 ## <a name="loyalty-components"></a>Bağlılık programı bileşenleri
 
@@ -82,15 +83,15 @@ Aşağıdaki tabloda, bağlılık programı yapılandırmaları ile verilerini m
     > [!NOTE]
     > Bir bağlılık programı planı içinde kazanç kuralları ilavedir. Örneğin, her ABD doları için altın katman üyesine 10 puan verecek bir kural oluşturursanız ve aynı zamanda her ABD Doları için 5 puan kazanacak "gazi" ilişkisiyle bir kural oluşturursanız altın katman üyesi olan bir gazi, iki satır için de nitelikli olduğundan 1 ABD Doları için 15 puan kazanır. Ancak gazi müşteri altın katmanı üyesi değilse her dolar için 5 puan kazanır. Kanallarda değişiklikleri yansıtmak için **Bağlılık şemalarını işle** ve **1050** (bağlılık programı bilgileri) işlerini çalıştırın.
     
-    ![İlişki tabanlı kazanç.](./media/Affiliation-based-earning.png "Bağlantı tabanlı katılım")
+    ![Bağlantı tabanlı katılım](./media/Affiliation-based-earning.png "Bağlantı tabanlı katılım")
 
 - Satıcılar genelde bağlılık programları uygulanmasını istemeyen belirli bir grup müşteri için özel fiyatlara sahiptir. Örneğin, özel fiyatlandırma alan ancak bağlılık puanı almayan toptancı veya personel. Genellikle, "ilişkiler" böyle müşteri gruplarına özel fiyat sağlamak için kullanılır. Müşterilerden belirli bir grubun bağlılık programı puanı kazanmasını sınırlamak için satıcı, bağlılık planının **Dışarıda bırakılan ilişkiler** bölümünde bir veya daha fazla ilişki belirtebilir. Bu şekilde, dışarıda bırakılan ilişkilere ait olan müşteriler bağlılık programı üyeleri olduğunda satın alımları için bağlılık puanı kazanamaz. Kanallarda değişiklikleri yansıtmak için **Bağlılık şemalarını işle** ve **1050** (bağlılık programı bilgileri) işlerini çalıştırın.
 
-    ![Dışarıda bırakılan ilişkiler.](./media/Excluded-affiliations.png "İlişkileri bağlılık puanı kazanma dışında bırak")
+    ![Dışarıda bırakılan ilişkiler](./media/Excluded-affiliations.png "İlişkileri bağlılık puanı kazanma dışında bırak")
     
 - Satış noktası, satıcılar için fiziksel bağlılık programı kartlarını kullanma veya otomatik olarak benzersiz bağlılık programı kart numarası oluşturma esnekliği sağlar. Mağazalarında bağlılık programı kartlarının otomatik oluşturulmasını etkinleştirmek için mağazayla ilişkilendirilmiş işlev profilinde **Bağlılık programı kart numarası oluştur**'u açın. Çevrimiçi kanallar için satıcılar, müşterilerine bağlılık programı kartları yayınlamak üzere IssueLoyaltyCard API kullanabilir. Satıcılar, bu API'ya bağlılık programı kartı oluşturmak için kullanılacak olan bağlılık programı kart numarası sağlayabilir veya sistem, Commerce'de ayarlanan bağlılık programı kart numarası sıralamasını kullanır. Bununla birlikte, numara serisi yoksa ve satıcı API'yı çağırırken bir bağlılık programı kart numarası sağlamazsa bir hata görüntülenir.
 
-    ![Bağlılık programı kartı oluşturma.](./media/Generate-loyalty-card.png "Otomatik bağlılık programı kart numarası oluştur")
+    ![Bağlılık programı kart oluştur](./media/Generate-loyalty-card.png "Otomatik bağlılık programı kart numarası oluştur")
 
 - Kazanılan ve kullanılan bağlılık programı puanları, tam veya kısmi geri ödemelerde aynı miktarın verilmesi veya geri alınması için satış hattındaki her hareket ve satış emri için kaydedilebilir. Ayrıca, puanların satış satırı düzeyinde görünürlüğü arama merkezi kullanıcılarının, müşterilerin her satır için ne kadar puan kazandığı veya kullandığı sorularını yanıtlayabilme becerisi sağlar. Bu değişiklikten önce, ödül puanları iadelerde her zaman yeniden hesaplanırdı; bu da kazanma veya kullanma kuralları değiştirilirse orijinalden farklı bir tutara neden olurdu ve arama merkezi kullanıcıları puan dağılımını göremezdi. Puanlar her bağlılık programı kartı için **Kart hareketleri** formu altında görülür. Bu özelliği etkinleştirmek için S **atış hattı başına bağlılık programı puanları aktar** yapılandırmasını, **Commerce paylaşılan parametreler** \> **Genel** sekmesinde açın.
 
@@ -101,33 +102,33 @@ Aşağıdaki tabloda, bağlılık programı yapılandırmaları ile verilerini m
 
 Ayrıca, satıcılar bağlılık programı kartı başına maksimum bağlılık programı ödül puanı sınırı tanımlayabilir. Bu alan, bağlılık programı dolandırıcılığı etkisini azaltmak için kullanılabilir. Maksimum ödül puanına ulaşıldığında, kullanıcı daha fazla puan kazanamaz. Satıcı, bu tür krtları olası bir dolandırıcılı için araştırılana kadar engellemeyi seçebilir. Satıcı dolandırıcılık olduğuna karar verirse hem müşterinin bağlılık programı kartını hem de müşteriyi engelleyebilir. Bunu yapmak için **Müşterinin bağlılık programına kaydını engelle** özelliğini **Evet** olarak (**Commerce** hızlı sekmesindeki **Tüm müşteriler** altında) ayarlayın. Bloke müşteriler kanalları herhangi birinde bağlılık programı kartı yayınlayamaz.
 
-   ![Hakediş ve maksimum ödül puanları.](./media/Vesting-and-maximum-reward-points.png "Temlik ve maksimum ödül puanlarını tanımalama")
+   ![Hakeye ve maksimum ödül puanları](./media/Vesting-and-maximum-reward-points.png "Temlik ve maksimum ödül puanlarını tanımalama")
 
 - İlişkiler, özel fiyat ve indirimler sağlasa da, satıcıların müşterilerin görmesini istemediği bazı ilişkiler olabilir. Örneğin, "Yüksek harcamalı müşteri" başlıklı bir ilişki bazı müşteriler tarafından hoş karşılanmaz. Ayrıca, mağazada yönetilmemesi gereken bazı ilişkiler de vardır. Örneğin, personeller. Çünkü kasiyerlerin kimin personel olduğuna karar vermesini ve bu nedenle personel temelli indirimler sağlamasını istemezsiniz. Satıcılar şimdi kanallarında gizli olması gereken ilişkiler seçebilir. **Kanallarda gizle** olarak işaretli ilişkiler POS'ta görüntülenemez, eklenemez veya kaldırılamaz. Ancak, ilişkiyle ilgili olan fiyatlandırma ve indirimler hala ürünlere uygulanır.
 
-    ![İlişkileri gizle.](./media/Hide-affiliations.png "Kanallarda ilişkileri gizle")
+    ![İlişkileri gizle](./media/Hide-affiliations.png "Kanallarda ilişkileri gizle")
     
 - Arama merkezi kullanıcıları artık müşterinin bağlılık programı kartı bilgilerini kullanarak müşteriyi kolayca arayabilir ve müşterinin bağlılık programı kartı ve bağlılık programı kartı hareket sayfalarına **Müşteri Hizmetleri** sayfasından gidebilir.
 
-    ![Müşteri hizmetleri.](./media/Customer-service.png "Müşteri için bağlılık programı bilgisi bul")
+    ![Müşteri hizmetleri](./media/Customer-service.png "Müşteri için bağlılık programı bilgisi bul")
     
 - Bağlılık programı kartı güvenliği aşılırsa, yeni bir kart üretilmesi gerekir ve yeni kartına varolan puanlar aktarılır. Yeni kart akışı bu sürümde basitleştirilmiştir. Ayrıca, müşteriler bazı bağlılık programı puanlarını arkadaşlarına ve ailesine hediye edebilir. Puan aktarıldığında her bağlılık programı kartı için puan düzeltme girişleri oluşturulur. Yedek kart ve bakiye aktarma işlevine **Bağlılık programı kartları** sayfasından erişilebilir.
 
-    ![Değiştirme ve puanları aktarma.](./media/Replace-and-transfer-points.png "Bağlılık programı kartı veya transfer bakiyesini Değiştir")
+    ![Değiştir ve transfer puanları](./media/Replace-and-transfer-points.png "Bağlılık programı kartı veya transfer bakiyesini Değiştir")
     
 - Satıcılar, müşterileri bağlılık programına kaydetmek için belirli bir kanalın etkisini yakalamak isteyebilir. Bağlılık programı kartlarının kayıt kaynağı artık kaydedilir, böylece satıcılar bu veriler üzerinde raporları çalıştırabilir. Kayıtlar kaynağı, MPOS/CPOS veya e-ticaret kanallarından yayınlanan tüm bağlılık programı kartları için otomatik olarak yakalanır. Arka ofis uygulamasından yayınlanan bağlılık programı kartları için arama merkezi kullanıcısı uygun kanal seçebilir.
 - Önceki sürümlerde, satıcılar müşterilerin bir mağazada bağlılık programı puanlarını kullanabilmesi için MPOS/CPOS kullanırdı. Ancak o sürümlerde, bağlılık programı bakiyesi bağlılık programı puanları olarak gösterildiğinden kasiyer, geçerli harekete uygulanacak para birimi değerinde miktarı görüntüleyemiyordu. Kasiyerin, bağlılık programı puanlarına göre ödeme yapmadan önce puanları para birimine dönüştürmesi gerekirdi. Mevcut sürümde, harekete satırları eklendikten sonra kasiyer, bağlılık programı puanlarının geçerli hareketi karşılayıp karşılamadığını görebilir; bu da hareketi bazı veya tüm bağlılık programı puanlarını uygulamayı kolaylaştırır. Ayrıca, kasiyer sonraki 30 gün içinde süresi dolacak puanları görebilir, böylece o harekette süresi dolacak puanların kullanılması adına müşteriyi motive ederek fazla satış veya çapraz satış yapabilir.
 
-    ![Bağlılık bakiyesi kapsamındaki tutar.](./media/Points-covered-by-loyalty-balance.png "Bağlılık bakiyesi kapsamındaki tutar")
+    ![Bağlılık bakiyesi kapsamındaki tutar](./media/Points-covered-by-loyalty-balance.png "Bağlılık bakiyesi kapsamındaki tutar")
 
-    ![Süresi dolmak üzere olan puanlar.](./media/Expiring-points.png "Süresi dolan puanları görüntüle")
+    ![Süresi dolmak üzere olan puanlar](./media/Expiring-points.png "Süresi dolan puanları görüntüle")
 
 - 8.1.3 sürümüyle, çağrı merkezi kanalında "bağlılık ile ödeme" seçeneğini etkinleştirdik. Bu seçeneği etkinleştirmek için bir bağlılık ödeme türü oluşturun ve bunu çağrı merkezi ile ilişkilendirin. 
 
     > [!NOTE]
     > Bağlılık ödemeleri kart ödemeleri olarak ayarlandığı için bir kartı **Kart kurulumu** sayfasından seçmeniz gerekir. 
 
-    ![Bağlılık kartı kurulumu.](./media/LoyaltyCardSetup.png "Bağlılık kartı kurulumu")
+    ![Bağlılık kartı kurulumu](./media/LoyaltyCardSetup.png "Bağlılık kartı kurulumu")
 
     Bu ayardan sonra, müşteriler bağlılık puanlarını çağrı merkezinden kullanabilirler. Ek olarak, kullanıcı deneyimini "Bağlılık puanı tarafından karşılanan tutar"ı göstermek üzere geliştiriyoruz, böylece çağrı merkezi kullanıcılarının bağlılık puanı bakiyesini görmek için başka bir ekrana gitmelerine gerek kalmaz.
 
@@ -144,12 +145,9 @@ Ayrıca, satıcılar bağlılık programı kartı başına maksimum bağlılık 
     > Şu anda, sistem kullanıcıların "diğer etkinlik türleri" için bir numara serisi oluşturmaya zorlar ancak bu gelecekteki sürümler için gerekli bir adım olmayacaktır. Bir numara serisini ayarlamak için **Commerce paylaşılan parametreler** \> **Numara serileri**'ne gidin ve **Bağlılık diğer etkinlik türü kimliği** için bir numara serisi seçin.
 
 - İyi müşteri hizmeti sağlamak ve müşteri profillerini etkin biçimde sorgulamak için kasiyerlerin eksiksiz müşteri profiline tam erişimlerinin olması önemlidr. 10.0 sürümü ile, kasiyerler bağlılık geçmiş ayrıntılarını, ilişkili bağlılık programı ve POS üzerindeki katman bilgisi ile görebileceklerdir.
-- Ücretsiz veya indirimli sevkiyat, müşterilerin çevrimiçi satın alması için son derece motive edici temel faktörlerden biridir. Perakendecilerin sevkiyat promosyonlarını ayarlamaları için 10.0 sürümü ile "Sevkiyat eşik indirimi" adlı yeni bir promosyon türü devreye soktuk, burada perakendeci eşikleri tanımlayabilir, bunlara ulaşıldığında, müşterilerin ücretsiz sevkiyat için iskonto verilmesine olanak sağlanır. Örneğin, ücretsiz 'İki günde sevkiyat' için 35$ harcayın veya tüm bağlılık müşterileri için 'İki günde sevkiyat'. Bu özellik, yeni Gelişmiş otomatik masraf yeteneklerini kullanır. [Gelişmiş otomatik masraflar hakkındaki belgeye](/dynamics365/unified-operations/retail/omni-auto-charges) başvurun. Bu gelişmiş otomatik masrafların çalışması için sevkiyat promosyonu için etkinleştirilmesi gerekir. Bunlar, **Müşteri siparişleri** sekmesinden, **Commerce parametreleri** sayfasında etkinleştirilebilir ve "Gelişmiş otomatik masraflar" yapılandırmasını etkinleştirir. Ek olarak, bir perakendeci birden fazla türde gider ayarlayabildiği için örneğin işleme veya kurulum gibi, perakendecinin hangi giderin sevkiyat giderinin olduğunu belirtmesi gerekir. Sevkiyat iskontoları yalnızca sevkiyat masraflarına uygulanır. Masrafı Sevkiyat masrafı olarak belirtmek için **Masraf kodları** formuna gidin, bu **Retail ve Commerce** \> **Retail ve Commerce IT**\> **Kanal kurulumu** \> **Masraflar** altında bulunur ve sonra istenilen masraflar için "Sevkiyat masrafı" onay kutusunu açın. Şimdi **Sevkiyat eşiği iskontosu** formuna gidin ve iskontoyu ayarlayın.
+- Ücretsiz veya indirimli sevkiyat, müşterilerin çevrimiçi satın alması için son derece motive edici temel faktörlerden biridir. Perakendecilerin sevkiyat promosyonlarını ayarlamaları için 10.0 sürümü ile "Sevkiyat eşik indirimi" adlı yeni bir promosyon türü devreye soktuk, burada perakendeci eşikleri tanımlayabilir, bunlara ulaşıldığında, müşterilerin ücretsiz sevkiyat için iskonto verilmesine olanak sağlanır. Örneğin, ücretsiz 'İki günde sevkiyat' için 35$ harcayın veya tüm bağlılık müşterileri için 'İki günde sevkiyat'. Bu özellik, yeni Gelişmiş otomatik masraf yeteneklerini kullanır. [Gelişmiş otomatik masraflar hakkındaki belgeye](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) başvurun. Bu gelişmiş otomatik masrafların çalışması için sevkiyat promosyonu için etkinleştirilmesi gerekir. Bunlar, **Müşteri siparişleri** sekmesinden, **Commerce parametreleri** sayfasında etkinleştirilebilir ve "Gelişmiş otomatik masraflar" yapılandırmasını etkinleştirir. Ek olarak, bir perakendeci birden fazla türde gider ayarlayabildiği için örneğin işleme veya kurulum gibi, perakendecinin hangi giderin sevkiyat giderinin olduğunu belirtmesi gerekir. Sevkiyat iskontoları yalnızca sevkiyat masraflarına uygulanır. Masrafı Sevkiyat masrafı olarak belirtmek için **Masraf kodları** formuna gidin, bu **Retail ve Commerce** \> **Retail ve Commerce IT**\> **Kanal kurulumu** \> **Masraflar** altında bulunur ve sonra istenilen masraflar için "Sevkiyat masrafı" onay kutusunu açın. Şimdi **Sevkiyat eşiği iskontosu** formuna gidin ve iskontoyu ayarlayın.
 
     Ürün iskontolarında olduğu gibi bu iskonto, tüm mevcut standart iskonto yeterliliklerini yerine getirir, örneğin perakendecinin bu iskontoları yalnızca kupona sahip müşterilerin sahip olmasına izin vermek gibi. Ayrıca, bu iskontolar bu tür iskontoların uygunluğunu belirlemek için Fiyat grupları yeterliliğini de kullanır. Örneğin, perakendeci, bu promosyonları yalnızca çevrimiçi kanallarda ve/veya bağlılık müşterileri gibi çeşitli müşteri grupları içinde yürütmeyi seçebilir. Sipariş satırları, belirtilen teslim modu ile belirtilen eşiği karşıladığında, sevkiyat iskontosu uygulanır ve iskonto kuruluma dayalı olarak iskonto giderini azaltır. 
 
     > [!NOTE]
     > Miktar, basit, karıştır ve eşleştir gibi diğer periyodik iskontoların aksine, sevkiyat iskontosu iskonto satıralrı oluşturmaz, sevkiyat giderlerindeki düzeltmelerin doğrudandır ve iskontonun adını masraf açıklamasına ekler.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

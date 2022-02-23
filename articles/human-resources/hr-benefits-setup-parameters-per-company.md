@@ -1,33 +1,31 @@
 ---
 title: Şirket başına Kazanç yönetimi parametrelerini yapılandırma
-description: Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasında şirket başına Kazanç yönetimi için parametrelerin nasıl yapılandırılacağı açıklanmaktadır.
-author: twheeloc
-ms.date: 8/24/2021
+description: Microsoft Dynamics 365 Human Resources'Ta sosyal haklar yönetimiyle ilgili şirket başıan parametreleri yapılandırın.
+author: andreabichsel
+manager: tfehr
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f6b3f068c9d3198afa8cd10aaa14bbc7ec9ef3c4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
+ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065830"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692757"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>Şirket başına Kazanç yönetimi parametrelerini yapılandırma
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Yararlar sunan her organizasyon için, kazançlar onayı e-postaları ayarlarını konfigüre etmelisiniz.
 
@@ -39,10 +37,8 @@ Yararlar sunan her organizasyon için, kazançlar onayı e-postaları ayarların
 
    | Alan | Tanım |
    | --- | --- |
-   | **Onay e-postası gönder** | Bu özellik açık olduğunda **Personel self servisi**'ndeki kazanç kaydı deneyiminden çıkış yapan çalışanlara bir onay e-postası gönderilir. |
+   | **Onay e-postası gönder** | Bu özellik açık olduğunda, çalışan self servis 'deki sosyal haklar kayıt deneyiminden çıktığında çalışanlara bir onay e-postası gönderilir. |
    | **Onay e-postası şablonu** | Kayıt onayını gönderirken kullanılacak organizasyon e-posta şablonunu seçin. Şablon seçmezseniz, aşağıdaki genel e-posta gönderilir:<br><br>%EmployeeFirstName%,<br><br>Tebrikler! Sosyal haklar kaydını başarıyla tamamladınız.<br><br>Teşekkür ederiz,<br><Company/Org name> Kazançlar. |
    | **Gönderenin varsayılan e-posta adresi** | Onay e-postası gönderilirken kullanılacak e-posta adresi. |
 
 3. **Kaydet**'i seçin.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

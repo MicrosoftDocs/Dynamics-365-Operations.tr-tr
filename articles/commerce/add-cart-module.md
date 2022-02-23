@@ -2,30 +2,35 @@
 title: Sepet modülü
 description: Bu konu sepet modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 12/15/2020
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716896"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4416583"
 ---
 # <a name="cart-module"></a>Sepet modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konu sepet modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+
+## <a name="overview"></a>Özet
 
 Bir sepet modülü, müşteri kullanıma devam etmeden önce alışveriş sepetine eklenen maddeleri göstermek için kullanılır. Ayrıca, modül sipariş özeti gösterir ve müşterinin promosyon kodları uygulamasını veya kaldırmasını sağlar.
 
@@ -35,11 +40,11 @@ Sepet modülü, tüm sitede kullanılabilen bir tarayıcı tanımlama bilgisi ol
 
 Aşağıdaki resimde fabrikam sitesindeki bir sepet sayfası örneği gösterilmektedir.
 
-![Fabrikam sitesindeki bir sepet modülü örneği.](./media/cart2.PNG)
+![Fabrikam sitesindeki bir sepet modülü örneği](./media/cart2.PNG)
 
 Aşağıdaki resimde fabrikam sitesindeki bir sepet sayfası örneği gösterilmektedir. Bu örnekte, bir satır maddesi için işleme masrafı vardır.
 
-![Satır ögesi için işleme ücreti bulunan bir sepet modülü örneği.](./media/ecommerce-handling-fee.png)
+![Satır ögesi için işleme ücreti bulunan bir sepet modülü örneği](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Sepet modülü özelliklerini ve yuvaları
 
@@ -48,7 +53,6 @@ Aşağıdaki resimde fabrikam sitesindeki bir sepet sayfası örneği gösterilm
 | Başlık | Başlık metmi ve başlık etiketi (**H1**, **H2**, **H3**, **H4**, **H5** veya **H6**) | "Alışveriş çantası" veya "Sepetinizdeki maddeler" gibi bir sepet başlığı. |
 | Stokta yok hatalarını göster | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, alışveriş sepeti sayfası stokla ilgili hataları gösterir. Sitede stok denetimleri uygulanıyorsa bu özelliği **Doğru** olarak ayarlamanız önerilir. |
 | Kalemler için sevkiyat masraflarını göster | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, bu bilginin var olması durumunda sepet satırı maddeleri sevkiyat giderlerini gösterir. Kullanıcılar ödeme akışında yalnızca sevkiyatı seçtiğindan bu özellik Fabrikam temasında desteklenmez. Ancak, varsa bu özellik diğer iş akışlarında etkinleştirilebilir. |
-| Mevcut promosyonları göster| **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa alışveriş sepeti, içindeki ürünlere göre mevcut promosyonları gösterir. Bu özellik Dynamics 365 Commerce sürüm 10.0.16'da kullanılabilir. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Sepet modülünde kullanılabilen modüller
 
@@ -113,6 +117,3 @@ Bir yeni sayfaya sepet modülü eklemek ve gerekli özellikleri ayarlamak için 
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
 
 [Çevrimiçi işlevsellik profili oluşturma](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

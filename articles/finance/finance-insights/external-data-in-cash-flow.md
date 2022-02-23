@@ -1,48 +1,48 @@
 ---
-title: Nakit akışı tahminlerinde dış veriler
+title: Nakit akışı tahminlerinde dış verileri kullanma (önizleme)
 description: Bu konuda, dış verilerin nakit akışı tahminlerine girilebilmesi veya içeri aktarılması için tamamlamanız gereken kurulum adımları açıklanmıştır.
 author: rcarlson
-ms.date: 12/21/2021
+manager: AnnBe
+ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 8284ccd7ac383c53960f7fd6a1333aeb0e7e6f3c
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 801327dc54f6d4cfef7a9f062395e29846783e8f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969024"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644957"
 ---
-# <a name="external-data-in-cash-flow-forecasts"></a>Nakit akışı tahminlerinde dış veriler
+# <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Nakit akışı tahminlerinde dış verileri kullanma (önizleme)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Dış veriler nakit akışı tahminlerine girilebilir veya içeri aktarılabilir. Bu konu, dış verilerin kullanılmasına özgü kurulum adımlarını ve dış verilerin nakit akışı tahminine eklenmesini sağlayan adımları açıklar.
 
 ## <a name="external-data-setup"></a>Dış verilerin kurulumu
 
-Nakit akışı tahminlerinde dış verilerin kullanımını destekleyen ayarlar girmek için **Nakit akışı tahmin kurulum** sayfasındaki **Dış kaynak** sekmesini (**Nakit ve banka yönetimi \> Nakit akışı tahmini \> Nakit akışı tahmini kurulum**) kullanın.
+Nakit akışı tahminlerinde dış verilerin kullanımını destekleyen ayarlar girmek için **Nakit akışı tahmin kurulum** sayfasındaki **Dış kaynak** sekmesini (**Nakit ve banka yönetimi \> Nakit akışı tahmini**) kullanın.
 
-Dış veriler nakit akışı tahminlerine girilebilir veya içeri aktarılabilir. Harici veriler girilmeden veya içe aktarılmadan önce, harici kaynakların ayarlanması gerekir. **Harici kaynak** sekmesinde harici nakit akışı kategorileri ayarlayın. Kategori, **Giden** veya **Gelen** olabilir. **Likidite**, deftere nakil türü olarak seçilmelidir. **Yasal varlık ayarları** kılavuzunda, yasal varlıkları ve harici nakit akışı kategorilerinin uygulanacağı ilgili ana firmaları seçin.
+Bu kurulum hakkında daha fazla bilgi için bkz. [Nakit akışı tahmini](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting).
 
-Nakit akışı tahminlerini ayarlamak hakkında daha fazla bilgi için bkz: [Nakit akışı tahmini](../cash-bank-management/cash-flow-forecasting.md).
+Nakit akışı tahminlerine dış veriler girmek için dış verileri girerken ve değiştirirken Excel'de Aç deneyimini kullanabilirsiniz. **Dış veri** düğmesini seçin ve ardından **Dış Veri Ekle** veya **Mevcut dış verileri düzenle** seçeneklerinden birini belirleyin. Microsoft Excel dosyası açıldığında, aşağıdaki alanlara bilgi girebilirsiniz:
 
-## <a name="enter-external-data"></a>Dış verileri girme
-
-Nakit akışı tahminlerine dış veriler girmek ve değiştirmek için **Excel'de Aç** deneyimini kullanabilirsiniz. **Nakit akışı tahmin kurulumu** sayfasında **Dış veri** düğmesini seçin ve ardından **Dış Veri Ekle** veya **Mevcut dış verileri düzenle** seçeneklerinden birini belirleyin. Microsoft Excel dosyası açıldığında, aşağıdaki alanlara bilgi girebilirsiniz:
-
-- **Giriş Kodu** (benzersiz)
+- **Giriş Kodu**
 - **Açıklama** (isteğe bağlı)
-- **Dış Kaynak adı**: Finance Insights ayarlarken tanımladığınız listedeki değerlerden birini seçin.
+- **Dış Kaynak adı**: Mali İçgörüleri ayarlarken tanımladığınız listedeki değerlerden birini seçin.
 - **Tüzel Kişilik**
 - **Date**
 - **Hareket para birimi cinsinden tutar**
@@ -61,4 +61,5 @@ Ek olarak, kurulum verilerini bir ortamdan diğerine taşımanız gerekiyorsa ge
 - Nakit akışı tahmini harici kaynak ayarı
 - Nakit akışı tahmini harici kaynak tüzel kişiliği ayarı
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+#### <a name="privacy-notice"></a>Gizlilik bildirimi
+Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.

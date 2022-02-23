@@ -1,10 +1,12 @@
 ---
 title: Satınalma ve harcama analizi Power BI içeriği
-description: Bu konu, Power BI Satınalma harcaması analizinde nelerin bulunduğunu açıklar.
+description: Bu konu, Power BI Satınalma harcaması analizinde nelerin bulunduğunu açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: FrankDahl
+manager: AnnBe
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a40d4f39a7119def9ed0393d4ced2be1f7e801a5c1c3f984b002e5224299915a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f556cf2e506c57e465c2a86485d2cdd4cf8b65e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716124"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680626"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Satınalma ve harcama analizi Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Satın alma harcama analizi** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu konu, Microsoft Power BI **Satınalma harcaması analizinde** nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="overview"></a>Genel bakış
 
@@ -152,6 +154,3 @@ Aşağıdaki tablo içerikte Fatura satırları varlığından hesaplanan anahta
 | Tarihler                  | Tarihler, Yıl denkleştirme                                    |
 
 Varsayılan olarak, içerik geçerli takvim yılına ilişkin verileri gösterir. Ancak, rapor filtreleri bölümünden tarih filtresini değiştirebilirsiniz. Şirket filtresini de değiştirebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

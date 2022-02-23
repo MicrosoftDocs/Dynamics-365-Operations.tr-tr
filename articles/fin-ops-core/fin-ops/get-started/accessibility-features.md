@@ -2,9 +2,11 @@
 title: Erişilebilirlik özellikleri
 description: Bu konu, çeşitli engelleri bulunan kullanıcılara yardımcı olmak üzere tasarlanan işlevleri açıklar.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071070"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798707"
 ---
 # <a name="accessibility-features"></a>Erişilebilirlik özellikleri
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konu, çeşitli engelleri bulunan kullanıcıların bu uygulamayı kullanmalarına yardımcı olacak işlevleri açıklar. Örneğin, Microsoft Windows Ekran Okuyucusu gibi yardımcı görme teknolojileri kullanan kişilere yönelik özellikler vardır.
 
@@ -55,13 +54,13 @@ Bir sayfada yer alan her eyleme seklem sırası aracılığıyla klavyeden eriş
 
 Eylem Bölmesindeki **Satış siparişi** sekmesinde yer alan **E-posta bildirimi** grubunda görüntülenen **E-posta bildirimi günlüğü** eylemini çalıştırmak istiyorsunuz.
 
-![Eylem Bölmesindeki e-posta bildirim günlüğü eylemi.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Eylem Bölmesindeki &quot;e-posta bildirim günlüğü&quot; eylemi")
+![Eylem Bölmesindeki e-posta bildirim günlüğü eylemi](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Eylem Bölmesindeki &quot;e-posta bildirim günlüğü&quot; eylemi")
 
 Seçeneklerden biri klavyenizi kullanmaktır. Odağı Eylem Bölmesine taşımak için CTRL+F6 tuşuna basın ve **E-posta bildirimi günlüğü** üzerine gelene kadar Sekme tuşuna art arda basarak tük sekmelerin ve eylemlerin üzerinden geçin.
 
 Ancak, eylemi daha doğrudan da çalıştırabilirsiniz. Sayfadaki herhangi bir konumdan Ctrl + Kesme işareti (') tuşuna basarak eylemleri arama kutusunu görüntüleyin.
 
-![Eylem arama kutusu.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Eylem arama kutusu")
+![Eylem arama kutusu](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Eylem arama kutusu")
 
 Arama kutusuna eylemi açıklayan sözcükleri yazın. Eylem kullanılabilir duruma gelir ve doğrudan çalıştırabilirsiniz. Örneğin **e-posta**, **bildir** (sözcüğün bir kısmı) veya **günlük** yazarak "E-posta bildirimi günlüğü" işlevine "atlayabilirsiniz".
 
@@ -98,6 +97,3 @@ Akıllı telefonlar ve diğer küçük ekranlarda, denetimlerin ve form düzenin
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Geliştiricilere ve müşterilere yardımcı olmak için kılavuz özelleştirmelerinde erişilebilir düşünceyi içerir.
 
 Microsoft'un erişilebilirlik sağlama konusundaki en iyi uygulamaları hakkında daha fazla bilgi edinmek için bkz. [Formlar, ürünler ve denetimlerde erişilebilirlik](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

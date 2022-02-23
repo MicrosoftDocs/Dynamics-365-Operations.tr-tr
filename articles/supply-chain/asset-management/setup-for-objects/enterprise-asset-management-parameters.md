@@ -1,10 +1,12 @@
 ---
 title: Kıymet Yönetimi parametreleri
 description: Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgili genel parametrelerin ayarlanması gerekir.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751973"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020666"
 ---
 # <a name="asset-management-parameters"></a>Kıymet Yönetimi parametreleri
 
@@ -99,11 +101,8 @@ Aşağıdaki listesinde açıklanan alanların tümü iş emri planlaması sıra
 
 ## <a name="the-document-types-tab"></a>Belge türleri sekmesi
 
-İş emri raporuyla ilgili ekleri yazdırmak için kullanılabilir olması gereken belge türlerini seçin. Bu işlem **Kullanılabilir** bölümünde bir belge türünü ve ardından ![ileri ok.](media/15-setup-for-objects.png) düğmesi seçilerek yapılır. Seçili belge türünü kaldırmak isterseniz **Seçili** bölümünde belge türünü seçin ve ![geri ok](media/16-setup-for-objects.png) düğmesine tıklayın.
+İş emri raporuyla ilgili ekleri yazdırmak için kullanılabilir olması gereken belge türlerini seçin. Bu işlem **Kullanılabilir** bölümünde bir belge türüne ve ardından ![ileri ok](media/15-setup-for-objects.png) düğmesine tıklayarak yapılır. Seçili belge türünü kaldırmak isterseniz **Seçili** bölümünde belge türünü seçin ve ![geri ok](media/16-setup-for-objects.png) düğmesine tıklayın.
 
 ## <a name="the-number-sequences-tab"></a>Numara serileri sekmesi
 
 Gereken numara serilerini bu bölümde seçin. Kıymetler için iki numara sırası vardır: Biri el ile oluşturulan kıymetler ve diğeri de bekleyen kıymetler aracılığıyla oluşturulan kıymetler içindir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

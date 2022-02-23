@@ -1,82 +1,92 @@
 ---
-title: Lifecycle Services'dan çift yazma kurulumu
-description: Bu konuda, Microsoft Dynamics Lifecycle Services (LCS) portalından nasıl çift yazma bağlantısı ayarlayacağınız açıklanmaktadır.
-author: laneswenka
-ms.date: 08/03/2021
+title: Lifecycle Services'tan çift yazma kurulumu
+description: Bu konu, yeni bir Finance and Operations ortamı ile yeni bir Dataverse ortamı arasında Microsoft Dynamics Lifecycle Services'tan (LCS) nasıl çift yazma bağlantısı kurulabileceğini açıklar.
+author: RamaKrishnamoorthy
+manager: AnnBe
+ms.date: 01/06/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063684"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683537"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services'dan çift yazma kurulumu
+# <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services'tan çift yazma kurulumu
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [preview-banner](../../includes/preview-banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Bu konuda, Microsoft Dynamics Lifecycle Services (LCS) portalından nasıl çift yazma bağlantısı ayarlayacağınız açıklanmaktadır.
+Bu konu, yeni bir Finance and Operations ortamı ile yeni bir Dataverse ortamı arasında Microsoft Dynamics Lifecycle Services'tan (LCS) nasıl çift yazma bağlantısı kurulabileceğini açıklar.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Power Platform tümleştirmeyi aşağıdaki konularda açıklandığı gibi tamamlamanız gerekir:
+Çift yazma bağlantısı kurmak için yönetici olmanız gerekir.
 
-+ [Power Platform Tümleştirme - Ortam dağıtımı sırasında etkinleştir](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [Power Platform tümleştirmesi - Ortam dağıtımı sonrasında etkinleştir](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
++ Kiracıya erişiminiz olmalıdır.
++ Hem Finance and Operations ortamları hem de Dataverse ortamlarında yönetici olmanız gerekir.
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Yeni Dataverse ortamları için çift yazmayı ayarlama
+## <a name="set-up-a-dual-write-connection"></a>Çift yazma bağlantısı ayarlama
 
-LCS **Ortam Ayrıntıları** sayfasından çift yazma ayarlamak için şu adımları izleyin:
+Çift yazma bağlantısı ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Ortam Ayrıntıları** sayfasında **Power Platform Tümleştirme** bölümünü genişletin.
+1. LCS'de projenize gidin.
+2. Yeni bir ortam dağıtmak için **Yapılandır**'ı seçin.
+3. Sürümü seçin. 
+4. Topolojiyi seçin. Kullanılabilir yalnızca bir topoloji varsa, otomatik olarak seçilir.
+5. **Dağıtım ayarları** sihirbazında ilk adımları tamamlayın.
+6. **Dataverse** sekmesinde, aşağıdaki adımlardan birini uygulayın:
 
-2. **Çift yazma uygulaması** düğmesini seçin.
+    - Dataverse ortamı kiracınız için zaten sağlanmışsa, onu seçebilirsiniz.
 
-    ![Power Platform tümleştirmesi.](media/powerplat_integration_step2.png)
+        1. **Dataverse'ı yapılandır** seçeneğini **Evet** olarak ayarlayın.
+        2. **Kullanılabilir ortamlar** alanında, Finance and Operations verileriyle tümleştirilecek ortamı seçin. Liste, yönetici ayrıcalıklarına sahip olduğunuz tüm ortamları içerir.
+        3. Hüküm ve koşulları kabul etmiş olduğunuzu belirtmek için **Kabul et** onay kutusunu seçin.
 
-3. Hüküm ve koşulları inceleyin ve ardından **Yapılandır**'ı seçin.
+        ![Dataverse ortamı kiracınız için zaten sağlandığında Dataverse sekmesi](../dual-write/media/lcs_setup_1.png)
 
-4. Devam etmek için **Tamam**'ı seçin.
+    - Kiracınızda Dataverse ortamı yoksa, yeni bir ortam sağlanacaktır.
 
-5. Ortam ayrıntıları sayfasını düzenli aralıklarla yenileyerek ilerleme durumunu izleyebilirsiniz. Kurulum genellikle 30 dakika veya daha az sürer.  
+        1. **Dataverse'ı yapılandır** seçeneğini **Evet** olarak ayarlayın.
+        2. Dataverse ortamı için bir ad girin.
+        3. Ortamın dağıtılacağı bölgeyi seçin.
+        4. Ortam için varsayılan dili ve para birimini seçin.
 
-6. Kurulum tamamlandığında, işlemin başarılı olup olmadığını veya bir hata olup olmadığını bildiren bir ileti bildirir. Kurulum başarısız olursa, ilgili bir hata iletisi görüntülenir. Sonraki adıma geçmeden önce hataları düzeltmeniz gerekir.
+            > [!NOTE]
+            > Dil ve para birimini daha sonra değiştiremezsiniz.
 
-7. Geçerli ortamın veritabanları ile Dataverse arasında bağlantı oluşturmak için **Power Platform Ortama bağla**'yı seçin. Bu genellikle 5 dakikadan daha az sürer.
+        5. Hüküm ve koşulları kabul etmiş olduğunuzu belirtmek için **Kabul et** onay kutusunu seçin.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Power Platform ortamı bağlantısı.":::
+        ![Kiracınızda Dataverse ortamı olmadığında Dataverse sekmesi](../dual-write/media/lcs_setup_2.png)
 
-8. Bağlama tamamlandığında, bir köprü görüntülenir. Finans ve Operasyon ortamındaki çift yazma yönetim alanına giriş yapmak için bağlantıyı kullanın. Buradan varlık eşlemeleri ayarlayabilirsiniz.
+7. **Dağıtım ayarları** sihirbazında kalan adımları tamamlayın.
+8. Ortamın durumu **Dağıtıldı** olduktan sonra, ortam ayrıntıları sayfasını açın. **Dataverse ortam bilgileri** bölümü, Finance and Operations ortamı adını ve bağlanan Dataverse ortamı adını gösterir.
 
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Mevcut Dataverse ortamı için çift yazmayı ayarlama
+    ![Dataverse ortam bilgileri bölümü](../dual-write/media/lcs_setup_3.png)
 
-Varolan bir Dataverse ortam için çift yazma ayarlamak için bir Microsoft [destek bileti](../../lifecycle-services/lcs-support.md) oluşturmanız gerekir. Bilet şunları içermelidir:
+9. Finance and Operations ortam yöneticisinin LCS'de oturum açması ve bağlantıyı tamamlamak için **Uygulamalar için CDS'ye Bağla**'yı seçmesi gerekir. Ortam ayrıntıları sayfası yöneticinin ilgili kişi bilgilerini gösterir.
 
-+ Finans ve Operasyon ortamınızın kimliği.
-+ Lifecycle Services'den ortam adınız.
-+ Power Platform Yönetim Merkezi'ndeki Dataverse kuruluş kimliği veya Power Platform Ortam Kimliği. Biletinizde, kimliğin Power Platform tümleştirme için kullanılan örnek olmasını isteyin.
+    Bağlantı tamamlandıktan sonra, durum **Ortam bağlantısı başarıyla tamamlandı** olarak güncelleştirilir.
+
+10. Finance and Operations ortamındaki **Veri tümleştirme** çalışma alanını açmak ve kullanılabilir şablonları kontrol etmek için **Uygulamalar için CDS'ye Bağla**'yı seçin.
+
+    ![Dataverse ortam bilgileri bölümündeki Uygulamalar için CDS'ye Bağla düğmesi](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
-> Ortamların bağlantısını LCS kullanarak kaldıramazsınız. Bir ortamın bağlantısını kaldırmak için Finans ve Operasyon ortamındaki **Veri tümleştirme** çalışma alanını açın ve sonra **Bağlantıyı kaldır**'ı seçin.
-
-## <a name="linking-mismatch"></a>Bağlama uyuşmazlığı
-
-Çift yazma ortamınız bir Dataverse kurulumuna bağlanırken LCS ortamınızın başka bir Dataverse kurulumuna bağlanması mümkündür. Bu bağlama uyuşmazlığı, beklenmeyen davranışa neden olabilir ve verilerin yanlış ortama gönderilmesiyle sonuçlanabilir. Çift yazma için kullanılacak önerilen ortam, Power Platform tümleştirmesinin parçası olarak oluşturulan ortamdır ve uzun vadeli olarak bu, ortamlar arasında bağlantı oluşturmanın tek yolu olacaktır.
-
-Ortamınızda bağlama uyuşmazlığı varsa LCS'de ortam ayrıntıları sayfanızda "Microsoft, ortamınızın Çift yazma aracılığıyla Power Platform Tümleştirmesi'nde belirtilenden farklı bir hedefe bağlandığını algıladı; bu önerilen bir durum değildir" gibi bir uyarı görüntülenir:
-
-:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform tümleştirme bağlantısı eşleşmiyor.":::
-
-Bu hatayla karşılaşırsanız gereksinimlerinize göre iki seçenek vardır:
-
-+ LCS ortam ayrıntıları sayfanızda belirtildiği üzere [Çift yazma ortamlarının bağlantısını kaldırın ve yeniden bağlayın (Bağlantıyı sıfırlayın veya değiştirin)](relink-environments.md#scenario-reset-or-change-linking). Microsoft desteği olmadan çalıştırabileceğinizden bu ideal bir seçenektir.  
-+ Bağlantınızı çift yazmada tutmak isterseniz önceki bölümde belgelendiği gibi mevcut Dataverse ortamınızı kullanmak için Power Platform tümleştirmesini değiştirmek üzere Microsoft Desteği'nden yardım isteyebilirsiniz.  
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+> Ortamların bağlantısını LCS kullanarak kaldıramazsınız. Bir ortamın bağlantısını kaldırmak için Finance and Operations ortamdaki **Veri tümleştirme** çalışma alanını açın ve sonra **Bağlantıyı kaldır**'ı seçin.

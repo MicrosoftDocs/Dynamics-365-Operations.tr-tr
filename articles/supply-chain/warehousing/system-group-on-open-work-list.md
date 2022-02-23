@@ -2,24 +2,27 @@
 title: Açık bir iş listesinde sistem gruplama
 description: Bu konu, mobil cihazda açık iş listesine nasıl filtre uygulanacağını açıklar.
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 588744ea19f387b57405030618a6ff176161a8a3639bd58232a657bdaf064a04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733312"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439162"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>Açık bir iş listesinde sistem gruplama
 
@@ -39,6 +42,3 @@ Açık bir iş listesinde sistem gruplandırmayı ayarlamak için aşağıdaki a
 | Sistem gruplandırma alanı | Yalnızca <strong>Sistem işine izin ver</strong> <strong>Evet</strong> olarak ayarlandığında kullanılabilir. Çalışanlar için çekme işinin nasıl gruplanacağını belirleyen bu alanı seçin. Örneğin, <strong>ShipmentId</strong> alanını seçerseniz çalışan çekme işini gruplandırmak için sevkıyat kodunu tarayacaktır. Böylece sevkıyat için tüm iş çalışana atanır. Bu alan, sistem tarafından gruplanan mevcut işi kullanmak için bir menü öğesi oluşturmanızı gerektirir. Çalışanı neyi taraması gerektiği hakkında bilgilendirmek için <strong>Sistem gruplandırma etiketi</strong> alanını kullanın. |
 | Sistem gruplandırma etiketi |                       Yalnızca <strong>Sistem işine izin ver</strong> <strong>Evet</strong> olarak ayarlandığında kullanılabilir. Çalışan için çekme işi gruplandırma sırasında neyin taranacağına ilişkin bilgileri girin. Örneğin çekme işini sevkiyata göre gruplandırmak için <strong>ShipmentId</strong> alanını kullanıyorsanız alana Sevkiyat kodu girebilirsiniz. Bu alan, sistem tarafından gruplanan mevcut işi kullanmak için bir menü öğesi oluşturmanızı gerektirir. <strong>Sistem gruplandırma</strong> alanında alanı nasıl gruplandıracağınızı da seçmelisiniz.                       |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

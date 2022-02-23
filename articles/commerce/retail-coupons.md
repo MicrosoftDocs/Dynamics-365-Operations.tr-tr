@@ -1,26 +1,29 @@
 ---
 title: Perakende satışlar için kupon ayarlama
-description: Bu konu kuponlarına genel bakış sağlar ve bunların nasıl ayarlanacağını Dynamics 365 Commerce'te açıklar.
-author: josaw1
-ms.date: 10/05/2021
+description: Bu konu kuponlarına genel bakış sağlar ve bunların nasıl ayarlanacağını açıklar.
+author: scott-tucker
+manager: AnnBe
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
-ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7603135"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416355"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Perakende satışlar için kupon ayarlama
 
@@ -38,10 +41,6 @@ Kupon oluşturmak için iskontoyu ve kuponu ayrı olarak oluşturun. Bunun ardı
 
 > [!NOTE]
 > Bir Kupon bir iskontoya bağlandıktan sonra, kupon ayarları tarafından yönetildiklerinden Commerce'deki iskonto sayfasında için birçok alan salt okunur olur. Bu alanlar standart tarih aralıkları ve durum alanlarını içerir.
-> 
-> Kuponu çağrı merkezi kanalında kullanırken, kuponla ilişkilendirilmiş iskontonun uygulanmasını sağlamak için **Yeniden hesapla** düğmesini **(Satış sekmesi > Hesapla > Yeniden hesapla)** seçmeniz gerekir. Bu ek adım gelecekteki bir sürümde kaldırılacaktır.
-
-Bir satış hareketine satış noktasında (POS) kupon uygulamak için **kupon kodu** veya **kupon bar kodu** kullanabilirsiniz. **Kupon kodunu** kullanmak için POS **İşlemi** [ekranı düzeninde](pos-screen-layouts.md) **Kupon kodu Ekle** işlemi konfigüre edilmelidir. **Kupon kodu Ekle**'yi seçin ve kupon kodunu girin. Alternatif olarak, **kupon bar kodunu** kullanmak için barkodu tarayın veya **hareket** ekranındaki sayısal klavyeyi kullanarak barkodu girin.
 
 ### <a name="limited-use-coupons"></a>Sınırlı kullanım kuponları
 
@@ -83,6 +82,3 @@ Kupon işlevi birçok farklı özellik içerir. Commerce Headquarters (HQ) ve ka
 - **Genel merkez kısmen güncelleştirildi ancak Commerce Scale Unit ve POS güncelleştirilmedi** Bir Genel Merkez güncelleştirmesinde, kupon ve iskonto sayfaları güncelleştirilir ve ticaret fiyatı altyapısı da güncelleştirilir. Bu iki bileşenden yalnızca biri güncelleştirilirse, Commerce'deki bazı sayfalar fiyat hesaplama verileriyle eşleşmeyecektir. Bu nedenle, iskonto hesaplamaları sırasında beklenmeyen iskonto hesaplamaları veya hatalar oluşabilir.
 - **Genel merkez güncelleştirildi ancak Commerce Scale Unit ve POS güncelleştirilmedi (N-1).** Aynı anda tüm mağazalar güncelleştirilemediğinden, genel merkezi mağazaları güncelleştirmeden önce güncelleştirmenizi öneririz. N-1 senaryosunda, kuponlarla ilişkili yeni işlev henüz güncelleştirilmemiş mağazalarda kullanılamaz. Örneğin, kupon işlevi satırları "hariç tut" işlevi sunar. Bir iskontoda satırları hariç tut özelliği kullanırsanız, daha önceki bir sürümü çalıştıran bir mağaza uygulanmaz.
 - **Genel merkez güncelleştirilmedi ancak Commerce Scale Unit ve POS güncelleştirildi (N+1).** Commerce Scale Unit'deki güncelleştirilmiş fiyat alt yapısı hesaplamalar sırasında eski iskonto kodlarını işleyebildiğinden, güncelleştirmenin bu senaryo üzerinde etkisi olmayacaktır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

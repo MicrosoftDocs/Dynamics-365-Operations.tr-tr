@@ -1,10 +1,12 @@
 ---
 title: İşe alma süreçlerini yönetme
-description: Bu konuda, işe alanların işe alma sürecindeki adımları izlemek için kullanabileceği bir kavram açıklanmaktadır.
+description: Bu makalede açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınması işlemleri, başvuru sahibinin ve başvuru bilgilerinin takip edilmesi, başvuru sahipleriyle iş görüşmeleri gerçekleştirilmesi ve organizasyonunuzdaki açık pozisyonların doldurulması amacıyla bir veya daha fazla sayıda aday seçilmesi de dahil olmak üzere işe alan kişilerin bir işe alma sürecindeki adımları takip etmek üzere kullanabileceği bir konsept açıklanmıştır.
 author: andreabichsel
-ms.date: 01/10/2022
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
@@ -15,18 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075487"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798055"
 ---
 # <a name="manage-recruiting-processes"></a>İşe alma süreçlerini yönetme
 
-> [!IMPORTANT]
-> Bu konuda belirtilen işlevler şu anda Finance altyapısında Human Resources müşteriler için kullanıma sunulmaktadır.  
-
+[!include [banner](../includes/banner.md)]
 
 Bu konu açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınması işlemleri, başvuru sahibinin ve başvuru bilgilerinin takip edilmesi, başvuru sahipleriyle iş görüşmeleri gerçekleştirilmesi ve organizasyonunuzdaki açık pozisyonların doldurulması amacıyla bir veya daha fazla sayıda aday seçilmesi de dahil olmak üzere işe alan kişilerin bir işe alma sürecindeki adımları takip etmek üzere kullanabileceği bir konsept açıklanmıştır.
 
@@ -44,7 +44,7 @@ Bu konu açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınm
 - Uygulama son başvuru tarihi
 - Tahmini işe başlangıç tarihi
 
-İşe alma projesi, açık pozisyon için duyuru yapılmak üzere **Personel self servis** sayfası altında kullanılan **İş ilanı** değerini içerir. Açık pozisyonun çalışanlara gösterilmesi için işe alma projesinin mutlaka bir **İş ilanı** değerine sahip olması, **Personel self serviste göster** alanının **Evet** konumuna ayarlanmış olması, **Başvuru son tarihi** alanının daha ileri bir tarih olması ve işe alma **Projesinin durumu** değerinin **Başlatıldı** olması gerekir. Aşağıdaki tabloda olası işe alma projesi durumları ve bunlara ilişkin açıklamalar listelenmiştir.
+İşe alma projesi, açık pozisyon için duyuru yapılmak üzere **Personel self servis** altında kullanılan **İş ilanını** içerir. Açık pozisyonun çalışanlara gösterilmesi için işe alma projesinin mutlaka bir **İş ilanına** sahip olması, **Personel self serviste göster** alanının Evet konumuna ayarlanmış olması, **Başvuru son tarihinin** daha ileri bir tarih olması ve işe alma projesinin durumunun **Başlatıldı** olması gerekir. Aşağıdaki tabloda olası işe alma projesi durumları ve bunlara ilişkin açıklamalar listelenmiştir.
 
 | Durum    | Şunları gösterir…                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Bu konu açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınm
 
 ## <a name="applicants"></a>Başvuranlar
 
-Bir başvuran, kuruluşunuzdaki bir işe başvuran bir kişidir. Başvuranlar, organizasyonunuzdaki tüm yasal varlıklar arasında paylaşılır. Bu nedenle, içinde arama yapılacak büyük bir havuz vardır. Başvuru sahipleri için yeterlilikleri, referansları, lojman taleplerini ve kişisel bilgileri saklayabilirsiniz. Bir başvuran kaydı oluşturduğunuzda, Genel Adres Defteri'nde o başvuran kişi için kayıt oluşturulur. Başvuru sahipleri için aşağıdaki genel adres defterini güncellemek için **Başvuru sahibi** sayfasını kullanabilirsiniz:
+Bir başvuran, kuruluşunuzdaki bir işe başvuran bir kişidir. Başvuranlar kuruluşunuz içindeki tüm tüzel varlıklar arasında paylaşılarak, içerisinde arama yapabileceğiniz geniş bir yetenek havuzunu size sağlar. Başvuru sahipleri için yeterlilikleri, referansları, lojman taleplerini ve kişisel bilgileri saklayabilirsiniz. Bir başvuran kaydı oluşturduğunuzda, Genel Adres Defteri'nde o başvuran kişi için kayıt oluşturulur. Başvuru sahipleri için aşağıdaki genel adres defterini güncellemek için **Başvuru sahibi** sayfasını kullanabilirsiniz:
 
 - Adres bilgileri
 - İletişim bilgileri
@@ -86,7 +86,7 @@ Başvuru durumu bir uygulamanın işe alma işleminin neresinde olduğunu göste
 
 ### <a name="correspondence-actions"></a>Yazışma eylemleri
 
-Bir başvuru sahibinin iletişim eylemi, başvuruyu gönderen başvuru sahibiyle iletişim kurmak için kullandığınız belgeyi veya e-posta şablonunu belirler. **Başvuru yer işaretlerini** yazışma eylemleri ile ilişkilendirerek **Başvuru**, **Başvuran**, **Mülakat** ve **İşe alma proje** sayfaları içerisindeki değerleri kullanarak başvuranlarla iletişimini sağlayabilirsiniz. İlgili eylemler için **başvuru e-posta şablonları** oluşturarak, başvurularında belirli bir durum ve karşılık gelen eylem kombinasyonu olan başvuranlara hızlıca e-posta gönderebilirsiniz. Örneğin, **Alındı** **Durum** değerine ve **Alındı** **Yazışma eylemi** durumuna sahip tüm başvuranlara bir onay e-postası gönderebilirsiniz. E-postayı gönderdikten sonra, başvuranların durumunu otomatik olarak güncelleştirme seçeneğiniz vardır.
+Bir **Başvuru sahibi'nin** iletişim eylemi, başvuruyu gönderen başvuru sahibiyle iletişim kurmak için kullandığınız belgeyi veya e-posta şablonunu belirler. **Başvuru yer işaretlerini** yazışma eylemleri ile ilişkilendirerek Başvuru, Başvuran, Mülakat ve İşe alma proje sayfaları içerisindeki değerleri kullanarak başvuranlarla iletişimini sağlayabilirsiniz. **Başvuru e-posta şablonları** belirli bir duruma ve yazışma eylemi kombinasyonuna sahip başvuranlara hızlı bir biçimde e-postalar göndermek için yazışma eylemleri için oluşturulabilir. Örneğin, Alındı **Durumuna** ve Alındı **Yazışma eylemi**'ne sahip tüm başvuranlara bir Onay e-postası gönderebilirsiniz. E-postayı gönderdikten sonra başvuranların durumunu otomatik olarak güncelleştirme seçeneğiniz vardır.
 
 ## <a name="application-routing"></a>Başvuru rotası
 
@@ -103,5 +103,3 @@ Açık bir pozisyon için iyi bir aday olabilecek kişilerin belirlenmesi için 
 ## <a name="hiring-applicants"></a>Başvuru sahiplerinin işe alınması
 
 Bir başvuru sahibini işe almak için **Uygulamalar** sayfasını kullanın. Bir başvuru sahibini işe aldığınızda başvuru kaydının durumu **İşe alındı** olarak değişir ve başvuru sahibinin genel adres defteri kişi kaydı, yeni çalışan kaydıyla ilişkilendirilir. Yeni çalışan kaydı için genel adres defteri bilgileri üzerindeki değişiklikler yanı zamanda başvuru kaydında da görüntülenir. Bu, yeni çalışan kuruluşunuzda başka bir işe başvurursa veri girişini azaltmaya yardımcı olabilir. Bir çalışanı yeni bir pozisyonda işe almak için, nakil işlemini başlatmak üzere **Başvuru durumu** açılır menüsünde **Konum değiştir**'i tıklatın.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

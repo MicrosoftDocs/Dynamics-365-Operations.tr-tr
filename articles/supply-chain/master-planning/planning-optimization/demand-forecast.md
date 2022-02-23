@@ -2,13 +2,16 @@
 title: Talep tahminleri ile master planlama
 description: Bu konu, Planlama İyileştirmesi ile master planlama sırasında talep tahminlerinin nasıl ekleneceğini açıklamaktadır.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
+ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
+ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867259"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666734"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Talep tahminleri ile master planlama
 
@@ -88,7 +91,7 @@ Bir tahmini bir master planlamaya dahil etmek ve tahmin gereksinimlerini azaltma
 
 - Hiçbiri
 - Yüzde - azaltma anahtarı
-- Hareketler - azaltma anahtarı
+- Hareketler - azaltma anahtarı (Planlama İyileştirmesi ile henüz desteklenmiyor)
 - Hareketler - dinamik dönem
 
 Aşağıdaki bölümler her seçenek hakkında daha fazla bilgi sağlar.
@@ -137,85 +140,32 @@ Bu durumda, tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gere
 
 #### <a name="transactions--reduction-key"></a>Hareketler - azaltma anahtarı
 
-**Tahmin gereksinimlerini azaltmak için kullanılan yöntem** alanını *Hareketler: azaltma anahtarı* olarak ayarlarsanız azaltma anahtarı ile tanımlanan dönemlerde gerçekleşen donanımlı talep hareketleri ile tahmin gereksinimleri azaltılır.
-
-Uygun bulunan talep, **Karşılama grupları** sayfasındaki **Tahmin azaltma ölçütü** alanıyla tanımlanır. **Tahmin azaltma ölçütü** alanını *Siparişler* olarak ayarlarsanız yalnızca satış siparişi hareketleri uygun bulunan talep olarak kabul edilir. *Tüm hareketler* olarak ayarlarsanız tüm şirketlerarası olmayan çıkış stok hareketleri uygun bulunan talep olarak kabul edilir. Şirketlerarası satış siparişlerinin de uygun bulunan talep olarak değerlendirilmesi gerekiyorsa **Şirketlerarası siparişleri dahil et** seçeneğini *Evet* olarak ayarlayın.
-
-Tahmin azaltma, azaltma anahtarı dönemindeki ilk (en erken) talep tahmini kaydıyla başlar. Donanımlı stok hareketlerinin miktarı, aynı azaltma anahtarı dönemindeki talep tahmin satırlarının miktarından fazlaysa stok hareketlerinin bakiyesi önceki dönemdeki talep tahmin miktarını (tüketilmemiş tahmin varsa) azaltmak için kullanılır.
-
-Önceki azaltma anahtarı döneminde tüketilmeyen tahmin kalmamışsa bir sonraki aydaki tahmin miktarını azaltmak için stok hareketleri bakiyesi (tüketilmemiş tahmin varsa) kullanılır.
-
-Azaltma anahtarı satırlarındaki **Yüzde** alanının değeri, **Tahmin gereksinimlerini azaltmak için kullanılan yöntem** alanı *Hareketler: azaltma anahtarı* olarak ayarlandığında kullanılmaz. Azaltma anahtarı dönemini tanımlamak için yalnızca tarihler kullanılır.
-
-> [!NOTE]
-> Bugünün tarihinde veya öncesinde yayımlanan herhangi bir tahmin yok sayılır ve planlı siparişler oluşturmak için kullanılmaz. Örneğin, ay için talep tahmininiz 1 Ocak'ta oluşturulur ve 2 Ocak'ta talep tahminini içeren master planlamayı çalıştırırsanız hesaplama 1 Ocak tarihli talep tahmini satırını yoksayar.
+**Hareketler - azaltma anahtarını** seçerseniz: Tahmin gereksinimleri azaltma anahtarı tarafından tanımlanan meydana gelen hareketlere göre azaltılır.
 
 ##### <a name="example-transactions--reduction-key"></a>Örnek: Hareketler - azaltma anahtarı
 
 Bu örnek, azaltma anahtarı tarafından tanımlanan dönemler boyunca gerçekleşen fiili siparişlerin talep tahmini gereksinimlerini nasıl azalttığını gösterir.
 
-[![Master planlama çalıştırılmadan önceki dönemden kalan siparişler ve tahminler.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
+Bu örnek için **Hareketler - azaltma anahtarı**'nı **Tahmin gereksinimlerini azaltma yöntemi** alanında, **Master planlamalar** sayfasında seçin.
 
-Bu örnek için *Hareketler - azaltma anahtarı*'nı **Tahmin gereksinimlerini azaltma yöntemi** alanında, **Master planlamalar** sayfasında seçin.
+Aşağıdaki satış siparişleri 1 Ocak'tadır.
 
-Aşağıdaki talep tahmini satırları 1 Nisan'da mevcuttur.
+| Ay    | Gerekli parça sayısı |
+|----------|--------------------------|
+| Ocak  | 956                      |
+| Şubat | 1.176                    |
+| Mart    | 451                      |
+| Nisan    | 119                      |
 
-| Date     | Öngörülen parça sayısı |
-|----------|-----------------------------|
-| Nisan 5  | 100                         |
-| Nisan 12 | 100                         |
-| Nisan 19 | 100                         |
-| Nisan 26 | 100                         |
-| Mayıs 3    | 100                         |
-| Mayıs 10   | 100                         |
-| Mayıs 17   | 100                         |
+Önceki örnekte kullanılan aylık 1.000 parçalık aynı talep tahminini kullanıyorsanız, aşağıdaki gereksinim miktarları ana planlamaya aktarılır.
 
-Nisan ayında aşağıdaki satış siparişleri vardır.
-
-| Date     | Talep edilen parça sayısı |
-|----------|----------------------------|
-| Nisan 27 | 240                        |
-
-[![Nisan siparişlerine göre oluşturulan planlı tedarik.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
-
-Master planlama 1 Nisan'da çalıştırıldığında aşağıdaki gereksinim miktarları master plana aktarılır. Görüldüğü gibi, Nisan ayı tahmin hareketleri bu hareketlerin ilkinden başlayarak sıralı bir şekilde 240 adet talep miktarı kadar azaltılmıştır.
-
-| Date     | Gerekli parça sayısı |
-|----------|---------------------------|
-| Nisan 5  | 0                         |
-| Nisan 12 | 0                         |
-| Nisan 19 | 60                        |
-| Nisan 26 | 100                       |
-| Nisan 27 | 240                       |
-| Mayıs 3    | 100                       |
-| Mayıs 10   | 100                       |
-| Mayıs 17   | 100                       |
-
-Şimdi, Mayıs dönemi için yeni siparişlerin içeri aktarıldığını varsayalım.
-
-Mayıs ayında aşağıdaki satış siparişleri vardır.
-
-| Date   | Talep edilen parça sayısı |
-|--------|----------------------------|
-| Mayıs 4  | 80                         |
-| Mayıs 11 | 130                        |
-
-[![Nisan ve Mayıs siparişlerine göre oluşturulan planlı tedarik.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
-
-Master planlama 1 Nisan'da çalıştırıldığında aşağıdaki gereksinim miktarları master plana aktarılır. Görüldüğü gibi, Nisan ayı tahmin hareketleri bu hareketlerin ilkinden başlayarak sıralı bir şekilde 240 adet talep miktarı kadar azaltılmıştır. Ancak Mayıs ayı tahmin hareketleri, Mayıs ayındaki ilk talep tahmin işleminden başlayarak toplam 210 adet azaltılmıştır. Ancak dönem başına toplamlar korunur (Nisan'da 400 ve Mayıs'ta 300).
-
-| Date     | Gerekli parça sayısı |
-|----------|---------------------------|
-| Nisan 5  | 0                         |
-| Nisan 12 | 0                         |
-| Nisan 19 | 60                        |
-| Nisan 26 | 100                       |
-| Nisan 27 | 240                       |
-| Mayıs 3    | 0                         |
-| Mayıs 4    | 80                        |
-| Mayıs 10   | 0                         |
-| Mayıs 11   | 130                       |
-| Mayıs 17   | 90                        |
+| Ay                | Gerekli parça sayısı |
+|----------------------|---------------------------|
+| Ocak              | 44                        |
+| Şubat             | 0                         |
+| Mart                | 549                       |
+| Nisan                | 881                       |
+| Mayıs - Aralık arası | 1,000                     |
 
 #### <a name="transactions--dynamic-period"></a>Hareketler - dinamik dönem
 
@@ -300,7 +250,7 @@ Bu nedenle, aşağıdaki planlı siparişleri oluşturulur.
 Bir tahmin azaltma anahtarı **Hareketler - azaltma anahtarı** ve **Yüzde - azaltma anahtarı** yöntemlerinde tahmin gereksinimlerini azaltmak için kullanılır. Bir azaltma anahtarı oluşturmak ve ayarlamak için bu adımları izleyin.
 
 1. **Master planlama \> Kurulum \> kapsam \> Azaltma anahtarları**'na gidin.
-2. Yeni bir azaltma anahtarı oluşturmak için **Yeni**'yi seçin.
+2. **Yeni**'yi seçin veya bir azaltma anahtarı oluşturmak için **Ctrl+N**'ye basın.
 3. **Azaltma anahtarı** alanında, tahmin edilen azaltma anahtarı için benzersiz bir tanımlayıcı girin. Daha sonra **Adı** alanında, bir ad girin. 
 4. Her bir dönemdeki dönemleri ve azaltma anahtarı yüzdesini tanımlayın:
 
@@ -316,78 +266,11 @@ Bir tahmin azaltma anahtarının, öğenin kapsama grubuna atanmış olması ger
 2. **Diğer** hızlı sekmesinde, **Azaltma anahtarı** alanında, kapsama grubunu atamak için azaltma anahtarını seçin. Azaltma anahtarı, daha sonra bu kapsama grubuna ait tüm öğelere uygulanır.
 3. Master planlama sırasında tahmin azaltmayı hesaplamak için bir azaltma anahtarını kullanmak için bu ayarı, tahmin planlama veya master planlama kurulumunda tanımlamanız gerekir. Aşağıdaki konumlarda birine gidin:
 
-    - **Master planlama \> Kurulum \> Planlar \> Tahmin planları**
-    - **Master planlama \> Ayar \> Planlar \> Master planlar**
+    - Master planlama \> Kurulum \> Planlar \> Tahmin planları
+    - Master planlama \> Ayar \> Planlar \> Master planlar
 
 4. **Tahmin planları** veya **Master planlar** sayfasında, **Genel** hızlı sekmesinde, **Tahmin gereksinimlerini azaltmak için yöntem** alanında, **Yüzde - azaltma anahtarı** veya **Hareketler - azaltma anahtarı**'nı seçin.
 
 ### <a name="reduce-a-forecast-by-transactions"></a>Bir tahmini hareketler ile azaltın
 
 **Hareketler - azaltma anahtarı**'nı veya **Hareketler - dinamik dönem**'i tahmin gereksinimlerini azaltmak için bir yöntem olarak seçerseniz, hangi hareketlerin tahmini azaltacağını seçersiniz. **Karşılama grupları** sayfasında, **Diğer** Hızlı Sekmesinde, **Tahmini şunun üzerinden azalt** alanında, tüm hareketler tahmini azaltacaksa **Tüm tahminler**'i seçin veya yalnızca satış siparişleri tahmini azaltacaksa **Siparişler**'i seçin.
-
-## <a name="forecast-models-and-submodels"></a>Tahmin modelleri ve alt modeller
-
-Bu bölümde, tahmin modellerinin nasıl oluşturulacağı ve alt modeller ayarlanarak birden çok tahmin modelinin nasıl birleştirileceği açıklanmaktadır.
-
-*Tahmin modeli* belirli bir tahmini adlandırır ve tanımlar. Tahmin modelini oluşturduktan sonra, buna tahmin satırları ekleyebilirsiniz. Birden çok madde için tahmin satırları eklemek için **Talep tahmin satırları** sayfasını kullanın. Seçili belirli bir madde için tahmin satırları eklemek üzere **Serbest bırakılmış ürünler** sayfasını kullanın.
-
-Tahmin modeli, diğer tahmin modellerinden tahminler içerebilir. Bu sonucu elde etmek için diğer tahmin modellerini bir üst tahmin modelinin *alt modelleri* olarak eklersiniz. İlgili modeli üst tahmin modelinin alt modeli olarak ekleyebilmeniz için önce ilgili her modeli oluşturmanız gerekir.
-
-Elde edilen yapı, birden çok bireysel tahminden gelen girişi birleştirmenizi (toplamanızı) sağladığından, tahminleri kontrol etmenin güçlü bir yolunu sunar. Bu nedenle, planlama açısından simülasyonlar için tahminleri birleştirmek kolaydır. Örneğin, normal bir tahminin bahar promosyonu tahminiyle birleşimini temel alan bir simülasyon ayarlayabilirsiniz.
-
-### <a name="submodel-levels"></a>Alt model düzeyleri
-
-Bir üst tahmin modeline eklenebilecek modül alt model sayısında bir sınırlama yoktur. Ancak yapı sadece bir seviye derinliğinde olabilir. Başka bir deyişle, başka bir tahmin modelinin alt modeli olan bir tahmin modelinin kendi alt modelleri olamaz. Bir tahmin modeline alt modeller eklediğinizde, sistem bu tahmin modelinin zaten başka bir tahmin modelinin alt modeli olup olmadığını denetler.
-
-Master planlama kendi alt modellerine sahip bir alt modelle karşılaşırsa bir hata iletisi alırsınız.
-
-#### <a name="submodel-levels-example"></a>Alt model düzeyleri örneği
-
-Tahmin modeli A, alt model olarak B tahmin modeline sahiptir. Bu nedenle, B tahmin modelinin kendi alt modelleri olamaz. B tahmin modeline bir alt model eklemeye çalışırsanız aşağıdaki hata iletisini alırsınız: "Tahmin modeli B, A modelinin bir alt modelidir."
-
-### <a name="aggregating-forecasts-across-forecast-models"></a>Tahmin modelleri genelinde tahminleri toplama
-
-Aynı gün gerçekleşen tahmin satırları, tahmin modelleri ve alt modelleri genelinde toplanır.
-
-#### <a name="aggregation-example"></a>Toplama örneği
-
-Tahmin modeli A, alt model olarak B ve C tahmin modellerine sahiptir.
-
-- Tahmin modeli A, 15 Haziran'da 2 adet için bir talep tahmini içerir.
-- Tahmin modeli B, 15 Haziran'da 3 adet için bir talep tahmini içerir.
-- Tahmin modeli C, 15 Haziran'da 4 adet için bir talep tahmini içerir.
-
-Ortaya çıkan talep tahmini, 15 Haziran'da 9 adet (2 + 3 + 4) için tek bir talep olacaktır.
-
-> [!NOTE]
-> Her alt model, üst tahmin modelinin parametrelerini değil, kendi parametrelerini kullanır.
-
-### <a name="create-a-forecast-model"></a>Tahmin modeli oluşturma
-
-Tahmin modeli oluşturmak için şu adımları izleyin.
-
-1. **Master planlama \> Kurulum \> Talep tahmini \> Tahmin modelleri**'ne gidin.
-1. Eylem Bölmesinde, **Yeni**'yi seçin.
-1. Yeni tahmin modeli için aşağıdaki alanları ayarlayın:
-
-    - **Model**: Model için benzersiz bir tanımlayıcı girin.
-    - **Ad**: Model için açıklayıcı bir ad girin.
-    - **Durduruldu**: Genellikle, bu seçeneği *Hayır* olarak ayarlamanız gerekir. Yalnızca modele atanan tüm tahmin satırlarının düzenlenmesini engellemek istiyorsanız *Evet* olarak ayarlayın.
-
-    > [!NOTE]
-    > **Nakit akışı tahminlerine dahil et** alanı ve **Proje** hızlı sekmesindeki alanlar master planlamayla ilişkili değildir. Bu nedenle, bu bağlamda bunları yoksayabilirsiniz. Bunları yalnızca **Proje yönetimi ve muhasebe** modülü için tahminlerle çalışırken göz önünde bulundurmanız gerekir.
-
-### <a name="assign-submodels-to-a-forecast-model"></a>Tahmin modeline alt modeller atama
-
-Bir tahmin modeline alt modeller atamak için şu adımları izleyin.
-
-1. **Stok yönetimi \> Kurulum \> Tahmin \> Tahmin modelleri**'ne gidin.
-1. Liste bölmesinde, alt model ayarlamak istediğiniz tahmin modelini seçin.
-1. **Alt model** hızlı sekmesinde, kılavuza satır eklemek için **Ekle**'yi seçin.
-1. Yeni satırda aşağıdaki alanları ayarlayın:
-
-    - **Alt model**: Alt model olarak eklenecek tahmin modelini seçin. Bu tahmin modelinin zaten var olması ve kendi alt modellerine sahip olmaması gerekir.
-    - **Ad**: Alt model için açıklayıcı bir ad girin. Örneğin bu ad, alt modelin üst tahmin modeliyle ilişkisini gösterebilir.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

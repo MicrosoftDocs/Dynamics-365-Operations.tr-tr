@@ -1,167 +1,101 @@
 ---
-title: Word biçiminde raporlar oluşturmak için Excel şablonlarıyla ER yapılandırmalarını yeniden kullanma
-description: Bu konuda, Excel çalışma kitapları olarak rapor oluşturmak üzere tasarlanmış rapor biçimlerinin, Word belgeleri olarak rapor oluşturmak üzere nasıl yapılandırılabileceği açıklanmaktadır.
+title: Word biçiminde raporlar oluşturmak için ER yapılandırmaları tasarlama
+description: Aşağıdaki adımlar, bir Sistem yöneticisi veya Elektronik raporlama geliştirici rolündeki bir kullanıcının, Microsoft Word dosyaları şeklinde raporlar oluşturmak için bir Elektronik raporlama biçimini nasıl yapılandırabileceğini açıklar.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, LedgerJournalTable, LedgerJournalTransVendPaym
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d4eb4fd4ea32db5aa19e9d2b1300818b3aaf6fc
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 9d4959b511022e1aa98544d23da6afcda1f6adf2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594996"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681937"
 ---
-# <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için Excel şablonlarıyla ER yapılandırmalarını yeniden kullanma
+# <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için ER yapılandırmaları tasarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Word belgeleri olarak rapor oluşturmak için yeni bir [Elektronik raporlama (ER)](../general-electronic-reporting.md) [biçimi](../general-electronic-reporting.md#FormatComponentOutbound) [yapılandırabilirsiniz](../er-design-configuration-word.md). Alternatif olarak, başlangıçta Excel çalışma kitabı olarak rapor üretmek üzere tasarlanan bir ER biçimini yeniden kullanabilirsiniz. Bu durumda, Excel şablonunu bir Word şablonuyla değiştirmelisiniz.
+Aşağıdaki adımlar, bir Sistem yöneticisi veya Elektronik raporlama (ER) geliştirici rolündeki bir kullanıcının, Microsoft Word dosyaları şeklinde raporlar oluşturmak için bir Elektronik raporlama biçimini nasıl yapılandırabileceğini açıklar. Bu adımlar GBSI şirketinde gerçekleştirilebilir.
 
-Aşağıdaki yordamlarda, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolündeki bir kullanıcının, Excel dosyaları halinde rapor oluşturmak üzere tasarlanan bir ER biçimini yeniden kullanarak Word dosyası halinde rapor oluşturmak için ER biçimini nasıl yapılandırabileceği açıklanmaktadır.
+Bu adımları tamamlamak için öncelikle "OPENXML biçiminde raporlar oluşturmak için bir ER yapılandırması oluşturma" görev kılavuzundaki adımları tamamlamanız gerekir. Aşağıdaki şablonları aynı rapor için önceden indirmeli ve yerel olarak kaydetmelisiniz:
 
-Bu yordamlar, GBSI şirketinde gerçekleştirilebilir.
+- [Ödeme Raporu şablonu](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Ödeme Raporunun Bağlı Şablonu](https://go.microsoft.com/fwlink/?linkid=862266)
 
-## <a name="prerequisites"></a>Önkoşullar
 
-Bu yordamları tamamlamak için öncelikle [OPENXML biçiminde raporlar oluşturmak için bir ER yapılandırması tasarlama](er-design-reports-openxml-2016-11.md) görev kılavuzundaki adımları tamamlamanız gerekir.
+Bu yordam, Microsoft Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 
-Ayrıca örnek rapor için aşağıdaki şablonları indirmeli ve yerel olarak kaydetmelisiniz:
-
-- [Ödeme Raporu Şablonu (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
-- [Ödeme Raporunun Bağlı Şablonu (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
-
-Bu yordamlar, Dynamics 365 for Operations 1611 sürümüne (Kasım 2016) eklenmiş bir özellik içindir.
 
 ## <a name="select-the-existing-er-report-configuration"></a>Mevcut ER rapor yapılandırmasını seçme
+1. **Gezinti bölmesinde Modüller > Kuruluş yönetimi > Çalışma alanları > Elektronik raporlama**'ya gidin. Yapılandırma sağlayıcısı olan "Litware, Inc." şirketinin etkin olarak seçildiğinden emin olun. Etkin olarak işaretlenir.  
+2. **Raporlama konfigürasyonları**'na tıklayın. Rapor çıktısını OPENXML biçiminde oluşturmak için özgün olarak tasarlanmış olan mevcut ER yapılandırmasını yeniden kullanacağız.  
+3. Ağaçta, 'Ödeme modeli' öğesini genişletin.
+4. Ağaçta, 'Ödeme modeli\Örnek çalışma sayfası raporu' seçin.
+5. Tasarımcı'yı tıklatın.
 
-1. Dynamics 365 Finance'te **Kuruluş yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Litware, Inc.** yapılandırma sağlayıcısının **Etkin** olarak seçildiğinden emin olun. Böyle değilse, [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) görev kılavuzundaki adımları izleyin.
-3. **Raporlama yapılandırmaları**'nı seçin. Rapor çıktısını OPENXML biçiminde oluşturmak için tasarlanmış olan mevcut ER yapılandırmasını yeniden kullanacaksınız.
-4. **Yapılandırmalar** sayfasında sol bölmedeki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **Örnek çalışma sayfası raporu**'nu seçin.
+## <a name="replace-the-excel-template-with-the-word-template"></a>Excel şablonunu Word şablonu ile değiştirme
 
-    > [!NOTE]
-    > Seçili ER biçiminin taslak sürümü, **Sürümler** hızlı sekmesinde düzenlenebilir.
+Şu anda, Excel belgesi OPENXML biçiminde çıktı üretmek için şablon olarak kullanılmaktadır. Raporun şablonunu Word biçiminde içeri aktaracağız.
 
-5. **Tasarımcı**’yı seçin.
-6. **Biçim tasarımcısı** sayfasında, kök biçim öğesinin başlığının Excel şablonunun şu anda kullanıldığını belirttiğini görebilirsiniz.
+1. **Ekler**'e tıklayın. Mevcut Excel şablonunu daha önce indirdiğiniz Word şablonuyla (SampleVendPaymDocReport.docx) değiştirin. Bu şablonun yalnızca ER çıktısı olarak oluşturmak istediğimiz belgenin düzenini içerdiğini unutmayın.  
+2. **Sil** öğesini tıklayın.
+3. **Evet** seçeneğini tıklatın.
+4. **Yeni**'ye tıklayın.
+5. **Dosya**'ya tıklayın.
+6. **Gözat** düğmesini tıklayın. Daha önceden indirdiğiniz SampleVendPaymDocReport.docx dosyasına gidin ve dosyayı seçin. **Tamam**'a tıklayın. Önceki adımda indirdiğiniz şablonu seçin.  
+7. **Şablon** alanına bir değer girin veya seçin.
 
-![Mevcut yapılandırmayı seçme.](../media/er-design-configuration-word-2016-11-image01.gif)
+## <a name="extend-the-word-template-by-adding-a-custom-xml-part"></a>Özel bir XML bölümü ekleyerek Word şablonunu genişletme
+1. **Kaydet**'e tıklayın. Kaydet eylemi, yapılandırma değişikliklerini depolamanın yanı sıra ekli Word şablonunu da güncelleştirir. Tasarlanan biçimin yapısı, ekli Word belgesine "Rapor" adında yeni bir özel XML bölümü olarak verilir. Ekli Word şablonunun yalnızca ER çıktısı olarak oluşturmak istediğimiz belgenin düzeninin yanı sıra ER'nin çalışma zamanında bu şablonu dolduracağı verilerin yapısını da içerdiğine dikkat edin.  
+2. **Ekler**'e tıklayın.
+    + Şimdi de "Rapor" adlı özel XML bölümünün öğelerini Word belgesi bölümlerine bağlamanız gerekiyor.  
+    + Özel XML bölümlerinin öğeleriyle bağlı içerik denetimleri içeren formlar olarak tasarlanabilen Word belgeleri kullanıyorsanız bir sonraki alt görevin tüm adımlarını yürüterek bu tür bir belge oluşturun. Daha fazla ayrıntı için bkz. [Kullanıcıların Word'de doldurduğu veya yazdırdığı formlar oluşturma](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US). Aksi durumda, bir sonraki alt görevdeki tüm adımları atlayın.  
 
-## <a name="review-the-downloaded-word-template"></a>İndirilen Word şablonunu inceleme
+## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Veri ilişkilendirmeleri yapmak için özel XML bölümlü Word edinme
 
-1. Word masaüstü uygulamasında, daha önce indirdiğiniz **SampleVendPaymDocReport.docx** şablon dosyasını açın.
-2. Şablonun yalnızca ER çıkışı olarak oluşturmak istediğiniz belgenin düzenini içerdiğini doğrulayın.
+Bu belgeyi Word'de açın ve aşağıdakileri yapın:  
+1. Word Geliştirici sekmesini açın (henüz etkinleştirilmediyse şeridi güncelleştirin).
+2. XML eşleme bölmesini seçin.
+3. Aramada "Rapor" özel XML bölümünü seçin.
+4. Seçili özel XML bölümü öğelerinin ve Word belgesinin içerik denetimlerinin eşlemesini yapın.  5. Güncelleştirilmiş Word belgesini bir yerel sürücüye kaydedin.  
 
-![Masaüstü uygulamasındaki Word şablon düzeni.](../media/er-design-configuration-word-2016-11-image02.png)
+## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a>İçerik denetimlerine bağlanmış özel XML bölümlü Word şablonunu yükleme
+1. **Sil** öğesini tıklayın.
+2. **Evet** seçeneğini tıklatın. Yeni bir şablon ekleyin. Bir önceki alt görevdeki adımları tamamladıysanız hazırladığınız ve yerel olarak kaydettiğiniz Word belgesini seçin. Aksi durumda, daha önce indirdiğiniz MS Word şablonunu (SampleVendPaymDocReportBounded.docx) seçin.  
+3. **Yeni**'ye tıklayın.
+4. **Dosya**'ya tıklayın.
+5. **Gözat** düğmesini tıklayın. Daha önceden indirdiğiniz SampleVendPaymDocReportBounded.docx dosyasına gidin ve dosyayı seçin. **Tamam**'a tıklayın.
+6. **Şablon** alanında, bir önceki adımda indirdiğiniz belgeyi seçin.
+7. **Kaydet**'e tıklayın.
+8. Sayfayı kapatın.
 
-## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Excel şablonunu Word şablonuyla değiştirin ve özel bir XML bölümü ekleyin
+## <a name="execute-the-format-to-create-word-output"></a>Word çıktısı oluşturmak için biçimi yürütme
+1. **Eylem Bölmesi**'nde, **Yapılandırmalar**'a tıklayın.
+2. **Kullanıcı parametreleri**'ne tıklayın.
+3. **Çalıştırma ayarları** alanında Evet'i seçin.
+4. **Tamam**'a tıklayın.
+5. **Düzenle**'yi tıklatın.
+6. **Taslak Çalıştır** alanında Evet'e tıklayın.
+7. **Kaydet**'e tıklayın.
+8. Sayfayı kapatın.
+9. Sayfayı kapatın.
+10. **Gezinti bölmesinde** **Modüller > Borç hesapları > Ödemeler > Ödeme günlüğü**'ne gidin.
+11. **Satırlar**'a tıklayın.
+12. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
+13. **Ödeme durumu**'na tıklayın.
+14. **Hiçbiri**'ne tıklayın.
+15. **Ödemeler oluştur**'u tıklatın.
+16. **Tamam**'a tıklayın.
+17. **Tamam**'a tıklayın. Oluşturulan çıktıyı analiz edin. Oluşturulan çıktının Word biçiminde sunulduğuna ve işlenen ödemelerin ayrıntılarını içerdiğine dikkat edin.  
 
-Şu anda, Excel belgesi OPENXML biçiminde çıktı üretmek için şablon olarak kullanılmaktadır. Bu şablonu, daha önce indirdiğiniz SampleVendPaymDocReport.docx Word şablon dosyasıyla değiştireceksiniz. Ayrıca özel bir XML bölümü ekleyerek Word şablonunu genişleteceksiniz.
-
-1. Finance'teki **Biçim tasarımcısı** sayfasında yer alan **Biçim** sekmesinde **Ekler**'i seçin.
-2. **Ekler** sayfasında, mevcut Excel şablonunu kaldırmak için **Sil**'i seçin. Değişikliği onaylamak için **Evet**'i seçin.
-3. **Yeni** \> **Dosya**'yı seçin.
-
-    > [!NOTE]
-    > ER biçimlerinin şablonlarını depolamak için ER parametrelerinde [yapılandırılan](../electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) bir belge türünü seçmeniz gerekir.
-
-4. **Göz at**'ı seçin ve daha önce indirdiğiniz **SampleVendPaymDocReport.docx** dosyasını bulup seçin.
-5. **Tamam**'ı seçin.
-6. **Ekler** sayfasını kapatın.
-7. **Biçim tasarımcısı** sayfasındaki **Şablon** alanında, daha önce kullanılan Excel şablonu yerine Word şablonunu kullanmak için **SampleVendPaymDocReport.docx** dosyasını girin veya seçin.
-8. **Kaydet**'i seçin.
-
-    **Kaydet** eylemi, yapılandırma değişikliklerini depolamanın yanı sıra ekli Word şablonunu da güncelleştirir. Tasarlanan biçimin hiyerarşi yapısı, ekli Word belgesine **Rapor** adında yeni bir özel XML bölümü olarak eklenir. Ekli Word şablonu, ER çıkışı olarak oluşturulacak belgenin düzenini ve ER'nin çalışma zamanında bu şablona gireceği verilerin yapısını içerir.
-
-9. Kök biçim öğesinin başlığının Word şablonunun şu anda kullanıldığını belirttiğini görebilirsiniz.
-
-    ![Excel şablonunu Word şablonuyla değiştirme ve özel bir XML bölümü ekleme.](../media/er-design-configuration-word-2016-11-image03.gif)
-
-10. **Biçim** sekmesinde, **Ekler**'i seçin.
-
-Şimdi, **Rapor** özel XML bölümünün öğelerini Word belgesinin içerik denetimleriyle eşleyebilirsiniz.
-
-[Özel XML bölümlerinin](/visualstudio/vsto/custom-xml-parts-overview) öğeleriyle eşleştirilen [içerik denetimlerine](/office/client-developer/word/content-controls-in-word) sahip formlar olarak Word belgeleri tasarlama işlemi hakkında bilgi sahibiyseniz belgeyi oluşturmak için bir sonraki yordamda yer alan adımları tamamlayın. Daha fazla bilgi için bkz. [Kullanıcıların Word'de doldurduğu veya yazdırdığı formlar oluşturma](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Aksi takdirde, sonraki yordama geçin.
-
-## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Özel XML bölümüne sahip bir Word belgesi alma ve veri eşleme işlemini gerçekleştirme
-
-1. Finance'teki **Ekler** sayfasında, Finance'te seçili şablonu indirmek ve yerel olarak Word belgesi biçiminde saklamak için **Aç**'ı seçin.
-3. Word masaüstü uygulamasında biraz önce indirdiğiniz belgeyi açın.
-4. **Geliştirici** sekmesinde **XML Eşleme Bölmesi**'ni seçin.
-
-    > [!NOTE]
-    > **Geliştirici** sekmesi şeritte görüntülenmezse eklemek için şeridi özelleştirin.
-
-5. **XML Eşleme** bölmesindeki **Özel XML Bölümü** alanında **Rapor** özel XML bölümünü seçin.
-6. Seçili **Rapor** özel XML bölümü ile Word belgesinin içerik denetimlerini eşleyin.
-7. Güncelleştirilmiş Word belgesini yerel olarak **SampleVendPaymDocReportBounded.docx** adıyla kaydedin.
-
-## <a name="review-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Özel XML bölümünün içerik denetimleriyle eşlendiği Word şablonunu gözden geçirme
-
-1. Word masaüstü uygulamasında **SampleVendPaymDocReportBounded.docx** şablon dosyasını açın.
-2. Şablonun ER çıkışı olarak oluşturmak istediğiniz belgenin düzenini içerdiğini doğrulayın. Çalışma zamanında ER'nin bu şablona gireceği veriler için yer tutucu olarak kullanılan içerik denetimleri, **Rapor** özel XML bölümü öğeleri ile Word belgesinin içerik denetimleri arasında yapılandırılan eşlemelere bağlıdır.
-
-![Masaüstü uygulamasındaki Word şablonunun önizlemesi.](../media/er-design-configuration-word-2016-11-image04.png)
-
-## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Özel XML bölümünün içerik denetimleriyle eşlendiği Word şablonunu indirme
-
-1. Finance'teki **Ekler** sayfasında, **Rapor** özel XML bölümü öğeleri ve içerik denetimleri arasında eşleme olmayan Word şablonunu kaldırmak için **Sil**'i seçin. Değişikliği onaylamak için **Evet**'i seçin.
-2. **Rapor** özel XML bölümü öğeleri ve içerik denetimleri arasında eşleme içeren yeni bir şablon dosyası eklemek için **Yeni** \> **Dosya**'yı seçin.
-
-    > [!NOTE]
-    > ER biçimlerinin şablonlarını depolamak için ER parametrelerinde [yapılandırılan](../electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) bir belge türünü seçmeniz gerekir.
-
-3. **Göz at**'ı seçin ve ardından indirdiğiniz veya [Özel XML bölümüne sahip bir Word belgesi alma ve veri eşleme işlemini gerçekleştirme](#get-word-doc) bölümündeki yordamı tamamlayarak hazırladığınız **SampleVendPaymDocReportBounded.docx** dosyasını seçin.
-4. **Tamam**'ı seçin.
-5. **Ekler** sayfasını kapatın.
-6. **Biçim tasarımcısı** sayfasındaki **Şablon** alanında az önce indirdiğiniz belgeyi seçin.
-7. **Kaydet**'i seçin.
-8. **Biçim tasarımcısı** sayfasını kapatın.
-
-## <a name="mark-the-configured-format-as-runnable"></a>Yapılandırılmış biçimi çalıştırılabilir olarak işaretleme
-
-Düzenlenebilir biçimin taslak sürümünü çalıştırmak için sürümü [çalıştırılabilir](../er-quick-start2-customize-report.md#MarkFormatRunnable) hale getirmeniz gerekir.
-
-1. Finance'te **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
-2. **Kullanıcı parametreleri** iletişim kutusunda, **Çalıştırma ayarları** seçeneğini **Evet** olarak ayarlayıp **Tamam**'ı seçin.
-3. Geçerli sayfayı düzenlemeye hazır hale getirmek için gerektiğinde **Düzenle**'yi seçin.
-4. Seçili durumdaki **Örnek çalışma sayfası** yapılandırması için **Taslak Çalıştır** seçeneğini **Evet** olarak ayarlayın.
-5. **Kaydet**'i seçin.
-
-## <a name="run-the-format-to-create-output-in-word-format"></a>Word biçiminde çıktı oluşturmak için biçimi çalıştırma
-
-1. Finance'te **Borç hesapları** \> **Ödemeler** \> **Ödeme günlüğü**'ne gidin.
-2. Daha önce girmiş olduğunuz bir ödeme günlüğünde **Satırlar**'ı seçin.
-3. **Satıcı ödemeleri** sayfasında, ızgaradaki tüm satırları seçin.
-4. **Ödeme durumu** \> **Hiçbiri**'ni seçin.
-
-    ![Satıcı ödemeleri sayfasındaki işlenecek ödemeler.](../media/er-design-configuration-word-2016-11-image05.png)
-
-5. Eylem bölmesinde, **Ödeme oluştur**'u seçin.
-6. Gösterilen iletişim kutusunda şu adımları izleyin:
-
-    1. **Ödeme yöntemi** alanında **Elektronik**'i seçin.
-    2. **Banka hesabı** alanında **GBSI OPER** öğesini seçin.
-    3. **Tamam**'ı seçin.
-
-7. **Elektronik rapor parametreleri** iletişim kutusunda **Tamam**'ı seçin.
-8. Oluşturulan çıktı, Word biçiminde sunulur ve işlenen ödemelerin ayrıntılarını içerir. Oluşturulan çıktıyı analiz edin.
-
-    ![Word biçiminde oluşturulan çıktı.](../media/er-design-configuration-word-2016-11-image06.png)
-
-## <a name="additional-resources"></a>Ek kaynaklar
-
-- [Word biçiminde raporlar oluşturmak için yeni ER yapılandırması tasarlama](../er-design-configuration-word.md)
-- [Er kullanarak oluşturduğunuz belgelere resimler ve şekiller katıştırma](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Döngü modülü
 description: Bu konu döngü kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721067"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416353"
 ---
 # <a name="carousel-module"></a>Döngü modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konu döngü kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 Bir döngü modülü, müşterilerin gözatmasına olanak veren bir döner döngüde birden fazla promosyon öğesini (zengin görseller dahil) yerleştirmek için kullanılır. Örneğin, bir perakende birden fazla yeni ürün veya promosyonları sergileyebilecek bir giriş sayfasında döngü modülü kullanabilir.
 
@@ -40,7 +45,7 @@ Bir içerik bloku modülünü bir döngü modülüne ekleyebilirsiniz. Bu şekil
 
 Aşağıdaki resimde giriş sayfasında kullanılan bir döngü modülü örneği gösterilmektedir. Bu döngü modülü birden çok içerik bloğu öğesi içeriyor.
 
-![Döngü modülü örneği.](./media/Hero.PNG)
+![Döngü modülü örneği](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Döngü modülü özellikleri
 
@@ -81,6 +86,3 @@ Bir yeni sayfaya döngü modülü eklemek ve gerekli özellikleri ayarlamak içi
 [İçerik bloğu modülü](add-hero-module.md)
 
 [Video oynatıcı modülü](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

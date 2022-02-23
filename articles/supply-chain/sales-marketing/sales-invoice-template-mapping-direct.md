@@ -1,27 +1,30 @@
 ---
 title: Supply Chain Management'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
 description: Bu konu, satış faturası başlıklarını ve satırlarını Dynamics 365 Supply Chain Management'tan Dynamics 365 Sales'e eşitlemek için kullanılan temel görevleri ve şablonları açıklamaktadır.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6cbc4d86ac41d90480428ec5439d1360c4d67137
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571653"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439173"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Finance and Operations'taki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
 
@@ -33,7 +36,7 @@ Bu konu, satış faturası başlıklarını ve satırlarını Dynamics 365 Suppl
 
 Aday müşteriden nakde çözümü Supply Chain Management ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri Tümleştirme özelliği içindeki Aday müşteriden nakde şablonları, hesaplar, ilgili kişiler, ürünler ve satış teklifleri, satış siparişleri ve satış faturalarının Supply Chain Management ve Sales arasında veri akışını etkinleştirir. Supply Chain Management ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
 
-[![Aday müşteriden nakde çözümünde veri akışı.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Aday müşteriden nakde çözümünde veri akışı](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
@@ -116,11 +119,11 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
-![SalesInvoiceHeader için Veri tümleştirmesinde şablon eşleme.](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
+![Veri tümleştirmede şablon eşleme](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="salesinvoiceline"></a>SalesInvoiceLine
 
-![SalesInvoiceLine için Veri tümleştirmesinde şablon eşleme.](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
+![Veri tümleştirmede şablon eşleme](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
 
 
 
@@ -135,6 +138,3 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 [Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
 
 [Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme](sales-order-template-mapping-direct-two-ways.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

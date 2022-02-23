@@ -1,27 +1,31 @@
 ---
 title: Tehlikeli malzeme sorguları ve raporları
 description: Bu konuda, tehlikeli malzemelerle ilgili çeşitli raporlar üzerinde nasıl çalışılacağı açıklanmaktadır. Bu raporların çoğu, sevkiyat ve depolama sırasında çeşitli tehlikeli malzeme yönetmeliklerine uyumluluğunuzu korumanız için gereklidir.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568555"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439334"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Tehlikeli malzeme sorguları ve raporları
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management, tehlikeli malzemeler ile ilgili çeşitli raporlar sağlar. Bu raporların çoğu, sevkiyat ve depolama sırasında çeşitli tehlikeli malzeme yönetmeliklerine uyumluluğunuzu korumanız için gereklidir.
 
@@ -29,7 +33,7 @@ Microsoft Dynamics 365 Supply Chain Management, tehlikeli malzemeler ile ilgili 
 
 Aşağıdaki resimde, sistem tehlikeli malzeme raporları oluştururken gerçekleşen faaliyet sırasını gösterilmektedir.
 
-![Tehlikeli malzeme raporları için faaliyet sırası.](media/hazmat-report-sequence.png "Tehlikeli malzeme raporları için faaliyet sırası")
+![Tehlikeli malzeme raporları için faaliyet sırası](media/hazmat-report-sequence.png "Tehlikeli malzeme raporları için faaliyet sırası")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Tehlikeli malzeme raporlarını ayarlama
 
@@ -106,6 +110,3 @@ Sisteminizde tehlikeli malzemeler özelliği açıksa **konşimento** raporunda,
 ## <a name="packing-list-report"></a>Ambalaj listesi raporu
 
 Sisteminizdeki tehlikeli malzemeler özelliği açık olduğunda, ambalaj listelerinde maddenin sevkiyat yazdırma metniyle ilgili ek bilgiler bulunur. Bu rapor, her zamanki gibi **Tüm yükler** sayfasında bulunabilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

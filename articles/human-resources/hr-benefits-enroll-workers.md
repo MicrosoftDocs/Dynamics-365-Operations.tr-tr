@@ -1,35 +1,33 @@
 ---
 title: Çalışanlara kazanç kaydetme ve çalışanlardan kazanç kaldırma
-description: Bu yordamda, tek bir çalışanın bir veya daha fazla kazanca nasıl kaydedileceğiyle beraber bir kazanca birden çok çalışanın nasıl kaydedileceği gösterilmektedir.
-author: twheeloc
-ms.date: 08/23/2021
+description: Bu yordam, tek bir çalışanın bir veya daha fazla kazançta veya birden çok çalışanın tek bir kazançta nasıl kaydedileceğini göstermektedir.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 1b99db1e480ea4a53d2bda609eb08105509d95f4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 36fd724ff27cbb646f3f8a35ca1b30dc86a5afe4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065388"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420856"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Çalışanlara kazanç kaydetme ve çalışanlardan kazanç kaldırma
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
-
-Bu yordamda, tek bir çalışanın bir veya daha fazla kazanca nasıl kaydedileceğiyle beraber bir kazanca birden çok çalışanın nasıl kaydedileceği gösterilmektedir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+Bu yordam, tek bir çalışanın bir veya daha fazla kazançta veya birden çok çalışanın tek bir kazançta nasıl kaydedileceğini göstermektedir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
 
 ## <a name="enroll-a-single-worker-in-benefits"></a>Tek bir çalışanı kazançlar için kaydetme
@@ -60,6 +58,3 @@ Bu yordamda, tek bir çalışanın bir veya daha fazla kazanca nasıl kaydedilec
 14. Listede, seçili satırdaki bağlantıya tıklayın.
 15. Bu sayfa, hangi çalışanların kazanç için kaydedildiğini hangilerinin kaydedilmediğini görüntülemenize olanak verir.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

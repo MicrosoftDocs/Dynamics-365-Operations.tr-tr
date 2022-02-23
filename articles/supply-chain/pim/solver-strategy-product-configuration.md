@@ -1,27 +1,30 @@
 ---
 title: Ürün yapılandırması için Çözücü stratejisi
 description: Bu konu çözücü stratejisini ürün yapılandırmasının performansını artırmak üzere nasıl kullanabileceğinizi açıklar.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cb0fc054e0feec4c54c0bd916e01ce3a2a4cd903
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565723"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439529"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Ürün yapılandırması için Çözücü stratejisi
 
@@ -50,7 +53,7 @@ Gerçek müşteri uygulaması çalışmaları, bir ürün yapılandırma modelin
 
 Çözücü stratejisini değiştirmek için, Eylem Bölmesindeki **Ürün yapılandırma modeli** sayfasında **Model özellikleri**'ni seçin. Sonra, **Model ayrıntılarını düzenle** iletişim kutusunda, bir çözücü stratejisi seçin.
 
-[![Çözüm stratejisini değiştirme.](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![Çözüm stratejisini değiştirme](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Şu anda, sınırlama tabanlı ürün yapılandırması için en etkili olacak çözücü stratejisini otomatik olarak algılayan bir mantık yoktur. Bu nedenle, çözücü stratejilerini tek tek denemeniz gerekir.
 
@@ -70,6 +73,3 @@ Aşağıdaki tablo çeşitli senaryolarda kullanılacak çözücü stratejisi ha
 [Buluşsal yöntemler](https://techterms.com/definition/heuristic)
 
 [Sınırlama Memnuniyet Sorunu](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

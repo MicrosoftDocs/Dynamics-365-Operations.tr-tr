@@ -2,9 +2,11 @@
 title: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
 description: Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727497"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684631"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
 
@@ -73,6 +75,3 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
     * Intrastat raporunu oluşturmak için kullanılan biçimin yapısını gözden geçirin. 'Giden belge' ana öğesi üzerine dayanan veri modelinden verileri yerleştirerek bir XML dosyası oluşturmak üzere tasarlandığını unutmayın. Oluşturulan dosyanın adının kullanıcı iletişim kutusunda tanımlandığından emin olun (bunun için 'fn' veri kaynağı kullanılır).   
 30. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

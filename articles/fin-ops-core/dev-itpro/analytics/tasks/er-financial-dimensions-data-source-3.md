@@ -1,10 +1,12 @@
 ---
 title: ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 3 - Raporu tasarlama)
-description: Bu konuda, ER raporları için veri kaynağı olarak mali boyutları kullanmak üzere Elektronik raporlama (ER) modelinin nasıl yapılandırılacağı açıklanmaktadır. (3. Bölüm)
+description: Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605197"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684799"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 3 - Raporu tasarlama)
 
@@ -92,7 +94,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 59. Öznitelik Ekle'ye tıklayın.
 60. Ad alanına, 'Açıklama' yazın.
 61. Tamam'a tıklayın.
-![Biçim tasarımcısı sayfa ağacı.](../media/er-financial-dimensions-guides-format1.png)
+![ER İşlem tasarımcısı sayfası](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Rapor öğelerini veri kaynakları ile eşleme
 1. Eşleme sekmesini tıklatın.
@@ -139,10 +141,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 42. Ağaçta, 'Kök: XML Öğesi\Şirket: XML Özniteliği' öğesini seçin.
 43. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Şirket: Dize' öğesini seçin.
 44. Bağla'yı tıklatın.
-45. Kaydet'e tıklayın.
+45. Kaydet'i tıklatın.
 46. Sayfayı kapatın.
-![Biçim Tasarımcısı sayfası, veri kaynaklarıyla eşlenen rapor öğeleri.](../media/er-financial-dimensions-guides-format2.png)
+![ER İşlem tasarımcısı sayfası](../media/er-financial-dimensions-guides-format2.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

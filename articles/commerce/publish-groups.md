@@ -2,9 +2,11 @@
 title: Yayımlama gruplarıyla çalışma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta grup yayımlama özelliği açıklanmaktadır.
 author: phinneyridge
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,18 +16,21 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d757f34d3e16850e4f5de122f63b2b3342f612e49f07c7cf6585362999f03c02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a4f19af0cdf9c72add0ec18be84e36c807af9ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717684"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969888"
 ---
 # <a name="work-with-publish-groups"></a>Yayımlama gruplarıyla çalışma
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'ta grup yayımlama özelliği açıklanmaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 E-ticaret Web siteleri yıl boyunca yeni içerikle sürekli güncelleştirilir. Güncelleştirmeler sıklıkla tatiller, mevsimsel pazarlama kampanyaları veya promosyon tarafından başlatılır gibi e-ticaret olaylarının çevresinde toplu olarak yayımlanır. Bu güncelleştirmeler genellikle, Web sitesi içeriği gruplarının (örnekler, sayfalar, resimler, parçalar ve şablonlar) tek bir eylemde aynı anda hazırlanabilsin, doğrulanmalıdır ve yayımlanmaktadır.
 
@@ -149,6 +154,3 @@ Hayır. Performans ve çakışma nedenleriyle, sistem, zamanlanan yayımlama gru
 [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
 
 [Site gezintisini özelleştirme](customize-site-navigation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme
 description: Bu makale, sayfaları nasıl yan yana görüntüleyebileceğinizi açıklar.
 author: aneesmsft
+manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068071"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798415"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu makalede, sayfaları nasıl yan yana görüntüleyebileceğiniz açıklanmaktadır.
 
@@ -49,6 +48,3 @@ Bazı sayfalarda Kılavuz görünümü, Başlık görünümü ve Ayrıntı gör�
 **Yeni pencerede aç** özelliği yalnızca pencerede birden fazla sayfa açık olduğu zaman kullanılabilir. Ayrıca, açılır pencere, artık sayfada açık sayfa kalmadığı zaman (yani penceredeki son sayfayı kapattığınızda) otomatik olarak kapanır. Uygulamada başka bir alana gittiğinizde sistem de açık sayfaları kapatır. Bu nedenle, açık açılır pencereleriniz varsa ve uygulamada başka bir alana giderseniz, sistem bu pencerelerdeki sayfaları kapatacağından açılır pencereler otomatik olarak kapatılır.
 
 Açılır pencerelerin üst çubuğunda, sayfanın salt okunur olarak açıldığı şirket hakkında bilgiler görüntülenir. Açılır pencereler de ana tarayıcı penceresine bağlıdır. Ana pencere kapatılır veya yenilenirse, açık tüm açılır pencereler salt okunur duruma geçer. Bu durum gerçekleşirse bu pencerelerde bilgileri görüntülemeye devam edebilirsiniz ancak onlarla etkileşime giremezsiniz.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

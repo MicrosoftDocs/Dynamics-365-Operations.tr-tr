@@ -2,9 +2,11 @@
 title: Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir
 description: Bu konu, genel amaçlı yapılandırma havuzundan elektronik raporlama (ER) yapılandırmalarının nasıl indirileceğini açıklamaktadır.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605343"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679570"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yapılandırmalarının](general-electronic-reporting.md#Configuration) nasıl indirileceğini açıklamaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yapılandırmalarının](general-electronic-reporting.md#Configuration) nasıl indirileceğini açıklamaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Yapılandırmaların havuzu açın
 
@@ -40,7 +42,7 @@ Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yap
 3. **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** kutucuğunu seçin.
 3. **Microsoft** kutucuğunda, **Depolar**'a tıklayın.
 
-    ![Elektronik raporlama çalışma alanı.](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Elektronik raporlama çalışma alanı](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. **Yapılandırma depoları** sayfasında, kılavuz içerisinde, mevcut **Genel** türünün deposunu seçin. Bu depo kılavuzda görünmüyorsa, aşağıdaki adımları izleyin:
 
@@ -52,7 +54,7 @@ Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yap
 
 5. Seçilmiş depo için ER yapılandırmalarını görüntülemek için **Aç**'a tıklayın.
 
-    ![Yapılandırma havuzu sayfası.](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Yapılandırma havuzu sayfası](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Tekli yapılandırmasını içe aktarma
 
@@ -63,7 +65,7 @@ Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yap
     > [!NOTE]
     > Mevcut Finance örnekte bulunan ER yapılandırma sürümleri için **İçe Aktar** düğmesi kullanılamaz.
 
-    ![Konfigürasyon havuzu sayfası, yapılandırmalar hızlı sekmesi.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Yapılandırma havuzu sayfası](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Filtreli yapılandırmasını içe aktarma
 
@@ -77,7 +79,7 @@ Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yap
 4. Filtre uygulanan konfigürasyonları Global depodan geçerli örneğe indirmek için **konfigürasyonlar** hızlı sekmesinde **içe aktar**'ı seçin.
 5. **Konfigürasyonlar** hızlı sekmesinde, belirtilen seçim koşullarını temizlemek için **filtreyi Sıfırla**'yı seçin.
 
-    ![Konfigürasyon havuzu sayfası, sürümler hızlı sekmesi, Içe aktar düğmesi.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Yapılandırma havuzu sayfası](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > ER ayarlarına bağlı olarak yapılandırmalar içeri aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu konunun ilgili kaynaklar listesine göz atın.
@@ -88,6 +90,3 @@ Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yap
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

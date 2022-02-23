@@ -1,30 +1,29 @@
 ---
 title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
-author: peakerbl
-ms.date: 10/21/2021
-ms.topic: overview
+author: Sunil-Garg
+manager: AnnBe
+ms.date: 11/02/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071097"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684073"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Veri içe ve dışa aktarma işlerini oluşturmak ve yönetmek için **Veri yönetimi** çalışma alanını kullanabilirsiniz. Varsayılan olarak, veri içe ve dışa aktarma işlemi, hedef veritabanındaki her bir varlık için bir hazırlama tablosu oluşturur. Hazırlama tabloları, taşımadan önce verileri doğrulamanızı, temizlemenizi ve dönüştürmenizi sağlar.
 
@@ -71,9 +70,6 @@ Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seç
 | XML                    | \-Yok-                                      | XML- XML Öğesi-Öznitelik |
 | Sınırlandırılmış, sabit genişlik | Virgül, noktalı virgül, sekme, dikey çubuk, iki nokta üst üste | \-Yok-                     |
 
-> [!NOTE]
-> **Satır sınırlayıcısı**, **Sütun sınırlayıcısı** ve **Metin niteleyicisi** için doğru değeri seçmek, **Dosya formatı** seçeneği **Sınırlandırılmış** olarak ayarlandıysa önemlidir. İçe aktarma ve dışa aktarma sırasında hatalara yol açacağından, verilerinizin sınırlayıcı veya niteleyici olarak kullanılan karakteri içermediğinden emin olun.
-
 ### <a name="sequence-the-entities"></a>Varlıkları sıralayın
 Varlıklar bir veri şablonunda veya içe veya dışa aktarma işlerinde sıralanabilir. Birden fazla veri varlığı içeren bir iş çalıştırdığınızda, veri varlıklarının doğru sıralandığından emin olmanız gerekir. Öncelikli olarka, varlıklar arasında işlevsel bağımlılıkları adreslendirebilmek için varlıkları sıralarsınız. Varlıklar işlevsel bağımlılıklara sahip değilse, paralel içe veya dışa aktarma için zamanlanabilirler.
 
@@ -112,7 +108,7 @@ Sütun adları hazırlama tablosunda ve dosyada sütun adları eşleşiyorsa, ad
 
 **Kaynak eşleştirme oluştur**'u seçerek sayfada bir eşleştirme oluşturabilirsiniz. Oluşturulan bir eşleme bir otomatik eşleme gibi davranır. Bu nedenle, eşlenmemiş tüm alanlar el ile eşleşmelidir.
 
-![Veri eşleme.](./media/dixf-map.png)
+![Veri eşleme](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>İçe ve dışa aktarma işiniz için güvenliği doğrulayın
 **Veri yönetimi** çalışma alanına erişim kısıtlanmış olabilir, bu yüzden yönetici olmayan kullanıcılar yalnızca belirli veri işlerine erişebilir. Bir veri işine erişim, söz konusu işin yürütme geçmişine ve hazırlama tablolarına tam erişim anlamına gelir. Bu nedenle, bir veri işi oluşturduğunuzda, uygun erişim denetimlerinin mevcut olduğundan emin olun.
@@ -138,7 +134,7 @@ Bir işi tanımladıktan sonra **İçe aktar** veya **Dışa aktar** seçerek bi
 ## <a name="validate-that-the-job-ran-as-expected"></a>İşin beklendiği çalıştığını doğrulayın.
 İş geçmişi hem içe hem de dışa aktarma işlerinde sorun giderme ve sorgulama için kullanılabilir. Tarihi iş yürütmeleri zaman aralıkları ile düzenlenir.
 
-![İş geçmişi aralıkları.](./media/dixf-job-history.md.png)
+![İş geçmişi aralıkları](./media/dixf-job-history.md.png)
 
 Çalıştırılan her iş aşağıdaki ayrıntıları sağlar:
 
@@ -167,7 +163,19 @@ Verilerin içe aktarılmasını hızlandırmak için, varlık paralel içe aktar
     - **İçe aktarma eşik kayıt sayısı** alanında, içe aktarma için eşik kayıt sayısını girin. Bu, bir iş parçacığı tarafından işlenecek kayıt sayısını belirler. Bir dosyada 10K kayıt varsa, görev sayısı 4 olan 2500 kayıt sayısı, her iş parçacığının 2500 kayıt işleyeceği anlamına gelir.
     - **İçe aktarma görev sayısı** alanında, içe aktarma görevlerinin sayısını girin. Bu, **Sistem Yönetimi \>Sunucu yapılandırması**'ndaki toplu işleme için tahsis edilen maksimum toplu iş parçacığı sayısını aşmamalıdır.
 
-## <a name="job-history-clean-up"></a>İş geçmişi temizleme 
+## <a name="clean-up-the-staging-tables"></a>Hazırlama tablolarını temizleyin
+Platform Update 29'dan başlayarak, bu işlevselliği kullanımdan kaldırılmıştır. Bu, aşağıda açıklanan iş geçmişi temizleme işlevselliği yeni bir sürümü ile değiştirilir.
+
+Hazırlama tablolarını **Veri yönetimi** çalışma alanındaki **Hazırlama temizleme** özelliğini kullanarak temizleyebilirsiniz. Aşağıdaki seçenekleri, hangi kayıtların hangi hazırlama tablosundan silineceğini seçmek için kullanabilirsiniz:
+
+- **Varlık**: Yalnızca bir varlık sağlandıysa, o varlığın hazırlama tablosundaki tüm kayıtlar silinir. Varlık için tüm veri projeleri ve tüm işler için tüm veriyi silmek için bu seçeneği işaretleyin.
+- **İş Kodu**: Yalnızca bir iş kodu sağlandıysa, seçilen işteki tüm varlıklar için tüm kayıtlar uygun hazırlama tablolarından silinir.
+- **Veri projeleri**: Yalnızca bir veri projesi seçiliyse, seçilen veri projesi için tüm işler arasındaki tüm varlıklar için tüm kayıtlar silinir.
+
+Silinen kayıt kümesini daha da kısıtlamak için seçenekleri birleştirebilirsiniz.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>İş geçmişi temizleme (Platform Update 29 ve sonraki sürümlerde kullanılabilir)
+
 Veri yönetimindeki iş geçmişi temizleme işlevselliği, yürütme geçmişinin periyodik olarak temizlenmesini zamanlamak için kullanılmalıdır. Bu işlevsellik, şimdi kullanımdan kaldırılan önceki hazırlama tablolarını temizleme işlevselliğini değiştirir. Aşağıdaki tablolar temizleme işlemi tarafından temizlenecektir.
 
 -   Tüm hazırlama tabloları
@@ -203,10 +211,16 @@ Temizleme işlemini zamanlarken, temizleme ölçütlerini tanımlamak için aşa
 > [!NOTE]
 > Hazırlama tablolarındaki kayıtlar tamamen temizlenmemekte ise, temizleme işinin tekrarda çalışacak şekilde zamanlandığından emin olun. Yukarıda açıklandığı gibi, tüm Temizleme yürütmelerindeki iş, yalnızca sağlanan maksimum saat içinde bulunabilecek kadar fazla yürütme kodunun temizlenmesine neden olacak. Kalan hazırlama kayıtlarının temizlenme işlemine devam edebilmek için, işin belirli aralıklarla çalışacak şekilde zamanlanması gerekir.
 
-## <a name="job-history-clean-up-and-archival"></a>İş geçmişi temizleme ve arşivleme 
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>İş geçmişi temizleme ve arşivleme (Platform update 39 veya sürüm 10.0.15'te önizleme olarak sunulur)
 İş geçmişi temizleme ve arşivleme işlevi, temizleme işlevinin önceki sürümlerinin yerine geçer. Bu bölümde bu yeni özellikler açıklanmaktadır.
 
-Temizleme işlevinde yapılan ana değişikliklerden biri, geçmişi temizlemek için sistem toplu işinin kullanılmasıdır. Sistem toplu işi kullanıldığında, Finance ve Operations uygulamaları temizleme toplu işini otomatik olarak zamanlar ve sistem hazır olduğunda çalıştırır. Toplu işlemin el ile zamanlanmasına gerek kalmaz. Bu varsayılan yürütme modunda toplu iş, gece yarısı başlayarak her saat yürütülür ve son 7 günün yürütme geçmişi saklanır. Temizlenen geçmiş, ileride alınabilecek şekilde arşivlenir. Sürüm 10.0.20 ile başlayarak her zaman açık bu özellik.
+Temizleme işlevinde yapılan ana değişikliklerden biri, geçmişi temizlemek için sistem toplu işinin kullanılmasıdır. Sistem toplu işi kullanıldığında, Finance and Operations uygulamaları temizleme toplu işini otomatik olarak zamanlar ve sistem hazır olduğunda çalıştırır. Toplu işlemin el ile zamanlanmasına gerek kalmaz. Bu varsayılan yürütme modunda toplu iş, gece yarısı 12'den başlayarak her saat yürütülür ve son 7 günün yürütme geçmişi saklanır. Temizlenen geçmiş, ileride alınabilecek şekilde arşivlenir.
+
+> [!NOTE]
+> Bu işlev önizleme sürümünde olduğundan sistem toplu işi, DMFEnableExecutionHistoryCleanupSystemJob sınırlı dağıtımı üzerinden etkinleştirilene kadar hiçbir yürütme geçmişini silmez. Özellik sonraki sürümlerde herkesin kullanımına sunulduğunda bu sınırlı dağıtıma gerek kalmayacak ve sistem toplu işi yukarıda açıklandığı gibi, tanımlanan zamanlamaya göre sistem hazır olduğunda temizleme ve arşivleme işlemini başlatacaktır. 
+
+> [!NOTE]
+> Sonraki bir sürümde, temizleme işlevinin önceki sürümleri Finance and Operations uygulamalarından kaldırılacaktır.
 
 Temizleme işlemindeki ikinci değişiklik, temizlenen yürütme geçmişinin arşivlenmesidir. Temizleme işi, silinen kayıtları DIXF tarafından düzenli tümleştirmeler için kullanılan blob depolamaya arşivler. Arşivlenen dosya, DIXF paketi biçiminde olur ve 7 gün boyunca blob'da kullanılabilir olur. Dosya bu süre içinde indirilebilir. Arşivlenen dosya için varsayılan 7 günlük süre, parametrelerde en fazla 90 güne kadar değiştirilebilir.
 
@@ -229,6 +243,3 @@ Arşivlenmiş yürütme geçmişini indirmek için veri yönetimi çalışma ala
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

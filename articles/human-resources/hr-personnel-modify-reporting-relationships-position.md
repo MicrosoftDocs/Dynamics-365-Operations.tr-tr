@@ -1,50 +1,46 @@
 ---
 title: Pozisyonun raporlama ilişkilerini değiştirme
 description: Bu yordam, bir personel için raporlama ilişkisinin nasıl değiştirileceğini gösterir.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d7996733575c2d3a23971d08eb101962c1f6bbd9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2ae8ca5b20f331709e9fc1d9ae3b5f350e5c19ab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066637"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420953"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Pozisyonun raporlama ilişkilerini değiştirme
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
 Bu yordam, bir personel için raporlama ilişkisinin nasıl değiştirileceğini gösterir. Raporlama ilişkisi, iş akışı içinde belgeleri yönlendirmek için kullanılabilir. Yordam, personelin ayrıca ek hiyerarşilere nasıl atanacağını da gösterir. Örneğin bir personel, proje yöneticisine resmi olmayan bir raporlama ilişkisi olan bir projede takımının bir parçası olabilir. Ek olarak konuma, çeşitli Proje veya Matris senaryoları kapsayacak raporlama ilişkileri tanımlanabilir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
-1. **İnsan Kaynakları** \> **Pozisyonlar** \> **Pozisyonlar** seçeneğine gidin.
-2. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, **Pozisyon** alanını **000091** değeriyle filtreleyin.
-3. Listeden, seçilen satırdaki bağlantıyı seçin.
-4. **Konumlandırılacak raporlar** bölümünü genişletin.
-5. Açılır iletişim kutusunu açmak için **Yeni**'yi seçin.
-6. **Raporlar** alanına bir değer girin veya buradan bir değer seçin.
-7. **Oluştur**'u seçin.
-8. **İlişkiler** bölümünü genişletin.
-9. **Ekle**'yi seçin.
+1. İnsan Kaynakları > Pozisyonlar > Pozisyonlar seçeneğine gidin.
+2. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, '000091' değerine sahip pozisyon alanı üzerinde filtreleme uygulayın.
+3. Listede, seçili satırdaki bağlantıya tıklayın.
+4. Pozisyonu konumlandırmak için Raporlar'ı genişletin.
+5. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
+6. Raporlar alanına bir değer girin veya buradan bir değer seçin.
+7. Oluştur'a tıklayın.
+8. İlişkiler bölümünü genişletin.
+9. Ekle öğesini tıklatın.
 10. Tablonun solundaki onay kutusunu seçin.
-11. **Hiyerarşi adı** alanına bir değer girin veya buradan bir değer seçin (örneğin, **Proje**).
-12. **Konumlanacak raporlar** alanına bir değer girin veya buradan bir değer seçin (örneğin, **000437**).
-13. **Kaydet**'i seçin.
+11. Hiyerarşi adı alanına bir değer girin veya buradan bir değer seçin.
+    * Örnek: Proje  
+12. Pozisyonlara raporlar alanına bir değer girin veya buradan bir değer seçin.  Örnek:  000437
+13. Kaydet'e tıklayın.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

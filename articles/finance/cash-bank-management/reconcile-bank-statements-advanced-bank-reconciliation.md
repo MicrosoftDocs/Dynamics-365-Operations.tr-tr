@@ -2,9 +2,11 @@
 title: Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın
 description: Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.
 author: saraschi2
+manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbfa999d2aaa4b6dad711bb57916a68fb37c57d9add09092783ad3a8d6450c1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 92c04a47b134584280736f4d3d2fa401d2a2a9b7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714460"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969440"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlama
 
@@ -28,7 +30,8 @@ ms.locfileid: "6714460"
 
 Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.  
 
-## <a name="import-an-electronic-bank-statement"></a>Elektronik banka ekstresini içe aktarma
+<a name="import-an-electronic-bank-statement"></a>Elektronik banka ekstresini içe aktarma
+-----------------------------------
 
 **Banka ekstreleri** sayfasındaki **Ekstreyi içe aktar** eylemini kullanarak banka ekstrelerini içe aktarın. Banka ekstresinde, banka hesabı, banka hesap ayrıntılarına ayarlanan değer birleşimleri aracılığıyla tanımlanır. Bu değerler banka adı, banka hesap numarası, rota numarası, Dünya Interbank Mali Telekomünikasyon Derneği (SWIFT) kodu ve Uluslararası Banka Hesap Numarasını (IBAN) içerir. 
 
@@ -92,6 +95,3 @@ Mutabakat çalışma sayfasında **Yeni** olarak işaretlediğiniz banka ekstres
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

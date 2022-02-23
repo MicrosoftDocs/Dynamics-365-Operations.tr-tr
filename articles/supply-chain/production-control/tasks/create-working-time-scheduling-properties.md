@@ -1,25 +1,28 @@
 ---
 title: Çalışma zamanı planlama özelliklerini oluşturma
 description: Çalışma zamanı planlama özellikleri, çalışma zaman aralıklarını kategorilere ayırmak ve operatörlerin dikkate alması gereken ayarları tanımlamak için kullanılır.
-author: johanhoffmann
+author: sorenva
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WrkCtrProperty
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: sorenand
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de9bb64c93a686ce8a6ea365267980ec737a9335
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 79ca3d0405cc62b181f8c80df6de3a3cc9e12f99
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566611"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439006"
 ---
 # <a name="create-working-time-scheduling-properties"></a>Çalışma zamanı planlama özelliklerini oluşturma
 
@@ -27,22 +30,17 @@ ms.locfileid: "7566611"
 
 Çalışma zamanı planlama özellikleri, çalışma zaman aralıklarını kategorilere ayırmak ve operatörlerin dikkate alması gereken ayarları tanımlamak için kullanılır. Bu yordam, bir çalışma zamanı planlama özelliği ile ilişkili özellik değerlerinin nasıl belirleneceğini gösterir. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.
 
-1. **Çalışma alanları \> Kaynak yaşam döngüsü yönetimi**'ne gidin.
-2. **Özellikler**'i seçin.
+1. Tüm çalışma alanları > Kaynak yaşam döngüsü yönetimi'ne gidin.
+2. Özellikler'i tıklatın.
 
 ## <a name="create-property"></a>Özellik oluşturma
-
-1. **Yeni**'yi seçin.
-2. **Özellik** alanına bir değer yazın.
-3. **Ad** alanına bir değer yazın.
+1. Yeni'ye tıklayın.
+2. Özellik alanına bir değer yazın.
+3. İsim alanına bir değer yazın.
 
 ## <a name="create-property-values"></a>Özellik değerleri oluşturma
-
 1. Listede, seçili satırı işaretleyin.
-2. **Ad** alanına bir değer yazın.
-3. **Değer** alanına bir değer yazın.
-4. **Kaydet**'i seçin.
+2. İsim alanına bir değer yazın.
+3. Değer alanına bir değer yazın.
+4. Kaydet'e tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

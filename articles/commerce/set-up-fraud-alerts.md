@@ -2,13 +2,16 @@
 title: Çağrı merkezi sahtekarlık uyarılarını ayarlama ve bu uyarılarla çalışma
 description: Bu konu, siparişler işlendiğinde, müşteri hizmetleri temsilcilerini sahte olması olası bilgilere karşı uyarmak için kuralların nasıl ayarlanacağını açıklar. Siparişleri otomatik olarak veya el ile beklemeye almak için kullanılan belirli kodlar tanımlayabilirsiniz.
 author: josaw1
+manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763680"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416505"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Çağrı merkezi sahtekarlık uyarılarını ayarlama ve bu uyarılarla çalışma
 
@@ -34,13 +37,13 @@ Bu konuda, potansiyel sahte satış siparişlerini daha fazla incelemek üzere b
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Sahte veri denetimi özelliğini etkinleştirme
 
-Sahte veri denetimi özelliğini kullanmak için, çağrı merkezi kanalı [tanımlanırken](/dynamics365/unified-operations/retail/set-up-order-processing-options) kanaldaki **Sipariş tamamlamayı etkinleştir** seçeneğini **Evet** yapmanız gerekir. Sipariş tamamlama etkin durumdayken, çağrı merkezi kullanıcıları, oluşturulan tüm satış siparişleri için satış siparişi sayfasında **Tamamla**'yı seçmelidir. Tamamlama eylemi, **Satış siparişi özeti** sayfasının açılmasına neden olur. Kullanıcılar gerekli ödeme verilerini **Satış siparişi özeti** sayfasına girdikten sonra **Gönder**'i seçerek siparişi tamamlarlar. Sipariş gönderilince sahte veri denetimi özelliği tetiklenir ve sistemdeki etkin kuralların tümü otomatik olarak doğrulanır.
+Sahte veri denetimi özelliğini kullanmak için, çağrı merkezi kanalı [tanımlanırken](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options) kanaldaki **Sipariş tamamlamayı etkinleştir** seçeneğini **Evet** yapmanız gerekir. Sipariş tamamlama etkin durumdayken, çağrı merkezi kullanıcıları, oluşturulan tüm satış siparişleri için satış siparişi sayfasında **Tamamla**'yı seçmelidir. Tamamlama eylemi, **Satış siparişi özeti** sayfasının açılmasına neden olur. Kullanıcılar gerekli ödeme verilerini **Satış siparişi özeti** sayfasına girdikten sonra **Gönder**'i seçerek siparişi tamamlarlar. Sipariş gönderilince sahte veri denetimi özelliği tetiklenir ve sistemdeki etkin kuralların tümü otomatik olarak doğrulanır.
 
-Çağrı merkezi kullanıcıları **Gönder**'i seçmeden önce satış siparişlerini sahtekarlık incelemesi için el ile de beklemeye alabilirler. Satış siparişini el ile beklemeye almak için, **Satış siparişi özeti** sayfasında **Durduruldu**\> **El ile sahte tutma**'yı seçin. Bunun ardından, siparişi beklemeye alma nedeninizi açıklayan bir yorum girmeniz istenir. Bu yorum [sipariş tutmalar](/dynamics365/unified-operations/retail/work-with-order-holds) workbench'inde görünerek, siparişin serbest bırakılıp bırakılmayacağını belirlemek üzere beklemedeki siparişleri inceleyen kullanıcıya bilgi verir.
+Çağrı merkezi kullanıcıları **Gönder**'i seçmeden önce satış siparişlerini sahtekarlık incelemesi için el ile de beklemeye alabilirler. Satış siparişini el ile beklemeye almak için, **Satış siparişi özeti** sayfasında **Durduruldu**\> **El ile sahte tutma**'yı seçin. Bunun ardından, siparişi beklemeye alma nedeninizi açıklayan bir yorum girmeniz istenir. Bu yorum [sipariş tutmalar](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) workbench'inde görünerek, siparişin serbest bırakılıp bırakılmayacağını belirlemek üzere beklemedeki siparişleri inceleyen kullanıcıya bilgi verir.
 
 Kanalda **Sipariş tamamlamayı etkinleştir** seçeneğini yapılandırmaya ek olarak, Çağrı merkezi parametrelerinde sahte veri denetimi özelliğini yapılandırmanız gerekir. **Retail ve Commerce** \> **Kanal kurulumu** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi parametreleri**'ne gidin. **Çağrı merkezi parametreleri** sayfasındaki **Beklemeye alınanlar** sekmesinde **Sahte veri denetimi** seçeneğini **Evet** yapın.
 
-**Beklemeye alınanlar** sekmesinde, sahte veri incelemesi için beklemeye el ile veya otomatik olarak alınan siparişe uygulanacak [tutma kodlarını](/dynamics365/unified-operations/retail/work-with-order-holds) da tanımlamanız gerekir. **El ile sahte tutma kodu** ve **Sahte tutma kodu** alanlarında tutma kodlarını ayarlayın. Beklemeye alınanlar workbench'inde çalışan kullanıcıların kolaylıkla filtre uygulayarak otomatik tutmaları el ile tutmalardan ayırt edebilmelerini sağlamak için iki benzersiz tutma kodu oluşturmayı yararlı bulabilirsiniz.
+**Beklemeye alınanlar** sekmesinde, sahte veri incelemesi için beklemeye el ile veya otomatik olarak alınan siparişe uygulanacak [tutma kodlarını](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) da tanımlamanız gerekir. **El ile sahte tutma kodu** ve **Sahte tutma kodu** alanlarında tutma kodlarını ayarlayın. Beklemeye alınanlar workbench'inde çalışan kullanıcıların kolaylıkla filtre uygulayarak otomatik tutmaları el ile tutmalardan ayırt edebilmelerini sağlamak için iki benzersiz tutma kodu oluşturmayı yararlı bulabilirsiniz.
 
 Sahte veri denetimi özelliğinin etkin bir şekilde çalışması için **Minimum puan** alanını da ayarlamanız gerekir. Sistemde tanımlı her sahtekarlık ölçütünün ve kuralının birer puanı vardır. Bir satış siparişi sahte veri eşleme denetimine girince bir veya daha fazla eşleşme bulunduğu takdirde puanlar toplanarak toplam sahte veri puanını verir. Bir siparişin toplam sahte veri puanı **Minimum puan** alanındaki değeri aşarsa, sipariş otomatik olarak bekleme durumuna alınır. İsterseniz, **Beklemeye alınanlar** sekmesinde puanla ilgili diğer alanları kullanarak, e-posta puanı, telefon puanı, posta kod puanı ve genişletilmiş posta kodu puanı tanımlayabilirsiniz. **Statik sahte veri** sayfasında tanımladığınız statik sahtekarlık ölçütlerinden herhangi biri için, tanımlama sırasında puan belirtmezseniz, sistem, **Çağrı merkezi parametreleri** sayfasının **Beklemeye alınanlar** sekmesinde belirttiğiniz varsayılan puanları kullanarak bunlara puan verecektir.
 
@@ -65,7 +68,4 @@ Sipariş kaydedilir ancak üzerine **İşleme** bayrağı koyulur. Bu bayrak, si
 
 Sahte veri incelemesi için beklemeye alınmış siparişleri görüntülemek ve yönetmek için **Retail ve Commerce** \> **Müşteriler** \> **Sipariş tutmalar**'a gidin. Tutma nedeni hakkında bilgiler içeren daha ayrıntılı bir görünümü görmek için **Sipariş tutmalar** sayfasında, listeden bir giriş seçin ve ardından **Sipariş tutma**'ya tıklayın. **Sahtekarlık ayrıntıları** hızlı sekmesinde, sipariş için bir eşleşme olduğu saptanan sistematik sahtekarlık ölçütlerini ve uygulanan puanları görüntüleyebilirsiniz. Sipariş el ile tutulursa, siparişi beklemeye alan kullanıcının girdiği yorumları, **Notlar** hızlı sekmesindeki **Sahtecilik notları** bölümüne bakarak inceleyebilirsiniz.
 
-Tutma emirleriyle nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Sipariş tutmalar](/dynamics365/unified-operations/retail/work-with-order-holds).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Tutma emirleriyle nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Sipariş tutmalar](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).

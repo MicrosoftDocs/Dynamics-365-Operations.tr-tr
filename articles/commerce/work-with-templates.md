@@ -2,30 +2,36 @@
 title: Şablonlarla çalışma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta şablonlarla nasıl çalışılacağı açıklanmaktadır.
 author: phinneyridge
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090806"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416439"
 ---
 # <a name="work-with-templates"></a>Şablonlarla çalışma
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'ta şablonlarla nasıl çalışılacağı açıklanmaktadır.
+
+## <a name="overview"></a>Genel Bakış
 
 [Şablonlar ve mizanpajlarda genel bakış](templates-layouts-overview.md) anlatıldığıgibi, Özet Akış yazarları için kullanılabilen seçenekler kümesini tanımlar. Şablonlar, birkaç nedenden dolayı kuruluşun Web yazma ekibi için yararlıdır ve iyi yapılandırılmış Şablonlar aşağıdaki hedeflerin tümü için yardımcı olabilir:
 
@@ -49,7 +55,7 @@ Bu konuda, Microsoft Dynamics 365 Commerce'ta şablonlarla nasıl çalışılaca
 
 Şablonlar, Şablon Düzenleyicisi kullanılarak değiştirilir.
 
-Şablon düzenleyicisini Commerce Site Oluşturucu'da açmak için aşağıdaki adımlardan birini izleyin:
+Şablon düzenleyicisini açmak için aşağıdaki adımlardan birini izleyin:
 
 - Sitenizin gezinti bölmesinde, **şablonlar**'ı seçin ve sonra değiştirilecek şablonu seçin.
 - Varolan bir sayfanın sayfa düzenleyicisinde, soldaki anahat ağacında en üst düğümü seçin. Ardından sağdaki özellikler bölmesinde, **Şablon düzenle** seçin.
@@ -66,7 +72,7 @@ Soldaki anahat ağacı görünümünde alt düzenler ve sayfalar için kullanıl
 
 ## <a name="create-a-new-template"></a>Yeni şablon oluştur
 
-Site oluşturucuda yeni şablon oluşturmak için aşağıdaki adımları izleyin.
+Bir yeni şablon oluşturmak için şu adımları izleyin.
 
 1. Sitenizin gezinti bölmesinde, şablon denetim görünümünü açmak için **şablonlar**'ı seçin.
 1. **Yeni Şablon** seçin.
@@ -85,7 +91,7 @@ Yeni sayfa konteyner modülünün altında yeni bir yuvalar kümesi(**başlık**
 
 ## <a name="add-a-header-and-a-footer"></a>Üst bilgi ve alt bilgi ekle
 
-Sitenizde zaten bir başlık parçası varsa bir şablona üstbilgi ve altbilgi eklemek için site oluşturucuda aşağıdaki adımları izleyin.
+Sitenizde zaten bir başlık parçası varsa, bir şablona üstbilgi ve altbilgi eklemek için aşağıdaki adımları izleyin.
 
 1. Anahat ağacında, **gövde** yuvasını ve bunun alt sayfa modülünü genişletin.
 1. **Üstbilgi** yuvasını seçin.
@@ -98,7 +104,7 @@ Sitenizde henüz bir başlık parçası yoksa nasıl oluşturulacağı hakkında
 
 ## <a name="change-the-template-theme"></a>Şablon temasını değiştirin
 
-Şablon kullanan tüm sayfalar için varsayılan temayı ayarlamak üzere site oluşturucuda aşağıdaki adımları izleyin.
+Şablon kullanan tüm sayfalar için varsayılan temayı ayarlamak üzere aşağıdaki adımları izleyin.
 
 1. Soldaki anahat ağacında **Gövde** yuvayı genişletin.
 1. **Gövde** yuvasında sayfa konteyner modülünü seçin (örneğin, **Varsayılan sayfa**).
@@ -110,7 +116,7 @@ Varsayılan olarak tüm yeni sayfalar artık seçili temayı kullanır. Sayfalar
 
 Şablonunuza JavaScript içeren HTML **&lt;kod&gt;** öğeleri ekleyebilirsiniz. Bu şekilde, sayfalarınızın HTML kafasını, gövdesine başlaması ve gövde bitiş bölümlerine varsayılan kod davranışları sağlayabilirsiniz.
 
-Site oluşturucuda bir şablona komut dosyası eklemek için aşağıdaki adımları izleyin.
+Bir şablona komut eklemek için bu adımları izleyin.
 
 1. Soldaki anahat ağacında, **&lt;komut dosyası&gt;** öğesini eklemek istediğiniz yuvayı seçin (ör., HTML başlığı, gövde başlangıcı veya gövde sonu).
 1. Ana yuvası için üç nokta düğmesini seçin ve **Modül ekle**'yi seçin.
@@ -123,7 +129,7 @@ Site oluşturucuda bir şablona komut dosyası eklemek için aşağıdaki adıml
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Şablona kaydetme, iade etme, önizleme ve yayımlama
 
-Site oluşturucuda şablonu kaydetmek ve iade etmek için aşağıdaki adımları izleyin.
+Şablon kaydetmek ve iade etmek için aşağıdaki adımları izleyin.
 
 1. Şablon Düzenleyicisinin üst kısmında **Kaydet**'i seçin. Kaydedilen değişiklikler, bu akış yönündeki sayfaları iade edilene kadar etkilemez.
 1. **Düzenlemeyi bitir**'i seçin. Değişiklikleriniz, aşağı akışlar için artık bulunabilir.
@@ -139,23 +145,8 @@ Değişiklik şablonda yapılan değişiklikleri önizledikten sonra, şablonu c
 > [!WARNING]
 > Bir şablon veya herhangi bir başka içerik yönetimi sistemi (CMS) öğesi yayımlandığında, bunlar internette bulunabilir. Belgeleri veya varlıkları ortak kullanıma hazır oluncaya kadar yayımlamayın. Kaydedilen ve iade edilmiş, ancak yayınlanmamış olan belge sürümleri yalnızca kimliği doğrulanmış sistem kullanıcıları tarafından keşfedilebilir.
 
-## <a name="rename-a-template"></a>Şablonu yeniden adlandırma
-
-Site oluşturucuda bir şablonu yeniden adlandırmak için şu adımları izleyin.
-
-1. Soldaki gezinti bölmesinde, **Şablonlar**'ı seçin.
-1. Yeniden adlandırmak istediğiniz şablonun şablon adını seçin.
-1. Şablonu düzenlemeye başlamak için **Düzenle**'yi seçin. Şablon zaten başka bir kişi tarafından düzenleniyorsa şablonu düzenleyemeyeceğinizi unutmayın.
-1. Şablon özellikleri bölmesinde, şablon adının yanındaki kalem simgesini seçin.
-1. Şablon adını gerektiği gibi düzenleyin.
-1. Ad değişikliğini onaylamak için onay işaretini seçin.
-1. **Düzenlemeyi bitir**'i seçin.
-
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
 
 [Önceden ayarlanmış düzenlerle çalışma](work-with-layouts.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

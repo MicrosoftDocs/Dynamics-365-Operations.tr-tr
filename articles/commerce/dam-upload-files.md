@@ -2,12 +2,15 @@
 title: Görüntüler ve videolar dışındaki dosyaları karşıya yükleme
 description: Bu konu, Microsoft Dynamics 365 Commerce site oluşturucusunda görüntüler ve videolar dışındaki ikili dosyaların nasıl karşıya yükleneceğini açıklamaktadır.
 author: psimolin
+manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 50f9d793f0e7f34aa21d69c4049a3fe6bf16b58633f7bd555492506dc8d96790
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4acd3bec32cdfe627f6eb33dd5dc652f7cff74a8
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729159"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594224"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Görüntüler ve videolar dışındaki dosyaları karşıya yükleme
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce site oluşturucusunda görüntüler ve videolar dışındaki dosyaların nasıl karşıya yükleneceğini açıklamaktadır.
+
+## <a name="overview"></a>Özet
 
 Commerce site oluşturucusu Ortam Kitaplığı, görüntüler veya videolar dışındaki ikili varlıkların karşıya yüklenmesini destekler. Örneğin Microsoft Excel, Microsoft Word, Microsoft PowerPoint veya PDF dosyaları yüklemek isteyebilirsiniz.
 
@@ -93,6 +98,3 @@ Bir dosyayı Commerce site oluşturucusuna yüklemek için aşağıdaki adımlar
 [Görüntü odak noktalarını özelleştirme](dam-custom-focal-point.md)
 
 [Statik dosyaları karşıya yükleme ve sunma](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

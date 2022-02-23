@@ -1,27 +1,30 @@
 ---
 title: Operasyon planlama çizelgeleme seçenekleri
 description: Bu konu, Operasyon planlama çizelgelemesi seçeneklerini açıklar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 198123
 ms.assetid: d680d7be-da64-4132-89fe-ad2fa59afb77
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb0ee3020c5cfd17e82282e8fddb8f9c6dcdfee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c3865bfc3b66c018f836e21bbddf658de0351e57
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566755"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439142"
 ---
 # <a name="operations-scheduling-options"></a>Operasyon planlama çizelgeleme seçenekleri
 
@@ -124,12 +127,10 @@ Geçerli değerleri, varsayılan değerler olarak kaydedebilirsiniz. İki seçen
 -   Herkes için varsayılan olarak ayarla
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Operasyon planlaması](operations-scheduling.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

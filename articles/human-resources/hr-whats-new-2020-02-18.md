@@ -1,38 +1,39 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (18 Şubat 2020)
 description: Bu makalede, 18 Şubat 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9cce93aab902a8ca269cf22e1999716fe49f3ed8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063016"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526991"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (18 Şubat 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.2903 uygulanır. Bazı başlıklardaki parantez içindeki numaralar referans için LCS destek numaralarına referans verir.
 
 ## <a name="platform-update-32"></a>Platform güncelleştirmesi 32 
 
-32 platform güncelleştirmesi artık kullanılabilir durumdadır. Daha fazla bilgi için bkz. [Finans ve Operasyon için Platform güncelleştirmesi 32'deki yenilikler veya değişiklikler (Şubat 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+32 platform güncelleştirmesi artık kullanılabilir durumdadır. Daha fazla bilgi için bkz. [Finance and Operations uygulamaları için Platform güncelleştirmesi 32'daki yenilikler veya değişiklikler (2020 Şubat)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Akıcı personel formundaki görünüm seçenekleri değiştirilirken arama değerleri hatırlanır (383833)
 
@@ -42,17 +43,17 @@ Görünüm seçeneklerini değiştirdiğinizde ve değişiklikler uyguladığın
 
 Sabit ve değişken maaş yönetimi kutucukları şimdi yeni **çalışan** formunda doğru kayıtları görüntüler. Yalnızca, akıcı çalışan formu önizleme özelliği için geçerlidir. Bu önizleme özelliğini **Özellik yönetiminde** etkinleştirebilirsiniz. Daha fazla bilgi edinmek için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
 
-## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Dataverse'te bazı bırakma isteği için Boş Durum alanı kayıt kayıtları (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Common Data Service'te bazı bırakma isteği için Boş Durum alanı kayıt kayıtları (414915)
 
-Bu değişiklik, bir bırakma isteğindeki Dataverse **durum** alanının **gözden geçirilmesi** için ayarlandığı durumlarda oluşan bir sorunu düzeltir. Dataverse şimdi durumu yansıtır.
+Bu değişiklik, bir bırakma isteğindeki Common Data Service **durum** alanının **gözden geçirilmesi** için ayarlandığı durumlarda oluşan bir sorunu düzeltir. Common Data Service şimdi durumu yansıtır.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>Yetenek eksikliği Analizi yalnızca atanan iş için mümkündür (411390)
 
 İnsan Kaynakları tanımlı herhangi bir iş için artık bir yetenek eksikliği analizi yapabilirsiniz.
 
-## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>Sistem para birimi yeni ortamlarda Dataverse'ten insan kaynaklarına eşitleme yapmıyor (418011)
+## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>Sistem para birimi yeni ortamlarda Common Data Service'ten insan kaynaklarına eşitleme yapmıyor (418011)
 
-Dataverse'deki sistem para birimi şimdi insan kaynakları ile eşitlenebilir.
+Common Data Service'deki sistem para birimi şimdi insan kaynakları ile eşitlenebilir.
 
 ## <a name="in-preview"></a>Ön izlemede
 
@@ -62,9 +63,9 @@ Dataverse'deki sistem para birimi şimdi insan kaynakları ile eşitlenebilir.
 
 ## <a name="coming-soon"></a>Çok yakında
 
-### <a name="updated-dataverse-solution"></a>Güncellenen Dataverse çözümü
+### <a name="updated-common-data-service-solution"></a>Güncellenen Common Data Service çözümü
 
-Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma sunulur:
+Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında kullanıma sunulur:
 
 | Tanım | Değiştirme |
 | ----------------------------------------- | --- |
@@ -75,13 +76,11 @@ Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma
 | Yeni değişken ücret kurulumu varlıkları | **Değişken Ücret Planı Türü**</br>**Maaş değişken planı**</br>**Hakediş ödeme kuralları**</br>**Değişken Ücret Planı Düzeyi** |
 | Yeni **çalışan takvimi çalışan** varlığı | **İş takvimi varlığı** eklendi |
 | Yeni **Bordro pozisyon ayrıntısı** varlığı | **Bordro pozisyon ayrıntısı** eklendi |
-| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Dataverse eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
+| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Common Data Service eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

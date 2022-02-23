@@ -1,85 +1,69 @@
 ---
 title: Pozisyonları ayarlama
-description: Bu konu, pozisyonların organizasyon hiyerarşisinin alt düzeylerinin nasıl önemli bir öğesi olduğunu açıklar.
-author: twheeloc
-ms.date: 10/28/2021
+description: Pozisyonlar, organizasyon hiyerarşisinin alt düzeylerinin önemli bir öğesidir.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart, HcmAllWorkersListPart, HcmPosition, HcmPositionNewPosition, HcmJobLookup, HcmPositionReportsToDialog, HcmPositionLookup, FinancialDimensionDefaultTemplatesLookup, DimensionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67682b6ea949183c2697b658bb77925a791e7da1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6c078060984169d14a0fb64cf54fc134e8f26ccb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071611"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420947"
 ---
 # <a name="set-up-positions"></a>Pozisyonları ayarlama
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
 Pozisyonlar, organizasyon hiyerarşisinin alt düzeylerinin önemli bir öğesidir. Bir pozisyon, bir işin bireysel eşdüşümüdür. Örneğin "Satış yöneticisi (Doğu)" pozisyonu, "Satış yöneticisi" işiyle ilişkilendirilmiş işlerden biridir. Bu konum bir departman içinde mevcuttur ve yalnızca bir çalışan ile ilişkilendirilmiş olabilir. Bu görev, bir konum oluşturmak için gerekli adımlar hakkında siz yol gösterecektir. Bu yordam, İnsan Kaynakları Uzmanlarına yöneliktir.
 
-1. **İş gücü yönetimi**'ni seçin.
-2. **Pozisyonları aç**'ı seçin.
-3. Açılır iletişim kutusunu açmak için **Yeni**'yi seçin.
-4. **İş** alanına bir değer girin veya buradan bir değer seçin.
+1. İş gücü yönetimi'ne tıklayın.
+2. Açık pozisyonlar'a tıklayın.
+3. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
+4. İş alanına bir değer girin veya buradan bir değer seçin.
+    * İş tanımı, unvan ve tam zamanlı eşdeğer çalışma faktörü, otomatik olarak pozisyondaki seçili işten kopyalanır.  
+5. İşi ResolveChanges.
+6. Pozisyon oluştur'a tıklayın.
+7. Departman alanına bir değer girin veya buradan bir değer seçin.
+8. Pozisyon türü alanında bir değer girin veya seçin.
+9. Ücret alanına bir değer girin veya buradan bir değer seçin.
+    * Ücret bölgesi alanı, bu konumdaki bir çalışanın ücret uygunluğu kurallarını ve sabit artan bütçelerini belirler.  
+10. Atanmaya uygun alanına bir tarih ve saat girin.
+11. Pozisyon süresi bölümünü genişletin.
+    * Konum süresi, varsayılan olarak daha önce girilen etkinleştirme ve sona erme tarihlerine dayalı olarak girilir.  
+12. Pozisyonu konumlandırmak için Raporlar'ı genişletin.
+    * Bir pozisyona başka bir pozisyona rapor veren bir işçi atadığınızda, iki pozisyona atanan işçiler arasında bir doğrudan raporlama ilişkisi oluşturmuş olursunuz.  
+13. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
+14. Raporlar alanına bir değer girin veya buradan bir değer seçin.
+15. Oluştur öğesine tıklayın.
+16. Çalışan atama bölümünü genişletin.
+17. İlişkiler bölümünü genişletin.
+    * Organizasyonunuz bir matris hiyerarşisi veya başka bir özel hiyerarşi kullanıyorsa, pozisyon hiyerarşisi türleri ayarlayabilir ve ayarladığınız her bir hiyerarşi türü için pozisyonlara rapor ilişkileri ekleyebilirsiniz.  
+18. Ekle öğesini tıklatın.
+19. Listede, seçili satırı işaretleyin.
+20. Hiyerarşi adı alanına bir değer girin veya buradan bir değer seçin.
+21. Pozisyonlara raporlar alanına bir değer girin veya buradan bir değer seçin.
+22. Bordro bölümünü genişletin.
+23. Ödeme döngüsü alanına bir değer girin veya buradan bir değer seçin.
+24. Tarafından ödendi alanına bir değer girin veya buradan bir değer seçin.
+25. Yıllık normal mesai saatleri alanında bir sayı girin.
+    * Bu, bu pozisyondaki bir çalışanın her yıl çalışması beklenen ücretli saatlerin sayısıdır.  
+26. Sendika bölümünü genişletin.
+27. Sendika bölümünü daraltın.
+28. Mali boyutlar bölümünü genişletin.
+29. Dağıtım şablonu alanına bir değer girin veya buradan bir değer seçin.
+30. Departman alanına bir değer girin veya buradan bir değer seçin.
+31. Kaydet'e tıklayın.
 
-    **İş tanımı**, **Unvan** ve **Tam zamanlı eşdeğer çalışma faktörü** alanları otomatik olarak pozisyondaki seçili işten kopyalanır.
-
-5. **Pozisyon oluştur**'u seçin.
-6. **Departman** alanına bir değer girin veya buradan bir değer seçin.
-7. **Pozisyon türü** alanında bir değer girin veya seçin.
-8. **Ücret bölgesi** alanına bir değer girin veya buradan bir değer seçin.
-
-    **Ücret bölgesi** alanı, bu konumdaki bir çalışanın ücret uygunluğu kurallarını ve sabit artan bütçelerini belirler.
-
-9. **Atanmaya uygun** alanına bir tarih ve saat girin.
-10. **Pozisyon süresi** bölümünü genişletin.
-
-    Pozisyon süresi, varsayılan olarak daha önce girilen etkinleştirme ve sona erme tarihlerine dayalı olarak girilir.
-
-11. **Konumlandırılacak raporlar** bölümünü genişletin.
-
-    Bir pozisyona başka bir pozisyona rapor veren bir işçi atadığınızda, iki pozisyona atanan işçiler arasında bir doğrudan raporlama ilişkisi oluşturmuş olursunuz.
-
-12. Açılır iletişim kutusunu açmak için **Yeni**'yi seçin.
-13. **Raporlar** alanına bir değer girin veya buradan bir değer seçin.
-14. **Oluştur**'u seçin.
-15. **Çalışan atama** bölümünü genişletin.
-16. **İlişkiler** bölümünü genişletin.
-
-    Organizasyonunuz bir matris hiyerarşisi veya başka bir özel hiyerarşi kullanıyorsa, pozisyon hiyerarşisi türleri ayarlayabilir ve ayarladığınız her bir hiyerarşi türü için pozisyonlara rapor ilişkileri ekleyebilirsiniz.
-
-17. **Ekle**'yi seçin.
-18. Listede, seçili satırı işaretleyin.
-19. **Hiyerarşi adı** alanına bir değer girin veya buradan bir değer seçin.
-20. **Konumlandırılacak raporlar** alanına bir değer girin veya buradan bir değer seçin.
-21. **Bordro** bölümünü genişletin.
-22. **Ödeme döngüsü** alanına bir değer girin veya buradan bir değer seçin.
-23. **Tarafından ödendi** alanına bir değer girin veya buradan bir değer seçin.
-24. **Yıllık normal mesai saatleri** alanında bir sayı girin.
-
-    Girdiğiniz değer, bu pozisyondaki bir çalışanın her yıl çalışması beklenen ücretli saatlerin sayısıdır.
-
-25. **Sendika** bölümünü genişletin.
-26. **Sendika** bölümünü daraltın.
-27. **Mali boyutlar** bölümünü genişletin.
-28. **Dağıtım şablonu** alanına bir değer girin veya buradan bir değer seçin.
-29. **Departman** alanına bir değer girin veya buradan bir değer seçin.
-30. **Kaydet**'i seçin.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

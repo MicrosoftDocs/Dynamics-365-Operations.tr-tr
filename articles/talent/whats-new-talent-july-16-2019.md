@@ -142,6 +142,3 @@ Kuruluşlar, çalışanlara birçok farklı türde izin sunabilir. Ancak, çalı
 ### <a name="view-performance-information-for-direct-and-extended-reports-in-manager-self-service"></a>Yönetici self-servisindeki doğrudan ve genişletilmiş raporlar için performans bilgilerini görüntüleyin
 
 Yeni bir seçenek, yöneticilerin hem doğrudan raporların hem de genişletilmiş raporlarının performansını görüntülemesine olanak sağlar. Şu anda, satır yöneticileri performans hedeflerini atayabilir ve güncelleştirebilir ve yeni incelemeler yapabilir. Ek olarak, doğrudan yöneticiler ve bunların çalışanları performans gözden geçirme işleminin sorunsuz şekilde devam etmesine yardımcı olmak için performans günlüklerini koruyabilir ve güncelleştirebilir. Bu değişiklik uygulandığında, yöneticiler, kendi talimatlarına ek olarak, genişletilmiş raporlarının performansla ilgili bilgilerini görüntüleyebilir ve koruyabilirler.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

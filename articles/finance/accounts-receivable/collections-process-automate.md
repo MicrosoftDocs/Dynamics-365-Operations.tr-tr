@@ -1,10 +1,12 @@
 ---
 title: Tahsilat işlemi otomasyonu
-description: Bu konuda, e-posta anımsatıcısı, tahsilat faaliyeti veya müşteriye gönderilecek bir tahsilat mektubu gerektiren müşteri faturalarını otomatik olarak tanımlayan tahsilat işlem stratejilerinin ayarlanma işlemi açıklanmaktadır.
-author: JodiChristiansen
-ms.date: 03/12/2021
+description: Bu konuda, e-posta anımsatıcısı, tahsilat faaliyeti (telefon görüşmesi gibi) veya müşteriye gönderilecek bir tahsilat mektubu gerektiren müşteri faturalarını otomatik olarak tanımlayan tahsilat işlem stratejilerinin ayarlanma işlemi açıklanmaktadır.
+author: panolte
+manager: AnnBe
+ms.date: 08/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486881"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969713"
 ---
 # <a name="collections-process-automation"></a>Tahsilat işlemi otomasyonu
 
@@ -26,42 +28,92 @@ ms.locfileid: "7486881"
 
 Bu konuda, e-posta anımsatıcısı, tahsilat faaliyeti (telefon görüşmesi gibi) veya müşteriye gönderilecek bir tahsilat mektubu gerektiren müşteri faturalarını otomatik olarak tanımlayan tahsilat işlem stratejilerinin ayarlanma işlemi açıklanmaktadır. 
 
-Kuruluşlar, açık olan bir fatura veya hesap bakiyesi hakkında hangi müşterilerle bağlantı kurulması gerektiğini öğrenmek amacıyla, eski bakiye raporlarını, müşteri hesaplarını ve açık faturaları araştırmak için genellikle önemli miktarda zaman harcar. Bu araştırma, vadesi geçmiş bakiyeleri toplamak için müşterilerle iletişim kurmak veya fatura anlaşmazlıklarını çözmek için tahsilat görevlisi tarafından harcanan zamanı ortadan kaldırır. Tahsilat işlem otomasyonu, tahsilat işleminiz için strateji tabanlı bir yaklaşım ayarlamanıza olanak sağlar. Bu, özelleştirilmiş e-posta anımsatıcıları veya tahsilat mektuplarını göndermek için programlanmış işlem sağlayarak, tahsilat etkinliklerini sürekli olarak uygulamanıza yardımcı olur. 
+Kuruluşlar, açık olan bir fatura veya hesap bakiyesi hakkında hangi müşterilerle bağlantı kurulması gerektiğini belirlemek amacıyla, eski bakiye raporlarını, müşteri hesaplarını ve açık faturaları araştırmak için önemli miktarda zaman harcar. Bu araştırma, vadesi geçmiş bakiyeleri toplamak için müşterilerle iletişim kurmak veya fatura anlaşmazlıklarını çözmek için tahsilat görevlisi tarafından harcanan zamanı ortadan kaldırır. Tahsilat işlem otomasyonu, tahsilat işleminiz için strateji tabanlı bir yaklaşım ayarlamanıza olanak sağlar. Bu, özelleştirilmiş e-posta anımsatıcıları veya tahsilat mektuplarını göndermek için programlanmış işlem sağlayarak, tahsilat etkinliklerini sürekli olarak uygulamanıza yardımcı olur. 
 
 ## <a name="collections-process-setup"></a>Tahsilat işlemi kurulumu
 Etkinlikleri planlayacak, e-posta mesajları gönderecek ve müşteri tahsilat mektuplarını oluşturup gönderecek otomatik tahsilat işlemini oluşturmak için, **Tahsilat işlem ayarı** sayfasını (**Krediler ve tahsilatlar > Kurulum > Tahsilat süreç ayarı**) kullanabilirsiniz. İşlem adımları, yol açan veya en eski açık faturaya göre yapılır. Her adım, belirli bir müşteriyle hangi iletişimin veya etkinliğin gerçekleşmesi gerektiğini belirlemek için bu faturayı kullanır.  
 
-Tahsilat ekipleri genellikle, bekleyen her faturayla ilgili önceden bir bildirim göndererek, fatura ödemesinin yaklaştığı konusunda müşterinin bilgilendirilmesini sağlar. Her fatura için işlem hiyerarşisindeki adımların sırayla atılmasını sağlamak için **Ön hatırlatma** seçeneği ayarlanabilir.
-
 ### <a name="process-hierarchy"></a>İşlem hiyerarşisi
-Her müşteri havuzu yalnızca bir işlem hiyerarşisine atanabilir. Bu adımın hiyerarşi derecesi, bir müşteri işlem hiyerarşisi atanmış birden fazla havuza dahil edildiğinde hangi işlemin öncelikli olduğunu tanımlar. Havuz kimliği, hangi müşterilerin işleme atanacağını belirler. Ayarlanan her hiyerarşi yalnızca bir işlem otomasyonuna atanabilir.
+Her müşteri havuzu yalnızca bir işlem hiyerarşisine atanabilir. Bu adımın hiyerarşi derecesi, bir müşteri işlem hiyerarşisi atanmış birden fazla havuza dahil edildiğinde hangi işlemin öncelikli olduğunu tanımlar. Havuz kimliği, hangi müşterilerin işleme atanacağını belirler. 
 
-Faaliyetsiz günler, bir müşteriyle otomatik işlem tarafından çok sık bağlantı kurulmamasını sağlamak için kullanılır. Örneğin, faaliyetsiz günler iki olarak ayarlanmışsa, orijinal yol açan fatura tam olarak kapatılmış olsa bile, müşteriyle otomatik işlem tarafından en az iki gün süreyle iletişim kurulmaz. 
+Faaliyetsiz günler, bir müşteriyle otomatikleştirilmiş süreç tarafından çok sık bağlantı kurulmamasını sağlamak için kullanılır.  Örneğin, faaliyetsiz günler iki olarak ayarlanmışsa, orijinal yol açan fatura tam olarak kapatılmış olsa bile, müşteriyle otomatik işlem tarafından en az iki gün süreyle iletişim kurulmaz. 
 
-Müşterinin eski bakiyesi veya fatura tutarı tanımlı bir değerden azsa müşterileri işlem otomasyonunun dışında tutmak için **Sürecin dışında tut** alanında **Müşterinin eski bakiyesi şundan küçüktür:** ya da **Fatura tutarı şundan küçüktür:** seçeneğini belirleyin ve tutar değerini girin.
+Hesap bakiyesi veya fatura bakiyesi tanımlı bir değerden azsa, müşterileri işlem otomasyonunun dışında tutmak için, **Sürecin dışında tut** alanını **Evet** olarak ayarlayın ve tutar değerini girin.
 
-Müşteri ödeme tahminlerini kullanarak tahsilat faaliyetleri oluşturmak için **Tahmini kullan**'ı işaretleyin. Oluşturulan faaliyetler, **Alacak hesapları parametreleri** sayfasında, **Tahsilat işlemi otomasyonu** sekmesinde **Ödeme tahminleri**'ndeki Faaliyet şablonunu kullanır. 
+## <a name="process-details"></a>İşlem ayrıntıları
+**Açıklama**, hiyerarşideki adımın amacını veya adını tanımlamak için kullanılır.
 
-### <a name="process-details"></a>İşlem ayrıntıları
-Hiyerarşiye yeni bir işlem ayrıntısı eklemek için **Yeni**'ye tıklayın. **Açıklama**, hiyerarşideki adımın amacını veya adını tanımlamak için kullanılır. Etkinlik oluşturan, e-posta gönderen veya tahsilat mektubu oluşturan adımı tanımlamak için **Eylem türü**'nü seçin. 
+**Eylem türü**, adımın bir etkinlik oluşturmak mı, bir e-posta göndermek mi, yoksa bir tahsilat mektubu oluşturmak mı olduğunu tanımlar.
 
-- **İş belgesi**, eylem türünü oluşturmak için kullanılan şablonu tanımlar. Bu belge bir faaliyet şablonu, bir e-posta şablonu veya her müşteriye gönderilen bir tahsilat mektubu olabilir. Tahsilat işlemi otomasyonu, diğer tahsilat parametrelerinin nasıl ayarlandığı dikkate alınmaksızın yalnızca müşteri başına tahsilat mektupları oluşturur.
-- **Zaman**, baştaki (en eski) fatura vade tarihinden önce veya sonra gerçekleşecek işlem tanımını tanımlar ve **Fatura vade tarihiyle ilişkili gün sayısı** sütununda görüntülenen sayıyla birlikte kullanılır. 
-- İşlem hiyerarşisinde bir adımda her fatura için bir eylem oluşturmak üzere **Ön hatırlatma** seçeneğini işaretleyin. Ön hatırlatma eylemleri genellikle bekleyen faturalarla ilgili önceden bir bildirimdir, böylece müşteri fatura ödemesinin yaklaştığı konusunda bilgilendirilebilir. Ön hatırlatma yalnızca hiyerarşi başına bir faaliyet için işaretlenebilir. Bir e-posta eylem türü seçtiğinizde alıcı, e-postanın bir müşteri, satış grubu veya tahsilat temsilcisine gönderilip gönderilmeyeceğini tanımlamak için kullanılır. 
-- Daha sonra **İş amaçlı ilgili kişi** alanındaki değer, o müşterinin hesabından hangi ilgili kişiyle iletişim kurulacağını belirler.
+**İş belgesi**, eylem türünü oluşturmak için kullanılan şablonu tanımlar.  Bu, her müşteri için bir faaliyet şablonu, bir e-posta şablonu veya bir tahsilat mektubu olabilir. 
 
-### <a name="business-document-details"></a>İş belgesi ayrıntıları
-İş belgesi ayrıntıları, işlem ayrıntılarında seçilen eylem türüne göre değişir. Eylem türü etkinlik olduğunda, etkinlik şablonu ayrıntıları gösterilir. Bu ayrıntılar arasında etkinlik şablonu adı, oluşturulacak etkinliğin türü, etkinliğin amacı, etkinliğin tamamlanması için planlanan gün sayısı ve etkinliğin ayrıntıları sayılabilir. Bu etkinlik daha sonra, etkinliği tamamlamak için gereken eylemi alıcıya bildiren yol açan faturaya bağlantı sağlar.
+Eylem türleri **Fatura vadesine ilişkin gün** sütununda görüntülenen ayara göre fatura vade tarihinden önce veya sonra oluşturulabilir.
 
-Eylem türü işlem ayrıntılarında bir e-posta ise, bu bölümde iki hızlı sekme bulunur. İlki, şablon kimliğini, e-posta açıklamasını, varsayılan dili, otomatik olarak gönderilen e-posta iletilerine atanacak kullanıcı adını ve ilişkili gönderici e-posta adresini tanımlamak için kullanılır. İkincisi, **Düzenle** seçilerek, **Dil** ve **Konu** alanlarındaki değerler kaydedildikten sonra oluşturulacak e-posta gövdesinin oluşturulmasına olanak tanır. Bu, HTML içeriğinin karşıya yüklenmesini sağlayan bir pencere açar. 
+Bir e-posta eylem türü seçtiğinizde; alıcı, bir müşteri, satış grubu veya tahsilat görevlisi olup olmayacağını tanımlamak için kullanılır. Daha sonra **İş amaçlı ilgili kişi** alanındaki değer, o müşterinin hesabından hangi ilgili kişiyle iletişim kurulacağını belirler.
+
+## <a name="business-document-details"></a>İş belgesi ayrıntıları
+İş belgesi ayrıntıları, işlem ayrıntılarında seçilen eylem türüne göre değişir.  Eylem türü etkinlik olduğunda, etkinlik şablonu ayrıntıları gösterilir.  Bu ayrıntılar arasında etkinlik şablonu adı, oluşturulacak etkinliğin türü, etkinliğin amacı, etkinliğin tamamlanması için planlanan gün sayısı ve etkinliğin ayrıntıları sayılabilir.  Bu etkinlik daha sonra, etkinliği tamamlamak için gereken eylemi alıcıya bildiren yol açan faturaya bağlantı sağlar.
+
+Eylem türü işlem ayrıntılarında bir e-posta ise, bu bölümde iki hızlı sekme bulunur.  İlki, şablon kimliğini, e-posta açıklamasını, varsayılan dili, otomatik olarak gönderilen e-posta iletilerine atanacak kullanıcı adını ve ilişkili gönderici e-posta adresini tanımlamak için kullanılır. İkincisi, **Düzenle** seçilerek, **Dil** ve **Konu** alanlarındaki değerler kaydedildikten sonra oluşturulacak e-posta gövdesinin oluşturulmasına olanak tanır.  Bu, HTML içeriğinin karşıya yüklenmesini sağlayan bir pencere açar. Pencerenin sol alt kutusuna el ile oluşturulan iletiyi de yazabilirsiniz.  
 
 > [!Note]
-> İletişimin gövde metnini HTML biçiminde içeren bir Outlook e-posta iletisi kaydedebilirsiniz. Ardından şablonu uygulamak için ileti içeriğini yükleyebilirsiniz. <br> <br> Tahsilat mektubu için eylem türü seçilirse kurulum sayfasında iş belgesi ayrıntı bölümü olmaz.
+> Outlook e-postaları, HTML biçimindeki istenen iletişim gövdesiyle kaydedilebilir. Bu daha sonra şablonu uygulamak için karşıya yüklenebilir. <br> <br> Tahsilat mektubu için eylem türü seçilirse kurulum formunda iş belgesi ayrıntı bölümü olmaz.
 
-Seçili işlem hiyerarşisi için en son geçmişi görüntülemek üzere **Tahsilat işlemi geçmişi** düğmesini kullanın. 
 
-Bir tahsilat işlemine atanan müşterileri görüntülemek için **Tahsilat işlemi ataması** eylemine tıklayın. Belirli bir müşterinin atandığı hiyerarşiyi görüntülemek için **Müşteri atamasını önizle** seçeneğini kullanın. Çalıştırıldığında hiyerarşiye atanacak müşterileri önizlemek için **İşlem atamasını önizle** seçeneğini kullanın. Bir işleme el ile atanan müşterileri görüntülemek veya bir işleme atanacak müşterileri seçmek için **El ile atama**'ya tıklayın.
+## <a name="fasttab-reference"></a>Hızlı sekme referansı
+Aşağıdaki tablolarda, belirtilen hızlı sekmelerin erişilebileceği sayfalar ve alanlar ile ilgili sekmedeki bilgilerin açıklaması birlikte verilmektedir. 
 
-Seçili işlem otomasyonu şu anda çalıştırıldığında oluşturulacak eylemleri önizlemek için **İşlem simülasyonu** eylemine tıklayın. 
+### <a name="process-hierarchy"></a>İşlem hiyerarşisi
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+|     Sayfa                                                  |     Alan                         |     Tanım                           |
+| --------------------------------------------------------  |-------------------------------    |---------------------------------------    |
+|     Tahsilat işlemi kurulumu <br> İşlem otomasyonu       |                                   |     Müşteri havuzu atamalarını temel alan tahsilat işlemlerini oluşturun ve yönetin.                                                                                                                             |
+|     Tahsilat işlemi kurulumu <br> İşlem otomasyonu       |     Hiyerarşi                     |     Birden çok havuza ait olan bir müşteriyi atamak üzere işlem otomasyonu önceliğini tanımlar.                                                                                                   |
+|     Tahsilat işlemi kurulumu <br> İşlem otomasyonu       |     Havuz kimliği                       |     Müşteri kayıtlarına ait bir grubu tanımlayan sorgulardır.                                                                                                                                                        |
+|     Tahsilat işlemi kurulumu <br> İşlem otomasyonu       |     Faaliyetsiz günler                    |     İşlem adımının ne sıklıkta tamamlanacağını sınırlayın. Örneğin, iki faaliyetsiz gün ayarlandıysa, yol açan fatura değişirse, sonraki işlem adımı en az iki gün boyunca gerçekleşmeyecektir.     |
+|     Tahsilat işlemi kurulumu <br> İşlem otomasyonu       |     İşlemin dışında tut        |     **Müşterinin eski bakiyesi şundan küçüktür:** veya **Fatura tutarı şundan küçüktür:** seçilirse değer ölçütü karşılanmadığında, bir müşteri işlem otomasyonunun dışında bırakılır.                                   |
+
+### <a name="process-details"></a>İşlem ayrıntıları
+|     Sayfa                                                  |     Alan                                         |      Tanım                  |
+|--------------------------------------------------------   |-----------------------------------------------    |----------------------------   |
+|     Tahsilat işlemi kurulumu <br> İşlem otomasyonu       |                                                   |     Yol açan faturaya göre alınan adımları tanımlayın.                                                                                                |
+|                                                           |     Tanım                                   |     Adımın adını ve/veya açıklamasını sağlamak için kullanılan serbest metin alanı.                                                                           |
+|                                                           |     Eylem türü                                   |     İşlem adımı tarafından oluşturulacak etkinlik, eposta veya tahsilat mektubu.                                                                     |
+|                                                           |     İş belgesi                           |     İşlem adımı sırasında kullanılan etkinliği veya e-posta şablonunu tanımlar.                                                                        |
+|                                                           |     Ne zaman                                          |     İşlem adımının, **Fatura vade tarihi ile ilişkili gün sayısı** alanının yanı sıra yol açan faturanın vade tarihinden önce mi, yoksa sonra mı işlemin gerçekleşeceğini tanımlar.        |
+|                                                           |     Fatura vade tarihiyle ilişkili gün sayısı        |     **Ne zaman** alanıyla birlikte işlem adımının zamanlamasını tanımlar.                                                                          |
+|                                                           |     Siparişi alan                                     |     Müşteriye, satış grubuna veya tahsilat görevlisi ilgili kişisine e-posta gönderilip gönderilmeyeceğini tanımlar.                                                   |
+|                                                           |     İş amacı ilgili kişisi                    |     E-posta iletişimlerinde hangi alıcının e-posta adresinin kullanılacağını belirler.                                                                                 |
+
+### <a name="business-process-activity-template-details"></a>İş süreci etkinlik şablonu ayrıntıları 
+|     Sayfa                                                  |     Alan                     |      Tanım                  |
+|--------------------------------------------------------   |----------------------------   |-------------------------  |
+|     Tahsilat işlemi kurulumu <br> İşlem otomasyonu       |                               |     Kurulum işleminin, faaliyet şablonunun ayrıntılarını tanımlayan bölümü.                                                                      |
+|     Tahsilat işlemi kurulumu <br> İşlem otomasyonu       |     Etkinlik şablonu       |     Tür, amaç, tamamlanması gereken gün sayısını tanımlar ve etkinlik işlemi adımı sırasında oluşturulacak etkinlikle ilgili ayrıntıları sağlar.       |
+
+### <a name="business-document-email-template-details"></a>İş belgesi e-posta şablonu ayrıntıları 
+|     Sayfa                                                  |     Alan     |      Tanım                  |
+|--------------------------------------------------------   |-------------- |-----------------------------  |
+|     Tahsilat işlemi kurulumu <br> İşlem otomasyonu       |               |     E-posta işlem adımı sırasında oluşturulacak e-posta açıklaması, varsayılan dil, gönderen adı ve e-posta adreslerini tanımlar.        |
+
+
+### <a name="collections-history"></a>Tahsilatlar geçmişi 
+|     Sayfa                              |     Alan     |      Tanım                                                          |
+|------------------------------------   |-------------- |---------------------------------------------------------------------  |
+|     Tahsilat işlemi kurulumu       |               |     Seçili işlem hiyerarşisi için en son geçmişi görüntüleyin.     |
+
+### <a name="collection-process-assignment"></a>Tahsilat işlem ataması
+|     Sayfa                              |     Alan     |      Tanım                                                  |
+|------------------------------------   |-------------- |-----------------------------------------------------------    |
+|     Tahsilat işlemi kurulumu       |               |     Bir tahsilat işlemine atanan müşterileri görüntüleyin.  
+|     El ile atama               |               |     Bir işleme el ile atanan veya bir işleme atanacak müşterileri seçebileceğiniz müşterileri görüntüleyin. |
+|     İşlem atamasını önizle      |               |     Çalıştırıldığında bir stratejiye atanacak müşterileri önizleyin.   |
+|     Müşteri atamasını önizle     |               |     Belirli bir müşterinin atandığı stratejiyi görüntüleyin.    |
+ 
+### <a name="parameters"></a>Parametreler
+|     Sayfa                                                                  |     Alan                                             |      Tanım                              |
+|-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
+|     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Toplu iş görevi başına müşteri yüzdesi          |     Otomasyon işlemi başına toplu iş görev sayısını belirleyen ayar.                                          |
+|     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Tahsilat mektuplarını otomatik olarak gönder           |     Tahsilat mektubu eylem türleri, otomasyon sırasında mektubu gönderir.                                      |
+|     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Otomasyon için etkinlikleri oluşturma                |     Bir hesapta alınan tüm otomatik adımları görüntülemek için etkinlik dışı eylem türlerine ait etkinlikler oluşturun ve kapatın.        |
+|     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Tahsilat işlemi otomasyon geçmişinin tutulacağı gün sayısı     |     Tahsilat geçmişinin saklanacağı gün sayısını tanımlar.                                                       |

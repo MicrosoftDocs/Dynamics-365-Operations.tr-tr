@@ -2,30 +2,36 @@
 title: Erişilebilirlik özellikleri ve yetenekleri
 description: Bu konu, Microsoft Dynamics 365 Commerce'ın erişilebilirlik özellikleri ve yeterlilikler hakkında bilgi sağlar.
 author: BrianShook
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716288"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416347"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Erişilebilirlik özellikleri ve yetenekleri
+
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ın erişilebilirlik özellikleri ve yeterlilikler hakkında bilgi sağlar.
+
+## <a name="overview"></a>Genel Bakış
 
 Erişilebilirlik özellikleri ve yetkinlikleri, tüm kullanıcıların hedeflerine ulaşmaları ve eylemlerini gerçekleştirebilmesi için işlevsel araçlar sağlar. Bu geniş kullanıcı yelpazesi, işitme, vizyon, taşınabilirlik veya nöroçeşitlilik için yardımcı araçlar gerektirebilir.
 
@@ -95,11 +101,11 @@ Bir video kıymetin **minimum yaş** özniteliğini ayarlamak için aşağıdaki
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Formlar, ürünler ve denetimlerde erişilebilirlik](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[Formlar, ürünler ve denetimlerde erişilebilirlik](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Microsoft Erişilebilirlik Merkezi](https://www.microsoft.com/accessibility)
 
-[Dynamics 365 Erişilebilirlik Merkezi](/dynamics365/get-started/accessibility/index)
+[Dynamics 365 Erişilebilirlik Merkezi](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
 
 [Uyumluluğa genel bakış](compliance-overview.md)
 
@@ -108,6 +114,3 @@ Bir video kıymetin **minimum yaş** özniteliğini ayarlamak için aşağıdaki
 [Gizlilik ilkesi sayfası ekleme](add-privacy-page.md)
 
 [İzlenen içerik değişiklikleriyle ilişkili kullanıcı kimliklerini değiştirme](replace-IDs-tracked-changes.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
