@@ -2,25 +2,22 @@
 title: Yerine koyma kümeleri
 description: Yerine koyma kümeleri, aynı anda birden fazla plakayı çekmek ve daha sonra farklı yerlerde yerine koymak için bir yol sunar. Bunlar, plakaların genellikle stoğun tam paletleri olmadığı perakende işletmeler için çok yararlı olabilir.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512342"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103675"
 ---
 # <a name="putaway-clusters"></a>Yerine koyma kümeleri
 
@@ -28,12 +25,9 @@ ms.locfileid: "4512342"
 
 Yerine koyma kümeleri, aynı anda birden fazla plakayı çekmek ve daha sonra farklı yerlerde yerine koymak için bir yol sunar. Bu işlem genellikle bir *çoklu teslimat rotası* olarak adlandırılır. Yerine koyma kümeleri, plakaların genellikle stoğun tam palet olmadığı perakende işletmeleri için çok yararlı olabilir. 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>Küme yerine koyma özelliğini açma
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Küme yerine koyma özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Küme yerine koyma özelliği*
+Bu konuda açıklanan işlevi kullanmak için *Küme yerine koyma* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Küme yerine koyma* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="setup-for-the-example-scenario"></a>Örnek senaryo için kurulum
 
@@ -231,7 +225,7 @@ Bu senaryo, küme küme yerine koymayı işlemeyi simüle eder.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Stoğu bir kümeye teslim alma ve sıralama
 
-1. Ambar *61* için ayarlanan bir kullanıcı olarak ambarı uygulamasına oturum açın.
+1. Ambar *61* için ayarlanan bir kullanıcı olarak Ambar Yönetimi mobil uygulamasında oturum açın.
 1. Ana menüde **Gelen**'i seçin.
 1. **Gelen** menüsünde **Teslim al ve kümeyi sırala**'yı seçin.
 1. **SAS No** alanına satın alma siparişi numaranızı girin.
@@ -273,7 +267,7 @@ Kümedeki maddelerin kaldırılabilmeleri için kümenin kapatılması gerekir.
 
 #### <a name="put-the-cluster-away"></a>Kümeyi yerine koyma
 
-1. Ambar *61* için ayarlanan bir kullanıcı olarak ambarı uygulamasına oturum açın.
+1. Ambar *61* için ayarlanan bir kullanıcı olarak Ambar Yönetimi mobil uygulamasında oturum açın.
 1. Ana menüde **Gelen**'i seçin.
 1. **Gelen** menüsünden **Küme yerine koyma**'yı seçin.
 1. **Küme Kimliği**'ni seçin ve kapalı küme için daha önce girdiğiniz küme kimliğini girin.
@@ -287,7 +281,7 @@ Kümedeki maddelerin kaldırılabilmeleri için kümenin kapatılması gerekir.
 
     Bu adımı geçersiz kılmak veya atlamak için standart seçeneklere sahipsiniz.
 
-    ![Küme yerine koyma: Sayfayı yerine koyma](media/Cluster_putaway-Put.png "Küme yerine koyma: Sayfayı yerine koyma")
+    ![Küme yerine koyma: Sayfayı yerine koyma.](media/Cluster_putaway-Put.png "Küme yerine koyma: Sayfayı yerine koyma")
 
 1. Kümenin yerine konmasını onaylamak için **Tamam**'ı seçin.
 
@@ -296,3 +290,6 @@ Kümedeki maddelerin kaldırılabilmeleri için kümenin kapatılması gerekir.
 ## <a name="notes-and-tips"></a>Notlar ve ipuçları
 
 Küme kimliğinin iç içe geçmiş palet için üst plaka olduğu durumlarda, küme kimliği tarandığında yerine koyma konumu otomatik olarak verilir. Plaka üretimi el ile olarak ayarlansa bile başka bir plaka taranmamalıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Veri reyonunu sıfırlamayla ilgili SSS
 description: Bu konu, veri reyonu sıfırlama hakkında sık sorulan bazı soruların yanıtlarını sağlar.
 author: jinniew
-ms.date: 07/16/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e5a40342306eb9888b456a865ab2220dccfe65f8ccecc67bf8fc16f907e06977
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767767"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119524"
 ---
 # <a name="data-mart-resets-faq"></a>Veri reyonunu sıfırlamayla ilgili SSS
 
@@ -35,8 +35,9 @@ Eski verilerin eklenmemesini sağlamak için veri reyonu sıfırlaması yalnızc
 
 Aşağıdaki ifadelerden biri veya daha fazlası sizin durumunuza için geçerli ise kuruluşunuz bir veri reyonu sıfırlamadan yararlanabilir:
 
-- Uygulama veritabanı geri yüklendi.
-- Bir destek bileti açtınız ve Destek mühendisi sorun giderme adımının bir parçası olarak veri reyonunu sıfırlamanızı istedi.
+- **Uygulama veritabanı geri yüklendi**
+- **Bir destek bileti açtınız** - Destek mühendisi sorun giderme adımının bir parçası olarak veri reyonunu sıfırlamanızı istedi.
+- **Yüksek eski kayıt yüzdesi** - Yalnızca eski kayıtlar olması tek başına veri reyonunun sıfırlanması için geçerli bir gerekçe değildir. Eski verilerin yüksek yüzdeleri, genel rapor oluşturma ve tümleştirme performansını düşürebilir ve ek veritabanı alanı kullanımı oluşturabilir. Veri reyonunda %80'den fazla eski veri olduğunda eski verileri kaldırmak için bir veri reyonu sıfırlaması gerçekleştirmenizi öneririz.
  
 > [!NOTE]
 > Veri reyonunu sıfırlama işlemi, veritabanınızdaki genel muhasebe ve bütçe hareketlerinin sayısından etkilenir. Sisteminizdeki işlem sayısına bağlı olarak, bir veri reyonu sıfırlaması 15 dakika kadar kısa bir sürede tamamlanabilir veya dört saate kadar sürebilir. Ancak sıfırlamanız dört saatten uzun sürüyorsa Destek ekibine başvurmanızı öneririz.
@@ -45,13 +46,12 @@ Aşağıdaki ifadelerden biri veya daha fazlası sizin durumunuza için geçerli
 
 Veri reyonunu sıfırlamayı önermediğimiz bazı durumları aşağıda bulabilirsiniz:
 
-- Veri eşitleme ile ilişkili performans sorunları yaşıyorsunuz.
+- Veri tümleştirme performans sorunları yaşıyorsunuz.
 - Aşağıdakilerden herhangi biri nedeniyle yinelenen bir sıfırlama modeliniz var:
 
-    - **Eksik veri**: Verilerin eksik olduğunu görürseniz, rapor biçiminizi ve veri eşitleme sorunlarını gözden geçirmesi için Microsoft ile bir destek bileti açın.
+    - **Raporda eksik veya beklenmeyen veri** - Verilerin eksik olduğunu görürseniz, rapor biçiminizi ve veri eşitleme sorunlarını gözden geçirmesi için Microsoft ile bir destek bileti açın.
     - **Tümleştirme durumu takılı kaldı**
-    - **Eski kayıtlar**: Yalnızca eski kayıtlar olması tek başına veri reyonunun sıfırlanması için geçerli bir gerekçe değildir. Büyük bir veri kümeniz varsa sıfırlama işleminin çalışması biraz zaman alır ancak bu işlemin iyileştirme sağlama olasılığı düşüktür.
-
+   
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Veri reyonunu sıfırladığımda, önceden tasarlamış olduğum raporları kaybedecek miyim?
 
 Hayır. Raporlarınız veri reyonu sıfırlanmadan etkilenmeyen SQL tablolarında depolanır. Tasarladığınız raporların kaybedilmesiyle ilgili endişeleriniz varsa, kaybetmek istemediğiniz tasarımları yedekleyebilirsiniz. Tasarımları yedeklemek için, Rapor Tasarımcısı'nı açın ve **Şirket \> Şirketler \> Yapı Taşları \> Dışa aktar**'a gidin.

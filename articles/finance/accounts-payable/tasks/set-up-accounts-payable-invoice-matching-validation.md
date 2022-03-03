@@ -2,23 +2,23 @@
 title: Borç hesapları fatura eşleştirme doğrulaması ayarlama
 description: Bu konu, doğrulama ile ilgili borç hesapları fatura eşleştirmesinin nasıl ayarlanacağı konusunda bilgi sağlar.
 author: abruer
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 017b0197563b9d7fd03f5fc927353be8d16586090f467cff792016431e0fafad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722875"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182567"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Borç hesapları fatura eşleştirme doğrulaması ayarlama
 
@@ -54,7 +54,7 @@ Dört farklı eşleşen doğrulama türü vardır.
 12. **Satınalma fiyatı toplam toleransı** alanına, hesap para birimi cinsinden bir tutar girin. Bu alan yalnızca  **Fiyat toplamlarını eşleştir** alanında **Tutar** veya **Yüzde ve tutar** değeri seçildiğinde kullanılabilir.
 13. **Fiyat görüntüleme toplam eşleşmesi simgesi** alanında, fatura eşleştirmesi için bir tutarsızlık toleransı aşarsa bir simge görüntüleme öğesini seçin. Toleransı aşan uyuşmazlık pozitif olduğunda veya pozitif ya da negatif olduğunda simge görüntülenebilir.
 Örneğin, tolerans yüzde 5 ve satınalma siparişindeki satır toplam fiyatı 10,00 olsun. Bu nedenle, faturadaki satır toplam fiyatı 10,50'i aştığı takdirde bir fiyat eşleşme simgesi görüntülenir. **Büyükse veya düşükse toleransı**'nı seçerseniz simge, fatura tutarının toplam fiyatının 9,50'ten az olması durumunda da görüntülenir.
-13. Gider eşleştirmeyi ayarlayın.
+13. **Gider eşleştirme**'yi ayarlayın.
 14. Gerçek masrafları satınalma siparişi bilgilerine göre beklenen masraflarla eşleştirmek için, **Giderleri eşleştir** onay kutusunu işaretleyin.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Birim fiyat toleransı yüzdeleri ayarlama
@@ -75,7 +75,7 @@ Varsayılan olarak, negatif fiyat uyuşmazlıklarına izin verilir. Ancak, negat
 
 ## <a name="set-up-matching-policy-override"></a>Eşleştirme ilkesini geçersiz kılmayı ayarla
 
-Satın alma siparişi formundaki satırları için eşleştirme ilkesi alanı için varsayılan girişi tanımlamak üzere **Borç hesapları > Kurulum > Fatura eşleştirme kurulumu > Eşleşme ilkesi**'ne gidin. Bu isteğe bağlı bir kurulumdur. Maddeler, satıcılar veya madde ve satıcı birleşimleri için çift-Yön veya üç yönlü eşleştirme ayarlamak üzere bu formu kullanın. Bu girişler, **Borç hesapları parametreleri** sayfasında tanımladığınız yasal varlık eşleştirme ilkesiyle daha fazla parçalı eşleştirme ilkesi tanımlamanızı sağlar. Varsayılan yasal varlık satırı eşleştirme ilkesi, bu sayfada farklı satır eşleştirme ilkesi belirtilmiş olanlar dışındaki tüm madde ve satıcılara uygulanır.
+**Satın alma siparişi** sayfasındaki satırların **Eşleştirme ilkesi** alanı için varsayılan girişi tanımlamak üzere **Borç hesapları > Kurulum > Fatura eşleştirme kurulumu > Eşleşme ilkesi**'ne gidin. Bu isteğe bağlı bir kurulumdur. Maddeler, satıcılar veya madde ve satıcı birleşimleri için çift-Yön veya üç yönlü eşleştirme ayarlamak üzere bu sayfayı kullanın. Bu girişler, **Borç hesapları parametreleri** sayfasında tanımladığınız yasal varlık eşleştirme ilkesiyle daha fazla parçalı eşleştirme ilkesi tanımlamanızı sağlar. Varsayılan yasal varlık satırı eşleştirme ilkesi, bu sayfada farklı satır eşleştirme ilkesi belirtilmiş olanlar dışındaki tüm madde ve satıcılara uygulanır.
 
 Bu sayfada, **Eşleşen ilke düzeyi** ni seçin. Eşleşen politika sıralamasını belirlemek için eşleşen politika hiyerarşisindeki seviyeyi seçin.
 

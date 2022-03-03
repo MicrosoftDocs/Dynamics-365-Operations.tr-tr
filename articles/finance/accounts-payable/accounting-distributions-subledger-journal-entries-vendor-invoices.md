@@ -2,25 +2,25 @@
 title: Satıcı faturaları için muhasebe dağılımları ve defter girişleri
 description: Muhasebe dağılımları, bir tutarın, örneğin giderin, verginin veya masrafların, bir satıcı faturasında nasıl hesaba katılacağını tanımlamak için kullanılır. Satıcı faturası günlüğe kaydedildiğinde hesaba katılması gereken tüm tutarlar, bir veya daha fazla muhasebe dağıtımına sahip olacaktır.
 author: sunfzam
-ms.date: 08/20/2017
+ms.date: 02/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: fecdafe8765121d6d54389a70e6c2e497a03611a
+ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594703"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "8325980"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Satıcı faturaları için muhasebe dağılımları ve defter girişleri
 
@@ -62,7 +62,7 @@ Satıcı faturası girdiğinizde, her tutar aşağıdaki şekilde dağılır.
 <td>Stoğu tutulan ürün</td>
 <td><ol>
 <li>Satınalma emri satırı için muhasebe dağılımı.</li>
-<li>Deftere nakletme sayfasında Ürün için satınalma harcaması seçiliyken Ana muhasebe alanı.</li>
+<li>**Deftere nakletme** sayfasında Ürün için satınalma harcaması seçiliyken **Ana hesap** alanı.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
@@ -73,35 +73,35 @@ Satıcı faturası girdiğinizde, her tutar aşağıdaki şekilde dağılır.
 <td>Bir tedarik kategori veya ürün stoklanmamış</td>
 <td><ol>
 <li>Satınalma emri satırı için muhasebe dağılımı, satıcı faturası satırı bir satınalma emri satırını referans alıyorsa.</li>
-<li>Deftere nakletme sayfasında Harcama için satınalma harcaması seçiliyken Ana muhasebe alanı.</li>
+<li>**Deftere nakletme** sayfasında Harcama için satınalma harcaması seçiliyken **Ana hesap** alanı.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
 <li>Ana hesap bir tahsisat hesabıysa, tahsisat hesap tanımından varsayılan değeri kullanın.</li>
 <li>Satıcı faturası üzerindeki varsayılan mali boyut değerlerini kullanın.</li>
 <li>Satıcı faturası satırından mali boyut değerlerini kullanın.</li>
-<li>Hesap planları sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
+<li>**Hesap planları** sayfasında ana hesabının varsayılan mali boyut değerlerini kullanın.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Sabit kıymet</td>
 <td><ol>
 <li>Satınalma emri satırı için muhasebe dağılımı, satıcı faturası satırı bir satınalma emri satırını referans alıyorsa.</li>
-<li>Satıcı faturası formundaki Hareket türü alanında Alım seçili ise, Sabit kıymet nakil profilleri sayfasında Alım seçiliyken ise Ana muhasebe alanı.</li>
-<li>Satıcı faturası formundaki Hareket türü alanında Alım ayarlama seçili ise, Sabit kıymet nakil profilleri sayfasında Alım seçiliyken ise Ana muhasebe alanı.</li>
+<li>**Satıcı faturası** sayfasındaki **Hareket türü** alanında **Alım** seçili ise, **Sabit kıymet deftere nakil profilleri** sayfasında **Alım** seçiliyken ise **Ana hesap** alanı.</li>
+<li>**Hareket türü** alanında **Alım ayarlaması** seçili ise, **Sabit kıymet deftere nakil profilleri** sayfasında **Alım ayarlaması** seçiliyken **Ana hesap** alanı.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
 <li>Satıcı faturası satırından mali boyut değerlerini kullanın.</li>
-<li>Hesap planları sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
+<li>**Hesap planları** sayfasında ana hesabının varsayılan mali boyut değerlerini kullanın.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Satıcı faturası satırında tanımlı proje</td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımı.</li>
-<li>Proje grupları sayfasındaki Maliyetleri naklet - madde alanında Bakiye seçili ise, Genel muhasebe defterine nakil ayarı sayfasında Maliyet seçiliyken Ana muhasebe alanı.</li>
-<li>Proje grupları sayfasındaki Maliyetleri naklet - madde alanında Kar ve zarar seçili ise, Genel muhasebe defterine nakil ayarı sayfasında Maliyet - madde seçiliyken Ana muhasebe alanı.</li>
+<li>**Proje grupları** sayfasındaki **Maliyetleri naklet - madde** alanında **Bakiye** seçili ise, **Genel muhasebe defterine nakil** ayarı sayfasında **Maliyet** seçiliyken **Ana hesap** alanı.</li>
+<li>**Proje grupları** sayfasındaki **Maliyetleri naklet - madde** alanında **Kar ve zarar** seçili ise **Genel muhasebe defterine nakil ayarı** sayfasında **Maliyet - madde** seçiliyken **Ana hesap** alanı.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
@@ -111,18 +111,18 @@ Satıcı faturası girdiğinizde, her tutar aşağıdaki şekilde dağılır.
 <td>Satır iskontosu</td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımı.</li>
-<li>Nakil sayfasında İskonto seçiliyken Ana hesap alanı.</li>
+<li>**Deftere nakil** sayfasında **İskonto** seçiliyken **Ana hesap** alanı.</li>
 <li>Bir iskonto için deftere nakil profilinde ana muhasebe tanımlı değilse, satınalma emri satırındaki genişletilmiş fiyatın muhasebe dağılımı.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
 <li>Satıcı fatura satırındaki genişletilmiş fiyat için muhasebe dağılımlarından gelen mali boyutları kullanın.</li>
 <li>Satıcı faturası satırı için mali boyut değerlerini kullanın.</li>
-<li>Hesap planları sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
+<li>**Hesap planları** sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Satınalma emri satırının Fiyat ve iskonto sekmesine girilen satınalma masrafı</td>
+<td>Satınalma emri satırının **Fiyat ve iskonto** sekmesine girilen satınalma masrafı</td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımı.</li>
 <li>Satınalma emri satırındaki genişletilmiş fiyatın muhasebe dağılımı.</li>
@@ -136,21 +136,21 @@ Satıcı faturası girdiğinizde, her tutar aşağıdaki şekilde dağılır.
 <td>Satır masrafı</td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımı.</li>
-<li>Masraflar kodu formundaki borç Türü alanında Genel muhasebe seçili ise, Masraflar kodu sayfasındaki borç Hesabı alanı.</li>
-<li>Masraflar kodu formundaki borç Türü alanında Madde seçiliyse, satınalma emri satırındaki genişletilmiş fiyat için muhasebe dağılımı.</li>
-<li>Masraflar kodu formundaki borç Türü alanında Müşteri/Satıcı seçili ise, Masraflar kodu sayfasındaki kredi Hesabı alanı.</li>
+<li>**Masraflar kodu** sayfasındaki **Borç Türü** alanında **Genel muhasebe** seçili **Masraflar kodu** sayfasındaki **Borç Hesabı** alanı.</li>
+<li>**Masraflar kodu** sayfasındaki **Borç Türü** alanında **Madde** seçiliyse satınalma emri satırındaki genişletilmiş fiyat için muhasebe dağılımı.</li>
+<li>**Masraflar kodu** sayfasındaki **Borç Türü** alanında **Müşteri/Satıcı** seçili ise **Masraflar kodu** sayfasındaki **Alacak Hesabı** alanı.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
 <li>Satıcı fatura satırındaki genişletilmiş fiyat için muhasebe dağılımlarından gelen mali boyutları kullanın.</li>
 <li>Satıcı faturası satırından mali boyut değerlerini kullanın.</li>
-<li>Hesap planları sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
+<li>**Hesap planları** sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Aşağıdaki koşulla vergi:
 <ul>
-<li>Genel muhasebe parametreleri sayfasında ABD vergilendirme kurallarını uygula seçeneği seçili.</li>
+<li>**Genel muhasebe parametreleri** sayfasında ABD vergilendirme kurallarını uygula seçeneği seçili.</li>
 </ul></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımı.</li>
@@ -165,61 +165,61 @@ Satıcı faturası girdiğinizde, her tutar aşağıdaki şekilde dağılır.
 <tr class="odd">
 <td>Aşağıdaki koşullarla vergi:
 <ul>
-<li>Genel muhasebe parametreleri sayfasında ABD vergilendirme kurallarını uygula seçeneği seçili değil.</li>
-<li>Satış vergi grupları sayfasında Satış vergi grubu için vergi alanını kullan seçili değil.</li>
+<li>**Genel muhasebe parametreleri** sayfasında ABD vergilendirme kurallarını uygula seçeneği seçili değil.</li>
+<li>**Satış vergi grupları** sayfasında satış vergi grubu için **Kullanım vergisi** alanı seçili değil.</li>
 </ul></td>
 <td><ol>
-<li>Vergi tutarı düşülebilir ise, Genel muhasebe deftere nakil grupları sayfasındaki Satış vergisi alacakları alanı.</li>
+<li>Vergi tutarı düşülebilir ise **Genel muhasebe deftere nakil grupları** sayfasındaki **Satış vergisi alacakları** alanı.</li>
 <li>Vergi tutarı düşülebilir değilse, masraf için genişletilmiş fiyat veya muhasebe dağılımı.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
 <li>Satıcı faturası satırındaki masraf için genişletilmiş fiyat veya muhasebe dağılımlarından gelen mali boyutları kullanın.</li>
 <li>Satıcı faturası satırından mali boyut değerlerini kullanın.</li>
-<li>Hesap planları sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
+<li>**Hesap planları** sayfasında ana hesabının varsayılan mali boyut değerlerini kullanın.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Aşağıdaki koşullarla vergi:
 <ul>
-<li>Genel muhasebe parametreleri sayfasında ABD vergilendirme kurallarını uygula seçeneği seçili değil.</li>
-<li>Satış vergi grupları sayfasında Satış vergi grubu için vergi alanını kullan seçili.</li>
+<li>**Genel muhasebe parametreleri** sayfasında ABD vergilendirme kurallarını uygula seçeneği seçili değil.</li>
+<li>**Satış vergisi grupları** sayfasında satış vergisi grubu için **Kullanım vergisi** alanı seçili.</li>
 </ul></td>
 <td><ol>
-<li>Vergi tutarı düşülebilir ise, Genel muhasebe deftere nakil grupları sayfasındaki Satış vergisi alacakları alanı.</li>
-<li>Vergi tutarı düşülebilir değilse, Genel muhasebe deftere nakil grupları sayfasındaki Kullanım vergisi gideri alanı.</li>
+<li>Vergi tutarı düşülebilir ise **Genel muhasebe deftere nakil grupları** sayfasındaki **Satış vergisi alacakları** alanı.</li>
+<li>Vergi tutarı düşülebilir değilse **Genel muhasebe deftere nakil grupları** sayfasındaki **Kullanım vergisi gideri** alanı.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
 <li>Satıcı faturası satırındaki masraf için genişletilmiş fiyat veya muhasebe dağılımlarından gelen mali boyutları kullanın.</li>
 <li>Satıcı faturası satırından mali boyut değerlerini kullanın.</li>
-<li>Hesap planları sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
+<li>**Hesap planları** sayfasında ana hesabının varsayılan mali boyut değerlerini kullanın.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Masraf başlığı</td>
 <td><ol>
-<li>Masraflar kodu formundaki borç Türü alanında Genel muhasebe seçili ise, Masraflar kodu sayfasındaki borç Hesabı alanı.</li>
-<li>Masraflar kodu formundaki borç Türü alanında Müşteri/Satıcı seçili ise, Masraflar kodu sayfasındaki kredi Hesabı alanı.</li>
+<li>**Masraflar kodu** sayfasındaki **Borç Türü** alanında **Genel muhasebe** seçili ise **Masraflar kodu** sayfasındaki **Borç Hesabı** alanı.</li>
+<li>**Masraflar kodu** sayfasındaki **Borç Türü** alanında **Müşteri/Satıcı** seçili ise **Masraflar kodu** sayfasındaki **Alacak Hesabı** alanı.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
 <li>Ana hesap bir tahsisat hesabıysa, tahsisat hesap tanımından varsayılan değeri kullanın.</li>
 <li>Satıcı faturası başlığından gelen mali boyut varsayılan şablon değerlerini kullanın.</li>
 <li>Satıcı faturası satırından mali boyut değerlerini kullanın.</li>
-<li>Hesap planları sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
+<li>**Hesap planları** sayfasında ana hesabının varsayılan mali boyut değerlerini kullanın.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Başlık iskontosu</td>
 <td><ol>
-<li>Otomatik hareketler sayfasındaki Hesaplar içindeki Satıcı faturası iskontosu deftere nakil türü için Ana muhasebe alanı.</li>
+<li>**Otomatik hareketler için hesaplar** sayfasındaki **Satıcı faturası iskonto deftere nakil türü** için **Ana hesap**.</li>
 </ol></td>
 <td><ol>
 <li>Fatura satırı bir satınalma emri satırını referans alıyorsa, satınalma emri satırı için muhasebe dağılımını kullanın.</li>
 <li>Satıcı fatura satırındaki genişletilmiş fiyat için muhasebe dağılımlarından gelen mali boyutları kullanın.</li>
 <li>Satıcı faturası satırından mali boyut değerlerini kullanın.</li>
-<li>Hesap planları sayfasındaki ana muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</li>
+<li>**Hesap planları** sayfasında ana hesabının varsayılan mali boyut değerlerini kullanın.</li>
 </ol></td>
 </tr>
 </tbody>

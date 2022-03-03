@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921227"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323422"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredi yönetimi parametreleri kurulumu
 
@@ -50,7 +50,8 @@ Ayrıca, kredi kuralları yeniden denetlenmeden önceki mehil gün sayısını d
 
 Mehil gün sayısını belirlemezseniz, kredi yönetimi kurallarını çalıştırmak üzere ayarlanmış her deftere nakil adımında kredi kuralları denetlenir. Satış siparişini deftere nakletmeden serbest bırakırsanız ve aynı sipariş işleme adımını yeniden çalıştırırsanız, kredi kuralları yine denetlenir. Örneğin bir sipariş bir onaydan sonra beklemeye alınıyor ve bu siparişi deftere naklederek ya da nakletmeden serbest bırakıyorsunuz. Bu durumda, siparişi yeniden onaylarsanız sipariş yine beklemeye alınır. Siparişin bir sonraki işleme adımına yeniden bekletilmeksizin devam ettirilmesi gerekiyorsa mehil gün sayısını kullanın.
 
-Bazı deftere nakil denetim noktaları için mehil gün sayısı belirtebilirken, bazıları için belirtemezsiniz. Tüm deftere nakil denetim noktalarını mehil gün sayısı içerecek şekilde veya hiç mehil gün sayısı olmayacak şekilde ayarlamanız gerekir.
+> [!Note]
+> Bir deftere nakil denetim noktası için girilşmiş mehil gün sayısı varsa, deftere nakil için işaretlenen tüm kontrol noktalarının mehil günleri olması gerekir.
 
 - Satırda gösterilen deftere nakil denetim noktası çalıştırıldığında kredi yönetimi kurallarını çalıştırmak için **Deftere nakil** onay kutusunu işaretleyin. Onay kutusunu işaretlemezseniz, tüm deftere nakil sürecinde kurallar yalnızca bir kez denetlenir.
 - **Deftere nakil** onay kutusunu işaretlerseniz, durdurma kuralları denetlenmeden önce geçilmesi gereken mehil gün sayısını belirtin. **Deftere nakil** onay kutusu işaretsizse mehil gün sayısı ekleyemezsiniz.

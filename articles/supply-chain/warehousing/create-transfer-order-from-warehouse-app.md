@@ -1,47 +1,39 @@
 ---
 title: Ambar uygulamasından transfer emirleri oluşturma
-description: Bu konu, ambar uygulaması özelliğinden transfer emirlerinin nasıl oluşturulacağını ve işleneceğini açıklamaktadır
+description: Bu konu, Ambar Yönetimi mobil uygulaması özelliğinden transfer emirlerinin nasıl oluşturulacağını ve işleneceğini açıklamaktadır
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c30b0e74053480a08f84f4d7579021084ded5799
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439081"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102950"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Ambar uygulamasından transfer emirleri oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu özellik, ambar çalışanlarının doğrudan ambar uygulamasından transfer emirleri oluşturmasına ve işlemesine olanak tanır. Ambar çalışanları, hedef ambarı seçerek başlar ve sonra transfer emrine plakalar eklemek için uygulamayı kullanarak bir veya daha fazla plaka tarayabilir. Ambar çalışanı **Siparişi tamamla**'yı seçtiğinde, bir toplu iş bu plakalar için kaydedilen eldeki stoğu temel alan gerekli transfer emri ve sipariş satırlarını oluşturur.
+Bu özellik, ambar çalışanlarının doğrudan Ambar Yönetimi mobil uygulamasından transfer emirleri oluşturmasına ve işlemesine olanak tanır. Çalışan hedef ambarı seçerek başlar ve sonra transfer emrine plakalar eklemek için uygulamayı kullanarak bir veya daha fazla plaka tarayabilir. Ambar çalışanı **Siparişi tamamla**'yı seçtiğinde, bir toplu iş bu plakalar için kaydedilen eldeki stoğu temel alan gerekli transfer emri ve sipariş satırlarını oluşturur.
 
-## <a name="enable-the-create-transfer-orders-from-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Ambar uygulaması özelliğinden transfer emirleri oluşturmayı etkinleştirme
+## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Bu özelliği açma veya kapatma
 
 Bu özelliği kullanabilmeniz için, özelliği ve önkoşullarını sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir.
 
-1. Öncelikle [Ambar uygulaması olaylarını işle](warehouse-app-events.md) özelliğini etkinleştirin; bu, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) şu şekilde listelenir:
-    - **Modül** - Ambar yönetimi
-    - **Özellik adı** - Ambarı uygulaması olaylarını işle
-1. Daha sonra şu şekilde listelenen *Ambar uygulamasından transfer emirleri oluştur* özelliğini etkinleştirin:
-    - **Modül** - Ambar yönetimi
-    - **Özellik adı** - Ambar uygulamasından transfer emirleri oluşturma ve etkinleştirme
-1. Giden sevkiyatların işlenmesini otomatikleştirmek için, [Giden sevkiyatları toplu işlerden onayla](confirm-outbound-shipments-from-batch-jobs.md) özelliğini de etkinleştirmeniz gerekir. Bu özellik şu şekilde listelenmiştir:
-    - **Modül** - Ambar yönetimi
-    - **Özellik adı** - Toplu işlerden giden sevkiyatları onaylama
+1. [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında aşağıdaki iki özelliği (sırayla) etkinleştirin. Supply Chain Management sürüm 10.0.25 itibarıyla her iki özellik de varsayılan olarak açıktır.
+    1. *Ambar uygulaması olaylarını işle*
+    1. *Transfer emirlerini ambar uygulamasından oluştur ve işle*
+1. Giden sevkiyatların işlenmesini otomatikleştirmek için, [Giden sevkiyatları toplu işlerden onayla](confirm-outbound-shipments-from-batch-jobs.md) özelliğini de etkinleştirmeniz gerekir.
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Transfer emirleri oluşturmak için bir mobil cihaz menü öğesi ayarlama
 
@@ -51,8 +43,8 @@ Burada, transfer emri oluşturmak üzere bir mobil cihaz menü öğesi ayarlamak
 1. Yeni bir menü öğesi eklemek için **Yeni**'yi seçin. Başlamak için aşağıdaki ayarları yapın:
 
     - **Menü öğesi adı** - Supply Chain Management'ta görünmesi gereken şekilde bir ad atayın.
-    - **Başlık** - Ambar uygulamasında çalışanlara sunulması gereken şekilde bir menü adı atayın.
-    - **Mod** - *Dolaylı* olarak ayarlayın (bu ambar uygulaması iş oluşturmaz).
+    - **Başlık**: Ambar Yönetimi mobil uygulamasında çalışanlara sunulması gereken şekilde bir menü adı atayın.
+    - **Mod**: *Dolaylı* olarak ayarlayın (bu menü öğesi iş oluşturmaz).
     - **Faaliyet kodu** - Ambar çalışanlarının bir veya daha fazla taranmış plakaya dayalı bir transfer emri oluşturmasını sağlamak için *Plakalardan transfer emri oluştur* olarak ayarlayın.
 
 1. Transfer emri satırlarının bu menü maddesi tarafından nasıl oluşturulacağını kontrol etmek için **Transfer emri satırı oluşturma ilkesi** ayarını kullanın. Bu satırlar, taranan plakalar için kaydedilen eldeki stoka göre oluşturulur/güncelleştirilir. Aşağıdaki değerlerden birini seçin:
@@ -75,7 +67,7 @@ Burada, transfer emri oluşturmak üzere bir mobil cihaz menü öğesi ayarlamak
 
 ## <a name="create-a-transfer-order-based-on-license-plates"></a>Plakalara dayalı bir transfer emri oluşturma
 
-Ambar uygulamasında plakalara dayalı transfer emirleri oluşturmak için basit bir işlem bulunur. Bunu yapmak için, çalışan ambar uygulamasını kullanarak aşağıdakileri yapar:
+Ambar Yönetimi mobil uygulamasında plakalara dayalı transfer emirleri oluşturmak için basit bir işlem bulunur. Bunu yapmak için, çalışan Ambar Yönetimi mobil uygulamasını kullanarak aşağıdakileri yapar:
 
 1. Transfer emrini oluşturun ve hedef ambarı tanımlayın.
 1. Sevk edilecek her plakayı tanımlayın.
@@ -98,7 +90,7 @@ Mobil cihaz menü öğelerinde transfer emri oluşturmayı ayarlamaya ek olarak 
 
 Her biri ambarlarınızın birindeki (*Ambar 51*) belirli bir konuma yerleştirilen maddelerin karışımını içeren birden çok plakanız var. Çalışanların taranmış plakaların bir koleksiyonu için başka bir ambara (*Ambar 61*) transfer emri oluşturmasına izin veren işlemi etkinleştirmek istiyorsunuz. Sipariş için en son plaka tanımlandıktan sonra, transfer emrini otomatik olarak sevk edip güncelleştireceksiniz.
 
-![Otomatik transfer emri işlemi örneği](media/create-transfer-order-from-app-example.png "Otomatik transfer emri işlemi örneği")
+![Otomatik transfer emri işlemi örneği.](media/create-transfer-order-from-app-example.png "Otomatik transfer emri işlemi örneği")
 
 ### <a name="create-a-mobile-device-menu-item-for-creating-transfer-orders"></a>Transfer emirleri oluşturmak için bir mobil cihaz menü öğesi oluşturma
 
@@ -259,9 +251,9 @@ Belirtilen örnek için, iki **Ambar uygulaması olayı** (*Transfer emri oluşt
 
 ### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Ambar uygulaması olaylarını sorgulama
 
-Ambar uygulaması tarafından oluşturulan olay kuyruğunu ve olay iletilerini **Ambar yönetimi \> Sorgular ve raporlar \> Mobil cihaz günlükleri \> Ambar uygulaması olayları**'na giderek görüntüleyebilirsiniz.
+Ambar Yönetimi mobil uygulaması tarafından oluşturulan olay kuyruğunu ve olay iletilerini **Ambar yönetimi \> Sorgular ve raporlar \> Mobil cihaz günlükleri \> Ambar uygulaması olayları**'na giderek görüntüleyebilirsiniz.
 
-*Transfer siparişi oluştur* olay iletileri *Bekleme* durumunu alacaktır, bu da **Ambar uygulaması olaylarını işle** toplu işinin olay iletilerini almayacağı ve işlemeyeceği anlamına gelir. Olay iletisi *Kuyruğa alındı* durumuna güncellendiğinde toplu iş olayları işler. Bu, *Transfer emrini tamamla* olayının oluşturulmasıyla (bir çalışan ambar uygulamasında **Siparişi tamamla** düğmesini seçtiğinde) aynı anda gerçekleşir. *Transfer emri oluştur* olay iletileri işlendiğinde durum *Tamamlandı* veya *Başarısız* olarak güncelleştirilir. *Transfer emrini tamamla* durumu *Tamamlandı* olarak güncelleştirildiğinde, ilgili tüm olaylar kuyruktan silinir.
+*Transfer siparişi oluştur* olay iletileri *Bekleme* durumunu alacaktır, bu da **Ambar uygulaması olaylarını işle** toplu işinin olay iletilerini almayacağı ve işlemeyeceği anlamına gelir. Olay iletisi *Kuyruğa alındı* durumuna güncellendiğinde toplu iş olayları işler. Bu, *Transfer emrini tamamla* olayının oluşturulmasıyla (bir çalışan Ambar Yönetimi mobil uygulamasında **Siparişi tamamla** düğmesini seçtiğinde) aynı anda gerçekleşir. *Transfer emri oluştur* olay iletileri işlendiğinde durum *Tamamlandı* veya *Başarısız* olarak güncelleştirilir. *Transfer emrini tamamla* durumu *Tamamlandı* olarak güncelleştirildiğinde, ilgili tüm olaylar kuyruktan silinir.
 
 İletiler **Kuyruğa alındı** durumuna güncelleştirilmeden önce transfer emri verilerinin oluşturulmasıyla ilgili *Ambar uygulaması olayları* toplu iş tarafından işlenmeyeceğinden, **Tanımlayıcı** alanının bir bölümü olarak istenen transfer emri numaralarına bakmanız gerekecektir. **Tanımlayıcı** alanı, **Ambar uygulaması olayları** sayfasının başlığında yer alır.
 
@@ -277,11 +269,11 @@ Daha fazla bilgi için bkz. [Ambar uygulaması olayı işleme](warehouse-app-eve
 
 Bu senaryo sırasında, aşağıdakiler meydana geldi:
 
-1. Ambar uygulamasını kullanarak, **Plakalardan transfer emri oluştur** faaliyet kodunu kullanan bir menü öğesi seçtiniz.
+1. Ambar Yönetimi mobil uygulamasını kullanarak, **Plakalardan transfer emri oluştur** faaliyet kodunu kullanan bir menü öğesi seçtiniz.
 1. Uygulama, transfer emri için hedef ambarı seçmenizi istedi. Kaynak ambar her zaman Çalışan olarak oturum açmış olduğunuz geçerli ambardır.
 1. Hedef ambar seçiminde sistem yaklaşan transfer emri için bir kod numarası rezerve etti (sisteminizde tanımlanan transfer emri numara sırasını temel alarak) ancak transfer emrini henüz oluşturmadı.
 1. Yeni ambara taşınması gereken eldeki stoğu içeren plaka olan *LP10*'u taradığınızda,daha sonra işlenecek olaylar kuyruğuna bir **Ambar uygulaması olayı** eklendi. Ambar olayı, tasarlanan transfer emri numarası dahil olmak üzere taramayla ilgili ileti ayrıntılarını içeriyordu.
-1. Ambar uygulamasında, **Siparişi tamamla** düğmesi seçildiğinde yeni bir ambar uygulama olayı, **Transfer emrini tamamla** oluşturulur ve ilgili mevcut olay, **Transfer emri oluştur** durumu **Kuyruğa alındı**  olarak değişir.
+1. Ambar Yönetimi mobil uygulamasında, **Siparişi tamamla** düğmesi seçildiğinde yeni bir ambar uygulama olayı, **Transfer emrini tamamla** oluşturulur ve ilgili mevcut olay, **Transfer emri oluştur** durumu **Kuyruğa alındı** olarak değişir.
 1. Arka uçta, **Ambar uygulaması olaylarını işle toplu işi** **Kuyruğa alındı** olayını aldı ve taranmış plakayla ilgili eldeki stoğu topladı. Eldeki stoğa göre, gerçek transfer emri kaydı ile ilişkili satırlar oluşturuldu. İş aynı zamanda transfer emri için **Giden sevkiyat ilkesi** alanını yapılandırılan *Serbest bırakma ve sevkiyat onayı*'nı temel alan değerle doldurdu ve  plakayı **Plaka yönlendirmeli** strateji için satırlara göre doldurdu.
 1. Transfer emri satırına dayalı olarak **Giden sevkiyat ilkesi** alan değeri **Transfer emirleri toplu işini otomatik serbest bırakma** sorgusu transfer emrinin sevkiyat ambarına serbest bırakılmasıyla sonuçlandı. Kullanılan **Dalga şablonu**, **İş şablonu** ve **Konum yönergelerinin** kurulumu nedeniyle, işin aldığı otomatik işleme **Yük durumu** *Yüklendi* olarak güncelleştirildi.
 1. **Giden sevkiyat toplu işini işle** yük için yürütülür ve sevk edilen transfer emri ve Ön Sevkiyat Bildirimi (ÖSB) oluşturulur.
@@ -295,13 +287,13 @@ Bu senaryo sırasında, aşağıdakiler meydana geldi:
 
 *Ambar uygulamasından transfer emirleri oluştur* özelliğinin etkinleştirilmesi gerekir. Daha fazla bilgi için, bkz. [Ambar uygulamasından transfer emri oluşturmayı etkinleştirme](#enable-create-transfer-order-from-warehouse-app).
 
-### <a name="warehouse-app-processes"></a>Ambar uygulaması işlemleri
+### <a name="warehouse-management-mobile-app-processes"></a>Ambar Yönetimi mobil uygulaması işlemleri
 
 #### <a name="why-cant-i-see-the-menu-button-complete-order"></a>"Siparişi tamamla" menü düğmesini niçin göremiyorum?
 
 Transfer emrine atanmış en az bir plaka olması gerekir.
 
-#### <a name="can-several-warehouse-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Birçok ambar uygulaması kullanıcısı aynı anda aynı transfer emrine plaka ekleyebilir mi?
+#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Birçok Ambar Yönetimi mobil uygulaması kullanıcısı aynı anda aynı transfer emrine plaka ekleyebilir mi?
 
 Evet, birçok ambar çalışanı aynı transfer emrine plaka tarayabilir.
 
@@ -313,11 +305,11 @@ Hayır, plaka bir kerede yalnızca bir transfer emrine eklenebilir.
 
 Hayır, **Transfer emrini tamamla** ambar uygulaması olayına sahip bir transfer emrine daha fazla plaka ekleyemezsiniz .
 
-#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Sipariş henüz arka uç sisteminde oluşturulmadıysa, ambar uygulamasında "Transfer emri seç" düğmesiyle kullanılacak mevcut transfer emirlerini nasıl bulabilirim?
+#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Sipariş henüz arka uç sisteminde oluşturulmadıysa, Ambar Yönetimi mobil uygulamasında "Transfer emri seç" düğmesiyle kullanılacak mevcut transfer emirlerini nasıl bulabilirim?
 
 Şu anda uygulamada transfer emirleri üzerinde arama yapamazsınız ancak **Ambar uygulama olayları** sayfasında transfer emri numaralarını bulabilirsiniz. Daha fazla bilgi için bkz. [Ambar uygulaması olaylarını sorgulama](#inquire-the-warehouse-app-events).
 
-#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-app"></a>Ambar uygulamasıdan kullanılacak transfer emri numarasını el ile seçebilir miyim?
+#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasıdan kullanılacak transfer emri numarasını el ile seçebilir miyim?
 
 Yalnızca numara serileri ile otomatik olarak oluşturulan transfer emri numaraları desteklenir.
 
@@ -333,4 +325,6 @@ Transfer emirleri **Teslimat tarihi denetimi** özellikleri kullanılmadan oluş
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Eldeki fiziksel stoğu negatif olan bir plaka kullanabilir miyim?
 
-Özellik yalnızca pozitif fiziksel elde stok miktarlarını destekler. Bir transfer emrine plaka atamadan önce ambar ve stok durumu düzeyinde pozitif fiziksel eldeki miktarlara sahip olduğunuzdan emin olun.
+Özellik, lisans plakası düzeyinde yalnızca pozitif fiziksel eldeki miktarları destekler ancak transfer emirlerine lisans plakaları atarken, yüksek ambar ve stok durumu düzeylerinde fiziksel negatif eldeki miktarlarınız olabilir.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

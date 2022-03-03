@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7471848"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103650"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Mühendislik ürünleri için çeşitler oluşturma
 
@@ -23,15 +23,9 @@ ms.locfileid: "7471848"
 
 Bu konuda, mühendislik ürünleri için çeşitlerin nasıl oluşturulacağı açıklanmaktadır.
 
-## <a name="turn-on-variant-generation-for-engineering-products"></a>Mühendislik ürünleri için çeşit oluşturmayı etkinleştirme
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Mühendislik ürünleri için varyant oluşturma özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Mühendislik değişim yönetimi*
-- **Özellik adı:** *Mühendislik ürünleri için çeşit oluşturma*
-
-> [!IMPORTANT]
-> *Mühendislik ürünleri için çeşit oluşturma* özelliği, yalnızca *Mühendislik Değişim Yönetimi* yapılandırma anahtarını etkinleştirdikten sonra sisteminizde görünür olur. Yönergeler için bkz. [Mühendislik değişikliğine genel bakış](product-engineering-overview.md).
+Bu konuda açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Mühendislik ürünleri için varyant oluşturma* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Mühendislik ürününün bir veya daha fazla yeni çeşidini oluşturma
 

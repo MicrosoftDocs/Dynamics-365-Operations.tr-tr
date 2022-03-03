@@ -2,31 +2,31 @@
 title: Fatura eşleştirme ve şirketlerarası satınalma siparişleri
 description: Bir şirketlerarası ticaret hareketinde yer alan satın alma tüzel kişiliği, borç hesapları fatura eşleştirmesini kullanacak şekilde ayarlanabilir. Bu durumda, şirketlerarası satıcı faturalarının deftere nakledilebilmesi için, hem şirketlerarası ticaret için, hem de borç hesapları fatura eşleştirmesi için deftere nakil gereksinimleri karşılanmalıdır.
 author: abruer
-ms.date: 10/26/2017
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afa7021278d5dc8ba307ae1cf72504d08660f7ce34dea86ce2e8ca2a709366b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737394"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109980"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Fatura eşleştirme ve şirketlerarası satınalma siparişleri
 
 [!include [banner](../includes/banner.md)]
 
-Bir şirketlerarası ticaret hareketinde yer alan satın alma tüzel kişiliği, borç hesapları fatura eşleştirmesini kullanacak şekilde ayarlanabilir. **Borç hesapları parametreleri** formundaki **Uyuşmazlıkları olan faturayı deftere naklet** alanı **Onay gerektir** olarak ayarlandığında fatura eşleştirme doğrulaması gerçekleştirilir. Bu durumda, şirketlerarası satıcı faturalarının deftere nakledilebilmesi için, hem şirketlerarası ticaret için, hem de borç hesapları fatura eşleştirmesi için deftere nakil gereksinimleri karşılanmalıdır.
+Bir şirketlerarası ticaret hareketinde yer alan satın alma tüzel kişiliği, borç hesapları fatura eşleştirmesini kullanacak şekilde ayarlanabilir. **Borç hesapları parametreleri** sayfasındaki **Uyuşmazlıkları olan faturayı deftere naklet** alanı **Onay gerektir** olarak ayarlandığında fatura eşleştirme doğrulaması gerçekleştirilir. Bu durumda, şirketlerarası satıcı faturalarının deftere nakledilebilmesi için, hem şirketlerarası ticaret için, hem de borç hesapları fatura eşleştirmesi için deftere nakil gereksinimleri karşılanmalıdır.
 
 Bu başlıktaki örnekler aşağıdaki şirketlerarası ticaret ayarlarını kullanır:
 -   Fabrikam Satınalma, satınalma yapan yasal varlıktır.
@@ -37,24 +37,24 @@ Bu başlıktaki örnekler aşağıdaki şirketlerarası ticaret ayarlarını kul
 -   Fabrikam Satış, müşteri 4020 için şirketlerarası bilgiler belirtilir. Fabrikam Satınalma, satıcı şirketi olarak belirtilir ve satıcı 3024, Fabrikam Satınalma tüzel varlığa karşılık gelen satıcı hesabı olarak belirtilir.
 
 Örnekler Fabrikam Satınalma için aşağıdaki borçlar hesabı fatura eşleştirme ayarlarını kullanır:
--   Borç hesapları parametreleri sayfasında, fatura eşleşmesi doğrulama seçeneğini etkinleştirin.
--   Borç hesapları parametreleri sayfasında, Uyuşmazlıkları olan faturayı deftere naklet alanı Onay gerektiriyor seçeneğine ayarlanır.
+-   **Borç hesapları parametreleri** sayfasında, **Fatura eşleştirme doğrulamasını etkinleştir** seçeneğini seçilir.
+-   **Borç hesapları parametreleri** sayfasında, **Uyuşmazlıkları olan faturayı deftere naklet** alanı **Onay gerektiriyor** seçeneğine ayarlanır.
 -   Tüzel kişilik için fiyat tolerans oranı yüzde 2'dir.
 
 ## <a name="example-price-matching-and-intercompany-trade"></a> Örnek: Fiyat eşleme ve şirketlerarası ticaret
 Şirketlerarası satıcısı faturası ve şirketlerarası müşteri siparişi faturasının net tutarları eşit olmalıdır. Bu zorunluluk, uygulanan tüm fatura eşleştirme onaylarını veya fiyat toleransı yüzdelerini geçersiz kılar. Örneğin, aşağıdaki adımları izleyin.
 1.  Fabrikam Satınalma'da müşteri 4020 için SO888 satış siparişini oluşturun. Şirketlerarası satınalma siparişi ICPO222, satıcı 3024 için Fabrikam Satınalma'da otomatik olarak oluşturulur ve satış siparişi ICSO888 Fabrikam Satışlar'da otomatik olarak oluşturulur.
 2.  Maddelerin alındığını Fabrikam Satışlar'da kaydedin ve bir sevk irsaliyesini deftere nakledin. ICSO888'in durumu Teslim Edildi olarak değişir. ICPO222'nin durumu Alındı olarak değişir.
-3.  Fabrikam Satışlar'da ICSO888 için bir fatura güncelleştirmesi gerçekleştirin. Birim fiyat 0,45 olur ve 100 madde güncelleştirilir.
+3.  Fabrikam Satış'ta ICSO888 için bir faturayı güncelleştirin. Birim fiyat 0,45 olur ve 100 madde güncelleştirilir.
 4.  Fabrikam Satınalma'da ICPO222 için bir fatura oluşturun. Net fiyatı yanlışlıkla 45,00'ten 54,00'e değiştirin. Fiyatın, izin verilen yüzde 2'lik fiyat toleransını aştığını belirtmek üzere bir simge görüntülenir.
-5.  Fatura eşleme ayrıntıları sayfasında, farklılıklarıyla deftere nakletmeye izin verecek seçeneği işaretleyin. Satıcı fatura sayfasında Tamam'ı tıklatın. Eğer satıcı faturası şirketlerarası satıcı faturası değilse, nakletme başarılı olur. Ancak, bir şirketlerarası satıcı faturası ile çalıştığınız için, deftere nakil başarısız olur. Şirketlerarası ticaret için şirketlerarası satış siparişindeki fatura toplamları ilgili şirketlerarası satınalma siparişi fatura toplamları ile eşit miktarda olmalıdır. Bu sorunu gidermek için faturadaki net fiyatı, tekrar varsayılan tutar olan 45,00'e değiştirmeniz gerekir.
+5.  **Fatura eşleme ayrıntıları** sayfasında, farklılıklarıyla deftere nakletmeye izin verecek seçeneği işaretleyin. **Satıcı faturası** sayfasında **Tamam**'a tıklayın. Eğer satıcı faturası şirketlerarası satıcı faturası değilse, nakletme başarılı olur. Ancak, bir şirketlerarası satıcı faturası ile çalıştığınız için, deftere nakil başarısız olur. Şirketlerarası ticaret için şirketlerarası satış siparişindeki fatura toplamları ilgili şirketlerarası satınalma siparişi fatura toplamları ile eşit miktarda olmalıdır. Bu sorunu gidermek için faturadaki net fiyatı, tekrar varsayılan tutar olan 45,00'e değiştirmeniz gerekir.
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a> Örnek: Şirketlerarası ticaretle miktar eşleştirme
 Şirketlerarası satınalma siparişi ve şirketlerarası satış siparişi üzerindeki miktarlar eşit olmalıdır. Bu zorunluluk, tüm uygulanan fatura eşleştirme onaylarını geçersiz kılar. Bu örnek şirketlerarası ticaret için aşağıdaki ek ayarı kullanır:
 -   Fabrikam Satınalma'da, satıcı 3024 için satınalma siparişi eylem ilkesi, hem müşteri faturasını hem de şirketlerarası satıcı faturasını otomatik olarak deftere nakledecek şekilde ayarlanır.
 
 Bu örnek Fabrikam Satınalma borç hesapları fatura eşleştirme için aşağıdaki ek ayarları kullanır:
--   Madde B-R14 tarafından kullanılan model grubu için madde model grupları sayfasında Alım gereksinimleri seçeneği işaretlidir.
+-   Madde B-R14 tarafından kullanılan model grubu için **Madde model grupları** sayfasında **Alma gereksinimleri** seçeneği işaretlidir.
 -   Madde B-R14 için eldeki miktar 0'dır (sıfır).
 
 Örneğin, aşağıdaki adımları izleyin.

@@ -2,7 +2,7 @@
 title: Yevmiye defteri satırlarında satış vergisi hesaplaması
 description: Bu konu, yevmiye defteri satırlarında farklı hesap türleri (satıcı, müşteri, genel muhasebe ve proje) için satış vergilerinin nasıl hesaplandığını açıklamaktadır.
 author: EricWangChen
-ms.date: 04/22/2021
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 684b38a4940ff00978201334d1db0cef87b79b35
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488323"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311966"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Yevmiye defteri satırlarında satış vergisi hesaplaması
 [!include [banner](../includes/banner.md)]
@@ -77,19 +77,9 @@ Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
 
 ### <a name="account-type-is-customer"></a>Hesap türü Müşteri'dir
 
-Bir fişte hesap türü **Müşteri** olan bir günlük satırı varsa, fişteki tüm günlük satırları aynı vergi yönünü uygular. Aşağıdaki noktalar, müşteri hesapları için olası vergi yönlerini gösterir.
+Bir fişte hesap türü **Müşteri** olan bir günlük satırı varsa, fişteki tüm günlük satırları aynı vergi yönünü uygular. 
 
-•   Satış vergisi kodu vergiden muaf ise, satış vergisi yönü Vergiden Muaf Satınalma'dır.
-
-•   Satış vergisi kodu intracom KDV'siyse, satış vergisi yönü Satış Vergisi Alacağı'dır.
-
-•   Satış vergisi kodu ters gider ise, satış vergisi yönü Satış Vergisi Alacağı'dır.
-
-Aksi takdirde, satış vergisi yönü Satış Vergisi Borcu olur.
-
-Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
-
-![Müşteri hesapları için vergi yönü olasılıkları.](media/Sales-Tax-Direction-Customer.jpg)
+Satış vergisi kodu vergiden muaf ise, satış vergisi yönü Vergiden Muaf Satış'tır. Aksi takdirde, satış vergisi yönü Satış Vergisi Borcu olur.
 
 ### <a name="account-type-is-ledger"></a>Hesap türü Genel Muhasebe'dir
 

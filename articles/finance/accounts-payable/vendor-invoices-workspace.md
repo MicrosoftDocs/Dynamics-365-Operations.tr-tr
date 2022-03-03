@@ -2,24 +2,24 @@
 title: Satıcı fatura otomasyonu çalışma alanı
 description: Bu konu, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanacağını ve Microsoft Power BI üzerinden kullanılabilen bilgileri gösterir.
 author: abruer
-ms.date: 09/28/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dde77a19fae9af8f40af8b14259a29db80f4a80cf8be75233a463d6fec2dac46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722731"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182591"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Satıcı fatura otomasyonu çalışma alanı
 
@@ -60,14 +60,14 @@ Bu konu, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanaca�
 
 **Çalışmam** görünümünün **bekleyen faturalar özetindeki** kutucuklar satıcı faturanız durumunun genel görünümünü verir. Henüz deftere nakledilmemiş günlükleri ve beklemedeki faturaları görebilirsiniz. Ayrıca, satıcı fatura Otomasyonu özelliğiyle ilişkili dört kutucuk vardır:
 
-- El ile giriş eşleştirme gerekli
-- Başarısız eşleştirme doğrulaması
-- İş akışına gönderilmeyen faturalar
-- İçeri aktarılmayan faturalar
+- **El ile giriş eşleştirme gerekli**
+- **Başarısız eşleştirme doğrulaması**
+- **İş akışına gönderilmeyen faturalar**
+- **İçeri aktarılmayan faturalar**
 
-(Bu dört kutucuk, satıcı fatura Otomasyonu özelliğinin özellik yönetiminde açık olmasını gerektirir.)
+(Bu dört kutucuk, Satıcı fatura otomasyonu özelliğinin **Özellik yönetiminde** açık olmasını gerektirir.)
 
-**Satıcı faturalarını kurtar** kutucuğunu kullanmak için, bu özelliğin borç hesapları parametrelerinde açık olması gerekir. **Borç hesapları \> borç hesapları parametrelerine** gidin ve **Fatura** sekmesinde, **satıcı faturası kurtarmaya izin ver** seçeneğini **Evet** olarak ayarlayın.
+**Satıcı faturalarını kurtar** kutucuğunu kullanmak için, bu özelliğin **Borç hesapları parametrelerinde** açık olması gerekir. **Borç hesapları \> borç hesapları parametrelerine** gidin ve **Fatura** sekmesinde, **satıcı faturası kurtarmaya izin ver** seçeneğini **Evet** olarak ayarlayın.
 
 Özellik açık olduğunda, **günlük** adlı bir bölümde ayrıca çalışma alanında gruplandırılmış üç kutucuk görürsünüz. Kutucuklar, **Günlükler**, **Günlükler - Bana atananlar** ve **Fatura havuzu** olarak adlandırılmıştır. 
 

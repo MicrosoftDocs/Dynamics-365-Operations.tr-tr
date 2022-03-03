@@ -2,11 +2,9 @@
 title: Konum yönergeleriyle çalışma
 description: Bu konu, konum yönergeleriyle nasıl çalışılacağını açıklamaktadır. Yerleşim yönergeleri stok hareketi için çekme ve yerine koyma yerleşimlerini belirlemeye yardımcı olan kullanıcı tanımlı kurallardır.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963322"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103150"
 ---
 # <a name="work-with-location-directives"></a>Konum yönergeleriyle çalışma
 
@@ -46,14 +44,14 @@ Bir yerleşim yönergesi oluşturmadan önce, önkoşulların karşılandığın
 1. **Ambar yönetimi \> Kurulum \> Ambar  \> Ambarlar**'a gidin.
 1. Ambar oluşturun.
 1. **Ambar** hızlı sekmesinde **Ambar yönetimi işlemlerini kullan** seçeneğini *Evet* olarak ayarlayın.
-1. Yerleşimler, yerleşim türleri, yerleşim profilleri ve yerleşim biçimleri oluşturun. Daha fazla bilgi için bkz. [WMS özellikli ambarda yerleşimler yapılandırma](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Tesisler, bölgeler ve bölge grupları oluşturun. Daha fazla bilgi için bkz. [Ambar kurulumu](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) ve [WMS özellikli ambarda yerleşimler yapılandırma](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Yerleşimler, yerleşim türleri, yerleşim profilleri ve yerleşim biçimleri oluşturun. Daha fazla bilgi için bkz. [WMS özellikli ambarda yerleşimler yapılandırma](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Tesisler, bölgeler ve bölge grupları oluşturun. Daha fazla bilgi için bkz. [Ambar kurulumu](../../commerce/channels-setup-warehouse.md) ve [WMS özellikli ambarda yerleşimler yapılandırma](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Konum yönergeleri için iş emri türleri
 
 Konum yönergeleri için ayarlanabilecek alanların çoğu tüm çalışma emri türleri için ortaktır. Ancak, diğer alanlar belirli iş emri türlerine özgüdür.
 
-![Konum yönergeleri iş emri türleri](media/Location_Directives_Work_Order_Types.png "Konum yönergeleri iş emri türleri")
+![Konum yönergeleri iş emri türleri.](media/Location_Directives_Work_Order_Types.png "Konum yönergeleri iş emri türleri")
 
 > [!NOTE]
 > *İptal edilen iş* ve *Döngü sayımı* olmak üzere iki iş emri türü yalnızca sistem tarafından kullanılır. Bu iş emri türleri için konum yönergeleri oluşturulamaz.
@@ -145,14 +143,14 @@ Konum yönergesi başlığı, sıra numarası ve konum yönergesinin tanımlayı
 - **Yönerge kodu**: Bir iş şablonu veya stok yenileme şablonu için yönerge kodunu seçin. **Yönerge kodu** sayfasında, iş şablonlarını veya stok yenileme şablonlarını yerleşim yönergelerine bağlamak için kullanılabilecek yeni kodlar oluşturabilirsiniz. Yönerge kodları ayrıca, herhangi bir iş şablonu satırı ve konum yönergesi (bölme kapısı veya hazırlama konumu gibi) arasındaki bağlantıyı oluşturmak için de kullanılabilir.
 
     > [!TIP]
-    > Yönerge kodu ayarlanırsa, iş oluşturulması gerektiğinde sistem, arama yönergelerini sıra numarasına göre aramaz. Bunun yerine, yönerge koduna göre arama yapılır. Bu şekilde, iş şablonundaki (örneğin malzemelerin hazırlanması gibi) belirli bir adım için hangi yerleşim şablonunun kullanılabileceği konusunda daha spesifik olabilirsiniz.
+    > Yönerge kodu ayarlanırsa, iş oluşturulması gerektiğinde sistem, arama yönergelerini sıra numarasına göre aramaz. Bunun yerine, yönerge koduna göre arama yapılır. Bu şekilde, iş şablonundaki (örneğin malzemelerin hazırlanması gibi) belirli bir adım için hangi konum yönergesinin kullanılabileceği konusunda daha spesifik olabilirsiniz.
 
 - **Birden çok SKU**: Bir konumda birden fazla stok tutma birimini (SKU) etkinleştirmek için bu seçeneği *Evet* olarak ayarlayın. Örneğin, bölme kapısı konumu için birden çok SKU etkinleştirilmiş olmalıdır. Birden çok SKU'yu etkinleştirirseniz yerine koyma konumunuz beklendiği gibi çalışma sırasında belirtilir. Ancak, yerine koyma konumu yalnızca çoklu madde yerine koymayı işleyebilir (iş, çekilmesi ve yerine koyulması gereken farklı SKU'lar içeriyorsa). Tek bir SKU yerine koymayı işleyemez. Bu seçeneği *Hayır* olarak ayarlarsanız, yerine koyma konumunuz, yerine koyma işleminde yalnızca bir çeşit SKU varsa belirtilir.
 
     > [!IMPORTANT]
     > Hem çoklu madde, hem de tekli SKU yerine koyma yapabilmek için aynı yapıya ve kuruluma sahip iki satır belirtmeniz gerekir ancak **Birden fazla SKU** seçeneğini bir satır için *Evet* ve diğeri için *Hayır* olarak ayarlamalısınız. Bu nedenle, yerine koyma işlemleri için iki eş konum yönergesine ihtiyacınız vardır, iş kimliğinde tekli SKU veya çoklu SKU arasında ayrım yapmıyorsanız bile. Genellikle, bu konum yönergelerinin her ikisini birden ayarlamadıysanız, uygulanan Konum yönergesinden beklenmeyen iş süreci konumları gelecektir. Çoklu SKU'ları içeren siparişleri işleyebilmeniz gerekiyorsa *malzeme çekme* **İş türü** olan konum yönergeleri için benzer bir kurulum kullanmalısınız.
 
-    Birden fazla madde numarası işleyen iş satırları için **Çoklu SKU** seçeneğini kullanın. (Madde numarası iş ayrıntılarında boş olacak ve ambar uygulamasındaki işleme sayfalarında **Çoklu** şeklinde gösterilecektir.)
+    Birden fazla madde numarası işleyen iş satırları için **Çoklu SKU** seçeneğini kullanın. (Madde numarası iş ayrıntılarında boş olacak ve Ambar Yönetimi mobil uygulamasındaki işleme sayfalarında **Çoklu** şeklinde gösterilecektir.)
 
     Tipik bir örnek senaryoda, bir iş şablonu birden fazla malzeme çekme/yerine koyma çifti içerecek şekilde ayarlanır. Bu durumda, **İş türü** *Yerine Koyma* olan satırlarda kullanılmak üzere belirli bir hazırlama konumunu aramak isteyebilirsiniz.
 
@@ -166,12 +164,12 @@ Konum yönergesi başlığı, sıra numarası ve konum yönergesinin tanımlayı
     > [!NOTE]
     > Bu alan yalnızca stok yenilemeye izin verilen seçili iş emri türleri için kullanılabilir. Listenin tamamı için bu konunun önceki bölümlerindeki [İş emri türlerine özel olan alanlar](#fields-specific-types) kısmına bakın.
 
-- **Bulma ölçütü**: Yerine koyma miktarının plakadaki miktarın tamamı mı yoksa maddeye göre mi olacağını belirtin. Bir plakadaki tüm içeriğin bir konuma yerleştirilmesini ve sistemin içeriği **ANS** (plaka teslim alma), **Karma plaka** teslim alma ve **Küme** teslim alma işlemleri için çeşitli konumlara bölmenizi önermemesini sağlamak için bu alanı kullanın. (Bu **Küme** teslim alma işlemi, *Küme yerine koyma özelliği*'nin açık olmasını gerektiriyor.) Konum yönergesi sorgusunun, satırların ve konum yönergesi eylemlerinin davranışı seçtiğiniz değere göre değişir. **Satırlar** hızlı sekmesi yalnızca, **Bulma ölçütü** *Madde* olarak ayarlandığında kullanılır.
+- **Bulma ölçütü**: Yerine koyma miktarının plakadaki miktarın tamamı mı yoksa maddeye göre mi olacağını belirtin. Bir plakadaki tüm içeriğin bir konuma yerleştirilmesini ve sistemin içeriği **ANS** (plaka teslim alma), **Karma plaka** teslim alma ve **Küme** teslim alma işlemleri için çeşitli konumlara bölmenizi önermemesini sağlamak için bu alanı kullanın. (Bu **Küme** teslim alma işlemi, [Küme yerine koyma özelliği](putaway-clusters.md)'nin açık olmasını gerektiriyor.) Konum yönergesi sorgusunun, satırların ve konum yönergesi eylemlerinin davranışı seçtiğiniz değere göre değişir. **Satırlar** hızlı sekmesi yalnızca, **Bulma ölçütü** *Madde* olarak ayarlandığında kullanılır.
 
     > [!NOTE]
     > Bu alan yalnızca stok yenilemeye izin verilen seçili iş emri türleri için kullanılabilir. Listenin tamamı için [İş emri türlerine özel olan alanlar](#fields-specific-types) kısmına bakın.
 
-- **Değerlendirme kodu**: Bu alan, iş emri türü *Satın alma siparişleri*, *Bitmiş mal yerine koyma* veya *İade siparişleri* olan ve iş türü *Yerine koyma* olan iş emri türüne sahip konum yönergeleri için kullanılır. Ambar uygulamasında bir çalışanın seçtiği değerlendirme koduna bağlı olarak, akışta belirli bir konum yönergesini kullanmasını gösteren bir yol göstermesi için bunu kullanın. Örneğin, stoğa iade etmeden önce iade edilen malları bir denetleme konumuna yönlendirebilirsiniz. Bir değerlendirme kodu stok durumuna bağlanabilir. Bu şekilde, teslim alma sürecinin bir parçası olarak stok durumunu değiştirmek için kullanılabilir. Örneğin, stok durumunu *QA* olarak ayarlayan *QA* adlı bir değerlendirme kodunuz vardır. Daha sonra, bu stoğu karantina konumuna taşımak için ayrı bir konum yönergesine sahip olabilirsiniz.
+- **Değerlendirme kodu**: Bu alan, iş emri türü *Satın alma siparişleri*, *Bitmiş mal yerine koyma* veya *İade siparişleri* olan ve iş türü *Yerine koyma* olan iş emri türüne sahip konum yönergeleri için kullanılır. Ambar Yönetimi mobil uygulamasında bir çalışanın seçtiği değerlendirme koduna bağlı olarak, akışta belirli bir konum yönergesini kullanmasını gösteren bir yol göstermesi için bunu kullanın. Örneğin, stoğa iade etmeden önce iade edilen malları bir denetleme konumuna yönlendirebilirsiniz. Bir değerlendirme kodu stok durumuna bağlanabilir. Bu şekilde, teslim alma sürecinin bir parçası olarak stok durumunu değiştirmek için kullanılabilir. Örneğin, stok durumunu *QA* olarak ayarlayan *QA* adlı bir değerlendirme kodunuz vardır. Daha sonra, bu stoğu karantina konumuna taşımak için ayrı bir konum yönergesine sahip olabilirsiniz.
 
     > [!NOTE]
     > Bu alan yalnızca stok yenilemeye izin verilen seçili iş emri türleri için kullanılabilir. Listenin tamamı için [İş emri türlerine özel olan alanlar](#fields-specific-types) kısmına bakın.
@@ -239,7 +237,7 @@ Her satır için birden fazla konum yönergesi eylemi tanımlayabilirsiniz. Bir 
     - **Tam LP ve FEFO toplu işine yukarı yuvarla**: Bu strateji, *FEFO toplu iş rezervasyonu* ile *Tam LP'ye yukarı yuvarla* stratejilerinin öğelerini içerir. Yalnızca toplu iş için etkin maddeler ve iş türü *Çekme* olan konum yönergeleri için geçerlidir. Satır, *FEFO toplu iş rezervasyonu* stratejisini kullanmak için toplu olarak etkinleştirilmiş olmalıdır ve *Tam LP'ye yukarı yuvarla* stratejisi yalnızca stok yenileme için kullanılabilir. Bu strateji stoklama limiti ile birlikte yapılandırılırsa seçili koyma işi konumunun aşırı yüklenmesine ve stoklama limitlerinin yoksayılmasına neden olabilir.
     - **Tam LP'ye yuvarla** - Bu strateji stok miktarını, çekilecek maddelere atanan plaka (LP) miktarıyla eşleşecek şekilde yuvarlamak için kullanılır. Bu stratejiyi yalnızca *Çekme* türündeki stok yenileme konum yönergeleri için kullanabilirsiniz. Bu strateji stoklama limiti ile birlikte yapılandırılırsa seçili koyma işi konumunun aşırı yüklenmesine ve stoklama limitlerinin yoksayılmasına neden olabilir.
     - **Plaka rehberli**: Çekme ve koyma işlerini oluşturmak için siparişi ambara serbest bıraktığınızda bu stratejiyi kullanın. Çoklu plakalar için bu yaklaşımı kullanabilirsiniz. Bu strateji, transfer emri satırlarıyla ilişkilendirilmiş olan istenen plakaları tutan konumlara göre ayırma ve çekme işi oluşturmayı dener. Ancak, bu eylemler tamamlanamadığı halde malzeme çekme işi oluşturmak istiyorsanız konum yönergesi eylemleri için başka bir stratejiye geri dönmelisiniz. İş süreci gereksinimlerinize bağlı olarak, ambarın başka bir alanında stok aramak da isteyebilirsiniz.
-    - **Gelen iş olmadan boş yerleşim**- Bu stratejiyi boş yerleşimleri bulmak için kullanın. Fiziksel stoğu yoksa ve gelen iş beklenmiyorsa yerleşim boş olarak değerlendirilir. Bu stratejiyi yalnızca *Çekme* iş türüne sahip konum yönergeleri için kullanabilirsiniz.
+    - **Gelen iş olmadan boş yerleşim**- Bu stratejiyi boş yerleşimleri bulmak için kullanın. Fiziksel stoğu yoksa ve gelen iş beklenmiyorsa yerleşim boş olarak değerlendirilir. Bu stratejiyi yalnızca *Yerine Koyma* iş türüne sahip konum yönergeleri için kullanabilirsiniz.
     - **Konum yaşlandırma FIFO**: Hem toplu olarak izlenen maddeleri, hem de toplu olarak izlenmeyen maddeleri sevk etmek için stoğun ambara girdiği tarihi temel alan İlk giren ilk çıkar (FIFO) stratejisini kullanabilirsiniz. Bu yetenek özellikle, tasnif için bitiş tarihi bulunmayan, toplu olarak izlenmeyen stok için yararlı olabilir. FIFO stratejisi, en eski yaşlandırma tarihini içeren konumu bulur ve ardından bu yaşlandırma tarihine göre malzeme çekme işlemini tahsis eder.
     - **Konum yaşlandırma LIFO**: Hem toplu olarak izlenen maddeleri, hem de toplu olarak izlenmeyen maddeleri sevk etmek için stoğun ambara girdiği tarihi temel alan Son giren son çıkar (LIFO) stratejisini kullanabilirsiniz. Bu yetenek özellikle, tasnif için bitiş tarihi bulunmayan, toplu olarak izlenmeyen stok için yararlı olabilir. LIFO stratejisi, en yeni yaşlandırma tarihini içeren konumu bulur ve ardından bu yaşlandırma tarihine göre malzeme çekme işlemini tahsis eder.
 
@@ -251,9 +249,12 @@ Bu senaryo için iki konum yönergesi eylemi tanımlamanız gerek. Sıradaki ilk
 
 ## <a name="next-step"></a>Sonraki adım
 
-Yerleşim yönergeleri oluşturduktan sonra, her yönerge kodunu iş oluşturma için bir iş şablonu koduyla ilişkilendirebilirsiniz. Daha fazla bilgi için bkz. [İş şablonları ve yerleşim yönergeleri kullanarak ambar işini denetleme](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Yerleşim yönergeleri oluşturduktan sonra, her yönerge kodunu iş oluşturma için bir iş şablonu koduyla ilişkilendirebilirsiniz. Daha fazla bilgi için bkz. [İş şablonları ve yerleşim yönergeleri kullanarak ambar işini denetleme](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - Video: [Ambar yönetimi yapılandırmasının ayrıntıları](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Yardım konusu: [İş şablonları ve konum yönergeleri ile ambar işini denetleme](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,25 @@
 title: Satıcı fatura tarihleri
 description: Bu konu, satıcı faturalarında görünen tarihleri açıklar. Ayrıca sistemin deftere nakil tarihini otomatik olarak ayarlaması amacıyla nasıl ayarlanacağını da açıklar.
 author: sunfzam
-ms.date: 08/30/2021
+ms.date: 2/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: a066f828b47f297b8ad520b9eb0f4f311d49b111
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647916"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105476"
 ---
 # <a name="vendor-invoice-dates"></a>Satıcı fatura tarihleri
 
@@ -50,6 +50,9 @@ Sistemin, satıcı faturalarının deftere nakil tarihini otomatik olarak ayarla
     - **Deftere nakil tarihini her zaman sistem tarihine değiştir** – Sistem deftere nakil sırasında deftere nakil tarihini sistem tarihine otomatik olarak değiştirir.
     - **Deftere nakil tarihi kapalı veya beklemedeyse deftere nakil tarihini sistem tarihi olarak değiştir** – Sistem, deftere nakil sırasında deftere nakil tarihini sistem tarihine dönüştürür, ancak bu deftere nakil tarihi için ilgili dönemin **Kapalı** veya **Beklemede** durumunda olması gereklidir.
     - **Deftere nakil tarihi kapalı veya beklemedeyse deftere nakil tarihini dönemin ilk günü olarak değiştir** – Sistem, deftere nakil sırasında deftere nakil tarihini yeni açık dönemin ilk gününe dönüştürür, ancak bu deftere nakil tarihi için ilgili dönemin **Kapalı** veya **Beklemede** durumunda olması gereklidir.
+
+> [!NOTE]
+> Otomatik olarak düzeltilen yeni deftere nakil tarihi yeni bir mali yıldaysa, faturanın deftere nakil tarihi güncelleştirilmez. Kullanıcı "Mali yıl değişti. Lütfen deftere nakil tarihini denetleyip yeniden girin." hatası alır Deftere nakil için fatura deftere nakil tarihi yeni mali yıl tarihi olarak güncelleştirilmelidir.
 
 ## <a name="impact-of-posting-date-changes"></a>Deftere nakil tarihi değişikliklerinin etkisi
 

@@ -1,8 +1,8 @@
 ---
 title: B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
-description: Bu konuda, yöneticilerin işletmeden işletmeye (B2B) e-ticaret web sitelerinde iş ortağı kullanıcıları ekleme, düzenleme ve silme yöntemleri açıklanmaktadır.
+description: Bu konuda, Microsoft Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web sitelerinde ve Commerce Headquarters'ta iş ortağı kullanıcılarını ekleme, silme ve düzenleme işlemleri açıklanmaktadır.
 author: josaw1
-ms.date: 10/26/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,72 +14,56 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713705"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323467"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, yöneticilerin işletmeden işletmeye (B2B) e-ticaret web sitelerinde iş ortağı kullanıcıları ekleme, düzenleme ve silme yöntemleri açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web sitelerinde ve Commerce Headquarters'ta iş ortağı kullanıcılarını ekleme, silme ve düzenleme işlemleri açıklanmaktadır.
 
-B2B e-ticaret web siteleri kuruluşların iş ortakları olarak kaydolmasını gerektirir. Bir kuruluş, bir B2B e-ticaret web sitesine kayıt ayrıntılarını gönderdikten sonra, bir uygunluk işleminden geçer. Kuruluş başarıyla uygun bulunursa bir iş ortağı olarak eklenir.
+> [!NOTE]
+> [Müşteri hiyerarşilerini kullanarak B2B iş ortaklarını yönetme](partners-customer-hierarchies.md) konusu bu belge için bir ön koşuldur. 
+
+B2B e-ticaret web siteleri kuruluşların iş ortakları olarak kaydolmasını gerektirir. Bir kuruluş, bir B2B e-ticaret web sitesine kayıt ayrıntılarını gönderdikten sonra, kayıt isteği bir uygunluk işleminden geçer. Kuruluş başarıyla uygun bulunursa bir iş ortağı olarak eklenir.
 
 Bir kuruluş iş ortağı olarak eklendikten sonra, iş ortağı olma isteğini başlatan kuruluş kullanıcısı yönetici kullanıcı olarak tanımlanır ve B2B e-ticaret web sitesinin ek yetkili kullanıcılarını ekleme ayrıcalığı verilir. Bu yetkili kullanıcılar daha sonra işletme iş ortakları adına sipariş verebilir.
 
-## <a name="turn-on-the-b2b-e-commerce-capabilities-feature-in-commerce-headquarters"></a>Commerce Headquarters'da B2B e-ticaret yetenekleri özelliğini açma
-
-Commerce Headquarters'da B2B e-ticaret yetenekleri özelliği, kuruluşların iş ortaklarını eklemesine ve yönetici kullanıcıları tanımlamasına olanak tanır. Bu özellik yöneticilerin iş ortağı kullanıcıları ve ekipleri oluşturmasına ve yönetmesine ve onlara belirli roller atamasına da olanak tanır. Son olarak, iş ortağı kullanıcılarının sipariş şablonları oluşturmasına ve ürünleri yeniden sipariş etmek için mevcut siparişleri kullanmasına olanak tanır.
-
-Commerce Headquarters'da B2B e-ticaret yetenekleri özelliğini açmak için şu adımları izleyin.
-
-1. **Çalışma alanları \> Özellik yönetimi**'ne gidin.
-1. **Tümü** sekmesinde, **Perakende ve ticaret** terimini kullanarak **Modül** alanına filtre uygulayın.
-1. **B2B e-ticaret özelliklerinin kullanımını etkinleştir** adlı özelliği bulup seçin ve ardından **Şimdi etkinleştir**'i seçin.
-
-## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Numara serisi oluşturma ve Commerce paylaşılan parametrelerine ekleme
-
-Numara serileri, ana veri kayıtları ve tanımlayıcı gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Numara serileri hakkında daha fazla bilgi için bkz. [Numara serilerine genel bakış](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
-
-Bir numara serisi oluşturmak ve bunu Commerce Headquarters'da Commerce paylaşılan parametrelerine eklemek için şu adımları izleyin.
-
-1. **Perakende ve Ticaret \> Headquarters kurulumu \> Numara serileri \> Numara serileri**'ne gidin ve bir numara serisi oluşturun.
-1. **Perakende ve Ticaret \> Headquarters kurulumu \> Parametreler \> Commerce paylaşılan parametreleri**'ne gidin ve yeni numara serisini **Müşteri hiyerarşi kimliği** başvurusuna ekleyin.
-
 ## <a name="set-up-the-administrator-user-for-a-new-business-partner"></a>Yeni bir iş ortağı için yönetici kullanıcıyı ayarlama
 
-Potansiyel iş ortakları, sitedeki bir bağlantı aracılığıyla bir ekleme isteği göndererek B2B e-ticaret web sitesine ekleme işlemini başlatabilir. Potansiyel bir iş ortağı kullanıcısı bağlantıyı seçtikten sonra, ekleme ve kaydolma için gereken ayrıntıları sağlayabilir. İstek gönderildikten sonra bir gönderim onay sayfası görüntülenir. Gönderim onaylanırsa istek sahibi (yani, ekleme isteğini başlatan kullanıcı) iş ortağı yöneticisi kullanıcı olur.
+Potansiyel iş ortakları, B2B sitesindeki bir bağlantı aracılığıyla bir ekleme isteği göndererek B2B e-ticaret web sitesine ekleme işlemini başlatabilir. Daha sonra, ekleme ve kaydolma için gerekli ayrıntıları sağlamak amacıyla özelleştirilebilir formu kullanabilirler. İstek gönderildikten sonra bir gönderim onay sayfası görüntülenir. Gönderim onaylanırsa isteğin onun adına gönderilidği şirket iş ortağı olur ve istekte bulunan kişi (yani ekleme isteğini başlatan kullanıcı) iş ortağı için yönetici kullanıcı olur.
 
-Commerce Headquarters'da bir iş ortağı yöneticisi kullanıcısını onaylamak ve ayarlamak için şu adımları izleyin.
+Commerce Headquarters'da iş ortağı isteğini onaylamak için şu adımları izleyin.
 
 1. **Perakende ve Ticaret IT \> Dağıtım planı**'na gidin.
 1. Tüm iş ortağı ekleme isteklerini Commerce Headquarters'a çekmek için **P-0001** işini çalıştırın.
-1. **P-0001** işi başarıyla çalıştırıldıktan sonra, **Perakende ve Ticaret BT \> Müşteri**'ye gidin ve **Zaman uyumsuz moddan müşterileri ve iş ortaklarını eşitle** işini çalıştırın. Bu iş başarıyla çalıştırıldıktan sonra, ekleme istekleri Commerce Headquarters'da potansiyel müşteri kayıtları olarak oluşturulur. Bu kayıtların **Tür Kimliği** alanı **B2B müşteri adayı** olarak ayarlanır.
-1. **Müşteriler \> Tüm potansiyel müşteriler**'e gidin ve potansiyel müşteriler sayfasını açın.
-1. Aday müşteri ayrıntıları sayfasını açmak için yeni iş ortağının aday müşteri kaydını seçin.
-1. Ekleme isteğini onaylamak veya reddetmek için **Genel** sekmesinde, **Dönüştür \> Onayla/Reddet**'i seçin. Bir onay iletisi görüntülendiğinde, işleme devam etmek istediğinizi onaylayın ve isteği onaylayın. Daha sonra, kuruluşlarının iş ortağı olarak onaylandığını doğrulamak için istekte bulunan kişinin e-posta adresine bir e-posta gönderilir.
+1. **P-0001** işi başarıyla çalıştırıldıktan sonra, **Perakende ve Ticaret BT \> Müşteri**'ye gidin ve **Müşterileri ve kanal isteklerini eşitle** işini çalıştırın. Bu iş başarıyla çalıştırıldıktan sonra, ekleme istekleri Commerce Headquarters'da **B2B aday müşterisi** türünde aday müşteri kayıtları olarak oluşturulur. 
+1. **Müşteriler \> Tüm aday müşteriler**'e gidin ve aday müşteri ayrıntıları sayfasını açmak için yeni iş ortağının aday müşteri kaydını seçin.
+1. Ekleme isteğini onaylamak için **Genel** sekmesinde, **Dönüştür \> Onayla/Reddet**'i seçin. Bir onay iletisi görüntülendiğinde, işleme devam etmek istediğinizi onaylayın ve isteği onaylayın. Onay, aday müşteri kaydının **Durum** alanını **Onaylandı** olarak değiştirir. Daha sonra, kuruluşlarının iş ortağı olarak onaylandığını doğrulamak için istekte bulunan kişinin e-posta adresine bir e-posta gönderilir. Talep eden kişinin iş ortağı için bir yönetici olarak eklendiği bir müşteri hiyerarşisi de oluşturulur.
 
-    İsteği onayladıktan sonra, aday müşteri kaydının **Durum** alanı **Onaylandı** olarak ayarlanır. Ayrıca, sistemde iki yeni müşteri kaydı oluşturulur: iş ortağı kuruluşu için **Tür Kuruluş** müşteri kaydı ve istekte bulunan kişi için bir **Tür Kişi** müşteri kaydı. İş ortağı için bir müşteri hiyerarşi kaydı da oluşturulur. <!--(Please refer to the Org modeling of B2B customer section in this document for more information)-->
+    > [!NOTE]
+    > Şu an için, onay e-postası hemen onay sırasında gönderilir. Ancak, gelecekteki Commerce işlevi yöneticinin e-postaları el ile tetiklemesini sağlayacaktır.
 
-1. **Perakende ve Ticaret IT \> Dağıtım planı**'na gidin ve yeni oluşturulan müşteri ve müşteri hiyerarşisi kayıtlarını kanal veritabanına göndermek için **1010** (**Müşteriler**) işini çalıştırın.
+1. **Retail ve Commerce BT \> Dağıtım zamanlaması**'na gidin ve yeni müşteri ve müşteri hiyerarşisi kayıtlarını kanal veritabanına göndermek için **1010 (Müşteriler)** işini çalıştırın.
 
-İstek onaylandıktan ve müşteri ile müşteri hiyerarşisi kayıtları kanal veritabanıyla eşitlendikten sonra, istekte bulunan kişi, isteği gönderdiğinde sağladığı e-posta adresini kullanarak B2B e-ticaret web sitesinde oturum açabilir. Kullanıcılar, hesaplarının parolasını tanımlamak için kayıt akışını kullanabilir. Kimlik sağlayıcı (Azure AD B2C) kaydının kayıt veya oturum açma sırasında oluşturulan B2B müşteri kaydına bağlanmasını sağlamak için [Kimlik kayıtlarının müşteri hesaplarına otomatik olarak bağlanmasını etkinleştirme](../identity-record-linking.md) başlıklı makaledeki yönergeleri izleyin.
+> [!NOTE]
+> Yeni müşteri kayıtlarının kanal veritabanına gönderildiğinden emin olmak için, müşteriyle ilişkilendirilmiş adres defterlerinden en az birinin, çevrimiçi mağazayla ilişkilendirilmiş müşteri adres defterine eklenmesi gerekir. Bu işlemi çevrimiçi mağazanın varsayılan müşterisindeki adres defterini yapılandırarak otomatikleştirebilirsiniz böylece sistem adres defteri değerini her yeni müşteriye kopyalar.
+
+Müşteri hiyerarşisi kayıtları kanal veritabanıyla eşitlendikten sonra, istekte bulunan kişi, ekleme isteğini gönderdiğinde sağladığı e-posta adresini kullanarak B2B e-ticaret web sitesinde oturum açabilir. Kullanıcılar, hesaplarının parolasını tanımlamak için kayıt akışını kullanabilir. Azure Active Directory (Azure AD) B2C kimlik sağlayıcısı kaydının Aday müşteri onayında oluşturulan B2B müşteri kaydıyla bağlantılı hale getirilmesini sağlama hakkında daha fazla bilgi için bkz. [Otomatik bağlamayı etkinleştirme](../identity-record-linking.md).
 
 ## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>B2B adaylarınız onaylandıklarında veya reddedildiğinde bildirilir
 
-Bir B2B aday müşteri ekleme isteğini onayladığınızda veya reddettiğinizde, müşteri adayına otomatik olarak bir e-posta bildirimi gönderebilirsiniz. 
+Bir B2B aday müşteri ekleme isteğini onayladığınızda veya reddettiğinizde, aday müşteriye otomatik olarak bir e-posta bildirimi gönderilebilir.
 
-Commerce Headquarters'da B2B aday müşteri onaylı veya B2B aday müşteri bildirimi türü olayları için e-posta bildirimleri ayarlamak üzere aşağıdaki adımları izleyin.
+Commerce Headquarters'da **B2B aday müşterisi onaylandı** veya **B2B aday müşterisi reddedildi** bildirimi türü olayları için e-posta bildirimleri ayarlamak üzere aşağıdaki adımları izleyin.
 
-1. B2B aday müşteri onaylandığında veya B2B aday müşteri reddedildiğinde bildirim türü tetiklendiğinde aday postalara gönderilecek e-postalar için e-posta şablonları oluşturun.
-
-    B2B aday müşteri tarafından onaylanan yer tutucular ve aday müşteri adayı reddedilen bildirim türleri desteği hakkında bilgi için, bkz. [Bildirim türleri](../email-templates-transactions.md#notification-types). E-posta şablonları oluşturma hakkında bilgi için bkz. [E-posta şablonu oluşturma](../email-templates-transactions.md#create-an-email-template). 
-
-1. E-posta bildirim profilinize B2B aday müşteri adayı onaylı ve B2B aday müşteri adayı bildirim türlerini ekleyin ve bunları oluşturduğunuz e-posta şablonlarıyla eşleyin. E-posta bildirim profilleri hakkında daha fazla bilgi için, bkz. [E-posta bildirim profili kurulumu](../email-notification-profiles.md). 
+1. **B2B aday müşterisi onaylandı** veya **B2B aday müşterisi reddedildi** bildirim türü tetiklendiğinde aday müşterilere gönderilecek e-postalar için e-posta şablonları oluşturun. Bu bildirim türlerinin desteklediği yer tutucular hakkında bilgi için bkz. [Bildirim türleri](../email-templates-transactions.md#notification-types). E-posta şablonları oluşturma hakkında bilgi için bkz. [E-posta şablonu oluşturma](../email-templates-transactions.md#create-an-email-template).
+1. E-posta bildirim profilinize **B2B aday müşterisi onaylandı** ve **B2B aday müşterisi reddedildi** bildirim türlerini ekleyin ve bunları oluşturduğunuz e-posta şablonlarıyla eşleyin. E-posta bildirim profilleri hakkında daha fazla bilgi için, bkz. [E-posta bildirim profili kurulumu](../email-notification-profiles.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Ek iş ortağı kullanıcıları ekleme
 
@@ -91,50 +75,53 @@ B2B e-ticaret web sitesine ek iş ortağı kullanıcıları eklemek için şu ad
 1. **Hesabım \> Kuruluş kullanıcıları \> Ayrıntıları görüntüle**'ye gidin ve **Kullanıcı ekle**'yi seçin.
 1. Gerekli bilgileri girin ve ardından **Kaydet**'i seçin. Yeni kullanıcı durumu **Beklemede** olarak ayarlanır.
 
-    **P-0001** ve **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle**  işleri çalıştırıldıktan sonra, Commerce Headquarters'da yeni kullanıcı için **Tür Kişi** müşteri kaydı oluşturulur. Bu müşteri kaydı, ilgili iş ortağının müşteri hiyerarşisi kaydıyla da ilişkilidir. Ayrıca, yeni kullanıcının e-posta adresine, iş ortağı kuruluşunun kullanıcısı olarak eklendiklerini ve artık B2B e-ticaret web sitesinde oturum açabileceklerini bildiren bir e-posta gönderilir.
+**P-0001** ve **Müşterileri ve kanal isteklerini eşitle**  işleri çalıştırıldıktan sonra, Commerce Headquarters'da yeni kullanıcı için **Kişi** türünde müşteri kaydı oluşturulur. Bu müşteri kaydı, ilgili iş ortağının müşteri hiyerarşisi kaydıyla da ilişkilidir. Ayrıca, yeni kullanıcının e-posta adresine, iş ortağı kuruluşunun kullanıcısı olarak eklendiklerini ve artık B2B e-ticaret web sitesinde oturum açabileceklerini bildiren bir e-posta gönderilir.
 
-1. Yeni iş ortağı kullanıcısını kanal veritabanıyla eşitlemek için **1010** (**Müşteriler**) işini çalıştırın.
+Sonra, yeni iş ortağı kullanıcısını kanal veritabanıyla eşitlemek için **1010 (Müşteriler)** işini çalıştırın.
 
-Müşteri kaydı eşitlendikten sonra, B2B e-ticaret web sitesinde kullanıcının durumu **Etkin** olarak ayarlanır ve yeni kullanıcı, e-posta adresini kullanarak B2B e-ticaret web sitesinde oturum açabilir. Kullanıcılar, hesaplarının parolasını tanımlamak için kayıt akışını kullanabilir. Kimlik sağlayıcı (Azure AD B2C) kaydının kayıt veya oturum açma sırasında oluşturulan B2B müşteri kaydına bağlanmasını sağlamak için [Kimlik kayıtlarının müşteri hesaplarına otomatik olarak bağlanmasını etkinleştirme](../identity-record-linking.md) başlıklı makaledeki yönergeleri izleyin.
+Müşteri kaydı eşitlendikten sonra, B2B e-ticaret web sitesinde kullanıcının durumu **Etkin** olarak ayarlanır ve yeni kullanıcı, e-posta adresini kullanarak B2B e-ticaret web sitesinde oturum açabilir. Kullanıcılar, hesaplarının parolasını tanımlamak için kayıt akışını kullanabilir. Azure AD B2C kimlik sağlayıcısı kaydının Commerce headquarters'da oluşturulan B2B müşteri kaydıyla bağlantılı hale getirilmesini sağlama hakkında daha fazla bilgi için bkz. [Otomatik bağlamayı etkinleştirme](/dynamics365/commerce/identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>İş ortağı kullanıcı ayrıntılarını düzenleme
 
 İş ortağı kullanıcılarının ayrıntılarını düzenlemek için şu adımları izleyin.
 
 1. B2B e-ticaret web sitesinde yönetici olarak oturum açın.
-1. **Hesabım \> Kuruluş kullanıcıları \> Ayrıntıları görüntüle**'ye gidin, **Düzenle** düğmesini (kalem simgesi) seçin, gerekli değişiklikleri yapın ve **Kaydet**'i seçin. Değişiklikler yalnızca **P-0001**, **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** ve **1010** (**Müşteriler**) işleri çalıştırıldıktan sonra geçerli olur.
+1. **Hesabım \> Kuruluş kullanıcıları \> Ayrıntıları görüntüle**'ye gidin, **Düzenle** düğmesini (kalem simgesi) seçin, gerekli değişiklikleri yapın ve **Kaydet**'i seçin. Değişiklikler yalnızca **P-0001**, **Müşterileri ve kanal isteklerini eşitle** ve **1010 (Müşteriler)** işleri çalıştırıldıktan sonra geçerli olur.
 
 ## <a name="remove-a-business-partner-user"></a>Bir iş ortağı kullanıcısını kaldırma
 
 Gerektiğinde, bir yönetici bir iş ortağı kuruluşunun mevcut kullanıcılarını B2B e-ticaret web sitesine erişebilen kullanıcılar listesinden kaldırabilir.
-
 İş ortağı kullanıcısını kaldırmak için şu adımları izleyin.
-
-1. B2B e-ticaret web sitesinde yönetici olarak oturum açın.
-1. **Hesabım \> Kuruluş kullanıcıları \> Ayrıntıları görüntüle**'ye gidin ve **Kaldır** düğmesini ("X" simgesi) seçin. Bir onay iletisi görüntülendiğinde, kullanıcıyı kaldırmak istediğinizi onaylayın. Değişiklikler yalnızca **P-0001**, **Müşterileri ve iş ortaklarını zaman uyumsuz moddan eşitle** ve **1010** (**Müşteriler**) işleri çalıştırıldıktan sonra geçerli olur.
+- B2B e-ticaret web sitesinde yönetici olarak oturum açın.
+- **Hesabım > Kuruluş kullanıcıları \> Ayrıntıları görüntüle**'ye gidin ve **Kaldır** düğmesini ("X" simgesi) seçin. Bir onay iletisi görüntülendiğinde, kullanıcıyı kaldırmak istediğinizi onaylayın. Değişiklik yalnızca **P-0001**, **Müşterileri ve kanal isteklerini eşitle** ve **1010 (Müşteriler)** işleri çalıştırıldıktan sonra geçerli olur.
 
 > [!NOTE]
 > Bir kullanıcıyı B2B e-ticaret web sitesine erişebilen kullanıcılar listesinden kaldırdığınızda, ilgili müşteri kaydı iş ortağının müşteri hiyerarşisi kaydından kaldırılır. Ancak, müşteri kaydının kendisi, Commerce Headquarters'dan silinmez.
 
-## <a name="onboard-business-partner-and-users-in-commerce-headquarters"></a>Commerce Headquarters'a iş ortağı ve kullanıcılar ekleme
+## <a name="onboard-existing-customers-as-business-partners-on-the-b2b-e-commerce-website"></a>Mevcut müşterileri B2B e-ticaret web sitesinde iş ortakları olarak ekleme
 
-Yöneticiler doğrudan Commerce Headquarters'da iş ortakları ve kullanıcılar ekleyebilir.
+Yöneticiler doğrudan Commerce Headquarters'da iş ortakları ve kullanıcılar ekleyebilir. Bu özellik, mevcut iş ortaklarınızı B2B e-ticaret web sitesinde eklemek için yararlıdır.
 
 Commerce Headquarters'da iş ortaklarını ve kullanıcıları eklemek için şu adımları izleyin.
 
-1. İş ortağı kuruluşu için **Tür Kuruluş** müşteri kaydı oluşturun.
-1. İş ortağı kullanıcıları için **Tür Kişi** müşteri kayıtları oluşturun. Her müşteri için birincil e-posta adresinin belirtildiğinden emin olun.
-1. İş ortağı kuruluşunun yönetici kullanıcısı olarak atanması gereken her **Tür Kişi** müşteri kaydı için **Perakende** hızlı sekmesinde **B2B yöneticisi** seçeneğini **Evet** olarak ayarlayın.
-1. Müşteri hiyerarşi kimliği oluşturun. **Ad** alanına, bir ad girin.
+1. **Kuruluş** türünde müşteri kaydı oluşturun veya seçin ve iş ortağı olarak ekleyin.
+1. İş oratğı için yönetici veya iş ortağı olarak eklemek üzere **Kişi** türünde bir müşteri oluşturun veya seçin. Birincil e-posta adreslerinin müşterilerle ilişkilendirildiğinden emin olun. Bu e-posta adresleri web sitesinde oturum açmak için kullanılır. 
+
+    > [!NOTE]
+    > Sistem, web sitesinde oturum açabilmeleri gereken kullanıcılar için benzersiz bir müşteri kaydı bulabilmelidir. Sistem, tüzel kişilikte aynı birincil e-posta adresine sahip birden fazla müşteri bulursa kullanıcı web sitesinde oturum açamaz.
+
+1. Müşteri hiyerarşi kimliği oluşturun.
+1. **Ad** alanına, bir ad girin.
 1. **Kuruluş** alanına iş ortağı kuruluşu müşterisini girin.
-1. **Ekle**'yi seçin ve sonra **Ad** alanından bir müşteri seçin.
+1. **Hiyerarşi** hızlı sekmesinde **Ekle**'yi seçin.
+1. **Ad** alanında **Kişi** türünde bir müşteri seçin.
+1. Yönetici olarak belirlenmesi gereken müşteri için **Yönetici** rolünü seçin.
 1. Hiyerarşiye ek müşteriler eklemek için bu işlemi yineleyin.
 
 ## <a name="additional-information"></a>Ek bilgiler
 
 - Bu konuda belirtilen tüm işler, bir zamanlamada toplu iş biçiminde çalışacak şekilde yapılandırılabilir. Beklenti, iş ortaklarının toplu işleri gerektiği gibi yapılandırmasıdır.
 - Şu anda, yönetici kullanıcı olarak yalnızca bir kullanıcı/müşteri kaydı atanabilir ve bu rol yalnızca Commerce Headquarters'da değiştirilebilir. İş ortaklarının B2B e-ticaret web sitelerinden birden fazla yönetici belirlemesine veya yönetici değiştirmesine izin veren self servis özellikler için destek sunulmaz.
-<!--- The modules and labels of the different fields referenced in the screenshots for e-commerce are only for illustration purposes. Customers have complete control on the placement of the B2B related modules and the labels.-->
 - Kullanıcılar için harcama limitleri tanımlanabilse de, sipariş giriş işlemi sırasında harcama limitlerinin zorunlu kılınması henüz uygulanmamıştır.
 - Bir kullanıcının B2B e-ticaret web sitesindeki deneyimi için tüm iş mantığı ve doğrulama, Commerce Headquarters'da kullanıcıyla eşlenen müşteri kaydının yapılandırmasını temel alır.
 
@@ -142,7 +129,7 @@ Commerce Headquarters'da iş ortaklarını ve kullanıcıları eklemek için şu
 
 [B2B e-ticaret sitesi ayarlama](set-up-b2b-site.md)
 
-[B2B kuruluşlar için kuruluş modelleme hiyerarşileri oluşturma](org-model.md)
+[Müşteri hiyerarşileri kullanarak B2B iş ortaklarını yönetme](partners-customer-hierarchies.md)
 
 [B2B e-ticaret siteleri için müşteri hesabı ödeme yöntemini yapılandırma](payment-method.md)
 

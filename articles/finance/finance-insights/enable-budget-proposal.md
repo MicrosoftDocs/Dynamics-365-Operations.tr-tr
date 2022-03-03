@@ -1,50 +1,42 @@
 ---
-title: Bütçe tekliflerini etkinleştirme (önizleme)
+title: Bütçe teklifini etkinleştirme
 description: Bu konuda, Mali İçgörüler'de Bütçe teklifi özelliğinin nasıl açılacağı açıklanmaktadır.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/24/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d8443c4e3e6f3d3a90acedc7c05b2846d6b68369
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: cd0ba4307f93148c241810759df9a95578592ba9
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646217"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109566"
 ---
-# <a name="enable-budget-proposals-preview"></a>Bütçe tekliflerini etkinleştirme (önizleme)
+# <a name="enable-budget-proposal"></a>Bütçe teklifini etkinleştirme
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, Mali İçgörüler'de Bütçe teklifi özelliğinin nasıl açılacağı açıklanmaktadır.
 
-1. Ortamın birincil Azure SQL kurulumuna bağlanmak için Microsoft Dynamics Lifecycle Services (LCS) portalındaki ortam sayfasında yer alan bilgileri kullanın. Korumalı alan ortamına sınırlı dağıtımları açmak için aşağıdaki Transact-SQL (T-SQL) komutunu çalıştırın. (Uygulama Nesne Sunucusu \[AOS\] hizmetine uzaktan bağlanmadan önce IP adresinize erişimi açmanız gerekebilir.)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Microsoft Dynamics 365 Finance dağıtımınız Service Fabric dağıtımıysa bu adımı atlayabilirsiniz. Mali İçgörüler ekibi, bu sınırlı dağıtımı sizin için açmış olmalıdır. Özelliği, **Özellik yönetimi** çalışma alanında göremiyorsanız veya açmaya çalıştığınızda sorunlarla karşılaşıyorsanız [Mali İçgörüler Uygulaması Önizleme ekibine](mailto:fiap@microsoft.com) e-posta gönderin.
-
-2. **Özellik yönetimi** çalışma alanını açın ve şu adımları izleyin:
+1. **Özellik yönetimi** çalışma alanını açın ve şu adımları izleyin:
 
     1. **Güncelleştirmeleri denetle**'yi seçin.
-    2. **Bütçe teklifi**'ni arayın ve bu özelliği etkinleştirin.
+    2. **Tümü** sekmesinde, **Bütçe teklifi**'ni bulun. Bu özelliği bulamazsanız **(Önizleme) Bütçe teklifi**'ni arayın. 
+    3. Özelliği etkinleştirin.
 
-3. **Bütçeleme \> Kurulum \> Temel Bütçeleme \> Bütçe teklifi (önizleme)** bölümüne gidin ve **Özelliği etkinleştir**'i seçin.
+2. **Bütçeleme \> Kurulum \> Temel Bütçeleme \> Bütçe teklifi** bölümüne gidin ve **Özelliği etkinleştir**'i seçin.
 
-#### <a name="privacy-notice"></a>Gizlilik bildirimi
-Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
+> [!NOTE]
+> **Bütçe teklifi** özelliği en za üç yıllık bütçe veya fiili veri gerektirir. Bu özellik, tahminlerde üç ila on yıllık verileri kullanmaktadır. Üç yıldan daha uzun süreye ait veriler daha iyi sonuç sağlar. Değerlerde değişiklikler olduğunda verilerin kendisi en iyi şekilde çalışır. Veriler, kira gideri gibi tüm sabit verileri içeriyorsa, çeşitlilik eksikliği tutarları tahmin etmek için yapay zeka gerektirmediğinden eğitim başarısız olabilir.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

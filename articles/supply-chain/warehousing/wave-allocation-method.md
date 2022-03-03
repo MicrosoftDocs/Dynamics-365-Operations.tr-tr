@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 527bd24d7f2e9a05f6e617c222005186520f9968
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920610"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103801"
 ---
 # <a name="wave-allocation"></a>Dalga tahsisatı
 
@@ -67,7 +67,7 @@ Paralel işlemeyi ayarlamak için:
 
 ## <a name="enable-or-disable-parallelization-across-all-legal-entities"></a>Tüm yasal varlıklarda paralelleşmeyi etkinleştirme veya devre dışı bırakma
 
-Dalga işleme performansını artırmaya yardımcı olacağından, tüm yasal varlıklarda paralel olarak çalıştırmak için `allocateWave` yöntemini ayarlamanız önerilir. Supply Chain Management sürüm 10.0.17'den başlayarak, *dalga tahsisat yöntemi için dalga paralelizasyonu* özelliği tüm yeni ve güncelleştirilmiş yüklemelerde varsayılan olarak etkinleştirilir ve yeniden kapatılamaz. Bu özellik etkinleştirildikten sonra aşağıdaki gerçekleşir:
+Dalga işleme performansını artırmaya yardımcı olacağından, tüm yasal varlıklarda paralel olarak çalıştırmak için `allocateWave` yöntemini ayarlamanız önerilir. Supply Chain Management sürüm 10.0.17'den başlayarak, *dalga tahsisat yöntemi için dalga paralelizasyonu* özelliği tüm yeni ve güncelleştirilmiş yüklemelerde varsayılan olarak açılır ve yeniden kapatılamaz. Bu özellik etkinleştirildikten sonra aşağıdaki gerçekleşir:
 
 - `allocateWave` Yöntemi, aynı anda çalışacak olan ve paralel işlem sayısına eşdeğer olan görevlerin sayısını tanımlamak için **dalga işleme yöntemleri** sayfasını kullanmanıza olanak tanıyan bir görev yapılandırma ayarı içerecek şekilde güncelleştirilir. Sonuç olarak, dalga tahsisatı adımında kullanılan süre (genellikle toplam işleme süresinin %30'u ile yüzde 60'ı kadardır), kabaca görev sayısına eşdeğer bir oranda azaltılır. Ayrıca, bu görevleri işlemek için hangi toplu işin atanacağını seçmek de mümkündür. Tüm yasal varlıklarınızın, dalgaları toplu işle işleyecek şekilde yapılandırılacağını unutmayın. Dalgaları toplu işle işlemek üzere yapılandırılmış olan ambarlar için ve `allocateWave` yöntemini paralel olarak kullanmak üzere yapılandırılmış ambarlar için, varolan yapılandırma korunur.
 - Varsayılan olarak, tüm yeni yasal varlıklar dalgaları toplu işle işleyecek şekilde yapılandırılır. **Ambar yönetimi işlemleri** seçeneği etkinleştirilmiş tüm yeni ambarlar, Varsayılan olarak paralel çalışacak şekilde yapılandırılmış `allocateWave` yöntemine sahip olacaktır.

@@ -2,26 +2,23 @@
 title: Cihazlar için iş kartını konfigüre et
 description: Bu konu, iş kartı aygıtını konfigüre etmek için çeşitli seçenekleri açıklamaktadır.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439367"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103450"
 ---
 # <a name="configure-job-card-for-devices"></a>Cihazlar için iş kartını konfigüre et
 
@@ -37,21 +34,19 @@ Bu konuda açıklanan ayarlardan birkaçı sisteminizde kullanılabilmesi için 
 
 Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin (sırasıyla):
 
-1. İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası
-1. İş kartı cihazında tamamlandı olarak bildirme sırasında otomatik plaka numarası oluşturmayı etkinleştirin
+1. *İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası*<br>(Supply Chain Management sürüm 10.0.21 itibarıyla, bu özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.25 itibarıyla, bu özellik zorunludur.)
+1. *İş kartı cihazında tamamlandı olarak bildirme sırasında otomatik plaka numarası oluşturmayı etkinleştirin*<br>(Supply Chain Management sürüm 10.0.25 itibarıyla, bu özellik zorunludur.)
 
 ### <a name="print-label"></a>Etiket yazdır
 
 Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin (sırasıyla):
 
-1. İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası
-1. İş Kartı Cihazından etiket yazdır
+1. *İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası*<br>(Supply Chain Management sürüm 10.0.21 itibarıyla, bu özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.25 itibarıyla, bu özellik zorunludur.)
+1. *İş Kartı Cihazından etiket yazdır*<br>(Supply Chain Management sürüm 10.0.25 itibarıyla, bu özellik zorunludur.)
 
 ### <a name="allow-locking-of-touch-screen"></a>Dokunmatik ekranın kilitlenmesini sağla
 
-Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
-
-- (Önizleme) Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği
+Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="manage-your-device-configurations"></a>Cihaz yapılandırmalarınızı yönetin
 
@@ -66,11 +61,11 @@ Cihaz yapılandırmalarınızı yapmak için **Üretim denetimi > Ayarlar > Üre
 
 **Genel** Hızlı sekmesi, seçili aygıt konfigürasyonu için kullanılabilen çeşitli seçeneklerin her birini konfigüre etmenize olanak tanır. Aşağıdaki ayarlar kullanılabilir:
 
-- **Çıkış saatindeki rapor miktarı:** çalışanların çıkış yaparken sürmekte olan işler hakkında geribildirim raporlamalarını istemek için bunu **Evet** olarak ayarlayın. **Hayır** olarak ayarlandığında , çalışanlar uyarılmayacaktır.
-- **Çalışanı kilitle** -Bu seçenek **Hayır** olarak ayarlandığında , her çalışan bir kayıt yapıldıktan (yeni bir iş gibi) hemen sonra kapatılır ve sonra aygıt oturum açma sayfasına geri dönecektir. Bu seçenek **Evet** olarak ayarlandığında , her çalışan iş kartı aygıtında oturum açmış durumda kalır. Ancak, iş kartı aygıtı aynı sistem kullanıcı hesabı altında kaldığı sürece başka bir çalışanın oturum açmasına izin vermek için, çalışan el ile de oturum açabilir. Bu hesap türleri hakkında daha fazla bilgi için, [atanan kullanıcılar](#assigned-users)'a bakın.
-- **Barkod tarayıcısı** - bir Barkod tarayarak çalışanların yeni bir işin başlangıcını kaydetmesini sağlayan bir iş kartı aygıtında seçenek sağlamak için bunu **Evet** olarak ayarlayın.
-- **Kaydın gerçek zamanını kullan** - Her yeni kaydın bir çalışan tarafından gönderildiği tam zamana eşit olması için kaydın gerçek zamanını **Evet** olarak ayarlayın. Bunun yerine oturum açma süresini kullanmak için **Hayır** olarak ayarlayın. Genellikle , **çalışanı kilitle** ve/veya **Tekli çalışan** seçeneklerini kilitlerseniz çalışanların daha uzun süreler boyunca oturum açmış durumda kaldığı durumlarda bunu **Evet** olarak ayarlamak isteyeceksiniz.
-- **Tek çalışan** - Bu yapılandırmanın etkin olduğu her iş kartı aygıtını yalnızca bir alt kullanıyorsa, bu seçeneği **Evet** olarak ayarlayın. Bu seçenek belirlendiğinde, **çalışanı kilitle** seçeneği otomatik olarak **Evet** 'e ayarlanır. Ek olarak, bu seçenek işçi için bir rozet KIMLIĞI (veya benzeri) kullanarak oturum açabilme gereksinimi (ve yeteneğini) kaldırır. Bunun yerine çalışan, *çalışan bir saate bağlanmış* bir sistem kullanıcı hesabı kullanarak sağlamak için Supply Chain Management'ta oturum açar (*çalışanlar* tablosu) ve iş kartı aygıtında aynı anda çalışan olarak oturum açanlar.  Bu hesap türleri hakkında daha fazla bilgi için, [atanan kullanıcılar](#assigned-users)'a bakın.
+- **Çıkış saatindeki rapor miktarı**: Çalışanların çıkış yaparken sürmekte olan işler hakkında geribildirim raporlamalarını istemek için bunu **Evet** olarak ayarlayın. **Hayır** olarak ayarlandığında, çalışanlar uyarılmayacaktır.
+- **Çalışanı kilitle**: Bu seçenek **Hayır** olarak ayarlandığında , her çalışan bir kayıt yapıldıktan (yeni bir iş gibi) hemen sonra kapatılır ve sonra aygıt oturum açma sayfasına geri dönecektir. Bu seçenek **Evet** olarak ayarlandığında , her çalışan iş kartı aygıtında oturum açmış durumda kalır. Ancak, iş kartı aygıtı aynı sistem kullanıcı hesabı altında kaldığı sürece başka bir çalışanın oturum açmasına izin vermek için, çalışan el ile de oturum açabilir. Bu hesap türleri hakkında daha fazla bilgi için, [atanan kullanıcılar](#assigned-users)'a bakın.
+- **Barkod tarayıcısı**: Bir Barkod tarayarak çalışanların yeni bir işin başlangıcını kaydetmesini sağlayan bir iş kartı aygıtında seçenek sağlamak için bunu **Evet** olarak ayarlayın.
+- **Kaydın gerçek zamanını kullan**: Her yeni kaydın bir çalışan tarafından gönderildiği tam zamana eşit olması için kaydın gerçek zamanını **Evet** olarak ayarlayın. Bunun yerine oturum açma süresini kullanmak için **Hayır** olarak ayarlayın. Genellikle , **çalışanı kilitle** ve/veya **Tekli çalışan** seçeneklerini kilitlerseniz çalışanların daha uzun süreler boyunca oturum açmış durumda kaldığı durumlarda bunu **Evet** olarak ayarlamak isteyeceksiniz.
+- **Tek çalışan**: Bu yapılandırmanın etkin olduğu her iş kartı aygıtını yalnızca bir alt kullanıyorsa, bu seçeneği **Evet** olarak ayarlayın. Bu seçenek belirlendiğinde, **çalışanı kilitle** seçeneği otomatik olarak **Evet** 'e ayarlanır. Ek olarak, bu seçenek işçi için bir rozet KIMLIĞI (veya benzeri) kullanarak oturum açabilme gereksinimi (ve yeteneğini) kaldırır. Bunun yerine çalışan, *çalışan bir saate bağlanmış* bir sistem kullanıcı hesabı kullanarak sağlamak için Supply Chain Management'ta oturum açar (*çalışanlar* tablosu) ve iş kartı aygıtında aynı anda çalışan olarak oturum açanlar.  Bu hesap türleri hakkında daha fazla bilgi için, [atanan kullanıcılar](#assigned-users)'a bakın.
 - **Çalışanların kişisel filtreleri düzenlemesine izin ver** - çalışanların cihazda gösterilen işleri süzmelerine izin vermek için bu seçeneği **Evet** olarak ayarlayın. Çalışan, üç filtre ölçütlerinden herhangi birinin değerlerini değiştirebilir: **Üretim birimi**, **kaynak grubu** ve **kaynağı**. Yalnızca seçili filtre ölçütleriyle eşleşen kaynaklar üzerinde zamanlanan işler cihazda gösterilir. Bu ölçütlerin herhangi biri veya tümü için varsayılan değerler de atayabilirsiniz; bu seçenekle bile bunlar seçili olmaz.
 - **Dokunmatik ekranda kilitlemeye izin ver** - çalışanların iş kartı aygıtı dokunmatik ekran seçeneklerini bu şekilde kilitlemesine izin vermek için bu seçeneği **Evet** olarak ayarlayın. Etkinleştirildiğinde, **Dezenfekte etmek için ekranı kilitle** düğmesi için bir kilit ekranı eklenir. Bir çalışan bu düğmeyi seçtiğinde, dokunmatik ekran, istenmeyen giriş yapılmasını önlemek için geçici olarak kilitler ve geri sayım süreölçeri görüntülenir. Çalışan şimdi aygıtı ve ekranı güvenle temizleyebilecek. Geri sayım tamamlandığında, dokunmatik ekran otomatik olarak yeniden kilidi açar.
 - **Ekran kilitleme süresi** - **dokunmatik ekranı kilitlemeye izin ver** seçeneği etkinleştirildiğinde, bu seçeneği kullanın ve dokunmatik ekranın temizleme amacıyla kilitlenmesi gereken saniye sayısını belirtin. Süre 5 ile 120 saniye arasında olmalıdır.
@@ -95,3 +90,6 @@ Ancak, daha önce belirtildiği gibi **tek çalışan** seçeneğiyle bir aygıt
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [İş kartı cihazından tamamlandı olarak bildirme](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

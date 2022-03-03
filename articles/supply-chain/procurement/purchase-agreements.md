@@ -1,12 +1,10 @@
 ---
 title: Satınalma sözleşmeleri
 description: Bu makalede, satınalma anlaşmalarıyla ilgili bilgiler verilmektedir. Bir satınalma anlaşması, kuruluşun belirli bir süre içinde birden fazla satınalma siparişi kullanarak, belirli bir miktarda veya tutarda alım yapacağını taahhüt eden bir sözleşmedir. Bu taahhüt karşılığında, alıcıya özel fiyatlar ve iskontolar verilir.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017199"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103750"
 ---
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
@@ -43,10 +41,7 @@ Satın alma sözleşmenizin kullanılmasını ve onaylanmasını önlemek için,
 Satınalma Sözleşmesi sınıflandırmasındaki birincil sorumlu çalışanını ve ikincil sorumlu çalışanını tanımlayabilirsiniz. Bu değerler, sonuçta elde edilen satın alma sözleşmesi tarafından devralınır. Sorumlu çalışanları satınalma anlaşmasına eklemeniz gerekmez ve satınalma sözleşmesinin kendisi için bir servis talebi bazında doğrudan değiştirilebilir. Birincil sorumlu çalışanı olmadan, ikincil sorumlu çalışanına sahip olmanız gerekmese de, bir sorumlu çalışanını belirtemezsiniz. Hem birincil, hem de ikincil sorumlu çalışanından aynı çalışanı belirtemezsiniz.
 
 > [!IMPORTANT]
-> Sorumlu taraf özelliğini kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-> 
-> - **Modül:** *Satınalma ve kaynaklandırma*
-> - **Özellik adı:** *Satınalma sözleşmesi sorumlu taraf*
+> Sorumlu taraf özelliğini kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Supply Chain Management sürüm 10.0.25 itibarıyla bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Satınalma sözleşmesi sorumlu tarafı* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="commitment-types"></a>Taahhüt türleri
 Satınalma sözleşmesindeki her satır bir şeyi satın almak için bir taahhüttür. Birden fazla satınalma siparişinden satırları taahhüdü yerine getirmek için kullanabilirsiniz. Dört tür taahhüt mevcuttur:
@@ -104,12 +99,13 @@ Satınalma sözleşmesinin başlığında bir satır eşleştirme ilkesi tanıml
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Satınalma sözleşmeleri üzerindeki finansal boyutlar
 Finansal boyutları belge başlıklarına ve satınalma sözleşmelerinin tekil satırlarına kopyalayabilirsiniz. Sözleşme başlığındaki veya sözleşme satırındaki boyutları değiştirirseniz, bu değişiklik serbest bırakılmış siparişlerin hiçbirini etkilemez fakat yeni siparişlerin tümünü etkiler.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
-[Satınalma sözleşmesi oluşturma](tasks/create-purchase-agreement.md)
-
-[Satınalma sözleşmesinden satınalma sevk emri oluşturma](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Satın alma sözleşmesi oluşturma](tasks/create-purchase-agreement.md)
+- [Satın alma siparişi oluştururken satın alma sözleşmesini uygulama](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

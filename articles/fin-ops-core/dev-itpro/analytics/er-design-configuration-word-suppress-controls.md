@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737987"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323937"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Oluşturulan raporlarda Word içerik denetimlerini gizleme
 
 [!include [banner](../includes/banner.md)]
 
-Raporları Microsoft Word belgeleri olarak oluşturmak için, raporlar için Word belgesi şeklinde bir şablon tasarlamanız gerekir. Bu şablon, çalışma zamanında doldurulacak veriler için yer tutucu olarak Word içerik denetimleri içermelidir. Raporlarınız için şablon olarak oluşturulan Word belgesini kullanmak için yeni bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) [yapılandırabilirsiniz](er-design-configuration-word.md). Çözüm, ER [biçimi](general-electronic-reporting.md#FormatComponentOutbound) bileşeni içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) içermelidir. Bu ER biçimi, rapor oluşturma için tasarlanmış şablonu kullanacak şekilde yapılandırılmalıdır.
+Raporları Microsoft Word belgeleri olarak oluşturmak için, raporlar için Word belgesi şeklinde bir şablon tasarlamanız gerekir. Bu şablon, çalışma zamanında doldurulacak veriler için yer tutucu olarak Word içerik denetimleri içermelidir. Raporlarınız için şablon olarak oluşturulan Word belgesini kullanmak için yeni bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) [yapılandırabilirsiniz](er-design-configuration-word.md). Çözüm, ER biçimi bileşeni içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) içermelidir. Bu ER biçimi, rapor oluşturma için tasarlanmış şablonu kullanacak şekilde yapılandırılmalıdır.
 
 Dynamics 365 Finance sürüm 10.0.6 ve sonrasında, oluşturulan belgelerdeki bazı Word içerik denetimlerini gizlemek için ER biçiminizde formüller yapılandırabilirsiniz.
 

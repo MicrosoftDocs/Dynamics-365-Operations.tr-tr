@@ -2,26 +2,23 @@
 title: Onayla ve aktar
 description: Bu konu, kullanıcıların, o yüklerle ilişkilendirilmiş tüm işleri tamamlayabilmeleri için ambardan sevk yüklemelerini sağlayan Onayla ve transfer özelliğinin nasıl kullanılacağını açıklar.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439065"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103601"
 ---
 # <a name="confirm-and-transfer"></a>Onayla ve aktar
 
@@ -48,20 +45,17 @@ Yalnızca aşağıdaki ölçütlere uyan yükleri bölebilirsiniz:
 
 - Bir veya daha fazla yükleme satırında malzeme çekme miktarları var.
 - Yükleme durumu, yüklenden daha küçük.
-- Yükleme satırı verisi yok. (Bu veriler, hazırlama konumunda lisans levhası konsolidasyonu aracılığıyla oluşturulur ve *Onayla ve transfer* özelliği, lisans levha birleştirmeyi desteklemiyor.)
-- Şu anda ambalaj yerleşimindeki sevk için bekleyen stok yok. (Bu *Onayla ve transfer* özelliği, paket istasyonuna çekilen ancak henüz paketlenememiş olan stoğu desteklemez.)
+- Yükleme satırı verisi yok. (Bu veriler, hazırlama konumunda lisans levhası konsolidasyonu aracılığıyla oluşturulur ve Onayla ve transfer özelliği, lisans levha birleştirmeyi desteklemiyor.)
+- Şu anda ambalaj yerleşimindeki sevk için bekleyen stok yok. (*Onayla ve transfer et* özelliği, paketlenen konteynerler yükleme işi yaratılarak hazırlama konumlarına yerleştirilmediği sürece paketleme istasyonuna çekilmiş ancak henüz paketlenmemiş stoğu desteklemez.)
 
 > [!NOTE]
 > Bu işlevsellik, malzeme çekme öncesinde hiç çalıştırılmamış ve oluşturmayacak ambarlarda kullanılması gereken taşıma yükleme işlevselliğinden farklıdır, ancak bunun yerine mevcut taşıma alanını malzeme çekme tamamlandıktan sonra yükler.
 >
 > Yükün genellikle planlandığı ve zaman içinde oluşturulduğu durumlarda, *onaylama ve transfer* özelliğini kullanın, ancak yükleme işleminin mevcut aktarıma (kamyonun gibi) uygun olmadığı durumlarda bazen özel durumlar meydana gelir.
 
-## <a name="turn-on-confirm-and-transfer"></a>Onayla ve transfer 'i aç
+## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Onayla ve aktar özelliğini açma veya kapatma
 
-*Onayla ve transfer et* özelliğini kullanabilmeniz için sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Onayla ve transfer et*
+Bu konuda açıklanan işlevi kullanmak için *Onayla ve aktar* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Onayla ve aktar* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="set-up-confirm-and-transfer"></a>Onayla ve transfer'i ayarla
 
@@ -230,3 +224,6 @@ Hareket ilişkilerinin aşağıdaki yollarla güncelleştirilmiş olduğunu da d
 - **Miktarı yeni yük olarak ayır** seçeneği, kalan tüm iş başlıklarındaki *işlem* durumları olduğunda da çalışır. Bu nedenle, çalışanlar zaten çekme emirlerini çalıştırıyor olsa bile işlevleri kullanabilirsiniz.
 - **Açık** veya *Sürüyor* durumuna sahip kalan iş olduğunda *yerine getirilmemiş miktarı iptal et*'i seçerseniz, şu hata iletisini alırsınız: "kalan yükleme miktarı iptal edilemiyor. Yükleme için çalışma var."
 - Kalan çalışma olmadığında ancak yükleme üzerinde serbest bırakılmış yükleme satırları varken **yerine getirilmemiş miktarı iptal et**'i seçerseniz, aşağıdaki hata iletisini alırsınız: "madde için miktar, teslimat altında tanımlanan yüzdeyi aştığından, yükleme sevkiyatı onaylanamadı." Hatayı önlemek için, serbest bırakılmamış yükleme satırındaki **eksik teslimat** yüzdesini yüzde 100 olarak ayarlayabilirsiniz. Serbest bırakılmamış satırlar yeni bir yüklemeye taşınmaz, ancak geçerli yük, eksik teslimat ile onaylanır. Bu durumda, özgün siparişi yeniden serbest bırakabilirsiniz. Bu nedenle, bunu başka şekilde işlemeniz gerekecektir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

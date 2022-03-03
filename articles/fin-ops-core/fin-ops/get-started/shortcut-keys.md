@@ -1,12 +1,10 @@
 ---
 title: Klavye kısayolları
-description: Bu konu, Finance and Operations uygulamasıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerinin genel görünümünü sağlar.
+description: Bu konu, Finans ve Operasyon uygulamalarıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerinin genel görünümünü sağlar.
 author: jasongre
-manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798238"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119564"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
 [!include [banner](../includes/banner.md)]
 
-Aşağıdaki klavye kısayolları, verileri hızlı ve etkili şekilde Finance and Operations uygulamasında girmenize yardımcı olabilir.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Klavye kısayolları, verileri hızlı ve etkili şekilde Finans ve Operasyon uygulamalarında girmenize yardımcı olabilir. 
 
 > [!NOTE]
 > Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
@@ -36,11 +37,11 @@ Bu sayfadaki bazı kısayollar *ana akorlardır* yani eylemi tetiklemek için ba
 
 ## <a name="finding-a-shortcut"></a>Bir kısayolu bulma
 
-Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden bulabilir. Sağ tıklamanız ve **Kısayolları görüntüle**'yi seçmeniz yeterlidir. Bu, sayfada bulunduğunuz konuma göre kullanabileceğiniz kısayolları gösteren bir iletişim kutusunu açar.
+Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden bulabilir. Sağ tıklamanız ve **Kısayolları görüntüle**'yi seçmeniz yeterlidir. Bu, sayfada bulunduğunuz konuma göre kullanabileceğiniz kısayolları gösteren bir iletişim kutusunu açar. Alternatif olarak, bu iletişim kutusunu açmak için Alt+Shift+K tuşlarına basabilirsiniz (ve sayfayla ilgili tüm kullanılabilir kısayolları görmek için Alt+Shift+K tuşlarına bir kez daha basabilirsiniz).    
 
 ## <a name="action-shortcuts"></a>Eylem kısayolları
 
-| Bunu yapmak için                                      | Basın                            |
+| Bunu yapmak için                                      | Şuna basın:                            |
 |-------------------------------------------------|----------------------------------|
 | Eylem aramasını açma                              | Ctrl+' veya Alt+Q                  |
 | Standart Eylem Bölmesine taşıma                | Alt+M,A veya Ctrl+F6               |
@@ -129,8 +130,10 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="grid-shortcuts"></a>Kılavuz kısayolları
 
-| Bunu yapmak için                                                                                                             | Basın                           |
+| Bunu yapmak için                                                                                                             | Şuna basın:                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Dikey kaydırma                                                                                                     | Fare tekerleği                     |
+| Yatay kaydırma                                                                                                   | Shift + Fare tekerleği             |
 | Sonraki/önceki sütuna gitme                                                                                       | Tab / Shift+Tab                 |
 | Sonraki/önceki satıra gitme                                                                                          | Aşağı ok / Yukarı ok           |
 | Seçim yapmadan sonraki/önceki satıra taşı<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote> | Ctrl+Yukarı ok / Ctrl+Aşağı ok |
@@ -142,22 +145,24 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | İlk kayda taşı                                                                                               | Ctrl+Home                       |
 | Son kayda taşı                                                                                                | Ctrl+End                        |
 | Tüm satırları seç veya temizle                                                                                               | Ctrl+Shift+M                    |
-| İlk işaretli satıra taşı                                                                                           | Alt+Shift+M, F                    |
-| Sonraki işaretli satıra taşı                                                                                            | Alt+Shift+M, L                    |
-| Önceki işaretli satıra taşı                                                                                        | Alt+Shift+M, P                    |
-| Son işaretli satıra taşındı                                                                                           | Alt+Shift+M, N                    |
+| İlk işaretli satıra taşı                                                                                           | Alt+Shift+M, F                  |
+| Sonraki işaretli satıra taşı                                                                                            | Alt+Shift+M, L                  |
+| Önceki işaretli satıra taşı                                                                                        | Alt+Shift+M, P                  |
+| Son işaretli satıra taşındı                                                                                           | Alt+Shift+M, N                  |
 | Bir kılavuzda varsayılan eylemi yürüt<blockquote>[!NOTE] Bu kısayol odak köprü içeren bir hücre ve o sütundaki tüm hücreleri köprüler etkinleştirilir.</blockquote> | Gir                           |
 | Seçilen satır ile başlık satırı arasında odağı değiştirme                                                               | Alt+Shift+H                     |
 | Geçerli sütunu daha büyük/daha küçük yapma (odakta başlık satırı varken)                                                  | Sağ ok / Sol ok        |
-| Geçerli sütun için ızgara filtrelemeyi açma (odakta başlık satırı varken)                                              | Gir                           |
+| Geçerli sütunu sonraki/önceki konuma taşıyın (üst bilgi satırına odaklanarak)                                   | Ctrl+Shift+Sağ ok / Ctrl+Shift+Sol ok |
+| Geçerli sütun için ızgara filtrelemeyi açma (odakta başlık satırı varken)                                              | Enter                           |
+| Geçerli sütunu içeriğe uyacak şekilde yeniden boyutlandırın (üst bilgi satırına odaklanarak)                                           | A (veya sütun boyutlandırma tutamacını çift tıklatın) |
 
 ## <a name="input-control-shortcuts"></a>Giriş denetimi kısayolları
 
-| Bunu yapmak için                                                                   | Basın                         |
+| Bunu yapmak için                                                                   | Şuna basın:                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Köprüyü aç                                                           | Ctrl+Enter                    |
-| Tarih alanına oturum tarihini girme                                       | B                         |
-| Tarih alanına geçerli tarihi girme                                       | A                         |
+| Tarih alanına oturum tarihini girme                                       | B                             |
+| Tarih alanına geçerli tarihi girme                                       | A                             |
 | Arama, açılan kutu, tarih seçici, açılır iletişim kutusu açma                         | Alt+Aşağı ok                |
 | Aramayı, açılan kutuyu, tarih seçiciyi, açılır iletişim kutusunu kapatma                        | Esc                           |
 | Odağı bir aramaya taşıma (arama zaten açıkken)                   | Alt+Aşağı ok                |
@@ -204,8 +209,8 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Taşıma aracını kullan (kişiselleştirme modunda)                                                                       | P                                   |
 | Geçerli denetimi taşımak üzere seç (Taşıma aracını kullanırken ve taşımak üzere denetim henüz seçilmemişken)  | Boşluk veya Enter                      |
 | (Taşıma aracını kullanırken) taşımak için kontrol temizle                                                                   | Esc                                 |
-| Seçilen denetim için bir sonraki konuma taşı (Taşıma aracını kullanırken)                                          | Tab veya Sağ ok veya Aşağı ok    |
-| Seçilen denetim için bir önceki konuma taşı (Taşıma aracını kullanırken)                                      | Shift+Tab veya Sol ok veya Yukarı ok |
+| Seçilen denetimi bir sonraki konuma taşı (Taşıma aracını kullanırken)                                              | Tab veya Sağ ok veya Aşağı ok    |
+| Seçilen denetimi bir önceki konuma taşı (Taşıma aracını kullanırken)                                          | Shift+Tab veya Sol ok veya Yukarı ok |
 | Gizle aracını kullan (kişiselleştirme modunda)                                                                       | H                                   |
 | Geçerli denetimin görünür olup olmadığını değiştir (Gizle aracını kullanılırken)                                     | Boşluk veya Enter                      |
 | Atla aracını kullan (kişiselleştirme modunda)                                                                       | K                                   |
@@ -240,7 +245,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="task-recorder-shortcuts"></a>[Görev kaydedici](../../dev-itpro/user-interface/task-recorder.md) kısayolları 
 
-| Bunu yapmak için                                                                    | Şuna basın:                       |
+| Bunu yapmak için                                                                    | Şuna basın:                      |
 |-------------------------------------------------------------------------------|----------------------------|
 | Kaydı durdur (kayıt sırasında)                                          | Alt+R,S                    |
 | Görev kaydedici bölmesinin görünürlüğünü değiştir (kayıt sırasında)             | Alt+R,T                    |
@@ -251,7 +256,14 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Animasyonlu açılır pencere istemini genişlet/daralt (görev kılavuzu yürütülürken)              | Alt+R,C                    |
 | Animasyonlu açılır istemde daha fazla/daha az bilgi göster (görev kılavuzu yürütülürken) | Alt+R,M                    |
 
+## <a name="focus-management"></a>Odak yönetimi 
+Odak yönetimi, bir uygulamada kullanıcı odağının nasıl işlendiğini tanımlar. Finans ve Operasyon uygulamaları, özellikle veri girişi senaryoları için kullanıcı üretkenliğini en iyi duruma getirmeye yönelik özel odak davranışlarına sahiptir. Odak davranışları aşağıdakileri içerir:  
+
+-  Bir sayfa yüklendiğinde, sayfadaki ilk düzenlenebilir giriş denetimi odağa sahip olacak ve kullanıcı girişini hemen kabul edebilecek. Sayfada düzenlenebilir giriş denetimi yoksa, ilk odak için geri dönüş seçeneği sayfa üzerindeki ilk giriş denetimidir ve arkasından sayfadaki ilk odaklanabilir denetim gelir.   
+-  Genellikle bir düğme seçildiğinde, eylem işlenir ve odak sayfaya dönebilir. Bu gerçekleştiğinde, odak seçilen düğme denetimine geri dönme eğilimindedir. Bu, Finans ve Operasyon uygulamalarında, düğmenin Eylem bölmesinde veya bir araç çubuğunda olduğu durumlar **hariç** geçerlidir. Bu durumlarda, eylem tamamlandığında odak, düğme seçilmeden önce odağın sahibi olan Eylem Bölmesi (veya araç çubuğu) *dışındaki* son denetime döner.
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Eksik hesap analiz için klavye kısayolları](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

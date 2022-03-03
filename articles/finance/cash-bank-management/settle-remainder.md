@@ -1,24 +1,24 @@
 ---
 title: Kalanı kapat
 description: Ayırma etkinliğinden kalan tutarı, bu tutarı bir genel muhasebe hesabına uygulayarak kapatabilirsiniz.
-author: roschlom
-ms.date: 10/16/2018
+author: twheeloc
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754108"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182416"
 ---
 # <a name="settle-remainder"></a>Kalanı kapat
 
@@ -27,10 +27,10 @@ ms.locfileid: "7754108"
 Ayırma etkinliğinden kalan tutarı, bu tutarı bir genel muhasebe hesabına veya başka bir müşteriye uygulayarak kapatabilirsiniz. Kalan tutarları bir günlüğe girdiğinizde veya yalnızca açık işlemleri kapattığınızda, kalan tutarı kapatabilirsiniz.
 
 ## <a name="setting-up-defaults"></a>Varsayılanlarını ayarlamak 
-Kalanı kapatı kullanmadan önce Kalanı kapat özelliğini etkinleştirmeniz ve varsayılan ayarları belirlemeniz gerekir
+**Kalanı kapat**'ı kullanmadan önce **Kalanı kapat** özelliğini etkinleştirmeniz ve varsayılan ayarları belirlemeniz gerekir.
 
 1)  **Alacak hesapları > Parametreler > Kapatmalar** veya **Borç hesapları > Parametreler > Kapatmalar** üzerine tıklayın
-2)  **Kapatma** sekmesini seçin ve **Kalanı kapatmayı ektinleştir** üzerine tıklayın
+2)  **Kapatma** sekmesini seçin ve **Kalanı kapatmayı ektinleştir**'e tıklayın.
 3)  **Varsayılan neden kodu**'nda, bir varsayılan neden kodu seçin. Bir neden konunun **Alacak hesapları > Kurulum > Müşteri silme neden kodları** veya **Borç hesapları > Kurulum > Müşteri silme neden kodları**'nda halihazırda ayarlanmış olması gerekir. **Varsayılan kalan kapatma hesabı**, silme neden kodunun atanmış olduğu hesaba varsayılan olacaktır.
 3)  **Varsayılan kalan kapatma hesabı**'nı gerekli şekilde güncelleştirin.
 4)  **Varsayılan günlük adı** içinde, yalnızca çık işlemleri kapatıyorsanız, bir ödeme günlüğü oluşturmak istediğinizde kullanılacak olan bir ödeme günlüğü seçin. Kalanı kapat özelliğini etkinleştirirseniz, bir varsayılan günlük adı eklemeniz gerekir.
@@ -58,8 +58,8 @@ Bir günlük olmadan açık hareketleri kapattığınızda da kalanı kapatabili
 
 Kalanı kapatmak için aşağıdaki adımları uygulayın:
 
-1)  **Kapatma** sayfasında, kapatmak istediğiniz faturaları veya hareketleri işaretleyin
-2)  **Kalanı kapat** üzerine tıklatın.
+1)  **Kapatma** sayfasında, kapatmak istediğiniz faturaları veya hareketleri işaretleyin.
+2)  **Kalanı kapat**'a tıklayın.
 3)  Bir genel muhasebe hesabına karşı kapatılacak tutarı, kalanı kapatmakta kullanılacak tarihi, parametrelerden varsayılan neden kodunu ve parametrelerden varsayılan hesabı gösteren bir iletişim kutusu görüntülenir. 
 4)  Varsayılan nedeni değiştirmek isterseniz yeni bir kapatma nedenini seçin. Kapatma hesabı, neden kodunda ilişkilendirilmiş olan ilgili hesaba değiştirilecektir.
 5)  Değiştirmek istiyorsanız, **kapatma hesabını** düzenleyin.

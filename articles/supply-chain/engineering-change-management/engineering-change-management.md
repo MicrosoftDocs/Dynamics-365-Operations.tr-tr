@@ -2,26 +2,23 @@
 title: Mühendislik ürünlerindeki değişiklikleri yönetme
 description: Bu konu mühendislik değişikliği yönetimi hakkında bilgiler sağlar. Mühendislik değişikliği yönetimi, mühendislik ürünlerindeki değişiklikleri yönetmek için önerme, talepte bulunma ve değişiklik yapmadan değişiklikleri inceleme ve onaylama, mevcut hareketler üzerindeki etkilerini değerlendirme ve bunları takip etme gibi yapılandırılmış süreçler sağlar.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 314563e083434832ee04d9c19deb17cec221ae02
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439755"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102925"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 
@@ -95,9 +92,13 @@ Bu liste yalnızca bilgi amaçlıdır. Bu nedenle, istediğiniz sayıda ilgili o
 
 **Kaynak** hızlı sekmesi, değişiklik isteğinin başlangıç noktasını izlemenizi sağlar. Örneğin, değişiklik isteğinin bir satış siparişinden oluşturulup oluşturulmadığını, kim tarafından oluşturulduğunu ve hangi şirkette oluşturulduğunu görmek için yararlıdır.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Değişiklik isteğinin iş üzerindeki etkisini değerlendirme
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Değişiklik isteğinin ve bildirim göndermenin iş üzerindeki etkisini değerlendirme
 
-Bir değişiklik isteğini gözden geçirdiğinizde, bağımlılıkları arayabilirsiniz. Bu şekilde, istenen değişikliğin satış siparişleri, üretim emirleri ve eldeki stok gibi açık hareketler üzerindeki etkisini değerlendirebilirsiniz.
+Bir değişiklik isteğini gözden geçirdiğinizde, bağımlılıkları arayabilirsiniz. Bu şekilde, istenen değişikliğin satış siparişleri, üretim emirleri ve eldeki stok gibi açık hareketler üzerindeki etkisini değerlendirebilirsiniz. Değişiklik isteklerini incelerken, çeşitli ilgili sipariş türlerini yerine getirmekle sorumlu kişilere bildirim gönderebilirsiniz.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Etkilenen hareketleri gözden geçirme, seçili hareketleri engelleme ve bildirim gönderme
+
+Etkilenen hareketleri gözden geçirmek için, seçili hareketleri engellemek ve ilgili bildirim göndermek için bu adımları izleiyn.
 
 1. **Mühendislik değişikliği yönetimi \> Ortak \> Mühendislik değişikliği yönetimi \> Mühendislik değişikliği istekleri**'ne gidin.
 1. Var olan bir değişiklik isteğini açın veya yeni bir değişiklik isteği oluşturmak için Eylem Bölmesi'nden **Yeni**'yi seçin.
@@ -106,7 +107,36 @@ Bir değişiklik isteğini gözden geçirdiğinizde, bağımlılıkları arayabi
     - **Ara**: Tüm açık hareketleri tarar ve ardından değişiklikten etkilenecek tüm hareketleri listeleyen **Açık hareketler üzerindeki iş etkisi** iletişim kutusunu açar.
     - **Önceki aramayı görüntüle**: Önceki aramanın sonuçlarını listeleyen **Açık hareketler üzerindeki iş etkisi** iletişim kutusunu açar. (Yeni bir arama yapılmaz.)
 
-1. Değişiklik gerektiren sorunun kritik olduğu tespit edilirse, **Açık hareketler üzerindeki iş etkisi** iletişim kutusundaki araç çubuğunun düğmelerini kullanarak açık hareketleri engelleyebilir veya sorumlu kullanıcıya bildirebilirsiniz.
+1. **Hareketlerin açılmasına yönelik İş etkisi** iletişim kutusu, her biri belirli bir türdeki etkilenen hareketlerin listesini gösteren bir sekme kümesi sağlar  (**Satış emirleri**, **Satın alma emirleri**, **Üretim emirleri**, **Stok** vb.). Her sekmede, bu türdeki etkilenen hareketlerin sayısını gösteren bir sayı da gösterilir. İlgili listeyi görüntülemek için bir sekme seçin.
+1. Listedeki bir hareketle çalışmak için, hareketi seçin ve sonra araç çubuğunda aşağıdaki düğmelerden birini seçin:
+
+    - **Hareketi görüntüle** – Seçili hareket kaydını açın.
+    - **Siparişi engelle** – Bu düğme yalnızca **Satış emirleri** sekmesinde kullanılabilir. Seçili satış emri satırını engellemek için seçin.
+    - **Satırı engelle** – Bu düğme yalnızca **Satın alma emirleri** sekmesinde kullanılabilir. Seçili satın alma emri satırını engellemek için seçin.
+    - **Sorumluyu bildir** – Bu düğme yalnızca **Satış emirleri** sekmesinde kullanılabilir. Seçili satış emrinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
+    - **Sipariş vereni bildir** – Bu düğme yalnızca **Satın alma emirleri** sekmesinde kullanılabilir. Seçili satın alma emrinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
+    - **Üretimi bildir** – Bu düğme yalnızca **Üretim emirleri** sekmesinde kullanılabilir. Satış siparişlerinin ve satın alma siparişlerinin aksine, üretim emirlerinin uçtan uca bunlardan sorumlu olarak ayarlanmış tek bir kullanıcısı yoktur. Bunun yerine, çeşitli süpervizörler veya planlamacılar genellikle belirli bir site veya üretimin belirli bir bölümü için (örneğin, belirli kaynaklar veya kaynak grupları için) sahipliği alır. Bu nedenle, bu düğmeyi seçtiğinizde, seçili üretim emriyle ilgili herhangi bir kaynakndan sorumlu olan tüm kullanıcılar bir değişiklik bildirimi alır. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
+    - **Hazırlayana bildir** – Bu düğme yalnızca **Satın alma talebi** sekmesinde kullanılabilir. Seçili satın alma talebinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
+    - **Satış sorumlusuna bildir** – Bu düğme yalnızca **Fiyat teklifleri** sekmesinde kullanılabilir. Seçili fiyat teklifinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin. Bildirimleri kimlerin ve nasıl görebileceği hakkında daha fazla bilgi için bkz. [Hareketler için değişiklik bildirimlerini inceleme ve işleme](#review-notifications).
+    - **Iskarta** – Bu düğme yalnızca **Stok** sekmesinde kullanılabilir. Seçili envanteri ıskartaya çıkarmak için seçin.
+    - **Geçmişi görüntüle** – **İŞlemleri açmak için İş etkisi** iletişim kutusunu kullanarak seçili işlemdeki işlemler geçmişini açın. (Örneğin, geçmiş bildirimlerin gönderilip gönderilmediğini veya işlemlerin engellenip engellenmediğini gösterir.) 
+    - **Tüm işlemleri görüntüle** – Sadece açık hareketlerin değil, tüm hareketlerin tam listesini açın.
+
+> [!IMPORTANT]
+> **Üretimi bildir** düğmesi, yalnızca sisteminizde *Üretim için mühendislik bildirimleri* özelliği açıksa kullanılabilir. Bu özelliğin ve önkoşulların nasıl açılacağı veya kapatılacağı ile ilgili yönergeler için, bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>İşlemler için değişiklik bildirimlerini gözden geçirme ve işleme
+
+Aldığınız değişiklik bildirimlerini aşağıdaki şekillerde okuyabilir ve işleyebilirsiniz:
+
+- Üretim emirleri dışında, sorumlu olduğunuz hareketlerin bildirimlerini değiştirme İşlem merkezinde görünür. Gezinti çubuğunun sağ tarafındaki **iletileri göster** düğmesi (çan sembolü), geçerli kullanıcı için bir Eylem Merkezi iletisinin ne zaman tarafınızca kullanılabileceğini gösterir. Eylem merkezini açmak ve iletileri incelemek için **iletileri göster** düğmesini seçebilir.
+- Mühendislik bildiriminin gönderildiği tüm üretim emirlerini görüntülemek için **Üretim emirleri \> Üretim emirleri \> Tüm üretim emirleri**'ne gidin. Ardından **Üretim emri** sekmesinde, **Mühendislik değişim talebi** grubunda **Mühendislik bildirimleri** sayfasını açmak için **Mühendislik bildirimleri**'ni açın.
+- Üretim emirleri için, yalnızca yönettiğiniz üretim kaynakları için geçerli olan değişiklik bildirimlerini gözden geçirmeyi seçebilirsiniz. **Üretim kat yönetimi** çalışma alanında, Eylem Bölmesi'nde, **Çalışma alanımı yapılandır** öğesini seçerek sayfaya filtre uygulayın ve böylece yalnızca yönettiğiniz üretim üniteleri, gruplar ve/veya kaynakları göstersin. **Özet** bölümünde, **değiştirilen ürünlere sahip Üretim emirleri** adlı bir kutucuk, filtre ayarlarınızla eşleşen bildirimlerin sayısını gösterir. Filtrenizin ölçütlerine uyan hareketlerin tam listesini gösteren **Mühendislik bildirimleri** sayfasını açmak için bu kutucuğu seçin.
+
+**Mühendislik bildirimleri** sayfasında üretim emri bildirimlerini gözden geçirirken, sütun değerlerini seçerek veya Eylem Bölmesi'ndeki ilgili komutları kullanarak ilgili değişiklik emirlerine veya üretim emirlerine bağlantıları takip edebilirsiniz. Bir değişikliği değerlendirmeyi tamamladıktan ve üretim emirlerini gerektiği gibi iptal ettikten veya değiştirdikten sonra, bir bildirimi çözümlenmiş olarak işaretleyebilirsiniz. Bildirimi seçin ve eylem bölmesinde **Çözümle** 'yi seçin. Bildirim tüm kullanıcıların görünümlerinden kaldırılır.
+
+> [!IMPORTANT]
+> Üretim emirleri ile ilgili bildirim gönderebilmeniz için sisteminizde *Üretim için mühendislik bildirimleri* özelliğinin açık olması gerekir. Bu özelliğin ve önkoşulların nasıl açılacağı veya kapatılacağı ile ilgili yönergeler için, bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Değişiklik isteğinden değişiklik emri oluşturma
 
@@ -142,13 +172,14 @@ Bir değişiklik isteğini gözden geçirirken Eylem Bölmesi'nde, **Değişikli
 
 [Mühendislik şirketleri ve veri sahipliği kuralları](engineering-org-data-ownership-rules.md) bölümünde açıklandığı gibi, değiştirebileceğiniz ürün verileri, çalıştığınız tüzel kişiliğin türüne (mühendislik şirketi veya operasyonel şirket) bağlı olarak değişir. Veri sahipliği kuralları, mühendislik değişikliği emirlerine de uygulanır. Bu nedenle, mühendislik değişikliği emrini oluşturduğunuz tüzel kişiliğe bağlı olarak farklı türde değişiklikler yapılabilir. Burada bazı örnekler verilmiştir:
 
-- Bir **mühendislik şirketindeki** mühendislik değişikliği emirleri durumunda, mühendislik verilerinde temel değişiklikler yapabilirsiniz. Örneğin, bir ürünün yeni sürümlerini oluşturabilir, ürün reçetesi üzerinden ürün yapısını değiştirebilir ve mühendislik özniteliği değerlerini değiştirebilirsiniz. Etkilenen her ürün için **Etki** alanında aşağıdaki değerlerden birini seçin:
+- Bir *mühendislik şirketindeki* mühendislik değişikliği emirleri durumunda, mühendislik verilerinde temel değişiklikler yapabilirsiniz. Örneğin, bir ürünün yeni sürümlerini oluşturabilir, ürün reçetesi üzerinden ürün yapısını değiştirebilir ve mühendislik özniteliği değerlerini değiştirebilirsiniz. Etkilenen her ürün için **Etki** alanında aşağıdaki değerlerden birini seçin:
 
     - **Hiçbiri**: Var olan ürün sürümünü güncelleştirin (sürüm içi güncelleştirme).
     - **Yeni sürüm**: Seçili ürün sürümünü temel alan yeni bir sürüm oluşturun.
-    - **Yeni ürün**: Seçili ürün sürümüne dayalı tamamen yeni bir ürün veya ürün varyantı oluşturun.
+    - **Yeni ürün**: Seçili ürün sürümüne dayalı tamamen yeni bir ürün oluşturun.
+    - **Yeni varyant**: Seçili ürün sürümünü temel alan yeni bir varyant oluşturun. Ürün reçetesi ve rota bilgileri kopyalanacaktır.
 
-- Bir **operasyonel şirketteki** mühendislik değişikliği emirleri durumunda, ürünün lojistik verilerini değiştirebilirsiniz. Örneğin, mevcut ürün reçetesini kaynak kullanımı ayarlarıyla zenginleştirebilir, yerel rotalar veya yerel ürün reçeteleri ekleyebilir ve yerel ambalaj malzemeleri, yağlama sıvıları veya yerel dilde talimatlar için yeni ürün reçetesi satırları ekleyerek ürün reçetesini zenginleştirebilirsiniz. Kullanıcıların operasyonel şirkette yaptıkları zenginleştirmeler, mühendislik şirketinden yeni güncellemeler gönderildiğinde korunur. Daha fazla bilgi için bkz. [Mühendislik şirketleri ve veri sahipliği kuralları](engineering-org-data-ownership-rules.md).
+- Bir *operasyonel şirketteki* mühendislik değişikliği emirleri durumunda, ürünün lojistik verilerini değiştirebilirsiniz. Örneğin, mevcut ürün reçetesini kaynak kullanımı ayarlarıyla zenginleştirebilir, yerel rotalar veya yerel ürün reçeteleri ekleyebilir ve yerel ambalaj malzemeleri, yağlama sıvıları veya yerel dilde talimatlar için yeni ürün reçetesi satırları ekleyerek ürün reçetesini zenginleştirebilirsiniz. Kullanıcıların operasyonel şirkette yaptıkları zenginleştirmeler, mühendislik şirketinden yeni güncellemeler gönderildiğinde korunur. Daha fazla bilgi için bkz. [Mühendislik şirketleri ve veri sahipliği kuralları](engineering-org-data-ownership-rules.md).
 
     Mühendislik değişikliği emirleri mühendislik şirketinde işlendiğinde, ürünler yalnızca mühendislik şirketinde oluşturulur ve/veya güncelleştirilir. Bu nedenle, ürün ana verilerinin de güncelleştirilmesi gerekiyorsa ürünleri operasyonel şirketlere de serbest bırakmanız gerekir.
 
@@ -185,3 +216,6 @@ Mühendislik değişikliği emirlerindeki alanların çoğu, serbest bırakılan
 | Çevre, sağlık ve güvenlik | Çevre, sağlık ve güvenlik kurallarının değişiklik için geçerli olup olmadığını belirtin. Evetse geçerli kuralları seçebilirsiniz. |
 
 Değişiklik bilgilerini etkilenen ürünler arasında kopyalamak için **Bilgileri koru/kopyala** düğmesini kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

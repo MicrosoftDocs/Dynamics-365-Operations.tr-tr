@@ -2,22 +2,22 @@
 title: Kredi yönetimi kurulumu
 description: Bu konuda, Kredi yönetimi için gereken kurulum açıklanmaktadır.
 author: JodiChristiansen
-ms.date: 09/04/2019
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753680"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182466"
 ---
 # <a name="credit-management-setup"></a>Kredi yönetimi kurulumu 
 
@@ -39,7 +39,7 @@ Siparişteki ödeme koşulları müşterinin varsayılan ödeme koşullarıyla e
 
 Ödeme koşullarının derecelendirmeleri etkinse, siparişteki ödeme koşullarının müşteri için varsayılan ödeme koşullarına göre daha yüksek bir derecede olması durumunda, satış siparişleri beklemeye alınır.
 
-Ödeme koşulları sıralamalarını **Kredi yönetimi \> Kurulum \> Kredi yönetimi kurulumu \>> Ödeme koşullarını** sırala sayfasında ayarlayabilirsiniz.  
+Ödeme koşulları sıralamalarını ayarlamak için **Alacak ve tahsilatlar \> Kurulum \> Alacak yönetimi kurulumu \>> Ödeme koşullarını sırala**'ya gidin.  
 
 ### <a name="ranking-settlement-discounts"></a>Kapatma iskontolarını derecelendirme
 
@@ -86,7 +86,7 @@ Hesap durumlarını **Hesap durumları** sayfasında (**Kredi ve koleksiyonlar \
 
 ## <a name="scoring-groups"></a>Puanlama grupları
 
-Risk faktörleri ve risk faktörlerini ölçmek için kullanılacak ölçütleri tanımlamak için Puanlama grupları ayarlayabilirsiniz. Bir müşteri hakkındaki bilgiler bir puanlama grubuna uygulandığı zaman, her risk faktörü için bir puan hesaplanır ve müşteriyi bir risk grubuna koymak için kullanılır. Risk grubu, kredi tutarını belirlemek ve otomatik kredi limitlerini hesaplamak için kullanılabilir.
+Risk faktörleri ve risk faktörlerini ölçmek için kullanılacak ölçütleri tanımlamak için **Puanlama grupları** ayarlayabilirsiniz. Bir müşteri hakkındaki bilgiler bir puanlama grubuna uygulandığı zaman, her risk faktörü için bir puan hesaplanır ve müşteriyi bir risk grubuna koymak için kullanılır. Risk grubu, kredi tutarını belirlemek ve otomatik kredi limitlerini hesaplamak için kullanılabilir.
 
 **Puanlama gruplarını** Puanlama grupları sayfasında (**Kredi ve koleksiyonlar \> Kurulum \> Kredi yönetimi kurulumu \> Risk \> Puanlama grupları**) oluşturabilirsiniz.
 

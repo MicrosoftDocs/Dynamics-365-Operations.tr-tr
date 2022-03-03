@@ -2,25 +2,25 @@
 title: Üç yönlü eşleştirme ilkeleri
 description: Bu konuda üç yönlü eşleştirme örnekleri sağlanmıştır.
 author: abruer
-ms.date: 10/26/2017
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d33a8cb001f1cd2f79c2a174710af90af423b9b3abc66eb80aa4811953ea4a14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722851"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8110005"
 ---
 # <a name="three-way-matching-policies"></a>Üç yönlü eşleştirme ilkeleri
 
@@ -42,15 +42,15 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 
 ### <a name="prerequisites"></a>Önkoşullar
 
--   Ken, eşleştirme ilkesini tüzel kişilik düzeyinde Üç yönlü eşleştirme olarak ayarlar.
--   Ken, tüzel kişilikte Başlık eşleştirme durumu geçişini otomatik olarak güncelleştir seçeneğini Evet olarak ayarlar.
--   Ken, tüzel kişilik için Fiyat toplamları alanını eşleştir bölümünü Yüzde olarak ayarlar ve tolerans değeri olarak %15 girer.
--   Ken, madde 1500 - CNC Milicron Makine için madde düzeyinde eşleştirme ilkesini Üç yönlü eşleştirme olarak ayarlar. Bu madde, Fabrikam'de üretim için kullanılan bir varlık maddesidir. Bu maddeye ilişkin faturalar fiyatlar için satınalma siparişi satırlarıyla ve miktarlar için ürün girişleriyle eşleştirilir.
+-   Ken, **Eşleştirme ilkesini** tüzel kişilik düzeyinde **Üç yönlü eşleştirme** olarak ayarlar.
+-   Ken, tüzel kişilikte **Başlık eşleştirme durumunu otomatik olarak güncelleştir** düğmesini **Evet** olarak ayarlar.
+-   Ken, tüzel kişilik için **Fiyat toplamlarını eşleştir** alanını **Yüzde** olarak ayarlar ve **Tolerans yüzdesi** olarak %15 girer.
+-   Ken, madde 1500 - CNC Milicron Makine için madde düzeyinde eşleştirme ilkesini **Üç yönlü eşleştirme** olarak ayarlar. Bu madde, Fabrikam'de üretim için kullanılan bir varlık maddesidir. Bu maddeye ilişkin faturalar fiyatlar için satınalma siparişi satırlarıyla ve miktarlar için ürün girişleriyle eşleştirilir.
 -   Tony, beş adet CNC Milicron Makine için bir talep girer. Fabrikam'da satınalma siparişi görevlisi olan Alicia, maddeleri tedarik etmek için Contoso adlı bir tüzel kişiliğe bir satınalma siparişi düzenler.
 
     | Madde kodu                 | Miktar | Birim fiyat | Net tutar | Masraf kodu        | Masraf değeri |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – CNC Milicron Makine | 5        | 8.000,00   | 40.000,00  | Sevkiyat ve ambalaj | 3,000.00      |
+    | 1500 – CNC Milicron Makine | 5        | 8.000,00   | 40.000,00  | Sevkiyat ve ambalaj | 3.000,00      |
 
 -   Contoso'da alacak hesapları görevlisi olan Arnie o haftayla ilgili sevkiyatları inceler. Arnie, CNC Milicron Makinelerinin teslimatı için Fabrikam'a faturalanacak sevkiyat hareketlerini seçer. Tamer, sevkiyat ve ambalaj için de bir ücret ekler. Fabrikam, bu gideri kıymet maliyetinin bir parçası olarak değerlendirecektir.
 
@@ -65,7 +65,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 
 Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 
-| Ürün                        | Miktar | Birim fiyat | Net tutar |
+| Madde                        | Miktar | Birim fiyat | Net tutar |
 |-----------------------------|----------|------------|------------|
 | 1500 – CNC Milicron Makine | 5        | 8.100,00   | 40,500.00  |
 | Sevkiyat ve ambalaj       |          |            | 4,000.00   |
@@ -91,11 +91,11 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 
 ### <a name="prerequisites"></a>Önkoşullar
 
--   Ken, eşleştirme ilkesini tüzel kişilik düzeyinde İki yönlü eşleştirme olarak ayarlar.
--   Ken, tüzel kişilik için Fiyat toplamları alanını eşleştir bölümünü Yüzde olarak ayarlar ve tolerans değeri olarak %10 girer.
+-   Ken, **Eşleştirme ilkesini** tüzel kişilik düzeyinde **İki yönlü eşleştirme** olarak ayarlar.
+-   Ken, tüzel kişilik için **Fiyat toplamlarını eşleştir** alanını **Yüzde** olarak ayarlar ve **Tolerans yüzdesi** olarak **%10** girer.
 -   Ken tüm maddeler için birim fiyat toleransını %2 olarak ayarlar.
--   Cassie PH2500 - Bilgisayar maddesi ve Contoso satıcısı için madde ve satıcı bileşimi düzeyinde eşleştirme ilkesini Üç yönlü eşleştirme olarak ayarlar.
--   Fabrikam'n Malezya bölümünde satınalma görevlisi olan Alicia, aşağıdaki tabloda gösterildiği şekilde üç madde tedarik etmek için Contoso'ya satınalma siparişleri düzenler. Satınalma siparişini oluştururken, kablosuz fare için eşleştirme ilkesinin iki yönlü eşleştirme değil üç yönlü eşleştirme olmasını seçer.
+-   Cassie PH2500 - Bilgisayar maddesi ve Contoso satıcısı için madde ve satıcı bileşimi düzeyinde **Eşleştirme ilkesini** **Üç yönlü eşleştirme** olarak ayarlar.
+-   Fabrikam'n Malezya bölümünde satınalma görevlisi olan Alicia, aşağıdaki tabloda gösterildiği şekilde üç madde tedarik etmek için Contoso'ya satınalma siparişleri düzenler. Satınalma siparişini oluştururken, kablosuz fare için **Eşleştirme ilkesinin** iki yönlü eşleştirme değil üç yönlü eşleştirme olmasını seçer.
 
     | Madde kodu           | Miktar | Birim fiyat | Net tutar | Eşleştirme ilkesi (varsayılan giriş) | Eşleştirme ilkesi (satınalma siparişi satırında) |
     |-----------------------|----------|------------|------------|---------------------------------|----------------------------------------------|
@@ -114,7 +114,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 
 Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 
-| Ürün                  | Miktar | Birim fiyat | Net tutar |
+| Madde                  | Miktar | Birim fiyat | Net tutar |
 |-----------------------|----------|------------|------------|
 | PH2500 – Bilgisayar     | 2        | 2,500,00   | 5.000,00   |
 | MM01 – Kablosuz Fare | 2        | 41.00      | 82.00      |
@@ -134,7 +134,7 @@ Aşağıdaki öğeleri not alın:
 -   MM01 – Kablosuz Fare satırı için, Ürün girişi miktarı eşleştirme sütununda, fatura satırı bir ürün girişiyle eşleşmediğinden bir uyarı simgesi bulunur. %2 net birim fiyat toleransı aşıldığından Birim fiyat eşleştirme sütununda bir uyarı simgesi bulunur.
 -   USB Sürücü satırı için, iki yönlü eşleştirme fatura satırı ile ürün giriş satırı miktarlarını eşleştirmediğinden, ürün giriş miktarı eşleştirme sütunu boş bırakılır.
 
-Deftere fatura eşleştirme uyuşmazlıklarıyla nakledilecek faturalar için onay gerekiyorsa, faturanın fiyat eşleştirme hataları ve miktar eşleştirme hatalarıyla nakledilebilmesi için Fatura eşleştirme ayrıntıları sayfasındaki Eşleştirme uyuşmazlıklarıyla deftere nakli onayla seçeneğinin seçilmesi gerekir. Onay gerekli değilse, başka bir deftere nakil hatası olmaması durumunda fatura işleme devam edebilir.
+Deftere fatura eşleştirme uyuşmazlıklarıyla nakledilecek faturalar için onay gerekiyorsa, faturanın fiyat eşleştirme hataları ve miktar eşleştirme hatalarıyla nakledilebilmesi için **Fatura eşleştirme ayrıntıları** sayfasındaki **Eşleştirme uyuşmazlıklarıyla deftere nakli onayla** seçeneğinin seçilmesi gerekir. Onay gerekli değilse, başka bir deftere nakil hatası olmaması durumunda fatura işleme devam edebilir.
 
 
 Daha fazla bilgi için bkz. [Borç hesapları fatura eşleştirmesine genel bakış](accounts-payable-invoice-matching.md).

@@ -2,26 +2,23 @@
 title: Küme konumu dolu
 description: Bu konuda, Küme konumu dolu özelliğiyle ilgili bilgiler verilir. Bu özellik, küme malzeme çekme kullanılırken iş kesme kuralına ait daha katı zorlamaya olanak sağlayan bir alternatif sunar, çünkü konteyner ve sepetlerin hacimleri ile ilişki kısıtlamalarda daha büyük hata marjlarına olanak sağlar.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439658"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102850"
 ---
 # <a name="cluster-position-full"></a>Küme konumu dolu
 
@@ -31,14 +28,11 @@ ms.locfileid: "4439658"
 
 Bu özellik, bir kümedeki çalışma birimlerinden birinde **Dolu** düğmesinin çalıştırılmasını sağlar. Eski sürümlerde bu seçenek, küme çekmede değil, yalnızca normal sipariş çekmesinde kullanılabiliyordu. Ancak, bu özellik kalan çalışmayı iptal eden standart **Dolu** düğmesinden farklıdır. Kullanıcının aynı kümeye başka bir bölme eklemesini önermez ve otomatik olarak yeni bir iş oluşturmaz.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>Küme konumu dolu özelliğini açma
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Küme konumu dolu özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+Bu konuda açıklanan işlevi kullanmak için *Küme konumu dolu* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Küme konumu dolu* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Küme konumu dolu*
-
-## <a name="setup"></a>Ayar
+## <a name="setup"></a>Kurulum
 
 Bu bölümde, yönergeler ile *küme konumu dolu* özelliğinin nasıl ayarlanacağını ve kullanılacağını gösteren bir örnek verilmiştir.
 
@@ -214,7 +208,7 @@ Her biri iki çekme satırı içeren iki iş kodu oluşturulmalıdır. İş kiml
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Mobil cihaz akışı yürütme – ürün için çalışma onayı kurulumu
 
-1. Ambar uygulamasında ambar *61*'deki bir kullanıcı olarak oturum açın.
+1. Ambar *61*'de bir kullanıcı olarak Ambar Yönetimi mobil uygulamasına oturum açın.
 1. **Giden \> Küme malzeme çekme oluşturma** bölümüne gidin.
 
     **GÖREV: Kümeye iş ata** sayfası görüntülenir.
@@ -276,3 +270,6 @@ Bu senaryoda, küme çekme tamamlanmıştır ve kullanıcı, pozisyon 1 ve pozis
     Bir "Küme Tamamlandı" iletisi alırsınız.
 
 Artık kalan miktarı çekmek için **Satış Malzeme Çekme** menü öğesini kullanabilirsiniz. Daha sonra, maddeleri hazırlama yerleşiminden yükleme noktasına taşımak için **Satış yükleme** menü öğesini kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

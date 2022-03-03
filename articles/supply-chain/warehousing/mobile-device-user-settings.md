@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901908"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103725"
 ---
 # <a name="mobile-device-user-settings"></a>Mobil cihaz kullanıcı ayarları
 
@@ -39,12 +39,9 @@ Bu özellik, çalışanların yeni bir cihaz kullanmaya başladıklarında daha 
 > [!IMPORTANT]
 > *Mobil cihaz kullanıcı ayarları* özelliği yalnızca yeni Ambar Yönetimi mobil uygulaması için geçerlidir. Eski ambar uygulamasıyla çalışmaz.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Mobil cihaz kullanıcı ayarları özelliğini açma
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Mobil cihaz kullanıcı ayarları özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları*
+Bu konuda açıklanan işlevi kullanmak için, *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğinin sisteminiz için açık olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="create-and-manage-user-settings"></a>Kullanıcı ayarları oluşturma ve yönetme
 

@@ -1,12 +1,10 @@
 ---
 title: Kullanıcıları güvenlik rollerine atama
-description: Finance and Operations uygulamalarına erişmek için kullanıcıların güvenlik rolleri atanmış olmalıdır.
+description: Finance and Operations uygulamalarına erişim sağlamak için kullanıcıların güvenlik rollerine atanmış olmaları gerekir.
 author: Peakerbl
-manager: AnnBe
-ms.date: 05/06/2020
+ms.date: 02/09/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679876"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105550"
 ---
-# <a name="assign-users-to-security-roles"></a>Kullanıcıları güvenlik rollerine atama
+# <a name="manage-users-and-security-roles"></a>Kullanıcıları ve güvenlik rollerini yönetme
 
 [!include [banner](../../includes/banner.md)]
 
-Finance and Operations uygulamalarında ortak yetenekler dışında herhangi bir şey kullanmak için, kullanıcıların güvenlik rollerine atanması gerekir. Kuralları ve iş verilerini temel alarak kullanıcıları rollere otomatik olarak atayabilir, kullanıcıları otomatik rol atama dışında tutabilir veya kullanıcıları rollere el ile ekleyebilirsiniz.
+Finans ve Operasyon uygulamalarında ortak yetenekler dışında herhangi bir şey kullanmak için, kullanıcıların güvenlik rollerine atanması gerekir. Kuralları ve iş verilerini temel alarak kullanıcıları rollere otomatik olarak atayabilir, kullanıcıları otomatik rol atama dışında tutabilir veya kullanıcıları rollere el ile ekleyebilirsiniz.
 
 ## <a name="automatically-assign-users-to-roles"></a>Kullanıcıları rollere otomatik olarak ata
 Bu yordam sistem yöneticilerinin kullanıcıları iş verilerine dayalı olarak rollere otomatik olarak nasıl atayabileceklerini açıklar. 
@@ -42,6 +40,8 @@ Bu yordam sistem yöneticilerinin kullanıcıları iş verilerine dayalı olarak
 10. Rol atama sorgusunun doğru olduğunu onaylamak için çeşitli kullanıcılara atanan rolleri gözden geçirin. Gerekirse ayarlayın ve yeniden çalıştırın.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Kullanıcıları otomatik rol atamasının dışında bırakmak
+Bu yordamda kullanıcıların otomatik rol atamasından nasıl hariç tutulacağı açıklanmaktadır.
+
 1. Sayfayı kapatın.
 2. **Gezinti bölmesi > Modüller > Sistem yönetimi > Güvenlik > Kullanıcılara roller atayın**'a gidin.
 3. Ağaçta, 'Muhasebe yöneticisi' seçin. Bir rol seçin. Bu örnek için, Muhasebe yöneticisi'ni seçin.  
@@ -57,3 +57,19 @@ Güvenlik rollerine el ile atanan kullanıcıların yönetici tarafından el ile
 2. Ağaçta bir rol seçin, **Role atanmış kullanıcılar** menüsünde, **Kullanıcıları el ile ata / dışarıda tut**'u seçin.
 4. **Kullanıcıları role ata veya rolün dışında tut**'ta, role atanmamış olan kullanıcılar **Atama modu** **Hiçbiri** olarak listelenir. Role atanması gereken bir veya daha fazla kullanıcı seçin.
 5. **Eylem bölmesi**'nde, **Role ata**'yı seçin. **Atama modu** **El ile** olarak güncelleştirilir ve kullanıcılara atanmış yeni bir rol bulunur.
+
+## <a name="manually-remove-users-from-roles"></a>Kullanıcıları rollerden el ile kaldırma
+Güvenlik rollerine el ile atanan kullanıcıların yönetici tarafından el ile kaldırılması gerekir. Bu kullanıcılar otomatik rol ataması kuralları tarafından rollerden kaldırılmaz.
+
+1. **Gezinti bölmesi > Modüller > Sistem yönetimi > Güvenlik > Kullanıcılara roller atayın**'a gidin.
+2. Bir kullanıcıyı kaldırmak için şu adımları izleyin:
+   1. Ağaçta, bir rol seçin. 
+   2. **Role atanan kullanıcılar** alanında, kaldırılması gereken kullanıcıyı seçin.
+   3. **Kaldır**'ı seçin ve kullanıcı rolden kaldırılır.
+3. Birden çok kullanıcıyı kaldırmak için şu adımları izleyin:
+   1. Ağaçta, bir rol seçin. 
+   2. **Role atanmış kullanıcılar** alanında, **Kullanıcıları el ile ata/dışarıda tut**'u seçin.
+   3. **Kullanıcıları role ata veya rolün dışında tut** sayfasında role atanmamış olan kullanıcılar **Atama modu** sütununda **Hiçbiri** olarak listelenir. Rolün dışında bırakılması gereken kullanıcıları seçin.
+   4. **Eylem bölmesi**'nde, **Rol dışında bırakın**'ı seçin. **Atama modu** sütunu **El ile** olarak güncelleştirilir ve kullanıcılar rolün dışında bırakılır.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

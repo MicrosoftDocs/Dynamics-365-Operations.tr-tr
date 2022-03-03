@@ -2,26 +2,23 @@
 title: İşteki iş havuzunu değiştir
 description: Bu konu, varolan işin iş havuzunu değiştirmek için iş öğelerinin İş havuzunu değiştir düğmesini nasıl kullanabileceğinizi açıklamaktadır.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439336"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102875"
 ---
 # <a name="change-work-pool-on-work"></a>İşteki iş havuzunu değiştir
 
@@ -31,12 +28,9 @@ ms.locfileid: "4439336"
 
 *İşte iş havuzunu değiştir* özelliği iş öğeleri için Eylem Bölmesine bir **İş havuzunu değiştir** düğmesi ekler. Bu şekilde, ambar yöneticileri mevcut işin iş havuzunu kolayca değiştirebilir. Bu özellik, yöneticilerin ambar atölyesindeki değişikliklere hızla tepki vermesine olanak tanır ve değişen durumlara uyum yeteneği ve işi başka bir iş havuzuna aktarma gereksinimini geliştirmeye yardımcı olur.
 
-## <a name="turn-on-the-change-work-pool-on-work-feature"></a>İşte iş havuzunu değiştir özelliğini açma
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>İşteki iş havuzunu değiştirme özelliğini açma veya kapatma
 
-Bu özelliği ayarlamaya veya kullanmaya başlamadan önce, sisteminizde kullanılabilir olduğundan emin olmanız gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Değişiklik adı:** *İşte iş havuzunu değiştir*
+Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *İşteki iş havuzunu değiştirme* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>İşte iş havuzunu değiştir özelliğini ayarlama
 
@@ -149,3 +143,6 @@ Oluşturulan işi görüntülemek ve iş havuzunu yönetmek için **İş ayrınt
 > **İş havuzunu değiştir** iletişim kutusu göründüğünde, **İş havuzu kimliği** alanı varsayılan olarak boş olabilir. Değişiklikleri uygulamak için **Tamam**'ı seçtiğinizde alan boşsa, iş havuzunu tamamen işten kaldırırsınız.
 >
 > İş havuzlarını değiştirmeye ek olarak, bu yordamı iş havuzu olmayan bir iş öğesine iş havuzu eklemek veya iş havuzu olan bir iş öğesinden iş havuzunu kaldırmak için de kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

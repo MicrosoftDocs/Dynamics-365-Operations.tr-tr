@@ -1,27 +1,24 @@
 ---
 title: Master planlama çalışmasını izleme
 description: Bu konu, üretim planlayıcısının bir master planlamanın devam edip etmediğini nasıl görebileceğini açıklar.
-author: josaw1
-manager: tfehr
+author: ChristianRytt
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439074"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103175"
 ---
 # <a name="monitor-a-master-planning-run"></a>Master planlama çalışmasını izleme
 
@@ -31,12 +28,11 @@ ms.locfileid: "4439074"
 
 **Master planlama ilerlemesini görüntüleme** sayfasından, geçmiş master planlama çalışmalarının ayrıntılarını Gantt şeması olarak görüntüleyebilirsiniz. Bu işlev, master planlamanın çeşitli aşamalarında harcanan zamanı anlamanıza yardımcı olabilir. Var olan bir etkin planlama işi için ilerlemeyi izlemek ve tahmini kalan süreyi görüntülemek üzere **Master planlama ilerlemesini görüntüleme** sayfası kullanılabilir.
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Master plan ilerlemesi görselleştirme özelliğini açma ve kullanma
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Master plan ilerlemesini görselleştirme özelliğini açma veya kapatma
 
-Bu işlevi kullanmak için aşağıdaki adımları izleyin.
+Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Master plan ilerlemesini görselleştirme* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-1. **Özellik yönetimi** çalışma alanındaki **Yeni** sekmesinde, listeden **Master planlama ilerlemesi görselleştirmesi**'ni seçin. Özellik, **Yeni** sekmesinde görünmüyorsa **Etkileştirilmemiş** ve **Tümü** sekmelerine bakın.
-1. **Şimdi etkinleştir**'i seçin. Alternatif olarak, **Planla**'yı seçin ve ardından özelliğin açılmasını istediğiniz zamanı seçin.
+### <a name="use-the-master-plan-progress-visualization-feature"></a>Master plan ilerlemesi görselleştirme özelliğini kullanma
 
 **Master planlama ilerlemesini görüntüleme** sayfası hem geçmiş planlama işlerini hem de etkin planlama işlerini görüntüleyebilir. 
 
@@ -127,3 +123,6 @@ Renk, Gantt şemasında yalnızca en düşük düzeyde gösterilir. Master planl
 1. Kılavuzda, **Alan** alanının **Madde numarası** olarak ayarlandığı satırı seçin.
 1. **Ölçütler** alanına bir değer girin.
 1. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

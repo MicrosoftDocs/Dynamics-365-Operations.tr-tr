@@ -1,12 +1,10 @@
 ---
 title: Kıymet Yönetimi parametreleri
 description: Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgili genel parametrelerin ayarlanması gerekir.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020666"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105501"
 ---
 # <a name="asset-management-parameters"></a>Kıymet Yönetimi parametreleri
 
@@ -51,7 +49,7 @@ Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgil
 - **Varsayılan iş emri türü** bir iş emri oluştururken standart ayarları tanımlar.  
 - **Önleyici iş emri türü** bakım planlarından iş emri oluştururken kullanılan iş emri türünü tanımlar. Bu alan boş bırakılırsa **Varsayılan iş emri türü** alanındaki iş emri türü kullanılır.  
 - **İlgili iş emri maskesi** alanında bir iş emriyle ilgili olabilecek iş emirlerinin maksimum sayısını tanımlayın. Örneğin, ## ile ilgili 99'a kadar iş emriniz olabilir. Bir maskeyi burada açıklandığı şekilde tanımlarsanız ilgili iş emirleri [bir iş emrinin ilgili olduğu iş emrinin iş emri kimliği]-01, -02, -03 vs. olarak numaralandırılır. Bu alanda bir maske tanımlamazsanız ilgili bir iş emri sonraki sıralı iş emri kimliğini alır.  
-- İş emirlerinde kayıtlı hataları ilgili bakım taleplerine otomatik olarak kopyalamak istiyorsanız **Hataları kopyala** düğmesinde **Evet** seçeneğini belirleyin. 
+- Bakım taleplerinde kayıtlı hataları ilgili iş emirlerine otomatik olarak kopyalamak istiyorsanız **Hataları kopyala** için **Evet** seçeneğini belirleyin. 
 - Tüm ilgili iş emri işleri aynı işlem yapılacak yerleşime başvuruyorsa **Düzey** alanında iş emrine otomatik olarak eklenen işlem yapılacak yerleşim düzeyini tanımlayın. İş emri işlerinin tümü tanımlanan düzeyde aynı işlem yapılacak yerleşime başvurmuyorsa iş emrinde **İşlem yapılacak yerleşim** alanı boş bırakılır. Örneğin, Bu alana "1" sayısını yazarsanız bu bir işlem yapılacak yerleşim yapısının en üst düzeyi olur. Bu alana "0" sayısını yazarsanız belirli bir işlem yapılacak yerleşim tanımlamamış olursunuz ve işlem yapılacak yerleşimin iş emrine eklenebilmesi için yalnızca bir iş emrindeki tüm iş emri işlerinin aynı işlem yapılacak yerleşimle ilgili olması gerekir.  
 - Bir iş emrindeki tüketimi deftere naklederken kullanılan günlükler **Saat**, **Madde** ve **Gider** alanlarının **Genel** hızlı sekmesinden seçilebilir.  
 - **Ürün dili kaynağı** alanında Kıymet yönetimi raporlarında ürün adları için kullanılacak dili seçin. Şirket hesabında dil ayarını veya oturum açmış olan kullanıcı için dil ayarını seçebilirsiniz.  
@@ -101,8 +99,11 @@ Aşağıdaki listesinde açıklanan alanların tümü iş emri planlaması sıra
 
 ## <a name="the-document-types-tab"></a>Belge türleri sekmesi
 
-İş emri raporuyla ilgili ekleri yazdırmak için kullanılabilir olması gereken belge türlerini seçin. Bu işlem **Kullanılabilir** bölümünde bir belge türüne ve ardından ![ileri ok](media/15-setup-for-objects.png) düğmesine tıklayarak yapılır. Seçili belge türünü kaldırmak isterseniz **Seçili** bölümünde belge türünü seçin ve ![geri ok](media/16-setup-for-objects.png) düğmesine tıklayın.
+İş emri raporuyla ilgili ekleri yazdırmak için kullanılabilir olması gereken belge türlerini seçin. Bu işlem **Kullanılabilir** bölümünde bir belge türünü ve ardından ![ileri ok.](media/15-setup-for-objects.png) düğmesi seçilerek yapılır. Seçili belge türünü kaldırmak isterseniz **Seçili** bölümünde belge türünü seçin ve ![geri ok](media/16-setup-for-objects.png) düğmesine tıklayın.
 
 ## <a name="the-number-sequences-tab"></a>Numara serileri sekmesi
 
 Gereken numara serilerini bu bölümde seçin. Kıymetler için iki numara sırası vardır: Biri el ile oluşturulan kıymetler ve diğeri de bekleyen kıymetler aracılığıyla oluşturulan kıymetler içindir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

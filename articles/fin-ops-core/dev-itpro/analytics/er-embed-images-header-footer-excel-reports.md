@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344132"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323798"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel biçiminde bir rapor oluşturmak için bir ER biçimi tasarlama
 
@@ -153,9 +153,9 @@ Dynamics 365 Finance'un geçerli örneğine standart ER yapılandırmalarını e
 3. **Yapılandırmalar** sayfasında sol bölmedeki yapılandırma ağacında, **Fatura modeli**'ni genişletin.
 4. Seçili **Serbest metin faturası (Excel)** ER biçimine ek olarak, gerekli diğer ER yapılandırmaları da içer aktarılmıştır. Aşağıdaki ER yapılandırmaların konfigürasyon ağacında kullanılabilir durumda olduğundan emin olun:
 
-    - **Fatura modeli** – Bu yapılandırma, faturalama iş etki alanının veri yapısını temsil eden [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşenini içerir.
-    - **Fatura modeli eşleştirmesi** – Bu yapılandırma, veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulduğunu açıklayan [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni içerir.
-    - **Serbest metin faturası (Excel)** – Bu yapılandırma [biçim ](general-electronic-reporting.md#FormatComponentOutbound) ve biçim eşleme ER bileşenlerini içerir. Biçim bileşeni, Excel biçimindeki bir şablonu esas alan rapor düzenini belirtir. Biçim eşleme bileşeni model veri kaynağını içerir ve çalışma zamanında bu veri kaynağı kullanılarak rapor düzeninin nasıl doldurulacağını belirtir.
+    - **Fatura modeli** – Bu yapılandırma, faturalama iş etki alanının veri yapısını temsil eden veri modeli bileşenini içerir.
+    - **Fatura modeli eşleştirmesi** – Bu yapılandırma, veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulduğunu açıklayan model eşleme bileşeni içerir.
+    - **Serbest metin faturası (Excel)** – Bu yapılandırma biçim  ve biçim eşleme ER bileşenlerini içerir. Biçim bileşeni, Excel biçimindeki bir şablonu esas alan rapor düzenini belirtir. Biçim eşleme bileşeni model veri kaynağını içerir ve çalışma zamanında bu veri kaynağı kullanılarak rapor düzeninin nasıl doldurulacağını belirtir.
 
 ![Yapılandırmalar sayfasındaki içe aktarılan ER yapılandırmaları.](./media/er-embed-images-header-footer-excel-reports-imported-solution.png)
 

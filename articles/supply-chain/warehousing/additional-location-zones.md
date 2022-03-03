@@ -2,28 +2,25 @@
 title: Ek yerleşim bölgeleri
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'a eklenen yeni bölge bölgelerinin genel görünümünü sağlar .
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: dd9e97cabe5e3d3bdc261a7280930b73eb8e1419
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439664"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103850"
 ---
 # <a name="additional-location-zones"></a>Ek yerleşim bölgeleri
 
@@ -33,12 +30,9 @@ Microsoft Dynamics 365 Supply Chain Management'ta üç yeni bölge alanı vardı
 
 Bölge alanlarını kullanmak için ek bir kurulum gerekmez.
 
-## <a name="turn-on-the-additional-location-zone-feature"></a>Ek konum dilimi özelliğini aç
+## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>Ek yerleşim bölgesi özelliğini açma veya kapatma
 
-*İlave konum bölgesi* özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Ek konum bölgesi aç*
+Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Ek yerleşim bölgesi* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="use-location-zones"></a>Yerleşim bölgelerini kullan
 
@@ -58,3 +52,6 @@ Bölge alanlarını kullanmak için ek bir kurulum gerekmez.
 7. **Oluştur**'u seçin.
 8. Yeni konumların eklendiğini bildiren iletiler alırsınız. İletileri görüntülemek için **iletileri göster** düğmesini seçin.
 9. **Ambar yönetimi \> Kurulum \> Ambar \> Konumlar** öğesine gidin. Yeni konumlar listede görünür ve tüm bölge alanları (yani, varolan bölge alanı ve yeni ek bölge alanları) kullanılabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

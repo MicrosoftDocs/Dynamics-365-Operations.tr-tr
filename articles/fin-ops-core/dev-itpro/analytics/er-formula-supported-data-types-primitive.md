@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72c372a4d9b6af337731ff0bbd750b3b58f27bb79cb3813a0b5e4f79707d9f5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730619"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323652"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Elektronik raporlama formülleri için desteklenen temel veri türleri
 
@@ -101,7 +101,7 @@ Karşılaştırma [operatörleri](er-formula-language.md#Operators), *tarih saat
 
 ## <a name="enumeration"></a><a name="enumeration"></a>Numaralandırma
 
-*Numaralandırma* temel veri türü, bir harfler listesidir. Uygulama [kaynak kodunda](../dev-ref/xpp-data-primitive.md#enum) tanımlanan numaralandırmaları kullanabilirsiniz. Ayrıca, ER [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) ve ER [biçimi](general-electronic-reporting.md#FormatComponentOutbound) bileşenlerinde kendi numaralandırmalarınızı da oluşturabilirsiniz.
+*Numaralandırma* temel veri türü, bir harfler listesidir. Uygulama [kaynak kodunda](../dev-ref/xpp-data-primitive.md#enum) tanımlanan numaralandırmaları kullanabilirsiniz. Ayrıca, ER veri modeli ve ER biçimi bileşenlerinde kendi numaralandırmalarınızı da oluşturabilirsiniz.
 
 Bir uygulama *numaralandırması*, herhangi bir ER model eşleme ve ER biçimi ifadelerinde kullanılabilir.
 

@@ -2,26 +2,23 @@
 title: Yerleşim ürün boyutu karıştırması
 description: Bu konu, konum ürün boyutu karıştırma hakkında bilgiler sağlar. Bu konum profili işlevi, kullanım sektörü gibi ürün çeşitleri veya boyutları olan ürünler kullanıldığında yerleşim yönetiminin artırılmasına yardımcı olur. Konfigürasyonların, renklerin, stillerin ve boyutların belirli bir yerleşim profili için karıştırılıp karışlamayacağını veya bu boyutlardan yalnızca birinin veya bunların bir bileşimin aynı konuma konulacağını belirlemenize olanak tanır.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439621"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103500"
 ---
 # <a name="location-product-dimension-mixing"></a>Yerleşim ürün boyutu karıştırması
 
@@ -29,14 +26,11 @@ ms.locfileid: "4439621"
 
 Konum ürün boyutu karıştırma, kullanım sektörü gibi ürün çeşitleri veya boyutları olan ürünler kullanıldığında yerleşim yönetiminin artırılmasına yardımcı olur. Konfigürasyonların, renklerin, stillerin ve boyutların belirli bir yerleşim profili için karıştırılıp karışlamayacağını veya bu boyutlardan yalnızca birinin veya bunların bir bileşimin aynı konuma konulacağını belirlemenize olanak tanır.
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>Ürün boyut karıştırma özelliğini aç
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Yerleşim ürün boyutu karıştırma özelliğini açma veya kapatma
 
-Konum ürün boyutu karıştırma özelliğini kullanabilmeniz için sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+Bu konuda açıklanan işlevi kullanmak için *Yerleşim ürün boyutu karıştırma* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yerleşim ürün boyutu karıştırma* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Konum Ürün boyut karıştırma*
-
-## <a name="setup"></a>Ayar
+## <a name="setup"></a>Kurulum
 
 Ambardaki her konumun, konum özelliklerini açıklayan, kendisiyle ilişkili bir konum profiline sahip olması gerekir. Bu nedenle, oluşturulduktan sonra, aynı yerleşim profilini kullanan tüm konumlar ürün boyutu karıştırmaya izin verebilir.
 
@@ -207,9 +201,9 @@ Başlamadan önce, ambar *24*'te *toplu* yerleşim profili kullanan boş konumla
 
 1. **Kaydet**'i seçin.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Ambar uygulamasında satınalma siparişi satırları al
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasında satın alma siparişi satırları alma
 
-1. Ambar *24*'te etkin olan bir kullanıcı olarak ambarı uygulamasına oturum açın.
+1. Ambar *24* için etkinleştirilen bir kullanıcı olarak Ambar Yönetimi mobil uygulamasında oturum açın.
 1. **Gelen** menüsünü seçin.
 1. **Satın alma satırı alma**'yı seçin.
 1. **PONUM** alanını seçin ve satınalma siparişi numarasını girin.
@@ -239,3 +233,5 @@ Başlamadan önce, ambar *24*'te *toplu* yerleşim profili kullanan boş konumla
 
 > [!TIP]
 > Bu senaryoyu tekrarlayabilirsiniz ancak bu sefer *TOPLU* **yerleşim profillerindeki** **Ürün boyut karışımına izin ver** hızlı sekmesi altında **Boyut**  - *Hayır* ayarlayın, böylece ürün boyutlarının hiçbiri karışmaz. Bu durumda, satınalma siparişi aldığınızda, her ürün çeşidi yeni bir konuma yerleştirilecek.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

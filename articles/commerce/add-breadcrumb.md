@@ -2,15 +2,12 @@
 title: İçerik haritası modülü
 description: Bu konu içerik haritası modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517173"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109744"
 ---
 # <a name="breadcrumb-module"></a>İçerik haritası modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konu içerik haritası modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
-
-## <a name="overview"></a>Özet
 
 İçerik haritası modülleri, site sayfalarında ikincil gezinti sağlamak için kullanılır. Bunlar genellikle sayfanın üst bölümünde, başlığın altında gösterilir. Herhangi bir sayfaya içerik haritası modülleri eklenebilse de, bunlar genellikle ürün kategori hiyerarşisini göstermek ve bir sitede dolaşmak için hızlı bir yol sağlamak amacıyla Ürün Ayrıntılar sayfalarında (PDPs) kullanılır. Bir içerik haritası modülü, kullanıcılar arama veya liste sayfasından bir PDP açtıklarında "sonuçları geri dön" bağlantısını göstermek için de kullanılabilir. Böylece, kullanıcılar alışverişe devam etmek için filtre uygulanmış liste sayfasına hızlıca dönebilir.
 
@@ -42,7 +37,7 @@ PDPs ve kategori sayfaları gibi ürün kategorisi bağlamı bulunan sayfalarda,
 
 Aşağıdaki resimde, bir PDP üzerinde kategori hiyerarşisini gösteren bir içerik haritası modülü örneği gösterilmektedir.
 
-![içerik haritası modülü örneği](./media/ecommerce-breadcrumb.PNG)
+![İçerik haritası modülü örneği.](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>İçerik haritası modülü ayarları
 
@@ -95,3 +90,6 @@ Bir PDP'ye içerik haritası modülü eklemek ve gerekli özellikleri ayarlamak 
 [Satın alma kutusu modülü](add-buy-box.md)
 
 [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

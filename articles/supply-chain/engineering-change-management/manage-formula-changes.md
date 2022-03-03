@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c65f929120d2501fa3873880179a9b53ab79c60c73fd4d597fb6151b1c5bb2b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720408"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103056"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Formüllerdeki ve içeriklerindeki değişiklikleri yönetme
 
@@ -27,12 +27,9 @@ Microsoft Dynamics 365 Supply Chain Management'un işlem üretme yeteneklerini k
 - **Ortak ürünler ve yan ürünler:** Ortak ürünlerin ve yan ürünlerin miktarlarını ve diğer bilgilerini bir formülde düzenleyin.
 - **Ağırlık öğeleri:** Fiili ağırlık öğelerine yapılan değişiklikleri yönetin.
 
-## <a name="turn-on-this-feature-in-your-system"></a>Sisteminizde bu özelliği etkinleştirme
+## <a name="turn-this-feature-on-or-off"></a>Bu özelliği açma veya kapatma
 
-Bu özelliği kullanmak için aşağıdaki görevleri tamamlamalısınız:
-
-1. [Mühendislik değişikliği yönetimine genel bakış](product-engineering-overview.md) bölümünde açıklandığı gibi *Mühendislik değişikliği yönetimi* özelliğini ve yapılandırma anahtarını etkinleştirin. Bu konuda belirtildiği gibi, ana **Mühendislik Değişiklik Yönetimi** lisans anahtarının altında yer alan **süreç üretim lisansı anahtarı için Değişiklik yönetimini** de etkinleştirdiğinizden emin olun.
-1. [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan *Formüllerdeki değişiklikleri ve bunların içeriklerini yönet* özelliğini açın.
+Bu konuda açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Formüllerdeki ve formül içeriklerindeki değişiklikleri yönet* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Özellik adlandırma kuralları
 

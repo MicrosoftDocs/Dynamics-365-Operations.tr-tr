@@ -2,27 +2,27 @@
 title: Özel elektronik belge oluşturmak için ER biçimini ayarlama
 description: Bu konu, Microsoft tarafından sağlanan elektronik raporlama (ER) biçiminin özel elektronik belge oluşturması için nasıl ayarlanacağını açıklamaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20e7a32ac5f6ab21f89ed3c11c64458286864c9d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680182"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323829"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Özel elektronik belge oluşturmak için ER biçimini ayarlama
 
@@ -144,7 +144,7 @@ Microsoft Dynamics 365 Finance'un geçerli örneğine standart ER yapılandırma
 5. **Sürümler** FastTab üzerinde, seçili ER biçim yapılandırmasının gerekli **1.1** sürümünü seçin.
 6. Seçili sürümü Global depo'dan mevcut Finance örneğine indirmek için **İçe Aktarma**'ya tıklayın.
 
-![Yapılandırma havuzu sayfası](./media/er-quick-start2-import-solution1.png)
+![Yapılandırma deposu sayfası.](./media/er-quick-start2-import-solution1.png)
 
 > [!TIP]
 > [Global depoya](er-download-configurations-global-repo.md) erişmede sorun yaşıyorsanız, Microsoft Dynamics Lifecycle Services'den (LCS) gelen [yapılandırmaları karşıdan yükleyebilirsiniz](download-electronic-reporting-configuration-lcs.md).
@@ -156,11 +156,11 @@ Microsoft Dynamics 365 Finance'un geçerli örneğine standart ER yapılandırma
 3. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin.
 4. Seçili **BACS (UK)** ER biçimine ek olarak, gerekli diğer acil yapılandırmalar konfigürasyonlarının da içe aktarıldığına dikkat edin. Aşağıdaki ER yapılandırmaların konfigürasyon ağacında kullanılabilir durumda olduğundan emin olun:
 
-    - **Ödeme modeli** – Bu konfigürasyon, ödeme iş etki alanının veri yapısını temsil eden [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni bileşenini içerir.
-    - **Ödeme modeli eşleştirmesi 1611** – Bu konfigürasyon, veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulduğunu açıklayan [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni içerir.
-    - **BACS (UK)** – Bu konfigürasyon [Biçim](general-electronic-reporting.md#FormatComponentOutbound) ve biçim eşleme bileşenlerini içerir. Format bileşeni rapor düzenini belirtir. Biçim eşleme bileşeni model veri kaynağını içerir ve çalışma süresinde bu veri kaynağı kullanılarak rapor düzeninin nasıl doldurulacağını belirtir.
+    - **Ödeme modeli** – Bu yapılandırma, ödeme iş etki alanının veri yapısını temsil eden veri modeli ER bileşenini içerir.
+    - **Ödeme modeli eşleştirmesi 1611** – Bu yapılandırma, veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulduğunu açıklayan model eşleme ER bileşenini içerir.
+    - **BACS (UK)** – Bu yapılandırma biçim ve biçim eşleme ER bileşenlerini içerir. Format bileşeni rapor düzenini belirtir. Biçim eşleme bileşeni model veri kaynağını içerir ve çalışma süresinde bu veri kaynağı kullanılarak rapor düzeninin nasıl doldurulacağını belirtir.
 
-![Yapılandırma sayfası](./media/er-quick-start2-imported-solution1.png)
+![Belirtilen ER konfigürasyonlara sahip yapılandırmalar sayfası ağaçta kullanılabilir.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>İşleme için satıcı ödemesini hazırlayın
 
@@ -179,7 +179,7 @@ Bir satıcı hesabının, daha sonra kayıtlı bir ödemede başvurulacak banka 
     5. **IBAN** alanına **GB33BUKB20201555555555** girin.
     6. **Rota numarası** alanında, <a id="DefineRoutingNumber"></a>**123456** varsayılan değerini saklayın.
 
-    ![Satıcı banka hesapları sayfası](./media/er-quick-start2-bank-account.png)
+    ![Satıcı banka hesapları sayfası.](./media/er-quick-start2-bank-account.png)
 
 4. **Kaydet**'i seçin.
 5. Sayfayı kapatın.
@@ -187,14 +187,14 @@ Bir satıcı hesabının, daha sonra kayıtlı bir ödemede başvurulacak banka 
 7. Satıcı ayrıntıları sayfasında, gerekirse sayfayı düzenlenebilir yapmak için **Düzenle** seçin.
 8. **Ödeme** hızlı sekmesinde, **Banka hesabı** alanında, **GBP Operasyon** seçin.
 
-    ![Satıcı ayrıntıları sayfası](./media/er-quick-start2-bank-account-reference.png)
+    ![Satıcı ayrıntıları sayfası.](./media/er-quick-start2-bank-account-reference.png)
 
 9. **Kaydet**'i seçin.
 10. Sayfayı kapatın.
 
 ### <a name="enter-a-vendor-payment"></a><a id="EnterVendorPayment"></a>Satıcı ödemesini girin
 
-[Ödeme teklifi](https://docs.microsoft.com/dynamics365/finance/accounts-payable/create-vendor-payments-payment-proposal) kullanarak yeni satıcı ödemesi girmeniz gerekir.
+[Ödeme teklifi](../../../finance/accounts-payable/create-vendor-payments-payment-proposal.md) kullanarak yeni satıcı ödemesi girmeniz gerekir.
 
 1. **Borç hesapları** \> **Ödemeler** \> **Satıcı ödeme günlüğü**'ne gidin.
 2. **Satıcı ödeme günlüğü** sayfasında, **Yeni**'yi seçin.
@@ -204,11 +204,11 @@ Bir satıcı hesabının, daha sonra kayıtlı bir ödemede başvurulacak banka 
 6. **Satıcı ödeme teklifi** iletişim kutusunda, yalnızca **GB_SI_000001** satıcı hesabına ait kayıtları filtrelemek üzere koşulları konfigüre edin ve **Tamam**'ı seçin.
 7. **00000007_Inv** fatura için satırı seçin ve sonra **ödeme oluştur**'u seçin.
 
-    ![Satıcı ödeme teklifi iletişim kutusu](./media/er-quick-start2-payment-proposal.png)
+    ![Satıcı ödeme teklifi iletişim kutusu.](./media/er-quick-start2-payment-proposal.png)
 
 8. Girilen ödemenin **elektronik** ödeme yöntemini kullanacak şekilde konfigüre edilmiş olduğunu doğrulayın.
 
-    ![Satıcı ödemeleri sayfası](./media/er-quick-start2-payment-line.png)
+    ![Satıcı ödemeleri sayfası.](./media/er-quick-start2-payment-line.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-standard-er-format"></a><a id="ProcessVendorPayment1"></a>Standart ER biçimini kullanarak bir satıcı ödemesini işleme
 
@@ -222,7 +222,7 @@ Elektronik ödeme yöntemini içe aktarılan ER biçim konfigürasyonu kullanaca
 4. **Dosya formatları** Hızlı sekmesinde **Genel elektronik Dışa aktarma biçimi** seçeneğini **Evet** olarak ayarlayın.
 5. **Dışa aktarma biçimi yapılandırması** alanında, **BACS (UK)** biçim yapılandırması seçin.
 
-    ![Ödeme yöntemleri - satıcılar sayfası](./media/er-quick-start2-method-of-payment1.png)
+    ![Satıcı ödemelerini standart bir biçim kullanarak işlemek üzere elektronik ödeme yöntemi ayarlamak için ödeme yöntemleri sayfası.](./media/er-quick-start2-method-of-payment1.png)
 
 6. **Kaydet**'i seçin.
 
@@ -239,7 +239,7 @@ Elektronik ödeme yöntemini içe aktarılan ER biçim konfigürasyonu kullanaca
 5. **Tamam**'ı seçin.
 6. **Elektronik rapor parametreleri** iletişim kutusunda, **yazdırma denetimi raporu** seçeneğini **Evet** olarak ayarlayıp **Tamam**'ı seçin.
 
-    ![Elektronik rapor parametreleri iletişim kutusu sayfası](./media/er-quick-start2-payment-dialog1.png)
+    ![Elektronik rapor parametreleri iletişim kutusu sayfası.](./media/er-quick-start2-payment-dialog1.png)
 
     > [!NOTE]
     > Ödeme dosyasına ek olarak, artık kontrol raporu oluşturabilirsiniz.
@@ -251,7 +251,7 @@ Elektronik ödeme yöntemini içe aktarılan ER biçim konfigürasyonu kullanaca
 
         Sağlanan er biçiminin [yapısına](#PositionRoutingNumber) uygun olarak, oluşturulan dosyadaki ödeme satırının konfigüre edilen Banka hesabı için [tanımlanan](#DefineRoutingNumber) rota numarasıyla başladığını unutmayın.
 
-        ![TXT biçiminde ödeme dosyası](./media/er-quick-start2-payment-file1.png)
+        ![TXT biçiminde ödeme dosyası.](./media/er-quick-start2-payment-file1.png)
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>Standart ER biçimini Özelleştirme
 
@@ -267,13 +267,13 @@ Bu durumda, Litware, Inc. temsilcisi olarak, **BACS (UK)** Microsoft tarafından
 4. **Yeni** alan grubunda, **Addan türetilen: BACS (UK), Microsoft** seçeneği.
 5. **Ad** alanına, **BACS (UK özel)** girin.
 
-    ![Yapılandırma oluşturma açılan iletişim kutusu](./media/er-quick-start2-add-derived-format.png)
+    ![Yapılandırma oluşturma açılan iletişim kutusu.](./media/er-quick-start2-add-derived-format.png)
 
 6. **Yapılandırma oluştur**'u seçin.
 
 **BACS (Birleşik Krallık özel)** ER biçimi yapılandırmasının sürüm 1.1.1 oluşturulur. Bu sürüm **taslak** [durumuna](general-electronic-reporting.md#component-versioning) sahip ve düzenlenebilir. Özel ER biçiminizin geçerli içeriğinin,  Microsoft tarafından sağlanan biçimin içeriğiyle aynıdır.
 
-![Yapılandırma sayfası](./media/er-quick-start2-derived-format-configuration1.png)
+![BACS (Birleşik Krallık özel) ER biçimi yapılandırmasının sürüm 1.1.1 ile yapılandırmalar sayfası.](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Özel biçim düzenleme
 
@@ -293,7 +293,7 @@ Bu durumda, Litware, Inc. temsilcisi olarak, **BACS (UK)** Microsoft tarafından
 
 7. **İşlem** öğesini seçin.
 
-    ![ER işlemleri tasarımcısında işlem ögesi](./media/er-quick-start2-derived-format0.png)
+    ![ER İşlemleri tasarımcısında hareket ögesi.](./media/er-quick-start2-derived-format0.png)
 
     > [!NOTE]
     > Sağlanan rapor, <a id="PositionRoutingNumber"></a>her ödeme satırının Banka rota numarasıyla başlaması için konfigüre edilir. **Vendbankroutenum** biçim öğesi bu amaçla kullanılır. 
@@ -311,13 +311,13 @@ Bu durumda, Litware, Inc. temsilcisi olarak, **BACS (UK)** Microsoft tarafından
 9. Biçim yapısı ağacında, **vendBankSWIFT** seçeneğini belirleyin.
 10. Seçili biçim öğesini bir düzey yukarı taşımak için **yukarı taşı** seçeneğini seçin. Bu adımı, **vendBankSWIFT** öğesi <a id="PositionSWIFTCode"></a>ana **işlem** öğesinin altındaki ilk öğe olana kadar tekrarlayın.
 
-    ![ER İşlemleri tasarımcısında işlemin altındaki ilk öğe olarak VendBankSWIFT](./media/er-quick-start2-derived-format1.png)
+    ![ER İşlemleri tasarımcısında hareketin altındaki ilk öğe olarak VendBankSWIFT.](./media/er-quick-start2-derived-format1.png)
 
 11. Biçim yapısı ağacında **vendBankSWIFT** 'un hala seçili olmasına karşın, **eşleme** sekmesini seçin ve **model** veri kaynağını genişletin.
 12. **model.Payment** \> **model.Payment.CreditorAgent** genişletin ve **model.Payment.CreditorAgent.BICFI** veri kaynağı alanı seçin. Bu veri kaynağı alanı, işlenmiş satıcı ödemesine aracı rolü atanan satıcı bankasının SWIFT kodunu sunar.
 13. **Bağla**'yı seçin. **vendBankSWIFT** format ögesi artık **model.Payment.CreditorAgent.BICFI** veri kaynağı alanıyla bağlıdır, böylece oluşturulan ödeme dosyalarına SWIFT kodları girilecaktır.
 
-    ![vendBankSWIFT biçim öğesi ER işlemleri tasarımcısında model.Payment.CreditorAgent.BICFI veri kaynağı alanıyla ilişkilidir](./media/er-quick-start2-derived-format2.png)
+    ![vendBankSWIFT biçim öğesi, ER İşlemleri tasarımcısında model.Payment.CreditorAgent.BICFI veri kaynağı alanıyla ilişkilidir.](./media/er-quick-start2-derived-format2.png)
 
 14. **Kaydet**'i seçin.
 15. Tasarımcı sayfasını kapatın.
@@ -335,7 +335,7 @@ ER biçiminin taslak sürümünü kullanmak için, ER biçimini açık olarak i�
 5. Sol bölmedeki konfigürasyon ağacında, **BACS (UK özel)** öğesini seçin.
 6. **Taslak Çalıştır** seçeneğini **Evet** olarak ayarlayın.
 
-    ![Yapılandırmalar sayfasında Taslak seçeneğini Çalıştır](./media/er-quick-start2-derived-format-configuration2.png)
+    ![Yapılandırmalar sayfasındaki Taslak Çalıştır seçeneği.](./media/er-quick-start2-derived-format-configuration2.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-custom-er-format"></a><a id="ProcessVendorPayment2"></a>Özel ER biçimini kullanarak bir satıcı ödemesini işleme
 
@@ -349,7 +349,7 @@ Satıcı ödemelerini işlemek için özel ER formatının kullanılabilmesi iç
 4. **Dosya formatı** Hızlı sekmesinde **Genel elektronik Dışa aktarma biçimi** seçeneğini **Evet** olarak ayarlayın.
 5. **Dışa aktarma biçimi yapılandırması** alanında, **BACS (UK özel)** biçim yapılandırması seçin.
 
-    ![Ödeme yöntemleri - satıcılar sayfası](./media/er-quick-start2-method-of-payment2.png)
+    ![Satıcı ödemelerini özel bir biçim kullanarak işlemek üzere elektronik ödeme yöntemi ayarlamak için ödeme yöntemleri sayfası.](./media/er-quick-start2-method-of-payment2.png)
 
 6. **Kaydet**'i seçin.
 
@@ -378,7 +378,7 @@ Satıcı ödemelerini işlemek için özel ER formatının kullanılabilmesi iç
 
         Özel ER formatının yapısına uygun olarak, oluşturulan dosyadaki ödeme satırı şimdi, ödemesi işlenmiş olan Satıcının banka hesabı için [girilen](#DefineSWIFTCode) SWIFT koduyla [başlar](#PositionSWIFTCode).
 
-        ![TXT biçiminde ödeme dosyası](./media/er-quick-start2-payment-file2.png)
+        ![Satıcının ödemesini işlemek için kullanılan, TXT biçimindeki ödeme dosyası.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Standart ER biçimi yapılandırmalarının yeni sürümlerini içe aktarın
 
@@ -395,7 +395,7 @@ Geçerli Finans örneğine standart ER yapılandırmalarının yeni sürümlerin
 5. **Sürümler** FastTab üzerinde, seçili ER biçim yapılandırmasının gerekli **3.3** sürümünü seçin.
 6. Seçili sürümü Global depo'dan mevcut Finance örneğine indirmek için **İçe Aktarma**'ya tıklayın.
 
-![Yapılandırma havuzu sayfası](./media/er-quick-start2-import-solution2.png)
+![Konfigürasyon havuzu sayfası, sürümler hızlı sekmesi, Içe aktar düğmesi.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > [Global depoya](er-download-configurations-global-repo.md) erişmede sorun yaşıyorsanız, bunun yerine LCS'den gelen [yapılandırmaları karşıdan yükleyebilirsiniz](download-electronic-reporting-configuration-lcs.md).
@@ -410,7 +410,7 @@ Geçerli Finans örneğine standart ER yapılandırmalarının yeni sürümlerin
 6. **Biçim tasarımcısı** sayfasında **BACSReportsFolder** biçim öğesini genişletin.
 7.  3,3 sürümü, satıcı ödemesi işlenirken bir ödeme önerisi raporu oluşturmak için kullanılan **PaymentAdviceReport** biçim öğesini içerir.
 
-    ![PaymentAdviceReport biçimi ER işlemleri tasarımcısında işlem ögesi](./media/er-quick-start2-imported-solution2.png)
+    ![ER İşlemleri tasarımcısında PaymentAdviceReport biçim ögesi.](./media/er-quick-start2-imported-solution2.png)
 
 8. Tasarımcı sayfasını kapatın.
 
@@ -436,14 +436,14 @@ Sürüm 1.1.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm
 3. **Sürümler** hızlı sekmesinde, sürüm **1.1.2** seçin ve yeniden **temellendir** 'i seçin.
 4. **Yeniden temellendirme** iletişim kutusunda, **hedef sürüm** alanında, bunu yeni temel olarak uygulamak ve konfigürasyonu güncelleştirmek için kullanmak üzere temel yapılandırmanın **3,3** sürümünü seçin.
 
-    ![Yeniden temellendirme iletişim kutusu](./media/er-quick-start2-rebase1.png)
+    ![Yeniden temellendirme iletişim kutusu.](./media/er-quick-start2-rebase1.png)
 
 5. **Tamam**'ı seçin.
 6. Taslak sürümün sayısının temel sürümdeki değişikliği yansıtmak için **1.1.2** olan sayının **3.3.2** olarak değiştiğine dikkat edin.
 
     Otomatik olarak birleştirilemeyen bazı biçim değişikliklerini temsil eden, yeni temel sürüm ile özel sürümün birleştirilmesi sırasında bazı çakışmaların ortaya çıktığını göz önünde tutun.
 
-    ![Yapılandırmalar sayfasındaki çakışmalarıyla yeniden esaslı konfigürasyon](./media/er-quick-start2-rebase2.png)
+    ![Yapılandırmalar sayfasındaki çakışmalarla yeniden temellendirme yapılandırması.](./media/er-quick-start2-rebase2.png)
 
     Çakışmalar keşfedildiğinde, biçim Tasarımcısı 'nda el ile çözülmesi gerekir.
 
@@ -451,13 +451,13 @@ Sürüm 1.1.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm
 8. **Tasarımcı**’yı seçin.
 9. **Biçim Tasarımcısı** sayfasında, **Ayrıntılar** hızlı sekmesinde, yeniden temellendirme çakışma kaydını seçin ve **temel değer Uygula**'yı seçin.
 
-    ![ER Operations Designer 'da çakışma kaydını yeniden temellendir](./media/er-quick-start2-rebase3.png)
+    ![ER İşlemleri Tasarımcısı'nda çakışma kaydını yeniden temellendirme.](./media/er-quick-start2-rebase3.png)
 
 10. **Kaydet**'i seçin.
 
     Yeniden temellendirme çakışma kaydı **Ayrıntılar** hızlı sekmesinde artık görünolmamalıdır.
 
-    ![ER Operations Designer'da çözümlenen çakışma](./media/er-quick-start2-rebase4.png)
+    ![ER İşlemleri Tasarımcısı'nda çözümlenen çakışma.](./media/er-quick-start2-rebase4.png)
 
     > [!NOTE]
     > Bu ER biçiminde temel modelin sürüm 3'ün kullanılması gerektiğini onaylayarak çakışmayı çözdünüz.
@@ -465,7 +465,7 @@ Sürüm 1.1.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm
 11. **BACSReportsFolder** \> **dosya** \> **işlemler** \> **işlem**'i genişletin.
 12. **Eşleme** sekmesinde, özel ER biçimlendirmenizin 3.3.2 sürümü hem özelleştirmenizi (**vendBankSWIFT** biçim öğesi ve bağlaması) içerir, hem de Microsoft (**PaymentAdviceReport** biçim öğesi iç içe geçirilmiş öğeler ve yapılandırılmış bağlamalar ile birlikte) tarafından sağlanan temel ER biçiminin sürüm 3,3 ' inin yeni işlevselliğinden emin olun. Yalnızca birkaç fare tıklatmasıyla, özelleştirmeyle birleştirerek yeni bir temel sürümün değişikliklerini benimsemiş olursunuz.
 
-    ![ER Işlem tasarımcısında birleştirilmiş biçim](./media/er-quick-start2-rebase5.png)
+    ![ER İşlemleri tasarımcısında birleştirilmiş biçim.](./media/er-quick-start2-rebase5.png)
 
 13. Tasarımcı sayfasını kapatın.
 
@@ -490,7 +490,7 @@ Sürüm 1.1.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm
     - **Kontrol raporu yazdır** seçeneğini **Evet** olarak ayarlayın.
     - **Ödeme önerisi yazdır** seçeneğini **Evet** olarak ayarlayın.
 
-    ![Elektronik rapor parametreleri iletişim kutusu](./media/er-quick-start2-payment-dialog2.png)
+    ![Elektronik rapor parametreleri iletişim kutusu.](./media/er-quick-start2-payment-dialog2.png)
 
     > [!NOTE]
     > Ödeme dosyasına ek olarak, artık hem denetim raporunu hem de ödeme önerisi raporunu oluşturabilirsiniz.
@@ -501,16 +501,19 @@ Sürüm 1.1.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm
     - Excel biçimindeki denetim raporu
     - Excel biçimindeki ödeme önerisi raporu
 
-        ![Excel biçimindeki ödeme önerisi raporu](./media/er-quick-start2-payment-advice-report.png)
+        ![Excel biçimindeki ödeme ihbarı raporu.](./media/er-quick-start2-payment-advice-report.png)
 
     - TXT biçiminde ödeme dosyası
 
         Özel ER formatının yapısına uygun olarak, oluşturulan dosyadaki ödeme satırı şimdi, ödemesi işlenmiş olan Satıcının banka hesabı için girilen SWIFT koduyla başlar.
 
-        ![TXT biçiminde ödeme dosyası](./media/er-quick-start2-payment-file3.png)
+        ![Yeniden temellendirilen ER biçimi kullanarak satıcının ödemesini işlemek için kullanılan, TXT biçimindeki ödeme dosyası.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Ek kaynaklar
 
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 - [Lifecycle Services'dan ER yapılandırma indirme](download-electronic-reporting-configuration-lcs.md)
 - [Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

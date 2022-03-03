@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571989"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103625"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Mevcut ürünlerde değişiklik yönetimini etkinleştirme
 
@@ -27,12 +27,9 @@ Bu konuda, var olan ürünler için değişiklik yönetimini nasıl etkinleştir
 
 Var olan bir ürün için değişiklik yönetimini etkinleştirdiğinizde, bu ürünün sürümlerini oluşturabilir ve üründe yapılan değişiklikleri kullanım ömrü boyunca izleyebilirsiniz. Bu nedenle, değişiklik emirlerini kullanarak bu değişiklikleri izleyebilirsiniz. Değişiklik yönetimini etkinleştirmek için ilgili ürünleri *mühendislik öğelerine* (mühendislik ürünleri olarak da adlandırılır) dönüştürmeniz gerekir. Mühendislik ürünleri, değişiklik yönetimi yoluyla sürümü oluşturulan ve yönetilen ürünlerdir. Dönüştürme işleminde size yol gösterecek bir sihirbaz sağlanmıştır.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Sisteminizdeki özelliği etkinleştirme
+## <a name="turn-this-feature-on-or-off"></a>Bu özelliği açma veya kapatma
 
-Bu özelliği kullanmak için aşağıdaki görevleri tamamlamalısınız:
-
-1. Mühendislik değişikliği yönetimine genel bakış bölümünde açıklandığı gibi [Mühendislik değişikliği yönetimi](product-engineering-overview.md) özelliğini ve yapılandırma anahtarını etkinleştirin.
-1. Özellik yönetiminde *Mevcut ürünlerde değişiklik yönetimini etkinleştir* özelliğini açın. Daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Bu konuda açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Mevcut ürünlerde değişiklik yönetimini etkinleştir* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Kısıtlamalar ve sınırlamalar
 

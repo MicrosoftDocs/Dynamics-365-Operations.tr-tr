@@ -2,27 +2,27 @@
 title: Elektronik bir belge oluşturmak için elektronik raporlama yapılandırmalarını özelleştirme
 description: Bu konu, Microsoft tarafından sağlanan ve özel elektronik belge oluşturmak için kullanılan elektronik raporlama (ER) yapılandırmalarının nasıl özelleştirileceğini açıklamaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47bb8a2a9adab4ec963a1d0b95e783299aab3819
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683035"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324099"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektronik bir belge oluşturmak için elektronik raporlama yapılandırmalarını özelleştirme
 
@@ -108,7 +108,7 @@ Geçerli Finans kurulumunuza standart ER yapılandırmalarını eklemek için bu
 5. **Sürümler** hızlı sekmesinde, sürüm **11.2.2**' i seçin.
 6. Seçili sürümü Global depodan indirmek için **İçe Aktar**'ı seçin.
 
-![Yapılandırma havuzu sayfası](./media/er-quick-start3-import-solution1.png)
+![Yapılandırma deposu sayfası.](./media/er-quick-start3-import-solution1.png)
 
 > [!TIP]
 > [Global depoya](er-download-configurations-global-repo.md) erişmede sorun yaşıyorsanız, Microsoft Dynamics Lifecycle Services'den (LCS) gelen [yapılandırmaları karşıdan yükleyebilirsiniz](download-electronic-reporting-configuration-lcs.md).
@@ -120,9 +120,9 @@ Geçerli Finans kurulumunuza standart ER yapılandırmalarını eklemek için bu
 3. **Yapılandırmalar** sayfasında, **Yapılandırma bileşenleri** hızlı sekmesini genişletin.
 4. Sol bölmedeki yapılandırma ağacında, **Fatura modelini** genişletin ve sonra **UBL satış faturası** öğesini genişletin.
 
-Seçili **Peppol Satış Faturası** ER biçimine ek olarak, gerekli diğer ER yapılandırmalarının da içe aktarıldığına dikkat edin. İlgili çözümlerin yeni gereksinimlerle uyumlu kalması için ER yapılandırmalarının yeni sürümleri Global depoda ve LCS'de sürekli olarak yayımlandığından gerekli [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) yapılandırmasının son sürümleri ve [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) yapılandırmaları içe aktarılır.
+Seçili **Peppol Satış Faturası** ER biçimine ek olarak, gerekli diğer ER yapılandırmalarının da içe aktarıldığına dikkat edin. İlgili çözümlerin yeni gereksinimlerle uyumlu kalması için ER yapılandırmalarının yeni sürümleri Global depoda ve LCS'de sürekli olarak yayımlandığından gerekli veri modeli yapılandırmasının son sürümleri ve model eşleme yapılandırmaları içe aktarılır.
 
-![Yapılandırma sayfası](./media/er-quick-start3-imported-solution1a.png)
+![Yapılandırmalar sayfası.](./media/er-quick-start3-imported-solution1a.png)
 
 Geçmişte (örneğin, 7 Ağustos 2019) **Peppol satış faturası**'nın **11.2.2** sürümünü içe aktarsaydınız geçerli finans kurulumundaki ER yapılandırmalarının içinde bulunacağı durumun benzetimini yapmak için aşağıdaki adımları izleyin.
 
@@ -133,32 +133,32 @@ Ardından aşağıdaki yapılandırmaların yapılandırma ağacında kullanıla
 
 - **Fatura modeli** ER veri modeli konfigürasyonu (önceki adı **Müşteri fatura modeli**):
 
-    - Sürüm 11, Faturalama iş etki alanının veri yapısını temsil eden [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) ER bileşeninin 10. sürümünü içerir. Bu ER yapılandırması içe aktarma için seçilmiş olan **Peppol satış faturası** ER biçiminin bir üst öğesi olarak içe aktarılır.
+    - Sürüm 11, Faturalama iş etki alanının veri yapısını temsil eden veri modeli ER bileşeninin 10. sürümünü içerir. Bu ER yapılandırması içe aktarma için seçilmiş olan **Peppol satış faturası** ER biçiminin bir üst öğesi olarak içe aktarılır.
     - Sürüm 50, veri modeli ER bileşeninin 31. sürümünü içerir. Bu ER yapılandırması **Fatura modeli eşlemesi** ER model eşleme yapılandırmasının 7 Ağustos 2019 sürümünün bir üst öğesi olarak içe aktarılır.
 
-    ![Yapılandırmalar sayfasındaki fatura modeli ER veri modeli yapılandırması](./media/er-quick-start3-imported-solution1b1.png)
+    ![Yapılandırmalar sayfasındaki fatura modeli ER veri modeli yapılandırması.](./media/er-quick-start3-imported-solution1b1.png)
 
     > [!TIP]
     > Bu veri modelinin 50. sürümünü göremiyorsanız, Global depoyu açın ve **Fatura modeli eşleme** ER yapılandırmasının 50.19. sürümünü içe aktarın.
 
 - **Fatura modeli eşleme** ER modeli eşleme yapılandırması (önceki adı **Müşteri fatura modeli eşleme**):
 
-    - 50.19 sürümü, **Fatura modeli** Er veri modeli yapılandırmasının 50. sürümünün en son uygulaması olarak içe aktarıldı. Veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulduğunu açıklayan iki [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) ER bileşeni içerir.
+    - 50.19 sürümü, **Fatura modeli** Er veri modeli yapılandırmasının 50. sürümünün en son uygulaması olarak içe aktarıldı. Veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulduğunu açıklayan iki model eşleme ER bileşeni içerir.
 
-    ![Yapılandırmalar sayfasındaki fatura modeli eşleme ER modeli eşleme yapılandırması](./media/er-quick-start3-imported-solution1b2.png)
+    ![Yapılandırmalar sayfasındaki fatura modeli eşleme ER modeli eşleme yapılandırması.](./media/er-quick-start3-imported-solution1b2.png)
 
     > [!TIP]
     > Bu model eşlemenin 50.19. sürümünü göremiyorsanız, Global depoyu açın ve **Fatura modeli eşleme** ER yapılandırmasının 50.19. sürümünü içe aktarın.
 
 - **UBL Satış faturası** ER biçim yapılandırması:
 
-    - Sürüm 11.2 [biçimi](general-electronic-reporting.md#FormatComponentOutbound) ve biçim eşleme ER bileşenlerini içerir. Format bileşeni rapor düzenini belirtir. Biçim eşleme bileşeni model veri kaynağını içerir ve çalışma zamanında bu veri kaynağı kullanılarak rapor düzeninin nasıl doldurulacağını belirtir. Bu ER biçimi, Evrensel İş Dili (UBL) biçiminde e-faturalar oluşturmak üzere yapılandırılmıştır. İçe aktarma için seçilmiş olan **Peppol satış faturası** ER biçiminin bir üst öğesi olarak içe aktarılır.
+    - Sürüm 11.2 biçimi ve biçim eşleme ER bileşenlerini içerir. Format bileşeni rapor düzenini belirtir. Biçim eşleme bileşeni model veri kaynağını içerir ve çalışma zamanında bu veri kaynağı kullanılarak rapor düzeninin nasıl doldurulacağını belirtir. Bu ER biçimi, Evrensel İş Dili (UBL) biçiminde e-faturalar oluşturmak üzere yapılandırılmıştır. İçe aktarma için seçilmiş olan **Peppol satış faturası** ER biçiminin bir üst öğesi olarak içe aktarılır.
 
 - **Peppol Satış faturası** ER biçim yapılandırması:
 
     - 11.2.2 sürümü, Pan-European Public Procurement OnLine (PEPPOL) formatında e-faturalar oluşturmak üzere yapılandırılmış biçim ve biçim eşleme ER bileşenlerini içerir.
 
-    ![Yapılandırmalar sayfasındaki Peppol Satış Faturası ER biçimi yapılandırması](./media/er-quick-start3-imported-solution1b3.png)
+    ![Yapılandırmalar sayfasındaki Peppol Satış Faturası ER biçimi yapılandırması.](./media/er-quick-start3-imported-solution1b3.png)
 
 ## <a name="configure-the-accounts-receivable-parameters"></a><a name="ConfigureAR1"></a>Alacak hesapları parametrelerini yapılandırın
 
@@ -166,7 +166,7 @@ Ardından aşağıdaki yapılandırmaların yapılandırma ağacında kullanıla
 2. **Elektronik belgeler** sekmesinde, **Elektronik raporlama** hızlı sekmesinde, **Satışlar ve serbest metin faturası** alanında, **PEPPOL satış faturası** seçeneğini belirleyin.
 3. **Kaydet**'i seçin.
 
-![Alacak hesapları parametreleri sayfasındaki elektronik belgeler sekmesi](./media/er-quick-start3-configure-ar1.png)
+![Alacak hesapları parametreleri sayfasındaki elektronik belgeler sekmesi.](./media/er-quick-start3-configure-ar1.png)
 
 ## <a name="configure-the-legal-entity-parameters"></a><a name="ConfigureLE"></a>Tüzel kişilik parametrelerini konfigüre edin
 
@@ -218,7 +218,7 @@ Artık içe aktardığınız standart ER yapılandırmalarını, müşteriye ele
 
 5. **Kaydet**'i seçin.
 
-![Serbest metin faturası sayfası](./media/er-quick-start3-add-invoice.png)
+![Serbest metin faturası sayfası.](./media/er-quick-start3-add-invoice.png)
 
 Daha fazla bilgi için bkz. [Serbest metin faturası oluşturun](../../../finance/accounts-receivable/create-free-text-invoice-new.md).
 
@@ -228,14 +228,14 @@ Daha fazla bilgi için bkz. [Serbest metin faturası oluşturun](../../../financ
 2. **Serbest metin faturası** sayfasında, eylem bölmesinde, **Deftere Naklet**'i seçin.
 3. **Serbest metin faturasını deftere naklet** iletişim kutusunda **Tamam**'ı seçin.
 
-![Serbest metin faturası ayrıntıları sayfası](./media/er-quick-start3-post-invoice.png)
+![Serbest metin faturası ayrıntıları sayfası.](./media/er-quick-start3-post-invoice.png)
 
 ### <a name="send-a-posted-invoice"></a>Deftere nakledilmiş bir fatura gönder
 
 1. **Alacak hesapları** \> **Faturalar** \> **Tüm serbest metin faturaları**'na gidin.
 2. **Serbest metin faturası** sayfasında, eylem bölmesinde, **Belge** grubunda **Gönder** \> **Orijinal**'i seçin.
 
-    ![Orijinal faturanın önizlemesi](./media/er-quick-start3-send-invoice.png)
+    ![Orijinal faturanın önizlemesi.](./media/er-quick-start3-send-invoice.png)
 
 3. **Serbest metin faturası** sayfasını kapatın.
 
@@ -245,12 +245,12 @@ Daha fazla bilgi için bkz. [Serbest metin faturası oluşturun](../../../financ
 2. **Elektronik raporlama işleri** sayfasında, **E-fatura XML gönder** görev açıklamasına sahip ilk kaydı seçin.
 3. Oluşturulan dosyalar listesine erişmek için **dosyaları göster**'i seçin.
 
-    ![Elektronik raporlama işleri sayfası](./media/er-quick-start3-jobs-list.png)
+    ![Elektronik raporlama işleri sayfası.](./media/er-quick-start3-jobs-list.png)
 
 4. Oluşturulan e-fatura XML dosyasını indirmek için **Aç**'ı seçin.
 5. E-fatura XML dosyasını analiz edin. Müşteri vergi şemasının şu anda, **schemeID** ve **schemeAgencyID** XML öznitelikleriyle gösterildiğine dikkat edin. Ayrıca, **cbc.CustomizationID** XML öğesinin şu anda aşağıdaki metni içerdiğini da unutmayın: `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0`.
 
-    ![Oluşturulan e-fatura XML dosyasının önizlemesi](./media/er-quick-start3-e-invoice1.png)
+    ![Oluşturulan e-fatura XML dosyasının önizlemesi.](./media/er-quick-start3-e-invoice1.png)
 
 ## <a name="add-a-custom-database-field"></a><a name="AddCustomField"></a>Özel veritabanı alanı ekle
 
@@ -282,7 +282,7 @@ Bu adımları izleyerek özelleştirme yapın.
 12. Görünen ileti kutusunda, **Müşteriler** tablosu için yeni bir **federaltaxıd** alan girişi oluşturmak istediğinizi onaylamak için **Evet**'i seçin.
 13. Geçerli sayfaya **FederalTaxID\_Özel** alanını eklemek için, **Ekle** <a name="insert_custom_field"></a> öğesini seçin.
 
-    ![Tüm müşteriler sayfası](./media/er-quick-start3-create-new-field.gif)
+    ![Tüm müşteriler sayfası.](./media/er-quick-start3-create-new-field.gif)
 
 14. **Tüm müşteriler** sayfasını kapatın.
 
@@ -312,7 +312,7 @@ Elektronik raporlama işlevsel danışmanı rolünde bir kullanıcı olarak, öz
 
 **Taslak** [durumundaki](general-electronic-reporting.md#component-versioning) **fatura modeli (Litware)** ER yapılandırmasının 50.1. sürümünü düzenlemek için artık ER veri modeli tasarımcısını kullanabilirsiniz.
 
-![Yapılandırmalar sayfasındaki ER yapılandırmasının 50.1 sürümü](./media/er-quick-start3-added-custom-model.png)
+![Yapılandırmalar sayfasındaki ER yapılandırmasının 50.1 sürümü.](./media/er-quick-start3-added-custom-model.png)
 
 #### <a name="configure-a-custom-data-model"></a>Özel veri modeli yapılandırma
 
@@ -328,7 +328,7 @@ Federal vergi kimlik kodu değerini sağlamak üzere yeni bir alan ekleyerek öz
 8. **Madde türü** alanında varsayılan değer olan **dizeyi** kabul edin.
 9. **Ekle**'yi seçin ve sonra **Kaydet**'i seçin.
 
-    ![Veri modeli tasarımcısı sayfası](./media/er-quick-start3-add-data-model-field.png)
+    ![Veri modeli tasarımcısı sayfası.](./media/er-quick-start3-add-data-model-field.png)
 
     > [!NOTE]
     > **Etiket** ve **Açıklama** alanları yeni alanın amacını açıklar. Bu alanları birden çok dilde doldurabilirsiniz. Daha fazla bilgi için bkz. [Elektronik raporlamada çok dilli rapor tasarlama](er-design-multilingual-reports.md).
@@ -345,7 +345,7 @@ Diğer özel ER yapılandırmalarının eklenebilmesi için, özel ER veri model
 
 Sürüm 50.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm salt okunur olur. Yeni bir düzenlenebilir sürüm olan 50.2 eklendi ve **taslak** durumuna sahip. Bu sürümü, özel ER veri modeli yapılandırmanızda başka değişiklikler yapmak için kullanabilirsiniz.
 
-![Yapılandırmalar sayfasında 50.1 sürümü tamamlandı](./media/er-quick-start3-completed-custom-model1.png)
+![Yapılandırmalar sayfasında 50.1 sürümü tamamlandı.](./media/er-quick-start3-completed-custom-model1.png)
 
 ### <a name="customize-the-model-mapping-configuration"></a>Model eşleme yapılandırmasını özelleştirme
 
@@ -365,7 +365,7 @@ Elektronik raporlama geliştiricisi rolünde bir kullanıcı olarak, özel ER mo
 
 7. Yeni ER yapılandırmasını eklemek için **Yapılandırma oluştur**'u seçin.
 
-![Yapılandırmalar sayfasında özel model eşleme yapılandırması ekleme](./media/er-quick-start3-adding-custom-mapping.png)
+![Yapılandırmalar sayfasında özel model eşleme yapılandırması ekleme.](./media/er-quick-start3-adding-custom-mapping.png)
 
 #### <a name="configure-a-custom-model-mapping"></a>Özel model eşlemesi yapılandırma
 
@@ -376,7 +376,7 @@ Elektronik raporlama geliştiricisi rolünde bir kullanıcı olarak, özel ER mo
 3. Eylem Bölmesinde, **Tasarımcı**'yı seçin.
 4. **Veri kaynağı eşleme modeli** sayfasında **Müşteri faturası** eşlemeyi seçin.
 
-    ![Veri kaynağı modeli eşleme sayfası](./media/er-quick-start3-select-customer-mapping.png)
+    ![Veri kaynağı modeli eşleme sayfası.](./media/er-quick-start3-select-customer-mapping.png)
 
 5. **Tasarımcı**’yı seçin.
 6. **Model eşleme Tasarımcısı** sayfasında, **veri kaynakları** bölmesinde, **CustInvoiceJour** uygulama tablosunu temsil eden **CustInvoiceJour** veri kaynağını genişletin.
@@ -386,7 +386,7 @@ Elektronik raporlama geliştiricisi rolünde bir kullanıcı olarak, özel ER mo
 10. **Veri Modeli** bölmesinde, **Müşteri bilgisi (Müşteri)** öğesini genişletin ve **FederalTaxID\_Litware** veri modeli alanını seçin.
 11. **Bağla**'yı seçin.
 
-    ![Model eşleme tasarımcısı sayfası](./media/er-quick-start3-customize-model-mapping.gif)
+    ![Model eşleme tasarımcısı sayfası.](./media/er-quick-start3-customize-model-mapping.gif)
 
 12. **Kaydet**'i seçin.
 13. **Model eşleme tasarımcısı** sayfasını kapatın
@@ -402,7 +402,7 @@ Elektronik raporlama geliştiricisi rolünde bir kullanıcı olarak, özel ER mo
 
 Sürüm 50.19.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm salt okunur olur. Yeni bir düzenlenebilir sürüm olan 50.19.2 eklendi ve **taslak** durumuna sahip. Bu sürümü, özel ER model eşleme yapılandırmanızda başka değişiklikler yapmak için kullanabilirsiniz.
 
-![Yapılandırmalar sayfasında 50.19.1 sürümü tamamlandı](./media/er-quick-start3-completed-custom-mapping1.png)
+![Yapılandırmalar sayfasında 50.19.1 sürümü tamamlandı.](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
 > Desteklenen yapılandırma [yaşam döngüsü](general-electronic-reporting-manage-configuration-lifecycle.md) veritabanı değişikliklerinin kullanım ömrünü kapsamıyor. **Fatura modeli eşleme (Litware)** yapılandırmasının 50.19.1 sürümünü geçerli finans kurulumundan dışa aktarır ve özel **CustTable** tablosundaki özel **FederalTaxID\_Özel** alanını içermeyen başka bir kuruluma içe aktarmayı denerseniz özel bir durum oluşur. Özel durum içe aktarılan ER yapılandırmasının hedef finans kurulumunun meta verileri ile uyumlu olmadığını belirtir.
@@ -426,11 +426,11 @@ Elektronik raporlama işlevsel danışmanı rolünde bir kullanıcı olarak, öz
 7. **Veri modeli** alanında, **InvoiceCustomer** kök tanımını seçin.
 8. Yeni ER yapılandırmasını eklemek için **Yapılandırma oluştur**'u seçin.
 
-![Yapılandırmalar sayfasında özel biçim yapılandırması ekleme](./media/er-quick-start3-adding-custom-format.png)
+![Yapılandırmalar sayfasında özel biçim yapılandırması ekleme.](./media/er-quick-start3-adding-custom-format.png)
 
 **Taslak** [durumundaki](general-electronic-reporting.md#component-versioning) **Peppol Satış faturası (Litware)** ER yapılandırmasının 11.2.2.1. sürümünü düzenlemek için artık ER Operasyonları tasarımcısını kullanabilirsiniz.
 
-![Yapılandırmalar sayfasındaki ER yapılandırmasının 11.2.2.1 sürümü](./media/er-quick-start3-added-custom-format.png)
+![Yapılandırmalar sayfasındaki ER yapılandırmasının 11.2.2.1 sürümü.](./media/er-quick-start3-added-custom-format.png)
 
 #### <a name="configure-a-custom-format"></a>Özel biçim yapılandırma
 
@@ -446,7 +446,7 @@ Faturalandırılmış bir müşterinin federal vergi kimlik kodu değerini doldu
 8. Biçim ağacında, **xmlheader** \> **Fatura** \> **cac:accountingcustomerParty** \> **cac:Party** \> **cac:partytaxscheme** \> **cac:taxscheme** \> **cbc:ID** altında, **FederalTaxID**'yi seçin.
 9. **Yukarı taşı**'yı seçin.
 
-![Biçim tasarımcısı sayfasındaki yeni biçim öğesi](./media/er-quick-start3-customized-format.png)
+![Biçim tasarımcısı sayfasındaki yeni biçim öğesi.](./media/er-quick-start3-customized-format.png)
 
 #### <a name="configure-a-custom-format-mapping"></a>Özel biçim eşlemesi yapılandırma
 
@@ -454,7 +454,7 @@ Faturalandırılmış bir müşterinin federal vergi kimlik kodu değerini doldu
 2. **Fatura** altında **Müşteri bilgisi (Müşteri)**'yi genişletin ve **FederalTaxID\_Litware**'i seçin.
 3. **Bağla**'yı seçin.
 
-    ![Biçim tasarımcısı sayfası](./media/er-quick-start3-customized-format-mapping.png)
+    ![Biçim tasarımcısı sayfası.](./media/er-quick-start3-customized-format-mapping.png)
 
 4. **Model** türünün **fatura** veri kaynağını seçin ve ardından **Düzenle**'yi seçin.
 5. **Sürüm** alanında, özel veri modelinizin **1**. sürümünü seçin ve **Tamam**'ı seçin.
@@ -471,7 +471,7 @@ Faturalandırılmış bir müşterinin federal vergi kimlik kodu değerini doldu
 
 Sürüm 11.2.2.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm salt okunur olur. Yeni bir düzenlenebilir sürüm olan 11.2.2.2 eklendi ve **taslak** durumuna sahip. Bu sürümü, özel ER biçim yapılandırmanız üzerinde başka değişiklikler yapmak için kullanabilirsiniz.
 
-![Yapılandırmalar sayfasında 11.2.2.1 sürümü tamamlandı](./media/er-quick-start3-completed-custom-format1.png)
+![Yapılandırmalar sayfasında 11.2.2.1 sürümü tamamlandı.](./media/er-quick-start3-completed-custom-format1.png)
 
 ## <a name="configure-the-accounts-receivable-parameters-to-start-to-use-custom-er-configurations"></a><a name="ConfigureAR2"></a>Özel ER yapılandırmalarını kullanmaya başlamak için alacak hesapları parametrelerini yapılandırın
 
@@ -479,7 +479,7 @@ Sürüm 11.2.2.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sür
 2. **Elektronik belgeler** sekmesinde, **Elektronik raporlama** hızlı sekmesinde, **Satışlar ve serbest metin faturası** alanında, **PEPPOL satış faturası (Litware)** seçeneğini belirleyin.
 3. **Kaydet**'i seçin.
 
-![Alacak hesapları parametreleri sayfası, elektronik belgeler sekmesi, elektronik raporlama hızlı sekmesi](./media/er-quick-start3-configure-ar2.png)
+![Alacak hesapları parametreleri sayfası, elektronik belgeler sekmesi, elektronik raporlama hızlı sekmesi.](./media/er-quick-start3-configure-ar2.png)
 
 ## <a name="update-a-customer-record-by-adding-a-federal-tax-identification-code"></a><a name="ConfigureCustomer2"></a>Federal vergi kimlik kodu ekleyerek müşteri kaydını güncelleştirme
 
@@ -488,7 +488,7 @@ Sürüm 11.2.2.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sür
 3. **Genel** hızlı sekmesinde, **Federal Vergi Kimlik No** alanına, **LITWARE-6789** girin.
 4. **Kaydet**'i seçin.
 
-    ![DE-014 müşteri ayrıntıları sayfası](./media/er-quick-start3-added-tax-id-value.png)
+    ![DE-014 müşteri ayrıntıları sayfası.](./media/er-quick-start3-added-tax-id-value.png)
 
 5. **Tüm müşteriler** sayfasını kapatın.
 
@@ -509,7 +509,7 @@ Sürüm 11.2.2.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sür
 4. Oluşturulan e-fatura XML dosyasını indirmek için **Aç**'ı seçin.
 5. E-fatura XML dosyasını analiz edin. Özelleştirmenize uygun olarak, müşteri vergi şemasının özel **FederalTaxID** XML özniteliğinin yanı sıra **schemeID** ve **schemeAgencyID** XML özniteliklerini de içerdiğine dikkat edin. Bu yeni XML özniteliğinin değeri, Faturalanmış bir müşteri için girilen **LITWARE-6789** federal vergi kodu ile belirtilir.
 
-    ![Özelleştirmelerinizle oluşturulan e-fatura XML dosyasının önizlemesi](./media/er-quick-start3-e-invoice2.png)
+    ![Özelleştirmelerinizle oluşturulan e-fatura XML dosyasının önizlemesi.](./media/er-quick-start3-e-invoice2.png)
 
 ## <a name="import-the-latest-versions-of-standard-er-configurations"></a><a name="ImportERConfigurations2"></a>Standart ER yapılandırmalarının son sürümlerini içe aktarın
 
@@ -522,7 +522,7 @@ Finans kurulumundaki standart ER yapılandırmaları kümesini [güncel tutmak i
 5. **Sürümler** hızlı sekmesinde, PEPPOL BIS 3 biçimindeki müşteri elektronik faturalarını desteklemek için sunulan seçili ER biçim yapılandırmasının **32.6.7** sürümünü seçin. Daha fazla bilgi için bkz. [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
 6. Seçili sürümü Global depo'dan mevcut Finance örneğine indirmek için **İçe Aktarma**'ya tıklayın.
 
-![Yapılandırma deposu sayfasında seçili sürüm 32.6.7](./media/er-quick-start3-import-solution2.png)
+![Yapılandırma deposu sayfasında seçili sürüm 32.6.7.](./media/er-quick-start3-import-solution2.png)
 
 Bu işlemin nasıl otomatikleştirilebileceği hakkında bilgi için, bkz. [ER yapılandırmalarının güncelleştirilmiş sürümlerini içe aktarma](er-download-updated-versions-global-repo.md).
 
@@ -543,13 +543,13 @@ Aşağıdaki ER yapılandırmaların sonunda yapılandırma ağacında kullanıl
 
     - Sürüm 206 (veya sonraki) Faturalama iş etki alanının veri yapısını temsil eden veri modeli ER bileşeninin 24. (veya sonraki) sürümünü içerir. Bu ER yapılandırması **Fatura modeli eşlemesi** ER model eşleme yapılandırmasının mevcut en son sürümünün bir üst öğesi olarak içe aktarılır.
 
-    ![Yapılandırmalar sayfasında 206 sürümü](./media/er-quick-start3-imported-solution2b1.png)
+    ![Yapılandırmalar sayfasında 206 sürümü.](./media/er-quick-start3-imported-solution2b1.png)
 
 - **Fatura modeli eşleme** ER model eşleme yapılandırması:
 
     - 206.132 sürümü (veya sonraki), **Fatura modeli** ER veri modeli yapılandırmasının 206. sürümünün en son uygulaması olarak içe aktarıldı. Veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulduğunu açıklayan çeşitli model eşleme ER bileşenleri içerir.
 
-    ![Yapılandırmalar sayfasında 206.132 sürümü](./media/er-quick-start3-imported-solution2b2.png)
+    ![Yapılandırmalar sayfasında 206.132 sürümü.](./media/er-quick-start3-imported-solution2b2.png)
 
 - **UBL Satış faturası** ER biçim yapılandırması:
 
@@ -559,7 +559,7 @@ Aşağıdaki ER yapılandırmaların sonunda yapılandırma ağacında kullanıl
 
     - 32.6.7 sürümü, PEPPOL biçiminde e-faturalar oluşturmak üzere yapılandırılmış biçim ve biçim eşleme ER bileşenlerini içerir.
 
-    ![Yapılandırmalar sayfasında 32.6.7 sürümü](./media/er-quick-start3-imported-solution2b3.png)
+    ![Yapılandırmalar sayfasında 32.6.7 sürümü.](./media/er-quick-start3-imported-solution2b3.png)
 
 ## <a name="adopt-the-changes-to-the-new-standard-er-configurations-in-your-custom-er-configurations"></a><a name="RebaseCustomERConfigurations"></a>Değişiklikleri özel ER yapılandırmalarınızın içindeki yeni standart ER yapılandırmalarına uygulayın
 
@@ -579,7 +579,7 @@ Aşağıdaki ER yapılandırmaların sonunda yapılandırma ağacında kullanıl
 
 Sürüm 206.2 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm salt okunur olur. Yeni bir düzenlenebilir sürüm olan 206.3 eklendi ve **taslak** durumuna sahip. Bu sürümü, özel ER veri modeli yapılandırmanızda başka değişiklikler yapmak için kullanabilirsiniz.
 
-![Yapılandırmalar sayfasında 206.2 sürümü tamamlandı](./media/er-quick-start3-completed-custom-model2.png)
+![Yapılandırmalar sayfasında 206.2 sürümü tamamlandı.](./media/er-quick-start3-completed-custom-model2.png)
 
 ### <a name="adopt-your-custom-er-model-mapping"></a>Özel ER model eşlemenizi benimseme
 
@@ -592,12 +592,12 @@ Sürüm 206.2 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm
 
     Bazı yeniden temellendirme çakışmaların keşfedildiğine dikkat edin. Bu çakışmaları şimdi el ile çözmeniz gerekir.
 
-    ![Yapılandırmalar sayfasında yeniden temellendirme çakışma iletisi](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
+    ![Yapılandırmalar sayfasında yeniden temellendirme çakışma iletisi.](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
 5. Eylem bölmesinde **Tasarımcı**'yı seçin ve sonra eşleme listesinde **Müşteri faturası** seçeneğini belirleyin.
 6. Her yeniden temellendirme çakışması için, **kendi değerini koru** seçeneğini belirleyin çünkü belirtilen her bileşen için özel veri modelinizin sürüm numarasını saklamanız gerekir.
 
-    ![Model eşleme tasarımcı sayfasında yeniden temellendirme çakışmaları](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
+    ![Model eşleme tasarımcı sayfasında yeniden temellendirme çakışmaları.](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. **Kaydet**'i seçin ve ardından **Model eşleme tasarımcısı** sayfasını kapatın.
 8. Eşleme listesinde, **proje faturası**'nı seçin.
@@ -611,7 +611,7 @@ Sürüm 206.2 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm
 
 Sürüm 206.132.2 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm salt okunur olur. Yeni bir düzenlenebilir sürüm olan 206.132.3 eklendi ve **taslak** durumuna sahip. Bu sürümü, özel ER model eşleme yapılandırmanızda başka değişiklikler yapmak için kullanabilirsiniz.
 
-![Yapılandırmalar sayfasında 206.132.2 sürümü tamamlandı](./media/er-quick-start3-completed-custom-mapping2.png)
+![Yapılandırmalar sayfasında 206.132.2 sürümü tamamlandı.](./media/er-quick-start3-completed-custom-mapping2.png)
 
 ### <a name="adopt-your-custom-er-format"></a>Özel ER biçiminizi benimseme
 
@@ -639,7 +639,7 @@ Sürüm 206.132.2 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sü
 
 Sürüm 32.6.7.2 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm salt okunur olur. Yeni bir düzenlenebilir sürüm olan 32.6.7.3 eklendi ve **taslak** durumuna sahip. Bu sürümü, özel ER biçim yapılandırmanız üzerinde başka değişiklikler yapmak için kullanabilirsiniz.
 
-![Yapılandırmalar sayfasında 32.6.7.2 sürümü tamamlandı](./media/er-quick-start3-completed-custom-format2.png)
+![Yapılandırmalar sayfasında 32.6.7.2 sürümü tamamlandı.](./media/er-quick-start3-completed-custom-format2.png)
 
 ## <a name="process-a-customer-invoice-by-using-new-versions-of-the-custom-er-configurations"></a><a name="ProcessInvoice3"></a>Özel ER yapılandırmalarının yeni sürümlerini kullanarak bir müşteri faturası işleme
 
@@ -662,12 +662,15 @@ Sürüm 32.6.7.2 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sür
 4. Oluşturulan e-fatura XML dosyasını indirmek için **Aç**'ı seçin.
 5. E-fatura XML dosyasını analiz edin. Özelleştirmenize uygun olarak, müşteri vergi şemasının hâlâ özel **FederalTaxID** XML özniteliğinin yanı sıra **schemeID** ve **schemeAgencyID** XML özniteliklerini de içerdiğine dikkat edin. Ek olarak, temel **UBL Satış faturası** biçiminin yeni sürümündeki değişiklikler özelleştirmeyle birleştirildiğinden, **CBC: CustomizationId** XML öğesinin metni `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0` iken `urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0` olarak değiştirildi.
 
-    ![Özelleştirmelerle oluşturulan e-fatura XML dosyasının önizlemesi](./media/er-quick-start3-e-invoice3.png)
+    ![Özelleştirmelerle oluşturulan e-fatura XML dosyasının önizlemesi.](./media/er-quick-start3-e-invoice3.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 - [Lifecycle Services'dan ER yapılandırma indirme](download-electronic-reporting-configuration-lcs.md)
 - [Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir](er-download-configurations-global-repo.md)
-- [Serbest metin faturası oluşturma](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
-- [Özel alanlar oluşturma ve bunlarla çalışma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+- [Serbest metin faturası oluşturma](../../../finance/accounts-receivable/create-free-text-invoice-new.md)
+- [Özel alanlar oluşturma ve bunlarla çalışma](../../fin-ops/get-started/user-defined-fields.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

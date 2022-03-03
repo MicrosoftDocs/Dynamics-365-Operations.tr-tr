@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413622"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323913"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>VERİ TOPLAMA veri kaynaklarını Elektronik raporlama biçimlerinde kullanma
 
 [!include [banner](../includes/banner.md)]
 
-Farklı biçimlerde giden belgeler oluşturmak için kullanılan bir ER çözümünün [biçimini](general-electronic-reporting.md#FormatComponentOutbound) yapılandırmak için [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesinin Operations tasarımcısını kullanabilirsiniz. Yapılandırılmış biçim bileşeninin hiyerarşik yapısı çeşitli türlerdeki biçim öğelerinden oluşur. Bu biçim öğeleri, oluşturulan belgeleri gerekli bilgilerle çalışma zamanında doldurmak için kullanılır. Varsayılan olarak, bir ER biçimini çalıştırdığınızda, biçim öğeleri, biçim hiyerarşisinde sunuldukları sırayla çalıştırılır: tek tek, üstten alta doğru.
+Farklı biçimlerde giden belgeler oluşturmak için kullanılan bir ER çözümünün biçimini yapılandırmak için [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesinin Operations tasarımcısını kullanabilirsiniz. Yapılandırılmış biçim bileşeninin hiyerarşik yapısı çeşitli türlerdeki biçim öğelerinden oluşur. Bu biçim öğeleri, oluşturulan belgeleri gerekli bilgilerle çalışma zamanında doldurmak için kullanılır. Varsayılan olarak, bir ER biçimini çalıştırdığınızda, biçim öğeleri, biçim hiyerarşisinde sunuldukları sırayla çalıştırılır: tek tek, üstten alta doğru.
 
-ER, bir bağlama içeren bir biçim öğesini çalıştırdığında, bu bağlamanın formülü çalıştırılır ve biçim öğesi, değeri oluşturulan belgeye ekler. Örneğin, bağlama bir [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) alanının değerini bir biçim öğesine iletebilir. Çalışma zamanında veri modeli alanlarının değerlerini toplamak, değer toplama yapmak ve oluşturulan belgeyi toplanan değerlerle doldurmak için VERİ TOPLAMA veri kaynağı yapılandırabilirsiniz. Bu yaklaşımı kullanmak için yapılandırılan VERİ TOPLAMA veri kaynağının bir veri modeli alanının değerini, biçim öğesine geçirirken kullanılması için ilk bağlamayı değiştirin. VERİ TOPLAMA veri kaynağından değerleri geçirerek daha fazla kullanım için gerekli ayrıntıları toplayabilirsiniz.
+ER, bir bağlama içeren bir biçim öğesini çalıştırdığında, bu bağlamanın formülü çalıştırılır ve biçim öğesi, değeri oluşturulan belgeye ekler. Örneğin, bağlama bir veri modeli alanının değerini bir biçim öğesine iletebilir. Çalışma zamanında veri modeli alanlarının değerlerini toplamak, değer toplama yapmak ve oluşturulan belgeyi toplanan değerlerle doldurmak için VERİ TOPLAMA veri kaynağı yapılandırabilirsiniz. Bu yaklaşımı kullanmak için yapılandırılan VERİ TOPLAMA veri kaynağının bir veri modeli alanının değerini, biçim öğesine geçirirken kullanılması için ilk bağlamayı değiştirin. VERİ TOPLAMA veri kaynağından değerleri geçirerek daha fazla kullanım için gerekli ayrıntıları toplayabilirsiniz.
 
 VERİ TOPLAMA veri kaynağını yapılandırdığınızda, veri kaynağında yönetilecek bir değer türü belirtin. Aşağıdaki [veri türleri](er-formula-supported-data-types-primitive.md) şu anda değer toplamak için desteklenmektedir:
 

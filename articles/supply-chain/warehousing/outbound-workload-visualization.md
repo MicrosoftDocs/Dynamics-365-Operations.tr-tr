@@ -2,24 +2,22 @@
 title: Giden iş yükü görselleştirmesi
 description: Bu konuda giden iş yükü görselleştirmesi hakkında bilgiler verilmiştir. Bu işlevsellik, ambar yöneticilerinin ve denetçilerinin geçerli işin ilerlemesini ve kalan miktarını izlemek için kullanılabilecek özel iş yükü grafikleri oluşturmasına olanak tanır. Ambar yöneticileri birden çok görünüm oluşturabilir ve istedikleri gibi otomatik yenileme ayarlayabilir.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965564"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102914"
 ---
 # <a name="outbound-workload-visualization"></a>Giden iş yükü görselleştirmesi
 
@@ -29,12 +27,9 @@ ms.locfileid: "4965564"
 
 Bu işlevsellik, malzeme çekme işinin ilerlemesini izlemek için kullanılabilir. Özellik, iş gücü yönetimiyle tümleştirilir ve iş gücü yönetimi kurulmuşsa giden iş yükü görselleştirmeleri, gösterilen (filtrelenmiş) malzeme çekme işi için kalan saat sayısının bir hesaplamasını gösterebilir.
 
-## <a name="turn-on-the-outbound-workload-visualization-feature"></a>Giden iş yükü görselleştirmesi özelliğini açma
+## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Giden iş yükü görselleştirmesi özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Giden iş yükü görselleştirmesi*
+Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Giden iş yükü görselleştirmesi* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Giden iş yükü görselleştirmesi görselleştirmesini ayarlama
 
@@ -62,7 +57,7 @@ Bir giden iş yükü görselleştirmesi ayarlamak için aşağıdaki adımları 
     - **Dahil edilecek gün sayısı**: Grafiğin oluşturulması gereken geçmiş gün sayısını girin.
     - **İş emri türü**: Filtre uygulayacak giden iş emri türlerini seçin.
 
-    ![Filtreler sayfasını yapılandırma](media/work-viz-filters-1.png "Filtreler sayfasını yapılandırma")
+    ![Filtreler sayfasını yapılandırma.](media/work-viz-filters-1.png "Filtreler sayfasını yapılandırma")
 
 1. **Giden iş yükü görselleştirmeleri** sayfasına dönmek için **Filtreleri yapılandır** sayfasını kapatın.
 
@@ -72,11 +67,11 @@ Bir giden iş yükü görselleştirmesi ayarlamak için aşağıdaki adımları 
     - **Son yenilenme tarihi**: Bu alan, grafikteki bilgilerin en son güncelleştirildiği tarih ve saati gösterir.
     - **Tahmini/fiili süre**: Sisteminizde iş gücü standartları ayarlanmışsa grafikteki her sütunun üst kısmında bulunan toplu tahmini malzeme çekme sürelerini göstermek için bu seçeneği *Evet* olarak ayarlayın. İş gücü standartlarını kullanmıyorsanız bu seçenek kullanılamaz.
 
-    ![Örnek görselleştirme](media/work-viz-chart.png "Örnek görselleştirme")
+    ![Örnek görselleştirme.](media/work-viz-chart.png "Örnek görselleştirme")
 
 1. İlişkili iş satırı ayrıntılarını görüntülemek için grafikteki herhangi bir çubuğu seçin.
 
-    ![İş satırı ayrıntıları](media/work-viz-work-details.png "İş satırı ayrıntıları")
+    ![İş satırı ayrıntıları.](media/work-viz-work-details.png "İş satırı ayrıntıları")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Örnek: Bölgeler için giden iş yükü görselleştirmesi
 
@@ -94,6 +89,9 @@ Bu örnekte, her bölge için iş satırlarını ve her iş satırının durumun
 
 Aşağıdaki çizimde örnek bir sonuç grafik verilmektedir.
 
-![Bölge ve iş durumu görselleştirmesi](media/work-viz-chart.png "Bölge ve iş durumu görselleştirmesi")
+![Bölge ve iş durumu görselleştirmesi.](media/work-viz-chart.png "Bölge ve iş durumu görselleştirmesi")
 
 Bu grafik, **KAT** ve **TOPLU** adlı iki bölge ve **Boş** adlı bir bölge gösterir. **Boş** bölgesi, herhangi bir bölgenin üyesi olmayan tüm iş satırlarını temsil eder. Grafik, her zaman mümkün olduğunca çok görünürlük sağlamak için tüm alakasız filtrelenmiş verileri **Boş** olarak gösterir. **KAT** bölgesinde, grafik üç kapalı satır ve dört açık satır gösterir. **TOPLU** bölgesinde, grafik dört kapalı satır, bir açık satır ve 24 iptal edilmiş satır gösterir. Son olarak, grafik, herhangi bir bölgenin parçası olmayan ve bu nedenle **Boş** olarak listelenen sekiz kapalı satırı gösterir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

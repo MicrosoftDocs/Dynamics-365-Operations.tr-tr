@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758276"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323677"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektronik raporlama formülleri için desteklenen bileşik veri türleri
 
@@ -27,7 +27,7 @@ Bu konu, [elektronik raporlama (ER)](general-electronic-reporting.md) ifadelerin
 
 *sınıf* veri türü, ortak uygulama sınıfına başvurur. ER'de, başvurulan sınıfın her genel yöntemi için ayrı bir alan içeren [*kayıt*](#record) olarak temsil edilir. Yöntem çağrısı parametreleştirilirken, yöntemi çağırmak üzere yapılandırılmış bir ER ifadesinde uygun türlerin gerekli bağımsız değişkenlerini de belirtmeniz gerekir.
 
-ER [eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) ve [biçim](general-electronic-reporting.md#FormatComponentOutbound) bileşenlerinde, veri kaynağı olarak sunulan ve *sınıf* türünün bir değerini döndüren **Sınıf** veri kaynağını ekleyebilirsiniz. Bu veri kaynağı, çalışma zamanında çağrılabilecek sınıfın ortak yöntemlerini gösterir.
+ER eşleme ve biçim bileşenlerinde, veri kaynağı olarak sunulan ve *sınıf* türünün bir değerini döndüren **Sınıf** veri kaynağını ekleyebilirsiniz. Bu veri kaynağı, çalışma zamanında çağrılabilecek sınıfın ortak yöntemlerini gösterir.
 
 > [!NOTE]
 > Yalnızca bir değer döndüren yöntemler ER ifadelerinden çağrılabilir.

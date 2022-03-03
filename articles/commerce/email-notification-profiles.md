@@ -1,39 +1,33 @@
 ---
 title: E-posta bildirimi profili ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta bir e-posta bildirimi profilinin nasıl oluşturulacağı açıklanmaktadır.
-author: samjarawan
-manager: annbe
-ms.date: 03/31/2020
+author: bicyclingfool
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: samjar
+ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c0ab56c15a37313d0a88b1174d5bcf51d391dcec
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416339"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109643"
 ---
 # <a name="set-up-an-email-notification-profile"></a>E-posta bildirimi profili ayarlama
-
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'ta bir e-posta bildirimi profilinin nasıl oluşturulacağı açıklanmaktadır.
 
-## <a name="overview"></a>Genel Bakış
-
-Kanalları oluşturmadan önce, sipariş oluşturma, sipariş sevkiyat durumu ve ödeme hatası gibi çeşitli olaylar için e-posta bildirimleri gönderilebilmesini sağlamak amacıyla bir profil ayarlamanız iyi olacaktır.
+Kanalları oluştururken, bir e-posta bildirim profili ayarlayabilirsiniz. E-posta bildirim profili, müşterilerinize bildirim göndereceğiniz satış hareketini (sipariş oluşturuldu, sipariş hazırlandı ve sipariş faturalandı gibi etkinlikler) tanımlar. 
 
 E-posta yapılandırma hakkında daha fazla bilgi için bkz. [E-posta yapılandırma ve gönderme](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -49,7 +43,7 @@ E-posta bildirim profili oluşturmak için bu adımları izleyin.
 
 ### <a name="create-an-email-template"></a>Bir e-posta şablonu oluştur
 
-Bir e-posta bildirimi oluşturulmadan önce, gönderen e-posta bilgilerini ve e-posta şablonunu içeren bir kuruluş e-postası şablonu oluşturmanız gerekir.
+Desteklemek istediğiniz her bildirim türü için bir e-posta bildirim türünü etkinleştirmeden önce, Commerce genel merkezinde bir kuruluş e-posta şablonu oluşturmanız gerekir. Bu şablon, desteklenen her bir dil için e-posta konusu, gönderen, varsayılan dil ve e-posta gövdesini tanımlar.
 
 Yeni bir e-posta şablonu oluşturmak için bu adımları izleyin.
 
@@ -59,13 +53,15 @@ Yeni bir e-posta şablonu oluşturmak için bu adımları izleyin.
 1. **Gönderenin adı** alanına, gönderenin adını girin.
 1. **E-posta Açıklaması** alanına, anlamlı bir açıklama girin.
 1. **Gönderen e-postası** alanına, gönderenin e-posta adresini girin.
-1. **Genel** bölümünde, gerekli olan isteğe bağlı bilgileri (örneğin e-posta önceliği) doldurun.
+1. **Genel** bölümünde, e-posta şablonu için varsayılan dili seçin. Belirtilen dil için yerelleştirilmiş şablon yoksa, varsayılan dil kullanılır.
 1. **E-posta iletisi içeriği** bölümünü genişletin ve şablon içeriğini oluşturmak için **Yeni**'yi seçin. Her bir içerik öğesi için, dili seçin ve e-posta konu satırını belirtin. E-postanın gövde metni varsa, **Gövde metni var** kutusunun işaretlendiğinden emin olun.
 1. Eylem bölmesinde, e-posta gövde şablonu sağlamak için **E-posta iletisi**'ni seçin.
 
 Aşağıdaki resimde bazı örnek e-posta şablonu ayarları gösteriliyor.
 
-![E-posta şablonu ayarları](media/email-template.png)
+![E-posta şablonu ayarları.](media/email-template.png)
+
+E-posta şablonlarının nasıl oluşturulacağı hakkında bilgi için bkz. [İşlem olayları için e-posta şablonları oluşturma](email-templates-transactions.md). 
 
 ### <a name="create-an-email-event"></a>Bir e-posta olayı oluşturma
 
@@ -80,12 +76,27 @@ Bir e-posta olayı oluşturmak için bu adımları izleyin.
 
 Aşağıdaki resimde bazı örnek olay bildirimi ayarları gösteriliyor.
 
-![Olay bildirim ayarları](media/email-notification-profile.png)
+![Olay bildirim ayarları.](media/email-notification-profile.png)
+
+> [!NOTE]
+> Müşteri tarafından oluşturulan bildirim türü bir e-posta bildiriminin gönderilebilmesi için önce özelleştirmenin uygulanmasını gerektirir.
+
+### <a name="schedule-a-recurring-email-notification-process-job"></a>Yinelenen e-posta bildirim işlemi işi zamanla
+
+E-posta bildirimleri göndermek için **Perakende sipariş e-posta bildirimini işle** işinin çalışıyor olması gerekir.
+
+Daha önce yapmadıysanız Commerce Headquarters'da **Perakende sipariş e-posta bildirimini işle** işini ayarlamak için şu adımları izleyin.
+
+1. **Retail ve Commerce \> Retail ve Commerce BT \> E-posta ve bildirimler \> E-posta bildirimi gönder**'e gidin.
+1. **Perakende sipariş e-posta bildirimini işle** iletişim kutusunda **Yineleme**'yi seçin.
+1. **Yinelemeyi tanımla** iletişim kutusunda **Bitiş tarihi yok**'u seçin.
+1. **Yinelenme düzeni** altında **Dakika**'yı seçin ve sonra **Sayı** alanını **1** olarak ayarlayın. Bu ayarlar, e-posta bildirimlerinin olabildiğince çabuk şekilde işlenmesini sağlar.
+1. **Perakende sipariş e-posta bildirimini işle** iletişim kutusuna dönmek için **Tamam**'ı seçin.
+1. İş kurulumunu tamamlamak için **Tamam**'ı seçin.
 
 ### <a name="next-steps"></a>Sonraki adımlar
 
 Posta gönderebilmek için önce giden posta hizmetinizi yapılandırmanız ve bir toplu iş ayarlamanız gerekir. Daha fazla bilgi için bkz. [E-posta yapılandırma ve gönderme](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
-
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -96,3 +107,6 @@ Posta gönderebilmek için önce giden posta hizmetinizi yapılandırmanız ve b
 [Kanal kurulum önkoşulları](channels-prerequisites.md)
 
 [Kuruluşlar ve kuruluş hiyerarşilerine genel bakış](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

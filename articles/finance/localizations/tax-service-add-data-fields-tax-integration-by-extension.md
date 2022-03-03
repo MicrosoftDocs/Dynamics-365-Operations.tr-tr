@@ -2,7 +2,7 @@
 title: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
 description: Bu konu, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar.
 author: qire
-ms.date: 04/20/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8bdd56ebdd50c1eae98094725a01bf9c5ec52bb4e689eb282f80631810a65725
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721670"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323530"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Uzantı kullanarak vergi tümleştirmesine veri alanları ekleme
 
@@ -353,15 +353,77 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-Bu kodda, `_destination` gönderi isteğini oluşturmak için kullanılan sarmalayıcı nesnedir ve `_source` `TaxIntegrationLineObject` nesnesidir. 
+Bu kodda, `_destination` gönderi isteğini oluşturmak için kullanılan sarmalayıcı nesnedir ve `_source` `TaxIntegrationLineObject` nesnesidir.
 
 > [!NOTE]
-> * Talep formunda kullanılan anahtarı olduğu `private const str` olarak tanımlayın.
-> * `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` yönteminde `SetField` yöntemini kullanarak alanı ayarlayın. İkinci parametrenin veri türü `string` olmalıdır. Veri türü `string` değilse, `string`'e dönüştürün.
+> Talep formunda kullanılan anahtarı **private const str** olarak tanımlayın. Dize tam olarak konuda eklenen ölçüm aynı olmalıdır, [Vergi yapılandırmalarına veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).
+> **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** yönetimdeki alanı **SetField** yöntemi kullanarak ayarlayın. İkinci parametrenin veri türü **string** olmalıdır. Veri türü **string** değilse dönüştürün.
+>  X + + **numaralandırma türü** genişletilmiş ise değeri, etiketi ve adı arasındaki farkı not alın.
+> 
+>   - Numaralandırma değeri tamsayıdır.
+>   - Enum etiketi, tercih edilen diller arasında farklı olabilir. Numaralandırma türünü dizeye dönüştürmek için **enum2Str** kullanmayın.
+>   - Sabit olduğu için numaralandırma adı önerilir. **enum2Symbol** numaralandırmayı adına dönüştürmek için kullanılabilir. Vergi yapılandırmasına eklenen numaralandırma değeri tam olarak numaralandırma adı ile aynı olmalıdır.
+
+## <a name="model-dependency"></a>Model bağımlılığı
+
+Projeyi başarılı bir şekilde oluşturmak için model bağımlılıklarına aşağıdaki referans modellerini ekleyin:
+
+- ApplicationPlatform
+- ApplicationSuite
+- Vergi Altyapısı
+- Boyutlar, mali boyut kullanılıyorsa
+- Kodda başvurulan diğer gerekli modeller
+
+## <a name="validation"></a>Doğrulama
+
+Önceki adımları tamamladıktan sonra değişikliklerinizi doğrulayabilirsiniz.
+
+1. Finance'ta **Borç hesapları**'na gidin ve URL'ye **&debug=vs%2CconfirmExit&** ekleyin. Örneğin, https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. Son **&** gereklidir.
+2. Satınalma siparişi oluşturmak için **Satınalma siparişi** sayfasını açın ve **Yeni**'yi seçin.
+3. Özelleştirilmiş alanın değerini ayarlayın ve **Satış vergisi**'ni seçin. Öneki **TaxServiceTroubleshootingLog** olan bir sorun gidermek dosyası otomatik olarak indirilir. Bu dosya, Vergi Hesaplama Hizmeti'ne gönderilen hareket bilgilerini içerir. 
+4. **Vergi hizmeti hesaplaması girişi JSON** bölümünde eklenen özelleştirilmiş alanın bulunduğunu ve değerinin doğru olduğunu kontrol edin. Değer doğru değilse, bu belgedeki adımları tekrar denetleyin.
+
+Dosya örneği:
+
+```
+===Tax service calculation input JSON:===
+{
+  "TaxableDocument": {
+    "Header": [
+      {
+        "Lines": [
+          {
+            "Line Type": "Normal",
+            "Item Code": "",
+            "Item Type": "Item",
+            "Quantity": 0.0,
+            "Amount": 1000.0,
+            "Currency": "EUR",
+            "Transaction Date": "2022-1-26T00:00:00",
+            ...
+            /// The new fields added at line level
+            "Cost Center": "003",
+            "Project": "Proj-123"
+          }
+        ],
+        "Amount include tax": true,
+        "Business Process": "Journal",
+        "Currency": "",
+        "Vendor Account": "DE-001",
+        "Vendor Invoice Account": "DE-001",
+        ...
+        // The new fields added at header level, no new fields in this example
+        ...
+      }
+    ]
+  },
+}
+...
+```
 
 ## <a name="appendix"></a>Ek
 
-Bu ekte, satır düzeyinde mali boyutların (**maliyet merkezi** ve **Proje**) tümleştirilmesi için örnek kodun tamamı gösterilir.
+Bu ekte, satır düzeyinde mali boyutların (**Maliyet merkezi** ve **Proje**) tümleştirilmesi için örnek kodun tamamı gösterilir.
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

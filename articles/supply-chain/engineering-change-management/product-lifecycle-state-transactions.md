@@ -2,26 +2,23 @@
 title: Ürün yaşam döngüsü durumu ve hareketler
 description: Bu konu, bir mühendislik ürünü yaşam döngüsü boyunca ilerlerken her yaşam döngüsü durumu için hangi hareketlere izin verileceğini nasıl denetleyebileceğinizi açıklamaktadır.
 author: t-benebo
-manager: tfehr
-ms.date: 09/28/2020
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
+ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439750"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322756"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Ürün yaşam döngüsü durumu ve hareketler
 
@@ -76,3 +73,33 @@ Mevcut iş süreçlerinin hangilerinin geçerli yaşam döngüsü durumundaki ü
 | Poliçe | Bu yaşam döngüsü durumunda olan ürünler için geçerli işleme izin verilip verilmediğini denetlemek üzere aşağıdaki değerlerden birini seçin:<ul><li>**Etkin**: İş sürecine izin verilir.</li><li>**Engellendi**: İşleme izin verilmez. Bir kullanıcı, bu yaşam döngüsü durumunda olan bir üründe işlem kullanmaya çalışırsa, sistem girişimi engeller ve bir hata görüntüler. Örneğin, kullanım ömrü sonundaki ürünlerin satın alınmasını engelleyebilirsiniz.</li><li>**Uyarı ile etkinleştirildi**: İşleme izin verilir ancak bir uyarı görüntülenir. Örneğin, araştırma ve geliştirme departmanı tarafından oluşturulan bir üretim emrine bir prototip ürününün yerleştirilmesini isteyebilirsiniz. Ancak diğer departmanlar ürünü henüz üretmemelidir.</li></ul> |
 
 Daha fazla yaşam döngüsü durumu kuralını özelleştirme olarak ekliyorsanız üst bölmede **Süreçleri yenile**'yi seçerek bu kuralları kullanıcı arabiriminde (UI) görüntüleyebilirsiniz. **Süreçleri yenile** düğmesi yalnızca yöneticiler tarafından kullanılabilir.
+
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Serbest bırakılmış ürünler ve ürün çeşitleri için yaşam döngüsü durumları
+
+Çeşitleri (ana ürün ve çeşitler) olan bir ürün için, ürün (ana) bir yaşam döngüsü durumuna sahip olacaktır ve her ürün çeşidinin farklı bir yaşam döngüsü durumuna sahip olabilir.
+
+Ürün çeşidi veya ürün durdurulmuşsa, belirli işlemler için de bu işlem engellenir. Özellikle bir işlemin durdurulup durdurulmadığını belirlemek için, sistem aşağıdaki denetimleri yapar:
+
+- Mühendislik denetimli ürünler için:
+  - Geçerli mühendislik sürümü durdurulmuşsa, işlemi durdurun.
+  - Geçerli ürün çeşidi durdurulmuşsa, işlemi durdurun.
+  - Serbest bırakılmış ürün durdurulmuşsa, işlemi durdurun.
+- Standart ürünler için:
+  - Geçerli ürün çeşidi durdurulmuşsa, işlemi durdurun.
+  - Serbest bırakılmış ürün durdurulmuşsa, işlemi durdurun.
+
+Örneğin, yalnızca belirli bir ürünün (tişört) tek bir çeşidini (kırmızı) satmak istediğinizi, diğer tüm çeşitlerin satışlarını şimdilik durdurduğunuzu varsayalım. Bunu, aşağıdaki ayar ile uygulayabilirsiniz:
+
+- Ürüne, işleme izin veren bir yaşam döngüsü durumu atayın. Örneğin, tişört ürününe, *Satış siparişi* iş işlemine olanak tanıyan *Satılabilir* yaşam döngüsü durumunu atayın.
+- Satılabilir çeşide, işleme izin veren bir yaşam döngüsü durumu atayın. Örneğin, kırmızı çeşidine *Satılabilir* yaşam döngüsü durumunu atayın.
+- Diğer tüm çeşitlere, işlemin durdurulduğu başka bir yaşam döngüsü durumu atanır. Örneğin, beyaz çeşidine (ve diğer tüm çeşitlere), *Satış siparişi* iş sürecini durduran *Satılamaz* yaşam döngüsü durumu atanır.
+
+## <a name="default-product-lifecycle-states"></a>Varsayılan ürün yaşam döngüsü durumları
+
+Bir mühendislik sürümünün varsayılan yaşam döngüsü durumu, mühendislik kategorisi tarafından belirtilir. Yeni bir ürünün ilk sürümü de dahil olmak üzere yeni bir mühendislik sürümü oluşturduğunuzda durumu varsayılana ayarlanır.
+
+Yeni bir ürün veya mühendislik ürünü oluşturduğunuzda, ürüne atanan serbest bırakma ilkesinin sablon serbest bırakılan ürününde belirterek varsayılan yaşam döngüsü durumunu da ayarlayabilirsiniz.
+
+Bu durumda, yeni bir mühendislik ürünü oluşturduğunuzda, ürünün sürümden farklı bir yaşam döngüsü durumuna sahip olması olasıdır.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

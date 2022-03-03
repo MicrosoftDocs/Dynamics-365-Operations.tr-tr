@@ -2,26 +2,23 @@
 title: Yerleşim plakası konumlandırmasıı
 description: Lisans levhası yerleşim konumlama, Çift-derin palet yerleşiminden oluşan yerleşim gibi, bir lisans kalıbının çok palet bir yerleşimde nerede konumlanıldığını görmenizi sağlar.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439620"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102814"
 ---
 # <a name="location-license-plate-positioning"></a>Yerleşim plakası konumlandırmasıı
 
@@ -33,12 +30,9 @@ Lisans levhası yerleşim konumlama, Çift-derin palet yerleşiminden oluşan ye
 
 Bu konu özelliğin nasıl ayarlanacağını ve kullanılacağını gösteren bir senaryo sunar.
 
-## <a name="turn-on-the-location-license-plate-positioning-feature"></a>Konum lisans plağı konumlandırma özelliğini aç
+## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Konum lisans plakası konumlandırma özelliğini açma veya kapatma
 
-Lisans plakası konumlanırmayı kullanabilmeniz için sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı**: *Konum lisans plağı konumlandırma*
+Bu konuda açıklanan işlevi kullanmak için *Yerleşim lisans plakası konumlandırma* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yerleşim lisans plakası konumlandırma* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
@@ -91,7 +85,7 @@ Bu konuda sunulan senaryoya ait *konum lisans levhası konumlandırma* özelliğ
 1. **Lisans levhası** seçiliyken, **Tablo bağlaması ekle**'yi seçin.
 1. Görünen tablolar listesinde, **ilişki** sütununda, **Konum lisans levhası konumlandırma (lisans levhası)** seçin. Daha sonra **Stok boyutları** tablo katılmasınına **Konum lisans levhası konumlandırma** eklemek için **Seç**'i seçin.
 
-    ![Tablo birleştirmeleri](media/LpTableJoin.png "Tablo birleştirmeleri")
+    ![Tablo birleştirmeleri.](media/LpTableJoin.png "Tablo birleştirmeleri")
 
 1. Güncelleştirilen birleştirilmiş tabloları onaylamak ve sorgu düzenleyicisini kapatmak için **Tamam** 'ı seçin.
 1. **Yerleşim yönergesi eylemleri** hızlı sekmesinde sorgu düzenleyiciyi açmak için **Sorguyu düzenle**'yi seçin.
@@ -103,7 +97,7 @@ Bu konuda sunulan senaryoya ait *konum lisans levhası konumlandırma* özelliğ
     - **Alan:** *LP Konumu*
     - **Ölçüt:** *1*
 
-    ![Yeni Aralık](media/LpPositionCriteria.png "Yeni Aralık")
+    ![Yeni aralık.](media/LpPositionCriteria.png "Yeni Aralık")
 
 1. Değişikliklerinizi onaylayıp sorgu düzenleyicisi kapatmak için **Tamam**'ı seçin.
 
@@ -278,6 +272,9 @@ Bu senaryo için, kullanıcının, iş yapması amacıyla ambar *61* için ayarl
 1. **Iş kodu Tara/lisans levhası kimlik** sayfasında **kimlik** alanını seçin ve satış satırındaki iş kodunu girin.
 1. Malzeme çekme çalışmasının *A0002* *01A01R1S2B* konumundan maddeyi çekmesini yönlendirdiğine dikkat edin. Bu yönergeyi, madde *A0002* Bu konumdaki *1* konumunda bulunan bir lisans kalıbının açık olması nedeniyle alırsınız.
 
-    ![Pozisyon 1 konumu](media/LocationLicensePlatePositioning.png "Pozisyon 1 konumu")
+    ![Pozisyon 1 konumu.](media/LocationLicensePlatePositioning.png "Pozisyon 1 konumu")
 
 1. Konum için oluşturduğunuz lisans plakası kodunu girin ve satış siparişini seçmek için istemleri izleyin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

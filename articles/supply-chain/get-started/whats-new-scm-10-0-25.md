@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 0ce9bc4685542cf691d862c0fec76f3f7b40c6b6
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087332"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103008"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25 (Nisan 2022) Önizlemesi
 
@@ -52,11 +52,9 @@ Bu özelliklerden herhangi birini açmak veya kapatmak istiyorsanız bunu [özel
 |---|---|---|
 | Stok ve ambar yönetimi | (Polonya) Çeşitli SAD faturalarını bir SAD içinde bir Satınalma sipariş satırına bağlamaya izin ver | Bu özellik, birkaç farklı fatura için (farklı sevk irsaliyeleri gibi) satınalma siparişi satırları deftere nakledildiğinde satınalma siparişi satırlarını bölmenize ve bunları tek bir yönetim belgesine (SAD) bağlamanıza olanak tanır. |
 | Tedarik ve kaynak atama | Muhasebe tarihine göre birden fazla satınalma taleplerini tek bir satınalma siparişi içinde konsolide et | Bu özellik, farklı satınalma taleplerinin farklı muhasebe tarihleri varsa birden çok satınalma siparişinin tek bir satınalma siparişinde birleştirilmesine olanak tanır. Satınalma siparişi oluşturma ve talep konsolidasyon satınalma ilkesi kuralları, talep satırlarının satınalma siparişi düzeyindeki muhasebe tarihine göre gruplandırılmasına ilişkin kararı otomatikleştirmek için ayarlanabilir. Hesap tarihi bütçe ayırmaları ve taahhütleri için kullanıldığından, bütçe denetimi etkinleştirildiğinde muhasebe tarihine göre satınalma siparişi konsolidasyonu desteklenmez. Bu nedenle, satınalma talebinden satınalma siparişime geçiş sırasında tutulmalıdır. |
-| Tedarik ve kaynak atama | Satınalma Talebi Dağıtımı Sıfırlama Düğmesini devre dışı bırak | Bu özellik, gözden geçirilmiş satınalma taleplerinde **Muhasebe dağıtımı** sayfasındaki **Sıfırla** düğmesini devre dışı bırakır. |
 | Tedarik ve kaynak atama | Eski varsayılan RFQ yanıt alanı ayarlarını görüntüle | Bu özellik, daha önce kullanıcı arabiriminden kaldırılan eski varsayılan teklif talebi (RFQ) yanıt alanı ayarlarını yeniden sunar. Bu ayarlar kullanıma hazır herhangi bir işlevsellik sağlamaz ancak gerektiği gibi sağlamak için özelleştirilebilir. Kuruluşunuz varsayılan RFQ yanıt alanı ayarları için işlevsellik eklediyse veya eklemeyi planlıyorsa bu özelliği etkinleştirin. Bu özellik etkinleştirildiğinde, **Tedarik ve kaynak parametreleri** sayfasına giderek, **Teklif talebi** sekmesini açarak ve **Teklif için varsayılan istek yanıt alanları** nı seçerek ayarlara erişebilirsiniz. |
 | Tedarik ve kaynak atama | Satınalma siparişinde etkin boyut bağlantısı mali boyutuyla satıcıdan alınan mali boyutları birleştir | Bu özellik, bir mali boyut ile site stok boyutu arasında bir bağlantı ayarlarsanız, satınalma talep onayından sonra satıcılardan gelen mali boyutları etkin boyut bağlantısı mali boyutlarıyla birleştirmenizi sağlar. Satınalma siparişi oluşturma ve talep konsolidasyon satınalma ilkesi kuralları, satınalma siparişi başlığı düzeyinde etkin boyut bağlantısı mali boyutu olan satıcılardan mali boyutları birleştirme kararını yönlendirmek için ayarlanabilir. |
 | Üretim denetimi | (Rusya) Üretim formülü/ürün reçetesi ve üretimde otomatik GTD rezervasyonu/tüketimi için varsayılan konum kurulumunu etkinleştirme | Bu özellik, ithal ham maddelerden üretim için ek seçenekler sağlar (yalnızca Rusça bölgesi):<ul><li>Hem kaynak gruplarında hem de ambarlarda üretim formülleri ve ürün reçeteleri için otomatik varsayılan konumu ayarlama seçeneği.</li><li>WMS dışı rezervasyon algoritmasına göre, WMS ile etkinleştirilen ambarlarda ham maddelerin *GTD numarası* boyutuna göre otomatik olarak ayrılması. Bu, *Ham madde çekme* için bir çalışma ilkesinin *Hiçbir Zaman* olarak ayarlanmış **İş oluşturma yöntemiyle** var olduğu ve ambar, konum ve madde numarası kurulumunun üretim (toplu iş) siparişinin stok hareketleriyle eşleştiği durumlarda geçerlidir.</li><li>Daha önce açıklandığı üzere, edinilen ayırmaya göre, malzeme çekme listesi deftere naklinde ham maddelerin *GTD numarası* boyutuna göre otomatik tüketimi.</li></ul> |
-| Ambar yönetimi | Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak | Bu özellik, sistemin stoku engelleme durumuyla örnekleyen kalite siparişleri için beklenen giriş hareketlerini oluşturmasını engeller. Engellenen stok kullanılamadığından, bu özellik beklenen girişleri kaldırır. Bu, stokun, veri bütünlüğü sorunlarına neden olabilen birden çok engelleme durumuyla bitmediğinden emin olmanıza yardımcı olur. |
 | Ambar yönetimi | (Önizleme) Gelen ve giden ambar emirleri için ölçek birimi desteği | Bu özellik, sistemin serbest bırakmadan ambara işleme sırasında giden ambar siparişleri oluşturmasına ve transfer emirleri sevk edildi olarak deftere nakledildiğinde gelen ambar siparişleri oluşturmasına neden olur. Sistem daha sonra her gelen veya giden ambar siparişini siparişi sevk etmekten veya teslim almaktan sorumlu ölçek birimiyle eşitler. Bu özelliği etkinleştirdikten sonra ambar yürütme iş yüklerinizin yükseltilmesi gerektiğini unutmayın. Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md).<br><br>Bu özellik, *ASN'lerden yerine koyma çalışmasını ayırmayı* gerektirir ve Warehouse Management mobil uygulamasındaki plaka alma işlemini kullanarak transfer emirleri alma yeteneğini etkinleştirir. |
 
 ## <a name="feature-state-changes-in-this-release"></a>Bu sürümdeki özellik durumu değişiklikleri
@@ -67,121 +65,121 @@ Tablo ayrıca, daha önce genel önizlemede bulunan, ancak 10.0.25'te genel kull
 
 | Modül | Özellik adı | Özellik durumu |
 | --- | --- | --- |
-| Kıymet yönetimi | Bir bakım planı çalıştırırken iş emirlerini gruplama kuralları uygula | Genel kullanılabilir |
-| Kıymet yönetimi | Sayaç tabanlı bakım geliştirmeleri | Genel kullanılabilir |
-| Maliyet yönetimi | Maliyet hesaplama düzeyi | Genel kullanılabilir |
+| Kıymet yönetimi | [Bir bakım planı çalıştırırken iş emirlerini gruplama kuralları uygula](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) | Genel kullanılabilir |
+| Kıymet yönetimi | [Sayaç tabanlı bakım geliştirmeleri](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) | Genel kullanılabilir |
+| Maliyet yönetimi | [Maliyet hesaplama düzeyi](../cost-management/cost-calculation-level.md) | Genel kullanılabilir |
 | Maliyet yönetimi | Stok kapanışını tersine çevirme işlemi için kullanıcı tanımlı toplu iş numarası kurulumunu etkinleştir | Genel kullanılabilir |
-| Maliyet yönetimi | Stok kapanışının ilerlemesiyle ilgili ayrıntılar | Genel kullanılabilir |
-| Maliyet yönetimi | Stok standart maliyet yeniden değerlemesini varsayılan mali boyutlara ayarlama seçenekleri | Genel kullanılabilir |
+| Maliyet yönetimi | [Stok kapanışının ilerlemesiyle ilgili ayrıntılar](whats-new-scm-10-0-21.md) | Genel kullanılabilir |
+| Maliyet yönetimi | [Stok standart maliyet yeniden değerlemesini varsayılan mali boyutlara ayarlama seçenekleri](../cost-management/manage-standard-cost-updates.md) | Genel kullanılabilir |
 | Maliyet yönetimi | Stok değeri raporu verilerini temizleme | Varsayılan olarak açık |
-| Maliyet yönetimi | Stok değeri raporu depolama alanı | Varsayılan olarak açık |
+| Maliyet yönetimi | [Stok değeri raporu depolama alanı](../cost-management/inventory-value-report-storage.md) | Varsayılan olarak açık |
 | Maliyet yönetimi | Stok kapatma günlüğünü ızgarada göster | Varsayılan olarak açık |
-| Mühendislik değişikliği yönetimi | Mevcut ürünlerde değişiklik yönetimini etkinleştirme | Varsayılan olarak açık |
-| Mühendislik değişikliği yönetimi | Mühendislik Değişikliği Yönetimi | Varsayılan olarak açık |
-| Mühendislik değişikliği yönetimi | Üretim bölümü için mühendislik bildirimleri | Varsayılan olarak açık |
-| Mühendislik değişikliği yönetimi | Mühendislik Değişikliği Yönetimi'nde geliştirilmiş öznitelik devralma | Varsayılan olarak açık |
-| Mühendislik değişikliği yönetimi | Formüllerdeki ve formül içeriklerindeki değişiklikleri yönet | Varsayılan olarak açık |
-| Mühendislik değişikliği yönetimi | Ürün hazır olma denetimleri | Varsayılan olarak açık |
-| Mühendislik değişikliği yönetimi | Mühendislik ürünleri için çeşit oluşturma | Varsayılan olarak açık |
+| Mühendislik değişikliği yönetimi | [Mevcut ürünlerde değişiklik yönetimini etkinleştirme](../engineering-change-management/change-management-existing-products.md) | Varsayılan olarak açık |
+| Mühendislik değişikliği yönetimi | [Mühendislik Değişikliği Yönetimi](../engineering-change-management/product-engineering-overview.md) | Varsayılan olarak açık |
+| Mühendislik değişikliği yönetimi | [Üretim bölümü için mühendislik bildirimleri](../engineering-change-management/engineering-change-management.md) | Varsayılan olarak açık |
+| Mühendislik değişikliği yönetimi | [Mühendislik Değişikliği Yönetimi'nde geliştirilmiş öznitelik devralma](../engineering-change-management/engineering-attributes-and-search.md) | Varsayılan olarak açık |
+| Mühendislik değişikliği yönetimi | [Formüllerdeki ve formül içeriklerindeki değişiklikleri yönet](../engineering-change-management/manage-formula-changes.md) | Varsayılan olarak açık |
+| Mühendislik değişikliği yönetimi | [Ürün hazır olma denetimleri](../engineering-change-management/product-readiness.md) | Varsayılan olarak açık |
+| Mühendislik değişikliği yönetimi | [Mühendislik ürünleri için çeşit oluşturma](../engineering-change-management/engineering-variants.md) | Varsayılan olarak açık |
 | Stok ve ambar yönetimi | Ürün reçetesi satırlarındaki ürün reçetesi sürümüne gezinti | Zorunlu |
-| Master planlama | Planlı toplu ve paketli siparişler için toplu iş olarak yürütülebilen kesinleştirme ve konsolidasyon | Genel kullanılabilir |
+| Master planlama | [Planlı toplu ve paketli siparişler için toplu iş olarak yürütülebilen kesinleştirme ve konsolidasyon](whats-new-scm-10-0-20.md) | Genel kullanılabilir |
 | Master planlama | Bakım ile kaynak planlama | Genel kullanılabilir |
 | Master planlama | Master plan kurulum sihirbazı özelliklerini etkinleştirme | Zorunlu |
-| Master planlama | Talep tahmini ayrıntılarıyla ilgili tahmin modeli seçimi | Zorunlu |
-| Master planlama | Master planlama ilerlemesi görselleştirmesi | Zorunlu |
-| Master planlama | Planlı siparişleri paralel kesinleştirme | Zorunlu |
-| Master planlama | Filtreleme ile planlı sipariş kesinleştirici | Varsayılan olarak açık |
-| Master planlama | Planlı siparişler için kayıtlı görünümler | Varsayılan olarak açık |
+| Master planlama | [Talep tahmini ayrıntılarıyla ilgili tahmin modeli seçimi](../master-planning/manual-adjustments-baseline-forecast.md) | Zorunlu |
+| Master planlama | [Master planlama ilerlemesi görselleştirmesi](../master-planning/tasks/monitor-master-planning-run.md) | Zorunlu |
+| Master planlama | [Planlı siparişleri paralel kesinleştirme](../master-planning/planning-optimization/planned-order-firming.md) | Zorunlu |
+| Master planlama | [Filtreleme ile planlı sipariş kesinleştirici](../master-planning/planning-optimization/planned-order-firming.md) | Varsayılan olarak açık |
+| Master planlama | [Planlı siparişler için kayıtlı görünümler](saved-views-scm.md) | Varsayılan olarak açık |
 | Tedarik ve kaynak atama | Satınalma Talebi Dağıtımı Sıfırlama Düğmesini devre dışı bırak | Genel kullanılabilir |
-| Tedarik ve kaynak atama | Tedarikle ilgili iş akışlarını sıfırlamayı etkinleştir | Genel kullanılabilir |
+| Tedarik ve kaynak atama | [Tedarikle ilgili iş akışlarını sıfırlamayı etkinleştir](whats-new-scm-10-0-20.md) | Genel kullanılabilir |
 | Tedarik ve kaynak atama | Satıcı işbirliğinde kabul edilen satınalma siparişlerini toplu olarak onaylama özelliği | Zorunlu |
 | Tedarik ve kaynak atama | Satınalma sözleşmesi Kapatıldı durumu | Zorunlu |
 | Tedarik ve kaynak atama | Satınalma sözleşmesiyle ilişkili satınalma siparişi faturalarına satır ekle | Varsayılan olarak açık |
 | Tedarik ve kaynak atama | Deftere nakil ürün girişi sayfasına Sipariş edilen miktar alanı ekle | Varsayılan olarak açık |
-| Tedarik ve kaynak atama | Satıcıların, satıcı işbirliği üzerinden tedarik kategorilerine başvurmasına izin ver | Varsayılan olarak açık |
+| Tedarik ve kaynak atama | [Satıcıların, satıcı işbirliği üzerinden tedarik kategorilerine başvurmasına izin ver](../procurement/category-requests-from-vendors.md) | Varsayılan olarak açık |
 | Tedarik ve kaynak atama | Satınalma siparişlerindeki masraf başlangıç ve bitiş tutarları | Varsayılan olarak açık |
 | Tedarik ve kaynak atama | Tesis ve ambarla masraf ayarı | Varsayılan olarak açık |
 | Tedarik ve kaynak atama | Yıllık tarifeye göre satınalma harcı hesaplamasını etkinleştir | Varsayılan olarak açık |
-| Tedarik ve kaynak atama | Satınalma sözleşmesi sorumlu taraf | Varsayılan olarak açık |
-| Tedarik ve kaynak atama | Satın alma siparişleri için kayıtlı görünümler | Varsayılan olarak açık |
-| Ürün bilgileri yönetimi | Varsayılan sipariş miktarlarında katı doğrulama | Zorunlu |
+| Tedarik ve kaynak atama | [Satınalma sözleşmesi sorumlu taraf](../procurement/purchase-agreements.md) | Varsayılan olarak açık |
+| Tedarik ve kaynak atama | [Satın alma siparişleri için kayıtlı görünümler](saved-views-scm.md) | Varsayılan olarak açık |
+| Ürün bilgileri yönetimi | [Varsayılan sipariş miktarlarında katı doğrulama](../production-control/default-order-settings.md) | Zorunlu |
 | Ürün bilgileri yönetimi | Zaman aşımını önlemek için ürün reçetesi raporunu ön işleme | Varsayılan olarak açık |
 | Ürün bilgileri yönetimi | Madde şablonları kullanılırken varsayılan mali boyutlar ayrı ayrı kullanılır | Varsayılan olarak açık |
 | Ürün bilgileri yönetimi | Madde şablonları için ürün boyutu gruplarını etkinleştir | Varsayılan olarak açık |
 | Ürün bilgileri yönetimi | Ürün çeşidi adlarını terminolojiye göre yeniden oluştur | Varsayılan olarak açık |
-| Ürün bilgileri yönetimi | Çeşit önerileri sayfa geliştirmeleri | Varsayılan olarak açık |
+| Ürün bilgileri yönetimi | [Çeşit önerileri sayfa geliştirmeleri](../pim/tasks/create-predefined-product-variants.md) | Varsayılan olarak açık |
 | Üretim denetimi | İyileştirilmiş üretim fiili ağırlık miktarı çekme | Genel kullanılabilir |
 | Üretim denetimi | İş Kartı Terminali sayfasına yeni bir Molayı durdur düğmesi eklendi | Zorunlu |
-| Üretim denetimi | İş kartı cihazında tamamlandı olarak bildirme sırasında otomatik plaka numarası oluşturmayı etkinleştirin | Zorunlu |
+| Üretim denetimi | [İş kartı cihazında tamamlandı olarak bildirme sırasında otomatik plaka numarası oluşturmayı etkinleştirin](../production-control/production-floor-execution-configure.md) | Zorunlu |
 | Üretim denetimi | Alt sözleşmeli maddeler için kısmi girişe olanak tanıyın ve Satıcı türündeki ürün reçetesi satırları için hurda hesaplamasıyla ilgili sorunu düzeltin | Zorunlu |
-| Üretim denetimi | Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği | Zorunlu |
+| Üretim denetimi | [Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği](../production-control/production-floor-execution-configure.md) | Zorunlu |
 | Üretim denetimi | İşleri Onayla ve Transfer et iletişim kutularındaki geliştirmeler | Zorunlu |
-| Üretim denetimi | İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası | Zorunlu |
-| Üretim denetimi | İş Kartı Cihazından etiket yazdır | Zorunlu |
-| Üretim denetimi | Üretim katı yürütmesi | Zorunlu |
-| Üretim denetimi | Üretim katı yürütme arabirimi için varlık yönetim işlevi | Varsayılan olarak açık |
-| Üretim denetimi | Üretim katı yürütme arabiriminde iş arama | Varsayılan olarak açık |
-| Üretim denetimi | Varsayılan üretim rezervasyonlarını geçersiz kıl | Varsayılan olarak açık |
-| Üretim denetimi | Üretim katı yürütme arabiriminde seri, toplu iş ve plaka numaralarının tamamını göster | Varsayılan olarak açık |
-| Satış ve pazarlama | Satış siparişi ayrıntıları performans iyileştirmesi | Genel kullanılabilir |
+| Üretim denetimi | [İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası](../production-control/production-floor-execution-configure.md) | Zorunlu |
+| Üretim denetimi | [İş Kartı Cihazından etiket yazdır](../production-control/production-floor-execution-configure.md) | Zorunlu |
+| Üretim denetimi | [Üretim katı yürütmesi](../production-control/production-floor-execution-configure.md) | Zorunlu |
+| Üretim denetimi | [Üretim katı yürütme arabirimi için varlık yönetim işlevi](../production-control/production-floor-execution-configure.md) | Varsayılan olarak açık |
+| Üretim denetimi | [Üretim katı yürütme arabiriminde iş arama](../production-control/production-floor-execution-configure.md) | Varsayılan olarak açık |
+| Üretim denetimi | [Varsayılan üretim rezervasyonlarını geçersiz kıl](../production-control/override-default-reservation-principle.md) | Varsayılan olarak açık |
+| Üretim denetimi | [Üretim katı yürütme arabiriminde seri, toplu iş ve plaka numaralarının tamamını göster](whats-new-scm-10-0-21.md) | Varsayılan olarak açık |
+| Satış ve pazarlama | [Satış siparişi ayrıntıları performans iyileştirmesi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | Genel kullanılabilir |
 | Satış ve pazarlama | Satış teklifi ayrıntıları performans iyileştirmesi | Genel kullanılabilir |
 | Satış ve pazarlama | Satış siparişinin başvurulan veri dışarı aktarma ilkesi | Zorunlu |
-| Satış ve pazarlama | Satınalma siparişi satırını silme ilkesine yönelik satış siparişi | Zorunlu |
-| Satış ve pazarlama | Satış teklifinin başvurulan veri dışarı aktarma ilkesi | Zorunlu |
-| Satış ve pazarlama | İlgili kişi veri varlığını dışa aktarma optimizasyonu | Varsayılan olarak açık |
+| Satış ve pazarlama | [Satınalma siparişi satırını silme ilkesine yönelik satış siparişi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy) | Zorunlu |
+| Satış ve pazarlama | [Satış teklifinin başvurulan veri dışarı aktarma ilkesi](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy)| Zorunlu |
+| Satış ve pazarlama | [İlgili kişi veri varlığını dışa aktarma optimizasyonu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization) | Varsayılan olarak açık |
 | Satış ve pazarlama | Satış teklifi belgesi girişi ve belge sonuç alanlarında aramayı etkinleştir | Varsayılan olarak açık |
-| Satış ve pazarlama | "İlk 100" müşteri raporunun performansını iyileştir | Varsayılan olarak açık |
+| Satış ve pazarlama | ["İlk 100" müşteri raporunun performansını iyileştir](whats-new-scm-10-0-23.md) | Varsayılan olarak açık |
 | Satış ve pazarlama | Tahmini müşteri bakiyelerini yeniden hesapla | Varsayılan olarak açık |
-| Satış ve pazarlama | Fiili ağırlıklı ve fiili ağırlıksız ondalık hassasiyetli satış iade siparişi satırı kaydı | Varsayılan olarak açık |
-| Satış ve pazarlama | Satış ve Pazarlama için Kayıtlı Görünümler | Varsayılan olarak açık |
+| Satış ve pazarlama | [Fiili ağırlıklı ve fiili ağırlıksız ondalık hassasiyetli satış iade siparişi satırı kaydı](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight) | Varsayılan olarak açık |
+| Satış ve pazarlama | [Satış ve Pazarlama için Kayıtlı Görünümler](saved-views-scm.md) | Varsayılan olarak açık |
 | Satış ve pazarlama | Tek tıklamayla satış siparişi onayı | Varsayılan olarak açık |
-| Ambar yönetimi | Yerleşim yönergeleri olan çapraz sevk şablonları | Genel kullanılabilir |
-| Ambar yönetimi | Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak | Genel kullanılabilir |
+| Ambar yönetimi | [Yerleşim yönergeleri olan çapraz sevk şablonları](../warehousing/planned-cross-docking.md) | Genel kullanılabilir |
+| Ambar yönetimi | [Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak](../inventory/inventory-blocking.md) | Genel kullanılabilir |
 | Ambar yönetimi | Plaka alımı geçmişi | Genel kullanılabilir |
-| Ambar yönetimi | Ambara serbest bırakırken miktarları en yakın satış birimine indirgenecek şekilde yuvarla | Genel kullanılabilir |
+| Ambar yönetimi | [Malzeme işleme ekipmanı arabirimi](../warehousing/mhax.md) | Genel kullanılabilir |
+| Ambar yönetimi | [Ambara serbest bırakırken miktarları en yakın satış birimine indirgenecek şekilde yuvarla](whats-new-scm-10-0-19.md) | Genel kullanılabilir |
 | Ambar yönetimi | Ambar uygulaması işi listeleri için ölçek birimi desteği | Genel kullanılabilir |
 | Ambar yönetimi | Sevkiyat dalgası etiket ayrıntıları | Genel kullanılabilir |
-| Ambar yönetimi | Sevk istasyonunda konteyner kapatma/yeniden açma için daha hızlı API kullanın | Genel kullanılabilir |
-| Ambar yönetimi | Stok yenileme işleri için seçilen şablonları doğrula | Genel kullanılabilir |
+| Ambar yönetimi | [Sevk istasyonunda konteyner kapatma/yeniden açma için daha hızlı API kullanın](whats-new-scm-10-0-21.md) | Genel kullanılabilir |
+| Ambar yönetimi | [Stok yenileme işleri için seçilen şablonları doğrula](whats-new-scm-10-0-20.md) | Genel kullanılabilir |
 | Ambar yönetimi | Stok yenileme şablonunun mevcut anlık stok yenileme işini kullanmasına izin ver (birimler arasında) | Zorunlu |
 | Ambar yönetimi | WHS kullanıcısı oluşturma işlemi sırasında GUID'leri otomatik olarak atama | Zorunlu |
 | Ambar yönetimi | Yük maddesi teslim alma sırasında ambar uygulamasında ürün çeşitlerini ve izleme boyutlarını yakala | Zorunlu |
-| Ambar yönetimi | İzleme boyutları tarafından denetlenen maddelerin stok durumunu değiştir | Zorunlu |
-| Ambar yönetimi | İşteki iş havuzunu değiştirme | Zorunlu |
-| Ambar yönetimi | Küme konumu dolu | Zorunlu |
-| Ambar yönetimi | Küme Yerine Koyma Özelliği | Zorunlu |
-| Ambar yönetimi | Onayla ve aktar | Zorunlu |
-| Ambar yönetimi | Toplu işlerden giden sevkiyatları onayla | Zorunlu |
-| Ambar yönetimi | Mobil cihazlarda bir alma özet sayfasının görüntülenip görüntülenmeyeceğini denetle | Zorunlu |
-| Ambar yönetimi | El ile stok hareketi işlemini ertelenmiş olarak işleme | Zorunlu |
+| Ambar yönetimi | [İzleme boyutları tarafından denetlenen maddelerin stok durumunu değiştir](../inventory/inventory-statuses.md) | Zorunlu |
+| Ambar yönetimi | [İşteki iş havuzunu değiştirme](../warehousing/change-work-pool-on-work.md) | Zorunlu |
+| Ambar yönetimi | [Küme konumu dolu](../warehousing/cluster-position-full.md) | Zorunlu |
+| Ambar yönetimi | [Küme Yerine Koyma Özelliği](../warehousing/putaway-clusters.md) | Zorunlu |
+| Ambar yönetimi | [Onayla ve aktar](../warehousing/confirm-and-transfer.md) | Zorunlu |
+| Ambar yönetimi | [Toplu işlerden giden sevkiyatları onayla](../warehousing/confirm-outbound-shipments-from-batch-jobs.md) | Zorunlu |
+| Ambar yönetimi | [Mobil cihazlarda bir alma özet sayfasının görüntülenip görüntülenmeyeceğini denetle](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Zorunlu |
+| Ambar yönetimi | [El ile stok hareketi işlemini ertelenmiş olarak işleme](../warehousing/deferred-processing-manual-inventory-movement.md) | Zorunlu |
 | Ambar yönetimi | Dalga yükü oluşturma şablonu gereksinimlerini karşılamayan yük oluşturmaya izin verme | Zorunlu |
-| Ambar yönetimi | Gelişmiş plaka etiketi düzenleri | Zorunlu |
-| Ambar yönetimi | Çoklu SKU konumu yönergeleri için tüm eylemleri değerlendir | Zorunlu |
+| Ambar yönetimi | [Gelişmiş plaka etiketi düzenleri](../warehousing/document-routing-layout-for-license-plates.md) | Zorunlu |
+| Ambar yönetimi | [Çoklu SKU konumu yönergeleri için tüm eylemleri değerlendir](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Zorunlu |
 | Ambar yönetimi | "Tüm Yükler" ve "Yük Ayrıntıları" sayfalarındaki Toplam Değer alanını gizle | Zorunlu |
 | Ambar yönetimi | Plaka etiketi yapı yapılandırması | Zorunlu |
 | Ambar yönetimi | Yönetici veya benzer güvenilen kullanıcılar için yük satırını el ile düzeltme | Zorunlu |
-| Ambar yönetimi | Yerleşim plakası konumlandırması | Zorunlu |
-| Ambar yönetimi | Yerleşim ürün boyutu karıştırması | Zorunlu |
+| Ambar yönetimi | [Yerleşim plakası konumlandırması](../warehousing/location-license-plate-positioning.md) | Zorunlu |
+| Ambar yönetimi | [Yerleşim ürün boyutu karıştırması](../warehousing/location-product-dimension-mixing.md) | Zorunlu |
 | Ambar yönetimi | Mobil cihaz stok hareketi stok durumu alanını düzenlenebilir yap | Zorunlu |
 | Ambar yönetimi | Yönetici veya benzer güvenilen kullanıcılar için el ile satış satırı çekme hizmeti | Zorunlu |
-| Ambar yönetimi | Transfer emri sevk edilen plakalarının hedef ambarlardan farklı ambarlarda kullanılmasını engelle | Zorunlu |
+| Ambar yönetimi | [Transfer emri sevk edilen plakalarının hedef ambarlardan farklı ambarlarda kullanılmasını engelle](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Zorunlu |
 | Ambar yönetimi | Belirsiz "Konun / Plaka" adlarını çözmek için uyar | Zorunlu |
-| Ambar yönetimi | Kalite denetimi | Zorunlu |
-| Ambar yönetimi | Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları | Zorunlu |
-| Ambar yönetimi | Ek yerleşim bölgesi | Varsayılan olarak açık |
-| Ambar yönetimi | Transfer emirlerini ambar uygulamasından oluştur ve işle | Varsayılan olarak açık |
+| Ambar yönetimi | [Kalite denetimi](../warehousing/quality-check.md) | Zorunlu |
+| Ambar yönetimi | [Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları](../warehousing/install-configure-warehouse-management-app.md) | Zorunlu |
+| Ambar yönetimi | [Ek yerleşim bölgesi](../warehousing/additional-location-zones.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Transfer emirlerini ambar uygulamasından oluştur ve işle](../warehousing/create-transfer-order-from-warehouse-app.md) | Varsayılan olarak açık |
 | Ambar yönetimi | Ambar mobil cihazları için hızlı doğrulamayı etkinleştir | Varsayılan olarak açık |
-| Ambar yönetimi | Madde konsolidasyon yerleşimi kullanımı | Varsayılan olarak açık |
-| Ambar yönetimi | Ambar yönetimi eldeki girişlerini temizleme işi için maksimum yürütme süresi | Varsayılan olarak açık |
-| Ambar yönetimi | Giden iş yükü görselleştirmesi | Varsayılan olarak açık |
-| Ambar yönetimi | Ambar uygulaması olaylarını işle | Varsayılan olarak açık |
-| Ambar yönetimi | Yük planlama çalışma ekranı için kayıtlı görünüm | Varsayılan olarak açık |
-| Ambar yönetimi | İş ayrıntıları sayfası için kayıtlı görünüm | Varsayılan olarak açık |
-| Ambar yönetimi | Dalga işleme için kayıtlı görünüm | Varsayılan olarak açık |
-| Ambar yönetimi | Yük işleme için kayıtlı görünümler | Varsayılan olarak açık |
-| Ambar yönetimi | Sevkiyat işleme için kayıtlı görünümler | Varsayılan olarak açık |
-| Ambar yönetimi | Dalga toplu iş ayrıntıları | Varsayılan olarak açık |
-| Ambar yönetimi | Dalga yürütme bildirimleri | Varsayılan olarak açık |
+| Ambar yönetimi | [Ambar yönetimi eldeki girişlerini temizleme işi için maksimum yürütme süresi](../warehousing/onhand-cleanup.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Giden iş yükü görselleştirmesi](../warehousing/outbound-workload-visualization.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Ambar uygulaması olaylarını işle](../warehousing/warehouse-app-events.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Yük planlama çalışma ekranı için kayıtlı görünüm](saved-views-scm.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [İş ayrıntıları sayfası için kayıtlı görünüm](saved-views-scm.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Dalga işleme için kayıtlı görünüm](saved-views-scm.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Yük işleme için kayıtlı görünümler](saved-views-scm.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Sevkiyat işleme için kayıtlı görünümler](saved-views-scm.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Dalga toplu iş ayrıntıları](../warehousing/wave-processing.md) | Varsayılan olarak açık |
+| Ambar yönetimi | [Dalga yürütme bildirimleri](../warehousing/wave-execution-notifications.md) | Varsayılan olarak açık |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

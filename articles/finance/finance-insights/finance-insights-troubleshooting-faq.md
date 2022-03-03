@@ -2,7 +2,7 @@
 title: Finance Insights kurulumu ile ilgili sorunları giderme
 description: Bu konuda, Finance Insights yeteneklerini kullandığınızda oluşabilecek sorunlar listelenmektedir. Ayrıca bu sorunların nasıl düzeltileceği açıklanmıştır.
 author: panolte
-ms.date: 01/29/2022
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064878"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109872"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights kurulumu ile ilgili sorunları giderme
 
@@ -111,6 +111,14 @@ Bu hata, geçen yıl **Zamanında**, **Geç** ve **Çok geç** kategorilerinde a
 
 ### <a name="resolution"></a>Çözüm
 
-**Nakit akışı tahmin** modeli eğitimi, bir yıldan fazla süren ve 100'den fazla hareket içeren veriler gerektirir. Bu hareketlerin nakit akışı tahmini kurulumuna dahil edilen likidite hesaplarını etkilemesi gerekir.
+**Nakit akışı tahmin** modeli eğitimi, bir yıldan fazla süren ve 100 veya daha fazla hareket içeren veriler gerektirir. 1.000'den fazla hareket içeren en az iki yıllık veriniz olmasını öneririz.
 
-**Müşteri ödeme tahminlerinin** oluşturulması için son altı ila dokuz ay içinde en az 100 müşteri faturası ve ödeme hareketi gerekir.  
+**Müşteri ödeme tahminleri** özelliği, önceki altı-dokuz ay içinde yer alan 100'den fazla hareket gerektirir. Hareketler; serbest metin faturaları, satış siparişleri ve müşteri ödemelerini içerebilir. Bu veriler, **Yapılandırma** sayfasında tanımlanan **Zamanında**, **Geç** ve **Çok geç** ayarlarına yayılmalıdır.    
+
+**Bütçe teklifi** özelliği en za üç yıllık bütçe veya fiili veri gerektirir. Bu çözüm, tahminlerde üç ila on yıllık verileri kullanmaktadır. Üç yıldan daha uzun süre daha iyi sonuç sağlar. Değerlerde değişiklikler olduğunda verilerin kendisi en iyi şekilde çalışır. Veriler, kira gideri gibi tüm sabit verileri içeriyorsa, çeşitlilik eksikliği tutarları tahmin etmek için yapay zeka gerektirmediğinden eğitim başarısız olabilir.
+
+## <a name="symptom-error-message-states-that-the-table-with-name-msdyn_paypredpredictionresultentities-does-not-exist-the-remote-server-returned-an-error-404-not-found"></a>Belirti: "'msdyn_paypredpredictionresultentities' adına sahip tablo yok. Uzak sunucu hata verdi: (404) Bulunamadı... " hata iletisi
+
+### <a name="resolution"></a>Çözüm
+
+Ortam, Data Lake Hizmetleri maksimum tablo sınırına ulaştı. Sınır hakkında daha fazla bilgi için [Azure Data Lake'e aktarmaya genel bakış](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md) konusunun **Gerçek zamanlıya yakın veri değişikliklerini etkinleştirme** bölümüne bakın.

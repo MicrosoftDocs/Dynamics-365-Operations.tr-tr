@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 268ee58583306bdd99e5d5cd5bb436a328a5648b
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 7312ab2491814e7cd266e39820f0e87e79dd84e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860495"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103576"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Global Stok Muhasebesi giriş sayfası
 
@@ -47,7 +47,6 @@ Global Stok Muhasebesi şu anda aşağıdaki Azure coğrafi bölgelerinde kullan
 - Birleşik Krallık
 - Avustralya
 - Kanada
-- Güney Amerika
 
 Eklentiyi başka bir coğrafi bölgeden yüklemeye çalışırsanız, Microsoft Dynamics Lifecycle Services (LCS) coğrafi bölgenizin desteklenmediğini belirten bir ileti gösterir. Global Stok Muhasebesi, Supply Chain Management'ın şirket içi dağıtımlarını desteklemez.
 

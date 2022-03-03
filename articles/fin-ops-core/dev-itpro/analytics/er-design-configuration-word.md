@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867318"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323887"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için yeni bir ER yapılandırması tasarlama
 
@@ -28,7 +28,7 @@ Microsoft Word belgeleri olarak rapor oluşturmak için Word masaüstü uygulama
 
 ![Word masaüstü uygulamasındaki denetim raporu için örnek şablon.](./media/er-design-configuration-word-image1.png)
 
-Word biçimindeki raporlar için şablon olarak Word belgesi kullanmak için yeni bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) yapılandırabilirsiniz. Bu çözüm, ER [biçimi](general-electronic-reporting.md#FormatComponentOutbound) bileşeni içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) içermelidir.
+Word biçimindeki raporlar için şablon olarak Word belgesi kullanmak için yeni bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) yapılandırabilirsiniz. Bu çözüm, ER biçimi bileşeni içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) içermelidir.
 
 > [!NOTE]
 > Word biçiminde raporlar oluşturmak için yeni bir ER biçimi yapılandırması oluşturduğunuzda **Yapılandırma oluştur** açılır iletişim kutusunda biçim türü olarak **Word** seçeneğini belirlemeniz ve **Biçim türü** alanını boş bırakmanız gerekir.

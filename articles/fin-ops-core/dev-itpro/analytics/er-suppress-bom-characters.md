@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5f9379877e77f2824cd2dec9a1e68390b4eee8ba502e4011f0a8838b1974e3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769960"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323805"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Oluşturulan dosyalardaki BOM karakterlerini gizlemek için ER yapılandırmaları tasarlama
 
 [!include [banner](../includes/banner.md)]
 
-Giden belgeler oluşturmak için bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) tasarlayabilirsiniz. Belgeleri metin veya XML dosyaları olarak oluşturmak için çözümde, ER [biçimi](general-electronic-reporting.md#FormatComponentOutbound) içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) bulunmalıdır. Oluşturulan dosyalardaki karakter kümesini temsil eden [karakter kodlamasını](/windows/win32/intl/character-sets) belirtmek için ER biçimi, **Common\\File** biçim öğesini içermelidir. ER biçim bileşenini yapılandırmak için ER biçim tasarımcısında ER yapılandırmasının [taslak](general-electronic-reporting.md#component-versioning) sürümünü açın ve **Common\\File** öğesini ekleyin. **Kodlama** alanında, bu bileşen kullanılarak çalışma zamanında oluşturulan giden dosyaların kodlamasını belirtin.
+Giden belgeler oluşturmak için bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) tasarlayabilirsiniz. Belgeleri metin veya XML dosyaları olarak oluşturmak için çözümde, ER biçimi içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) bulunmalıdır. Oluşturulan dosyalardaki karakter kümesini temsil eden [karakter kodlamasını](/windows/win32/intl/character-sets) belirtmek için ER biçimi, **Common\\File** biçim öğesini içermelidir. ER biçim bileşenini yapılandırmak için ER biçim tasarımcısında ER yapılandırmasının [taslak](general-electronic-reporting.md#component-versioning) sürümünü açın ve **Common\\File** öğesini ekleyin. **Kodlama** alanında, bu bileşen kullanılarak çalışma zamanında oluşturulan giden dosyaların kodlamasını belirtin.
 
 > [!NOTE]
 > Biçim yanlış bir kodlama adı içeriyorsa değişikliklerinizi biçim ayarlarında kaydettiğinizde hata oluşur.

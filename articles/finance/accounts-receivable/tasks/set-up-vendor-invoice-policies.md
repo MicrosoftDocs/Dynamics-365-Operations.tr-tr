@@ -2,33 +2,33 @@
 title: Satıcı fatura ilkelerini ayarlama
 description: Bu konuda, satıcı fatura ilkelerinin nasıl ayarlanacağını açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 07/11/2019
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 339f52727b6f5a680f711cf4e6e0b8b0bc290853316fc2f2ff63164c8292d2d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728853"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109768"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Satıcı fatura ilkelerini ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, satıcı fatura ilkelerinin nasıl ayarlanacağını açıklanmaktadır. Satıcı faturası sayfasından bir satıcı faturası naklettiğiniz zaman ve satıcı faturası İlke ihlalleri sayfasını açtığınız zaman satıcı faturası ilkeleri çalıştırılır. Ayrıca, satıcı faturası iş akışını yapılandırarak, iş akışına her fatura gönderişinizde satıcı faturası ilkelerinin çalıştırılmasını sağlayabilirsiniz. 
+Bu konuda, satıcı fatura ilkelerinin nasıl ayarlanacağını açıklanmaktadır. **Satıcı faturası** sayfasından bir satıcı faturası naklettiğiniz zaman ve satıcı faturası **İlke ihlalleri** sayfasını açtığınız zaman satıcı faturası ilkeleri çalıştırılır. Ayrıca, satıcı faturası iş akışını yapılandırarak, iş akışına her fatura gönderişinizde satıcı faturası ilkelerinin çalıştırılmasını sağlayabilirsiniz. 
 
 - Fatura kaydında veya fatura günlüğünde oluşturulmuş faturalara satıcı faturası ilkeleri uygulanmaz.  
-- Fatura eşleştirme doğrulaması satıcı faturası ilkeleri kullanmaz, bunun yerine Borç hesapları parametreleri sayfasında ayarlanır.  
-- Bu kayıtta USMF demo şirketi kullanılmaktadır. Bu adımları borç hesapları yöneticisi veya muhasebe müdürü rolü gerçekleştirir. Başlamadan önce Fatura eşleştirme yapılandırma anahtarının seçildiğinden emin olun.
+- Fatura eşleştirme doğrulaması satıcı faturası ilkeleri kullanmaz, bunun yerine **Borç hesapları parametreleri** sayfasında ayarlanır.  
+- Bu kayıtta USMF demo şirketi kullanılmaktadır. Bu adımları borç hesapları yöneticisi veya muhasebe müdürü rolü gerçekleştirir. Başlamadan önce **Fatura eşleştirme** yapılandırması anahtarının seçildiğinden emin olun.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Satıcı faturası ilkeleri oluşturmaya hazırlanın
@@ -56,7 +56,7 @@ Bu konuda, satıcı fatura ilkelerinin nasıl ayarlanacağını açıklanmaktad�
 2. **Yeni**'yi seçin.
 3. **Ad** ve **Açıklama** alanlarına değer girin.
 4. **İlke organizasyonları** bölümünü genişletin veya daraltın.
-5. Ağaçta, **Contoso Entertainment System USA** seçeneğini belirleyin.
+5. Ağaçta **Contoso Eğlence Sistemi Türkiye** (Contoso Entertainment System USA) seçeneğini seçin.
 6. **Ekle**'yi seçin.
 7. **İlke kuralları** bölümünü genişletin veya daraltın.
 8. **İlke kuralı oluştur**'u seçin.

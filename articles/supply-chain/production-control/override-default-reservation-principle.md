@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721331"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103375"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma
 
@@ -31,12 +31,9 @@ Yeni bir üretim emri veya toplu iş emri oluşturduğunuzda, söz konusu emire 
 
 Örneğin, malzeme çekme işi gerektiren hammaddeleriniz veya maddeleriniz varsa, fiziksel rezervasyon ambar işinin oluşturulması için bir ön koşul olduğundan, bu ürünler için oluşturulan ürün reçetesi veya formül satırları fiziksel bir rezervasyon gerektirir. Normalde rezervasyonun otomatik olarak gerçekleşmesini istiyorsanız *tahmin*, *zamanlama*, *serbest bırakma* veya *başlatma* rezervasyon ilkelerinden birini seçersiniz. Diğer taraftan, malzeme çekme işi gerektirmeyen malzemelerinzi veya maddeleriniz varsa, bunlar doğrudan bir yerleşimden tüketildiklerinden genellikle *el ile* rezervasyon ilkesini seçersiniz; bu ilke fiziksel rezervasyon yapmaz veya malzeme çekme işi oluşturmaz.
 
-## <a name="turn-on-the-feature"></a>Özelliği etkinleştirme
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Varsayılan üretim rezervasyonlarını geçersiz kıl özelliğini açma veya kapatma
 
-Özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Üretim denetimi*
-- **Özellik adı:** *Varsayılan üretim rezervasyonunu geçersiz kıl*
+Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Varsayılan üretim rezervasyonlarını geçersiz kıl* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Madde modeli grubuna üretim rezervasyon ilkesi atama
 
