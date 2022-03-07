@@ -1,35 +1,33 @@
 ---
-title: Genel Bakış
-description: Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve sorun gidermenize yardımcı olur .
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
-ms.topic: article
+title: Yönetime genel bakış
+description: Bu konuda, Dynamics 365 Human Resources uygulamasını ayarlamak, yönetmek ve uygulamadaki sorunları gidermek için kullanılan yardım konularının ve diğer kaynakların bir listesi sağlanmaktadır.
+author: twheeloc
+ms.date: 08/11/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a62fdf1936f36332a00818a1e1c706256aecafa9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527873"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984783"
 ---
-# <a name="overview"></a>Genel Bakış
+# <a name="administration-overview"></a>Yönetime genel bakış
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve sorun gidermenize yardımcı olur .
+Bu konuda, Dynamics 365 Human Resources uygulamasını ayarlamak, yönetmek ve uygulamadaki sorunları gidermek için kullanılan yardım konularının ve diğer kaynakların bir listesi sağlanmaktadır.
 
 - [Sistem gereksinimleri](hr-admin-system-requirements.md)
 
@@ -41,15 +39,15 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
 
 - Veri tümleştirmesini ayarlama
   - [Bir veri tümleştirme teknolojisi seçin](hr-admin-integration-choose-technology.md)
-  - [Common Data Service tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)
+  - [Dataverse tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)
   - [Finance ile tümleştirmeyi yapılandırma](hr-admin-integration-finance.md)
   - [Dayforce ile tümleştirmeyi yapılandırma](hr-admin-integration-dayforce.md)
   - [Yinelenen veri dışarı aktarma uygulaması oluşturma](hr-admin-integration-recurring-data-export.md)
   - Office ile tümleştirme
-    - [Office tümleştirmesi öğreticisi](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Excel'de varlık verilerini güncelleştirme](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Excel'de Aç deneyimleri oluşturma](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Office tümleştirmesi ile ilgili sorunları giderme](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office tümleştirmesi öğreticisi](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Excel'de varlık verilerini güncelleştirme](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Excel'de Aç deneyimleri oluşturma](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Office tümleştirmesi ile ilgili sorunları giderme](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Özellikleri yönetme](hr-admin-manage-features.md)
 
@@ -84,7 +82,7 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
   - [Görev Kaydedici ile belge veya eğitim oluşturma](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Human Resources ile ilgili sorunları giderme
-  - [Destek alma](hr-admin-troubleshooting-support.md)
+  - [Destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Otomatik temizleme görevleriyle performansı en iyi duruma getirme](hr-admin-troubleshooting-batch-history.md)
   - [Analitik raporlar güncelleştirilmedi](hr-admin-troubleshooting-analytic-reports.md)
   - [Power Apps Yönetim merkezinde ortam oluşturulamıyor](hr-admin-troubleshooting-power-apps.md)
@@ -93,12 +91,23 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
   - [Ücret işlemini çalıştırma](hr-admin-troubleshooting-compensation.md)
   - [LCS için görev kılavuzunu kaydetme](hr-admin-troubleshooting-task-guide.md)
   - [Güvenlik rolüne göre özel adreslere erişme](hr-admin-troubleshooting-private-addresses.md)
-  - [İnsan Kaynakları Dynamics 365 uygulamalarında görünmez](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources, Dynamics 365 uygulamalarında görünmüyor](hr-admin-troubleshooting-not-in-apps.md)
   - [Raporlama seçenekleri](hr-admin-troubleshooting-reporting.md)
   - [Tümleştirme ile ilgili SSS](hr-admin-troubleshooting-integration.md)
 
+## <a name="additional-resources"></a>Ek kaynaklar
+
+### <a name="elearning-courses"></a>e-Öğrenme kursları
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Human Resources](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path) konusuna bakın.
+
+### <a name="videos"></a>Videolar
+
+Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.
+
 ## <a name="see-also"></a>Ayrıca bkz.
 
-- [İnsan Kaynakları'ndaki yenilikler veya değişiklikler](hr-admin-whats-new.md)
+- [Human Resources'daki yenilikler veya değişiklikler](hr-admin-whats-new.md)
 - [Geliştirici Kılavuzu](hr-developer-overview.md)
 - [Kullanıcı Kılavuzu](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

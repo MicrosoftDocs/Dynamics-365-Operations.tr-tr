@@ -2,7 +2,7 @@
 title: Üçüncü taraf uygulamaları katıştırma
 description: Bu konu, ürün işlevselliğini artırmak için üçüncü taraf uygulamaların istemciye nasıl katıştırılacağını açıklar.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488246"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345422"
 ---
 # <a name="embed-third-party-apps"></a>Üçüncü taraf uygulamaları katıştırma
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Birçok müşteri, işlerini yürütmek için bir dizi uygulama kullanır. Bu uygulamalardan bazıları, Finance and Operations uygulamalarla birlikte çalışan üçüncü taraf web uygulamalardır. Daha kusursuz bir kullanıcı deneyimi sağlamak için bu üçüncü taraf uygulamaları doğrudan Finance and Operations uygulamalarınıza katıştırmak için **Tam sayfa uygulamalar** özelliğini kullanabilirsiniz (üçüncü taraf uygulamaların katıştırmaya izin veriyorsa). Böylece, kullanıcılar sekmeler veya pencereler arasında geçiş yapmak zorunda kalmadan gereksinim duydukları web sitelerine ve uygulamalara erişebilirler.
 

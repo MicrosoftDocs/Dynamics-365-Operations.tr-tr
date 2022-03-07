@@ -1,30 +1,27 @@
 ---
 title: Giriş biçimleri ayarlama ve tasarlama
 description: Bu makale makbuz, fatura ve diğer belgelerin nasıl yazdırılacağını belirlemek için form düzenlerinin nasıl değiştirileceğini açıklar. Dynamics 365 Commerce, çeşitli form düzenlerini kolayca oluşturmak ve değiştirmek için kullanabileceğiniz bir form düzeni tasarımcısına sahiptir.
-author: rubencdelgado
-manager: AnnBe
-ms.date: 06/20/2017
+author: BrianShook
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dac0ad75ff35367b5d6ac84c75c68e22e2cb0cb1
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416530"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779413"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Giriş biçimleri ayarlama ve tasarlama
 
@@ -47,6 +44,15 @@ Bu makale makbuz, fatura ve diğer belgelerin nasıl yazdırılacağını belirl
     - **Kullanıcıdan istemde bulun** – Kullanıcıdan girişi yazdırması istenir.
     - **Gereken şekilde** – Bu seçenek sadece hediye girişleri için kullanılır. Bu seçenek seçildiğinde, bir hediye girişi gerekiyorsa kullanıcı **Değiştir** sayfasından bir hediye girişini yazdırabilir.
 
+## <a name="print-images"></a>Resimleri yazdırma
+
+Makbuz tasarımcısı bir **Logo** değişkeni içerir. Makbuzlarda yazdırılması gereken bir görüntüyü belirtmek için bu değişkeni kullanabilirsiniz. **Logo** değişkenini kullanarak makbuzlarda yazdırılan görüntüler, tek renkli bit eşlem (.bmp) dosya türleri olmalıdır. Makbuz tasarımcısında bir bitmap görüntüsü belirtilirse ancak makbuz yazıcıya gönderildiğinde yazdırılmazsa bunun nedeni aşağıdaki sorunlardan biri olabilir:
+
+- Dosya boyutu çok büyük veya görüntünün piksel boyutları yazıcıyla uyumlu değil. Bu durumda, görüntü dosyasının çözünürlüğünü veya boyutlarını azaltmayı deneyin.
+- Bazı Satış Noktası için Nesne Bağlama ve Katıştırma (OPOS) yazıcı sürücüleri, logo görüntülerini yazdırmak için donanım istasyonlarının kullanıldığı **PrintMemoryBitmap** yöntemini uygulamaz. Bu durumda, ayırdığınız veya paylaştığınız donanım istasyonunun **HardwareStation.Extension.config** dosyasına aşağıdaki bayrağı eklemeyi deneyin:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
+
 ## <a name="design-a-receipt-format"></a>Bir giriş biçimi tasarlama
 
 Form belgesinin düzenini grafik olarak oluşturmak için form düzen tasarımcısını kullanın. **Giriş biçimi tasarımcısı** sayfasında üç bölüm bulunur: **Başlık**, **Satırlar** ve **Altbilgi**. Bazı form düzeni türleri, her üç bölümden de öğeleri kullanırken, diğer türler sadece bir veya iki bölümden öğeleri kullanır. Her bölüm için kullanılabilen öğeleri görüntülemek için, sayfanın sol tarafındaki yönlendirme bölümündeki uygun düğmeye tıklayın.
@@ -67,7 +73,7 @@ Form belgesinin düzenini grafik olarak oluşturmak için form düzen tasarımc�
     - **Hizala** – Alanı **Sola** veya **Sağa** hizalayın.
     - **Dolgu karakteri** – Boşluk karakterini belirleyin. Varsayılan olarak boş bir alan kullanılır, ancak herhangi bir karakter girebilirsiniz.
     - **Önek** – Alanın başında görünen değeri girin. Bu ayar sadece düzenin **Satırlar** bölümünde uygulanır.
-    - **Karakterler** – Öğe bir değişken içeriyorsa, alanın içerebileceği maksimum karakter sayısını belirtin. Alandaki metin, belirttiğiniz karakter sayısından uzunsa, metin alana sığacak şekilde kesilir.
+    - **Karakterler** – Öğe bir değişken içeriyorsa, alanın içerebileceği maksimum karakter sayısını belirtin. Alandaki metin, belirttiğiniz karakter sayısından uzunsa metin alana sığacak şekilde kesilir.
     - **Değişken** – Öğe bir değişken içeriyorsa ve özelleştirilemiyorsa, bu onay kutusu otomatik olarak seçilir.
     - **Yazı tipi** – Yazı tipi stilini **Normal** veya **Kalın** olarak ayarlayın. Kalın harfler normal harflerden iki kat daha fazla yer kaplar. Bu yüzden, bazı karakterler kesilebilir.
     - **Yazı tipi boyutu** – Yazı tipi boyutunu **Normal** veya **Büyük** olarak ayarlayın. Büyük harfler normal harflerden iki kat daha büyüktür. Bu nedenle, büyük harfler kullanmak makbuzda harflerin üst üste gelmesine neden olabilir.
@@ -82,3 +88,6 @@ Giriş profilleri donanım profili yoluyla doğrudan yazıcılara atanır.
 
 > [!NOTE]
 > İki yazıcı kullanılıyorsa, standart 40 sütunluk termal faturaları yazdırmak için bir yazıcı kullanılabilir. İkinci yazıcı normalde daha fazla bilgi gerektiren tam sayfa giriş türlerini yazdırmak için kullanılır. Bu giriş türleri arasında müşteri sipariş girişleri ve müşteri faturaları bulunur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

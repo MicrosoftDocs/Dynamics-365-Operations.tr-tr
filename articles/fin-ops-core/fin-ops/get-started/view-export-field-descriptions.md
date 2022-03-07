@@ -2,11 +2,9 @@
 title: Alan açıklamalarını görüntüleme ve dışarı aktarma
 description: Bu makalede, alan açıklamalarının nasıl görüntüleneceği ve açıklamaları dışa aktarmak için Alan açıklamalarının nasıl kullanılacağı açıklanmaktadır.
 author: rschloma
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39dd9a86ffb04d18f61c75fb2c9634e441dc823b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 9fe3a1b0c278839069ebd3d047f8052e9da25203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797911"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348593"
 ---
 # <a name="view-and-export-field-descriptions"></a>Alan açıklamalarını görüntüleme ve dışarı aktarma
 
@@ -45,7 +43,7 @@ Alanın üzerine getirerek alan açıklamaları görüntüleyebilirsiniz. Açık
 
 Aşağıdaki çizim **Sayım sırasında madde kilitlemesi** alanı üzerine getirdiğinizde görüntülenen alan açıklamalarını gösterir.
 
-[![Alan açıklaması örneği](./media/field-description.png)](./media/field-description.png)
+[![Alan açıklaması örneği.](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Alan açıklamaları sayfasını kullanarak alan yardımını görüntüleme ve dışa aktarma
 
@@ -107,3 +105,6 @@ Sayfaları aramanın çeşitli yolları hakkında daha fazla bilgi için, bu mak
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Alan açıklamalarını özelleştirme](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

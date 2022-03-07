@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7cdc22eeabda6cf9f08484d698e5096f66af4a12
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ae02846c0ec937ebaff440dc5272a135e16c8aa7355ecc303929e760a54b6627
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760310"
 ---
 # <a name="quantity-exceeds-under-delivery-percentage-during-packing-slip-generation"></a>Sevk irsaliyesi oluşturma sırasında miktar eksik teslimat yüzdesini aşıyor
 
@@ -49,8 +49,8 @@ Eksik teslimat yüzdesini ayarlamak için aşağıdaki yordamı kullanın.
 
 1. **Alacak hesapları \> Siparişler \> Tüm siparişler**'e gidin.
 1. Yük için sevk irsaliyesini deftere nakledemeyeceğiniz satış siparişini seçin.
-1. **Satış siparişi satırları** sekmesinde, eksik teslimat yüzdesini aşan maddenin satış siparişi satırını seçin.
-1. **Satır ayrıntıları** sekmesinde, **Teslimat**'ı seçin.
+1.  **Satış siparişi satırları** sekmesinde, eksik teslimat yüzdesini aşan satış siparişi satırını seçin.
+1.  **Satır ayrıntıları** sekmesinde, **Teslimatı**'ı seçin.
 1. **Eksik teslimat** alanını, sevk irsaliyesi oluşturma işleminin devam edebilmesi için, yük miktarına karşı çekilen miktara uygun olması için daha yüksek bir yüzdeye ayarlayın.
 
 ### <a name="reverse-and-make-adjustments"></a>Tersine çevirme ve ayarlamalar yapma
@@ -60,14 +60,14 @@ Yük için deftere nakledilen her şeyi tersine çevirin (örneğin, sevk irsali
 Sevk irsaliyesini iptal etmek için aşağıdaki yordamı kullanın.
 
 1. **Ambar yönetimi \> Yükler \> Tüm yükler**'e gidin.
-1. Eylem Bölmesinde, **Sevk ve teslim alma** sekmesinin **Tersine çevir** grubunda **Sevk irsaliyelerini iptal et**'i seçin.
+1. Eylem Bölmesi'nde,  **Sevk ve teslim alma** sekmesinin  **Tersine çevir** grubunda  **Sevk irsaliyelerini iptal et**'i seçin.
 
 Sevkiyat onayını tersine çevirmek için aşağıdaki yordamı kullanın.
 
 1. **Ambar yönetimi \> Yükler \> Tüm yükler**'e gidin.
-1. Eylem Bölmesinde, **Sevk ve teslim alma** sekmesinin **Tersine çevir** grubunda **Sevkiyat onayını tersine çevir**'i seçin.
+1. Eylem Bölmesi'nde,  **Sevk ve teslim alma** sekmesinin  **Tersine çevir** grubunda  **Sevkiyat onayını tersine çevir**'i seçin.
 
 İşi tersine çevirmek için aşağıdaki yordamı kullanın.
 
 1. **Ambar yönetimi \> Yükler \> Tüm yükler**'e gidin.
-1. Eylem Bölmesinde, **Yükler** sekmesinin **İş** grubunda **İşi tersine çevir**'i seçin.
+1. Eylem Bölmesinde  **Yükler** sekmesindeki  **İş** grubunda  **İşi tersine çevir**'i seçin.

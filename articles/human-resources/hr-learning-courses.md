@@ -1,36 +1,34 @@
 ---
 title: Eğitim kursları ayarlama
 description: İnsan Kaynakları yöneticileri ve yöneticileri, kursları özelliğini kullanarak işçilere sunulan eğitim hakkındaki bilgileri tutabilirler.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/24/2019
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5923da86459e02013b1b05e3d814e963d77925d3
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421004"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465161"
 ---
 # <a name="set-up-training-courses"></a>Eğitim kursları ayarlama
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 İnsan Kaynakları yöneticileri ve yöneticileri, kursları özelliğini kullanarak işçilere sunulan eğitim hakkındaki bilgileri tutabilirler.
 
- <a name="set-up-prerequisites"></a>Önkoşulları ayarlama
----------------------
+##  <a name="set-up-prerequisites"></a>Önkoşulları ayarlama
 
 Aşağıdaki bilgiler gereklidir ve kurslar oluşturmadan önce ayarlanmış olması gerekir.
 -   **Kurs tipleri**
@@ -82,7 +80,7 @@ Her kurs için aşağıdaki görevleri yerine getirebilirsiniz:
 - Katılımcılar için en az ve en fazla sayı belirleme
 - Bir kurs yeri ve sınıfı atama
 - Kurs katılımcılarına otel önerme
-- Çalışan self servis portalında daha sonra ilan edebileceğiniz bir kurs açıklaması oluşturma
+- **Personel self servisi**'nde daha sonra ilan edebileceğiniz bir kurs açıklaması oluşturma
 
   >**Not** Kursu sadece kimse kayıt olmadıysa silebilirsiniz. 
 
@@ -128,8 +126,7 @@ Aşağıdaki tabloda olası kurs durumları ve kursun belirli bir durumu varsa t
 ## <a name="course-participants"></a>Kurs katılımcıları
 Kurs katılımcıları, bir eğitim kursuna veya etkinliğine katılım gösteren çalışanlardır. Yalnızca açık kurslara katılımcıları kayıt yaptırabilirsiniz. Bir kursa kaydedebileceğiniz en az ve en çok katılımcı sayısı, **Kurslar** sayfasının **Genel** hızlı sekmesinde tanımlanır.
 
-<a name="workflow"></a>İş Akışı
---------
+## <a name="workflow"></a>İş Akışı
 
 **Personel self servis** sayfası üzerinden bir kursa kayıt olan personeller, kayıtlarını onay için çalışma akışından yönlendirebilirler. Bir kursu bir iş akışına, **Kurslar** sayfasında **Genel** hızlı sekmesinden atayabilirsiniz.
 
@@ -137,3 +134,6 @@ Kurs katılımcıları, bir eğitim kursuna veya etkinliğine katılım göstere
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

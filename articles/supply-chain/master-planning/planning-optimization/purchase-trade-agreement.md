@@ -2,16 +2,13 @@
 title: Satınalma ticari sözleşmeleri ile master planlama
 description: Bu konuda, planlama Iyileştirmenin planlı bir sipariş için satıcı ve/veya sağlama süresini, satınalma ticari anlaşmalarında bulunan en iyi fiyat veya sağlama süresine göre nasıl bulabileceği açıklanmaktadır.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757770"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Satınalma ticari sözleşmeleri ile master planlama
 
@@ -70,23 +67,26 @@ Sisteminiz önceki bölümde anlatıldığı şekilde hazırlandıktan sonra, bu
 1. Her bir ilgili ürün için bu yordamı yineleyin.
 
 > [!NOTE]
-> Satınalma ticari anlaşma satırındaki para birimi, Seçili satıcının para birimiyle eşlenmelidir. Master planlama yalnızca satınalma ticari sözleşme satırlarından alınan, para biriminin satıcının para birimiyle eşleştiği bilgileri içerir.
+> Planlama Optimizasyonu, ticari anlaşmaları için birden fazla para birimli satın alımları destekler. **En düşük birim fiyatı** seçeneğini kullanarak bir ticari sözleşme ararken, sistem, ticari anlaşma satırları para birimi ile yasal varlığın muhasebe para birimi arasında bir döviz kuru tanımlandığında, farklı para birimlerine sahip ticari sözleşme satırlarını dikkate alır. Aksi durumda, ticari anlaşma satırı yok sayılır ve master planlama sırasında hata görürsünüz. Bu nedenle, master planlama fiyatların muhasebe para birimine dönüştürülebileceği tüm ilgili satınalma ticari sözleşme satırlarından bilgileri içerir. Ticari anlaşma satırı fiyat dönüştürmesi sırasında yuvarlama kurallarının dikkate alınmayacağını hatırlatmak isteriz.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Nasıl En Iyi duruma getirme planlanmasına ilişkin örnekler satıcı ve sağlama sürelerini bulur
 
-Aşağıdaki tablo, yayınlanmış bir ürün ve ilişkili satınalma ticari anlaşmalarının çeşitli ayarlarının, sonuçta elde edilen planlı satınalma siparişi için bulunan değerleri nasıl etkilediğini gösteren örnekler içerir. En sağdaki iki sütundaki **kalın** değerler, planlama eniyileme ile seçilen değerlerdir. Diğer sütunlardaki ***kalın ve italik*** değerleri, her satır için sonuç değerlerini üreten ayarlardır.
+Aşağıdaki tablo, yayınlanmış bir ürün ve ilişkili satınalma ticari anlaşmalarının çeşitli ayarlarının, sonuçta elde edilen planlı satınalma siparişi için bulunan değerleri nasıl etkilediğini gösteren örnekler içerir. En sağdaki iki sütundaki **kalın** değerler, planlama eniyileme ile seçilen değerlerdir. Diğer sütunlardaki **_kalın ve italik_** değerler, her satır için sonuç değerlerini üreten ayarlardır.
 
 | Serbest bırakılan: Satıcı | Varsayılan sipariş ayarları: Sağlama süresi | Madde karşılama: satıcıyı geçersiz kıl | Madde karşılama: sağlama süresini geçersiz kıl | Ticari sözleşme: Satıcı | Ticari sözleşme: sağlama süresi | Ticari sözleşme: sağlama süresini göz ardı et | Sonuçta elde edilen satıcı | Sonuçta elde edilen sağlama süresi |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001*** | ***1*** | No | No | US003 | 3 | No | **US001** | **1** |
-| US001 | 1 | ***Evet: US002*** | ***Evet: 2*** | US003 | 3 | No | **US002** | **2** |
-| *(Boş)* | 1 | No | No | ***US003*** | ***3*** | No | **US003** | **3** |
-| *(Boş)* | ***1*** | No | No | ***US003*** | 3 | Evet | **US003** | **1** |
-| *(Boş)* | ***1*** | ***Evet: US002*** | No | US003 | 3 | No | **US002** | **1** |
-| *(Boş)* | ***1*** | ***Evet: US002*** | No | US003 | 3 | No | **US002** | **1** |
-| *(Boş)* | 1 | No | Evet: 2 | ***US003*** | ***3*** | No | **US003** | **3** |
-| *(Boş)* | 1 | No | ***Evet: 2*** | ***US003*** | 3 | Evet | **US003** | **2** |
+| ***US001** _ | _*_1_*_ | Hayır | Hayır | US003 | 3 | Hayır | **US001** | **1** |
+| US001 | 1 | ***Evet: US002** _ | _*_Evet: 2_*_ | US003 | 3 | Hayır | **US002** | **2** |
+| *(Boş)* | 1 | Hayır | Hayır | ***US003** _ | _*_3_*_ | Hayır | **US003** | **3** |
+| *(Boş)* | ***1** _ | Hayır | Hayır | _*_US003_*_ | 3 | Evet | **US003** | **1** |
+| *(Boş)* | ***1** _ | _*_Evet: US002_*_ | Hayır | US003 | 3 | Hayır | **US002** | **1** |
+| *(Boş)* | ***1** _ | _*_Evet: US002_*_ | Hayır | US003 | 3 | Hayır | **US002** | **1** |
+| *(Boş)* | 1 | Hayır | Evet: 2 | ***US003** _ | _*_3_*_ | Hayır | **US003** | **3** |
+| *(Boş)* | 1 | Hayır | ***Evet: 2** _ | _*_US003_*_ | 3 | Evet | **US003** | **2** |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Satınalma sözleşmeleri](../../procurement/purchase-agreements.md)
+[Satın alma sözleşmeleri](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

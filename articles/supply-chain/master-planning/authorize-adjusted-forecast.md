@@ -2,11 +2,9 @@
 title: Bir düzeltilmiş tahmini onayla
 description: Tüm tahmin verilerinin hemen yetkilendirilmesi gerekmez. Bu makale bir tahminin yetkilendirildiği dönemi nasıl belirtebileceğinizi açıklar. Ayrıca, özel şirketler ve tahmin modelleri için tahmini nasıl yetkilendirebileceğinizi açıklar.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ab8558f25f5ffd3b7eb3e1bc5680b1a1f8d5139
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 67098f6008086788ef8814f45fd0dd5add990460
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961477"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813711"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>Bir düzeltilmiş tahmini onayla
 
@@ -50,3 +48,6 @@ Kullanılacak tahmini yetkilendirecek şirketleri ve tahmin modellerini seçebil
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

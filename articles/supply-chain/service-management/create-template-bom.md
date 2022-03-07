@@ -1,29 +1,26 @@
 ---
 title: Şablon ürün reçetesi oluşturma
 description: Çeşitli yöntemler kullanarak şablon ürün reçetesi oluşturabilirsiniz.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2e06283f3b95c5ff6b4376bba63cf5a42d5feeb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c10bf5e758a1752e1c50c602db85e0c53ee3e662
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439419"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571509"
 ---
 # <a name="create-a-template-bom"></a>Şablon ürün reçetesi oluşturma   
 
@@ -34,9 +31,9 @@ Aşağıdaki yöntemlerden herhangi birini kullanarak şablon ürün reçetesi o
 
 ## <a name="create-a-template-bom-manually"></a>El ile şablon ürün reçetesi oluşturma
 
-1.  **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Şablon ürün reçeteleri**'ni tıklayın.
+1.  **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Şablon ürün reçeteleri**'ne gidin.
 
-2.  **Şablon ürün reçetesi oluştur** formunu açmak için CTRL+N tuşlarına basın.
+2.  **Şablon ürün reçetesi oluştur** formunu açmak için **Yeni**'yi seçin.
 
 3.  **Ürün reçetesini satırlarını referanstan kopyala** altından **el ile** seçeneğini seçin.
 
@@ -46,15 +43,15 @@ Aşağıdaki yöntemlerden herhangi birini kullanarak şablon ürün reçetesi o
 
 6.  **Başlangıç tarihi** ve **Bitiş tarihi** alanlarına, şablon ürün reçetesinin etkin olacağı tarih aralığını girin.
 
-7.  **Tamam** seçeneğini tıklatın.
+7.  **Tamam**'ı seçin.
 
 Yeni, boş bir şablon ürün reçetesi oluşturulur.
 
 ## <a name="create-a-template-bom-based-on-another-template-bom"></a>Başka bir şablon ürün reçetesini temel alarak şablon ürün reçetesi oluşturma
 
-1.  **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Şablon ürün reçeteleri**'ni tıklayın.
+1.  **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Şablon ürün reçeteleri**'ne gidin.
 
-2.  **Şablon ürün reçetesi oluştur** formunu açmak için CTRL+N tuşlarına basın.
+2.  **Şablon ürün reçetesi oluştur** formunu açmak için **Yeni**'yi seçin.
 
 3.  **Ürün reçetesini satırlarını referanstan kopyala** altından **Şablon ürün reçetesi** seçeneğini seçin.
 
@@ -64,15 +61,15 @@ Yeni, boş bir şablon ürün reçetesi oluşturulur.
 
 6.  **Başlangıç tarihi** ve **Bitiş tarihi** alanlarına, şablon ürün reçetesinin etkin olacağı tarih aralığını girin.
 
-7.  **Tamam** seçeneğini tıklatın.
+7.  **Tamam**'ı seçin.
 
 Orijinal şablon ürün reçetesindeki satırlara karşılık gelen satırlar kullanılarak yeni bir şablon ürün reçetesi oluşturulur.
 
 ## <a name="create-a-template-bom-based-on-an-item-bom"></a>Bir madde ürün reçetesini temel alarak şablon ürün reçetesi oluşturma
 
-1.  **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Şablon ürün reçeteleri**'ni tıklayın.
+1.  **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Şablon ürün reçeteleri**'ne gidin.
 
-2.  **Şablon ürün reçetesi oluştur** formunu açmak için CTRL+N tuşlarına basın.
+2.  **Şablon ürün reçetesi oluştur** formunu açmak için **Yeni**'yi seçin.
 
 3.  **Ürün reçetesi satırlarını referanstan kopyala** altından **Ürün reçetesi**'ni seçin.
 
@@ -82,15 +79,15 @@ Orijinal şablon ürün reçetesindeki satırlara karşılık gelen satırlar ku
 
 6.  **Başlangıç tarihi** ve **Bitiş tarihi** alanlarına, şablon ürün reçetesinin etkin olacağı tarih aralığını girin.
 
-7.  **Tamam** seçeneğini tıklatın.
+7.  **Tamam**'ı seçin.
 
 **Üürn reçeteleri** içinde listelenen ürün reçetesinin satırlarına karşılık gelen satırlar kullanılarak yeni bir şablon ürün reçetesi oluşturulur.
 
 ## <a name="create-a-template-bom-based-on-a-production-bom"></a>Bir üretim ürün reçetesi temel alınarak şablon ürün reçetesi oluşturma
 
-1.  **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Şablon ürün reçeteleri**'ni tıklayın.
+1.  **Servis yönetimi** \> **Kurulum** \> **Servis nesneleri** \> **Şablon ürün reçeteleri**'ne gidin.
 
-2.  **Şablon ürün reçetesi oluştur** formunu açmak için CTRL+N tuşlarına basın.
+2.  **Şablon ürün reçetesi oluştur** formunu açmak için **Yeni**'yi seçin.
 
 3.  **Ürün reçetesi satırlarını referanstan kopyala** altından **Üretim**'i seçin.
 
@@ -100,7 +97,7 @@ Orijinal şablon ürün reçetesindeki satırlara karşılık gelen satırlar ku
 
 6.  **Başlangıç tarihi** ve **Bitiş tarihi** alanlarına, şablon ürün reçetesinin etkin olacağı tarih aralığını girin.
 
-7.  **Tamam** seçeneğini tıklatın.
+7.  **Tamam**'ı seçin.
 
 **Ürün reçetesi** içinde listelenen ürün reçetesinin satırlarına karşılık gelen satırlar kullanılarak yeni bir şablon ürün reçetesi oluşturulur.
 
@@ -111,3 +108,6 @@ Orijinal şablon ürün reçetesindeki satırlara karşılık gelen satırlar ku
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

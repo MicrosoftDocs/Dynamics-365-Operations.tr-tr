@@ -2,27 +2,24 @@
 title: Ürünleri teslim alan ambardan mağazalara çapraz sevk etme
 description: Bu yordam, ürünleri satınalma siparişinin alma konumundan bir veya daha fazla mağazaya dağıtmak için Çapraz sevk oluşturma ve işleme konusunda kılavuzluk sağlar.
 author: ShylaThompson
-manager: tfehr
 ms.date: 02/17/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPushPerPackage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 033d4f72b626130c144faff30fe0d35349b26c6d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7c660534053793b454f8558a114eb4db1d715472c126f55dc97171a31e2a1ab9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439684"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724736"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Ürünleri teslim alan ambardan mağazalara çapraz sevk etme
 
@@ -49,3 +46,6 @@ Bu yordam, ürünleri satınalma siparişinin alma konumundan bir veya daha fazl
 15. Listede ürünlerin teslim alındığı ambarı bulup seçin
 16. Seçilen ambar için oluşturulan siparişleri görüntülemek için Sipariş'i tıklayın
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

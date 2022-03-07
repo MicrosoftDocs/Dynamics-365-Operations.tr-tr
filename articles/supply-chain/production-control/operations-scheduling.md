@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1dd24dc21dc3f31c14ae2978ed0f59401c51cf1b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966417"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258578"
 ---
 # <a name="operations-scheduling"></a>Operasyon planlama çizelgeleme
 
@@ -83,3 +83,6 @@ Sınırlı malzemeyle çalışıyorsanız planlama üretim için gerekli olan ma
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

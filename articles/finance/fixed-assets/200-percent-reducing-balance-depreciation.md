@@ -1,10 +1,12 @@
 ---
 title: Yüzde 200 azalan bakiyeli amortisman
-description: Bu konu, amortismanın yüzde 200 azalan bakiye yöntemi hakkında genel bir bakış sunar.
-author: moaamer
+description: Bu makalede, yüzde 200 amortisman bilanço azaltma yöntemine genel bakış sunulmuştur.
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,21 +14,21 @@ ms.reviewer: roschlom
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: b761a14f44be292e9dd21eb580473bd0981d9044
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883505"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230334"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Yüzde 200 azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, amortismanın yüzde 200 azalan bakiye yöntemi hakkında genel bir bakış sunar.
+Bu makalede, yüzde 200 amortisman bilanço azaltma yöntemine genel bakış sunulmuştur.
 
 Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%200 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. Yüzde, sabit kıymetin servis ömrü temel alınarak hesaplanır. Örneğin, bir sabit kıymetin beş yıllık servis ömrü varsa, yüzde 40 (%200 ÷ 5) olarak hesaplanır. 
 
@@ -66,7 +68,7 @@ Amortisman yılı olarak **Mali** seçildiğinde, **Dönem sıklığı** alanın
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>%200 azalan bakiyeli amortisman örneği
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | Alım maliyeti               | 11.000 |
 | Hurda değeri                  | 1.000 |

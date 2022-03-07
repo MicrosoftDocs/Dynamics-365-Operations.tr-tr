@@ -1,33 +1,32 @@
 ---
 title: Ömür olaylarını işle
 description: Microsoft Dynamics 365 Human Resources'un çalışan yaşam döngüsü sırasında, her çalışan çeşitli ömür etkinliği değişiklikleriyle karşılaşabilir.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 688a47d77dbd75ecd12af23f22a1d401703ed672
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420887"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417560"
 ---
 # <a name="process-life-events"></a>Ömür olaylarını işle
 
-Microsoft Dynamics 365 Human Resources'un çalışan yaşam döngüsü sırasında, her çalışan çeşitli ömür etkinliği değişiklikleriyle karşılaşabilir. Örneğin, evlilik, istihdam değişikliği veya bağımlı/lehdarlık değişikliği gibi. Ömür olaylarını kullanmak için, sosyal haklar parametreleri formunda ömür olaylarını etkinleştirmeniz, ömür olay tiplerini ayarlamanız ve plan tipleri için ömür olayı seçeneklerini ayarlamanız gerekir.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Microsoft Dynamics 365 Human Resources'un çalışan yaşam döngüsü sırasında, her çalışan çeşitli ömür etkinliği değişiklikleriyle karşılaşabilir. Örneğin, evlilik, istihdam değişikliği veya bağımlı/lehdarlık değişikliği gibi. Yaşam olaylarını kullanmak için **Kazanç parametreleri** sayfasında yaşam olaylarını etkinleştirmeniz, yaşam olayı türlerini ayarlamanız ve plan türleri için yaşam olayı seçeneklerini ayarlamanız gerekir.
 
 Ömür olaylarını işleyebilmeniz için, işe alma zaman dilimi sırasında açık kaydı en az bir kere çalıştırmanız gerekir. Amerika Birleşik Devletleri, her yıl için kayıt açma işlemi genellikle bir kez yapılır. Amerika Birleşik Devletleri dışında, açık kayıt işe alma sırasında çalıştırılabilir. Bir çalışanın ömür olaylarının işlenmesi için bir avantaj planı seçmesini, ancak açık kayıt işleme içinde yer almış olmaları gerekmez. 
 
@@ -57,3 +56,6 @@ Gelecekteki bir tarihte gerçekleşen ömür olayları olan çalışanlarınız 
    4. **Tamam**'ı seçin. İşlem, ayarladığınız parametrelerle çalışacaktır.
 
 4. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

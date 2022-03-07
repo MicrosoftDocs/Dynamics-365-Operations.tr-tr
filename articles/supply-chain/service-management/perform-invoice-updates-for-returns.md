@@ -1,29 +1,26 @@
 ---
 title: İadeler için fatura güncelleştirmeleri gerçekleştirme
 description: Bu işlev sipariş iadelerinin ve satış siparişlerinin aynı anda ve aynı kişi tarafından faturalanmasını isteyen kuruluşların iş süreçlerini destekler.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d60e29aec1ebdec939aaafc978ee4de04b96136
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 736496a0499e70987f80f3d4687414371606cd8c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439066"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578764"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>İadeler için fatura güncelleştirmeleri gerçekleştirme 
 
@@ -57,3 +54,6 @@ Fatura güncelleştirmesini toplu iş işlemesi için ayarladığınızda, **İa
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

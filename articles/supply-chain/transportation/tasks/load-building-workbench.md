@@ -2,29 +2,28 @@
 title: Yük oluşturma çalışma ekranı
 description: Bu konuda, yük oluşturma ekranı ile nasıl çalışılacağı açıklanmaktadır.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646445"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574869"
 ---
 # <a name="load-building-workbench"></a>Yük oluşturma çalışma ekranı
+
+[!include [banner](../../includes/banner.md)]
 
 Yük oluşturma ekranı, yük oluştururken yük oluşturma stratejilerini uygulamanıza olanak sağlar.
 
@@ -67,3 +66,6 @@ Yük oluşturma stratejisini artık bir yük oluşturma şablonuna atayabilirsin
 1. Önerilen yükleri ve önerilen yük satırlarını gözden geçirin.
 1. Eylem bölmesinde, **Önerilen yük satırları** hızlı sekmesindeki kaynak belge satırlarına dayalı yükler oluşturmak için **Yük oluştur**'u seçin.
 1. **Yük oluşturma çalışma ekranı** sayfasını kapatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

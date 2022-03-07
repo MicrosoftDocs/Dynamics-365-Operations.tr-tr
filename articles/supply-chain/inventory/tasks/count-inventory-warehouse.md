@@ -2,27 +2,24 @@
 title: Ambardaki stoğu sayma
 description: Bu konu, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak için stok sayım günlüğü oluşturma ve deftere nakletme işlemini açıklar.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34013783bab79d80f1dac9a7806042608635e617
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1cc89e3773005502c193364a721a835fe01dde9f1f22046e9c10c7d186b508d5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768155"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Ambardaki stoğu sayma
 
@@ -56,3 +53,6 @@ Bu konu, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak içi
 1. **Stok**'u seçin.
 2. **Hareketler**'i seçin. Burada, stok sayım günlüğünüzü deftere naklettiğinizde oluşturulacak tüm ilgili hareketleri görebilirsiniz.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

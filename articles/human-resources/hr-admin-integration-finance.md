@@ -2,11 +2,9 @@
 title: Finance ile tümleştirmeyi yapılandırma
 description: Bu makalede, Dynamics 365 Human Resources'tan Dynamics 365 Finance'e tümleştirme için kullanılabilecek işlevler açıklanmaktadır.
 author: andreabichsel
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527939"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801179"
 ---
 # <a name="configure-integration-with-finance"></a>Finance ile tümleştirmeyi yapılandırma
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -44,7 +44,7 @@ Human Resources'tan Finance'e çözümü aşağıdaki veri eşitleme türlerini 
 
 Tümleştirme çözümü için aşağıdaki Human Resources ve Finance sürümleri gereklidir: 
 
-- Common Data Service üzerinde Dynamics 365 Human Resources
+- Dataverse üzerinde Dynamics 365 Human Resources
 - Dynamics 365 Finance 7.2 veya daha ileri bir sürüm
 
 ## <a name="template-and-tasks"></a>Şablon ve görevler
@@ -55,7 +55,7 @@ Tümleştirme çözümü için aşağıdaki Human Resources ve Finance sürümle
 
 2. **Projeleri** seçin ve sonra sağ üst köşedeki **Yeni proje** 'yi seçin. Finance'e tümleştirmek istediğiniz her tüzel kişilik için yeni bir proje oluşturun.
 
-3. Kayıtları **İnsan Kaynakları (insan kaynakları Common Data Service ile finans)** ile eşitlemek için insan kaynakları (Finans için) öğesini seçin.
+3. Kayıtları **İnsan Kaynakları (insan kaynakları Dataverse ile finans)** ile eşitlemek için insan kaynakları (Finans için) öğesini seçin.
 
 Şablon, Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel görevler kullanır.
 
@@ -81,14 +81,14 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="job-functions-to-compensation-job-function"></a>İş İşlevleri'nden Maaş İş İşlevi'ne
 
-| Common Data Service varlığı (kaynak) | Fİnans varlığı (hedef) |
+| Dataverse tablosu (kaynak) | Fİnans varlığı (hedef) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   İşlev Adı)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Departmanlar'dan Faaliyet Birimi'ne
 
-| Common Data Service varlığı (kaynak)           | Fİnans varlığı (hedef) |
+| Dataverse tablosu (kaynak)           | Fİnans varlığı (hedef) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -97,7 +97,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="job-types-to-compensation-job-type"></a>İş Türleri'nden Maaş İş Türü'ne
 
-| Common Data Service varlığı (kaynak)   | Fİnans varlığı (hedef) |
+| Dataverse tablosu (kaynak)   | Fİnans varlığı (hedef) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -105,7 +105,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="jobs-to-jobs"></a>İşler'den İşler'e
 
-| Common Data Service varlığı (kaynak)                           | Fİnans varlığı (hedef)           |
+| Dataverse tablosu (kaynak)                           | Fİnans varlığı (hedef)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -115,7 +115,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="jobs-to-job-detail"></a>İşler'den İş Ayrıntısı'na
 
-| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef) |
+| Dataverse tablosu (kaynak)                             | Fİnans varlığı (hedef) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (İş Türü (İş Türü Adı))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -126,7 +126,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="position-types-to-position-type"></a>Pozisyon Türleri'nden Pozisyon Türü'ne
 
-| Common Data Service varlığı (kaynak)       | Fİnans varlığı (hedef) |
+| Dataverse tablosu (kaynak)       | Fİnans varlığı (hedef) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -134,13 +134,13 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="job-positions-to-base-position"></a>İş Pozisyonları'ndan Temel Pozisyon'a
 
-| Common Data Service varlığı (kaynak)           | Fİnans varlığı (hedef) |
+| Dataverse tablosu (kaynak)           | Fİnans varlığı (hedef) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>İş Pozisyonları'ndan Pozisyon Ayrıntıları'na
 
-| Common Data Service varlığı (kaynak)              | Fİnans varlığı (hedef)       |
+| Dataverse tablosu (kaynak)              | Fİnans varlığı (hedef)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (İş Adı)                                        | JOBID (JOBID)                                    |
@@ -154,7 +154,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="job-positions-to-position-durations"></a>İş Pozisyonları'ndan Pozisyon Süreleri'ne
 
-| Common Data Service varlığı (kaynak)             | Fİnans varlığı (hedef) |
+| Dataverse tablosu (kaynak)             | Fİnans varlığı (hedef) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası)   | POSITIONID (POSITIONID)                      |
 | Hesaplanan   Etkinleştirme (Hesaplanan Etkinleştirme) | VALIDFROM (VALIDFROM)                        |
@@ -162,7 +162,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="job-positions-to-position-hierarchies"></a>İş Pozisyonları'ndan Pozisyon Hiyerarşileri'ne
 
-| Common Data Service varlığı (kaynak)        | Fİnans varlığı (hedef) |
+| Dataverse tablosu (kaynak)        | Fİnans varlığı (hedef) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -172,7 +172,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 
 ### <a name="workers-to-worker"></a>Çalışanlar'dan Çalışan'a
-| Common Data Service varlığı (kaynak)           | Fİnans varlığı (hedef)       |
+| Dataverse tablosu (kaynak)           | Fİnans varlığı (hedef)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -191,7 +191,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="employments-to-employment"></a>İstihdamlar'dan İstihdam'a
 
-| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef) |
+| Dataverse tablosu (kaynak)                             | Fİnans varlığı (hedef) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -201,7 +201,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="employments-to-employment-detail"></a>İstihdamlar'dan İstihdam Ayrıntısı'na
 
-| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef)   |
+| Dataverse tablosu (kaynak)                             | Fİnans varlığı (hedef)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -219,7 +219,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Pozisyon Çalışan Ataması'ndan Pozisyon Çalışan Atamaları'na
 
-| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef)   |
+| Dataverse tablosu (kaynak)                             | Fİnans varlığı (hedef)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası)                   | POSITIONID(POSITIONID)                        |
@@ -228,7 +228,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Çalışan Adresleri'nden Çalışan Posta Adresi V2'ye
 
-| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef)   |
+| Dataverse tablosu (kaynak)                             | Fİnans varlığı (hedef)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -255,3 +255,5 @@ Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](https://do
 Aşağıdaki çizim, Veri Tümleştirici'de bir şablon eşleme örneği gösteriyor. 
 
 ![Şablon Eşleme](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

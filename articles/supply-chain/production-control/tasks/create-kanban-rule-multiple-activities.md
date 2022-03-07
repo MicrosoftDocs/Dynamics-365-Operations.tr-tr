@@ -1,28 +1,25 @@
 ---
 title: Birden fazla faaliyet için kanban kuralı oluşturma
 description: Bu yordam, bir üretim akışından birden fazla faaliyeti içeren bir kanban kuralının nasıl oluşturulacağını gösterir.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, KanbanFlowSelection, InventItemIdLookupSimple, KanbanCreateScheduled, Kanban
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68cac0f581e786cdb3801e03fb60db7bc05ffb2f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f55034f4f0557023ce0c659c1e8258214cf8bfa3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439017"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569275"
 ---
 # <a name="create-a-kanban-rule-for-multiple-activities"></a>Birden fazla faaliyet için kanban kuralı oluşturma
 
@@ -59,3 +56,6 @@ Bu yordam, bir üretim akışından birden fazla faaliyeti içeren bir kanban ku
     * Kanbanın, üretim akışından iki işlem işi olduğuna dikkat edin. Birincisi SpeakerAssemblyAndPolish ve ikincisi de SpeakerTestAndPackaging öğeleridir.  
     * Bu son adımdır!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

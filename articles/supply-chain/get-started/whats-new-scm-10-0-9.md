@@ -2,27 +2,24 @@
 title: Dynamics 365 Supply Chain Management 10.0.9'daki yenilikler veya değişiklikler (Nisan 2020)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.9'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
-manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 163c2e00bd0363303596a48199a833369e51b232
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: f50636eaf633820e5cf746e2c5ee818cf670616b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4439606"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813159"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Dynamics 365 Supply Chain Management 10.0.9'daki yenilikler veya değişiklikler (Nisan 2020)
 
@@ -124,3 +121,6 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.9 Platform update 33 içerir
 Herhangi bir özellik üründen kaldırılmadan önce, kullanım dışı bırakma bildirimi kaldırma işleminden 12 ay önce [Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özelliker](removed-deprecated-features-scm-updates.md) konusunda duyurulacaktır.
 
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bunlar derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

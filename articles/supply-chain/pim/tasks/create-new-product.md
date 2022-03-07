@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a4745fe4fc44f85bcfd388ee573f5a6d0cd8519
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 90fdd0a3cbe90c7d3752c4ca2de1c2665968dc35
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439299"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218549"
 ---
 # <a name="create-a-new-product"></a>Yeni ürün oluşturma
 
@@ -43,3 +42,6 @@ Bu konuda, yeni bir paylaşılan ürün oluşturma yöntemi açıklanmıştır. 
 3. **İzleme boyutu grubu** alanına bir değer girin veya bir değer seçin. Takip boyutu grubu, her bir ürün hareketi için mutlaka girmeniz gereken takip boyutlarını ve bunların stokta nasıl işleneceğini belirler.  
 4. **Tamam**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

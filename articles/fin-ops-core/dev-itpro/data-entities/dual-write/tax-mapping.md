@@ -1,35 +1,24 @@
 ---
 title: Tümleşik vergi
-description: Bu konu Finance and Operations ile Dataverse arasında vergi verileri tümleştirmesini açıklar.
-author: robinarh
-manager: AnnBe
+description: Bu konu Finans ve Operasyon ile Dataverse arasındaki vergi tümleştirmesini açıklar.
+author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: rhaertle
-ms.dyn365.ops.version: ''
+ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679308"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063199"
 ---
 # <a name="integrated-tax"></a>Tümleşik vergi
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -39,30 +28,14 @@ Vergi ayarı verileri hem dolaylı vergilerin (KDV, GST, Satış vergisi) hem de
 
 Vergi verileri, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir tablo eşlemeleri koleksiyonudur.
 
-Finance and Operations uygulamaları | Dynamics 365'teki model yönetimli uygulamalar | Tanım |
--------------------------|---------------------------------|----|
-Madde satış vergisi grubu | msdyn_taxitemgroups |
-Satış vergisi makamları | msdyn_taxauthorities |
-Satış vergisi muafiyet kodu varlığı CDS | msdyn_taxexemptcodes |
-Satış vergisi grupları | msdyn_taxgroups |
-Satış vergisi genel muhasebe deftere nakil grupları V2 | msdyn_taxpostinggroups |
-Stopaj vergisi kodları | msdyn_withholdingtaxcodes |
-Stopaj vergisi grupları | msdyn_withholdingtaxgroups | 
+| Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları | Açıklama |
+|-----------------------------|-----------------------------------|-------------|
+[Madde satış vergisi grubu](mapping-reference.md#196) | msdyn_taxitemgroups | |
+[Satış vergisi makamları](mapping-reference.md#193) | msdyn_taxauthorities | |
+[Satış vergisi muafiyet kodu varlığı CDS](mapping-reference.md#194) | msdyn_taxexemptcodes | |
+[Satış vergisi grupları](mapping-reference.md#195) | msdyn_taxgroups | |
+[Satış vergisi genel muhasebe deftere nakil grupları V2](mapping-reference.md#197) | msdyn_taxpostinggroups | |
+[Stopaj vergisi kodları](mapping-reference.md#210) | msdyn_withholdingtaxcodes | |
+[Stopaj vergisi grupları](mapping-reference.md#211) | msdyn_withholdingtaxgroups | |
 
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
-
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
-
-[!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
-
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
-
-[!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
-
-[!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

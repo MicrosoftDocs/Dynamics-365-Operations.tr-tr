@@ -1,12 +1,10 @@
 ---
 title: Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 description: Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -15,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967142"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571101"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır. Kullanabileceğiniz çeşitli önceden tanımlanmış yapılandırma şablonları bulunur. Bu şablonların nasıl kullanılacağı hakkında bilgi için bkz. [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md).
+Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır. Kullanabileceğiniz çeşitli önceden tanımlanmış yapılandırma şablonları bulunur. Bu şablonların nasıl kullanılacağı hakkında bilgi için bkz. [Yapılandırma veri şablonları](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Yapılandırma şablonlarının yardımcı olabileceği senaryolar
 
@@ -90,10 +88,13 @@ Veri paketi için bir zip dosyası indirebilirsiniz. Bu dosya tüm verileri seç
 4. **+ Dosya ekle**'yi seçin ve veri paketi zip dosyasını yükleyin.
 5. **İçe aktar**'ı seçin. **Gelişmiş** görünümde, içe aktarma sırasında oluşabilecek sorunların genel bir görünümünü almak için **Filtre** seçeneğini kullanabilirsiniz.
 
-**Yürütmeyi görüntüle** günlüğü içe aktarılan her veri varlığıyla ilgili ayrıntılı bilgi sağlar. Hedef verilere hızlıca gitmek için aşamalandırma verisi görünümünü kullanabilirsiniz. Bu şekilde, uygulamadaki ilgili sayfalarda içe aktarılan verilen nasıl göründüğünü görebilirsiniz. Varsayılan veri şablonlarını kullandığınızda, her veri varlığı için içe aktarma sırası önceden tanımlanan şekilde çalışarak tüm bağımlı verilerin önce içe aktarılmasını sağlamaya yardımcı olur. Özel veri varlıkları projesinin bir parçasıysa, doğru sıranın tanımlandığından emin olmanız gerekir. Daha fazla bilgi için bkz. [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md).
+**Yürütmeyi görüntüle** günlüğü içe aktarılan her veri varlığıyla ilgili ayrıntılı bilgi sağlar. Hedef verilere hızlıca gitmek için aşamalandırma verisi görünümünü kullanabilirsiniz. Bu şekilde, uygulamadaki ilgili sayfalarda içe aktarılan verilen nasıl göründüğünü görebilirsiniz. Varsayılan veri şablonlarını kullandığınızda, her veri varlığı için içe aktarma sırası önceden tanımlanan şekilde çalışarak tüm bağımlı verilerin önce içe aktarılmasını sağlamaya yardımcı olur. Özel veri varlıkları projesinin bir parçasıysa, doğru sıranın tanımlandığından emin olmanız gerekir. Daha fazla bilgi için bkz. [Yapılandırma veri şablonları](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 Ambarın yapılandırmasını bir şirketten yeni bir şirkete aynı kurulum içinde kopyalamak için ambar şablonu kullanma hakkında daha fazla bilgi edinmek üzere YouTube'daki bu 3 dakikalık videoyu izleyin: [Ambar şablonunu Finance and Operations için yapılandırmayı kopyalamak üzere kullanma](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>İlgili konu
 
-[Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Yapılandırma veri şablonları](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

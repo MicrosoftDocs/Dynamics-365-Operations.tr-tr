@@ -2,15 +2,12 @@
 title: Harita modülü
 description: Bu konu harita modüllerini ve bunların Microsoft Dynamics 365 Commerce'te nasıl yapılandırılacağını açıklamaktadır.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: ba6dadf7f96510ae55c41a74d53e3ca89f663ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665432"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344086"
 ---
 # <a name="map-module"></a>Harita modülü
 
@@ -32,9 +29,7 @@ ms.locfileid: "4665432"
 
 Bu konu harita modüllerini ve bunların Microsoft Dynamics 365 Commerce'te nasıl yapılandırılacağını açıklamaktadır.
 
-## <a name="overview"></a>Özet
-
-Harita modülü, [Bing Haritalar V8 Web Denetimi](https://docs.microsoft.com/bingmaps/v8-web-control/) kullanılarak işlenen etkileşimli bir harita üzerindeki mağazaların konumlarını gösterir. Bir Bing Haritalar API anahtarı gereklidir ve Commerce Headquarters'daki paylaşılan parametreler sayfasına eklenmelidir. Harita modülleri, kullanıcıların harita konumlarını görüntülemek için seçim yapabilen Yol, Uydu ve Streetside görünümü gibi farklı görünümler sağlar. Ayrıca, yakınlaştırma ve kullanıcının konumunu kullanma gibi etkileşimlere de izin verir.
+Harita modülü, [Bing Haritalar V8 Web Denetimi](/bingmaps/v8-web-control/) kullanılarak işlenen etkileşimli bir harita üzerindeki mağazaların konumlarını gösterir. Bir Bing Haritalar API anahtarı gereklidir ve Commerce Headquarters'daki paylaşılan parametreler sayfasına eklenmelidir. Harita modülleri, kullanıcıların harita konumlarını görüntülemek için seçim yapabilen Yol, Uydu ve Streetside görünümü gibi farklı görünümler sağlar. Ayrıca, yakınlaştırma ve kullanıcının konumunu kullanma gibi etkileşimlere de izin verir.
 
 Bir harita modülü, bir haritada işlenmesi gereken mağazaların coğrafi konumlarını belirlemek için mağaza seçici modülüyle birlikte çalışır. Bir kullanıcı site sayfasında bu modüllerden birinde bir mağaza seçtiğinde mağaza seçici ve harita modülleri etkileşime girer. Harita modülleri, mağaza seçici modülleriyle etkileşimi dışında diğer senaryolar için genişletilebilir. Ancak, modül özelleştirmesi gereklidir.
 
@@ -43,7 +38,7 @@ Bir harita modülü, bir haritada işlenmesi gereken mağazaların coğrafi konu
 
 Aşağıdaki resimde mağaza konumları sayfasında kullanılan bir harita modülü örneği gösterilmektedir.
 
-![Mağaza seçici modülü örneği](./media/ecommerce-Storelocator.PNG)
+![Mağaza seçici modülü örneği.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Modül özellikleri
 
@@ -81,4 +76,7 @@ Bir sayfada harita modülünü yapılandırma hakkında ayrıntılı bilgi için
 
 [Kuruluşunuz için Bing Haritalar'ı yönetme](./dev-itpro/manage-bing-maps.md)
 
-[Bing Haritalar V8 Web Denetimi](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[Bing Haritalar V8 Web Denetimi](/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

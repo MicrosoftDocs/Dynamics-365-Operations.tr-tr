@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: db601be192b57fbec220193d3c9fde1a4f50c085
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514338"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213520"
 ---
 # <a name="split-a-fixed-asset"></a>Sabit kıymeti bölme
 
@@ -63,3 +62,6 @@ Tam amortismana tabi bir kıymet bölünmeden önce, kıymet defteri durumunun e
     - Yeni kıymet için aynı tutarda bir düzeltme hareketi oluşturulur.
 
 4. **Naklet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

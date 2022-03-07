@@ -1,12 +1,10 @@
 ---
 title: ER seçili veri kaynaklarına veri modeli eşle
-description: Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının, Elektronik raporlama (ER) veri modelini seçili Microsoft Dynamics 365 Finance veri kaynaklarıyla nasıl eşleyeceğini açıklar.
+description: Bu konuda, Elektronik raporlama (ER) veri modelinin seçili Microsoft Dynamics 365 Finance veri kaynaklarıyla nasıl eşleneceğini açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0eb7f48a50e32637003c1488d80899a704709068
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684319"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751498"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER seçili veri kaynaklarına veri modeli eşle
 
@@ -146,3 +144,6 @@ Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama Geliştirici
 5. Geçerli yapılandırmanın tamamlanmış sürümünü seçin.
     * Oluşturulan yapılandırmanın tamamlanmış sürüm 1 olarak kaydedildiğini unutmayın.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

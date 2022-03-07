@@ -2,30 +2,28 @@
 title: İşe alma isteği konumu
 description: Bu konu, Dynamics 365 Human Resources için İşe alma isteği konum varlığını açıklar.
 author: jaredha
+manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4dbc676e25c1ec24350607b10787924b0738e102
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fa153b1cfcbb70294ed6da3618c83396df04f8db
+ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069183"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5125245"
 ---
 # <a name="recruiting-request-location"></a>İşe alma isteği konumu
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu konu, Dynamics 365 Human Resources için İşe alma isteği konum varlığını açıklar.
 
@@ -84,6 +82,3 @@ Fiziksel ad: mshr_hcmrecruitingrequestlocationentity
 [Başvuran İzleme Sistemi tümleştirme API'si tanıtımı](hr-admin-integration-ats-api-introduction.md)<br>
 [Işe alma isteği için sorgu örneği](hr-admin-integration-ats-api-recruiting-request-example-query.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

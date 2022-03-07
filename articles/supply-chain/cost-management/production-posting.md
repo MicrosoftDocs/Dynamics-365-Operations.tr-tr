@@ -2,11 +2,9 @@
 title: Üretimin deftere nakli
 description: Bu makale üretim sürecindeki farklı türdeki nakiller hakkında bilgi sağlar.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d97656081c0ade6918afb9e082254a4d877324e4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b49e34e44ca4cd3162928f0d512b467aa4c752d9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963825"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830304"
 ---
 # <a name="production-posting"></a>Üretimin deftere nakli
 
@@ -56,3 +54,6 @@ Bir üretim emri sonlandırılmadan önce gerçek maliyetler, üretilen miktar i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

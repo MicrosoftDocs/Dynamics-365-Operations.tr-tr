@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: e1f8c8d74a5da1dceb54bcc7c16aebdfe2bf4fd1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439745"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214950"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Mühendislik sürümleri ve mühendislik ürünü kategorileri
 
@@ -162,3 +161,6 @@ Mühendislik ürün reçeteleri ve rotaları, geçerli oldukları mühendislik s
 *Sürüm* ürün boyutunu kullandığınız ürünlerde (hareketler üzerindeki lojistik etki vardır), sürüm ürün ve rotalara da eklenir. Bu davranış, **Geçerliliği zorla** ayarından bağımsız olarak, ardışık sürümlerin ürün reçetelerini ve rotalarını ayırt etmeye yardımcı olur.
 
 *Sürüm* ürün boyutunu kullanmadığınız ürünlerde (hareketler üzerinde lojistik etki olmadan), sürüm ürün reçetelerine ve rotalara eklenmez. Bu nedenle, ardışık sürümlerin ürün reçeteleri ile rotaları arasında hiçbir fark olmayacaktır. Bu durumda, **Geçerliliği zorla** seçeneğini *Evet* olarak ayarlamanızı öneririz. Bu sayede, mühendislik sürümlerinin çakışmasını önlemeye yardımcı olur ve önceki sürümün ürün reçetesini ve rotasını devre dışı bırakmak zorunda kalmadan daha yeni bir sürümün ürün reçetesi ve rotasını etkinleştirebilirsiniz. Bu durumda **Geçerliliği zorla** seçeneğini *Evet* olarak ayarlarsanız en son sürümü etkinleştirmeden önce eski sürümlerin ürün reçetelerini ve rotalarını el ile devre dışı bırakmanız gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

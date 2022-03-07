@@ -2,16 +2,13 @@
 title: POS'ta giden stok işlemi
 description: Bu konu satış noktası (POS) giden stok operasyonunun yeteneklerini açıklar.
 author: hhaines
-manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416312"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581150"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS'ta giden stok işlemi
 
@@ -74,7 +71,7 @@ Oluşturduğunuz toplu işler, başarısız olan veya zaman aşımına uğrayabi
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Önkoşul: POS ekran düzenine giden işlem Ekle
 
-Kuruluşunuzun giden operasyon işlevini kullanabilmesi için önce bir veya daha fazla [POS ekran mizanpajlarından](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) **giden operasyon** POS operasyonunu konfigüre etmelidir. Yeni operasyonu üretim ortamında dağıtmadan önce, bunu kapsamlı olarak test edin ve kullanıcılarınıza bunu kullanmaya eğittiğinizden emin olun.
+Kuruluşunuzun giden operasyon işlevini kullanabilmesi için önce bir veya daha fazla [POS ekran mizanpajlarından](/dynamics365/unified-operations/retail/pos-screen-layouts) **giden operasyon** POS operasyonunu konfigüre etmelidir. Yeni operasyonu üretim ortamında dağıtmadan önce, bunu kapsamlı olarak test edin ve kullanıcılarınıza bunu kullanmaya eğittiğinizden emin olun.
 
 ## <a name="overview"></a>Genel Bakış
 
@@ -119,7 +116,7 @@ Bir barkodun her taramasında, **şimdi sevk etme** alanındaki miktar bir birim
 
 ### <a name="over-delivery-shipping-validations"></a>Fazla teslimat sevkiyat doğrulamaları
 
-Belge satırları alma işlemi sırasında geçerlilikler meydana gelir. Bunlar fazla teslimat için doğrulama içerirler. Bir Kullanıcı bir satın alma siparişinde sipariş edilen sayıdan daha fazla stok almayı denerse ancak fazla teslimat Konfigüre edilmezse veya teslim alınan miktar, satın alma siparişi satırı için konfigüre edilen fazla teslimat toleransını aşarsa, Kullanıcı hata alır fazlalık miktarı almasına izin verilmez.
+Doğrulamalar, belge satırları için karşılama işlemi sırasında gerçekleşir. Bunlar fazla teslimat için doğrulama içerirler. Kullanıcı, bir transfer emrinde sipariş edilenden daha fazla stok sevk etmeye çalışırsa ancak fazla teslimat yapılandırılmazsa veya sevk edilen miktar, transfer emri satırı için yapılandırılan fazla teslimat toleransını aşarsa kullanıcı bir hata alır ve fazla miktarı sevk etmesine izin verilmez.
 
 ### <a name="underdelivery-close-lines"></a>Eksik teslimat kapatma satırları
 
@@ -193,3 +190,6 @@ Tam olarak sevk edilen transfer emirleri, **giden operasyon** belgesi listesinin
 ## <a name="related-topics"></a>İlgili konular
 
 [POS'ta gelen stok işlemi](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Mobil iş cihazında ilerlemeyi rapor etme
 description: Bu yordam, iş cihazı kayıt formundaki üretim işiyle ilgili ilerlemenin nasıl başlatılacağını ve raporlanacağını gösterir.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm, JmgRegistrationTouchReportProgress, JmgFeedbackWizard, JmgJobBundleProdFeedback
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34067902f05546b5c420feca633f77f16033ed2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 69baad02bb1c1577022f65eabc38c717a184b3c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439282"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841419"
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Mobil iş cihazında ilerlemeyi rapor etme
 
@@ -65,3 +62,6 @@ Bu yordamı çalıştırabilmek için kullanıcı hesabı ile ilişkili Sistem y
 29. Tamam'a tıklayın.
 30. Neden erken çıkış yapıldığının nedenini seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

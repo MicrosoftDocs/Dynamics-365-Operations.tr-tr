@@ -1,31 +1,33 @@
 ---
 title: Müşteri ödemesine genel bakış
-description: Bu yordam, müşteri ödemelerini girmek için kullanılan çeşitli yöntemleri açıklar.
+description: Bu görev kılavuzu, müşteri ödemelerini girmek için kullanılan çeşitli yöntemleri açıklar.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394512"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448798"
 ---
 # <a name="customer-payment-overview"></a>Müşteri ödemesine genel bakış
 
 [!include [banner](../../includes/banner.md)]
 
-Bu yordam, müşteri ödemelerini girmek için kullanılan çeşitli yöntemleri açıklar. Bu görevde USMF demo şirketi kullanılmaktadır.
+Bu görev kılavuzu, müşteri ödemelerini girmek için kullanılan çeşitli yöntemleri açıklar. Bu görevde USMF demo şirketi kullanılmaktadır.
 
 1. **Gezinti bölmesi Modüller > Alacak hesapları > Ödemeler > Ödeme günlüğü**'ne gidin.
 2. **Yeni**'ye tıklayın.
@@ -50,6 +52,3 @@ Bu yordam, müşteri ödemelerini girmek için kullanılan çeşitli yöntemleri
 21. **Ödeme referansı** alanına, bir ödeme referansı girin. Ödeme referansı, ödemeyi bir havale makbuzuna dahil etmek için seçmeniz durumunda gereklidir.  
 22. **Eylem bölmesinde** müşteri ödemelerini deftere nakletmek için **Deftere naklet**'e tıklayın. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Satış tekliflerini toplu olarak oluştur
 description: Bu yordam, birden fazla müşteriye gönderilecek ürünler ve hizmetler kümesi sunan tekliflerin nasıl etkin biçimde oluşturulacağını göstermektedir.
 author: omulvad
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm, SalesQuickQuote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227ff0dd03f8917f4551ce08067ef26c6204b059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0422817576d9d93d0ec6bbfb5f3777013ee09ece
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439098"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817713"
 ---
 # <a name="mass-create-sales-quotations"></a>Satış tekliflerini toplu olarak oluştur
 
@@ -101,3 +98,6 @@ Bu yordam, birden fazla müşteriye gönderilecek ürünler ve hizmetler kümesi
 11. Sales and marketing > Sales quotations > All quotations (Satış ve pazarlama > Satış teklifleri > Tüm teklifler) menüsüne gidin.
     * Tekliflerin seçili şablon temel alınarak toplu güncelleştirme rutininde belirtilen tüm müşteriler için oluşturulduğundan emin olun.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

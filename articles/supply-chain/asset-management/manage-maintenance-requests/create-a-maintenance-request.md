@@ -1,12 +1,10 @@
 ---
 title: Bakım talepleri oluştur
 description: Bu konuda Kıymet Yönetimi'nde bakım talepleri oluşturma işlemi açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 4b48a0504b79d2edf7815296312c7839052092e7d6773b7ebd5d38cbb59c9428
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019190"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714992"
 ---
 # <a name="create-maintenance-requests"></a>Bakım talepleri oluştur
 
@@ -54,7 +52,7 @@ Bakım görevlileri veya üretim çalışanları, ekipmanların onarımını ger
 11. **Notlar** alanında, gerekli olan ek notları girin.
 12. **Tamam**'ı seçin.
 
-![Bakım talebi oluştur](media/03-manage-maintenance-requests.png)
+![Bakım talebi oluşturma.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Bakım taleplerinin sonraki işlemesi
 
@@ -69,7 +67,10 @@ Ayrıntılar görünümünde, çeşitli bilgileri güncelleştirebilirsiniz. Bur
 - Bir bakım işi türü seçin ve bu bilgiler alakalı ise ilgili bakım iş çeşidi ve bir zanaat seçin.
 - **Enlem** ve **Boylam** alanlarında coğrafi koordinatları girin. Bir bakım talebine eklenen koordinatlar otomatik olarak ilgili iş emri için aktarılır. 
 
-![Bakım talebini güncelleştirme](media/04-manage-maintenance-requests.png)
+![Bakım talebini güncelleştirme.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Bir bakım talebi oluşturduğunuzda bir varlık seçerseniz varlığa bir hata ekleyebilirsiniz. Bakım talebi oluşturulduktan sonra ihtiyacınız olursa daha fazla hata ekleyebilirsiniz. Hata eklemek için **Tüm bakım talepleri** sayfasından **Varlık hatası**'nı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

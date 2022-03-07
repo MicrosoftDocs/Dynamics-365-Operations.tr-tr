@@ -2,26 +2,23 @@
 title: Temel tahmin oluşturma
 description: Üretim planlayıcısı, zaman serisi tahmin modellerini kullanarak veya geçmiş talebi kopyalayarak bir taban tahmini oluşturabilir.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47e26a48cdde3a6996f4c0a4ca85222c402f44e2
-ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
+ms.openlocfilehash: d89219d90ddff7cec70195025ffc361fb8101552
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/26/2020
-ms.locfileid: "4439738"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841731"
 ---
 # <a name="create-a-baseline-forecast"></a>Temel tahmin oluşturma
 
@@ -82,3 +79,6 @@ ms.locfileid: "4439738"
 5. Tahmin satırı ayrıntıları'na tıklayın.
     * Bu sayfada, doğruluk değerleri, geçmiş talep, ve tahminleri görebilirsiniz. Bu tahminde değişiklikler de yapabilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

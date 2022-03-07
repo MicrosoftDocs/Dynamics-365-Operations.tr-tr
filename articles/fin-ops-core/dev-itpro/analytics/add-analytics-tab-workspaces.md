@@ -1,25 +1,23 @@
 ---
 title: Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
 description: Bu konu bir Power BI raporunu bir çalışma alanının Analizler sekmesine katıştırmayı gösterir.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760164"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
 
@@ -56,11 +54,11 @@ Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımla
 3. **Yeni Madde Ekle** iletişim kutusunda, **Operasyonlar Yapıları** altında **Kaynak** şablonunu seçin.
 4. X++ meta verisindeki raporu referans olarak kullanacak bir ad girin ve **Ekle**'yi tıklatın.
 
-    ![Yeni Madde Ekle iletişim kutusu](media/analytical-workspace-add.png)
+    ![Yeni Madde Ekle iletişim kutusu.](media/analytical-workspace-add.png)
 
 5. Analitik raporun tanımını içeren .pbix dosyasını bulun ve **Aç**'ı tıklatın.
 
-    ![Bir Kaynak dosya iletişim kutusu seçin](media/analytical-workspace-select-resource.png)
+    ![Bir Kaynak dosya iletişim kutusu seçin.](media/analytical-workspace-select-resource.png)
 
 Şimdi .pbix dosyasını bir Dynamics 365 kaynağı olarak ekledikten sonra, raporları çalışma alanlarına katıştırabilir ve menü öğelerini kullanarak doğrudan bağlantılar ekleyebilirsiniz.
 
@@ -69,7 +67,7 @@ Bu örnekte Filo Yönetimi modelinde, **Analizler** sekmesini **FMClerkWorkspace
 
 Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasarımcısında nasıl görüneceğini gösterir.
 
-![Değişikliklerden önce FMClerkWorkspace formu](media/analytical-workspace-definition-before.png)
+![Değişikliklerden önce FMClerkWorkspace formu.](media/analytical-workspace-definition-before.png)
 
 **Rezervasyon yönetimi** çalışma alanının form tanımını genişletmek için şu adımları izleyin.
 
@@ -94,7 +92,7 @@ Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasa
 
 Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl görüneceğini gösterir.
 
-![Değişikliklerden sonra FMClerkWorkspace](media/analytical-workspace-definition-after.png)
+![Değişikliklerden sonra FMClerkWorkspace.](media/analytical-workspace-definition-after.png)
 
 Çalışma alanı raporunu katıştırmak için kullanılacak form denetimlerini ekledikten sonra, düzeni bulunduracak üst denetimin boyutunu tanımlamalısınız. Varsayılan olarak hem **Filtrelre Bölmesi** sayfası hem de **Sekmeler** sayfası raporda görünür olur. Bunula birlikte, bu denetimlerin görünürlüğünü raporun hedef tüketicisi için uygun şekilde değiştirebilirsiniz.
 
@@ -144,7 +142,7 @@ Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl
 
 Katıştırılmış rapor görüntüleme denetimini başlatmak için iş mantığı ekleme görevini şimdi tamamladınız. Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra çalışma alanının nasıl görüneceğini gösterir.
 
-![Çalışma alanına katıştırılmış rapor](media/analytical-workspace-final.png)
+![Çalışma alanına katıştırılmış rapor.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Sayfa başlığının altındaki çalışma alanı sekmelerini kullanarak mevcut operasyonel görünümlere erişebilirsiniz.
@@ -175,3 +173,6 @@ public static void initializeReportControl(
 | showFilterPane   | Bir Boole değeri, filtre panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir.     |
 | showNavPane      | Bir Boole değeri, gezinti panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir. |
 | defaultFilters   | Power BI raporu için varsayılan filtreler.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

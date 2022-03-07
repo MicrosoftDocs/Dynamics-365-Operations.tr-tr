@@ -2,27 +2,25 @@
 title: Kiralama ekleme veya kopyalama (Önizleme)
 description: Bu konuda, Varlık kiralamada kiralamaya ilişkin bilgi girerek veya mevcut bir kiralamadaki bilgileri kopyalayarak yeni bir kiralama oluşturma açıklanmaktadır.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969615"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967938"
 ---
 # <a name="add-or-copy-leases-preview"></a>Kiralama ekleme veya kopyalama (Önizleme)
 
@@ -37,6 +35,19 @@ Varlık kiralamada kiralama oluşturmak için bu adımları izleyin.
 1. **Kiralama özeti** sayfasındaki Eylem bölmesinde **Yeni**'yi seçin.
 2. Kiralama bilgilerini girin. Gerekli alanların kırmızı kenarlıkları vardır.
 
+Kira ödemesi başlangıç tarihi, kira başlangıç tarihinden önce olamaz. Kira ödemesi için kiralamanın başlangıç tarihinden önceki bir başlangıç tarihi girerseniz bir hata iletisi alırsınız.
+
+Varsayılan olarak **Kira ayrıntıları** sayfasının **Genel** hızlı sekmesindeki **Ödeme tutarının dökümü** seçeneği, **Varlık ira parametreleri** sayfasında **Ödeme dökümüne izin ver** seçeneği **Evet** olarak ayarlanmışsa **Hayır** olarak ayarlanmıştır. 
+
+**Ödeme tutarı dökümü** seçeneği **Evet** olarak ayarlanmışsa, **Ödeme planı satırları** hızlı sekmesindeki **Ödeme tutarı** alanı kilitlenir. Bu, daha sonra **Ödeme tutarı dökümü** kataloğunda girilen ödeme tutarlarının toplamına ayarlanır.
+
+Listelenen ödeme tiplerini ekleyebileceğiniz bir sayfa açmak için **Ödeme tutarı dökümü** seçin. **Ödeme tutarına toplam ekle** düğmesi toplamları, **Ödeme tutarı** alanına taşır.
+
+> [!NOTE]
+> Bir dökümü bulunan ödeme tutarı ekler ve sonra **Esc** tuşunu seçerseniz, girilen tutarlar **Ödeme planı satırları** hızlı sekmesindeki **Ödeme tutarı** alanına eklenmez. Bunun yerine, bunlar **Ödeme tutarı dökümü** iletişim kutusunda depolanır. İletişim kutusunun toplam tutarı göstermesini istiyorsanız, **Tutar** sütununu seçin, seçip basılı tutun (veya sağ tıklayın) ve sonra **Bu sütunun toplamını** seçin. 
+
+**Satır kopyala** düğmesi, listelenen ödeme dökümünü kopyalar.
+
 ## <a name="create-a-lease-schedule"></a>Kiralama planı oluşturma
 
 Kiralamaya ilişkin bilgileri girmeyi tamamladıktan sonra, kiralama planı oluşturmak için aşağıdaki adımları izleyin.
@@ -50,6 +61,9 @@ Kiralamaya ilişkin bilgileri girmeyi tamamladıktan sonra, kiralama planı olu�
     **Defter ayrıntıları** sayfası, kiralamaya tahsis edilmiş olan defterlerde kiralamanın nasıl hesaplandığını gösterir. Buradan, kira planlamalarını görebilirsiniz.
 
     Ödeme planı, **Kiralama ekle** sayfasındaki **Ödeme planı satırları** sekmesinden alınan girişleri içerir. Her ödeme tutarını ve değişken ödemeyi değiştirmeye devam edebilirsiniz. Kiralama yükümlülüğü değiştirilen ödeme planına göre hesaplanır.
+
+    > [!NOTE]
+    > Kira ödemesi başlangıç tarihi, kiralamanın başlangıç tarihiyle aynı veya daha ileri bir tarih olmalıdır. Ödeme başlangıç tarihi, kiralamanın başlangıç tarihinden önceki bir tarihse bir hata iletisi alırsınız. 
 
 4. Ödeme planını incelemeyi tamamladıktan sonra **Planlamayı onayla**'yı seçin. Planlama onaylandıktan sonra kiralama, artık düzenlenemez.
 
@@ -88,3 +102,6 @@ Varlık kiralamada oluşturulan tüm günlük girişleri, Varlık kiralama günl
 
 > [!NOTE]
 > Varlık kiralama günlüğü el ile oluşturulamaz. Kiralama planları oluşturulduğunda otomatik olarak oluşturulur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

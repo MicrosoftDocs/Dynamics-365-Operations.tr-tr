@@ -2,26 +2,23 @@
 title: Yerleşim kapasitesine göre stok yenileme
 description: Bu konu, Konum kapasitesine göre stok yenileme özelliği hakkında bilgi sağlar. Bu özellik, gün için gerekli olacak tüm stok yenileme işini etkinleştirir ve malzeme çekme konumunun stok dışında veya kapasitenin üzerine geçmediğinden emin olmak amacıyla bu stok yenileme çalışmasının kullanılabilirliğini yönetir.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439688"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778219"
 ---
 # <a name="replenishment-over-location-capacity"></a>Yerleşim kapasitesine göre stok yenileme
 
@@ -35,8 +32,8 @@ Bazı yüksek hacimli veya alan kısıtlamalı ambarlar, malzeme çekme konumuna
 
 Bu özelliği kullanılabilir hale getirmek için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin (bu sırayla):
 
-1. Kuruluş çapında işi engelleme
-1. Yerleşim kapasitesine göre stok yenileme
+1. Kuruluş genelinde iş durdurma (Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz.)
+1. Konum kapasitesine göre stok yenileme
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Örnek senaryo için özelliği ayarlama
 
@@ -242,7 +239,7 @@ Eldeki miktarlarınıza bağlı olarak, oluşturulan iş miktarları biraz farkl
 
 #### <a name="on-hand-inventory-license-plate-id"></a>Eldeki stok plakası kodu
 
-Bu senaryonun devamında, malzeme çekme ve stok yenileme senaryolarını tamamlamak için plakalevhasını tanımlamanız gereken ambar uygulamasını (veya bir emülatör) kullanacaksınız.
+Bu senaryonun devamında, malzeme çekme ve stok yenileme senaryolarını tamamlamak için plakalevhasını tanımlamanız gereken Ambar Yönetimi mobil uygulamasını (veya bir emülatör) kullanacaksınız.
 
 Daha sonra gereksinim duyacağınız plaka kodlarını bulmak için aşağıdaki adımları izleyin.
 
@@ -267,7 +264,7 @@ Daha sonra gereksinim duyacağınız plaka kodlarını bulmak için aşağıdaki
 
 #### <a name="replenishment"></a>Stok yenileme
 
-1. Ambar uygulamasında ambar *61*'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *61*, parola olarak *1* girin.)
+1. Ambar *61*'de bir kullanıcı olarak Ambar Yönetimi mobil uygulamasına oturum açın. (Kullanıcı kimliği olarak *61*, parola olarak *1* girin.)
 1. **Stok \> Stok yenileme**'ye gidin.
 
     İlk stok yenileme işlemini tamamlamanız istenir. Kalem numarası, miktar ve malzeme çekme konumu gösterilir.
@@ -297,7 +294,7 @@ Konumdan yeterince stok çekilene kadar mobil cihaz menü öğesindeki iş serbe
 
 Kalan stok yenileme görevinin tamamlanabilmesi için önce, malzeme çekme konumunda stokun kalan stok yenileme işini engellemeyecek bir düzeyde olması gerekir. Başka bir deyişle,konumdaki eldeki stok miktarının ve stok yenileme miktarının toplamı, **Taşma miktarı** değerini aşamaz. Bu toplam, taşma miktarından az olduğunda, kalan stok yenileme işinin engeli kaldırılır.
 
-1. Ambar uygulamasında ambar *61*'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *61*, parola olarak *1* girin.)
+1. Ambar *61*'de bir kullanıcı olarak Ambar Yönetimi mobil uygulamasına oturum açın. (Kullanıcı kimliği olarak *61*, parola olarak *1* girin.)
 1. **Giden \> Satış çekme**'ye gidin.
 1. Satış siparişi 1'in ilk iş kodunu girin.
 
@@ -408,3 +405,6 @@ Malzeme çekme konumundaki eldeki stok miktarı ve stok yenileme miktarının to
 - Dilerseniz **İş ayrıntıları** sayfasından, her iş başlığı için stok yenileme işi kullanılabilirliğini el ile geçersiz kılabilirsiniz.
 - Sistem stok yenileme işi kullanılabilirliğini ayarladığında, herhangi bir iş tamamlanmadan önce o konumda olan tüm stoku dikkate alır
 - Satış siparişi işinin her parçası belirli bir stok yenileme işine bağlıdır. Karşılık gelen satış işi kullanılabilirlik işlevi yoktur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

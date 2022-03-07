@@ -2,11 +2,9 @@
 title: Human Resouces ile servise alma için hazırlanma
 description: Bu sayfa, Dynamics 365 Human Resources ile servise alma hakkında rehberlik sağlar.
 author: rachel-profitt
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4421013"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795153"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Human Resouces ile servise alma için hazırlanma
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,28 +53,36 @@ Aşağıdaki tabloda, süreçteki tüm adımlar, beklenen süre ve eylemden soru
 
 ## <a name="completing-the-lcs-methodology"></a>LCS yöntemini tamamlama
 
-Her uygulama projesindeki önemli aşamalardan biri üretim ortamının kesin bitişidir. 
-
-Üretim ortamının canlı operasyonlar için kullanılmasını sağlamaya yardımcı olmak amacıyla, Microsoft, LCS yöntemlerindeki gerekli faaliyetler tamamlandıktan sonra, yalnızca uygulama **çalışma** aşamasına yaklaştığında üretim örneğini sağlar. Aboneliğinizdeki ortamlar hakkında daha fazla bilgi için,  [Dynamics 365 Lisans Kılavuzu](https://go.microsoft.com/fwlink/?LinkId=866544)'na bakın. 
-
-Üretim ortamını istemek için kullanılan  **Yapılandır** düğmesinin kullanılabilmesi için, müşteriler LCS metodolojisinde **analiz**, **tasarım ve geliştirme** ve **test** aşamalarını tamamlamalıdır. LCS'de bir aşamayı tamamlamak için, öncelikle bu aşamada gereken her adımı tamamlamalısınız. Bir aşamadaki tüm adımlar tamamlandığında, tüm aşamayı tamamlayabilirsiniz. Daha sonra değişiklik yapmanız gerekiyorsa, bir aşamayı istediğiniz zaman yeniden açabilirsiniz. Daha fazla bilgi için bkz.  [Finance and Operations uygulamaları müşterileri için Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
-
-Bir adımı tamamlama sürecinde iki bölüm vardır: 
+Her uygulama projesindeki önemli aşamalardan biri üretim ortamının kesin bitişidir. Bir adımı tamamlama sürecinde iki bölüm vardır: 
 
 - Sığdırma-boşluk analizi veya Kullanıcı kabul sınaması (UAT) gibi gerçek çalışmayı yapın. 
 - İlgili adımı LCS metodolojisinde tamamlandı olarak işaretleyin. 
 
-Uygulamada ilerlerken metodolojide adımları tamamlamak iyi bir harekettir. Son dakikaya kadar beklemeyin. Üretim ortamını alabilmeniz için tüm adımları tıklatıp geçmeyin. İyi bir uygulamaya sahip olmak, müşterinin yararınadır. 
+Uygulamada ilerlerken metodolojide adımları tamamlamak iyi bir harekettir. Son dakikaya kadar beklemeyin. İyi bir uygulamaya sahip olmak, müşterinin yararınadır. 
 
 ## <a name="uat-for-your-solution"></a>Çözümünüz için UAT
 
 UAT aşamasında uyguladığınız tüm iş süreçlerini ve yaptığınız tüm özelleştirmeleri uygulama projesindeki bir korumalı alan ortamında sınamanız gerekir. Başarılı bir servise alma deneyimi için, UAT aşamasını tamamlarken aşağıdakileri göz önünde bulundurmalısınız: 
 
+- UAT işleminizin, GOLD yapılandırmanızdaki verilerin UAT işlemi başlamadan önce ortama kopyalandığı temiz ve yeni bir ortamla başlatılmasını öneririz. Yayınlanana ve ortam üretime dönüştürülene kadar üretim ortamını GOLD ortamınız olarak kullanmanızı öneririz.
 - Test çalışmaları, tüm gereksinim kapsamını kapsamalıdır. 
 - Taşınan verileri kullanarak test edin. Bu veriler çalışanlar, işler ve pozisyonlar gibi ana verileri içermelidir. Ayrıca, izin ve devamsızlık tahakkukları gibi açılış bakiyelerini de dahil edin. Son olarak, geçerli kazançlar kayıtları gibi açık işlemleri dahil edin. Veri kümesi son halinde olmasa bile, tüm veri türleriyle sınamayı tamamlayın. 
 - Kullanıcılara atanan doğru güvenlik rollerini (varsayılan roller ve özel roller) kullanarak test edin. 
 - Çözümün şirket ve sektörlere özgü düzenleme gereksinimleriyle uyumlu olduğundan emin olun. 
 - Tüm özellikleri belgeleyin ve müşterinin onayını alın. 
+
+## <a name="mock-go-live"></a>Sahte yayınlama
+
+Yayınlama işleminden önce, eski sistemlerinizden yeni sisteme geçiş için gereken adımları test etmek üzere sahte bir yayınlama işlemi gerçekleştirmeniz gerekir. Sahte yayınlama işleminizi korumalı alan ortamında gerçekleştirmeli ve tüm adımları kesin bitiş planınıza dahil etmelisiniz.
+
+- Yayınlamaya kadar üretim ortamını GOLD yapılandırma ortamı olarak kullanmanızı öneririz.
+- Üretim ortamını yayınlamadan önce yanlışlıkla yapılan işlemlerden veya güncelleştirmelerden korumak için güçlü bir yönetim sürecine sahip olduğundan emin olun.
+- UAT veya sahte yayınlama işlemi gerçekleştirmeye hazır olduğunuzda, korumalı alan ortamını üretim ortamından yenileyin. Daha fazla bilgi için bkz. [Kurulum kopyalama](hr-admin-setup-copy-instance.md).
+- Kesin bitiş planınızın her adımını korumalı alan ortamında sınayın ve ardından ortamdaki UAT komut dosyalarınızdan nokta denetimleri veya testler gerçekleştirerek korumalı alan ortamını doğrulayın.
+  - Testler, yayınlama işlemi için gereken dönüşümler de dahil olmak üzere tüm veri geçişlerini içermelidir.
+  - İşlem, herhangi bir eski sistemin uygulama kesin bitişini içermelidir.
+  - Sahte kesin bitişteki tümleştirme kesme adımlarını veya harici sistem adımlarını ekleyin.
+- Sahte kesin bitiş sırasında herhangi bir sorun bulursanız ikinci bir sahte kesin bitiş gerekebilir. Bu nedenle, proje planınızda iki sahte kesin bitiş planlamanızı öneririz.
 
 ## <a name="fasttrack-go-live-assessment"></a>FastTrack servise alma değerlendirmesi
 
@@ -91,3 +99,6 @@ Denetim listesini gönderdikten sonra, FastTrack çözüm mimarı projeyi incele
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Servise almayla ilgili SSS](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

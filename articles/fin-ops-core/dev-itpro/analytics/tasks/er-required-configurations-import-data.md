@@ -1,6 +1,6 @@
 ---
 title: ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma
-description: Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan Microsoft Dynamics 365 Finance uygulamasına verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar.
+description: Bu konuda, Microsoft Dynamics 365 Finance uygulamasına harici bir dosyadan veri aktarmak üzere Elektronik raporlama yapılandırmalarının nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0492fae6cfad505fc9fee5cd20f483c9c6d2a061
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684295"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093735"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma
 

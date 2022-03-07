@@ -2,11 +2,9 @@
 title: Sabit kıymetleri yeniden sınıflandırma
 description: Sabit kıymeti yeniden sınıflandırmak için yeni bir sabit kıymet grubuna transfer etmeniz veya kıymete aynı grup içerisinde yeni bir sabit kıymet numarası atamanız gerekir.
 author: saraschi2
-manager: AnnBe
 ms.date: 05/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4cfc1425aca7a62205e0c7c50237f206a179a0e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8935213c4629de408a48df5e54a2122324e1b3e7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968866"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823944"
 ---
 # <a name="reclassify-fixed-assets"></a>Sabit kıymetleri yeniden sınıflandırma
 
@@ -45,3 +43,6 @@ Bir sabit kıymeti yeniden sınıflandırmak için şu adımları Izleyin:
 5. **Yeniden sınıflandırma tarihi** alanına bir tarih girin.
 6. **Fiş serisi** alanına bir değer girin veya bir değer seçin.
 7. **Tamam**'a tıklayın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
 title: Maddeyi veya hammaddeyi izleme
 description: Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta olduğunu belirlemek amacıyla ürün izleme işlevinin nasıl kullanılacağını gösterir.
-author: pjacobse
-manager: tfehr
+author: yufeihuang
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: pjacobse
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 044b098b24d8cdf8008824b7ed1359f2b0566a8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c01cabf32542798f70720ab0db7d055fc54cf345
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961524"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575836"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Maddeyi veya hammaddeyi izleme
 
@@ -59,3 +57,6 @@ Ağacının en üst düğümü seçilen ürün ve toplu işe yönelik eldeki ür
 9. **Sevk edilmiş satış siparişleri**'ni tıklatın.
 10. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

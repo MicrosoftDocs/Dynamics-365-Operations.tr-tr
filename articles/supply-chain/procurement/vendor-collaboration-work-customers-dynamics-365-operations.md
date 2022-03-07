@@ -2,40 +2,36 @@
 title: Müşterilerle satıcı işbirliği
 description: Bu konu, PO'lar ile çalışmak ve konsinye stoku görüntülemek için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır.
 author: TaylorVH
-manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
-ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654352"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022986"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı işbirliği
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta müşterilerle çalışmak için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır. Satıcılar bir dizi iş sürecini aşağıdaki çalışma alanlarından gerçekleştirebilir:
 
 - **Satınalma siparişi teyidi** – Satınalma siparişlerini (PO) izleyin ve yanıtlayın.
 - **Satıcı teklifi** - Teklif taleplerini (RFQ) görüntüleyin ve tekliflere girerek yanıt verin.
 - **Satıcı bilgileri** – Satıcı ana verilerini görüntüleyin ve güncelleştirin.
-- **Faturalama** – Faturalar ile çalışın. Bu konu **Faturalama** çalışma alanını kapsamaz. Bu çalışma alanı hakkında daha fazla bilgi için bkz. [Satıcı işbirliği faturalama çalışma alanı](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Faturalama** – Faturalar ile çalışın. Bu konu **Faturalama** çalışma alanını kapsamaz. Bu çalışma alanı hakkında daha fazla bilgi için bkz. [Satıcı işbirliği faturalama çalışma alanı](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Satıcılar konsinye stok bilgilerini de izleyebilir.
 
@@ -82,7 +78,7 @@ Konsinye stok kullanıyorsanız aşağıdaki sayfalarda bilgileri görüntülem
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Satıcı teklifi çalışma alanında RFQ'larla çalışma
 
-**Satıcı teklifi** çalışma alanı, kuruluşunuzun yanıt vermek üzere davet edildiği teklif taleplerini (RFQ'lar) görmenizi sağlar. RFQ'lara yanıt da verebilirsiniz. 
+**Satıcı teklifi** çalışma alanı, kuruluşunuzun yanıt vermek üzere davet edildiği teklif taleplerini (RFQ'lar) görmenizi sağlar. RFQ'lara yanıt da verebilirsiniz.
 
 Çalışma alanı ayrıca kazanmış veya kaybetmiş olduğunuz tüm RFQ'ları gösterir. Ayrıca, sistem kamu sektörü için yapılandırılmışsa, çalışma alanı genel kullanıma açık olan RFQ'ları gösterir.
 
@@ -104,16 +100,24 @@ Kamu sektöründe çalışan bir kişi, genele açık olarak sunulan açık ve s
 
 - Genele sunulan açık RFQ'ların listesini görmek için **Açık yayımlanan teklif talepleri** bağlantısını seçin. Açık bir RFQ henüz süresi dolmamış olan bir RFQ'dur. Bitiş tarihini ve saatini RFQ başlığında görebilirsiniz.
 
-    Teklif vermek üzere davet edildiyseniz, aynı RFQ'yu **Yeni teklif davetleri** sayfasında da görebilirsiniz. Bazı durumlarda, açık olan ancak teklif vermek üzere davet edilmediğiniz bir RFQ için teklif vermek isteyebilirsiniz. Bu durumda, müşterinin RFQ servis talebi için kendi kendine daveti etkinleştirilmiş olması durumunda kendi kendinizi davet edebilirsiniz.
+    Teklif vermek üzere davet edildiyseniz, aynı RFQ'yu **Yeni teklif davetleri** sayfasında da görebilirsiniz. Bazı durumlarda, açık olan ancak teklif vermek üzere davet edilmediğiniz bir RFQ için teklif vermek isteyebilirsiniz. Bu durumda, müşterinin RFQ servis talebi için kendi kendine daveti etkinleştirilmiş olması durumunda kendi kendinizi davet edebilirsiniz. 
 
-    **"Yayımlanmış teklif isteklerini aç" bağlantısını bir döşeme özelliği olarak görüntüle** özelliğini açarak **Yayımlanmış teklif isteklerini aç** bağlantısının erişilebilirliğini geliştirin. Bu özellik, bağlantıyı döşemeye dönüştürür ve kolayca bulunması için belirgin bir konuma taşır.
+    **Yeni teklif davetleri** sayfası, açık RFQ'ları görüntülemenizi ve onaylanan tedarik kategorilerinize uygun satırları tanımlamayı sağlayan bir filtre sunabilir. Bu filtreyi kullanılabilir hale getirmek için sisteminizde *Satıcıların tedarik kategorisine göre RFQ aramasına izin ver* özelliğini etkinleştirmeniz gerekir. Yöneticiler bu özellik durumunu denetlemek ve gerekirse etkinleştirmek için **Özellik yönetimi** çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+
+    - **Modül:** *Borç hesapları*
+    - **Özellik adı:** *Satıcıların tedarik kategorisine göre RFQ aramasına izin ver* <!-- KFM: I don't see this here, is this right? -->
+
+    *"Yayımlanmış teklif isteklerini aç" bağlantısını bir döşeme özelliği olarak görüntüle* özelliğini açarak **Yayımlanmış teklif isteklerini aç** bağlantısının erişilebilirliğini geliştirebilirsiniz. Bu özellik, bağlantıyı döşemeye dönüştürür ve kolayca bulunması için belirgin bir konuma taşır. Yöneticiler bu özellik durumunu denetlemek ve gerekirse etkinleştirmek için **Özellik yönetimi** çalışma alanını kullanabilir. (Supply Chain Management sürüm 10.0.21 itibarıyla, özellik varsayılan olarak açıktır.) Burada, özellik aşağıdaki şekilde listelenmiştir:
+
+    - **Modül:** *Satınalma ve kaynaklandırma*
+    - **Özellik adı:** *"Yayımlanmış teklif taleplerini aç" bağlantısını kutucuk olarak görüntüle*
 
 - Genele sunulan kapalı RFQ'ların listesini görmek için **Kapalı yayımlanan teklif talepleri** bağlantısını seçin. Kapalı bir RFQ süresi dolmuş bir RFQ'dur. Bitiş tarihini ve saatini RFQ başlığında görebilirsiniz.
 
     Kapalı bir RFQ satır düzeyinde tüm satıcı tekliflerini gösterir. Teklifler kabul ve reddedildiğinden, bu bilgi kapalı RFQ'da gösterilir. Teklife dahil edilen tüm ekler de kullanılabilir.
 
 > [!NOTE]
-> Bu işlev yalnızca Kamu Sektörü yapılandırması etkinse kullanılabilir.
+> Bu işlev yalnızca kamu sektörü yapılandırması etkinse kullanılabilir.
 
 ### <a name="bidding"></a>Teklif verme
 
@@ -147,3 +151,6 @@ Erişilebilir bilgiler şunlardır: satıcı adı, adresleri, iletişim bilgiler
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

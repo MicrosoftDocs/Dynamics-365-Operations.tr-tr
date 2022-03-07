@@ -2,11 +2,9 @@
 title: Satır maddesi iş akışlarını yapılandırma
 description: Bu konu, bir satır maddesi iş akışı öğesinin nasıl yapılandırılacağını açıklar.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c19693151399fc02ea9562757af7fc24124c9b6c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 11a3ff7d8d952bf0599ad9a38f21ffbb9e9dafa651a1bb32830b8fafaf42ecaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754966"
 ---
 # <a name="configure-line-item-workflows"></a>Satır maddesi iş akışlarını yapılandırma
 
@@ -54,3 +52,6 @@ Aynı iş akışının bir belgedeki tüm satır maddelerini işlemek için kull
     6. Girdiğiniz koşul kümesinin doğru biçimde yapılandırıldığını doğrulamak için, **Sına**'ya tıklayın. **Sınama iş akışı koşulu** sayfasında, **Koşulu doğrula** alanında, bir kayıt seçin ve ardından **Sına**'ya tıklayın. Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir. **Özellikler** sayfasında geri dönmek için **OK** ya da **İptal Et**'e tıklayın.
 
     **İş akışı** sekmesinde tanımladığınız koşul kümesini karşılayan satır maddelerini işlemek için kullanılacak iş akışını seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

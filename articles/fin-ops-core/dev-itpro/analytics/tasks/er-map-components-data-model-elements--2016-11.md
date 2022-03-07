@@ -1,12 +1,10 @@
 ---
 title: ER Oluşturulan biçimin bileşenlerini veri modeli öğeleri ile eşleme (Kasım 2016)
-description: Aşağıdaki yordam, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının, veri modeli öğelerini ödemeler iş etki alanı için bir elektronik dosya biçimini tanımlayan, oluşturulmuş Elektronik raporlama (ER) yapılandırmasının bileşenlerine nasıl eşleyebileceğini gösterir.
+description: Bu konuda, veri modeli öğelerinin oluşturulan Elektronik raporlama (ER) yapılandırmasının bileşenleriyle nasıl eşleneceği açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7ae4b3123660d123fc5c06cbe0a69d5c66d306252ec2a117a1e6045505022f5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776012"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Oluşturulan biçimin bileşenlerini veri modeli öğeleri ile eşleme (Kasım 2016)
 
@@ -113,3 +111,6 @@ Her biçimi sürümü belirli bir tarihten itibaren kullanılabilecek şekilde y
 1. ISO Ülke/bölge kodları bölümünü genişletin.
     * Her biçim erişimi, biçimin geçerli olacağı ülke/bölgeleri tanımlayarak kısıtlanabilir. Belirli biçim için ülkeler/bölgeler listesi boş olduğunda, bu biçim herhangi bir şirkette kullanılabilir. Bazı ISO ülke/bölge kodları ülkeler/bölgeler listesine eklendiğinde, bu biçim yalnızca birincil adresi ülke/bölge listesinde olan şirketlerde kullanılabilir.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

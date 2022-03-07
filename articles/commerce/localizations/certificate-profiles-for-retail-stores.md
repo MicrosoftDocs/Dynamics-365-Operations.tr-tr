@@ -2,11 +2,9 @@
 title: Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
 description: Bu konu, perakende mağazalarında sertifikaların nasıl kullanıldılarıyla ilgili genel bir bakış sağlar.
 author: josaw
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719942"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
 
@@ -81,20 +79,20 @@ Sertifika profili satırları için **Ayarlar**'ı seçtiğinizde, **Sertifika p
 - **Key Vault sertifikası** – Bu alan, **Konum türü** alanını **Key Vault** olarak ayarlarsanız gereklidir. Key Vault sertifikası gizli anahtarı belirtmek için bunu kullanın.
 
     > [!NOTE]
-    > Sertifika profillerinde Key Vault sertifikası kullanmadan önce, anahtar kasası depolama alanına bir sertifika yüklediğinizden emin olun ve [Azure Key Vault istemcisini ayarlama ](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client) yönergelerini izleyin.
+    > Sertifika profillerinde Key Vault sertifikası kullanmadan önce, anahtar kasası depolama alanına bir sertifika yüklediğinizden emin olun ve [Azure Key Vault istemcisini ayarlama ](../../finance/localizations/setting-up-azure-key-vault-client.md) yönergelerini izleyin.
 
 - **Mağaza adı** – Bu alan isteğe bağlıdır ve yalnızca **Konum türü** alanını **Yerel sertifika** olarak ayarladığınızda kullanılabilir. Yerel sertifikaları aramak için kullanılacak varsayılan bir mağaza adı belirtmek için bunu kullanın.
 - **Mağaza konumu** – Bu alan isteğe bağlıdır ve yalnızca **Konum türü** alanını **Yerel sertifika** olarak ayarladığınızda kullanılabilir. Yerel sertifikaları aramak için kullanılacak varsayılan bir mağaza konumu belirtmek için bunu kullanın.
 
     > [!NOTE]
-    > Varsayılan mağaza adı ve mağaza konumu, Commerce Runtime içindeki yerel sertifikaları arama işlemini kolaylaştırmak için eklenir. X509StoreProvider, sertifikaların depolandığı klasörlerin listesine sahiptir. Varsayılan mağaza adı ve varsayılan mağaza konumu belirtilmezse, X509StoreProvider kendi listesindeki diğer klasörlerde bir sertifika bulmaya çalışır.
+    > Varsayılan mağaza adı ve mağaza konumu, Commerce runtime içindeki yerel sertifikaları arama işlemini kolaylaştırmak için eklenir. X509StoreProvider, sertifikaların depolandığı klasörlerin listesine sahiptir. Varsayılan mağaza adı ve varsayılan mağaza konumu belirtilmezse, X509StoreProvider kendi listesindeki diğer klasörlerde bir sertifika bulmaya çalışır.
 
 - **Parmak izi** – Bu alan gereklidir ve yalnızca **Konum türü** alanını **Yerel sertifika** olarak ayarladığınızda kullanılabilir. Sertifika parmak izini belirtmek için bunu kullanın.
 - **Açıklamalar** – Bu alan isteğe bağlıdır ve kullanıcıların not girmesine izin verir.
 
-### <a name="workflow-searching-certificates-in-the-commerce-runtime"></a>İş akışı: Commerce Runtime'da sertifikaları arama
+### <a name="workflow-searching-certificates-in-the-commerce-runtime"></a>İş akışı: Commerce runtime'da sertifikaları arama
 
-Burada, Commerce Runtime içinde bir sertifika profili çağrıldığında bir sertifikayı aramak için kullanılan temel iş akışı verilmektedir.
+Burada, Commerce runtime içinde bir sertifika profili çağrıldığında bir sertifikayı aramak için kullanılan temel iş akışı verilmektedir.
 
 1. Sistem, sertifika profilinin geçerli tüzel kişilik için şirkete özel ayarlar içerip içermediğini tanımlar.
 1. Sistem, **Öncelik** alanının **1** olarak ayarlandığı satır için **Sertifika profili ayarları** sayfasındaki değerleri kullanarak sertifikayı bulmaya çalışır.
@@ -120,4 +118,7 @@ Sertifikanın yeni bir sürümü tanıtılırsa ancak aynı anda tüm mağazalar
 1. Yeni satırın **Öncelik** değerini artırın. Satırı, aynı sertifikanın önceki sürümünün satırı üzerinde olacak şekilde taşımak için **Yukarı taşı** düğmesini kullanın.
 
 > [!NOTE]
-> Commerce Runtime'da ilk olarak sertifikanın yeni sürümü çağırılır. Sertifika henüz belirli bir mağazada veya belirli bir terminalde güncelleştirilmediyse, önceki sürüm çağrılır.
+> Commerce runtime'da ilk olarak sertifikanın yeni sürümü çağırılır. Sertifika henüz belirli bir mağazada veya belirli bir terminalde güncelleştirilmediyse, önceki sürüm çağrılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

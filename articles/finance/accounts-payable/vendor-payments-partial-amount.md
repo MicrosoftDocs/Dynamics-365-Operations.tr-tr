@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd7b7092e0d0baf48a805bbb0cefb0eb77e49946c6dbc44c9f954781ca1259e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777252"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841225"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Bir kısmi tutar için satıcı ödemeleri
 
@@ -28,7 +28,8 @@ ms.locfileid: "6777252"
 
 Bazen, bir satıcıya bir fatura tutarından daha az ödeme yapabilirsiniz. Bu makalede, bu durumu çözmeye yönelik çeşitli seçenekler açıklanmaktadır. Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır. 
 
-## <a name="cash-discount-amounts"></a>Nakit iskontosu tutarları
+<a name="cash-discount-amounts"></a>Nakit iskontosu tutarları
+---------------------
 
 Bir satıcı fatura vade tarihinden önce ödeme yapmanız durumunda size bir nakit iskontosu sunabilir. Örneğin, faturanın 10 gün içinde ödenmesi durumunda yüzde 2 nakit indirimi belirten, 100,00 değerinde bir fatura girebilirsiniz. Vade dönemi 30 gündür. Bir ödeme teklifi, bir faturanın seçiminde ölçüt olarak nakit iskontosu kullanıyorsa ve teklif nakit iskontosu tarihinde veya öncesinde çalışıyorsa, fatura ödeme için seçilir ve 98.00 için ödeme oluşturulur. Bir nakit iskontosu el ile oluşturulan özel bir ödeme için de alınabilir.
 

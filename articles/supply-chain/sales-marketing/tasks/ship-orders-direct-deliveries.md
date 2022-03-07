@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 496cbe562234efa981d97b0893a47340381fbdfd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966117"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205917"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Siparişleri doğrudan teslim olarak sevk etme
 
@@ -81,3 +81,6 @@ Bu konu, satış siparişi için bir doğrudan teslimat oluşturmayı göstermek
     - Doğrudan teslimat sayfası, satınalma aracısına doğrudan teslim edilecek tüm satış siparişi satırlarına yönelik genel bakış sağlayan bir çalışma ekranı olarak iş görür ve bunlara ilgili satınalma siparişlerini oluşturulma imkanı sağlar. Ayrıca, bunlar Onay ve Teslimat sekmelerinde açık doğrudan teslimat siparişlerini ve doğrulanan siparişleri görüntüleyebilir.  
     - Bir doğrudan teslimat siparişi oluşturduktan sonra, bu otomatik olarak Onay sekmesine gönderilir. Doğrudan bu sayfadan siparişi onaylamayı seçebilirsiniz. Satınalma onaylandığında, girişini kaydettirdiğiniz Teslimat sekmesine otomatik olarak taşınır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

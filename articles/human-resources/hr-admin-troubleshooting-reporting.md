@@ -1,32 +1,34 @@
 ---
 title: Raporlama seçenekleri
-description: Bu konu, bir müşteri Microsoft Dynamics 365 Human Resources raporlarını özelleştirmek istediğinde veya yeni raporlar oluşturmak istediğinde ortaya çıkan sorunun nasıl çözüleceğini açıklar.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Bu konuda, Microsoft Dynamics 365 Human Resources raporlarının nasıl özelleştirileceği veya yeni raporların nasıl oluşturulacağı açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51d84df5c3c29510e2742148b8c260a2cf402639
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 3c82f3d4f040f680cab68228f1aa8ab16f548961
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527729"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069083"
 ---
 # <a name="reporting-options"></a>Raporlama seçenekleri
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 **Ortam ayrıntıları**
 
@@ -42,10 +44,13 @@ Kullanıcı, katıştırılmış Microsoft Power BI raporlarını özelleştirem
 
 **Çözüm**
 
-- Common Data Service'e akan İnsan Kaynakları verileri, Power Apps Common Data Service bağlayıcısı aracılığıyla Power BI Desktop'a raporlanabilir. Common Data Service'in, İnsan Kaynakları verisinin bir alt kümesini içerdiğini unutmayın. Power BI ve panolar hakkında daha fazla bilgi için bkz. [Power BI raporlarını ve panolarını Power Apps Common Data Service ile oluşturma](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- Dataverse'e akan İnsan Kaynakları verileri, Power Apps Dataverse bağlayıcısı aracılığıyla Power BI Desktop'a raporlanabilir. Dataverse'in, İnsan Kaynakları verisinin bir alt kümesini içerdiğini unutmayın. Power BI ve panolar hakkında daha fazla bilgi için bkz. [Power BI raporlarını ve panolarını Power Apps Common Data Service ile oluşturma](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - Elektronik raporlama (ER), İnsan Kaynakları içindeki bazı raporlar için kullanılabilir. Müşteri odaklı özelleştirmeler, ER yapılandırma seçenekleri aracılığıyla yapılabilir.
 - Veri, Microsoft Excel veya Microsoft Word'e, İnsan Kaynakları'nın Microsoft Office tümleştirmesi aracılığıyla sunduğu çeşitli veri varlıkları kullanılarak dışa aktarılabilir.
 
 **Uzun vadeli çözüm**
 
-Ek Power BI seçenekleri kullanılabilir olacaktır ve daha fazla veri ve varlık Common Data Service'in parçası olacaktır.
+Ek Power BI seçenekleri kullanılabilir olacaktır ve daha fazla veri ve varlık Dataverse'in parçası olacaktır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: Nakit yönetimi iyileştirmeleri
 description: Bu konu, Dynamics 365 Commerce için POS içindeki nakit yönetimi iyileştirmelerini açıklar.
 author: anpurush
-manager: AnnBe
 ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f878f39e8e9913edbe1da192e199090139a88adb6b7ed9a1e9b779c5748171b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416391"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735666"
 ---
 # <a name="cash-management-improvements"></a>Nakit yönetimi iyileştirmeleri
 
@@ -62,3 +59,6 @@ Retail sürüm 10.0.3 ve sonrasında, nakit hareketleriyle ilgili aşağıdaki y
 - Mutabakat sırasında, seçilen hareket dengelenmemiş ise, kullanıcı, dengesiz mutabakat için neden açıklaması girmelidir. Kullanıcılar tek bir hareketi seçip gereken neden açıklamasıyla mutabakat yapabilirler.
 - Kullanıcılar, vardiya kapatılıncaya kadar hareketlerin mutabakatını ve mutabakatlaştıralmaya devam edebilir. Bir vardiya kapatıldıktan sonra hareketler mutabakat geri alınamaz.
 - Kullanıcı vardiyayı kapatmayı seçtiğinde, Commerce, vardiyada hiçbir mutabakat sağlanmamış nakit yönetimi hareketi olmadığını doğrular. Mutabakatı yapılmamış hareketler varsa kullanıcılar bir vardiyayı kapatamaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,35 +2,30 @@
 title: Kanallar arası paylaşımı etkinleştirme ve kullanma
 description: Bu konuda, Microsoft Dynamics 365 Commerce site oluşturucunun çapraz kanal paylaşımı özelliğinin nasıl etkinleştirileceği ve kullanılacağı açıklanmaktadır.
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4416555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742428"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Kanallar arası paylaşımı etkinleştirme ve kullanma
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce site oluşturucunun çapraz kanal paylaşımı özelliğinin nasıl etkinleştirileceği ve kullanılacağı açıklanmaktadır.
-
-## <a name="overview"></a>Genel bakış
 
 Kanallar arası paylaşım, perakendecilere bir sitenin çoklu kanalları arasında içeriği yeniden kullanma ve paylaşma olanağı sağlar. Bu özellik, site kanallarının uyumlu bir temel dili olduğunda veya ortak olarak çok sayıda içerik öğesi olduğunda yararlıdır.
 
@@ -53,15 +48,15 @@ Commerce site oluşturucuda kanallar arası paylaşımı etkinleştirmek için a
 1. **Site ayarları \> Özellikler**'e gidin.
 1. **Çapraz Kanal** özelliğini **Açık** olarak ayarlayın.
 
-    ![Commerce Site Builder'da Çapraz Kanal seçeneği açık olarak ayarlandı](./media/enabling-cross-channel-sharing.png)
+    ![Commerce site oluşturucuda Açık olarak ayarlanan Çapraz Kanal seçeneği.](./media/enabling-cross-channel-sharing.png)
 
 Kanallar arası paylaşımı etkinleştirdikten sonra, çapraz kanal bilgileri aşağıdaki örneklemede görüldüğü gibi, **Site ayarları \> Özellikler** konumundaki **Kanallar** bölümünde görünür.
 
-![Kanallar arası paylaşım etkinleştirildikten sonra görünür olan kanal bilgileri](./media/channels-cross-channel.png)
+![Kanallar arası paylaşım etkinleştirildikten sonra görünür olan kanal bilgileri.](./media/channels-cross-channel.png)
 
 Ek olarak, kanallar arası paylaşımı etkinleştirdikten sonra, Commerce site oluşturucunun sağ üst tarafındaki **Kanal** alanı çapraz kanal içeriğini aşağıdaki örnekte gösterildiği şekilde yönetebileceğiniz **Çapraz Kanal Çevrimiçi Mağaza** seçeneğini içerir.
 
-![Kanallar arası paylaşım etkinleştirildikten sonra Kanallar alanındaki Çapraz Kanal Çevrimiçi Mağaza seçeneği](./media/cross-channel-dropdown.png)
+![Kanallar arası paylaşım etkinleştirildikten sonra Kanallar alanındaki Çapraz Kanal Çevrimiçi Mağaza seçeneği.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Çapraz kanal içeriği oluşturma ve kullanma
 
@@ -137,3 +132,6 @@ Commerce site oluşturucuda çapraz kanal içeriğinin kanala özel sürümünü
 [Belge durumları ve yaşam döngüsü](document-states-overview.md)
 
 [Yayımlama gruplarıyla çalışma](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,28 +1,25 @@
 ---
 title: Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma
 description: Bu konu bir mobil cihazdan kısmi rezerve edilmiş transfer emirlerini toplu serbest bırakmanın nasıl ayarlanacağını ve uygulanacağını açıklamaktadır.
-author: pjacobse
-manager: tfehr
+author: perlynne
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSFulfillmentPolicy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fbe12b66da68bcd130fdb188eb0106b686200c3b59edc2af96b79f65022567a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439661"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759394"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma
 
@@ -64,3 +61,6 @@ Bir toplu iş, siparişleri bir ambara toplu olarak serbest bırakmakta kullanı
 -   Transfer siparişleri için **Miktar** ve **Kısmi serbest bırakılmış siparişlerin serbest bırakılmasına izin ver** parametrelerini ayarlamak için **Ambar yönetimi** \> **Ambara serbest bırak** \> **Transfer siparişlerinin otomatik serbest bırakması** üzerine tıklayın.
 
 -   Satış siparişleri için **Miktar** ve **Kısmi serbest bırakılmış siparişlerin serbest bırakılmasına izin ver** parametrelerini ayarlamak için **Ambar yönetimi** \> **Ambara serbest bırak** \> **Satış siparişlerinin otomatik serbest bırakması** üzerine tıklayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

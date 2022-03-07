@@ -2,11 +2,9 @@
 title: Üretim emri maliyet tahmini
 description: Bu makalede, üretim maliyet tahmini hakkında bilgiler verilmektedir. Üretim maliyeti tahmini, bir maddeyi planlanan üretim emri miktarında üretmek için gereken tahmini malzeme ve kapasite tüketim maliyetlerini sağlar.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcTrans, InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53f54c64b1c78e7385f0fde5ad1023c5b4e0af4f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5debf62a3a0fc3ae8828473d7dd593c690e298712e5ed696077db1562796943
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724928"
 ---
 # <a name="production-order-cost-estimation"></a>Üretim emri maliyet tahmini
 
@@ -64,3 +62,6 @@ Maliyet tahmini, aşağıdaki bilgileri de sağlar:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

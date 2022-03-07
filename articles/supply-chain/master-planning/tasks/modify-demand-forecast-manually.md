@@ -2,26 +2,23 @@
 title: Talep tahminini el ile değiştirme
 description: Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 105cf50698889e81804155cdac3a8b484cbf87d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 518a49441a9d73d9da5ab90400e0b7482692d374
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439130"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829678"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Talep tahminini el ile değiştirme
 
@@ -43,3 +40,6 @@ Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir
 1. Microsoft Office içinde **Aç** üzerine tıklayın.
 2. **Tahmin talebini düzenle**'yi Excel'de tıklatın. Excel'de talep tahmin satırlarını ekleyebilir, silebilir ve düzenleyebilirsiniz. Excel'deki verileri göremiyorsanız "Oturumumu açık tut" seçeneği etkin olarak oturum açmanız ve veri bağlantısı uygulamasına güvenmeniz gerekir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

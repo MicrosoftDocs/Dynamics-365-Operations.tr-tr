@@ -2,11 +2,9 @@
 title: Özel alanlar
 description: Dynamics 365 Human Resources'taki sayfalara özel alanlar ekleyebilirsiniz.
 author: andreabichsel
-manager: AnnBe
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,25 +16,29 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 583e29d9b0bae34ffc2f519bb775b9e099682fe0
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: c232955873706bcceb6c685527a0dd92b129e543
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529566"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893436"
 ---
 # <a name="custom-fields"></a>Özel alanlar
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources'taki sayfalara özel alanlar ekleyebilirsiniz. Özel alanlar oluşturma hakkında daha fazla bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
+Dynamics 365 Human Resources'taki sayfalara özel alanlar ekleyebilirsiniz. Özel alanlar oluşturma hakkında daha fazla bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 
-Çoğu Common Data Service varlığı özel alanları destekler. Common Data Service varlıklarının tam listesi için bkz. [Common Data Service varlıkları](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
+Çoğu Dataverse tablosu özel alanları destekler. Dataverse tablolarının tam listesi için bkz. [Dataverse tabloları](./hr-developer-entities.md). 
 
-Oluşturduğunuz tüm özel alanları Common Data Service uygulamasında kullanabilmeniz için etkinleştirdiğinizden emin olun. Daha fazla bilgi için, bkz. [Veri varlıklarında özel alanlara maruz kalma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
+Oluşturduğunuz tüm özel alanları Dataverse uygulamasında kullanabilmeniz için etkinleştirdiğinizden emin olun. Daha fazla bilgi için, bkz. [Veri varlıklarında özel alanlara maruz kalma](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Common Data Service varlıkları](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
-[Özel alanlar oluşturma ve bunlarla çalışma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
-[Özel alanları veri varlıklarında görüntüleme](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+[Dataverse tabloları](./hr-developer-entities.md)</br>
+[Özel alanlar oluşturma ve bunlarla çalışma](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[Özel alanları veri varlıklarında görüntüleme](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

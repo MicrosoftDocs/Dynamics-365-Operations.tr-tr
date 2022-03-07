@@ -1,12 +1,10 @@
 ---
 title: Maliyet muhasebesi analizi Power BI içeriği
-description: Bu konu, Power BI Maliyet muhasebesi analizinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+description: Bu konu, Power BI Maliyet muhasebesi analizinde nelerin bulunduğunu açıklar.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747381"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Maliyet muhasebesi analizi Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Maliyet muhasebesi analizinde** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu konu, **Maliyet muhasebesi analizi** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="overview"></a>Genel bakış
 
@@ -42,7 +40,7 @@ Maliyet muhasebesi hakkında daha fazla bilgi için bkz: [Maliyet muhasebesi gir
 Maliyet muhasebesi erişim seviyesi güvenliğini tanımlayarak ve bunu satır düzeyi güvenlik ile Power BI içerisinde birleştirerek tüm maliyet öğesi sahiplerine **Maliyet muhasebesi analizi** Power BI içeriğine erişim sağlayabilirsiniz. Görsellerdeki tüm veri daha sonra Maliyet muhasebesi içinde denetlenen erişim seviyesinde filtrelenir. Erişim düzeyi güvenliği ve satır düzeyi güvenliği hakkında daha fazla bilgi için bkz. [Maliyet muhasebesi analizi Power BI içeriğinin güvenliğini ayarlama](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
-**Maliyet muhasebesi analizi** Power BI içeriğini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+**Maliyet muhasebesi analizi** Power BI içeriğini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Kullanmakta olduğunuz Microsoft Dynamics 365 sürümü için geçerli **Maliyet muhasebesi analizi** içeriğini indirdiğinizden emin olun.
 
@@ -123,3 +121,6 @@ Aşağıdaki anahtar boyutlar, daha büyük hassasiyet elde etmek ve daha derin 
 | Mali takvimler                   | Takvim, Takvim açıklaması                                                                                       |
 | Mali yıllar                       | Takvim yılı                                                                                                        |
 | Mali dönemler                     | Takvim yılı dönemi                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

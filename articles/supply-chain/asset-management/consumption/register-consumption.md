@@ -1,12 +1,10 @@
 ---
 title: Tüketimi kaydetme
 description: Bu konuda Varlık Yönetimi'nde tüketimi kaydetme işlemi açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765597"
 ---
 # <a name="register-consumption"></a>Tüketimi kaydetme
 
@@ -56,7 +54,7 @@ Bazı durumlarda, bir iş emrine tahmin satırları ekleyebilir veya silebilirsi
 
 Aşağıdaki ekran görüntüsü, **İş emri günlüklerindeki** bir iş emrindeki bir saat ve madde kaydı örneğini gösterir.
 
-![Şekil 1](media/01-consumption.png)
+![Şekil 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Birkaç iş emri işine sahip iş emirlerindeki saatleri bölme
@@ -75,13 +73,13 @@ Bir iş emri birkaç iş emri işi içeriyorsa, iş saatlerini **Saatleri böl**
 
 6. **Saatler** alanına bölünecek çalışma saatleri sayısını ekleyin.
 
-    ![Şekil 2](media/02-consumption.png)
+    ![Şekil 2.](media/02-consumption.png)
 
 7. **Tamam**'a tıklayın.
 
 *Örnek:* Aşağıdaki ekran görüntüsünde, üç iş emri işi içeren bir iş emrine ait günlük satırları gösterilir. Üç iş saati içeren ilk satır bölünmüştür ve her bir iş emri işine bir saat kaydedilir. Üç saat kayıt satırı oluşturulduktan sonra, orijinal saat kayıt satırı (örnekteki ilk satır) ile ne yapılacağına karar verirsiniz. Olduğu gibi tutabilir veya silebilirsiniz. 
 
-![Şekil 3](media/03-consumption.png)
+![Şekil 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Tüketim kayıtlarında mali boyutlar
 
@@ -94,3 +92,6 @@ Tüketim kayıtları yaptığınızda, farklı kayıt türleriyle ilgili mali bo
 >[!NOTE]
 >Üç kayıt türü için, mali boyut birleşimi doğrulanır ve geçersiz birleşimler boş bırakılır. Bu, diğer Finance and Operations uygulamalarıyla birlikte standart kurulumdur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -6,7 +6,6 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
@@ -14,22 +13,22 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ed7ac72d47d5efd60b8a705e7ab0fa7e4edd96a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 503febd81b1546426e4024f88a40c1f08834f46f
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416517"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402139"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>Dynamics 365 Commerce öğrenme kataloğu 
 
 Dynamics 365 Commerce uygulamalarının bir kullanıcısı olarak rolünüz için doğru çevrimiçi eğitimi, kişi workshops ve olayları bulun.
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### <a name="business-and-technical-decision-makers"></a>İş ve Teknik Karar Vericiler
 
@@ -141,3 +140,6 @@ Dynamics 365 Commerce uygulamalarının bir kullanıcısı olarak rolünüz içi
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

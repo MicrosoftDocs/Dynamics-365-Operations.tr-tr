@@ -2,11 +2,9 @@
 title: Stok nesnesi değerleri
 description: Bu makalede, stok nesnesi değerlerinin nasıl hesaplandığı hakkında bilgiler verilmektedir.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 914c7e8c757664ec791b46924600b74c9c979e8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6564df5bd9c768f647138714875c60ddd6df3c85
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967445"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568963"
 ---
 # <a name="inventory-object-values"></a>Stok nesnesi değerleri
 
@@ -46,7 +44,7 @@ Aşağıdaki örnekler, bir stok nesnesinin ve maliyet nesnesinin değerlerinin 
 
 Aşağıdaki tabloda, bir maliyet nesnesi için yapılan hesaplamanın sonucu gösteriliyor. Sonucu **Maliyet nesnesi** sayfasında görüntüleyebilirsiniz.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />
@@ -82,7 +80,7 @@ Aşağıdaki tabloda, bir maliyet nesnesi için yapılan hesaplamanın sonucu g�
 
 Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu gösteriliyor. **Maliyet nesnesi** sayfasındaki **Fiziksel miktar**'a tıklayarak sonucu görüntüleyebilirsiniz.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="11%" />
 <col width="11%" />
@@ -135,14 +133,16 @@ Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu göst
 
 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Maliyet nesneleri](cost-object.md)
 
 [Maliyet girişleri](cost-entries.md)
 
-[Yenilikler ve değişiklikler](../../fin-and-ops/get-started/whats-new-changed.md)
+[Yenilikler ve değişiklikler](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

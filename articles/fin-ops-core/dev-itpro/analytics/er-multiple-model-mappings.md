@@ -2,6 +2,7 @@
 title: Tek bir model kökü için türetilmiş eşlemeleri yönetme
 description: Bu konuda, tek bir model kökü için yapılandırılmış birden fazla türetilmiş eşlemenin nasıl yönetileceği açıklanmaktadır.
 author: NickSelin
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
@@ -13,20 +14,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: bb4fcda42361b0f14e37027d21739dfc42b44cb1
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324124"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565503"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Tek bir model kökü için türetilmiş eşlemeleri yönetme
 
 [!include [banner](../includes/banner.md)]
 
-[Elektronik raporlama (ER)](general-electronic-reporting.md) veri modeli bileşeni, giden belgeler oluşturmak için her yapılandırılmış ER biçimi bileşeninde veri kaynağı olarak kullanılır. Tek bir işletme etki alanını açıklamak için, birçok kök tanımına sahip bir veri modeli bileşeni yapılandırın. 
+[Elektronik raporlama (ER)](general-electronic-reporting.md) veri [modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni, giden belgeler oluşturmak için her yapılandırılmış ER [biçimi](general-electronic-reporting.md#FormatComponentOutbound) bileşeninde veri kaynağı olarak kullanılır. Tek bir işletme etki alanını açıklamak için, birçok kök tanımına sahip bir veri modeli bileşeni yapılandırın. 
 
-Her kök tanımı, söz konusu etki alanının verilerini belirli bir raporlama amacına en uygun şekilde göstermenize olanak sağlar. Her kök tanımı için, bir ER model eşleme bileşenini veri modelinizin Microsoft Dynamics 365 Finance'a özgü uygulaması olarak yapılandırabilirsiniz. Bu şekilde, veri modelinizin çalışma zamanında nasıl doldurulacağını açıklarsınız.
+Her kök tanımı, söz konusu etki alanının verilerini belirli bir raporlama amacına en uygun şekilde göstermenize olanak sağlar. Her kök tanımı için, bir ER [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşenini veri modelinizin Microsoft Dynamics 365 Finance'e özgü uygulaması olarak yapılandırabilirsiniz. Bu şekilde, veri modelinizin çalışma zamanında nasıl doldurulacağını açıklarsınız.
 
 ER model eşleme bileşenleri ER veri modeli [yapılandırmalarında](general-electronic-reporting.md#Configuration) ve ER model eşleme yapılandırmalarında bulunabilir. Tek bir ER yapılandırması, her biri tek bir kök tanımı için yapılandırılan birçok eşleme bileşeni içerebilir. Alternatif olarak, tek bir ER yapılandırması tek bir kök tanımı için yapılandırılan yalnızca tek bir eşleme bileşeni içerebilir.
 
@@ -55,7 +56,7 @@ Geçerli Finance kurulumunuza standart ER yapılandırmalarını eklemek için b
 2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** kutucuğunu seçin.
 3. **Yapılandırmalar** sayfasında sol bölmedeki yapılandırma ağacında, **Fatura modeli**'ni genişletin.
 
-    ![Yapılandırmalar sayfasında içeri aktarılan yapılandırmaları inceleme.](./media/er-multiple-model-mappings-image1.png)
+    ![Yapılandırmalar sayfasında içeri aktarılan yapılandırmaları inceleme](./media/er-multiple-model-mappings-image1.png)
 
 4. **Serbest metin faturası (Excel)** biçimin inceleyin:
 
@@ -66,7 +67,7 @@ Geçerli Finance kurulumunuza standart ER yapılandırmalarını eklemek için b
     
        Geçerli ER biçimi, **Fatura modelinin** **InvoiceCustomer** kök tanımını kullanacak şekilde yapılandırılır. Bu biçim çalıştırıldığında ve **Model** veri kaynağı çağrıldığında **InvoiceCustomer** kök tanımı için yapılandırılan model eşleme, uygulama verilerine erişmek ve veri modelini doldurmak için kullanılır.
 
-        ![Biçim tasarımcısı sayfasındaki model veri kaynağını inceleme.](./media/er-multiple-model-mappings-image2.png)
+        ![Biçim tasarımcısı sayfasındaki model veri kaynağını inceleme](./media/er-multiple-model-mappings-image2.png)
 
     6. **Biçim tasarımcısı** sayfasını kapatın.
 
@@ -79,7 +80,7 @@ Geçerli Finance kurulumunuza standart ER yapılandırmalarını eklemek için b
         + **Müşteri Faturası** model eşleme, **Fatura modelinin** **InvoiceCustomer** kök tanımı için yapılandırılır. Bu nedenle **Serbest metin faturası (Excel)** ER biçimi çalıştırıldığında bu ER biçiminin **Müşteri Faturası** model eşlemesi uygulama verilerine erişmek ve veri modelini doldurmak için seçilebilir.
         + **Proje Faturası** model eşlemesi, **Fatura modelinin** **InvoiceProject** kök tanımı için yapılandırılır. Bu nedenle **Proje faturası (Excel)** ER biçimi çalıştırıldığında bu ER biçiminin **Proje Faturası** model eşlemesi uygulama verilerine erişmek ve veri modelini doldurmak için seçilebilir.
 
-        ![Modeli veri kaynağına eşleme sayfasında fatura modeli eşleme.](./media/er-multiple-model-mappings-image3.png)
+        ![Modeli veri kaynağına eşleme sayfasında fatura modeli eşleme](./media/er-multiple-model-mappings-image3.png)
 
     4. **Veri kaynağı modeli eşleme** sayfasını kapatın.
     5. Bu ER yapılandırmasının 240.175 sürümünden sonraki tüm sürümlerini silmek için **Sürümler** hızlı sekmesinde **Sil**'i seçin.
@@ -90,7 +91,7 @@ Geçerli Finance kurulumunuza standart ER yapılandırmalarını eklemek için b
     2. Eylem Bölmesinde, **Tasarımcı**'yı seçin.
     3. **Modeli veri kaynağına eşleme** sayfasında, geçerli ER modeli eşleme yapılandırmasının **InvoiceProject** model eşlemesini içerdiğini ve bu model eşlemesinin **Fatura modeli** **InvoiceProject** kök tanımı için yapılandırıldığını görürsünüz. **Proje faturası (Excel)** ER biçimi çalıştırıldığında, uygulama verilerine erişmek ve veri modelini doldurmak için bu ER biçiminin **InvoiceProject** model eşlemesini seçin.
 
-        ![Modeli veri kaynağına eşleme sayfasında proje faturası modeli eşleme.](./media/er-multiple-model-mappings-image4.png)
+        ![Modeli veri kaynağına eşleme sayfasında proje faturası modeli eşleme](./media/er-multiple-model-mappings-image4.png)
 
     4. **Veri kaynağı modeli eşleme** sayfasını kapatın.
     5. Bu ER yapılandırmasının 226.35 sürümünden sonraki tüm sürümlerini silmek için **Sürümler** hızlı sekmesinde **Sil**'i seçin.
@@ -115,7 +116,7 @@ Bu bölümde, Microsoft tarafından sağlanan model eşlemelerinin nasıl [özel
 
 7. Eylem bölmesinde bu yapılandırmanın model eşlemelerini incelemek için **Tasarımcı**'yı seçin.
 
-    ![Modeli veri kaynağına eşleme sayfasındaki fatura modeli eşlemelerini inceleme.](./media/er-multiple-model-mappings-image5.png)
+    ![Modeli veri kaynağına eşleme sayfasındaki fatura modeli eşlemelerini inceleme](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > Artık özel mantığınızı yapılandırmak için tasarımcıda bu ER yapılandırmasının ER model eşleme bileşenlerini açabilirsiniz. Daha fazla bilgi için, bkz. [Model eşleme yapılandırmasını özelleştirme](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration).
@@ -126,7 +127,7 @@ Bu bölümde, Microsoft tarafından sağlanan model eşlemelerinin nasıl [özel
  
 > \<configuration names separated by commas\> yapılandırmalarındaki \<model name\> \<root descriptor\> veri modeli için birden fazla model eşlemesi var. Yapılandırmalardan birini varsayılan olarak ayarlayın.
 
-![Yapılandırmalar sayfasında biçimi düzenleme için açma.](./media/er-multiple-model-mappings-image6.gif)
+![Yapılandırmalar sayfasında biçimi düzenleme için açma](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>Proje faturası model eşleme (RDP) yapılandırmasını özelleştirme
 
@@ -138,7 +139,7 @@ Bu bölümde, Microsoft tarafından sağlanan model eşlemelerinin nasıl [özel
 6. Şu anda yapılandırma ağacında seçili olan **Proje faturası model eşleme Litware** yapılandırması için **Taslak Çalıştır** seçeneğini **Evet** olarak ayarlayın.
 7. Eylem bölmesinde bu yapılandırmanın model eşlemelerini incelemek için **Tasarımcı**'yı seçin.
 
-    ![Modeli veri kaynağına eşleme sayfasında özelleştirilmiş proje faturası model eşlemelerini inceleme.](./media/er-multiple-model-mappings-image7.png)
+    ![Modeli veri kaynağına eşleme sayfasında özelleştirilmiş proje faturası model eşlemelerini inceleme](./media/er-multiple-model-mappings-image7.png)
 
 8. **Veri kaynağı modeli eşleme** sayfasını kapatın.
 
@@ -149,7 +150,7 @@ Bu bölümde, Microsoft tarafından sağlanan model eşlemelerinin nasıl [özel
 1. **Yapılandırmalar** sayfasında sol bölmedeki yapılandırma ağacında, **Fatura modeli eşleme Litware** öğesini seçin.
 2. **Model eşleme için varsayılan** seçeneğini **Evet** olarak ayarlayın.
 
-    ![Yapılandırmalar sayfasında varsayılan model eşlemesi olarak model eşlemesi ayarlama.](./media/er-multiple-model-mappings-image8.png)
+    ![Yapılandırmalar sayfasında varsayılan model eşlemesi olarak model eşlemesi ayarlama](./media/er-multiple-model-mappings-image8.png)
 
     Bu ayar nedeniyle, **Serbest metin faturası (Excel)** öğesini çalıştırdığınızda veya bunu düzenlediğinizde veya doğruladığınızda **Müşteri Faturası Kopyası** model eşlemesi kullanılır. **Fatura modeli eşleme** yapılandırmasından **Müşteri faturası** model eşlemesi yoksayılır.
 
@@ -167,7 +168,7 @@ Bu bölümde, Microsoft tarafından sağlanan model eşlemelerinin nasıl [özel
 5. **Modeli veri kaynağına eşleme** sayfasında, gerektiğinde sayfayı düzenlenebilir yapmak için **Düzenle**'yi seçin.
 6. **Proje Faturası Kopyası** model eşlemesini seçin ve ardından bunun için **Silindi** onay kutusunu seçin.
 
-    ![Modeli veri kaynağına eşleme sayfasında model eşlemeyi sanal olarak silindi biçiminde ayarlama.](./media/er-multiple-model-mappings-image9.png)
+    ![Modeli veri kaynağına eşleme sayfasında model eşlemeyi sanal olarak silindi biçiminde ayarlama](./media/er-multiple-model-mappings-image9.png)
 
     Bu ayar nedeniyle, **Fatura modeli eşleme Litware** yapılandırması, **InvoiceProject** kök tanımı için model eşlemesi yokmuş gibi işlem görür. Varsayılan olarak düzenlenen **InvoiceProject Kopyası** model eşlemesi. Bu model eşlemesini içeren **Proje faturası model eşleme Litware** yapılandırması, varsayılan yapılandırma olarak işaretlenir. Varsayılan olarak işaretlendiği için **Proje faturası model eşleme (RDP)** yapılandırmasında **InvoiceProject** model eşlemesinden daha yüksek bir önceliğe sahiptir.
 

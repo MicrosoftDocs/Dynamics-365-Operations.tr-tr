@@ -1,12 +1,10 @@
 ---
-title: Common Data Service varlıkları
-description: Microsoft Dynamics 365 Human Resources, Common Data Service genişletilebilirlik ve tümleştirme senaryolarını etkinleştirmek için kullanılır.
+title: Dataverse tabloları
+description: Microsoft Dynamics 365 Human Resources, Dataverse genişletilebilirlik ve tümleştirme senaryolarını etkinleştirmek için kullanılır.
 author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,26 +16,27 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e316cda9b9c5361c0a2837e7ed6c050e76cc39b9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4530018"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793621"
 ---
-# <a name="common-data-service-entities"></a>Common Data Service varlıkları
+# <a name="dataverse-tables"></a>Dataverse tabloları
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Dynamics 365 Human Resources, Common Data Service genişletilebilirlik ve tümleştirme senaryolarını etkinleştirmek için kullanılır.
+Microsoft Dynamics 365 Human Resources, Dataverse genişletilebilirlik ve tümleştirme senaryolarını etkinleştirmek için kullanılır.
 
-Common Data Service hakkında daha fazla bilgi için bkz. [Common Data Service nedir?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+> [!NOTE]
+> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
-Aşağıdaki İnsan Kaynakları varlıkları Common Data Service'de kullanılabilir.
+Aşağıdaki Dataverse tabloları Human Resources varlıklarına göre kullanılabilir.
 
-## <a name="benefit-entities"></a>Yarar varlıkları
+## <a name="benefit-tables"></a>Fayda tabloları
 
-| Dosya Adı | Varlık |
+| Kuruluş adı | Tablo |
 | --- | --- |
 | Kazanç Hesaplama Sıklığı | cdm_benefitcalculationfrequency |
 | Kazanç Hesaplama sıklığı ödeme dönemi | cdm_benefitcalculationfrequencypayperiod |
@@ -47,9 +46,9 @@ Aşağıdaki İnsan Kaynakları varlıkları Common Data Service'de kullanılabi
 | Kazanç planı | cdm_benefitplan (özel alan desteği için etkinleştirilmedi) |
 | Kazanç Türü | cdm_benefittype |
 
-## <a name="business-process-tasks-entities"></a>İş işlemi görevleri varlıkları
+## <a name="business-process-tasks-tables"></a>İş süreci görevleri tabloları
 
-| Dosya Adı | Varlık |
+| Kuruluş adı | Tablo |
 | --- | --- |
 | İş Süreci Takvimi | cdm_businessprocesscalendar |
 | İş Süreci Grup Ataması | cdm_businessprocessgroupassignment |
@@ -58,11 +57,11 @@ Aşağıdaki İnsan Kaynakları varlıkları Common Data Service'de kullanılabi
 | Denetim Listesi Şablonu Başlığı | cdm_businessprocesstemplateheader |
 | Denetim Listesi Şablonu Görevi | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-entities"></a>Ücret varlıkları
+## <a name="compensation-tables"></a>Ücret tabloları
 
-| Dosya Adı | Varlık |
+| Kuruluş adı | Tablo |
 | --- | --- |
-| Sabit ücret planı | cdm_compensationfixedplan |
+| Ücret Sabit Planı | cdm_compensationfixedplan |
 | Ücret Izgarası | cdm_compensationgrid |
 | Ücret Düzeyi | cdm_compensationlevel |
 | Maaş ödeme sıklığı | cdm_compensationpayfrequency |
@@ -75,11 +74,11 @@ Aşağıdaki İnsan Kaynakları varlıkları Common Data Service'de kullanılabi
 | Değişken Ücret Planı Türü | cdm_compensationvariableplantype |
 | Sabit Ücret Etkinliği | cdm_fixedcompensationevent |
 | Hakediş Ödeme Kuralı | cdm_vestingrule |
-| Çalışan ücreti sabit | cdm_workerfixedcompensation |
+| Çalışan Sabit Ücreti | cdm_workerfixedcompensation |
 
-## <a name="organization-entities"></a>Kuruluş varlıkları
+## <a name="organization-tables"></a>Kuruluş tabloları
 
-| Dosya Adı | Varlık |
+| Kuruluş adı | Tablo |
 | --- | --- |
 | Departman | cdm_department |
 | İstihdam | cdm_employment |
@@ -95,37 +94,37 @@ Aşağıdaki İnsan Kaynakları varlıkları Common Data Service'de kullanılabi
 | Ünvan | cdm_title |
 
 > [!NOTE]
-> **Pozisyon türü**, **çalışan ataması pozisyon** ve **istihdam** için mali boyutlar Common Data Service'e tek-yön tümleştirmesi sağlar. Mali boyut güncelleştirmeleri şu an için Common Data Service'tan Human Resources ile eşitlenmez. 
+> **Pozisyon türü**, **çalışan ataması pozisyon** ve **istihdam** için mali boyutlar Dataverse'e tek-yön tümleştirmesi sağlar. Mali boyut güncelleştirmeleri şu an için Dataverse'tan Human Resources ile eşitlenmez. 
 
-## <a name="leave-and-absence-entities"></a>İzin ve devamsızlık varlıkları
+## <a name="leave-and-absence-tables"></a>İzin ve devamsızlık tabloları
 
-| Dosya Adı | Varlık |
+| Kuruluş adı | Tablo |
 | --- | --- |
 | İzin Bankası Hareketi | cdm_leavebanktransaction |
-| Ayrılma Kaydı | cdm_leaveenrollment |
+| İzin Kaydı | cdm_leaveenrollment |
 | İzin Planı | cdm_leaveplan |
 | İzin İsteği | cdm_leaverequest |
 | Ayrılma talebi ayrıntıları | cdm_leaverequestdetail |
 | İzin Türü | cdm_leavetype |
 | İzin Türü Neden Kodu | cdm_leavetypereasoncode |
 
-## <a name="payroll-entities"></a>Bordro varlıkları
+## <a name="payroll-tables"></a>Bordro tabloları
 
-| Dosya Adı | Varlık |
+| Kuruluş adı | Tablo |
 | --- | --- |
 | Ödeme Döngüsü | cdm_paycycle |
 | Ödeme Dönemi | cdm_payperiod |
-| Bordro kazanç kodu | cdm_payrollearningcode |
+| Bordro Kazanç Kodu | cdm_payrollearningcode |
 | Banka hesabı ödemeleri | cdm_bankaccountdisbursement |
-| Vergi bölgesi | cdm_taxregion |
+| Vergi Bölgesi | cdm_taxregion |
 
-## <a name="worker-entities"></a>Çalışan kişilikler
+## <a name="worker-tables"></a>Çalışan tabloları
 
-| Dosya Adı | Varlık |
+| Kuruluş adı | Tablo |
 | --- | --- |
 | Çalışan | cdm_worker |
 | Çalışan Adresi | cdm_workeraddress |
-| Çalışan Kişisel Ayrıntıları | cdm_workerpersonaldetail |
+| Çalışan Kişisel Bilgisi | cdm_workerpersonaldetail |
 | Çalışan Kişi Tanımlama Numarası | cdm_workerpersonidentificationnumber |
 | Çalışan Kişi Tanımlama Türü | cdm_workerpersonidentificationtype |
 | İş Takvimi | cdm_workcalendar |
@@ -133,24 +132,24 @@ Aşağıdaki İnsan Kaynakları varlıkları Common Data Service'de kullanılabi
 | İş Takvimi Tatili |cdm_workcalendarholiday |
 | Çalışma takvimi tatil satırı | cdm_workcalendarholidayline |
 | Çalışma Takvimi Zaman Aralığı | cdm_workcalendartimeinterval (özel alan desteği için etkinleştirilmedi) |
-| Çalışan banka hesabı | cdm_workerbankaccount |
+| Çalışan Banka Hesabı | cdm_workerbankaccount |
 
-## <a name="worker-setup-entities"></a>Çalışan kurulum varlıkları
+## <a name="worker-setup-tables"></a>Çalışan kurulum tabloları
 
-| Dosya Adı | Varlık |
+| Kuruluş adı | Tablo |
 | --- | --- |
 | Gazilik Durumu | cdm_veteranstatus |
-| Etnik Kökeni | cdm_ethnicorigin |
+| Etnik Köken | cdm_ethnicorigin |
 | Neden Kodu | cdm_reasoncode |
-| Kişi kimliği veren acentesi | cdm_personidentificationissuingagency |
+| Kişi Kimliğini Düzenleyen Kurum | cdm_personidentificationissuingagency |
 
-## <a name="competency-entities"></a>Yetki tüzel kişilikler
+## <a name="competency-tables"></a>Yetkinlik tabloları
 
-| Dosya Adı | Varlık |
+| Kuruluş adı | Tablo |
 | --- | --- |
-| Yetenek türü | cdm_skilltype |
+| Yetenek Türü | cdm_skilltype |
 
-## <a name="entity-relationship-models"></a>Varlık ilişki modelleri
+## <a name="table-relationship-models"></a>Tablo ilişkisi modelleri
 
 ### <a name="worker"></a>Çalışan
 
@@ -178,5 +177,12 @@ Aşağıdaki İnsan Kaynakları varlıkları Common Data Service'de kullanılabi
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Veri tümleştirme teknolojisi seçme](hr-admin-integration-choose-technology.md)</br>
-[Common Data Service tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)
+[Veri tümleştirme teknolojisi seçme](hr-admin-integration-choose-technology.md)<br>
+[Dataverse tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)<br>
+[Dataverse sanal tablolarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Human Resources sanal tablolarıyla ilgili SSS](hr-admin-virtual-entity-faq.md)<br>
+[Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminoloji güncelleştirmeleri](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

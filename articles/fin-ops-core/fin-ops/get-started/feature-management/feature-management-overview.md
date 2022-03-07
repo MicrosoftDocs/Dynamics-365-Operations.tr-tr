@@ -1,109 +1,141 @@
 ---
 title: Özellik yönetimine genel bakış
-description: Bu konu Özellik Yönetimi özelliğini ve nasıl kullanabileceğinizi açıklar.
-author: ChrisGarty
-manager: AnnBe
-ms.date: 10/05/2020
-ms.topic: article
+description: Bu konu, Özellik Yönetimini ve bunu nasıl kullanabileceğinizi açıklar.
+author: Peakerbl
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: cgarty
+ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798365"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068021"
 ---
 # <a name="feature-management-overview"></a>Özellik yönetimine genel bakış
 
 [!include [banner](../../includes/banner.md)]
 
-Özellikler, her sürümüne eklenir ve güncelleştirilir. Özellik yönetimi deneyimi, her sürümde teslim edilen özelliklerin listesini görüntüleyebileceğiniz bir çalışma alanı sağlar. Varsayılan olarak, bu özellikler kapalıdır. Çalışma alanını, bu özellikleri açıp ilgili belgelere bakmak için kullanabilirsiniz.
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
+
+Özellikler, her sürümüne eklenir ve güncelleştirilir. Özellik yönetimi deneyimi, her sürümde teslim edilen özelliklerin listesini görüntüleyebileceğiniz bir çalışma alanı sağlar. Daha sonra özellik belgelerini görüntülemek ve özellikleri etkinleştirmek veya devre dışı bırakmak için çalışma alanını kullanabilirsiniz.
 
 ## <a name="the-feature-management-workspace"></a>Özellik yönetimi çalışma alanı
 
-Panoda uygun kutucuğu seçerek **Özellik yönetimi** çalışma alanını açabilirsiniz. Özellik yönetimi deneyimi tarafından desteklenen tüm sürümlere ait özelliklerin listesini gösteren bir sayfa görürsünüz. Zamanla Microsoft, Özellik yönetimi deneyimini, özellikleri yönetmenize yardımcı olacak daha fazla işlev içerecek şekilde geliştirecektir.
+Panoda uygun kutucuğu seçerek **Özellik yönetimi** çalışma alanını açabilirsiniz. Özellik yönetimi deneyimi tarafından desteklenen tüm sürümlere ait özelliklerin listesini gösteren bir sayfa görürsünüz. 
 
 Özellik listesi sekmesi aşağıdaki bilgileri içerir:
 
 - **Özellik adı** – Eklenen özelliğin açıklaması.
-- **Etkin durum** – Bir sembol, bir özelliğin etkinleştirildiğini (onay işareti), etkinleştirilmediğini (boş), etkinleştirilmek üzere zamanlandığını (saat) veya zorunlu olarak etkinleştirildiğini (kilit) gösterir, zorunlu olarak açıldığınında (uyarı) ya da etkinleştirilemediğinde (X) dikkat etmeniz gerekir. Gösterilen ayar tüm tüzel kişilikler için kullanılır. Bir özellik açılsa bile hala güvenlik tarafından denetlendiğini unutmayın. Bu nedenle özellik güvenlik rolüne göre yalnızca erişimi olan kullanıcılar tarafından kullanılabilir. Ayrıca, yalnızca kullanıcının erişebileceği tüzel kişilikler için de kullanılabilir.
+- **Durum**: Simge, bir özelliğin açık olduğunu (onay işareti), kapalı olduğunu (boş), açılmak üzere zamanlandığını (saat), zorunlu olduğunu (kilit), açmadan önce dikkat edilmesi gerektiğini (uyarı simgesi) veya açılamadığını (X) belirtir. Gösterilen ayar tüm tüzel kişilikler için kullanılır. Bir özellik açılsa bile hala güvenlik tarafından denetlendiğini unutmayın. Bu nedenle, özellik yalnızca güvenlik rolüne göre erişimi olan kullanıcılar tarafından kullanılabilir. Ayrıca, yalnızca kullanıcının erişebileceği tüzel kişilikler için de kullanılabilir.
 - **Etkinleştirme tarihi** – Özelliğin açıldığı veya açık olarak planlandığı tarih.
 - **Özellik eklendi** – Özelliğin ortamınıza eklendiği tarih. Bu tarih, aylık sürüm döngüleri sırasında ortamınızı güncelleştirdiğinizde otomatik olarak girilir.
+- **Özellik durumu**: Özelliğin geçerli yaşam döngüsü durumudur: **Önizleme**, **Yayımlanan** (boş olarak gösterilir), **Varsayılan olarak açık** ve **Zorunlu**. Bu durumlar, bu konunun ilerleyen bölümlerinde daha ayrıntılı olarak ele alınmaktadır. 
 - **Modül** – Yeni özellikten etkilenen modül.
+
+> [!NOTE]
+> **Özellik durumu** sütunu, 10.0.21 sürümünden itibaren dahil edilmiştir.
 
 Bir özellik seçtiğinizde, ayrıntılar bölmesinde özellik listesinin sağında daha fazla bilgi görüntülenir. Bölmenin en üstünde özellik adı, özelliğin eklendiği tarih, özelliğin etkilediği modül ve **Daha fazla bilgi edinin** bağlantısını görürsünüz. Özelliğin belgelerini görüntülemek için bu bağlantıyı seçin. Belge yoksa, geçici bir sayfaya yönlendirilirsiniz. Ayrıntılar bölmesi ayrıca özellik hakkında kendi açıklamalarınızı ekleyebileceğiniz bir **Açıklama** alanı da içerir.
 
 **Özellik yönetimi**, her biri çalışma alanı aynı zamanda içindeki özelliklerin listesi bulunan çeşitli sekmeler içerir.
 
 - **Yeni** - Bu sekme, son aylık güncelleştirmeden sonra eklenen tüm özellikleri gösterir. Aylık güncelleştirmeleri atladıysanız, sekme, son güncelleştirmeden bu yana eklenen tüm yeni özellikleri gösterir. En yeni özellikler listenin en üstünde yer alır. Ayrıca, yeni özelliklerin toplam sayısı sayfanın üst kısmındaki bir kutucukta gösterilir.
-- **Etkin değil** – bu sekmede etkinleştirilmemiş olan tüm özellikler gösterilir. En yeni özellikler listenin en üstünde yer alır. Ayrıca, açılmamış olan yeni özelliklerin toplam sayısı sayfanın üst kısmındaki bir kutucukta gösterilir.
-- **Planlanan** - Bu sekme, gelecekteki açılmak üzere zamanlanmış tüm özellikleri gösterir. En erken zamanlanan tarihe sahip özellikler listenin en üstünde görüntülenir. Ayrıca, zamanlama yeni özelliklerin toplam sayısı sayfanın üst kısmındaki bir kutucukta gösterilir.
+- **Etkin değil**: Bu sekmede, açık olan tüm özellikler gösterilir. En yeni özellikler listenin en üstünde yer alır. Ayrıca sayfanın üst kısmındaki bir kutucuk, şu anda kapalı olan yeni özelliklerin toplam sayısını gösterir.
+- **Planlanan** - Bu sekme, gelecekteki açılmak üzere zamanlanmış tüm özellikleri gösterir. En erken zamanlanan tarihe sahip özellikler listenin en üstünde görüntülenir. Ayrıca sayfanın üst kısmındaki bir kutucuk, zamanlanan özelliklerin toplam sayısını gösterir.
 - **Tümü** – Bu sekme tüm özellikleri gösterir. En yeni özellikler listenin en üstünde yer alır.
 
-## <a name="turn-on-a-feature"></a>Bir özelliği etkinleştirme
+## <a name="feature-states"></a>Özellik durumları
+Özellikler, Özellik yönetiminde tanıtılmalarından üründe zorunlu hale gelinceye kadar çeşitli durumlar arasında geçiş yapabilir. Bu bölümde, geçerli özellik durumları açıklanmaktadır.
 
-Bir özellik etkinleştirilmemişse, ayrıntılar bölmesinde **Şimdi Etkinleştir** düğmesi görüntülenir. Bu özelliği açmak için bu düğmeyi kullanabilirsiniz.
+### <a name="preview-features-optional"></a>Önizleme özellikleri (isteğe bağlı)
 
-- Açmak istediğiniz özelliği seçin, daha sonra ayrıntılar bölmesinde **Şimdi Etkinleştir**'i seçin. Özellik açık.
+Ürün takımları yeni bir özelliği başlangıçta bir önizleme özelliği olarak başlatmaya karar verebilir. Önizleme özellikleri varsayılan olarak etkin değildir ve isteğe bağlıdır. Sahibi olan ürün takımı başarılı bir önizleme dönemini tamamladıktan sonra özellikleri yayımlanacak şekilde güncelleştirir.
 
-Açtıktan sonra bazı özellikler kapatılamaz. Açmaya çalıştığınız bir özellik kapatılamıyorsa, bir uyarı alırsınız. Bu aşamada, işlemi iptal etmek ve özelliği kapatmak için **İptal**'i seçebilirsiniz. Ancak, **Etkinleştir**'i seçip özelliği açarsanız daha sonra kapatamazsınız.
+> [!NOTE]
+> Önizleme özellikleri belirli önizleme [hüküm ve koşullarına](https://go.microsoft.com/fwlink/?linkid=2105274) tabidir. 
 
-Bazı özellikler, açmadan önce ek bilgi sağlayan bir ileti görüntüler. Bu özellikler sarı bir uyarı sembolüyle belirtilir. Özellik etkinleştirildiğinde neler olacağını daha iyi anlamak için ek bilgileri dikkatle okumanızı gerekir. Ancak, yine de özelliği açmak için **Etkinleştir** seçeneğini seçebilirsiniz.
+### <a name="released-features-optional"></a>Yayımlanan özellikler (isteğe bağlı)
+
+Bu özellikler için **Özellik durumu** sütunu boştur. Başlangıçta yayımlanan olarak eklenen özellikler varsayılan olarak açık değildir ve bu özellikleri etkinleştirmek isteğe bağlıdır. Önizlemeden güncelleştirilen özellikler etkinleştirme durumlarını korur.
+
+### <a name="on-by-default-features-optional"></a>Varsayılan olarak açık özellikler (isteğe bağlı)
+
+**Varsayılan olarak açık** olarak güncelleştirilen özellikler varsayılan olarak açıktır ancak devre dışı bırakılabilir. En az altı ay boyunca **Yayımlanan** durumunda kaldıktan sonra, devre dışı bırakılabilen özelliklerin bir sonraki ana sürümde bu duruma geçmeleri beklenir. **Varsayılan olarak açık**'a geçiş yapan özelliklerin, sürüm [Yenilikleri](../whats-new-changed.md) konusunda bildirilmeleri beklenir. Güncelleştirme, sahibi olan ürün takımı tarafından başlatılır.
+
+> [!NOTE]
+> Bu özellikler otomatik olarak etkinleştirileceğinden, kuruluşunuzun bu özellikleri almaya hazır olup olmadığını veya daha fazla zaman gerekip gerekmediğini belirlemeniz önemlidir. Daha fazla zaman gerekiyorsa bu özellikleri geçici olarak devre dışı bırakmanız gerekebilir. Bir özelliğin **Varsayılan olarak açık** durumuna geçişinin genellikle özelliğin **Zorunlu** durum haline gelmesi hedeflenmeden önceki ana sürümde yapıldığını unutmayın. Bu noktada, özelliği devre dışı bırakma seçeneğiniz olmaz. 
+
+### <a name="mandatory"></a>Zorunlu
+
+**Zorunlu** durumu, özellikler için beklenen son durumdur. Özelliklerin açık olduğunu ve Microsoft ile iletişim kurmadan bunları devre dışı bırakamayacağınızı gösterir. İsteğe bağlı özelliklerin iki ana sürümden sonra zorunlu hale gelmesi beklenir. Kritik özellikler, özel durum nedeniyle zorunlu olarak tanıtılabilir.
+
+## <a name="example-of-expected-feature-lifecycles"></a>Beklenen özellik yaşam döngüsü örneği
+
+Devre dışı bırakılabilen ve yayımlanan olarak eklenmiş olup Nisan sürümünden önce veya bu sürümün bir parçası olarak isteğe bağlı olan özelliklerin bir sonraki Ekim sürümünde **Varsayılan olarak açık** durumuna geçmesi beklenir. Bu özelliklerin bir sonraki yılın Nisan ayında **Zorunlu** olmaları beklenir.
+
+Devre dışı bırakılabilen ve yayımlanan olarak eklenmiş olup Nisan sürümünden önce veya bu sürümün bir parçası olarak isteğe bağlı olan özelliklerin bir sonraki yılın Nisan ayında **Zorunlu** durumuna geçmesi beklenir.
+
+## <a name="enable-a-feature"></a>Bir özelliği etkinleştirme
+
+Bir özellik açılmamışsa ayrıntılar bölmesinde **Şimdi etkinleştir** düğmesi görünür. Bu özelliği etkinleştirmek için bu düğmeyi kullanabilirsiniz.
+
+Bazı özellikler etkinleştirildikten sonra devre dışı bırakılamaz. Açmaya çalıştığınız bir özellik etkinleştirilemiyorsa bir uyarı alırsınız. Bu noktada, işlemi iptal etmek ve özelliği devre dışı bırakmak için **İptal**'i seçebilirsiniz. Ancak özelliği etkinleştirirmek için **Etkinleştir**'i seçerseniz daha sonra devre dışı bırakamazsınız.
+
+Bazı özelliklerde, siz özelliği etkinleştirmeden önce ek bilgi sağlayan bir ileti görüntülenir. Bu özellikler sarı bir uyarı sembolüyle belirtilir. Özellik etkinleştirildiğinde neler olacağını daha iyi anladığınızdan emin olmak için ek bilgileri dikkatle okumalısınız. Ancak özelliği açmak için yine de **Etkinleştir**'i seçebilirsiniz.
 
 Bazı özellikler, bir eylem alınıncaya kadar özelliğin etkinleştirilmediğini gösteren bir ileti görüntüler. Bu özellikler kırmızı X sembolüyle belirtilir. Özellik etkinleştirilmeden önce açıklama kısmında açıklanan eylemleri gerçekleştirmelisiniz. Örneğin, bir yapılandırma anahtarı devre dışı bırakılıncaya kadar bir özelliği kullanamazsını, önce yapılandırma anahtarını devre dışı bırakmanız ve ardından özelliği etkinleştirmek için özellik yönetimine geri dönmelisiniz.
 
-Özellik açıldıktan sonra, ayrıntılar bölmesindeki **Daha fazla bilgi edinin** bağlantısının altında bir ileti görüntülenir. Bu ileti, özelliğin açıldığını veya özelliğin gelecekteki bir zamanda açılmak üzere zamanladığını belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir.
+Özellik etkinleştirildikten sonra, ayrıntılar bölmesindeki **Daha fazla bilgi** bağlantısının altında bir ileti görüntülenir. Bu ileti, özelliğin etkinleştirildiğini veya özelliğin etkinleştirilmek üzere zamanlandığı gelecekteki tarihi belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir.
 
-Gelecekte açık olarak zamanlanan özellikler **Zamanlanmış** sekmesinde görüntülenir. Sistem tarihiyle temsil edilen saat dilimine göre bir toplu işlem, belirtilen tarihteki gece yarısına açık olacak.
+Gelecekte etkinleştirilmek üzere zamanlanmış özellikler **Zamanlandı** sekmesinde görünür. Bir toplu işlem, sistem tarihiyle temsil edilen saat dilimine göre belirtilen tarihteki gece yarısında bu özellikleri etkinleştirir.
 
 ## <a name="reschedule-a-feature"></a>Bir özelliği yeniden zamanlama
 
-Bir özellik gelecekte açılmak üzer zamanlanmışsa, bir **Zamanla** düğmesi ayrıntılar bölmesinde görüntülenir. **Etkinleştirme tarihini** değeri, başka bir tarihe değiştirmek için bu düğmeyi kullanabilirsiniz.
+Bir özellik gelecekte etkinleştirilmek üzere zamanlanmışsa ayrıntılar bölmesinde bir **Zamanla** düğmesi görünür. **Etkinleştirme tarihini** değeri, başka bir tarihe değiştirmek için bu düğmeyi kullanabilirsiniz.
 
 1. Yeniden zamanlamak için zamanlanmış özelliği seçin ve sonra ayrıntılar bölmesinde **Zamanla**'yı seçin.
-2. Görüntülenen iletişim kutusunda, **Etkinleştirme tarihi** alanında, özelliğin açılması gereken yeni tarihi belirtin.
+2. Görüntülenen iletişim kutusundaki **Etkinleştirme tarihi** alanında, özelliğin etkinleştirilmesi gereken yeni tarihi belirtin.
 3. Özelliği yeniden zamanlamak için **Etkinleştir**'i veya zamanlamayı iptal etmek için **Devre dışı bırak**'ı seçin.
 
-## <a name="turn-off-a-feature"></a>Bir özelliği kapatmak
+## <a name="disable-a-feature"></a>Bir özelliği devre dışı bırakma
 
-Bir özellik açıksa, ayrıntılar bölmesinde **Devre dışı bırak** düğmesi görüntülenir. Bu özelliği kapatmak için bu düğmeyi kullanabilirsiniz. Özellik etkinleştirildikten sonra kapatılamıyorsa, **Devre dışı bırak** düğmesi kullanılamaz.
+Bir özellik etkinleştirilmişse ayrıntılar bölmesinde **Devre Dışı Bırak** düğmesi görünür. Bu özelliği devre dışı bırakmak için bu düğmeyi kullanabilirsiniz. Özellik devre dışı bırakılamıyorsa **Devre Dışı Bırak** düğmesi kullanılamaz. 
 
-- Kapatmak için özelliği seçin ve sonra ayrıntılar bölmesinde **Devre dışı bırak**'ı seçin. Bu özellik kapanır ve **Etkinleştirme tarihi** alanı temizlenir.
+Özellik devre dışı bırakıldıktan sonra, ayrıntılar bölmesindeki **Daha fazla bilgi** bağlantısının altında bir ileti görünür. Bu ileti, özelliğin henüz etkinleştirilmediğini belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir. Etkinleştirilmemiş özellikler **Etkin değil** sekmesinde görünür.
 
-Özellik kapandıktan sonra, ayrıntılar bölmesindeki **Daha fazla bilgi edinin** bağlantısının altında bir ileti görüntülenir. Bu ileti, özelliğin henüz açılmadığını belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir. Açılmamış özellikler **Etkinleştirilmemiş** sekmesinde görünür.
+## <a name="features-that-must-be-enabled"></a>Etkinleştirilmesi gereken özellikler
 
-## <a name="features-that-must-be-turned-on"></a>Açılması gereken özellikler
-
-Bazen, güncelleştirme yaptığınızda otomatik olarak açılması gereken kritik bir özellik sunulabilir. Bu özellikler, **Etkinleştirme tarihi** alanında belirtilen tarihte otomatik olarak açılır. Bu özellikler için, ayrıntılar bölmesindeki **Daha fazla bilgi edinin** bağlantısının altında bir ileti görüntülenir. Bu mesaj, özelliğin açıldığını veya özelliğin gelecekteki bir zamanda açılacağını belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir.
+Bazı durumlarda, bir güncelleştirme yaptığınızda otomatik olarak etkinleştirilmesi gereken bir kritik özellik sunulur. Bu özellikler, **Etkinleştirme tarihi** alanında belirtilen tarihte otomatik olarak etkinleştirilir. Bu özellikler için, ayrıntılar bölmesindeki **Daha fazla bilgi edinin** bağlantısının altında bir ileti görüntülenir. Bu ileti, özelliğin etkinleştirildiğini veya özelliğin etkinleştirilmek üzere zamanlandığı gelecekteki tarihi belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir.
 
 ## <a name="enable-all-features"></a>Tüm özellikleri etkinleştir
 
-Varsayılan olarak, çalışma ortamınıza eklenen tüm özellikler kapalıdır. **Tümünü Etkinleştir** düğmesini seçerek tüm özellikleri etkinleştirebilirsiniz. 
+**Tümünü Etkinleştir** düğmesini seçerek tüm özellikleri etkinleştirebilirsiniz. 
 
-**Tümünü etkinleştir**'i seçtiğinizde, aşağıdaki bilgileri sağlamanız gereken yerde bir seçenek görünecektir:
+**Tümünü etkinleştir**'i seçtiğinizde, aşağıdaki bilgileri sağlamanız gereken yerde bir seçenek görünür:
+
 - Etkinleştirilmeden önce onay gerektiren tüm özelliklerin listesi. Listedeki özellikleri etkinleştirmek istiyorsanız **Onay gerektiren özellikleri etkinleştir** düğmesi için **Evet**'i seçin.
 - Etkinleştirilemeyen özellilkerin listesi gösterilecektir. Bu özellikler etkinleştirilmez.
 
 Etkinleştirilebilir tüm özellikler etkinleştirilecektir. Bir özellik gelecekte etkinleştirilmek üzere planlandıysa plan değişmeyecektir. 
 
-## <a name="turn-on-all-features-automatically"></a>Tüm özellikleri otomatik olarak aç
+## <a name="enable-all-features-automatically"></a>Tüm özellikleri otomatik olarak etkinleştirme
 
-Varsayılan olarak, çalışma ortamınıza eklenen tüm özellikler zorunlu özellikler olmadıkça kapalıdır. Ancak, tüm yeni özellikleri otomatik olarak etkinleştirmek istiyorsanız, yeni özellikler eklendiğinde neler olacağını değiştirmek için çalışma alanı başlığının altındaki açılan listeyi kullanabilirsiniz.
+Tüm yeni özellikleri otomatik olarak etkinleştirmek isterseniz yeni özellikler eklendiğinde ne olacağını değiştirmek için çalışma alanı başlığının altındaki açılır listeyi kullanabilirsiniz.
 
-- `Enable new features automatically` öğesini seçerek ortamınıza eklenen tüm yeni özelliklerin otomatik açılmasını sağlayın.
-- `Do not enable new features automatically` öğesini seçerek ortamınıza eklenen tüm yeni özelliklerin varsayılan olarak kapalı olmasını sağlayın.
-
+- Ortamınıza eklenen tüm yeni özellikleri otomatik olarak etkinleştirmek için **Yeni özellikleri otomatik olarak etkinleştir**'i seçin.
+- Tüm kullanılabilir yeni özelliklerin ortamınıza eklendiğinde varsayılan olarak kapalı olması için **Yeni özellikleri otomatik olarak etkinleştirme**'yi seçin.
 
 Tüm özelliği otomatik olarak etkinleştirdiğinizde, **Tümünü Etkinleştir** düğmesini tıkladığınızda etkinleştirilecek tüm özellikleri etkinleştirir. Bu, onay gerektiren özellikleri veya bir eylem alınıncaya kadar etkinleştirilemez özellikleri etkinleştirmez.
 
@@ -129,20 +161,16 @@ Konfigürasyon anahtarını kapatırsanız, özellik listesinden kaldırılmaz.
 
 Aşağıdaki örnekler, veri içe aktarmak için **Özellik Yönetimi** varlığını kullandığınızda ortaya çıkan durumu tanımlar.
 
-- **Etkinleştirilmiş** alanını, **Evet** olarak değiştirirseniz, özellik açılır ve **Veriyi etkinleştir** alanı geçerli tarihe ayarlanır.
-- **Etkin** alanının değerini **Hayır** olarak ayarlarsanız veya **EnableDate** alanını boş bırakırsanız, özellik kapatılır ve **Etkin tarihi** alanı temizlenir. Zorunlu bir özelliği veya açıldıktan sonra kapatılamayan bir özelliği kapatamazsınız.
+- **Etkin** alanının değerini **Evet** olarak değiştirirseniz özellik etkinleştirilir ve **Etkinleştirme tarihi** alanı geçerli tarihe ayarlanır.
+- **Etkin** alanının değerini **Hayır** olarak ayarlarsanız veya **EnableDate** alanını boş bırakırsanız özellik devre dışı bırakılır ve **Etkinleştirme tarihi** alanı temizlenir. Zorunlu özelliği veya etkinleştirildikten sonra devre dışı bırakılamayan bir özelliği devre dışı bırakamazsınız.
 - **EnableDate** alanının değerini gelecekteki bir tarihle değiştirirseniz, özellik bu tarih için zamanlanır.
 - **Etkin** alanının değerini, **Evet** olarak değiştirirseniz ve **EnableDate** alanının değerini gelecekteki bir tarihe değiştirirseniz, özellik bu tarih için zamanlanır. 
 - **Etkin** alanının değerini, **Hayır** olarak değiştirirseniz ve **EnableDate** alanının değerini gelecekteki bir tarihe değiştirirseniz, özellik bu tarih için zamanlanır.
-- Bir özellik açıksa ve gelecekteki bir tarihe ayarlanmış bir **EnableDate** alanı eklerseniz, özellik açık kalır. Özelliği yeniden zamanlamak için **Etkin** alanını **Hayır** olarak değiştirmeniz gerekir.
+- Özellik etkinse ve gelecekteki bir tarihe ayarlanmış bir **EnableDate** alanı eklerseniz özellik etkin kalır. Özelliği yeniden zamanlamak için **Etkin** alanının değerini **Hayır** olarak değiştirmelisiniz.
 
 ## <a name="feature-management-and-flighting"></a>Özellik yönetimi ve denemesi
 
 Özellik yönetimi, her sürümde sunulan özellikleri denetlemenize olanak tanır. Deneme sürümü, Microsoft teams'in özellikleri sınırlı sayıda müşteriye sunmasını sağlayarak özelliklerin tüm müşterileri etkilemeden test edilebilmesini ve doğrulanabilmesini sağlar. Özellik yönetimi, herhangi bir özelliğin deneme sürümünü kontrol etmez.
-
-## <a name="new-features-are-optional-for-12-months"></a>12 ay için yeni özellikler isteğe bağlıdır
-
-Kritik olmayan yeni bir özellik yüklendiğinde, 12 aylık bir dönem için isteğe bağlı olacaktır. Bu, size ve kuruluşunuzun, bir özelliği ne zaman alıp günlük operasyonlarınıza karşı test etmenizi sağlamak için size önceden planlama yapmanızı sağlar. Daha fazla bilgi için bkz. [Bir Sürüm hizmeti güncelleştirmeleriyle ilgili SSS](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>ISV özelliklerini veya özel özellikleri açmak için Özellik yönetimini kullanma
 
@@ -151,25 +179,24 @@ Kritik olmayan yeni bir özellik yüklendiğinde, 12 aylık bir dönem için ist
 ## <a name="frequently-asked-questions-faq"></a>Sık sorulan sorular (SSS)
 
 ### <a name="when-are-features-added-removed-or-changed"></a>Özellikler ne zaman eklenir, kaldırılır veya değiştirilir? 
-Özellikler kod değişiklikleri aracılığıyla eklenir, kaldırılır ve değiştirilir. Bu değişiklikleri almak için ortamların güncelleştirilmesi gerekir.
+Özellikler, sahibi olan ürün takımları tarafından yapılan kod değişiklikleri yoluyla eklenir, kaldırılır ve değiştirilir. Bu değişiklikleri almak için ortamlar güncelleştirilmelidir.
 
 ### <a name="does-a-feature-become-mandatory-automatically"></a>Bir özellik otomatik olarak zorunlu hale gelir mı? 
-Hayır, özelliği zorunlu hale getirme otomatik bir eylem değildir. Ürün ekiplerinin bir kod değişikliği yapması gerekir.
-
-### <a name="when-do-features-become-mandatory"></a>Ne zaman özellikler zorunlu hale gelir? 
-İlke, tüm yeni özelliklerin 12 aylık bir süre için kabul edilecek olması ve siz özelliği etkinleştirene kadar herhangi bir değişiklik yönetimi gerektirmemesidir. Ürün takımları, bu dönem sona erdikten sonra bir özelliğin zorunlu yapılıp yapılmayacağını seçebilir. 
+Hayır, bir özellik otomatik olarak zorunlu hale gelmez. Sahibi olan ürün takımlarının bir kod değişikliği yapması gerekir.
 
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Neden belirli bir "zorunluluk nedeniyle etkinleştirme tarihi" yok? 
 Güncelleştirme sürümü zamanlaması değişkendir, ortam güncelleştirme zamanlaması değişkendir ve müşteriler bazı güncelleştirmeleri atlamayı isteyebilir. Sonuç olarak, belirli tarihler belirlenmesi zordur. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Zorunlu hale getirilen özellikler için belgeler nerededir? 
-Belgeler, uygulama takımlarından gelir. Bunlar genellikle [Kaldırılan veya kullanım dışı bırakılan özellikler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features) bölümünde belirtilir. 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Zorunlu özellikler için belgeler nerededir? 
+Bu belgeler, Dynamics 365 uygulama takımlarından gelir. Bu özelliklerden genellikle [İstemci özellik durumlarına yapılan güncelleştirmeler](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) veya [Kaldırılmış ya da kullanım dışı özellikler](../../../dev-itpro/migration-upgrade/deprecated-features.md) bölümünde bahsedilir. 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Bir özelliğin zorunlu olarak etkinleştirileceğini belirten bir ürün içi bildirim veya sinyal var mıdır? 
 Özelliği zorunlu hale getirme ile ilgili bir bildirim mekanizması şu anda mevcut değildir.
 
 ### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Daha önceden müşterinin haberi olmadan özellikler etkinleştirildi mi? 
-Evet, özelliklerin işlevsel etkisi yoksa, bunlar varsayılan olarak etkinleştirilebilir.
+Evet, özellikler aşağıdaki durumlarda müşterinin bilgisi olmadan etkinleştirilebilir:
+- Bu özellik **Varsayılan olarak açık** durumuna taşınmıştır. Bu durumda, özellik yine de devre dışı bırakılabilir. 
+- Özellik **Zorunlu** olarak güncelleştirilir. Bu değişiklik yalnızca ana sürüm ile birlikte gerçekleşir. Kritik özellikler, özel durum olarak herhangi bir güncelleştirmede **Zorunlu** durumuna taşınabilir.
 
 ### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Özellik sınırlı dağıtımı nedir ve özellik yönetimiyle nasıl ilişkilidir? 
 Özellik sınırlı dağıtımları, Microsoft'un denetlediği gerçek zamanlı açma/kapama geçişleridir. Bunlar Özellik Yönetimi tarafından sağlanan müşteri denetiminden ayrıdır. 
@@ -203,3 +230,6 @@ IFeatureLifecycle, özellik yaşam döngüsü aşamasını gösteren bir Microso
 - `PublicPreview`: Varsayılan olarak gösterilir ancak özelliğin önizlemede olduğunu belirten bir uyarı görüntülenir.
 - `Released`: Tam olarak yayınlanmış.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

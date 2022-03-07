@@ -2,28 +2,27 @@
 title: Çalışan yararları programı teslim et
 description: Bu makale, yeni bir kazanç oluştururken kullanılacak kazanç öğelerini nasıl oluşturacağınızı gösterir.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eba305a6a5e1b32636e17bba090047d6167ecebd4f0fe49b17b5267c71b98773
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757027"
 ---
 # <a name="deliver-employee-benefits-program"></a>Çalışan yararları programı teslim et
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu makale, yeni bir kazanç oluştururken kullanılacak kazanç öğelerini nasıl oluşturacağınızı gösterir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev Ücret ve Kazançlar yöneticisine yöneliktir.
 
@@ -68,3 +67,6 @@ Bu makale, yeni bir kazanç oluştururken kullanılacak kazanç öğelerini nas�
 16. Temel alanında bir seçenek seçin.
 17. Tutar veya oran alanına bir sayı girin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

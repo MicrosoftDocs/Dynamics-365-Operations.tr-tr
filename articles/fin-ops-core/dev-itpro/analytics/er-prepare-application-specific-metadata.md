@@ -2,11 +2,9 @@
 title: RCS ve ER için uygulamaya özel meta verileri hazırlama
 description: Bu konu, Regulatory Configuration Service (RCS) ve Elektronik Raporlama (ER) için uygulamaya özel meta verilerin nasıl hazırlanacağını açıklamaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735610"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>RCS ve ER için uygulamaya özel meta verileri hazırlama
 
@@ -280,3 +278,6 @@ Bu model eşlemesini farklı bir sürüm uygulamasının meta verilerini kullana
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 Alternatif olarak hem uygulamadaki **RCS'de kullanılabilecek uygulama meta verileri hazırlama** görev kılavuzlarını hem **Bir ER yapılandırması kullanarak uygulama meta verilerine erişme** ve RCS'deki **Bağlı uygulamalar kullanarak uygulama meta verilerine erişme** görev kılavuzlarını yürütebilirsiniz. Bu göre kılavuzları [Dynamics 365 for Finance and Operations 8.1 için Elektronil Raporlama Görev Kılavuzu](https://go.microsoft.com/fwlink/?linkid=2082739) sayfasından indirilebilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

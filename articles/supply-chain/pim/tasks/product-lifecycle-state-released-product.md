@@ -2,25 +2,22 @@
 title: Ürün yaşam döngüsü durumunu serbest bırakılan bir ürüne atama
 description: Bu yordam, serbest bırakılan bir ürüne nasıl ürün yaşam döngüsü durumu atanacağını açıklar.
 author: cvocph
-manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e7df272a946506dfa4e8d7a04181dd0cb40972c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1fae345a94ce3817f08222216c0c68030ad90c5ad91edf49459809f41374147a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439150"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780590"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Ürün yaşam döngüsü durumunu serbest bırakılan bir ürüne atama
 
@@ -37,3 +34,6 @@ Bu yordam, serbest bırakılan bir ürüne nasıl ürün yaşam döngüsü durum
 5. Ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.
 6. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

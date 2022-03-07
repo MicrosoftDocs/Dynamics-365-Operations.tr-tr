@@ -1,12 +1,10 @@
 ---
 title: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
-description: Bu konu, kaldırılmış olan veya  Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılması planlanan özellikleri açıklar.
+description: Bu konuda, kaldırılmış olan veya Dynamics 365 for Finance and Operations'dan kaldırılması planlanan özellikler açıklanmaktadır.
 author: sericks007
-manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679968"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745275"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -39,7 +37,7 @@ Bu konu, Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sü
 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
-Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7, Platform güncelleştirmesi 31 ile
 
@@ -375,11 +373,11 @@ Bu iki rapor artık Finance and Operations'da desteklenmemektedir. Bunun yerine,
 | **Durum**                       | Kullanımı sonlandırıldı: Her iki raporun da menü öğeleri 7.3 sürümünde kaldırıldı. Ancak, raporların kodu üründe kaldı. Plan kodu sonraki bir sürümde kaldırmaktır. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI içerik paketleri AppSource'de kullanılabilir
-[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
+[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, Microsoft Power BI'daki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft Power BI'deki ürün güncelleştirmeleri. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft Power BI'daki ürün güncelleştirmeleri. |
 | **Başka bir özellikle mi değiştirildi?**   | [AppSource](https://appsource.microsoft.com) sitesinde bulunan **Yönetimi maliyet**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirilmektedir. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Etkilenen ürün alanları**         | Maliyet yönetimi, Finans ve Perakende                                                                                               |
 | **Dağıtım seçeneği**              | Yalnızca bulut(PowerBI.com ile tümleştirme şirket içi dağıtımlarda desteklenmez.)                                                                                                            |
@@ -919,7 +917,7 @@ Bu mobil uygulama kullanıcıların anahtar iş ölçümlerini gözden geçirmel
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev başka bir özellik ile değiştirilmiştir.   |
-| **Başka bir özellik ile değiştirildi?**   | Microsoft Power BI için Finansal performans içeriği izleme paketi, daha önce Business Analyzer'da bulunan önemli mali ölçümleri içerecektir. |
+| **Başka bir özellikle mi değiştirildi?**   | Microsoft Power BI için Finansal performans içeriği izleme paketi, daha önce Business Analyzer'da bulunan önemli mali ölçümleri içerecektir. |
 | **Etkilenen ürün alanları**         | Genel muhasebe      |
 | **Durum**                         | Kullanımı sonlandırıldı: İş Çözümleyicisi kullanımı sonlandırıldı.    |
 
@@ -970,7 +968,7 @@ Bu araç, anahtar verileri Microsoft Dynamics CRM'den Dynamics ERP uygulamaları
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev başka bir özellik ile değiştirilmiştir. |
-| **Başka bir özellikle mi değiştirildi?**   | Common Data Service                                      |
+| **Başka bir özellikle mi değiştirildi?**   | Dataverse                                      |
 | **Etkilenen ürün alanları**         | Dynamics için Bağlayıcı                         |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.                           |
 
@@ -1373,3 +1371,6 @@ Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı
 |     <strong>Etkilenen ürün alanları</strong>     |                                              Genel muhasebe                                              |
 |             <strong>Durum</strong>             |                                      Dynamics AX 2012 itibarıyla kaldırıldı                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

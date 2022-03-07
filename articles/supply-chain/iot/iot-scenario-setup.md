@@ -2,27 +2,24 @@
 title: IoT Zekası için senaryo kurulumu
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management uygulamasında IoT Zekası için senaryoların nasıl yapılandırılacağını açıklamaktadır.
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d1deaa2130b63272da39a42315c6a1bc4b7ccb8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439548"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826431"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT Zekası için senaryo kurulumu
 
@@ -143,3 +140,6 @@ Senaryoyu devre dışı bırakmak için şu adımları izleyin.
 2. Senaryonun kutusundan **Yapılandır**'ı seçin.
 3. Son sihirbaz sayfasına gitmek için **İleri**'yi seçin.
 4. Profili devre dışı bırakmak için seçeneği ayarlayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,29 +2,25 @@
 title: Planlamayı En İyi Duruma Getirmeye genel bakış
 description: Bu konu, Planlamayı En İyi Duruma Getirme işlevine genel bir bakış sağlar.
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 110045d4c7e4f32c29b73096dd4df3a09b5434ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 49da88be9faff8f327f8079245b3c07db79308e6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439079"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983454"
 ---
 # <a name="planning-optimization-overview"></a>Planlamayı En İyi Duruma Getirmeye genel bakış
 
@@ -36,7 +32,7 @@ Planlamayı En İyi Duruma Getirmeyi kullanmak için Microsoft Dynamics Lifecycl
 
 Aşağıdaki resimde, Planlamayı En İyi Duruma Getirmeyi ofis saatlerinde çalıştırmanın avantajı gösterilmektedir.
 
-![Planlamayı En İyi Duruma Getirmeyi ofis saatlerinde çalıştırmanın avantajı](media/PlanningOptimization1.png)
+![Planlamayı En İyi Duruma Getirmeyi ofis saatlerinde çalıştırmanın avantajı.](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>Artan performans
 
@@ -65,11 +61,11 @@ Planlamayı En İyi Duruma Getirme Eklentisi kaldırılırsa Planlamayı En İyi
 
 Aşağıdaki resimde, veri akışı gösterilmektedir.
 
-![Yeniden oluşturma çalışmaları için veri akışı](media/PlanningOptimization2.png)
+![Yeniden oluşturma çalışmaları için veri akışı.](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>İlgili kaynaklar
 
-[Planlamayı En İyi Duruma Getirmeye başlayın](get-started.md)
+[Planlama Optimizasyonunu kullanmaya başlama](get-started.md)
 
 [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
 
@@ -78,3 +74,6 @@ Aşağıdaki resimde, veri akışı gösterilmektedir.
 [Plana filtre uygulama](plan-filters.md)
 
 [Planlama işini iptal etme](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

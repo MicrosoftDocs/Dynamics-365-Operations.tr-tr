@@ -1,28 +1,28 @@
 ---
 title: Bütçeleme giriş sayfası
 description: Bu konuda, Microsoft Dynamics 365 Finance'taki bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve raporlama özelliklerine genel bir bakış sağlanmaktadır.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
-ms.topic: index-page
+author: panolte
+ms.date: 04/29/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962922"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983964"
 ---
 # <a name="budgeting-home-page"></a>Bütçeleme giriş sayfası
 
@@ -30,16 +30,15 @@ ms.locfileid: "4962922"
 
 Bu konuda, bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve raporlama özelliklerine genel bir bakış sağlanmaktadır. 
 
-<a name="components-of-budgeting-functionality"></a>Bütçeleme işlevinin bileşenleri
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Bütçeleme işlevinin bileşenleri
 
 Bir şirketin kaynak planlama döngüsü genellikle planlama, bütçeleme ve tahmin etkinliklerinden oluşur.
 
-[![Bütçeleme işlevi bileşenleri](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Bütçeleme işlevi bileşenleri.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Hem uzun vadeli stratejik planlama hem de yıllık bütçe planlama işlemleri bir bütçe planı belgesiyle desteklenir. Bütçe planı belgeleri, Microsoft Excel ile sıkı şekilde tümleşiktir. Kullanıcılar sınırsız parasal ve nicel senaryoları yapılandırabilir. Ayrıca hem yukarıdan aşağıya hem de aşağıdan yukarıya bütçeleme yöntemlerini desteklemek üzere bir bütçeleme kuruluş hiyerarşisi tanımlayabilir. Uygulamada bir bütçe oluşturulup onaylandıktan sonra bütçe planını bir bütçe kayıt girişine dönüştürürsünüz. Bütçe kayıt girişleri, bütçeyi korumak ve bütçe kodlarıyla tutarları izlenebilir tutmak için araçlar sağlar. Bütçe kayıt girişleri, orijinal bütçeleri gözden geçirmenize, transferler yapmanıza, önceki yıldan bütçe tutarlarını nakletmenize olanak sağlar. Bir şirket, oluşturulan bütçeye bağlı olarak bütçe kontrolünü etkinleştirebilir. Kontrol düzeyi, kuruluşun kültürüne ve gelişim düzeyine bağlıdır. Daha düşük bir gelişim düzeyindeki kuruluşlar bütçeyi "olduğu gibi" bırakabilir ve bütçe beklentilerini karşılamıyorsa proaktiften çok, reaktif olabilirler. Diğer kuruluşlar bütçe fonları olmadığı zaman kullanıcıların satın almalarını önleyen bütçe kontrolü ilkeleri kullanabilir.
 
-Son olarak, çok olgun kuruluşlar, personelin kuruluş hedefleri hakkında eğitim gördükleri ve bu hedefleri "Seyahat yerine çevrimiçi toplantı tercih et" gibi ilkeler sayesinde izledikleri bir kuruluş kültürüne sahip olabilir. Uygulama, şirketin yönetiminin sıkı denetim (bütçeyi aşacak deftere nakilleri önleyen) veya gevşek denetim (kullanıcıların mevcut bütçe fonlarını aştıklarında uyarıldıkları ancak nasıl devam edeceklerini kendileri seçtikleri) arasından seçim yapmasına olanak sağlayan bir bütçe kontrolü çerçevesi içerir. Son olarak, aktarmalı tahminler kullanabilirsiniz. Aktarmalı tahmin, bütçenin fiili değerlerle düzenli olarak karşılaştırılmasıdır ve şirketin bütçeye göre ne kadar iyi faaliyet gösterdiğini tanımlamak için kullanılır. Aktarmalı tahminler, trendleri belirlemek için de kullanılır. Finance and Operations'da aktarmalı tahminler, başlangıç planlaması etkinlikleri olarak bütçe planı belgesi üzerinden desteklenir. Aktarmalı tahminler, gelecek bütçe döngüsü için planlamayla paralel olarak yürütülebilir.
+Son olarak, çok olgun kuruluşlar, personelin kuruluş hedefleri hakkında eğitim gördükleri ve bu hedefleri "Seyahat yerine çevrimiçi toplantı tercih et" gibi ilkeler sayesinde izledikleri bir kuruluş kültürüne sahip olabilir. Uygulama, şirketin yönetiminin sıkı denetim (bütçeyi aşacak deftere nakilleri önleyen) veya gevşek denetim (kullanıcıların mevcut bütçe fonlarını aştıklarında uyarıldıkları ancak nasıl devam edeceklerini kendileri seçtikleri) arasından seçim yapmasına olanak sağlayan bir bütçe kontrolü çerçevesi içerir. Son olarak, aktarmalı tahminler kullanabilirsiniz. Aktarmalı tahmin, bütçenin fiili değerlerle düzenli olarak karşılaştırılmasıdır ve şirket bütçeye göre ne kadar iyi faaliyet gösterdiğini tanımlamak için kullanılır. Aktarmalı tahmin, eğilimleri belirlemek için de kullanılır. Finance and Operations'ta aktarmalı tahminler, ilk planlama etkinlikleri olarak bir bütçe planı belgesi üzerinden desteklenir. Aktarmalı tahminler, gelecek bütçe döngüsü için planlamayla paralel olarak yürütülebilir.
 
 -   [Bütçelemeye genel bakış](basic-budgeting-overview-configuration.md)
 -   [Bütçe denetimine genel bakış](budget-control-overview-configuration.md)
@@ -49,9 +48,9 @@ Son olarak, çok olgun kuruluşlar, personelin kuruluş hedefleri hakkında eği
 -   [Excel için bütçe planlama şablonları](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Bütçeleme araçları
-[![Bütçeleme araçları](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Bütçeleme araçları.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
-Ek planlama ve bütçeleme yetenekleri vardır ve bunlar genel muhasebe bütçeleriyle tümleşiktir.
+Ek planlama ve bütçeleme yetenekleri kullanılabilir ve bunlar genel muhasebe bütçeleriyle tümleşiktir.
 
 -   **İş gücü bütçeleri**: İş gücü bütçelemesi; pozisyonlar, ücret grupları vb. için ayrıntılı bütçe maliyeti bileşen planlaması içerir.
 -   **Sabit kıymet bütçeleri** – Sabit kıymet bilgilerine dayanarak, planlı amortismanı hesaplayabilir ve sabit kıymetle ilgili diğer planlı hareketleri kaydedebilirsiniz.
@@ -70,3 +69,6 @@ Kullanıcılar bütçe planlarını doğrudan istemcide (yapılandırılabilir b
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

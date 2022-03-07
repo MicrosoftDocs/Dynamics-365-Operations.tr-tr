@@ -2,16 +2,13 @@
 title: Standart maliyetlere sahip ürün reçetesi hesaplamalarında kullanılan bilgiler
 description: Ürün reçetesi (BOM) hesaplamaları, üretilmiş bir maddenin standart maliyetlerini hesaplamak için birkaç kaynaktan veri kullanır. Bu kaynaklar maddeler, ürün reçetesi rotaları, dolaylı maliyet hesaplama formülleri ve maliyet versiyonu hakkındaki bilgileri içerir.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc7e4105d085e2af0e8e6e574244f5083d08c15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 26d5590943ece1480e11a17a684cd7ec8cbaae451ddd5e0407bc72576ae53055
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439276"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731877"
 ---
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Standart maliyetlere sahip ürün reçetesi hesaplamalarında kullanılan bilgiler
 
@@ -84,3 +81,6 @@ Bir ürün reçetesi hesaplamasını başlatırken birkaç bilgi kaynağı belir
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Varlık hizmet düzeyleri
 description: Bu konuda Varlık Yönetimi'ndeki varlık hizmet düzeyleri açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83b195add44927d847491e6394e72637323117b3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723611"
 ---
 # <a name="asset-service-levels"></a>Varlık hizmet düzeyleri
 
@@ -52,3 +50,6 @@ Bu konuda Varlık Yönetimi'ndeki varlık hizmet düzeyleri açıklanmaktadır. 
 
 > [!NOTE]
 > **Varlık hizmeti düzeyleri** sayfasındaki bir varlık hizmet düzeyi kaydını bir iş emri üzerinde zaten kullandıktan sonra değiştirirseniz, bakım taleplerindeki ve iş emirlerindeki hizmet düzeyi buna göre güncelleştirilmez.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Çevrimiçi kanal ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir çevrimiçi kanalın nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: b6bf158361f95b6551b29f195616cf21f908b802
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4416577"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800651"
 ---
 # <a name="set-up-an-online-channel"></a>Çevrimiçi kanal ayarlama
 
@@ -134,3 +131,6 @@ Aşağıdaki resimde, bir karşılama grubu ataması kurulum örneği gösterilm
 [Çağrı merkezi kanalını ayarlama](channel-setup-callcenter.md)
 
 [Adyen için Dynamics 365 Ödeme Bağlayıcısı](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

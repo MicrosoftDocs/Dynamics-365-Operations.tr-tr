@@ -1,12 +1,10 @@
 ---
 title: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
-description: Bu adımları tamamlamak için önce ER Model eşleme yapılandırmalarını yönet görev kılavuzundaki adımları tamamlamalı ve Microsoft Dynamics Lifecycle Services (LCS) üzerinde erişim sahibi olmanız gerekir.
+description: Bu konuda, Elektronik raporlama (ER) yapılandırmasını tasarlama ve bağımlılığını diğer yazılım bileşenlerinden ayırma açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681985"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717606"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
 
@@ -46,8 +44,8 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 5. Yeni'ye tıklayın.
 6. Ürün önkoşul bileşenini seçin.
 7. Microsoft Dynamics 365 for Operations (1611) seçin.
-8. Sürüm alanına '[7.1.1541.3036,8)'.
-    * [7.1.1541.3036,8) yazın.  
+8. Sürüm alanına '[7.1.1541.3036,8)' yazın.
+    * (7.1.1541.3036,8)  
     * Girdiğiniz bağımlılıklar bu yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, Finance and Operations 7.1.1541.3036 veya ileri (ancak sürüm 8'i geçmeyen) bir sürümünde tamamlanması gerekir.   
 9. Kaydet'e tıklayın.
 10. Sayfayı kapatın.
@@ -59,8 +57,8 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 16. Yeni'ye tıklayın.
 17. Ürün önkoşul bileşenini seçin.
 18. Microsoft Dynamics AX 7.0 RTW seçin.
-19. Sürüm alanına '[7.0.1265.3015,7.1)'.
-    * [7.0.1265.3015,7.1) yazın.  
+19. Sürüm alanına '[7.0.1265.3015,7.1)' yazın.
+    * (7.0.1265.3015,7.1)  
     * Bağımlılıklar bir yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, sürümünün 7.0.1265.3015 veya sonrası olan ancak küçük sürüm 1'i geçmeyen Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition içerisinde tamamlanması gerekir.   
 20. Kaydet'e tıklayın.
 21. Sayfayı kapatın.
@@ -139,3 +137,9 @@ Oluşturulan yapılandırmaları sistemden sileceğiz ve onları LCS havuzundan 
 26. Ağaçta 'Örnek veri modeli' seçeneğini genişletin.
     * Model 'Örnek eşleşme' eşleme yapılandırmasının, seçilen veri modeli yapılandırması ile birlikte indirildiğini unutmayın. İki dosya birlikte indirilmiştir çünkü 'Örnek eşleşme', seçilen veri modelini uyguluyor olarak tanımlanmıştır ve uygulama için uygulanabilirdir. 'Örnek eşleşme (alternatif)' yapılandırması, gerekli uygulama sürümü yerine getirilmediği için indirilmemiştir.   
     * Finance and Operations'ta oturum açar, aynı sağlayıcıya kaydolur, aynı LCS projesine erişir ve aynı veri modeli yapılandırmasını indirirseniz, 'Örnek eşleme (alternatif)' yapılandırması indirilir ve 'Örnek eşleme' yapılandırması atlanır.  
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme](../general-electronic-reporting-manage-configuration-lifecycle.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

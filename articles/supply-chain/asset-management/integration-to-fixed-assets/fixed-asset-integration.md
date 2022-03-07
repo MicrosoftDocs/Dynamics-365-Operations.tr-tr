@@ -1,26 +1,23 @@
 ---
 title: Varlık yönetimini sabit kıymetlerle tümleştirme
 description: Bu konu, sabit kıymetleri bakım yapılan varlıklarla bağlamak için Varlık Yönetimi ve Sabit kıymetler modüllerinin nasıl tümleştirileceğini açıklamaktadır.
-author: kamaybac
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: dabourq
+ms.author: johanho
 ms.search.validFrom: 2020-04-17
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: cdda44d361011706fe0ba170309908533aa0c2f7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439189"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567595"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Varlık yönetimini sabit kıymetlerle tümleştirme
 
@@ -115,3 +112,6 @@ Bakım yapılan varlık ile sabit kıymet arasındaki mevcut ilişkilendirmeyi k
 1. Sabit kıymeti bulun ve açın.
 1. **Sabit kıymet** hızlı sekmesinde, **İşlem yapılacak yerleşim** alanındaki değeri temizleyin.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

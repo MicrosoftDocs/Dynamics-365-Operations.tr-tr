@@ -2,15 +2,12 @@
 title: Satış gruplarını kullanarak satış noktasındaki (POS) komisyonları izleme
 description: Satışları müşteriyle çalışan (yardım sağlayan, yukarı satış yapan, çapraz satış yapan ve hareketi işleme koyan) yetkiliye göre izlemek genel bir perakende yöntemidir.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca77ad5564cc93e9fcf335b5a49548f91c7c13face41fd73477ae4083f78be57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770921"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Satış gruplarını kullanarak satış noktasındaki (POS) komisyonları izleme
 
@@ -72,7 +69,7 @@ POS'ta satış temsilcilerinin dahil olduğu akış ve süreci belirleyecek olan
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Satış temsilcisi bilgilerini POS hareketleri ekranında görüntüleme
 
-POS hareketi ekran düzeni ve içerikleri, ekran düzeni tasarımcısı ve mağazalara, kasalara veya çalışanlara atanan ekran düzenleri kullanılarak yapılandırılabilir. **Satış temsilcisi** alanı Giriş bölmesinin Satırlar sekmesine eklenebilir.  Bu, hareket ekranının her satırı için belirtilen Satış grubu kimliğini görüntüler.
+POS hareketi ekran düzeni ve içerikleri, ekran düzeni tasarımcısı ve mağazalara, kasalara veya çalışanlara atanan ekran düzenleri kullanılarak yapılandırılabilir. **Satış temsilcisi** alanı Makbuz bölmesinin Satırlar sekmesine eklenebilir.  Bu, hareket ekranının her satırı için belirtilen Satış grubu kimliğini görüntüler.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Pos düğme gruplarına Satış temsilcisi işlemleri ekleme
 
@@ -80,11 +77,14 @@ POS, kullanıcılara POS işlemlerine erişim sağlamak amacıyla ekran düzenle
 
 | Operasyon                                 | Açıklama |
 |-------------------------------------------|-------------|
-| Satırdaki satış temsilcisini ayarla          | Bu POS işlemi mağaza için uygun Satış gruplarının bir listesini görüntüler (Kimlik: Ad). Bu listeden bir Satış grubu seçmek geçerli hareket satırındaki değeri ayarlar. |
+| Satırdaki satış temsilcisini ayarla          | Bu POS işlemi mağaza için uygun Satış gruplarının bir listesini görüntüler (Kimlik: Ad). Bu listeden bir Satış grubu seçmek geçerli hareket satırındaki değeri ayarlar. |
 | Satırdaki satış temsilcisini temizle        | Bu POS işlemi geçerli Satış grubu değerini geçerli hareket satırından kaldırır. |
-| Hareketteki satış temsilcisini ayarlama   | Bu POS işlemi mağaza için uygun Satış gruplarının bir listesini görüntüler (Kimlik: Ad). Bu listeden bir Satış grubu seçmek geçerli hareketteki varsayılan değeri ayarlar. Atanmış bir satış grubu olmayan mevcut satırlar ve sonradan eklenen satırlar ayarlanır. |
+| Hareketteki satış temsilcisini ayarlama   | Bu POS işlemi mağaza için uygun Satış gruplarının bir listesini görüntüler (Kimlik: Ad). Bu listeden bir Satış grubu seçmek geçerli hareketteki varsayılan değeri ayarlar. Atanmış bir satış grubu olmayan mevcut satırlar ve sonradan eklenen satırlar ayarlanır. |
 | Hareketteki satış temsilcisini temizleme | Bu POS işlemi geçerli varsayılan Satış grubu değerini geçerli hareketten kaldırır. Harekette zaten varolan satırları etkilemez. |
 
 ## <a name="calculating-commissions"></a>Komisyonları hesaplama
 
-Komisyon, belirtilen satış gruplarındaki çalışanlar için ekstrelerin deftere nakledilmesi veya satış siparişinin deftere nakledilmesi sırasında hesaplanır. Komisyon tutarı, satış grubunda ve hareketteki müşteri ve/veya ürünlere yönelik ilişkili komisyon hesaplama ayarlarında belirlenen şekilde çalışanın komsiyon payı temel alınarak belirlenir.
+Komisyon, belirtilen satış gruplarındaki çalışanlar için ekstrelerin deftere nakledilmesi veya satış siparişinin deftere nakledilmesi sırasında hesaplanır. Komisyon tutarı, satış grubunda ve hareketteki müşteri ve/veya ürünlere yönelik ilişkili komisyon hesaplama ayarlarında belirlenen şekilde çalışanın komsiyon payı temel alınarak belirlenir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: " Kanal özniteliklerini tanımlama"
 description: Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f50e925689f11f67285c956aec1a7ece235cdb74
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726419"
 ---
 # <a name="define-channel-attributes"></a> Kanal özniteliklerini tanımlama
 
@@ -32,8 +30,8 @@ Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin. Öznitelikler
 
 ## <a name="define-channel-product-attribute"></a>Kanal ürün özniteliğini tanımlayın.
 1. Retail and Commerce > Kanal Kurulumu > Kanal kategorileri ve ürün öznitelikleri'ne gidin.
-2. Ağaçta 'Contoso Retail\Fashion\Houston' seçin.
-3. Düzenle öğesine tıklayın.
+2. Ağaçta, "Contoso Retail\Fashion\Houston" seçeneğini belirleyin.
+3. Düzenle'ye tıklayın.
 4. Kategori hiyerarşisi alanına bir değer girin veya buradan bir değer seçin.
     * Gezinti hiyerarşisi, kanallarınız içindeki ürüne gitmek için kullanılır.  
 5. Öznitelik grubu bölümünü genişletin.
@@ -71,3 +69,6 @@ Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin. Öznitelikler
 33. Tamam'a tıklayın.
 34. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

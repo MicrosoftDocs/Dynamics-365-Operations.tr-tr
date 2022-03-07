@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eaccb566c04d6d4b91ea8cb046931e750a4c6eed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 24097cbb6f0ffae7b1b52bd3c70b7e054b3ce86c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439002"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257327"
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Kesikli üretim kaynak grubunu tanımlama
 
@@ -58,3 +57,6 @@ Kaynak grubu, genellikle üretim atölyesinde sarı satırlarla tanımlanan fizi
 6. Listede, istenen kaydı bulun ve seçin.
 7. Listede, seçili satırdaki bağlantıya tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

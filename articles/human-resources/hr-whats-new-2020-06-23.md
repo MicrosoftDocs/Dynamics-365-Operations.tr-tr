@@ -1,31 +1,30 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (Haziran 25 2020)
 description: Bu konuda, 23 Haziran 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 228883dd4af3f4f51c53524813c1852d392c1d29
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528729"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053959"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (Haziran 23 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -75,7 +74,7 @@ Artık İnsan Kaynakları kişiselleştirme yetenekleri kullanarak alan zorunlu 
 
 ## <a name="human-resources-application-in-teams"></a>Teams'de Human Resources uygulaması
 
-Çalışanlar, Microsoft Teams içinde işten geçen zamanı görüntüleyebilir ve talep edebilir . İzin istekleri oluşturmak için bir bot ile etkileşime girebilirler. Daha fazla bilgi için bkz: [Teams'te insan kaynakları uygulama](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Çalışanlar, Microsoft Teams içinde işten geçen zamanı görüntüleyebilir ve talep edebilir . İzin istekleri oluşturmak için bir bot ile etkileşime girebilirler. Daha fazla bilgi için bkz: [Teams'te insan kaynakları uygulama](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Sosyal haklar yönetimi için veri yönetimi çerçevesi (DMF) varlıkları
  
@@ -118,13 +117,15 @@ DMF varlığı artık tahakkuk askıya almalar için kullanılabilir.
 
 Personel self servis çalışma alanının adını Self servis olarak güncelleştirmek için **Human Resources parametrelerinde** yeni bir seçenek kullanılabilir olacaktır.
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'te bulunan denetim listesi varlıkları
+## <a name="checklist-entities-included-in-dataverse"></a>Dataverse'te bulunan denetim listesi varlıkları
 
-Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Common Data Service'te kullanılabilir olacaktır.
+Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Dataverse'te kullanılabilir olacaktır.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

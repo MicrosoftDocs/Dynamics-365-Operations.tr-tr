@@ -1,16 +1,13 @@
 ---
-title: iFrame modülü
-description: Bu konu iFrame modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
+title: Iframe modülü
+description: Bu konu iframe modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,33 +15,31 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 55526b34eb057abb9a8c33cbfea1807601da6577
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665408"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348226"
 ---
-# <a name="iframe-module"></a>iFrame modülü
+# <a name="iframe-module"></a>Iframe modülü
 
 [!include [banner](includes/banner.md)]
 
-Bu konu iFrame modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
+Bu konu iframe modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
-## <a name="overview"></a>Özet
+iframe modülü, bir sitedeki harici içeriği barındıran bir iframe (satır içi çerçeve) sağlar. Örneğin, herhangi bir site sayfasında bir YouTube videosu veya PDF dosyası görüntüleyiciyi barındırmak için kullanılabilir. 
 
-iFrame modülü, bir sitedeki harici içeriği barındıran bir iFrame (satır içi çerçeve) sağlar. Örneğin, herhangi bir site sayfasında bir YouTube videosu veya PDF dosyası görüntüleyiciyi barındırmak için kullanılabilir. 
-
-iFrame modülü için hedef URL gereklidir. Sonra, hedef sayfanın içeriğini bir HTML **iFrame** öğesinin içinde barındırır. Harici URL'lerin sitenin içerik güvenlik ilkesi (CSP) yönergeleri gereğince izin verilenler listesinde olmaları gerekir. iFrame içeriği için URL'lere **frame-ancestor** yönergesi kullanılarak izin verilmesi gerekir. Daha fazla bilgi için bkz. [İçerik Güvenlik İlkesini (CSP) yönetme](manage-csp.md).
+Iframe modülü için hedef URL gereklidir. Sonra, hedef sayfanın içeriğini bir HTML **iframe** öğesinin içinde barındırır. Harici URL'lerin sitenin içerik güvenlik ilkesi (CSP) yönergeleri gereğince izin verilenler listesinde olmaları gerekir. Iframe içeriği için URL'lere **frame-ancestor** yönergesi kullanılarak izin verilmesi gerekir. Daha fazla bilgi için bkz. [İçerik Güvenlik İlkesini (CSP) yönetme](manage-csp.md).
 
 > [!NOTE]
-> iFrame modülü Dynamics 365 Commerce 10.0.13 sürümünde bulunur.
+> iframe modülü Dynamics 365 Commerce 10.0.13 sürümünde bulunur.
 
-Aşağıdaki resimde, site sayfalarındaki harici videoları gösteren iFrame modülleri örnekleri gösterilmektedir.
+Aşağıdaki resimde, site sayfalarındaki harici videoları gösteren iframe modülleri örnekleri gösterilmektedir.
 
-![Harici videoları gösteren iFrame modülleri örneği](./media/ecommerce-iframe.PNG)
+![Harici videoları gösteren iframe modülleri örneği.](./media/ecommerce-iframe.PNG)
 
-## <a name="iframe-module-properties"></a>iFrame modülü özellikleri
+## <a name="iframe-module-properties"></a>iframe modülü özellikleri
 
 | Özellik adı             | Değer                 | Tanım |
 |---------------------------|-----------------------|-------------|
@@ -53,9 +48,9 @@ Aşağıdaki resimde, site sayfalarındaki harici videoları gösteren iFrame mo
 | Yükseklik | Sayı veya yüzde | Modülün piksel cinsinden veya yüzde olarak yüksekliği. Örneğin, **100** değeri piksel sayısı olarak değerlendirilir ve **%100** değeri yüzde olarak kabul edilir. |
 | Aria etiketi | Metin | Erişilebilirlik amacıyla, bir Erişilebilir Zengin İnternet Uygulamaları (ARIA) etiketi tanımlanabilir. |
 
-## <a name="add-an-iframe-module-to-a-page"></a>Sayfaya iFrame modülü ekleme
+## <a name="add-an-iframe-module-to-a-page"></a>Sayfaya iframe modülü ekleme
 
-Bir sayfaya harici bir video göstermek üzere bir iFrame modülü eklemek için aşağıdaki adımları izleyin.
+Bir sayfaya harici bir video göstermek üzere bir iframe modülü eklemek için aşağıdaki adımları izleyin.
 
 1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
 1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Pazarlama şablonu**'nu girin ve **Tamam**'ı seçin.
@@ -66,14 +61,17 @@ Bir sayfaya harici bir video göstermek üzere bir iFrame modülü eklemek için
 1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
 1. Modülün özellikler bölmesinde, **Genişlik** değerini **Dolgu Kapsayıcısı** olarak ayarlayın.
 1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **iFrame** modülünü seçin ve **Tamam**'ı seçin.
+1. **Modül Ekle** iletişim kutusunda **iframe** modülünü seçin ve **Tamam**'ı seçin.
 1. Modülün özellikler bölmesinde, **Hedef URL** değerini bir videonun harici URL'si olarak ayarlayın.
 1. İhtiyacınıza göre, **Başlık** ve **Yükseklik** gibi diğer özellikleri ayarlayın.
 1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
-1. Sitenizdeki pazarlama sayfasına gidin. Videonun iFrame modülünde işlendiğini görürsünüz.
+1. Sitenizdeki pazarlama sayfasına gidin. Videonun iframe modülünde işlendiğini görürsünüz.
  
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Modül kitaplığına genel bakış](starter-kit-overview.md)
 
 [İçerik Güvenliği İlkesini (CSP) yönetme](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

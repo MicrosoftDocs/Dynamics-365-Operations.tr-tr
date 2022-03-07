@@ -2,11 +2,9 @@
 title: Toplu iş oluşturma
 description: Toplu iş, otomatik işlem için bir Uygulama Nesne Sunucusu (AOS) kurulumuna gönderilmiş görevlerin bir grubudur.
 author: maertenm
-manager: AnnBe
-ms.date: 06/21/2019
+ms.date: 11/22/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4360cd7068658a170f5b44c2ce7c71c39c44fa8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 76c6c68f7effad0c40282b22ea2a6bf991862cf5
+ms.sourcegitcommit: d7d997ad84623ad952672411c0eb6740972ae0b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679900"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "7864185"
 ---
 # <a name="create-a-batch-job"></a>Toplu iş oluşturma
 
@@ -31,26 +29,53 @@ Toplu iş, otomatik işlem için bir Uygulama Nesne Sunucusu (AOS) kurulumuna g�
 
 ## <a name="create-the-batch-job"></a>Toplu işi oluşturun
 1. **Gezinti bölmesi > Modüller > Sistem yönetimi > Sorgular > Toplu işler**'e gidin.
-2. **Yeni**'ye tıklayın.
-3. **İş açıklaması** alanına bir değer yazın.
-4. **Planlanan başlangıç tarihi/saati** alanına bir tarih ve saat girin.
-5. **Kaydet**'e tıklayın.
+2. **Yeni**'yi seçin.
+3. **İş açıklaması** alanına toplu iş için bir açıklama girin.
+4. **Zamanlanan başlangıç tarihi/saati** alanına, toplu işlemin çalışacağı tarihi ve saati girin.
+5. **Kaydet**'i seçin.
 
 ## <a name="create-a-recurrence"></a>Yineleme oluşturun
-1. Eylem Bölmesi'nde **Toplu iş**'e tıklayın.
-2. **Yineleme**'ye tıklayın. Bu seçenekleri bir aralık ve yineleme için model girmek için kullanın.  
-3. **Tamam**'a tıklayın.
+1. Eylem Bölmesi'nde **Toplu iş**'i seçin.
+2. **Yineleme**'yi seçin. Bu seçenekleri bir aralık ve yineleme için model girmek için kullanın.  
+3. **Tamam**'ı seçin.
 
 ## <a name="add-alerts"></a>Uyarılar ekleyin
-1. Eylem Bölmesi'nde **Toplu iş**'e tıklayın.
-2. **Uyarılar**'a tıklayın. Toplu işlem bittiğinde, bir hata olduğunda veya iptal edildiğinde uyarı iletileri istiyorsanız belirtin. Ardından uyarıların açılır pencere iletileri olarak gösterilmesini istiyorsanız belirtin.   
-3. **Tamam**'a tıklayın.
+1. Eylem Bölmesi'nde **Toplu iş**'i seçin.
+2. **Uyarılar**'ı seçin. Toplu işlem bittiğinde, bir hata olduğunda veya iptal edildiğinde uyarı iletileri istiyorsanız belirtin. Ardından uyarıların açılır pencere iletileri olarak gösterilmesini istiyorsanız belirtin.   
+3. **Tamam**'ı seçin.
+
+## <a name="add-a-task-to-a-batch-job"></a>Toplu işe görev ekleme
+1.  **Toplu işler** sayfasında, **Görevleri görüntüle**'yi seçin.
+2.  Görev oluşturmak için **CTRL+N**'yi seçin.
+3.  Toplu görevin bir açıklamasını girin.
+4.  **Şirket hesapları** alanında, görevin çalışacağı şirket veri tabanını seçin.
+5.  **Sınıf adı** alanında, görevin çalıştırmasını istediğiniz işlemi seçin. 
+6.  Uygun şekilde, görev için bir toplu grup seçin.
+
+    İstemci görevlerinin bir toplu iş grubuna atanması gerekir. Bunlar, otomatik olarak varsayılan toplu iş grubuna atanır (boş toplu iş grubu olarak da bilinir).
+
+7.  Görevi kaydetmek için **CTRL+S**'yi seçin.
+8.  Seçili görevi projedeki başka bir göreve bağımlı hale getirmek için, **Koşullar var** kılavuzunu seçin ve tanımlamak istediğiniz her koşul için aşağıdaki adımları izleyin:
+
+    1. Koşul oluşturmak için **CTRL+N**'yi seçin.
+    2. Üst görevin görev kodunu seçin.
+    3. Bağımlı görevin çalışabilmesi için üst görevin ulaşması gereken durumu seçin.
+    4. Koşulu kaydetmek için **CTRL+S**'yi seçin.
+
+    Birden fazla koşul belirlerseniz ve bağımlı görevin çalışabilmesi için *tüm* koşulların sağlanması gerekiyorsa, **Tümü** koşul tipini seçin. Bağımlı görev, koşullardan *biri* sağlandıktan sonra çalışabilirse, **Biri** koşul tipini seçin.
+
+9.  Görev başarısızlıklarının nasıl işleneceğini seçin. **Genel** sekmesinde belirli bir görevin başarısızlığını yok saymak üzere bu görev için **Görev hatalarını yok say** seçeneğini belirleyin. Bu seçenek seçilirse, görev başarısızlığı işin başarısız olmasına neden olmaz. Bir görevin başarısız olarak kabul edilmesi için kaç kez denenmesi gerektiğini belirtmek için **Maksimum yeniden denemeler** alanını da kullanabilirsiniz. En iyi yöntem olarak, **Maksimum yeniden deneme** alanını **5**'ten büyük bir değere ayarlamamanızı öneririz.
+
+    Toplu iş denemeleri hakkında daha fazla bilgi için bkz. [Toplu iş yeniden denemelerini etkinleştirme](../retryable-batch.md).
 
 ## <a name="adjust-batch-job-status"></a>Toplu iş durumunu düzelt
 1. **Sistem yönetimi > Sorgular > Toplu işler**'e gidin.
 2. Uygun olan toplu işi seçin.
-3. Eylem Bölmesi'nde **Toplu iş > İşlevler > Durumu değiştir**'e tıklayın.
+3. Eylem Bölmesi'nde **Toplu iş > İşlevler > Durumu değiştir**'i seçin.
 4. Uygun olan durumu seçin:
     - **Stopaj**: Toplu işi **stopaj** olarak ayarlayın, böylece toplu iş planlayıcısından kesilir. *Durdur* ile eşdeğerdir.
     - **Bekliyor**: Toplu işi **bekliyor** olarak ayarlayın, böylece toplu iş planlayıcısı tarafından alınmayı bekler. *Git* ile eşdeğerdir.
-5. **Tamam**'a tıklayın.
+5. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

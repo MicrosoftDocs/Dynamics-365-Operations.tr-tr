@@ -2,27 +2,24 @@
 title: Maliyet nesnesine göre stok ekstresi ve KPI görüntüleme
 description: Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 author: AndersGirke
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, CostStatement, CostInventoryFlowChart, CostInventoryTurnCard, CostInventoryAccuracyCard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc60d442b9ed59b0bf882f578c31b8c591f4959a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a490f95ad41c3fcb3dd7912ddfcefca313f2058
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439172"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830184"
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Maliyet nesnesine göre stok ekstresi ve KPI görüntüleme
 
@@ -39,3 +36,6 @@ Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam
 7. Başlangıç tarihi alanına bir tarih girin.
 8. Bitiş tarihi alanına bir tarih girin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Bulut ve şirket içi özelliklerin karşılaştırması
 description: Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 309131f0d7390288a46f84b1375bd87922407159
-ms.sourcegitcommit: a017fc0583a894382b959e22511231dd07d4254a
+ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959906"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744063"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -44,9 +42,9 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |---------------------|-----------------------------|-----------|-----------------|
 | Uyumluluk ve sertifikalar        |                                                                                           | Evet       | Evet             |
 |                                      | SOC 1 Tip 1 sertifikası                                                                | Evet       | Hayır              |
-| Veri yönetimi ve tümleştirmesi      |                                                                                           | Evet       | Evet             
+| Veri yönetimi ve tümleştirmesi      |                                                                                           | Evet       | Evet             |
 |                                      | Veriyi kendi veri ambarınıza dışa aktarın                                                    | Evet       | Evet             |
-|                                      | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin                                 | Evet       | Evet              |
+|                                      | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin                                 | Evet       | Evet             |
 |                                      | Veri tümleştirmeler                                                                         | Evet       | Evet             |
 | Belge yönetimi                  |                                                                                           | Evet       | Evet             |
 | Mali yönetim                 |                                                                                           | Evet       | Evet             |
@@ -63,8 +61,8 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |                                      | Analiz çalışma alanları                                                                     | Evet       | No              |
 |                                      | Akıllı iş süreci: Öneriler                                             | Evet       | Hayır              |
 |                                      | Power BI masaüstü veya Excel PowerQuery araçlarını kullanarak OData ile Power BI raporları yazma    | Evet       | Hayır              |
-|                                      | SQL Server Raporlama Servisleri (SSRS) ölçeklemeyi destekler                                 | Evet       | Hayır              |
-|                                      | Telemetri buluta aktarılır                                                   | Evet       | Hayır              |
+|                                      | SQL Server Raporlama Servisleri (SSRS) ölçeklemeyi destekler                                 | Evet       | Evet             |
+|                                      | Telemetri buluta aktarılır                                                   | Evet       | No              |
 | Lifecycle services                   |                                                                                           | Evet       | Evet             |
 |                                      | Yapılandırılabilir işletme süreçleri                                                           | Evet       | Hayır              |
 | Yerelleştirmeler                        |                                                                                           | Evet       | Evet             |
@@ -86,7 +84,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 | **Alan**                | **Özellik**             | **Bulut** | **Şirket içi** |
 |-------------------------|-------------------|-----------|-----------------|
-| Kıymet yönetimi                     |                                                                                           | Evet       | No |
+| Kıymet yönetimi                     |                                                                                           | Evet       | No              |
 | Uyumluluk ve sertifikalar        |                                                                                           | Evet       | Evet             |
 |                                      | SOC 1 Tip 1 sertifikası                                                                | Evet       | Hayır              |
 | Maliyet muhasebesi                      |                                                                                           | Evet       | Evet             |
@@ -97,7 +95,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 | Veri yönetimi ve tümleştirmesi      |                                                                                           | Evet       | Evet             |
 |                                      | Yapılandırmaya dayalı eklenti                                                            | Evet       | Hayır              |
 |                                      | Veriyi kendi veri ambarınıza dışa aktarın                                                    | Evet       | Evet             |
-|                                      | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin                                 | Evet       | Evet              |
+|                                      | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin                                 | Evet       | Evet             |
 |                                      | Veri tümleştirmeler                                                                         | Evet       | Evet             |
 | Belge yönetimi                  |                                                                                           | Evet       | Evet             |
 | Yardım                                 |                                                                                           | Evet       | Hayır              |
@@ -112,8 +110,8 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |                                      | Analiz çalışma alanları                                                                     | Evet       | No              |
 |                                      | Akıllı iş süreci: Öneriler                                             | Evet       | Hayır              |
 |                                      | Power BI masaüstü veya Excel PowerQuery araçlarını kullanarak OData ile Power BI raporları yazma    | Evet       | Hayır              |
-|                                      | SQL Server Raporlama Servisleri (SSRS) ölçeklemeyi destekler                                 | Evet       | Hayır              |
-|                                      | Telemetri buluta aktarılır                                                   | Evet       | Hayır              |
+|                                      | SQL Server Raporlama Servisleri (SSRS) ölçeklemeyi destekler                                 | Evet       | Evet             |
+|                                      | Telemetri buluta aktarılır                                                   | Evet       | No              |
 | Stok Yönetimi                 |                                                                                           | Evet       | Evet             |
 | Lifecycle services                   |                                                                                           | Evet       | Evet             |
 |                                      | Yapılandırılabilir işletme süreçleri                                                           | Evet       | Hayır              |
@@ -176,3 +174,6 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 \* Şirket içi ortamlarda, PerfTimer yalnızca istemci için sonuçları gösterir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

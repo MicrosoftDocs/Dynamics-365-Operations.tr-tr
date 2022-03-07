@@ -1,30 +1,27 @@
 ---
 title: Ambalaj malzemeleri ve ücretleri
 description: Bu konu, belirli aralıklarda geri dönüşüm şirketleri için ödenen ambalaj malzemesi masrafları hakkında bilgi sağlar.
-author: MarkusFogelberg
-manager: tfehr
+author: Mirzaab
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 72d07365a5022a67b8868232fbbb04f610701009
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439182"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902033"
 ---
 # <a name="packing-materials-and-fees"></a>Ambalaj malzemeleri ve ücretleri
 
@@ -112,3 +109,6 @@ Ambalaj malzemesi ağırlıklarını yazdırmayı ve faturadaki ilgili ücretler
 
 1. **Alacak hesapları \> Kurulum \> Alacak hesapları parametreleri**'ne gidin.
 1. **Güncelleştirmeler** sekmesinde, **fatura** hızlı sekmesinde **ambalaj malzemesi ağırlığını Yazdır** seçeneğini **Evet** olarak ayarlayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

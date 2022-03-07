@@ -1,28 +1,25 @@
 ---
 title: Hub ilave masraflarını ve ana ilaveleri ayarlama
 description: Bu yordam bir hub için ana ilavenin nasıl oluşturulacağını ve onu hub ilave masrafı olarak kullanmayı gösterir.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSCarrierAccessorial,TMSAccessorialMaster, TMSHubAccessorial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad89afe0a21261c57311c439153b969d837748e4
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: f1480dec82912d547bde5db614703164e3f8451c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439759"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576244"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Hub ilave masraflarını ve ana ilaveleri ayarlama
 
@@ -54,3 +51,6 @@ Bu yordam bir hub için ana ilavenin nasıl oluşturulacağını ve onu hub ilav
 9. Kaydet'e tıklayın.
 10. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

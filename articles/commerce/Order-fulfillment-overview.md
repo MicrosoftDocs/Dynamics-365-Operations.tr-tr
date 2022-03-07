@@ -1,27 +1,25 @@
 ---
 title: Mağaza sipariş karşılama
 description: Bu konu, Mağaza sipariş karşılama konusuna genel bir bakış sağlar.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 10/30/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965414"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983354"
 ---
 # <a name="store-order-fulfillment"></a>Mağaza sipariş karşılama
 
@@ -35,7 +33,7 @@ Satış noktasındaki sipariş karşılama işlemi, satış noktasında sipariş
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Satış noktasındaki birleştirilmiş sipariş karşılamaya erişme
 
-Siparişin karşılama, [928 işlem kodu](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), satış noktasında mağaza sipariş karşılama çalışma alanına erişmek için kullanılabilir.
+Siparişin karşılama, [928 işlem kodu](pos-operations.md), satış noktasında mağaza sipariş karşılama çalışma alanına erişmek için kullanılabilir.
 
 Sipariş karşılama işleminin kullanıma hazır kendi izni bulunmamaktadır ancak kullanıcılar gelecekte işlemi satış noktasından çağırmak için **Sipariş almaya izin ver** iznini kullanabilecektir.
 
@@ -95,7 +93,7 @@ Bir sipariş kabul edildikten sonra, satırlar seçilebilir ve **Çekme** olarak
 
 Malzeme çekme listeleri, çalışanların çekme işlemini gerçekleştirmesine yardımcı olmak üzere satış noktasında yazdırılabilir. Yazdırılan bir malzeme çekme listesi çekme işlemini gerçekleştiren çalışanın yanında olabilir ve ürünler çekildikçe çalışan malzeme çekme listesinde ürünleri çekildi olarak işaretleyebilir.
 
-Malzeme çekme listesi biçimi, Commerce'da yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Malzeme çekme listesi biçimi, Commerce'da yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](receipt-templates-printing.md).
 
 Satırlar seçilir ve bu satırlar için bir malzeme çekme listesi yazdırılırsa, bunlar otomatik olarak **Çekme** durumuyla güncelleştirilir.
 
@@ -121,7 +119,7 @@ Sipariş satırları sipariş satırı kabul edildikten sonra herhangi bir nokta
 - **Neden olduğu durum:** Paketlendi veya kısmen paketlendi
 - **Neden olduğu arka ofis durumu:** Teslim edildi veya kısmen teslim edildi
 
-Bu eylem satırları paketlendi veya kısmen paketlendi olarak işaretler ve sevk irsaliyesini yazdırır. Bir arada paketlenen ürünleri doğrulamak için bir sevk irsaliyesi yazdırılabilir. Sevk irsaliyesi, Commerce'de yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Bu eylem satırları paketlendi veya kısmen paketlendi olarak işaretler ve sevk irsaliyesini yazdırır. Bir arada paketlenen ürünleri doğrulamak için bir sevk irsaliyesi yazdırılabilir. Sevk irsaliyesi, Commerce'de yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](receipt-templates-printing.md).
 
 **Eylem: Paketlendi olarak işaretle**
 
@@ -217,3 +215,6 @@ Satış noktasında sipariş karşılama, kullanıcının ihtiyacı olanı bulma
 - Oluşturulma tarihi
 - Teslimat tarihi
 - Giriş tarihi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

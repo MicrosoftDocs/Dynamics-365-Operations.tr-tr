@@ -2,26 +2,23 @@
 title: Transfer emirleri için ambarlar ayarlama
 description: Bu konu, transfer emirleri için ambarlar nasıl ayarlayabileceğinizi açıklar.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9e4ea0f9720bd4e5d2724b507aa32525ac25fa52
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439680"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823227"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Transfer emirleri için ambarlar ayarlama 
 
@@ -53,3 +50,6 @@ Ambarlar arası transfer emirlerini destekleyen bir hiyerarşi oluşturmak için
 2. **Alım noktası** alanında, **ambar**'ı seçin.
 3. **Sevkiyat ambarı**, **Alım ambarı** ve **Taşıma günleri**'ni seçin. 
 4. (İsteğe bağlı) Taşıma şekline bağlı olarak taşıma süresini de **Teslimat türüne göre taşıma günleri** sekmesinde ayarlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

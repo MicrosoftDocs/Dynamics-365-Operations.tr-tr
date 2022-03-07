@@ -1,29 +1,28 @@
 ---
 title: Satış sözleşmelerine genel bakış
 description: Bu konu, satış sözleşmeleri hakkında bilgiler sağlar. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage, SalesAgreementInvoiceJournal, SalesAgreementInvoicePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 9554
+ms.custom:
+- "9554"
+- intro-internal
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b848a0450c1cce1b3c6f7954397c75a44526d2b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 62283429aaa8d584b5b889bd4c9ac5904bf738a5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439224"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576604"
 ---
 # <a name="sales-agreements-overview"></a>Satış sözleşmelerine genel bakış
 
@@ -113,3 +112,6 @@ Finansal boyutları belge başlıklarına ya da satış anlaşmalarının tekil 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

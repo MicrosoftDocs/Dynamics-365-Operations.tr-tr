@@ -2,16 +2,13 @@
 title: Retail'de saat ve işe devam yönetimi
 description: Bu konuda, Dynamics 365 Commerce süre ve işe devam yönetimi için desteklenen senaryolar açıklanmaktadır.
 author: aamirallaqaband
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: cca5e3232450e75f931a621b278c134129fc745c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762680"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Retail'de saat ve işe devam yönetimi
 
@@ -41,9 +38,9 @@ Bu konuda, Dynamics 365 Commerce süre ve işe devam yönetimi için desteklenen
 
 ### <a name="plan-worker-schedules"></a>Çalışan zaman cetvelini planlayın
 
-- İş planlayıcısını kullanarak profilleri uygulayın. Daha fazla bilgi için bkz. [İş planlayıcı kullanarak profiller uygulamak](https://technet.microsoft.com/library/aa551234.aspx).
+- İş planlayıcısını kullanarak profilleri uygulayın. Daha fazla bilgi için bkz. [İş planlayıcı kullanarak profiller uygulamak](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
 
-Yapılandırma adımları hakkında daha fazla bilgi için bkz. [Zaman ve katılım ayarlama](https://technet.microsoft.com/library/aa496971.aspx).
+Yapılandırma adımları hakkında daha fazla bilgi için bkz. [Zaman ve katılım ayarlama](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
 
 ### <a name="commerce-specific-configuration"></a>Commerce yapılandırması
 
@@ -100,7 +97,7 @@ Yapılandırma adımları hakkında daha fazla bilgi için bkz. [Zaman ve katıl
         </tbody>
         </table>
 
-        [![Saat Durumları](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![Saat Durumları.](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - Onay mesajını görüntüleyin ve geçerli etkinlik saatinin doğru olduğunu doğrulayın.
 - Günlük defteri:
@@ -138,4 +135,7 @@ Bir Commerce kullanıcısı, zaman kayıtlarını hesaplamak, onaylamak ve ücre
 - Toplu Çıkış
 - Devamsızlığı Kaydet
 
-Zaman ve katılım kayıtlarını ayarlamak hakkında daha fazla bilgi için bkz. [Zaman ve katılım kayıtlarını işleme](https://technet.microsoft.com/library/aa573180.aspx).
+Zaman ve katılım kayıtlarını ayarlamak hakkında daha fazla bilgi için bkz. [Zaman ve katılım kayıtlarını işleme](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

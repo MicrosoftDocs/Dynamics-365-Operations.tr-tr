@@ -1,12 +1,11 @@
 ---
 title: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
-description: Aşağıdaki adımlar Sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanan bir kullanıcının, Elektronik raporlama (ER) model eşleşmelerini ayrı ER yapılandırmalarında nasıl yönetebileceklerini açıklar.
+description: Bu konuda, ayrı ER yapılandırmalarında Elektronik raporlama (ER) modeli eşlemelerinin nasıl yönetileceği açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fdd6804c33cc153974229c60b64c3bd76426241a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684439"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569425"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
 
@@ -161,3 +160,6 @@ ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu g�
 7. Tamam'a tıklayın.
     * Varsayılan model eşleme yapılandırması, bu biçim yapılandırması tarafından elektronik belge oluşturmak için kullanılır (oluşturulan çıktı şirket kodunu içerir).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

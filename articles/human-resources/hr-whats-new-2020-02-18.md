@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (18 Şubat 2020)
 description: Bu makalede, 18 Şubat 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 66ffd9d0ffcf0e8466be785274ef5fb0fceda7a9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526991"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463802"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (18 Şubat 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -43,17 +45,17 @@ Görünüm seçeneklerini değiştirdiğinizde ve değişiklikler uyguladığın
 
 Sabit ve değişken maaş yönetimi kutucukları şimdi yeni **çalışan** formunda doğru kayıtları görüntüler. Yalnızca, akıcı çalışan formu önizleme özelliği için geçerlidir. Bu önizleme özelliğini **Özellik yönetiminde** etkinleştirebilirsiniz. Daha fazla bilgi edinmek için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
 
-## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Common Data Service'te bazı bırakma isteği için Boş Durum alanı kayıt kayıtları (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Dataverse'te bazı bırakma isteği için Boş Durum alanı kayıt kayıtları (414915)
 
-Bu değişiklik, bir bırakma isteğindeki Common Data Service **durum** alanının **gözden geçirilmesi** için ayarlandığı durumlarda oluşan bir sorunu düzeltir. Common Data Service şimdi durumu yansıtır.
+Bu değişiklik, bir bırakma isteğindeki Dataverse **durum** alanının **gözden geçirilmesi** için ayarlandığı durumlarda oluşan bir sorunu düzeltir. Dataverse şimdi durumu yansıtır.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>Yetenek eksikliği Analizi yalnızca atanan iş için mümkündür (411390)
 
 İnsan Kaynakları tanımlı herhangi bir iş için artık bir yetenek eksikliği analizi yapabilirsiniz.
 
-## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>Sistem para birimi yeni ortamlarda Common Data Service'ten insan kaynaklarına eşitleme yapmıyor (418011)
+## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>Sistem para birimi yeni ortamlarda Dataverse'ten insan kaynaklarına eşitleme yapmıyor (418011)
 
-Common Data Service'deki sistem para birimi şimdi insan kaynakları ile eşitlenebilir.
+Dataverse'deki sistem para birimi şimdi insan kaynakları ile eşitlenebilir.
 
 ## <a name="in-preview"></a>Ön izlemede
 
@@ -63,9 +65,9 @@ Common Data Service'deki sistem para birimi şimdi insan kaynakları ile eşitle
 
 ## <a name="coming-soon"></a>Çok yakında
 
-### <a name="updated-common-data-service-solution"></a>Güncellenen Common Data Service çözümü
+### <a name="updated-dataverse-solution"></a>Güncellenen Dataverse çözümü
 
-Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında kullanıma sunulur:
+Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma sunulur:
 
 | Tanım | Değiştirme |
 | ----------------------------------------- | --- |
@@ -76,7 +78,7 @@ Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında 
 | Yeni değişken ücret kurulumu varlıkları | **Değişken Ücret Planı Türü**</br>**Maaş değişken planı**</br>**Hakediş ödeme kuralları**</br>**Değişken Ücret Planı Düzeyi** |
 | Yeni **çalışan takvimi çalışan** varlığı | **İş takvimi varlığı** eklendi |
 | Yeni **Bordro pozisyon ayrıntısı** varlığı | **Bordro pozisyon ayrıntısı** eklendi |
-| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Common Data Service eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
+| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Dataverse eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
@@ -84,3 +86,5 @@ Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında 
 [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

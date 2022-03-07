@@ -1,26 +1,24 @@
 ---
 title: Satınalma ilkeleri oluşturma
 description: Bu konu satınalma için iş süreçlerinize uygun olacak şekilde satınalma ilkelerinin nasıl oluşturulacağını gösterir.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPurposeRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86ffdff4cdb256fdae39de6228555da5fb88c707
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 06af7dd5d7c47267de3a91f13d6558c2a3b324794fc643f6cd3be9f0770ac7bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717184"
 ---
 # <a name="create-purchasing-policies"></a>Satınalma ilkeleri oluşturma
 
@@ -56,3 +54,6 @@ Bu konu satınalma için iş süreçlerinize uygun olacak şekilde satınalma il
 4. **Kapat**'ı seçin.
 - Şimdi satın alma ilkesi için diğer ilke kurallarını ayarlayabilirsiniz. İlke kuralı türünün tek bir tedarik ilkesi ile aynı sürede etkin olan çakışan kurallara sahip olamayacağına dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

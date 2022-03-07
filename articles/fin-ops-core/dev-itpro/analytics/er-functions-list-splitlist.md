@@ -2,11 +2,9 @@
 title: SPLITLIST ER işlevi
 description: Bu konu, SPLITLIST Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680357"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745581"
 ---
 # <a name="splitlist-er-function"></a>SPLITLIST ER işlevi
 
@@ -30,10 +28,16 @@ ms.locfileid: "4680357"
 
 `SPLITLIST` işlev, belirtilen listeyi, her biri belirtilen sayıda kayıt içeren toplu işleri bölün. Sonra sonucu, toplu işlemlerden oluşan yeni *bir kayıt listesi* değeri olarak döndürür.
 
-## <a name="syntax"></a>Sözdizimi
+## <a name="syntax-1"></a>Sözdizimi 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Sözdizimi 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Bağımsız değişkenler
@@ -45,6 +49,10 @@ SPLITLIST (list, number)
 `number`: *Tamsayı*
 
 Toplu iş başına maksimum kayıt sayısı
+
+`on-demand reading flag`: *Boole*
+
+İsteğe bağlı olarak alt liste öğelerinin oluşturulup oluşturulmayacağını belirten bir *Boole* değeri.
 
 ## <a name="return-values"></a>Dönüş değerleri
 
@@ -64,6 +72,8 @@ Aşağıdaki öğeleri içeren yeni bir toplu iş listesi olarak döndürür:
 
     Döndürülen listedeki geçerli toplu iş sayısı.
 
+İsteğe bağlı okuma bayrağı **True** olarak ayarlandığında bellek tüketiminde azalma sağlayan, ancak öğeler sıralı olarak kullanılmıyorsa performans düşüşüne neden olabilecek alt listeler istek üzerine oluşturulur.
+
 ## <a name="example"></a>Örnek
 
 Aşağıdaki örnekte, üç kaydın kayıt listesi olarak **Satırlar** veri kaynağı oluşturulur. Bu liste her biri en çok iki kayıt içeren toplu işlere ayrılır.
@@ -81,3 +91,6 @@ Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen so
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Liste işlevleri](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

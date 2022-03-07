@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 9704
 ms.assetid: 64c51384-8a4e-45d0-83c1-12cea22902f9
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540f7514a152cfba48d00a3cf863b24d23b4c30e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 20bf794a6ba2f0759b34afdefdd5fa65e3ad6b68
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439462"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224437"
 ---
 # <a name="direct-deliveries"></a>Doğrudan teslimatlar
 
@@ -53,3 +52,6 @@ Bir doğrudan sevkiyat oluşturduğunuzda, hiçbir zaman fiziksel olarak satmad�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

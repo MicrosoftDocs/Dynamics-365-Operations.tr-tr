@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349fed3ca75b94db2f421a1ff3c3553c96c202c37d59857a3d973f3de8f995ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0806a5b36b04e77a5a6d10f3c2eb3d7ba680e75
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755263"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356428"
 ---
 # <a name="product-configuration-model-calculations"></a>Ürün yapılandırma modeli hesaplamaları
 

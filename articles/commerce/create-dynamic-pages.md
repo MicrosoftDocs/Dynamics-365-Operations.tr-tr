@@ -2,9 +2,11 @@
 title: URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma
 description: Bu konuda, URL parametrelerine göre dinamik içerik sunabilen bir Microsoft Dynamics 365 Commerce e-ticaret sayfasının nasıl ayarlanacağı açıklanmaktadır.
 author: StuHarg
+manager: AnnBe
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
@@ -15,16 +17,17 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3de589e908b20a90ba32fc49f1b987066283aafacfb4b879124b4f0677b34301
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e72b738133b396848848d167cace80fe23694334
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747685"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098653"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konuda, URL parametrelerine göre dinamik içerik sunabilen bir Microsoft Dynamics 365 Commerce e-ticaret sayfasının nasıl ayarlanacağı açıklanmaktadır.
 
@@ -93,6 +96,3 @@ Commerce Site Builder'da özel bir sayfayla parametreli URL'yi geçersiz kılmak
 [Sayfa içeriği erişilebilirliğini doğrulama](verify-accessibility.md)
 
 [Çevrimiçi kanal genişletilebilirliği](e-commerce-extensibility/overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

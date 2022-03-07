@@ -2,11 +2,9 @@
 title: Ürün sınıflarını ayarlama
 description: Bu makalede, bir ürün çeşidinin ne olduğu ve Dynamics 365 Commerce'da ürün çeşitlerinin nasıl ayarlandığı açıklanmaktadır.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774497"
 ---
 # <a name="set-up-assortments"></a>Ürün çeşitleri ayarlama
 
@@ -33,7 +31,7 @@ Bu makalede, bir ürün çeşidinin ne olduğu ve Dynamics 365 Commerce'da ürü
 
 Ürün çeşidi, fiziksel mağaza veya çevrimiçi mağaza gibi bir ticaret kanalına atadığınız bir ilgili ürünler topluluğudur. Ürün sınıflarını, her mağaza tarafından kullanılabilecek ürünleri tanımlamak üzere kullanabilirsiniz. Bir ürün sınıfı, ürün kategorileri içerebilir. Bu nedenle, belirli bir kategoriye atanan tüm ürünler ürün sınıfına dahil edilir. Bir ürün sınıfı belirli ürünleri ve belirli ürün varyantlarını da içerebilir. Bir ürün sınıfı ayarlayarak, kanallarınıza, mağazaların ihtiyacı olan herhangi bir kombinasyonda, aynı anda binlerce ürün atayabilirsiniz. İhtiyaç duyduğunuz kadar ürün sınıfı ayarlayabilirsiniz. Her ürün bir veya daha fazla ürün sınıfına dahil edilebilir ve her ürün sınıfı bir veya daha fazla kanalına atanabilir. Örneğin, temel ürün kümesi içeren bir ürün sınıfı belirleyebilirsiniz. Tüm mağazalar bu ürün sınıfını alır. Ardından, yalnızca geniş spor ekipmanlarını içeren başka bir ürün sınıfı tanımlayabilirsiniz. Bu ürün sınıfını yalnızca büyük mağazalarınız alır. Aşağıdaki şekilde ürünlerin ürün sınıflarına ve bu ürün sınıflarının kanallarına nasıl atanacağı gösterilmektedir.
 
-![Ürün sınıfı ilişkileri](./media/assortments_relationship.gif)
+![Ürün sınıfı ilişkileri.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -54,3 +52,6 @@ Bir ürün sınıfı ayarlamadan ve bunu bir ticaret kanalına atamadan önce a�
 2. Ürün sınıfının uygulanacağı kanallarını veya yüksek düzey kanalı gruplarını seçin.
 3. Ürün sınıfına ürün kategorileri, bireysel ürünler veya ürün varyantları ekleyin. Tüm ürünleri belirli bir kategoriye ekleyebilir veya seçilen ürünleri ürün sınıfına dahil edilen bir kategoriden çıkarabilirsiniz.
 4. Ürün sınıfını yayınlayın. Bir ürün sınıfını yayınladığınızda, ürün sınıfı planlayıcı otomatik olarak çalışır. Bu işlem, ürün listesini oluşturur. Bu işlem tamamlandığında, ürünler ürün sınıfının atandığı kanalları tarafından kullanılabilir duruma gelir. Yayınlanmış olan bir ürün sınıfında veya ürün sınıfının atandığı kanallarda değişiklikler yapılırsa, ürün sınıfının da güncelleştirilmesi gerekir. Değişiklikler yapıldığında ürün sınıfını güncelleştirmek için ürün sınıfı planlayıcıyı toplu iş olarak çalıştırabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

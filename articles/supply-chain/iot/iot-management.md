@@ -1,28 +1,25 @@
 ---
 title: IoT Zekası'nı izleme ve yönetme
 description: Bu konu, IoT Zekası'nın nasıl izleneceğini ve yönetileceğini açıklar.
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 15021281b9ec33cd0552bca16e3054d0d3cdd589
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fbd750aa4a316f5e04f3c8622d0847ad9318360
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439549"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782669"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>IoT Zekası'nı izleme ve yönetme
 
@@ -59,6 +56,9 @@ Bir senaryo çalışırken şu değişiklikler yapılamaz:
 
 Fabrika makine sinyallerinin benzetimini yapabilirsiniz. Daha fazla bilgi edinmek için şu konulara bakın:
 
-+ [IoT DevKit AZ3166'yı Azure IoT Hub'a bağlama](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
-+ [Raspberry Pi online simulator'ı Azure IoT Hub'a (Node. js) bağlama](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [Aygıt Benzetimi çözüm hızlandırıcısına genel bakış](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
++ [IoT DevKit AZ3166'yı Azure IoT Hub'a bağlama](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [Raspberry Pi online simulator'ı Azure IoT Hub'a (Node. js) bağlama](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [Aygıt Benzetimi çözüm hızlandırıcısına genel bakış](/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

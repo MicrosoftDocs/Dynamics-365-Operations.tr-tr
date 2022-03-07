@@ -2,7 +2,7 @@
 title: İtalyan FatturaPA'yı doğrudan SDI ile tümleştirmeyi ayarlama
 description: Bu konu, İtalya için elektronik faturalamayı kullanmaya başlamanıza ve İtalyan FatturaPA'yı Exchange sistemi (SDI) ile doğrudan tümleştirmeyi ayarlamanıza yardımcı olacak bilgiler içerir.
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 12/14/2021
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,16 +10,18 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 0ccc9f04e42e748b4531622a1c90559d4ca17196
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984815"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922459"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>İtalyan FatturaPA'yı doğrudan SDI ile tümleştirmeyi ayarlama
 
 [!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > İtalya için Elektronik faturalama Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management içinden elektronik fatura için kullanılabilen tüm işlevleri şimdilik desteklemeyebilir.

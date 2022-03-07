@@ -1,12 +1,10 @@
 ---
 title: Tahakkuk eden abonelikler
 description: Servis abonelikleriyle, işlem harcını faturaladığınız tarihi izleyen dönemlerde geliri el ile tahakkuk ettirebilirsiniz.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d0d6c25cc8a19f5ebea3477cd2c957876752fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966092"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580492"
 ---
 # <a name="accruing-subscriptions"></a>Tahakkuk eden abonelikler 
 
@@ -43,7 +41,7 @@ Faturalanmış abonelik tutarlarını alacaklandırabilir, tahakkuk eden tutarla
 
   - Alacak dekontunun deftere nakledildiği tarihte veya tahakkukun orijinal deftere nakil tarihinde tahakkuk eden tutarlara tersine işlem uygulayabilirsiniz.
 
-Daha fazla bilgi için bkz. [Abonelik parametreleri (form)](https://technet.microsoft.com/library/aa619615.aspx).
+Daha fazla bilgi için bkz. [Abonelik parametreleri (form)](/dynamicsax-2012//subscription-parameters-form).
 
 ## <a name="setup-requirements"></a>Gereksinimler kurulumu
 
@@ -67,7 +65,7 @@ Abonelikler için gelir tahakkuku yapabilmek için **Gelir tahakkuku** onay kutu
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>Abonelik grubunda gelir tahakkukunu etkinleştirme
 
-1.  **Hizmet yönetimi** \> **Kurulum** \> **Servis abonelikleri** \> **Abonelik grupları**'na tıklayın.
+**Hizmet yönetimi** \> **Kurulum** \> **Servis abonelikleri** \> **Abonelik grupları**'na tıklayın.
 
 ## <a name="periods"></a>Dönemler
 
@@ -77,8 +75,8 @@ Aşağıdaki tablo, hangi faturalama dönemleri için hangi tahakkuk dönemlerin
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -151,3 +149,6 @@ Tahakkuk eden geliri deftere naklederken oluşturulan genel muhasebe hareketleri
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

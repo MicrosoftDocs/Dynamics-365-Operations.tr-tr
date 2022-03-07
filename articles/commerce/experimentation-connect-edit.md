@@ -2,15 +2,12 @@
 title: Deneme bağlama ve varyasyonları düzenleme
 description: Bu konuda, üçüncü taraf bir hizmetteki bir denemebib Dynamics 365 Commerce'a nasıl bağlanacağı ve denemeler için varyasyonların nasıl düzenleneceği açıklanmaktadır.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: d3b1a099e29073e82e2118f9e43441a9068a4d10f0ea9f79123b97d2b7d5c419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4416566"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773045"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Deneme bağlama ve varyasyonları düzenleme
 
@@ -31,7 +28,7 @@ Bu konu, Commerce'taki denemenizi nasıl bağlayacağınızı ve varyasyonların
 
 Aşağıdaki diyagramda, Dynamics 365 Commerce'taki bir e-Ticaret web sitesinde deneme ayarlama ve çalıştırmayla ilgili tüm adımlar gösterilmektedir. Ek adımlar ayrı konularda ele alınmıştır.
 
-[ ![Deneme kullanıcı yolculuğu - Bağla ve Düzenle](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
+[ ![Deneme kullanıcı yolculuğu - Bağla ve Düzenle.](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
 Üçüncü taraf bir hizmette [denemenizi ayarladıktan sonra](experimentation-setup.md), denemeyi Dynamics 365 Commerce'ta bağlayıp deneme varyasyonlarını düzenleyebilirsiniz.
 
@@ -95,3 +92,6 @@ Deneme kapsamını **Denemeyi bağla** sihirbazında **tam** olarak tanımladıy
 
 ## <a name="next-step"></a>Sonraki adım
 [Deneme önizleme ve yayımlama](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

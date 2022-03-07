@@ -2,11 +2,9 @@
 title: Excel için bütçe planlama şablonları
 description: Bu konu bütçe planlamalarında kullanılabilecek Microsoft Excel şablonlarının nasıl oluşturulacağını açıklar.
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 11c98768d08ef28d436bfc63812321e7c7787a72
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019291"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190297"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel için bütçe planlama şablonları
 
@@ -68,8 +66,7 @@ Başlık bilgisi eklemek için, Excel dosyasındaki üst satırı seçin ve boş
 
 ## <a name="select-add-valuemediabpt7png"></a>[![Değer Ekle'yi seçme](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Bütçe planı belge şablonu tablosuna bir hesaplanmış sütun ekleyin
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Bütçe planı belge şablonu tablosuna bir hesaplanmış sütun ekleyin
 
 Daha sonra, hesaplanmış sütunlar, oluşturulmuş bütçe planı belge şablonuna eklenir. Bir **Toplam istek** sütunu, İstek Q1: İstek Q4 sütunlarını toplar ve bir **Ayarlama** sütunu, **Toplam İstek** sütununu önceden belirlenmiş bir faktör ile yeniden hesaplar.
 
@@ -129,3 +126,6 @@ Bütçe verisinin ek gruplama ve görselleştirmeleri için özet tabloları ve 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

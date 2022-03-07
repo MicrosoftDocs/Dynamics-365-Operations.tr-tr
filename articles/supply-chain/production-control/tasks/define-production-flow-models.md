@@ -2,27 +2,24 @@
 title: Üretim akışı modellerini tanımlama
 description: Üretim akışı modelleri, yalın imalat iş hücrelerinin kapasitesinin nasıl hesaplanacağını ve sürdürüleceğini tanımlar.
 author: cvocph
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 548def312e101243877fbb2b3eafc5b756325d820f6dfa6fc53b1e4c2596b81a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779242"
 ---
 # <a name="define-production-flow-models"></a>Üretim akışı modellerini tanımlama
 
@@ -46,3 +43,6 @@ ms.locfileid: "4438999"
 8. Kapasite eksikliğine tepki alanında bir seçenek belirtin.
     * Seçenekler şunlardır:   Erteleme - Etkinliği zamanlamaya ilişkin tam talebi uygun bir iş çıkarma yeteneğinin olduğu sonraki uygun bir üretim gününe erteleyin. İptal etme - Etkinliği zamanlamaya ilişkin otomatik zamanlamayı sonlandırın ve planlanmamış ilgili işleri olduğu gibi bırakın.   İstenen güne ekleme - İstenen işleri istenen bir dönemde yapılacak şekilde planlayın. Bu, hücreyi bu gün için aşırı yükler ve planlayıcının gözden geçirmesini ve el ile etkili etkileşime girmesini gerektirir.   Kullanılabilir dönemlere dağıt - Planlama etkinliğinin farklı işlerini tüm kullanılabilir üretim günlerine dağıt, kullanılabilir ilk günden başlayarak. Minimum dağıtım miktarı kanban iş miktarıdır. Dağıtım, minimum planlama miktarını (kanban miktarı) yeterince uygun iş çıkarma yeteneği olan her bir güne atar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

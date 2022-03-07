@@ -2,11 +2,9 @@
 title: Resimleri karşıya yükleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce' site oluşturucuda görüntüleri karşıya yükleme yöntemi açıklanmaktadır.
 author: psimolin
-manager: annbe
-ms.date: 03/03/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963022"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891534"
 ---
 # <a name="upload-images"></a>Resimleri karşıya yükleme
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce' site oluşturucuda görüntüleri karşıya yükleme yöntemi açıklanmaktadır.
-
-## <a name="overview"></a>Özet
 
 Commerce site oluşturucusu Ortam Kitaplığı, görüntüleri tek tek veya klasörler kullanarak toplu şekilde karşıya yüklemenize olanak tanır. Görüntü yeniden boyutlandırıcı bileşeni, görüntüyü farklı görünüm pencereleri ve kesme noktalarıyla en iyi duruma otomatik olarak getireceğinden her zaman en yüksek çözünürlük ve kaliteye sahip görüntü sürümünü yüklemeniz gerekir.
 
@@ -45,7 +41,8 @@ Görüntü karşıya yüklenirken, aşağıdaki bilgiler belirtilebilir.
 - **Karşıya yükleme sonrasında varlıkları yayımla**: Bu onay kutusu seçildiğinde, görüntü veya görüntüler karşıya yüklemeden hemen sonra yayımlanır.
 
 > [!NOTE]
-> Kategori atanan görüntü varlıkları da belirli bir kategorinin varlıklarını aramaya yardımcı olacak şekilde kategori ile otomatik olarak etiketlenir.
+> - Kategori atanan görüntü varlıkları da belirli bir kategorinin varlıklarını aramaya yardımcı olacak şekilde kategori ile otomatik olarak etiketlenir.
+> - Ürün ayrıntı sayfaları, ürün adını kullanarak dinamik olarak **Alt Metni** oluşturur, böylece ürün görüntüsü için **Alt Metnin** değiştirilmesi işlenmiş görüntü üzerinde hiçbir etkiye sahip olmayacaktır.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Çok yönlü kanal görüntüleri için adlandırma kuralları 
 
@@ -56,9 +53,17 @@ Varsayılan adlandırma kuralı kategoriye göre değişir:
 - Kategori görüntülerinin şu şekilde adlandırılması gerekir: "**/Categories/\{CategoryName\}.png**"
 - Müşteri görüntülerinin şu şekilde adlandırılması gerekir: "**/Customers/\{CustomerNumber\}.jpg**"
 - Personel görüntülerinin şu şekilde adlandırılması gerekir: "**/Workers/\{WorkerNumber\}.jpg**"
-- Ürün görüntülerinin şu şekilde adlandırılması gerekir: "**/Products/\{ProductNumber\}_000_001.png**"
+- Ürün görüntülerinin şu şekilde adlandırılması gerekir: "**/Products/\{ProductNumber\}\_000_001.png**"
     - 001 görüntünün sırasıdır ve 001, 002, 003, 004 veya 005 olabilir
-- Ürün çeşidi görüntülerinin şu şekilde adlandırılması gerekir: "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
+- Ürün çeşidi görüntülerinin şu şekilde adlandırılması gerekir: "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
+    - Örnek: 93039 \^ &nbsp;\^ 2 \^ Siyah \^\_000_001.png
+- Yapılandırma boyutu bulunan ürün çeşidi görüntülerinin şu şekilde adlandırılması gerekir: "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
+    - Örnek: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Ürün çeşidi görüntüleri için boyut değeri boşsa dosya adındaki şapka işaretleri arasında iki boşluk olmalıdır.
+
+Yukarıdaki örneklerde varsayılan yapılandırma kullanılır. Ayırıcı karakteri ve boyutlar yapılandırılabilir ve gerekli tam adlandırma, dağıtımlar arasında değişiklik gösterebilir. Gerekli tam adlandırma kuralını belirlemenin bir yöntemi, mağaza ürün ayrıntıları sayfasındaki (PDP) ürün boyutlarını değiştirirken ürün çeşidi görüntüsü isteklerini incelemek için tarayıcının geliştirici konsolunu kullanmaktır.
 
 ## <a name="upload-an-image"></a>Görüntüyü karşıya yükleme
 
@@ -96,3 +101,6 @@ Site oluşturucuda bir görüntü klasörünü toplu olarak karşıya yüklemek 
 [Görüntü odak noktalarını özelleştirme](dam-custom-focal-point.md)
 
 [Statik dosyaları karşıya yükleme ve sunma](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

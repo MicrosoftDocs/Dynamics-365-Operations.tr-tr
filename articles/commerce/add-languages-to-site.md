@@ -2,36 +2,30 @@
 title: Sitenize dil ekleme
 description: Bu konu, bir Microsoft Dynamics 365 Commerce sitesine ek diller için nasıl destek ekleneceğini açıklamaktadır.
 author: bicyclingfool
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416365"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964566"
 ---
 # <a name="add-languages-to-your-site"></a>Sitenize dil ekleme
-
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, bir Microsoft Dynamics 365 Commerce sitesine ek diller için nasıl destek ekleneceğini açıklamaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 Web sitenizi Commerce destekleyen herhangi bir dilde yerelleştirebilirsiniz. (Desteklenen dillerin listesi bu konunun ilerisinde görüntülenir.) Web sitenize bir dil eklemek için, bunu önce sitenize bağlı olan bir çevrimiçi mağazaya eklemeniz gerekir.
 
@@ -171,8 +165,9 @@ Eklediğiniz dil, site düzenleme ortamında kullanacak şekilde konfigüre edeb
 
 [Favicon ekleme](add-favicon.md)
 
-[Hoş geldiniz iletisi ekleme](add-welcome-message.md)
-
 [Telif hakkı bildirimi ekleme](add-copyright-notice.md)
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

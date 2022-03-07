@@ -1,33 +1,35 @@
 ---
-title: İşlem kayıt uygunluğu
-description: Bu makalede, kayıt uygunluk işleminin nasıl çalıştırıldığı açıklanır.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Kayıt uygunluğunu işleme
+description: Bu konuda, kayıt uygunluğunu işleminin nasıl çalıştırıldığı açıklanmaktadır.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420891"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067641"
 ---
-# <a name="process-enrollment-eligibility"></a>İşlem kayıt uygunluğu
+# <a name="process-enrollment-eligibility"></a>Kayıt uygunluğunu işleme
 
-Bu makalede, kayıt uygunluk işleminin nasıl çalıştırıldığı açıklanır.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Bu konuda, kayıt uygunluğunu işleminin nasıl çalıştırıldığı açıklanmaktadır.
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **işlem** altında, kayıt **uygunluk işlemini** seçin.
 
@@ -54,11 +56,11 @@ Bu makalede, kayıt uygunluk işleminin nasıl çalıştırıldığı açıklan�
 
 ## <a name="view-process-results"></a>İşlem Sonuçlarını Görüntüleme
 
-Bu makalede, uygunluk işlemi sonuçlarının nasıl görüntüleneceği açıklanmaktadır.
+Bu konuda, uygunluk işlemi sonuçlarının nasıl görüntüleneceği açıklanmaktadır.
 
 1.  **Kazanç yönetimi** çalışma alanında, **İşleme** altında, **İşlem sonuçları**'nı seçin.
 
-2.  **İşlem sonuçları** formunda, aşağıdaki alanlar belirtilir:
+2.  **İşlem sonuçları** sayfasında, aşağıdaki alanlar belirtilir:
 
    | Alan | Tanım |
    | --- | --- |
@@ -72,3 +74,6 @@ Bu makalede, uygunluk işlemi sonuçlarının nasıl görüntüleneceği açıkl
    | **Sonuç durumu** | Bu, Uygun veya Uygun Değil olacaktır. Çalışan uygunluk kuralı kriterini karşılamıyorsa, çalışanın ödeme sıklığı veya sabit ücret gibi gerekli bilgileri eksikse veya kazanç planında çalışanın kaydedilmesini engelleyen eksik bilgi varsa sonuç durumu Uygun Değil olur. |
    | **Sonuç iletisi** | Bir çalışanın kazanç planı için neden uygun olmadığını veya uygunluk kuralının geçilip geçilmediğini gösterir. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,29 @@
 title: Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme
 description: Departmanlar, işler ve pozisyonlar İnsan kaynakları içinde tutulan kuruluş öğeleridir. Bu konuda bu öğeler hakkında kavramsal bilgiler açıklanmıştır.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd50bf7e8e03d72d6d0e1e2b0b065a5d9c7a3ef44e96f92a5fc342a0d820d8e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778808"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Departmanlar, işler ve pozisyonlar İnsan kaynakları içinde tutulan kuruluş öğeleridir. Bu konuda bu öğeler hakkında kavramsal bilgiler açıklanmıştır. 
 
@@ -43,8 +42,7 @@ Aşağıdaki örnek, bu konuda açıklanan kavramları göstermek için kullanı
 |**İnsan kaynakları**|İK yöneticisi (Merkezi)|İK yöneticisi|
 
 
- <a name="departments"></a>Departmanlar
-------------
+##  <a name="departments"></a>Departmanlar
 
 Bir departman, organizasyonun satış veya muhasebe gibi belirli organizasyon alanından sorumlu bir kategorisini veya işlevsel alanını temsil eden bir işletme birimidir. Bir departman, işlevsel alanlar konusunda raporlama yapmak için kullanılır ve kar ve zarar sorumluluğu olabilir. Ayrıca, bir departman maliyet merkezleri grubu da içerebilir. Satış, muhasebe ve insan kaynakları organizasyondaki departmanlara bazı örneklerdir.
 
@@ -97,8 +95,7 @@ Benzer işleri kategorilere ayırmak için iş türlerini kullanın. İş türle
 
 Bir pozisyondaki işçinin o iş için sorumlu olacağı iş rollerini, süreçleri ve ürünleri belirtmek üzere sorumluluk alanlarını kullanın. "Muhasebeci" başlıklı bir iş için sorumluluk alanına örnek "A Ürünü için finansal raporlama" olabilir.
 
-<a name="positions"></a>Pozisyonlar
-----------
+## <a name="positions"></a>Pozisyonlar
 
 Pozisyonlar, organizasyon hiyerarşisinin alt düzeylerinin önemli bir öğesidir. Bir pozisyon, bir işin bireysel eşdüşümüdür. Örneğin "Satış yöneticisi (Doğu)" pozisyonu, "Satış yöneticisi" işiyle ilişkilendirilmiş işlerden sadece biridir. Bir departmanda ve çalışanlara tanmış olarak pozisyonlar vardır.
 ### <a name="position-creation-and-maintenance"></a>Pozisyon oluşturma ve muhafaza etme
@@ -120,7 +117,7 @@ Bir pozisyona işçi atadığınızda, o pozisyonu doldurmuş olursunuz. İşçi
 
 Pozisyonlar, bir organizasyon hiyerarşisinin alt düzeyi için önemli öğelerdir. Pozisyon formunda, bir pozisyonun rapor vereceği pozisyonu belirtebilirsiniz. Bir pozisyona başka bir pozisyona rapor veren bir işçi atadığınızda, iki pozisyona atanan işçiler arasında bir raporlama ilişkisi oluşturmuş olursunuz. Örneğin, "Muhasebeci A" pozisyonu "Muhasebe Gözetmeni" pozisyonuna rapor verir. Kim Akers "Muhasebe Gözetmeni" pozisyonuna atanmıştır ve Sanjay Patel "Muhasebeci A" pozisyonuna atanmıştır. Bu, Sanjay Patel'in Kim Akers'a rapor vereceği anlamına gelir. 
 
-Organizasyonunuz bir matris hiyerarşisi veya başka bir özel hiyerarşi kullanıyorsa, pozisyon hiyerarşisi türleri ayarlayabilir ve ayarladığınız her bir hiyerarşi türü için pozisyonlara rapor ilişkileri ekleyebilirsiniz. Örneğin, Lori Penor Adventure Works'te genel müdürdür ve “Genel Müdür” pozisyonuna atanmıştır. Lori ıvır zıvır temizliğinde kullanılan bir ürünün geliştirilmesini yönetmektedir. Lori'nin ürünü geliştirmek için finans konusunda muhasebecinin yardımına ihtiyacı vardır. Bu nedenle, Sanjay Patel'i muhasebecisi olarak işe almıştır. Sanjay, doğrudan Kim Akers'a rapor vermektedir, ancak ıvır zıvır temizleyicisi geliştirme çalışmasının finansmanı konusunda Lori Penor ile birlikte de çalışır. 
+Organizasyonunuz bir matris hiyerarşisi veya başka bir özel hiyerarşi kullanıyorsa, pozisyon hiyerarşisi türleri ayarlayabilir ve ayarladığınız her bir hiyerarşi türü için pozisyonlara rapor ilişkileri ekleyebilirsiniz. Örneğin, Lori Penor Adventure Works'te genel müdürdür ve “Genel Müdür” pozisyonuna atanmıştır. Lori ıvır zıvır temizliğinde kullanılan bir ürünün geliştirilmesini yönetmektedir. Lori'nin ürünü geliştirmek için finans konusunda muhasebecinin yardımına ihtiyacı vardır. Bu nedenle, Sanjay Patel'i muhasebeci olarak işe almıştır. Sanjay, doğrudan Kim Akers'a rapor vermektedir, ancak ıvır zıvır temizleyicisi geliştirme çalışmasının finansmanı konusunda Lori Penor ile birlikte de çalışır. 
 
 Önceki örnek için, Sanjay Patel ve Lori Penor arasında iş ilişkisi oluşturacak aşağıdaki görevleri tamamlarsınız:
 1.  Ivır zıvır temizleme ürünü üzerinde çalışmaktan sorumlu olan pozisyonları içeren bir hiyerarşi yaratmak için "Ivır zıvır" adlı özel bir pozisyon hiyerarşisi türü oluşturun.
@@ -159,9 +156,12 @@ Bazı kayıtlar için, kayda ileride yapılacak değişiklikleri belirtebilirsin
 </tbody>
 </table>
 
-Önceki tabloda sözü edilen bilgileri bir pozisyona veya işe yönelik olarak değiştirebilir ve pozisyon veya işe yapılan değişikliklerin ne zaman geçerlilik kazanacağını belirtebilirsiniz. Örneğin, bir pozisyon yalnızca bir işçiye atanabilir ancak Muhasebe A pozisyonuna atanan Sanjay Patel iki hafta boyunca işte olmayacak. Sanjay Patel ayrıldığında, yerini Joe Healy alır. Sanjay hala kendi pozisyona atanmış olsa da, Joe Healy'i atamanın ancak Sanjay'ın son gününden sonra geçerli olacağı şekilde aynı pozisyona atayabilirsiniz.
+Önceki tabloda sözü edilen bilgileri bir pozisyona veya işe yönelik olarak değiştirebilir ve pozisyon veya işe yapılan değişikliklerin ne zaman geçerlilik kazanacağını belirtebilirsiniz. Örneğin, bir pozisyon yalnızca bir işçiye atanabilir ancak Muhasebe A pozisyonuna atanan Sanjay Patel iki hafta boyunca işte olmayacak. Sanjay Patel ayrıldığında, Sanjay'ın yerini Joe Healy alır. Sanjay hala kendi pozisyona atanmış olsa da, Joe Healy'i atamanın ancak Sanjay'ın son gününden sonra geçerli olacağı şekilde aynı pozisyona atayabilirsiniz.
 
 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

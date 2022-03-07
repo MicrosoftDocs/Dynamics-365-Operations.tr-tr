@@ -10,27 +10,24 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16c9ca145aff97f0af242da4cf662367f1f4ca3d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416406"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211460"
 ---
 # <a name="footer-module"></a>Alt bilgi modülü  
 
 [!include [banner](includes/banner.md)]
 
 Bu konu altbilgi modüllerini ve bunların nasıl Microsoft Dynamics 365 Commerce'te oluşturacağını açıklamaktadır ve kapsamaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 Altbilgi modülü, sayfa altbilgisinde gösterilen modülleri barındırmak için kullanılan özel bir kapsayıcıdır. Örneğin, **Bize başvurun** ve **Mağaza ilkeleri** sayfaları gibi çeşitli sayfaların bağlantılarını içerebilir.
 
@@ -87,3 +84,6 @@ Parçayı sayfa şablonlarına ekleyerek, altbilginin her sayfada oluşturulmas�
 [Üst bilgi modülü](author-header-module.md)
 
 [Alt bilgi modülü](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

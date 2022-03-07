@@ -11,16 +11,17 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 04d7c1de85978f7915246fd835a0866cefb6de310bba240ebcadc57089e10521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735123"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Kesinti workbench'ini kullanarak kesintileri yönetme
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Bu konuda, kesintileri içeren müşteri ödemelerini işlemek için kesinti workbench'inin nasıl kullanılacağı açıklanmaktadır.
 
@@ -51,7 +52,7 @@ Ticari tahsisat indirimi için kesinti uyguluyorsanız şu görevleri tamamlaman
 
 Sistem, tüm kesinti olaylarını bir talep günlüğüne kaydeder. Bu nedenle sisteminizde bu amaçla kullanılabilecek bir günlük bulunmalıdır. Talep günlüğünüz yoksa şimdi ayarlayın. Bu günlük, kesintileri doğrudan kesinti workbench'inde, müşteri kapatma işlemlerinde veya müşteri sayfasında oluşturmak için gereklidir.
 
-Kesintiler için yeni bir talep günlüğü oluşturmak üzere aşağıdaki adımları izleyin.
+Kesintiler için yeni bir talep günlüğü oluşturmak üzere şu adımları izleyin.
 
 1. **Genel muhasebe \> Günlük ayarı \> Günlük adları**'na gidin.
 1. **Yeni**'yi seçin ve yeni günlük adı için aşağıdaki alanları ayarlayın:
@@ -82,7 +83,7 @@ Kesintiler için yeni bir talep günlüğü oluşturmak üzere aşağıdaki adı
 
 Sistem yeni bir kesinti için bir talep günlüğü oluşturduğunda iki yeni müşteri hareketi de oluşturur: Biri talep tutarını orijinal faturaya mahsup eder ve diğeri bir müşterinin borcunu talep tutarına kaydeder (talep henüz onaylanmadığından). Bu nedenle, sisteminizi tek bir fişte birden fazla müşteri satırı olacak şekilde ayarlamanız gerekir.
 
-Tek bir fişte birden çok müşteri satırı olmasını sağlamak için aşağıdaki adımları izleyin.
+Tek bir fişte birden çok müşteri satırı olmasını sağlamak için şu adımları izleyin.
 
 1. **Genel muhasebe\> Genel muhasebe ayarı \> Genel muhasebe parametreleri**'ne gidin.
 1. **Genel muhasebe** sekmesinde, **Genel** hızlı sekmesinde **Tek bir fiş içinde birden fazla harekete izin ver** seçeneğini *Evet* olarak ayarlayın.
@@ -119,7 +120,7 @@ Bu görevi zamanlamak için **Satış pazarlama \> Periyodik görevler \> Onayla
 
 ### <a name="create-a-deduction-journal-entry-by-using-the-customer-payment-journal"></a>Müşteri ödeme günlüğünü kullanarak bir kesinti günlüğü girişi oluşturma
 
-Kesinti günlüğü girişi oluşturmak için aşağıdaki adımları izleyin.
+Kesinti günlüğü girişi oluşturmak için şu adımları izleyin.
 
 1. **Alacak hesapları \> Ödemeler \> Müşteri ödeme günlüğü** seçeneğine gidin.
 1. Izgaraya bir satır eklemek için **Yeni**'yi seçin.
@@ -140,7 +141,7 @@ Kesinti günlüğü girişi oluşturmak için aşağıdaki adımları izleyin.
 
 ### <a name="create-a-deduction-by-using-the-deduction-workbench"></a>Kesinti workbench'ini kullanarak kesinti oluşturma
 
-Kesinti workbench'inde yeni bir kesinti oluşturmak için aşağıdaki adımları izleyin.
+Kesinti workbench'inde yeni bir kesinti oluşturmak için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. Eylem Bölmesi'nde, **Yönet \> Yeni kesinti**'yi seçin.
@@ -254,7 +255,7 @@ Müşteri sayfasından kesinti oluşturma, kesinti workbench'i aracılığıyla 
 
 Müşteri için onaylanmış bir indirim mevcut olduğunda gerekirse indirimi göstermek için müşterinin hesabında bir alacak dekontu oluşturabilirsiniz. Ardından kredi bir kesinti ile eşleştirilebileceği kesinti workbench'inde görüntülenir.
 
-Yeni bir alacak dekontu oluşturmak için aşağıdaki adımları izleyin.
+Yeni bir alacak dekontu oluşturmak için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Müşteriler \> Tüm müşteriler** öğesine gidin.
 1. Müşteriyi seçin.
@@ -272,7 +273,7 @@ Kesintiyi nasıl işlemek istediğinize bağlı olarak, aşağıdaki alt bölüm
 
 ### <a name="match-a-deduction-to-a-credit"></a>Kesintiyi bir krediyle eşleştirme
 
-Kesintiyi bir krediyle eşleştirmek için aşağıdaki adımları izleyin.
+Kesintiyi bir krediyle eşleştirmek için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. İşlenecek kesinti için **İşaretle** onay kutusunu seçin.
@@ -284,7 +285,7 @@ Kesintiyi bir krediyle eşleştirmek için aşağıdaki adımları izleyin.
 
 ### <a name="split-a-deduction"></a>Kesintiyi bölme
 
-Kesintiyi bölmek için aşağıdaki adımları izleyin.
+Kesintiyi bölmek için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. İşlenecek kesinti için **İşaretle** onay kutusunu seçin.
@@ -297,7 +298,7 @@ Kesintiyi bölmek için aşağıdaki adımları izleyin.
 
 Kesinti, kesinti workbench'i, müşteri kapatma işlemleri veya müşteri sayfasındaki **Yeni kesinti** komutu kullanılarak oluşturulduysa ve şu anda eklenmiş bir fatura yoksa (başka bir deyişle, **Fatura** sütunu boşsa) kesintiye bir fatura ekleyebilirsiniz.
 
-Kesintiye bir fatura eklemek için aşağıdaki adımları izleyin.
+Kesintiye bir fatura eklemek için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. İşlenecek kesinti için **İşaretle** onay kutusunu seçin.
@@ -312,7 +313,7 @@ Kesintiye bir fatura eklemek için aşağıdaki adımları izleyin.
 
 Kesinti, kesinti workbench'i, müşteri kapatma işlemleri veya müşteri sayfasındaki **Yeni kesinti** komutu kullanılarak oluşturulduysa, şu anda eklenmiş bir fatura varsa (başka bir deyişle, **Fatura** sütununda bir fatura numarası gösteriliyorsa) ve **Talep durumu** alanı *Açık* olarak ayarlanmışsa kesintiden bir faturayı ayırabilirsiniz. Yanlış bir fatura eklendiğinden bu görevi tamamlayabilirsiniz. Fatura kesintiden kaldırılır ve fatura eklendiğinde azaltılmışsa kalan bakiyesi güncelleştirilir.
 
-Faturayı ayırmak için aşağıdaki adımları izleyin.
+Faturayı ayırmak için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. İşlenecek kesinti için **İşaretle** onay kutusunu seçin.
@@ -322,7 +323,7 @@ Faturayı ayırmak için aşağıdaki adımları izleyin.
 
 Kesinti workbench'i, müşteri kapatma işlemleri veya müşteri sayfasındaki **Yeni kesinti** komutu kullanılarak oluşturulan kesintileri onaylayabilirsiniz. Ancak yalnızca **Talep durumu** alanının *Açık* olarak ayarlandığı kesintileri onaylayabilirsiniz.
 
-Kesintiyi onaylamak için aşağıdaki adımları izleyin.
+Kesintiyi onaylamak için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. İşlenecek kesinti için **İşaretle** onay kutusunu seçin.
@@ -374,7 +375,7 @@ Kesinti workbench'i, müşteri kapatma işlemleri veya müşteri sayfasındaki *
 - **[Alacak hesapları parametreleri](#accounts-receivable-deductions)** sayfasının **Kesintiler** sekmesindeki **İade emri oluştur** seçeneği *Evet* olarak ayarlanır.
 - **[Alacak hesapları parametreleri](#accounts-receivable-deductions)** sayfasının **Kesintiler** sekmesindeki **Kesinti onayından önce iade emri oluştur** seçeneği *Evet* olarak ayarlanır.
 
-İade emri oluşturmak için aşağıdaki adımları izleyin.
+İade emri oluşturmak için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. İşlenecek kesinti için **İşaretle** onay kutusunu seçin.
@@ -396,7 +397,7 @@ Kesinti workbench'i, müşteri kapatma işlemleri veya müşteri sayfasındaki *
 
 ### <a name="deny-a-deduction"></a>Kesintiyi reddetme
 
-Kesintiyi reddetmek için aşağıdaki adımları izleyin.
+Kesintiyi reddetmek için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. İşlenecek kesinti için **İşaretle** onay kutusunu seçin.
@@ -413,7 +414,7 @@ Kesintiyi reddetmek için aşağıdaki adımları izleyin.
     - Kesintinin **Durum** alanı *Kapalı* olarak ayarlanır.
     - Kesintinin **Talep durumu** alanı *Reddedildi* olarak ayarlanır.
 
-Reddetme işlemini tersine çevirmek için aşağıdaki adımları izleyin.
+Reddetme işlemini tersine çevirmek için şu adımları izleyin.
 
 1. **Kesintiler** sekmesinde, reddedilen bir kesintiyi seçin.
 1. Eylem Bölmesi'nde, **Reddetmeyi tersine çevir**'i seçin.
@@ -426,7 +427,7 @@ Reddetme işlemini tersine çevirmek için aşağıdaki adımları izleyin.
 
 ### <a name="write-off-a-deduction"></a>Kesintiyi silme
 
-Kesintiyi silmek için aşağıdaki adımları izleyin.
+Kesintiyi silmek için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. İşlenecek kesinti için **İşaretle** onay kutusunu seçin.
@@ -443,7 +444,7 @@ Kesintiyi silmek için aşağıdaki adımları izleyin.
     - Kesintinin **Durum** alanı *Kapalı* olarak ayarlanır
     - Kesintinin **Talep durumu** alanı *Sil* olarak ayarlanır.
 
-Silme işlemini tersine çevirmek için aşağıdaki adımları izleyin.
+Silme işlemini tersine çevirmek için şu adımları izleyin.
 
 1. **Kesintiler** sekmesinde, reddedilen bir kesintiyi seçin.
 1. Eylem Bölmesi'nde **Silmeyi tersine çevir**'i seçin.
@@ -471,7 +472,7 @@ Kredi faturalandırıldıktan ve kesinti onaylandıktan sonra kredi, geçerli **
 
 #### <a name="attach-a-free-text-invoice-to-a-deduction"></a>Kesintiye serbest metinli bir fatura ekleme
 
-Kesintiye serbest metinli bir fatura eklemek için aşağıdaki adımları izleyin.
+Kesintiye serbest metinli bir fatura eklemek için şu adımları izleyin.
 
 1. **Alacak hesapları \> Faturalar \> Tüm serbest metin faturaları**'na gidin.
 1. Geçerli faturayı seçin.
@@ -481,7 +482,7 @@ Kesintiye serbest metinli bir fatura eklemek için aşağıdaki adımları izley
 
 #### <a name="attach-a-return-order-to-a-deduction"></a>Kesintiye bir iade emri ekleme
 
-Kesintiye bir iade emri eklemek için aşağıdaki adımları izleyin.
+Kesintiye bir iade emri eklemek için şu adımları izleyin.
 
 1. **Alacak hesapları \> Siparişler \> Tüm iade emirlerine**'ne gidin.
 1. Geçerli alınan veya açık iade mal yetki (RMA) numarasını seçin.
@@ -491,7 +492,7 @@ Kesintiye bir iade emri eklemek için aşağıdaki adımları izleyin.
 
 #### <a name="attach-a-sales-order-to-a-deduction"></a>Kesintiye bir satış siparişi ekleme
 
-Kesintiye bir satış siparişi eklemek için aşağıdaki adımları izleyin.
+Kesintiye bir satış siparişi eklemek için şu adımları izleyin.
 
 1. **Alacak hesapları \> Siparişler \> Tüm satış siparişleri**'ne gidin.
 1. Geçerli açık, teslim edilen veya faturalandırılmış satış siparişini seçin.
@@ -518,7 +519,7 @@ Bu bölümde, kesintiyi kesintiden bir krediye nasıl ekleyebileceğiniz açıkl
 
 #### <a name="attach-a-deduction-to-a-free-text-return-order-or-sales-order-credit"></a>Serbest metin, iade emri veya satış siparişi kredisine bir kesinti ekleme
 
-Serbest metin, iade emri veya satış siparişi kredisine bir kesinti eklemek için aşağıdaki adımları izleyin.
+Serbest metin, iade emri veya satış siparişi kredisine bir kesinti eklemek için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. Geçerli açık kesintiyi seçin.
@@ -552,7 +553,7 @@ Bazen, kesintiyle eşleştirebileceğiniz onaylanmış bir indiriminiz olmayabil
 
 Bu özellik ticari tahsisatları kullandığınızda yararlıdır. Ticari tahsisatlar hakkında daha fazla bilgi için bkz. [Ticari tahsisat yönetimi](../sales-marketing/trade-allowance.md).
 
-Öncelikle yeni ticari tahsisat sözleşmesini oluşturmak için kullanılabilecek bir şablon oluşturmanız gerekir. Şablonu ayarlamak için aşağıdaki adımları izleyin.
+Öncelikle yeni ticari tahsisat sözleşmesini oluşturmak için kullanılabilecek bir şablon oluşturmanız gerekir. Şablonu ayarlamak için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Şablonlar**'a gidin.
 1. Eylem Bölmesinde, **Yeni**'yi seçin.
@@ -563,7 +564,7 @@ Bu özellik ticari tahsisatları kullandığınızda yararlıdır. Ticari tahsis
 1. **Satış ve pazarlama \> Kurulum \> Ticari tahsisat \> Ticari tahsisat yönetimi parametreleri**'ne gidin.
 1. **Genel Bakış** sekmesinde, **Tek seferlik promosyon şablonu** alanında, tek seferlik promosyonlar oluşturmak için kullanılacak şablonun adını seçin.
 
-Ardından kesinti workbench'inde tek seferlik promosyon oluşturabilirsiniz. Tek seferlik promosyon oluşturmak için aşağıdaki adımları izleyin.
+Ardından kesinti workbench'inde tek seferlik promosyon oluşturabilirsiniz. Tek seferlik promosyon oluşturmak için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. İşlenecek kesintinin yanındaki **İşaretle** onay kutusunu seçin.
@@ -579,7 +580,7 @@ Ardından kesinti workbench'inde tek seferlik promosyon oluşturabilirsiniz. Tek
 
 Aynı değişikliği birden fazla kesintide yapmanız gerekiyorsa bu kesintileri seçerek alanları toplu olarak güncelleştirebilirsiniz.
 
-Toplu güncelleştirme yapmak için aşağıdaki adımları izleyin.
+Toplu güncelleştirme yapmak için şu adımları izleyin.
 
 1. **Satış ve pazarlama \> Ticari tahsisatlar \> Kesintiler \> Kesinti workbench'i**'ne gidin.
 1. Eylem Bölmesi'nin altındaki **Göster** alanında, görüntülenecek kesinti türünü seçin.

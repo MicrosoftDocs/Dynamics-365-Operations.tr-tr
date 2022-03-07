@@ -3,7 +3,7 @@ title: Adventure Works temasına genel bakış
 description: Bu konu, Adventure Works temasına genel bakış sağlar ve bunun Microsoft Dynamics 365 Commerce'deki site sayfalarına nasıl uygulanacağını açıklar.
 author: anupamar-ms
 ms.date: 12/03/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 34ea24e2d81a69d720973455492f9e05ed34dd81
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9065860555cd07f6bacbdf7c8bd7892a3f2e1b89
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983706"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891559"
 ---
 # <a name="adventure-works-theme-overview"></a>Adventure Works temasına genel bakış
 

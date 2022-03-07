@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookupMultiSelectGrid, KanbanBoardScheduleJobForward
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8342bf6c56adc41cc4944dc709152246ad93a3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 30f7c431b3d27a534e53540c41768ea55c8dd39f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439493"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222813"
 ---
 # <a name="schedule-kanban-jobs"></a>Kanban işlerini planlama
 
@@ -62,3 +61,6 @@ Bu prosedür, belirli bir iş hücresi için kanban işlerini zamanlama işlemin
     * Her iki işin istenen öneme eklendiğine dikkat edin.  
     * Dönem kapasitesi bölümünde, her bir dönemin yükünü görebilirsiniz. Tüketim alanı bu dönemde zamanlanan tüketimi gösterir. Zamanlanmış tüketim bu dönemdeki kullanılabilir kapasiteden daha yüksekse, aşırı yüklenmiş tüketim seçilecektir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

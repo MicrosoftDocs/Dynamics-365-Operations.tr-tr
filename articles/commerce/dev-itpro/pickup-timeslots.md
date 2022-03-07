@@ -2,11 +2,9 @@
 title: Müşteri malzeme çekme için zaman aralıkları oluşturma ve güncelleştirme
 description: Bu konu, Commerce Headquarters'ta müşteri teslim alma dilimlerini oluşturmayı, yapılandırmayı ve güncelleştirmeyi açıklar.
 author: anupamar-ms
-manager: AnnBe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
-ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "4828223"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355464"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Müşteri malzeme çekme için zaman aralıkları oluşturma ve güncelleştirme
 
@@ -36,7 +34,7 @@ Zaman dilimi özelliği, perakendecilere, müşteri malzeme çekme teslim modunu
 
 Aşağıdaki çizimde e-ticaret teslim alma sırasında zaman dilimi seçimine ilişkin bir örnek gösterilmektedir.
 
-![E-ticaret kullanıma alma sırasında zaman aralığı seçimi örneği](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![E-ticaret kullanıma alma sırasında zaman aralığı seçimi örneği.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Zaman dilimi özellikleri
 
@@ -62,7 +60,7 @@ Zaman aralığı aşağıdaki özellikler kullanılarak tanımlanır:
 - **Etkin günler** – Malzeme çekme zaman yuvalarının etkin olduğu haftanın günlerini belirtin. Bu özellik, perakende satış siparişinin malzeme çekme emirlerini desteklemek istediği günleri tanımlamasını sağlar.
 - **Perakende satış kanalları** – Perakende kanallarını belirtin. Her zaman dilimi bir veya daha fazla perakende depolarıyla ilişkilendirilebilir. Her mağazanın operasyon saatlerine göre, bir veya daha fazla zaman dilimi girişi oluşturulabilir ve bir kanalla ilişkilendirilebilir. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Kanal başına yalnızca bir zaman dilimi şablonu konfigüre edilebilir. Bu kanallar arasında gerçek mekan depoları, çağrı merkezleri, mobil aygıtlar ve e-ticaret siteleri sayılabilir.
 
@@ -87,14 +85,14 @@ Commerce Headquarters'da zaman dilimi özelliğini konfigüre etmek için aşağ
     > [!NOTE]
     > Birden çok şablon oluşturabilirsiniz, ancak tek bir kanal veya depoyla yalnızca bir şablon ilişkilendirilebilir.
 
-    ![Sipariş malzeme toplama zamanı ayarları iletişim kutusu](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Sipariş malzeme toplama zamanı ayarları iletişim kutusu.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Tamamladıktan sonra **Tamam**'ı seçin.
 1. Bir günün zaman dilimlerinde değişiklik olursa, Tarih ve saatin çakışmadığından emin olmak için **sipariş toplama zamanı ayarları** hızlı sekmesinde ek girişler oluşturun.
 1. **Perakende Kanalları** hızlı sekmesinde, zaman dilimi şablonunu kullanılacak mağazalar veya kanallarla ilişkilendirmek için **Ekle**'yi seçin.
 1. **Kuruluş düğümlerini Seç** iletişim kutusunda, şablonun ilişkilendirilmesi gereken depoları, bölgeleri ve organizasyonları seçmek (veya seçimi temizlemek) için ok düğmelerini kullanın.
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Tamamladıktan sonra **Tamam**'ı seçin.
 1. **Dağıtım zamanlaması** sayfasında, **1070** ve **1135** işlerini veriyi kanallara senkronize etmek için kullanın.
@@ -105,7 +103,7 @@ POS'ta, malzeme çekme için bir sipariş veya sipariş satırı tanımlandığ�
 
 Aşağıdaki çizimde POS siparişi için zaman dilimi seçimine ilişkin bir örnek gösterilmektedir.
 
-![Bir POS siparişi için zaman aralığı seçimi örneği](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Bir POS siparişi için zaman aralığı seçimi örneği.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>E-ticaret siparişleri için zaman dilimi seçimi
 
@@ -116,14 +114,17 @@ E-ticaret siparişleri için zaman dilimi seçimini nasıl kullanılabilir hale 
 
 Aşağıdaki çizimde, malzeme çekme zamanı yuvasının seçildiği bir e-ticaret siparişi örneği gösterilmektedir.
 
-![Malzeme çekme zamanı yuvasının seçildiği bir e-ticaret siparişi örneği](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Malzeme çekme zamanı yuvasının seçildiği bir e-ticaret siparişi örneği.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Çağrı merkezi siparişleri için saat dilimi seçimi
 
 Çağrı merkezi uygulamasında çağrı merkezi temsilcileri, teslim alma mağazası veya konumunu, ayrıca aşağıdaki çizimde vurgulanan tarih ve saat dilimini seçebilir.
 
-![Malzeme çekme zamanı yuvasının seçildiği bir çağrı merkezi siparişi örneği](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Malzeme çekme zamanı yuvasının seçildiği bir çağrı merkezi siparişi örneği.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Malzeme çekme bilgileri modülü](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

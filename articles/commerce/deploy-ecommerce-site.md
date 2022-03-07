@@ -2,46 +2,40 @@
 title: Yeni bir e-ticaret kiracısını dağıtma
 description: Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir Dynamics 365 Commerce e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
 author: psimolin
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750726"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Yeni bir e-ticaret kiracısını dağıtma
-
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir Dynamics 365 Commerce e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
 
-## <a name="overview"></a>Genel bakış
-
 Microsoft Dynamics Lifecycle Services (LCS), iş ortaklarının ve müşterilerin projelerini ve ortamlarını yönetmek, Microsoft Dynamics ürünlerle ve özelliklerle ilgili en son bilgileri görüntülemek ve destek olayları oluşturmak, izlemek ve bunlara gözatmak için kullanılabilecek bulut tabanlı bir ortak çalışma alanıdır. E-ticaret yönetim özellikleri LCS ile tümleşiktir.
 
-LCS hakkında daha fazla bilgi edinmek için, [Lifecycle Services Kullanıcı Kılavuzu](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)'na bakın.
+LCS hakkında daha fazla bilgi edinmek için, [Lifecycle Services Kullanıcı Kılavuzu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)'na bakın.
     
 ## <a name="get-started"></a>Başlayın
 
 E-ticaretin ilk önce başlatılması için bir proje, ortam ve bir Retail Cloud Scale Unit (rcsu) başlatmalısınız. LCS'de başlatma yapmak için, proje sahibi veya ortam yöneticisi rolü için izinleriniz olmalıdır. Üretim ve korumalı alan ortam topolojileri desteklenir.
 
-Ortamlar hakkında daha fazla bilgi için [ortam planlama](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning) konusuna bakın. RCSU hakkında daha fazla bilgi için, bkz. [Retail Cloud Scale Unit Başlat](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
+Ortamlar hakkında daha fazla bilgi için [ortam planlama](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning) konusuna bakın. RCSU hakkında daha fazla bilgi için, bkz. [Retail Cloud Scale Unit Başlat](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
 ## <a name="initialize-e-commerce"></a>e-Ticaret başlat
 
@@ -112,3 +106,6 @@ Commerce site oluşturucuya erişmek için, LCS'de **Retail Management** sayfas�
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

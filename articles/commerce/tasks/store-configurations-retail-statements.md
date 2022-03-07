@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: e1670a1a102f9288cdbd0e4cc981e3aa927d1ad9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4416579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232677"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Perakende ekstreleri için mağaza yapılandırmaları
 
@@ -49,3 +48,6 @@ Bu yordam, Commerce ekstrelerinin oluşturulması ve nakledilmesini etkileyen ma
 17. Tanımlanan her ekstre yöntemi için oluşturulan ekstreleri almak için **Ekstre yöntemine göre böl**'e "Evet"i seçin. Bu eylem, aynı anda işlenebilecek çok sayıda küçük ekstre oluşturacağından, deftere nakil performansının yüksek hareket hacmine sahip mağazalar için geliştirilmesi gerektiğinde yararlı olabilir.  
 18. **Genel** hızlı sekmesinde **Varsayılan müşteri** alanında, bağımsız müşterilere satış için kullanılacak müşteri hesabını seçebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

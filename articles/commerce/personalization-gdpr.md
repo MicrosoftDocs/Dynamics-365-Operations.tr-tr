@@ -2,16 +2,13 @@
 title: Kişiselleştirilmiş önerilerden vazgeçme
 description: Bu konu, müşterilerin Microsoft Dynamics 365 Commerce'ta kişiselleştirilmiş öneriler almamasına nasıl izin verileceğini açıklamaktadır.
 author: bebeale
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416398"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804465"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Kişiselleştirilmiş önerilerden vazgeçme
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, müşterilerin Microsoft Dynamics 365 Commerce'ta kişiselleştirilmiş öneriler almamasına nasıl izin verileceğini açıklamaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 Hesap oluşturma sırasında, yeni müşteriler otomatik olarak kişiselleştirilmiş öneriler almak için ayarlanır. Ancak, Dynamics 365 Commerce perakendeciler için kullanıcıların bu önerileri almalarını ve kişisel verilerinin işlenmesini kısıtlamalarını sağlamak amacıyla çeşitli yollar sunar. Kişiselleştirilmiş Önerileri almaya çalışan kimliği doğrulanmış kullanıcılar, kişiselleştirilmiş listeleri hemen görmeyi durdurur. Ek olarak, kişiselleştirme için toplanan tüm kişisel veriler kişiselleştirilmiş öneri modellerinden kaldırılacaktır.
 
@@ -104,3 +99,6 @@ Aşağıdaki örnek, bir perakendecin bu görevi nasıl yerine getirebileceği g
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

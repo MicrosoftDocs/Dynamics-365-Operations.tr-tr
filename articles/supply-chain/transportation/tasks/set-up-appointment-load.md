@@ -2,27 +2,24 @@
 title: Yük için randevu ayarlama
 description: Bu yordam bir yük için giriş/çıkış noktası randevusunun nasıl ayarlanacağını ve planlanacağını gösterir.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSAppointment
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eaf3acda7e56df1af41e91809387644778d2cf3f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 356a939739642dde94adca788020b7decc5345ff
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439083"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809026"
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>Yük için randevu ayarlama
 
@@ -47,3 +44,6 @@ Bu yordam bir yük için giriş/çıkış noktası randevusunun nasıl ayarlanac
 6. Kaydet'e tıklayın.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

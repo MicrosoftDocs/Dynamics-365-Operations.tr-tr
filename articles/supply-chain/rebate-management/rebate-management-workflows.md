@@ -5,6 +5,7 @@ author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -13,26 +14,27 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: 37b8022633e61c4d98d6f5d129bcf494a9ed92e0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576676"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831734"
 ---
 # <a name="rebate-management-deal-workflows"></a>İndirim yönetimi anlaşması iş akışları
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 İndirim anlaşmalarını onaylamak için, İndirim yönetimi, diğer Finance and Operations uygulamalarıyla aynı iş akışı platformunu kullanır. İki iş işlemi her iş akışı ile ilişkilendirilmiştir:
 
-- İş akışının bir öğesi anlaşmayı onaylar.
 - İş akışının bir öğesi, Kullanıcı veya iş akışı işleminin hareketleri onaylaması için, anlaşmayı etkinleştirir.
+- İş akışının bir öğesi anlaşmayı onaylar.
 
 İndirim anlaşması kullanabilmeniz için, bunun **indirim Yönetimi** modülünde etkin olması gerekir. Bir anlaşmayı etkinleştirmek için önce bir *indirim yönetimi anlaşma iş akışı* oluşturmalı ve konfigüre etmelisiniz.
 
-Kullanıcılar fırsatları el ile onaylayamaz. İş akışının her zaman kullanılması gereklidir.
+İndirim yönetimi için iş akışı etkinleştirildikten sonra, kullanıcılar anlaşmaları el ile onaylayamaz. İş akışının her zaman kullanılması gereklidir.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>İndirim yönetimi anlaşması iş akışlarını oluşturma ve yönetme
 
@@ -42,17 +44,4 @@ Kullanıcılar fırsatları el ile onaylayamaz. İş akışının her zaman kull
 
 Bir iş akışı üzerinden bir anlaşmayı etkinleştirmek için, anlaşmayı açın (örneğin, **tüm indirim yönetimi anlaşmaları** sayfasında). Ardından Eylem bölmesinden **İş akışı \> Gönder**'i seçin. Yeni anlaşma iş akışı ile işlendikten ve onaylandıktan sonra, etkin ve kullanıma hazır olur.
 
-Bir anlaşma etkinleştirildikten sonra, kurulumunun büyük bölümünü değiştiremezsiniz. Etkin bir anlaşmayı değiştirmeniz gerekiyorsa, önce bunu devre dışı bırakın ve sonra yeni bir anlaşma oluşturun. Yeni anlaşma eski anlaşmayı benziyorsa, eski anlaşmayı kopyalayarak bunu oluşturabilirsiniz.
-
-Bir anlaşma etkinleştirildikten sonra aşağıdaki ayarları değiştirebilirsiniz:
-
-- Mutabakat ölçütü
-- Kümülatif garanti
-- Deftere nakil profili
-- Garanti için nakil profili
-- Belge notları
-- Para Birimi
-- Başlangıç tarihi
-- Bitiş tarihi
-
-Ayrıca, indirim satırları kaldırılabilir.
+Bir anlaşma etkinleştirildikten sonra, kurulumunu değiştiremezsiniz. Etkin bir anlaşmayı değiştirmeniz gerekiyorsa, bunu devre dışı bırakın ve sonra yeni bir anlaşma oluşturun. Yeni anlaşma eski anlaşmayı benziyorsa, eski anlaşmayı kopyalayarak bunu oluşturabilirsiniz.

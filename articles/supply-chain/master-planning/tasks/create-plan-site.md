@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqTransPOUrgentFormPart, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52721d948554d4853f9e1d4dec45e45e619a4829
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d5ef805ba42500175d29208f1dcd5d383c63adb8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439316"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214358"
 ---
 # <a name="create-a-plan-for-a-site"></a>Tesis için plan oluşturma
 
@@ -55,3 +54,6 @@ ms.locfileid: "4439316"
 2. Kesinleştir öğesine tıklayın.
 3. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

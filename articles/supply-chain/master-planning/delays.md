@@ -1,30 +1,27 @@
 ---
 title: Gecikmeler
 description: Bu konu, ana planlamadaki gecikmeli tarihler hakkında bilgi sağlar. Gecikmeli bir tarih, bir hareketin talep edilen tarihi, ana planlama tarafından hesaplanan en erken tamamlanma tarihinden sonraysa alacağı gerçekçi bir tarihtir.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da09d670fd952d885f013693b6362cf9002343ff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e89830feea12b4f5703e0eda622729887dd9bf46
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439543"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573765"
 ---
 # <a name="delays"></a>Gecikmeler
 
@@ -55,7 +52,9 @@ Eylem iletileri, ürün reçetesi yapısındaki başka gecikmelerden dolayı son
 
 **Planlanan siparişler** sayfasında, planlanan sipariş için **Gecikmeler** sekmesi, **İstenilen tarihtir**. Planlanan siparişin istenilen tarihi, **Net Gereksinim**'den hesaplanan **Talep edilen tarih**'e eşit olan gecikmeler için temel tarihtir. Planlanan sipariş bir BOM satırı, üretim satırı veya kanban satırıysa, istenilen tarih **Gereksinim tarihi** üzerine dayanır ve istenilen tarih **Planlanan sipariş** sayfasında görüntülenmez.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Kapsam ayarları](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

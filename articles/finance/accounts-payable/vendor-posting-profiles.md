@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8ebb67bddf6fa9aae8ba6c6ed290c94bb2e0a047ca6157aa1325f4cf21f148f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777228"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835496"
 ---
 # <a name="vendor-posting-profiles"></a>Satıcı deftere nakil profilleri
 
@@ -28,7 +28,8 @@ ms.locfileid: "6777228"
 
 Satıcı deftere nakil profilleri, satıcı hareketlerinin genel muhasebeye naklini kontrol eder.
 
-## <a name="vendor-posting-profiles"></a>Satıcı deftere nakil profilleri
+<a name="vendor-posting-profiles"></a>Satıcı deftere nakil profilleri
+-----------------------
 
 Satıcı deftere nakil profilleri tüm satıcılara, bir satıcı grubuna veya tek bir satıcıya genel muhasebe hesapları ve belge ayarları atamanızı sağlar. Bu ayarlar satınalma siparişleri, satıcı faturaları ve nakit ödemeler oluşturduğunuzda kullanılacaktır. Bazı hareketler için, bu sayfadaki hareket için ayarlanan nakil profillerinden farklılık gösteren ve bunların yerini alan bir nakil profili seçebilirsiniz. Varsayılan deftere nakletme profili, **Borç Hesapları parametreleri** sayfasındaki **Genel Muhasebe ve Satış Vergisi** hızlı sekmesinde tanımlanır. Varsayılan nakil profili, onu farklı nakil profiline gerekiyorsa değiştirebileceğiniz, yeni belge başlığındaki otomatik olarak eklenir.
 

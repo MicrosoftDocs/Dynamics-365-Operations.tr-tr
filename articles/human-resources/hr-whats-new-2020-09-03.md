@@ -1,9 +1,9 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (03 Eylül 2020)
 description: Bu konuda, 3 Eylül 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
+author: andreabichsel
 manager: tfehr
-ms.date: 9/03/2020
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,17 +15,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ddffff18e1d6d16bd5a5f7e7021f9a34651307fa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b1cf348425cba71024ee0d158d42bb1071260d09
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527474"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467711"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler (3 Eylül 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -106,9 +108,9 @@ Bu özellik ayrıca, personel eylemleri formlarında görünen iş akışı seç
 
 ## <a name="coming-soon"></a>Çok Yakında
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'te bulunan denetim listesi varlıkları
+### <a name="checklist-entities-included-in-dataverse"></a>Dataverse'te bulunan denetim listesi varlıkları
 
-Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Common Data Service'te kullanılabilir olacaktır.
+Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Dataverse'te kullanılabilir olacaktır.
 
 ### <a name="benefits-management-reason-codes"></a>Yan haklar yönetimi neden kodları
 
@@ -120,3 +122,6 @@ Yan haklar yönetimi neden kodları Human Resources içinde var olan neden kodla
 [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

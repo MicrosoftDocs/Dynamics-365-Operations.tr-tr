@@ -4,10 +4,8 @@
       items:
         - name: Dynamics 365 Commerce giriş sayfası
           href: index.md
-        - name: Kullanmaya başlayın
+        - name: Başlayın
           items:
-            - name: Hizmet açıklaması
-              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: Satın almadan önce
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: One Version hizmet güncelleştirmeleri
@@ -74,6 +72,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange uygulama kılavuzu
                   href: dev-itpro/implementation-considerations-cdx.md
+                - name: Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
+                - name: Fransa'daki Finance and Operations uygulamaları
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Destek alma
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Yükseltme ve N-1 desteği
@@ -90,21 +92,21 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce'teki yenilikler veya değişiklikler
                   items:
-                    - name: Commerce'teki yenilikler veya değişiklikler giriş sayfası
+                    - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.25 (Nisan 2022)
-                      href: get-started/whats-new-commerce-10-0-25.md
-                    - name: Commerce 10.0.24 (Şubat 2022)
-                      href: get-started/whats-new-commerce-10-0-24.md
-                    - name: Commerce 10.0.23 (Ocak 2022)
-                      href: get-started/whats-new-commerce-10-0-23.md
+                    - name: Commerce 10.0.18 (Mayıs 2021)
+                      href: get-started/whats-new-commerce-10-0-18.md
+                    - name: Commerce 10.0.17 (Nisan 2021)
+                      href: get-started/whats-new-commerce-10-0-17.md
+                    - name: Commerce 10.0.16 (Şubat 2021)
+                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
-                    - name: Finance and Operations'ta kaldırılan veya kullanım dışı bırakılan özellikler
+                    - name: Finance and Operations'daki kaldırılan veya kullanım dışı bırakılan özellikler
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
-                    - name: Dynamics 365 Commerce'te kaldırılan veya kullanım dışı bırakılan özellikler
+                    - name: Dynamics 365 Commerce'taki kaldırılan veya kullanım dışı bırakılan özellikler
                       href: get-started/removed-deprecated-features-commerce.md
                 - name: Ertelenen AX 2012 özellikleri
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
@@ -118,7 +120,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
                 - name: Özel yardıma genel bakış
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Alan açıklamalarını görüntüleme ve dışarı aktarma
+                - name: Alan açıklamalarını görüntüleme ve dışa aktarma
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Görev kaydedici
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/commerce/toc.json
@@ -126,6 +128,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: Videolar
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
+                - name: Sözlük
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: Öğrenme kataloğu
               items:
                 - name: Öğrenme kataloğu giriş sayfası
@@ -178,10 +182,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Power Apps'teki tuval uygulamalarını ekleme
+                - name: Power Apps'teki tuval uygulamalarını katıştırma
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
-                - name: Üçüncü taraf uygulamaları ekleme
-                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Oturumun tarihini değiştirme
@@ -194,7 +196,7 @@
               items:
                 - name: Uygulama yaşam döngüsü yönetimi giriş sayfası
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations uygulamaları için mimari
+                - name: Finance and Operations uygulamaları mimarisi
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Microsoft FastTrack
                   href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
@@ -204,7 +206,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
                 - name: Servise almak için hazırlama
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: Servise alma ile ilgili SSS
+                - name: Servise almayla ilgili SSS
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: Servis isteği gönderme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
@@ -220,7 +222,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Tek bir Azure AD kiracısında birden fazla LCS projesi ve üretim ortamı
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations Commerce projeleri uygulama
+                - name: Finance and Operations Commerce projelerini uygulama
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Projeler için yeni ortamlar, Azure DevOps ve dallar ayarlama'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -234,9 +236,11 @@
               items:
                 - name: Dynamics 365 Commerce mimarisine genel bakış
                   href: commerce-architecture.md
-                - name: Dynamics 365 Commerce kimlik doğrulaması akışları
+                - name: Dynamics 365 Commerce kimlik doğrulama akışları
                   href: arch-auth-flow.md
-                - name: Gözetimsiz ticari mimari
+                - name: Dynamics 365 Commerce bileşen sürümü oluşturma gereksinimleri
+                  href: arch-component-versioning.md
+                - name: Commerce Scale Unit mimarisi
                   href: dev-itpro/retail-server-architecture.md
                 - name: Mağaza içi topoloji seçme
                   href: dev-itpro/retail-in-store-topology.md
@@ -248,15 +252,9 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: Commerce Data Exchange ile ilgili sorunları giderme
                       href: dev-itpro/CDX-Troubleshooting.md
-                    - name: Commerce Data Exchange paketlerini birincil dizine göre sıralama
-                      href: CDX-package-sort.md
                 - name: Modern POS mimarisi
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Commerce mağaza içi teknoloji yığınını modernleştirme (teknik inceleme)
-                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Commerce için çevrimdışı uygulama ve sorun giderme
-                  href: dev-itpro/implementation-considerations-offline.md
-                - name: Çevrimiçi mağaza kataloğu yayımlama
+                - name: Çevrimiçi mağaza yayımlama mimarisi
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI içeriği
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -278,13 +276,11 @@
                   href: set-up-activation-accounts-validate-devices-hq.md
                 - name: POS cihazını etkinleştirme
                   href: dev-itpro/retail-device-activation.md
-                - name: Paylaşılan ortamlarda Cloud POS güvenliğini sağlamaya yardımcı olma
+                - name: Paylaşılan ortamlarda Bulut POS güvenliğini sağlamaya yardımcı olma
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Retail Hardware Station'ı yapılandırma ve yükleme
                   href: retail-hardware-station-configuration-installation.md
-                - name: Mühürlü Commerce self servis bileşenlerinin toplu dağıtımı
-                  href: dev-itpro/Enhanced-Mass-Deployment.md
-                - name: Eski self servis bileşenlerinin toplu dağıtımı
+                - name: Self servis bileşenlerinin toplu dağıtımı
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Tanılama ve sorun giderme için Commerce bileşeni olayları
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -292,28 +288,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Yeni Commerce ortamlarında çekirdek verileri başlatma
                   href: enable-configure-retail-functionality.md
-        - name: Uygulama
-          items:
-            - name: Uygulama yaşam döngüsü yönetimi
-              items:
-                - name: Dynamics 365 Commerce bileşen sürümü oluşturma gereksinimleri
-                  href: arch-component-versioning.md
-            - name: Servise alma ve güncelleştirme önerileri
-              items:
-                - name: Servise alma ve güncelleştirme önerilerine genel bakış
-                  href: go-live/go-live-overview.md
-                - name: Performans
-                  items:
-                    - name: Görüntüleri iyileştirme
-                      href: go-live/performance-optimize-images.md
-                    - name: Kullanılmayan modülleri hariç tutarak JavaScript'i azaltma
-                      href: go-live/performance-reduce-javascript.md
-            - name: AX 2012 aşamalı kullanıma sunumu
-              items:
-                - name: Commerce için yükseltme ve N-1 desteği
-                  href: dev-itpro/overview-upgrade-n-minus1.md
-                - name: 'Aşamalı Kullanıma Sunma (N-1) kurulumu, yapılandırması ve kesin bitiş kılavuzu'
-                  href: dev-itpro/n-1-installation-configuration.md
         - name: Kanallarınızı ayarlama
           items:
             - name: Kanallara genel bakış
@@ -386,19 +360,15 @@
                   href: channel-setup-retail.md
                 - name: Perakende çalışanlarını yapılandırma
                   href: tasks/worker.md
-                - name: 'Modern Point of Sale (MPOS), Cloud POS ve Store Commerce'
+                - name: Modern Satış Noktası (MPOS) ve Bulut POS
                   items:
-                    - name: Microsoft Dynamics 365 Commerce'te Store Commerce uygulaması (Önizleme)
-                      href: dev-itpro/store-commerce.md
-                    - name: Cihaz yönetimi uygulama kılavuzu
-                      href: implementation-considerations-devices.md
-                    - name: MPOS ile Cloud POS arasında seçim yapma
+                    - name: MPOS ile Bulut POS arasında seçim yapma
                       href: MPOS-or-CPOS.md
                     - name: Çevrimiçi ve çevrimdışı POS işlemleri
                       href: pos-operations.md
                     - name: Özelleştirilmiş bir Modern POS için cihaz etkinleştirme
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: POS oturum açma için Azure Active Directory kimlik doğrulamasını yapılandırma
+                    - name: POS oturum açma için Azure Active Directory kimlik doğrulamasını etkinleştirme
                       href: aad-pos-logon.md
                     - name: POS'ta ürün ve müşteri arama
                       href: POS-search-improvements.md
@@ -406,7 +376,9 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Nakit yönetimine yönelik geliştirmeler
                       href: cash-mgmt.md
-                    - name: POS'ta işlemleri askıya alma ve sürdürme
+                    - name: POS'ta stok araması
+                      href: product-variants-POS.md
+                    - name: POS'ta hareketleri askıya alma ve sürdürme
                       href: pos-suspend-recall-transactions.md
                     - name: Çevrimdışı POS işlevi
                       href: pos-offline-functionality.md
@@ -418,7 +390,7 @@
                       href: charge-send.md
                     - name: POS sevkiyat iletişim kutusundan taşıyıcı dışındaki teslimat modlarını gizle
                       href: hide-non-carrier-modes.md
-                    - name: MPOS ve Cloud POS için Görev kaydedici ve Yardım
+                    - name: MPOS ve Bulut POS için Görev kaydedici ve Yardım
                       href: task-recorder-retail-pos.md
                     - name: Donanım çevre birimleri
                       items:
@@ -448,18 +420,6 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: POS'taki müşteri resimleri
                           href: pos-image.md
-                        - name: URL'yi POS'ta açma
-                          href: open-url-in-pos.md
-                    - name: Ödemeler
-                      items:
-                        - name: Hediye kartları
-                          items:
-                            - name: Harici hediye kartları için destek
-                              href: dev-itpro/gift-card.md
-                    - name: RSAT
-                      items:
-                        - name: Cloud POS için kaydediciyi ve Regression Suite Automation Tool'u test etme
-                          href: dev-itpro/pos-rsat.md
                     - name: Satış yetkilileri
                       items:
                         - name: Satış gruplarını kullanarak POS'taki komisyonları izleme
@@ -468,7 +428,7 @@
                       items:
                         - name: 'MPOS''u yapılandırma, yükleme ve etkinleştirme'
                           href: retail-modern-pos-device-activation.md
-                        - name: MPOS ve Cloud POS için genişletilmiş oturum açma işlevini ayarlama
+                        - name: MPOS ve Bulut POS için genişletilmiş oturum açma işlevini ayarlama
                           href: extended-logon.md
                         - name: Etkinleştirme hesaplarını yönetme ve cihazları doğrulama
                           href: set-up-activation-accounts-validate-devices-hq.md
@@ -556,16 +516,8 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: POS'taki "para üstü" iletişim kutusunu atlama
                       href: dev-itpro/skip-change-due.md
-                    - name: Adyen için Dynamics 365 Payment Connector
-                      items:
-                        - name: Adyen için Dynamics 365 Payment Connector'a genel bakış
-                          href: dev-itpro/adyen-connector.md
-                        - name: Adyen için Dynamics 365 Payment Connector'ı ayarlama
-                          href: dev-itpro/adyen-connector-setup.md
-                        - name: Adyen için Dynamics 365 Payment Connector ile ilgili SSS
-                          href: dev-itpro/adyen-connector-faq.md
-                        - name: Adyen için Dynamics 365 Payment Connector sorunlarını giderme
-                          href: dev-itpro/adyen-connector-troubleshoot.md
+                    - name: Adyen ödeme bağlayıcısı
+                      href: dev-itpro/adyen-connector.md
                     - name: Adyen bağlayıcısı ile çevrimiçi ödeme araçlarını kaydetme
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Adyen bağlayıcısını kullanan Güçlü Müşteri Kimlik Doğrulaması (SCA)
@@ -580,8 +532,6 @@
                       href: duplicate-payment-protection.md
                     - name: Çok yönlü kanal ödemelerine genel bakış
                       href: omni-channel-payments.md
-                    - name: Mağazadan alma için birden fazla kullanılabilir ödeme yöntemi
-                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Çok yönlü kanal Commerce siparişi ödemeleri
                       href: dev-itpro/commerce-payments.md
                     - name: Kredi kartı hareketi verilerini arşivleme
@@ -592,8 +542,6 @@
                       href: paypal.md
                     - name: Cüzdan ödeme desteği
                       href: wallets.md
-                    - name: Mağazada ödeme için geliştirilmiş ödemeler
-                      href: dev-itpro/enhanced-sca.md
                     - name: Ödemeler ile ilgili SSS
                       href: dev-itpro/payments-retail.md
                 - name: E-posta ve bildirimler
@@ -606,8 +554,6 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Müşterinin teslim alması için zaman aralıkları oluşturma ve güncelleştirme
                   href: dev-itpro/pickup-timeslots.md
-                - name: Ürün boyutu değerlerini renk örneği olarak görünecek şekilde yapılandırma
-                  href: dev-itpro/dimensions-swatch.md
         - name: Ürün ve hizmetlerinizin ticari satışı
           items:
             - name: 'Kategoriler, ürünler ve ürün çeşitleri'
@@ -688,8 +634,6 @@
                   href: tender_based_discounts.md
                 - name: Sevkiyat iskontosuna genel bakış
                   href: retail-shipping-discount.md
-                - name: Hediyeyi satın alma promosyonlarıyla yapılandırma
-                  href: gift-with-purchase.md
                 - name: Kuponları ayarlama
                   href: retail-coupons.md
                 - name: POS'ta iskontoları gösterme
@@ -700,8 +644,6 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Kategori fiyatlandırma kuralları kullanarak ticaret sözleşmeleri oluşturma
                   href: tasks/category-pricing-rules-trade-agreements.md
-                - name: Tam fiyat ve iskonto hesaplamasını erteleme
-                  href: delayed-price-calculation.md
             - name: Öneriler
               items:
                 - name: Ürün önerilerine genel bakış
@@ -746,14 +688,6 @@
                   href: configure-ratings-reviews.md
                 - name: Ürün derecelendirmelerini eşitleme
                   href: sync-product-ratings.md
-                - name: Derecelendirme ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme
-                  href: manual-publish-rating-reviews.md
-                - name: Derecelendirme ve incelemeleri içeri ve dışarı aktarma
-                  href: import-export-reviews.md
-                - name: Servisler arası kimlik doğrulamasını yapılandırma
-                  href: service-to-service-auth.md
-                - name: Derecelendirmeler ve incelemeler hakkında SSS
-                  href: ratings-reviews-faq.md
             - name: Stoğunuzu yönetme
               items:
                 - name: Stok
@@ -774,8 +708,6 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Perakende kanalları için stok kullanılabilirliğini hesaplama
                       href: calculated-inventory-retail-channels.md
-                    - name: POS'ta stok arama işlemi
-                      href: pos-inventory-lookup-operation.md
                 - name: Satın alma siparişleri
                   items:
                     - name: Satın alma siparişine genel bakış
@@ -802,10 +734,8 @@
                   href: enhancedorderrecall.md
                 - name: Çoklu malzeme çekme teslimat şekillerini etkinleştirme
                   href: multiple-pickup-modes.md
-                - name: POS'ta müşteri siparişi teslim alımını işleme
+                - name: Satış noktasında müşteri sipariş teslim alımını işleme
                   href: process-order-pickup-POS.md
-                - name: Konuk olarak ödeme yapma işlemleri için sipariş aramasını etkinleştirme
-                  href: order-lookup-guest.md
             - name: Satış siparişleri
               items:
                 - name: Çağrı merkezi siparişleri oluşturma
@@ -830,18 +760,10 @@
                   href: notifications-pos.md
                 - name: Süreklilik programları satma ve satış siparişlerini işleme
                   href: tasks/use-continuity-program.md
-                - name: POS'ta müşteri iade bildirimlerini etkinleştirme
-                  href: enable-customer-check-in.md
-            - name: İadeler ve geri ödemeler
+            - name: İadeler
               items:
-                - name: POS'ta iade oluşturma
-                  href: POS-returns.md
-                - name: POS'ta seri numarası ile denetlenen ürünleri iade etme
-                  href: POS-serial-returns.md
-                - name: Bağlantılı geri ödemeler
+                - name: Bağlantılı para iadeleri
                   href: dev-itpro/linked-refunds.md
-                - name: Adyen için Dynamics 365 Commerce Payment Connector ile bağlantılı olmayan geri ödemeleri işleme
-                  href: dev-itpro/unlinked-refunds.md
                 - name: Mağazanın ürün çeşitlerine dahil olmayan ürünleri satma ve iade etme
                   href: sell-return-outside-assortments.md
                 - name: Bir iade emrinde bir değişiklik yapılandırma ve işleme
@@ -856,10 +778,6 @@
           items:
             - name: Mağazalarda müşteri yönetimi
               href: customer-mgmt-stores.md
-            - name: Zaman uyumsuz müşteri oluşturma modu
-              href: async-customer-mode.md
-            - name: Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürme
-              href: convert-async-to-sync.md
             - name: Müşteri rehberliği
               items:
                 - name: Müşteri rehberliğine genel bakış
@@ -880,7 +798,7 @@
           items:
             - name: Ekstrelere genel bakış
               href: retail-statements.md
-            - name: Ekstre hesaplama işlemi için mağaza hareketlerini doğrulama
+            - name: Hareket tutarlılık denetleyicisi
               href: valid-checker.md
             - name: Perakende hareketi tutarlılık denetleyicisinde kuralları devre dışı bırakma
               href: disable-consistency-check-rule.md
@@ -896,7 +814,7 @@
                   href: create-excel-edit.md
                 - name: Perakende hareketlerini düzenlemek için Excel çalışma kitabına alanlar ekleme
                   href: add-fields-excel.md
-            - name: Perakende mağaza hareketleri için kademeli akış tabanlı sipariş oluşturma
+            - name: Perakende mağaza hareketleri için akış tabanlı sipariş oluşturma
               href: trickle-feed.md
             - name: 'Perakende mağazasına yönelik ekstreler oluşturma, hesaplama ve deftere nakletme'
               href: tasks/create-calculate-post-statement-retail-store.md
@@ -962,12 +880,10 @@
                   href: manage-robots-txt-files.md
                 - name: URL yeniden yönlendirmelerini toplu olarak yükleme
                   href: upload-bulk-redirects.md
-                - name: Commerce'te B2C kiracısı ayarlama
+                - name: Commerce'ta B2C kiracısı ayarlama
                   href: set-up-B2C-tenant.md
                 - name: Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
                   href: custom-pages-user-logins.md
-                - name: Kimlik kayıtlarını müşteri hesaplarına otomatik olarak bağlamayı etkinleştirme
-                  href: identity-record-linking.md
                 - name: Commerce ortamında birden fazla B2C kiracısı yapılandırma
                   href: configure-multi-B2C-tenants.md
                 - name: Dynamics 365 Commerce'taki etki alanları
@@ -980,8 +896,6 @@
                   href: enable-store-detection.md
                 - name: E-ticaret için dijital hediye kartları
                   href: digital-gift-cards.md
-                - name: Ücretsiz olarak satın alınacak bir ürünü yapılandırma
-                  href: configure-free-product.md
                 - name: Dynamics 365 Commerce siteleri için tarayıcı gereksinimleri
                   href: browser-requirements.md
             - name: Örnek siteye genel bakış
@@ -1002,18 +916,12 @@
                   href: manage-ecommerce-users-roles.md
                 - name: Stok ayarlarını uygulama
                   href: inventory-settings.md
-                - name: Sepete ürün ekleme ayarlarını uygulama
-                  href: add-cart-settings.md
-                - name: Siteniz için arama motoru optimizasyonuyla (SEO) ilgili konular
+                - name: Siteniz için arama alt yapısını en iyi duruma getirmeyle (SEO) ilgili konular
                   href: search-engine-optimization-considerations.md
                 - name: İçerik Güvenliği İlkesini (CSP) yönetme
                   href: manage-csp.md
                 - name: Web etkinliği olay koleksiyonundan vazgeçme
                   href: web-activity-opt-out.md
-                - name: Ölçü birimi ayarlarını uygulama
-                  href: unit-of-measure.md
-                - name: Ürün boyutları için görüntü ayarlarını uygulama
-                  href: dimension-settings.md
             - name: Site içeriğinizi yönetme
               items:
                 - name: İçerik ekleme yolları
@@ -1038,6 +946,8 @@
                       href: style-presets.md
                     - name: Site simgesi ekleme
                       href: add-favicon.md
+                    - name: Hoş geldiniz iletisi ekleme
+                      href: add-welcome-message.md
                     - name: Telif hakkı bildirimi ekleme
                       href: add-copyright-notice.md
                     - name: Dil ekleme
@@ -1086,17 +996,11 @@
                       href: customize-site-navigation.md
                     - name: Sayfa URL'si oluşturma
                       href: create-page-URL.md
-                - name: Adventure Works teması
-                  items:
-                    - name: Adventure Works temasına genel bakış
-                      href: adventure-works-theme.md
-                    - name: Adventure Works temasını yükleme
-                      href: install-adventure-works.md
             - name: Dijital varlıkları yönetme
               items:
                 - name: Dijital varlık yönetimine genel bakış
                   href: dam-overview.md
-                - name: Görüntüleri karşıya yükleme
+                - name: Resimleri karşıya yükleme
                   href: dam-upload-images.md
                 - name: Videoyu karşıya yükleme
                   href: dam-upload-video.md
@@ -1146,32 +1050,12 @@
                       href: add-hero-module.md
                     - name: Video oynatıcı modülü
                       href: add-video-player.md
-                    - name: Etkin görüntü modülü
-                      href: active-image-module.md
-                    - name: Görüntü listesi modülü
-                      href: image-list-module.md
-                    - name: Etkileşimli özellik modülü
-                      href: interactive-feature-module.md
-                    - name: Abonelik modülü
-                      href: subscribe-module.md
-                    - name: Kutucuk listesi modülü
-                      href: tile-list-module.md
                 - name: Üst bilgi ve alt bilgi modülleri
                   items:
                     - name: Üst bilgi modülü
                       href: author-header-module.md
                     - name: Alt bilgi modülü
                       href: author-footer-module.md
-                - name: 'Sayfa, meta veri ve betik modülleri'
-                  items:
-                    - name: Varsayılan sayfa modülü
-                      href: default-page-module.md
-                    - name: Sayfa özeti modülleri
-                      href: page-summary-module.md
-                    - name: Meta etiketler modülü
-                      href: metatags-module.md
-                    - name: Harici ve satır içi betik modülleri
-                      href: script-module.md
                 - name: Ürün ayrıntısı sayfası modülleri
                   items:
                     - name: Satın alma kutusu modülü
@@ -1198,14 +1082,10 @@
                       href: delivery-options-module.md
                     - name: Malzeme çekme bilgileri modülü
                       href: pickup-info-module.md
-                    - name: Teslim alma modülü için giriş
-                      href: check-in-pickup-module.md
                     - name: Sipariş ayrıntıları modülü
                       href: order-confirmation-module.md
                     - name: Hediye kartı modülü
                       href: add-giftcard.md
-                    - name: Sipariş arama modülü
-                      href: order-lookup-module.md
                 - name: Mağaza bulucu modülleri
                   items:
                     - name: Harita modülü
@@ -1234,9 +1114,7 @@
                       href: nav-menu-module.md
                     - name: Site seçicisi modülü
                       href: site-selector.md
-                    - name: Ülke/bölge seçici modülü
-                      href: country-region-picker-module.md
-                - name: Modülleri arama
+                - name: Modülleri ara
                   items:
                     - name: Arama sonuçları modülü
                       href: search-result-module.md
@@ -1254,17 +1132,11 @@
               items:
                 - name: Çevrimiçi kanal raporları oluşturma
                   href: generate-reports.md
-            - name: Hedefleme
-              items:
-                - name: 'Cihaz, pazar ve coğrafi konum hedefleme'
-                  href: targeting-overview.md
-                - name: Coğrafi algılama ve yeniden yönlendirmeyi ayarlama
-                  href: geo-detection-redirection.md
-            - name: Deneme
+            - name: Deney
               items:
                 - name: Dynamics 365 Commerce'te deneme
                   href: experimentation-overview.md
-                - name: Bir deneme için varsayım tanımlama ve ölçümleri belirleme
+                - name: Varsayım tanımlama ve deneme için ölçümleri belirleme
                   href: experimentation-identify.md
                 - name: Deneme ayarlama
                   href: experimentation-setup.md
@@ -1290,16 +1162,10 @@
           items:
             - name: B2B e-ticaret sitesi kurma
               href: b2b/set-up-b2b-site.md
-            - name: Müşteri hiyerarşilerini kullanarak B2B iş ortaklarını yönetme
-              href: b2b/partners-customer-hierarchies.md
+            - name: B2B kuruluşlar için kuruluş modelleme hiyerarşileri oluşturma
+              href: b2b/org-model.md
             - name: B2B e-ticaret sitelerindeki iş ortağı kullanıcılarını yönetme
               href: b2b/manage-b2b-users.md
-            - name: Dynamics 365 Sales kullanarak B2B e-ticaret sitelerindeki iş ortağı kullanıcılarını yönetme
-              href: b2b/prospect-management-sales.md
-            - name: B2B web sitesi siparişlerini hızlı bir şekilde verme
-              href: b2b/quick-bulk-orders.md
-            - name: B2B e-ticaret siteleri için fatura yönetimi
-              href: b2b/invoice-management.md
             - name: B2B e-ticaret siteleri için müşteri hesabı ödeme yöntemini yapılandırma
               href: b2b/payment-method.md
             - name: B2B e-ticaret siteleri için ürün miktarı sınırlarını ayarlama
@@ -1318,79 +1184,25 @@
               href: store-performance-information.md
             - name: 'Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama'
               href: set-up-rfm-analysis.md
-            - name: Dynamics 365 Commerce'te Microsoft Clarity'yi ayarlama
-              href: set-up-clarity.md
-            - name: Commerce analizleri (Önizleme)
-              href: commerce-analytics.md
         - name: Globalleştirme
           items:
             - name: Commerce kanalı için mali tümleştirmeye genel bakış
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Commerce kanalı için mali tümleştirmeyi ayarlama
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
-            - name: Mali tümleştirme örneği için derleme işlem hattı ayarlama
-              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory Configuration Service (RCS)
-              items:
-                - name: Regulatory Configuration Service'e (RCS) genel bakış
-                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: (RCS) Regulatory Configuration Service (RCS) - Genelleştirme özellikleri
-                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service'te (RCS) ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
-                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service (RCS) – Lifecycle Services deposu kullanımdan kaldırılıyor
-                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: ER yapılandırmalarını Commerce'e indirme
-                  items:
-                    - name: RCS'den yapılandırmaları indirme
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                    - name: Yapılandırmaları RCS'den içeri aktarma
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Genel depo (GR)
-                      items:
-                        - name: Yapılandırmaları GR'den içeri aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Yapılandırmaları GR'ye yükleme
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: GR'de yapılandırmaları paylaşma
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: RCS Genel deposundaki yapılandırmaları durdurma
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Avusturya
               items:
                 - name: Avusturya için mali kayıt hizmeti tümleştirme örneği
                   href: localizations/emea-aut-fi-sample.md
-                - name: Avusturya için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
-                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brezilya
               items:
                 - name: Brezilya için Commerce yerelleştirmesi
                   href: localizations/latam-bra-commerce-localization.md
-                - name: Brezilya için Commerce yerelleştirmesini ayarlama ve dağıtma
-                  href: localizations/latam-bra-deployment.md
-                - name: Brezilya için Commerce POS'ta NF-e mali belge işlevleri
-                  href: localizations/latam-bra-nfce.md
-                - name: Brezilya için POS'ta müşteri bilgilerini yönetme
-                  href: localizations/latam-bra-customer-information.md
-                - name: Brezilya için Commerce POS'ta NFC-e belgelerinin iptali ve iadesi
-                  href: localizations/latam-bra-nfce-cancel-return.md
-                - name: Çevrimdışı yedek modunda düzenlenen NFC-e belgelerinin ertelenen kaydı
-                  href: localizations/latam-bra-nfce-contingency-mode.md
-                - name: Brezilya mali belgelerini Commerce genel merkezinde perakende ekstreleri aracılığıyla deftere nakletme
-                  href: localizations/latam-bra-retail-statements.md
-                - name: Brezilya için Commerce POS'ta SAT bulunan CF-e mali belgesi ve tümleştirmesi
-                  href: localizations/latam-bra-cf-e-sat.md
-                - name: Brezilya için Commerce POS'ta Adyen için Dynamics 365 Payment Connector
-                  href: localizations/latam-bra-adyen.md
             - name: Doğu Avrupa
               items:
-                - name: Genel
+                - name: Ortak
                   items:
                     - name: Doğru Avrupa'ya yönelik Commerce için avans faturaları
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -1404,34 +1216,22 @@
                   items:
                     - name: Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
                       href: localizations/emea-cze-fi-sample.md
-                    - name: Çek Cumhuriyeti için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
-                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Polonya
                   items:
                     - name: Polonya için yazar kasa tümleştirme örneği
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Polonya için müşteri bilgileri yönetimi
                       href: localizations/emea-pol-customer-information.md
-                    - name: Polonya için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
-                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Fransa
               items:
                 - name: Yazar kasa işlevi
                   href: localizations/emea-fra-cash-registers.md
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
-                  href: localizations/emea-fra-fi-deployment.md
-                - name: Mali arşiv ve veri bütünlüğünü doğrulama
-                  href: localizations/emea-fra-fiscal-archive.md
-                - name: Fransa için eski işlevlerden geçiş yapma
-                  href: localizations/emea-fra-fi-migration.md
-                - name: Yazar kasalara ilişkin dağıtım kılavuzları (eski)
                   href: localizations/emea-fra-deployment.md
             - name: Almanya
               items:
                 - name: Almanya için mali kayıt hizmeti tümleştirme örneği
                   href: localizations/emea-deu-fi-sample.md
-                - name: Almanya için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
-                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Hindistan
               items:
                 - name: Yazar kasalar için Ürün ve Hizmet Vergisi (GST) tümleştirmesi
@@ -1440,18 +1240,14 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Hindistan için yükseltme ve N-1 desteği
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: Hindistan için QR kodları oluşturma ve bunları makbuzlara yazdırma
+                - name: QR kodları oluşturma ve bunları makbuzlara yazdırma
                   href: localizations/ind-generate-qr-code-print-receipt.md
-                - name: E-ticaret siteleri için Ürün ve Hizmet Vergisi (GST) tümleştirmesi
-                  href: localizations/apac-ind-e-commerce.md
             - name: İtalya
               items:
-                - name: İtalya için yazar kasa tümleştirme örneği
+                - name: İtalya için yazarkasa tümleştirme örneği
                   href: localizations/emea-ita-fpi-sample.md
                 - name: İtalya için müşteri bilgileri yönetimi
                   href: localizations/emea-ita-customer-information.md
-                - name: İtalya için mali tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
-                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Meksika
               items:
                 - name: Meksika için genel CFDI e-faturaları
@@ -1461,35 +1257,13 @@
                 - name: Yazar kasa işlevi
                   href: localizations/emea-nor-cash-registers.md
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
-                  href: localizations/emea-nor-fi-deployment.md
-                - name: Yazar kasalara ilişkin dağıtım kılavuzları (eski)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
-            - name: Rusya
-              items:
-                - name: Rusya için Commerce yerelleştirmesi
-                  href: localizations/rus-commerce-localization.md
-                - name: Rusya için Commerce yerelleştirmesi ayarlama
-                  href: localizations/rus-commerce-setup.md
-                - name: Rusya için Commerce'te ön ödemeler
-                  href: localizations/rus-commerce-prepayments.md
-                - name: Rusya için Commerce POS'ta basitleştirilmiş müşteri adresi biçimi
-                  href: localizations/rus-simplified-address.md
-                - name: Rusya için yazar kasa tümleştirme örneği
-                  href: localizations/rus-fpi-sample.md
-                - name: Rusya için müşteri bilgileri yönetimi
-                  href: localizations/rus-customer-information.md
-            - name: Suudi Arabistan
-              items:
-                - name: Suudi Arabistan için QR kodları oluşturma ve bunları makbuzlara yazdırma
-                  href: localizations/emea-sau-qr-code.md
             - name: İsveç
               items:
                 - name: Yazar kasa işlevi
                   href: localizations/emea-swe-cash-registers.md
                 - name: İsveç için kontrol birimi tümleştirmesi örneği
                   href: localizations/emea-swe-fi-sample.md
-                - name: İsveç için kontrol birimi tümleştirme örneğine yönelik dağıtım kılavuzları (eski)
-                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Kontrol birimleriyle Retail POS tümleştirmesi örneği (eski)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Raporlama ve Power BI tümleştirmeleri
@@ -1592,8 +1366,6 @@
           items:
             - name: Elektronik raporlamaya genel bakış
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Elektronik raporlama bileşenleri
-              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/commerce/toc.json
             - name: Yapılandırmalar
               items:
                 - name: Yapılandırmalar oluşturma
@@ -1622,7 +1394,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Hazırlanan ER çözümünü hedef uygulamada test etme
                       items:
-                        - name: Yapılandırmaları RCS'den içeri aktarma
+                        - name: Yapılandırmaları RCS'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
                         - name: Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/commerce/toc.json
@@ -1638,12 +1410,6 @@
               items:
                 - name: Formül dili
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
-                - name: ER formülleri için desteklenen veri türleri
-                  items:
-                    - name: Temel veri türleri
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
-                    - name: Bileşik veri türleri
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: İşlevler
                   items:
                     - name: Konteyner
@@ -1658,8 +1424,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
-                        - name: ChangeTimeZone
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/commerce/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
                         - name: DateTimeFormat
@@ -1686,8 +1450,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
                     - name: List
                       items:
                         - name: Liste işlevleri
@@ -1806,8 +1568,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
-                        - name: NewGUID
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/commerce/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: NumeralsToText
@@ -1914,12 +1674,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: Farklı biçimlerde giden belgeler oluşturmak için ER biçimleri tasarlama
               items:
-                - name: OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                 - name: Excel biçiminde giden belgeler oluşturmak için yapılandırmalar tasarlama
                   items:
                     - name: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/commerce/toc.json
+                    - name: OPENXML biçiminde rapor oluşturma örneği
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Excel şablonlarını yeniden uygulayarak ER biçimlerini değiştirme
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
                     - name: Excel raporlarına sütunları yatay yönlü genişletilebilir aralıklar olarak dinamik şekilde ekleme
@@ -1928,8 +1688,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
                         - name: Excel raporlarına dinamik olarak sütun eklemek için biçimleri çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
-                    - name: Excel'de oluşturulan belgeleri sayfalandırmak için ER biçimi tasarlama
-                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Raporları Word biçiminde oluşturmak için yapılandırmalar tasarlama
                   items:
                     - name: Word biçiminde raporlar oluşturmak için yeni ER yapılandırması tasarlama
@@ -1952,8 +1710,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
                         - name: Katıştırılmış resimlere sahip Office biçimlerinde rapor oluşturma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
-                    - name: Sayfa üst bilgilerinde veya alt bilgilerinde katıştırılmış görüntülerle Excel'de bir rapor oluşturmak için bir ER biçimi tasarlama
-                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan dosyalarda ürün reçetesi karakterlerini gizleme
@@ -1962,7 +1718,7 @@
               items:
                 - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/commerce/toc.json
-                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
+                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içe aktarma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmalar tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/commerce/toc.json
@@ -1972,23 +1728,21 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/commerce/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/commerce/toc.json
-            - name: ER çözümleri kullanarak gelen dosyalardan verileri içeri aktarma
+            - name: ER çözümleri kullanarak gelen dosyalardan verileri içe aktarma
               items:
                 - name: Genel belgeleri farklı biçimlerde ayrıştırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/commerce/toc.json
-                - name: El ile seçilen dosyalardan veri içeri aktarmayı yapılandırma
+                - name: El ile seçilen dosyalardan veri içe aktarmayı yapılandırma
                   items:
                     - name: Harici XML dosyasından veri aktarmak için yapılandırmalar oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
-                    - name: El ile seçilen dosyalardan toplu iş modunda veri içeri aktarmayı yapılandırma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
-                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içeri aktarmayı yapılandırma
+                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içe aktarmayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
-                - name: Dosyaları XML biçiminde içeri aktarma
+                - name: Dosyaları XML biçiminde içe aktarma
                   items:
-                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içeri aktarma
+                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
-                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içeri aktarmak için ER biçimleri yapılandırma
+                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içe aktarmak için ER biçimleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
             - name: Yapılandırma yaşam döngüsü
               items:
@@ -1998,27 +1752,27 @@
                   items:
                     - name: Yapılandırmaları LCS 'ye yükleme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
-                    - name: Yapılandırmaları LCS'den içeri aktarma
+                    - name: Yapılandırmaları LCS'den içe aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
-                    - name: Yapılandırmaları LCS'den indirme
+                    - name: LCS'den yapılandırmaları indirme
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Yapılandırmaları içeri aktarma (LBD)
+                    - name: Yapılandırmaları içe aktarma (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service (RCS)
+                - name: Regulatory Services (RCS)
                   items:
-                    - name: Regulatory Configuration Service'e (RCS) genel bakış
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: RCS'de genelleştirme özellikleri
+                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                     - name: ER yapılandırmalarını Commerce'e indirme
                       items:
                         - name: RCS'den yapılandırmaları indirme
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Yapılandırmaları RCS'den içeri aktarma
+                        - name: Yapılandırmaları RCS'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Genel depo (GR)
                       items:
-                        - name: Yapılandırmaları GR'den içeri aktarma
+                        - name: Yapılandırmaları GR'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
                         - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
@@ -2084,17 +1838,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                         - name: Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
-                    - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER uygulamasına özgü parametreleri kullanmak için ARAMA veri kaynaklarını yapılandırma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER biçimlerindeki VERİ TOPLAMA veri kaynaklarını kullanma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Veri kaynaklarında hata ayıklama
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Model eşlemelerini yapılandırma
                   items:
-                    - name: Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
+                    - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                     - name: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2158,15 +1908,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Eyleme bağlı hedefleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
-                    - name: Yazdırma yönetimi kaydına özel ER hedeflerini yapılandırma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: ER biçimine referans ayarlama
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan raporları otomatik olarak doğrulama
                   items:
                     - name: Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Temel değerlerle karşılaştırmak için oluşturulan ER raporları sonuçlarını izlemeyi iyileştirme
+                    - name: Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: ER ile testi otomatikleştirme
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2176,12 +1924,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: Yazdırılabilir serbest metin faturası (FTI) formları oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: Verimli ER çözümleri tasarlama
-                  items:
-                    - name: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER yapılandırmalarında performans sorunlarını giderme
-                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                 - name: İş belgesi yönetimi (BDM)
                   items:
                     - name: BDM'ye genel bakış
@@ -2206,28 +1950,14 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Uygulama güncelleştirmesi 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.19
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.21
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.23
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.25
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
                     - name: Abone olma işleyicisinden yanıt istemek için bir olaya abone olma
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: Özel hedef fabrikası için ER hedefi oluşturmayı devretme
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                    - name: Oluşturulan belgeler için özel hedef uygulama
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
-                - name: Kaynak kodundan USER INPUT PARAMETER türünün veri kaynağı değerlerini başlatma
+                - name: Kaynak kodundan KULLANICI GİRİŞ PARAMETRESİ türünün veri kaynağı değerlerini başlatma
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
-                - name: Kullanıcıların adlandırılmış ER hedeflerini yapılandırmasını ve kullanmasını sağlamak için kodu değiştirme
-                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
-                - name: Gelen belgeler için özel ER kaynağı uygulama
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
         - name: Finance and Operations (Dynamics 365) mobil uygulaması
           items:
             - name: Mobil uygulama giriş sayfası
@@ -2270,15 +2000,15 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/commerce/toc.json
             - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
-            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
+            - name: Varlık verilerini Excel'de açma ve Excel Eklentisi'ni kullanarak güncelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: Excel'de Aç deneyimleri ile ilgili SSS
+            - name: Excel'de Aç deneyimleri oluşturma
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Excel menüsünde Açık satırlara şablon ekleme
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
             - name: Microsoft Office'te Aç menüsünü özelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
-            - name: E-postayı yapılandırma ve gönderme
+            - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
             - name: Hareket olayları için e-posta şablonları oluşturma
               href: email-templates-transactions.md
@@ -2318,8 +2048,6 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Genel adres defterini yapılandırma
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
-                - name: Adres kurulumu
-                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Adres defterleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Adres defterlerini yapılandırma
@@ -2348,8 +2076,6 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Onay adımlarını yapılandırma
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Harcama gözden geçirenlerini yapılandırma
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
                     - name: El ile girilen kararları yapılandırma
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Koşullu kararları yapılandırma
@@ -2422,359 +2148,175 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/commerce/toc.json
             - name: Belge yönetimini yapılandırma
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/commerce/toc.json
-            - name: E-postayı yapılandırma ve gönderme
+            - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
-            - name: Tarih/saat verileri ve saat dilimleri
+            - name: Tarih/saat tarih ve saat dilimleri
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
-        - name: Geliştirme
+        - name: Genişletilebilirlik
           items:
-            - name: Çapraz çözüm
+            - name: Commerce geliştirme ve genişletilebilirlik
+              href: dev-itpro/dev-retail-home-page.md
+            - name: Çevrimiçi kanal genişletilebilirliği
               items:
-                - name: Commerce SDK'sine genel bakış
+                - name: Çevrimiçi kanal genişletilebilirliğine genel bakış
+                  href: e-commerce-extensibility/overview.md
+                - name: Başlayın
                   items:
-                    - name: Örnekler ve referans paketleri
-                      href: dev-itpro/retail-sdk/sdk-github.md
-                    - name: Eski Retail SDK'si geçişi
-                      href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
-                    - name: Commerce mağaza içi teknoloji yığınını modernleştirme (teknik inceleme)
-                      href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Ortam kurulumu
-                  items:
-                    - name: Yerel geliştirme ortamı
-                      href: dev-itpro/setup-local-dev-env.md
-                    - name: Commerce SDK derleme işlem hattı
-                      href: dev-itpro/retail-sdk/sdk-build-pipeline.md
-                    - name: Commerce SDK derleme işlem hattı (bağımsız paketleme)
-                      href: dev-itpro/build-pipeline.md
-                - name: Ödemeler
-                  items:
-                    - name: Ödeme bağlayıcılarını dağıtma
-                      href: dev-itpro/deploy-payment-connector.md
-                    - name: Ödeme verileri kullanımı
-                      href: payment-connector-data-fields.md
-                    - name: Ödemeler SDK'sinde bahşiş bırakma desteği
-                      href: dev-itpro/tipping.md
-                    - name: Sipariş faturalaması için artımlı yakalama
-                      href: dev-itpro/incremental-capture.md
-                - name: Yerelleştirme
-                  items:
-                    - name: Commerce uzantı kaynaklarını ve etiket dosyalarını özelleştirme
-                      href: dev-itpro/extension-resource-localization.md
-            - name: Gözetimsiz Commerce
-              items:
-                - name: API'ler ve referans
-                  items:
-                    - name: Commerce Scale Unit müşteri ve tüketici API'leri
-                      href: dev-itpro/retail-server-customer-consumer-api.md
-                    - name: Harici uygulamalarda Retail Server API'lerini kullanma
-                      href: dev-itpro/consume-retail-server-api.md
-                    - name: Retail POS için Typescript ve C# proxy'leri
-                      href: dev-itpro/typescript-proxy-retail-pos.md
-                    - name: Commerce Runtime (CRT) mimarisi ve yapılandırması
-                      href: dev-itpro/commerce-runtime-overview.md
-                    - name: Commerce Runtime (CRT) hizmetleri
-                      href: dev-itpro/crt-services.md
-                - name: Yeni işlev oluşturma
-                  items:
-                    - name: Commerce Scale Unit API'si oluşturma
-                      href: dev-itpro/retail-server-icontroller-extension.md
-                    - name: Commerce Runtime (CRT) genişletilebilirliği
-                      href: dev-itpro/commerce-runtime-extensibility.md
-                    - name: Application Insights'a uzantı olaylarını kaydetme
-                      href: dev-itpro/commerce-application-insights.md
-                    - name: Zaman uyumsuz Commerce (CRT) API'leri oluşturma
-                      href: dev-itpro/async-commerce-extension.md
-                    - name: Kanal veritabanı uzantıları
-                      href: dev-itpro/channel-db-extensions.md
-                    - name: Commerce Data Exchange - Gerçek Zamanlı Hizmeti'ni genişletme
-                      href: dev-itpro/extend-commerce-data-exchange.md
-                - name: Mevcut işlevi genişletme
-                  items:
-                    - name: Commerce Runtime (CRT) genişletilebilirliği ve tetikleyicileri
-                      href: dev-itpro/commerce-runtime-extensibility-trigger.md
-                    - name: Kanal veritabanındaki önceden genişletilmiş sütunlar
-                      href: dev-itpro/extended-columns.md
-                    - name: Uzantıyla özel Commerce Data Exchange eşitlemesini etkinleştirme
-                      href: dev-itpro/cdx-extensibility.md
-                    - name: Commerce Mağazası makbuzlarını genişletme
-                      href: dev-itpro/retail-sdk/retail-sdk-samples.md
-                    - name: Müşteri öznitelikleri
-                      href: dev-itpro/customer-attributes.md
-                    - name: Sipariş öznitelikleri
-                      href: dev-itpro/order-attributes.md
-                    - name: Perakende kanalları için parolaları yönetme
-                      href: dev-itpro/manage-secrets.md
-                - name: Örnekler
-                  items:
-                    - name: Tetikleyicileri kullanarak hareketleri engelleme
-                      href: dev-itpro/trigger-example-blocking-transaction.md
-                    - name: Bağlılık programı uzantısı örneği
-                      href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-                    - name: Sipariş karşılama sırasında sevk irsaliyeleri için genişletme noktaları
-                      href: dev-itpro/extensions-shipping-carrier-integration.md
-                - name: Ambalaj ve dağıtım
-                  items:
-                    - name: Bulut Ölçek Birimi uzantılarını kaldırma
-                      href: dev-itpro/retail-sdk/remove-csu-package.md
-            - name: Store Commerce
-              items:
-                - name: Genel bakış
-                  items:
-                    - name: POS uzantısına genel bakış
-                      href: dev-itpro/pos-extension/pos-extension-overview.md
-                    - name: POS uzantısı kavramları ve terminolojisi
-                      href: dev-itpro/pos-extension/pos-extension-basics.md
-                    - name: POS Uzantılarını Commerce SDK'ye geçirme
-                      href: dev-itpro/pos-extension/migrate-pos-extension.md
-                - name: Ortam kurulumu
-                  items:
-                    - name: Yerel geliştirme ortamı
-                      href: dev-itpro/setup-local-dev-env.md
-                    - name: POS uzantı paketi projesi oluşturma
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Modern POS uzantı paketi için bir .appx dosyası oluşturma
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: POS uzantılarında hata ayıklama
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
-                - name: API'ler ve referans
-                  items:
-                    - name: POS uzantı paketi bilgilerini görüntüleme
-                      href: dev-itpro/view-pos-extension-package-details.md
-                    - name: POS API'leri
-                      href: dev-itpro/pos-apis.md
-                    - name: Uzantılarda POS denetimlerini kullanma
-                      href: dev-itpro/pos-extension/controls-pos-extension.md
-                    - name: POS çift ekran görünümünü genişletme
-                      href: dev-itpro/pos-dual-display-extension.md
-                    - name: POS'ta özel gözetimsiz Commerce API'lerini ve varlıklarını kullanma
-                      href: dev-itpro/pos-extension/consume-apis-pos.md
-                    - name: POS uzantılarında harici veya üçüncü taraf kitaplıkları kullanma
-                      href: dev-itpro/pos-extension/knockout-pos-extension.md
-                - name: Yeni işlev oluşturma
-                  items:
-                    - name: POS işlemi oluşturma
-                      href: dev-itpro/add-pos-operations.md
-                    - name: POS'ta özel görünüm oluşturma
-                      href: dev-itpro/pos-extension/custom-pos-view.md
-                    - name: Yeni bir donanım cihazı oluşturma ve POS ile tümleştirme
-                      href: dev-itpro/hardware-device-extension.md
-                    - name: Ödeme terminali için uçtan uca ödeme tümleştirmesi oluşturma
-                      href: dev-itpro/end-to-end-payment-extension.md
-                    - name: Ödeme terminali uzantıları için yerelleştirilmiş özel hata iletileri oluşturma
-                      href: dev-itpro/payment-custom-error-messages.md
-                    - name: Ödeme bağlayıcısı için mükerrer ödeme korumasını etkinleştirme
-                      href: dev-itpro/duplicate-payments-protection.md
-                - name: Mevcut işlevi genişletme
-                  items:
-                    - name: Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için POS görünümlerini genişletme
-                      href: dev-itpro/pos-view-extension.md
-                    - name: Özel denetimler eklemek için POS görünümlerini genişletme
-                      href: dev-itpro/pos-control-non-screen.md
-                    - name: POS üst bilgi çubuğunu genişletme
-                      href: dev-itpro/pos-header-bar.md
-                    - name: POS bildirimlerini genişletme
-                      href: dev-itpro/extend-pos-notification.md
-                    - name: POS istek işleyicilerini geçersiz kılma
-                      href: dev-itpro/pos-handler.md
-                    - name: POS tetikleyicileri
-                      href: dev-itpro/pos-trigger-printing.md
-                    - name: POS Sepet görünümü
-                      items:
-                        - name: POS Sepet görüntüleme olayları ve işleyicileri
-                          href: dev-itpro/cart-view-handlers.md
-                        - name: POS Toplamlar bölmesine özel alanlar ekleme
-                          href: dev-itpro/custom-field-pos-totals.md
-                        - name: POS işlem kılavuzuna özel sütunlar ekleme
-                          href: dev-itpro/pos-custom-transaction-column.md
-                        - name: POS Sepet Görünümlerine özel denetimler ekleme
-                          href: dev-itpro/pos-custom-transaction.md
-                    - name: POS görünümlerine özel denetimler ekleme
-                      href: dev-itpro/pos-custom-control.md
-                    - name: POS ödemesi uzantısı
-                      href: dev-itpro/pos-payment-extension.md
-                - name: Ambalaj ve dağıtım
-                  items:
-                    - name: MPOS uzantı paketi oluşturma
-                      href: dev-itpro/pos-extension/mpos-extension-packaging.md
-                    - name: MPOS (MSIX) uzantı paketini imzalama kodu
-                      href: dev-itpro/pos-extension/mpos-extension-signing.md
-                    - name: Cloud POS uzantı paketi oluşturma
-                      href: dev-itpro/pos-extension/cpos-extension-package.md
-            - name: E-ticaret
-              items:
-                - name: Genel bakış
-                  items:
-                    - name: Çevrimiçi kanal genişletilebilirliğine genel bakış
-                      href: e-commerce-extensibility/overview.md
-                    - name: E-ticaret mimarisine genel bakış
-                      href: e-commerce-extensibility/architectural-overview.md
-                    - name: E-ticaret bileşenleri
-                      href: e-commerce-extensibility/ecommerce-components.md
                     - name: E-ticaret çevrimiçi genişletilebilirlik geliştirmesini kullanmaya başlama
                       href: e-commerce-extensibility/sdk-getting-started.md
                     - name: Sistem gereksinimleri
                       href: e-commerce-extensibility/system-requirements.md
-                - name: Ortam kurulumu
-                  items:
-                    - name: Geliştirme ortamı
+                    - name: Geliştirme ortamı ayarlama
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Geliştirme ortamı (.env) dosyası yapılandırma
                       href: e-commerce-extensibility/configure-env-file.md
                     - name: E-ticaret geliştirme ortamını Commerce bulut ortamına göre yapılandırma
                       href: e-commerce-extensibility/debug-tier-1.md
-                - name: API'ler ve referans
+                    - name: Azure DevOps kod paylaşımını ayarlama ve derleme işlem hattı oluşturma
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
+                - name: Platforma genel bakış
                   items:
+                    - name: E-ticaret mimarisine genel bakış
+                      href: e-commerce-extensibility/architectural-overview.md
+                    - name: E-ticaret bileşenleri
+                      href: e-commerce-extensibility/ecommerce-components.md
                     - name: CLI komut referansı
                       href: e-commerce-extensibility/cli-command-reference.md
-                    - name: Modül anatomisi
-                      items:
-                        - name: Modüllere genel bakış
-                          href: e-commerce-extensibility/modules-overview.md
-                        - name: Modül tanımı dosyası
-                          href: e-commerce-extensibility/module-definition-file.md
-                        - name: Modül Tepki bileşeni dosyası
-                          href: e-commerce-extensibility/module-react-file.md
-                        - name: Modül görünümü dosyası
-                          href: e-commerce-extensibility/module-view-file.md
-                        - name: Modül veri dosyası
-                          href: e-commerce-extensibility/module-data-file.md
-                        - name: Modül sahte dosyası
-                          href: e-commerce-extensibility/module-mock-file.md
-                        - name: Modül test dosyası
-                          href: e-commerce-extensibility/module-test-file.md
-                        - name: Modül props.autogenerated.ts dosyası
-                          href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
-                        - name: Modül yapılandırma ön ayarları
-                          href: e-commerce-extensibility/module-config-presets.md
-                - name: Yeni işlev oluşturma
+                - name: Modül anatomisi
                   items:
-                    - name: Modüller
-                      items:
-                        - name: Yeni bir modül oluşturma
-                          href: e-commerce-extensibility/create-new-module.md
-                        - name: Modül yapılandırma alanları ekleme
-                          href: e-commerce-extensibility/add-module-config-fields.md
-                        - name: Modülleri önizleme ve modülde hata ayıklama
-                          href: e-commerce-extensibility/test-module.md
-                        - name: Sahte modüllü test modülleri
-                          href: e-commerce-extensibility/test-module-mock.md
-                        - name: Sahte sayfalar kullanarak modülleri test etme
-                          href: e-commerce-extensibility/test-page-mock.md
-                        - name: Kapsayıcı modülleri
-                          href: e-commerce-extensibility/container-modules.md
-                        - name: Düzen kapsayıcı modülü oluşturma
-                          href: e-commerce-extensibility/create-layout-container.md
-                        - name: Sayfa kapsayıcı modülü oluşturma
-                          href: e-commerce-extensibility/create-page-containers.md
-                        - name: Modülü yerelleştirme
-                          href: e-commerce-extensibility/localize-module.md
-                        - name: İleri düzey
-                          items:
-                            - name: İstek özellikleri nesnesi
-                              href: e-commerce-extensibility/request-properties-object.md
-                            - name: Uygulama ayarları
-                              href: e-commerce-extensibility/app-settings.md
-                            - name: Site oluşturucu genel yapılandırma ayarlarını etkin özelliklere göre yapılandırma
-                              href: e-commerce-extensibility/config-settings-for-features.md
-                            - name: Platform ayarları dosyası
-                              href: e-commerce-extensibility/platform-settings.md
-                            - name: Tanımlama bilgisi API'sine genel bakış
-                              href: e-commerce-extensibility/cookie-api-overview.md
-                            - name: Etkileşimli bileşenlere genel bakış
-                              href: e-commerce-extensibility/interactive-components.md
-                            - name: Yerel geliştirme sırasında oturum açmış durumunun sahtesini oluşturma
-                              href: e-commerce-extensibility/mock-sign-in.md
-                            - name: Bağlama göre gösterilecek modül özelliklerini yapılandırma
-                              href: e-commerce-extensibility/configure-properties-context.md
-                            - name: CultureInfoFormatter sınıfını kullanarak modülleri globalleştirme
-                              href: e-commerce-extensibility/globalize-modules.md
-                            - name: Güvenli anahtar yönetimi için Azure Key Vault'u ayarlama
-                              href: e-commerce-extensibility/set-up-key-vault.md
-                            - name: Resim bileşeni
-                              href: e-commerce-extensibility/image-component.md
-                    - name: Veri eylemleri
-                      items:
-                        - name: Veri eylemlerine genel bakış
-                          href: e-commerce-extensibility/data-actions.md
-                        - name: Veri eylemi önbellek seçenekleri
-                          href: e-commerce-extensibility/data-action-cache.md
-                        - name: Veri eylemlerini sahteleriyle test etme
-                          href: e-commerce-extensibility/test-data-action-mocks.md
-                        - name: Sayfa yükleme veri eylemleri
-                          href: e-commerce-extensibility/page-load-data-action.md
-                        - name: Olay tabanlı veri eylemleri
-                          href: e-commerce-extensibility/event-based-data-actions.md
-                        - name: Temel veri eylemleri
-                          href: e-commerce-extensibility/core-data-actions.md
-                        - name: Commerce Scale Unit API'lerini çağırma
-                          href: e-commerce-extensibility/call-retail-server-apis.md
-                        - name: Retail Server uzantı API'lerini çağırma
-                          href: e-commerce-extensibility/call-retail-extension-api.md
-                        - name: İleri düzey
-                          items:
-                            - name: Zincir veri eylemleri
-                              href: e-commerce-extensibility/chain-data-actions.md
-                            - name: Toplu iş verisi eylemleri
-                              href: e-commerce-extensibility/batch-data-actions.md
-                            - name: Gözlemlenebilir veri eylemleri
-                              href: e-commerce-extensibility/create-observable-data-action.md
-                            - name: Modüller arasında durum paylaşma
-                              href: e-commerce-extensibility/share-state-across-modules.md
-                            - name: Veri eylemi önbellek ayarları
-                              href: e-commerce-extensibility/data-action-cache-settings.md
-                            - name: AJAX ile sunucu tarafı veri eylemlerini çağırma
-                              href: e-commerce-extensibility/data-actions-with-ajax.md
-                    - name: Temalar
-                      items:
-                        - name: Tema oluşturmaya genel bakış
-                          href: e-commerce-extensibility/theming.md
-                        - name: Tema oluşturma
-                          href: e-commerce-extensibility/create-theme.md
-                        - name: Tema ayarlarını yapılandırma
-                          href: e-commerce-extensibility/configure-theme-settings.md
-                        - name: Tema stili ön ayarlarını yapılandırma
-                          href: e-commerce-extensibility/theme-style-presets.md
-                        - name: Özelleştirme kodunuza özel kaynaklar ekleme
-                          href: e-commerce-extensibility/add-custom-resources.md
-                    - name: Komut dosyası ekleme
-                      items:
-                        - name: Komut dosyası ekleme araçları
-                          href: e-commerce-extensibility/script-injector.md
-                    - name: Bağlayıcılar
-                      items:
-                        - name: Bağlayıcıları yapılandırma ve etkinleştirme
-                          href: e-commerce-extensibility/connectors.md
-                - name: Mevcut işlevi genişletme
+                    - name: Modüllere genel bakış
+                      href: e-commerce-extensibility/modules-overview.md
+                    - name: Modül tanımı dosyası
+                      href: e-commerce-extensibility/module-definition-file.md
+                    - name: Modül Tepki bileşeni dosyası
+                      href: e-commerce-extensibility/module-react-file.md
+                    - name: Modül görünümü dosyası
+                      href: e-commerce-extensibility/module-view-file.md
+                    - name: Modül veri dosyası
+                      href: e-commerce-extensibility/module-data-file.md
+                    - name: Modül sahte dosyası
+                      href: e-commerce-extensibility/module-mock-file.md
+                    - name: Modül test dosyası
+                      href: e-commerce-extensibility/module-test-file.md
+                    - name: Modül props.autogenerated.ts dosyası
+                      href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                - name: Modül geliştirme
                   items:
-                    - name: Modüller
-                      items:
-                        - name: Modül kitaplığı modülünü kopyalama
-                          href: e-commerce-extensibility/clone-starter-module.md
-                        - name: Modül tanımını genişletme
-                          href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Veri eylemleri
-                      items:
-                        - name: Veri eylemini geçersiz kılma işlemleri
-                          href: e-commerce-extensibility/data-action-overrides.md
-                        - name: Veri eylemi kancaları
-                          href: e-commerce-extensibility/data-action-hooks.md
-                    - name: Temalar
-                      items:
-                        - name: Modül uzantıları eklemek için temayı genişletme
-                          href: e-commerce-extensibility/theme-module-extensions.md
-                        - name: Temada bir modül kitaplığı bileşenini geçersiz kılma
-                          href: e-commerce-extensibility/override-theme-component.md
-                        - name: Temayı ana temadan genişletme
-                          href: e-commerce-extensibility/extend-theme.md
-                - name: Ambalaj ve dağıtım
+                    - name: Yeni modül oluşturma
+                      href: e-commerce-extensibility/create-new-module.md
+                    - name: Modül kitaplığı modülünü kopyalama
+                      href: e-commerce-extensibility/clone-starter-module.md
+                    - name: Modül yapılandırma alanları ekleme
+                      href: e-commerce-extensibility/add-module-config-fields.md
+                    - name: Modülleri önizleme ve modülde hata ayıklama
+                      href: e-commerce-extensibility/test-module.md
+                    - name: Sahte modüllü test modülleri
+                      href: e-commerce-extensibility/test-module-mock.md
+                    - name: Sahte sayfalar kullanarak modülleri test etme
+                      href: e-commerce-extensibility/test-page-mock.md
+                    - name: Kapsayıcı modülleri
+                      href: e-commerce-extensibility/container-modules.md
+                    - name: Düzen kapsayıcı modülü oluşturma
+                      href: e-commerce-extensibility/create-layout-container.md
+                    - name: Sayfa kapsayıcı modülü oluşturma
+                      href: e-commerce-extensibility/create-page-containers.md
+                    - name: Modül yerelleştirme
+                      href: e-commerce-extensibility/localize-module.md
+                - name: Gelişmiş modül konuları
+                  items:
+                    - name: İstek özellikleri nesnesi
+                      href: e-commerce-extensibility/request-properties-object.md
+                    - name: Uygulama ayarları
+                      href: e-commerce-extensibility/app-settings.md
+                    - name: Platform ayarları dosyası
+                      href: e-commerce-extensibility/platform-settings.md
+                    - name: Modül tanımını genişletme
+                      href: e-commerce-extensibility/extend-module-definition.md
+                    - name: Tanımlama bilgisi API'sına genel bakış
+                      href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Etkileşimli bileşenlere genel bakış
+                      href: e-commerce-extensibility/interactive-components.md
+                    - name: Yerel geliştirme sırasında oturum açmış durumunun sahtesini oluşturma
+                      href: e-commerce-extensibility/mock-sign-in.md
+                    - name: Bağlama göre gösterilecek modül özelliklerini yapılandırma
+                      href: e-commerce-extensibility/configure-properties-context.md
+                    - name: CultureInfoFormatter sınıfını kullanarak modülleri globalleştirme
+                      href: e-commerce-extensibility/globalize-modules.md
+                    - name: Güvenli anahtar yönetimi için Azure Key Vault'u ayarlama
+                      href: e-commerce-extensibility/set-up-key-vault.md
+                - name: Veri eylemleri geliştirme
+                  items:
+                    - name: Veri eylemlerine genel bakış
+                      href: e-commerce-extensibility/data-actions.md
+                    - name: Veri eylemi önbellek seçenekleri
+                      href: e-commerce-extensibility/data-action-cache.md
+                    - name: Veri eylemlerini sahteleriyle test etme
+                      href: e-commerce-extensibility/test-data-action-mocks.md
+                    - name: Sayfa yükleme veri eylemleri
+                      href: e-commerce-extensibility/page-load-data-action.md
+                    - name: Olay tabanlı veri eylemleri
+                      href: e-commerce-extensibility/event-based-data-actions.md
+                    - name: Temel veri eylemleri
+                      href: e-commerce-extensibility/core-data-actions.md
+                    - name: Retail Server API'lerini çağırma
+                      href: e-commerce-extensibility/call-retail-server-apis.md
+                    - name: Retail Server uzantı API'lerini çağırma
+                      href: e-commerce-extensibility/call-retail-extension-api.md
+                - name: Gelişmiş veri eylemi konuları
+                  items:
+                    - name: Zincir veri eylemleri
+                      href: e-commerce-extensibility/chain-data-actions.md
+                    - name: Toplu iş verisi eylemleri
+                      href: e-commerce-extensibility/batch-data-actions.md
+                    - name: Gözlemlenebilir veri eylemleri
+                      href: e-commerce-extensibility/create-observable-data-action.md
+                    - name: Modüller arasında durum paylaşma
+                      href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Veri eylemi önbellek ayarları
+                      href: e-commerce-extensibility/data-action-cache-settings.md
+                    - name: Veri eylemi geçersiz kılma işlemleri
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: Veri eylemi kancaları
+                      href: e-commerce-extensibility/data-action-hooks.md
+                    - name: AJAX ile sunucu tarafı veri eylemlerini çağırma
+                      href: e-commerce-extensibility/data-actions-with-ajax.md
+                - name: Tema geliştirme
+                  items:
+                    - name: Tema oluşturmaya genel bakış
+                      href: e-commerce-extensibility/theming.md
+                    - name: Tema oluşturma
+                      href: e-commerce-extensibility/create-theme.md
+                    - name: Tema ayarlarını yapılandırma
+                      href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Tema stili ön ayarlarını yapılandırma
+                      href: e-commerce-extensibility/theme-style-presets.md
+                    - name: Modül uzantıları eklemek için temayı genişletme
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Temada bir modül kitaplığı bileşenini geçersiz kılma
+                      href: e-commerce-extensibility/override-theme-component.md
+                    - name: Temayı temel temadan genişletme
+                      href: e-commerce-extensibility/extend-theme.md
+                    - name: Özelleştirme koduna özel kaynaklar ekleme
+                      href: e-commerce-extensibility/add-custom-resources.md
+                - name: Komut dosyası ekleme
+                  items:
+                    - name: Komut dosyası enjektörleri
+                      href: e-commerce-extensibility/script-injector.md
+                - name: Bağlayıcılar
+                  items:
+                    - name: Bağlayıcıları yapılandırma ve etkinleştirme
+                      href: e-commerce-extensibility/connectors.md
+                - name: Telemetri ve analiz
+                  items:
+                    - name: Telemetri kaydedici
+                      href: e-commerce-extensibility/telemetry-logger.md
+                - name: Dağıtım ve bakım
                   items:
                     - name: Yapılandırmaları paketleme ve çevrimiçi bir ortama dağıtma
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK ve modül kitaplığı güncelleştirmeleri
                       href: e-commerce-extensibility/sdk-updates.md
-                    - name: Azure DevOps kod paylaşımını ayarlama ve derleme işlem hattı oluşturma
-                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
-                - name: 'En iyi uygulamalar, performans ve SSS'
+                - name: En iyi uygulamalar ve SSS
                   items:
                     - name: Dynamics 365 Commerce geliştirme için en iyi uygulamalar
                       href: e-commerce-extensibility/best-practices-dev.md
@@ -2782,60 +2324,172 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Dynamics 365 Commerce geliştirme için en iyi hata ayıklama uygulamaları
                       href: e-commerce-extensibility/debugging-best-practices.md
-                    - name: E-ticaret sitesi sayfalarında bellek sızıntılarını test etme
-                      href: e-commerce-extensibility/memory-leak-detection.md
-                    - name: Performans
-                      items:
-                        - name: Sayfa önbelleğe almayı yapılandırma
-                          href: e-commerce-extensibility/page-caching.md
-                        - name: Veri eylemi örnek önbelleği
-                          href: e-commerce-extensibility/instance-cache.md
-                    - name: Telemetri ve analiz
-                      items:
-                        - name: Telemetri kaydedici
-                          href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Retail SDK
               items:
-                - name: Ambalaj ve dağıtım
-                  items:
-                    - name: Finans ve Operasyonlar dağıtımı için Commerce ödeme paketi oluşturma
-                      href: dev-itpro/payment-connector-package.md
-            - name: Retail SDK (Eski)
+                - name: Retail SDK mimarisi
+                  href: dev-itpro/retail-sdk/retail-sdk-overview.md
+                - name: Retail SDK'de yakında yapılacak değişiklikler
+                  href: dev-itpro/UpcomingSDKChanges.md
+                - name: 10.0.10 sürümünden 10.0.13 sürümüne kadar geliştirme ve ALM değişiklikleri
+                  href: dev-itpro/dev-changes-10-13.md
+                - name: Commerce ve Finance and Operations için derleme sistemlerini birleştirme
+                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: Retail SDK'yi Visual Studio 2015'ten Visual Studio 2017'ye taşıma
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
+                - name: Retail SDK genişletilebilirlik örnekleri
+                  href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                - name: Dağıtılabilir paketler oluşturma
+                  href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+                - name: Yönetici erişimi olmadan bulutta barındırılan ortamlarda geliştirme
+                  href: dev-itpro/cloud-dev-box.md
+                - name: Commerce SDK derleme işlem hattı ayarlama
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: GitHub ve NuGet'ten örnekler ve paketler indirme
+                  href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Retail SDK ile ilgili SSS
+                  href: dev-itpro/retail-sdk/sdk-faq.md
+            - name: Satış noktası genişletilebilirliği
               items:
-                - name: Genel bakış
-                  items:
-                    - name: Retail yazılım geliştirme seti (SDK)
-                      href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                    - name: Retail yazılım geliştirme seti (SDK) genişletilebilirlik örnekleri
-                      href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-                    - name: Retail SDK ile ilgili SSS
-                      href: dev-itpro/retail-sdk/sdk-faq.md
-                    - name: Retail SDK'yi Visual Studio 2015'ten Visual Studio 2017'ye geçirme
-                      href: dev-itpro/retail-sdk/migrate-sdk.md
-                - name: Ortam kurulumu
-                  items:
-                    - name: Yönetici erişimi olmadan bulutta barındırılan ortamlarda geliştirme
-                      href: dev-itpro/cloud-dev-box.md
-                    - name: POS örneklerini çalıştırma
-                      href: dev-itpro/pos-run-samples.md
-                - name: Referans
-                  items:
-                    - name: E-ticaret platformu yazılım geliştirme kiti (SDK)
-                      href: dev-itpro/ecommerce-platform-sdk.md
-                    - name: Çevrimiçi mağazaları yapılandırma
-                      href: dev-itpro/configure-online-store.md
-                    - name: Kimlik doğrulama sağlayıcılarını yapılandırma
-                      href: dev-itpro/configure-authentication-providers.md
-                - name: Ambalaj ve dağıtım
-                  items:
-                    - name: Dağıtılabilir paketler oluşturma
-                      href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                    - name: Kod imzalama sertifikası ile MPOS appx dosyasını imzalama
-                      href: dev-itpro/pos-app-signing-certificate.md
-                    - name: Android ve iOS'ta POS Hybrid uygulaması kurma
-                      href: dev-itpro/hybridapp.md
-                    - name: Markalama oluşturma ve Retail Experience uygulamasına uygulama
-                      href: dev-itpro/create-retail-experience-app.md
+                - name: POS ekranı düzenleri
+                  href: pos-screen-layouts.md
+                - name: URL'yi POS'ta açma
+                  href: Open-URL-in-POS.md
+                - name: POS Düzeni tasarımcısını yükleme
+                  href: install-pos-layout-designer.md
+                - name: POS Çift ekran görünümünü genişletme
+                  href: dev-itpro/pos-dual-display-extension.md
+                - name: POS görünümlerine özel denetimler ekleme
+                  href: dev-itpro/pos-custom-control.md
+                - name: Düğme grubu tasarımcısını kullanarak POS düzenlerine POS işlemleri ekleme
+                  href: dev-itpro/add-POS-operations.md
+                - name: POS API'leri
+                  href: dev-itpro/POS-APIs.md
+                - name: POS ödemesi uzantısı
+                  href: dev-itpro/pos-payment-extension.md
+                - name: POS ödemeleri SDK'sinde bahşiş bırakma desteği
+                  href: dev-itpro/tipping.md
+                - name: Harici hediye kartları için destek
+                  href: dev-itpro/gift-card.md
+                - name: Markalama oluşturma ve Retail Experience uygulamasına uygulama
+                  href: dev-itpro/create-retail-experience-app.md
+                - name: Android ve iOS'ta POS Hybrid uygulamasını ayarlama
+                  href: dev-itpro/hybridApp.md
+                - name: POS istek işleyicisini geçersiz kılma
+                  href: dev-itpro/pos-handler.md
+                - name: POS uzantı paketi bilgilerini görüntüleme
+                  href: dev-itpro/view-pos-extension-package-details.md
+                - name: Bulut POS için kaydediciyi ve Regression Suite Automation Tool'u test etme
+                  href: dev-itpro/pos-rsat.md
+                - name: POS Toplamlar paneline özel alanlar ekleme
+                  href: dev-itpro/custom-field-pos-totals.md
+                - name: POS'ta özel bildirimler gösterme
+                  href: dev-itpro/extend-pos-notification.md
+                - name: Kod imzalama sertifikasıyla MPOS'u imzalama
+                  href: dev-itpro/pos-app-signing-certificate.md
+                - name: Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için POS görünümlerini genişletme
+                  href: dev-itpro/pos-view-extension.md
+                - name: Modern POS işlem sayfalarına özel denetimler ekleme
+                  href: dev-itpro/pos-custom-transaction.md
+                - name: POS işlem kılavuzuna özel sütunlar ekleme
+                  href: dev-itpro/pos-custom-transaction-column.md
+                - name: POS uzantılarından POS API'larını veya işlemlerini çağırma
+                  href: dev-itpro/pos-api-extension.md
+                - name: POS tetikleyicileri
+                  href: dev-itpro/pos-trigger-printing.md
+                - name: Ekran tasarımcısı tabanlı olmayan POS görünümlerine özel denetimler ekleme
+                  href: dev-itpro/pos-control-non-screen.md
+                - name: POS örneklerini çalıştırma
+                  href: dev-itpro/pos-run-samples.md
+                - name: Cihaz yönetimi uygulama kılavuzu
+                  href: implementation-considerations-devices.md
+                - name: POS Sepet görüntüleme olayları ve işleyicileri
+                  href: dev-itpro/cart-view-handlers.md
+                - name: POS başlık çubuğuna özel düğmeler ekleme
+                  href: dev-itpro/pos-header-bar.md
+            - name: Hardware Station genişletilebilirliği
+              items:
+                - name: Hardware Station ve genişletilebilirlik
+                  href: dev-itpro/hardware-station-extensibility.md
+                - name: POS'u yeni bir donanım cihazıyla tümleştirme
+                  href: dev-itpro/hardware-device-extension.md
+            - name: Retail Server genişletilebilirliği
+              items:
+                - name: Commerce Scale Unit müşteri ve tüketici API'ları
+                  href: dev-itpro/retail-server-customer-consumer-api.md
+                - name: Retail Server uzantı API'sı oluşturma (Retail SDK sürüm 10.0.11 ve sonrası)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Yeni Retail Server uzantı API'si oluşturma (Retail SDK sürüm 10.0.11 ve öncesi)
+                  href: dev-itpro/retail-server-extension.md
+                - name: Retail Typescript ve C# proxy'leri
+                  href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: Harici uygulamalarda Retail Server API'larını kullanma
+                  href: dev-itpro/consume-retail-server-api.md
+            - name: Commerce Runtime (CRT) genişletilebilirliği
+              items:
+                - name: CRT mimarisi ve yapılandırması
+                  href: dev-itpro/commerce-runtime-overview.md
+                - name: CRT hizmetleri
+                  href: dev-itpro/crt-services.md
+                - name: CRT uzantısı modeli
+                  href: dev-itpro/commerce-runtime-extensibility.md
+                - name: Retail kanalları için parolaları yönetme
+                  href: dev-itpro/manage-secrets.md
+                - name: CRT genişletilebilirliği ve tetikleyiciler
+                  href: dev-itpro/commerce-runtime-extensibility-trigger.md
+                - name: Tetikleyicileri kullanarak hareketleri engelleme
+                  href: dev-itpro/trigger-example-blocking-transaction.md
+                - name: Bağlılık programı uzantısı
+                  href: dev-itpro/retail-sdk/loyalty-extension-sample.md
+                - name: Sevk irsaliyeleri için uzantı noktaları
+                  href: dev-itpro/extensions-shipping-carrier-integration.md
+                - name: Kanal veritabanı uzantıları
+                  href: dev-itpro/channel-db-extensions.md
+                - name: Uzantıyla özel CDX eşitlemesini etkinleştirme
+                  href: dev-itpro/cdx-extensibility.md
+                - name: Sipariş özniteliklerini tanımlama ve ayarlama
+                  href: dev-itpro/order-attributes.md
+                - name: Müşteri öznitelikleri
+                  href: dev-itpro/customer-attributes.md
+                - name: Makbuz uzantıları
+                  href: dev-itpro/retail-sdk/retail-sdk-samples.md
+                - name: Application Insights'a uzantı olayları kaydetme
+                  href: dev-itpro/commerce-application-insights.md
+                - name: İş mantığınızda zaman uyumsuz Commerce (CRT) API'ları oluşturma
+                  href: dev-itpro/async-commerce-extension.md
+                - name: Kanal veritabanındaki önceden genişletilmiş sütunlar
+                  href: dev-itpro/extended-columns.md
+                - name: Commerce Data Exchange - Gerçek Zamanlı Hizmeti genişletme
+                  href: dev-itpro/extend-commerce-data-exchange.md
+            - name: Ödeme bağlayıcısı genişletilebilirliği
+              items:
+                - name: Ödeme terminali için ödeme tümleştirmesi oluşturma
+                  href: dev-itpro/end-to-end-payment-extension.md
+                - name: Ödeme bağlayıcısı ve ödeme cihazı uygulama (teknik rapor)
+                  href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
+                - name: Ödeme bağlayıcıları dağıtma
+                  href: dev-itpro/deploy-payment-connector.md
+                - name: Arka ofis faturalaması için artımlı yakalama
+                  href: dev-itpro/incremental-capture.md
+                - name: Ödeme terminali uzantıları için yerelleştirilmiş özel hata iletileri oluşturma
+                  href: dev-itpro/payment-custom-error-messages.md
+                - name: Ödeme bağlayıcıları için Windows yükleyicileri oluşturma
+                  href: dev-itpro/create-windows-installer-payment-connector.md
+                - name: Ödeme verileri kullanımı
+                  href: payment-connector-data-fields.md
+                - name: Ödeme bağlayıcısı için yinelenen ödeme koruyucusunu etkinleştirme
+                  href: dev-itpro/duplicate-payments-protection.md
+                - name: Finance and Operations dağıtımı için Commerce ödeme paketi oluşturma
+                  href: dev-itpro/payment-connector-package.md
+            - name: Üçüncü taraf e-ticaret genişletilebilirliği
+              items:
+                - name: Çevrimiçi mağazaları yapılandırma
+                  href: dev-itpro/configure-online-store.md
+                - name: Kimlik doğrulama sağlayıcılarını yapılandırma
+                  href: dev-itpro/configure-authentication-providers.md
+                - name: e-Ticaret platformu SDK'sı
+                  href: dev-itpro/ecommerce-platform-sdk.md
+            - name: Commerce uzantı kaynaklarını ve etiket dosyalarını yerelleştirme
+              href: dev-itpro/extension-resource-localization.md
         - name: Sorun giderme
           items:
             - name: Sipariş işleme
@@ -2878,15 +2532,13 @@
                   href: troubleshoot/pickup-store-link-missing.md
                 - name: 'Perakende mağazası, mağaza listesinde görünmüyor'
                   href: troubleshoot/pickup-store-missing.md
-                - name: Stoğu olmayan maddeler kullanıma alınabilir
+                - name: Stoğu olmayan maddeler kullanıma alınamaz
                   href: troubleshoot/items-without-inventory-checked-out.md
-                - name: Derecelendirmeler ve incelemeler çözümü etkin olmadığında arama sonuçlarında ve kategori sayfalarında derecelendirme daraltıcı görünüyor
-                  href: troubleshoot/hide-ratings-refiner.md
             - name: SDK ile ilgili sorunları giderme
               items:
                 - name: Katman 1 Retail Server VM'de hata ayıklama için e-ticaret geliştirme ortamı ayarlama
                   href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: Finans ve operasyon uygulamalarını geliştirme ve yönetme
+    - name: Finance and Operations uygulamalarını geliştirme ve yönetme
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

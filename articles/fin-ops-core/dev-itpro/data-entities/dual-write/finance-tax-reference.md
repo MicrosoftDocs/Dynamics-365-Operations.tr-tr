@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3003eabf970bc0883ff22d930b4a111925af1eeb
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a9c4caf53c1968232d31bb17054d63733d0bf484
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684045"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568066"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>Finans ve vergi referans verilerine erişim
 
@@ -37,3 +36,6 @@ Finans ve vergi verileri aşağıdaki eşlemeler kullanılarak tümleştirilir:
 
 + [Tümleşik genel muhasebe](ledger-mapping.md)
 + [Tümleşik vergi aslı](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

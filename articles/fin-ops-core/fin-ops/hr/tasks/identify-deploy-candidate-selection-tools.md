@@ -2,11 +2,9 @@
 title: Aday seçim araçlarını tanımlama ve dağıtma
 description: Boş konumları doldurmak için kalifiye aday havuzu bulmak, özellikle de konum benzersiz beceri grubu gerektirdiğinde zor olabilir.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8015d4e32da2ba80230aa0ad48576948f2fd1678
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: cae72f9ad1e627c1de547de9689f951a6aea0f9eb37d426034652332a7929a22
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723043"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Aday seçim araçlarını tanımlama ve dağıtma
 
@@ -57,3 +55,6 @@ Boş konumları doldurmak için kalifiye aday havuzu bulmak, özellikle de konum
 24. Sayfayı kapatın.
 25. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

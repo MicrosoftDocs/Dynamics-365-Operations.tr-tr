@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: f362aef527272781464d5c1a17f0a382cfb8cacc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102925"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568147"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 
@@ -123,7 +123,7 @@ Etkilenen hareketleri gözden geçirmek için, seçili hareketleri engellemek ve
     - **Tüm işlemleri görüntüle** – Sadece açık hareketlerin değil, tüm hareketlerin tam listesini açın.
 
 > [!IMPORTANT]
-> **Üretimi bildir** düğmesi, yalnızca sisteminizde *Üretim için mühendislik bildirimleri* özelliği açıksa kullanılabilir. Bu özelliğin ve önkoşulların nasıl açılacağı veya kapatılacağı ile ilgili yönergeler için, bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
+> **Üretime bildir** düğmesi, yalnızca sisteminizde *Üretim için mühendislik bildirimleri* özelliği açıksa kullanılabilir. Yönergeler için bkz. [Mühendislik değişikliğine genel bakış](product-engineering-overview.md).
 
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>İşlemler için değişiklik bildirimlerini gözden geçirme ve işleme
 
@@ -136,7 +136,7 @@ Aldığınız değişiklik bildirimlerini aşağıdaki şekillerde okuyabilir ve
 **Mühendislik bildirimleri** sayfasında üretim emri bildirimlerini gözden geçirirken, sütun değerlerini seçerek veya Eylem Bölmesi'ndeki ilgili komutları kullanarak ilgili değişiklik emirlerine veya üretim emirlerine bağlantıları takip edebilirsiniz. Bir değişikliği değerlendirmeyi tamamladıktan ve üretim emirlerini gerektiği gibi iptal ettikten veya değiştirdikten sonra, bir bildirimi çözümlenmiş olarak işaretleyebilirsiniz. Bildirimi seçin ve eylem bölmesinde **Çözümle** 'yi seçin. Bildirim tüm kullanıcıların görünümlerinden kaldırılır.
 
 > [!IMPORTANT]
-> Üretim emirleri ile ilgili bildirim gönderebilmeniz için sisteminizde *Üretim için mühendislik bildirimleri* özelliğinin açık olması gerekir. Bu özelliğin ve önkoşulların nasıl açılacağı veya kapatılacağı ile ilgili yönergeler için, bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
+> Üretim emirleri ile ilgili bildirim gönderebilmeniz için sisteminizde *Üretim için mühendislik bildirimleri* özelliğinin açık olması gerekir. Yönergeler için bkz. [Mühendislik değişikliğine genel bakış](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Değişiklik isteğinden değişiklik emri oluşturma
 

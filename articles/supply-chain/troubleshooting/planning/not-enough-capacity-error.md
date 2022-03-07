@@ -1,7 +1,7 @@
 ---
 title: Yeterli kapasite bulunamadı
 description: Bu konuda, "%1 üretim emri planlanamadı. Yeterli kapasite bulunamadı" planlama altyapısı hatasını gidermenize yardımcı olacak bir bağlantı sağlanmaktadır..
-author: ChristianRytt
+author: crytt
 ms.date: 7/29/2021
 ms.topic: article
 ms.search.form: ProdTable
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: eb494cab08453a548a0ac862cbe89dfd9f17fbcd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4a67cdef07a8aa93e78049786f49d3714d189cf2
+ms.sourcegitcommit: ab1455c67f6ee6ca36bec148bea0dbb0f7704eda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574773"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7428970"
 ---
 # <a name="not-enough-capacity-could-be-found"></a>Yeterli kapasite bulunamadı
 

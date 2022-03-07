@@ -2,27 +2,24 @@
 title: Çalışma süresi şablonları oluşturma
 description: Çalışma zamanı şablonları bir haftalık çalışma saatlerini tanımlar ve bir dönem için çalışma zamanları oluşturmak için kullanılır.
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkTimeTable, WorkTimeCopyDayDialog, WorkPeriodTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5bd1b384fe66dd7d59b776bdf1154cc5b8262ce
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1885aba11b5c6878cc9dca615cea98b77b4df63f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439005"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811594"
 ---
 # <a name="create-working-time-templates"></a>Çalışma süresi şablonları oluşturma
 
@@ -79,3 +76,6 @@ ms.locfileid: "4439005"
 3. Pazar bölümünü genişletin.
 4. Malzeme çekme için Kapatıldı alanında Evet seçeneğini belirleyin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Biçim oluşturduğunuzda veri modeli tanımlarını seçme
 description: Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44288cc3979a0ac2ed6b4a8478aac21a85aca24e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01f7afb6ca3bd1f317c25202e0cf72231008fca
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684223"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744975"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Biçim oluşturduğunuzda veri modeli tanımlarını seçme
 
@@ -98,3 +96,6 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
     * Şimdi uygulama veri kaynaklarına yalnızca bir kök maddenin kullanılabilir olduğuna dikkat edin. En az bir model eşlemesi eklendiğinde, yalnızca uygulama veri kaynaklarına eşleşmiş olan modelin kök maddelerinin bir ER biçimi eklendiğinde bir model tanımı olarak seçilebileceğini unutmayın.   
 5. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

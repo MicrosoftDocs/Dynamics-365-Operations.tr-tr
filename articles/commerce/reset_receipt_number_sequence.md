@@ -2,16 +2,13 @@
 title: Makbuz numaralarını sıfırlama
 description: Bu konuda, istenen tarihteki çeşitli eylemler için kullanılan giriş numaralarının nasıl sıfırlanacağı açıklanmaktadır (örneğin, mali yıl veya takvim yılı).
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cabce32a43e55f3a3f19bc2d78547d9bab0d89a2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416358"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792061"
 ---
 # <a name="reset-receipt-numbers"></a>Makbuz numaralarını sıfırlama 
 
@@ -68,3 +65,6 @@ Sonraki sıfırlama tarihlerini temizlemek için **sıfırlama tarihini temizle*
 
 > [!NOTE]
 > Seçtiğiniz sıfırlama tarihine ve makbuz formatına bağlı olarak, tekrarlanan Makbuz numaraları olabilir. Satış noktası (POS) sisteminin bu gibi durumları işleyebilmesine karşın, iadelerin işlenmesi için gereken süreyi arttırır, çünkü satışlar ilişkilendirmeleri tekrarlanan girişler arasında seçim yapmak zorundadır. Tekrarlanan girişler planlanan bir sonuç değilse, veri temizlemesine ilişkin diğer zorluklar ortaya çıkabilir. Bu nedenle, sıfırlamadan sonra tekrarlanan öğe numaralarının olmasını önlemeye yardımcı olmak için dinamik Tarih karakterleri (örneğin **ggg**, **AA**, **GG**, **YY**) kullanmanızı öneririz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
