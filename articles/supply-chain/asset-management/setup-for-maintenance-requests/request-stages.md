@@ -1,12 +1,10 @@
 ---
 title: Bakım talebi yaşam döngüsü durumları
 description: Bu konuda Kıymet Yönetimi'nde bakım talebi yaşam döngüsü durumları ayarlama işlemi açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3c2f717969b938d05e68ac775d31b6a5d5ec26a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3ece0fc1121211706350d804fec59e72ef08282fcba4e65f557a510834738b11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743686"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Bakım talebi yaşam döngüsü durumları
 
@@ -50,7 +48,7 @@ Bakım talebi yaşam döngüsü durumları bir isteğin gidebileceği aşamalar�
 
 Aşağıdaki çizimde bir **Bakım talebi yaşam döngüsü durumları** sayfasının bir örneği gösterilmektedir.
 
-![Bakım talebi yaşam döngüsü durumları sayfası](media/02-setup-for-requests.png)
+![Bakım talebi yaşam döngüsü durumları sayfası.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Bakım talebi yaşam döngüsü durumları, yaşam döngüsü durum grupları ve türlerin ilişkili olduğu ve iş emri yaşam döngüsü durumları, yaşam döngüsü durumu grupları ve türlerle aynı şekilde kullanıldığı gibi kullanılabilir. 
@@ -68,9 +66,9 @@ Bakım talepleriniz için gerekli yaşam döngüsü durumları oluşturulduktan 
 
 5. **Yaşam döngüsü durumları** hızlı sekmesinde yaşam döngüsü modeline eklenmesi gereken yaşam döngüsü durumlarını seçin:
 
-    - Yaşam döngüsü modelinde bir yaşam döngüsü durumu kullanmak için durumu **Kalan yaşam döngüsü durumları** bölümünden seçin ve sağ ok düğmesini ![Sağ ok](media/03-setup-for-requests.png) seçerek durumu **Seçili yaşam döngüsü durumları** bölümüne taşıyın.
-    - Yaşam döngüsü modelinde tüm kullanılabilir yaşam döngüsü durumlarını kullanmak için **Tüm kullanılabilir durumları seç** düğmesini ![Tüm kullanılabilir durumları seç](media/04-setup-for-requests.png) seçin. Tüm yaşam döngüsü durumları **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
-    - Yaşam döngüsü modelinden bir yaşam döngüsü durumunu kaldırmak için durumu **Seçili yaşam döngüsü durumları** bölümünden seçin ve sol ok düğmesini ![Sol ok](media/05-setup-for-requests.png) seçerek durumu **Kalan yaşam döngüsü durumları** bölümüne taşıyın.
+    - Yaşam döngüsü modeline bir yaşam döngüsü durumu eklemek istiyorsanız, modeli **Kalan yaşam döngüsü durumları** bölümünde seçin ve sonra sağ ok düğmesini ![Sağ ok.](media/03-setup-for-requests.png) seçerek **Seçilen yaşam döngüsü durumları** bölümüne taşıyın.
+    - Yaşam döngüsü modelinde tüm kullanılabilir yaşam döngüsü durumlarını kullanmak için **Tüm kullanılabilir durumları seç** düğmesini ![Tüm kullanılabilir durumları seç.](media/04-setup-for-requests.png) seçin. Tüm yaşam döngüsü durumları **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
+    - Yaşam döngüsü modelinden bir yaşam döngüsü durumunu kaldırmak istiyorsanız, modeli **Seçili yaşam döngüsü durumları** bölümünde seçin ve sonra sol ok düğmesini ![Sol ok.](media/05-setup-for-requests.png) seçerek **Kalan döngüsü durumları** bölümüne taşıyın.
 
 6. **Genel** hızlı sekmesinde, depot onarımını kullanırsanız, **Güncelleştirmeler** bölümündeki alanlar geçerlidir.
 
@@ -79,4 +77,7 @@ Bakım talepleriniz için gerekli yaşam döngüsü durumları oluşturulduktan 
 
 Aşağıdaki çizimde bir **Bakım talebi yaşam döngüsü modelleri** sayfasının bir örneği gösterilmektedir.
 
-![Bakım talebi yaşam döngüsü modelleri sayfası](media/06-setup-for-requests.png)
+![Bakım talebi yaşam döngüsü modelleri sayfası.](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

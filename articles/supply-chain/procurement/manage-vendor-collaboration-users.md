@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6356c1d11ba507c0eaa42087bdebe982ef091dbd
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 18403c336253a9b2e85128329ac03daf081cd560
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019954"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244147"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Satıcı iş birliği kullanıcılarını yönetme
 
@@ -93,3 +93,6 @@ Bir kullanıcının devre dışı bırakılmasını talep etmek için:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

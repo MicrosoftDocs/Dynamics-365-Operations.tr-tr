@@ -1,31 +1,33 @@
 ---
 title: Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
-description: Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden işletme bir birimdir. Departman satış, muhasebe veya İnsan kaynakları gibi kuruluşun belirli bir alanından sorumludur. İşlevsel alanlara bildirmek için bölümleri kullanabilirsiniz. Departmanların kâr ve zarar sorumluluğu olabilir.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+description: Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden işletme bir birimdir. Departman satış, muhasebe veya İnsan kaynakları gibi kuruluşun belirli bir alanından sorumludur.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8571b254a3dcdeaf562a97f165b8124f04ae7e6d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420871"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068906"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden işletme bir birimdir. Departman satış, muhasebe veya İnsan kaynakları gibi kuruluşun belirli bir alanından sorumludur. İşlevsel alanlara bildirmek için bölümleri kullanabilirsiniz. Departmanların kâr ve zarar sorumluluğu olabilir.
 
@@ -33,15 +35,15 @@ Bir departman maliyet merkezleri grubu da içerebilir. Departmanlar için pozisy
 
 | Alan               | Açıklama                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dosya Adı                | Departman için bir ad girin.                                                                                                                                                                                  |
-| Departman numarası   | **Numara serileri** sayfasında **kuruluş numarası**'na bir numara serisi kodu atadıysanız varsayılan değer otomatik olarak oluşturulabilir.                                                 |
-| Arama adı         | Departman için aramada kullanılabilecek bir ad veya kısa ad girin.                                                                                                                                            |
-| Not                | Buraya ek bilgi girin                                                                                                                                                                            |
-| Hiyerarşide        | Seçili bir onay kutusu, departman hiyerarşisine bir departman dahil edildiğini gösterir. Bir bölümü bölüm hiyerarşisine ekleme hakkında daha fazla bilgi için bu makalenin ilerisindeki bilgilere bakın. |
-| DUNS numarası         | DUNS Veri Evrensel Sayı Sistemi anlamına gelir. Bu, Dun & Bradstreet tarafından verilen bir dokuz basamaklı bir sayıdır.                                                                                                     |
-| Yönetici             | Departmanı yöneten kişiyi girin.                                                                                                                                                                    |
-| Adresler           | Departman için adres bilgilerini ekleyin. Örneğin, departmanın bulunduğunu bina için posta adresini ekleyin.                                                                          |
-| İletişim bilgileri | Departman için ilgili kişi verilerini ekleyin. Örneğin, departmanda hizmet masası için bir telefon numarası ekleyin.                                                                                           |
+| **Dosya Adı**                | Departman için bir ad girin.                                                                                                                                                                                  |
+| **Departman numarası**   | **Numara serileri** sayfasında **kuruluş numarası**'na bir numara serisi kodu atadıysanız varsayılan değer otomatik olarak oluşturulabilir.                                                 |
+| **Arama adı**         | Departman için aramada kullanılabilecek bir ad veya kısa ad girin.                                                                                                                                            |
+| **Not**                | Buraya ek bilgi girin                                                                                                                                                                            |
+| **Hiyerarşide**        | Seçili bir onay kutusu, departman hiyerarşisine bir departman dahil edildiğini gösterir. Bir bölümü bölüm hiyerarşisine ekleme hakkında daha fazla bilgi için bu makalenin ilerisindeki bilgilere bakın. |
+| **DUNS numarası**         | DUNS Veri Evrensel Sayı Sistemi anlamına gelir. Bu, Dun & Bradstreet tarafından verilen bir dokuz basamaklı bir sayıdır.                                                                                                     |
+| **Yönetici**             | Departmanı yöneten kişiyi girin.                                                                                                                                                                    |
+| **Adresler**           | Departman için adres bilgilerini ekleyin. Örneğin, departmanın bulunduğunu bina için posta adresini ekleyin.                                                                          |
+| **İletişim bilgileri** | Departman için ilgili kişi verilerini ekleyin. Örneğin, departmanda hizmet masası için bir telefon numarası ekleyin.                                                                                           |
 
 Bölüm hiyerarşisine bir bölüm eklemek için aşağıdaki adımları izleyin.
 
@@ -53,4 +55,7 @@ Bölüm hiyerarşisine bir bölüm eklemek için aşağıdaki adımları izleyin
 6.  Hazır olduğunuzda, hiyerarşisi tasarımcısı içerisinde **Yayımla**'yı tıklatın. Hiyerarşinin ne zaman yayımlanacağını belirtecek bir geçerlilik tarihi girebilirsiniz. Örneğin, bir sonraki takvim yılı başına yeni bir departman eklemek için yürürlük tarihini yeni takvim yılının 1 Ocak'ı olarak ayarlayın. Hiyerarşi değişiklikleri o tarihte geçerlilik kazanır.
 
 ## <a name="steps-for-creating-a-department"></a>Bir departman oluşturma adımları
-Yeni bir departman oluşturmaya ilişkin adım adım yordam için [Yeni departmanlar tanımlama](../fin-and-ops/hr/tasks/define-new-departments.md) konusuna başvurun. 
+Yeni bir departman oluşturmaya ilişkin adım adım yordam için [Yeni departmanlar tanımlama](./hr-personnel-define-departments.md) konusuna başvurun. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

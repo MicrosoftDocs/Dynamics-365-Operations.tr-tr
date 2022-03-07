@@ -1,29 +1,31 @@
 ---
 title: Personelin yaralanma ve hastalık bilgilerini koruma
-description: Bazı ayar bilgileri burada kullanıldığından, 'Yaralanma ve hastalık ayarlama' görevini önce tamamlamanız tavsiye edilir.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+description: Bu görev, bir yaralanma veya hastalık durumunun nasıl oluşturulacağını açıklar.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 06307331db4d420e99de21c0eb0b3cf1c233f0d5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420903"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066662"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Personelin yaralanma ve hastalık bilgilerini koruma
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -31,65 +33,54 @@ Bazı ayar bilgileri burada kullanıldığından, 'Yaralanma ve hastalık ayarla
 
 
 
-Bu görev, bir yaralanma veya hastalık örneği oluşturmanın temel adımlarını kapsar. Yaralanma veya hastalık ayrıntılarını izlemenin yanı sıra, izlenen bir servis talebi de vardır.  Vaka varsayılan olarak 'açık' durumundadır.  Durumlar, sayfanın üst kısmındaki "Servis talebi durumu" menü öğesinden yönetilebilir.
+Bu görev, bir yaralanma veya hastalık örneği oluşturmanın temel adımlarını açıklar. Yaralanma veya hastalık ayrıntılarının yanında bir servis talebi durumu izlenir. Varsayılan olarak, servis taleplerinin durumu **Açıktır**. Durumları, sayfanın üst kısmındaki **Servis talebi durumu** menü öğesinden yönetebilirsiniz.
 
-1. İnsan Kaynakları > Çalışanlar > Yaralanma ve hastalık > Yaralanma veya hastalık olayları'na gidin.
-2. Yeni'ye tıklayın.
-3. Olay açıklaması alanında bir değer girin.
-    * Örnek: Bilek sakatlığı  
-4. Çalışan alanında bir değer girin veya bir değer seçin.
-    * Örnek: Ahmet Bora  
-5. Olayın tarihi ve saati alanında bir tarih ve saat girin.
-    * Örnek: 1/20/2016 10:00 AM  
-6. Yaralanma veya hastalık türü alanında bir değer girin veya seçin.
-    * Örnek: Kırık  
-7. Vücut bölümü alanında bir değer girin veya bir değer seçin.
-    * Örnek: Bilek  
-8. Sonuç türü alanında bir değer girin veya bir değer seçin.
-    * Örnek: Terapi  
-9. Raporlanma tarihi ve saati alanında bir tarih ve saat girin.
-    * Raporlanan tarih ve saat, olayın tarih ve saatinden sonra olmalıdır.  
-10. Servis talebini rapor eden kişi alanında bir değer girin veya seçin.
-    * Bu, olaya tanık bir çalışan veya başka bir şahit olabilir.  Örnek: Ahmet Bora  
-11. Olay bölümünü genişletin.
-12. Olayın oluştuğu yer alanında bir değer girin.
-    * Örnek: Ambar  
-13. Çalışılan yerde alanında Evet'i seçin.
-    * Olay çalışılan yerde meydana geldiyse, evet'i seçin.  
-14. İşe başladığı tarih ve saat alanında bir tarih ve saat girin.
-    * Olay gerçekleşmeden önce bireyin çalışmaya başlamasını etkileyen tarih ve saati girin.  
-15. Çalışanın işi veya görevi alanında bir değer girin.
-    * Olay meydana geldiğinde çalışanın yapmakta olduğu işi veya görevi girin.  Örnek: Kutuları yükleme  
-16. Olayın nedeni alanında bir değer girin.
-    * Olayın nedenini girin.  Örnek: Islak zeminde kayma  
-17. Önem düzeyi alanında bir değer girin veya bir değer seçin.
-18. Gerçekleştirilecek eylem alanında bir değer girin.
-    * Örnek: Dökülen sıvıları hemen temizleme  
-19. İşbaşı yapmadan geçirmesi beklenen gün sayısı alanında bir sayı girin.
-    * Bireyin işten uzak kalması beklenen gün sayısını girin.  Birey işe döndüğünde, 'İşten uzakta geçen gün sayısı' alanını gelmediği gerçek gün sayısıyla güncelleştirin.  
-20. Yaralanma veya hastalık maliyetleri bölümünü genişletin.
-21. Ekle öğesini tıklatın.
-22. Tarih alanına bir tarih girin.
-23. Maliyet türü alanında bir değer girin veya bir değer seçin.
-    * Örnek:  Terapi    Bir tutar girebilir ve faturalar veya doktorun notları gibi destekleyici belgeleri maliyete ekleyebilirsiniz.  
-24. Ekle öğesini tıklatın.
-25. Tarih alanına bir tarih girin.
-26. Maliyet türü alanında bir değer girin veya bir değer seçin.
-    * Örnek: Doktor  
-27. Yaralanma veya hastalık tedavileri bölümünü genişletin.
-28. Ekle öğesini tıklatın.
-29. Tedavi tarihi alanında bir tarih ve saat girin.
-30. Tedavi türü alanında bir değer girin veya seçin.
-    * Örnek: Atel  
-31. İsteğe bağlı olarak, acil servis hastane ziyareti bölümünü Evet olarak ayarlayın.
-32. Tedavi açıklamaları alanında bir değer girin.
-    * Örnek: 2 hafta süresince atel  
-33. Doktorun adı alanında bir değer girin.
-    * Örnek: Dr. Yılmaz  
-34. Tedavi tesisi ve yeri alanında bir değer girin.
-    * Örnek: Vatan Cad. Acil Servis  
-35. Tedavi ayrıntıları alanında bir değer girin.
-    * Örnek: Kırık röntgende görünüyor, atel takıldı  
-36. Kaydet'e tıklayın.
-    * Servis talebi her zaman güncelleştirilebilir.  Yaralanma veya hastalığın işlenmesini sürüyorsa vakayı 'süren iş' olarak ayarlayın.  Olayı bir defa kapattığınızda, yalnızca maliyet, tedavi ekleyip kaldırabilir veya olayla ilgili dosyalamalar yapabilirsiniz.  Diğer bilgileri değiştirmek için olayı yeniden açın.  
+1. **İnsan Kaynakları \> Çalışanlar \> Yaralanma ve hastalık \> Yaralanma veya hastalık olayları**'na gidin.
+2. **Yeni**'yi seçin.
+3. **Servis talebi açıklaması** alanına bir değer girin (örneğin **Bilek yaralanması**).
+4. **Çalışan** alanına bir değer girin veya seçin (örneğin **Ana Bowman**).
+5. **Olay tarihi ve saati** alanına bir tarih ve saat girin (örneğin, 20 Ocak 2016, 10:00).
+6. **Yaralanma veya hastalık türü** alanında bir değer girin veya seçin (örneğin **Kırık**).
+7. **Vücut kısmı** alanına bir değer girin veya seçin (örneğin **Bilek**).
+8. **Sonuç türü** alanında bir değer girin veya bir değer seçin (örneğin **Tedavi**).
+9. **Raporlanma tarihi ve saati** alanında bir tarih ve saat girin.
 
+    Raporlanma tarih ve saat, olayın tarih ve saatinden sonra olmalıdır.
+
+10. **Servis talebini rapor eden kişi** alanında bir değer girin veya seçin (örneğin **Ana Bowman**).
+
+    Belirtilen kişi, olaya tanık bir çalışan veya başka bir şahit olabilir.
+
+11. **Olay** bölümünde, **Olayın oluştuğu yer** alanına bir değer girin (örneğin **Ambar**).
+12. **Şirket tesislerinde** alanında, olay iş yerinde gerçekleştiyse **Evet**'i seçin.
+13. **Tarih ve saat başlangıcı** alanına, etkilenen kişinin olay yapılmadan önce çalışmaya başladığı tarihi ve saati girin.
+14. **Çalışan işi veya görevi** alanında, olay oluştuğunda çalışanın gerçekleştirdiği iş veya görevi girin (örneğin, **Kutu yükleme**). 
+15. **Olay nedeni** alanına olayın nedenini girin (örneğin, **Islak zeminde kaymış**).
+16. **Önem düzeyi** alanında bir değer girin veya bir değer seçin.
+17. **Alınacak eylem** alanında bir değer girin (örneğin, **Dökülmeler hemen silinecek**).
+18. **Kaç gün işe gelmeyeceği tahmini** alanında, bireyin kaç gün çalışmaması bekleniyorsa bu değeri yazın.
+
+    Birey işe döndükten sonra, **İşten uzakta geçen gün sayısı** alanını, çalışanın gelmediği gerçek gün sayısıyla güncelleştirin.
+
+19. **Yaralanma veya hastalık maliyetleri** bölümünde **Ekle**'yi seçin.
+20. **Tarih** alanına bir tarih girin.
+21. **Maliyet türü** alanında bir değer girin veya bir değer seçin (örneğin **Tedavi**).
+
+    Bir tutar girebilir ve faturalar veya doktorun notları gibi destekleyici belgeleri maliyete ekleyebilirsiniz.
+
+22. **Ekle**'yi seçin.
+23. **Tarih** alanına bir tarih girin.
+24. **Maliyet türü** alanında bir değer girin veya bir değer seçin (örneğin **Doktor**).
+25. **Yaralanma veya hastalık tedavileri** bölümünde **Ekle**'yi seçin.
+26. **Tedavi tarihi** alanında bir tarih ve saat girin.
+27. **Tedavi türü** alanında bir değer girin veya bir değer seçin (örneğin **Splint**).
+28. İsteğe bağlı: **Acil servis hastane ziyareti** bölümünü **Evet** olarak ayarlayın.
+29. **Tedavi açıklamaları** alanında bir değer girin veya bir değer seçin (örneğin **2 hafta için splint**).
+30. **Hekim adı** alanına bir değer girin (örneğin **Dr. Anderson**).
+31. **İşlem tesisi ve konumu** alanında bir değer girin (örneğin **Elm Sokağı Acil**).
+32. **Tedavi ayrıntıları** alanına bir değer girin (örneğin, **Röntgende kırık doğrulandı, splint giyilecek**).
+33. **Kaydet**'i seçin.
+
+Servis talebi her zaman güncelleştirilebilir. Yaralanma veya hastalığın işlenmesini sürüyorsa vakayı **Devam ediyor** olarak ayarlayın. Olayı kapattıktan sonra, yalnızca maliyet, tedavi ekleyip kaldırabilir veya olayla ilgili dosyalamalar yapabilirsiniz. Diğer bilgileri değiştirmek için olayı yeniden açmanız gerekir.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

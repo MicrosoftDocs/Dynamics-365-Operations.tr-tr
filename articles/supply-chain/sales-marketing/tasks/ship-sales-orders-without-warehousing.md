@@ -1,27 +1,24 @@
 ---
 title: Satış siparişlerini ambarlama olmadan sevk etme
 description: Bu konu, ürünler müşteriye sevk edildiğinde bir satış siparişinin nasıl güncelleştireceğini açıklamaktadır.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6b1dbb4d53785c226f7c9d40339d9dd19f47152
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10e21bcdef22caf4f4d97ba7dd36ebf1a6e6e055
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439575"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578884"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Satış siparişlerini ambarlama olmadan sevk etme
 
@@ -56,3 +53,6 @@ Bu konu, ürünler müşteriye sevk edildiğinde bir satış siparişinin nasıl
 19. Eylem Bölmesinde, **Çek ve paketle**  öğesine tıklayın.
 20. **Sevk irsaliyesi**'ni seçin. **Sevk irsaliyesi günlüğü** sayfası, siparişiniz için oluşturulan tüm sevk irsaliyesi belgelerini içerir. Her belgenin ayrıntılarını gözden geçirebilir ve isterseniz bunları yazdırabilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b6fa5715a04aa8077651f5c6e29e6bca83d763c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22ad53e333e6c85f8e55f04c27c6573c5738ec84
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226701"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Saat ve işe devam kaydına genel bakış
 
@@ -119,3 +118,6 @@ Anında geribildirim gerektirmeyen iş görevleri olan ancak proje faaliyetleri 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,6 +5,16 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 22 Mart 2021
+          href: hr-whats-new-2021-03-22.md
+        - name: 8 Mart 2021
+          href: hr-whats-new-2021-03-08.md
+        - name: 22 Şubat 2021
+          href: hr-whats-new-2021-02-22.md
+        - name: 28 Ocak 2021
+          href: hr-whats-new-2021-01-28.md
+        - name: 21 Ocak 2021
+          href: hr-whats-new-2021-01-21.md
         - name: 2 Aralık 2020
           href: hr-whats-new-2020-12-02.md
         - name: 22 Ekim 2020
@@ -79,12 +89,16 @@
           items:
             - name: Veri tümleştirme teknolojisi seçme
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service tümleştirmesini yapılandırma
+            - name: Azaltma ile ilgili SSS
+              href: hr-admin-integration-throttling-faq.md
+            - name: Dataverse tümleştirmesini yapılandırma
               href: hr-admin-integration-common-data-service.md
-            - name: Common Data Service varlıkları
+            - name: Dataverse tabloları
               href: hr-developer-entities.md
-            - name: Common Data Service sanal varlıklarını yapılandırma
+            - name: Dataverse sanal tablolarını yapılandırma
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Human Resources sanal tablolarıyla ilgili SSS
+              href: hr-admin-virtual-entity-faq.md
             - name: Finance ile tümleştirmeyi yapılandırma
               href: hr-admin-integration-finance.md
             - name: Dayforce ile tümleştirmeyi yapılandırma
@@ -215,7 +229,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Özel alanlar oluşturma ve bunlarla çalışma
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: Power Apps'taki tuval uygulamalarını katıştırma
+            - name: Power Apps'teki tuval uygulamalarını katıştırma
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: Aramaları kullanarak bilgi bulma
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
@@ -249,11 +263,13 @@
           items:
             - name: Destek alma
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
-            - name: Toplu işleri çalışma saatleri dışına planlayarak performansını en iyi duruma getirme
+            - name: Toplu işleri çalışma saatleri dışına planlayarak performansı en iyi duruma getirme
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: Otomatik temizleme görevleriyle performansı en iyi duruma getirme
               href: hr-admin-troubleshooting-batch-history.md
-            - name: Analitik raporlar güncelleştirilmedi
+            - name: Takılmış toplu işleri sıfırlama
+              href: hr-admin-troubleshooting-batch-execution.md
+            - name: Analitik raporlar güncelleştirilmiyor
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Power Apps Yönetim merkezinde ortam oluşturulamıyor
               href: hr-admin-troubleshooting-power-apps.md
@@ -279,7 +295,7 @@
           href: hr-developer-overview.md
         - name: Power Apps ve Power Automate ile genişletme
           href: hr-developer-power-apps.md
-        - name: Common Data Service varlıkları
+        - name: Dataverse tabloları
           href: hr-developer-entities.md
         - name: Özel alanlar
           href: hr-developer-custom-fields.md
@@ -287,7 +303,7 @@
           items:
             - name: Veri tümleştirme teknolojisi seçme
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service tümleştirmesini yapılandırma
+            - name: Dataverse tümleştirmesini yapılandırma
               href: hr-admin-integration-common-data-service.md
             - name: Finance ile tümleştirmeyi yapılandırma
               href: hr-admin-integration-finance.md
@@ -317,6 +333,92 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Bir izin isteğini iş akışına gönderme
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: ATS tümleştirme API'sı
+          items:
+            - name: Giriş
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: İşe alma isteği ve ilgili varlıklar
+              items:
+                - name: İşe alma isteği
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: İşe alma isteği eğitimi
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: İşe alma isteği konumu
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: İşe alma isteği pozisyonu
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: İşe alma isteği becerisi
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: İşe alma isteği için sorgu örneği
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: İşe alma isteği seçenek kümeleri
+              items:
+                - name: İş muafiyet durumu
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: İşe alma isteği pozisyonu durumu
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: İşe alma isteği durumu
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Mevzuat iş kategorisi
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: İşe alınacak aday ve ilgili varlıklar
+              items:
+                - name: İşe alınacak aday
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Sertifika türü
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Taraf ilgili kişisi
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Kişi
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Kişi adresi
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Kişi sertifikası
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Kişi eğitimi
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Kişi kimlik numarası
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Kişi profesyonel deneyimi
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Kişi eleme
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Kişi becerisi
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Değerlendirme düzeyi
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Eleme türleri
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: İşe alınacak aday için sorgu örneği
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Aday seçenek kümeleri
+              items:
+                - name: Başvuran tümleştirmesi sonucu
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Boş Evet Hayır
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Tamamlanma durumu
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: İlgili kişi türü
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Eğitim kredisi esası
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Cinsiyet
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Medeni durum
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Yılın ayları
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Hayır Evet
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Dönem birimi
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Eleme sıklığı
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Eleme sıklığı oluşturma başlangıcı
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Beceri düzeyi türü
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: Kullanıcı Kılavuzu
       items:
         - name: Genel bakış
@@ -439,12 +541,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: E-postayla istemci uyarı bildirimleri
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Elektronik imzalar
-              items:
-                - name: Elektronik imzalara genel bakış
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Elektronik imzaları ayarlama
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Servis talebi yönetimi
               items:
                 - name: Servis talebi yönetimine genel bakış
@@ -535,6 +631,8 @@
               items:
                 - name: Kazanç yönetimine genel bakış
                   href: hr-benefits-management-overview.md
+                - name: Kazanç yönetimi çalışma alanı
+                  href: hr-benefits-management-workspace.md
                 - name: Kazanç yönetimini yapılandırma
                   items:
                     - name: Şirket başına Kazanç yönetimi parametrelerini yapılandırma
@@ -591,6 +689,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Oran değişikliklerini işleme
                       href: hr-benefits-process-rate-changes.md
+                - name: ACA raporlama
+                  href: hr-benefits-management-aca-reports.md
             - name: Kazanç programı tanımlama ve yönetme
               href: hr-benefits-manage-program.md
             - name: Kazanca uygunluk ilkeleri
@@ -693,3 +793,5 @@
               href: hr-employee-self-service-workspace-name.md
             - name: Kişisel bilgileri düzenleme
               href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: Kişisel bilgilerin düzenlenmesini kısıtlama
+              href: hr-employee-self-service-restrict-editing.md

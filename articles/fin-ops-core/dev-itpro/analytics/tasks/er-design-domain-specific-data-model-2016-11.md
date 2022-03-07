@@ -1,12 +1,11 @@
 ---
 title: ER Tasarım etki alanına özel veri modeli
-description: Aşağıdaki yordamda, Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının elektronik ödeme belgeleri için bir veri modeli içeren, yeni bir Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmıştır.
+description: Bu konuda, elektronik ödeme belgeleri için bir veri modeli içeren yeni bir Elektronik raporlama (ER) yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERDataContainerDescriptorReferenceSwitchDialog
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 284fad8b6646c35217789cc9936cbe9fe75a03d0
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681961"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567822"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Tasarım etki alanına özel veri modeli
 
@@ -187,3 +186,6 @@ Seçili yapılandırma için yeni bir veri modeli oluşturuyorsunuz. Bu yapılan
 65. Kaydet'e tıklayın.
 66. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

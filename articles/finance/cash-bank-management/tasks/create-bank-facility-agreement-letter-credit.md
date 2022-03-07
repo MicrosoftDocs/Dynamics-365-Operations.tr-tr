@@ -1,10 +1,12 @@
 ---
 title: Kredi mektubu için banka hizmet sözleşmesi oluşturma
-description: Bu görevde, bir Kredi mektubunu işlemek için bir Banka kredi anlaşması oluşturma adımları açıklanmaktadır.
-author: panolte
+description: Bu görev, bir Kredi mektubunu işlemek için Banka kredi anlaşması oluşturma konusunda açıklama sağlar.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankDocumentFacilityAgreement, BankAccountTableLookUp, BankDocumentFacilityAgreementExtension, DefaultDashboard
 audience: Application User
@@ -13,18 +15,18 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 607d9688aebb6288735cc04f6b4d8e7b8f7362b9
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: bffb5c802e8fa261e52197d1293ffb15c35981f6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595025"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989183"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Kredi mektubu için banka hizmet sözleşmesi oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu görevde, bir Kredi mektubunu işlemek için bir Banka kredi anlaşması oluşturma adımları açıklanmaktadır. Bu görevden önce banka kredileri ve deftere nakil profilleri ayarlamak isteyeceksiniz.  Bu görevde 'USMF' demo şirketi kullanılmaktadır.  
+Bu görev, bir Kredi mektubunu işlemek için Banka kredi anlaşması oluşturma konusunda açıklama sağlar. Bu görevden önce banka kredileri ve deftere nakil profilleri ayarlamak isteyeceksiniz.  Bu görevde 'USMF' demo şirketi kullanılmaktadır.  
 
 
 ## <a name="create-bank-facility-agreement"></a>Banka kredi anlaşması oluşturma
@@ -48,6 +50,3 @@ Bu görevde, bir Kredi mektubunu işlemek için bir Banka kredi anlaşması olu�
 18. Genişlet'e tıklayın.
 19. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

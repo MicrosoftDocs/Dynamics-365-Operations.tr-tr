@@ -2,11 +2,9 @@
 title: Mali performans PowerBI.com çözümü
 description: Bu konu, Mali performans PowerBI.com çözümünü açıklamaktadır.
 author: kweekley
-manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ce180c28be2cea1115937b1b1fbdf2323903e4ad
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682757"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743389"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Mali performans PowerBI.com çözümü
 
@@ -87,4 +85,7 @@ Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlene
 - Genel muhasebe defterleri
 - ChartofAccounts
 
-Bu varlıklar, veri modelinde hesaplanmış ölçümler oluşturmak için kullanılıyordu. Hesaplanmış ölçümler, anahtar performans göstergeleri (KPI'ları) hesaplamak ve içerikte kullanıla raporları hesaplamakta kullanılır. İçerik, varsayılan olarak son üç yılın ve gelecekteki bir yılın verilerini getirir. Raporlara ve panoya ek hesaplamalar dahil etmek için [Microsoft Excel çalışma kitabını değiştirebilirsiniz](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Bu çalışma kitabı, içeriği oluşturmak için kullanılan varsayılan veri modelidir.
+Bu varlıklar, veri modelinde hesaplanmış ölçümler oluşturmak için kullanılıyordu. Hesaplanmış ölçümler, anahtar performans göstergeleri (KPI'ları) hesaplamak ve içerikte kullanıla raporları hesaplamakta kullanılır. İçerik, varsayılan olarak son üç yılın ve gelecekteki bir yılın verilerini getirir. Raporlara ve panoya ek hesaplamalar dahil etmek için [Microsoft Excel çalışma kitabını değiştirebilirsiniz](https://docs.microsoft.com/dynamics/s-e/). Bu çalışma kitabı, içeriği oluşturmak için kullanılan varsayılan veri modelidir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069441"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350582"
 ---
 # <a name="message-processor-messages"></a>İleti işlemci iletileri
 
@@ -29,7 +29,7 @@ ms.locfileid: "8069441"
 
 İleti işlemcisi iletileri, [üretim iş yükleri](cloud-edge-workload-manufacturing.md) ve [ambar yönetimi iş yükleri](cloud-edge-workload-warehousing.md) için bulut ve kenar ölçek birimleri çalıştırıldığında kullanılır.
 
-Merkez ve ölçek birimi dağıtım ortamları, eşitlenmiş olarak kalmak için büyük miktarda veri alıp verir. Alıp verilen verilerin bir kısmı, *ileti işleyicide* ek mantıkları tetikler. İleti işlemcisi tarafından işlenen iletileri, **Sistem yönetimi > İleti işlemcisi > İleti işlemcisi iletileri**'ne giderek görüntüleyebilirsiniz.
+Merkez ve ölçek birim dağıtım ortamları arasındaki senkronizeliği korumak için büyük miktarlarda veri alışverişi yapılır ancak bu veri alışverişlerinin yalnızca birkaçı *ileti işlemcisi* tarafından işlenir. İleti işlemcisi tarafından işlem gören iletileri, **Sistem yönetimi > İleti işlemcisi > İleti işlemcisi iletileri**'ne giderek görüntüleyebilirsiniz.
 
 ## <a name="message-grid-columns-and-filters"></a>İleti ızgarası sütunları ve filtreleri
 
@@ -44,7 +44,7 @@ Aradığınız bir iletiyi bulmak için **İleti işlemci iletileri** sayfasın�
   - *Sıraya alındı* – İleti, ileti işlemcisi tarafından işlenmeye hazır.
   - *İşlendi* – İleti, ileti işlemcisi tarafından başarıyla işlendi.
   - *İptal edildi* - İleti işlendi ancak işlem başarısız oldu.
-- **İleti içeriği** – Filtre, ileti içeriğinde tam metin araması yapar. (İleti içeriği kılavuzda görüntülenmez.) Filtre, birçok özel simgeyi ("-" gibi) boşluk olarak işler ve tüm boşluk karakterlerini Boole VEYA işleçleri olarak değerlendirir. Örneğin bu, "USMF-123456" değerine eşit belirli bir `journalid` arıyorsanız sistemin, "usmf" veya "123456" içeren tüm iletileri bulacağı anlamına gelir (bu liste muhtemelen uzun bir liste olacaktır). Bu nedenle, daha belirgin sonuçlar almak için yalnızca "123456" girilmesi daha iyi olacaktır.
+- **İleti içeriği** – Filtre, ileti içeriğinde tam metin araması yapar. (İleti içeriği kılavuzda görüntülenmez.) Filtre, birçok özel simgeyi ("-" gibi) boşluk olarak işler ve tüm boşluk karakterlerini Boole VEYA işleçleri olarak değerlendirir. T=Örneğin bunun anlamı, "USMF-123456" değerine eşit belirli bir `journalid` arıyorsanız sistem, "usmf" veya "123456" içeren tüm iletileri bulur (bu liste muhtemelen uzun bir liste olacaktır). Bu nedenle, daha belirgin sonuçlar almak için yalnızca "123456" girilmesi daha iyi olacaktır.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Örnek ileti türü: Stok ayarlaması mali güncelleştirmesi iste
 
@@ -65,7 +65,7 @@ Bir iletiyle ilgili ayrıntılı bilgileri, iletiyi ızgarada seçip ardından h
 
 ## <a name="message-processor-batch-job"></a>İleti işlemcisi toplu işlemi
 
-Ölçek birimleriyle bir dağıtılmış karma topoloji çalıştırılırken işlem için yeni bir ileti oluşturulursa *İleti işlemcisi* toplu işi otomatik olarak gönderilir. Bu nedenle, bu işi el ile zamanlamanız gerekmez.
+Bir bulut ve kenar dağıtımı çalıştırılırken, işlem için yeni bir ileti oluşturulurken *İleti işlemcisi* toplu işi otomatik olarak gönderilir, bu nedenle bu işi manuel olarak zamanlamanız gerekmez.
 
 Gerekirse, **Sistem yönetimi > İleti işlemcisi > İleti işlemcisi**'ne giderek toplu işe erişebilirsiniz.
 

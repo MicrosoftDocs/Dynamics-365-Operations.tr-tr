@@ -1,7 +1,7 @@
 ---
 title: Uygunsuzluklar için işlemler
 description: Bu konu, uygunsuzluklar için işlemlerin nasıl oluşturulacağını ve kullanılacağını açıklamaktadır.
-author: yufeihuang
+author: rachel-profitt
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35619454af8b1cb1b7d383d393362f58d9dd0ea6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c9a6cc88b80f82d77edac0341cb6a3c0db4b42ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573885"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022216"
 ---
 # <a name="operations-for-nonconformances"></a>Uygunsuzluklar için işlemler
 

@@ -1,31 +1,33 @@
 ---
 title: Bekleme dönemlerini yapılandırma
 description: Microsoft Dynamics 365 Human Resources'ta, bekleme günleri, kazanç planları için kullanılacak kilometre taşı oluşturur.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1937ab54eb7898afe0fed6659c3ae676626e8ad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3df65a89ca4b18de2c823ca02fd8daa3da1e9ea6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420950"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066887"
 ---
 # <a name="configure-waiting-periods"></a>Bekleme dönemlerini yapılandırma
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources'ta, bekleme günleri, kazanç planları için kullanılacak kilometre taşı oluşturur. Örneğin, işe alınma tarihinden itibaren üç ay, her ayın birincesinin veya altı ayın.   
 
@@ -39,9 +41,12 @@ Microsoft Dynamics 365 Human Resources'ta, bekleme günleri, kazanç planları i
    | --- | --- |
    | **Bekleme kodu** | Bekleme dönemi için benzersiz bir tanımlayıcı. |
    | **Tanım** | Bekleme dönemin bir açıklaması. |
-   | **Bekleme yöntemi** | Aşağı açılan değerler listesinden uygun bekleme yöntemini seçin. Seçenekler net, geçerli ay, geçerli üç aylık dönem, geçerli yıl ve geçerli haftadır. |
+   | **Bekleme yöntemi** | Aşağı açılan değerler listesinden uygun bekleme yöntemini seçin. Seçenekler **Net**, **Geçerli ay**, **Geçerli üç aylık dönem**, **Geçerli yıl** ve **Geçerli hafta**'dır. |
    | **Aylar** | Bekleme tarihinin hesaplanması için bekleme yöntemine eklenecek ayların sayısını girin. |
    | **Vade erteleme gün sayısı** | Bekleme tarihinin hesaplanması için bekleme yöntemine eklenecek günlerin sayısını girin. |
    | **Bekleme günü** | Bekleme tarihini hesaplamak için kullanılacak bir bekleme günü seçin. |
 
 4. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

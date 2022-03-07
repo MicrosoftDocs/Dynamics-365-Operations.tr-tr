@@ -2,35 +2,30 @@
 title: Favicon ekleme
 description: Bu konu, sitenize bir tercih simgesi ekleneceğini açıklamaktadır.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416360"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964744"
 ---
-# <a name="add-a-favicon"></a>Favicon ekleme
+# <a name="add-a-favicon"></a>Site simgesi ekleme
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, sitenize bir tercih simgesi ekleneceğini açıklamaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 Bir tercih edilen simge, Web tarayıcısı sekmesinde, adres çubuğunda, gözatma geçmişinde ve diğer yerlerin yanı sıra yer imleri veya Sık Kullanılanlar'da gösterilen küçük bir grafik dosyasıdır. Markanızı temsil ettiğinden ve yeniden zorlayan ve sitenizi müşterilerinizin ziyaret ettiği diğer sitelerden ayırt etmenize yardımcı olacağından sitenize bir tercih edilen bir simge eklemeniz önerilir.
 
@@ -66,7 +61,7 @@ Site simgesi için meta etiketi içeren bir parça oluşturmak için aşağıdak
 1. **Yeni parça** iletişim kutusunda, parçanın temel aldığı modül olarak **Meta etiketleri**'ni seçin.
 1. Parça için bir ad girin ve **Tamam**'ı seçin.
 1. Parça hiyerarşisi ağacında, **Varsayılan meta etiketleri** alt öğesini seçin.
-1. Sağ bölmede, **Meta Etiketleri** altında **Ekle**'yi seçin ve site simgesi için daha önce oluşturduğunuz HTML dizesini girin. 
+1. Sağ bölmede, **Meta Etiketleri** altında **Ekle**'yi seçin ve site simgesi için daha önce oluşturduğunuz HTML dizesini girin. 
 1. **Düzenlemeyi bitir**'i seçin, ardından parçayı yayımlamak için **Yayımla**'yı seçin.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Meta etiket parçasını, sayfalarınızın HTML başlık bölümüne ekleme
@@ -91,11 +86,12 @@ Meta etiketleri parçasını eklediğiniz şablonu temel alan sayfaları önizle
 
 [CSS geçersiz kılma dosyalarıyla çalışma](css-override-files.md)
 
-[Hoş geldiniz iletisi ekleme](add-welcome-message.md)
-
 [Telif hakkı bildirimi ekleme](add-copyright-notice.md)
 
 [Sitenize dil ekleme](add-languages-to-site.md)
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

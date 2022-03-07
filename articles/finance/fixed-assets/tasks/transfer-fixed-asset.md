@@ -1,30 +1,32 @@
 ---
 title: Sabit kıymeti transfer etme
 description: Bu görev kılavuzu, bir mali boyut kümesinden alınan sabit kıymet defterine ait mali bilgileri yeni bir mali boyut kümesine transfer eder.
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e573386ddbb97bf60e2e501ba92b225f8716c73a
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: a0770011a76b1e4cc8b4d13e54fab2d0fba43f8a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883374"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975928"
 ---
 # <a name="transfer-a-fixed-asset"></a>Sabit kıymeti transfer etme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu görev kılavuzu, bir mali boyut kümesinden alınan sabit kıymet defterine ait mali bilgileri yeni bir mali boyut kümesine transfer eder.  
+Bu görev kılavuzu, bir mali boyut kümesinden alınan sabit kıymet defterine ait mali bilgileri yeni bir mali boyut kümesine transfer eder.  Kılavuzda Muhasebeci rolü ve USMF adlı tüzel kişilik için demo verileri kullanılmaktadır.
 
 1. Gezinti bölmesinde **Modüller > Sabit kıymetler > Sabit kıymetler > Sabit kıymetler günlüğü**'ne gidin.
 2. Listede, transfer edilecek sabit kıymeti bulup seçin.
@@ -45,6 +47,3 @@ Bu görev kılavuzu, bir mali boyut kümesinden alınan sabit kıymet defterine 
     * Sabit kıymet defterlerini transfer etmeden önce sonuçları gözden geçirin.  
 10. **Transfer et** seçeneğini tıklatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

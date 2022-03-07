@@ -2,11 +2,9 @@
 title: Bir çalışma birimi oluşturun
 description: Bir işletme birimi bir işletmenin ekonomik kaynaklarının ve yönetimsel işlemlerinin kontrolünü bölmek için kullanılan bir kuruluştur.
 author: sericks007
-manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759005"
 ---
 # <a name="create-an-operating-unit"></a>Bir çalışma birimi oluşturun
 
@@ -41,3 +39,6 @@ Bir işletme birimi bir işletmenin ekonomik kaynaklarının ve yönetimsel işl
     + E-posta adresleri, URL'ler ve telefon numaraları gibi iletişim yöntemleri hakkında bilgi girin. Yeni bir iletişim kaydı girmek için Yeni'yi tıklatın. Var olan bir iletişim kaydını değiştirmek için **Diğer seçenekler > Gelişmiş**'e tıklayın.   
 6. İsteğe bağlı olarak gerekirse **Faaliyet birimi numarası**'nı değiştirin. Bu numaranın ilgili **Taraf** kaydı için benzersiz bir tanımlayıcı olduğunu ve başka bir faaliyet birimiyle aynı olamayacağını unutmayın.
 7. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

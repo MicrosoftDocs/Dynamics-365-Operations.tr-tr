@@ -2,15 +2,12 @@
 title: İçerik blok modülü
 description: Bu konu içerik blok modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,21 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726451"
 ---
 # <a name="content-block-module"></a>İçerik blok modülü
-
 
 [!include [banner](includes/banner.md)]
 
 Bu konu içerik blok modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 Bir içerik bloku modülü, ürünleri veya promosyonları bir görüntü ve metin birleşimiyle pazarlamak için kullanılır. Örneğin, bir satıcı yeni bir ürünü yükseltmek ve müşterilerin dikkatini çekmek için bir e-ticaret sitesinin giriş sayfasına içerik bloku modülü ekleyebilir.
 
@@ -52,11 +46,11 @@ Ek olarak, tema her düzen için farklı özellikler sergileyebilir. Bir tema ge
 
 Aşağıdaki resimde, Hero düzenine sahip bir içerik bloğu modülü örneği gösterilmektedir.
 
-![Hero modülü örneği](./media/Hero.PNG)
+![Hero modülü örneği.](./media/Hero.PNG)
 
 Aşağıdaki resimde, özellik düzenine sahip bir içerik bloğu modülü örneği gösterilmektedir.
 
-![Özellik modülleri örnekleri](./media/Feature.PNG)
+![Özellik modülleri örnekleri.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>İçerik blok modülü özellikleri
 
@@ -107,3 +101,6 @@ Bir yeni sayfaya Hero modülü eklemek ve gerekli özellikleri ayarlamak için a
 [Metin bloğu modülü](add-content-rich-block.md)
 
 [Video oynatıcı modülü](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

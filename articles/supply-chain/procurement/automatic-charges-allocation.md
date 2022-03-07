@@ -2,25 +2,22 @@
 title: Otomatik masraf tahsisatı
 description: Microsoft Dynamics 365 Supply Chain Management masraflar özelliği, Satınalma siparişlerine veya satış siparişlerine masrafları otomatik olarak tahsis etmenize yardımcı olur.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439598"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841491"
 ---
 # <a name="automatic-allocation-of-charges"></a>Otomatik masraf tahsisatı
 
@@ -177,3 +174,6 @@ Aşağıdaki yordamda, üst bilgi düzeyindeki masrafların bir satıra nasıl t
         > **Tahsisattan hariç tutulacak satırları Seç** ızgarasıyla çalışırken **tahsis et**'i seçene kadar ızgarayı açık bırakmayı unutmayın. **Tahsisatı** seçmeden önce ızgarayı kapatırsanız ızgaradaki ayarlarınız kaybolur. Bu nedenle, masraflar daha önce tanımladığınız ölçütlere göre tahsis edilir.
 
 1. Ayarlarınızı uygulayıp iletişim kutusunu kapatmak için **Tahsis Et**'i seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

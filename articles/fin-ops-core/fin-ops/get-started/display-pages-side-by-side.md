@@ -2,11 +2,9 @@
 title: Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme
 description: Bu makale, sayfaları nasıl yan yana görüntüleyebileceğinizi açıklar.
 author: aneesmsft
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: f082fe4af9c095d841dbcabf85d365a3fbee71b79a7765e39fbe691db7da458e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798415"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771962"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme
 
@@ -48,3 +46,6 @@ Bazı sayfalarda Kılavuz görünümü, Başlık görünümü ve Ayrıntı gör�
 **Yeni pencerede aç** özelliği yalnızca pencerede birden fazla sayfa açık olduğu zaman kullanılabilir. Ayrıca, açılır pencere, artık sayfada açık sayfa kalmadığı zaman (yani penceredeki son sayfayı kapattığınızda) otomatik olarak kapanır. Uygulamada başka bir alana gittiğinizde sistem de açık sayfaları kapatır. Bu nedenle, açık açılır pencereleriniz varsa ve uygulamada başka bir alana giderseniz, sistem bu pencerelerdeki sayfaları kapatacağından açılır pencereler otomatik olarak kapatılır.
 
 Açılır pencerelerin üst çubuğunda, sayfanın salt okunur olarak açıldığı şirket hakkında bilgiler görüntülenir. Açılır pencereler de ana tarayıcı penceresine bağlıdır. Ana pencere kapatılır veya yenilenirse, açık tüm açılır pencereler salt okunur duruma geçer. Bu durum gerçekleşirse bu pencerelerde bilgileri görüntülemeye devam edebilirsiniz ancak onlarla etkileşime giremezsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

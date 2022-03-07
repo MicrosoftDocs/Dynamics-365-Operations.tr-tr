@@ -2,22 +2,25 @@
 title: Fatura havuzu kullanarak fatura verilerini AP sistemine girme
 description: Bu konu, fatura kaydının faturaları oluşturmak için nasıl kullanılacağını açıklar.
 author: abruer
+manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd6de42dda650d42d703e905f8d48f73b9e4afd6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777276"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448761"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Fatura havuzu kullanarak fatura verilerini AP sistemine girme
 
@@ -65,6 +68,3 @@ Bu konu, fatura kaydının faturaları oluşturmak için nasıl kullanılacağı
 13. **Hareketler**'i seçin.
 14. Oluşturduğunuz faturayı seçin. Fatura kaydı tahakkuku ters kaydedilmiş ve ilgili gider hesabına nakledilmiştir.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

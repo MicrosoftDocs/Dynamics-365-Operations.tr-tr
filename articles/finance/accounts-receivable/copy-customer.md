@@ -1,27 +1,24 @@
 ---
 title: Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
 description: Bu konuda, bir müşteriyi aynı müşteri kodunu koruyarak başka bir tüzel kişiliğe kopyalamak için paylaşılan numara sıralarının nasıl kullanılacağı açıklanmaktadır.
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/31/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 91f7568ea8364f97de7e514fb207191ee00041a5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a93f0519b292c12ea31a8faf3bff051fc111216
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4460076"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753525"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
 
@@ -65,3 +62,6 @@ Bir müşteriyi kopyaladığınızda, sistem yeni müşteri bilgilerini kaydetme
 
 1. **Müşteriyi kopyala** seçeneği görüntülenir. Varsayılan olarak bu seçenek **Hayır** olarak ayarlanmıştır. Müşteriyi geçerli tüzel kişiliğe kopyalamak için seçeneği **Evet** olarak ayarlayın. 
 2. **Seç** öğesini seçin. Yeni müşteri oluşturulur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

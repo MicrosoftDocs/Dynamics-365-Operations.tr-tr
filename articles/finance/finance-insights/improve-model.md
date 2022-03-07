@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646091"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009386"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Tahmin modelini geliştirme (önizleme)
 
@@ -42,19 +41,19 @@ Kuruluşunuz yalnızca iki sonuç gerektiriyorsa **Geç** ve **Çok geç** eşik
 
 ## <a name="select-fields"></a>Alanları seçin
 
-Modele dahil edilecek alanları seçerken, bu listenin Azure Data Lake içindeki verilerle eşlenen tüm kullanılabilir Common Data Service alanlarını içerdiğine dikkat edin. Bu alanlardan bazıları **seçilmemelidir**. Seçilmemesi gereken alanlar üç kategoriden birine girer:
+Modele dahil edilecek alanları seçerken, bu listenin Azure Data Lake içindeki verilerle eşlenen Microsoft Dataverse tablosundaki tüm kullanılabilir alanlarını içerdiğine dikkat edin. Bu alanlardan bazıları **seçilmemelidir**. Seçilmemesi gereken alanlar üç kategoriden birine girer:
 
-- Alan, Common Data Service varlığı için gereklidir ancak veri gölünde alanla ilgili destekleyici veri yoktur.
+- Alan, Dataverse tablosu için gereklidir ancak veri gölünde alanla ilgili destekleyici veri yoktur.
 - Alan bir kimlik olduğundan makine öğrenimi özelliği için bir anlam ifade etmez.
 - Alan, tahmin sırasında kullanılamayacak bilgileri temsil eder.
 
 Aşağıdaki bölümlerde, fatura ve müşteri varlıkları için kullanılabilir alanlar gösterilir ve eğitim için **seçilmemesi** gereken alanlar listelenir. Bu alanların her biri için belirtilen kategori, önceki listede yer alan kategorilere başvurur.
  
-### <a name="invoice-common-data-model-entity"></a>Fatura Common Data Model varlığı
+### <a name="invoice-dataverse-table"></a>Fatura Dataverse tablosu
 
-Aşağıdaki şekilde, fatura varlığı için kullanılabilir alanlar gösterilmektedir.
+Aşağıdaki şekilde, fatura tablosu için kullanılabilir alanlar gösterilmektedir.
 
-[![Fatura varlığı için kullanılabilir alanlar](./media/available-fields.png)](./media/available-fields.png)
+[![Fatura tablosu için kullanılabilir alanlar](./media/available-fields.png)](./media/available-fields.png)
 
 Eğitim için aşağıdaki alanlar seçilmemelidir:
 
@@ -65,11 +64,11 @@ Eğitim için aşağıdaki alanlar seçilmemelidir:
 - **Kaynak kaydı** (kategori 2)
 - **Kaynak tablosu** (kategori 2)
 
-### <a name="customer-common-data-model-entity"></a>Müşteri Common Data Model varlığı
+### <a name="customer-dataverse-table"></a>Müşteri Dataverse tablosu
 
-Aşağıdaki şekilde, müşteri varlığı için kullanılabilir alanlar gösterilmektedir.
+Aşağıdaki şekilde, müşteri tablosu için kullanılabilir alanlar gösterilmektedir.
 
-[![Müşteri varlığı için kullanılabilir alanlar](./media/related-entities.png)](./media/related-entities.png)
+[![Müşteri tablosu için kullanılabilir alanlar](./media/related-entities.png)](./media/related-entities.png)
 
 Eğitim için aşağıdaki alan seçilmemelidir:
 

@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3bd028e7d61fd57ed434a8a598bf24329a54ac1c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 50ae26931ee648404a9def54c4772e991ac06682
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963647"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5637324"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Dynamics 365 Supply Chain Management işlevsel danışmanları için Öğrenme Kataloğu
 
@@ -113,3 +112,6 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Sınav MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; yaygın işlev ve uygulama araçlarını kullanma; güvenliği, işlem ve seçenekleri yapılandırma; veri geçişini gerçekleştirme ve çözümü uygulayıp destekleme gibi teknik görevleri gerçekleştirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
 | [Sınav MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; ürün bilgilerini yönetme; stok yönetimini uygulama; tedarik zinciri süreçlerini uygulama ve yönetme; ambar yönetimi ve taşıma yönetimini uygulama ile iş süreçlerini yönetme ve gerçekleştirme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
 | [Sınav MB-320: Microsoft Dynamics 365 for Finance and Operations, İmalat](https://www.microsoft.com/learning/exam-MB-320.aspx) | Bu sınav; imalatı ayarlama ve yapılandırma; üretim ve yalın imalat siparişleri oluşturma ve yönetme ile üretim toplu iş emirlerini oluşturma, işleme ve yönetme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

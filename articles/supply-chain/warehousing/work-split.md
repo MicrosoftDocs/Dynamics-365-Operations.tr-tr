@@ -2,11 +2,9 @@
 title: İş bölme
 description: Bu konu, iş bölme işlevi hakkında bilgi sağlar. Bu işlevsellik, büyük iş siparişlerini daha sonra birden çok ambar çalışanına atayabileceğiniz birkaç küçük iş siparişine bölmenize olanak tanır. Bu şekilde, aynı iş aynı anda birkaç ambar çalışanı tarafından çekilebilir.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a530f3887c3c66295177d480a8c486dd0984153
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965539"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778269"
 ---
 # <a name="work-split"></a>İş bölme
+
+[!include [banner](../includes/banner.md)]
 
 İş bölme işlevi, büyük iş kimliklerini (diğer bir şekilde, birkaç satırı olan iş emirleri) birden çok ambar çalışanına atayabileceğiniz birkaç küçük işe bölmenize olanak tanır. Bu şekilde, aynı iş oluşturma numarası aynı anda birkaç ambar çalışanı tarafından çekilebilir.
 
@@ -33,7 +33,7 @@ ms.locfileid: "4965539"
 
 İş bölme işlevini kullanamadan önce, özelliği ve sisteminizdeki ön koşul özelliğini açmanız gerekir. Yöneticiler özelliklerin durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir.
 
-İlk olarak, zaten açık değilse, *Kuruluş genelinde iş engelleme* özelliğini açın. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+İlk olarak, zaten açık değilse, *Kuruluş genelinde iş engelleme* özelliğini açın. Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz. Ancak, özellik hâlâ [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *Kuruluş çapında işi engelleme*
@@ -53,7 +53,7 @@ Ardından, aşağıdaki şekilde listelenen *İş bölme* özelliğini açın:
 - **İşi böl**: Geçerli iş kimliğini ayrı çalışanlar tarafından işlenebilen birden çok küçük iş kimliğine böler.
 - **İş bölme oturumunu iptal et**: İş bölme oturumunu iptal eder ve işi işlemeye hazır hale getirir.
 
-![İşi böl ve İş bölme oturumunu iptal et düğmeleri](media/Work_split_buttons.png "İşi böl ve İş bölme oturumunu iptal et düğmeleri")
+![İşi böl ve İş bölme oturumunu iptal et düğmeleri.](media/Work_split_buttons.png "İşi böl ve İş bölme oturumunu iptal et düğmeleri")
 
 > [!IMPORTANT]
 > Aşağıdaki koşullardan herhangi biri karşılanırsa **İşi böl** düğmesi kullanılamaz:
@@ -69,7 +69,7 @@ Ardından, aşağıdaki şekilde listelenen *İş bölme* özelliğini açın:
 >
 > - İş şu anda başka bir kullanıcı tarafından bölünmektedir. Zaten başka bir kullanıcı tarafından bölünmekte olan iş için bölme sayfasını açmaya çalışırsanız aşağıdaki hata iletisini alırsınız: "\#\#\#\# kimliğine sahip iş şu anda bölünmektedir. Birkaç dakika içinde tekrar deneyin. Bu iletiyi almaya devam ederseniz bir denetçiye başvurun."
 
-Yeni bir iş engelleme nedeni, *İşi böl*, iş kimliği bölme işleminin devam etmekte olduğunu gösterir. Bir kullanıcı işi çalıştırmaya çalışırsa hem **İşi böl** sayfasında hem de ambar uygulamasında gösterilir. Engelleme nedenleri kullanıldığında, iş kimliğindeki **Engellenen dalga** alanının adı **Engellendi** olarak değiştirilir.
+Yeni bir iş engelleme nedeni, *İşi böl*, iş kimliği bölme işleminin devam etmekte olduğunu gösterir. Bir kullanıcı işi çalıştırmaya çalışırsa hem **İşi böl** sayfasında hem de Ambar Yönetimi mobil uygulamasında gösterilir. Engelleme nedenleri kullanıldığında, iş kimliğindeki **Engellenen dalga** alanının adı **Engellendi** olarak değiştirilir.
 
 ## <a name="initiate-a-work-split"></a>İş bölme işlemi başlatma
 
@@ -96,7 +96,7 @@ Yeni bir iş engelleme nedeni, *İşi böl*, iş kimliği bölme işleminin deva
 
     Geçerli işin **İş engelleme nedeni** alanı *İşi böl* olarak ayarlanır ve iş engellenir.
 
-    ![Engelleme nedeni](media/Blocking_reason.png "Engelleme nedeni")
+    ![Engelleme nedeni.](media/Blocking_reason.png "Engelleme nedeni")
 
 1. Geçerli iş kimliğinden kaldırılacak satırları seçin ve yeni bir iş kimliği ekleyin. Aşağıdaki olaylar gerçekleşir:
 
@@ -147,10 +147,13 @@ Yeni iş hemen bir kullanıcıya atanmaz. Ancak **İş ayrıntıları** sayfası
 
 *İşi böl* engelleme nedeni kaldırıldıktan sonra, **Engelledi** durumunun iş kimliğinde *Hayır* olarak ayarlanmış olması koşuluyla, iş mobil cihazda çalıştırılabilir.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Ambar uygulamasında kullanıcı engelleme
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasında kullanıcı engelleme
 
-Ambar uygulamasını, bölünmekte olan bir iş kimliğine karşı malzeme çekme işini çalıştırmak için kullanmaya çalışırsanız aşağıdaki hata iletisini alırsınız: "\#\#\#\# kimlikli iş şu anda bölünmektedir." Bu iletiyi alırsanız **İptal et**'i seçin. Daha sonra diğer işleri işlemeye devam edebilirsiniz.
+Ambar Yönetimi mobil uygulamasını bölünmekte olan bir iş kimliğine karşı malzeme çekme işini çalıştırmak için kullanmaya çalışırsanız aşağıdaki hata iletisini alırsınız: "\#\#\#\# kimlikli iş şu anda bölünmektedir." Bu iletiyi alırsanız **İptal et**'i seçin. Daha sonra diğer işleri işlemeye devam edebilirsiniz.
 
 ## <a name="other-blocked-operations"></a>Engellenen diğer işlemler
 
 İş satırlarını, iş stok hareketlerini veya bölünen işle ilgili stok yenileme bağlantılarını değiştiren işlemler başarısız olur ve aşağıdaki hata iletisi gösterilir: "\#\#\#\# kimlikli iş şu anda bölünmektedir."
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

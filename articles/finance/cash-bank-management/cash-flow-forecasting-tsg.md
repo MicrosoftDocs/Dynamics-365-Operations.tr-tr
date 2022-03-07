@@ -2,9 +2,11 @@
 title: Nakit akışı tahmin kurulumu ile ilgili sorunları giderme
 description: Bu konuda nakit akışı tahminini yapılandırdığınızda karşılaşabileceğiniz sorulara yanıtlar verilmiştir. Nakit akışı kurulumu, nakit akışı güncelleştirmeleri ve nakit akışı Power BI hakkında sık sorulan soruları (SSS) ele alır.
 author: panolte
-ms.date: 03/23/2021
+manager: AnnBe
+ms.date: 12/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 39860a1960706aae7d223c8d2e810d39edc41b11deb80026925e6655f8e23ee8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1cde9321259753bd0cacab3706c7f8455598ff3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747191"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232501"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Nakit akışı tahmin kurulumu ile ilgili sorunları giderme
 
@@ -45,19 +47,11 @@ Nakit akışı tahminlerinin Power BI görünümlerinde görünebilmesi için bi
 
 ## <a name="why-did-cash-flow-power-bi-work-in-previous-versions-but-is-now-blank"></a>Nakit akışı Power BI neden önceki sürümlerde çalışıyordu ancak şimdi boş?
 
-Varlık deposundaki "Nakit akışı ölçümü V2" ve "LedgerCovLiquidityMeasurement" ölçümlerinin yapılandırıldığını doğrulayın. Bir varlık deposuyla nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Varlık deposu ile Power BI tümleştirmesi](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md). Power BI içeriğini görüntülemek için gerekli tüm adımların tamamlandığını doğrulayın. Daha fazla bilgi için bkz. [Nakde genel bakış Power BI içeriği](Cash-Overview-Power-BI-content.md).
+Varlık deposundaki "Nakit akışı ölçümü V2" ve "LedgerCovLiquidityMeasurement" ölçümlerinin yapılandırıldığını doğrulayın. Varlık deposundaki verilerle çalışma hakkında daha fazla bilgi için bkz. [Varlık deposuyla Power BI tümleştirmesi](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md) Power BI içeriğini görüntülemek için gereken tüm adımların tamamlandığını doğrulayın. Daha fazla bilgi için bkz. [Nakde genel bakış Power BI içeriği](Cash-Overview-Power-BI-content.md).
 
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Varlık deposu varlıkları yenilendi mi?
 
 Verilerin güncel ve doğru olduğundan emin olmak için varlıklarınızı düzenli aralıklarla yenilemeniz gerekir. Belirli bir varlığı el ile yenilemek için **Sistem yönetimi \> Kurulum \> Varlık deposu**'na gidin, varlığı seçin ve sonra **Yenile**'yi seçin. Veriler otomatik olarak da güncelleştirilebilir. **Varlık deposu** sayfasında, **Otomatik yenileme etkin** seçeneğini **Evet** olarak ayarlayın.
 
-## <a name="which-calculation-method-should-be-used-when-calculating-cash-flow-forecasts"></a>Nakit akışı tahminleri hesaplanırken hangi hesaplama yöntemi kullanılmalıdır?
-
-Nakit akışı tahmin hesaplama yönteminde iki önemli seçim seçeneği vardır. **Yeni** seçeneği, yeni belgeler ve son toplu işin çalıştırılmasından bu yana değişen belgeler için nakit akışı tahminlerini hesaplayacaktır. Bu seçenek, belgelerin daha küçük bir alt kümesini işlediği için daha hızlı çalışma eğilimindedir. **Toplam** seçeneği, sistemdeki her belge için nakit akışı tahminlerini yeniden hesaplar. Bu seçenekte daha fazla iş olduğundan tamamlanması daha fazla zaman alır.
-
-### <a name="how-do-i-improve-the-performance-of-the-cash-flow-forecasting-recurring-batch-job"></a>Nakit akışı tahmini yinelenen toplu iş ile ilgili performansı nasıl artırabilirim?
-
-Nakit akışı tahmininizi her gün, **yeni** hesaplama yöntemini kullanarak, yoğun olmayan saatlerde bir kez çalıştırmanız önerilir. Bu yaklaşımı, haftada altı gün kullanmanızı öneririz. Daha sonra, haftada bir en az faaliyet bulunan günde **toplam** hesaplama yöntemini kullanarak bir nakit akışı tahmini çalıştırın.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

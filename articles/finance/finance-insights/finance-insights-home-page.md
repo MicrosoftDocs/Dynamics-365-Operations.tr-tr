@@ -1,40 +1,40 @@
 ---
-title: Mali içgörüler giriş sayfası (önizleme)
+title: Finance Insights giriş sayfası
 description: Mali içgörüler, şirketinizin nakit akışını doğru ve anlaşılır şekilde tahmin etmek için yapılandırılabilir ve genişletilebilir modeller sağlar, bekleyen alacak ödemeleri için ödemeyi ne zaman alacağınızı tahmin eder ve bütçeleme sürecinizi hızlandırabilecek bir bütçe teklifi oluşturur. Tüm bu özellikler akıllı makine öğrenimi modellerine dayanır.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644933"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386398"
 ---
-# <a name="finance-insights-home-page-preview"></a>Mali içgörüler giriş sayfası (önizleme)
+# <a name="finance-insights-home-page"></a>Finance Insights giriş sayfası
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Mali içgörüler, şirketinizin nakit akışını doğru ve anlaşılır şekilde tahmin etmek için yapılandırılabilir ve genişletilebilir modeller sağlar, bekleyen alacak ödemeleri için ödemeyi ne zaman alacağınızı tahmin eder ve bütçeleme sürecinizi hızlandırabilecek bir bütçe teklifi oluşturur. Tüm bu özellikler akıllı makine öğrenimi modellerine dayanır. Bu yeni özellikler satıcı ödemeleri ve tahsilatlardaki otomasyonla birleştirildiğinde, karar verme sürecini hızlandıran ve geçerli ve beklenen ticari zorluklara etkili şekilde yanıt vermek üzere önlem almanıza yardımcı olan kapsamlı ve akıllı finans sistemi sunar.
 
-Mali içgörüler önizlemesi, Amerika Birleşik Devletleri, Avrupa ve Birleşik Krallık'ta denetim dağıtımları için kullanılabilir. Microsoft, destek sunduğu bölge sayısını kademeli olarak artırmaktadır.
+> [!NOTE]
+> Finance Insights önizlemesi, Amerika Birleşik Devletleri, Kanada, Avrupa, Asya Pasifik, Avusturalya, Yeni Zelanda ve Birleşik Krallık'ta dağıtım için sunulmuştur. Microsoft, destek sunduğu bölge sayısını kademeli olarak artırmaktadır. Finance Insights'ı Üretim ortamlarında etkinleştirmek için [Data Lake'e aktar](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) özelliklerinin üretim ortamında etkinleştirilmiş olması gerekir.
 
-Önizleme özellikleri, yalnızca Katman 2 korumalı alan ortamlarında açık olabilir ve açılmalıdır. Korumalı alan ortamında oluşturulan kurulum ve yapay zeka (AI) modelleri, üretim ortamına geçirilemez. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Önizlemeleri için Ek Kullanım Koşulları](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> Bu işlevsellik, bir önizleme özelliği kümesi olarak sunuluyor. Önizleme özelliği olduğundan, elde edilen makine öğrenimi modellerini iş kararlarını almak veya bütçeleme tekliflerine yön vermek için kullanmamalısınız. Bu özelliğin kullanımı [Ek Kullanım Koşulları](https://go.microsoft.com/fwlink/?linkid=2105274) tarafından yönetilir.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -46,7 +46,7 @@ Bu bölümde, Mali içgörülerin kullanımıyla ilgili gereksinimler listelenmi
 
 ### <a name="system-requirements"></a>Sistem gereksinimleri
 
-Mali içgörüleri önizlemek için Katman 2 korumalı alan ortamı (çoklu kutu) gereklidir. Ortamlar hakkında arka plan bilgileir için [Ortam planlama](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning) konusuna bakın.
+Finance Insights önizlemesi için Katman 2 ortamı (çoklu kutu) gereklidir. Ortamlar hakkında arka plan bilgileir için [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) konusuna bakın.
 
 ### <a name="version-requirements"></a>Sürüm gereksinimleri
 
@@ -55,8 +55,6 @@ Bu belge, Finance and Operations uygulamalarının (Platform update 35) 10.0.11 
 ### <a name="historical-data-requirements"></a>Geçmişe ait veri gereksinimleri
 
 Müşteri ödeme tahminleri özelliği için kullanılan makine öğrenimi modelinin doğru şekilde eğitimi için en az bir yıllık müşteri faturası gereklidir.
-
-Contoso tanıtım veri kümesine sahip tanıtım sistemleri için örnek veriler mevcuttur.
 
 ### <a name="role-and-permission-requirements"></a>Rol ve izin gereksinimleri
 
@@ -67,11 +65,13 @@ Microsoft Dynamics 365 Finance, Microsoft Dynamics Lifecycle Services (LCS), Pow
 - Active Directory kiracı yöneticisi, AI Builder uygulamasına veri gölüne erişim izni vermesi gerekecektir.
 - Bu özellik Dynamics 365'te etkinleştirilecektir.
 
-Azure, Common Data Service ve LCS'te kaynak oluşturma ve yönetme işlemi hakkında bilgi sahibi olmak bu işlemi tamamlamak için faydalı olacaktır.
+Azure, Microsoft Dataverse ve LCS'te kaynak oluşturma ve yönetme işlemi hakkında bilgi sahibi olmak bu işlemi tamamlamak için faydalı olacaktır.
 
 ## <a name="configure-finance-insights"></a>Mali içgörüleri yapılandırma
 
-Mali içgörüleri kullanabilmeniz için bazı yapılandırma adımlarını tamamlamanız gerekir. Mali içgörüleri yapılandırma hakkında daha fazla bilgi için bkz. [Mali içgörülerde yapılandırma](configure-for-fin-insites.md).
+Mali içgörüleri kullanabilmeniz için bazı yapılandırma adımlarını tamamlamanız gerekir. Finans Insights'ı yapılandırma hakkında daha fazla bilgi için bkz.
+  - 10.0.19 sürümüne kadar olan sürümler için: [10.0.19 sürümüne kadar Finance Insights (önizleme)](configure-for-fin-insites.md).
+  - 10.0.20 ve sonrasındaki sürümler için: [10.0.20 sürümü ve sonrası için Finance Insights (preview) yapılandırması](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Veri tümleştirici projesi oluşturma
 
@@ -82,15 +82,12 @@ Makine öğrenimi modelinin ürettiği verilerin Dynamics 365 Finance'e geçebil
 Yapılandırma adımlarını tamamlayıp tanıtım verilerini ayarladığınızda, kullanmayı planladığınız her özelliği açmanız ve ayarlamanız gerekir: müşteri ödeme tahminleri, nakit akışı tahmini ve bütçe teklifleri.
 
 ### <a name="enable-customer-payment-predictions"></a>Müşteri ödeme tahminlerini etkinleştirme
-Müşteri ödeme tahminlerini test etmek için tanıtım verileri kullanıyorsanız, yapay zeka modelinizi başarılı şekilde oluşturmak için ek tanıtım verilerini içeri aktarmanız gerekebilir. Tanıtım verilerini içeri aktarmayla ilgili adımlar için bkz. [Ödeme tahminleri için tanıtım verilerini ayarlama](set-up-demo-data.md).
+Müşteri ödeme tahminlerini test etmek için tanıtım verileri kullanıyorsanız, yapay zeka modelinizi başarılı şekilde oluşturmak için ek tanıtım verilerini içeri aktarmanız gerekebilir. 
 
 Müşteri ödeme tahminlerini etkinleştirmek için, müşterilerin bekleyen faturaları ne zaman ödeyeceğine ve belirli faturaların ne zaman ödeneceğine dair tahminler oluşturmak için kuruluşunuzun verilerini kullanan bir makine öğreinimi modeli oluşturma adımlarını tamamlamanız gerekir. Daha fazla bilgi ve tamamlanması gereken adımlar için bkz. [Müşteri ödeme tahminlerini etkinleştirme](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Nakit akışı tahminini etkinleştirme
-Nakit akışı tahmini özelliğini etkinleştirmek için, nakit akışı tahminleri oluşturmak üzere kuruluşunuzun verilerinin kullanıldığı bir makine öğrenimi modeli oluşturmak için bir dizi adımı tamamlamanız gerekir. Daha fazla bilgi ve tamamlanması gereken adımlar için bkz. [Nakit akışı tahminini etkinleştirme](enable-cash-flow-forecasting.md) 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>Nakit akışı tahminini ayarlama ve kullanma
-Nakit akışı tahmini ayarlamak ve kullanmak hakkında daha fazla bilgi için bkz. [Nakit akışı tahmini etkinleştirme](enable-cash-flow-forecasting.md). Bu özelliğin nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Nakit akışı tahmini](cash-flow-forecast-intro.md).
+Nakit akışı tahmini özelliğini etkinleştirmek için, nakit akışı tahminleri oluşturmak üzere kuruluşunuzun verilerini kullanan bir makine öğrenimi modeli oluşturmak için bir dizi adımı tamamlamanız gerekir. Daha fazla bilgi ve tamamlanması gereken adımlar için bkz. [Nakit akışı tahminini etkinleştirme](enable-cash-flow-forecasting.md).
 
 ### <a name="enable-budget-proposals"></a>Bütçe tekliflerini etkinleştirme
 
@@ -114,19 +111,15 @@ Nakit akışı tahmini özelliği, nakit pozisyonunuzu daha doğru tahmin etmeni
 
 - Nakit akışı tahminlerindeki yeni özellikler hakkında bilgi edinmek için bkz. [Nakit akışı tahmini](cash-flow-forecast-intro.md).
 - Nakit akışı tahmininize dahil etmek üzere dış verilerin içeri aktarılması hakkında bilgi için bkz. [Nakit akışı tahminlerinde dış verileri kullanma](external-data-in-cash-flow.md). 
-- Uzun vadeli nakit akışını öngörmek için yapay zeka modelinin nasıl kullanılacağı hakkında bilgi için bkz. [Nakit akışı tahminlerine genel bakış](cash-position.md).
+- Kısa vadeli nakit akışını öngörmek için yapay zeka modelinin nasıl kullanılacağı hakkında bilgi için bkz. [Nakit konumu](cash-position.md).
 - Nakit akışı pozisyonlarının ve nakit akışı tahminlerinin anlık görüntü olarak kaydedilmesi ve anlık görüntüyü gerçek değerlerle karşılaştırmak hakkında bilgi için bkz. [Anlık görüntülere genel bakış](payment-snapshots.md).
 
 ### <a name="using-budget-proposal"></a>Bütçe teklifini kullanma
 
 Bütçenin oluşturulmasını hızlandırma hakkında bilgi için bkz. [Bütçe teklifleri](budget-proposals.md). 
 
-Bütçe teklifi için tanıtım verileri:
-
 ## <a name="feedback-and-support"></a>Geri bildirim ve destek
 
 Geri bildirim sağlamak veya destek almak istiyorsanız lütfen [Müşteri ödeme içgörüleri (Önizleme)](mailto:fiap@microsoft.com) ekibine e-posta gönderin.
 
-## <a name="privacy-notice"></a>Gizlilik bildirimi
-
-Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

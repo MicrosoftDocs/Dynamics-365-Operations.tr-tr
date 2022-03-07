@@ -1,28 +1,25 @@
 ---
 title: Ana oranları ayarlama
 description: Bu yordam, bir ana oran kurmayı göstermektedir.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 10/16/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSBreakMaster,TMSRateMaster,TMSRateMasterBase,TMSRateBaseType, TMSRouteWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cca9fd47a5d8c81d7b8a913d0a467bc113b584
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: e6177458f2fc4651a10353afaa6f59ba6da4e28b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439760"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567715"
 ---
 # <a name="set-up-rate-masters"></a>Ana oranları ayarlama
 
@@ -97,3 +94,6 @@ Bu yordam, bir ana oran kurmayı göstermektedir. Genellikle Lojistik Yöneticis
     * Bu oran tabanı atamasının hangi posta kodundan itibaren geçerli olacağını belirtin.
 10. **Çekme Ülke Bölgesi** alanında "ABD" yazın.
 11. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

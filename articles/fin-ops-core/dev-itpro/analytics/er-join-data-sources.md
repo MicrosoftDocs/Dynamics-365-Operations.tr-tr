@@ -2,7 +2,8 @@
 title: Birden çok uygulama tablosundan veri almak için ER model eşlemelerinde BİRLEŞTİRME veri kaynaklarını kullanma
 description: Bu konu, Elektronik raporlamada (ER) BİRLEŞTİRME türü veri kaynaklarını nasıl kullanabileceğinizi açıklamaktadır.
 author: NickSelin
-ms.date: 04/26/2021
+manager: AnnBe
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e872ff38d2115273fe76f5a2f54197c55cc7a2e0
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723225"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565553"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Birden çok uygulama tablosundan veri almak için Elektronik raporlama (ER model) eşlemelerinde BİRLEŞTİRME veri kaynaklarını kullanma
 
@@ -64,13 +65,13 @@ Bu konudaki örnekleri tamamlamak için, bu adımları tamamlamak amacıyla hang
 
 Ayrıca, öncelikle [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedüründeki adımları tamamlamanız gerekir.
 
-Önceden, aşağıdaki örnek ER yapılandırma dosyalarını da indirip kaydetmeniz gerekir:
+Önceden, aşağıdaki örnek ER yapılandırması dosyalarını [Microsoft İndirme Merkezinden](https://go.microsoft.com/fwlink/?linkid=000000) indirmeniz ve yerel olarak kaydetmeniz gerekir:
 
 | **İçerik açıklaması**  | **Dosya adı**   |
 |--------------------------|-----------------|
-| Örnekler için veri kaynağı olarak kullanılan **ER veri kaynağı** yapılandırma dosyası.| [Model to learn JOIN data sources.version.1.1.xml](https://download.microsoft.com/download/5/c/1/5c1d8a57-6ebd-425b-bc5d-c71dde92c6af/ModeltolearnJOINdatasources.version.1.xml) |
-| Örnekler için ER veri modelini uygulayan örnek **ER model eşleme** yapılandırma dosyası. | [Mapping to learn JOIN data sources.version.1.1.xml](https://download.microsoft.com/download/9/2/f/92f339ca-41fc-4f5e-b458-6983c957d3dd/MappingtolearnJOINdatasources.version.1.1.xml)|
-| Örnek **ER biçimi** yapılandırma dosyası. Bu dosya, örnekler için ER biçim bileşenini doldurmak üzere verileri tanımlar. | [Format to learn JOIN data sources.version.1.1.xml](https://download.microsoft.com/download/f/f/8/ff8f1b48-14d0-4c73-9145-bcdf8b5265bc/FormattolearnJOINdatasources.version.1.1.xml) |
+| Örnekler için veri kaynağı olarak kullanılan **ER veri kaynağı** yapılandırma dosyası.| [Model to learn JOIN data sources.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Örnekler için ER veri modelini uygulayan örnek **ER model eşleme** yapılandırma dosyası. | [Mapping to learn JOIN data sources.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Örnek **ER biçimi** yapılandırma dosyası. Bu dosya, örnekler için ER biçim bileşenini doldurmak üzere verileri tanımlar. | [Format to learn JOIN data sources.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ### <a name="activate-a-configurations-provider"></a>Bir yapılandırma sağlayıcısını etkinleştirme
 
@@ -78,7 +79,7 @@ Ayrıca, öncelikle [Yapılandırma sağlayıcısı oluşturma ve etkin olarak i
 2. **Organizasyon yönetimi \> Çalışma alanları \> Elektronik raporlama**'ya gidin.
 3. **Yerelleştirme yapılandırmaları** sayfasındaki **Yapılandırma sağlayıcıları** bölümünde, [Litware, Inc.](http://www.litware.com) örnek şirketine ait yapılandırma sağlayıcısının listelendiğinden ve **Etkin** olarak işaretlendiğinden emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) adımlarını takip edin.
 
-    ![Elektronik raporlama çalışma alanı.](./media/GER-JoinDS-ActiveProvider.PNG)
+    ![Elektronik raporlama çalışma alanı](./media/GER-JoinDS-ActiveProvider.PNG)
 
 ### <a name="import-sample-er-configuration-files"></a>Örnek ER biçimi yapılandırma dosyalarını içe aktarma
 
@@ -99,9 +100,9 @@ Ayrıca, öncelikle [Yapılandırma sağlayıcısı oluşturma ve etkin olarak i
     3. **Format to learn JOIN data sources.version.1.1.xml** dosyasını bulmak için **Gözat**'ı seçin.
     4. **Tamam**'ı seçin.
 5. Yapılandırmalar ağacında, **BİRLEŞTİR veri kaynaklarını öğrenme modeli** öğesini ve diğer model öğelerini (varsa) genişletin.
-6. Ağaçtaki ER yapılandırmalarının listesini ve **Sürümler** hızlı sekmesindeki sürüm ayrıntılarını inceleyin: bunlar, örnek raporunuz için veri kaynağı olarak kullanılırlar.
+6. Ağaçtaki ER yapılandırmalarının listesini ve **Sürümler** hızlı sekmesindeki sürüm ayrıntılarını inceleyin – örnek raporunuz için veri kaynağı olarak kullanılırlar.
 
-    ![Elektronik raporlama yapılandırmaları sayfası.](./media/GER-JoinDS-ConfigurationsTree.PNG)
+    ![Elektronik raporlama yapılandırmaları sayfası](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
 ### <a name="turn-on-execution-trace-options"></a>Yürütme izleme seçeneklerini açma
 
@@ -109,7 +110,7 @@ Ayrıca, öncelikle [Yapılandırma sağlayıcısı oluşturma ve etkin olarak i
 2. **Kullanıcı parametreleri**'ni seçin.
 3. Yürütme izleme parametrelerini aşağıdaki ekran görüntüsünde gösterildiği gibi ayarlayın.
 
-    ![Elektronik raporlama kullanıcı parametreleri sayfası.](./media/GER-JoinDS-Parameters.PNG)
+    ![Elektronik raporlama kullanıcı parametreleri sayfası](./media/GER-JoinDS-Parameters.PNG)
 
     Bu parametreler açık olduğunda, içe aktarılan ER biçim dosyasını her yürütme işlemi için yürütme izlemesi oluşturulur. Oluşturulan yürütme izlemenin ayrıntılarını kullanarak, ER biçiminin ve ER model eşleme bileşenlerinin yürütülmesini çözümleyebilirsiniz. ER yürütme izleme özelliği hakkında daha fazla ayrıntı için [Performans sorunlarını gidermek için ER biçimi yürütmesini izleme](trace-execution-er-troubleshoot-perf.md) sayfasını ziyaret edin.
 
@@ -123,18 +124,18 @@ ER model eşleme bileşeninin ayarlarını inceleyin. Bileşen, **Birleştirme**
 4. **Ayrıntıları göster**'i seçin.
 5. Yapılandırmalar ağacında,**Set1** ve **Set1.Details** veri modeli öğelerini genişletin:
 
-    1. Bağlama **Ayrıntılar: Kayıt listesi = Sürümler** **Set1.Details** öğesinin, **ERSolutionVersionTable** tablosunun kayıtlarını döndüren **Sürümler** veri kaynağına bağlı olduğunu gösterir. Bu tablonun her kaydı bir ER yapılandırmasının tek bir sürümünü temsil eder. Bu tablonun içeriği, **Yapılandırmalar** sayfasındaki **Sürümler** hızlı sekmesinde gösterilir.
+    1. Bağlama **Ayrıntılar: Kayıt listesi = Sürümler** **Set1.Details** öğesinin, **ERSolutionVersionTable** tablosunun kayıtlarını döndüren **Sürümler** veri kaynağına bağlı olduğunu gösterir. Bu tablonun her kaydı bir ER yapılandırmasının tek bir sürümünü temsil eder. Bu tablonun içeriği **Yapılandırmalar** sayfasındaki **Sürümler** hızlı sekmesinde gösterilir.
     2. **ConfigurationVersion: String = @.PublicVersionNumber** bağlamasıher ER yapılandırması sürümünün genel sürümünün değerinin **ERSolutionVersionTable** tablosunun **PublicVersionNumber** alanından alındığı ve **ConfigurationVersion** öğesine yerleştirildiği anlamına gelir.
     3. **ConfigurationTitle: String = @.'>Relations'.Solution.Name** bağlaması, ER yapılandırması adının **ERSolutionTable** tablosunun **Ad** alanından alındığı ve (**'>İlişkiler'**) ile **ERSolutionVersionTable** ve **ERSolutionTable** tabloları arasında çoktan bire ilişkisinin kullanıldığı anlamına gelir. Geçerli uygulama örneğinin ER yapılandırmalarının adları, **Yapılandırmalar** sayfasındaki yapılandırmalar ağacında gösterilir.
     4. **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** bağlaması, geçerli yapılandırmanın sahibi olan yapılandırma sağlayıcısı adının **ERVendorTable** tablosunun **Ad** alanından alındığı ve **ERSolutionTable** ile **ERVendorTable** tabloları arasında çoktan bire ilişkisinin kullanıldığı anlamına gelir. ER yapılandırma sağlayıcısı adları, her yapılandırmanın sayfa başlığında **Yapılandırmalar** sayfasındaki yapılandırmalar ağacında gösterilir. Tüm ER yapılandırma sağlayıcıları listesi, **Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırma sağlayıcısı** tablosu sayfasında bulunabilir.
 
-    ![ER model eşleme tasarımcısı sayfası, bağlı veri modeli öğeleri.](./media/GER-JoinDS-Set1Review.PNG)
+    ![ER model eşleme tasarımcısı sayfası](./media/GER-JoinDS-Set1Review.PNG)
 
 6. Yapılandırmalar ağacında, **Set1.Summary** veri modeli öğesini genişletin:
 
     1. **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** bağlaması, **Set1.Summary.VersionsNumber** öğesinin, **Versions**  veri kaynağı aracılığıyla **ERSolutionVersionTable** tablosunun kayıt sayısını döndürmek üzere yapılandırılan **GroupBy** türündeki  **VersionsSummary** veri kaynağının **VersionsNumber** toplam alanına bağlı olduğunu gösterir.
 
-    !["Gruplandırma Ölçütü" parametreleri sayfasını düzenleme.](./media/GER-JoinDS-Set1GroupByReview.PNG)
+    ![GROUPBY veri kaynağı parametreleri sayfası](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
 7. Sayfayı kapatın.
 
@@ -144,18 +145,18 @@ ER model eşleme bileşeninin ayarlarını inceleyin. Bileşen, **Birleştirme**
 
 1. Yapılandırmalar ağacında,**Set2** ve **Set2.Details** veri modeli öğelerini genişletin: **Details: Record list = Details** bağlaması **Set2.Details** öğesinin **Birleştir** türünün veri kaynağı olarak yapılandırılan **Ayrıntılar** veri kaynağına bağlı olduğunu belirtir.
 
-    ![Genişletilmiş Set2:Record veri modeli öğelerini gösteren ER model eşleme tasarımcı sayfası.](./media/GER-JoinDS-Set2Review.PNG)
+    ![ER model eşleme tasarımcısı sayfası](./media/GER-JoinDS-Set2Review.PNG)
 
     **Birleştir** veri kaynağı, **Functions\Join** veri kaynağı seçilerek eklenebilir:
 
-    ![ER model eşleme tasarımcı sayfası, Join veri kaynağı türü.](./media/GER-JoinDS-AddJoinDS.PNG)
+    ![ER model eşleme tasarımcısı sayfası](./media/GER-JoinDS-AddJoinDS.PNG)
 
 2. **Ayrıntılar** veri kaynağını seçin.
 3. **Veri kaynakları** bölmesinde **Düzenle**'yi seçin.
 4. **Birleştirmeyi düzenle** öğesini seçin.
 5. **Ayrıntıları göster**'i seçin.
 
-    ![BİRLEŞTİR veri kaynağı parametreleri sayfası.](./media/GER-JoinDS-JoinDSEditor.PNG)
+    ![BİRLEŞTİR veri kaynağı parametreleri sayfası](./media/GER-JoinDS-JoinDSEditor.PNG)
 
     Bu sayfa, **Birleştirme türünün** gerekli veri kaynağını tasarlamak için kullanılır. Bu veri kaynağı çalışma zamanında, **Birleştirilmiş liste** kılavuzundaki veri kaynaklarından alınan tek bir birleşik kayıt listesi oluşturur. Kayıtların birleştirilmesi, kılavuzda ilk olarak bulunan **ConfigurationProviders** veri kaynağından başlar ( **Tür** sütunu boştur). Diğer tüm veri kaynağı kayıtları, sonuç olarak bu kılavuzdaki sırasına dayalı olarak üst veri kaynağının kayıtlarına birleştirilir. Birleşen her bir veri kaynağı hedef veri kaynağı altında iç içe geçmiş bir veri kaynağı olarak yapılandırılmalıdır (`1Versions` veri kaynağı `1Configurations` bir altında iç içe geçmiştir; `1Configurations` veri kaynağı **ConfigurationProviders** bir altında iç içe geçmiştir). Yapılandırılan her veri kaynağının birleşim koşullarını içermesi gerekir. Bu özel **birleştirme** için veri kaynağında aşağıdaki birleştirmeler tanımlanmıştır:
 
@@ -178,7 +179,7 @@ ER model eşleme bileşeninin ayarlarını inceleyin. Bileşen, **Birleştirme**
     - **VersionsNumber: Integer = DetailsSummary.aggregated.VersionsNumber** bağlaması, **Set2.Summary.VersionsNumber** öğesinin, **Join** türünün **Ayrıntılar** veri kaynağının birleştirilmiş kayıt sayısını döndürmek üzere yapılandırılmış **GroupBy** türündeki **DetailsSummary** veri kaynağının **DetailsSummary** toplam alanına bağlı olduğunu gösterir.
     - **Yürüt** konumu **Sorgu** olarak yapılandırılmıştır. Bu **GroupBy** veri kaynağının doğrudan SQL çağrısı olarak veritabanı düzeyinde çalışma zamanında çalıştırılacağı anlamına gelir. Bu davranış, **Birleştirme** türünün temel veri kaynağı **Ayrıntılar** veritabanı düzeyinde yürütülmek üzere yapılandırıldığı için mümkündür.
 
-    ![GROUPBY veri kaynağı parametreleri sayfası.](./media/GER-JoinDS-Set2GroupByReview.PNG)
+    ![GROUPBY veri kaynağı parametreleri sayfası](./media/GER-JoinDS-Set2GroupByReview.PNG)
 
 9. Sayfayı kapatın.
 10. **İptal**'i seçin.
@@ -196,21 +197,21 @@ ER model eşleme bileşeninin ayarlarını inceleyin. Bileşen, **Birleştirme**
 
     Bu biçim, ER yapılandırmasının her sürümü için yeni bir satırla (**Sürüm** sırası) oluşturulan bir metin dosyasını doldurmak üzere tasarlanmıştır. Oluşturulan her satır, geçerli yapılandırmanın sahibi olan yapılandırma sağlayıcısının adını, yapılandırma adını ve noktalı virgülle ayrılmış yapılandırma sürümünü içerir. Oluşturulan dosyanın son satırı, ER yapılandırmalarının keşfedilen sürümlerinin sayısını (**Özet** sırası) içerecektir.
 
-    ![ER biçimi tasarım sayfası, Biçim sekmesi.](./media/GER-JoinDS-FormatReview.PNG)
+    ![ER biçim tasarımcısı sayfası](./media/GER-JoinDS-FormatReview.PNG)
 
     **Veri** ve **Özet** veri kaynakları, oluşturulan dosyada yapılandırma sürümü ayrıntılarını doldurmak için kullanılır:
 
     - **Set1** veri modelinden alınan bilgiler, ER biçimini çalıştırırken Kullanıcı iletişim kutusu sayfasındaki çalışma zamanından **Seçici** veri kaynağı için **Hayır**'ı seçtiğinizde kullanılır.
     - **Set2** veri modelinden alınan bilgiler, Kullanıcı iletişim kutusu sayfasındaki çalışma zamanından **Seçici** veri kaynağı için **Evet**'i seçtiğinizde kullanılır.
 
-    ![ER biçimi tasarım sayfası, Eşleme sekmesi.](./media/GER-JoinDS-FormatMappingReview.PNG)
+    ![ER biçim tasarımcısı sayfası](./media/GER-JoinDS-FormatMappingReview.PNG)
 
 9. **Çalıştır**'ı seçin.
 10. İletişim sayfasında, **BİRLEŞTİR veri kaynağını kullan** alanında **Hayır**'ı seçin.
 11. **Tamam**'ı seçin.
 12. Oluşturulan dosyaları gözden geçirin.
 
-    ![JOIN veri kaynağı kullanılmadan, elektronik rapor parametreleriyle oluşturulan dosya.](./media/GER-JoinDS-Set1Run.PNG)
+    ![ER kullanıcı iletişim sayfası](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>ER biçimi yürütme izlemesini analiz etme
 
@@ -224,7 +225,7 @@ ER model eşleme bileşeninin ayarlarını inceleyin. Bileşen, **Birleştirme**
     - **ERSolutionTable** **ERSolutionVersionTable** tablosundaki yapılandırma sürümü kaydı sayısı kadar çağrılır. Bu tür çağrıların sayısı performansı geliştirmek için zaman olarak azaltılabilir.
     - **ERVendorTable** **ERSolutionVersionTable** tablosunda keşfedilen her kayıt sürümü için iki kez çağrılır. Bu tür çağrıların sayısı da performansı geliştirmek için azaltılabilir.
 
-    ![ER Model eşleme tasarımcı sayfasındaki yürütme istatistikleri.](./media/GER-JoinDS-Set1Run2.PNG)
+    ![ER model eşleme tasarımcısı sayfası](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Sayfayı kapatın.
 
@@ -234,9 +235,9 @@ ER model eşleme bileşeninin ayarlarını inceleyin. Bileşen, **Birleştirme**
 2. **Çalıştır**'ı seçin.
 3. İletişim sayfasında, **BİRLEŞTİR veri kaynağını kullan** alanında **Evet**'i seçin.
 4. **Tamam**'ı seçin.
-5. Oluşturulan dosyaları gözden geçirin.
+5. Oluşturulan dosyayı gözden geçirin.
 
-    ![JOIN veri kaynağı kullanılarak elektronik rapor parametreleriyle oluşturulan dosya.](./media/GER-JoinDS-Set2Run.PNG)
+    ![ER kullanıcı iletişim sayfası](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> ER biçimi yürütme izlemesini analiz etme
 
@@ -249,11 +250,11 @@ ER model eşleme bileşeninin ayarlarını inceleyin. Bileşen, **Birleştirme**
 
     - Uygulama veritabanı, gerekli alanlara erişmek için **ERVendorTable**, **ERSolutionTable** ve **ERSolutionVersionTable** tablolarından kayıtlar almak üzere bir kez çağrıldı.
 
-    ![ER Model eşleme tasarımcı sayfasındaki performans istatistikleri detayları.](./media/GER-JoinDS-Set2Run2.PNG)
+    ![ER model eşleme tasarımcısı sayfası](./media/GER-JoinDS-Set2Run2.PNG)
 
     - **Ayrıntılar** veri kaynağında yapılandırılan birleştirmeler kullanılarak, yapılandırma sürümü sayısını hesaplamak üzere uygulama veritabanı bir kez çağrıldı.
 
-    ![Uygulama veritabanı çağrılarını gösteren ER Model eşleme tasarımcı sayfası.](./media/GER-JoinDS-Set2Run3.PNG)
+    ![ER model eşleme tasarımcısı sayfası](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Sınırlamalar
 

@@ -2,11 +2,9 @@
 title: Günlükler oluşturma ve doğrulama
 description: Bu yordam, günlükler ile günlük satırları oluşturur ve doğrular.
 author: panolte
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c297479bc89ffb2f837f7236939e6eef17b1103b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 72c97c6afb7bbe602fcb7a5e24a1d2a2cd727f6d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021466"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832742"
 ---
 # <a name="create-and-validate-journals"></a>Günlükler oluşturma ve doğrulama
 
@@ -42,3 +40,6 @@ Bu yordam, günlükler ile günlük satırları oluşturur ve doğrular. Bu yord
 12. **Naklet**'e tıklayın.
 13. **Fiş**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

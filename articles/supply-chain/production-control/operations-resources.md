@@ -2,11 +2,9 @@
 title: Operations kaynakları
 description: Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir.
 author: sorenva
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability, WrkCtrResourceGroup, WrkCtrResourceAbilityMap, OpResCapacityPlanningWorkspace, WrkCtrCapResGraph, WrkCtrResourceRequirementPart, WrkCtrCapResGraphDialog, WrkCtrResourceCopy, WrkCtrCapResStatistic
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06f5c4ca565511c9392c2f33d081706e571f65e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 191d5aee93217af19364932a0066464b2af89794
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966442"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189288"
 ---
 # <a name="operations-resources"></a>Operations kaynakları
 
@@ -31,8 +29,7 @@ ms.locfileid: "4966442"
 
 Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir. 
 
-<a name="operations-resources"></a>Operations kaynakları
---------------------
+## <a name="operations-resources"></a>Operations kaynakları
 
 Operasyon kaynakları; bir proje veya üretim işleminde faaliyet gösteren makineler, araçlar, çalışanlar, tesisler, fiziksel alanlar veya satıcılardır. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir.
 
@@ -84,3 +81,6 @@ Rota operasyonu veya bir proje saat tahmini gibi bir faaliyet tanımladığını
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

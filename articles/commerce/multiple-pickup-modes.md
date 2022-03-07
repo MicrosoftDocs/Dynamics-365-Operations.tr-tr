@@ -2,30 +2,27 @@
 title: Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta bir mağazada malzeme çekme amacıyla müşteri siparişleri oluşturmanıza olanak sağlayan işlevleri açıklamaktadır.
 author: hhainesms
-manager: annbe
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595004"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216779"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Microsoft Dynamics 365 Commerce sürüm 10.0.16 ve sonraki sürümlerde kuruluşlar, alışverişçiler veya satış kişilerin bir mağazada çekilecek bir sipariş oluştururken aralarından seçim yapabildikleri çoklu teslimat modlarını tanımlayabilir. Böylece kuruluşlar alışverişçilere çoklu malzeme çekme seçeneği sağlayabilir. Örneğin, birçok perakende satış şimdi, siparişleri için mağaza içi malzeme çekme veya perde çekme seçimini alışverişçileri sunmaktadır. Commerce, bu farklı malzeme çekme teslim modlarının konfigürasyonunun yapılandırmasını destekler. Kullanıcılar daha sonra desteklenen herhangi bir ticaret kanalında (e-ticaret, çağrı merkezi veya mağaza) müşteri siparişleri oluştururken faydalanabilir.
 
@@ -41,7 +38,7 @@ Commerce 10.0.15 ve önceki sürümlerde kuruluşlar, belirlenen malzeme çekme 
 
 **Teslimat modu**, **teslim alanlarının elektronik modu** ve **Sevk emirleri için yalnızca taşıyıcı modu seçeneklerini göster** seçeneği bu hızlı sekmeye yeniden konumlandırıldı.
 
-Ek malzeme çekme teslimat modlarını konfigüre etmeden önce teslimat modlarını tanımlamanız gerekir. Commerce Headquarters 'daki teslimat modları sayfasında, **malzeme çekme teslim modları** olarak kabul edilmesi gereken teslimat şekillerini ekleyin. Tüm konfigürasyonunun tamamlandığından emin olun. Örneğin, Teslimat modunun uygun kanallara ve maddelere bağlı olduğundan emin olun. Bitirdiğinizde, Teslimat modu, kanallar ve maddeler arasındaki ilişkileri oluşturmak için **işlem teslimat modları** işini çalıştırın. İşin çalışması bittiğinde, Commerce Headquarters 'da **dağıtım çizelgesi** sayfasını açın ve ilgili Commerce Channel veritabanlarının yeni teslimat modu konfigürasyonınızla güncelleştirilmesini sağlamak için **1120** dağıtım işini çalıştırın.
+Ek malzeme çekme teslimat modlarını konfigüre etmeden önce teslimat modlarını tanımlamanız gerekir. Commerce Headquarters 'daki teslimat modları sayfasında, **malzeme çekme teslim modları** olarak kabul edilmesi gereken teslimat şekillerini ekleyin. Tüm konfigürasyonunun tamamlandığından emin olun. Örneğin, çevrimiçi alışveriş yapanlar için belirli depolarınızda bir teslimat seçeneği olarak yol kenarı teslimat tercihi sunuyorsanız bu amaç için yeni bir teslimat modu oluşturmanız gerekir. Bu teslim modunu, açıklama olarak "yol kenarı teslimat" kullanarak oluşturabilirsiniz. Daha sonra, bu seçeneği ve bu karşılama yöntemini sunan tek bir mağaza kanalını teklif eden çevrimiçi mağazalar dahil olmak üzere, "yol kenarı teslimat" iletisinin teslim edilebilir tüm ticari kanallarla eşlenmesini sağlamanız gerekir. Teslimat şekillerinin aynı zamanda ürünlere de bağlanması gerekir. Bu örnekte, "yol kenarı teslimat" kullanılarak karşılanamayacak belirli ürünler varsa, bu öğelerin hariç tutulduğundan emin olmanız gerekir. Yeni teslimat modları eklemeyi bitirdiğinizde, teslimat modu, kanallar ve maddeler arasındaki ilişkileri oluşturmak için **İşlem teslimat modları** işini çalıştırın. İş tamamlandığında, Commerce Headquarters 'da **dağıtım çizelgesi** sayfasını açın ve ilgili Commerce Channel veritabanlarının yeni teslimat modu konfigürasyonınızla güncelleştirilmesini sağlamak için **1120** dağıtım işini çalıştırın.
 
 ![Yol kenarı malzeme çekme için teslim konfigürasyonu moduna örnek](media/pickupmodes.png)
 
@@ -85,4 +82,7 @@ Bir kanal için birden fazla malzeme çekme teslimat modu olduğunda, alacak ür
 
 ## <a name="considerations-for-distributed-order-management"></a>Dağıtılmış sipariş yönetimi için dikkate alınacaklar
 
-[Commerce'deki dağıtılmış sipariş yönetimi (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) özellikleri mağaza malzeme çekme için işaretlenen tüm satış satırlarını dikkate almaz. Konfigüre edilmiş malzeme çekme teslimat modlarıyla bağlantılı satış satırlarının DOM mantığını atlayıp yeni bir karşılama ambarına yeniden tahsis edilmemesini sağlamak için bu özellikler güncelleştirilmiştir.
+[Commerce'deki dağıtılmış sipariş yönetimi (DOM)](./dom.md) özellikleri mağaza malzeme çekme için işaretlenen tüm satış satırlarını dikkate almaz. Konfigüre edilmiş malzeme çekme teslimat modlarıyla bağlantılı satış satırlarının DOM mantığını atlayıp yeni bir karşılama ambarına yeniden tahsis edilmemesini sağlamak için bu özellikler güncelleştirilmiştir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

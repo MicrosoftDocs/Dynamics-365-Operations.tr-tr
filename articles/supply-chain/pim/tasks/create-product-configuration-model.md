@@ -2,26 +2,23 @@
 title: Ürün yapılandırma modeli oluşturma
 description: Bu yordam, bir ürün yapılandırma modelinin nasıl oluşturulacağını ve öznitelikler ve alt bileşenler gibi temel bilgilerin nasıl girileceğini gösterir.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCCreateProductConfigurationModel, PCProductConfigurationModelDetails, PCBOMLineDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c81b3af7460c636245dcc16affcb05b724fbc70
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b87b411ed24f89a674ec3fb7ac44d3ab1d8a720a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439297"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820002"
 ---
 # <a name="create-a-product-configuration-model"></a>Ürün yapılandırma modeli oluşturma
 
@@ -83,3 +80,6 @@ Bu yordam, bir ürün yapılandırma modelinin nasıl oluşturulacağını ve ö
 17. Seri başına alanında bir sayı girin.
 18. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

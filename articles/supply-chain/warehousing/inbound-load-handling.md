@@ -1,39 +1,38 @@
 ---
 title: Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 description: Bu konu, satınalma siparişleri için gelen yüklerle ilgili ambar işleme sürecini açıklamaktadır.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439624"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778071"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
+[!include [banner](../includes/banner.md)]
+
 Bu konu, satınalma siparişleri için gelen yüklerle ilgili ambar işleme sürecini açıklamaktadır.
 
-Her gelen yük için, sisteminizde zaten ilgili bir satış siparişi bulunmalıdır ve ayrıca ilgili yük belirtimini ve/veya taşımacılık planını da içerebilir. Gelen yükleri oluşturma ve yönetme hakkında daha fazla bilgi için bkz. [İş süreci: Gelen yükler için taşımayı planlama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Her gelen yük için, sisteminizde zaten ilgili bir satış siparişi bulunmalıdır ve ayrıca ilgili yük belirtimini ve/veya taşımacılık planını da içerebilir. Gelen yükleri oluşturma ve yönetme hakkında daha fazla bilgi için bkz. [İş süreci: Gelen yükler için taşımayı planlama](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Genel bakış: Gelen yüklerin oluşturulması, kaydedilmesi ve teslim alınması
 
 Aşağıdaki şekil, ambarınıza ulaştığında satınalma siparişi miktarları içeren gelen yükleri işlemek için kullanılan tipik akışı gösterir.
 
-![Gelen yükü işleme işlemi](media/inbound-process.png "Gelen yükü işleme işlemi")
+![Gelen yükü işleme işlemi.](media/inbound-process.png "Gelen yükü işleme işlemi")
 
 1. **Satıcı satınalma siparişini onaylar.**
 
@@ -41,11 +40,11 @@ Aşağıdaki şekil, ambarınıza ulaştığında satınalma siparişi miktarlar
 
 1. **Varışı ve içeriğini planlamak için bir gelen yük kaydı oluşturulur.**
 
-    Gelen yük kaydı bir veya daha fazla satınalma siparişinin satıcı sevkiyatını temsil eder. Yükün, ambara bir fiziksel taşıma birimi olarak (örneğin, bir kamyon yükü) gelmesi beklenir. Gelen yük kaydı planlama amacıyla kullanılır ve lojistik düzenleyicisinin satıcıdan alınan yük ilerlemesini izlemesine olanak tanır. Ayrıca, sipariş satırı miktarlarını kaydetmek ve varış ve yerine koyma işi gibi ambar işlemlerindeki ilerlemeyi yönetmek için de kullanılır. Yükler otomatik olarak veya el ile oluşturulabilir ve bir satınalma siparişi ya da satıcıdan gelen ön sevkiyat bildirimini (ÖSB) temel alabilir. Daha fazla bilgi için bkz. [Gelen yük oluşturma veya değiştirme](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Gelen yük kaydı bir veya daha fazla satınalma siparişinin satıcı sevkiyatını temsil eder. Yükün, ambara bir fiziksel taşıma birimi olarak (örneğin, bir kamyon yükü) gelmesi beklenir. Gelen yük kaydı planlama amacıyla kullanılır ve lojistik düzenleyicisinin satıcıdan alınan yük ilerlemesini izlemesine olanak tanır. Ayrıca, sipariş satırı miktarlarını kaydetmek ve varış ve yerine koyma işi gibi ambar işlemlerindeki ilerlemeyi yönetmek için de kullanılır. Yükler otomatik olarak veya el ile oluşturulabilir ve bir satınalma siparişi ya da satıcıdan gelen ön sevkiyat bildirimini (ÖSB) temel alabilir. Daha fazla bilgi için bkz. [Gelen yük oluşturma veya değiştirme](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Satıcı yükün gönderilmesini onaylar.**
 
-    Satıcı yükü gönderdiğinde, teslim alan ambardaki lojistik koordinatörü yük sevkiyatını onaylar. Teslim alan şirket **Taşıma Yönetimi** modülünü kullanıyorsa, gelen sevkiyat onayı gelen yüklerle ilişkili diğer yük yönetimi işlemlerini tetikler. Daha fazla bilgi için bkz. [Yükü sevkiyat için onaylama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Satıcı yükü gönderdiğinde, teslim alan ambardaki lojistik koordinatörü yük sevkiyatını onaylar. Teslim alan şirket **Taşıma Yönetimi** modülünü kullanıyorsa, gelen sevkiyat onayı gelen yüklerle ilişkili diğer yük yönetimi işlemlerini tetikler. Daha fazla bilgi için bkz. [Yükü sevkiyat için onaylama](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Yük ambara ulaşır ve çalışanlar miktarları kaydeder.**
 
@@ -67,7 +66,7 @@ Bir gelen yük ambara ilk kez ulaştığında, ambar çalışanları sevkiyata d
 
 - **Yük alımını destekleyecek şekilde yapılandırılmış mobil cihaz menüsü**
 
-    Mobil cihazlar için [Ambar uygulaması](install-configure-warehousing-app.md) aşağıdaki iş oluşturma işlemlerini destekler:
+    Mobil cihazlar için [Ambar Yönetimi mobil uygulaması](../warehousing/install-configure-warehouse-management-app.md) aşağıdaki iş oluşturma işlemlerini destekler:
 
     - Yük maddesi teslim alma
     - Yük maddesi teslim alma ve yerine koyma
@@ -206,7 +205,7 @@ Aşağıdaki tabloda, **Yük başına birden fazla ürün girişine izin ver** a
 | Yük başına birden fazla ürün girişine izin ver | Yük miktarı | Yük durumu | Not |
 |---|---|---|---|
 | Bu alan kullanılamıyorsa (10.0.10 öncesi sürümler) | <p>Yük miktarı, kayıtlı miktara eşit olacak şekilde ayarlanır.</p><p>Yük miktarının 0 (sıfır) olarak güncelleştirilmesi, kayıt yapılmadığı anlamına gelir, yük satırı silinir.</p><p>Yükte herhangi bir yük satırı yoksa, yük silinir.</p> | _Alınan_ | Sipariş satırının kayıtlı miktarı için birden çok yük varsa, yalnızca girişin deftere nakledildiği yükün durumu _Teslim alındı_ olarak güncelleştirilir. |
-| No | <p>Yük miktarı, yük koduyla ilişkilendirilmiş kayıtlı miktara eşit olacak şekilde ayarlanır.</p><p>Stok hareketi için bir yük kodu kaydedilmezse, davranış 10.0.10 önceki sürümlerdeki davranışla eşleşir.</p> | _Alınan_ | |
+| Hayır | <p>Yük miktarı, yük koduyla ilişkilendirilmiş kayıtlı miktara eşit olacak şekilde ayarlanır.</p><p>Stok hareketi için bir yük kodu kaydedilmezse, davranış 10.0.10 önceki sürümlerdeki davranışla eşleşir.</p> | _Alınan_ | |
 | Evet | Güncelleştirme yok | _Teslim alındı_, toplam kayıtlı yük miktarı yük miktarına eşit veya daha fazlaysa | |
 | Evet | Güncelleştirme yok | _Sevk edildi_ veya _İşlemde_, toplam kayıtlı yük miktarı yük miktarından azsa | |
 
@@ -268,7 +267,7 @@ Bu senaryolar, _Yük başına birden fazla ürün girişine izin ver_ özelliği
 
 1. **Özellik yönetimi** çalışma alanını açın. (Bu çalışma alanının nasıl bulunacağı ve kullanılacağı hakkında tüm ayrıntılar için bkz. [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Aşağıdaki listelenen şekilde  _Satınalma siparişi stok hareketlerini yükle ilişkilendir_ özelliğini açın:
+1. _Satınalma siparişi stok hareketlerini yükle ilişkilendir_ özelliğinin açık olduğundan emin olun. Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz. Ancak, özellik hâlâ [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde aşağıdaki şekilde listelenir:
 
     - **Modül:** _Ambar yönetimi_
     - **Özellik adı:** _Satınalma siparişi stok hareketlerini yükle ilişkilendir_
@@ -286,7 +285,7 @@ Belirtilen örnek kayıtları ve değerleri kullanarak bu senaryolar arasında �
 
 Ambar teslim alma görevlilerinin bir yük ile bağlantılı gelen stoğu kaydetmek için bir mobil cihaz kullanabilmesi için, o amaca yönelik bir mobil cihaz menü öğesi oluşturmanız gerekir.
 
-Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir menüye ekleyeceksiniz. Ambar çalışanı böylece Ambar uygulaması içindeki menü öğesini seçebilir.
+Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir menüye ekleyeceksiniz. Ambar çalışanı böylece Ambar Yönetimi mobil uygulaması içindeki menü öğesini seçebilir.
 
 1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menü öğeleri**'ne gidin ve mobil cihaz menünüzde aşağıdaki ayarlara sahip bir menü öğesi bulunduğundan emin olun:
 
@@ -296,7 +295,7 @@ Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir men
 
     Diğer tüm ayarları varsayılan değerleriyle bırakabilirsiniz.
 
-    ![Mobil cihaz menü öğesi ayarları](media/inbound-mobile-menu-items.png "Mobil cihaz menü öğesi ayarları")
+    ![Mobil cihaz menü öğesi ayarları.](media/inbound-mobile-menu-items.png "Mobil cihaz menü öğesi ayarları")
 
     Mobil cihaz menü öğeleri ayarlama hakkında daha fazla bilgi için bkz. [Ambar işi için mobil cihazları ayarlama](configure-mobile-devices-warehouse.md).
 
@@ -331,7 +330,7 @@ Bu yordamda, el ile bir satınalma siparişi ve ilişkili bir yük oluşturacaks
     - **Yük** hızlı sekmesinde, **Yük durumu** alanı _Açık_ olarak ayarlanır.
     - **Yük satırları** bölümünde, **Miktar** alanının _10_ olarak ayarlandığı ve **İş oluşturulan miktar** alanının  _0_ (sıfır) olarak ayarlandığı tek bir satır vardır.
 
-    ![Yük ayrıntıları](media/inbound-load-details.png "Yük ayrıntıları")
+    ![Yük ayrıntıları.](media/inbound-load-details.png "Yük ayrıntıları")
 
 1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Onayla\> Gelen sevkiyat**'ı seçin. **Yük durumunun** _Sevk edildi_ olarak değiştiğini unutmayın.
 1. Bir sonraki yordamda kullanabilmeniz için **Yük kodu** değerini not edin.
@@ -478,3 +477,6 @@ Bu senaryoda, teslim alma memuru, yükte var olan miktarı aşan miktarı gelen 
     - **Miktar** – Satıcının 12 olan toplam satınalma siparişi miktarının parçası olarak teslim etme iznine sahip olduğu kalan miktar olan _7_ değerini girin (orijinal sipariş miktarı 10'dur ve 2 yüzde 20'lik izin verilen fazla teslimat miktarıdır). 5 parçanın ilk yük için kaydedilmiş olduğunu unutmayın.
 
 İkinci yük şimdi 7 miktarıyla güncelleştirilir ve bu miktara göre ürün girişiyle güncelleştirilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,35 +2,30 @@
 title: Dynamics 365 Commerce değerlendirme ortamı yapılandırma
 description: Bu konu, sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamının nasıl yapılandırılacağını açıklamaktadır.
 author: psimolin
-manager: annbe
-ms.date: 07/16/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416319"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913739"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı yapılandırma
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamının nasıl yapılandırılacağını açıklamaktadır.
-
-## <a name="overview"></a>Özet
 
 Bu konudaki yordamları yalnızca Commerce değerlendirme ortamınızı sağlandıktan sonra tamamlayın. Commerce değerlendirme ortamını sağlamak hakkında bilgi için bkz. [Commerce değerlendirme ortamı sağlama](provisioning-guide.md).
 
@@ -44,6 +39,7 @@ Commerce değerlendirme ortamınız sona kadar sağlanmış olduktan sonra, orta
 1. Listeden ortamınızı seçin.
 1. Sağdaki ortam bilgilerinde **Ortamda oturum aç**'a tıklayın. Commerce Headquarters'a gönderilirsiniz.
 1. Sağ üst köşede **USRT** hukuk varlığının seçildiğinden emin olun.
+2. **Commerce parametreleri > Konfigürasyon parametreleri** bölümüne gidin ve "**roductSearch.UseAzureSearch** için **doğru** olarak ayarlanmış bir giriş olduğundan emin olun. Bu giriş eksikse e-ticaret web siteniz ile ilişkilendirilmiş Commerce Scale Unit için bu girişi ekleyebilir ve **Kanal Vertabanı > Tam Eşitleme**'yi çalıştırabilirsiniz.
 
 Commerce Headquarters'daki sağlama sonrası etkinlikler sırasında, **USRT** yasal varlığının her zaman seçili olduğundan emin olun.
 
@@ -111,6 +107,12 @@ Commerce'de işleri etkinleştirmek için şu adımları izleyin:
     1. Eylem Bölmesi'nde **Toplu iş**'te **Durumu değiştir**'i tıklayın.
     1. **İptal ediliyor**'u ve ardından **Tamam**'ı seçin.
 
+1. İşin durumu **Durduruldu** ise aşağıdaki adımları gerçekleştirin:
+
+    1. Etkin kaydı seçin.
+    1. Eylem Bölmesi'nde **Toplu iş**'te **Durumu değiştir**'i tıklayın.
+    1. **Bekliyor**'u seçin ve sonra **Tamam**'i seçin.
+
 İsteğe bağlı olarak, yineleme aralığını aşağıdaki işler için bir (1) dakikaya ayarlayabilirsiniz:
 
 * Perakende siparişi e-posta bildirimini işleme işi
@@ -133,7 +135,7 @@ Commerce'de tam veri eşitlemesini çalıştırmak için Commerce Headquarters'd
 Sitede test hareketleri gerçekleştirmek için, aşağıdaki test kredi kartı bilgilerini kullanabilirsiniz:
 
 - **Kart numarası:** 4111-1111-1111-1111
-- **Son kullanma tarihi:** 10/20
+- **Son kullanma tarihi:** 10/30
 - **Kart doğrulama değeri (CVV) kod:** 737
 
 > [!IMPORTANT]
@@ -144,6 +146,9 @@ Sitede test hareketleri gerçekleştirmek için, aşağıdaki test kredi kartı 
 Sağlama ve yapılandırma adımları tamamlandıktan sonra, değerlendirme ortamınızı kullanmaya başlayabilirsiniz. Yazma deneyimine gitmek için Commerce site oluşturucu URL'sini kullanın. Perakende müşteri site deneyimine gitmek için Commerce sitesi URL'sini kullanın.
 
 Commerce değerlendirme ortamınızla ilgili isteğe bağlı özellikleri yapılandırmak için bkz. [Commerce değerlendirme ortamınız için isteğe bağlı özellikler yapılandırma](cpe-optional-features.md).
+
+> [!NOTE]
+> Commerce değerlendirme ortamları, gösterim amacıyla önceden yüklenmiş Azure Active Directory (Azure AD) işletmeden tüketiciye (B2C) kiracıyla birlikte gelir. Kendi Azure AD B2C kiracınızı yapılandırmak, değerlendirme ortamları için gerekli değildir. Ancak değerlendirme ortamını kendi Azure AD B2C kiracınızı kullanacak şekilde yapılandırıyorsanız lütfen Azure Portal aracılığıyla Azure AD B2C uygulamasına yanıt URL'si olarak ``https://login.commerce.dynamics.com/_msdyn365/authresp`` eklediğinizden emin olun.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -157,10 +162,15 @@ Commerce değerlendirme ortamınızla ilgili isteğe bağlı özellikleri yapıl
 
 [Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure portalı](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce web sitesi](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Commerce'te B2C kiracısı ayarlama](set-up-B2C-tenant.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

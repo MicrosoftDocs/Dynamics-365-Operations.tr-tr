@@ -2,27 +2,24 @@
 title: Satın alma kutusu modülü
 description: Bu konu satın alma kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717807"
 ---
 # <a name="buy-box-module"></a>Satın alma kutusu modülü
 
@@ -30,9 +27,7 @@ ms.locfileid: "4517100"
 
 Bu konu satın alma kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
-## <a name="overview"></a>Genel Bakış
-
-Terim *satın alma kutusu* genellikle, ürün satın alma işlemi yapmak için gereken en önemli bilgileri barındıran, ürün Ayrıntıları sayfasının "manşet" alanını belirtir. (Sayfanın ilk yüklendiği sırada "manşet" olan alan görünür, böylece görmek için kullanıcıların aşağı kaydırılması gerekmez.)
+Terim *satın alma kutusu* genellikle, ürün satın alma işlemi yapmak için gereken en önemli bilgileri barındıran, ürün Ayrıntıları sayfasının (PDP) "manşet" alanını belirtir. (Sayfanın ilk yüklendiği sırada "manşet" olan alan görünür, böylece görmek için kullanıcıların aşağı kaydırılması gerekmez.)
 
 Satın alma kutusu modülü, Ürün Ayrıntıları sayfasının satın alma kutusu alanında gösterilen tüm modülleri barındırmak için kullanılan özel bir konteynerdir.
 
@@ -40,7 +35,7 @@ Satın alma kutusu modülü, Ürün Ayrıntıları sayfasının satın alma kutu
 
 Aşağıdaki resimde ürün ayrıntıları sayfasında kullanılan bir satın alma kutusu modülü örneği gösterilmektedir.
 
-![Satın alma kutusu modülü örneği](./media/ecommerce-pdp-buybox.PNG)
+![Satın alma kutusu modülü örneği.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Satın alma kutusu modülü özelliklerini ve yuvaları 
 
@@ -72,14 +67,16 @@ Aşağıdaki satın alma kutusu modülü ayarları **Site Ayarları \> Uzantıla
 
 - **Sepet miktar sınırı** - Bu özellik, alışveriş sepetine eklenebilecek maksimum madde sayısını belirtmekte kullanılır. Örneğin, bir perakende satılan her ürünün yalnızca 10 tanesi tek bir harekette satılabilir olduğuna karar verebilir.
 - **Stok** - Stok ayarlarının nasıl uygulanacağı hakkında bilgi için bkz. [Envanter ayarları uygula](inventory-settings.md).
-- **Sepete ürün ekle** - Bu özellik, bir öğe alışveriş sepetine eklendikten sonra davranışı belirtmek için kullanılır. Olası değerler **alışveriş sepetine gidin**, **sepet sayfasına gitmeyin** ve **bildirimleri göster**. Değer **sepet sayfasına gitmek** üzere ayarlandığında , kullanıcılar bir öğe ekledikten sonra sepet sayfasına gönderilir. Değer **sepet sayfaısna gitme** olarak ayarlandığında , kullanıcılar bir öğe ekledikten sonra sepet sayfasına gönderilmez. Değer **bildirimleri gösterecek** şekilde ayarlandığında kullanıcılara bir onay bildirimi gösterilir ve ürün ayrıntıları sayfasına gözatmaya devam edebilir. 
+- **Sepete ürün ekle** – **Sepete ürün ekle** ayarlarının nasıl uygulanacağı hakkında bilgi için [Sepete ürün ekleme](add-cart-settings.md) konusuna bakın.
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Adventure Works temasında satın alma kutusu modülü tanım uzantıları
+
+Adventure Works temasının sağladığı satın alma kutusu modülü, bir ürün özellikleri modülünün, bir PDP satı alma kutusundaki akordeyon modülünde uygulanmasını destekleyen bir modül tanımı uzantısına sahiptir. Bir PDP satın alma kutusundaki ürün özelliklerini sergilemek için, satın alma kutusu yuvasındaki akordeyon modülü yuvasına bir ürün özelliği modülü ekleyin.
+
 
 > [!IMPORTANT]
-> **Sepete ürün ekle** site ayarları Dynamics 365 Commerce 10.0.11 sürümünde bulunabilir. Dynamics 365 Commerce'nin eski sürümlerinden birini güncelleştiriyorsanız, appSettings. json dosyasını el ile güncelleştirmeniz gerekir. AppSettings.json dosyasını güncelleştirme yönergeleri için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> Adventure Works teması Dynamics 365 Commerce Sürüm 10.0.20 itibarıyla kullanılabilir.
 
-Aşağıdaki resimde fabrikam sitesindeki "Sepete eklenen" onay bildirimine bir örnek gösterilmektedir.
-
-![Bildirim modülü örneği](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Ticari ölçek birim etkileşimi
 
@@ -133,6 +130,11 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 
 [Sosyal paylaşım modülü](social-share-module.md)
 
+[Sepete ürün ekle ayarları](add-cart-settings.md)
+
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
 
 [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

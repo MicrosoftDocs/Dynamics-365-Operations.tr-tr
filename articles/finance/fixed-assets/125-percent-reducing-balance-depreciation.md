@@ -1,12 +1,10 @@
 ---
 title: Yüzde 125 azalan bakiyeli amortisman
-description: Bu makale, amortismanın Yüzde 125 Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
-author: saraschi2
-manager: AnnBe
+description: Bu konu, amortismanın yüzde 125 azalan bakiye yöntemi hakkında genel bir bakış sunar.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9511917d72a1bb45daf2ce7e4b56d94c17825daf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969240"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883530"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>Yüzde 125 azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, amortismanın Yüzde 125 Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
+Bu konu, amortismanın yüzde 125 azalan bakiye yöntemi hakkında genel bir bakış sunar.
 
 Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%125 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. Bu yüzde, sabit kıymetin servis ömrü temel alınarak hesaplanır. Örneğin, bir sabit kıymetin beş yıllık servis ömrü varsa, yüzde 25 (%125 ÷ 5) olarak hesaplanır.
 
@@ -66,7 +64,7 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>%125 azalan bakiyeli amortisman örneği
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Alım maliyeti               | 11.000 |
 | Hurda değeri                  | 1.000  |
@@ -87,3 +85,6 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

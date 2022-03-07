@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 803b4d8b287f2b0dc523654e3e1852209f4ea039
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573549"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500487"
 ---
 # <a name="process-review-and-post-rebates"></a>İndirimleri işleme, inceleme ve deftere nakletme
 
@@ -309,10 +309,10 @@ Provision, indirim veya silme hareketlerini işledikten sonra, tüm anlaşmalar 
 
 ### <a name="review-journals-by-using-the-rebate-deals-list-page"></a>İndirim anlaşmaları listesi sayfasını kullanarak günlükleri inceleme
 
-İndirim yönetimi ile ilişkili yevmiye defteri girişlerini gözden geçirmek için aşağıdaki adımları izleyin.
+İndirim yönetimi ile ilişkili günlük girişlerini gözden geçirmek için aşağıdaki adımları izleyin.
 
 1. Çalışmak istediğiniz işlem türü için uygun [indirim anlaşmaları listesi sayfasını](rebate-management-deals.md) açın.
-1. Yevmiye defteri girişlerini incelemek için anlaşmayı seçin.
+1. Günlük girişlerini incelemek için anlaşmayı seçin.
 1. Eylem bölmesinde, **indirim yönetimi anlaşmaları** sekmesinde, **İşlemler** grubunda, bakmak istediğiniz işlem türüne bağlı olarak **İşlemler** veya **Garanti işlemleri**'ni seçin.
 1. **Göster** alanını *Tümü* veya *Deftere Nakledildi* olarak ayarlayın.
 1. İncelemek istediğiniz işlem koleksiyonunu bulun ve seçin, sonra eylem bölmesinde, aşağıdaki düğmelerden birini seçin. (Bu düğmeler yalnızca seçili işlem koleksiyonu için ilgili deftere nakil varsa kullanılabilir.)

@@ -2,35 +2,30 @@
 title: Derecelendirmelere ve inceleme modülleri
 description: Bu konu, Microsoft Dynamics 365 Commerce'un ürün ayrıntıları sayfalarında kullanılan derecelendirmeleri ve İnceleme modüllerini kapsamaktadır.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66ee2d4185cad45b70b19fb474c64ae77a2868e835b20d5275e21610c0150370
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761574"
 ---
 # <a name="ratings-and-reviews-modules"></a>Derecelendirmelere ve inceleme modülleri
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'un ürün ayrıntıları sayfalarında (PDP'ler) kullanılan derecelendirmeleri ve İnceleme modüllerini kapsamaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 E-ticaret web sitelerindeki derecelendirmeler ve incelemeler, müşterilere bir satın alma kararı vermeden önce ürünler hakkında bilgi edinmesine yardımcı olur ve ürünlerle ilgili müşteri geribildirimi toplama mekanizmasıdır. 
 
@@ -47,19 +42,23 @@ Derecelendirme çubuk grafikleri ve ürün değerlendirmeleri, PDP'ler gösteril
  
 Aşağıdaki şekil, bir PDP'de derecelendirmelerin ve gözden geçirme modüllerinin nasıl göründüğünü gösterir.
 
-![PDP'de derecelendirmelere ve inceleme modülleri](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![PDP'de derecelendirmelere ve inceleme modülleri.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > PDP şablonlarını ve düzenlerini en iyi duruma getirme hakkında bilgi için (böylece e-ticaret sitenizde birden çok PDC arasındaki derecelendirme ve değerlendirme modülleriyle ilgili yapılandırmaları paylaşabilirsiniz) [şablonlar ve mizanpajlara genel bakış](templates-layouts-overview.md) konularına bakın.
 
 Aşağıdaki şekil, **Modül Ekle** iletişim kutusunun Dynamics 365 Commerce'te derecelendirmeyi ve İnceleme modüllerini nasıl sunduğunu gösterir.
-![Modül Ekle iletişim kutusu](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Modül Ekle iletişim kutusu.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Gözden geçirme yazma modülü
 
 İnceleme yazma modülü, kullanıcıların bir ürünü oturum açmalarını, derecelendirmesine ve bir ürün incelemesi yazmalarına olanak tanıyan bir **inceleme yaz** düğmesi içerir. Bu modül ayrıca kullanıcıların daha önceden gönderdikleri bir derecelendirme veya gözden geçirmelerini sağlar. Bu modül, bir PDP üzerinde genellikle derecelendirme çubuk grafiği ve ürün incelemeleri liste modüllerinin üzerinde görünür.
 Aşağıdaki şekil, bir müşteri **gözden geçirme yaz** 'ı seçtiğinde beliren bir **gözden geçirme yazma** iletişim kutusunu göstermektedir. Müşteri bu iletişim kutusunu, bir derecelendirme ve İnceleme göndermek için kullanabilir.
-![İnceleme yaz iletişim kutusu](media/rnr-eCommerce-write-review-module.png) Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken yazma İnceleme modülünü gösterir.
+
+![Gözden geçirme iletişim kutusu yazma.](media/rnr-eCommerce-write-review-module.png)
+
+Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken yazma İnceleme modülünü gösterir.
+
 | Özellik adı | Değer        | Özellik açıklaması                 |
 |---------------|--------------|--------------------------------------|
 | Dosya Adı          | İnceleme yaz | İnceleme yazma modülünün adı. |
@@ -68,7 +67,7 @@ Aşağıdaki şekil, bir müşteri **gözden geçirme yaz** 'ı seçtiğinde bel
 
 Derecelendirmeler çubuk grafik modülü bir derecelendirme çubuk grafik gösterir. Bu modül tipik olarak, bir PDP üzerindeki İnceleme yazma modülü ile ürün değerlendirmeleri listesi modülü arasında görüntülenir.
 Derecelendirme çubuk grafiği modülü için konfigürasyon gerekmez. Modülü PDP şablonuna eklemeniz yeterlidir. Aşağıdaki çizimler, PDP'lerde görüntülenmek üzere derecelendirmeler ve incelemeler modülleri yapılandırıldığında bir PDP şablonunun Dynamics 365 Commerce içinde nasıl göründüğünü gösterir.
-![PDP'lerde görüntülenmek üzere derecelendirme ve İncelemeler yapılandırıldığında PDP şablonu](media/rnr-eCommerce-pdp-reviews-modules.png)
+![PDP'lerde görüntülenmek üzere derecelendirme ve İncelemeler yapılandırıldığında PDP şablonu.](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Ürün değerlendirmeleri liste modülü
 
@@ -83,7 +82,7 @@ Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken ürün 
 
 Ürün değerlendirmeleri listesi modülü, bir derecelendirme çubuk grafiği modülü ekleyebileceğiniz bir yuva içerir. Aşağıdaki şekil, Dynamics 365 Commerce'teki Ürün İncelemeleri listesi modülünde bir derecelendirme çubuk grafiği modülünü nasıl ekleyekullanabileceğinizi gösterir .
 
-![Ürün eleştiriler listesi modülünde derecelendirme çubuk grafiği modülü ekleme](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Ürün eleştiriler listesi modülünde derecelendirme çubuk grafiği modülü ekleme.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -100,3 +99,6 @@ Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken ürün 
 [Üst bilgi modülü](author-header-module.md)
 
 [Alt bilgi modülü](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,31 +2,27 @@
 title: Ambar yönetimi ile Fiili ağırlık ürün işlemi
 description: Bu konuda ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c263fdcf7fdf2888e1c66e7e2b67d8b26729128c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439659"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907631"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>Özellik tanıtımı
 
@@ -44,7 +40,7 @@ Lisans yapılandırma anahtarı açıldıktan sonra serbest bırakılan bir ür�
 - Fiili ağırlık biriminin en düşük stok tutma birimi (SKU) olarak tanımlandığı bir birim sıra grubu ayarlayın.
 - Fiili ağırlık öge işleme ilkesi ayarlayın.
 
-Daha fazla bilgi için bkz. [Fiili ağırlık ögeleri ayarlamak ve bakımı](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items)'na bakın.
+Daha fazla bilgi için bkz. [Fiili ağırlık ögeleri ayarlamak ve bakımı](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items)'na bakın.
 
 ## <a name="transaction-adjustments"></a>Hareket ayarlamaları
 
@@ -53,7 +49,7 @@ Stokun ambara girdiğindeki ağırlığı, stokun ambardan çıktığındaki ağ
 > [!NOTE]
 > Mobil cihaz faaliyeti, yalnızca maddenin fiili ağırlık kalem işleme ilkesinin Giden ağırlık farkı yöntemi **Ağırlık farkına izin ver** olduğu zaman hareket düzeltmelerini tetikler.
 
-**Örnek 1**
+### <a name="example-1"></a>Örnek 1
 
 **Tamamlandı olarak raporla** üretim işlemi sırasında, sekiz kutu fiili ağırlık ürün içeren bir plakanın giriş ağırlığının 80,1 kg olarak yakalandı olarak raporlanmıştır. Plaka tamamlanmış ürünler bölgesine depolandığında, depolama süresi boyunca ağırlığın bir miktarı havaya karışır.
 
@@ -61,7 +57,7 @@ Daha sonra, satış siparişi çekme işleminin bir parçası olarak, aynı plak
 
 Bu durumda, sistem farkı eksik 0,3 kg için bir hareket naklederek farkı otomatik olarak ayarlar.
 
-**Örnek 2**
+### <a name="example-2"></a>Örnek 2
 
 Tanımında, bir ürün minimum ağırlık olan 8 kg'ı ve maksimum ağırlık olan 12 kg'ı **Kutu** fiili ağırlık birimi için tolere etmek üzere ayarlanır.
 
@@ -107,7 +103,7 @@ Ek olarak, bir kalem etiket izlemeliyse bir **Giden etiketi yakalama yöntemi** 
 **Bir fiili ağırlık etiketi izleme kullanılıyorsa**, bir etiketin her zaman alınan her bir fiili ağırlık birimi için oluşturulması ve her bir etiketin her zaman bir ağırlık ile ilişkilendirilmesi gerekir.
 
 Örneğin **Kutu** fiili ağırlık birimidir ve sekiz kutudan oluşan bir palet alırsınız. Bu durumda, sekiz benzersiz fiili ağırlık etiketinin oluşturulması ve bir ağırlığın her bir etiket ile ilişkilendirilmesi gerekir. Giriş fili ağırlık etiketine bağlı olarak, tüm sekiz kutunun ağırlığı yakalana bilir ve ortalama ağırlık her bir kutuya dağıtılabilir veya benzersiz bir ağırlık her bir kutu için yakalanır.
-**Üretim emirlerini tamamlandı olarak raporlarken mevcut fiili ağırlık etiketlerini kullan** özelliği bir mobil cihaz menü öğesi aracılığıyla etkinleştirilen işlemle birlikte kullanıldığında, stok mevcut fiili ağırlık etiketi bilgilerine göre güncelleştirilir. Sonuç olarak, Ambarlama uygulaması, tamamlanmış bir işlem olarak üretim raporunun bir parçası olarak fiili ağırlık etiket verilerini yakalamayı istemez.
+**Üretim emirlerini tamamlandı olarak raporlarken mevcut fiili ağırlık etiketlerini kullan** özelliği bir mobil cihaz menü öğesi aracılığıyla etkinleştirilen işlemle birlikte kullanıldığında, stok mevcut fiili ağırlık etiketi bilgilerine göre güncelleştirilir. Sonuç olarak, Ambar Yönetimi mobil uygulaması, tamamlanmış bir işlem olarak üretim raporunun bir parçası olarak fiili ağırlık etiket verilerini yakalamayı istemez.
 
 **Fiili ağırlık etiketi izleme kullanılmıyorsa**, ağırlık her bir boyut kümesi için yakalanabilir (örneğin her bir plaka ve izleme boyutu için). Alternatif olarak, ağırlık birleştirilmiş düzeye dayanarak toplanabilir, örneğin beş plaka gibi (palet).
 
@@ -195,7 +191,11 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 
 ### <a name="catch-weight-tags"></a>Fiili ağırlık etiketleri
 
-Bir fiili ağırlık etiketi bir ambar uygulaması işlemi kullanılarak, formda el ile veya bir veri varlığı işlemiyle oluşturulabilir. Bir fiili ağırlık etiketi bir gelen kaynak belgesi satırıyla (örneğin bir satınalma siparişi satırı vb.) ilişkilendirilirse, etiket kaydedilir. Satır giden işlem için kullanılıyorsa, etiket sevk edilmiş olarak güncelleştirilir.
+Bir fiili ağırlık etiketi bir Ambar Yönetimi mobil uygulaması işlemi kullanılarak, **Ambar yönetimi > Sorgular ve raporlar > Fiili ağırlık etiketi** formunda el ile veya bir veri varlığı işlemiyle oluşturulabilir. Bir fiili ağırlık etiketi bir gelen kaynak belgesi satırıyla (örneğin bir satınalma siparişi satırı vb.) ilişkilendirilirse, etiket kaydedilir. Satır giden işlem için kullanılıyorsa, etiket sevk edilmiş olarak güncelleştirilir. **Fiili ağırlık etiketi** sayfasındaki **fiili ağırlık etiketi kaydı** seçeneğini kullanarak, tarihsel tüm fiili ağırlık etiketi kayıt olaylarını görüntüleyebilirsiniz.
+
+Fiili ağırlık etiketinin ağırlık değerini el ile güncelleştirmek için **etiketin kaydedilen ağırlığını değiştir** seçeneğini kullanabilirsiniz. Eldeki stokla ilgili ağırlığın bu el ile gerçekleştirilen işlemin bir parçası olarak ayarlanmayacağını unutmayın; ancak Şu anda etkin olan fiili ağırlık etiketleri ile geçerli stok arasındaki tutarsızlıkları aramak için, **fiili ağırlık etiketli maddeler için eldeki tutarsızlıklar** sayfasını kolay bir şekilde kullanabilirsiniz.
+
+El ile gerçekleştirilen diğer seçenekler etiketi kaynak belge satırına **kaydetmek** ve mevcut ambar çalışmasına göre **işi kaydetmektir**.
 
 Fiili ağırlık ürünleri için geçerli olan kısıtlamalara ek olarak, etiketli fiili ağırlık ürünleri için geçerli olan başka kısıtlamalar da vardır.
 
@@ -210,3 +210,6 @@ Fiili ağırlık ürünleri için geçerli olan kısıtlamalara ek olarak, etike
 
 > [!NOTE]
 > Fiili ağırlık etiketleriyle ilgili önceki bilgiler, yalnızca, fiili ağırlık ürününde, tamamen izlenen bir fiili ağırlık etiketi boyut izleme yöntemi olduğu zaman (yani, fiili ağırlık kalemi işleme ilkesindeki **Fiili ağırlık etiket boyutu izleme yöntemi** parametresinin ayarı **Ürün boyutları, izleme boyutları ve tüm depolama boyutları** olduğu zaman) geçerlidir. Fiili ağırlık kalemi yalnızca kısmi etiket izlemeli olduğu zaman (yani, fiili ağırlık kalemi işleme ilkesindeki **Fiili ağırlık etiketi boyut izleme yöntemi** parametresinin ayarı **Ürün boyutları, izleme boyutları ve Stok Durumu** olduğu zaman) ek sınırlamalar uygulanır. Bu durumda, etiket ile stok arasında görünürlük kaybolduğu için bazı ek senaryolar desteklenmez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

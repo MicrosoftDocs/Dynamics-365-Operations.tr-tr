@@ -2,15 +2,12 @@
 title: İzin ve devamsızlık türlerini yapılandırma
 description: Dynamics 365 Human Resources'ta çalışanların götürebileceği izin tiplerini ayarlayın.
 author: andreabichsel
-manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e6ca7d04b86232ba48474fcbe288a18995661ae
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 63970f69a437864675eada975c54446325fb60e2
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420911"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639594"
 ---
 # <a name="configure-leave-and-absence-types"></a>İzin ve devamsızlık türlerini yapılandırma
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği çeşitli türde devamsızlıkları tanımlayabilir. İzin tiplerini kuruluşunuzun gereksinimlerine göre uyarlayabilirsiniz. İzin türleri örnekleri:
 
@@ -72,13 +71,47 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
    
  3. İzin türü için **ileriye doğru izin türü** ayarlayın. Bu seçeneği belirlediğinizde, tüm ileri düzey bakiyeleri belirtilen izin türüne aktarılır. İleriye yönelik izin türü de, bırak ve devamsızlık planına dahil edilmesi gerekir. 
  
- 4. İzin türü için **süre sonu kurallarını** tanımlayın. Bu seçeneği konfigüre ettiğinizde, gün veya ay birimini seçebilir ve bitiş tarihi için süreyi ayarlayabilirsiniz. Ayrıca, sona erme kuralının geçerlilik tarihini ayarlayabilirsiniz. Bitiş tarihinde varolan tüm izin bakiyeleri izin dışında bırakılacak ve bırakma bakiyesine yansıtılır. 
+4. İzin türü için **süre sonu kurallarını** tanımlayın. Bu seçeneği yapılandırdığınızda, gün veya ay birimini seçebilir ve bitiş tarihi için süreyi ayarlayabilirsiniz. Sona erme kuralının geçerlilik tarihi, izin süresinin dolmasını işleyen toplu işlemin ne zaman çalıştırılmaya başlayacağını veya kuralın ne zaman geçerli olacağını belirlemek için kullanılır. Süre sonunun kendisi her zaman tahakkuk dönemi başlangıç tarihinde gerçekleşir. Örneğin, tahakkuk dönemi başlangıç tarihi 3 Ağustos 2021 ise ve sona erme kuralı 6 ay olarak ayarlanmışsa, kural tahakkuk dönemi başlangıç tarihinden sona erme süresi mahsubu temel alınarak işlenir. Bu durumda 3 Şubat 2022'de yürütülecektir. Bitiş tarihinde varolan tüm izin bakiyeleri izin dışında bırakılacak ve bırakma bakiyesine yansıtılır.
  
- 
+## <a name="configure-the-required-attachment-per-leave-type"></a>İzin türü başına gerekli eki yapılandırma
+
+> [!NOTE]
+> **Ek gerekli** alanını kullanmak için önce Özellik yönetiminde **(Önizleme) İzin talepleri için gerekli eki yapılandırma** özelliğini açmalısınız. Önizleme özelliklerini açma hakkında daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
+
+1. **İzin ve devamsızlık** sayfasında, **Bağlantılar** sekmesinde, **Kurulum** altında **İzin ve devamsızlık türleri**'ni seçin.
+
+2. Listeden bir izin ve devamsızlık türü seçin. Ardından, **Genel** bölümünde, bir çalışan seçili izin türü için yeni bir izin talebi gönderdiğinde ekin yüklenmesi gerekip gerekmediğini belirtmek için **Ek gerekli** alanını kullanın. 
+
+Çalışanların, **Ek gerekli** alanının etkinleştirildiği bir izin türüne sahip yeni bir izin talebi gönderdiklerinde bir ek yüklemeleri gerekecektir. İzin talebi kapsamında yüklenen eki görüntülemek için izin talebini onaylayanlar kendilerine atanan iş öğeleri için **Ekler** seçeneğini kullanabilir. Microsoft Teams'deki Human Resources uygulaması kullanılarak bir izin talebine erişilirse izin talebi için **Ayrıntıları görüntüle** seçeneği, ayrıntılarını ve eklerini görüntülemek için kullanılabilir.
+
+## <a name="configure-leave-units-hoursdays-per-leave-type"></a>İzin türü başına izin birimlerini (saat/gün) yapılandırma
+
+> [!NOTE]
+> İzin türü başına izin birimleri işlevini kullanmak için önce Özellik yönetiminde **(Önizleme) İzin birimi başına izin birimlerini yapılandırma** özelliğini açmanız gerekir. Önizleme özelliklerini açma hakkında daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
+
+> [!IMPORTANT]
+> Varsayılan olarak, bir tüzel kişilikteki izin türleri, izin parametrelerinin tüzel kişilik düzeyindeki yapılandırmasındaki izin birimlerini kullanır.
+> 
+> İzin ve devamsızlık türünün izin birimi, yalnızca bu izin türü için izin hareketi yoksa değiştirilebilir.
+> 
+> Özellik, açıldıktan sonra kapatılamaz.
+
+1. **İzin ve devamsızlık** sayfasında, **Bağlantılar** sekmesinde, **Kurulum** altında **İzin ve devamsızlık türleri**'ni seçin.
+
+2. Listeden bir izin ve devamsızlık türü seçin. Ardından, **Genel** bölümünde, **Birim** alanında, izin birimini seçin. **Saat** veya **Gün**'ü seçebilirsiniz.
+
+3. İsteğe bağlı: **Birim** alanında **Saat**'i seçtiyseniz çalışanların yarım günlük izin talep etmeleri durumunda ilk yarım günü mü yoksa ikinci yarım günü mü seçebileceğini belirtmek için **Yarım gün tanımını etkinleştir** alanını kullanabilirsiniz.
+
+Yeni bir izin talebi gönderen çalışanlar, izin taleplerini oluşturmak için farklı izin türleri seçebilirler. Ancak, tek bir izin talebinin parçası olarak seçilen tüm izin türleri aynı izin birimine sahip olmalıdır. Çalışanlar, her izin türü için izin birimini **İzin talebinde bulunma** formunda görüntüleyebilir.
+
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık planı oluşturma](hr-leave-and-absence-plans.md)
 - [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md)
-- [İzni askıya alma](hr-leave-and-absence-suspend-leave.md)
+- [İzni askıya al](hr-leave-and-absence-suspend-leave.md)
+- [İzin satın alma ve satma isteği iş akışı oluşturma](hr-leave-and-absence-buy-sell-workflow.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,38 +1,35 @@
 ---
 title: Abonelik gruplarını ayarla
 description: Abonelik grupları ayarlayın.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a98d096c0eec6b1d585856b63113fd6dd60c0a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 05ee9d8f5ae517aae2e6dcfef3ec5488904f666a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438971"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580276"
 ---
 # <a name="set-up-subscription-groups"></a>Abonelik gruplarını ayarla 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  **Hizmet yönetimi** \> **Kurulum** \> **Servis abonelikleri** \> **Abonelik grupları**'na tıklayın.
+1.  **Hizmet yönetimi** \> **Kurulum** \> **Servis abonelikleri** \> **Abonelik grupları**'na gidin.
 
-2.  Yeni abonelik grubu oluşturmak için CTRL+N tuşlarına basın veya **Yeni**'yi tıklatın.
+2.  Yeni bir abonelik grubu oluşturmak için **Yeni**'yi seçin.
 
 3.  **Abonelik grubu** alanına, yeni abonelik grubu için açıklayıcı bir ad girin.
 
@@ -49,3 +46,6 @@ ms.locfileid: "4438971"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Model yönetimi yaşam döngüsü
+title: Model yönetimi yaşam döngüsü (önizleme)
 description: Bu konu, oluşturdukları tahminleri en iyi duruma getirmek için kuruluşunuzun makine öğrenme modellerini yönetme yollarını açıklamaktadır.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: c84f0a6079d7e599ed1f3e44c26c625e548c06d5a91447c46fc722ce6a6cf414
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741572"
 ---
-# <a name="model-management-lifecycle"></a>Model yönetimi yaşam döngüsü
+# <a name="model-management-lifecycle-preview"></a>Model yönetimi yaşam döngüsü (önizleme)
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,4 +32,4 @@ Yapay zeka modelini bir korumalı alan ortamında eğitmenizi ve sonra bunu üre
 
 Yapay zeka modeli mevcut fatura ve müşteri verilerini temel aldığından, korumalı alan ortamının üretim verilerinin en son kopyası olması önemlidir. [Müşteri ödeme tahminlerini kullan](use-customer-payment-predictions.md) adımlarını izleyerek modelinizin eğitimi yapmaya başlayabilirsiniz. Model yeniden elde eğitildikten sonra, [Başlangıçtaki müşteri ödeme tahmini modelini değerlendir](evaluate-payment-prediction.md) konusunda açıklandığı gibi sonuçları değerlendirin. Modeli geliştirmeye yardımcı olabilecek özellik ve filtre birleşimlerini denemek için [tahmin modelini geliştirme](improve-model.md) içindeki bilgileri kullanın.
 
-Eğitim sonuçları istediğiniz gibi olduğunda, modeli üretim ortamınıza aktarmak için [AI modelinizi dağıtma](/ai-builder/distribute-model) adımlarını izleyin.
+Eğitim sonuçları istediğiniz gibi olduğunda, modeli üretim ortamınıza aktarmak için [AI modelinizi dağıtma](https://docs.microsoft.com/ai-builder/distribute-model) adımlarını izleyin.

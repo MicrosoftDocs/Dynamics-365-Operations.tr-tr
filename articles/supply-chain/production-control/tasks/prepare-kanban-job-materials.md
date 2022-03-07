@@ -2,27 +2,24 @@
 title: Malzemeler iş hücresi için kullanılabilir olduğunda bir süreç kanban işi hazırlama
 description: Bu görev, tüm malzemeler iş hücresi için kullanılabilir olduğunda bir kanban işi hazırlamaya odaklanır.
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd6d5add4d11c917a705e88d10b589e2c43fab89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 460d55a8c4b8a8401db7abc43721cf0d114c27c5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439108"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807836"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Malzemeler iş hücresi için kullanılabilir olduğunda bir süreç kanban işi hazırlama
 
@@ -42,3 +39,6 @@ Bu görev, tüm malzemeler iş hücresi için kullanılabilir olduğunda bir kan
 6. Hazırla'ya tıklayın.
     * Hazırlama işlemi şimdi tamamlandı. Seçili malzeme çekme listesindeki tüm satırlar için seçili onay kutusu, tedarik durumunun çekilmiş olduğunu gösterir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

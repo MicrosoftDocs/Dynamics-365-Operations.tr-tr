@@ -2,15 +2,12 @@
 title: Derecelendirme ve incelemeleri yönetme
 description: Bu konu, Microsoft Dynamics 365 Commerce site oluşturucuda derecelendirmelerin ve incelemelerin nasıl yönetileceğini açıklamaktadır.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416448"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968239"
 ---
 # <a name="manage-ratings-and-reviews"></a>Derecelendirme ve incelemeleri yönetme
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce site oluşturucuda derecelendirmelerin ve incelemelerin nasıl yönetileceğini açıklamaktadır.
-
-## <a name="overview"></a>Genel bakış
 
 Dynamics 365 Commerce, kötü sözcükleri düzenleyerek metni otomatik olarak gözden geçirmek için Microsoft Azure öğretici hizmeti kullanır. Ayrıca, Moderatörler  Dynamics 365 Commerce site oluşturucuyu kullanarak aşağıdaki el ile görevleri uygulayabilir:
 
@@ -48,7 +43,7 @@ Commerce site oluşturucuda bir inceleme okumak için aşağıdaki adımları iz
 
 Ek filtreler, gözden geçirmeleri dönem, derecelendirme, kanal veya ilgi durumu (kapalı, yanıtlanan veya rapor edilen) ile sınırlamanıza olanak sağlar.
 
-![Düzenleme giriş sayfası](media/rnr-moderation-home.png) 
+![Düzenleme giriş sayfası.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>İncelemeyi yanıtlama 
 
@@ -62,7 +57,7 @@ Commerce site oluşturucuda bir incelemeyi yanıtlamak için aşağıdaki adıml
 1. Yanıt metnini ve Yanıtlayıcı için gösterilmesi gereken adı girin. Varsayılan Yanıtlayıcı adı **moderatör**'dür.
 1. Tamamladıktan sonra **Yanıt gönder**'i seçin.
 
-![İncelemeyi yanıtlama](media/rnr-moderation-response.png) 
+![İncelemeyi yanıtlama.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Bir inceleme atın 
 
@@ -85,7 +80,7 @@ Commerce site oluşturucuda müşteri verilerini bulmak ve silmek için aşağı
 1. Müşterinin herhangi bir gözden geçirme faaliyeti varsa (örneğin, gönderimleri gözden geçirin, başka bir müşterinin incelemelerinin yardım veya başka bir müşterinin inceliğindeki Yorumlar hakkında oy varsa), sonuçlar gösterilir. Her madde için **Sil** düğmesi bulunur.
 1. Silinmesi gereken her bir madde için **Sil**'i seçin. Onaylamanız istendiğinde **Evet**'i seçin. 
     
-![Müşteri verilerini silme](media/rnr-moderation-delete-reviews.png) 
+![Müşteri verilerini silme.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Verilerin sistemden tümüyle kaldırılması yedi gün kadar sürebilir. Moderatörler müşterileri bu gecikmeyle bilgilendirmelidir.
@@ -109,26 +104,37 @@ Commerce site oluşturucuda dereceledirmeler ve incelemeler eğilimlerini görme
 1. **Ev \> Gözden geçirmeler \> Raporlama**'ya gidin.
 1. Şablonu indirmek için **PowerBI şablonu** seçin.
 
-    ![Power BI şablonunu indirme](media/rnr-moderation-reports.png) 
+    ![Power BI şablonunu indirme.](media/rnr-moderation-reports.png) 
 
 1. Power BI uygulamayı kullanarak karşıdan yüklenen şablonu açın. Görüntülenen **Web içeriğine erişim** iletişim kutusunu kapatın ve sonra da görüntülenen "Yenile" hata iletisini kapatın.
 1. **Giriş** sayfasına gidin, **Düzenle sorgular**'ı seçin ve sonra **veri kaynağı ayarlarını** seçin.
 1. **Veri kaynağı ayarları** iletişim kutusunda **kaynağı değiştir** 'i seçin.
 1. **URL** alanına önceki yordama indirdiğiniz İnceleme verilerinin yolunu girin (örneğin, **c:\\incelemeler\\İncelemelerVerileri.csv**).
 
-    ![Virgülle ayrılmış değerler iletişim kutusundaki URL alanı](media/rnr-powerbi-datasource-settings.png) 
+    ![Virgülle ayrılmış değerler iletişim kutusundaki URL alanı.](media/rnr-powerbi-datasource-settings.png) 
 
 1. **Tamam** seçin ve daha sonra **Değişiklikleri uygulay**'ı seçin. Değişikliklerinizi veri kaynağına uygulamak için iki dakika arasında bir süre sürer.
 1. Derecelendirmeleri ve İnceleme eğilimlerini görüntülemek için **eğilim sayfası** seçin.
 
-    ![Derecelendirmelere ve incelemeler trendleri](media/rnr-powerbi-dashboard-template.png) 
+    ![Derecelendirmelere ve incelemeler trendleri.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Derecelendirme ve incelemelere genel bakış](ratings-reviews-overview.md)
+[Derecelendirmelere ve incelemelere genel bakış](ratings-reviews-overview.md)
 
 [Derecelendirme ve incelemeleri kullanmayı kabul etme](opt-in-ratings-reviews.md)
 
 [Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
 
 [Dynamics 365 Retail'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+[Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme](manual-publish-rating-reviews.md)
+
+[Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma](import-export-reviews.md)
+
+[Hizmetten hizmete kimlik doğrulamasını yapılandırma](service-to-service-auth.md)
+
+[Derecelendirmeler ve incelemelerle ilgili SSS](ratings-reviews-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

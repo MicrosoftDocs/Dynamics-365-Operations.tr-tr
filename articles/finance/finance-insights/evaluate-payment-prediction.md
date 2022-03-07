@@ -2,33 +2,29 @@
 title: İlk müşteri ödeme tahmini modelini değerlendirme (önizleme)
 description: Bu konu, müşteri ödeme tahmin modelini anlamak ve verimliliğini değerlendirmek için gerçekleştirebileceğiniz adımları açıklamaktadır.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d761e31c4e4169b09711e351948390d2d40f3739
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: f45392d540b6696d23261a6b2197c3185f5ede2b7c646f6b751480145dcacfdc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768879"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>İlk müşteri ödeme tahmini modelini değerlendirme (önizleme)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konu, Mali İçgörüleri etkinleştirdikten ve ilk modelinizi oluşturup eğittikten sonra bir tahmin modelinin nasıl değerlendirileceğini açıklamaktadır. Bu konu, müşteri ödemelerini tahmin etmeye yönelik modelleri ele almaktadır. Müşteri ödeme tahmin modelini anlamak ve verimliliğini değerlendirmek için gerçekleştirebileceğiniz adımları açıklamaktadır.
 
@@ -36,32 +32,32 @@ Bu konu, Mali İçgörüleri etkinleştirdikten ve ilk modelinizi oluşturup eğ
 
 Microsoft Dynamics 365 Finance'teki **Mali içgörüler parametreleri** sayfasında, doğruluk puanının yanında bir **Model doğruluğunu iyileştir** bağlantısı gösterilir.
 
-[![Model doğruluğunu iyileştir bağlantısı](./media/prediction-model.png)](./media/prediction-model.png)
+[![Model doğruluğunu iyileştir bağlantısı.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Bu bağlantı sizi, geçerli model hakkında daha fazla bilgi edinebileceğiniz AI Builder'a götürür ve modeli iyileştirmeye yönelik adımları içerir. Aşağıdaki şekilde açılan sayfa gösterilir.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Açılan sayfada aşağıdaki bilgiler gösterilir:
 
-- **Performans** bölümünde, model performans derecesi modelin kalitesiyle ilgili bir bakış açısı sağlar. Bu derece hakkında daha fazla bilgi için AI Builder belgelerindeki [Tahmin modeli performansı](https://docs.microsoft.com/ai-builder/prediction-performance) konusuna bakın.
+- **Performans** bölümünde, model performans derecesi modelin kalitesiyle ilgili bir bakış açısı sağlar. Bu derece hakkında daha fazla bilgi için AI Builder belgelerindeki [Tahmin modeli performansı](/ai-builder/prediction-performance) konusuna bakın.
 - **En etkili veri** bölümü modeliniz için farklı giriş türlerinin ne kadar önemli olduğunu gösterir. Bu listeyi ve ilgili yüzdeleri, bilgilerin işletmeniz ve pazarınızla ilgili olarak mevcut bilgilerinizle tutarlı olup olmadığını belirlemek için değerlendirebilirsiniz.
 
-    [![Tahmin modeli için Performans ve En etkili veri bölümleri](./media/models.png)](./media/models.png)
+    [![Tahmin modeli için Performans ve En etkili veri bölümleri.](./media/models.png)](./media/models.png)
 
 - **Performans** bölümünde, derece ve diğer hususlar hakkında daha fazla bilgi edinmek için **Ayrıntıları göster**'i seçin. Aşağıdaki şekilde, ayrıntılar modelin önerilenden daha az bilgi kullandığını göstermektedir. Bu nedenle, sistem bir uyarı iletisi oluşturmuştur.
 
-    [![Model performansı ile ilgili uyarılar](./media/details.png)](./media/details.png)
+    [![Model performansı ile ilgili uyarılar.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Daha ayrıntılı bilgi
 
 Doğruluk modeli değerlendirmek için iyi bir başlangıç noktası olsa da, performans derecesi bakış açısı sunar, AI Builder değerlendirme için kullanabileceğiniz daha ayrıntılı ölçümler sunar. Ayrıntıları indirmek için **Performans** bölümünde **Modeli kullan** düğmesinin yanındaki üç nokta düğmesini (**...**) seçin ve ardından **Ayrıntılı ölçümleri indir**'i seçin.
 
-[![Ayrıntılı ölçümleri indir komutu](./media/performance.png)](./media/performance.png)
+[![Ayrıntılı ölçümleri indir komutu.](./media/performance.png)](./media/performance.png)
 
 Aşağıdaki şekilde, verileri indirebileceğiniz biçim gösterilmektedir.
 
-[![İndirilen verilerin biçimi](./media/data-format.png)](./media/data-format.png)
+[![İndirilen verilerin biçimi.](./media/data-format.png)](./media/data-format.png)
 
 Sonuçların daha ayrıntılı analizi için "Karışıklık Matrisi" ölçümünü incelemek iyi bir başlangıç noktasıdır. Örneğin, bir önceki şekildeki bu ölçüm için gösterilen verileri burada görebilirsiniz.
 
@@ -69,7 +65,7 @@ Sonuçların daha ayrıntılı analizi için "Karışıklık Matrisi" ölçümü
 
 Bu verileri aşağıdaki şekilde genişletebilirsiniz.
 
-|                          | Zamanında tahmini | Geç tahmini | Çok geç tahmini |
+| &nbsp;                   | Zamanında tahmini | Geç tahmini | Çok geç tahmini |
 |--------------------------|-------------------|----------------|---------------------|
 | Gerçek zamanında ödeme   | **71**            | 0              | 21                  |
 | Gerçek geç ödeme      | 5                 | **0**          | 27                  |
@@ -99,5 +95,4 @@ Bu durumda, yaklaşık yüzde 49,3 oranındaki F1 Makro puanı modelin, makul ö
 
 Tahmin modellerinin nasıl değerlendirileceği hakkında daha fazla bilgi için: [Makine öğrenimi modellerinin sonuçları](/confusion-matrix.md)
 
-#### <a name="privacy-notice"></a>Gizlilik bildirimi
-Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

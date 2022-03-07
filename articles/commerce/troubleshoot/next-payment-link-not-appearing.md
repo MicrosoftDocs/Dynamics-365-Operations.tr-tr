@@ -5,6 +5,7 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4887cde3e4243ae7a4da6402782e69e780ae20331ed80df63ba1239ef5187e41
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e3156d1aa9a05dc5d159b6f9b33ae341de640bf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769283"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801711"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>"Sonraki ödemelerim için kaydet" seçeneği görünmüyor
 
@@ -34,9 +35,9 @@ Bu konu, bir e-ticaret sitesinin ödeme sayfasında **ödeme yöntemi** altında
 
 Aşağıdaki resimde **sonraki ödemelerim için kaydet** onay kutusunun yer aldığı bir ödeme sayfası örneği gösterilmektedir.
 
-![Ödeme modülündeki sonraki ödemelerim için kaydet onay kutusu.](media/payment-module-save-payment.jpg)
+![Ödeme modülündeki sonraki ödemelerim için kaydet onay kutusu](media/payment-module-save-payment.jpg)
 
-## <a name="resolution"></a>Çözüm
+## <a name="resolution"></a>Çözünürlük
 
 ### <a name="verify-that-the-dynamics-365-payment-connector-for-adyen-is-correctly-configured-in-commerce-headquarters"></a>Commerce Headquarters'da Adyen için Dynamics 365 Paymet Connector'ın doğru yapılandırıldığını doğrulayın
 
@@ -46,7 +47,7 @@ Commerce Headquarters'da Adyen için Dynamics 365 Paymet Connector'ın doğru ya
 1. Çevrimiçi mağazayı seçin.
 1. **Ödeme Hesapları** hızlı sekmesinde, **e-ticarette ödeme bilgilerinin kaydedilmesine izin ver** alanındaki değerin **Doğru** olarak ayarlandığından emin olun.
 
-![Commerce Headquarters'da e-ticaret alanında ödeme bilgilerinin kaydedilmesine izin verme.](media/payment-connector-save-payment.jpg)
+![Commerce Headquarters'da e-ticaret alanında ödeme bilgilerinin kaydedilmesine izin verme](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

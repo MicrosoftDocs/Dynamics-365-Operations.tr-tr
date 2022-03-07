@@ -11,18 +11,19 @@ ms.technology: ''
 ms.search.form: EntAssetWorkerResponsible
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 137ed393f28131262584d5a2ae414092b124ea0e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 113ee2b45c569c7dae3609f1027e31c4e5e5c54a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021967"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439408"
 ---
 # <a name="responsible-maintenance-workers"></a>Sorumlu bakım görevlileri
 

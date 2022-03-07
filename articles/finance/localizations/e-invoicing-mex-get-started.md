@@ -1,42 +1,39 @@
 ---
-title: Meksika için Elektronik faturalama eklentisini kullanmaya başlangıç
-description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management ile Meksika için Elektronik faturalama eklentisini kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
+title: Meksika için Elektronik faturalamayı kullanmaya başlama
+description: Bu konu, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6d15a79a359b3c708b2b33893d700377a57c3eb7
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512246"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840064"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Meksika için Elektronik faturalama eklentisini kullanmaya başlangıç
+# <a name="get-started-with-electronic-invoicing-for-mexico"></a>Meksika için Elektronik faturalamayı kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Meksika için elektronik faturalama eklentisi, şu anda Comprobante Fiscal Digital por Internet (CFDI) belgesindeki kullanılabilir ve Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management üzerinde oluşturulan ilgili tümleştirmelerde tüm işlevleri desteklemeyebilir.
+> Meksika için elektronik faturalama şu anda Comprobante Fiscal Digital por Internet (CFDI) belgesindeki kullanılabilir ve Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management üzerinde oluşturulan ilgili tümleştirmelerde tüm işlevleri desteklemeyebilir.
 
-Bu konu, Meksika için Elektronik faturalama eklentisini kullanmaya başlamanıza yardımcı olacak bilgiler içerir. Regulatory Configuration Services (RCS) ve Finance için ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Ayrıca, servis üzerinden CFDI faturalarını göndermek için Finance'de izlemeniz gereken adımlarda size yol gösterir ve işlem sonuçlarının nasıl gözden geçirileceğini ve CFDI faturalarının durumunu açıklamaktadır.
+Bu konu, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir. Regulatory Configuration Services (RCS) ve Finance için ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Ayrıca, servis üzerinden CFDI faturalarını göndermek için Finance'de izlemeniz gereken adımlarda size yol gösterir ve işlem sonuçlarının nasıl gözden geçirileceğini ve CFDI faturalarının durumunu açıklamaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu konudaki adımları gerçekleştirmeden önce, [elektronik faturalama eklentisini kullanmaya başlama](e-invoicing-get-started.md) adımlarını tamamlamanız gerekir.
+Bu konudaki adımları gerçekleştirmeden önce, [elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) adımlarını tamamlamanız gerekir.
 
 ## <a name="rcs-setup"></a>RCS kurulumu
 
@@ -48,7 +45,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 4. CFDI faturalarını işlemek için e-faturalama özelliğini yayınlayın.
 
 > [!NOTE]
-> "E-faturala özelliği", Elektronik faturalama eklenti sunucusunu kullanmak üzere yapılandırılmış ve yayımlanmış olan kaynağın genel adıdır. Bu durumda, CFDI faturaları (MX), ayarlayacağınız e-faturalama özelliğidir.
+> "E-faturala özelliği", Elektronik faturalama sunucusunu kullanmak üzere yapılandırılmış ve yayımlanmış olan kaynağın genel adıdır. Bu durumda, CFDI faturaları (MX), ayarlayacağınız e-faturalama özelliğidir.
 
 ## <a name="import-the-e-invoicing-feature"></a>E-faturalama özelliğini içe aktarma
 
@@ -154,9 +151,9 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 
 ![E-faturalama özelliğinin durumunu değiştirme](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance"></a>Finance'de Elektronik faturalama eklentisi tümleştirmesi kurulumu
+## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Finance'de Elektronik faturalama tümleştirmesi kurulumu
 
-Finance içindeki Elektronik faturalama eklentisini ayarlamak için şu görevleri tamamlayacaksınız:
+Finance içindeki Elektronik faturalamayı ayarlamak için şu görevleri tamamlayacaksınız:
 
 1. ER veri modelini, ER veri modeli eşleştirmesini ve CFDI faturaları için gereken biçimleri içe aktarın.
 2. CFDI faturalarını güncelleştirmek için yanıt tiplerini yapılandırın. Bu yanıt türleri yetkili sertifika sağlayıcı (PAC) sunucusundan yanıt olarak kullanılır.
@@ -195,7 +192,7 @@ Finance içindeki Elektronik faturalama eklentisini ayarlamak için şu görevle
     - **Müşteri fatura günlüğü** için **Müşteri fatura bağlamı**'nı girin.
     - **Proje faturası** için **Proje fatura bağlamı**'nı girin.
 
-4. Elektronik faturalama eklentisinden döndürülecek ve bir müşteri fatura günlüğünde veya proje faturasına dahil edilen yanıt türlerini yapılandırmak için **Yanıt türleri**'ni seçin.
+4. Elektronik faturalamadan döndürülecek ve bir müşteri fatura günlüğünde veya proje faturasına dahil edilen yanıt türlerini yapılandırmak için **Yanıt türleri**'ni seçin.
 5. **Yeni**'yi seçin ve sonra **Yanıt türü** alanında, **Yanıt**'ı seçin.
 6. **Gönderim durumu** alanında, **Bekliyor**'u seçin.
 7. **Model eşleme** alanında, **Yanıt iletisi içe aktarma biçimi - Yanıt iletisinden model eşlemesi** ögesini seçin.
@@ -207,7 +204,7 @@ Finance içindeki Elektronik faturalama eklentisini ayarlamak için şu görevle
 
 ## <a name="process-electronic-invoices-in-finance"></a>Finance içindeki elektronik faturaları işleme 
 
-Elektronik faturalama eklentisi ile Finance içindeki CFDI faturalarının işlenmesi sırasında aşağıdaki görevleri gerçekleştirebilirsiniz:
+Elektronik faturalama ile Finance içindeki CFDI faturalarının işlenmesi sırasında aşağıdaki görevleri gerçekleştirebilirsiniz:
 
 - CFDI faturalarını gönderin.
 - Gönderme yürütme günlüklerine bakın.
@@ -215,7 +212,7 @@ Elektronik faturalama eklentisi ile Finance içindeki CFDI faturalarının işle
 
 ### <a name="submit-cfdi-invoices"></a>CFDI faturalarını gönderme
 
-**Yapılandırılabilir Elektronik faturalama eklenti tümleştirmesi** özelliğini açtıktan sonra, **CFDI faturalarını göndermek için Elektronik faturayı dışa/içe aktar** işlemi (**Alacak hesapları \> Fatura \> E-faturalar**) artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
+**Yapılandırılabilir Elektronik faturalama tümleştirmesi** özelliğini açtıktan sonra, **CFDI faturalarını göndermek için Elektronik faturayı dışa/içe aktar** işlemi (**Alacak hesapları \> Fatura \> E-faturalar**) artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
 
 > [!NOTE]
 > Yeni **Elektronik belge gönder** işlemini kullanmadan önce, Meksika e-faturaları için gerekli olan kurulumun tamamlandığını doğrulayın. Daha fazla bilgi için bkz. [CFDI düzen sürümü 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
@@ -227,7 +224,7 @@ Elektronik faturalama eklentisi ile Finance içindeki CFDI faturalarının işle
 ![Bir CFDI belgesi gönderme](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
-> Servis aracılığıyla ilk belgeyi gönderme denemeniz sırasında, Elektronik faturalama eklentisi ile bağlantıyı onaylamanız istenecektir. **Elektronik Belge Gönderme Hizmetine bağlanmak için burayı tıklayın** ögesini seçin.
+> Servis aracılığıyla ilk belgeyi gönderme denemeniz sırasında, Elektronik faturalama ile bağlantıyı onaylamanız istenecektir. **Elektronik Belge Gönderme Hizmetine bağlanmak için burayı tıklayın** ögesini seçin.
 
 ### <a name="view-submission-logs"></a>Gönderme günlüklerini görüntüleme
 
@@ -235,7 +232,7 @@ Gönderme günlüklerini gönderilen tüm belgelerin veya yalnızca gönderilen 
 
 #### <a name="view-all-submission-logs"></a>Bütün gönderme günlüklerini görüntüleme
 
-**Yapılandırılabilir Elektronik faturalama eklenti tümleştirmesi** özelliğini açtıktan sonra, belge gönderme işlemini takip etmenizi sağlayan yeni bir sayfa kullanılabilir. Gönderilen tüm belgelerin gönderme günlüklerini görüntülemek için bu sayfayı kullanabilirsiniz.
+**Yapılandırılabilir Elektronik faturalama tümleştirmesi** özelliğini açtıktan sonra, belge gönderme işlemini takip etmenizi sağlayan yeni bir sayfa kullanılabilir. Gönderilen tüm belgelerin gönderme günlüklerini görüntülemek için bu sayfayı kullanabilirsiniz.
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönderme günlüğü** sayfasına gidin.
 2. **Belge türü** alanında, gerekli elektronik belgelerle ilgili olarak filtre uygulamak için **Müşteri fatura günlüğü** seçeneğini belirleyin.
@@ -250,26 +247,26 @@ Gönderme günlüklerindeki bilgiler üç hızlı sekme arasında bölünür:
 
 - **İşleme eylemleri**: Bu hızlı sekmede, RCS'de ayarlanan özellik sürümünde yapılandırılan eylemler için yürütme günlükleri gösterilmektedir. **Durum** sütunu eylemin başarıyla çalıştırılıp çalıştırılmadığını gösterir.
 - **Eylem dosyaları**: Bu hızlı sekme, eylemlerin yürütülmesi sırasında oluşturulan ara dosyaları gösterir. Dosyayı indirmek ve görüntülemek için **Görünüm** öğesini seçebilirsiniz.
-- **İşleme eylem günlüğü**: Bu hızlı sekmede, elektronik faturalama eklentisi ve hedef Web servisi arasındaki iletişimin sonuçları gösterilir. Ayrıca Web servis işlemi tarafından döndürülen sonuçları da gösterir. **Hata kodu** sütunu, yetkilendirme Web hizmeti tarafından döndürülen dönüş kodunu gösterir.
+- **İşleme eylem günlüğü**: Bu hızlı sekmede, elektronik faturalama ve hedef Web servisi arasındaki iletişimin sonuçları gösterilir. Ayrıca Web servis işlemi tarafından döndürülen sonuçları da gösterir. **Hata kodu** sütunu, yetkilendirme Web hizmeti tarafından döndürülen dönüş kodunu gösterir.
 
 Gönderilen CFDI faturası yetkilendirilirse, durumu **Onaylandı** olarak güncelleştirilir.
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>CFDI faturalarından gönderme günlüklerini görüntüleme
 
-**Yapılandırılabilir Elektronik faturalandırma eklentisi tümleştirme** özelliğini açtıktan sonra, tüm CFDI faturalarından gönderme günlüklerini de görüntüleyebilirsiniz.
+**Yapılandırılabilir Elektronik faturalandırma tümleştirme** özelliğini açtıktan sonra, tüm CFDI faturalarından gönderme günlüklerini de görüntüleyebilirsiniz.
 
 1. **Alacak hesapları \> Sorgulamalar ve raporlar \> CFDI (elektronik faturalar)** seçeneğine gidin.
-2. **Yapılandırılabilir Elektronik faturalama eklentisi tümleştirme** özelliği etkinleştirildikten sonra gönderilen bir CFDI faturası seçin.
+2. **Yapılandırılabilir Elektronik faturalama tümleştirme** özelliği etkinleştirildikten sonra gönderilen bir CFDI faturası seçin.
 3. Eylem Bölmesi'ndeki **Geçmiş** sekmesinde, **Elektronik belge günlüğü**'nü seçin.
 
 ![CFDI faturalarından gönderme günlüklerini görüntüleme](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
-> **Yapılandırılabilir Elektronik faturalama eklentisi tümleştirme** özelliği açılmadan önce gönderilen CFDI faturaları için **Geçmiş** düğmesi kullanılabilir. **Yapılandırılabilir Elektronik faturalama eklentisi tümleştirme** özelliği açıldıktan sonra gönderilen CFDI faturaları için **Geçmiş** düğmesi kullanılamaz.
+> **Yapılandırılabilir Elektronik faturalama tümleştirme** özelliği açılmadan önce gönderilen CFDI faturaları için **Geçmiş** düğmesi kullanılabilir. **Yapılandırılabilir Elektronik faturalama tümleştirme** özelliği açıldıktan sonra gönderilen CFDI faturaları için **Geçmiş** düğmesi kullanılamaz.
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>CFDI faturalarına ait iptal gönderme
 
-**Yapılandırılabilir Elektronik faturalama eklentisi tümleştirmesi** özelliği etkinleştirildikten sonra, CFDI faturalarını iptal etmek için kullanılan eski işlem artık kullanılamaz. **Elektronik belge gönderme günlüğü** sayfasına katıştırılmış yeni bir iptal işlemi ile değiştirilir.
+**Yapılandırılabilir Elektronik faturalama tümleştirmesi** özelliği etkinleştirildikten sonra, CFDI faturalarını iptal etmek için kullanılan eski işlem artık kullanılamaz. **Elektronik belge gönderme günlüğü** sayfasına katıştırılmış yeni bir iptal işlemi ile değiştirilir.
 
 1. **Alacak hesapları \> Sorgulamalar ve raporlar \> CFDI (elektronik faturalar)** seçeneğine gidin.
 2. CFDI faturası **Onaylandı** durumundaysa, **İşlevler \> CFDI'yi iptal et** ögesini seçin.
@@ -292,10 +289,13 @@ Gönderilen CFDI faturası yetkilendirilirse, durumu **Onaylandı** olarak günc
     ![İptal gönderim günlüğü detaylarını görüntüleme](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
-MX-00010 ve MX-00016 (CFDI Fatura ve CFDI İptali) özelliklerinin etkinleştirilmesi, kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bir yönetici, **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** sayfasına giderek MX-00010 ve MX-00016 (CFDI Fatura ve CFDI İptal) özelliklerini etkinleştirebilir ve devre dışı bırakabilir. **Özellikler** sekmesini seçin, MX-00010 ve MX-00016 özelliklerini içeren satırları seçin ve sonra uygun seçimi yapın. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.
+**CFDI Meksika elektronik fatura (MX)** özelliğinin etkinleştirilmesi kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bir yönetici, **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** sayfasına giderek **CFDI Meksika elektronik fatura (MX)** özelliğini etkinleştirebilir ve devre dışı bırakabilir. **Özellikler** sekmesini seçin, **CFDI Meksika elektronik fatura (MX)** özelliğini içeren satırları seçin ve sonra uygun seçimi yapın. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Elektronik faturalama eklentisine genel bakış](e-invoicing-service-overview.md)
-- [Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-get-started.md)
-- [Elektronik faturalamayı eklentisini kurma](e-invoicing-setup.md)
+- [Elektronik faturalamaya genel bakış](e-invoicing-service-overview.md)
+- [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md)
+- [Elektronik faturalamayı ayarlama](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

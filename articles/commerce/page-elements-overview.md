@@ -2,27 +2,25 @@
 title: Sayfa modeli sözlüğü
 description: Bu konu, bir Microsoft Dynamics 365 Commerce sitesinin sayfalarında kullanılan çeşitli öğeleri açıklamaktadır.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5c772a19958ebf0687d09af4c3055c733d99d750
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c5ec6dfd9147fd5e054303b4fd612caef78b7467d7f6f4850e46fcc9fb1346f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758324"
 ---
 # <a name="page-model-glossary"></a>Sayfa modeli sözlüğü
 
@@ -64,3 +62,6 @@ Aşağıdaki tabloda sitenizin görünümünü, hissini ve içeriğini değişti
 [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
 
 [Site gezintisini özelleştirme](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

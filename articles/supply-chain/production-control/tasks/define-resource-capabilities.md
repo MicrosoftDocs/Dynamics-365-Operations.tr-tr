@@ -1,28 +1,25 @@
 ---
 title: Kaynak yeteneklerini tanımlama
 description: Kaynak yetenekleri, kaynağın hangi işlemleri yapabileceğini açıklar.
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c07d3fe1969f3baea484991e74f668eade813d78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 42451da0bd465ce3a18ecf18570f3331847474c1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438998"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579124"
 ---
 # <a name="define-resource-capabilities"></a>Kaynak yeteneklerini tanımlama
 
@@ -49,3 +46,6 @@ Kaynak yetenekleri, kaynağın hangi işlemleri yapabileceğini açıklar. Planl
 5. Düzey alanına bir sayı girin.
     * Bir iş veya operasyonun belirli bir yetenek gerektirdiğini belirttiğinizde, gerekli olan en düşük düzeyi de belirtebilirsiniz. Aynı işi farklı hızda, güçte ve boyutta yapabilecek kaynakları birbirinden ayırmak için yetenek düzeyini kullanın.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

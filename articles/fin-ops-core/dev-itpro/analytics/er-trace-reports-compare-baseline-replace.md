@@ -1,12 +1,10 @@
 ---
-title: Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
-description: Bu konu, 10.0.3 (Haziran 2019) sürümünde ER temel özelliklerinin Microsoft Dynamics 365 for Finance and Operations'da nasıl geliştirildiği hakkında bilgi sağlar.
+title: Oluşturulan ER raporları sonuçlarının izlenmesini temel değerlerle karşılaştırmak için iyileştirme
+description: Bu konuda, Microsoft Dynamics 365 for Finance and Operations 10.0.3 sürümündeki (Haziran 2019) ER temel özelliğiyle ilgili iyileştirmeler açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682859"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117047"
 ---
-# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Oluşturulan ER raporları sonuçlarının izlenmesini temel değerlerle karşılaştırmak için iyileştirme
 
 [!include[banner](../includes/banner.md)]
 
@@ -59,7 +57,7 @@ Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçla
 
 Temel, seçilmiş **ER temellerini öğrenme biçimi** formatında eklendi ancak temel kuralları bu temel için henüz eklenmedi.
 
-![Elektronik raporlama biçimi temelleri sayfası](media/GER-BaselineSample-AddBaseline2.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
+![Elektronik raporlama biçimi temelleri sayfası, henüz kural yok](media/GER-BaselineSample-AddBaseline2.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
 
 ### <a name="make-a-new-baseline-rule"></a>Yeni temel kuralı oluştur
 
@@ -72,7 +70,7 @@ Temel, seçilmiş **ER temellerini öğrenme biçimi** formatında eklendi ancak
 7. **Tamam**'ı seçin.
 8. **Temelleri** seçin.
 
-    ![Elektronik raporlama biçimi temelleri sayfası](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
+    ![Elektronik raporlama biçimi temelleri sayfası, temeller seçili](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
 
     Oluşturulan giden dosya otomatik olarak yürütülen ER biçiminin temeline iliştirildi. Temel kuralı bu temele otomatik olarak eklendi ve eklenen dosyaya referans da içeriyor.
 
@@ -130,7 +128,7 @@ Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçla
 3. Temel listesinde, **ER temellerini öğrenme biçimi**'ni yapılandırmak üzere biçim için yapılandırılan temeli seçin.
 4. Daha önce yapılandırdığınız **Temeller** hızlı sekmesinde temel kuralını kaldırmak için **Sil**'i seçin.
 
-![Elektronik raporlama biçimi temelleri sayfası](media/GER-BaselineSample-AddBaseline3.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
+![Elektronik raporlama biçimi temelleri sayfası, silindi](media/GER-BaselineSample-AddBaseline3.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Tasarlanan ER biçiminin bağlaması için değişiklikleri tanımlama
 
@@ -138,7 +136,7 @@ Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçla
 2. Biçim bileşenleri ağacında **Çıktı**'yı genişletin, **Çıktı\\Belge**'yi genişletin ve sonra onay kutusunu **Çıktı\\Belge\\ProcessingDateTime** için seçin.
 3. **Tamam**'ı seçin.
 
-![Elektronik raporlama biçimi temelleri sayfası](media/GER-BaselineSample-AddBaseline4.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
+![Elektronik raporlama biçimi temelleri sayfası, bileşenler](media/GER-BaselineSample-AddBaseline4.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
 
 Seçilen ER biçim bileşeni, **Değişiklikler** hızlı sekmesindeki bileşenler listesine eklenmiştir. Taban ER biçimi hata ayıklama modunda çalıştırıldığında, her bileşen için biçimin bağlaması, **Bağlama** sütununda gösterilen bağlama ile değiştirilir. **Değişiklikler** hızlı sekmesinde listelenen bir bileşenin varsayılan bağlamasını değiştirmek için, **Düzenle**'yi seçin.
 
@@ -207,3 +205,6 @@ Geçerli belge yönetimi ayarları ve seçili belge türü temel alınarak Micro
 
 - [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md)
 - [Görev kaydedici kaynakları](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

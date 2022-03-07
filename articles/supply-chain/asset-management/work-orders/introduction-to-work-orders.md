@@ -1,28 +1,26 @@
 ---
 title: İş emirlerine giriş
 description: Bu konuda, Varlık Yönetimi'ndeki iş emirleribe genel bir bakış sağlanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754716"
 ---
 # <a name="introduction-to-work-orders"></a>İş emirlerine giriş
 
@@ -53,7 +51,7 @@ ms.locfileid: "5021892"
 
 Aşağıdaki örnekte **Tüm iş emirleri** liste sayfasının bir örneği gösterilmektedir.
 
-![Şekil 1](media/01-work-orders.png)
+![Şekil 1.](media/01-work-orders.png)
 
 Yalnızca etkin iş emirlerinin listesini görmek için **Varlık yönetimi** > **Genel** > **İş emirleri** > **Etkin İş emirleri**'ni seçin. 
 
@@ -71,7 +69,7 @@ Aşağıda, **Tüm iş emirleri** sayfasını kullanabileceğiniz bazı yönteml
 
 Aşağıdaki örnekte **Tüm iş emirleri** ayrıntıları görünümünün bir örneği gösterilmektedir.
 
-![Şekil 2](media/02-work-orders.png)
+![Şekil 2.](media/02-work-orders.png)
 
 
 Eylem Bölmesi'ndeki düğmeler sekmeler halinde düzenlenmiştir. Aşağıdaki tabloda Varlık Yönetimiyle ilgili düğmeler kısaca açıklanmaktadır.
@@ -118,3 +116,6 @@ Eylem Bölmesinin **İş emri** sekmesindeki **Proje** grubundaki düğmeler **P
 >[!NOTE]
 >Bir iş emrinde oluşturulan tahminleri, Master planlama çalıştırılırken dahil etmek için **Varlık yönetimi parametreleri** sayfasında seçilen tahmin modelini kullanın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

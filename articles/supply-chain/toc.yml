@@ -4,39 +4,11 @@
       items:
         - name: Dynamics 365 Supply Chain Management giriş sayfası
           href: index.md
-        - name: Yenilikler veya değişiklikler
+        - name: Kullanmaya başlama
           items:
-            - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
-              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Supply Chain Management'taki yenilikler veya değişiklikler
-              items:
-                - name: Supply Chain Management'taki yenilikler veya değişiklikler giriş sayfası
-                  href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.25 (Nisan 2022)
-                  href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (Şubat 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (Ocak 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
-            - name: Kaldırılan veya kullanım dışı bırakılan özellikler
-              items:
-                - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özellikler
-                  href: get-started/removed-deprecated-features-scm-updates.md
-                - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Ertelenen AX 2012 özellikleri
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Kullanmaya başlayın
-          items:
-            - name: Hizmet açıklaması
-              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: Satın almadan önce
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Önizleme aboneliklerine kaydolma
+            - name: Önizleme abonelikleri için kaydolma
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
             - name: One Version hizmet güncelleştirmeleri
               items:
@@ -88,6 +60,34 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Fransa'daki Finance and Operations uygulamaları
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Yenilikler veya değişiklikler
+              items:
+                - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Supply Chain Management'taki yenilikler veya değişiklikler
+                  items:
+                    - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
+                      href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.20 (Ağustos 2021)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (Haziran 2021)
+                      href: get-started/whats-new-scm-10-0-19.md
+                - name: Kaldırılan veya kullanım dışı bırakılan özellikler
+                  items:
+                    - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özellikler
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Ertelenen AX 2012 özellikleri
+                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
+                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Belge kaynakları
               items:
                 - name: Yardım sistemi
@@ -96,7 +96,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Özel yardıma genel bakış
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Alan açıklamalarını görüntüleme ve dışarı aktarma
+                - name: Alan açıklamalarını görüntüleme ve dışa aktarma
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Görev Kaydedici
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/supply-chain/toc.json
@@ -104,6 +104,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Videolar
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Sözlük
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: Öğrenme kataloğu
               items:
                 - name: Öğrenme kataloğu giriş sayfası
@@ -174,7 +176,7 @@
               items:
                 - name: Uygulama yaşam döngüsü yönetimi giriş sayfası
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations uygulamaları için mimari
+                - name: Finance and Operations uygulamaları mimarisi
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/
@@ -208,36 +210,16 @@
               items:
                 - name: Genelleştirme hizmetlerine genel bakış
                   href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service (RCS)
+                - name: Regulatory Configuration Service
                   items:
-                    - name: Regulatory Configuration Service'e (RCS) genel bakış
+                    - name: Regulatory Configuration Service'e genel bakış
                       href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service (RCS) - Genelleştirme özellikleri
+                    - name: Regulatory Configuration Service - Globalleştirme özellikleri
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service'te (RCS) ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
+                    - name: Regulatory Configuration Service'te ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service (RCS) – Lifecycle Services deposu kullanımdan kaldırılıyor
+                    - name: Regulatory Configuration Service – Lifecycle Services deposu kullanımdan kaldırılıyor
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER yapılandırmalarını Supply Chain Management'a indirme
-                      items:
-                        - name: RCS'den yapılandırmaları indirme
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Yapılandırmaları RCS'den içeri aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Genel depo (GR)
-                      items:
-                        - name: Yapılandırmaları GR'den içeri aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Yapılandırmaları GR'ye yükleme
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: GR'de yapılandırmaları paylaşma
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: RCS Genel deposundaki yapılandırmaları durdurma
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektronik Faturalama
                   items:
                     - name: Elektronik Faturalamaya genel bakış
@@ -252,7 +234,7 @@
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Kullanım yönetimi panosu
                       href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Kullanmaya başlayın
+                    - name: Kullanmaya başlama
                       items:
                         - name: Elektronik Faturalama hizmet yönetimini kullanmaya başlama
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
@@ -280,7 +262,7 @@
                       href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
                       href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Birden çok KDV kayıt numarası
+                    - name: Çoklu KDV kayıt numarası
                       href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Ana veri arama için ortam ayarlama
                       href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
@@ -298,18 +280,16 @@
                   items:
                     - name: Satıcıdan alınan transitteki mallar
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Dağıtılmış karma topoloji
+        - name: Bulut ve uç
           items:
-            - name: Dağıtılmış karma topolojideki ölçek birimleri
+            - name: Üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri
               href: cloud-edge/cloud-edge-landing-page.md
-            - name: LBD kullanarak özel donanımda uç ölçek birimleri dağıtma
+            - name: LBD kullanarak özel donanımda kenar ölçek birimleri dağıtma
               href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
               href: cloud-edge/cloud-edge-workload-warehousing.md
-            - name: Bulut ve uç ölçek birimleri için Warehouse Management mobil uygulamasını yapılandırma
-              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
             - name: Bulut ve uç ölçek birimleri için ambar emirleri
               href: cloud-edge/cloud-edge-warehouse-order.md
             - name: Ambar stoku düzeltmesi
@@ -561,7 +541,7 @@
               href: ../finance/general-ledger/tasks/create-account-structures.md?toc=/dynamics365/supply-chain/toc.json
             - name: Bütçelemeye genel bakış
               href: ../finance/budgeting/basic-budgeting-overview-configuration.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Boyut oluşturma ve boyut üyelerini içeri aktarma
+            - name: Boyut oluşturma ve boyut üyelerini içe aktarma
               href: ../finance/cost-accounting/cost-dimension.md?toc=/dynamics365/supply-chain/toc.json
             - name: Maliyet öğesi boyutları
               href: ../finance/cost-accounting/cost-elements.md?toc=/dynamics365/supply-chain/toc.json
@@ -709,10 +689,8 @@
                   href: cost-management/inventory-close.md
                 - name: Eldeki stoğun maliyet değerlerini ayarlama
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Stok değeri raporları
+                - name: Stok değeri depolama raporu
                   href: cost-management/inventory-value-report-storage.md
-                - name: Stok değeri raporu örnekleri ve mantığı
-                  href: cost-management/inventory-value-report-examples.md
                 - name: Stok yaşlandırma raporu depolama
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Stok yaşlandırma raporu örnekleri ve mantığı
@@ -753,6 +731,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Maliyet yönetimi Power BI içerik paketi
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Maliyet yönetimi sorunlarını giderme
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Raporlama ve Power BI tümleştirmeleri
           items:
             - name: Power BI ile raporlama ve analiz
@@ -885,7 +865,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Hazırlanan ER çözümünü hedef uygulamada test etme
                       items:
-                        - name: Yapılandırmaları RCS'den içeri aktarma
+                        - name: Yapılandırmaları RCS'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
@@ -947,8 +927,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
                     - name: List
                       items:
                         - name: Liste işlevleri
@@ -1217,7 +1195,7 @@
               items:
                 - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
+                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içe aktarma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmalar tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/supply-chain/toc.json
@@ -1227,23 +1205,21 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER çözümleri kullanarak gelen dosyalardan verileri içeri aktarma
+            - name: ER çözümleri kullanarak gelen dosyalardan verileri içe aktarma
               items:
                 - name: Genel belgeleri farklı biçimlerde ayrıştırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/supply-chain/toc.json
-                - name: El ile seçilen dosyalardan veri içeri aktarmayı yapılandırma
+                - name: El ile seçilen dosyalardan veri içe aktarmayı yapılandırma
                   items:
                     - name: Harici XML dosyasından veri aktarmak için yapılandırmalar oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: El ile seçilen dosyalardan toplu iş modunda veri içeri aktarmayı yapılandırma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
-                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içeri aktarmayı yapılandırma
+                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içe aktarmayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Dosyaları XML biçiminde içeri aktarma
+                - name: Dosyaları XML biçiminde içe aktarma
                   items:
-                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içeri aktarma
+                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içeri aktarmak için ER biçimleri yapılandırma
+                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içe aktarmak için ER biçimleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
             - name: Yapılandırma yaşam döngüsü
               items:
@@ -1253,32 +1229,32 @@
                   items:
                     - name: Yapılandırmaları LCS 'ye yükleme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Yapılandırmaları LCS'den içeri aktarma
+                    - name: Yapılandırmaları LCS'den içe aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Yapılandırmaları LCS'den indirme
+                    - name: LCS'den yapılandırmaları indirme
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Yapılandırmaları içeri aktarma (LBD)
+                    - name: Yapılandırmaları içe aktarma (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service (RCS)
+                - name: Regulatory Services (RCS)
                   items:
-                    - name: Regulatory Configuration Service'e (RCS) genel bakış
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: RCS'de genelleştirme özellikleri
+                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER yapılandırmalarını Supply Chain Management'a indirme
                       items:
                         - name: RCS'den yapılandırmaları indirme
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Yapılandırmaları RCS'den içeri aktarma
+                        - name: Yapılandırmaları RCS'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Genel depo (GR)
                       items:
-                        - name: Yapılandırmaları GR'den içeri aktarma
+                        - name: Yapılandırmaları GR'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Yapılandırmaları GR'ye yükleme
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
                         - name: GR'de yapılandırmaları paylaşma
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: RCS Genel deposundaki yapılandırmaları durdurma
@@ -1339,17 +1315,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER uygulamasına özgü parametreleri kullanmak için ARAMA veri kaynaklarını yapılandırma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER biçimlerindeki VERİ TOPLAMA veri kaynaklarını kullanma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Veri kaynaklarında hata ayıklama
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Model eşlemelerini yapılandırma
                   items:
-                    - name: Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
+                    - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1413,8 +1385,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Eyleme bağlı hedefleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Yazdırma yönetimi kaydına özel ER hedeflerini yapılandırma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ER biçimine referans ayarlama
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Oluşturulan raporları otomatik olarak doğrulama
@@ -1463,12 +1433,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Uygulama güncelleştirmesi 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.21
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.23
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.25
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
                     - name: Abone olma işleyicisinden yanıt istemek için bir olaya abone olma
@@ -1479,9 +1443,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kaynak kodundan USER INPUT PARAMETER türünün veri kaynağı değerlerini başlatma
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Kullanıcıların adlandırılmış ER hedeflerini yapılandırmasını ve kullanmasını sağlamak için kodu değiştirme
-                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
-        - name: Stok Yönetimi
+        - name: Stok yönetimi
           items:
             - name: Stok yönetimine genel bakış
               href: inventory/inventory-home-page.md
@@ -1587,6 +1549,8 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: Eldeki stok mobil çalışma alanı
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: Stok işlemleriyle ilgili sorunları giderme
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: Giden işlem
               items:
                 - name: Giden işleme genel bakış
@@ -1608,21 +1572,7 @@
             - name: Stok hareketlerini arşivleme
               href: inventory/archive-inventory-transactions.md
             - name: Stok Görünürlüğü Eklentisi
-              items:
-                - name: Stok Görünürlüğü Eklentisine genel bakış
-                  href: inventory/inventory-visibility.md
-                - name: Stok Görünürlüğünü yükleme ve ayarlama
-                  href: inventory/inventory-visibility-setup.md
-                - name: Stok Görünürlüğünü yapılandırma
-                  href: inventory/inventory-visibility-configuration.md
-                - name: Stok Görünürlüğü uygulamasını kullanma
-                  href: inventory/inventory-visibility-power-platform.md
-                - name: Stok Görünürlüğü rezervasyonları
-                  href: inventory/inventory-visibility-reservations.md
-                - name: Stok Görünürlüğü genel API'leri
-                  href: inventory/inventory-visibility-api.md
-                - name: Stok Görünürlüğü ipuçları
-                  href: inventory/inventory-visibility-tips.md
+              href: inventory/inventory-visibility.md
         - name: IoT Zekası
           items:
             - name: IoT Zekası giriş sayfası
@@ -1651,39 +1601,27 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Planlama Optimizasyonunu kullanmaya başlama
                   href: master-planning/planning-optimization/get-started.md
-                - name: Planlama Optimizasyonu sürüm işlemi ve sürüm geçmişi
-                  href: master-planning/planning-optimization/release-process.md
                 - name: Planlama Optimizasyonu uygunluk analizi
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Yerleşik master planlama ile Planlama Optimizasyonu arasındaki farklar
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Planlama Optimizasyonu tarafından kullanılmayan parametreler
                   href: master-planning/planning-optimization/not-used-parameters.md
-                - name: Tedarik planı
-                  href: master-planning/supply-schedule.md
-                - name: Plana filtre uygulama
+                - name: Plana filtreler uygulama
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Talep tahmini ile master planlama
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Satın alma ticari sözleşmeleri ile master planlama
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Planlama Optimizasyonu tarafından kullanılan tarih ve saat parametreleri
-                  href: master-planning/planning-optimization/date-time-used.md
-                - name: Emniyet marjları
+                - name: Güvenlik marjları
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Gecikme toleransı (negatif günler)
                   href: master-planning/planning-optimization/delay-tolerance.md
-                - name: Satın alma talepleri
+                - name: Satınalma talepleri
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Üretim planlaması
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Sonsuz kapasiteyle planlama
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Yeteneğe dayalı kaynak seçimiyle planlama
-                  href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Önceliğe dayalı planlama
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: Planlama İyileştirmesi ile stok işaretleme
+                - name: Planlama Optimizasyonu ile stok işaretleme
                   href: master-planning/planning-optimization/marking.md
                 - name: Şirketlerarası planlama
                   href: master-planning/planning-optimization/Intercompany-planning.md
@@ -1693,22 +1631,16 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Kapsam zaman dilimleri
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Planlama Optimizasyonu ile net gereksinimler ve ilişkilendirme bilgileri
-                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Planlı siparişleri onaylama
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Kesinleşmiş planlı siparişler
                   href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Basitleştirilmiş planlı siparişler
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Eldeki eksi stok miktarlarıyla planlama
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Plan geçmişini ve planlama günlüklerini görüntüleme
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Planlama işini iptal etme
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Eylem iletileri
-                  href: master-planning/action-messages.md
                 - name: Planlama Optimizasyonu sorunlarını giderme
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Planlama Optimizasyonu genişletilebilirliği
@@ -1733,24 +1665,22 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Maddeler için emniyet stoğu karşılama
                   href: master-planning/safety-stock-replenishment.md
-                - name: Maddelerin minimum kapsamını güncelleştirmek için emniyet stoğu günlüğünü kullanma
-                  href: master-planning/safety-stock-journal.md
                 - name: Gecikmeler
                   href: master-planning/delays.md
                 - name: Master planlama işini iptal etme
                   href: master-planning/cancel-master-planning-job.md
                 - name: Açılım için izlemeyi kullanma
                   href: master-planning/trace-explosion.md
+                - name: Eylem iletileri
+                  href: master-planning/action-messages.md
                 - name: Master planlama çalışmasını izleme
                   href: master-planning/tasks/monitor-master-planning-run.md
-                - name: Tesis için zamanlama oluşturma
+                - name: Tesis için planlama oluşturma
                   href: master-planning/tasks/create-schedule-site.md
                 - name: Tesis için plan oluşturma
                   href: master-planning/tasks/create-plan-site.md
                 - name: Takvimler ve master planlama
                   href: master-planning/supply-chain-calendars-master-planning.md
-                - name: '"Yeterli kapasite bulunamadı" şeklindeki zamanlama altyapısı hatasını giderme'
-                  href: master-planning/not-enough-capacity-error-resolution.md
                 - name: Master planlama performansını iyileştirme
                   href: master-planning/master-planning-performance.md
                 - name: Zamanlama altyapısı performansını iyileştirme
@@ -1777,8 +1707,8 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Giden planlanmış şirketlerarası talebi görüntüleme
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Yerleşik master planlama ile net gereksinimler ve ilişkilendirme bilgileri
-                  href: master-planning/net-requirements-built-in-master-planning.md
+                - name: İç tedarik zinciri müşterileriyle işbirliği yapma
+                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
             - name: Tahmin
               items:
                 - name: Talep ve tedarik tahmini
@@ -1799,7 +1729,7 @@
                       href: master-planning/manual-adjustments-baseline-forecast.md
                     - name: Düzeltilen tahmini yetkilendirme
                       href: master-planning/authorize-adjusted-forecast.md
-                    - name: Talep tahminleri için geçmiş verilerini içeri aktarma
+                    - name: Talep tahminleri için geçmiş verilerini içe aktarma
                       href: master-planning/import-historical-data.md
                     - name: Talep tahminini hesaplarken aykırı değerleri geçmiş hareket verilerinden kaldırma
                       href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
@@ -1811,6 +1741,8 @@
                   items:
                     - name: Tahmin azaltma anahtarları
                       href: master-planning/reduction-keys.md
+            - name: Master planlama sorunlarını giderme
+              href: master-planning/troubleshoot-masterplanning.md
         - name: Mobil uygulama
           items:
             - name: Mobil uygulama giriş sayfası
@@ -1853,15 +1785,15 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/supply-chain/toc.json
             - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
+            - name: Varlık verilerini Excel'de açma ve Excel Eklentisi'ni kullanarak güncelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Excel'de Aç deneyimleri ile ilgili SSS
+            - name: Excel'de Aç deneyimleri oluşturma
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Excel menüsünde Açık satırlara şablon ekleme
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
             - name: Microsoft Office'te Aç menüsünü özelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/supply-chain/toc.json
-            - name: E-postayı yapılandırma ve gönderme
+            - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/supply-chain/toc.json
             - name: E-posta deneyimleri geliştirme
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/supply-chain/toc.json
@@ -1901,8 +1833,6 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Genel adres defterini yapılandırma
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Adres kurulumu
-                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Adres defterleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Adres defterlerini yapılandırma
@@ -2005,9 +1935,9 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/supply-chain/toc.json
             - name: Belge yönetimini yapılandırma
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/supply-chain/toc.json
-            - name: E-postayı yapılandırma ve gönderme
+            - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Tarih/saat verileri ve saat dilimleri
+            - name: Tarih/saat tarih ve saat dilimleri
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Tedarik ve kaynak atama
           items:
@@ -2015,6 +1945,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Tedarik ve kaynak atama iş akışı
               href: procurement/procurement-sourcing-workflows.md
+            - name: Tedarik ve kaynak atama iş akışı ile ilgili sorunları giderme
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Tedarik katalogları
               items:
                 - name: Tedarik kataloglarına genel bakış
@@ -2035,8 +1967,6 @@
                   href: procurement/request-quotations.md
                 - name: Teklif talebi oluşturma
                   href: procurement/tasks/create-request-quotation.md
-                - name: RFQ'lar için kapalı teklif
-                  href: procurement/sealed-bidding.md
                 - name: RFQ kullanan bir talep oluşturma
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: RFQ'lar için puanlama yöntemi oluşturma
@@ -2055,12 +1985,10 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Satınalma siparişi onayı mobil çalışma alanı
                   href: procurement/purchase-order-mobile-workspace.md
-                - name: Dahili kullanım için şirketlerarası satınalma siparişi oluşturma ve faturalama
-                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
-                - name: Şirketlerarası sipariş fiyat farklılıklarını denetleme
-                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Satınalma siparişindeki malların girişini kaydetme
-                  href: procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Satınalma siparişleri ile ilgili sorunları giderme
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Satınalma siparişi oluşturma
               items:
                 - name: Satınalma siparişlerini el ile oluşturma
@@ -2083,14 +2011,16 @@
                   href: procurement/tasks/create-requisition-consumption.md
             - name: 'Fiyatlar, iskontolar ve indirimler'
               items:
-                - name: Satınalma sözleşmeleri
+                - name: Satın alma sözleşmeleri
                   href: procurement/purchase-agreements.md
-                - name: Satınalma sözleşmesi oluşturma
+                - name: Satın alma sözleşmesi oluşturma
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Otomatik gider tahsisatı
                   href: procurement/automatic-charges-allocation.md
                 - name: Satıcı indirimleri
                   href: procurement/vendor-rebates.md
+                - name: 'Fiyatlar, iskontolar, sözleşmeler ve indirimler ile ilgili sorunları giderme'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Satınalma ilkeleri
               items:
                 - name: Satınalma ilkelerine genel bakış
@@ -2105,6 +2035,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Satıcı faturalarına genel bakış
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Ürün girişleri ve faturalama ile ilgili sorunları giderme
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Satıcı yönetimi ve işbirliği
               items:
                 - name: Satıcı işbirliğini ayarlama ve koruma
@@ -2133,7 +2065,7 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Satıcı banka hesabı bilgilerini koruma
                   href: ../finance/accounts-payable/maintain-vendor-bank-info.md
-                - name: Satıcı kataloglarını içeri aktarma
+                - name: Satıcı kataloglarını içe aktarma
                   href: procurement/vendor-catalogs-import.md
                 - name: PunchOut e-tedariki için harici katalog ayarlama
                   href: procurement/set-up-external-catalog-for-punchout.md
@@ -2155,12 +2087,10 @@
               items:
                 - name: Proje kaynak bilgilerini ayarlama
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Proje bütçesi iş akışı oluşturma ve gönderme
+                - name: Proje bütçelerini gönderme ve onaylama
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Proje bütçe revizyonlarını gönderme ve onaylama
                   href: procurement/tasks/submit-approve-project-budget-revision.md
-            - name: Tedarik ile ilgili SSS
-              href: procurement/procurement-faq.md
         - name: Ürün bilgileri yönetimi
           items:
             - name: Ürün bilgilerine genel bakış
@@ -2255,6 +2185,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: Ürün reçetesi hesaplamaları
                   href: cost-management/bom-calculations.md
+                - name: Ürün bilgileriyle ilgili sorunları giderme
+                  href: pim/troubleshooting-productinformation.md
             - name: Ürün yapılandırması
               items:
                 - name: Ürün yapılandırmasına genel bakış
@@ -2315,13 +2247,13 @@
                       href: pim/attribute-based-product-configurator.md
                     - name: Ürün yapılandırma modelini onaylama
                       href: pim/tasks/approve-product-configuration-model.md
-                    - name: Ürün modelleri için veri aktarma
+                    - name: Ürün modelleri için verileri aktarma
                       href: pim/tasks/transfer-data-product-models.md
-            - name: Ürün bilgileri yönetimi ile ilgili SSS
-              href: pim/product-information-faq.md
-        - name: Mühendislik değişikliği yönetimi
+                - name: Ürün yapılandırıcısı sorunlarını giderme
+                  href: pim/troubleshooting-productconfigurator.md
+        - name: Mühendislik değişim yönetimi
           items:
-            - name: Mühendislik değişikliği yönetimine genel bakış
+            - name: Mühendislik değişim yönetimine genel bakış
               href: engineering-change-management/product-engineering-overview.md
             - name: Mühendislik değişim yönetimi özelliğini gözden geçirme
               href: engineering-change-management/engineering-scenarios.md
@@ -2349,8 +2281,6 @@
               href: engineering-change-management/product-readiness.md
             - name: Ürün serbest bırakma yapısı
               href: engineering-change-management/release-product-structure.md
-            - name: Mühendislik ürünleri için çeşit oluşturma
-              href: engineering-change-management/engineering-variants.md
             - name: Mühendislik değişim yönetimi hakkında SSS
               href: engineering-change-management/change-management-faq.md
         - name: Üretim denetimi
@@ -2365,9 +2295,7 @@
               href: production-control/unified-job-ids.md
             - name: Kalite emirleri oluşturmak için proses otomasyon akışlarını çağırma
               href: production-control/process-automation-quality-orders.md
-            - name: Üçüncü taraf üretim yürütme sistemleriyle tümleştirme
-              href: production-control/mes-integration.md
-            - name: Aralıklı üretim
+            - name: Kesikli üretim
               items:
                 - name: Üretim ana verilerini koruma
                   items:
@@ -2447,7 +2375,19 @@
                       href: production-control/release-production-orders.md
                     - name: Üretim emirlerini tamamlandı olarak bildirme
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Cihazlar için iş kartını yapılandırma
+                    - name: Üretim katı yürütme arabirimini ayarlama ve kullanma
+                      items:
+                        - name: Üretim katı yürütme arabirimini yapılandırma
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Üretim katı yürütme arabirimini tasarlama
+                          href: production-control/production-floor-execution-tabs.md
+                        - name: Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
+                          href: production-control/production-floor-execution-use.md
+                        - name: Üretim katı yürütme arabirimini düzenleme
+                          href: production-control/production-floor-execution-styles.md
+                    - name: Cihazlar için iş kartını konfigüre et
                       href: production-control/config-job-card-device.md
                     - name: İş kartı cihazından tamamlandı olarak bildirme
                       href: production-control/report-finished-job-device.md
@@ -2501,6 +2441,8 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Esnek gruplar
                       href: production-control/time-attendance-flex-groups.md
+                - name: Parçalı üretim sorunlarını giderme
+                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: Yalın imalat
               items:
                 - name: Yalın imalata genel bakış
@@ -2653,28 +2595,14 @@
                       href: production-control/consumption.md
                     - name: Üretimin deftere nakli
                       href: cost-management/production-posting.md
-            - name: Üretim katı yürütme arabirimini ayarlama ve kullanma
-              items:
-                - name: Üretim katı yürütme arabirimini yapılandırma
-                  href: production-control/production-floor-execution-configure.md
-                - name: Üretim katı yürütme arabirimini tasarlama
-                  href: production-control/production-floor-execution-tabs.md
-                - name: Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
-                  href: production-control/production-floor-execution-setup.md
-                - name: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
-                  href: production-control/production-floor-execution-use.md
-                - name: Üretim katı yürütme arabirimini düzenleme
-                  href: production-control/production-floor-execution-styles.md
-                - name: Üretim katı yürütme arabirimini özelleştirme
-                  href: production-control/production-floor-execution-customize.md
+                - name: Süreç üretimi sorunlarını giderme
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: İndirim yönetimi
           items:
             - name: İndirim yönetimi modülüne genel bakış
               href: rebate-management/rebate-management-overview.md
             - name: İndirim yönetimi modülünü ayarlama ve yapılandırma
               items:
-                - name: Sisteminiz için İndirim yönetimi modülünü açma
-                  href: rebate-management/rebate-management-enable.md
                 - name: İndirim yönetimi parametreleri
                   href: rebate-management/rebate-management-parameters.md
                 - name: İndirim yönetimi anlaşması iş akışları
@@ -2691,8 +2619,6 @@
               href: rebate-management/rebate-management-deals.md
             - name: 'İndirimleri işleme, inceleme ve deftere nakletme'
               href: rebate-management/process-review-post.md
-            - name: Kesinti workbench'ini kullanarak kesintileri yönetme
-              href: rebate-management/deduction-workbench.md
         - name: Satış ve pazarlama
           items:
             - name: Satış ve pazarlamaya genel bakış
@@ -2731,13 +2657,13 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Satış siparişlerini onaylama
                   href: sales-marketing/tasks/confirm-sales-orders.md
-                - name: Satış siparişi hakkında SSS
-                  href: sales-marketing/sales-orders-faq.md
+                - name: Satış siparişleri ile ilgili sorunları giderme
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Satış sözleşmeleri
               items:
                 - name: Satış sözleşmelerine genel bakış
                   href: sales-marketing/sales-agreements.md
-                - name: Satış sözleşmelerini girme
+                - name: Satış sözleşmeleri girme
                   href: sales-marketing/tasks/enter-sales-agreements.md
                 - name: Satış sözleşmelerinin koşullarını yerine getirme
                   href: sales-marketing/tasks/fulfill-sales-agreements.md
@@ -2751,66 +2677,12 @@
               items:
                 - name: Fiyat benzetimi
                   href: sales-marketing/price-simulation.md
-                - name: Satış tekliflerini toplu oluşturma
+                - name: Satış tekliflerini toplu olarak oluşturma
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Satış teklifleri oluşturma ve düzenleme
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-            - name: Şirketlerarası ticaret
-              items:
-                - name: Şirketlerarası ticareti ayarlama
-                  items:
-                    - name: Şirketlerarası ticareti ayarlama
-                      href: sales-marketing/intercompany-trade-set-up.md
-                    - name: Şirketlerarası parametreler
-                      href: sales-marketing/intercompany-parameters.md
-                    - name: 'Şirketlerarası ticaret için satıcıları, müşterileri ve maddeleri ayarlama'
-                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
-                    - name: Şirketlerarası siparişlerde giderleri ayarlama
-                      href: sales-marketing/intercompany-set-up-charges.md
-                    - name: Şirketlerarası siparişi deftere nakletmek üzere parametreleri ayarlama
-                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
-                - name: Şirketlerarası bilgileri eşitleme
-                  items:
-                    - name: Şirketlerarası fiyatları ve iskontoları eşitleme
-                      href: sales-marketing/intercompany-sync-prices-discounts.md
-                    - name: Şirketlerarası giderleri eşitleme
-                      href: sales-marketing/intercompany-sync-charges.md
-                    - name: Şirketlerarası müşteri bilgilerini eşitleme
-                      href: sales-marketing/intercompany-synch-customer-information.md
-                    - name: Şirketlerarası değerlendirme kodlarını eşitleme
-                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
-                - name: Şirketlerarası satış siparişleri ve faturaları
-                  items:
-                    - name: Birkaç şirkette şirketlerarası satınalma ve satış siparişleri oluşturma
-                      href: sales-marketing/intercompany-orders-in-several-companies.md
-                    - name: Şirketlerarası siparişler ve iade emirleri
-                      href: sales-marketing/intercompany-orders-and-return-orders.md
-                    - name: Dahili kullanım için şirketlerarası satış siparişi oluşturma
-                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
-                    - name: Harici müşteri için şirketlerarası satış siparişi oluşturma ve faturalama
-                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
-                    - name: Şirketlerarası rezervasyonlar
-                      href: sales-marketing/intercompany-reservations.md
-                    - name: Orijinal şirketlerarası satış siparişini değiştirme veya silme
-                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
-                    - name: Şirketlerarası siparişleri değiştirme
-                      href: sales-marketing/intercompany-change-orders.md
-                    - name: Şirketlerarası toplu iş ve seri numaraları
-                      href: sales-marketing/intercompany-batch-serial-numbers.md
-                    - name: Şirketlerarası sevk irsaliyeleri
-                      href: sales-marketing/intercompany-packing-slips.md
-                    - name: Şirketlerarası müşteri faturaları için ödemeleri otomatik olarak kaydetme
-                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
-                - name: Şirketlerarası satınalma siparişleri
-                  items:
-                    - name: Dahili kullanım için şirketlerarası satınalma siparişi oluşturma ve faturalama
-                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
-                    - name: Şirketlerarası sipariş fiyat farklılıklarını denetleme
-                      href: sales-marketing/intercompany-check-price-discrepancies.md
-                - name: Şirketlerarası para birimi dönüştürmeleri
-                  href: sales-marketing/intercompany-currency-conversions.md
-                - name: Şirketlerarası master planlama
-                  href: sales-marketing/intercompany-master-scheduling.md
+                - name: Satış teklifleri ile ilgili sorunları giderme
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: İadeler
               items:
                 - name: Satış iadeleri
@@ -2835,11 +2707,9 @@
               href: sales-marketing/trade-allowance.md
             - name: Yeni bir ticari sözleşme oluşturma
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Satış geçmişi temizleme işlemi performans iyileştirmeleri
-              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
-        - name: Hizmet yönetimi
+        - name: Servis yönetimi
           items:
-            - name: Hizmet yönetimine genel bakış
+            - name: Servis yönetimine genel bakış
               href: service-management/service-management-home-page.md
             - name: Müşteri hizmetlerini ayarlama
               items:
@@ -3151,8 +3021,6 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Son teslim alma maliyeti modülünü ayarlama ve yapılandırma
               items:
-                - name: Sisteminiz için Son teslim alma maliyeti modülünü açma
-                  href: landed-cost/landed-cost-enable.md
                 - name: Son teslim alma maliyeti parametreleri
                   href: landed-cost/landed-cost-parameters.md
                 - name: Son teslim alma maliyeti tedarik ve kaynak atama parametreleri
@@ -3189,9 +3057,7 @@
               href: landed-cost/in-transit-processing.md
             - name: Fazla/eksik hareketleri işleme
               href: landed-cost/over-under-transactions.md
-            - name: Yerine koyma için izlemeyi güncelleştirme
-              href: landed-cost/update-tracking-putaway.md
-            - name: Son teslim alma maliyeti sorguları
+            - name: Son teslim alma maliyeti sorgulamaları
               href: landed-cost/landed-cost-inquiries.md
             - name: Son teslim alma maliyeti raporları
               href: landed-cost/landed-cost-reports.md
@@ -3223,18 +3089,26 @@
                   href: inventory/quality-management-for-warehouses-processes.md
                 - name: Kalite denetimi
                   href: warehousing/quality-check.md
+                - name: Gelen ambar işlemleri ile ilgili sorunları giderme
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Giden ambar işlemleri
               items:
-                - name: Ambar düzeyinde esnek boyut rezervasyonu ilkesi
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-                - name: Ambara serbest bırakma
-                  href: warehousing/release-to-warehouse-process.md
+                - name: Ambar yönetiminde rezervasyonlar
+                  items:
+                    - name: Esnek ambar düzeyi boyut rezervasyonu ilkesi
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: Ambar yönetiminde rezervasyonlar ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-reservations.md
+                    - name: Ambar toplu işi ve seri rezervasyon hiyerarşileriyle ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md
                 - name: Kısmi serbest bırakma ve kısmi sevkiyat
                   items:
                     - name: Taşıma yükü kısmi sevkiyatı
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Kısmi serbest bırakmalar ve kısmi sevkiyatlar ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Malzeme çekme ve paketleme
                   items:
                     - name: Küme malzeme çekmeyi ayarlama
@@ -3243,8 +3117,6 @@
                       href: warehousing/cluster-position-full.md
                     - name: Sistem tarafından yönlendirilen küme malzeme çekme
                       href: warehousing/system-directed-cluster-pick.md
-                    - name: Satış siparişleri ve transfer emirleri için fazla malzeme çekme
-                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Paketleme ve depolama için farklı boyutlar ayarlama
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: Toplu iş ve plaka onayı
@@ -3271,14 +3143,14 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Yerleşim yönergesi stoktan çekme yaşlandırma
                       href: warehousing/location-directive-inventory-picking-aging.md
-                    - name: Bağlama
-                      href: warehousing/anchoring.md
-                    - name: Giden tasnif
+                    - name: Giden sıralama
                       href: warehousing/outbound-sorting.md
                     - name: Duvara yerleştirme - mağazaya yerleştirme
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Giden iş yükü görselleştirmesi
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Malzeme çekme ve paketleme sorunlarını giderme
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Stok yenileme
                   items:
                     - name: Stok yenilemeye genel bakış
@@ -3293,8 +3165,10 @@
                       href: warehousing/zone-threshold-replenishment.md
                     - name: Stok yenileme stratejileri
                       href: warehousing/replenishment-strategies.md
-                    - name: Konum kapasitesine göre stok yenileme
+                    - name: Yerleşim kapasitesine göre stok yenileme
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Ambar stok yenileme sorunlarını giderme
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Yük oluşturma ve sevkiyatlar
                   items:
                     - name: Onaylama ve transfer etme
@@ -3307,6 +3181,8 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Küçük paket sevkiyatı
                       href: warehousing/small-parcel-shipping.md
+                    - name: Yük oluşturma ve sevkiyatlar ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Sevkiyat konsolidasyonu ilkeleri
                   items:
                     - name: Sevkiyat konsolidasyonu ilkeleri
@@ -3321,12 +3197,14 @@
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: 'Senaryo 4: Sevkiyatları sevkiyat konsolidasyonu çalışma ekranını kullanarak konsolide etme'
                       href: warehousing/consolidate-shipments-manual-workbench.md
-                    - name: 'Senaryo 5: Sevkiyatları konsolide etme sayfasını kullanarak sevkiyatları el ile konsolide etme'
+                    - name: 'Senaryo 5: "Sevkiyatları konsolide et" sayfasını kullanarak sevkiyatları el ile konsolide etme'
                       href: warehousing/consolidate-shipments-manual-form.md
                 - name: Dalga oluşturma ve işleme
                   href: warehousing/wave-processing.md
                 - name: Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma
                   href: warehousing/reprint-and-void-wave-labels.md
+                - name: Giden ambar işlemleri sorunlarını giderme
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Ambar işlemleri genelinde
               items:
                 - name: Ambar iş ilkeleri
@@ -3391,6 +3269,8 @@
                       href: warehousing/work-split.md
                     - name: Malzeme işleme ekipmanı arabirimi (MHAX)
                       href: warehousing/mhax.md
+                    - name: Ambar işi ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-work.md
             - name: Ambar uygulaması
               items:
                 - name: 'Mobil cihazları yükleme, ayarlama ve kullanma'
@@ -3401,23 +3281,17 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Ambar uygulamasını yükleme ve bağlama
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: Mobil barkod desteği
-                      href: warehousing/mobile-barcode-support.md
                     - name: Warehouse Management mobil uygulamasında kamera kullanarak barkodları tarama
                       href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Warehouse Management mobil uygulamasının bağlantı sorunlarını giderme
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Mobil cihazlar için alanları ve menüleri ayarlama
                   items:
                     - name: Warehouse Management mobil uygulaması için alanları yapılandırma
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Ambar işi için mobil cihazları ayarlama
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Warehouse Management mobil uygulaması için adım başlıklarını ve yönergeleri özelleştirme
-                      href: warehousing/mobile-app-titles-instructions.md
-                    - name: Mobil cihazdaki adımlar için yükseltilen alanları yapılandırma
-                      href: warehousing/warehouse-app-promoted-fields.md
-                    - name: Mobil cihaz menü öğelerindeki adımlar için sapmaları yapılandırma
-                      href: warehousing/warehouse-app-detours.md
-                    - name: Warehouse Management mobil uygulaması aracılığıyla plaka alma
+                    - name: Warehouse Management mobil uygulaması aracılığıyla plaka teslim alma
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3431,17 +3305,13 @@
                       href: warehousing/mixed-license-plate-receiving.md
                     - name: Bir mobil cihazda ambar içindeki eski toplu işleri görüntülemeyi yapılandırma
                       href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Mobil cihazda en eski toplu işi seçme
+                    - name: Bir mobil cihazda en eski toplu işi seçme
                       href: warehousing/pick-oldest-batch.md
-                - name: Genel mobil cihaz parametreleri
-                  href: warehousing/mobile-device-parameters.md
-                - name: Mobil cihaz kullanıcı hesapları
-                  href: warehousing/mobile-device-work-users.md
                 - name: Mobil cihaz kullanıcı ayarları
                   href: warehousing/mobile-device-user-settings.md
                 - name: Ambar uygulaması olayı işleme
                   href: warehousing/warehouse-app-events.md
-                - name: Ambar mobil işlemlerini genişletme
+                - name: Ambar uygulamasını özelleştirme
                   items:
                     - name: Kılavuz çerçevesini işleme
                       href: warehousing/process-guide-framework.md
@@ -3513,14 +3383,20 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Plaka etiketleri için belge rotası düzeni
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: GS1 barkodları ve QR kodları
-                      href: warehousing/gs1-barcodes.md
+                    - name: Mobil barkod desteği
+                      href: warehousing/mobile-barcode-support.md
                     - name: Transfer emirleri için ambar ayarlama
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Ambar yapılandırması ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Yükseltme ve geçiş
                   items:
                     - name: Ambar yönetimi işlemlerini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Gelişmiş ambar yönetimine yükseltme ve geçiş ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Ambar kurulumu sorunlarını giderme
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Supply Chain Management geliştirme
           items:
             - name: Gantt denetimi geliştirme kılavuzu
@@ -3529,19 +3405,11 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Eldeki stok veri varlıklarını genişletme
               href: inventory/extend-on-hand-entities.md
-        - name: Sorun Giderme
+        - name: Sorun giderme
           items:
             - name: Maliyet yönetimi
               items:
-                - name: Stok yaşlandırma raporu uyuşmazlıkları
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: Stoğu kapatmadan genel muhasebe dönemi durumunu değiştirmeye ilişkin uyarılar veya hatalar
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Stok değeri/yaşlandırma raporları ile bunların depolama sürümleri arasındaki işlevsel boşluklar
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: Stok değerleme yöntemi olarak standart maliyet veya hareketli ortalama kullanıldığında güncelleştirme çakışması oluşur
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: Madde model grupları başka bir tüzel kişiliğe kopyalandığında alan ayarları eksik
+                - name: Madde model gruplarının başka bir tüzel kişiliğe kopyalanmasında eksik alan ayarları
                   href: troubleshooting/costing/copying-item-model-groups.md
                 - name: 'Süren dolaylı maliyetler raporu, silinen üretim emirlerini içeriyor'
                   href: troubleshooting/costing/indirect-costs-in-pr.md
@@ -3553,20 +3421,6 @@
                   href: troubleshooting/costing/there-is-no-from-dat.md
             - name: Stok yönetimi
               items:
-                - name: Stok günlüklerine yönelik "İş akışı" açılır iletişim kutusunu bulamıyorsunuz
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: Stok günlüğü iş akışı hiç tamamlanmıyor ve günlük işlenemiyor
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: Stok günlüğünüz kilitli ve iş akışı toplu işi çalışmıyor
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: Stok günlüğündeki birim ve birim miktarı doğru şekilde çalışmıyor
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: 'Stok günlüğü iş akışı koşulları satır düzeyinde değil, günlük düzeyinde uygulanıyor'
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: Eldeki liste sayfasındaki filtre bölmesi beklendiği gibi çalışmıyor
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: Stok tutma birimi için maksimum ondalık basamağı sayısı 0'dır
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
                 - name: Toplu iş numaraları için "Fiziksel güncelleştirme" olmadan birden fazla stok hareketi oluşuyor
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Bir rapor tamamlanmış olarak tersine çevrildiğinde beklenmedik bir açık işlem oluşuyor
@@ -3577,26 +3431,10 @@
                   href: troubleshooting/inventory/quantity-on-a-start.md
                 - name: Birden fazla kalite emri oluşturulurken Son test tarihi alanı güncelleştirilemiyor
                   href: troubleshooting/inventory/the-field-last-test.md
-                - name: Fiili ağırlık miktarı bölündüğünde nominal miktar yerine minimum miktar kullanılıyor
+                - name: Fiili ağırlık miktarı bölündüğünde nominal miktar yerine minimum miktar kullanılır
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Master planlama
               items:
-                - name: 'Sistem, birden fazla sipariş üzerinde çalışırken planlı bir sipariş bulamıyor'
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: 'Ürün reçetesi açılımı, kesinleştirilmiş ve tahmini üretim emirlerinde farklı şekilde işlev gösteriyor'
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: Planlanan bir siparişi yeniden zamanladığınızda gecikme değeri güncelleştirilmiyor
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: Planlı siparişlerin güncelleştirilmesi uzun zaman alıyor
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Üretim emirlerinde stokta olan maddeler için planlı emirler oluşturuluyor
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: Üretim planlamasında emniyet marjları göz önüne alınmıyor
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: 'Master planlama, kullanılabilir kapasiteden daha fazlasını planlıyor'
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Yeterli kapasite bulunamadı
-                  href: troubleshooting/planning/not-enough-capacity-error.md
                 - name: Yerleşik master planlama altyapısını çalıştırırken hata alıyorsunuz
                   href: troubleshooting/planning/deprecated-master-planning-error.md
                 - name: Madde alanı ürün reçetesi veya formül içeremez
@@ -3621,112 +3459,28 @@
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Negatif günler içinde bir satın alma mevcut olduğunda planlı satın alma siparişi oluşturuluyor
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: 'Talep tahmini kayıtlarını içeri aktardığınızda, tahmin edilen birim maliyeti güncelleştirilemiyor'
+                - name: 'Talep tahmini kayıtlarını içe aktardığınızda, tahmin edilen birim maliyeti güncelleştirilemiyor'
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Ambar talebi tahmin boyutu tahmin satırlarından kaldırılamıyor
                   href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: Hiçbir değişiklik yapmamış olsanız bile madde kapsama ayarlarını kaydetmeniz isteniyor
+                - name: Hiçbir değişiklik yapmamış olsanız bile madde karşılama ayarlarını kaydetmeniz istenir
                   href: troubleshooting/planning/when-importing-to-th.md
             - name: Tedarik
               items:
-                - name: Satın alma siparişi satırı veri uyuşmazlıkları
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: Bir veya daha çok muhasebe dağıtımı fazla dağıtılmış veya eksik dağıtılmış
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: Tam olarak dağıtılmış satır numaraları için yalnızca bir satınalma siparişi eylemi tamamlayabiliyorsunuz
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: Onaylanan bir satıcının geçerlilik tarihi değiştirilemiyor
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: İptal edilen satınalma siparişleri çalışma alanındaki taslak listesinde görüntüleniyor
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: 'Hareketler, askıya alınmış bir genel muhasebe hesabına nakledilebilir'
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: Kalan teslimat iptal edildiğinde satınalma siparişi Onaylı durumuna taşınıyor
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: Çoklu ürün girişlerini tek bir satınalma siparişinde konsolide edemiyorsunuz
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: 'Varsayılan vergi grubu ve nakit iskontosu, fatura hesabından doldurulmuyor'
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Bir satınalma siparişi teslimat adresi değiştirildikten sonra teslimat adı eşitlenmiyor
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Satıcı faturasının deftere nakli sırasında özel durum oluşuyor
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: İçeri aktarılan satınalma siparişlerinde yanlış satır numaraları gösteriliyor
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: 'Satınalma sözleşmesi maksimum sınırı, satınalma talebinde geçerli olmuyor'
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: Satınalma siparişi onayı sırasında "Nesne başvurusu ayarlanmadı" hatası oluşuyor
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: Muhasebe dağıtımları fazla dağıtılmış veya eksik dağıtılmış
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: Satınalma sözleşmesi sayfasına Fiyat birimi alanını ekleyemiyorsunuz
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: 'Satınalma siparişleri, tüzel kişiliğin dil ayarlarını yansıtmıyor'
-                  href: troubleshooting/procurement/po-language.md
-                - name: Satınalma siparişi girişi tüm giderleri içermiyor
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: 'Satınalma siparişlerindeki birim fiyatlar, birim dönüştürmesi temel alınarak hesaplanmıyor'
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: Genel muhasebedeki gider hesabına naklet ayarı açık değil
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: Bir değişiklikten sonra satınalma siparişini iş akışına yeniden gönderirken hata oluşması
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Ticari sözleşme para birimi dönüştürme sorunları
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: 'Ticari sözleşme koşulları, içeri aktarılan sipariş satırlarına uygulanmıyor'
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: 'Ticari sözleşmeler, reddedilen RFQ''lardan oluşturulabilir'
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: 'Satıcı indirimi, faturalar temel alınarak kümülatif değil'
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: 'Ürün giriş fişi numarası, fiş oluşturulmadığında bile kullanılıyor'
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: Müşteri tarafındaki bir satış siparişini faturalayamıyorsunuz
+                - name: Müşteriyle tarafındaki bir satış siparişini faturalayamazsınız
                   href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: Değişiklik isteğinden sonra satınalma talebine satır eklenemiyor
+                - name: Değişiklik isteğinden sonra satın alma talebine satır eklenemiyor
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Ürün bilgileri yönetimi
               items:
-                - name: Serbest bırakılan bir ürün silinemiyor
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: Ürün yapılandırma modelleri hesaplanırken tamsayılar yanlış yuvarlanıyor
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: Satış siparişi satırında bir ürün yapılandırıldığında madde metni üzerine yazılıyor
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: Serbest bırakılan ürün oluşturmak için şablon uygulanamıyor
+                - name: Serbest bırakılan ürün oluşturmak için şablon uygulayamazsınız
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: Serbest bırakılan ürünler V2 varlığını kullanarak bir madde içeri aktarılamıyor
+                - name: Serbest bırakılan ürünler V2 varlığını kullanarak bir maddeyi içeri aktaramazsınız
                   href: troubleshooting/products/cannot-import-with-r.md
-                - name: 'Satınalma siparişleri, çevrilmiş ürün metnini göstermiyor'
+                - name: Satın alma siparişleri çevrilmiş ürün metnini göstermiyor
                   href: troubleshooting/products/when-the-customer-ad.md
             - name: Üretim denetimi
               items:
-                - name: Stok kapanışı sırasında geriye dönük maliyetlendirme hesaplama hatası
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Bir ürün reçetesinin consumptionCost değeri hatası nedeniyle üretim emri bitirilemiyor
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: Yeni üretim emri oluşturulurken ürün reçetesi ve rota eklenemiyor
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: 'Son işteki kısmı miktar raporlandığında, devam etmekte olan önceki işler bitiriliyor'
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: Bir üretim emri serbest bırakıldığında RM maddesi tam olarak ayrılamıyor
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: 'Tamamlandı bildirimi güncelleştirmesi, eksik miktar hatası vererek başarısız oluyor'
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: Tamamlandı bildirimi günlüğü deftere nakledildiğinde hata
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Üretim emrinin durumu tamamlandı olarak bildirilsin olarak değiştirilirken hata oluştu
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Üretim emirleri İşaretleme sayfasında gösterilmiyor
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: Adres defterindeki bir çalışan adı değiştirildikten sonra kaynak adı güncelleştirilmiyor
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: Bir üretim emri sonlandırılmaya çalışıldığında toplam sağlam miktar hatası
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Mamul malların seri numaraları tüketilen malların seri numaralarıyla karşılaştırılıp takip edilemiyor
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: 'Süreçler şu anda kullanılmakta olduğundan, iş ayrılamıyor veya serbest bırakılamıyor'
-                  href: troubleshooting/production/warehouse-management-processes-used.md
                 - name: Ürün reçetesi satırlarındaki otomatik tüketim kuralı ayarları dikkate alınmıyor
                   href: troubleshooting/production/flushing-principle-n.md
                 - name: Yeni bir lot kimliği seçildiğinde toplu iş numarası siliniyor
@@ -3741,24 +3495,10 @@
                   href: troubleshooting/production/the-warehouse-in-pic.md
             - name: İndirim yönetimi
               items:
-                - name: Madde indirim grupları kullanılarak müşteri indirimleri biriktirilemiyor
+                - name: Müşteri indirimleri madde indirim grupları kullanılarak biriktirilemiyor
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Satış ve pazarlama
               items:
-                - name: Satış güncelleştirme geçmişi temizleme işi başarısız oluyor veya performans sorunları var
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Ürün demeti maddesi şirketlerarası bir işlemde desteklenmiyor
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: Satış siparişiyle bağlantılı şirketlerarası satınalma siparişi iptal edilemiyor
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: Bir sipariş iptal edilirken rezervasyonlar kaldırılamıyor
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: Tarihleri çakışan iki ticari sözleşme mevcutsa her zaman aynı sözleşme seçiliyor
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Bir satış teklifi satırındaki servis maddesinin satış miktarı değiştirilemiyor
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: Satış siparişi başlığındaki konum değiştirilirse vergi bilgileri güncelleştirilmiyor
-                  href: troubleshooting/sales/tax-information-not-updated.md
                 - name: Satış siparişi iptal edilirken miktar azaltılamıyor
                   href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: Sistem yöneticileri yetkili olmadıklarından sipariş tutmalarını silemiyor
@@ -3769,100 +3509,6 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Ambar yönetimi
               items:
-                - name: Warehouse mobile app
-                  items:
-                    - name: Uygulama bağlantısı ayarlanırken sertifika yolu için güven çıpası bulunamadı
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: WMS'ye güncelleştirme ve geçiş yapılırken sertifika yolu için güven çıpası bulunamadı
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Ölçek birimi ambar iş yükü yüklendikten sonra işleme sorunları oluşuyor
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: Kullanılabilir stok olsa da toplu iş numarası için otomatik rezervasyon komut istemi gösteriliyor
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Bitmemiş stok yenileme işi nedeniyle malzeme çekme işinin engeli kaldırılamıyor
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: Bir satış siparişinden deftere nakledilen sevk irsaliyesi iptal edilemiyor
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: Seri numarasında Boş çıkış ve Boş girişe izin veriliyorsa plaka taşınamıyor
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: 'Stok, plaka denetimli bir konuma taşınamıyor'
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Küme profili bulunamıyor
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Teslimat notu düzeltmesi işlenemiyor
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: Bir seri madde için transfer emri oluşturduktan sonra sevkiyat onaylanırken hata
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: WMS özellikli bir ambar için doğrudan teslim işlenemiyor
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: Giriş/çıkış noktası yönetimi profili kullanılırken stok türleri karıştırılıyor
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: Çoklu SKU seçeneği birden fazla konum yönergesi eylemini değerlendirmiyor
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: Giden yük serbest bırakıldığında malzeme çekme işi hemen oluşturulmuyor
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: Mobil uygulamadaki plaka kodu taranırken geçersiz plaka kodu hatası
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: Ambar uygulamasında hareketler işlenirken stok sahibine izin verilmiyor
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: 'Sistem, yetersiz hareketler nedeniyle stok miktarını güncelleştiremiyor'
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: İş türü sütununda Stok durumu değişikliği seçilemiyor
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: Mobil uygulamada tarama yaparken geçersiz plaka veya konum hatası
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: Gelen siparişler kaydedilirken plaka miktarı geçerli değil
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: Bir transfer emri için sevkiyat onaylanırken plaka belirtim hatası
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: Satırlardan biri zaten bir yükte yer alıyor
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: İşin konumlar arasında işlenmesi sırasında yük ağırlığı hatası oluşuyor ve güncelleştirme iptal ediliyor
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: 'Karma plaka alımı, Alacak dışındaki herhangi bir değerlendirme kodu için çalışmıyor'
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: Mobil cihaz uygulama öykünücüsüne erişmek için yalnızca yönetici rolü kullanılabiliyor
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: Temel ambarlamadan gelişmiş ambarlamaya geçişte sorunlar
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: Sistem tarafından yönlendirilen küme malzeme çekme kullanılırken küme için yeterli iş bulunamadı
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: Satış siparişi faturalandıktan sonra bile sipariş durumu Kısmen serbest bırakıldı olarak kalıyor
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: Kısmi malzeme çekme yapmak için Warehouse Management mobil uygulaması kullanılamıyor
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Kısmi miktar işi için stok durumu değişikliğini etkinleştirme
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Ambar veya siteye göre teslimat notu ya da ambalaj içeriği yazdırma
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: Tek bir konumda birden çok LP ile malzeme çekme işi yapılırken miktar geçerli değil
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: Birden fazla toplu işte bölünmüş çekme işlemi yapılırken miktar geçerli değil
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: 'Kısmen sevk edilen bir yük, ambara serbest bırakılamıyor'
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Stokta 0,00 mevcut olduğundan sistem rezervasyon yapamıyor'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: Geçersiz stok boyutları nedeniyle iade satış siparişi için yük satırı oluşturulamıyor
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: Giden ambar işlemlerinde satış siparişi serbest bırakılamadı
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: Yük sevkiyatı onaylandı ancak hiçbir satır deftere nakledilmedi
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: 'Yerleştirme şablonları, toplu iş üstü maddeler için eldeki stoku dikkate almıyor'
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: Toplu iş rezervasyon hiyerarşisinde kısmi miktar için yük serbest bırakılamıyor
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: 'Onaylanmamış satınalma siparişleri, Ürün girişlerini güncelleştir görevi çalıştırıldıktan sonra onaylanıyor'
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Satış siparişi satırındaki stok ayırma geri alınamıyor
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: Müşteri beklemede olduğundan sevkiyat onaylanamıyor
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: Yük satırlarında sıfır miktar olduğundan sevkiyat onaylanamıyor
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: Serbest bırakılan miktar negatif olacağından yükleme satırı güncelleştirilemiyor
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
                 - name: İptal edilen ürün girişleri hareket durumunu kaydedilmiş olarak güncelleştirmiyor
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: Fiziksel güncelleştirme miktarının ondalık yuvarlaması yanlış
@@ -3913,13 +3559,11 @@
                   href: troubleshooting/warehousing/work-is-not-blocked.md
                 - name: İş engellenmeye devam ediyor
                   href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: Kullanıcıya atanmış bir işi iptal edemezsiniz
+                - name: Bir kullanıcıdaki işi iptal edemezsiniz
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: Finans ve operasyon uygulamalarını geliştirme ve yönetme
+    - name: Finance and Operations uygulamalarını geliştirme ve yönetme
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
-    - name: Dynamics 365 Human Resources
-      href: ../human-resources/index.md

@@ -1,34 +1,33 @@
 ---
 title: Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme
 description: Bu konu altında, satış siparişlerini Dynamics 365 Sales ve Dynamics 365 Supply Chain Management arasında eşitlemek için kullanılan temel görevler ve şablonlar açıklanmaktadır.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ad23190433b2843ec5063b5fa5b30351fcd86390
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439492"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566443"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konu altında, satış siparişlerini Dynamics 365 Sales ve Dynamics 365 Supply Chain Management arasında eşitlemek için kullanılan temel görevler ve şablonlar açıklanmaktadır.
 
@@ -36,7 +35,7 @@ Bu konu altında, satış siparişlerini Dynamics 365 Sales ve Dynamics 365 Supp
 
 Aday müşteriden nakde çözümü Supply Chain Management ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri Tümleştirme özelliğiyle kullanılabilecek Aday müşteriden nakde şablonları; hesaplar, ilgili kişiler, ürünler, satış teklifleri, satış siparişleri ve satış faturaları için Supply Chain Management ve Sales arasında veri akışını etkinleştirir. Supply Chain Management ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
 
-[![Aday müşteriden nakde çözümünde veri akışı](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Aday müşteriden nakde çözümünde veri akışı.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
@@ -64,8 +63,8 @@ Aşağıdaki eşitleme görevleri, satış faturası başlıkları ve satırlar�
 
 | Supply Chain Management  | Satışlar             |
 |-------------------------|-------------------|
-| CDS satış siparişi başlıkları | SalesOrders       |
-| CDS satış siparişi satırları   | SalesOrderDetails |
+| Dataverse satış siparişi başlıkları | SalesOrders       |
+| Dataverse satış siparişi satırları   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Varlık akışı
 
@@ -75,7 +74,7 @@ Sales içinde siparişler oluşturmanız gerekmez. Bunun yerine, yeni satış si
 
 Supply Chain Management'ta şablondaki filtreler yalnızca ilgili satış siparişlerinin eşitlemeye dahil edilmesini sağlar:
 
-- Satış siparişinde, siparişi veren müşteri ile faturalanan müşteri Sales'tan geliyorsa, eşitlemeye dahil edilir. Supply Chain Management'ta **OrderingCustomerIsExternallyMaintained** ve **InvoiceCustomerIsExternallyMaintained** alanları, veri varlıklarından gelen satış siparişlerini filtrelemek için kullanılır.
+- Satış siparişinde, siparişi veren müşteri ile faturalanan müşteri Sales'tan geliyorsa, eşitlemeye dahil edilir. Supply Chain Management'ta **OrderingCustomerIsExternallyMaintained** ve **InvoiceCustomerIsExternallyMaintained** sütunları, veri tablolarından gelen satış siparişlerini filtrelemek için kullanılır.
 - Supply Chain Management'taki satış siparişinin onaylanması gerekir. Yalnızca onaylanmış satış siparişleri veya daha yüksek işleme durumuna sahip satış siparişler (örneğin **Sevk edildi** veya **Faturalandı** durumları) Sales'a eşitlenir.
 - Bir satış siparişi oluşturulduktan veya değiştirildikten sonra, Supply Chain Management'ta **Satış toplamlarını hesapla** toplu işinin çalıştırılması gerekir. Yalnızca satış toplamlarının hesaplandığı satış siparişleri Sales'a eşitlenir.
 
@@ -103,10 +102,10 @@ Bir satış siparişi satırı Sales'den Supply Chain Management'a eşitlendiği
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Sales için Aday müşteriden nakde çözümü
 
-Yeni alanlar **Sipariş** varlığına eklenir ve sayfada görüntülenir:
+**Sipariş** tablosuna yeni sütunlar eklenmiştir ve bunlar sayfada görüntülenir:
 
 - **Dışarıda Tutulan** – Sipariş Supply Chain Management'tan geliyorsa bu seçeneği **Evet** olarak ayarlayın.
-- **İşleme durumu** – Bu alan siparişin Supply Chain Management'taki işleme durumunu gösterir. Aşağıdaki değerler kullanılabilir:
+- **İşleme durumu**: Bu sütun siparişin Supply Chain Management'taki işleme durumunu gösterir. Aşağıdaki değerler kullanılabilir:
 
     - **Taslak** – Bir sipariş Sales'ta ilk oluşturulduğundaki durum. Sales'ta yalnızca bu işleme durumuna sahip olan siparişler düzenlenebilir.
     - **Etkin** – Sipariş Sales'taki **Etkinleştir** düğmesi kullanılarak etkinleştirildikten sonraki durum.
@@ -141,7 +140,7 @@ Satış siparişlerini eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 - **Ayarlar** &gt; **Yönetim** &gt; **Sistem ayarları** &gt; **Sales**'a gidin ve aşağıdaki ayarların kullanıldığından emin olun:
 
     - **Sistem fiyatlama hesaplama sistemini kullan** seçeneği **Evet** olarak ayarlanmalıdır.
-    - **İndirim hesaplama yöntemi** alanı **Satır maddesi** olarak ayarlanmalıdır.
+    - **İndirim hesaplama yöntemi** sütunu **Satır maddesi** olarak ayarlanmalıdır.
 
 ### <a name="setup-in-supply-chain-management"></a>Supply Chain Management'ta Kurulum
 
@@ -151,10 +150,10 @@ Satış siparişlerini eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 
 1. **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **Satış kaynağı** seçeneğine gidin.
 2. **Yeni**'yi seçerek yeni bir satış kaynağı oluşturun.
-3. **Satış kaynağı** alanına, satış kaynağı için **SalesOrder** gibi bir ad girin.
-4. **Açıklama** alanında, **Sales'den Satış Siparişi** gibi bir açıklama girin.
+3. **Satış kaynağı** sütununa, satış kaynağı için **SalesOrder** gibi bir ad girin.
+4. **Açıklama** sütununda, **Sales'dan Satış Siparişi** gibi bir açıklama girin.
 5. **Kaynak türü ataması** onay kutusunu seçin.
-6. **Satış kaynağı türü** alanını **Satış siparişi tümleştirmesi** olarak ayarlayın.
+6. **Satış kaynağı türü** sütununu **Satış siparişi tümleştirmesi** olarak ayarlayın.
 7. **Kaydet**'i seçin.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Satış Siparişlerinde Ayarlama (Sales'den Supply Chain Management'a) - Doğrudan Veri tümleştirme projesi
@@ -181,29 +180,32 @@ Satış siparişlerini eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşleme
 
 > [!NOTE]
-> **Ödeme koşulları**, **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** alanları varsayılan eşlemelerin parçası değildir. Bu alanları eşleştirmek için, varlığın aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşleştirmesi ayarlamanız gerekir.
+> **Ödeme koşulları**, **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** sütunları varsayılan eşlemelerin parçası değildir. Bu sütunları eşleştirmek için, tablonun aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşlemesi ayarlamanız gerekir.
 
 Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gösterir.
 
 > [!NOTE]
-> Eşleme hangi alan bilgilerinin Sales'den Supply Chain Management'a veya Supply Chain Management'tan Sales'e eşitleneceğini gösterir.
+> Eşleme hangi sütun bilgilerinin Sales'dan Supply Chain Management'a veya Supply Chain Management'tan Sales'a eşitleneceğini gösterir.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Satış Siparişleri (Supply Chain Management'tan Sales'e) - Doğrudan: OrderHeader
 
-[![Veri tümleştirmede şablon eşleme](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Veri tümleştirmede şablon eşleme, Satış Siparişleri (Supply Chain Management'tan Sales'e): Doğrudan: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Satış Siparişleri (Supply Chain Management'tan Sales'e) - Doğrudan: OrderLine
 
-[![Veri tümleştirmede şablon eşleme](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Veri tümleştirmede şablon eşleme, Satış Siparişleri (Supply Chain Management'tan Sales'e): Doğrudan: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Satış Siparişleri (Sales'den Supply Chain Management'a) - Doğrudan: OrderHeader
 
-[![Veri tümleştirmede şablon eşleme](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Veri tümleştirmede şablon eşleme, Satış Siparişleri (Sales'den Supply Chain Management'a): Doğrudan: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Satış Siparişleri (Sales'den Supply Chain Management'a) - Doğrudan: OrderLine
 
-[![Veri tümleştirmede şablon eşleme](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Veri tümleştirmede şablon eşleme, Satış Siparişleri (Sales'den Supply Chain Management'a): Doğrudan: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>İlgili konular
 
-[Müşteri adayından nakde](prospect-to-cash.md)
+[Aday müşteriden nakde](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

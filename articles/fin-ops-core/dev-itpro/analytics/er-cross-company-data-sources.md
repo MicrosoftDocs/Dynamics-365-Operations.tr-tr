@@ -2,11 +2,9 @@
 title: Elektronik raporlamada (ER) şirketler arası veri kaynakları
 description: Bu konu, Elektronik raporlamada (ER) şirketler arası veri kaynaklarını nasıl kullanabileceğinizi açıklamaktadır.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/25/2018
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERModelMappingDesigner, ERFormatMappingLegalEntityFilterTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1a5c05b65c9022220056947471e95b703d923dc5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cfa6e61879618aede466bde3eafe582be36301e8a1609511b7e3bc3fe65ccfce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680842"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718539"
 ---
 # <a name="cross-company-data-sources-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) şirketler arası veri kaynakları
 
@@ -74,5 +72,8 @@ Bu özellik hakkında daha fazla bilgi için, 7.5.4.3 BT hizmeti/çözüm bileş
 
 Görev kılavuzunu tamamlamak için aşağıdaki dosyaları indirin:
 
-- [ER modeli yapılandırması - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [ER biçimi yapılandırması - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [ER modeli yapılandırması - CrossCompanyDataAccessModel.xml](https://download.microsoft.com/download/4/2/5/4258f891-7054-4821-aedd-3721ba25fdd5/CrossCompanyDataAccessModel.xml)
+- [ER biçimi yapılandırması - CrossCompanyDataAccessFormat.xml](https://download.microsoft.com/download/3/2/1/321deb75-3ba9-4323-99bf-207a52c60b5c/CrossCompanyDataAccessFormat.xml)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

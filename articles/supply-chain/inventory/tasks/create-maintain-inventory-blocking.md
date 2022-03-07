@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c6e047e15aaab157e6de70f4a09f500af2965f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b5fb3c7fc5dbeb6263357113d2a9348afc5b1ac9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439564"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212759"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Stok durdurma oluştur ve sürdür
 
@@ -52,3 +51,6 @@ Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kayn
 2. **Evet** seçeneğini tıklatın.
 3. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

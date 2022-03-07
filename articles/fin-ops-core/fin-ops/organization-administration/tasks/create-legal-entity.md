@@ -2,11 +2,9 @@
 title: Bir tüzel kişilik oluşturma
 description: Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kuruluştur.
 author: sericks007
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: d665c5e6f359ad51b2e247ac487c9e4cf23a85e90e91aae2bc9d3bb5cbb9e091
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759053"
 ---
 # <a name="create-a-legal-entity"></a>Bir tüzel kişilik oluşturma
 
@@ -45,3 +43,6 @@ Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kurul
 15. **Vergi kaydı** bölümünü genişletin. **Vergi kaydı** bölümünde, vergi kurumlarına bildirilirken kullanılacak kayıt numaralarını girin.
 16. **Vergi 1099** bölümünü genişletin. **Vergi 1099** bölümüne tüzel kişilik için 1099 bilgilerini girin.  
 17. **Kaydet**'e tıklayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

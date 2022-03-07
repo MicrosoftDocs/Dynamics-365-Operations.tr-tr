@@ -2,28 +2,25 @@
 title: Supply Chain Management giriş sayfası
 description: Bu sayfada Supply Chain Management özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
 author: kamaybac
-manager: tfehr
-ms.date: 06/30/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9255640240ae07c3857c0b6f55a7ee27ba3bf85b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ac5a8005851dc2894a0fbed74f47be6e1e14b58
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4460138"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416563"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management giriş sayfası
 
@@ -83,13 +80,12 @@ Aşağıdaki teknik konferans kayıtlarında, Finance and Operations'ın önceki
   - [Maliyet yönetimine genel bakış](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
 - **Master planlama:**
   - [Talep tahmini işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-  - [Master planlama: Performans sorunlarını gidermek için ipuçları ve püf noktaları](https://youtu.be/7v8BPmEs9Dg)
-  - [Yardım edin! MRP yavaş!](https://youtu.be/RLXybx20B5o)
+  - [Master planlama: Performans sorunlarını gidermeye yönelik ipuçları ve püf noktaları](https://youtu.be/7v8BPmEs9Dg)
+  - [MRP performansını ayarlama](https://youtu.be/RLXybx20B5o)
 - **Ürün bilgileri yönetimi:**
   - [Microsoft Dynamics AX'te ürün yapılandırıcısı](https://youtu.be/zotrj3SbCl4)
 - **Ambar yönetimi:**
   - [Ambar yönetimi sisteminizden en iyi şekilde yararlanma](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [Yeni Microsoft Dynamics AX 2012 R3 Ambar yönetiminde bulunan etiketler](https://youtu.be/5w1MngVchBA)
   - [Dynamics AX 2012 R3: Gelişmiş ambar yönetimi - Süreç bazlı üretimde bir gün](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Üretim denetimi videoları:**
   - [İmalatta alt sözleşme işlemleri ve faaliyetleri](https://youtu.be/y1jrd3A_k70)
@@ -98,13 +94,16 @@ Aşağıdaki teknik konferans kayıtlarında, Finance and Operations'ın önceki
 
 ## <a name="blogs"></a>Bloglar
 
-[Dynamics AX İmalat Ar-Ge Ekibi Blogu](https://blogs.msdn.microsoft.com/axmfg/) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi Blogu](https://blogs.msdn.microsoft.com/dynamicsaxscm/)'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü önceki sürüm için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir.
+[Dynamics AX İmalat Ar-Ge Ekibi Blogu](/archive/blogs/axmfg/) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi Blogu](https://blogs.msdn.microsoft.com/dynamicsaxscm/)'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü önceki sürüm için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir.
 
 ## <a name="white-papers"></a>Teknik incelemeler
 
-- [Yalın imalat: Teslim edilebilir miktar ve kanban işi planlaması](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
+- [Yalın imalat: Teslim edilebilir miktar ve kanban işi planlaması](/dynamics/s-e/)
 - [Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 
-Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path) konusuna bakın.
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Supply Chain Management](/learn/browse/?products=dynamics-scm&resource_type=learning+path) konusuna bakın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

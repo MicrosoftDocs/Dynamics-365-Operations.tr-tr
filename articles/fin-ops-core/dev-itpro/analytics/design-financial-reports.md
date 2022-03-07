@@ -2,6 +2,7 @@
 title: Mali raporları görüntüleme ve tasarlama
 description: Bu makale, Microsoft Dynamics 365 Finance için mali raporları görüntüleme ve oluşturma konusunda size yol gösteren alıştırmalar sağlar.
 author: jcart1106
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97ecc4daa05f4cbc10266d00366bf69e063af2ff
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724455"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564878"
 ---
 # <a name="view-and-design-financial-reports"></a>Mali raporları görüntüleme ve tasarlama
 
@@ -151,7 +152,7 @@ Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir Kon
 4. **Dosya** &gt; **Farklı Kaydet** seçimlerini yapın ve rapora **Konsolide Bilanço ve Gelir Beyannamesi Yan Yana** adını verin.
 5. Taban yılını 2012 olarak değiştirin.
 6. Ağaç türü açılır okunu tıklayın ve **Organizasyon Hiyerarşileri** seçimini yapın.
-7. Ağaç açılır okuna tıklayın ve **Contoso Holdings** seçeneğini belirleyin.
+7. Ağaç açılır okuna tıklayın ve **Contoso Holdings** seçimini yapın.
 8. Değişiklikleri kaydedin ve raporu oluşturun. İstenirse, tüm raporlama birimlerini seçin. Raporun oluşturulması tamamlandığında ve rapor açıldığında raporu inceleyebilirsiniz.
 9. **Rapor Seçenekleri** öğesini seçin.
 10. **Boyut filtresi ekle** öğesini ve **Departman** öğesini seçin.

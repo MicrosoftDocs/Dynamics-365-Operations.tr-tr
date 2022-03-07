@@ -1,30 +1,29 @@
 ---
 title: Kamu sektörü giriş sayfası
-description: Microsoft Dynamics 365 Finance, hem kamu sektörüne hem de özel sektöre bütçeleme, satın alma, borç hesapları ve alacak hesapları görevleri gibi yaygın olarak kullanılan iş süreçlerini sağlar.
-author: ShylaThompson
-manager: AnnBe
+description: Dynamics 365 Finance, genel kamu sektörü iş süreçlerini destekler. Bu işlemler bütçelendirme, satın alma, borç hesapları ve alacak hesapları görevlerini içerir.
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 20691
+ms.custom:
+- "20691"
+- intro-internal
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f59522ab857445d69012f4cfdfade47c40189266
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4460088"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817753"
 ---
 # <a name="public-sector-home-page"></a>Kamu sektörü giriş sayfası
 
@@ -60,17 +59,18 @@ Kamuya hizmet veren kuruluşların kurallara, düzenlemelere ve raporlama gerekl
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>Kamu sektörü yapılandırma anahtarı diğer yapılandırma anahtarlarıyla nasıl ilgilidir?
 Aşağıdaki tabloda bu yapılandırma anahtarının diğer yapılandırma anahtarlarıyla nasıl ilgili olduğu hakkındaki bilgiler sunulmaktadır.
 
-|            |                                                                                                                                                                                                                     |
+|   **Ayrıntı**         |              **Açıklama**                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Ayrıntı** | **Açıklama**                                                                                                                                                                                                     |
 | Ana anahtar | Hiçbiri                                                                                                                                                                                                                |
 | Alt anahtarlar | **Gelişmiş genel muhasebe girişi** yapılandırma anahtarı (AdvancedLedgerEntry) **Kamu sektörü 1099G** yapılandırma anahtarı (Tax1099G) **Kamu sektörü 1099S** yapılandırma anahtarı (Tax1099S) **Fransa mevzuatı** yapılandırma anahtarı |
 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Kamu sektörü işlevi için planlama](plan-public-sector-functionality.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

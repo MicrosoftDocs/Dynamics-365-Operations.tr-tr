@@ -2,16 +2,13 @@
 title: Kısmi konum döngü sayımı
 description: Döngü sayımı planları, gerçek sayım işlemlerine yol gösterir. Bir konumdaki tüm eldeki stokun sayılması yerine yalnızca belirli ürünlerin ve ürün çeşitlerinin sayılmasını talep edebilirsiniz.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778446"
 ---
 # <a name="partial-location-cycle-counting"></a>Kısmi konum döngü sayımı
 
@@ -49,7 +46,7 @@ Kısmi döngü sayım işi işleme alınmadan önce, döngü sayım kurulumunun 
 Kısmi döngü sayımı işlemi için, belirli bir konumdaki eldeki tüm maddeler sayılsa dahi, **Son döngü sayımı** tarihi/saati, yerleşim için güncelleştirilmez. Kısmi döngü sayımı, **Döngü sayımı planları** sayfasındaki **Döngü sayımı arasındaki günler** parametresini dikkate almaz. Kısmi döngü sayımı aynı konumda birden fazla öğenin eşzamanlı olarak sayılmasını desteklemez. Kısmi döngü sayımı işlevi **Döngü sayım planını işle** öğesi çalıştırıldığında aynı konumun bir madde için birden çok kez sayılmasına neden olabilir. Bu senaryoyu önlemek için **Konumları seç** alanında filtreler belirtin.
 
 > [!NOTE]
-> Kısmi döngü sayımı sürecini kullandığınızda, ambar uygulaması **LP veya madde ekle** düğmesini sağlamaz.
+> Kısmi döngü sayımı sürecini kullandığınızda, Ambar Yönetimi mobil uygulaması **LP veya madde ekle** düğmesini sağlamaz.
 
 ## <a name="example"></a>Örnek
 
@@ -62,3 +59,6 @@ Bu örnekte, ambar 61'de yalnızca ürün numarası A0001 sayılacaktır.
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Döngü sayımı](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

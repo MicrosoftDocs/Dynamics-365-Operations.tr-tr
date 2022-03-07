@@ -2,26 +2,23 @@
 title: Ticari tahsisat yönetimi
 description: Dynamics 365 Supply Chain Management için tahsilat kodlarının yönetimini açıklar.
 author: t-benebo
-manager: tfehr
 ms.date: 08/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTable, MCRRoyaltyVendTrans, PdsCustRebateGroup, PdsRebateAgreement, TAMCopyTradePromotions, TAMDeduction, TAMDeductionCreate, TAMDeductionDenyReason, TAMDeductionParmDeny, TAMDeductionParmMassUpdate, TAMDeductionParmMatch, TAMDeductionParmSplit, TAMDeductionParmWriteOff, TAMDeductionType, TAMDeductionWriteOffReason, TAMFundManagement, TAMFundUsage, TAMListPage, TAMMarketingObjective, TAMMerchEventType, TAMOneTimePromotion, TAMPromoCompareGraph, TAMPromoStatistic, TAMPromotionAnalysisSummary, TAMPromotionParameters, TAMPromotionPeriod, TAMTemplateListPage, TAMTradePromotionAnalysis, TAMTradePromotions, TAMWhatIfPromotionAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 13b665427a4caf206e0a3b3aca6b04c1529b9206
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15c003109814d9b4dc2857910e69754e5927ec11138d215056be64424998bf00
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771287"
 ---
 # <a name="trade-allowance-management"></a>Ticari tahsisat yönetimi
 
@@ -62,7 +59,7 @@ Ticari tahsisat sözleşmesi, performans için ödeme parasının spesifik hacim
 
 Ticari tahsisat sözleşmeleri için tahsis edilen fonlar, **Fonlar** sayfasına kaydedilir. **Fonlar** sayfasını açmak için **Satış ve pazarlama** \> **Ticari tahsisatlar** \> **Fonlar** \> **Fonlar**'ı seçin.
 
-![Fon sayfası](./media/trade-allowance-management-funds-page.png "Fon sayfası")
+![Fon sayfası.](./media/trade-allowance-management-funds-page.png "Fon sayfası")
 
 **Fonlar** sayfasında, promosyon fonlarının ayrıntılarını görüntüleyebilirsiniz.
 
@@ -78,9 +75,9 @@ Fon tanımının yerine konulmasının ardından promosyon planlamada sonraki ad
 
 Ticari tahsisat sözleşmeleri, **Ticari tahsisat sözleşmeleri** sayfasına kaydedilir. **Ticari tahsisat sözleşmeleri** sayfasını açmak için **Satış ve pazarlama** \> **Ticari tahsisatlar** \> **Ticari tahsisat sözleşmeleri**'ni seçin.
 
-![Ticari tahsisat sözleşmeleri sayfası](./media/trade-allowance-management-agreements-page.png "Ticari tahsisat sözleşmeleri sayfası")
+![Ticari tahsisat sözleşmeleri sayfası.](./media/trade-allowance-management-agreements-page.png "Ticari tahsisat sözleşmeleri sayfası")
 
-#### <a name="header"></a>Başlık
+#### <a name="header"></a>Üst bilgi
 
 Üstbilgi görünümünü değiştirmek için **Üstbilgi**'yi seçin.
 
@@ -106,7 +103,7 @@ Ardından, Hatlar görünümünü değiştirmek için **Hatlar**'ı seçin.
 
 Emtia olayını ve ardından **Tutarlar** sekmesini seçtiğinizde olayın detayları bulunur.
 
-![Ticari tahsisat sözleşmesi satırları](./media/trade-allowance-management-agreements-lines.png "Ticari tahsisat sözleşmesi satırları")
+![Ticari tahsisat sözleşmesi satırları.](./media/trade-allowance-management-agreements-lines.png "Ticari tahsisat sözleşmesi satırları")
 
 **Ticari tahsisat satırları** bölümünde, müşterinin ödül elde etmek için tanımlananları gerçekleştirmek zorunda olduğu miktar veya tutar aralıklarını belirtirsiniz.
 
@@ -200,3 +197,6 @@ Promosyon için çeşitli performans ölçümlerine dair daha analitik bir genel
 
 Promosyon için çeşitli performans ölçümlerine dair daha analitik bir genel bakış elde etmek isterseniz Analiz görünümünü kullanabilirsiniz. Analiz görünümüne gitmek için **Satış ve pazarlama** \> **Ticari tahsisatlar** \> **Ticari tahsisat sözleşmeleri**'ne tıklayın. Eylem Bölmesi'nde **Analiz**'e tıklayın. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

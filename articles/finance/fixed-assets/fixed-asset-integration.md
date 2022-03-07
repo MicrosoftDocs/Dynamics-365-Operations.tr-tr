@@ -1,10 +1,12 @@
 ---
 title: Sabit kıymet tümleştirmesi
 description: Sabit kıymetler Genel muhasebe, Stok yönetimi, Alacak hesapları ve Borç hesapları ile entegre olabilir. Sabit kıymetleri satınalma emirleri ile entegre olacak biçimde de ayarlayabilirsiniz.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e53d171ba0b9be7bbfffa25c27bd21fe036acee
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: ba1fad55082abaaeaf1874698d7475597f23904f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674787"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240927"
 ---
 # <a name="fixed-assets-integration"></a>Sabit kıymet tümleştirmesi
 
@@ -28,7 +30,8 @@ ms.locfileid: "7674787"
 
 Sabit kıymetler Genel muhasebe, Stok yönetimi, Alacak hesapları ve Borç hesapları ile entegre olabilir. Sabit kıymetleri satınalma emirleri ile entegre olacak biçimde de ayarlayabilirsiniz.
 
-## <a name="general-ledger"></a>Genel muhasebe
+<a name="general-ledger"></a>Genel muhasebe
+--------------
 
 Genel muhasebede, tüm sabit kıymetlerin değeri genel olarak mali raporlama için gereken birden fazla ana hesapta özetlenir. Ancak, **Sabit kıymetler** sayfasında birçok sabit kıymet kaydı oluşturabilirsiniz. Bu kayıtlar alım fiyatı, amortisman ve değerleme gibi bilgiler içerebilir. Sabit kıymet için deftere her hareket nakledişinizde, ilgili ana hesaplar güncelleştirilir. Sabit kıymetlere ilişkin ana hesaplar her zaman sabit kıymetlerin güncelleştirilmiş değerini gösterir.
 

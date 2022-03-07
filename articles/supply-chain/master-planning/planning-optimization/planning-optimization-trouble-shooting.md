@@ -2,16 +2,13 @@
 title: Planlamayı En İyi Duruma Getirmeyle İlgili Sorunları Giderme
 description: Bu konu, Planlamayı En İyi Duruma Getirme ile çalışırken karşılaşabileceğiniz sorunların nasıl düzeltileceğini açıklamaktadır.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c3dd0bf262f65aac2359c05ff954bdfbd294353f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbf21abae60d4adee5a23a8405d14907b91724fa2cbf31c901bb46c589b2ea49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768107"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeyle İlgili Sorunları Giderme 
 
@@ -50,12 +47,6 @@ Planlamayı En İyi Duruma Getirme, bazı alanlardaki yerleşik ana planlama tas
 
 **Düzeltme**: Planlamayı En İyi Duruma Getirme uygun analizini çalıştırın ve sonra, etkisini anlamak için ilgili belgelere başvurarak sonuçları analiz edin. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md).
 
-## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>Ana planlama, kapsam zaman dilimine uymuyor
-
-Bunun nedeni, Planlamayı En İyi Duruma Getirme için bekleyen bir özelliktir.
-
-**Düzeltme**: Beklemedeki özellik kullanılabilir hale gelinceye kadar, kapsam zaman diliminin dışındaki tedarik önerilerini kaldırmak için planlanmış siparişleri filtreleyin veya silin.
-
 ## <a name="cant-enable-planning-optimization"></a>Planlamayı En İyi Duruma Getirme etkinleştirilemiyor
 
 **Planlamayı En İyi Duruma Getirmeyi Kullan** ayarını **Evet** olarak ayarlamadan önce **Bağlantı durumu** değerinin **Bağlı** olması gerekir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirmeye başlayın](get-started.md).
@@ -75,3 +66,6 @@ Bu, üretim emirleri desteğinin bir parçası olarak planlanan beklemedeki bir 
 [Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama](get-started.md)
 
 [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Organizasyon hiyerarşisine kanal ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te bir organizasyon hiyerarşisine nasıl kanal ekleneceği açıklanmaktadır.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 701c90e8e28b4419422cddde698e9c9862a588a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416389"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800699"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Organizasyon hiyerarşisine kanal ekleme
 
@@ -82,3 +79,6 @@ Aşağıdaki resim, çeşitli kanalların ekli olduğu bir hiyerarşiyi gösteri
 [Perakende kanalını ayarlama](channel-setup-retail.md)
     
 [Çevrimiçi kanal ayarlama](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

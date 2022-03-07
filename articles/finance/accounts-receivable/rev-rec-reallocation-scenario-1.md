@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a0add2d4bc01127c1f359736398123a6a3df9fe
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 25fb32ce72555e573cd37a0ab092b51b99bb4372
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969664"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260889"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Gelir kabulü yeniden tahsisatı – Senaryo 1
 
@@ -58,3 +58,6 @@ Yeniden tahsisatı tamamlamak için **İşlem**'i seçin. Deftere hiçbir şey d
 > Bu ek maddelerin neden gösterildiğiyle ilgili bağlam sağlamak için kılavuza **Yeniden tahsisat kodu** ve **Satış siparişi** gibi başka sütunlar ekleyebilirsiniz.
 > 
 > [![Gelir fiyatı tahsisatları sayfasındaki ek sütunlar](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

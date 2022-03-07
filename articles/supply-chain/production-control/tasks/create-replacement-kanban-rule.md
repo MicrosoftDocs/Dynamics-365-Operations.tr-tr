@@ -1,28 +1,25 @@
 ---
 title: Değiştirme kanban kuralı oluşturma
 description: Bu prosedürde mevcut bir kanban kuralının belirli bir tarihte yeni bir kanban kuralıyla nasıl değiştirileceği açıklanmıştır.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae589f81811c1586e0e24de94eaf5f467f19debb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2db44c1b43a6dc5e0ab37a7756c4eecaab468e15
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439012"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570069"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Değiştirme kanban kuralı oluşturma
 
@@ -56,3 +53,6 @@ Bu prosedürde mevcut bir kanban kuralının belirli bir tarihte yeni bir kanban
 1. Maksimum miktarı '100' olarak ayarlayın.
     * Maksimum miktar alanını görüntülemek için Miktarlar Hızlı Sekmesini genişletin. Maksimum miktarın 100 olarak değiştirilmesi 100 kanban'a kadar işlenmesine izin verir.    Bu, bu görevdeki son adımdır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

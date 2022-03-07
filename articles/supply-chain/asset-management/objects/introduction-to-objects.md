@@ -1,28 +1,28 @@
 ---
 title: Kıymetler tanıtımı
 description: Bu konuda, Kıymet Yönetimi'ndeki kıymetlere genel bir bakış sağlanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetTimeline, EntAssetObjectTableLookup, EntAssetObjectTableParent, EntAssetObjectOverview, EntAssetObjectImage, EntAssetObjectTable, EntAssetLifecycleStateLog, EntAssetObjectWorkOrderActive, EntAssetObjectAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2214
+ms.custom:
+- "2214"
+- intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f629ebdf7423ca75fe215b0a3223478685fe95c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767520"
 ---
 # <a name="introduction-to-assets"></a>Kıymetler tanıtımı
 
@@ -77,3 +77,6 @@ Eylem Bölmesi'ndeki düğmeler sekmeler halinde düzenlenmiştir. Aşağıdaki 
 | Yedek parçalar          | Kıymette kullanılabilecek onaylanmış ve alternatif yedek parçaların listesini görüntüleyin.                                                                               |
 | Kıymet tüketimi    | Kıymetin tüketim kayıtlarını gösteren bir rapor yazdırın.                                                                                                |
 | Kıymet hatası          | Kıymetin hata kayıtlarını gösteren bir rapor yazdırın.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

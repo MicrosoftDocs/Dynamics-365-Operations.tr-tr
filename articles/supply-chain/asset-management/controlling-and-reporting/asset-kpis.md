@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8741ad9c70182c0f4f9d4d5272a023a3627340f6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021792"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253818"
 ---
 # <a name="asset-kpis"></a>Kıymet KPI'ları
 
@@ -89,3 +89,6 @@ Aşağıdaki şekil dört kıymet için bir KPI hesaplamasının ekran görünt�
 - **Tüm varlıklar** alanında birden fazla varlık için çoklu seçim yapabilirve **Genel** sekmesindeki **Varlık KPI'ları** düğmesine tıklayabilirsiniz. Ardından, seçilen varlıkların KPI'larını hesaplamak için **Varlık KPI'ları hesapla** iletişim kutusunda **Tamam**'a tıklayın.  
 - Bir KPI hesaplamasından alınan sonuçlar, kuruluma ve kesinti süresi neden kodlarının ayarına ve kullanımına bağlı olarak [bakım süresi kayıtlarını](../work-orders/maintenance-downtime.md) içerebilir veya içermeyebilir. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

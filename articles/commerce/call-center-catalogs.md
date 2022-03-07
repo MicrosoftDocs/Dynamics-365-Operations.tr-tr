@@ -2,16 +2,13 @@
 title: Çağrı merkezi katalogları
 description: Bu konu Dynamics 365 Commerce'te kataloglar için çağrı merkezine özel işlevler açıklanır.
 author: josaw1
-manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4416573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742524"
 ---
 # <a name="call-center-catalogs"></a>Çağrı merkezi katalogları
 
@@ -42,7 +39,7 @@ Doğrudan tüketiciye yönelik pazarlama şirketleri katalog üretim ve postalam
 
 Kataloğunuzu yapılandırmak için **Retail and Commerce** \> **Kataloglar ve ürün çeşitleri** \> **Tüm kataloglar**'a gidin.
 
-Yeni bir katalog oluştururken önce kataloğu bir veya daha fazla kanala bağlamanız gerekir. Bu işlem **Katalog kurulumu** formundaki **Commerce kanalları** hızlı sekmesinde yapılır. **Ekle**'ye tıklayın ve bir ya da daha fazla kanal seçin. Katalog oluştururken yalnızca seçtiğiniz kanal [ürün çeşitlerine](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments) bağlı maddeler kullanılabilir.
+Yeni bir katalog oluştururken önce kataloğu bir veya daha fazla kanala bağlamanız gerekir. Bu işlem **Katalog kurulumu** formundaki **Commerce kanalları** hızlı sekmesinde yapılır. **Ekle**'ye tıklayın ve bir ya da daha fazla kanal seçin. Katalog oluştururken yalnızca seçtiğiniz kanal [ürün çeşitlerine](/dynamics365/unified-operations/retail/assortments) bağlı maddeler kullanılabilir.
 
 Kataloğa ürünler eklemek için bir gezinme hiyerarşisi seçilmelidir. Gezinme hiyerarşisi, katalog için kategori yapısını destekler. **Katalog** sayfasındaki **Commerce kanalları** hızlı sekmesinde seçili kanallara bağlı gezinme hiyerarşilerinden birini seçmeniz gerekir. Bir kanala önceden bir gezinme kanalı bağlanmadıysa **Retail and Commerce** \> **Kanal kurulumu** \> **Kanal kategorileri ve ürün öznitelikleri**'ne giderek, kanallarınızın her birine varsayılan bir gezinme hiyerarşisi bağlayın.
 
@@ -101,3 +98,6 @@ Kataloglar Commerce'te yapılandırılıp yayımlandığı için, **Kataloğu g�
 ## <a name="additional-notes"></a>Ek notlar
 
 Şimdilik, çağrı merkezinde bir satış siparişine uygulanan kaynak kodu kimliği; fiyatları, promosyonları, komut dosyalarını ve dikey satış/çapraz satışları yönetmek için kullanılmaktadır. Sistem, katalogda olmayan bir ürünün satış siparişinde sipariş edilmesine bir yasak veya engel getirmeyecektir. Katalogda yer almayan bir madde sipariş edilirse, sistem ilk olarak çağrı merkezi kanalında (**Retail and Commerce** \> **Kanallar** \> **Çağrı merkezleri** \> **Tüm çağrı merkezleri**) madde fiyatı ve promosyonları için tanımlanan **Fiyat grubunu** kullanır. Belirli bir kanal fiyatı bulunamazsa, maddenin taban satış fiyatı kullanılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

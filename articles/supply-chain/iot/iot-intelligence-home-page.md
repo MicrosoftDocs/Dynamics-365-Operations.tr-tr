@@ -1,24 +1,24 @@
 ---
 title: IoT Zekası giriş sayfası
 description: Bu konu, IoT Zekası hakkındaki bilgilere bağlantılar sağlar.
-author: tonyafehr
+author: robinarh
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: tfehr
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b6c179052cdb9d1ca808d9cba089163bde0d5d5
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 2f32cb5578f3c15a10f863980491a687f64312cd
+ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782693"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7652107"
 ---
 # <a name="iot-intelligence-home-page"></a>IoT Zekası giriş sayfası
 

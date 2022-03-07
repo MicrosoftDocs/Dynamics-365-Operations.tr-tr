@@ -1,26 +1,23 @@
 ---
 title: Uygulanabilir fiyatları ve iskontoları arama
 description: Bu yordam, bir satış siparişi oluşturmak zorunda kalmadan belirli bir müşteri için geçerli olan ürün fiyat ve iskonto bulmayı gösterir.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c80ae00e1bcbc4498ec4705195c3208170cee1b1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439099"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578932"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Uygulanabilir fiyatları ve iskontoları arama
 
@@ -60,3 +57,6 @@ Müşteri hesabı alanının müşteri numarası US-001'i içerdiğinden emin ol
     * Ürün T0012 için iki indirim sözleşmesi vardır; 1 il 10 arasında sipariş satırı miktarı içi yüzde 5 ve 10 üzerinde sipariş miktarlar için yüzde 7 indirim. Bir indirimin bir grup ürüne uygulandığını (bu örnekteki ürün T0012'nin bir parçası olduğu Grup kodu 01) unutmayın.  
 4. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

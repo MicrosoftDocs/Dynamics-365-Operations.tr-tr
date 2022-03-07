@@ -2,11 +2,9 @@
 title: Regression Suite Automation Tool kullanarak veri belirsiz test
 description: Bu konu altında, Regression Suite Automation Tool kullanarak veri belirsiz test yapma önerileri tartışılmaktadır.
 author: kfend
-manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763422"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Regression Suite Automation Tool kullanarak veri belirsiz test
 
@@ -32,7 +30,7 @@ Bir ERP uygulamasının işlevsel doğrulaması tam veri belirsiz olamaz; test e
 - ATL çerçevesi
 - Regression Suite Automation Tool (RSAT)
 
-[![Test sınıflandırması piramidi](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Test sınıflandırması piramidi.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Genel bakış
 -   **SysTest çerçevesi** – SysTest çerçevesi, birim testleri yazmak için güvenilirdir. Birim testleri genellikle bir yöntem veya işlevi test ettiğinden, her zaman veri belirsiz olmaları ve yalnızca testin parçası olarak sağlanan giriş verilerine bağlı olmaları gerekir.
@@ -44,8 +42,11 @@ Bir ERP uygulamasının işlevsel doğrulaması tam veri belirsiz olamaz; test e
     - Fatura numarası gibi benzersiz kimlik tanımlayıcıları numara sırasına göre veya =TEXT(NOW(),"yyyymmddhhmm") gibi Microsoft Excel işlevlerini kullanarak girin. Bu işlev, her dakika, bu eylemin ne zaman gerçekleştiğini izlemenize olanak sağlayan benzersiz bir numara sağlayacaktır. Bu, ürün giriş numaraları ve satıcı fatura numaraları gibi değişkenler için kullanılabilir. Bu testler, geri yükleme gerektirmeden, aynı veritabanı üzerinde tekrar tekrar çalışmaya devam eder.
     - Varsayılan seçenek **Otomatik** olduğundan, ortamın **Düzenleme modu** ayarını ilk test olayı olarak **Oku** veya **Düzenle** yapın. **Otomatik** seçenekleri her zaman önceki ayarı kullanır ve güvenilmez testlere neden olabilir. 
  
-    [![Seçenekler sayfası, Performans sekmesi](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Seçenekler sayfası, Performans sekmesi.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Genel doğrulama yerine yalnızca belirli bir harekete filtre uyguladıktan sonra doğrulayın. Örneğin kayıt numarası için hareket numarasına veya hareket tarihine filtre uygulayarak, doğrulamanın tüm diğer hareketleri hariç tutmasını sağlayın. 
     - Bir müşteri bakiyesini veya bütçe kontrolünü denetliyorsanız, önce değeri kaydedin ve ardından, sabit beklenen değeri doğrulamak yerine, beklenen sonucu doğrulamak için hareket değerini ekleyin. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

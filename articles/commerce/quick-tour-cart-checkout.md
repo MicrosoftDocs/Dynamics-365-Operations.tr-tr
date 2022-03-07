@@ -2,35 +2,30 @@
 title: Sepet ve ödeme sayfalarına genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta sepet ve ödeme sayfalarına genel bakış sağlar.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416532"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982980"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Sepet ve ödeme sayfalarına genel bakış
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta sepet ve ödeme sayfalarına genel bakış sağlar.
-
-## <a name="overview"></a>Genel Bakış
 
 Bir e-ticaret web sitesinin alışveriş sayfası bir müşterinin sepete eklediği tüm maddeleri gösterir. Alışveriş sepeti sayfası, sepet modülü kullanılarak oluşturulur. Bir sepet modülü, sepetteki öğelerin gösterimi için gerekli olan tüm modülleri barındırmak için kullanılan bir konteynerdir. Sepet modülü ayrıca sipariş özetini ve müşteri emrine uygulanan promosyon kodlarını göstermek için diğer modülleri de kullanabilir.
 
@@ -42,7 +37,7 @@ Sepet sayfası, alışveriş çantası olarak hizmet görür ve sepete eklenen t
 
 Aşağıdaki çizimde, modül kitaplığı ve "Fabrikam" teması kullanılarak oluşturulmuş bir sepet sayfası örneği gösterilmektedir.
 
-![Sepet sayfası örneği](./media/cart2.PNG)
+![Sepet sayfası örneği.](./media/cart2.PNG)
 
 Sepet sayfasının ana bölümü bir müşterinin sepete eklediği tüm maddeleri gösterir. İlgili tüm indirimler göster. Bu iskontolar karmaşık iskontolar içerir. Örneğin, "3 öğe satın alın ve %10 indirim" veya "%10 indirim için şişe ve sırt çantası satın alın" gibi örnekler verilebilir. Sipariş Özeti modülü iskontolar, Sevkiyat, vergiler vb. sonrasında ödenmesi gereken tutarı gösterir. Ayrıca, müşterinin promosyon kodları uygulamasını veya kaldırmasını sağlayan bir promosyon kodu modülü de vardır.
 
@@ -58,7 +53,7 @@ Kullanıma alma sayfası, müşterinin bir siparişi yerleştirmek için gereken
 
 Aşağıdaki çizimde, modül kitaplığı kullanılarak oluşturulmuş bir ödeme sayfası örneği gösterilmektedir.
 
-![Ödeme sayfası örneği](./media/Checkout.PNG)
+![Ödeme sayfası örneği.](./media/Checkout.PNG)
 
 Kullanıma alma sayfasının ana gövdesi tüm sipariş bilgilerinin toplandığı yerdir. Bu bilgiler sevkiyat adresi, teslimat seçenekleri ve ödeme bilgilerini içerir. Bilgilerin işlenmesi için belirli bir sırada girilmesi gerektiğinden, teslim alma sırasında adım adım bir akış vardır. Örneğin, Sevkiyat maliyetleri hesaplanmadan ödeme yetkilendirilebileceği şekilde, sevkiyat adresi girilmelidir.
 
@@ -107,3 +102,6 @@ Bir ödeme sayfasının nasıl yazılacağıyla ilgili daha fazla bilgi için, b
 [Ürün ayrıntıları sayfalarına genel bakış](quick-tour-pdp.md)
 
 [Hesap yönetimi sayfalarına genel bakış](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

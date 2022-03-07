@@ -2,25 +2,22 @@
 title: Eski ürün çeşitlerini bulma
 description: Bu yordam eski ürünleri veya ürün çeşitlerini nasıl bulabileceğinizi ve bir ürün yaşam döngüsü durumunu eski ürünlerle nasıl ilişkilendirebileceğinizi gösterir.
 author: cvocph
-manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5efd1d471559d320102cd81e4be1ba8c1858f45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 807297a87a7f0e59023d80fbd371bffbf2b086bd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439152"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808004"
 ---
 # <a name="find-obsolete-product-variants"></a>Eski ürün çeşitlerini bulma 
 
@@ -73,3 +70,6 @@ Bu yordam eski ürünleri veya ürün çeşitlerini nasıl bulabileceğinizi ve 
 
 8. Listede, istenen kaydı bulun ve seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: İade edilen ürünler için varış günlüğünü deftere nakletme
 description: İade edilen ürünler için varış günlüğünü deftere nakledin.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e07542a369506b810704012bd1b07557b79f50d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a16514578ff6a1ffc3514d0110f46bb71c2cc394
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439474"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576436"
 ---
 # <a name="post-arrival-journal-for-returned-products"></a>İade edilen ürünler için varış günlüğünü deftere nakletme 
 
@@ -58,3 +55,6 @@ Günlük deftere nakledildikten sonra, iade edilen maddeler stoka kaydedilir ve 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

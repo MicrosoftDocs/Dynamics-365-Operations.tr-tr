@@ -1,30 +1,27 @@
 ---
 title: Teslimat alternatifleri
 description: Satış siparişi alanlar, Teslimat alternatif sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 271623
 ms.assetid: 527f6084-44fe-41bb-924f-4386e926358a
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 48cc8974cc8a8769b3d05f47f82166164e877ae5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f58f7923d82f3aa371ba916352211195870f9a75
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439341"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572637"
 ---
 # <a name="delivery-alternatives"></a>Teslimat alternatifleri
 
@@ -35,18 +32,20 @@ Satış siparişi alanlar, **Teslimat alternatifleri** sayfasını, alternatif s
 **Teslimat alternatifleri** sayfasının düzeni, tüm alternatif seçenekler hakkında genel bir görünüm verir. Ayrıca sipariş alanların, geçerli şirketin karşılama fırsatlarının ötesine bakmalarına izin verir. Şimdi hem şirketlerarası fırsatlar hem de harici satıcılardan fırsatları görebilirler. Seçenekleri teslimat tarihine göre dizerek, satış siparişi alanlar teslimat alternatiflerinin akıllı bir listesini görebilirler. Ek olarak, parametreler önerilen teslimatları daha iyi yönetmelerine yardımcı olur. Taşıma süresi teslimat tarihini etkileyebileceğinden, satış siparişi alanlar, taşıyıcının sunduğu çeşitli taşıma seçeneklerini keşfedebilirler. Her bir öneri için ayrıntılı bilgi sunulduğundan, sipariş alanlar **Teslimat alternatifleri** sayfasından doğrudan bilinçli kararlar verebilirler.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Teslimat alternatifleri sayfasını aç
+
 **Teslimat alternatifleri** sayfasını satış siparişi satırından açabilirsiniz.
 
-1.  **Ürün ve tedarik** &gt; **Teslimat alternatifleri** üzerine tıklayın.
-2.  **Satır ayrıntıları** &gt; **Teslimat** &gt; **Teslimat alternatifleri** üzerine tıklayın.
+1. **Ürün ve tedarik \> Teslimat alternatifleri**'ni seçin.
+1. **Satır ayrıntıları \> Teslimat \> Teslimat alternatifleri**'ni seçin.
 
-**Teslimat alternatifleri** sayfasını, **Satış siparişi işleme ve sorgu** çalışma alanını da açarak ve sonra **Siparişler ve favoriler** &gt; **Gecikmeli sipariş satırları** &gt; **Teslimat alternatifleri** üzerine tıklayarak açabilirsiniz **Not:** **Teslimat alternatifleri** sayfasını, yalnızca aşağıdaki koşullar yerine getiriliyorsa açabilirsiniz:
+**Teslimat alternatifleri** sayfasını, **Satış siparişi işleme ve sorgu** çalışma alanını açarak ve sonra **Siparişler ve sık kullanılanlar \> Ertelenen sipariş satırları \> Teslimat alternatifleri**'ni seçerek de açabilirsiniz. **Not**: **Teslimat alternatifleri** sayfasını, yalnızca aşağıdaki koşullar yerine getiriliyorsa açabilirsiniz:
 
--   Tüm zorunlu satış satır bilgileri girilmiştir.
--   **Teslimat tarih denetimi** alanı, **Yok**'tan başka bir değere ayarlanmıştır.
+- Tüm zorunlu satış satır bilgileri girilmiştir.
+- **Teslimat tarih denetimi** alanı, **Yok**'tan başka bir değere ayarlanmıştır.
 
 ## <a name="delivery-date-control-methods"></a>Teslimat tarihi kontrol yöntemleri
-Teslimat tarihi denetim yöntemi, sistemin teslimat tarihlerini nasıl oluşturduğunu, teslimat alternatiflerinin nasıl hesaplandığını ve hangi bilginin gösterildiğini belirler. Teslimat veri denetiminin takvimleri dikkate aldığını unutmayın. Bu nedenle, aşağıdaki takvimler önerilen giriş tarihini etkileyebilir: Ambar takvimi, Taşıma takvimi, Satıcı takvimi ve Müşteri takvimi. Aşağıdaki tablo teslimat tarihi denetimi için her bir yöntemi açıklar.
+
+Teslimat tarihi denetim yöntemi, sistemin teslimat tarihlerini nasıl oluşturduğunu, teslimat alternatiflerinin nasıl hesaplandığını ve hangi bilginin gösterildiğini belirler. Teslimat tarihi denetiminin takvimleri dikkate aldığını unutmayın. Bu nedenle, aşağıdaki takvimler önerilen giriş tarihini etkileyebilir: Ambar takvimi, Taşıma takvimi, Satıcı takvimi ve Müşteri takvimi. Aşağıdaki tablo teslimat tarihi denetimi için her bir yöntemi açıklar.
 
 <table>
 <colgroup>
@@ -61,7 +60,7 @@ Teslimat tarihi denetim yöntemi, sistemin teslimat tarihlerini nasıl oluşturd
 <tr class="even">
 <td><strong>Hiçbiri</strong></td>
 <td><ul>
-<li>Satış satırları için teslimat alternatifleri desteklenmez. Bu seçenek teslimat veri denetimini devre dışı bırakır.</li>
+<li>Satış satırları için teslimat alternatifleri desteklenmez. Bu seçenek teslimat tarihi denetimini devre dışı bırakır.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -102,54 +101,53 @@ Teslimat tarihi denetim yöntemi, sistemin teslimat tarihlerini nasıl oluşturd
 </table>
 
 ## <a name="view-information-about-delivery-alternatives"></a>Teslimat alternatifleri hakkında bilgi görüntüle
-Bu bölüm, **Teslimat alternatifleri** sayfasının her sekmesinde bulunan teslimat alternatifleri hakkında bilgileri açıklamaktadır.
 
-### <a name="products"></a>Ürünler
+Bu bölüm, **Teslimat alternatifleri** sayfasının her hızlı sekmesinde bulunan teslimat alternatifleri hakkında bilgileri açıklamaktadır.
 
-Bu sekme, geçerli satış satırının ürün ve ayrıntılarının bir özetini gösterir.
+### <a name="the-product-fasttab"></a>Ürün hızlı sekmesi
 
-### <a name="delivery-alternatives"></a>Teslimat alternatifleri
+Bu hızlı sekme, geçerli satış satırının ürün ve ayrıntılarının bir özetini gösterir.
 
-Bu sekme, giriş verisine göre sıralanan bir teslimat alternatiflerinin listesini gösterir. Listenin yukarısında, önerilerin hangi seçeneklere dayanacağını seçebilirsiniz. Ayrıca taşıma gününü belirleyen teslimat şeklini de seçebilirsiniz. Aşağıdaki seçenekler bulunur:
+### <a name="the-delivery-alternatives-fasttab"></a>Teslimat alternatifleri hızlı sekmesi
 
--   **Diğer ürün çeşitlerini dahil et** - Bu seçenek, ürün çeşitlerine sahip ürünler için kullanılabilir. Ürünün diğer çeşitlerinin teslimat alternatiflerini dahil eder. Bu seçenek TEM için kullanılamaz.
--   **Kısmi miktar dahil et** - Varsayılan olarak, yalnızca satış satırının tüm miktarını karşılayan öneriler dahil edilir. Bu seçeneği işaretleyerek, satış siparişini kısmi olarak karşılayan önerileri dahil edin. Müşteri daha erken bir teslimat tarihi talep ediyor ve kısmi teslimatı kabul ediyorsa, bu seçenek yararlıdır.
--   **Sonraki tarihleri dahil et** - Varsayılan olarak, yalnızca satış satırındaki tarihlerden daha iyi (erken) olan öneriler gösterilir. Sonraki tarihleri dahil etmek için bu seçeneği belirleyin. Bu seçenek, tarihten başka parametrelerin önceliği olduğunda yararlı olabilir. Örneğin, belirli bir satıcı veya ambar tercih edilebilir.
--   **Teslimat şekli** - Taşıma süresi ve maliyetini en iyi duruma getirmek için tercih edilen teslimat şeklini seçin. Önerilen teslimat alternatifleri üzerindeki etkisi hemen görünür. Bu nedenle, bu alternatifleri karşılaştırmak kolaydır.
--   **Tedariki dahil et** - Tedarik seçildiğinde, önerilen teslimat alternatifleri hem harici satıcıları ve hem de kuruluştaki diğer şirketleri (şirketlerarası) içerir. **Tedariki dahil et** seçeneği KM ve KM + çıkış marjı için desteklenir. Ürün için varsayılan satınalma satıcısından tüm tedarik seçenekleri ve ürün için tüm onaylanan satıcılar dahil edilir.
--   Harici satıcılar için, hesaplama satınalma sağlama süresine dayanır.
--   Hesaplama, sirketlerarası için tedarikçi şirketten nelerin kullanılabilir olduğunu, tedarikçi şirketin teslimat tarihi denetimine dayanarak dikkate alır.
--   **Teslimat türü** (Tedarik için ilgili)
-    -   **Stok** - Ürünler tedarikçi ambardan, satış hattındaki tesise/ambara sevk edilir. Daha sonra bu ambardan müşteriye sevk edilir.
-    -   **Doğrudan teslim** - Ürünler doğrudan tedarikçi ambardan müşteriye sevk edilir.
+Bu hızlı sekme, giriş tarihine göre sıralanan teslimat alternatiflerinin listesini gösterir. Listenin yukarısında, önerilerin hangi seçeneklere dayanacağını seçebilirsiniz. Ayrıca taşıma gününü belirleyen teslimat şeklini de seçebilirsiniz. Aşağıdaki seçenekler bulunur:
 
-### <a name="availability-information"></a>Kullanılabilirlikle ilgili bilgiler
+- **Diğer ürün çeşitlerini dahil et** - Bu seçenek, ürün çeşitlerine sahip ürünler için kullanılabilir. Ürünün diğer çeşitlerinin teslimat alternatiflerini dahil eder. Bu seçenek TEM için kullanılamaz.
+- **Kısmi miktar dahil et** - Varsayılan olarak, yalnızca satış satırının tüm miktarını karşılayan öneriler dahil edilir. Bu seçeneği işaretleyerek, satış siparişini kısmi olarak karşılayan önerileri dahil edin. Müşteri daha erken bir teslimat tarihi talep ediyor ve kısmi teslimatı kabul ediyorsa, bu seçenek yararlıdır.
+- **Sonraki tarihleri dahil et** - Varsayılan olarak, yalnızca satış satırındaki tarihlerden daha iyi (erken) olan öneriler gösterilir. Sonraki tarihleri dahil etmek için bu seçeneği belirleyin. Bu seçenek, tarihten başka parametrelerin önceliği olduğunda yararlı olabilir. Örneğin, belirli bir satıcı veya ambar tercih edilebilir.
+- **Teslimat şekli** - Taşıma süresi ve maliyetini en iyi duruma getirmek için tercih edilen teslimat şeklini seçin. Önerilen teslimat alternatifleri üzerindeki etkisi hemen görünür. Bu nedenle, bu alternatifleri karşılaştırmak kolaydır.
+- **Tedariki dahil et** - Tedarik seçildiğinde, önerilen teslimat alternatifleri hem harici satıcıları ve hem de kuruluştaki diğer şirketleri (şirketlerarası) içerir. **Tedariki dahil et** seçeneği KM ve KM + çıkış marjı için desteklenir. Ürün için varsayılan satınalma satıcısından tüm tedarik seçenekleri ve ürün için tüm onaylanan satıcılar dahil edilir.
+- Harici satıcılar için, hesaplama satınalma sağlama süresine dayanır.
+- Hesaplama, sirketlerarası için tedarikçi şirketten nelerin kullanılabilir olduğunu, tedarikçi şirketin teslimat tarihi denetimine dayanarak dikkate alır.
+- **Teslimat türü** (Tedarik için ilgili)
+  - **Stok** - Ürünler tedarikçi ambardan, satış hattındaki tesise/ambara sevk edilir. Daha sonra bu ambardan müşteriye sevk edilir.
+  - **Doğrudan teslim** - Ürünler doğrudan tedarikçi ambardan müşteriye sevk edilir.
 
-Bu sekme üzerindeki bilgi, seçilen teslimat alternatif satırıyla ilişkilidir. Satış satırındaki teslimat tarihi denetimine bağlı olarak aşağıdaki bilgiler gösterilir:
+### <a name="the-availability-information-fasttab"></a>Kullanılabilirlik bilgileri hızlı sekmesi
 
--   **Satış sağlama süresi**
-    -   **Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.
-    -   **Parametreler** - Stok birimi ve satış sağlama sürelerini göster.
+Bu hızlı sekme üzerindeki bilgi, seçilen teslimat alternatif satırıyla ilişkilidir. Satış satırındaki teslimat tarihi denetimine bağlı olarak aşağıdaki bilgiler gösterilir:
 
--   **KM ve KM + çıkış marjı**
-    -   **Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.
-    -   **Parametreler** - Stok birimi ve satış sağlama sürelerini göster.
-    -   **Gelecekteki kullanılabilirlik** - **Teslimat alternatifleri** altında seçili tesis ve ambar için mevcut ve gelecek kullanılabilirliğin görsel bir temsilini göster. Ürünün gelecekteki bulunabilirliği hakkında daha ayrıntılı bilgi görmek için grafik sütunlarına tıklayabilirsiniz. Kaydırıcı, KM zaman dilimi içerisinde ilgili arz ve talep siparişlerinin listesini gösterir.
+- **Satış sağlama süresi**
+  - **Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.
+  - **Parametreler** - Stok birimi ve satış sağlama sürelerini göster.
 
--   **TEM**
-    -   **Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.
-    -   **Parametreler** - Stok birimi ve satış sağlama sürelerini göster.
-    -   **Açılım** - Seçilen teslimat alternatifi için bir tedarik açılımı göster. Açılımda gösterilen alanları ve stok boyutlarını değiştirmek için **Kurulum**'u kullanabilirsiniz.
+- **KM ve KM + çıkış marjı**
+  - **Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.
+  - **Parametreler** - Stok birimi ve satış sağlama sürelerini göster.
+  - **Gelecekteki kullanılabilirlik** - **Teslimat alternatifleri** altında seçili tesis ve ambar için mevcut ve gelecek kullanılabilirliğin görsel bir temsilini göster. Ürünün gelecekteki bulunabilirliği hakkında daha ayrıntılı bilgi görmek için grafik sütunlarını seçebilirsiniz. Kaydırıcı, KM zaman dilimi içerisinde ilgili arz ve talep siparişlerinin listesini gösterir.
 
-### <a name="impact-of-selected-alternative"></a>Seçilen alternatifin etkisi
+- **TEM**
+  - **Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.
+  - **Parametreler** - Stok birimi ve satış sağlama sürelerini göster.
+  - **Açılım** - Seçilen teslimat alternatifi için bir tedarik açılımı göster. Açılımda gösterilen alanları ve stok boyutlarını değiştirmek için **Kurulum**'u kullanabilirsiniz.
 
-Bu sekme, seçili teslimat alternatifinin etkisini vurgular. **Tamam** üzerine tıklarsanız, satış satırı SEÇİLİ sütunlarındaki vurgulanan değerler ile güncelleştirilir. Seçilen teslimat alternatifindeki miktar, satış satırındaki miktardan az ise, bir teslimat planının oluşturulacağını ve sipariş satırının iki satıra ayrılacağını unutmayın: bir satır seçilen miktar için ve bir satır kalan miktar için. Ticari satırı da planlı satırlar ile eşleşecek ve böylece fiyatlandırmayı etkileyecek şekilde güncelleştirebilirsiniz.
+### <a name="the-impact-of-selected-alternative-fasttab"></a>Seçili alternatifin etkisi hızlı sekmesi
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+Bu hızlı sekme, seçili teslimat alternatifinin etkisini vurgular. **Tamam**'ı seçerseniz satış satırı SEÇİLİ sütunlarındaki vurgulanan değerlerle güncelleştirilir. Seçilen teslimat alternatifindeki miktar, satış satırındaki miktardan az ise, bir teslimat planının oluşturulacağını ve sipariş satırının iki satıra ayrılacağını unutmayın: bir satır seçilen miktar için ve bir satır kalan miktar için. Ticari satırı da planlı satırlar ile eşleşecek ve böylece fiyatlandırmayı etkileyecek şekilde güncelleştirebilirsiniz.
+
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Sipariş taahhüdü](delivery-dates-available-promise-calculations.md)
 
 
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

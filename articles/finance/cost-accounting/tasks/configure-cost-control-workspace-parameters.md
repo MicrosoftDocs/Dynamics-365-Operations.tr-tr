@@ -2,11 +2,9 @@
 title: Maliyet kontrolü çalışma alanı parametrelerini yapılandırma
 description: Bu yordamı Maliyet denetimi çalışma alanını yapılandırmak için kullanarak bir kuruluştaki çeşitli seviyede bulunan yöneticilerin örneğin maliyet merkezleri ve ürün grupları gibi maliyet nesnelerine dair bilgi alabilmelerini sağlayın.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9861d6bc83d3f1d62091154a36436627eeccad4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8ecc775019445bbe97dd5a0e9198b9c605b1c65322006d912a95a5bb1fbdf879
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766951"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Maliyet kontrolü çalışma alanı parametrelerini yapılandırma
 
@@ -58,3 +56,6 @@ Bu yordamı Maliyet denetimi çalışma alanını yapılandırmak için kullanar
 27. Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.
     * Bir Maliyet nesnesi boyut hiyerarşisini seçtikten sonra, istenilen maliyet değerlerini görmek için Maliyet öğesi boyut hiyerarşisini genişletin. Örneğin, hiyerarşiyi Üretim genel gideri'ne genişleterek değeri görebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

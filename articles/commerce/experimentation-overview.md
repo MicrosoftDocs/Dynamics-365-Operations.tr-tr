@@ -2,28 +2,24 @@
 title: Dynamics 365 Commerce'te deneme
 description: Deneme, site oluşturucuda sayfa düzeni ve içerik işlemleri oluşturma, düzenleme ve yönetmeyi sağlar. Uçtan uca deneme desteği e-ticaret sayfaları ve bir sayfadaki varlıklar için sağlanır.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 292a8934e735c76389e36603a708fd2a1bbf7691
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4416565"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986553"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'te deneme
 Dynamics 365 Commerce'te denemeyi E-ticaret sayfalarınızın verimliliği hakkındaki varsayımları doğrulamak ve verilere dayalı güvenilirlikle kararlar vermek için kullanın. Commerce, sayfalar, modüller ve parçalar üzerinde A/B testi gerçekleştirme desteği sunar ve web sitenizde önerilen değişikliklerin etkisini ölçmenize olanak tanır.
@@ -42,7 +38,7 @@ Commerce sitesi oluşturucuda **varyasyonlar** olarak bilinen sayfa ve içerik i
 ## <a name="experimentation-lifecycle"></a>Deneme yaşam döngüsü
 Deneme ayarlama, varyasyonlar oluşturma ve deneme çalıştırma yinelemeli bir işlemdir. Aşağıdaki diyagram Commerce ve üçüncü taraf hizmetindeki deneme yaşam döngüsünü göstermektedir. 
 
-[ ![Deneme yaşam döngüsü](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Deneme yaşam döngüsü.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Deneme işlemindeki her adım hakkında daha fazla bilgi için aşağıdaki konulara bakın.
 - [Varsayım tanımlama ve deneme için ölçümleri belirleme](experimentation-identify.md)
@@ -57,3 +53,6 @@ Deneme işlemindeki her adım hakkında daha fazla bilgi için aşağıdaki konu
 
 ## <a name="next-step"></a>Sonraki adım
 [Varsayım tanımlama ve deneme için başarı ölçümleri belirleme](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

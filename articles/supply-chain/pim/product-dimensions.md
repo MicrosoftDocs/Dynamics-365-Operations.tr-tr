@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439071"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260659"
 ---
 # <a name="product-dimensions"></a>Ürün boyutları
 
@@ -107,7 +106,7 @@ Sürüm boyutunu etkinleştirdiğinizde, stok boyutlarına özelleştirmeler ekl
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Eşlemeler:** Herhangi bir eşleme stok boyutlarını kullanıyorsa, bu eşlemelere karşılık gelen ilişki eşlemesinin sürüm boyutunu içerecek şekilde güncelleştirilmesi gerekir. Genişletilmiş model veya tablo uzantılarında, alanların stok boyutlarını içerdiği tabloları arayın.
-1. **Microsoft Dynamics 365 Commerce işlevi:** Etkinleştirildikten sonra, sürüm boyutu Dynamics 365 Supply Chain Management'taki Commerce'a özgü kodun tamamında görüntülenir. Ancak, sürüm boyutu henüz Commerce kanalı veritabanı tarafından veya satış noktası (POS) uygulamalarında ya da e-ticaret uygulamalarında desteklenmemektedir. Bu Commerce'e özel uygulamalar, sürüm boyutuna göre kullanıcıların stoku satmasını/sevk etmesini veya iade etmesini/almasını desteklemez. Stok kullanılabilirliği arama işlevleri, Commerce uygulamalarındaki sürüm boyutuna göre stoku ayırmayacaktır. Bu davranış, Commerce'taki yapılandırma boyutunun geçerli davranışına benzer.
+1. **Microsoft Dynamics 365 Commerce işlevi:** Etkinleştirildikten sonra, sürüm boyutu Dynamics 365 Supply Chain Management'taki Commerce'e özgü kodun tamamında görüntülenir. Ancak, sürüm boyutu henüz Commerce kanalı veritabanı tarafından veya satış noktası (POS) uygulamalarında ya da e-ticaret uygulamalarında desteklenmemektedir. Bu Commerce'e özel uygulamalar, sürüm boyutuna göre kullanıcıların stoku satmasını/sevk etmesini veya iade etmesini/almasını desteklemez. Stok kullanılabilirliği arama işlevleri, Commerce uygulamalarındaki sürüm boyutuna göre stoku ayırmayacaktır. Bu davranış, Commerce'taki yapılandırma boyutunun geçerli davranışına benzer.
 
 #### <a name="turn-on-the-version-dimension"></a>Sürüm boyutunu açma
 
@@ -122,7 +121,7 @@ Sürüm boyutunu kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. B
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Sürüm boyutunun desteklenmediği alanlar
 
-Bu boyutun girişi hataya neden olan değişikliklere yol açacağından aşağıdaki alanlar sürüm boyutunu desteklemez:
+Aşağıdaki alanlar sürüm boyutunu desteklemez (bu alanları kullanmaya devam edebilirsiniz ancak bunlara sürümlü ürünler (sürüm boyutunun kullanıldığı ürünler) ekleyemezsiniz). Örneğin, bir satıcı kataloğuna sürümlü madde ekleyemezsiniz. Bunun nedeni, bu alanlara sürüm boyutuna sahip ürünlerin eklenmesinin hataya neden olan değişikliklere yol açmasıdır.
 
 - Maliyet nesnesi aylık ekstresi
 - Maliyet nesnesi raporu önbelleği
@@ -146,3 +145,6 @@ Sürüm boyutu diğer ürün boyutları gibi çalışır. Ancak, özel yapısı 
 
 > [!IMPORTANT]
 > Sürüm boyutunu açar ve kullanırsanız, stok boyutlarına başvuran bazı çözümler beklendiği gibi çalışmayı durdurabilir. Bu sorunları onaylamak ve gidermek için, etkilenen çözümlerinizin bağımsız yazılım satıcısına (ISV) başvurun. Daha fazla bilgi için bkz. [Sürüm boyutunu etkinleştirme](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

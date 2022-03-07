@@ -2,25 +2,22 @@
 title: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: roschlom
-manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689506"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890965"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -34,13 +31,109 @@ Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 > [!NOTE]
-> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Finance 10.0.24 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>İsveç için satış vergisi raporu (raporlama kodlarına dayalı tasarım)
+
+[İsveç için satış vergisi raporları](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni bir KDV beyannamesi tasarımı olan [İsveç için KDV beyannamesi](../localizations/emea-swe-vat-declaration-sweden.md) ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar, İsveç için satış vergisi raporunu (İsveç rapor düzeni) artık desteklememeyi planlıyoruz. Yeni **KDV beyannamesi XML'i (SE)** ve **KDV beyannamesi Excel'i (SE)** Elektronik raporlama (ER) biçimleri, **Vergi beyanı** modeli altında sunulmaktadır. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Avusturya için KDV beyannamesi (raporlama kodlarına dayalı tasarım)
+
+[Avusturya için KDV beyannamesi ayrıntıları](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni bir KDV beyannamesi tasarımı olan [Avusturya için KDV beyannamesi](../localizations/emea-aut-vat-declaration-austria.md) ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar, **KDV beyannamesi modeli** altındaki **KDV beyannamesi (AT)** Elektronik raporlama (ER) biçimini artık desteklememeyi planlıyoruz. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (AT)** ve **KDV beyannamesi Excel (AT)** biçimleri tanıtıldı. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Almanya için ELSTER beyannamesi (raporlama kodlarına dayalı tasarım)
+
+[KDV beyanı](../localizations/emea-de-vat-declaration.md)</br>
+[Almanya için elektronik vergi beyannamesini ayarlama](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[KDV beyannamesinin elektronik iletimi (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni bir KDV beyannamesi tasarımı olan [Almanya için KDV beyannamesi](../localizations/emea-deu-vat-declaration-germany.md) ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar **Elster (DE)** ve **Elster modeli** elektronik raporlama (ER) biçimleri için desteği kaldırmayı planlıyoruz. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (DE)** ve **KDV beyannamesi Excel (DE)** biçimleri tanıtıldı. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Hollanda için OB beyannamesi (raporlama kodlarına dayalı tasarım)
+
+[OB beyannamesi](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni bir KDV beyannamesi tasarımı olan [Hollanda için KDV beyannamesi](../localizations/emea-nl-vat-declaration-netherlands.md) ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Aralık 2022 tarihine kadar **OB beyanı (NL)** ve **OB beyan modeli** elektronik raporlama (ER) biçimleri için desteği kaldırmayı planlıyoruz. **Vergi beyannamesi** modeli kapsamında, yeni **KDV beyannamesi XML (NL)** ve **KDV beyannamesi Excel (NL)** biçimleri tanıtıldı. |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance 10.0.20 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>"RTIR Sorgusu Fatura Ayrıntısı İsteği (HU)" Elekronik raporlama (ER) biçimi yapılandırması
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Macarca çevrimiçi faturalama sistemiyle birlikte çalışabilirlik elektronik ileti işleme işlemi dışında bırakıldı |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 15 Nisan 2022 itibarıyla, "RTIR Sorgusu Fatura Verileri İsteği (HU)" biçimi yapılandırması desteğini sonlandırmayı planlıyoruz. |
+
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>"Alman denetim dosyası çıktısı" biçimi altında "Fransız FEC denetim dosyası" Fransa için Elektronik raporlama (ER) biçimi
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni "FEC denetim dosyası (FR)" biçimiyle değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı bırakılma tarihi: 1 Mayıs 2022. "Almanca denetim dosyası çıktısı" biçimi altındaki "Fransız FEC denetim dosyası" Fransa için Elektronik raporlama (ER) biçimini artık desteklememeyi planlıyoruz. Bunun yerine, "Veri dışa aktarma modeli" altında yeni FEC denetim dosyası (FR) biçimini kullanıma sunuyoruz. |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Finance 10.0.17 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Elektronik raporlama yapılandırmaları için depolama seçeneği olarak LCS deposu
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni Regulatory Configuration Service (RCS) genel deposu ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Dynamics 365 Finance, Supply Chain Management ve Project Operations ürünleri|
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 1 Nisan 2022 tarihinden itibaren Microsoft Dynamics Lifecycle Services (LCS) deposunu Elektronik raporlama (ER) yapılandırmaları için bir depolama seçeneği olarak desteklememeyi planlıyoruz. Yeni Microsoft ER yapılandırmaları Global depodan özel olarak indirilmek üzere yayımlanacaktır. Global depoya Dynamics 365 ürünlerinden ve RCS'den erişilebilir. Daha fazla bilgi için bkz. [RCS'den ER yapılandırmalarını içe aktarma](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) ve [Regulatory Configuration Service - Lifecycle Services depolamanın kullanımdan kaldırılması](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Finance 10.0.16 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Çek Cumhuriyeti için "KDV beyannamesi (CZ)" ve "Denetim ifadesi dışarı aktarma (CZ)" elektronik raporlama biçimleri
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni biçimlerle değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 22 Ocak 2022 tarihine kadar "KDV beyannamesi (CZ)", "Denetim ifadesi dışarı aktarma (CZ)" elektronik raporlama (ER) biçimleri için desteği kaldırmayı planlıyoruz. Bunun yerine yeni KDV beyannamesi XML'i (CZ), KDV beyanname Excel'i (CZ), KDV denetim ekstresi XML'i (CZ) biçimleri, "Vergi beyanı" modeli altında sunulmaktadır. |
+
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"Genel muhasebe defteri hareketi dışarı aktarma biçimi (BE)" Belçika için elektronik raporlama biçimi ve ilgili "Genel muhasebe defteri hareketi dışarı aktarma (BE)" modeli
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | "Standart Denetim Dosyası (SAF-T)" modeli altındaki yeni ER biçimi ile değiştirildi.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -50,7 +143,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Birleşik Krallık için SSRS biçiminde "KDV 100" raporu
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | "Vergi beyannamesi modeli" kapsamında yeni ER biçimi - "KDV Beyannamesi Excel (UK)" biçimi ile değiştirilmiştir.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -62,7 +155,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 için Internet Explorer 11 desteği kullanım dışı bırakılmıştır
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Aralık 2020 itibarıyla geçerli olmak üzere, tüm Dynamics 365 ürünleri için Microsoft Internet Explorer 11 desteği kullanım dışı, bırakılacaktır ve Internet Explorer 11, Ağustos 2021'den sonra desteklenmeyecektir.<br><br>Bu, Internet Explorer 11 arabirimi aracılığıyla kullanılmak üzere tasarlanmış olan Dynamics 365 ürünlerini kullanan müşterileri etkileyecektir. Ağustos 2021'den sonra, Internet Explorer 11, bu tür Dynamics 365 ürünleri için desteklenmeyecektir. |
 | **Başka bir özellikle mi değiştirildi?**   | Müşterilerin Microsoft Edge'e geçiş yapması önerilir.|
@@ -72,21 +165,21 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Finance 10.0.12 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Lehçe SSRS raporları: Satış KDV kaydı, Satınalma KDV kaydı, AB Özeti KDV kaydı – Özellik referansı PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Kullanımdan kaldırılmadı: Lehçe SSRS raporları: Satış KDV kaydı, Satınalma KDV kaydı, AB Özeti KDV kaydı – Özellik referansı PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yasal olarak gerekli değildir.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet (KDV beyannamesiyle Standart Denetim Dosyası için Excel biçimi - JPK_VDEK) |
 | **Etkilenen ürün alanları**         | Uygulama |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanım dışı: 1 Temmuz 2021 itibarıyla, SSRS raporlarını desteklememeyi planlıyoruz: **Satış KDV kaydı, Satınalma KDV kaydı, AB Özet KDV kaydı – Özellik referansı PL-00014**. Bunun yerine, KDV beyannamesi ile Standart Denetim Dosyası (JPK_VDEK) için Excel biçiminde bir örnek kullanıma sunulacaktır. |
+| **Durum**                         | Kullanımdan kaldırılmadı: 27 Nisan 2021 itibarıyla, SSRS raporlarını desteklemeye devam etmeyi planlıyoruz: **Satış KDV kaydı, Satınalma KDV kaydı, AB Özet KDV kaydı – Özellik referansı PL-00014**. Bunun yerine, KDV beyannamesi ile Standart Denetim Dosyası (JPK_VDEK) için Excel biçiminde bir örnek kullanıma sunuldu. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Finance 10.0.11 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
 ### <a name="norwegian-standard-main-accounts"></a>Norveç Standart ana hesapları
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yeniden tasarla  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet (ER biçimi uygulamaya özgü parametreleriyle değiştirildi) |
@@ -97,7 +190,8 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Finance 10.0.7 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>İş akışı isteği değişikliği iletişim kutusu artık kullanıcı seçimi açılan listesini içermiyor
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Hesap grupları seçimine sahip özellik olarak değiştirildi.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -107,3 +201,6 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Kaldırılmış veya kullanım dışı bırakılmış özellikler hakkındaki önceki duyurular
 Önceki sürümlerde kaldırılmış veya kaldırılmış özellikler hakkında daha fazla bilgi edinmek için, [önceki sürümlerdeki kaldırılmış veya kaldırılmış özelliklere](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md) bakın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

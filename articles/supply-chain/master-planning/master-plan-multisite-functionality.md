@@ -2,16 +2,13 @@
 title: Master planlama ve birden çok tesis işlevine genel bakış
 description: Master planlama, tesis ve ambar stok boyutlarının ayarlarını dikkate alır.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, InventSite
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2434
 ms.assetid: 7f05c031-a446-4168-8cce-03a6305f5c4d
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2adbac35d556314b3ec9916e2b7b2706ce3528c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e30bb8dfb790958b30cb3be807847ee737fb5026
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439534"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833581"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Master planlama ve birden çok tesis işlevine genel bakış
 
@@ -52,3 +49,6 @@ Aşağıdaki konularda, farklı ayarlar tanımlandığında planlama altyapısı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,28 +1,25 @@
 ---
 title: Satış olayı kanban kuralı oluşturma
 description: Bu yordam, satış siparişi oluşturma sırasında tetiklenecek bir kanban kuralı oluşturmak için gereken ayarlara odaklanır.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1759adea6db8120078e2f32bff79178545c2328a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3cd2b579e542b9f905fc51b63f2120e5a5c883ae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439011"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566659"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Satış olayı kanban kuralı oluşturma
 
@@ -74,3 +71,6 @@ Bu yordam, satış siparişi oluşturma sırasında tetiklenecek bir kanban kura
 2. İlişkilendirme ağacını görüntüle'yi tıklatın.
     * Satış satırıyla aynı miktara sahip bir kanban oluşturulduğuna dikkat edin. L0050 üretmek için gereken malzeme sorunlarını da görebilirsiniz. Bu yordamın son aşamasıdır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

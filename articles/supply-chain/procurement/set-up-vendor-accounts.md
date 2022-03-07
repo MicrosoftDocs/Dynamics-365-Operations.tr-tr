@@ -1,12 +1,10 @@
 ---
 title: Satıcı hesaplarını ayarlama
 description: Bu konu, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2923dd3f051013fdd5b4f4717a6c954453ccdcf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 587555f5d2631d09175fec67d3707b2aa9e7919d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016589"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812482"
 ---
 # <a name="set-up-vendor-accounts"></a>Satıcı hesaplarını ayarlama
 
@@ -117,3 +115,6 @@ Satıcı kaydındaki **Fatura** sekmesinde açabileceğiniz **Varsayılan hesap 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

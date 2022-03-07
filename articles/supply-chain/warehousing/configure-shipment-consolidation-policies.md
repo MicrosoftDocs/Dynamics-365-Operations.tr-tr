@@ -2,26 +2,23 @@
 title: Sevkiyat konsolidasyon ilkelerini yapılandırma
 description: Bu konu, varsayılan ve özel sevkiyat konsolidasyon ilkelerinin nasıl ayarlanacağını açıklar.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, TMSMode, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f2705300925ae475f00861327b9cea9a97416011
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439642"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578692"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sevkiyat konsolidasyon ilkelerini yapılandırma
 
@@ -182,7 +179,7 @@ Bu iş örneğine ait sevkiyat konsolidasyon ilkesini oluşturmak için bu adım
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Hayır* ayarında bırakın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** listesinde, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusundaki **Aralık** sekmesinde bulunan kılavuzda, **Alan** alanının *Müşteri hesabı* olarak ayarlandığı satırı bulun ve bu satır için **Ölçüt** alanını *US-001* olarak ayarlayın.
 1. Kılavuza aşağıdaki ayarlara sahip bir satır eklemek için **Ekle**'yi seçin:
@@ -217,7 +214,7 @@ Bu iş örneğine ait sevkiyat konsolidasyon ilkesini oluşturmak için bu adım
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Evet* olarak ayarlayın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** listesinde, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusunda, **Birleşimler** sekmesinde, ağaçtaki **Tablolar \> Yük ayrıntıları** öğesini genişletin ve seçin.
 1. **Tablo birleşimi ekle**'yi seçin.
@@ -254,9 +251,9 @@ Bu iş örneğine ait sevkiyat konsolidasyon ilkesini oluşturmak için bu adım
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Evet* olarak ayarlayın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** listesinde, **Alan adı** alanının *Müşteri gereksinimi* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. **Kalan alanlar** listesinde, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusundaki **Aralık** sekmesinde, **Alan** alanının *Müşteri hesabı* olarak ayarlandığı satırı bulun ve bu satır için **Ölçüt** alanını *US-001* olarak ayarlayın.
 1. İletişim kutusunu kapatmak için **Tamam**'ı seçin.
@@ -286,7 +283,7 @@ Bu iş örneğine ait sevkiyat konsolidasyon ilkesini oluşturmak için bu adım
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Hayır* ayarında bırakın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** listesinde, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusunda, kılavuza aşağıdaki ayarlara sahip bir satır eklemek için **Aralık** sekmesinde **Ekle**'yi seçin:
 
@@ -320,7 +317,7 @@ Genellikle bu iş örneği, [senaryo 1](#scenario-1)'de oluşturduğunuz varsay�
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Hayır* ayarında bırakın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** alanında, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusundaki **Aralık** sekmesinde, **Alan** alanının *Ambar* olarak ayarlandığı satırı bulun ve bu satır için **Ölçüt** alanını *61-63* olarak ayarlayın.
 1. İletişim kutusunu kapatmak için **Tamam**'ı seçin.
@@ -354,3 +351,6 @@ Aşağıdaki senaryolar, bu konuyu okurken oluşturduğunuz sevkiyat konsolidasy
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Sevkiyat konsolidasyonu ilkeleri](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

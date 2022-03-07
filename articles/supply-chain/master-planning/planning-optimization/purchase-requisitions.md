@@ -2,9 +2,11 @@
 title: Satınalma talepleri
 description: Bu konuda, satın alma taleplerinin Planlamayı En İyi Duruma Getirme işlevinde nasıl desteklendiği açıklanmaktadır.
 author: ChristianRytt
+manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqGroup
 audience: Application User
@@ -16,16 +18,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1d6fd4be0ee1913264c4a565234cfdf711365792
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 20b4012e054a25d7d21c6f017d8ebcf18f6ee28d
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570876"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501090"
 ---
 # <a name="purchase-requisitions"></a>Satınalma talepleri
-
-[!include [banner](../../includes/banner.md)]
 
 Master planlama onaylı satın alma taleplerini yenileyebilir. Bu sayede, kullanıcılar satın alma taleplerini karşılamak için iş akışı kullanarak satınalma siparişi oluşturmak zorunda kalmaz. Bunun yerine, satınalma talepleri master planlama tarafından karşılanabilir. Bu işlevsellik sayesinde satınalma talebi, ilgili ürün için ayarlanan **Planlı sipariş türü** değerine bağlı olarak satınalma siparişi, transfer emri veya üretim emri oluşturabilir.
 

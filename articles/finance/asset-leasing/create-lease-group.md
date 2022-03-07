@@ -2,11 +2,13 @@
 title: Kiralama grubu oluşturma
 description: Bu konuda, kiralama gruplarının nasıl ayarlanacağı açıklanmaktadır. Yeni kiralamalar oluşturmak için kiralama grupları gereklidir.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseGroupTable
+ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5ff4892408aa87214231762452c195274192447512525ae9c1f08dad8e318076
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c06f6f943c8a47fbe650a67017b95d799914a0e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728115"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971365"
 ---
 # <a name="create-a-lease-group"></a>Kiralama grubu oluşturma
 
@@ -47,6 +49,3 @@ Kiralama grupları oluşturduktan sonra her gruba defter atayabilirsiniz. Kirala
 1. **Varlık kiralama \> Kurulum \> Kiralama grubu**'na gidin.
 2. Bir kiralama grubunu seçin ve ardından **Defter**'i seçin.
 3. **Yeni**'yi seçin ve ardından **Defter türü** alanında kiralama grubuna atanacak defteri seçin. Bir kiralamanın farklı yöntemlerle hesaplanması gerekiyorsa bir kiralama grubuna birden fazla defter atayabilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

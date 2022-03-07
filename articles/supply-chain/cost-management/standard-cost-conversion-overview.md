@@ -2,29 +2,28 @@
 title: Standart maliyet dönüştürme özeti
 description: Bu makalede bir standart maliyet dönüştürme işleminin kurulması ve yürütülmesine yardımcı olacak sürecin genel görünümü verilmiştir. Listelenen adımlar bir standart maliyet dönüştürme işlemi için ön koşulları tamamlamanızdan sonra tamamlanacak şekilde açıklanmıştır.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 78212
+ms.custom:
+- "78212"
+- intro-internal
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9796449bee4361b2b871af10d30341c2f0760ab1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439378"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982701"
 ---
 # <a name="standard-cost-conversion-overview"></a>Standart maliyet dönüştürme özeti
 
@@ -95,10 +94,12 @@ Dönüştürme işlemi planlanan geçiş başlangıç tarihinden bir gün önce 
 -   Eski tarihli stok hareketlerini analiz edin. Dönüştürmeden sonra girilen eski tarihli stok hareketlerini görüntülemek için **Stok değeri** raporunu kullanın. Rapor için "Başlangıç tarihi ve bitiş tarihi, bunlar başlangıç tarihine ve dönüştürme tarihine (eksi bir gün) karşılık gelmelidir. Rapor seçim ölçütleri dönüştürülen maddeleri yansıtmalıdır. Bu rapor, geçiş dönemi içinde standart maliyette yapılan stok hareketlerini gösterir.
 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Standart maliyet dönüştürme için önkoşullar](prerequisites-standard-cost-conversion.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

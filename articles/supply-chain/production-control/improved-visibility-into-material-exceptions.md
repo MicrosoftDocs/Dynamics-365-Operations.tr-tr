@@ -2,27 +2,24 @@
 title: Malzeme özel durumlarının görülebilirliği
 description: Bu konuda, üretim emirleri ve toplu iş emirleri için ham madde özel durumlarının nasıl daha iyi görülebilir duruma getirilebileceği açıklanmaktadır.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d3ea260535e76d7ac3d73d4bca930b7b4b2d22b2b2c076d4d1346785eaed85b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726813"
 ---
 # <a name="visibility-into-material-exceptions"></a>Malzeme özel durumlarının görülebilirliği
 
@@ -40,7 +37,7 @@ Yayımlanmamış bir ürün reçetesi satırının veya formül satırının, sa
 
 Aşağıdaki şekilde, mavi çubuk kaynakta planlanmış olan bir üretim işimi temsil eder. İş 1 Mayıs 2017 tarihinde (01/05/2017) başlaması için zamanlanır. Bu tarih ham madde tarihidir. Başka bir deyişle, BOM ve formül satırlarında işe atanan malzemelerin bu tarihte hazır olması gerekir. Şekildeki diğer tarih olan 6 Mayıs 2017 (06/05/2017) çalışma alanı tarihini temsil eder. Bu örnekte, ham madde tarihi çalışma alanı tarihinden öncedir. Bu nedenle, hammadde tüketiminin başlangıcı olduğu düşünülen tarih geçmiştir ve ürün reçetesi ve tarih satırları dikkat gösterilmesi için ölçütü karşılamaktadır.
 
-![Ham madde tarihinin çalışma alanı tarihinden önce olduğu bir üretim işi örneği](./media/improved-visibility.png)
+![Ham madde tarihinin çalışma alanı tarihinden önce olduğu bir üretim işi örneği.](./media/improved-visibility.png)
 
 ## <a name="unreleased-material-lines-needing-attention"></a>Dikkat gerektiren serbest bırakılmamış malzeme satırları
 
@@ -60,10 +57,17 @@ Kutucuğu seçtiğinizde, **Ambara serbest bırak** sayfası açılır. Bu sayfa
 
 Bir ürün reçetesi veya formül satırı serbest bırakıldığında, üretim dalga şablonu yapılandırmasına bağlı olarak yeni bir üretim dalgasına veya mevcut açık bir dalgaya eklenir. Dalga şablonu yapılandırmasıyla, bir ürün reçetesi veya formül satırı serbest bırakıldığında otomatik olarak işlenecek bir dalga da ayarlayabilirsiniz. Dalga işlendiğinde, ham madde çekme için bir ambar işi oluşturulur. Dalga şablonu, dalgalar serbest bırakma sırasında işlenmeyecek şekilde yapılandırılırsa, dalga işlenmemiş durumda kalır. **Dikkat gerektiren işlem görmemiş dalgalar** kutucuğu işlenmemiş dalgalarda ambara serbest bırakılan ve çalışma alanı tarihiyle aynı veya daha önceki bir tarihte olan bir ham madde tarihi bulunan ürün reçetesi ve formül satırı sayısını gösterir. Ayrıca satırların, çalışma alanı filtresine uygulanan bir işlem kaynağı tarafından tüketilmesi gerekir.
 
-Kutucuk seçildiğinde, **Tüm üretim dalgaları** sayfası açılır. Sayfa, kutucuk ölçütünü karşılayan serbest bırakılmış ürün reçetesi ve formül satırlarından gelen dalga satırları içeren açık dalgaların sayısına göre filtrelenir. **Tüm üretim dalgaları** sayfasından, dalgayı el ile işleyebilirsiniz.
+Kutucuk seçildiğinde, **Tüm üretim dalgaları** sayfası açılır. Sayfa, kutucuk ölçütünü karşılayan serbest bırakılmış ürün reçetesi ve formül satırlarından gelen dalga satırları içeren açık dalgaların sayısına göre filtrelenir.
+
+### <a name="manually-maintain-production-waves"></a>Üretim dalgalarını el ile koruma
+
+**Tüm üretim dalgaları** sayfasında, bir dalgayı el ile **işlemek** ve **serbest bırakmak** için eylem bölmesinin **dalga** sekmesindeki düğmeleri kullanabilirsiniz. Ayrıca dalga işlemini işlemek için kullanılan **Ürün Reçetesi Havuzu** verilerini görüntülemek ve korumak için **üretimleri koru** seçeneğini kullanabilirsiniz.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Dikkat gerektiren açık ambar işi
 
 **Dikkat gerektiren açık ambar işi** kutucuğu ambara serbest bırakılan, işlenmemiş işi bulunan ve çalışma alanı tarihiyle aynı veya daha önceki bir tarihte olan bir ham madde tarihi bulunan ürün reçetesi ve formül satırı sayısını gösterir. Ayrıca satırların, çalışma alanı filtresine uygulanan bir işlem kaynağı tarafından tüketilmesi gerekir.
 
 Kutucuk seçildiğinde, **Tüm işler** sayfası açılır. Sayfa, kutucuk ölçütünü karşılayan serbest bırakılmış ürün reçetesi ve formül satırlarından gelen iş satırları içeren açık iş başlıklarının sayısına göre filtrelenir. **Tüm işler** sayfasından, işi el ile işleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

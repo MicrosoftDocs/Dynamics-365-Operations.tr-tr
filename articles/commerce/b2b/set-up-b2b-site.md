@@ -2,9 +2,11 @@
 title: B2B e-ticaret sitesi ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te nasıl bir işletmeden işletmeye (B2B) e-ticaret sitesi kurulacağı açıklanmaktadır.
 author: josaw1
-ms.date: 12/03/2021
+manager: AnnBe
+ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -14,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6e39310ac2658ceed3f269249fe8b9d0d05dde21
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212591"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-ticaret sitesi ayarlama
 
@@ -37,7 +39,7 @@ ms.locfileid: "7983329"
 
 Site düzeyi ayarlara site oluşturucudan, **Site Ayarları \> Uzantılar**'dan erişebilirsiniz. B2B senaryoları için aşağıdaki iki site düzeyi ayar geçerlidir:
 
-- **Müşteri hesabı ödemelerini etkinleştir**: Bu özellik, kullanıcıların müşteri hesaplarını kullanarak siparişler için ödeme yapmalarını sağlar. Kullanılabilir değerler **B2B müşterileri için etkin**, **B2C müşterileri için etkin**, **Tüm müşteriler için etkin** ve **Tüm müşteriler için devre dışı** şeklindedir. B2B siteniz müşteri hesaplarını destekliyorsa, **B2B müşterileri için etkin**'i seçmelisiniz.
+- **Müşteri hesabı ödemelerini etkinleştir**: Bu özellik, kullanıcıların müşteri hesaplarını kullanarak siparişler için ödeme yapmalarını sağlar. Kullanılabilir değerler **B2B müşterileri için etkin**, **B2C müşterileri için etkin**, **Tüm müşteriler için etkin** ve **Tüm müşteriler için devre dışı** şeklindedir. B2B siteniz müşteri hesaplarını destekliyorsa, **B2C müşterileri için etkin**'i seçmelisiniz.
 - **Sipariş miktarı limitlerini etkinleştir**: Bu özellik, her ürün veya kategori için sipariş edilebilen madde sayısına yönelik limitler belirlemenizi sağlar. Kullanılabilir değerler **B2B müşterileri için etkin**, **B2C müşterileri için etkin**, **Tüm müşteriler için etkin** ve **Tüm müşteriler için devre dışı** şeklindedir.
 
 > [!NOTE]
@@ -283,59 +285,9 @@ Site oluşturucuda fatura ayrıntıları sayfası oluşturmak için aşağıdaki
 1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. Sayfanın URL'sini yayınlayın.
 
-## <a name="add-a-quick-add-module-to-the-cart-page"></a>Sepet sayfasına hızlı ekleme modülü ekleme
-
-Hızlı ekleme modülü, madde kodları (stok saklama birimi \[SKU\] kodu olarak da bilinir) kullanılarak alışveriş sepetine hızlı bir şekilde birden fazla madde eklemenin bir yolunu sağlar. Hızlı ekleme modülü, sitenin sepet sayfasına eklenir.
-
-Commerce site oluşturucuda bir sepet sayfasına hızlı ekleme modülü eklemek için aşağıdaki adımları izleyin.
-
-1. **Şablonlar**'a gidin ve sitenizin sepet sayfası şablonunu seçin.
-1. **Düzenle** öğesini seçin.
-1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
-1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Hızlı ekleme** modülünü seçin ve **Tamam**'ı seçin.
-1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
-1. **Sayfalar**'a gidin ve sitenizin sepet sayfası şablonunu seçin.
-1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
-1. **Konteyner** modülü için özellikler panosunda **Genişlik** altında, **Konteyneri doldur**'u seçin.
-1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Hızlı ekleme** modülünü seçin ve **Tamam**'ı seçin.
-1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
-
-> [!NOTE] 
-> Hızlı ekleme modülü, Commerce 10.0.17 sürümü itibarıyla kullanılabilir. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
-
-## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Ürün ayrıntıları sayfasına toplu satın alma modülü ekleme
-
-Ürün ayrıntıları sayfasındaki (PDP) toplu satın alma modülü, alıcının bir ürünün birden fazla çeşidini hızlı bir şekilde sepete eklemesini sağlayan matris tabanlı bir deneyim sağlar. Bir site kullanıcısının aynı ürünün birden fazla çeşidini sipariş etmesi gerektiğinde, bu deneyim ürün boyutlarının birleşimini seçme, miktarı tanımlama, varyantı sepete ekleme ve ardından diğer ürün boyutları kombinasyonları için işlemi tekrarlama ihtiyacını ortadan kaldırır.
-
-Commerce site oluşturucuda bir PDP'ye toplu satın alma modülü eklemek için aşağıdaki adımları izleyin.
-
-1. **Şablonlar**'a gidin ve sitenizin PDP şablonunu seçin.
-1. **Düzenle** öğesini seçin.
-1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
-1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda, **Toplu satın alma** modülünü seçin ve **Tamam**'ı seçin.
-1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
-1. **Sayfalar**'a gidin ve sitenizin PDP'sini seçin.
-1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
-1. **Kapsayıcı** modülü için özellikler panelinde, **Genişlik** altında **Dolgu Kapsayıcısı**'nı seçin.
-1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda, **Toplu satın alma** modülünü seçin ve **Tamam**'ı seçin.
-1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
-
-> [!NOTE] 
-> Toplu satın alma modülü Commerce 10.0.24 sürümü itibarıyla kullanılabilirdir. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
-
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Modül kitaplığına genel bakış](../starter-kit-overview.md)
-
-[SDK ve modül kitaplığı güncelleştirmeleri](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Yazma sayfasına genel bakış](../authoring-home-overview.md)
 
@@ -349,7 +301,7 @@ Commerce site oluşturucuda bir PDP'ye toplu satın alma modülü eklemek için 
 
 [İçerik bloğu modülü](../add-hero-module.md)
 
-[Ürün topluluğu modülü](../product-collection-module-overview.md)
+[Ürün Koleksiyonu](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: İş emirleri ve sabit kıymetler
 description: Bu konuda Kıymet Yönetimi'nde iş emirleri ve sabit kıymetler açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4eadbdc452a5b7d28adfa0f102a9a727faad3c07
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 65adcd07f1649b2e4eb2e2528507bb15631782ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016715"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816736"
 ---
 # <a name="work-orders-and-fixed-assets"></a>İş emirleri ve sabit kıymetler
 
@@ -64,3 +62,6 @@ Aşağıdaki prosedürde varlıklar, iş emirleri, iş emri iş projeleri ve sab
 
 7. Bir sabit kıymetle ilişkili projelerin genel görünümünü görmek için **Sabit kıymetler** > **Sabit kıymetler** > **Sabit kıymetler**'i seçin ve **Sabit kıymet numarası** alanında, ayrıntılar görünümünü açmak için sabit kıymetin bağlantısını seçin. Sayfanın sağ tarafındaki **İlgili bilgi** bölmesini genişletin ve **İlişkili projeler** hızlı sekmesini seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

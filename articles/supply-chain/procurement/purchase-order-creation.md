@@ -1,12 +1,10 @@
 ---
 title: Satınalma siparişleri oluşturma
 description: Bu makalede bir satınalma siparişini el ile oluşturmak için gereken işlem ve seçenekler tanımlanır.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 105d4022e1867f553fcae5e4ae9c0ed7ce4e912d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022293"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575524"
 ---
 # <a name="create-purchase-orders"></a>Satınalma siparişleri oluşturma
 
@@ -67,7 +65,7 @@ Bazı durumlarda, sipariş ettiğiniz miktarı farklı tarihlerde farklı parça
 Satıcı veya satıcı gider grubu ve madde veya madde gider grubu otomatik giderlere ayarlanmışsa giderler otomatik olarak PO satırlarına eklenebilir. Ancak, giderler sipariş satırı düzeyinde genellikle el ile eklenir. Gider eklemek için **Satırlar** görünümündeki **Finansal öğeler** menüsü üzerinden **Giderleri koru** eylemini kullanarak **Giderleri koru** sayfasını açın. Sipariş satırı düzeyinde doğrudan giderleri eklemenin avantajı giderin stok maliyeti olarak tahsis edilebilmesidir. Gider kodlarını hesap ürün maliyetine ayarlamak için **Madde** borç seçeneğini kullanın. Bu gider türleri sipariş onaylanmadan önce PO başlığından satırlara tahsis edilmelidir. Örneğin, her bir satırdaki miktara göre giderleri tahsis etmek isteyebilirsiniz. Gider kategorisi giderlerin muhasebesinin nasıl yapıldığını da etkiler. Örneğin, sabit giderler sabit bir tutarı belirtir ve yüzde giderleri sipariş satırı için net tutarın yüzdesi olarak hesaplanır. PO'lar bir yüke atanabilir ve yük, ulaştırma maliyeti için beklenen gider tahminini içerebilir. Bu gideri yükten geri dönerek PO satırlarına tahsis edebilirsiniz.
 
 ## <a name="purchase-order-actions"></a>Satın alma siparişi eylemleri
-PO'ya başlık ve satırları ekledikten sonra sipariş onaya hazır olmadan önce ek adımları tamamlamanız gerekir. Çok fazla seçenek olduğundan geçerli menü öğesini bulmak için [Eylem araması](../../fin-and-ops/get-started/action-search.md) seçeneğini kullanmak yararlı olabilir.  
+PO'ya başlık ve satırları ekledikten sonra sipariş onaya hazır olmadan önce ek adımları tamamlamanız gerekir. Çok fazla seçenek olduğundan geçerli menü öğesini bulmak için [Eylem araması](../../fin-ops-core/fin-ops/get-started/action-search.md) seçeneğini kullanmak yararlı olabilir.  
 
 Siparişteki ürünleri tamamlayıcı maddelere sahip olacakları şekilde yapılandırabilirsiniz. Tamamlayıcı maddeler diğer ürünlerle satın alınması gereken veya satın alınabilen ürünlerdir. Tamamlayıcı ürünler ürünlere iliştirilmiş olarak ücretsiz eklenebilir veya bunları siparişe ekleyip eklememeye karar verebilirsiniz. Eklenen her sipariş satırından sonra tamamlayıcı maddeleri gözden geçirebilirsiniz. Ancak büyük olasılıkla Eylem Bölmesinden açabileceğiniz **Tamamlayıcı maddeler** sayfasını kullanarak tüm sipariş satırları için ilgili tamamlayıcı maddeleri gözden geçirmek veya eklemek daha kolay olabilir.  
 
@@ -82,8 +80,7 @@ PO'lar bütçe fonlarının işleme konulmadan önce siparişe atanmasını gere
 
 Bir PO'nun tamamlanmasını geciktirmek zorunda kalabilirsiniz. Örneğin, ürünler veya hizmetlerle ilgili bilgilere ihtiyaç duyabilirsiniz veya harcama için yetki almanız gerekebilir. Bir siparişi durdurmanın birçok yolu vardır. Örneğin, siparişi onaylamak için bekleyebilirsiniz. Alternatif olarak, bir değişiklik yönetimi iş akışı kullanılıyorsa siparişi onaya göndermeyin. Belirli bir satıcı için tüm siparişleri engellemeniz gerekiyorsa satıcı aslı üzerinden işlem yapmak için satıcıyı **Beklemede** olarak da işaretleyebilirsiniz. Siparişin işlenmesini önleyen koşullar da vardır. Örneğin, kredi limitleri aşıldıysa veya gerekli bütçe fonları kullanılamıyorsa işlem önlenebilir.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Satın alma siparişine genel bakış](purchase-order-overview.md)
 
@@ -95,3 +92,6 @@ Bir PO'nun tamamlanmasını geciktirmek zorunda kalabilirsiniz. Örneğin, ürü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

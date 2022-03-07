@@ -2,6 +2,7 @@
 title: Ölçü birimi ayarlarını uygulama
 description: Bu konu, ölçü birimlerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ta bunların nasıl uygulanacağını açıklar .
 author: anupamar-ms
+manager: annbe
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c5750ae506978dfac842eebf4ba6036322bdd7f
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761526"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937626"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Ölçü birimi ayarlarını uygulama
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu, ölçü birimlerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ta bunların nasıl uygulanacağını açıklar .
 
@@ -32,7 +34,7 @@ Bir ürün, "tekli" "çift" ve "düzine" gibi farklı birimlerde satılabilir. C
 
 Aşağıdaki görseldeki örnekte, Commerce genel merkezde bir ürün için **beher** (tekli) satış ölçü birimi yapılandırılmıştır.
 
-![Commerce genel merkezde ölçü birimiyle yapılandırılmış bir ürün örneği.](./media/Productunit-headquarters.PNG)
+![Commerce genel merkezde ölçü birimiyle yapılandırılmış bir ürün örneği](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Ölçü birimini uygulama ve gösterme desteği, Commerce sürümü 10.0.19 itibariyle kullanılabilir.
@@ -54,11 +56,11 @@ Aşağıdaki görseldeki örnekte, Commerce genel merkezde bir ürün için **be
 
 Aşağıdaki görselde yer alan örnekte, bir ürün ayrıntıları sayfası (PDP) bir ürünün ölçü birimini (**beher**) gösterir.
 
-![Ölçü birimini gösteren bir PDP örneği.](./media/Productunit-PDP.png)
+![Ölçü birimini gösteren bir PDP örneği](./media/Productunit-PDP.png)
 
 Aşağıdaki görselde yer alan örnekte, bir ürün koleksiyon modülü bir ürünün ölçü birimini (**beher**) gösterir.
 
-![Ölçü birimini gösteren bir ürün koleksiyon modülü örneği.](./media/Productunit-productcollection.png)
+![Ölçü birimini gösteren bir ürün koleksiyon modülü örneği](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

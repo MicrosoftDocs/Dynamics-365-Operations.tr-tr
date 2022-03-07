@@ -2,9 +2,11 @@
 title: Genel muhasebe için yabancı para birimi yeniden değerleme
 description: Bu konu, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerinin nasıl tersine çevrildiği de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine genel bir bakış sunar.
 author: kweekley
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49f724eb31904c7fd745864c9d71f401a4d539e29b5ff01814334adf6f0ebc37
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7433c6753b612a9721917c036a8b36b7e3165177
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771668"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249275"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Genel muhasebe için yabancı para birimi yeniden değerleme
 
@@ -81,7 +83,7 @@ Ana hesap 31 Ocak'ta yeniden değerlenir.  Gerçekleşmemiş kazanç/zarar, aşa
 
 | Hareket para birimi cinsinden mevcut bakiye | Muhasebe para birimi cinsinden mevcut bakiye | Yeniden değerleme işlemi sırasında döviz kuru | Yeni muhasebe para birimi tutarı | Gerçekleşmemiş kazanç/zarar    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 Euro                                     | 1000 ABD Doları                                   | 166.6667                         | 833.33 ABD Doları (500 x 1,666667)        | 166,67 zarar (833,33 – 1000) |
+| 500 Euro                                     | 1000 ABD Doları                                   | 166,6667                         | 833,33 Euro (500 x 1,666667)        | 166,67 zarar (833,33 – 1000) |
 
 Aşağıdaki muhasebe girişi oluşturulur.
 

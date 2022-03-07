@@ -2,35 +2,30 @@
 title: Ortam galerisi modülü
 description: Bu konu ortam galerisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'te site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733209"
 ---
 # <a name="media-gallery-module"></a>Ortam galerisi modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konu ortam galerisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'te site sayfalarına nasıl ekleneceğini açıklamaktadır.
-
-## <a name="overview"></a>Özet
 
 Ortam galerisi modülleri bir veya daha fazla görüntüyü galeri görünümünde gösterir. Ortam galerisi modülleri yatay (görüntünün altında bir satır olarak) veya dikey olarak (görüntünün yanında bir sütun olarak) düzenlenebilen küçük resimleri destekler. Ortam galerisi modülleri ayrıca, resimlerin yakınlaştırılmasına (büyütülmesine) veya tam ekran modunda görüntülenmesine olanak veren özellikler sağlar. Ortam galerisi modülünde işlenebilmesi için bir resmin Commerce site oluşturucu Ortam kitaplığında bulunması gerekir. Şu anda, ortam galerisi modülleri yalnızca resimleri destekler.
 
@@ -46,7 +41,7 @@ Ortam galerisi modülleri için bazı kullanım örnekleri şunlardır:
 
 Aşağıdaki çizimdeki örnekte, bir ortam galerisi modülü kullanılarak PDP'de bir satın alma kutusu ürün resimleri barındırılmaktadır.
 
-![Ürün ayrıntıları sayfasında ortam galerisi modülünü kullanarak ana bilgisayar bilgileri sunan bir satın alma kutusu örneği](./media/ecommerce-pdp-buybox.PNG)
+![Ürün ayrıntıları sayfasında ortam galerisi modülünü kullanarak ana bilgisayar bilgileri sunan bir satın alma kutusu örneği.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Ortam galerisi özellikleri
 
@@ -55,18 +50,24 @@ Aşağıdaki çizimdeki örnekte, bir ortam galerisi modülü kullanılarak PDP'
 | Görüntü kaynağı | **Sayfa bağlamı** veya **Ürün kimliği** | Varsayılan değer **Sayfa bağlamıdır**. **Sayfa bağlamı** seçilirse, modül sayfanın ürün kimliği bilgilerini sağlamasını bekler. **Ürün kimliği** seçilirse, bir resmin ürün kimliği, **Ürün kimliği** özelliğinin değeri olarak sağlanmalıdır. Bu özellik Commerce 10.0.12 sürümünde sunulmaktadır. |
 | Ürün kodu | Bir ürün kimliği | Bu özellik yalnızca, **Resim kaynağı** özelliğinin değeri **Ürün kimliği** ise geçerlidir. |
 | Görüntü yakınlaştırma | **Satır içi** veya **Kapsayıcı** | Bu özellik, ortam galerisi modülündeki resimlerin kullanıcı tarafından yakınlaştırmasına olanak tanır. Bir resim satır içi olarak veya görüntünün yanında ayrı bir kapsayıcıda yakınlaştırılabilir. Bu özellik 10.0.12 sürümünde mevcuttur. |
-| Yakınlaştırma ölçeği | Bir ondalık sayı | Bu özellik, resimlerin yakınlaştırılacağı ölçek faktörünü belirtir. Örneğin, değer **2,5** olarak ayarlanırsa, resimler 2,5 kat büyütülür.|
-| Tam ekran | **Doğru** veya **yanlış** | Bu özellik, resimlerin tam ekran modunda görüntülenip görüntülenemeyeceğini belirtir. Tam ekran modunda, yakınlaştırma özelliği etkinse resimler daha da büyütülebilir. Bu özellik Commerce 10.0.13 sürümünde sunulmaktadır. |
+| Yakınlaştırma faktörü | Bir ondalık sayı | Bu özellik, resimlerin yakınlaştırılacağı ölçek faktörünü belirtir. Örneğin, değer **2,5** olarak ayarlanırsa, resimler 2,5 kat büyütülür. |
+| Tam ekran | **Doğru** veya **yanlış** | Bu özellik, resimlerin tam ekran modunda görüntülenip görüntülenemeyeceğini belirtir. Tam ekran modunda, yakınlaştırma özelliği etkinse resimler daha da büyütülebilir. Bu özellik, Commerce 10.0.13 sürümünde bulunur. |
+| Yakınlaştırılmış görüntü kalitesi | İzleme çubuğu denetimi kullanılarak seçilen ve bir yüzdeyi temsil eden, 1 ile 100 arasında bir sayı | Bu özellik, yakınlaştırılmış görüntülerin görüntü kalitesini tanımlar. Yakınlaştırılmış bir görüntünün her zaman mümkün olan en yüksek çözünürlüğü kullanmasını sağlamak için %100'e ayarlanabilir. Bu özellik, kayıpsız biçim kullandıkları için PNG dosyalarına uygulanamaz. Bu özellik, Commerce 10.0.19 sürümünden itibaren bulunur. |
 | Görüntüler | Site oluşturucu Ortam Kitaplığı'ndan seçilen resimler | Bir üründen oluşturulmalarının yanı sıra, resimler bir ortam galerisi modülü için de seçilebilir. Bu resimler kullanılabilir ürün resimlerine eklenir. Bu özellik Commerce 10.0.12 sürümünde sunulmaktadır. |
 | Küçük resim yönü | **Dikey** veya **Yatay** | Bu özellik, küçük resimlerin dikey şeritte mi, yoksa yatay şeritte mi gösterileceğini belirtir. |
+| Varyant için ana ürün görüntülerini gizle | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa , varyant seçildiği zaman, varyantın hiç görüntüsü yoksa ana ürünün görüntüleri gizlenir. Bu özellik, varyantları olmayan ürünleri etkilemez. |
+| Boyut seçiminde ortamı güncelleştirme | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa ortam kitaplığındaki görüntüler, boyutlar (renk, stil veya boyut gibi) seçildiğinde ve görüntü kullanılabilirse güncelleştirilir. Bu özellik, ilgili görüntüyü güncelleştirmek için her ürün çeşidinin boyutunun seçilmesi gerekmediğinden tarama deneyimini basitleştirmeye yardımcı olur. Bu özellik, **Gelişmiş** sekmesinde kullanılabilir. |
+
+> [!IMPORTANT]
+> **Boyut seçiminde ortamı güncelleştirme** özelliği, Commerce 10.0.21 sürümü itibarıyla kullanılabilir. Bunun için Commerce modül kitaplığı paketi sürüm 9.31'in yüklü olması gerekir.
 
 Aşağıdaki çizimde, tam ekran ve yakınlaştırma seçeneklerinin kullanılabilir olduğu bir ortam galerisi modülü örneği gösterilmektedir.
 
-![Tam ekran ve yakınlaştırma seçeneklerinin kullanılabilir olduğu bir ortam galerisi modülü örneği](./media/ecommerce-media-zoom.png)
+![Tam ekran ve yakınlaştırma seçeneklerinin kullanılabilir olduğu bir ortam galerisi modülü örneği.](./media/ecommerce-media-zoom.png)
 
 Aşağıdaki çizimde, seçilmiş resimlerin bulunduğu bir ortam galerisi modülü örneği gösterilmektedir (yani, belirtilen resimler ürün kimliğine veya sayfa bağlamına bağlı değildir).
 
-![Seçilmiş resimler içeren bir ortam galerisi modülü örneği](./media/ecommerce-media-curated.PNG)
+![Seçilmiş resimler içeren bir ortam galerisi modülü örneği.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Ticari ölçek birim etkileşimi
 
@@ -104,3 +105,6 @@ Bir pazarlama sayfasına ortam galerisi modül eklemek için bu adımları izley
 [Kapsayıcı modülü](add-container-module.md)
 
 [Resimleri karşıya yükleme](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

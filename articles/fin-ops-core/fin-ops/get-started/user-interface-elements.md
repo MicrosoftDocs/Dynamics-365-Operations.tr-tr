@@ -2,11 +2,9 @@
 title: Kullanıcı arabirimi öğeleri
 description: Bu konuda, uygulamadaki kullanıcı arabirimi (UI) öğeleri açıklanmaktadır.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797958"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069335"
 ---
 # <a name="user-interface-elements"></a>Kullanıcı arabirimi öğeleri
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konuda, uygulamada kullanılan kullanıcı arabirimi (UI) öğeleri açıklanmaktadır. Kullanıcıların arabirimde gezinebilmeleri için önce, arabirimi oluşturan öğelerin adlarını ve işlevlerini bilmeniz önemlidir.
 
@@ -86,3 +87,6 @@ Aşağıdaki resimde bu tür bildirimlerin örnekleri gösterilmektedir.
 *Liste*, içinden kaydırabileceğiniz bir kayıt koleksiyonuna verilen addır. Bu kayıtları, seçerek sayfaya getirebilirsiniz. Bu durum genellikle bir kılavuz açar.
 
 ![Aşağıdaki resim araç çubukları, kılavuzlar ve listelere örnekler gösterir.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

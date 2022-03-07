@@ -1,8 +1,8 @@
 ---
 title: Dağıtılmış sipariş yönetimi (DOM)
-description: Bu konuda, Dynamics 365 Commerce uygulamasında dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
+description: Bu konuda, Dynamics 365 Commerce'da dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
 author: josaw1
-ms.date: 02/08/2022
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 442a7449e0b28e1086d50ab68dbaf85370fce8ea6e178dd91ad972a2b47d7de3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717709"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce uygulamasında dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
+Ticaret operasyonlarındaki yeni paradigmada, perakendeciler kişiselleştirilmiş müşteri katılımı, çok kanallı deneyimler ve sürtüşmesiz etkileşimler sağlamak için uğraşmaktadır. Çok sayıda seçenek bulunduğundan, tüketiciler en çok istedikleri deneyimi nerede alabileceklerse oradan alışveriş yapacaktır. Çoğu durumda, fiyatlar ve ürünler artık tüketiciler için en önemli karar verme etkenleri değildir.
 
-DOM, bir tedarik zinciri ağında sipariş karşılamanın en üst düzeye çıkarılmasına yardımcı olan çok kanallı bir sipariş karşılama optimizasyonu çözümüdür. DOM, ürünlerin müşterilerinize doğru miktarlarda, doğru kaynaklardan, doğru zamanlarda teslim edilmesini sağlamanıza yardımcı olur. DOM ayrıca karlılığınızı en üst düzeye çıkarmanıza, maliyetleri en aza indirmenize ve servis düzeyi gereksinimlerini karşılamanıza yardımcı olabilir.
+Perakendeciler, müşteri deneyimini geliştirmek için tüm kanallarında stoklarını gerçek zamanlı olarak görebilmelidir. Tüm stoğa ilişkin tek, bütünsel bir görünüm siparişin yerine getirilmesini iyileştirmeye, tahsisata ve dağıtıma yardımcı olabilir. Bu nedenle, bir dağıtılmış sipariş yönetimi (DOM) sisteminin benimsenip uygulanması, perakendeciler için giderek zorunlu hale gelmektedir.
 
-DOM, hem toplu iş düzeyinde hem de tek tek siparişler düzeyinde optimizasyonlar gerçekleştirmek için karma tamsayılı programlama (MIP) ve tahmine dayalı analiz modellerini kullanır. Bu özellik, perakendecilerin birbiriyle çelişen birçok sipariş karşılama ihtiyacını dengelemek için tanımlanmış kuralları kullanmasına olanak tanır. Ürün siparişi karşılamanın birden fazla kanaldan gelebildiği modern bir tedarik ağında, kuruluşların sipariş değişikliklerine, tedarikçi bulunabilirliği sorunlarına ve talepteki ani artışlara hızla uyum sağlaması gerekir. DOM, işletme kısıtlamalarına ve siparişleri en yakın kaynaklardan karşılayarak maliyetleri en aza indirme gibi hedeflere dayalı olarak, sipariş karşılamayı en üst düzeye çıkarmanıza ve ürün teslimatı için doğru kaynakları bulmanıza yardımcı olur. DOM, sipariş karşılamayı optimize etmek için ürün siparişi karşılama kaynakları ile sevkiyat hedefleri arasındaki mesafeyi, optimizasyon hedefleri olarak tanımlanan maliyet faktörlerini ve sipariş karşılama düğümlerindeki stok gibi kısıtlamalar olarak tanımlanan kuralları kullanır. DOM, işletmelerin işletme türüne veya tüketici segmentine bağlı olarak farklı optimizasyon stratejileri yürütmesini sağlayan birden çok profilin tanımlanmasına olanak tanır. 
+DOM siparişin yerine getirilmesini, karmaşık bir sistem ve işlem ağında en iyi duruma getirir. Doğru ve daha uygun maliyetli biçimde yerine getirilmeleri için siparişleri akıllıca yönetmek amacıyla tüm kurumda stoğa ilişkin tek, genel bir görünümü esas alır. DOM, perakendecinin tedarik zincirinin verimliliğini iyileştirerek müşteri beklentilerini daha iyi karşılamasına yardımcı olur.
 
-Aşağıdaki şekilde, DOM sistemindeki bir satış siparişinin yaşam döngüsü gösterilmektedir.
+Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döngüsü gösterilmektedir.
 
 ![DOM bağlamında satış siparişi yaşam döngüsü.](./media/flow.png "DOM bağlamında satış siparişi yaşam döngüsü")
 
@@ -46,10 +46,12 @@ Aşağıdaki şekilde, DOM sistemindeki bir satış siparişinin yaşam döngüs
     - **Dağıtılmış sipariş yönetimine izin ver**: Bu seçeneği **Evet** olarak ayarlayın.
     - **DOM için Bing Haritalar kullanımını onayla**: Bu seçeneği **Evet** olarak ayarlayın.
 
+
         > [!NOTE]
         > Bu seçeneği yalnızca **Commerce'te paylaşılan parametreler** sayfasının (**Retail ve Commerce \> Genel merkez ayarı \> Parametreler \> Commerce'te paylaşılan parametreler**) **Bing Haritalar** sekmesindeki **Bing Haritalar'ı etkinleştir** seçeneği de **Evet** olarak ayarlıysa ve **Bing Haritalar anahtarı** alanına geçerli bir anahtar girildiyse **Evet** olarak ayarlayabilirsiniz.
         >
         > [Bing Haritalar Geliştirme Merkezi](https://www.bingmapsportal.com/) portalı, Bing Haritalar API anahtarlarınızda erişimi, belirttiğiniz bir etki alanı kümesiyle kısıtlamanıza olanak tanır. Bu özellik sayesinde müşteriler, anahtarın doğrulanacağı bir dizi başvuran değeri veya IP adresi aralığı tanımlayabilir. İzin verilenler listenizden gelen istekler normal şekilde işlenirken, listenizin dışından gelen istekler "erişim engellendi" yanıtı döndürür. API anahtarınıza etki alanı güvenliği eklenmesi isteğe bağlıdır ve olduğu gibi bırakılan anahtarlar çalışmaya devam eder. Bir anahtarın izin verilenler listesi, diğer anahtarlarınızın tümünden bağımsızdır ve her anahtarınız için ayrı kurallarınızın olmasını sağlar. Dağıtılmış Sipariş Yönetimi, etki alanı tarafından başvurulan özelliklerin ayarlanmasını desteklemez.
+
 
     - **Gün olarak tutma süresi**: DOM çalıştırma işlemlerinin oluşturduğu karşılama planlarının sistemde ne kadar süreyle tutulacağını belirtin. **DOM yerine getirme verileri silme işi ayarı** toplu işi burada belirttiğiniz gün sayısından daha eski olan tüm karşılama planlarını siler.
     - **Reddetme süresi (gün olarak)**: Reddedilen bir sipariş satırının aynı konuma atanabilmesi için ne kadar süre geçmesi gerektiğini belirtin.
@@ -58,18 +60,19 @@ Aşağıdaki şekilde, DOM sistemindeki bir satış siparişinin yaşam döngüs
 
     - **Maks. otomatik karşılama girişimi sayısı**: DOM altyapısının kaç kez bir sipariş satırını bir konuma satmaya çalışacağını belirtin. DOM altyapısı, bir sipariş satırını bir konuma belirtilen girişim sayısı içinde satamazsa sipariş satırını özel durum olarak işaretler. Böylece gelecekteki çalıştırma işlemlerinde durum el ile sıfırlanana kadar bu satırı atlar.
     - **Yerel mağaza bölgesi yarıçapı**: Bir değer girin. Bu alan, konumların nasıl gruplandırılacağını ve uzaklık bakımından nasıl eşit sayılacaklarını belirlemeye yardımcı olur. Örneğin **100** değerini girerseniz karşılama adresinin 100 millik yarıçapı içinde kalan her mağaza veya dağıtım merkezi uzaklık bakımından eşit kabul edilir.
-    - **Çözücü türü**: Bir değer seçin. Commerce ile birlikte şu iki çözücü türü kullanıma sunulmuştur: **Üretim Çözücü** ve **Basitleştirilmiş Çözücü**. DOM'un çalıştırılacağı tüm makinelerde (yani DOMBatch grubunun parçası olan tüm sunucularda), **Üretim Çözücü** seçilmelidir. Üretim Çözücü için varsayılan olarak üretim ortamlarında lisanslanıp dağıtılan özel lisans anahtarı gereklidir. Daha yeni Katman 2+ ortamlarında, Üretim Çözücü zaten etkinleştirilecektir. Bu lisans anahtarı, üretim dışı ortamlarda el ile dağıtılmalıdır. Lisans anahtarını el ile kurmak için şu adımları izleyin:
+    - **Çözücü türü**: Bir değer seçin. Commerce ile birlikte şu iki çözücü türü kullanıma sunulmuştur: **Üretim Çözücü** ve **Basitleştirilmiş Çözücü**. DOM'un çalıştırılacağı tüm makinelerde (yani DOMBatch grubunun parçası olan tüm sunucularda), **Üretim Çözücü** seçilmelidir. Üretim Çözücü için varsayılan olarak üretim ortamlarında lisanslanıp dağıtılan özel lisans anahtarı gereklidir. Bu lisans anahtarı, üretim dışı ortamlarda el ile dağıtılmalıdır. Lisans anahtarını el ile kurmak için şu adımları izleyin:
 
         1. Microsoft Dynamics Lifecycle Services'ta Paylaşılan varlık kitaplığını açıp varlık türü olarak **Model**'i seçin ve **DOM lisansı** dosyasını indirin.
         1. Microsoft Internet Information Services (IIS) Yöneticisi'ni başlatın, **AOSService web sitesi**'ne sağ tıklayın ve ardından **Keşfet**'i seçin. **\<AOS service root\>\\ webroot**'ta bir Windows Gezgini penceresi açılır. Sonraki adımda kullanacağınızdan \<AOS Service root\> yolunu not edin.
         1. **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** dizinindeki yapılandırma dosyasını kopyalayın.
         1. Genel Merkez istemcisine gidin ve **DOM parametreleri** sayfasını açın. **Çözücü** sekmesinde, **Çözücü türü** alanında, **Üretim çözücü**' seçeneğini belirleyin ve hiçbir hata iletisi görünmediğinden emin olun.
 
+
         > [!NOTE]
         > Basitleştirilmiş Çözücü, perakendecilerin özel lisans kurmak zorunda kalmadan DOM özelliğini deneyebilmeleri için sunulmuştur. Kurumlar Basitleştirilmiş Çözücüyü üretim ortamlarında kullanmamalıdır.
         >
         > Üretim Çözücü performansı (bir çalıştırma işleminde işlenebilecek sipariş ve sipariş satırı sayısı gibi) ve sonuçların yakınsaması (bazı senaryolarda bir sipariş toplu işi en iyi sonuçları vermeyebileceği için) artırır. **Kısmi siparişler** kuralı ve **Maksimum konum sayısı** kuralı gibi bazı kurallar Üretim Çözücü gerektirir.
-
+     
 6. **Retail ve Commerce \> Dağıtılmış sipariş yönetimi \> Ayarlar \> DOM parametreleri** bölümüne dönün.
 7. **Numara serileri** sekmesinde, gerekli numara serilerini çeşitli DOM varlıklarına atayın.
 
@@ -82,11 +85,11 @@ Aşağıdaki şekilde, DOM sistemindeki bir satış siparişinin yaşam döngüs
     2. **Yeni**'yi seçin ve yeni grup için bir ad ve açıklama girin.
     3. **Kaydet**'i seçin.
     4. Gruba tek bir yerleşim eklemek için **Satır ekle**'yi seçin. Alternatif olarak, birden fazla yerleşim eklemek için **Satırlar ekle**'yi seçin.
-
+    
     > [!NOTE]
-    > Commerce 10.0.12 ve üstü sürümlerde, **Özellik Yönetimi** çalışma alanında **Karşılama grubu içinden yerleşimleri “Sevkiyat“ veya “Malzeme Çekme“ olarak belirtme yeteneği** etkinleştirilmelidir.
+    > Commerce 10.0.12 ve üstü sürümlerde, **Karşılama grubunda yerleşimleri 'Sevkiyat' veya 'Malzeme çekme' etkin olarak belirtme özelliği**, **Özellik Yönetimi** çalışma alanında etkinleştirilmelidir.
     >
-    > Bu özellik, **Karşılama grubu** sayfasına yeni yapılandırmalar ekleyerek ambarın sevkiyat için kullanılıp kullanılamayacağını veya ambar/mağaza birleşiminin sevkiyat, malzeme çekme veya her ikisi için kullanılıp kullanılamayacağını tanımlamanızı sağlar. 
+    > Bu özellik, **Karşılama grubu** sayfasına yeni yapılandırmalar ekleyerek, ambarın sevkiyat için kullanılıp kullanılamayacağını veya ambar/mağaza birleşiminin sevkiyat, malzeme çekme veya her ikisi için kullanılıp kullanılamayacağını tanımlamanızı sağlar. 
     >
     > Özelliği etkinleştirirseniz, POS'ta malzeme çekme veya sevkiyat emirleri oluşturduğunuzda yerleşim seçimi için kullanılabilir olan seçenekler güncelleştirilir.
     >
@@ -94,22 +97,47 @@ Aşağıdaki şekilde, DOM sistemindeki bir satış siparişinin yaşam döngüs
 
 9. Kuralları tanımlamak için **Retail ve Commerce \> Dağıtılmış sipariş yönetimi \> Ayarlar \> Kuralları yönet**'e gidin. Şu anda aşağıdaki DOM kuralları desteklenmektedir:
 
-    - **Minimum stok kuralı**: Bu kural türü, kurumların bir ürünün belirli bir miktarını sipariş karşılama dışındaki amaçlar için "korumasını" sağlar. Örneğin, kurumlar DOM'nin bir mağazada bulunan tüm stoğu sipariş karşılama için dikkate almasını istemeyebilir. Bunun yerine, kapı müşterileri için biraz stok ayırmak isteyebilirler. Bu kural türü kullanıldığında, bir ürün kategorisi, tek bir ürün ya da konuma veya konum grubuna göre bir ürün çeşidi için tutulacak minimum stoğu tanımlayabilirsiniz. Ek bir kategori hiyerarşisi kullanarak minimum stoğu da tanımlayabilirsiniz. Ürün birden fazla kategoriye giriyorsa kategorileri kullanabileceğiniz tüm kurallar için ek bir kategoriye en yüksek önem verilir.
-    - **Karşılama konumu önceliği kuralı**: Bu kural türü, kurumların DOM altyapısının belirli ürünler için karşılama konumları tanımlamaya çalışırken dikkate aldığı önceliği belirlemek için bir konum hiyerarşisi belirlemelerini sağlar. Geçerli öncelik aralığı 1-10'dur. Burada 1 en yüksek, 10 ise en düşük önceliktir. Daha yüksek önceliğe sahip konumlar daha düşük önceliğe sahip önce konumlardan önce dikkate alınır. Kural, sabit bir kısıtlama kuralı olarak tanımlanırsa siparişler yalnızca önceliklerin tanımlandığı konumlara satılır. DOM, siparişin tamamının tek bir konumdan gönderilmesini tercih eder. Bu nedenle, önceliği 1 olan bir konumda bir siparişin tamamı ve bazı satırları mevcut değilse DOM, önceliği 2 olan bir konumdan siparişi karşılamaya çalışır.
-    - **Kısmi siparişler kuralı**: Retail 10.0.5 sürümünde, **Siparişi tek bir konumdan karşıla** parametresi **Maksimum karşılama konumları** olarak değiştirildi. Eski parametre, kullanıcıların siparişlerin yalnızca bir konumdan mı yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını yapılandırmalarına olanak tanıyordu. Yeni parametre, kullanıcıların sipariş karşılamanın belirli bir konum kümesinden (beş konuma kadar) veya mümkün olduğunca çok sayıda konumdan karşılanacağını belirlemesine olanak tanır. Siparişin işlenmesi satır bazında gerçekleştiğinden tek bir konumdan sipariş karşılama dışındaki tüm seçenekler için DOM ilgili satırı böler. Bu kural yalnızca Üretim Çözücü ile çalışır.
-    - **Çevrimdışı karşılama konumu kuralı**: Bu kural, kurumların bir konumu veya konum grubunu çevrimdışı ya da DOM için kullanılamaz olarak belirtmelerini sağlar; böylece siparişler, karşılama için bu konumlara atanamaz.
-    - **Maksimum reddetme sayısı kuralı**: Bu kural, kurumların reddetme işlemleri için bir eşik tanımlamasını sağlar. Eşiğe ulaşıldığında DOM işlemcisi bir siparişi veya sipariş satırını özel durum olarak işaretler ve diğer işlemlerde hariç tutar. Yüksek performans sağlamak için DOM, tüm reddetme işlemlerinin geçmişine bakmaz. 
+    - **Minimum stok kuralı**: Bu kural türü, kurumların bir ürünün belirli bir miktarını sipariş karşılama dışındaki amaçlar için "korumasını" sağlar. Örneğin, kurumlar DOM'nin bir mağazada bulunan tüm stoğu sipariş karşılama için dikkate almasını istemeyebilir. Bunun yerine, kapı müşterileri için biraz stok ayırmak isteyebilirler. Bu kural türü kullanıldığında, bir ürün kategorisi, tek bir ürün ya da konuma veya konum grubuna göre bir ürün çeşidi için tutulacak minimum stoğu tanımlayabilirsiniz.
+    - **Karşılama konumu önceliği kuralı**: Bu kural türü, kurumların DOM altyapısının belirli ürünler için karşılama konumları tanımlamaya çalışırken dikkate aldığı önceliği belirlemek için bir konum hiyerarşisi belirlemelerini sağlar. Geçerli öncelik aralığı 1-10'dur. Burada 1 en yüksek, 10 ise en düşük önceliktir. Daha yüksek önceliğe sahip konumlar daha düşük önceliğe sahip önce konumlardan önce dikkate alınır. Kural, sabit bir kısıtlama kuralı olarak tanımlanırsa siparişler yalnızca önceliklerin tanımlandığı konumlara satılır.
+    - **Kısmi siparişler kuralı**: Bu kural, kurumların siparişin mi yoksa sipariş satırlarının mı kısmen karşılanabileceğini belirlemelerine olanak tanır. Aşağıdaki parametreler kullanılabilir:
 
-        Sipariş satırları bir konuma atandıktan sonra, konum bazı nedenlerle söz konusu satırı karşılayamayabileceği için, atanan bir sipariş satırını reddedebilir. Reddedilen satırlar özel durum olarak işaretlenir ve sonraki çalıştırmada işlenmeleri için yeniden havuza eklenir. DOM, sonraki çalışma sırasında reddedilen satırı farklı bir konuma atamayı dener. Yeni konum da atanan sipariş satırını reddedebilir. Bu atama ve reddetme çevrimi birkaç kez meydana gelebilir. Reddetme sayısı tanımlanan eşiğe ulaştığında, DOM sipariş satırını kalıcı özel durum olarak işaretler ve satırı yeniden atama için seçmez. DOM, sipariş satırını yalnızca bir kullanıcı sipariş satırının durumunu sıfırlarsa yeniden atama için dikkate alır.
+        - **Kısmi siparişler karşılansın mı?** – Bu seçenek **Evet** olarak ayarlanırsa DOM yalnızca bir sipariş satırındaki miktarın bir kısmını karşılayabilir. Bu kısmi karşılama, sipariş satırı bölünerek sağlanır.
+        - **Kısmi satırlar karşılansın mı?** – Bu seçenek **Evet** olarak ayarlanırsa DOM sipariş satırlarının kısmi bir miktarını karşılayabilir. Bu kısmi karşılama, sipariş satırı bölünerek sağlanır.
+        - **Siparişi yalnızca bir konumdan karşıla**: Bu seçenek **Evet** olarak ayarlanırsa DOM, bir siparişteki tüm satırların tek bir konumdan karşılanmasını sağlar.
 
-    - **Maksimum mesafe kuralı**: Bu kural, kurumların bir konumun veya konum grubunun siparişi karşılamak için bulunabileceği maksimum uzaklığı tanımlamasını sağlar. Bir konum için çakışan maksimum uzaklık kuralları tanımlandıysa DOM söz konusu konum için tanımlanan en düşük maksimum uzaklığı uygular.
-    - **Maksimum sipariş sayısı kuralı**: Bu kural, kurumların bir konumun veya konum grubunun işleyebileceği maksimum sipariş sayısını tanımlamasını sağlar. Optimizasyon işlemi sırasında sistem, bu konumlardan gönderilmeyen siparişleri dikkate alır. Bu denetim, profiller arasında gerçekleştirilir. Bu nedenle, aynı konum için profiller arasında çakışan maksimum sipariş sayısı tanımlanması halinde sistem, tüm profillerde tanımlanan maksimum sipariş sayısını dikkate alır. 
 
-    Önceki tüm kural türleri için tanımlanabilecek ortak özniteliklerin bazıları aşağıdaki gibidir:
+        Aşağıdaki tabloda, bu parametrelerin bir birleşimi tanımlandığında görülen davranış açıklanmaktadır.
 
-    - **Başlangıç tarihi** ve **Bitiş tarihi**: Bu alanları, her bir kural tarihini etkin hale getirmek için kullanabilirsiniz.
-    - **Devre Dışı**: DOM çalıştırma işleminde bu alan için yalnızca **Hayır** değerine sahip kurallar dikkate alınır.
-    - **Sabit sınırlama**: Bir kural, sabit kısıtlama veya sabit kısıtlama değil olarak tanımlanabilir. Her DOM çalıştırma işlemi, iki kez tekrarlanır. İlk tekrarda, her kurala bu alanın ayarından bağımsız olarak sabit kısıtlama olarak işlem yapılır. Başka bir deyişle, her kural uygulanır. Tek özel durum, **Konumu önceliği** kuralıdır. İkinci tekrarda, sabit kısıtlama olarak tanımlanmayan kurallar kaldırılır ve tüm kurallar uygulandığında konumlara atanmayan sipariş veya sipariş satırları konumlara atanır.
+        | Birleşim numarası | Kısmi siparişleri karşıla | Kısmi satırları karşıla | Siparişi tek bir konumdan karşıla | Tanım |
+        |------|------------------------|-----------------------|--------------------------------------|-------------|
+        | 1    | Evet                    | Evet                   | Evet                                  | Siparişin birkaç satırı karşılanabilir ve tek satırlar kısmen karşılanabilir, ancak DOM çalıştırma işleminin bir örneğinde tüm satırlar aynı konuma ait olmalıdır. (Bu birleşim şu anda desteklenmemektedir.) |
+        | 2    | Evet                    | Hayır                    | Evet                                  | Siparişin birkaç satırı karşılanabilir, ancak tek satırlar kısmen karşılanamaz ve DOM çalıştırma işleminin bir örneğinde karşılanan tüm satırlar aynı konuma ait olmalıdır. (Bu birleşim şu anda desteklenmemektedir.) |
+        | 3    | Evet                    | Evet                   | Hayır                                   | Siparişin birkaç satırı karşılanabilir, tek satırlar kısmen karşılanabilir ve her satır, DOM çalıştırma işleminin bir örneğindeki bir konumdan karşılanabilir. |
+        | 4\*  | Hayır                     | Uygulanamaz        | Hayır                                   | Tüm sipariş satırları karşılanmalıdır, tek satırlar kısmen karşılanamaz ve her sipariş satırı farklı bir konumdan karşılanabilir. |
+        | 5\*  | Hayır                     | Uygulanamaz        | Evet                                  | Tüm sipariş satırları karşılanmalıdır, tek satırlar kısmen karşılanamaz ve tüm sipariş satırları yalnızca bir konumdan sağlanabilir. |
+        | 6\*  | Hayır                     | Uygulanamaz        | Hayır                                   | Bu kombinasyon, kombinasyon 4 gibi çalışır, çünkü **Kısmi satırları karşıla**, **Kısmi siparişleri karşıla** **Hayır** olarak ayarlıyken **Evet** olarak ayarlanamaz. |
+        | 7\*  | Hayır                     | Uygulanamaz        | Evet                                  | Bu kombinasyon, kombinasyon 5 gibi çalışır, çünkü **Kısmi satırları karşıla**, **Kısmi siparişleri karşıla** **Hayır**'ken **Evet** olamaz. |
+        | 8    | Evet                    | Hayır                    | Hayır                                   | Siparişin birkaç satırı karşılanabilir, ancak tek satırlar kısmen karşılanamaz ve çeşitli sipariş satırları, DOM çalıştırma işleminin bir örneğindeki bir konumdan karşılanabilir. |
+        | 9\*  | Hayır                     | Uygulanamaz        | Evet                                  | Tüm sipariş satırları karşılanmalı ve tüm sipariş satırları yalnızca tek bir konumdan karşılanmalıdır. |
+
+        \* **Kısmi siparişleri karşıla** **Hayır** olarak ayarlıysa **Kısmi satırları karşıla**, aslında nasıl ayarlandığından bağımsız olarak her zaman **Hayır**'a ayarlı olarak kabul edilir.
+
+        > [!NOTE]
+        > Retail 10.0.5 sürümünde, **Siparişi yalnızca bir yerleşimden karşıla** parametresi **Maksimum karşılama yerleşimleri** olarak değiştirildi. Kullanıcılar siparişlerin yalnızca bir konumdan mı, yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını yapılandırma olanağını kullanmak yerine artık karşılamanın belirli bir konum kümesinden mi (en fazla 5) yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını belirtebilir. Bu özellik, siparişin karşılanabileceği konum sayısı açısından daha fazla esneklik sunar. Bu kural yalnızca Üretim Çözücü ile çalışır. 
+
+   - **Çevrimdışı karşılama konumu kuralı**: Bu kural, kurumların bir konumu veya konum grubunu çevrim dışı ya da DOM için kullanılamaz olarak belirtmelerini sağlar, böylece siparişler karşılama için bu konumlara atanamaz.
+    - **Maksimum reddetme sayısı kuralı**: Bu kural, kurumların reddetme işlemleri için bir eşik tanımlamasını sağlar. Eşiğe ulaşıldığında, DOM işlemcisi bir siparişi veya sipariş satırını özel durum olarak işaretler ve diğer işlemlerde hariç tutar.
+
+        Sipariş satırları bir konuma atandıktan sonra, konum atanan bir sipariş satırını reddedebilir, çünkü bazı nedenlerle söz konusu satırı karşılayamıyor olabilir. Reddedilen satırlar özel durum olarak işaretlenir ve sonraki çalıştırmada işlenmeleri için yeniden havuza eklenir. DOM, sonraki çalışma sırasında reddedilen satırı farklı bir konuma atamayı dener. Yeni konum da atanan sipariş satırını reddedebilir. Bu atama ve reddetme çevrimi birkaç kez meydana gelebilir. Reddetme sayısı tanımlanan eşiğe ulaştığında, DOM sipariş satırını kalıcı özel durum olarak işaretler ve satırı yeniden atama için seçmez. DOM, sipariş satırını yalnızca bir kullanıcı sipariş satırının durumunu sıfırlarsa yeniden atama için dikkate alır.
+
+   - **Maksimum mesafe kuralı**: Bu kural, kurumların bir konumun veya konum grubunun siparişi karşılamak için bulunabileceği maksimum uzaklığı tanımlamasını sağlar. Bir konum için çakışan maksimum uzaklık kuralları tanımlandıysa DOM söz konusu konum için tanımlanan en düşük maksimum uzaklığı uygular.
+    - **Maksimum siparişler kuralı**: Bu kural, kurumların bir konumun veya konum grubunun bir takvim günü boyunca işleyebileceği maksimum sipariş sayısını tanımlamasını sağlar. Bir konuma tek bir günde maksimum sipariş sayısı atandıysa DOM, takvim gününün kalanı boyunca söz konusu konuma başka sipariş atamaz.
+
+   Tüm önceki kural türleri için tanımlanabilecek ortak özniteliklerin bazıları aşağıdadır:
+
+   - **Başlangıç tarihi** ve **Bitiş tarihi**: Her kural bu alanlar kullanılarak tarih açısından etkin hale getirilebilir.
+   - **Devre Dışı**: Bir DOM çalıştırma işleminde bu alan için yalnızca **Hayır** değerine sahip kurallar dikkate alınır.
+   - **Sabit sınırlama**: Bir kural, sabit kısıtlama veya sabit kısıtlama değil olarak tanımlanabilir. Her DOM çalıştırma işlemi, iki kez tekrarlanır. İlk tekrarda, her kurala bu alanın ayarından bağımsız olarak sabit kısıtlama olarak işlem yapılır. Başka bir deyişle, her kural uygulanır. Tek özel durum, **Konumu önceliği** kuralıdır. İkinci tekrarda, sabit kısıtlama olarak tanımlanmayan kurallar kaldırılır ve tüm kurallar uygulandığında konumlara atanmayan sipariş veya sipariş satırları konumlara atanır.
 
 10. Karşılama profilleri bir kural, tüzel kişilik, satış siparişi menşeleri ve teslimat şekilleri koleksiyonunu gruplandırmak için kullanılır. Her DOM çalıştırma işlemi, belirli bir karşılama profiline yöneliktir. Kurumlar, bu şekilde belirli satış siparişi menşeleri ve teslimat şekillerine sahip siparişlerde bir tüzel kişilik kümesi için bir dizi kural tanımlayıp çalıştırabilir. Bu nedenle, farklı satış siparişi menşeleri ve teslimat şekilleri kümeleri için farklı kural dizileri çalıştırılması gerekiyorsa karşılama profilleri buna göre tanımlanabilir. Karşılama profillerini ayarlamak için aşağıdaki adımları takip edin:  
 
@@ -117,17 +145,17 @@ Aşağıdaki şekilde, DOM sistemindeki bir satış siparişinin yaşam döngüs
     2. **Yeni**'yi seçin.
     3. **Profil** ve **Açıklama** alanlarına değer girin.
     4. **Sonucu otomatik olarak uygula** seçeneğini ayarlayın. Bu seçeneği **Evet** olarak ayarlarsanız profil için DOM çalıştırma işleminin sonuçları otomatik olarak satış siparişi satırlarına uygulanır. Bunu **Hayır** olarak ayarlarsanız sonuçlar yalnızca karşılama planında görüntülenebilir. Satış siparişi satırlarına uygulanmaz.
-    5. DOM profilinin, satış siparişi menşeinin tanımlı olmadığı siparişler dahil her satış siparişi menşeine sahip siparişler için çalıştırılmasını istiyorsanız **Boş satış menşeine sahip siparişleri işle** seçeneğini **Evet** olarak ayarlayın. Profili yalnızca birkaç satış siparişi menşei için çalıştırmak isterseniz bunları ileriki bölümlerde açıklandığı gibi **Satış menşeleri** sayfasında tanımlayabilirsiniz.
+    5. DOM profilinin, satış siparişi menşeinin tanımlı olmadığı siparişler dahil her satış siparişi menşeine sahip siparişler için çalıştırılmasını istiyorsanız **Boş satış menşeine sahip siparişleri işle** seçeneğini **Evet** olarak ayarlayın. Profili yalnızca birkaç satış siparişi menşei için çalıştırmak isterseniz, bunları daha sonra açıklandığı gibi **Satış menşeleri** sayfasında tanımlayabilirsiniz.
 
-        > [!NOTE]
-        > Commerce 10.0.12 ve üstü sürümlerde, **Özellik Yönetimi** çalışma alanında **Karşılama profiline Karşılama grubu atama yeteneği** özelliği etkinleştirilmelidir. Bu özellik, optimizasyon bir sipariş karşılama profili ile çalıştırıldığında DOM'nin dikkate alması gereken ambar listesini belirlemenize olanak tanır. Bu ambar listesi belirtilmezse DOM, profilde tanımlanan tüzel kişiliklerdeki tüm ambarlara bakar.
-        >
-        > Bu özellik, **Karşılama profili** sayfasına, tek bir karşılama grubuyla ilişkilendirilebilecek yeni bir yapılandırma ekler. 
-        >
-        > Karşılama grubunu seçerseniz, bu karşılama profilinin DOM kuralları, karşılama grubuna dahil edilen "sevkiyat" ambarları için etkili şekilde çalışacaktır. 
-        > 
-        > Bu özelliği etkin şekilde kullanmak için, tüm sevkiyat ambarlarını içeren tek bir karşılama grubu olduğundan emin olun ve sonra bu karşılama grubunu karşılama profiliyle ilişkilendirin.
-
+    > [!NOTE]
+    > Commerce 10.0.12 ve üstü sürümlerde, **Karşılama Profiline Karşılama grubu atama özelliği** **Özellik Yönetimi** çalışma alanında etkinleştirilmelidir. 
+    >
+    > Bu özellik, **Karşılama profili** sayfasına, tek bir karşılama grubuyla ilişkilendirilebilecek yeni bir yapılandırma ekler. 
+    >
+    > Karşılama grubunu seçerseniz, bu karşılama profilinin DOM kuralları, karşılama grubuna dahil edilen "sevkiyat" ambarları için etkili şekilde çalışacaktır. 
+    > 
+    > Bu özelliği etkin şekilde kullanmak için, tüm sevkiyat ambarlarını içeren tek bir karşılama grubu olduğundan emin olun ve sonra bu karşılama grubunu karşılama profiliyle ilişkilendirin.
+    
     6. **Tüzel kişilikler** hızlı sekmesinde, **Ekle**'yi seçin ve ardından bir tüzel kişilik seçin.
     7. **Kurallar** hızlı sekmesinde, **Ekle**'yi seçin ve ardından profille ilişkilendirilecek kuralı seçin.
     8. Tüm gerekli kurallar profille ilişkilendirilene kadar önceki iki adımı yineleyin.
@@ -170,17 +198,13 @@ DOM, işleme anında sipariş ve sipariş satırlarını burada açıklandığı
 
 - Beklemede olmayan siparişler
 
-DOM kuralları, stok kısıtlamalarını ve iyileştirmeleri uyguladıktan sonra müşterinin teslimat adresine en yakın konumu seçer. DOM, **Teslimat** türündeki adresleri enlem ve boylam değerlerine dönüştürür. Daha sonra satış siparişindeki teslimat adresini enlem ve boylam değerlerine dönüştürür ve adresin enlem ve boylam değerlerini ileride kullanmak üzere güncelleştirir. DOM; adres, şehir ve posta kodu bilgilerini temel alarak doğru enlem ve boylam değerlerini belirlemek için Bing Haritalar'ı kullanır.
-
-DOM, ayarlara bağlı olarak hava veya karayolu mesafesini hesaplamak için Bing Haritalar API'sini kullanır. Daha sonra bu bilgileri kullanarak sevkiyat maliyetini belirler. Optimizasyon modeli, tek bir konumdan eksiksiz bir siparişin karşılanmasına öncelik verir. Siparişin bir kısmı aynı şehirde veya posta kodu konumunda mevcut olsa bile model, sevkiyat sayısını azaltmak üzere optimize edilmiştir. 
-
-DOM, ambar V2 varlıklarında eldeki stoğu görüntüleyerek kullanılabilir stoğu arar. Her toplu çalıştırma sırasında DOM, profilde tanımlanan görevlerin **DOM İşlemcisi** parametre değerine bağlı olarak siparişleri gruplara ayırır. Bu parametrenin varsayılan değeri **2.000**'dir. Örneğin, bir çalıştırmada 10.000 sipariş satırı optimize ediliyorsa ve **DOM İşlemcisi** parametresi **2.000** varsayılan değerine ayarlanmışsa DOM, aynı anda işlenen beş toplu iş oluşturur. Sipariş karşılama planları daha sonra optimize ediciden alınır ve hatta uygulanır. Sipariş satırının iki konum arasında bölünmesi gerekiyorsa DOM, fiyatların ve vergilerin satırlar arasında uygun şekilde yayılmasını sağlar.
+DOM kuralları, stok kısıtlamalarını ve iyileştirmeleri uyguladıktan sonra müşterinin teslimat adresine en yakın konumu seçer.
 
 ![Satış siparişi ölçütü.](./media/ordercriteria.png "Satış siparişi ölçütü")
 
 ## <a name="results-of-dom-runs"></a>DOM çalıştırma işlemlerinin sonuçları
 
-Sipariş karşılama profili **Otomatik olarak uygula** şeklinde ayarlandığında, çalıştırma işleminin sonuçları otomatik olarak satış siparişi satırlarına uygulanır ve sipariş karşılama planı ayrı olarak görüntülenebilir. Bununla birlikte, karşılama profili **Otomatik olarak uygula** şeklinde ayarlanmamışsa çalıştırma işleminin sonuçları yalnızca karşılama planı görünümden görülebilir. 
+Karşılama profili **Otomatik olarak uygula** şeklinde ayarlandığında, çalıştırma işleminin sonuçları otomatik olarak satış siparişi satırlarına uygulanır ve karşılama planı ayrı olarak görüntülenebilir. Bununla birlikte, karşılama profili **Otomatik olarak uygula** şeklinde ayarlanmamışsa çalıştırma işleminin sonuçları yalnızca karşılama planı görünümden görülebilir. 
 
 Oluşturulan tüm karşılama planlarını görüntülemek için aşağıdaki adımları izleyin.
 
@@ -199,7 +223,6 @@ Oluşturulan tüm karşılama planlarını görüntülemek için aşağıdaki ad
 ## <a name="order-line-actions-and-statuses"></a>Sipariş satırı eylemleri ve durumları
 
 Aşağıda, sipariş satırındaki ayarlar açıklanmaktadır. Sipariş satırını açmak için **Retail ve Commerce \> Müşteriler \> Tüm satış siparişleri** bölümüne gidin.
-
 - Satış siparişi satırının **Genel** sekmesindeki **DOM işlemlerinden hariç tut** seçeneğini **Evet** olarak ayarlarsanız sipariş veya sipariş satırı DOM işlemlerinde hariç tutulur.
 - Satış siparişi satırının **Genel** sekmesindeki **DOM durumu** alanı aşağıdaki değerlerden birine ayarlanabilir:
 
@@ -229,10 +252,7 @@ DOM işlemi çalıştırılırken, karşılama planları oluşturulur. Sistem, z
 DOM özelliğini kullanırken dikkate almanız gereken bazı noktalar aşağıda belirtilmiştir:
 
 - DOM şu anda yalnızca ticari kanallardan oluşturulan siparişlere bakmaktadır. Satış siparişleri, **Ticari satış** seçeneği **Evet** olarak ayarlandığında ticari satış siparişleri olarak tanımlanır.
-- Microsoft, DOM'yi gelişmiş ambar yönetimi özellikleriyle test etmemiştir. Bu nedenle müşteriler ve iş ortakları, DOM'nin gelişmiş ambar yönetimi özellikleri ve bu özelliklerle ilgili işlemlerle uyumlu olup olmadığını belirlemek için dikkatli olmalıdır. Gelişmiş ambarlama, kullanılabilir stoğun doğru bir şekilde anlaşılmasını sağlama işlevi olmayan stok durumu gibi yapılandırılabilir boyutları etkinleştirir. DOM, gelişmiş ambarlama kullanan uygulamalar için kullanılabilir stoğu ayarlamada genişletilebilir bir yöntem sağlar. Bu yöntem, stok durumu ve diğer boyutların özelleştirilmiş değerleriyle çalışmak için kullanılabilir.
-
-    Optimizasyon, optimizasyonu ve kısıtlamalarını dikkate alan önceden oluşturulmuş MIP modelinde gerçekleştiği için DOM içinde genişletilebilirlik sınırlıdır. Stoğun ayarlanması ve işleme sonrası optimizasyon için çeşitli genişletilebilir noktalar zaten kullanılabilir durumdadır. DOM profilleri, satış menşeine ve teslimat şekline göre farklılık gösterebilir. Satış siparişi kaynağı, sipariş alımı sırasında ayarlanabilir ve bu değerlere göre farklı optimizasyon stratejileri kullanılabilir. DOM ayrıca, DOM işlemcisi görevini girdi olarak alabilen ve profilin bir parametre olarak iletilmesini sağlayan özel toplu işlerin oluşturulmasını destekler. Bu nedenle, farklı iş senaryolarını desteklemek için bir optimizasyon bir diğerinin ardından çalıştırılabilir.
-
+- Microsoft, DOM'yi ileri düzey ambar yönetimi özellikleriyle test etmemiştir. Müşteriler ve iş ortakları, DOM'nin ileri düzey ambar yönetimi özellikleri ve bunlara ilgili işlemlerle uyumlu olup olmadığını belirlemek için dikkatli olmalıdır.
 - DOM, yalnızca Commerce'in bulut sürümünde kullanılabilir. Şirket içi dağıtımlarda desteklenmez.
 
 

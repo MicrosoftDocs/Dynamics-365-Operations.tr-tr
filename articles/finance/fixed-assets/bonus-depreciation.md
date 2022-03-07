@@ -2,11 +2,9 @@
 title: Bonus amortisman
 description: Bu makalede, bonus amortisman işlevselliğine bir genel bakış verilmektedir.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41a59b9dfe0482c995cfefc7a70f63550794428d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f811b913f751a860c21fc120b15bac406281d7f8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969190"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827038"
 ---
 # <a name="bonus-depreciation"></a>Bonus amortisman
 
@@ -64,3 +62,6 @@ Bonus amortisman bir yüzde veya sabit bir tutar olarak girilir. Amortisman tekl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Toplu iş dengelemesi
 description: Bu konu toplu iş dengeleme işlemini açıklar.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8c1f52239b2050425c37a8130507e689b29205a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 104c8bdf50bfcb7f598020f669a431d6e9d51c83
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966567"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811834"
 ---
 # <a name="batch-balancing"></a>Toplu iş dengelemesi
 
@@ -186,3 +184,6 @@ Formülde **Bileşen türü**'nün *Etkin* olduğu en az bir formül satırı bu
 1. Formül ölçü birimi etkin bileşenin ölçü biriminden farklıysa toplu iş emri toplu iş dengelemesi için geçerli olmaz.
 
 Toplu iş dengelemesi kullanılamayan bir toplu iş emri toplu iş emirlerine yönelik normal süreçten geçer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

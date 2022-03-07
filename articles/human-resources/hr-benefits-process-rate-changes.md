@@ -1,33 +1,35 @@
 ---
-title: Değişiklikleri işleyin
-description: Yeni veya mevcut bir avantaj planının uygunluk kuralı ayarlarında bir değişikliği olduğunda, Microsoft Dynamics 365 Human Resources'ta kazanç oranı değişikliklerini işleyin.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Oran değişikliklerini işleme
+description: Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasında kazanç oranı değişikliklerinin nasıl işleneceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitRate, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: da42ef6ea91b95903316e35b551b222b8ff3b946
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e0dfbdde8ee950a0341fffb1e268fff05434953
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420912"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070387"
 ---
-# <a name="process-rate-changes"></a>Değişiklikleri işleyin
+# <a name="process-rate-changes"></a>Oran değişikliklerini işleme
 
-Yeni veya mevcut bir avantaj planının uygunluk kuralı ayarlarında bir değişikliği olduğunda, Microsoft Dynamics 365 Human Resources'ta kazanç oranı değişikliklerini işleyin. Yeni bir uygunluk kuralı oluşturulup plana atanmışsa, bu durum sisteme, çalışanların şimdi yeni uygunluk seçeneklerine dayalı olarak planlama için uygun olup olmadığını denetlemek amacıyla, alt uygunluğu yeniden çalıştırması için uyarır. 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Bu konuda, uygunluk kuralı ayarlarındaki yeni veya var olan bir kazanç planında bir değişiklik olduğunda Microsoft Dynamics 365 Human Resources uygulamasında kazanç oranı değişikliklerinin nasıl işleneceği açıklanmaktadır. Yeni bir uygunluk kuralı oluşturulup plana atanmışsa, bu durum sisteme, çalışanların şimdi yeni uygunluk seçeneklerine dayalı olarak planlama için uygun olup olmadığını denetlemek amacıyla, alt uygunluğu yeniden çalıştırması için uyarır. 
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **işlem** altında, **Oran değişimi güncelleme işlemini** seçin.
 
@@ -48,3 +50,6 @@ Yeni veya mevcut bir avantaj planının uygunluk kuralı ayarlarında bir deği�
    4. **Tamam**'ı seçin. İşlem, ayarladığınız parametrelerle çalışacaktır.
 
 4. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

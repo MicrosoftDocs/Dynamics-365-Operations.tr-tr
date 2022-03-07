@@ -1,26 +1,29 @@
 ---
 title: Ters işlemli amortismanın etkileri
 description: Bu makalede, sabit kıymet hareketini ters kaydetmenin olası etkileri ele alınmaktadır.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: dd4c4a9e7e89b34b1311b38310877b45e4d95b22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674562"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448699"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Ters işlemli amortismanın etkileri
 
@@ -30,14 +33,14 @@ Bu makalede, sabit kıymet hareketini ters kaydetmenin olası etkileri ele alın
 
 Sabit kıymet hareketlerine ve sabit kıymetle ilişkili hareketlere ters işlem uygulayabilirsiniz. Ayrıca tersine çevrilmiş bir hareketi de iptal edebilirsiniz. 
 
-Kıymet için deftere nakledilen en son hareket olmayan bir hareketi tersine çevirebilir veya iptal edebilirsiniz. Öncelikle, tersine çevireceğiniz hareketten sonra herhangi bir amortisman hareketinin deftere nakledilip edilmediğini belirleyin. Bu adımın sebebi bir hareketi ters kaydettiğinizde amortismanın yeniden hesaplanmayacak olmasıdır. Bu nedenle, amortisman ters işlem örneklerde gösterildiği gibi genellikle olduğundan daha fazla veya daha az belirtilir. 
+Kıymet için deftere nakledilen en son hareket olmayan bir hareketi tersine çevirebilir veya iptal edebilirsiniz. Öncelikle, tersine çevireceğiniz hareketten sonra herhangi bir amortisman hareketinin deftere nakledilip edilmediğini belirlemeniz gerekir. Bunun sebebi bir hareketi ters kaydettiğinizde amortismanın yeniden hesaplanmayacak olmasıdır. Bu nedenle, amortisman ters işlem örneklerde gösterildiği gibi genellikle olduğundan daha fazla veya daha az belirtilir. 
 
 Bir hareketi tersine çevirdiğinizde amortismanın doğru olduğundan emin olmak için amortismanın yeniden hesaplanmayacağını belirten bir ileti alırsanız, iptal işlemiyle devam etmeyin. Bunun yerine, önce tersine çevirmeye çalıştığınız hareketten sonra nakledilen amortisman hareketini tersine çevirin ve sonra iptal işlemiyle devam edin. Amortismanın yeniden hesaplanmasıyla ilgili uyarılmazsınız ve iptal işlemiyle devam edebilirsiniz. 
 
 Aşağıdaki örneklerde, uyarı iletisinden sonra, öncelikle amortisman hareketlerini tersine çevirmeden devam ederseniz oluşacak hesaplamalar gösterilir.
 
 ## <a name="example-1-depreciation-is-overstated"></a> Örnek 1: Amortisman olduğundan daha fazla belirtilir
-Bir kıymet beş yıllık kullanım süresi ve sabit amortisman (60 amortisman dönemi) ile ayarlanmıştır. Bu örnekte, amortisman olduğundan daha fazla belirtilmiştir.
+Bir kıymet 5 yıllık kullanım süresi ve sabit amortisman (60 amortisman dönemi) ile ayarlanmıştır. Bu örnekte, amortisman olduğundan daha fazla belirtilmiştir.
 #### <a name="asset-transaction-history"></a>Kıymet hareket geçmişi
 
 | Tarih       | Hareket tipi                                                          | Tutar                                    |
@@ -61,7 +64,7 @@ Bir kıymet beş yıllık kullanım süresi ve sabit amortisman (60 amortisman d
 Amortisman 16,95 değeri kadar daha fazla belirtilir (1000 - 983,05).
 
 ## <a name="example-2-depreciation-is-understated"></a> Örnek 2: Amortisman olduğundan daha az belirtilir
-Bir kıymet beş yıllık kullanım süresi ve sabit amortisman (60 amortisman dönemi) ile ayarlanmıştır. Bu örnekte, amortisman olduğundan daha az belirtilmiştir.
+Bir kıymet 5 yıllık kullanım süresi ve sabit amortisman (60 amortisman dönemi) ile ayarlanmıştır. Bu örnekte, amortisman olduğundan daha az belirtilmiştir.
 #### <a name="asset-transaction-history"></a>Kıymet hareket geçmişi
 
 | Tarih       | Hareket türü                                                          | Tutar                                      |
@@ -86,12 +89,10 @@ Amortisman 16,95 değeri kadar daha az belirtilir (983,62 - 966,67).
 
 
 
-## <a name="additional-resources"></a>Ek kaynaklar
+<a name="additional-resources"></a>Ek kaynaklar
+--------
 
 [Sabit kıymet amortismanı](fixed-asset-depreciation.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

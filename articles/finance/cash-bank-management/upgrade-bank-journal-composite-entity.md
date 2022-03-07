@@ -1,7 +1,7 @@
 ---
-title: Banka günlüğü bileşik varlığını güncelleştirme
-description: Bu konuda, ek BankTransactionType alanını birleşik BankJournalEntity öğesine eklemek için gereken adımlar listelenmektedir.
-author: panolte
+title: Banka günlüğü birleşik varlığını güncelleştirme
+description: Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek için aşağıdaki adımlar gereklidir.
+author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0d4334e9aa333aad116f0a0291d9175268661f11
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 7e265915cf3f53a8243788b50a9374d521efbbae
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595446"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819622"
 ---
-# <a name="update-the-bank-journal-composite-entity"></a>Banka günlüğü bileşik varlığını güncelleştirme
+# <a name="update-the-bank-journal-composite-entity"></a>Banka günlüğü birleşik varlığını güncelleştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, ek BankTransactionType alanını birleşik BankJournalEntity öğesine eklemek için gereken adımlar listelenmektedir.
+Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek için aşağıdaki adımlar gereklidir.
 
 Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek için aşağıdaki adımları kullanın.
 

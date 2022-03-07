@@ -1,37 +1,34 @@
 ---
 title: Tehlikeli malzemelere genel bakış
 description: Bu konuda, ürün bilgileri yönetimi ve ambar yönetimi sırasında tehlikeli malzemelerin işlenmesi ve belgelenmesi ile ilgili özelliklere genel bir bakış sağlanır.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 22e1b0838160378f3ff9484faaf87c9aec6e8964
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439051"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570693"
 ---
 # <a name="hazardous-materials-overview"></a>Tehlikeli malzemelere genel bakış
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Sevkiyat ve taşıma yönetmeliklerine uyumluluğu korumak için tehlikeli mal olarak sınıflandırılmış malzemeler sevk eden kuruluşların, sevkiyatlarına ek belgeler eklemeleri gerekir. Tehlikeli malzemeler özelliği, müşterilerin serbest bırakılmış maddelerle ilgili bilgileri depolamasına olanak tanır. Bu bilgiler daha sonra sevkiyat belgelerinin hazırlanmasına yardımcı olarak kullanılabilir. Tehlikeli mal sevk eden bir kuruluşun, sevkiyat sürecini yönetmeye yönelik kendi süreçleri ve yordamları olmalıdır. Microsoft Dynamics 365 Supply Chain Management, yalnızca gerekli belgelerin oluşturulmasına yardımcı olabilecek bir araçtır.
 
 Aşağıdaki diyagramda, tehlikeli malzeme özelliğini ayarlamak ve kullanmak için gerekli adımlar gösterilmektedir.
 
-![Tehlikeli malzeme özelliğinin ayarlanması ve kullanımı](media/hazmat-overview.png "Tehlikeli malzeme özelliğinin ayarlanması ve kullanımı")
+![Tehlikeli malzeme özelliğinin ayarlanması ve kullanımı.](media/hazmat-overview.png "Tehlikeli malzeme özelliğinin ayarlanması ve kullanımı")
 
 Tehlikeli malzemeler özelliği, Ürün bilgileri yönetiminde ayarlanır ve Ambar yönetimi üzerinden yazdırılabilen belgeler sağlar. Bu nedenle, genel anlamda bu özelliğin işlevini inceleyeceğiniz, ayarlayacağınız ve kullanacağınız iki ana alan bunlardır.
 
@@ -62,3 +59,6 @@ Tehlikeli malzemelerle ilgili yönetmeliklerin ve değerlerin nasıl ayarlanaca�
 ## <a name="warehouse-management"></a>Ambar yönetimi
 
 Ambar yönetiminde sevkiyat hazırlarken, Ürün bilgileri yönetiminde ayarladığınız bilgileri kullanan bazı yeni raporlar yazdırabilirsiniz. Kullanılabilir raporlar ve bunların nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Tehlikeli malzeme sorguları ve raporları](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

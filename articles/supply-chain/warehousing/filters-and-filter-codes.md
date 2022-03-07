@@ -2,9 +2,11 @@
 title: Ambar hareketleri için ürün filtrelerini yapılandırma
 description: Bu konuda, bir ambardaki stok maddelerini kategorilere ayırmak için ürün filtrelerinin ve filtre kodlarının nasıl yapılandırılacağı açıklanmaktadır. Ayrıca, belirli bir maddeyi hangi müşterilerin sipariş edebileceğini ve belirli bir satıcıdan hangi maddelerin satın alınabileceğini belirtmek için de filtreleri kullanabilirsiniz.
 author: Mirzaab
+manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSFilters,WHSFilterGroupTable,EcoResProductDetailsExtended,WHSFilterGenerallyAvail
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
-ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.16
+ms.openlocfilehash: 922ff818e069f41c139cc00db9161dc6e113888b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567691"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973747"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Ambar hareketleri için ürün filtrelerini yapılandırma
 
@@ -46,11 +48,11 @@ Başlamadan önce yerine getirilmesi gereken önkoşullar aşağıdaki tabloda g
 1. **Filtre başlığı** alanında bir değer seçin.
 1. **Filtre kodu** alanına bir değer girin.
 
-    ![Ürün filtresi ayarlama.](media/Product_Filters10.png "Ürün filtresi ayarlama")
+    ![Ürün filtresi ayarlama](media/Product_Filters10.png "Ürün filtresi ayarlama")
 
 1. **Açıklama** alanına, kodun adını girin. Örneğin, *Kod 2* satıcıları temsil edebilir. Böylece, belirli bir satıcı veya satıcı grubu için bir ürün filtresi oluşturabilirsiniz. Daha fazla bilgi için bu konunun ilerleyen kısımlarında yer alan [Satıcı filtre kodlarını ayarlama](#vendor-product-filters) bölümüne bakın.
 
-    ![Ürün filtreleri kümesi.](media/Product_Filters.png "Ürün filtreleri kümesi")
+    ![Ürün filtreleri kümesi](media/Product_Filters.png "Ürün filtreleri kümesi")
 
 ## <a name="set-up-product-filter-groups"></a>Ürün filtresi gruplarını ayarlama
 
@@ -69,7 +71,7 @@ Filtre gruplarını ayarlamak için aşağıdaki adımları izleyin.
 1. **Madde grubu** alanında, ürün filtresinin uygulanacağı madde grubunu seçin.
 1. **Kod 1** ile **Kod 10** alanları arasında, gruba eklenecek filtre kodlarını gereken şekilde seçin.
 
-    ![Madde grubu.](media/ProdFilterGroup.png "Madde grubu")
+    ![Madde grubu](media/ProdFilterGroup.png "Madde grubu")
 
 > [!NOTE]
 > Sayfayı kapatırken bir hata iletisi alırsanız, kod kurulumu eksik olabilir. **Madde grupları** sayfasında, **Madde grubu için filtre kodu 1 ata**, **Madde grubu için filtre kodu 2 ata** vb. onay kutularını seçerek kodları bir madde grubu için zorunlu hale getirebilirsiniz.
@@ -88,7 +90,7 @@ Madde gruplarında filtre kodlarını ayarlamak için aşağıdaki adımları iz
 
     Yayınlanmış bir ürünü güncelleştirmek için **Serbest bırakılan ürün ayrıntıları** sayfasını açın ve ardından Eylem Bölmesinde **Düzenle**'yi seçin. Kodlarla ilişkilendirilmiş filtreler **Ambar** hızlı sekmesinde kullanılabilir hale gelir.
 
-    ![Madde grupları.](media/ItemGroup10.png "Madde grupları")
+    ![Madde grupları](media/ItemGroup10.png "Madde grupları")
 
 1. **Madde grubu filtresi** bölümünde, filtre grubunun bir madde için varsayılan filtre grubu olması için eşleşmesi gereken filtrelerin onay kutularını seçin.
 
@@ -163,6 +165,3 @@ Satıcı filtre kodlarını ayarlamak için aşağıdaki adımları izleyin.
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Daha fazla bilgi için WMS Ambar Filtre Kodları blog gönderisini inceleyin](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

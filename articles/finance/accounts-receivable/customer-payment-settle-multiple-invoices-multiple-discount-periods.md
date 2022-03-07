@@ -2,9 +2,11 @@
 title: Birden fazla iskonto dönemine yayılan faturaları kapatmak için bir ödeme kullanma
 description: Bu konuda, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit iskontolarının ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c86423c9e3453d8be11e6bdbc3484647e26e9eeec59c9a2e888cc5a2b2b5592
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16e255c471ed2f551a6cf62e9750ac0eee57a5b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769071"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236974"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Birden fazla iskonto dönemine yayılan faturaları kapatmak için bir ödeme kullanma
 
@@ -66,7 +68,7 @@ Arnie, bu faturaların tamamını 1 Temmuz'da kapatmak üzere bir ödeme günlü
 | Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | ABD Doları      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>29 Haziran'da kısmi kapatma
-Müşteri 4032 her fatura yarısı gibi kısmi bir tutarı ödeyebilir. Arnie müşteri 4032 için bir ödeme oluşturur ve **Kapatma hareketleri** sayfasını açar. **Kapatma hareketleri** sayfasında, Arnie üç fatura satırını da kapatmak üzere işaretler. Her satırda Arnie, o müşteriye sağlanan yönergelere dayalı olarak kapatılacak tutarı girer. Arnie bir satırı seçtiğinde, Arnie bu satır için geçerli iskonto tutarını ve alınan nakit iskontosu tutarını görür. Müşteri faturanın yarısını ödediğinden Arnie FTI-10042 için **Nakit iskontosu tutarı** alanındaki değerin **20,00** olduğunu ancak **Alınan nakit iskontosu** alanındaki tutarın **10,00** olduğunu görür. Ödeme tutarı 1.485,00'tir.
+Müşteri 4032 her fatura yarısı gibi kısmi bir tutarı ödeyebilir. Arnie müşteri 4032 için bir ödeme oluşturur ve **Kapatma hareketleri** sayfasını açar. **Kapatma hareketleri** sayfasında, Arnie üç fatura satırını da kapatmak üzere işaretler. Her satırda, o müşteriye sağlanan yönergelere dayalı olarak kapatılacak tutarı girer. Arnie bir satırı seçtiğinde, bu satır için geçerli iskonto tutarını ve alınan nakit iskontosu tutarını görür. Müşteri faturanın yarısını ödediğinden Arnie FTI-10042 için **Nakit iskontosu tutarı** alanındaki değerin **20,00** olduğunu ancak **Alınan nakit iskontosu** alanındaki tutarın **10,00** olduğunu görür. Ödeme tutarı 1.485,00'tir.
 
 | İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Para Birimi | Kapatılacak tutar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +76,11 @@ Müşteri 4032 her fatura yarısı gibi kısmi bir tutarı ödeyebilir. Arnie m�
 | Seçildi                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | ABD Doları      | 495,00           |
 | Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | ABD Doları      | 490,00           |
 
-Arnie, 1.485,00'lik ödeme tutarını, **Hareketleri kapatma** sayfasını açmadan önce el ile de girebilir. Arnie ödeme tutarını el ile girerse ve daha sonra her üç hareketi de seçerse ancak **Kapatılacak tutar** alanının değerini her bir hareket için ayarlamazsa, sayfayı kapattığında aşağıdaki iletiyi alır:
+Tamer, 1.485,00'lik ödeme tutarını, **Hareketleri kapatma** sayfasını açmadan önce el ile de girebilir. Tamer ödeme tutarını el ile girerse ve daha sonra her üç hareketi de seçerse ancak **Kapatılacak tutar** alanının değerini her bir hareket için ayarlamazsa, sayfayı kapattığında aşağıdaki iletiyi alır:
 
 > İşaretlenen hareketlerin toplam tutarı günlük tutarından farklı. Günlükteki tutar değiştirilsin mi?
 
-Arnie ödemenin sadece 1.485,00 olmasını istiyorsa **Hayır** seçeneğine tıklar veya günlüğü deftere nakleder. Hareketler aşağıdaki şekilde kapatılır:
+Arnie ödemenin sadece 1.485,00 olmasını istiyorsa **Hayır** seçeneğini tıklar veya günlüğü deftere nakleder. Hareketler aşağıdaki şekilde kapatılır:
 
 1.  FTI-10040, 15 Mayıs'ta girildiğinden ve en eski fatura olduğundan 1.000,00 tutarı tamamen kapatılır. Nakit iskontosu yapılmaz. Ödeme hareketinde kalan tutar 485,00'tir.
 2.  Fatura FTI 10041 için hiçbir tutar kapatılmaz. Faturala FTI-10041 ve FTI-10042 aynı tarihte girilmiştir. Ancak, fatura FTI-10041 için yüzde 1 oranında ve fatura FTI-10042 için yüzde 2 oranında iskonto uygulanabilir. Fatura FTI-10042 için daha iyi bir iskonto sunulduğundan, kalan 485,00 fatura FTI-10042 ile kapatılır.

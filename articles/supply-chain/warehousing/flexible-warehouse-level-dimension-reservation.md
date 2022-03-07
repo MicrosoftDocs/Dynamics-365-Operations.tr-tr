@@ -2,47 +2,44 @@
 title: Esnek ambar düzeyi boyut rezervasyon ilkesi
 description: Bu konu, toplu işle izlenen ürünler satan ve lojistiklerini WMS-etkin operasyonlar olarak çalıştıran işletmelerin, ürünlerle ilişkili rezervasyon hiyerarşisi belirli toplu işlerin rezervasyonuna izin vermese bile, belirli toplu işleri rezerve etmelerine izin veren stok rezervasyon ilkesini açıklar.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439626"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474952"
 ---
-# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyon ilkesi
+# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyonu ilkesi
 
 [!include [banner](../includes/banner.md)]
 
-"Toplu iş-\[yerleşim\] altı" türünde stok rezervasyon hiyerarşisi ürünlerle ilişkiliyse, toplu işle izlenen ürünler satan ve lojistiklerini Microsoft Dynamics 365 Warehouse Management System (WMS) için etkinleştirilmiş operasyonlar olarak yürüten işletmeler, müşteri satış siparişleri için bu ürünlerin belirli toplu işlerini rezerve edemez.
+*Toplu iş-\[yerleşim altı\]* türünde stok rezervasyon hiyerarşisi ürünlerle ilişkiliyse, toplu işle izlenen ürünler satan ve lojistiklerini Microsoft Dynamics 365 Warehouse Management System (WMS) için etkinleştirilmiş operasyonlar olarak yürüten işletmeler, müşteri satış siparişleri için bu ürünlerin belirli toplu işlerini rezerve edemez.
 
 Benzer şekilde, satış siparişlerindeki ürünler varsayılan rezervasyon hiyerarşisiyle ilişkilendirildiğinde bu ürünler için belirli plakalar rezerve edilemez.
 
-Bu konu, ürünler bir "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisiyle ilişkili olsa bile, bu işletmelerin belirli toplu işleri veya plakaları rezerve etmelerine izin veren stok rezervasyon ilkesini açıklamaktadır.
+Bu konu, ürünler bir *Toplu iş-\[yerleşim altı\]* rezervasyon hiyerarşisiyle ilişkili olsa bile, bu işletmelerin belirli toplu işleri veya plakaları rezerve etmelerine izin veren stok rezervasyon ilkesini açıklamaktadır.
 
 ## <a name="inventory-reservation-hierarchy"></a>Stok rezervasyonu hiyerarşisi
 
 Bu bölüm, varolan stok rezervasyon hiyerarşisini özetlemektedir.
 
-Ambar mantığı, istenen miktarlara yerleşim atamaktan ve yerleşimi rezerve etmekten sorumluyken, stok rezervasyon hiyerarşisi, depolama boyutlarıyla ilgili olarak, talep emrinin tesis, ambar ve stok durumu zorunlu boyutlarını taşımasını zorunlu kılar. Başka bir deyişle, talep emri ve ambar operasyonları arasındaki etkileşimlerde, talep emrinde siparişin sevk çıkışının yapılacağı yerin (yani tesis ve ambar) belirtilmesi beklenir. Ambar, bunun üzerine, ambar tesislerindeki gerekli miktarı bulmak için kendi mantığını temel alır.
+Stok rezervasyon hiyerarşisi, depolama boyutlarıyla ilgili olarak talep siparişinin tesis, ambar ve stok durumunun zorunlu boyutlarını taşımasını belirler. Başka bir deyişle, zorunlu boyutlar rezervasyon hiyerarşisindeki yerleşim boyutunun üzerindeki tüm boyutlardır, ambar mantığı ise istenen miktarlara yerleşim atamaktan ve yerleşimi rezerve etmekten sorumludur. Talep emri ve ambar operasyonları arasındaki etkileşimlerde, talep emrinde siparişin sevk çıkışının yapılacağı yerin (yani tesis ve ambar) belirtilmesi beklenir. Ambar, bunun üzerine, ambar tesislerindeki gerekli miktarı bulmak için kendi mantığını temel alır.
 
 Bununla birlikte, işletmenin operasyon modelini yansıtmak için, izleme boyutları (toplu iş ve seri numaraları) daha fazla esneklik gerektirir. Bir stok rezervasyonu hiyerarşisi aşağıdaki koşulların geçerli olduğu senaryolar barındırabilir:
 
-- İşletme, ambar depolama alanında miktarlar bulunduktan sonra, toplu iş veya seri numaraları olan miktarların çekilmesini yönetmek için kendi ambar operasyonlarını temel alır. Bu modele genellikle *Toplu iş-\[yerleşim\] altı* adı verilir. Genellikle, satıcı şirketle talebi oluşturan müşteriler için bir ürünün toplu iş veya seri numarası tanımlaması önemli olmadığı zaman kullanılır.
-- Toplu iş veya seri numaraları bir müşterinin sipariş belirtiminin parçasıysa ve bunlar talep emrinde kaydedilirse, ambardaki miktarları bulan ambar operasyonları istenen belirli sayılarla sınırlandırılır ve bunları değiştirmelerine izin verilmez. Bu modele *Toplu iş-\[yerleşim\] üstü* adı verilir.
+- İşletme, ambar depolama alanında miktarlar bulunduktan *sonra*, toplu iş veya seri numaraları olan miktarların çekilmesini yönetmek için kendi ambar operasyonlarını temel alır. Bu modele genellikle *Toplu iş-\[yerleşim\] altı* veya *Seri-\[yerleşim\] altı* adı verilir. Genellikle, satıcı şirketle talebi oluşturan müşteriler için bir ürünün toplu iş veya seri numarası tanımlaması önemli olmadığı zaman kullanılır.
+- İşletme, ambar depolama alanında miktarlar bulunduktan *önce*, toplu iş veya seri numaraları olan miktarların çekilmesini yönetmek için kendi ambar operasyonlarını temel alır. Toplu iş veya seri numaraları bir müşterinin sipariş belirtiminin parçası olarak gerekliyse, bunlar talep emrinde kaydedilir ve ambardaki miktarları bulan ambar operasyonlarının bunları değiştirmelerine izin verilmez. Bu modele *Toplu iş-\[yerleşim\] üstü* veya *Seri-\[yerleşim\] üstü* adı verilir. Konumun üzerindeki boyutlar yerine getirilmesi gereken taleplerin özel gereksinimleri olduğundan, ambar mantığı bunları tahsis etmeyecektir. Bu boyutların her zaman talep emrinde veya ilgili rezervasyonlar içinde belirtilmesi **gerekir**.
 
 Bu senaryolarda sorun, serbest bırakılan her ürüne yalnızca bir stok rezervasyonu hiyerarşisinin atanabilmesidir. Bu nedenle, WMS'nin izlenen kalemleri işlemesi için, hiyerarşi ataması toplu iş veya seri numarasının ne zaman rezerve edilmesi gerektiğini (talep emri alındığı zaman veya ambar çekme işi sırasında) belirledikten sonra bu zamanlama geçici olarak değiştirilemez.
 
@@ -50,18 +47,18 @@ Bu senaryolarda sorun, serbest bırakılan her ürüne yalnızca bir stok rezerv
 
 ### <a name="business-scenario"></a>İş senaryosu
 
-Bu senaryoda, bir şirket, mamul malların toplu iş numaralarına göre izlendiği bir stok stratejisi kullanıyor. Bu şirket aynı zamanda WMS iş yükünü de kullanıyor. Bu iş yükünün toplu iş etkin kalemler için ambar çekme ve sevkiyat operasyonları planlamak ve çalıştırmak için iyi donatılmış bir mantığı olduğundan, mamul kalemlerin çoğu bir "Toplu iş\[yerleşim\] altı" stok rezervasyon hiyerarşisiyle ilişkilendirilir. Bu tür operasyon kurulumunun avantajı, hangi toplu işlerin çekileceği ve bu maddelerin ambarda nereye koyulacağı ile ilgili kararların (yürürlükteki rezervasyon kararları), ambar çekme operasyonları başlayana kadar ertelenmesidir. Bunlar müşterinin siparişi verilirken yapılmaz.
+Bu senaryoda, bir şirket, mamul malların toplu iş numaralarına göre izlendiği bir stok stratejisi kullanıyor. Bu şirket aynı zamanda WMS iş yükünü de kullanıyor. Bu iş yükünün toplu iş etkin kalemler için ambar çekme ve sevkiyat operasyonları planlamak ve çalıştırmak için iyi donatılmış bir mantığı olduğundan, mamul kalemlerin çoğu bir *Toplu iş-\[yerleşim\] altı* stok rezervasyon hiyerarşisiyle ilişkilendirilir. Bu tür operasyon kurulumunun avantajı, hangi toplu işlerin çekileceği ve bu maddelerin ambarda nereye koyulacağı ile ilgili kararların (yürürlükteki rezervasyon kararları), ambar çekme operasyonları başlayana kadar ertelenmesidir. Bunlar müşterinin siparişi verilirken yapılmaz.
 
-"Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisi şirketin işletme hedeflerine uygun olmakla birlikte, şirketin mevcut müşterilerinin birçoğu, ürünleri yeniden sipariş ettikleri zaman, daha önce satın aldıkları aynı toplu işi istemektedir. Bu nedenle, şirket, müşterinin aynı kalem için talebine bağlı olarak toplu iş rezervasyonu kurallarının işleniş biçiminde esneklik istiyor ve böylece aşağıdaki davranışlar ortaya çıkıyor:
+*Toplu iş-\[yerleşim\] altı* rezervasyon hiyerarşisi şirketin işletme hedeflerine uygun olmakla birlikte, şirketin mevcut müşterilerinin birçoğu, ürünleri yeniden sipariş ettikleri zaman, daha önce satın aldıkları aynı toplu işi istemektedir. Bu nedenle, şirket, müşterinin aynı kalem için talebine bağlı olarak toplu iş rezervasyonu kurallarının işleniş biçiminde esneklik istiyor ve böylece aşağıdaki davranışlar ortaya çıkıyor:
 
 - Bir toplu iş numarası, satış işlemcisi tarafından sipariş alınırken kaydedilip rezerve edilebilir ve ambar operasyonları sırasında değiştirilemez ve/veya başka taleplerle alınamaz. Bu davranış, sipariş edilen toplu iş numarasının müşteriye sevk edilmesini garantilemeye yardımcı olur.
 - Toplu iş numarası müşteri için önemli değilse, ambar operasyonları, satış siparişi kaydı ve rezervasyon yapıldıktan sonra malzeme çekme işi sırasında bir toplu iş numarası belirleyebilir.
 
 ### <a name="allowing-reservation-of-a-specific-batch-on-the-sales-order"></a>Satış siparişinde belirli bir toplu işin rezervasyonuna izin verme
 
-Bir "Toplu iş-\[yerleşim\] altı" stok rezervasyon hiyerarşisi ile ilişkilendirilmiş kalemler için toplu iş rezervasyon davranışında istenen esnekliği sağlamak için, stok yöneticilerinin, **Stok rezervasyonu hiyerarşileri** sayfasındaki **Toplu iş numarası** düzeyi için **Talep emrinde rezervasyona izin ver** onay kutusunu işaretlemeleri gerekir.
+Bir *Toplu iş-\[yerleşim\] altı* stok rezervasyon hiyerarşisi ile ilişkilendirilmiş kalemler için toplu iş rezervasyon davranışında istenen esnekliği sağlamak için, stok yöneticilerinin, **Stok rezervasyonu hiyerarşileri** sayfasındaki **Toplu iş numarası** düzeyi için **Talep emrinde rezervasyona izin ver** onay kutusunu işaretlemeleri gerekir.
 
-![Stok rezervasyonu hiyerarşisini esnek hale getirme](media/Flexible-inventory-reservation-hierarchy.png)
+![Stok rezervasyonu hiyerarşisini esnek hale getirme.](media/Flexible-inventory-reservation-hierarchy.png)
 
 Hiyerarşide **Toplu iş numarası** düzeyi seçildiği zaman, o düzeyin üzerindeki ve **Yerleşim** düzeyine kadar olan tüm boyutlar otomatik olarak seçilir. (Varsayılan olarak **Yerleşim** düzeyinin üzerindeki tüm boyutlar önceden seçilmiştir.) Bu davranış, siz sipariş satırında belirli bir toplu iş numarasını rezerve ettikten sonra, toplu iş numarası ve yerleşim arasındaki aralıkta yer alan tüm boyutların da otomatik olarak rezerve edildiği mantığı yansıtır.
 
@@ -70,25 +67,25 @@ Hiyerarşide **Toplu iş numarası** düzeyi seçildiği zaman, o düzeyin üzer
 >
 > **Toplu iş numarası** ve **Plaka**, hiyerarşide esnek rezervasyon ilkesi için açık olan tek düzeydir. Başka bir deyişle, **Konum** veya **Seri numarası** düzeyi için **Talep emrinde rezervasyona izin ver** onay kutusunu seçemezsiniz.
 >
-> Rezervasyon hiyerarşiniz her zaman **Toplu iş numarası** düzeyinin altında olması gereken seri numarası boyutunu içeriyorsa ve toplu iş numarası için toplu işe özel rezervasyonu etkinleştirdiyseniz, "Seri-\[yerleşim\] altı" rezervasyon ilkesi için geçerli olan kurallara dayalı olarak, sistem seri numarası rezervasyonu ve malzeme çekme operasyonlarını işlemeye devam eder.
+> Rezervasyon hiyerarşiniz her zaman **Toplu iş numarası** düzeyinin altında olması gereken seri numarası boyutunu içeriyorsa ve toplu iş numarası için toplu işe özel rezervasyonu etkinleştirdiyseniz, *Seri-\[yerleşim\] altı* rezervasyon ilkesi için geçerli olan kurallara dayalı olarak, sistem seri numarası rezervasyonu ve malzeme çekme operasyonlarını işlemeye devam eder.
 
-Herhangi bir noktada, dağıtımınızda varolan bir "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisi için toplu işe özel rezervasyona izin verebilirsiniz. Bu değişiklik, değişiklik yapılmadan önce oluşturulan rezervasyonları ve açık ambar işini etkilemez. Ancak, bu rezervasyon hiyerarşisiyle ilişkili bir veya daha fazla kalem için **Siparişli rezerve miktar**, **Fiziksel rezerve miktar** veya **Sipariş edilen** çıkış türünde stok hareketleri mevcutsa **Talep emrinde rezervasyona izin ver** onay kutusunun işareti kaldırılamaz.
+Herhangi bir noktada, dağıtımınızda varolan bir *Toplu iş-\[yerleşim\] altı* rezervasyon hiyerarşisi için toplu işe özel rezervasyona izin verebilirsiniz. Bu değişiklik, değişiklik yapılmadan önce oluşturulan rezervasyonları ve açık ambar işini etkilemez. Ancak, bu rezervasyon hiyerarşisiyle ilişkili bir veya daha fazla kalem için **Siparişli rezerve miktar**, **Fiziksel rezerve miktar** veya **Sipariş edilen** çıkış türünde stok hareketleri mevcutsa **Talep emrinde rezervasyona izin ver** onay kutusunun işareti kaldırılamaz.
 
 > [!NOTE]
 > Bir kalemin varolan rezervasyon hiyerarşisi siparişte toplu iş belirtimine izin vermiyorsa, hiyerarşi düzeyi yapısının her iki hiyerarşide de aynı olması koşuluyla, o kalemi toplu iş belirtimine izin veren bir rezervasyon hiyerarşisine yeniden atayabilirsiniz. Yeniden atamak için **Maddeler için rezervasyon hiyerarşisini değiştir** işlevini kullanın. Bu değişiklik, esnek toplu iş rezervasyonunu toplu iş izlemeli kalemlerin bir alt kümesi için önlemek ama ürün portföyünün geri kalanı için izin vermek istediğinizde uygun olabilir.
 
-**Talep emrinde rezervasyona izin ver** onay kutusunu seçip seçmemenizden bağımsız olarak, bir sipariş satırındaki kalem için belirli bir toplu iş numarasını rezerve etmek istemiyorsanız, "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisi için geçerli olan varsayılan ambar operasyonları mantığı uygulanmaya devam eder.
+Talep emrinde **rezervasyona izin ver** onay kutusunu seçip seçmemenizden bağımsız olarak, bir sipariş satırındaki kalem için belirli bir toplu iş numarasını rezerve etmek istemiyorsanız, *Toplu iş-\[yerleşim\] altı* rezervasyon hiyerarşisi için geçerli olan varsayılan ambar operasyonları mantığı uygulanmaya devam eder.
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Müşteri siparişi için belirli bir toplu iş numarasını rezerve etme
 
-Toplu iş izlemeli bir maddenin "Toplu iş-\[yerleşim\] altı" stok rezervasyonu hiyerarşisi satış siparişlerinde belirli toplu iş numaralarının rezervasyonuna izin verecek şekilde ayarlandıktan sonra, satış siparişi işlemcileri, müşterinin talebine bağlı olarak, aynı kalem için müşteri siparişlerini aşağıdaki yollardan biriyle alabilir:
+Toplu iş izlemeli bir maddenin *Toplu iş-\[yerleşim\] altı* stok rezervasyonu hiyerarşisi satış siparişlerinde belirli toplu iş numaralarının rezervasyonuna izin verecek şekilde ayarlandıktan sonra, satış siparişi işlemcileri, müşterinin talebine bağlı olarak, aynı kalem için müşteri siparişlerini aşağıdaki yollardan biriyle alabilir:
 
 - **Sipariş ayrıntılarını bir toplu iş numarası belirtmeden girmek** – Ürünün toplu iş belirtimi müşteri için önemli değilse bu yaklaşım kullanılmalıdır. Sistemde bu tür bir siparişin işlenmesiyle ilişkili tüm varolan işlemler değişmeden kalır. Kullanıcılar tarafında ek bir değerlendirme gerekmez.
 - **Sipariş ayrıntılarını girmek ve belirli bir toplu iş numarasını rezerve etmek** – Müşteri belirli bir toplu işi istediğinde bu yaklaşım kullanılmalıdır. Genellikle, müşteriler daha önce satın aldıkları bir ürünü yeniden sipariş ederken belirli bir toplu işi isteyecektir. Bu tür toplu iş rezervasyonuna *sipariş taahhütlü rezervasyon* adı verilir.
 
 Miktarlar işlendiği ve belirli bir sipariş için bir toplu iş numarası taahhüt edildiği zaman aşağıdaki kural kümesi geçerlidir:
 
-- "Toplu iş-\[yerleşim\] altı" rezervasyon ilkesi altındaki bir kalem için belirli bir toplu iş numarasının rezervasyonuna izin vermek amacıyla, sistem yerleşim ve üzerindeki tüm boyutları rezerve etmelidir. Bu aralık genellikle plaka boyutunu içerir.
+- *Toplu iş-\[yerleşim\] altı* rezervasyon ilkesi altındaki bir kalem için belirli bir toplu iş numarasının rezervasyonuna izin vermek amacıyla, sistem yerleşim ve üzerindeki tüm boyutları rezerve etmelidir. Bu aralık genellikle plaka boyutunu içerir.
 - Sipariş taahhütlü toplu iş rezervasyonu kullanan bir satış satırı için malzeme çekme işi oluşturulduğunda yerleşim yönergeleri kullanılmaz.
 - Sipariş taahhütlü toplu işler için işin ambara işlenmesi sırasında, kullanıcının ve sistemin toplu iş numarasını değiştirmesine izin verilmez. (Bu işlem özel durum işlemeyi kapsar.)
 
@@ -132,23 +129,23 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
 2. **Yeni**'yi seçin.
 3. Satış siparişi başlığındaki **Müşteri hesabı** alanına **US-003** girin.
 4. Yeni kalem için bir satır ekleyin ve miktar olarak **10** girin. **Ambar** alanının **24**'e ayarlandığından emin olun.
-5. **Satış siparişi satırları** hızlı sekmesinde, **Stok**'u ve ardından **Bakım** grubunu seçin ve **Toplu iş rezervasyonu**'nu seçin. **Toplu iş rezervasyonu** sayfası, sipariş satırı rezervasyonu için kullanılabilecek toplu işlerin listesini gösterir. Bu örnekte, **B11** numaralı toplu iş için miktarı **20** ve **B22** numaralı toplu iş için miktarı **10** gösterir. Bir satırdaki kalem "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisiyle ilişkiliyse, toplu işe özel rezervasyona izin vermek üzere ayarlanmadığı sürece, **Toplu iş rezervasyonu** sayfasına o satırdan erişilemeyeceğine dikkat edin.
+5. **Satış siparişi satırları** hızlı sekmesinde, **Stok**'u ve ardından **Bakım** grubunu seçin ve **Toplu iş rezervasyonu**'nu seçin. **Toplu iş rezervasyonu** sayfası, sipariş satırı rezervasyonu için kullanılabilecek toplu işlerin listesini gösterir. Bu örnekte, **B11** numaralı toplu iş için miktarı **20** ve **B22** numaralı toplu iş için miktarı **10** gösterir. Bir satırdaki kalem *Toplu iş-\[yerleşim\] altı* rezervasyon hiyerarşisiyle ilişkiliyse, toplu işe özel rezervasyona izin vermek üzere ayarlanmadığı sürece, **Toplu iş rezervasyonu** sayfasına o satırdan erişilemeyeceğine dikkat edin.
 
     > [!NOTE]
     > Bir satış siparişi için belirli bir toplu iş rezerve etmek isterseniz **Toplu iş rezervasyonu** sayfasını kullanmanız gerekir.
     >
-    > Toplu iş numarasını doğrudan satış siparişi satırına girerseniz, sistem "Toplu iş-\[yerleşim\] altı" rezervasyon ilkesine tabi olan bir kalem için belirli bir toplu iş değeri girmişsiniz gibi davranır. Satırı kaydettiğinizde bir uyarı iletisi alırsınız. Toplu iş numarasının doğrudan sipariş satırında belirtilmesi gerektiğini onaylarsanız, satır normal ambar yönetimi mantığı tarafından işlenmez.
+    > Toplu iş numarasını doğrudan satış siparişi satırına girerseniz, sistem *Toplu iş-\[yerleşim\] altı* rezervasyon ilkesine tabi olan bir kalem için belirli bir toplu iş değeri girmişsiniz gibi davranır. Satırı kaydettiğinizde bir uyarı iletisi alırsınız. Toplu iş numarasının doğrudan sipariş satırında belirtilmesi gerektiğini onaylarsanız, satır normal ambar yönetimi mantığı tarafından işlenmez.
     >
-    > Miktarı **Rezervasyon** sayfasından rezerve ederseniz, belirli bir toplu iş rezerve edilmez ve satır için ambar operasyonları, "Toplu iş-\[yerleşim\] altı" rezervasyon ilkesi altında uygulanabilecek kurallara uygun biçimde yürütülür.
+    > Miktarı **Rezervasyon** sayfasından rezerve ederseniz, belirli bir toplu iş rezerve edilmez ve satır için ambar operasyonları, *Toplu iş-\[yerleşim\] altı* rezervasyon ilkesi altında uygulanabilecek kurallara uygun biçimde yürütülür.
 
-    Genel olarak bu sayfa, ilişkili "Toplu iş-\[yerleşim\] altı" türünde rezervasyon hiyerarşisi olan kalemler için çalıştığı ve etkileşime girdiği şekilde çalışıp etkileşime girer. Ancak, aşağıdaki özel durumlar geçerlidir:
+    Genel olarak bu sayfa, ilişkili *Toplu iş-\[yerleşim\] altı* türünde rezervasyon hiyerarşisi olan kalemler için aynı şekilde çalışıp etkileşime girer. Ancak, aşağıdaki özel durumlar geçerlidir:
 
     - **Kaynak satıra taahhütlü toplu iş numaraları** hızlı sekmesi, sipariş satırı için rezerve edilen toplu iş numaralarını gösterir. Kılavuzdaki toplu iş değerleri, ambar işleme aşamaları da dahil olmak üzere, sipariş satırının karşılanma döngüsü boyunca gösterilir. Bunun aksine, **Genel bakış** hızlı sekmesinde, normal sipariş satırı rezervasyonu (yani **Yerleşim** düzeyinin üzerindeki boyutlar için yapılan rezervasyon), ambar işinin oluşturulduğu noktaya kadar kılavuzda gösterilir. Bunun üzerine, iş varlığı satır rezervasyonunu üstlenir ve satır rezervasyonu artık sayfada görünmez. **Kaynak satıra taahhütlü toplu iş numaraları** hızlı sekmesi, satış siparişi işlemcisinin, faturalamaya kadar yaşam döngüsünün her noktasında, müşterinin siparişine taahhüt edilmiş toplu iş numaralarını görüntüleyebilmesine yardımcı olur.
-    - Belirli bir toplu işi rezerve etmeye ek olarak, bir kullanıcı sistemin otomatik olarak seçmesine izin vermek yerine toplu işin özel yerleşimini ve plakasını kendisi seçebilir. Bu yetenek, sipariş taahhütlü toplu iş rezervasyon mekanizmasının tasarımıyla ilgilidir. Daha önce belirtildiği gibi, bir toplu iş numarası "Toplu iş-\[yerleşim\] altı" rezervasyon ilkesi altındaki bir kalem için rezerve edildiği zaman, sistem yerleşime kadar olan tüm boyutları rezerve etmelidir. Bu nedenle, ambar işi, siparişlerle çalışan kullanıcılar tarafından rezerve edilmiş olan aynı depolama boyutlarını taşır ve malzeme çekme operasyonları için uygun ve hatta olası olan kalem depolama yerleşimini temsil edemeyebilir. Sipariş işlemciler ambar kısıtlamalarını biliyorsa, toplu iş rezerve ederken belirli yerleşimleri ve plakaları kendileri seçmek isteyebilirler. Bu durumda , kullanıcının sayfa üst bilgisindeki **Boyutları görüntüle** işlevini kullanması, **Genel bakış** hızlı sekmesindeki kılavuza yerleşimi ve plakayı eklemesi gerekir.
+    - Belirli bir toplu işi rezerve etmeye ek olarak, bir kullanıcı sistemin otomatik olarak seçmesine izin vermek yerine toplu işin özel yerleşimini ve plakasını kendisi seçebilir. Bu yetenek, sipariş taahhütlü toplu iş rezervasyon mekanizmasının tasarımıyla ilgilidir. Daha önce belirtildiği gibi, bir toplu iş numarası *Toplu iş-\[yerleşim\] altı* rezervasyon ilkesi altındaki bir kalem için rezerve edildiği zaman, sistem yerleşime kadar olan tüm boyutları rezerve etmelidir. Bu nedenle, ambar işi, siparişlerle çalışan kullanıcılar tarafından rezerve edilmiş olan aynı depolama boyutlarını taşır ve malzeme çekme operasyonları için uygun ve hatta olası olan kalem depolama yerleşimini temsil edemeyebilir. Sipariş işlemciler ambar kısıtlamalarını biliyorsa, toplu iş rezerve ederken belirli yerleşimleri ve plakaları kendileri seçmek isteyebilirler. Bu durumda , kullanıcının sayfa üst bilgisindeki **Boyutları görüntüle** işlevini kullanması, **Genel bakış** hızlı sekmesindeki kılavuza yerleşimi ve plakayı eklemesi gerekir.
 
 6. **Toplu iş rezervasyonu** sayfasında toplu iş **B11** numaralı toplu işe ait satırı ve ardından **Satırı rezerve et**'i seçin. Otomatik rezervasyon sırasında yerleşimleri ve plakaları atamak için belirlenmiş bir mantık yoktur. Miktarı **Rezervasyon** alanına el ile girebilirsiniz. **Kaynak satırına taahhütlü toplu iş numaraları** hızlı sekmesinde, **B11** numaralı toplu işin **Taahhüt edilen** olarak gösterildiğine dikkat edin.
 
-    ![Toplu iş rezervasyonu sayfasındaki bir satış siparişi satırı için belirli bir toplu iş numarasını taahhüt etme](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Toplu iş rezervasyonu sayfasındaki bir satış siparişi satırı için belirli bir toplu iş numarasını taahhüt etme.](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > Bir satış siparişi satırındaki miktarın rezervasyonu çoklu toplu işler arasında yapılabilir. Benzer şekilde, aynı toplu işin rezervasyonu birden çok yerleşime ve plakaya karşı yapılabilir (yerleşimler için plakalar etkinleştirilirse).
@@ -157,7 +154,7 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
 
 7. **Ürün bilgileri yönetimi** \> **Ürünler** \> **Serbest bırakılmış ürünler**'e gidin. Kaleminizi ve ardından **Stok yönetimi** \> **Görüntüle** \> **Hareketler**'i seçin.
 
-    ![Bir stok hareketi türü olarak sipariş taahhütlü rezervasyon](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Bir stok hareketi türü olarak sipariş taahhütlü rezervasyon.](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Kalemin, satış siparişi satırı rezervasyonuna ilişkin stok hareketlerini inceleyin.
 
@@ -173,9 +170,9 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
     Satış siparişi satırına taahhüt edilen toplu iş miktarları için malzeme çekme işlemini işleyen iş aşağıdaki özelliklere sahiptir:
 
     - Sistem iş oluşturmak için, yerleşim yönergelerini değil sistem çalışma şablonlarını kullanır. Yeni işin oluşturulacağı zamanı belirlemek için, en fazla malzeme çekme satırı veya özel bir ölçü birimi gibi iş şablonları için tanımlanan tüm standart ayarlar uygulanır. Bununla birlikte, sipariş taahhütlü rezervasyon tüm stok boyutlarını zaten belirttiğinden, çekme yerleşimlerinin belirlenmesi ile ilgili yerleşim yönergeleriyle ilişkili kurallar dikkate alınmaz. Bu stok boyutları, ambar depolama düzeyindeki boyutları içerir. Bu nedenle, iş, yerleşim yönergelerine danışmak zorunda kalmadan bu boyutları devralır.
-    - Toplu iş numarası, çekme satırında gösterilmez (ilişkili bir "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisi olan bir kalem için oluşturulan iş satırında olduğu gibi). Bunun yerine, "ilk" toplu iş numarası ve tüm diğer depolama boyutları, ilişkili stok hareketlerinden referansta bulunulan iş satırı iş stok hareketinde gösterilir.
+    - Toplu iş numarası, çekme satırında gösterilmez (ilişkili bir *Toplu iş-\[yerleşim\] altı* rezervasyon hiyerarşisi olan bir kalem için oluşturulan iş satırında olduğu gibi). Bunun yerine, "ilk" toplu iş numarası ve tüm diğer depolama boyutları, ilişkili stok hareketlerinden referansta bulunulan iş satırı iş stok hareketinde gösterilir.
 
-        ![Sipariş taahhütlü rezervasyondan kaynaklanan iş için ambar stok hareketi](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Sipariş taahhütlü rezervasyondan kaynaklanan iş için ambar stok hareketi.](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - İş oluşturulduktan sonra, **Referans** alanının **Sipariş taahhütlü rezervasyon** olarak ayarlandığı kalem stok hareketi kaldırılır. **Referans** alanının **İş** olarak ayarlandığı stok hareketi, miktarın tüm stok boyutlarında fiziksel rezervasyonu tutar.
 
@@ -210,13 +207,13 @@ Esnek plaka rezervasyonunu kullanabilmeniz için sisteminizde iki özelliğin et
 
 Bir siparişte plaka rezervasyonunu etkinleştirmek için ilgili öğeyle ilişkilendirilmiş olan hiyerarşi için **Stok rezervasyonu hiyerarşileri** sayfasındaki **Plaka** düzeyi için **Talep üzerine rezervasyona izin ver** onay kutusunu işaretlemeniz gerekir.
 
-![Esnek plaka rezervasyon hiyerarşisi için stok rezervasyonu hiyerarşileri sayfası](media/Flexible-LP-reservation-hierarchy.png)
+![Esnek plaka rezervasyon hiyerarşisi için stok rezervasyonu hiyerarşileri sayfası.](media/Flexible-LP-reservation-hierarchy.png)
 
 Plaka rezervasyonunu dağıtımınızdaki herhangi bir noktada, sipariş üzerinde etkinleştirebilirsiniz. Bu değişiklik, değişiklik yapılmadan önce oluşturulan rezervasyonları veya açık ambar işini etkilemez. Ancak, bu rezervasyon hiyerarşisiyle ilişkili bir veya daha fazla kalem için *Siparişte*, *Siparişli rezerve miktar* veya *Fiziksel rezerve miktar* sorun durumuna sahip giden açık stok hareketleri varsa **Talep emrinde rezervasyona izin ver** onay kutusunun işareti kaldırılamaz.
 
 **Plaka** düzeyinde **Talep emrinde rezervasyon izni ver** onay kutusu seçili olsa bile siparişte belirli bir plakanın rezerve edilmesi mümkün *değildir*. Bu durumda, rezervasyon hiyerarşisi için geçerli olan varsayılan ambar operasyonları mantığı geçerlidir.
 
-Belirli bir plakayı rezerve etmek için bir [Açık Veri Protokolü (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md) işlemi kullanmanız gerekir. Uygulamada bu rezervasyonu doğrudan bir satış siparişinden, **Excel'de aç** komutunun **Lisans levhası başına sipariş taahhütlü rezervasyon sayısı** seçeneğini kullanarak yapabilirsiniz. Excel eklentilerinde açılan varlık verilerinde, aşağıdaki rezervasyon ile ilgili verileri girmeniz ve sonra verileri Supply Chain Management'a geri göndermek için **Yayımla**'yı seçmeniz gerekir:
+Belirli bir plakayı ayırmak için bir [Açık Veri Protokolü (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md) işlemi kullanmanız gerekir. Uygulamada, bu rezervasyonu, **Excel'de aç** komutunun **Plakalara göre sipariş taahhütlü rezervasyon** seçeneğini kullanarak bir satış siparişinden doğrudan yapabilirsiniz. Excel eklentilerinde açılan varlık verilerinde, aşağıdaki rezervasyon ile ilgili verileri girmeniz ve sonra verileri Supply Chain Management'a geri göndermek için **Yayımla**'yı seçmeniz gerekir:
 
 - Referans (Yalnızca *Satış siparişi* değeri desteklenir.)
 - Sipariş numarası (Değer lotun içinden türetilebilir.)
@@ -230,7 +227,7 @@ Sipariş taahhütlü bir plaka rezervasyonu kullanan satış siparişi satırı 
 
 Ambar iş maddesi tam palete eşit ve plaka taahhütlü miktarlara sahip satırlardan oluşuyorsa, **Plakaya göre işle** seçeneği *Evet* olarak ayarlanmış bir mobil cihaz menü öğesini kullanarak malzeme çekme işlemini optimize edebilirsiniz. Böylece bir ambar çalışanı, bir işe ait kalemleri tek tek taramak yerine, bir malzeme çekme işlemini tamamlamak için bir plakayı tarayabilir.
 
-![Plakaya göre işle seçeneğinin Evet olarak ayarlandığı mobil cihaz menü öğesi](media/Handle-by-LP-menu-item.png)
+![Plakaya göre işle seçeneğinin Evet olarak ayarlandığı mobil cihaz menü öğesi.](media/Handle-by-LP-menu-item.png)
 
 **Plakaya göre işle** işlevi, çoklu paletleri kapsayan işleri desteklemediğinden, farklı plakalar için ayrı bir iş maddesi olması daha iyidir. Bu yaklaşımı kullanmak için **Sipariş taahhüttlü plaka kimliği** alanını **İş şablonu** sayfasında ,iş üst bilgisi sonu olarak ekleyin.
 
@@ -252,7 +249,7 @@ Bu senaryo, Supply Chain Management için sağlanan standart tanıtım verilerin
 1. **Ad** alanına bir değer girin (örneğin *FlexibleLP*).
 1. **Açıklama** alanına bir değer girin (örneğin *Esnek LP rezervasyonu*).
 1. **Seçili** listede **Toplu iş numarası**, **Seri numarası** ve **Sahip** seçin.
-1. Seçili kayıtları **Kullanılabilir** listesine taşımak için **Kaldır** düğmesini ![geri ok](media/backward-button.png) seçin.
+1. **Kaldır** düğmesini ![geri ok.](media/backward-button.png) seçerek seçil kayıtları **Kullanılabilir** listesine taşıyın.
 1. **Tamam**'ı seçin.
 1. **Plaka** boyut düzeyinin satırında, **Talep emrinde rezervasyona izin ver** onay kutusunu seçin. **Konum** düzeyi otomatik olarak seçilir ve onay kutusunun işaretini kaldıramazsınız.
 1. **Kaydet**'i seçin.
@@ -410,7 +407,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>Malzeme çekme işini başlatırken ambarlama uygulamasında <strong>Konumu geçersiz kıl</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini başlatırken Ambar Yönetimi uygulamasında <strong>Konumu geçersiz kıl</strong> menü öğesini seçin.</li>
 <li><strong>Öner</strong>'i seçin.</li>
 <li>Toplu iş miktarı kullanılabilirliğine dayalı olarak önerilen yeni yerleşimi onaylayın.</li>
 </ol>
@@ -424,10 +421,10 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Geçerli değil</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Hayır</td>
 <td>
 <ol>
-<li>Malzeme çekme işini başlatırken ambarlama uygulamasında <strong>Konumu geçersiz kıl</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini başlatırken Ambar Yönetimi uygulamasında <strong>Konumu geçersiz kıl</strong> menü öğesini seçin.</li>
 <li>El ile bir yerleşim girin.</li>
 </ol>
 </td>
@@ -455,7 +452,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Geçerli değil</td>
 <td>
 <ol>
-<li>Malzeme çekme işini işlerken ambarlama uygulamasındaki <strong>Tam</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini işlerken Ambar yönetimi mobil uygulamasındaki <strong>Tam</strong> menü öğesini seçin.</li>
 <li><strong>Çekme Miktarı</strong> alanında, tam kapasiteyi belirtmek için gereken kısmi bir çekme miktarı girin.</li>
 </ol>
 </td>
@@ -530,7 +527,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>Ambarlama uygulamasında bir hareket başlatın.</li>
+<li>Ambar Yönetimi mobil uygulamasını bir hareket başlatma</li>
 <li>"Çıkış" ve "hedef" yerleşimlerini girin.</li>
 </ol></td>
 <td>
@@ -646,7 +643,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken Ambar yönetimi mobil uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Malzeme çekme miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanına <strong>Yeniden tahsis yok</strong> girin.</li>
 </ol>
@@ -675,7 +672,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken Ambar yönetimi mobil uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Malzeme çekme miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanına <strong>Yeniden tahsis yok</strong> girin.</li>
 </ol>
@@ -699,7 +696,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken Ambar yönetimi mobil uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Eksik Çekme Miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanında <strong>El ile tahsisatla kısa malzeme çekme</strong>'yi seçin.</li>
 <li>Listede yerleşimi/plakayı seçin.</li>
@@ -722,10 +719,10 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 </tr>
 <tr>
 <td><strong>Eksik çekme</strong> türünde bir iş özel durumu ayarlanmıştır ve bu özel durumda ayarlar şöyledir: <strong>Madde yeniden tahsisi</strong> = <strong>El ile</strong>, <strong>Stoğu ayarla</strong> = <strong>Evet</strong> ve <strong>Rezervasyonları kaldır</strong> = <strong>Hayır</strong>. Ek olarak, <strong>El ile madde yeniden tahsisine izin ver</strong> seçeneği çalışanda etkinleştirilmiştir.</td>
-<td>No</td>
+<td>Hayır</td>
 <td>
 <ol>
-<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken Ambar yönetimi mobil uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Eksik Çekme Miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanında <strong>El ile tahsisatla kısa malzeme çekme</strong>'yi seçin.</li>
 </ol>
@@ -735,10 +732,10 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 </tr>
 <tr>
 <td><strong>Eksik çekme</strong> türünde bir iş özel durumu ayarlanmıştır ve bu özel durumda ayarlar şöyledir: <strong>Madde yeniden tahsisi</strong> = <strong>El ile</strong>, <strong>Stoğu ayarla</strong> = <strong>Evet</strong> ve <strong>Rezervasyonları kaldır</strong> = <strong>Evet</strong>. Ek olarak, <strong>El ile madde yeniden tahsisine izin ver</strong> seçeneği çalışanda etkinleştirilmiştir.</td>
-<td>No</td>
+<td>Hayır</td>
 <td>
 <ol>
-<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken Ambar yönetimi mobil uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Eksik Çekme Miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanında <strong>El ile tahsisatla kısa malzeme çekme</strong>'yi seçin.</li>
 <li>Listede yerleşimi/plakayı seçin.</li>
@@ -762,7 +759,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Geçerli değil</td>
 <td>
 <ol>
-<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken Ambar yönetimi mobil uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Eksik Çekme Miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanında <strong>Otomatik tahsisatla kısa malzeme çekme</strong>'yi seçin.</li>
 </ol>
@@ -854,3 +851,12 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
     - Transfer emirleri ve hammadde çekme
 
 - Yönerge birimine göre ambalajlama için konteyner konsolidasyon kuralında sınırlamalar vardır. Sipariş taahhütlü rezervasyonlar için, **Yönerge birimine gör ambalajla** alanının etkinleştirildiği konteyner yapı şablonlarını kullanmamanızı öneririz. Geçerli tasarımda, ambar işi oluşturulurken yerleşim yönergeleri kullanılmaz. Bu nedenle, konteyner kullanımı dalga adımı sırasında yalnızca birim sıra grubundaki en küçük birim uygulanır.
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+- [Ambar yönetiminde toplu iş sayıları](/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
+- [Satış siparişi için aynı toplu işi rezerve etme](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Bir mobil cihazda en eski toplu işi seçme](pick-oldest-batch.md)
+- [Toplu iş ve plaka onayı](batch-and-license-plate-confirmation.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

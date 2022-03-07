@@ -1,12 +1,10 @@
 ---
-title: Adres defterlerini yapılandır
-description: Bu yordamı ve genel adres defteri'nin ve ek adres defterlerinin yapılandırmasını planlarken aldığınız kararları, kuruluşunuz için ek adres defterleri oluştururken kullanın.
+title: Adres defterlerini yapılandırma
+description: Kuruluşunuz için ek adres defterleri ayarlamak için bu yordamı kullanın.
 author: msftbrking
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 286bc7a8811543cd6a969dc7450782285c77b6fc
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 1e9edd384cf8cc1373481fd47c040cdaeae7d050d2cdba5e0a9afb7c1d361362
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759125"
 ---
-# <a name="configure-address-books"></a>Adres defterlerini yapılandır
+# <a name="configure-address-books"></a>Adres defterlerini yapılandırma
 
 [!include [banner](../../includes/banner.md)]
 
@@ -41,3 +39,6 @@ Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu kayıt 
 7. Seçilen kullanılabilir takımlarını Adres Defteri'ne eklemek için oku tıklatın.
 8. **Kaydet**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

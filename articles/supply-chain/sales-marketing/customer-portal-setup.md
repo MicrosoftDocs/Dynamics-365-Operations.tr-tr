@@ -1,51 +1,49 @@
 ---
 title: Müşteri portalını yükleme, kurma ve güncelleştirme
 description: Bu konu, Müşteri portalı için lisans ayrıntılarını ve kurulum yönergelerini sağlar.
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529542"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060625"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Müşteri portalını yükleme, kurma ve güncelleştirme
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 ## <a name="licensing-requirements"></a>Lisanslama gereksinimleri
 
 Müşteri portalını uygulamak için aşağıdaki lisanslara sahip olmanız gerekir:
 
-- **Power Apps portallar** – Bu lisansın müşteri portalını barındırması gereklidir. Portallar kullanıma göre lisanslıdır. Daha fazla bilgi için, [Power Apps Portal lisans gereksinimlerine](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals) bakın.
-- **İkili yazma** – Supply Chain Management varlıklarının çift-yazılabilir özelliğini etkinleştirmek için gerekli lisanslara sahip olmanız gerekir. Daha fazla bilgi için bkz: [çift yazma için sistem gereksinimleri.](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)
+- **Power Apps portallar** – Bu lisansın müşteri portalını barındırması gereklidir. Portallar kullanıma göre lisanslıdır. Daha fazla bilgi için, [Power Apps Portal lisans gereksinimlerine](/power-platform/admin/powerapps-flow-licensing-faq#portals) bakın.
+- **Çift yazma**: Supply Chain Management tablolarında çift yazma özelliğini etkinleştirmek için gerekli lisanslara sahip olmanız gerekir. Daha fazla bilgi için bkz: [çift yazma için sistem gereksinimleri.](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Çift yazma ve Power Apps portallarda bağımlılıklar
 
 Müşteri Portalı, Aşağıdaki çizimde gösterildiği gibi Power Apps portallara ve çift yazmaya bağlıdır.
 
-![Müşteri portalına bağımlılıklar](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")
+![Müşteri portalı bağımlılıkları.](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")
 
-Supply Chain Management'tan alınan diğer özelliklerden farklı olarak, Müşteri Portalı şablonu Power Apps portalları içinde bulunur. Bu nedenle, müşteri portalı Power Apps portalların ve varlıkların çift yazması tarafından sağlanan işlevler ve yetenekler ile sınırlıdır.
+Supply Chain Management'tan alınan diğer özelliklerden farklı olarak, Müşteri Portalı şablonu Power Apps portalları içinde bulunur. Bu nedenle, Müşteri portalı çift yazmadaki Power Apps portalları ve tabloları tarafından sağlanan işlevler ve özelliklerle sınırlıdır.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Müşteri portalını etkinleştirmek için gerekli kurulum
 
-Gerekli lisanslara sahip olduğunuzdan emin olduktan sonra, [Çift-yazılabilir başlangıç eşitleme yönergelerinde](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md) açıklandığı gibi çift-yazılabilir ayarlayabilirsiniz.
+Gerekli lisanslara sahip olduğunuzdan emin olduktan sonra, [Çift-yazılabilir başlangıç eşitleme yönergelerinde](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md) açıklandığı gibi çift-yazılabilir ayarlayabilirsiniz.
 
-Çift yazarken aşağıdaki varlık eşlemelerini etkinleştirdiğinizden emin olun:
+Çift yazmada aşağıdaki tablo eşlemelerini etkinleştirdiğinizden emin olun:
 
 - Satış siparişi başlığı
 - Satış siparişi ayrıntıları
@@ -77,12 +75,15 @@ Daha sonra müşteri portalına daha fazla işlevsellik eklenebilir. Microsoft'u
 
 Müşteri portalını nasıl ayarlayabileceğinizi ve özelleştirebileceğinizi öğrenmek için, temeldeki teknolojiler için aşağıdaki belgeleri gözden geçirerek başlamanız gerekir:
 
-- [Power Apps portal belgeleri](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Power Apps portal belgeleri](/powerapps/maker/portals/overview)
 - [Çift yazma belgeleri](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-Portallarınızı etkili şekilde yönetmek için Power Apps portalları ve Common Data Service yaşam döngüsünü anlamanız gerekir. Daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
+Portallarınızı etkili şekilde yönetmek için Power Apps portalları ve Microsoft Dataverse yaşam döngüsünü anlamanız gerekir. Daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
-- [Portal yaşam döngüsü hakkında](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Bir portalı yükselt](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Portal konfigürasyonu geçir](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Portal yaşam döngüsü hakkında](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Bir portalı yükselt](/powerapps/maker/portals/admin/upgrade-portal)
+- [Portal konfigürasyonu geçir](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Çözüm yaşam döngüsü yönetimi: Customer Engagement için Dynamics 365 uygulamaları](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

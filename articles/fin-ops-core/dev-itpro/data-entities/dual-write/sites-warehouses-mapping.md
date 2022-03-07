@@ -2,28 +2,19 @@
 title: Tümleşik siteler ve ambarlar
 description: Bu konu Finance and Operations ile Dataverse arasında site ve depo verileri tümleştirmesini açıklar.
 author: t-benebo
-manager: AnnBe
 ms.date: 10/09/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: benebotg
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: d192343d78f9248e4d1232d6aee1a1f800383805
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0c477d869e0bc1e0c3f58a722c140284fbcffca
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679332"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782272"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Tümleşik siteler ve ambarlar
 
@@ -31,22 +22,15 @@ ms.locfileid: "4679332"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 Bu konu Finance and Operations ile Dataverse arasında site ve depo verileri tümleştirmesini açıklar. Operasyonel tesisler ve ambarlar, Supply Chain Management uygulamasındaki ortak kavramlardır. Bunlar şirketinizin tedarik zincirini modellemek için kullanılırlar.
 
 ## <a name="templates"></a>Şablonlar
 
 Dataverse ile tümleştirme sayesinde, bu kavramlar ve ilgili tüm bilgiler aşağıdaki tabloda yer alan siteler ve ambar veri tabloları kullanılarak Dataverse'te bulunabilir.
 
-Finance and Operations uygulamaları | Diğer Dynamics 365 uygulamaları | Tanım
+Finance and Operations uygulamaları | Müşteri etkileşimi uygulamaları     | Tanım
 --------------------------|---------------------------|---
-Siteler | msdyn_operationalsites | 
-Ambarlar | msdyn_warehouses | 
+[Siteler](mapping-reference.md#156) | msdyn_operationalsites | |
+[Ambarlar](mapping-reference.md#204) | msdyn_warehouses | |
 
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [operational sites](includes/InventOperationalSiteEntity-msdyn-operationalsite.md)]
-
-[!include [warehouses](includes/InventWarehouseEntity-msdyn-warehouse.md)]
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

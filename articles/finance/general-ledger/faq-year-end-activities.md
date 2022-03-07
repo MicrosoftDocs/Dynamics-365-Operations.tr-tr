@@ -1,8 +1,8 @@
 ---
 title: Yıl sonu faaliyetleriyle ilgili SSS
-description: Bu konuda, yıl sonunda ortaya çıkabilecek sorular ve yıl sonu kapanışı faaliyetlerine yardımcı olabilecek yanıtlar listelenmektedir.
-author: moaamer
-ms.date: 12/21/2021
+description: Bu konu başlığı, yıl sonu kapanış faaliyetlerine yardımcı olmak için derlenmiştir.
+author: kweekley
+ms.date: 01/25/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,30 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
-ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
+ms.openlocfilehash: 1b7606314b9cf7050a565822b5b9e23beb0cb4978b20e88596c5002d918cfcd9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725086"
 ---
 # <a name="year-end-activities-faq"></a>Yıl sonu faaliyetleriyle ilgili SSS 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, yıl sonunda ortaya çıkabilecek sorular ve yıl sonu kapanışı faaliyetlerine yardımcı olabilecek yanıtlar listelenmektedir. Bu konu başlığındaki bilgiler öncelikle Genel muhasebe ve Borç hesapları için yıl sonu kapanış faaliyetlerine ilişkin sorulara odaklanmaktadır.
-
-## <a name="general-ledger-year-end-enhancements"></a>Genel muhasebe yıl sonu geliştirmeleri 
-10.0.20 sürümünde, bir yıl sonu kapanışı geliştirmesi kullanıma sunulmuştur ve bu geliştirme, 10.0.25 sürümünden itibaren varsayılan olarak etkindir. Kuruluşunuzda 10.0.25 sürümünden daha eski bir sürüm kullanılıyorsa yıl sonu kapanışı işlemine başlamadan önce bu özelliği etkinleştirmenizi öneririz. Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için Özellik yönetimi çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
-
- - Modül: Genel muhasebe
- - Özellik adı: Genel muhasebe yıl sonu geliştirmeleri
-
-Yıl sonu kapanışı şablonlarının kurulumu, yeni bir kurulum sayfasına (**Yıl sonu kapanışı şablonu kurulumu**) taşınmıştır. Mevcut yıl sonu kapanışı sayfası, Genel muhasebe yabancı para birimi yeniden değerleme işlemine benzer şekilde değiştirilecektir. Burada, yıl sonu kapanışı işlemi her çalıştırıldığında veya tersine çevrildiğinde bir liste görüntülenir. Bir muhasebe müdürü, yıl sonu kapanışı işlemini yeni sayfadan başlatabilir. 
-
-Yıl sonu kapanışı işlemini tersine çevirmek için uygun tüzel kişilik için en son mali yılı seçin ve **Yıl sonu kapanışını tersine çevir** düğmesini seçin. Tersine çevirme işlemi, önceki yıl sonu kapanışı işleminin muhasebe girişlerini siler ve yıl sonu kapanışı işlemi otomatik olarak yeniden çalıştırılmaz. 
-
-Mali yıl ve tüzel kişilik için işlemi yeniden başlatarak yıl sonu kapanışını yeniden çalıştırabilirsiniz. İşlem kapsamında, yıl sonu kapanışı yeniden çalıştırma işleminin yalnızca yeni veya değiştirilmiş hareketleri mi dikkate alacağını yoksa önceki kapatma işlemini tamamen tersine çevirerek işlemi tüm hareketler için mi yeniden çalıştıracağını belirlemek için Genel muhasebe parametre ayarı kullanılmaya devam edilir.  
+Bu konu başlığı, yıl sonu kapanış faaliyetlerine yardımcı olmak için derlenmiştir. Bu konu başlığındaki bilgiler öncelikle Genel muhasebe ve Borç hesapları için yıl sonu kapanış faaliyetlerine ilişkin sorulara odaklanmaktadır.
 
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Genel muhasebe: Yıl sonu kapanışını çalıştırdığımızı ve geri almadığımızı nasıl anlarım?
 Kuruluşların yıl sonu kapanışını yürütmeye çalışıp bunun yerine yıl sonu kapanışını geri almaya çalıştıklarını tespit ettik. Yıl sonu kapanışı gerçekten hızlı bir şekilde sonlanıyorsa veya yıl sonu kapanışı açılış bakiyeleri oluşturmuyorsa **Yıl sonu kapanışı**'ndaki (**Genel muhasebe > Dönem kapanışı > Yıl sonu kapanışı > Mali kapanışı çalıştır**) **Önceki kapanışı geri al** ayarını doğrulayın. 
@@ -79,72 +67,43 @@ Yıl sonu kapanış şablonu, kuruluşların kar ve zarar bakiyelerini yedek ak�
 
 Kuruluşunuzun gereksinimlerini değerlendirmenizi ve mümkünse performansı artırmak için **Tekli kapat** yıl sonu kapanışı seçeneğini kullanarak mümkün olduğunca çok boyutu kapatmanızı öneririz. Tek bir boyut değerine (boş bir değer de olabilir) kapatarak sistem, yedek akçe hesabı girişleri için bakiyeleri belirlerken daha az ayrıntı hesaplar.
 
-## <a name="degenerate-dimensions"></a>Bozuk boyutlar
-
-Bozuk boyutlar, kendi başına ve diğer boyutlarla birlikte yeniden kullanım için az imkân sağlar veya hiç imkân sağlamaz. İki tür bozuk boyut bulunur. İlk tür, ayrı olarak bozulan bir boyuttur. Genellikle bu bozuk boyut türü, yalnızca tek bir harekette veya küçük hareket kümelerinde görünür. İkinci tür, üretilebilecek olası permütasyonlara göre aynı potansiyeli gösteren bir veya daha fazla ek boyutla birlikte bozuk hâle gelen bir boyuttur. Bozuk bir boyut, yıl sonu kapanışı işleminin performansı üzerinde önemli bir etkiye sahip olabilir. Performans sorunlarını en aza indirmek için önceki bölümde açıklandığı üzere, yıl sonu kapanışı kurulumunda tüm bozuk boyutları **Tekli kapat** olarak tanımlayın.
-
-## <a name="general-ledger-what-does-the-period-close-year-end-close-do"></a>Genel muhasebe: Dönem kapanışı, yıl sonu kapanışı ne işe yarar?
+### <a name="10013-update-or-later"></a>10.0.13 güncelleştirmesi veya sonrası
+Kuruluşunuzun yıl sonu kapanışını son çalıştırmasından bu yana 10.0.13 veya sonraki bir sürüme güncelleştirme yaptıysanız [HashV2 özelliğinin uygulanması](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/verify-hash-function-changes-after-update-to-dynamics-365-finance-2020-release-wave-2) nedeniyle yıl sonu kapanışı daha uzun sürebilir. (*Hash* terimi, diğer dize alanlarından hesaplanan bir alanı ifade eder. Hash GUID değerini hesaplayacak API, güvenliği artırmak için güncelleştirilmiştir.) Yıl sonu kapanış işlemini hızlandırmak için yıl sonu kapanışını çalıştırmadan önce boyut kümelerinin bakiyelerini yeniden oluşturmanızı öneririz. 10.0.13 güncelleştirmesini aldıktan sonra boyut kümesi bakiyelerinin yeniden oluşturulması işlemini gerçekleştirdiyseniz yeniden oluşturma işlemini yeniden çalıştırmanız gerekmez.
+ 
+## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Genel muhasebe: Dönem kapanışı - Yıl sonu kapanışı ne işe yarar?
  
 [![Dönem kapanışı, yıl sonu kapanışı.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
-### <a name="performance-improvements-for-rebuilding-financial-dimension-sets"></a>Mali boyut kümelerini yeniden oluşturmaya yönelik performans iyileştirmeleri
-10.0.16 sürümüne eklenen yeni bir özellik, yıl sonu kapanışı ve konsolidasyon işlemlerinin performansını artırır. Özellik, Mali boyut kümelerinin yeniden oluşturulması için performans iyileştirmeleri olarak adlandırılmıştır. Bu özellik, boyut kümelerinin yalnızca ilgili bir zaman dilimi için yeniden oluşturulabilmesi için boyut kümelerinin yeniden oluşturulma biçimini değiştirir. Önceki sürümlerde, boyut kümeleri tüm tarihler için yeniden oluşturuluyordu. Örneğin, 2020 yılını kapatıyorsanız sistem yalnızca 2020 mali yılı içindeki hareketlerin bakiyelerini yeniden oluşturur. 1 Kasım 2020 ile 30 Kasım 2020 tarihleri arasında bir konsolidasyon işlemi çalıştırıyorsanız sistem yalnızca o tarih aralığının bakiyelerini yeniden oluşturur.
+### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Mali boyut kümelerinin yeniden oluşturulması için performans iyileştirmeleri (yeni özellik)
+Sürüm 10.0.16'ya eklenen yeni bir özellik, yıl sonu kapanışı ve konsolidasyonu işlemlerinin performansını artırır. Özellik, Mali boyut kümelerinin yeniden oluşturulması için performans iyileştirmeleri olarak adlandırılmıştır. Bu özellik, boyut kümelerinin yalnızca ilgili bir zaman dilimi için yeniden oluşturulabilmesi için boyut kümelerinin yeniden oluşturulma biçimini değiştirir. Önceki sürümlerde, boyut kümeleri tüm tarihler için yeniden oluşturuluyordu. Örneğin, 2020 yılını kapatıyorsanız sistem yalnızca 2020 mali yılı içindeki hareketlerin bakiyelerini yeniden oluşturur. 1 Kasım 2020 ile 30 Kasım 2020 tarihleri arasında bir konsolidasyon işlemi çalıştırıyorsanız sistem yalnızca o tarih aralığının bakiyelerini yeniden oluşturur.
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için Özellik yönetimi çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+Bu özellik, hataya neden olan değişiklik olarak kabul edilir; özelliği **Özellik yönetimi** çalışma alanını kullanarak etkinleştirmeniz gerekir.
  
-- Modül: Genel muhasebe
-- Özellik adı: Mali boyut kümelerinin yeniden oluşturulması için performans iyileştirmeleri
+[![Yıl sonu kapanışı.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Borç hesapları: 2021 yılı için 1099 yıl sonu raporlamasını desteklemek üzere ne gibi değişiklikler yapıldı?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Borç hesapları: 2020 yılı için 1099 yıl sonu raporlamasını desteklemek üzere ne gibi değişiklikler yapıldı?
 
-2021'de, DIV, NEC ve MISC formları biraz değiştirildi ve bazı ek kutular eklendi.
+2020 yılında 1099 yıl sonu değişiklikleri için iki yeni düzenleyici özellik eklendi. **2020 için 1099-NEC ve 1099-MISC formlarındaki değişiklikleri uygulama** adlı ilk özellik, zorunlu bir özellik olarak yıl ortasında kullanıma sunuldu. Amacı, 2020 yılına ait 1099 işlem verilerinin yeni 1099-NEC formu için izlenebilmesidir. Bu özellikle, yeni 1099-NEC'yi desteklemek için gereken 1099 alanları eklendi ve 1099-MISC alanları güncelleştirildi. Bu güncelleştirmeyle, 1099 kutusu bilgileri için satıcı kayıt verileri de yükseltildi. 
 
-#### <a name="div-new-box2e-2f"></a>DIV: yeni kutu 2e, 2f
- 
-- Kutu 2e. Kutu 1a'daki tutarın ABD gayrimenkul hakları (USRPI) satışıyla ilişkilendirilebilen bölüm 897 bölümünü gösterir.  
-- Kutu 2F. Kutu 2a'daki tutarın USRPI satışıyla ilişkilendirilebilen bölüm 897 bölümünü gösterir. 2e ve 2F kutularının, aktarıldığında veya dağıtıldığında gelirleri kendi karakterlerini koruyan yabancı kişiler ve tüzel kişilikler ya da doğrudan veya dolaylı yabancı sahiplere veya hak sahipleri için geçerli olduğunu unutmayın. Genellikle Amerika Birleşik Devletleri'ndeki bir ticari kuruluş veya işletmeye doğru şekilde bağlı olarak kabul edilir. Vergi iadeniz için yönergelere bakın. 
- 
-#### <a name="nec-new-box-2"></a>NEC: yeni kutu 2 
- 
-Kutu 2 işaretlendiğinde size yeniden satış, satın alıp satma, depozito komisyonu veya diğer temelde satılan, toplamı 5.000 ABD doları veya daha fazla olan tüketici ürünlerini bildirin. Genel olarak, bu ürünlerin satışından elde edilen tüm gelirleri Çizelge C'de (Form 1040) bildirin. 
- 
-Bu arada, NEC formunun boyutu değiştirilmiştir. Yazdırma sırasında, her sayfada üç form bulunur. 
- 
-#### <a name="misc-new-box-11"></a>MISC: yeni kutu 11 
- 
-Kutu 11, balıkçılık ticareti veya işletmesiyle ilgilenen herkesten alınan, yeniden satış amaçlı balık satın alımı için ödenen tutarı gösterir. Bu geliri bildirmek için vergi iadesi yönergelerine bakın. 
- 
-#### <a name="electronic-filing"></a>Elektronik dosyalama 
-Elektronik dosyalama hakkında bilgi için bkz. [Elektronik dosyalama için yayımlama gereksinimleri](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
+**2020 vergi kanunu için güncelleştirilmiş 1099 beyannameleri** adlı ikinci düzenleyici özellik, aşağıdaki değişiklikleri içerir.
 
-2021 e-raporu için Biçim Teknik Özelliklerini ve Kayıt Düzenlerini Güncelleştirme 
-- Bölüm 2 Veren "A" Kaydı. 
-- Tutar Kodları: Alan Pozisyonu 28-45, Uzunluk 18 olarak artırıldı. 
- 
-#### <a name="sec-2-issuer-a-record-for-reporting-payments-on-form-1099-div"></a>Bölüm 2 Veren "A" Kaydı, 1099-DIV Formunda Ödemeleri Bildirmek İçin: 
-- Tutar Türü: Bölüm 897 Normal Kar Payları ve Tutar Kodu H eklendi. 
-- Tutar Türü: Bölüm 897 Sermaye Kazançları ve Tutar Kodu J eklendi. 
- 
-#### <a name="sec-3-payee-b-record"></a>Bölüm 3 Alacaklı "B" Kaydı 
-- Genel Bilgi Kayıtları: 16-18 Ödeme Tutarı Alanlarının üçüncü madde işareti güncelleştirildi. 
-- Alan Başlığı Ödemesi H: Alan Pozisyonu 247-258, Alan Başlığı, Uzunluk ve Genel Alan Açıklaması güncelleştirildi. 
-- Alan Başlığı Ödemesi J: Alan Pozisyonu 259-270, Alan Başlığı, Uzunluk ve Genel Alan Açıklaması güncelleştirildi. 
-- Boş alan, Alan Pozisyonu 271-286 olarak güncelleştirildi. 
-- Yabancı Ülke Göstergesi, Alan Pozisyonu 287 olarak güncelleştirildi. 
-- Alacaklı Adı alanı, Alan Pozisyonu 288-327 olarak güncelleştirildi. 
-- Alacaklı İkinci Adı alanı, Alan Pozisyonu 328-367 olarak güncelleştirildi. 
-- Kayıt Düzeni Pozisyonları, Form 1099-MISC: Alan Pozisyonu 548 ve Alan Başlığı FATCA Dosyalama Gereksinimi Göstergesi silindi. 
-- Kayıt Düzeni Pozisyonları, Form 1099-NEC: 545-546 Boş olarak güncelleştirildi, 547 alanı Doğrudan Satış Göstergesi, Uzunluk ve Açıklama ve Açıklamalar olarak güncelleştirildi, 548-722 alanı Boş olarak güncelleştirildi. 
- 
-#### <a name="sec-4-end-of-issuer-c-record"></a>Bölüm 4 Veren Sonu "C" Kaydı 
-- Alan Başlığı Ödemesi H: Alan Pozisyonu 304-321, Alan Başlığı, Uzunluk ve Genel Alan Açıklaması güncelleştirildi. 
-- Alan Başlığı Ödemesi J: Alan Pozisyonu 322-339, Alan Başlığı, Uzunluk ve Genel Alan Açıklaması güncelleştirildi. 
-- Alan Başlığı 340-499: Uzunluk 160 olarak güncelleştirildi. 
- 
-#### <a name="sec-5-state-totals-k-record"></a>Bölüm 5 Eyalet Toplamları "K" Kaydı 
-- Alan Başlığı Ödemesi H: Alan Pozisyonu 304-321, Alan Başlığı, Uzunluk ve Genel Alan Açıklaması güncelleştirildi. 
-- Alan Başlığı Ödemesi J: Alan Pozisyonu 322-339, Alan Başlığı, Uzunluk ve Genel Alan Açıklaması güncelleştirildi. 
-- Alan Başlığı 340-499: Uzunluk 160 olarak güncelleştirildi.  
+- 1099-OID: IRS, formu sürekli kullanıma dönüştürmüştür.
+   - Yazdırıldığında raporlama yılının 3. ve 4. hanesi doldurulmalıdır. **Raporlama yılı** alanının **1099 vergisi yazdırma seçeneklerindeki** 3. ve 4. hanelerini kullanın. 
+
+- 1099-NEC: 2020 için yeni form. Bu form, çalışan dışındaki tazminatları kaydeder. 
+
+-   1099-MISC: 1099-NEC formunun oluşturulması nedeniyle, IRS, 1099-MISC formunu revize etti ve belirli gelirlerin raporlanması için kutu numaralarını yeniden düzenledi.
+Gelir bildiriminde ve formun kutu numaralarındaki değişiklikler aşağıda listelenmiştir.
+   - Mükellefin 5000 dolar veya üzeri doğrudan satış yapmış olması (onay kutusu) kutu 7'de bildirilir.
+   - Ürün sigortası gelirleri kutu 9'da bildirilir.
+   - Bir avukatın brüt geliri kutu 10'da bildirilir.
+   - Bölüm 409A ertelemeleri, kutu 12'de bildirilir.
+   - Niteliksiz ertelenmiş tazminat geliri, kutu 14'te bildirilir.
+   - Kutu 15, 16 ve 17 sırasıyla kesilen eyalet vergilerini, eyalet kimlik numarasını ve eyalette kazanılan gelirin miktarını bildirir.
+
+- 2020 yılında 1099-DIV veya 1099-INT için değişiklik yapılmamıştır.
+
+- Elektronik dosyalama: Biçim, yeni NEC formunu barındıracak şekilde değiştirildi ve yukarıda açıklanan MISC kutusu değişiklikleri yapıldı. Elektronik dosyalama gereksinimleri hakkında özel bilgiler için [IRS Yayını 1220](https://www.irs.gov/pub/irs-pdf/p1220.pdf)'ye bakın.
 
 ## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Borç hesapları: 1099: Yıl boyunca 1099 bilgilerini takip etmeyen bir satıcının 1099 kutusunu ve değerlerini nasıl değiştirebilirim?
 1099 verilerini **Satıcı** sayfasındaki **1099 Vergisi** sekmesindeki ayarlara göre doğru şekilde yeniden atamak amacıyla daha önce ödenen fatura hareketlerine göz atmak için 1099'u Güncelleştir işlevini (**Borç hesapları > Satıcılar > Tüm satıcılar > Satıcı seçin > Şeritteki Satıcı sekmesi > 1099'u güncelleştir**) kullanın.
@@ -152,7 +111,7 @@ Elektronik dosyalama hakkında bilgi için bkz. [Elektronik dosyalama için yay�
 ## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>1099'u Güncelleştir işlevini tüm satıcılarım için aynı anda çalıştırabilir miyim?
 Hayır. 1099'u Güncelleştir yordamı, tek seferde tek bir satıcı için gerçekleştirilir. Kuruluşunuz tarafından bu gereksinim gerekiyorsa lütfen [Satıcının 1099 Verilerinin Güncelleştirilmesi için Toplu İşlem](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8) başlıklı fikre oy verin.
 
-## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Borç hesapları: 1099: 1099'u Güncelleştir aracında "Mevcut 1099 tutarlarını yeniden hesapla" ve "Tümünü güncelleştir"
+## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Borç hesapları: 1099: 1099'u Güncelleştir aracında "Mevcut 1099 tutarlarını yeniden hesapla" ve "Tümünü güncelleştir".
 **Mevcut 1099 tutarlarını yeniden hesapla** onay kutusu, **Tümünü güncelleştir** onay kutusuyla birlikte kullanıldığında 1099 tutarını ödenen toplam değerlere sıfırlar. 
 
 [![1099 Vergisi hareketleri: Güncelleştirme yordamını çalıştırmadan önce.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)

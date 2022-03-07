@@ -2,11 +2,9 @@
 title: İstatistiksel boyut üyeleri ve ölçü sağlayıcıları için sağlayıcı şablonları
 description: Bu konu, istatistiksel boyut üyeleri ve istatistiksel ölçü sağlayıcısı şablonları hakkında bilgi sağlar. İstatistiksel boyut üyelerini tahsisat maliyet dağılımı ve maliyet tahsisatı gibi ilkelerde tahsisat temeli olarak kullanılabilir. Ayrıca, parasal olmayan maliyet tüketimini bildirmek için de kullanılabilir.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767659"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>İstatistiksel boyut üyeleri ve ölçü sağlayıcıları için sağlayıcı şablonları
 
@@ -162,7 +160,7 @@ Bu örnekte, yalnızca tüm tam zamanlı çalışanların sayısını (FTE) isti
 
 **İstatistiksel girişler**
 
-| Maliyet nesnesi |    | Muhasebeleşme tarihi | İstatistiksel boyut üyesi |  Açıklama        | Büyüklük |
+| Maliyet nesnesi |  Tanım  | Muhasebeleşme tarihi | İstatistiksel boyut üyesi |  Tanım        | Büyüklük |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | İK | 31-01-2017      | FTE'ler                         | Tam zamanlı personel | 1.00      |
 | CC002       | FI | 31-01-2017      | FTE'ler                         | Tam zamanlı personel | 2.00      |
@@ -328,7 +326,7 @@ Verileri içe aktarmak için **İçe aktarılan veriler** \> **Veri varlığı**
 
 **İstatistiksel girişler**
 
-| Maliyet nesnesi |    | Muhasebeleşme tarihi | İstatistiksel boyut üyesi |      Açıklama                   | Büyüklük  |
+| Maliyet nesnesi | Tanım | Muhasebeleşme tarihi | İstatistiksel boyut üyesi |      Tanım                   | Büyüklük  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | İK | 31-01-2017      | Elektrik                  | Elektrik tüketimi | 2.450,00   |
 | CC002       | FI | 31-01-2017      | Elektrik                  | Elektrik tüketimi | 4.100,00   |
@@ -336,12 +334,15 @@ Verileri içe aktarmak için **İçe aktarılan veriler** \> **Veri varlığı**
 
 Elektrik önceden tanımlanmış boyut üyesi tahsisat temeli maliyet dağıtımı kuralında bir tahsisat temeli olarak atanmışsa, maliyet aşağıdaki tahsisat faktörü kullanılarak dağıtılır.
 
-| Maliyet nesnesi |    | Büyüklük | Tahsisat faktörü          |
-|-------------|----|-----------|----------------------------|
-| CC001       | İK | 2.450,00  | (2.450 ÷ 21.550) × Tutar  |
-| CC002       | FI | 4.100,00  | (4.100 ÷ 21.550) × Tutar  |
-| CC003       | ST | 15.000,00 | (15.000 ÷ 21.550) × Tutar |
+| Maliyet nesnesi | Tanım   | Büyüklük | Tahsisat faktörü          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | İK            | 2.450,00  | (2.450 ÷ 21.550) × Tutar  |
+| CC002       | FI            | 4.100,00  | (4.100 ÷ 21.550) × Tutar  |
+| CC003       | ST            | 15.000,00 | (15.000 ÷ 21.550) × Tutar |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Tahsisat temelleri](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

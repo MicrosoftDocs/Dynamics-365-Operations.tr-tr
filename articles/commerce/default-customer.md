@@ -2,36 +2,30 @@
 title: Varsayılan müşteri oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te bir kanal oluşturulurken kullanılacak bir varsayılan müşterinin nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720971"
 ---
 # <a name="create-a-default-customer"></a>Varsayılan müşteri oluşturma
-
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te bir kanal oluşturulurken kullanılacak bir varsayılan müşterinin nasıl oluşturulacağı açıklanmaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 Bir kanal oluştururken varsayılan bir müşteri sağlamanız gerekir. Müşteri grubu ve müşteri adres defteri oluşturulduktan sonra, varsayılan bir müşteri kolayca oluşturulabilir.
 
@@ -53,7 +47,7 @@ Müşteri grubu oluşturmak için bu adımları izleyin.
 
 Aşağıdaki resimde, yapılandırılmış birkaç müşteri grubu gösteriliyor.
 
-![Müşteri grupları](media/customer-groups.png)
+![Müşteri grupları.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Müşteri adres defteri oluşturma
 
@@ -69,7 +63,7 @@ Bir müşteri adres defteri oluşturmak için bu adımları izleyin.
 
 Aşağıdaki resimde örnek bir adres defteri gösterilmektedir.
 
-![Adres defteri](media/address-book.png)
+![Adres defteri.](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>Varsayılan müşteri oluşturma
 
@@ -92,11 +86,11 @@ Bir varsayılan müşteri oluşturmak için bu adımları izleyin.
 
 Aşağıdaki resimde bir müşteri oluşturma örneği gösteriliyor.
 
-![Varsayılan müşteri oluşturma](media/default-customer-creation.png)
+![Varsayılan müşteri oluşturma.](media/default-customer-creation.png)
 
 Aşağıdaki resimde, bir varsayılan müşteri yapılandırması gösteriliyor.
 
-![Örnek müşteri yapılandırması](media/default-customer-configuration1.png)
+![Örnek müşteri yapılandırması.](media/default-customer-configuration1.png)
 
 Müşteri ayrıntıları ekranındaki varsayılan değerlerin çoğu kalabilir ancak iki değer değiştirilmelidir.
 
@@ -106,10 +100,13 @@ Müşteri ayrıntıları ekranındaki varsayılan değerlerin çoğu kalabilir a
 
 Aşağıdaki resimde bir müşteri yapılandırma örneği gösteriliyor.
 
-![Örnek müşteri yapılandırması](media/default-customer-configuration2.png)
+![Örnek müşteri yapılandırması.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Kanallara genel bakış](channels-overview.md)
 
 [Kanal kurulum önkoşulları](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

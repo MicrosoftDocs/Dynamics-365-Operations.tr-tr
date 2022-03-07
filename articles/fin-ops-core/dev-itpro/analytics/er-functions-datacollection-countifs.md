@@ -2,11 +2,8 @@
 title: COUNTIFS ER işlevi
 description: Bu konu, COUNTIFS Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 554750b2dae5ec1f0fcf6fdbdf439b4dbe4fa615
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 23da226fe1ef95ad037c33a5b423968531557896e300c6223b36bc44b0a8a015
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734852"
 ---
 # <a name="countifs-er-function"></a>COUNTIFS ER işlevi
 
@@ -77,3 +74,6 @@ Bu işlevlerin kullanımı hakkında daha fazla bilgi edinmek için [ER Sayma ve
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Veri toplama işlevleri](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

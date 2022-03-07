@@ -2,27 +2,24 @@
 title: Telif hakkı bildirimi ekleme
 description: Bu konuda, e-ticaret Web sitenize telif hakkı bildirimi ekleme yöntemi açıklanmıştır.
 author: psimolin
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 4a9a7fed4393f9c35b0bdc765fe7d0723c193f89
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4416553"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964768"
 ---
 # <a name="add-a-copyright-notice"></a>Telif hakkı bildirimi ekleme
 
@@ -69,9 +66,10 @@ Telif hakkı bildirimini içeren altbilgi, seçili şablonu kullanan tüm sayfal
 
 [Favicon ekleme](add-favicon.md)
 
-[Hoş geldiniz iletisi ekleme](add-welcome-message.md)
-
 [Sitenize dil ekleme](add-languages-to-site.md)
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

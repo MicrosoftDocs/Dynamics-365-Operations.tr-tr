@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 97ac33d28a49ad0f2a3956ad65b159e4ec4785c7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 87063653eb78209caaefd3fafa7783f425e710b7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439003"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257303"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Üretim akışı sürümü için bir bitiş tarihi tanımlama
 
@@ -41,3 +40,6 @@ ms.locfileid: "4439003"
 6. Bitiş tarihi alanına bir tarih ve saat girin.
     * Bitiş tarihi için yeni bir sürüm başlamaz veya etkin hale gelmez. Bu üretim akışı için görevleri oluşturmak veya başlatmak artık mümkün olmaz. Başlatılan işleri, bitiş tarihinden sonra da tamamlayabilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

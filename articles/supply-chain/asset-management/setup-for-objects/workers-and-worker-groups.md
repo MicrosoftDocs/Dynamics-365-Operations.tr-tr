@@ -1,12 +1,10 @@
 ---
 title: Bakım görevlileri ve çalışan grupları
 description: Bu konuda Kıymet Yönetimi'nde bakım görevlileri ve çalışan grupları açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017404"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750136"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Bakım görevlileri ve çalışan grupları
 
@@ -63,3 +61,6 @@ Ayrıca bakım görevlisi grupları oluşturabilir ve bakım görevlilerini bu g
 6. Bir kaynak grubunun seçili bakım görevlisi grubuyla ilgili olması gerekiyorsa **Kaynak gruptan kopyala**'yı seçin. **Grup** alanında takvim ayarlarının kopyalanacağı kaynak grubu seçin. Ardından **Çalışan grubu** alanında kaynak grubunun takvim ayarlarının kopyalanacağı çalışan grubunu seçin. Bu adımı yalnızca iş emri planlaması sırasında bakım görevlilerinin bir kaynakla (iş merkezi) ilgili takvimi kullanmalarını istiyorsanız kullanın.
 
     **Ayrıntılar** hızlı sekmesindeki alan seçili bakım çalışanı grubunda ayarlanmış bakım görevlilerinin sayısını gösterir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: Tekrar eden satınalma siparişi oluşturma
 description: Bu konu önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya satırları kopyalayarak tekrar eden bir satınalma siparişinin (PO) nasıl oluşturulacağını gösterir.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65eb801fb363ce2484dcce4d086d1b2b5ad3388f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3af29594326501359e4722b92d6c5235cf25af9c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017354"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569397"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Tekrar eden satınalma siparişi oluşturma
 
@@ -69,3 +67,6 @@ Siparişin tamamını kopyalamak yerine yeni bir PO oluşturmak, PO başlığın
 4. İstenen satınalma emri için satırı seçin. Bu PO üzerinde tek sipariş satırının da seçildiğine dikkat edin.  
 5. **Tamam**'ı seçin. Ek sipariş satırı satınalma siparişinize eklendi.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

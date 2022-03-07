@@ -2,25 +2,28 @@
 title: Kiraları yabancı para birimlerinde kaydetme
 description: Bu konu, kiraların muhasebe veya raporlama para birimi dışındaki para birimlerinde nasıl oluşturulacağını açıklamaktadır.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseDetail
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 91bf3f91614f0dd4835c253456128c9ced046749c0e13383590e01dfd436c921
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 92177d4f808bfec88dabe9277c3d584ed02e401e
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766349"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4449008"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Kiraları yabancı para birimlerinde kaydetme
 
@@ -50,6 +53,3 @@ Yabancı bir para biriminde gösterilen bir kiralamayla ilgili amortisman gider 
 Nihai amortisman gider tutarı biraz farklı bir döviz kuru kullanılarak hesaplanabilir ve böylece ROU varlığı hem muhasebe para biriminde hem de raporlama para biriminde tümüyle amorti edilir.
 
 Kiralama **Ertelenmiş kira** olarak yeniden sınıflandırıldığında sistem, muhasebe ve raporlama para birimlerinin döviz kurları zaten tanımlanmışsa, bunları otomatik olarak temizler.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

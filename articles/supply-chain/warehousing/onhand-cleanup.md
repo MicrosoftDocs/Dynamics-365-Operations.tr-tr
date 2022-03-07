@@ -2,9 +2,11 @@
 title: Ambar yönetimi eldeki stok girişlerini temizleme işi
 description: Bu konu, gerekli ancak gerekmeyen kayıtları tanımlayıp silerek sistem performansının artırılmasına yardımcı olan eldeki girişler temizleme işini açıklamaktadır.
 author: perlynne
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -12,17 +14,15 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103875"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014495"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Ambar yönetimi eldeki stok girişlerini temizleme işi
-
-[!include [banner](../includes/banner.md)]
 
 Eldeki stoğu hesaplamak için kullanılan sorguların performansı, söz konusu tablolardaki kayıt sayısından etkilenir. Performansı iyileştirmeye yardımcı olmanın bir yolu, veritabanının dikkate alınması gereken kayıt sayısını azaltmaktır.
 
@@ -58,7 +58,7 @@ Ancak, temizleme işinin sağladığı performans iyileştirmesi işlevselliktek
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Maksimum yürütme zamanı ayarını kullanılabilir yap
 
-**Maksimum yürütme zamanı** ayarı, yalnızca *Ambar yönetimi eldeki girişlerini temizleme işi için maksimum yürütme süresi* özelliği açık olduğunda kullanılabilir. Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Ambar yönetimi eldeki girişlerini temizleme işi için maksimum yürütme süresi* özelliğini bularak bu işlevi açabilir veya kapatabilir.
+Varsayılan olarak **Maksimum yürütme zamanı** kullanılabilir değil. Bunu kullanmak istiyorsanız, sisteminizdeki ilgili özelliği açmak için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanmalısınız. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- **Modül:** *Ambar yönetimi*
+- **Özellik adı:** *Ambar yönetimi için maksimum yürütme süresi eldeki girişler temizleme işi*

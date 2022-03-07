@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 1a8eebb589372051272573895a0ae5b4203eef62
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109793"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472693"
 ---
 # <a name="countryregion-picker-module"></a>Ülke/bölge seçici modülü
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konuda, ülke/bölge seçici modülü kapsanmaktadır ve bu modülün Microsoft Dynamics 365 Commerce'de nasıl yapılandırılacağı açıklanmaktadır.
 
@@ -74,9 +75,5 @@ Müşterilere göstermek ve önermek istediğiniz her URL için Commerce site ol
 [Modül kitaplığına genel bakış](starter-kit-overview.md)
 
 [Üst bilgi modülü](author-header-module.md)
-
-[Site seçicisi modülü](site-selector.md)
-
-[İçerik haritası modülü](add-breadcrumb.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

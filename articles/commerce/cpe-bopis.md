@@ -1,28 +1,25 @@
 ---
 title: Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma
 description: Bu konu çevrimiçi satın al, mağazadan teslim al (BOPIS) işleminin, sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamında nasıl yapılandırılacağını açıklar.
-author: rubendel
-manager: annbe
+author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416323"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779806"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma
 
@@ -32,7 +29,7 @@ Bu konu çevrimiçi satın al, mağazadan teslim al (BOPIS) işleminin, ortam sa
 
 ## <a name="prerequisite"></a>Önkoşul
 
-Bu konudaki yordamları yalnızca Commerce değerlendirme ortamınızı sağlandıktan ve yapılandırdıktan sonra tamamlayın. Ortamınızı sağlama ve yapılandırma hakkında bilgi için bkz. [Dynamics 365 Commerce değerlendirme ortamı sağlama](provisioning-guide.md) ve [Dynamics 365 Commerce değerlendirme ortamı yapılandırma](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Bu konudaki yordamları yalnızca Commerce değerlendirme ortamınızı sağlandıktan ve yapılandırdıktan sonra tamamlayın. Ortamınızı sağlama ve yapılandırma hakkında bilgi için bkz. [Dynamics 365 Commerce değerlendirme ortamı sağlama](provisioning-guide.md) ve [Dynamics 365 Commerce değerlendirme ortamı yapılandırma](./cpe-post-provisioning.md).
 
 Commerce ortamınız sağlandıktan ve uçtan uca yapılandırıldıktan sonra, bu konuyu BOPIS senaryolarını etkinleştirmek için kullanabilirsiniz.
 
@@ -40,7 +37,7 @@ Commerce ortamınız sağlandıktan ve uçtan uca yapılandırıldıktan sonra, 
 
 ### <a name="configure-modern-pos"></a>Modern POS yapılandırma
 
-Kredi kartı ödemesi içeren BOPIS senaryoları bir donanım istasyonu gerektirir. Donanım istasyonu Windows ve Android istemcileri için Modern POS'a yerleşik olarak bulunur. iOS için Cloud POS veya Modern POS kullanıyorsanız, satış noktası (POS) istemcisi paylaşılan bir donanım istasyonuyla eşleştirilmelidir. Bu konu, Windows ve Android istemcileri için BOPIS'in nasıl yapılandırılacağını açıklamaktadır. Paylaşılan donanım istasyonu ayarlama hakkında daha fazla bilgi için bkz. [Retail hardware station'ı yapılandırma ve yükleme](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+Kredi kartı ödemesi içeren BOPIS senaryoları bir donanım istasyonu gerektirir. Donanım istasyonu Windows ve Android istemcileri için Modern POS'a yerleşik olarak bulunur. iOS için Cloud POS veya Modern POS kullanıyorsanız, satış noktası (POS) istemcisi paylaşılan bir donanım istasyonuyla eşleştirilmelidir. Bu konu, Windows ve Android istemcileri için BOPIS'in nasıl yapılandırılacağını açıklamaktadır. Paylaşılan donanım istasyonu ayarlama hakkında daha fazla bilgi için bkz. [Retail hardware station'ı yapılandırma ve yükleme](./retail-hardware-station-configuration-installation.md).
 
 1. **Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> Kasalar**'a gidin.
 2. **SANFRAN-5** kasasını ve ardından **Düzenle**'yi seçin.
@@ -57,7 +54,7 @@ Kredi kartı ödemesi içeren BOPIS senaryoları bir donanım istasyonu gerektir
 4. **İndir**'i ve ardından **Retail Modern POS** öğesini seçin. 
 5. **ModernPOSSetup.exe** dosyasının indirilmesi tamamlandığında **Dosyayı aç**'ı seçin.
 
-    ![Dosya aç](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![Dosya aç.](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. Yükleme işlemine devam etmek için **İleri**'yi seçin. Yükleme tamamlandığında **Kapat**'ı seçin.
 
@@ -90,7 +87,7 @@ Kredi kartı ödemesi içeren BOPIS senaryoları bir donanım istasyonu gerektir
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Mağazadan alma için bir mağaza siparişi oluşturma
 
-1. Ortam yapılandırması sırasında [e-Ticareti başlat](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) adımında belirttiğiniz URL'ye gidin.
+1. Ortam yapılandırması sırasında [e-Ticareti başlat](./provisioning-guide.md#initialize-e-commerce) adımında belirttiğiniz URL'ye gidin.
 2. Bir madde seçin ve **Sepete ekle**'yi seçin.
 3. Alışveriş çantası sayfasında, yeni eklediğiniz sipariş satır için **Bunu çek**'i seçin.
 4. **Mağaza seç** iletişim kutusunda, **San Francisco** girin ve ardından **Ara** düğmesini seçin.
@@ -115,7 +112,7 @@ Kredi kartı ödemesi içeren BOPIS senaryoları bir donanım istasyonu gerektir
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Çevrimiçi siparişleri arka ofisle eşitleme
 
-Çevrimiçi siparişleri eşitleme hakkında bilgi için bkz. [Çevrimiçi satışları ve ödemeleri deftere nakletme](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
+Çevrimiçi siparişleri eşitleme hakkında bilgi için bkz. [Çevrimiçi satışları ve ödemeleri deftere nakletme](./tasks/posting-online-sales-payments.md).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Bir siparişi mağazadan alma
 
@@ -151,16 +148,19 @@ Tüm genel sorunlar için, her zaman öncelikle Modern POS veya İnternet Bilgi 
 
 [Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure portalı](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce web sitesi](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Adyen ödeme bağlayıcısı](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[Adyen ödeme bağlayıcısı](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[Adyen bağlayıcısı ile çevrimiçi ödeme araçlarını kaydetme](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[Adyen bağlayıcısı ile çevrimiçi ödeme araçlarını kaydetme](./dev-itpro/adyen-connector-listpi.md)
 
-[Çok yönlü kanal ödemelerine genel bakış](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[Çok yönlü kanal ödemelerine genel bakış](./omni-channel-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

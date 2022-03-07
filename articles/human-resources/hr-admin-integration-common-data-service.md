@@ -1,120 +1,133 @@
 ---
-title: Common Data Service tümleştirmesini yapılandırma
-description: Common Data Service ve Dynamics 365 Human Resources arasındaki tümleştirmeyi açabilir veya kapatabilirsiniz. Ayrıca, eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarının giderilmesine yardımcı olarak bir varlığı yeniden eşitleyebilirsiniz.
-author: andreabichsel
-manager: AnnBe
-ms.date: 07/27/2020
+title: Dataverse tümleştirmesini yapılandırma
+description: Bu konuda, Microsoft Dataverse ve Dynamics 365 Human Resources arasındaki tümleştirme açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9ee4715526e18b33ae4b7e90b081ed5868bb19c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: c4e68142045b72b139bdda8be707a73e21e568fd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527944"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065463"
 ---
-# <a name="configure-common-data-service-integration"></a>Common Data Service tümleştirmesini yapılandırma
+# <a name="configure-dataverse-integration"></a>Dataverse tümleştirmesini yapılandırma
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Common Data Service ve Dynamics 365 Human Resources arasındaki tümleştirmeyi açabilir veya kapatabilirsiniz. Ayrıca, eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarının giderilmesine yardımcı olarak bir varlığı yeniden eşitleyebilirsiniz.
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
-Tümleştirmeyi kapattığınızda, kullanıcılar Human Resource veya Common Data Service'te değişiklikler yapabilir ancak bu değişiklikler iki ortam arasında eşitlenmez.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Varsayılan olarak, Human Resources ve Common Data Service arasındaki tümleştirme kapalıdır.
+Microsoft Dataverse ve Dynamics 365 Human Resources arasındaki tümleştirmeyi açabilir veya kapatabilirsiniz. Eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarını gidermeye yardımcı olmak için bir tabloyu yeniden işleyebilirsiniz.
+
+> [!NOTE]
+> Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)
+
+Tümleştirmeyi kapattığınızda, kullanıcılar Human Resource veya Dataverse'te değişiklikler yapabilir ancak bu değişiklikler iki ortam arasında eşitlenmez.
+
+Varsayılan olarak, Human Resources ve Dataverse arasındaki tümleştirme kapalıdır.
 
 Aşağıdaki durumlarda tümleştirmeyi kapatmak isteyebilirsiniz:
 
 - Verileri, Veri Yönetimi Çerçevesi aracılığıyla dolduruyorsunuzdur ve doğru bir duruma getirmek için verileri birçok defa içe aktarmanız gerekiyordur.
 
-- Human Resources veya Common Data Service'te verilerle ilgili sorunlar vardır. Tümleştirmeyi kapatırsanız, bir kaydı bir ortamda silip, diğerinde bırakabilirsiniz. Tümleştirmeyi yeniden açtığınız zaman, silme işlemi yapılmayan ortamdaki kayıt, silindiği ortama yeniden eşitlenir. **Common Data Service tümleştirmesi - kaçırılan istek eşitleme** toplu işinin bir sonraki çalıştırılışında eşitleme başlar.
+- Human Resources veya Dataverse'te verilerle ilgili sorunlar vardır. Tümleştirmeyi kapatırsanız, bir kaydı bir ortamda silip, diğerinde bırakabilirsiniz. Tümleştirmeyi yeniden açtığınız zaman, silme işlemi yapılmayan ortamdaki kayıt, silindiği ortama yeniden eşitlenir. **Dataverse tümleştirmesi - kaçırılan istek eşitleme** toplu işinin bir sonraki çalıştırılışında eşitleme başlar.
 
 > [!WARNING]
 > Veri tümleştirmeyi kapattığınızda, her iki ortamda aynı kaydı düzenlemediğinizden emin olun. Tümleştirmeyi yeniden açtığınızda, son düzenlediğiniz kayıt eşitlenir. Bu nedenle, her iki ortamda da kayıtta aynı değişiklikleri yapmadıysanız, veri kaybı oluşabilir.
 
-## <a name="access-the-common-data-service-integration-page"></a>Common Data Service tümleştirme sayfasına erişim
+## <a name="access-the-dataverse-integration-page"></a>Dataverse tümleştirme sayfasına erişim
 
-1. Common Data Service ile tümleştirme için ayarları görüntülemek veya yapılandırmak istediğiniz Human Resources kurulumunda **Sistem yönetimi** kutucuğunu seçin.
+1. Dataverse ile tümleştirme için ayarları görüntülemek veya yapılandırmak istediğiniz Human Resources kurulumunda **Sistem yönetimi** kutucuğunu seçin.
 
-    [![Sistem yönetimi kutucuğu](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Sistem yönetimi kutucuğu.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. **Bağlantılar** sekmesini seçin.
 
-    [![Bağlantılar sekmesi](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Bağlantılar sekmesi.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
-3. **Tümleştirmeler** altında, **Common Data Service yapılandırması**'nı seçin.
+3. **Tümleştirmeler** altında, **Dataverse yapılandırması**'nı seçin.
 
-    [![Common Data Service yapılandırması bağlantısı](./media/hr-select-common-data-service-configuration.png)](./media/hr-select-common-data-service-configuration.png)
+    [![Dataverse yapılandırması bağlantısı.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
-## <a name="turn-data-integration-between-human-resources-and-common-data-service-on-or-off"></a>Human Resources ve Common Data Service arasında tümleştirmeyi açma veya kapatma
+## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Human Resources ve Dataverse arasında tümleştirmeyi açma veya kapatma
 
-- Tümleştirmeyi açmak için, **Common Data Service'e tümleştirmeyi etkinleştir** seçeneğini **Evet** olarak ayarlayın.
+- Tümleştirmeyi etkinleştirmek için **Microsoft Dataverse tümleştirme** sayfasında **Dataverse tümleştirmesini etkinleştir** seçeneğini **Evet** olarak ayarlayın.
 
     > [!NOTE]
-    > Tümleştirmeyi açarsanız, **Common Data Service tümleştirmesi - kaçırılan istek eşitleme** toplu işinin bir sonraki çalıştırılışında veriler eşitlenir. Toplu iş tamamlandıktan sonra tüm veriler kullanılabilir hale gelecektir.
+    > Tümleştirmeyi açarsanız, **Dataverse tümleştirmesi - kaçırılan istek eşitleme** toplu işinin bir sonraki çalıştırılışında veriler eşitlenir. Toplu iş tamamlandıktan sonra tüm veriler kullanılabilir hale gelecektir.
 
 - Tümleştirmeyi kapatmak için, seçeneği **Hayır** olarak ayarlayın.
 
-[![Common Data Service tümleştirmesini açma veya kapatma](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+[![Dataverse tümleştirmesini açma veya kapatma.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
-> Veri taşıma görevleri gerçekleştirirken Common Data Service tümleştirmesini kapatmanız önerilir. Büyük veri yüklemeleri, performansı önemli ölçüde etkileyebilir. Örneğin, 2000 çalışan karşıya yüklemek, tümleştirme etkinleştirildiğinde birkaç saat sürebilir ve devre dışı bırakıldığında bir saatten az olabilir. Bu örnekte verilen sayılar yalnızca gösterim amaçlıdır. Kayıtları içe aktarmak için gereken tam süre birçok etkene göre büyük ölçüde değişebilir.
+> Veri taşıma görevleri gerçekleştirirken Dataverse tümleştirmesini kapatmanız önerilir. Büyük veri yüklemeleri, performansı önemli ölçüde etkileyebilir. Örneğin, 2000 çalışan karşıya yüklemek, tümleştirme etkinleştirildiğinde birkaç saat sürebilir ve devre dışı bırakıldığında bir saatten az olabilir. Bu örnekte verilen sayılar yalnızca gösterim amaçlıdır. Kayıtları içe aktarmak için gereken tam süre birçok etkene göre büyük ölçüde değişebilir.
 
 ## <a name="view-data-integration-details"></a>Veri tümleştirme ayrıntılarını görüntüleme
 
-**Common Data Service tümleştirmesi** sayfasının **Yönetim** hızlı sekmesinde, kayıtların Human Resources ve Common Data Service arasında birbirlerine nasıl bağlandığını görebilirsiniz.
+**Microsoft Dataverse tümleştirmesi** sayfasının **Yönetim** hızlı sekmesinde, satırların Human Resources ile Dataverse arasında nasıl bağlandığını görebilirsiniz.
 
-- Bir varlığın kayıtlarını görüntülemek için, **CDS varlığının adı** alanında varlığı seçin. Kılavuz, seçilen varlıkla bağlantılı tüm kayıtları gösterir.
-
-[![Bir varlığın kayıtlarını görüntüleme](./media/hr-common-data-service-configuration-view-entity.png)](./media/hr-common-data-service-configuration-view-entity.png)
+- Tablonun satırlarını görüntülemek için **Dataverse tablosu** alanında tabloyu seçin. Kılavuz, seçilen tablo ile bağlı tüm satırları gösterir.
 
 > [!NOTE]
-> Şu anda tüm Common Data Service varlıkları listede değildir. Yalnızca özel alanların kullanımını destekleyen varlıklar kılavuzda görünür. Human Resources'ın devam eden sürümleriyle yeni varlıklar sunuluyor.
+> Tüm Dataverse tabloları şu anda listelenmiyor. Kılavuzda yalnızca özel alanların kullanımını destekleyen tablolar görünür. Human Resources'nın sürekli sürümleri aracılığıyla yeni tablolar kullanılabilir hale gelir.
 
 Kılavuz aşağıdaki alanları içerir:
 
-- **CDS varlığının adı** – Common Data Service'teki varlığın adı.
-- **CD varlığı başvurusu** – Common Data Service'in bir kaydı belirlemek için kullandığı tanımlayıcı. Bu değer Human Resources'taki bir **Kayıt kodu** değerinin eşdeğeridir. Common Data Service varlığını Microsoft Excel'de açtığınız zaman tanımlayıcıyı bulabilirsiniz.
-- **Human Resources varlığının adı** – Verileri Common Data Service'e en son eşitlenen varlık. Varlık ya Common Data Service öneki veya başka bir önek taşımalıdır.
+- **Dataverse tablo** – Dataverse'teki tablonun adı.
+- **Dataverse tablo başvurusu** – Bir kaydı tanımlamak için Dataverse kullanan tanımlayıcı. Bu değer Human Resources'taki bir **Kayıt kodu** değerinin eşdeğeridir. Dataverse tablosunu Microsoft Excel'de açtığınızda tanımlayıcıyı bulabilirsiniz.
+- **Human Resources varlık adı** – Verileri Dataverse'e en son eşitleyen Human Resources varlığı. Varlık ya Dataverse ön eki veya başka bir ön ek taşımalıdır.
 - **Human Resources başvurusu** – Human Resources'taki kayıtla ilişkili **Kayıt kodu** değeri.
-- **CDS'den silindi** – Kaydın Common Data Service'ten silinip silinmediğini gösteren bir değer.
+- **Dataverse'ten silindi** – Satırın Dataverse'ten silinip silinmediğini gösteren değer.
 
-## <a name="remove-the-association-of-a-record-in-human-resources-from-common-data-service"></a>Human Resources'taki bir kaydın ilişkilendirmesini Common Data Service'tan kaldırma
+> [!NOTE]
+> Human Resources'daki kayıtlar, Dataverse'teki satırlara karşılık gelir.
 
-Human Resources ve Common Data Service arasındaki veri eşitleme sırasında sorunlarla karşılaşırsanız, izlemeyi temizleyerek ve izleme tablosunun yeniden eşitlenmesine izin vererek bu sorunları çözebilirsiniz. İlişkilendirmeyi kaldırır ve Common Data Service'te bir kaydı değiştirir veya silerseniz, değişiklikler Human Resources'a eşitlenmez. Human Resources'ta değişiklikler yaparsanız yeni bir izleme kaydı oluşturulur ve kayıt Common Data Service'te güncelleştirilir.
+## <a name="remove-the-association-of-a-human-resources-record-from-a-dataverse-row"></a>Human Resources kaydının ilişkisini Dataverse satırından kaldırma
 
-- Human Resources ve Common Data Service arasında bir kaydın ilişkilendirmesini kaldırmak için, **CDS varlığının adı** alanında varlığı ve ardından **İzleme bilgilerini temizle**'yi seçin.
+Human Resources ve Dataverse arasındaki veri eşitleme sırasında sorunlarla karşılaşırsanız, izlemeyi temizleyerek ve izleme tablosunun yeniden eşitlenmesine izin vererek bu sorunları çözebilirsiniz. İlişkilendirmeyi kaldırır ve sonra satırı Dataverse'te değiştirir veya silerseniz, değişiklikler Human Resources ile eşitlenmez. Human Resources'da değişiklik yaparsanız, yeni bir izleme kaydı oluşturulur ve satır Dataverse'te güncelleştirilir.
 
-[![İzleme bilgilerini temizleme](./media/hr-common-data-service-configuration-clear-tracking.png)](./media/hr-common-data-service-configuration-clear-tracking.png)
+- Human Resources kaydının ve Dataverse satırının ilişkisini kaldırmak için **Dataverse tablosu** alanında tabloyu seçin ve ardından **İzleme bilgilerini temizle**'yi seçin.
 
-İzlemeyi temizledikten sonra varlıkta bir tam eşitleme çalıştırmak için, sonraki yordama bakın.
+[![İzleme bilgilerini temizleme.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
-## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Varlığı Human Resources ve Common Data Service arasında eşitleme
+İzlemeyi temizledikten sonra tabloda tam eşitleme çalıştırmak için sonraki yordama bakın.
+
+## <a name="sync-a-table-between-human-resources-and-dataverse"></a>Human Resources ile Dataverse arasında tablo eşitleme
 
 Bu yordamı şu durumlarda kullanın:
 
-- Common Data Service'taki değişikliklerin Human Resources'ta görünmesi çok uzun zaman aldığında.
+- Dataverse'taki değişikliklerin Human Resources'ta görünmesi çok uzun zaman aldığında.
 
 - İzlemeyi temizledikten sonra izleme tablosunu yenilemeniz gerekir.
 
-Human Resources ile Common Data Service arasında bir varlıkta tam eşitleme çalıştırmak için:
+Human Resources ile Dataverse arasında bir tablonun tam eşitlemesini çalıştırmak için:
 
-1. **CDS varlık adı** alanında varlığı seçin.
+1. **Dataverse tablosu** alanında tabloyu seçin.
 
 2. **Şimdi eşitle**'yi seçin.
 
-[![Tam eşitleme çalıştırma](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
+[![Tam eşitleme çalıştırma.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+[Dataverse tabloları](hr-developer-entities.md)<br>
+[Dataverse sanal tablolarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Human Resources sanal tablolarıyla ilgili SSS](hr-admin-virtual-entity-faq.md)<br>
+[Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminoloji güncelleştirmeleri](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

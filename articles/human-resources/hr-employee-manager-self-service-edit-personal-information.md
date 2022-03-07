@@ -2,30 +2,30 @@
 title: Kişisel bilgileri düzenle
 description: Bu makalede, çalışan ve yönetici self servis'deki kişisel bilgilerin nasıl düzenleneceği anlatılmaktadır.
 author: andreabichsel
-manager: AnnBe
 ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0158bd4ee74e24006e338c0477ee0ac4210b1bf5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a1cde80223ec3052adf58f34c344e004936b584
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420864"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790848"
 ---
 # <a name="edit-personal-information"></a>Kişisel bilgileri düzenle
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Kişisel bilgilerinizi **çalışan self servis çalışma alanındaki** Dynamics 365 Human Resources'ta düzenleyebilirsiniz.
 
@@ -38,13 +38,16 @@ Düzenleyebileceğiniz kişisel bilgiler şunları içerir:
 - Ödeme yöntemi
 - İnsan Kaynakları'nda kullanılan görüntü
 
+>[!NOTE]
+>İlgili kişi bilgileri gibi belirli türde kişisel bilgileri düzenleyemeyebilirsiniz. Daha fazla bilgi için bkz. [Kişisel bilgileri düzenlemeyi kısıtlama](hr-employee-self-service-restrict-editing.md).
+
 Genel adres defteri nde ayarlanan parametreler, kişisel bilgilerinizi görebileceğiniz rolleri belirler.
 
 1. İnsan Kaynakları, **çalışan Self servis**'ı seçin.
 
 2. **Kişisel ayrıntıları düzenle** seçin.
 
-3. Adresinizi değiştirmek için **adresler** sekmesini seçin. yaptığınız değişiklikler, **personel yönetimi** çalışma alanında HR için görünür. 
+3. Adresinizi değiştirmek için **adresler** sekmesini seçin. yaptığınız değişiklikler, **personel yönetimi** çalışma alanında HR için görünür.
 
     - Yeni bir adres eklemek için **Ekle**'ye tıklayın.
     - Varolan bir adresi düzenlemek için, adresi seçin ve **Düzenle** seçin.
@@ -52,11 +55,13 @@ Genel adres defteri nde ayarlanan parametreler, kişisel bilgilerinizi görebile
     - Bir kişi eklemek veya kaldırmak için, **diğer Seçenekler** seçeneğini belirleyin ve sonra **Gelişmiş**'i seçin. İlgili **kişi bilgileri** altında, gerekli alanları **Ekle** veya **Kaldır** ve Düzenle 'yi seçin.
     - Saat diliminizi ve konumunuzu ayarlamak için **daha fazla seçenek** belirleyip **Gelişmiş**'i seçin. **Genel** altında, alanları gerektiği gibi düzenleyin.
 
-4. İlgili kişi ayrıntılarını değiştirmek için **ilgili kişi ayrıntıları** sekmesini seçin. Telefon, e-posta ve sosyal medya bağlantıları gibi farklı türlerde iletişim bilgileri sağlayabilirsiniz. İlgili kişi ayrıntısını birincil olarak ayarlayabilirsiniz, ancak yalnızca her türden birini birincil olarak ayarlayabilirsiniz. 
+4. İlgili kişi ayrıntılarını değiştirmek için **ilgili kişi ayrıntıları** sekmesini seçin. Telefon, e-posta ve sosyal medya bağlantıları gibi farklı türlerde iletişim bilgileri sağlayabilirsiniz. İlgili kişi ayrıntısını birincil olarak ayarlayabilirsiniz, ancak yalnızca her türden birini birincil olarak ayarlayabilirsiniz.
 
     - Yeni bir iletişim bilgisi eklemek için **Ekle**'ye tıklayın. Alanları gerektiği gibi düzenleyin.
     - Varolan bir iletişim bilgisini düzenlemek için, öğeyi seçin ve **Düzenle** seçin. Alanları gerektiği gibi düzenleyin.
     - İlgili kişi ayrıntısını özel olarak ayarlamak için, maddeyi seçin, **Gelişmiş**'i seçin ve sonra **özel** geçişi **Evet** olarak ayarlayın. **Tamam**'ı seçin.
+      >[!NOTE]
+      >Yöneticiniz ortamınızda **(Önizleme) Çalışanların belirli amaçlar için adres ve kişi bilgilerini eklemesini veya düzenlemesini kısıtlama** özelliğini etkinleştirdiyse **Gelişmiş** düğmesi kullanılamaz. Daha fazla bilgi için bkz. [Kişisel bilgileri düzenlemeyi kısıtlama](hr-employee-self-service-restrict-editing.md).
   
 5. Özel kişilerinizi değiştirmek için, **kişisel kişiler** sekmesini seçin. Acil durumda ulaşılacak ilgili kişiler, lehdarlar ve Etkilenenleri belirleyebilirsiniz. İlgili kişi, kişi veya organizasyon olabilir. **Sosyal haklar yönetimi** özelliği, kişisel iletişim bilgilerini kullanır. Daha fazla bilgi için bkz. [Kişisel iletişim uygunluk seçeneklerini yapılandırma](hr-benefits-setup-contact-eligibility-options.md).
 
@@ -72,3 +77,6 @@ Genel adres defteri nde ayarlanan parametreler, kişisel bilgilerinizi görebile
     - Resim karşıya yüklemek için **yeni resim yükle**'yi seçin.
     - Görüntüyü kaldırmak için, görüntüyü seçin ve **Kaldır**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

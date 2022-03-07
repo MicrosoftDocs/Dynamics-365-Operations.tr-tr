@@ -2,26 +2,23 @@
 title: Serileştirilmiş ürünler için satış noktası (POS) geliştirmeleri
 description: Bu konu, seri ürünler üzerinde size zaman kazandıracak ve verimliliğinizi artıracak geliştirmeleri listeler.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf3a6a2b713e5fe1fe22ae886080945e7a87c9b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9b988e8046fadad4579a12966a5031929202e7411f00ca8e0de149380ddb34fc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741768"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Serileştirilmiş ürünler için satış noktası (POS) geliştirmeleri
 
@@ -33,7 +30,7 @@ Commerce Headquarters'daki ayarlara dayanarak, ürünler seri veya seri değil o
 
 ## <a name="pos-improvements"></a>POS geliştirmeleri
 
-- **Seri numaraları ödemeye kadar gerekli değil** – Önceden, bir seri haldeki ürünü harekete ekleyen bir kasiyerin bir seri numarası eklemesi gerekiyordu. Bu gereksinim, kasiyerlerin up-sell yapma fırsatı olduğunda müşteri kayırma senaryoları söz konusu olduğunda bir sorun haline geldi. Ürünler, çoğu zaman sepette ödeme adımına kadar güncelleştiriliyordu. Bu nedenle, bir kasiyer her defasında yeni bir ürün eklediğinde, sistem ona seri numarası soruyordu. Seri numarası iletişim kutusu şimdi bir **Sonra ekle** düğmesi içeriyor. Bu nedenle, satış personeli maddeleri harekete ekleyebiliyor ancak seri numarasını sonra sağlayabiliyor. Satış sorumluları, sepette seri halde ürünleri hızlıca ekleyebilir ve değiştirebilir ve sonra seri numarasını ödemeden hemen önce sağlayabilir. Seri numarası herhangi bir seri haldeki ürün için sağlanmamışsa, hareketi tamamlamaya çalışan kasiyer bir hata iletisi alır. Bu mesaj, devam etmeden önce kasiyerin eksik seri numarasını girmesi gerektiğini belirtir.
+- **Seri numaraları ödemeye kadar gerekli değil** – Önceden, bir seri haldeki ürünü harekete ekleyen bir kasiyerin bir seri numarası eklemesi gerekiyordu. Bu gereksinim, kasiyerlerin up-sell yapma fırsatı olduğunda müşteri kayırma senaryoları söz konusu olduğunda bir sorun haline geldi. Ürünler, çoğu zaman sepette ödeme adımına kadar güncelleştiriliyordu. Bu nedenle, bir kasiyer her defasında yeni bir ürün eklediğinde, sistem kasiyere seri numarası soruyordu. Seri numarası iletişim kutusu şimdi bir **Sonra ekle** düğmesi içeriyor. Bu nedenle, satış personeli maddeleri harekete ekleyebiliyor ancak seri numarasını sonra sağlayabiliyor. Satış sorumluları, sepette seri halde ürünleri hızlıca ekleyebilir ve değiştirebilir ve sonra seri numarasını ödemeden hemen önce sağlayabilir. Seri numarası herhangi bir seri haldeki ürün için sağlanmamışsa, hareketi tamamlamaya çalışan kasiyer bir hata iletisi alır. Bu mesaj, kasiyere devam etmeden önce eksik seri numarasını girmesi gerektiğini belirtir.
 
     Seri numarasının atlandığı her bir seri haldeki ürün için bir yorum hareket satırının altında görüntülenir. Bu yorum, seri numarasının madde için sağlanmamış olduğunu belirtir. Bu nedenle, kasiyer seri numarası eksik ürünleri hızlıca bulabilir.
 
@@ -42,3 +39,6 @@ Commerce Headquarters'daki ayarlara dayanarak, ürünler seri veya seri değil o
 - **Seri numaraları müşteri siparişlerini eklemek için gerekli değildir** – Müşteri siparişleri bir mağazadan eklenip başka bir mağazadan gerçekleştirilebilir. Bir müşteri siparişi ekleyen bir kasiyerin seri numarasını eklemesi gerekmez. Seri numarası malzeme çekme veya toplama adımı sırasında sağlanır. Ancak, **Alıp git** teslimat türünün seçilmiş olduğu tüm satır maddeleri için bir seri numarasının verilmiş olması gerekir. Aksi durumda, işlem tamamlanamaz.
 - **Seri hale getirilen ürünler hareket ekranında toplanmaz** – **İşlev profili** sayfasındaki **Terminal** alanı grubundaki **Ürünleri topla** ayarı, hareket ekranında seri halde olmayan aynı ürünleri toplamanıza olanak sağlar. Aynı ürünler toplanırken, hareket kılavuzunda görülmeleri daha kolaydır. Ancak, seri numaraları genellikle benzersiz olduğunda ve satış sorumlularının ödeme adımına kadar seri numarası girmek zorunda olmadıklarından **Ürünleri topla** ayarı seri haldeki ürünlere uygulanmaz. Bu nedenle seri haldeki ürünler hareket ekranında **Ürünleri topla** ayarı seçiliyse toplanmayacaktır.
 - **Günlükleri seri numarasına göre arama yeteneği** – Günlükler artık seri numaralarına göre de aranabilir. Bunu yapmak için "Günlükler" işlemini açın ve uygulama çubuğundaki "Gelişmiş arama" düğmesine basın. "Filtre ekle" düğmesini kullanarak, seri numarası aramasına bir filtre de uygulanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

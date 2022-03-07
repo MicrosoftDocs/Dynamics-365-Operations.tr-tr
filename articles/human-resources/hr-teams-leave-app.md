@@ -2,15 +2,12 @@
 title: Teams'de izin isteklerini yönetme
 description: Bu konuda Microsoft Teams uygulamasındaki Dynamics 365 Human Resources uygulamasında, nasıl izin isteneceği gösterilmektedir.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,38 +15,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421024"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639450"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulaması, hızlı bir şekilde izin isteğinde bulunmanıza ve izin bakiyesi bilgilerinizi doğrudan Microsoft Teams platformunda görüntülemenize olanak tanır. Bilgi istemek ve bir izin isteğini başlatmak için bir sohbet botu ile etkileşim kurabilirsiniz. **İzin** sekmesi, daha ayrıntılı bilgi sağlar. Ekipte yaklaşan izinler hakkında kişilere bilgi ve Human Resources uygulamasının dışındaki sohbetleri gönderebilirsiniz.
+Microsoft Teams platformundaki Dynamics 365 Human Resources uygulaması, hızlı bir şekilde izin isteğinde bulunmanıza ve izin bakiyesi bilgilerinizi doğrudan Microsoft Teams platformunda görüntülemenize olanak tanır. Bilgi istemek ve bir izin isteğini başlatmak için bir sohbet botu ile etkileşim kurabilirsiniz. **İzin** sekmesi, daha ayrıntılı bilgi sağlar. Teams'de yaklaşan izinler hakkında kişilere bilgi ve Human Resources uygulamasının dışındaki sohbetleri gönderebilirsiniz.
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
-Human Resources uygulamasını Teams mağazasında bulabilirsiniz.
+Dynamics 365 Human Resources uygulamasını Teams mağazasında bulabilirsiniz.
 
-1. Microsoft Teams platformuna üç nokta simgesini seçin.
-
-   ![Human Resources Teams izin uygulaması üç nokta simgesi](./media/hr-teams-leave-app-ellipses.png)
+1. Microsoft Teams İçinde uygulamalar listesine gidin.
  
 2. Dynamics 365 Human Resources uygulamasını arayın ve ardından **Human Resources** kutucuğunu seçin.
 
-   ![Human Resources Teams izin uygulaması HR kutucuğu](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Uygulamayı yüklemek için **Ekle** düğmesini seçin.
 
-   ![Human Resources Teams izin uygulaması yükleme](./media/hr-teams-leave-app-in-store.png)
-
 Uygulama otomatik olarak oturum açmazsa oturum açmak için **Ayarlar** sekmesini seçin.
-
-![Human Resources Teams izin uygulaması Ayarlar sekmesi](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Oturum açma iletişim kutusunu görmüyorsanız açılır pencerelere izin vermek için tarayıcı ayarlarınızı kontrol edin. 
@@ -63,36 +52,32 @@ Birden fazla Human Resources örneğine erişiminiz varsa **Ayarlar** sekmesinde
 
 Uygulama yüklendikten sonra botun, sizin adınıza gerçekleştirebileceği eylem türlerini bildiren bir hoş geldiniz iletisi görüntülenir.
 
-![Human Resources Teams izin uygulaması botun hoş geldiniz iletisi](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Bot ile ilk kez etkileşimde bulunurken oturum açmanız gerekebilir. Oturum açma iletişim kutusunu görmüyorsanız açılır pencerelere izin vermek için tarayıcı ayarlarınızı kontrol edin.
 
 Bottan şunları isteyebilirsiniz:
 
-- Kayıtlı olduğunuz her izin türü için izin bakiyesi bilgisini göstermesini.
+- Geçerli çıkış bakiylerinizi görüntüleyin. Örneğin, "bakiyeleri görüntüle" yazan bir ileti gönderin.
 
-   ![Human Resources Teams izin uygulaması bakiyeleri gösterme](./media/hr-teams-leave-app-bot-balances.png)
- 
-- Belirli bir izin türü hakkında ek ayrıntıların gösterilmesi.
+- Kendiniz için bir izin isteği başlatın. Örneğin, "izin al" veya "sonraki Perşembe ve Cuma günleri izin almak istiyorum" şeklinde bir ileti gönderin, böylece tatil izin türüne izin vermek üzere daha belirgin olur. 
 
-   ![Human Resources Teams izin uygulaması ayrıntıları gösterme](./media/hr-teams-leave-app-bot-details.png)
+  ![Teams sohbetinde izin isteği başlatma.](./media/hr-teams-leave-app-initiate.png)
 
-- Kendiniz için bir izin isteği başlatın.
+- Sohbet botu sizin için bir izin isteği dolduracaktır. **İzin talep et**'i seçin ve isteğinizin ayrıntılarını düzenleyin.
 
-   ![Human Resources Teams izin uygulaması izin isteği](./media/hr-teams-leave-app-bot-request.png)
- 
-Bir izin talebini başlattıktan sonra, kartın içindeki günleri ayarlayabilirsiniz.
+   Aynı tarih için birden fazla izin türü için ayrılma istekleri göndermek istiyorsanız, **Diğer Seçenekler** menüsünde o **ile bölünen gün** seçeneğini seçin. 
 
-![Human Resources Teams izin uygulaması isteği düzenleme](./media/hr-teams-leave-app-bot-edit.png)
- 
-Bilgi girişini tamamladığınızda onaya göndermek için **Gönder** öğesini seçin. Daha sonra geri dönmek için **Taslak olarak kaydet**'i de seçebilirsiniz.
+   İzin isteği birimi gün olarak bir yarım gün bırak seçeneğini belirlerseniz, **Diğer Seçenekler** menüsünde **yarım gün tanımı** seçeneğini belirleyerek, zamanı ilk yarım gün veya ikinci yarım gün talep etmek isteyip istemediğinizi belirtebilirsiniz.
+   
+   ![Yarım gün tanımları.](./media/HalfDayDefinitions.png)
 
-![Human Resources Teams izin uygulaması istek gönderme](./media/hr-teams-leave-app-bot-submit.png)
+- İzin İsteği ayrıntılarınızı düzenlemeyi tamamladığınızda onaya göndermek için **Gönder** öğesini seçin.
+
+  ![İzin İsteği gönderme.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Teams'de izninizi yönetme
 
-**İzin** sekmesi şunları görüntülemenizi sağlar:
+**İzin** sekmesi şunları görüntülemenizi sağlar: 
 
 - Kayıtlı olduğunuz her izin türü için bakiye bilgisini
 
@@ -101,34 +86,30 @@ Bilgi girişini tamamladığınızda onaya göndermek için **Gönder** öğesin
 - İzin süresi istekleri
 
 - Taslak izin istekleri
-
-![Human Resources Teams izin uygulaması İzin sekmesi](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Yeni bir istek oluşturma
 
 1. Yeni bir izin isteği oluşturmak için **Yeni istek** seçeneğini belirleyin.
 
-   ![Human Resources Teams izin uygulaması Yeni istek](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Talep ettiğiniz izin süresi için gün veya günleri girin ve ardından **Ekle**'yi seçin.
 
-   ![Human Resources Teams izin uygulaması izin ekleme](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![Human Resources Teams izin uygulaması izin ekleme.](./media/TimeOffHours.png)
 
 3. Uygunsa, bir neden kodu girin. Ayrıca açıklama girin ve herhangi bir ek ekleyin.
 
-4. Bilgi girişini tamamladığınızda onay için göndermek üzere **Gönder**'e basın. Daha sonra geri dönmek için **Taslak olarak kaydet**'e de basabilirsiniz.
+4. Farklı izin türleri için ancak aynı tarih için birden fazla izin türü için ayrılma istekleri göndermek istiyorsanız, **Diğer Seçenekler** menüsünde o **ile bölünen gün** seçeneğini seçin.
+
+5. İlk yarım günü veya ikinci yarım günü kapatmak isteyip istemediğinizi belirtmek için **yarım gün tanımı** seçeneğini belirleyin. Bu seçenek, izin isteği birimi gün olarak kullanılırken ve istenen tutar 0,5 gün ise kullanılabilir.
+
+6. Bilgi girişini tamamladığınızda onaya göndermek için **Gönder** öğesini seçin. Daha sonra geri dönmek için **Taslak olarak kaydet**'e de basabilirsiniz.
 
 ### <a name="manage-draft-requests"></a>Taslak istekleri yönetme
 
 1. **Taslaklar** sekmesini seçin.
 
-   ![Human Resources Teams izin uygulaması Taslaklar sekmesi](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. İsteği düzenlemek için kalemi veya isteği silmek için çöp kutusunu seçin.
 
 3. Gerekli tüm değişiklikleri yapın. Bilgi girişini tamamladığınızda onay için göndermek üzere **Gönder**'e basın. Daha sonra geri dönmek için **Taslak olarak kaydet**'i de seçebilirsiniz.
-
-   ![Human Resources Teams izin uygulaması taslağı düzenleme](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Teams bildirimlerini yanıtlama
 
@@ -136,27 +117,19 @@ Siz veya onaylayan taraf olduğunuz bir çalışan izin talebi gönderdiğinde, 
 
 Onaylayan iseniz, bildirimden **Onayla** veya **Reddet** seçeneklerini belirleyebilirsiniz. Ayrıca, isteğe bağlı bir ileti de sağlayabilirsiniz.
 
-![Human Resources Teams uygulamasında izin talebi bildirimi](./media/hr-teams-leave-app-notification.png)
-
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Yaklaşan izin bilgilerini iş arkadaşlarınıza gönderme
 
 Teams için Human Resources uygulamasını yükledikten sonra, ekiplere veya sohbetlere karşı iş arkadaşlarınıza yaklaşan izinler hakkında bilgi gönderebilirsiniz.
 
 1. Ekipte veya Teams'deki bir sohbette, sohbet penceresinin altındaki Human Resources düğmesini seçin.
 
-   ![Sohbet penceresinin altında Human Resources düğmesi](./media/hr-teams-leave-app-chat-button.png)
+   ![Sohbet penceresinin altında Human Resources düğmesi.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Paylaşmak istediğiniz izin isteğini seçin. Bir taslak olarak izin isteğini paylaşmak istiyorsanız, önce **Taslaklar**'ı seçin.
 
-   ![Paylaşılacak bir yaklaşan izin isteğini seçme](./media/hr-teams-leave-app-chat-search.png)
-
 İzin talebiniz sohbette gösterilir.
 
-![Human Resources izin istek kartı](./media/hr-teams-leave-app-chat-card.png)
-
-Bir taslak talep paylaştıysanız, taslak olarak görüntülenecektir:
-
-![Human Resources taslak izin istek kartı](./media/hr-teams-leave-app-chat-draft-card.png)
+Bir taslak talep paylaştıysanız, taslak olarak görüntülenecektir.
 
 ## <a name="view-your-teams-leave-calendar"></a>Ekip izin takviminizi görüntüleme
 
@@ -164,21 +137,53 @@ Astları bulunan bir yönetici iseniz, takımınızın onaylanmış ve bekleyen 
 
 1. Teams'de Human Resources uygulamasında, **İzin**'i seçin.
 
-2. **Ekip takvimi**'ni seçin.
+2. **Ekip takvimi**'ni seçin. Takvim, doğrudan astlarınıza ait onaylı ve beklemede olan izinleri görüntüler.
 
-   ![Human Resources Teams uygulamasında takvimi görüntüleme](./media/hr-teams-leave-app-view-calendar.png)
+   > [!NOTE]
+   > Takım takvimini göremiyorsanız yöneticinizden takvimi etkinleştirmesini isteyin. Daha fazla bilgi için bkz. [Yükleme ve ayarlama](hr-admin-teams-leave-app.md#install-and-setup).
 
-Takvim, doğrudan astlarınıza ait onaylı ve beklemede olan izinleri görüntüler.
+## <a name="supported-languages"></a>Desteklenen diller
 
-![Human Resources Teams uygulamasında izin takvimi](./media/hr-teams-leave-app-calendar.png)
+Teams'deki Dynamics 365 Human Resources uygulaması aşağıdaki dilleri destekler:
+
+| Yerel Ayar Kimliği | Dil |
+| --- | --- |
+| de-DE | Almanca (Almanya) |
+| es-ES | İspanyolca (İspanya) |
+| es-MX | İspanyolca (Meksika) |
+| fr-CA | Fransızca (Kanada) |
+| fr-FR | Fransızca (Fransa) |
+| it-IT | İtalyanca (İtalya) |
+| nl-NL | Felemenkçe (Hollanda) |
+| pt-BR | Portekizce (Brezilya) |
+| tr-TR | Türkçe (Türkiye) |
+| zh-CN | Çince (Basitleştirilmiş) |
 
 ## <a name="troubleshooting"></a>Sorun Giderme
 
-Human Resources Teams uygulamasında oturum açarken veya uygulamayı kullanırken sorun yaşıyorsanız, bu sorun giderme yönergelerini izleyin. Sorun giderme işleminden sonra hala sorun yaşıyorsanız, desteğe başvurun. Daha fazla bilgi için [Destek alma](hr-admin-troubleshooting-support.md) bölümüne bakın.
+Dynamics 365 Human Resources Teams uygulamasında oturum açarken veya uygulamayı kullanırken sorun yaşıyorsanız, bu sorun giderme yönergelerini izleyin. Sorun giderme işleminden sonra hala sorun yaşıyorsanız, desteğe başvurun. Daha fazla bilgi için [Destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) bölümüne bakın.
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Teams'de Human Resource uygulaması oturumu açılamıyor
 
 Uygulamada oturum açamazsınız, Microsoft Teams'de oturum açarken kullandığınız hesap Dynamics 365 Human Resources'taki bir personel kaydıyla ilişkilendirilmemiş olabilir. Çalışan kaydınızın doğru bir şekilde ilişkilendirildiğinden emin olmak için sistem yöneticinize başvurun.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Ayarlar'da Dynamics 365 Human Resources ortamını bulamıyorum
+
+Doğru Dynamics 365 ortamını seçemiyorsanız kullanıcı kaydı doğru eşitlenmemiş olabilir. Kullanıcı kaydını yeniden oluşturmak ve kullanıcı kimlik bilgileriyle ilişkilendirmek için sistem yöneticinize başvurun. Ardından birkaç dakika içinde Microsoft Teams için Human Resources uygulamasında oturum açmayı deneyin.
+
+### <a name="translations-dont-display-correctly"></a>Çeviriler doğru görüntülenmiyor
+
+Çeviriler beklendiği gibi görüntülenmiyorsa Teams'de seçtiğiniz dilin Human Resources **Kullanıcı seçenekleri**'nde seçilen dille eşleştiğinden emin olun.
+
+Teams'de, **Ayarlar**'da **Uygulama dili**'ne bakın.
+
+![Teams ayarları.](./media/hr-teams-leave-app-settings.png)
+
+Human Resources'ta **Ayarlar**'ı ve ardından **Kullanıcı seçenekleri**'ni seçin. **Dil** alanının Teams'deki **Uygulama dili** alanıyla eşleştiğini doğrulayın.
+
+![Human Resources Kullanıcı seçenekleri.](./media/hr-teams-leave-app-user-options.png)
+
+Hala çeviri sorunları yaşıyorsanız bize bildirin. Bilgi için bkz. [Finance and Operations uygulamaları veya Lifecycle Services (LCS) için destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Teams'deki Human Resources uygulamasındaki izin isteklerini onaylarken hata oluştu
 
@@ -188,6 +193,14 @@ Teams uygulamasında izin isteklerini onaylamaya çalışırken hata alırsanız
 
 2. İzin onayı için iş akışı ayarlarını denetleyerek istek için geçerli bir onaylayan olduğunuzu doğrulayın. İzin isteği iş akışları hakkında daha fazla bilgi için bkz. [İzin isteği iş akışı oluşturma](hr-leave-and-absence-workflow.md).
 
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>İzin onaylayanları, izin taleplerini onaylamak üzere Teams sohbet iletilerini almıyor
+
+1. Ortam ve kullanıcı için bildirimlerin etkinleştirildiğinden emin olun. Daha fazla bilgi için bkz. [Teams'teki Human Resources uygulamasında bildirimleri etkinleştirme](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) ve [Bireysel kullanıcılar için Teams bildirimlerini etkinleştirme](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. Kullanıcıların, **Sohbet** sekmesinde izin isteklerini onaylamak için kullandıkları kimlik bilgileriyle oturum açtığından emin olun. Doğru kimlik bilgileriyle oturum açmak için "oturumu Kapat" ve ardından "oturum aç" iletilerini kullanın.
+
+3. Sorun devam ederse, sistem yöneticisi olarak İş Olayları sistem toplu işinin durumunu denetleyin. Bekleme veya yürütme aşamasındaysa, birkaç dakika sonra yeniden denetleyin. Durum değişmeden kalırsa, bir destek bileti oluşturun. Böylece ekibimiz sorunu gidermeye yardımcı olur.
+
 ## <a name="known-accessibility-issues"></a>Bilinen erişilebilirlik sorunları
 
 Teams'te Human Resources uygulama, gelecekteki sürümlerde düzeltilirken aşağıdaki erişilebilirlik sorunlarına sahiptir.
@@ -196,10 +209,8 @@ Teams'te Human Resources uygulama, gelecekteki sürümlerde düzeltilirken aşa�
 | --- | --- |
 | Masaüstünde %400 yakınlaştırma eylemi, bazı eylem düğmelerini görünümden gizler. | Bu yakınlaştırma düzeyini destekleyene kadar bunun yerine Büyüteç kullanmanızı öneririz. |
 | **Zaman aşımı** sekmesinde, VoiceOver zaman kılavuzu için üstbilgiyi okurken düğme eylemini duyurur. | Kılavuz içindeki başlık ve öğeler yıla göre gruplandırılır ve bunlar daraltılabilir öğelerdir. VoiceOver, bunu işlem yapılabilir bir madde olarak yorumlar, ancak böyle değildir. |
-| Bir Popup veya Menu açıkken çekme yaparken, VoiceOver açılır öğe veya menü içeriğini okumayı atlar. | İçeriği Finger taraması kullanarak keşfedin. |
 | **İzin süresi** sekmesinde, Yeni bir istekte **neden koduna** giderken fazladan bir çekme hareketi vardır. | Çekme gezintisinin alınmaya çalıştığı gizli denetim yoktur. |
 | **İzin süresi** sekmesinde, takvim açıkken çekme yaparken yeni bir istekte en üstte veya bir istek düzenlenirken denetimin dışında sona erer. | **Bugüne git**'e ulaştığınızda , denetimin sonuna kadar, en üste geri dönmek için ters yönde çekin. |
-| VoiceOver Tarih etiketlerini okumaz. | Çiftler halinde karşılaşılan tarihler her zaman **Başlangıç tarihi** ve **bitiş tarihi**. |
 | **Sohbet** sekmesinde, yardımcı aracı veya klavye gezintisini kullanırken bir tarih girdiğinizde odak en üste geri atlar. | Sekmesini yeniden girin. |
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
@@ -218,14 +229,17 @@ Microsoft Teams platformundaki uygulamaların yönetici ayarlarını yönetmek i
 
 Microsoft Teams'de Dynamics 365 Human Resources uygulamasını kullanılırken, belirli müşteri verileri kiracının Human Resources hizmetinin dağıtıldığı coğrafi bölgenin dışına akabilir.
 
-Dynamics 365 Human Resources çalışanın izin talebini ve iş akışı görev ayrıntılarını Microsoft Azure Event Grid ve Microsoft Teams uygulamalarına iletir. Bu veriler 24 saate kadar Microsoft Azure Event Grid uygulamasında saklanabilir ve Amerika Birleşik Devletlerinde işlenir, iletim ve bekleyen veri şifrelenir ve eğitim veya hizmet iyileştirmeleri için Microsoft veya onun alt işlemcileri tarafından kullanılmaz. Verilerinizin Teams içinde nerede depolandığını anlamak için bkz. [Microsoft Teams içinde verilerin konumu](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+Dynamics 365 Human Resources çalışanın izin talebini ve iş akışı görev ayrıntılarını Microsoft Azure Event Grid ve Microsoft Teams uygulamalarına iletir. Bu veriler 24 saate kadar Microsoft Azure Event Grid uygulamasında saklanabilir ve Amerika Birleşik Devletlerinde işlenir, iletim ve bekleyen veri şifrelenir ve eğitim veya hizmet iyileştirmeleri için Microsoft veya onun alt işlemcileri tarafından kullanılmaz. Verilerinizin Teams içinde nerede depolandığını anlamak için bkz. [Microsoft Teams içinde verilerin konumu](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 
-Human Resources uygulamasında sohbet botu ile konuşurken, görüşme içeriği Azure Cosmos DB uygulamasında depolanabilir ve Microsoft Teams uygulamasına iletilebilir. Bu veriler, Azure Cosmos DB uygulamasında 24 saate kadar depolanabilir ve kiracınızın Human Resources hizmetinin dağıtıldığı coğrafi bölgenin dışında işlenerek, aktarım ve geri kalanında şifrelenir ve Microsoft 'un veya hizmet geliştirmeleri için bunların alt işlemcileri tarafından kullanılmaz. Verilerinizin Teams içinde nerede depolandığını anlamak için bkz. [Microsoft Teams içinde verilerin konumu](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+Human Resources uygulamasında sohbet botu ile konuşurken, görüşme içeriği Azure Cosmos DB uygulamasında depolanabilir ve Microsoft Teams uygulamasına iletilebilir. Bu veriler, Azure Cosmos DB uygulamasında 24 saate kadar depolanabilir ve kiracınızın Human Resources hizmetinin dağıtıldığı coğrafi bölgenin dışında işlenerek, aktarım ve geri kalanında şifrelenir ve Microsoft 'un veya hizmet geliştirmeleri için bunların alt işlemcileri tarafından kullanılmaz. Verilerinizin Teams içinde nerede depolandığını anlamak için bkz. [Microsoft Teams içinde verilerin konumu](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
  
-Kuruluşunuz veya kuruluşunuzdaki kullanıcılarınız için Microsoft Teams içinde Human Resources uygulamasına erişimi kısıtlamak için, bkz. [Microsoft Teams'deki uygulama izin ilkelerini yönetme](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
+Kuruluşunuz veya kuruluşunuzdaki kullanıcılarınız için Microsoft Teams içinde Human Resources uygulamasına erişimi kısıtlamak için, bkz. [Microsoft Teams'deki uygulama izin ilkelerini yönetme](/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Microsoft Teams platformunu indirme ve yükleme](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams yardım merkezi](https://support.office.com/teams)</br>
 [Teams'de Human Resources uygulaması](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

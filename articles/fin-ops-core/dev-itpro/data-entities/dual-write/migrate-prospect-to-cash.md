@@ -2,28 +2,19 @@
 title: Aday müşteriden nakde verilerini Veri Tümleştiriciden çift yazmaya geçirme
 description: Bu konuda, Aday müşteriden nakde verilerinin Veri Tümleştiriciden çift yazmaya nasıl geçirileceği açıklanmaktadır.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2021-01-04
-ms.openlocfilehash: f1478f0246e7f1ff8bd72232cbaf4c2034cf4edb
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: d119a9e5874f73e024cedc4cdb581f947e5bf1a0
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959858"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782517"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Aday müşteriden nakde verilerini Veri Tümleştiriciden çift yazmaya geçirme
 
@@ -98,3 +89,6 @@ Aday müşteriden nakde verilerinizi Veri Tümleştiriciden çift yazmaya geçir
 ## <a name="quote-and-quote-product-tables"></a>Teklif ve Teklif ürünü tabloları
 
 **Teklif** tablosu için bu konunun önceki kısımlarında yer alan [Sipariş tablosu](#order-table) bölümündeki talimatları izleyin. **Teklif ürünü** tablosu için [Sipariş ürünleri tablosu](#order-products-table) bölümündeki talimatları izleyin.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

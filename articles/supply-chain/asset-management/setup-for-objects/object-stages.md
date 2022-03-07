@@ -1,12 +1,10 @@
 ---
 title: Kıymet yaşam döngüsü durumları
 description: Bu konuda Kıymet Yönetimi'nde kıymet yaşam döngüsü durumları ve yaşam döngüsü modelleri açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: db025b3edb9daa2ffc19b5fc92930f76d8007dce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360113"
 ---
 # <a name="asset-lifecycle-states"></a>Kıymet yaşam döngüsü durumları
 
@@ -63,9 +61,12 @@ Gerekli kıymet yaşam döngüsü durumlarını oluşturduktan sonra kıymet ya�
 
 5. **Yaşam döngüsü durumları** hızlı sekmesinde kıymet yaşam döngüsü modeline eklenmesi gereken kıymet yaşam döngüsü durumlarını seçin:
 
-    - Modelde bir yaşam döngüsü durumu kullanmak için durumu **Kalan yaşam döngüsü durumları** bölümünden seçin ve sağ ok düğmesini ![Sağ ok](media/15-setup-for-objects.png) seçerek durumu **Seçili yaşam döngüsü durumları** bölümüne taşıyın.
-    - Modelde tüm kullanılabilir yaşam döngüsü durumlarını kullanmak için **Tüm kullanılabilir yaşam döngüsü durumları** düğmesini ![Tüm kullanılabilir yaşam döngüsü durumları](media/20-setup-for-objects.png) seçin. Tüm yaşam döngüsü durumları **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
-    - Modelden bir yaşam döngüsü durumunu kaldırmak için durumu **seçili yaşam döngüsü durumları** bölümünden seçin ve sol ok düğmesini ![Sol ok](media/16-setup-for-objects.png) seçerek durumu **Kalan yaşam döngüsü durumları** bölümüne taşıyın.
+    - Model için bir yaşam döngüsü durumu kullanmak istiyorsanız, modeli **Kalan yaşam döngüsü durumları** bölümünde seçin ve sonra sağ ok düğmesini ![Sağ ok.](media/15-setup-for-objects.png) seçerek **Seçilen yaşam döngüsü durumları** bölümüne taşıyın.
+    - Modelde tüm kullanılabilir yaşam döngüsü durumlarını kullanmak için **Tüm kullanılabilir yaşam döngüsü durumları** düğmesini ![Tüm kullanılabilir yaşam döngüsü durumları.](media/20-setup-for-objects.png) seçin. Tüm yaşam döngüsü durumları **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
+    - Modelden bir yaşam döngüsü durumunu kaldırmak istiyorsanız, modeli **Seçili yaşam döngüsü durumları** bölümünde seçin ve sonra sol ok düğmesini ![Sol ok.](media/16-setup-for-objects.png) seçerek **Kalan döngüsü durumları** bölümüne taşıyın.
 
 6. Seçili yaşam döngüsü durumunu takip edebilecek kıymet yaşam döngüsü durumlarını tanımlamak için **Yaşam döngüsü durumu güncelleştirmeleri**'ni seçin.
 7. Onarım için aldığınız kıymetleri işlerken **Kıymet durumu** hızlı sekmesini kullanın. **Gelen/giden** bölümünde onarım için aldığınız bir kıymetin iş akışını göstermek için kıymet yaşam döngüsü durumlarını seçebilirsiniz. Müşterilere veya departmanlara ödünç kıymet sunuyorsanız **Ödünç verilenler** bölümünde ödünç verilen kıymetler için yaşam döngüsü durumlarını seçebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

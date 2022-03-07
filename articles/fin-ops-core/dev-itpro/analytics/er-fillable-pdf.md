@@ -2,9 +2,11 @@
 title: PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 description: Bu konu, bir PDF şablonunu doldurmak üzere Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de31469e79addfb82b3b57e647ff82e4d254881a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758300"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688137"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 
@@ -45,15 +47,15 @@ Başlamadan önce, bu konudaki yordamları tamamlamak için kullandığınız hi
 
 Ayrıca [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedürünü de tamamlamanız gerekir.
 
-Son olarak, aşağıdaki dosyaları indirin.
+Son olarak, [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111) adresinden aşağıdaki dosyaları indirmeniz gerekir.
 
 | İçerik açıklaması                       | Dosya adı                                     |
 |-------------------------------------------|-----------------------------------------------|
-| Raporun ilk sayfası için şablon | [IntrastatReportTemplate1. PDF](https://download.microsoft.com/download/0/8/3/0832c82b-4448-4562-afbf-01e0efc8d999/IntrastatReportTemplate1.pdf)                  |
-| Raporun diğer sayfaları için şablon    | [IntrastatReportTemplate2.pdf](https://download.microsoft.com/download/c/7/a/c7a8a806-2192-4034-9052-e8b84b527d5e/IntrastatReportTemplate2.pdf)                  |
-| Örnek ER biçimi - PDF                          | [Intrastat report (PDF).version.1.1.xml](https://download.microsoft.com/download/a/8/7/a87aea3e-3f60-404c-8899-c471d20e7ea9/IntrastatreportPDFversion1.1.xml)        |
-| Örnek ER biçimi - Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://download.microsoft.com/download/a/2/c/a2c0c145-d989-4e55-9d47-9647c02e4ee4/IntrastatimportfromExcelversion1.1.xml) |
-| Örnek veri kümesi                            | [Intrastat sample data.xlsx](https://download.microsoft.com/download/9/f/1/9f1c5b96-3800-475f-8cf6-1ddd42873758/Intrastatsampledata.xlsx)                    |
+| Raporun ilk sayfası için şablon | [IntrastatReportTemplate1. PDF](https://mbs.microsoft.com/Files/public/CS)                  |
+| Raporun diğer sayfaları için şablon    | [IntrastatReportTemplate2.pdf](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatReportTemplate2.pdf)                  |
+| Örnek ER biçimi - PDF                          | [Intrastat report (PDF).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatreportPDFversion11.xml)        |
+| Örnek ER biçimi - Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatimportfromExcelversion11.xml) |
+| Örnek veri kümesi                            | [Intrastat sample data.xlsx](https://mbs.microsoft.com/Files/public/CS/AX/Intrastatsampledata.xlsx)                    |
 
 ## <a name="design-the-format-configuration"></a>ER biçimi yapılandırması tasarlama
 
@@ -115,11 +117,11 @@ Herhangi bir PDF görüntüleyicisinde, indirdiğiniz PDF şablonlarını açın
 
 Aşağıdaki resimde raporun ilk sayfası için PDF şablonu gösterilmektedir.
 
-![Şablon 1.](media/rcs-ger-filloutpdf-template1.png)
+![Şablon 1](media/rcs-ger-filloutpdf-template1.png)
 
 Aşağıdaki resimde raporun diğer sayfaları için PDF şablonu gösterilmektedir.
 
-![Şablon 2.](media/rcs-ger-filloutpdf-template2.png)
+![Şablon 2](media/rcs-ger-filloutpdf-template2.png)
 
 1. **Yapılandırmalar** sayfasında, **Tasarımcı**'yı seçin.
 2. **Kök ekle**'yi seçin.
@@ -146,7 +148,7 @@ Aşağıdaki resimde raporun diğer sayfaları için PDF şablonu gösterilmekte
 
 12. **Tamam**'ı seçin.
 
-    ![PDF'den içe aktar iletişim kutusu.](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![PDF'den içe aktar iletişim kutusu](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Ağaçta, **Çıktı**'yı genişletin.
 
@@ -176,7 +178,7 @@ Aşağıdaki resimde raporun diğer sayfaları için PDF şablonu gösterilmekte
 
     İçe aktarılan PDF belgesinin düzenlenen ER biçimine ekli olduğunu unutmayın.
 
-    ![PDF ekini önizleme.](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![PDF ekini önizleme](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. İkinci PDF şablonunu içe aktararak, gerekli bağlamaları veri kaynaklarına ekleyerek bu biçimi tasarlamaya devam edin.
 20. **Kaydet**'i seçin.
@@ -215,7 +217,7 @@ Sonra, **Intrastat denetimi** raporunu PDF formatında oluşturmak için daha ö
 1. **Biçim tasarımcısı** sayfasında **Eşleme** sekmesini seçin.
 2. Ağaçta **Kapsamlı arama \> Sayfalar**'ı genişletin.
 
-    ![Model ağacının genişletilmiş olduğu formül tasarımcısı sayfası.](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Model ağacının genişletilmiş olduğu formül tasarımcısı sayfası](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Aaşağıdaki ayrıntıları unutmayın:
 
@@ -238,7 +240,7 @@ Sonra, **Intrastat denetimi** raporunu PDF formatında oluşturmak için daha ö
 
     Bu biçim öğesinin **Ad** özniteliğinin **Correction 1** olarak tanımlandığına dikkat edin. Ayrıca, biçim öğesinin **Ad** ifadesinin **Paging.FldName("Correction",\@.Number)** olarak tanımlandığına dikkat edin.
 
-![Bir eşlemenin seçildiği biçim tasarımcısı.](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Bir eşlemenin seçildiği biçim tasarımcısı](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 **Alan** biçimi öğesinin, üst **PDF dosyası** biçim öğesinin şablonu olarak tanımlanan, doldurulabilir bir PDF belgesinin tek bir alanını doldurmak için kullanıldığını unutmayın. **PDF dosyası** biçim öğesi veya iç içe yerleştirilmiş öğelerinin bağlaması, iç içe yerleştirilmiş öğeleri varsa, ilgili PDF alanlarına girilen değeri belirtir. **Alan** biçim öğesinin farklı özellikleri, hangi PDF alanının tek bir biçim öğesi tarafından doldurulacağını belirtmek için kullanılabilir:
 
@@ -275,7 +277,7 @@ Sonra, **Intrastat (Excel 'den içe aktar)** örnek ER biçimini yüklersiniz. B
 
     **Model eşleme için varsayılan** seçeneği **Evet** olarak ayarlandığında, içe aktarılan **Intrastat (Excel'den içe aktar)** ER biçimi, **Intrastat raporu (PDF)** biçimi yapılandırması için varsayılan veri kaynağı olarak atanır. Daha sonra, **Intrastat raporu (PDF)** biçimi yapılandırması çalıştırıldığında, **Intrastat (Excel'den içe aktar)** ER biçimi tarafından ayrıştırılan Excel çalışma kitabının içeriği bildirilmesi gereken dış ticaret hareketlerinin benzetimini yapar. Aşağıdaki şekilde bir Excel çalışma kitabı örneği gösterilmiştir.
 
-    ![Örnek verileri olan Excel çalışma kitabı.](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Örnek verileri olan Excel çalışma kitabı](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>ER biçimi yapılandırması çalıştırma
 
@@ -289,16 +291,13 @@ Sonra, **Intrastat (Excel 'den içe aktar)** örnek ER biçimini yüklersiniz. B
 
 Takip eden resim, oluşturulan raporun ilk sayfasının bir örneğini gösterir.
 
-![Oluşturulan raporun ilk sayfası.](media/rcs-ger-filloutpdf-generatedreport.png)
+![Oluşturulan raporun ilk sayfası](media/rcs-ger-filloutpdf-generatedreport.png)
 
 Takip eden resim, oluşturulan raporun diğer sayfasının bir örneğini gösterir.
 
-![Oluşturulan raporun diğer sayfası.](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Oluşturulan raporun diğer sayfası](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)](tasks/er-design-reports-openxml-2016-11.md)
 - [Word biçiminde raporlar oluşturmak için ER yapılandırmaları tasarlama](tasks/er-design-configuration-word-2016-11.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

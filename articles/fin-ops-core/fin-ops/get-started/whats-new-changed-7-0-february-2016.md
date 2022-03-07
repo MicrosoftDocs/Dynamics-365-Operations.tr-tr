@@ -2,11 +2,9 @@
 title: Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 description: Bu makale Microsoft Dynamics AX 7.0'da yeni veya değişen özellikler açıklanmaktadır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016'da yayımlanmıştır.
 author: sericks007
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1b63ba623eb1699938476825a77fd40d838142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757231"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
@@ -734,7 +732,7 @@ Perakende sunucu ve veri yönetimi, tüketicilerin ve işletmelerin çevrimiçi,
 </tr>
 <tr>
 <td>Microsoft Dynamics AX arka ofis ve kanallar arasında Commerce Data Exchange kullanarak veri taşıyın.</td>
-<td>Commerce Data Exchange, çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımı sağlayan bir sistemdir. Daha fazla bilgi için bkz. <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Commerce Data Exchange, çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımı sağlayan bir sistemdir. Daha fazla bilgi için bkz. <a href="/dynamicsax-2012/appuser-itpro/commerce-data-exchange">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Microsoft Dynamics AX 2012 CU8 ile fonksiyonel eşlilik vardır. Ancak, aşağıdaki ayrıntıları unutmayın:
 <ul>
 <li>Commerce Data Exchange bulut için yeniden yaratıldı.</li>
@@ -1033,3 +1031,6 @@ Yeni özellik eklenmemiştir.
 [Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md)
 
 [Yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

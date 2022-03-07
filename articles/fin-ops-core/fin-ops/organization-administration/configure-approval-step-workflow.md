@@ -2,11 +2,9 @@
 title: İş akışında onay adımlarını yapılandırma
 description: Bu konu, bir onay adımının özelliklerini yapılandırmayı açıklar.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5730851bbeeab72d10192b1644bfb7acba65e7cd1a576fe1309c3a71e25477e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764419"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>İş akışında onay adımlarını yapılandırma
 
@@ -158,7 +156,7 @@ Onay adımının kime atanacağını belirtmek için şu adımları izleyin:
 
     - **Tek onaylayan** – Belgeye uygulanan eylem, yanıt veren ilk kişi tarafından belirlenir. Örneğin, Sam 15.000 USD tutarında bir gider raporu gönderdi. Gider raporu şu an Sue, Jo ve Bill'e atanmıştır. Eğer Sue belgeye ilk yanıt veren kişi olursa, onun aldığı eylem belgeye uygulanır. Sue belgeyi reddederse, belge reddedilir ve Sam'e geri gönderilir. Sue belgeyi onaylarsa, onaylanmak üzere Ann'e gönderilir.
 
-        ![Onay işlemine sahip bir iş akışı](./media/workflow_multipleusersinstep.gif)
+        ![Onay işlemine sahip bir iş akışı.](./media/workflow_multipleusersinstep.gif)
 
     - **Onaylayanların çoğunluğu** – Belgeye uygulanan eylem, onaylayanların çoğunluğu yanıt verdiğinde belirlenir. Örneğin, Sam 15.000 USD tutarında bir gider raporu gönderdi. Gider raporu şu an Sue, Jo ve Bill'e atanmıştır. Eğer Sue ve Jo yanıt veren ilk iki kişiyse, aldıkları eylem belgeye uygulanır.
 
@@ -276,3 +274,6 @@ Eğer bir kullanıcı bu zaman içerisinde bir belge üzerinde eyleme geçmezse,
 
 5. İlerletme yoluna eklenecek tüm kullanıcılar için 3. adım ve 4. adımlar arasındaki süreci yineleyin. Kullanıcıların sıralamasını değiştirebilirsiniz.
 6. İlerletme yolundaki kullanıcılar verilen süre içinde yanıt vermezlerse, sistem belge üstünde otomatik olarak eylem yapar. Sistemin alacağı eylemi belirtmek için **Eylem** satırını seçin ve sonra **Eylemi bitir** sekmesi üzerinde bir eylem seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,30 +2,29 @@
 title: Çalışanlara ödünç verilen öğeleri yönetme
 description: Ödünç verilen maddeler, yöneticilerin şirketin çalışanlarına ödünç verdiği fiziksel öğeleri izlemede yardımcı kayıtlardır.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5915df388da7ce8b90cdcb0e859268c00003110c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 33d5e831d3a631aa17e78628a4e88b5e1cfa8c73
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420925"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052877"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Çalışanlara ödünç verilen öğeleri yönetme
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Ödünç verilen maddeler, yöneticilerin şirketin çalışanlarına ödünç verdiği fiziksel öğeleri izlemede yardımcı kayıtlardır. 
 
@@ -55,3 +54,6 @@ Bir madde hasar görürse veya yanlış yere yerleştirilirse, hayali bir iade k
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

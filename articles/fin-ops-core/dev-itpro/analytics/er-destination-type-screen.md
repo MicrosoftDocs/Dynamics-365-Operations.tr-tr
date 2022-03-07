@@ -1,12 +1,10 @@
 ---
 title: Ekran ER hedef türü
-description: Bu konu, giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER) biçiminin her klasör veya dosya bileşeni için bir ekran hedefinin nasıl yapılandırılacağı hakkında bilgi sağlamaktadır.
+description: Bu konu, Elektronik raporlama (ER) biçiminin her klasör veya dosya bileşeni için bir ekran hedefinin nasıl yapılandırılacağı hakkında bilgi sağlar.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 08bbde23cde6dcecea398b84bb3d7f78e2204a71
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2855ac9eb0248a65973898b107d33fc86ac9c1324dafaaf1606b76d8e82f3a8f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679546"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721964"
 ---
 # <a name="screen-destination"></a>Ekran hedefi
 
@@ -32,9 +30,12 @@ Giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER
 
 **Etkin**'i **Evet** olarak ayarlarsanız, çıktının bir önizlemesi oluşturulur. XML, TXT veya PDF gibi bazı dosya türlerini doğrudan bir tarayıcı penceresinde görüntüleyebilirsiniz. Microsoft Excel veya Word gibi diğer dosya türleri için, Microsoft Office Online hizmeti kullanılır.
 
-[![Hedef ayarı sayfası](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
+[![Hedef ayarı sayfası.](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

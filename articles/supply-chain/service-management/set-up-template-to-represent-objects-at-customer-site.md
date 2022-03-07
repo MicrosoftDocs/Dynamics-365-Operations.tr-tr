@@ -2,28 +2,25 @@
 title: Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlama
 description: Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlayın.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 823ef5cddbba8a72bd67ba87edd1aa497022a81e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4642a8912ea3794b2dc3c7c58ee771128b0f2174
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438970"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824378"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlama 
 
@@ -55,3 +52,6 @@ Bir müşteri sitesindeki nesneleri temsil eden bir şablon ayarlamak için bu y
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,78 +1,79 @@
 ---
 title: Gelişmiş ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
-description: Bu yordam, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösterir.
-author: ShylaThompson
-manager: tfehr
-ms.date: 08/29/2018
+description: Bu konu, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösteren bir senaryo sunar.
+author: Mirzaab
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea8b5e03282aa21aa9dfa486b1deaced6af4601c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439446"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565267"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Gelişmiş ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu yordam, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösterir. Bu genellikle bir teslim alma memuru tarafından yapılır. 
+Bu konu, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösteren bir senaryo sunar. Bu genellikle bir teslim alma memuru tarafından yapılır.
 
-Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde çalıştırabilirsiniz. Bu kılavuzu başlatmadan önce, elinizde açık bir satınalma sipariş satırı içeren onaylı bir satınalma siparişi bulunması gerekir. Satırdaki madde stokta olmalı, ürün çeşitleri kullanmamalı ve izleme boyutları olmamalıdır. Ayrıca, ürünün ambar yönetimi işlemi etkin bir depolama boyut grubuyla ilişkilendirilmesi gerekir. Kullanılan ambar, ambar yönetimi işlemleri için etkinleştirilmelidir ve alım işlemi için kullanılan yerleşimin plakası kontrol edilmiş olmalıdır. USMF kullanıyorsanız, SAS oluşturmak için şirket hesabı 1001, ambar 51 ve ürün M9200 değerlerini kullanabilirsiniz. 
+## <a name="enable-sample-data"></a>Örnek verileri etkinleştirme
 
-Oluşturduğunuz satınalma siparişinin numarasınının yanı sıra, satınalma siparişi satırı için kullandığınız ürün numarası ve tesisi de not edin .
+Bu konuda belirtilen örnek kayıtları ve değerleri kullanarak bu senaryo aracılığıyla çalışmak için, standart gösteri verilerinin yüklendiği bir sistem kullanıyor olmanız ve başlamadan önce *USMF* hukuk varlığını seçmeniz gerekir.
+
+Bunun yerine, aşağıdaki veriler kullanılabilir olduğu takdirde değerleri kendi verilerinizde değiştirerek bu senaryoya göre çalışabilirsiniz:
+
+- Açık bir satın alma siparişi satırı ile onaylanmış bir satın alma siparişiniz olmalıdır.
+- Satırdaki öğenin stoğunun tutulması gerekir Ürün varyantlarını kullanmamalı ve izleme boyutları olmamalıdır.
+- Ürün ambar yönetimi işlemi etkin bir depolama boyut grubuyla ilişkilendirilmesi gerekir.
+- Kullanılan ambar, ambar yönetimi işlemleri için etkinleştirilmelidir ve alım işlemi için kullanılan yerleşimin plakası kontrol edilmiş olmalıdır.
+
+## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Ambar yönetimini kullanan bir madde varış günlüğü başlığı oluşturma
+
+Aşağıdaki senaryo, ambar yönetimi kullanan bir madde varış günlüğü başlığının nasıl oluşturulacağını gösterir:
+
+1. Sisteminizin, önceki bölümde özetlenen gereksinimleri karşılayan, onaylanmış bir satın alma siparişi içerdiğinden emin olun. Bu senaryoda, *USMF* şirketi, *1001* satıcı hesabı, *51* ambarı ve *M9200* madde numarası için *10 PL* (10 palet) ilgili sipariş satırı bulunan bir satın alma siparişi kullanılmıştır.
+1. Kullanacağınız Satın alma siparişi numarasını not edin.
+1. **Stok yönetimi \> Yevmiye defteri girişleri \> Madde varışı \> Madde varışı** öğesine gidin.
+1. Eylem Bölmesi'nde **Yeni**'yi seçin.
+1. **Ambar yönetimi günlüğü oluştur** iletişim kutusu açılır. **Ad** alanında bir günlük adı seçin.
+    - *USMF* örnek verilerini kullanıyorsanız, *WHS* öğesini seçin.
+    - Kendi verilerinizi kullanıyorsanız, seçtiğiniz günlükte **çekme konumunu denetle**'nin *Hayır* olarak ayarlanmış ve **karantina yönetimi**'nın *Hayır* olarak ayarlanmış olması gerekir.
+1. **Referans**'ı *Satın alma emri* olarak ayarlayın.
+1. **Hesap numarasını** *1001* olarak ayarlayın.
+1. Bu alıştırma için tanımladığınız satın alma siparişinin numarasını **Numara** olarak ayarlayın.
+
+    ![Gelen maddeler günlüğü.](../media/item-arrival-journal-header.png "Gelen maddeler günlüğü")
+
+1. Günlük başlığını oluşturmak için **Tamam**'ı seçin.
+1. **Yevmiye defteri satırları** bölümünde **satır ekle**'yi seçin ve aşağıdaki verileri girin:
+    - **Öğe numarası** *M9200* olarak ayarlayın. **Tesis**, **Ambar** ve **miktar** 10 palet (her biri 1000) için stok işlemi verilerine dayalı olarak ayarlanır.
+    - **Konum**: *001* olarak ayarlanır. Bu belirli konum plakaları izlemez.
+
+    ![Gelen maddeler günlüğü satırı.](../media/item-arrival-journal-line.png "Gelen maddeler günlüğü satırı")
+
+    > [!NOTE]
+    > **Tarih** alanı, bu ürünün eldeki miktarın stokta kaydedileceği tarihi belirler.  
+    >
+    > **Lot kodu** sağlanan bilgilerden hareketle benzersiz şekilde tanımlanabiliyorsa, sistem tarafından doldurulur. Aksi halde, bunu el ile girmeniz gerekir. Bu, bu kaydı belirli bir kaynak belge satırına bağlayan gerekli bir alandır.  
+
+1. Eylem bölmesinde **Doğrula**'yı seçin. Bu günlüğün deftere nakile hazır olup olmadığını denetler. Doğrulama başarısız olursa, günlüğü deftere nakledebilmek için hataları düzeltmeniz gerekir.  
+1. **Günlüğü denetle** iletişim kutusu açılır. **Tamam**'ı seçin.
+1. İleti çubuğunu inceleyin. İşlemin tamamlandığını belirten bir ileti görünmesi gerekir.  
+1. Eylem Bölmesinde **Deftere naklet**'i seçin.
+1. **Günlüğü deftere naklet** iletişim kutusu açılır. **Tamam**'ı seçin.
+1. İleti çubuğunu inceleyin. İşlemin tamamlandığını belirten bir ileti görünmesi gerekir.
+1. Satın alma sipariş satırını güncelleştirmek ve bir ürün girişini deftere nakletmek için eylem bölmesinde **İşlevler > ürün girişi** işlevlerini seçin.
 
 
-## <a name="create-an-item-arrival-journal-header"></a>Bir ürün varış günlüğü başlığı oluşturma
-1. Ürün varışı'na gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-    * USMF kullanıyorsanız, WHS yazabilirsiniz. Başka veriler kullanıyorsanız, adını seçtiğiniz günlükte iki özelliğin olması gerekir: Malzeme çekme yerleşimini denetle ayarı Hayır, Karantina yönetimi ayarı Hayır olmalıdır.  
-4. Numara alanına bir değer girin.
-5. Tesis alanına bir değer yazın.
-    * Satınalma siparişi satırı için kullanılacak tesisi seçin. Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür. USMF'de ambar 51'i kullandıysanız, tesis 5'i seçin.  
-6. Ambar alanına bir değer yazın.
-    * Seçmiş olduğunuz tesis için geçerli bir ambar seçin. Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür. USMF'te örnek değerler kullanıyorsanız, 51'i seçin.  
-7. Yerleşim alanına bir değer girin.
-    * Seçmiş olduğunuz ambar için geçerli bir yerleşim seçin. Yerleşim, plakanın kontrol edildiği bir yerleşim profiliyle ilişkili olmalıdır. Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür. USMF'te örnek değerler kullanıyorsanız, Bulk-008'i seçin.  
-8. Plaka alanında aşağı açılan oku sağ tıklatın ve sonra Ayrıntıları göster'i seçin.
-9. Yeni'ye tıklayın.
-10. Plaka alanında bir değer girin.
-    * Değerini not edin.  
-11. Kaydet'e tıklayın.
-12. Sayfayı kapatın.
-13. Plaka alanında bir değer girin.
-    * Yeni oluşturduğunuz plakanın değerini girin. Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür.  
-14. Tamam'a tıklayın.
-
-## <a name="add-a-line"></a>Bir satır ekleyin
-1. Satır ekle'ye tıklayın.
-2. Madde numarası alanına bir değer girin.
-    * Satınalma siparişi satırında kullandığınız ürün numarasını girin.  
-3. Miktar alanına bir sayı girin.
-    * Kaydetmek istediğiniz miktarı girin.  
-    * Tarih alanı, bu ürünün eldeki miktarın stokta kaydedileceği tarihi belirler.  
-    * Lot kodu sağlanan bilgilerden hareketle benzersiz şekilde tanımlanabiliyorsa, sistem tarafından doldurulur. Aksi halde, bunu el ile eklemeniz gerekir. Bu, bu kaydı belirli bir kaynak belge satırına bağlayan zorunlu bir alandır.  
-
-## <a name="complete-the-registration"></a>Kaydı tamamlama
-1. Doğrula'ya tıklayın.
-    * Bu günlüğün deftere nakile hazır olup olmadığını denetler. Doğrulama başarısız olursa, günlüğü deftere nakledebilmek için hataları düzeltmeniz gerekir.  
-2. Tamam'a tıklayın.
-    * Tamam düğmesini tıklattıktan sonra iletiyi gözden geçirin. Günlükte sorun olmadığını belirten bir ileti görünmesi gerekir.  
-3. Deftere Naklet öğesine tıklayın.
-4. Tamam'a tıklayın.
-    * Tamam düğmesine tıkladıktan sonra ileti çubuğunu kontrol edin. İşlemin tamamlandığını belirten bir ileti görünmesi gerekir.  
-5. Sayfayı kapatın.
-
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

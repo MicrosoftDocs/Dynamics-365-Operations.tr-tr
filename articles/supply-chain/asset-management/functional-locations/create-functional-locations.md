@@ -1,12 +1,10 @@
 ---
 title: İşlem yapılacak yerleşimler oluşturma
 description: Bu konuda Varlık Yönetimi'nde işlem yapılacak yerleşimler oluşturma işlemi açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationCopyStructure, EntAssetFunctionalLocationCreate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81b5b81d7c318ba0a195dbc6324d700ccb8d39bf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767548"
 ---
 # <a name="create-functional-locations"></a>İşlem yapılacak yerleşimler oluşturma
 
@@ -131,3 +129,6 @@ Silmeye çalıştığınız herhangi bir işlem yapılacak yerleşimde yüklü v
 
 >[!NOTE]
 >İşlem yapılacak yerleşimi silemezsiniz, silme işlemini bu amaca yönelik bir işlem yapılacak yerleşim yaşam döngüsü durumu ayarlayarak yapabilirsiniz. Örneğin, **İşlem yapılacak yerleşim yaşam döngüsü durumları** formunda, etkin bir aşama olmaması gereken bir "Iskartaya çıkarıldı" veya "Silindi" aşaması ayarlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

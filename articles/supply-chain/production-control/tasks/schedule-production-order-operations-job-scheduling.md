@@ -1,27 +1,24 @@
 ---
 title: İşlemler ve iş planlaması olan bir üretim emri planlama
 description: Bu konu operasyon planlama ve iş planlama ile bir üretim emri planlamaya odaklanır.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdSchedule, ProdTable, ProdRouteJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a69339bc678de8343dbf2646a4d6fe0ace9964c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc91fe5aa398cd94e38beea017d6d60ecb44f17e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439257"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574389"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>İşlemler ve iş planlaması olan bir üretim emri planlama
 
@@ -56,3 +53,6 @@ Bu konu operasyon planlama ve iş planlama ile bir üretim emri planlamaya odakl
 6. Eylem Bölmesinde **Üretim emri**'ne tıklayın.
 7. **Tüm işler**'i seçin. Etkin yola göre, iş planlamasında 5 işin oluşturulduğunda dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

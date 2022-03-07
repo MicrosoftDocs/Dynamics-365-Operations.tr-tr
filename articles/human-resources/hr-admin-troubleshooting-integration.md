@@ -2,7 +2,7 @@
 title: Finans ile tümleştirme SSS
 description: Bu konu altında, bir İnsan Kaynakları ve Finance tümleştirmesinde hangi verilerin eşitleneceği açıklanmaktadır.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
-ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
+ms.openlocfilehash: 0a6432fb5b04097d81680aed4e940e47f5ff2902
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4589075"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114594"
 ---
 # <a name="integration-with-finance-faq"></a>Finans ile tümleştirme SSS
 
@@ -32,7 +32,7 @@ Bu konu, hangi verilerin Dynamics 365 Human Resources, Dynamics 365 Finance ile 
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Power Apps uygulamasında Dynamics 365 Talent uygulama kullanıcısını düzenleyebilir miyim?
 
-Hayır. Eğer Talent uygulama kullanıcısını düzenlerseniz, İnsan Kaynakları ve Common Data Service arasındaki bütünleşme başarısız olabilir. Aşağıdaki tabloda, Talent uygulama kullanıcısı için varsayılan ayarlar gösterilmektedir.
+Hayır. Eğer Human Resources uygulama kullanıcısını düzenlerseniz, Human Resources ve Dataverse arasındaki bütünleşme başarısız olabilir. Aşağıdaki tabloda, Talent uygulama kullanıcısı için varsayılan ayarlar gösterilmektedir.
 
 | Tam Ad | Başvuru kodu | Azure AD Nesne kodu | Başvuru kodu URI |
 | --- | --- | --- | --- |
@@ -44,17 +44,17 @@ Hayır. Eğer Talent uygulama kullanıcısını düzenlerseniz, İnsan Kaynaklar
 
 Bir veri alt kümesi eşitlenir. Tüm varlıkların listesi için bkz. [Dynamics 365 Finance tümleştirmesi](hr-admin-integration-finance.md).
 
-## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Common Data Service'e eşitlenen verileri neden göremiyorum?
+## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Dataverse'e eşitlenen verileri neden göremiyorum?
 
-Varsayılan olarak, Common Data Service tümleştirmesi sağlanan demo verileri içermeyen yeni ortamlarda kapalıdır. Varsayılan olarak, demo verileri içeren yeni ortamlarda açıktır ve ortam sağlandığında veri eşitlemesi başlar. Ortamınız veri eşitlemeye hazır olduktan sonra tümleştirmeyi açabilirsiniz. Daha fazla bilgi için bkz. [Common Data Service tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md).
+Varsayılan olarak, Dataverse tümleştirmesi sağlanan demo verileri içermeyen yeni ortamlarda kapalıdır. Varsayılan olarak, demo verileri içeren yeni ortamlarda açıktır ve ortam sağlandığında veri eşitlemesi başlar. Ortamınız veri eşitlemeye hazır olduktan sonra tümleştirmeyi açabilirsiniz. Daha fazla bilgi için bkz. [Dataverse tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Yeni bir eşlemeyi şablonları kullanmadan oluşturabilir miyim?
 
-Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Common Data Service için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>İnsan Kaynakları ve Finance arasında aktarmak üzere mali boyutlar eşleyebilir miyim?
 
-Mali boyutlar şu anda Common Data Service içinde mevcut değildir ve bunu sonucunda varsayılan şablonun parçası değildir. Bu varlık planlanmıştır, ancak şu anda zaman çizelgesi mevcut değildir.
+Mali boyutlar şu anda Dataverse içinde mevcut değildir ve bunu sonucunda varsayılan şablonun parçası değildir. Bu varlık planlanmıştır, ancak şu anda zaman çizelgesi mevcut değildir.
 
 Finance and Operations içinde bulunan ancak İnsan Kaynakları içinde bulunmayan veri için iki sistemi birbirine İnsan Kaynakları için **Bağlantıları yapılandır**'ı kullanarak bağlayın.
 
@@ -76,7 +76,7 @@ Veri eşitleme yürütme planını izler. Tümleştirme, alanın tümleştirme e
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Belirli bir varlık için hangi alanların Finance'e gönderileceğini belirtebilir miyim?
 
-Alanlar tümleştirme görevinden eklenebilir veya çıkartılabilir. Common Data Service varlığı içinde mevcut olan tüm veri alanlarıİnsan Kaynakları'ndan doldurulmayacaktır.
+Alanlar tümleştirme görevinden eklenebilir veya çıkartılabilir. Dataverse tablosu içinde mevcut olan tüm veri alanlarıİnsan Kaynakları'ndan doldurulmayacaktır.
 Ek veriler Power Apps ile doldurulabilir.
 
 ![Bir tümleştirme görevinden alanları ekleyin veya çıkartın](media/SpecifyFieldsIncludedInIntegration.png)
@@ -95,7 +95,7 @@ Hayır, Veri Tümleştirici, silinen kayıtları veri aktarımı için yakalamay
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Hatalı yürütmeyi yeniden çalıştırabilir miyim? Bu durumda, tam dosya mı gönderir yalnızca değişiklikleri mi?
 
-Veri Tümleştiricinin ilk çalıştırılması her zaman tam çalıştırmadır. Sonraki yürütmeler değişiklik izlemeye dayanır. Bir hatalı çalışma yürütülürse, yürütme kapsamdaki kayıtları çıkartır ve Common Data Service'ten en güncel değişiklikleri gönderir.
+Veri Tümleştiricinin ilk çalıştırılması her zaman tam çalıştırmadır. Sonraki yürütmeler değişiklik izlemeye dayanır. Bir hatalı çalışma yürütülürse, yürütme kapsamdaki kayıtları çıkartır ve Dataverse'ten en güncel değişiklikleri gönderir.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>Proje kaydettiğimde, "Proje eşleme hatalarına sahip" hatasını alıyorum. Ne yapmam gerekir?
 
@@ -109,15 +109,15 @@ Evet, Finance'teki her bir tüzel kişilik için, veri tümleştirmede ayrı bir
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Microsoft tarafından sağlanan varsayılan şablonun parçası olmayan verileri aktarmak gerekiyor. Bunu yapabilir miyim?
 
-Evet, var olan şablondan alanlar kaldırılabilir veya eklenebilir. Şablon diğer Common Data Service varlıkları için ek verileri dahil etmek üzere değiştirilebilir. Varlığın, şablona dahil edilmesi için Common Data Service içinde olması gerekir. 
+Evet, var olan şablondan alanlar kaldırılabilir veya eklenebilir. Şablon diğer Dataverse tabloları için ek verileri dahil etmek üzere değiştirilebilir. Varlığın, şablona dahil edilmesi için Dataverse içinde olması gerekir. 
 
 ## <a name="i-just-created-new-finance-and-human-resources-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Kısa süre önce Finance ve İnsan Kaynakları ortamları oluşturdum ve "Veri değeri tutarlılık kısıtlamalarını ihlal ediyor" hatasını alıyorum. Neden?
 
 Bu hatanın nedenleri arasında şunlar olabilir:
 
-- Veri aktarma, kaynakta (Common Data Service) yinelenen kayıtların ayıklanmasıyla sonuçlandı.
+- Veri aktarma, kaynakta (Dataverse) yinelenen kayıtların ayıklanmasıyla sonuçlandı.
 
-- Veri aktarımı, Finance and Operations'ta ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin Common Data Service içindeki olduğundan ve Finance and Operations gereksinimlerini karşıladığından emin olun.
+- Veri aktarımı, Finance and Operations'ta ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin Dataverse içindeki olduğundan ve Finance and Operations gereksinimlerini karşıladığından emin olun.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Yürütme hataları varsa ve Çalışan kimliği eşitlenmediyse, hatalı çalışan kaydına sahip geçmiş işi nasıl bulabilirim?
 
@@ -139,27 +139,27 @@ Veri Tümleştirici yürütme geçmişinden zamanı takip edin ve Finance'te diz
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>İnsan Kaynakları ve finans'yı tümleştirdikten sonra, İnsan Kaynakları verilerimi finans içinde görmüyorum. Ne yapmam gerekir?
 
-Finance'e tümleştirme iki adımlı bir işlemdir. Öncelikle, İnsan Kaynakları verisinin güncelleştirilmiş ve Common Data Service içinde kullanılabilir olduğundan emin olun. Bu neredeyse gerçek zamanlı bir eşitlemedir ve Power Apps içinde veri girişleri içindeki veriye bakarak doğrulanabilir.
+Finance'e tümleştirme iki adımlı bir işlemdir. Öncelikle, İnsan Kaynakları verisinin güncelleştirilmiş ve Dataverse içinde kullanılabilir olduğundan emin olun. Bu neredeyse gerçek zamanlı bir eşitlemedir ve Power Apps içinde veri tabloları içindeki veriye bakarak doğrulanabilir.
 
-![Common Data Service içindeki veri](media/DataInCDS.png)
+![Dataverse içindeki veri](media/DataInCDS.png)
 
-Veri Common Data Service'te beklendiği gibi görüntülenmiyorsa, varlığın tümleştirme ile desteklendiğinden emin olun. Common Data Service içine ek veri dahil etmek için Microsoft tarafından bir değişiklik gerekir.
+Veri Dataverse'te beklendiği gibi görüntülenmiyorsa, varlığın tümleştirme ile desteklendiğinden emin olun. Dataverse içine ek veri dahil etmek için Microsoft tarafından bir değişiklik gerekir.
 
-Varlık destekleniyorsa ve veri Common Data Service içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Varlık destekleniyorsa ve veri Dataverse içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Çalışanlarımın adresleri Finance'e aktardıktan sonra doğru görünmüyor. Ne yapmalıyım?
 
-**Konum Kodu** için numara serisi, İnsan Kaynakları'ta ve Finance'te aynı düzeni kullanır. Numara serisinin her iki tarafta da benzersiz olması gerekir, bu sayede veriyi Common Data Service'ten Finance and Operations'a tümleştirirken adres çakışmaları gerçekleşmez.
+**Konum Kodu** için numara serisi, İnsan Kaynakları'ta ve Finance'te aynı düzeni kullanır. Numara serisinin her iki tarafta da benzersiz olması gerekir, bu sayede veriyi Dataverse'ten Finance and Operations'a tümleştirirken adres çakışmaları gerçekleşmez.
 
 İnsan Kaynakları tümleştirmesi sırasında, numara serilerinin İnsan Kaynakları ve Finance içinde aynı olmadığını doğrulayın. Tüm numara serilerinin, verinin her iki sistemde de tutulabildiği yerlerde aynı olmadığını doğrulayın.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Bağlantımı kümesi oluştururken, Bağlantı açılır listesinde bağlantıyı göremiyorum. Ne yapmam gerekir?
 
-Bağlantılarınızı oluştururken Dynamics 365 Finance'i ve Common Data Service'i seçtiğinizden emin olun.
+Bağlantılarınızı oluştururken Dynamics 365 Finance'i ve Dataverse'i seçtiğinizden emin olun.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Çalışmaları eşitlerken “CompanyInfo_FK mevcut değil" veya “Değer 12/31/2154 11:59:59 pm', 'Çalışma sonlanma tarihi' ilgili 'Çalışma' tablosunda bulunamadı.” hatasını alıyorum. Ne yapmalıyım?
 
-Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme, varsayılan şablonun parçası değildir, bu nedenle İnsan Kaynakları ve Common Data Service bulunan her bir tüzel varlığın Finance'te de mevcut olması beklenir.
+Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme, varsayılan şablonun parçası değildir, bu nedenle İnsan Kaynakları ve Dataverse bulunan her bir tüzel varlığın Finance'te de mevcut olması beklenir.
 İlişkili Bağlantı Kümesi için doğru tüzel varlıkları seçtiğinizden emin olun.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Projemi ayarladıktan sonra Finance için alan eşleşmesi boş görünüyor. Ne yapmalıyım?
@@ -172,11 +172,11 @@ Finance'te veri varlıklarını **Veri yönetimi \> Çerçeve Parametreleri \> V
 
 - Veri Tümleştirici (DI): 
 
-  - [Veriyi Common Data Service içine tümleştir](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Veriyi Microsoft Dataverse içine tümleştir](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
   - [Veri Tümleştirici hata yönetimi ve sorun giderme](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Power Apps, Microsoft Power Automate ve Common Data Service'te sistem tarafından oluşturulan günlükler için DSR taleplerine yanıt verme](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Power Apps, Microsoft Power Automate ve Dataverse'te sistem tarafından oluşturulan günlükler için DSR taleplerine yanıt verme](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Veri Yönetimi:
 

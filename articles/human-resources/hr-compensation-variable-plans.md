@@ -1,44 +1,46 @@
 ---
 title: Değişken ücret planları oluşturma
-description: Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikramiyesi gibi ödemeleri ifade eder. Bu makalede, değişken ücret kullanabilmeniz ve çalışanları bir değişken ücret planına kaydedebilmeniz için ayarlanması gereken bileşenler açıklanmaktadır.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+description: Bu konuda, değişken ücret kullanabilmeniz ve çalışanları bir değişken ücret planına kaydedebilmeniz için ayarlanması gereken bileşenler açıklanmaktadır.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HCMCompEligibility, HcmJobFunction, HcmWorker, HRMCompPerfPlan, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 16011
 ms.assetid: fc3a394e-9ac6-4f8c-9162-dc16ec22720f
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 85e64c4186c7782391a3db6dc4deb3fab0ea9f4f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 18347527517d6d051213fbe13caca54ed9214111
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420879"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066862"
 ---
 # <a name="create-variable-compensation-plans"></a>Değişken ücret planları oluşturma
 
-Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikramiyesi gibi ödemeleri ifade eder. Bu makalede, değişken ücret kullanabilmeniz ve çalışanları bir değişken ücret planına kaydedebilmeniz için ayarlanması gereken bileşenler açıklanmaktadır.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikramiyesi gibi ödemeleri ifade eder. Bu konuda, değişken ücret için gerekli bileşenlerin nasıl ayarlanacağı ve çalışanların bir değişken ücret planına nasıl kaydedileceği açıklanmaktadır.
 
 Çalışanlarınız için değişken ücret tutarlarının hesaplanması çalışanın performansı, çalışanın ücret düzeyi ve departmanın performansı gibi çok sayıda faktöre dayalı olabilir.
 
 ## <a name="variable-compensation-components"></a>Değişken ücret bileşenleri
 ### <a name="create-compensation-types"></a>Ücret türleri oluşturma
 
-**Değişken ücret türleri** zorunlu bir bileşendir. Değişken ücret türler, organizasyonunuzun verdiği değişken ücret türlerini tanımlar. Ayrıca, ücretin nakit mi, yoksa hisse senedi vb. gibi parasal olmayan bir türde mi olacağını belirlemenize izin verir.
+**Değişken ücret türleri** zorunlu bir bileşendir. **Değişken ücret türleri**, kuruluşunuzun verdiği değişken ücret türlerini tanımlar. Ayrıca, ücretin nakit mi, yoksa hisse senedi vb. gibi parasal olmayan bir türde mi olacağını belirlemenize izin verir.
 
 ### <a name="describe-vesting-rules"></a>Hakediş ödeme kuralları tanımlama
 
-İsteğe bağlı olarak, şirketler **hakediş ödeme kuralları** oluşturabilir. Hakediş kuralları, değişken ikramiyenin zaman içerisinde nasıl ayrılacağını açıklar. Örneğin, bir hakediş ödeme kuralı, çalışanın kendi toplam ikramiyesinin yüzde 25'ini, sonraki dört yıl boyunca için alacağını belirtebilir. Hakediş ödeme kuralları yalnızca bilgilendirme amaçlıdır.
+İsteğe bağlı olarak, şirketler **Hakediş ödeme kuralları** ayarlayabilir. **Hakediş ödeme kuralları**, değişken ikramiyenin zaman içerisinde nasıl tahsis edilmesi gerektiğini açıklar. Örneğin, bir hakediş ödeme kuralı, çalışanın toplam ikramiyenin yüzde 25'ini, sonraki dört yıl boyunca için alacağını belirtebilir. Hakediş ödeme kuralları yalnızca bilgilendirme amaçlıdır.
 
 ## <a name="variable-compensation-plans"></a>Değişken maaş planları
 **Değişken ücret planı** kurallar, hesaplama yöntemleri ve kayıtlı çalışanlar için değişken ücret hesaplamasına ilişkin varsayılan değerleri içerir. Bir değişken ücret planı oluşturduğunuzda, değişken ücret türünü ayarlamanız gerekir. Değişken ücret türü, ikramiye olarak sistem para birimi tutarını mı yoksa birim sayısını mı ikramiye olarak hesaplayacağını belirler. Ayrıca, hesaplama yöntemini de ayarlamanız gerekir:
@@ -48,24 +50,24 @@ Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikrami
 
 Değişken ikramiye tutarı, çalışanın düzenli taban kazançlarına veya ayarlanan bir birim sayısına dayalı olabilir.
 
--   Bir varsayılan yüzde girmek için **Taban yüzdesi** öğesini seçin ve tabanın çalışanın sabit ödeme oranımı mı, yoksa çalışanın ücret seviyesi için kontrol noktası mı olduğunu belirtin. Ücret düzeyi, personelin işinde ayarlanır. Ücret yapısından bir referans noktası, sabit ücret planında bir denetim noktası olarak ayarlanabilir. Sistem, personelin ücret seviyesi için denetim noktası tutarını bulmak için personelin işindeki ücret seviyesi kullanır ve bunu personelin sabit ücret planında listelenen denetim noktasıyla çapraz referanslar. Daha sonra, kontrol noktası tutarı tutar için temel olarak personelin sabit ödeme oranının yerine kullanılır.
--   Ücret planı nakit olmayan bir ikramiye (örneğin, 40 USD değerinde 200 birim hisse senedi) ise varsayılan birim sayısını, her bir birimin değerini ve birim değerinin para birimini girmek için **Birim sayısı** öğesini seçin veya ücret planı bir nakit ikramiye için ise sadece birim sayısını girin. Nakit ikramiye için personel, kendisinin sabit ücret planının para birimi cinsinden belirli sayıda birimi alacaktır (örneğin, 500 birim 1 USD). Bire bir ilişki denetimi, birim sayısı ve birim değeri arasında bire bir eşleşme olup olmadığını belirtmek üzere kullanılabilir. Nakit tabanlı bir plan için birim sayısı kullanarak bir değişken ücret planı oluşturursanız, bu seçenek otomatik biçimde **Evet** olarak sabitlenir ve birim değeri **1,0000**'dir.
+-   Bir varsayılan yüzde girmek için **Taban yüzdesi** öğesini seçin ve tabanın çalışanın sabit ödeme oranımı mı, yoksa çalışanın ücret seviyesi için kontrol noktası mı olduğunu belirtin. Ücret düzeyi, personelin işinde ayarlanır. Ücret yapısından bir referans noktası, sabit ücret planında bir denetim noktası olarak ayarlanabilir. Personelin ücret düzeyi için denetim noktası tutarını bulmak üzere personelin işindeki ücret seviyesi kullanılır ve personelin sabit ücret planında listelenen denetim noktasıyla çapraz referanslanır. Daha sonra, kontrol noktası tutarı tutar için temel olarak personelin sabit ödeme oranının yerine kullanılır.
+-   Ücret planı nakit olmayan bir ikramiye (örneğin, 40 USD değerinde 200 birim hisse senedi) ise varsayılan birim sayısını, her bir birimin değerini ve birim değerinin para birimini girmek için **Birim sayısı** öğesini seçin veya ücret planı bir nakit ikramiye için ise sadece birim sayısını girin. Nakit ikramiye için personel, sabit ücret planının para birimi cinsinden belirli sayıda birimi alacaktır (örneğin, 500 birim 1 USD). Bire bir ilişki denetimi, birim sayısı ve birim değeri arasında bire bir eşleşme olup olmadığını belirtmek üzere kullanılabilir. Nakit tabanlı bir plan için birim sayısı kullanarak bir değişken ücret planı oluşturursanız, bu seçenek otomatik biçimde **Evet** olarak sabitlenir ve birim değeri **1,0000**'dir.
 
-**İşe alma** kuralı ayarı, çalışanların işe alınma tarihinden (**İşe alma kuralı** = **Yok**) bağımsız olarak aynı artışı alıp almayacağını veya çalışanların döngü sırasında çalıştıkları süreye dayalı olarak bir ikramiye yüzdesi alıp almayacağını (**İşe alma kuralı** = **Yüzde**) belirlemenize izin verir. 
+**İşe alma kuralı**, çalışanların işe alınma tarihinden (**İşe alma kuralı** = **Yok**) bağımsız olarak aynı artışı alıp almayacağını veya çalışanların döngü sırasında çalıştıkları süreye dayalı olarak bir ikramiye yüzdesi alıp almayacağını (**İşe alma kuralı** = **Yüzde**) belirtir. 
 
-**Dengeleme**, bir personelin ikramiyesini, personelin departmanının performansına dayalı ayarlamanıza olanak sağlar. Performans ölçüleri, her bir bölüm için **Bölümler** sayfasında, **İlgili formlar** &gt; **Ücret** &gt; **Performans** altında ayarlanabilir. Söz konusu bölümdeki çalışanların aldığı ikramiye, bölümün performansını belirten **Ulaşılan hedefin yüzdesi** alanının değerine bağlıdır:
+**Dengeleme**, bir personelin ikramiyesini, personelin departmanının performansına dayalı ayarlar. Performans ölçüleri, her bir bölüm için **Bölümler** sayfasında, **İlgili formlar** &gt; **Ücret** &gt; **Performans** altında ayarlanabilir. Söz konusu bölümdeki çalışanların aldığı ikramiye, bölümün performansını belirten **Ulaşılan hedefin yüzdesi** alanının değerine bağlıdır:
 
 -   Departmanın performansı yüzde 100 ise, o departmanındaki çalışanlar için ikramiye,**%100'de ödeme** alanında ayarlanan yüzdeyle çarpılır.
 -   Departmanın performansı yüzde 100'den fazla ise sistem, **Hedefin üzerindeki her %1 için** alanında ayarlanan yüzdeyi **%100'de ödeme** alanına ekler ve bu işleme **İzin verilen en yüksek ödeme** alanında ayarlanan değere ulaşılana kadar devam edilir.
 -   Departmanın performansı yüzde 100'den az ise sistem, **Hedefin üzerindeki her %1 için** alanında ayarlanan yüzdeyi **%100'de ödeme** alanından çıkarır ve bu işleme **İzin verilen en düşük ödeme** alanında ayarlanan değere ulaşılana kadar devam edilir.
 
-Eşik yüzdeleri üzerinde **tolerans düzeyleri** ayarlayabilirsiniz, böylece dengeleme, yüzdenin eşik yüzdesinin dışında kalmasına neden oluyorsa bir uyarı mesajı görüntülenir. 
+**Tolerans düzeyleri**, eşik yüzdelerinde ayarlanabilir, böylece dengeleme yüzdenin eşik yüzdesinin dışında kalmasına neden oluyorsa bir uyarı iletisi görüntülenir. 
 
-Varsayılan olarak, sistem çalışanın pozisyonu üzerinde ayarlanmış departmanı arar. Ancak, bazı çalışanların ödülü birden fazla bölümün performansına bağlı olabilir. Bu durumda, çeşitli departmanlar ve her bir departmanın performansına atanan ikramiye yüzdesi çalışanın değişken ücret kaydında ayarlanabilir. Daha fazla bilgi için aşağıdaki "Değişken ücret kaydı" bölümüne bakın. 
+Varsayılan olarak, çalışanın pozisyonu üzerinde ayarlanmış departman çalışan ikramiyesi için kullanılır. Ancak, bazı çalışanların ödülü birden fazla bölümün performansına bağlı olabilir. Bu durumda, çeşitli departmanlar ve her bir departmanın performansına atanan ikramiye yüzdesi çalışanın değişken ücret kaydında ayarlanabilir. Daha fazla bilgi için aşağıdaki "Değişken ücret kaydı" bölümüne bakın. 
 
 Dengeleme yalnızca dengeleme süreci çalışırken **Performans için ödeme** seçimi yapılırsa kullanılır. 
 
-**Düzeylerini geçersiz kılar** sekmesi ikramiyenin varsayılan yüzdesini veya birim sayını, personelin ücret düzeyine dayalı olarak geçersiz kılmanıza olanak sağlar. **Düzeyler için varsayılan geçersiz kılmalar**, değişken ücret planına kayıtlı personeller için **Evet** olarak ayarlanmışsa, sistem düzeyi personelin işinden alır ve daha sonra, bu seviye için yüzdeyi veya birim sayısını belirlemek için düzey geçersiz kılma tablosuna bakar. Düzey, düzey geçersiz kılma tablosunda bulunmazsa, **Genel** sekmesindeki varsayılan yüzde veya birim sayısı kullanılır. Yüzde ve birim sayısı, personelin kaydında, değişken ücret planında da geçersiz kılınabilir.
+**Düzeylerini geçersiz kılar** sekmesi ikramiyenin varsayılan yüzdesini veya birim sayını, personelin ücret düzeyine dayalı olarak geçersiz kılmanıza olanak sağlar. Değişken ücret planına kayıtlı personeller için **Düzeyler için geçersiz kılma işlemlerini etkinleştir** seçeneği **Evet** olarak ayarlanırsa personelin işindeki düzey, bu düzey için birim yüzdesini veya sayısını belirlemek üzere düzey geçersiz kılma tablosuyla karşılaştırılır. Düzey, düzey geçersiz kılma tablosunda bulunmazsa, **Genel** sekmesindeki varsayılan yüzde veya birim sayısı kullanılır. Yüzde ve birim sayısı, personelin kaydında, değişken ücret planında da geçersiz kılınabilir.
 
 ## <a name="variable-compensation-enrollment"></a>Değişken maaş kaydı
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Plan için kimlerin uygun olduğunu belirleme
@@ -99,3 +101,6 @@ Artık, çalışanları değişken ücret planına kaydedebilirsiniz. Bir çalı
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

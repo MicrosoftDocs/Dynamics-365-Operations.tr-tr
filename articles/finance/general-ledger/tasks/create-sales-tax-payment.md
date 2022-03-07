@@ -2,11 +2,9 @@
 title: Satış vergisi ödemesi oluşturma
 description: Satış vergisini kapat ve deftere naklet işi yordamı, satış vergisi hesaplarındaki satış vergisi bakiyelerini kapatır ve bu bakiyeleri belirli bir dönemin satış vergisi kapatma hesabına mahsup olarak işler.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b5e3e26e19bd0a9dbf878626328da267b61964f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8c0b6c67a547e42ab4d7b7ba9f456a29c6b3d22e491e3a8ad0481a0144491087
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968716"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763178"
 ---
 # <a name="create-a-sales-tax-payment"></a>Satış vergisi ödemesi oluşturma
 
@@ -36,3 +34,6 @@ Satış vergisini kapat ve deftere naklet işi yordamı, satış vergisi hesapla
 5. **Hareket tarihi** alanına bir tarih girin.
 6. **Tamam**'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Şirket dizini mobil çalışma alanı
 description: Bu konuda, kullanıcıların kuruluşları içindeki diğer personeli görmesini ve iletişim kurmasını sağlayan Şirket dizini mobil çalışma alanı hakkında bilgi verilmektedir.
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b397f3a222ff6957ad4904df90c5db218903090
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683444"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748209"
 ---
 # <a name="company-directory-mobile-workspace"></a>Şirket dizini mobil çalışma alanı
 
@@ -89,3 +87,6 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 1.  Mobil uygulamada, **Şirket dizini** çalışma alanını seçin.
 2.  **Arama** alanında, bir personelin adını, soyadını, unvanını veya bölümünü, aramayı başlatmak için girin.
 3.  Bir çalışan seçin. **Personel profili** sayfası görüntülenir. Bu sayfadaki bilgiler arasında personelin adı, soyadı, unvanı ve bölümü bulunur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

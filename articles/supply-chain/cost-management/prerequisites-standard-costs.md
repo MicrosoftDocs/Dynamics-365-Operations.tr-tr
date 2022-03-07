@@ -2,11 +2,9 @@
 title: Standart maliyetler için ön koşullara genel bakış
 description: Bu konu, standart maliyetleri kullanmak için temel adımları açıklar.
 author: AndersGirke
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9333bda96ceae378ab74892534db13761038a06c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 92f80ecc611e68210e24e59b696724e1bc9c3a06
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967370"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809674"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Standart maliyetler için ön koşullara genel bakış
 
@@ -79,3 +77,6 @@ Varolan maddelerini standart bir maliyet stok modeline değiştirmek isteyen mü
 
 - [Dynamics 365 for Finance and Operations içindeki doğrudan malzemeler için standart maliyetleri ayarlamak](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
 - [Dynamics 365 for Finance and Operations içinde standart işgücü maliyetleri](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

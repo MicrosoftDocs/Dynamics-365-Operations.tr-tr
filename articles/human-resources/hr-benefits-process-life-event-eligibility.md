@@ -2,15 +2,12 @@
 title: Ömür olayı uygunluğunu işle
 description: Bu makalede, işlemin ömür olayı uygunluğu için nasıl çalıştırıldığı gösterilmektedir.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17ecef1412eb0232fbb4782bd9d2d79f210c7e80
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 20b458e67b6504ca1c3efce6b40d1cea4faa7193
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420886"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058524"
 ---
 # <a name="process-life-event-eligibility"></a>Ömür olayı uygunluğunu işle
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu makalede, işlemin ömür olayı uygunluğu için nasıl çalıştırıldığı gösterilmektedir.
 
@@ -48,3 +47,6 @@ Bu makalede, işlemin ömür olayı uygunluğu için nasıl çalıştırıldığ
    4. **Tamam**'ı seçin. İşlem, ayarladığınız parametrelerle çalışacaktır.
 
 4. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

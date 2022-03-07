@@ -1,95 +1,97 @@
 ---
 title: Pozisyon hiyerarşisinde metin kesilmesini engelleme ve Visio'ya aktarma
-description: Bu konu adlarını ve pozisyonları kişiler müşteriler yetenek için Microsoft Dynamics 365 Human Resources için hiyerarşi görüntülediğinizde nerede kesiliyor sorununu açıklar. Metin kesme, hiyerarşinin ekran görüntüsünün veya baskısının alınmasını zorlaştırabilir.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasında pozisyon hiyerarşisindeki kişilerin ve pozisyonların adlarının kısaltılması sorununun nasıl düzeltileceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7b11bd0247634290c8dc43c2ae2291a485449627
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420944"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068347"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Konum hiyerarşisi üzerinde metin kesmeden kaçının ve Visio'ya dışa aktarın
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Pozisyon hiyerarşisinde metin kesilmesini engelleme ve Visio'ya aktarma
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Stok çıkışı**
 
 Bir müşteri, Microsoft Dynamics 365 Human Resources içinde konum hiyerarşisini görüntülerse, bireylerin ve pozisyonların adları kesilir. Bu nedenle, bir ekran görüntüsü almak veya hiyerarşiyi yazdırıp dağıtmak zor olabilir.
 
-![Pozisyon hiyerarşisi](media/position-h.png)
+![Pozisyon hiyerarşisi.](media/position-h.png)
 
 **Nedeni**
 
 Bu davranış tasarımdan kaynaklanır.
 
-**Çözünürlük**
+**Çözüm**
 
-Ne yazık ki, kullanıcılar kolayca metin boyutunu değiştiremezler. Ancak, konum hiyerarşisini İnsan Kaynakları'nın dışına aktarabilir ve daha sonra Microsoft Visio'ya içe aktarabilirsiniz. Aşağıdaki makale Microsoft Dynamics AX 2012 için yazılmıştır, ancak prosedür halen İnsan Kaynakları için geçerlidir: [Microsoft Visio'ya bir konum hiyerarşisi dışa aktarmak](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+Ne yazık ki, kullanıcılar kolayca metin boyutunu değiştiremezler. Ancak, konum hiyerarşisini İnsan Kaynakları'nın dışına aktarabilir ve daha sonra Microsoft Visio'ya içe aktarabilirsiniz. Aşağıdaki makale Microsoft Dynamics AX 2012 için yazılmıştır, ancak prosedür halen İnsan Kaynakları için geçerlidir: [Microsoft Visio'ya bir konum hiyerarşisi dışa aktarmak](/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 Visio'ya dışa aktarmak için aşağıdaki adımları izleyin.
 
 1. İnsan Kaynakları, **pozisyon** listesi sayfasını açın.
 
-    Kuruluş yapısı diyagramına daha fazla bilgi eklemek için **Konumlar** listesine alanlar ekleyin, böylece bu prosedürdeki sihirbazı kullandığınızda kullanılabilir olurlar.
+    Kuruluş yapısı diyagramına daha fazla bilgi eklemek için **Pozisyonlar** listesine alanlar ekleyin, böylece bu yordamın ileri bölümündeki **Kuruluş şeması sihirbazı**'nı kullandığınızda bu alanlar kullanılabilir hale gelir.
 
 2. Eylem Panosu üzerinde **Microsoft Office içinde aç** düğmesini seçin ve sonra **Excel'e dışa aktar** altında, **Konumlar**'ı seçin. Bunun yerine, Ctrl+T tuşlarına basın.
 
-    ![Konumlar listesi sayfasını Excel'e dışa aktarın](media/org-admin.png)
+    ![Konumlar listesi sayfasını Excel'e dışa aktarın.](media/org-admin.png)
 
 3. Dışa aktarılan Excel dosyasını kaydedin.
 
-    ![Excel iletişim kutusuna dışa aktarmak](media/export-excel.png)
+    ![Excel iletişim kutusuna aktarma.](media/export-excel.png)
 
 4. Visio içinde **Visio - Yeni oluştur** öğesini seçin ve **İş** şablon kategorisini seçin.
 
-    ![Yeni diyagram](media/new.png)
+    ![Yeni diyagram.](media/new.png)
 
 5. **Kuruluş Şeması Sihirbazı**'nı seçin ve sonra **Oluştur**'u seçin.
 
-    ![Kuruluş Şeması Sihirbazı iletişim kutusu](media/orgchart-wizard.png)
+    ![Kuruluş Şeması Sihirbazı iletişim kutusu.](media/orgchart-wizard.png)
 
 6. **Halihazırda bir dosya veya veri tabanında depolanmış olan bilgi**'yi seçin ve sonra **İleri**'yi seçin.
 
-    ![Kuruluş Şeması Sihirbazı 1](media/orgchart-wizard7.png)
+    ![Kuruluş Şeması Sihirbazı 1.](media/orgchart-wizard7.png)
 
 7. **Bir metin, Org Plus (\*.txt), veya Excel dosyası** öğesini seçin ve sonra **İleri**'yi seçin.
 
-    ![Kuruluş şeması sihirbazı 2](media/orgchart-wizard3.png)
+    ![Kuruluş şeması sihirbazı 2.](media/orgchart-wizard3.png)
 
 8. Konum hiyerarşisini içeren seçilen dışa aktarılan Excel dosyasını seçmek için tarayın ve sonra **İleri**'yi seçin.
 
-    ![Kuruluş Şeması Sihirbazı 3](media/orgchart-wizard2.png)
+    ![Kuruluş Şeması Sihirbazı 3.](media/orgchart-wizard2.png)
 
 9. **Adı** alanında **Konum** olarak ayarlayın, **Raporlar için** alanını **Konuma raporlar** olarak ayarlayın ve sonra **İleri**'yi seçin.
 
-    ![Kuruluş Şeması Sihirbazı 4](media/orgchart-wizard1.png)
+    ![Kuruluş Şeması Sihirbazı 4.](media/orgchart-wizard1.png)
 
 10. Her bir düğümde gösterilecek alanları seçin ve sonra **İleri**'yi seçin.
 
-    ![Kuruluş Şeması Sihirbazı 5](media/orgchart-wizard5.png)
+    ![Kuruluş Şeması Sihirbazı 5.](media/orgchart-wizard5.png)
 
 11. **Konum** sütununu **Veri alanlarını şekillendir** listesine ekleyin ve sonra **İleri**'yi seçin.
 
-    ![Kuruluş Şeması Sihirbazı 6](media/orgchart-wizard6.png)
+    ![Kuruluş Şeması Sihirbazı 6.](media/orgchart-wizard6.png)
 
 12. Resimler şu anda kullanılamıyor. Bu nedenle, bir sonraki sayfada **İleri**'yi seçin.
 13. **Sihirbazın kuruluş şemamı sayfalar arasında otomatik olarak kesmesini istiyorum**'u seçin.
 
-    ![Kuruluş Şeması Sihirbazı 7](media/orgchart-wizard4.png)
+    ![Kuruluş Şeması Sihirbazı 7.](media/orgchart-wizard4.png)
 
 14. **Bitir**'i seçin.
 
@@ -99,8 +101,11 @@ Visio içinde oluşturulan diyagram, her bir yöneticiyi farklı bir çalışma 
 
 Diyagrama dahil etmeyi seçtiğiniz alanlara dayalı olarak, her bir düğüm Visio dosyası oluşturulduğunda uygun bilgiyi gösterir.
 
-![Hiyerarşi diyagramı](media/hierarchy.png)
+![Hiyerarşi diyagramı.](media/hierarchy.png)
 
 **Ek seçenek**
 
 İnsan Kaynakları içerisinde, **Kişiler** çalışma alanını hiyerarşiye dayalı bazı bilgileri görmek için kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

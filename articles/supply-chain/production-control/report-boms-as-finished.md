@@ -2,16 +2,13 @@
 title: Ürün reçetelerini tamamlandı olarak raporlama
 description: Bu makalede ürün reçetelerini tamamlandı olarak raporlama hakkında bilgi verilmektedir.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMReportFinish, BOMReportFinishMax, BOMSetupReportFinish
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53251
 ms.assetid: 510d05a3-0073-438d-b0c4-b6a6df1882ea
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c68ff6fdb77cb8de23b6b803b0300c6daa0fd106
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0befb8c985a5184be915c7f00b8176589d3ef2ba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439590"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811666"
 ---
 # <a name="report-boms-as-finished"></a>Ürün reçetelerini tamamlandı olarak raporlama
 
@@ -89,3 +86,6 @@ Bu durumda, madde numarasının COMP'un eldeki iki parçası değerlendirilir. F
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

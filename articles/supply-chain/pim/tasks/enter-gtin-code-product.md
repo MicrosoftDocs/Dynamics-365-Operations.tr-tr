@@ -1,27 +1,24 @@
 ---
 title: Ürünün GTIN kodunu girme
 description: GTIN kodları GS1 kurumu tarafından atanır.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemGTIN, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ab7d28469b7b5218b3aaa62449279ebf9b8ea9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1c442959e3fadd7ce9b9d8a7afadef7a492431a6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439285"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570443"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Ürünün GTIN kodunu girme
 
@@ -29,16 +26,18 @@ ms.locfileid: "4439285"
 
 GTIN kodları GS1 kurumu tarafından atanır. Bu örnekte, USMF demo veri şirketinde M0001 ürün numarası için bir kod girin.
 
-1. Serbest bırakılan ürün bakımı'na tıklayın.
-2. Sevk edilen ürünler'e tıklayın.
-3. Ürün resmi bilgi kutusunu genişletin.
-4. Listede, istenen kaydı bulun ve seçin.
-5. Eylem Bölmesinde, Stok yönetimi'ne tıklayın.
-6. GTIN kodları'na tıklayın.
-7. Yeni'ye tıklayın.
-8. Listede, seçili satırı işaretleyin.
-9. Birim alanına bir değer girin veya buradan bir değer seçin.
-10. GTIN kod alanında bir seçeneği işaretleyin.
-11. GTIN alanında bir değer girin.
-12. Sayfayı kapatın.
+1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
+1. **Ürün resmi** bilgi kutusunu genişletin.
+1. Listede, istenen kaydı bulun ve seçin.
+1. Eylem Bölmesinde, **Stok yönetimi**'ni seçin.
+1. **GTIN kodları**'nı seçin.
+1. **Yeni**'yi seçin.
+1. Listede, seçili satırı işaretleyin.
+1. **Birim** alanına bir değer girin veya buradan bir değer seçin.
+1. **GTIN kodu** alanında bir seçeneği işaretleyin.
+1. **GTIN alanı**'na bir değer yazın.
+1. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

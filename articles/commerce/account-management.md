@@ -2,15 +2,12 @@
 title: Hesap yönetimi sayfaları ve modülleri
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarını ve modüllerini kapsamaktadır.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b26f9f83ad368a7e0fbc0ffe1263a8fec86f99b8a66ee6c4a28d5e061efbc21
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416346"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716262"
 ---
 # <a name="account-management-pages-and-modules"></a>Hesap yönetimi sayfaları ve modülleri
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarını ve modüllerini kapsamaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 Hesap yönetimi, Dynamics 365 Commerce'teki Kullanıcı hesabı ile ilgili bilgileri yönetmek için kullanılan bir grup sayfayı gösterir. Hesap yönetimi sayfaları, hesap yönetimi giriş sayfası, kullanıcı profili sayfası, kullanıcı adresi sayfası, sipariş geçmişi sayfası, sipariş ayrıntıları sayfası, bağlılık programı sayfası ve istek listesi sayfasını içerir.
 
@@ -54,9 +49,9 @@ Sipariş geçmişi sayfası, kullanıcının verdiği tüm son siparişleri gös
 
 Sipariş Ayrıntıları sayfası her sipariş için ayrıntılı bilgi sağlar ve sipariş geçmişi sayfasından erişilir. Sipariş ayrıntılarını almak için satış kodu veya işlem kodunun gerekli olmasını gerektiren sipariş ayrıntıları modülünü kullanır.
 
-### <a name="user-profile-page"></a>Kullanıcı profil sayfası
+### <a name="my-profile-page"></a>Profilim sayfası
 
-Kullanıcı profili sayfası kullanıcının adı ve e-posta adresi gibi kullanıcı hesabı ayrıntılarını gösterir. Kullanıcı profili ayrıntılarını ve Kullanıcı profili düzenleme modüllerini kullanır. Ancak e-posta adresi kaldırılamaz, düzenlenebilir. Kullanıcı profili sayfası, kullanıcının öneri listelerinin kişiselleştirmesi gibi belirli özellikleri kabul etmesini veya devre dışı olmasını etkinleştiren Kullanıcı tercihlerini de gösterir. 
+Profilim sayfası, hesap profili modülünü kullanarak kullanıcının hesap profili ayrıntılarını gösterir. Sayfa, kullanıcının hesabıyla ilişkili e-posta adresini ve ayrıca hesap için ayarlanmış tercihleri gösterir. Özel müşteri öznitelikleri ayarlıyorsanız, bu öznitelikler bir "ek bilgiler" bölümünde de görüntülenecektir. Kullanıcılar adlarını, tercihlerini veya ek bilgilerini (varsa) düzenleyebilir.
 
 ### <a name="user-address-page"></a>Kullanıcı adresi sayfası
 
@@ -89,3 +84,6 @@ Bağlılık programı programına katılmak için, bağlılık programı kayıt 
 [Üst bilgi modülü](author-header-module.md)
 
 [Alt bilgi modülü](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

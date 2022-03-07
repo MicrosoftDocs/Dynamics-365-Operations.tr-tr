@@ -2,9 +2,11 @@
 title: Bir kısmi tutar için müşteri ödemeleri
 description: Bazen müşteriler, faturanın toplam miktarından az olan bir ödeme yaparlar. Bu makale, bu durumda yapılabilecek çeşitli seçenekleri açıklamaktadır. Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b4a930f7bb070d3105eff3978774bfd8a3ffbfd2b8eb77097028411da619c64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef43e6bafcd6a049111701032efbe5474dfaa9f6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769047"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236950"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Bir kısmi tutar için müşteri ödemeleri
 
@@ -28,7 +30,8 @@ ms.locfileid: "6769047"
 
 Bazen müşteriler, faturanın toplam miktarından az olan bir ödeme yaparlar. Bu makale, bu durumda yapılabilecek çeşitli seçenekleri açıklamaktadır. Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır.
 
-## <a name="partial-payment-with-no-discount"></a>İskontosuz kısmi ödeme
+<a name="partial-payment-with-no-discount"></a>İskontosuz kısmi ödeme
+--------------------------------
 
 Müşteriler, faturayı tam olarak ödeyebilmek için ellerinde yeterli nakit paraları olmadığından veya faturadaki bir ürün için bir anlaşmazlık bulunduğundan kısmi ödeme yaparlar. Bu durumda fatura, ödeme ile birlikte kısmen kapatılabilir. Fatura açık kalır ve bir bakiyeyi gösterir.
 

@@ -2,16 +2,13 @@
 title: POS'ta iskontoları gösterme
 description: Bu konu, Microsoft Dynamics 365 Commerce'ın satış görevlilerine promosyonlar hakkında bilgi edinme ve bunları çapraz satış ve yukarı satış için kullanma konusunda nasıl yardımcı olduğunu açıklamaktadır.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731679"
 ---
 # <a name="show-discounts-in-pos"></a>POS'ta iskontoları gösterme
 
@@ -36,7 +33,7 @@ Promosyonlar, satın alma kararları veren müşterileri motive etmede önemli b
 
 Commerce, "Tüm iskontoları görüntüle" adlı bir işlem içerir. Bu işlem, bir mağazada yürütülen tüm iskontoları gösterir. "Tüm iskontoları görüntüle" işlemi satış noktasındaki (POS) bir düğmeyle eşlenebilir ve söz konusu düğme **Karşılama** sayfasına veya **Hareket** sayfasına eklenebilir. Aşağıdaki örnekte açılan **Tüm iskontolar** sayfasının bir örneği gösterilmektedir.
 
-![Tüm iskontolar sayfası](./media/View_all_discounts.png "Tüm iskontolar sayfası")
+![Tüm iskontolar sayfası.](./media/View_all_discounts.png "Tüm iskontolar sayfası")
 
 İskontoları görüntülemek için, sistem aşağıdaki koşullardan bir veya daha fazlasıyla eşleşen tüm iskontoları arar:
 
@@ -64,8 +61,11 @@ Aşağıdaki örnekler, indirim eşzamanlılık modunun **En iyi fiyat** veya **
 
 Aşağıdaki örnek, indirim eşzamanlılık denetimi **En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok** olarak ayarlandığında kullanılan mantığı gösterir.
 
-![En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok mantığı](./media/Model_1.png "En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok mantığı").
+![En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok mantığı.](./media/Model_1.png "En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok mantığı").
 
 Aşağıdaki örnek, indirim eşzamanlılık denetimi **Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir** olarak ayarlandığında kullanılan mantığı gösterir.
 
-![Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir](./media/Model_2.png "Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir mantığı").
+![Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir.](./media/Model_2.png "Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir mantığı").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Satış iadeleri
 description: Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnTable, ReturnTableListPagePreviewPane, ReturnTableReferences, SalesReturnExpiredOrdersPart, SalesReturnFindOrderFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd194042303797fe41507065d0d7e4df28309cfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439090"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565291"
 ---
 # <a name="sales-returns"></a>Satış iadeleri
 
@@ -36,7 +33,7 @@ Müşteriler malları çeşitli nedenlerle iade edebilir. Örneğin, bir mal kus
 ## <a name="return-order-process"></a>İade emri işlemi
 Aşağıdaki şekilde iade emri işleminin genel özeti verilmektedir.  
 
-[![İade emri işlemi](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![İade emri işlemi.](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 İki tür iade emri işlemi vardır: fiziksel iade ve yalnızca alacak.
 
@@ -65,7 +62,7 @@ Malzeme İade Yetkisi (RMA) işlemi, satış emri işlevine dayanarak yapılır.
 ## <a name="create-a-return-order"></a>Sipariş iadesi oluşturma
 Müşteri arızalı veya istemediği bir ürünü iade etmek ve/veya alacak kaydedilmesi için kuruluşunuza başvurduğunda iade siparişi işlemi başlar. Kuruluşunuz iadeyi kabul ettikten sonra iade bir iade emriyle belgelenir. Bu iade emri, iade edilen ürünün dahili işlemlerinin odak noktası olur. İade emri oluşturma prosedürü aşağıda gösterilmektedir.  
 
-[![İade emri oluşturma prosedürü](./media/salesreturn02.png)](./media/salesreturn02.png)
+[![İade emri oluşturma prosedürü.](./media/salesreturn02.png)](./media/salesreturn02.png)
 
 ### <a name="create-a-return-order-header"></a>İade emri başlığı oluşturun
 
@@ -180,7 +177,7 @@ Masraflar, satıra bir iade nedeni kodu veya değerlendirme kodu atandıktan son
 ## <a name="arrival-at-the-warehouse-for-inspection"></a>İnceleme için ambara varış
 Sevk irsaliyesini deftere naklederek iade edilen malları stoka fiziksel olarak almadan önce malların varış kayıt ve isteğe bağlı bir incelemeden geçirilmesi gerekir. Aşağıdaki şekilde varış işleminin genel özeti verilmektedir. Şekilde gösterilen her adım ilerideki bölümlerde açıklanmaktadır.  
 
-[![Varış işlemi](./media/salesreturn03.png)](./media/salesreturn03.png)  
+[![Varış işlemi.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
 Bu işlemde bu konu kapsamında ele alınmayan çeşitli varyasyonlar vardır. Bu varyasyonlardan birkaçı:
 
@@ -199,7 +196,7 @@ Varış işlemi sırasında iadeler ambar varışları için genel işlemle tüm
 
 **Karantina yönetimi** seçeneği ayarını **Evet** yaparak, iade satırı için bir karantina emri oluşturabilirsiniz. Bir satır inceleme amacıyla karantinaya gönderildiyse, değerlendirme kodu belirtemezsiniz. 
  
-Malın stok modeli grubunda **Karantina yönetimi** seçeneği ayarını **Evet** yaparsanız, **Günlük satırları** sayfasındaki **Karantina yönetimi** seçeneği Varış günlüğü satırı için işaretlenir ve değiştirilemez. Satır karantinaya gönderilirse, ilgili karantina ambarını belirtmeniz gerekir. 
+Malın stok modeli grubunda **Karantina yönetimi** seçeneği ayarını **Evet** yaparsanız, **Yevmiye defteri satırları** sayfasındaki **Karantina yönetimi** seçeneği Varış günlüğü satırı için işaretlenir ve değiştirilemez. Satır karantinaya gönderilirse, ilgili karantina ambarını belirtmeniz gerekir. 
 
 Varış satırı incelemeye gönderilmiyorsa, ambar varış memuru değerlendirme kodunu doğrudan Varış günlüğü satırında belirtmeli ve ardından Varış günlüğünü nakletmelidir. Aynı değerlendirme kodu iade satırının tüm miktar atanmayacaksa veya satırın tüm miktarı teslim alınmadıysa satırı bölmeniz gerekir. Bir Varış günlüğü satırını böldüğünüz zaman, iade satırını da (**SatışSatırı**) böler ve yeni bir lot kodu oluşturursunuz. Varış günlüğü satırının miktarını azaltarak satırı bölebilirsiniz. Günlük deftere nakledilince kalan miktar için **Beklenen** durumunda yeni bir iade satırı oluşturulur. Satırı **İşlevler** &gt; **Böl**'e tıklayarak da bölebilirsiniz.
 
@@ -223,7 +220,7 @@ Varış bir karantina emrinden kaynaklanıyorsa, inceleme sırasında atanan de�
 
 Önceden yenileme durumunda, mal iade edilmeden önce, değiştirilen mal müşteriye teslim edilebilir. Örneğin, mal, yerine yedek parça koyulmadan çıkarılamayacak bir makine parçasıysa veya müşterinin yenilenen ürünü en kısa sürede almasını istiyorsanız bu yöntem yararlı olur. Önceden yenileme siparişi, bağımsız bir satış siparişidir. Başlık bilgileri müşteriden, satır bilgileri iade emrinden başlatılır. Değiştirme siparişini iade emrinden bağımsız olarak düzenleyebilir, işleyebilir ve silebilirsiniz. Bir değiştirme siparişini değiştirdiğiniz zaman, siparişin bir değiştirme siparişi olarak oluşturulduğu iletisi alırsınız. Önceden değiştirme işlemi aşağıdaki şekilde gösterilmektedir.  
 
-![Önceden yenileme işlemi](./media/SalesReturn04.png)
+![Önceden değiştirme işlemi.](./media/SalesReturn04.png)
 
 İade emri, değiştirme siparişine başvuru içerir. Kusurlu mal iade edilmeden önce bir önceden değiştirme siparişi oluşturulursa, kusurlu mal iade edildikten sonra, değiştirme için değerlendirme kodu seçemezsiniz.
 
@@ -231,7 +228,7 @@ Varış bir karantina emrinden kaynaklanıyorsa, inceleme sırasında atanan de�
 
 Müşteriye bir değiştirme maddesi gönderirseniz ve iade emrinde **Değiştir ve ıskartaya ayır** veya **Değiştir ve alacaklandır** değerlendirme eylemini kullanıyorsanız, aşağıdaki şekilde gösterilen işlemi kullanın.  
 
-![Değerlendirme kodu kullanıldığında değiştirme işlemi](./media/SalesReturn05.png)
+![Değerlendirme kodu kullanıldığında değiştirme işlemi.](./media/SalesReturn05.png)
 
 Değiştirilen mal, değiştirme satış siparişi adlı bağımsız bir satış siparişiyle teslim edilir. Bu satış siparişi, iade emri için sevk irsaliyesi hazırlanırken oluşturulur. Sipariş başlığında, iade emri başlığında başvurulan, müşteriden alınmış bilgiler kullanılır. Satır bilgileri, **Yerine koyulacak madde** sayfasına girilen bilgilerden alınır. **Yerine koyulacak madde** sayfası, "değiştir" sözcüğüyle başlayan değerlendirme eylemleri olan satırlar için doldurulmuş olmalıdır. Ancak, değiştirme maddesinin ne miktarı ne de kimliği doğrulanmıştır veya sınırlıdır. Bu davranışa, müşterinin aynı malı farklı bir yapılandırma veya boyutta istediği veya müşterilerin tamamen farklı bir mal istediği durumlarda izin verilir. Varsayılan olarak, **Yerine koyulacak madde** sayfasına aynı mal girilir. Ancak, işlevin ayarlanmış olması koşuluyla, farklı bir mal seçebilirsiniz. 
 
@@ -271,7 +268,7 @@ Faturalama işleminin bir parçası olarak, tüm sair giderleri doğrulayın. Ge
 
 Aşağıdaki şekilde, iki şirketin şirketlerarası bir ilişkiye girmesi ve şirketlerarası ticaretten faydalanması için gereken minimum kurulum gösterilmektedir.  
 
-![Minimum kurulum](./media/SalesReturn06.png)
+![Minimum kurulum.](./media/SalesReturn06.png)
 
 Aşağıdaki senaryoda, CompBuy şirket alıcı, CompSell ise satıcı şirkettir. Genellikle, satıcı şirket malları alıcı şirkete veya doğrudan teslim sevk senaryolarında doğrudan son müşteriye gönderir. CompBuy'da, satıcı IC\_CompSell, CompSell şirketiyle ilişkili şirketlerarası bir uç nokta olarak tanımlanır. Aynı zamanda, CompSell'de, müşteri IC\_CompBuy, CompBuy şirketiyle ilişkili şirketlerarası bir uç nokta olarak tanımlanır. Uygun eylem ilkesi politikası ayrıntıları ve değer eşlemeleri her iki şirkette de tanımlanmalıdır. Doğrudan teslim sevkiyat senaryosunda, bir şirketlerarası iade emri oluşturulur (bu aynı zamanda bir şirketlerarası satış siparişidir). Şirketlerarası iade emrinin RMA numarası, CompSell'deki RMA numara serisinden alınabilir veya CompBuy'daki orijinal iade emrine atanmış RMA numarasından kopyalanabilir. CompBuy'ın **SatınalmaTalebi** eylem politikasındaki RMA numarası ayarları bu eylemleri belirler. RMA numarası eşitlenmişse, iki şirketin aynı numara sırasını kullanması durumunda numara çakışması riskini azaltma planı yapmanız gerekir.
 
@@ -279,7 +276,7 @@ Aşağıdaki senaryoda, CompBuy şirket alıcı, CompSell ise satıcı şirketti
 
 Bu senaryo, aşağıdaki şekilde gösterildiği gibi, aynı kuruluştaki iki şirketle ilgilidir.  
 
-![Basit şirketlerarası iade](./media/SalesReturn07.png)
+![Basit şirketlerarası iade.](./media/SalesReturn07.png)
 
 Alıcı şirkette bir satıcı iade emri veya satıcı şirkette müşteri iade emri oluşturulduğunda sipariş zinciri oluşturulabilir. Diğer şirkette karşılık gelen sipariş oluşturulur ve satıcı iade siparişindeki başlık ve satır bilgilerinin müşteri iade emrindeki ayarları yansıtıp yansıtmadığından emin olur. Oluşan iade emri, mevcut bir müşteri faturasında referansı (**Satış siparişini bul**) dahil edebilir veya hariç tutabilir. İki emrin sevk irsaliyeleri ve faturaları ayrı ayrı işlenebilir. Örneğin, müşteri iade emri için sevk irsaliyesi oluşturmadan önce satıcı iade emri için bir sevkiyat irsaliyesi oluşturmak zorunda kalmazsınız.
 
@@ -287,7 +284,7 @@ Alıcı şirkette bir satıcı iade emri veya satıcı şirkette müşteri iade 
 
 Bu senaryo, **Doğrudan teslim** türünden bir önceki satışın tamamlanması durumunda ve müşteriyle etkileşime giren şirkette müşteriye yönelik bir fatura mevcutsa oluşturulabilir. Aşağıdaki şekilde, CompBuy şirketi daha önce müşterileri Extern'e ürün satmış ve faturalamıştır. Ürünler CompSell şirketinden müşteriye bir şirketlerarası sipariş zinciri aracılığıyla doğrudan gönderilmiştir.  
 
-![Üç taraf arasında doğrudan teslim sevkiyat iadeleri](./media/SalesReturn08.png)
+![Üç taraf arasında doğrudan teslim sevkiyat iadeleri.](./media/SalesReturn08.png)
 
 Extern adlı müşteri ürünleri iade etmek isterse, CompBuy şirketinde müşteri için bir iade emri (RMA02) oluşturulur. Şirketlerarası zinciri kurmak için, iade emrine doğrudan teslim işareti koyulması gerekir. İade için müşteri faturasını seçerken **Satış siparişini bul** işlevini kullanırsanız, aşağıdaki belgelerden oluşan bir şirketlerarası sipariş zinciri kurulur:
 
@@ -309,7 +306,7 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 İade emrinde bir müşteri faturasına referans yok. İade edilen madde alacak kaydediliyor. İade emri faturası veya alacak dekontu oluşturulduğu zaman **Alacak düzeltme** parametresi seçilmemiş.  
 
-![İade emrinde bir müşteri faturasına referans yok](./media/SalesReturn09.png)  
+![İade emri bir müşteri faturasına başvurmuyor.](./media/SalesReturn09.png)  
 
 >[Not!] **İade maliyet fiyatı** parametresi için varsayılan değer olarak madde master fiyatı kullanılır. Varsayılan fiyat, stok çıkışı anındaki maliyet fiyatından farklıdır. Bu nedenle, etki, 3 birimlik bir kaybın tahakkuk etmesidir. Ayrıca, iade emri, satış siparişinde müşteriye verilen iskontoyu içermez. Bu nedenle, fazla bir alacak oluşur.
 
@@ -317,7 +314,7 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 Örnek 2, örnek 1'le aynı olmakla birlikte, iade emri faturası oluşturulurken **Alacak düzeltmesi** parametresi seçilmiştir.  
 
-![İade emri için alacak düzeltmesi seçiliyor ](./media/SalesReturn10.png)  
+![Alacak düzeltmesinin seçildiği iade emri.](./media/SalesReturn10.png)  
 
 >[Not!] Genel muhasebe nakilleri negatif düzeltmeler olarak girilir.
 
@@ -325,9 +322,12 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 Bu örnekte iade emri satırı **Satış siparişi bul** işlevi kullanılarak oluşturuluyor. Fatura oluşturulurken **Alacak düzeltme** parametresi seçilmemiş.  
 
-![İade emri satırı Satış siparişi bul işlevi kullanılarak oluşturuluyor ](./media/SalesReturn11.png)  
+![Satış siparişi bul işlevi kullanılarak oluşturulan iade emri satırı.](./media/SalesReturn11.png)  
 
 >[Not!] **İskonto** ve **İade maliyet fiyatı** doğru biçimde ayarlanmıştır. Bu nedenle, müşteri faturasının tam ters kaydı gerçekleşir.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

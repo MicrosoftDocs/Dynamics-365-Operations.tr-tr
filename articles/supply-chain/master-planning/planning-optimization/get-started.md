@@ -2,35 +2,32 @@
 title: Planlamayı En İyi Duruma Getirmeye başlayın
 description: Bu konuda, Planlamayı En İyi Duruma Getirme işlevini kullanmaya nasıl başlanacağı açıklanmaktadır.
 author: ChristianRytt
-manager: tfehr
-ms.date: 10/09/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439744"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902571"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama
 
 [!include [banner](../../includes/banner.md)]
 
-[Daha önce duyurulduğu](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios) gibi, Planlamayı En İyi Duruma Getirme varolan yerleşik master planlama altyapısının yerini almak üzere planlanmıştır.
+[Daha önce duyurulduğu](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios) gibi, Planlamayı En İyi Duruma Getirme varolan yerleşik master planlama altyapısının yerini almak üzere planlanmıştır.
 
 Yerleşik Master planlama altyapısını kullanıyorsanız, şimdi Planlamayı En İyi Duruma Getirme için geçişinizi planlamaya başlamanız gerekir. Yükseltme işlemi zorlandığında işlemleriniz etkilenebileceğinden, geçiş işlemini hemen başlatmak önemlidir. Kullanımdan kaldırma zorunlu olduğunda yaşanacak son dakika sorunlarını önlemek için geçişi 1 Aralık 2020'den önce tamamlamanızı öneririz. 
 
@@ -41,21 +38,42 @@ Planlamayı En İyi Duruma Getirme işlevi şu anda Microsoft Supply Chain Manag
 
 Planlamayı En İyi Duruma Getirme hizmetini açmadan önce Planlamayı En İyi Duruma Getirme uygunluk analizinin sonuçlarını değerlendirmenizi öneririz. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md).
 
-### <a name="availability"></a>Kullanılabilirlik
-Planlamayı En İyi Duruma Getirme şu anda şu Azure coğrafi bölgelerinde kullanılabilir: Amerika Birleşik Devletleri, Kanada, Avrupa, Birleşik Krallık ve Avustralya. Eklentiyi başka bir coğrafi bölgeden yüklemeye çalışırsanız, LCS bu coğrafi bölgenin desteklenmediğini belirten bir ileti gösterir.
+## <a name="availability"></a>Kullanılabilirlik
+
+Planlamayı En İyi Duruma Getirme şu anda şu Azure coğrafi bölgelerinde kullanılabilir: Amerika Birleşik Devletleri, Kanada, Avrupa, Birleşik Krallık, Avustralya, Asya Pasifik, Japonya ve Hindistan. Eklentiyi başka bir coğrafi bölgeden yüklemeye çalışırsanız, LCS bu coğrafi bölgenin desteklenmediğini belirten bir ileti gösterir. Azure Geographies ve ilgili bölgeler hakkında daha fazla bilgi için, bkz. [Azure bölgeleri](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Planlamayı En İyi Duruma Getirme'nin Dynamics 365 Supply Chain Management şirket içi dağıtımlarını desteklemediğini unutmayın.
 
-### <a name="licensing"></a>Lisans
+## <a name="licensing"></a>Lisans
 
 Geçerli lisansınızı kullanarak master planlamayı çalıştırabilirseniz Planlamayı En İyi Duruma Getirme hizmetini kullanmaya başlamak için ek lisans satın almanız gerekmez.
 
-### <a name="install-the-add-in"></a>Eklentiyi yükleme
+## <a name="install-and-enable-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeyi yükleme ve etkinleştirme
 
-Planlamayı En İyi Duruma Getirme hizmetini kullanmak üzere Dynamics 365 Supply Chain Management için Planlamayı En İyi Duruma Getirme Eklentisi'ni yükleyin. Eklentiye LCS projenizden ulaşabilir ve Supply Chain Management kullanıcı arabiriminden (UI) Planlamayı En İyi Duruma Getirme hizmetini açabilirsiniz.
+Planlamayı En İyi Duruma Getirme'yi kullanmak için, sisteminizin tüm ön koşulları karşıladığından emin olmanız ve ardından lisans anahtarını etkinleştirip Dynamics 365 Supply Chain Management için Planlamayı En İyi Duruma Getirme Eklentisi'ni yüklemeniz gerekir.
 
-> [!NOTE]
-> Planlamayı En İyi Duruma Getirme için gereksinim, bir LCS etkin yüksek kullanılabilirlik ortamı, katman 2 veya üstüdür (OneBox ortamı değil); Dynamics 365 Supply Chain Management sürüm 10.0.7 veya daha yenisine sahip olmalıdır. Eklentiyi OneBox ortamına yüklemeye çalışırsanız, yükleme tamamlanmaz ve yükleme işlemini iptal etmeniz gerekir.
+### <a name="prerequisites"></a>Önkoşullar
+
+Planlamayı En İyi Duruma Getirme Eklentisini yüklemeden önce aşağıdaki ön koşulların karşılanması gerekir:
+
+- Supply Chain Management'da şurada çalıştırıyor olmanız gerekir: LCS etkin yüksek kullanılabilirlik ortamı, katman 2 veya üstü (OneBox ortamı değil); Dynamics 365 Supply Chain Management sürüm 10.0.7 veya sonraki bir sürüm. Eklentiyi OneBox ortamına yüklemeye çalışırsanız, yükleme tamamlanmaz ve yükleme işlemini iptal etmeniz gerekir.
+
+- Sisteminiz, Power Platform tümleştirmesi için ayarlanmış olmalıdır. Daha fazla bilgi için, bkz. [Finance and Operations uygulamaları ile Microsoft Power Platform tümleştirmesi.](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+
+### <a name="enable-the-planning-optimization-license"></a>Planlamayı En İyi Duruma Getirme lisansını etkinleştirme
+
+Planlamayı En İyi Duruma Getirme eklentisini kullanabilmek için yapılandırma anahtarını etkinleştirmeniz gerekir. Bunun için:
+
+1. Sisteminizi [Bakım modu](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım moduna alın.
+1. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin.
+1. **Yapılandırma anahtarları** sekmesinde, **Planlamayı En İyi Duruma Getirme** onay kutusunu seçin.
+1. [Bakım modu](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın.
+
+### <a name="install-the-planning-optimization-add-in"></a>Planlamayı En İyi Duruma Getirme Eklentisini Yükleme
+
+Eklentiyi LCS projenizden yüklemeniz ve Supply Chain Management kullanıcı arabiriminden Planlamayı En İyi Duruma Getirme işlevini açmanız gerekir.
+
+Planlamayı En İyi Duruma Getirme Eklentisini yüklemek için:
 
 1. LCS'de oturum açın ve istediğiniz ortamı açın.
 1. **Tüm ayrıntılar**'a gidin.
@@ -64,16 +82,16 @@ Planlamayı En İyi Duruma Getirme hizmetini kullanmak üzere Dynamics 365 Suppl
 1. **Planlamayı En İyi Duruma Getirme**'yi seçin.
 1. Yükleme kılavuzunu izleyin ve hüküm ve koşulları kabul edin.
 1. **Yükle**'yi seçin.
-1. **Ortam eklentileri** hızlı sekmesinde, Planlamayı En İyi Duruma Getirme'nin yüklendiğin görmeniz gerekir.
-1. Birkaç dakika sonra **Yükleme** durumunun değişip **Yüklendi** olarak değişecektir (sayfayı yenilemeniz gerekebilir). Yüklendiğinde, Planlamayı En İyi Duruma Getirme'yi Dynamics 365 Supply Chain Management'ta etkinleştirmeye hazırsınız demektir.
+1. **Ortam eklentileri** hızlı sekmesinde, Planlamayı En İyi Duruma Getirme'nin yüklendiğini görmeniz gerekir.
+1. Birkaç dakika sonra **Yükleniyor** durumu **Yüklendi** olarak değişecektir (sayfayı yenilemeniz gerekebilir). Yüklendiğinde, Planlamayı En İyi Duruma Getirme'yi Dynamics 365 Supply Chain Management'ta etkinleştirmeye hazırsınız demektir.
 
-Planlama İyileştirmesi eklentisini yüklemenin temel amacı, hizmet ile ortamı bağlamaktır. Bu nedenle, ortamlar arasına taşınacak kod ne olursa olsun, eklentiyi, Planlama İyileştirmesi'ni kullanacağınız her ortama ayrı ayrı yüklemelisiniz.
+Planlamayı En İyi Duruma Getirme Eklentisini yüklemenin temel amacı, hizmet ile ortamı bağlamaktır. Bu nedenle, ortamlar arasına taşınacak kod ne olursa olsun, eklentiyi, Planlama İyileştirmesi'ni kullanacağınız her ortama ayrı ayrı yüklemelisiniz.
 
-### <a name="planning-optimization-integration"></a>Planlamayı En İyi Duruma Getirme tümleştirmesi
+## <a name="integrate-planning-optimization-with-your-system"></a>Planlamayı En İyi Duruma Getirme ile sisteminizi tümleştirme
 
 Planlamayı En İyi Duruma Getirme eklentisinin master planlama için kullanılması gerekip gerekmediğini yapılandırmak üzere **Master planlama** \> **Ayar** \> **Planlamayı En İyi Duruma Getirme parametreleri**'ne gidin.
 
-#### <a name="connection-status"></a>Bağlantı durumu
+### <a name="connection-status"></a>Bağlantı durumu
 
 Bağlantı durumu, Supply Chain Management ile Planlamayı En İyi Duruma Getirme hizmeti arasındaki bağlantının geçerli durumunu belirtir. Aşağıdaki tabloda, olası değerler gösterilmektedir.
 
@@ -85,12 +103,14 @@ Bağlantı durumu, Supply Chain Management ile Planlamayı En İyi Duruma Getirm
 | Bağlantı devre dışı bırakılıyor | Planlamayı En İyi Duruma Getirme hizmeti için bağlantıyı kapatma isteği şu anda devam ediyor. | Hayır |
 | Durum alınıyor | Sistem, Planlamayı En İyi Duruma Getirme hizmetinden durum bilgisi bekliyor. | Hayır |
 
-#### <a name="the-use-planning-optimization-option"></a>Planlamayı En İyi Duruma Getirmeyi Kullan seçeneği
+### <a name="the-use-planning-optimization-option"></a>Planlamayı En İyi Duruma Getirmeyi Kullan seçeneği
 
 **Planlamayı En İyi Duruma Getirmeyi Kullan** seçeneği, master planlama için hangi planlama altyapısının kullanılacağını belirler:
 
 - **Evet**: Master planlama için Planlamayı En İyi Duruma Getirme hizmeti kullanılır.
 - **Hayır**: Master planlama için yerleşik Supply Chain Management planlama altyapısı kullanılır.
+
+Bu ayar tüm tüzel kişilikler (şirketler) için geçerlidir. Planlamayı En İyi Duruma Getirme bazı tüzel kişiliklerde mümkün değildir. Bazı tüzel kişiliklerde ise master planlama kullanılamaz.
 
 > [!NOTE]
 > Yerleşik Supply Chain Management planlama altyapısı için oluşturulan mevcut planlama toplu işleri, **Planlamayı En İyi Duruma Getirmeyi Kullan** seçeneği **Evet** olarak ayarlanırken tetiklenirse bu işler başarısız olur.
@@ -112,3 +132,6 @@ Planlama İyileştirmesi açıksa master planlama, Planlama İyileştirmesi Ekle
 [Plana filtre uygulama](plan-filters.md)
 
 [Planlama işini iptal etme](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,76 +1,103 @@
 ---
-title: POS oturum açma için Azure Active Directory kimlik doğrulamasını etkinleştirme
-description: Bu konu, Microsoft Dynamics 365 Commerce satış noktası (POS) için oturum açma deneyiminin Azure Active Directory kimlik doğrulaması kullanacak şekilde nasıl ayarlanacağını açıklar.
+title: POS oturum açma için Azure Active Directory kimlik doğrulamasını yapılandırma
+description: Bu konu, Microsoft Dynamics 365 Commerce satış noktasında kimlik doğrulama yöntemi olarak Azure Active Directory'yi yapılandırma yöntemini açıklamaktadır.
 author: boycezhu
-manager: annbe
-ms.date: 07/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 6946cb5f8bc8aa451f72d1eebcd324f408ad5f7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416348"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402163"
 ---
-# <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>POS oturum açma için Azure Active Directory kimlik doğrulamasını etkinleştirme
+# <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>POS oturum açma için Azure Active Directory kimlik doğrulamasını yapılandırma
+
 [!include [banner](includes/banner.md)]
 
+Bu konu, Microsoft Dynamics 365 Commerce (POS) satış noktasında kimlik doğrulama yöntemi olarak Azure Active Directory'yi (Azure AD) yapılandırma yöntemini açıklamaktadır.
 
-Microsoft Dynamics 365 Commerce kullanan çoğu müşteri diğer Microsoft bulut hizmetlerini de kullanır ve bu hizmetler için kullanıcı kimlik bilgilerini yönetmek üzere Azure Active Directory (Azure AD) kullanabilir. Bu gibi durumlarda, müşteriler uygulamalarda aynı Azure AD hesabını kullanmak isteyebilir. Bu konu, Microsoft Commerce satış noktası (POS) oturum açma deneyiminin Azure AD kimlik doğrulaması kullanmak üzere nasıl ayarlanacağını açıklar.
+Microsoft Azure, Microsoft 365, ve Microsoft Teams gibi diğer Microsoft bulut hizmetleriyle birlikte Dynamics 365 Commerce kullanan perakendeciler genellikle uygulamalar arasında güvenli ve sorunsuz oturum açma deneyimi sağlamak amacıyla kullanıcı kimlik bilgilerinin merkezi yönetimi için Azure AD kullanmak ister. Commerce POS için Azure AD kimlik doğrulamasını kullanmak için önce Commerce genel merkezinde kimlik doğrulama yöntemi olarak Azure AD'yi yapılandırmalısınız.
 
-## <a name="configure-azure-ad-authentication"></a>Azure AD kimlik doğrulamasını yapılandırma
+## <a name="configure-pos-authentication-method"></a>POS kimlik doğrulama yöntemini yapılandırma
 
-Mağaza için POS oturum açma için Azure AD'yi kimlik doğrulama yöntemi olarak kullanılabilir hale getirmek amacıyla, mağazanın işlevsel profilinin ayarlarını yapılandırmanız ve sonra bu ayarı POS istemcisine uygulamanız gerekir.
+Commerce genel merkezinde POS kimlik doğrulama yöntemini yapılandırmak için aşağıdaki adımları izleyin.
+    
+1. **Retail ve Commerce \> Kanal kurulumu \> POS ayarı \> POS profilleri \> İşlevsellik profilleri**'ne gidin ve değişiklikleri yapmak üzere bir işlev profili seçin.
+1. **İşlevler** hızlı sekmesinin **POS personeli oturum açma** bölümündeki **Oturum Açma Kimlik Doğrulama Yöntemi** açılır listesinden dilediğiniz kimlik doğrulama yöntemini seçin.
 
-İşlev profili yapılandırmak için aşağıdaki adımları izleyin.
+    **Oturum açma kimlik doğrulama yöntemi**'nde üç seçenek bulunur:
+    
+    - **Personel Kimliği ve Parola** - Bu varsayılan seçenek POS kullanıcılarının, POS'ta oturum açmak ve erişim yöneticisini geçersiz kılma işlevlerine erişmek için bir personel kodu ve parola girmesini gerektirir.
+    - **Çoklu oturum açmasız Azure AD** - Bu seçenek POS kullanıcılarının, POS'ta oturum açmak ve erişim yöneticisini geçersiz kılma işlevlerine erişmek için Azure AD kimlik bilgilerini kullanarak oturum açmasını gerektirir. POS istemcisi yenilendiğinde veya yeniden açıldığında, POS kullanıcısının tekrar oturum açmak için Azure AD kimlik bilgilerini sağlaması gerekir.
+    - **Çoklu oturum açmalı Azure AD** - Bu seçenek işaretlendiğinde, POS kullanıcıları aynı web tarayıcısındaki diğer web uygulamaları tarafından kullanılan etkin Azure AD kimlik bilgilerini kullanarak Bulut POS'ta (CPOS) oturum açabilir veya Windows'ta açılı olan Azure AD kimlik bilgilerini kullanarak Modern POS'ta (MPOS) oturum açabilir. Her iki yöntem de POS oturum açma ekranında Azure AD kimlik bilgilerini girmeye gerek kalmadan oturum açmaya izin verir. Ancak, POS yöneticisi geçersiz kılma işlevine erişmek için yine de Azure AD kimlik bilgilerinin kullanılarak oturum açılması gerekir.
 
-1. **Perakende ve ticaret** \> **Kanal kurulumu** \> **POS kurulumu** \> **POS profilleri** \> **İşlevsellik profilleri** öğesine tıklayın.
-1. Değiştirilecek işlev profilini seçin.
-1. **İşlevler** hızlı sekmesinde **POS personeli oturum açma** bölümünde, **Oturum Açma Kimlik Doğrulama Yöntemi** alanının değerini **Personel Kimliği ve Parola** yerine **Azure Active Directory** olarak değiştirin.
-
-Varsayılan olarak, tüm işlev profilleri POS kimlik doğrulama yöntemi olarak **Personel Kimliği ve Parola** kullanır. Bu nedenle, Azure AD kullanmak istiyorsanız **Oturum Açma Kimlik Doğrulama Yöntemi** alanının değerini değiştirmeniz gerekir. Seçilen işlev profiline bağlı her perakende mağazası bu değişiklikten etkilenir.
-
-Ayarları POS istemcilerine uygulamak için, aşağıdaki adımları izleyin.
-
-1. **Retail ve Commerce** \> **Retail ve Commerce BT** \> **Dağıtım planı**'na gidin.
-1. **1070** (**Kanal yapılandırması**) dağıtım planını çalıştırın.
+1. **Retail ve Commerce > Retail ve Commerce IT > Dağıtım planı**'na gidin ve en son işlevsellik profili ayarlarını POS istemcileriyle eşitlemek için **1070 (Kanal yapılandırması)** işini çalıştırın.
 
 > [!NOTE]
-> Azure AD kimlik doğrulaması internet bağlantısı gerektirir. POS çevrimdışı moddayken çalışmaz.
-> 
-> Şu anda, **yönetici geçersiz kılma** işlevi Azure AD kimlik doğrulama yöntemi olarak desteklenmiyor. Azure AD, POS ile oturum açma için kimlik doğrulama yöntemi olarak yapılandırılmış olsa bile, bir operatör kodu ve parola gereklidir.
+> - **Çoklu oturum açmasız Azure AD** kimlik doğrulama yöntemi seçeneği, Commerce 10.0.18 ve önceki sürümlerde **Azure Active Directory** seçeneğinin yerini alır.
+> - Azure AD kimlik doğrulaması, etkin bir internet bağlantısı gerektirir ve POS çevrimdışıyken çalışmaz.
 
-## <a name="associate-an-azure-ad-account-with-a-worker"></a>Azure AD hesabını bir çalışanla ilişkilendirme
+## <a name="associate-azure-ad-accounts-with-pos-users"></a>Azure AD hesaplarını POS kullanıcıları ile ilişkilendirme
 
-Bir mağaza çalışanının POS uygulamasında oturum açmak Azure AD hesabını kullanabilmesi için, Azure AD hesabının o çalışanla ilişkilendirilmesi gerekir.
+Azure AD'yi POS kimlik doğrulama yöntemi olarak kullanmak için Azure AD hesaplarını Commerce genel merkezindeki POS kullanıcılarıyla ilişkilendirmeniz gerekir. 
 
-Azure AD hesabını bir çalışanla ilişkilendirmek için, aşağıdaki adımları izleyin.
-
-1. **Retail ve Commerce** \> **Personel** \> **Çalışanlar**'a gidin.
-1. Çalışanın ayrıntılar sayfasını açın.
-1. Eylem Bölmesinde, **Commerce** sekmesindeki **Harici kimlik** gurubunda **Mevcut kimliği ilişkilendir**'i seçin.
+Azure AD hesaplarını Commerce genel merkezindeki POS kullanıcılarıyla ilişkilendirmek için aşağıdaki adımları izleyin.
+    
+1. **Retail ve Commerce > Personel > Çalışanlar**'a gidin ve bir çalışan kaydı açın.
+1. Eylem Bölmesinde, **Commerce** sekmesini seçin ve ardından **Harici kimlik** altında **Mevcut kimliği ilişkilendir**'i seçin. 
 1. **Mevcut harici kimliği kullan** iletişim kutusunda, **E-posta kullanarak ara**'yı seçin, bir Azure AD e-posta adresi girin ve sonra **Ara**'yı seçin.
-1. Döndürülen Azure AD hesabını seçin ve ardından **Tamam**'ı seçin.
+1. Döndürülen Azure AD hesabını seçin, ardından **Tamam**'ı seçin.
 
-Çalışanın ayrıntılar sayfasındaki **Commerce** sekmesinde bulunan **Diğer ad**, **UPN** ve **Harici alt kimlik tanımlayıcı** alanları doldurulacaktır.
+Yukarıdaki yapılandırma ayarlarından sonra çalışanın ayrıntılar sayfasındaki **Commerce** sekmesinde bulunan **Diğer ad**, **UPN** ve **Harici alt kimlik tanımlayıcı** alanları doldurulacaktır.
+
+En güncel POS kullanıcısını ve  Azure AD hesap verilerini kanala eşitlemek için **Retail ve Commerce > Retail ve Commerce IT > Dağıtım planı**'ndaki **1060 (Personel)** işini yürütmeniz gerekir.
 
 > [!NOTE]
-> Bir çalışan kaydı güncelleştirildikten sonra, örneğin yeni bir Azure AD hesabı ilişkilendirilmişse, parola değiştirilirse veya bir çalışan adres defteri güncelleştirilirse, en son personel bilgilerini kanalla eşitlemek için **1060** (**Personel**) dağıtım zamanlamasını çalıştırmanız önerilir. Bu şekilde, POS uygulaması kullanıcı kimlik doğrulaması ve yetkilendirme denetimi için doğru verileri alabilir.
+> Bir en iyi uygulama olarak, parola, POS izni, ilişkili Azure AD hesabı veya çalışan adres defteri gibi çalışan bilgileri Commerce genel merkezinde güncelleştirildikten sonra, en güncel çalışan bilgilerini kanalla eşitlemek için **1060 (Personel)** işini yürütmenizi öneririz. Ardından POS istemcisi kullanıcı kimlik doğrulaması ve yetkilendirme denetimleri için doğru verileri alabilir.
+
+## <a name="pos-lock-register-and-sign-out-with-azure-ad-authentication"></a>Azure AD kimlik doğrulamasıyla POS kayıt kilitleme ve oturum kapatma
+
+POS, Azure AD kimlik doğrulama yöntemini kullanacak şekilde yapılandırıldığında şu gerçekleşir:
+
+- **Kayıt kilitle** işlevi, POS uygulamasında kullanılamaz. 
+- **Otomatik olarak kilitle** işlevi, **Otomatik olarak oturum kapat** işleviyle aynı şekilde davranır.
+- POS kullanıcısı, **Oturumu kapat**'ı seçerse çoklu oturum açma etkin olsun veya olmasın, kullanıcıdan POS bir daha başlatıldığında Azure AD kimlik bilgileriyle oturum açması istenir.
+
+## <a name="manager-override-functionality-with-azure-ad-authentication"></a>Azure AD kimlik doğrulamasıyla yönetici geçersiz kılma işlevi
+
+POS, Azure AD kimlik doğrulaması kullanacak şekilde yapılandırıldığına, yönetici geçersiz kılma işlevi yönetici kullanıcının Azure AD kimlik bilgilerini soran bir iletişim kutusu açar. Yönetici oturum açma onaylandıktan sonra, yöneticinin Azure AD kimlik bilgileri bırakılır ve sonraki POS işlemleri için önceki kullanıcının Azure AD kimlik bilgileri kullanılır.
+
+> [!NOTE]
+> - Commerce 10.0.18 ve önceki sürümlerde, yöneticiyi geçersiz kılma işlevi Azure AD'yi desteklemez. POS, Azure AD kimlik doğrulama yöntemini kullanacak şekilde yapılandırılmış olsa bile, bir personel kodu ve parola gereklidir.
+> - CPOS'u Safari web tarayıcısı üzerinde veya bir Apple iOS cihazı üzerinde kullanırken, yönetici geçersiz kılma işlevinin Azure AD kimlik doğrulamasıyla çalışması için, öncelikle Safari ayarlarındaki **Açılır pencereleri engelle** seçeneğini kapatmanız gerekir. 
+
+## <a name="security-best-practices-for-azure-ad-based-pos-authentication-on-shared-devices"></a>Paylaşılan cihazlarda Azure AD tabanlı POS kimlik doğrulamasıyla ilgili en iyi güvenlik uygulamaları
+
+Birçok perakendeci, perakende mağaza ortamlarını paylaşılan fiziksel bir aygıttan POS uygulamasına erişmesi gerekecek şekilde kurar. Bu bağlamda çoklu oturum açma, rahat ve sorunsuz bir kimlik doğrulama deneyimi sağlıyor olsa da aynı zamanda geçerli POS kullanıcısının, POS'ta hareketleri veya operasyonları gerçekleştirmek için başka bir kullanıcının kimlik bilgilerinin kullanıldığını fark etmediği bir güvenlik boşluğu oluşturabilir. POS'u Azure AD kimlik doğrulama yöntemini kullanacak şekilde yapılandırmadan önce, hangi seçeneğin uygun olduğuna karar vermek üzere güvenlik ilkenizi ve paylaşılan aygıtın oturum açma ayarlarını gözden geçirmeniz önemle önerilir.
+
+- Perakende ortamınız fiziksel aygıt ile oturum açma için paylaşılan bir hesap (örneğin bir yerel hesap) kullanıyorsa **Çoklu oturum açmasız Azure AD** seçeneğini kullanmanız önerilir. Bu, her bir POS kullanıcısının POS'ta oturum açmak için açıkça Azure AD kimlik bilgileri kullanmasını gerektirir.
+- Perakende ortamınız POS'ta ve POS'un barındırıldığı fiziksel cihazda oturum açmak için çalışanların kendi Azure AD hesaplarını kullanmasını gerektiriyorsa **Çoklu oturum açmalı Azure AD** seçeneğini kullanmanız önerilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[MPOS ve Bulut POS için genişletilmiş oturum açma işlevini ayarlama](extended-logon.md)
+[ Çalışanı yapılandırma](tasks/worker.md)
 
 [Perakende işlevselliği profili oluşturma](retail-functionality-profile.md)
 
-[ Çalışanı yapılandırma](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+[MPOS ve Bulut POS için genişletilmiş oturum açma işlevini ayarlama](extended-logon.md)
+
+[Paylaşılan ortamlarda Cloud POS için en iyi güvenlik uygulamaları](dev-itpro/secure-retail-cloud-pos.md)
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: AI-ML tabanlı ürün önerisi sonuçlarını ayarlama
 description: Bu konu, yapay zeka makine öğrenme (AI-ML) tabanlı ürün öneri sonuçlarının işletmenize nasıl uyarlanacağını açıklamaktadır.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748534"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>AI-ML tabanlı ürün önerisi sonuçlarını ayarlama
 
@@ -54,7 +51,7 @@ Parametreleri değiştirmeden önce, aşağıdaki sonuçların nasıl etkilendik
 
 "En iyi satış" ürün listesi, değiştirilebilen bir parametreye sahiptir:
 
-![Örnek en iyi satış listesi varsayılan parametresi](./media/examplebestsellingparameters.PNG)
+![Örnek en iyi satış listesi varsayılan parametresi.](./media/examplebestsellingparameters.PNG)
 
 1. **Son X günden satışları dahil et** - Ürün sipariş etmek için geçerli tarihten önce belirtilen gün sayısındaki satış işlemleri. Yukarıdaki varsayılan değer, son 30 gün içinde bir ürünün yaptığı tüm satınalmaların, ürünün en iyi satış çok popüler olan ürün listesine yerleştirilmesiyle ilgili olarak kullanılmasını önerir. 
 
@@ -68,13 +65,13 @@ Parametreleri değiştirmeden önce, aşağıdaki sonuçların nasıl etkilendik
 1.  Tabloya ürün eklemek için **Satır ekle** seçin. 
 1.  Ürün sütunu altında, **adı** veya **ürün numarasını** kullanarak ürünü arayın.
 
-    ![Yeni ürün listesinde ürün arama örneği](./media/examplenewlistconfiguration1.png)
+    ![Yeni ürün listesinde ürün arama örneği.](./media/examplenewlistconfiguration1.png)
 
 1.  Satır türü sütunu altında, iki seçenekten birini belirleyin:
     -   **Dahil et** – bir ürünü listenin önüne zorlar
     -   **Dışla** – bir ürünün listede görünmesini kaldırır
     
-    ![Ürünü yeni ürün listesinden içerme veya hariç tutma örneği](./media/examplenewlistconfiguration2.png)
+    ![Ürünü yeni ürün listesinden içerme veya hariç tutma örneği.](./media/examplenewlistconfiguration2.png)
 
 1.  **Görüntüleme sırasının** değiştirilmesi, **dahil** edilen ürünlerin listede görüneceği sırayı değiştirir.
     - İki ürün aynı **görüntü sipariş** değerine sahipse, bu iki sonucun son sırası arka ofisten farklı olabilir.
@@ -90,11 +87,11 @@ Parametreleri değiştirmeden önce, aşağıdaki sonuçların nasıl etkilendik
 Bir çekirdek ürünle ilgili sonuçları el ile eklemek veya kaldırmak için aşağıdaki adımları izleyin:
 1.  **Tohum ürünü** seçin. 
 1.  **Ürün** sütunu altında, **adı** veya **ürün numarasını** kullanarak ürünü arayın.
-![Yeni ürün listesinde ürün arama örneği](./media/exampleFBTlistconfiguration1.png)
+![Yeni ürün listesinde ürün arama örneği.](./media/exampleFBTlistconfiguration1.png)
 1. **Satır türü** sütunu altında, iki seçenekten birini belirleyin:
     - **Dahil et** – bir ürünü listenin önüne zorlar
     - **Dışla** – bir ürünün listede görünmesini kaldırır     
-![En sık satın alınan listede ürün ekleme veya çıkarma örneği](./media/exampleFBTlistconfiguration2.png)
+![En sık satın alınan listede ürün ekleme veya çıkarma örneği.](./media/exampleFBTlistconfiguration2.png)
 1.  Tablodan ürün kaldırmak için: kaldırılacak satırı seçin ve Kaldır 'ı seçin.
 
 
@@ -121,3 +118,6 @@ Bir çekirdek ürünle ilgili sonuçları el ile eklemek veya kaldırmak için a
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

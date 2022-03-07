@@ -2,11 +2,9 @@
 title: Kayıtlı görünümler
 description: Bu konu, kaydedilmiş görünümler özelliklerinin nasıl kullanılacağını açıklar.
 author: jasongre
-manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, IT Pro
@@ -15,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693713"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065718"
 ---
 # <a name="saved-views"></a>Kayıtlı görünümler
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ## <a name="introduction"></a>Giriş
 
@@ -49,6 +50,8 @@ Görünüm seçicisinde iki boyut varyasyonu vardır:
  
 Görünüm adını seçerseniz görünüm seçicisi açılır ve bu sayfayla ilgili kullanılabilir görünümlerin listesini gösterir.
 
+**Sürüm 10.0.21 veya sonrası:** **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği etkinleştirildiğinde görünüm seçici, kullanılabilir görünümleri iki bölümde gösterir. İlk bölüm, mevcut tüzel kişiliğe özgü tüm görünümleri gösterir ve ikinci bölüm, tüm tüzel kişilikler tarafından kullanılabilen görünümleri gösterir. İlk bölüm, yalnızca sayfa için tüzel kişiliğe özel görünümler varsa görünür.
+
 - **Standart görünüm**: **Standart** görünüm kişiselleştirme uygulanmamış olan sayfanın kutudan çıkış görünümden yer alır.
 - **Kişisel görünümler**: Asma kilitleri olmayan görünümler kişisel görünümlerinizi temsil eder. Bunlar, oluşturduğunuz veya bir yöneticinin size verdiği görünümlerdir.
 - **Kilitli görünümler**: Bazı görünümlerde ( **Standart** görünüm ve rolünüze yayımlanmış görünümler gibi), görünüm seçicide görünümün yanında bir asma kilit simgesi bulunur. Bu simge, bu görünümleri düzenleyemeyeceğinizi belirtir. Ancak, sayfa kullanımını yansıtan değişiklikler otomatik olarak kaydedilir. Bu değişiklikler kılavuz sütununun genişliğinde değişiklikler ve bir hızlı sekmenin genişletilmiş ya da daraltılmış durumunda yapılan değişiklikler içerir. Ancak kişiselleştirme ayrıcalıklarınız varsa, **Farklı kaydet** eylemini kullanarak kilitli bir görünümü temel alan kişisel bir görünüm de yapabilirsiniz.
@@ -69,15 +72,18 @@ Bu değişiklikleri kaydetmek istiyorsanız, aşağıdaki adımları izleyin.
 3. Yeni bir görünüm oluşturmak için:
 
     1. **Farklı kaydet**'i seçin. 
-    2. Bir görünüm adı ve (isteğe bağlı olarak) bir açıklama girin.
-    3. **Kaydet**'i seçin.
+    2. **Görünümü farklı kaydet** bölmesinde, görünüm için bir ad ve isteğe bağlı olarak bir açıklama girin.
+    3. Bu görünümün varsayılan görünümünüz olmasını istiyorsanız **Varsayılan olarak sabitle**'yi seçin. Varsayılan görünümler hakkında daha fazla bilgi için bir sonraki [Varsayılan görünümü değiştirme](#changing-the-default-view) bölümüne bakın. 
+    4. **Sürüm 10.0.21 veya sonrası:** **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği etkinleştirildiğinde bu görünümün tüm tüzel kişilikler için mi yoksa yalnızca tüzel kişiliklerin bir alt kümesi için mi kullanılabilir olmasını istediğinizi seçebilirsiniz.
+    5. **Kaydet**'i seçin.
 
 ## <a name="changing-the-default-view"></a>Varsayılan görünümü değiştirmek
 
 Varsayılan görünüm, sayfayı ilk açtığınızda sistemin açmaya çalışacağı görünümdür. Varsayılan görünümü en sık olarak kullanmayı beklediğiniz görünüme ayarlamalısınız. 
 
 > [!NOTE]
-> Şirketler arasında tek bir genel varsayılan görünüm vardır. Varsayılan görünümü değiştirirseniz, o anda içinde bulunduğunuz tüzel kişilik ne olursa olsun, o görünüm varsayılan olarak açılır. 
+> - Temel **Kayıtlı görünümler** özelliğinde, tüzel kişilikler için tek bir genel varsayılan görünüm vardır. Varsayılan görünümü değiştirirseniz, o anda içinde bulunduğunuz tüzel kişilik ne olursa olsun, o görünüm varsayılan olarak açılır.
+> - **Sürüm 10.0.21 veya sonrası:** **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği etkinleştirildiğinde her tüzel kişilik, sayfa başına kendi varsayılan görünümüne sahip olabilir.
 
 Bir sayfa için varsayılan görünümü değiştirmek için şu adımları izleyin:
 
@@ -87,20 +93,23 @@ Bir sayfa için varsayılan görünümü değiştirmek için şu adımları izle
 
 Alternatif olarak, yeni bir görünüm oluştururken (**Farklı kaydet** eylemini kullanarak), görünümü kaydetmeden önce, **Varsayılan olarak sabitle** olarak ayarlayarak yeni görünümü varsayılan görünüm haline getirebilirsiniz.
 
-Bazı durumlarda, bir sayfaya ilk gittiğinizde varsayılan görünümle ilişkilendirilmiş sorgunun çalıştırılmayacağını unutmayın. Örneğin, bir sayfayı bir kutucuk üzerinden açarsanız, kutucuktaki sorgu, varsayılan görünümle ilişkilendirilmiş sorgudan bağımsız olarak çalıştırılır. Ayrıca, tanımlı bir sorguya sahip **Standart** görünümlü bir sayfayı açarsanız varsayılan görünümün sorgusunun yerine özgün sorgu çalıştırılır. Bu durumda, görünüm yüklendiğinde bir bilgi iletisi alacaksınız. Sayfa yüklendikten sonra görünümler arasında geçiş yaptığınızda, görünüm sorgusu beklendiği gibi çalışamaz. Sürüm 10.0.10 ve sonrasında, aldığınız bilgi iletisi varsayılan görünümün sorgusunu doğrudan yükleme olanağı sağlayan katıştırılmış bir eyleme sahip olacaktır.
+> [!WARNING]
+> Bazı durumlarda, bir sayfayı ilk kez açtığınızda varsayılan görünümle ilişkilendirilmiş sorgu çalışmaz. Örneğin, bir sayfayı bir kutucuk üzerinden açarsanız, kutucuktaki sorgu, varsayılan görünümle ilişkilendirilmiş sorgudan bağımsız olarak çalıştırılır. Ayrıca tanımlı bir sorguya sahip **standart** görünümlü bir sayfayı açarsanız varsayılan görünümün sorgusunun yerine özgün sorgu çalıştırılır. Bu durumda, görünüm yüklendiğinde bir bilgi iletisi alacaksınız. Sayfa yüklendikten sonra görünümler arasında geçiş yaptığınızda, görünüm sorgusu beklendiği gibi çalışamaz. Sürüm 10.0.10 ve sonrasında, aldığınız bilgi iletisi varsayılan görünümün sorgusunu doğrudan yükleme olanağı sağlayan katıştırılmış bir eyleme sahip olacaktır.
 
 ## <a name="managing-personal-views"></a>Kişisel görünümleri yönetme
 
 **Görünümlerimi Yönet** iletişim kutusu, kişisel görünümleriniz ve görünüm seçicisindeki görünümlerin sırası üzerinde temel bakım olanakları sağlar. Bu sayfayı açmak için görünüm seçiciyi açılır menüsünü açmak üzere görünüm adını tıklatın, **Diğer**'i seçin ve sonra **Görünümlerimi Yönet**'i seçin.
 
+**Sürüm 10.0.21 veya sonrası:** **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği etkinleştirildiğinde **Görünümlerimi yönet** iletişim kutusunun **Görünümlerim** bölümü, sayfa için mevcut görünümleri bölümler halinde gösterir. Mevcut tüzel kişiliğe özel görünümler kendi bölümlerinde gösterilir. **Genel görünümler** bölümü her zaman gösterilir, böylece tüm tüzel kişiliklerde sayfa için mevcut olan görünümleri yönetebilirsiniz. 
+
 Bu sayfayla ilgili kullanılabilir görünümlerin listesi için aşağıdaki eylemler kümesi kullanılabilir.
 
-- **Varsayılan görünümü değiştir**: **Varsayılan olarak sabitle** eylemini geçerli seçilmiş görünümü bu sayfa için varsayılan görünüm yapmak üzere kullanın.
+- **Varsayılan görünümü değiştir**: **Varsayılan olarak sabitle** eylemini geçerli seçilmiş görünümü bu sayfa için varsayılan görünüm yapmak üzere kullanın. **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği etkinleştirildiğinde **Genel görünümler** bölümü, geçerli tüzel kişilik veya tüm tüzel kişilikler için bir görünümü varsayılan görünüm yapmanıza olanak tanır.
 - **Görünümlerinizi yeniden sıralayın**: Görünümlerinizi belirli bir sırada yeniden düzenlemek için **Yukarı taşı** ve **Aşağı taşı** eylemlerini kullanın.
 - **Görünümüyeniden adlandırın**: Seçilmiş olan kişisel görünümün adını değiştirmek için **Yeniden Adlandır** eylemini kullanın. Bu eylem kilitli görünümler için kapatılmıştır. 
 - **Görünümü sil**: Geçerli olarak seçilmiş görünümü sayfadan kalıcı olarak silmek için **Sil** eylemini kullanın. Bir görünümü kaldırdıktan sonra kurtarmanın bir yolu yoktur.
 
-Bu iletişim kutusunda yapılan tüm değişiklikler **Kaydet** düğmesini seçtikten sonra etkinleşir.
+Bu iletişim kutusunda yapılan tüm değişiklikler **Güncelleştir** düğmesini seçtikten sonra etkinleşir.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Organizasyon düzeyindeki kişiselleştirmeleri görünümleriyle yönetmek
 
@@ -123,19 +132,34 @@ Bir görünümü yayımlamak için şu adımları izleyin:
 1. Yayımlamak istediğiniz görünümün kişisel bir kopyasını oluşturun ve kaydedin. 
 2. Şu anda yüklü olan görünümle, görünüm adını, görünüm seçici açılır menüsünü açmak için seçin. 
 3. **Diğer** düğmesini ve ardından **Yayımla**'yı seçin. Yayınla iletişim kutusu açılır.
-4. Görünüm için bir ad ve (isteğe bağlı olarak) bir açıklama girin. Girdiğiniz ad, görünümü alan kullanıcıların görünüm seçicileri içinde görebilmeleri için kullanılan addır. Bir sayfayla ilgili yayımlanmış görünümlerin adları benzersiz olmalıdır. Görünümlerin uygulandığı roller listesi veya tüzel kişilikler farklılık gösterse bile yinelenen adlara izin verilmez.
-5. **Sürüm 10.0.9 ve sonrası:** Görünümün, seçilen kullanıcılar için varsayılan görünüm olarak yayımlanıp yayımlanmayacağını belirleyin. Bir görünüm varsayılan olarak ayarlandığında, bu görünüm, kullanıcıların hedef sayfayı bir sonraki açtıklarında görecekleri görünüm olur. Hedeflenen her kullanıcının tek, genel varsayılan görünümü değiştirilir. Ancak, yayımlama gerçekleştirildikten sonra kullanıcılar varsayılan görünümlerini değiştirmeye devam edebilir.
-6. Bu görünüm tarafından hedeflenen kullanıcılara karşılık gelen güvenlik rollerini ekleyin. 
-7. **Sürüm 10.0.13 ve sonrası:** Görünümü, seçilen her güvenlik rolünün alt rollerine yayımlamak isteyip istenediğinizi belirleyin. İstiyorsanız uygun güvenlik rolleri için satırdaki **Alt rolleri dahil et** onay kutusunu seçin. Bu onay kutusu, alt rollere sahip olmayan roller için kullanılamaz.
-7. Bu görünümün kullanılabilir olması gereken tüzel kişilikleri ekleyin. 
-8. **Yayımla**'yı seçin.
+4. Görünümün adını girin. Girdiğiniz ad, görünümü alan kullanıcıların görünüm seçicileri içinde görebilmeleri için kullanılan addır. Bir sayfayla ilgili yayımlanmış görünümlerin adları benzersiz olmalıdır. Görünümlerin uygulandığı roller listesi veya tüzel kişilikler farklılık gösterse bile yinelenen adlara izin verilmez.
+5. **10.0.17 ve sonraki güncelleştirmeler:** **(Önizleme) Kuruluş görünümleri için çeviri desteği** özelliği açıksa, **Ad** alanının yanındaki **Çeviriler** düğmesini seçerek görünüm adı için kuruluşunuzda gerekli olan dil kadar çeviri ekleyebilirsinzi. Ardından görünüm adı kullanıcılara geçerli dillerinde gösterilir. Çeviri tanımlanmayan dilleri çalıştıran kullanıcılara gösterilecek çeviriyi belirtmek için varsayılan dili de ayarlayabilirsiniz.
+5. İsteğe bağlı: Görünüm için bir açıklama girin; böylece bu görünümü alan kullanıcılar amacını daha iyi anlayabilir. 
+6. Görünümün, seçilen kullanıcılar için varsayılan görünüm olarak yayımlanıp yayımlanmayacağını belirleyin. Bir görünüm varsayılan olarak ayarlandığında, bu görünüm, kullanıcıların hedef sayfayı bir sonraki açtıklarında görecekleri görünüm olur. Hedeflenen her kullanıcının tek, genel varsayılan görünümü değiştirilir. Ancak, yayımlama gerçekleştirildikten sonra kullanıcılar varsayılan görünümlerini değiştirmeye devam edebilir.
+
+    > [!NOTE]
+    > Görünümü varsayılan görünüm olarak yayımladığınızda aşağıdaki davranışa dikkat edin:
+    >
+    > - Görünümü tüzel kişiliklerin bazılarına veya tümüne varsayılan görünüm olarak yayımladığınızda aşağıdaki davranış gerçekleşir:
+    >
+    >    - Yalnızca temel **Kayıtlı görünümler** özelliği etkinleştirilirse hedeflenen her kullanıcı için tek ve genel olan varsayılan görünüm değişir. 
+    >    - **Sürüm 10.0.21 veya sonrası:** **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği etkinleştirildiğinde ve görünümü tüzel kişiliklerin bir alt kümesine yayımladığınızda bu tüzel kişiliklerin varsayılan görünümü, hedeflenen tüm kullanıcılar için değişir.
+    >
+    > - Bir kullanıcının birden çok görünümün varsayılan görünüm olarak yayımlandığı rollere sahip olması durumunda, yayımlanan son görünüm kullanıcının varsayılan görünümü olarak kullanılacaktır. 
+
+8. Bu görünüm tarafından hedeflenen kullanıcılara karşılık gelen güvenlik rollerini ekleyin. 
+9. Görünümü, seçilen her güvenlik rolünün alt rollerine yayımlamak isteyip istenediğinizi belirleyin. İstiyorsanız uygun güvenlik rolleri için satırdaki **Alt rolleri dahil et** onay kutusunu seçin. Bu onay kutusu, alt rollere sahip olmayan roller için kullanılamaz.
+10. Bu görünümün kullanılabilir olması gereken tüzel kişilikleri ekleyin. 
+
+    > [!NOTE]
+    > Belirli bir tüzel kişiliğe bir görünüm yayımlayıp bu görünümü varsayılan görünüm olarak yayımlamazsanız aşağıdaki davranışa dikkat edin:
+    >
+    > - Yalnızca temel **Kayıtlı görünümler** özelliği etkinleştirildiğinde kullanıcının sayfa için görünüm seçicisi başlangıçta yalnızca belirtilen tüzel kişilikler için görünümü gösterir. Ancak görünümün ilk kez yüklenmesinin ardından sayfanın görünüm seçicisi tüzel kişiliklerden bağımsız olarak her zaman yüklenen görünümü gösterir.
+    > - **Sürüm 10.0.21 veya sonrası:** **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği etkinleştirildiğinde görünüm seçici yalnızca belirtilen tüzel kişilikler için görünümü gösterir.
+
+11. **Yayımla**'yı seçin.
 
 Bazı ortamlarda, kullanıcılar yayımlanan görünümü görebilmeleri için biraz zaman (bir saat kadar) sürebilir.
-
-> [!NOTE]
-> Tüzel bir varlığa bir görünüm yayımladığınızda veya bir görünümü varsayılan görünüm olarak yayımladığınızda, aşağıdaki beklentilerin farkında olun.
-> - Bir görünümü tüzel kişiliklerin tümüne veya bir kısmına varsayılan görünüm olarak yayımlarsanız, hedeflenen her kullanıcının tek, genel varsayılan görünümünü değiştirirsiniz. Bir kullanıcının birden çok görünümün varsayılan görünüm olarak yayımlandığı rollere sahip olması durumunda, yayımlanan son görünüm kullanıcının varsayılan görünümü olarak kullanılacaktır. 
-> - Bir görünümü tüzel bir kişiliğe yayımlarsanız fakat bunu varsayılan görünüm olarak yayımlamazsanız, kullanıcılar başlangıçta yalnızca belirtilen tüzel kişilikler için görünüm seçicide görünümü görürler. Ancak, görünüm ilk kez yüklendikten sonra, tüzel kişilerden bağımsız olarak her zaman bu sayfanın kullanıcı görünümü seçicisinde olacaktır. 
 
 ## <a name="modifying-a-published-view"></a>Yayınlanmış görünümü değiştirme
 
@@ -146,27 +170,15 @@ Yayınlanmış bir görünümde yapmak istediğiniz değişiklikler yalnızca ya
 1. Güncelleştirmek istediğiniz parametreler için yayımlanmış görünüme geçin. 
 2. Görünüm seçici açılır menüsünden **Yeniden Yayımla**'yı seçin. Sürüm 10.0.12 veya öncesini kullanıyorsanız varolan görünümü güncelleştirmek için **Yayımla**'yı ve sonra **Evet**'i seçmelisiniz.
 3. Görünüm için ad, açıklama, güvenlik rolleri ve tüzel kişilikleri güncelleştirin. 
-4. **Yayımla**'yı seçin. 
-5. **Sürüm 10.0.8 ve öncesi:** Yayımlanan görünümün adını güncelleştirdiyseniz, eski adı içeren yayımlanmış görünümü de silmelisiniz. (Daha fazla bilgi için [Yayımlanmış görünümleri yönetme](saved-views.md#managing-published-views) bölümüne bakın.)
+4. **Yayımla**'yı seçin. Özgün olarak bu yayımlanan görünümü varsayılan görünüm olarak seçtiyseniz, yeniden yayımladıktan sonra kullanıcılar için varsayılan görünüm olur. 
 
-**Sürüm 10.0.9 ve sonrası:** Özgün olarak bu yayımlanan görünümü varsayılan görünüm olarak seçtiyseniz, yeniden yayımladıktan sonra kullanıcılar için varsayılan görünüm olur.
-
-Yayınlanan görünümde yapılan değişiklikler görünümle ilişkili kişiselleştirmeler veya filtrelerle değişiklik yapmak içeriyorsa, şu adımları izleyin: 
-
-**Sürüm 10.0.13 ve sonrası:** Gerekli değişiklikleri doğrudan görünümde yapın. Görünüm adının yanında bir yıldız işareti (\*) görünmelidir.
+Yayınlanan görünümde yapılan değişiklikler, görünümle ilişkili kişiselleştirmeler veya filtrelerde değişiklik içeriyorsa aşağıdaki adımları izleyin.
 
 1. Değiştirmek istediğiniz yayımlanmış görünümü yükleyin. 
 2. Yerel taslakta gerekli değişiklikleri yapın.
 3. Görünüm seçici açılır menüsünden **Yeniden Yayımla**'yı seçin.
 4. Görünümü, kaydedilmemiş değişiklikleriyle birlikte yayımlamak istediğinizi belirtmek için **Evet**'i seçin. 
 5. Düzeltme gerektiren tüm yayımlama parametrelerini ayarlayın ve sonra **Yayımla**'yı seçin. 
-
-**Sürüm 10.0.12 ve öncesi**
-
-1. Değiştirmek istediğiniz yayımlanmış görünümü yükleyin. 
-2. Yayımlanmış görünümün yerel taslağını oluşturmak için yayımlanmış görünümün bir kopyasını kaydedin. 
-3. Yerel taslağı gerekli değişikliklerle değiştirin.
-4. Görünümü özgün adıyla yayımlayın. 
 
 ## <a name="managing-published-views"></a>Yayımlanmış görünümleri yönetme
 
@@ -179,22 +191,23 @@ Sayfa için tüm yayımlanmış görünümlerin listesi için aşağıdaki eylem
 - **Yeniden Yayımla**: Yayımlama parametreleri (ad, açıklama, güvenlik rolleri) değiştirildikten sonra bir görünümü yeniden yayımlamak için **Yeniden Yayımla** eylemini kullanın.
 - **Yayımla**: Şu anda yayımdan kaldırılmış bir görünümü yayımlamak için **Yayımla** eylemini kullanın. 
 - **Yayımdan Kaldır**: Bir görünümü devre dışı bırakmak için **Yayımdan Kaldır** eylemini kullanın. Görünüm sistemde kullanılabilir olmaya devam eder ancak kullanıcılar görünüm yeniden yayımlanana kadar görünüm seçicisinde göremez.
-- **Kişisel olarak Kaydet** – yayınlanan görünümün kişisel taslak kopyasını oluşturmak için **kişisel olarak Kaydet** eylemini kullanın. Bu özellik, size yayınlanmamış veya henüz yayınlanmamış bir görünümün içeriğini anlamanıza yardımcı olabilir. Ayrıca, bir görünümü düzenleyip yeniden yayımlamak için de kullanabilirsiniz. Bu özellik 10.0.12 sürümünde tanıtılmıştır.
+- **Kişisel olarak Kaydet** – yayınlanan görünümün kişisel taslak kopyasını oluşturmak için **kişisel olarak Kaydet** eylemini kullanın. Bu özellik, size yayınlanmamış veya henüz yayınlanmamış bir görünümün içeriğini anlamanıza yardımcı olabilir. Ayrıca, bir görünümü düzenleyip yeniden yayımlamak için de kullanabilirsiniz.
 - **Sil**: Yayımlanmış bir görünümü kalıcı olarak silmek veya yayımdan kaldırmak için **Sil** eylemini kullanın. Bu eylem sistemdeki tüm kullanıcıların görünümünü de kaldırır. Yayımlanan görünümlerin kaldırılması **Kaydet** düğmesi seçildikten sonra etkili olur. Bir görünüm silindikten sonra kurtarılamaz. 
 
 ## <a name="managing-views-globally"></a>Görünümleri genel olarak yönetme
 
 Bu konuda belirtildiği gibi, bazı yönetim özellikleri her sayfada yer almakla birlikte, **sistem yöneticileri** ve **kaydedilmiş görünüm yöneticileri**, **Kişiselleştirme** sayfası aracılığıyla sistem için görünümleri daha da yönetebilir . Özellikle, Bu sayfa aşağıdaki bölümlere ve yeteneklere sahiptir: 
 
-- **Yayınlanan Görünümler** – Bu bölüm, organizasyonunuz için yayımlanmış tüm görünümleri listeler. Burada, görünümün hedeflediği güvenlik rollerini veya tüzel kişilikler ayarladıktan sonra bir görünümü yeniden yayımlayabilirsiniz. Dilerseniz görünümleri dışa aktarabiliri silebilir veya yayımdan kaldırabilirsiniz. Sürüm 10.0.12 ve sonraki sürümlerde, bir görünümün bir kişisel kopyasını oluşturmak için **kişisel olarak Kaydet** eylemini kullanabilirsiniz, böylece görünümü güncelleştirebilir veya içeriğini daha iyi anlamaya olanak verebilirsiniz. 
-- **Yayımlanmamış görünümler**: Bu bölüm, sisteminizdeki yayımlanmayan tüm kuruluş görünümlerini listeler. Bu görünümler genellikle içe aktarma özelliği aracılığıyla sisteme gelir. Bu görünümleri yayımlayabilir, dışa aktarabilir veya silebilirsiniz. 10.0.12 sürümüne eklenen **hızlı yayımlama** eylemi, varolan güvenlik rolü ve yasal varlık yapılandırmaları kullanılarak tek bir eylemde bu bölümdeki çoklu görünümlerin yayımlanmasına olanak tanır. Sürüm 10.0.12 ve sonraki sürümlerde, görünümün bir kişisel kopyasını oluşturmak için **kişisel olarak Kaydet** eylemini kullanabilirsiniz, böylece görünümü güncelleştirebilir veya içeriğini daha iyi anlamaya olanak verebilirsiniz.
+- **Yayınlanan Görünümler** – Bu bölüm, organizasyonunuz için yayımlanmış tüm görünümleri listeler. Burada, görünümün hedeflediği güvenlik rollerini veya tüzel kişilikler ayarladıktan sonra bir görünümü yeniden yayımlayabilirsiniz. Dilerseniz görünümleri dışa aktarabiliri silebilir veya yayımdan kaldırabilirsiniz. Bir görünümün bir kişisel kopyasını oluşturmak için **Kişisel olarak kaydet** eylemini kullanabilirsiniz, böylece görünümü güncelleştirebilir veya içeriğinin daha iyi anlaşılmasını sağlayabilirsiniz. 
+- **Yayımlanmamış görünümler**: Bu bölüm, sisteminizdeki yayımlanmayan tüm kuruluş görünümlerini listeler. Bu görünümler genellikle içe aktarma özelliği aracılığıyla sisteme gelir. Bu görünümleri yayımlayabilir, dışa aktarabilir veya silebilirsiniz. 10.0.12 sürümüne eklenen **hızlı yayımlama** eylemi, varolan güvenlik rolü ve yasal varlık yapılandırmaları kullanılarak tek bir eylemde bu bölümdeki çoklu görünümlerin yayımlanmasına olanak tanır. Görünümün bir kişisel kopyasını oluşturmak için **Kişisel olarak kaydet** eylemini kullanabilirsiniz, böylece görünümü güncelleştirebilir veya içeriğinim daha iyi anlaşılmasını sağlayabilirsiniz.
 - **Kişisel görünümler** – Bu bölümde tüm görünümler sistemdeki kullanıcılar tarafından oluşturulur. Bir kişisel görünümü kuruluşa yayımlayabilir veya bu görünümlerden birini veya birkaçını diğer kullanıcılara kopyalayabilirsiniz. Bu görünümleri gerektiğinde dışa aktarabilir veya silebilirsiniz.
 - **Kullanıcı ayarları**: Görüntülenecek kullanıcıyı seçin veya kullanıcının tüm sistem veya kullanıcının ziyaret ettiği belirli sayfalar için kişiselleştirme özelliğini kullanma olanağını ayarlayın. Kullanıcının kişiselleştirmelerini görüntüleyebilir ve sistemde etkileşime geçebilirsiniz. Ayrıca, o kullanıcının tüm kişiselleştirmelerini silebilir veya kullanıcının özellik açıklamalarını sıfırlayabilirsiniz. Özellik açıklamaları sıfırlanırsa yeni özellikler sunan ve kullanıcının daha önce kapattığı tüm açılan pencereler kullanıcının bu özelliklerle sonraki karşılaşmasında yeniden görünür.
 - **Sistem ayarları**: Tüm kullanıcılar için kişiselleştirmeleri geçici olarak devre dışı bırakabilirsiniz. Bu durumda, tüm kullanıcılar için hiçbir kişiselleştirme uygulanmaz ve tüm sayfalar varsayılan durumlarına sıfırlanır. Kişiselleştirmeyi daha sonra yeniden etkinleştirirseniz, tüm kişiselleştirmeler yeniden uygulanır. Ayrıca sistemdeki tüm kullanıcılar için tüm kişiselleştirmeleri kalıcı olarak silebilirsiniz. Silinmiş kişiselleştirmeler kurtarılamaz. Bu nedenle, bu görevi uygulamadan önce, daha sonra içeri aktarmak isteyebileceğiniz kişiselleştirmeleri dışa aktardığınızdan emin olun.
 
-**Kişiselleştirme** sayfasına erişimi olan kullanıcılar, Eylem bölmesindeki **Görünümleri içe aktar** düğmesini kullanarak kişisel veya kuruluş görünümlerini de içe aktarabilir. Sürüm 10.0.12 ve sonrasında, içe aktarıldıklarında görünümlerin hemen yayımlanması için bir mekanizma eklenmiştir.
+**Kişiselleştirme** sayfasına erişimi olan kullanıcılar, Eylem bölmesindeki **Görünümleri içe aktar** düğmesini kullanarak kişisel veya kuruluş görünümlerini de içe aktarabilir. Kuruluş görünümlerinde, ek açık yayımlama olmadan görünümleri kullanıcılara sunmak için **Hemen yayımla**'yı seçebilirsiniz.
 
 ## <a name="known-issues"></a>Bilinen sorunlar
+
 Kaydedilmiş görünümlerle ilgili bilinen sorunların listesi için bkz. [Kaydedilmiş görünümlerden tam olarak yararlanan formlar oluşturma](../../dev-itpro/user-interface/understanding-saved-views.md).
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
@@ -202,29 +215,9 @@ Kaydedilmiş görünümlerle ilgili bilinen sorunların listesi için bkz. [Kayd
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaydedilmiş görünümleri ortamımda nasıl etkinleştirebilirim?
 
 > [!NOTE]
-> **kaydedilmiş görünümler** özelliği, kişiselleştirme sisteminin Finance and Operations'da etkinleştirilmesini gerektirir. Tüm ortam için kişiselleştirme kapatılmışsa, aşağıdaki adımları izleseniz bile görünümler devre dışı bırakılır. 
+> **Kaydedilmiş görünümler** özelliği, Kişiselleştirme sisteminin Finans ve Operasyon'da etkinleştirilmesini gerektirir. Tüm ortam için kişiselleştirme kapatılmışsa, aşağıdaki adımları izleseniz bile görünümler devre dışı bırakılır. 
 
-**Sürüm 10.0.13 ve sonrası**
-
-**Kaydedilmiş görünümler** özelliği artık önizlemede değil. Artık, herhangi bir ortamda doğrudan Özellik yönetimi yoluyla kullanılabilir.
-
-**Sürüm 10.0.9-10.0.12**
-
-**Kaydedilmiş görünümler** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Diğer genel Önizleme özellikleri gibi, üretim için bu özelliğin etkinleştirilmesi, [Tamamlayıcı Kullanım Koşulları Sözleşmesine](https://go.microsoft.com/fwlink/?linkid=2105274) tabidir.
-
-**10.0.8 / Platform güncelleştirmesi 32 ve öncesi**
-
-**Kaydedilmiş görünümler** özelliği, aşağıdaki adımları izleyerek ek test ve tasarım değişiklikleri sağlamak amacıyla katman 1 (geliştirme/test) ve katman 2 (korumalı alan) ortamlarında etkinleştirilebilir.
-
-1. **Uçuşu etkinleştirin**: Aşağıdaki SQL beyanını yürütün: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
-
-2. Statik deneme sürümü önbelleğini temizlemesi için **IIS'yi Sıfırla**'yın. 
-3. **Özelliği bulun**: **Özellik Yönetimi** çalışma alanına gidin. **Kaydedilmiş görünümler** listede görünmüyorsa **Güncelleştirmeleri denetle**'yi seçin.
-4. **Özelliği etkinleştirin**: **Özellikler listesinde kaydedilmiş görünümler** özelliğini bulun ve Ayrıntılar bölmesindeki **Şimdi etkinleştir**'i seçin.
-
-Sonraki tüm kullanıcı oturumları kaydedilmiş görünümleri etkin olarak başlayacaktır.
+**Kayıtlı görünümler** özelliğini herhangi bir ortamda Özellik yönetimi ile etkinleştirebilir veya devre dışı bırakabilirsiniz. Etkinleştirildiğinde kayıtlı görünümler sonraki tüm kullanıcı oturumlarında etkinleştirilir.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Görünümler etkinleştirildiğinde varolan kişiselleştirmeler ne olur? 
 
@@ -253,3 +246,12 @@ Büyük görünüm seçicileri olan sayfalar için (hem kişiselleştirmeler hem
 
 - Bir sayfaya bir kutucukta gezindiğinizde, döşemedeki sorgu, varsayılan görünümle ilişkilendirilmiş sorgudan bağımsız olarak yürütülür. Bu kutucuğu, görünümler etkinleştirildikten sonra oluşturduysanız, bir kutucuk seçilmesi sayfayı o döşemeyle ilişkili görünümle açar.
 - Bir sayfaya giderseniz ve bu giriş noktası bir sorguya sahipse, özgün sorgu başlangıçta varsayılan görünümün sorgusunun yerine yürütülür. Bu durumda, görünüm yüklenirken bir bilgi iletisi ile uyarı alırsınız. Ayrıca, sayfa yüklendikten sonra bu görünüme geçerek, görünüm sorgusunun ne olursa olsun yürütülmesine izin vermek istiyorsanız da onay alabilirsiniz.
+
+### <a name="why-is-a-view-that-was-published-for-a-specific-legal-entity-visible-in-all-legal-entities"></a>Belirli bir tüzel kişilik için yayımlanan bir görünüm neden tüm tüzel kişiliklerde görünüyor?
+
+Belirli bir tüzel kişiliğe bir görünüm yayımlayıp bu görünümü varsayılan görünüm olarak yayımlamazsanız aşağıdaki davranış gerçekleşir:
+
+- Yalnızca temel **Kayıtlı görünümler** özelliği etkinleştirildiğinde kullanıcının sayfa için görünüm seçicisi başlangıçta yalnızca belirtilen tüzel kişilikler için görünümü gösterir. Ancak görünümün ilk kez yüklenmesinin ardından sayfanın görünüm seçicisi tüzel kişiliklerden bağımsız olarak her zaman yüklenen görünümü gösterir. Bu davranış, kullanıcıların kendi kişisel kopyalarını yayımlanan görünüm yüklendikten sonra aldıkları için ve kişisel görünümlerin genel olması nedeniyle oluşur.
+- **Sürüm 10.0.21 veya sonrası:** **Kaydedilmiş görünümler için geliştirilmiş tüzel kişilik desteği** özelliği etkinleştirildiğinde görünüm seçici yalnızca belirtilen tüzel kişilikler için görünümü gösterir. Bu davranış, özellik sayesinde görünümlerin (kişisel görünümler dahil) belirli tüzel kişiliklere bağlanması nedeniyle oluşur.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

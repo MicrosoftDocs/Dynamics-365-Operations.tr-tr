@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TMSZoneMaster
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-01-09
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2112e7131281cd485b580fd71536981c1ba4aefd
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: 28c0724a20199595b0e2c19867ccaa4876d37980
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439765"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233331"
 ---
 # <a name="transportation-management-zone-master"></a>Taşıma yönetimi ana bölgesi
 
@@ -36,3 +35,6 @@ Taşıma yönetimi coğrafi konumları bölgelere bölmenize olanak tanır. Konu
 - **Rota planlamayı iyileştirme**: Belirli bölgelere özel rota planları atamayı sağlar.
 
 Bölgeleri, her bölgeyi nitelendirmek için kullanılan meta veri alan değerlerini (ülke/bölge, posta kodu aralığı veya taşıyıcı hizmeti gibi) temel alarak tanımlarsınız. Taşımacılık fiyatlarınız bir bölge kavramı kullanmıyorsa bölge tanımları gerekli değildir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

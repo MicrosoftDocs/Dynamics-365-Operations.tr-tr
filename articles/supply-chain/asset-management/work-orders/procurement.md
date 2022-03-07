@@ -1,12 +1,10 @@
 ---
 title: Tedarik
 description: Bu konuda Kıymet Yönetimi'ndeki tedarikleri açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743662"
 ---
 # <a name="procurement"></a>Tedarik
 
@@ -38,7 +36,7 @@ Varlık Yönetiminde, iş emirleriyle ilgili satınalma taleplerinin ve satınal
 
 Aşağıdaki şekilde **İş emri satınalma talebi** liste sayfası örneği gösterilmektedir.
 
-![Şekil 1](media/08-work-orders.png)
+![Şekil 1.](media/08-work-orders.png)
 
 
 **İş emri satınalma** liste sayfası (**Varlık yönetimi** > **Ortak** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma siparişlerinin listesini görüntüler. Bu sayfada bir iş emri işi seçtiğinizde, çeşitli eylemleri gerçekleştirmek için Eylem bölmesindeki **İş emri satınalma** sekmesinde bulunan **Göster** grubunda bulunan düğmeleri kullanabilirsiniz:
@@ -49,7 +47,7 @@ Aşağıdaki şekilde **İş emri satınalma talebi** liste sayfası örneği g�
 
 Aşağıdaki şekilde **İş emri satınalma** liste sayfası örneği gösterilmektedir.
 
-![Şekil 2](media/09-work-orders.png)
+![Şekil 2.](media/09-work-orders.png)
 
 
 Hem **İş emri satınalma** listesi sayfasında, hem de **İş emri satınalma talebi** liste sayfasında, her satırın sağ tarafında teslimat tarihi denetimiyle ilişkili bir simge görüntülenir. Simge kırmızı daire içinde bir ünlem işareti gösteriyorsa, ilgili satınalma talebinde veya satınalma siparişinde teslimat gecikebilir.
@@ -95,7 +93,10 @@ Bir satınalma siparişi satırıyla ilişkili faaliyet numarasını görüntül
 
 Aşağıdaki örnekte **Faaliyet numarasına** odaklanılmış **Satınalma siparişi** sayfası örneği gösterilmektedir.
 
-![Şekil 3](media/10-work-orders.png)
+![Şekil 3.](media/10-work-orders.png)
 
 Benzer şekilde, bir siş emri satınalma talebi satırıyla ilgili faaliyet numarasını görüntülemek veya girmek için **İş emri satınalma talebi** liste sayfasında satınalma talebi kaydını seçin ve ardından **Satınalma talebi** sütununda, satınalma talebi bağlantısını seçin. **Satır ayrıntıları** hızlı sekmesinin **Proje** sekmesinde **Faaliyet numarası** alanını bulabilirsiniz.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

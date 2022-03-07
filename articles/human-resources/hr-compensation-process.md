@@ -2,29 +2,29 @@
 title: Ücret işleme
 description: Ücret işleme, öz varlık düzenlemeleri, başarı artışı hedefleri ve performansı temel alarak personelinizin yeni taban ücret tutarlarını hesaplamanıza olanak tanır.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59627edd4503d9d4d5a87d8eb09b4be4f855c112
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420934"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800939"
 ---
 # <a name="process-compensation"></a>Ücret işleme
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Ücret işleme, öz varlık düzenlemeleri, başarı artışı hedefleri ve performansı temel alarak personelinizin yeni taban ücret tutarlarını hesaplamanıza olanak tanır. Bu konu, bir personelin performansını değerlendirmeye katılmadan sabit ücret planları için ücret işleme temel akışını ele almaktadır.
 
@@ -34,7 +34,7 @@ Personelinize başarı artışı vermek için, tüm Departmanlarınız için sab
 ## <a name="set-up-the-compensation-process"></a>Ücret işlemini ayarlama
 Bir işlem olayı ücret işleme parametreleri belirtmenize olanak verir. Bu ücretlendirme tutarlarını belirlemek için değerleme tarih aralığını ve yeni ücret tutarlarının etkin olacağı tarihi içerir.
 
-Sabit ücret planlarınız Yüzde türünde işe alma kuralı kullanıyorsa, isteğe bağlı olarak sabit ödemeli eşit dağıtılmış işe alma tarihi de ekleyebilirsiniz. Bu planlar için döngü başlangıç tarihinden sonra ve sabit ödemeli eşit dağıtılmış işe alma tarihinden önce işe alınan bir kişi hesaplanan başarı veya genel artışının %100'nü alacaktır. Sabit ödemeli eşit dağıtılmış işe alma tarihinden sonra ve döngü bitiş tarihinden önce işe alınan bir kişi, işe alındığında toplam döngü gün sayısından kaç gün geçtiği temel alınarak hesaplanan artışın bir bölümünü alır. Örneğin döngü 1 Ocak ile 31 Aralık arasındaysa ve 1 Nisan tarihli sabit ödemeli eşit dağıtılmış işe alma tarihimiz varsa, Mart ayında işe alınan personel hesaplanan tam artışı alırken 1 Temmuz tarihinde işe alınan bir personel yaklaşık olarak hesaplanan artışın yarısını alır.
+Sabit ücret planlarınız Yüzde türünde işe alma kuralı kullanıyorsa, isteğe bağlı olarak sabit ödemeli eşit dağıtılmış işe alma tarihi de ekleyebilirsiniz. Bu planlar için döngü başlangıç tarihinden sonra ve sabit ödemeli eşit dağıtılmış işe alma tarihinden önce işe alınan bir kişi hesaplanan başarı veya genel artışının %100'ünü alacaktır. Sabit ödemeli eşit dağıtılmış işe alma tarihinden sonra ve döngü bitiş tarihinden önce işe alınan bir kişi, işe alındığında toplam döngü gün sayısından kaç gün geçtiği temel alınarak hesaplanan artışın bir bölümünü alır. Örneğin döngü 1 Ocak ile 31 Aralık arasındaysa ve 1 Nisan tarihli sabit ödemeli eşit dağıtılmış işe alma tarihimiz varsa, Mart ayında işe alınan personel hesaplanan tam artışı alırken 1 Temmuz tarihinde işe alınan bir personel yaklaşık olarak hesaplanan artışın yarısını alır.
 
 İşlem olayı **Belirli bir nokta** tarihi, yalnızca belirli değişken ücret planlarını işlemek için kullanılır ve burada açıklanmaz. **İnceleme son tarihi** tüm önerileri yapmak için son tarihtir, böylece yeni ücret tutarları personelin kaydına yüklenebilir. İnceleme tarihi yalnızca bilgilendirme amaçlıdır.
 
@@ -77,3 +77,6 @@ Yalnızca Adım Adım plan türüne sahip **Sabit ücret** eylemleri ekleyebilir
 Bir veya daha fazla çalışan olayının durumu onaylandı olarak güncelleştirildikten sonra, bu olaylar çalışanların sabit ücret kayıtlarına yüklenebilir. Bu işlem her personel olayını ayrı ayrı seçip **Çalışan sonuçları** sayfasındaki **Personel ücretini yükle** düğmesine tıklayarak veya onaylanan tüm çalışan olaylarını bir kerede yüklemek için **İşlem sonuçları** sayfasındaki **Ücreti yükle**'ye tıklayarak yapılabilir.
 
 **Ücreti yükle** iletişim kutusundaki **Tamam**'a tıklamak **Çalışan sabit ücreti** sayfasına sıfır olmayan ücret eylemi satırları ekleyecektir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,23 @@
 title: Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış
 description: Bu konu, Dynamics 365 Commerce'te varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış sağlar.
 author: ashishmsft
-manager: annbe
 ms.date: 06/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416392"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982446"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış
 
@@ -34,7 +30,7 @@ Bu konu, Microsoft Dynamics 365 Commerce e-Ticaret'te varsayılan kategori açı
 
 Varsayılan kategori giriş sayfası, Web sitesi kullanıcılarının gezinti hiyerarşisinde bir kategori seçdiklerinde aldığı bir sayfa. Kategori sayfası gözatmanıza olanak tanır ve ayrıca kategorilere ayrılmış ürünleri sıralayabilir ve bunları iyileştirebilirsiniz.
 
-![Varsyılan kategori açılış sayfası](./media/SimpleCategoryLandingDressCategory.png)
+![Varsyılan kategori açılış sayfası.](./media/SimpleCategoryLandingDressCategory.png)
 
 Sayfanın üst bölümünde, ticaret yöneticisinin kategorilere ayrılmış tüm ürün kategorilerini ve diğer sayfaları gösteren bir başlık yer vardır. Konfigürasyon, kanal gezinme hiyerarşisinin konfigürasyonunun bir parçası olarak gerçekleştirilir. Sayfanın alt bölümünde, bir alışverişçinin ilgilenebileceği çeşitli konularda hızlı bağlantılar içeren bir altbilgi yer almaktadır.
 
@@ -58,7 +54,7 @@ Kategori için aşağıdaki bileşenler gereklidir:
 
 Kategori giriş sayfasının belirli bir kategori için daha özel bir deneyim olmasını istiyorsanız, o kategori için kategori giriş sayfasını "zenginleştirebilirsiniz". Örneğin, alışverişçinin dikkatini çekmek için pazarlama videosu ve bazı kategori öykülerinde bir hikaye ekleyebilirsiniz. Daha fazla bilgi için bkz. [Kategori giriş sayfasını zenginleştirme](enrich-category-page.md).
 
-![Zenginleştirilmiş kategori açılış sayfası](./media/CategoryLandingPages.png)
+![Zenginleştirilmiş kategori açılış sayfası.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Otomatik önerme ve arama sonuçları sayfaları
 
@@ -72,11 +68,11 @@ Aşağıda, gösterilebilecek öneri türleri yer verilmektedir:
 - **Ürünler**, ürün ayrıntıları sayfasına doğrudan bağlantılar sağlar.
 - **Kapsamlı kategori arama önerileri**, çeşitli kategorileri listeler ve kullanıcıların anahtar sözcüğü belirli bir kategoride aramasını sağlar.
 
-![Derinlikli otomatik önerme](./media/ImmersiveAutoSuggestUX.png)
+![Derinlikli otomatik önerme.](./media/ImmersiveAutoSuggestUX.png)
 
 Kullanıcılar anahtar sözcük veya kapsamlı kategori arama önerinden birini seçtiklerinde veya girdikleri arama terimi için hiçbir öneri olmadığında, bunlar arama sonuçları sayfasına yönlendirilir. Kullanıcılar daha sonra, istenen maddeyi bulmak için arama sonuçları listesine göz atabilir, sıralayabilir ve belirginleştirebilirsiniz.
 
-![Arama giriş sayfası](./media/SearchLanding.png)
+![Arama giriş sayfası.](./media/SearchLanding.png)
 
 Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
 
@@ -97,7 +93,7 @@ Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
 
 >[!NOTE]
 >Bu bulut destekli arama özellikleri 10.0.8 sürümünden başlayarak kullanılabilir. **Commerce parametreleri > konfigürasyon parametrelerinin** altında "ProductSearch.UseAzureSearch set to 'true'" olduğundan emin olun. 
-![Bulut destekli arama için yapılandırma parametreleri](./media/CloudPoweredSearchConfigurationParameters.png)
+![Bulut destekli arama için yapılandırma parametreleri.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -111,3 +107,6 @@ Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
 
 [Hesap yönetimi sayfalarına genel bakış](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

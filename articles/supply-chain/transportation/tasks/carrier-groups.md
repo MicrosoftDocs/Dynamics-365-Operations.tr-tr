@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSCarrierGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2570479edac9bc8cc7aa998a8b69f54ffc10cd61
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 95517153dda06cecf8e57b1f9b080aa07966c111
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646446"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247275"
 ---
 # <a name="carrier-groups"></a>Taşıyıcı grupları
 
@@ -38,3 +37,6 @@ Aynı rota segmenti için birden fazla sevkiyat taşıyıcısı ve taşıyıcı 
 1. **Ad** alanına grup için açıklayıcı bir ad girin.
 1. **Ayrıntılar** hızlı sekmesinde, bir satır ekleyin ve bunun için bir sevkiyat taşıyıcısı ve bir taşıyıcı hizmeti seçin. Grup için gerek duyduğunuz sayıda taşıyıcı ekleyinceye kadar bu adımı yineleyin.
 1. Sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

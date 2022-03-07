@@ -2,11 +2,9 @@
 title: Planlanmış çapraz sevk
 description: Bu konuda, bir sipariş için gereken stok miktarının kabulden veya oluşturma aşamasından doğru çıkış noktasına veya hazırlama alanına kadar yönlendirildiği, ileri düzeyde planlanmış çapraz sevk açıklanmaktadır. Gelen kaynaktan kalan tüm stok, normal yerine koyma işlemiyle doğru depolama yerleşimine yönlendirilir.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970318"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573045"
 ---
 # <a name="planned-cross-docking"></a>Planlanmış çapraz sevk
 
@@ -30,19 +28,21 @@ Bu konuda, ileri düzeyde planlı çapraz sevk açıklanmaktadır. Çapraz sevk,
 
 Çapraz sevk, çalışanların zaten bir giden sipariş için işaretlenmiş olan stokun gelen yerine koyma ve giden çekme işlemini atlamasını sağlar. Bu sayede stok işlem sayısı olabildiğince azaltılır. Ek olarak, sistemle daha az etkileşim olduğu için, ambardaki zaman ve alan tasarrufları artar.
 
-Çapraz sevkin çalıştırılabilmesi için, kullanıcının tedarik kaynağının ve çapraz sevke ilişkin diğer gereksinimler dizisinin belirtildiği yeni bir çapraz sevk şablonu yapılandırması gerekir. Giden sipariş oluşturulurken, satır, aynı maddeyi içeren bir gelen siparişe göre işaretlenmelidir.
+Çapraz sevkin çalıştırılabilmesi için, tedarik kaynağının ve çapraz sevke ilişkin diğer gereksinimler dizisinin belirtildiği yeni bir çapraz sevk şablonu yapılandırmanız gerekir. Giden sipariş oluşturulurken, satır, aynı maddeyi içeren bir gelen siparişe göre işaretlenmelidir. Çapraz sevk şablonunda, stok yenileme ve satınalma siparişlerini ayarlama şeklinize benzer şekilde yönerge kodu alanını seçebilirsiniz.
 
 Her gelen sipariş alındığında, çapraz sevk kurulumu çapraz sevk gereksinimini otomatik olarak belirler ve yerleşim yönergesinin kurulumuna göre, gereken miktar için hareket işini oluşturur.
 
 > [!NOTE]
-> Bu becerinin ayarı Ambar yönetimi parametrelerinde açık olsa bile, çapraz sevk işi iptal edildiği zaman stok hareketlerinin **kaydı silinmez**.
+> Bu becerinin ayarı Ambar yönetimi parametrelerinde açık olsa bile, çapraz sevk işi iptal edildiği zaman stok hareketlerinin *kaydı silinmez*.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Planlanmış çapraz sevk özelliğini açın
+## <a name="turn-on-the-planned-cross-docking-features"></a>Planlanmış merkezden dağıtım özelliklerini açma
 
-İleri düzeyde planlanmış çapraz sevki kullanabilmeniz için özelliğin sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+Sisteminiz bu konuda açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve aşağıdaki özellikleri aşağıdaki sırayla açın:
 
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Planlanmış çapraz sevk*
+1. *Planlanmış çapraz sevk*
+1. *Yerleşim yönergeleri olan çapraz sevk şablonları*
+    > [!NOTE]
+    > Bu özellik, çapraz sevk şablonunda, stok yenileme şablonlarını ayarlama şeklinize benzer şekilde **Yönerge kodu** alanının belirtilmesini sağlar. Bu özelliği etkinleştirmek, son *Yerine koyma* satırı için çapraz sevk iş şablonu satırlarına bir yönerge kodu eklemenizi engeller. Bu, iş şablonlarını dikkate almadan önce son yerine koyma konumunun iş oluşturma sırasında belirlenebilmesini sağlar.
 
 ## <a name="setup"></a>Ayar
 
@@ -90,6 +90,10 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
         Bu seçenek, tedarik girişi sırasında tedarikin yeniden doğrulanıp doğrulanmayacağını tanımlar. Bu seçenek *Evet* olarak ayarlanırsa , maksimum zaman aralığı ve sona erme gün sayısı aralığı da işaretlenir.
 
+    - **Yönerge kodu:** Bu alanı boş bırakın
+
+        Bu seçenek, *Konum yönergelerine sahip çapraz sevk şablonları* özelliği tarafından etkinleştirilir. Sistem, geçici stoku taşımak için en iyi konumu belirlemeye yardımcı olmak üzere konum yönergelerini kullanır. İlgili her merkezden dağıtım şablonuna bir yönerge kodu atayarak ayarlayabilirsiniz. Yönerge kodu ayarlanırsa, iş oluşturulduğunda sistem yerleşim yönergelerini yönerge koduna göre arar. Bu şekilde, belirli bir çapraz sevk şablonu için kullanılan konum yönergelerini sınırlayabilirsiniz.
+
     - **Zaman aralığını doğrula:** *Evet*
 
         Bu seçenek, bir tedarik kaynağı seçildiğinde maksimum zaman aralığının değerlendirilip değerlendirilmeyeceğini tanımlar. Bu seçenek *Evet* olarak ayarlanırsa, maksimum ve minimum zaman aralıklarıyla ilgili alanlar kullanılabilir duruma gelir.
@@ -112,6 +116,9 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
     - **Sıra numarası:** *1*
     - **Tedarik kaynağı:** *Satınalma siparişi*
+
+> [!NOTE]
+> Belirli bir çapraz sevk şablonu kullanıldığında kontrol etmek için bir sorgu ayarlayabilirsiniz. Çapraz sevk şablonları için sorguda yalnızca *InventTable* (öğeler) tablosu ve içten birleştirilen *WHSInventTable* (WHS öğeleri) tablosu vardır. Sorguya başka tablolar eklemek isterseniz bunları yalnızca *birleştirmelerden çık* veya *birleştirmelerden çıkma* kullanarak birleştirebilirsiniz. Birleştirilmiş tablolara filtre uyguladığınızda birleştirilen tabloda eşleşen her kayıt için ana tablodan bir kayıt alınır. Birleştirme türü *birleştirmeden çık* ise arama, ilk eşleştirme bulunduğunda sonlanır. Örneğin, satış siparişi satırı tablosunu öğeler tablosuyla birleştirirseniz sistem, en az bir satış siparişi satırında tanımlanan koşulun bulunduğu öğeleri doğrular ve döndürür. Esas olarak, veriler alt (satış siparişi satırı) tablodan değil, üst (öğeler) tablodan alınır. Bu nedenle, satış siparişi satırları veya müşteriler gibi kaynak belgelere göre filtre uygulama işlemi kullanıma hazır olarak gerçekleştirilemez.
 
 ### <a name="create-a-work-class"></a>İş sınıfı oluşturma
 
@@ -147,6 +154,9 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
     - **İş sınıfı kodu:** *CrossDock*
 
 1. **Kaydet**'i seçin ve *51 Çapraz Sevk* şablonu için **Geçerli** onay kutusunun işaretlendiğini onaylayın.
+1. İsteğe bağlı: İş şablonunun kullanılacağı zamanı ve yeri denetlemek için ölçüt ayarlamak isterseniz **Sorguyu düzenle**'yi seçin.
+
+    Belirli iş şablonu kullanıldığında kontrol etmek için bir sorgu ayarlayabilirsiniz. Örneğin, bir şablonun yalnızca belirli bir konumda çalışacak şekilde kullanılabileceğini belirtebilirsiniz. Çapraz sevk iş şablonunun belirli bir konumda uygulanmasını isterseniz gelen işlemler (satınalma, çapraz sevk ve stok yenileme) için iş oluşturma, yerine koyma satırından başladığından **Konum** alanında değil, **Başlangıç konumu** alanında filtre uygulamanız gerekir. İş oluşturulduğunda konum yönergesi, **Konum** alanını yerine koyma konumu olarak ayarlar. Ancak çekme konumu, **Başlangıç konumu** alanında depolanır.
 
 > [!NOTE]
 > *Çekme* ve *Koyma* iş türleri için iş sınıfı kodları aynı olmalıdır.
@@ -314,4 +324,7 @@ Oluşturulan ikinci iş kodunun **İş emri türü** değeri *Satınalma sipari�
 
 Aşağıdaki şekil, tamamlanmış çapraz sevk işinin Microsoft Dynamics 365 Supply Chain Management'ta nasıl görünebileceğini gösteriyor.
 
-![Tamamlanmış çapraz sevk işi](media/PlannedCrossDockingWork.png "Tamamlanmış çapraz sevk işi")
+![Tamamlanmış çapraz sevk işi.](media/PlannedCrossDockingWork.png "Tamamlanmış çapraz sevk işi")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

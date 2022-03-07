@@ -1,29 +1,26 @@
 ---
 title: Sevkiyat otomatik güncelleştirmeleri
 description: Bu konu, sevkiyatlar için otomatik güncelleştirme sağlayan işleve genel bir bakış sağlar.
-author: josaw1
-manager: tfehr
+author: Mirzaab
 ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3402a4c90299cf52e489e85ed55aff9762796545
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439096"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580108"
 ---
 # <a name="shipment-auto-updates"></a>Sevkiyat otomatik güncelleştirmeleri
 
@@ -140,3 +137,6 @@ Dalga işlenir ve yük satırlarındaki rezerve edilen miktarlar için iş oluş
 Bir sevkiyatın durumu **Dalga oluşturuldu** veya daha yüksek bir durum olduğunda, bir satış siparişi satırındaki miktara ilişkin güncelleştirmeler, sevkiyatla ilişkilendirilmiş bir yükleme satırına yansıtılmaz veya bu satıra göre doğrulanmaz. Bir yük satırındaki miktar üzerinde yapılan değişiklikler doğrudan yük satırında yapılmalıdır.
 
 Doğrulama, yük satırı için iş oluşturulduktan ve rezervasyon yapıldıktan sonra gerçekleştirilir. Satış siparişi satırının miktarındaki azalma iş satırı rezervasyonuna göre doğrulanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

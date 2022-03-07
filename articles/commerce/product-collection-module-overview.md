@@ -3,35 +3,32 @@ title: Ürün topluluğu modülleri
 description: Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgili genel bir bakış sağlar.
 author: v-chgri
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8fb0909e258f68146e1af3cf998634fb351ef71
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416297"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231116"
 ---
 # <a name="product-collection-modules"></a>Ürün topluluğu modülleri
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgili genel bir bakış sağlar.
-
-## <a name="overview"></a>Genel Bakış
 
 Ürün bulma, perakendecilerin müşterileri e-ticaret Web sitesinde kullanmak için kullandıkları birincil araçtır. Ürün koleksiyonu modülleri, perakende olarak hızlı bir şekilde yazmak için kullanılabilen sezgisel bir görsel arabirim sağlayarak, perakendecilere çekici alışveriş deneyimleri oluşturur.
 
@@ -67,6 +64,10 @@ Aşağıdaki tabloda, Dynamics 365 Commerce'de çeşitli türlerdeki ürün kole
 | Sıklıkla birlikte satın alınan | Yapay Zeka/Makine öğrenme | Bu modül, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle birlikte satın alınan ilgili öğeleri önermek için makine öğrenmeyi kullanır. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
 | Diğer sevilen ürünler           | Yapay Zeka/Makine öğrenme | Bu modül, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle ilgili öğeleri önermek için makine öğrenmeyi kullanır. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
 | Size özel çekmeler              | Yapay Zeka/Makine öğrenme | Bu modül, oturum açan kullanıcının satın alma düzenlerini analiz etmek ve bu satınalma desenlerine dayalı kişiselleştirilmiş öneriler sağlamak için makine öğrenmeyi kullanır. Konuk Kullanıcı için bu liste daraltılacak. |
+
+## <a name="supported-modules"></a>Desteklenen modüller 
+
+Ürün koleksiyonu modülü, kullanıcıların ürün bilgilerini görüntülemesine ve bir ürün koleksiyonu sayfasından alışveriş sepetine ürün eklemesine olanak veren [hızlı görüntüleme modülünü](quick-view-module.md) destekler.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Kategori sayfasına ürün koleksiyonu modülü ekleme
 
@@ -106,6 +107,11 @@ Aşağıdaki tabloda, **Ürün listesi konfigürasyonu seç** iletişim kutusund
 
 [Kapsayıcı modülü](add-container-module.md)
 
-[Satınalma kutusu modülü](add-buy-box.md)
+[Satın alma kutusu modülü](add-buy-box.md)
 
 [Ürün önerilerine genel bakış](product-recommendations.md)
+
+[Hızlı görüntüleme modülü](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

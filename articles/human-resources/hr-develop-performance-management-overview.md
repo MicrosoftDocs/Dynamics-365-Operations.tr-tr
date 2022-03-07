@@ -2,29 +2,30 @@
 title: Performans yönetimi
 description: Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Talent
-ms.custom: 221024
+ms.search.scope: Human Resources
+ms.custom:
+- "221024"
+- intro-internal
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b1265c2ad63bffee055a925f9241a9df91a0bec9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420948"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360508"
 ---
 # <a name="performance-management"></a>Performans yönetimi
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir.  
 
@@ -34,7 +35,7 @@ Aşağıdaki çizimde gösterildiği gibi, işlemi yönetmenize yardımcı olaca
 -   Hedefler
 -   Performans gözden geçirmesi
 
-Aşağıdaki diyagramda, performans yönetimi ana bileşenlerinin birbiriyle nasıl ilişkili olduğu gösterilir. [![Performans işlemine genel bakış](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Aşağıdaki diyagramda, performans yönetimi ana bileşenlerinin birbiriyle nasıl ilişkili olduğu gösterilir. [![Performans işlemine genel bakış.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Performans günlüğü
 
@@ -93,7 +94,7 @@ Ayrıca personelin yetkinliklerini tartışmak, gözden geçirmek ve derecelendi
 
 Oluşturduğunuz şablonlara göre yeni gözden geçirmeler oluşturabilirsiniz. Örneğin bire birler, gelişme planları veya periyodik gözden geçirmeler için bir şablonunuz olabilir. Yeni bir gözden geçirme oluşturduğunuzda şablon seçebilirsiniz.
 
-İncelemeleri yazdırmak için, **gözden geçirmeyi Yazdır** düğmesini seçin. **İnceleme** sayfasında düğmeyi görmüyorsanız, **özellik Yönetimi** çalışma alanında özelliği etkinleştirmiş olduğunuzdan emin olun. Özellik yönetimi hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+İncelemeleri yazdırmak için, **gözden geçirmeyi Yazdır** düğmesini seçin. **İnceleme** sayfasında düğmeyi görmüyorsanız, **özellik Yönetimi** çalışma alanında özelliği etkinleştirmiş olduğunuzdan emin olun. Özellik yönetimi hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
 > Performans incelemelerinin yazdırma özelliği yalnızca Human Resources'ta vardır. Dynamics 365 Finance'te kullanılamaz.
@@ -163,3 +164,5 @@ Performans günlüğü kaynak türleri, performans günlüğünün nereden geldi
 ### <a name="review-types"></a>Gözden geçirme türleri
 
 Performans gözden geçirme türleri, bir gözden geçirmenin davranışını denetlemenize yardımcı olur. Gözden geçirme için iş akışını etkinleştirebilir veya devre dışı bırakabilirsiniz. Gözden geçirme iş akışı kullanmıyorsa gözden geçirme oluşturulduğunda kullanılacak varsayılan durumu tanımlayabilirsiniz. Ayrıca personel, yönetici veya her ikisinin birden gözden geçirmede oturumu kapatıp kapatmaması gerektiğine de karar verebilirsiniz.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

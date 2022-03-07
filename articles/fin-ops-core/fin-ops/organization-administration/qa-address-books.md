@@ -2,11 +2,9 @@
 title: Adres defterleri SSS
 description: Bu konu, adres defterleri hakkında sık sorulan sorulara yanıt sağlar.
 author: msftbrking
-manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5809d4a29c4209d8fb42bdfd441a3a4fb201ca6c6318abc0315a02ead7c551de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759173"
 ---
 # <a name="address-books-faq"></a>Adres defterleriyle ilgili SSS
 
@@ -67,3 +65,11 @@ Taraf kayıtlarını Genel Adres Defteri'ne veya uygun varlık sayfasında gireb
 ## <a name="can-i-translate-address-information-for-party-records"></a>Taraf kayıtları için adres bilgilerini çevirebilir miyim?
 
 Adres bilgilerinin çevirilerini ayarlayabilirsiniz, böylece bilgiler programınızda kullanıcı dilinde (sistem dili) görüntülenirken, satış siparişleri gibi belgelerde farklı bir dilde görüntülenecektir. Ülke/bölge adları, adres amaçları ve isim serileri için çeviriler girebilirsiniz. Örneğin, sistem dilinizi Danca'dır ve Fransa'daki bir müşteri için bir satış siparişi oluşturursunuz. Bu durumda, müşteri kaydını program içerisinde Danca olarak görüntüleyebilir fakat yazdırılan satış siparişinde adres bilgilerini Fransızca görüntüleyebilirsiniz. Çevirileri ayarladığınızda, listedeki her öğe için çeviri girmeniz gerekir. Çeviri girmediğiniz her öğe sistem dilinde görüntülenecektir. Örneğin, sistem dilinizi Danca'dır ve İspanya'daki bir müşteriye bir belge gönderiyorsunuz. Adres bilgileri için İspanyolca (ESP) çeviriler girmediyseniz, bu bilgiler hem programda hem de yazdırılan belgede Danca olarak görünür.
+
+## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Adresleri içe aktardıktan sonra, kayıtlara eriştiğimde içe aktarılan adresleri niçin düzenleyemiyorum?
+
+Adresler içe aktarılırken konumla (adresle) ilişkilendirilmiş olan tarafın adresin sahibi olup olmadığını gösteren, **IsLocationOwner** etiketli bir alan vardır. Taraf, adresin sahibiyse genel adres defterindeki taraf kullanılarak veya ana kayıt formundan (müşteri, satıcı veya çalışan gibi) erişildiğinde adres düzenlenebilir. Taraf, adresin sahibi değilse, kayıt daha önce listelenmiş olan formlardan düzenlenemez. Adres içe aktarılırken, ilgili taraf kullanılarak adresin düzenlenebilir olmasını istiyorsanız **IsLocationOwner** **Evet** olarak ayarlanmalıdır. Ancak, bu alanın yanlış içe aktarıldığı zamanlar olabilir. Bu sorunu gidermek için, konum sahibi, taraf kaydından veya **konum sahiplerini Onayla** sayfasından genel adres defteri içinde güncelleştirilebilir. Tek bir taraf kaydını güncelleştirmek için, **Genel Adres Defteri > adres**'e gidin. Konum sahibini değiştirmek üzere **adresi düzenle** sayfasını başlatmak için **Düzenle**'yi seçin. Önceki konum sahibini ve geçerli seçili tarafı yeni konum sahibi olarak görmek için **konum sahibini Değiştir**'i seçin. Önceki konum sahibi boş ise, bir konum sahibi belirlenmemiş demektir. **Gelişmiş** seçeneğinin belirlenmesi, konum sahibinin de ayarlanabildiği **Adresleri Yönet** sayfasını açar. Güncelleştirilecek konumu seçin ve menüden **Konum sahibini ayarla**'yı seçin. Birden çok kaydın konum sahibini güncelleştirmek için, **Genel Adres Defteri > Konumlar > Konum sahiplerini onayla**'ya gidin. Listede tek bir kişiye bağlı olan konumlar var, ancak o kişi sahip değil. **Sahibi Onayla** seçeneğinin belirlenmesi **Önerilen sahip olan taraf kimliğini** bağlantılı adresin sahibi olarak ayarlar. Taraf sahip olarak ayarladıktan sonra, bağlı adres taraf kaydından düzenlenebilir hale gelir. Konum sahibini değiştirmek için, **güvenlik yapılandırması** sayfasında **konumu sahibini ayarla** ayrıcalığının atamış olması gerekir.  Sistem yöneticisine bu ayrıcalık varsayılan olarak verilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

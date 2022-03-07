@@ -1,6 +1,6 @@
 ---
 title: Perakende hareketlerini düzenlemek için bir Excel çalışma kitabı oluşturma
-description: Bu konuda, Microsoft Dynamics 365 Commerce uygulamasında perakende Konsol ve PC'de en iyi Electronic Arts oyunları, özel ödüller ve üyelere özgü içerik bulunan kitaplı düzenleyebilmeniz için bir Excel çalışma kitabının nasıl oluşturulacağı açıklanmaktadır.
+description: Bu konuda, Microsoft Dynamics 365 Commerce'ta perakende hareketlerini düzenleyebilmek için nasıl Excel çalışma kitabı oluşturabileceğiniz açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 11/04/2020
@@ -17,22 +17,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73a3387d1e7251168002ff683b5b58e0c82a620c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3a4bc0a91ee2215dcde2f18575d58ab1ef2f5581
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965389"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207955"
 ---
 # <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>Perakende hareketlerini düzenlemek için bir Excel çalışma kitabı oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce uygulamasında perakende Konsol ve PC'de en iyi Electronic Arts oyunları, özel ödüller ve üyelere özgü içerik bulunan kitaplı düzenleyebilmeniz için bir Excel çalışma kitabının nasıl oluşturulacağı açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 Commerce'ta perakende hareketlerini düzenleyebilmek için nasıl Excel çalışma kitabı oluşturabileceğiniz açıklanmaktadır.
 
 ## <a name="overview"></a>Genel bakış
 
-Müşterilerin, sistemin farklı bölümlerinden erişebilecekleri ve perakende hareketlerini düzenleyip denetlemek için kullanabilecekleri önceden tanımlanmış bir Excel şablonu vardır. Ancak müşteriler bu amaçla özel bir Excel çalışma kitabı da oluşturabilirler.
+Müşterilerin sistemin farklı bölümlerinden erişebilecekleri ve perakende hareketlerini düzenleyip denetlemek için kullanabilecekleri önceden tanımlanmış bir Excel şablonu bulunur. Ancak müşteriler bu amaçla özel bir Excel çalışma kitabı da oluşturabilirler.
 
 ## <a name="create-and-configure-an-excel-workbook"></a>Excel çalışma kitabı oluşturma ve yapılandırma
 
@@ -78,3 +78,6 @@ Perakende hareketlerini düzenleyebileceğiniz bir Excel çalışma kitabı olu�
 [Perakende hareketlerinin mali boyutlarını düzenleme](edit-financial-dim.md)
 
 [Perakende hareketlerini düzenlemek için Excel çalışma kitabına alanlar ekleme](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

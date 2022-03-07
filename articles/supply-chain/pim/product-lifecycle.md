@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 51a6b19e84f368bf72b664e120f262ddcf7c7611
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: aaa3747dd13d56726251b150a8e0a3ec2dced614
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439757"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247850"
 ---
 # <a name="product-lifecycle-state-overview"></a>Ürün yaşam döngüsü durumuna genel bakış
 
@@ -109,3 +108,6 @@ Serbest bırakılan ürünleri ve ürün çeşitlerini seçmek ve güncelleştir
 - [Serbest bırakılan ürüne ürün yaşam döngüsü durumu atama](tasks/product-lifecycle-state-released-product.md)
 - [Eski ürün çeşitlerini bulma ve bir ürün yaşam döngüsü durumu atama](tasks/obsolete-product-variants.md)
 - [Ürünleri Master planlama dışında tutmak için bir ürün yaşam döngüsü durumu oluşturma](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

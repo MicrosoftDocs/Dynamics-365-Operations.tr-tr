@@ -2,11 +2,9 @@
 title: Planlı siparişleri koruma
 description: Bu konuda planlı siparişleri yönetme yöntemleri hakkında bilgiler yer alır. Planlı siparişlerin durumunun nasıl güncelleştirileceğini, kesinleştirileceğini ve seçilen planlı sipariş ile aynı duruma sahip planlı siparişlerin nasıl filtreleneceğini açıklar.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 039fce86ac9649989df1eaa6179c79dd98b8ae3f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7f97dc4627f9bb3a0ac2020b966de7e58aafcedc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967090"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833677"
 ---
 # <a name="maintain-planned-orders"></a>Planlı siparişleri koruma
 
@@ -67,3 +65,6 @@ Birçok siparişi aynı anda kesinleştirmek istiyorsanız çalışmayı koşut 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

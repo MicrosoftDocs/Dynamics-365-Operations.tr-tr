@@ -2,27 +2,24 @@
 title: Giriş sayfasına genel bakış
 description: Bu konu Microsoft Dynamics 365 Commerce'te giriş sayfası hakkında bilgi sağlar.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416533"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984506"
 ---
 # <a name="home-page-overview"></a>Giriş sayfasına genel bakış
 
@@ -30,13 +27,11 @@ ms.locfileid: "4416533"
 
 Bu konu Microsoft Dynamics 365 Commerce'te giriş sayfası hakkında bilgi sağlar.
 
-## <a name="overview"></a>Genel Bakış
-
 Giriş sayfası, alışverişçilerin bir e-ticaret sitesini ziyaret ettiklerinde gideceği varsayılan sayfasıdır. Tipik olarak bu sayfa, ürünler ve promosyonlar için pazarlama modüllerinin bir birleşimini kullanarak servis talebi kullanır. Alışverişçileri bağlı tutmak için ana sayfa, görüntü ve metinle zengin olmalıdır.
 
 Aşağıdaki çizimde, modül kitaplığı ve "Fabrikam" teması kullanılarak oluşturulmuş bir ana sayfa örneği gösterilmektedir.
 
-![Giriş sayfası örneği](./media/Homepage2.PNG)
+![Giriş sayfası örneği.](./media/Homepage2.PNG)
 
 Giriş sayfanın üst bölümünde, perakendecinin müşterilerin göz atmasını istediği tüm ürün kategorilerini ve diğer sayfaları gösteren bir başlık yer vardır. Giriş sayfanın alt bölümünde, bir müşterilerin ilgilenebileceği çeşitli konularda hızlı bağlantılar içeren bir altbilgi yer almaktadır.
 
@@ -46,13 +41,13 @@ Giriş sayfasının ana bölümü, ürünleri, kategorileri veya yükseltmeleri 
 
     Aşağıdaki şekilde, ana bölümdeki ilk öğenin "Yeni Varış" adı adlı bir içerik blokunun hero modülü olduğu giriş sayfası örneği gösterilmektedir.
 
-    ![Hero modülü örneği](./media/Hero.PNG)
+    ![Hero modülü örneği.](./media/Hero.PNG)
 
 - **Özellik** - İçerik bloku modülünün özellik düzeni, ürünleri veya promosyonları bir görüntü ve metin birleşimiyle pazarlamak için kullanılır. Özellik düzenleri bağımsız olarak kullanılabilir veya bir döngü modül içinde barındırılabilir.
 
     Aşağıdaki resimde, özellik düzenine sahip bir içerik bloğu modülü örneği gösterilmektedir.
 
-    ![Özellik modülleri örnekleri](./media/Feature.PNG)
+    ![Özellik modülleri örnekleri.](./media/Feature.PNG)
 
 - **Kutucuk** – bir içerik bloku modülü kutucuk düzeni, çok sütunlu bir düzende bir görüntü ve metin bileşimi kullanarak birden fazla ürün veya ürün kategorisini sergileyerek kullanılır. Bu konunun başlarında görünen bir giriş sayfası gösterimde, **Alışveriş kadınlar**, **Alışveriş erkek** ve **Alışveriş Aksesuarları** kalemlerin üç sütunlu düzeni için içerik yerleşim modülü kullanılır.
 - **Video oynatıcı** – Bir video oynatıcı modülü giriş sayfasındaki video içeriğini sergileyebilecek şekilde kullanılabilir. Bu konunun yukarısında görünen bir giriş sayfasının resmi bir video oynatıcı modülü içerir.
@@ -61,7 +56,7 @@ Giriş sayfasının ana bölümü, ürünleri, kategorileri veya yükseltmeleri 
 
     Aşağıdaki çizimde giriş sayfasındaki ürün önerileri modüllerinin bir örneği gösterilmektedir.
 
-    ![Ürün öneri modüllerine örnekler](./media/Recommendations.PNG)
+    ![Ürün öneri modüllerine örnekler.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Burada listelenen tüm modüller herhangi bir site sayfasında kullanılabilir. Ancak, müşteriler siteyle ilk kez etkileşimde bulunduğu için, giriş sayfasındaki yerleşimleri önemlidir.
@@ -73,3 +68,6 @@ Giriş sayfasının ana bölümü, ürünleri, kategorileri veya yükseltmeleri 
 [Sepet ve ödeme sayfalarına genel bakış](quick-tour-cart-checkout.md)
 
 [Hesap yönetimi sayfalarına genel bakış](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

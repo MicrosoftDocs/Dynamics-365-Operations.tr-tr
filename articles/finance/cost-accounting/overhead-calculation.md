@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
-ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "7551816"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188009"
 ---
 # <a name="overhead-calculation"></a>Genel gider hesaplaması
 
@@ -46,9 +46,9 @@ Genel gider hesaplama, maliyet muhasebesi ilkelerini doğru sırayla çalıştı
 -   Mali yıl
 -   Mali dönem
 
-Genel gider hesaplama, sürümden bağımsız olarak çalışır. Bu nedenle, Gerçek sürümden önce Bütçe sürümünü hesaplayabilirsiniz. Genel gider hesaplama dört adımdan oluşur, aşağıdaki çizimde gösterildiği gibi. Her adımda, yevmiye defteri girişleri olan bir günlük başlığı oluşturulur. Bu günlük başlığı, her hesaplama adımı için giriş verilerini tutar. İlkeler ve kurallar her yevmiye defteri satırına uygulanır ve maliyet girişleri çıkış olarak oluşturulur. Bu nedenle, her zaman tam izlenebilirliğe sahip olursunuz. 
+Genel gider hesaplama, sürümden bağımsız olarak çalışır. Bu nedenle, Gerçek sürümden önce Bütçe sürümünü hesaplayabilirsiniz. Genel gider hesaplama dört adımdan oluşur, aşağıdaki çizimde gösterildiği gibi. Her adımda, günlük girişleri olan bir günlük başlığı oluşturulur. Bu günlük başlığı, her hesaplama adımı için giriş verilerini tutar. İlkeler ve kurallar her günlük satırına uygulanır ve maliyet girişleri çıkış olarak oluşturulur. Bu nedenle, her zaman tam izlenebilirliğe sahip olursunuz. 
 
-[![Genel gider hesaplaması.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Genel gider hesaplaması](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Elektrik genel gideri maliyetini hesapla ve tahsis et
 Mali muhasebede, elektrik gibi bazı maliyetler peşin ödeme olarak kaydedilir. Bu nedenle, Maliyet muhasebesi için ayrıntılı yönetim bilgiler sağlanmaz. Maliyet muhasebesinde doğru yönetimsel bilgileri tüm yönetim birim ve düzeylerinde sağlamak için, maliyetlerin kuruluş birimleri arasında akması gerekir. Bu akış, tüketimin doğru bir kaydına ya da adil bir değerlendirmeye dayanıyor olmalıdır. Genel muhasebede, bir elektrik maliyeti aşağıdaki tabloda gösterildiği gibi deftere nakledilebilir.
@@ -109,7 +109,7 @@ Bazı durumlarda, sabit bir ücret maliyet parçasıdır ve kalan maliyet, tüke
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Yevmiye defteri girişleri (Maliyet nesnesi bakiyesi yevmiye defteri girişleri)
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Günlük girişleri (Maliyet nesnesi bakiyesi günlük girişleri)
 
 <table>
 <thead>
@@ -320,7 +320,7 @@ Sabit maliyet, elektrik tüketmiş olan tekil maliyet nesnelerine eşit miktarda
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Yevmiye defteri girişleri (Maliyet nesnesi bakiyesi yevmiye defteri girişleri)
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Günlük girişleri (Maliyet nesnesi bakiyesi günlük girişleri)
 
 <table>
 <thead>
@@ -534,7 +534,7 @@ Aşağıdaki tablo, HR projeleri bir tahsisat tabanı olarak uygulandığındaki
 </tbody>
 </table>
 
-##### <a name="journal-entries-journal-entries-for-overhead-rate-calculation"></a>Yevmiye defteri girişleri (Genel gider oranı hesaplaması için yevmiye defteri girişleri)
+##### <a name="journal-entries-journal-entries-for-overhead-rate-calculation"></a>Günlük girişleri (Genel gider oranı hesaplaması için günlük girişleri)
 
 <table>
 <thead>
@@ -618,7 +618,7 @@ Daha fazla bilgi için [Genel gider hesaplaması gerçekleştir](cost-rollup.md#
 
 Tahsisat, bir tahsisat tabanı kullanarak bir maliyet nesnesinin diğer maliyet nesnelerine bakiyesini tahsis eder. Finance karşılıklı tahsisat yöntemini desteklemektedir. Karşılıklı tahsisat yönteminde, yardımcı maliyet nesnelerinin değiştiği karşılıklı hizmetler tümüyle tanınır. Sistem, tahsisatların doğru gerçekleştireceği sırayı otomatik olarak belirler. Bir maliyet nesnesinin bakiyesi tek bir tahsisat tabanı tarafından tahsis edilir. Yeni maliyet nesnesi boyutları arasındaki tahsisatlar ve onların üyeleri desteklenir. Tahsisatın sırası, maliyet kontrol birimi tarafından kontrol edilir. 
 
-[![Karşılıklı yöntemi.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Karşılıklı yöntemi](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Maliyet tahsisatını tanımla
 
@@ -928,7 +928,7 @@ Aşağıdaki tablo, Paketleme hizmetleri toplam maliyet için bir tahsisat taban
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Yevmiye defteri girişleri (maliyet nesnesi bakiyesi yevmiye defteri girişleri)
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a>Günlük girişleri (maliyet nesnesi bakiyesi günlük girişleri)
 
 <table>
 <thead>
@@ -951,7 +951,7 @@ Aşağıdaki tablo, Paketleme hizmetleri toplam maliyet için bir tahsisat taban
 </tbody>
 </table>
 
-##### <a name="journal-lines"></a>Yevmiye defteri satırları
+##### <a name="journal-lines"></a>Günlük satırları
 
 <table>
 <thead>
@@ -1328,12 +1328,83 @@ Aşağıdaki tablo, Paketleme hizmetleri toplam maliyet için bir tahsisat taban
 ## <a name="conclusion"></a>Sonuç
 Mali muhasebede, Elektrik için 10.000,00 maliyet bir sözde maliyet merkezi kimliğine nakledilmiştir. Bu nedenle, maliyet muhasebecileri bu maliyetin tahsis edilmesi gerektiğini bilirler. Maliyet muhasebesinde, maliyetler kuruluş birimleri ve seviyeleri arasında, uygulanan kural ve ilkelere dayalı olarak akar. Her maliyet, maliyetlerin tahsisatı için en iyi değerlendirmeyi sağlayan bir tahsisat tabanı ile ilişkilendirilir.
 
-Maliyet öğesi | Maliyet nesnesi<br>CC099 | Maliyet nesnesi<br>CC001 | Maliyet nesnesi<br>CC002 | Maliyet nesnesi<br>CC003 | Maliyet nesnesi<br>CC004 | Maliyet nesnesi<br>Proj 1 | Maliyet nesnesi<br>Proj 2 | Maliyet nesnesi<br>Prod 1 | Maliyet nesnesi<br>Prod 2 | Toplam
----|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
-10001 Elektrik | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10,00 | 7,770.57 | 2,189.43 | 10,000.00 |
-Sınıflandırılmamış | 0,00 |  |  |  |  |  |  |  |  |  |
-Sabit maliyet | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Değişken maliyet | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30.00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+<table>
+<thead>
+<tr>
+<th colspan="2" rowspan="2">Maliyet öğesi</th>
+<th colspan="9">Maliyet nesnesi</th>
+<th rowspan="2">Toplam</th>
+</tr>
+<tr>
+<th>CC099</th>
+<th>CC001</th>
+<th>CC002</th>
+<th>CC003</th>
+<th>CC004</th>
+<th>Proj 1</th>
+<th>Proj 2</th>
+<th>Prod 1</th>
+<th>Prod 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">10001 Elektrik</td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>30.00</strong></td>
+<td style="text-align: right;"><strong>10.00</strong></td>
+<td style="text-align: right;"><strong>7,770.57</strong></td>
+<td style="text-align: right;"><strong>2,189.43</strong></td>
+<td style="text-align: right;"><strong>10,000.00</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: left;">Sınıflandırılmamış</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">Sabit maliyet</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">776.36</td>
+<td style="text-align: right;">223.64</td>
+<td style="text-align: right;"><strong>1,000.00</strong></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">Değişken maliyet</td>
+<td style="text-align: right;">000</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">30.00</td>
+<td style="text-align: right;">10,00</td>
+<td style="text-align: right;">6,994.21</td>
+<td style="text-align: right;">1,965.79</td>
+<td style="text-align: right;"><strong>9,000.00</strong></td>
+</tr>
+</tbody>
+</table>
 
 > [!NOTE]
 > Bu konu, birincil maliyet öğesi, 10001 Elektrik'in maliyet nesneleri arasında nasıl aktığını gösterir. Bu nedenle, bu genel gider maliyeti kuruluşun en düşük seviyesine tahsis edilir. Başka bir deyişle, maliyet en alt düzeydeki maliyet nesnelerine aittir. Maliyetin, maliyet nesneleri arasında görsel bir akışına ihtiyacınız varsa, maliyetin akışını görselleştirmek için maliyet toplamı ilke kurallarını kullanabilirsiniz. Daha fazla bilgi için bkz. [Maliyet yuvarlama ilkesi ve genel gider hesaplaması](cost-rollup.md).

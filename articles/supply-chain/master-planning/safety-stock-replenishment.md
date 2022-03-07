@@ -2,16 +2,13 @@
 title: Maddeler için emniyet stoğu karşılama
 description: Bu konu, emniyet stoğu karşılamayı ve maddeler için emniyet stoğu miktarının nasıl ayarlanacağını ele alır.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 11/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc9273cc46e2549765dec4b2bbc9a3030753791d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439075"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353528"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Maddeler için emniyet stoğu karşılama
 
@@ -75,37 +72,50 @@ Aşağıdaki senaryo bu parametrenin nasıl çalıştığını ve değerleri ara
 > [!NOTE]
 > Bu konudaki tüm örneklerde, x ekseni stoğu, y ekseni günleri, çubuklar stok düzeyini, oklar satış siparişi satırları, satınalma sipariş satırları veya planlı siparişler gibi hareketleri temsil eder.
 
-[![Emniyet stoğu karşılama için genel senaryo](./media/Scenario1.png)](./media/Scenario1.png) **Minimum karşılama** parametresi aşağıdaki değerlere sahip olabilir:
+[![Emniyet stoğu karşılama için genel senaryo.](./media/Scenario1.png)](./media/Scenario1.png)
+**Minimum karşılama** parametresi aşağıdaki değerleri alabilir:
 ### <a name="todays-date"></a>Bugünün tarihi 
 Belirtilen minimum miktar, master planlamanın gerçekleştirildiği tarihte karşılanır. Sistem, teslimat süresi nedeniyle gerçekçi olmayabilse bile emniyet stoğunu mümkün olan en kısa sürede karşılamayı dener. 
-[![Bugünün tarihi gereksinimi](./media/TodayReq.png)](./media/TodayReq.png) Planlı sipariş P1, kullanılabilir stoğun bu tarihteki emniyet stoğu düzeyi üzerine getirilmesi için bugünün tarihi için oluşturulur. S1 ile S3 arasındaki satış siparişi satırları stok düzeyini düşürmeye devam eder. P2 ile P4 arasındaki planlı siparişler master planlama tarafından oluşturulur; böylece stok düzeyi her satış sipariş gereksiniminden sonra tekrar emniyet sınırına getirilir. 
+[![Bugünün tarihli gereksinim.](./media/TodayReq.png)](./media/TodayReq.png)
+Planlı sipariş P1, kullanılabilir stoğun bu tarihteki emniyet stoğu düzeyi üzerine getirilmesi için bugünün tarihi için oluşturulur. S1 ile S3 arasındaki satış siparişi satırları stok düzeyini düşürmeye devam eder. P2 ile P4 arasındaki planlı siparişler master planlama tarafından oluşturulur; böylece stok düzeyi her satış sipariş gereksiniminden sonra tekrar emniyet sınırına getirilir. 
 **Gereksinim** karşılama kodu kullanıldığında, birden çok planlı sipariş oluşturulur. Sık olarak talep edilen maddeler ve malzemeler için stok yenilemeyi gruplandırmak için **Dönem** veya **Min/Maks** karşılamayı kullanmak daima iyi bir fikirdir. Aşağıda **Dönem** karşılama kodu için bir örnek gösterilmektedir.
-[![Dönem. Bugünün tarihi](./media/TodayPeriod.png)](./media/TodayPeriod.png) Aşağıda **Min/Maks** karşılama kodu için bir örnek gösterilmektedir.
-[![MinMaks. Bugünün tarihi](./media/TodayMinMax.png)](./media/TodayMinMax.png)
+[![Dönem. Bugünün tarihi.](./media/TodayPeriod.png)](./media/TodayPeriod.png)
+Aşağıda **Min/Maks** karşılama kodu için bir örnek gösterilmektedir.
+[![MinMaks. Bugünün tarihi.](./media/TodayMinMax.png)](./media/TodayMinMax.png)
 ### <a name="todays-date--procurement-time"></a>Bugünün tarihi + tedarik zamanı 
 Belirtilen minimum miktar, master planlamanın çalıştırıldığı tarihte, artı, satınalma veya üretim tarihinde karşılanır. Bu tarih, tüm emniyet marjlarını içerir. Madde bir ticari sözleşme içeriyorsa ve **Master planlama parametreleri** sayfasında **Ticari sözleşmeleri bul** onay kutusu işaretlenmişse, ticari sözleşmedeki teslimat sağlama süresi dikkate alınmaz. Sağlama süreleri madde karşılama ayarlarından veya maddeden alınır.
 Bu karşılama modu, maddede ayarlanan karşılama grubundan bağımsız olarak, daha az gecikme ve daha az planlanmış sipariş içeren planlar oluşturur. Aşağıdaki örnekte karşılama kodunun **Gereksinim** veya **Dönem** olması durumunda planın sonucunun ne olacağı gösterilmektedir.  
-[![Gereksinim. Dönem. Bugünün tarihi ve sağlama süresi](./media/TodayPLTReq.png)](./media/TodayPLTReq.png) Aşağıdaki örnekte karşılama kodunun **Min/Maks** olması durumunda planın sonucunun ne olacağı gösterilmektedir.  
-[![Min Maks. Bugünün tarihi ve sağlama süresi](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
+[![Gereksinim. Dönem. Bugünün tarihi ve sağlama süresi.](./media/TodayPLTReq.png)](./media/TodayPLTReq.png)
+Aşağıdaki örnekte karşılama kodunun **Min/Maks** olması durumunda planın sonucunun ne olacağı gösterilmektedir.  
+[![MinMaks. Bugünün tarihi ve sağlama süresi.](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
 ### <a name="first-issue"></a>İlk çıkış 
 Belirtilen minimum miktar, aşağıda gösterildiği gibi, kullanılabilir stoğun minimum düzeyin altında indiği tarihte karşılanır. Kullanılabilir stok master planlamanın çalıştırıldığı tarihte minimum düzeyin altında olsa bile **İlk çıkış** bir sonraki gereksinim gelene kadar bunu karşılamaya çalışmayacaktır.
 Aşağıda **Gereksinim** karşılama kodu için bir örnek gösterilmektedir.
-[![Bir maddeyi **Gereksinim** karşılama kodu ve **İlk çıkış** karşılamayla planlama](./media/FirstIssueReq.png)](./media/FirstIssueReq.png) Aşağıda **Dönem** karşılama kodu için bir örnek gösterilmektedir.
-[![Bir maddeyi **Dönem** karşılama kodu ve **İlk çıkış** karşılamayla planlama](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png) Aşağıda **Min/Maks** karşılama kodu için bir örnek gösterilmektedir.
-[![Bir maddeyi **MinMaks** karşılama kodu ve **İlk çıkış** karşılamayla planlama](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png) Master planlamanın çalıştırıldığı tarihte, kullanılabilir stok zaten emniyet stoğu düzeyinin altındaysa, **Bugünün tarihi** ve **Bugünün tarihi + tedarik zamanı** hemen stok yenilemeyi tetikleyecektir. **İlk çıkış** madde için satış siparişi ve ürün reçetesi satır gereksinimi gibi başka bir çıkış işlemi olana kadar bekler ve daha sonra bu hareket tarihinde stok yenilemeyi tetikler. Master planlamanın çalıştırıldığı tarihte, kullanılabilir stok emniyet stoğu sınırının altında değilse, **Bugünün tarihi** ve **İlk çıkış** aşağıdaki örnekte de gösterildiği gibi tam olarak aynı sonucu sağlar. 
+[![Bir maddeyi **Gereksinim** karşılama kodu ve **İlk çıkış** karşılamayla planlama.](./media/FirstIssueReq.png)](./media/FirstIssueReq.png)
+Aşağıda **Dönem** karşılama kodu için bir örnek gösterilmektedir.
+[![Bir maddeyi **Dönem** karşılama kodu ve **İlk çıkış** karşılamayla planlama.](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png)
+Aşağıda **Min/Maks** karşılama kodu için bir örnek gösterilmektedir.
+[![Bir maddeyi **MinMaks** karşılama kodu ve **İlk çıkış** karşılamayla planlama.](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png)
+Master planlamanın çalıştırıldığı tarihte, kullanılabilir stok zaten emniyet stoğu düzeyinin altındaysa, **Bugünün tarihi** ve **Bugünün tarihi + tedarik zamanı** hemen stok yenilemeyi tetikleyecektir. **İlk çıkış** madde için satış siparişi ve ürün reçetesi satır gereksinimi gibi başka bir çıkış işlemi olana kadar bekler ve daha sonra bu hareket tarihinde stok yenilemeyi tetikler. Master planlamanın çalıştırıldığı tarihte, kullanılabilir stok emniyet stoğu sınırının altında değilse, **Bugünün tarihi** ve **İlk çıkış** aşağıdaki örnekte de gösterildiği gibi tam olarak aynı sonucu sağlar. 
 
-[![NotUnderLimit](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png) Master planlamanın çalıştırıldığı tarihte, kullanılabilir stok emniyet stoğu sınırının altında değilse, **Bugünün tarihi + tedarik zamanı** karşılamayı tedarik sağlama süresinin sonuna kadar erteleyeceğinden aşağıdaki sonucu verir.
-![Bir maddeyi **Gereksinim** karşılama kodu ve **İlk çıkış** karşılamayla planlama](./media/ReqTodayLT.png)
+[![NotUnderLimit.](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png)
+Master planlamanın çalıştırıldığı tarihte, kullanılabilir stok emniyet stoğu sınırının altında değilse, **Bugünün tarihi + tedarik zamanı** karşılamayı tedarik sağlama süresinin sonuna kadar erteleyeceğinden aşağıdaki sonucu verir.
+![Bir maddeyi **Gereksinim** karşılama kodu ve **İlk çıkış** karşılamayla planlama.](./media/ReqTodayLT.png)
 ### <a name="coverage-time-fence"></a>Kapsam zaman dilimi
 Belirtilen minimum miktar **Karşılama zaman aralığı** alanında belirtilen süre içinde karşılanır. Master planlama emniyet stoğunu koruma girişiminde, kullanılabilir stoğun satışlar veya transferler gibi gerçek siparişler için kullanılmasına izin vermediğinde bu seçenek yararlıdır. Ancak, gelecekteki bir sürümde, bu stok yenileme moduna artık gerek kalmayacak ve bu seçenek kullanımdan kaldırılacaktır.
 ## <a name="plan-safety-stock-replenishment-for-first-expired-first-out-fefo-items"></a>İlk süresi dolan, ilk çıkar (FEFO) maddeleri için emniyet stoğu stok yenileme planı
 Herhangi bir zamanda, en son bitiş tarihine sahip stok girişi, satış satırı veya ürün reçetesi satırı gibi gerçek bir talebin FEFO (İlk Süresi Dolan, İlk Çıkar) sırasından karşılanmasına olanak tanımak üzere emniyet stoğu için kullanılır.
 Bunun nasıl çalıştığını görmek için aşağıdaki senaryoyu inceleyin.
-[![FEFOScenario](./media/FEFOScenario.png)](./media/FEFOScenario.png) Planlama çalıştırıldığında, ilk satış siparişini eldeki mevcut stoktan karşılayacak ve ek satınalma siparişi kalan miktar için kullanılacaktır.
-[![FEFO1](./media/FEFO1.png)](./media/FEFO1.png) Kullanılabilir stoğun yeniden emniyet sınırına getirilmesi için planlı bir sipariş oluşturulur.
-[![FEFO2](./media/FEFO2.png)](./media/FEFO2.png) İkinci satış siparişi planlandığında, emniyet stoğunu karşılayan önceden oluşturulmuş planlı sipariş bu miktarı karşılamak için kullanılır. Bu nedenle, emniyet stoğu sürekli aktarılır.
-[![FEFO3](./media/FEFO3.png)](./media/FEFO3.png) Son olarak, emniyet stoğunu karşılamak için başka bir planlı sipariş oluşturulur.
-[![FEFO4](./media/FEFO4.png)](./media/FEFO4.png) Tüm toplu işler uygun şekilde sona erer ve bittikten sonra emniyet stoğunu yenilemek için planlı siparişler oluşturulur.
+[![FEFOScenario.](./media/FEFOScenario.png)](./media/FEFOScenario.png)
+Planlama çalıştırıldığında, ilk satış siparişini eldeki mevcut stoktan karşılayacak ve ek satınalma siparişi kalan miktar için kullanılacaktır.
+[![FEFO1.](./media/FEFO1.png)](./media/FEFO1.png)
+Kullanılabilir stoğun yeniden emniyet sınırına getirilmesi için planlı bir sipariş oluşturulur.
+[![FEFO2.](./media/FEFO2.png)](./media/FEFO2.png)
+İkinci satış siparişi planlandığında, emniyet stoğunu karşılayan önceden oluşturulmuş planlı sipariş bu miktarı karşılamak için kullanılır. Bu nedenle, emniyet stoğu sürekli aktarılır.
+[![FEFO3.](./media/FEFO3.png)](./media/FEFO3.png)
+Son olarak, emniyet stoğunu karşılamak için başka bir planlı sipariş oluşturulur.
+[![FEFO4.](./media/FEFO4.png)](./media/FEFO4.png)
+Tüm toplu işler uygun şekilde sona erer ve bittikten sonra emniyet stoğunu yenilemek için planlı siparişler oluşturulur.
 
 ## <a name="how-master-planning-handles-the-safety-stock-constraint"></a>Master planlama emniyet stoğu sınırlamasını nasıl işler
 
@@ -116,3 +126,6 @@ Sistem emniyet stoğu gereksinimi hareketinin satış satırları, ürün reçet
 Master planlamanın karşılama aşaması sırasında, emniyet stoğu yenileme önceliği artık geriye atılmaz. Eldeki stok diğer talep türlerinden önce kullanılabilir. Gecikmenin hesaplanması sırasında, emniyet stoğunun kullanılması durumunda zamanında teslim edilip edilemeyeceğini belirlemek amacıyla geciken satış satırlarının, ürün reçetesi satırı gereksinimlerinin ve diğer tüm talep türlerinin üzerine geçmek üzere yeni bir mantık eklenir. Sistem emniyet stoğunu kullanarak gecikmeleri en aza indirebileceğini belirlerse, satış satırları veya ürün reçetesi satırları başlangıçtaki karşılamayı emniyet stoğuyla doldurur ve sistem bunun yerine emniyet stoğu yenilemesini tetikler.
 
 Plan veya madde gecikme hesaplaması için ayarlanmazsa, emniyet stoğu sınırlaması diğer talep türleriyle aynı önceliğe sahip olur. Bu, eldeki stok rezervi bulunduğu ve diğer talep türlerinden önce başka kullanılabilir stok olduğu anlamına gelir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

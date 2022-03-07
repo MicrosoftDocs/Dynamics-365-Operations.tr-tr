@@ -1,28 +1,27 @@
 ---
 title: Sabit tabanlı ürün yapılandırması için öznitelik tabanlı satış fiyatları
 description: Bu konu, fiziksel ürün reçetesi ve rota yerine bileşenleri ve öznitelikleri temel alan satış fiyatlarıyla satış fiyatı modellerinin nasıl oluşturulacağını açıklamaktadır.
-author: sorenva
-manager: tfehr
+author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sorenand
+ms.author: benebotg
 ms.search.validFrom: 2020-08-17
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438963"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577468"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Sabit tabanlı ürün yapılandırması için öznitelik tabanlı satış fiyatları
+
+[!include [banner](../includes/banner.md)]
 
 Bu konu, fiziksel ürün reçetesi ve rota yerine bileşenleri ve öznitelikleri temel alan satış fiyatlarıyla satış fiyatı modellerinin nasıl oluşturulacağını açıklamaktadır. Her ürün yapılandırması modeli için birkaç satış fiyatı modeli oluşturabilirsiniz.
 
@@ -36,7 +35,7 @@ Varsayılan para birimini ayarlamak için:
 1. **Kısıtlama tabanlı ürün yapılandırma modelleri** sekmesini açın.
 1. **Varsayılan para birimi** açılan listesini açın ve para birimini seçin.
 
-    ![Sınırlama tabanlı ürün yapılandırması için varsayılan para birimini ayarlama](media/prod-config-currency.png "Sınırlama tabanlı ürün yapılandırması için varsayılan para birimini ayarlama")
+    ![Sınırlama tabanlı ürün yapılandırması için varsayılan para birimini ayarlama.](media/prod-config-currency.png "Sınırlama tabanlı ürün yapılandırması için varsayılan para birimini ayarlama")
 
 1. Tüm sipariş veya teklif satırları için fiyat dökümü içeren bir Excel dosyası iliştirmek istiyorsanız, **Fiyat modeli** bölümünde **Ekle**'yi *Evet* olarak ayarlayın.
 
@@ -63,7 +62,7 @@ Aşağıdaki örnek, müşteri tarafından seçilen yapılandırmaya bağlı ola
 - Gül ağacı kabin yüzeyi için 119,95 Euro ekleyin.
 - Her bir hoparlör yükseklik birimi için 12,95 EUR ekleyin.
 
-![Örnek fiyat modeli](media/prod-config-rules-example.png "Örnek fiyat modeli")
+![Örnek fiyat modeli.](media/prod-config-rules-example.png "Örnek fiyat modeli")
 
 ## <a name="add-support-for-multiple-currencies"></a>Çoklu para birimi desteği ekleme
 
@@ -84,7 +83,7 @@ Ek para biriminde açık fiyatlar eklemek için:
 
 Aşağıdaki örnekte, _EUR_ varsayılan para birimi, _USD_ ise ek para birimi olarak eklenmiştir.
 
-![Çoklu para birimli model örneği](media/prod-config-rules-currency-example.png "Çoklu para birimli model örneği")
+![Çoklu para birimli model örneği.](media/prod-config-rules-currency-example.png "Çoklu para birimli model örneği")
 
 > [!NOTE]
 > Varsayılan olmayan bir para birimi için benzersiz ifade kuralları ekleyemezsiniz. Yalnızca varsayılan para birimi dışında bir para birimiyle ilgili olan ifade kuralları oluşturmak için, varsayılan para birimi için fiyat ifadesini sıfır olarak ayarlayın. Sonra varsayılan olmayan para birimi için uygun ifadeyi ayarlayın.
@@ -96,11 +95,11 @@ Satış fiyatlarının bir yapılandırma oturumunda nasıl çalıştığını t
 - Burada sunulan yapılandırma ayarlarını kullanarak ürün seçeneklerini seçin ve sonra **Fiyat ve sevk tarihi** için gösterilen değeri nasıl etkilediğini görün.
 - Fiyatın hesaplanma şekli ile ilgili tüm ayrıntıları gösteren bir Excel belgesi indirmek için **Fiyat dökümünü görüntüle**'yi seçin.
 
-![Ürün modelinizi test etme](media/prod-config-test.png "Ürün modelinizi test etme")
+![Ürün modelinizi test etme.](media/prod-config-test.png "Ürün modelinizi test etme")
 
 İndirilen elektronik tablo her bir etkin fiyat öğesi için hem mutlak değerini hem de yüzde olarak katkıyı gösterir. **Ürün bilgileri yönetim parametreleri** **Ekle** fiyat modelini ayarladıysanız, bu Excel sayfası sipariş veya teklif satırına iliştirilir.
 
-![Fiyat dökümünü gösteren Excel elektronik tablosu](media/prod-config-excel-example.png "Fiyat dökümünü gösteren Excel elektronik tablosu")
+![Fiyat dökümünü gösteren Excel elektronik tablosu.](media/prod-config-excel-example.png "Fiyat dökümünü gösteren Excel elektronik tablosu")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Fiyat modelleri için seçim ölçütü ayarla
 
@@ -119,7 +118,7 @@ Fiyat modelleri için seçim ölçütü ayarlamak üzere:
     - **Geçerlilik başlangıcı** - Sorgunun geçerli olacağı ilk günü belirtin.
     - **Geçerlilik sonu** - Sorgunun geçerli olacağı son tarihi belirtin.
 
-    ![Fiyat modeli ölçütleri](media/prod-config-price-model-criteria.png "Fiyat modeli ölçütleri")
+    ![Fiyat modeli ölçütleri.](media/prod-config-price-model-criteria.png "Fiyat modeli ölçütleri")
 
 1. Tanımlamak istediğiniz sorgunun satırını seçin ve sonra **Eylem bölmesinde** **Düzenle**'yi seçin. Sorgu tasarımcısı iletişim kutusu açılır. Supply Chain Management'taki çoğu sorgu tasarımcısı gibi çalışır. Seçtiğiniz satırla ilgili fiyat modelinin hangi koşullarda uygulanacağını tanımlamak için bunu kullanın.
 
@@ -140,4 +139,7 @@ Son adım, ürün modeli sürümü için öznitelik temelli satış fiyatları b
 1. Hedef ürün yapılandırma modelini seçin.
 1. Eylem Bölmesinde, **Model** sekmesini açın ve **Ürün modeli ayrıntıları** grubundan **Sürümler**'i seçin.
 1. **Sürümler** sayfası açılır. **Fiyatlandırma yönteminin** **Öznitelik tabanlı** olarak ayarlandığından emin olun.
-    ![Fiyatlandırma yönteminin öznitelik tabanlı olarak ayarlama](media/prod-config-versions.png "Fiyatlandırma yönteminin öznitelik tabanlı olarak ayarlama")
+    ![Fiyatlandırma yöntemini öznitelik tabanlı olarak ayarlama.](media/prod-config-versions.png "Fiyatlandırma yönteminin öznitelik tabanlı olarak ayarlama")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

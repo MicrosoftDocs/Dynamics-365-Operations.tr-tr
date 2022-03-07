@@ -2,11 +2,9 @@
 title: Satır tanımı hücrelerini değiştirme
 description: Bu konu bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır.
 author: ShylaThompson
-manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685871"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344897"
 ---
 # <a name="modify-row-definition-cells"></a>Satır tanımı hücrelerini değiştirme
 
@@ -176,7 +174,7 @@ Bir satır tanımındaki **Biçim Kodu** sütununda **DES**, **LFT**, **RGT**, *
 
 Aşağıdaki örnekte nakit tutarlarının hiçbiriyle ilgili bir etkinlik gerçekleşmediğinden bir kullanıcı, raporun **Toplam Nakit** satırındaki başlığın ve alt çizgilerin yazdırılmasını engellemek istiyor. Bu nedenle, 220 satırında (**---** biçim kodunun da belirttiği gibi bir biçimlendirme satırıdır), **İlgili Formüller/Satırlar/Birimler** hücresinde, baskılamak istediği tutar satırının satır kodu olan **250** değerini giriyor.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Bir sütun hesaplaması için temel satırı seçme
 İlişkiye dayalı raporlamada **CBR** (temel satırı değiştir) biçim kodunu kullanarak satır tanımındaki bir veya daha fazla satırı atarsınız. Böylece sütun tanımındaki bir hesaplama bir temel satıra başvurur. Aşağıda CBR hesaplamalarının tipik bazı örnekleri sunulmuştur:
@@ -401,7 +399,7 @@ Bazı muhasebe sistemleri, mali verilerdeki hesap özniteliklerini ve hareket ö
 2. **Mali Boyutlarla İlişkilendir** sütunundaki bir hücreye çift tıklayın.
 3. **Boyutlar** iletişim kutusunda, boyut adının altındaki bir hücreye çift tıklayın.
 4. Boyuta ait iletişim kutusunda, **Tek veya aralık**'ı seçin.
-5. **Başlangıç** alanında başlangıç boyutunu girin veya mevcut boyutlar arasında arama yapmak için ![Gözat](media/browse.gif "Gözat") öğesini tıklayın. Boyut aralığı girmek için **Bitiş** alanına bitiş boyutunu girin.
+5. **Başlangıç** alanına başlangıç boyutunu girin veya ![Gözat.](media/browse.gif "Gözat") düğmesini tıklayarak kullanılabilir boyutları arayın. Boyut aralığı girmek için **Bitiş** alanına bitiş boyutunu girin.
 6. **Tamam**'a tıklayarak boyuta ait iletişim kutusunu kapatın. **Boyutlar** iletişim kutusu güncelleştirilniş boyutu veya aralığı görüntüler.
 7. **Tamam**'a tıklayarak **Boyutlar** iletişim kutusunu kapatın.
 
@@ -478,7 +476,7 @@ Aşağıdaki tabloda **Boyutlar** iletişim kutusundaki alanlar açıklanmaktad�
 
 | Madde                | Açıklama |
 |---------------------|-------------|
-| Tek veya aralık | **Başlangıç** alanında, bir hesabın adını girin veya hesabı aramak için **Gözat** düğmesini ![Gözat](media/browse.gif "Gözat") tıklayın. Aralık seçmek için **Bitiş** alanına bir değer girin veya bu alanda bir değere göz atın. |
+| Tek veya aralık | **Başlangıç** alanında, bir hesabın adını girin veya hesabı aramak için **Gözat** düğmesini ![Gözat.](media/browse.gif "Gözat") tıklayın. Aralık seçmek için **Bitiş** alanına bir değer girin veya bu alanda bir değere göz atın. |
 | Boyut Değeri Kümesi | **Ad** alanına boyut değeri kümesinin adını girin. Bir kümeyi oluşturmak, değiştirmek, kopyalamak veya silmek için, **Boyut Değeri Kümelerini Yönet**'e tıklayın. **Formül** alanı, satır tanımında ayarlanan bu boyut değeri için **Mali Boyutlara Bağlantı** hücresindeki formülle doldurulur. |
 | Toplam alma hesapları   | **Ad** alanına toplam alma hesaplarına ait bir boyut girin veya bu boyuta göz atın. **Formül** alanı rapor tanımındaki bu toplam alma hesabına ait **Mali Boyutlarla İlişkilendir** hücresindeki formülle doldurulur. |
 
@@ -529,3 +527,6 @@ Boyut değeri kümesi, adlandırılmış bir boyut değerleri grubudur. Bir boyu
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

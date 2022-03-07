@@ -2,11 +2,9 @@
 title: İş akışı özelliklerini yapılandırma
 description: Bu konu İş akışının çeşitli özelliklerini yapılandırmayı açıklar.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693294"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069260"
 ---
 # <a name="configure-workflow-properties"></a>İş akışı özelliklerini yapılandırma
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konu İş akışının çeşitli özelliklerini yapılandırmayı açıklar.
 
@@ -73,6 +74,9 @@ Bir iş akışının özelliklerini yapılandırmak için iş akışını, iş a
     4. **Çevrilen metin** alanında, metni girin.
     5. Metni kişiselleştirmek için, yer tutucular ekleyebilirsiniz. Yer tutucu girmek hakkında yönergeler için, adım 3'e bakın.
     6. **Kapat**'a tıklayın.
+
+> [!NOTE]
+> Hedef bilgiler doğru yapıştırılmadığından, yer tutucular kopyala ve yapıştır kullanılarak eklenemez. Yer tutucuları eklemek için arabirimi kullanın.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Bu iş akışının etkinleştirme koşulları üzerinden ne zaman kullanılacağını belirtin
 
@@ -179,3 +183,6 @@ Bir belge işlenmek üzere gönderildiğinde, bir iş akışı örneği oluştur
 2. **İş akışı hakkında yorumlar girin** alanında, yorumlarınızı girin.
 3. Yorumlarınızı gözden geçirin. Yorumlarınızı ekledikten sonra üzerlerinde değişiklik yapamazsınız.
 4. **Yorum geçmişi** alanına yorumlarınızı eklemek için **Ekle**'yi tıklatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

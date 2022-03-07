@@ -2,16 +2,13 @@
 title: Bağlılık programına genel bakış
 description: Bu konu, Dynamics 365 Commerce'daki bağlılık özelliklerini ve satıcının bağlılık programına kolayca başlamasına yardımcı olmak için karşılık gelen kurulum adımlarını açıklar.
 author: scott-tucker
-manager: AnnBe
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 119046ee2b783e6a4b868fff2b1d7a1b59966e7b
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: a1ee19a052c4a64995e6fcaa4afbe04b3e95fa55
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4416551"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027564"
 ---
 # <a name="loyalty-overview"></a>Bağlılık programına genel bakış
 
@@ -145,9 +142,12 @@ Ayrıca, satıcılar bağlılık programı kartı başına maksimum bağlılık 
     > Şu anda, sistem kullanıcıların "diğer etkinlik türleri" için bir numara serisi oluşturmaya zorlar ancak bu gelecekteki sürümler için gerekli bir adım olmayacaktır. Bir numara serisini ayarlamak için **Commerce paylaşılan parametreler** \> **Numara serileri**'ne gidin ve **Bağlılık diğer etkinlik türü kimliği** için bir numara serisi seçin.
 
 - İyi müşteri hizmeti sağlamak ve müşteri profillerini etkin biçimde sorgulamak için kasiyerlerin eksiksiz müşteri profiline tam erişimlerinin olması önemlidr. 10.0 sürümü ile, kasiyerler bağlılık geçmiş ayrıntılarını, ilişkili bağlılık programı ve POS üzerindeki katman bilgisi ile görebileceklerdir.
-- Ücretsiz veya indirimli sevkiyat, müşterilerin çevrimiçi satın alması için son derece motive edici temel faktörlerden biridir. Perakendecilerin sevkiyat promosyonlarını ayarlamaları için 10.0 sürümü ile "Sevkiyat eşik indirimi" adlı yeni bir promosyon türü devreye soktuk, burada perakendeci eşikleri tanımlayabilir, bunlara ulaşıldığında, müşterilerin ücretsiz sevkiyat için iskonto verilmesine olanak sağlanır. Örneğin, ücretsiz 'İki günde sevkiyat' için 35$ harcayın veya tüm bağlılık müşterileri için 'İki günde sevkiyat'. Bu özellik, yeni Gelişmiş otomatik masraf yeteneklerini kullanır. [Gelişmiş otomatik masraflar hakkındaki belgeye](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) başvurun. Bu gelişmiş otomatik masrafların çalışması için sevkiyat promosyonu için etkinleştirilmesi gerekir. Bunlar, **Müşteri siparişleri** sekmesinden, **Commerce parametreleri** sayfasında etkinleştirilebilir ve "Gelişmiş otomatik masraflar" yapılandırmasını etkinleştirir. Ek olarak, bir perakendeci birden fazla türde gider ayarlayabildiği için örneğin işleme veya kurulum gibi, perakendecinin hangi giderin sevkiyat giderinin olduğunu belirtmesi gerekir. Sevkiyat iskontoları yalnızca sevkiyat masraflarına uygulanır. Masrafı Sevkiyat masrafı olarak belirtmek için **Masraf kodları** formuna gidin, bu **Retail ve Commerce** \> **Retail ve Commerce IT**\> **Kanal kurulumu** \> **Masraflar** altında bulunur ve sonra istenilen masraflar için "Sevkiyat masrafı" onay kutusunu açın. Şimdi **Sevkiyat eşiği iskontosu** formuna gidin ve iskontoyu ayarlayın.
+- Ücretsiz veya indirimli sevkiyat, müşterilerin çevrimiçi satın alması için son derece motive edici temel faktörlerden biridir. Perakendecilerin sevkiyat promosyonlarını ayarlamaları için 10.0 sürümü ile "Sevkiyat eşik indirimi" adlı yeni bir promosyon türü devreye soktuk, burada perakendeci eşikleri tanımlayabilir, bunlara ulaşıldığında, müşterilerin ücretsiz sevkiyat için iskonto verilmesine olanak sağlanır. Örneğin, ücretsiz 'İki günde sevkiyat' için 35$ harcayın veya tüm bağlılık müşterileri için 'İki günde sevkiyat'. Bu özellik, yeni Gelişmiş otomatik masraf yeteneklerini kullanır. [Gelişmiş otomatik masraflar hakkındaki belgeye](/dynamics365/unified-operations/retail/omni-auto-charges) başvurun. Bu gelişmiş otomatik masrafların çalışması için sevkiyat promosyonu için etkinleştirilmesi gerekir. Bunlar, **Müşteri siparişleri** sekmesinden, **Commerce parametreleri** sayfasında etkinleştirilebilir ve "Gelişmiş otomatik masraflar" yapılandırmasını etkinleştirir. Ek olarak, bir perakendeci birden fazla türde gider ayarlayabildiği için örneğin işleme veya kurulum gibi, perakendecinin hangi giderin sevkiyat giderinin olduğunu belirtmesi gerekir. Sevkiyat iskontoları yalnızca sevkiyat masraflarına uygulanır. Masrafı Sevkiyat masrafı olarak belirtmek için **Masraf kodları** formuna gidin, bu **Retail ve Commerce** \> **Retail ve Commerce IT**\> **Kanal kurulumu** \> **Masraflar** altında bulunur ve sonra istenilen masraflar için "Sevkiyat masrafı" onay kutusunu açın. Şimdi **Sevkiyat eşiği iskontosu** formuna gidin ve iskontoyu ayarlayın.
 
     Ürün iskontolarında olduğu gibi bu iskonto, tüm mevcut standart iskonto yeterliliklerini yerine getirir, örneğin perakendecinin bu iskontoları yalnızca kupona sahip müşterilerin sahip olmasına izin vermek gibi. Ayrıca, bu iskontolar bu tür iskontoların uygunluğunu belirlemek için Fiyat grupları yeterliliğini de kullanır. Örneğin, perakendeci, bu promosyonları yalnızca çevrimiçi kanallarda ve/veya bağlılık müşterileri gibi çeşitli müşteri grupları içinde yürütmeyi seçebilir. Sipariş satırları, belirtilen teslim modu ile belirtilen eşiği karşıladığında, sevkiyat iskontosu uygulanır ve iskonto kuruluma dayalı olarak iskonto giderini azaltır. 
 
     > [!NOTE]
     > Miktar, basit, karıştır ve eşleştir gibi diğer periyodik iskontoların aksine, sevkiyat iskontosu iskonto satıralrı oluşturmaz, sevkiyat giderlerindeki düzeltmelerin doğrudandır ve iskontonun adını masraf açıklamasına ekler.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

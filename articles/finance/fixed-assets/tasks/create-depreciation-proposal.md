@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3d62e982d26afbec7ac04dd80592a73f4a3286f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e4852b25ef628cdef6f75f6edf550c539e344a4b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968916"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227076"
 ---
 # <a name="create-a-depreciation-proposal"></a>Amortisman önerisi oluşturma
 
@@ -47,3 +47,6 @@ Bu konu, toplu amortisman tekliflerinin nasıl işlediğini ve sabit kıymetler 
 3. **Satırlar**'ı seçin.
 4. **Naklet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Dynamics 365 Commerce uygulamasında etki alanları
 description: Bu konuda, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
 author: BrShoo
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517367"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356842"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce uygulamasında etki alanları
 
@@ -41,7 +38,7 @@ Etki alanları, bir web tarayıcısında Dynamics 365 Commerce sitelerinde gezin
 
 Aşağıdaki resimde, **desteklenen ana bilgisayar adları kutusu** vurgulanmış olarak LCS e-Commerce hazırlama ekranı gösterilmektedir. 
 
-![Vurgulanmış olarak **Desteklenen ana bilgisayar adları** kutusunun bulunduğu LCS e-Commerce hazırlama ekranı](./media/Domains_ProvisioningeCommerceScreen.png)
+![Vurgulanmış olarak **Desteklenen ana bilgisayar adları** kutusunun bulunduğu LCS e-Commerce hazırlama ekranı.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Hazırlama işlemi oluşturulmaya başlandıysa, ortama ek etki alanları eklemek için bir servis isteği oluşturabilirsiniz. LCS içinde bir servis talebi oluşturmak için, ortamınızda **Destek \> Destek sorunları** bölümüne gidin ve **Bir olay gönderin** öğesini seçin.
 
@@ -59,7 +56,7 @@ Site oluşturucusunda ilk kez bir site kurarken, **Sitenizi kurun** iletişim ku
 
 Aşağıdaki şekilde, site oluşturucusuna ilk kez eriştiğinizde "varsayılan" adlı bir site için **Sitenizi kurun** iletişim kutusu gösterilmektedir.
 
-![**Sitenizi kurun** iletişim kutusu](./media/Domains_SetupyoursiteScreen.png)
+![**Sitenizi kurun** iletişim kutusu.](./media/Domains_SetupyoursiteScreen.png)
 
 **Bir etki alanı seçin** kutusu, LCS içindeki siteniz için sağlanan desteklenen ana bilgisayar adlarından birini site oluşturucusundaki sitenize ilişkilendirmenizi sağlar.
 
@@ -82,11 +79,11 @@ Siteniz bir yolla oluşturulduktan sonra, site oluşturucusundaki sayfalarla ili
 
 Aşağıdaki şekilde, URL yolunun vurgulandığı bir örnek bulunan site oluşturucusundaki **Yeni URL** iletişim kutusu gösterilir. 
 
-![Site oluşturucusundaki **Yeni URL** iletişim kutusu](./media/Domains_PageSetup2a.png)
+![Site oluşturucusundaki **Yeni URL** iletişim kutusu.](./media/Domains_PageSetup2a.png)
 
 Aşağıdaki şekilde, listede URL yolunun vurgulandığı bir örnek bulunan site oluşturucusundaki **URL'ler** sayfası gösterilir.
 
-![İlke akışında kullanıcı akışı seçeneğini çalıştır](./media/Domains_URLsInSiteBuilder2a.png)
+![İlke akışında kullanıcı akışı seçeneğini çalıştır.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Site oluşturucusundaki etki alanları
 
@@ -154,7 +151,7 @@ Commerce tarafından sağlanan Azure Front Door örneği zirve etki alanlarını
 
   [Yeni bir e-ticaret kiracısını dağıtma](deploy-ecommerce-site.md)
 
-  [Çevrimiçi mağaza kanalı ayarlama](online-stores.md)
+  [Çevrimiçi mağaza kanalı ayarlama](./channel-setup-online.md)
 
   [E-ticaret sitesi oluşturma](create-ecommerce-site.md)
 
@@ -173,3 +170,6 @@ Commerce tarafından sağlanan Azure Front Door örneği zirve etki alanlarını
   [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
   [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

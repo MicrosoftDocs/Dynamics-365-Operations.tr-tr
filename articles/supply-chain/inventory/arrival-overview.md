@@ -1,30 +1,29 @@
 ---
 title: Varışa genel bakış
 description: Bu konu, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varış genel bakış sayfası bu özelliğin bir parçasıdır ve gelen maddelere, varması beklenen maddeler olarak genel bir bakış sağlamaktadır.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439372"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567451"
 ---
 # <a name="arrival-overview"></a>Varışa genel bakış
 
@@ -37,7 +36,7 @@ Bu konu, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varı
 ## <a name="business-scenario"></a>İş senaryosu
 Gelen işlemlerinde aşağıdaki senaryoyu düşünün.
 
-[![İş senaryosu](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![İş senaryosu.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Bir alıcı memur olan Sami, geçerli tarihte nelerin gelmesinin beklendiğini bilmek ister. **Varış genel bakış** sayfası üzerinde, Sami geçerli görevler hakkında genel bir bakış ve miktarlar, hacim, ağırlık, farklı sipariş türleri ve benzeri şeylerin kaba bir tahminine sahip olabilir. Daha sonra, bir giriş noktasına bir teslimat gelir ve Sami, teslimatın bir listesini alır. **Varış genel bakış** sayfası üzerinde, Sami aşağıdaki görevleri gerçekleştirebilir:
 
@@ -45,7 +44,7 @@ Bir alıcı memur olan Sami, geçerli tarihte nelerin gelmesinin beklendiğini b
 -   Uygun varış günlüğü referansına erişin (yani, **Madde varışı** günlüğü veya **Üretim girişi** günlüğü) ve ürün giriş güncelleştirmesi için hazır olan günlükleri tanımlayın.
 
 ## <a name="arrival-overview-page"></a>Varış genel bakış sayfası
-**Varış genel bakış** sayfasını açmak için **Stok yönetimi** &gt; **Gelen siparişler** &gt; **Varış genel bakış** üzerine tıklayın. Teslim alınması beklenen siparişlerin bir listesini görebilirsiniz. Genel bakış, başlık ve satırlara ayrılmıştır. Başlık bilgisi, sipariş türüne, beklenen giriş tarihine ve teslimat hedefine göre gruplanır. Bir başlık satırı varış için seçildiğinde, giriş referansıyla ilişkili olan tüm ayrıntı satırları, sayfanın satır ayrıntıları kısmında varış için seçilir. Tüm ilgili günlük satırları deftere nakledildiğinde, bu bilgi gösterilmez.
+**Varış genel bakış** sayfasını açmak için **Stok yönetimi** &gt; **Gelen siparişler** &gt; **Varış genel bakış** üzerine tıklayın. Teslim alınması beklenen siparişlerin bir listesini görebilirsiniz. Genel bakış, başlık ve satırlara ayrılmıştır. Başlık bilgisi, sipariş türüne, beklenen giriş tarihine ve teslimat hedefine göre gruplanır. Bir başlık satırı varış için seçildiğinde, giriş referansıyla ilişkili olan tüm ayrıntı satırları, sayfanın satır ayrıntıları kısmında varış için seçilir. Tüm ilgili yevmiye defteri satırları deftere nakledildiğinde, bu bilgi gösterilmez.
 
 ### <a name="arrival-overview-profiles"></a>Varış genel bakış profilleri
 
@@ -69,9 +68,9 @@ Bu örnekte, **Varış genel bakış** sayfasının hızlı sekmesindeki **Varı
 
 -   Bir günlük oluşturmak için günlük adını belirtmeniz gerekir.
 
-[![Bir günlük adı belirtmek](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Bir günlük adı belirtme.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
--   **Ambar** ve **Konum** alanlarında değerleri belirtirseniz, bu değerler günlük satırlarına uygulanır. Değerleri belirtmezseniz, sistem stok hareketinde belirtilen boyuttan değerleri kullanır.
+-   **Ambar** ve **Konum** alanlarında değerleri belirtirseniz, bu değerler yevmiye defteri satırlarına uygulanır. Değerleri belirtmezseniz, sistem stok hareketinde belirtilen boyuttan değerleri kullanır.
 
 #### <a name="items-that-are-received-from-one-expected-receipt-order"></a>Bir beklenen giriş siparişinden alınan maddeler
 
@@ -121,3 +120,6 @@ Tüm mallar kaydedildiğinde, ambar yöneticisi veya satınalma yöneticisi, fiz
 
 ## <a name="summary"></a>Özet
 **Varış genel bakış** sayfası, ambar yöneticisi ve ambar çalışanlarının, gelen işlemlerin parçası olarak gerçekleştirilmesi gereken beklenen iş hakkında bir genel bakış edinmelerine yardımcı olabilir. Sayfa, madde varış işlemini başlatmak, maddelerin ambara ilk girişte izlenmesini garanti etmek için de kullanılabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

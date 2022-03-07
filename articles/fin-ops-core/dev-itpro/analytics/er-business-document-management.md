@@ -2,27 +2,25 @@
 title: İş belgesi yönetimine genel bakış
 description: Bu konu, ER çerçevesinin iş belge yönetimi özelliğinin nasıl kullanılacağı hakkında bilgi sağlar.
 author: NickSelin
-manager: AnnBe
-ms.date: 12/15/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e657ffbad88aeb9fd238112954f5555496ac329
-ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
+ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4740968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753088"
 ---
 # <a name="business-document-management-overview"></a>İş belgesi yönetimine genel bakış
 
@@ -47,9 +45,9 @@ Microsoft 365 uygulamalarını kullanarak şablonları Excel veya Word biçimler
 
 ## <a name="business-document-availability"></a>İş belgesi uygunluğu
 
-2019 Ekim sürümü için planlanan tüm raporların tam listesi için bkz. [ Word ve Excel'de yapılandırılabilir iş belgeleri raporlaması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+2019 Ekim sürümü için planlanan tüm raporların tam listesi için bkz. [ Word ve Excel'de yapılandırılabilir iş belgeleri raporlaması](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-2020 Ekim sürümü için planlanan tüm raporların tam listesi için bkz. [Yapılandırılabilir iş belgeleri - Word şablonları](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+2020 Ekim sürümü için planlanan tüm raporların tam listesi için bkz. [Yapılandırılabilir iş belgeleri - Word şablonları](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Gelecekteki sürümlerde daha fazla rapor kullanılabilir olacak. Ek raporlarla ilgili özel bildirimler ayrı olarak gönderilecektir. Şu anda kullanılabilir raporların listesini nasıl inceleyebileceğinizi öğrenmek için aşağıdaki [Yapılandırılabilir iş belgelerini desteklemek için Finance'te yayınlanan ER yapılandırmalarının listesi](#list-of-configurations-cbd) bölümüne bakın.
 
@@ -59,7 +57,7 @@ Bu özellik hakkında daha fazla bilgi edinmek için bu konudaki örneği tamaml
 
 İş belgesi yönetimi ER çerçevesinin üzerine oluşturulduğundan, İş belge yönetimiyle çalışmaya başlamak için ER parametrelerini konfigüre etmelisiniz. Bunu yapmak için ER parametrelerini [Elektronik raporlama (ER) çerçevesini yapılandırma](electronic-reporting-er-configure-parameters.md)'da açıklandığı şekilde ayarlamanız gerekir. Ayrıca, [Yapılandırma sağlayıcıları oluştur ve bunları ektin olarak işaretle](tasks/er-configuration-provider-mark-it-active-2016-11.md)'de gösterildiği gibi yeni bir yapılandırma sağlayıcısı eklemeniz gerekir.
 
-![ER Çalışma Alanı](./media/BDM-Overview-ERSetting.png)
+![ER çalışma alanı.](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>ER çözümlerini çe aktar
 
@@ -69,22 +67,22 @@ Bu prosedürde verilen örnekte, örnek ER yapılandırmaları kullanılmıştı
 
 | Dosya                                      | İçerik |
 |-------------------------------------------|---------|
-| Customer invoicing model.version.2.xml    | [ER verisi modeli yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Customer FTI report (GER).version.2.3.xml | [Serbest metin fatura ER biçim yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Customer invoicing model.version.2.xml    | [ER verisi modeli yapılandırması](https://download.microsoft.com/download/b/f/a/bfa5cb52-e6e2-42bc-a4c0-77014a4c54e6/Customerinvoicingmodel.version.2.xml) |
+| Customer FTI report (GER).version.2.3.xml | [Serbest metin fatura ER biçim yapılandırması](https://download.microsoft.com/download/3/c/2/3c2e58f2-6e56-43d9-85ea-4c97252a108d/CustomerFTIreportGER.version.2.3.xml) |
 
 **Örnek ER ödeme çekleri çözümü**
 
 | Dosya                                     | İçerik |
 |------------------------------------------|---------|
-| Model for cheques.version.10.xml         | [ER verisi modeli yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Cheques printing format.version.10.9.xml | [Ödeme çeki ER biçim yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Model for cheques.version.10.xml         | [ER verisi modeli yapılandırması](https://download.microsoft.com/download/3/7/6/376cb0f6-181a-4895-a432-390ffca64162/Modelforcheques.version.10.xml) |
+| Cheques printing format.version.10.9.xml | [Ödeme çeki ER biçim yapılandırması](https://download.microsoft.com/download/6/d/6/6d61bfff-3d89-4377-9e34-2e3ee6d6df91/Chequesprintingformat.version.10.9.xml) |
 
 **Örnek ER dış ticaret çözümü**
 
 | Dosya                             | İçerik |
 |----------------------------------|---------|
-| Intrastat model.version.1.xml    | [ER verisi modeli yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Intrastat report.version.1.9.xml | [Intrastat kontrol raporu ER biçim yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Intrastat model.version.1.xml    | [ER verisi modeli yapılandırması](https://download.microsoft.com/download/2/0/0/200d6ed1-eff8-48ec-ab75-175a4acf9714/Intrastatmodel.version.1.xml) |
+| Intrastat report.version.1.9.xml | [Intrastat kontrol raporu ER biçim yapılandırması](https://download.microsoft.com/download/7/a/2/7a2a27c3-a8a5-42a1-9d04-f0a8e1ec1707/Intrastatreport.version.1.9.xml) |
 
 Her bir dosyayı içe aktarmak için aşağıdaki yordamı kullanın. İlgili ER *biçimi* yapılandırmasını içe aktarmadan önce, yukarıdaki tablolardaki her bir er çözümünün ER *veri modeli* yapılandırmasını içe aktarın.
 
@@ -94,11 +92,11 @@ Her bir dosyayı içe aktarmak için aşağıdaki yordamı kullanın. İlgili ER
 4. Gerekli XML dosyasını yüklemek için **Gözat**'ı seçin.
 5. Yapılandırmanın içe aktarma işlemini onaylamak için **Tamam**'ı seçin.
 
-![Yapılandırmayı içeri aktarmayı onaylayan ER yapılandırmaları sayfası](./media/BDM-Overview-ERSolutions.png)
+![Yapılandırmayı içe aktarmayı onaylayan ER yapılandırmaları sayfası.](./media/BDM-Overview-ERSolutions.png)
 
 Alternatif olarak, resmi olarak yayımlanan ER biçimi yapılandırmalarını Microsoft Dynamics Lifecycle Service (LCS) uygulamasından içe aktarabilirsiniz. Örneğin, bu prosedürü tamamlamak için **Serbest metin faturası (Excel)** ER biçimi yapılandırmasının en son sürümünü içe aktarabilirsiniz. İlgili ER veri modeli ve ER model eşleme yapılandırmaları otomatik olarak içe aktarılır.
 
-![LCS paylaşılan varlık kitaplığı içerik sayfası](./media/BDM-Overview-SharedAssetLibrary.png)
+![LCS paylaşılan varlık kitaplığı içerik sayfası.](./media/BDM-Overview-SharedAssetLibrary.png)
 
 ER yapılandırmalarının içe aktarılması hakkında daha fazla bilgi içi bkz: [ER yapılandırması yaşam döngüsünü yönetme](general-electronic-reporting-manage-configuration-lifecycle.md).
 
@@ -116,7 +114,7 @@ Tüm yasal varlıklar için iş belgesi yönetim işlevlerini etkinleştirmek ü
 > [!NOTE]
 > İş belgesi yönetimi'nde yeni belge kullanıcı arabiriminin kullanılması hakkında daha fazla bilgi için bkz. [İş belgesi yönetimi'nde yeni belge kullanıcı arabirimi](er-business-document-management-new-template-ui.md).
 
-![Özellik yönetimi çalışma alanı](./media/BDM-Overview-FMEnabling.png)
+![Özellik yönetimi çalışma alanı.](./media/BDM-Overview-FMEnabling.png)
 
 Yeni özellikleri etkinleştirme hakkında daha fazla bilgi için [Özellik yönetimine genel bakış](../../fin-ops/get-started/feature-management/feature-management-overview.md)'a bakın.
 
@@ -138,7 +136,7 @@ Bu belge türü için aşağıdaki öznitelik değerleri seçilmelidir.
 
 Gerekli belge yönetimi parametrelerinin ve belge türlerinin nasıl ayarlanacağı hakkında bilgi için bkz: [Belge yönetimini yapılandır](../../fin-ops/organization-administration/configure-document-management.md).
 
-![Belge yönetimi belge türünü ayarla](./media/BDM-Overview-DMSetting.png)
+![Belge yönetimi belge türünü ayarlama.](./media/BDM-Overview-DMSetting.png)
 
 ### <a name="set-up-parameters"></a><a name="SetupBdmParameters"></a>Parametreleri ayarlayın
 
@@ -156,7 +154,7 @@ Tüm tüzel kişilikler için temel parametreleri ayarlamak üzere aşağıdaki 
 > [!NOTE]
 > Yalnızca bir SharePoint yerleşim kullanılarak konfigüre edilen belge türleri bu parametre için kullanılabilir.
 
-![Iş belgesi yönetim parametrelerinin kurulumu](./media/BDM-Overview-BDMSetting.png)
+![İş belgesi yönetim parametrelerinin kurulumu.](./media/BDM-Overview-BDMSetting.png)
 
 Seçili belge türü şirkete özgüdür ve seçilen belge türü konfigüre edilen şirketteki İş Belge yönetiminde kullanıcının çalıştığı zaman kullanılır. Kullanıcı, başka bir şirkette İş belgesi yönetimi ile çalışırken, bu şirket için yapılandırılmadıysa, seçilen aynı belge türü kullanılacaktır. Bir belge türü konfigüre edildiğinde, **SharePoint belge türü** alanında seçilen yerine kullanılacak.
 
@@ -167,7 +165,7 @@ Seçili belge türü şirkete özgüdür ve seçilen belge türü konfigüre edi
 
 Varsayılan olarak, İş belgesi yönetimi izinlerine erişim özelliği etkin olmadığında, İş belge yönetimi çalışma alanına erişimi olan her Kullanıcı, tüm ER çözüm şablonlarını görür. İş belgesi yönetimi çalışma alanı yalnızca, ER biçim yapılandırmalarında bulunan ve bir **İş belgesi türü** etiketi tarafından işaretlenen şablonları gösterir.
 
-![İş belgesi türü etiketi olan ER yapılandırmaları sayfası](./media/BDM-Overview-ERFormatTags.png)
+![İş belgesi türü etiketi olan ER yapılandırmaları sayfası.](./media/BDM-Overview-ERFormatTags.png)
 
 İş belgesi yönetimi çalışma alanında bulunan şablonların listesi, erişim izinleri yapılandırılarak kısıtlanabilir. Farklı iş etki alanları (işlevsel alanlar) için iş belgeleri oluşturmak amacıyla farklı şablonlar kullanıldığında ve İş belge yönetimi çalışma alanında düzenleme yapmak üzere belirli kullanıcıların farklı şablonlara erişmesine izin vermek istiyorsanız, bu durum önemli olabilir.
 
@@ -183,19 +181,19 @@ Tüm yasal varlıklar için iş belgesi yönetim izinlerini kurmak üzere aşağ
 
     İş belgesi yönetimi için erişim izinlerinin kullanımının etkin olmadığını bildiren bir uyarıların bildirimine dikkat edin.
 
-    ![Iş belgesi yönetimi erişim izinleri sayfası](./media/BDM-Overview-TemplatesAccess1.png)
+    ![İş belgesi yönetimi erişim izinleri yapılandırıcısı sayfası.](./media/BDM-Overview-TemplatesAccess1.png)
 
     Bu ayarla, **İş belgesi şablonlarını yönet** (AOT adı **ERBDManageTemplates**) görevini gerçekleştirecek bir güvenlik rolüne atanan her Kullanıcı, iş belge yönetimini açabilir ve kullanılabilir tüm şablonları düzenleyebilir.
 
     Aşağıdaki grafik, **Alacak hesapları memuru** rolüne atanan kullanıcılar için İş belgesi yönetimi çalışma alanında neler mevcut olduğunu göstermektedir. Geçerli erişim izinleri ayarıyla, Kullanıcı, faturalama, mevzuat raporlaması ve ödemeler dahil farklı işlevsel alanlardaki iş belgesi şablonlarını düzenleyebilir.
 
-    ![Alacak hesapları memuru için İş belgesi yönetimi çalışma alanı sayfası](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Alacak hesapları memuru için İş belgesi yönetimi çalışma alanı sayfası.](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. **Erişim izinleri yapılandırıcısı** sayfasında, **Erişim izinleri ayarı**'nıseçin.
 4. **Şablonları düzenlemek için erişim izinleri ayarları** iletişim kutusunda, **Yapılandırılan erişim izinlerini uygula** seçeneğini etkinleştirin.
 5. Iş belgesi yönetimi erişim izinlerinin etkinleştirildiğini onaylamak için **Tamam**'ı seçin.
 
-    ![İş belgesi yönetimi erişimi izinleri onaylama](./media/BDM-Overview-TemplatesAccess2.png)
+    ![İş belgesi yönetimi erişim izinlerini onaylama.](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. İlgili iş belge yönetimi şablonlarına erişim izinlerinin konfigüre edildiği yeni bir iş rolü girmek için **Ekle**'yi seçin.
 7. **Güvenlik rolleri** iletişim kutusunda, **Alacak hesapları memuru** rolünü seçin ve sonra rol seçimini onaylamak için **Tamam**'ı seçin.
@@ -207,7 +205,7 @@ Tüm yasal varlıklar için iş belgesi yönetim izinlerini kurmak üzere aşağ
 
 11. **İlgili bilgi** bölmesini geçerli sayfanın sağ tarafından değiştirin. **İlgili bilgiler** bölmesi, alacak **Hesaplar Yardım memuru** rolüne atanan kullanıcılar için hangi er yapılandırma şablonları kullanılabilir olacağını da içerecek şekilde, yapılandırılan erişim izinlerinin nasıl uygulanacağını gösterir.
 
-    ![Erişim izinleri yapılandırıcısı sayfasındaki ilgili bilgiler bölmesi](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Erişim izinleri yapılandırıcısı sayfasındaki ilgili bilgiler bölmesi.](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. **Yapılandırma etiketleri başına erişim izinleri** sekmesinde, **Ekle** seçeneğini seçin.
 13. **Yapılandırma Seç** iletişim kutusunda, **Intrastat raporu** ER biçim yapılandırmasını işaretleyin.
@@ -218,11 +216,11 @@ Geçerli ayar, **Alacak hesaplarına atanan memurlar** için bir rol ve gümrük
 - **İşlevsel alan** etiketi için **Faturalama** değerine sahip şablonlar.
 - **Yapılandırma başına erişim izinleri** sekmesi üzerinde listelenen ER biçim yapılandırmalarına ait şablonlar (bu örnekte **Yasal raporlama** etki alanının **Intrastat raporu** biçimi yapılandırmasındaki şablonlar).
 
-![Erişim izinleri yapılandırıcısı sayfasındaki erişim izinleri hızlı sekmeleri](./media/BDM-Overview-TemplatesAccess4.png)
+![Erişim izinleri yapılandırıcısı sayfasındaki erişim izinleri hızlı sekmeleri.](./media/BDM-Overview-TemplatesAccess4.png)
 
 Aşağıdaki grafik, **Alacak hesapları memuru** rolüne atanan kullanıcılar için İş belgesi yönetimi çalışma alanında neler mevcut olduğunu göstermektedir. Geçerli Iş belge yönetimi erişim izinleri ayarıyla, Kullanıcı **faturalama** etki alanından ve **Intrastat raporu** ER biçim yapılandırmasındaki iş belgesi şablonlarını düzenleyebilir. **Ödemeler** etki alanındaki şablonlara **alacak hesapları memuru** rolü için erişilemez.
 
-![İş belgesi yönetimi çalışma alanı sayfasında iş belgesi şablonlarını düzenleme](./media/BDM-Overview-TemplatesForAlice2.png)
+![İş belgesi yönetimi çalışma alanı sayfasında iş belgesi şablonlarını düzenleme.](./media/BDM-Overview-TemplatesForAlice2.png)
 
 > [!NOTE]
 > **Yapılandırma etiketleri başına erişim izinleri** bir ER biçimi yapılandırmasının benzersiz kimlik kodu kullanılarak depolanır. Bu, bunlara başvuran bir ER yapılandırması silindiğinde bu kuralların silinmeyeceği anlamına gelir. Silinen yapılandırmaları bu örneğe geri aktardığınızda, bu kurallar bunlara yeniden başvuracaktır. Silinen yapılandırmalar tekrar içe aktarıldıktan sonra kuralları yeniden ayarlamaya gerek yoktur.
@@ -244,7 +242,7 @@ Aşağıdaki grafik, **Alacak hesapları memuru** rolüne atanan kullanıcılar 
 - ER yapılandırma sağlayıcınızın sahibi olduğu şablonlar (**Elektronik raporlama** çalışma alanında etkin olarak işaretlenmiş geçerli sağlayıcı). Bu şablonlardan birini seçtikten sonra, başlatmak veya düzenlemeye devam etmek için **Şablonu düzenle**'yi seçebilirsiniz.
 - Sahibi başka ER yapılandırması sağlayıcıları olan şablonlar. Bu şablonlardan birini seçtikten sonra, ER yapılandırma sağlayıcınızın sahibi olduğu şablonun bir kopyasını oluşturmak için **Yeni belge**'yi seçebilir ve bu kopyayı düzenlemeye başlayabilirsiniz.
 
-![İş belgesi yönetimi çalışma alanı sayfasında şablon listeleri](./media/BDM-Overview-EditingTemplate1.png)
+![İş belgesi yönetimi çalışma alanı sayfasında şablon listeleri.](./media/BDM-Overview-EditingTemplate1.png)
 
 **Şablon** sekmesi seçili şablonun içeriğini gösterir. Seçili şablonun ayrıntılarını ve bu şablonun içinde bulunduğu er biçim yapılandırmasının ayrıntılarını gözden geçirmek için **Ayrıntılar** sekmesini seçin. Tüm şablonların **Yayımlanmış** durumu olduğuna ve **Düzeltme** sütununda hiçbir ayrıntı içermediğini unutmayın. Bu, bu şablonların şu anda düzenlenmediği anlamına gelir.
 
@@ -257,7 +255,7 @@ Başka ER yapılandırması sağlayıcılarının sahibi olduğu şablonlarla ç
 1. İş belgesi yönetimi çalışma alanında, listedeki **Çek yazdırma biçim** şablonunu seçin.
 2. **Ayrıntılar** sekmesini seçin.
 
-![İş belgesi yönetimi çalışma alanı sayfası, Ayrıntılar sekmesi](./media/BDM-Overview-EditingTemplate2.png)
+![İş belgesi yönetimi çalışma alanı sayfası, Ayrıntılar sekmesi.](./media/BDM-Overview-EditingTemplate2.png)
 
 Seçili şablon için **Şablonu Düzenle** şablonu seçeneği kullanılabilir. Bu seçenek, etkin ER yapılandırma sağlayıcısı (Bu örnekte, **Litware, Inc.**) tarafından sahip olan ER biçim yapılandırması içindeki bir şablon için her zaman kullanılabilir. **Şablonu düzenle** seçildiğinde, temel ER biçim yapılandırmasının taslak sürümünden var olan şablon düzenlenebilir olacaktır.
 
@@ -265,16 +263,32 @@ Seçili şablon için **Şablonu Düzenle** şablonu seçeneği kullanılabilir.
 
 1. İş belgesi yönetimi çalışma alanında, şablon olarak kullanmak istediğiniz belgeyi seçin.
 
-    ![İş belgesi yönetimi çalışma alanı sayfasında belge seçme](./media/BDM-Overview-EditingTemplate3.png)
+    ![İş belgesi yönetimi çalışma alanı sayfasında belge seçme.](./media/BDM-Overview-EditingTemplate3.png)
 
 2. **Yeni belge**'yi seçin ve gerekirse, **Başlık** alanında, düzenlenebilir şablonun başlığını değiştirin. Metin, otomatik olarak oluşturulan ER biçimi yapılandırmasını adlandırmak için kullanılacaktır. Düzenlenen şablonu içerecek şekilde bu yapılandırmanın taslak sürümünün (**Müşteri FTI raporu (GER) kopyası**) bu ER biçimini otomatik olarak geçerli kullanıcı için çalışacak şekilde işaretleneceğini göz önünde bulundurun. Aynı zamanda, temel ER biçimi yapılandırmasındaki değiştirilmemiş özgün şablon, başka bir kullanıcının bu ER biçimini çalıştırmak için kullanılacaktır.
 3. **Ad** alanında, düzenlenebilir şablonun otomatik olarak oluşturulacak ilk revizyonunun adını değiştirin.
 4. **Yorum** alanında, düzenlenebilir şablonun otomatik olarak oluşturulan revizyonuna ilişkin yorumu değiştirin.
 5. Düzenleme işleminin başlangıcını onaylamak için **Tamam**'ı seçin.
 
-![Yeni şablon oluşturmak için düzenleme işleminin başlangıcını onaylama](./media/BDM-Overview-EditingTemplate4.png)
+![Yeni şablon oluşturmak için düzenleme işleminin başlangıcını onaylama.](./media/BDM-Overview-EditingTemplate4.png)
+
+Herhangi bir sağlayıcı yoksa oluşturulması önerilecektir. Etkin sağlayıcı yoksa, etkinleştirme için seçmeniz önerilecektir.
+
+Sağlayıcı oluşturmak için, **Ad** alanında sağlayıcının adını değiştirin, **İnternet adresi** alanında yeni sağlayıcının internet adresini güncelleştirin ve onaylamak için **Tamam**'ı seçin.
+
+   ![BDM'de yeni sağlayıcı oluşturma.](./media/bdm_create_provider.png)
+
+Mevcut sağlayıcıyı etkinleştirmek için **Yapılandırma sağlayıcısı** alanında sağlayıcının adını seçin ve ardından sağlayıcıyı etkin olarak ayarlamak için **Tamam**'ı seçin.
+
+   ![BDM'de sağlayıcıyı etkinleştirme.](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Her BDM şablonu yapılandırmanın yazarı olarak sağlayıcıya başvurur. Bu nedenle şablon için etkin bir sağlayıcı gereklidir.
+
 
 **Yeni belge** seçeneği, geçerli veya başka bir sağlayıcı tarafından (bu örnekte Microsoft) sağlanan ER biçimi yapılandırmasındaki revizyonu olmayan bir şablonda her zaman kullanılabilir. Düzenlenen şablon daha sonra otomatik olarak oluşturulan yeni bir ER biçim yapılandırması içinde depolanır.
+
+
 
 ### <a name="start-editing-a-template"></a>Şablonu düzenlemeye başla
 
@@ -282,19 +296,19 @@ Seçili şablon için **Şablonu Düzenle** şablonu seçeneği kullanılabilir.
 2. **Ad** alanında, düzenlenebilir şablonun otomatik olarak oluşturulacak ilk revizyonunun adını değiştirin.
 3. **Yorum** alanında, düzenlenebilir şablonun otomatik olarak oluşturulan revizyonuna ilişkin değişikliği değiştirin.
 
-    ![İş belgesi yönetimi çalışma alanı sayfasında şablon düzenleme](./media/BDM-Overview-EditingTemplate5.png)
+    ![İş belgesi yönetimi çalışma alanı sayfasında şablon düzenleme.](./media/BDM-Overview-EditingTemplate5.png)
 
 4. Düzenleme işleminin başlangıcını onaylamak için **Tamam**'ı seçin.
 
 **BDM şablon düzenleyici** sayfası açılır. Seçili şablon, Microsoft 365 kullanılarak çevrimiçi düzenleme için uygun olacak.
 
-![İş belge yönetimi şablon düzenleme sayfası](./media/BDM-Overview-EditingLayout1.png)
+![İş belgesi yönetimi şablon düzenleme sayfası.](./media/BDM-Overview-EditingLayout1.png)
 
 ### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>Microsoft 365'te şablon düzenleme
 
 Microsoft 365 kullanarak şablonda değişiklik yapabilirsiniz. Örneğin, Office Online'da, alanın yazı tipini, şablon başlığında **Normal**'den **Kalın**'a değiştirin. Bu değişiklikler, birincil şablonun depolama alanında (varsayılan olarak, Azure Blob depolaması) depolanan düzenlenebilir şablonda otomatik olarak depolanır. Bu, ER çerçevesi için yapılandırılmıştır.
 
-![İş belgesi yönetimi şablon düzenleyicisi sayfasındaki şablon üst bilgisinde yazı tipini kalın olarak değiştirme](./media/BDM-Overview-EditingLayout2.png)
+![İş belgesi yönetimi şablon düzenleyicisi sayfasındaki şablon üst bilgisinde yazı tipini kalın olarak değiştirme.](./media/BDM-Overview-EditingLayout2.png)
 
 ### <a name="edit-a-template-in-the-office-desktop-application"></a><a name="EditInOfficeDesktopApp"></a>Office masaüstü uygulamasında şablon düzenle
 
@@ -304,15 +318,15 @@ Microsoft 365 kullanarak şablonda değişiklik yapabilirsiniz. Örneğin, Offic
 1. **Office Masaüstü uygulaması**'nın (Bu örnekte Excel) işlevini kullanarak şablonu değiştirmek için masaüstü uygulamasında aç seçeneğini seçin. Düzenlenebilir şablon, kalıcı depolama alanından İş belgesi yönetimi parametrelerinde konfigüre edilen geçici depolama alanına bir SharePoint klasör olarak kopyalanır.
 2. Şablonu, Office Desktop Excel uygulamasındaki geçici dosya depolama alanından açmak istediğinizi onaylayın.
 
-    ![Masaüstü Excel uygulamasında açılan şablon](./media/BDM-Overview-EditingLayout3.png)
+    ![Masaüstü Excel uygulamasında açılan şablon.](./media/BDM-Overview-EditingLayout3.png)
 
 3. Şablonu değiştirin. Örneğin, şablon başlığındaki alanların yazı tipini, rengi **Siyah** ila **Mavi** arasında güncelleyerek değiştirin.
 
-    ![Masaüstü Excel uygulamasını kullanarak şablon üst bilgisinde yazı tipi rengini değiştirme](./media/BDM-Overview-EditingLayout4.png)
+    ![Masaüstü Excel uygulamasını kullanarak şablon üst bilgisinde yazı tipi rengini değiştirme.](./media/BDM-Overview-EditingLayout4.png)
 
 4. Şablon değişikliklerini geçici depoda depolamak için Excel masaüstü uygulamasında **Kaydet**'i seçin.
 
-    ![Masaüstü Excel uygulamasını kullanarak İş belgesi yönetimi şablon düzenleyicisi sayfasında değişiklikleri kaydetme](./media/BDM-Overview-EditingLayout5.png)
+    ![Masaüstü Excel uygulamasını kullanarak İş belgesi yönetimi şablon düzenleyicisi sayfasında değişiklikleri kaydetme.](./media/BDM-Overview-EditingLayout5.png)
 
 5. Excel masaüstü uygulamasını kapatın.
 6. Geçici şablon depolama alanını kalıcı şablon depolama ile eşitlemek için **Kaydedilmiş kopyayı eşitle**'yi seçin.
@@ -326,13 +340,13 @@ Microsoft 365 kullanarak şablonda değişiklik yapabilirsiniz. Örneğin, Offic
 2. Düzenlenebilir şablonla hizalanması gereken temel ER biçimi yapılandırmasındaki biçimin geçerli yapısını görüntülemek için **Biçimi göster**'i seçin. 
 3. Bölmeyi kapatmak için **Biçimi Gizle**'yi seçin.
 
-    ![BDM BDM Şablon Düzenleyicisi sayfası](./media/BDM-Overview-EditingTemplate6.png)
+    ![BDM BDM Şablon Düzenleyicisi sayfası.](./media/BDM-Overview-EditingTemplate6.png)
 
 4. **BDM şablon düzenleyici** sayfasını kapatın.
 
 Güncelleştirilen şablon, **Şablon** sekmesinde gösterilir. düzenlenen şablonun durumunun **Taslak** olduğuna ve geçerli düzeltmenin artık boş olmadığına dikkat edin. Bu, bu şablonun düzenleme işleminin başlatıldığı anlamına gelir.
 
-![İş belgesi yönetimi çalışma alanı sayfasında güncellenen şablonu görüntüleme](./media/BDM-Overview-EditingTemplate5.png)
+![İş belgesi yönetimi çalışma alanı sayfasında güncellenen şablonu görüntüleme.](./media/BDM-Overview-EditingTemplate5.png)
 
 ### <a name="test-the-modified-template"></a>Değiştirilmiş şablonu sına 
 
@@ -342,13 +356,13 @@ Güncelleştirilen şablon, **Şablon** sekmesinde gösterilir. düzenlenen şab
 4. Düzeyi işlenecek faturaların kapsamını belirlemek için **Modül - alacak hesapları** \> **Belgeler** \> **Serbest metin fatura** \> **Özgün belge**'yi seçin.
 5. **Rapor biçimi** alanında, **Müşteri FTI raporu (GER)** belirtilen belge düzeyi için ER biçimini seçin.
 
-    ![Yazdırma yönetimi sayfasını yazdır](./media/BDM-Overview-TestRun1.png)
+    ![Yazdırma yönetimi sayfasını yazdır.](./media/BDM-Overview-TestRun1.png)
 
 6. Geçerli sayfayı kapatmak için **ESC** tuşuna basın.
 7. **Yazdır**'ı seçin ve **Seçili** öğesini belirleyin.
 8. Belgeyi karşıdan yükleyin ve Excel masaüstü uygulamasını kullanarak açın.
 
-![Serbest metin faturaları sayfası](./media/BDM-Overview-TestRun2.png)
+![Serbest metin faturaları sayfası.](./media/BDM-Overview-TestRun2.png)
 
 Değiştirilen şablon, seçili madde için serbest metin faturası raporu oluşturmak amacıyla kullanılır. Bu raporun şablona eklediğiniz değişikliklerden nasıl etkilendiğini analiz etmek için, başka bir uygulama oturumunda şablonu değiştirdikten sonra bu raporu bir uygulama oturumunda çalıştırabilirsiniz.
 
@@ -359,7 +373,7 @@ Değiştirilen şablon, seçili madde için serbest metin faturası raporu oluş
 3. Gerekirse, **Ad** alanında, İkinci revizyon adını değiştirin ve onu o anda etkin olan ilk revizyon üzerinde temellendirin.
 4. İhtiyaç halinde **Yorum** alanında, düzenlenebilir şablonun otomatik olarak oluşturulan revizyonuna ilişkin değişikliği değiştirin.
 
-    ![İş belgesi yönetimi çalışma alanı sayfasında şablonda düzeltmeler oluşturma](./media/BDM-Overview-AddRevision.png)
+    ![İş belgesi yönetimi çalışma alanı sayfasında şablonda düzeltmeler oluşturma.](./media/BDM-Overview-AddRevision.png)
 
     Şablonunuzun kalıcı şablonun depolama alanında depolanmış yeni bir düzeltmesi oluşturdunuz. Şimdi etkin olarak seçili olan ikinci revizyon şablonunu düzenlemeye devam edebilirsiniz.
 
@@ -377,7 +391,7 @@ Değiştirilen şablon, seçili madde için serbest metin faturası raporu oluş
 
 Şablonu geçerli etkin sağlayıcının sahibi olduğu bir ER biçiminden düzenlediğinizde, bu şablon için tanıtılan değişiklikleri iptal etme seçeneği sunulur.
 
-![İş belgesi yönetimi çalışma alanı sayfasında şablondaki değişiklikleri reddetme](./media/BDM-Overview-RevokeChanges.png)
+![İş belgesi yönetimi çalışma alanı sayfasında şablondaki değişiklikleri reddetme.](./media/BDM-Overview-RevokeChanges.png)
 
 1. **BDM Şablon Düzenleyicisi** sayfasında **Şablon** sekmesini seçin.
 2. **Geri Al** seçeneğini belirleyin.
@@ -421,9 +435,9 @@ Büyük olasılıkla, bu örneği dağıtmak için kullanılan Azure AD etki ala
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Yapılandırılabilen iş belgelerini desteklemek için Finance'te yayınlanan ER yapılandırmalarının listesi
 
-Finance için ER yapılandırmalarının [listesi](general-electronic-reporting.md#list-of-configurations) sürekli olarak güncelleştirilmektedir. Şu anda desteklenen ER yapılandırmalarının listesini incelemek için [Genel depo](er-download-configurations-global-repo.md)'yu açın. Yapılandırılabilir iş belgelerini desteklemek için kullanılan ER yapılandırmalarının listesini incelemek için Genel depo'da [filtre uygulayabilirsiniz](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo).
+Finance için ER yapılandırmalarının [listesi](general-electronic-reporting.md#list-of-configurations) sürekli olarak güncelleştirilmektedir. Şu anda desteklenen ER yapılandırmalarının listesini incelemek için [Genel depo](er-download-configurations-global-repo.md)'yu açın. Yapılandırılabilir iş belgelerini desteklemek için kullanılan ER yapılandırmalarının listesini incelemek için Genel depo'da [filtre uygulayabilirsiniz](../../../finance/localizations/enhanced-filtering-global-repo.md).
 
-![Yapılandırma deposu sayfasında Genel depo içeriklerini filtreleme](./media/bdm-overview-filterglobalrepo.gif)
+![Yapılandırma deposu sayfasında Genel depo içeriklerini filtreleme.](./media/bdm-overview-filterglobalrepo.gif)
 
 Aşağıdaki tabloda yapılandırılabilir iş belgelerini destekleyen ve Aralık 2020'ye kadar Finance'te yayınlanmış olan ER yapılandırmalarının listesi gösterilmektedir.
 
@@ -579,3 +593,6 @@ Aşağıdaki tabloda yapılandırılabilir iş belgelerini destekleyen ve Aralı
 |                             | Satış siparişi sevk irsaliyesi (LT) (Excel)           |
 |                             | Satış siparişi sevk irsaliyesi (PL) (Excel)           |
 |                             | Satış siparişi sevk irsaliyesi (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ec5e0ac8dd097e5ebf016683fc5c17df7ecb2305
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 25507a482b2db7c01f56679bf3e8454249de3a6b9965f9c359a2ebe2cc8445ce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711699"
 ---
 # <a name="quantity-that-youre-trying-to-update-exceeds-the-receiveddelivered-quantity"></a>Güncelleştirmeye çalıştığınız miktar alınan/teslim edilen miktarı aşıyor
 
@@ -62,8 +62,8 @@ Yük satırı miktarını ayarlamak için aşağıdaki yordamı kullanın.
 
 1. **Ambar yönetimi \> Yükler \> Tüm yükler**'e gidin.
 1. Sevk irsaliyesinin oluşturulamadığı yükü seçin.
-1. Eylem Bölmesinde, **Sevk ve teslim alma** sekmesinin **Tersine çevir** grubunda **Sevkiyat onayını tersine çevir**'i seçin.
-1. **Yük satırları** sekmesinde, soruna neden olan maddenin yük satırını seçin.
+1. Eylem Bölmesi'nde,  **Sevk ve teslim alma** sekmesinin  **Tersine çevir** grubunda  **Sevkiyat onayını tersine çevir**'i seçin.
+1.  **Yük satırları** sekmesinde, soruna neden olan maddenin yük satırını seçin.
 1. Çekilen miktarı ayarlamak için **Çekilen miktarı düş**'ü seçin.
 1. Yük satırındaki ayarlamaları yansıtacak şekilde **Yük satırını azalt** alanını ayarlayın.
 
@@ -75,5 +75,5 @@ Birisi bir yük satırını iş olmadan kapatmak için çekme kaydını kulland�
 
 1. **Alacak hesapları \> Siparişler \> Tüm siparişler**'e gidin.
 1. Yük için sevk irsaliyesini deftere nakledemeyeceğiniz satış siparişini seçin.
-1. **Satış siparişi satırları** sekmesinde, çekme kaydının yapıldığı satış siparişi satırını seçin.
+1.  **Satış siparişi satırları** sekmesinde, çekme kaydının yapıldığı satış siparişi satırını seçin.
 1. Madde çekmeyi iptal etmek için **Satırı güncelleştir \> Çek**'i seçin.

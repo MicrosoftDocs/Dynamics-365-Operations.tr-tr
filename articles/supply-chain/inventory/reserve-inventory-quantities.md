@@ -2,28 +2,25 @@
 title: Stok miktarlarını rezerve etme
 description: Bu konu stok rezervasyonunda kullanılabilen farklı seçenekleri açıklar.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea7311ce34fec476ad9953e954a07a86acd13afc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 052cb56e026fbfe5cf5f6ad5d265337d7b88dc4d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439570"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193965"
 ---
 # <a name="reserve-inventory-quantities"></a>Stok miktarlarını rezerve etme
 
@@ -49,7 +46,7 @@ Stok rezervasyonu ilkeleri **Madde model grupları** sayfasında, **Stok ve amba
 
 **Stok ilkeleri** bölümü aşağıdaki rezervasyon ilkelerini içerir.
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Rezervasyon ilkesi**  | **Açıklama**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | FIFO tarihi denetimli    | **FIFO tarihi denetimli** seçeneğini belirlerseniz stok rezervasyonu FIFO ilkesine göre bir sıralama tarihi ile denetlenir. İlk giren ilk çıkar (FIFO) ilkesine göre, toplu işler maddenin en erken giriş tarihine göre rezerve edilir.                                                                                                                                                                                                                                                                       |
@@ -83,3 +80,6 @@ Otomatik olarak rezerve edilmesi gereken ve 4 Nisan 2016 tarihinde teslim edilen
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Üretim parametreleri sayfasındaki stok rezervasyonu ilkeleri
 
 **Üretim parametreleri** sayfasında bulunan **Genel** sekmesindeki **Rezervasyon** alanının değeri üretim sürecinde stoğun rezerve edilmesi gereken varsayılan noktayı belirler. Örneğin, stok iş zamanlanırken veya iş başlatıldığında rezerve edilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

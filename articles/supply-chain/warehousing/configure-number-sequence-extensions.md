@@ -2,26 +2,23 @@
 title: Ambar akışları için numara serilerini yapılandırma
 description: Bu konu plaka kodları, dalga etiketi kodları, konteyner kodları ve konşimento kodları için numara serisi uzantıları sağlayan işlevlere genel bir bakış sağlar.
 author: GarmMSFT
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: d93dd38acb9c25bde5aaacd74f68468864e77228f2463d492a7fb817c9ca2973
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4439740"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751757"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Ambar akışları için numara serilerini yapılandırma
 
@@ -92,3 +89,6 @@ Numara serileri oluşturmak ve düzenlemek için aşağıdaki adımları izleyin
     | Denetleme basamağı | Bu segment türü, modül 10 hesaplaması olan bir denetleme basamağı ekler. (Bu davranış, plaka kodları için varolan mantığı eşleştirir.) Bu segment türü için **Değer** alanı her zaman bir şapka işareti (*^*) olarak ayarlanır ve **Uzunluk** alanı her zaman *1* olarak ayarlanır. |
 
 1. Nihai numara biçiminizin bir örneğini görüntülemek için, **Segmentler** hızlı sekmesinin alt kısmındaki **Biçim** alanını inceleyin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

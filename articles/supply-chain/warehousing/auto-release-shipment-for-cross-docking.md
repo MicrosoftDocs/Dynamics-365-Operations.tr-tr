@@ -1,27 +1,24 @@
 ---
 title: çapraz sevk için sevkiyatı otomatik serbest bırakma
 description: Bu konuda, talep miktarını sağlayan üretim emri tamamlandı olarak bildirildiğinde ambara otomatik olarak bir talep emri serbest bırakmanızı sağlayan çapraz sevk stratejisi açıklanır. Bu durumda, miktar doğrudan üretim çıkış konumundan giden konumuna taşınır.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439097"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577948"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>çapraz sevk için sevkiyatı otomatik serbest bırakma
 
@@ -164,7 +161,7 @@ Mamul malların miktarını ilişkili satış siparişinin giden yerleşimine ç
 8. **Üretim emri** sayfasında, Eylem bölmesindeki **Üretim emri** sekmesinde, **İşlem** grubunda **Tahmini**'yi ve ardından **Tamam**'ı seçin. Sipariş tahmini yapılır ve hammadde miktarı üretim için rezerve edilir.
 9. Eylem bölmesindeki **Üretim emri** sekmesinde, **İşlem** grubunda **Serbest bırak**'ı ve ardından **Tamam**'ı seçin. Ham madde için ambar çekme işi oluşturulur.
 10. İşi açın ve gözden geçirin. Eylem Bölmesinde **Ambar** sekmesindeki **Genel** grubunda **İş ayrıntıları**'nı seçin. İş kodunu not edin.
-11. Ambarda 51'de işi çalıştırmak için ambarlama uygulamasına oturum açın.
+11. Ambarda 51'de işi çalıştırmak için Ambar Yönetimi mobil uygulamasına oturum açın.
 12. **Üretim** \> **Üretim çekme**'ye gidin.
 13. Ham maddenin çekilmesini başlatmak ve tamamlamak için iş kodunu girin. 
 
@@ -179,3 +176,6 @@ Aşağıdaki olayların gerçekleştiğine dikkat edin:
 - Bağlantılı satış siparişi için ambara serbest bırakma tetiklenir.
 - Serbest bırakmaya bağlı olarak, sevkiyat ve çapraz sevk işi oluşturulur. Bu iş, ambar operatörüne satış siparişi satırını karşılamak için gereken miktarları çekmesini ve bunları çapraz sevk yerleşimi yönergesinde belirtilen çıkış yerleşimine koymasını söyler.
 - Üretim emri miktarı, satış siparişinin gerektirdiği miktardan büyükse, olağan yerine koyma çalışması oluşturulur. Bu iş ambar operatörüne çapraz sevk sonrasında kalan mamul mal miktarını çekmesini ve bunu yerleşim yönergesine göre normal depolama birimine taşımasını bildirir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

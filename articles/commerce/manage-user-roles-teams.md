@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b76e831641d6fcef02ce14a99d63654f657fddf6087f80bbaf044f485026d635
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 633717d77f4d31463d51c575d837a65dbb0e5ce2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747429"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358739"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>Microsoft Teams'de kullanıcı rollerini yönetme
 

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Latvia, Lithuania, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, Turkey, United Kingdom
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2f0da36e2be20d5ae8c838ed73c6e8aa1c19b621
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 02a6bcf7573012cc57f5adbf67d2d0c9ecd34db4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4409741"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236199"
 ---
 # <a name="tax-directives-for-europe"></a>Avrupa için vergi yönergeleri
 
@@ -33,3 +32,6 @@ AB Yönergesi, fatura kuralları ve fatura oluşturulurken dahil edilmesi gereke
 
 > [!NOTE]
 > **Satış vergisi özelliği** alanının **Kayıt para birimi** değerine veya **Kayıt ve Şirket para birimi** değerine ayarlandığını **Form ayarı** sayfasından **Genel** sekmesinden (**Alacak hesaplar > Ayar >Formlar >Form ayarı** veya **Proje yönetimi ve muhasebe > Ayar > Formlar > Form ayarlar**) doğrulayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

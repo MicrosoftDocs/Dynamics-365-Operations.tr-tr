@@ -1,78 +1,45 @@
 ---
-title: Servis sağlanacak şirket içi varlıklar
-description: Bu konuda, Microsoft Dynamics 365 Field Service'ı hem müşteri varlıklarına, hem de şirket içi varlıklara servis sağlamak amacıyla nasıl kullanabileceğiniz açıklanmaktadır.
+title: Servis gerçekleştirilecek şirket içi varlıklar
+description: Bu konuda, Microsoft Dynamics 365 Field Service'i hem müşteri varlıklarına hem de şirket içi varlıklara hizmet sağlamak için nasıl kullanabileceğiniz açıklanmıştır.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: ebc9c1fbb7c0738af13b2a16aafeeb03fa6aaed0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8048a99951eea3fbae34e56c1b444c75ad3d199d
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684017"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781428"
 ---
-# <a name="in-house-assets-for-servicing"></a>Servis sağlanacak şirket içi varlıklar
+# <a name="in-house-assets-for-servicing"></a>Servis gerçekleştirilecek şirket içi varlıklar
 
 [!include [banner](../../includes/banner.md)]
 
-
-
 Microsoft Dynamics 365 Field Service, müşteri varlıklarına servis sağlamak üzere tasarlanmıştır. Dynamics 365 Supply Chain Management için varlık yönetimi, şirket içi kıymetlere bakım yapmak üzere tasarlanmıştır. Bu iki uygulamanın tümleştirilmesi, Field Service'ı hem de şirket içi varlıklara hem de müşteri varlıklarına servis sağlamak üzere kullanmanıza olanak tanır. Ayrıca, işelm yapılacak yerleşim veya hiyerarşiye dayalı olarak varlıkları sınıflandırabilir ve servis işlemini ayrıntılı düzeyde izleyebilirsiniz.
 
-Daha fazla bilgi için bkz. [Dynamics 365 Field Service ile Supply Chain Management'ı Tümleştirme](https://docs.microsoft.com/dynamics365/field-service/supply-chain-field-service-integration).
+Daha fazla bilgi için bkz. [Dynamics 365 Field Service ile Supply Chain Management'ı Tümleştirme](/dynamics365/field-service/supply-chain-field-service-integration).
 
 ## <a name="templates"></a>Şablonlar
 
 Şirket içi kıymetler, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir temel tablo eşlemeleri koleksiyonunu içerir.
 
-| Finance and Operations uygulamaları | Dynamics 365'teki model yönetimli uygulamalar | Tanım |
+| Finance and Operations uygulamaları | Müşteri etkileşimi uygulamaları | Tanım |
 |-----------------------------|-----------------------------------|-------------|
-| Varlık yönetimi varlık yaşam döngüsü modelleri | msdyn\_assetlifecyclemodels | |
-| Varlık yönetimi varlık yaşam döngüsü durumları | msdyn\_assetlifecyclestates | |
-| Varlık yönetimi varlıkları | msdyn\_customerassets | |
-| Varlık yönetimi varlık türleri | msdyn\_customerassetcategories | |
-| Varlık yönetimi işlem yapılacak yerleşim yaşam döngüsü modelleri | msdyn\_functionallocationlifecyclemodels | |
-| Varlık yönetimi işlem yapılacak yerleşim yaşam döngüsü durumları | msdyn\_functionallocationlifecyclestates | |
-| Varlık yönetimi işlem yapılacak yerleşimler | msdyn\_functionallocations | |
-| Varlık yönetimi işlem yapılacak yerleşim türleri | msdyn\_functionallocationtypes | |
-| Varlık yönetimi üreticiler | msdyn\_manufacturers | |
-| Varlık yönetimi modelleri | msdyn\_models | |
-| Varlık yönetimi garanti | msdyn\_warranties | |
+[Varlık yönetimi varlık yaşam döngüsü modelleri](mapping-reference.md#119) | msdyn_assetlifecyclemodels | |
+[Varlık yönetimi varlık yaşam döngüsü durumları](mapping-reference.md#120) | msdyn_assetlifecyclestates | |
+[Varlık yönetimi varlık türleri](mapping-reference.md#124) | msdyn_customerassetcategories | |
+[Varlık yönetimi varlıkları](mapping-reference.md#125) | msdyn_customerassets | |
+[Varlık yönetimi işlem yapılacak yerleşim yaşam döngüsü modelleri](mapping-reference.md#134) | msdyn_functionallocationlifecyclemodels | |
+[Varlık yönetimi işlem yapılacak yerleşim yaşam döngüsü durumları](mapping-reference.md#135) | msdyn_functionallocationlifecyclestates | |
+[Varlık yönetimi işlem yapılacak yerleşim türleri](mapping-reference.md#137) | msdyn_functionallocationtypes | |
+[Varlık yönetimi işlem yapılacak yerleşimler](mapping-reference.md#136) | msdyn_functionallocations | |
+[Varlık yönetimi üreticiler](mapping-reference.md#153) | msdyn_manufacturers | |
+[Varlık yönetimi modelleri](mapping-reference.md#154) | msdyn_models | |
+[Varlık yönetimi garanti](mapping-reference.md#209) | msdyn_warranties | |
 
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [lifecycle models](includes/AssetManagementAssetLifecycleModels-msdyn-assetlifecyclemodels.md)]
-
-[!include [lifecycle states](includes/AssetManagementAssetLifecycleStates-msdyn-assetlifecyclestates.md)]
-
-[!include [assets](includes/AssetManagementAssets-msdyn-customerassets.md)]
-
-[!include [asset types](includes/AssetManagementAssetTypes-msdyn-customerassetcategories.md)]
-
-[!include [functional location lifecycle models](includes/AssetManagementFunctionalLocationLifecycleModels-msdyn-functionallocationlifecyclemodels.md)]
-
-[!include [functional location lifecycle states](includes/AssetManagementFunctionalLocationLifecycleStates-msdyn-functionallocationlifecyclestates.md)]
-
-[!include [functional locations](includes/AssetManagementFunctionalLocations-msdyn-functionallocations.md)]
-
-[!include [functional location types](includes/AssetManagementFunctionalLocationTypes-msdyn-functionallocationtypes.md)]
-
-[!include [manufacturers](includes/AssetManagementManufacturers-msdyn-manufacturers.md)]
-
-[!include [models](includes/AssetManagementModels-msdyn-models.md)]
-
-[!include [warranty](includes/AssetManagementWarranty-msdyn-warranties.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

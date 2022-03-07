@@ -2,15 +2,12 @@
 title: LinkedIn Talent Hub ile tümleştirme
 description: Bu konu Microsoft Dynamics 365 Human Resources ile LinkedIn Talent Hub arasında tümleştirmeyi ayarlamayı açıklar.
 author: jaredha
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527897"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360604"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn Talent Hub ile tümleştirme
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [banner](includes/preview-feature.md)]
 
@@ -49,7 +48,7 @@ Bir sistem yöneticisinin LinkedIn Talent Hub ile tümleştirmeyi etkinleştirme
 
 5. **Dynamics 365 Human Resources** sayfasında LinkedIn Talent Hub'ı bağlayacağınız ortamı seçin ve sonra **Bağla**'yı seçin.
 
-    ![LinkedIn Talent Hub işe alma](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hub işe alma.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Yalnızca Kullanıcı hesabınızın, hem Human Resources ortamında hem de ilişkili Power Apps ortamında yönetici erişimi olan ortamlara bağlanabilirsiniz. Human Resources bağlantı sayfasında herhangi bir ortam listelenmiyorsa, Human Resources ortamlarını kiracıda lisansladığınızdan ve bağlantı sayfasında oturum açmış olan kullanıcının hem Human Resources ortamı hem de Power Apps ortamı için yönetici izinlerine sahip olduğundan emin olun.
@@ -92,7 +91,7 @@ Aday kayıtlarını Power Apps ortamına yazmak için bağdaştırıcıya gereke
 
 6. Görünümü varsayılan **etkin kullanıcılar** görünümünden **uygulama kullanıcıları** görünümüne değiştirmek için listenin üzerindeki açılan menüyü kullanın.
 
-    ![Uygulama Kullanıcıları görünümü](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Uygulama Kullanıcıları görünümü.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Araç çubuğunda **Yeni**'yi seçin.
 
@@ -127,14 +126,14 @@ Aday kayıtlarını Power Apps ortamına yazmak için bağdaştırıcıya gereke
     - **Ad**: **LinkedIn Talent Hub HRIS tümleştirmesi** gibi daha önce oluşturduğunuz Power Apps güvenlik rolünün adını girin.
     - **Kullanıcı kimliği**: Personel yönetiminde veri yazma izni olan bir kullanıcı seçin.
 
-### <a name="create-the-entity-in-common-data-service"></a>Varlığı Common Data Service'de oluşturma
+### <a name="create-the-table-in-dataverse"></a>Tabloyu Dataverse'te oluşturma
 
 > [!IMPORTANT]
-> LinkedIn Talent Hub ile tümleştirme, Human Resources için Common Data Service'de sanal varlıklara bağlıdır. Kurulumda Bu adım için bir önkoşul olarak, sanal varlıkları yapılandırmalısınız. Sanal varlıkların nasıl yapılandırılacağı hakkında bilgi için bkz. [Common Data Service sanal varlıklarını yapılandırma](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> LinkedIn Talent Hub ile tümleştirme, Human Resources için Dataverse'te sanal tablolara bağlıdır. Kurulumda bu adım için bir önkoşul olarak, sanal tablolar yapılandırmalısınız. Sanal tabloların nasıl yapılandırılacağı hakkında bilgi için bkz. [Dataverse sanal tablolarını yapılandırma](./hr-admin-integration-common-data-service-virtual-entities.md).
 
-1. Human Resources'ta **Common Data Service (CDS) tümleştirmesi** sayfasını açın.
+1. Human Resources'ta **Dataverse tümleştirmesi** sayfasını açın.
 
-2. **Sanal varlıklar** sekmesini seçin.
+2. **Sanal tablolar** sekmesini seçin.
 
 3. **LinkedIn dışa aktarılan aday**'ı bulmak için varlık listesini varlık etiketine göre filtreleyin.
 
@@ -142,7 +141,7 @@ Aday kayıtlarını Power Apps ortamına yazmak için bağdaştırıcıya gereke
 
 ## <a name="exporting-candidate-records"></a>Aday kayıtlarını dışa aktarma
 
-Kurulum tamamlandıktan sonra, işe alma ve İnsan kaynakları (HR) uzmanları, işe alınan aday kayıtlarını LinkedIn Talent Hub'dan Human Resources'a dışa aktarmak için LinkedIn Talent Hub'daki **HRIS'e Dışa Aktar** işlevini kullanabilirler.
+Kurulum tamamlandıktan sonra, işe alma ve İnsan kaynakları (HR) uzmanları, işe alınan aday kayıtlarını LinkedIn Talent Hub'dan Human Resources'a dışa aktarmak için LinkedIn Talent Hub'daki **HRIS'e Dışarı Aktar** işlevini kullanabilirler.
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>LinkedIn Talent Hub'dan kayıtları dışa aktar
 
@@ -164,7 +163,7 @@ Bir aday işe alma sürecinden geçip işe alındığında, aday kaydını Linke
     - **Konum** alanına, çalışanın çalışacağı konumu girin.
     - Çalışanın e-posta adresini girin veya doğrulayın.
 
-![LinkedIn Talent Hub'da HRIS'e Dışa Aktar bölmesi](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![LinkedIn Talent Hub'da HRIS'e Dışa Aktar bölmesi.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Human Resources'ta işe almayı tamamlama
 
@@ -188,5 +187,8 @@ Aşağıdaki ayrıntılar içe aktarılır ve yeni çalışan kaydına dahil edi
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Common Data Service sanal varlıklarını yapılandırma](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Common Data Service nedir?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[Dataverse sanal tablolarını yapılandırma](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Microsoft Dataverse nedir?](/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

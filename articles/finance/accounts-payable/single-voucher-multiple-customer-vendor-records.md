@@ -2,9 +2,11 @@
 title: Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 description: Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 Finance'in gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +16,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bca422d7c79bef2155b84e3da964c5e47af8ac8f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737053"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231602"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 
@@ -207,6 +209,8 @@ Mali boyutlar, nakit iskontosu için ilgili fiş üzerinden ARPAYM002 fişinde g
 |-------------|-----------------|------------------------|-----------|------------|
 | ARP-00001   | 403300-002-023- | Müşteri nakit iskontosu | 2.00      |            |
 | ARP-00001   | 130100-002-     | Müşteri bakiyesi       |           | 2.00       |
+
+### 
 
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Birden çok müşteri ve satıcı için mahsuplaşmaya sahip bir fiş
 Kuruluş, aynı şirket için satınalma ve satış gerçekleştirdiğinde mahsuplaşma yararlı olabilir. Müşteri faturaları için ödeme almayı beklemek ve satıcı faturalarına ödeme yapmak yerine satıcı ve müşteri faturaları netleştirilir. Mahsuplaşma hareketi devreden bakiyelere karşılık kapatılır. 

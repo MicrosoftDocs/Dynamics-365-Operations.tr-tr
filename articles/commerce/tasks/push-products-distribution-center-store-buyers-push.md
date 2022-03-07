@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailBuyersPush, InventLocationIdLookup, InventItemIdLookupSimple, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bf5dc0320e16bb53dbebc9e0bea689e0125b9827
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416460"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232846"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya gönderme
 
@@ -53,3 +52,6 @@ Bu yordam, ürünleri bir konumundan bir veya daha fazla mağazaya dağıtmak i�
 19. Sipariş oluştur'u tıklayın.
 20. Evet'i tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

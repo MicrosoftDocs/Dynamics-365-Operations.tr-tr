@@ -1,31 +1,30 @@
 ---
-title: Gelecekteki ömür olaylarını konfigüre et
-description: Gelecekteki ömür olaylarını Dynamics 365 Human Resources'da zamanlayabilirsiniz.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Gelecekteki yaşam olaylarını yapılandırma
+description: Bu konuda, Dynamics 365 Human Resources uygulamasında gelecekteki yaşam olaylarının nasıl programlanacağı açıklanmaktadır.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitFutureLifeEvents, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78c65faa4ae0f428184700a912998e9dded026c5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa772f5c58e199e8786185c783db7016c8aebafd
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420893"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417594"
 ---
-# <a name="configure-future-life-events"></a>Gelecekteki ömür olaylarını konfigüre et
+# <a name="configure-future-life-events"></a>Gelecekteki yaşam olaylarını yapılandırma
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Gelecekteki ömür olaylarını Dynamics 365 Human Resources'da zamanlayabilirsiniz.
 
@@ -46,3 +45,6 @@ Gelecekteki ömür olaylarını Dynamics 365 Human Resources'da zamanlayabilirsi
    | Satır | Gelecek ömür olayı satır numarası. |
 
 4. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Servis siparişlerinin önceliklerini belirleme
 description: Servis siparişlerinin önceliklerini belirleyin.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55f0f625f48df57ab5b86c524841815c717d2bdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 06f75fa3261183256d069be42405bd9c1e1ea536
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439473"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810618"
 ---
 # <a name="prioritize-service-orders"></a>Servis siparişlerinin önceliklerini belirleme 
 
@@ -51,3 +48,6 @@ ms.locfileid: "4439473"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

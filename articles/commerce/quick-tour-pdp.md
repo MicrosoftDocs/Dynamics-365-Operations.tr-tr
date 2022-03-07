@@ -2,27 +2,24 @@
 title: Ürün ayrıntıları sayfalarına genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta ürün ayrıntıları sayfalarına (PDP'ler) genel bakış sağlar.
 author: anupamar-ms
-manager: annbe
 ms.date: 01/23/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416531"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986213"
 ---
 # <a name="product-details-pages-overview"></a>Ürün ayrıntıları sayfalarına genel bakış
 
@@ -30,13 +27,11 @@ ms.locfileid: "4416531"
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta ürün ayrıntıları sayfalarına (PDP'ler) genel bakış sağlar.
 
-## <a name="overview"></a>Genel Bakış
-
 PDP bir ürünle ilgili ayrıntılı bilgi sağlar ve müşteriler boyut, stil ve renk gibi ürün seçeneklerini seçsin. Bir PDP, bir müşterinin satın alma kararı vermek için gerek duyduğu tüm ürün bilgilerini sergilemelidir.
 
 Aşağıdaki şekilde bir PDP örneği gösterilmiştir.
 
-![Ürün ayrıntıları sayfası örneği](./media/pdp.PNG)
+![Ürün ayrıntıları sayfası örneği.](./media/pdp.PNG)
 
 ## <a name="header-and-footer-modules"></a>Üst bilgi ve alt bilgi modülleri
 
@@ -88,3 +83,6 @@ Belirli bir ürünle ilgili pazarlama içeriği benzersiz ise, tüm pazarlama mo
 [Hesap yönetimi sayfalarına genel bakış](quick-tour-account-management.md)
 
 [Ürün ayrıntıları sayfasını zenginleştirme](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

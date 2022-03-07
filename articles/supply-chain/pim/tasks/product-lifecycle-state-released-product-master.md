@@ -1,26 +1,23 @@
 ---
 title: Ürün yaşam döngüsü durumunu serbest bırakılan bir ana ürüne atama
 description: Bu yordam, serbest bırakılan bir ana ürüne ve onun ürün çeşitlerine nasıl ürün yaşam döngüsü durumu atanacağını açıklar.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c644f118e0bdb46b296cec7e4a3ea89031f2d52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 217bab38544c2794d2e57410f8c2a979605106b0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439151"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567019"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>Ürün yaşam döngüsü durumunu serbest bırakılan bir ana ürüne atama
 
@@ -54,3 +51,6 @@ Bu yordam, serbest bırakılan bir ana ürüne ve onun ürün çeşitlerine nas�
 2. Listede, seçili satırı işaretleyin.
 3. Ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,27 @@
 title: Satıcı faturalarını içeri aktarmak için elektronik faturalama hizmetini kullanma
 description: Bu konuda, Elektronik Faturalama hizmetini kullanarak satıcı faturalarını içeri aktarma hakkında bilgi sağlanmaktadır.
 author: gionoder
-ms.date: 09/03/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f3b3a27436d32cf25d09f368e4a32018d7559bf6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 434bf1f6a5a727a71592493b85ab166cbeff2f0980c2c968c99973a03f4dc660
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751264"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Satıcı faturalarını içeri aktarmak için elektronik faturalama hizmetini kullanma
 
@@ -43,21 +45,13 @@ Oluşturduğunuz Elektronik faturalama özelliği e-posta ile alınan ekli dosya
 
 1. RCS'de, oluşturduğunuz Elektronik faturalama özelliğini seçin. **Taslak** durumunda olan sürümü seçtiğinizden emin olun.
 2. **Kurulumlar** sekmesinde, ızgarada bir özellik kurulumu seçin ve ardından **Düzenle** seçeneğini belirleyin.
-3. **Parametreler** alan grubundaki **Veri kanalı** sekmesinde, **Veri kanalı** alanına kanalın adını girin. Kanal adı on karakterden uzun olmamalıdır.
-4. **Sunucu adresi** alanına, e-posta hesabı sağlayıcısını girin. Örneğin, **https://outlook.live.com/** için sunucu adresi **imap-mail.outlook.com**'dur.
-5. **Sunucu bağlantı noktası** alanına, e-posta hesabı sağlayıcısı tarafından kullanılan bağlantı noktasını girin. Örneğin, **https://outlook.live.com/** için sunucu bağlantı noktası **993**'tür.
-6. **Kullanıcı adı gizli dizisi** alanına, e-posta kullanıcı hesabının kimliğini içeren Anahtar kasası gizli dizisinin adını girin. Bu gizli dizi, Azure Key Vault'ta oluşturulmalı ve hizmet ortamınızda kurulmalıdır. 
-7. **Kullanıcı parolası gizli anahtarı** alanına, e-posta kullanıcı hesabının parolasını içeren Key Vault gizli dizisinin adını girin.
-8. İsteğe bağlı: **Filtreden**, **Konu filtresi** ve **Tarih filtresi** alanlarına değerler girin.
-9. Postaların bulunacağı posta kutusu klasörlerinin adlarını girin:
-
-    - Şuradan içeri aktarıldı: **Ana klasör**
-    - İşlenme başarıyla tamamlandıktan sonra kaydedildi: **Arşiv klasörü**
-    - İşlenme başarıyla tamamlanamadıktan sonra kaydedildi: **Hata klasörü** Bu klasörleri posta kutusunda oluşturmanız gerekmez. Klasörler, ilk e-faturanın içeri aktarılması ve işlenmesinden sonra otomatik olarak oluşturulur. 
-   
-10. **Ekler filtresi** alan grubuna, dosya filtreleme bilgilerini ekleyin. Yalnızca tanımlanan filtreye uyan ekler işlenir. Örneğin, xml uzantılı ekler için filtreyi "\*.xml" olarak ayarlayabilirsiniz. Ekin adı, kurulum sırasında Dynamics 365 Finance veya Dynamics 365 Supply Chain Management uygulamasında kullanılır. 
-11. **Uygulanabilirlik kuralları** sekmesinde, ölçütleri gerektiği şekilde inceleyin ve güncelleştirin. **Kanal** alanı, daha önce sağlanan **Veri kanalı** ile aynı olmalıdır. Daha fazla bilgi için bkz. [Uygulanabilirlik kuralları](e-invoicing-configuration-rcs.md#applicability-rules).
-12. **Kaydet**'i seçip sayfayı kapatın.
+3. **Veri kanalı** sekmesinde **Parametreler** alan grubunda **Sunucu adresi**'ni seçin ve e-posta hesabı sağlayıcısını girin.
+4. **Sunucu bağlantı noktası**'nı seçin ve e-posta hesabı sağlayıcısı tarafından kullanılan bağlantı noktasını girin.
+5. **Kullanıcı adı gizli anahtarı**'nı seçin ve e-posta kullanıcı hesabının kimliğini içeren Anahtar kasası gizli anahtarının adını girin.
+6. **Kullanıcı parolası gizli anahtarı**'nı seçin ve e-posta kullanıcı hesabının parolasını içeren Anahtar kasası gizli anahtarının adını girin.
+7. **Konu filtresi**'ni seçin. İçeri aktarılacak elektronik satıcı faturasını içeren e-postayı tanımlamak için varsayılan e-posta konusunu içeren dizeyi inceleyip güncelleştirin.
+8. **Uygulanabilirlik kuralları** sekmesinde, gerekirse ölçütü inceleyip güncelleştirin. Daha fazla bilgi için bkz. [Uygulanabilirlik kuralları](e-invoicing-configuration-rcs.md#applicability-rules).
+9. **Kaydet**'i seçip sayfayı kapatın.
 
 ### <a name="configure-a-microsoft-sharepoint-channel"></a>Microsoft SharePoint kanalı yapılandırma
 
@@ -77,10 +71,10 @@ Elektronik faturalama özelliği SharePoint klasörlerinde bulunan dosyalardan e
 
 Elektronik faturalama özelliğini dağıtmak için bkz. [Elektronik faturalama özelliğini Servis ortamına dağıtma](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment).
 
-## <a name="set-up-vendor-invoice-import-in-finance-or-supply-chain-management"></a>Finance veya Supply Chain Management'ta satıcı faturasını içeri aktarmayı ayarlama
+## <a name="set-up-vendor-invoice-import-in-finance-and-supply-chain-management"></a>Finance ve Supply Chain Management'ta satıcı faturasını içeri aktarmayı ayarlama
 Farklı satıcı faturasını içeri aktarma türlerini ayarlamak için aşağıdaki iki bölümde yer alan adımları tamamlayın.
 
-### <a name="import-brazilian-nf-e-from-email"></a>Brezilya NF-e'sini e-postadan içeri aktarma
+### <a name="import-vendor-invoices-from-email"></a>E-postadaki satıcı faturalarını içeri aktarma
 
 1. Finance veya Supply Chain Management ortamınızda oturum açın ve doğru tüzel kişilikte olduğunuzu doğrulayın.
 2. **Kuruluş yönetimi** > **Kurulum** > **Elektronik belge parametreleri** bölümüne gidin.
@@ -104,43 +98,30 @@ Farklı satıcı faturasını içeri aktarma türlerini ayarlamak için aşağı
 ### <a name="import-peppol-electronic-vendor-invoices"></a>PEPPOL elektronik satıcı faturalarını içeri aktarma
 
 1. **Elektronik raporlama** çalışma alanına gidin ve **Raporlama yapılandırmaları**'nı seçin.
-2. Türetilmiş bir yapılandırma oluşturmak için **Müşteri faturası bağlam modeli**'ni seçin ve ardından **Yapılandırma oluştur** > **İsimden Türet: Müşteri faturası bağlam modeli, Microsoft**'u seçin.
-3. **Taslak** sürümünde **Tasarımcı**'yı seçin ve **Veri modeli** ağacında, **Modeli veri kaynağına eşle**'yi seçin.
-4. **Tanımlar** ağacında, **DataChannel**'ı ve ardından **Tasarımcı**'yı seçin.
-5. **Veri kaynakları** ağacında, **$Context\_Channel** kapsayıcısını genişletin. **Değer** alanında, **Düzenle**'yi seçin ve veri kanalı adını girin. Bu, RCS'de Elektronik faturalama özelliği için veri kanalının yapılandırmasında verilen kanalın adıdır. 
+2. **Müşteri faturası bağlam modeli**'ni seçin ve türetilmiş bir yapılandırma oluşturun.
+3. **Taslak** sürümünde, **Tasarımcı**'yı seçin.
+4. **Veri modeli** ağacında, **Müşteri faturası**'nı seçin ve ardından **Modeli veri kaynağına eşle** seçeneğini belirleyin.
+5. **Tanımlar** ağacında, **CustomerInvoice** öğesini ve ardından **Tasarımcı**'yı seçin.
+6. **Veri kaynakları** ağacında, **Bağlam\_Kanal**'ı seçin. **Değer** alanında, **PEPPOL**'u seçin. Bu, RCS'de Elektronik faturalama özelliği için veri kanalının yapılandırmasında verilen kanalın adıdır. 
 7. **Kaydet**'i seçip sayfayı kapatın.
 8. Sayfayı kapatın.
-9. **Müşteri faturası bağlam modeli**'nden yeni oluşturduğunuz türetilen yapılandırmayı seçin ve **Sürümler** hızlı sekmesinde **Durumu Değiştir** > **Tamamlandı**'yı seçin.
+9. **Müşteri faturası bağlam modeli**'ni seçin ve **Sürümler** hızlı sekmesinde, **Durumu Değiştir** > **Tamamlandı**'yı seçin.
 10. **Kuruluş yönetimi** > **Kurulum** > **Elektronik belge parametreleri**'ne gidin ve **Özellikler** sekmesinde, **PEPPOL Genel elektronik faturaları**'nın seçili olduğundan emin olun. 
 11. **Harici kanallar** sekmesinde, **Kanallar** alan grubunda **Ekle**'yi seçin.
-12. **Kanal** alanına, veri kanalı adını girin ve **Açıklama** alanına bir açıklama girin.
-13. **Şirket** alanında, tüzel kişiliği seçin. 
-14. **Belge bağlamı** alanında, **Müşteri faturası bağlam modeli**'nden yeni türetilen yapılandırmayı seçin. Eşleme açıklaması **Veri kanalı bağlamı** olmalıdır.
-15. **Kaynakları içeri aktar** alan grubunda, **Ekle**'yi seçin.
-16. **Ad** alanına, **Ekler filtresi adı** girin ve **Veri varlığı adı** alanında, **Satıcı faturası başlığı**'nı seçin.
-17. **Model eşleme** alanında, **Satıcı faturasını içe aktarma - Satıcı faturasını içeri aktar**'ı seçin.
-18. **Kaydet**'e tıklayın ve ardından sayfayı kapatın.
+12. **Kanal** alanında, **PEPPOL**'u girin. **Açıklama** alanına bir açıklama girin.
+13. **Şirket** alanında, tüzel kişiliği seçin. **Belge bağlamı** alanında, **Müşteri faturası bağlamı - Müşteri faturası bağlam modeli**'ni seçin.
+14. **Kaydet**'i seçip sayfayı kapatın.
 
 
 ## <a name="receive-electronic-invoices"></a>Elektronik faturalar alma
-
-Elektronik Faturalama hizmeti, veri kanallarından fatura içeri aktarma işlemi sırasında iki adım gerçekleştirir:
-
-1. Posta kutusuna erişir ve e-postayı okur.
-2. E-postaları işler. 
-    
-İstemci, bu iki adımı gerçekleştirmek için her adımda hizmeti el ile çağırmalıdır. Ancak elektronik belgeleri almak için toplu iş ayarlamanızı öneririz.
-
 Elektronik faturaları almak için şu adımları izleyin:
 
 1. **Kuruluş yönetimi** > **Periyodik** > **Elektronik belgeler** > **Elektronik belgeleri al**'a gidin.
 2. **Tamam**'ı seçip sayfayı kapatın.
 
-
 ## <a name="view-receive-logs-for-electronic-invoices"></a>Elektronik faturalar için alma günlüklerini görüntüleme
 
 Elektronik faturalar için alma günlüklerini görüntülemek üzere **Kuruluş yönetimi** > **Periyodik** > **Elektronik belgeler** > **Elektronik belge alma günlüğü**'ne gidin.
-Başarıyla işlenmiş faturaları görmüyorsanız tablo filtresini kaldırın.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

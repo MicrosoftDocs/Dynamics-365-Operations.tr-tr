@@ -1,33 +1,35 @@
 ---
 title: Bir kazanç planı oluştur
-description: Dynamics 365 Human Resources'da Kazanç planlarını ayarlama
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+description: Bu konuda, Dynamics 365 Human Resources uygulamasında kazanç planlarının nasıl ayarlanacağı gösterilmektedir.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcbf4c1a7f136e5563bf1210b6c09228dad95dea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d3163bf30af9ed0eac2c753ed4aabb15d568ff4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420892"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065338"
 ---
-# <a name="create-a-benefits-plan"></a>Bir kazanç planı oluştur
+# <a name="create-a-benefit-plan"></a>Kazanç planı oluşturma
 
-Bu makalede, Dynamics 365 Human Resources'de kazanç planlarının nasıl ayarlanacağı gösterilmektedir.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Bu konuda, Dynamics 365 Human Resources uygulamasında kazanç planlarının nasıl ayarlanacağı gösterilmektedir.
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Planlar** altında, **kazanç planları**'nı seçin.
 
@@ -44,9 +46,8 @@ Bu makalede, Dynamics 365 Human Resources'de kazanç planlarının nasıl ayarla
    | **Program** | Plana isteğe bağlı olarak atanacak bir program belirtir. |
    | **Ürün demeti** | Plana isteğe bağlı olarak atanacak bir ürün demeti belirtir. |
    | **Ana** | Planın atandığı ürün demetinde master plan olup olmadığını belirtir. |
-   | **Durum** | Kazanç planının geçerli durumunu belirtir. Varsayılan değer Etkin'dir. Durumu etkin değil olarak değiştirirseniz, plan kayıt sırasında seçim olarak kullanılamaz. |
    | **Geçerlilik başlangıç tarihi ve saati** | Planın başladığı tarih ve saati Geçerli değer varsayılan sistem tarihidir. |
-   | **Geçerlilik bitiş tarihi ve saati** | Planın bitiş tarihi ve saati (durum, devre dışı olarak ayarlı). Varsayılan değer 12/31/2154'dir ve hiçbir zaman bunu belirtir. |
+   | **Geçerlilik bitiş tarihi ve saati** | Planın bittiği tarih ve saat. Varsayılan değer 12/31/2154'dir ve hiçbir zaman bunu belirtir. |
 
 4. **Konfigürasyon** sekmesinde, oluşturmakta olduğunuz planın türüne bağlı olarak aşağıdaki alanlar için değer belirtin:
 
@@ -54,18 +55,18 @@ Bu makalede, Dynamics 365 Human Resources'de kazanç planlarının nasıl ayarla
    | --- | --- | --- |
    | Tıp (tıp, dental, vizyon, HMO) | COBRA | Planın COBRA (Konsolide Çok maddeli bütçe mutabakat Yasası) uygun olup olmayacağını belirtir. |
    | Tıp (tıp, dental, vizyon, HMO) | HIPAA | Planın HIPAA (sağlık sigortası taşınabilirlik ve Sorumluluk Yasası) uygun olup olmayacağını belirtir. |
-   | <ul><li>Tıp (tıp, dental, vizyon, HMO)</li><li>Diğer (PTE, Fitness)</li><li>Diğer</li><li>Uzun süreli engellilik</li><li>ADD (temel ömür, gönüllü kullanım ömrü)</li><li>Tasarruf (örneğin, 401(k))</li><li>FSA</li></ul> | Vergi öncesinde uygun | Vergiler uygulanmadan önce plana katkıların yapılıp yapılmayacağını belirtir. |
-   | <ul><li>Tıp (tıp, dental, vizyon, HMO)</li><li>Diğer (PTE, Fitness)</li><li>Uzun süreli engellilik</li><li>ADD (temel ömür, gönüllü kullanım ömrü)</li><li>Tasarruf (örneğin, 401(k))</li><li>FSA</li></ul> | Uygun vergiyi deftere naklet | Vergiler uygulandıktan sonra plana katkıların yapılıp yapılmayacağını belirtir. |
-   | <ul><li>Tıp (tıp, dental, vizyon, HMO)</li><li>Diğer (PTE, Fitness)</li><li>Uzun süreli engellilik</li><li>ADD (temel ömür, gönüllü kullanım ömrü)</li><li>Tasarruf (örneğin, 401(k))</li><li>FSA</li></ul> | Katkıda bulunan | Plana kimlerin katkıda bulunduğunu, çalışanı, işvereni veya her ikisini belirtir. |
-   | <ul><li>Uzun süreli engellilik</li><li>ADD (temel ömür, gönüllü kullanım ömrü)</li></ul> | Minimum karşılama | Plan için gerekli olan minimum sigorta kapsamı tutarı. |
-   | <ul><li>Uzun süreli engellilik</li><li>ADD (temel ömür, gönüllü kullanım ömrü)</li></ul> | Maksimum karşılama | Plan için gerekli olan maksimum sigorta kapsamı tutarı. |
-   | <ul><li>Uzun süreli engellilik</li><li>ADD (temel ömür, gönüllü kullanım ömrü)</li></ul> | Kapsam artışlarını kullan | Kapsam tutarının geçerli bir artan tutarla eşleşmediğini doğrulamak için doğrulama yapılıp yapılmayacağını belirtir. |
-   | <ul><li>Uzun süreli engellilik</li><li>ADD (temel ömür, gönüllü kullanım ömrü)</li></ul> | Artışlı tutar | Plan için artımlı sigorta kapsamı tutarı. Örneğin, artan tutar 1.000 ise, bir çalışanın sigorta $200.500 olamaz, $201.000 veya $200.000'e yuvarlama yapmaları gerekir. |
-   | <ul><li>Uzun süreli engellilik</li><li>ADD (temel ömür, gönüllü kullanım ömrü)</li></ul> | Artışlı yön | Karşılama tutarı artışlı tutar değerini karşılamıyorken yukarı veya aşağı yuvarlama yönünü belirtir. |
+   | Tıp (tıp, dental, vizyon, HMO)<br><br>Diğer (PTE, Fitness)<br><br>Diğer<br><br>Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü)<br><br>Tasarruf (örneğin, 401(k))<br><br>FSA | Vergi öncesinde uygun | Vergiler uygulanmadan önce plana katkıların yapılıp yapılmayacağını belirtir. |
+   | Tıp (tıp, dental, vizyon, HMO)<br><br>Diğer (PTE, Fitness)<br><br>Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü)<br><br>Tasarruf (örneğin, 401(k))<br><br>FSA | Uygun vergiyi deftere naklet | Vergiler uygulandıktan sonra plana katkıların yapılıp yapılmayacağını belirtir. |
+   | Tıp (tıp, dental, vizyon, HMO)<br><br>Diğer (PTE, Fitness)<br><br>Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü)<br><br>Tasarruf (örneğin, 401(k))<br><br>FSA | Katkıda bulunan | Plana kimlerin katkıda bulunduğunu, çalışanı, işvereni veya her ikisini belirtir. |
+   | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Minimum karşılama | Plan için gerekli olan minimum sigorta kapsamı tutarı. |
+   | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Maksimum karşılama | Plan için gerekli olan maksimum sigorta kapsamı tutarı. |
+   | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Kapsam artışlarını kullan | Kapsam tutarının geçerli bir artan tutarla eşleşmediğini doğrulamak için doğrulama yapılıp yapılmayacağını belirtir. |
+   | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Artışlı tutar | Plan için artımlı sigorta kapsamı tutarı. Örneğin, artan tutar 1.000 ise, bir çalışanın sigorta $200.500 olamaz, $201.000 veya $200.000'e yuvarlama yapmaları gerekir. |
+   | Uzun süreli engellilik<br><br>ADD (temel ömür, gönüllü kullanım ömrü) | Artışlı yön | Karşılama tutarı artışlı tutar değerini karşılamıyorken yukarı veya aşağı yuvarlama yönünü belirtir. |
    | ADD (temel ömür, gönüllü kullanım ömrü) | Sigorta kanıtı | Bir çalışanın aşırı sayıda kanıt sağlayıp sağlamaması gerektiğini belirtir. |
    | ADD (temel ömür, gönüllü kullanım ömrü) | Tutar | Muhasebe para birimi cinsinden tutar. Bu alan yalnızca Sigortalanabilirlik kanıtı onay kutusunun etkin olması durumunda kullanılabilir. |
-   | <ul><li>Tasarruf (örneğin, 401(k))</li><li>FSA</li></ul> | Minimum yıllık katkı | Plan için gerekli olan minimum katkı tutarı. |
-   | <ul><li>Tasarruf (örneğin, 401(k))</li><li>FSA</li></ul> | Maksimum yıllık katkı | Plan için gerekli olan maksimum katkı tutarı. |
+   | Tasarruf (örneğin, 401(k))<br><br>FSA | Minimum yıllık katkı | Plan için gerekli olan minimum katkı tutarı. |
+   | Tasarruf (örneğin, 401(k))<br><br>FSA | Maksimum yıllık katkı | Plan için gerekli olan maksimum katkı tutarı. |
    | Tasarruf (örneğin, 401(k)) | İşverenin maksimum yıllık tutarı | Bir işverenin, bir kazanç döneminde bir çalışan tasarruf planına göre katkıda bulunmasına izin verilen maksimum tutar. Bu alanı kullanmak için işveren eşleştirmesi onay kutusunu seçmeniz gerekir. |
    | Tasarruf (örneğin, 401(k)) | İşveren eşleşmesi | Personel tasarruf planına işverenin katkıda bulunup bluunmadığını belirtir. |
    | Tasarruf (örneğin, 401(k)) | İşveren eşleştirme yüzdesi | İşverenin eşleşmesi gereken bir çalışan katkısı yüzdesi. |
@@ -120,7 +121,7 @@ Seçilen kazanç planına atanan kayıtlı çalışanları görüntüle
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Planlar** altında, **kazanç planları**'nı seçin.
 
-2. **Kayıtlı çalışanlar**'ı seçin.
+2. Gezinme çubuğundaki **kazançlar** sekmesinde, **kayıtlı çalışanlar**'ı seçin.
 
 ## <a name="attach-coverage-options"></a>Karşılama seçenekleri ekle
 
@@ -128,7 +129,7 @@ Seçili kazançlar planına karşılama seçenekleri ekleyebilirsiniz. Kapsama s
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Planlar** altında, **kazanç planları**'nı seçin.
 
-2. **Tedarik seçeneklerini İliştir**'i seçin.
+2. Gezinme çubuğundaki **kazançlar** sekmesinde, **Tedarik seçeneklerini iliştir**'i seçin.
 
 ## <a name="override-eligibility-rules"></a>Uygunluk kurallarını geçersiz kıl
 
@@ -136,7 +137,7 @@ Uygunluk kurallarına özel durumlar olarak bir plana çalışan ekleyebilirsini
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Planlar** altında, **kazanç planları**'nı seçin.
 
-2. **Uygunluk kurallarını geçersiz kıl**'ı seçin.
+2. Gezinme çubuğundaki **kazançlar** sekmesinde, **Uygunluk kurallarını geçersiz kıl**'ı seçin.
 
 ## <a name="view-attached-periods"></a>Ekli dönemlerini görüntüle
 
@@ -144,18 +145,21 @@ Kullanılabilir kazançlar dönemlerinin bir listesini görebilirsiniz.
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Planlar** altında, **kazanç planları**'nı seçin.
 
-2. **Dönem** seçin.
+2. Gezinme çubuğunda **Dönemler** sekmesini seçin.
 
-## <a name="view-plan-information"></a>Plan bilgilerini görüntüle
+## <a name="view-plan-description"></a>Plan açıklamasını incele
 
-Çalışanların sosyal haklar seçimlerini sağlayacak şekilde plana ilişkin bir açıklama sağlayabilirsiniz. Buraya girdiğiniz plan bilgileri, kapsam seçenekleri listesindeki planda vurgulama sırasında, çalışan self servis 'da görüntülenir.
+Çalışanların sosyal haklar seçimlerini sağlayacak şekilde plana ilişkin bir açıklama sağlayabilirsiniz. Buraya girdiğiniz plan açıklaması kapsam seçenekleri listesindeki planda vurgulama sırasında, çalışan self servis 'da görüntülenir.
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Planlar** altında, **kazanç planları**'nı seçin.
 
-2. **Plan bilgilerini** seçin .
+2. Gezinme çubuğundaki **kazançlar** sekmesinde, **Plan açıklaması**'nı seçin.
 
 ## <a name="view-flex-credit-programs"></a>Esnek kredi programlarını görüntüle
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Planlar** altında, **kazanç planları**'nı seçin.
 
-2. **Esnek kredi programları**'nı seçin.
+2. Gezinme çubuğundaki **kazançlar** sekmesinde, **Esnek kredi programları**'nı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

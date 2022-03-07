@@ -1,25 +1,22 @@
 ---
 title: Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma
 description: Bu konu, mevcut dalga etiketlerinin nasıl hükümsüz kılınacağını ve yeniden yazdırılacağını açıklamaktadır.
-author: GarmMSFT
-manager: PJacobse
+author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
-ms.reviewer: PJacobse
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4439741"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572349"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma
 
@@ -218,3 +215,9 @@ Bu senaryoyu kullanmaya başlamadan önce, aşağıdaki önkoşulların yerine g
 1. **Eksik çekme**'yi seçin.
 1. Bu senaryo için oluşturduğunuz iş özel durum kodunu seçin.
 1. Doğru özel durumu seçtiyseniz, **Hükümsüz kıl ve yeniden yazdır** onay kutusu kullanılabilir olmalıdır. Bu kutuyu seçin ve onaylayın. Onaylandığında, **Etiket derleme kodu** alanı tarafından tanımlanan etiket rulosu sırası değiştirilen iş satırı miktarına göre yeniden hesaplanır. Belirtilen yazıcıda yeniden yazdırılır.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+- [Dalga etiketi yazdırma](configure-wave-label-printing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
