@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: dda276b7d634317aae26728f7d9f51af9ccfb896
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e0c0c830391b790f3bc066e319a855b44f7e243f4e086144bbafaa6bb2fa1df3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023656"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781719"
 ---
 # <a name="set-the-tds-parameters"></a>TDS parametrelerini ayarlama
 
@@ -34,13 +34,13 @@ Bu konu, belirtilen hareketlerdeki Kaynakta Kesilen Vergi (TDS) işlevini etkinl
 3. TDS'yi fatura düzeyinde hesaplamak ve kesmek için kullanılan alanları etkinleştirmek için **Fatura** seçeneğini **Evet** olarak ayarlayın.
 4. TDS'yi ödeme düzeyinde hesaplamak ve kesmek için kullanılan alanları etkinleştirmek için **Ödeme** seçeneğini **Evet** olarak ayarlayın.
 
-    [![Doğrudan vergiler sekmesi](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
+    [![Doğrudan vergiler sekmesi.](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
 
 5. **Numara sıraları** sekmesinde, **Referans** alanının **Stopaj vergisi ödemesi** olarak ayarlandığı satırı bulun. **Numara sırası kodu** alanında, satır için numara sırası kodunu seçin. Numara sırası kodu, dönemsel TDS kapatma işlemi için fiş numaraları oluşturmak amacıyla kullanılır.
 
     > [!NOTE]
     > Dönemsel TDS kapatma işlemini çalıştırmak için, **Vergi \> Beyannameler \> Stopaj vergisi \> Stopaj vergisi ödemesi**'ne gidin.
 
-    [![Numara serileri sekmesi](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
+    [![Numara serileri sekmesi.](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
 
 6. Sayfayı kapatın.

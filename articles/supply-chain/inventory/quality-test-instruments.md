@@ -1,7 +1,7 @@
 ---
 title: Kalite yönetimi test gereçleri
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta kalite emirleriyle testlerin kullanılabilmesi için, test araçlarının nasıl oluşturulacağını açıklar.
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3806ca26b8909b03768dad54ddad0084e1cea4a6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 4d80a4f784a43e0d83d1f5b42f6740ef6da3add1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021744"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565915"
 ---
 # <a name="quality-management-test-instruments"></a>Kalite yönetimi test gereçleri
 

@@ -1,29 +1,31 @@
 ---
 title: Takım takvimi oluşturma
 description: Dynamics 365 Human Resources'De ekip takvimleri görüntüle ve oluştur.
-author: andreabichsel
-ms.date: 11/02/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 07c7f1303238fe61d70be26ec5a198f1ac489090
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8ee39f35f9d81f47c5438ddf48451d24ab0c0ed3
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790776"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065266"
 ---
 # <a name="view-team-and-company-calendars"></a>Ekip ve şirket takvimlerini görüntüleme
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,7 +33,7 @@ Dynamics 365 Human Resources'ta ekip ve şirket takvimlerini görüntüleyebilir
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Personel olarak takım takviminizi görüntüleme
 
-1. **Çalışan self servisi** çalışma alanında, **Özet** altında **Takım devamsızlık takvimi**'ni seçin.
+- **Çalışan self servisi** çalışma alanında, **Özet** altında **Takım devamsızlık takvimi**'ni seçin.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Yönetici olarak takım takviminizi görüntüleme
 
@@ -40,6 +42,21 @@ Dynamics 365 Human Resources'ta ekip ve şirket takvimlerini görüntüleyebilir
 2. **İzin ve devamsızlık**'ı seçin ve sonra **Yönetici devamsızlığını görüntüle**'yi seçin.
 
 Yöneticiler takım takvimine **Takımımdaki bekleyen izin istekleri**, **Onaylanan izin** ve **İzin istekleri** alanından da erişebilirler. 
+
+## <a name="view-your-absence-manager-calendar-as-the-absence-manager"></a>Devamsızlık yöneticisi takviminizi devamsızlık yöneticisi olarak görüntüleme
+
+> [!NOTE]
+> Devamsızlık yöneticisi takvimini görüntülemek için Özellik yönetiminde önce **(Önizleme) İzin özelliğini yönetecek devamsızlık yöneticisi** özelliğini açmanız gerekir. Önizleme özelliklerini açma hakkında daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
+
+Devamsızlık yöneticisi rolündeki kullanıcılar izin taleplerini takvimlerinde görüntüleyebilir. İzin takvimine erişmek için aşağıdaki adımları izleyin.
+
+1. **Personel self servisi** çalışma alanında, **İzin yönetimi**'ni ve ardından **Devamsızlık yöneticisi takvimi**'ni seçin.
+
+2. **Tarih** alanına istediğiniz tarihleri girin.
+
+3. Görünüm seçeneklerini gerektiği gibi güncelleştirin.
+
+Devamsızlık yöneticisi takvimi, İzin hiyerarşisinde devamsızlık yöneticisine rapor veren çalışanların tüm kayıtlarını gösterir.
 
 ## <a name="view-a-company-calendar"></a>Şirket takvimini görüntüle
 
@@ -61,17 +78,15 @@ Takvimler artık ek filtreler ve seçenekler içerir. Tüm takvimler için gör�
 - İzin süresi istekleri 
 - Devamsızlık izni istekleri
 
-İzin ve devamsızlık parametrelerinde takvim yapılandırması kullanılabilir görünüm seçeneklerini belirler.
+**İzin ve devamsızlık parametreleri** sayfasındaki takvim yapılandırması kullanılabilir görünüm seçeneklerini belirler.
 
 Ayrıca, yöneticiye veya departmana göre takvimlere filtre uygulayabilirsiniz. Birincil pozisyon ataması, bu filtreler ayarlandığında görüntülenen çalışanları belirler. 
 
->[!IMPORTANT]
->Şirketler arasında ayrılma ve devamsızlıkların görüntülenmesi Şu anda önizleme modunda. Bunu **korumalı alan** ortamınızda etkinleştirmeniz gerekir . Önizleme özelliklerini etkinleştirme hakkında daha fazla bilgi edinmek için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).<br><br>
->Daha sonra, **insan kaynakları paylaşılan parametrelerinin**, takvimlerdeki yasal varlık filtresini görüntülemesi için özelliği etkinleştirmelisiniz. Daha fazla bilgi için bkz. [İzin ve devamsızlık parametreleri yapılandırma](hr-leave-and-absence-parameters.md).<br><br>
->Geçerli varlığa göre takvime filtre uygulayabilirsiniz. Yasal tüzel kişiliye bakılmaksızın tüm çalışanları görmek istiyorsanız, filtre kutusunu temizleyin ve ENTER 'i seçin. 
+> [!IMPORTANT]
+> Özellik yönetiminde **Şirket geneli görünümü** özelliğini açabilirsiniz. Daha sonra, tüzel kişilik filtresini takvimlerde göstermek için **İnsan kaynakları paylaşılan parametreleri** sayfasında özelliği etkinleştirmeniz gerekir. Daha fazla bilgi için bkz. [İzin ve devamsızlık parametreleri yapılandırma](hr-leave-and-absence-parameters.md).
+> 
+> Geçerli varlığa göre takvime filtre uygulayabilirsiniz. Tüzel kişiliğe bakılmaksızın tüm çalışanları görüntülemek için filtre alanını temizleyin ve **Giriş**'i seçin. 
 
 Takvim ayarları hakkında bilgi için bkz. [Takvim parametrelerini yapılandırma](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

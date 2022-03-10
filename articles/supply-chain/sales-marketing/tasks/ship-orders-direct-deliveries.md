@@ -1,26 +1,24 @@
 ---
 title: Siparişleri doğrudan teslim olarak sevk etme
 description: Bu konu, satış siparişi için bir doğrudan teslimat oluşturmayı göstermektedir.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 496cbe562234efa981d97b0893a47340381fbdfd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205917"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572453"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Siparişleri doğrudan teslim olarak sevk etme
 

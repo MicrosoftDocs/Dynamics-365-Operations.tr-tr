@@ -3,25 +3,27 @@ title: Maliyetlendirme sürümlerine genel bakış
 description: Bu makalede, maliyetlendirme sürümleri, bu sürümlerin nasıl sürdürüleceği ve bu sürümlere ekleyebileceğiniz veri türleri hakkında bilgiler verilmektedir. Maliyetlendirme versiyonunun birincil amacı madde, maliyet kategorileri için dolaylı maliyet hesaplama formülleri hakkındaki maliyet kayıtlarını içermektir.
 author: AndersGirke
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 54532
+ms.custom:
+- "54532"
+- intro-internal
 ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 421ef0ffc3d9105e605a010f912f26ec03f590b0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 27ad1f1d8ae60eef5607bafb9aaf9604784099e4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832382"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983109"
 ---
 # <a name="costing-versions-overview"></a>Maliyetlendirme sürümlerine genel bakış
 

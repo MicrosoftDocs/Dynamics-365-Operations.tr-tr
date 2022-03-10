@@ -1,12 +1,10 @@
 ---
 title: El ile oluşturulmuş iş emirleri
 description: Bu konuda Varlık Yönetimi'nde el ile iş emirleri oluşturma işlemi açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750112"
 ---
 # <a name="manually-created-work-orders"></a>El ile oluşturulmuş iş emirleri
 
@@ -113,7 +111,7 @@ Var olan bir iş emriyle ilgili bir iş emri oluşturabilirsiniz. Bu özellik, �
 
 Aşağıdaki şekilde **İlgili iş emri oluştur** iletişim kutusu örneği gösterilmektedir.
 
-![Şekil 1](media/03-work-orders.png)
+![Şekil 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >**Varlık yönetimi parametreleri** > **İş emirleri** sekmesi > **İlgili iş emri maskesi** alanında ilgili iş emri maskesi ayarlarsanız, iş emri kodları maske ayarına uygun şekilde oluşturulur. İlgili bir iş emri maskesi ayarlanmamışsa, ilgili iş emirleri için sonraki kullanılabilir iş emri kodu kullanılır.
@@ -139,7 +137,7 @@ Var olan bir iş emrinden hızlı şekilde yeni bir iş emri oluşturabilirsiniz
 
 Aşağıdaki örnekte **İş emrini kopyala** iletişim kutusunun bir örneği gösterilmektedir.
 
-![Şekil 2](media/04-work-orders.png)
+![Şekil 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Bakım isteğine dayalı iş emri oluşturma
@@ -159,9 +157,12 @@ Aşağıdaki örnekte **İş emrini kopyala** iletişim kutusunun bir örneği g
 
 Aşağıdaki çizimde **İş emri oluştur** iletişim kutusunun bir örneği gösterilmektedir.
 
-![Şekil 3](media/05-work-orders.png)
+![Şekil 3.](media/05-work-orders.png)
 
 
 >[!NOTE]
 >İş emirlerinin otomatik oluşturulmasını isterseniz, bakım planı işlerini planlayabilir veya bir varlıkta [bakım planlarını](../preventive-and-reactive-maintenance/maintenance-plans.md) veya [bakım sıralarını](../preventive-and-reactive-maintenance/maintenance-rounds.md) "otomatik oluştur" özelliğini ayarlayabilirsiniz. **Tüm bakım zamanlamaları** liste sayfasındaki bakım taleplerinden oluşturulan iş emirleri, bakım taleplerinde seçilen bakım işi türlerine sahiptir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

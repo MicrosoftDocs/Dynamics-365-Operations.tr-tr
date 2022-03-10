@@ -2,7 +2,7 @@
 title: Commerce'ta B2C kiracısı ayarlama
 description: Bu konu, Dynamics 365 Commerce'ta kullanıcı sitesi kimlik doğrulaması için Azure Active Directory (Azure AD) işletme-müşteri arası (B2C) kiracılarınızın nasıl kurulacağını açıklamaktadır.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344510"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109901"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -38,7 +38,29 @@ Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışl
 > [!TIP]
 > Azure AD Kimlik Koruması ve Koşullu Erişim ile site kullanıcılarınızı daha fazla koruyabilir ve Azure AD B2C kiracılarınızın güvenliğini artırabilirsiniz. Azure AD B2C Premium P1 ve Premium P2 kiracılarına sunulan özellikleri incelemek için bkz. [Azure AD B2C için Kimlik Koruması ve Koşullu Erişim](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
 
-## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Azure portalında mevcut bir AAD B2C kiracısı oluşturma veya bu kiracıya bağlantı sağlama
+## <a name="dynamics-environment-prerequisites"></a>Dynamics ortam önkoşulları
+
+Başlamadan önce, aşağıdaki önkoşulları yerine getirmesini sağlayarak Dynamics 365 Commerce ortamınızın ve e-ticaret kanalınızın uygun şekilde yapılandırıldığından emin olun.
+
+- Commerce genel merkezindeki **AllowAnonymousAccess** POS işlemleri değerini "1" olarak ayarlayın:
+    1. **POS İşlemleri**'ne gidin.
+    1. İşlemler ızgarasında sağ tıklayın ve **Kişiselleştir**'i seçin.
+    1. **Alan ekle**'yi seçin.
+    1. Kullanılabilir sütunlar listesinde, **AllowAnonymousAccess** sütununu seçerek ekleyin.
+    1. **Güncelleştir**'i seçin
+    1. **612** "Müşteri ekleme" işlemi için **AllowAnonymousAccess**'i "1" olarak değiştirin.
+    1. **1090 (Kayıtlar)** işini çalıştırın.
+- Commerce genel merkezindeki numara sırası müşteri hesabı **El İle** özniteliğini **Hayır** olarak ayarlayın:
+    1. **Retail ve Commerce \> Genel merkez ayarı \> Parametreler \> Alacak hesapları parametreleri**'ne gidin.
+    1. **Numara serileri**'ni seçin.
+    1. **Müşteri hesabı** satırında, **Numara Sıra Kodu** değerini çift tıklayın.
+    1. Numara serisinin **Genel** hızlı sekmesinde, **El İle** seçeneğini **Hayır** olarak ayarlayın.
+
+Dynamics 365 Commerce ortamınızın dağıtımından sonra, ortamda [Çekirdek verileri başlatma](enable-configure-retail-functionality.md) da önerilir.
+
+## <a name="create-or-link-to-an-existing-azure-ad-b2c-tenant-in-the-azure-portal"></a>Azure portalında mevcut bir Azure AD B2C kiracısı oluşturma veya bu kiracıya bağlantı sağlama
+
+Bu bölüm, Commerce sitenizde kullanılmak üzere bir Azure AD B2C kiracısı oluşturmayı veya bağlamayı kapsamaktadır. Daha fazla bilgi için bkz. [Öğretici: Azure Active Directory B2C kiracısı oluşturma](/azure/active-directory-b2c/tutorial-create-tenant).
 
 1. [Azure portalında](https://portal.azure.com/) adresinden oturum açın.
 1. Azure portalı menüsünden, **Kaynak oluştur**'u seçin. Commerce ortamınızla bağlanacak aboneliği ve dizini kullandığınızdan emin olun.
@@ -48,7 +70,7 @@ Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışl
 1. **Kimlik \> Azure Active Directory B2C**'ye gidin.
 1. **Yeni B2C Kiracısı Oluştur veya mevcut bir Kiracıya bağla** sayfasında, şirketinizin gereksinimlerine en uygun olan aşağıdaki seçeneklerden birini kullanın:
 
-    - **Yeni Azure AD B2C kiracısı oluştur**: Yeni bir AAD B2C kiracısı oluşturmak için bu seçeneği kullanın.
+    - **Yeni Azure AD B2C kiracısı oluştur**: Yeni bir Azure AD B2C kiracısı oluşturmak için bu seçeneği kullanın.
         1. **Yeni bir Azure AD B2C Kiracısı oluştur**'u seçin.
         1. **Kuruluş adı** altında, kuruluş adını girin.
         1. **İlk etki alanı adı** altında, ilk etki alanı adını girin.
@@ -66,7 +88,7 @@ Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışl
 
 1. Yeni Azure AD B2C dizini oluşturulduktan sonra (bu birkaç dakika sürebilir), panoda yeni dizine bir bağlantı görüntülenir. Bu bağlantı sizi "Azure Active Directory B2C'ye hoş geldiniz" sayfasına yönlendirir.
 
-    ![Yeni AAD Dizinine bağlama.](./media/B2CImage_4.png)
+    ![Yeni Azure AD Dizinine bağlama](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Azure hesabınızda birden fazla aboneliğiniz varsa veya etkin bir aboneliğe bağlamadan B2C kiracısı ayarladıysanız, **Sorun giderme** başlığı sizi kiracıyı aboneliğe bağlamaya yönlendirecektir. Sorun giderme iletisini seçin ve abonelik sorununu gidermek için yönergeleri izleyin.
@@ -84,11 +106,11 @@ B2C uygulaması oluşturmak için şu adımları izleyin.
 1. Azure portalında **Uygulama kayıtları**'na gidin ve ardından **Yeni kayıt**'ı seçin.
 1. **Ad** altında, bu Azure AD B2C uygulamasına verilecek adı girin.
 1. **Desteklenen hesap türleri altında**, **herhangi bir kimlik sağlayıcısı veya kuruluş dizinindeki hesaplar (Kullanıcı akışı olan kullanıcıların kimliklerini doğrulamak için)** seçeneğini belirleyin.
-1. **Yeniden yönlendirme URI'ı** için, **Web** yazarak adanmış yanıt URL'nizi girin. Yanıt URL'leri ve nasıl biçimlendirilecekleri hakkında bilgi almak için [Yanıt URL'leri](#reply-urls) konusuna bakın.
+1. **Yeniden yönlendirme URI'ı** için, **Web** yazarak adanmış yanıt URL'nizi girin. Yanıt URL'leri ve nasıl biçimlendirilecekleri hakkında bilgi almak için [Yanıt URL'leri](#reply-urls) konusuna bakın. Bir kullanıcının kimliği doğrulandığında, Azure AD B2C'den sitenize yeniden yönlendirmeler sağlamak için yeniden yönlendirme URI/yanıt URL'si girilmelidir. Yanıt URL'si kayıt işlemi sırasında eklenebilir veya daha sonra, B2C uygulamasının **Genel Bakış** bölümündeki **Özet** menüsünden **Yeniden yönlendirme URI'si ekle** bağlantısı seçilerek eklenebilir.
 1. **İzinler** için **openid ve offline_access izinleri için yönetici izni ver**'i seçin.
 1. **Kayıt**'ı seç.
-1. Yeni oluşturulan uygulamayı seçin ve **kimlik doğrulama** menüsüne gidin. Bu alana gerekirse **Yeniden yönlendirme URI'ları** ekleyebilirsiniz (şimdi veya daha sonra). Şu anda gerekmiyorsa sonraki adıma geçin.
-1. **Örtük onay** altında, uygulama için bunları etkinleştirmek üzere hem **erişim belirteçlerini** hem de **kimlik belirteçlerini** seçin. **Kaydet**'i seçin.
+1. Yeni oluşturulan uygulamayı seçin ve **Kimlik doğrulama** menüsüne gidin. 
+1. Yanıt URL'si girilirse, **Örtük onay ve karma akışlar** altında, uygulama için bunları etkinleştirmek üzere her iki **Erişim belirteci** ve **Kimlik belirteci** seçeneğini belirleyin ve sonra **Kaydet**'i seçin. Kayıt sırasında yanıt URL'si girilmediyse, **Platform ekle**, **Web**'i seçerek ve uygulamanın yeniden yönlendirme URI'sini seçerek de bu sayfaya eklenebilirler. **Örtük onay ve karma akışlar** bölümü daha sonra hem **Erişim belirteçleri** hem de **Kimlik belirteci** seçeneklerini belirlemek için kullanılabilir olacaktır.
 1. Azure Portal'ın **Genel bakış** menüsüne gidin ve **uygulama (istemci) kimliğini** kopyalayın. Sonraki kurulum adımları için bu ID'yi not edin (ileride **istemci GUID** olarak başvurulur).
 
 Azure AD B2C'deki uygulama kayıtları hakkında ek bilgi için, lütfen [Azure Active Directory B2C için yeni uygulama kayıtları deneyimine bakın](/azure/active-directory-b2c/app-registrations-training-guide)
@@ -111,7 +133,7 @@ Azure AD B2C üç temel kullanıcı akışı türü sağlar:
 - Profil düzenleme
 - Parola sıfırlandı
 
-Azure AD tarafından sağlanan varsayılan kullanıcı akışlarını kullanmayı seçebilirsiniz; bu durumda AAD B2C tarafından barındırılan sayfa görüntülenir. Alternatif olarak, bu kullanıcı akış deneyimlerinin görünümünü ve hissini denetlemek için bir HTML sayfası oluşturabilirsiniz. 
+Azure AD tarafından sağlanan varsayılan kullanıcı akışlarını kullanmayı seçebilirsiniz; bu durumda Azure AD B2C tarafından barındırılan sayfa görüntülenir. Alternatif olarak, bu kullanıcı akış deneyimlerinin görünümünü ve hissini denetlemek için bir HTML sayfası oluşturabilirsiniz. 
 
 Kullanıcı ilkesi sayfalarını Dynamics 365 Commerce'te oluşturulan sayfalarla özelleştirmek için bkz. [Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md). Ek bilgi için bkz. [Azure Active Directory B2C'de kullanıcı arabirimi deneyimlerini özelleştirme](/azure/active-directory-b2c/tutorial-customize-ui).
 
@@ -123,9 +145,9 @@ Kullanıcı akışı ilkesinde kaydolma ve oturum açma oluşturmak için aşağ
 1. **Azure AD B2C - Kullanıcı akışları (ilkeler)** sayfasında, **Yeni Kullanıcı Akışı**'nı seçin.
 1. **Kaydolma ve oturum açma** ilkesini seçin ve ardından **önerilen** sürümünü seçin.
 1. **Ad** altında bir ilke adı girin. Bu ad, daha sonra portalın atadığı bir önekle (örneğin, "B2C_1_") birlikte görüntülenecektir.
-1. **Kimlik sağlayıcıları** altında, uygun onay kutusunu seçin.
+1. **Kimlik sağlayıcıları** altında , **Yerel hesaplar** bölümünde, **E-posta kaydı** seçeneğini belirleyin. Commerce için birçok genel senaryoda e-posta kimlik doğrulaması kullanılır. Sosyal içerik kimlik sağlayıcısı kimlik doğrulaması da kullanıyorsanız, bunlar şu anda seçilebilir.
 1. **Çok faktörlü Kimlik Doğrulaması** altında şirketiniz için uygun seçeneği belirleyin. 
-1. **Kullanıcı öznitelikleri ve talepler** altında, öznitelikleri  veya iade taleplerini toplamak için ilgili seçenekleri seçin. Commerce aşağıdaki varsayılan seçenekleri gerekli kılar:
+1. **Kullanıcı öznitelikleri ve talepler** altında, öznitelikleri veya iade taleplerini toplamak için ilgili seçenekleri seçin. Özniteliklerin ve talep seçeneklerinin tam listesini almak için **Daha fazla göster...** seçeneğini belirleyin. Commerce aşağıdaki varsayılan seçenekleri gerekli kılar:
 
     | **Öznitelik topla** | **İade talebi** |
     | ---------------------- | ----------------- |
@@ -141,9 +163,6 @@ Aşağıdaki resim, kullanıcı akışında Azure AD B2C kayıt olma ve oturum a
 
 ![Kayıt Olma ve Oturum Açma ilke ayarları.](./media/B2CImage_11.png)
 
-Aşağıdaki resimde, kullanıcı akışındaki Azure AD B2C kayıt olma ve oturum açma eylemindeki **Kullanıcı akışı çalıştır** seçeneği gösterilmektedir.
-
-![İlke akışında kullanıcı akışı seçeneğini çalıştır.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Profil düzenleme kullanıcı akışı ilkesi oluşturma
 
@@ -153,18 +172,22 @@ Profil düzenleme kullanıcı akışı ilkesi oluşturmak için aşağıdaki ad�
 1. **Azure AD B2C - Kullanıcı akışları (ilkeler)** sayfasında, **Yeni Kullanıcı Akışı**'nı seçin.
 1. **Profil düzenleme**'yi seçin ve sonra **önerilen** sürümü seçin.
 1. **Ad** altında, profil düzenleme kullanıcı akışını girin. Bu ad, daha sonra portalın atadığı bir önekle (örneğin, "B2C_1_") birlikte görüntülenecektir.
-1. **Kimlik sağlayıcılar** altında **E-postada Oturum Açma** seçeneğini belirleyin.
+1. **Kimlik sağlayıcıları** altında , **Yerel hesaplar** bölümünde, **E-posta Oturum Açma** seçeneğini belirleyin.
 1. **Kullanıcı öznitelikleri** altında, aşağıdaki onay kutularını seçin:
-    - **E-posta Adresleri** (yalnızca **İade talebi**)
-    - **Verilen Ad** (**Öznitelik topla** ve **İade talebi**)
-    - **Kimlik Sağlayıcı** (yalnızca **İade talebi**)
-    - **Soyadı** (**Öznitelik topla** ve **İade talebi**)
-    - **Kullanıcı Nesne Kodu** (yalnızca **İade talebi**)
+    
+    | **Öznitelik topla** | **İade talebi** |
+    | ---------------------- | ----------------- |
+    |                        | E-posta Adresleri   |
+    | Verilen Ad             | Verilen Ad        |
+    |                        | Kimlik Sağlayıcı |
+    | Soyadı                | Soyadı           |
+    |                        | Kullanıcı Nesne kodu  |
+    
 1. **Oluştur**'u seçin.
 
 Aşağıdaki resimde, Azure AD B2C profili düzenleme kullanıcı akışı örneği gösterilmektedir.
 
-![Profil Düzenleme kullanıcı akışı oluşturma.](./media/B2CImage_12.png)
+![Azure AD B2C profil düzenleme kullanıcı akışı örneği](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Parola sıfırlama kullanıcı akışı ilkesi oluşturma
 
@@ -249,7 +272,7 @@ Genel merkezi Azure AD B2C bilgileriyle güncelleştirmek için aşağıdaki ad�
 
 1. Commerce'ta **Commerce Paylaşılan Parametreleri**'ne gidin ve sol menüde **Kimlik Sağlayıcılar**'ı seçin.
 1. **Kimlik Sağlayıcılar** altında aşağıdakileri yapın:
-    1. **Veren** kutusuna, kimlik sağlayıcı verenin URL'sini girin. Veren URL'nizi bulmak için, aşağıdaki [Verenin URL'sini al](#obtain-issuer-url) bölümüne bakın.
+    1. **Veren** kutusuna, kimlik sağlayıcı verenin dizesini girin. Verenin dizesini bulmak için aşağıdaki [Headquarters kurulumu için veren dizesini al](#obtain-issuer-string-for-headquarters-setup) bölümüne bakın.
     1. **Ad** kutusuna, veren kaydınız için bir ad girin.
     1. **Tür** kutusuna, **Azure AD B2C (id_token)** girin.
 1. **Bağlı Olan Taraflar** altında, yukarıdaki B2C kimlik sağlayıcı öğesi seçiliyken aşağıdakileri yapın:
@@ -261,14 +284,15 @@ Genel merkezi Azure AD B2C bilgileriyle güncelleştirmek için aşağıdaki ad�
 1. **Dağıtım planları** sayfasının sol gezinti menüsünde, **1110 Global yapılandırma** işini seçin.
 1. Eylem bölmesinde **Şimdi Çalıştır**'ı seçin.
 
-### <a name="obtain-issuer-url"></a>Verenin URL'sini alma
+### <a name="obtain-issuer-string-for-headquarters-setup"></a>Yönetim merkezi kurulumu için verenin dizesini al
 
-Kimlik sağlayıcı veren URL'nizi almak için aşağıdaki adımları izleyin.
+Kimlik sağlayıcı veren dizenizi almak için aşağıdaki adımları izleyin.
+
 1. Azure Portal'ın Azure AD B2C sayfasında, **Kaydolma ve oturum açma** kullanıcı akışınıza gidin.
 1. Sol gezinti menüsünde **sayfa düzenlerini** seçin, **Düzen adı** altında **Birleşik kaydolma veya oturum açma sayfası**'nı seçin ve **Kullanıcı akışını Çalıştır**'ı seçin.
-1. Uygulamanızın , yukarıda oluşturulmuş olan Azure AD B2C uygulamanıza ayarlandığından emin olun ve sonra ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>`` değerini içeren **Kullanıcı akışını çalıştır** başlığı altındaki bağlantıyı seçin.
-1. Tarayıcı sekmesinde bir meta veri sayfası görüntülenir. Kimlik sağlayıcısı verenin URL'sini (**"veren"** değeri) kopyalayın.
-   - Örnek: ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+1. Uygulamanızın , yukarıda oluşturulmuş olan Azure AD B2C uygulamanıza ayarlandığından emin olun ve sonra ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>`` değerini içeren **Kullanıcı akışını çalıştır** altında görüntülenen kullanıcı akışı bağlantısını seçin. (**Kullanıcı akışını çalşıtır**'ı seçmeyin.) Veren dizesini  toplamak üzere ilkenin meta verilerini görüntüleyen yeni bir sekme açılacaktır.
+1. Tarayıcı sekmesinde görüntülenen meta veri sayfasında, aşağıdaki örneğe benzer görünen kimlik sağlayıcısı vereni dizesini kopyalayın (**veren** değeri "https://" ile başlayıp ""/v2.0/" ile biter).
+   - ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
  
 **VEYA**: Aynı meta veri URL'sini el ile oluşturmak için aşağıdaki adımları uygulayın.
 
@@ -286,29 +310,25 @@ Azure AD B2C kiracısı kurulumu tamamlandıktan sonra, B2C kiracısını Commer
 
 Gerekli uygulama bilgilerini toplamak için aşağıdaki adımları izleyin.
 
-1. Azure portalında **Giriş \> Azure AD B2C - Uygulamalar**'a gidin.
-1. Uygulamanızı seçin ve sonra sol gezinti bölmesinde uygulama ayrıntılarını elde etmek için **Özellikler**'i seçin.
-1. **Uygulama kimliği** kutusunda, B2C kiracınızda oluşturulan B2C uygulamasının uygulama kodunu toplayın. Bu, daha sonra site oluşturucuda **İstemci GUID**'i olarak girilir.
-1. **Yanıt URL'si** altından, yanıt URL'sini alın.
-1. **Giriş \> Azure AD B2C – Kullanıcı akışları (ilkeler)** öğesine gidin ve her kullanıcı akışı ilkesinin adını toplayın.
+1. Azure portalında **Giriş \> Azure AD B2C - Uygulama kayıtları**'na gidin.
+1. Uygulamanızı seçin ve sonra sol gezinti bölmesinde uygulama ayrıntılarını elde etmek için **Genel bakış**'ı seçin.
+1. **Uygulama (istemci) kimliği** başvurusunda, B2C kiracınızda oluşturulan B2C uygulamasının uygulama kodunu toplayın. Bu, daha sonra site oluşturucuda **İstemci GUID**'i olarak girilir.
+1. **Yeniden yönlendirme URI**'lerini seçin ve siteniz için gösterilen yanıt URL'sini (kurulumda girilen yanıt URL'si) toplayın.
+1. **Giriş \> Azure AD B2C – Kullanıcı akışları** öğesine gidin ve her kullanıcı akışı ilkesinin tam adını toplayın.
 
-Aşağıdaki resim **Azure AD B2C - Uygulamalar** sayfasının bir örneğini gösterir.
+Aşağıdaki resim **Azure AD B2C - Uygulama akışları** genel bakış sayfasının bir örneğini gösterir.
 
-![Kiracınız içinde B2C Uygulamasına gitme.](./media/B2CImage_19.png)
-
-Aşağıdaki resim Azure AD B2C'deki uygulamanın **Özellikler** sayfasının bir örneğini gösterir. 
-
-![B2C Uygulamasının Özelliklerinden Uygulama Kodunu Kopyalama.](./media/B2CImage_21.png)
+![Azure AD B2C - Uygulama (istemci) kimliği vurgulanmış olarak Uygulama kayıtları genel bakış sayfası](./media/ClientGUID_Application_AzurePortal.png)
 
 Aşağıdaki resimde, **Azure AD B2C - Kullanıcı akışları (ilkeler)** sayfasındaki kullanıcı akış ilkelerinin bir örneği gösterilmektedir.
 
 ![Her B2C ilke akışının adını toplama.](./media/B2CImage_22.png)
 
-### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>AAD B2C kiracısı uygulama bilgilerinizi Commerce'a girme
+### <a name="enter-your-azure-ad-b2c-tenant-application-information-into-commerce"></a>Azure AD B2C kiracısı uygulama bilgilerinizi Commerce'a girme
 
 B2C kiracısını sitelerinizle ilişkilendirmeden önce, Azure AD B2C kiracısı ayrıntılarını Commerce site oluşturucusuna girmeniz gerekir.
 
-AAD B2C kiracısı uygulama bilgilerinizi Commerce'a eklemek için aşağıdaki adımları izleyin.
+Azure AD B2C kiracısı uygulama bilgilerinizi Commerce'a eklemek için aşağıdaki adımları izleyin.
 
 1. Ortamınız için Commerce site oluşturucuda yönetici olarak oturum açın.
 1. Sol gezinti bölmesinde, genişletmek için **Kiracı Ayarları**'nı seçin.

@@ -1,28 +1,25 @@
 ---
 title: " Kayıtlar oluşturma ve ilişkilendirme"
 description: Bu yordam, bir satış noktası (POS) kaydının nasıl oluşturulacağını gösterir.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 001bdd61f9266798dadae2ac7c96a4f4c19dbb94
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 48ad1891955b15d22f3cecac128a831adabdac87
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416485"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779439"
 ---
 # <a name="create-and-associate-registers"></a> Kayıtlar oluşturma ve ilişkilendirme
 
@@ -44,3 +41,6 @@ Bu yordam, bir satış noktası (POS) kaydının nasıl oluşturulacağını gö
     * EFT POS kayıt numarası, ödeme terminalinin yetkilendirme talepleri gönderdiği ödeme işlemcisini bilgilendirmek için kullanılır. Bu değere genellikle "Terminal Kodu" veya “TID” adı verilir. TID'yi genel olarak ödeme cihazının üzerinde bir etiket üzerinde bulabilirsiniz.  
 9. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

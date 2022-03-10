@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 715b18acb10edebafe60805393cbc16c5be513ef3605cf7a575ff98362443bb6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022458"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766445"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Dynamics 365 Commerce'ten Microsoft Teams sağlama
 
@@ -49,7 +49,7 @@ Commerce Headquarters'da Teams'i sağlamak için aşağıdaki adımları izleyin
 > [!TIP]
 > Bölgesel yöneticileriniz, mağaza yöneticileri ve mağaza arkadaşlarınız bir Teams lisansıyla ilişkilendirilmediği takdirde, aşağıdaki hata iletisini alabilirsiniz: "Kullanıcı için appliable SKU kategorileri alınamadı." Sorunu düzeltmek için, Eylem bölmesinde, **Teams ve üyeleri Eşitle**'yi seçin.
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>Teams Yönetim merkezinde Teams sağlamayı doğrulama
 
@@ -63,7 +63,7 @@ Microsoft Teams Yönetim Merkezi'nde Microsoft Teams sağlamayı doğrulamak iç
 
 Aşağıdaki çizimde, Teams Yönetim merkezinde bulunan **Ekipleri Yönet** sayfasının bir örneği gösterilmektedir.
 
-![Teams Yönetim Merkezi'ndeki ekipleri Yönet sayfası örneği](media/Teams-FLW-Admin-Teams.png)
+![Teams Yönetim Merkezi'ndeki ekipleri Yönet sayfası örneği.](media/Teams-FLW-Admin-Teams.png)
 
 ## <a name="upload-a-commerce-organizational-hierarchy-to-teams"></a>Commerce Organizasyon hiyerarşinizi Teams'e yükleme
     
@@ -86,7 +86,7 @@ Kuruluş hiyerarşisinin Microsoft Teams'e yüklenmiş olduğunu doğrulamak iç
 1. **Yayınlanan listeler** sekmesinde, sözde görevi olan yeni bir liste oluşturun.
 1. **Yayımla**'yı seçin. Aşağıdaki çizimdeki örnekte gösterildiği gibi, kuruluş hiyerarşisi **Kime yayımlanacağını seç** iletişim kutusunda görünür.
 
-![Kime yayımlanacağını seç iletişim kutusunda kuruluş hiyerarşisi örneği](media/Microsoft-teams-verify-org-hierarchy.png)
+![Kime yayımlanacağını seç iletişim kutusunda kuruluş hiyerarşisi örneği.](media/Microsoft-teams-verify-org-hierarchy.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

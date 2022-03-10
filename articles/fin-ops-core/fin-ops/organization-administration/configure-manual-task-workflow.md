@@ -2,11 +2,9 @@
 title: İş akışında el ile girilen görevleri yapılandırma
 description: Bu konu, el ile bir görevin özelliklerini yapılandırmayı açıklar.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f61e0f7ee16519767192fb379f20c1ed20b69caa
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 726abcf20789fb3a7a9a3adbebf17249042910d1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798817"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066480"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>İş akışında el ile girilen görevleri yapılandırma
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konu, el ile bir görevin özelliklerini yapılandırmayı açıklar.
 
@@ -381,3 +382,6 @@ El ile görev bir kullanıcıya atandığında kullanıcı görev üstünde eyle
 5. Kullanıcı görevi başka bir kullanıcıya atayabilecekse **Temsilci seç** onay kutusunu işaretleyin.
 6. Kullanıcı görevi, iş öğesi kuyruğundaki başka bir kullanıcıya yeniden atayabilecekse **Yeniden Ata** onay kutusunu işaretleyin.
 7. Kullanıcı görevi, iş öğesi kuyruğundaki başka bir kullanıcıya serbest bırakabilecekse, **Serbest Bırak** onay kutusunu işaretleyin. Daha sonra başka bir kullanıcı bu görevi tamamlayabilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

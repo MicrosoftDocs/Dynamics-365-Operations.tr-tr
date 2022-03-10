@@ -1,7 +1,7 @@
 ---
 title: Planlamayı En İyi Duruma Getirme tarafından kullanılmayan parametreler
 description: Bu konu, Planlamayı En İyi Duruma Getirme işleminin operasyon sırasında dikkate almadığı parametreleri listeler.
-author: crytt
+author: ChristianRytt
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 52cfe5be60e5a04ce2e2239574d7fedc83e7cff0
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474808"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087511"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Planlamayı En İyi Duruma Getirme tarafından kullanılmayan parametreler
 
@@ -54,25 +54,13 @@ Planlamayı En İyi Duruma Getirme, **Master planlama parametreleri** sayfasınd
   - **Üretim** - *Planlama* desteği bekleniyor.
   - **Proje** bölümündeki alanlar – *Planlama* desteği bekleniyor.
 
-- **Standart güncelleştirme** sekmesi:
-
-  - **İşaretlemeyi güncelleştir** – *Kesinleştirme* desteği bekleniyor.
-  - **Hata oluşursa kesinleştirmeyi durdur** – *Kesinleştirme* desteği bekleniyor.
-  - **Satıcıya göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Alıcı grubuna göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Satınalma sözleşmesine göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Döneme göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Satınalma sözleşmesi bul** – *Kesinleştirme* desteği bekleniyor.
-  - **Planlama önceliğine göre grupla** – *Kesinleştirme* desteği bekleniyor.
-  - **Döneme göre grupla** – *Kesinleştirme* desteği bekleniyor.
-
 ## <a name="coverage-groups-page"></a>Karşılama grupları sayfası
 
 Planlamayı En İyi Duruma Getirme, **Karşılama grupları** sayfasında bulunan aşağıdaki parametreleri veya seçenekleri kullanmaz:
 
 - **Genel** FastTab'i:
 
-  - **Pozitif gün sayısı** – *Pozitif gün sayısı* desteği bekleniyor.
+  - **Artı gün sayısı** – *Artı günler* değeri kullanılmaz. Planlama Optimizasyonu ile, artı günler sonsuz kabul edilir.
   - **Eldeki stoğu kullan** – *Eldeki stok tüketimi* desteği bekleniyor.
   - **Belirtilen ürün reçetesi veya formül sürümünü kullan** - *Ortak/Yan ürün ile formül sürümleri* desteği bekleniyor.
   - **Belirtilen rota sürümünü kullan** – *Tanımlanmış özel ürün reçetesi veya rota gereksinimleri olan istek* desteği bekleniyor.
@@ -172,6 +160,10 @@ Planlamayı En İyi Duruma Getirme, **Master planlar** sayfasında bulunan aşa�
   - **Hesaplanan gecikmeyi gereksinim tarihine ekle** (**Planlanan üretim emirleri** bölümünde) – *Hesaplanan gecikmeler* desteği bekleniyor.
   - **Hesaplanan gecikmeyi gereksinim tarihine ekle** (**Planlanan transfer** bölümünde) – *Hesaplanan gecikmeler* desteği bekleniyor.
   - **Hesaplanan gecikmeyi gereksinim tarihine ekle** (**Planlı kanban** bölümünde) – *Hesaplanan gecikmeler* desteği bekleniyor.
+
+- **Eylem iletisi** hızlı sekmesi:
+
+  - **Ertelenen tarihi gereksinim tarihi olarak güncelleştir** - Bu parametre, Planlama İyileştirmesi ile kullanımdan kaldırıldı.
 
 - **Sıralama** Hızlı sekmesi:
 

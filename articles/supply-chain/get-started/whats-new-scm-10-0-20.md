@@ -4,18 +4,18 @@ description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.20'daki yeni v
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
-ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
+ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "7506843"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647326"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.20 (Ağustos 2021)
 
@@ -46,7 +46,7 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 
 Aşağıdaki tabloda, bu sürümde yer alan özellik iyileştirmeleri yer almaktadır. Bunların her biri varolan bir özellik için artımlı bir geliştirme sağlar. Bunlar yalnızca geliştirmeler olduğundan, [sürüm planında](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) listelenmezler. Ancak, bu geliştirmelerin mevcut özelleştirmelerinizle veya tercihlerinizle çakışmayacağından emin olmak için, her biri varsayılan olarak kapatılmıştır (aksi belirtilmedikçe). Bu özelliklerden herhangi birini kullanmak istiyorsanız, bunları [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde açıkça etkinleştirmeniz gerekir.
 
-| Özellik alanı | Özellik&nbsp;yönetiminde&nbsp;özellik&nbsp;adı | Daha fazla bilgi |
+| Modül | Özellik&nbsp;yönetiminde&nbsp;özellik&nbsp;adı | Daha fazla bilgi |
 |---|---|---|
 | Master planlama | Ayarlanan talep tahmininin paralel yetkilendirmesi | Bu özellik, ayarlanmış talep tahmin sayfasından **ayarlanmış talep tahmininin** paralel olarak yetkilendirilmeye olanak tanır. Yüksek sayıda tahminlerde yetki bulunduğunda, bu özelliğin amacı performansı artırmakla aynıdır. Yetkilendirilme sırasında, Kullanıcı, Yetkilendirme iletişim kutusundaki **iş parçacığı sayısını** belirtebilir. |
 | Master planlama | (Önizleme) Planlı toplu ve paketli siparişler için toplu iş olarak yürütülebilen kesinleştirme ve konsolidasyon | Bu özellik sayesinde planlı toplu paketli siparişleri kesinleştirmek ve konsolide etmek için toplu işleri kullanabilirsiniz. |

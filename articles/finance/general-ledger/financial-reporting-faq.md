@@ -1,8 +1,8 @@
 ---
 title: Mali raporlama ile ilgili SSS
-description: Bu konuda, diğer kullanıcıların mali raporlama ile ilgili soruları listelenmektedir.
+description: Bu konuda, Mali raporlama hakkında sık sorulan bazı soruların yanıtları sağlanmaktadır.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,78 +14,115 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811322"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605291"
 ---
-# <a name="financial-reporting-faq"></a>Mali raporlama ile ilgili SSS 
+# <a name="financial-reporting-faq"></a>Mali raporlama ile ilgili SSS
 
-Bu konuda, diğer kullanıcıların mali raporlama ile ilgili soruları listelenmektedir. 
+Bu konuda, Mali raporlama hakkında sık sorulan soruların yanıtları sağlanmaktadır.
 
+## <a name="how-do-i-restrict-access-to-a-report-by-using-tree-security"></a>Ağaç güvenliğini kullanarak bir rapora erişimi nasıl kısıtlayabilirim?
 
-## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Ağaç güvenliğini kullanarak bir rapora erişimi nasıl kısıtlayabilirim?
+Aşağıdaki örnekte, ağaç güvenliği kullanılarak bir rapora erişimin nasıl kısıtlanacağı gösterilmektedir.
 
-Senaryo: USMF demo şirketinin tüm mali raporlama kullanıcılarının D365'te görüntülemesini istemediği bir bilanço raporu bulunuyor. Çözüm: Rapora yalnızca belirli kullanıcıların erişmesini sağlamak üzere tek bir rapora erişimi kısıtlamak için Ağaç güvenliğini kullanabilirsiniz. 
+USMF demo şirketi, tüm Mali raporlama kullanıcılarının erişemeyeceği bir **Bilanço** raporuna sahiptir. Rapora yalnızca belirli kullanıcıların erişmesini sağlamak üzere tek bir rapora erişimi kısıtlamak için ağaç güvenliğini kullanabilirsiniz.
 
-1.  Mali Raporlayıcı Rapor Tasarımcısında oturum açma
+1. Financial Reporter Report Designer'da oturum açın.
+2. Yeni bir ağaç tanımı oluşturmak için **Dosya \> Yeni \> Ağaç Tanımı**'nı seçin.
+3. **Birim Güvenliği** sütununda **Özet** satırına çift dokunun (veya çift tıklayın).
+4. **Kullanıcılar ve Gruplar**'ı seçin.
+5. Rapora erişmesi gereken kullanıcıları veya grupları seçin.
+6. **Kaydet**'i seçin.
+7. Rapor tanımına yeni ağaç tanımınızı ekleyin.
+8. Ağaç tanımında **Ayar**'ı seçin. Ardından, **Raporlama birimi seçimi** altında **Tüm birimleri dahil et**'i seçin.
 
-2.  Yeni Ağaç Tanımı oluşturma (Dosya | Yeni | Ağaç Tanımı) a.    **Birim Güvenliği** sütununda **Özet** satırına çift tıklayın.
-  i.    Kullanıcılar ve Gruplar'a tıklayın.  
-          1. Bu rapora erişmesini istediğiniz Kullanıcılar veya Grupları seçin. 
-          
-[![kullanıcı ekranı](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)
+## <a name="how-do-i-identify-which-accounts-dont-match-my-balances"></a>Hangi hesapların bakiyelerimle eşleşmediğini nasıl belirleyeceğim?
 
-[![güvenlik ekranı](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)
+Eşleşen bakiyeleri olmayan bir raporunuz varsa her hesabı ve farkını tanımlamak için aşağıdaki yordamları kullanın.
 
-  b.    **Kaydet**'e tıklayın.
-  
-[![kaydet düğmesi](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)
+### <a name="in-financial-reporter-report-designer"></a>Financial Reporter Report Designer'te
 
-3.  Rapor Tanımınızda, yeni Ağaç Tanımınızı ekleyin
+1. Yeni bir satır tanımı oluşturun.
+2. **Düzenle \> Boyutlardan Satır Ekle**'yi seçin.
+3. **MainAccount**'u seçin.
+4. **Tamam**'ı seçin.
+5. Satır tanımını kaydedin.
+6. Yeni bir sütun tanımı oluşturun.
+7. Yeni bir rapor tanımı oluşturun.
+8. **Ayarlar**'ı seçin ve bu seçeneğin işaretini kaldırın.
+9. Raporu oluşturun. 
+10. Raporu Microsoft Excel'e dışarı aktarın.
 
-[![ağaç tanımı formu](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)
+### <a name="in-dynamics-365-finance"></a>Dynamics 365 Finance'te
 
-A.  Ağaç Tanımındayken, Ayar'a tıklayın ve "Raporlama birimi seçimi" altından, "Tüm birimleri dahil et"i işaretleyin
+1. **Genel muhasebe \> Sorgular ve raporlar \> Mizan**'a gidin.
+2. Aşağıdaki alanları ayarlayın:
 
-[![raporlama birimi seçim formu](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)
+    - **Başlangıç Tarihi**: Mali yılın başlangıç tarihini girin.
+    - **Bitiş Tarihi**: Raporu oluşturduğunuz tarihi girin.
+    - **Mali Boyut**: Bu alanı **Ana hesap kümesi** olarak ayarlayın.
 
-**Öncesi:** [![öncesi ekran görüntüsü](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)
+3. **Hesapla**'yı seçin.
+4. Raporu Excel'e dışarı aktarın.
 
-**Sonrası:** [![sonrası ekran görüntüsü](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)
+Artık Financial Reporter Excel raporundan **Mizan** raporuna veri kopyalayarak **Kapanış Bakiyesi** sütunlarını karşılaştırabilirsiniz.
 
-Not: Yukarıdaki iletinin nedeni, Birim Güvenliği uygulandıktan sonra kullanıcımın o rapora erişim izninin olmamasıdır
+## <a name="when-i-design-a-report-in-report-designer-or-when-i-generate-a-financial-report-i-received-the-following-message-the-operation-could-not-be-completed-due-to-a-problem-in-the-data-provider-framework-how-should-i-respond"></a>Report Designer'da bir rapor tasarladığımda veya mali rapor oluşturduğumda şu iletiyi alıyorum: "Veri sağlayıcı altyapısındaki bir sorun nedeniyle işlem tamamlanamadı." Nasıl yanıt vermeliyim?
 
+Bu ileti, Mali raporlama kullanılırken sistem veri reyonunda mali meta verileri almaya çalıştığında bir sorun oluştuğunu belirtir. Bu sorunu çözmenin iki yolu vardır:
 
+- Report Designer'da **Araçlar \> Tümleştirme durumu**'na giderek verilerin tümleştirme durumunu inceleyin. Tümleştirme tamamlanmamışsa tamamlanmasını bekleyin. Ardından, iletiyi aldığınızda yaptığınız işlemi yeniden deneyin.
+- Sorunu tanımlamak ve üzerinde çalışmak için Destek ile iletişime geçin. Sistemde tutarsız veriler olabilir. Destek mühendisleri, bu sorunu sunucuda tanımlamanıza ve güncelleştirme gerektirebilecek belirli verileri bulmanıza yardımcı olabilir.
 
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a>D365'te hangi hesaplarda bakiyelerin eşleşmediğini nasıl belirleyebilirim?
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Geçmiş kuru dönüştürme işleminin seçimi rapor performansını nasıl etkiler?
 
-D365'te beklediğiniz şekilde eşleşmeyen bir raporunuz varsa bu hesapları ve farkları tanımlamak için gerçekleştirebileceğiniz adımlar burada verilmiştir. 
+Geçmiş kur genellikle yedek akçe, kaynak, tesis, ekipman ve öz varlık hesaplarıyla birlikte kullanılır. Geçmiş kur, Mali Muhasebe Standartları Kurulu (FASB) veya genel kabul görmüş muhasebe ilkeleri (GAAP) yönergelerine göre gerekli olabilir. Daha fazla bilgi için bkz. [Mali raporlamada para birimi özellikleri](financial-reporting-currency-capability.md).
 
-### <a name="in-financial-reporter-report-designer"></a>Mali Raporlayıcı Rapor Tasarımcısında
+## <a name="how-many-types-of-currency-rate-are-there"></a>Kaç çeşit döviz kuru vardır?
 
-1.  Yeni Satır Tanımı oluşturun a.    Düzenle | Boyutlardan Satır Ekle'yi tıklayın i.  MainAccount'u seçme [![Ana ekranı seçme_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)
-    
-    ii. Tamam'a tıklayın b.    Satır Tanımını kaydedin
+Üç tür kur vardır:
 
-2.  Yeni Sütun Tanımı oluşturma     [![Yeni Sütun Tanımı oluşturma](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)
+- **Geçerli kur**: Bu tür genellikle bilanço hesaplarında kullanılır. Genellikle *spot döviz kuru* olarak bilinir ve ayın son günü veya önceden belirlenmiş başka bir tarihteki kur olabilir.
+- **Ortalama kur**: Bu tür genellikle gelir tablosu (kar/zarar) hesaplarında kullanılır. Ortalama kuru, basit ortalama veya ağırlıklı ortalama hesaplayacak şekilde ayarlayabilirsiniz.
+- **Geçmiş kur**: Bu tür genellikle yedek akçe, kaynak, tesis, ekipman ve öz varlık hesaplarıyla birlikte kullanılır. Bu hesaplar, FASB veya GAAP yönergelerine göre gerekli olabilir.
 
-3.  Yeni Rapor Tanımı oluşturun a.    Ayarlar'a tıklayın ve işaretleri kaldırın [![Ayarlar formu](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)
-   
-4.  Raporu oluşturun. 
+## <a name="how-does-historical-currency-translation-work"></a>Geçmiş para birimi dönüştürme nasıl işler?
 
-5.  Raporu Excel'e dışarı aktarın.
+Kurlar hareket tarihine özgüdür. Bu nedenle her hareket, en yakın döviz kuruna göre ayrı ayrı dönüştürülür.
 
-### <a name="in-d365"></a>D365'te: 
-1.  Genel Muhasebe | Sorgular ve Raporlar | Mizan'a tıklayın a.    Parametreler i.  Başlangıç Tarihi: Mali Yılın başlangıcı ii. Bitiş Tarihi: Raporu oluşturduğunuz tarih (şunun için: iii.    Finansal Boyut Ayarı "Ana Hesap Ayarı") [![Ana Hesap Formu](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
-      
-  b.    Hesapla'ya tıklayın
+Geçmiş para birimi dönüştürmede, ayrı ayrı hareket ayrıntıları yerine önceden hesaplanmış dönem bakiyeleri kullanılabilir. Bu davranış, geçerli kuru dönüştürme davranışından farklıdır.
 
-2.  Raporu Excel'e dışarı aktarın
+## <a name="how-does-historical-currency-translation-affect-performance"></a>Geçmiş para birimi dönüştürme performansı nasıl etkiler?
 
-Artık FR Excel raporundan ve D365 Mizan raporuna veri kopyalayabilir ve "Kapanış Bakiyesi" sütunlarını karşılaştırabilirsiniz.
+Raporlarda sunulan veriler güncelleştirildiğinde hareket ayrıntıları denetlenerek tutarların yeniden hesaplanması gerektiğinden gecikme olabilir. Bu gecikme, kurlar her güncelleştirildiğinde veya daha fazla hareket deftere nakledildiğinde tetiklenir. Örneğin, geçmiş dönüştürme işlemi için günde birkaç kez binlerce hesap ayarlanıyorsa rapordaki verilerin güncelleştirilmesinden önce bir saat kadar gecikme olabilir. Diğer taraftan belirtilen hesaplar daha az sayıdaysa rapor verilerindeki güncelleştirmeler için işleme süresi dakikalara veya daha kısa bir süreye düşürülebilir.
 
+Benzer şekilde geçmiş türü hesaplar için para birimi dönüştürme kullanılarak raporlar oluşturulduğunda harekat başına ek hesaplamalar yapılır. Hesap sayısına bağlı olarak, rapor oluşturma süresi iki kat fazla olabilir.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Tahmini Veri Reyonu tümleştirme aralıkları nelerdir?
+
+Financial Reporter, Dynamics 365 Finance'ten Financial Reporter veritabanına veri kopyalamak için 16 görev kullanır. Aşağıdaki tabloda bu 16 görev listelenmekte ve her görevin hangi sıklıkta çalıştığını belirten aralık gösterilmektedir. Aralıklar değiştirilemez.
+
+| Ad                                                       | Aralık | Aralık zamanlaması |
+|------------------------------------------------------------|----------|-----------------|
+| AX 2012 Hesap Kategorileri - Hesap Kategorisi            | 41       | Dakika         |
+| AX 2012 Hesapları - Hesap                                | 7        | Dakika         |
+| AX 2012 Şirketleri - Şirket                               | 300      | Saniye         |
+| AX 2012 Şirketleri - Kuruluş                          | 23       | Dakika         |
+| AX 2012 Boyut Birleşimleri - Boyut Birleşimi    | 1        | Dakika         |
+| AX 2012 Boyut Değerleri - Boyut Değeri                | 11       | Dakika         |
+| AX 2012 Boyutları - Boyut                            | 31       | Dakika         |
+| AX 2012 Döviz Kurları - Döviz Kuru                    | 17       | Dakika         |
+| AX 2012 Mali Yılları - Mali Yıl                        | 13       | Dakika         |
+| AX 2012 Genel Muhasebe İşlemleri - Olgu                | 1        | Dakika         |
+| AX 2012 Kuruluş Hiyerarşileri - Ağaç                   | 3.600    | Saniye         |
+| AX 2012 Senaryoları - Senaryo                              | 29       | Dakika         |
+| AX 2012 İşlem Türü Niteleyicileri - Olgu Türü Niteleyicisi | 19       | Dakika         |
+| Bakım Görevi                                           | 1        | Dakika         |
+| MR Rapor Tanımları - AX7 Mali Raporları             | 45       | Saniye         |
+| MR Rapor Sürümleri - AX Mali Rapor Sürümleri         | 45       | Saniye         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

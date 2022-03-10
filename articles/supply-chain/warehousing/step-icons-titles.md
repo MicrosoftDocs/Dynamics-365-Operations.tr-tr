@@ -1,21 +1,21 @@
 ---
 title: Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama
 description: Bu konuda, Warehouse Management mobil uygulaması için yeni veya özelleştirilmiş görev akışları için adım simgelerinin ve başlıklarının nasıl atandığı açıklanmaktadır.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344508"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103325"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama
 
@@ -27,12 +27,9 @@ Aşağıdaki çizimlerde, adım simgelerinin ve başlıkların Warehouse Managem
 
 ![Warehouse Management mobil uygulamasında adım simgesi ve adım başlığı örneği.](media/step-icon-example.png "Warehouse Management mobil uygulamasında adım simgesi ve adım başlığı örneği")
 
-## <a name="turn-on-this-feature-in-your-system"></a>Sisteminizde bu özelliği etkinleştirme
+## <a name="turn-this-feature-on-or-off"></a>Bu özelliği açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları*
+Bu konuda açıklanan işlevi kullanmak için, *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğinin sisteminiz için açık olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Standart adım kimlikleri, sınıflar ve simgeler
 

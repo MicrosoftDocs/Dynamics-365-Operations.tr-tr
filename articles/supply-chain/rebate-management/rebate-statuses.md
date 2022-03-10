@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMRebateStatusTable
 audience: Application User
@@ -14,18 +13,17 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 3fd347607f5d64d54d3058f4ef1b0ed60ca54e66
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 62584aaf91802b002e82642bac84869609cbe61a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831686"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571677"
 ---
 # <a name="rebate-statuses"></a>İndirim durumları
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 İndirim durumları, her bir indirim yönetimi anlaşmasının durumunu izlemenize yardımcı olur. Bunları raporlama ve sorgulama amaçları için de kullanabilirsiniz. İş sürecinizi desteklemek için gereken sayıda indirim durumu değeri ayarlayabilir ve ad verebilirsiniz. 
 

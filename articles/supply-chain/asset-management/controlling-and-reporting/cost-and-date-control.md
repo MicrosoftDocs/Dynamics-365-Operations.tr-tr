@@ -1,37 +1,32 @@
 ---
 title: Maliyet ve tarih kontrolü
 description: Bu konuda Varlık Yönetimi'nde maliyeti ve tarih denetimini açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18373ff16b63ea61a3a4bc38ee7fa0b5e33154b5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 826e0aab8c717bb951d80aff61b2d72dad802189706f720c48e72c8a1c393ead
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731925"
 ---
 # <a name="cost-and-date-control"></a>Maliyet ve tarih kontrolü
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-Kıymet yönetiminde, sabit kıymetler, işlevsel yerleşimler ve iş emirleriyle ilgili bütçe maliyetleriyle karşılaştırıldığında fiili maliyetlerin genel görünümünü elde etmek için maliyetleri hesaplayabilirsiniz. Fiili maliyetler deftere nakledilen hareketleri temel alarak yapılır. 
+Kıymet yönetiminde, sabit kıymetler, işlevsel yerleşimler ve iş emirleriyle ilgili bütçe maliyetleriyle karşılaştırıldığında fiili maliyetlerin genel görünümünü elde etmek için maliyetleri hesaplayabilirsiniz. Fiili maliyetler deftere nakledilen hareketleri temel alarak yapılır.
 
 Ayrıca, planlanan başlangıç ve bitiş tarihlerini çalışma emirlerindeki gerçek başlangıç ve bitiş tarihleriyle karşılaştırmak istiyorsanız, tarih hesaplaması da yapabilirsiniz.
 
@@ -49,8 +44,8 @@ Varlıklar, işlevsel yerleşimler ve çalışma emirleri için oluşturulan hes
 
 5. İşlem yapılacak yerleşimlerle ilgili olarak maliyet denetimi satırlarının ne kadar ayrıntılı olmasını istediğinizi belirtmek için **Düzey** alanını kullanabilirsiniz. 
 
-    Örneğin alana "1" değerini girerseniz ve çok düzeyli bir işlem yapılacak yerleşim hiyerarşiniz varsa, işlem yapılacak yerleşim için tüm maliyet denetimi satırları üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler, alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir. 
-    
+    Örneğin alana "1" değerini girerseniz ve çok düzeyli bir işlem yapılacak yerleşim hiyerarşiniz varsa, işlem yapılacak yerleşim için tüm maliyet denetimi satırları üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler, alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir.
+
     **Düzey** alanına "0" sayısını girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeyinde bulunan tüm maliyet denetimi satırlarını gösteren ayrıntılı bir sonuç görürsünüz.
 
 6. Bu sütunu hesaplamaya dahil etmek istiyorsanız **Açık taahhüt edilen maliyeti göster** değiştir düğmesini göster üzerinde "Evet" seçeneğini belirleyin.
@@ -63,11 +58,11 @@ Varlıklar, işlevsel yerleşimler ve çalışma emirleri için oluşturulan hes
 
     Aşağıdaki şekil, **Varlık maliyet denetimi** iletişim kutusunun bir örneğini gösterir.
 
-    ![Varlık Maliyet Denetimi iletişim kutusu](media/01-controlling-and-reporting.png)
+    ![Varlık Maliyet Denetimi iletişim kutusu.](media/01-controlling-and-reporting.png)
 
 10. **Varlık maliyet denetimi** sayfasında, hesaplamanın gerekli ayrıntı düzeyini göstermek için **Gruplama ölçütü** düğmelerine tıklayın. Seçilen **Gruplandırma ölçütü** düğmeleri vurgulanır. Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.
 
-## <a name="example"></a>Örnek
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Varlık maliyet denetiminde hesaplama sonuçları örneği
 
 Aşağıdaki ekran görüntüsü, **Varlık maliyet denetimi** içinde hesaplama sonuçlarının bir örneğini gösterir.
 
@@ -76,10 +71,9 @@ Aşağıdaki ekran görüntüsü, **Varlık maliyet denetimi** içinde hesaplama
 - **Açık taahhüt edilen maliyet** alanı, sipariş ettiğiniz veya aldığınız, ancak henüz ödenmemiş olan maddeler, saatler ve servisler için ödeme taahhütlerini gösterir. 
 - Tüm tüketim kayıtları deftere nakledildikten sonra, ilgili maliyetler **Fiili maliyet** alanında gösterilir.
 
-![Varlık maliyet denetiminde örnek hesaplama sonuçları](media/02-controlling-and-reporting.png)
+![Varlık maliyet denetiminde örnek hesaplama sonuçları.](media/02-controlling-and-reporting.png)
 
 Maliyet hesaplaması yapmanın bir başka yolu **Tüm varlıklar** veya **Etkin varlıklar** içinde çoklu varlıkları seçmektir. Daha sonra, **genel** sekmesindeki **maliyet denetimi** düğmesini tıklatın. **Varlık maliyet denetimi** iletişim kutusunda, seçilen kıymetler hızlı sekme **dahil edilecek kayıtlar** içindeki **Varlık** alanına otomatik eklenir. **Tamam**'ı tıklattın ve seçilen varlıklar için bir maliyet hesaplaması gösterilir. Aynı işlem **Tüm işlem yapılacak yerleşimler** veya **Etkin işlem yapılacak yerleşimler** içindeki işlem yapılacak yerleşimler ve **Tüm iş emirleri** veya **Etkin iş emirleri** içindeki tüm iş emirleri için kullanılabilir.
-
 
 ## <a name="work-order-date-control"></a>İş emri tarih denetimi
 
@@ -97,7 +91,7 @@ Maliyet hesaplaması yapmanın bir başka yolu **Tüm varlıklar** veya **Etkin 
 
 6. **Gruplandırma ölçütü** düğmelerine tıklayarak hesaplamanın gerekli ayrıntı düzeyini görüntüleyin. Seçilen **Gruplandırma ölçütü** düğmeleri vurgulanır. Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.
 
-## <a name="example"></a>Örnek
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>İş emri tarihi denetiminde hesaplama sonuçları örneği
 
 Aşağıdaki ekran görüntüsü, **İş emri tarih denetimi** içinde hesaplama sonuçlarının bir örneğini gösterir.
 
@@ -105,6 +99,9 @@ Aşağıdaki ekran görüntüsü, **İş emri tarih denetimi** içinde hesaplama
 - **Ortalama bitiş gecikmesi** alanı, fiili bitiş tarihiyle karşılaştırıldığında bir iş emri için planlanan bitiş tarihi arasındaki farkı gösterir. Örneğin, gerçek bitiş tarihi planlanan bitiş tarihinden üç gün sonra ise, bu alanda "3" görüntülenir.  
 - **Oluşum** alanları, planlanan ve fiili başlangıç tarihiyle ilişkili olarak sapmalarının kaç kere yinelendiğini ve iş emrindeki zamanlanan ve gerçek bitiş tarihini gösterir.
 
-![İş emri tarihi denetiminde örnek hesaplama sonuçları](media/03-controlling-and-reporting.png)
+![İş emri tarihi denetiminde örnek hesaplama sonuçları.](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

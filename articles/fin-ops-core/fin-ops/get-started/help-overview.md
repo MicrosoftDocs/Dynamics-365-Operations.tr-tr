@@ -1,9 +1,9 @@
 ---
-title: Yardım sistemi
-description: Bu konuda, Finance and Operations uygulamaları için Yardım sistemine bir genel bakış sunulmaktadır.
+title: Yardım sistemi (video içerir)
+description: Bu konuda, Finance ve Operations uygulamaları için Yardım sistemine bir genel bakış sunulmaktadır.
 author: edupont04
 ms.date: 07/20/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemParameters
@@ -17,16 +17,19 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0ba083c64c840e17bf2fba982b2686c8a47e097
-ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
+ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "6646525"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070513"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Aşağıdaki uygulamaların kullanıcıları, içeriğe duyarlı Yardıma ve aynı Yardım sistemine dayanan diğer içeriklere erişebilir:
 
@@ -50,7 +53,7 @@ Herhangi bir arama motorunu kullanarak docs.microsoft.com adresinde içerik bula
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>RSS akışı aracılığıyla değişiklikler hakkında bildirim alma
 
-Finance and Operations uygulamaları genelinde docs.microsoft.com üzerindeki içeriklerde yapılan tüm güncelleştirmelerin RSS akışına abone olmak için aşağıdaki bağlantıyı kullanın:
+Finance ve Operations uygulamaları genelinde docs.microsoft.com üzerindeki içeriklerde yapılan tüm güncelleştirmelerin RSS akışına abone olmak için aşağıdaki bağlantıyı kullanın:
 
 [RSS akışı](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 

@@ -3,7 +3,7 @@ title: Müşteri rehberliğine genel bakış
 description: Bu konu, mağaza uygulamasında kullanılabilen yeni müşteri rehberliği yeteneklerine genel bir bakış sağlar.
 author: bebeale
 ms.date: 02/01/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352700"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984608"
 ---
 # <a name="clienteling-overview"></a>Müşteri rehberliğine genel bakış
 
@@ -125,7 +125,7 @@ Tümleştirmeyi ayarlamak için aşağıdaki adımları izleyin.
 - **Gizli Diziler** bölümünün altında:
     - **Ad**: Herhangi bir ad, örneğin "CISecret".
     - **Açıklama**: Herhangi bir değer.
-    - **Gizli Dizi**: **kasa**://<Name of key vault>/<name of secret>> Bu örnekte "vault://KeyVaultName/SecretName" olacaktır.
+    - **Gizli dizi**: **kasa**:`//<Name of key vault>/<name of secret>>` Bu örnekte `vault://KeyVaultName/SecretName` olacaktır.
 
 Alanları güncelleştirdikten sonra, gizli diziye Commerce uygulaması tarafından erişilebildiğinden emin olmak için **Doğrula**'yı seçin.
 

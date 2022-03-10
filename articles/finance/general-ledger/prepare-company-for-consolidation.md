@@ -2,11 +2,9 @@
 title: Konsolidasyon işleminde tüzel kişilik hazırlama
 description: Konsolidasyon sırasında, birkaç tüzel kişilik hesabı kümesinden hareketleri tek bir tüzel kişilik hesabı kümesinde birleştirebilirsiniz. Bu konuda, bir konsolidasyon için tüzel kişiliğin nasıl hazırlanacağı açıklanmaktadır.
 author: jinniew
-manager: AnnBe
 ms.date: 10/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6fce69724945448f961769dd383d1047a5d13c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a1ffbf79cdccab457b1aee1bc0f1d963bca49b3e390187c6be5da475f278a3d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720514"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Konsolidasyon işleminde tüzel kişilik hazırlama
 
@@ -63,7 +61,10 @@ Konsolide tüzel kişilik, yan kuruluşların sonuçlarını ve bakiyelerini top
 Konsolide tüzel kişilik artık **Konsolide et** periyodik işi için ayarlanmıştır. Bir içeri aktarma konsolidasyonu veya çevrimiçi konsolidasyon yapabilirsiniz.
 
 - İçeri aktarma konsolidasyonu yapmak için **Genel muhasebe \> Periyodik \> Konsolide et \> Konsolide et \[İçeri aktarma kaynağı\]**'na gidin.
-- Çevrimiçi konsolidasyon yapmak için **Genel muhasebe \> Periyodik \> Konsolide et \> Konsolidasyon \[\]Çevrimiçi**'ye gidin.
+- Çevrimiçi konsolidasyon yapmak için **Genel muhasebe \> Periyodik \> Konsolide et \> Konsolidasyon \[Çevrimiçi\]**'ye gidin.
 
 > [!NOTE]
 > Konsolidasyonu işlemeden önce, yan tüzel kişilikleri konsolidasyon için hazırlamanız gerekir. Daha fazla bilgi için bkz. [Konsolidasyon için bir bağlı tüzel kişilik ayarlama](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

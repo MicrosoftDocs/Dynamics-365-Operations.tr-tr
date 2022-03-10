@@ -2,11 +2,9 @@
 title: Dynamics 365 Commerce ve Microsoft Teams tümleştirmesini etkinleştirme
 description: Bu konu, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesinin nasıl etkinleştirileceğini açıklamaktadır.
 author: gvrmohanreddy
-manager: annbe
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 52b1a889a15cfe2e6e104e38b7d257f80762954f
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908407"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323442"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Dynamics 365 Commerce ve Microsoft Teams tümleştirmesini etkinleştirme
 
@@ -39,21 +37,29 @@ Microsoft Teams ve Commerce tümleştirmesini etkinleştirmeden önce, Teams uyg
 
 Teams uygulamasını kiracınızla Azure portalında kaydetmek için aşağıdaki adımları izleyin.
 
-1. Azure portalında kiracınız ile Teams uygulamasını kaydettirmek için [Hızlı Başlangıç: Microsoft Kimlik Platformunda bir uygulamayı kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) konusundaki adımları izleyin.
-1. Kayıtlı uygulama için **genel bakış** sayfasından **uygulama (istemci) Kimliği** değerini kopyalayın. Bu değeri Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için kullanacaksınız.
-1. Adım 1'de [bir sertifika eklediğinizde](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) girilen sertifika değerini kopyalayın. Sertifika, ortak anahtar veya uygulama anahtarı olarak da bilinir. Bu değeri Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için kullanacaksınız.
+1. Azure portalında kiracınız ile Teams uygulamasını kaydettirmek için [Hızlı Başlangıç: Microsoft Kimlik Platformunda bir uygulamayı kaydetme](/azure/active-directory/develop/quickstart-register-app) konusundaki adımları izleyin.
+1. **Uygulama Kaydı** sekmesinde, önceki adımda oluşturduğunuz uygulamayı seçin. Sonra, **Kimlik doğrulama** sekmesinde **Platform ekle**'yi seçin.
+1. İletişim kutusunda **Web**'i seçin. Sonra, **Yeniden yönlendirme URL'leri** alanında, **\<HQUrl\>/oauth** biçiminde bir URL girin. **\<HQUrl\>** öğesini Commerce Headquarters URL'niz (örneğin, `https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`) ile değiştirin.
+1. Kayıtlı uygulama için **Genel bakış** sayfasında **Uygulama (istemci) Kimliği** değerini kopyalayın. Sonraki aşamada, bu değeri Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için sağlamanız gerekecek.
+1. Bir istemci gizli anahtarı eklemek için [İstemci gizli anahtarı ekleme](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) konusundaki yönergeleri izleyin. Sonra, istemci için **Gizli anahtar değeri** değerini kopyalayın. Sonraki aşamada, bu değeri Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için sağlamanız gerekecek.
+1. **API izinleri**'ni ve ardından **İzin Ekle**'yi seçin.
+1. **API izinleri iste** iletişim kutusunda **Microsoft Graph**'ı seçin, **Temsilci izinleri**'ni seçin , **Grup**'u genişletin **Group.ReadWrite.All** öğesini ve ardından **İzin ekle**'yi seçin . 
+1. **API izinleri iste** iletişim kutusunda **Microsoft Graph**'ı seçmek için **İzin ekle**'yi, **Uygulama izinleri**'ni seçin, **Grup**'u genişletin, **Group.ReadWrite.All** öğesini ve **İzin ekle**'yi seçin.
+1. **API izinleri iste** iletişim kutusunda **İzin ekle**'yi seçin. **Kuruluşumun kullandığı API'lar** sekmesinde  **Microsoft Teams Retail Service**'i bulun ve seçin.
+1. **Temsilci izinleri**'ni seçin, **TaskPublishing** öğesini genişletin, **TaskPublising.ReadWrite.All** öğesini ve ardından **İzin ekle**'yi seçin, Daha fazla bilgi için bkz. [Web API'sına erişmek için istemci uygulaması yapılandırma](/azure/active-directory/develop/quickstart-configure-app-access-web-apis).
 
 Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için aşağıdaki adımları izleyin.
 
 1. **Retail ve Commerce \> Kanal kurulumu \> Microsoft Teams tümleştirme yapılandırması** na gidin.
 1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
 1. **Microsoft Teams tümleştirmesini etkinleştir** seçeneğini **Evet** olarak ayarlayın.
-1. **Uygulama kodu** ve **uygulama anahtarı** alanlarına, Azure portalında Teams uygulamasını kaydettirdiğinizde elde ettiğiniz değerleri girin.
+1. **Uygulama kodu** alanında, Azure portalında Teams uygulamasına kaydolurken aldığınız **Uygulama (istemci) kimliği** değerini girin.
+1. **Uygulama anahtarı** alanında, Azure portalında istemci gizli anahtarı eklerken aldığınız **Gizli anahtar değeri** değerini girin.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 Aşağıdaki çizimde, Commerce Headquarters'da Teams tümleştirmesi yapılandırmasının bir örneği gösterilmektedir.
 
-![Commerce Headquarters'da Teams tümleştirmesi yapılandırması](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)
+![Commerce Headquarters'da Teams tümleştirmesi yapılandırması.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)
 
 ## <a name="disable-teams-integration"></a>Teams tümleştirmesini devre dışı bırakma
 

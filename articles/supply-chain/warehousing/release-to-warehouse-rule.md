@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 77714d6bda27d8d29b10177dd87e61839295e47e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 2fbc292ccf8e1f459bef4d70b8c37b2da8c3dd17
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823275"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580036"
 ---
 # <a name="release-to-warehouse-rule"></a>Ambara serbest bırakma kuralı
 

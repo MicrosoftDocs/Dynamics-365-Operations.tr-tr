@@ -2,7 +2,6 @@
 title: Oluşturulan raporlarda Word içerik denetimlerini gizleme
 description: Bu konu, içerik denetimlerinin gizlendiği Microsoft Word dosyaları olarak raporlar oluşturmak üzere elektronik raporlama (ER) biçiminin nasıl yapılandırılacağını açıklamaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 81ad25514154dd8982aa4f849f0b2bfeb85270f7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562130"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323937"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Oluşturulan raporlarda Word içerik denetimlerini gizleme
 
 [!include [banner](../includes/banner.md)]
 
-Raporları Microsoft Word belgeleri olarak oluşturmak için, raporlar için Word belgesi şeklinde bir şablon tasarlamanız gerekir. Bu şablon, çalışma zamanında doldurulacak veriler için yer tutucu olarak Word içerik denetimleri içermelidir. Raporlarınız için şablon olarak oluşturulan Word belgesini kullanmak için yeni bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) [yapılandırabilirsiniz](er-design-configuration-word.md). Çözüm, ER [biçimi](general-electronic-reporting.md#FormatComponentOutbound) bileşeni içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) içermelidir. Bu ER biçimi, rapor oluşturma için tasarlanmış şablonu kullanacak şekilde yapılandırılmalıdır.
+Raporları Microsoft Word belgeleri olarak oluşturmak için, raporlar için Word belgesi şeklinde bir şablon tasarlamanız gerekir. Bu şablon, çalışma zamanında doldurulacak veriler için yer tutucu olarak Word içerik denetimleri içermelidir. Raporlarınız için şablon olarak oluşturulan Word belgesini kullanmak için yeni bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) [yapılandırabilirsiniz](er-design-configuration-word.md). Çözüm, ER biçimi bileşeni içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) içermelidir. Bu ER biçimi, rapor oluşturma için tasarlanmış şablonu kullanacak şekilde yapılandırılmalıdır.
 
 Dynamics 365 Finance sürüm 10.0.6 ve sonrasında, oluşturulan belgelerdeki bazı Word içerik denetimlerini gizlemek için ER biçiminizde formüller yapılandırabilirsiniz.
 
@@ -64,7 +63,7 @@ Ayrıca örnek rapor için aşağıdaki şablonu indirmeli ve kaydetmelisiniz:
     > [!NOTE]
     > Tekrarlanan içerik denetimi, eşlendiği özel XML parçasının alanıyla eşleşen **summarylines** anahtarı tarafından etiketlenir.
 
-    ![Word şablonu düzeni](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Word şablonu düzeni.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Mevcut ER rapor yapılandırmasını seçme
 
@@ -99,7 +98,7 @@ Aşağıdaki adımlarda, daha önce sözü edilen görev kılavuzlarındaki adı
 7. **Tamam**'ı seçin.
 8. **Elektronik rapor parametreleri** iletişim kutusunda **Tamam**'ı seçin ve oluşturulan çıktıyı analiz edin.
 
-    ![Satıcı ödemeleri sayfasındaki işlenecek ödemeler](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Satıcı ödemeleri sayfasındaki işlenecek ödemeler.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     Çıktı Word biçiminde sunulur ve Özet bölümünü içerir.
 
@@ -150,7 +149,7 @@ Oluşturulan bir belgede Özet bölümünü gizlemek istiyorsanız, bu ER biçim
 
 9. Düzenlenebilir biçime yaptığınız değişiklikleri kaydetmek için **Kaydet**'i seçin.
 
-    ![Word biçiminde oluşturulan çıktı](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Word biçiminde oluşturulan çıktı.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Word çıktısı oluşturmak için değiştirilen biçimi yürütme
 
@@ -164,7 +163,7 @@ Oluşturulan bir belgede Özet bölümünü gizlemek istiyorsanız, bu ER biçim
 8. **Elektronik rapor parametreleri** iletişim kutusunda **Özet bölümünü gizle** alanında **Evet**'i seçin.
 9. **Tamam**'ı seçin ve oluşturulan çıktıyı analiz edin.
 
-    ![Word biçiminde oluşturulan çıktı](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Word biçiminde oluşturulan çıktı.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Gizlenmiş olduğu için, çıktıda Özet bölümü bulunmadığına dikkat edin.
 

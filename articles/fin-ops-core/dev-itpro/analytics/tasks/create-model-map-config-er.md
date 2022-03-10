@@ -2,7 +2,6 @@
 title: Elektronik raporlama (ER) model eşleme yapılandırmaları oluşturma
 description: Yeni bir Elektronik raporlama (ER) modeli eşleme yapılandırması tasarlamak ve etkili toplam hesaplamalar için yerleşik ER işlevlerini kullanmak için bu yordamı kullanın.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c52f5d23f6c1cdad346a8a5e94535a4cba19057
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2da00af487e3d85edf2401e71678d7a9fc621a672e2ba477f3195f8a06d5419b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735562"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Elektronik raporlama (ER) model eşleme yapılandırmaları oluşturma
 

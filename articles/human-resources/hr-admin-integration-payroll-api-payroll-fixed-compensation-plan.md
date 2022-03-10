@@ -2,7 +2,7 @@
 title: Bordro sabit ücret planı
 description: Bu konu, Dynamics 365 Human Resources'taki Bordro sabit ücret planı varlığıyla ilgili ayrıntılı bilgi ve örnek bir sorgu sağlar.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24f8af4d691c3085c36018c574fa3b917a3d6953
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 14829f18fb5e3adde83e265cd6e70b60e1ff03ac
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314225"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069108"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Bordro sabit ücret planı
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,18 +37,27 @@ Fiziksel ad: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Özellikler
 
-| Özellik<br>**Fiziksel ad**<br>**_Türü_** | Kullan | Tanım |
+| Özellik</br>**Fiziksel ad**</br>**_Türü_** | Kullan | Tanım |
 | --- | --- | --- |
-| **Personel kodu**<br>mshr_fk_employee_id_value<br>*GUID* | Salt okunur<br>Gerekli<br>Yabancı anahtar: mshr_payrollemployeeentity entity için mshr_Employee_id  | Personel kodu |
-| **Ödeme oranı**<br>mshr_payrate<br>*Ondalık* | Salt okunur<br>Gerekli | Sabit ücret planında tanımlanan ödeme oranı. |
-| **Plan Kodu**<br>mshr_planid<br>*Dize* | Salt okunur<br>Gerekli |Ücret planını belirtir.  |
-| **Geçerlilik başlangıcı**<br>mshr_validfrom<br>*Tarih Saat Sapması* |  Salt okunur<br>Gerekli |Personel sabit ücretinin geçerlilik başlangıç tarihi.  |
-| **Bordro Sabit Ücret Planı varlığı**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Gerekli<br>Sistem tarafından oluşturulan | Ücret planını benzersiz olarak tanımlamak için sistem tarafından oluşturulan GUID değeri. |
-| **Ödeme sıklığı**<br>mshr_payfrequency<br>*Dize* | Salt okunur<br>Gerekli |Çalışana ödeme yapma sıklığı.  |
-| **Geçerlilik bitişi**<br>mshr_validto<br>*Tarih Saat Sapması* | Salt okunur <br>Gerekli | Personel sabit ücretinin geçerlilik bitiş tarihi. |
-| **Pozisyon kodu**<br>mshr_positionid<br>*Dize* | Salt okunur <br>Gerekli | Çalışan ve sabit ücret planı kaydı ile ilişkili pozisyon kimliği. |
-| **Para Birimi**<br>mshr_currency<br>*Dize* | Salt okunur <br>Gerekli |Sabit ücret planı için tanımlanan para birimi   |
-| **Personel numarası**<br>mshr_personnelnumber<br>*Dize* | Salt okunur<br>Gerekli |Çalışanın benzersiz personel numarası.  |
+| **Plan Kodu**</br>mshr_planid</br>*Dize* | Salt okunur | Ücret planını belirtir.  |
+| **Personel numarası**</br>mshr_personnelnumber</br>*Dize* | Salt okunur | Çalışanın benzersiz personel numarası. |
+| **Ödeme oranı**</br>mshr_payrate</br>*Ondalık* | Salt okunur | Sabit ücret planında tanımlanan ödeme oranı. |
+| **Pozisyon kodu**</br>mshr_positionid</br>*Dize* | Salt okunur | Çalışan ve sabit ücret planı kaydı ile ilişkili pozisyon kimliği. |
+| **Geçerlilik başlangıcı**</br>mshr_validfrom</br>*Tarih Saat Sapması* |  Salt okunur | Personel sabit ücretinin geçerlilik başlangıç tarihi.  |
+| **Geçerlilik bitişi**</br>mshr_validto</br>*Tarih Saat Sapması* | Salt okunur | Personel sabit ücretinin geçerlilik bitiş tarihi. |
+| **Ödeme sıklığı**</br>mshr_payfrequency</br>*Dize* | Salt okunur | Verilen ödeme oranı için [ücret ödeme sıklığı](hr-admin-integration-payroll-api-compensation-pay-frequency.md)'nın kimliği. |
+| **Para birimi**</br>mshr_currency</br>*Dize* | Salt okunur | Sabit ücret planı için tanımlanan para birimi. |
+| **Bordro Sabit Ücret Planı varlığı**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Sistem tarafından oluşturulan | Ücret planını benzersiz olarak tanımlamak için sistem tarafından oluşturulan GUID değeri. |
+
+## <a name="relations"></a>İlişkiler
+
+|Özellik değeri | İlgili varlık | Gezinti özelliği | Tahsilat türü |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Örnek sorgu
 

@@ -2,11 +2,9 @@
 title: Perakende mağazası, ürünlerin teslim alınacağı mağazalar listesinde görünmüyor
 description: Bu konu, ürünlerin teslim alınabileceği mağazalar listesinde bir perakende mağazası yer almadığında size yardımcı olabilecek sorun giderme kılavuzu sağlar.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 652f5f1a779a412c21c18814071ba0fb7dd2e155
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 6ccd60082b65fdbd47fef4a67ba269d7d7afc04679647d3eb8d2a5e9c21a19b0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762632"
 ---
 # <a name="retail-store-doesnt-appear-in-the-list-of-stores-to-pick-up-from"></a>Perakende mağazası, ürünlerin teslim alınacağı mağazalar listesinde görünmüyor
 
@@ -59,6 +57,6 @@ Commerce Headquarters'da karşılama gruplarını yapılandırmak için şu adı
 
 ## <a name="additional-resources"></a>Ek kaynaklar 
 
-[Faaliyet birimi oluşturma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit)
+[Faaliyet birimi oluşturma](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md)
 
 [Çevrimiçi kanalı ayarlama](../channel-setup-online.md)

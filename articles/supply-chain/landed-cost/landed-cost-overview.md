@@ -3,7 +3,7 @@ title: Varış yeri maliyeti modülü
 description: Varış yeri maliyeti modülü, kullanıcılara üreticiden ambara kadar ithal navlun üzerinde tam finansal ve lojistik kontrol sunarak işletmelerin gelen sevkiyat operasyonlarını kolaylaştırmasına yardımcı olur.
 author: sherry-zheng
 ms.date: 12/07/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -12,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ccc6f0100582b9703b9755b50b7e8504aa153d15
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022144"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983429"
 ---
 # <a name="landed-cost-module"></a>Varış yeri maliyeti modülü
 

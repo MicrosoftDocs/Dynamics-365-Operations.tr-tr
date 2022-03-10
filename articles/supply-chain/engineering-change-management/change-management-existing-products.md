@@ -2,40 +2,34 @@
 title: Mevcut ürünlerde değişiklik yönetimini etkinleştirme
 description: Bu konuda, var olan ürünler için değişiklik yönetimini nasıl etkinleştirebileceğiniz açıklanmaktadır. Ayrıca, değişiklik yönetimini etkinleştirme yeteneğinizin sınırlı olduğu durumları da açıklar.
 author: t-benebo
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 8b9f34f5980937da62610d9668a95816ba6054ef
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500874"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103625"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Mevcut ürünlerde değişiklik yönetimini etkinleştirme
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, var olan ürünler için değişiklik yönetimini nasıl etkinleştirebileceğiniz açıklanmaktadır. Ayrıca, değişiklik yönetimini etkinleştirme yeteneğinizin sınırlı olduğu durumları da açıklar.
 
 Var olan bir ürün için değişiklik yönetimini etkinleştirdiğinizde, bu ürünün sürümlerini oluşturabilir ve üründe yapılan değişiklikleri kullanım ömrü boyunca izleyebilirsiniz. Bu nedenle, değişiklik emirlerini kullanarak bu değişiklikleri izleyebilirsiniz. Değişiklik yönetimini etkinleştirmek için ilgili ürünleri *mühendislik öğelerine* (mühendislik ürünleri olarak da adlandırılır) dönüştürmeniz gerekir. Mühendislik ürünleri, değişiklik yönetimi yoluyla sürümü oluşturulan ve yönetilen ürünlerdir. Dönüştürme işleminde size yol gösterecek bir sihirbaz sağlanmıştır.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Sisteminizdeki özelliği etkinleştirme
+## <a name="turn-this-feature-on-or-off"></a>Bu özelliği açma veya kapatma
 
-Bu özelliği kullanmak için aşağıdaki görevleri tamamlamalısınız:
-
-1. Mühendislik değişikliği yönetimine genel bakış bölümünde açıklandığı gibi [Mühendislik değişikliği yönetimi](product-engineering-overview.md) özelliğini ve yapılandırma anahtarını etkinleştirin.
-1. Özellik yönetiminde *Mevcut ürünlerde değişiklik yönetimini etkinleştir* özelliğini açın. Daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Bu konuda açıklanan işlev, sisteminiz için hem *Mühendislik Değişiklik Yönetimi* hem de *Mevcut ürünlerde değişiklik yönetimini etkinleştir* özelliğinin açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Kısıtlamalar ve sınırlamalar
 
@@ -50,7 +44,9 @@ Bu nedenle, farklı bir ürününüz varsa bunu yalnızca hareketlerdeki ürün 
 
 Her mühendislik ürününe bir *mühendislik ürünü kategorisi* atanmalıdır. Bu atamayı **Mühendislik ürününe dönüştür** sihirbazını çalıştırdığınızda yaparsınız. Bu ürünleri dönüştürmeden *önce* ilgili tüm standart ürünler için mühendislik ürün kategorileri bulunmalıdır.
 
-Mühendislik ürünü kategorisi, bir mühendislik ürünü oluşturmak için temel oluşturur ve bir dizi varsayılan değer ve ilke oluşturur. Mühendislik ürünü kategorisi, atadığınız ürünle eşleşmelidir. Örneğin, ürün türü ve boyut grubu hem ürün hem de mühendislik ürünü kategorisiyle eşleşmelidir. Daha fazla bilgi için bkz. [Mühendislik sürümleri ve mühendislik ürünü kategorileri](engineering-versions-product-category.md).
+Mühendislik ürünü kategorisi, bir mühendislik ürünü oluşturmak için temel oluşturur ve bir dizi varsayılan değer ve ilke oluşturur. Mühendislik öznitelikleri ve bunların varsayılan değerleri (mühendislik kategorisi için tanımlandığı üzere) elde edilen mühendislik ürününe de uygulanır. Öznitelik değerlerini düzenleyebilir ve/veya gerektiğinde elde edilen ürüne daha fazla mühendislik özniteliği ekleyebilirsiniz.
+
+Mühendislik ürünü kategorisi, atadığınız ürünle eşleşmelidir. Örneğin, ürün türü ve boyut grubu hem ürün hem de mühendislik ürünü kategorisiyle eşleşmelidir. Daha fazla bilgi için bkz. [Mühendislik sürümleri ve mühendislik ürünü kategorileri](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > **Mühendislik ürününe dönüştür** sihirbazı, ürünü yalnızca sürümün hareketlerde izlenmediği mühendislik ürünlerine dönüştürebilir. Bu nedenle, var olan ürünleri dönüştürmek için oluşturduğunuz mühendislik ürünü kategorileri için **Hareketlerdeki sürümü izle** seçeneğini *Hayır* olarak ayarlanmalıdır.

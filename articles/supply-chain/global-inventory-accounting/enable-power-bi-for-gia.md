@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e86294b8b467367d954013764a029f7b20270b95
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860679"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8013846"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Global Stok Muhasebesi için Power BI'yı etkinleştirme
 
@@ -51,8 +51,9 @@ Power BI tümleştirmesini ayarlamak için aşağıdaki adımları izleyin.
 
     1. **Çalışma alanım**'a gidin, Global Stok Muhasebesi veri kümesini bulun ve **Seçenekler** menüsünde **Ayarlar**'ı seçin.
     1. **Global stok muhasebesi ayarları**'nda **Parametreler**'i genişletin ve tüm parametreleri gerektiği gibi güncelleştirin. Özellikle, aşağıdaki ayarları kontrol edin:
-        1. LCS içindeki **ortam ayrıntıları** sayfasında bulunan değerleri kullanarak varsayılan **Dataverse URL**'nin ve **ortam kimliği** değerlerinin üzerine yazın ( **Power Platform tümleştirme** bölümünde).
-        1. **Veri kaynağı kimlik bilgileri** bölümündeki **CD'lerin** etiketinin yanında **Kimlik bilgilerini düzenle** bağlantısını seçin. Daha sonra **OAuth2** kimlik doğrulama yöntemini kullanarak Dataverse hesabınızda oturum açın.
+        1. LCS içindeki **Power platform ortam bilgileri** sayfasında bulunan değerleri kullanarak varsayılan **Dataverse URL'nin** ve ortam kimliği değerlerinin üzerine yazın (**Power platform tümleştirme** bölümünde).
+        1. LCS içindeki **Ortam ayrıntıları** sayfasında bulunan değerleri kullanarak varsayılan **Ortam Kimliğinin** ve ortam kimliği değerlerinin üzerine yazın (**Ortamı yönet** bölümünde).
+        1. **Veri kaynağı kimlik bilgileri** bölümündeki **CDS** etiketinin yanında **Kimlik bilgilerini düzenle** bağlantısını seçin. Daha sonra **OAuth2** kimlik doğrulama yöntemini kullanarak Dataverse hesabınızda oturum açın.
     1. **Çalışma alanım \> Raporlar \> Global Stok Muhasebesi**'ndeki Power BI raporlarının şimdi düzgün çalışıyor olduğunu doğrulayın ve içeriği sisteminizden görüntüleyin.
 
 1. Uygulamayı, [PowerBI.com tümleştirmesini yapılandırma](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process) bölümünde açıklandığı gibi kaydedin.

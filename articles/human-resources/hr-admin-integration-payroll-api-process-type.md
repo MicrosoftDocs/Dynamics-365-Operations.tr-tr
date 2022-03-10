@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2031fcedc978a198a244908951679d6f70e9cb90
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 7af08e2d21bc1d806a62065e6c527b2f2de28c18
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314510"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069744"
 ---
 # <a name="process-type"></a>İşlem türü
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,7 +33,7 @@ Bu konu, Dynamics 365 Human Resources için Hayır Evet seçeneği kümesini aç
 
 Fiziksel ad: mshr_hrmCompProcessType
 
-Bu numaralandırma Human Resources sanal varlıklarındaki tipik işlem türü için seçenek kümesi sağlar.
+Bu numaralandırma, Human Resources sanal varlıklarında işlem türü için seçenek kümesi sağlar.
 
 | Değer | Etiket | Tanım |
 | --- | --- | --- |

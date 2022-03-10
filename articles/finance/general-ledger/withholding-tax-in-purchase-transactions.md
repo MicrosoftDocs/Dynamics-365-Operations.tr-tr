@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a1d1ddf108e5e79ca7684ecc26df1c016a0362bbec43868c7dfed6970a097a76
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731440"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Satın alma hareketlerinde stopaj vergisi
 
@@ -64,15 +64,15 @@ Stopaj vergisi grupları ve Madde stopaj vergisi grupları şu sayfalarda atanab
 
 Geçici stopaj vergisi tutarı, **Satın alma siparişi** sayfasındaki **Toplamlar** sekmesinin **Ayarlanmış stopaj vergisi** alanında bulunur.
 
-![Stopaj vergisi satın alma siparişine dahildir](media/withholding-tax-adjusted.png)
+![Stopaj vergisi satın alma siparişine dahildir.](media/withholding-tax-adjusted.png)
 
 Stopaj vergisi, **Satıcı ödeme günlüğünde** hesaplanır. İlgili stopaj vergisi kodlarını ve gerçek stopaj vergisi tutarlarını, **Hareketleri kapat** sayfasındaki **Stopaj vergisi** sekmesinde el ile ayarlayabilirsiniz.
 
-![Stopaj, Hareketleri kapat sayfasında el ile ayarlanabilir](media/withholding-tax-vendor-payment-tab.png)
+![Stopaj, Hareketleri kapat sayfasında el ile ayarlanabilir.](media/withholding-tax-vendor-payment-tab.png)
 
 Türetilen stopaj vergisi tutarı satıcı ödemesinden düşülür ve ilgili bir fişteki **Stopaj vergisi hesabına** nakledilir.
 
-![İlgili fişi gösteren stopaj vergisi hesabı](media/withholding-tax-adjusted.png)
+![İlgili fişi gösteren stopaj vergisi hesabı.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Satıcı işbirliği mobil çalışma alanı
 description: Bu konu, Satıcı işbirliği mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
-author: kamaybac
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: dabourq
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 21187bbc287c66ca1aee259089b2bebbabb72fdaa459b77359c8c5555b6cd801
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727858"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577036"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Satıcı işbirliği mobil çalışma alanı
 

@@ -1,32 +1,30 @@
 ---
 title: Sabit kıymet deftere nakil profilleri ayarlama
-description: Bu görev kılavuzunda Sabit kıymet deftere nakil profilleri ayarlanacak.
-author: saraschi2
-manager: AnnBe
+description: Bu yordamda, sabit kıymet deftere nakil profillerinin nasıl ayarlanacağı gösterilmiştir.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8671d38098542afbd8d00e30e72de8dbd1fc4abb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994827"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883780"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Sabit kıymet deftere nakil profilleri ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu görev kılavuzunda Sabit kıymet deftere nakil profilleri ayarlanacak.  Kılavuzda Muhasebeci rolü ve USMF adlı tüzel kişilik için demo verileri kullanılmaktadır.  Özel hesap planınız ve mali raporlama gereksinimleriniz için deftere nakil profilleri oluşturulması gerekmesine karşın, bu görev kılavuzunda verilen örnekler temel bir deftere nakil profiline aittir.
+Bu yordamda, sabit kıymet deftere nakil profillerinin nasıl ayarlanacağı gösterilmiştir. Özel hesap planınız ve mali raporlama gereksinimleriniz için deftere nakil profilleri oluşturulması gerekmesine karşın, bu konuda verilen örnekler temel bir deftere nakil profiline aittir.
 
 1. Gezinti bölmesinde **Modüller > Sabit kıymetler > Kurulum > Sabit kıymet deftere nakil profilleri**'ne gidin.
 2. **Yeni**'ye tıklayın.
@@ -122,3 +120,6 @@ Bu görev kılavuzunda Sabit kıymet deftere nakil profilleri ayarlanacak.  Kıl
 88. **Ana hesap** alanında istediğiniz değerleri belirtin.
 89. **Mahsup hesap** alanında istediğiniz değerleri belirtin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

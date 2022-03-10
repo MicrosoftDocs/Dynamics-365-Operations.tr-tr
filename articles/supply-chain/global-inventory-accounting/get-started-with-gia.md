@@ -6,21 +6,23 @@ ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 59f9db309312bbbc88b4fa47c12c4c02f09e7c6d
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301710"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860521"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Stok Muhasebesi kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Global Stok Muhasebesi, ayarlamış olduğunuz Global Stok Muhasebesi defterlerinde çoklu stok muhasebesi yapmanıza olanak tanır. Her bir Global Stok Muhasebesi genel defterini bir *kural* ile ilişkilendirmeniz gerekir. Kural, aşağıdaki muhasebe ilkesi türlerinin bir koleksiyondur:
 
@@ -41,7 +43,7 @@ Global Stok Muhasebesi, Supply Chain Management'ta yerleşik olan tüm maliyet y
 > [!IMPORTANT]
 > Global Stok Muhasebesi kullanmak için, LCS etkin bir yüksek kullanılabilirlik ortamına sahip olmanız (OneBox ortamı değil) gerekir. Ek olarak, Supply Chain Management sürüm 10.0.19 veya üstünü çalıştırıyor olmalısınız.
 
-Global Stok Muhasebesi genel önizlemesine kaydolmak için, LCS ortam kimliğinizi e-posta ile [Global Stok Muhasebesi ekibine gönderin](mailto:GlobalInventoryAccounting@service.microsoft.com). Program için onaylandıktan sonra, takım Global Stok Muhasebesi Beta anahtarı ve servis uç noktalarınızı içeren bir takip e-postası gönderir. Beta anahtarını aldıktan sonra [eklentiyi yükleyebilirsiniz](#install).
+Global Stok Muhasebesi genel önizlemesine kaydolmak için, LCS ortam kimliğinizi e-posta ile [Global Stok Muhasebesi ekibine gönderin](mailto:GlobalInvAccount@microsoft.com). Program için onaylandıktan sonra, takım Global Stok Muhasebesi Beta anahtarı ve servis uç noktalarınızı içeren bir takip e-postası gönderir. Beta anahtarını aldıktan sonra [eklentiyi yükleyebilirsiniz](#install).
 
 ## <a name="licensing"></a>Lisans
 
@@ -59,9 +61,9 @@ Eklenti işlevselliğini etkinleştirebilmek için, aşağıdaki adımları izle
 1. **Power Platform ortam kurulumu** iletişim kutusunda, onay kutusunu seçin ve sonra **Kurulum**'u seçin. Kurulum genellikle 60 ila 90 dakika arasında sürer.
 1. Microsoft Power Platform ortam kurulumu tamamlandıktan sonra, sayfa ortamınızın adını gösterir. Ayrıca, **Power Platform Tümleştirmesi** vbölümünde "Power Platform ortam kurulumu tamamlandı" ifadesi gösterilir. Global Stok Muhasebesi, çift yazma uygulaması gerektirmez.
 
-Daha fazla bilgi için bkz. [Ortam dağıtımından sonra ayarlama](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+Daha fazla bilgi için bkz. [Ortam dağıtımından sonra etkinleştirme](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Dataverse Kurma
+### <a name="set-up-dataverse"></a>Dataverse matrisini ayarla
 
 Dataverse kurulumundan önce, aşağıdaki adımları izleyerek Global Stok Muhasebesi ilkelerini kiracınıza ekleyin.
 

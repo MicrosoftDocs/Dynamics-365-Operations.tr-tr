@@ -5,7 +5,6 @@ author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, WHSParameters, whswavetablecreatenew, WHSWaveTable, WHSWaveAttributes, WHSKanbanWaveTable, WHSWaveTableListPage, WHSKanbanWaveTableListPage, WHSProdWaveTable
 audience: Application User
@@ -14,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 36e1bd7f88a27b2da0672bf9d9ecb1e217fc44d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813663"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103525"
 ---
 # <a name="wave-creation-and-processing"></a>Dalga oluşturma ve işleme
 
@@ -43,7 +42,7 @@ Satış siparişleri ve kanban siparişleri için, sipariş için ambarda serbes
 
 Aşağıdaki diyagramda, Sevkiyat dalgaları oluşturma, işleme ve serbest bırakma akışı gösterilmektedir. Sayılar, bu bölümün ilerleyen bölümlerine karşılık gelir.
 
-![Dalga oluşturma işlemi](media/wave-processing-diagram.png "Dalga oluşturma işlemi")
+![Dalga oluşturma işlemi.](media/wave-processing-diagram.png "Dalga oluşturma işlemi")
 
 ### <a name="prerequisites"></a>Önkoşullar
 
@@ -159,7 +158,7 @@ Bir dalga işlendiğinde otomatik kapsayıcı hale getirme işlemi, kapsayıcıl
 
 Aşağıdaki akış çizelgesi, dalga işleme sırasında planlanan işin nasıl oluşturulduğunu gösterir.
 
-![İş oluşturmayı planla](media/schedule-work-creation-process.png)
+![Planlama işi oluşturma.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Planlı iş
 
@@ -191,9 +190,9 @@ Gerekirse, işlenmiş bir dalgayı iptal edebilirsiniz. Oluşturulan bir dalga v
 
 Bir dalgaya ilişkin toplu işleri ve ilgili görevleri denetlemek için **dalga toplu iş ayrıntıları** sayfasını kullanın. Bu, özellikle başarısız olan bir dalgadaki sorunu gidermek için kullanışlıdır. Bu özellik olmadan, yalnızca Yöneticiler toplu iş ayrıntılarına erişebilir. **Dalga toplu iş ayrıntıları** sayfası yönetici olmayan kullanıcılar tarafından kullanılabilir hale getirilebilir ve toplu işlerin ve ilgili görevlerin salt okunur bir görünümünü sağlar.
 
-### <a name="enable-the-wave-batch-job-details-page"></a>Dalga toplu iş ayrıntıları sayfasını etkinleştirme
+### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Dalga toplu iş ayrıntıları sayfasını açma veya kapatma
 
-Sisteminizde **Dalga toplu iş ayrıntıları** sayfası yoksa, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *dalga toplu iş ayrıntıları* özelliğini açın.
+Supply Chain Management sürüm 10.0.25 itibarıyla **Dalga toplu iş ayrıntıları** özelliği varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Dalga toplu iş ayrıntıları* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Dalga toplu iş ayrıntıları sayfasını kullanma
 

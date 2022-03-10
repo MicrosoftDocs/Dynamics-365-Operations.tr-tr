@@ -2,7 +2,6 @@
 title: Görev kayıtları için güvenlik tanılaması
 description: Bu konu, bir görev kaydı temel alınarak güvenlik izni gereksinimlerinin nasıl analiz edileceği ve yönetileceği hakkında bilgi sağlar.
 author: Peakerbl
-manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 99f9da527e818892eb3f46aceca3cc4588b99e81
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745132"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Görev kayıtları için güvenlik tanılaması
 
@@ -40,7 +39,7 @@ Bu konu, bir görev kaydı temel alınarak güvenlik izni gereksinimlerinin nas�
 
 4. **Kullanıcı kimliği** alanında bir kullanıcı seçin. Kullanıcının bazı menü öğeleri için izni yoksa, **Eksik izinler** alanı **Evet** olarak güncelleştirilir.
   
-  ![Güvenlik menü öğesi ayrıntıları sayfası](../media/Security-Menu-Item-Details.png)
+  ![Güvenlik menü öğesi ayrıntıları sayfası.](../media/Security-Menu-Item-Details.png)
 
 5. Eksik izni veren roller, görevler ve ayrıcalıklar gibi güvenlik nesnelerinin listesini görmek için **Referans ekle**'yi seçin.
 6. Listeden bir güvenlik nesnesi seçin:

@@ -2,7 +2,7 @@
 title: ER uygulamasına özgü parametreleri kullanmak için Arama veri kaynaklarını yapılandırma
 description: Bu konu, Elektronik raporlama (ER) biçimlerindeki Arama veri kaynaklarını ER uygulamasına özgü parametreleri kullanacak şekilde nasıl yapılandıracağınızı açıklar.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 131d14f1f1aa329bd71b1f8a4015192736bd8e44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022587"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343441"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>ER uygulamasına özgü parametreleri kullanmak için Arama veri kaynaklarını yapılandırma 
 
@@ -44,38 +44,38 @@ Yapılandırılmış herhangi bir kural tarafından döndürülen değerin tür�
 
 Aşağıdaki şekilde, bir biçim numaralandırmasının örnek ER biçiminde nasıl yapılandırılabileceği gösterilmektedir.
 
-   ![Yapılandırılan arama veri kaynağı için temel olarak bir biçim numaralandırması gösteriliyor](./media/er-lookup-data-sources-img1.gif)
+   ![Yapılandırılan arama veri kaynağı için temel olarak bir biçim numaralandırması gösterme.](./media/er-lookup-data-sources-img1.gif)
 
 Aşağıdaki şekil, oluşturulmuş bir raporun farklı bir bölümünde farklı türde vergiler bildirmek için yapılandırılan biçim bileşenlerini gösterir.
 
-   ![Farklı vergi türlerini ayrı olarak raporlamak için kullanılan biçim bölümleri gösteriliyor](./media/er-lookup-data-sources-img2.png)
+   ![Farklı vergi türlerini ayrı olarak raporlamak için kullanılan biçim bölümleri gösterme.](./media/er-lookup-data-sources-img2.png)
 
 Aşağıdaki şekil, ER İşlemleri tasarımcısının **Biçim numaralandırması\Arama** türündeki veri kaynağının eklenmesine nasıl olanak tanıdığını gösterir.  Eklenen veri kaynağı, `List of taxation levels` biçim numaralandırmasının döndürülen değeri olarak yapılandırılır.
 
-   ![Biçim numaralandırması\Arama türünde bir ER veri kaynağı ekleme](./media/er-lookup-data-sources-img3.gif)
+   ![Biçim numaralandırması\Arama türünde bir ER veri kaynağı ekleme.](./media/er-lookup-data-sources-img3.gif)
 
 Aşağıdaki şekil, eklenen veri kaynağının **Model** veri kaynağının **Model.Data.Tax** kayıt listesinin **Kod** alanını her yapılandırılan kuralda belirtilmesi gereken bir parametre olarak kullanmak üzere nasıl yapılandırıldığını göstermektedir.
 
-![Biçim numaralandırması\Arama türündeki eklenen veri kaynağının parametrelerini yapılandırma](./media/er-lookup-data-sources-img4.gif)
+![Biçim numaralandırması\Arama türündeki eklenen veri kaynağının parametrelerini yapılandırma.](./media/er-lookup-data-sources-img4.gif)
 
 Eklenen `Model.Data.Tax` veri kaynağı, **TaxTable** uygulama tablosunun kayıtlarına erişerek, yapılandırılan her kural için bir vergi kodu belirtmek üzere yapılandırılmıştır.
 
-   ![Biçim numaralandırması\Arama türündeki tek şirket arama veri kaynağını gözden geçirme](./media/er-lookup-data-sources-img5.gif)
+   ![Biçim numaralandırması\Arama türündeki tek şirket arama veri kaynağını gözden geçirme.](./media/er-lookup-data-sources-img5.gif)
 
 Seçilen ER biçiminin arama kurallarını, yapılandırılan veri kaynağının yapısı ile otomatik olarak uyumlu hale gelen kullanıcı arabirimini kullanarak ayarlayabilirsiniz. Şu anda, bu kullanıcı arabirimi her kural için döndürülen değeri `List of taxation levels` biçim numaralandırma değeri ve parametre olarak da vergi kodu belirtmenizi gerektirir.
 
-   ![Yapılandırılan veri kaynağı için kuralları ayarlama](./media/er-lookup-data-sources-img6.gif)
+   ![Yapılandırılan veri kaynağı için kuralları ayarlama.](./media/er-lookup-data-sources-img6.gif)
 
 Aşağıdaki şekil, **Hesaplanan alan** türündeki `Model.Data.Summary.LevelByLookup` veri kaynağının gerekli parametreleri sağlayan yapılandırılmış **Arama** veri kaynağını çağırmak üzere nasıl yapılandırılabileceği gösterilmiştir. Bu çağrıyı çalışma zamanında işlemek için ER, sağlanan koşulları sağlayan ilk kuralı bulmak üzere tanımlanan dizideki yapılandırılan kurallar listesinden geçer. Bu örnekte, sağlanan vergi koduyla eşleşen kodu içeren kural verilmektedir. Sonuç olarak, en uygun kural bulunur ve bulunan kural için yapılandırılan numaralandırma değeri bu veri kaynağı tarafından döndürülür.
 
 > [!NOTE]
-> Uygulanabilir bir kural bulunamazsa özel durum oluşur. Bu özel durumların oluşmasını önlemek için, yapılandırılmamış bir değer olduğunda veya değer olmadığında durumları işlemek üzere kurallar listesinin sonunda ek kurallar oluşturun. **\*Boş değil\*** ve **\*Boş\*** seçeneklerini uygun şekilde kullanın.  
+> Uygulanabilir bir kural bulunamazsa özel durum oluşur. Bu özel durumların oluşmasını önlemek için, yapılandırılmamış bir değer olduğunda veya değer olmadığında durumları işlemek üzere kurallar listesinin sonunda ek kurallar oluşturun. **\*Boş değil**\* ve **\*Boş**\* seçeneklerini uygun şekilde kullanın.  
 >
-> ![Yapılandırılan Arama veri kaynağını çağırmak için bir veri kaynağı ekleme](./media/er-lookup-data-sources-img7.png)
+> ![Yapılandırılan Arama veri kaynağını çağırmak için bir veri kaynağı ekleme.](./media/er-lookup-data-sources-img7.png)
 
 Düzenlenebilir arama veri kaynağı için **Şirketler arası** seçeneğini **Evet** olarak ayarlarken bu veri kaynağının parametre kümesine yeni bir gerekli **Şirket** parametresi eklersiniz. Arama veri kaynağı çağrıldığında, çalıştırma zamanında **Şirket** parametresinin değeri belirtilmelidir. Şirket kodu çalıştırma zamanında belirtildiğinde, bu şirket için yapılandırılan kurallar en uygun kuralı bulmak için kullanılır ve ilgili değer döndürülür. Aşağıdaki şekilde bunu nasıl yapabileceğiniz ve düzenlenebilir veri kaynağının parametre kümesinin nasıl değiştirileceği gösterilmektedir.
 
-   ![Biçim numaralandırması\Arama türündeki şirketler arası arama veri kaynağını gözden geçirme](./media/er-lookup-data-sources-img8.gif)
+   ![Biçim numaralandırması\Arama türündeki şirketler arası arama veri kaynağını gözden geçirme.](./media/er-lookup-data-sources-img8.gif)
 
 > [!NOTE]
 > Düzenlenebilir ER biçiminin bu arama veri kaynağı için kural kümesini yapılandırmak üzere her şirketi ayrı olarak seçin. Şirketler arası arama, arama ayarının tamamlanmadığı şirketin koduyla çağrıldığında, çalışma zamanında bir özel durum oluşur.
@@ -84,7 +84,7 @@ Düzenlenebilir arama veri kaynağı için **Şirketler arası** seçeneğini **
 
 Sürüm 10.0.19'dan başlayarak, **Arama** veri kaynaklarının genişletilmiş özellikleri kullanılabilir. Düzenlenebilir arama veri kaynağı için **Genişletilmiş** seçeneğini **Evet** olarak ayarladığınızda, yapılandırılan arama veri kaynağı yapılandırılmış kurallar kümesini çözümlemek için ek yetenekler sunan yapılandırılmış veri kaynağına dönüştürülür. Aşağıdaki şekilde bu dönüşüm gösterilmiştir.
 
-   ![Biçim numaralandırması\Arama türündeki yapılandırılmış arama veri kaynağını gözden geçirme](./media/er-lookup-data-sources-img9.gif)
+   ![Biçim numaralandırması\Arama türündeki yapılandırılmış arama veri kaynağını gözden geçirme.](./media/er-lookup-data-sources-img9.gif)
 
 - **Arama** alt öğesi, sağlanan parametreler kümesini temel alan yapılandırılabilir kurallar kümesinden en uygun kuralı bulmak için bir işlev olarak tasarlanmıştır.
 - **IsLookupResultSet** alt öğesi, temel numaralandırma veri kaynağının sağlanan değerini kabul eden bir işlev olarak tasarlanmıştır ve kural kümesi sağlanan numaralandırma değerinin döndürülen değer olarak yapılandırıldığı en az bir kural içerdiğinde **True** *Boole* değerini döndürür. Sağlanan numaralandırma değerini döndürmek üzere yapılandırılmış kural olmadığında bu işlev **False** *Boole* değerini döndürür.

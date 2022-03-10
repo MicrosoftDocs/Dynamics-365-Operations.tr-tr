@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ff7d689129a4015b6085685f4b19ae61bdd549d2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795153"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066405"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Human Resouces ile servise alma için hazırlanma
 
@@ -29,11 +28,14 @@ ms.locfileid: "5795153"
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak bir Dynamics 365 Human Resources projesiyle servise almaya nasıl hazırlanılacağını açıklamaktadır. 
 
 Bu grafik, servise alma sürecinin aşamalarını gösterir. 
 
-![Servise alma süreci](./media/hr-admin-go-live-prepare-process.png)
+![Servise alma süreci.](./media/hr-admin-go-live-prepare-process.png)
 
 Aşağıdaki tabloda, süreçteki tüm adımlar, beklenen süre ve eylemden sorumlu olan kişiler listelenmiştir.
 
@@ -43,7 +45,7 @@ Aşağıdaki tabloda, süreçteki tüm adımlar, beklenen süre ve eylemden soru
 | 2 | Denetim listesini tamamlama ve gönderme | Kullanıcı kabul sınamaları (UAT) tamamlandıktan sonra | İş ortağı/müşteri | [FastTrack servise alma değerlendirmesinde](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment) sağlanan yönergeleri izleyin. |
 | 3 | Proje değerlendirmesi (FastTrack) | FastTrack mimarı* | Mimar denetim listesi alındıktan sonra değerlendirmesini sunar ve sorular netleşinceye ve varsa risk azaltıcı etkenler uygulanıncaya kadar inceleme işlemine devam eder. |
 | 4 | Proje Atölyesi (FastTrack) | FastTrack mimarı* | |
-| 5 | Veri paketini içe aktarma | Projeye bağlıdır | İş ortağı/müşteri | [Veri yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages) yönergelerini izleyin.|
+| 5 | Veri paketini içe aktarma | Projeye bağlıdır | İş ortağı/müşteri | [Veri yönetimine genel bakış](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) yönergelerini izleyin.|
 | 6 | Üretime hazır | Önceki adımların tümü tamamlandıktan sonra | İş ortağı/müşteri | İş ortağı/müşteri, üretim ortamının kontrolünü alabilir.|
 | 7 | Kesin bitiş faaliyetleri | Projeye bağlıdır | İş ortağı/müşteri | |
 | 8 | Servise alma | Projeye bağlıdır | Müşteri | |
@@ -66,7 +68,7 @@ UAT aşamasında uyguladığınız tüm iş süreçlerini ve yaptığınız tüm
 
 - UAT işleminizin, GOLD yapılandırmanızdaki verilerin UAT işlemi başlamadan önce ortama kopyalandığı temiz ve yeni bir ortamla başlatılmasını öneririz. Yayınlanana ve ortam üretime dönüştürülene kadar üretim ortamını GOLD ortamınız olarak kullanmanızı öneririz.
 - Test çalışmaları, tüm gereksinim kapsamını kapsamalıdır. 
-- Taşınan verileri kullanarak test edin. Bu veriler çalışanlar, işler ve pozisyonlar gibi ana verileri içermelidir. Ayrıca, izin ve devamsızlık tahakkukları gibi açılış bakiyelerini de dahil edin. Son olarak, geçerli kazançlar kayıtları gibi açık işlemleri dahil edin. Veri kümesi son halinde olmasa bile, tüm veri türleriyle sınamayı tamamlayın. 
+- Taşınan verileri kullanarak test edin. Çalışanlar, işler ve pozisyonlar gibi verileri içermelidir. Ayrıca, izin ve devamsızlık tahakkukları gibi açılış bakiyelerini de dahil edin. Son olarak, geçerli kazançlar kayıtları gibi açık işlemleri dahil edin. Veri kümesi son halinde olmasa bile, tüm veri türleriyle sınamayı tamamlayın. 
 - Kullanıcılara atanan doğru güvenlik rollerini (varsayılan roller ve özel roller) kullanarak test edin. 
 - Çözümün şirket ve sektörlere özgü düzenleme gereksinimleriyle uyumlu olduğundan emin olun. 
 - Tüm özellikleri belgeleyin ve müşterinin onayını alın. 
@@ -86,7 +88,7 @@ Yayınlama işleminden önce, eski sistemlerinizden yeni sisteme geçiş için g
 
 ## <a name="fasttrack-go-live-assessment"></a>FastTrack servise alma değerlendirmesi
 
-FastTrack için uygun olan ve bir FastTrack çözümü mimarı ile çalışan müşteriler Microsoft FastTrack ile servise alma incelemesi tamamlayacaktır. Daha fazla bilgi için bkz.  [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+FastTrack için uygun olan ve bir FastTrack çözümü mimarı ile çalışan müşteriler Microsoft FastTrack ile servise alma incelemesi tamamlayacaktır. Daha fazla bilgi için bkz.  [Microsoft FastTrack](/dynamics365/fasttrack/). 
 
 Servise almadan yaklaşık sekiz hafta önce, FastTrack ekibi, bir [servise alma denetim listesi](https://go.microsoft.com/fwlink/?linkid=2146013) doldurmanızı isteyecektir.
 

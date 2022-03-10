@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f1fccd10d8867252f32b37c77f9a3bad54157bdd
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 8aae45beeef1934760d620874897f46a1cf901995e2b83e148a1d56898d9c717
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735956"
 ---
 # <a name="you-cant-confirm-a-shipment-because-of-an-issue-with-the-calendar"></a>Takvimdeki bir sorun nedeniyle sevkiyatı onaylayamıyorsunuz
 

@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d52ff69cfd7a81eb9f19a0ef498c6ceeea77b360
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782368"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062787"
 ---
 # <a name="note-integration"></a>Not tümleştirmesi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 İş süreçleri sırasında, Microsoft Dynamics 365 kullanıcıları genellikle müşterileri hakkında bilgi toplar. Bu bilgiler aktiviteler ve notlar olarak kaydedilir. Bu konu çift yazmada not verisinin tümleştirmesini açıklar.
 
@@ -30,7 +30,7 @@ Müşteri bilgileri aşağıdaki yollarla sınıflandırılabilir:
 + **Bir Dynamics 365 kullanıcısı için eyleme dönüştürülebilen bilgiler**: Örneğin, bir Surface birimi satın alan bir müşteri, cihazın teslim edilmeden önce hediye paketi yapılmasını belirten özel talimatlar giriyor. Bu talimatlar paketlemeden sorumlu olan Contoso çalışanı tarafından işlenmesi gereken, eyleme dönüştürülebilen bilgilerdir.
 + **Eyleme dönüştürülemeyen bilgiler**: Örneğin, bir müşteri Contoso mağazasını ziyaret eder ve mağaza görevlisiyle konuşmaları sırasında *Halo* oyunları ve oyun aksesuarlarıyla ilgilendiğini ifade eder. Mağaza görevlisi bu bilgiyi not eder. Daha sonra, ürün öneri altyapısı bunu müşteriye önerilerde bulunmak için kullanır.
 
-Genel olarak, eyleme dönüştürülebilen bilgiler, Finance and Operations uygulamalardaki ve customer engagement uygulamalarında *etkinlikler* olarak kaydedilir. Eyleme dönüştürülemeyen bilgiler, Finance and Operations uygulamalarda *notlar* ve customer engagement uygulamalarında *ek açıklamalar* olarak kaydedilir.
+Genel olarak, eyleme dönüştürülebilen bilgiler, Finans ve Operasyon uygulamaları ve müşteri etkileşimi uygulamalarında *etkinlikler* olarak kaydedilir. Eyleme dönüştürülemeyen bilgiler, Finans ve Operasyon uygulamalarında *notlar* ve müşteri etkileşimi uygulamalarında *ek açıklamalar* olarak kaydedilir.
 
 > [!TIP]
 > Notlar, eyleme dönüştürülemeyen bilgiler için düşünülse de, uygulamalar bu notları bu şekilde kullanmak isterseniz bunları kaydedip eyleme dönüştürülebilir bilgi olarak kullanmanızı engellemez.
@@ -39,7 +39,7 @@ Microsoft, şu anda not tümleştirme işlevini yayımlamaktadır. (Faaliyet ent
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Customer engagement uygulamasında bir not oluşturma
 
-Bir customer engagement uygulamasında bir not oluşturmak ve sonra bir Finance and Operations uygulamasıyla eşitlemek için aşağıdaki adımları izleyin.
+Bir müşteri etkileşimi uygulamasında bir not oluşturmak ve sonra bir Finans ve Operasyon uygulamasıyla eşitlemek için aşağıdaki adımları izleyin.
 
 1. Customer engagement uygulamasında bir müşteri için hesap kaydı açın.
 2. **Zaman çizelgesi** bölmesinde artı işaretini (**+**) seçin ve sonra Not oluşturmak için **Not**'u seçin.
@@ -54,7 +54,7 @@ Bir customer engagement uygulamasında bir not oluşturmak ve sonra bir Finance 
 
     ![Müşteri zaman çizelgesindeki yeni Not.](media/notes-ce-3.png)
 
-4. Finance and Operations uygulamasında oturum açın ve aynı müşteri kaydını açın. Sağ üst köşedeki **ekler** düğmesi (ataş simgesi) kaydın bir eki olduğunu belirtir.
+4. Finans ve Operasyon uygulamasında oturum açın ve aynı müşteri kaydını açın. Sağ üst köşedeki **ekler** düğmesi (ataş simgesi) kaydın bir eki olduğunu belirtir.
 
     ![Ek hakkında bildirim.](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Bir customer engagement uygulamasında bir not oluşturmak ve sonra bir Finance 
 
     ![Customer Engagement uygulamasındaki not.](media/notes-ce-5.png)
 
-Notta yapılan güncelleştirmeler, Finance and Operations uygulaması ve customer engagement uygulaması arasında eşitlenir.
+Notta yapılan güncelleştirmeler, Finans ve Operasyon uygulaması ve müşteri etkileşimi uygulaması arasında eşitlenir.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Finance and Operations uygulamasında bir not oluşturma
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Finans ve Operasyon uygulamasında not oluşturma
 
-Finance and Operations uygulamasında da bir not oluşturabilirsiniz ve bu not customer engagement uygulamasıyla eşitlenir.
+Finans ve Operasyon uygulamasında da bir not oluşturabilirsiniz ve bu not müşteri etkileşimi uygulamasıyla eşitlenir.
 
-Finance and Operations uygulamasında bir not oluşturmak ve sonra notu bir customer engagement uygulamasıyla eşitlemek için aşağıdaki adımları izleyin.
+Bir Finans ve Operasyon uygulamasında bir not oluşturmak ve sonra bir müşteri etkileşimi uygulamasıyla eşitlemek için aşağıdaki adımları izleyin.
 
-1. Finance and Operations uygulamasında **ekler** sayfasında, **Yeni** \> **Not**'u seçin.
+1. Finans ve Operasyon uygulamasında, **Ekler** sayfasında **Yeni** \> **Not**'u seçin.
 
-    ![Finance and Operations uygulamasında bir not oluşturma.](media/notes-fo-1.png)
+    ![Finans ve Operasyon uygulamasında not oluşturulur.](media/notes-fo-1.png)
 
 2. Bir başlık ve kısa bir yönerge kümesi girip **Kaydet**'i seçin.
 
@@ -84,17 +84,17 @@ Finance and Operations uygulamasında bir not oluşturmak ve sonra notu bir cust
 
 Bir notu dahili veya harici olarak sınıflandırabilirsiniz.
 
-- Finance and Operations uygulamasında, **ekler** sayfasında notu açın ve sonra **sınırlama** alanında **dahili** veya **harici** seçeneğini belirleyin.
+- Finans ve Operasyon uygulamasında, **Ekler** sayfasında notu açın ve sonra **Sınırlama** alanında **Dahili** veya **Harici** seçeneğini belirleyin.
 
     ![Sınırlama alanı.](media/notes-fo-4.png)
 
 Ayrıca bir URL oluşturabilirsiniz.
 
-1. Finance and Operations uygulamasında **ekler** sayfasında, **Yeni** \> **URL**'yi seçin.
+1. Finans ve Operasyon uygulamasında, **Ekler** sayfasında **Yeni** \> **URL**'yi seçin.
 2. Bir başlık ve URL'yi girin.
 3. **Sınırlama** alanında, **dahili** veya **harici** seçeneğini belirleyin.
 
-    ![Finance and Operations uygulamasında bir URL oluşturma.](media/notes-fo-5.png)
+    ![Finans ve Operasyon uygulamasında URL oluşturulur.](media/notes-fo-5.png)
 
 4. **Kaydet**'i seçin.
 
@@ -109,7 +109,7 @@ Ayrıca bir URL oluşturabilirsiniz.
 
 Not tümleştirmesi aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir tablo eşlemeleri koleksiyonu içerir.
 
-| Finance and Operations Uygulaması | Müşteri etkileşimi uygulaması | Tanım |
+| Finans ve Operasyon uygulaması | Müşteri etkileşimi uygulaması | Açıklama |
 |----------------------------|-------------------------|-------------|
 | [Müşteri ekleri](mapping-reference.md#230) | Ek açıklamalar | Müşteriye özel bilgileri (hem kuruluşlar, hem de kişiler için) yakalamak üzere düz metin ve URL kullanan işletmeler. |
 | [Satıcı belgesi ekleri](mapping-reference.md#231) | Ek açıklamalar | Satıcıya özel bilgileri (hem kuruluşlar, hem de kişiler için) yakalamak üzere düz metin ve URL kullanan işletmeler. |

@@ -1,32 +1,34 @@
 ---
 title: Finans ile tümleştirme SSS
-description: Bu konu altında, bir İnsan Kaynakları ve Finance tümleştirmesinde hangi verilerin eşitleneceği açıklanmaktadır.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: Bu konuda, bir Human Resources ve Finance tümleştirmesinde hangi verilerin eşitleneceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a6432fb5b04097d81680aed4e940e47f5ff2902
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114594"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071122"
 ---
 # <a name="integration-with-finance-faq"></a>Finans ile tümleştirme SSS
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Bu konu, hangi verilerin Dynamics 365 Human Resources, Dynamics 365 Finance ile tümleştirildiğinde eşitleneceğine dair sıkça sorulan soruları yanıtlar.
 
@@ -38,7 +40,7 @@ Hayır. Eğer Human Resources uygulama kullanıcısını düzenlerseniz, Human R
 | --- | --- | --- | --- |
 | Dynamics365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![Talent uygulama kullanıcısı için varsayılan ayarlar](media/DynamicsApplicationUser.png)
+![Talent uygulama kullanıcısı için varsayılan ayarlar.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Tüm veriler mi eşitlenir yoksa yalnızca bazı veri varlıkları mı?
 
@@ -50,15 +52,15 @@ Varsayılan olarak, Dataverse tümleştirmesi sağlanan demo verileri içermeyen
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Yeni bir eşlemeyi şablonları kullanmadan oluşturabilir miyim?
 
-Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse için veri tümleştirme](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>İnsan Kaynakları ve Finance arasında aktarmak üzere mali boyutlar eşleyebilir miyim?
 
 Mali boyutlar şu anda Dataverse içinde mevcut değildir ve bunu sonucunda varsayılan şablonun parçası değildir. Bu varlık planlanmıştır, ancak şu anda zaman çizelgesi mevcut değildir.
 
-Finance and Operations içinde bulunan ancak İnsan Kaynakları içinde bulunmayan veri için iki sistemi birbirine İnsan Kaynakları için **Bağlantıları yapılandır**'ı kullanarak bağlayın.
+Finance içinde bulunan ancak Human Resources içinde bulunmayan veri için iki sistemi birbirine Human Resources için **Bağlantıları yapılandır**'ı kullanarak bağlayın.
 
-![Mali boyutları eşle](media/MapFinancialDimensions.png)
+![Mali boyutları eşleme.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Bazı durumlarda çalışanları içe aktardığım zaman, Finance'te devre dışı çalışanlar haline geliyorlar. Neden?
 
@@ -72,14 +74,14 @@ Veri eşitleme yürütme planını izler. Tümleştirme, alanın tümleştirme e
 
 "Gelişmiş sorgu" kullanarak, kaynak verisini hedefe aktarmadan önce filtreleyebilir ve şekillendirebilirsiniz.
 
-![Etkin çalışan gelişmiş sorgusu](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Etkin çalışan gelişmiş sorgusu.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Belirli bir varlık için hangi alanların Finance'e gönderileceğini belirtebilir miyim?
 
 Alanlar tümleştirme görevinden eklenebilir veya çıkartılabilir. Dataverse tablosu içinde mevcut olan tüm veri alanlarıİnsan Kaynakları'ndan doldurulmayacaktır.
 Ek veriler Power Apps ile doldurulabilir.
 
-![Bir tümleştirme görevinden alanları ekleyin veya çıkartın](media/SpecifyFieldsIncludedInIntegration.png)
+![Bir tümleştirme görevinden alanları ekleme veya çıkartma.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Tümleştirmeyi bir toplu iş olarak ayarlıyorum, ancak hedef sisteme İnsan Kaynakları bağlantıyı kaybetti. Aynı değişiklik kümesini hedef sisteme nasıl gönderebilirim?
 
@@ -87,7 +89,7 @@ Ek veriler Power Apps ile doldurulabilir.
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Çift yönlü tümleştirme ayarlayabilir miyim?
 
-Hayır, tümleştirme Şu anda tek yönlü (Finance and Operations'tan İnsan Kaynakları). Bununla birlikte, İnsan Kaynakları'ndan Finance'e veri göndermek için bir varsayılan şablon vardır.
+Hayır, tümleştirme şu anda yalnızca tek yönlüdür (Human Resources'dan Finans ve Operasyon'a). Bununla birlikte, İnsan Kaynakları'ndan Finance'e veri göndermek için bir varsayılan şablon vardır.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Tümleştirmemin bir parçası olarak kayıt silinmesine izin verebilir miyim?
 
@@ -117,7 +119,7 @@ Bu hatanın nedenleri arasında şunlar olabilir:
 
 - Veri aktarma, kaynakta (Dataverse) yinelenen kayıtların ayıklanmasıyla sonuçlandı.
 
-- Veri aktarımı, Finance and Operations'ta ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin Dataverse içindeki olduğundan ve Finance and Operations gereksinimlerini karşıladığından emin olun.
+- Veri aktarımı, Finans ve Operasyon'da ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin Dataverse içindeki olduğundan ve Finans ve Operasyon gereksinimlerini karşıladığından emin olun.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Yürütme hataları varsa ve Çalışan kimliği eşitlenmediyse, hatalı çalışan kaydına sahip geçmiş işi nasıl bulabilirim?
 
@@ -127,29 +129,29 @@ Veri Tümleştirici yürütme geçmişinden zamanı takip edin ve Finance'te diz
 
 1. Veri Tümleştiricisinden görev dizinini yakalayın (bu örnekte "9"dur).
 
-    ![Veri Tümleştiricisinden görev dizinini yakalayın.](media/CaptureTaskIndex.png)
+    ![Veri Tümleştiricisinden görev dizinini yakalama.](media/CaptureTaskIndex.png)
 
 2. Projenin yürütme zamanını izleyin.
 
-    ![Projenin yürütme zamanını izleyin](media/CaptureTimeOfExecution.png)
+    ![Projenin yürütme zamanını izleme.](media/CaptureTimeOfExecution.png)
 
 3. Finance'te - 1 dizini belirleyin. Bu örnekte, sonek "8"e sahip olan ve yürütme zamanı dizin "0" projesi olan proje, Adım 2'deki yürütme zamanı ile eşleşiyor.
 
-    ![Dizini tanımlayın](media/IdentifyIndex.png)
+    ![Dizini tanımlama.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>İnsan Kaynakları ve finans'yı tümleştirdikten sonra, İnsan Kaynakları verilerimi finans içinde görmüyorum. Ne yapmam gerekir?
 
 Finance'e tümleştirme iki adımlı bir işlemdir. Öncelikle, İnsan Kaynakları verisinin güncelleştirilmiş ve Dataverse içinde kullanılabilir olduğundan emin olun. Bu neredeyse gerçek zamanlı bir eşitlemedir ve Power Apps içinde veri tabloları içindeki veriye bakarak doğrulanabilir.
 
-![Dataverse içindeki veri](media/DataInCDS.png)
+![Dataverse içindeki veri.](media/DataInCDS.png)
 
 Veri Dataverse'te beklendiği gibi görüntülenmiyorsa, varlığın tümleştirme ile desteklendiğinden emin olun. Dataverse içine ek veri dahil etmek için Microsoft tarafından bir değişiklik gerekir.
 
-Varlık destekleniyorsa ve veri Dataverse içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Varlık destekleniyorsa ve veri Dataverse içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Çalışanlarımın adresleri Finance'e aktardıktan sonra doğru görünmüyor. Ne yapmalıyım?
 
-**Konum Kodu** için numara serisi, İnsan Kaynakları'ta ve Finance'te aynı düzeni kullanır. Numara serisinin her iki tarafta da benzersiz olması gerekir, bu sayede veriyi Dataverse'ten Finance and Operations'a tümleştirirken adres çakışmaları gerçekleşmez.
+**Konum Kodu** için numara serisi, İnsan Kaynakları'ta ve Finance'te aynı düzeni kullanır. Numara serisinin her iki tarafta da benzersiz olması gerekir, bu sayede veriyi Dataverse'ten Finans ve Operasyon'a tümleştirirken adres çakışmaları gerçekleşmez.
 
 İnsan Kaynakları tümleştirmesi sırasında, numara serilerinin İnsan Kaynakları ve Finance içinde aynı olmadığını doğrulayın. Tüm numara serilerinin, verinin her iki sistemde de tutulabildiği yerlerde aynı olmadığını doğrulayın.
 
@@ -159,25 +161,27 @@ Bağlantılarınızı oluştururken Dynamics 365 Finance'i ve Dataverse'i seçti
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Çalışmaları eşitlerken “CompanyInfo_FK mevcut değil" veya “Değer 12/31/2154 11:59:59 pm', 'Çalışma sonlanma tarihi' ilgili 'Çalışma' tablosunda bulunamadı.” hatasını alıyorum. Ne yapmalıyım?
 
-Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme, varsayılan şablonun parçası değildir, bu nedenle İnsan Kaynakları ve Dataverse bulunan her bir tüzel varlığın Finance'te de mevcut olması beklenir.
-İlişkili Bağlantı Kümesi için doğru tüzel varlıkları seçtiğinizden emin olun.
+Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme, varsayılan şablonun parçası değildir, bu nedenle İnsan Kaynakları ve Dataverse bulunan her bir tüzel varlığın Finance'te de mevcut olması beklenir. İlişkili Bağlantı Kümesi için doğru tüzel varlıkları seçtiğinizden emin olun.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Projemi ayarladıktan sonra Finance için alan eşleşmesi boş görünüyor. Ne yapmalıyım?
 
 Finance'te veri varlıklarını **Veri yönetimi \> Çerçeve Parametreleri \> Varlık ayarları \> Varlık listesini yenile**'ye giderek yenileyin. Bunun tamamlanması birkaç dakika sürer ve daha sonra bu eşleşmeleri görmeniz gerekir. Yeni proje oluşturulduğunda bu sorun oluşur.
 
-![Eksik alan eşlemeleri](media/MissingFieldMapping.png)
+![Eksik alan eşlemeleri.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - Veri Tümleştirici (DI): 
 
-  - [Veriyi Microsoft Dataverse içine tümleştir](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Veriyi Microsoft Dataverse içine tümleştir](/powerapps/administrator/data-integrator)
 
-  - [Veri Tümleştirici hata yönetimi ve sorun giderme](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [Veri Tümleştirici hata yönetimi ve sorun giderme](/powerapps/administrator/data-integrator-error-management)
 
-  - [Power Apps, Microsoft Power Automate ve Dataverse'te sistem tarafından oluşturulan günlükler için DSR taleplerine yanıt verme](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Power Apps, Microsoft Power Automate ve Dataverse'te sistem tarafından oluşturulan günlükler için DSR taleplerine yanıt verme](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Veri Yönetimi:
 
-  - [Veri yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Veri yönetimi](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

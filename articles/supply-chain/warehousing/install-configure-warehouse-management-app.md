@@ -1,12 +1,10 @@
 ---
 title: Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
 description: Bu konuda, Ambar Yönetimi mobil uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır.
-author: MarkusFogelberg
-manager: tfehr
+author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -15,27 +13,24 @@ ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142335"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103425"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Bu konuda, şu anda genel önizleme durumunda olan yeni Ambar Yönetimi mobil uygulamasının nasıl yapılandırılacağı açıklanmaktadır. Eski ambar uygulamasını nasıl yapılandıracağınız hakkında bilgi arıyorsanız bkz. [Ambar uygulamasını yükleme ve bağlama](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Bu konuda, yeni Ambar Yönetimi mobil uygulamasının nasıl yapılandırılacağı açıklanmaktadır. Eski ambar uygulamasını (şimdi kullanım dışı) nasıl yapılandıracağınız hakkında bilgi arıyorsanız bkz. [Ambar uygulamasını yükleme ve bağlama](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-Ambar Yönetimi mobil uygulamasının genel önizlemesi, Microsoft App Center'dan indirilebilir. Bağımsız bir bileşen olarak sağlanır. Bu nedenle, her cihaza indirmeli ve sonra Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde yapılandırmalısınız.
-
-Bu konudada, Ambar Yönetimi mobil uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
+Bu konuda, Ambar Yönetimi uygulamasının mobil cihazlarınızın her birine nasıl indirilip yükleneceği ve uygulamanın Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 
@@ -44,26 +39,33 @@ Ambar Yönetimi mobil uygulaması hem Windows hem de Google Android işletim sis
 - Windows 10 (Evrensel Windows Platformu \[UWP\]) Ekim 2018 güncelleştirmesi 1809 (derleme 10.0.17763) veya sonraki bir sürüm
 - Android 4.4 veya üstü
 
-## <a name="turn-on-the-feature"></a>Özelliği etkinleştirme
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Supply Chain Management'ta Warehouse Management mobile app özelliklerini açma veya kapatma
 
-Uygulamayı kullanabilmeniz için sisteminizde bununla ilgili bir özelliği etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları*
+Warehouse Management mobile app kullanmak için, *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğinin sisteminizde açık olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Yeni ambar uygulaması için kullanıcı ayarları, simgeler ve adım başlıkları* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasını edinme
 
-Uygulamayı indirmek için aşağıdaki bağlantılardan birini kullanın:
+Daha küçük dağıtımlar için uygulamayı her bir cihazdaki ilgili mağazadan yüklemek ve ardından kullandığınız ortamlara olan bağlantıyı el ile yapılandırmak isteyebilirsiniz.
 
-- **Windows (UWP):** [App Center önizleme programı - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+Daha büyük dağıtımlar için uygulama dağıtımını ve/veya yapılandırmayı otomatikleştirebilirsiniz ve bu seçenek birçok cihazı yönetiyorsanız daha rahat olabilir. Örneğin, [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](/mem/intune/apps/apps-add).
 
-    Bu uygulama bir önizleme uygulaması olduğundan, yükleme için fazladan birkaç adım gereklidir. Ayrıntılar için bkz. [App Center'dan Derleme Yükleme](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>Uygulamayı bir uygulama mağazasından yükleme
 
-- **Android:** [App Center önizleme programı - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+Uygulamayı tek bir cihaza yüklemenin en kolay yolu, her zaman en son genel sürümü sağlayan bir uygulama mağazasından yüklemektir. Microsoft Intune, uygulama mağazalarındaki uygulamaları da getirebilir. Uygulamayı uygulama mağazasından yüklemek için aşağıdaki bağlantılardan birini kullanın:
 
-    Bu uygulama bir önizleme uygulaması olduğundan, yükleme için fazladan birkaç adım gereklidir. Ayrıntılar için bkz. [Android Uygulamalarını Test Etme](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **Windows (UWP):** [Microsoft Store'da Ambar Yönetimi](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-Daha küçük dağıtımlar için, uygulamayı ilgili mağazadan her bir cihaza yüklemek ve ardından kullandığınız ortamlara olan bağlantıyı el ile yapılandırmak isteyebilirsiniz. Ancak, isterseniz uygulama dağıtımını ve/veya yapılandırmasını otomatikleştirebilirsiniz. Birçok cihazı yönetiyorsanız ve [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanıyorsanız bu yaklaşımı uygun bulabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](https://docs.microsoft.com/mem/intune/apps/apps-add).
+- **Android:** [Google Play Store'da Ambar Yönetimi](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>Uygulamayı Microsoft App Center'dan indirme
+
+Bir uygulama mağazasından yüklemeye alternatif olarak uygulamayı Microsoft App Center'dan da indirebilirsiniz. App Center, dışarıdan yükleyebileceğiniz yüklenebilir paketler sağlar. Geçerli sürüme ek olarak, App Center önceki sürümleri indirmenize de olanak tanır ve deneyebileceğiniz yaklaşan özelliklerle önizleme sürümleri sağlayabilir. Ambar Yönetimi mobil uygulamasının geçerli, önceki veya önizleme sürümlerini Microsoft App Center'dan indirmek için aşağıdaki bağlantılardan birini kullanın:
+
+- **Windows (UWP):** [Ambar Yönetimi (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    İndirilen paketi bir Windows cihaza yükleme ve ardından gerekli sertifikaları ayarlama hakkında yönergeler için bkz. [App Center'dan Bir Derleme İndirme](/appcenter/distribution/installation).
+
+- **Android:** [Ambar Yönetimi (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    Önizleme sürümünü indirirseniz yüklemek için birkaç ek adım gerekir. Ayrıntılar için bkz. [Android Uygulamalarını Test Etme](/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Azure Active Directory içinde bir web hizmeti uygulaması oluşturma
 
@@ -73,38 +75,38 @@ Ambar Yönetimi mobil uygulamasının belirli bir Supply Chain Management sunucu
 1. Azure aboneliğine erişimi olan kullanıcının adını ve parolasını girin.
 1. Azure portalında, sol gezinti bölmesinde, **Azure Active Directory** uygulamasını seçin.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Supply Chain Management tarafından kullanılan Azure AD örneğiyle çalıştığınızdan emin olun.
 1. **Yönet** listesinde **Uygulama kayıtları**'nı seçin.
 
-    ![Uygulama kayıtları](media/app-connect-azure-register.png "Uygulama kayıtları")
+    ![Uygulama kayıtları.](media/app-connect-azure-register.png "Uygulama kayıtları")
 
 1. **Uygulamayı kaydet** sihirbazını açmak için araç çubuğunda **Yeni kayıt**'ı seçin.
 1. Uygulama için bir ad girin, **Yalnızca bu kuruluş dizinindeki hesaplar** seçeneğini belirleyin ve ardından **Kayıt**'ı seçin.
 
-    ![Uygulama kaydetme sihirbazı](media/app-connect-azure-register-wizard.png "Uygulama kaydetme sihirbazı")
+    ![Uygulama kaydetme sihirbazı.](media/app-connect-azure-register-wizard.png "Uygulama kaydetme sihirbazı")
 
 1. Yeni uygulama kaydınız açıldı. Daha sonra gereksinim duyacağınız **Uygulama (istemci) Kodu** değerini not edin. Bu kod, bu konuda daha sonra *istemci kimliği* olarak ifade edilecektir.
 
-    ![Uygulama (istemci) kodu](media/app-connect-azure-app-id.png "Uygulama (istemci) kodu")
+    ![Uygulama (istemci) kodu.](media/app-connect-azure-app-id.png "Uygulama (istemci) kodu")
 
 1. **Yönet** listesinde **Sertifika ve parolalar**'ı seçin. Ardından, uygulamayı kimlik doğrulama için nasıl yapılandırmak istediğinize bağlı olarak aşağıdaki düğmelerden birini seçin. (Daha fazla bilgi için bu konunun ilerisindeki [Sertifika veya istemci parolası kullanarak kimlik doğrulaması](#authenticate) bölümüne bakın.)
 
     - **Karşıya yükleme sertifikası**: Bir sertifikayı parola olarak kullanmak için karşıya yükleyin. Daha güvenli ve tamamen otomatikleştirilebilir olduğu için bu yaklaşımı öneriyoruz. Ambar Yönetimi mobil uygulamasını Windows cihazlarında çalıştırıyorsanız sertifikayı yükledikten sonra gösterilen **Parmak İzi** değerini not edin. Sertifikayı Windows cihazlarında yapılandırırken bu değere ihtiyacınız olacaktır.
     - **Yeni istemci parolası**: **Parolalar** bölümüne bir anahtar açıklama ve süre girerek bir anahtar oluşturun ve **Ekle**'yi seçin. Anahtarın bir kopyasını oluşturun ve güvenli bir şekilde saklayın.
 
-    ![Sertifika ve parolalar](media/app-connect-azure-authentication.png "Sertifika ve parolalar")
+    ![Sertifika ve parolalar.](media/app-connect-azure-authentication.png "Sertifika ve parolalar")
 
 Azure AD uygulamasında web hizmeti uygulamalarını ayarlama hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- Azure AD uygulamasında web hizmeti uygulamalarını ayarlamak için Windows PowerShell'in nasıl kullanılacağını gösteren yönergeler için bkz. [Nasıl yapılır: Sertifikalı bir hizmet sorumlusu oluşturmak için Azure PowerShell'i kullanma](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Azure AD uygulamasında web hizmeti uygulamalarını ayarlamak için Windows PowerShell'in nasıl kullanılacağını gösteren yönergeler için bkz. [Nasıl yapılır: Sertifikalı bir hizmet sorumlusu oluşturmak için Azure PowerShell'i kullanma](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Azure AD uygulamasında el ile bir web hizmeti uygulaması oluşturma hakkında ayrıntılı bilgi için aşağıdaki konulara bakın:
 
-    - [Hızlı Başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Nasıl yapılır: Kaynaklara erişebilen bir Azure AD uygulaması ve hizmet sorumlusu oluşturmak için portalı kullanma](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Hızlı Başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](/azure/active-directory/develop/quickstart-register-app)
+    - [Nasıl yapılır: Kaynaklara erişebilen bir Azure AD uygulaması ve hizmet sorumlusu oluşturmak için portalı kullanma](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Supply Chain Management içinde bir kullanıcı hesabı oluşturma ve yapılandırma
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Supply Chain Management içinde bir kullanıcı hesabı oluşturma ve yapılandırma
 
 Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak için aşağıdaki adımları izleyin.
 
@@ -112,17 +114,24 @@ Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak iç
 
     1. Supply Chain Management uygulamasında **Sistem yönetimi \> Kullanıcıları \> Kullanıcıları**'na gidin.
     1. Kullanıcı oluşturun.
-    1. Ambarlama mobil cihaz kullanıcısını atayın.
+    1. *Ambarlama mobil cihaz kullanıcısı* rolünü kullanıcıya atayın.
 
-    ![Ambarlama mobil cihaz kullanıcısını atama](media/app-connect-app-users.png "Ambarlama mobil cihaz kullanıcısını atama")
+    ![Ambarlama mobil cihaz kullanıcısını atayın.](media/app-connect-app-users.png "Ambarlama mobil cihaz kullanıcısını atama")
 
 1. Azure AD uygulamanızı, Ambar Yönetimi mobil uygulaması kullanıcısı ile ilişkilendirin:
 
     1. **Sistem yönetimi \> Kurulum \> Azure Active Directory uygulamaları**'na gidin.
-    1. Satır oluşturun.
-    1. Önceki bölümde not ettiğiniz istemci kimliğini girin, kimliğe bir ad verin ve az önce oluşturduğunuz kullanıcıyı seçin. Tüm cihazlarınızı etiketlemenizi öneririz. Sonrasında, cihaz kaybolursa cihazın Supply Chain Management erişimini bu sayfadan kolayca kaldırabilirsiniz.
+    1. Eylem Bölmesinde, bir satır oluşturmak için **Yeni**'yi seçin.
+    1. **İstemci kimliği** alanında, önceki bölümde not ettiğiniz istemci kimliğini girin.
+    1. **Ad** alanına, bir ad girin.
+    1. **Kullanıcı kimliği** alanında, yeni oluşturduğunuz kullanıcı kimliğini seçin.
 
-    ![Azure Active Directory uygulamaları](media/app-connect-aad-apps.png "Azure Active Directory uygulamaları")
+    ![Azure Active Directory uygulamaları.](media/app-connect-aad-apps.png "Azure Active Directory uygulamaları")
+
+> [!TIP]
+> Bu ayarları kullanmanın bir yolu, fiziksel aygıtlarınızın her biri için Azure'da bir istemci kimliği oluşturmak ve sonra her bir istemci kodunu **Azure Active Directory uygulamalar** sayfasına eklemektir. Sonrasında, cihaz kaybolursa cihazın Supply Chain Management erişimini bu sayfadan istemci kimliğini kaldırarak kolayca kaldırabilirsiniz. (Bu yaklaşım, bu konunun ilerisinde anlatıldığı gibi, her aygıta kaydedilen bağlantı kimlik bilgileri de bir istemci kimliği belirtmesine karşı çalışır.)
+>
+> Ek olarak, her istemci kimliği için varsayılan dil, sayı biçimi ve saat dilimi ayarları, burada eşlenen **Kullanıcı kimliği** değeri için ayarlanmış tercihlerde oluşturulur. Bu nedenle, istemci kimliğine göre her aygıt veya aygıt koleksiyonunda varsayılan ayar oluşturmak için bu tercihleri kullanabilirsiniz. Ancak, bir çalışanın cihazda oturum açmak için kullandığı *ambar uygulama kullanıcı hesabı* için de tanımlanmışsa, bu varsayılan ayarlar geçersiz kılınır. (Daha fazla bilgi için [Mobil aygıt kullanıcı hesapları](mobile-device-work-users.md) bölümüne bakın.)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Sertifika veya istemci parolası kullanarak kimlik doğrulama
 
@@ -130,7 +139,11 @@ Azure AD ile kimlik doğrulaması, bir mobil cihazı Supply Chain Management uyg
 
 Sertifikalar, bir belirteç istendiğinde uygulamanın kimliğini kanıtlamak için parola olarak kullanılabilir. Sertifikanın genel kısmı Azure portalındaki uygulama kaydına yüklenirken tam sertifikanın Ambar Yönetimi mobil uygulamasının yüklü olduğu her cihaza dağıtılması gerekir. Kuruluşunuz sertifikayı, rotasyonu vb. konularda yönetmekle sorumludur. Kendinden imzalı sertifikalar kullanabilirsiniz ancak her zaman dışa aktarılamayan sertifikalar kullanmalısınız.
 
-Sertifikayı, Ambar Yönetimi mobil uygulamasını çalıştırdığınız her cihazda yerel olarak kullanılabilir hale getirmelisiniz. Intune kullanıyorsanız, Intune denetimli cihazlara yönelik sertifikaları yönetme hakkında bilgi için bkz. [Microsoft Intune'da kimlik doğrulama için sertifika kullanma](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Sertifikayı, Ambar Yönetimi mobil uygulamasını çalıştırdığınız her cihazda yerel olarak kullanılabilir hale getirmelisiniz. Intune kullanıyorsanız, Intune denetimli cihazlara yönelik sertifikaları yönetme hakkında bilgi için bkz. [Microsoft Intune'da kimlik doğrulama için sertifika kullanma](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için Warehouse Management mobil uygulamasını yapılandırma
+
+Warehouse Management mobil uygulamasını bir bulut veya uç ölçek birimi ile karşılaştırarak çalıştırmayı planlıyorsanız fazladan birkaç adım gereklidir. Talimatlar için bkz. [Bulut ve uç ölçek birimleri için Warehouse Management mobil uygulamasını yapılandırma](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Bağlantı ayarlarını içe aktararak uygulamayı yapılandırma
 
@@ -145,7 +158,7 @@ Bağlantı ayarlarını bir dosyadan veya bir QR kodundan alabilirsiniz. Her iki
 | ConnectionName | Bağlantı ayarlarının adını belirtin. En fazla 20 karakter kullanılabilir. Bu değer, bir bağlantı ayarının benzersiz tanımlayıcısı olduğu için listede benzersiz olduğundan emin olun. Cihazda aynı ada sahip bir bağlantı zaten varsa içe aktarılan dosyadaki ayarlar tarafından geçersiz kılınır. |
 | ActiveDirectoryClientAppId | [Azure Active Directory uygulamasında bir web hizmeti uygulaması oluşturma](#create-service) bölümünde Azure AD uygulamasını ayarlarken not ettiğiniz istemci kimliğini belirtin. |
 | ActiveDirectoryResource | Supply Chain Management uygulamasının kök URL'sini belirtin. |
-| ActiveDirectoryTenant | Supply Chain Management sunucusuyla kullandığınız Azure AD kiracısını belirtin. Bu değer `https://login.windows.net/<your-Azure-AD-tenant-ID>` formuna sahiptir. İşte bir örnek: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| ActiveDirectoryTenant | Supply Chain Management sunucusuyla kullandığınız Azure AD etki alanı adını belirtin. Bu değer `https://login.windows.net/<your-Azure-AD-domain-name>` formuna sahiptir. İşte bir örnek: `https://login.windows.net/contosooperations.onmicrosoft.com`. Azure AD etki alanı adınızı bulma hakkında daha fazla bilgi için bkz. [Kullanıcının önemli kimliklerini bulma](/partner-center/find-ids-and-domain-names). |
 | Şirket | Uygulamanın bağlanmasını istediğiniz tüzel varlığı Supply Chain Management uygulamasında belirtin. |
 | ConnectionType | (İsteğe bağlı) Bağlantı ayarının bir ortama bağlanmak için sertifika veya istemci parolası kullanıp kullanmayacağını belirtin. Geçerli değerler *"certificate"* ve *"clientsecret"* değerleridir. Varsayılan değer *"certificate"* değeridir.<p>**Not:** İstemci parolaları içe aktarılamaz.</p> |
 | IsEditable | (İsteğe bağlı) Uygulama kullanıcısının bağlantı ayarını düzenleyip düzenleyemeyeceğini belirtin. Geçerli değerler *"true"* ve *"false"* değerleridir. Varsayılan değer *"true"* değeridir. |
@@ -208,30 +221,30 @@ Bağlantı ayarlarını bir dosyadan veya bir QR kodundan içe aktarmak için a�
 
 1. Mobil cihazınızda Ambar Yönetimi mobil uygulamasını başlatın. Uygulamayı ilk kez başlattığınızda, bir hoş geldiniz iletisi görüntülenir. **Bir bağlantı seç**'i seçin.
 
-    ![Hoş geldiniz iletisi](media/app-configure-welcome-screen.png "Hoş geldiniz iletisi")
+    ![Karşılama iletisi.](media/app-configure-welcome-screen.png "Hoş geldiniz iletisi")
 
 1. Bağlantı ayarlarını bir dosyadan içeri aktarıyorsanız ve dosya kaydedilirken varsayılan ad ve konunm kullanılmışsa uygulama, dosyayı zaten bulmuş olabilir. Bu durumda 4. adıma geçin. Aksi durumda, **Bağlantıyı ayarla**'yı sçein ve ardından 3. adıma geçin.
 
-    ![Bağlantı kur](media/app-configure-set-up-connection.png "Bağlantı kur")
+    ![Bağlantı kurma.](media/app-configure-set-up-connection.png "Bağlantı kur")
 
 1. **Bağlantı kurulumu** iletişim kutusunda, ayarları nasıl içeri aktarmak istediğinize bağlı olarak **Dosyadan ekle** veya **QR kodundan ekle** seçeneklerinden birini belirleyin.
 
     - Bağlantı ayarlarını bir dosyadan içeri aktarıyorsanız **Dosyadan ekle**'yi seçin, yerel cihazınızda dosyaya göz atın ve dosyayı seçin. Özel bir konum seçerseniz uygulama konumu kaydeder ve bir sonraki sefer otomatik olarak kullanır.
     - QR kodunu tarayarak bağlantı ayarlarını içerş aktarıyorsanız **QR kodundan ekle**'yi seçin. Uygulama, cihazın kamerasını kullanmak için sizden izin ister. İzin verdikten sonra kamera başlatılır, böylece tarama için kullanılabilir. Cihazın kamerasının kalitesine ve QR kodunun karmaşıklığına bağlı olarak doğru bir tarama elde etmekte zorlanabilirsiniz. Bu durumda, her QR kodu için yalnızca bir bağlantı oluşturarak QR kodunun karmaşıklığını azaltmaya çalışın. (Şu anda, QR kodunu taramak için yalnızca cihazın kamerasını kullanabilirsiniz.)
 
-    ![Bağlantı kurulum menüsü](media/app-configure-connection-setup-flyout.png "Bağlantı kurulum menüsü")
+    ![Bağlantı kurulumu menüsü.](media/app-configure-connection-setup-flyout.png "Bağlantı kurulum menüsü")
 
 1. Bağlantı ayarları başarıyla yüklendiğinde, seçilen bağlantı gösterilir.
 
-    ![Bağlantı ayarları yüklendi](media/app-configure-select-connection.png "Bağlantı ayarları yüklendi")
+    ![Bağlantı ayarları yüklendi.](media/app-configure-select-connection.png "Bağlantı ayarları yüklendi")
 
 1. Android cihazı kullanıyorsanız ve kimlik doğrulama için bir sertifika kullanıyorsanız cihaz sizden sertifikayı seçmenizi ister.
 
-    ![Android cihazda sertifika komutunu seçme](media/app-configure-select-certificate.png "Android cihazda sertifika komutunu seçme")
+    ![Android cihazda sertifika komutunu seçme.](media/app-configure-select-certificate.png "Android cihazda sertifika komutunu seçme")
 
 1. Uygulama, Supply Chain Management sunucunuza bağlanır ve oturum açma sayfasını gösterir.
 
-    ![Oturum açma sayfası](media/app-configure-sign-in-page.png "Oturum açma sayfası")
+    ![Oturum açma sayfası.](media/app-configure-sign-in-page.png "Oturum açma sayfası")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Uygulamayı el ile yapılandırma
 
@@ -241,15 +254,15 @@ Dosyanız veya QR kodunuz yoksa, Azure AD uygulaması aracılığıyla Supply Ch
 1. Uygulama **Tanıtım modunda** başlatılırsa **Bağlantı ayarları**'nı seçin. Uygulama başlatıldığında **Oturum aç** sayfası gösterilirse **Bağlantıyı değiştir**'i seçin.
 1. **Bağlantıyı ayarla**'yı seçin.
 
-    ![Bağlantı kur](media/app-configure-set-up-connection.png "Bağlantı kur")
+    ![Bağlantı kurma.](media/app-configure-set-up-connection.png "Bağlantı kur")
 
 1. **El ile giriş**'i seçin.
 
-    ![Bağlantı kurulum menüsü](media/app-configure-connection-setup-flyout.png "Bağlantı kurulum menüsü")
+    ![Bağlantı kurulumu menüsü.](media/app-configure-connection-setup-flyout.png "Bağlantı kurulum menüsü")
 
     **Yeni Bağlantı** sayfası gösterilir ve bağlantı ayarlarını manuel olarak girmek için gerekli ayarlar görüntülenir.
 
-    ![El ile bağlantı alanları](media/app-configure-input-manually.png "El ile bağlantı alanları")
+    ![El ile bağlantı alanları.](media/app-configure-input-manually.png "El ile bağlantı alanları")
 
 1. Aşağıdaki bilgileri girin:
 
@@ -263,7 +276,7 @@ Dosyanız veya QR kodunuz yoksa, Azure AD uygulaması aracılığıyla Supply Ch
         > [!IMPORTANT]
         > Bu değeri eğik çizgi (/) ile bitirmeyin.
 
-    - **Active Directory kiracısı**: Supply Chain Management sunucusuyla kullandığınız Azure AD kiracısını girin. Bu değer `https://login.windows.net/<your-Azure-AD-tenant-ID>` formuna sahiptir. İşte bir örnek: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Active Directory kiracısı**: Supply Chain Management sunucusuyla kullandığınız Azure AD etki alanı adını girin. Bu değer `https://login.windows.net/<your-Azure-AD-domain-name>` formuna sahiptir. İşte bir örnek: `https://login.windows.net/contosooperations.onmicrosoft.com`. Azure AD etki alanı adınızı bulma hakkında daha fazla bilgi için bkz. [Kullanıcının önemli kimliklerini bulma](/partner-center/find-ids-and-domain-names).
 
         > [!IMPORTANT]
         > Bu değeri eğik çizgi (/) ile bitirmeyin.
@@ -289,3 +302,11 @@ Cihazın kaybolması veya güvenliğinin aşılması durumunda, cihazın Supply 
 1. Uygulamanın istemci kimliğinin 2. adımda not ettiğiniz istemci kimliğiyle eşleştiğinden emin olun.
 1. Araç çubuğunda **Sil**'i seçin.
 1. Görüntülenen onay iletisinde **Evet**'i seçin.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+- [Mobil cihaz kullanıcı ayarları](mobile-device-user-settings.md)
+- [Warehouse Management mobil uygulaması için adım simgeleri ve başlıklar atama](step-icons-titles.md)
+- [Bulut ve uç ölçek birimleri için Warehouse Management mobil uygulamasını yapılandırma](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Kanala göre otomatik masrafları etkinleştirme ve yapılandırma
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta otomatik masrafların kanala göre nasıl etkinleştirileceğini ve yapılandırılacağını açıklamaktadır.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d905819d1e0c8223c74509bfb357b3aaa51d20305a2857061eadb0b0ff8f6b9b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416404"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727642"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Kanala göre otomatik masrafları etkinleştirme ve yapılandırma
 
@@ -69,7 +66,7 @@ Commerce'ta bir kuruluş hiyerarşisi amacına varsayılan bir hiyerarşi atamak
 1. Eylem Bölmesinde **Şimdi çalıştır**'ı seçin.
 1. **1070** **(Kanal yapılandırması**) ve **1110** (**Genel yapılandırma**) işlerini çalıştırmak için önceki iki adımı tekrarlayın.
 
-![Perakende otomatik masraf kuruluşu hiyerarşi amacı yapılandırması](media/Auto-charges-org-hierarchy-purpose.png)
+![Perakende otomatik masraf kuruluşu hiyerarşi amacı yapılandırması.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Kanala göre otomatik masrafları tanımlama
 
@@ -77,7 +74,7 @@ Commerce'ta bir kuruluş hiyerarşisi amacına varsayılan bir hiyerarşi atamak
 
 Otomatik masrafları Commerce'ta kanala göre tanımlamak için aşağıdaki adımları izleyin.
 
-1. Sırasıyla  **Alacak hesapları \> Masraflar kurulumu \> Otomatik masraflar** seçimlerini yapın.
+1. Sırasıyla **Alacak hesapları \> masraflar kurulumu \> Otomatik masraflar** seçimlerini yapın.
 1. Sol bölmede, iş gereksinimlerinize bağlı olarak **Düzey** alanında **Başlık** ya da **Satır** seçeneğini belirleyin.
 1. **Perakende kanal kodu** alanında, uygun kanal kodunu seçin (örneğin, **Tablo** veya **Grup**). Varsayılan ayar olan **Tümü** kullanılırsa, masraf kuralları tüm kanallara uygulanır.
 
@@ -89,7 +86,7 @@ Otomatik masrafları Commerce'ta kanala göre tanımlamak için aşağıdaki ad�
 1. Eylem Bölmesinde **Şimdi çalıştır**'ı seçin.
 1. **1070** **(Kanal yapılandırması**) ve **1110** (**Genel yapılandırma**) işlerini çalıştırmak için önceki iki adımı tekrarlayın.
     
-![Kanala göre tanımlanan otomatik masraflar](media/Auto-charges-line-charge-by-channel.png)
+![Kanala göre tanımlanan otomatik masraflar.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
@@ -97,7 +94,7 @@ Aşağıdaki örnekte, bir ürünü, ürün San Franscisco'daki bir fiziksel ma�
 
 Kuruluş, aşağıdaki çizimde gösterildiği gibi, **GERİ DÖNÜŞÜM** olarak adlandırılan bir masraf kodu tanımlar.
 
-![GERİ DÖNÜŞÜM masraf kodu](media/Auto-charges-charge-code.png)
+![GERİ DÖNÜŞÜM masraf kodu.](media/Auto-charges-charge-code.png)
 
 Satır düzeyinde otomatik masraf oluşturulur. Aşağıdaki yapılandırmaya sahiptir:
 
@@ -115,16 +112,19 @@ Otomatik masraf satırı oluşturulur. Aşağıdaki yapılandırmaya sahiptir:
 - **Kategori** alanı **Sabit** olarak ayarlanır.
 - **Masraf** alanı **6,25 $** olarak ayarlanır.
 
-![Satır düzeyi otomatik masraf ve otomatik masraflar satırı yapılandırması](media/Auto-charges-recyclingfee-line-fee.png)
+![Satır düzeyi otomatik masraf ve otomatik masraflar satırı yapılandırması.](media/Auto-charges-recyclingfee-line-fee.png)
 
 POS uygulamasında **San Francisco** mağaza kanalında bir satış siparişi oluşturulur. **Masraflar** satırı, **6,25 $** tutarındaki geri dönüşüm ücretini gösterir.
 
 POS uygulamasında **Hareket seçenekleri \> Masraflar \> Masrafları yönet**'i seçerek geri dönüşüm masrafına ait masraf kodunu ve açıklamayı görüntüleyebilirsiniz.
 
-![POS uygulamasındaki geri dönüşüm ücreti](media/pos-auto-charges-recyclingfee-line-fee.png)
+![POS uygulamasındaki geri dönüşüm ücreti.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Çok yönlü kanal gelişmiş otomatik masrafları](omni-auto-charges.md)
 
 [Başlık masraflarını eşleşen satış satırlarına eşit dağıtma](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

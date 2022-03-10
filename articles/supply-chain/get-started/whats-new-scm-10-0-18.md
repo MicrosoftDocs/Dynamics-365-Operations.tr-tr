@@ -1,12 +1,10 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.18 önizlemesi (Mayıs 2021)
+title: Dynamics 365 Supply Chain Management sürüm 10.0.18'daki yenilikler ve değişiklikler (Mayıs 2021)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.18'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
-manager: annbe
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0a75cd0b02c48421edebac0b83576095bea65bb6
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 8c68b8ed1703f2cd49d47fad73485e9e4093aa82b902a484fb79bad4dd2dcbfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773573"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Dynamics 365 Supply Chain Management 10.0.18 önizlemesi (Mayıs 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Dynamics 365 Supply Chain Management sürüm 10.0.18'daki yenilikler ve değişiklikler (Mayıs 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.18'deki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.793 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.18'deki yeni veya değişen özellikler açıklanmaktadır. Bu sürüm, 10.0.793 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Mart 2021
 - **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Nisan 2021
@@ -36,15 +33,25 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürümde aşağıdaki özellikler bulunmaktadır. Listelenen özelliklerden bazıları hala önizleme görünümünde, bazılaru genel olarak kullanılabilir durumda olabilir. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
+Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
 
-- Satın alma siparişlerini otomatik olarak serbest bırakma ([Bulutta ölçek birimleriyle ambar yürütme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)için geliştirme)<br> - Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md).
+- Satın alma siparişlerini otomatik olarak serbest bırakma ([Bulutta ölçek birimleriyle ambar yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)için geliştirme)<br> - Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Kurumsal ölçekli stok performansı iyileştirmeleri ve arşivleme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Daha fazla bilgi için bkz. [Stok hareketlerini arşivleme](../inventory/archive-inventory-transactions.md).
+- [Satıcının işbirliği arabiriminde sertifika oluşturma ve görüntüleme](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/create-view-certifications-vendor-collaboration-interface)<br> - Daha fazla bilgi için bkz. [Satıcı sertifikasyonunu koruma](../../finance/public-sector/manage-vendor-certification.md).
 
-- [İndirim yönetimi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)
+- [Kurumsal ölçekli stok performansı iyileştirmeleri ve arşivleme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Daha fazla bilgi için bkz. [Stok hareketlerini arşivleme](../inventory/archive-inventory-transactions.md).
 
-- Sadece giriş ve çıkış için basitleştirilmiş arabirim ([Gelişmiş üretim katı yürütme arabirimi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) için geliştirme)<br> - Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](../production-control/production-floor-execution-configure.md).
+- [İndirim yönetimi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Daha fazla bilgi için bkz. [İndirim yönetimi modülüne genel bakış](../rebate-management/rebate-management-overview.md).
+
+- [Satış verileri varlığını dışa aktarma kurulum ilkesi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Fiili ağırlıklı ve fiili ağırlıksız ondalık hassasiyetli satış iade siparişi satırı kaydı](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Tek tıklamayla satış siparişi onayı](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Satınalma siparişi satırını silme ilkesine yönelik satış siparişi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
+- Sadece giriş ve çıkış için basitleştirilmiş arabirim ([Gelişmiş üretim katı yürütme arabirimi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) için geliştirme)<br> - Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](../production-control/production-floor-execution-configure.md).
 
 Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
@@ -71,7 +78,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.18 platform güncelleştirme
 
 İş uygulamalarımız veya platformumuz için gelecek olan ve en son yayımlanan özellikleri merak ediyor musunuz?
 
-[Dynamics 365: 2021 sürüm dalgası 1 planını](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
+[Dynamics 365: 2021 sürüm dalgası 1 planını](/dynamics365-release-plan/2021wave1/) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 

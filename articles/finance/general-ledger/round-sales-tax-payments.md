@@ -1,8 +1,8 @@
 ---
 title: Satış vergisi ödemeleri ve yuvarlama kuralları
-description: Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
-author: ShylaThompson
-ms.date: 04/20/2020
+description: Bu konuda, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
+author: kailiang
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,23 +12,23 @@ ms.reviewer: roschlom
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: pacheren
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97f1a30c541a302755826bb8f77205bc060ec159
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3a75d41195875c5ed48cbe8ce5f5e448f173e718
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897198"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726812"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Satış vergisi ödemeleri ve yuvarlama kuralları
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
+Bu konuda, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
 
-Satış vergilerinin düzenli olarak vergi dairelerine bildirilmesi ve ödenmesi gerekir. Bu, Satış vergisi sayfasındaki satış vergisi kapatma ve nakletme işlemi çalıştırılarak yapılabilir. Bir döneme ait satış vergisi, satış vergisi hesaplarına karşı kapatılır ve satış vergisi bakiyesi Satış vergisi kapatma hesabına nakledilir. Satış verghisi kapatma hesabına nakledilen satış vergisi bakiyesi, Satş vergisi sayfasında bir yuvarlama kuralı ayarlanarak vergi kurumlarının gerektirdiği şekilde yuvarlanabilir. 
+Satış vergilerinin düzenli olarak vergi dairelerine bildirilmesi ve ödenmesi gerekir. Bu eylem, **Satış vergisi** sayfasındaki Satış vergisi kapatma ve nakletme işlemi çalıştırılarak yapılabilir. Bir döneme ait satış vergisi, satış vergisi hesaplarına karşı kapatılır ve satış vergisi bakiyesi Satış vergisi kapatma hesabına nakledilir. Satış vergisi kapatma hesabına nakledilen satış vergisi bakiyesi, **Satş vergisi** sayfasında bir yuvarlama kuralı ayarlanarak vergi kurumlarının gerektirdiği şekilde yuvarlanabilir. 
 
 Yuvarlama farkı, Genel muhasebenin Otomatik hareketler için hesaplar alanında seçilen Satış vergisi yuvarlama hesabına nakledilir.
 
@@ -63,59 +63,60 @@ Aşağıdaki tabloda, 98.765,43 tutarının **Satış vergisi dairesi** sayfası
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Normal yuvarlama, yuvarlama hassasiyeti 0,01'dir
 
-<table>
+```<table>
   <tr>
-    <td>Yuvarlama
+    <td>Rounding
     </td>
-    <td>Hesaplama işlemi
+    <td>Calculation process
     </td>
   </tr>
     <tr>
-    <td>yuvarla(1,015, 0,01) = 1,02
+    <td>round(1.015, 0.01) = 1.02
     </td>
     <td>
       <ol>
-        <li>yuvarla(1,015 / 0,01, 0) = yuvarla(101,5, 0) = 102
+        <li>round(1.015 / 0.01, 0) = round(101.5, 0) = 102
         </li>
-        <li>102 * 0,01 = 1,02
-        </li>
-      </ol>
-    </td>
-  </tr>
-    <tr>
-    <td>yuvarla(1,014, 0,01) = 1,01
-    </td>
-    <td> <ol>
-        <li>yuvarla(1,014 / 0,01, 0) = yuvarla(101,4, 0) = 101
-        </li>
-        <li>101 * 0,01 = 1,01
+        <li>102 * 0.01 = 1.02
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td>yuvarla(1,011, 0,02) = 1,02
+    <td>round(1.014, 0.01) = 1.01
     </td>
     <td> <ol>
-        <li>yuvarla(1,011 / 0,02, 0) = yuvarla(50,55, 0) = 51
+        <li>round(1.014 / 0.01, 0) = round(101.4, 0) = 101
         </li>
-        <li>51 * 0,02 = 1,02
+        <li>101 * 0.01 = 1.01
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td>yuvarla(1,009, 0,02) = 1,00
+    <td>round(1.011, 0.02) = 1.02
     </td>
     <td> <ol>
-        <li>yuvarla(1,009 / 0,02, 0) = yuvarla(50,45, 0) = 50
+        <li>round(1.011 / 0.02, 0) = round(50.55, 0) = 51
         </li>
-        <li>50 * 0,02 = 1,00
+        <li>51 * 0.02 = 1.02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.009, 0.02) = 1.00
+    </td>
+    <td> <ol>
+        <li>round(1.009 / 0.02, 0) = round(50.45, 0) = 50
+        </li>
+        <li>50 * 0.02 = 1.00
         </li>
       </ol>
     </td>
   </tr>
 </table>
+```
 
 > [!NOTE]                                                                                  
 > Kendi avantajı seçeneğini seçerseniz, yuvarlama daima tüzel kişiliğin yararına yapılır. 

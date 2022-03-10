@@ -1,11 +1,10 @@
 ---
 title: Vergi yapılandırmalarına veri alanları Ekleme
 description: Bu konu, veri alanları ekleyerek vergi yapılandırmalarının nasıl özelleştirileceğini açıklamaktadır.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -13,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 197a2d1605dd39188841aba02a71d228c7138c54
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 590c2d62995f260ba4277e1031349b0dc43f1417
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921201"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674912"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Vergi yapılandırmalarına veri alanları Ekleme
 
@@ -31,9 +30,13 @@ Bu konu [vergi tümleştirmesinde eklenen veri alanlarını](tax-service-add-dat
 
 ## <a name="customize-the-tax-data-model"></a>Vergi veri modeli yapılandırmasını özelleştirme
 
-1. Microsoft Dynamics 365 Finance'te **Elektronik raporlama** \> **Vergi Yapılandırmaları**'na gidin.
-2. Yapılandırma ağacında, **vergi veri modeli-Avrupa**'yı seçin. Ardından Eylem bölmesinden **Yapılandırma oluştur**'u seçin.
-3. Açılan iletişim kutusunda, **Vergi veri modeli -- Avrupa, Microsoft adından türetilen vergiye tabi belge modelini** seçin, yeni vergi veri modeli için bir ad girin ve sonra **Yapılandırma oluştur**'u seçin.
+1. Microsoft Dynamics 365 Finance'te, **Elektronik Raporlama** > **Vergi yapılandırmaları**'na gidin.
+2. Yapılandırma ağacında, **Vergi Hesaplama Veri Modeli**'ni seçin. Ardından Eylem bölmesinden **Yapılandırma oluştur**'u seçin. 
+
+  > [!NOTE] 
+  > Kullanılabilir konfigürasyon sağlayıcısı yoksa, bir tane oluşturun ve vergi konfigürasyonunuz için bunu etkinleştirin. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+  
+3. Açılan iletişim kutusunda, **Vergi Hesaplama Veri Modeli, Microsoft adından türetilen vergiye tabi belge modeli**'ni seçin, yeni vergi veri modeli için bir ad girin ve ardından **Yapılandırma oluştur** seçeneğini belirleyin.
 4. Oluşturduğunuz vergi veri modelini seçin ve sonra eylem bölmesinde **tasarımcı**'yı seçin.
 5. Veri modeli ağacını genişletin, **Satırlar**'ı seçin ve sonra **yeni**'yi seçin.
 6. **Düğüm oluştur** iletişim kutusunda bir ad girin, öğe türünü belirtin ve sonra **Ekle**'yi seçin.
@@ -43,9 +46,9 @@ Bu konu [vergi tümleştirmesinde eklenen veri alanlarını](tax-service-add-dat
 
 ## <a name="customize-the-tax-configuration"></a>Vergi yapılandırmasını özelleştirme
 
-1. Finance'te **Elektronik raporlama** \> **Vergi Yapılandırmaları**'na gidin.
-2. Yapılandırma ağacında, **vergi yapılandırması -- Avrupa**'yı seçin. Ardından Eylem bölmesinden **Yapılandırma oluştur**'u seçin.
-3. Açılan iletişim kutusunda, **Vergi Yapılandırması -- Avrupa, Microsoft adından türetilen vergi hizmeti yapılandırmasını** seçin, yeni vergi yapılandırması için bir ad girin ve sonra **Yapılandırma oluştur**'u seçin.
+1. Finance'te, **Elektronik raporlama** > **Vergi yapılandırmaları**'na gidin.
+2. Yapılandırma ağacında, **Vergi Hesaplama Konfigürasyonu**'nu seçin. Ardından Eylem bölmesinden **Yapılandırma oluştur**'u seçin.
+3. Açılan iletişim kutusunda, **Vergi Hesaplama Yapılandırması, Microsoft adından türetilen vergi hizmeti yapılandırması**'nı seçin, yeni vergi yapılandırması için bir ad girin ve ardından **Yapılandırma oluştur** seçeneğini belirleyin.
 4. Oluşturduğunuz vergi yapılandırmasını seçin ve sonra eylem bölmesinde **tasarımcı**'yı seçin.
 5. **Özellikler** bölümünde, **veri modeli** alanında, önceden oluşturduğunuz özelleştirilmiş vergi veri modelini seçin.
 6. **Veri modeli sürümü** alanında, vergi veri modelinin tamamlanmış sürümünü seçin.
@@ -55,8 +58,11 @@ Bu konu [vergi tümleştirmesinde eklenen veri alanlarını](tax-service-add-dat
 
 ## <a name="implement-tax-features-in-the-customized-tax-configuration"></a>Özelleştirilmiş vergi yapılandırmasındaki vergi özelliklerini Uygulama
 
-1. Regulatory Configuration Services'te (RCS) **Genelleştirme Özellikleri** \> **Vergi**'ye gidin.
+1. Regulatory Configuration Service'te (RCS), **Genelleştirme Özellikleri** > **Vergi**'ye gidin.
 2. **Ekle**'yi seçin, yeni özellik hakkındaki bilgileri girin ve sonra **Oluştur** özelliğini seçin.
 3. **Sürümler** sekmesinde özelliği seçin ve sonra **Düzenle**'yi seçin.
 4. **Genel** sekmesinde, **Yapılandırma sürümü** alanında, özelleştirilmiş vergi yapılandırmasını ve sürümünü seçin.
 5. **Sütunları Yönet** iletişim kutusunda, özelleştirilmiş vergi ölçümünüzde olmasını istediğiniz başlık ve satır sütunlarını seçin ve bunları **Seçilen sütunlar** listesine eklemek için sağ ok düğmesini seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

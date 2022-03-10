@@ -5,7 +5,6 @@ author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -13,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b02283a6e0a4ef0d61be8b66f82be8c125028cb0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: a606f413bf3660a89270c0751b2656fab07cd80d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813639"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576004"
 ---
 # <a name="wave-templates"></a>Dalga şablonları
 

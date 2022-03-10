@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f082fe4af9c095d841dbcabf85d365a3fbee71b79a7765e39fbe691db7da458e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771962"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068071"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu makalede, sayfaları nasıl yan yana görüntüleyebileceğiniz açıklanmaktadır.
 

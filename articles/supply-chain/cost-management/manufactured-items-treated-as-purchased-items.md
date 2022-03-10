@@ -1,7 +1,7 @@
 ---
 title: Üretilen ya da temin edilen ürünleri ayarlama
 description: Ürünler çeşitli şekillerde bulunabilir - üretilebilir (mamul) veya tedarik edilebilir (satın alınan). Bu makalede birden fazla kaynak kullanımının desteklenmesi için ürünlerin nasıl yapılandırılacağı ile ilgili bazı genel hususlar açıklanmıştır.
-author: cvocph
+author: AndersGirke
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 21841
 ms.assetid: acc608b7-2cad-4fba-afee-9b7cc93761ec
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5abbbf5ffa60329a6044cbbec422f958c3fed2b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 344a022561fa425747e7674bd600c65d70229557
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832334"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568243"
 ---
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Üretilen ya da temin edilen ürünleri ayarlama
 

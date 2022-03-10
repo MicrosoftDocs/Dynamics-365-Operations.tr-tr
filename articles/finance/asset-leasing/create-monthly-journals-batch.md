@@ -2,11 +2,11 @@
 title: Toplu işte aylık günlük girişleri oluşturma
 description: Bu konuda, aylık kira giderleri kaydedilirken verimliliği artırmaya yardımcı olmak için toplu işte günlük girişlerinin nasıl oluşturulacağını açıklamaktadır.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 664001dd6e9da449dec65750da53d58bd27438b4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 22e2892a6866123ecf0e72511bdce19fe12895df
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816040"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344865"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Toplu işte aylık günlük girişleri oluşturma
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Bu konuda, aylık kira giderleri kaydedilirken verimliliği artırmaya yardımcı olmak için toplu işte günlük girişlerinin nasıl oluşturulacağını açıklamaktadır. Birden fazla plandan günlük girişleri oluşturmak için toplu iş işleme kullanılabilir. Bu günlük girişleri arasında kira ödemeleri, yükümlülük amortismanı, kullanım hakkı (ROU) varlığı amortismanı ve icra maliyeti giderleri yer alır. Aynı anda birden fazla kiralamanın ilk kabulünü yapmak veya aynı anda birden fazla kiralama için geçiş düzeltmeleri oluşturmak amacıyla toplu iş işlemeyi kullanabilirsiniz.
 
@@ -35,5 +37,6 @@ Toplu iş ayarlamak veya birden fazla kiralama için ödeme faturaları, amortis
 >
 > Günlük girişleri oluşturulur ancak siz **Çalıştır** komutunu seçene kadar deftere nakledilemez.
 
+İlk kabul günlüğünü kiralamanın başlangıç tarihinden farklı bir tarihte deftere nakletmek için **İlk kabul deftere nakletme tarihini atama**'yı seçin. Doğru deftere nakletme tarihini belirttiğiniz bir **Tarih** alanı görüntülenir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
