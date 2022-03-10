@@ -1,7 +1,7 @@
 ---
 title: Planlı siparişleri koruma
 description: Bu konuda planlı siparişleri yönetme yöntemleri hakkında bilgiler yer alır. Planlı siparişlerin durumunun nasıl güncelleştirileceğini, kesinleştirileceğini ve seçilen planlı sipariş ile aynı duruma sahip planlı siparişlerin nasıl filtreleneceğini açıklar.
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19151
 ms.assetid: 54123f4c-b4ca-4ce4-9358-b067aa04c968
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f97dc4627f9bb3a0ac2020b966de7e58aafcedc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f4ec4e50d37403107b31117912423b8bbc8ebb35
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833677"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575740"
 ---
 # <a name="maintain-planned-orders"></a>Planlı siparişleri koruma
 
@@ -58,8 +58,7 @@ Birçok siparişi aynı anda kesinleştirmek istiyorsanız çalışmayı koşut 
 > [!NOTE]
 > **Parallelize Kesinleştirme** seçeneği yalnızca Kesinleştirmede birden fazla planlı sipariş seçildiğinde görüntülenir.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Master planlara genel bakış](master-plans.md)
 

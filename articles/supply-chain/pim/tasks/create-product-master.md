@@ -1,26 +1,24 @@
 ---
 title: Ana ürün oluşturma
 description: Önceden tanımlanmış çeşitler için ana ürün oluşturun.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 612f83f2df0ca3e66aa38defa27ec34315b4b2ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e76c367d4aa6c08332371374a26dd6fdbbdb4eb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001736"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577348"
 ---
 # <a name="create-a-product-master"></a>Ana ürün oluşturma
 
@@ -60,3 +58,6 @@ ms.locfileid: "5001736"
 10. **Kaydet**'e tıklayın.
 11. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

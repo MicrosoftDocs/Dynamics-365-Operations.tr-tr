@@ -2,35 +2,30 @@
 title: Derecelendirme ve incelemeleri yapılandırma
 description: Bu konuda, e-ticaret sitenizi Microsoft Dynamics 365 Commerce'te müşteri derecelendirmelerini ve incelemelerini gösterecek şekilde konfigüre etme yöntemi açıklanmıştır.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416328"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968114"
 ---
 # <a name="configure-ratings-and-reviews"></a>Derecelendirme ve incelemeleri yapılandırma
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, e-ticaret sitenizi Microsoft Dynamics 365 Commerce'te müşteri derecelendirmelerini ve incelemelerini gösterecek şekilde konfigüre etme yöntemi açıklanmıştır.
-
-## <a name="overview"></a>Genel Bakış
 
 E-ticaret web sitelerindeki derecelendirmeler ve incelemeler, müşterilere bir satın alma kararı vermeden önce, bu ürünler hakkındaki diğer müşterilerin ne düşündüğünü göstererek, ürünler hakkında bilgi edinmesine yardımcı olur. E-ticaret web sitelerinde, derecelendirmeler ve incelemeler, ürünler hakkında müşteri geribildirimi toplamaya yönelik bir mekanizmadır. 
 
@@ -49,7 +44,7 @@ Derecelendirmeleri ve değerlendirmeleri göstermek üzere bir site yapılandır
 
 Aşağıdaki çizim, bu yapılandırmasının Dynamics 365 Commerce'te nasıl gözükeceğini gösterir.
 
-![Derecelendirme ve incelemeleri gösterecek site yapılandırma](media/rnr-eCommerce-site-appsettings.png)
+![Derecelendirme ve incelemeleri gösterecek site yapılandırma.](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Bir ürün derecelendirmesini PDP'nin incelemeler bölümüne bağlama
 
@@ -63,7 +58,7 @@ Bir ürün derecelendirmesini PDP 'nin **incelemeler** bölümüne bağlamak iç
 
 Aşağıdaki çizim, bu yapılandırmasının Dynamics 365 Commerce'te nasıl gözükeceğini gösterir.
 
-![Bir ürün derecelendirmesini PDP'nin incelemeler bölümüne bağlama](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Bir ürün derecelendirmesini PDP'nin incelemeler bölümüne bağlama.](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Gizlilik ve ilke sayfası için bağlantıyı yapılandırın
 
@@ -78,7 +73,7 @@ Gizlilik ve ilke sayfası için bağlantıyı yapılandırmak için şu adımlar
 
 Aşağıdaki çizim, bu yapılandırmasının Dynamics 365 Commerce'te nasıl gözükeceğini gösterir.
 
-![Gizlilik ve ilke sayfası için bağlantıyı yapılandırın](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![Gizlilik ve ilke sayfası için bağlantıyı yapılandırın.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Ürün ayrıntıları sayfalarındaki derecelendirme ve İnceleme modüllerini konfigüre edin
 
@@ -92,6 +87,17 @@ Aşağıdaki çizim, bu yapılandırmasının Dynamics 365 Commerce'te nasıl g�
 
 [Derecelendirme ve incelemeleri yönetme](manage-reviews.md)
 
-[Ürün ayrıntıları sayfalarındaki derecelendirme ve İnceleme modüllerini konfigüre edin](ratings-reviews-modules.md)
-
 [Dynamics 365 Retail'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+[Derecelendirmelerin ve incelemelerin moderatör tarafından el ile yayımlanmasını etkinleştirme](manual-publish-rating-reviews.md)
+
+[Derecelendirmeleri ve değerlendirmeleri içe ve dışa aktarma](import-export-reviews.md)
+
+[Hizmetten hizmete kimlik doğrulamasını yapılandırma](service-to-service-auth.md)
+
+[Derecelendirmeler ve incelemelerle ilgili SSS](ratings-reviews-faq.md)
+
+[Derecelendirme ve inceleme modülleri](ratings-reviews-modules.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

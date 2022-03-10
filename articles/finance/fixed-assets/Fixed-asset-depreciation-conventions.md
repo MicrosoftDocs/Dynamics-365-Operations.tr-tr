@@ -1,12 +1,10 @@
 ---
 title: Sabit kıymet amortisman yöntemleri
 description: Bu konuda sabit kıymetlerin amortisman yöntemleri anlatılmıştır.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b238a4a57ee2eb58fea11661ae79a649d399f5b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 823f8826e297a01c3658ceb8e82e6f9902d7a359
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230310"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883424"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Sabit kıymet amortisman yöntemleri
 

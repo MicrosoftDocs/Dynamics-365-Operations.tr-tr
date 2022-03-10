@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c232955873706bcceb6c685527a0dd92b129e543
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 91e905f530b88bb568290550be4cc677633189b1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893436"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069566"
 ---
 # <a name="custom-fields"></a>Özel alanlar
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources'taki sayfalara özel alanlar ekleyebilirsiniz. Özel alanlar oluşturma hakkında daha fazla bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 

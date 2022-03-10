@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736234"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -55,14 +55,14 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |                                      | ER: LCS ile tümleştirme                                                                  | Evet       | Hayır              |
 |                                      | ER: SharePoint ile tümleştirme                                                           | Evet       | Hayır              |
 |                                      | ER: Düzenleyici Yapılandırma Hizmeti (RCS) ile tümleştirme                              | Evet       | Hayır              |
-|                                      | ER: Yerel dosya sitemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | No        | Evet             |
-|                                      | PowerBI.com ile tümleştirme                                                              | Evet       | No              |
-|                                      | PowerBI Desktop ile tümleştirme                                                          | No        | Evet             |
-|                                      | Analiz çalışma alanları                                                                     | Evet       | No              |
+|                                      | ER: Yerel dosya sitemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | Hayır        | Evet             |
+|                                      | PowerBI.com ile tümleştirme                                                              | Evet       | Hayır              |
+|                                      | PowerBI Desktop ile tümleştirme                                                          | Hayır        | Evet             |
+|                                      | Analiz çalışma alanları                                                                     | Evet       | Hayır              |
 |                                      | Akıllı iş süreci: Öneriler                                             | Evet       | Hayır              |
 |                                      | Power BI masaüstü veya Excel PowerQuery araçlarını kullanarak OData ile Power BI raporları yazma    | Evet       | Hayır              |
 |                                      | SQL Server Raporlama Servisleri (SSRS) ölçeklemeyi destekler                                 | Evet       | Evet             |
-|                                      | Telemetri buluta aktarılır                                                   | Evet       | No              |
+|                                      | Telemetri buluta aktarılır                                                   | Evet       | Hayır              |
 | Lifecycle services                   |                                                                                           | Evet       | Evet             |
 |                                      | Yapılandırılabilir işletme süreçleri                                                           | Evet       | Hayır              |
 | Yerelleştirmeler                        |                                                                                           | Evet       | Evet             |
@@ -84,7 +84,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 | **Alan**                | **Özellik**             | **Bulut** | **Şirket içi** |
 |-------------------------|-------------------|-----------|-----------------|
-| Kıymet yönetimi                     |                                                                                           | Evet       | No              |
+| Varlık yönetimi                     |                                                                                           | Evet       | Evet             |
 | Uyumluluk ve sertifikalar        |                                                                                           | Evet       | Evet             |
 |                                      | SOC 1 Tip 1 sertifikası                                                                | Evet       | Hayır              |
 | Maliyet muhasebesi                      |                                                                                           | Evet       | Evet             |
@@ -104,21 +104,21 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |                                      | ER: LCS ile tümleştirme                                                                  | Evet       | Hayır              |
 |                                      | ER: SharePoint ile tümleştirme                                                           | Evet       | Hayır              |
 |                                      | ER: Düzenleyici Yapılandırma Hizmeti (RCS) ile tümleştirme                              | Evet       | Hayır              |
-|                                      | ER: Yerel dosya sitemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | No        | Evet             |
-|                                      | PowerBI.com ile tümleştirme                                                              | Evet       | No              |
-|                                      | PowerBI Desktop ile tümleştirme                                                          | No        | Evet             |
-|                                      | Analiz çalışma alanları                                                                     | Evet       | No              |
+|                                      | ER: Yerel dosya sitemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | Hayır        | Evet             |
+|                                      | PowerBI.com ile tümleştirme                                                              | Evet       | Hayır              |
+|                                      | PowerBI Desktop ile tümleştirme                                                          | Hayır        | Evet             |
+|                                      | Analiz çalışma alanları                                                                     | Evet       | Hayır              |
 |                                      | Akıllı iş süreci: Öneriler                                             | Evet       | Hayır              |
 |                                      | Power BI masaüstü veya Excel PowerQuery araçlarını kullanarak OData ile Power BI raporları yazma    | Evet       | Hayır              |
 |                                      | SQL Server Raporlama Servisleri (SSRS) ölçeklemeyi destekler                                 | Evet       | Evet             |
-|                                      | Telemetri buluta aktarılır                                                   | Evet       | No              |
+|                                      | Telemetri buluta aktarılır                                                   | Evet       | Hayır              |
 | Stok Yönetimi                 |                                                                                           | Evet       | Evet             |
 | Lifecycle services                   |                                                                                           | Evet       | Evet             |
 |                                      | Yapılandırılabilir işletme süreçleri                                                           | Evet       | Hayır              |
 | Yerelleştirmeler                        |                                                                                           | Evet       | Evet             |
 | İmalat                        |                                                                                           | Evet       | Evet             |
 | Master planlama ve tahmin      |                                                                                           | Evet       | Evet             |
-| Planlama optimizasyonu                |                                                                                           | Evet       | No              |
+| Planlama optimizasyonu                |                                                                                           | Evet       | Hayır              |
 | Mobil uygulama, çalışma alanı ve platform |                                                                                           | Evet       | Evet             |
 | Office tümleştirmesi                   |                                                                                           | Evet       | Evet             |
 | Kuruluş yönetimi          |                                                                                           | Evet       | Evet             |
@@ -147,7 +147,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Şirket içi dağıtımda kullanılabilen yetenekler listesini görmek için bkz. [Şirket içi dağıtımda kullanılabilen Commerce yetenekleri](../../../retail/retail-onprem.md).
+Şirket içi dağıtımda kullanılabilen yetenekler listesini görmek için bkz. [Şirket içi dağıtımda kullanılabilen Commerce yetenekleri](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
@@ -164,12 +164,12 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 | İzleme ve telemetri   |                                           | Evet       | Evet             |
 | Platform uyumluluğu     |                                           | Evet       | Evet             |
 | Bakım                  |                                           | Evet       | Evet             |
-|                            | Servis ortamları                    | Evet       | No              |
+|                            | Servis ortamları                    | Evet       | Hayır              |
 | İzleme Ayrıştırıcı               |                                           | Evet       | Evet             |
 | PerfTimer                  |                                           | Evet       | Evet\*           |
 | Yükselt                    |                                           | Evet       | Evet             |
-|                            | Yükselt                                   | Evet       | No              |
-|                            | Önceki sürümler için yükseltme ve destek | Evet       | No              |
+|                            | Yükselt                                   | Evet       | Hayır              |
+|                            | Önceki sürümler için yükseltme ve destek | Evet       | Hayır              |
 | Visual Studio geliştirme  |                                           | Evet       | Evet             |
 
 \* Şirket içi ortamlarda, PerfTimer yalnızca istemci için sonuçları gösterir.

@@ -2,15 +2,12 @@
 title: Bir izin isteğini iş akışına gönderme
 description: Microsoft Dynamics 365 Human Resources'ta, iş akışına bırakma isteği göndermek için MyLeaveRequests Submit () uygulama programlama arabirimini (API) kullanabilirsiniz.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51be70edbe1439340377fd01b9760d49d3a75348
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f9ca716f37b90e22983b2dddc2c426a2b4e251ec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115524"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067516"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Bir izin isteğini iş akışına gönderme
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources'ta, iş akışına bırakma isteği göndermek için MyLeaveRequests Submit () uygulama programlama arabirimini (API) kullanabilirsiniz. Bu API, MyLeaveRequests OData varlığı üzerinde bir eylem olarak sunulur.
 
@@ -108,3 +110,5 @@ Gönderme API'sine yapılan çağrının bir parçası olarak İnsan Kaynakları
 
 - [MyLeaveRequests genel bakış](hr-developer-api-myleaverequests-overview.md)
 - [Kimlik doğrulama](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772949"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Kişiselleştirilmiş önerilerden vazgeçme
 
@@ -44,11 +44,11 @@ Commerce arka ofiste hesap yönetiminde, perakendeciler Kullanıcı adına geri 
 1. Arka ofis ana sayfasında, **tüm müşterileri** arayın.
 1. Müşteri arayıp seçin ve sonra **perakende** hızlı sekmesini seçin.
 
-    ![Perakende hızlı sekmesi](./media/Disablepersonalizationpart1.png)
+    ![Perakende hızlı sekmesi.](./media/Disablepersonalizationpart1.png)
 
 1. **Gizlilik**'in altında, **kişiselleştirmeyi devre dışı bırak** seçeneğini **Evet** olarak ayarlayın.
 
-    ![Gizlilik ayarları](./media/Disablepersonalizationpart2.png)
+    ![Gizlilik ayarları.](./media/Disablepersonalizationpart2.png)
 
 1. **Kaydet**'i seçip sayfayı kapatın.
 

@@ -1,8 +1,8 @@
 ---
-title: Ömür olayı uygunluğunu işle
-description: Bu makalede, işlemin ömür olayı uygunluğu için nasıl çalıştırıldığı gösterilmektedir.
-author: andreabichsel
-ms.date: 04/06/2020
+title: Yaşam olayı uygunluğunu işleme
+description: Bu konuda, yaşam olayı uygunluğunun nasıl işleneceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 20b458e67b6504ca1c3efce6b40d1cea4faa7193
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3086718ed8dc0a8da988eb2d4cd07a2fff38e52c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058524"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065905"
 ---
-# <a name="process-life-event-eligibility"></a>Ömür olayı uygunluğunu işle
+# <a name="process-life-event-eligibility"></a>Yaşam olayı uygunluğunu işleme
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu makalede, işlemin ömür olayı uygunluğu için nasıl çalıştırıldığı gösterilmektedir.
+Bu konuda, yaşam olayı uygunluğunun nasıl işleneceği açıklanmaktadır.
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **işlem** altında, **Ömür olayı uygunluk işlemini** seçin.
 

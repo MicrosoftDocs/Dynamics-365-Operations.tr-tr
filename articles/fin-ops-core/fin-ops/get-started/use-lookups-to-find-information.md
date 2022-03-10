@@ -1,12 +1,10 @@
 ---
 title: Aramaları kullanarak bilgi bulma
-description: Birçok alanda, doğru veya istediğiniz değeri bulmanıza yardımcı olabilecek aramalar vardır. Bu denetimleri daha kullanışlı hale getiren ve kullanıcıları daha üretken hale getiren aramalara çeşitli geliştirmeler eklendi. Bu konuda, bu yeni arama özellikleri hakkında bilgi edineceksiniz ve sistemdeki aramalardan en iyi sonucu almak için bazı yararlı ipuçları edineceksiniz.
+description: Bu konuda, arama özellikleri hakkında bilgi edineceksiniz ve sistemdeki aramalardan en iyi sonucu almak için bazı yararlı ipuçları edineceksiniz.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a555db8ced5981abf1f3f58f16b77e1c263dcfa2
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693653"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069310"
 ---
 # <a name="find-information-by-using-lookups"></a>Aramaları kullanarak bilgi bulma
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Birçok alanda, doğru veya istediğiniz değeri bulmanıza yardımcı olabilecek aramalar vardır. Bu denetimleri daha kullanışlı hale getiren ve kullanıcıları daha üretken hale getiren aramalara çeşitli geliştirmeler eklendi. Bu konuda, bu yeni arama özellikleri hakkında bilgi edineceksiniz ve sistemdeki aramalardan en iyi sonucu almak için bazı yararlı ipuçları edineceksiniz.
 
@@ -46,15 +47,15 @@ Birçok alanda, doğru veya istediğiniz değeri bulmanıza yardımcı olabilece
 
 Odak **Şehir** (City) alanındayken, "col" gibi birkaç harf yazarak istediğiniz şehir için arama başlatabilirsiniz. Siz yazmayı durdurduktan sonra arama "col" ile başlayan şehirler filtre edilerek gösterilmiş halde otomatik olarak açılır.
 
-[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 Bu noktada imleç hala arama alanındadır. Değer "colum" olacak şekilde yazmaya devam ederseniz, arama içeriği denetimdeki son değeri yansıtacak şekilde otomatik olarak ayarlanır.
 
-![updateFilterLookupExample](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
 
 Odak arama denetiminde olsa da, seçmek istediğiniz satırı vurgulamak için **Yukarı ok** veya **Aşağı ok** tuşlarını da kullanabilirsiniz. **Enter** tuşuna basarsanız, vurgulanmış satır aramada seçilir ve denetimin değeri güncelleştirilir.
 
-![changingSelectionLookup](./media/changingselectionlookup.png)
+![changingSelectionLookup.](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Koddan daha fazlasını yazma
 
@@ -64,22 +65,25 @@ Veri girerken kullanıcıların, bir varlığı temsil eden bir tanımlayıcı y
 
 Kullanıcı arama denetimine bir **Hesap kodu** girmeye başladığı zaman açılır menü önceki bölümde açıklandığı şekilde otomatik olarak açılır ve kullanıcı aramayı aşağıda gösterildiği gibi görür.
 
-[![Müşteri hesap kodu girildiğinde bağlamsal arama](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Müşteri hesap kodu girildiğinde bağlamsal arama.](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 Ancak, kullanıcı artık bir **Hesap adının** baş kısmını da girebilir. Bu algılandığı zaman kullanıcı aşağıdaki aramayı görecektir. Aramada **Ad** (Name) sütununun ilk sütun olacak şekilde nasıl taşındığına ve aramanın **Ad** sütununa göre nasıl sıralanıp filtrelendiğine dikkat edin.
 
-[![Müşteri adı girildiğinde bağlamsal arama](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Müşteri adı girildiğinde bağlamsal arama.](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Daha gelişmiş filtreleme ve sıralama için kılavuz sütun başlıklarını kullanma
 
 Önceki iki bölümde ele alınan arama geliştirmeleri kullanıcının bir aramada **Kod** veya **Alan** alanının "ile başlar" şeklinde aranmasına göre satırlar arasında gezinme yeteneğini büyük ölçüde geliştiriyor. Bununla birlikte, doğru satırı bulmak için daha gelişmiş filtrelemenin (veya sıralamanın) gerekli olduğu durumlar vardır. Böyle durumlarda kullanıcının arama içinde kılavuz sütun başlıklarında filtreleme ve sıralama seçeneklerini kullanması gerekir. Örneğin, bir satış siparişi satırı girerken ürün olarak doğru "kabloyu" bulması gereken bir çalışan düşünün. "Kablo" ile başlayan ürün adı olmadığı için, **Madde numarası** denetimine "kablo" yazmak yardımcı olmaz.
 
-![emptyitemlookup](./media/emptyitemlookup.png)
+![emptyitemlookup.](./media/emptyitemlookup.png)
 
 Bunun yerine, kullanıcı arama denetiminin değerini temizlemeli, arama açılır menüsünü açmalı ve aşağıda gösterildiği gibi ızgara sütun başlığını kullanarak açılır menüyü filtrelemelidir. Bir kullanıcı sütun başlığına fareyle tıklayarak veya dokunarak o sütunun filtreleme ve sıralama seçeneklerine erişebilir. Klavye kullananlar için, kullanıcının odağı açılır menüye getirmesi için, doğru sütuna gelmek üzere ikinci kez **Alt**+**Aşağı** **oka** basması, ardından **Ctrl**+**G** tuşlarına basarak ızgara sütunu başlığının açılır menüsünü açması gerekir.
 
-[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 Filtre uygulandıktan sonra (aşağıdaki resme bakın) kullanıcı her zamanki gibi satırı bulup seçebilir.
 
-![filtereditemlookup](./media/filtereditemlookup.png)
+![filtereditemlookup.](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

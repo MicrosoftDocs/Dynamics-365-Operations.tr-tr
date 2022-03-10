@@ -2,11 +2,9 @@
 title: Görev listeleri oluşturma ve görev ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'tegörev listeleri oluşturma ve bunlara görev ekleme açıklanmaktadır.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 28bea16c3266115cf09aa80a364344789d60af7a
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756537"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Görev listeleri oluşturma ve görev ekleme
 
@@ -72,7 +70,7 @@ Görev oluştururken görev bağlantıları eklemek için, aşağıdaki adımlar
 
 Aşağıdaki resimde, **görevi düzenle** iletişim kutusunda görev bağlantılarının seçimi gösterilmektedir.
 
-![Düzenle görev iletişim kutusunda görev bağlantıları seçme](media/HQ-POS-Tasks-Linking.png)
+![Düzenle görev iletişim kutusunda görev bağlantıları seçme.](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>Bir göreve bağlanabilmesi için bir POS operasyonu konfigüre et
 

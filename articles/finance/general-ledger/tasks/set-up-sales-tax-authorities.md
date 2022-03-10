@@ -2,11 +2,9 @@
 title: Vergi dairesi ayarlama
 description: Satış vergisi makamları, toplanan satış vergisinin bildirilip ödenmesi gereken kurumlardır.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4847b5f3f50cc74c5b4854e1f0daedd64785baf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cbfc2e1afc7109e70851cbb8b4cb17ce44b2fc4d1946f95f382185b6ae1bb3e4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752163"
 ---
 # <a name="set-up-sales-tax-authorities"></a>Vergi dairesi ayarlama
 
@@ -40,3 +38,6 @@ Satış vergisi makamları, toplanan satış vergisinin bildirilip ödenmesi ger
 10. Yuvarlama alanına bir sayı girin.
 11. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

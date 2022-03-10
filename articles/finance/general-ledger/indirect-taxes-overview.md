@@ -1,28 +1,28 @@
 ---
 title: Satış vergisine genel bakış
 description: Bu konuda, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır.
-author: ShylaThompson
-manager: AnnBe
+author: kailiang
 ms.date: 10/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 13111
+ms.custom:
+- "13111"
+- intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ab8a92af77151b7d0ce7fd9ff625064736ccd2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249059"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983940"
 ---
 # <a name="sales-tax-overview"></a>Satış vergisine genel bakış
 
@@ -30,14 +30,13 @@ ms.locfileid: "5249059"
 
 Bu konuda, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır.
 
-<a name="overview"></a>Özet
---------
+## <a name="overview"></a>Özet
 
 Satış vergisi çerçevesi, farklı türlerdeki dolaylı vergileri destekler, örneğin satış vergisi, katma değer vergisi (KDV), ürün ve hizmet vergisi, birim tabanlı ücretler ve stopaj vergisi gibi. Bu vergiler, satın alma ve satış hareketleri sırasında hesaplanır ve belgelenir. Düzenli olarak vergi dairelerine bildirilmeleri ve ödenmeleri gerekir. 
 
 Aşağıdaki diyagram vergi varlıklarının kurulumunu ve nasıl ilişkilendirildiğini gösterir.
 
-[![Vergi ayarı varlıklarına genel bakışı gösteren diyagram](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Vergi ayarı varlıklarına genel bakışı gösteren diyagram.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Bir şirketin dikkate alması gereken tüm satış vergileri için, bir satış vergi kodu tanımlanması gerekir. Bir satış vergisi kodu, bu satış vergisi için vergi oranlarını ve hesaplama kurallarını saklar. 
 

@@ -1,26 +1,24 @@
 ---
 title: Ambar işinin ertelenmiş işlemesi
 description: Bu konu, Dynamics 365 Supply Chain Management'ta ambar işi koyma işlemlerinin ertelenmiş işlenmesini sağlayan işlevselliği açıklar.
-author: josaw1
-manager: tfehr
+author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c85dd895e18805da2d1daf5f90f64db82bdc0116
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973797"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577876"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Ambar işinin ertelenmiş işlemesi
 
@@ -30,7 +28,7 @@ Bu konu, Dynamics 365 Supply Chain Management'ta mevcut olan ambar işi için er
 
 Ertelenmiş işleme işlevselliği, ambar çalışanlarının arka planda işlenirken ambar işçilerinin başka işler yapmaya devam etmesini sağlar. Ertelenmiş işleme, birçok iş hattının işlenmesi gerektiğinde ve çalışan bu işin zaman uyumsuz olarak işlenmesine izin verebilirse yararlıdır. Ayrıca, sunucu işlem zamanında geçici veya planlanmamış artışlara sahip olabilir ve artan işlem süresi kullanıcının verimliliğini etkileyebilir.
 
-Arka plan işleme SysOperation çerçevesi kullanılarak elde edilir. Daha fazla bilgi için bkz. [SysOperation Çerçevesine Genel Bakış](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+Arka plan işleme SysOperation çerçevesi kullanılarak elde edilir. Daha fazla bilgi için bkz. [SysOperation Çerçevesine Genel Bakış](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>İş işleme ilkelerini yapılandırma
 
@@ -109,3 +107,9 @@ Burada ertelenmiş yerine koyma işleme ilkesi yapılandırılmış olsa bile uy
 ## <a name="deleting-completed-tasks"></a>Tamamlanan görevleri silme
 
 İşlemi tamamladıktan sonra ertelenmiş işleme işlemlerini seçerek ve sayfadan silerek silebilirsiniz.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+- [El ile stok hareketi işlemini ertelenmiş olarak işleme](deferred-processing-manual-inventory-movement.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

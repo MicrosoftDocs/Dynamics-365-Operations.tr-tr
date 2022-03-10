@@ -1,29 +1,26 @@
 ---
 title: Ambar işi için mobil cihazları ayarlama
 description: Bu konuda, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl konfigüre edileceği açıklanmaktadır.
-author: MarkusFogelberg
-manager: tfehr
+author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439663"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902208"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
@@ -44,6 +41,7 @@ Bir etkinlik veya sorgulama için bir menü öğesi oluşturmak için, **Mod** a
 > Ek alanlar, menü öğesi için seçtiğiniz moda ve menü öğesinin var olan işi gerçekleştirmek için kullanılıp kullanılmayacağına bağlı olarak menü öğeleri için kullanılabilir olabilir. Ek alan seçimleri hakkında daha fazla bilgi için, bu konunun ilerleyen noktalarındaki "Ek menü maddesi seçenekleri" bölümüne bakınız.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Etkinlik ve sorgular için menü öğeleri yapılandırma
+
 Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş oluşturmayan bir genel etkinlik veya sorgu gerçekleştirmek için bir menü öğesi oluşturabilirsiniz. Plaka etiketlerini yeniden yazdırmak ve bir konumdaki maddeler hakkında sorgu yapmak örnekler arasındadır. Aşağıdaki tabloda, kullanılabilecek seçenekler listelenmiştir.
 
 | Seçenek | Açıklama |
@@ -65,12 +63,11 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 | Numara serisi önbelleğini temizle | Numara serisi numaralarını numara serisi önbelleğinden silin. Bu etkinlik genellikle mobil cihazlar kullanıldığında önbelleğe alma sorunları çözmek için bir sistem yöneticisi tarafından gerçekleştirilir. |
 | Toplu iş değerlendirmesini değiştir | Bir çalışanın bir madde veya toplu iş için bir toplu iş değerlendirme kodu belirlemesine izin verin. Bu seçim, toplu iş için belirtilen değerlendirme kodunu günceller. |
 | Açık iş listesini görüntüle | Belirli bir kullanıcı için kullanılabilir iş listesini gösterir. Kullanıcı bunun ardından gerçekleştirilecek işi seçebilir ve ona yönlendirilir. Bu liste, 7 inç veya daha geniş ekran boyutuna sahip tablet cihazlarda görüntülenmek üzere hazırlanmıştır. Bu seçeneği belirlediğinizde, **Sorguyu düzenle** ve **Alan listesi** menü öğeleri kullanılabilir olur. **Sorguyu düzenle** sayfası, listede görünen iş için ölçütleri ayarlamanıza imkan verir. **Alan listesi** sayfası, iş listesinde görüntülenecek alanları seçmenize olanak sağlar. Örneğin, görüntülenen alanların sayısını, kullanıcının en uygun iş öğesini daha hızlı seçebileceği şekilde azaltabilirsiniz. **Genel** FastTab'inde, **Sayfa başına kayıt** alanında, sayfa başına kaç iş kaydı gösterileceğini de seçebilirsiniz. **Kullanıcıların işi hareket türüne göre filtrelemesine izin ver** seçeneği belirlendiğinde, iş listesi, kullanıcının hareket türüne göre filtre kullanabileceği bir **İşi filtrele** denetimi içerecektir. İş listesinde, kullanıcılar yalnızca erişim iznine sahip oldukları işi görür. Kullanıcıların, erişebilmeleri gereken belirli iş sınıfı türlerini destekleyen kullanıcı yönlendirmeli bir veya daha fazla menü öğesi için izni olduğundan emin olmanız gerekir. İzinler, kullanıcı listeden iş yapmaya çalıştığında doğrulanır.|
-| Plakadan transfer emri oluştur | Ambar çalışanlarının doğrudan ambar uygulamasından transfer emirleri oluşturmasına ve işlemesine olanak tanır. Ambar çalışanları, hedef ambarı seçerek başlar ve uygulamayı kullanarak bir veya daha fazla plaka tarayabilir. Ambar çalışanı **Siparişi tamamla**'yı seçtiğinde, bir toplu iş bu plakalar için kaydedilen eldeki stoğu temel alan gerekli transfer emri ve sipariş satırlarını oluşturur. Daha fazla bilgi için, bkz. [Ambar uygulamasından transfer emri oluşturma](create-transfer-order-from-warehouse-app.md)
-
+| Plakadan transfer emri oluştur | Ambar çalışanlarının doğrudan Warehouse Management mobil uygulamasından transfer emirleri oluşturmasına ve işlemesine olanak tanır. Ambar çalışanları, hedef ambarı seçerek başlar ve uygulamayı kullanarak bir veya daha fazla plaka tarayabilir. Ambar çalışanı **Siparişi tamamla**'yı seçtiğinde, bir toplu iş bu plakalar için kaydedilen eldeki stoğu temel alan gerekli transfer emri ve sipariş satırlarını oluşturur. Daha fazla bilgi için, bkz. [Ambar uygulamasından transfer emri oluşturma](create-transfer-order-from-warehouse-app.md)
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Başka bir iş veya sürece yönelik iş oluşturmak için menü öğelerini yapılandırma
-İlk eylem mobil cihazda gerçekleştirildikten sonra, başka bir çalışan için iş oluşturan bir menü öğesi ayarlayabilirsiniz. Örneğin, bir çalışan bir mobil cihaz kullanarak bir madde aldığında, başka bir çalışan için yerine koyma işi oluşturulur. İş oluşturan bir menü öğesi ayarlamak için, **Mobil cihaz menü öğeleri** sayfasında, **Mod** alanında **İş** öğesini seçin. Aşağıdaki tabloda, **İş oluşturma süreci** alanındaki seçenekler iş emri türüne göre düzenlenir.
 
+İlk eylem mobil cihazda gerçekleştirildikten sonra, başka bir çalışan için iş oluşturan bir menü öğesi ayarlayabilirsiniz. Örneğin, bir çalışan bir mobil cihaz kullanarak bir madde aldığında, başka bir çalışan için yerine koyma işi oluşturulur. İş oluşturan bir menü öğesi ayarlamak için, **Mobil cihaz menü öğeleri** sayfasında, **Mod** alanında **İş** öğesini seçin. Aşağıdaki tabloda, **İş oluşturma süreci** alanındaki seçenekler iş emri türüne göre düzenlenir.
 
 <table>
 <tbody>
@@ -227,7 +224,7 @@ Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden olu�
 </tr>
 <tr class="even">
 <td>Sistem yönlendirmesinde</td>
-<td>Supply Chain Management denetimleri, bir çalışana atanan iş türlerini ve çalışanın işi gerçekleştirdiği sıralamayı denetler. Bu seçeneği belirlediğinizde, iş için sıralama ölçütünü ayarlayabileceğiniz <strong>Sistem tarafından yönlendirilen sıralama düzeni</strong> sayfasını açmak için Eylem Bölmesi'nde <strong>Sistem tarafından yönlendirilen çalışma</strong> seçeneğine belirleyebilirsiniz. Bu sıralama kriteri, çalışanın işi hangi sırada yapacağını denetler. İhtiyaç duyduğunuz sayıda ölçüt ekleyebilirsiniz.</td>
+<td>Supply Chain Management denetimleri, bir çalışana atanan iş türlerini ve çalışanın işi gerçekleştirdiği sıralamayı denetler. Bu seçeneği belirlediğinizde, iş için sıralama ölçütünü ayarlayabileceğiniz <strong>Sistem tarafından yönlendirilen sıralama düzeni</strong> sayfasını açmak için Eylem Bölmesi'nde <strong>Sistem tarafından yönlendirilen çalışma</strong> seçeneğini belirleyebilirsiniz. Bu sıralama kriteri, çalışanın işi hangi sırada yapacağını denetler. İhtiyaç duyduğunuz sayıda ölçüt ekleyebilirsiniz.</td>
 </tr>
 <tr class="odd">
 <td>Kullanıcı yönlendirmesinde</td>
@@ -410,6 +407,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Çalışanların madde çekerken ürün, konum veya miktarı doğrulamasını gerektirme
+
 Bir çalışanın, ambardaki işi gerçekleştirirken konumu veya miktarı kayda geçirmek için mobil cihaz kullanmasını gerektiren iş doğrulamaları ayarlayabilirsiniz. İş doğrulamaları, çalışanın doğru konumda olmasını veya doğru miktarda madde ile uğraşmasını sağlamaya yardımcı olur. Supply Chain Management'ın işçinin kaydını otomatik olarak doğrulamasını da etkinleştirebilirsiniz. Otomatik doğrulamayı etkinleştirirseniz, konum veya miktar için de doğrulama isteyemezsiniz. İş doğrulamaları, ürünleri ve ürün çeşitlerini de içerir. Ayrıca, bir barkod tarayarak da doğrulamaları kayda geçirebilirsiniz. Ürünleri ve ürün varyantlarını doğrulamak için, ürün veya ürün varyantı için kod girmeniz gerekir. Bu kod, bir ürün kodu, ürün arama kodu, harici kod, GTIN veya barkod olabilir. Kodu girdikten veya barkodu taradıktan sonra, ürün varyantına yönelik boyutlar mobil cihazda görüntülenir. 
 
 Aşağıdaki tabloda, iş doğrulamalarını birlikte kullanabileceğiniz çeşitli iş türleri açıklanmaktadır.
@@ -429,13 +427,13 @@ Aşağıdaki tabloda, iş doğrulamalarını birlikte kullanabileceğiniz çeşi
 > [!NOTE]
 > Ürün onayını yalnızca çekme ve yerine yerleştirme türleri için zorunlu tutabilirsiniz.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
-[Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama](tasks/set-up-mobile-device-menu.md)
-
-[Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-
-[Stok durumları](../inventory/inventory-statuses.md)
+- [Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama](tasks/set-up-mobile-device-menu.md)
+- [Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [Stok durumları](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

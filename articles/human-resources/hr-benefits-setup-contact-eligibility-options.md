@@ -1,35 +1,35 @@
 ---
-title: Kişisel ilgili kişi uygunluk seçeneklerini yapılandır
-description: Microsoft Dynamics 365 Human Resources'un kişisel kişileri için uygunluk seçeneklerini yapılandırın. Özel kişiler lehçileri veya bağımlı olabilir.
-author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+title: Kişisel iletişim uygunluk seçeneklerini yapılandırma
+description: Bu konuda, Microsoft Dynamics 365 Human Resources uygulamasında kişisel ilgili kişiler için uygunluk seçeneklerinin nasıl yapılandırılacağı açıklanmaktadır.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f300ac917ac21db9fffbffcc6eb8589357c0a3e
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466218"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070362"
 ---
-# <a name="configure-personal-contact-eligibility-options"></a>Kişisel ilgili kişi uygunluk seçeneklerini yapılandır
+# <a name="configure-personal-contact-eligibility-options"></a>Kişisel iletişim uygunluk seçeneklerini yapılandırma
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu makalede, Microsoft Dynamics 365 Human Resources'un Yararlarında kullanılacak kişisel ilgili kişi türlerinin nasıl yapılandırılacağı gösterilmektedir. Özel kişiler lehçileri veya bağımlı olabilir. 
+Bu konuda, Microsoft Dynamics 365 Human Resources'daki yan haklarda kullanılabilecek kişisel kişi türlerinin nasıl yapılandırılacağı açıklanmaktadır. Kişisel ilgili kişiler, planlarınız kapsamında yer alacak (bakmakla yükümlü oldukları) veya planlarınızdan yararlanacak kişilerdir (yararlananlar). Bakmakla yükümlü olunan kişiler genellikle eşler veya çocuklardır. Yararlananlar eş, çocuk, sorumlu veya ebeveyn olabilir.
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Kurulum** altında, **Kişisel iletişim kişisi uygunluk seçenekleri** seçin.
 
@@ -42,7 +42,7 @@ Bu makalede, Microsoft Dynamics 365 Human Resources'un Yararlarında kullanılac
    | **Uygunluk seçeneği** | Uygunluk seçeneğini tanımlamak için benzersiz uygunluk seçeneği adı veya kodu. |
    | **Açıklama** | Uygunluk seçeneğinin kısa bir açıklaması |
    | **İlgili kişi uygunluk kodu** | Kişisel uygunluk seçeneğini en iyi açıklayan sistem kodu. Aşağıdaki seçeneklerden birini belirleyebilirsiniz: <ul><li>İlişki</li><li>Öğrenci</li><li>Bakmakla yükümlü olunan kişinin yaşı çok büyük</li><li>Çok yaşlı engelli bakmakla yükümlü olunan kişi</li></ul> |
-   | **Durum** | Uygunluk seçeneği durumu. Uygunluk seçeneğinin durumu etkin değil olarak ayarlanmışsa, kişisel kişiler için o kişisel ilgili kişi uygunluk seçeneğini seçemezsiniz. |
+   | **Durum** | Uygunluk seçeneği durumu. Uygunluk seçeneğinin durumu etkin değil olarak ayarlanmışsa kişisel ilgili kişiler için o kişisel ilgili kişi uygunluk seçeneğini seçemezsiniz. |
    | **İlişki** | Kişisel ilgili kişi ve çalışan arasındaki ilişkiyi belirtir. Bu alan yalnızca, ilgili kişi uygunluğu kodu ilişki olarak ayarlandığında etkindir. |
    | **Yaş** | Kazanç planı için uygun bir kişisel ilgili kişinin yaş üst sınırı. Bu alan yalnızca bir ilişki seçerseniz etkindir. Bu yaş, kişisel ilgili kişinin hesaplanan geçerlilik süresi ile karşılaştırılır. Hesaplanan Yaş: (tedarik tarihi – kişisel ilgili kişi Doğum tarihi/365). Bu sayı her zaman bir tamsayıdır. |
 

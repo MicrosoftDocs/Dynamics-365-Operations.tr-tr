@@ -1,12 +1,10 @@
 ---
 title: Talep tahminleri için geçmiş verisini içe aktar
 description: Doğru talep tahminleri elde etmek için madde veya madde tahsisat anahtarı başına tarihsel talep verisine ihtiyaç duyarsınız. Bu konu herhangi bir sistemden geçmiş verisini almak için veri varlıklarının nasıl kullanılacağını ve böylece daha uzun talep tahmin verisine nasıl sahip olacağınızı açıklar.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d415895bd05b9ab1a2311ab69cc3757047df91db
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6dba31279541c20949dd1e86236103045c48b701
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204628"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579676"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Talep tahminleri için geçmiş verisini içe aktar
 
@@ -41,26 +39,6 @@ Varlık verisini kullanmak için geçmiş talep verisini içeren Microsoft Excel
 
 İçeei aktarma işleminden sonra verilerin nasıl temizleneceği de dahil olmak üzere verilerin nasıl içeri aktarılacağı hakkında daha fazla bilgi için [Veri içeri ve dışarı aktarma işlerine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) ve ilgili konuları inceleyin.
 
-## <a name="example"></a>Örnek
-
-Aşağıdaki dosyayı bir örnek olarak kullanabilirsiniz. [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/) karşıdan yükleyin. Bu dosya, madde D0001 için geçmiş talep verisini içerir. Yalnızca aşağıdaki zorunlu alanları içerir: site, miktar ve talep tarihi.
-
-1. Geçmiş talep verisinin aktarılacağı şirketi seçin.
-2. **Veri yönetimi** çalışma alanını açın.
-3. **İçeri aktar** kutucuğunu seçin.
-4. İçe aktarma projesi için bir ad seçin, örneğin **Madde D0001 için geçmiş talep verisi içe aktar**.
-5. **Kaynak veri biçimi** alanında, içe aktardığınız dosyanın dosya formatını seçin. Bu örnek için HistoricalDemandData dosyasını içe aktarmak için, **CSV** seçeneğini işaretleyin.
-6. **Varlık adı** alanında, **Geçmiş harici talep** seçeneğini işaretleyin.
-7. Dosyayı bilgisayarınıza kaydedin ve sonra karşıya yükleyin.
-8. **İçe aktar**'ı seçin.
-9. **Yürütme özeti** sayfası otomatik olarak açılır. İçe aktarılan veriyi sayfada doğrulayın.
-
-Geçmiş talep verisini içe aktardıktan sonra talep tahminleri oluşturabilirsiniz.
-
-## <a name="additional-resources"></a>Ek kaynaklar
-
-[İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md)  
-[Veri içe ve dışa aktarma işlerine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Ayrıca bkz. [İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

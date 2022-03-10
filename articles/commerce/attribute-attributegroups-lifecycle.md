@@ -2,11 +2,9 @@
 title: Öznitelikler ve öznitelik gruplarını yönetme
 description: Bu konu, bir ürünü veya özelliklerini kullanıcı tanımlı alanlar aracılığıyla açıklamak için özniteliklerin nasıl kullanılacağını açıklar.
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: db72e70f880dfd68cdd35762677c412fb810e4ec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727666"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Öznitelikler ve öznitelik gruplarını yönetme
 
@@ -72,7 +70,7 @@ ms.locfileid: "5211484"
     - Bir öznitelik türüne **Mercek şekli** adını verin ve şu değerleri ekleyin: **Oval**, **Kare** ve **Dikdörtgen**.
     - Diğer öznitelik türüne **Güneç gözlüğü markası** adını verin ve şu değerleri ekleyin: **Ray ban**, **Aviator** ve **Oakley**.
 
-![Öznitelik türleri](media/AttributeType.png)
+![Öznitelik türleri.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Öznitelik ayarlama
 
@@ -81,7 +79,7 @@ ms.locfileid: "5211484"
 3. **Mercek** adında bir öznitelik oluşturun.
 4. **Öznitelik türü** alanını **Mercek şekli** olarak ayarlayın.
 
-![Öznitelikler](media/Attribute.png)
+![Öznitelikler.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Öznitelik meta verileri
 
@@ -103,7 +101,7 @@ Sizin de göreceğiniz gibi **Öznitelikler** sayfası öznitelik meta verileriy
 
 Bu seçeneklerin temel amacı çevrimiçi mağaza için arama işlevini geliştirmektir. Kullanıma hazır olarak çevrimiçi mağaza içermese de e-Ticaret Yayımlama Yazılım Geliştirme Seti (SDK) içerir. Müşteriler bu SDK'yı kullanarak ürünleri istedikleri arama dizinine koyabilir. Ürün verileri içe aktarılsa da müşteriler aranabilir verileri, sorgulanabilecek verileri, vb. birbirinden ayırabilir. Bu şekilde, yalnızca *kendi görüşlerine göre* dizinlenmesi gereken öznitelikleri dizinlediklerinden emin olmak için optimum dizini oluşturabilir.
 
-Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013'te arama şemasına genel bakış](https://technet.microsoft.com/library/jj219669.aspx).
+Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013'te arama şemasına genel bakış](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Öznitelik filtre ayarları
 
@@ -136,7 +134,7 @@ Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013
     - 200 – 500
     - 500 veya üzeri
 
-![Öznitelik filtresi ayarları](media/AttributeFilterSettings.PNG)
+![Öznitelik filtresi ayarları.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Öznitelik grupları
 
@@ -144,7 +142,7 @@ Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013
 
 Bir öznitelik grubuna dahil olan öznitelikler için de varsayılan değerler ayarlayabilirsiniz. Örneğin, bir öznitelik grubuna renk için öznitelik ekleyebilir ve varsayılan öznitelik değeri olarak **Mavi** seçebilirsiniz. Bu durumda, öznitelik grubu, özniteliklerinden biri olarak renk içeren bir ürüne eklendiğinde **Mavi** bu ürün için varsayılan renk olarak görünür.
 
-![Öznitelik grupları](media/AttributeGroup.png)
+![Öznitelik grupları.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Öznitelik grubu oluşturma
 
@@ -157,7 +155,7 @@ Bir öznitelik grubuna dahil olan öznitelikler için de varsayılan değerler a
 
 Bir veya daha fazla öznitelik grubu, şu türdeki perakende kategorisi hiyerarşilerinde kategori düğümleri ile ilişkilendirilebilir: Commerce ürün hiyerarşisi, Kanal gezinti kategori hiyerarşisi ve Ek ürün kategori hiyerarşisi. Ürünler kategorize edildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.
 
-![Ürün hiyerarşisi – Ürün öznitelik grupları](media/AGRetailProdHierarchy.PNG)
+![Ürün hiyerarşisi – Ürün öznitelik grupları.](media/AGRetailProdHierarchy.PNG)
 
 Commerce ürün hiyerarşisinde kategorilere öznitelik grupları atamak için şu adımları izleyin.
 
@@ -202,7 +200,7 @@ Bir veya daha fazla öznitelik grubu mağaza hiyerarşisindeki bir veya daha faz
     3. **Moda Aksesuarlar** kategori düğümünü, **Moda Güneş Gözlükleri** kategorisini ve ardından **Kanal ürün öznitelikleri** hızlı sekmesinde her öznitelik için **Özniteliği ekle**'yi seçin.
     4. **Erkek giyim** kategori düğümünü, **Pantolonlar** kategorisini ve ardından **Kanal ürün öznitelikleri** hızlı sekmesinde her öznitelik için **Özniteliği ekle**'yi seçin.
 
-![Kanal kategorileri ve ürün öznitelikleri - Öznitelik grupları](media/CCPAttrGrp.png)
+![Kanal kategorileri ve ürün öznitelikleri - Öznitelik grupları.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Geçersiz kılınan öznitelik değerleri
 
@@ -216,7 +214,7 @@ Bir veya daha fazla öznitelik grubu mağaza hiyerarşisindeki bir veya daha faz
 4. Izgaradan gerekli ürünü seçin. Ardından Eylem Bölmesinde, **Ürün** sekmesindeki **Ayar** gurubunda **Ürün öznitelikleri**'ni seçin.
 5. Sol bölmeden bir öznitelik seçin ve ardından sağ bölmede değerini güncelleştirin.
 
-![Ürün ayrıntıları sayfası – Ürün öznitelik grupları](media/ProdDetailsProdAttrValues.png)
+![Ürün ayrıntıları sayfası – Ürün öznitelik grupları.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Katalogdaki ürünlerin öznitelik değerlerini geçersiz kılma
 
@@ -235,7 +233,7 @@ Bir veya daha fazla öznitelik grubu mağaza hiyerarşisindeki bir veya daha faz
     > [!NOTE]
     > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri oluşturulursa, tüm ürünlere uygulanır.
 
-![Katalog ürünü öznitelik grupları](media/CatalogProdAttrValues.png)
+![Katalog ürünü öznitelik grupları.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Kanaldaki ürünlerin öznitelik değerlerini geçersiz kılma
 

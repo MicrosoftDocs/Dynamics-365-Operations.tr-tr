@@ -2,11 +2,9 @@
 title: Sekme modülü
 description: Bu konu sekme modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42c3cd99897627dbcdbdec91cfdb03d5743f7388
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723299"
 ---
 # <a name="tab-module"></a>Sekme modülü
 
@@ -30,15 +28,13 @@ ms.locfileid: "4980194"
 
 Bu konu sekme modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
-## <a name="overview"></a>Özet
-
 Sekme modülleri, sekmelerdeki bir site sayfasındaki bilgileri düzenlemek için kullanılan kapsayıcı benzeri modüllerdir. Bunlar, bilgilerin sekmelerde sunulması gereken her sayfada kullanılabilir.
 
 Her sekme modülü içinde bir veya daha fazla sekme madde modülü eklenebilir. Her sekme öğesi modülü tek bir sekmeyi temsil eder. Her sekme madde modülünde, bir veya daha fazla modül eklenebilir. Bir sekme madde modülüne eklenebilecek modül türlerinde bir sınırlama yoktur.
 
 Aşağıdaki resimde site sayfasında kullanılan bir sekme modülü örneği gösterilmektedir. Bu örnekte, **Sevkiyat** sekmesi seçili.
 
-![Sekme modülü örneği](./media/ecommerce-tab.PNG)
+![Sekme modülü örneği.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Sekme modülü özellikleri
 
@@ -83,3 +79,6 @@ Bir sayfaya sekme modülü eklemek ve özellikleri ayarlamak için aşağıdaki 
 [Akordeon modülü](add-accordion.md)
 
 [Metin bloğu modülü](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

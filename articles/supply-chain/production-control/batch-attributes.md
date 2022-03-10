@@ -1,12 +1,10 @@
 ---
 title: Toplu iş öznitelikleri
 description: Bu konuda toplu iş öznitelikleri hakkında bilgiler verilmiştir. Toplu iş öznitelikleri, stok toplu işlerini oluşturan hammaddelerin ve tamamlanan ürünlerin özellikleridir. Bu konuda ayrıca toplu iş özniteliklerinin nasıl atanacağı ve toplu işleri rezerve ettiğinizde bunları nasıl arayacağınız açıklanmaktadır.
-author: ShylaThompson
-manager: tfehr
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup, WHSBatchAttribReserve
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19271
 ms.assetid: 41de0250-4a96-412e-a412-aa06615b6b1d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5e2a27fe73ddd9fcd7cafc0ded05fd8a15841fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ceb971e7468245297f2359317533b123a3a4f83a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966517"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565364"
 ---
 # <a name="batch-attributes"></a>Toplu iş öznitelikleri
 
@@ -52,3 +50,6 @@ Bir müşterinin siparişini yerine getirmek üzere bir satış emrine yönelik 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

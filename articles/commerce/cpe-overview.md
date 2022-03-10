@@ -2,27 +2,23 @@
 title: Dynamics 365 Commerce değerlendirme ortamına genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamı genel görünümünü vermektedir.
 author: v-chgri
-manager: annbe
 ms.date: 07/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
+ms.reviewer: josaw
 ms.assetid: ''
 ms.search.region: Global
-ms.author: v-chgri
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 35cd06070ff73af1c97706bb1cdb67045715d458
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416320"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982651"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce değerlendirme ortamına genel bakış
 
@@ -32,8 +28,6 @@ Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamı genel görünüm
 
 > [!NOTE]
 > Commerce değerlendirme ortamları genel olarak kullanıma sunulmamıştır ve iş ortakları ile müşterilere istek üzerine sunulmaktadır. Daha fazla bilgi için Microsoft iş ortağı ilgili kişisine ulaşın.
-
-## <a name="overview"></a>Özet
 
 Commerce değerlendirme ortamı, iş ortaklarının ve potansiyel müşterilerin Commerce ürününü denemesini sağlayan isteğe bağlı bir uçtan uca Dynamics 365 Commerce değerlendirme ortamıdır.
 
@@ -64,3 +58,6 @@ Commerce değerlendirme ortamını sağlamak için bkz. [Commerce değerlendirme
 [Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)
 
 [Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

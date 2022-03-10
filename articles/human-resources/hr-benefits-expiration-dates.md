@@ -1,31 +1,33 @@
 ---
 title: Kazanç geçerlilik bitiş tarihlerini yönetme
-description: Bu yordam bir yararın süresini uzatmayı veya bitirmeyi, ve bu yarara kaydedilmiş çalışanların kayıt tarihlerini yönetmeyi gösterir.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Bu yordamda, kazançların süresinin nasıl sona erdirileceği veya uzatılacağı ile çalışanların kayıt tarihlerinin nasıl yönetileceği gösterilmektedir.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 2eeb9ccc5bb386d036f44ab6bb8f0999e05439b7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 04751718e22f7339a032ce4a94e919a653876e4b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803765"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065980"
 ---
 # <a name="manage-benefit-expiration-dates"></a>Kazanç geçerlilik bitiş tarihlerini yönetme
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu yordam bir yararın süresini uzatmayı veya bitirmeyi, ve bu yarara kaydedilmiş çalışanların kayıt tarihlerini yönetmeyi gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+Bu yordamda, kazançların süresinin nasıl sona erdirileceği veya uzatılacağı ile çalışanların kayıt tarihlerinin nasıl yönetileceği gösterilmektedir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
 ## <a name="benefit-expiration-dates"></a>Kazanç geçerlilik bitiş tarihleri
 

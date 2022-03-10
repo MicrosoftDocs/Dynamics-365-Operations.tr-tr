@@ -2,7 +2,6 @@
 title: Mali raporlama
 description: Mali raporlama, finans ve şirket profesyonellerinin mali tabloları oluşturmasını, güncelleştirmesini, dağıtmasını ve görüntülemesini sağlar.
 author: aprilolson
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +9,20 @@ ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 68813
+ms.custom:
+- "68813"
+- intro-internal
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b6682295aa53acd5d3d6964c56ff7bcfcd59379d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 20e2b4cb2b68500eeee06f1be5d95fc2cbab246f43b5e4a0e83eca7a8be53005
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769886"
 ---
 # <a name="financial-reporting"></a>Mali raporlama
 

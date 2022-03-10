@@ -2,13 +2,11 @@
 title: Maliyet güncelleştirmelerini yönetme
 description: Standart maliyet verilerindeki güncelleştirmeler iki farklı yaklaşımla yönetilebilir - tek sürümlü yaklaşım ve iki sürümlü yaklaşım.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -17,13 +15,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024682"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678678"
 ---
 # <a name="manage-standard-cost-updates"></a>Maliyet güncelleştirmelerini yönetme
 
@@ -51,3 +49,6 @@ Yeni bir standart fiyat etkinleştirildiğinde, genellikle eldeki stok değeri s
 - **Hiçbiri**: Hiçbir mali boyut, yeniden değerleme işlemi hareketlerine nakledilmez. Hesap yapınız zorunlu bir mali boyut içeriyorsa yeniden değerleme süreci çalışmaya devam eder ancak mali boyutları olmayan muhasebe girişleri oluşturur. Bu durumda, kullanıcılar önce bir uyarı iletisi alır; böylece gerekirse yeniden değerlemeyi iptal edebilirler.
 - **Tablo**: Maddenin mali boyutları, yeniden değerleme işlemi hareketlerinde deftere nakledilir. Bu, varsayılan ayardır ve *Stok standart maliyeti yeniden değerlemesi için mali boyutları varsayılana ayarlama seçenekleri* özelliğini açmadan gerçekleşen özgün sistem davranışıyla uyumludur.
 - **Nakletme** – Yeniden değerleme yapılan hareketin mali boyutları, yeniden değerleme işlemi hareketlerine nakledilir. Varsayılan olarak, hem stok hesabı hem de yeniden değerleme hesabı için özgün hareketin stok hesabındaki mali boyutlar kullanılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

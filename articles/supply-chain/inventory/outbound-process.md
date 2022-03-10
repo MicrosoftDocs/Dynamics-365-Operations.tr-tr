@@ -1,9 +1,9 @@
 ---
 title: Giden işleme genel bakış
 description: Bu konu, Stok Yönetimi'nde giden işlemine genel bakış sağlar.
-author: perlynne
+author: yufeihuang
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: fa80610f35bd46ed130a99abd4448ab51ac6ccfd3fb77f55dbbab0cd1734446d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 85012ada693a98652325a142ba4649a9a826b22b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780638"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982391"
 ---
 # <a name="outbound-process-overview"></a>Giden işleme genel bakış
 

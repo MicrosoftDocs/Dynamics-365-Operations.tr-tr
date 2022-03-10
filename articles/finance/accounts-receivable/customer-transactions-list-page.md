@@ -1,12 +1,10 @@
 ---
 title: Müşteri hareketleri listesi sayfası
 description: Bu konu, Microsoft Dynamics 365 Finance için Müşteri hareketleri listesi sayfası hakkında bilgi sağlar.
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c1bb422b12489598d099b59b3447f620c80c9438
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4339990d4e2fd89abde4da54b005b212cacff751
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991079"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753886"
 ---
 # <a name="customer-transactions-list-page"></a>Müşteri hareketleri listesi sayfası
 
@@ -96,3 +94,6 @@ Her alan, düzenlediğinizde hareket üzerinde farklı bir etkiye sahiptir:
 - **Nakit iskonto şartlarını düzenle:** - Nakit iskontolar, taban tarih ve nakit iskontosu koşullarına dayanarak değiştirilir.
 
 Ödeme ayarları düzenlemeyi bitirdiğinizde, **Kapat**'ı seçerek yaptığınız değişiklikleri kaydedin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

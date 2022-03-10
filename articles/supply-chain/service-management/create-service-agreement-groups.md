@@ -1,12 +1,10 @@
 ---
 title: Servis sözleşmesi grupları oluşturma
-description: Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrelenmesi açısından yararlıdır.
-author: ShylaThompson
-manager: tfehr
+description: Bu konuda, servis sözleşmesi gruplarının nasıl oluşturulacağını gösteren bir yordam açıklanmaktadır.
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78554bbde60a708b11538b11925720698b1952ee
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5770bd9d958b63e4c62135f39224aee68247beff
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234957"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580444"
 ---
 # <a name="create-service-agreement-groups"></a>Servis sözleşmesi grupları oluşturma 
 
@@ -30,7 +28,7 @@ ms.locfileid: "5234957"
 
 Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrelenmesi açısından yararlıdır.
 
-1. **Servis yönetimi** \> **Kurulum** \> **Servis sözleşmeleri** \> **Servis sözleşmesi grupları**'na tıklayın.
+1. **Servis yönetimi** \> **Kurulum** \> **Servis sözleşmeleri** \> **Servis sözleşmesi grupları**'na gidin.
 2. Yeni bir servis sözleşmesi grubu oluşturmak için **Alt+N** tuşlarına basın.
 3. **Servis sözleşmesi grubu** alanında servis sözleşmesi grubu için bir kod girin.
 4. **Açıklama** alanında, servis sözleşmesi grubu için bir açıklama girin.

@@ -1,7 +1,7 @@
 ---
 title: Stok durumları
 description: Bu makalede, stoğu kategorilendirmek ve izlemek için stok durumlarını nasıl kullanabileceğiniz açıklanmaktadır.
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58e9895afecf24a84281049c63d661e690fe2a2f7963d4711dc7cc4d5630322b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db15ad94355823c699e83c9e3f47660f813e1c9a
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735243"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103475"
 ---
 # <a name="inventory-statuses"></a>Stok durumları
 
@@ -64,7 +64,7 @@ Stok durumlarını, **Konuma göre eldeki** sayfasını kullanarak veya *Stok du
 - Stok durumunu geçici bir işlem olarak değiştirmek için **Konuma göre eldeki** sayfasına gidin, ilgili kayıtları seçin ve **Stok durumu değişikliği** düğmesini seçin.
 
 > [!NOTE]
-> *İzleme boyutlarına göre denetlenen maddelerin stok durumunu değiştir* özelliği, yalnızca seçili kayıtları güncelleştirme yeteneği de dahil olmak üzere, izleme boyutlarına göre denetlenen maddelerin stok durumunu değiştirmenize olanak tanır. Özelliği gerektiği gibi etkinleştirmek için [özellik yönetimini](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanın. Özellik etkinleştirildiğinde, aşağıdakileri yapabilirsiniz:
+> *İzleme boyutlarına göre denetlenen maddelerin stok durumunu değiştir* özelliği, yalnızca seçili kayıtları güncelleştirme yeteneği de dahil olmak üzere, izleme boyutlarına göre denetlenen maddelerin stok durumunu değiştirmenize olanak tanır. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *İzleme boyutları tarafından denetlenen maddelerin stok durumunu değiştir* özelliğini aratarak bu işlevi açabilir veya kapatabilir. Özellik etkinleştirildiğinde, aşağıdakileri yapabilirsiniz:
 >
 > - **Konuma göre eldeki** sayfasında, **Boyutları görüntüle** düğmesini kullanarak satırları gösterilen boyutlara göre gruplandırabilir ve seçili satırların durumunu değiştirebilirsiniz.
 > - **Konuma göre eldeki** sayfasında, birden fazla kayıt seçebilir ve Tümünü bir seferde değiştirmek için **Stok durumu değişikliği** düğmesini kullanabilirsiniz.

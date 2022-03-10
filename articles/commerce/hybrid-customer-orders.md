@@ -2,11 +2,9 @@
 title: Karma müşteri siparişleri
 description: Bir karma müşteri siparişi, hem müşteri tarafından mağazadan alınabilecek ürünler içeren hem de daha sonra çekilecek veya sevk edilecek tek bir sipariştir.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bec8389645a06a8287e51195341909ec71a8af2b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a4cb448670af9a6ddce8008be008cf3b0ff76bbce65053bf4618ea6668c4568d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009705"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739541"
 ---
 # <a name="hybrid-customer-orders"></a>Karma müşteri siparişleri
 
@@ -40,3 +38,6 @@ Bir sepet satırı seçildiyse ve **Seçileni çek**, **Seçileni sevk et** veya
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Modern POS'taki (MPOS) müşteri siparişleri](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Şablon kullanarak yevmiye defteri girişi oluşturun
 description: Deftere nakledilen günlük fişleri Fiş şablonu olarak kaydedilebilir ve yeni bir günlük fişine uygulanabilir.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 234cfb98cc07f6c8c81821584e4e1d509d033477
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c015bbba6784f511ac51802ea005d2114e703861370e33350cff62b6005d630c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730542"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Şablon kullanarak yevmiye defteri girişi oluşturun
 
@@ -62,3 +60,6 @@ Deftere nakledilen günlük fişleri Fiş şablonu olarak kaydedilebilir ve yeni
 29. **Tutar** alanına, fişe uygulanacak tutarı girin. **Tutar** alanı yalnızca fiş şablonu türü Yüzde olduğu zaman görüntülenir.  
 30. **Tamam**'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (12 Şubat 2020)
 description: Bu makalede, 12 Şubat 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9d5d88d1d2bc1d6f3ff737b79e6a323e6a5c947
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: ac274cc18ddb3392fb118dcc1df7813cbc5b8293
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128101"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063041"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (12 Şubat 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.2867 uygulanır. Bazı başlıklardaki parantez içindeki numaralar Microsoft Dynamics Lifecycle Services (LCS) destek numaralarına referans verir.
 
@@ -55,7 +54,7 @@ Aşağıdaki Önizleme özellikleri 3 Şubat 2020 ' da kullanılabilir:
 
 ### <a name="platform-update-32"></a>Platform güncelleştirmesi 32 
 
-Platform Güncelleştirmesi 32 yakında kullanıma sunulacaktır. [Platform Güncelleştirmesi 32 hakkında daha fazla bilgi edinin ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Platform Güncelleştirmesi 32 yakında kullanıma sunulacaktır. [Platform Güncelleştirmesi 32 hakkında daha fazla bilgi edinin ](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ### <a name="updated-dataverse-solution"></a>Dataverse Çözüm güncellendi
 
@@ -75,6 +74,8 @@ Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

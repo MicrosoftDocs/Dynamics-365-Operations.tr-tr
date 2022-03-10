@@ -1,12 +1,10 @@
 ---
 title: Sipariş son giriş tarihleri
 description: Bu makalede sipariş giriş son tarihleri hakkında bilgiler verilmiştir. Bir sipariş girişi son tarihi, bir müşteri siparişinin o gün ya da ertesi gün alındığının kabul edilip edilmeyeceğini (ve yerine getirilip getirilmediğini) belirleyen bir kesim tarihidir.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable, MCRAutoTaxRules
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81546f4e260d8632fd85dbc3765091628588988d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 71748cb05346f7a31f51baebb86b9accc11c8478
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205262"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580540"
 ---
 # <a name="order-entry-deadlines"></a>Sipariş son giriş tarihleri
 
@@ -101,8 +99,7 @@ Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son
 
 **Not:** Yaz saati uygulaması devredeyse, son sipariş giriş saati ona göre ayarlanır.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Teslimat zaman çizelgeleri](delivery-schedules.md)
 

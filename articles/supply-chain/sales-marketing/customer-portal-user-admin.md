@@ -1,29 +1,28 @@
 ---
-title: Müşteri portalı kullanıcıları oluşturma ve yönetme
+title: Müşteri portalı kullanıcıları oluşturma ve yönetme (video içerir)
 description: Bu konu, müşteri portalı Kullanıcı hesaplarının nasıl oluşturulacağını ve bunların izinlerinin nasıl ayarlanacağını açıklar.
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996788"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062502"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Müşteri portalı kullanıcıları oluşturma ve yönetme
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 Sistemde bulunmayan uygulamada, kullanıcıların müşteri portalı kullanılarak oluşturulan Web siteleri için kendi kendine kayıt yaptırmalarına olanak yoktur. Oturum açmak ve bir Web sitesini kullanmak için, kullanıcıların yönetici tarafından davet edilmeleri gerekir. Microsoft, kullanıcıların kendi kendine kayıt yapma becerisini kasıtlı olarak engellemiştir.
 
@@ -34,38 +33,38 @@ Kullanıcılar kendi kendine kayıt yaptırtığı zaman, ilgili kişi kayıtlar
 ## <a name="video"></a>Görüntü
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-[Müşterileri müşteri portalınıza kaydolup kullanmaya davet etme](https://youtu.be/drGUYHX9QIQ) videosu (yukarıda gösterilen) YouTube'daki [Finance and Operations oynatma listesine](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eklenmiştir.
+[Müşterileri müşteri portalınıza kaydolup kullanmaya davet etme](https://youtu.be/drGUYHX9QIQ) videosu (yukarıda gösterilen) YouTube'daki [Finans ve Operasyon oynatma listesine](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eklenmiştir.
 
 ## <a name="prerequisite-setup"></a>Ön koşul kurulumu
 
 Power Apps portallarında bulunan ilgili kişiler, Microsoft Dataverse'teki **İlgili kişiler** tablosunda kayıtlar olarak depolanır. Çift yaz daha sonra bu kayıtları gerektiği gibi Microsoft Dynamics 365 Supply Chain Management'a eşitler .
 
-![Müşteri Portalı ilgili kişilerinin sistem diyagramı](media/customer-portal-contacts.png "Müşteri Portalı ilgili kişilerinin sistem diyagramı")
+![Müşteri Portalı ilgili kişilerinin sistem diyagramı.](media/customer-portal-contacts.png "Müşteri Portalı ilgili kişilerinin sistem diyagramı")
 
 Yeni müşterileri davet etmeye başlamadan önce, **İlgili kişi** tablosu eşlemesini çift yazılabilir olarak etkinleştirdiğinizden emin olun.
 
 ## <a name="the-invitation-process"></a>Davet işlemi
 
-Varolan bir ilgili kişiyi müşteri portalına davet etmek için, Power Apps Portal belgelerindeki [ilgili kişileri portallarınıza davet etme](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) adımlarını izleyin.
+Varolan bir ilgili kişiyi müşteri portalına davet etmek için, Power Apps Portal belgelerindeki [ilgili kişileri portallarınıza davet etme](/powerapps/maker/portals/configure/invite-contacts) adımlarını izleyin.
 
-Müşteriyi müşteri portalına katılmaya davet etmeden önce, müşterinin [ilgili kişi kaydının](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) kullanılabilir olduğundan ve aşağıdaki şekilde ayarlandığından emin olun:
+Müşteriyi müşteri portalına katılmaya davet etmeden önce, müşterinin [ilgili kişi kaydının](/powerapps/maker/portals/configure/configure-contacts) kullanılabilir olduğundan ve aşağıdaki şekilde ayarlandığından emin olun:
 
 1. **Şirket** alanını Supply Chain Management'a ait olmasını istediğiniz müşterinin tüzel varlığı girin.
 2. **Hesap Numarası** alanını Supply Chain Management'ta ait olmasını istediğiniz kullanıcının müşteri hesap numarasına girin.
 
 İlgili kişi oluşturulduktan sonra, Supply Chain Management'tan bunu görebilmelisiniz.
 
-Daha fazla bilgi için, Power Apps Portal belgelerindeki [bir portalda kullanılacak ilgili kişiyi konfigüre edin](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts).
+Daha fazla bilgi için, Power Apps Portal belgelerindeki [bir portalda kullanılacak ilgili kişiyi konfigüre edin](/powerapps/maker/portals/configure/configure-contacts).
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>Kullanıma hazır web rolleri ve tablo izinleri
 
-Power Apps portallarında kullanıcı rolleri [web rolleri](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ve [tablo izinleri](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) tarafından tanımlanır. Müşteri Portalı için birkaç rol tanımlanır. Yeni roller oluşturabilir, varolan rolleri değiştirebilir veya kaldırabilirsiniz.
+Power Apps portallarında kullanıcı rolleri [web rolleri](/powerapps/maker/portals/configure/create-web-roles) ve [tablo izinleri](/powerapps/maker/portals/configure/assign-entity-permissions) tarafından tanımlanır. Müşteri Portalı için birkaç rol tanımlanır. Yeni roller oluşturabilir, varolan rolleri değiştirebilir veya kaldırabilirsiniz.
 
 ### <a name="out-of-box-web-roles"></a>Yerleşik Web rolleri
 
 Bu bölümde, müşteri portalı ile teslim edilen Web rolleri açıklanmaktadır.
 
-Kullanıma hazır kullanıcı rollerini değiştirme hakkında daha fazla bilgi için Power Apps portalları belgelerindeki [Portallar için web rolleri oluşturma](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ve [Portallar için tablo izinlerini kullanarak kayıt tabanlı güvenlik ekleme](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) makalelerini inceleyin.
+Kullanıma hazır kullanıcı rollerini değiştirme hakkında daha fazla bilgi için Power Apps portalları belgelerindeki [Portallar için web rolleri oluşturma](/powerapps/maker/portals/configure/create-web-roles) ve [Portallar için tablo izinlerini kullanarak kayıt tabanlı güvenlik ekleme](/powerapps/maker/portals/configure/assign-entity-permissions) makalelerini inceleyin.
 
 #### <a name="administrator"></a>Yönetici
 
@@ -89,9 +88,12 @@ Aşağıdaki tabloda, her bir Web rolündeki kullanıcıların sistemde hangi sa
 
 | Satış siparişi | Yönetici | Müşteri X için müşteri&nbsp;temsilcisi | Yetkilendiren kullanıcı: Jane | Yetkilendiren kullanıcı: Sam | Yetkisiz kullanıcı: May |
 |---|---|---|---|---|---|
-| Müşteri&nbsp;X sipariş veren: &nbsp;Jane | Evet | Evet | Evet | No | No |
-| Müşteri&nbsp;X sipariş veren: &nbsp;Sam | Evet | Evet | No | Evet | No |
-| Müşteri&nbsp;Y Sipariş veren: &nbsp;May | Evet | No | No | No | No |
+| Müşteri&nbsp;X sipariş veren: &nbsp;Jane | Evet | Evet | Evet | Hayır | Hayır |
+| Müşteri&nbsp;X sipariş veren: &nbsp;Sam | Evet | Evet | Hayır | Evet | Hayır |
+| Müşteri&nbsp;Y Sipariş veren: &nbsp;May | Evet | Hayır | Hayır | Hayır | Hayır |
 
 > [!NOTE]
 > Hem Sam, hem Jane, müşteri X için çalışan ilgili kişiler olmakla birlikte, yalnızca kendilerinin yerleştirdikleri siparişleri görebilir, başka birşey görmez. May'in sistemde bir siparişi olsa da, yetkisi olmayan bir kullanıcı olduğu için müşteri portalında o siparişi göremeyebilir. (Ek olarak, siparişi müşteri portalı dışında bir kanala yerleştirmiş olmalıdır.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

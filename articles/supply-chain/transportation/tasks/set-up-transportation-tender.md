@@ -1,7 +1,7 @@
 ---
 title: Taşıma ödemesini ayarlama
 description: Bu yordam, bir taşıma ödemesinin nasıl ayarlanacağını gösterir.
-author: ShylaThompson
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 15dc99f6b355e71e9890ba78709e5959a32d35f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6d149225e5ff59b448bb0ebbd97fcfd511242ae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808978"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571197"
 ---
 # <a name="set-up-a-transportation-tender"></a>Taşıma ödemesini ayarlama
 

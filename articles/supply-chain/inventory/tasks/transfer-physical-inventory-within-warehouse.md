@@ -1,7 +1,7 @@
 ---
 title: Ambar içindeki fiziksel stoğu transfer etme
 description: Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşınması kaydı için bir stok transfer günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar.
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a298f05185f3c81f2fde995e4d731b95a5f8d870
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cf5a3711cfcd6e5a2ddce09af8569ea26c3502c8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832118"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580804"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Ambar içindeki fiziksel stoğu transfer etme
 
@@ -32,10 +32,10 @@ Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşı
 1. **Gezinti bölmesinde**, **Stok yönetimi > Maddelerin girdileri> Maddeler > Aktarma** üzerine gidin.
 2. **Yeni**'ye tıklayın.
 3. **Ad** alanına bir değer girin veya buradan bir değer seçin.
-4. **Tamam**'a tıklayın. Her bir günlük satırının 'Başlangıç' ve 'Bitiş' boyutlarını belirtmek için seçenek vardır. Bu günlük türü için bunlar önemlidir. Ürünleri yerleşimlere farklı kurallar kullanarak transfer edebilirsiniz. Bu örnekte, aynı ambar içindeki bir ürün bir plaka denetimli olan bir yerleşimden plaka denetimli olmayan bir yerleşime transfer ediliyor.   
+4. **Tamam**'a tıklayın. Her bir yevmiye defteri satırının 'Başlangıç' ve 'Bitiş' boyutlarını belirtmek için seçenek vardır. Bu günlük türü için bunlar önemlidir. Ürünleri yerleşimlere farklı kurallar kullanarak transfer edebilirsiniz. Bu örnekte, aynı ambar içindeki bir ürün bir plaka denetimli olan bir yerleşimden plaka denetimli olmayan bir yerleşime transfer ediliyor.   
 
-## <a name="create-journal-lines"></a>Günlük satırları oluştur
-1. **Günlük satırları hızlı sekmesi** içinde **Yeni** üzerine tıklayın.
+## <a name="create-journal-lines"></a>Yevmiye defteri satırları oluştur
+1. **Yevmiye defteri satırları hızlı sekmesi** içinde **Yeni** üzerine tıklayın.
 2. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin. USMF kullanıyorsanız, 'A0001' öğesini seçebilirsiniz.  
 3. **Kaynak tesis** alanında bir değer girin veya bir değer seçin. USMF kullanıyorsanız, '2' öğesini seçebilirsiniz.  
 4. **Hedef tesis** alanında bir değer girin veya bir değer seçin. USMF kullanıyorsanız, '2' öğesini seçebilirsiniz.  

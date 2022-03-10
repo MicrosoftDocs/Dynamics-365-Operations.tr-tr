@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 44df05083cd3c91e5dcbdb3062665c2145d92a7e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889824"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060843"
 ---
 # <a name="copy-an-instance"></a>Örnek kopyala
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Human Resources veritabanını bir korumalı alan ortamına kopyalamak için Microsoft Dynamics Lifecycle Services'i (LCS) kullanabilirsiniz. Başka bir korumalı alan ortamınız varsa veritabanını bu ortamdan hedeflenen korumalı alan ortamına da kopyalayabilirsiniz.
 
@@ -53,9 +52,9 @@ Bir İnsan Kaynakları veritabanını kopyaladığınızda aşağıdaki olaylar 
 
 - Microsoft Azure Blob depolama birimindeki belgeler bir ortamdan diğerine kopyalanmaz. Bunun sonucunda, ekli tüm belge ve şablonlar kopyalanmaz ve kaynak ortamda kalır.
 
-- Yönetici kullanıcı dışındaki tüm kullanıcı hesapları ve iç hizmet kullanıcıları devre dışı bırakılacak. Yönetici kullanıcı, diğer kullanıcılar sisteme geri dönmeden önce verileri silebilir veya karartırabilir.
+- "Sistem Yöneticisi" güvenlik rolüne ve diğer iç hizmet kullanıcı hesaplarına sahip olanlar haricindeki tüm kullanıcılar kullanılamaz. Yönetici kullanıcı, diğer kullanıcılar sisteme geri dönmeden önce verileri silebilir veya karartırabilir.
 
-- Yönetici kullanıcının, belirli hizmetlere veya URL'lere tümleştirme son noktalarına yeniden bağlanması gibi gerekli yapılandırma değişikliklerini yapması gerekir.
+- "Sistem Yöneticisi" güvenlik rolüne sahip kullanıcılar, tümleştirme uç noktalarını belirli hizmetlere veya URL'lere yeniden bağlama gibi gerekli yapılandırma değişikliklerini yapmalıdır.
 
 ## <a name="copy-the-human-resources-database"></a>İnsan Kaynakları veritabanını Kopyala
 
@@ -72,11 +71,11 @@ Bu görevi tamamlamak için, önce bir örneği kopyalayın ve sonra Power Apps 
 
 4. **Örneği kopyala** görev bölmesinde, üzerine yazılacak örneği seçin ve sonra **Kopyala**'yı seçin. **Kopyalama durumu** alanı değerinin **tamamlandı** olarak güncelleştirilmesini bekleyin.
 
-   ![[Üzerine yazılacak örneği Seç](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Üzerine yazılacak örneği seçme.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. **Power Platform**'u seçin ve Microsoft Power Platform Yönetim Merkezi'nde oturum açın.
 
-   ![[Power Platform öğesini seçin.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Power Platform'u seçme.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Kopyalanacak Power Apps ortamını seçin ve sonra **Kopyala**'yı seçin.
 
@@ -112,7 +111,7 @@ Ortama özel oldukları için bu öğelerden bazıları kopyalanmaz. **BatchServ
 
 Bir örneği kopyaladığınızda aşağıdaki durumlar da değişir:
 
-- Yönetici dışındaki tüm kullanıcılar **devre dışı** olarak ayarlandı.
+- "Sistem Yöneticisi" güvenlik rolüne sahip olanlar haricindeki tüm kullanıcılar **Devre Dışı** olarak ayarlanır.
 
 - Bazı sistem işleri hariç, tüm toplu işler **stopaj** olarak ayarlanmıştır.
 

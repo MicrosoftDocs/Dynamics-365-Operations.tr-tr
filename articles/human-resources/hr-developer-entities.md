@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,21 +15,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e316cda9b9c5361c0a2837e7ed6c050e76cc39b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6774fad3543d80d04faacf5960c8037f1734f084
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793621"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066837"
 ---
 # <a name="dataverse-tables"></a>Dataverse tabloları
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources, Dataverse genişletilebilirlik ve tümleştirme senaryolarını etkinleştirmek için kullanılır.
 
 > [!NOTE]
-> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)
 
 Aşağıdaki Dataverse tabloları Human Resources varlıklarına göre kullanılabilir.
 
@@ -153,27 +155,27 @@ Aşağıdaki Dataverse tabloları Human Resources varlıklarına göre kullanıl
 
 ### <a name="worker"></a>Çalışan
 
-![Çalışan](./media/HCMCommon-worker-entity-diagram.png)
+![Çalışan.](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>İş ve Iş pozisyonu
 
-![İş ve Iş pozisyonu](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![İş ve Iş pozisyonu.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
 ### <a name="benefits"></a>Kazançlar
 
-![Kazançlar](./media/HCMCommon-benefits-entity-diagram.png)
+![Kazançlar.](./media/HCMCommon-benefits-entity-diagram.png)
 
-### <a name="compensation"></a>Ücret
+### <a name="compensation"></a>Maaş
 
-![Ücret](./media/HCMCommon-compensation-entity-diagram.png)
+![Ücret.](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Bırak
+### <a name="leave"></a>İzin
 
-![Bırak](./media/HCMCommon-leave-entity-diagram.png)
+![İzin.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>İş Takvimi
 
-![İş Takvimi](./media/HCMCommon-work-calendar-entity-diagram.png)
+![İş Takvimi.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
@@ -181,8 +183,8 @@ Aşağıdaki Dataverse tabloları Human Resources varlıklarına göre kullanıl
 [Dataverse tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)<br>
 [Dataverse sanal tablolarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Human Resources sanal tablolarıyla ilgili SSS](hr-admin-virtual-entity-faq.md)<br>
-[Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Terminoloji güncelleştirmeleri](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminoloji güncelleştirmeleri](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

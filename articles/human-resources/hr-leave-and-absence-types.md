@@ -1,8 +1,8 @@
 ---
 title: İzin ve devamsızlık türlerini yapılandırma
 description: Dynamics 365 Human Resources'ta çalışanların götürebileceği izin tiplerini ayarlayın.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63970f69a437864675eada975c54446325fb60e2
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 76b8661c4c6d8fe6cf0568be966f1652b95b5442
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639594"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067339"
 ---
 # <a name="configure-leave-and-absence-types"></a>İzin ve devamsızlık türlerini yapılandırma
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -65,9 +68,9 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
 
 1. İzin türü için yuvarlama seçeneklerini ayarlayın. **Yok**, **yukarı**, **aşağı** ve **en yakın** seçenekleri vardır. Ayrıca, izin tipiyle ilgili Yuvarlama Duyarlığı da ayarlayabilirsiniz.
 
-2. İzin türü için **tatil düzeltmesi** ayarlayın. Bu seçeneği belirlediğinizde, izin türü için sürenin nasıl tahakkuk ettirildiğini belirlemek için İnsan Kaynakları iş gününe denk düşen tatilleri kullanır. Örneğin, Noel günü Pazartesi gününe denk gelirse İnsan Kaynakları tahakkukları işlerken izin türünden bir günü çıkarır.
+2. İzin türü için **tatil düzeltmesi** ayarlayın. Bu seçeneği belirlediğinizde izin türü için sürenin nasıl tahakkuk ettirildiğini belirlemek üzere bir iş gününe denk düşen tatil sayısı kullanılır. Örneğin, Noel günü Pazartesi gününe denk gelirse İnsan Kaynakları tahakkukları işlerken izin türünden bir günü çıkarır.
 
-   Tatilleri çlışma zmaanı takviminde ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md)
+   Tatilleri çlışma zmaanı takviminde ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md).
    
  3. İzin türü için **ileriye doğru izin türü** ayarlayın. Bu seçeneği belirlediğinizde, tüm ileri düzey bakiyeleri belirtilen izin türüne aktarılır. İleriye yönelik izin türü de, bırak ve devamsızlık planına dahil edilmesi gerekir. 
  
@@ -76,18 +79,18 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
 ## <a name="configure-the-required-attachment-per-leave-type"></a>İzin türü başına gerekli eki yapılandırma
 
 > [!NOTE]
-> **Ek gerekli** alanını kullanmak için önce Özellik yönetiminde **(Önizleme) İzin talepleri için gerekli eki yapılandırma** özelliğini açmalısınız. Önizleme özelliklerini açma hakkında daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
+> **Ek gerekli** alanını kullanmak üzere ilk olarak Özellik yönetiminde **İzin istekleri için gerekli eki yapılandırma** özelliğini açmanız gerekir. Özellikleri açma hakkında daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
 
 1. **İzin ve devamsızlık** sayfasında, **Bağlantılar** sekmesinde, **Kurulum** altında **İzin ve devamsızlık türleri**'ni seçin.
 
-2. Listeden bir izin ve devamsızlık türü seçin. Ardından, **Genel** bölümünde, bir çalışan seçili izin türü için yeni bir izin talebi gönderdiğinde ekin yüklenmesi gerekip gerekmediğini belirtmek için **Ek gerekli** alanını kullanın. 
+2. Listeden bir izin ve devamsızlık türü seçin. Ardından, **Genel** bölümünde, bir çalışan seçili izin türü için yeni bir izin isteği gönderdiğinde ekin yüklenmesi gerekip gerekmediğini belirtmek için **Ek gerekli** alanını kullanın. 
 
-Çalışanların, **Ek gerekli** alanının etkinleştirildiği bir izin türüne sahip yeni bir izin talebi gönderdiklerinde bir ek yüklemeleri gerekecektir. İzin talebi kapsamında yüklenen eki görüntülemek için izin talebini onaylayanlar kendilerine atanan iş öğeleri için **Ekler** seçeneğini kullanabilir. Microsoft Teams'deki Human Resources uygulaması kullanılarak bir izin talebine erişilirse izin talebi için **Ayrıntıları görüntüle** seçeneği, ayrıntılarını ve eklerini görüntülemek için kullanılabilir.
+Çalışanların, **Ek gerekli** alanının etkinleştirildiği bir izin türüne sahip yeni bir izin isteği gönderdiklerinde bir ek yüklemeleri gerekecektir. İzin isteği kapsamında yüklenen eki görüntülemek için izin isteğini onaylayanlar kendilerine atanan iş öğeleri için **Ekler** seçeneğini kullanabilir. Microsoft Teams'deki Human Resources uygulaması kullanılarak bir izin isteğine erişilirse izin isteği için **Ayrıntıları görüntüle** seçeneği, ayrıntılarını ve eklerini görüntülemek için kullanılabilir.
 
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>İzin türü başına izin birimlerini (saat/gün) yapılandırma
 
 > [!NOTE]
-> İzin türü başına izin birimleri işlevini kullanmak için önce Özellik yönetiminde **(Önizleme) İzin birimi başına izin birimlerini yapılandırma** özelliğini açmanız gerekir. Önizleme özelliklerini açma hakkında daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
+> İzin türü başına izin birimleri işlevini kullanmak üzere ilk olarak Özellik yönetiminde **İzin birimi başına izin birimlerini yapılandırma** özelliğini açmanız gerekir. Özellikleri açma hakkında daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
 
 > [!IMPORTANT]
 > Varsayılan olarak, bir tüzel kişilikteki izin türleri, izin parametrelerinin tüzel kişilik düzeyindeki yapılandırmasındaki izin birimlerini kullanır.
@@ -100,9 +103,9 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
 
 2. Listeden bir izin ve devamsızlık türü seçin. Ardından, **Genel** bölümünde, **Birim** alanında, izin birimini seçin. **Saat** veya **Gün**'ü seçebilirsiniz.
 
-3. İsteğe bağlı: **Birim** alanında **Saat**'i seçtiyseniz çalışanların yarım günlük izin talep etmeleri durumunda ilk yarım günü mü yoksa ikinci yarım günü mü seçebileceğini belirtmek için **Yarım gün tanımını etkinleştir** alanını kullanabilirsiniz.
+3. İsteğe bağlı: **Birim** alanında **Saat**'i seçtiyseniz çalışanların yarım günlük izin istemeleri durumunda ilk yarım günü mü yoksa ikinci yarım günü mü seçebileceğini belirtmek için **Yarım gün tanımını etkinleştir** alanını kullanabilirsiniz.
 
-Yeni bir izin talebi gönderen çalışanlar, izin taleplerini oluşturmak için farklı izin türleri seçebilirler. Ancak, tek bir izin talebinin parçası olarak seçilen tüm izin türleri aynı izin birimine sahip olmalıdır. Çalışanlar, her izin türü için izin birimini **İzin talebinde bulunma** formunda görüntüleyebilir.
+Yeni bir izin isteği gönderen çalışanlar, izin isteklerini oluşturmak için farklı izin türleri seçebilirler. Ancak, tek bir izin isteğinin parçası olarak seçilen tüm izin türleri aynı izin birimine sahip olmalıdır. Çalışanlar, her izin türü için izin birimini **İzin isteme** formunda görüntüleyebilir.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

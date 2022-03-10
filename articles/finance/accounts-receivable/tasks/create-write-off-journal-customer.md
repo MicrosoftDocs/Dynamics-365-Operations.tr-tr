@@ -2,11 +2,9 @@
 title: Müşteri için silme günlüğü oluşturma
 description: Bu görev kılavuzunda, silme işlemleri parametrelerinin ve ardından silme hareketlerinin Tahsilatlar sayfasından, Açık müşteri faturaları sayfasından ve Müşteri sayfasından nasıl ayarlanacağını göreceksiniz.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6526e57cf2ed84161eb7a92c031127bb6c6536a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3e810badf9b43a3b0e57390b05247113021e26b6a0242cf29022274307c5fd56
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771812"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Müşteri için silme günlüğü oluşturma
 
@@ -77,9 +75,12 @@ Bu görev kılavuzunda, silme işlemleri parametrelerinin ve ardından silme har
 
 ## <a name="write-off-a-customer-balance-from-the-customer-page"></a>Bir müşteri bakiyesini müşteri sayfasında silin
 1. **Alacak hesapları > Müşteriler > Tüm müşteriler**'e gidin.
-2. Bir müşteri hesabı seçin. Örneğin, US-001 (Contoso Retail San Diego) değerini seçin.
+2. Bir müşteri hesabı seçin. Örneğin, US-001 (Contoso Retail San Diego) seçeneğini belirleyin.
 3. **Eylem Bölmesinde**, **Tahsil et** öğesine tıklayın.
 4. **Sil**'e tıklayın.
 5. **Tamam**'a tıklayın.
 6. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 2da0421bdb1496d51c807e51a26a980238886a42dfec167dac95611cc3df97bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730046"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102850"
 ---
 # <a name="cluster-position-full"></a>Küme konumu dolu
 
@@ -28,14 +28,11 @@ ms.locfileid: "6730046"
 
 Bu özellik, bir kümedeki çalışma birimlerinden birinde **Dolu** düğmesinin çalıştırılmasını sağlar. Eski sürümlerde bu seçenek, küme çekmede değil, yalnızca normal sipariş çekmesinde kullanılabiliyordu. Ancak, bu özellik kalan çalışmayı iptal eden standart **Dolu** düğmesinden farklıdır. Kullanıcının aynı kümeye başka bir bölme eklemesini önermez ve otomatik olarak yeni bir iş oluşturmaz.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>Küme konumu dolu özelliğini açma
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Küme konumu dolu özelliğini açma veya kapatma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+Bu konuda açıklanan işlevi kullanmak için *Küme konumu dolu* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Küme konumu dolu* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Küme konumu dolu*
-
-## <a name="setup"></a>Ayar
+## <a name="setup"></a>Kurulum
 
 Bu bölümde, yönergeler ile *küme konumu dolu* özelliğinin nasıl ayarlanacağını ve kullanılacağını gösteren bir örnek verilmiştir.
 

@@ -2,7 +2,7 @@
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774421"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927491"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -32,7 +32,99 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Mayıs 2021'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+## <a name="feature-removal-effective-october-2021"></a>Özellik kaldırma geçerlilik tarihi: 2021 Ekim
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Lifecycle Services'de (LCS) Microsoft Azure SQL raporları
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Tüm etkinlikler ve izleme; dahili olarak, platform tarafından ve otomasyon üzerinden gerçekleştirilir. Bu işlem için el ile müdahale gerekmez.|
+| **Başka bir özellikle mi değiştirildi?**   | Evet, artık bu yetenekleri geçersiz kılan otomatik bir sistem var. |
+| **Etkilenen ürün alanları**         | SQL raporları: Geçerli DTU, Geçerli DTU Ayrıntıları, Kilit Ayrıntılarını Al, Geçerli Plan Kılavuzunun Listesi, Sorgu Kimliklerinin Listesini Al, Belirli bir Plan Kimliği için SQL sorgu planını al, Sorgu planlarını ve yürütme durumunu al, Azaltma yapılandırmasını al, Bekleme istatistiklerini al, En pahalı sorguları listele |
+| **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
+| **Durum**                         | Kaldırıldı |
+
+### <a name="azure-sql-actions-in-lcs"></a>LCS'de Azure SQL eylemleri
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | LCS'de bazı SQL eylemlerini kullanımdan kaldırıyoruz. Tüm etkinlikler ve izleme; dahili olarak, platform tarafından ve otomasyon üzerinden gerçekleştirilir. Bu işlem için el ile müdahale gerekmez. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, artık bu yetenekleri geçersiz kılan otomatik bir sistem var. |
+| **Etkilenen ürün alanları**         | SQL eylemleri: Plan Kodu zorlamak için bir plan kılavuzu oluştur, Tablo ipuçları eklemek için bir plan kılavuzu oluştur, Plan Kılavuzunu kaldır, Sayfa kilitlerini ve kilit ilerletmeyi Devre Dışı Bırak/Etkinleştir, Tablodaki istatistikleri güncelleştir, Dizini yeniden oluştur, Dizin oluştur |
+| **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
+| **Durum**                         | Kaldırıldı |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Ekim 2021'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+
+### <a name="show-related-document-attachments-feature"></a>"İlgili belge eklerini göster" özelliği
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Özellik, beklenmeyen sonuçlar döndürdü. |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır. Bu işlevlerle ilgili daha fazla plan, standart serbest bırakma bilgi işlem sürecimiz aracılığıyla size gönderilecek. |
+| **Etkilenen ürün alanları**         | Web istemcisi - Belge eki deneyimi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.23 sürümü için platform güncelleştirmeleri
+
+### <a name="ondbsynchronize-event"></a>OnDBSynchronize olayı
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bu olayı yürütecek bir denetim yok. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, **OnDBSynchronize** olayıyla abone olunan mevcut yöntemleri SysSetup genişletilmiş sınıfına taşıyın. |
+| **Etkilenen ürün alanları**         | Veritabanı eşitleme |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı. Planlanan kaldırma tarihi: Ekim 2022. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>SystemNotificationsManager.AddNotification API
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft, bildirim eklerken ek parametreler gerektirir. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, **SystemNotificationsManager.AddSystemNotification()** API. Bu API, üretilen bildirimler için ExpirationDateTime ve RuleID'yi açık olarak ayarlamış olmanızı gerektiriyor. |
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı. Planlanan kaldırma tarihi: Nisan 2023. |
+
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri
+
+### <a name="skype-for-business-online-support"></a>Skype for Business Çevrimiçi desteği
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Skype for Business Çevrimiçi kullanım dışı bırakılmıştır. Daha fazla bilgi için bkz. [Skype for Business Çevrimiçi hizmeti kullanım dışı bırakıldı](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Başka bir özellikle mi değiştirildi?**   | Şu anda değil ancak gelecekte Teams uygulamasından varlık eklemeyi düşünebiliriz.|
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı. **Skype etkinleştirildi** ayarı, 10.0.21 sürümünden itibaren kapatılmıştır. Nisan 2022'de bu ayarın kaldırılması hedefleniyor ancak, Skype ekibi hizmeti kapattıktan sonra özellik çalışmayı durduracaktır. |
+ 
+## <a name="feature-deprecation-effective-august-2021"></a>Ağustos 2021'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Lifecycle Services'de (LCS) Microsoft Azure SQL raporları
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Tüm etkinlikler ve izleme; dahili olarak, platform tarafından ve otomasyon üzerinden gerçekleştirilir. Bu işlem için el ile müdahale gerekmez.|
+| **Başka bir özellikle mi değiştirildi?**   | Evet, artık bu yetenekleri geçersiz kılan otomatik bir sistem var. |
+| **Etkilenen ürün alanları**         | SQL raporları: Geçerli DTU, Geçerli DTU Ayrıntıları, Kilit Ayrıntılarını Al, Geçerli Plan Kılavuzunun Listesi, Sorgu Kimliklerinin Listesini Al, Belirli bir Plan Kimliği için SQL sorgu planını al, Sorgu planlarını ve yürütme durumunu al, Azaltma yapılandırmasını al, Bekleme istatistiklerini al, En pahalı sorguları listele |
+| **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
+| **Durum**                         | Kullanım dışı: Ekim 2021'de planlanan kaldırma tarihi. |
+
+### <a name="azure-sql-actions-in-lcs"></a>LCS'de Azure SQL eylemleri
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | LCS'de bazı SQL eylemlerini kullanımdan kaldırıyoruz. Tüm etkinlikler ve izleme; dahili olarak, platform tarafından ve otomasyon üzerinden gerçekleştirilir. Bu işlem için el ile müdahale gerekmez. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, artık bu yetenekleri geçersiz kılan otomatik bir sistem var. |
+| **Etkilenen ürün alanları**         | SQL eylemleri: Plan Kodu zorlamak için bir plan kılavuzu oluştur, Tablo ipuçları eklemek için bir plan kılavuzu oluştur, Plan Kılavuzunu kaldır, Sayfa kilitlerini ve kilit ilerletmeyi Devre Dışı Bırak/Etkinleştir, Tablodaki istatistikleri güncelleştir, Dizini yeniden oluştur, Dizin oluştur |
+| **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
+| **Durum**                         | Kullanım dışı: Ekim 2021'de planlanan kaldırma tarihi. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Mayıs 2021'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Lifecycle Services (LCS) içinde genelleştirme portalı
 
@@ -86,7 +178,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | EP, Finance and Operations uygulamalarında hiçbir zaman desteklenmediğinden, Dynamics AX 2012 Enterprise Portal (EP) ile ilişkili meta veri yapıtları, kullanımdan kaldırıldı. |
-| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanım dışı: EP kodunun tamamının, Ekim 2021 sürümünde kaldırılması planlanıyor. |
@@ -136,7 +228,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Genel olarak, özel kod sınırlı avantaj sunarken destek için önemli miktarda kaynak kullanımı ve işlem gerektirir. Özel kod, öncelikle özel bir kod derlemesinden genel yöntemleri çağırmak için rapor yazarları tarafından kullanılır. Ancak, bulutta barındırılan hizmet SSRS raporları için özel derlemelere yönelik başvuruları desteklemez. |
-| **Başka bir özellikle mi değiştirildi?**   | Rapor yazarları, herhangi bir metin kutusu ifadesinden Matematik, Dönüştürme ve Biçim işlemleri için genel .NET API'larına başvuruda bulunmaya devam etmeyi seçebilirler. Daha fazla bilgi için bkz. [Rapora Kod Ekleme (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Başka bir özellikle mi değiştirildi?**   | Rapor yazarları, herhangi bir metin kutusu ifadesinden Matematik, Dönüştürme ve Biçim işlemleri için genel .NET API'larına başvuruda bulunmaya devam etmeyi seçebilirler. Daha fazla bilgi için bkz. [Rapora Kod Ekleme (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Etkilenen ürün alanları**         | Özel kod içeren RDL'de tanımlanan uygulama raporu tasarımlarının alt kümesi. |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Sürüm 10.0.13 ile, derleyici bir SSRS rapor tanımında özel kodun algılandığı durumlar için uyarı vermeyi başlayacaktır. Sorunu gidermek için rapor tasarımı tanımını açın ve tüm özel kod yapılarını kaldırın. Bu uyarı gelecekteki bir güncelleştirmede bulunan bir derleyici hatasıyla değiştirilecektir.   |
@@ -159,7 +251,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | [Yeni kılavuz denetimi](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Sürüm 10.0.13'te, yeni kılavuz denetimi genellikle kullanılabilirdir ve müşteriler isteğe bağlı olarak bu özelliği açabilir. Yeni kılavuz denetimi Ekim 2021 sürümünde zorunlu olacaktır. Yeni kılavuz denetimi zorunlu hale geldiğinde **forceLegacyGrid()** API kabul edilmeyecek. |
+| **Durum**                         | Sürüm 10.0.13'te, yeni kılavuz denetimi genellikle kullanılabilirdir ve müşteriler isteğe bağlı olarak bu özelliği açabilir. Yeni kılavuz denetimi, Ekim 2021 sürümüyle varsayılan olarak kullanılabilecektir ve şu anda Nisan 2022'de zorunlu olması hedeflenmektedir. Yeni kılavuz denetimi zorunlu hale geldiğinde **forceLegacyGrid()** API kabul edilmeyecek. |
 
 ### <a name="personalization-without-saved-views"></a>Kaydedilmiş görünümler olmadan kişiselleştirme 
 
@@ -210,7 +302,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Tablo meta veri tanımlarındaki alan grupları, geçersiz alan referansları içerebilir. Bu alan grupları dağıtılırsa, Financial Reporting ve  Microsoft SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Platform güncelleştirmesi 23, bu meta veri veri sorununun giderilmesi için bir derleyici *uyarısı* getirdi. Finance and Operations uygulamalarının 10.0.11 sürümü için platform güncelleştirmeleri bu sorunu bir derleyici *hatası* olarak sınıflandırır.<p>Bu sorunu düzeltmek için şu adımları izleyin.</p><ol><li>Geçersiz alan referansını tablo alanı grubu tanımından kaldırın.</li><li>Yeniden derleyin.</li><li>Hataların giderildiğinden emin olun.</li></ol> |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Tablo meta veri tanımlarındaki alan grupları, geçersiz alan referansları içerebilir. Bu alan grupları dağıtılırsa, Financial Reporting ve  Microsoft SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Platform güncelleştirmesi 23, bu meta veri veri sorununun giderilmesi için bir derleyici *uyarısı* getirdi. Finance and Operations uygulamalarının 10.0.11 sürümü için platform güncelleştirmeleri bu sorunu bir derleyici *hatası* olarak sınıflandırır.<p>Bu sorunu düzeltmek için aşağıdaki adımları izleyin.</p><ol><li>Geçersiz alan referansını tablo alanı grubu tanımından kaldırın.</li><li>Yeniden derleyin.</li><li>Hataların giderildiğinden emin olun.</li></ol> |
 | **Başka bir özellikle mi değiştirildi?**   | Bu derleyici hatası, derleyici uyarısının kalıcı olarak yerini alır.  |
 | **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |
@@ -243,7 +335,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Hizmet tarafından işlenen belgelere katıştırılmış olan gezinti URL'leri hassas iş verileri içerebilir. Müşteri verilerini daha iyi korumak amacıyla bir güvenlik önlemi olarak belgelerdeki katıştırılmış ayrıntılandırma bağlantıları için desteği kaldırıyoruz. Kullanıcılar ayrıca, bu değişikliğin sonucunda etkileşimli olarak belge oluştururken gelişmiş performanstan da yararlanacaktır.  |
-| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | Raporlama |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Bu özellik, hizmetten etkin olarak kaldırılmaktadır.<br><br>Modern istemci, uygulamada gezinme konusunda yardımcı olacak otomatik oluşturulmuş bağlantılar içeren görünümler üretmek için birçok seçenek sunar. Hizmet tarafından işlenen sayfalandırılmış belgeler e-postayla gönderilen, arşivlenen ve alıcılar için yazdırılan harici iletişimler için önerilir. Belgeleri doğrudan tarayıcıda önizleme deneyimini geliştirdik (yerel yazıcılara doğrudan erişim sunar). Daha fazla bilgi için bkz. [Katıştırılmış görüntüleyiciyle PDF belgelerini önizleme](../analytics/preview-pdf-documents.md). |

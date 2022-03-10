@@ -1,7 +1,7 @@
 ---
 title: Nakit ve banka yönetimi giriş sayfası
 description: Nakit ve banka yönetimini, tüzel kişiliğin banka hesaplarını ve bu hesaplarla ilişkilendirilmiş mali araçlarını korumak için kullanabilirsiniz.
-author: panolte
+author: roschlom
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: panolte
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c948cf34b198769a67c9e6981ab49c9d4482ef25
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: de37cc3df673a672a091ffe90ca543fae77bc9d5
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352894"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883706"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Nakit ve banka yönetimi giriş sayfası
 

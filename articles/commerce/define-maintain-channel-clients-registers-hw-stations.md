@@ -1,12 +1,10 @@
 ---
 title: Çevre birimlerini satış noktasına (POS) bağlama
 description: Bu konu, çevre birimlerinin Perakende POS'unuza nasıl bağlanacağı açıklanır.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 03a77306f17fbf76a4bcd1ecd682a4e2f199d330
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 66912443c25adfae6fa11e6a25c4a97f63a438ba
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213734"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779530"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Çevre birimlerini satış noktasına (POS) bağlama
 
@@ -80,7 +78,7 @@ Kanal düzeyinde belirtilen donanım istasyonunun kendisi donanım istasyonu URL
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>Çevre birimi cihazlarına bağlı MPOS
 
-[![Geleneksel, sabit satış noktası](./media/traditional-300x279.png)](./media/traditional.png)
+[![Geleneksel, sabit satış noktası.](./media/traditional-300x279.png)](./media/traditional.png)
 
 Geleneksel, sabit POS senaryosunda MPOS'u POS çevre birimlerine bağlamak için önce kaydın kendisine gidin ve bir donanım profili atayın. POS kayıtlarını **Retail and Commerce** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** altında bulabilirsiniz. 
 
@@ -99,7 +97,7 @@ Son olarak, MPOS'ta **localhost** donanım istasyonunu seçmek için **Donanım 
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>Bağımsız donanım istasyonlu MPOS veya Bulut POS
 
-[![Paylaşılan çevre birimleri](./media/shared-300x254.png)](./media/shared.png)
+[![Paylaşılan çevre birimleri.](./media/shared-300x254.png)](./media/shared.png)
 
 Bu senaryoda bağımsız donanım istasyonu MPOS ve Bulut POS istemcileri arasında paylaşılır. Bu senaryoda donanım istasyonunun kullandığı indirme paketi, bağlantı noktası ve donanım profilini belirtmek için bir donanım istasyonu profili oluşturmanız gerekir. Donanım istasyonu profilini **Retail and Commerce** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım istasyonu profilleri** altında bulabilirsiniz. 
 

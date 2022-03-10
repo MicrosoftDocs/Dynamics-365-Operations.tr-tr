@@ -1,37 +1,39 @@
 ---
 title: Finance ile tümleştirmeyi yapılandırma
-description: Bu makalede, Dynamics 365 Human Resources'tan Dynamics 365 Finance'e tümleştirme için kullanılabilecek işlevler açıklanmaktadır.
-author: andreabichsel
-ms.date: 03/26/2020
+description: Bu konuda, Dynamics 365 Human Resources ve Dynamics 365 Finance arasındaki tümleştirme açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801179"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065028"
 ---
 # <a name="configure-integration-with-finance"></a>Finance ile tümleştirmeyi yapılandırma
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources İle Dynamics 365 Finance'i birleştirmek için, [veri tümleştirici](https://docs.microsoft.com/powerapps/administrator/data-integrator) alanındaki insan kaynakları finans şablonunu kullanabilirsiniz. Finans şablonuna İnsan Kaynakları işler, pozisyonlar ve çalışanlar için veri akışını etkinleştirir. Şablon verilerin İnsan Kaynakları'nden finansa akmasını sağlar, ancak verilerin finans'tan İnsan Kaynakları akamasına izin vermez.
 
-![Human Resources'tan Finance'e Tümleştirme Akışı](./media/hr-admin-integration-finance-flow.png)
+Dynamics 365 Human Resources İle Dynamics 365 Finance'i birleştirmek için, [veri tümleştirici](/powerapps/administrator/data-integrator) alanındaki insan kaynakları finans şablonunu kullanabilirsiniz. Finans şablonuna İnsan Kaynakları işler, pozisyonlar ve çalışanlar için veri akışını etkinleştirir. Şablon verilerin İnsan Kaynakları'nden finansa akmasını sağlar, ancak verilerin finans'tan İnsan Kaynakları akamasına izin vermez.
+
+![Human Resources'tan Finance'e Tümleştirme Akışı.](./media/hr-admin-integration-finance-flow.png)
 
 Human Resources'tan Finance'e çözümü aşağıdaki veri eşitleme türlerini sağlar:
 
@@ -248,12 +250,12 @@ Human Resources'tan Finance'e tümleştirme, kayıtları kodlarına göre eşlem
 
 Sorun, eşlemeyi yapmak için **Personel numarası** kullanılan **Çalışan** ve **Pozisyonlar**'da oluşabilir. İşler numara serileri kullanmaz. Sonuç olarak, hem Human Resources'ta hem de Finance'te aynı iş kodu mevcutsa, Human Resources bilgileri Dynamics 365 Finance bilgilerinin üzerine yazılır. 
 
-Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json)bir önek ekleyebilir veya numara serisinde, diğer sistemin aralığının dışında bir başlangıç numarası ayarlayabilirsiniz. 
+Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)bir ön ek ekleyebilir veya numara serisinde, diğer sistemin aralığının dışında bir başlangıç numarası ayarlayabilirsiniz. 
 
 Çalışan adresi için kullanılan konum kodu, bir numara serisinin parçası değildir. Human Resources'tan bir çalışan adresi Finance'e tümleştirilirken, çalışan adresi Finance'te zaten varsa yinelenen bir adres kaydı oluşturulabilir. 
 
 Aşağıdaki çizim, Veri Tümleştirici'de bir şablon eşleme örneği gösteriyor. 
 
-![Şablon Eşleme](./media/IntegrationMapping.png)
+![Şablon Eşleme.](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

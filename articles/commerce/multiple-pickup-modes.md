@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: a8fec96eb644cccea3566a32f3eb2ac3c699faa412be2bb9cdb2690d34999542
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216779"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745368"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
 
@@ -32,7 +32,7 @@ Bu işlevi kullanmak için Commerce Headquarter 'da **özellik yönetimi** çal�
 
 Commerce 10.0.15 ve önceki sürümlerde kuruluşlar, belirlenen malzeme çekme teslimat modu olarak yalnızca bir teslimat modu tanımlayabilir. Bu tanım **Commerce parametreler** sayfasında gerçekleştirilir. Sürüm 10.0.16 ve sonrasında, **Çoklu malzeme teslim modları desteğini** etkinleştirdiğinizde daha önce **ticaret parametreleri** sayfasında malzeme çekme teslim modu olarak tanımlanan teslimat modu, Malzeme çekme teslim modları için yeni konfigürasyona otomatik olarak kopyalanır.
 
-![Ticaret parametreleri sayfasındaki malzeme çekme teslimat şekilleri](media/multiplepickupparameter.png)
+![Ticaret parametreleri sayfasındaki malzeme çekme teslimat şekilleri.](media/multiplepickupparameter.png)
 
 **Çoklu malzeme çekme teslim modları desteğini** açtıktan sonra, **ticaret parametreleri** sayfasının **müşteri siparişleri** sekmesindeki **teslimat modları** hızlı sekmesinde teslimat kılavuzunun **malzeme çekme modunda** Çoklu malzeme çekme teslimat modları tanımlayabilirsiniz.
 
@@ -40,7 +40,7 @@ Commerce 10.0.15 ve önceki sürümlerde kuruluşlar, belirlenen malzeme çekme 
 
 Ek malzeme çekme teslimat modlarını konfigüre etmeden önce teslimat modlarını tanımlamanız gerekir. Commerce Headquarters 'daki teslimat modları sayfasında, **malzeme çekme teslim modları** olarak kabul edilmesi gereken teslimat şekillerini ekleyin. Tüm konfigürasyonunun tamamlandığından emin olun. Örneğin, çevrimiçi alışveriş yapanlar için belirli depolarınızda bir teslimat seçeneği olarak yol kenarı teslimat tercihi sunuyorsanız bu amaç için yeni bir teslimat modu oluşturmanız gerekir. Bu teslim modunu, açıklama olarak "yol kenarı teslimat" kullanarak oluşturabilirsiniz. Daha sonra, bu seçeneği ve bu karşılama yöntemini sunan tek bir mağaza kanalını teklif eden çevrimiçi mağazalar dahil olmak üzere, "yol kenarı teslimat" iletisinin teslim edilebilir tüm ticari kanallarla eşlenmesini sağlamanız gerekir. Teslimat şekillerinin aynı zamanda ürünlere de bağlanması gerekir. Bu örnekte, "yol kenarı teslimat" kullanılarak karşılanamayacak belirli ürünler varsa, bu öğelerin hariç tutulduğundan emin olmanız gerekir. Yeni teslimat modları eklemeyi bitirdiğinizde, teslimat modu, kanallar ve maddeler arasındaki ilişkileri oluşturmak için **İşlem teslimat modları** işini çalıştırın. İş tamamlandığında, Commerce Headquarters 'da **dağıtım çizelgesi** sayfasını açın ve ilgili Commerce Channel veritabanlarının yeni teslimat modu konfigürasyonınızla güncelleştirilmesini sağlamak için **1120** dağıtım işini çalıştırın.
 
-![Yol kenarı malzeme çekme için teslim konfigürasyonu moduna örnek](media/pickupmodes.png)
+![Yol kenarı malzeme çekme için teslim konfigürasyonu moduna örnek.](media/pickupmodes.png)
 
 Ek malzeme çekme teslimat modlarını tanımladıktan sonra, bunları **Commerce parametreleri** sayfasındaki **teslimatın teslim modu** kılavuzuna ekleyin . Sonra ilgili Commerce kanal veritabanlarını konfigürasyon değişikliğiyle güncelleştirmek için uygun dağıtım işlerini çalıştırın.
 
@@ -69,16 +69,16 @@ Bir kanal için birden fazla malzeme çekme teslimat modu olduğunda, alacak ür
 
 - E-ticaret kanallarında, alışverişçiler kullanılabilir tüm geçerli malzeme çekme teslim modunu seçebilir. Örneğin, bir satıcı iki malzeme çekme teslimat modunu tanımlar (mağaza içi malzeme çekme ve perde çekme), her ikisi de **Teslimat kılavuzunun malzeme çekme modunda** konfigüre edilir ve her ikisi de sipariş karşılama kanalı ve bir alışverişçinin Şu anda satın aldığı ürün için geçerlidir. Bu durumda, alışverişçinin tercih edilen malzeme çekme teslimat modunu seçebilir. Ardından, seçilen malzeme çekme teslimat modu, sipariş Commerce Headquarters 'da oluşturulduğunda satış sipariş satırıyla bağlantılı teslimat şeklini alır.
 
-    ![E-ticaret'te malzeme çekme seçeneği seçme](media/pickupecommerce.png)
+    ![E-ticaret'te malzeme çekme seçeneği seçme.](media/pickupecommerce.png)
 
 - Mağaza kanallarında, malzeme çekme için bir müşteri siparişi satış noktası (POS) uygulaması aracılığıyla oluşturulduysa, varsa satış ilişkilendirmelerinin kullanılabilir malzeme çekme teslim modları arasında seçim yapılması istenir. Kanal ve madde için yalnızca bir adet geçerli malzeme çekme teslim modu varsa satış ilişkilendirmelerinin bunu seçmesi istenmez. Bunun yerine, kullanılabilir malzeme çekme teslim modu otomatik olarak sipariş satırlarına uygulanır.
 
-    ![POS uygulamasında malzeme çekme seçeneği seçme](media/pickuppos.png)
+    ![POS uygulamasında malzeme çekme seçeneği seçme.](media/pickuppos.png)
 
 - Arama Merkezi kanallarında, kullanıcılar malzeme çekme emirleri oluştururken çağrı merkezi kanalına bağlı tüm tanımlanmış malzeme çekme teslim modunu el ile seçebilir. Daha sonra sistem, seçili malzeme çekme teslim modunun, kendisine bağlanan madde sipariş edildiğinde kullanılabileceğini doğrular. Arama Merkezi kanallarında bir malzeme çekme teslimat modu seçildiğinde, satış siparişi satırlarının geçerli bir mağaza ambarına bağlanması gerekir. Bir mağaza ambar bir arama merkezi satış satırında tanımlanırsa, o satış satırında bir malzeme çekme teslimat modu ayarlanamaz.
 - Satış çalışanları , malzeme çekme amacıyla siparişler veya sipariş satırlarının listesini almak için POS uygulamasındaki **sipariş geri çekme** veya **sipariş karşılama** işlemini kullanabilir. Bir satış ilişkilendirmekte, geçerli mağazada çekilecek tüm siparişleri göstermek için önceden tanımlanmış bir arama filtresi kullanılıyorsa, arama sonuçlarının herhangi bir malzeme çekme teslimat modunu kullanan tüm uygun siparişleri içermesini sağlamak için sorgular değiştirilir. POS kullanıcıları belirli bir malzeme çekme teslimat moduna sipariş listesini daraltmak için varolan filtreleri de kullanabilirler. Örneğin, yalnızca yol kenarı yan malzeme çekme için siparişleri görüntüleyebilir.
 
-    ![Bir geri çekme siparişleri listesine uygulanan malzeme çekme teslimat modları için filtre](media/pickuprecallorder.png)
+    ![Bir geri çekme siparişleri listesine uygulanan malzeme çekme teslimat modları için filtre.](media/pickuprecallorder.png)
 
 ## <a name="considerations-for-distributed-order-management"></a>Dağıtılmış sipariş yönetimi için dikkate alınacaklar
 

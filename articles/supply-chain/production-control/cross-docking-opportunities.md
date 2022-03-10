@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ee91fa28943a27474bff5fb7a7fc368142dabcdd6c9c9772d38134af0257ef6e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715758"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Üretim emirlerinden çıkış noktalarına çapraz sevk
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839161"
 
 Bu konu, bir üretim hattından bir harici nakliye sevk noktasından tamamlanmış olarak raporlanan çapraz sevk malzemesinin yönetilme işlemini açıklar.
 
-<a name="introduction"></a>Giriş
-------------
+## <a name="introduction"></a>Giriş
 
 Üretimden harici bir konuma çapraz sevk, yüksek hacimli üretim yapan ve bitirilmiş ürünleri, üretim hatlarından bitirilmiş olarak raporlandıktan sonra en kısa zamanda nakletmek isteyen üreticiler için önemlidir. Amaç, ürünleri üretim tesisinin envanterinde biriktirmek yerine, müşteri talebine fiziksel olarak yakın bulunan dağıtım merkezlerine nakletmektir.
 
@@ -43,7 +42,7 @@ Bir ürün üretim çıkış konumuna (3) bitmiş olarak bildirilir ve bir forkl
 -   Bir treyler bölme kapısına zaten atanmışsa, kamyon sürücüsü ürünü doğrudan treylere yüklemek üzere yönlendirilir.
 -   Ürünü nakletmek için planlanmış etkinlik yoksa, forklift sürücüsü ürünü dahili bir ambar (5) konumunda depolamak üzere yönlendirilir.
 
-[![fırsatçı çapraz sevk](./media/scenario1.png)](./media/scenario1.png)
+[![fırsatçı çapraz sevk.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Çapraz sevk yapılandır
 Çapraz sevk işlemini **iş ilkelerinde** yapılandırırsınız. Bir iş ilkesi, bir iş emri türü, konum ve ürün içerir. Aşağıdaki örnekte, çapraz sevk ürün X ve konum Y için yapılandırılır.

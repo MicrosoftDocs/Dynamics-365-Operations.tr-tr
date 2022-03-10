@@ -1,30 +1,32 @@
 ---
 title: Sorun giderme Analitik raporları
-description: Bu konu, müşterinin verisindeki değişiklikler müşterinin herhangi bir çalışma alanında görüntülenmediğinde ne yapılacağını açıklar.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: Bu konuda, bir müşterinin veri değişiklikleri müşterinin çalışma alanlarının hiçbirinde görünmüyorsa sorunların nasıl giderileceği ve tanılanacağı açıklanmaktadır.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c5e1a1d7044567a07acedf71e65ed244275acfd9
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 6ea04c06858cc98b0e233b9133d9dfbebfe59fd6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114596"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067741"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Sorun giderme Analitik raporları
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Çıkış**
 
@@ -42,4 +44,7 @@ Bu sorun, zamanlama nedeniyle olabilir. Bu adımları izleyerek toplu işi başl
 1. **Ölçümü dağıt** işini listede bulun.
 1. Sayfanın üstünde **Düzenle**'yi seçin ve zamanlanan başlangıç tarihini/saatini, analitikleri geçerli tarihe daha yakın bir zamanda yenileyecek değere ayarlayın.
 
-![Toplu işler](media/batch-jobs.png)
+![Toplu İşler.](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Tedarik ve kaynak atama iş akışları
 description: Bazı kuruluşlar satınalma taleplerinin ve satınalma siparişlerinin hareketi giren kişiden başka bir kullanıcı tarafından onaylanmasını gerektirir. Bir onay sürecini ayarlamak için iş akışı oluşturabilirsiniz.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22602911fa5d395d439242746f2fe8a27c656bcf
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: a819093d9ee6f999e637281e54905968fe361566
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654160"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575548"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Tedarik ve kaynak atama iş akışları
 
@@ -50,7 +47,7 @@ Aşağıdaki iş akışı türleri, Tedarik ve kaynak atama için kullanılabili
 | Satıcı uygulama ekleme iş akışı | Satıcı talepleri aracılığıyla yeni satıcılar eklemek için gözden geçirme ve onay iş akışları oluşturun. |
 
 > [!IMPORTANT]
-> Yeni bir iş akışı eklerken, **İş akışı oluştur** iletişim kutusunda listelenmiş olan aşağıdaki geçersiz iş akışlarını da görebilirsiniz. Bunlar, [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows)'de bulunan fakat artık kullanımdan kaldırılan *giriş onayı* işleviyle ilgilidir. Bu iş akışları şu anda desteklenmemektedir.
+> Yeni bir iş akışı eklerken, **İş akışı oluştur** iletişim kutusunda listelenmiş olan aşağıdaki geçersiz iş akışlarını da görebilirsiniz. Bunlar, [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows)'de bulunan fakat artık kullanımdan kaldırılan *giriş onayı* işleviyle ilgilidir. Bu iş akışları şu anda desteklenmemektedir.
 > 
 > - Teslimat tarihi bildirimi iş akışı
 > - Fatura alındı bildirimi iş akışı
@@ -80,3 +77,6 @@ Aşağıdaki katımcı gruplarına bir onay adımı atayabilirsiniz.
 - [Satınalma talepleri için iş süreci iş akışları tanımlama](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
 - [Satıcıları işe alma](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

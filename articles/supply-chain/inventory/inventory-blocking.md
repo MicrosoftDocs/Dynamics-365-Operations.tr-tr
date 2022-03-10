@@ -1,12 +1,10 @@
 ---
 title: Stok durdurma
 description: Bu konuda, Supply Chain Management'ın kalite denetim sürecinin bir parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1d4b006f37904c0ae20691aaa98c75f1d5833b7
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487909"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103550"
 ---
 # <a name="inventory-blocking"></a>Stok durdurma
 
@@ -98,13 +96,11 @@ Aşağıdaki örnekte, bir satınalma siparişi sevk irsaliyesi deftere nakledil
 
 İki durum arasındaki hareket durumu ve boyut farklılığına dikkat edin. Bu nedenle, **Sipariş edilen maddeleri rezerve et** seçeneğini etkinleştirmenizi öneririz.
 
-<!-- KFM: (Enable this section when the feature leaves private preview)
+### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak özelliği
 
-### Disable expected receipts from quality orders that sample blocked inventory feature
+Stok durumunun sonucu olarak gerçekleşen durdurulan stoktan örnek alan kalite emirleri durumunda stok hareketlerini basitleştirmek için sistem, bu tür kalite emirlerinden beklenen girişleri devre dışı bırakan bir özellik sağlar. Beklenen giriş stok durumu engelleme işlemi tarafından hemen engellendiğinden, bu değişiklik nedeniyle eldeki stokta bir azaltma olmaz.
 
-To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
-
--->
+Bu özellik, varsayılan olarak kapalıdır. Yöneticiler, [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Durdurulan stoktan örnek alan kalite emirlerinden gelen beklenen girişleri devre dışı bırak* özelliğini bularak bunu açabilir veya kapatabilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

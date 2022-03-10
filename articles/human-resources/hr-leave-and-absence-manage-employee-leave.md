@@ -2,15 +2,12 @@
 title: Personel iznini yönetme
 description: Dynamics 365 Human Resources'ta personel iznini yönetme
 author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: ccdf2346e3fdecf4f27fc9f34f0641d3b1fb5b55
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4421026"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067389"
 ---
 # <a name="manage-employee-leave"></a>Personel iznini yönetme
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bir çalışanın iznini izin türü ile yönetebilirsiniz. Buna, izin kaydı süresini sona erdirme ve izin türü bakiyelerini ayarlama da dahildir. 
 
@@ -45,14 +47,16 @@ Bir çalışanın iznini izin türü ile yönetebilirsiniz. Buna, izin kaydı s�
 
 Bir çalışanın izin bakiyesini ayarlarken bir neden kodu ve açıklama ekleyebilirsiniz. 
 
->[!IMPORTANT]
->Bakiyelerdeki bakiye ile ilgili ek bilgileri görüntülemek önizlemede görüntülenir. Bunu **korumalı alan** ortamınızda etkinleştirmeniz gerekir . Önizleme özelliklerini etkinleştirme hakkında daha fazla bilgi edinmek için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).<br>
->Herhangi bir bırakma bakiyesinin üzerine getirildiğinde şu şekilde görüntülenir:<br>
->- **Kullanılabilir**: Bu yılki toplam-bu yılı al
->- **Bu yılın toplamı**: Tüm tahakkukları, ayarlamalar ve bu yıl için ileriye doğru Yürüt
->- **Bu yıl uygulanan**: tüm onaylanan zaman kapalı
+Şimdi, herhangi bir izin bakiyesinin üzerine geldiğinizde, aşağıdaki bilgiler gösterilir:
+
+- **Kullanılabilir**: **Bu yılın toplamı** değeri eksi **Bu yıl uygulanan** değer.
+- **Bu yılın toplamı**: Tüm tahakkukları, ayarlamalar ve bu yıl için ileriye doğru Yürüt
+- **Bu yıl uygulanan**: tüm onaylanan zaman kapalı
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık isteklerini yönetme](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

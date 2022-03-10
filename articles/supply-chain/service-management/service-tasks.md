@@ -1,26 +1,25 @@
 ---
 title: Servis görevlerine genel bakış
 description: Servis görevlerini, servis siparişi sırasında tamamlanacak görevleri açıklamak için kullanın. Teknisyenler ve müşteriler bu bilgileri görebilir.
-author: ShylaThompson
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d981972fcdc75de5504ba3341f4ed2cf8f971cb2d13037fd88f01a720cd1cc60
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a789c435bfba6948895f6d00c6a350c03b2e9d63
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782431"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982496"
 ---
 # <a name="service-tasks-overview"></a>Servis görevlerine genel bakış
 

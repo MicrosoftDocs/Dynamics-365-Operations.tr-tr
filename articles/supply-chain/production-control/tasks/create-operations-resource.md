@@ -1,7 +1,7 @@
 ---
 title: Operasyon kaynağı oluşturma
 description: Operasyon kaynağı, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir.
-author: sorenva
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc70e81fff66deee93bef53b5ceabf0b7b3fd0f1587f1b4b3e5d998730d7709b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90535d3a6cf58fc10309cf035bc74143a96c2add
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757601"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576868"
 ---
 # <a name="create-an-operations-resource"></a>Operasyon kaynağı oluşturma
 

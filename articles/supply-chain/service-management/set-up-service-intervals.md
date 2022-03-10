@@ -1,12 +1,10 @@
 ---
-title: Servis aralıkları ayarlama
-description: Servis aralığı, servis siparişlerini oluşturduğunuzda servis sözleşmesi satırları için servis siparişi satırlarının oluşturulma sıklığını gösterir.
-author: ShylaThompson
-manager: tfehr
+title: Servis aralıklarını ayarlama
+description: Bu konuda, servis aralıklarının nasıl ayarlanacağı açıklanmaktadır. Servis aralığı, servis siparişlerini oluşturduğunuzda servis sözleşmesi satırları için servis siparişi satırlarının oluşturulma sıklığını gösterir.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementinterval
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 815da6b24de401ad11febb0b0564738ce6967a9c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e0aeaef9fcf0c909638a9452633a321121e20814
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991677"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567859"
 ---
 # <a name="set-up-service-intervals"></a>Servis aralıkları ayarlama  
 
@@ -53,3 +51,6 @@ Servis aralığı, servis siparişlerini oluşturduğunuzda servis sözleşmesi 
 ## <a name="related-topics"></a>İlgili konular
 
 [Servis aralıkları](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

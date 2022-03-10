@@ -1,26 +1,24 @@
 ---
 title: Bireysel olarak numara serileri ayarlama
 description: Bu konuda bireysel olarak numara serileri ayarlama işlemi açıklanmaktadır.
-author: sericks007
-manager: AnnBe
+author: SunilGarg
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sericks
+ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: b95a639c593c0f126a9aa1dd50434838d09ef746
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796642"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777925"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Bireysel olarak numara serileri ayarlama
 
@@ -32,7 +30,7 @@ Bu konuda bireysel olarak numara serileri ayarlama işlemi açıklanmaktadır. N
 2. **Numara serisi**'ni seçin.
 3. **Numara serisi kodu** alanına bir değer yazın.
 4. **Ad** alanına bir değer yazın.
-5. **Kapsam parametreleri** hızlı sekmesinde, numara serisi için bir kapsam seçin ve açılır listeden kapsam değerlerini belirleyin. Kapsam, hangi kuruluşların numara serisini kullandığını tanımlar. Ayrıca, **Paylaşılan** dışındaki bir kapsama sahip numara serileri, kendi kapsamlarına karşılık gelen segmentler içerebilir. Örneğin, **Tüzel kişilik** kapsamını içeren bir numara serisi, bir tüzel kişilik segmentine sahip olabilir. Kapsamlar hakkında daha fazla bilgi için bkz. [Numara serilerine genel bakış](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
+5. **Kapsam parametreleri** hızlı sekmesinde, numara serisi için bir kapsam seçin ve açılır listeden kapsam değerlerini belirleyin. Kapsam, hangi kuruluşların numara serisini kullandığını tanımlar. Ayrıca, **Paylaşılan** dışındaki bir kapsama sahip numara serileri, kendi kapsamlarına karşılık gelen segmentler içerebilir. Örneğin, **Tüzel kişilik** kapsamını içeren bir numara serisi, bir tüzel kişilik segmentine sahip olabilir. Kapsamlar hakkında daha fazla bilgi için bkz. [Numara serilerine genel bakış](../number-sequence-overview.md). 
 6. **Segmentler** bölümünü genişletin.
     - Segment ekleyerek, çıkararak veya yeniden düzenleyerek numara serisi için biçimi tanımlayın.  
     - Tüm kapsamlardan numara serileri *Sabit parçalar* ve *Alfasayısal parçalar* içerebilir. Sabit parçalar, değişmeyen bir dizi alfasayısal karakter içerirler. Bu segment türünü, numara serisi segmentleri arasına tire veya başka ayırıcılar eklemek için kullanın. Alfasayısal segmentler, numara işaretleri (#) ve ampersanların (&) bir kombinasyonunu içerirler. Bu karakterler, numara serisinden her bir numara kullanıldığında artan harfler ve numaraları temsil eder. Artan sayıları göstermek için numara işaretini (#) ve artan harfleri göstermek için bir ampersanı (&) kullanın. Örneğin `#####_2014` biçimi `00001_2014`, `00002_2014` serisini ve devamını oluşturur. En az bir alfasayısal segment bulunması gerekir. Şirket veya tüzel kişilik gibi kapsam segmentleri zorunlu değildir. Ancak, biçim içerisinde kapsam segmentleri eklemezseniz, seçili referans için numaralar yine de kapsama göre oluşturulacaktır.  
@@ -40,3 +38,6 @@ Bu konuda bireysel olarak numara serileri ayarlama işlemi açıklanmaktadır. N
 8. **Genel** bölümünü genişletin. Genel hızlı sekmesinde, numara serisinin el ile ve sürekli veya süreksiz olup olmadığını belirtin. Ek olarak, numara serisinde kullanılabilecek en düşük ve en yüksek numaraları girin. Sürekli olmayan bir numara sırasını, sürekli bir numara sırasına değiştirmenizi önermeyiz. Numara serisi gerçekten sürekli olmayacaktır. Ayrıca, bu değişiklik veritabanında yinelenen anahtar hatalarına neden olabilir. Ayrıca, sürekli numara serilerinin performans üzerindeki etkisi daha büyüktür.   
 9. **Kaydet**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Müşteri yaşlandırma raporu
 description: Müşteri yaşlandırma raporu müşterilerin ödemesi gereken bakiyeleri, tarih aralığına veya yaşlandırma dönemine göre sıralanmış olarak görüntüler.
 author: JodiChristiansen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 384e44ef07771a174aaed4f8fb893e75b0206da7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 33bee60a3807c92cc97f0f5e6d660a67cdd7f297
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236998"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595101"
 ---
 # <a name="customer-aging-report"></a>Müşteri yaşlandırma raporu 
 
@@ -32,8 +30,8 @@ Raporu oluşturduğunuz zaman aşağıdaki varsayılan parametreler görüntüle
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col>
+<col>
 </colgroup>
 <thead>
 <tr class="header">

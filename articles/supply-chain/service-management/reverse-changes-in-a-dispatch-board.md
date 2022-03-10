@@ -1,7 +1,7 @@
 ---
 title: Gönderme panosuna değişiklikleri ters kaydetme
 description: Bu konu, gönderme panosunda yaptığınız kaydedilmemiş değişikliklerin nasıl geri alınacağını açıklar.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f5e2cd0f72aa308b564657566fa9ba4ffd8e70b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 93db36066ba9b355fb0deb63019b3cecca61768c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816424"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567907"
 ---
 # <a name="reverse-changes-in-a-dispatch-board"></a>Gönderme panosuna değişiklikleri ters kaydetme 
 

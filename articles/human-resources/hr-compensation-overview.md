@@ -1,33 +1,34 @@
 ---
 title: Ücret planları
-description: Ücret ve Kazanç Yöneticileri, kuruluşun çalışanları için sabit veya değişken ücret planlarını korumak ve işlemek için Ücret yönetimi kullanabilirler.
-author: andreabichsel
-manager: tfehr
-ms.date: 06/20/2017
-ms.topic: article
+description: Bu konuda, ücret planlarını yönetmek ve işlemek için ücret yönetiminin nasıl kullanılacağı açıklanmaktadır.
+author: twheeloc
+ms.date: 08/25/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a5843b53ae857f1aa65491008c7f0970f20d53f5
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114527"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066912"
 ---
 # <a name="compensation-plans"></a>Ücret planları
 
-Ücret ve Kazanç Yöneticileri, kuruluşun çalışanları için sabit veya değişken ücret planlarını korumak ve işlemek için Ücret yönetimi kullanabilirler.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Ücret ve kazanç Yöneticileri, kuruluşun çalışanları için sabit ve değişken ücret planlarını korumak ve işlemek üzere **Ücret yönetimi**'ni kullanabilir.
 
 ### <a name="introduction"></a>Giriş
 
@@ -44,7 +45,7 @@ Aşağıdaki tablo, Şirketinizin ücretlendirme planını ayarlarken ücretlend
 <thead>
 <tr class="header">
 <th>Bileşen</th>
-<th>Daha fazla bilgi...</th>
+<th>Daha fazla bilgi</th>
 </tr>
 </thead>
 <tbody>
@@ -90,7 +91,7 @@ Aşağıdaki tablo, Şirketinizin ücretlendirme planını ayarlarken ücretlend
 </tr>
 <tr class="even">
 <td>Kontrol noktası</td>
-<td>Kontrol noktası tüm çalışanlar için tazminat düzeyinin ne olduğunu düşündüğünüzü belirleyen ödeme oranını tanımlar. Kademeli plan yapılarında kontrol noktaları genellikle aralığın orta noktasıdır. Bant yapıları nadiren kontrol noktaları kullanır. Sabit maaş planı için denetim noktasını, Sabit maaş planları formunda belirtebilirsiniz.</td>
+<td>Kontrol noktası tüm çalışanlar için tazminat düzeyinin ne olduğunu düşündüğünüzü belirleyen ödeme oranını tanımlar. Kademeli plan yapılarında kontrol noktaları genellikle aralığın orta noktasıdır. Bant yapıları nadiren kontrol noktaları kullanır. **Sabit ücret planları** sayfasında bir sabit ücret planı için denetim noktasını belirtebilirsiniz.</td>
 </tr>
 <tr class="odd">
 <td>İş işlevleri</td>
@@ -122,8 +123,7 @@ Aşağıdaki tablo, Şirketinizin ücretlendirme planını ayarlarken ücretlend
 ## <a name="process-events"></a> İşleme olayları
 Bir işleme olayı, bir veya daha fazla sabit ya da değişken tazminat planına kayıtlı tüm çalışanlar için belirli bir döneme ait tazminat bilgilerini hesaplayan ücret iş akışlarıdır. Bir işleme olayını, ücretlendirme sonuçlarını test etmek veya güncelleştirmek için tekrar tekrar çalıştırabilirsiniz.
 
-<a name="compensation-events"></a>Maaş olayları
--------------------
+## <a name="compensation-events"></a>Maaş olayları
 
 İşlem etkinliği her çalıştırıldığında bir ücret etkinliği oluşturulur.  Ücret etkinlikleri, bu işlem etkinliğine dahil edilmiş her personel ücret işleminin sonucunu içerirler.  Hesaplamalar doğru olduğunda, işlem etkinliklerinden etkilenen personellerin ücret kayıtlarını güncelleştirmek için ücret etkinliğini yükleyebilirsiniz.
 
@@ -132,3 +132,6 @@ Bir işleme olayı, bir veya daha fazla sabit ya da değişken tazminat planına
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

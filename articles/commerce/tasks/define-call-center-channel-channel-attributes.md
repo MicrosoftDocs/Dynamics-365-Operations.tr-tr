@@ -2,11 +2,9 @@
 title: Çağrı merkezi kanalları oluşturma ve kanal öznitelikleri tanımlama
 description: Bu yordam yeni bir kanal oluşturma ve kanal özniteliklerini tanımlamayla ilgilidir.
 author: mugunthanm
-manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59193d5d6a54fba89394e9700beb3b9596c47391
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 444ffddab3df2d937725b9e1f3145eaece3db12844f4fb464f06a82db366579d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716821"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>Çağrı merkezi kanalları oluşturma ve kanal öznitelikleri tanımlama
 
@@ -99,3 +97,6 @@ Bu yordam yeni bir Commerce kanalı oluşturma ve kanal özniteliklerini tanıml
 65. Kaydet'e tıklayın.
 66. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

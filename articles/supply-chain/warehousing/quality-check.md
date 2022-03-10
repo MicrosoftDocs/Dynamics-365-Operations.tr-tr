@@ -2,11 +2,9 @@
 title: Kalite denetimi
 description: Bu konuda, Kalite denetimi özelliğiyle ilgili bilgiler verilir. Bu özellik, ambar çalışanlarının kalemleri giriş noktası alanına alırken kalite açısından hızlı bir şekilde denetlemesine olanak tanır.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 585ca933726cb932290f8abf8504aeb13848a0e5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996266"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103300"
 ---
 # <a name="quality-check"></a>Kalite denetimi
 
@@ -41,12 +39,9 @@ Bu özelliği kullandığınızda, varış ve kalite denetimi aşağıdaki şeki
 
 Bu işlem, taranan tüm plakaların hemen kalite denetimi konumuna yönlendirilmesi için de ayarlanabilir.
 
-## <a name="turn-on-the-quality-check-feature"></a>Kalite denetimi özelliğini açma
+## <a name="turn-the-quality-check-feature-on-or-off"></a>Kalite denetimi özelliğini açma veya kapatma
 
-*Kalite denetimi* özelliğini kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Kalite denetimi*
+Bu konuda açıklanan işlevi kullanmak için *Kalite denetimi* özelliğinin sisteminizde etkinleştirilmiş olması gerekir. Supply Chain Management 10.0.25 itibarıyla, bu özellik zorunludur ve kapatılamaz. 10.0.25 sürümünden daha eski bir sürümü çalıştırıyorsanız, yöneticiler [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Kalite denetimi* özelliğini aratarak bu işlevi açabilir veya kapatabilir.
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Örnek senaryo için özelliği ayarlama
 
@@ -301,7 +296,7 @@ Satın alma siparişi oluşturulduktan sonra, **SAS satırı teslim alma** menü
 
 #### <a name="receive-pallet-1"></a>Palet 1'i alma
 
-1. Ambar uygulamasında ambar *51*'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *51*, parola olarak *1* girin.)
+1. Ambar *51*'te bir kullanıcı olarak Ambar Yönetimi mobil uygulamasına oturum açın. (Kullanıcı kimliği olarak *51*, parola olarak *1* girin.)
 1. **Gelen \> SAS satırı teslim alma** bölümüne gidin.
 1. **PONUM** alanına satın alma siparişi numaranızı girin.
 1. Satın alma siparişi numarasını doğrulayın.
@@ -312,7 +307,7 @@ Satın alma siparişi oluşturulduktan sonra, **SAS satırı teslim alma** menü
 
     Açılan **Kalite denetimi** sayfasında hiç giriş alanı yok. Yalnızca en altta bulunan onay (onay işareti) düğmesi ve en üstteki Menü düğmesi (**≡**) var. (Menü düğmesine bazen hamburger veya hamburger düğmesi denir.) Kalite denetimi işlemini hızlandırmak için palet kalite denetimini geçtiğinde kullanıcının yalnızca **Kalite denetimi** sayfasını onaylaması yeterlidir.
 
-    ![Kalite denetimi sayfası](media/quality-check.png "Kalite denetimi sayfası")
+    ![Kalite denetimi sayfası.](media/quality-check.png "Kalite denetimi sayfası")
 
 1. Palet1'i kalite denetimini geçirmek için satır 1'den onay düğmesini seçin.
 
@@ -396,3 +391,6 @@ Bu senaryo için palet 3 kabul edilecektir.
 1. Sayfanın üst kısmındaki Menü düğmesini (**≡**) seçin ve ardından menüden **İptal**'i seçerek menüye dönün.
 
 Artık mobil uygulamayı kapatabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

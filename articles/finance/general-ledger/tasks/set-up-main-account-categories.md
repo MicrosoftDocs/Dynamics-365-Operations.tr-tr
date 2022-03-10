@@ -2,26 +2,23 @@
 title: Ana hesap kategorilerini ayarlama
 description: Bu konuda, Dynamics 365 Finance'da ana hesap kategorilerinin nasıl ayarlanacağı açıklanmaktadır.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e0a015283064af2287013bccc065b4467a308c5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3530ba65dc0a4978ca4b1ca4b1acd96c79749a6f16e430fb260729dd3e28dbac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732945"
 ---
 # <a name="set-up-main-account-categories"></a>Ana hesap kategorilerini ayarlama
 
@@ -42,3 +39,6 @@ Bu konuda, ana hesap kategorilerinin nasıl ayarlanacağı açıklanmaktadır. A
 3. Ana hesapları seçmek için **Bağlantılı** seçeneğini işaretleyin veya işaretini kaldırın.
 4. **Tamam**'ı seçin.
 5. **Evet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

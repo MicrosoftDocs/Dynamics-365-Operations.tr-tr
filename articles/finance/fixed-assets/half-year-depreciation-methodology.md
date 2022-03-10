@@ -2,11 +2,9 @@
 title: Yarı yıl amortisman yöntemi
 description: Bu konu, sabit kıymetlerin, bir kıymetin ilk ve son yılı sırasında altı aylık amortismanı hesaplayan yarı yıl kuralını kullanarak amortismanı hesaplamak için kullandığı yöntemi açıklamaktadır.
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: cb027513da086d882942c4677892b15cf8e7b338
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5e71beb316494d05a3d8ce6066f2a4c72e32a2ad3d75a4ba3560cb0aebfe4cc8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746452"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Yarı yıl amortisman yöntemi
 
@@ -38,7 +36,7 @@ Altı aylık amortisman kuralını kullandığınızda, sistem kıymetin satın 
 > Yıllık amortisman 50.000/5 = 10.000 ve aylık amortisman 10000/12 = 833,33 <br>
 > İlk yıl yıpranma 10.000/2 = 5.000 ve sonraki aylık amortisman 5.000/9 = 555,56
 
-   [![Yarım yıl amortisman kuralı için amortisman planı](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Yarım yıl amortisman kuralı için amortisman planı.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Yarım yıl kuralı ile eklenen uzatılmış amortisman dönemleri, amortismanın daha doğru tahsisatını sağlar. Altı aylık kural, amortisman giderlerini daha eşit şekilde temsil eder ve kar ve zarar raporunun bildirilmesinde yararlı olur.
 

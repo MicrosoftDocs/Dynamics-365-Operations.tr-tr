@@ -1,30 +1,31 @@
 ---
 title: Takvimler ve çalışma zamanları oluşturma
 description: Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar. Bu konuda bir çalışma saati şablonunu temel alan bir iş takvimi tanımlama işlemi açıklanmaktadır.
-author: andreabichsel
-manager: AnnBe
-ms.date: 07/09/2019
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace, WrkCtrGroupDateCalendar, WrkCtrDateCalendar
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5c630297a8962d1bb383110881b2acdc872b9cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d56e38edc00780ad16aaafdb501b8f5df49020f2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420863"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075261"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Takvimler ve çalışma zamanları oluşturma
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+> [!IMPORTANT]
+> Bu konuda belirtilen işlevler şu anda Finance altyapısında Human Resources müşteriler için kullanıma sunulmaktadır.  
 
 
 Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar. Bu konuda bir çalışma saati şablonunu temel alan bir iş takvimi tanımlama işlemi açıklanmaktadır. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.
@@ -33,9 +34,9 @@ Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıkl
 2. **Takvimler**'i seçin.
 3. **Yeni**'yi seçin.
 4. **Takvim** alanında takviminizi sınıflandırın. Bu, bir işlemler kaynağına veya kaynak grubuna takvim atarken referans olarak kullanılan takvimin kodudur.  
-5. **Ad** alanında, takviminizi adlandırın.
+5. **Ad** alanında, takviminiz için bir ad girin.
 6. **Saat cinsinden standart çalışma günü** alanında bir sayı girin.
-7. Satırın seçili olduğundan emin olun. Ardından Eylem Bölmesi'nden **Çalışma zamanları**'nı seçin.
+7. Satırın seçili olduğundan emin olun. Ardından **Eylem Bölmesi**'nden **Çalışma zamanları**'nı seçin.
 8. **Çalışma zamanları oluştur**'u seçin. İş planlaması yapabilmek istediğiniz dönem içindeki her bir gün için çalışma saatleri oluşturun. Zaman geçtikçe, ek dönemler için çalışma zamanları oluşturabilirsiniz.  
 9. **Başlangıç tarihi** alanına bir tarih girin. Bu, takvimin açılması gereken ilk gündür.  
 10. **Bitiş tarihi alanına** bir tarih girin. Bu, takvimin açılacağı son gündür.  
@@ -43,3 +44,6 @@ Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıkl
 12. **Tamam**'ı seçin.
 13. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

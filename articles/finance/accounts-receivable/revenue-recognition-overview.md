@@ -3,23 +3,22 @@ title: Gelir kabulüne genel bakış (video içerir)
 description: Bu konuda, Gelir kabulü özelliğiyle ilgili bilgiler verilir. Bu özellik, birden fazla öğe içeren siparişler için hem gelir fiyatını hem de gelir planını kabul etmeye yönelik şirkete özgü kurallar tanımlamanıza olanak tanıtan esnek bir çerçeve sağlar.
 author: kweekley
 ms.date: 11/11/2019
-ms.topic: index-page
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c027b3edb12c34c2373c58a5aa7e39cfbff39045
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: a5e7b6407fe72c56ea04920532d4327d2b89f8d1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937594"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982599"
 ---
 # <a name="revenue-recognition-overview"></a>Gelir kabulüne genel bakış
 

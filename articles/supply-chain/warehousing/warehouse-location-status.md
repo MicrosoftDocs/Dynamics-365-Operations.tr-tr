@@ -2,28 +2,25 @@
 title: Ambar yerleşimi durumu
 description: Bu konu Ambar konumu durumu özelliğine genel bakış sunmaktadır.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 31216c24f54f22ec928eb143d4a913aabcd50cf8
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1b5e1eb651d882e7fbf38f2f2cf8804c28f2154fcb299dbc5caabbecdfab560b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733288"
 ---
 # <a name="warehouse-location-status"></a>Ambar yerleşimi durumu
 
@@ -54,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management'ta, yerleşimler üzerinde çalı
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>Örnek senaryo için gereken örnek verileri hazırlama
 
-Senaryo üzerinden çalışmaya başlamadan önce, örnek verileri etkinleştirmeniz ve özelliği bu bölümde açıklandığı şekilde ayarlamanız gerekir. Örnek senaryoyu tamamlamak için, ambar uygulamasını veya tarayıcı tabanlı öykünücüyü kullanmalısınız. Burada belirtilen adımlar ambar uygulamasını kullanır. Tarayıcı tabanlı öykünücüye ilişkin adımlar benzerdir.
+Senaryo üzerinden çalışmaya başlamadan önce, örnek verileri etkinleştirmeniz ve özelliği bu bölümde açıklandığı şekilde ayarlamanız gerekir. Örnek senaryoyu tamamlamak için, Ambar Yönetimi mobil uygulamasını veya tarayıcı tabanlı öykünücüyü kullanmalısınız. Burada belirtilen adımlar Ambar Yönetimi mobil uygulamasını kullanır. Tarayıcı tabanlı öykünücüye ilişkin adımlar benzerdir.
 
 #### <a name="use-the-usmf-legal-entity"></a>Tüzel kişilik olarak USMF'yi kullanın
 
@@ -169,3 +166,6 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak örnek senaryo üz
 
 > [!NOTE]
 > Yerleşim alanları yalnızca ambar hareketleriyle güncelleştirilir. Günlük veya diğer WHS dışı işlemleri kullanarak stok taşırsanız, alanlar güncelleştirilmez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,15 +13,15 @@ ms.custom: 54591
 ms.assetid: 0917fe64-f643-46ae-98ff-5013b266a067
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b49e34e44ca4cd3162928f0d512b467aa4c752d9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ee3eaf11f5d77861e7abd29bb428f67b57a3e0e3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830304"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565963"
 ---
 # <a name="production-posting"></a>Üretimin deftere nakli
 

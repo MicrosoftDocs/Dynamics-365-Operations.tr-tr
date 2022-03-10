@@ -2,31 +2,27 @@
 title: Ürün topluluğu modülleri
 description: Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgili genel bir bakış sağlar.
 author: v-chgri
-manager: annbe
 ms.date: 01/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d8fb0909e258f68146e1af3cf998634fb351ef71
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231116"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984556"
 ---
 # <a name="product-collection-modules"></a>Ürün topluluğu modülleri
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgili genel bir bakış sağlar.
 
@@ -43,7 +39,7 @@ Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgi
 
 Aşağıdaki resimde bir e-ticaret sitesinde kullanılan farklı ürün koleksiyonları türleri gösterilmektedir.
 
-![Bir e-ticaret sitesinde farklı türde ürün koleksiyonları örneği](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![Bir e-ticaret sitesinde farklı türde ürün koleksiyonları örneği.](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > Benzer türdeki bir ürün grubunu göstermek için her zaman ürün koleksiyonu modüllerini kullanın.

@@ -1,7 +1,7 @@
 ---
 title: Minimum stok olayı kullanarak kanban kuralı oluşturma
 description: Bu yordam, belirli bir ürünün her zaman belirli bir konumda bulunabilir olmasını sağlamak için bir minimum stok olayı kullanan bir kanban kuralı oluşturmak için gereken kuruluma odaklanır.
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 598af59a1b30cfeb5c25c89d95e1a60e6707c899
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bd7e02a8a3bf62606c680dad91d46658775138df
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829102"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566635"
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Minimum stok olayı kullanarak kanban kuralı oluşturma
 

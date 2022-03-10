@@ -2,11 +2,9 @@
 title: Belirli ürün yaşam döngüsü durumlarına sahip ürünleri hariç tutma
 description: Bu konuda, Planlama İyileştirmesi işlevi kullanılırken ürünlerin yaşam döngüsü durumlarına göre nasıl hariç tutulacağı açıklanmaktadır.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 02c31aa3862df8dabc2b8c065dc3a94877d237f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 030bdea7c03dd5eb3347c1d43acd1aeabdf566602872dd8ef5aab6d16b06f503
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739047"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>Belirli ürün yaşam döngüsü durumlarına sahip ürünleri hariç tutma
 
@@ -41,3 +39,6 @@ Serbest bırakılmış ürünler ve serbest bırakılmış ürün sürümleri bi
 Ürün yaşam döngüsü durumları hakkında daha fazla bilgi edinmek için [Ürün yaşam döngüsü durumuna genel bakış](../../pim/product-lifecycle.md) başlıklı makaleye bakın.
 
 Ürünleri master planlama ve ürün reçetesi düzeyinde hesaplamalar dışında tutmak amacıyla ürün yaşam döngüsü durumlarının nasıl kullanılacağı ile ilgili adımları içeren daha fazla bilgi edinmek için [Ürünleri Master planlama dışında tutmak için bir ürün yaşam döngüsü durumu oluşturma](../../pim/tasks/exclude-products-master-planning.md) konusuna bakın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

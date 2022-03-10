@@ -1,7 +1,7 @@
 ---
 title: Servis anlaşmaları oluşturma
 description: Bu başlık, Servis yönetimi ve Proje yönetimi ile muhasebe modüllerinde servis sözleşmeleri oluşturmak için özelliklerin nasıl kullanılacağını açıklar.
-author: ShylaThompson
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2343d60f5960702bc05705ee2dd0994c9e2d4fc1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c9a5d580b0bb146bf5d445823b37f607e507f7eb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817665"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569155"
 ---
 # <a name="create-service-agreements"></a>Servis anlaşmaları oluşturma
 

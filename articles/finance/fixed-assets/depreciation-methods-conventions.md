@@ -1,8 +1,8 @@
 ---
 title: Amortisman yöntemleri
 description: Bu makalede, Microsoft Dynamics 365 Finance tarafından desteklenen amortisman kurallarına ve amortisman yöntemlerine bir genel bakış sunulmuştur.
-author: ShylaThompson
-ms.date: 04/25/2017
+author: moaamer
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76b20c895519edb7316c2b9a6b223a109a307e77
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 3f0f3b8be86225fd68df9b099e5c8e13a220a213
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189409"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927441"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Amortisman yöntemleri ve kuralları
 
@@ -32,7 +32,7 @@ Bu makalede, desteklenen amortisman kurallarına ve amortisman yöntemlerine bir
 
 Amortisman kurallarını kullanıyor ve bir kıymet için bazı amortismanları atlayan son amortisman geçerlilik tarihini değiştirirseniz, geçen yıl için amortisman beklenenden daha fazla veya daha az olabilir. Amortisman, son amortisman geçerlilik tarihinin değiştirilmesinden etkilenen amortisman dönemlerinin sayısı tarafından ayarlanır.
 
-Örneğin, üç yıl üzerinden Yarı yıl amortisman kuralını kullanıyorsanız, amortisman normalde 3 1/2 yıl üzerinden olur. 3 1/2 yıllık süre içinde son amortisman geçerlilik tarihini değiştirirseniz, amortismanın son yılı etkilenen dönem sayısın ileri atar. Tarihi üç ay ileri atarsanız, son yılda dokuz ay değerinde amortisman olur, ancak normalde altı ay değerinde amortisman olmalıdır.
+Örneğin, üç yıl üzerinden Yarı yıl amortisman kuralını kullanıyorsanız, amortisman normalde üç buçuk yıl üzerinden olur. Üç buçuk yıllık süre içinde son amortisman geçerlilik tarihini değiştirirseniz, amortismanın son yılı etkilenen dönem sayısın ileri atar. Tarihi üç ay ileri atarsanız, son yılda dokuz ay değerinde amortisman olur, ancak normalde altı ay değerinde amortisman olmalıdır.
 
 Aşağıdaki amortisman kurallarından birini seçebilirsiniz:
 
@@ -73,7 +73,7 @@ Aşağıdaki amortisman yöntemlerinden birini seçebilirsiniz.
 
 [Faktör amortisman](factor-depreciation.md)
 
-[Tüketim esasına göre amortisman](consumption-depreciation.md)
+[Tüketime göre amortisman](consumption-depreciation.md)
 
 [Sabit kalan ömür amortismanı](straight-line-life-remaining-depreciation.md)
 

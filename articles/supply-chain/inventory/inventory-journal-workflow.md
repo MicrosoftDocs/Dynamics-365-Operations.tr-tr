@@ -1,7 +1,7 @@
 ---
 title: Stok günlüğü onay iş akışları
 description: Bu konuda, çeşitli fiziksel stok hareketi türleri için stok günlüklerini onaylama iş akışlarını nasıl oluşturup kullanabileceğiniz açıklanmaktadır. Stok günlüğü iş akışları yalnızca onaylanmış stok günlüklerinin hareketlere nakledilebilmesine yardımcı olur.
-author: sherry-zheng
+author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354773"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778317"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Stok günlüğü onay iş akışları
 
@@ -31,7 +31,7 @@ Bu konuda, sorunlar ve girişler, stok hareketleri, ürün reçeteleri (BOM) ve 
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Stok günlüğü onay iş akışları özelliğini etkinleştirme
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek veya devre dışı bırakmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
 
 - **Modül:** *Stok ve ambar yönetimi*
 - **Özellik adı:** *Stok günlüğü onay iş akışı*
@@ -81,7 +81,7 @@ Bir stok günlüğü iş akışını bir stok günlüğü adıyla ilişkilendirm
 
 Bir stok günlüğü adını eşleşen stok günlüğü onay iş akışıyla ilişkilendirdikten sonra, bu adı kullanan yeni stok günlükleri oluşturabilir ve bu iş akışını kullanarak bu günlükleri onaya gönderebilirsiniz. Stok günlüğü iş akışında yapılandırılan onaylayanlar tarafından onaylanıncaya kadar deftere nakledilemez.
 
-1. Gezinti bölmesinde, **Stok yönetimi \> Günlük girişleri \> Kalemler**'i genişletip bir stok günlüğü türü seçin.
+1. Gezinti bölmesinde, **Stok yönetimi \> Yevmiye defteri girişleri \> Kalemler**'i genişletip bir stok günlüğü türü seçin.
 1. Seçilen türde yeni bir günlük oluşturmak için **Yeni**'yi seçin.
 1. **Stok günlüğü oluştur** iletişim kutusu açılır. Formu gerektiği gibi doldurun ve günlüğü kaydetmek için **Tamam**'ı seçin.
 1. Günlüğü gerektiği gibi tamamlayın.
@@ -97,7 +97,7 @@ Günlüğünüz onaylandığında, deftere nakledebilirsiniz. Günlüğü defter
 
 Bir onaylayansanız onayınız her gerektiğinde bir ileti alırsınız (ilgili iş akışında yapılandırıldığı şekilde). Daha sonra, aşağıdakileri yaparak bir günlük onay isteğini onaylayabilir veya reddedebilirsiniz:
 
-1. Gezinti bölmesinde, **Stok yönetimi \> Günlük girişleri \> Kalemler**'i genişletip bir stok günlüğü türü seçin.
+1. Gezinti bölmesinde, **Stok yönetimi \> Yevmiye defteri girişleri \> Kalemler**'i genişletip bir stok günlüğü türü seçin.
 1. İlgili günlüğü açın ve gözden geçirin.
 1. Açılan iletişim kutusunu açmak için Eylem Bölmesindeki **İş akışı** düğmesini seçin. Aşağıdakilerden birini seçin:
     - **Onayla** - İsteği onaylamak için.
@@ -113,7 +113,7 @@ Diğer iş akışı türlerinde olduğu gibi, herhangi bir günlüğün onay iş
 
 Bir günlüğün iş akışı geçmişini gözden geçirmek için:
 
-1. Gezinti bölmesinde, **Stok yönetimi \> Günlük girişleri \> Kalemler**'i genişletip bir stok günlüğü türü seçin.
+1. Gezinti bölmesinde, **Stok yönetimi \> Yevmiye defteri girişleri \> Kalemler**'i genişletip bir stok günlüğü türü seçin.
 1. İlgili günlüğü açın.
 1. Açılan iletişim kutusunu açmak için Eylem Bölmesindeki **İş akışı** düğmesini seçin. **İş akışı geçmişi**'ni seçin. Daha fazla bilgi için bkz. [İş akışı geçmişini görüntüleme](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
 

@@ -1,7 +1,7 @@
 ---
 title: Stok toplu işlerini birleştir
 description: Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir.
-author: pjacobse
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3594e9f5e26eeecbcb22e67807df9720fdd9ef8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 83c7fa6bf596510c3b902c12433cc55842ebe0b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808196"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571917"
 ---
 # <a name="merge-inventory-batches"></a>Stok toplu işlerini birleştir
 
@@ -130,7 +130,7 @@ Burada ürün boyutları, izleme boyutları ve depolama boyutlarının nasıl i�
 ## <a name="how-does-posting-work"></a>Deftere nakil nasıl işler?
 Deftere nakil işleri, günlükler için bir onay işlemi mi kullandığınıza bağlı olarak iki şekilde çalışır. Toplu iş birleştirmeyi onaylanıp deftere nakledilebileceği bir günlüğe aktarmak için **Günlüğe transfer et** ve **Toplu iş birleştirmeyi deftere naklet** eylemlerini kullanabilir veya toplu iş birleştirmeyi doğrudan deftere nakledebilirsiniz. İki eylem arasındaki en önemli fark, bir günlüğe aktarma işleminin toplu iş birleştirmeyi deftere nakletmemesidir. Mevcut bir toplu iş seçili değilse, her iki işlem de yeni bir toplu iş oluşturur; tüm toplu iş ayrıntılarını ve öznitelik değerlerini güncelleştirin ve bir stok günlüğü oluşturun.
 
--   **Günlüğe transfer et** – Toplu iş birleştirme ayrıntılarını yeni bir stok günlüğüne transfer eder. Otomatik rezervasyonlar ayarlarsanız, kaynak toplu iş miktarları rezerve edilir. Toplu iş birleştirme işleminin ayrıntıları değiştirilemez. Toplu iş birleştirme işlemini değiştirmek için günlüğü silmeniz gerekir. Günlük, başka bir çalışanın daha sonra gerçekleştirmesi gereken bir görev olarak kullanılabilir. Toplu iş miktarının günlük satırına rezervasyonu güvenlik altına alınır. Bu atama işlemi bir kalite planlayıcısının veya bir depo yöneticisinin kendi çalışanları için görevler oluşturmasına izin verir.
+-   **Günlüğe transfer et** – Toplu iş birleştirme ayrıntılarını yeni bir stok günlüğüne transfer eder. Otomatik rezervasyonlar ayarlarsanız, kaynak toplu iş miktarları rezerve edilir. Toplu iş birleştirme işleminin ayrıntıları değiştirilemez. Toplu iş birleştirme işlemini değiştirmek için günlüğü silmeniz gerekir. Günlük, başka bir çalışanın daha sonra gerçekleştirmesi gereken bir görev olarak kullanılabilir. Toplu iş miktarının yevmiye defteri satırına rezervasyonu güvenlik altına alınır. Bu atama işlemi bir kalite planlayıcısının veya bir depo yöneticisinin kendi çalışanları için görevler oluşturmasına izin verir.
 -   **Toplu iş birleştirmeyi deftere naklet** – Toplu iş birleştirmeyi doğrudan deftere nakleder. Bu eylem, fiziksel birleştirme gerçekleştikten sonra gerçekleştirilebilir.
 
 Toplu iş birleştirme stok günlüğünü Tüm toplu iş birleştirmeler listesi sayfasında **Tüm toplu iş birleştirmeleri** liste sayfasından onaylayabilirsiniz. **Günlük** &gt; **Deftere naklet** düğmelerine tıklayın. Günlük deftere nakledildikten sonra birleştirilen toplu iş ayrıntılarını değiştiremezsiniz. Toplu iş birleştirmesini bir stok günlüğüne transfer ettikten sonra, yalnızca günlüğün silinmesi durumunda ayrıntıları değiştirebilirsiniz.

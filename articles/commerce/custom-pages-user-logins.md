@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f4a3c7c3410a903ae7bc0bac27e861a0dbfa19fdd65761628549c403c4e5db16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799457"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723275"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 
@@ -32,7 +32,7 @@ Dynamics 365 Commerce'te kullanıcı oturum açma akışlarını işlemek amacı
 Özel Commerce sayfaları oturum açma, kayıt, hesap profili düzenleme, parola sıfırlama veya genel AAD modülü kullanılarak oluşturulabilir. Bu özel sayfalar için yayınlanan sayfa URL'lerine, Azure portalında Azure AD B2C ilkesi yapılandırmalarında başvurulmalıdır.
 
 > [!WARNING] 
-> Azure AD B2C, 1 Ağustos 2021'den itibaren eski Kullanıcı akışlarını devre dışı bırakıyor. Bu nedenle, Kullanıcı akışlarınızı önerilen yeni sürüme geçirmeyi planlamalısınız. Yeni sürüm, özellik eşliği ve yeni özellikler sağlar. Daha fazla bilgi için, [Azure Active Directory B2C'deki Kullanıcı akışları](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview) konusuna bakın.
+> Azure AD B2C, 1 Ağustos 2021'den itibaren eski Kullanıcı akışlarını devre dışı bırakıyor. Bu nedenle, Kullanıcı akışlarınızı önerilen yeni sürüme geçirmeyi planlamalısınız. Yeni sürüm, özellik eşliği ve yeni özellikler sağlar. Daha fazla bilgi için, [Azure Active Directory B2C'deki Kullanıcı akışları](/azure/active-directory-b2c/user-flow-overview) konusuna bakın.
 
 >Commerce sürüm 10.0.15 veya üzeri için modül kitaplığı önerilen B2C Kullanıcı akışlarıyla kullanılmalıdır. Azure AD B2C'de sunulan varsayılan kullanıcı ilkesi sayfaları da kullanılabilir ve Şirket markalaması ile ilgili ek arka plan görüntüsü, amblem ve arka plan renk değişikliklerine izin verir. Tasarım yetenekleri daha kısıtlı olsa da varsayılan kullanıcı ilkesi sayfaları, adanmış özel sayfalar oluşturup yapılandırmadan, Azure AD B2C ilkesi işlevselliği sağlar. 
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce'te kullanıcı oturum açma akışlarını işlemek amacı
 
 Azure AD B2C kiracınızı ayarladıktan ve Commerce ortamınızla ilişkilendirdikten sonra, Azure portalında **Azure AD B2C** sayfasına gidin ve menüsünde, **İlkeler** altında, **Kullanıcı akışlarını (ilkeler)** seçin.
 
-![Kullanıcı akışları (ilkeler) komutu menüde](./media/B2C_CustomPage_PoliciesMenu.png)
+![Kullanıcı akışları (ilkeler) komutu menüde.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 "Kaydet ve oturum aç", "Profil düzenlemesi" ve "parola sıfırlama" kullanıcı oturum açma akışlarını yapılandırabilirsiniz.
 
@@ -54,13 +54,13 @@ Azure AD B2C kiracınızı ayarladıktan ve Commerce ortamınızla ilişkilendir
 1. **Öznitelik topla** sütununda, **E-posta Adresi**, **Verilen ad** ve **Soyadı** onay kutularını seçin.
 1. **İade talebi** sütununda , **e-posta adreslerinin**, **verilen ad**, **kimlik sağlayıcı**, **soyadı** ve **kullanıcının nesne kodu** onay kutularını seçin.
 
-    ![Seçilen öznitelikler ve talepler](./media/B2C_SignInSignUp_Attributes.png)
+    ![Seçilen öznitelikler ve talepler.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. İlkeyi oluşturmak için **Tamam**'ı seçin.
 1. Yeni ilke adını çift tıklatın ve sonra gezinme bölmesinde **Özellikler**'i seçin.
 1. **JavaScript'i zorlamayı etkinleştir sayfa düzeni (Önizleme)** seçeneğini **açık** olarak ayarlayın.
 
-    ![Yeni ilke için Özellikler sayfası](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![Yeni ilke için Özellikler sayfası.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > İlke adı, Commerce ortamında tam olarak referans edilir. (**B2C\_1\_** öneki başvuruya dahil edilecek.) İlkeler, oluşturulduktan sonra yeniden adlandırılamaz. Commerce ortamınız için varolan bir ilkeyi değiştiriyorsanız, özgün ilkeyi silebilir ve aynı ada sahip yeni bir ilke oluşturabilirsiniz. Alternatif olarak, ortam önceden sağlanmış ise, yeni ilke adını bir servis isteği aracılığıyla gönderebilirsiniz.
@@ -150,7 +150,7 @@ Azure portalında **Azure AD B2C** sayfasına dönün ve sonra menüde **ilkeler
     1. **E-posta adresi**, **ad** ve **Soyadı** öznitelikleri için **İsteğe bağlı** sütununda **Hayır**'ı seçin.
 1. **Kaydet**'i seçin.
 
-    ![Yerel hesap kayıt sayfası ilkesi yapılandırması](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Yerel hesap kayıt sayfası ilkesi yapılandırması.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>"Profil düzenleme" ilkesini özel sayfa bilgileriyle güncelleştirme
 
@@ -188,11 +188,11 @@ Modül kitaplığında, oturum açma modülleri, Etiketler ve açıklamalar içi
 
 Örneğin, Unutulan parola bağlantısı için varsayılan metin **parola unutuldu mu?**'dur. Aşağıda bu varsayılan metin oturum açma sayfasında gösterilir.
 
-![Oturum açma sayfasında Unutulan parola bağlantısı için varsayılan metin](./media/B2C_SignUp_ModuleFace.png)
+![Oturum açma sayfasında Unutulan parola bağlantısı için varsayılan metin.](./media/B2C_SignUp_ModuleFace.png)
 
 Ancak, modül kitaplığı oturum açma modülü için Global.json dosyasında **Parolayı unuttunuz mu?** metnini düzenleyebilirsiniz, aşağıdaki şekilde gösterildiği gibi.
 
-![Oturum açma modülünün Global.json dosyasında bağlantı metni güncelleştirildi](./media/B2C_CustomizingStringsForModule.png)
+![Oturum açma modülünün Global.json dosyasında bağlantı metni güncelleştirildi.](./media/B2C_CustomizingStringsForModule.png)
 
 Global.json dosyasını güncelleştirip değişikliklerinizi yayımladıktan sonra, yeni bağlantı metni hem ticaret hem de canlı oturum açma sayfasında bulunan modülde günlükte görüntülenir.
 

@@ -2,8 +2,7 @@
 title: Mali raporlar oluştur
 description: Bu konu mali rapor oluşturma hakkında bilgi sağlar.
 author: jinniew
-manager: AnnBe
-ms.date: 03/08/2021
+ms.date: 02/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 742361162c2f502bf479a9ab518054020617af93
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572433"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119539"
 ---
 # <a name="generate-financial-reports"></a>Mali raporlar oluştur
 
@@ -29,9 +28,22 @@ ms.locfileid: "5572433"
 
 Bu konu mali rapor oluşturma hakkında bilgi sağlar.
 
-Rapor oluşturmak için rapor tanımını açın ve ardından araç çubuğundaki **Oluştur** düğmesini seçin. **Rapor Kuyruğu Durumu** sayfası açılır ve raporunuzun kuyruktaki konumunu gösterir. Varsayılan olarak, oluşturulan rapor Web Görüntüleyici'de açılır.
+Rapor oluşturmak için rapor tanımını açın ve araç çubuğunda **Oluştur**'u seçin. **Rapor Kuyruğu Durumu** sayfası açılır ve raporunuzun kuyruktaki konumunu gösterir.
 
-Rapor oluşturma için aşağıdaki seçenekler kullanılabilir:
+Rapor oluşturma işlemi sürerken, **Rapor Kuyruk Durumu** sayfasında aşağıdaki rapor kuyruk durumu göstergeleri görüntülenebilir.
+
+| Çalıştırma Durumu          | İl | Açıklama|
+|-----------------|--------|--------------------|
+| Sıraya alma        | Geçici |Rapor tanımı, rapor oluşturma sırasına yerleştirilmeden önce doğrulanır.                    |
+| Kuyruğa eklendi          | Geçici | Rapor, rapor oluşturma kuyruğuna girer ve işlenmeyi bekler.                      |
+| İşleniyor      | Geçici | Bu durum genellikle **Kuyruğa alınmış** durumunu izler ve işlem tamamlandığında genellikle **Son** durumuna geçiş yapar.       |
+| Son işlem yapılıyor | Geçici | Bu durum **İşleniyor** durumunu takip eder ve tüm rapor verilerinin toplandığını ancak hesaplama ve yuvarlama gibi türev eylemlerin gerçekleştirilmekte olduğunu gösterir.            |
+| İptal ediliyor      | Geçici | Rapor kullanıcının isteğiyle iptal edildi. Bu durum, **Kuyruğa alındı** veya **İşleniyor** durumundaki bir rapor için kullanıcı tarafından istenen bir iptalin sonucunda oluşur. Sistem çok uzun olmadıkça ve başka bir durumda bunu sonuçlandırmak zorunda olmadığı sürece sistem raporu **İptal edildi** durumuna geçirmeye çalışır. |
+| İptal Edildi        | Son | Raporun işlenmesi sona erdi ancak kullanıcı tarafından istenen bir durdurma nedeniyle tamamlanmadı.            |
+| Tamamlandı       | Son | Rapor zaten kullanımda.                      |
+| Başarısız          | Son | Rapor işlemeyi tamamladı ancak başarısız oldu ve kullanılmamalı. |
+
+Varsayılan olarak, oluşturulan rapor Web Görüntüleyici'de açılır. Rapor oluşturma için aşağıdaki seçenekler kullanılabilir:
 
 - Otomatik olarak rapor veya rapor grubu oluşturmak için bir plan ayarlayın
 - Hesapları veya bir rapordaki verileri eksik olup olmadığını denetleyin ve raporun doğruluğunu doğrulayın

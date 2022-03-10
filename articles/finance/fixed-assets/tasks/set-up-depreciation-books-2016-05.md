@@ -1,26 +1,24 @@
 ---
 title: Amortisman defterleri ayarlama
 description: Bu yordamda, yeni amortisman defteri oluşturma ve bunu sabit kıymet grubuyla ilişkilendirme süreci boyunca izlenecek yol.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd65cb77872b3e2f74402cf8c92c8b8989cea6ee
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 42b8a15ac60fd2620c600d78b84a25e3caf6d2bf
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224705"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883632"
 ---
 # <a name="set-up-depreciation-books"></a>Amortisman defterleri ayarlama 
 

@@ -1,27 +1,25 @@
 ---
 title: Kesikli üretim kaynak grubunu tanımlama
 description: Kaynak grubu, genellikle üretim atölyesinde sarı satırlarla tanımlanan fiziki iş hücreleri düzenine karşılık gelen operasyon kaynakları grubudur.
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24097cbb6f0ffae7b1b52bd3c70b7e054b3ce86c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4ce76c6f7534e37d8b68d3a6ed1e8eb0457da725
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257327"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580660"
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Kesikli üretim kaynak grubunu tanımlama
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894160"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594921"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumları belirtme
 
@@ -41,7 +41,7 @@ Bu konudaki tüm görevler **USMF** şirketinde tamamlanabilir.
 
 Özel bir depolama konumu eklemeyi planladığınız belgeleri oluşturmak için geçerli topolojiye **Sabit kıymet ileri taşıma** ER biçimini [içeri aktarın](er-download-configurations-global-repo.md).
 
-![Yapılandırma havuzu sayfası](./media/er-custom-storage-generated-files-import-format.png)
+![Yapılandırma deposu sayfası.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Sabit kıymet ileri taşıma raporunu çalıştırma
 
@@ -52,7 +52,7 @@ Bu konudaki tüm görevler **USMF** şirketinde tamamlanabilir.
 5. **Biçim eşleme** alanında, **Sabit kıymet ileri taşıma**'yı seçin.
 6. **Tamam**'ı seçin.
 
-![Sabit kıymet ileri taşıma raporu için çalışma zamanı iletişim kutusu](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Sabit kıymet ileri taşıma raporu için çalışma zamanı iletişim kutusu.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Microsoft Excel'de, oluşturulan ve indirmeye hazır olan giden belgeyi inceleyin. Bu davranış, hiçbir [hedefin](electronic-reporting-destinations.md) yapılandırılmadığı ve etkileşimli modda çalıştırılan bir ER biçimi için [varsayılan davranıştır](electronic-reporting-destinations.md#default-behavior).
 
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Mevcut `AssetRollForwardService` sınıfını değiştirin ve rapor çalıştırıcısı için özel bir hedef fabrikası ayarlamak amacıyla bir kod yazın. Özel bir hedef fabrikası oluşturulduğunda, hedef klasörü belirten uygulama temelli parametreye geçilir. Bu şekilde, bu hedef klasör oluşturulan dosyaları depolamak için kullanılır.
 
     > [!NOTE] 
-    > Belirtilen klasörün (bu örnekte **c:\\0**) AOS hizmetini çalıştıran sunucunun yerel dosya sisteminde mevcut olduğundan emin olun. Aksi takdirde, çalışma zamanında [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) özel durumu oluşturulur.
+    > Belirtilen klasörün (bu örnekte **c:\\0**) AOS hizmetini çalıştıran sunucunun yerel dosya sisteminde mevcut olduğundan emin olun. Aksi takdirde, çalışma zamanında [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) özel durumu oluşturulur.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

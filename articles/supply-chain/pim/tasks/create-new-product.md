@@ -1,26 +1,24 @@
 ---
 title: Yeni ürün oluşturma
 description: Bu konuda, yeni bir paylaşılan ürün oluşturma yöntemi açıklanmıştır.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90fdd0a3cbe90c7d3752c4ca2de1c2665968dc35
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218549"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575596"
 ---
 # <a name="create-a-new-product"></a>Yeni ürün oluşturma
 

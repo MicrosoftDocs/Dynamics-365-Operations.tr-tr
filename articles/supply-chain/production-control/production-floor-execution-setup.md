@@ -2,11 +2,9 @@
 title: Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
 description: Üretim katı yürütme arabirimi, üretim katındaki her cihaz için ayarlanır. Şirketler, genellikle cihazın hizmet verdiği amaca bağlı olarak her bir cihazı farklı şekilde kurar. Örneğin, bir şirketin teslim alma alanında, çalışanların giriş ve çıkış saatlerini girdikleri bir cihazı ve atölye katında çalışanların işlerini yönettiği başka bir cihazı olabilir.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
@@ -14,26 +12,25 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 641273dd3ae189853326bf7af7ceb06d48465b5c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500562"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752844"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Üretim katı yürütme arabirimi, üretim katındaki her cihaz için ayarlanır. Şirketler, genellikle cihazın hizmet verdiği amaca bağlı olarak her bir cihazı farklı şekilde kurar. Örneğin, bir şirketin teslim alma alanında, çalışanların giriş ve çıkış saatlerini girdikleri bir cihazı ve atölye katında çalışanların işlerini yönettiği başka bir cihazı olabilir.
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Belirli bir cihaz için konfigürasyon ve filtreleri ayarla
 
-Bir cihazın konfigürasyon ve iş filtrelerini ayarlamak için, *zaman gözetimini koru* görevini içeren güvenlik rolüne sahip bir hesabı kullanarak **üretim katı yürütme** sayfasında oturum açın. (Kullanıma hazır güvenlik rolleri arasında, yalnızca *Atölye gözetmeni* bu göreve sahiptir.) Sonra aşağıdaki adımları izleyin.
+Bir cihazın konfigürasyon ve iş filtrelerini ayarlamak için, *Zaman gözetimini koru* görevini içeren güvenlik rolüne sahip bir hesabı kullanarak **Üretim katı yürütme** sayfasında oturum açın. (Kullanıma hazır güvenlik rolleri arasında, yalnızca *Atölye gözetmeni* bu göreve sahiptir.) Sonra aşağıdaki adımları izleyin.
 
-1. Ayarlamak istediğiniz cihaza gidin ve Microsoft Dynamics 365 Supply Chain Management'ta atölye gözetmeni olarak oturum açın. (*Zaman gözetimini koruma* görevini içeren bir hesap kullanın.)
+1. Ayarlamak istediğiniz cihaza gidin ve Microsoft Dynamics 365 Supply Chain Management'ta atölye gözetmeni olarak oturum açın. (*Zaman gözetimini koru* görevini içeren bir hesap kullanın.)
 1. Ayarlamakta olduğunuz cihaz için kullanılabilir bir konfigürasyon olduğundan emin olun. Herhangi bir konfigürasyon bulunmuyorsa, varsayılan konfigürasyon sağlanır. Konfigürasyon ayarlama hakkında daha fazla bilgi için bkz[Üretim katı yürütme arabirimini yapılandırma](production-floor-execution-configure.md).
 1. **Üretim denetimi \> Üretim yürütme \> Üretim katı yürütmesi**'ne gidin.
 
@@ -73,7 +70,7 @@ Genellikle, üretim katı yürütme arabirimini o amaçla özel olarak kullanıl
 
 Aşağıdaki çizimin üst bölümünde arabirimin varsayılan olarak nasıl göründüğü gösterilmektedir. Alt bölüm, gezinti bölmesi gizli olduğunda tam ekran modunda nasıl göründüğünü gösterir.
 
-![Standart ve tam ekran arabirim karşılaştırması](media/pfei-full-screen.png "Standart ve tam ekran arabirim karşılaştırması")
+![Standart ve tam ekran arabirim karşılaştırması.](media/pfei-full-screen.png "Standart ve tam ekran arabirim karşılaştırması")
 
 ## <a name="extend-the-session-past-12-hours"></a>Oturumu 12 saatten fazla uzatma
 

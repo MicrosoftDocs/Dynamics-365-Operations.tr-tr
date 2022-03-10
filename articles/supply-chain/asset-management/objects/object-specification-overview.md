@@ -3,7 +3,7 @@ title: Kıymet özniteliğine genel bakış
 description: Bu konuda, Kıymet Yönetimi'ndeki kıymet özniteliklerine genel bir bakış sağlanmaktadır.
 author: johanhoffmann
 ms.date: 06/26/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectAttributeOverview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e62c2c88f3669df4088e648478baec992cd3eede
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 98386b6ffe2a5f9c79c0ee1f18073ac13fc3a039
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337039"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986472"
 ---
 # <a name="asset-attribute-overview"></a>Kıymet özniteliğine genel bakış
 

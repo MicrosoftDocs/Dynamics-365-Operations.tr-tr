@@ -1,35 +1,29 @@
 ---
 title: Bakım talepleri
 description: Bu konu, varlık yönetimi'nde bakım taleplerini yönetme hakkında genel bir bakış sağlar
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7038269c66092367a0faf147766cb45eb5364e1b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439358"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985265"
 ---
 # <a name="maintenance-requests"></a>Bakım talepleri
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Bakım talepleri, bir varlığın bir bakım veya onarım işi gerektirebileceği ancak bir iş emri oluşturmadan yöneticiye veya planlayıcıya bildirmek için oluşturulan notlar veya beyanlardır. Bakım talebinin içeriği geçerli kabul edilir, bir iş emri daha sonra bakım talebine göre oluşturulabilir.
 
@@ -45,7 +39,7 @@ Bakım talepleri, Varlık yönetimi'ndeki herhangi bir varlık için oluşturula
 
 Bakım taleplerini görüntülemek için **Varlık yönetimi** \> **Ortak** \> **Bakım talepleri** \> **Tüm bakım talepleri**, **Etkin bakım talepleri**, ya da **İşlem yapılacak yerleşim bakım talepleri**'ni seçin. Her liste sayfası bir bakım talebi ile ilgili bazı bilgileri gösterir.
 
-![Bakım taleplerini görüntüle](media/01-manage-maintenance-requests.png)
+![Bakım taleplerini görüntüleme.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Çalışan olarak ilişkili olduğunuz işlem yapılacak yerleşimleri veya ilişkili olduğunuz işlem yapılacak yerleşimlere yüklü varlıkları içeren bakım taleplerinin listesini görüntülemek için **İşlem yapılacak yerleşim bakım talepleri** liste sayfasını kullanın. (Bakım çalışanlarında işlem yapılacak yerleri ayarlama hakkında daha fazla bilgi için bkz: [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md).)
@@ -54,7 +48,7 @@ Bakım taleplerini görüntülemek için **Varlık yönetimi** \> **Ortak** \> *
 
 Bir kaydın Ayrıntılar görünümünü açmak için, **Tüm bakım talepleri** listesi sayfasında, kılavuz görünümünde, **Bakım talebi** sütununda bir bağlantı seçin.
 
-![Bakım talebi ayrıntılarını görüntüleme](media/02-manage-maintenance-requests.png)
+![Bakım talebi ayrıntılarını görüntüleme.](media/02-manage-maintenance-requests.png)
 
 Eylem Bölmesi'ndeki düğmeler sekmeler halinde düzenlenmiştir. Aşağıdaki tabloda Kıymet Yönetimi'yle ilgili düğmeler kısaca açıklanmaktadır.
 
@@ -73,3 +67,6 @@ Eylem Bölmesi'ndeki düğmeler sekmeler halinde düzenlenmiştir. Aşağıdaki 
 | Ödünç varlığı gönder                  | Seçili bakım talebinde seçilen varlığın geçici olarak değiştirilmesi gereken bir kredi varlığı seçin. |
 | Kredi varlıklarını iade etme                | İade edilen ödünç varlığını kaydedin. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

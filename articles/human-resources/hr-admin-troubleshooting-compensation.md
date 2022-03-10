@@ -1,28 +1,30 @@
 ---
 title: Ücret işlemini çalıştırma
 description: Bu konu, müşterinin ücretlendirme işlemini Microsoft Dynamics 365 Human Resources içinde çalıştırmaya çalışması ancak başarılı olamaması sorunun çözümünü açıklar.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ff0619302d6ce9c2bf6db9e78778a536016ef176
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2c299846b00d034c80b1044271128a08222e5d3f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892741"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065413"
 ---
 # <a name="run-the-compensation-process"></a>Ücret işlemini çalıştırma
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

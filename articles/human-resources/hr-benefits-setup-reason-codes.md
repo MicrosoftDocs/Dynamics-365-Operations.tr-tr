@@ -1,42 +1,42 @@
 ---
 title: Neden kodlarını ayarla
 description: Dynamics 365 Human Resources bir çalışanın yararlarını nasıl değiştirdiğinizi açıklamak için neden kodları kullanır.
-author: andreabichsel
-manager: tfehr
-ms.date: 01/25/2021
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c799a81f38a5dbd5996afbda9529fa83d7fe5cf9
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: a30a59a648d54eda771845b8bee52df43987d3d1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468407"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068296"
 ---
 # <a name="set-up-reason-codes"></a>Neden kodlarını ayarla
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources bir çalışanın yararlarını nasıl değiştirdiğinizi açıklamak için neden kodları kullanır.
 
 > [!NOTE]
-> Ocak 2021 itibarıyla, neden kodları **Yan hak yönetimi** çalışma alanı yerine **Personel yönetimi** çalışma alanına geçiriliyor. Daha fazla bilgi için, bkz. [Neden kodlarını el ile Personel yönetimine geçirme](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
+> Ocak 2021 itibarıyla, neden kodları **Kazanç yönetimi** çalışma alanı yerine **Personel yönetimi** çalışma alanına geçirildi. Daha fazla bilgi için, bkz. [Neden kodlarını el ile Personel yönetimine geçirme](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
 
 ## <a name="create-reason-codes"></a>Neden kodları oluşturma
 
-1. **Personel yönetimi** çalışma alanında (veya neden kodlarınız henüz geçirilmediyse **Yan hak yönetimi** çalışma alanı), **Bağlantılar**'ı ve ardından **Neden kodları**'nı seçin.
+1. **Personel yönetimi** çalışma alanında (veya neden kodlarınız geçirilmediyse **Kazanç yönetimi** çalışma alanında) **Bağlantılar**'ı seçin ve ardından **Neden kodları** seçeneğini belirleyin.
 
 2. **Yeni**'yi seçin.
 
@@ -47,27 +47,27 @@ Dynamics 365 Human Resources bir çalışanın yararlarını nasıl değiştirdi
    | **Neden kodu** | Bir çalışanın bir kazanç planı kaydını değiştiren nedenini tanımlamak için benzersiz ad. |
    | **Açıklama** | Neden kodunun açıklaması. |
 
-4. **Uygulanabilir senaryolar** altında, **Yan hak yönetimi**'ni **Evet** olarak ayarlayın. (Neden kodlarınız henüz **Personel yönetimi** çalışma alanına geçirilmediyse geçerli değildir.)
+4. **Uygulanabilir senaryolar** altında, **Yan hak yönetimi**'ni **Evet** olarak ayarlayın. (Neden kodlarınız **Personel yönetimi** çalışma alanına geçirilmediyse geçerli değildir.)
 
 5. **Kaydet**'i seçin.
 
 ## <a name="manually-migrate-reason-codes-to-personnel-management"></a>Neden kodlarını Personel yönetimine el ile geçirme
 
-Ocak 2021'de, neden kodları **Yan hak yönetimi** çalışma alanı yerine **Personel yönetimi** çalışma alanına geçiriliyor. Çoğu neden kodu verileri ortamınıza otomatik olarak geçiş yapacaktır. Bazı neden kod verileri geçirilemeyebilir. Örneğin, neden kodları artık en fazla 15 karaktere sahiptir, bu nedenle 15 karakterden uzun herhangi bir neden kodu otomatik olarak geçirilmeyecektir.
+Ocak 2021'de, neden kodları **Kazanç yönetimi** çalışma alanı yerine **Personel yönetimi** çalışma alanına geçirildi. Çoğu neden kodu verileri ortamınıza otomatik olarak geçiş yapacaktır. Bazı neden kod verileri geçirilemeyebilir. Örneğin, neden kodları artık en fazla 15 karaktere sahiptir, bu nedenle 15 karakterden uzun herhangi bir neden kodu otomatik olarak geçirilmeyecektir.
 
 **Yan hak yönetimi** çalışma alanının **Bağlantılar** sayfasında, geçişle ilgili ve herhangi bir neden kodunun geçirilmemesi hakkında sizi bilgilendiren bir başlık görürsünüz.
 
 1. Geçiş durumuyla ilgili ayrıntılar için **Neden kodları**'nı seçin.
 
-   [![Neden kodları](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
+   [![Neden kodları.](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
 
 2. Geçirilemeyen bir neden kodu seçin.
 
-   [![Neden kodu geçiş durumu](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
+   [![Neden kodu geçiş durumu.](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
 
 3. **Neden kodunu taşı**'yı seçin.
 
-   [![Neden kodunu taşı](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
+   [![Neden kodunu taşıma.](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
 
 4. **Yan hak neden kodu geçişi** bölmesinde, Personel yönetimi neden koduyla eşlemek için iki seçeneğiniz vardır:
 
@@ -76,10 +76,10 @@ Ocak 2021'de, neden kodları **Yan hak yönetimi** çalışma alanı yerine **Pe
      > Personel yönetiminde var olan bir neden kodunu yalnızca başka bir Yan hak yönetimi neden kodu zaten geçiş yapmamışsa kullanabilirsiniz.
    - Personel yönetiminde yeni bir neden kodu oluşturmak için **Yeni neden kodu** bölümünde yeni bir neden kodu girin ve sonra **Yeni açıklama**'ya bir açıklama girin.
 
-   [![Personel yönetimi neden koduyla eşleme](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
+   [![Personel yönetimi neden koduyla eşleme.](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
 
 Neden kodları Personel yönetimine geçtikten sonra, bunları Yan hak yönetiminde kullanma seçeneği otomatik olarak **Evet** olarak ayarlanır.
 
-[![Yan hak yönetiminde neden kodunu kullanma](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+[![Yan hak yönetiminde neden kodunu kullanma.](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

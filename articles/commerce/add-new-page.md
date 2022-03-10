@@ -2,36 +2,30 @@
 title: Yeni site sayfası ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'e yeni bir site sayfası ekleme yöntemi açıklanmıştır .
 author: psimolin
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416372"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090731"
 ---
 # <a name="add-a-new-site-page"></a>Yeni site sayfası ekleme
-
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'e yeni bir site sayfası ekleme yöntemi açıklanmıştır .
-
-## <a name="overview"></a>Genel Bakış
 
 Siteniz için şablonlar ve parçalar oluşturduktan sonraki adım bunları kullanan sayfalar oluşturmaya başlamak içindir. Başlamak için, bir şablon veya düzen, bir sayfa adı ve bir sayfa URL'si seçmelisiniz.
 
@@ -39,11 +33,11 @@ Siteniz için şablonlar ve parçalar oluşturduktan sonraki adım bunları kull
 
 Yeni sayfanız için bir şablon ya da Düzen kullanabilirsiniz. Daha fazla bilgi için bkz. [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Sayfa adı
+## <a name="specify-the-page-name"></a>Sayfa adını belirtme
 
-Sayfa adı sayfanız için benzersiz olmalıdır. Açıklayıcı olmalıdır, böylece kolayca bulabilmeniz için ve sayfanın ne için amaçlandığı hakkında diğer kişileri de bulabilirsiniz. Sayfa adını daha sonra değiştirilemediğinden, dikkatlice seçin.
+Sayfa adı siteniz için eşsiz olmalı ve kolayca bulabilmeniz ve sayfanın amacı hakkında diğer kişileri de bilgilendirmeniz için açıklayıcı olmalıdır. Daha sonra, özellik bölmesinde sayfa adının yanında bulunan kalem sembolünü seçerek sayfanızı düzenleyip yeniden adlandırabilirsiniz.
 
-## <a name="page-url"></a>Sayfa URL'si
+## <a name="specify-the-page-url"></a>Sayfa URL'sini belirtme
 
 Yeni sayfanız için bir URL girme seçeneğiniz olabilir. Sayfa oluşturduğunuzda, tam bir URL oluşturmak için kullanılacak bir dize girebilirsiniz. Bu dize göreli bir URL veya URL bilgi olarak bilinir. URL bilgisinin temel alınarak tam bir URL oluşturulur ve yeni sayfa buna atanır. Sayfayı yayımlamadan önce URL başlık bilgisinin değiştirilmesini sağlayabilirsiniz. Daha fazla bilgi için bkz. [Sayfa URL'si oluşturma](create-page-URL.md).
 
@@ -90,4 +84,9 @@ Sitenize yeni site sayfası eklemek için şu adımları izleyin.
 
 [Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
 
-[Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)
+[Sayfa içeriği erişilebilirliğini doğrulama](verify-accessibility.md)
+
+[URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

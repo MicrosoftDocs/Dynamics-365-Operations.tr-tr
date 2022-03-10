@@ -2,7 +2,7 @@
 title: E-posta bildirimi profili ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta bir e-posta bildirimi profilinin nasıl oluşturulacağı açıklanmaktadır.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ac58ea4f1dfd8208c1c2f78e36d82d1375475413
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349532"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109643"
 ---
 # <a name="set-up-an-email-notification-profile"></a>E-posta bildirimi profili ayarlama
 
@@ -27,7 +27,7 @@ ms.locfileid: "6349532"
 
 Bu konuda, Microsoft Dynamics 365 Commerce'ta bir e-posta bildirimi profilinin nasıl oluşturulacağı açıklanmaktadır.
 
-Kanalları oluştururken, bir e-posta bildirim profili ayarlayabilirsiniz. Bu şekilde, sipariş oluşturma, sipariş Sevkiyat durumu ve ödeme hatası gibi çeşitli işlem olayları için müşterilere e-postalar gönderilebilir.
+Kanalları oluştururken, bir e-posta bildirim profili ayarlayabilirsiniz. E-posta bildirim profili, müşterilerinize bildirim göndereceğiniz satış hareketini (sipariş oluşturuldu, sipariş hazırlandı ve sipariş faturalandı gibi etkinlikler) tanımlar. 
 
 E-posta yapılandırma hakkında daha fazla bilgi için bkz. [E-posta yapılandırma ve gönderme](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -43,7 +43,7 @@ E-posta bildirim profili oluşturmak için bu adımları izleyin.
 
 ### <a name="create-an-email-template"></a>Bir e-posta şablonu oluştur
 
-Bir e-posta bildirim türünü etkinleştirmeden önce, Commerce genel merkezinde bir kuruluş e-posta şablonu oluşturmanız gerekir. Bu şablon, desteklemek istediğiniz her bir dil için e-posta konusu, gönderen, varsayılan dil ve e-posta gövdesini tanımlar.
+Desteklemek istediğiniz her bildirim türü için bir e-posta bildirim türünü etkinleştirmeden önce, Commerce genel merkezinde bir kuruluş e-posta şablonu oluşturmanız gerekir. Bu şablon, desteklenen her bir dil için e-posta konusu, gönderen, varsayılan dil ve e-posta gövdesini tanımlar.
 
 Yeni bir e-posta şablonu oluşturmak için bu adımları izleyin.
 
@@ -61,6 +61,8 @@ Aşağıdaki resimde bazı örnek e-posta şablonu ayarları gösteriliyor.
 
 ![E-posta şablonu ayarları.](media/email-template.png)
 
+E-posta şablonlarının nasıl oluşturulacağı hakkında bilgi için bkz. [İşlem olayları için e-posta şablonları oluşturma](email-templates-transactions.md). 
+
 ### <a name="create-an-email-event"></a>Bir e-posta olayı oluşturma
 
 Bir e-posta olayı oluşturmak için bu adımları izleyin.
@@ -76,10 +78,25 @@ Aşağıdaki resimde bazı örnek olay bildirimi ayarları gösteriliyor.
 
 ![Olay bildirim ayarları.](media/email-notification-profile.png)
 
+> [!NOTE]
+> Müşteri tarafından oluşturulan bildirim türü bir e-posta bildiriminin gönderilebilmesi için önce özelleştirmenin uygulanmasını gerektirir.
+
+### <a name="schedule-a-recurring-email-notification-process-job"></a>Yinelenen e-posta bildirim işlemi işi zamanla
+
+E-posta bildirimleri göndermek için **Perakende sipariş e-posta bildirimini işle** işinin çalışıyor olması gerekir.
+
+Daha önce yapmadıysanız Commerce Headquarters'da **Perakende sipariş e-posta bildirimini işle** işini ayarlamak için şu adımları izleyin.
+
+1. **Retail ve Commerce \> Retail ve Commerce BT \> E-posta ve bildirimler \> E-posta bildirimi gönder**'e gidin.
+1. **Perakende sipariş e-posta bildirimini işle** iletişim kutusunda **Yineleme**'yi seçin.
+1. **Yinelemeyi tanımla** iletişim kutusunda **Bitiş tarihi yok**'u seçin.
+1. **Yinelenme düzeni** altında **Dakika**'yı seçin ve sonra **Sayı** alanını **1** olarak ayarlayın. Bu ayarlar, e-posta bildirimlerinin olabildiğince çabuk şekilde işlenmesini sağlar.
+1. **Perakende sipariş e-posta bildirimini işle** iletişim kutusuna dönmek için **Tamam**'ı seçin.
+1. İş kurulumunu tamamlamak için **Tamam**'ı seçin.
+
 ### <a name="next-steps"></a>Sonraki adımlar
 
 Posta gönderebilmek için önce giden posta hizmetinizi yapılandırmanız ve bir toplu iş ayarlamanız gerekir. Daha fazla bilgi için bkz. [E-posta yapılandırma ve gönderme](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
-
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

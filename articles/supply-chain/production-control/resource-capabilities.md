@@ -1,12 +1,10 @@
 ---
 title: Kaynak yetenekleri
 description: Bu makale, kaynak yetenekleri hakkında bilgi sağlar. Yetenek, bir operasyon kaynağının belirli bir etkinliği gerçekleştirebilme becerisidir. Makale, yeterlilik düzeyi ve öncelik gibi yeteneklerin ve ilgili kavramların bir etkinlik için uygun kaynakların seçilmesinde nasıl kullanıldığını açıklar.
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable, WrkCtrCapRes, WrkCtrApplicableResources
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 29961
 ms.assetid: 30e38233-2a64-4070-911f-8ffd78dd8281
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 445ef49440fa789bee60e508698abed755c54795
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 260537767d083445aa908c850526a5472c529763
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986562"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572781"
 ---
 # <a name="resource-capabilities"></a>Kaynak yetenekleri
 
@@ -57,3 +55,6 @@ Bu örnekte, (Drilling) temel yeteneği gereksinimi karşıladığı için her i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

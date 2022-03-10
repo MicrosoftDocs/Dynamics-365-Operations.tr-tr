@@ -2,11 +2,9 @@
 title: " Donanım istasyonu oluşturma ve ilişkilendirme"
 description: Bu yordamda yeni bir donanım istasyonu oluşturma konusu açıklanmaktadır.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailHardwareStation, RetailStoreTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adbd5ef1cafe778cf897aafb05c77fca89be3e20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 582530f53a401519ed78442041415dffd4a4756ca2a18721f6b4761d8a735331
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964932"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756513"
 ---
 # <a name="create-and-associate-a-hardware-station"></a> Donanım istasyonu oluşturma ve ilişkilendirme
 
@@ -57,3 +55,6 @@ Bu yordamda yeni bir donanım istasyonu oluşturma konusu açıklanmaktadır. Ye
 23. EFT terminali kodu alanına bir değer girin.
 24. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

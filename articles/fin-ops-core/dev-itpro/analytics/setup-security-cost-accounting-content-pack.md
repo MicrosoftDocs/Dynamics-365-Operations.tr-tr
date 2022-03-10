@@ -1,12 +1,10 @@
 ---
 title: Maliyet muhasebesi analizi Power BI içeriğinin güvenliğini ayarlama
-description: Bu konuda, Maliyet muhasebesindeki erişim düzeyinde güvenliği, Microsoft Power BI'daki satır düzeyinde güvenliğe nasıl yayabileceğiniz açıklanmaktadır. Bu işlevsellik, kullanıcıların yalnızca erişim izni verilen Power BI verilerini görmelerini garantilemeye yardımcı olur.
+description: Bu konuda, Maliyet muhasebesindeki erişim düzeyinde güvenliği, Microsoft Power BI'daki satır düzeyinde güvenliğe nasıl yayabileceğiniz açıklanmaktadır.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,14 +14,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751503"
 ---
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Maliyet muhasebesi analizi Power BI içeriğinin güvenliğini ayarlama
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Maliyet muhasebesi analizi güvenliğini ayarlama Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,11 +42,11 @@ Erişim düzeyinde güvenliği Power BI'ya yaymak için, Power BI içeriği sahi
 3. **Maliyet muhasebesi analizi** Power BI içeriği için veri kümesini bulun.
 4. Güvenlik sayfasını açın.
 
-    ![Güvenlik sayfasını açma](./media/CA-picture-1.png)
+    ![Güvenlik sayfasını açma.](./media/CA-picture-1.png)
 
 5. **Maliyet nesne denetleyicisi** rolü zaten oluşturulmuştur. Maliyet muhasebesi erişim düzeyi organizasyon hiyerarşisinin bir parçası olan diğer üyeleri ekleyin.
 
-    ![Üyeleri ekleme](./media/CA-picture-2.png)
+    ![Üyeleri ekleme.](./media/CA-picture-2.png)
 
 **Maliyet nesnesi denetleyicisi** rolüne eklenen kullanıcılar, Maliyet muhasebesi erişim düzeyi organizasyon hiyerarşisindeki tanıma göre yalnızca görmelerine izin verilen verileri görecektir.
 
@@ -63,3 +61,6 @@ Kuruluşunuzun veri erişimini kısıtlamak istediğini varsayalım. Maliyet muh
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 Power BI'ın satır düzeyinde güvenliği hakkında daha fazla bilgi için bkz. [Power BI'daki modelinizde güvenliği yönetme](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

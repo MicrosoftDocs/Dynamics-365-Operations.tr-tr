@@ -1,7 +1,7 @@
 ---
 title: Konsinye stok yenileme siparişi oluşturma
 description: Bu konu bir satıcıdan beklenen teslimatı konsinye stoğunuzda izleyebildiğiniz bir konsinye stok yenileme siparişi oluşturmayı açıklar.
-author: sherry-zheng
+author: yufeihuang
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0d2030277e0810bebef9356136b0e11effc6d5b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9076207b73c6c76cfc44e1e02b21aad4e3f321f8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834037"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574605"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Konsinye stok yenileme siparişi oluşturma
 

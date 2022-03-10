@@ -2,9 +2,7 @@
 title: INDEX ER işlevi
 description: Bu konu, INDEX Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
-ms.topic: article
+ms.date: 05/20/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88be8f8bdc82bf3eab5c99e72046c794d8fac361
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e68f1690d6f852b0db560ef67a36fbde9e099715942a4b8a6e486d759af46682
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566937"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755791"
 ---
 # <a name="index-er-function"></a>INDEX ER işlevi
 
@@ -44,6 +42,9 @@ INDEX (list, index)
 `index`: *Tamsayı*
 
 İstenen kaydın belirtilen listedeki konumunu gösteren sayısal dizin.
+
+> [!NOTE]
+> Bu işlev için tek tabanlı numaralandırma kullanıldığından, belirtilen listenin ilk kaydını döndürmek için **1** değerini belirtin.
 
 ## <a name="return-values"></a>Dönüş değerleri
 

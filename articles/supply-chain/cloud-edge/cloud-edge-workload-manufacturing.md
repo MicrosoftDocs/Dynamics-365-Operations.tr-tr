@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352748"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068856"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> Üretim yürütme iş yükü şu anda önizlemede sunulmaktadır.
+> [!IMPORTANT]
+> Üretim yürütme iş yükü şu anda yalnızca önizlemede sunulmaktadır.
+>
 > İş yükü ölçek birimleri kullanıldığında, genel önizlemedeki bazı iş işlevleri tam olarak desteklenmez.
+>
+> Ambar yürütme iş yükünün de yüklü olduğu bir ölçek biriminde önizleme üretim yürütme iş yükünü çalıştıramazsınız.
 
 Üretim yürütmede, ölçek birimleri aşağıdaki özellikleri sunar:
 
@@ -44,7 +47,7 @@ Bu konuda, üretim yürütme iş yüklerinin bulut ve edge ölçek birimleri ile
 
 Aşağıdaki çizimin gösterdiği gibi, üretim yaşam döngüsü üç aşamaya ayrılmıştır: *Planlama*, *Çalıştırma* ve *Sonuçlandırma*.
 
-[![Tek bir ortam kullanıldığında üretim yürütme aşamaları](media/mes-phases.png "Tek bir ortam kullanıldığında üretim yürütme aşamaları."](media/mes-phases-large.png)
+[![Tek bir ortam kullanıldığında üretim yürütme aşamaları](media/mes-phases.png "Tek bir ortam kullanıldığında üretim yürütme aşamaları.")](media/mes-phases-large.png)
 
 _Planlama_ aşaması; ürün tanımı, planlama, sipariş oluşturma ve zamanlama ile serbest bırakma bilgilerini içerir. Serbest bırakma adımı; _Planlama_ aşamasından _Yürütme_ aşamasına geçişin nasıl yapılacağını gösterir. Bir üretim emri serbest bırakıldığında, üretim emri işleri üretim katında görünür ve yürütülmeye hazırdır.
 
@@ -54,7 +57,7 @@ Bir üretim işi tamamlandı olarak işaretlendiğinde, _Yürütme_ aşamasında
 
 Aşağıdaki çizimin gösterdiği gibi, ölçek birimleri kullanıldığında, _Yürütme_ aşaması ayrı bir iş yükü olarak bölünür.
 
-[![Ölçek birimleri kullanıldığında üretim yürütme aşamaları](media/mes-phases-workloads.png "Ölçek birimleri kullanıldığında üretim yürütme aşamaları."](media/mes-phases-workloads-large.png)
+[![Ölçek birimleri kullanıldığında üretim yürütme aşamaları](media/mes-phases-workloads.png "Ölçek birimleri kullanıldığında üretim yürütme aşamaları.")](media/mes-phases-workloads-large.png)
 
 Model şimdi tek örnekli bir yüklemeden hub ve ölçek birimlerine dayalı bir modele geçer. _Planlama_ ve _Sonlandırma_ aşamaları, hub'da arka ofis işlemleri olarak çalışır ve üretim yürütme iş yükü ölçek birimleri üzerinde çalışır. Veriler, hub ve ölçek birimleri arasında zaman uyumsuz olarak aktarılır.
 
@@ -128,6 +131,22 @@ Geçerli sürümde, tamamlandı ve kaldırıldı olarak bildirme işlemleri (tam
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Ölçek biriminde başlangıç işlemini etkinleştirme ve kullanma
+
+Geçerli sürümde, üretim ve toplu iş emirleri için başlatma işlemi [ambar yürütme iş yükü](cloud-edge-workload-warehousing.md) (üretim yürütme iş yükü değil) tarafından desteklenir. Bu nedenle, bu işlevi bir ölçek birimine bağlıyken kullanmak için şu görevleri tamamlamanız gerekir:
+
+- Hem ambar yürütme iş yükünü hem de üretim yürütme iş yükünü ölçeklendirme biriminize yükleyin.
+- [Özellik yönetimindeki](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *Bulut ve uç ölçek birimi için ambar yönetimi iş yükünde üretim emrini başlatma* özelliği.
+- Üretim veya toplu iş emrini başlatmak için Warehouse Management mobil uygulamasını kullanın.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Ölçek biriminde malzeme tüketimini etkinleştirme ve kullanma
+
+Geçerli sürümde, malzeme tüketimi kaydı için Warehouse Management mobil uygulamasında bulunan akış, [ambar yürütme iş yükü](cloud-edge-workload-warehousing.md) (üretim yürütme iş yükü değil) tarafından desteklenir. Bu nedenle, bu işlevi bir ölçek birimine bağlıyken kullanmak için şu görevleri tamamlamanız gerekir:
+
+- Hem ambar yürütme iş yükünü hem de üretim yürütme iş yükünü ölçeklendirme biriminize yükleyin.
+- [Özellik yönetimindeki](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *Ölçek biriminde malzeme tüketimini mobil uygulamada kaydet* özelliği.
+- Malzeme tüketimi kaydı için Warehouse Management mobil uygulamasını kullanın.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

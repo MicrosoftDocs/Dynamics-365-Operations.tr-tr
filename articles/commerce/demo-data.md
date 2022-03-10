@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: a3daa2286eb444d3aaad1fd29eb6be5737415a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801998"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761674"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) ve Bulut POS'taki tanıtım verileri ekran düzenleri
 
@@ -33,13 +33,13 @@ Bu konu, Dynamics 365 Commerce'deki satış noktası (POS) deneyimleriyle ilgili
 
 Commerce tanıtım verileriyle birlikte gelen örnek ekran düzenleri çeşitli perakende segmentleri, mağaza çalışanı rolleri ve cihazlar için optimize edilmiş içerikler sağlar. Mağaza çalışanları cihazlar ve çözümler arasında geçiş yaparken kapsamın sağlanmasına yardımcı olmak amacıyla tek bir düzen çeşitli düzen boyutları ve kombinasyonları içerebilir. Bu konu bu düzenler, sağladıkları işlemler ve sundukları genel deneyimler arasındaki farklılıkları açıklar.
 
-![Cihazlar arası tanıtım verileri düzenleri](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Cihazlar arası tanıtım verileri düzenleri.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Bir ekran düzeni kodunun anatomisi
 
 Ekran düzenlerini bulmak için **Retail and Commerce** \> **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri**'ne gidin.
 
-![Ekran düzenleri sayfası](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Ekran düzenleri sayfası.](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Ekran düzeni kodları en çok 10 karaktere sahip olabilir. Kod, üç bilgi parçasından oluşan bir dizedir. Bu siparişte:
 
@@ -52,8 +52,8 @@ Ekran düzeni kodları en çok 10 karaktere sahip olabilir. Kod, üç bilgi par�
 | Mektup | Şirket         |
 |--------|-----------------|
 | A      | Adventure Works |
-| F      | Fabrikam        |
-| Ş      | Contoso         |
+| C      | Fabrikam        |
+| A      | Contoso         |
 
 ### <a name="layout-version"></a>Düzen sürümü
 
@@ -79,7 +79,7 @@ F4MGR
 
 Aşağıdaki şekilde Fabrikam mağaza yöneticisinin Karşılama ekranının örneği gösterilmektedir.
 
-![Fabrikam mağaza yöneticisi için Karşılama ekranı](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Fabrikam mağaza yöneticisi için Karşılama ekranı.](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Düzen boyutları
 
@@ -108,7 +108,7 @@ Aşağıdaki tablo normal ekran çözünürlükleri için sağlanan düzen boyut
 > [!TIP]
 > POS, geçerli uygulama penceresinin ekran çözünürlüğü için kullanılabilir olan en yakın boyutu temel alarak düzen boyutlarını otomatik olarak seçer. Kullanılmakta olan ekran düzeni kodunu ve düzen çözünürlüğünü bulmak için, Modern POS (MPOS) veya Retail Cloud POS (CPOS)'ta **Ayarlar** sayfasını açın ve **Oturum bilgileri** bölümüne bakın. Geçerli uygulamanızın veya tarayıcı pencerenizin gerçek çözünürlüğünü de görebilirsiniz. Bu bilgileri aldıktan sonra, düzen içeriğinin kaynağını **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri**'ne giderek bulabilirsiniz.
 
-![Commerce ve POS'taki ekran düzenleri ve düzen çözünürlükleri/boyutları](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Commerce ve POS'taki ekran düzenleri ve düzen çözünürlükleri/boyutları.](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Şirketler ve markalar
 
@@ -129,19 +129,19 @@ Aşağıdaki örneklerde üç hayali şirket için karşılama sayfası ve işle
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Adventure Works için tanıtım verileri karşılama sayfası](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Adventure Works için tanıtım verileri karşılama sayfası.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Adventure Works için tanıtım verileri hareket sayfası](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Adventure Works için tanıtım verileri hareket sayfası.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Fabrikam için tanıtım verileri karşılama sayfası](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Fabrikam için tanıtım verileri karşılama sayfası.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Fabrikam için tanıtım verileri hareket sayfası](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Fabrikam için tanıtım verileri hareket sayfası.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Contoso için tanıtım verileri düzenler](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Contoso için tanıtım verileri düzenleri.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Kullanıcı oturum açma matrisi
 
@@ -157,7 +157,7 @@ Kullanıcılara çeşitli ekran düzenleri sağlanmıştır. Aşağıdaki tabloy
 | Fabrikam        | F3STK            | Stok Memuru   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Mağaza Yöneticisi | 000100, 000111         |
 | Contoso         | C3CSH            | Kasiyer       | 000110, 000120         |
-| Contoso         | Uygulanamaz   | Stok Memuru   | Uygulanamaz         |
+| Contoso         | Geçerli değil   | Stok Memuru   | Geçerli değil         |
 
 > [!TIP]
 > En iyi sonuçları elde etmek için, ilgili mağaza konumundaki karşılık gelen bir kaydı etkinleştirin ve şirketi oturum açarken kullanmayı planladığınız kişinin şirketine ayarlayın. Bu şekilde, görsel profilin ve marka resimlerinin deneyim süresince uyumlu olmasını sağlamaya yardımcı olursunuz. Örneğin, bir kasiyer için Fabrikam düzenini görmek istiyorsanız, Houston mağazasındaki bir kaydı etkinleştirmeniz gerekir.
@@ -168,7 +168,7 @@ Kullanıcılara çeşitli ekran düzenleri sağlanmıştır. Aşağıdaki tabloy
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 

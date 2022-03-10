@@ -1,29 +1,26 @@
 ---
 title: Bakım sıraları
 description: Bu konuda Varlık Yönetimi'ndeki bakım sıraları açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 63cb2614b2037fac1129c7d2f82a26dac41a3490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740731"
 ---
 # <a name="maintenance-rounds"></a>Bakım sıraları
 
@@ -83,7 +80,7 @@ ms.locfileid: "4439332"
 
 Aşağıdaki çizimde üç varlığı içeren bir bakım sırası örneği gösterilmektedir.
 
-![Şekil 1](media/13-preventive-maintenance.png)
+![Şekil 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Bakım sıralarını zamanla
@@ -109,11 +106,14 @@ Bakım sırasını ayarladığınızda bakım sırasıyla ilgili tüm işleri za
 
 Aşağıdaki iki çizimde **Bakım sıralarını zamanla** iletişim kutusundaki bir zamanlama işi ve söz konusu zamanlama işine göre **Tüm bakım zamanlamaları**'nda oluşturulan bakım zamanlaması satırları gösterilmektedir.
 
-![Şekil 2](media/14-preventive-maintenance.png)
+![Şekil 2.](media/14-preventive-maintenance.png)
 
-![Şekil 3](media/15-preventive-maintenance.png)
+![Şekil 3.](media/15-preventive-maintenance.png)
 
 - İş emirleri satıcı garantisi ile kapsanan varlıklarda el ile oluşturulduğunda kullanıcının garantiden haberdar olmasını sağlamak için bir iletişim kutusu gösterilir. İş emrinin oluşturulması daha sonra iptal edilebilir. Otomatik olarak oluşturulan iş emirleri için garanti ilişkisi denetimi atlanır.  
 - Sıraları düzenli aralıklarla zamanlamak için **Arka planda çalıştır** hızlı sekmesinde bir toplu iş ayarlayabilirsiniz.  
 - Sıra birkaç iş emri havuzuna dahil edilirse (bkz. [İş emri havuzları](../work-orders/work-order-pools.md)) bir kayıt her bir havuz için **Bakım zamanlaması havuzları aç** seçeneğinde gösterilir. Bu işlem, iş emri havuzlarının filtre seçeneklerini en iyi duruma getirmek için gerçekleştirilir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

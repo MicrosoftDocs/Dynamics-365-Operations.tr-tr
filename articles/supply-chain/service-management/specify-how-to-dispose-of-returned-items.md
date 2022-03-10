@@ -1,34 +1,30 @@
 ---
 title: İade edilen maddelerin nasıl elden çıkarılacağını belirtme
 description: İade edilen maddelerin nasıl elden çıkarılacağını belirtin.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2b1468328433a67253bafc21ac9c9b3a2398872
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438967"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571341"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>İade edilen maddelerin nasıl elden çıkarılacağını belirtme 
+# <a name="specify-how-to-dispose-of-returned-items"></a>İade edilen maddelerin nasıl elden çıkarılacağını belirtme
 
 [!include [banner](../includes/banner.md)]
-
 
 Bir iade siparişini işlerken, ürünün neden iade edildiğini tanımlamak için bir iade neden kodu belirtmeniz gerekir. Bir elden çıkarma kodu ve iade edilen ürün ile birlikte ne yapılması gerektiğini belirlemek için bir elden çıkarma eylemi de belirtmeniz gerekir.
 
@@ -38,9 +34,9 @@ Elden çıkarma kodu, iade siparişini oluşturduğunuzda, madde varışını ka
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -128,8 +124,8 @@ Tanımladığınız her elden çıkarma kodu için bir elden çıkarma eylemi se
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -165,21 +161,15 @@ Tanımladığınız her elden çıkarma kodu için bir elden çıkarma eylemi se
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Bir karantina emri için elden çıkarma kodu seçme
 
-1.  **Stok yönetimi** \> **Periyodik** \> **Kalite yönetimi** \> **Karantina emirleri**'ne tıklayın.
-
-2.  Mevcut bir karantina emri için **Genel bakış** sekmesindeki **Elden çıkarma kodu** alanından bir eylem seçin.
-
-
+1. **Stok yönetimi** \> **Periyodik** \> **Kalite yönetimi** \> **Karantina emirleri**'ne gidin.
+1. Mevcut bir karantina emri için **Genel bakış** sekmesindeki **Elden çıkarma kodu** alanından bir eylem seçin.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Karantina siparişi (form)](https://technet.microsoft.com/library/aa554073(v=ax.60))
+[Karantina siparişi (form)](/dynamicsax-2012//quarantine-order-form)
 
 [Elden çıkarma kodları (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 
-  
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

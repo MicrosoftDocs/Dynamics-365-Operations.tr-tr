@@ -1,12 +1,10 @@
 ---
 title: Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme
 description: Bu konu, Kişiler (Kişiler) ve Kişiler (Müşteriler) varlıklarını Dynamics 365 Sales üzerinden Dynamics 365 Supply Chain Management üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -15,24 +13,24 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d0e3b8b2087547ea93a16cd3eb43b2126e0e787b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215805"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062527"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
-> Aday'dan nakde çözümünü kullanmadan önce [Microsoft Dataverse for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
+> Aday'dan nakde çözümünü kullanmadan önce [Microsoft Dataverse for Apps için veri tümleştirme](/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
 Bu konuda, İlgili Kişi (Kişiler) ve İlgili Kişi (Müşteriler) tablolarını doğrudan Dynamics 365 Sales'den Dynamics 365 Supply Chain Management'a eşitlemekte kullanılan şablonlar ve temel görevler açıklanmaktadır.
 
@@ -40,7 +38,7 @@ Bu konuda, İlgili Kişi (Kişiler) ve İlgili Kişi (Müşteriler) tabloların�
 
 Aday müşteriden nakde çözümü Supply Chain Management ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri Tümleştirme özelliği içindeki Aday müşteriden nakde şablonları, hesaplar, ilgili kişiler, ürünler ve satış teklifleri, satış siparişleri ve satış faturalarının Supply Chain Management ve Sales arasında veri akışını etkinleştirir. Supply Chain Management ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
 
-[![Aday müşteriden nakde çözümünde veri akışı](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Aday müşteriden nakde çözümünde veri akışı.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
@@ -119,13 +117,13 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 > [!NOTE]
 > Eşleme hangi sütun bilgilerinin Sales'den Supply Chain Management'a eşitleneceğini gösterir.
 
-### <a name="contact-to-contact"></a>İlgili kişiden ilgili kişiye
+### <a name="contact-to-contact-example"></a>İlgili kişiden ilgili kişiye örneği
 
-![Veri entegratörü içerisindeki şablon eşleme](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Veri tümleştirici içerisindeki İlgili kişiden ilgili kişiye şablon eşlemesi.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
-### <a name="contact-to-customer"></a>İlgili kişiden müşteriye
+### <a name="contact-to-customer-example"></a>İlgili kişiden müşteriye örneği
 
-![Veri entegratörü içerisindeki şablon eşleme](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Veri tümleştirici içerisindeki İlgili kişiden müşteriye şablon eşlemesi.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>İlgili konular

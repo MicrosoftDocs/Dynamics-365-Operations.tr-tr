@@ -3,7 +3,7 @@ title: Ambar yapılandırmasına genel bakış
 description: Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu, ambar düzeninin ve ambar süreçlerinin nasıl etkinleştirileceği hakkında bilgiler içermektedir.
 author: perlynne
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fb9f8864ec91332c4c66658b94b6d88715120c8
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337845"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983016"
 ---
 # <a name="warehouse-configuration-overview"></a>Ambar yapılandırmasına genel bakış
 

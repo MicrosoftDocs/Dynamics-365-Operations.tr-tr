@@ -2,7 +2,6 @@
 title: Gerçek - bütçe Power BI içeriği
 description: Bu konu, Gerçek ve bütçe karşılaştırması Power BI içeriğini açıklar. Raporlara nasıl erişileceğini açıklar ve veri modeli hakkında bilgi sağlar.
 author: panolte
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f3e2f62b666559ba9a356e4948c2033da9cc95d5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737915"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Gerçek - bütçe Power BI içeriği
 

@@ -1,33 +1,35 @@
 ---
 title: Kişisel bilgileri düzenle
-description: Bu makalede, çalışan ve yönetici self servis'deki kişisel bilgilerin nasıl düzenleneceği anlatılmaktadır.
-author: andreabichsel
-ms.date: 03/19/2020
+description: Bu makalede, Personel ve Yönetici self servisindeki kişisel bilgilerin nasıl düzenleneceği açıklanmaktadır.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a1cde80223ec3052adf58f34c344e004936b584
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790848"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071511"
 ---
 # <a name="edit-personal-information"></a>Kişisel bilgileri düzenle
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kişisel bilgilerinizi **çalışan self servis çalışma alanındaki** Dynamics 365 Human Resources'ta düzenleyebilirsiniz.
+Kişisel bilgilerinizi Dynamics 365 Human Resources uygulamasındaki **Personel self servisi** çalışma alanında düzenleyebilirsiniz.
 
 Düzenleyebileceğiniz kişisel bilgiler şunları içerir:
 
@@ -41,7 +43,7 @@ Düzenleyebileceğiniz kişisel bilgiler şunları içerir:
 >[!NOTE]
 >İlgili kişi bilgileri gibi belirli türde kişisel bilgileri düzenleyemeyebilirsiniz. Daha fazla bilgi için bkz. [Kişisel bilgileri düzenlemeyi kısıtlama](hr-employee-self-service-restrict-editing.md).
 
-Genel adres defteri nde ayarlanan parametreler, kişisel bilgilerinizi görebileceğiniz rolleri belirler.
+**Genel adres defteri parametreleri** sayfasında ayarlanan parametreler, hangi rollerin kişisel bilgilerinizi görebileceğini belirler.
 
 1. İnsan Kaynakları, **çalışan Self servis**'ı seçin.
 
@@ -70,7 +72,7 @@ Genel adres defteri nde ayarlanan parametreler, kişisel bilgilerinizi görebile
     - Kimlik numarası eklemek için **Yeni**'yi seçin. Gerekli alanları doldurun ve **Kaydet**'i seçin.
     - Bir numarayı düzenlemek için **Düzenle** seçin. Gerekli alanları düzenleyin ve **Kaydet**'i seçin.
 
-7. Ödeme yapmak istediğiniz yöntemleri değiştirmek için **ödeme bilgilerim** sekmesini seçin. Bu sekme yalnızca **insan kaynakları parametreleri** formunda ödeme yöntemleri etkinleştirilmişse kullanılabilir. HR **banka taslağını**, **nakit**, **çek**, **elektronik ödeme** veya **diğerini** etkinleştirebilir. HR ayrıca elektronik ödeme doğrulamasını (ABD maaş için kullanılır), banka hesabı ve rota numarası doğrulamasını da devre dışı bırakabilir.
+7. Ödeme yapmak istediğiniz yöntemleri değiştirmek için **Ödeme bilgilerim** sekmesini seçin. Bu sekme yalnızca **Human Resources parametreleri** sayfasında ödeme yöntemleri etkinleştirilmişse kullanılabilir. HR **banka taslağını**, **nakit**, **çek**, **elektronik ödeme** veya **diğerini** etkinleştirebilir. HR ayrıca elektronik ödeme doğrulamasını (ABD maaş için kullanılır), banka hesabı ve rota numarası doğrulamasını da devre dışı bırakabilir.
 
 8. Profiliniz için İnsan Kaynakları görüntülenen resmi değiştirmek için, **görüntü** sekmesini seçin. Organizasyonunuzun ayarlarına bağlı olarak, resimler onay için yönlendirilebilir.
 

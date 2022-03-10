@@ -2,15 +2,12 @@
 title: Devamsızlık izni isteği
 description: Devamsızlık izni isteği gönderin.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveofAbsenceRequestEntry, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f5880391115f683b4148886aa09e1095b521f9
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 2d58e84637dac584b080bd0fa30f7ab6214c26db
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463490"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070287"
 ---
 # <a name="request-a-leave-of-absence"></a>Devamsızlık izni isteği
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -52,9 +52,13 @@ Bir devamsızlık durumu için istek gönderebilir ve Dynamics 365 Human Resourc
 
 2. Devamsızlık talebi bırak görüntülemek için **Devamsızlığı görüntüle** seçeneğini belirleyin .
 
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Diğer sistemlerdeki veya eski sistemlerdeki izin taleplerini içeri aktarma
+
+Başka bir sistemden izin taleplerini içeri aktarmak için uygun izin hareketlerini oluşturmak üzere normal iş akışından geçmeniz gerekir. Alternatif olarak, tamamlanmış durumdaki izin banka hareketlerini ve izin taleplerini içeri aktarabilirsiniz. Yalnızca izin taleplerini içeri aktarırsanız izin banka hareketlerinin otomatik olarak oluşturulmadığını unutmayın.
+
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[İzni askıya alma](hr-leave-and-absence-suspend-leave.md)
+[İzni askıya al](hr-leave-and-absence-suspend-leave.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

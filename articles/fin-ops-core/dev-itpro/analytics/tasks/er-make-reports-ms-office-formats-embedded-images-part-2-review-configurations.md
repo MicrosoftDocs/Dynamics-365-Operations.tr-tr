@@ -2,11 +2,9 @@
 title: Katıştırılmış resimlere sahip Office biçiminde rapor oluşturmak için yapılandırmaları gözden geçirme
 description: Bu konuda, katıştırılmış resimler içeren elektronik belgeler oluşturmak için raporlama yapılandırmalarının nasıl tasarlanacağı açıklanmaktadır. (1. Bölüm - Parametreleri ayarlama).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3eee6300350dd96c34f2eab44704d1895e6171ff
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: f209fcbac310dffb654f7830a4d4b12fa95d7a461b681864b8c9b547f4a4986c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717582"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Katıştırılmış resimlere sahip Office biçiminde rapor oluşturmak için yapılandırmaları gözden geçirme
 
@@ -91,3 +89,6 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
     * Önceden yazdırılmış çek formunda sunulan bazı etiketler, test amaçlı oluşturulduğunda rapora dahil edilecektir. Ancak, bu etiketler gerçek yazdırma sırasında yazdırılmayacaktır çünkü önceden yazdırılmış form zaten bunları içerir.  
 15. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

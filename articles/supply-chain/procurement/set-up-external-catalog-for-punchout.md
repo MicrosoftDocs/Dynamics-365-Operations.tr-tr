@@ -1,7 +1,7 @@
 ---
 title: PunchOut e-procurement için harici katalog ayarlama
 description: Bu konu, bir satıcıdan teklif bilgileri toplamak ve bunu talebe eklemek için harici katalog veya PunchOut (çıkış) kataloğu kullanımını açıklar.
-author: kamaybac
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a816f6cff90b8292f66d73b12d328c3f56108957
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 9f1065c68723baa395bc06be6313e45a44661ea3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920569"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566924"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>PunchOut e-procurement için harici katalog ayarlama
 

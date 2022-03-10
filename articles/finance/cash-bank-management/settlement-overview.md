@@ -1,9 +1,9 @@
 ---
 title: Kapatmaya genel bakış
 description: Bu konuda kapatma süreci hakkında genel bilgiler verilmiştir. Hangi hareket türlerinin kapatılabileceğini, bunları kapatmaya yönelik zamanlamayı ve işlemi açıklar. Ayrıca, kapatma işleminin sonuçlarını da açıklar.
-author: kweekley
-ms.date: 04/10/2020
-ms.topic: article
+author: panolte
+ms.date: 07/30/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a4950c4276fb862bcbf82e489ea3313a92e0515a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 57f2b209a852bb9513218fab3df118c7d7a2a1e7
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336081"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986395"
 ---
 # <a name="settlement-overview"></a>Kapatmaya genel bakış
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Bu konuda kapatma süreci hakkında genel bilgiler verilmiştir. Hangi hareket türlerinin kapatılabileceğini, bunları kapatmaya yönelik zamanlamayı ve işlemi açıklar. Ayrıca, kapatma işleminin sonuçlarını da açıklar.
 
@@ -74,9 +76,25 @@ Kapatmalar hareketler de üretebilir. Örneğin, bir faturanın ve ödemenin kap
 
 Bir hareketi kapatmaya çalıştığınızda, hareketin başka bir konumda işaretlendiğini gösteren bir sembol görebilirsiniz. Bu durumda, **Kareketleri kapat** sayfasında hareketi seçebilir ve **Sorgula \> Kapatma penceresinden kapatma**'yı seçebilirsiniz. Bu sorgu görünümü, hareketin kapatılmasını engelleyebilecek olan günlükler, satış siparişleri, faturalar, ödeme teklifleri ve müşteri yerleşimlerini gösterir. Sorunu çözmek için, doğrudan sorgudan engellenen konuma gidecek bağlantıyı seçebilirsiniz. Daha sonra belgeyi, bunu kapatmak için gereken ayarlamalarla güncelleştirebilirsiniz. Ayrıca, aynı engelleme konumuna dahil edilen diğer belgeleri tanımlamak için **İşaretlendi** göstergesini de kullanabilirsiniz.
 
+## <a name="resolve-issues-with-transactions-that-cant-be-settled"></a>Kapatılamayan hareketlerle ilgili sorunları çözme
+
+Bazen belgeyi o anda başka bir faaliyet işlemekte olduğu için hareketleri kapatamazsınız. Hareketleri kapatmaya çalıştığınızda bu hareketler kullanımda olduğu için bir hata oluşur. Bu sorunu gidermek için kapatmak üzere **İşaretli hareket ayrıntıları** sayfasını kullanarak işaretlenen hareketleri bulabilir ve bunlara erişim sağlayan diğer işlemleri belirleyebilirsiniz.
+
+Hareketler, satıcı faturaları ödendiğinde veya müşteriler açık faturalarını ödediklerinde kapatma için işaretlenirler. Bazen, bu faturalar kapatma için zaten işaretlenmiş olabilir. Bu nedenle, kullanıcılar ödeme için bunları seçemezler. Faturalar, geçerli tüzel kişilikte veya başka bir tüzel kişilikte başka bir müşteri ödeme günlüğü, satış siparişi, satıcı ödeme günlüğü veya satın alma siparişi tarafından işaretlenebilir.
+
+Müşteri ödemesini girerken bir hareketin kapatılması engellenirse **Müşteri tarafından işaretlenen hareket ayrıntıları** sayfasını (**Alacak hesapları \> Periyodik görevler \> Müşteri tarafından işaretlenen hareket ayrıntıları**) açın. Hareketin nerede engellendiğini hızlı bir şekilde belirlemek için şu seçim parametrelerinden herhangi birini ayarlayabilirsiniz: **Müşteri hesabı**, **Fiş**, **Tarih** veya **Fatura**. Herhangi bir seçim parametresi ayarlamazsanız sistem, geçerli şirket veya seçtiğiniz başka bir şirket tarafından engellenen tüm belgeleri gösterir. Kapatma için bloke edilen hareket tanımlandıktan sonra onu seçebilir ve ardından **Seçili hareketlerin işaretini kaldır**'ı belirleyebilirsiniz. Seçili hareket daha sonra onu içeren herhangi bir günlükten kaldırılır. Ancak belge diğer konumdan kaldırılmaz. Bu günlükten yalnızca işaretleme bilgileri kaldırılır.
+
+Satıcı ödemesini girerken bir hareketin kapatılması engellenirse **Satıcı tarafından işaretlenen hareket ayrıntıları** sayfasını (**Borç hesapları \> Periyodik görevler \> Satıcı tarafından işaretlenen hareket ayrıntıları**) açın. Hareketin nerede engellendiğini hızlı bir şekilde belirlemek için şu seçim parametrelerinden herhangi birini ayarlayabilirsiniz: **Satıcı hesabı**, **Fiş**, **Tarih** veya **Fatura**. Herhangi bir seçim parametresi ayarlamazsanız sistem, geçerli şirket veya seçtiğiniz başka bir şirket tarafından engellenen tüm belgeleri gösterir. Hareket tanımlandıktan sonra onu seçebilir ve ardından engelleme sorununu gidermek için **Seçili hareketlerin işaretini kaldır**'ı seçebilirsiniz. Seçilen hareket daha sonra seçildiği diğer günlüklerden kaldırılır. Ancak belge diğer konumdan kaldırılmaz. Bu günlükten yalnızca işaretleme bilgileri kaldırılır.
+
+Engellenen tüm belgeleri belirlemek için **Tüm işaretli hareket ayrıntıları** sayfasını (**Alacak hesapları \> Periyodik görevler \> Tüm işaretli hareket ayrıntıları** veya **Borç hesapları \> Periyodik görevler \> Tüm işaretli hareket ayrıntıları**) açın. Hareketin nerede engellendiğini hızlı bir şekilde belirlemek için şu seçim parametrelerinden herhangi birini ayarlayabilirsiniz: **Müşteri hesabı**, **Satıcı hesabı**, **Fiş**, **Tarih** veya **Fatura**. Herhangi bir seçim parametresi ayarlamazsanız sistem, geçerli şirket veya seçtiğiniz başka bir şirket tarafından engellenen tüm belgeleri gösterir. Hareket tanımlandıktan sonra onu seçebilir ve ardından engelleme sorununu gidermek için **Seçili hareketlerin işaretini kaldır**'ı seçebilirsiniz. Seçilen hareket daha sonra seçildiği diğer günlüklerden kaldırılır. Ancak belge diğer konumdan kaldırılmaz. Bu günlükten yalnızca işaretleme bilgileri kaldırılır.
+
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için **özellik yönetimi** çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+
+- **Modül:** Nakit ve banka yönetimi
+- **Özellik adı:** İşaretli hareket ayrıntısı formu
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Kalanı kapat](settle-remainder.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

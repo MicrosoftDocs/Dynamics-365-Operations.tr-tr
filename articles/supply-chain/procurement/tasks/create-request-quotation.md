@@ -1,26 +1,24 @@
 ---
 title: Teklif talebi oluşturma
 description: Bu prosedür, bir satın alma teklifinin nasıl oluşturulacağını gösterir.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchCreateRFQCase, InventLocationIdLookup, PurchRFQCaseTable, InventItemIdLookupSimple, EcoResCategorySingleLookup, UnitOfMeasureLookup, PurchRFQEditLines, PurchRFQEditLinesPrintOptions, VendRFQJournal, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cc3646fb9b66fa926a9532696414943fc1345b75
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b0e9e4d7c31b1e6905abeac03e462ac185f3f489
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211898"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565387"
 ---
 # <a name="create-a-request-for-quotation"></a>Teklif talebi oluşturma
 

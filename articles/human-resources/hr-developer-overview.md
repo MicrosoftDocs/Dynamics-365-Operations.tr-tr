@@ -3,30 +3,32 @@ title: Geliştirmeye genel bakış
 description: Bu Geliştirici Kılavuzu bir API ve özel alanlar başvurusu sağlar. Diğer uygulamalarla tümleştirme hakkında bilgiler de sağlar.
 author: andreabichsel
 ms.date: 02/03/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 639db592344edea5dffc0b2440b81f560015c21749ac1cb5a88f9cc2415c1208
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78fc1afc596ca5a847d15a0da2db841aa303bad7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731997"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066812"
 ---
 # <a name="development-overview"></a>Geliştirmeye genel bakış
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Bu Geliştirici Kılavuzu bir API ve özel alanlar başvurusu sağlar. Diğer uygulamalarla tümleştirme hakkında bilgiler de sağlar.
 

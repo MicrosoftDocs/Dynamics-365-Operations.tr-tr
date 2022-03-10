@@ -1,27 +1,25 @@
 ---
 title: Kanban iş durumu geri al
 description: Bu yordam, yanlış bir kanban iş durumunun geri alınması üzerinde odaklanır.
-author: ShylaThompson
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bc147ec517b8141b4764f67d21b4c4a2e4d6e6e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 771c3b95be05904c84483473a533c708964fbe62
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981168"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574413"
 ---
 # <a name="revert-kanban-job-status"></a>Kanban iş durumu geri al
 
@@ -54,3 +52,6 @@ Bu yordam, yanlış bir kanban iş durumunun geri alınması üzerinde odaklanı
     * Aynı işi seçin.  
     * Kanban işi için iş durumunun bir boş kanban simgesiyle gösterildiği üzere, Planlı'ya dönüştürüldüğüne dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

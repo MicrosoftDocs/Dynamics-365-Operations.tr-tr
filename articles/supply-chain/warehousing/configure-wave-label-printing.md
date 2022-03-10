@@ -1,28 +1,26 @@
 ---
-title: Dalga etiketi yazdırmayı ayarlama ve kullanma
+title: Dalga etiketi yazdırma
 description: Bu konu, dalga etiketi yazdırma özelliğini ve bunu nasıl ayarlayabileceğinizi açıklamaktadır.
-author: GarmMSFT
-manager: PJacobse
+author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
-ms.reviewer: PJacobse
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 862987b8ccdc4272bdd404e78391ad447bc290b3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996363"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778095"
 ---
-# <a name="set-up-and-use-wave-label-printing"></a>Dalga etiketi yazdırmayı ayarlama ve kullanma
+# <a name="wave-label-printing"></a>Dalga etiketi yazdırma
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +53,7 @@ Bu geliştirmeler, paletlemeden önce kolileri etiketlemeyi daha etkili hale get
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Dalga etiketi yazdırma özelliğini açma
 
-*Dalga etiketi yazdırma* özelliğini kullanabilmeniz için sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+Supply Chain Management sürüm 10.0.21 itibariyle bu özellik zorunludur; bu nedenle varsayılan olarak açıktır ve yeniden kapatılamaz. Ancak, özellik hâlâ [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde aşağıdaki şekilde listelenir:
 
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *Dalga etiketi yazdırma*
@@ -508,7 +506,7 @@ Numara serisi uzantıları, belirli numara serilerinin GS1 uyumluluğunu denetle
 
 ## <a name="scenario-3-wave-label-printing-for-multi-tiered-labels"></a>Senaryo 3: Çok katmanlı etiketler için dalga etiketi yazdırma
 
-Bu senaryo, ambar işlemleri birkaç sevkiyat etiketi katmanı gerektirdiğinde dalga etiketi yazdırma işlevinin nasıl kullanılacağını gösterir. Örneğin, koliler ve paletler için ayrı etiketler yazdırılması gerekebilir ve tüm sevkiyat için bir kesme etiketi yazdırılması gerekli olabilir. Kesme etiketleri, sevkiyat kodu ve barkod için olan etiketler gibi, rulolar ve konteynerler arasında bir ayırıcı gibi kullanılabilen ayrı bir etiket türüdür; böylece etiketler yazdırıldıktan sonra kolaylıkla tasnif edilebilir.
+Bu senaryo, ambar işlemleri birkaç sevkiyat etiketi katmanı gerektirdiğinde dalga etiketi yazdırma işlevinin nasıl kullanılacağını gösterir. Örneğin, koliler ve paletler için ayrı etiketler yazdırılması gerekebilir ve tüm sevkiyat için bir kesme etiketi yazdırılması gerekli olabilir. Kesme etiketleri, sevkiyat kodu ve barkod için olan etiketler gibi rulolar ve konteynerler arasında bir ayırıcı gibi kullanılabilen ayrı bir etiket türüdür. Bu sayede etiketler yazdırıldıktan sonra kolaylıkla tasnif edilebilir.
 
 Bu senaryonun yapılandırması ile senaryo 1'in yapılandırılması arasındaki temel fark, kesme etiketlerinin etkinleştirilmesi dışında, çok sayıda dalga etiketi türünün dalga etiketi şablonları ve birim sırası grup satırlarıyla ilişkilendirilmesinin gerekli olmasıdır. Bu yapılandırmayı tamamlamak için, bu senaryo için aşağıdaki öğeleri ayarlayın:
 
@@ -931,3 +929,10 @@ Dalga etiketlerini aşağıdaki sayfalardan görüntüleyebilir ve yeniden yazd�
 - Dalga etiketi geçmişi
 
 Bu sayfaların çoğu için, Eylem bölmesindeki **Sevkiyatlar** sekmesinde yer alan **İlgili bilgi** grubunda **Dalga etiketleri**'ni seçerek ilgili işlevi bulabilirsiniz.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+- [Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma](reprint-and-void-wave-labels.md)
+- [Dalga sırasında dalga etiketi yazdırmayı zamanlama](configure-task-based-wave-label-printing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: Promosyon başlık modülü
 description: Bu konu promosyon başlığı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718792"
 ---
 # <a name="promo-banner-module"></a>Promosyon başlık modülü
 
@@ -31,15 +28,13 @@ ms.locfileid: "4416341"
 
 Bu konu promosyon başlığı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
-## <a name="overview"></a>Genel Bakış
-
 Promosyon başlığı modülleri, bir sayfadaki satır içi bilgilendirme iletilerini göstermekte kullanılır. Bir e-ticaret sitesinin tüm sayfalarında görünen site çapında yükseltmeleri göstermek için kullanılabilirler. 
 
 Promosyon başlığı modülleri bir metin iletisini ve bir bağlantıyı destekler. Bir promosyon başlık modülüne birden fazla ileti eklenirse, müşterilerin tüm iletiler arasında dolaşmasına olanak veren bir döner başlığı olur. 
 
 Promosyon başlığı, içerik yönetimi sistemindeki (CMS) veriler tarafından yönlendiriliyor ve herhangi bir sayfaya konabilir.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>E-ticaret'daki promosyon başlık sayfaları için kullanım örnekleri
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>E-ticaret'teki promosyon başlık sayfaları için kullanım örnekleri
 
 Promosyon başlık sayfaları site başlığında, aşağıdaki örneklerde olduğu gibi, site çapında yükseltmeleri veya iletileri göstermek amacıyla kullanılabilir.
 
@@ -51,7 +46,7 @@ Promosyon başlık sayfaları site başlığında, aşağıdaki örneklerde oldu
 
 Aşağıdaki resimde, bir promosyon başlığı örneği gösterilmektedir.
 
-![Promosyon başlık modülü örneği](./media/ecommerce-Promobanner.PNG)
+![Promosyon başlık modülü örneği.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Promosyon başlığı modülü özellikleri
 
@@ -64,6 +59,10 @@ Aşağıdaki resimde, bir promosyon başlığı örneği gösterilmektedir.
 | Carusel kolu göster     | **Doğru** veya **yanlış**              | Döner değiştiricilerin gösterilip gösterilmeyeceğini belirten ve müşterilerin birden çok Başlık öğelerini el ile dolaşabilmesi için bir değer. |
 | Metin hizalama            | **Sağ**, **Sol** veya **Orta** | Promosyon başlık modülünde metin hizalaması. |
 | Bağla                      | Bir URL                              | İsteğe bağlı bağlantı için URL. |
+|Metin hizalama             | **Sağ**, **Sol** veya **Orta** | Bu özellik, Adventure Works temalarında bir tema uzantısı olarak mevcuttur. Kullanıcının, promosyon başlığında metin hizalaması ayarlamasını sağlar. |
+
+> [!IMPORTANT]
+> Adventure Works teması Dynamics 365 Commerce Sürüm 10.0.20 itibarıyla kullanılabilir.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Bir sayfaya bir promosyon başlığı ekle 
 
@@ -84,7 +83,6 @@ Bir sayfaya bir promosyon başlığı modülü eklemek ve gerekli özellikleri a
 > [!NOTE]
 > Bir promosyon başlığı genellikle sayfa üstbilgisi yuvasında veya alt başlık yuvasında kullanılır.
 
-
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Modül kitaplığına genel bakış](starter-kit-overview.md)
@@ -96,3 +94,6 @@ Bir sayfaya bir promosyon başlığı modülü eklemek ve gerekli özellikleri a
 [İçerik bloğu modülü](add-hero-module.md)
 
 [Video oynatıcı modülü](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,26 +1,25 @@
 ---
 title: Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar
 description: Bu konu, sağdan sola doğru okunan bir dil kullandığınızda ve mali boyutlar ve ana hesaplar ayarlamanız gerektiğinde vermeniz gereken kararları açıklar.
-author: aprilolson
-manager: AnnBe
+author: RyanCCarlson2
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
 ms.search.region: global
-ms.author: aolson
+ms.author: rcarlson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 496869bd3e7a372a5ec791df66fb7a8c43ccad13
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0c88b95ba7c596f4e8c1677c475ca92deba1cb71
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561012"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781757"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar
 

@@ -1,30 +1,29 @@
 ---
 title: Boyut tabanlı ürün yapılandırmasına genel bakış
 description: Boyut tabanlı ürün yapılandırması, tek bir ana üründen ve o ürün reçetelerinden çok sayıda ürün çeşidi oluşturmak için basit bir çözümü temsil eder.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 19821
+ms.custom:
+- "19821"
+- intro-internal
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45688f1882d2711cd43b9b7c199f1fca7ff089ea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8811d4a43dba05e63b270893600a622527834901
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439499"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982939"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Boyut tabanlı ürün yapılandırmasına genel bakış
 
@@ -69,7 +68,7 @@ Yapılandırma yolu, yapılandırma gruplarının sırasını belirler ve bunlar
 Yapılandırma kuralları, bir BOM'da bir yapılandırma grubuna dahil edilen bir ürünün aynı BOM'daki farklı bir yapılandırma grubundaki bir ürünü dahil etmesini veya hariç tutmasını sağlayan bir mekanizmadır.
 
 ## <a name="product-modeling-process"></a>Ürün modelleme süreci
-Boyuta dayalı bir ürün için ürün modelinin oluşturulması için doğal süreç ilgili yapılandırma gruplarının tanımlanmasıyla başlar. BOM'da kullanılacak tüm ürünlerin, ürün modelinin oluşturulduğu şirket için serbest bırakılmasının sağlanması önemlidir. Bu yapı taşları yerindeyken, kullanıcılar ürün reçetesini oluşturabilir ve yapılandırma gruplarını tüm ürün reçetesi satırlarına atayabilir. Bir ürün reçetesi tamamlandığında, bir yapılandırma rotası, yapılandırma gruplarını doğru sıralamada sipariş etmek için tanımlanabilir. [![Boyuta dayanan ürün modelleme işlemi](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Farklı yapılandırma gruplarından, birlikte kullanılması veya kullanılmaması gereken çeşitli ürünler mevcutsa, bu ürün ilişkilerini zorunlu kılacak yapılandırma kurallarını oluşturabilirsiniz. BOM bir BOM sürümü üzerinden boyuta dayalı bir ürün master planıyla ilişkilendirildikten ve her ikisi onaylandıktan ve etkinleştirildikten sonra ürün yapılandırmaları oluşturabilir ve her bir yapılandırma için bir ad girebilirsiniz. Yapılandırmalar, herhangi bir hareket oluşturulmadan önce tanımlanabilir veya bu tanımlama işlemi belirli bir yapılandırma gerçekleştiğinde yapılabilir.
+Boyuta dayalı bir ürün için ürün modelinin oluşturulması için doğal süreç ilgili yapılandırma gruplarının tanımlanmasıyla başlar. BOM'da kullanılacak tüm ürünlerin, ürün modelinin oluşturulduğu şirket için serbest bırakılmasının sağlanması önemlidir. Bu yapı taşları yerindeyken, kullanıcılar ürün reçetesini oluşturabilir ve yapılandırma gruplarını tüm ürün reçetesi satırlarına atayabilir. Bir ürün reçetesi tamamlandığında, bir yapılandırma rotası, yapılandırma gruplarını doğru sıralamada sipariş etmek için tanımlanabilir. [![Boyut tabanlı ürün modelleme işlemi.](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Farklı yapılandırma gruplarından, birlikte kullanılması veya kullanılmaması gereken çeşitli ürünler mevcutsa, bu ürün ilişkilerini zorunlu kılacak yapılandırma kurallarını oluşturabilirsiniz. BOM bir BOM sürümü üzerinden boyuta dayalı bir ürün master planıyla ilişkilendirildikten ve her ikisi onaylandıktan ve etkinleştirildikten sonra ürün yapılandırmaları oluşturabilir ve her bir yapılandırma için bir ad girebilirsiniz. Yapılandırmalar, herhangi bir hareket oluşturulmadan önce tanımlanabilir veya bu tanımlama işlemi belirli bir yapılandırma gerçekleştiğinde yapılabilir.
 
 ### <a name="suggested-use"></a>Önerilen kullanım
 
@@ -88,3 +87,6 @@ Aşağıdaki sekiz görev kılavuzu, tamamlamanız gereken sırada listelenmişl
 7.  [Yapılandırma kuralları oluşturma](tasks/create-configuration-rules.md)
 8.  [Boyut tabanlı yapılandırmalar oluşturma](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

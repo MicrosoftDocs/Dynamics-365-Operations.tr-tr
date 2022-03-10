@@ -2,11 +2,9 @@
 title: İş akışında onay işlemlerini yapılandırma
 description: Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f4f6a3fdf07ae267f92eedd312c6c721f18429
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 99a4e131b2afa65152d8e9d41b8405895d997250
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692904"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070814"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>İş akışında onay işlemlerini yapılandırma
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 
@@ -183,3 +184,6 @@ Onay işlemi onay adımlarından oluşur. Onay işlemine adım eklemek ve adıml
 1. İş akışı düzenleyicisinde onay işlemine çift tıklayın. İş akışı düzenleyicisi onay işleminin adımlarını görüntüler.
 2. Onay adımı eklemek için adımları **İş akışı öğeleri** alanından tuvale sürükleyin.
 3. Onay adımını yapılandırmak için bkz. [İş akışında onay adımlarını yapılandırma](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

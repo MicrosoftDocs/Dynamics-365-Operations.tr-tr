@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 413847d350ca6b2bdd6153a598ea5b3f34a33818
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 90eb791bae2bbe70cf9fe7127a98962305449e1d0b370cfa001afbd3654046ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752930"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Sabit kıymeti hurda olarak elden çıkarma
 
@@ -43,7 +43,7 @@ Bu konu, hurda olarak elden çıkarılan bir sabit kıymet için hareketleri ele
 Sabit bir kıymeti hurda olarak elden çıkarmadan önce kıymetin alım değeri, geçerli yıla ait amortisman, önceki yıla ait amortisman ve kıymetin NDD'si ile ilişkili genel muhasebe sehapları oluştırmanız gerekir. Sabit kıymet hareket türleri **Sabit kıymetler deftere nakil profili** sayfasında listelenmiştir. **Sabit kıymetler \> Kurulum \> Sabit kıymet deftere nakil profilleri**'ne gidin ve **Elden çıkarma** hızlı sekmesinde, kılavuzun üstündeki alanda bulunan **Hurda**'yı seçin. Aşağıdaki şekil, **Sabit kıymet deftere nakil profilleri** sayfasındaki sabit kıymet hareket türlerinin listesini gösterir.
 
 
-[![Bir kıymetin hurda olarak elden çıkarılması, Şek. 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Bir kıymetin hurda olarak elden çıkarılması, Şek. 1.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Aşağıdaki örnekte, sabit kıymet 1 Ocak 2018 tarihinde elde edildi ve 31 Mart 2019 tarihinde hurdaya çıkarılacak.
 
@@ -58,27 +58,27 @@ Net defter değeri = Alım fiyatı – Amortisman
 
 Bu örnekte, sabit kıymet elde edildi ve Ocak 2018 ile Mart 2019 arasında 15 ay için amortisman uygulandı. Bu nedenle kıymetin NDD'si 9.000,00 USD (24.000,00 USD – 15.000,00 USD).
 
-[![Sabit kıymet amortisman örneği](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Sabit kıymet amortisman örneği.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Elden çıkarma günlüğü oluşturmak için **Sabit kıymetler \> Günlük girişleri \> Sabit kıymetler günlüğü**'ne gidin ve Eylem bölmesinde **Satırlar**'ı seçin. **Elden çıkarma – hurda**'yı ve ardından sabit kıymet kodunu seçin. Kıymetin tamamen elden çıkarılması için **Borç** alanına veya **Alacak** alanına değer girmeyin.
 
-[![Sabit kıymet günlüğü](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Sabit kıymet günlüğü.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 Sabit kıymet elden çıkarma hurda hareketi, sabit kıymet defterinin alan değerlerini aşağıdaki yollarla değiştirir:
 
 - **Bakiye** bölümünde, **Durum** alanı **Hurdaya çıkarıldı** şeklinde güncelleştirilir.
 - **Çıkış** bölümünde, **Elden çıkarma tarihi** alanı kıymetin hurdaya çıkarıldığı tarihe ayarlanır.
 
-[![Sabit kıymetler günlüğü ayrıntısı](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Sabit kıymetler günlüğü ayrıntısı.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 Aşağıdaki şekil sabit kıymet bakiyesini gösterir.
 
-[![Sabit kıyme bakiyesi](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Sabit kıyme bakiyesi.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 Aşağıdaki şekil deftere nakledilen fişi gösterir.
 
-[![Net defter değeri](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![Net defter değeri.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

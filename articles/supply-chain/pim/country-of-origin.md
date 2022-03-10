@@ -1,38 +1,34 @@
 ---
 title: Menşei ülke
 description: Birçok kuruluş, ürünlerin belirli sertifika standartlarına uygun olmasını sağlamak için satıcılarına sertifika verir. Bu sertifikalar genellikle menşei ülkeye bağlıdır. Bu konu, bir ürünü kendi menşei ülkesine bağlamanıza ve ürün sertifikalarını izlemenize olanak sağlayan, menşei ülke özelliği hakkında bilgi sağlar.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0471785991a307de11147e9773d9abe1e02941d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438962"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777650"
 ---
 # <a name="country-of-origin"></a>Menşei ülke
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Birçok kuruluş, ürünlerin belirli sertifika standartlarına uygun olmasını sağlamak için satıcılarına sertifika verir. Bu sertifikalar genellikle menşei ülkeye bağlıdır. Menşei ülke özelliği, bir ürünü kendi menşei ülkesine bağlamanıza ve ürün sertifikalarını izlemenize olanak sağlar.
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Menşei ülke özelliğini açma
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+Supply Chain Management sürüm 10.0.21 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek veya devre dışı bırakmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanabilir. Burada, özellik şu şekilde listelenmiştir:
 
 - **Modül:** *Ürün bilgileri yönetimi*
 - **Özellik adı:** *menşei ülke yönetim özelliği*
@@ -90,4 +86,7 @@ Bir ürün reçetesi raporu oluştururken, kaynak ve hedef ülkeleri belirttiği
 
 Her bir parçanın menşei ülkesi hakkında bilgi gösteren bir rapor oluşturulur ve gösterilir. Burada rapor için bir örnek verilmiştir.
 
-![Menşei ülke raporu](media/country-of-origin-report.png "Menşei ülke raporu")
+![Menşei ülke raporu.](media/country-of-origin-report.png "Menşei ülke raporu")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

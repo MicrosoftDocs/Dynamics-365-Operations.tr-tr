@@ -1,33 +1,31 @@
 ---
 title: Sabit kıymet grupları için yenileme maliyetlerini ve sigortalı değerleri yeniden hesaplama
-description: Bu makalede, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
-author: ShylaThompson
-manager: AnnBe
+description: Bu konuda, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
+author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c66f51a513524cfad7fb5382efa748197f9b4bac
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990526"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674888"
 ---
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Sabit kıymet grupları için yenileme maliyetlerini ve sigortalı değerleri yeniden hesaplama
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
+Bu konuda, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
 
 Düzenli aralıklarla, değiştirme maliyeti veya sigortaya özel sabit kıymetlerin değiştiği size bildirilebilir. Örneğin, yöneticiniz enflasyonun bir önceki yıl yüzde 3 olduğunu, bu nedenle tüm sabit kıymetlerin değiştirme maliyetini yüzde 3 ile arttırmanız gerektiği konusunda sizi bilgilendirebilir. 
 
@@ -77,3 +75,6 @@ Ertesi gün yöneticiniz bilgisayarlarınızın yüzde 10 yerine yüzde 8 oranı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Satış ve pazarlamaya genel bakış
 description: Satış akışında çeşitli veri türlerini elde etmek, depolamak ve kullanmak için Satış ve pazarlamayı kullanabilirsiniz. Bu veriler, özgün satış girişimini, gelecekteki takip eylemini ve ek satışları içerir.
 author: kfend
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 021ff1ff24e20516b7a8ac1ce206b76aa8e91a2a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359873"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982546"
 ---
 # <a name="sales-and-marketing-overview"></a>Satış ve pazarlamaya genel bakış
 

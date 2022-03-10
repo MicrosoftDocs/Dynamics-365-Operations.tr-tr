@@ -1,12 +1,10 @@
 ---
-title: Tahmin modelini geliştirme (önizleme)
+title: Tahmin modelini geliştirme
 description: Bu konu, tahmin modellerinin performansını artırmak için kullanabileceğiniz özellikleri açıklamaktadır.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009386"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595049"
 ---
-# <a name="improve-the-prediction-model-preview"></a>Tahmin modelini geliştirme (önizleme)
+# <a name="improve-the-prediction-model"></a>Tahmin modelini geliştirme
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konu, tahmin modellerinin performansını artırmak için kullanabileceğiniz özellikleri açıklamaktadır. Modelinizi Microsoft Dynamics 365 Finance'teki **Müşteri ödeme tahminleri** çalışma alanında geliştirmeye başlarsınız. Ardından geliştirme adımları AI Builder'da tamamlanır.
 
@@ -35,7 +32,7 @@ Bu konu, tahmin modellerinin performansını artırmak için kullanabileceğiniz
 
 Önce faturalar için üç olası sonucu seçersiniz: **Zamanında**, **Geç** ve **Çok geç**. Üç sonuç da seçilmelidir. Sonuçlardan herhangi birinin seçimini kaldırırsanız eğitim faturalar eğitim işleminde filtrelenerek çıkarılır ve tahminin doğruluğu azalır.
 
-[![Sonuçları onaylama](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Sonuçları onaylama.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Kuruluşunuz yalnızca iki sonuç gerektiriyorsa **Geç** ve **Çok geç** eşiklerini 0 (sıfır) gün olarak değiştirin. Bu şekilde tahmini etkili bir şekilde ikili duruma daraltabilirsiniz: **Zamanında** veya **Geç**.
 
@@ -53,7 +50,7 @@ Aşağıdaki bölümlerde, fatura ve müşteri varlıkları için kullanılabili
 
 Aşağıdaki şekilde, fatura tablosu için kullanılabilir alanlar gösterilmektedir.
 
-[![Fatura tablosu için kullanılabilir alanlar](./media/available-fields.png)](./media/available-fields.png)
+[![Fatura tablosu için kullanılabilir alanlar.](./media/available-fields.png)](./media/available-fields.png)
 
 Eğitim için aşağıdaki alanlar seçilmemelidir:
 
@@ -68,7 +65,7 @@ Eğitim için aşağıdaki alanlar seçilmemelidir:
 
 Aşağıdaki şekilde, müşteri tablosu için kullanılabilir alanlar gösterilmektedir.
 
-[![Müşteri tablosu için kullanılabilir alanlar](./media/related-entities.png)](./media/related-entities.png)
+[![Müşteri tablosu için kullanılabilir alanlar.](./media/related-entities.png)](./media/related-entities.png)
 
 Eğitim için aşağıdaki alan seçilmemelidir:
 
@@ -76,9 +73,8 @@ Eğitim için aşağıdaki alan seçilmemelidir:
 
 ## <a name="filters"></a>Filtreler
 
-Filtreler, şu anda Müşteri ödeme tahmini senaryosunu desteklemez. Bu nedenle, **Bu adımı atla**'yı seçin ve özet sayfasına devam edin.
+Faturadaki veya müşteri tablolarındaki alanlar için filtre ölçütü ayarlayarak eğitim için kullanılan faturalara filtre uygulayabilirsiniz. Örneğin, bir eşiği yalnızca, toplamın eşit olduğu veya belirli bir tutarı aşan faturaları içerecek şekilde ayarlayabilirsiniz. Alternatif olarak, belirli bir müşteri grubundaki müşterilerle ilişkilendirilmiş faturaları hariç tutabilirsiniz.
 
-[![Filtrelerle modeli odaklama](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Verilerinize filtre uygulama hakkında daha fazla bilgi için bkz. [Tahmin modeli oluşturma](/ai-builder/prediction-create-model#filter-your-data).
 
-#### <a name="privacy-notice"></a>Gizlilik bildirimi
-Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Donanım istasyonu indirmek için self servis gerçekleştir
 description: Bu yordamda önceden tanımlanmış bir donanım istasyonu indirme konusu açıklanmaktadır.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26e425973653240870a53c469385543549feb347
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0a378cf76d56502fdf1a8062c90d62a554d0db6dda6e4262fc62136dc82d8361
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743347"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>Donanım istasyonu indirmek için self servis gerçekleştir
 

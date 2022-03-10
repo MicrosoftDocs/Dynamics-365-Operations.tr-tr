@@ -1,30 +1,27 @@
 ---
 title: Ürün, sipariş, sevkiyat ve yüklerdeki tehlikeli malzemeler
 description: Bu konuda serbest bırakılan ürünler için tehlikeli malzeme özelliklerini ayarlama, tehlikeli maddelerle ilgili stok limitlerini belirleme ve tehlikeli malzemeleri satış siparişine, sevkiyata veya yüke ekleme açıklanmaktadır.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 7e0564802bc53ce21236ffc6ed065bf6abac7c78
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243165"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570717"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Ürün, sipariş, sevkiyat ve yüklerdeki tehlikeli malzemeler
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda serbest bırakılan ürünler için tehlikeli malzeme özelliklerini ayarlama, tehlikeli maddelerle ilgili stok limitlerini belirleme ve tehlikeli malzemeleri satış siparişine, sevkiyata veya yüke ekleme açıklanmaktadır.
 

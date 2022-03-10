@@ -2,11 +2,9 @@
 title: Kredi kartı ayarlama, onaylama ve tutma
 description: Bu makalede, Microsoft Dynamics 365 Finance'ta kredi kartı onayına genel bir bakış sağlanmıştır. Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: baeaf6c47e9d799b729bb3f0b09a5e9e4511eac6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 932949f31cbc4e4e8c07a2e489b8a0848843c54ad8d27d5d77f2b7031c68c30a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769143"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredi kartı ayarlama, onaylama ve tutma
 
@@ -30,8 +28,7 @@ ms.locfileid: "5217470"
 
 Bu makalede, Microsoft Dynamics 365 Finance'ta kredi kartı onayına genel bir bakış sağlanmıştır. Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir.
 
-<a name="setting-up-the-credit-card-payment-service"></a>Kredi kartı ödeme hizmeti ayarlama
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>Kredi kartı ödeme hizmeti ayarlama
 
 Kredi kartlarını kullanmak için, Ödeme hizmetleri sayfasından bir ödeme hizmeti ayarlamanız ve etkinleştirmeniz gerekir. Ödeme hizmeti, tüzel kişiliğiniz ile müşterinin kredi kartı harcamalarını işleyen banka arasında bir köprü olarak çalışır. Ödeme bağlayıcı alanında listelenen bir kredi kartı sağlayıcısıyla çalışmanız ve bu sağlayıcıyla bir hesap kurmanız gerekmektedir. Ardından Ödeme hizmetleri sayfasında diğer seçenekleri belirlemeniz, Kredi kartı türleri sayfasında American Express, Discover, MasterCard ve Discover için kredi kartı türlerini ayarlamanız ve sağlayıcıyı varsayılan sağlayıcı olarak etkinleştirmeniz gerekir. Ayrıca, ayarları tamamlamak için aşağıdaki adımları izlemeniz gerekir:
 -   Alacak hesapları parametreleri sayfasında, kredi kartı onaylarını kullanmak için parametreleri belirtin.
@@ -41,13 +38,11 @@ Kredi kartlarını kullanmak için, Ödeme hizmetleri sayfasından bir ödeme hi
 ## <a name="adding-a-new-credit-card"></a>Yeni kredi kartı ekleme
 Müşteri, Ayar, Kredi kartı öğelerini kullanarak Müşteriler sayfasında yeni kredi kartı kayıtları oluşturabilirsiniz. Ayrıca, Satış siparişi sayfasında siparişleri girerken Yönet, Müşteri, Kredi kartı, Kaydet öğelerini kullanarak da kredi kartı kayıtları oluşturabilirsiniz.
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>Bir satış siparişine kredi kartı ekleme
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>Bir satış siparişine kredi kartı ekleme
 
 Satış siparişi sayfasındaki Fiyat ve iskontolar hızlı sekmesindeki kredi kartı arama alanından bir kredi kartı seçerek satış siparişine kredi kartı ekleyebilirsiniz. Onay işlemini başlatmak için, Eylem Bölmesindeki Yönet sekmesinde Kredi kartı ve Onay öğelerini seçin.
 
-<a name="authorizing-a-credit-card"></a>Kredi kartını onaylama
--------------------------
+## <a name="authorizing-a-credit-card"></a>Kredi kartını onaylama
 
 Bir kredi kartı onaylanırken, kart numarası ve kart sahibinin adı doğrulanır ve kullanılabilir kredi bakiyesi onaylanır. İsteğe bağlı olarak, kart doğrulama değeri ve kart sahibinin adresi de doğrulanabilir. Ardından, müşterinin kullanılabilir kredi bakiyesinden fatura tutarı düşülür. Ödeme hizmeti, kredi kartının onaylandığı ya da reddedildiği bilgisini gönderir. Satış siparişi faturalandırıldığında, kredi kartı fatura tutarı ile borçlandırılır (tutulan).
 

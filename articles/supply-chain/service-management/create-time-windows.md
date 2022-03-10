@@ -1,12 +1,10 @@
 ---
 title: Zaman aralıkları oluşturma
-description: Servis siparişi satırlarının planlamasını en iyi duruma getirmek için zaman aralıkları kullanabilirsiniz.
-author: ShylaThompson
-manager: tfehr
+description: Bu konuda, zaman aralıklarının nasıl oluşturulacağını gösteren bir yordam açıklanmaktadır.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATimeAgreement
 audience: Application User
@@ -17,20 +15,20 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f978d8f57d2da76a85b31ec55f9ad1a1ec3538
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 93c8426fd03a849cf8c241d694507bd033fb34c5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247538"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571438"
 ---
-# <a name="create-time-windows"></a>Zaman aralıkları oluşturma   
+# <a name="create-time-windows"></a>Zaman aralıkları oluşturma
 
 [!include [banner](../includes/banner.md)]
 
 Servis siparişi satırlarının planlamasını en iyi duruma getirmek için zaman aralıkları kullanabilirsiniz.
 
-1. **Servis yönetimi** \> **Kurulum** \> **Servis sözleşmeleri** \> **Zamana aralığı**'na tıklayın.
+1. **Servis yönetimi** \> **Kurulum** \> **Servis sözleşmeleri** \> **Zamana aralığı**'na gidin.
 2. Yeni bir zaman aralığı oluşturmak için **Alt+N** tuşlarına basın.
 3. **Zaman aralıkları** alanında zaman aralığı için bir ad girin.
 4. **Açıklama** alanında zaman aralığı için bir açıklama girin.

@@ -2,11 +2,9 @@
 title: Taşıyıcı grupları
 description: Bu konuda, taşıyıcı grupları için veri ayarlama yöntemi açıklanmaktadır.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSCarrierGroup
 audience: Application User
@@ -16,14 +14,16 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 95517153dda06cecf8e57b1f9b080aa07966c111
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 10a30d8fae52a25b7d65b5a9cc991677df33a2a7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247275"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574893"
 ---
 # <a name="carrier-groups"></a>Taşıyıcı grupları
+
+[!include [banner](../../includes/banner.md)]
 
 Taşıyıcı grubu, sevkiyat taşıyıcıları ve taşıyıcı hizmetleri topluluğudur. Her taşıyıcı grubu, kendisine ait olan sevkiyat taşıyıcıları ve taşıyıcı hizmetleri için tercih edilen sırayı belirtir.
 

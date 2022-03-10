@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937546"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745418"
 ---
 # <a name="set-up-a-retail-channel"></a>Perakende kanalını ayarlama
 
@@ -50,11 +50,11 @@ Bir perakende kanalı oluşturulmadan önce, [kanal önkoşullarını izlediğin
 
 Aşağıdaki resimde yeni bir perakende kanalının oluşturulması gösterilmektedir.
 
-![Yeni perakende kanalı](media/channel-setup-retail-1.png)
+![Yeni perakende kanalı.](media/channel-setup-retail-1.png)
 
 Aşağıdaki resimde örnek bir perakende kanalı gösterilmektedir.
 
-![Örnek perakende kanalı](media/channel-setup-retail-2.png)
+![Örnek perakende kanalı.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Diğer ayarlar
 
@@ -64,7 +64,7 @@ Ek olarak, **Ekran düzeni** bölümünde varsayılan ekran düzenini ayarlama h
 
 Aşağıdaki resimde örnek bir perakende kanalı kurulum yapılandırması gösterilmektedir.
 
-![Örnek perakende kanalı yapılandırması](media/channel-setup-retail-3.png)
+![Örnek perakende kanalı yapılandırması.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Ek kanal ayarları
 
@@ -74,7 +74,7 @@ Bir kanal için, **Ayarla** bölümünün altındaki Eylem Bölmesi'nde bulunabi
 
 Aşağıdaki resimde, **Ayarla** sekmesindeki çeşitli ek perakende kanal kurulum seçenekleri gösterilmektedir.
 
-![Kanalı ayarlama](media/channel-setup-retail-4.png)
+![Kanalı ayarlama.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Ödeme yöntemlerini ayarlama
 
@@ -89,7 +89,7 @@ Aşağıdaki resimde, **Ayarla** sekmesindeki çeşitli ek perakende kanal kurul
 
 Aşağıdaki resimde bir nakit ödeme yöntemi örneği gösteriliyor.
 
-![Örnek ödeme yöntemleri](media/channel-setup-retail-5.png)
+![Örnek ödeme yöntemleri.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Kasa bildirimini ayarlama
 
@@ -98,7 +98,7 @@ Aşağıdaki resimde bir nakit ödeme yöntemi örneği gösteriliyor.
 
 Aşağıdaki resimde bir kasa bildirimi örneği gösteriliyor.
 
-![Kasa bildirimlerini ayarlama](media/channel-setup-retail-6.png)
+![Kasa bildirimlerini ayarlama.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Teslimat şekillerini ayarla
 
@@ -112,7 +112,7 @@ Bir teslimat şekli eklemek veya değiştirmek için bu adımları izleyin.
 
 Aşağıdaki resimde bir teslimat şekli örneği gösteriliyor.
 
-![Teslimat şekillerini ayarla](media/channel-setup-retail-7.png)
+![Teslimat şekillerini ayarla.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Gelir/gider hesabını ayarlama
 
@@ -129,7 +129,7 @@ Gelir/gider hesabını ayarlamak için bu adımları izleyin.
 
 Aşağıdaki resimde bir gelir/gider hesabı örneği gösteriliyor.
 
-![Gelir/gider hesaplarını ayarlama](media/channel-setup-retail-8.png)
+![Gelir/gider hesaplarını ayarlama.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Bölümleri ayarlama
 
@@ -155,7 +155,7 @@ Bir karşılama grubu ataması ayarlamak için bu adımları izleyin.
 
 Aşağıdaki resimde, bir karşılama grubu ataması kurulum örneği gösterilmektedir.
 
-![Karşılama grubu atamalarını ayarlama](media/channel-setup-retail-9.png)
+![Karşılama grubu atamalarını ayarlama.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Kasaları ayarlama
 

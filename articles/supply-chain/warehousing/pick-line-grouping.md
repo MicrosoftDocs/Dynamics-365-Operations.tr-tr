@@ -2,11 +2,9 @@
 title: Malzeme çekme satırı gruplandırması
 description: Bu konu, çekme satırı gruplandırmasına genel bakış sağlamaktadır.
 author: Mirzaab
-manager: tfehr
 ms.date: 12/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e70244d46ec2787fefdb097d0354af7910b55e9c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757506"
 ---
 # <a name="pick-line-grouping"></a>Malzeme çekme satırı gruplandırması
 
@@ -118,7 +116,7 @@ Az önce oluşturduğunuz menü öğesini **Giden** menüsüne eklemek için aş
     - **Madde M9201:** her biri *3*
     - **Madde M9202:** her biri *9*
 
-1. Siparişleri ambara serbest bırakmadan önce, çekme yerleşimlerinin tüm siparişlerdeki tüm maddeler için yeterli stok içerdiğinden emin olmanız gerekir. Satış siparişi çekme için hangi malzeme çekme konumlarının kullanıldığını belirlemek için **yerleşim yönergesi** ayarını gözden geçirin. *51* ambarı için Contoso tanıtım veri ortamını kullanıyorsanız, kullanılabilir stok olduğundan emin olun.
+1. Siparişleri ambara serbest bırakmadan önce, çekme yerleşimlerinin tüm siparişlerdeki tüm maddeler için yeterli stok içerdiğinden emin olmanız gerekir. Satış siparişi çekme için hangi malzeme çekme konumlarının kullanıldığını belirlemek için **yerleşim yönergesi** ayarını gözden geçirin. Ambar *51* için Contoso tanıtım veri ortamını kullanıyorsanız kullanılabilir stok olduğundan emin olun.
 
     Şimdi her bir satır için stoku rezerve etmelisiniz.
 
@@ -170,3 +168,6 @@ Az önce oluşturduğunuz menü öğesini **Giden** menüsüne eklemek için aş
 >   - Bitmemiş stok yenileme işi olan iş satırları
 >   - Fazla malzeme çekme
 >   - Yeniden tahsisatla eksik malzeme çekme
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Ürün yaşam döngüsü durumuna genel bakış
 description: Ürün yaşam döngüsü durumu, serbest bırakılan bir ürünün veya ürün çeşidinin yaşam döngüsü durumunu belgeler.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 01/06/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: aaa3747dd13d56726251b150a8e0a3ec2dced614
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247850"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983806"
 ---
 # <a name="product-lifecycle-state-overview"></a>Ürün yaşam döngüsü durumuna genel bakış
 

@@ -1,28 +1,25 @@
 ---
 title: Servis nesnelerine genel bakış
-description: Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymetleri ve ürünleridir.
-author: ShylaThompson
-manager: tfehr
+description: Bu konuda, servis nesneleriyle nasıl çalışılacağına ilişkin bir genel bakış sağlanmaktadır.
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1e0a40d351150ce432164438cd9680cf80792e1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ad758d32c6e9de0758c6fddb57a7dea886ab73d4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974322"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986447"
 ---
 # <a name="service-objects-overview"></a>Servis nesnelerine genel bakış
 
@@ -46,3 +43,6 @@ Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymet
 
 [Servis nesneleri oluşturma](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

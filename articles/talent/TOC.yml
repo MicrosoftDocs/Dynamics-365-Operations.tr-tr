@@ -1,7 +1,9 @@
-- name: Dynamics 365 for Talent
-  href: ./index.md
+- name: Dynamics 365 Talent kullanımdan kaldırılıyor
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
-    - name: Başlayın
+    - name: Dynamics 365 Talent giriş sayfası
+      href: ./index.md
+    - name: Kullanmaya başlayın
       items:
         - name: Talent kullanmaya başlama
           href: talent-get-started.md

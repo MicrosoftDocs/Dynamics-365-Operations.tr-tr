@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e69aa3cb81dceb7af4cd15536164ac40d234e5fbc7f661612bc84dbb0983837
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8a3e760353b351d42aff82c0d372d2aca350cd2
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712778"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343570"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS
 
@@ -27,33 +27,33 @@ ms.locfileid: "6712778"
 
 Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamı istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
 
-**Commerce değerlendirme ortamı, şu anda Retail uygulayan müşteriler için bir e-Ticaret mağazası olarak kullanabilir mi?**
+## <a name="can-we-use-the-commerce-evaluation-environment-as-an-e-commerce-storefront-for-customers-that-currently-implement-retail"></a>Commerce değerlendirme ortamı, şu anda Retail uygulayan müşteriler için bir e-Ticaret mağazası olarak kullanabilir mi?
 
 No Commerce değerlendirme ortamı yalnızca değerlendirme içindir. Perakende satış teknolojisini kullanan bir müşteri için ortam gerekiyorsa Microsoft 'a başvurun.
 
-**Commerce değerlendirme ortamı, Retail uygulayan mevcut bir uygulamanın/ortamın üstünde e-Ticaret özelliklerinin sağlanması için kullanılabilir mi?**
+## <a name="can-the-commerce-evaluation-environment-be-used-to-provision-the-e-commerce-features-on-top-of-an-existing-applicationenvironment-that-implements-retail"></a>Commerce değerlendirme ortamı, Retail uygulayan mevcut bir uygulamanın/ortamın üstünde e-Ticaret özelliklerinin sağlanması için kullanılabilir mi?
 
 Hayır (çoğunlukla). Commerce değerlendirme bileşenleri, yalnızca önkoşullar ve sağlama kılavuzunda belirtilen yapılandırmalarla eşleşen ortamlar için geçerlidir. Ek olarak, gerekli temel demo verileri 10.0.8 öncesindeki ilk sürümle dağıtılan ortamlarda kullanılamaz. 
 
-**Microsoft Dynamics Lifecycle Services (LCS) yoluyla Microsoft Azure üzerine Commerce değerlendirme ortamını dağıtmaya hangi maliyetler dahil edilecek?**
+## <a name="what-costs-are-involved-in-deploying-the-commerce-evaluation-environment-on-microsoft-azure-via-microsoft-dynamics-lifecycle-services-lcs"></a>Microsoft Dynamics Lifecycle Services (LCS) yoluyla Microsoft Azure üzerine Commerce değerlendirme ortamını dağıtmaya hangi maliyetler dahildir?
 
 Geleneksel Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce genel merkezi demo ortamı (sanal makine \[VM\]) Azure aboneliğinizde barındırılacaktır. Bu maliyeti tahmin etmek için [Azure fiyatlandırma hesap makinesini](https://azure.microsoft.com/pricing/calculator/) kullanabilirsiniz.
 
 Commerce Scale Unit, Commerce Site Oluşturucu ve e-Ticaret siteniz gibi diğer bileşenler, hizmet olarak yazılım olarak kullanılacak ve Microsoft tarafından barındırılacaktır.
 
-**Şu anda Commerce değerlendirme ortamında hangi Azure coğrafyaları destekleniyor?**
+## <a name="which-azure-geographies-are-currently-supported-for-the-commerce-evaluation-environment"></a>Şu anda Commerce değerlendirme ortamında hangi Azure coğrafyaları destekleniyor?
 
 Commerce değerlendirme ortamı yalnızca Kuzey Amerika Coğrafyasında dağıtılabilir.
 
-**Tam OneBox sanal makinesi (VM) seçeneği olan bir indirilebilir sanal sabit disk (VHD) var mı?**
+## <a name="is-there-a-downloadable-virtual-hard-disk-vhd-that-has-the-complete-onebox-virtual-machine-vm-option"></a>Tam OneBox sanal makinesi (VM) seçeneği olan bir indirilebilir sanal sabit disk (VHD) var mı?
 
 Dynamics 365 Commerce ve Commerce Scale Unit tamamen hizmet olarak yazılımdır (SaaS) ve bulutta barındırılmalıdır.
 
-**Commerce değerlendirme ortamı ne kadar süreyle kullanılabilir?**
+## <a name="how-long-can-the-commerce-evaluation-environment-be-used"></a>Commerce değerlendirme ortamı ne kadar süreyle kullanılabilir?
 
 Commerce değerlendirme ortamının Commerce Scale Unit, Commerce site oluşturucu ve e-Ticaret gibi SaaS bileşenlerinin sağlandığı tarihten itibaren 30 günlük zaman sınırı vardır.
 
-**Commerce değerlendirme ortamım için zaman sınırını genişletebilirim?**
+## <a name="can-i-extend-the-time-limit-for-my-commerce-evaluation-environment"></a>Commerce değerlendirme ortamım için zaman sınırını genişletebilirim?
 
 Zaman sınırı genişletme norm için bir istisnadır ve duruma göre değerlendirilir. Yardım için Microsoft iş ortağınıza başvurmanız gerekir.
 

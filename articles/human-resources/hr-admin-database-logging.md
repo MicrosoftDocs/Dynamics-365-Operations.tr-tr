@@ -1,14 +1,13 @@
 ---
 title: Veritabanı günlüğü yapılandırma ve yönetme
 description: Veritabanı günlükleri ile Dynamics 365 Human Resources'taki tablo ve alanlardaki değişiklikleri izleyebilirsiniz.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,14 +15,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801347"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066455"
 ---
 # <a name="configure-and-manage-database-logging"></a>Veritabanı günlüğü yapılandırma ve yönetme
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -94,14 +96,14 @@ Veritabanı günlüklerinin tümünü veya bir bölümünü aşağıdaki seçene
 Veritabanı günlüğü temizleme işlemi ayarlamak için aşağıdaki adımları izleyin: 
 
 1. **Sistem yönetimi > Bağlantılar > Veritabanı > Veritabanı günlükleri**'ne gidin. **Günlüğü temizle**'yi seçin.
-
-2. Aşağıdaki seçeneklerden birini girerek, günlükleri silmek üzere seçebileceğiniz bir yöntem seçin:
+2. **Eklenecek kayıtlar** üst bilgisinde **Filtrele**'yi seçin.
+3. Silinecek günlükleri seçmek için kullanılacak yöntemi seçin. Aşağıdaki seçeneklerden birini girin:
 
    - Tablo ID
    - Günlük türü
-   - Oluşturma tarihi ve saati
+   - Oluşturulma tarihi ve saati
 
-3. Günlük temizleme görevinin ne zaman çalıştırılacağını belirlemek için **Veritabanı günlüklerini temizleme** sekmesini kullanın. Varsayılan olarak, veritabanı günlükleri 30 gün süreyle kullanılabilir.
+4. Günlük temizleme görevinin ne zaman çalıştırılacağını belirlemek için **Veritabanı günlüklerini temizleme** sekmesini kullanın. Varsayılan olarak, veritabanı günlükleri 30 gün süreyle kullanılabilir.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Kıymet KPI'ları
 description: Bu konuda Kıymet Yönetimi'ndeki KPI'lar açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8741ad9c70182c0f4f9d4d5272a023a3627340f6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778760"
 ---
 # <a name="asset-kpis"></a>Kıymet KPI'ları
 
@@ -84,7 +82,7 @@ Aşağıdaki tabloda, **Varlık KPI'ları** sayfasındaki alanların açıklamas
 
 Aşağıdaki şekil dört kıymet için bir KPI hesaplamasının ekran görüntüsünü gösterir.
 
-![Dört varlık için KPI hesaplamasının ekran görüntüsü](media/11-controlling-and-reporting.png)
+![Dört varlık için KPI hesaplamasının ekran görüntüsü.](media/11-controlling-and-reporting.png)
 
 - **Tüm varlıklar** alanında birden fazla varlık için çoklu seçim yapabilirve **Genel** sekmesindeki **Varlık KPI'ları** düğmesine tıklayabilirsiniz. Ardından, seçilen varlıkların KPI'larını hesaplamak için **Varlık KPI'ları hesapla** iletişim kutusunda **Tamam**'a tıklayın.  
 - Bir KPI hesaplamasından alınan sonuçlar, kuruluma ve kesinti süresi neden kodlarının ayarına ve kullanımına bağlı olarak [bakım süresi kayıtlarını](../work-orders/maintenance-downtime.md) içerebilir veya içermeyebilir. 

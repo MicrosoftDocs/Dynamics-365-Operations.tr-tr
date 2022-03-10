@@ -1,8 +1,8 @@
 ---
 title: Çalışan yararları programı teslim et
-description: Bu makale, yeni bir kazanç oluştururken kullanılacak kazanç öğelerini nasıl oluşturacağınızı gösterir.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Bu konuda, yeni bir kazanç oluşturulurken kullanılacak kazanç öğelerinin nasıl oluşturulacağı açıklanmaktadır.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,24 @@ ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBen
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: eba305a6a5e1b32636e17bba090047d6167ecebd4f0fe49b17b5267c71b98773
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 868ddb9b372b90ec75a5f35ebf3c987f2d39bd74
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757027"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066080"
 ---
 # <a name="deliver-employee-benefits-program"></a>Çalışan yararları programı teslim et
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu makale, yeni bir kazanç oluştururken kullanılacak kazanç öğelerini nasıl oluşturacağınızı gösterir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev Ücret ve Kazançlar yöneticisine yöneliktir.
+Bu konuda, yeni bir kazanç oluşturulurken kullanılacak kazanç öğelerinin nasıl oluşturulacağı açıklanmaktadır. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev Ücret ve Kazançlar yöneticisine yöneliktir.
 
 
 ## <a name="create-benefit-elements"></a>Kazanç öğeleri oluştur

@@ -3,25 +3,24 @@ title: Standart maliyetler için ön koşullara genel bakış
 description: Bu konu, standart maliyetleri kullanmak için temel adımları açıklar.
 author: AndersGirke
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92f80ecc611e68210e24e59b696724e1bc9c3a06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7c25f2109522c7ba549ef7c3ea429873d0e1f06e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809674"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986340"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Standart maliyetler için ön koşullara genel bakış
 
@@ -66,8 +65,7 @@ Standart maliyetler için bir veya daha fazla maliyetlendirme sürümü oluştur
 Varolan maddelerini standart bir maliyet stok modeline değiştirmek isteyen müşterilerin **Standart maliyet dönüştürmeleri** sayfasını kullanması gerekir.
 
 
-<a name="related-topics"></a>İlgili konular
---------
+## <a name="related-topics"></a>İlgili konular
 
 [Standart maliyet dönüştürmeye genel bakış](standard-cost-conversion-overview.md)
 

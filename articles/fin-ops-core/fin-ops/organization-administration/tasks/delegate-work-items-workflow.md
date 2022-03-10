@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed21f6d32cdcf74eb153daba32c20b7cef94d4e4
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 128dce6a1b852d908e01c348cb767088031b11a5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747381"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070109"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>İş akışındaki iş öğelerini devretme
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 ## <a name="manually-delegate-a-work-item"></a>Bir iş öğesini el ile devredin
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a90e0eb469b823368c1140421fc9c92ccfe69a3b7bac73f762170c0da43e3eee
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747901"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103110"
 ---
 # <a name="predefined-product-variants"></a>Önceden tanımlanmış ürün varyantları
 
@@ -84,12 +84,9 @@ Bu özellikle birlikte aşağıdaki iyileştirmeler sağlanır:
 - **Varyant önerilerinin ertelenmiş şekilde oluşturulması:** **Varyant önerileri** sayfası, artık ilk açtığınızda öneriler göstermez. Bunun yerine, gereksinim duyacağınız değerleri seçmeniz ve birleşimleri oluşturmak için **Öner** düğmesini seçmeniz gerekir. Bu, işlemi daha görünür ve etkileşimli hale getirir.
 - **Boyut değerleri seçimi:** Birçok boyut değerleriniz olduğunda, genellikle bunlardan yalnızca birkaçını içeren (örneğin, yeni bir renk veya stil kümesi oluştururken) varyant önerileri oluşturmak isteyebilirsiniz. Bu geliştirilmiş tasarım sayesinde, ürün varyantı önerileri oluşturmak istediğiniz boyut değerlerini seçebilirsiniz. Bu, önerilen varyantların ilgi derecesini büyük ölçüde artırır ve hem sistem performansını hem de kullanıcı üretkenliğini artırır.
 
-### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a>Varyant önerileri sayfa iyileştirmeleri özelliğini etkinleştirme
+### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>Varyant önerileri sayfa iyileştirmeleri özelliğini açma veya kapatma
 
-*Varyant önerileri sayfa iyileştirmeleri* özelliğini kullanabilmeniz için sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ürün bilgileri yönetimi*
-- **Özellik adı**: *Varyant önerileri sayfa iyileştirmeleri*
+Supply Chain Management sürüm 10.0.25 itibariyle, bu özellik varsayılan olarak açıktır. Yöneticiler [Özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanında *Varyant önerileri sayfa iyileştirmeleri* özelliğini bularak bu işlevi açabilir veya kapatabilir.
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>İyileştirilmiş varyant önerileriyle çalışma
 

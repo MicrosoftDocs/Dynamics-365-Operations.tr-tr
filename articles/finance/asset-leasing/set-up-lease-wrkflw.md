@@ -2,13 +2,11 @@
 title: Kiralama onayı iş akışlarını ayarlama
 description: Bu konu, yeni bir kiralama oluşturulduğunda çalışacak bir onay iş akışının nasıl ayarlanacağını açıklar.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d2135458873963dc7c930b4bcef0c508c7d9635f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2f99bb480e6ee2314852965ab9559bae2ad348fb92514d791fca127d91558348
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733647"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Kiralama onayı iş akışlarını ayarlama
 
@@ -52,3 +50,6 @@ Bu konu, yeni bir kiralama oluşturulduğunda çalışacak bir onay iş akışı
 14. **İş akışı oluştur** sayfasında **Kapat**'ı seçin.
 14. Yeni iş akışını seçin ve ardından **Sürümler**'i seçin. İş akışının etkin olmasını sağlamak için **Etkinleştir**'i seçin.
 15. **Kapat**'ı seçin. Yeni etkin sürüm görüntülenir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

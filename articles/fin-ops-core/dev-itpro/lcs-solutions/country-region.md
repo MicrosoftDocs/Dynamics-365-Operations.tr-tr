@@ -1,34 +1,32 @@
 ---
 title: Globalleştirme kaynakları
 description: Bu konu, ülke/bölgeye özgü işlevler ve teklifler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/02/2019
+author: kfend
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747527"
 ---
 # <a name="globalization-resources"></a>Globalleştirme kaynakları
 
 ## <a name="local-and-regional-deployments"></a>Yerel ve bölgesel dağıtımlar
 Bulunduğunuz bölgedeki mevzuat verilerin diğer ülkelerden/bölgelerden farklı şekilde depolanmasını veya sunulmasını gerektiriyorsa dağıtım sırasında dikkate almanız gereken ülkeye/bölgeye özel gereklilikler olabilir. Sizinle ilgili olabilecek aşağıdaki kaynakları inceleyin:
 
-[Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Yerelleştirme ve mevzuat özellikleri
 
@@ -55,7 +53,6 @@ Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında 
 
 #### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
 -   [Mevzuat güncelleştirmeleri](../../../finance/localizations/regulatory-updates.md)
--   [Yerelleştirme portalı](https://docs.microsoft.com/dynamics/s-e/) (Haftalık olarak güncelleştirilir)
 -   [Lifecycle Services'da (LCS) konu arama](../lifecycle-services/issue-search-lcs.md) (Günlük olarak güncelleştirilir)
 
 #### <a name="communication-and-alerts"></a>İletişim ve uyarılar
@@ -63,7 +60,7 @@ Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında 
 -   [Ülkeye/bölgeye özel mevzuat özellikleri hakkında uyarılar gönderme](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 sürüm planları
-[Dynamics 365 sürüm planları](https://docs.microsoft.com/business-applications-release-notes/), Dynamics 365 iş uygulamaları ve uygulama platformları için planlanan yeni ve geliştirilmiş özelliklerle ilgili açıklamalar sağlar. 
+[Dynamics 365 sürüm planları](/business-applications-release-notes/), Dynamics 365 iş uygulamaları ve uygulama platformları için planlanan yeni ve geliştirilmiş özelliklerle ilgili açıklamalar sağlar. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations uygulamalarındaki yenilikler
 [Finance and Operations'taki yenilikler veya değişiklikler giriş sayfası](../../fin-ops/get-started/whats-new-changed.md) Finance and Operations uygulamalarının özel sürümlerindeki özellikleri listeler.
@@ -133,3 +130,6 @@ Daha fazla bilgi için bkz. [Yardım sistemi](../../fin-ops/get-started/help-ove
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

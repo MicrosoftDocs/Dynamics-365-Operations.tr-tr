@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729720"
 ---
 # <a name="mobile-app-home-page"></a>Mobil uygulama giriş sayfası
 
@@ -39,7 +39,7 @@ Mobil uygulama, kuruluşunuzun iş süreçlerinin mobil cihazlarda kullanılabil
 ## <a name="elements-of-the-mobile-app"></a>Mobil uygulamanın öğeleri
 Mobil uygulamadaki gezinti, dört temel kavramdan oluşur: Pano, çalışma alanları, sayfalar ve eylemler. 
 
-[![Mobil uygulamadaki gezinme kavramları](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Mobil uygulamadaki gezinme kavramları.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Uygulamayı başlattığınızda **pano**'ya gidersiniz.
 2. Panoda, yayımlanmış olan **çalışma alanlarının** bir listesini görebilirsiniz.
@@ -53,7 +53,7 @@ Mobil uygulamadaki gezinti, dört temel kavramdan oluşur: Pano, çalışma alan
 ## <a name="implementation-process"></a>Uygulama işlemi
 Aşağıdaki görsel, Microsoft tarafından sağlanan ve özel mobil çalışma alanlarının her ikisinin de uygulama işlemini gösterir. 
 
-[![Mobil uygulamalar uygulama süreci](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Mobil uygulamalar uygulama süreci.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan her iki mobil çalışma alanını uygulamanıza yardımcı olacak kaynaklara bağlantılar içerir. İlk sütundaki sayılar, önceki görseldeki numaralandırılmış adımlara karşılık gelir.
 

@@ -1,31 +1,33 @@
 ---
 title: Tüm şirketler için Kazanç yönetimi ve Personel self servisi parametrelerini ayarlama
-description: Microsoft Dynamics 365 Human Resources'ta Kazanç yönetimi ve Personel self servisi için parametreleri yapılandırma.
-author: andreabichsel
-manager: tfehr
-ms.date: 12/07/2020
+description: Microsoft Dynamics 365 Human Resources uygulamasında Kazanç yönetimi ve Personel self servisi için parametreleri yapılandırın.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: 822e5b37be7b2d5712d61bf7fb00f40d1692f406
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4962452"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066937"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Tüm şirketler için Kazanç yönetimi ve Personel self servisi parametrelerini ayarlama
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources'ta kazanç planları kurmadan önce, kazançlar yönetimi parametrelerini yapılandırmanız gerekir. Bu parametreler varsayılan değerleri, neden kodları ve diğer seçenekleri ayarlar. 
 
@@ -62,9 +64,12 @@ Microsoft Dynamics 365 Human Resources'ta kazanç planları kurmadan önce, kaza
 
    | Alan | Tanım |
    | --- | --- |
-   | **Kazanç doğrulaması** | Kendi kendine faydaların kullanıma alma sırasında kullanılacak doğrulama metni. |
+   | **Kazanç doğrulaması** | Self servis kazançların kullanıma alınması sırasında kullanılacak doğrulama metni. |
    | **Görevlileri otomatik olarak seç** | Plan seçeneklerine uygunluğuna göre otomatik olarak bağımlılar ve lehdarlar oluşturulup oluşturulmayacağını belirtir. |
 
 3. **Kaydet**'i seçin.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

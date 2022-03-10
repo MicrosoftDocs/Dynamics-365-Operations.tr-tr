@@ -2,28 +2,25 @@
 title: Vergi için çift para birimi desteği
 description: Bu konu, vergi etki alanındaki iki para birimi ile muhasebe özelliğinin nasıl uzatılacağını ve vergi hesaplama ve deftere nakil işlemlerinin etkisini açıklamaktadır
 author: EricWang
-manager: Ann Beebe
-ms.date: 12/16/2019
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 449ebe55b8be7ee7ea22b4be7c44162d83fc3c2affbd4d20f4cad235ddb0f772
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448771"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742216"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Satış vergisi için çift para birimi desteği
 [!include [banner](../includes/banner.md)]
@@ -44,10 +41,10 @@ Dynamics 365 Finance için çift para birimi özelliği 8.1 (2018 Ekim) sürüm�
 
 Çift para birimleri desteğinin bir sonucu olarak özellik yönetiminde iki yeni özellik bulunur: 
 
-- Satış vergisi dönüştürmesi (10.0.9 sürümde yayınlandı)
-- Raporlama para birimi cinsinden vergi kapatma otomatik bakiyesi (10.0.11 sürümde yayınlandı)
+- Satış vergisi dönüştürmesi (10.0.13 sürümde yeni)
+- Satış vergisi kapatması için gerçekleşen para birimi ayarlama kar/zarar hesaplarına mali boyutlar girin (sürüm 10.0.17 yeni)
 
-Satış vergileri için çift para birimi desteği, vergi para birimi cinsinden vergilerin doğru hesaplanmasını ve satış vergisi kapatma bakiyesinin hem muhasebe para birimi, hem de raporlama para birimi cinsinden doğru şekilde hesaplanmasını sağlar. 
+Satış vergileri için çift para birimi desteği, vergi para birimi cinsinden vergilerin doğru hesaplanmasını ve satış vergisi kapatma bakiyesinin hem muhasebe para birimi, hem de raporlama para birimi cinsinden doğru şekilde hesaplanmasını sağlar.
 
 ## <a name="sales-tax-conversion"></a>Satış vergisi dönüştürme
 
@@ -92,6 +89,10 @@ Bu özellik yalnızca yeni hareketler için geçerlidir. Vergi hareketi için TA
 
 Önceki senaryoyu önlemek için bu parametre değerini, kapatılmamış vergi hareketleri içermeyen yeni (temiz) vergi kapatma döneminde değiştirmenizi öneririz. Vergi kapatma döneminin ortasındaki bu değeri değiştirmek için, lütfen bu parametre değerini değiştirmeden önce geçerli vergi kapatma dönemi için "Satış vergisini kapat ve deftere naklet" programını çalıştırın.
 
+Bu özellik, döviz alım satımlarından elde edilen kazanç ve kayıpları netleştiren muhasebe girişleri ekler. Girişler, satış vergisi kapatması sırasında yeniden değerleme yapıldığında gerçekleşen para birimi ayarlama kar ve zarar hesaplarında yapılacaktır. Daha fazla bilgi için, bu konunun sonraki bölümlerinde yer alan [raporlama para birimi bölümündeki Vergi kapatma otomatik bakiyesi](#tax-settlement-auto-balance-in-reporting-currency) bölümüne bakın.
+
+> [!NOTE]
+> Kapatma sırasında, mali boyutlara ilişkin bilgiler bilanço hesapları olan satış vergisi hesaplarından alınır ve kar ve zarar tablosu hesapları olan para birimi ayarlama kar ve zarar hesaplarına girilir. Mali boyutların değerine ilişkin kısıtlamalar bilanço hesapları ile kar ve zarar tablosu hesapları arasında farklılık sağladığından, Satış vergisi kapatma ve deftere naklet işlemi sırasında bir hata oluşabilir. Hesap yapılarını değiştirmek zorunda kalmamak için, "Mali boyutları satış vergisi kapatması için gerçekleşen para birimi ayarlama kar/zarar hesaplarına doldur" özelliğini açabilirsiniz. Bu özellik, finansal boyutların para birimi düzeltme kar/zarar hesaplarına türetilmesini zorlayacaktır. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Raporlama para birimi vergi tutarını izleme
 
@@ -118,7 +119,7 @@ Satış vergisi dönüştürme yolu "muhasebe para birimi" veya tek bir vergi ka
 | Muhasebe para birimi             | 100                        | 111                       | 83                       | **83.25**          |
 | Raporlama para birimi              | 100                        | 111                       | 83                       | **83**             |
 
-Satış vergisi kapatma programını ay sonu ile çalıştırdığınızda, hesap girişi aşağıdaki gibi olur:.
+Satış vergisi kapatma programını ay sonu ile çalıştırdığınızda, hesap girişi aşağıdaki gibi olur.
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Senaryo: satış vergisi dönüştürme = "Muhasebe para birimi"
 
 | Ana hesap           | Hareket para birimi (GBP) | Muhasebe para birimi (USD) | Raporlama para birimi (GBP) |
@@ -145,3 +146,6 @@ Daha fazla bilgi edinmek için aşağıdaki konulara bakın:
 - [Çift para birimi](dual-currency.md)
 - [Satış vergisine genel bakış](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

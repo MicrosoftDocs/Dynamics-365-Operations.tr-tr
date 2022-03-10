@@ -1,29 +1,26 @@
 ---
 title: İade maliyet fiyatı ve iade lot kodu
 description: İade edilen ürünlerin maliyetinin ürünleri müşteriye sattığınız zamandaki maliyete eşit olmasını isteyebilirsiniz. Bunu **İade lot kodu**'nu kullanarak yapabilirsiniz.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnInventTransIdLookup, ReturnItemNumLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5ac48dd390e2f57a7312e3c54af53dd49fd4f7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c8c5ad2f7e46ecefd490936b950d2b579faed60b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439390"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580348"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>İade maliyet fiyatı ve iade lot kodu        
 
@@ -112,3 +109,6 @@ Varsayılan olarak, bir iade siparişine maddeleri eklediğinizde, maddeler sto�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

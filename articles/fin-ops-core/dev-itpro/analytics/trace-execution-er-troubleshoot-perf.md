@@ -2,7 +2,7 @@
 title: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
 description: Bu konu, performans sorunlarını gidermek amacıyla elektronik raporlama (ER) içindeki performans izleme özelliğinin nasıl kullanılacağı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 06/12/2019
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0cf76a9b9af0fc648cb61cefbe92dc7aaa436692
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724405"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izle
 
@@ -47,23 +47,23 @@ Ayrıca, aşağıdaki dosyaları da indirip yerel olarak depolamalısınız.
 
 | Dosya                                  | İçerik                               |
 |---------------------------------------|---------------------------------------|
-| Performans izleme modeli sürüm 1     | [Örnek ER verisi modeli yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)    |
-| Performans izleme meta veri sürüm 1  | [Örnek ER meta verisi yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)      |
-| Performans izleme eşleştirme sürümü 1.1 | [Örnek ER model eşleme yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Performans izleme biçimi sürümü 1.1  | [Örnek ER biçim yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)       |
+| Performans izleme modeli sürüm 1     | [Örnek ER verisi modeli yapılandırması](https://download.microsoft.com/download/0/a/a/0aa84e48-8040-4c46-b542-e3bf15c9b2ad/Performancetracemodelversion.1.xml)    |
+| Performans izleme meta veri sürüm 1  | [Örnek ER meta verisi yapılandırması](https://download.microsoft.com/download/a/9/3/a937e8c4-1f8a-43e4-83ee-7d599cf7d983/Performancetracemetadataversion.1.xml)      |
+| Performans izleme eşleştirme sürümü 1.1 | [Örnek ER model eşleme yapılandırması](https://download.microsoft.com/download/7/7/3/77379bdc-7b22-4cfc-9b64-a9147599f931/Performancetracemappingversion1.1.xml) |
+| Performans izleme biçimi sürümü 1.1  | [Örnek ER biçim yapılandırması](https://download.microsoft.com/download/8/6/8/868ba581-5a06-459e-b173-fb00f038b37f/Performancetraceformatversion1.1.xml)       |
 
 ### <a name="configure-er-parameters"></a>ER parametrelerini yapılandırma
 
 Uygulamada oluşturulan her bir ER performans izleme, yürütme günlükleri kaydının bir eki olarak depolanır. Belge yönetimi (DM) çerçevesi, bu ekleri yönetmek için kullanılır. Performans izlemelerini iliştirmek için kullanılması gereken DM belge türünü belirtmek için ER parametrelerini önceden yapılandırmalısınız. **Elektronik raporlama** çalışma alanında, **Elektronik raporlama parametreleri** bağlantısını seçin. Sonra, **Elektronik raporlama parametreleri** sayfasında, **Ekler** sekmesinde, **Diğerleri** alanında, performans izlemeleri için kullanılacak DM belge türünü seçin.
 
-![Elektronik raporlama parametreleri sayfası](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Elektronik raporlama parametreleri sayfası.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 **Diğer** arama alanında kullanılabilmesi için bir DM belgesi türünün aşağıdaki şekilde **Belge türleri** sayfasında yapılandırılması gerekir (**Kuruluş yönetimi \> Belge yönetimi \> Belge türleri**):
 
 - **Sınıf:** Dosya iliştir
 - **Grup:** Dosya
 
-![Belge türleri sayfası](./media/GER-PerfTrace-DM-DocumentType.png)
+![Belge türleri sayfası.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > DM ekleri şirkete özgü olduğundan, seçilen belge türü, geçerli örneğin tüm şirketlerinde kullanılabilir olmalıdır.
@@ -72,7 +72,7 @@ Uygulamada oluşturulan her bir ER performans izleme, yürütme günlükleri kay
 
 Oluşturulan ER performans izlemeleri, ER biçim Tasarımcısı ve ER eşleme Tasarımcısı kullanılarak analiz için RCS'ye aktarılır. ER performans izleri ER biçimiyle ilgili yürütme günlükleri kaydının ekleri olarak depolandığından, RCS parametrelerini önceden yapılandırmalısınız, böylece performans izlemelerini iliştirmek için kullanılacak DM belge türü belirtilebilir. Şirketiniz için sağlanmış olan RCS örneğinde, **Elektronik raporlama** çalışma alanında, **Elektronik raporlama parametreleri**'ni seçin. Sonra, **Elektronik raporlama parametreleri** sayfasında, **Ekler** sekmesinde, **Diğerleri** alanında, performans izlemeleri için kullanılacak DM belge türünü seçin.
 
-![RCS içindeki Elektronik raporlama parametreleri sayfası](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![RCS içindeki Elektronik raporlama parametreleri sayfası.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 **Diğer** arama alanında kullanılabilmesi için bir DM belgesi türünün aşağıdaki şekilde **Belge türleri** sayfasında yapılandırılması gerekir (**Kuruluş yönetimi \> Belge yönetimi \> Belge türleri**):
 
@@ -84,7 +84,7 @@ Oluşturulan ER performans izlemeleri, ER biçim Tasarımcısı ve ER eşleme Ta
 Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözümü tasarladığınızı varsayın. Şu anda, seçilen satıcı için hareketleri **Satıcı hareketleri** sayfasında bulabilirsiniz (**Borç hesapları \> Satıcılar \> Tüm satıcılar**'a gidin, bir satıcı seçin ve Eylem Panosu üzerinde, **Satıcı** sekmesinde, **Hareketler** grubunda, **Hareketler**'i seçin). Ancak, tüm satıcı hareketinin elektronik bir belgede XML biçiminde aynı anda olmasını istersiniz. Bu çözüm, gerekli veri modelini, meta verileri, model eşlemeyi ve biçim bileşenlerini içeren birkaç ER yapılandırmasından oluşur.
 
 1. Şirketiniz için sağlanan RCS örneğine oturum açın.
-2. Bu kılavuzda, **Litware, Inc.** örnek şirket için yapılandırmalar oluşturacak ve değiştireceksiniz. Bu nedenle, bu konfigürasyon sağlayıcısının RCS'ye eklenmiş olduğundan ve etkin olarak seçildiğinden emin olun. Yönergeler için, bkz. [Yapılandırma sağlayıcıları oluşturmak ve bunları etkin olarak işaretlemek yordamına](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11) bakın.
+2. Bu kılavuzda, **Litware, Inc.** örnek şirket için yapılandırmalar oluşturacak ve değiştireceksiniz. Bu nedenle, bu konfigürasyon sağlayıcısının RCS'ye eklenmiş olduğundan ve etkin olarak seçildiğinden emin olun. Yönergeler için, bkz. [Yapılandırma sağlayıcıları oluşturmak ve bunları etkin olarak işaretlemek yordamına](tasks/er-configuration-provider-mark-it-active-2016-11.md) bakın.
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları** kutucuğunu seçin.
 4. **Yapılandırmalar** sayfasında, önkoşul olarak karşıdan yüklediğiniz ER yapılandırmalarını aşağıdaki sırada içe aktarın: veri modeli, meta veriler, model eşleme, biçim. Her bir yapılandırma için şu adımları izleyin:
 
@@ -92,7 +92,7 @@ Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözü
     2. Gerekli ER yapılandırması için XML biçiminde uygun dosyayı seçmek için **Gözat**'ı seçin.
     3. **Tamam**'ı seçin.
 
-    ![RCS içinde Yapılandırmalar sayfası](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![RCS'deki Yapılandırmalar sayfası.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>Çalışmayı izlemek için ER çözümünü çalıştırın
 
@@ -101,7 +101,7 @@ ER çözümünün ilk sürümünü tasarlamayı bitirdiğinizi varsayalım. Şim
 ### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER yapılandırmalarını RCS'den Finance and Operations içine aktarma
 
 1. Uygulama örneğinizde oturum açın.
-2. Bu kılavuzda, yapılandırmaları RCS örneğinizden (ER bileşenlerinizi tasarladığınız yerden) örneğinize (test edeceğiniz ve son olarak kullanacağınız) içe aktarırsınız. Bu nedenle, gerekli tüm yapıların hazırlandığından emin olmalısınız. Talimatlar için bkz. [Düzenleyici Yapılandırma Hizmeti'nden (RCS) Elektronik raporlama (ER) yapılandırmalarını içe aktarma](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations) yordamı.
+2. Bu kılavuzda, yapılandırmaları RCS örneğinizden (ER bileşenlerinizi tasarladığınız yerden) örneğinize (test edeceğiniz ve son olarak kullanacağınız) içe aktarırsınız. Bu nedenle, gerekli tüm yapıların hazırlandığından emin olmalısınız. Talimatlar için bkz. [Düzenleyici Yapılandırma Hizmeti'nden (RCS) Elektronik raporlama (ER) yapılandırmalarını içe aktarma](rcs-download-configurations.md) yordamı.
 3. Yapılandırmaları RCS'den uygulamada içe aktarmak için aşağıdaki adımları izleyin:
 
     1. **Elektronik raporlama** çalışma alanında, **Litware, Inc.** yapılandırma sağlayıcısının döşemesi üzerinde **Depolar**'ı seçin.
@@ -109,7 +109,7 @@ ER çözümünün ilk sürümünü tasarlamayı bitirdiğinizi varsayalım. Şim
     3. **Yapılandırmalar** hızlı sekmesinde, **Performans izleme biçimi** yapılandırmasını seçin.
     4. **Sürümler** hızlı sekmesinde seçilen yapılandırmanın sürüm **1.1**'ini ve sonra **İçe aktar**'ı seçin.
 
-    ![Yapılandırma havuzu sayfası](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![Yapılandırma deposu sayfası.](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 Veri modeli ve model eşleme yapılandırmalarının ilgili sürümleri, içe aktarılan ER biçim konfigürasyonu için önkoşul olarak otomatik içe aktarılır.
 
@@ -119,12 +119,27 @@ Veri modeli ve model eşleme yapılandırmalarının ilgili sürümleri, içe ak
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 3. **Kullanıcı parametreleri** iletişim kutusunda, **Yürütme izleme** bölümünde şu adımları izleyin:
 
-    1. **Yürütme izleme biçimi** alanında, ER biçimi yürütme ayrıntılarını toplamaya başlamak için **İzleme biçimi sorun giderme**'yi seçin. Bu değer seçildiğinde, performans izlemesi aşağıdaki eylemlerde harcanan süre hakkında bilgi toplar:
+    1. **Yürütme izleme biçimi** alanda, yürütme ayrıntılarının ER biçimi ve eşleme öğelerinde depolanması gereken oluşturulmuş performans izlemesinin biçimini belirtin:
 
-        - Her bir veri kaynağını veri almak için çağırılan model eşlemesinde çalıştırma
-        - Oluşturulan çıktıya veri girmek için her biçim öğesini işlemek
+        - **Hata ayıklama izleme biçimi**: Kısa yürütme süresine sahip bir ER biçimini etkileşimli olarak çalıştırmayı planlıyorsanız bu değeri seçin. Böylece, ER biçimi yürütme ile ilgili ayrıntılar topluluğu başlatılır. Bu değer seçildiğinde, performans izlemesi aşağıdaki eylemlerde harcanan süre hakkında bilgi toplar:
 
-        **Yürütme izleme biçimi** alanını, yürütme ayrıntılarının ER biçimi ve eşleme öğeleri için depolandığı oluşturulan performans izlemesinin biçimini belirtmek için kullanırsınız. **İzleme biçimi hata ayıklama**'yı değer olarak seçerek, ER Operasyon tasarımcısı içindeki içeriği analiz edebilir ve izlemede bahsedilen ER biçimi veya eşleştirme öğelerini görebilirsiniz.
+            - Her bir veri kaynağını veri almak için çağırılan model eşlemesinde çalıştırma
+            - Oluşturulan çıktıya veri girmek için her biçim öğesini işlemek
+
+            **Hata ayıklama izleme biçimi** değerini seçerseniz, izleme içeriğini ER İşlem tasarımcısında analiz edebilirsiniz. Burada, izlemede bahsedilen ER biçimini veya eşleme öğelerini görüntüleyebilirsiniz.
+
+        - **Toplama izleme biçimi**: Toplu iş modunda uzun yürütme süresine sahip bir ER biçimini çalıştırmayı planlıyorsanız bu değeri seçin. Böylece, ER biçimi yürütme ile ilgili toplama ayrıntıları topluluğu başlatılır. Bu değer seçildiğinde, performans izlemesi aşağıdaki eylemlerde harcanan süre hakkında bilgi toplar:
+
+            - Her bir veri kaynağını veri almak için çağırılan model eşlemesinde çalıştırma
+            - Her bir veri kaynağını veri almak için çağırılan biçim eşlemesinde çalıştırma
+            - Oluşturulan çıktıya veri girmek için her biçim öğesini işlemek
+
+            **Toplu izleme biçimi** değeri Microsoft Dynamics 365 Finance Sürüm 10.0.20 ve sonrasında kullanılabilir.
+
+            ER biçim tasarımcısı ve ER model eşleme tasarımcısında, tek bir bileşen için toplam yürütme süresini görüntüleyebilirsiniz. Ek olarak izleme, yürütme sayısı ve tek bir yürütmenin minimum ve maksimum süresi gibi yürütme ayrıntılarını içerir.
+
+            > [!NOTE]
+            > Bu izleme, izlenen bileşenler yoluna göre toplanır. Bu nedenle, tek bir üst bileşen birkaç adlandırılmamış alt bileşen içerdiğinde veya birden fazla alt bileşen aynı ada sahip olduğunda istatistikler yanlış olabilir.
 
     2. ER model eşleme ve ER biçimde bileşenlerinin yürütülmesine dair belirli ayrıntıları toplamak için aşağıdaki seçenekleri **Evet** olarak ayarlayın:
 
@@ -141,7 +156,7 @@ Veri modeli ve model eşleme yapılandırmalarının ilgili sürümleri, içe ak
     > [!NOTE]
     > **Kullanıcı parametreleri** iletişim kutusundaki parametreler kullanıcıya ve geçerli şirkete özgüdür.
 
-    ![Kullanıcı parametreleri iletişim kutusu](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Kullanıcı parametreleri iletişim kutusu.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>ER biçimini çalıştır
 
@@ -162,11 +177,11 @@ Performans izlemeleri, kaynak ER biçiminden alınır ve harici bir ZIP dosyası
 2. **Elektronik raporlama yürütme günlükleri** sayfasında, sol tarafta, **Yapılandırma adı** alanında, **Performans izleme biçimi**'ni seçerek, **Performans izleme biçimi** yapılandırması yürütülmesi tarafından oluşturulan günlük kayıtlarını bulabilirsiniz.
 3. Sayfanın sağ üst köşesindeki **Ekler** düğmesini (ataş simgesi) seçin veya **Ctrl+Shift+A**'ya basın.
 
-    ![Elektronik raporlama yürütme günlükleri sayfasındaki Ekler düğmesi](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![Elektronik raporlama yürütme günlükleri sayfasındaki Ekler düğmesi.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. **Elektronik raporlama yürütme günlükleri için ekler** sayfasında, Eylem Panosunda, **Aç**'ı seçerek performans izlemeyi bir zip dosyası olarak elde edin ve yerel olarak depolayın.
 
-    ![Elektronik raporlama yürütme günlükleri için ekler](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Elektronik raporlama yürütme günlükleri için ekler.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > Oluşturulan izleme, yalnızca **GUID** biçimindeki benzersiz bir rapor tanımlayıcısı aracılığıyla kaynak ER raporuna referans sağlar. Biçimin sürüm numaralandırması dikkate alınmıyor.
@@ -183,7 +198,7 @@ Performans izlemeleri, kaynak ER biçiminden alınır ve harici bir ZIP dosyası
 6. **Gözat**'ı seçerek, daha önce içe aktardığınız zip dosyasını seçin.
 7. **Tamam**'ı seçin.
 
-    ![RCS içindeki performans izleme sonuç ayarları iletişim kutusu](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![RCS içindeki performans izleme sonuç ayarları iletişim kutusu.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>RCS- Biçim yürütme içindeki analiz için performans izlemesini kullan
 
@@ -194,7 +209,7 @@ Performans izlemeleri, kaynak ER biçiminden alınır ve harici bir ZIP dosyası
     - Biçim öğesini kullanarak oluşturulan çıktıya veri girişi için harcanan gerçek süre
     - Aynı zaman, tüm çıktının oluşturulması için harcanan toplam sürenin yüzdesi olarak ifade edilen saat
 
-    ![RCS içinde biçim tasarımcısı sayfası](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![RCS'deki biçim tasarımcısı sayfası.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. **Biçim tasarımcısı** sayfasını kapatın.
 
@@ -217,7 +232,7 @@ ER'ın, geçerli model eşlemesinin, VendTable/\<Relations/VendTrans.VendTable\_
 - Yapılandırılmış bağlamalar temelinde, veri modelindeki her hareketin ayrıntılarını girmek için bir çağrı yapılır.
 - Bir arama, veri modelindeki satıcı başına hesaplanan hareket sayısını girmek için gerçekleştirilir.
 
-![RCS'de model eşleme tasarımcısı sayfasındaki yinelenen veritabanı istekleri hakkında ileti](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![RCS'de model eşleme tasarımcısı sayfasındaki yinelenen veritabanı istekleri hakkında ileti.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 **\[Q:530\]** değeri, VendTrans tablosunun bu tablodan bir kaydı VendTable/\<Relations/VendTrans.VendTable\_AccountNum veri kaynağına iade etmek için 530 kez adlandırdığını gösterir. **\[530\]** değeri, VendTable/\<Relations/VendTrans.VendTable\_AccountNum veri kaynağının bu veri kaynağından bir kayıt döndürmek ve bunu veri modeli içindeki ayrıntıları girmeleri için 530 defa çağrıldığını gösterir.
 
@@ -225,7 +240,7 @@ ER'ın, geçerli model eşlemesinin, VendTable/\<Relations/VendTrans.VendTable\_
 
 LedgerTransTypeList veri kaynağına yapılan çağrıların sayısını azaltmak için de yararlı olabilir. Bu veri kaynağı, **LedgerTransType** numaralandırmasının her bir değerini etiketiyle ilişkilendirmek için kullanılır. Bu veri kaynağını kullanarak, her bir satıcı hareketi için uygun bir etiket bulabilir ve bunu veri modeline girebilirsiniz. Bu veri kaynağına yapılan çağrı sayısı (9.027), 265 hareket için oldukça yüksektir.
 
-![RCS'de, veri kaynağına uygulanacak 9.027 çağrıyı gösteren model eşleme tasarımcısı sayfası](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![RCS'de, veri kaynağına uygulanacak 9.027 çağrıyı gösteren model eşleme tasarımcısı sayfası.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Yürütme izlemesinin bilgilerine dayalı olarak model eşlemeyi geliştirin
 
@@ -238,7 +253,7 @@ LedgerTransTypeList veri kaynağına yapılan çağrıların sayısını azaltma
     3. **VendTable** öğesini genişletin, VendTable veri kaynağı için bir-çok ilişkisi listesini genişletin (**\<İlişkiler** öğesi) ve **VendTrans.VendTable\_AccountNum** maddesini seçin.
     4. **Önbellek**'i seçin.
 
-    ![Yinelenen çağrıların engellenmesine yardımcı olmak için kurulumu önbelleğe almak](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Yinelenen çağrıların engellenmesine yardımcı olmak için kurulumu önbelleğe alma.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. LedgerTransTypeList veri kaynağını VendTable veri kaynağının kapsamına getirmek için aşağıdaki adımları izleyin:
 
@@ -259,7 +274,7 @@ LedgerTransTypeList veri kaynağına yapılan çağrıların sayısını azaltma
     3. **VendTable.\$TransType** öğesini seçin.
     4. **Önbellek**'i seçin.
 
-    ![$TransType alanı için önbelleğe alma kurulumu](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![$TransType alanı için önbelleğe alma kurulumu.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. **\$TransTypeRecord** alanını, önbelleğe alınmış **\$TransType** alanını kullanmaya başlayacak şekilde değiştirmek için şu adımları izleyin:
 
@@ -314,19 +329,19 @@ Bu konuda daha önce ele alınan [RCC - Model eşleme içindeki performans izlem
 
 Model eşleştirmesinde yaptığınız ayarlamaların veritabanındaki yinelenen sorguları elediğine dikkat edin. Bu model eşleme için veritabanı tablolarına ve veri kaynaklarına yapılan çağrı sayısı da azaltılmıştır. Bu nedenle, tüm ER çözümü performansı iyileştirilmiştir.
 
-![RCS'de VendTable veri kaynağı için Model eşleme tasarımcısı sayfasında izleme bilgisi](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![RCS'de VendTable veri kaynağı için Model eşleme tasarımcısı sayfasında izleme bilgisi.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 İzleme bilgisinde, VendTable veri kaynağı için değer **\[12\]**, bu veri kaynağının 12 kere çağrıldığını ifade eder. **\[Q:6\]**, VendTable tablosuna çağrıların altısının veritabanı çağrılarına dönüştürüldüğünü gösterir. **\[C:6\]** değeri, veritabanından alınan kayıtların önbelleğe alınmış olduğunu ve başka altı çağrının önbellek kullanılarak işlendiğini ifade eder.
 
 LedgerTransTypeList veri kaynağına yapılan çağrı sayısının 9.027'den 240'a kadar azaltıldığına dikkat edin.
 
-![RCS'de LedgerTransTypeList veri kaynağı için Model eşleme tasarımcısı sayfasında izleme bilgisi](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![RCS'de LedgerTransTypeList veri kaynağı için Model eşleme tasarımcısı sayfasında izleme bilgisi.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>Uygulamadaki yürütme izlemesini inceleyin
 
 RCS'ye ek olarak, bazı sürümler bir ER çerçeve tasarımcısı deneyimi için yetenekler sağlayabilir. Bu sürümlerde, açılabilir bir **Tasarım modunu etkinleştir** seçeneği vardır. Bu seçeneği, **Elektronik raporlama** çalışma alanından açabileceğiniz **Elektronik raporlama parametreleri** sayfasının **Genel** sekmesinde bulabilirsiniz.
 
-![Elektronik raporlama parametreleri sayfasında Tasarım modunu etkinleştir seçeneği](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![Elektronik raporlama parametreleri sayfasında Tasarım modunu etkinleştir seçeneği.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Bu sürümlerden birini kullanıyorsanız, oluşturulan performans izlemelerinin ayrıntılarını uygulamada doğrudan analiz edebilirsiniz. Bunları uygulamadan dışa aktarmanız ve RCS'de içe aktarmanız gerekmez.
 
@@ -344,7 +359,7 @@ Yeni bir performans izleme oluşturmak için bu konuda daha önce işlenen [ER b
 
 Web tarayıcısının karşıdan yüklenmek üzere bir zip dosyası sunduğuna dikkat edin. Bu dosya, PerfView biçiminde performans izlemesini içerir. Daha sonra, PerfView performans analizi aracını, ER biçimi yürütmesinin ayrıntılarını analiz etmek için kullanabilirsiniz.
 
-![PerfView biçiminde performans izleme bilgileri](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![PerfView biçiminde performans izleme bilgileri.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Veritabanı sorgularını içeren bir yürütme izlemesini gözden geçirmek için harici araçlar kullanın
 
@@ -360,7 +375,7 @@ ER çerçevesinde yapılan geliştirmeler sayesinde, PerfView formatında oluşt
     - **Sorgu istatistiklerini** topla seçeneğini **Evet** olarak ayarlayın.
     - **Sorguyu izle** seçeneğini **Evet** olarak ayarlayın.
 
-    ![Yürütme izleme bölümü, Kullanıcı parametreleri iletişim kutusu](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Yürütme izleme bölümü, Kullanıcı parametreleri iletişim kutusu.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>ER biçimini çalıştır
 
@@ -368,7 +383,7 @@ Yeni bir performans izleme oluşturmak için bu konuda daha önce işlenen [ER b
 
 Web tarayıcısının karşıdan yüklenmek üzere bir zip dosyası sunduğuna dikkat edin. Bu dosya, PerfView biçiminde performans izlemesini içerir. Daha sonra, PerfView performans analizi aracını, ER biçimi yürütmesinin ayrıntılarını analiz etmek için kullanabilirsiniz. Bu izleme şimdi, ER biçiminin yürütülmesi sırasında SQL veritabanı erişimi ayrıntılarını içermektedir.
 
-![PerfView'da yürütülen ER formatı için izleme bilgileri](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![PerfView'da yürütülen ER formatı için izleme bilgileri.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

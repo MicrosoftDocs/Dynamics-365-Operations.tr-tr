@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 64d9c649212eca4dc703e5b80fdf2c3c6a57a61745fc440b0650d7796a4d06e3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800699"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720995"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Organizasyon hiyerarşisine kanal ekleme
 
@@ -44,7 +44,7 @@ Hiyerarşi seçmek için bu adımları izleyin.
 
 Aşağıdaki resim, seçili hiyerarşinin organizasyon hiyerarşisi ayrıntılarını gösteriyor.
 
-![Seçili hiyerarşinin organizasyon hiyerarşisi ayrıntıları](media/channel-add-to-org-hierarchy-1.png)
+![Seçili hiyerarşinin organizasyon hiyerarşisi ayrıntıları.](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>Bir hiyerarşi düğümüne kanal ekleme
 
@@ -58,11 +58,11 @@ Bir hiyerarşi düğümüne kanal eklemek için bu adımları izleyin.
 
 Aşağıdaki resimde, hiyerarşi düğümüne eklenecek kanalın nasıl seçildiği gösteriliyor.
 
-![Hiyerarşi düğümüne eklenecek kanalı seçme](media/channel-add-to-org-hierarchy-2.png)
+![Hiyerarşi düğümüne eklenecek kanalı seçme.](media/channel-add-to-org-hierarchy-2.png)
 
 Aşağıdaki resim, çeşitli kanalların ekli olduğu bir hiyerarşiyi gösteriyor.
 
-![Çeşitli kanalların eklendiği bir hiyerarşi](media/channel-add-to-org-hierarchy-3.png)
+![Çeşitli kanalların eklendiği bir hiyerarşi.](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

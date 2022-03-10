@@ -2,11 +2,9 @@
 title: Ödeme modülü
 description: Bu konuda, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
 author: anupamar-ms
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715518"
 ---
 # <a name="checkout-module"></a>Ödeme modülü
 
@@ -35,7 +33,7 @@ Bu konuda, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayar
 
 Aşağıdaki resimde ödeme sayfasında kullanılan bir Fabrikam ödeme modülü örneği gösterilmektedir.
 
-![Ödeme modülü örneği](./media/Checkout.PNG)
+![Ödeme modülü örneği.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Ödeme modülü özellikleri
 
@@ -54,13 +52,13 @@ Kullanıma alma modülü bir sipariş Özeti gösterir ve sipariş yerleştirilm
 
     Aşağıdaki resimde ödeme sayfasında kullanılan bir teslimat adresi modülü örneği gösterilmektedir.
 
-    ![Teslimat Adresi modülü örneği](./media/ecommerce-shippingaddress.PNG)
+    ![Teslimat Adresi modülü örneği.](./media/ecommerce-shippingaddress.PNG)
 
 - **Teslimat seçenekleri** – Bu modül bir müşteriye sipariş için teslimat şekli seçme olanağı sağlar. Bu modülle ilgili daha fazla bilgi için bkz. [Teslimat seçenekleri modülü](delivery-options-module.md).
 
     Aşağıdaki resimde ödeme sayfasında kullanılan bir teslimat seçenekleri modülü örneği gösterilmektedir.
  
-    ![Teslim seçenekleri modülü örneği](./media/ecommerce-deliveryoptions.PNG)
+    ![Teslim seçenekleri modülü örneği.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Ödeme bölümü konteyneri** – bu modül, ödeme akışında bir bölüm oluşturmak üzere birden fazla modül koyacağınız bir konteynerdir. Örneğin, bu konteynerdeki ödemeyle ilgili tüm modülleri tek bir bölüm olarak görünmelerini sağlamak için yerleştirebilirsiniz. Bu modül yalnızca akışın düzenini etkiler.
 
@@ -72,7 +70,7 @@ Kullanıma alma modülü bir sipariş Özeti gösterir ve sipariş yerleştirilm
 
     Aşağıdaki resimde, ödeme sayfasındaki hediye kartı, bağlılık programı puanları ve ödeme modülleri gösterilmektedir.
 
-    ![Ödeme sayfasındaki hediye kartı, bağlılık programı puanları ve ödeme modüllerini gösteren örnek](./media/ecommerce-payments.PNG)
+    ![Ödeme sayfasındaki hediye kartı, bağlılık programı puanları ve ödeme modüllerini gösteren örnek.](./media/ecommerce-payments.PNG)
 
 - **İlgili kişi bilgileri** – bu modül müşterinin bir sipariş için iletişim bilgilerini (e-posta adresi) eklemesine veya değiştirmesine olanak tanır.
 
@@ -82,7 +80,7 @@ Kullanıma alma modülü bir sipariş Özeti gösterir ve sipariş yerleştirilm
 
     Aşağıdaki resimde ödeme sayfasındaki hüküm ve koşullar örneği gösterilmektedir.
 
-    ![Ödeme sayfasındaki hüküm ve koşullar örneği](./media/ecommerce-checkout-terms.PNG)
+    ![Ödeme sayfasındaki hüküm ve koşullar örneği.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Ticari ölçek birim etkileşimi
 

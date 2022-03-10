@@ -1,27 +1,24 @@
 ---
 title: Başkasının yerine ürün sipariş etmek için izinleri ayarlama
 description: Bu konu diğer çalışanların adına satınalma talepleri hazırlamak için çalışanlara nasıl izin verileceğini açıklar.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 145d8a0e341857bf238fc934cd668ff12b8505b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a29b7ebece8009f29f4313b380889635a87473b5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439346"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577132"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Başkasının yerine ürün sipariş etmek için izinleri ayarlama
 
@@ -45,3 +42,6 @@ Bu konu diğer çalışanların adına satınalma talepleri hazırlamak için ç
 2. Talep sahibi olarak yeni eklediğiniz çalışanı bulmak için Hızlı Filtre'yi kullanın.
 3. Talep sahibini seçin. Hazırlayan listesi sol bölmede seçilen talep sahibi adına maddeleri sipariş etme izni olan kişileri gösterir.  Buraya ek hazırlayanlar ekleyebilirsiniz. Bu görünüm kişinin birincil tüzel kişiliği veya faaliyet birimi olamayan tüzel kişilikler ve faaliyet birimlerinde talep sahibine talepler oluşturmak için izin vermenizi de sağlar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

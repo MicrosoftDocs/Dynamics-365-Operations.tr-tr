@@ -2,7 +2,6 @@
 title: Özel rapor yazdırmak için yeni bir ER çözümü tasarlama
 description: Bu konu, özel rapor yazdırmak için bir Elektronik raporlama (ER) çözümünün nasıl tasarlanacağını açıklamaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
@@ -10,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5bbfae36fb15437f2baadc66663cbfdb28691e8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 36998d299e166709778bfaa7bfd0d8980890d4fe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562623"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323854"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Özel rapor yazdırmak için yeni bir ER çözümü tasarlama
 
@@ -120,19 +121,19 @@ Aşağıdaki adımlarda Sistem Yöneticisi, Elektronik Raporlama Geliştiricisi 
 
 - [Ek kaynaklar](#References)
 
-Bu örnekte, [Soru formu](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires) modülü için yeni bir ER çözümü oluşturacaksınız. Bu yeni ER çözümü, bir Microsoft Excel çalışma sayfasını şablon olarak kullanarak rapor tasarlamanıza olanak tanır. Daha sonra, mevcut SQL Server Reporting Services (SSRS) raporunu oluşturmaya ek olarak, **Soru formu** raporunu Excel veya PDF biçiminde oluşturabilirsiniz. Ayrıca, yeni raporu daha sonra istek üzerine değiştirebilirsiniz. Kodlama gerekmez.
+Bu örnekte, [Soru formu](../../../human-resources/hr-learning-questionnaires.md) modülü için yeni bir ER çözümü oluşturacaksınız. Bu yeni ER çözümü, bir Microsoft Excel çalışma sayfasını şablon olarak kullanarak rapor tasarlamanıza olanak tanır. Daha sonra, mevcut SQL Server Reporting Services (SSRS) raporunu oluşturmaya ek olarak, **Soru formu** raporunu Excel veya PDF biçiminde oluşturabilirsiniz. Ayrıca, yeni raporu daha sonra istek üzerine değiştirebilirsiniz. Kodlama gerekmez.
 
 1. Mevcut raporu çalıştırmak için **Soru formu** \> **Tasarım** \> **Soru formları raporu**'na gidin.
 
-    ![Mevcut SSRS raporunu çalıştırmak için Soru Formu modülündeki Soru formları raporu menü öğesini seçme](./media/er-quick-start1-application-menu-origin.png)
+    ![Mevcut SSRS raporunu çalıştırmak için Soru Formu modülündeki Soru formları raporu menü öğesini seçme.](./media/er-quick-start1-application-menu-origin.png)
 
 2. **Soru formları raporu** iletişim kutusunda seçim ölçütü belirtin. Rapor yalnızca **SBCCrsExam** soru formunu içerecek şekilde filtre uygulayın.
 
-    ![Soru formları raporu iletişim kutusunda seçim ölçütü belirtme](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Soru formları raporu iletişim kutusunda seçim ölçütü belirtme.](./media/er-quick-start1-ssrs-report-dialog.png)
 
 Aşağıdaki şekilde **SBCCrsExam** soru formu için oluşturulan SSRS raporu sürümü gösterilmektedir.
 
-![Oluşturulan SSRS raporu](./media/er-quick-start1-ssrs-report.png)
+![Oluşturulan SSRS raporu.](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>ER altyapısını yapılandırma
 
@@ -180,13 +181,13 @@ ER yapılandırma sağlayıcıları hakkında daha fazla bilgi için bkz. [Yapı
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Etki alanına özel veri modeli tasarlama
 
-**Soru formu** iş etki alanı için [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni içeren yeni bir ER yapılandırması oluşturmanız gerekir. Bu veri modeli daha sonra **Soru formu** raporu oluşturmak üzere bir ER biçimi tasarlarken veri kaynağı olarak kullanılacaktır.
+**Soru formu** iş etki alanı için veri modeli bileşeni içeren yeni bir ER yapılandırması oluşturmanız gerekir. Bu veri modeli daha sonra **Soru formu** raporu oluşturmak üzere bir ER biçimi tasarlarken veri kaynağı olarak kullanılacaktır.
 
 [Yeni veri modeli yapılandırmasını içe aktarma](#ImportDataModel) bölümündeki adımları izleyerek gerekli veri modelini sağlanan XML dosyasından içe aktarabilirsiniz. Alternatif olarak, bu veri modelini sıfırdan tasarlamak için [Yeni veri modeli yapılandırması oluştur](#DesignDataModel) bölümündeki adımları tamamlayabilirsiniz.
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Yeni bir veri modeli yapılandırmasını içe aktarma
 
-1. [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
+1. [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
 2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları**'nı seçin.
 4. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle**'yi seçin.
@@ -272,7 +273,7 @@ Devam etmek için sonraki yordamı atlayın, [Yeni bir veri modeli yapılandırm
 
     Aşağıdaki şekil, **Veri modeli tasarımcısı** sayfasındaki tamamlanan düzenlenebilir veri modelini gösterir.
 
-    ![ER veri modeli tasarımcısında yapılandırılmış veri modeli](./media/er-quick-start1-model2.png)
+    ![ER veri modeli tasarımcısında yapılandırılmış veri modeli.](./media/er-quick-start1-model2.png)
 
 7. Değişikliklerinizi kaydedin.
 8. **Veri modeli tasarımcısı** sayfasını kapatın.
@@ -286,7 +287,7 @@ Devam etmek için sonraki yordamı atlayın, [Yeni bir veri modeli yapılandırm
 
 Bu yapılandırmanın sürüm 1 durumu **Taslak** yerine **Tamamlandı** olarak değiştirildi. Sürüm 1 artık değiştirilemez. Bu sürüm yapılandırılmış veri modeli içerir ve diğer ER yapılandırmalarının temeli olarak kullanılabilir. Bu yapılandırma için sürüm 2 oluşturuldu ve **taslak** durumuna sahip. **Soru formu** veri modelini ayarlamak için bu sürümü düzenleyebilirsiniz.
 
-![Yapılandırmalar sayfasındaki düzenlenebilir ER yapılandırmasının sürümleri](./media/er-quick-start1-model-configuration.png)
+![Yapılandırmalar sayfasındaki düzenlenebilir yapılandırmanın sürümleri.](./media/er-quick-start1-model-configuration.png)
 
 ER yapılandırmaları için sürüm oluşturma hakkında daha fazla bilgi için bkz. [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md#component-versioning).
 
@@ -295,13 +296,13 @@ ER yapılandırmaları için sürüm oluşturma hakkında daha fazla bilgi için
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a><a name="DesignMapping"></a>Yapılandırılan veri modeli için bir model eşlemesi tasarlama
 
-Elektronik Raporlama Geliştirici rolünde bir kullanıcı olarak, **Soru formu** veri modeli için bir [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni içeren yeni bir ER yapılandırması oluşturmanız gerekir. Bu bileşen Finance için yapılandırılmış veri modelini uyguladığı için, Finance'a özgüdür. Model eşleme bileşenini, yapılandırılan veri modelini çalışma zamanında uygulama verileriyle doldurmak için kullanılması gereken uygulama nesnelerini belirtecek şekilde yapılandırmanız gerekir. Bu görevi tamamlamak için, Finance'ta **Soru formu** iş etki alanının veri yapısı uygulama ayrıntılarını bilmeniz gerekir.
+Elektronik Raporlama Geliştirici rolünde bir kullanıcı olarak, **Soru formu** veri modeli için bir model eşleme bileşeni içeren yeni bir ER yapılandırması oluşturmanız gerekir. Bu bileşen Finance için yapılandırılmış veri modelini uyguladığı için, Finance'a özgüdür. Model eşleme bileşenini, yapılandırılan veri modelini çalışma zamanında uygulama verileriyle doldurmak için kullanılması gereken uygulama nesnelerini belirtecek şekilde yapılandırmanız gerekir. Bu görevi tamamlamak için, Finance'ta **Soru formu** iş etki alanının veri yapısı uygulama ayrıntılarını bilmeniz gerekir.
 
 [Yeni model eşleme yapılandırmasını içe aktarma](#ImportModelMapping) bölümündeki adımları izleyerek gerekli model eşleme yapılandırmasını sağlanan XML dosyasından içe aktarabilirsiniz. Alternatif olarak, bu model eşlemesini sıfırdan tasarlamak için [Yeni model eşleme yapılandırması oluştur](#CreateModelMapping) bölümündeki adımları tamamlayabilirsiniz.
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Yeni bir model eşlemesi yapılandırmasını içe aktarma
 
-1. [Questionnaires mapping.version.1.1xml](https://go.microsoft.com/fwlink/?linkid=851448) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
+1. [Questionnaires mapping.version.1.1xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
 2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları**'nı seçin.
 4. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle**'yi seçin.
@@ -367,7 +368,7 @@ Soru formu ayrıntılarını içeren uygulama tablolarına erişmek için veri k
     2. **Ekle**'yi seçin.
     3. İletişim kutusunda, **Ad** alanına **\$ResultGroup** girin.
     4. **Formül düzenle**’yi seçin.
-    5. [ER formül düzenleyicisinde](general-electronic-reporting-formula-designer.md) **Formül** alanında KMCollection ile KMQuestionResultGroup tabloları arasındaki bir-çok ilişkisinin [yolunu](er-formula-language.md#paths) kullanmak için **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** girin.
+    5. [ER formül düzenleyicisinde](general-electronic-reporting-formula-designer.md) **Formül** alanında KMCollection ile KMQuestionResultGroup tabloları arasındaki bir-çok ilişkisinin [yolunu](er-formula-language.md#Paths) kullanmak için **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** girin.
     6. **Kaydet**'i seçip formül düzenleyicisini kapatın.
     7. Yeni hesaplanan alanı eklemek için **Tamam**'ı seçin.
 
@@ -440,7 +441,7 @@ Bazı veri kaynaklarınızı, model eşlemesinin çağrısı bağlamında tanım
 5. **Metin çevirisi** iletişim kutusunu kapatın.
 6. **İptal**'i seçin.
 
-![Düzenlenebilir model eşlemesi için ER etiketleri ekleme](./media/er-quick-start1-adding-labels.png)
+![Düzenlenebilir model eşlemesi için ER etiketleri ekleme.](./media/er-quick-start1-adding-labels.png)
 
 Yalnızca varsayılan dil için ER etiketleri girdiniz. ER etiketlerinin diğer dillere nasıl çevrilebileceği hakkında bilgi için bkz. [Çok dilli raporlar tasarlama](er-design-multilingual-reports.md).
 
@@ -474,7 +475,7 @@ Numaralandırma değerleri ile metin değerleri arasındaki karşılaştırmanı
     8. **Kaydet**'i seçip formül düzenleyicisini kapatın.
     9. Yeni veri kaynağını eklemek için **Tamam**'ı seçin.
 
-![ER model eşleme tasarımcısında yapılandırılmış model eşlemesi](./media/er-quick-start1-added-data-sources.png)
+![ER model eşleme tasarımcısında yapılandırılmış model eşlemesi.](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Veri modeli alanlarına veri kaynakları bağlama
 
@@ -525,7 +526,7 @@ Veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulacağı
 
     Aşağıdaki şekil, **Model eşleme tasarımcısı** sayfasındaki yapılandırılmış model eşlemesinin son durumunu gösterir.
 
-    ![ER model eşleme tasarımcısında tamamen yapılandırılmış model eşlemesi](./media/er-quick-start1-mapping2.png)
+    ![ER model eşleme tasarımcısında tamamen yapılandırılmış model eşlemesi.](./media/er-quick-start1-mapping2.png)
 
 7. Değişikliklerinizi kaydedin.
 8. **Model eşleme tasarımcısı** sayfasını kapatın
@@ -539,7 +540,7 @@ Veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulacağı
 
 Bu yapılandırmanın sürüm 1.1 durumu **Taslak** yerine **Tamamlandı** olarak değiştirildi. Sürüm 1.1 artık değiştirilemez. Bu sürüm yapılandırılmış model eşlemesini içerir ve diğer ER yapılandırmalarının temeli olarak kullanılabilir. Bu yapılandırma için sürüm 1.2 oluşturuldu ve **taslak** durumuna sahip. **Soru formu eşleme** yapılandırmasını ayarlamak için bu sürümü düzenleyebilirsiniz.
 
-![Yapılandırmalar sayfasındaki düzenlenebilir ER yapılandırmasının sürümleri](./media/er-quick-start1-mapping-configuration.png)
+![Yapılandırmalar sayfasındaki düzenlenebilir ER yapılandırmasının sürümleri.](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > Yapılandırılan model eşlemesi, **Soru formu** iş etki alanını temsil eden soyur veri modelinin Finance kurulumunuza özgü uygulamasıdır.
@@ -548,32 +549,32 @@ Bu yapılandırmanın sürüm 1.1 durumu **Taslak** yerine **Tamamlandı** olara
 
 ER çerçevesi, Microsoft Office (Excel çalışma kitapları veya Word belgeleri) biçimlerinde raporlar oluşturmak için önceden tanımlanmış şablonları kullanır. Gerekli rapor oluşturulurken, yapılandırılmış veri akışına göre bir şablon gerekli verilerle doldurulur. Bu nedenle, özel raporunuz için önce bir şablon tasarmalısınız. Bu şablon özel bir raporun düzenini temsil eden yapıdaki bir Excel çalışma kitabı olarak tasarlanmalıdır. Gerekli verilerle doldurmak istediğiniz tüm Excel öğelerini adlandırın.
 
-1. [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
+1. [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
 2. Dosyayı Excel'de açın ve çalışma kitabının yapısını gözden geçirin.
 
 Aşağıdaki çizimin gösterdiği gibi, indirilen şablon, bir soru formunun sorularını uygun yanıtlarla birlikte görüntüleyen belirtilen soru formlarını yazdıracak şekilde tasarlanmıştır.
 
-![Belirtilen soru formlarını yazdırmak için Excel şablonu](./media/er-quick-start1-template-layout.png)
+![Belirtilen soru formlarını yazdırmak için Excel şablonu.](./media/er-quick-start1-template-layout.png)
 
 Soru formu ayrıntılarını doldurmak üzere bu şablona Excel adları eklendi. Excel adlarını gözden geçirmek için Ad Yöneticisi'ni kullanabilirsiniz.
 
-![Sağlanan Excel şablonundaki Excel adlarını gözden geçirmek için Ad Yöneticisi'ni kullanma](./media/er-quick-start1-template-names.png)
+![Sağlanan Excel şablonundaki Excel adlarını gözden geçirmek için Ad yöneticisini kullanma.](./media/er-quick-start1-template-names.png)
 
 Rapor etiketleri İngilizce dilinde sabit metin olarak eklendi. Yapılandırılan model eşlemesinde dile bağlı ifadelerde yaptığınız gibi, ER biçim [etiketlerini](#AddMmLabels) kullanarak, rapor etiketlerini dile bağlı metinle doldurmak için kullanılan yeni Excel adlarıyla değiştirebilirsiniz. Bu durumda, ER etiketlerinin düzenlenebilir ER biçiminde eklenmesi gerekir.
 
 Aşağıdaki çizimde gösterildiği gibi, Excel'in sayfalandırma yapmasına olanak tanımak için özel rapor başlığı belirtilmiştir.
 
-![Sağlanan Excel şablonundaki özel rapor başlığı](./media/er-quick-start1-template-header.png)
+![Sağlanan Excel şablonundaki özel rapor başlığı.](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Bir biçim tasarlama
 
-Elektronik Raporlama İşlev Danışmanı rolündeki bir kullanıcı olarak, bir [biçim](general-electronic-reporting.md#FormatComponentOutbound) bileşeni içeren yeni bir ER yapılandırması oluşturmanız gerekir. Bir rapor şablonunun çalışma zamanında gerekli verilerle nasıl doldurulacağını belirtmek için biçim bileşenini yapılandırmalısınız.
+Elektronik Raporlama İşlev Danışmanı rolündeki bir kullanıcı olarak, bir biçim bileşeni içeren yeni bir ER yapılandırması oluşturmanız gerekir. Bir rapor şablonunun çalışma zamanında gerekli verilerle nasıl doldurulacağını belirtmek için biçim bileşenini yapılandırmalısınız.
 
 [Tasarlanmış biçim yapılandırmasını içe aktarma](#FormatImport) bölümündeki adımları izleyerek gerekli biçimi sağlanan XML dosyasından içe aktarabilirsiniz. Alternatif olarak, bu biçimi sıfırdan tasarlamak için [Yeni biçim yapılandırması oluştur](#FormatCreate) bölümündeki adımları tamamlayabilirsiniz.
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Tasarlanan biçim yapılandırmasını içe aktarma
 
-1. [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
+1. [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
 2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları**'nı seçin.
 4. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle**'yi seçin.
@@ -613,11 +614,11 @@ Devam etmek için sonraki yordamı atlayın, [Yeni bir biçim yapılandırması 
     2. Yerel olarak kaydedilmiş **Questionnaires report template.xslx** dosyasını bulup seçin ve **Aç**'ı seçin.
     3. Şablonu içe aktarmak için **Tamam**'ı seçin.
 
-    ![Rapor şablonunu içe aktarma](./media/er-quick-start1-template-import.png)
+    ![Rapor şablonunu içe aktarma.](./media/er-quick-start1-template-import.png)
 
 **Excel\\Dosya** biçimi öğesi, otomatik olarak düzenlenebilir biçime kök öğesi olarak eklenir. Ek olarak, **Excel\\Aralık** biçim öğesi veya **Excel\\Hücre** biçim öğesi içe aktarılan şablonun her tanınan Excel adı için otomatik olarak eklenir. İç içe geçmiş **dize** öğesi bulunan **Excel\\Başlık** biçimi , içe aktarılan şablonun başlık ayarlarını yansıtmak için otomatik olarak eklenir.
 
-![ER İşlemi tasarımcısına otomatik olarak eklenen öğeleri içeren yapıyı biçimlendirme](./media/er-quick-start1-template-import2.png)
+![ER İşlemi tasarımcısına otomatik olarak eklenen öğeleri içeren yapıyı biçimlendirme.](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Biçim yapılandırma
 
@@ -628,12 +629,12 @@ Devam etmek için sonraki yordamı atlayın, [Yeni bir biçim yapılandırması 
 
     Bir ER işlemi için dil ve kültür bağlamlarının nasıl belirtileceği konusunda bilgi için bkz. [Çok dilli raporlar tasarlama](er-design-multilingual-reports.md).
 
-    ![ER İşlem tasarımcısında tasarlanan rapor için dil ve kültür ayarları yapılandırma](./media/er-quick-start1-template-format-structure1.png)
+    ![ER İşlem tasarımcısında tasarlanan rapor için dil ve kültür ayarları yapılandırma.](./media/er-quick-start1-template-format-structure1.png)
 
 5. Biçim ağacında, kök düğümü genişletin ve sonra **ResultsGroup** öğesini seçin.
 6. Tek bir soru formu için birden fazla sonuç grubu olmasını beklemediğinizden **Biçim** sekmesinde **Çoğaltma yönü** alanında  **Çoğaltma yok** seçeneğini belirleyin.
 
-    ![ER İşlem tasarımcısında Aralık biçimi öğeleri için çoğaltma yönünü tanımlama](./media/er-quick-start1-template-format-structure2.png)
+    ![ER İşlem tasarımcısında Aralık biçimi öğeleri için çoğaltma yönünü tanımlama.](./media/er-quick-start1-template-format-structure2.png)
 
 7. **Kaydet**'i seçin.
 
@@ -653,7 +654,7 @@ Oluşturulan bir raporun başlığını doldurmak için kullanılan bir biçim �
 
 5. Formül düzenleyiciyi kapatın.
 
-    ![Oluşturulmuş bir raporun başlığını doldurmak için bağlamayı yapılandırma](./media/er-quick-start1-add-report-title-label.png)
+    ![Oluşturulmuş bir raporun başlığını doldurmak için bağlamayı yapılandırma.](./media/er-quick-start1-add-report-title-label.png)
 
 Geçerli şablon diline bağımlı tüm diğer etiketleri oluşturmak için bu tekniği kullanabilirsiniz. Tek bir ER yapılandırmasının eklenen etiketlerinin tüm desteklenen dillere nasıl çevrilebileceği hakkında bilgi için bkz. [Çok dilli raporlar tasarlama](er-design-multilingual-reports.md).
 
@@ -663,7 +664,7 @@ Geçerli şablon diline bağımlı tüm diğer etiketleri oluşturmak için bu t
 2. **Düzenle** öğesini seçin.
 3. **Veri kaynağı özellikleri** iletişim kutusundaki bilgileri gözden geçirin. Bu veri kaynağı **Soru formu modeli** yapılandırmasında bulunan **Soru formu** veri modeli bileşeni sürüm 1'i temsil eder.
 
-![ER İşlemi tasarımcısındaki model veri kaynağının özellikleri](./media/er-quick-start1-model-data-source.png)
+![ER İşlemi tasarımcısındaki model veri kaynağının özellikleri.](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Biçim öğelerini veri kaynağı alanlarına bağlama
 
@@ -679,11 +680,11 @@ Geçerli şablon diline bağımlı tüm diğer etiketleri oluşturmak için bu t
 
     **Soru formu** aralığı biçim öğesi dikey olarak yinelenmiş olarak yapılandırılır. **Kayıt listesi** türünde bir veri kaynağına bağlı olduğunda bağlı veri kaynağının her kaydı için Excel şablonunun uygun **Soru formu** aralığı yinelenir.
  
-    ![Soru formu aralığı biçim öğesini ER İşlemi tasarımcısında uygun Kayıt listesi veri kaynaklarına bağlama](./media/er-quick-start1-bindings1.png)
+    ![Soru formu aralığı biçim öğesini ER İşlemi tasarımcısında uygun Kayıt listesi veri kaynaklarına bağlama.](./media/er-quick-start1-bindings1.png)
 
     Excel şablonunun **Soru formu** aralığı 5 ile 14 arasındaki satırlar arasında tanımlandığı için, bu satırlar bildirilen her soru formu için yinelenir.
 
-    ![Kayıt listesi veri kaynaklarının her kaydı için oluşturulan raporda tekrarlanacak olan Excel şablonundaki satırlar](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Kayıt listesi veri kaynaklarının her kaydı için oluşturulan raporda tekrarlanacak olan Excel şablonundaki satırlar.](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Aşağıdaki tabloda açıklandığı gibi, kalan biçim öğeleri için benzer bağlamaları yapılandırın.
 
@@ -719,7 +720,7 @@ Geçerli şablon diline bağımlı tüm diğer etiketleri oluşturmak için bu t
 
 Aşağıdaki şekil, **Biçim tasarımcısı** sayfasındaki yapılandırılmış veri bağlamalarının son durumunu gösterir.
 
-![ER İşlemi tasarımcısında yapılandırılmış veri bağlamaları](./media/er-quick-start1-bindings2.png)
+![ER İşlemi tasarımcısında yapılandırılmış veri bağlamaları.](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > Belirtilen tüm veri kaynakları ve bağlamalarının tüm koleksiyonu, yapılandırılmış biçimin biçim eşleme bileşenini temsil eder. Bu biçim eşlemesi, rapor oluşturmak üzere yapılandırılmış biçimi çalıştırdığınızda çağrılır.
@@ -739,9 +740,9 @@ Aşağıdaki şekil, **Biçim tasarımcısı** sayfasındaki yapılandırılmı�
 
 [Varsayılan](electronic-reporting-destinations.md#default-behavior) olarak, oluşturulmuş bir rapor indirebileceğiniz bir Excel dosyası olarak teslim edilir. Aşağıdaki çizimler Excel biçiminde oluşturulan raporun iki sayfasını gösterir.
 
-![Excel biçiminde oluşturulmuş rapor örneği, sayfa 1](./media/er-quick-start1-report1a.png)
+![Excel biçiminde oluşturulmuş rapor örneği, sayfa 1.](./media/er-quick-start1-report1a.png)
 
-![Excel biçiminde oluşturulmuş rapor örneği, sayfa 2](./media/er-quick-start1-report1b.png)
+![Excel biçiminde oluşturulmuş rapor örneği, sayfa 2.](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Tasarlanan biçimi ayarlama
 
@@ -762,7 +763,7 @@ Sorular oluşturulmuş bir raporda doğru olarak sıralanmaz. Biçimi değiştir
 1. **Biçim tasarımcısı** sayfasında **Rapor** kök öğesini seçin.
 2. **Eşleme** sekmesinde bulunan biçim ağacında, **Rapor\\Soru formu\\Soru** öğesini genişletin.
 
-    ![ER İşlem tasarımcısındaki Aralık türündeki soru biçimi öğesi](./media/er-quick-start1-bindings3.png)
+    ![ER İşlem tasarımcısındaki Aralık türündeki soru biçimi öğesi.](./media/er-quick-start1-bindings3.png)
 
 3. **Eşleme** sekmesinde **model.Questionnaire** öğesini seçin.
 4. **Ekle** \> **İşlevler\\Hesaplanan alan**'ı seçin ve ardından **Ad** alanına **OrderedQuestions** girin.
@@ -775,7 +776,7 @@ Sorular oluşturulmuş bir raporda doğru olarak sıralanmaz. Biçimi değiştir
 11. **Bağla**'yı seçin ve ardından geçerli **model.Questionnaire.Questions** yolunun iç içe geçmiş öğelerin tüm bağlamalarında yeni **model.Questionnaire.OrderedQuestions** yoluyla değiştirileceğini onaylayın.
 12. **Kaydet**'i seçin.
 
-![ER İşlem tasarımcısında Soru biçimi öğesini yapılandırılan OrderedQuestions veri kaynağına bağlama](./media/er-quick-start1-bindings4.png)
+![ER İşlem tasarımcısında Soru biçimi öğesini yapılandırılan OrderedQuestions veri kaynağına bağlama.](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>ER'den değiştirilmiş biçim çalıştırma
 
@@ -789,7 +790,7 @@ Artık, ER çerçevesinden test amacıyla değiştirilmiş bir biçim çalışt�
 
 Aşağıdaki şekil, soruların doğru şekilde sıralandığı Excel biçiminde oluşturulmuş bir raporu gösterir.
 
-![Soruların doğru olarak sıralandığı Excel biçiminde oluşturulmuş rapor](./media/er-quick-start1-report2.png)
+![Soruların doğru olarak sıralandığı Excel biçiminde oluşturulmuş rapor.](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Biçim tasarımını tamamlama
 
@@ -800,7 +801,7 @@ Aşağıdaki şekil, soruların doğru şekilde sıralandığı Excel biçiminde
 
 Bu yapılandırmanın sürüm 1.1 durumu **Taslak** yerine **Tamamlandı** olarak değiştirildi. Sürüm 1.1 artık değiştirilemez. Bu sürüm yapılandırılmış biçimi içerir ve özel raporunuzu yazdırmak için kullanılabilir. Bu yapılandırma için sürüm 1.2 oluşturuldu ve **taslak** durumuna sahip. **Soru formu** raporunuzun biçimini ayarlamak için bu sürümü düzenleyebilirsiniz.
 
-![Yapılandırmalar sayfasındaki düzenlenebilir ER yapılandırmasının sürümleri](./media/er-quick-start1-format-configuration.png)
+![Yapılandırmalar sayfasındaki düzenlenebilir ER yapılandırması.](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Yapılandırılan biçim, **Soru formu** raporu tasarımınızdır ve Finance'a özgü en artefaktlara ilişki içermez.
@@ -1050,7 +1051,7 @@ Yeni bir menü öğesini kullanıcıların kullanabilmesini sağlamak için proj
 
 1. **Soru formu** \> **Tasarım** \> **Soru formu raporu (ER tarafından desteklenir)** öğesine gidin.
 
-    ![Yapılandırılan ER biçimini çalıştırmak için Soru Formu modülündeki Soru formları raporu (ER tarafından desteklenir) menü öğesini seçme](./media/er-quick-start1-application-menu-modified.png)
+    ![Yapılandırılan ER biçimini çalıştırmak için Soru Formu modülündeki Soru formları raporu (ER tarafından desteklenir) menü öğesini seçme.](./media/er-quick-start1-application-menu-modified.png)
 
 2. İletişim kutusunda, **Biçim eşleme** alanında, **Soru formları raporu**'nu seçin.
 3. **Tamam**'ı seçin.
@@ -1058,7 +1059,7 @@ Yeni bir menü öğesini kullanıcıların kullanabilmesini sağlamak için proj
 5. Filtreleme seçeneğini onaylamak için **Tamam**'ı seçin.
 6. Raporu çalıştırmak için **Tamam**'ı seçin.
 
-    ![Elektronik rapor iletişim kutusunda seçim ölçütünü belirtme](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Elektronik rapor iletişim kutusunda seçim ölçütünü belirtme.](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Oluşturulan raporu inceleyin.
 
@@ -1083,7 +1084,7 @@ Yapılandırılan ER çözümünü, çalışan ER biçiminin ayrıntılarına er
 
 Eklenen veri kaynağı, çalışan ER biçim eşlemesinin kayıt kodu ile ilgili bilgi sağlar.
 
-![ER model eşleme tasarımcısında eklenen veri kaynağı](./media/er-quick-start1-mapping3.png)
+![ER model eşleme tasarımcısında eklenen veri kaynağı.](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>ER biçim eşleme kayıtlarına erişmek için veri kaynağı ekleme
 
@@ -1118,7 +1119,7 @@ Seçili model eşlemesini, veri modelinde çalışan ER biçimi adı girilmiş o
 
 **FormatName** alanını kullandığınız için, yapılandırılan model eşlemesi, yürütme sırasında bu model eşlemesini çağıran bir ER biçimi adı ortaya çıkarır.
 
-![Veri modeli alanını, ER model eşleme tasarımcısındaki eklenen veri kaynağı yöntemine bağlama](./media/er-quick-start1-mapping4.png)
+![Veri modeli alanını, ER model eşleme tasarımcısındaki eklenen veri kaynağı yöntemine bağlama.](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Model eşleme tasarımını tamamlama
 
@@ -1155,7 +1156,7 @@ Yapılandırılmış ER biçimini adı, ER biçimi çalıştırıldığında olu
 
 Yapılandırılmış biçim şimdi, adı **Altbilgi\\Dize** öğesi kullanılarak oluşturulan bir raporun altbilgisine girilecek şekilde değiştirildi.
 
-![ER İşlem tasarımcısında, yapılandırılmış biçime Alt bilgi biçim öğesi ekleme](./media/er-quick-start1-template-format-structure3.png)
+![ER İşlem tasarımcısında, yapılandırılmış biçime Alt bilgi biçim öğesi ekleme.](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Biçim tasarımını tamamlama
 
@@ -1177,7 +1178,7 @@ Bu yapılandırmanın sürüm 1.2 durumu **Taslak** yerine **Tamamlandı** olara
 
 Oluşturulan raporun altbilgisi, bunu oluşturmak için kullanılan ER biçiminin adını içerir.
 
-![Excel biçiminde oluşturulan rapor](./media/er-quick-start1-report4.png)
+![Excel biçiminde oluşturulan rapor.](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>ER'den bir biçim çalıştırma
 
@@ -1198,7 +1199,7 @@ Oluşturulan raporun altbilgisi, oluşturulduğu sırada çalıştırılan ER bi
 3. **Dosya hedefi** hızlı sekmesinde, yapılandırılan **Soru formu raporu** ER biçiminin kök öğesi olarak [eklenmiş](#AddFormatRootElement) olan **Rapor** biçim bileşeni için **Ekran** [hedefini](er-destination-type-screen.md) ayarlayın.
 4. **PDF dönüştürme ayarları** hızlı sekmesinde, bir raporu **Yatay** sayfa yönünü kullanan bir [PDF biçimine](electronic-reporting-destinations.md#OutputConversionToPDF) dönüştürmek için hedefi yapılandırın.
 
-![Elektronik raporlama hedef sayfasındaki ER biçimi için özel Ekran hedefi yapılandırma](./media/er-quick-start1-destination.png)
+![Elektronik raporlama hedef sayfasındaki ER biçimi için özel Ekran hedefi yapılandırma.](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>PDF belgesi olarak önizlemek için uygulamadan bir biçim çalıştırma
 
@@ -1210,12 +1211,12 @@ Oluşturulan raporun altbilgisi, oluşturulduğu sırada çalıştırılan ER bi
 
     **Hedefler** hızlı sekmesinde, **Çıktı** alanının **Ekran** olarak ayarlanmış olduğuna dikkat edin. Yapılandırılan hedefi değiştirmek istiyorsanız, **Değiştir**'i seçin.
 
-    ![Yapılandırılan hedefi değiştirebileceğiniz ER raporu çalışma zamanı iletişim kutusu](./media/er-quick-start1-run-settings.png)
+    ![Yapılandırılan hedefi değiştirebileceğiniz ER raporu çalışma zamanı iletişim kutusu.](./media/er-quick-start1-run-settings.png)
 
 6. Raporu çalıştırmak için **Tamam**'ı seçin.
 7. PDF biçiminde oluşturulan raporu inceleyin.
 
-    ![PDF biçiminde oluşturulan raporunun ekran önizlemesi](./media/er-quick-start1-preview-PDF.png)
+    ![PDF biçiminde oluşturulan raporunun ekran önizlemesi.](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Ek kaynaklar
 

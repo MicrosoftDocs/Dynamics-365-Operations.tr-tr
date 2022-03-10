@@ -1,12 +1,10 @@
 ---
 title: İstatistik temel tahmini oluşturma
 description: Bu konu, talep tahmini hesaplamasında kullanılan parametreler ve filtreler hakkında bilgiler verilmektedir.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b60fbcc4fe1b3da701245390ab4397ebb700f892
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8f34f1721b6215ac09173a346c1f3f1e6b262247
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007994"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577540"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>İstatistik temel tahmini oluşturma
 
@@ -69,11 +67,13 @@ Tahmin büyük öğeler kümesi için oluşturulmamış, ancak söz gelimi, bir 
 > [!NOTE]
 > Potansiyel olarak sabit görünümlü bir tahmin daha uzun bir tarihsel zaman diliminde olması gereken tarihsel verilerden kaynaklanabilir (aylık tahmini ile 3 yıl gibi bir model seçmek için en az 3 zaman dilimi). Daha iyi sonuç elde etmek için zaman aralığının parçalı yapısını değiştirmeyi deneyebilir veya zaman aralığını artırabilirsiniz.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Talep tahmini kurulumu](demand-forecasting-setup.md)
 
 - [Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
 
 - [Düzeltilen tahmini yetkilendirme](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

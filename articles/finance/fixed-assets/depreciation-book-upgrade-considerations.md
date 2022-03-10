@@ -1,60 +1,60 @@
 ---
-title: Amortisman defteri yükseltme genel bakışı
-description: Önceki sürümlerde, sabit kıymetler için değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı.
-author: ShylaThompson
-manager: AnnBe
+title: Amortisman defteri yükseltmeye genel bakış
+description: Bu konu, sabit kıymetlerdeki geçerli defter işlevini açıklamaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir.
+author: moaamer
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.custom: 221624
+ms.custom:
+- "221624"
+- intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ffaeafa987c85aee17404fbfcf8c69c9699e2f3b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995002"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985095"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Amortisman defteri yükseltmeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations'ta (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır. 
+Bu konu, sabit kıymetlerdeki geçerli defter işlevini açıklamaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir. Değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Defter işlevi, tüm organizasyonunuzun sabit kıymet süreçleri için tek bir sayfa, sorgu ve rapor kümesi kullanmanızı sağlar. Bu konu, yükseltme öncesinde dikkate almanız gereken bazı şeyler sağlar. 
 
-Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Amortisman defterleri **Genel muhasebeye naklet** seçeneği **Hayır** olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı **Yok** ile ayarlanmış bir genel muhasebe günlük adına taşınır. Amortisman defteri hareketleri, Sabit kıymet hareketlerine taşınacaktır. 
+Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Amortisman defterleri Genel muhasebeye naklet seçeneği Hayır olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı Yok ile ayarlanmış bir genel muhasebe günlük adına taşınır. Amortisman defteri hareketleri, Sabit kıymet hareketlerine taşınacaktır.
 
-Veri yükseltmesini çalıştırmadan önce, amortisman defteri günlük satırlarını hareket fişlerine yükseltmek için kullanabileceğiniz iki seçeneği ve fiş serileri için kullanılacak numara serisini anlamanız gerekir. 
+Veri yükseltmesini çalıştırmadan önce, amortisman defteri günlük satırlarını hareket fişlerine yükseltmek için kullanabileceğiniz iki seçeneği ve fiş serileri için kullanılacak numara serisini anlamanız gerekir.
 
 1. Seçenek: **Sistem tarafından tanımlanan numara serisi** - Bu, yükseltme performansını en iyi duruma getirmek için varsayılan seçenektir. Yükseltme numara serisi çerçevesini kullanmaz, bunun yerine fişleri küme tabanlı bir yaklaşım ile tahsis eder. Yükseltmeden sonra, yeni numara serisi **Sonraki numara kümesi** ile yükseltme hareketlerine uygun şekilde dayanarak oluşturulacaktır. Varsayılan olarak, kullanılan numara serisi FADBUpgr\#\#\#\#\#\#\#\#\# biçiminde olacaktır. Bu yaklaşımı kullanırken biçimi ayarlayabilmeniz için birkaç parametre vardır:
 
 -   **Numara serisi kodu** – Numara serisini belirlemek için kod. Yükseltme tarafından oluşturulacağından, bu numara serisi kodu mevcut olamaz.
     -   Sabit adı: **NumberSequenceDefaultCode**
     -   Varsayılan değer: "FADBUpgr"
--   **Önek** – Fiş numaraları için önek olarak kullanılacak sabit dize değeri.
+-   **Ön Ek**: Fiş numaraları için ön ek olarak kullanılacak sabit dize değeri.
     -   Sabit adı: **NumberSequenceDefaultParameterPrefix**
     -   Varsayılan değer: "FADBUpgr"
 -   **Alfasayısal uzunluk** – Numara serisinin alfasayısal kesiminin uzunluğu.
-    -   Sabit adı: **NumberSequenceDefaultParameterAlpanumericLength **
+    -   Sabit adı: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Varsayılan değer: 9
 -   **Başlangıç numarası** - Numara serisinde kullanılacak ilk numara.
-    -   Sabit adı: **NumberSequenceDefaultParameterStartNumber  **
+    -   Sabit adı: **NumberSequenceDefaultParameterStartNumber**
     -   Varsayılan değer: 1
 
 Seçenek 2: **Mevcut kullanıcı tarafından belirlenmiş numara serisi** - Bu seçenek, bu yükseltme için kullanılacak numara serisini tanımlamanıza izin verir. Bu seçeneği, gelişmiş numara serisi yapılandırmasına ihtiyaç duyarsanız kullanın. Bir numara serisini kullanmak için, ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans yükseltme sınıfını aşağıdaki bilgilerle değiştirmelisiniz:
 
 -   **Numara serisi kodu** – Numara serisinin kodu.
-    -   Sabit adı: **NumberSequenceExistingCode **
+    -   Sabit adı: **NumberSequenceExistingCode**
     -   Varsayılan değer: Varsayılan değer yoktur, bu değer numara serisi koduna güncelleştirilmelidir.
 -   **Paylaşılan numara serisi** – Numara serisinin kapsamını tanımlayan Boole değeri. Tüm şirketler arasında paylaşılan numara serileri için "true", şirkete özel kapsam için "false" değerini kullanın. "False" kullanırken, belirtilen ada sahip numara serisi, amortisman defteri hareketleri içeren her şirkette mevcut olmalıdır. Paylaşılan numara serileri, amortisman defter hareketleri içeren her bölümde mevcuttur.
-    -   Sabit adı: **NumberSequenceExistingIsShared **
+    -   Sabit adı: **NumberSequenceExistingIsShared**
     -   Varsayılan değer: true
 
 Parametreler ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans sınıfının başında yer alır. 
@@ -82,3 +82,6 @@ Kullanıcı tarafından tanımlanan var olan numara serisi yaklaşımı (2. seç
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Kayıt şablonlarına genel bakış
 description: Bu makale, kayıt şablonları kavramını tanıtır ve bunların bilgi paylaşan kayıtları oluşturmada nasıl kullanılabileceklerini açıklar.
 author: pvillads
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90922571996ebfc9985c8b17aa93bcc46be9d62b
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: aa13e47a48b98a59766790c9a24bb04ed67007cd
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338818"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983629"
 ---
 # <a name="record-templates-overview"></a>Kayıt şablonlarına genel bakış
 

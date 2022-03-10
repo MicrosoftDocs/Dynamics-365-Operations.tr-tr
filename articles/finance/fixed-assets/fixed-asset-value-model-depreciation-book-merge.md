@@ -1,8 +1,8 @@
 ---
 title: Sabit kıymet değer modeli ve amortisman defteri birleştirme
 description: Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations'ta (1611) sürümünde, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir.
-author: ShylaThompson
-ms.date: 06/20/2017
+author: moaamer
+ms.date: 10/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,32 +11,33 @@ ms.reviewer: roschlom
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9b11edcbf03b0917e35d9cef03834629b7b67fad
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355592"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674938"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Sabit kıymet değer modeli ve amortisman defteri birleştirme
 
 [!include [banner](../includes/banner.md)]
 
-Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations'ta (1611) sürümünde, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir.
+Bu konu, sabit kıymetlerdeki geçerli defter işlevini açıklamaktadır. Bu özellik, önceki sürümlerde kullanılabilir olan değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir.
 
-Yeni defter işlevselliği eski değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir. [![Değer modeli ve amortisman defteri işlevselliğinin birleşimi olarak defter.](./media/fixed-assets.png)](./media/fixed-assets.png) Bu birleştirme sayesinde artık tüm sabit kıymet işlemleriniz için sayfa, sorgulama ve raporlar için tek bir küme kullanabilirsiniz. Bu konudaki tablolar amortisman defterlerinin ve değer modellerinin daha önceki işlevselliklerini, defterler için yeni işlevsellikle birlikte açıklar.
+Defter işlevi, tüm organizasyonunuzun sabit kıymet süreçleri için tek bir sayfa, sorgu ve rapor kümesi kullanmanızı sağlar. Bu konudaki tablolar amortisman defterlerinin ve değer modellerinin daha önceki işlevselliklerini, defterler için geçerli işlevsellikle birlikte açıklar.
 
 ## <a name="setup"></a>Kurulum
-Varsayılan olarak, defterler genel muhasebe (GL) ve sabit kıymet yardımcı defterine nakleder. Defterler genel muhasebeye nakletmeyi devre dışı bırakıp yalnızca sabit kıymet yardımcı defterine nakletmenize izin veren yeni bir **Genel muhasebeye naklet** seçeneğine sahiptir. Bu işlevsellik amortisman defterlerinin önceki nakil davranışını andırır. Günlük adları kurulumu Yok adlı yeni bir deftere nakil katmanına sahiptir. Bu deftere nakil katmanı sabit kıymet hareketleri için özellikle eklenmiştir. Genel muhasebeye nakil yapmayan defterlerin hareketlerini deftere nakletmek için deftere nakil katmanı **Yok** olarak ayarlanmış bir günlük adı kullanmanız gerekir.
+Varsayılan olarak, defterler genel muhasebe (GL) ve sabit kıymet yardımcı defterine nakleder. Defterler Genel muhasebeye nakletmeyi devre dışı bırakıp yalnızca Sabit kıymet yardımcı defterine nakletmenize izin veren yeni bir **Genel muhasebeye naklet** seçeneğine sahiptir. Bu işlevsellik amortisman defterlerinin önceki nakil davranışını andırır. Günlük adları kurulumu Yok adlı yeni bir deftere nakil katmanına sahiptir. Bu deftere nakil katmanı sabit kıymet hareketleri için özellikle eklenmiştir. Genel muhasebeye nakil yapmayan defterlerin hareketlerini deftere nakletmek için deftere nakil katmanı **Yok** olarak ayarlanmış bir günlük adı kullanmanız gerekir.
+
 
 | &nbsp;                                           | Amortisman defteri               | Değer modeli                     | Defter (Yeni)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-| Genel muhasebeye nakletme                                   | Hiçbir Zaman                           | Her zaman                          | Genel muhasebeye nakletme seçeneği                                |
-| Deftere nakil katmanları                                   | Uygulanamaz                  | 3: Cari, Operasyonlar ve Vergi | 11: Cari, Operasyonlar, Vergi, 7 özel katman ve Yok |
-| Günlük adları                                    | Amortisman defteri günlük adları | Genel Muhasebe - Günlük adları              | Genel Muhasebe - Günlük adları                                      |
+| Genel muhasebeye naklet                                   | Hiçbir zaman                           | Her zaman                          | Genel muhasebeye nakletme seçeneği                                |
+| Deftere nakil katmanları                                   | Geçerli değil                  | 3: Cari, Operasyonlar ve Vergi | 11: Cari, Operasyonlar, Vergi, 7 özel katman ve Yok |
+| Günlük adları                                    | Amortisman defteri günlük adları | Genel muhasebe - Günlük adları              | Genel muhasebe - Günlük adları                                      |
 | Türetilen defterler                                    | İzin verilmiyor                     | İzin veriliyor                         | İzin veriliyor                                                 |
 | Amortisman profilini kıymet düzeyinde geçersiz kılma | İzin veriliyor                         | İzin verilmiyor                     | İzin veriliyor                                                 |
 
@@ -61,7 +62,7 @@ Sorgular ve raporlar tüm defterleri destekler. Aşağıdaki tabloda yer almayan
 | Çeyrek dönemlik sabit kıymet alım raporu | İzin veriliyor                        | İzin verilmiyor              | İzin veriliyor                  |
 
 ## <a name="upgrade"></a>Yükselt
-Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Ancak amortisman defterleri **Genel muhasebeye naklet** seçeneği **Hayır** olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı **Yok** olarak ayarlanmış bir genel muhasebe günlük adına taşınır.
+Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi Genel muhasebeye nakleden defterler olarak kalır. Ancak amortisman defterleri **Genel muhasebeye naklet** seçeneği **Hayır** olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı **Yok** olarak ayarlanmış bir Genel muhasebe günlük adına taşınır.
 
 
 

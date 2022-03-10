@@ -10,15 +10,15 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 30824bf1c8e84bab08b6885ee812ed5e3e9937bb
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: b724b3f040a1b277d99dd067525dfda2b47ca73b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117193"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577900"
 ---
 # <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Yük planlama çalışma ekranından Ambara serbest bırakma kullanılarak sevkiyatları konsolide etme
 

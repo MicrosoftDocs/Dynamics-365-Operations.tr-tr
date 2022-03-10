@@ -3,24 +3,26 @@ title: Müşteri ödeme öngörüleri (Önizleme)
 description: Bu konuda, müşterilerin tipik ödeme uygulamalarını daha iyi anlamaya yardımcı olan ödeme içgörüleri özelliği açıklanmıştır. Bu özellik, tahsilat işlemlerini normalde yaptığınızdan daha erken başlatmanıza gerekçe olabilecek durumları belirlemenize yardımcı olabilir.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822407"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984014"
 ---
 # <a name="customer-payment-insights-preview"></a>Müşteri ödeme öngörüleri (Önizleme)
 
@@ -47,11 +49,11 @@ Her açık fatura için Müşteri ödeme içgörüleri (Önizleme) üç ödeme o
 
 Müşteri ödeme içgörüleri (Önizleme), beklenen ödemelerin toplu görünümünü de sunar. Bu da kuruluşların üç olasılıktan birinde (Zamanında, Geç ve Çok geç) müşteriden bekleyebilecekleri toplam ödeme tutarını anlamalarına yardımcı olabilir.
 
-[![Ödeme tahminlerinin toplu görünümü](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Ödeme tahminlerinin toplu görünümü.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Ayrıca, her faturaya bir zamanında ödeme yapılma olasılığı da atanır. Zamanında ödeme olasılığı %50'nin altındaysa bu faturalara tahsilat uyarısı gerekebileceğini belirtmek için faturalar kırmızı bir daire ile etiketlenir. 
 
-[![Ödeme olasılıklarının listesi](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Ödeme olasılıklarının listesi.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Ayrıca Müşteri ödeme öngörüleri (Önizleme) tahminleri etkileyen en önemli faktörler, müşteriyle olan işin mevcut durumu ve geçmiş müşteri ödeme davranışı hakkında ayrıntılar gibi tahminleri açıklamak için bağlamsal bilgiler de sağlar. Birçok işletmede, tahsilat süreci reaktif bir faaliyettir; tahsilat süreci faturaların vadesi gelinceye kadar başlamaz. 
 

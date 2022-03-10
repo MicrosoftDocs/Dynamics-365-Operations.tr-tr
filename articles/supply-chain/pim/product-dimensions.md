@@ -2,11 +2,9 @@
 title: Ürün boyutları
 description: 'Beş ürün boyutu bulunur: renk, yapılandırma, boyut, stil ve sürüm. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.'
 author: t-benebo
-manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260659"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920535"
 ---
 # <a name="product-dimensions"></a>Ürün boyutları
 
@@ -80,7 +78,7 @@ Bir şirket kot kumaşından ürünler satıyor. *Kot* maddesi renk ve boyut boy
 
 ## <a name="the-version-product-dimension"></a>Sürüm ürün boyutu
 
-Sürüm, tedarik zincirinde bir ürünün birden fazla sürümünü korumanıza ve izlemenize yardımcı olmayı amaçlayan bir ürün boyutudur. Sürüm izleme, ürün kullanım ömrü, artan kalite ve güvenilirlik gereksinimleri ve ürün güvenliği gerektiren bir dünyada çalışan üreticilerin başarısı için gereklidir.
+Sürüm, tedarik zincirinde bir ürünün birden fazla sürümünü korumanıza ve izlemenize yardımcı olmayı amaçlayan bir ürün boyutudur. Sürüm izleme; ürün yaşam döngülerinin giderek daha da kısaldığı, kalite ve güvenilirlik gereksinimlerinin arttığı ve ürün güvenliğine daha da fazla yoğunlaşıldığı bir dünyada faaliyet gösteren üreticilerin başarısı için gereklidir.
 
 Standart ürün boyutu olarak sürüm, varolan ürün boyutlarına (boyut, stil, renk ve yapılandırma) benzer şekilde davranır. Bu nedenle, bunu ürün sürümlerinin izlenmesi dışında başka amaçlar için kullanabilirsiniz.
 

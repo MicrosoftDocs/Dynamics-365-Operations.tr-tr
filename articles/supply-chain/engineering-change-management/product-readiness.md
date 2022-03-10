@@ -1,33 +1,35 @@
 ---
-title: Ürün hazır olma durumu
-description: Bu konu, bir ürün için gerekli ana verilerin işlemlerde kullanılmadan önce tamamlandığından emin olmak için hazırlık denetimlerini nasıl kullanabileceğinizi açıklar.
+title: Ürün hazırlığı
+description: Bu konuda, bir ürün için gerekli ana verilerin işlemlerde kullanılmadan önce tamamlandığından emin olmak için hazırlık denetimlerini nasıl kullanabileceğiniz açıklanmaktadır.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38ceef3d03fae83f7ac509fb05a4cd9603af2465
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266163"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103025"
 ---
-# <a name="product-readiness"></a>Ürün hazır olma durumu
+# <a name="product-readiness"></a>Ürün hazırlığı
 
 [!include [banner](../includes/banner.md)]
 
-İşlemlerde kullanılmadan önce bir ürün için gerekli tüm ana verilerin belirtildiğinden emin olmak için hazırlık denetimlerini kullanabilirsiniz. Hazırlık denetimleri kullanıldığında, bir kullanıcı veya ekip önceden tanımlanmış belirli verileri doğrulamadan sorumlu hale getirilir. Bir ürün için açık hazırlık denetimi varsa, ürün serbest bırakılmaz veya işlemlerde kullanılamaz.
+İşlemlerde kullanılmadan önce bir ürün için gerekli tüm ana verilerin belirtildiğinden emin olmaya yardımcı olmak üzere hazırlık denetimlerini kullanabilirsiniz. Hazırlık denetimleri kullanıldığında, bir kullanıcı veya ekip önceden tanımlanmış belirli verileri doğrulamadan sorumlu hale getirilir.
 
-Bir mühendislik ürünü, varyantı veya sürümü için **Etkin** onay kutusu, yalnızca gerekli tüm veriler girildikten ve doğrulandıktan sonra ve tüm hazırlık denetimleri işlendikten sonra kullanılabilir. Bu noktada, ürün, sürüm veya varyant diğer şirketlere serbest bırakılabilir ve işlemlerde kullanılabilir. Yeni ürünler, yeni varyantlar ve yeni mühendislik sürümleri için hazırlık denetimleri oluşturabilirsiniz.
+Bir mühendislik ürünü, varyantı veya sürümü için gerekli tüm veriler girildikten ve doğrulandıktan sonra ve tüm hazırlık denetimleri işlendikten sonra **Etkin** onay kutusunu işaretleyebilirsiniz. Ürün, sürüm veya varyant için bir veya birden fazla onay işlenmediyse **Etkin** onay kutusunu işaretlemeyi denediğinizde tüm onayların tamamlanmadığına dair bir istem uyarısı alırsınız.
+
+Yeni mühendislik ürünleri, varyantları ve sürümleri için hazırlık denetimleri oluşturabilirsiniz. Hazırlık denetimlerini standart (mühendislik dışı) ürünlere de uygulayabilirsiniz (ayrıca bkz. [Standart ürünler üzerinde hazırlık denetimleri](#standard-products)). 
+
+Tüm hazırlık denetimleri tamamlanmasa bile standart ürünleri hareketlerde kullanabilirsiniz. Bir ürünün hareketlerde kullanılmasını engellemeniz gerekirse yaşam döngüsü durumunu kullanın. Ürünün hareketlerde kullanılmasını engelleyen bir yaşam döngüsü durumu atayabilir ve ardından tüm hazırlık denetimleri tamamlandıktan sonra gerekli hareketlere izin veren yeni bir yaşam döngüsü durumu atayabilirsiniz.
 
 ## <a name="types-of-readiness-checks"></a>Hazırlık denetimi türleri
 
@@ -37,22 +39,29 @@ Bir mühendislik ürünü, varyantı veya sürümü için **Etkin** onay kutusu,
 - **El ile denetim**: Kullanıcı, kaydın geçerli olup olmadığını doğrular. Örneğin, hazırlık denetimi varsayılan sipariş ayarlarının doğrulanmasını gerektirebilir. Örneğin ürünün hala tasarlandığı ve bu nedenle stoğa alınmaması gibi bazı durumlarda, varsayılan sipariş ayarları gerekmez. Ancak ürün stokta tutulabileceğinden, aynı türden başka bir ürün için varsayılan sipariş ayarları gerekebilir. Kullanıcı, hazırlık denetiminin gerekli olup olmadığına nasıl doğru karar vereceğini bilmekle yükümlüdür.
 - **Denetim listesi**: Kullanıcı bir denetim listesinden gelen bir dizi soruyu yanıtlar ve sistem, yanıtların beklentileri karşılayıp karşılamadığını belirler. Denetim listesi herhangi bir konuda olabilir. Örneğin, pazarlama malzemelerinin veya ürün belgelerinin tamamlanıp tamamlanmadığını belirlemek için kullanılabilir.
 
-## <a name="how-readiness-checks-are-created-for-a-new-product-variant-or-version"></a>Yeni bir ürün, varyant veya sürüm için hazırlık denetimleri nasıl oluşturulur?
+<a name="checks-engineering"></a>
 
-Yeni bir mühendislik **ürünü** oluşturduğunuzda sistem, mühendislik ürünü kategorisi için bir hazırlık denetimi ilkesinin ayarlanıp ayarlanmadığını belirler. (Hazırlık denetimi ilkeleri, serbest bırakılan ürün düzeyinde, serbest bırakılan varyant düzeyine ve mühendislik sürümü düzeyinde uygulanabilir.) Bir ilke ayarlandıysa aşağıdaki olaylar gerçekleşir:
+## <a name="how-readiness-checks-are-created-for-a-new-engineering-product-variant-or-version"></a>Yeni bir mühendislik ürünü, varyant veya sürüm için hazırlık denetimleri nasıl oluşturulur?
+
+Hazırlık denetimi ilkeleri, serbest bırakılan ürün düzeyinde, serbest bırakılan varyant düzeyine ve mühendislik sürümü düzeyinde uygulanabilir.
+
+Yeni bir *mühendislik ürünü* oluşturduğunuzda, sistem [hazırlık denetimi ilkesinin buna uygulanıp uygulanmayacağını](#assign-policy) belirler. Hazırlık denetimi ilkesi uygulanırsa, aşağıdaki olaylar oluşur:
 
 - Geçerli ilkeye göre ürün için hazırlık denetimleri oluşturulur.
-- Mühendislik sürümü, ürünün kullanılmasını engellemek için etkin değil olarak ayarlanır. İlgili ürünün tüm sürümleri etkin değil olarak ayarlanır.
+- Mühendislik sürümü, ürünün kullanılmasını engellemek için etkin değil olarak ayarlanır. Ürünün tüm mühendislik sürümleri etkin değil olarak ayarlanır.
 
-Bir ürün için yeni bir **varyant** oluşturulursa sistem, mühendislik ürünü kategorisinde hazırlık denetimlerinin ayarlanıp ayarlanmadığını denetler. (Hazırlık deneitimleri, serbest bırakılmış varyant düzeyinde ve mühendislik sürümü düzeyinde uygulanabilir.) Hazırlık denetimi ayarlanyısa aşağıdaki olaylar gerçekleşir:
+Bir ürün için yeni bir *varyant* oluşturulursa sistem hazırlık denetimi ilkesinin bu ürün için geçerli olup olmadığını denetler. (Hazırlık deneitimleri, serbest bırakılmış varyant düzeyinde ve mühendislik sürümü düzeyinde uygulanabilir.) İlke geçerliyse aşağıdaki olaylar gerçekleşir:
 
-- Ürün için hazırlık denetimleri oluşturulur.
+- Geçerli ilkeye göre ürün için hazırlık denetimleri oluşturulur.
+- Mühendislik sürümü ve varyantı ürünün kullanılmasını engellemek için etkin değil olarak ayarlanır.
+
+Bir ürün için yeni bir mühendislik *sürümü* oluşturulursa sistem hazırlık denetimi ilkesinin bu ürün için geçerli olup olmadığını denetler. (Hazırlık deneitimleri, smühendislik sürümü düzeyinde uygulanabilir.) İlke geçerliyse aşağıdaki olaylar gerçekleşir:
+
+- Geçerli ilkeye göre ürün için hazırlık denetimleri oluşturulur.
 - Mühendislik sürümü, ürünün kullanılmasını engellemek için etkin değil olarak ayarlanır.
 
-Bir ürün için yeni bir mühendislik **sürümü** oluşturulursa sistem, mühendislik ürünü kategorisinde hazırlık denetimlerinin ayarlanıp ayarlanmadığını denetler. (Hazırlık denetimleri mühendislik sürümü düzeyinde uygulanabilir.) Hazırlık denetimi ayarlanyısa aşağıdaki olaylar gerçekleşir:
-
-- Ürün için hazırlık denetimleri oluşturulur.
-- Mühendislik sürümü, ürünün kullanılmasını engellemek için etkin değil olarak ayarlanır.
+> [!NOTE]
+> Hazırlık denetimlerini standart (mühendislik dışı) ürünlere de uygulayabilirsiniz. Daha fazla bilgi için, bu konunun sonraki bölümlerinde yer alan [Standart ürünler üzerinde hazırlık denetimleri](#standard-products) bölümüne bakın.
 
 ## <a name="view-readiness-checks"></a>Hazırlık denetimlerini görüntüleme
 
@@ -69,7 +78,7 @@ Size atanan açık hazırlık denetimlerini görüntülemek için aşağıdaki a
 - **Mühendislik değişikliği yönetimi \> Ortak \> Ürün hazırlığı \> Açık hazırlık denetimlerim**'e gidin.
 - **Ürün bilgileri yönetimi \> Çalışma Alanları \> Ayrık üretim için ürün hazırlığı**'na gidin.
 
-Hazırlık denetiminin kime atandığını belirten kurulum, mühendislik ürünü kategorisi için yapılır. Hazırlık denetimleri bir kişiye veya takıma atanabilir. Bir takıma hazırlık denetimi atanmışsa, takımda hazırlık denetimini işlemesi gereken bir kişi vardır. Daha fazla bilgi için bkz. [Mühendislik sürümleri ve mühendislik ürünü kategorileri](engineering-versions-product-category.md).
+Hazırlık denetiminin kime atandığını belirten kurulum, hazırlık ilkesi için yapılır. Hazırlık denetimleri bir kişiye veya takıma atanabilir. Bir takıma hazırlık denetimi atanmışsa, takımda hazırlık denetimini işlemesi gereken bir kişi vardır.
 
 ## <a name="process-open-readiness-checks"></a>Açık hazırlık denetimlerini işleme
 
@@ -94,9 +103,7 @@ Yeni bir ürün, varyant veya sürüm için tüm açık hazırlık denetimleri g
 
 ## <a name="create-and-manage-product-readiness-policies"></a>Ürün hazırlık ilkelerini oluşturma ve yönetme
 
-Bir ürün için geçerli olan hazırlık denetimlerini yönetmek için ürün hazırlık ilkelerini kullanın. Hazırlık ilkesi mühendislik kategorisine atandığından, hazırlık ilkesindeki tüm denetimler mühendislik kategorisini temel alan tüm mühendislik ürünleri için geçerlidir. Daha fazla bilgi için bkz. [Mühendislik sürümleri ve mühendislik ürünü kategorileri](engineering-versions-product-category.md).
-
-Her hazırlık ilkesi bir dizi hazırlık denetimi içerir. Bir mühendislik ürün kategorisine hazırlık ilkesi atandığında, bu mühendislik ürünü kategorisinden oluşturulan tüm ürünler, hazırlık ilkesinde belirtilen hazırlık denetimlerine sahip olur.
+Bir ürün için geçerli olan hazırlık denetimlerini yönetmek için ürün hazırlık ilkelerini kullanın. Her hazırlık ilkesi bir dizi hazırlık denetimi içerir. Bir mühendislik ürün kategorisine hazırlık ilkesi atandığında, bu mühendislik ürünü kategorisinden oluşturulan tüm ürünler, hazırlık ilkesinde belirtilen hazırlık denetimlerine sahip olur.
 
 Ürün hazırlık ilkeleriyle çalışmak için **Mühendislik değişikliği yönetimi \> Kurulum \> Ürün hazırlık ilkeleri**'ne gidin. Ardından şu adımlardan birini izleyin.
 
@@ -120,7 +127,7 @@ Her hazırlık ilkesi bir dizi hazırlık denetimi içerir. Bir mühendislik ür
 | Alan | Tanım |
 |---|---|
 | Ürün türü | İlkenin *Madde* veya *Hizmet* türündeki ürünler için geçerli olup olmadığını seçin. Kaydı kaydettikten sonra bu ayarı değiştiremezseniz. |
-| Active | Hazırlık ilkelerinizi korumaya yardımcı olmak için bu seçeneği kullanın. Bunu, kullandığınız tüm hazırlık ilkeleri için *Evet* olarak ayarlayın. Kullanılmadığında etkin olmayan bir hazırlık ilkesini işaretlemek için *Hayır* olarak ayarlayın. Mühendislik ürünü kategorisine atanan bir hazırlık ilkesini devre dışı bırakamayacağınızı ve yalnızca etkin olmayan serbest bırakma ilkelerini silebileceğinizi unutmayın. |
+| Active | Hazırlık ilkelerinizi korumaya yardımcı olmak için bu seçeneği kullanın. Bunu, kullandığınız tüm hazırlık ilkeleri için *Evet* olarak ayarlayın. Kullanılmadığında etkin olmayan bir hazırlık ilkesini işaretlemek için *Hayır* olarak ayarlayın. Mühendislik ürünü kategorisine veya paylaşılan bir ürüne atanan bir hazırlık ilkesini devre dışı bırakamayacağınızı ve yalnızca etkin olmayan serbest bırakma ilkelerini silebileceğinizi unutmayın. |
 
 ### <a name="readiness-control-fasttab"></a>Hazırlık denetimi hızlı sekmesi
 
@@ -144,9 +151,51 @@ Eklediğiniz her satır için aşağıdaki alanları ayarlayın.
 | Şirket | **Şuraya yürüt** alanını *Tek şirket* olarak ayarlarsanız şirketi seçin. |
 | Sahip türü | Satırın oluşturduğu hazır denetimlerin bir kişiye mi yoksa bir takıma mı atanması gerektiğini seçin. |
 | Sahip | Satırın oluşturduğu hazırlık denetimlerinin atanması gereken kişi veya takımı seçin. |
-| Soru formu | Denetim listesi için kullanılması gereken anketi seçin. Denetim listesi, hazırlık denetimin yapıldığı şirketteki yerel bir denetim listesidir. Sistem, denetim listesinin doğru yanıtlanıp yanıtlanmadığını değerlendirebilmelidir. Bu nedenle, doğru yanıtlara dayalı bir değerlendirme yapılacak şekilde denetim listesi ayarlanmalıdır. Anketlerin nasıl oluşturulacağı hakkında daha fazla bilgi için bkz. [Anketleri kullanma](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) ve ilgili konuları. |
+| Soru formu | Denetim listesi için kullanılması gereken anketi seçin. Denetim listesi, hazırlık denetimin yapıldığı şirketteki yerel bir denetim listesidir. Sistem, denetim listesinin doğru yanıtlanıp yanıtlanmadığını değerlendirebilmelidir. Bu nedenle, doğru yanıtlara dayalı bir değerlendirme yapılacak şekilde denetim listesi ayarlanmalıdır. Anketlerin nasıl oluşturulacağı hakkında daha fazla bilgi için bkz. [Anketleri kullanma](/dynamicsax-2012/appuser-itpro/using-questionnaires) ve ilgili konuları. |
 | Otomatik onay | Hazırlık denetimi kayıtları, onay durumunu gösteren bir **Onaylandı** onay kutusu içerir. Atanan kullanıcı bunları tamamladıktan hemen sonra onaylanacak şekilde ayarlanacak denetimler için **Otomatik onay** onay kutusunu seçin. Ek bir adım olarak açık onay gerektirmesi için bu onay kutusunu temizleyin. |
 | Zorunlu | Atanan kullanıcı tarafından tamamlanması gereken denetimler için bu onay kutusunu seçin. Zorunlu denetimler atlanamaz. |
 
+<a name="assign-policy"></a>
+
+## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Standart ve mühendislik ürünlerine hazırlık politikaları atama
+
+Mühendislik kategorisine dayalı yeni bir ürün oluşturduğunuzda, hem *piyasaya sürülen* bir ürün hem de ilgili bir *paylaşılan ürün* oluşturursunuz. Serbest bırakılan bir ürün için hazırlık ilkelerinin çözümlenme biçimi, sisteminiz için ürün *Ürün hazırlık denetimleri* özelliğinin açık olup olmamasına bağlıdır (Bu özellik ve nasıl açılıp kapatılacağı ile ilgili ayrıntılar için bu konunun sonraki bölümlerinde bulunan [Standart ürünler](#standard-products) bölümündeki hazırlık denetimlerine bakın).
+
+- Sisteminizde *Ürün hazırlık denetimleri* özelliği *kapalı* olduğunda, hazırlık ilkesi ayarlanır ve yalnızca [mühendislik kategorisi](engineering-versions-product-category.md) kayıtlarında gösterilir. Sistem, piyasaya sürülen bir ürün için hangi ilkenin geçerli olduğunu öğrenmek için, ilgili mühendislik kategorisi için **Ürün hazırlık ilkesi** alanını denetler. İlgili mühendislik kategorisini (paylaşılan ürünü değil) düzenleyerek mevcut bir ürünün hazırlık ilkesini değiştirebilirsiniz.
+- *Ürün hazırlık denetimleri* özelliği *açık* olduğunda, **Ürün** sayfasına (paylaşılan ürünlerin ayarlandığı) ve **Serbest bırakılan ürün** sayfasına  (değerin salt okunur olduğu ve ilgili paylaşılan üründen alındığı) bir **Ürün hazırlık ilkesi** alanı ekler. Sistem, ilgili paylaşılan ürünü denetleyerek serbest bırakılmış bir ürün için hazırlık ilkesini bulur. Yeni bir mühendislik ürünü oluşturmak için bir mühendislik kategorisi kullandığınızda, sistem hem paylaşılan bir ürün hem de piyasaya sürülen bir ürün oluşturur ve mühendislik kategorisi için **Ürün hazırlık ilkesi** ayarını yeni paylaşılan ürüne kopyalar. İlgili paylaşılan ürünü (sunulan mühendislik kategorisini değil) düzenleyerek mevcut bir ürünün hazırlık ilkesini değiştirebilirsiniz.
+
+Bir paylaşılan ürüne hazırlık ilkesi atamak için aşağıdaki adımları izleyin.
+
+1. **Ürün bilgileri \> Ürünler \> Ürünler** öğesine gidin.
+1. Hazırlık ilkesi atamak istediğiniz ürünü açın veya oluşturun.
+1. **Genel** Hızlı Sekmesinde, **Ürün hazırlık ilkesi** alanını ürün için geçerli olması gereken ilkenin adına ayarlayın.
+
+Bir mühendislik kategorisine hazırlık ilkesi atamak için aşağıdaki adımları izleyin.
+
+1. **Mühendislik değişikliği yönetimi \> Kurulum \> Mühendislik ürünü kategorisi ayrıntıları**'na gidin.
+1. Hazırlık ilkesi atamak istediğiniz mühendislik kategorisini açın veya oluşturun.
+1. **Ürün hazırlık politikası** Hızlı Sekmesinde, **Ürün hazırlık ilkesi** alanını mühendislik kategorisi için geçerli olması gereken ilkenin adına ayarlayın.
+
+<a name="standard-products"></a>
+
+## <a name="readiness-checks-on-standard-products"></a>Standart ürünlerde hazırlık kontrolleri
+
+Özellik yönetiminde ürün hazırlık denetimleri özelliğini açarak standart (mühendislik dışı) ürünler için *ürün hazırlık denetimlerini* etkinleştirebilirsiniz. Bu özellik, standart ürünleri desteklemek için hazırlık denetimi sisteminde birkaç küçük değişiklik yapar.
+
+### <a name="enable-or-disable-readiness-checks-on-standard-products"></a>Standart ürünlerde hazırlık denetimerini etkinleştirme veya devre dışı bırakma
+
+Bu özellik, sisteminiz için *Mühendislik Değişiklik Yönetimi* ve *Ürün hazırlık denetimleri* özelliklerinin her ikisinin de açık olmasını gerektirir. Bu özelliklerin nasıl açılacağı veya kapatılacağı hakkında ayrıntılar için bkz. [Mühendislik değişiklik yönetimine genel bakış](product-engineering-overview.md).
+
+### <a name="create-readiness-policies-for-standard-products"></a>Standart ürünler için hazırlık ilkeleri oluşturma
+
+Standart ürünler için, mühendislik ürünleri için yaptığınız gibi hazırlık ilkeleri oluşturursunuz. Bu konunun önceki bölümlerindeki bilgilere bakın.
+
+### <a name="assign-readiness-policies-to-standard-products"></a>Standart ürünler için hazırlık ilkeleri atama
+
+Standart bir ürüne hazırlık ilkesi atamak için, ilgili paylaşılan ürünü açın ve **Ürün hazırlık ilkesi** alanını uygulanması gereken ilkenin adına ayarlayın. Daha fazla bilgi için, bu konunun önceki bölümlerinde yer alan [Standart ve mühendislik ürünlerine hazırlık ilkeleri atama](#assign-policy) bölümüne bakın.
+
+### <a name="view-and-process-readiness-checks-on-standard-products"></a>Standart ürünlerde hazırlık kontrollerini görüntüleme ve işleme
+
+Bu özellik açıldığında, standart ürünler için hazırlık denetimlerini tıpkı mühendislik ürünü için yaptığınız gibi görüntüler ve işlersiniz. Bu konunun önceki bölümlerindeki bilgilere bakın.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

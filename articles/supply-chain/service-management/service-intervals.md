@@ -1,12 +1,10 @@
 ---
 title: Servis aralıkları
-description: Servis aralığı, servis siparişlerini oluşturduğunuzda servis sözleşmesi satırları için servis siparişi satırlarının oluşturulma sıklığını gösterir.
-author: ShylaThompson
-manager: tfehr
+description: Bu konuda, servis aralıklarıyla nasıl çalışılacağına ilişkin bir genel bakış sağlanmaktadır. Servis sözleşmesi aralığı, servis siparişlerini otomatik olarak oluşturduğunuzda servis siparişi satırlarının oluşturulma sıklığını gösterir.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da43f914af75a7f85dc43d3ab1d16abcd82561c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08ec58037657f7d04e50c31aec0f343a09b9fa4e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242997"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580324"
 ---
 # <a name="service-intervals"></a>Servis aralıkları
 

@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: bd2ddbfeef454f2759ca09d8d763bada36a1fc83
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814524"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574173"
 ---
 # <a name="replenishment-strategies"></a>Stok yenileme stratejileri
 
@@ -45,7 +45,7 @@ Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yön
 
 Şablonlara erişmek için **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları**'na gidin. **Genel Bakış** bölümünde, **Stok yenileme türü** alanının *Dalga talep* olarak ayarlandığı bir dalga talep stok yenileme şablonu seçin veya oluşturun. Ardından, **Stok yenileme şablonu ayrıntıları** bölümünde stok yenileme şablonu satırlarını ayarlayın. Her satır için **Stok yenileme stratejisi** alanında, kullanmak istediğiniz stok yenileme stratejisini seçin.
 
-![Stok yenileme şablonları sayfası](media/ReplenTempWaveDmdMaxLocCap.png "Stok yenileme şablonları sayfası")
+![Stok yenileme şablonları sayfası.](media/ReplenTempWaveDmdMaxLocCap.png "Stok yenileme şablonları sayfası")
 
 **Stok yenileme stratejisi** sütunu, **Stok yenileme şablonu ayrıntıları** bölümünde ızgarada görünmüyorsa, özelliğin açık olduğundan ve seçili stok yenileme şablonunda stok türü olarak *Dalga talep*'in bulunduğundan emin olun.
 
@@ -85,7 +85,7 @@ Bunun yerine stok yenileme stratejisini *Maksimum konum kapasitesi* olarak ayarl
 - **Stok yenileme işi 1:** Toplu konumdan 4 kutu çekin ve bunları çekme-001 konumuna koyun.
 - **Stok yenileme işi 2:** Toplu konumdan 5 kutu çekin ve bunları çekme-002 konumuna koyun.
 
-[![Örnek 1](media/ReplenTemp_example_1.png "Örnek 1")](media/ReplenTemp_example_1_large.png)
+[![Örnek 1.](media/ReplenTemp_example_1.png "Örnek 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Örnek 2
 
@@ -109,7 +109,7 @@ Stok yenileme malzeme çekme için konum yönergelerindeki **Bölmeye izin ver**
 
 Sonuç, işi oluştururken kullanılabilen bilgiler nedeniyle farklıdır. **Bölmeye izin ver**, stok yenilemede malzeme için konum yönergelerinde *Evet* olarak ayarlandığında, 160 adet bulduğunuzdan emin olursunuz. Bu nedenle, bu miktar için iş oluşturabilirsiniz. Ancak **Bölmeye izin ver** seçeneği *Hayır* olarak ayarlandığında, 160 adetin mevcıt olup olmadığını bilemezsiniz. Stok yenilemek için kullanacağınız ekstra miktar 3 kutu olduğundan, bu ekstra miktarı düşürür ve orijinal miktarı yeniden denersiniz.
 
-[![Örnek 2](media/ReplenTemp_example_2.png "Örnek 2")](media/ReplenTemp_example_2_large.png)
+[![Örnek 2.](media/ReplenTemp_example_2.png "Örnek 2")](media/ReplenTemp_example_2_large.png)
 
 Bu nedenle, stok yenileme yapılan konumlara maksimum miktarı almak için stok yenilemede malzeme çekme için konum yönergelerinde **Bölmeye izin ver** seçeneğini *Evet* olarak ayarlamanız gerekir.
 

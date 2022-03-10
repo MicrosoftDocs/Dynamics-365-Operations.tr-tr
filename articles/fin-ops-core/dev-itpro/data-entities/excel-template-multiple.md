@@ -1,7 +1,7 @@
 ---
 title: Birden çok çalışma sayfasına sahip veri şablonları
-description: Bu konu, Excel veri varlığı kullanarak Finance and Operations içine veri içe aktarmayı açıklar.
-author: Sunil-Garg
+description: Bu konu, Excel veri varlığı kullanarak Finans ve Operasyon içine veri içe aktarmayı açıklar.
+author: peakerbl
 ms.date: 01/01/2018
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,22 @@ ms.reviewer: sericks
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 6205797ead0569eeeeae5deb47534c66eb030b0bfdd177dd3cc6d9fa5d326ecf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf3c423bdf06685a3c4025551927123773ae818a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737470"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070073"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Birden çok çalışma sayfasına sahip veri şablonları
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Uygulamadaki veri yönetimi, veri varlıkları için Microsoft Excel tabanlı şablonları destekler. Bu şablonlar, bir veya daha fazla çalışma sayfası içerebilir. Birden çok çalışma sayfası içeren şablonlar genellikle verileri tek bir dosyada yönetmek ve dosyayı birden çok veri varlığına aktarmak uygun olduğunda kullanılır. Tesisler ve ambarlar bir örnek olabilir.
 

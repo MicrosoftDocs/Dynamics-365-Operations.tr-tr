@@ -2,11 +2,9 @@
 title: Gezinti araması
 description: Bu konuda, sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
 author: aneesmsft
-manager: AnnBe
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799121"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069996"
 ---
 # <a name="navigation-search"></a>Gezinti araması
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Bu konuda, sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
 
@@ -36,7 +37,7 @@ Bu özelliği kullanmak için **Arama** simgesine tıklayarak **Arama** kutusunu
 > [!NOTE]
 > **Arama** kutusu, sayfaları bulmanıza ve sayfalarda gezinmenize yardımcı olur. Belirli verileri veya eylemleri bulmanıza yardımcı olmaz.
 
-[![search-box](media/navigation-search.png "Arama kutusu")
+![search-box.](media/navigation-search.png "Arama kutusu")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Belirli bir sayfaya hızlı bir şekilde gitmek
 
@@ -62,3 +63,6 @@ Arama sonuçları listesi 10 öğeyle sınırlıdır. Aradığınızı sonuçlar
 ## <a name="development"></a>Geliştirme
 
 Geliştirme açısından bakıldığında, gezinti araması, kolay yararlanılan bir işlevdir çünkü menü öğelerinin dağıtımı ve arama sonuçlarında görünmeleri arasında neredeyse hiç gecikme yoktur. Menü öğeleri gezinti bölmesinden veya panodan bağlantılı olduğu sürece, otomatik olarak aranabilir olacaktır.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

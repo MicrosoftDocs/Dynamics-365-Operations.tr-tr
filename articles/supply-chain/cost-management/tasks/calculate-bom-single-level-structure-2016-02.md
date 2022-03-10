@@ -1,7 +1,7 @@
 ---
 title: Tek düzeyli yapı kullanarak ürün reçetesi hesaplama (Şubat 2016)
 description: Bu yordam, Maliyetlendirme tablosunu temel alan, tek düzeyli açılım kullanarak tamamlanmış bir ürünün maliyetinin nasıl hesaplanacağını gösterir.
-author: ShylaThompson
+author: AndersGirke
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22ed277d6f4dca3ab0a5be4ddba8982350c7e05ccbb6ade7313ac22b45fbecb1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8c5968631f5fed8a43cd63165a4ddff86e8cb4b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772556"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572109"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Tek düzeyli yapı kullanarak ürün reçetesi hesaplama (Şubat 2016)
 

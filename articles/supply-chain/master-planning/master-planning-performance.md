@@ -1,17 +1,14 @@
 ---
 title: Master planlama performansını iyileştirme
 description: Bu konu, ana planlama veya sorun giderme sorunlarının performansını artırmanıza yardımcı olabilecek çeşitli seçenekleri açıklamaktadır.
-author: t-benebo
-manager: tfehr
+author: ChristianRytt
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439516"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570933"
 ---
 # <a name="improve-master-planning-performance"></a>Master planlama performansını iyileştirme
 
@@ -162,3 +159,6 @@ Karşılama adımı başlatılmadan önce, **ürün reçetesi sürüm gereksinim
 - **Bir seferde tek bir yordam** – Master planlamayı başka herhangi bir yordamla birlikte çalıştırmayın.
 - **Kullanıcı oturumu günlüğünü inceleme.**
 - **Maddelere filtre uygulama** – Yaşam döngüsü durumunu, maddeleri Master planlama çalıştırmasında hariç bırakmak için kullanın. (Madde numaralarını kullanmayın.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

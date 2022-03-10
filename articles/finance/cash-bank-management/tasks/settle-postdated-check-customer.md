@@ -2,11 +2,9 @@
 title: Müşterinin ileri tarih atılmış çekini kapatma
 description: Çek, banka tarafından tahsil edildikten sonra vadeli çek kapatılabilir.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f8f2f8fe0dfd0eccd61ef76242e2a77c75b3983
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ab591fc3ac529e65c15ee083377954a83363edd528861aff9bc449bfc10c7735
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976253"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771740"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Müşterinin ileri tarih atılmış çekini kapatma
 
@@ -55,3 +53,6 @@ Bu yordam, USMF demo şirketini kullanır.
 10. Fiş'e tıklayın.
 11. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Operasyon planlama çizelgeleme
 description: Bu konu operasyon planlaması hakkındaki bilgileri sağlar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dd24dc21dc3f31c14ae2978ed0f59401c51cf1b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258578"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574581"
 ---
 # <a name="operations-scheduling"></a>Operasyon planlama çizelgeleme
 
@@ -76,8 +74,7 @@ Operasyon planlamasını çalıştırdığınızda, rotanın belirli kısımlar�
 ## <a name="finite-materials"></a>Sonlu malzemeler
 Sınırlı malzemeyle çalışıyorsanız planlama üretim için gerekli olan malzemelerin kullanılabilirliğine de bağlıdır. Üretim için yeterli kullanılabilir bileşen yoksa üretim ertelenebilir. Planlamada üretim için kullanılabilir olması gereken malzemeleri belirterek malzeme kullanımını temel alabilirsiniz. Kaynak kapasitesini ve malzemelerin kullanılabilirliğini en iyi duruma getirdiğinizde, üretim bu sınırlamalara göre hesaplanır. Üretim emri, kapasite ve malzemeler aynı anda ve gerekli miktarlarda kullanılabilir olduğu anda başlatılacak şekilde planlanabilir.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [İşlem planlama seçenekleri](operation-scheduling-options.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Bonus amortisman
 description: Bu makalede, bonus amortisman işlevselliğine bir genel bakış verilmektedir.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3621
 ms.assetid: 835ec594-744e-461c-a676-1b9abc094173
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f811b913f751a860c21fc120b15bac406281d7f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 04ee70fab05d033923a675e0db5c62d3c938d0e4
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827038"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674417"
 ---
 # <a name="bonus-depreciation"></a>Bonus amortisman
 

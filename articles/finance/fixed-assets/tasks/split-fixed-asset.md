@@ -1,32 +1,30 @@
 ---
 title: Sabit kıymeti bölme
 description: Bu konu bir kıymet defteri yüzdesini yeni bir kıymet defterine bölmeyi açıklar.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db601be192b57fbec220193d3c9fde1a4f50c085
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a2fbca50342196dd9f5acb53027fb9c0052a81de
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213520"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883555"
 ---
 # <a name="split-a-fixed-asset"></a>Sabit kıymeti bölme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu bir kıymet defteri yüzdesini yeni bir kıymet defterine bölmeyi açıklar. Kılavuzda Muhasebeci rolü ve USMF demo verileri kullanılmaktadır.
+Bu konu bir kıymet defteri yüzdesini yeni bir kıymet defterine bölmeyi açıklar. 
 
 ## <a name="create-a-new-fixed-asset"></a>Yeni bir sabit kıymet oluştur
 

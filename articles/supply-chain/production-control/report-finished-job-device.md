@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569299"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102838"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>İş kartı cihazından tamamlandı olarak bildirme
 
@@ -218,9 +218,9 @@ Gelişmiş ambar işlemleri, bu amaçla ayarlanmış ambar yerleşimlerinde bulu
 
 Bu bölümde anlatılan özellikleri kullanmak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri (Bu sırada) açmanız gerekir:
 
-1. İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası
-1. İş kartı cihazında tamamlandı olarak bildirme sırasında otomatik plaka numarası oluşturmayı etkinleştirin
-1. İş Kartı Cihazından etiket yazdır
+1. *İş Kartı Cihazına eklenen tamamlandı olarak işaretleme plakası*<br>(Supply Chain Management sürüm 10.0.21 itibarıyla, bu özellik varsayılan olarak açıktır. Supply Chain Management sürüm 10.0.25 itibarıyla, bu özellik zorunludur.)
+1. *İş kartı cihazında tamamlandı olarak bildirme sırasında otomatik plaka numarası oluşturmayı etkinleştirin*<br>(Supply Chain Management sürüm 10.0.25 itibarıyla, bu özellik zorunludur.)
+1. *İş Kartı Cihazından etiket yazdır*<br>(Supply Chain Management sürüm 10.0.25 itibarıyla, bu özellik zorunludur.)
 
 ### <a name="set-up-reporting-as-finished-to-a-license-plate"></a>Lisans plakasına tamamlandı olarak raporlamayı ayarla
 

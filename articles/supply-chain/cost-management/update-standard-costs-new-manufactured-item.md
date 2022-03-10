@@ -2,16 +2,13 @@
 title: Yeni üretilmiş bir madde için standart maliyetleri güncelleştirme
 description: Bu makalede, yeni üretilen bir madde için standart maliyetlerin güncellenmesine yönelik yönergeler sağlanmıştır.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 79693
 ms.assetid: ba64b70f-3f4c-4373-9a7d-8fd07c45a8cf
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebd53d66eb81bbee9d3e67d05102c8df413d2a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 231f0ed5acc86dbe5368b3c7306dd89c8ba0b74901a7e1ccf8410c6585638efa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733504"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Yeni üretilmiş bir madde için standart maliyetleri güncelleştirme
 
@@ -53,3 +50,6 @@ Donmuş dönem boyunca yeni üretilmiş maddeler eklemek için aşağıdaki adı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

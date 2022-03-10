@@ -2,7 +2,6 @@
 title: Devamsızlıkları yönetme
 description: Bu yordam çalışan izin kayıtlarının oluşturulmasıyla ilgili bilgi içerir.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c07a14e5d49e5a6979043d19f6031732eadbad1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 465b2efef89a6a14a76282c782da9e6b4830d70bf463065deeae186aff7b7298
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752263"
 ---
 # <a name="manage-leave-of-absence"></a>Devamsızlıkları yönetme
 

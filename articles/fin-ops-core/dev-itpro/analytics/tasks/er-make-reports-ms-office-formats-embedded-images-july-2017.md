@@ -1,12 +1,10 @@
 ---
 title: Katıştırılmış resimlere sahip Office biçiminde rapor oluşturmak için yapılandırmalar tasarlama
-description: Bu konudaki adımlar, Microsoft Office biçimlerinde (Excel ve Word) katıştırılmış resimler içeren elektronik belgelerin Elektronik raporlama (ER) yapılandırmalarının nasıl tasarlanacağını hakkında bilgi verir.
+description: Bu konuda, katıştırılmış resimler içeren Excel ve Word biçimlerinde elektronik belgeler oluşturan yapılandırmaların nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,18 +12,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 03a514c5b616d761ef3eb6347e67e645b23eaa1794911775835e77cded4500ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684415"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719357"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Katıştırılmış resimlere sahip Office biçiminde rapor oluşturmak için yapılandırmalar tasarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlayın. Bu yordam, katıştırılmış resimler içeren Microsoft Excel veya Word belgeleri oluşturmak üzere Elektronik raporlama (ER) yapılandırmalarının nasıl tasarlanacağını gösterir. Bu yordamda, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. Başlamadan önce [ER kullanılarak oluşturduğunuz iş belgelerine görüntü ve şekil katıştırma](../electronic-reporting-embed-images-shapes.md) Yardım konusunda listelenen dosyaları indirin ve kaydedin. Bu dosyalar şunlardır: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png, and Cheque template Word.docx.
+Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlayın. Bu yordam, katıştırılmış resimler içeren Microsoft Excel veya Word belgeleri oluşturmak üzere Elektronik raporlama (ER) yapılandırmalarının nasıl tasarlanacağını gösterir. Bu yordamda, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. Başlamadan önce aşağıdaki dosyaları da indirip kaydetmelisiniz: 
+
+| Tanım                                          | Dosya adı                   |
+|------------------------------------------------------|-----------------------------|
+| ER data model configuration                          | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)       |
+| ER format configuration                              | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| Şirket logosu resmi                                   | [Şirket logosu.png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png)            |
+| İmza resmi                                      | [İmza resmi.png](https://download.microsoft.com/download/5/0/9/509151b3-06fc-4870-9408-7c9a43b72771/Signatureimage.png)         |
+| Alternatif imza resmi                          | [İmza resmi 2.png](https://download.microsoft.com/download/3/0/0/30045bf1-0ff6-4215-9162-b77c2f5dcc7c/Signatureimage2.png)       |
+| Ödeme çeklerini yazdırmak için Microsoft Word şablonu  | [Cheque template Word.docx](https://download.microsoft.com/download/4/4/d/44d9d255-9ad1-42fe-87db-23f319fd8e89/ChequetemplateWord.docx)   |
 
 ## <a name="verify-prerequisites"></a>Ön koşulları doğrulama  
  1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.  
@@ -82,7 +89,7 @@ Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlay�
  22. İliştir'e tıklayın.  
  23. Yeni'ye tıklayın.  
  24. Dosya'ya tıklayın.  
- 25. Gözat'a tıklayın ve daha önce indirdiğiniz İmza görüntüsü 2.png dosyasını seçin.   
+ 25. Gözat'a tıklayın ve daha önce indirdiğiniz Signature image 2.png dosyasını seçin.   
  26. Sayfayı kapatın.  
  27. Sayfayı kapatın.  
  28. Sayfayı kapatın.  
@@ -90,3 +97,6 @@ Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlay�
  30. Etkin olmayan banka hesaplarında açık provizyon oluşturmaya izin ver: alanında Evet'i seçin.  
  31. Kaydet'e tıklayın.  
  32. Sayfayı kapatın.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

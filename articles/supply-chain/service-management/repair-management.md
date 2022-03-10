@@ -1,12 +1,10 @@
 ---
 title: Onarım yönetimi
 description: Geçmişte başarılı olmuş önerilen çözümlerle yardım etmek üzere sorunları sistematik olarak gruplayın.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAConditionTable, SMASymptomArea, SMADiagnosisArea, SMAResolutionTable, SMARepairStage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1456c65f28d2a1d06497ddde81c9e68cc078c061
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001361"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567931"
 ---
 # <a name="repair-management"></a>Onarım yönetimi       
 
@@ -37,15 +35,11 @@ Belirtileri, tanıları ve çözüm ayarlarını ayarlayın. Onarım için benze
 
 Belirtileri, tanıları ve onarım çözümünü belirtmek için kullanılacak bilgileri girmek için aşağıdaki ayar formlarını kullanılır.
 
-1.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Durumlar**'a tıklayın.
-
-2.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Belirti alanları**'na tıklayın.
-
-3.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Tanı alanları**'na tıklayın.
-
-4.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Çözümler**'e tıklayın.
-
-5.  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Onarım aşamaları**'na tıklayın.
+- **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Durumlar**.
+- **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Belirti alanları**.
+-  **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Tanı alanları**.
+- **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Çözümler**.
+- **Servis yönetimi** \> **Kurulum** \> **Onarım** \> **Onarım aşamaları**.
 
 ## <a name="symptoms-and-conditions"></a>Belirtiler ve durumlar
 
@@ -81,19 +75,19 @@ Onarım işlemindeki her adım için onarım satırları oluşturabilirsiniz.
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Bir servis siparişinde onarım satırı oluşturma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
 
 2.  Onarım gerektiren servis kapsamındaki parça içeren servis siparişini seçin.
 
-3.  **Onarım** \> **Onarım satırları**'nı tıklayarak **Onarım satırları** formunu açın.
+3.  **Onarım** \> **Onarım satırları**'nı seçerek **Onarım satırları** formunu açın.
 
-4.  Yeni bir satır oluşturmak için Ctrl+N tuşlarına basın.
+4.  Yeni bir satır oluşturmak için **Yeni**'yi seçin.
 
 5.  Bir servis kapsamında parça seçin. Servis siparişinde bir parça ilişkisiyle ayarlanmış her türlü servis kapsamındaki parçayı seçebilirsiniz.
 
-6.  Onarım satırında ilişkili olan önayarlı belirti, tanı ve uygulama değerlerinden birini seçin ve gerekirse onarım satırında bir not oluşturmak için **Not** sekmesini tıklatın.
+6.  Onarım satırında ilişkili olan önayarlı belirti, tanı ve uygulama değerlerinden birini seçin ve gerekirse onarım satırında bir not oluşturmak için **Not** sekmesini seçin.
 
-7.  Yeni onarım satırını kaydetmek için CTRL+S tuşlarına basın. **Onarım satırları** formunun **Genel** sekmesindeki **Oluşturma tarihi ve saati** alanı formun kaydedildiği saatle güncelleştirilir.
+7.  Yeni onarım satırını kaydetmek için **Kaydet**'i seçin. **Onarım satırları** formunun **Genel** sekmesindeki **Oluşturma tarihi ve saati** alanı formun kaydedildiği saatle güncelleştirilir.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>İlerlemeyi izleme ve bir onarım sorununu çözümleme
 
@@ -112,3 +106,6 @@ Bir onarım sorunu giderildiğinde, onarım satırını kapatabilirsiniz. Onarı
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

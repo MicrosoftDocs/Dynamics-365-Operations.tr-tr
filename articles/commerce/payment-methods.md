@@ -1,8 +1,8 @@
 ---
 title: Ödeme yöntemleri
 description: Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında mutlaka yapılandırılmalıdır. Bu makale, ayarlayabileceğiniz ödeme türlerini ve bunları ayarlamak için gerekli işlemi açıklamaktadır.
-author: rubencdelgado
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c174dd136cecedc9b23bdaa778885f75e51c9aa556a9e2709bc7da171faa8617
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713978"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779582"
 ---
 # <a name="payment-methods"></a>Ödeme yöntemleri
 
@@ -47,5 +47,10 @@ Perakendeciler, sattıkları ürünler ve hizmetler karşılığında çeşitli 
 3. Mağaza ödeme yöntemini ayarlayın. Ödeme yöntemlerini her bir mağazayla ilişkilendirin ve ardından her bir ödeme yöntemi için mağazaya özel ayarları girin.
 4. Mağazalar için kart ödeme yöntemleri ayarlayın. Mağazanın kabul ettiği tüm kart ödeme yöntemleri için kart kurulumunu tamamlayın.
 
+## <a name="handle-change-tendering-for-payment-methods"></a>Ödeme yöntemleri için ödeme değişikliğini işle
+
+Satış noktası hareketleri sırasında fonların müşterilere geri dönmesi gerekiyorsa bazı ödeme yöntemleri doğrudan ödeme değiştirmeyi desteklemez. Ödeme değişikliğini yalnızca **Nakit** ve **Para birimi** ödeme yöntemleri kullanılabilir. 
+
+Bir hareket sırasında ödeme değişimini gerektiren servis taleplerini işlemek gerekiyorsa ancak ödeme yöntemi bunu desteklemiyorsa, bir **Ödeme değişikliği** ödeme yöntemini tanımlayabilirsiniz. Mağaza için mağaza ödeme yöntemlerini ayarladığınızda, kullanılacak ödeme yöntemini seçin. Sonra, **Değiştir** bölümünde **Ödeme değiştir** alanına bir bedel ödemesini değiştir seçeneği girin. Örneğin, nakitin beldel ödemesi değiştirme seçeneği olarak kullanılabileceğini değiştirmek için **1** girebilirsiniz.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

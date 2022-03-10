@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1e55ce327e2c8ab714eb5e2fa14b3830b9171688
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 69d3da5cbee5d7b921b0b0b422d838b9821e9c877d6f1951e85aeb49474bd4bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760912"
 ---
 # <a name="delivery-options-module"></a>Teslimat seçenekleri modülü
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu teslimat seçenekleri modüllerini ve bunların Microsoft Dynamics 365 Commerce'te nasıl yapılandırılacağını açıklamaktadır.
 
@@ -42,7 +41,7 @@ Sevkiyat giderleri satır maddeleri için geçerliyse, her madde için sepet sat
 
 Aşağıdaki şekilde ödeme sayfasında kullanılan bir teslimat seçenekleri modülü örneği gösterilmektedir.
 
-![Ödeme sayfasındaki teslimat seçenekleri modülü örneği](./media/ecommerce-deliveryoptions.PNG)
+![Ödeme sayfasındaki teslimat seçenekleri modülü örneği.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Teslimat seçenekleri modülü özellikleri
 

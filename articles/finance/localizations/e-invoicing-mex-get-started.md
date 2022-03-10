@@ -2,25 +2,27 @@
 title: Meksika için Elektronik faturalamayı kullanmaya başlama
 description: Bu konu, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840064"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881603"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Meksika için Elektronik faturalamayı kullanmaya başlama
 
@@ -33,7 +35,15 @@ Bu konu, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardım
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu konudaki adımları gerçekleştirmeden önce, [elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) adımlarını tamamlamanız gerekir.
+Bu konudaki adımları tamamlamadan önce, [Elektronik faturalama hizmeti yönetimine başlama](e-invoicing-get-started-service-administration.md) ve [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) konusundaki adımları tamamlamanız gerekir.
+
+## <a name="set-up-the-cadena-xslt"></a>Cadena XSLT'yi ayarlama
+
+Cadena XSLT şemasını CFDI işleme için genelleştirme özelliğine eklemek için aşağıdaki adımları tamamlayın.
+
+1. Şemayı [SAT web sitesinden](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt)indirin.
+2. Şemayı bir zip dosyasına sıkıştırın.
+3. XSLT dosyasını yeni kapsayıcı için Hizmet ortamınızda ayarlanan Azure Depolama hesabınıza kaydedin.
 
 ## <a name="rcs-setup"></a>RCS kurulumu
 
@@ -56,7 +66,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
     > [!NOTE]
     > Listede özelliği göremiyorsanız, **Eşitle**'yi seçin ve 3. adımı tekrarlayın.
 
-![CFDI faturaları (MX) özelliğini içe aktarma](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
+![CFDI faturaları (MX) özelliğini içe aktarma.](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
 
 **CFDI faturaları (MX)** özelliğini Global depodan içe aktardığınızda, yapılandırmalar ve eylemlerle birlikte tüm özellik ayarları da içe aktarılır.
 
@@ -66,13 +76,13 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 - **E-faturalama özellikleri** sayfasında, **Sürümler** sekmesinde, **Yeni** ögesini seçin.
 
-![Yeni e-faturalama özellik sürümü ekleme](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
+![Yeni e-faturalama özellik sürümü ekleme.](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
 
 ### <a name="update-the-configuration-version"></a>Yapılandırma sürümünü güncelleştirme
 
 1. **E-faturalama özellikleri** sayfasında, **Yapılandırmalar** sekmesinde, yapılandırma sürümlerini (ER dosya biçimi yapılandırmaları) yönetmek için **Ekle** veya **Sil**'i seçin.
 
-    ![E-faturalama özellik yapılandırmalarını yönetme](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
+    ![E-faturalama özellik yapılandırmalarını yönetme.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
     Yeni bir sürüm oluşturduğunuzda, tüm yapılandırmalar en son yayınlanan sürümden devralınır. CFDI faturalarını işlemek için aşağıdaki yapılandırmalar gereklidir:
 
@@ -84,17 +94,17 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 2. Listede bir yapılandırma sürümü seçin ve sonra da yapılandırmayı düzenleyebileceğiniz veya görüntüleyebileceğiniz **Biçim tasarımcısı** sayfasını açmak için **Düzenle** veya **Görüntüle**'yi seçin.
 
-    ![Biçim tasarımcısı sayfasını açma](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
+    ![Biçim tasarımcısı sayfasını açma.](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. **Biçim tasarımcısı** sayfasını, ER biçimi dosya yapılandırmalarını düzenlemek ve görüntülemek için kullanın. Daha fazla bilgi için bkz. [Elektronik belge yapılandırmalarını oluşturma](../../dev-itpro/analytics/electronic-reporting-configuration.md).
+3. **Biçim tasarımcısı** sayfasını, ER biçimi dosya yapılandırmalarını düzenlemek ve görüntülemek için kullanın. Daha fazla bilgi için bkz. [Elektronik belge yapılandırmalarını oluşturma](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Biçim tasarımcısı sayfası](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
+    ![Biçim tasarımcısı sayfası.](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>E-faturalama özellik kurulumlarını yönetme
 
 - **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, E-faturalama özellik kurulumlarını yönetmek için **Ekle**, **Sil** veya **Düzenle** ögesini seçin.
 
-![E-faturalama özellik kurulumlarını yönetme](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
+![E-faturalama özellik kurulumlarını yönetme.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
 Onaya CFDI faturalarını göndermek için (XML dosyasını oluşturun, XML dosyasını gönderin ve yanıtı işleyin), **Satış faturası** özellik kurulumu gereklidir.
 
@@ -105,11 +115,11 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 1. **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, **Özellik kurulumu** sütununda **Satış faturası**'nı seçin.
 2. Eylemleri, uygulanabilirlik kurallarını ve değişkenleri yapılandırmak için **Düzenle** ögesini seçin.
 
-    ![E-faturalama özellik kurulumunu düzenleme](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
+    ![E-faturalama özellik kurulumunu düzenleme.](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
 
 3. **Özellik sürümü kurulumu** sayfasında, eylemler listesini yönetmek için **Eylemler** sekmesini seçin. Eylemler, olayın tam olarak yürütülmesi için sırayla çalıştırılması gereken işlemlerin listesini tanımlar.
 
-    ![Eylemler sekmesi](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
+    ![Eylemler sekmesi.](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
     | Eylem kodu | Eylem                   | Eylem adı                                  | Eylem açıklaması                                          |
     |-----------|--------------------------|----------------------------------------------|-------------------------------------------------------------|
@@ -126,6 +136,17 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 > [!NOTE]
 > **İptal** ve **İptal isteği** özelliği kurulumları için **Meksika PAC servisini çağır** eylemi URL'sini güncelleştirmek üzere aynı adımları kullanın.
 
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Cadena XLST şemasının yolunu ayarlama
+
+1. **Özellik sürümü kurulumu** sayfasında, **Değişkenler** sekmesinde, **DigitalSignatureXSLT** değişkeni adını seçin.
+2. **Değerler** alanına şunu girin: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
+   
+    burada: <RelativePath> = çift ters eğik kenarlı klasör\\klasör\\ dosya adı, ContainerName hizmet için kullanılan kapsayıcıyı belirtmelidir.
+   
+    Değişkene örnek olarak şu verilebilir:
+    
+    {"path":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
+
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Taslak sürümünü bir E-faturalama ortamına atama
 
 1. **E-faturalama özellikleri** sayfasında, **Ortamlar** sekmesinde, **Etkinleştir** ögesini seçin.
@@ -133,7 +154,7 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 3. **Geçerlilik başlangıcı** alanında, yeni ortamın geçerli olacağı tarihi seçin.
 3. **Etkinleştir**'i seçin.
 
-![E-faturalama ortamını etkinleştirme](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
+![E-faturalama ortamını etkinleştirme.](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
 
 ## <a name="change-the-version-status-to-completed"></a>Sürüm durumunu Tamamlandı olarak değiştirme
 
@@ -149,7 +170,7 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 1. **E-faturalama özellikleri** sayfasında, **CFDI faturaları (MX)** özelliğinin durumunu yönetmek için **Sürümler** sekmesini seçin.
 2. Özelliğin durumunu değiştirmek için **Durumu değiştir**'i seçin.
 
-![E-faturalama özelliğinin durumunu değiştirme](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
+![E-faturalama özelliğinin durumunu değiştirme.](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Finance'de Elektronik faturalama tümleştirmesi kurulumu
 
@@ -161,7 +182,7 @@ Finance içindeki Elektronik faturalamayı ayarlamak için şu görevleri tamaml
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>ER veri modelini, ER veri modeli eşleştirmesini ve CFDI faturaları için bağlam yapılandırmalarını içe aktarın
 
 1. Finance'de oturum açın.
-2. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** başlığını seçin. Bu yapılandırma sağlayıcısının **Etkin** olarak ayarlandığından emin olun. Sağlayıcının **Etkin** olarak nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve etkin olarak işaretleme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** başlığını seçin. Bu yapılandırma sağlayıcısının **Etkin** olarak ayarlandığından emin olun. Sağlayıcının **Etkin** olarak nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. **Depolar**'ı seçin.
 4. **Genel kaynak \> Aç**'ı seçin.
 5. **Fatura modeli**, **Fatura modeli eşlemesi**, **CFDI fatura biçimi (MX)**, **CFDI fatura iptal isteği biçimi (MX)** ve **CFDI fatura iptali biçimi (MX)** ögelerini ni içe aktarın.
@@ -171,7 +192,7 @@ Finance içindeki Elektronik faturalamayı ayarlamak için şu görevleri tamaml
 1. **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** bölümüne gidin.
 2. **Özellikler** sekmesinde, **MX-00010** ve **MX-00016** özellik referansları için satırlarda **Etkinleştir** onay kutusunu seçin.
 
-![CFDI faturalarını işlemek için özellikleri açma](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
+![CFDI faturalarını işlemek için özellikleri açma.](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
 
 ### <a name="import-er-configurations-and-set-up-the-response-types-for-updating-cfdi-invoices"></a>ER yapılandırmalarını içe aktarma ve CFDI faturalarını güncelleştirmek için yanıt tiplerini ayarlama
 
@@ -215,13 +236,13 @@ Elektronik faturalama ile Finance içindeki CFDI faturalarının işlenmesi sır
 **Yapılandırılabilir Elektronik faturalama tümleştirmesi** özelliğini açtıktan sonra, **CFDI faturalarını göndermek için Elektronik faturayı dışa/içe aktar** işlemi (**Alacak hesapları \> Fatura \> E-faturalar**) artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
 
 > [!NOTE]
-> Yeni **Elektronik belge gönder** işlemini kullanmadan önce, Meksika e-faturaları için gerekli olan kurulumun tamamlandığını doğrulayın. Daha fazla bilgi için bkz. [CFDI düzen sürümü 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Yeni **Elektronik belge gönder** işlemini kullanmadan önce, Meksika e-faturaları için gerekli olan kurulumun tamamlandığını doğrulayın. Daha fazla bilgi için bkz. [CFDI düzen sürümü 3.3](./latam-mex-cfdi-3-3.md).
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönder** sayfasına gidin.
 2. Herhangi bir belgenin ilk gönderimi için, **Belgeyi yeniden gönder** seçeneğini her zaman **Hayır** olarak ayarlayın. Belgeyi servis aracılığıyla yeniden göndermeniz gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın.
 3. **Dahil edilecek kayıtlar** hızlı sekmesinde, gönderilecek belgeleri seçmek üzere bir sorgu oluşturabileceğiniz **Sorgulama** iletişim kutusunu açmak için **Filtre**'yi seçin.
 
-![Bir CFDI belgesi gönderme](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
+![Bir CFDI belgesi gönderme.](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
 > Servis aracılığıyla ilk belgeyi gönderme denemeniz sırasında, Elektronik faturalama ile bağlantıyı onaylamanız istenecektir. **Elektronik Belge Gönderme Hizmetine bağlanmak için burayı tıklayın** ögesini seçin.
@@ -237,11 +258,11 @@ Gönderme günlüklerini gönderilen tüm belgelerin veya yalnızca gönderilen 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönderme günlüğü** sayfasına gidin.
 2. **Belge türü** alanında, gerekli elektronik belgelerle ilgili olarak filtre uygulamak için **Müşteri fatura günlüğü** seçeneğini belirleyin.
 
-    ![Gönderme günlüklerinin görüntülemek üzere bir belge türü seçme](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
+    ![Gönderme günlüklerinin görüntülemek üzere bir belge türü seçme.](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
 3. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları**'nı seçin.
 
-    ![Gönderme günlüğü ayrıntılarını görüntüleme](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
+    ![Gönderme günlüğü ayrıntılarını görüntüleme.](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
 
 Gönderme günlüklerindeki bilgiler üç hızlı sekme arasında bölünür:
 
@@ -259,7 +280,7 @@ Gönderilen CFDI faturası yetkilendirilirse, durumu **Onaylandı** olarak günc
 2. **Yapılandırılabilir Elektronik faturalama tümleştirme** özelliği etkinleştirildikten sonra gönderilen bir CFDI faturası seçin.
 3. Eylem Bölmesi'ndeki **Geçmiş** sekmesinde, **Elektronik belge günlüğü**'nü seçin.
 
-![CFDI faturalarından gönderme günlüklerini görüntüleme](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
+![CFDI faturalarından gönderme günlüklerini görüntüleme.](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
 > **Yapılandırılabilir Elektronik faturalama tümleştirme** özelliği açılmadan önce gönderilen CFDI faturaları için **Geçmiş** düğmesi kullanılabilir. **Yapılandırılabilir Elektronik faturalama tümleştirme** özelliği açıldıktan sonra gönderilen CFDI faturaları için **Geçmiş** düğmesi kullanılamaz.
@@ -282,11 +303,11 @@ Gönderilen CFDI faturası yetkilendirilirse, durumu **Onaylandı** olarak günc
 
     **İlgili gönderimler** sayfası, belirli bir CFDI faturası için tüm ilgili gönderimleri ve bunların gönderim durumlarını gösterir. Aşağıdaki çizimde, ilk satır, CFDI faturasının onayını talep eden gönderimi temsil eder. İkinci satır, bu CFDI faturasını iptal eden gönderimi temsil eder.
 
-    ![İptal gönderim günlüklerini görüntüleme](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
+    ![İptal gönderim günlüklerini görüntüleme.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
 
 4. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları**'nı seçin.
 
-    ![İptal gönderim günlüğü detaylarını görüntüleme](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
+    ![İptal gönderim günlüğü detaylarını görüntüleme.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
 **CFDI Meksika elektronik fatura (MX)** özelliğinin etkinleştirilmesi kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bir yönetici, **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** sayfasına giderek **CFDI Meksika elektronik fatura (MX)** özelliğini etkinleştirebilir ve devre dışı bırakabilir. **Özellikler** sekmesini seçin, **CFDI Meksika elektronik fatura (MX)** özelliğini içeren satırları seçin ve sonra uygun seçimi yapın. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.

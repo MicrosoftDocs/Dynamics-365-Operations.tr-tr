@@ -1,39 +1,41 @@
 ---
 title: Bir kazançlar programı tanımlama ve yönetme
-description: İnsan kaynakları bir organizasyonun sunduğu veya çalışanları için yürürlüğe koyduğu kazançları, kesintileri ve çalışanların tazminat planlarını oluşturmak ve bunları yönetmek için kullanılabilecek bir takım araçlar sağlar. Bu makalede bir kazanç yönetiminin nasıl kurulacağı hakkında bilgiler verilmiştir.
-author: andreabichsel
-ms.date: 02/03/2020
+description: İnsan kaynakları bir organizasyonun sunduğu veya çalışanları için yürürlüğe koyduğu kazançları, kesintileri ve çalışanların tazminat planlarını oluşturmak ve bunları yönetmek için kullanılabilecek bir takım araçlar sağlar. Bu konuda kazançların nasıl kurulacağı ve yönetileceği hakkında bilgiler verilmiştir.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1616f4ac72668e8dd0b9ff3d6962848871b1bbc6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1f2bfa901aa299a091194978ee95ff0e69f2cdbf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804997"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065363"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Kazanç programı tanımlama ve yönetme
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Human Resources bir kuruluşun sunduğu veya çalışanları için yürürlüğe koyduğu kazançları, kesintileri ve çalışanların tazminat planlarını oluşturmak ve bunları yönetmek için kullanılabilecek bir takım araçlar sağlar. Bu makalede bir kazanç yönetiminin nasıl kurulacağı hakkında bilgiler verilmiştir.
+Human Resources bir kuruluşun sunduğu veya çalışanları için yürürlüğe koyduğu kazançları, kesintileri ve çalışanların tazminat planlarını oluşturmak ve bunları yönetmek için kullanılabilecek bir takım araçlar sağlar. Bu konuda kazançların nasıl kurulacağı ve yönetileceği hakkında bilgiler verilmiştir.
 
 ## <a name="benefit-setup"></a>Kazanç kurulumu
 
 Çalışanları bir kazanca kaydetmeden önce her bir kazanç için öğeler oluşturmanız gerekir. Bu öğeler benzer kazanç planlarını birleştirir ve indirim oranları ve muhasebe ayrıntıları vb. gibi varsayılan ayarları tanımlar. Bu ayarların birçoğu, çalışanlar daha sonra kazanda kaydedildiklerinde ayarlanabilir. Bir organizasyon, her bir kazanç planı için birden fazla kayıt seçeneği sunabilir veya bir çalışan, plana kaydolmaktan feragat edebilir. 
 
-[![Kazanç süreç akışı](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Kazanç süreci akışı.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Kazanç öğeleri
 
@@ -45,7 +47,7 @@ Kazançlar oluşturmadan ve çalışanları bu kazançlara kaydetmeden önce, ka
 
 Bir organizasyon göz tedavileri veya diş tedavileri vb. gibi her bir kazanç türü için çalışanlarına bir veya birden fazla plan sunabilir. Her bir plan için organizasyon farklı seçenekler sunabilir. Örneğin, çalışanlar yıllık kazançlarının bir, iki veya üç katına kadar ilave hayat sigortası kapsamı satın alabilirler. Her bir plan kombinasyonu ve seçenekler, çalışanların kaydolabileceği bir kazanç haline gelir. 
 
-[![kazanç fotoğrafı](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![kazanç fotoğrafı.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Uygunluk
 Bir işverenin sunduğu çeşitli kazanç türleri için çalışanın uygunluğunu belirleyen çok sayıda faktör bulunmaktadır. Dynamics 365 Human Resources'ta bir kazanç oluşturduğunuzda bu kazanç için geçerli uygunluk türünü ayarlayabilirsiniz. 
