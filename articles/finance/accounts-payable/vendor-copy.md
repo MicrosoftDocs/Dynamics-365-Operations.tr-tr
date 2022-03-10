@@ -1,26 +1,24 @@
 ---
 title: Paylaşılan numara sıralarını kullanarak satıcıları kopyalama
 description: Bu konuda, bir satıcıyı aynı satıcı kodunu koruyarak başka bir tüzel kişiliğe kopyalamak için paylaşılan numara sıralarının nasıl kullanılacağı açıklanmaktadır.
-author: mikefalkner
-manager: aolson
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c528ea166ad634bf4fe8b1e047dbd6696dff029b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214512"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358477"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Paylaşılan numara sıralarını kullanarak satıcıları kopyalama
 
@@ -38,9 +36,9 @@ Ayrıca, el ile satıcı kodları kullanıyorsanız satıcıları tüzel kişili
 
 ## <a name="copy-a-vendor"></a>Satıcı kopyalama
 
-Bir satıcıyı kopyalamak için **Tüm satıcılar, yeni kayıt** sayfasını açmak üzere **Tüm satıcılar** liste sayfasında **Yeni**'yi seçin. Yeni satıcı kodunun hemen atanmayacağını unutmayın. Bu davranış, eski sürümlerdeki davranıştan farklıdır. Satıcı grubunu henüz seçmediğiniz için sistem kullanılacak doğru numara sırasını belirleyemez. Ayrıca, yeni bir satıcı oluşturmak mı yoksa bir satıcıyı kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, satıcı kodu sayfanın alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
+Bir satıcıyı kopyalamak için **Tüm satıcılar, yeni kayıt** sayfasını açmak üzere **Tüm satıcılar** liste sayfasında **Yeni**'yi seçin. Yeni satıcı kodu hemen atanmaz. Bu davranış, eski sürümlerdeki davranıştan farklıdır. Satıcı grubunu henüz seçmediğiniz için kullanılacak doğru numara sırası belirlenemez. Ayrıca, yeni bir satıcı oluşturmak mı yoksa bir satıcıyı kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, satıcı kodu sayfanın alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
 
-Yeni bir satıcı oluşturuyorsanız, tüm alanları her zaman olduğu gibi doldurmaya devam edebilirsiniz. Tamamlayıp **Kaydet**'i seçtiğinizde, satıcı kodunun otomatik olarak atandığını görürsünüz. Alternatif olarak, el ile numara sıraları için el ile satıcı kodunuzun kullanıldığını görürsünüz.
+Yeni bir satıcı oluşturuyorsanız tüm alanları her zaman olduğu gibi doldurmaya devam edebilirsiniz. Tamamlayıp **Kaydet**'i seçtiğinizde satıcı kodu otomatik olarak atanır. Alternatif olarak, el ile numara sıraları için el ile satıcı kodunuzun kullanıldığını görürsünüz.
 
 Bir satıcıyı kopyalamak için **Ad** alanına aradığınız satıcıyı temsil eden bir veya daha fazla karakter girin. Bir arama iletişim kutusunda aradığınız satıcıyı temsil ediyor olabilecek tarafların listesi gösterilir. Taraflardan birini seçtiğinizde, iletişim kutusunun sağ tarafında ek bilgiler görüntülenir:
 
@@ -56,11 +54,11 @@ Bir tarafı yalnızca bir satıcı rolüne sahip olması ve bu role geçerli tü
 
 ## <a name="validation"></a>Doğrulama
 
-Bir satıcıyı kopyaladığınızda, sistem yeni satıcı bilgilerini kaydetmeyi dener. Kopyalanan verilerin sağlam olduğundan emin olmak için doğrulamalar çalıştırılır. Başarısız olan her doğrulama için bir hata iletisi alırsınız. Hata iletileri hangi bilgilerin güncelleştirilmesi gerektiğini açıklar. Satıcının kopyası tüm doğrulama hataları düzeltilene kadar kaydedilemez.
+Bir satıcıyı kopyaladığınızda yeni satıcı bilgileri kaydedilmeye çalışılır. Kopyalanan verilerin iyi durumda olduğundan emin olmak için doğrulamalar çalıştırılır. Başarısız olan her doğrulama için bir hata iletisi alırsınız. Hata iletileri hangi bilgilerin güncelleştirilmesi gerektiğini açıklar. Satıcının kopyası tüm doğrulama hataları düzeltilene kadar kaydedilemez.
 
 ## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a>Vergi muafiyet numarası arama özelliğini kullanarak bir satıcıyı kopyalama
 
-**Tüm satıcılar** sayfasının Eylem Bölmesindeki **Satıcı** sekmesinde bulunan **Kayıt** grubundaki Vergi muafiyet numarası arama özelliğini kullanarak da satıcıları kopyalayabilirsiniz. Görüntülenen **Vergi muafiyet numarası arama** iletişim kutusu vergi muafiyet numaralarını, satıcı kodunu, satıcı adını ve vergi muafiyet kodunun kullanıldığı tüzel kişiliği gösterir. Bir satıcıyı yalnızca geçerli tüzel kişilik dışındaki bir tüzel kişilikte olması durumunda kopyalayabilirsiniz. Bu ölçütü karşılayan satıcıyı seçtikten sonra aşağıdaki adımları izleyin.
+**Tüm satıcılar** sayfasının Eylem Bölmesindeki **Satıcı** sekmesinde bulunan **Kayıt** grubundaki **Vergi muafiyet numarası** arama özelliğini kullanarak da satıcıları kopyalayabilirsiniz. Görüntülenen **Vergi muafiyet numarası arama** iletişim kutusu vergi muafiyet numaralarını, satıcı kodunu, satıcı adını ve vergi muafiyet kodunun kullanıldığı tüzel kişiliği gösterir. Bir satıcıyı yalnızca geçerli tüzel kişilik dışındaki bir tüzel kişilikte olması durumunda kopyalayabilirsiniz. Bu ölçütü karşılayan satıcıyı seçtikten sonra aşağıdaki adımları izleyin.
 
 1. **Satıcıyı kopyala** seçeneği görüntülenir. Varsayılan olarak bu seçenek **Hayır** olarak ayarlanmıştır. Satıcıyı geçerli tüzel kişiliğe kopyalamak için seçeneği **Evet** olarak ayarlayın.
 2. **Seç** öğesini seçin. Yeni satıcı oluşturulur.
