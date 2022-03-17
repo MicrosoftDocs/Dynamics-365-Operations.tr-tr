@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102925"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384680"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 
@@ -217,5 +217,15 @@ Mühendislik değişikliği emirlerindeki alanların çoğu, serbest bırakılan
 
 Değişiklik bilgilerini etkilenen ürünler arasında kopyalamak için **Bilgileri koru/kopyala** düğmesini kullanabilirsiniz.
 
+## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Onay ve etkin ürün reçeteleri ve rotalar için elektronik imza kullan
+
+Ürün reçetelerini ve/veya rota değişikliklerini onaylamak ve/veya etkinleştirmek üzere elektronik imza kullanmak için, **Kuruluş yönetimi \> Kurulum \> Elektronik imzalar \> Elektronik imza gereksinimleri**'ne gidin. Daha sonra, aşağıdaki her bir öğenin **İmza gerekli** ayarının *Evet* olarak belirlendiğinden emin olun:
+
+- Mühendislik değişiklik emri ürün reçetesini etkinleştir
+- Mühendislik değişiklik emri ürün rotasını etkinleştir
+- Mühendislik değişiklik emri ürün reçetesini onayla
+- Mühendislik değişiklik emri ürün rotasını onayla
+- Mühendislik sürümü ürün reçetesi ve ürün reçetesi sürümlerini onayla
+- Mühendislik sürümü ve rota sürümü
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

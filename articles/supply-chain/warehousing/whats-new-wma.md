@@ -2,7 +2,7 @@
 title: Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni ve değiştirilmiş özellikleri listeler.
 author: Mirzaab
-ms.date: 01/18/2022
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067263"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384383"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20170"></a>Sürüm 2.0.17.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- Barkodların yanlış taranmasına neden olan bir sorun düzeltildi.
+- Kamera tarayıcısı ile ilgili GS1 taraması sorunu düzeltildi.
+- Zebra cihazlarında barkod tarayıcısı için GS1 tarama sorunu düzeltildi.
+- Sapma sorgu akışı artırıldı, bu nedenle sapmada bir kartın seçilmesi şimdi ana akışa geri döner.
+- Genel veri sorgulama akışı desteği eklendi.
+- Kullanıcılara, ağ bağlantısı durumundaki değişiklikler hakkında bilgi vermek için bir ileti eklendi.
+- Android 10'da depolama gizlilik ilkesi ile hizalanmış depolama izinleri.
+- İhtiyaç duyan akışlar için, miktar değiştiricisi şimdi kullanıcıların boş bir sayısal değer göndermesine olanak tanıyan bir konum içerir.
+- Miktar döndürücü yönlendirmesiyle ilgili sorunlar düzeltildi.
+- Miktar döndürücünün yanlış değere atladığı bir sorun düzeltildi.
+- Birincil sayfaya girişin, ayrıntılar sayfasından doldurulması sırasında kaybolduğu bir sorun düzeltildi.
+- Seçim listelerinde yer tutucu metinin ilk seçilen değer olarak muamele gördüğü sorun düzeltildi.
+- Önceden seçilmiş değerler varsa, onay adımlarında "Gönder" düğmesi artık otomatik olarak etkinleştirilir.
+- Birden çok satıra sahip metin alanları için mümkün olan sayıda satırı göstermek üzere ayrıntılar kartı düzeltildi.
+- "Gönder" ve "Diğer eylemler" düğmelerinin yüksekliği düzeltildi, artık ekranda daha az yer kaplar.
+- Eksik seçim listesi başlıkları eklendi.
+- Geri düğmesinin çalışmadığı bir sorun düzeltildi.
+- Aşağıdaki sayfalara dahil çeşitli klavye gezinti düzeltmeleri ve geliştirmeleri eklendi:
+  - Kullanıcı oturum açma
+  - Bağlantı seçimi
+  - Bağlantıyı düzenle
+- Klavye gezintisi kullanılırken kaydırma düzeltildi.
+- Aşağıdaki geliştirmeleri de içeren gelişmiş erişilebilirlik özellikleri:
+  - Renk görünürlüğü ve kontrast düzeltildi.
+  - Açılır sayfalar kapatıldığında klavye odağı kaybı düzeltildi.
+  - Hata iletileri anlatıma eklendi.
+  - Adım başlık satırında yer tutucu değerlerin boyutu artırıldı.
+- Demo modunda özel eski sayfa örneği düzeltildi.
 
 ## <a name="version-20150"></a>Sürüm 2.0.15.0
 
@@ -39,7 +72,7 @@ Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri iç
 ## <a name="version-20130"></a>Sürüm 2.0.13.0
 
 Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
- 
+
 - Daha yumuşak animasyona sahip, sayfalar arasında iyileştirilmiş kaydırma.
 - Kaydırma hareketleriyle ilgili sezgisel olmayan yanıtlar ve zaman zaman donan ekranlar çözüldü.
 - Daha iyi okunabilmesi için koyu mod metin ve arka plan renk birleşimleri geliştirildi.

@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5b07c1d4c2189184b2ad29d46ec2aef0ee03c1c0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985374"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358231"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Otomatik olarak satıcı faturalarına uygula
 
@@ -36,12 +36,12 @@ Aşağıdaki noktalar, farklı satınalma işlemleri izleninceye kadar peşinatl
 - **Her satınalma siparişi için birden fazla satıcı faturası** – Satınalma siparişindeki ön ödeme, öncelikle satıcı faturasına uygulanır. Ön ödeme tutarı fatura tutarını aşarsa, ön ödeme uygulaması başarısız olur ve ön ödemeyi el ile uygulamanız gerekir.
 - **Birden fazla satınalma siparişi için birden fazla satıcı faturası** – Satınalma siparişlerindeki ön ödemeler, öncelikle ilgili satıcı faturasına uygulanır. Ön ödeme tutarı fatura tutarını aşarsa, ön ödeme uygulaması başarısız olur ve ön ödemeleri el ile uygulamanız gerekir. Ön ödemeler sonrasında kalan tüm ön ödemeler ilk faturaya uygulandıktan sonra, bunlar izleyen faturalara uygulanabilir.
 
-Sistem bir ön ödeme uygulamaya çalışırsa, ancak uygulama başarısız olduysa, davranış, **Ön ödeme uygulama hatası durumunda takip otomasyonu işlemini engelle** ayarına bağlıdır:
+Bir ön ödeme uygulamaya çalışılırsa ancak ön ödeme başarısız olduysa, **Ön ödeme uygulama hatası durumunda takip otomasyonu işlemini engelle** ayarı sonraki adımları belirler:
 
 - **Evet** – "Ön ödemeyle ilgili otomatik uygulama: Başarısız oldu" hata iletisi, otomasyon geçmişine eklenir ve fatura bekleyen satıcı faturaları listesinde kalır. Ön ödeme el ile uygulanıncaya kadar fatura bloke olarak kalacaktır.
 
-    Peşinatları el ile uygulamak için, bekleyen satıcı faturasına gidin. **Fatura ayrıntıları** sayfasında, bloke edilecek fatura için, **Otomatik olarak işleme dahil et** seçeneğini **Hayır** olarak ayarlayın. Şimdi ön ödemeyi el ile uygulayabilirsiniz. Ön ödeme uygulandıktan sonra, faturanın otomatik olarak işlenebilir olması için **Otomatik olarak işlenmek üzere dahil et** seçeneğini tekrar **Evet** olarak ayarlayın.
+Peşinatları el ile uygulamak için, bekleyen satıcı faturasına gidin. **Fatura ayrıntıları** sayfasında, bloke edilecek fatura için, **Otomatik olarak işleme dahil et** seçeneğini **Hayır** olarak ayarlayın. Şimdi ön ödemeyi el ile uygulayabilirsiniz. Ön ödeme uygulandıktan sonra, faturanın otomatik olarak işlenebilir olması için **Otomatik olarak işlenmek üzere dahil et** seçeneğini tekrar **Evet** olarak ayarlayın.
 
-    **Otomatik işleme dahil et** seçeneğini **Hayır** olarak ayarlayıp tekrar **Evet**'e ayarlayarak, ön ödeme uygulamasını da atlayabilirsiniz. Şu iletiyi alırsınız: "Satınalma siparişi için bir ön ödeme zaten var. Seçili satıcı faturası için bunu yok saymak istiyor musunuz?" **Evet**'i seçin. Otomatik süreç yeniden çalıştırıldığında, "Ön ödeme uygulaması el ile atlandı" iletisi otomasyon geçmişine eklenir ve satıcı faturası bloke edilmez.
+**Otomatik işleme dahil et** seçeneğini **Hayır** olarak ayarlayıp tekrar **Evet**'e ayarlayarak, ön ödeme uygulamasını da atlayabilirsiniz. Şu iletiyi alırsınız: "Satınalma siparişi için bir ön ödeme zaten var. Seçili satıcı faturası için bunu yok saymak istiyor musunuz?" **Evet**'i seçin. Otomatik süreç yeniden çalıştırıldığında, "Ön ödeme uygulaması el ile atlandı" iletisi otomasyon geçmişine eklenir ve satıcı faturası bloke edilmez.
 
 - **Hayır** – İzleme otomasyon süreçleri devam edecek. Ön ödemeyi kapatma sırasında yine de uygulayabilirsiniz.

@@ -2,7 +2,7 @@
 title: Klavye kısayolları
 description: Bu konu, Finans ve Operasyon uygulamalarıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerinin genel görünümünü sağlar.
 author: jasongre
-ms.date: 02/11/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 7d66c1fd08c29b85ca14bf1ae5d08c603e4a1945
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119564"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384575"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -199,9 +199,12 @@ Kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden
 | Ana sayfa içeriğine taşı (başka bir panoda odak ile)                    | Alt+M,M                    |
 | FactBox bölmesine taşı (açmayı içerebilir)                       | Alt+M,B veya Ctrl+F2         |
 
+> [!NOTE]
+> Sürüm 10.0.26'da kullanıma sunulan **Tam sayfa biçimli formlarda sekme geçişi davranışını sadeleştir** özelliği, kullanıcıların fare veya özel bir klavye kısayolu ile bölgeler arasında hareket etmesine gerek kalmadan bir sayfanın tüm bölgelerinde sekme geçişi yapmasına olanak tanır. Sayfadaki bölgeler arasında hızla hareket ettirmek için varolan klavye kısayollarını (örneğin, alt + M tuş birleşimi) kullanabilirsiniz.
+
 ## <a name="personalization-shortcuts"></a>[Kişiselleştirme](personalize-user-experience.md) kısayolları 
 
-| Bunu yapmak için                                                                                                             | Basın                               |
+| Bunu yapmak için                                                                                                             | Şuna basın:                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | Sayfayı kişiselleştirme moduna geçir                                                                          | Ctrl+Shift+P                        |
 | Seçme aracını kullan (kişiselleştirme modunda)                                                                     | S                                   |

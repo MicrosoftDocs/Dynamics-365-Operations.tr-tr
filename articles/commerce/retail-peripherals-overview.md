@@ -2,27 +2,22 @@
 title: Çevre birimleri
 description: Bu konu, Commerce çevre birimleriyle ilgili kavramları açıklar.
 author: BrianShook
-ms.date: 02/04/2022
-ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
+ms.date: 03/01/2022
+ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "268444"
 - intro-internal
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: fa9b8c79d1b3b5ed04a7d277bf09cd05dbd332d2
+ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092496"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370988"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
@@ -45,9 +40,9 @@ Cihazlar aşağıdaki uygulama türlerine eşlenebilir: Retail Modern POS, Retai
 
 ### <a name="modern-pos"></a>Modern POS
 
-Modern POS, Microsoft Windows için POS programıdır. Windows 10 işletim sistemlerinde (OSs) dağıtılabilir.
+Modern POS, Microsoft Windows için POS programıdır. Windows 10 ve Windows 11 işletim sistemlerinde dağıtılabilir.
 
-### <a name="cloud-pos"></a>Bulut POS
+### <a name="cloud-pos"></a>Cloud POS
 
 Bulut POS Modern POS programının bir web tarayıcısından erişilebilen tarayıcı tabanlı sürümüdür.
 
@@ -108,7 +103,7 @@ Kişisel kimlik numarası (PIN) pad'ler OPOS ile desteklenir, ancak bir ödeme b
 
 ### <a name="secondary-display"></a>İkincil ekran
 
-İkincil bir ekran yapılandırıldığında, temel bilgileri görüntülemek için 2 numaralı Windows ekranı kullanılır. İkincil ekranın amacı, bağımsız yazılım satıcısı (ISV) uzantısını desteklemektir, çünkü hazır durumda, ikincil ekran yapılandırılmaz ve sınırlı içerik gösterir.
+İkincil bir ekran yapılandırıldığında, temel bilgileri görüntülemek için 2 numaralı Windows ekranı kullanılır. Varsayılan olarak, ikincil görüntü konfigüre edilebilir değildir ve sınırlı içeriği gösterir. İkincil görüntünün amacı, bağımsız yazılım satıcısı (ISV) uzantısını desteklemedir. 
 
 ### <a name="payment-device"></a>Ödeme cihazı
 
@@ -132,7 +127,7 @@ Commerce ile en geniş cihaz yelpazesinin kullanılabilmesini sağlamaya yardım
 POS'ta makbuz yazdırm OPOS için optimize edilmiştir. OPOS Windows ile yazdırmaya göre daha hızlı olma eğilimindedir. Bu nedenle, özellikle 40 sütunlu makbuzların yazdırıldığı ve hareket sürelerinin hızlı olduğu ortamlarında OPOS kullanmak iyi bir fikirdir. Çoğu cihaz için OPOS denetimleri kullanacaksınız. Ancak, bazı OPOS makbuz yazıcılar Windows sürücüleri de destekler. Windows sürücüsü kullanarak, son yazı tiplerine ve birden çok kasa için bir ağ yazıcısına erişebilirsiniz. Ancak, Windows sürücüleri kullanmanın dezavantajları vardır. Aşağıda bazı dezavantaj örnekleri verilmiştir:
 
 -   Windows sürücüleri kullanıldığında, görüntüler yazdırma oluşmadan önce işlenir. Bu nedenle, yazdırma OPOS denetimleri kullanan yazıcılara göre daha yavaş olma eğilimindedir.
--   Yazıcı aracılığıyla bağlanan cihazlar ("papatya zinciri") Windows sürücüleri kullanıldığında düzgün çalışmayabilir. Örneğin, kasa çekmecesi açılamayabilir veya slip yazıcısı beklediğiniz gibi çalışmayabilir.
+-   Yazıcı aracılığıyla bağlanan cihazlar ("papatya zinciri") Windows sürücüleri kullanıldığında düzgün çalışmayabilir. Örneğin, kasa çekmecesi açılamayabilir veya fiş yazıcısı beklediğiniz gibi çalışmayabilir.
 -   Ayrıca OPOS kağıt kesme veya slip yazdırma gibi makbuz yazıcılara özgü daha geniş bir değişkenler kümesini destekler.
 -   Windows yazıcıları, IIS donanım istasyonu aracılığıyla desteklenmez. 
 
@@ -176,15 +171,15 @@ Ayrılan donanım istasyonunu kullanmak için aşağıdaki adımları izleyin.
 1. Modern POS'u çekmece dışı modda açın ve donanım istasyon özelliklerini açmak için **Donanım istasyonlarını yönet** işlemini kullanın. Ayrılmış donanım istasyonu varsayılan olarak etkin olacaktır. 
 1. Modern POS oturumunu kapatın. Sonra tekrar oturum açın ve vardiya açın. Donanım profilinde yapılandırılan çevre birimleri şimdi kullanılabilir olacak. 
 
-### <a name="shared"></a>Paylaştırılmış 
+### <a name="shared"></a>Paylaştırılmış
 
 Ayrıca bazen, POS uygulamasının Microsoft Internet Information Services aracılığıyla donanım istasyonuna bağlandığı "IIS" donanım istasyonu, "IIS" olduğu da denir. POS uygulaması IIS donanım istasyonuna cihazların bağlandığı bilgisayarda çalışan web hizmetleri aracılığıyla bağlanır. Paylaşılan donanım istasyonu kullanıldığında, donanım istasyonuna bağlanan çevrebirimleri IIS donanım istasyonuyla aynı ağda olan herhangi bir POS kasası tarafından kullanılabilir. Yalnızca Windows ve Android için Modern POS çevre birimleri için yerleşik destek içerdiğinden, diğer tüm Modern POS uygulamalarının donanım profilinde yapılandırılmış POS çevre birimleri ile iletişim kurmak için IIS donanım istasyonunu kullanması gerekir. Bu nedenle, IIS donanım istasyonun her kurulumu web hizmetini çalıştıran bir bilgisayar ve cihazlarla iletişim kuran uygulama gerektirir. 
 
-Paylaşılan donanım istasyonu, çevre birimlerinin birden çok satış noktası tarafından paylaşılmasını sağlamak için veya tek bir satış noktası için taahhüt edilen küme veya çevrebirimleri yönetmek için kullanılabilir. 
+Paylaşılan donanım istasyonu, çevre birimlerinin birden çok satış noktası tarafından paylaşılmasını sağlamak için veya tek bir satış noktası için taahhüt edilen çevrebirimleri kümesini yönetmek için kullanılabilir. 
 
 Çoklu POS istemcileri arasındaki çevre birimlerinin paylaşımını desteklemek için bir donanım istasyonu kullanıldığında, yalnızca nakit çekmecesi, makbuz yazıcıları ve ödeme terminalleri kullanılmalıdır. Bağımsız barkod tarayıcıları, MSR'leri, satır görüntüleme cihazlarını, terazileri veya diğer cihazları doğrudan bağlayamazsınız. Aksi halde, birden fazla POS cihazı aynı anda çevre birimlerinden talepte bulunmaya çalıştığında çakışmalar oluşur. Desteklenen aygıtlar için çakışmalar şu şekilde yönetilir:
 
--   **Kasa çekmecesi** – Kasa çekmecesi cihaza gönderilen bir olay ile açılır. Kasa çekmecesi çağrıldığında oluşabilecek tek sorun kasa çekmecesinin zaten açık olması durumunda oluşur. Paylaşılan donanım istasyonları durumunda, kasa çekmecesi donanım profilinde **Paylaşılan** olarak ayarlanmalıdır. Bu ayar, POS'un açma komutları gönderdiğinde kasa çekmecesinin zaten açık olup olmadığını denetlemesini önler.
+-   **Kasa çekmecesi** – Kasa çekmecesi cihaza gönderilen bir olay ile açılır. Kasa çekmecesinin, çekmece açıkken çağrılması durumunda sorun yaşanabilir. Paylaşılan donanım istasyonu yapılandırmasında kullanılan bir kasa çekmecesi, donanım profilinde **Paylaşılan** olarak ayarlanmalıdır. Bu ayar, POS'un açma komutları gönderdiğinde kasa çekmecesinin zaten açık olup olmadığını denetlemesini önler.
 -   **Makbuz yazıcısı** – İki makbuz yazdırma komutu donanım istasyona aynı ayna gönderilirse, aygıta bağlı olarak komutlardan biri kaybolabilir. Bazı cihazlar bu sorunu önleyebilecek dahili belleğe veya havuza sahiptir. Yazdırma komutu başarılı olmazsa, kasiyer bir hata iletisi alır ve yazdır komutunu POS'tan yeniden deneyebilir.
 -   **Ödeme terminali** – Kasiyer bir hareketi zaten kullanılmakta olan ödeme terminalinden ödemeye çalışırsa, terminalin kullanılmakta olduğu kasiyere bir mesajla bildirilir ve daha sonra tekrar denemesi istenir. Genellikle, kasiyerler bir terminalin zaten kullanılmakta olduğunu görebilir ve ödemeyi yeniden denemeden önce diğer hareketin tamamlanmasını bekleyecektir.
 
@@ -205,7 +200,7 @@ Fiziksel olarak bağlı olan ve ağa adreslenebilir çevre birimleri yöneten ma
 ## <a name="setup-and-configuration"></a>Kurulum ve yapılandırma
 ### <a name="hardware-station-installation"></a>Donanım istasyonu yükleme
 
-Bilgi için bkz. [Donanım istasyonunu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
+IIS Donanım istasyonu yükleme hakkında daha fazla bilgi için bkz. [Donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Windows için Modern POS kurulumu ve yapılandırması
 
@@ -431,7 +426,7 @@ Ağ çevre birimleri doğrudan Windows ve Android uygulamaları için Modern POS
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri
+### <a name="all-modern-pos-clients-that-share-an-iis-hardware-station"></a>Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri
 
 > [!NOTE]
 > IIS donanım istasyonu "paylaşıldığında", aynı anda birden çok cihaz donanım istasyonunu kullanabilir. Bu senaryoda, yalnızca aşağıdaki tabloda listelenen cihazları kullanmanız gerekir. Barkod tarayıcılar ve MSR'ler gibi burada listelenmeyen cihazları paylaştırmayı denerseniz, birden fazla cihaz aynı çevre birimden talepte bulunmaya çalıştığında hatalar oluşacaktır. Gelecekte bu tür bir yapılandırma açıkça engellenecektir.
@@ -487,7 +482,7 @@ Ağ çevre birimleri doğrudan Windows ve Android uygulamaları için Modern POS
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Desteklenen senaryolar için yapılandırma
-Donanım profilleri oluşturma hakkında daha fazla bilgi için bkz. [Kasalar ve donanım istasyonları dahil olmak üzere kanal istemcilerini tanımlama ve koruma](define-maintain-channel-clients-registers-hw-stations.md). 
+Donanım profilleri oluşturma hakkında daha fazla bilgi için bkz. [Çevre birimlerini satış noktasına (POS) bağlama](define-maintain-channel-clients-registers-hw-stations.md). 
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Windows için Modern POS, IPC (yerleşik) donanım istasyonu ile
 
@@ -623,9 +618,8 @@ Aşağıdaki çevre birimler Windows için Modern POS içine yerleşik olan IPC 
 | Üretici | Model    | Arabirim | Açıklamalar                |
 | ------------ | -------- | --------- | ----------------------- |
 | Epson        | TM-T88V  | OPOS      |                         |
-| Epson        | TM-T88VI | OPOS      |                         |
-| Epson        | TM-T88   | Özel    | Ağ üzerinden bağlı   |
-| HP           | F7M67AA  | OPOS      | Güç beslemeli USB             |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | Güç beslemeli USB             |
 | Star         | TSP650II | Özel    | Ağ üzerinden bağlı   |
 | Star         | mPOP     | OPOS      | Bluetooth ile bağlı |
 | Toshiba      | HSP100   | OPOS      |                         |
@@ -636,31 +630,22 @@ Aşağıdaki çevre birimler Windows için Modern POS içine yerleşik olan IPC 
 
 #### <a name="bar-code-scanner"></a>Barkod tarayıcısı
 
-| Üretici  | Model         | Arabirim | Yorumlar |
-|---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Simge        | LS2208        | OPOS      |          |
-| HP Tümleşik | E1L07AA       | OPOS      |          |
+| Üretici  | Model         | Arabirim | Açıklamalar |
+| ------------- | ------------- | --------- | -------- |
 | Datalogic     | Magellan 8400 | OPOS      |          |
+| Honeywell     | 1900          | UWP       |          |
+| HP Tümleşik | E1L07AA       | OPOS      |          |
+| Simge        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>PIN pad
+#### <a name="payment-terminals-and-pin-pads"></a>Ödeme terminalleri ve PIN pedleri
 
-| Üretici | Model  | Arabirim | Yorumlar                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Ödeme bağlayıcısı için özelleştirme gerektirir |
+Dynamics 365 Commerce, Adyen ödeme hizmetleri ile tümleştirme için kullanıma hazır bir çözüm sağlar. [Adyen için Dynamics 365 Ödeme Bağlayıcısı](dev-itpro/adyen-connector.md), aygıt belirsiz [Adyent Ödeme Terminali uygulama programlama arabirimi (API)](https://www.adyen.com/blog/introducing-the-terminal-api) kullanır ve bu API'nin desteklediği tüm ödeme terminalleriyle etkileşim kurabilir. Desteklenen ödeme terminallerinin tam listesi için, bkz. [Adyen POS terminalleri](https://www.adyen.com/pos-payments/terminals).
 
-#### <a name="payment-terminal"></a>Ödeme terminali
-
-| Üretici | Model | Arabirim | Yorumlar                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir                                |
-| VeriFone     | MX925 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
-| VeriFone     | MX915 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
+Özel bir bağlayıcı oluşturarak Dynamics 365 Commerce ile farklı ödeme sağlayıcıları da kullanabilirsiniz. Ödeme sağlayıcısı tarafından desteklenen herhangi bir ödeme terminali, Dynamics 365 Commerce ile kullanılabilir. Benzer şekilde, Dynamics 365 Commerce POS'un yerel IP, bulut API veya doğrudan bağlantı (örneğin, USB yoluyla) tarafından desteklenen herhangi bir ödeme aygıtı tümleştirme modeli için bir olanak sağlar. Daha fazla bilgi için bkz. [Ödeme terminali için uçtan uca ödeme tümleştirmesi oluşturma](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Kasa çekmecesi
 
-| Üretici | Model     | Arabirim | Yorumlar                |
+| Üretici | Model     | Arabirim | Açıklamalar                |
 |--------------|-----------|-----------|-------------------------|
 | Star         | mPOP      | OPOS      | Bluetooth ile bağlı |
 | APG          | Atwood    | Özel    | Ağ üzerinden bağlı   |
@@ -670,14 +655,14 @@ Aşağıdaki çevre birimler Windows için Modern POS içine yerleşik olan IPC 
 
 #### <a name="line-display"></a>Satır görüntüleme
 
-| Üretici  | Model   | Arabirim | Yorumlar |
-|---------------|---------|-----------|----------|
-| HP tümleşik | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| Üretici | Model    | Arabirim | Açıklamalar |
+| ------------ | -------- | --------- | -------- |
+| Epson        | DM-D110  | OPOS      |          |
+| HP           | T serisi | OPOS      |          |
 
-#### <a name="signature-capture"></a>İmza alma
+#### <a name="signature-capture"></a>İmza yakalama
 
-| Üretici | Model  | Arabirim | Yorumlar |
+| Üretici | Model  | Arabirim | Açıklamalar |
 |--------------|--------|-----------|----------|
 | Scriptel     | ST1550 | OPOS      |          |
 
@@ -701,43 +686,33 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile adanmış
 
 #### <a name="printer"></a>Yazıcı
 
-| Üretici | Model    | Arabirim | Açıklamalar              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88V  | Özel    | Ağ üzerinden bağlı |
-| HP           | F7M67AA  | OPOS      | Güç beslemeli USB           |
-| Star         | TSP650II | Özel    | Ağ üzerinden bağlı |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
-
-
+| Üretici | Model    | Arabirim | Açıklamalar                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | Güç beslemeli USB             |
+| Star         | TSP650II | Özel    | Ağ üzerinden bağlı   |
+| Star         | mPOP     | OPOS      | Bluetooth ile bağlı |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="bar-code-scanner"></a>Barkod tarayıcısı
 
-| Üretici  | Model   | Arabirim | Açıklamalar |
-|---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Simge        | LS2208  | OPOS      |          |
-| HP Tümleşik | E1L07AA | OPOS      |          |
+| Üretici  | Model         | Arabirim | Açıklamalar |
+| ------------- | ------------- | --------- | -------- |
+| Datalogic     | Magellan 8400 | OPOS      |          |
+| HP Tümleşik | E1L07AA       | OPOS      |          |
+| Simge        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>PIN pad
+#### <a name="payment-terminals-and-pin-pads"></a>Ödeme terminalleri ve PIN pedleri
 
-| Üretici | Model  | Arabirim | Yorumlar                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Ödeme bağlayıcısı için özelleştirme gerektirir |
+Dynamics 365 Commerce, Adyen ödeme hizmetleri ile tümleştirme için kullanıma hazır bir çözüm sağlar. [Adyen için Dynamics 365 Ödeme Bağlayıcısı](dev-itpro/adyen-connector.md), aygıt belirsiz [Adyent Ödeme Terminali API](https://www.adyen.com/blog/introducing-the-terminal-api) kullanır ve bu API'nin desteklediği tüm ödeme terminalleriyle etkileşim kurabilir. Desteklenen ödeme terminallerinin tam listesi için, bkz. [Adyen POS terminalleri](https://www.adyen.com/pos-payments/terminals).
 
-#### <a name="payment-terminal"></a>Ödeme terminali
-
-| Üretici | Model | Arabirim | Yorumlar                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir                                |
-| VeriFone     | MX925 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
-| VeriFone     | MX915 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
+Özel bir bağlayıcı oluşturarak Dynamics 365 Commerce ile farklı ödeme sağlayıcıları da kullanabilirsiniz. Ödeme sağlayıcısı tarafından desteklenen herhangi bir ödeme terminali, Dynamics 365 Commerce ile kullanılabilir. Benzer şekilde, Dynamics 365 Commerce POS'un yerel IP, bulut API veya doğrudan bağlantı (örneğin, USB yoluyla) tarafından desteklenen herhangi bir ödeme aygıtı tümleştirme modeli için bir olanak sağlar. Daha fazla bilgi için bkz. [Ödeme terminali için uçtan uca ödeme tümleştirmesi oluşturma](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Kasa çekmecesi
 
-| Üretici | Model     | Arabirim | Yorumlar              |
+| Üretici | Model     | Arabirim | Açıklamalar              |
 |--------------|-----------|-----------|-----------------------|
 | APG          | Atwood    | Özel    | Ağ üzerinden bağlı |
 | Star         | SMD2-1317 | OPOS      |                       |
@@ -780,26 +755,24 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
 
 #### <a name="printer"></a>Yazıcı
 
-| Üretici | Model    | Arabirim | Açıklamalar              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88   | Özel    | Ağ üzerinden bağlı |
-| HP           | F7M67AA  | OPOS      | Güç beslemeli USB           |
-| Star         | TSP650II | Özel    | Ağ üzerinden bağlı |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
+| Üretici | Model    | Arabirim | Açıklamalar                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | Güç beslemeli USB             |
+| Star         | mPOP     | OPOS      | Bluetooth ile bağlı |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="payment-terminal"></a>Ödeme terminali
 
-| Üretici | Model | Arabirim | Açıklamalar                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
-| VeriFone     | MX915 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
+Dynamics 365 Commerce, Adyen ödeme hizmetleri ile tümleştirme için kullanıma hazır bir çözüm sağlar. [Adyen için Dynamics 365 Ödeme Bağlayıcısı](dev-itpro/adyen-connector.md), aygıt belirsiz [Adyent Ödeme Terminali API](https://www.adyen.com/blog/introducing-the-terminal-api) kullanır ve bu API'nin desteklediği tüm ödeme terminalleriyle etkileşim kurabilir. Desteklenen ödeme terminallerinin tam listesi için, bkz. [Adyen POS terminalleri](https://www.adyen.com/pos-payments/terminals).
+
+Özel bir bağlayıcı oluşturarak Dynamics 365 Commerce ile farklı ödeme sağlayıcıları da kullanabilirsiniz. Ödeme sağlayıcısı tarafından desteklenen herhangi bir ödeme terminali, Dynamics 365 Commerce ile kullanılabilir. Benzer şekilde, Dynamics 365 Commerce POS'un yerel IP, bulut API veya doğrudan bağlantı (örneğin, USB yoluyla) tarafından desteklenen herhangi bir ödeme aygıtı tümleştirme modeli için bir olanak sağlar. Daha fazla bilgi için bkz. [Ödeme terminali için uçtan uca ödeme tümleştirmesi oluşturma](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Kasa çekmecesi
 
-| Üretici | Model     | Arabirim | Yorumlar              |
+| Üretici | Model     | Arabirim | Açıklamalar              |
 |--------------|-----------|-----------|-----------------------|
 | APG          | Atwood    | Özel    | Ağ üzerinden bağlı |
 | Star         | SMD2-1317 | OPOS      |                       |
@@ -822,7 +795,7 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
 
 **Çözüm:** Aşağıdaki etkenlerden biri bu soruna neden olabilir:
 
--   Donanım istasyonu genel merkezden doğru şekilde ayarlanmamıştır. Donanım istasyonu profilinin ve donanım istasyonunun doğru şekilde girildiğinden emin olmak için bu konunun önceki bölümlerinde açıklanan adımları kullanın.
+-   Donanım istasyonu genel merkezden doğru şekilde ayarlanmamıştır. Daha fazla bilgi için bkz. [Retail hardware station'ı yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md#troubleshooting). 
 -   İşler kanal yapılandırmasını güncelleştirmek için çalıştırılmamış. Bu durumda, kanal konfigürasyonu için 1070 işini çalıştırın.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS yeni kasa çekmecesi ayarlarını yansıtmıyor.

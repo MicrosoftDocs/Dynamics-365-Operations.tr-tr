@@ -2,7 +2,7 @@
 title: Teslimat seçenekleri modülü
 description: Bu konu teslimat seçenekleri modüllerini ve bunların Microsoft Dynamics 365 Commerce'te nasıl yapılandırılacağını açıklamaktadır.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 69d3da5cbee5d7b921b0b0b422d838b9821e9c877d6f1951e85aeb49474bd4bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760912"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349806"
 ---
 # <a name="delivery-options-module"></a>Teslimat seçenekleri modülü
 
@@ -55,6 +55,9 @@ Aşağıdaki şekilde ödeme sayfasında kullanılan bir teslimat seçenekleri m
 ## <a name="add-a-delivery-options-module-to-a-checkout-page-and-set-the-required-properties"></a>Ödeme sayfasına teslimat seçenekleri modülü ekleme ve gerekli özellikleri ayarlama
 
 Teslimat seçenekleri modülü yalnızca bir ödeme modülüne eklenebilir. Teslimat seçenekleri modülünü yapılandırma ve ödeme sayfasına ekleme hakkında daha fazla bilgi için bkz. [Ödeme modülü](add-checkout-module.md).
+
+> [!NOTE]
+> Tutarsız teslimat işleme ile karşılaşabilirsiniz veya e-ticaret kanalınızda eşit olmayan başlık düzeyi harcamalarını görmeyebilirsiniz. Bu sorunları giderme konusunda rehberlik için, bkz. [E-ticaret kanallarında tutarlı teslimat modu işlemesini etkinleştirme](consistent-delivery-mode-handling.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

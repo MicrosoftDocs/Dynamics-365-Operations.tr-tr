@@ -2,13 +2,13 @@
 title: Satıcı faturalarına genel bakış
 description: Bu konuda, satıcı faturaları hakkında genel bilgiler verilmektedir.
 author: abruer
-ms.date: 06/03/2021
+ms.date: 02/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "13971"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22535f4bc320bde096214e2044cfeb00d4e9fbbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985349"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358453"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
@@ -51,10 +51,10 @@ Aşağıdaki tartışma **Açık satıcı faturaları** veya **Bekleyen satıcı
 
 İlgili bir satın alma siparişinden satıcı faturası açtığınızda, sistem satın alma siparişinden fatura satırları oluşturur. Varsayılan olarak sistem ürün girişindeki miktarları alır. Ancak, aşağıdaki varsayılan davranışların herhangi birini kullanabilirsiniz:
 
-- **Şimdi alma miktarı** – Kısmi sevkiyatlar için bu seçeneği kullanın. Sistem, satın alma siparişinde **Şimdi al** alanında belirtilen miktardaki **Miktar** bölümünde varsayılan değeri ayarlar.
-- **Sipariş edilen miktar** – Tam sevkiyatlar için bu seçeneği kullanın. Sistem, Satın alma siparişinde **Sipariş Verildi** alanında belirtilen miktardaki **Miktar**'da varsayılan değeri ayarlar.
+- **Şimdi alma miktarı** – Kısmi sevkiyatlar için bu seçeneği kullanın. Satın alma siparişinde **Şimdi al** alanında belirtilen miktardaki **Miktar** bölümünde varsayılan değere ayarlanır.
+- **Sipariş edilen miktar** – Tam sevkiyatlar için bu seçeneği kullanın. Satın alma siparişinde **Sipariş Verildi** alanında belirtilen miktardaki **Miktar** alanı varsayılan değere ayarlanır.
 - **Kayıtlı miktar** – Madde kayıt gerektiriyorsa, bu seçeneği **Madde modeli grupları** sayfasında belirtildiği gibi kullanın. **Miktar** alanındaki varsayılan değer, kaydedilen fiziksel güncelleştirme miktardır.
-- **Ürün giriş miktarı** – Sipariş için ürün girişi aldıysanız, bu seçeneği kullanın. Sistem, **Miktar** alanındaki varsayılan değeri kullanılabilir ürün girişlerinin toplam miktarından alır.
+- **Ürün giriş miktarı** – Sipariş için ürün girişi aldıysanız, bu seçeneği kullanın. **Miktar** alanındaki varsayılan değer,mevcut ürün girişlerinin toplam miktarından elde edilir.
 - **Kayıtlı miktar ve hizmetler** – Stoklu maddeleri veya stoğu olmayan maddeler için miktarlar giriş günlüklerinde kaydedilmiş ise bu seçeneği kullanın. Bu seçenek kaydettirilmiş olup olmadığını dikkate almadan hizmetleri de içerir.
 
 Tüzel kişiliğiniz fatura eşleştirmesi kullanıyorsa, miktar eşleştirme sonuçlarını **Ürün alış irsaliyesi miktar eşleşmesi** sütununda görüntüleyebilirsiniz. Ayrıca Eylem Panosu'nun **İnceleme** sekmesindeki **Eşleştirme ayrıntıları** düğmesini miktar eşleştirmesinin sonuçlarını görüntülemek için kullanabilirsiniz.
@@ -65,7 +65,7 @@ Satıcı faturasına satınalma siparişinde bulunmayan bir satır ekleyebilirsi
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Satıcı faturasını değerlendirilmek üzere gönderme
 
-Kuruluşunuz, satıcı faturalarını gözden geçirme işlemini yönetmek için iş akışlarını kullanabilir. İş akışını gözden geçirmesi, faturası başlığı, fatura satırı veya her ikisi için de gerekli olabilir. İş akışı denetimleri başlığa veya satıra uygulanabilir, denetimi tıkladığınızda odağın nere olduğuna bağlı olarak. **Deftere naklet** düğmesi yerine, **Gönder** düğmesi satıcı faturasını inceleme işlemine göndermeyi gösterir.
+Kuruluşunuz, satıcı faturalarını gözden geçirme işlemini yönetmek için iş akışlarını kullanabilir. İş akışını gözden geçirmesi, faturası başlığı, fatura satırı veya her ikisi için de gerekli olabilir. İş akışı denetimleri başlığa veya satıra uygulanabilir, denetimi tıkladığınızda odağın nere olduğuna bağlı olarak. **Deftere naklet** düğmesi yerine, **Gönder** düğmesi satıcı faturasını inceleme işlemine gönderir.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Faturanın iş akışına gönderilmesini engelleme 
 
@@ -102,7 +102,7 @@ Toplu işe dahil edilecek fatura sayısını ve bir toplu işi yeniden planlamad
 
 ## <a name="working-with-multiple-invoices"></a>Birden çok fatura ile çalışma
 
-Aynı anda birden çok fatura ile çalışabilir ve bunların tümünü aynı anda deftere nakledebilirsiniz. Birden çok fatura oluşturmanız gerekiyorsa, **Bekleyen satıcı faturaları** sayfasını kullanın. Birden çok satıcı faturalarını deftere nakletmeniz ve yazdırmanız gerekiyorsa, fatura onay günlüğünü kullanın. Fatura onay günlüğünü kullanıyorsanız, bu satınalma siparişi için en az bir ürün girişinin deftere nakledilmesi gerekir ve bir faturanın bu satınalma siparişi için fatura kaydına nakledilmesi gerekir. Faturanın mali bilgileri, deftere nakledilmiş faturadan gelir.
+Aynı anda birden çok fatura ile çalışabilir ve bunların tümünü aynı anda deftere nakledebilirsiniz. Birden çok fatura oluşturmanız gerekiyorsa, **Bekleyen satıcı faturaları** sayfasını kullanın. Birden çok satıcı faturalarını deftere nakletmeniz ve yazdırmanız gerekiyorsa, **Fatura onay günlüğünü** kullanın. **Fatura onay günlüğünü** kullanıyorsanız, bu satınalma siparişi için en az bir ürün girişinin deftere nakledilmesi gerekir ve bir faturanın bu satınalma siparişi için fatura kaydına nakledilmesi gerekir. Faturanın mali bilgileri, deftere nakledilmiş faturadan gelir.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Kullanımdaki satıcı faturalarını kurtarmak
 

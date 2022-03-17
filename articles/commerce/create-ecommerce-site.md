@@ -2,7 +2,7 @@
 title: E-ticaret sitesi oluşturma
 description: Bu konu, Dynamics 365 Commerce site oluşturucusunda yeni bir e-ticaret sitesi oluşturmak için gereken adımları ve bilgileri açıklamaktadır.
 author: bicyclingfool
-ms.date: 02/03/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090781"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388223"
 ---
 # <a name="create-an-e-commerce-site"></a>E-ticaret sitesi oluşturma
 
@@ -30,6 +30,19 @@ ms.locfileid: "8090781"
 Bu konu, Dynamics 365 Commerce site oluşturucusunda yeni bir e-ticaret sitesi oluşturmak için gereken adımları ve bilgileri açıklamaktadır.
 
 Dynamics 365 Commerce yeteneklerine lisans verirken, site oluşturucu, kendi siteniz için temel olarak kullanabileceğiniz bir başlatıcı siteyle hazırlanacak. Ancak, baştan başlatmak veya ikinci bir site oluşturmak istiyorsanız, site geliştirme ortamında yeni bir site oluşturmanız gerekir. 
+
+## <a name="site-creation-prerequisites"></a>Site oluşturma ön koşulları
+
+Bir site oluşturucu kullanıcısının, e-ticaret sistem yöneticileri için atanmış Azure AD güvenlik grubunda bulunan bir Microsoft Azure Active Directory (Azure AD) kullanıcı hesabına sahip olması gerekir. Daha fazla bilgi için bkz. [Yeni e-ticaret kiracısını dağıtma](deploy-ecommerce-site.md).
+
+> [!NOTE]
+> Azure AD konuk kullanıcıların, Azure AD kiracınızda farklı erişim izinleri olabilir. Bir konuk kullanıcı, e-ticaret sistem yöneticilerine atanmış olan bir Azure AD güvenlik grubuna dahil olsa bile, Commerce'te bir e-ticaret sitesi oluşturmak için Azure AD **Harici kullanıcılar** izin ayarına sahip olması gerekebilir. 
+
+Azure AD **Harici kullanıcı** ayarlarını yapmak için aşağıdaki adımları izleyin.
+
+1. Azure portalında Azure AD kiracınıza gidin.
+1. **Kullanıcı ayarları \> Harici kullanıcılar**'a gidin ve **Harici iş birliği ayarlarını yönet** bağlantısını seçin. Bu, konuk kullanıcı erişiminin, konuk davetiye ayarlarının ve birlikte çalışma kısıtlamalarının ayarlanabildiği **Harici işbirliği ayarları** sayfasını açar. 
+1. Şirket güvenlik ilkelerine uygun olarak harici işbirliği ayarlarını yapın. 
 
 ## <a name="set-up-your-site"></a>Sitenizi ayarlama
 

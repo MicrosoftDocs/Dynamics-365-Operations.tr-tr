@@ -1,8 +1,8 @@
 ---
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
-description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
+description: Bu konu, Finance ve Operations uygulamalarının platform güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 12/16/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927491"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384732"
 ---
-# <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
+# <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya kullanım dışı bırakılan platform özellikleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
+Bu konu, Finance ve Operations uygulamalarının platform güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
 - *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.
 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
-Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+Finans ve Operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/global/axtechrefrep_61) altından ulaşabilirsiniz. Finans ve Operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
 ## <a name="feature-removal-effective-october-2021"></a>Özellik kaldırma geçerlilik tarihi: 2021 Ekim
 
@@ -65,9 +65,9 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | Hayır. Bu işlevlerle ilgili daha fazla plan, standart serbest bırakma bilgi işlem sürecimiz aracılığıyla size gönderilecek. |
 | **Etkilenen ürün alanları**         | Web istemcisi - Belge eki deneyimi |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kaldırıldı  |
+| **Çalıştırma Durumu**                         | Kaldırıldı  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.23 sürümü için platform güncelleştirmeleri
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Finance ve Operations uygulamalarının 10.0.23 sürümü için platform güncelleştirmeleri
 
 ### <a name="ondbsynchronize-event"></a>OnDBSynchronize olayı
 
@@ -90,7 +90,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kaldırıldı. Planlanan kaldırma tarihi: Nisan 2023. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Finance ve Operations uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri
 
 ### <a name="skype-for-business-online-support"></a>Skype for Business Çevrimiçi desteği
 
@@ -145,12 +145,12 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Müşterilerin dizin yönetimini işletmek, izlemek ve sürdürmekle ilgili ek yükünü azaltmak için bu özellik kaldırıldı. |
 | **Başka bir özellikle mi değiştirildi?**   | İleride, dizin bakımı Microsoft hizmetleri tarafından gerçekleştirilecektir. Bu, kullanıcı iş yüklerini etkilemeden sürekli olarak gerçekleşecektir. |
-| **Etkilenen ürün alanları**         | Finance and Operations uygulamaları|
+| **Etkilenen ürün alanları**         | Finans ve Operasyon uygulamaları|
 | **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
 | **Durum**                         | Bu özellik kaldırılmıştır. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.17 sürümü için platform güncelleştirmeleri
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Finans ve Operasyon uygulamalarının 10.0.17 sürümü için platform güncelleştirmeleri
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
@@ -177,24 +177,25 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | EP, Finance and Operations uygulamalarında hiçbir zaman desteklenmediğinden, Dynamics AX 2012 Enterprise Portal (EP) ile ilişkili meta veri yapıtları, kullanımdan kaldırıldı. |
-| **Başka bir özellikle mi değiştirildi?**   | Hayır |
+| **Kullanımı sonlandırma/kaldırma nedeni** | EP, Finans ve Operasyon uygulamalarında hiçbir zaman desteklenmediğinden, Dynamics AX 2012 Enterprise Portal (EP) ile ilişkili meta veri yapıtları, kullanımdan kaldırıldı. |
+| **Başka bir özellikle mi değiştirildi?**   | No. |
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanım dışı: EP kodunun tamamının, Ekim 2021 sürümünde kaldırılması planlanıyor. |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.15 sürümü için platform güncelleştirmeleri
+## <a name="deprecation-effective-december-2020"></a>Kullanımdan kaldırma Kasım 2020'den itibaren geçerli olacaktır
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 için Internet Explorer 11 desteği kullanım dışı bırakılmıştır
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Aralık 2020 itibarıyla geçerli olmak üzere, tüm Dynamics 365 ürünleri için Microsoft Internet Explorer 11 desteği kullanım dışı, bırakılacaktır ve Internet Explorer 11, Ağustos 2021'den sonra desteklenmeyecektir.<br><br>Bu, Internet Explorer 11 arabirimi aracılığıyla kullanılmak üzere tasarlanmış olan Dynamics 365 ürünlerini kullanan müşterileri etkileyecektir. Ağustos 2021'den sonra, Internet Explorer 11, bu tür Dynamics 365 ürünleri için desteklenmeyecektir. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Aralık 2020 itibarıyla geçerli olmak üzere tüm Dynamics 365 ve Dynamics Lifecycle Services (LCS) ürünleri için Microsoft Internet Explorer 11 desteği kullanım dışı, bırakılacaktır ve Internet Explorer 11, Ağustos 2021'den sonra desteklenmeyecektir.<br><br>Bu, Internet Explorer 11 arabirimi aracılığıyla kullanılmak üzere tasarlanmış olan Dynamics 365 ve LCS ürünlerini kullanan müşterileri etkileyecektir. Ağustos 2021'den sonra, Internet Explorer 11, bu tür Dynamics 365 ürünleri ve LCS için desteklenmeyecektir. |
 | **Başka bir özellikle mi değiştirildi?**   | Müşterilerin Microsoft Edge'e geçiş yapması önerilir.|
-| **Etkilenen ürün alanları**         | Tüm Dynamics 365 ürünleri |
+| **Etkilenen ürün alanları**         | Tüm Dynamics 365 ürünleri ve LCS |
 | **Dağıtım seçeneği**              | Tümü|
-| **Durum**                         | Kullanım dışı: Internet Explorer 11 Ağustos 2021'den sonra desteklenmeyecektir.|
+| **Çalıştırma Durumu**                         | Kullanım dışı: Internet Explorer 11 Ağustos 2021'den sonra desteklenmeyecektir.|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance ve Operations uygulamalarının 10.0.15 sürümü için platform güncelleştirmeleri
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Meta veri düzeltmelerini uygulamak için Visual Studio eklentisi
 
@@ -207,7 +208,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Durum**                         | Sürüm 10.0.15 ile eklenti artık Visual Studio araçlarına dahil değildir. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.14 sürümü için platform güncelleştirmeleri
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finance ve Operations uygulamalarının 10.0.14 sürümü için platform güncelleştirmeleri
 
 ### <a name="online-users-page"></a>Çevrimiçi kullanıcılar sayfası 
 
@@ -220,7 +221,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Durum**                         | 2021 Ekim'de bu form kaldırılacaktır.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance ve Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>SSRS rapor özelliklerinde tanımlanan özel kod 
@@ -264,19 +265,19 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Durum**                         | Sürüm 10.0.13/Platform güncelleştirmesi 37'de, kaydedilmiş görünümler özelliği genellikle kullanılabilirdir ve müşteriler isteğe bağlı olarak bu özelliği açabilir. Kaydedilmiş görünüm özelliği Ekim 2021 sürümünde zorunlu olacaktır. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finance ve Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Geçersiz alan başvurularını içeren kılavuz veya Grup denetimi formu uzantıları
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Kılavuz veya grup denetimlerindeki veri grubu özelliği, bir alan grubunun tüm alanlarını otomatik olarak göstermek için kullanılır. Uzantıya göre eklenen bir kılavuz veya Grup denetimi, alan grubunda artık tanımlanmamış alanlar içerebilir veya alan grubunda tanımlanmış alanlar eksik olabilir. Bu durum çalışma zamanında tutarsız davranışlara neden olabilir. Finance and Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri bu sorunu bir derleyici *uyarı* olarak sınıflandırır. Bu sorunu gidermek için, form uzantısını açın ve kaydedin.
+| **Kullanımı sonlandırma/kaldırma nedeni** | Kılavuz veya grup denetimlerindeki veri grubu özelliği, bir alan grubunun tüm alanlarını otomatik olarak göstermek için kullanılır. Uzantıya göre eklenen bir kılavuz veya Grup denetimi, alan grubunda artık tanımlanmamış alanlar içerebilir veya alan grubunda tanımlanmış alanlar eksik olabilir. Bu durum çalışma zamanında tutarsız davranışlara neden olabilir. Finans ve Operasyon uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri bu sorunu bir derleyici *uyarı* olarak sınıflandırır. Bu sorunu gidermek için, form uzantısını açın ve kaydedin.
 | **Başka bir özellikle mi değiştirildi?**   | Bu derleyici uyarısı gelecekteki bir güncelleştirmede bulunan bir derleyici hatasıyla değiştirilecektir. |
 | **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Derleyici uyarısı, Finance and Operations uygulamalarının 10.0.12 sürümü platform güncelleştirmelerinde bir derleyici hatasıdır. |
+| **Durum**                         | Derleyici uyarısı, Finans ve Operasyonlar uygulamalarının 10.0.12 sürümü platform güncelleştirmelerinde bir derleyici hatasıdır. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.11 sürümü için platform güncelleştirmeleri
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finance ve Operations uygulamalarının 10.0.11 sürümü için platform güncelleştirmeleri
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Self servis ortamları için açık güvenli listeler
 
@@ -302,11 +303,11 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Tablo meta veri tanımlarındaki alan grupları, geçersiz alan referansları içerebilir. Bu alan grupları dağıtılırsa, Financial Reporting ve  Microsoft SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Platform güncelleştirmesi 23, bu meta veri veri sorununun giderilmesi için bir derleyici *uyarısı* getirdi. Finance and Operations uygulamalarının 10.0.11 sürümü için platform güncelleştirmeleri bu sorunu bir derleyici *hatası* olarak sınıflandırır.<p>Bu sorunu düzeltmek için aşağıdaki adımları izleyin.</p><ol><li>Geçersiz alan referansını tablo alanı grubu tanımından kaldırın.</li><li>Yeniden derleyin.</li><li>Hataların giderildiğinden emin olun.</li></ol> |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Tablo meta veri tanımlarındaki alan grupları, geçersiz alan referansları içerebilir. Bu alan grupları dağıtılırsa, Financial Reporting ve  Microsoft SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Platform güncelleştirmesi 23, bu meta veri veri sorununun giderilmesi için bir derleyici *uyarısı* getirdi. Finans ve Operasyon uygulamalarının 10.0.11 sürümü için platform güncelleştirmeleri bu sorunu bir derleyici *hata* olarak sınıflandırır.<p>Bu sorunu düzeltmek için aşağıdaki adımları izleyin.</p><ol><li>Geçersiz alan referansını tablo alanı grubu tanımından kaldırın.</li><li>Yeniden derleyin.</li><li>Hataların giderildiğinden emin olun.</li></ol> |
 | **Başka bir özellikle mi değiştirildi?**   | Bu derleyici hatası, derleyici uyarısının kalıcı olarak yerini alır.  |
 | **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanım dışı: Derleyici uyarısı, Finance and Operations uygulamalarının 10.0.11 sürümü platform güncelleştirmelerinde bir derleyici hatasıdır. |
+| **Durum**                         | Kullanım dışı: Derleme uyarısı, Finans ve Operasyon uygulamalarının 10.0.11 sürümü platform güncelleştirmeleri ile derleme hatasıdır. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>SHA1 karma algoritması kullanılarak oluşturulan ISV lisansları
 

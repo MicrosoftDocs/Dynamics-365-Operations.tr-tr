@@ -2,23 +2,24 @@
 title: Almanya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 description: Bu konu, Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) Almanya için mali tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 98641f9989322feb77ab683df66c2c1f9ad50a0d
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c578420783a8d19fe4a1522486e0b0146a390722
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077077"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388196"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Almanya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) Almanya için mali kayıt hizmeti tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [Almanya için mali kayıt hizmeti tümleştirme örneği](emea-deu-fi-sample.md). 
 
@@ -85,11 +86,15 @@ CRT uzantısı bileşenleri, CRT örneklerine dahil edilmiştir. Aşağıdaki yo
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsGermany" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>Hardware Station uzantılarını etkinleştirme
+### <a name="enable-fiscal-connector-extensions"></a>Mali bağlayıcı uzantılarını etkinleştirme
+
+Mali bağlayıcı uzantılarını [Donanım istasyonuna](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) veya [POS kaydına](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network) etkinleştirebilirsiniz.
+
+#### <a name="enable-hardware-station-extensions"></a>Hardware Station uzantılarını etkinleştirme
 
 Hardware station uzantı bileşenleri, Hardware station örneklerine dahil edilmiştir. Aşağıdaki yordamları tamamlamak için **RetailSdk\\SampleExtensions\\HardwareStation** bölümündeki **HardwareStationSamples.sln** çözümünü açın.
 
-#### <a name="efrsample-component"></a>EFRSample bileşeni
+##### <a name="efrsample-component"></a>EFRSample bileşeni
 
 1. **HardwareStation.Extension.EFRSample** projesini bulun ve derleyin.
 2. **Extension.EFRSample\\bin\\Debug** klasöründe aşağıdaki derleme dosyalarını bulun:
@@ -112,6 +117,30 @@ Hardware station uzantı bileşenleri, Hardware station örneklerine dahil edilm
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
+
+#### <a name="enable-pos-extensions"></a>POS uzantılarını etkinleştirme
+
+POS uzantı örneği,, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\PosFiscalConnectorSample** klasöründe bulunur.
+
+POS uzantı örneğini eski SDK'de kullanmak için aşağıdaki adımları izleyin.
+
+1. **POS.Extension** klasörünü eski SDK'nın POS **Uzantıları** klasörüne kopyalayın (örneğin `C:\RetailSDK\src\POS\Extensions`).
+1. **POS.Extension** klasörünün kopyasını, **PosFiscalConnector** olarak yeniden adlandırın.
+1. Aşağıdaki klasörleri ve dosyaları, **PosFiscalConnector** klasöründen kaldırın:
+
+    - bin
+    - DataService
+    - devDependencies
+    - Kitaplıklarım
+    - obj
+    - Contoso.PosFiscalConnectorSample.Pos.csproj
+    - RetailServerEdmxModel.g.xml
+    - tsconfig.json
+
+1. **CloudPos.sln** veya **ModernPos.sln** çözümünü açın.
+1. **Pos.Extensions** projesinde, **PosFiscalConnector** klasörünü dahil edin.
+1. **extensions.json** dosyasını açın ve **PosFiscalConnector** uzantısını ekleyin.
+1. SDK'yı oluşturun.
 
 ### <a name="production-environment"></a>Üretim ortamı
 
@@ -210,3 +239,26 @@ Aşağıdaki ayarlar eklenmiştir:
 - **Uç nokta adresi** – Mali kayıt hizmetinin URL'si.
 - **Zaman aşımı** – Sürücünün mali kayıt hizmetinden yanıt gelmesini bekleyeceği, milisaniye (ms) cinsinden süre.
 - **Mali kayıt bildirimlerini göster** – Bu parametre açıksa mali hizmetten gelen bildirimler POS'ta kullanıcı iletileri olarak gösterilir.
+
+### <a name="pos-fiscal-connector-extension-design"></a>POS mali bağlayıcı uzantısı tasarımı
+
+Bir POS mali bağlayıcı uzantısının amacı, POS'den mali kayıt hizmeti ile iletişim kurmaktır. İletişim için HTTPS protokolünü kullanır.
+
+#### <a name="fiscal-connector-factory"></a>Mali bağlayıcı fabrikası
+
+Mali bağlayıcı fabrikası, bağlayıcı adını mali bağlayıcı uygulamasıyla eşleştirir ve **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts** dosyasında bulunur. Bağlayıcı adı, Commerce Headquarters'da belirtilen mali bağlayıcı adıyla eşleşmelidir.
+
+#### <a name="efr-fiscal-connector"></a>EFR mali bağlayıcı
+
+EFR mali bağlayıcısı, **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts** dosyasında bulunur. Aşağıdaki istekleri destekleyen **IFiscalConnector** arabirimini uygular:
+
+- **FiscalRegisterSubmitDocumentClientRequest** – Bu istek, belgeleri mali kayıt hizmetine gönderir ve hizmetten bir yanıt döndürür.
+- **FiscalRegisterIsReadyClientRequest** – Bu istek, mali kayıt hizmetinin sistem durumu denetimi için kullanılır.
+- **FiscalRegisterInitializeClientRequest** – Bu istek, mali kayıt hizmetini başlatmak için kullanılır.
+
+#### <a name="configuration"></a>Yapılandırma
+
+Yapılandırma dosyası, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** klasöründe bulunur. Dosyanın amacı, mali bağlayıcı ayarlarının Commerce Headquarters'dan yapılandırılmasını etkinleştirmektir. Dosya biçimi, mali tümleştirme yapılandırmasıyla ilgili gereksinimlere uygundur. Aşağıdaki ayarlar eklenmiştir:
+
+- **Uç nokta adresi** – Mali kayıt hizmetinin URL'si.
+- **Zaman aşımı** – Bağlayıcının mali kayıt hizmetinden yanıt gelmesini bekleyeceği, milisaniye cinsinden süre.

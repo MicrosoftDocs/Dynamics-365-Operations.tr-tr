@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103952"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384707"
 ---
 # <a name="inventory-value-reports"></a>Stok değeri raporları
 
@@ -102,7 +102,7 @@ Farklı tipte stok değeri raporuna dahil edilen içeriği ayarlamak için **Sto
         - İlgili madde modeli grubu için **Fiziksel stoğu deftere naklet** seçeneğinin işareti kaldırıldığında alınmış ancak faturalanmamış maddeler.
         - **Borç hesapları parametreleri** sayfasında **Genel** sekmesinde **Ürün makbuzu** hızlı sekmesinde **Ürün makbuzunu genel muhasbeye naklet** seçeneği (**Borç hesapları \> Kurulum \> Borç hesapları parametreleri**) işareti kaldırıldığında alınmış ancak faturalanmamış maddeler.
 
-    - **Ortalama birim maliyeti hesapla** - Ortalama birim maliyeti gösteren bir sütun görüntülemek için bu seçeneği *Evet* olarak ayarlayın. Ortalama birim maliyeti toplam tutara bölünen toplam miktardır.
+    - **Ortalama birim maliyeti hesapla** - Ortalama birim maliyeti gösteren bir sütun görüntülemek için bu seçeneği *Evet* olarak ayarlayın. Ortalama birim maliyeti toplam miktara bölünen toplam tutardır.
     - **Toplam miktar ve değer** – Fiziksel stok (ve mali miktarlar) ve fiziksel stok toplam tutarı (ve mali tutarlar) görüntüleyen sütunları göstermek için bu seçeneği *Evet* olarak ayarlayın. Bu seçeneği yalnızca, **Fiziksel ve mali değerleri özetle** seçeneği *Hayır* olarak ayarlanmışsa *Evet* olarak ayarlayabilirsiniz .
     - **Stok boyutları** - Bu kılavuzda, raporda göstermek istediğiniz her boyut için **Görünüm** onay kutusunu işaretleyin. Yalnızca **Mali stok** seçeneğinin etkinleştirildiği boyutlar rapordaki değerleri gösterir. Diğer boyutlar yalnızca boş sütunları gösterir. Göstermeyi seçtiğiniz boyutlar için toplamları dahil etmek üzere **Toplam** onay kutusunu seçebilirsiniz.
     - **Kaynak Kodu** – Her satırın maddesini tanımlayan bir sütun görüntülemek için **Görünüm** seçeneğini *Evet* olarak ayarlayın. Toplamları dahil etmek için **Toplam** seçeneğini *Evet* olarak ayarlayın. Sütun, her satırda listelenen öğenin türüne bağlı olarak, aşağıdaki bilgi türlerinden birini gösterir:

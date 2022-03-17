@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982106"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367897"
 ---
 # <a name="europe-overview"></a>Avrupa'ya genel bakış
 
@@ -36,13 +36,13 @@ Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler ayarlamanıza yardım
 - [Doğu Avrupa'ya yönelik satış siparişlerindeki fatura kodlarını düzenleme](emea-edit-invoice-id-sales-orders.md)
 - [AB Giriş sertifikaları](emea-entry-certificates.md)
 - [AB Satış listesi raporlaması](emea-eu-sales-list.md)
+  - [AB Satış listesi örneği ](emea-eu-sales-list-example.md)
 - [Döviz kuru ayarlamaları](emea-exchange-rate-adjustments.md)
 - [Ödeme yöntemlerine ait dosya biçimleri](emea-select-file-formats-for-the-method-of-payments.md)
 - [Brexit etkisi hakkında finans (Globalleştirme) Kılavuzu](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Mali hizmet (ESR) tümleştirmesi](emea-fiscal-service-integration.md)
 - [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Şirket içi stok transferi için bir transfer belgesi oluşturma](tasks/transfer-document-internal-inventory-transfer.md)
-- [AB satış listesi raporu oluşturma](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 dosyaları
   - [ISO20022 dosyalarını içe aktarma](emea-ISO20022-file-formats.md)
   - [ISO20022 hesaptan ödeme yapılandırmasını içe aktarma](tasks/import-iso20022-direct-debit-configuration.md)
@@ -77,7 +77,6 @@ Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler ayarlamanıza yardım
 - [SEPA alacak transferine genel bakış](../accounts-payable/sepa-credit-transfer.md)
 - [SEPA hesaptan ödemeye genel bakış](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Müşteri ve satıcı ücreti ayarlama](emea-compensation-customer-vendor-transactions.md)
-- [AB satış listesi raporlamasını ayarlama](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Proje faturaları için ödeme makbuzu biçimini ayarlama](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Basılı formlar için imzalayanları ayarlama](emea-set-up-signers-for-printing-forms.md)
 - [Storno muhasebesi](emea-storno.md)

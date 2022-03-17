@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c8aa0338ab30e6366601e3759141c7e41bf99fb
-ms.sourcegitcommit: ab1455c67f6ee6ca36bec148bea0dbb0f7704eda
+ms.openlocfilehash: 3269bf3f8a5475fb85e6b51514db29006be9aab1
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7428971"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376220"
 ---
 # <a name="release-to-warehouse"></a>Ambara serbest bırak
 
@@ -125,6 +125,7 @@ Satış siparişlerini serbest bırakan toplu işi ayarlamak için aşağıdaki 
     - **Serbest bırakılacak miktar**: Ambara serbest bırakılması gereken miktar için tüm miktarı veya yalnızca fiziksel olarak rezerve edilmiş miktarı seçin.
     - **Kısmi serbest bırakılmış siparişlerin serbest bırakılmasına izin ver**: Kısmi serbest bırakılmış siparişler için kalan miktarların ambara serbest bırakılması gerekip gerekmediğini belirtin.
     - **Serbest bırakma hatasında rezervasyonları koru**: Satış siparişi için otomatik olarak rezerve edilmiş miktarların, ambara serbest bırakma işlemi başarısız olursa rezerve edilmiş kalması gerekip gerekmediğini belirtin.
+    - **Müşteriye göre grup serbest bırakmaları** – Sistemin, her müşteri için ambara gönderme operasyonlarını ayrı olarak mı işleyeceğini yoksa tüm satış siparişlerini aynı anda mı göndereceğini belirtin. Bu seçenek *Evet* olarak belirlendiğinde, sistem seçilen bir müşteriyle ilgili tüm satış siparişi satırlarını toplar, bu siparişleri ambara gönderir ve sonraki müşteriyi işler. Bu seçenek *Hayır* olarak ayarlandığında, sistem tüm kullanılabilir satış siparişi satırlarını tek bir ambara gönderme operasyonu ile yayımlar. Bu seçeneğin etkinleştirilmesi, performansı ve ambara gönderme işleminin esnekliğini yükseltir. Ancak bu birleşim, her biri yalnızca o müşteri için oluşturulmuş iş olan birçok müşteri dalgasını oluşturacağından, bu seçeneği ambara gönderme sırasında işle olarak yapılandırılan dalga şablonları ile birlikte kullanırken dikkatli olmanız gerekir. Birden fazla müşterinin sevkiyatlarını birleştiren bir iş oluşturmak istiyorsanız *Müşteriye göre grup halinde gönderme* seçeneğini kapatmanız veya dalga şablonlarınızı ertelenmiş işlemeyi kullanacak şekilde yapılandırmanız gerekir.
     - **Kilitli sipariş işleme**: Sistemin, diğer kullanıcılar veya işlemler tarafından düzenlendiğinden şu anda kilitli olan satış siparişlerini nasıl işlemesi gerektiğini seçin:
 
         - *Siparişlerin kilidinin açılmasını bekle*: Sistemin, ambara serbest bırakmadan önce siparişlerin kilidinin açılmasını beklemesi gerekir. Bu durumda, ambara serbest bırakma işlemi daha uzun sürebilir.

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5e139b7b12b8f2e549fb9c2c8e39125e190c7396
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311991"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349731"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -158,8 +158,8 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 504 | Hareketi geri çağır | Daha önce askıya alınmış bir hareketi geçerli depodan geri çağırın. | Evet | Evet | Hayır | Evet‡ | Hayır |
 | 305 | Bağlılık programı puanlarını kullan | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Geçerli değil | Geçerli değil | Evet |
 | 635 | Sevkiyat masraflarını geri öde | İptal edilen bir siparişte kargo ücretlerini iade edin. | Hayır | Hayır | Hayır | Hayır | Hayır |
-| 644 | Kupon kodunu kaldır | Kullanıcıdan hareketle ilişkilendirilen kupon listesinden seçim yaparak kuponları kaldırmasını isteyin. | Evet | Evet | Hayır | Evet | Hayır |
-| 1057 | Z'yi yeniden yazdır | Önceki vardiyanın veya seçili bir vardiyanın Z raporunu yeniden yazdırın. | Evet | Evet | Evet | Hayır | Hayır |
+| 644 | Kupon kodunu kaldır | Kullanıcıdan hareketle ilişkilendirilen kupon listesinden seçim yaparak kuponları kaldırmasını isteyin. | Evet | Evet | Hayır | Evet | No. |
+| 1057 | Z'yi yeniden yazdır | Önceki vardiyanın Z raporunu yeniden yazdırın. | Evet | Evet | Evet | No. | No. |
 | 1216 | Parolayı sıfırla | Bu işlem parola sıfırlama izni olan bir kullanıcının başka bir personelin parolasını geçici bir parola kullanarak sıfırlamasına olanak tanır. | Evet | Evet | Evet | Hayır | Hayır |
 | 1219 | POS'ta URL Aç | POS'ta yönetici tarafından yapılandırılmış bir URL'yi açın. | Evet | Evet | Evet | Evet | Hayır |
 | 109 | Ürünü iade et | Tek tek ürünler için iade gerçekleştirin. Taranan sonraki ürün, negatif miktar ve fiyatı olan iade edilmiş bir ürün olarak gösterilir. | Evet | Evet | Hayır | Evet | Hayır |

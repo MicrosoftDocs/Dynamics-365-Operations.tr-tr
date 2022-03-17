@@ -2,7 +2,7 @@
 title: Bulut destekli aramaya genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta bulut destekli aramanın genel görünümünü vermektedir.
 author: ashishmsft
-ms.date: 06/29/2020
+ms.date: 02/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983681"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371441"
 ---
 # <a name="cloud-powered-search-overview"></a>Bulut destekli aramaya genel bakış
 
@@ -26,13 +26,13 @@ ms.locfileid: "7983681"
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta bulut destekli aramanın genel görünümünü vermektedir.
 
-Ürün bulunabilirliği, müşterilerin kategorilerine, aramaya ve filtre uygulamasına göre hızlı ve kolay bir şekilde ürünleri bulabilmesini sağlamaya yardımcı olur. Perakendeciler, tüm kanallarda müşteri etkileşimi için ürün keşfini bir ana araç olarak kabul edin.
+Ürün bulunabilirliği, müşterilerin kategorilerine, aramaya ve filtre uygulamasına göre hızlı ve kolay bir şekilde ürünleri bulabilmesini sağlamaya yardımcı olur. Perakendeciler, ürün bulmayı, e-ticaret ve satış noktası (POS) gibi Bulut Ölçek Birimi (CSU) tarafından desteklenen kanallar arasında müşteri etkileşimi için birincil araç olarak düşünür.
 
-Müşteriler, arama terimleri yazarken, çok yönlü gezinme ve vurgulamadan, Web arama altyapılarının, gelişmiş e-ticaret web sitelerinin, sosyal uygulamaların ve otomatik önerilerin neredeyse anlık yanıt sürelerine alışkın olurlar. Müşteriler, istedikleri ürünü bir e-ticaret mağazasında hızlı bulamayacakları takdirde, farklı bir e-ticaret deposuna gitmekten çekinmeyin.
+Müşteriler, arama terimleri yazarken, çok yönlü gezinme ve vurgulamadan, Web arama altyapılarının, gelişmiş e-ticaret web sitelerinin, sosyal uygulamaların ve otomatik önerilerin neredeyse anlık yanıt sürelerine alışkın olurlar. Müşteriler, istedikleri ürünü bir e-ticaret mağazasında hızlı bulamazsa, farklı bir e-ticaret deposuna gitmekten çekinmez.
 
-Dynamics 365 Commerce'teki bulut destekli ürün bulunabilirliği, perakendecilere, hem e-ticaret kanalları hem de satış noktası (POS) kanalları gibi tüm kanallardaki tüketici bekletmesi ve dönüştürme oranlarını artırmak için devam etmesine yardımcı olur.
+Commerce'teki bulut destekli ürün bulunabilirliği, perakendecilere, CSU destekli tüm kanallardaki tüketici bekletmesi ve dönüştürme oranlarını artırmak için devam etmesine yardımcı olur.
 
-Dynamics 365 Commerce arama deneyiminin, perakendecilere daha iyi ürün bulunabilirliği elde etmenize yardımcı olacak yetenekler geliştirilmiştir. Aynı zamanda, bu yetenekler e-ticaret trafiği için gerekli ölçeklenebilirliği ve performansı sağlar.
+Commerce arama deneyimi, perakendecilere daha iyi ürün bulunabilirliği elde etmenize yardımcı olacak yetenekler geliştirilmiştir. Aynı zamanda, bu yetenekler e-ticaret trafiği için gerekli ölçeklenebilirliği ve performansı sağlar.
 
 ## <a name="browse-and-search"></a>Tarama ve arama
 
@@ -54,9 +54,9 @@ Aşağıdaki çizimde, çok yönlü gezintinin aramada kullanıldığı bir örn
 
 ## <a name="immersive-autosuggest"></a>Derinlikli otomatik önerme
 
-Geçerli otomatik öneri işlevselliği yalnızca eşleşen anahtar sözcüğü aramayı tetikleyen anahtar sözcükleri gösterir. Dynamics 365 Commerce'teki yeni geliştirmeler nedeniyle, müşteriler yazma işlemi tamamlanmadan önce ürün bağlantılarını sıkça bulabilir.
+Geçerli otomatik öneri işlevselliği eşleşen anahtar sözcüğü aramayı tetikleyen anahtar sözcükleri gösterir. Commerce'teki yeni geliştirmeler nedeniyle, müşteriler yazma işlemi tamamlanmadan önce ürün bağlantılarını sıkça bulabilir.
 
-Dynamics 365 Commerce ayrıca çeşitli kategorilerdeki anahtar sözcük eşleşmeleri işlevselliğini destekler. Bu işlevsellik, müşterilerin kategoriler arasında eşleşen anahtar sözcüklerin sayısını görmesini ve diğer kategorilerdeki bir anahtar sözcükle ilgili arama tetiklemesini sağlar.
+Commerce ayrıca çeşitli kategorilerdeki anahtar sözcük eşleşmeleri işlevselliğini destekler. Bu işlevsellik, müşterilerin kategoriler arasında eşleşen anahtar sözcüklerin sayısını görmesini ve diğer kategorilerdeki bir anahtar sözcükle ilgili arama tetiklemesini sağlar.
 
 Aşağıdaki çizimde, derinlikli otomatik önerinin kullanıldığı bir örnek gösterilmektedir.
 
@@ -64,10 +64,10 @@ Aşağıdaki çizimde, derinlikli otomatik önerinin kullanıldığı bir örnek
 
 ## <a name="sort"></a>Sırala
 
-Müşterilerimize, Dynamics 365 Commerce geliştirilmiş sıralama; arama sonuçlarını sıralama, arama ve gözatma ve fiyat, ürün adı ve ürün numarası gibi ölçütlere göre bunları belirginleştirme. Müşteriler Ayrıca, ürünün yeni, en çok satılan veya son eklenen bir ürün olup olmadığına göre sonuçları sıralayabilir.
+Müşterilerimize, Commerce geliştirilmiş sıralama; arama sonuçlarını sıralama, arama ve gözatma ve fiyat, ürün adı ve ürün numarası gibi ölçütlere göre bunları belirginleştirme. Müşteriler Ayrıca, ürünün yeni, en çok satılan veya son eklenen bir ürün olup olmadığına göre sonuçları sıralayabilir.
 
->[!NOTE]
->Bu bulut destekli arama özellikleri 10.0.8 sürümünden başlayarak kullanılabilir. **Commerce parametreleri > konfigürasyon parametrelerinin** altında "ProductSearch.UseAzureSearch set to 'true'" olduğundan emin olun. 
+> [!NOTE]
+> Bu bulut destekli arama özellikleri 10.0.8 sürümünden başlayarak kullanılabilir. **Commerce parametreleri > Konfigürasyon Parametreleri** altında, "ProductSearch.UseAzureSearch" öğesinin 'doğru' olarak ayarlandığından emin olun. 
 ![Bulut destekli arama için yapılandırma parametreleri.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
@@ -77,4 +77,4 @@ Müşterilerimize, Dynamics 365 Commerce geliştirilmiş sıralama; arama sonuç
 [SEO meta verilerini yönetme](manage-seo-metadata.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

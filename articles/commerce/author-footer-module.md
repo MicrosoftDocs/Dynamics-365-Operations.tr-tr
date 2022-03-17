@@ -2,7 +2,7 @@
 title: Alt bilgi modülü
 description: Bu konu altbilgi modüllerini ve bunların nasıl Dynamics 365 Commerce içine yazılacağını kapsamaktadır.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 03/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
+ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719998"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8374843"
 ---
 # <a name="footer-module"></a>Alt bilgi modülü  
 
@@ -39,7 +39,7 @@ Aşağıdaki resimde site sayfasında kullanılan bir altbilgi modülü örneği
 
 ## <a name="modules-available-in-a-footer-module"></a>Altbilgi modülünde bulunan modüller
 
-**Alt bilgi maddeleri** – bir altbilgi öğeleri modülü bir başlık, bir resim ve bir bağlantı içerebilir. Başlık tek başına veya bir görüntü ve bir bağlantıyla birlikte kullanılabilir. Alt bilgideki her bağlantı yalnızca metin içerecek şekilde yapılandırılabilir (örneğin, "bize başvurun" ve "Gizlilik" bağlantıları) veya hem metin, hem de resim (örneğin, sosyal medya bağlantıları) vardır.
+**Alt bilgi maddesi** – Bir altbilgi öğeleri modülü bir başlık veya bir bağlantı içerebilir. Başlık genellikle bir altbilgi bölümü başlığı olarak kullanılır.  Alt bilgideki her bağlantı yalnızca metin içerecek şekilde yapılandırılabilir (örneğin, "bize başvurun" ve "Gizlilik" bağlantıları) veya hem metin, hem de resim (örneğin, sosyal medya bağlantıları) vardır. Hem başlık hem de bağlantı sağlanırsa, başlık özelliği bağlantıya göre öncelik kazanır. 
 
 **Başa dön** – en başa dön modülü sayfanın başına hızlı gezinti için bir bağlantı sağlar. Bir hedef gerekli. Varsayılan hedef değeri, kullanıcıyı sayfanın en üstüne götüren \# değeridir.
 

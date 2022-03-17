@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075031"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384437"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -71,6 +71,18 @@ Etkin işler aşağıdaki sütunlar vardır:
 - **Tamamlandı**: Bu sütunda, bir proje için zaten tamamlanmış olan miktar gösterilir.
 - **Hurdaya çıkarıldı**: Bu sütunda, bir proje için zaten hurdaya çıkarılmış olan miktar gösterilir.
 - **Geri kalan**: Bu sütunda bir proje için tamamlanmak üzere kalan miktar gösterilir.
+
+## <a name="my-jobs-tab"></a>İşlerim sekmesi
+
+**İşlerim** sekmesi, çalışanları özel olarak kendilerine atanan tüm başlamamış ve bitmemiş işleri kolaylıkla görüntülemenizi sağlar. Bunlar, işlerin bazen başka türden kaynaklar (örneğin makineler) yerine belirli çalışanlara (insan kaynakları) atanan ya da her zaman çalışan şirketlerde yararlıdır. 
+
+Zamanlama sistemi, her bir üretim işini belirli bir kaynak kaydına otomatik olarak atar ve her kaynak kaydının bir türü vardır (makine veya insan gibi). Bir çalışanı üretim çalışanı olarak ayarladığınızda, çalışan hesabını benzersiz bir insan kaynakları kaydıyla ilişkilendirebilirsiniz. 
+
+**İşlerim** sekmesi, oturum açmış bir çalışan çalışanın insan kaynakları kaydına atanan tüm başlamamış ve tamamlanmamış işleri listeler. Oturum açmış çalışan o işlerle çalışmaya başlasa bile, bir makineye veya başka türde bir kaynağa atanan işleri hiçbir zaman listelemez.
+
+Oturum açan çalışan tarafından başlatılan tüm işleri, her projenin atandığı kaynak türüne bakılmaksızın görüntülemek için **Etkin işler** sekmesini kullanın. Çalışan veya başlatma durumundan bağımsız olarak, yerel iş filtresinin konfigürasyonuyla eşleşen bitmemiş tüm işleri görüntülemek için, **Tüm işler** sekmesini kullanın.
+
+![İşlerim sekmesi.](media/pfei-my-jobs-tab.png "İşlerim sekmesi")
 
 ## <a name="my-machine-tab"></a>Makinem sekmesi
 
@@ -133,6 +145,13 @@ Bir çalışan bir planlama maddesi için toplu iş emrindeki bir işi tamamlad�
 
 Bu durumda, çalışan, rapor ilerlemesi iletişim kutusunda **Ortak ürünler çeşitlerini** seçerek ortak ürün ve rapor edilecek miktarı belirtebilir. Çalışan, ortak ürün olarak tanımlanan tüm serbest bırakılan ürünler arasından seçim yapabilir.
 
+### <a name="reporting-catch-weight-items"></a>Fiili ağırlık maddeleri raporlama
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Çalışanlar, fiili ağırlık maddeleri için oluşturulan toplu iş emirleriyle ilgili ilerlemeyi bildirmek için bu üretim tabanı yürütme arabirimini kullanabilir. Toplu iş emirleri formüllerden oluşturulur ve bu formüller, formül maddeleri, ortak ürünler ve ürünler olarak fiili ağırlığa sahip olacak şekilde tanımlanabilir. Bir formül, fiili ağırlık olarak tanımlanan malzemeler için formül satırlarına sahip olacak şekilde de tanımlanabilir. Fiili ağırlık maddeleri stoğu izlemek için iki ölçü birimi kullanır: fiili ağırlık miktarı ve stok miktarı. Örneğin, yiyecek endüstrisinde kutulanmış et, fiili ağırlık miktarının kutu sayısını izlemek için kullanıldığı ve kutuların ağırlığını izlemek için stok miktarının kullanıldığı bir fiili ağırlık maddesi olarak tanımlanabilir.
+
 ## <a name="reporting-scrap"></a>Hurda raporlaması
 
 Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etkin işler** sekmesinde bir iş seçip sonra **Hurdayı Raporla**'yı seçerek hurdayı rapor edebilir. Sonra, **Hurdayı Raporla** iletişim kutusunda, çalışan sayısal klavyeyi kullanarak hurda miktarını girer. Çalışan ayrıca bir neden (*yok*, *makine*, *işleç* veya *malzeme*) seçer.
@@ -187,6 +206,13 @@ Aşağıdaki işlemler gerçekleştirilebilir:
 
 **Malzemeyi ayarla** düğmesi, sağdaki araç çubuğunda görünecek şekilde yapılandırılabilir. (Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini tasarlama](production-floor-execution-tabs.md).) Çalışan, devam etmekte olan bir üretim işi için **Malzemeyi ayarla**'yı seçebilir. Bu durumda, çalışanın istenen ayarlamaları yapabileceği **Malzemeyi ayarla** iletişim kutusu görüntülenir. İletişim kutusu açıldığında, üretim emri için ayarlanan miktarlar için satırlar içeren bir üretim malzeme çekme listesi oluşturulur. Çalışan **Şimdi deftere naklet**'i seçerse, ayarlama onaylanır ve malzeme çekme listesi deftere nakledilir. Çalışan **İptal**'i seçerse, malzeme çekme listesi silinir ve ayarlama yapılmaz.
 
+### <a name="adjust-material-consumption-for-catch-weight-items"></a>Fiili ağırlık maddeleri için malzeme tüketimini ayarla
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Çalışanlar, fiili ağırlık maddeleri için malzeme tüketimini ayarlayabilir. Bu işlevsellik, bir üretim işi tarafından tüketilen gerçek fiili ağırlık malzeme miktarının planlanan miktardan daha fazla veya daha az olduğu senaryolarda kullanılır. Bu nedenle, stok düzeylerini güncel tutmak için ayarlanmalıdır. Bir çalışan fiili ağırlık maddesinin tüketimini ayarladığında, hem fiili ağırlık miktarını hem de stok miktarını ayarlayabilirler. Örneğin, bir üretim işi kutu başına 2 kilogram tahmini ağırlığı olan beş kutu tüketmek üzere planlanacaksa, çalışan hem kullanılacak sayıda kutuyu hem de kutuların ağırlığını ayarlayabilir. Sistem, kutuların belirtilen ağırlığının, serbest bırakılan üründe tanımlanan minimum ve maksimum eşik içinde olduğunu doğrular.
+
 ### <a name="reserve-materials"></a>Yedek malzemeler
 
 **Malzemeyi ayarla** iletişim kutusunda, bir çalışan **Malzemeyi ayır**'ı seçerek malzeme rezervasyonları yapabilir ve ayarlayabilir. Görüntülenen **Malzemeyi ayır** iletişim kutusu, her depolama ve izleme boyutu için madde için fiziksel olarak kullanılabilir stoku gösterir.
@@ -197,6 +223,8 @@ Malzeme gelişmiş ambar işlemleri için etkinleştirilmişse liste malzemenin 
 
 > [!NOTE]
 > Çalışan **İlerlemeyi raporla** veya **Hurda raporla** iletişim kutusunda **İptal**'i seçtiğinde, çalışanın **Malzemeyi ayır** iletişim kutusunda yaptığı ayırmalar kalır.
+>
+> Fiili ağırlık maddeleri için rezervasyonlar ayarlanamaz.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Bir iş tamamlama ve yeni bir proje başlatma
 

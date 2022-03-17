@@ -2,7 +2,7 @@
 title: POS'ta iade oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce Satış Noktasındaki (POS) peşin hareketler veya müşteri siparişleri için iadelerin nasıl başlatılacağı açıklanmıştır.
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 4a0d5efe043d72f936a15ec9a8ead9987fdb22b891a5a3ae94f95aa5ea7a6e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715542"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349703"
 ---
 # <a name="create-returns-in-pos"></a>POS'ta iade oluşturma
 
@@ -96,6 +96,13 @@ Kanal tarafı bilgileri herhangi bir nedenle güncel değilse ve çevrimdışı 
 
 > [!NOTE]
 > **POS'ta birleşik işlem deneyimi** özelliği açıldığında, serileştirilmiş ürün iadelerinin doğrulanmasını destekleyen yeni isteğe bağlı özellikler kullanılabilir duruma gelir. Daha fazla bilgi için bkz. [Satış noktasında (POS) seri numarası denetimli ürünleri iade etme](POS-serial-returns.md).
+
+## <a name="version-details"></a>Sürüm ayrıntıları
+
+Aşağıdaki listede, çeşitli bileşenler için en düşük sürüm gereksinimleri sağlanmaktadır.
+- Commerce Headquarters: Sürüm 10.0.20
+- Commerce Scale Unit (CSU): Sürüm 9.30
+- Satış noktası (POS): Sürüm 9.30
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Kısmi miktarlı iadeler için doğru vergi hesaplamasını etkinleştirme
 

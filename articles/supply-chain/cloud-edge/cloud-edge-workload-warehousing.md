@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068121"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384498"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -210,9 +210,9 @@ Aşağıdaki ambar yönetimi işlevi şu anda ölçek birimi iş yükleri için 
 - Yalnızca Taşıma yönetimi (TMS) için etkinleştirilen maddelerle işleme.
 - Eldeki negatif stokla işleme.
 - Ürünler için şirketler arası veri paylaşımı. <!-- Planned -->
-- Sevkiyat notlarıyla ambar işi işleme.
-- Malzeme işlemesi/ambar otomasyonu ile ambar işi işleme.
+- Sevkiyat notlarıyla ambar çalışması işleme (örneğin, ambalaj istasyonundaki irsaliye notları).
 - Ürün ana verileri görüntüleri (ör. Warehouse Management mobil uygulamasında).
+- Malzeme işlemesi/ambar otomasyonu ile ambar işi işleme.
 
 > [!WARNING]
 > Bazı ambar işlevleri, ölçek biriminde ambar yönetimi iş yüklerini çalıştıran ambarlar için kullanılamaz ve merkezde ya da ölçek birimi iş yükünde desteklenmez.
@@ -235,10 +235,9 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | Sevkiyat dalgası işleme                                     | Hayır  |Evet, **Yük oluşturma ve sıralama** dışında |
 | Dalga için sevkiyatları saklama                                  | Hayır  | Evet|
 | Ambar iş işleme (plaka baskısı dahil)        | Hayır  | Evet, ancak yalnızca daha önce belirtilmiş desteklenen yetenekler için |
-| Küme malzeme çekme                                              | Hayır  | Evet|
-| "Sevk edilmiş konteyner çekme işlemi" işini işleme dahil elle ambalaj işleme | Hayır <P>Bazı işlemler, yalnızca ilk çekme işlemi ölçek birimi tarafından gerçekleştirildikten sonra yapılabilir ancak aşağıdaki engelli işlemler nedeniyle bu önerilmez.</p>  | Hayır |
-| Konteyneri gruptan kaldır                                  | Hayır  | Hayır |
-| Giden sıralama işleme                                  | Hayır  | Hayır |
+| Küme malzeme çekme                                              | No.  | Evet|
+| El ile paketleme istasyonu işleme  | No.  | No. |
+| Giden sıralama işleme                                  | No.  | No. |
 | Yükle ilgili belgeleri yazdırma                           | Evet | Evet|
 | Konşimento ve ASN üretimi                            | Hayır  | Evet|
 | Sevkiyat onaylama                                             | Hayır  | Evet|
@@ -257,7 +256,8 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | İşi geri al                                                 | Hayır  | Evet|
 | Sevkiyat onayını tersine çevir                                | Hayır  | Evet|
 | Ambar sipariş satırlarının iptal edilmesini isteme                      | Evet | Hayır, ancak istek onaylanır veya reddedilir |
-| <p>Transfer emirlerini alma için serbest bırak</p><p>Bu işlem, transfer emri sevkiyat işleminin bir parçası olarak otomatik gerçekleşir. Ancak, gelen ambar siparişi satırları iptal edilirse veya yeni iş yükü dağıtım işleminin bir parçası olarak, bir ölçek biriminde plakayı almayı etkinleştirmek için el ile kullanılabilir.</p> | Evet | Hayır|
+| <p>Transfer emirlerini alma için serbest bırak</p><p>Bu işlem, transfer emri sevkiyat işleminin bir parçası olarak otomatik gerçekleşir. Ancak, gelen ambar siparişi satırları iptal edilirse veya yeni iş yükü dağıtım işleminin bir parçası olarak, bir ölçek biriminde plakayı almayı etkinleştirmek için el ile kullanılabilir.</p> | Evet | No.|
+<!--| "Sevk edilmiş konteyner çekme" işi dahil, manuel ambalaj istasyon işlemesi  | No.  | Evet ancak TMS sevkiyat bildirimi ve satış sevk irsaliyesi deftere nakli olmadan ve ambalaj notları ile ürün görüntüleri olmadan |-->
 
 ### <a name="inbound"></a>Gelen
 
@@ -359,6 +359,7 @@ Merkez dağıtımında şu toplu işleri el ile koruyabilirsiniz:
     - Ölçek biriminden hub'a ileti işlemcisi
     - Kaynak sipariş girişlerini kaydet
     - Ambar siparişlerini tamamla
+    - Eksik giden ambar siparişlerini oluştur
 
 - **Ambar yönetimi \> Periyodik görevler \> İş yükü yönetimi**'nde aşağıdaki toplu işleri yönetin:
 

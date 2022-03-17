@@ -2,23 +2,24 @@
 title: Avusturya için mali kayıt hizmeti tümleştirme örneği
 description: Bu konu, Microsoft Dynamics 365 Commerce'taki Avusturya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: d720bffb98965bdc0276660d2a2e50d2bf155e74
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: b41ff8a112f801cd9bf5ebad3aed588ccb40e1f8
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077177"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388375"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Avusturya için mali kayıt hizmeti tümleştirme örneği
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'taki Avusturya'ya yönelik mali tümleştirme örneğine genel bakış sağlar.
 
@@ -301,14 +302,28 @@ Aşağıdaki ayarlar, mali tümleştirme örneğinin bir parçası olarak sağla
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Hardware station uzantılarını yükleyin:
+1. Mali bağlayıcı uzantılarını yükleyin:
 
-    1. **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** klasöründe **HardwareStation.EFR.Installer** yükleyicisini bulun.
-    1. Uzantı yükleyicisini komut satırından başlatın.
+    Mali bağlayıcı uzantılarını [Donanım istasyonuna](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) veya [POS kaydına](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network) yükleyebilirsiniz.
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. Hardware station uzantılarını yükleyin:
+
+        1. **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** klasöründe **HardwareStation.EFR.Installer** yükleyicisini bulun.
+        1. Aşağıdaki komutu çalıştırarak uzantı yükleyicisini komut satırından başlatın.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. POS uzantılarını yükleyin:
+
+        1. **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** adresindeki POS mali bağlayıcı örnek çözümünü açın ve derleyin.
+        1. **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461** klasöründe, **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer** yükleyicisini bulun.
+        1. Aşağıdaki komutu çalıştırarak uzantı yükleyicisini komut satırından başlatın.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>Üretim ortamı
 
@@ -321,7 +336,7 @@ Avusturya için mali kayıt hizmeti tümleştirme örneği, [mali tümleştirme 
 > [!WARNING]
 > [Yeni bağımsız paketleme ve uzantı modelinin](../dev-itpro/build-pipeline.md) sınırlamaları nedeniyle bu mali tümleştirme örneği için şu anda kullanılamaz. LCS'deki bir geliştirici VM'sinde Retail SDK'nin önceki sürümünü kullanmalısınız. Daha fazla bilgi için bkz. [Avusturya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)](emea-aut-fi-sample-sdk.md). Mali tümleştirme örnekleri için yeni bağımsız paketleme ve uzantı modeli desteği, sonraki sürümler için planlanmaktadır.
 
-### <a name="commerce-runtime-extension-design"></a>Commerce Runtime uzantı tasarımı
+### <a name="commerce-runtime-extension-design"></a>Commerce Runtime uzantı tasarımı 
 
 Bir mali belge sağlayıcısı olan uzantının amacı, hizmete özel belgeler oluşturmak ve mali kayıt hizmetinden gelen yanıtları işlemektir.
 
@@ -352,7 +367,7 @@ Bu dosyaların amacı, mali belge sağlayıcısı ayarlarının Commerce Headqua
 
 ### <a name="hardware-station-extension-design"></a>Hardware station uzantı tasarımı
 
-Bir mali bağlayıcı olan uzantının amacı, mali kayıt hizmeti ile iletişim kurmaktır. Hardware station uzantısı, CRT uzantısının oluşturduğu belgeleri mali kayıt hizmetine göndermek için HTTP protokolünü kullanır. Ayrıca, mali kayıt hizmetinden alınan yanıtları da işler.
+Bir mali bağlayıcı olan uzantının amacı, mali kayıt hizmeti ile iletişim kurmaktır. Hardware station uzantısı, CRT uzantısının oluşturduğu belgeleri mali kayıt hizmetine göndermek için HTTP ve HTTPS protokollerini kullanır. Ayrıca, mali kayıt hizmetinden alınan yanıtları da işler.
 
 #### <a name="request-handler"></a>İstek işleyicisi
 
@@ -369,5 +384,28 @@ Mali bağlayıcı aşağıdaki istekleri destekler:
 #### <a name="configuration"></a>Yapılandırma
 
 Mali bağlayıcıya ait yapılandırma dosyası, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposundaki **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** kısmında bulunur. Dosyanın amacı, mali bağlayıcı ayarlarının Commerce Headquarters'dan yapılandırılmasını etkinleştirmektir. Dosya biçimi, mali tümleştirme yapılandırmasıyla ilgili gereksinimlere uygundur.
+
+### <a name="pos-fiscal-connector-extension-design"></a>POS mali bağlayıcı uzantısı tasarımı
+
+Bir POS mali bağlayıcı uzantısının amacı, POS'den mali kayıt hizmeti ile iletişim kurmaktır. İletişim için HTTPS protokolünü kullanır.
+
+#### <a name="fiscal-connector-factory"></a>Mali bağlayıcı fabrikası
+
+Mali bağlayıcı fabrikası, bağlayıcı adını mali bağlayıcı uygulamasıyla eşleştirir ve **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts** dosyasında bulunur. Bağlayıcı adı, Commerce Headquarters'da belirtilen mali bağlayıcı adıyla eşleşmelidir.
+
+#### <a name="efr-fiscal-connector"></a>EFR mali bağlayıcı
+
+EFR mali bağlayıcısı, **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts** dosyasında bulunur. Aşağıdaki istekleri destekleyen **IFiscalConnector** arabirimini uygular:
+
+- **FiscalRegisterSubmitDocumentClientRequest** – Bu istek, belgeleri mali kayıt hizmetine gönderir ve hizmetten bir yanıt döndürür.
+- **FiscalRegisterIsReadyClientRequest** – Bu istek, mali kayıt hizmetinin sistem durumu denetimi için kullanılır.
+- **FiscalRegisterInitializeClientRequest** – Bu istek, mali kayıt hizmetini başlatmak için kullanılır.
+
+#### <a name="configuration"></a>Yapılandırma
+
+Yapılandırma dosyası, [Dynamics 365 Commerce Çözümleri](https://github.com/microsoft/Dynamics365Commerce.Solutions/) deposunun **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** klasöründe bulunur. Dosyanın amacı, mali bağlayıcı ayarlarının Commerce Headquarters'dan yapılandırılmasını etkinleştirmektir. Dosya biçimi, mali tümleştirme yapılandırmasıyla ilgili gereksinimlere uygundur. Aşağıdaki ayarlar eklenmiştir:
+
+- **Uç nokta adresi** – Mali kayıt hizmetinin URL'si.
+- **Zaman aşımı** – Bağlayıcının mali kayıt hizmetinden yanıt gelmesini bekleyeceği, milisaniye cinsinden süre.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

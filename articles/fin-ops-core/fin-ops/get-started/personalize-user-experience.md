@@ -2,7 +2,7 @@
 title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
-ms.date: 01/28/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075434"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384655"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -158,6 +158,7 @@ Listeler içeren bazı sayfalarda, **Çalışma alanına ekle** kişiselleştirm
 
 - Çalışma alanına liste eklerken, çalışma alanında listenin bilgileri istediğiniz gibi göstermesini sağlamak için sayfada listeyi sıralayın veya filtreleyin. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Liste**'yi seçin. **Yapılandır**'ı seçtikten sonra, çalışma alanındaki listede görünmesi gereken sütunları seçebildiğiniz bir iletişim kutusu görünür. Çalışma alanındaki liste için kullanılan etiketi de belirtebilirsiniz.
 - Çalışma alanına kutucuk eklemek için, önce özetlenmesi gereken veya hızlı erişilmesini istediğiniz verileri göstermesi için sayfadaki listeyi filtreleyin. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Kutucuk**'u seçin. **Yapılandır**'ı seçtikten sonra, çalışma alanındaki kutucuk için kullanılması gereken etiketi belirtebildiğiniz bir iletişim kutusu görünür. Kutucukta bir sayı gösterilip gösterilmeyeceğini de belirtebilirsiniz. Kutucuk çalışma alanına eklendikten sonra, geçerli sayfayı çalışma alanından açmak için onu seçebilirsiniz. Böylece,kutucukla ilişkili filtre uygulanmış listeyi görüntüleyebilirsiniz.
+    - Sürüm 10.0.26'dan itibaren, **Kullanıcıların kutucu boyutlarını seçmesine ve değiştirmesine izin ver** özelliğini etkinleştirdiyseniz, **Kutucuğu yapılandır** iletişim kutusunda yeni kutucuğa uygun dört **Kutucuk boyutundan** birini seçebilirsiniz. Bu özellik, çalışma alanından doğrudan oluşturulduktan sonra kutucuk boyutunu ayarlamanıza de olanak tanır.   
 - Bir çalışma alanına bağlantı eklemek için, önce sayfadaki listeyi filtreleyerek, ilgilendiğiniz verileri göstermesini sağlayın. (**Kaydedilmiş görünümler** özelliği açıksa, bu koşullara sahip bir görünümü kaydedene kadar devam edemezsiniz). Sonra **Çalışma alanına ekle**'yi seçin. Bir çalışma alanı seçin ve ardından **Sunum** alanında **Bağlantı**'yı seçin. **Yapılandır**'ı seçtikten sonra, bağlantı için kullanılması gereken etiketi belirtebildiğiniz bir iletişim kutusu görünür. İsteğe bağlı olarak, bu bağlantının değiştirilebileceği bir bölüm için de etiket belirtebilirsiniz. Bu bölüm yoksa yeni bir bölüm oluşturulur.
 
 > [!NOTE]
@@ -168,6 +169,9 @@ Liste, kutucuk veya bağlantıyı bir çalışma alanına ekledikten sonra o ça
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Çalışma alanından panoya özet ekleme
 
 Bazı çalışma alanları sayı kutucukları (yani üzerinde sayılar bulunan kutucuklar) içerir ve bu kutucukların panonuzda da görünmesini isteyebilirsiniz. Çalışma alanında bir sayı kutucuğuna sağ tıklayın, **Kişiselleştir**'i ve ardından kutucuğun özellik penceresinde **Panoya sabitle**'yi seçin. Panoyu bir dahaki açışınızda (ve yenilemenizde) sayı o çalışma alanının gezinti kutucuğunun altında görünür. Bu sayıyı doğrudan seçerek, temsil ettiği verilere doğrudan gidebilirsiniz.
+
+### <a name="changing-the-size-of-a-tile"></a>Kutucuk boyutunu değiştirme
+10.0.26 sürümünden başlayarak, **Kullanıcıların kutucuk boyutlarını seçmesine ve değiştirmesine izin ver** özelliği, kullanıcıların KPI olmayan herhangi bir kutucuğun boyutunu kişiselleştirme yoluyla değiştirmesine olanak tanır. Bir çalışma alanında, kutucuğuna sağ tıklayın ve **Kişiselleştir**'i seçin. Kutucuğun özellik penceresinde, **Kutucuk boyutu** seçeneklerinde istediğiniz boyutu seçin. Kutucu boyutu hemen ayarlanacak. **(Önizleme) Çalışma alanları için kaydedilen görünümler** özelliği etkinleştirildiyse, bu kişiselleştirmeyi bir çalışma görünümüne kaydedebilirsiniz.  
 
 ### <a name="personalizing-your-dashboard"></a>Panonuzu kişiselleştirme
 

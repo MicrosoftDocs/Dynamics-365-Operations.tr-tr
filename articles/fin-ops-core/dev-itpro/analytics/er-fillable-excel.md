@@ -2,7 +2,7 @@
 title: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
 description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 01/05/2022
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952664"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388275"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -83,31 +83,48 @@ ER İşlem tasarımcısının **Eşleme** sekmesinde, bileşenin oluşturulan bi
 
 ## <a name="range-component"></a>Aralık bileşeni
 
-**Aralık** bileşeni, ER bileşeni tarafından kontrol edilmesi gereken bir Excel aralığını belirtir. Aralığın adı, bu bileşenin **Excel aralığı** özelliğinde tanımlanır.
-
-### <a name="replication"></a>Yineleme
-
-**Yineleme yönü** özelliği, aralığın oluşturulan bir belgede tekrarlanıp tekrarlanmayacağını ve nasıl tekrarlanacağını belirtir:
-
-- **Yineleme yönü** özelliği **Yineleme yok** olarak ayarlanırsa oluşturulan Excel'de uygun Excel aralığı yinelenmez.
-- **Yineleme yönü** özelliği **Dikey** olarak ayarlanırsa oluşturulan Excel'de uygun Excel aralığı yinelenir. Yinelenen her aralık, bir Excel şablonundaki orijinal aralığın altına yerleştirilir. Yineleme sayısı, ER bileşenine bağlı **Kayıt listesi** türünün bir veri kaynağındaki kayıt sayısı ile tanımlanır.
-- **Yineleme yönü** özelliği **Yatay** olarak ayarlanırsa oluşturulan Excel'de uygun Excel aralığı yinelenir. Yinelenen her aralık, bir Excel şablonundaki orijinal aralığın sağına yerleştirilir. Yineleme sayısı, ER bileşenine bağlı **Kayıt listesi** türünün bir veri kaynağındaki kayıt sayısı ile tanımlanır.
-
-Yatay yineleme hakkında daha fazla bilgi edinmek için [Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma](tasks/er-horizontal-1.md) bölümündeki adımları izleyin.
-
 ### <a name="nested-components"></a>Yuvalanmış bileşenler
 
-**Aralık** bileşeni, adlandırılmış uygun Excel aralıklarındaki değerleri girmek için kullanılan diğer iç içe geçirilmiş ER bileşenlerine sahip olabilir.
+#### <a name="data-typing"></a>Veri yazma
+
+**Aralık** bileşeni, adlandırılmış uygun aralıklardaki değerleri girmek için kullanılan diğer iç içe geçirilmiş ER bileşenlerine sahip olabilir.
 
 - Değerleri girmek için **Metin** grubunun herhangi bir bileşeni kullanılırsa değer, bir Excel aralığına metin değeri olarak girilir.
 
     > [!NOTE]
     > Girilen değerleri, uygulamada tanımlanan yerel ayara göre biçimlendirmek için bu deseni kullanın.
 
-- Değerleri girmek için **Excel** grubunun **Hücre** bileşeni kullanılıyorsa değer, bir Excel aralığına **Hücre** bileşeninin bağlanmasıyla tanımlanan veri türünün değeri olarak girilir (örneğin, **Dize**, **Gerçek** veya **Tamsayı**).
+- Değerleri girmek için **Excel** grubunun **Hücre** bileşeni kullanılıyorsa değer, bir Excel aralığına **Hücre** bileşeninin bağlanmasıyla tanımlanan veri türünün değeri olarak girilir. Örneğin, veri türü **Dize**, **Gerçek** veya **Tamsayı** olabilir.
 
     > [!NOTE]
     > Excel uygulamasının, girilen değerleri giden belgeyi açan yerel bilgisayarın yerel ayarına göre biçimlendirmesini sağlamak için bu deseni kullanın.
+
+#### <a name="row-handling"></a>Satır işleme
+
+**Aralık** bileşeni, bir Excel çalışma sayfasında birden çok satır oluşturulacak şekilde dikey çoğaltılabilir olarak konfigüre edilebilir. Satırlar, üst **Aralık** bileşeni veya iç içe **Aralık** bileşenleri tarafından oluşturulabilir.
+
+Sürüm 10.0.26 ve sonrasında oluşturulan satırları aynı sayfada tutmaya zorlayabilirsiniz. ER biçim tasarımcısında, düzenlenebilir ER biçimindeki üst **Aralık** bileşeni için **Satırları birlikte tut** seçeneğini **Evet** olarak ayarlayın. ER, ilgili aralık tarafından oluşturulan tüm içeriği aynı sayfada tutmaya çalışır. İçeriğin yüksekliği geçerli sayfadaki kalan alanı aşarsa, bir sayfa sonu eklenir ve içerik sonraki yeni sayfanın başında başlayacaktır.
+
+> [!NOTE]
+> **Satırları birlikte tut** seçeneğini yalnızca oluşturulan bir belgenin tam genişliğini kapsayan aralıklar için konfigüre etmenizi öneririz.
+>
+> **Satırları birlikte tut** seçeneği yalnızca Excel çalışma kitabı şablonunu kullanmak üzere yapılandırılmış **Excel \> Dosya** bileşenleri için geçerlidir.
+>
+> **Satırları birlikte tut** seçeneği yalnızca **Elektronik raporlama çerçevesinde EPPlus kitaplığı kullanımını etkinleştir** özelliği etkinleştirildiğinde kullanılabilir.
+>
+> Bu özellik, **Sayfa** bileşeni altında bulunan **Aralık** bileşenleri için kullanılabilir. Ancak, [Veri toplama](er-data-collection-data-sources.md) veri kaynakları kullanılarak [sayfa altbilgisi toplamlarının](er-paginate-excel-reports.md#add-data-sources-to-calculate-page-footer-totals) doğru hesaplanacağının garantisi yoktur.
+
+Bu seçeneğin nasıl kullanılacağını öğrenmek için, [Aynı Excel sayfasında satırları bir araya getirmek üzere, bir ER biçimi tasarlama](er-keep-excel-rows-together.md) bölümündeki örnek adımları uygulayın.
+
+### <a name="replication"></a>Yineleme
+
+**Yineleme yönü** özelliği, aralığın oluşturulan bir belgede tekrarlanıp tekrarlanmayacağını ve nasıl tekrarlanacağını belirtir:
+
+- **Çoğaltma yok** – İlgili Excel aralığı oluşturulan belgede tekrarlanmaz.
+- **Dikey** – İlgili Excel aralığı, oluşturulan belgede dikey olarak tekrarlanır. Yinelenen her bir aralık, bir Excel şablonundaki orijinal aralığın altına yerleştirilir. Yineleme sayısı, ER bileşenine bağlı **Kayıt listesi** türünün bir veri kaynağındaki kayıt sayısı ile tanımlanır.
+- **Yatay** – İlgili Excel aralığı, oluşturulan belgede yatay olarak tekrarlanır. Yinelenen her bir aralık, bir Excel şablonundaki orijinal aralığın sağına yerleştirilir. Yineleme sayısı, ER bileşenine bağlı **Kayıt listesi** türünün bir veri kaynağındaki kayıt sayısı ile tanımlanır.
+
+    Yatay yineleme hakkında daha fazla bilgi edinmek için [Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma](tasks/er-horizontal-1.md) bölümündeki adımları izleyin.
 
 ### <a name="enabling"></a>Etkinleştiriliyor
 
@@ -280,12 +297,12 @@ Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturulduğunda
 
 - Oluşturulan belgeye yeni aralıklar, hücreler vb. her eklendiğinde tüm bağımlı formülleri yeniden hesaplamak için **Otomatik**'i seçin.
 
-    >[!NOTE]
+    > [!NOTE]
     > Bu, birden çok ilişkili formül içeren Excel şablonları için performans sorununa neden olabilir.
 
 - Belge oluşturulduğunda formüllerin yeniden hesaplanmasını önlemek için **El ile** seçeneğini belirleyin.
 
-    >[!NOTE]
+    > [!NOTE]
     > Formülün yeniden hesaplanması, oluşturulan belge Excel kullanılarak önizleme için açıldığında el ile gerçekleştirilir.
     > Oluşturulan belgede, formül içeren hücrelerde değer bulunmayabilir. Bu nedenle, Excel'de önizleme olmadan oluşturulan belge kullanımını varsayan bir ER hedefi (PDF dönüşümü, posta gönderme) yapılandırırken bu seçeneği kullanmayın.
 

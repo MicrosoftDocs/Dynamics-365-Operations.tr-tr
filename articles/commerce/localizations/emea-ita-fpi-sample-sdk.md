@@ -2,23 +2,24 @@
 title: İtalya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 description: Bu konu, Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) İtalya için mali yazıcı tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c820c320410c43cafaae43c59cad04efdee24ab2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076924"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388456"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>İtalya için mali yazıcı tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) İtalya için mali yazıcı tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [İtalya için mali yazıcı tümleştirme örneği](emea-ita-fpi-sample.md). 
 
@@ -89,13 +90,13 @@ Commerce bileşenleri içeren dağıtılabilir paketler oluşturmak ve bu paketl
 1. Bu konunun daha önceki [Geliştirme ortamı](#development-environment) bölümünde açıklanan adımları tamamlayın.
 2. **RetailSdk\\Assets** klasöründeki paket yapılandırma dosyalarında aşağıdaki değişiklikleri yapın:
 
-    - **commerceruntime.ext.config** ve **CommerceRuntime.MPOSOffline.Ext.config** yapılandırma dosyalarında, **composition** bölümüne aşağıdaki satırı ekleyin.
+    1. **commerceruntime.ext.config** ve **CommerceRuntime.MPOSOffline.Ext.config** yapılandırma dosyalarında, **composition** bölümüne aşağıdaki satırı ekleyin.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    - **HardwareStation.Extension.config** yapılandırma dosyasında, **composition** bölümüne aşağıdaki satırı ekleyin.
+    1. **HardwareStation.Extension.config** yapılandırma dosyasında, **composition** bölümüne aşağıdaki satırı ekleyin.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -103,20 +104,56 @@ Commerce bileşenleri içeren dağıtılabilir paketler oluşturmak ve bu paketl
 
 3. **BuildTools** klasöründeki **Customization.settings** paket özelleştirme yapılandırma dosyasında aşağıdaki değişiklikleri yapın:
 
-    - CRT uzantısını dağıtılabilir paketlere dahil etmek için aşağıdaki satırı ekleyin.
+    1. CRT uzantısını dağıtılabilir paketlere dahil etmek için aşağıdaki satırı ekleyin.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
         ```
 
-    - Hardware station uzantısını dağıtılabilir paketlere dahil etmek için aşağıdaki satırı ekleyin.
+    1. Hardware station uzantısını dağıtılabilir paketlere dahil etmek için aşağıdaki satırı ekleyin.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Visual Studio için MSBuild Komut İstemi yardımcı programını başlatın ve ardından dağıtılabilir paketler oluşturmak üzere Retail SDK klasöründeki **msbuild** öğesini çalıştırın.
-5. Paketleri LCS aracılığıyla veya el ile uygulayın. Daha fazla bilgi için bkz. [Dağıtılabilir paketler oluşturma](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+4. İtalya için kaynak dosyaları dağıtılabilir paketlere dahil etmek için **Packages\_SharedPackagingProjectComponents** klasörü altındaki **Sdk.ModernPos.Shared.csproj** dosyasında aşağıdaki değişiklikleri yapın:
+
+    1. İstenen çeviriler için kaynak dosyalarını gösteren düğümler içeren bir **ItemGroup** bölümü ekleyin. Doğru ad alanları ve örnek adlar belirttiğinizden emin olun. Aşağıdaki örnek, **it** ve **it-CH** yerel ayarları için kaynak düğümleri ekler.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. **Target Name="CopyPackageFiles"** bölümünde, her yerel ayar için aşağıdaki örnekte gösterildiği gibi bir satır ekleyin.
+
+        ```xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+5. İtalya için kaynak dosyaları dağıtılabilir paketlere dahil etmek için **Packages\_SharedPackagingProjectComponents** klasörü altındaki **Sdk.RetailServerSetup.proj** dosyasında aşağıdaki değişiklikleri yapın:
+
+    1. İstenen çeviriler için kaynak dosyalarını gösteren düğümler içeren bir **ItemGroup** bölümü ekleyin. Doğru ad alanları ve örnek adlar belirttiğinizden emin olun. Aşağıdaki örnek, **it** ve **it-CH** yerel ayarları için kaynak düğümleri ekler.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. **Target Name="CopyPackageFiles"** bölümünde, her yerel ayar için aşağıdaki örnekte gösterildiği gibi bir satır ekleyin.
+
+        ``` xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+6. Visual Studio için MSBuild Komut İstemi yardımcı programını başlatın ve ardından dağıtılabilir paketler oluşturmak üzere Retail SDK klasöründeki **msbuild** öğesini çalıştırın.
+7. Paketleri LCS aracılığıyla veya el ile uygulayın. Daha fazla bilgi için bkz. [Dağıtılabilir paketler oluşturma](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ## <a name="design-of-extensions"></a>Uzantıların tasarımı
 

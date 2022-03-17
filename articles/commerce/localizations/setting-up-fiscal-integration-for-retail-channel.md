@@ -2,19 +2,19 @@
 title: Commerce kanalları için mali tümleştirmeyi ayarlama
 description: Bu konu, mali tümleştirme işlevini Commerce kanalları için ayarlama hakkında yönergeler sağlar.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd37934e1ebd103d66c5181e0bfb75047f4cb6a3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c15104e0f34c1f6cb6a599d506dad741be3e5e9e
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076975"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388402"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeyi ayarlama
 
@@ -46,6 +46,7 @@ Mali tümleştirme Kurulumu işlemi aşağıdaki görevleri içerir:
 - Mali kayıt işlemi tanımlayan mali kayıt adımları ve mali bağlayıcı ve her adım için kullanılan sağlayıcıları mali belge sırasını yapılandır.
 - Mali kayıt işlemini satış noktası (POS) işlev profillerine atayın.
 - Donanım profilleri için bağlayıcı teknik profilleri atayın.
+- POS donanım veya işlev profilleri için bağlayıcı teknik profilleri atayın.
 
 ### <a name="upload-configurations-of-fiscal-document-providers"></a>Mali belge sağlayıcılarının yapılandırmalarını yükleme
 
@@ -161,10 +162,12 @@ Mali kayıt işleminin varlıklarını POS profillerine atamak için bu adımlar
 1. Commerce Headquarters'da **POS işlev profilleri** sayfasına gidin (**Retail ve Commerce \> Kanal kurulumu \> POS kutulumu \> POS profilleri \> İşlev profilleri**). 
 1. Mali kayıt işlemini satış noktası işlev profiline atayın.
 1. **Düzenle**'yi seçin ve sonra **Mali kayıt işlemi** sekmesinde, **İşlem numarası** alanında bir işlem seçin.
+1. **Mali Hizmetler** sekmesinde, bağlayıcı yerleşim **Kaydı** ile bağlayıcı teknik profillerini seçin.
 1. **POS donanım profili** sayfasında gidin (**Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> Donanım profilleri**).
 1. Donanım profili için bağlayıcı teknik profilleri atayın. 
 1. **Düzenle**'yi seçin ve **Mali çevre birimleri** sekmesinde bir satır ekleyin. 
 1. **Profil numarası** alanında, bir bağlayıcı teknik profili seçin.
+1. **Mali çevre birimleri** sekmesinde, bağlayıcı yerleşim **Donanım istasyonu** ile bağlayıcı teknik profillerini seçin.
 
 > [!NOTE]
 > Çok sayıda teknik profilleri, aynı donanım profiline ekleyebilirsiniz. Ancak, bir donanım profili veya POS işlevi profili herhangi bir mali bağlayıcı grubuyla yalnızca bir kesişime sahip olmalıdır.
@@ -175,6 +178,17 @@ Mali kayıt akışı mali kayıt işlemi ve mali tümleştirme bileşenlerinin b
 - Mali belge sağlayıcısı, mali kayıt için kullanılan mali bağlayıcıları tanımlamaktan sorumludur. Mali kayıt işleminin geçerli adımı için bağlayıcı teknik profili ile POS'un eşleştirilmiş olduğu Donanım istasyonunun belirtilmiş olan bağlayıcı işlev profillerine Mali bağlayıcı için eşleşir.
 - Mali belge sağlayıcısı, mali belge sağlayıcı yapılandırmasından veri eşleştirme ayarlarını kullanarak hareket/etkinlik verisini, örn. vergiler ve ödemeler gibi bilgileri bir mali belge oluşturulduğunda kullanır.
 - Mali belge sağlayıcısı bir mali belge oluşturduğunda, mali belge bunu olduğu gibi mali cihaza gönderebilir veya bunu ayrıştırıp ve sonra cihaz uygulama programlama arabirimi (API) komut sırasına dönüştürebilir, iletişimin nasıl ele alındığına bağlı olarak.
+
+### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Mali kayıt kısıtlamalarıyla kayıtları ayarlama
+
+Mali kayda izin verilmeyen kayıtlar, örneğin ürün kataloğu arama, müşteri arama veya hareket taslağı oluşturma gibi yalnızca bu cihazlarda mali olmayan operasyonları sağlamanız gereken durumlarda, kayıtları seçebilirsiniz.
+
+Mali kayıt kısıtlamalarıyla kayıtları ayarlamak için aşağıdaki adımları izleyin.
+
+1. Commerce genel merkezinde, **Retail ve Commerce \> Kanal kurulumu \> Mali tümleştirme \> Mali kayıt işlemleri**'ne gidin.
+1. Gerekli işlemi seçin.
+1. **Mali işlem sınırlamalarına sahip POS kasaları** sekmesini seçin.
+1. Mali işlem sınırlamalarına sahip kasaları gerektiği şekilde ekleyin.
 
 ### <a name="validate-the-fiscal-registration-process"></a>Mali kayıt işlemini doğrulama
 

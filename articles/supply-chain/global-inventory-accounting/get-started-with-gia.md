@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860521"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384809"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Global Stok Muhasebesi kullanmaya başlama
 
@@ -121,7 +121,7 @@ Global Stok Muhasebesi ile Supply Chain Management arasındaki tümleştirmeyi a
 1. Supply Chain Management'ta oturun açın.
 1. **Sistem yönetimi \> Özellik Yönetimi** bölümüne gidin.
 1. **Güncelleştirmeleri denetle**'yi seçin.
-1. **Tümü** sekmesinde, *Global stok muhasebesi* olarak adlandırılan özelliği arayın.
+1. **Tümü** sekmesinde, *(Önizleme) Global stok muhasebesi* olarak adlandırılan özelliği arayın.
 1. **Şimdi etkinleştir**'i seçin.
 1. **Global stok muhasebesi \> Kurulum \> Global stok muhasebesi parametreleri \> Tümleştirme parametreleri**'ne gidin.
 1. **Veri hizmeti uç noktası** ve **Global stok muhasebesi uç noktası** alanlarında, önizleme Için kayıt olduğunuzda Global Stok Muhasebesi takımının gönderdiği e-postadaki URL'leri girin.

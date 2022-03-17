@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3030bc7d2501e2162758c94c0dc1a073655c9c0f
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: df0d2178d1ebd3dcb154e2c4f7821a4007da55d4
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182530"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8331754"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Borç hesapları için merkezi ödemeler
 
 [!include [banner](../includes/banner.md)]
 
 Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez. Bu konuda, çeşitli senaryolarda deftere nakletmenin merkezi ödemeler için nasıl işlendiğini gösteren örnekler yer almaktadır.
-
-Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez. Ayrıca, ödeme işleminiz kesintisiz hale getirildiğinden organizasyon zamandan tasarruf sağlar.
 
 Bir merkezi ödemeler organizasyonunda, işlemler için birçok tüzel kişilik vardır ve işlem yapan her bir tüzel kişilik kendi satıcı faturalarını yönetir. İşlem yapan tüm tüzel kişilikler için ödemeler tek bir tüzel kişiden üretilir ve bu, ödemenin tüzel kişiliği olarak bilinir. Kapatma işlemi sırasında, ilgili vade sonu ve vade başlangıcı hareketleri oluşturulur. Organizasyondaki hangi tüzel kişiliğin gerçekleşmiş kar veya gerçekleşmiş zararı alacağını ve şirketler arası ödeme ile ilgili nakit iskonto işlemlerinin nasıl halledileceğini belirleyebilirsiniz. Merkezi ödeme günlük satırında **Hesap türünün** Satıcı olarak ayarlanması gerekir. **Mahsup hesap türü**'nün Banka veya Genel Muhasebe olarak ayarlanmış olması gerekir. Banka hesabı geçerli şirkette olmalıdır. 
 

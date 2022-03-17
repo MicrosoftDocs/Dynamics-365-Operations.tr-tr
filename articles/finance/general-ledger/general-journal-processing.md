@@ -2,7 +2,7 @@
 title: Genel günlük işleme
 description: Bu konu, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 Finance yeteneklerini açıklamaktadır. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili denetimin hatasız olduğunu da sağlamaya yardımcı olurlar.
 author: kweekley
-ms.date: 08/09/2019
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726789"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367904"
 ---
 # <a name="general-journal-processing"></a>Genel günlük işleme
 
@@ -101,7 +101,7 @@ Günlük sayfasında, "sistem tarafından kilitlendi" durumunda olan bir günlü
 Durumu "kurtarılamaz" olan bir iş akışındaki günlüğü geri çağırma özelliği, bir günlükteki ve **İş akışı geçmişi** sayfasındaki **İş akışı** düğmesi kullanılarak etkinleştirilir. Bu, **Özellik Yönetimi** sayfasındaki **Günlükler için iş akışı durumunu sıfırlama** adlı özellik tarafından etkinleştirilir.
 
 ## <a name="delete-journal-lines"></a>Günlük Satırlarını Silme
-Tüm günlük satırlarını hızlı bir şekilde silme özelliği, **İşlevler** > **Günlük Satırlarını Sil** altındaki bir günlükte etkinleştirilir. Bu özelliği etkinleştirmek için, **Özellik yönetimi**'nde, **Günlük performansı iyileştirmelerini sil**'i seçin.
+Tüm günlük satırlarını hızlı bir şekilde silme özelliği, **İşlevler** > **Günlük Satırlarını Sil** altındaki bir günlükte etkinleştirilir. Bu özelliği etkinleştirmek için, **Özellik yönetimi**'nde, **Günlük performansı iyileştirmelerini sil**'i seçin. Bu özellik, her bir satırın **Sil** yöntemini çağırmadan satır kümesi kaldırıldığından **LedgerJournalTrans** tablosu ve bunun **Sil** yöntemindeki uzantıları etkiler. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

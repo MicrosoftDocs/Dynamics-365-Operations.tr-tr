@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4fef5011ead69028a7f667835fd5e5ba2401408d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985668"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358443"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Otomatik satıcı faturalama işlemlerine genel bakış
 
@@ -43,7 +43,7 @@ Otomasyon süreçleri, bu görevleri gerçekleştirmek için kullanılabilir:
 
 ## <a name="submit-imported-vendor-invoices-to-the-workflow-system"></a>İçe aktarılan satıcı faturalarını iş akışı sistemine gönderme
 
-Temassız Borç hesapları faturalama işleminin bir parçası olarak, sistemin içe aktarılan bir faturayı iş akışı sistemine otomatik olarak göndermesini sağlayabilirsiniz. Bu işlem arka planda, belirttiğiniz bir sıklıkta (saatlik veya günlük) çalışacaktır. İçe aktarılan faturaları otomatik olarak iş akışı sistemine gönderme yeteneği, işleminizin içe aktarılan bir faturayla başlamasını gerektirir. Faturanın el ile müdahale olmadan başlangıçtan bitişe kadar işlendiğinden emin olmak için, iş akışı yapılandırmasına otomatik deftere nakil görevinin dahil edilmesi gerekir.
+Temassız Borç hesapları faturalama işleminin bir parçası olarak, içe aktarılan bir faturanın iş akışı sistemine otomatik olarak gönderilmesini sağlayabilirsiniz. Bu işlem arka planda, belirttiğiniz bir sıklıkta (saatlik veya günlük) çalışacaktır. İçe aktarılan faturaları otomatik olarak iş akışı sistemine gönderme yeteneği, işleminizin içe aktarılan bir faturayla başlamasını gerektirir. Faturanın el ile müdahale olmadan başlangıçtan bitişe kadar işlendiğinden emin olmak için, iş akışı yapılandırmasına otomatik deftere nakil görevinin dahil edilmesi gerekir.
 
 
 Satınalma siparişleri (PO'lar) ile ilgili faturalar ve PO dışı tedarik kategorisi ve stoklanmayan satırlar içeren faturalar, otomatik olarak iş akışı sistemine gönderilebilir. El ile girilen faturalar ve **Satıcı işbirliği faturalama** çalışma alanını kullanarak oluşturulan faturalar iş akışı sistemine el ile gönderilmelidir. Ön ödeme uygulaması işleminin içe aktarılan faturalar için el ile gerçekleştirilmesi gerekir. İçe aktarılan faturayı deftere nakletme işleminden önce veya sonra ön ödemeleri el ile uygulayabilirsiniz. **Satıcı faturaları** sayfasını kullanarak, deftere nakledilmemiş standart faturalara yapılacak ön ödemeleri el ile uygulayabilirsiniz. Deftere nakilden sonra, kapatılan ön ödeme **satıcılar** sayfasında (**Borç hesapları \> ortak \> satıcılar \> tüm satıcılar \> fatura sekmesi \> Uygula**) bu satıcıdan diğer faturalara el ile uygulanmak üzere kullanılabilir.
@@ -52,7 +52,7 @@ Otomasyon özelliği, içe aktarılan satıcı faturalarını iş akışı siste
 
 ## <a name="match-product-receipts-to-invoice-lines-that-have-a-three-way-matching-policy"></a>Ürün girişlerini üç yönlü eşleştirme ilkesine sahip fatura satırlarıyla eşleştirme
 
-Sistem, deftere nakledilen ürün girişlerini, üç yönlü eşleştirme ilkesi için tanımlanmış olan fatura satırlarına otomatik olarak eşleştirebilir. İşlem, eşlenen ürün giriş miktarı fatura miktarına eşit oluncaya kadar çalışacaktır. Bu işlemin bir parçası olarak, işlemin başarısız olması sonucuna varmadan önce, sistemin ürün girişlerini bir fatura satırıyla eşleştirmek için kaç kez deneme yapması gerektiğini belirtebilirsiniz. İşlem, saatlik ya da günlük olarak arka planda çalışacaktır. Otomatik eşleştirme sürecini, faturaları iş akışı sistemine gönderme sürecinin bir parçası olarak çalıştırabilirsiniz. Alternatif olarak, bunu bağımsız bir işlem olarak da çalıştırabilirsiniz.
+Deftere nakledilen ürün girişleri, üç yönlü eşleştirme ilkesi için tanımlanmış olan fatura satırlarına otomatik olarak eşleştirebilir. İşlem, eşlenen ürün giriş miktarı fatura miktarına eşit oluncaya kadar çalışacaktır. Bu işlemin bir parçası olarak, işlemin başarısız olması sonucuna varmadan önce, sistemin ürün girişlerini bir fatura satırıyla eşleştirmek için kaç kez deneme yapması gerektiğini belirtebilirsiniz. İşlem, saatlik ya da günlük olarak arka planda çalışacaktır. Otomatik eşleştirme sürecini, faturaları iş akışı sistemine gönderme sürecinin bir parçası olarak çalıştırabilirsiniz. Alternatif olarak, bunu bağımsız bir işlem olarak da çalıştırabilirsiniz.
 
 ## <a name="pre-validate-vendor-invoice-posting"></a>Satıcı faturası deftere naklini ön doğrulama
 
@@ -60,7 +60,7 @@ Deftere nakil benzetimi, satıcı faturalarının deftere nakil işlemi sırası
 
 ## <a name="enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Satıcı faturaları için iş akışı ve otomasyon geçmiş bilgilerini görüntüleme için geliştirilmiş deneyim
 
-Satıcı faturası iş akışı geçmişiyle ilgili kolay okunabilir bir görünüm sağlanmıştır. Satıcı faturası iş akışı geçmişine doğrudan satıcı faturasından erişilebilir. Bu nedenle, bu bilgileri bulmak için daha az tıklama gerekir. Kuruluşunuz içeri aktarılan satıcı faturalarını iş akışına otomatik olarak gönderme özelliğini etkinleştirmişse içeri aktarılan faturalar için otomasyon geçmişi sunulur. Otomasyon geçmişi, geçerli işlem adımının yanı sıra zaten tamamlanmış olan adımları belirlemenize yardımcı olur. Bir adım başarısız olduğunda, sistem hatanın nedenini anlamanıza yardımcı olacak ayrıntılı bilgiler sağlar.
+Satıcı faturası iş akışı geçmişiyle ilgili kolay okunabilir bir görünüm sağlanmıştır. Satıcı faturası iş akışı geçmişine doğrudan satıcı faturasından erişilebilir. Bu nedenle, bu bilgileri bulmak için daha az tıklama gerekir. Kuruluşunuz içeri aktarılan satıcı faturalarını iş akışına otomatik olarak gönderme özelliğini etkinleştirmişse içeri aktarılan faturalar için otomasyon geçmişi sunulur. Otomasyon geçmişi, geçerli işlem adımının yanı sıra zaten tamamlanmış olan adımları belirlemenize yardımcı olur. Bir adım başarısız olduğunda, hatanın nedenini anlamanıza yardımcı olacak ayrıntılı bilgiler sağlanır.
 
 ## <a name="analytics-and-metrics"></a>Analiz ve ölçümler
 
@@ -78,9 +78,9 @@ Satıcı faturası iş akışı geçmişiyle ilgili kolay okunabilir bir görün
 
 ## <a name="tracking-the-imported-invoice-amount-and-imported-sales-tax-amount-values"></a>İçe aktarılan fatura tutarı ve içe aktarılan satış vergisi tutarı değerlerini izleme
 
-Satıcı faturalarına ait **içe aktarılan fatura tutarı** ve **içe aktarılan satış vergisi tutarı** değerleri satıcı faturaları içe aktarma dosyasında sağlanabilir. Genellikle, bu değerler dışarıdaki bir sağlayıcı tarafından taranmış ve içe aktarma dosyasına dahil edilmiş bir faturadan alınır. Fatura borç hesaplarında işlenirken, sistem, değerleri fatura verilerine göre hesaplar. Fatura ancak içe aktarılan değerler hesaplanan değerlerle eşleşiyorsa deftere nakledilebilir. Eşleşen değerler, faturanın satıcıya ödenmesi gereken tutarı doğru şekilde yansıttığını gösterir. Kuruluşunuz içe aktarılan faturaların iş akışı sistemine otomatik olarak gönderilmesine izin verdiği takdirde, faturanın iş akışı sistemine gönderilebilmesi için, isteğe bağlı olarak içe aktarılan toplamların hesaplanan toplamlarla eşleşmesini zorunlu kılabilirsiniz.
+Satıcı faturalarına ait **içe aktarılan fatura tutarı** ve **içe aktarılan satış vergisi tutarı** değerleri satıcı faturaları içe aktarma dosyasında sağlanabilir. Genellikle, bu değerler dışarıdaki bir sağlayıcı tarafından taranmış ve içe aktarma dosyasına dahil edilmiş bir faturadan alınır. Fatura borç hesaplarında işlenirken, değerler fatura verilerine göre hesaplanır. Fatura ancak içe aktarılan değerler hesaplanan değerlerle eşleşiyorsa deftere nakledilebilir. Eşleşen değerler, faturanın satıcıya ödenmesi gereken tutarı doğru şekilde yansıttığını gösterir. Kuruluşunuz içe aktarılan faturaların iş akışı sistemine otomatik olarak gönderilmesine izin verdiği takdirde, faturanın iş akışı sistemine gönderilebilmesi için, isteğe bağlı olarak içe aktarılan toplamların hesaplanan toplamlarla eşleşmesini zorunlu kılabilirsiniz.
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Satıcı fatura otomasyonu - Birden fazla fatura için otomatik işlemeyi sürdürme
-İçeri aktarılan bir fatura otomatik işlem aracılığıyla iş akışına başarılı bir şekilde gönderilmezse sistem bu faturayı diğer otomatik işlemlerden kaldırır. Borç hesapları memuru, otomatik işlem faturayı iş akışına yeniden göndermeden önce faturayı inceleyip düzenleyebilir. Bir hata nedeni birden çok fatura için aynı düzeltme ile çözülebiliyorsa otomatik işlemi **Otomatik fatura işlemeyi sürdür** sayfasından otomatik işlemi yeniden başlatabilirsiniz. 
+İçeri aktarılan bir fatura otomatik işlem aracılığıyla iş akışına başarılı bir şekilde gönderilmezse bu fatura diğer otomatik işlemlerden kaldırılır. Borç hesapları memuru, otomatik işlem faturayı iş akışına yeniden göndermeden önce faturayı inceleyip düzenleyebilir. Bir hata nedeni birden çok fatura için aynı düzeltme ile çözülebiliyorsa otomatik işlemi **Otomatik fatura işlemeyi sürdür** sayfasından otomatik işlemi yeniden başlatabilirsiniz. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

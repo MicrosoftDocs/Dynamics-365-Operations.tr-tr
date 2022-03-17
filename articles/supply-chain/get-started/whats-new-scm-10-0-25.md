@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103008"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384550"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25 (Nisan 2022) Önizlemesi
 
@@ -34,10 +34,10 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
-| Stok&nbsp;ve&nbsp;lojistik | Tehlikeli maddeler geliştirmeleri | Bu geliştirmeler, şirketlerin farklı coğrafyalarda tehlikeli maddeler taşırken yerel düzenlemelere daha iyi uyum sağlamalarına yardımcı olmak için mevcut tehlikeli madde işlevselliğini oluşturur. <!-- KFM: Update to 2022w1 link when published -->| Özellik yönetimi:<br>*Tehlikeli maddeler geliştirmeleri* |
-| Stok&nbsp;ve&nbsp;lojistik | Sevk istasyonları için sevk işi | Bu özellik, paketleme ve nakliye operasyonlarınızın esnekliğini ve çevikliğini büyük ölçüde artırır. Paketleme işlemi sırasında, ambar çalışanları artık aynı sevkiyat ve yük ile ilgili tek tek parselleri paketleyebilir ve gönderebilir. Bazı maddeler hemen sevkiyata hazırsa, aynı sevk irsaliyesinin parçası olan sipariş satırlarının birlikte sevk edilmesi gerekmez. Tek bir sipariş, farklı nakliye zamanlarında birden fazla parselde paketlenebilir ve gönderilebilir, böylece bekleme süreleri azaltılabilir ve çeviklik artırılabilir.<!-- KFM: Update to 2022w1 link when published --> | Özellik yönetimi:<br>*Sevk istasyonları için sevk işi* |
-| Stok&nbsp;ve&nbsp;lojistik | [GS1 biçimi standartlarını kullanarak ambarda barkodları tarama](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) <!-- KFM: Update to 2022w1 link when published --> | [GS1 barkodları ve QR kodları](../warehousing/gs1-barcodes.md) | Özellik yönetimi:<br>*GS1 barkodlarını tara* |
-| İmalat | [Üretim katı yürütme arabiriminde malzeme tüketimi ve ayırmalar](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md) | Özellik yönetimi:<br>*(Önizleme) Üretim katı yürütme arabiriminde (WMS özellikli) malzeme tüketimini kaydet* |
+| Stok&nbsp;ve&nbsp;lojistik | [Tehlikeli maddeler geliştirmeleri](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Çok yakında | Özellik yönetimi:<br>*Tehlikeli maddeler geliştirmeleri* |
+| Stok&nbsp;ve&nbsp;lojistik | [Sevk istasyonları için sevk işi](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Çok yakında | Özellik yönetimi:<br>*Sevk istasyonları için sevk işi* |
+| Stok&nbsp;ve&nbsp;lojistik | [GS1 biçimi standartlarını kullanarak ambarda barkodları tarama](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 barkodları ve QR kodları](../warehousing/gs1-barcodes.md) | Özellik yönetimi:<br>*GS1 barkodlarını tara* |
+| İmalat | [Üretim katı yürütme arabiriminde malzeme tüketimi ve ayırmalar](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md) | Özellik yönetimi:<br>*(Önizleme) Üretim katı yürütme arabiriminde malzeme tüketimini kaydetme (WMS dışı)*<br><br>Ve/veya:<br><br>Özellik yönetimi:<br>*(Önizleme) Üretim katı yürütme arabiriminde (WMS özellikli) malzeme tüketimini kaydet* |
 | İmalat | [Malzeme tüketimini ölçek birimlerinde kaydetme](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri](../cloud-edge/cloud-edge-workload-manufacturing.md) | Özellik yönetimi:<br>*Mobil uygulamadaki malzeme tüketimini bir ölçek birimine kaydet* |
 | Planlama | [Mevcut arzı iyileştirmek için Planlama İyileştirmesi önerileri](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Eylem iletileri](../master-planning/action-messages.md) | Varsayılan olarak etkin |
 | Planlama | Basitleştirilmiş planlı siparişler | [Basitleştirilmiş planlı siparişler](../master-planning/planning-optimization/planned-orders-simplified.md ) | Özellik yönetimi:<br>*Basitleştirilmiş planlı siparişler* |

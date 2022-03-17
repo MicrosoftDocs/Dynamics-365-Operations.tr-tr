@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
+ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119199"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376194"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Dağıtılmış karma topolojide ölçek birimleri
 
@@ -40,7 +40,7 @@ Dağıtılmış karma topoloji, atölye ve ambar yürütme iş yüklerinin farkl
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Ölçek birimleri ve özel iş yükleri
 
-Ölçek birimleri, özel işleme kapasitesi ekleyerek merkezi Supply Chain Management hub ortamınızı genişletir. Ölçek birimleri bulutta çalışabilir. Alternatif olarak, yerel tesislerde uçta ve şirket içinde de çalıştırabilirsiniz.
+Ölçek birimleri, özel işleme kapasitesi ekleyerek merkezi Supply Chain Management hub ortamınızı genişletir. Ölçek birimleri bulutta çalışabilir. Alternatif olarak, yerel tesislerde [uçta](cloud-edge-edge-scale-units-lbd.md) ve şirket içinde de çalıştırabilirsiniz.
 
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Ölçek birimlerini içeren Dynamics 365.":::
 
@@ -127,31 +127,25 @@ Dynamics 365 ortamınızı bulut ve uç ölçek birimleri için dağıtılmış,
 
 ABD veri merkezlerine aktarılan ve buralarda depolanan veriler Microsoft veri saklama ilkelerine göre silinecektir. Gizliliğiniz Microsoft için önemlidir. Daha fazla bilgi için [Gizlilik Bildirimimizi](https://go.microsoft.com/fwlink/?LinkId=521839) okuyun.
 
-## <a name="onboarding-in-two-stages"></a>İki aşamada katılım
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Supply Chain Management için dağıtılmış, karma topoloji ekleme
 
-Dağıtılmış, karma topolojiye katılma işleminin iki aşaması vardır. İlk aşamada, ölçek birimlerine sahip dağıtılmış topolojide çalıştıklarından emin olmak için özelleştirmeleri doğrulamanız gerekir. Korumalı alan ve üretim ortamları sadece ikinci aşamada taşınır.
+### <a name="try-out-the-distributed-hybrid-topology"></a>Dağıtılmış karma topolojiyi deneme
 
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Aşama 1: Özelleştirmeleri yerleşik geliştirme ortamlarında değerlendirme
+Dağıtılmış, karma topolojiye katılma işleminin iki aşaması vardır. İlk aşamada, ölçek birimlerine sahip dağıtılmış topolojide çalıştıklarından emin olmak için çözümü [denemeniz](cloud-edge-try-out.md) ve özelleştirmeleri doğrulamanız gerekir. (Doğrulamayı yapmak için varolan geliştirme ortamlarını kullanabilirsiniz.) Daha sonra, üretim ortamları aldığınız ikinci aşamaya devam edebilirsiniz.
 
-Korumalı alanınızı veya üretim ortamlarınızı eklemeye başlamadan önce işlemleri, özelleştirmeleri ve çözümleri doğrulayabilmeniz için yerleşik ortam (katman 1 ortam olarak da bilinir) gibi bir geliştirme kurulumunda ölçek birimlerini keşfetmenizi öneririz. Bu aşamada, veriler ve özelleştirmeler yerleşik ortamlara uygulanacaktır. Bir ortam merkez rolünü, diğeri ölçek birimi rolünü alır. Bu kurulum, sorunları tanımlamanın ve düzeltmenin en iyi yolunu sağlar. En son erken erişim (PEAP) derlemesi de bu aşamayı tamamlamak için kullanılabilir.
-
-Aşama 1 için, [yerleşik geliştirme ortamları için ölçek birimi dağıtım araçlarını kullanmanız](https://github.com/microsoft/SCMScaleUnitDevTools) gerekir. Bu araçlar, merkez ve ölçek birimlerini bir veya iki ayrı yerleşik ortamda yapılandırmanıza olanak tanır. Araçlar GitHub'da kaynak kodunda ve ikili sürüm olarak sağlanır. Araçların nasıl kullanıldığını açıklayan [Adım adım kullanım kılavuz](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) içeren proje wiki'sini inceleyin.
-
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Aşama 2: Eklentiler alıp korumalı alan ve üretim ortamlarınıza dağıtın
-
-Korumalı alan veya üretim ortamlarınızdan birini yeni topolojiye eklemek için, bir veya daha fazla bulut ölçek birimi için (ve gelecekte uç ölçek birimleri için) eklentiler edinmeniz gerekir. Eklentiler, ölçek birimi ortamlarının dağıtılabilmesi için [LCS](https://lcs.dynamics.com/)'de karşılık gelen proje ve ortam yuvaları sağlar.
-
-> [!NOTE]
-> Ölçek birimi eklentileri sınırlı sayıda kullanıcıyla birleştirilmiş değildir ancak yöneticinin atadığı rollere bağlı olarak mevcut abonelikteki herhangi bir kullanıcı tarafından kullanılabilir.
+## <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>LCS projesi kiracınızı ve ayrıntılı ekleme işlemini seçin
 
 Ölçek birimleri birden fazla stok tutma birimi (SKU) ve fiyatlandırma seçeneğiyle sunulur. Bu nedenle, planlanan aylık işlem hacminizi ve performans gereksinimlerinizi en iyi karşılayan seçeneği belirleyebilirsiniz.
+
+> [!TIP]
+> Gereksinimlerinizi en iyi karşılayan boyutlandırmayı belirlemek için, gereksinim duyduğunuz aylık işlem boyutunu anlamak üzere uygulama iş ortağınız ve Microsoft ile birlikte çalışın.
 
 Giriş düzeyi SKU *Temel* olarak ve daha performanslı SKU *Standart* olarak bilinir. Her SKU, belirli sayıda aylık işlemle önceden yüklenir. Ancak, her SKU için fazla kullanım eklentileri ekleyerek aylık işlem bütçesini artırabilirsiniz.
 
 :::image type="content" source="media/SKUs-highlevel.png" alt-text="Bulut ölçek birimleri için eklentiler.":::
 
-> [!TIP]
-> Gereksinimlerinizi en iyi karşılayan boyutlandırmayı belirlemek için, gereksinim duyduğunuz aylık işlem boyutunu anlamak üzere iş ortağınız ve Microsoft ile birlikte çalışın.
+> [!NOTE]
+> Ölçek birimi eklentileri sınırlı sayıda kullanıcıya bağlı değildir. Varolan aboneliğinizde herhangi bir kullanıcı tarafından kullanılabilir (yöneticinizin gerekli Kullanıcı rollerini ataması koşuluyla).
 
 Satın alınan her ölçek birimi eklentisi size yalnızca aylık bir işlem hacmi sağlamakla kalmaz, aynı zamanda LCS'de belirli sayıda ortam yuvasına da hak sağlar. Her Bulut Ölçek Birimi Eklentisi için bir yeni üretim yuvası ve bir yeni korumalı alan yuvasına sahip olursunuz. Ekleme işlemi sırasında, bu yuvalara sahip yeni bir LCS projesi eklenecektir. Yuvaların kullanım hakları sınırlıdır bu nedenle yuvalar bulut merkezine sahip ölçek birimleri olarak kullanılmalıdır.
 
@@ -159,9 +153,6 @@ Fazla kullanım eklentileri size yeni ortam yuvaları sağlamaz.
 
 Daha fazla korumalı alan ortamı edinmek istiyorsanız, ek normal korumalı alan yuvaları satın alabilirsiniz. Microsoft daha sonra bu yuvaları karma topoloji için korumalı alan ölçek birimleri olarak etkinleştirmenize yardımcı olabilir.
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Supply Chain Management için dağıtılmış, karma topoloji ekleme
-
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>LCS projesi kiracınızı ve ayrıntılı ekleme işlemini seçin
 
 Supply Chain Management için dağıtılmış, karma topolojiye nasıl katılacağınızı planlamayı tamamladıktan sonra, ekleme işlemine başlamak için [Ölçek Birimi Yöneticisi portalını](https://aka.ms/SCMSUM) kullanacaksınız. Portalda, **Dynamics 365 Kiracıları** sekmesini seçin. Bu sekme, hesabınızın parçası olduğu ve bir LCS projesinin sahibi veya ortam yöneticisi olduğunuz kiracıların listesini gösterir.
 

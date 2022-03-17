@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cbc800d7ae4d566fddb111b7ee9d67234e3cf8c
-ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
+ms.openlocfilehash: 4ed5664b5be11f013900d6411d4307692d5e8334
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "8326006"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358201"
 ---
 # <a name="configure-accounts-payable-overview"></a>Borç hesaplarını yapılandırmaya genel bakış
 
@@ -34,7 +34,7 @@ Bu makalede, Borç hesapları için temel ve isteğe bağlı işlevleri ayarlama
 
 Borç hesaplarını ayarlamadan önce aşağıdaki kurulumu tamamlamanız gerekir:
 
--   Genel muhasebe hesabında:
+-   Genel muhasebede:
     -   Ödeme Günlükleri'ni kullanmayı planlıyorsanız, ödeme günlükleri ayarlayın.
     -   Döviz kuru ayarlamalarını çalıştırmayı planlıyorsanız, **Para birimleri** sayfasında para birimi kodlarını, **Döviz kuru türleri** sayfasında döviz kuru türlerini ve **Para birimi döviz kuru** sayfasında ara birimi döviz kurlarını ayarlayın.
 -   Nakit ve banka yönetimi bölümünde, ödeme yöntemleriyle kullanılacak banka hesaplarını ayarlayın.

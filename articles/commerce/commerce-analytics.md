@@ -2,18 +2,18 @@
 title: Commerce analizleri (Önizleme)
 description: Bu konu, Microsoft Dynamics 365 Commerce'de analitik özelliğinin nasıl yüklenip kullanılacağını açıklar.
 author: AamirAllaq
-ms.date: 11/23/2021
+ms.date: 02/24/2022
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 8cfe2af756315b5be3eb22d99376a96166fffc52
-ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
+ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7862785"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349755"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce analizleri (Önizleme)
 
@@ -29,7 +29,6 @@ Bu konu, Microsoft Dynamics 365 Commerce'de bulunan işlevsel analitik yeteneği
 ![Commerce Analizleri (Önizleme) Ödemeler](media/CommerceAnalytics_Payments.png)
 ![Commerce Analizleri (Önizleme) Web etkinliği](media/CommerceAnalytics_WebActivity.png)
 
-
 ## <a name="commerce-analytics-preview-system-architecture"></a>Commerce analizleri (Önizleme) sistem mimarisi
 
 ### <a name="key-components"></a>Anahtar bileşenler
@@ -37,7 +36,7 @@ Bu konu, Microsoft Dynamics 365 Commerce'de bulunan işlevsel analitik yeteneği
 Commerce analizleri (Önizleme) aşağıdaki temel bileşenlerden oluşur:
 
 - Kullanıma hazır etkileşimli Power BI raporları
-- Azure Synapse Analizleri'nde SQL görünümleri
+- Azure Synapse Analytics'te SQL görünümleri
 - Azure Data Lake içinde varlık ve ontoloji verileri
 - Azure Data Lake'te ham veriler
 
@@ -70,11 +69,11 @@ Ham veriler veri gölünüzde olduktan sonra, Commerce Analizleri hizmeti bunu o
 
 #### <a name="step-4-querying"></a>Adım 4: Sorgulama
 
-Azure Synapse Analizleri, veri gölü içindeki verileri bir Transact-SQL (T-SQL) arabirimi yoluyla sorgulamak için kullanılır. Bu arabirim SQL görünümlerini içerir. SQL görünümleri, doğrudan bir T-SQL istemcisi (geçici çözümlemeler için) veya Power BI gibi bir görselleştirme aracı aracılığıyla veri gölü içindeki verilerin federe olarak sorgulanmasına olanak tanır.
+Azure Synapse Analytics, veri gölü içindeki verileri bir Transact-SQL (T-SQL) arabirimi yoluyla sorgulamak için kullanılır. Bu arabirim SQL görünümlerini içerir. SQL görünümleri, doğrudan bir T-SQL istemcisi (geçici çözümlemeler için) veya Power BI gibi bir görselleştirme aracı aracılığıyla veri gölü içindeki verilerin federe olarak sorgulanmasına olanak tanır.
 
 #### <a name="step-5-modeling-and-serving"></a>Adım 5: Modelleme ve hizmet sunma
 
-Azure Synapse Analizleri tarafından sorgulanan veriler, Power BI'nin anlamsal modeline gider. Veri türüne bağlı olarak, düzenli aralıklarla bellek içi olarak Power BI'ye aktarılır veya çalışma zamanında doğrudan sorgulanır.
+Azure Synapse Analytics tarafından sorgulanan veriler, Power BI'nin anlamsal modeline gider. Veri türüne bağlı olarak, düzenli aralıklarla bellek içi olarak Power BI'ye aktarılır veya çalışma zamanında doğrudan sorgulanır.
 
 Son olarak, veriler Power BI görsellerinde işlenir ve böylece kullanıcılar bunu görüntüleyebilir ve etkileşime girebilir.
 
@@ -98,7 +97,7 @@ Commerce Analizleri şablon uygulaması aşağıdaki ana rapor sayfalarını iç
 12. [Web etkinliği](#WebActivityPage)
 13. [Web etkinliği - Üst düzey filtre](#WebActivityTopLevelFilters)
 
-####  <a name="top-level-filters"></a><a name="TopLevelFilters"></a> Üst düzey filtreler
+#### <a name="top-level-filters"></a><a name="TopLevelFilters"></a> Üst düzey filtreler
 
 - Tarih ayarları
 
@@ -122,13 +121,13 @@ Commerce Analizleri şablon uygulaması aşağıdaki ana rapor sayfalarını iç
     - Kategori hiyerarşisi
     - Kategori
 
-####  <a name="products"></a><a name="ProductsPage"></a> Ürünler
+#### <a name="products"></a><a name="ProductsPage"></a> Ürünler
 
 - Satışlar
 - Marj
 - İadeler
 
-####  <a name="customers"></a><a name="CustomersPage"></a> Müşteriler
+#### <a name="customers"></a><a name="CustomersPage"></a> Müşteriler
 
 - Satışlar
 - Marj
@@ -313,7 +312,7 @@ Ziyaretçiler oturum açtıklarında e-ticaret sitenize göz attıklarında, bun
 
 #### <a name="impressions"></a>Etkiler
 
-Bir etki, ticaret ziyaretçisinden bir ürün görselin tek bir görünümüdür. Örneğin, bir e-ticaret ziyaretçisi e-ticaret web sitenizin giriş sayfasına gider ve **En çok satanlar** listesi modülünde bir yoga matı ürününü görüntüler. Ziyaretçi, **Sizin için seçtiklerimiz** liste modülünde aynı yoga matını görüntüler. Bu durumda, iki ürün etkisi vardır. 
+Bir etki, ticaret ziyaretçisinden bir ürün görselin tek bir görünümüdür. Örneğin, bir e-ticaret ziyaretçisi e-ticaret web sitenizin giriş sayfasına gider ve **En çok satanlar** listesi modülünde bir yoga matı ürününü görüntüler. Ziyaretçi, **Sizin için seçtiklerimiz** liste modülünde aynı yoga matını görüntüler. Bu durumda, iki ürün etkisi vardır.
 
 Şu anda, etkiler aşağıdaki yüzeylerde izleniyor:
 
@@ -349,32 +348,60 @@ Günümüzde, bir döngü modülde veya özel görsellere işlenmiş olan ürün
 ## <a name="commerce-analytics-preview-installation"></a>Commerce analizleri (Önizleme) kurulumu
 
 > [!NOTE]
-> Commerce analizleri (Önizleme); Amerika Birleşik Devletleri, Kanada, Birleşik Krallık, Avrupa, Güney Doğu Asya, Doğu Asya, Avustralya ve Japonya bölgelerinde önizlemededir. Finance and Operations ortamınız bu bölgelerden herhangi birinde ise, Microsoft Dynamics Lifecycle Services (LCS) kullanarak ortamınızda bu özelliği etkinleştirebilirsiniz. Bu özelliği kullanabilmeniz için bkz. [Azure Data Lake'e aktarmayı yapılandırma](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
+> Commerce analizleri (Önizleme); Amerika Birleşik Devletleri, Kanada, Birleşik Krallık, Avrupa, Güney Doğu Asya, Doğu Asya, Avustralya ve Japonya bölgelerinde önizlemededir. Finance ve Operations ortamınız bu bölgelerden herhangi birinde ise, Microsoft Dynamics Lifecycle Services (LCS) kullanarak ortamınızda bu özelliği etkinleştirebilirsiniz. Bu özelliği kullanabilmeniz için bkz. [Azure Data Lake'e aktarmayı yapılandırma](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>Commerce analizlerini etkinleştirme ve konfigüre etme (Önizleme)
 
-Commerce analizleri (Önizleme) yüklemek için bir Azure aboneliği içinde kaynak oluşturma izniniz olması gerekir. Ayrıca LCS ile eklenti yükleme izinlerinizin olması da gerekir. Adımların genel bakışı:
+Commerce analizleri (Önizleme) yüklemek için bir Azure aboneliği içinde kaynak oluşturma izniniz olması gerekir. Ayrıca LCS ile eklenti yükleme izinlerinizin olması da gerekir. 
 
-1. [Commerce analizleri (Önizleme) için Önizleme formunu gönderin](#joinPreview).
-2. [Data Lake'e aktarmayı etkinleştirin ve yapılandırın](#enableExportToDataLake).
-3. [Commerce analizleri (Önizleme) eklentisini etkinleştirme ve konfigüre etme](#enableCommerceAnalyticsAddin).
-4. [Depolama hesabınız için paylaşılan bir erişim imzası (SAS) belirteci oluşturun](#getSASToken).
-5. [Azure Synapse görünümleri için dağıtım betiklerini indirin](#downloadSynapseDeploymentScripts).
-6. [Bir Azure Synapse workspace yükleyin ve konfigüre edin](#configureAzureSynapse).
-7. [Power BI şablon uygulamasını kurun](#powerbi).
+Commerce analizleri (Önizleme) etkinleştirmek ve yapılandırmak için aşağıdaki adımları izleyin.
 
-### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>Commerce analizleri (Önizleme) için Önizleme formunu gönderin
+1. [Data Lake'e Aktarma eklentisini etkinleştirin ve yapılandırın](#enableExportToDataLake).
+1. [Bir Azure Synapse workspace yükleyin ve konfigüre edin](#configureAzureSynapse).
+1. [Anahtar kasasına gizli diziler ekleyin ](#addSecrets).
+1. [Commerce analizleri (Önizleme) eklentisini etkinleştirme ve konfigüre etme](#enableCommerceAnalyticsAddin).
+1. [Power BI şablon uygulamasını kurun](#powerbi).
 
-[Commerce analizleri (Önizleme) için Önizleme formunu](https://forms.office.com/r/vW5VLJGXZ2) gönderin. Formun işlenmesi için üç iş günü kadar sürer. İşlem tamamlandıktan sonra, formda sağladığınız e-posta adresine bir onay e-postası gönderilir.
+### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>Data Lake'e Aktarma eklentisini etkinleştirin ve yapılandırın
 
-### <a name="enable-and-configure-export-to-data-lake"></a><a name="enableExportToDataLake"></a>Data Lake'e aktarmayı etkinleştirin ve yapılandırın
+> [!IMPORTANT]
+> Data Lake'e Aktar eklentisini yapılandırdığınızda, gerçek zamanlı veri değişikliklerinin etkin olmamasını sağlamak için Data Lake eklenti kurulumu sayfasındaki **Gerçek zamanlı veri değişiklikleri** onay kutusunu temizleyin. **Gerçek zamanlı veri değişiklikleri** özelliği önizlemededir ve şu anda Commerce Analytics tarafından desteklenmez. Bu özelliği etkinleştirirseniz, Commerce Analytics Data Lake, verilerinizi işleyemez ve Power BI raporlarınızın çoğu veri göstermez.
 
-Commerce analizleri (Önizleme), Commerce HQ verilerini Data Lake'e vermek ve verileri yeni tutmak için Data Lake'e ver özelliğini kullanır. Commerce analizlerini (Önizleme) konfigüre etmeden önce, [Azure Data Lake'e aktarmayı yapılandırma](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) bölümündeki adımları izleyerek Data Lake'e vermeyi etkinleştirin ve yapılandırın.
+Commerce analizleri (Önizleme), Commerce genel merkez verilerini Data Lake'e vermek ve verileri yeni tutmak için Data Lake'e ver özelliğini kullanır. Commerce analizlerini (Önizleme) konfigüre etmeden önce, [Azure Data Lake'e aktarmayı yapılandırma](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) bölümündeki adımları izleyerek Data Lake'e vermeyi etkinleştirin ve yapılandırın.
 
-Data Lake'e aktarmayı konfigüre ederken, aşağıdaki bilgileri not edin çünkü daha sonra girmeniz gerekecektir:
+Data Lake'e Aktarma eklentisini konfigüre ettiğinizde aşağıdaki bilgileri not edin çünkü daha sonra girmeniz gerekecektir:
 
-- <a name="keyVault"></a>Key Vault'un Etki Alanı Adı Sistemi (DNS) adı ve uygulama kimliği ile uygulama parolasını sakladığınız yerin gizli dizi adı. Daha fazla bilgi için bkz. [Kev Vault'a gizli dizi ekleme](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets).
-- <a name="storageAccount"></a>Data Lake örneği için depolama hesabının adı. Daha fazla bilgi için, bkz. [Aboneliğinizde Data Lake Storage (Gen2) hesabı oluşturma](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription).
+- <a name="keyVault"></a>Sağladığınız anahtar kasanın Etki Alanı Adı Sistemi (DNS) adı.
+- Sağladığınız gizli dizi adları ve uygulama kimliği ve uygulama gizli dizisi bulunur. Daha fazla bilgi için bkz. [Kev Vault'a gizli dizi ekleme](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets).
+
+### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a>Bir Azure Synapse workspace yükleyin ve konfigüre edin
+
+Commerce Analytics (Önizleme), Azure Synapse workspace'de isteğe bağlı Synapse SQL sağlanmasını gerektirir. Azure Synapse workspace yüklemek ve yapılandırmak için şu adımları izleyin.
+
+1. Azure aboneliğinize bir Azure Synapse workspace yükleyin. Daha fazla bilgi için bkz. [Hızlı başlangıç: Synapse çalışma alanı oluşturma](/azure/synapse-analytics/quickstart-create-workspace).
+1. <a name="serverlessep"></a>Çalışma alanı sağlandıktan sonra, kaynağa genel bakış sayfasını açın ve **Sunucusuz SQL son nokta** değerini not alın. Bu değeri bir sonraki bölümde anahtar kasada saklamanız gerekir.
+1. Genel bakış sayfasında, çalışma alanınız için Azure Synapse Studio'yu açmak üzere **Synapse Studio'yu aç** bağlantısını seçin.
+1. Sol menüdeki **Yönet** öğesini seçin. Menü adlarını görmek için, sol menüde genişletme bağlantısını seçmeniz gerekebilir.
+1. **Güvenlik grubu** altında **Erişim denetimi**'ni seçin. 
+1. **Ekle**'yi seçin.
+1. **Rol ataması ekleme** bölmesinde, seçenekleri aşağıdaki tabloda açıklandığı gibi ayarlayın.
+
+    | Seçenek | Değer |
+    |--------|-------|
+    | Kapsam | **Çalışma alanı**'nı seçin. |
+    | Rol | **Synapse SQL Yöneticisi**'ni seçin.|
+    | Kullanıcı seç | [Data Lake'e Aktarma eklentisinin kurulumu sırasında oluşturduğunuz](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createapplication) uygulamanın adını arayın. Uygulama arama sonuçlarında göründüğünde, bunu seçin. Uygulama artık **Seçili kullanıcılar, gruplar veya hizmet sorumluları** bölümünde görüntülenecektir. |
+
+1. Rol atamasını tamamlamak için **Uygula** seçeneğini belirleyin. Uygulamaya Synapse SQL Yönetici ayrıcalıkları verilir. Bu nedenle, Commerce Analytics (Önizleme) LCS eklentisinin konfigürasyonu sırasında gerekli görünümleri oluşturabilir.
+
+### <a name="add-secrets-to-the-key-vault"></a><a name="addSecrets"></a>Anahtar kasasına gizli diziler ekleyin
+
+Data Lake'e Aktarma eklentisini yapılandırırken kullandığınız aynı [anahtar kasasında](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createkeyvault), aşağıdaki tabloda gösterilen gizli dizileri eklemeniz gerekir. Her bir gizli dizi için gizli dizi adını ve belirlenen değeri sağlamanız gerekir.
+
+| Önerilen gizli dizi adı | Gizli anahtar değeri | Örnek gizli dizi değeri |
+|---------|---------|---------|
+| synapse-sql-server | [Azure Synapse workspace'in yapılandırırken](#serverlessep) not aldığınız sunucusuz SQL uç noktası. | `test-ondemand.sql.azuresynapse.net` |
+| <a name="roUser"></a>readonly-sql-pwd | SQL salt okuma kullanıcısı için belirlenen parola. Power BI raporu, sunucusuz SQL'ye bağlanmak için bu parolayı kullanır. Parolayı belirlemek için kuruluşunuzun parola ilkelerini izleyin. | |
 
 ### <a name="enable-and-configure-the-commerce-analytics-preview-add-in"></a><a name="enableCommerceAnalyticsAddin"></a>Commerce analizleri (Önizleme) eklentisini etkinleştirme ve konfigüre etme
 
@@ -385,147 +412,55 @@ Commerce analizleri (Önizleme) eklentisini kurmak ve yapılandırmak için aşa
 1. [LCS](https://lcs.dynamics.com/)'de oturum açın ve ortamınıza gidin.
 2. **Ortam** sayfasında, **Ortam eklentileri** sekmesinde, **Yeni eklenti kur**'u seçin.
 3. İletişim kutusunda, **Commerce analizleri (Önizleme)** öğesini seçin.
-
-    **Commerce analizleri (Önizleme)** listelenmiyorsa, Insider Program'a katıldığınızdan emin olun.
-
 4. **Kurulum eklentisi** iletişim kutusuna, aşağıdaki bilgileri girin.
 
     | Bilgi | Kaynak | Örnek değer |
     |---|---|---|
-    | Ortamınız için Azure AD Kiracı Kimliği | [Azure portalında](https://portal.azure.com/) oturum açın ve **Azure Active Directory** hizmetini açın. Sonra **Özellikler** sayfasını açın ve **Dizin Kimliği** alanındaki değeri kopyalayın. | 72f988bf-0000-0000-00000-2d7cd011db47 |
-    | Key Vault'unuzun DNS adı | Key Vault'unuz için [DNS adını](#keyVault) girin. Önceki bölümde bu değerden bir not oluşturmuş olmanız gerekir. | `https://contosod365datafeedpoc.vault.azure.net/` |
-    | Uygulama Kodu içeren gizli kod dizesi | [Uygulama kodunu depolayan gizli dizi adını](#keyVault) girin. Önceki bölümde bu değerden bir not oluşturmuş olmanız gerekir. | app-id |
-    | Uygulama gizli dizisini içeren gizli kod dizesi | [Uygulama gizli dizisini depolayan gizli dizi adını](#keyVault) girin. Önceki bölümde bu değerden bir not oluşturmuş olmanız gerekir. | app-secret |
+    | Azure Active Directory (Azure AD) Kiracı Kimliği | [Azure portalında](https://portal.azure.com/) oturum açın ve **Azure Active Directory** hizmetini açın. Sonra **Özellikler** sayfasını açın ve **Kiracı Kimliği** alanındaki değeri kopyalayın. | `72f988bf-0000-0000-00000-2d7cd011db47` |
+    | Azure Key Vault'unuzun DNS adı | Key Vault'unuz için DNS adını girin. [Data Lake'e Aktarma eklentisini yapılandırırken](#keyVault) bu değeri kaydetmeniz gerekirdi. | `https://contosod365datafeedpoc.vault.azure.net/` |
+    | Uygulama Kodu içeren gizli dizi adı | Uygulama kodunu depolayan gizli dizi adını girin. [Data Lake'e Aktarma eklentisini yapılandırırken](#keyVault) bu değeri kaydetmeniz gerekirdi. | `app-id` |
+    | Uygulama gizli dizisini içeren gizli dizi adı | Uygulama gizli dizisini depolayan gizli dizi adını girin. [Data Lake'e Aktarma eklentisini yapılandırırken](#keyVault) bu değeri kaydetmeniz gerekirdi. | `app-secret` |
+    | Azure Synapse için sunucusuz SQL uç noktayı içeren gizli dizi adı | Sunucusuz SQL uç noktasının saklandığı gizli dizi adını girin. Gizli diziyi, [anahtar değerine gizli diziler eklerken](#addSecrets) oluşturmuş olmanız gerekir. | `synapse-sql-server` |
+    | Azure Synapse'de SQL salt okuma kullanıcıları için belirlenmiş parolayı içeren gizli dizi adı | Sunucusuz SQL salt okuma kullanıcısı için ayarlanacak parolayı içeren gizli dizi adını girin. Bu kullanıcı sizin için oluşturulur ve sunucusuz SQL sunucusuna bağlanmak için Power BI raporunda kullanılmalıdır. Gizli diziyi, [anahtar değerine gizli diziler eklerken](#addSecrets) oluşturmuş olmanız gerekir. | `readonly-sql-pwd` |
 
-5. Onay kutusunu işaretleyerek teklif koşullarını kabul edin ve **Yükle**'yi seçin.
+1. Onay kutusunu işaretleyerek teklif koşullarını kabul edin ve **Yükle**'yi seçin.
 
     Sistem, ortam için Commerce analizleri (Önizleme) eklentisini yükler ve konfigüre eder. Bu işlem birkaç dakika sürebilir. Tamamlandıktan sonra, **Commerce analizleri (Önizleme)**, **Ortam** sayfasında listelenmiş ve durumunun **Yüklü** olması gerekir.
-
-### <a name="generate-a-sas-token-for-your-storage-account"></a><a name="getSASToken"></a>Depolama hesabınız için bir SAS belirteci oluşturun
-
-SAS belirteci, dış varlıkların depolama hesabınıza erişmesini ve sınırlı bir süre için belirli ayrıcalıklara sahip olmasını sağlar. Azure Synapse, Data Lake'de alttaki verilere erişmek için SAS belirtecini kullanır.
-
-> [!NOTE]
-> Commerce analizlerinin (Önizleme) bilinen bir sınırlaması nedeniyle, SAS belirtecinin süresi sona erdiğinde, Azure Synapse örneği, veri gölüne erişimi kaybedecektir. Bu nedenle, SAS belirtecini oluştururken, kuruluşunuzun güvenlik ilkelerinin izin verilen en uzun bitiş tarihini ayarlamalısınız.
-
-SAS belirteci oluşturmak için aşağıdaki adımları izleyin.
-
-1. Azure portalında, Data Lake'e dışa aktarmayı konfigüre ederken oluşturduğunuz [depolama hesabına](#storageAccount) gidin.
-2. Sol bölmede, depolama hesabının altında, **Paylaşılan erişim imzasını** seçin.
-3. **SAS seçenekleri** sayfasında, aşağıdaki alanları ayarlayın.
-
-    | Alan | Değer |
-    |---|---|
-    | İzin verilen servisler | **Blob**'u seçin. |
-    | İzin verilen kaynak türleri | **Hizmet**, **Konteyner** ve **Nesne**'yi seçin. |
-    | İzin verilen izinler | **Okuma**, **Yazma**, **Silme**, **Liste**, **Ekleme** ve **Oluştur**'u seçin. |
-    | Blob sürüm oluşturma izinleri | **Sürümlerin silinmesini etkinleştirir**'i seçin. |
-    | Başlangıç ve bitiş tarihi/saati | SAS belirteci için uygun bir başlangıç ve bitiş tarihi ve saati ayarlayın. |
-    | İzin verilen IP adresleri | Bu alanı boş bırakın. |
-    | İzin verilen protokoller | **Yalnızca HTTPS**'yi seçin. |
-    | Tercih edilen yönlendirme katmanı | **Temel (varsayılan)** seçeneğini belirleyin. |
-    | İmzalama anahtarı | Uygun şekilde **key1** veya **key2** seçin. |
-
-4. **SA ve bağlantı dizesi oluştur** seçeneğini belirleyin.
-5. **SAS belirteci** alanındaki değeri kopyalayın ve Not Defteri gibi bir metin düzenleyicisine yapıştırın.
-
-### <a name="download-the-deployment-scripts-for-azure-synapse-views"></a><a name="downloadSynapseDeploymentScripts"></a>Azure Synapse görünümleri için dağıtım betiklerini indirin
-
-Azure Synapse workspace'te gerekli görünümler oluşturmak ve yayımlamak için bir dizi komut dosyası çalıştırmalısınız. Bu adımları izleyerek betikleri indirin.
-
-1. GitHub'da, [microsoft/Dynamics365Commerce.Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions) deposuna gidin.
-2. Depoyu klonlayarak veya zip dosyası olarak karşıdan yükleyerek, kodları yerel bilgisayarınıza yükleyin.
-
-### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a>Bir Azure Synapse workspace yükleyin ve konfigüre edin
-
-Azure Synapse workspace yüklemek ve yapılandırmak için şu adımları izleyin.
-
-1. Azure aboneliğinize bir Azure Synapse workspace yükleyin. Daha fazla bilgi için bkz. [Hızlı başlangıç: Synapse çalışma alanı oluşturma](/azure/synapse-analytics/quickstart-create-workspace).
-2. Not defteri veya başka bir metin düzenleyicide, yerel bilgisayarınızdaki önceki bölümdeki Dynamics365Commerce.Solutions deposuna kopyaladığınız veya indirdiğiniz klasörden **SetupSynapse.sql** komut dosyası dosyasını açın. Betik dosyası, /Pipeline/CommerceAnalyticsSynapse/ klasörü altında olacaktır. Betikte, yer tutucu metnin yerine aşağıdaki tabloda gösterilen değerleri ekleyin.
-
-    | Yer tutucu metin | Değiştirme değeri |
-    |---|---|
-    | placeholder_storageaccount | Data Lake'e dışa aktarmayı konfigüre ederken oluşturduğunuz [depolama hesabının](#storageAccount) adı. |
-    | <a name="phContainer"></a>placeholder_container | LCS içindeki Data Lake eklentisini başarıyla yükledikten sonra Data Lake örneği içinde oluşturulmuş depolama kapsayıcısının adı. Kapsayıcı adını almak için, depolama hesabınıza göz atmak üzere Azure portalında Depolama Gezgini'ni kullanmalısınız. |
-    | placeholder_sastoken | Oluşturduğunuz [SAS belirteci](#getSASToken). SAS belirteci değerinin başlangıcından soru işaretini (**?**) kaldırmayı unutmayın. |
-    | <a name="phUserPwd"></a>placeholder_password | Seçtiğiniz güçlü bir parola. Bu parolayı not edin. Betiğin oluşturduğu yeni **reportreadonlyuser** hesabı için parola olarak ayarlanacak. **Sqladminuser** hesabının parolasını **girmeyin**. |
-
-3. Betik dosyasının güncelleştirilmiş içeriğini kopyalayın.
-4. Azure portalda, yeni Azure Synapse workspace'e gidin. **Genel bakış** sayfasında **Synapse Studio'yu aç**'ı seçin.
-5. Synapse Studio'da **Yeni \> SQL betiği**'ni seçin ve betik dosyasının içeriğini SQL betik düzenleyicisine yapıştırın.
-6. **Kullanıcı veri tabanı** alanının **ana** olarak ayarlandığından emin olun.
-7. **Çalıştır**'ı seçin ve betiğin çalışmasını bitirmesini bekleyin. Kodu başarıyla yürütürken Commerce analizleri için veritabanı, veri gölüne erişim için kimlik bilgileri ve Azure Synapse örneğine bağlanmak için Power BI'nin kullanacağı salt okunur bir kullanıcı hesabı oluşturulur.
-8. Yerel bilgisayarınızda, Windows PowerShell'i yönetici modunda açın ve Dynamics365.Commerce.Solutions deposundan kopyalanan veya indirilen klasörün altındaki /Pipeline/CommerceAnalyticsSynapse/ klasörüne gidin.
-9. Aşağıdaki komutu çalıştırarak Windows PowerShell yürütme ilkesini ayarlayın.
-
-    ```powershell
-    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    ```
-
-10. SQL Server PowerShell modülü önceden yüklü değilse, aşağıdaki komutu çalıştırarak yükleyin.
-
-    ```powershell
-    Install-Module sqlserver
-    ```
-
-    > [!NOTE]
-    > Modülün yüklenmesi sırasında, NuGet sağlayıcısını yüklemeniz istenebilir. Bu durumda, NuGet sağlayıcısı yüklemek için **Y**'yi seçin. Ayrıca, güvenilmeyen bir depodan modülleri yeniden yüklemeyi istediğinizi onaylamak isteyebilirsiniz. Bu durumda, yükleme işlemine devam etmek için **Y**'yi seçin. **PSGallery** deposuna güvenmek için isteğe bağlı olarak **Set-PSRepository** cmdlet'ini çalıştırabilirsiniz.
-
-11. Aşağıdaki komutu çalıştırarak Azure Synapse görünümlerini yayımlayın.
-
-    ```powershell
-    .\PublishSynapseViews.ps1 -serverName SERVER_NAME -password PASSWORD -storageAccount STORAGE_ACCOUNT -containerName CONTAINER_NAME -datarootpath DATA_ROOT_PATH
-    ```
-
-    Bu komutu çalıştırdığınızda, yer tutucu değerleri aşağıdaki tabloda gösterilen değerlerle değiştirin.
-
-    | Yer tutucu değeri | Değiştirme değeri |
-    |---|---|
-    | SERVER_NAME | Azure Synapse Sunucusuz SQL uç noktasının adı. Bu değeri, Azure portalında Azure Synapse workspace'in **Genel bakış** sayfasından alabilirsiniz. |
-    | PAROLA | **Sqladminuser** hesabının parolası. |
-    | STORAGE_ACCOUNT | Data Lake için depolama hesabının adı. |
-    | CONTAINER_NAME | Data Lake'e aktar özelliği tarafından oluşturulan konteynerin adı. Bu konteyner, adım 2'de [placeholder_container](#phContainer) değeri olarak belirttiğiniz konteynerdir. |
-    | DATA_ROOT_PATH | Tüm verileri içeren konteyner altındaki klasör adı. |
-
-    > [!NOTE]
-    > Azure Storage tarayıcısı ve veri kök yolunu Azure portal içindeki Data Lake depolama hesabınızı kullanarak bulabilirsiniz.
-
-12. Betiğin çalışmasını bitirmesini bekleyin. Betiğin başarıyla yürütülmesi, Azure Synapse Sunucusuz SQL örneğinde SQL görünümleri oluşturacaktır.
 
 ### <a name="install-the-power-bi-template-app"></a><a name="powerbi"></a>Power BI şablon uygulamasını kurun
 
 Commerce analizleri (Önizleme) için Power BI şablon uygulamasını kurmak için aşağıdaki adımları izleyin.
 
 1. Kuruluş kimliğinizi kullanarak [Power BI portalda](https://powerbi.microsoft.com/) oturum açın.
-2. [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp) adresine giderek Commerce analizleri (Önizleme) Power BI şablon uygulamasını yükleyin. Uygulamanın AppSource'ta listelenmediğini belirten bir uyarı alabilirsiniz. **Yükle**'yi seçin.
-3. Uygulamayı ilk kez yüklüyorsanız 5. adıma atlayın. Bu uygulamayı daha önce yüklediyseniz, uygulamayı güncelleştirmek için aşağıdaki seçenekler gösterilir:
+1. [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp) adresine giderek Commerce analizleri (Önizleme) Power BI şablon uygulamasını yükleyin. Alternatif olarak [Dynamics 365 Commerce Analytics için AppSource sayfasını](https://appsource.microsoft.com/product/power-bi/dynamics-365-commerce.dydnamics-365-commerce-analytics) ziyaret edin ve **Şimdi al**'ı seçin.
+1. Uygulamayı ilk kez yüklüyorsanız 5. adıma atlayın. Bunu daha önceden yüklediyseniz uygulamayı güncelleştirmek için aşağıdaki seçenekler bulunur:
 
     - **Çalışma alanını ve uygulamayı güncelleştirin** – Var olan şablon uygulamasını güncelleştirin ve uygulama örneği adı ve izin yapılandırmaları gibi var olan uygulama ayarlarınızın üzerine yazın.
     - **Uygulamayı güncelleştirmeden yalnızca çalışma alanı içeriğini güncelleştir** – Var olan şablon uygulamasını güncelleştirin, ancak var olan uygulama ayarlarınızı koruyun. *Bu seçenek, uygulama güncelleştirmeleri için önerilen seçenektir.*
     - **Uygulamanın başka bir kopyasını yeni bir çalışma alanına yükleyin** – Yeni bir çalışma alanı oluşturun ve içinde var olan şablon uygulamasının bir kopyasını oluşturun. Varolan çalışma alanı dokunulmayacak şekilde bırakılacak.
 
-4. Güncelleştirme seçeneklerinden birini belirleyin ve sonra **Yükle**'yi seçin.
-5. Sol bölmedeki **Uygulamalar**'ı seçip ardından uygulamayı seçerek yüklü uygulamayı açın.
-6. **Bağlan**'ı seçerek, uygulamayı veri kaynağınıza bağlayın. Uygulamayı daha önce yüklediyseniz, sarı ileti çubuğunda **Verilerinizi bağlayın**'ı seçin.
-7. Aşağıdaki alanları ayarlayın.
+1. Güncelleştirme seçeneklerinden birini belirleyin ve sonra **Yükle**'yi seçin.
+1. Sol bölmedeki **Uygulamalar**'ı seçip ardından uygulamayı seçerek yüklü uygulamayı açın.
+1. **Bağlan**'ı seçerek, uygulamayı veri kaynağınıza bağlayın. Uygulamayı daha önce yüklediyseniz, sarı ileti çubuğunda **Verilerinizi bağlayın**'ı seçin.
+1. Aşağıdaki alanları ayarlayın.
 
     | Alan | Değer |
     |---|---|
-    | Sunucu | Önceki bölümde oluşturduğunuz Azure Synapse Sunucusuz SQL son noktasının adını girin. Bu değeri, Azure portalında Azure Synapse workspace'in **Genel bakış** sayfasından alabilirsiniz. |
+    | Sunucu | [Azure Synapse workspace oluşturduktan](#serverlessep) sonra not aldığınız sunucusuz SQL uç noktasını girin. |
     | Veritabanı | **CommerceAnalytics** girin. |
     | Dil | Listede bir değer seçin. Bu alan, yerelleştirilmiş ürün ve kategori adları için kullanılır. Değer, büyük/küçük harf duyarlıdır. |
     | Tarih Aralığı | Listede bir değer seçin. Seçilen ay sayısı için veriler, Power BI veri kümesine aktarılır. Seçtiğiniz değer, veri kümesinin boyutunu ve eşitleme için gereken zamanı etkiler. |
 
-8. **Sonraki**'yi seçin. Azure Synapse SQL veritabanına bağlanmak için kimlik bilgilerini girmeniz istenir. Alanları aşağıdaki tabloda açıklandığı gibi ayarlayın.
+1. **Sonraki**'yi seçin. Azure Synapse SQL veri tabanına bağlanmak için kimlik bilgilerini girmeniz istendiğinde, alan değerlerini aşağıdaki tabloda gösterildiği şekilde belirleyin.
 
     | Alan | Değer |
     |---|---|
     | Kimlik doğrulama yöntemi | **Temel**'i seçin. |
     | Kullanıcı adı | **reportreadonlyuser** girin. |
-    | Parola | SetupSynapse.sql kodu içinde [placeholder_password](#phUserPwd) yer tutucusuyla değiştirdiğiniz değeri girin. Bu parola, **reportreadonlyuser** hesabının parolasıdır. |
+    | Parola | [Anahtar kasasında SQL salt okunur kullanıcı için sakladığınız](#roUser) parolayı girin. |
 
-9. **Oturum aç ve bağlan**'ı seçin.
-10. Veri kümesi başarıyla güncellenene kadar bekleyin. Sonra , veri kümesinin güncelleştirme durumunu görüntüleyebileceğiniz uygulama çalışma alanını açmak için **Uygulamayı düzenle** düğmesini seçin. Uygulama çalışma alanında, isteğe bağlı olarak veri kümeniz için otomatik güncelleştirme zamanlamaları ayarlayabilir, izinleri yönetebilir ve uygulama örneğini yeniden adlandırabilirsiniz.
+1. **Oturum aç ve bağlan**'ı seçin.
+1. Veri kümesi başarıyla güncellenene kadar bekleyin. Sonra , veri kümesinin güncelleştirme durumunu görüntüleyebileceğiniz uygulama çalışma alanını açmak için **Uygulamayı düzenle** öğesini seçin. Uygulama çalışma alanında, isteğe bağlı olarak veri kümeniz için otomatik güncelleştirme zamanlamaları ayarlayabilir, izinleri yönetebilir ve uygulama örneğini yeniden adlandırabilirsiniz.
 
 ### <a name="privacy"></a><a name="privacy"></a>Gizlilik
 
