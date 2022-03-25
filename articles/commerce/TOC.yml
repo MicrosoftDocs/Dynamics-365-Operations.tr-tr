@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: Ürün boyutları için görüntü ayarlarını uygulama
                   href: dimension-settings.md
+                - name: E-ticaret bakım modunu etkinleştirme
+                  href: enable-maintenance-mode.md
             - name: Site içeriğinizi yönetme
               items:
                 - name: İçerik ekleme yolları
@@ -2100,6 +2102,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Veri kaynaklarında hata ayıklama
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Veri modellerini yapılandırma
+                  items:
+                    - name: ER veri modellerinin parametreli çağrılarını destekleme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: Model eşlemelerini yapılandırma
                   items:
                     - name: Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
@@ -2760,6 +2766,8 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: Modül tanımını genişletme
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: Modül kitaplığı statik dizelerini değiştirme
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: Veri eylemleri
                       items:
                         - name: Veri eylemini geçersiz kılma işlemleri
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: Temayı ana temadan genişletme
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: Tema modülü dizelerini değiştirme
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: Ambalaj ve dağıtım
                   items:
                     - name: Yapılandırmaları paketleme ve çevrimiçi bir ortama dağıtma
@@ -2798,6 +2808,8 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: Veri eylemi örnek önbelleği
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: Modül CSS optimizasyonu
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: Telemetri ve analiz
                       items:
                         - name: Telemetri kaydedici

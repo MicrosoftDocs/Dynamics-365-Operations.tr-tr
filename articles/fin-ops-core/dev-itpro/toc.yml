@@ -242,6 +242,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Varlık deposunu Data Lake olarak kullanılabilir yapma
               href: data-entities/entity-store-data-lake.md
+            - name: Azure Data Lake'e dışarı aktarma hizmetiyle oluşturulan iş olayları (Önizleme)
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: Azure Data Lake'te verileri değiştirme
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Veritabanı taşıma işlemleri
@@ -1068,6 +1070,8 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: Siparişler ile Sipariş Satırlarını eşitlemekten kaçınmak için şirketlerarası siparişleri filtreleme
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: Çift yazma uygulama düzenleme çözümlerini kaldırma
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: Çift yazmayı yönetme
                   items:
                     - name: Varlık ve alan eşlemelerini özelleştirme

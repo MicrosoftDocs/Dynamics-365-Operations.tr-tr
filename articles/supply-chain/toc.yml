@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Madde fiyatları depolama raporunu karşılaştırma
                   href: cost-management/compare-item-price.md
+            - name: Maliyetlendirme metodolojileri
+              items:
+                - name: Yürütülen ortalama maliyet fiyatı
+                  href: cost-management/running-average-cost-price.md
+                - name: Stok boyutu başına cari ortalama maliyeti izleme
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: Fiziksel değer ve işaretleme ile FIFO
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: Fiziksel değer ve işaretleme ile LIFO tarihi
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: Fiziksel değer ve işaretleme ile LIFO
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Fiziksel değer ve işaretleme ile ağırlıklı ortalama
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Fiziksel değer ve işaretleme ile ağırlıklı ortalama tarihi
+                  href: cost-management/weighted-average-date.md
+                - name: Hareketli ortalama
+                  href: cost-management/moving-average.md
+                - name: Hareketli ortalama geri dönüş maliyet sırası
+                  href: cost-management/moving-average-fallback.md
             - name: Stok muhasebesi
               items:
+                - name: Fiziksel ve mali güncelleştirmeler
+                  href: cost-management/physical-financial-updates.md
+                - name: Fiziksel değeri dahil etme
+                  href: cost-management/include-physical-value.md
                 - name: Maliyet nesneleri
                   href: cost-management/cost-object.md
                 - name: Maliyet nesnesi bakiyesini görüntüleme
@@ -761,33 +785,11 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Maliyet grupları
                   href: cost-management/cost-groups.md
-                - name: Fiziksel değer ve işaretleme ile FIFO
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Fiziksel değeri dahil etme
-                  href: cost-management/include-physical-value.md
                 - name: Stok nesnesi değerleri
                   href: cost-management/physical-quantity.md
-                - name: Fiziksel değer ve işaretleme ile LIFO tarihi
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: Fiziksel değer ve işaretleme ile LIFO
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Hareketli ortalama
-                  href: cost-management/moving-average.md
-                - name: Hareketli ortalama geri dönüş maliyet sırası
-                  href: cost-management/moving-average-fallback.md
-                - name: Fiziksel ve mali güncelleştirmeler
-                  href: cost-management/physical-financial-updates.md
-                - name: Yürütülen ortalama maliyet fiyatı
-                  href: cost-management/running-average-cost-price.md
-                - name: Stok boyutu başına cari ortalama maliyeti izleme
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Ağırlıklı ortalama tarihi
-                  href: cost-management/weighted-average-date.md
-                - name: Fiziksel değer ve işaretleme ile ağırlıklı ortalama
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Stok kapanışı
                   href: cost-management/inventory-close.md
-                - name: Eldeki stoğun maliyet değerlerini ayarlama
+                - name: Eldeki stokun maliyet değerlerini ayarlama
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Stok değeri raporları
                   href: cost-management/inventory-value-report-storage.md
@@ -1431,6 +1433,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Veri kaynaklarında hata ayıklama
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Veri modellerini yapılandırma
+                  items:
+                    - name: ER veri modellerinin parametreli çağrılarını destekleme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Model eşlemelerini yapılandırma
                   items:
                     - name: Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: Test sırasında istek ile oturum verileri arasında beklenmeyen fark oluştu
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: Uygulama bağlantısı ayarlanırken sertifika yolu için güven çıpası bulunamadı
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: WMS'ye güncelleştirme ve geçiş yapılırken sertifika yolu için güven çıpası bulunamadı
