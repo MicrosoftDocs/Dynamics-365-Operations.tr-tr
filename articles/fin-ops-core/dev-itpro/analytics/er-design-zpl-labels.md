@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 8e5fb1515d4bdf36c22f617b6bfd2fa3ce3efa36
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388610"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392975"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>ZPL etiketleri yazdırmak için yeni bir ER çözümü tasarlama
 
 [!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 Bu konuda Sistem Yöneticisi, Elektronik Raporlama Geliştiricisi veya Elektronik Raporlama İşlevsel Danışmanı rolüne sahip bir kullanıcının [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesinin parametrelerini nasıl yapılandırabileceği, Ambar yönetimi sistemi verilerine erişmek için yeni bir ER çözümünün gerekli ER [yapılandırmalarını](general-electronic-reporting.md#Configuration) nasıl tasarlayabileceği ve nasıl Zebra Programlama Dili (ZPL) II biçiminde özel ambar konumu etiketleri oluşturabileceği açıklanmaktadır. Bu adımlar **USRT** şirketinde gerçekleştirilebilir.
 

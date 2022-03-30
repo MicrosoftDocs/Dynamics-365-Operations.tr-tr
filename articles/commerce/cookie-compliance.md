@@ -2,7 +2,7 @@
 title: Çerez uyumluluğu
 description: Bu konu, tanımlama bilgisi uyumu ve Microsoft Dynamics 365 Commerce'in içerdiği varsayılan ilkelerin dikkate alınması konularını açıklamaktadır.
 author: BrianShook
-ms.date: 07/30/2021
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
+ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747709"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "8403159"
 ---
 # <a name="cookie-compliance"></a>Çerez uyumluluğu
 
@@ -58,6 +58,7 @@ Aşağıdaki tabloda, Dynamics 365 Commerce siteleri tarafından yerleştirilen 
 | \_msdyn365___aud_0                          | Hedefleme tarafından kullanılan segment değerlerini depolar ve yalnızca hedefleme bir site kullanıcısı tarafından istenen sayfada veya parçada yapılandırılırsa çalışır. Tanımlama bilgisi yalnızca segment değerleri üçüncü taraf bir segmentasyon sağlayıcısından gelirse yerleştirilir.      | 7 gün |
 | \_msdyn365___aud_1                           | Hedefleme tarafından kullanılan segment değerlerini depolar ve yalnızca hedefleme bir site kullanıcısı tarafından istenen sayfada veya parçada yapılandırılırsa çalışır. Tanımlama bilgisi yalnızca segment değerleri üçüncü taraf bir segmentasyon sağlayıcısından gelirse yerleştirilir.      | 7 gün |
 | \_msdyn365___aud_2                           | Hedefleme tarafından kullanılan segment değerlerini depolar ve yalnızca hedefleme bir site kullanıcısı tarafından istenen sayfada veya parçada yapılandırılırsa çalışır. Tanımlama bilgisi yalnızca segment değerleri üçüncü taraf bir segmentasyon sağlayıcısından gelirse yerleştirilir.      | 7 gün |
+| d365gi                                       | Bu tanımlama bilgisi, üçüncü taraf bir coğrafi konum hizmeti kullanıldığında coğrafi yerleşim verilerini depolar.      | 1 gün |
 
 Site kullanıcısı bir sitedeki herhangi bir sosyal medya bağlantısını seçerse, aşağıdaki tabloda yer alan tanımlama bilgileri de tarayıcılarında izlenir.
 
@@ -65,17 +66,17 @@ Site kullanıcısı bir sitedeki herhangi bir sosyal medya bağlantısını seç
 | Etki alanı                      | Tanımlama bilgisi               | Tanım                                                  | Kaynak                                          |
 | --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | .linkedin.com                | UserMatchHistory         | LinkedIn Ads Kimliği eşitleme                                      | LinkedIn Akış ve İçgörü etiketi                                |
-| .linkedin.com               | li_sugr                  | Tarayıcı tanımlayıcısı                                           | IP adresi belirlenmiş bir ülkede değilse LinkedIn İçgörü etiketi |
+| .linkedin.com               | li_sugr                  | Tarayıcı tanımlayıcısı                                           | IP adresi, belirlenmiş ülkede değilse LinkedIn Insight Tag |
 | .linkedin.com               | BizographicsOptOut       | Üçüncü taraf izleme için geri çevirme durumunu belirler.              | LinkedIn konuk denetimleri ve sektör geri çevirme sayfaları           |
 | .linkedin.com               | \_guid                    | Google Ads için tarayıcı tanımlayıcısı.                            | LinkedIn Akışı                                                |
 | .linkedin.com               | li_oatml                 | Dönüştürme izlemesi, yeniden hedefleme ve analiz için üye dolaylı tanımlayıcısı. | LinkedIn Reklamlar ve İçgörü etiketi                                |
 | Çeşitli birinci taraf etki alanı | li_fat_id                | Dönüştürme izlemesi, yeniden hedefleme ve analiz için üye dolaylı tanımlayıcısı. | LinkedIn Reklamlar ve İçgörü etiketi                                |
-| .adsymptotic.com            | U                        | Tarayıcı tanımlayıcısı                                           | IP adresi Belirlenmiş Ülkede değilse LinkedIn İçgörü etiketi |
+| .adsymptotic.com            | U                        | Tarayıcı tanımlayıcısı                                           | IP adresi, Belirlenmiş Ülkede değilse LinkedIn Insight Tag |
 | .linkedin.com                | bcookie                  | Tarayıcı kimliği tanımlama bilgisi                                            | LinkedIn İstekleri                                         |
 | .linkedin.com                | bscookie                 | Güvenli tarayıcı tanımlama bilgisi                                        | LinkedIn İstekleri                                         |
 | .linkedin.com               | lang                     | Varsayılan yerel ayarı ve dili ayarlar.                                 | LinkedIn İstekleri                                         |
 | .linkedin.com                | lidc                     | Yönlendirme için kullanılır.                                             | LinkedIn İstekleri                                         |
-| .linkedin.com               | aam_uuid                 | Adobe hedef kitle yöneticisi tanımlama bilgisi                                                     | Kimlik eşitleme için ayar                                              |
+| .linkedin.com               | aam_uuid                 | Adobe Audience Manager tanımlama bilgisi                                                     | Kimlik eşitleme için ayar                                              |
 | .linkedin.com               | \_ga                      | Google Analytics tanımlama bilgisi                                            | Google Analytics                                             |
 | .linkedin.com               | \_gat                     | Google Analytics tanımlama bilgisi                                             | Google Analytics                                             |
 | .linkedin.com               | liap                     | Google Analytics tanımlama bilgisi                                             | Google Analytics                                             |

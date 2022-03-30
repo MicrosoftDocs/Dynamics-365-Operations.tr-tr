@@ -2,19 +2,19 @@
 title: KDV Beyannamesi (Almanya)
 description: Bu konuda, resmi XML biçiminde Almanya'ya ilişkin ön katma değer vergisi (KDV) bildiriminin nasıl ayarlanacağı ve oluşturulacağı açıklanmaktadır.
 author: anasyash
-ms.date: 11/22/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 29c04e1034c05b4672f3657ce0b7bc9d5f6d7c9c
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860890"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402815"
 ---
 # <a name="vat-declaration-germany"></a>KDV Beyannamesi (Almanya)
 
@@ -163,6 +163,9 @@ Kayıt kategorilerinin ve kayıt tiplerinin nasıl ayarlanacağı hakkında daha
 ### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a>KDV beyanname alanları için uygulamaya özel parametreleri ayarlama
 
 Otomatik olarak bir KDV beyannamesi oluşturmak için uygulama ve arama sonuçlarında satış vergisi kodlarını, ER konfigürasyonuyla ilişkilendirin.
+
+> [!NOTE]
+> **Özellik yönetimi** çalışma alanındaki **Önceki ER biçimleri sürümünden uygulamaya özel parametreleri kullan** özelliğini etkinleştirmenizi öneririz. Bu özellik etkinleştirildiğinde, bir ER biçiminin önceki sürümü için yapılandırılmış parametreler, aynı biçimin sonraki sürümü için otomatik olarak uygulanabilir duruma gelir. Bu özellik etkinleştirilmemişse, uygulamaya özel parametreleri her biçim sürümü için açık olarak konfigüre etmelisiniz. **Özellik yönetimi** çalışma alanındaki **Önceki ER biçimleri sürümünden uygulamaya özel parametreleri kullan** özelliği, Finans sürüm 10.0.23'ten itibaren kullanılabilir. Her yasal varlık için bir ER biçimi parametrelerinin nasıl ayarlanacağı hakkında daha fazla bilgi için, bkz. [Yasal varlık başına ER biçimi parametrelerini ayarlama](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
 KDV beyannamesindeki kutuları hangi satış vergisi kodlarının oluşturacağını tanımlamak için bu adımları izleyin.
 

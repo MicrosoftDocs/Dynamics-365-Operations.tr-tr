@@ -2,7 +2,7 @@
 title: Mali boyut kümeleri
 description: Bu konu, finansal boyut kümelerini açıklar ve kullanımlarını en iyi duruma getirmek için bazı ipuçları sağlar.
 author: yukonpeegs
-ms.date: 03/23/2021
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 415a41100cc5be740f064d52598cd256c0aa2ae1d45473c8039bdc6e22381b3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9274e7f85005ab27d9f2b35fbb0be42e216941c9
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739990"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392948"
 ---
 # <a name="financial-dimension-sets"></a>Mali boyut kümeleri
 
@@ -61,6 +61,11 @@ Bakiyeleri sıfırdan oluşturmak için **Bakiyeleri yeniden oluştur** düğmes
 ## <a name="clear-balances"></a>Bakiyeleri temizle
 
 Bakiyeleri kaldırmak ve diğer güncelleştirmeleri durdurmak için **Bakiyeleri temizle** düğmesini kullanın. Boyut kümesinin artık Genel muhasebe deftere nakil faaliyetleri üzerinde bir etkisi olmayacaktır.
+
+## <a name="delete-a-dimension-set"></a>Bir boyut kümesini silme
+
+Belirli bir boyut kümesi için olan bakiye verileriyle ilgili olası sorunları çözmek üzere herhangi bir geçici çözüm formu olarak boyut kümelerini **silmeyin ve yeniden oluşturmayın**. Bir boyut kümesini yeniden oluşturmak maliyetlidir. Sorunlarla ilgili daha fazla yardım için müşteri desteğe başvurun. 
+
 
 Daha fazla bilgi için bkz. [Mali boyutlar](financial-dimensions.md).
 

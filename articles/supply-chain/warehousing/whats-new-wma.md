@@ -2,7 +2,7 @@
 title: Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni ve değiştirilmiş özellikleri listeler.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384383"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418652"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20190"></a>Sürüm 2.0.19.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- Genel veri sorgulama akışı iyileştirildi.
+- **Çalışma listesi** ve **Madde sorgulama** sayfalarındaki titreme sorunu geliştirildi.
+- Pil tüketimi azaltıldı.
+- Çalışma kartları için alan sayısı sınırı kaldırıldı.
+- Her bir tabloda alan sayısı ne olursa olsun, tümü aynı boyutta olacak şekilde çalışma kartlarının yüksekliğini ayarladı.
+- Barkoddaki boşluk karakterlerinin kırpılma sorunu düzeltildi.
+- Tüm aygıt türlerinde kaydırıcı görünümü ve düğme görünümü arasında geçiş yapmanızı sağlayan **Düğme stili** ayarı eklendi.
+- Uygulamanın çökmesine neden olabilen çeşitli sorunlar giderildi.
+- Özel sayfalardaki ilk metin kutusunda odağı otomatik olarak ayarlandı.
+- Parlaklık, karşıtlık, anlatım ve eksik yer tutucu metinlerle ilgili erişilebilirlik geliştirmeleri.
 
 ## <a name="version-20170"></a>Sürüm 2.0.17.0
 

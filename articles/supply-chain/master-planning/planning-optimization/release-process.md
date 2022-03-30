@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f9674bb68d7f577a6efdef3416d1731d743d0555
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087178"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407857"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Planlama Optimizasyonu yayımlama işlemi ve sürüm geçmişi
 
@@ -33,6 +33,7 @@ Planlama Optimizasyonu, ortamınızda güncelleştirildiğinde herhangi bir bild
 
 | Değişiklikler | Özellik yönetimi ayrıntıları | Yayın tarihleri |
 |---|---|---|
+| <p>Genel performans, kalite ve kararlılık iyileştirmeleri.<p>Planlama Optimizasyonu Merkezi takvim Bakımı<p>Mevcut arzı iyileştirmek için Planlama İyileştirmesi önerileri | Özellik yönetimi gerekmez. | 7-11 Mart 2022 |
 | <p>Üretim emirleri için planlama önceliği desteği eklendi. | Planlama İyileştirmesi için *Öncelik temelli MRP desteği* özelliği kapsamında 10.0.25 sürümünde kullanıma sunuldu. | 12-18 Kasım 2021 |
 | <p>Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik yönetimi gerekmez. | 12-18 Kasım 2021 |
 | <p>İşlem süresi hesaplaması formülleri, çakışmayla üretim rotası ve gereksinim hareketlerinde üretim operasyon numarası için destek eklendi.</p><p>Zaman aşımı ile ilgili üretim planlama çizelgeleme için geliştirilmiş hata iletileri, kapasite bulunamadı ve döngüsel rota.</p><p>Planlı siparişlerde ve kesinleştirilmiş siparişlerde giriş tarihleri ve çıkış tarihleri hesaplanırken iyileştirilmiş tutarlılık.</p><p>Genel performans, kalite ve kararlılık iyileştirmeleri. | Özellik adı: *Planlama Optimizasyonu için sonsuz kapasite zamanlaması* | 22-27 Ekim, 2021 |

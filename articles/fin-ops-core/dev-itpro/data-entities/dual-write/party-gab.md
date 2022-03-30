@@ -2,19 +2,19 @@
 title: Taraf ve genel adres defteri
 description: Bu konu, Çift yazmanın taraf ve genel adres defteri işlevlerini açıklamaktadır.
 author: RamaKrishnamoorthy
-ms.date: 08/11/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060344"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407777"
 ---
 # <a name="party-and-global-address-book"></a>Taraf ve genel adres defteri
 
@@ -22,7 +22,7 @@ ms.locfileid: "8060344"
 
 
 
-Finans ve Operasyon uygulamalarında, *taraf* ve *global adres defteri* kavramları kullanılır. Taraf, bir kişi veya kuruluş olabilir. Tarafın ad, dil, kişi ve adres gibi özelliklerini genel olarak depolamak ve yönetmek için kolaylık sunar. Ardından, bir özellik değeri bir yerde değiştiğinde, bu değişim tarafın bulunduğu tüm yerlere yansıtılır.
+Finans ve Operasyon uygulamalarında, *Taraf* ve *global adres defteri* kavramları kullanılır. Taraf, bir kişi veya kuruluş olabilir. Tarafın ad, dil, kişi ve adres gibi özelliklerini genel olarak depolamak ve yönetmek için kolaylık sunar. Ardından, bir özellik değeri bir yerde değiştiğinde, bu değişim tarafın bulunduğu tüm yerlere yansıtılır.
 
 ## <a name="party"></a>Taraf
 
@@ -46,7 +46,7 @@ Aşağıdaki görselde taraf için veri modeli gösterilmektedir:
 > [!TIP]
 > Yeni bir firma kaydı oluşturmaya çalıştığınızda, kaydı ada göre aramak için **Taraf** alanını kullanın. Bu şekilde, kaydı bulursanız yalnızca seçmeniz gerekir. Sistem, taraftan gelen tüm verileri otomatik olarak doldurur. Gerekli tüm alanları el ile ayarlamanız gerekmez. Bu davranış, kullanıma hazır bir şekilde gönderilen **Firma**, **İlgili Kişi** ve **Satıcı** sayfalarında bulunabilir.
 
-Çift yazma, Finans ve Operasyon uygulamalarının tüm taraf rollerini desteklemez. Taraf rollerinin tam listesi için bkz. [Genel adres defterine genel bakış](../../../fin-ops/organization-administration/overview-global-address-book.md).
+Çift yazma, finans ve operasyon uygulamalarının tüm taraf rollerini desteklemez. Taraf rollerinin tam listesi için bkz. [Genel adres defterine genel bakış](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Genel adres defteri
 
@@ -75,7 +75,7 @@ Müşteri etkileşimi uygulamalarında ilgili kişi bir kişidir. Ancak, **İlgi
 |----------|-------------|
 | Müşteri olan (örneğin, satış yapılabilir ilgili kişi veya B2C müşterisi) kişi. | **Şirket** alanının boş olmadığı ve **Müşteri mi?** alanı **Evet** olarak ayarlanan şeritli bir ilgili kişi kaydı. |
 | Satıcı olan bir kişi (örneğin, bir satıcı gibi bir tek sahip). | **Şirket** alanının boş olmadığı ve **Satıcı mı?** alanı **Evet** olarak ayarlanan şeritli bir ilgili kişi kaydı. |
-| Hem müşteri hem de satıcı olan bir kişi | **Şirket** alanının boş olmadığı ve **Müşteri mi?** alanı **Evet** olarak ayarlanan ve **Satıcı mı?** alanı **Evet** olarak ayarlanan şeritli bir ilgili kişi kaydı. Bir kişi, bir ürün için üretici, başka bir ürün için tüketici olabilir. Hem Finans ve Operasyon uygulamaları hem de çift yazma bu ilişkiyi destekler. |
+| Hem müşteri hem de satıcı olan bir kişi | **Şirket** alanının boş olmadığı ve **Müşteri mi?** alanı **Evet** olarak ayarlanan ve **Satıcı mı?** alanı **Evet** olarak ayarlanan şeritli bir ilgili kişi kaydı. Bir kişi, bir ürün için üretici, başka bir ürün için tüketici olabilir. Hem finans ve operasyon uygulamaları hem de çift yazma bu ilişkiyi destekler. |
 | Bir kuruluşun ilgili kişisi olan, ancak müşteri veya satıcı olmayan kişi | **Şirket** alanının boş olduğu ve **Müşteri mi?** alanı **Hayır** olarak ayarlanan ve **Satıcı mı?** alanı **Hayır** olarak ayarlanan şeritsiz bir ilgili kişi kaydı. |
 
 ## <a name="contact-for-party-table"></a>Taraf için ilgili kişi tablosu
@@ -142,9 +142,9 @@ Izgara aşağıdaki sütunları içerir:
 Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürümlerde, tüm posta adresi ve elektronik adres alanları, **Özet** ve **Ayrıntılar** sekmelerinde olduğu gibi diğer sekmelerden de kaldırılacaktır. **Ayrıntılar** sekmesinde görüntülenen ilgili kişi ayrıntıları birincil telefon, birincil e-posta, birincil telefon, birincil faks ve birincil Twitter kimliği gibi birincil elektronik adresin salt okunur kopyalarıdır. Müşteri adayı uygunluk işlemi sırasında hem iş telefonu numarası hem de cep telefonu numarası sağlayabilirsiniz. **IsMobile=No** ise iş telefonu numarası birincil telefon; **IsMobile=Yes** ise cep telefonu numarası ikincil telefon olarak kabul edilir.
 
 > [!TIP]
-> Posta adreslerini ve elektronik adresleri yönetmek için **Hesap** ve **İlgili Kişi** formlarındaki **Adresler** ve **Elektronik Adresler** sekmelerini kullanın. Bu, adres verilerinin Finans ve Operasyon uygulamalarıyla eşitlenmesini sağlar.
+> Posta adreslerini ve elektronik adresleri yönetmek için **Hesap** ve **İlgili Kişi** formlarındaki **Adresler** ve **Elektronik Adresler** sekmelerini kullanın. Bu, adres verilerinin finans ve operasyon uygulamalarıyla eşitlenmesini sağlar.
 
-## <a name="setup"></a>Kurulum
+## <a name="setup"></a>Ayar
 
 1. Customer Engagement uygulama ortamınızı açın.
 
@@ -226,11 +226,11 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
 
     ![İlgili kişiler için tekrarlanan kural.](media/duplicate-rule-2.PNG)
 
-11. Varolan bir çift yazma kullanıcısıysanız, [Taraf ve genel adres defteri modeline yükseltme](upgrade-party-gab.md) bölümündeki talimatları izleyin ve verilerinizi yükseltin.
+11. Varolan bir çift yazma kullanıcısıysanız, [Taraf ve genel adres defteri modeline yükseltme](upgrade-party-gab.md) bölümündeki talimatları izleyin ve verilerinizi yükseltin. **Bu adımı tamamlamadan 12. adıma geçmeyin.** Yeni bir ikili yazma kullanıcısı kullanıyorsanız, 12. adıma devam edin.
 
-12. Eşlemeleri aşağıdaki sıraya göre çalıştırın. Şu ifadeleri içeren bir mesaj alırsanız: "Proje doğrulama başarısız oldu. Hedef alan eksik... " eşlemeyi açın ve **Tabloları Yenile**'yi seçin. Ardından eşlemeyi çalıştırın.
+12. Varolan bir ikili yazma kullanıcısı iseniz, adım 11' i tamamlayın ve sonra da haritaları aşağıdaki sırada çalıştırın. Yeni bir ikili yazma müşterisiyseniz, doğrudan devam edebilirsiniz. Şu ifadeleri içeren bir mesaj görürseniz "Proje doğrulama başarısız oldu. Hedef alan eksik... " eşlemeyi açın ve **Tabloları Yenile**'yi seçin ve ardından eşlemeyi çalıştırın.
 
-    Finans ve Operasyon uygulaması | Müşteri etkileşimi uygulaması  
+    Finans ve operasyon uygulaması | Müşteri etkileşimi uygulaması  
     ----------------------------|------------------------
     [CDS Tarafları](mapping-reference.md#220) | msdyn_parties
     [CDS posta adresi yerleşimleri](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,7 +269,7 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
 
 Tablo eşlemeleri koleksiyonu, aşağıdaki tabloda gösterildiği gibi taraf ve genel adres defteri etkileşimi için birlikte çalışır.
 
-| Finans ve Operasyon uygulaması | Müşteri etkileşimi uygulaması | Açıklama |
+| Finans ve operasyon uygulaması | Müşteri etkileşimi uygulaması | Açıklama |
 |----------------------------|-------------------------|-------------|
 | [İlgili kişi unvanları](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Müşteriler V3](mapping-reference.md#101) | hesaplar |
@@ -295,10 +295,10 @@ Daha fazla bilgi için, bkz. [Çift yazma eşleme başvurusu](mapping-reference.
 
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 
-+ Finans ve Operasyon uygulamalarında, adresle birlikte bir müşteri oluşturup kaydettiğinizde, adres **Adres** tablosuyla eşitlenmeyebilir. Bu, çift yazma platformunun sıralama sorunundan kaynaklanır. Geçici çözüm olarak, önce müşteriyi oluşturun ve kaydedin. Sonra adresi ekleyin.
-+ Finans ve Operasyon uygulamalarında, bir müşteri kaydının birincil adresi olduğunda ve bu müşteri için yeni bir ilgili kişi oluşturduğunuzda, ilgili kişi kaydı ilişkili müşteri kaydından bir birincil adres devralır. Bu, satıcı ilgili kişisi için de gerçekleşir. Dataverse şu anda bu davranışı desteklemiyor. Çift yazma etkinleştirilirse, Finans ve Operasyon uygulamasından birincil adresle devralınan müşteri ilgili kişileri, adresiyle birlikte Dataverse'e eşitlenir.
++ Finans ve operasyon uygulamalarında, adresle birlikte bir müşteri oluşturup kaydettiğinizde, adres **Adres** tablosuyla eşitlenmeyebilir. Bu, çift yazma platformunun sıralama sorunundan kaynaklanır. Geçici çözüm olarak, önce müşteriyi oluşturun ve kaydedin. Sonra adresi ekleyin.
++ Finans ve operasyon uygulamalarında, bir müşteri kaydının birincil adresi olduğunda ve bu müşteri için yeni bir ilgili kişi oluşturduğunuzda, ilgili kişi kaydı ilişkili müşteri kaydından bir birincil adres devralır. Bu, satıcı ilgili kişisi için de gerçekleşir. Dataverse şu anda bu davranışı desteklemiyor. Çift yazma etkinleştirilirse, finans ve operasyon uygulamasından birincil adresle devralınan müşteri ilgili kişileri, adresiyle birlikte Dataverse'e eşitlenir.
 + **Firma**, **İlgili kişi** ve **Satıcı** formlarının elektronik adres sekmesinde belirlenen elektronik adresler `msdyn_partyelectronicaddress` tablosundan geliyor. Bu bilgiler satış siparişi, teklif ve satınalma siparişi gibi ilişkili hareketlerine akmıyor. Bu sorunu artımlı bir sürümde düzeltmeyi planlıyoruz. Firma ve ilgili kişi kayıtlarındaki elektronik adres alanlarında bulunan veriler; satış siparişi, teklif ve satınalma siparişi gibi hareketler üzerinde çalışmaya devam eder.
-+ Finans ve Operasyon uygulamalarında, **İlgili Kişi Ekle** formundan bir kişi kaydı oluşturabilirsiniz. **İlgili kişiyi görüntüle** formundan yeni bir ilgili kişi oluşturmaya çalıştığınızda eylem başarısız olur. Bu, bilinen bir sorundur.
++ Finans ve operasyon uygulamalarında, **İlgili Kişi Ekle** formundan bir kişi kaydı oluşturabilirsiniz. **İlgili kişiyi görüntüle** formundan yeni bir ilgili kişi oluşturmaya çalıştığınızda eylem başarısız olur. Bu, bilinen bir sorundur.
 
     ![İlgili Kişi Ekle ile ilgili bilinen sorun.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Daha fazla bilgi için, bkz. [Çift yazma eşleme başvurusu](mapping-reference.
 
     ![Adresle ilgili bilinen sorun.](media/party-gab-address-issue.png)
 
-+ Dataverse geçerlilik tarihini desteklemediği için çift yazma özelliğiyle bir Finans ve Operasyon uygulaması kullanarak ileri tarihli bir posta adresi giremezsiniz. Bir Finans ve Operasyon uygulaması kullanarak geleceğe yönelik bir posta adresi girerseniz bu adres Dataverse'e tam olarak eşitlenir ve adresi kullanıcı arabiriminde hemen görürsünüz. Bu kayıtta yapılan güncelleştirmeler, güncel olmadığı ve geleceğe yönelik olduğu için Finans ve Operasyon uygulamasında bir hataya neden olur.
++ Dataverse geçerlilik tarihini desteklemediği için çift yazma özelliğiyle bir finans ve operasyon uygulaması kullanarak ileri tarihli bir posta adresi giremezsiniz. Bir Finans ve operasyon uygulaması kullanarak geleceğe yönelik bir posta adresi girerseniz bu adres Dataverse'e tam olarak eşitlenir ve adresi kullanıcı arabiriminde hemen görürsünüz. Bu kayıtta yapılan güncelleştirmeler, güncel olmadığı ve geleceğe yönelik olduğu için finans ve operasyon uygulamasında bir hataya neden olur.

@@ -2,19 +2,19 @@
 title: Taraf ve genel adres defteri modeline yükseltme
 description: Bu konuda, çift yazma verilerinin taraf ve genel adres defteri modeline nasıl yükseltileceği açıklanmaktadır.
 author: RamaKrishnamoorthy
-ms.date: 03/31/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060497"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407807"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Taraf ve genel adres defteri modeline yükseltme
 
@@ -151,13 +151,19 @@ Bu bölümde, Taraf posta adresi ve Taraf elektronik adres Data Factory şablonl
 
 ## <a name="run-the-templates"></a>Şablonları çalıştır
 
-1. Finance ve Operations uygulamasını kullanan aşağıdaki **Hesap**, **İlgili Kişi** ve **Satıcı** çift yazma eşlemelerini durdurun:
+1. Finans ve operasyon uygulamaları kullanan aşağıdaki **Taraf**, **Hesap**, **İlgili Kişi** ve **Satıcı** çift yazma eşlemelerini durdurun:
 
+    + CDS Tarafları (msdyn_parties) 
     + Müşteriler V3 (hesaplar)
     + Müşteriler V3(ilgili kişiler)
     + CDS İlgili Kişileri V2(ilgili kişiler)
     + CDS İlgili Kişileri V2(ilgili kişiler)
     + Satıcı V2 (msdyn_vendor)
+    + Kişiler v2 (msdyn_contactforparties)
+    + CDS Taraf posta adresi konumları (msdyn_partypostaladdresses)
+    + CDS posta adresi geçmişi v2 (msdyn_postaladdresses)
+    + CDS Taraf posta adresi konumları (msdyn_postaladdresscollections)
+    + Taraf İlgili Kişileri v3 (msdyn_partyelectronicaddresses)
 
 2. Dataverse'de haritaların **msdy_dualwriteruntimeconfig** tablosundan kaldırıldığından emin olun.
 3. AppSource'tan [Çift Yazma Taraf ve Genel Adres Defteri Çözümleri](https://aka.ms/dual-write-gab)'ni yükleyin.

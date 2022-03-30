@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087511"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408242"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Planlamayı En İyi Duruma Getirme tarafından kullanılmayan parametreler
 
@@ -194,12 +194,6 @@ Planlamayı En İyi Duruma Getirme, **Varsayılan sipariş ayrıntıları** sayf
   - **Teslimat tarihi denetimi** – Planlamayı En İyi Duruma Getirme *CTP* seçeneğini desteklemez, *CTP* desteği bekleniyor.
   - **Stok sağlama süresi**: Planlama Optimizasyonu hizmetinin 6 Ağustos 2021 sürümünden daha eski sürümlerinde, Planlama Optimizasyonu doğru sipariş ve teslim tarihlerini hesaplamak için bu parametreyi kullanır ancak hesaplanan sağlama süresinin kendisini planlı siparişe kaydetmez. Daha sonraki sürümlerde hizmet, ilgili planlı sipariş için gerektiği gibi **Sağlama süresi** alanını ve **İş günleri** seçeneğini ayarlamak için hesaplanan teslim süresini de kullanır.
   - **İş günleri**: Planlama Optimizasyonu hizmetinin 6 Ağustos 2021 sürümünden daha eski sürümlerinde, Planlama Optimizasyonu doğru sipariş ve teslim tarihlerini hesaplamak için bu parametreyi kullanır ancak hesaplanan sağlama süresinin kendisini planlı siparişe kaydetmez. Daha sonraki sürümlerde hizmet, ilgili planlı sipariş için gerektiği gibi **Sağlama süresi** alanını ve **İş günleri** seçeneğini ayarlamak için hesaplanan teslim süresini de kullanır.
-
-## <a name="working-time-calendars-page"></a>Çalışma zamanı takvimleri sayfası
-
-Planlamayı En İyi Duruma Getirme, **Çalışma zamanı takvimleri** sayfasında bulunan aşağıdaki parametreyi kullanmaz:
-
-- **Temel takvim** – *Temel takvimler* desteği bekleniyor.
 
 ## <a name="batch-disposition-master-page"></a>Toplu iş değerlendirme ana sayfası
 

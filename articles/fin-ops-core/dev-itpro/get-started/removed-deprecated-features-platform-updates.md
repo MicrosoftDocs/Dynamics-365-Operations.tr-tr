@@ -2,7 +2,7 @@
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance ve Operations uygulamalarının platform güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 03/03/2022
+ms.date: 03/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384732"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396561"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya kullanım dışı bırakılan platform özellikleri
 
@@ -31,6 +31,18 @@ Bu konu, Finance ve Operations uygulamalarının platform güncellemelerinde kal
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 Finans ve Operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/global/axtechrefrep_61) altından ulaşabilirsiniz. Finans ve Operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="feature-removal-effective-march-14-2022"></a>Özellik kaldırma geçerlilik tarihi: 14 Mart 2022
+
+### <a name="xslt-scripting-in-data-management"></a>Veri yönetiminde XSLT komut dosyası
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Finans ve operasyon uygulamalarındaki güvenlik ve veri korumasının geliştirilmesi için veri yönetimindeki XSLT komut dosyası desteği kullanım dışıdır.  |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır. Müşteriler ve ISV'ler, XSLT kodu yerine X++ diline dayalı olarak çözümlerinin yeniden uygulanması gerektiğini düşünmelidir. |
+| **Etkilenen ürün alanları**         | Finans ve Operasyon uygulamaları. |
+| **Dağıtım seçeneği**              | Tümü. |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 14 Mart 2022'de planlanan kaldırma tarihi.<br><br>Özel durum: XLST komut dosyası kullanmakta olan müşteriler. Sürüm 10.0.30 veya daha yenisine güncelleştirene kadar kullanmaya devam edebilir. Bu özel duruma sahip müşteriler Microsoft 365 Yönetim Merkezinde bulunan İleti merkezinde bir bildirim almıştır. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Özellik kaldırma geçerlilik tarihi: 2021 Ekim
 

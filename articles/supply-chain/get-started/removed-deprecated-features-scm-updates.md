@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720432"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396537"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -31,7 +31,7 @@ Dynamics 365 Supply Chain Management için kaldırılan veya kullanımı sonland
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır.
 
 > [!NOTE]
-> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+> Finans ve Operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/) altından ulaşabilirsiniz. Finans ve Operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Supply Chain Management 10.0.19 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
@@ -78,7 +78,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Başka bir özellikle mi değiştirildi?**   | Evet, Planlamayı En İyi Duruma Getirme hizmeti mevcut yerleşik Supply Chain Management master planlama altyapısının yerini alacaktır. |
 | **Etkilenen ürün alanları**         | Supply Chain Management - Master planlama |
 | **Dağıtım seçeneği**              | Yalnızca bulut. Planlamayı En İyi Duruma Getirme şirket içi dağıtımlarda desteklenmez. |
-| **Durum**                         | Kaldırıldı. 1 Nisan 2022 itibarıyla, üretim senaryoları artık yerleşik Dynamics 365 Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Üretim senaryoları için müşterilerin master planlama hesaplamaları için Planlama İyileştirmesi'ni kullanmaları gerekir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme belgeleri](../master-planning/planning-optimization/planning-optimization-overview.md). Dynamics 365 Supply Chain Management'ın şirket içi dağıtımlarına sahip olan müşteriler, Nisan 2022 sonrasında üretim senaryoları için Supply Chain Management master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
+| **Durum**                         | Kaldırıldı. 1 Nisan 2022 itibarıyla, üretim senaryoları artık yerleşik Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Bu tarihten itibaren, Microsoft yerleşik planlama altyapısı için tüm üretim geliştirme senaryolarını durdurur, yeni özellikleri serbest bırakmayacak ve yalnızca kritik hata düzeltmelerini yayımlayacaktır. Bu tarihten sonra, üretim senaryoları için destek gerektiren tüm şirketler master planlama hesaplamalarında Planlama Optimizasyonu kullanmalıdır. Planlama Optimizasyonu, 2022 Ekim tarihinde üretim senaryolarını tam olarak destekleyecek şekilde beklenmektedir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme belgeleri](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Supply Chain Management'ın şirket içi dağıtımlarına sahip olan şirketler, Nisan 2022 sonrasında üretim senaryoları için yerleşik master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Supply Chain Management 10.0.11 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
 

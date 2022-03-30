@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344990"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408027"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
@@ -58,7 +58,7 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Özellik | Listelenen sorun | Açıklama | Beklenen kullanılabilirlik |
 | --- | --- | --- | --- |
 | Eylemler | Eylemler hesaplaması etkin olan karşılama grupları: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın eylemler Planlamayı En İyi Duruma Getirme etkinleştirildiğinde master planlama sırasında oluşturulmaz. Eylemlerin başlıca amacı, varolan siparişlerde değişiklik önermektir. Eylemlerin iş süreçlerinizin bir parçası olarak etkin şekilde uygulanıp uygulanmadığını veya siparişlerle ilgili gecikme bilgilerinin yeterli olup olmadığı değerlendirin. | Nisan 2022 |
-| Temel takvimler | Temel takvimi kullanan takvimler: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde temel takvim yok sayılır. İş süreçleriniz için temel takvimin gerekip gerekmediğini veya takvimlerdeki doğrudan kurulumun yeterli olup olmadığını değerlendirin. | Nisan 2022 | 
+| Temel takvimler | Temel takvimi kullanan takvimler: _\#_ | Bu özellik şimdi desteklenmektedir. | Mart 2022 | 
 | Toplu iş değerlendirme kodları | Netleştirilemeyen toplu iş değerlendirme ana verileri: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, toplu iş değerlendirme kodları yok sayılır. | Ekim 2022 veya sonrası |
 | Teslim edilebilir miktar (CTP) | Teslimat tarihi denetimi teslim edilebilir miktar olarak ayarlanmış varsayılan sipariş ayarları: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, CTP yok sayılır. | 2022 Ekim |
 | Dinamik plana statik kopyalama | Dinamik plana statik kopyalama master planlama parametrelerinde etkinleştirildi. | Planlamayı En İyi Duruma Getirme statik planı bu ayardan bağımsız olarak dinamik plana kopyalamaz. Genel olarak, bu kavram, Planlamayı En İyi Duruma Getirme sağlayan hız ve tamamlama nedeniyle daha az ilgilidir. İki veya daha fazla plan kullanılıyorsa, master planlama her plan için tetiklenmelidir. | 2022 Ekim |
