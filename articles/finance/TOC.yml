@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (Şubat)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (Ocak)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -414,8 +412,20 @@
               items:
                 - name: Abonelik faturalamasına genel bakış
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Faturalama planlarını ayarlama
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: Yinelenen sözleşme faturalaması
+                  items:
+                    - name: Faturalama planları oluşturma
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: Faturalama planını kopyalama
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Aşama bazında faturalama
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: Faturalama planlarını sonlandırma
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: Gelir ve gider ertelemeleri
+                  items: null
+                - name: Çok öğeli gelir tahsisatı
+                  items: null
             - name: Ödemeler ve kapatmalar
               items:
                 - name: Müşteri ödemesine genel bakış
@@ -1443,11 +1453,11 @@
                             - name: SharePoint kanalı yapılandırma
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: Finance ve Supply Chain Management ile Elektronik Faturalamayı ayarlama ve kullanma
-                          items: null
-                        - name: Elektronik Faturalamayla tümleştirmeyi etkinleştirme ve ayarlama
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektronik Faturalama parametrelerini ayarlama
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: Elektronik Faturalamayla tümleştirmeyi etkinleştirme ve ayarlama
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: Elektronik Faturalama parametrelerini ayarlama
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Elektronik Faturalamayla çalışma
                           items:
                             - name: Elektronik belgeleri Elektronik Faturalamaya gönderme
@@ -1532,6 +1542,10 @@
                           items:
                             - name: KDV beyannamesi
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: Finlandiya için raporlama
+                          items:
+                            - name: KDV beyannamesi
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: Fransa için raporlama
                           items:
                             - name: KDV beyannamesi
@@ -1546,6 +1560,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: AB satış listesi
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Norveç için raporlama
+                          items:
+                            - name: KDV beyannamesi
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: İspanya için raporlama
                           items:
                             - name: 'KDV Hakkında Hemen Bilgi Sağlama (Suministro Inmediato de Información del IVA, SII)'
@@ -1564,11 +1582,7 @@
                           items:
                             - name: KDV beyannamesi
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: Norveç için raporlama
-                          items:
-                            - name: KDV beyannamesi
-                              href: localizations/emea-nor-vat-declaration.md
-                    - name: Transfer emri için Vergi Hesaplamasını etkinleştirme
+                    - name: Transfer emri için Vergi Hesaplamayı etkinleştirme
                       items:
                         - name: Transfer emirleri için vergi özelliği desteği
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
@@ -1694,8 +1708,6 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Ambalaj malzemesi ücretleri
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: KDV beyanı
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: Sınır ötesi hizmetler raporu
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: Avusturya İntrastat'ı
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme
                   href: localizations/emea-amount-printing-forms.md
-                - name: KDV beyanı
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: KDV beyannamesi (Çek Cumhuriyeti)
+                - name: KDV beyannamesi
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Çekçe İntrastat
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: Danca İntrastat
                   href: localizations/emea-dnk-intrastat.md
+                - name: KDV beyannamesi
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Mısır
               items:
                 - name: Mısır'a genel bakış
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: Fince İntrastat
                   href: localizations/emea-fin-intrastat.md
+                - name: KDV beyannamesi
+                  href: localizations/emea-fin-vat-declaration.md
             - name: Fransa
               items:
                 - name: Fransa'ya genel bakış
@@ -2332,12 +2346,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: KDV beyannamesi
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: KDV beyannamesinin elektronik iletimi (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Almanca İntrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: KDV beyanı
-                  href: localizations/emea-de-vat-declaration.md
                 - name: Elektronik müşteri faturaları raporu
                   href: localizations/emea-deu-e-invoices.md
                 - name: Günlük listesi raporu
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: AB satış listesi
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: KDV beyannamesi
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Macaristan
               items:
                 - name: Macaristan'a genel bakış
@@ -2558,13 +2566,15 @@
                                   href: localizations/apac-ind-GST-return-order-form.md
                             - name: Yabancı hareketler
                               items:
-                                - name: GST içeren mallar ithal etme
+                                - name: GST'ye tabi mallar ithal etme
                                   href: localizations/apac-ind-GST-import-goods-gst.md
-                                - name: GST içeren hizmetler ithal etme
+                                - name: GST'ye tabi hizmetler ithal etme
                                   href: localizations/apac-ind-import-services-gst.md
-                                - name: Sıfır oranlı vergi içeren mallar ihraç etme
+                                - name: İthalat siparişleri için Gümrük beyannamesi sayfasındaki masraf tahsisatı
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
+                                - name: Sıfır oranlı vergiye tabi mallar ihraç etme
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                                - name: Sıfır oranlı vergi içeren hizmetler ihraç etme
+                                - name: Sıfır oranlı vergiye tabi hizmetler ihraç etme
                                   href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                                 - name: İhracat siparişine karşı alacak veya borç dekontu
                                   href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
@@ -3116,17 +3126,13 @@
               items:
                 - name: Hollanda'ya genel bakış
                   href: localizations/netherlands.md
-                - name: KDV beyannamesi
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: Elektronik vergi beyannameleri (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL tümleştirmesi
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Denetim dosyası (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: KDV beyannamesi (Hollanda)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Hollanda İntrastat'ı
+                - name: İntrastat
                   href: localizations/emea-nl-intrastat.md
                 - name: AB satış listesi
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: İsveç için satış vergisi ödeme raporu
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: İsveç için KDV beyannamesi
+                - name: KDV beyannamesi
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: İsveççe İntrastat
                   href: localizations/emea-swe-intrastat.md

@@ -1709,6 +1709,8 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Stok Görünürlüğü rezervasyonları
                   href: inventory/inventory-visibility-reservations.md
+                - name: Stok Görünürlüğü eldeki stok değişikliklerini planlama ve karşılanabilen miktar
+                  href: inventory/inventory-visibility-available-to-promise.md
                 - name: Stok Görünürlüğü genel API'leri
                   href: inventory/inventory-visibility-api.md
                 - name: Stok Görünürlüğü ipuçları
@@ -3737,7 +3739,7 @@
                   href: troubleshooting/procurement/consolidate-multiple-receipts.md
                 - name: 'Varsayılan vergi grubu ve nakit iskontosu, fatura hesabından doldurulmuyor'
                   href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Bir satınalma siparişi teslimat adresi değiştirildikten sonra teslimat adı eşitlenmiyor
+                - name: Bir satın alma siparişi teslimat adresi değiştirildikten sonra teslimat adı eşitlenmiyor
                   href: troubleshooting/procurement/delivery-name-isnt-synced.md
                 - name: Satıcı faturasının deftere nakli sırasında özel durum oluşuyor
                   href: troubleshooting/procurement/invocation-target-exception.md
@@ -3865,8 +3867,10 @@
                       href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: Uygulama bağlantısı ayarlanırken sertifika yolu için güven çıpası bulunamadı
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: WMS'ye güncelleştirme ve geçiş yapılırken sertifika yolu için güven çıpası bulunamadı
+                    - name: WMS'e güncelleştirme ve geçiş yapılırken sertifika yolu için güven çıpası bulunamadı
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: Durdurulan satış siparişi satırı için sevk irsaliyesi deftere nakledilemiyor
+                  href: troubleshooting/warehousing/unable-to-post-packi.md
                 - name: Ölçek birimi ambar iş yükü yüklendikten sonra işleme sorunları oluşuyor
                   href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: Kullanılabilir stok olsa da toplu iş numarası için otomatik rezervasyon komut istemi gösteriliyor

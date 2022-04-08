@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: 10.0.24 sürümü için platform güncelleştirmeleri (Şubat 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: 10.0.23 sürümü için platform güncelleştirmeleri (Ocak 2022)
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: Azure Data Lake'teki Finans ve Operasyon uygulamaları
               href: data-entities/finance-data-azure-data-lake.md
+            - name: Azure Data Lake'te depolanan veriler ve meta veriler
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: Varlık deposunu Data Lake olarak kullanılabilir yapma
               href: data-entities/entity-store-data-lake.md
             - name: Azure Data Lake'e dışarı aktarma hizmetiyle oluşturulan iş olayları (Önizleme)
@@ -408,9 +408,11 @@
                       href: deployment/redeploy-on-prem.md
                     - name: AOS düğümünü kaldırıp yeniden yükleme veya ekleme
                       href: deployment/onprem-remove-reinstall-AOS-node.md
-                    - name: Birden çok ortam için aynı AD FS kurulumunu yeniden kullanma
+                    - name: Birden çok ortam için aynı AD FS örneğini yeniden kullanma
                       href: deployment/onprem-reuseadfs.md
-                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) ortamlarının SQL Server kurulumunu yükseltme
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) ortamlarınızda Windows Server'ı yükseltme
+                      href: deployment/onprem-upgrade-os.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) ortamlarının SQL Server örneğini yükseltme
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Yerel aracı
                   items:
@@ -932,6 +934,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: İş ortakları için LCS
                   href: lifecycle-services/getting-started-lcs.md
+                - name: Desteklenen web tarayıcıları
+                  href: lifecycle-services/web-browsers.md
                 - name: RESTful API'leri
                   items:
                     - name: Ortamları başlatma ve durdurma
@@ -1484,12 +1488,14 @@
               href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Beklenen değerleri doğrulama
               href: perf-test/rsat/rsat-validate-expected.md
-            - name: Zincir test olayları
+            - name: Zincir test çalışmaları
               href: perf-test/rsat/rsat-chain-test-cases.md
-            - name: Türetilmiş test olayları
+            - name: Türetilmiş test çalışmaları
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Parametre dosyalarını yükseltme
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Azure DevOps olmadan deneme modu
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: Regression Suite Automation Tool eğitimi
               href: perf-test/rsat/rsat-tutorial.md
             - name: Yönetici olmayan kullanıcıları yapılandırma

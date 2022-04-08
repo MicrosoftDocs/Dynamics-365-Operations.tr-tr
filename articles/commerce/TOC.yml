@@ -390,7 +390,7 @@
                   href: tasks/worker.md
                 - name: 'Modern Point of Sale (MPOS), Cloud POS ve Store Commerce'
                   items:
-                    - name: Microsoft Dynamics 365 Commerce'te Store Commerce uygulaması (Önizleme)
+                    - name: Store Commerce uygulaması
                       href: dev-itpro/store-commerce.md
                     - name: Cihaz yönetimi uygulama kılavuzu
                       href: implementation-considerations-devices.md
@@ -2866,12 +2866,14 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Çevrimiçi siparişlerdeki vergiler yanlış hesaplandı
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Varsayılan ödeme hizmeti ile ilgili sipariş eşitleme hatası
+                - name: Varsayılan ödeme hizmetiyle ilgili sipariş eşitleme hatası
                   href: troubleshoot/synchronization-error.md
             - name: Ödemeleri işleme
               items:
-                - name: İade siparişinde para iadesi reddedildi
+                - name: İade siparişinde geri ödeme reddedildi
                   href: troubleshoot/refund-declined.md
+                - name: Geri ödenebilir ücretler iade edilen miktara göre yanlış hesaplanıyor
+                  href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: Adyen için Dynamics 365 Payment Connector
                   items:
                     - name: Adyen için Dynamics 365 Payment Connector sorunlarını giderme
