@@ -2,7 +2,7 @@
 title: Veri reyonunu sıfırlamayla ilgili SSS
 description: Bu konu, veri reyonu sıfırlama hakkında sık sorulan bazı soruların yanıtlarını sağlar.
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119524"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466425"
 ---
 # <a name="data-mart-resets-faq"></a>Veri reyonunu sıfırlamayla ilgili SSS
 
@@ -47,10 +47,14 @@ Aşağıdaki ifadelerden biri veya daha fazlası sizin durumunuza için geçerli
 Veri reyonunu sıfırlamayı önermediğimiz bazı durumları aşağıda bulabilirsiniz:
 
 - Veri tümleştirme performans sorunları yaşıyorsunuz.
+- Financial Reporter tümleştirmeniz etkin değil. 
+
+    - Bu, Genel Muhasebe verilerinin artık Financial Reporting veri reyonunda eşitlenmediği anlamına gelir. Financial Reporter uygulamanız mali raporlarınız için güncel sayılar almıyor olabilir. Bu sorun genellikle Financial Reporter'ı uzun süre kullanmadığınızda oluşur.
+    - Veri reyonunu sıfırlayarak tümleştirmeyi etkinleştirmeniz istenir. **Evet**'i seçerek devam edebilirsiniz. Veri reyonunu daha sonra sıfırlamayı da tercih edebilirsiniz. Tümleştirme etkinleştirildikten sonra genel muhasebe verileriniz Financial Reporter'da yeniden eşitlenir. 
 - Aşağıdakilerden herhangi biri nedeniyle yinelenen bir sıfırlama modeliniz var:
 
     - **Raporda eksik veya beklenmeyen veri** - Verilerin eksik olduğunu görürseniz, rapor biçiminizi ve veri eşitleme sorunlarını gözden geçirmesi için Microsoft ile bir destek bileti açın.
-    - **Tümleştirme durumu takılı kaldı**
+    - **Tümleştirme durumu takılı kaldı**: Tümleştirme durumunun çalışırken takılı kaldığını fark ederseniz bunun nedeni sistemdeki büyük işlem hacmi olabilir. Bu durum kendi kendine çözülür. Ancak tümleştirme durumunun dört saatten fazla takılı kaldığını fark ederseniz Microsoft ile bir destek bileti oluşturun. 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Veri reyonunu sıfırladığımda, önceden tasarlamış olduğum raporları kaybedecek miyim?
 

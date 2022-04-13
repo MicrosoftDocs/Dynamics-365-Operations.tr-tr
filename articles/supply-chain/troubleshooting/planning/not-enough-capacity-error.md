@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: eb494cab08453a548a0ac862cbe89dfd9f17fbcd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 67e228c27d4470c116a193fe11ba306df840744a
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574773"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509486"
 ---
 # <a name="not-enough-capacity-could-be-found"></a>Yeterli kapasite bulunamadı
 
@@ -30,4 +30,5 @@ Planlama altyapısının başarısız olmasının ve bu hata iletisinin alınmas
 
 ## <a name="resolution"></a>Çözüm
 
-Planlama altyapısının başarısız olmasının ve hata iletisinin alınmasının birkaç nedeni vardır. Hatanın temel nedenini bulmanıza ve ardından bu nedeni hafifletmenize yardımcı olacak yönergeler için bkz. ["Yeterli kapasite bulunamadı" planlama altyapısı hatasını düzeltme](/dynamics365/supply-chain/master-planning/not-enough-capacity-error-resolution.md).
+Planlama altyapısının başarısız olmasının ve hata iletisinin alınmasının birkaç nedeni vardır. Hatanın temel nedenini bulmanıza ve ardından bu nedeni hafifletmenize yardımcı olacak yönergeler için bkz. ["Yeterli kapasite bulunamadı" planlama altyapısı hatasını düzeltme](/dynamics365/supply-chain/master-planning/not-enough-capacity-error-resolution).
+

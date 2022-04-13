@@ -1,7 +1,7 @@
 ---
 title: Maddeler için kapsama kurallarını tanımlama
 description: Bu yordam, kapsam kurallarını oluşturmayı ve belirli bir madde için kapsama ayarlarını geçersiz kılmayı gösterir. Ayrıca varsayılan stok ayarlarının nasıl belirleneceğini de açıklar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoRes
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: bca0e1786adb08a7cd4795b49c974ab95183b1dd
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860625"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469336"
 ---
 # <a name="define-coverage-rules-for-items"></a>Maddeler için kapsama kurallarını tanımlama
 

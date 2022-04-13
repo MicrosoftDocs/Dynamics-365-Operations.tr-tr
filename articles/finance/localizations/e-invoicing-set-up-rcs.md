@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 33aab6f0a482ce3d90a7e9828015a8e7bebb7827
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 6aed74656ceb8edd0e88adf53b61fcae81241f54
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371836"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470191"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Regulatory Configuration Service (RCS) kurulumu
 
@@ -50,6 +50,13 @@ Bu konuda, Regulatory Configuration Service'in (RCS) nasıl ayarlanacağı açı
     | Birleşik Krallık             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Asya                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Japonya                      | <p>`https://gw.jp-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | İsviçre                | <p>`https://gw.ch-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Brezilya                     | <p>`https://gw.br-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.br-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Birleşik Arap Emirlikleri       | <p>`https://gw.ae-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Avustralya                  | <p>`https://gw.au-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.au-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Kanada                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Fransa                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Hindistan                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. **Uygulama Kimliği** alanının **0cdb527f-a8d1-4bf8-9436-b352c68682b2** olarak ayarlandığını doğrulayın. Bu değer sabit bir değerdir. Yalnızca genel benzersiz bir tanımlayıcının (GUID) girildiğinden ve değerin boşluk, virgül, nokta veya tırnak işareti gibi herhangi bir simge içermediğinden emin olun.
 4. **LCS Ortam Kimliği** alanına Microsoft Dynamics Lifecycle Services (LCS) ortamınızın kimliğini girin. Bu değer, Elektronik Faturalama servisi ile kullanacağınız Finance veya Supply Chain Management ortamına başvurudur. Kimliğinizi almak için [LCS](https://lcs.dynamics.com/)'de oturum açın ve sonra **Ortam yönetimi** sekmesindeki **Ortam ayrıntıları** bölümünde **Ortam kimliği** alanına bakın.

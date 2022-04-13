@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902109"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462684"
 ---
 # <a name="mobile-device-user-accounts"></a>Mobil cihaz kullanıcı hesapları
 
@@ -90,8 +90,8 @@ Warehouse Management mobil uygulamasında bir çalışan oturum açtığında, d
 1. Eylem Bölmesinde, **Kullanıcı seçenekleri**'ni seçin.
 1. **Tercihler** sekmesinde, aşağıdaki alanları ayarlayın:
 
-    - **Dil** – Çalışanın tercih ettiği dili seçin. Bu alan aynı zamanda ambar uygulamasında gösterilen tarih biçimini de denetler.
-    - **Tarih, saat ve sayı biçimi** – Ambar uygulamasında gösterilen sayı biçimlerini belirleyen dili seçin. Ambar uygulamasında gösterilen tarih ve saat biçimlerinin gerçekte bu alan tarafından değil **Dil** alanına göre belirlendiğine dikkat edin.
+    - **Dil** – Çalışanın tercih ettiği dili seçin. Bu alan aynı zamanda ambar uygulamasında gösterilen sayı biçimini de denetler.
+    - **Tarih, saat ve sayı biçimi**: Çalışanın tercih ettiği tarih ve saat biçimini seçin. Ambar uygulamasında bu ayar yerine **Dil** alanında seçilen dille ilişkili sayı biçimi kullanılır.
     - **Saat dilimi** – Çalışanın çalıştığı saat dilimini seçin. Bu alan, uygulamayı kullanarak çalışanın yaptığı tüm kayıtlar için zaman damgasını etkiler.
 
 > [!NOTE]

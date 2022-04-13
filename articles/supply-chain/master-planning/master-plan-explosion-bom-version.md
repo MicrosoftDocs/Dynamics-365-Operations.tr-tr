@@ -1,7 +1,7 @@
 ---
 title: Bir ürün reçetesi versiyonu açılımı
 description: Bu makalede ürün reçetesi (BOM) sürümü açılımı içeren bir master planlama senaryosu açıklanmaktadır.
-author: ChristianRytt
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19211
 ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4dfc85ad7ab01df9a95a394896873e2d649e12
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 119b77b695ff065c8e45693e1cf7cf15360d441e
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575111"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468650"
 ---
 # <a name="explosion-of-a-bom-version"></a>Bir ürün reçetesi versiyonu açılımı
 

@@ -1,5 +1,5 @@
 ---
-title: Faturalama zamanlamasına genel bakış
+title: Faturalama zamanlamaları oluşturma
 description: Bu konuda, faturalama zamanlamaları oluşturma, silme ve düzenleme işlemleri açıklanmaktadır.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e42be3f359e96f0861354ebc8e1e9c87478a5d89
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182703"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462601"
 ---
-# <a name="billing-schedule-overview"></a>Faturalama zamanlamasına genel bakış
+# <a name="create-billing-schedules"></a>Faturalama zamanlamaları oluşturma
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 **Faturalama zamanlaması** sayfasında fatura zamanlamaları oluşturabilir, silebilir veya düzenleyebilirsiniz. Ayrıca, faturalama zamanlamaları listesini gözden geçirebilirsiniz. Bir faturalama zamanlaması oluşturduğunuzda, bununla ilgili varsayılan değerler kendisiyle ilişkilendirilmiş faturalama grubu tarafından belirlenir. Ek bilgiler **Yinelenen sözleşme faturalama parametreleri** sayfasında ayarlanır.
 
@@ -171,9 +170,9 @@ Ayrıca, **Yenilemeler** sekmesinde aşağıdaki düğmeler bulunur.
 
 | Düğme | Açıklama |
 |--------|-------------|
-| Faturalanmamış gelir günlük girişi denetimi | Faturalanmamış gelir özelliğini kullanan tüm maddeler için yapılan tüm değişiklikleri görüntüleyin. |
+| Faturalanmamış gelir yevmiye defteri girişi denetimi | Faturalanmamış gelir özelliğini kullanan tüm maddeler için yapılan tüm değişiklikleri görüntüleyin. |
 | Yenileme dönemi ekle | Madde için yenileme süresi ekleyin. Yeni yenileme süresinin başlangıç tarihi, önceki sürenin bitiş tarihinden bir sonraki tarihtir. **Yenileme bitiş tarihi**, **Erteleme başlangıç tarihi**, **Erteleme bitiş tarihi**, **Madde miktarı** ve **Birim fiyat** alanları güncelleştirilebilir. |
-| Yenileme dönemini değiştir | <p>Yenileme süresini değiştirin. İlk süre için, ilk günlük girişi oluşturulmadan önce erteleme başlangıç ve bitiş tarihlerini değiştirebilirsiniz. Sonraki süreler için başlangıç tarihi değiştirilemez. Bu, her zaman önceki sürenin sona ermesinden bir sonraki tarihtir.</p><p>Değiştirdiğiniz süreden sonra bir yenileme süresi varsa, sürenin tarihleri değiştirilemez. Bu durumda, yalnızca yenileme maddesiyle ilgili **Miktar** ve **Birim Fiyat** alanları güncelleştirilebilir.</p><p>Örneğin, üç süre mevcuttur. <ul><li>İlk süre zaten başlatıldığından değiştirilemez.</li><li>İkinci süre için yalnızca miktar ve birim fiyat değiştirilebilir.</li><li>Üçüncü süre için, başlangıç tarihi dışındaki tüm değerler değiştirilebilir. Ayrıca, **Şablondan zamanlama** seçeneği faturalandırılmamış gelir maddesi için şablonu esas alan bir erteleme zamanlaması oluşturmanıza olanak tanır. Bu seçenek **Evet** olarak ayarlandığında, **Şablon** alanında erteleme şablonunu seçin ve gereksinim duyduğunuz şekilde erteleme başlangıç ve bitiş tarihlerini değiştirin. Sonraki yenileme süreleri aynı erteleme şablonunu kullanır. Ancak erteleme şablonu değiştirilebilir.</p></li></ul> |
+| Yenileme dönemini değiştir | <p>Yenileme süresini değiştirin. İlk süre için, ilk yevmiye defteri girişi oluşturulmadan önce erteleme başlangıç ve bitiş tarihlerini değiştirebilirsiniz. Sonraki süreler için başlangıç tarihi değiştirilemez. Bu, her zaman önceki sürenin sona ermesinden bir sonraki tarihtir.</p><p>Değiştirdiğiniz süreden sonra bir yenileme süresi varsa, sürenin tarihleri değiştirilemez. Bu durumda, yalnızca yenileme maddesiyle ilgili **Miktar** ve **Birim Fiyat** alanları güncelleştirilebilir.</p><p>Örneğin, üç süre mevcuttur. <ul><li>İlk süre zaten başlatıldığından değiştirilemez.</li><li>İkinci süre için yalnızca miktar ve birim fiyat değiştirilebilir.</li><li>Üçüncü süre için, başlangıç tarihi dışındaki tüm değerler değiştirilebilir. Ayrıca, **Şablondan zamanlama** seçeneği faturalandırılmamış gelir maddesi için şablonu esas alan bir erteleme zamanlaması oluşturmanıza olanak tanır. Bu seçenek **Evet** olarak ayarlandığında, **Şablon** alanında erteleme şablonunu seçin ve gereksinim duyduğunuz şekilde erteleme başlangıç ve bitiş tarihlerini değiştirin. Sonraki yenileme süreleri aynı erteleme şablonunu kullanır. Ancak erteleme şablonu değiştirilebilir.</p></li></ul> |
 
 ### <a name="termination-tab"></a>Sonlandırma sekmesi
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024579"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487808"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources altyapı birleştirme - Yayın 10.0.25 güncelleştirmesi
 
@@ -34,7 +34,7 @@ Birleştirme işlemi, İnsan Kaynakları kullanıcılarına aşağıdaki yollarl
     - İnsan Kaynakları yeni işlevlerinin, normal bir sürüm güncelleştirme işleminin parçası olarak serbest bırakıldığı tek bir kod tabanı vardır.
     - Yükseltmelerin, güncelleştirmelerin ve düzeltmelerin ortamlara uygulanma biçimi tutarlıdır.
 
-- [Genişletilebilirlik seçenekleri geliştirildi.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [Genişletilebilirlik seçenekleri geliştirildi.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options)
 
     - Gerektiğinde genişletmek için Microsoft Power Platform tools kullanmaya devam edebilirsiniz.
     - İşlevleri formlar, tablolar, yöntemler ve uygulama programlama arabirimleri (API) ile genişletebilirsiniz.
@@ -42,7 +42,7 @@ Birleştirme işlemi, İnsan Kaynakları kullanıcılarına aşağıdaki yollarl
 
     Mevcut uzantı seçenekleri hakkında daha fazla bilgi için bkz. [Dynamics 365'te genişletilebilirlik genel bakışı](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
-- [Dynamics 365'te bir insan kaynakları kümesi özelliği oluşturun.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [Dynamics 365'te bir insan kaynakları kümesi özelliği oluşturun.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
     10.0.25 sürümünde, yalnızca İnsan Kaynaklarında bulunan işlevsel yetenekler Finance ve Operations altyapısında kullanılabilir yapılmıştır. Müşterilerin bir Finance ve Operations ortamında bu yeteneklerden yararlanabilmeleri için, özellik yönetiminde aşağıdaki İnsan Kaynakları özelliklerinin etkinleştirilmesi gerekir.
 

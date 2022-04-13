@@ -1,7 +1,7 @@
 ---
 title: Satınalma ticari sözleşmeleri ile master planlama
 description: Bu konuda, planlama Iyileştirmenin planlı bir sipariş için satıcı ve/veya sağlama süresini, satınalma ticari anlaşmalarında bulunan en iyi fiyat veya sağlama süresine göre nasıl bulabileceği açıklanmaktadır.
-author: ChristianRytt
+author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757770"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468427"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Satınalma ticari sözleşmeleri ile master planlama
 

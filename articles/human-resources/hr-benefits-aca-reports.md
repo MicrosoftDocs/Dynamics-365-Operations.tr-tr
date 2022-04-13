@@ -1,7 +1,7 @@
 ---
 title: Uygun Bakım Yasası (ACA) raporları oluşturma
 description: Ekonomik Bakım Yasası (ACA) raporlaması, Ekonomik Bakım Yasası'nın **İşveren İçin Zorunlu** kısmını desteklemek için 1095-B ve 1095-C formlarını oluşturur.
-author: andreabichsel
+author: twheeloc
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c8f336e31e77391ef7e2bc2dca901e6a78fbb914
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6682a98bb7241060b035e7da1396ec8f8973bf09
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067013"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534167"
 ---
 # <a name="generate-aca-reports"></a>ACA raporları oluşturma
 

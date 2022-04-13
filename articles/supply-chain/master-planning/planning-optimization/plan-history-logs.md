@@ -1,7 +1,7 @@
 ---
 title: Plan geçmişini ve planlama günlüklerini görüntüleme
 description: Bu konu, Planlamayı En İyi Duruma Getirme işlevi tarafından tetiklenen planlama işlerinin geçmişini nasıl görüntüleyeceğinizi açıklar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 757d2103bd629c0107a3f29599196a56ea56d431a66cf1e69c7b3cf3d817c087
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b4cba4dd94eb198e770d152d4f759a706065dee
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724832"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469771"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plan geçmişini ve planlama günlüklerini görüntüleme
 

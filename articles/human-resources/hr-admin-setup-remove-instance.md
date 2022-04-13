@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: ba5d69ca33ac84743b178ded80b482eee6edab1e
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393509"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487744"
 ---
 # <a name="remove-an-instance"></a>Örneği kaldırma
 
@@ -78,7 +78,7 @@ Human Resources ortamınızın bağlı olduğu Power Apps ortamını yazılımla
 
 Ortamı geri yüklemek için:
 
-1. [Power Apps ortamını kurtarma](/power-platform/admin/recover-environment.md) bölümündeki yönergeleri uygulayın.
+1. [Power Apps ortamını kurtarma](/power-platform/admin/recover-environment) bölümündeki yönergeleri uygulayın.
 
 2. Human Resources ortamını geri yüklemek için Destek birimine başvurun. Daha fazla bilgi için [Destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) bölümüne bakın.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068804"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464951"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Varlık verilerini Excel ile görüntüleme ve güncelleştirme 
 
@@ -48,7 +48,7 @@ Excel eklentisini nasıl kullanacağınızı öğrenmek için [Üst bilgi ve sat
 2. Bir **Excel'de aç** seçeneğini belirleyin ve oluşturulan çalışma kitabını açın. Bu çalışma kitabı varlık için bağlayıcı bilgiler, ortamınız için bir işaretçi ve Excel eklentisi için bir işaretçi içerir.
 3. Excel'de,**Düzenlemeyi etkinleştir**'i seçerek Excel eklentisini etkinleştirin. Excel eklentisi Excel penceresinin sağ tarafındaki bir bölmede çalışır.
 4. Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven**'i seçin.
-5. Oturum açmanız istendiğinde **Oturum aç**'ı seçin ve ardından Finans ve Operasyon uygulamasında oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi, yapabiliyorsa, tarayıcıdan aldığı önceki oturum bağlamını kullanır ve oturumunuzu otomatik olarak açar. (İşletim sistemine göre kullanılan tarayıcı hakkında daha fazla bilgi için bkz. [Office eklentileri tarafından kullanılan tarayıcılar](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)) Oturum açma işleminin başarılı olması için Excel eklentisinin sağ üst köşesindeki kullanıcı adını doğrulayın. 
+5. Oturum açmanız istendiğinde **Oturum aç**'ı seçin ve ardından Finans ve Operasyon uygulamasında oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi, yapabiliyorsa, tarayıcıdan aldığı önceki oturum bağlamını kullanır ve oturumunuzu otomatik olarak açar. (İşletim sistemine göre kullanılan tarayıcı hakkında daha fazla bilgi için bkz. [Office eklentileri tarafından kullanılan tarayıcılar](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Oturum açma işleminin başarılı olması için Excel eklentisinin sağ üst köşesindeki kullanıcı adını doğrulayın. 
 
 Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Excel eklentisi okuyana kadar çalışma kitabında veri olmayacağını unutmayın.
 

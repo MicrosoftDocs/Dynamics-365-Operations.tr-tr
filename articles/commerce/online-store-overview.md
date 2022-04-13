@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984581"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487780"
 ---
 # <a name="e-commerce-site-overview"></a>E-ticaret sitesine genel bakış
 
@@ -86,7 +86,7 @@ Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışl
 Site ayarlarınızı yönetme hakkında daha fazla bilgi için aşağıdaki konulara bakın:
 
 - [e-Ticaret kullanıcıları ve rolleri yönetme](manage-ecommerce-users-roles.md)
-- [Siteniz için arama alt yapısını en iyi duruma getirmeyle (SEO) ilgili konular](/search-engine-optimization-considerations.md)
+- [Siteniz için arama alt yapısını en iyi duruma getirmeyle (SEO) ilgili konular](search-engine-optimization-considerations.md)
 - [İçerik Güvenliği İlkesini (CSP) yönetme](manage-csp.md)
 - [Site teması seçme](select-site-theme.md)
 

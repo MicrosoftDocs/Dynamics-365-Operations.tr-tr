@@ -1,7 +1,7 @@
 ---
 title: Master planlama çalışmasını izleme
 description: Bu konu, üretim planlayıcısının bir master planlamanın devam edip etmediğini nasıl görebileceğini açıklar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8835010dbefedff0ae93ab734f3011b6b6aae92d
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103175"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470079"
 ---
 # <a name="monitor-a-master-planning-run"></a>Master planlama çalışmasını izleme
 

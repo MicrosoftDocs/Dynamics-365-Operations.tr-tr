@@ -1,22 +1,22 @@
 ---
 title: Planlama Optimizasyonu ile ilgili net gereksinimler ve ilişkilendirme bilgileri
 description: Bu konuda, Planlama Optimizasyonu'nda hesaplanan net gereksinimler ve ilişkilendirme bilgileri hakkında bilgi sağlanmaktadır.
-author: ChristianRytt
+author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
 ms.search.form: ReqTransOverview
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 5dbe4633ef061a054388e1b6aa6300e1c835c36a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: edfa6010074a4b04b3200115891723cd45871624
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569781"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468874"
 ---
 # <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Planlama Optimizasyonu ile ilgili net gereksinimler ve ilişkilendirme bilgileri
 

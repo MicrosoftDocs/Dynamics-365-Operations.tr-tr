@@ -2,25 +2,27 @@
 title: Mali raporlamaya genel bakış
 description: Bu konu, Microsoft Dynamics 365 Finance içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983989"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527327"
 ---
 # <a name="get-started-with-financial-reporting"></a>Mali raporlamayı kullanmaya başlama 
 
@@ -174,7 +176,7 @@ Sorun 1: **Yeni** veya **Düzenle**'yi seçtiğinizde Rapor Tasarımcısı başl
 * Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i ve sonra **Siteler**'i seçin. **Bu web sitesini bölgeye ekle** alanında "\*\.dynamics.com" (tırnak işaretleri olmadan) girin ve **Ekle**'yi seçin. 
 * Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i seçin. Bu bölge için Güvenlik düzeyi etiketli alanda, seçeneği **Orta-Düşük** olarak değiştirin.
 * Tarayıcınızdaki açılır pencere engelleyicisini devre dışı bırakın.
-* Microsoft .NET Framework 4.6.2 veya üstünü yüklemek için iş istasyonları gereklidir. Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz.
+* Microsoft .NET Framework 4.7.2 veya üstünü yüklemek için iş istasyonları gereklidir. Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://dotnet.microsoft.com/download/dotnet-framework/net472) indirebilir ve kurabilirsiniz.
 * Chrome tarayıcı kullanıyorsanız Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. Chrome'u gizli modda çalıştırıyorsanız ClickOnce eklentisinin gizli mod için etkinleştirildiğinden emin olun. Chrome ClickOnce Eklentisi hakkında daha fazla bilgi için bkz. [Bulut dağıtımları için sistem gereksinimleri](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Chrome tarayıcıyla Microsoft Edge kullanıyorsanız Edge Chromium için ClickOnce eklentisi yüklemeniz gerekmez. Ancak, Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce seçeneğini etkinleştirmelisiniz. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun.
 

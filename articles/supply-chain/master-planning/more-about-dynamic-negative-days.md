@@ -1,21 +1,21 @@
 ---
 title: Negatif günler ve dinamik negatif günler
 description: Bu konu, negatif günler ve dinamik negatif günler hakkında bilgi verir ve işinize yardımcı olması için bunları nasıl kullanabileceğinizi açıklar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e86cc8abd4de1e23b1a7f7217bbb1fd5ea966b988a879e663b6f393e0d1204
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756979"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469883"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatif günler ve dinamik negatif günler
 

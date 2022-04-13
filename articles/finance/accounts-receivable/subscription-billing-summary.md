@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b94ac36e49d55ad42909877d77903cd40cb22cbe
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182702"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462483"
 ---
 # <a name="subscription-billing-overview"></a>Abonelik faturalamasına genel bakış
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Abonelik faturalaması, kuruluşların abonelik geliri fırsatlarını ve fatura zamanlamaları aracılığıyla yinelenen faturalamayı yönetmesini sağlar. Karmaşık fiyatlama ve faturalama modelleri ve gelir tahsisatı kolayca yönetilebilir ve satır düzeyinde faturalanabilir ve kabul edilebilir. Çok öğeli gelir tahsisatı, gelirin tahsisinde Uluslararası Muhasebe Standartlarına (Uluslararası Finansal Raporlama Standardı 15 \[IFRS15 \]) ve Genel Olarak Kabul Edilmiş Muhasebe İlkeleri (ABD GAAP) standartlarına (Muhasebe Standartları Kodlama Konusu 606 \[ASC 606\]) ile uyumlu olacak şekilde tahsisat yapılmasını sağlar.
 

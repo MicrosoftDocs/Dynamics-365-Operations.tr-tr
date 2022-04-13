@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 284a33099fecc5a8e8d5d5d31612abab51735773
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: a23f544cbd1e960cb704d2b9666b7db4c3894b5e
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8386988"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462338"
 ---
 # <a name="copy-an-e-commerce-site"></a>E-ticaret sitesini kopyalama
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Bu konuda, varolan bir e-ticaret sitesinin Microsoft Dynamics 365 Commerce site oluşturucuda e-ticaret ortamları içinde veya arasında nasıl kopyalanacağı açıklanmaktadır.
 

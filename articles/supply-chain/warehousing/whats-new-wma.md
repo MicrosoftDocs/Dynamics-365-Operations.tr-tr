@@ -10,18 +10,27 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8418652"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487850"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20200"></a>Sürüm 2.0.20.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- Birkaç kilitlenme sorunu düzeltildi.
+- **İş listesi** sayfasındaki kartlarda yanlış değerlerin gösterilmesi sorunu düzeltildi.
+- Android'de **İş listesi** ve **Madde sorgusu** sayfalarında kaydırma deneyimi iyileştirildi ve kaydırırken titreme sorunu düzeltildi.
+- Oturum açma sayfasına uygulamadan çıkmak için bir çıkış düğmesi eklendi.
 
 ## <a name="version-20190"></a>Sürüm 2.0.19.0
 

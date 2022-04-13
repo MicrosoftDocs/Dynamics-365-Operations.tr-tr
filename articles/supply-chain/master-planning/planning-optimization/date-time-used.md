@@ -1,21 +1,21 @@
 ---
 title: Planlama Optimizasyonu tarafından kullanılan tarih ve saat parametreleri
 description: Bu konu, Planlama Optimizasyonu tarafından çalışma sırasında kullanılan tarih ve saat parametreleri hakkında bilgi sağlar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: dc44778dba0a5b914c524ff2ad026ab2f8eb88aa
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 0708404f286253449e0400fc65680e903f6d1e9b
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700195"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468846"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Planlama Optimizasyonu tarafından kullanılan tarih ve saat parametreleri
 

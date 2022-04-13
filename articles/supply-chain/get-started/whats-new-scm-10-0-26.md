@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: fae25eb1cb9dd4059b9d49e47cbb0060e717c9bc
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8387006"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524451"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management 10.0.26 önizlemesi (Mayıs 2022)
 
@@ -35,7 +35,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
 | Stok ve lojistik | [Gelişmiş ambar yönetimi maddelerini desteklemek için Stok Görünürlüğü eldeki sorgu](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Çok yakında | Özellik yönetimi:<br>*Stok Görünürlüğünde ambar maddelerini etkinleştir* |
-| Stok ve lojistik | [Stok Görünürlüğü Eklentisi için mevcut karşılanabilir](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | Çok yakında | Hizmet yapılandırması tarafından etkinleştirilir |
+| Stok ve lojistik | [Stok Görünürlüğü Eklentisi için mevcut karşılanabilir](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](../inventory/inventory-visibility-available-to-promise.md) | Hizmet yapılandırması tarafından etkinleştirilir |
 | İmalat | [Üretim katı yürütme arabiriminde fiili ağırlık maddeleri](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md) | Özellik yönetimi:<br>*(Önizleme) Üretim katı yürütme arabiriminden elde edilen fiili ağırlık öğeleriyle ilgili rapor* |
 | İmalat | Üretim katı yürütme arabirimindeki işlerim sekmesi <!-- KFM: Add link to release plan when available --> | [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md) | Özellik yönetimi:<br>*Üretim katı yürütme arabirimindeki işlerim sekmesi* |
 

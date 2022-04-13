@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061013"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524535"
 ---
 # <a name="configure-inventory-visibility"></a>Stok Görünürlüğünü yapılandırma
 
@@ -39,22 +39,25 @@ Stok Görünürlüğü ile çalışmaya başlamadan önce, bu konuda açıkland�
 
 Başlamadan önce, Stok Görünürlüğü Eklentisini [Stok Görünürlüğü'nü yükleme ve ayarlama](inventory-visibility-setup.md) bölümünde açıklandığı gibi yükleyin ve ayarlayın.
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Power Apps özellik yönetiminde Stok Görünürlüğü özelliklerini etkinleştirme
-
-Stok Görünürlüğü Eklentisi, Power Apps kurulumunuza birkaç yeni özellik ekler. Varsayılan olarak, bu özellikler kapalıdır. Bunları kullanmak için Power Apps'te **Yapılandırma** sayfasını açın ve ardından **Özellik Yönetimi** sekmesinde aşağıdaki özellikleri açın.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Hizmet uç noktasını bulma
-
-Doğru Stok Görünürlüğü hizmeti uç noktasını bilmiyorsanız Power Apps'te **Yapılandırma** sayfasını açın ve ardından sağ üst köşedeki **Hizmet Uç Noktasını Göster**'i seçin. Sayfa doğru hizmet uç noktasını gösterir.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Stok Görünürlüğü uygulamasının Yapılandırma sayfası
 
 Power Apps'te, [Stok Görünürlüğü uygulamasının](inventory-visibility-power-platform.md) **Yapılandırma** sayfası eldeki yapılandırmasını ve geçici rezervasyon yapılandırmasını ayarlamanıza yardımcı olur. Eklenti yüklendikten sonra varsayılan yapılandırma, Microsoft Dynamics 365 Supply Chain Management'tan (`fno` veri kaynağı) alınan değeri içerir. Varsayılan ayarları inceleyebilirsiniz. Ek olarak, iş gereksinimlerinize ve harici sisteminizin stok deftere nakil gereksinimlerine göre yapılandırmayı, stok değişikliklerinin birden çok sistem arasında deftere nakledilme, düzenlenme ve sorgulanma şeklini standartlaştırmak için değiştirebilirsiniz. Bu konunun geri kalan bölümlerinde **Yapılandırma** sayfasının her bir bölümünün nasıl kullanılacağı açıklanmaktadır.
 
 Yapılandırma tamamlandıktan sonra uygulamada **Yapılandırmayı Güncelleştir** seçeneğinin belirlendiğinden emin olun.
+
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Power Apps özellik yönetiminde Stok Görünürlüğü özelliklerini etkinleştirme
+
+Stok Görünürlüğü Eklentisi, Power Apps kurulumunuza birkaç yeni özellik ekler. Varsayılan olarak, bu özellikler kapalıdır. Bunları kullanmak için **Yapılandırma** sayfasını açın ve ardından **Özellik Yönetimi** sekmesinde aşağıdaki özellikleri istediğiniz gibi açın.
+
+| Özellik Yönetimi adı | Açıklama |
+|---|---|
+| OnHandReservation | Bu özellik, Stok Görünürlüğü'nü kullanarak rezervasyon oluşturmanızı, rezervasyonları tüketmenizi ve/veya belirtilen stok miktarlarının rezervasyonunu kaldırmanızı sağlar. Daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](inventory-visibility-reservations.md). |
+| OnHandMostSpecificBackgroundService | Bu özellik, tüm boyutlarla birlikte ürünler için bir stok özeti sağlar. Stok özeti verileri, Stok Görünürlüğü'nden periyodik olarak eşitlenir. Daha fazla bilgi için bkz. [Stok özeti](inventory-visibility-power-platform.md#inventory-summary). |
+| OnhandChangeSchedule | Bu özellik, eldeki değişiklik zamanlamasını etkinleştirir ve karşılanabilir miktar (KM) özelliklerini (isteğe bağlı) sunar. Daha fazla bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md). |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Hizmet uç noktasını bulma
+
+Doğru Stok Görünürlüğü hizmeti uç noktasını bilmiyorsanız Power Apps'te **Yapılandırma** sayfasını açın ve ardından sağ üst köşedeki **Hizmet Uç Noktasını Göster**'i seçin. Sayfa doğru hizmet uç noktasını gösterir.
 
 ## <a name="data-source-configuration"></a>Veri kaynağı yapılandırma
 
@@ -178,15 +181,21 @@ Yapılandırma, toplam toplu çıkış miktarını elde etmek için eklenen veya
 
 1. Power Apps ortamınızda oturum açın ve **Stok Görünürlüğü**'nü açın.
 1. **Yapılandırma** sayfasını açın.
-1. **Hesaplanan Ölçü** sekmesinde, hesaplanmış bir ölçü eklemek için **Yeni Hesaplanmış Ölçü**'yü seçin. Ardından, alanları aşağıdaki tabloda açıklandığı gibi ayarlayın.
+1. **Hesaplanan Ölçü** sekmesinde, hesaplanmış bir ölçü eklemek için **Yeni Hesaplanmış Ölçü**'yü seçin.
+1. Yeni hesaplanan ölçü için aşağıdaki alanları ayarlayın:
 
-    | Alan | Değer |
-    |---|---|
-    | Yeni hesaplanan ölçü adı | Hesaplanan ölçünün adını girin. |
-    | Veri kaynağı | Sorgulama sistemi bir veri kaynağıdır. |
-    | Değiştirici veri kaynağı | Değiştiricinin veri kaynağını girin. |
-    | Değiştirici | Değiştirici adını girin. |
-    | Değiştirici türü | Değiştirici türünü seçin (*Toplama* veya *Çıkarma*). |
+    - **Yeni hesaplanan ölçü adı**: Hesaplanan ölçünün adını girin.
+    - **Veri kaynağı**: Yeni değiştirici ile ilişkili olan veri kaynağını seçin. Sorgulama sistemi bir veri kaynağıdır.
+
+1. Yeni hesaplanan ölçü için bir değiştirici eklemek üzere **Ekle**'yi seçin.
+1. Yeni değiştirici için aşağıdaki alanları ayarlayın:
+
+    - **Değiştirici**: Değiştirici türünü seçin (*Toplama* veya *Çıkarma*).
+    - **Veri kaynağı**: Değiştirici değerini sağlayan ölçünün bulunması gereken veri kaynağını seçin.
+    - **Ölçü**: Değiştirici için değer sağlayan ölçünün adını (seçilen veri kaynağından) seçin.
+
+1. Gerekli tüm değiştiricileri ekleyene kadar 5 ile 6 arasındaki adımları yineleyin.
+1. **Kaydet**'i seçin.
 
 Örneğin, aşağıdaki sorgu sonucunu almış olabilirsiniz.
 
@@ -465,6 +474,10 @@ Bu örnekte, aşağıdaki boyut serilerinde rezervasyon yapabilirsiniz. Rezervas
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Geçerli bir boyut serisi, boyuta göre boyut rezervasyon hiyerarşisini kesinlikle izlemelidir. Örneğin, `(SiteId, LocationId, SizeId)` hiyerarşi sırası, `ColorId` eksik olduğundan geçerli değildir.
+
+## <a name="available-to-promise-configuration-optional"></a>Karşılanabilir miktar yapılandırması (isteğe bağlı)
+
+Gelecekteki eldeki değişiklikleri zamanlamanıza ve karşılanabilir (KM) miktarları hesaplamanıza olanak tanıyan Stok Görünürlüğü'nü ayarlayabilirsiniz. KM, mevcut bulunan ve sonraki dönemde müşteriye vaat edilebilecek bir maddenin miktarıdır. Bu hesaplamanın kullanımı, sipariş karşılama yeteneğinizi büyük ölçüde artırabilir. Bu özelliği kullanmak için **Özellik Yönetimi** sekmesinde etkinleştirmeniz ve ardından **KM Ayarı** sekmesinde ayarlamanız gerekir. Daha fazla bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Yapılandırmayı tamamlama ve güncelleştirme
 

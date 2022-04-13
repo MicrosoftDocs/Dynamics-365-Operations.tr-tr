@@ -1,7 +1,7 @@
 ---
 title: Özel alanlar
 description: Dynamics 365 Human Resources'taki sayfalara özel alanlar ekleyebilirsiniz.
-author: andreabichsel
+author: twheeloc
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91e905f530b88bb568290550be4cc677633189b1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 034d505e04cd61bcbf21c2fd7ac73ac0357ba82c
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069566"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533950"
 ---
 # <a name="custom-fields"></a>Özel alanlar
 

@@ -1,6 +1,6 @@
 ---
-title: Regression Suite Automation Tool eğitimi
-description: Bu konu, Regression Suite Automation Tool'un (RSAT) nasıl kullanılacağını gösterir. Çeşitli özellikleri tanımlar ve gelişmiş komut dosyası kullanan örnekler sağlar.
+title: Regression suite automation tool öğreticisi
+description: Bu konu, Regression suite automation tool'un (RSAT) nasıl kullanılacağını gösterir. Çeşitli özellikleri tanımlar ve gelişmiş komut dosyası kullanan örnekler sunar.
 author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
@@ -10,117 +10,117 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
+ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781975"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8492934"
 ---
-# <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi
+# <a name="regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool öğreticisi
 
 [!include [banner](../../includes/banner.md)]
 
 > [!NOTE]
-> Bu sayfayı pdf formatında karşıdan yükleyip kaydetmek için internet tarayıcısı araçlarını kullanın.
+> Bu sayfayı pdf formatında indirip kaydetmek için internet tarayıcısı araçlarını kullanın.
 
-Bu öğretici, Regression Suite Automation Tool (RSAT) gelişmiş özelliklerinden bazılarının arasında, bir demo ataması içerir ve strateji ve önemli öğrenme noktalarını açıklar.
+Bu öğretici, Regression Suite Automation Tool'un (RSAT) bazı gelişmiş özelliklerini ele alır, bir tanıtım ataması içerir ve strateji ve anahtar öğrenme noktalarını açıklar.
 
-## <a name="notable-features-of-rsat-and-task-recorder"></a>RSAT ve Görev kaydedicinin önemli özellikleri
+## <a name="notable-features-of-rsat-and-task-recorder"></a>RSAT ve görev kaydedicisinin önemli özellikleri
 
 ### <a name="validate-a-field-value"></a>Bir alan değeri doğrula
 
-RSAT, beklenen değerleri doğrulamak için test olayınıza doğrulama adımları dahil etmenize olanak sağlar. Bu özellik hakkında bilgi için [Beklenen değerleri doğrulama](rsat-validate-expected.md) makalesine bakın.
+RSAT, beklenen değerleri doğrulamak için test olayınıza doğrulama adımları dahil etmenize imkan tanır. Bu özellik hakkında bilgi almak için [Beklenen değerlerin doğrulanması](rsat-validate-expected.md) makalesine bakın.
 
-Aşağıdaki örnek, Eldeki stoğun 0'dan (sıfır) fazla olup olmadığı doğrulamak için bu özelliği nasıl kullanabileceğinizi gösterir.
+Aşağıdaki örnek, eldeki stoğun 0'dan (sıfır) fazla olup olmadığını doğrulamak için bu özelliği nasıl kullanabileceğinizi gösterir.
 
-1. **USMF** şirketinde demo verilerinde, aşağıdaki adımları içeren bir görev kaydı oluşturun:
+1. **USMF** şirketinin demo verilerinde aşağıdaki adımları içeren bir görev kaydı oluşturun:
 
-    1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
-    2. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, **Ürün numarası** alanını **1000** değeriyle filtreleyin.
+    1. Sırasıyla **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
+    2. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, **Madde numarası** alanında **1000** değeriyle filtreleme yapın.
     3. **Eldeki stok**'u seçin.
-    4. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin,  **Site** alanını **1** değeriyle filtreleyin.
-    5. Listede, seçili satırı işaretleyin.
-    6. **Toplam kullanılabilir** alanının değerinin **411.0000000000000000** olduğunu doğrulayın.
+    4. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, **Tesis** alanında **1** değeriyle filtreleme yapın.
+    5. Listede seçili satırı işaretleyin.
+    6. **Toplam kullanılabilir** alan değerinin **411.0000000000000000** olduğunu doğrulayın.
 
-2. Görev kaydını **geliştirici kaydı** olarak kaydedin ve Azure DevOps'ta test olayınıza ekleyin.
-3. Test durumunu test planına ekleyin ve test çalışmasını RSAT'a yükleyin.
+2. Görev kaydını **geliştirici kaydı** olarak kaydedin ve Azure DevOps'ta test olayınıza iliştirin.
+3. Test olayını test planına ekleyin ve RSAT'a yükleyin.
 4. Excel parametre dosyasını açın ve **TestCaseSteps** sekmesine gidin.
-5. Eldeki stokun her zaman **0**'dan fazla olup olmayacağını doğrulamak için **Kullanılabilir Toplamı Doğrulama** adımına gidin ve değerini **411** yerine **0** olarak değiştirin. **İşleç** alanının değerini, eşittir işareti (**=**) değerinden büyüktür işaretine (**\>**) değiştirin.
-6. Kaydedin ve Excel parametresi dosyasını kapatın.
-7. Excel parametre dosyasında yaptığınız değişiklikleri Azure DevOps'a kaydetmek için **Yükle**'yi seçin.
+5. Eldeki stoğun her zaman **0**'dan fazla olup olmayacağını doğrulamak için **Kullanılabilir Toplamı Doğrulama** adımına gidin ve değerini **411**'den **0**'a değiştirin. **İşleç** alanının değerini, eşittir işaretinden (**=**) büyüktür işaretine (**\>**) değiştirin.
+6. Excel parametre dosyasını kaydedin ve kapatın.
+7. Excel parametre dosyasında yaptığınız değişiklikleri Azure DevOps'a kaydetmek için **Karşıya Yükle**'yi seçin.
 
-Şimdi, stokta belirtilen maddenin **Toplam Kullanılabilir** alanının değeri 0 (sıfır)'dan büyükse eldeki gerçek stok değerine bakılmaksızın testler geçer.
+Bu durumda, stokta belirtilen maddenin **Toplam Kullanılabilir** alan değeri 0 (sıfır)'dan büyükse testler, eldeki gerçek stok değerine bakılmaksızın geçecektir.
 
-### <a name="saved-variables-and-chaining-of-test-cases"></a>Kaydedilen değişkenler ve test olayları zinciri
+### <a name="saved-variables-and-chaining-of-test-cases"></a>Kaydedilen değişkenler ve test olaylarının zincirlenmesi
 
-RSAT'ın en önemli özelliklerinden biri test olaylarının zincirlenmesidir. Bir başka deyişle, bir testin diğer testlere değişken geçirme yeteneğidir. Daha fazla bilgi için [Test olaylarını zincirlemek için değişkenleri kopyalama](rsat-chain-test-cases.md) makalesine bakın.
+RSAT'ın en önemli özelliklerinden biri, test olaylarının zincirlenmesi; yani, bir testin diğer testlere değişken aktarma yeteneğidir. Daha fazla bilgi için [Test olaylarının zincirlenmesi için değişkenlerin kopyalanması](rsat-chain-test-cases.md) makalesine bakın.
 
 ### <a name="derived-test-case"></a>Türetilmiş test olayı
 
-RSAT, bir görevin farklı veri yapılandırmalarıyla çalışacak şekilde etkinleştirerek, aynı görev kaydını birden fazla test olayı ile kullanmanıza olanak sağlar. Daha fazla bilgi için [Türetilmiş test olayları](rsat-derived-test-cases.md) makalesine bakın.
+RSAT, bir görevin farklı veri yapılandırmalarıyla çalışmasını sağlayarak aynı görev kaydını birden fazla test olayı ile kullanmanıza imkan tanır. Daha fazla bilgi için [Türetilmiş test olayları](rsat-derived-test-cases.md) makalesine bakın.
 
-### <a name="validate-notifications-and-messages"></a>Bildirimleri ve iletileri doğrulama
+### <a name="validate-notifications-and-messages"></a>Bildirim ve iletilerin doğrulanması
 
-Bu özellik, bir eylemin meydana geldiğini doğrulamak için kullanılabilir. Örneğin, bir üretim emri oluşturulduğunda, tahmin edildiğinde ve ardından başlatıldığında, uygulama üretim emrinin başlatıldığını size bildiren bir "Üretim-Başlangıcı" iletisi gösterir.
+Bu özellik, bir eylemin meydana gelip gelmediğinin doğrulanması için kullanılabilir. Örneğin, bir üretim emri oluşturulduğunda, tahmin edildiğinde ve sonrasında başlatıldığında uygulama, size üretim emrinin başlatıldığını bildiren bir "Üretim-Başlangıç" iletisi gösterir.
 
 ![Üretim – Başlangıç bildirimi.](./media/use_rsa_tool_05.png)
 
-Uygun kayıt için Excel parametre dosyasının **MessageValidation** sekmesine ileti metnini girerek bu iletiyi RSAT ile doğrulayabilirsiniz.
+Bu iletiyi, ileti metnini uygun kaydın Excel parametre dosyasındaki **İletiDoğrulama** sekmesine girerek doğrulayabilirsiniz.
 
-![Mesaj doğrulama sekmesi.](./media/use_rsa_tool_06.png)
+![İleti Doğrulama sekmesi.](./media/use_rsa_tool_06.png)
 
-Test olayı çalıştırıldıktan sonra Excel parametre dosyasındaki ileti gösterilen iletiyle karşılaştırılır. İletiler eşleşmezse test olayı başarısız olur.
+Test olayı çalıştırıldıktan sonra Excel parametre dosyasındaki ileti, gösterilen iletiyle karşılaştırılır. İletiler eşleşmezse test olayı başarısız olacaktır.
 
 > [!NOTE]
-> Excel parametre dosyasındaki **MessageValidation** sekmesine birden çok ileti girebilirsiniz. İletiler, bilgi iletileri yerine hata veya uyarı iletileri de olabilir.
+> Excel parametre dosyasındaki **İletiDoğrulama** sekmesine birden çok ileti girebilirsiniz. İletiler, bilgi iletileri yerine hata veya uyarı iletileri de olabilir.
 
 ### <a name="snapshot"></a>Anlık görüntü
 
-Bu özellik, görev kaydı sırasında gerçekleştirilen adımların ekran görüntülerini alır. Denetleme veya hata ayıklama amacıyla yararlıdır.
+Bu özellik, görev kaydı sırasında gerçekleştirilen adımların ekran görüntülerini alır. Denetim veya hata ayıklama amacıyla faydalıdır.
 
-- Kullanıcı arabirimi ile RSAT çalıştırırken bu özelliği kullanmak için RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini **yanlış**'tan **doğru**'ya çevirin.
-
-    ```xml
-    <add key="VerboseSnapshotsEnabled" value="false" />
-    ```
-
-- CLI tarafından RSAT çalıştırılırken bu özelliği kullanmak için (örneğin, Azure DevOps) RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini **yanlış**'tan **doğru**'ya çevirin.
+- Bu özelliği, kullanıcı arabirimi ile RSAT'i çalıştırırken kullanmak için RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini **yanlış**'tan **doğru**'ya değiştirin.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Test olaylarını çalıştırdığınızda RSAT, adımların anlık görüntülerini (görüntüler) oluşturur ve bunları çalışma dizinindeki test olaylarının oynatma klasörüne kaydeder. Oynatma klasöründe **StepSnapshots** adında ayrı bir alt klasör oluşturulur. Bu klasör, çalıştırılan test olaylarının anlık görüntülerini içerir.
+- Bu özelliği RSAT CLI tarafından çalıştırılırken kullanmak için (örneğin Azure DevOps) RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini **yanlış**'tan **doğru**'ya değiştirin.
 
-## <a name="assignment"></a>Assignment
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+RSAT, test olaylarını çalıştırırken adımların anlık görüntülerini (görüntüler) oluşturur ve bunları çalışma dizinindeki test olaylarının yürütme klasörüne kaydeder. Kayıttan yürütme klasöründe **StepSnapshots** adında ayrı bir alt klasör oluşturulur. Bu klasör, çalıştırılan test olaylarının anlık görüntülerini içerir.
+
+## <a name="assignment"></a>Atama
 
 ### <a name="scenario"></a>Senaryo
 
 1. Ürün tasarımcısı, yeni bir serbest bırakılan ürün oluşturur.
 2. Üretim yöneticisi, stok düzeyini iki parçaya getirmek için bir üretim emri başlatır.
-3. Üretim, üretim emrini başlatır ve sonlandırır ve eldeki miktarın iki parçadan oluştuğunu doğrular.
-4. Satış ekibi, yeni ürünün dört parçadan oluşan siparişini alır. Bu nedenle, satış ekibi net gereksinimleri dinamik plan aracılığıyla güncelleştirir. Kullanılabilir ek kapasite bulunmadığından, varsayılan sipariş ilkesi "yapmak yerine satın al" olarak ayarlanmıştır. Bu nedenle, planlı bir satınalma siparişi oluşturulur.
-5. Alıcı bir satıcı ekler, planlı satınalma siparişi sağlar ve sonra satınalma siparişini onaylar.
-6. Satın alınan mallar mağazaya ulaştığında, mağaza operatörü ilgili satınalma siparişini arar ve malları alır. Sipariş şimdi tamamlanmış olduğundan, mallar çekilebilir ve satış siparişine göre paketlenebilir.
-7. Vade farkı, satınalma faturası ve satış faturasını deftere nakleder.
+3. Imalat, üretim emrini başlatır ve sonlandırır ve eldeki miktarın iki parçadan oluştuğunu doğrular.
+4. Satış ekibi, dört parçadan oluşan yeni ürün siparişini alır. Satış ekibi, bu şekilde net gereksinimleri dinamik plan aracılığıyla güncelleştirmiş olur. Kullanılabilir ek kapasite bulunmaması nedeniyle varsayılan sipariş politikası "yapmak yerine satın al" şeklinde ayarlanmıştır. Bu nedenle, planlı bir satınalma siparişi oluşturulur.
+5. Alıcı, bir satıcı ekler, planlı satınalma siparişini kesinleştirir ve sonrasında satınalma siparişini onaylar.
+6. Satın alınan mallar mağazaya ulaştığında mağaza operatörü, ilgili satınalma siparişini arar ve malları teslim alır. Sipariş bu noktada tamamlanmış olduğundan mallar, satış siparişine göre çekilebilir ve paketlenebilir.
+7. Finans birimi, satınalma faturası ve satış faturasını deftere nakleder.
 
-Aşağıdaki resim bu senaryo için akış işlemini gösterir.
+Aşağıdaki çizim, bu senaryoya ilişkin akışı göstermektedir.
 
 ![Gösteri senaryosu için akış.](./media/use_rsa_tool_14.png)
 
-Aşağıdaki şekil, LCS İş Süreci Modelleyicisinde bu senaryoya ilişkin iş süreçleri hiyerarşisini gösterir.
+Aşağıdaki çizim, bu senaryo için LCS İş Süreci Modelleyicisi'nde bulunan iş süreçleri hiyerarşisini göstermektedir.
 
-![Demo senaryosu için iş süreçleri.](./media/use_rsa_tool_15.png)
+![Gösteri senaryosuna ilişkin iş süreçleri.](./media/use_rsa_tool_15.png)
 
-## <a name="strategy--key-learning"></a>Strateji – Önemli öğrenme
+## <a name="strategy--key-learning"></a>Strateji – Anahtar öğrenme
 
 ### <a name="data"></a>Veri
 
-- Temsili veri birimlerinizin (ürün/altın yapılandırma verilerinin bir kopyası ve geçirilen veriler) olduğundan emin olun.
-- Görev kaydediciyle yeni veri oluşturduğunuzda, var olan adlarla çakışmayacak test adları oluşturun (örneğin, **RSATxxx** gibi bir önek kullanın).
-- Katman olmayan 1 ortamlarda testleri yeniden çalıştırmak için Azure Point geri yüklemeyi kullanın.
-- Benzersiz bir birleşim oluşturmak için yalnızca **RASGELE** ve **ŞiMDi** Excel işlevlerini kullanabilseniz de çalışma oldukça yüksektir. Aşağıda bir örnek verilmiştir.
+- Temsili veri hacimlerinizin (ürün/altın yapılandırma verilerinin bir kopyası ile birlikte taşınan veriler) olduğundan emin olun.
+- Görev kaydediciyle yeni veri oluştururken var olan adlarla çakışmayan test adları oluşturun (örneğin, **RSATxxx** gibi bir ön ek kullanın).
+- 1. katman olmayan ortamlarda testleri yeniden çalıştırmak için Azure'un belirli bir noktaya geri yükleme işlemini kullanın.
+- Benzersiz bir bileşim oluşturmak için **RASTGELE** ve **ŞiMDi** Excel işlevlerini kullanabiliyor olsanız bile bu oldukça zahmetli bir işlemdir. Aşağıda bir örnek verilmiştir.
 
     ```Excel
     product = "AT" &TEXT(NOW(),"yyymmddhhmm")
@@ -128,29 +128,29 @@ Aşağıdaki şekil, LCS İş Süreci Modelleyicisinde bu senaryoya ilişkin iş
 
 ### <a name="task-recorder"></a>Görev kaydedici
 
-- Kayıt başlamadan önce senaryoları tanımlayın. İyi yönetilen bir projede önceden tanımlanmış test senaryoları vardır. Bir test olayı oluşturmak için, test senaryolarının sonucunun ne kadar tahmin edilebilir olduğunu düşünün.
-- Kayıtları, farklı roller tarafından gerçekleştirildikleri takdirde veya bir sonraki adımdan önce bekleme süresi veya dış olay varsa bölün.
-- Listelerdeki değerleri seçmeyi önleyin. Bunun yerine **FIFO**, **AudioRM**, ve **SiteWH** gibi değerleri kullanın. Bir listeyi seçtiğinizde, listedeki değerin konumu değil, değeri kaydedilir. Bu listeye öğe eklenirse değerin konumu değiştirilebilir. Bu nedenle, kaydınız farklı bir parametre kullanacak ve bu durumda senaryonun geri kalanı etkilenebilir.
-- Çok kullanıcılı davranış hakkında düşünün. Örneğin, yeni oluşturulan satış siparişiniz her zaman otomatik olarak seçilebilir olarak kabul edilmez. Bunun yerine, doğru sıralamayı bulmak için her zaman filtreyi kullanın.
-- Zincirleme test durumlarında kullanılabilmesi için yeni oluşturulan ürünün adını kaydetmek üzere Görev kaydedicisindeki Kopyala işlevini kullanın.
-- Adımların doğru çalışmasını doğrulayan denetim noktalarını ayarlamak için Görev kaydedicisinin içindeki Doğrulama işlevini kullanın.
+- Kayda başlamadan önce senaryoları tanımlayın. İyi yönetilen bir projede önceden tanımlanmış test senaryoları bulunur. Bir test olayı oluşturmak için test senaryolarının sonucunun ne kadar tahmin edilebilir olduğunu göz önünde bulundurun.
+- Farklı roller tarafından gerçekleştirilmesi veya bir sonraki adımdan önce bekleme süresi veya dış olay olması halinde kayıtları bölün.
+- Listelerdeki değerleri seçmekten kaçının. Bunun yerine, **FIFO**, **AudioRM** ve **SiteWH** gibi metin biçimlerini kullanın. Liste içerisinden seçim yaptığınızda listedeki değerin kendisi değil, konumu kaydedilir. Bu listeye öğe eklenmesi halinde değerin konumu değişebilir. Bu nedenle, kaydınız farklı bir parametre kullanacaktır ve bu durumda senaryonun geri kalanı etkilenebilir.
+- Çok kullanıcılı davranışı düşünün. Örneğin, yeni oluşturulan satış siparişinizin her zaman otomatik olarak seçili olacağını varsaymayın. Bunun yerine, doğru siparişi bulmak için her zaman filtreyi kullanın.
+- Zincirleme test olaylarında kullanılabilmesi amacıyla yeni oluşturulan ürünün adını kaydetmek için Görev kaydedicisindeki Kopyala işlevini kullanın.
+- Adımların doğru çalıştığını doğrulayacak denetim noktalarını belirlemek için Görev kaydedicisindeki Doğrulama işlevini kullanın.
 
 ### <a name="rsat"></a>RSAT
 
-- Testi başka bir şirkette çalıştırmak için, şirketi Excel parametre dosyasının **Genel** sekmesinde değiştirebilirsiniz. Ayarların ve verilerin yeni seçilen şirkette kullanılabilir olduğundan emin olun.
-- Test kullanıcısını Excel parametre dosyasının **Genel** sekmesinden değiştirebilirsiniz. Test çalışmasını çalışacak kullanıcının e-posta kimliğini belirtin. Bu şekilde, test olayı, belirtilen kullanıcının güvenlik izinleri kullanılarak çalıştırılabilir.
-- Test başlatılmadan önce beklemek için Excel parametre dosyasının **Genel** sekmesine bir duraklama tanımlayabilirsiniz. Bu duraklatma, bir toplu işlemde kullanılabilir (örneğin, bir sonraki adımın gerçekleştirilebilmesi için bir iş akışının çalıştırılması gerektiğinde).
+- Testi başka bir şirkette çalıştırmak için Excel parametre dosyasının **Genel** sekmesinde şirketi değiştirebilirsiniz. Yeni seçilen şirkette ayarların ve verilerin kullanılabilir olduğundan emin olun.
+- Test kullanıcısını Excel parametre dosyasının **Genel** sekmesinden değiştirebilirsiniz. Test olayını çalıştıracak kullanıcının e-posta kimliğini belirtin. Bu şekilde test olayı, belirtilen kullanıcının güvenlik izinleri kullanılarak çalıştırılabilir.
+- Test başlatılmadan önce beklemek için Excel parametre dosyasının **Genel** sekmesinde bir duraklatma tanımlayabilirsiniz. Bu duraklatma, toplu bir işte (örneğin, bir sonraki adımın gerçekleştirilebilmesi için bir iş akışının çalıştırılması gerektiğinde) kullanılabilir.
 
 ## <a name="advanced-scripting"></a>Gelişmiş kodlama
 
 ### <a name="cli"></a>CLI
 
-RSAT, bir **Komut İstemi** ya da **PowerShell** penceresinden çağrılabilir.
+RSAT, **Komut İstemi** ya da **PowerShell** penceresinden çağrılabilir.
 
 > [!NOTE]
-> **TestRoot** ortam değişkeninin RSAT yükleme yolu olarak ayarlandığını doğrulayın. (Microsoft Windows'ta **Kontrol Paneli**'ni açın, **Sistem ve Güvenlik \> Sistem \> Gelişmiş sistem ayarları**'nı seçin ve sonra **Çevre Değişkenleri**'ni seçin.)
+> **TestRoot** ortam değişkeninin RSAT yükleme yolu şeklinde ayarlandığını doğrulayın. (Microsoft Windows'ta **Kontrol Paneli**'ni açın, **Sistem ve Güvenlik \> Sistem \> Gelişmiş sistem ayarları**'nı seçin ve sonra **Çevre Değişkenleri**'ni seçin.)
 
-1. Bir **Komut İstemi** ya da **PowerShell** penceresini yönetici olarak açın.
+1. Yönetici olarak **Komut İstemi** ya da **PowerShell** penceresi açın.
 2. RSAT yükleme dizinine gidin.
 
     ```Console
@@ -172,6 +172,7 @@ RSAT, bir **Komut İstemi** ya da **PowerShell** penceresinden çağrılabilir.
         about
         cls
         download
+        downloadsuite
         edit
         generate
         generatederived
@@ -181,11 +182,13 @@ RSAT, bir **Komut İstemi** ya da **PowerShell** penceresinden çağrılabilir.
         list
         listtestplans
         listtestsuite
+        listtestsuitebyid
         listtestsuitenames
         playback
         playbackbyid
         playbackmany
         playbacksuite
+        playbacksuitebyid
         quit
         upload
         uploadrecording
@@ -194,17 +197,17 @@ RSAT, bir **Komut İstemi** ya da **PowerShell** penceresinden çağrılabilir.
 
 #### <a name=""></a>?
 
-Kullanılabilen tüm komutlar ve parametreleriyle ilgili yardım gösterir.
+Kullanılabilir parametrelerle birlikte belirli bir komuta ilişkin tüm komutları listeler veya yardım içeriğini gösterir.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
 
 ##### <a name="-optional-parameters"></a>?: İsteğe bağlı parametreler
 
-`command`: ``[command]`` öğesinin aşağıda belirtilen komutlardan biri olması durumu.
+`command`: Burada ``[command]``, önceki listedeki konumlardan biridir.
 
 #### <a name="about"></a>hakkında
 
-Geçerli sürümü gösterir.
+Yüklü RSAT'ın sürümünü gösterir.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
 
@@ -216,130 +219,207 @@ Ekranı temizler.
 
 #### <a name="download"></a>indir
 
-Belirtilen test çalışmasının eklerini çıkış dizinine yükler.
-Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+Belirtilen test olayına ilişkin ekleri (Kayıt, Yürütme ve Parametre dosyalarını), Azure DevOps'tan çıktı dizinine indirir. Kullanılabilir tüm test olaylarını görmek için ``list`` komutunu kullanabilir ve ilk sütundaki herhangi bir değeri **test_case_id** parametresi olarak kullanabilirsiniz.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="download-optional-switches"></a>download: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde indirme işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
 
 ##### <a name="download-required-parameters"></a>download: gerekli parametreler
 
-+ `test_case_id`: Test olayı kodunu temsil eder.
-+ `output_dir`: Çıktı dizinini temsil eder. Dizin mevcut olmalıdır.
++ `test_case_id`: Test olayı kimliğini gösterir.
+
+##### <a name="download-optional-parameters"></a>download: isteğe bağlı parametreler
+
++ `output_dir`: Çıktı çalışma dizinini gösterir. Dizin mevcut olmalıdır. Bu parametrenin belirtilmemesi halinde ayarlardaki çalışma dizini kullanılır.
 
 ##### <a name="download-examples"></a>download: örnekler
 
 `download 123 c:\temp\rsat`
 
-`download 765 c:\rsat\last`
+`download /retry=240 765`
+
+#### <a name="downloadsuite"></a>downloadsuite
+
+Belirtilen test paketindeki tüm test olaylarına ilişkin ekleri (Kayıt, Yürütme ve Parametre dosyalarını), Azure DevOps'tan çıktı dizinine indirir. Kullanılabilir tüm test paketlerini görmek için ``listtestsuitenames`` komutunu kullanabilir ve herhangi bir değeri **test_suite_name** parametresi olarak kullanabilirsiniz.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="downloadsuite-optional-switches"></a>downloadsuite: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde indirme işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
++ `/byid`: Bu anahtar, istenen test paketinin test paketi adı yerine Azure DevOps kimliği ile tanımlandığını gösterir.
+
+##### <a name="downloadsuite-required-parameters"></a>downloadsuite: gerekli parametreler
+
++ `test_suite_name`: Test paketi adını gösterir. Bu parametre, /byid anahtarı **belirtilmemişse** gereklidir. Bu ad, Azure DevOps test paketi adıdır.
++ `test_suite_id`: Test paketi kimliğini gösterir. Bu parametre, /byid anahtarı **belirtilmişse** gereklidir. Bu kimlik, test paketi Azure DevOps kimliğidir.
+
+##### <a name="downloadsuite-optional-parameters"></a>downloadsuite: isteğe bağlı parametreler
+
++ `output_dir`: Çıktı çalışma dizinini gösterir. Dizin mevcut olmalıdır. Bu parametrenin belirtilmemesi halinde ayarlardaki çalışma dizini kullanılır.
+
+##### <a name="downloadsuite-examples"></a>downloadsuite: örnekler
+
+`downloadsuite NameOfTheSuite c:\temp\rsat`
+
+`downloadsuite /byid 123 c:\temp\rsat`
+
+`downloadsuite /retry=240 /byid 765`
+
+`downloadsuite /retry=240 /byid 765 c:\temp\rsat`
 
 #### <a name="edit"></a>düzenle
 
-Excel programında parametreleri dosya açmanıza ve düzenlemenize olanak tanır.
+Excel programında parametre dosyasını açmanıza ve bu dosyayı düzenlemenize imkan tanır.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
 
-##### <a name="edit-required-parameters"></a>edit: gerekli parametreler
+##### <a name="edit-required-parameters"></a>düzenleme: gerekli parametreler
 
 + `excel_file`: Mevcut bir Excel dosyasının tam yolunu içermelidir.
 
-##### <a name="edit-examples"></a>edit: örnekler
+##### <a name="edit-examples"></a>düzenleme: örnekler
 
-`edit c:\RSAT\TestCase_123_Base.xlsx`
+`edit c:\RSAT\123\TestCase_123_Base.xlsx`
 
 `edit e:\temp\TestCase_456_Base.xlsx`
 
 #### <a name="generate"></a>oluştur
 
-Çıkış dizininde belirtilen test çalışması için test yürütmesi ve parametre dosyaları oluşturur. Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+Çıkış dizininde belirtilen test olayı için test yürütmesi ve parametre dosyalarını oluşturur. Kullanılabilir tüm test olaylarını görmek için ``list`` komutunu kullanabilirsiniz. **test_case_id** parametresi olarak ilk sütundan herhangi bir değeri kullanın.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] [test_case_id] [output_dir]``
+
+##### <a name="generate-optional-switches"></a>generate: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde oluşturma işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
++ `/dllonly`: Yalnızca Test Yürütmesi dosyalarını oluşturun. Excel parametre dosyasını yeniden oluşturmayın.
++ `/keepcustomexcel`: Mevcut parametre dosyasını yükseltin. Yürütme dosyalarını da yeniden oluşturur.
 
 ##### <a name="generate-required-parameters"></a>generate: gerekli parametreler
 
-+ `test_case_id`: Test olayı kodunu temsil eder.
-+ `output_dir`: Çıktı dizinini temsil eder. Dizin mevcut olmalıdır.
++ `test_case_id`: Test olayı kimliğini gösterir.
+
+##### <a name="generate-optional-parameters"></a>generate: isteğe bağlı parametreler
+
++ `output_dir`: Çıktı çalışma dizinini gösterir. Dizin mevcut olmalıdır. Bu parametrenin belirtilmemesi halinde ayarlardaki çalışma dizini kullanılır.
 
 ##### <a name="generate-examples"></a>generate: örnekler
 
 `generate 123 c:\temp\rsat`
 
-`generate 765 c:\rsat\last`
+`generate /retry=240 765 c:\rsat\last`
+
+`generate /retry=240 /dllonly 765`
+
+`generate /retry=240 /keepcustomexcel 765`
 
 #### <a name="generatederived"></a>generatederived
 
-Sağlanan test çalışmasının türevi olan yeni bir test durumu oluşturur. Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+Sağlanan test olayının türevi olan yeni bir test olayı (alt test olayı) oluşturur. Yeni test olayı da belirtilen test paketine eklenir. Kullanılabilir tüm test olaylarını görmek için ``list`` komutunu kullanabilir ve ilk sütundaki herhangi bir değeri **test_case_id** parametresi olarak kullanabilirsiniz.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="generatederived-optional-switches"></a>generatederived: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde oluşturma işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
 
 ##### <a name="generatederived-required-parameters"></a>generatederived: gerekli parametreler
 
-+ `parent_test_case_id`: Üst öğe test olayı kodunu temsil eder.
-+ `test_plan_id`: Test planı kodunu temsil eder.
-+ `test_suite_id`: Test paketi kodunu temsil eder.
++ `parent_test_case_id`: Üst öğe test olayı kimliğini temsil eder.
++ `test_plan_id`: Test planı kimliğini temsil eder.
++ `test_suite_id`: Test paketi kimliğini temsil eder.
 
 ##### <a name="generatederived-examples"></a>generatederived: örnekler
 
 `generatederived 123 8901 678`
 
+`generatederived /retry 123 8901 678`
+
 #### <a name="generatetestonly"></a>generatetestonly
 
-Çıkış dizininde belirtilen test çalışması için yalnızca test yürütmesi dosyası oluşturur. Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+Belirtilen test olayına ilişkin yalnızca Test Yürütmesi dosyaları oluşturur. Excel parametre dosyası oluşturmaz. Dosyalar, belirtilen çıktı dizininde oluşturulur. Kullanılabilir tüm test olaylarını görmek için ``list`` komutunu kullanabilir ve ilk sütundaki herhangi bir değeri **test_case_id** parametresi olarak kullanabilirsiniz.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="generatetestonly-optional-switches"></a>generatetestonly: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde oluşturma işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
 
 ##### <a name="generatetestonly-required-parameters"></a>generatetestonly: gerekli parametreler
 
-+ `test_case_id`: Test olayı kodunu temsil eder.
-+ `output_dir`: Çıktı dizinini temsil eder. Dizin mevcut olmalıdır.
++ `test_case_id`: Test olayı kimliğini gösterir.
+
+##### <a name="generatetestonly-optional-parameters"></a>generatetestonly: isteğe bağlı parametreler
+
++ `output_dir`: Çıktı çalışma dizinini gösterir. Dizin mevcut olmalıdır. Bu parametrenin belirtilmemesi halinde ayarlardaki çalışma dizini kullanılır.
 
 ##### <a name="generatetestonly-examples"></a>generatetestonly: örnekler
 
 `generatetestonly 123 c:\temp\rsat`
 
-`generatetestonly 765 c:\rsat\last`
+`generatetestonly /retry=240 765`
 
-#### <a name="generatetestsuite"></a>generatetestsuite
+#### <a name="generatetestsuite"></a>testpaketioluştur
 
-Belirtilen paket için çıkış dizininde tüm test çalışmalarını oluşturur. Tüm kullanılabilir test süitlerini almak için ``listtestsuitenames`` komutunu kullanabilirsiniz. Sütundaki **test_suite_name** parametre olarak herhangi bir değeri kullanın.
+Belirtilen test paketindeki tüm test olayları için test otomasyon dosyaları oluşturur. Kullanılabilir tüm test paketlerini görmek için ``listtestsuitenames`` komutunu kullanabilir ve herhangi bir değeri **test_suite_name** parametresi olarak kullanabilirsiniz.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="generatetestsuite-optional-switches"></a>generatetestsuite: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde oluşturma işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
++ `/dllonly`: Yalnızca Test Yürütmesi dosyalarını oluşturun. Excel parametre dosyasını yeniden oluşturmayın.
++ `/keepcustomexcel`: Mevcut parametre dosyasını yükseltin. Yürütme dosyalarını da yeniden oluşturur.
++ `/byid`: Bu anahtar, istenen test paketinin test paketi adı yerine Azure DevOps kimliği ile tanımlandığını gösterir.
 
 ##### <a name="generatetestsuite-required-parameters"></a>generatetestsuite: gerekli parametreler
 
-+ `test_suite_name`: Test paketi adını temsil eder.
-+ `output_dir`: Çıktı dizinini temsil eder. Dizin mevcut olmalıdır.
++ `test_suite_name`: Test paketi adını gösterir. Bu parametre, /byid anahtarı **belirtilmemişse** gereklidir. Bu ad, Azure DevOps test paketi adıdır.
++ `test_suite_id`: Test paketi kimliğini gösterir. Bu parametre, /byid anahtarı **belirtilmişse** gereklidir. Bu kimlik, test paketi Azure DevOps kimliğidir.
+
+##### <a name="generatetestsuite-optional-parameters"></a>generatetestsuite: isteğe bağlı parametreler
+
++ `output_dir`: Çıktı çalışma dizinini gösterir. Dizin mevcut olmalıdır. Bu parametrenin belirtilmemesi halinde ayarlardaki çalışma dizini kullanılır.
 
 ##### <a name="generatetestsuite-examples"></a>generatetestsuite: örnekler
 
 `generatetestsuite Tests c:\temp\rsat`
 
-`generatetestsuite Purchase c:\rsat\last`
+`generatetestsuite /retry Purchase c:\rsat\last`
+
+`generatetestsuite /dllonly /byid 121`
+
+`generatetestsuite /keepcustomexcel /byid 121`
 
 #### <a name="help"></a>yardım
 
-Benzer mi [?](#section) command.
+[?](#section) ile aynıdır komut.
 
 #### <a name="list"></a>liste
 
-Tüm kullanılabilir test çalışmalarını listeler.
+Geçerli test planındaki tüm kullanılabilir test olaylarını listeler.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
 
 #### <a name="listtestplans"></a>listtestplans
 
-Tüm kullanılabilir test planlarını listeler.
+Kullanılabilir tüm test planlarını listeler.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-Belirtilen test paketiyle ilgili test çalışmalarını listeler. Tüm kullanılabilir test paketlerini almak için ``listtestsuitenames`` komutunu kullanabilirsiniz. İlk sütundaki **suite_name** parametre olarak herhangi bir değeri kullanın.
+Belirtilen test paketiyle ilgili test olaylarını listeler. Kullanılabilir tüm test paketlerini görmek için ``listtestsuitenames`` komutunu kullanabilir ve listeden herhangi bir değeri **suite_name** parametresi olarak kullanabilirsiniz.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
 ##### <a name="listtestsuite-required-parameters"></a>listtestsuite: gerekli parametreler
 
-+ `suite_name`: İstenen paketin adı.
++ `test_suite_name`: İstenen paketin adı.
 
 ##### <a name="listtestsuite-examples"></a>listtestsuite: örnekler
 
@@ -347,39 +427,67 @@ Belirtilen test paketiyle ilgili test çalışmalarını listeler. Tüm kullanı
 
 `listtestsuite NameOfTheSuite`
 
+#### <a name="listtestsuitebyid"></a>listtestsuitebyid
+
+Belirtilen test paketiyle ilgili test olaylarını listeler.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitebyid``**``[test_suite_id]``
+
+##### <a name="listtestsuitebyid-required-parameters"></a>listtestsuitebyid: gerekli parametreler
+
++ `test_suite_id`: İstenen paketin kimliği.
+
+##### <a name="listtestsuitebyid-examples"></a>listtestsuitebyid: örnekler
+
+`listtestsuitebyid 12345`
+
 #### <a name="listtestsuitenames"></a>listtestsuitenames
 
-Tüm kullanılabilir test paketlerini listeler.
+Geçerli test planındaki kullanılabilir tüm test olaylarını listeler.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
 
-#### <a name="playback"></a>yürütme
+#### <a name="playback"></a>kayıttan yürütme
 
-Excel dosyası kullanarak bir test durumunu yürütür.
+Belirtilen Excel parametre dosyasıyla ilişkilendirilmiş test olayını kayıttan yürütür. Bu komut, mevcut yerel otomasyon dosyalarını kullanır; dosyaları Azure DevOps'tan indirmez. Bu komut, POS ticari test olayları için desteklenmez.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
+
+##### <a name="playback-optional-switches"></a>playback: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde kayıttan yürütme işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
++ `/comments[="comment"]`: Özette **Açıklamalar** alanına ve Azure DevOps test olayı çalıştırmalarındaki test sonuç sayfalarına eklenecek özel bir bilgi dizesi sağlayın.
 
 ##### <a name="playback-required-parameters"></a>playback: gerekli parametreler
 
-+ `excel_file`: Excel dosyasının tam yolu. Dosya var olmalıdır.
++ `excel_parameter_file`: Excel parametre dosyasının tam yolu. Dosya mevcut olmalıdır.
 
 ##### <a name="playback-examples"></a>playback: örnekler
 
-`playback c:\RSAT\TestCaseParameters\sample1.xlsx`
+`playback c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playback e:\temp\test.xlsx`
+`playback /retry e:\temp\test.xlsx`
+
+`playback /retry=300 e:\temp\test.xlsx`
+
+`playback /comments="Payroll solution 10.0.0" e:\temp\test.xlsx`
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-Aynı anda birden fazla test çalışmasını kayıttan yürütür. Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+Aynı anda birden fazla test olayını kayıttan yürütür. Test olayları, kimlikleri ile tanımlanır. Bu komut, dosyaları Azure DevOps'tan indirir. Kullanılabilir tüm test olaylarını görmek için ``list`` komutunu kullanabilir ve ilk sütundaki değerlerden herhangi birini **test_case_id** parametresi olarak kullanabilirsiniz.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="playbackbyid-optional-switches"></a>playbackbyid: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde kayıttan yürütme işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
++ `/comments[="comment"]`: Özette **Açıklamalar** alanına ve Azure DevOps test olayı çalıştırmalarındaki test sonuç sayfalarına eklenecek özel bir bilgi dizesi sağlayın.
 
 ##### <a name="playbackbyid-required-parameters"></a>playbackbyid: gerekli parametreler
 
-+ `test_case_id1`: Mevcut test olayının kodu.
-+ `test_case_id2`: Mevcut test olayının kodu.
-+ `test_case_idN`: Mevcut test olayının kodu.
++ `test_case_id1`: Mevcut bir test olayının kimliği.
++ `test_case_id2`: Mevcut bir test olayının kimliği.
++ `test_case_idN`: Mevcut bir test olayının kimliği.
 
 ##### <a name="playbackbyid-examples"></a>playbackbyid: örnekler
 
@@ -387,75 +495,132 @@ Aynı anda birden fazla test çalışmasını kayıttan yürütür. Tüm kullan�
 
 `playbackbyid 2345 667 135`
 
+`playbackbyid /comments="Payroll solution 10.0.0" 2345 667 135`
+
+`playbackbyid /retry /comments="Payroll solution 10.0.0" 2345 667 135`
+
 #### <a name="playbackmany"></a>playbackmany
 
-Excel dosyalarını kullanarak birçok test çalışmasını aynı anda kayıttan çalar.
+Aynı anda birden fazla test olayını kayıttan yürütür. Test olayları, Excel parametre dosyaları tarafından tanımlanır. Bu komut, mevcut yerel otomasyon dosyalarını kullanır; dosyaları Azure DevOps'tan indirmez.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
+
+##### <a name="playbackmany-optional-switches"></a>playbackmany: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde kayıttan yürütme işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
++ `/comments[="comment"]`: Özette **Açıklamalar** alanına ve Azure DevOps test olayı çalıştırmalarındaki test sonuç sayfalarına eklenecek özel bir bilgi dizesi sağlayın.
 
 ##### <a name="playbackmany-required-parameters"></a>playbackmany: gerekli parametreler
 
-+ `excel_file1`: Excel dosyasının tam yolu. Dosya var olmalıdır.
-+ `excel_file2`: Excel dosyasının tam yolu. Dosya var olmalıdır.
-+ `excel_fileN`: Excel dosyasının tam yolu. Dosya var olmalıdır.
++ `excel_parameter_file1`: Excel parametre dosyasının tam yolu. Dosya mevcut olmalıdır.
++ `excel_parameter_file2`: Excel parametre dosyasının tam yolu. Dosya mevcut olmalıdır.
++ `excel_parameter_fileN`: Excel parametre dosyasının tam yolu. Dosya mevcut olmalıdır.
 
 ##### <a name="playbackmany-examples"></a>playbackmany: örnekler
 
-`playbackmany c:\RSAT\TestCaseParameters\param1.xlsx`
+`playbackmany c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
+`playbackmany e:\temp\test.xlsx f:\RSAT\sample1.xlsx c:\RSAT\sample2.xlsx`
+
+`playbackmany /retry=180 /comments="Payroll solution 10.0.0" e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
 
 #### <a name="playbacksuite"></a>playbacksuite
 
-Belirtilen test paketinden tüm test çalışmalarını kayıttan yürütür.
-Tüm kullanılabilir test paketlerini almak için ``listtestsuitenames`` komutunu kullanabilirsiniz. İlk sütundaki **suite_name** parametre olarak herhangi bir değeri kullanın.
+Belirtilen bir veya birden çok test paketindeki tüm test olaylarını kayıttan yürütür. /local anahtarının belirtilmesi halinde kayıttan yürütme için yerel ekler kullanılır. Aksi taktirde ekler, Azure DevOps'tan indirilir. Kullanılabilir tüm test paketlerini görmek için ``listtestsuitenames`` komutunu kullanabilir ve ilk sütundan herhangi bir değeri **suite_name** parametresi olarak kullanabilirsiniz.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
+
+##### <a name="playbacksuite-optional-switches"></a>playbacksuite: isteğe bağlı anahtarlar
+
++ `/updatedriver`: Bu anahtarın belirtilmiş olması halinde kayıttan yürütme işlemi çalıştırılmadan önce İnternet tarayıcısının WebDriver'ı gerektiği şekilde güncelleştirilir.
++ `/local`: Bu anahtar, dosyaların Azure DevOps'tan indirilmesi yerine kayıttan yürütme için yerel eklerin kullanılması gerektiğini belirtir.
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde kayıttan yürütme işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
++ `/comments[="comment"]`: Özette **Açıklamalar** alanına ve Azure DevOps test olayı çalıştırmalarındaki test sonuç sayfalarına eklenecek özel bir bilgi dizesi sağlayın.
++ `/byid`: Bu anahtar, istenen test paketinin test paketi adı yerine Azure DevOps kimliği ile tanımlandığını gösterir.
 
 ##### <a name="playbacksuite-required-parameters"></a>playbacksuite: gerekli parametreler
 
-+ `suite_name`: İstenen paketin adı.
++ `test_suite_name1`: Test paketi adını gösterir. Bu parametre, /byid anahtarı **belirtilmemişse** gereklidir. Bu ad, Azure DevOps test paketi adıdır.
++ `test_suite_nameN`: Test paketi adını gösterir. Bu parametre, /byid anahtarı **belirtilmemişse** gereklidir. Bu ad, Azure DevOps test paketi adıdır.
++ `test_suite_id1`: Test paketi kimliğini gösterir. Bu parametre, /byid anahtarı **belirtilmişse** gereklidir. Bu kimlik, test paketi Azure DevOps kimliğidir.
++ `test_suite_idN`: Test paketi kimliğini gösterir. Bu parametre, /byid anahtarı **belirtilmişse** gereklidir. Bu kimlik, test paketi Azure DevOps kimliğidir.
 
 ##### <a name="playbacksuite-examples"></a>playbacksuite: örnekler
 
 `playbacksuite suiteName`
 
-`playbacksuite sample_suite`
+`playbacksuite suiteName suiteNameToo`
 
-#### <a name="quit"></a>çıkış
+`playbacksuite /updatedriver /local /retry=180 /byid 151 156`
 
-Uygulamayı kapatır.
+`playbacksuite /updatedriver /local /comments="Payroll solution 10.0.0" /byid 150`
+
+#### <a name="playbacksuitebyid"></a>playbacksuitebyid
+
+Belirtilen Azure DevOps test paketindeki tüm test olaylarını çalıştırır.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuitebyid``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] [test_suite_id]``
+
+##### <a name="playbacksuitebyid-optional-switches"></a>playbacksuitebyid: isteğe bağlı anahtarlar
+
++ `/retry[=seconds]`: Bu anahtarın belirtilmiş ve test olaylarının diğer RSAT örnekleri tarafından durdurulmuş olması halinde kayıttan yürütme işlemi, belirtilen saniye boyunca bekler ve sonra bir kez daha dener. Varsayılan \[saniye\] değeri, 120 saniyedir. Bu anahtarın olmaması durumunda test olayları durdurulduğunda işlem hemen iptal edilir.
++ `/comments[="comment"]`: Özette **Açıklamalar** alanına ve Azure DevOps test olayı çalıştırmalarındaki test sonuç sayfalarına eklenecek özel bir bilgi dizesi sağlayın.
++ `/byid`: Bu anahtar, istenen test paketinin test paketi adı yerine Azure DevOps kimliği ile tanımlandığını gösterir.
+
+##### <a name="playbacksuitebyid-required-parameters"></a>playbacksuitebyid: gerekli parametreler
+
++ `test_suite_id`: Test paketi kimliğini Azure DevOps'taki şekliyle gösterir.
+
+##### <a name="playbacksuitebyid-examples"></a>playbacksuitebyid: örnekler
+
+`playbacksuitebyid 2900`
+
+`playbacksuitebyid /retry 2099`
+
+`playbacksuitebyid /retry=200 2099`
+
+`playbacksuitebyid /retry=200 /comments="some comment" 2099`
+
+#### <a name="quit"></a>çık
+
+Uygulamayı kapatır. Bu komut, uygulamalar yalnızca etkileşimli modda çalışırken faydalıdır.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
 
-#### <a name="upload"></a>yükle
+##### <a name="quit-examples"></a>quit: örnekler
 
-Belirtilen test paketine veya test çalışmalarına ait olan tüm dosyaları karşıya yükler.
+`quit`
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+#### <a name="upload"></a>upload
 
-#### <a name="upload-required-parameters"></a>upload: gerekli parametreler
+Belirtilen bir test paketi veya test olayına ait ek dosyaları (Kayıt, Yürütme ve Parametre dosyaları), Azure DevOps'a karşıya yükler.
 
-+ `suite_name`: Belirtilen test paketine ait olan tüm dosyaları karşıya yükler.
-+ `testcase_id`: Belirtilen test olaylarına ait olan tüm dosyaları karşıya yükler.
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
+
+##### <a name="upload-required-parameters"></a>upload: gerekli parametreler
+
++ `test_suite_name`: Belirtilen test paketine ait tüm dosyalar karşıya yüklenir.
++ `test_case_id1`: Karşıya yüklenmesi gereken ilk test olayı kimliğini gösterir. Bu parametreyi yalnızca test paketi adı verilmediyse kullanın.
++ `test_case_idN`: Karşıya yüklenmesi gereken son test olayı kimliğini gösterir. Bu parametreyi yalnızca test paketi adı verilmediyse kullanın.
 
 ##### <a name="upload-examples"></a>upload: örnekler
 
 `upload sample_suite`
 
-`upload 123`
+`upload 2900`
 
 `upload 123 456`
 
 #### <a name="uploadrecording"></a>uploadrecording
 
-Belirtilen test çalışmalarına ait olan yalnızca kayıt dosyasını karşıya yükler.
+Belirtilen bir veya birden fazla test olayına ilişkin yalnızca Kayıt dosyasını Azure DevOps'a karşıya yükler.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[test_case_id1] .. [test_case_idN]``
 
 ##### <a name="uploadrecording-required-parameters"></a>uploadrecording: gerekli parametreler
 
-+ `testcase_id`: Belirtilen test olaylarına ait olan kayıt dosyasını karşıya yükler.
++ `test_case_id1`: Azure DevOps'a karşıya yüklenmesi gereken kayda ilişkin ilk test olayı kimliğini gösterir.
++ `test_case_idN`: Azure DevOps'a karşıya yüklenmesi gereken kayda ilişkin son test olayı kimliğini gösterir.
 
 ##### <a name="uploadrecording-examples"></a>uploadrecording: örnekler
 
@@ -465,25 +630,37 @@ Belirtilen test çalışmalarına ait olan yalnızca kayıt dosyasını karşıy
 
 #### <a name="usage"></a>kullanım
 
-Bu uygulamayı başlatmak için iki yol gösterir: bir tane varsayılan ayar dosyası kullanıldığında, diğeri ayar dosyası sağlar.
+Bu uygulamanın üç kullanım modunu görüntüler.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
 
+Uygulamayı etkileşimli olarak çalıştırma:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``
+
+Uygulamayı bir komut belirterek çalıştırma:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp ``**``[command]``**
+
+Uygulamayı bir ayarlar dosyası ile çalıştırma:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``/settings [drive:\Path to\file.settings] [command]``**
+
 ### <a name="windows-powershell-examples"></a>Windows PowerShell örnekleri
 
-#### <a name="run-a-test-case-in-a-loop"></a>Bir döngüde test olayı çalıştırma
+#### <a name="run-a-test-case-in-a-loop"></a>Test olayının döngüde çalıştırılması
 
-Yeni bir müşteri oluşturan bir test koduna sahipsiniz. Kodlama yoluyla, bu test olayı, her yineleme çalıştırılmadan önce aşağıdaki verileri rasgele bir döngüde çalışabilir:
+Yeni müşteri oluşturan bir test koduna sahipsiniz. Bu test olayı, kodlama yoluyla her bir tekrarlama çalıştırılmadan önce aşağıdaki verileri rastgele seçerek bir döngü içerisinde çalışabilir.
 
-- Müşteri kodu
+- Müşteri kimliği
 - Müşteri adı
 - Müşteri adresi
 
-Müşteri kimliği *ATCUS\<number\>* biçiminde, \<number\> **000000001** ve **999999999** değerleri arasında olacaktır.
+Müşteri kimliği, *ATCUS\<number\>* biçiminde olacak olup  \<number\>, **000000001** ve **999999999** arasında bir değer alacaktır.
 
-Aşağıdaki örnek, kullanılan ilk sayıyı tanımlamak için **başlangıç** parametresi olan bir parametreyi kullanır. Oluşturulması gereken müşteri sayısını tanımlamak için ikinci parametre olan **NR** öğesini kullanılır. Her yinelemede, Excel parametre dosyasındaki parametreler bir UpdateCustomer işlevi kullanılarak değiştirilir. Sonra, RSAT komut satırı bir RunTestCase işlevinde çağrılır.
+Aşağıdaki örnekte kullanılan ilk sayının tanımlanması için tek parametre olarak, **başlangıç** kullanılmıştır. Oluşturulması gereken müşteri sayısının tanımlanması için ikinci parametre olan **NR** kullanılır. Excel parametre dosyasındaki parametreler, her tekrarlamada bir UpdateCustomer işlevi kullanılarak değiştirilir. Sonrasında RSAT komut satırı, bir RunTestCase işlevinde çağrılır.
 
-Yönetici modunda Microsoft Windows PowerShell Integrated Scripting Environment (ISE) açın ve aşağıdaki kodu **Untitled1.ps1** adlı pencereye yapıştırın.
+Microsoft Windows PowerShell Integrated Scripting Environment'ı (ISE) yönetici modunda açın ve aşağıdaki kodu **Untitled1.ps1** adlı pencereye yapıştırın.
 
 ```powershell
 param ( [int]$start = 1, [int]$nr = 1 )
@@ -520,9 +697,9 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
     RunTestCase $excelFilename
 ```
 
-#### <a name="run-a-script-that-depends-on-data-in-microsoft-dynamics-365"></a>Microsoft Dynamics 365'teki verilere bağlı olan bir komut dosyası çalıştırın
+#### <a name="run-a-script-that-depends-on-data-in-microsoft-dynamics-365"></a>Microsoft Dynamics 365'teki verilere bağlı bir komut dosyası çalıştırın
 
-Aşağıdaki örnek bir satınalma siparişinin sipariş durumunu bulmak için bir Open Data Protocol (OData) çağrısı kullanır. Durum **faturalanmamışsa**, örneğin, faturayı deftere nakleden bir RSAT test olayı çağrısı yapabilirsiniz.
+Aşağıdaki örnekte bir satınalma siparişinin sipariş durumununun bulunması için Open Data Protocol (OData) çağrısı kullanılmıştır. Örneğin, durum **faturalandırılmamış** şeklindeyse faturayı deftere nakleden bir RSAT test olayı çağrısı yapabilirsiniz.
 
 ```powershell
 function Odata_Get

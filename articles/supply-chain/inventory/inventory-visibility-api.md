@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062123"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524479"
 ---
 # <a name="inventory-visibility-public-apis"></a>Stok Görünürlüğü genel API'si
 
@@ -41,15 +41,17 @@ Aşağıdaki tabloda, şu anda kullanılabilen API'ler listelenmektedir:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Naklet | [Eldeki miktarları ayarlama/geçersiz kılma](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Naklet | [Bir rezervasyon olayı oluşturma](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Naklet | [Birden fazla rezervasyon olayı oluşturma](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Naklet | [Nakletme yöntemini kullanarak sorgulama](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand | Al | [Alma yöntemini kullanarak sorgulama](#query-with-get-method) |
-
-Microsoft, hazır bir *Postman* istek koleksiyonu sağlamıştır. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+| /api/environment/{environmentId}/on-hand/changeschedule | Deftere naklet | [Bir zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Deftere naklet | [Birden fazla zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/indexquery | Deftere naklet | [Post yöntemini kullanarak sorgulama](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | Al | [Get yöntemini kullanarak sorgulama](#query-with-get-method) |
 
 > [!NOTE]
 > Yolun {environmentId} bölümü, Microsoft Dynamics Lifecycle Services'teki (LCS) ortam kimliğidir.
 > 
 > Toplu API, her istek için en fazla 512 kayıt döndürebilir.
+
+Microsoft, hazır bir *Postman* istek koleksiyonu sağlamıştır. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lifecycle Services ortamınıza göre uç noktayı bulma
 
@@ -480,7 +482,7 @@ Body:
 
 Ürünlerinize ait mevcut eldeki stok verilerini getirmek için _Eldekini sorgulama_ API'sını kullanın. API şu anda `ProductID` değerine göre en çok 100 ayrı öğeye kadar sorgulamayı desteklemektedir. Her sorguda birden çok `SiteID` ve `LocationID` değeri de belirtilebilir. Maksimum sınır `NumOf(SiteID) * NumOf(LocationID) <= 100` olarak tanımlanmıştır.
 
-### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Nakletme yöntemini kullanarak sorgulama
+### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Post yöntemini kullanarak sorgulama
 
 ```txt
 Path:
@@ -517,6 +519,9 @@ Bu isteğin gövde kısmında, `dimensionDataSource` isteğe bağlı bir paramet
 
 `returnNegative` parametresi, sonuçların negatif girişler içerip içermediğini denetler.
 
+> [!NOTE]
+> Eldeki değişiklik zamanlamasını ve karşılanabilir (KM) miktar özelliklerini etkinleştirdiyseniz sorgunuz, sorgu sonuçlarının KM bilgilerini içerip içermediğini denetleyen `QueryATP` Boole parametresini de içerebilir. Daha fazla bilgi ve örnekler için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md).
+
 Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
 
 ```json
@@ -549,7 +554,7 @@ Aşağıdaki örneklerde, belirli bir tesis ve konumdaki tüm ürünlerin nasıl
 }
 ```
 
-### <a name="query-by-using-the-get-method"></a><a name="query-with-get-method"></a>Alma yöntemini kullanarak sorgulama
+### <a name="query-by-using-the-get-method"></a><a name="query-with-get-method"></a>Get yöntemini kullanarak sorgulama
 
 ```txt
 Path:
@@ -572,5 +577,9 @@ Aşağıda, örnek bir alma URL'si bulunmaktadır. Bu alma isteği, daha önce s
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>Karşılanabilir miktar
+
+Gelecekteki eldeki değişiklikleri zamanlamanıza ve KM miktarlarını hesaplamanıza olanak tanıyan Stok Görünürlüğü'nü ayarlayabilirsiniz. KM, mevcut bulunan ve sonraki dönemde müşteriye vaat edilebilecek bir maddenin miktarıdır. KM hesaplamasının kullanımı, sipariş karşılama yeteneğinizi büyük ölçüde artırabilir. Bu özelliği etkinleştirme ve özellik etkinleştirildikten sonra API aracılığıyla Stok Görünürlüğü ile etkileşim kurma hakkında bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

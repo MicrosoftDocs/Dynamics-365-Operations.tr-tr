@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 663b7d3162af6d385bc9c445b1e98cf5f74a1471
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 19aadf844f239ef06ca4d9dbe60b597228d72e52
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105576"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470107"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -37,38 +37,28 @@ Aylık güncelleştirmelerin bir parçası olarak yayınlanan mevzuat güncelle�
 
 En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvurun.   
 
-|Ülke|Nakledilebilecek tarih|Yayım sürümü|Düzenleme güncelleştirmesi|
+|Ülke/Bölge|Nakledilebilecek tarih|Yayım sürümü|Düzenleme güncelleştirmesi|
 |--------------------|---------------|-------|-------| 
-|      Avusturya         |   Ağustos 2021      | 10.0.22      |   XML'de KDV beyannamesi ve Excel'de önizleme   |
-|      Avusturya         |   2021 Eylül      | 10.0.22HF      |   Intrastat formatı 2022 itibarıyla güncelleştirildi - Menşei ülke ve İş ortağı KDV no gönderilerde zorunlu hale geldi   |
-|      Belçika        |   2021 Ekim      | 10.0.22HF     |   Intrastat hareket kodları 2022 itibarıyla 2 basamaklı olacak şekilde değiştirilecek  |
-|      Brezilya         |   Ağustos 2021      | 10.0.22      |   NF-e NT2020.006 - Dijital platform aracısının tanımlanması (Düzen ve doğrulama kuralları güncelleştirmeleri)   |
-|      Brezilya         |   2021 Aralık         | 10.0.22, 10.0.23, 10.0.24         |    SPED Mali düzeni 2022  |
-|      Çek Cumhuriyeti         |   2021 Ekim         | 10.0.23HF         |     Intrastat formatı 2022 itibarıyla güncelleştirildi - Menşei ülke ve İş ortağı KDV no gönderilerde zorunlu hale geldi  |
-|      Danimarka         |   2021 Aralık         | 10.0.22HF         |    Intrastat biçimi 2022'in başlangı itibarıyla güncelleştirildi  |
-|      Estonya         |   2021 Aralık      | 10.0.22HF      |   Intrastat formatı 2022 itibarıyla güncelleştirildi - Menşei ülke ve İş ortağı KDV no gönderilerde zorunlu hale geldi  |
-|      Finlandiya         |   Kasım 2021         | 10.0.22HF         |    Intrastat biçimi 2022 itibarıyla güncelleştirildi.  |
-|      Almanya        |   Ağustos 2021       | 10.0.22HF      |   Intrastat biçimi INSTAT XML 2022 itibarıyla güncelleştirildi. Intrastat biçimi TXT 01.07.2021'den itibaren geçerli değil  |
-|      Almanya        |   2021 Ekim       | 10.0.23      |   XML'de KDV beyannamesi ve Excel'de önizleme (tutarların vergi kodu para birimi cinsinden olduğu yeni tasarım, ters gider özelliğiyle birlikte çalışabilir ve DE dışı tüzel kişiliklerde yürütülebilir ve çeşitli tüzel kişiliklerden vergi hareketi toplayabilir)  |
-|      İtalya         |   Kasım 2021         | 10.0.22HF, 10.0.23HF, 10.0.24         |    Sınır ötesi hareketler için elektronik faturalama  |
-|      Meksika         |   Kasım 2021      | 10.0.22      |   CFDI belgelerindeki Carta de Porte eki   |
+|      Brezilya         |   2021 Aralık         | 10.0.24, 10.0.25         |    SPED Mali düzeni 2022  |
+|      Brezilya         |   Mart 2022    | 10.0.24HF, 10.0.25HF         |    Vergi dışı mükelleflere yönelik işlemlerde ICMS-DIFAL tahsilatı (Tamamlayıcı Yasa No. 190/22)  |
+|      Danimarka         |   2022 Ocak  | 10.0.25HF         |    Excel'de KDV beyannamesi önizlemesi |
+|      Fransa   |   Kasım 2021 | 10.0.25         |    Fransızca veri arşivleme dışa aktarma işlemi (FEC) - "Eksik sayı gerekçesi" eki |
+|      İtalya         |   Kasım 2021         | 10.0.24         |    Sınır ötesi hareketler için elektronik faturalama  |
+|      İtalya         |   Şubat 2022 | 10.0.24HF, 10.0.25HF| Dynamics 365 Finance'ta Benzersiz Sertifika - 2022  |
+|      Litvanya|   Şubat 2022 | 10.0.24HF, 10.0.25HF | Dynamics 365 Finance'ta 01.01.2022'den itibaren i.SAF değişiklikleri  |
 |      Meksika         |   2021 Aralık      | 10.0.24      |   Carta de Porte eki sürüm 2.0  |
-|      Hollanda        |   2021 Ekim      | 10.0.22HF      |   2022'den itibaren Intrastat dosya biçiminde 2 basamaklı hareket kodları  |
-|      Yeni Zelanda         |   Ağustos 2021      | 10.0.22    |   GST beyanı formu GST101A  |
 |      Norveç        |   Kasım 2021      | 10.0.24      |   KDV beyanname biçimi 2022, doğrudan gönderme - Dynamics 365 Finance |
-|      Umman         |   Ağustos 2021      | 10.0.22      |   KDV beyanı - Sürüm 1 |
-|      Polonya          |   2021 Ekim     | 10.0.23, 10.0.24     |   JPK_V7M - Ocak 2022 itibarıyla yeni şema sürümü |
+|      Polonya          |   2021 Ekim     | 10.0.24     |   JPK_V7M - Ocak 2022 itibarıyla yeni şema sürümü |
 |      Polonya          |   Kasım 2021     | 10.0.24HF     |   Ticari hareketlerdeki ödeme tarihlerinde yıllık rapor |
 |      Polonya          |   2021 Ekim     | 10.0.24     |   AB satış listesinin elektronik biçimi (KDV-AB) |
-|      Rusya          |   2021 Ekim     | 10.0.22HF, 10.0.23, 10.0.24    |   Satış defterleri, satınalma defterleri ve fatura günlüklerinde değişiklikler|
+|      Rusya          |   2021 Ekim     | 10.0.24    |   Satış defterleri, satınalma defterleri ve fatura günlüklerinde değişiklikler|
 |      Rusya          |   2021 Ekim     | 10.0.24HF    |   Diğer eklerle birlikte KDV beyannamesi biçimlerindeki değişiklikler|
 |      Rusya          |   Kasım 2021     | 10.0.24    |   Federal Muhasebe Standardı 6/2020 (Sabit kıymetler)|
-|      Suudi Arabistan          |   Kasım 2021     | 10.0.22HF, 10.0.23    |   Elektronik faturalama oluşturma Suudi Arabistan - Aşama 1|
-|      Suudi Arabistan          |   Kasım 2021     | 10.0.22HF, 10.0.23HF, 10.0.24    |   Retail - Elektronik faturala Suudi Arabistan - Aşama 1|
-|      İspanya          |   2021 Ekim     | 10.0.23    |    txt biçiminde KDV beyannamesi model 303 ve Excel'de önizleme|
-|      İspanya          |   2021 Eylül     | 10.0.22    |    Intrastat formatı 2022 itibarıyla raporlama için güncelleştirildi - İş Ortağı KDV No ve Menşei ülke gönderilerde zorunlu hale geldi|
-|      İsveç          |   2021 Ekim     | 10.0.22HF    |    Intrastat formatı 2022 itibarıyla güncelleştirildi - Menşei ülke ve İş ortağı KDV no gönderilerde zorunlu hale geldi. 2 haneli hareket kodları kullanılacak.|
-|      Birleşik Krallık          |   Ağustos 2021     | 10.0.22    |    BK - MTD sahtekarlık önleme 2021)|
+|      Rusya          |   2022 Ocak     | 10.0.24HF, 10.0.25    |   Rusça muhasebe belgelerini (birincil belgeler ve muhasebe raporları) depolamak için Elektronik raporlama (ER) hedefini etkinleştirme|
+|      Rusya          |   2021 Aralık     | 10.0.25    |   Kıymet yönetimi modülü ile Sabit kıymet (Rusya) modülünü tümleştirme|
+|      Rusya          |   Şubat 2022     | 10.0.24HF, 10.0.25    |  Yeni taşıma faturası biçimi (Resmi hüküm N 2116 30.11.2021)|
+|      Suudi Arabistan          |   Kasım 2021     | 10.0.24    |   Retail - Elektronik faturala Suudi Arabistan - Aşama 1|
+|      İspanya      |   Mart 2022| 10.0.24HF, 10.0.25HF | İspanya: Dynamics 365 Finance'taki KDV beyannamesi Model 303, 1 Ocak 2022'de değiştirildi|
 
 
 

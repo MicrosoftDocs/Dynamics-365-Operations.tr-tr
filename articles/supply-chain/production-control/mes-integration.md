@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330713"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487595"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Üçüncü taraf üretim yürütme sistemleriyle tümleştirme
 
@@ -64,7 +64,9 @@ Tümleştirme için aşağıdaki işlemlerin herhangi birini veya tümünü etki
 
 ## <a name="monitor-incoming-messages"></a>Gelen iletileri izle
 
-Sisteme gelen iletileri izlemek için, **Üretim yürütme sistemi tümleştirme** sayfasını açın. Burada, sorunları görüntüleyebilir, işleyebilir ve sorunları giderebilirsiniz.
+Sisteme gelen iletileri izlemek için, **Üretim yürütme sistemi tümleştirme** sayfasını açın. Burada sorunları görüntüleyebilir, işleyebilir ve sorunları giderebilirsiniz.
+
+Belirli bir üretim emrine yönelik tüm iletiler alındıkları sırayla işlenir. Ancak toplu işler paralel olarak işlendiğinden farklı üretim emirlerine yönelik iletiler alınan sırayla işlenmeyebilir. İşlem başarısız olursa toplu iş, *Başarısız* durumuna ayarlamadan önce her iletiyi üç kez işlemeyi dener.
 
 ## <a name="call-the-api"></a>API'yi çağır
 
@@ -119,13 +121,13 @@ Aşağıdaki tabloda, `ProdProductionOrderReportFinished` iletisinin `ReportFini
 | `ReportedGoodQuantity` | İsteğe bağlı | Gerçek|
 | `ReportedErrorCatchWeightQuantity` | İsteğe bağlı | Gerçek |
 | `ReportedGoodCatchWeightQuantity` | İsteğe bağlı | Gerçek |
-| `AcceptError` | İsteğe bağlı |Boole |
+| `AcceptError` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
 | `ErrorCause` | İsteğe bağlı | Enum (Hiçbiri \| Malzeme \| Makine \| OperatingStaff), genişletilebilir |
 | `ExecutedDateTime` | İsteğe bağlı | Tarih/Saat |
 | `ReportAsFinishedDate` | İsteğe bağlı | Tarih |
 | `AutomaticBOMConsumptionRule` | İsteğe bağlı | Enum (FlushingPrincip \| Her zaman \| Asla) |
 | `AutomaticRouteConsumptionRule` | İsteğe bağlı |Enum (RouteDependent \| Her zaman \| Asla) |
-| `RespectFlushingPrincipleDuringOverproduction` | İsteğe bağlı | Boole |
+| `RespectFlushingPrincipleDuringOverproduction` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
 | `ProductionJournalNameId` | İsteğe bağlı | Dize |
 | `PickingListProductionJournalNameId` | İsteğe bağlı | Dize|
 | `RouteCardProductionJournalNameId` | İsteğe bağlı | Dize |
@@ -133,11 +135,11 @@ Aşağıdaki tabloda, `ProdProductionOrderReportFinished` iletisinin `ReportFini
 | `ToOperationNumber` | İsteğe bağlı | Tamsayı|
 | `InventoryLotId` | İsteğe bağlı | Dize |
 | `BaseValue` | İsteğe bağlı | Dize |
-| `EndJob` | İsteğe bağlı | Boole |
-| `EndPickingList` | İsteğe bağlı | Boole |
-| `EndRouteCard` | İsteğe bağlı | Boole |
-| `PostNow` | İsteğe bağlı | Boole |
-| `AutoUpdate` | İsteğe bağlı | Boole |
+| `EndJob` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
+| `EndPickingList` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
+| `EndRouteCard` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
+| `PostNow` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
+| `AutoUpdate` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
 | `ProductColorId` | İsteğe bağlı | Dize|
 | `ProductConfigurationId` | İsteğe bağlı | Dize |
 | `ProductSizeId` | İsteğe bağlı | Dize |
@@ -181,7 +183,7 @@ Aşağıdaki tabloda, `ProdProductionOrderPickingList` iletisinin `PickingListLi
 | `OperationNumber` | İsteğe bağlı | Tamsayı |
 | `LineNumber` | İsteğe bağlı | Gerçek |
 | `PositionNumber` | İsteğe bağlı | Dize |
-| `IsConsumptionEnded` | İsteğe bağlı | Boole |
+| `IsConsumptionEnded` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
 | `ErrorCause` | İsteğe bağlı | Enum (Hiçbiri \| Malzeme \| Makine \| OperatingStaff), genişletilebilir |
 | `InventoryLotId` | İsteğe bağlı | Dize |
 
@@ -217,9 +219,9 @@ Aşağıdaki tabloda, `ProdProductionOrderRouteCard` iletisinin `RouteCardLines`
 | `ConsumptionDate` | İsteğe bağlı | Tarih |
 | `TaskType` | İsteğe bağlı | Enum (QueueBefore \| Kurulum \| Süreç \| Çakışma \| Taşıma \| QueueAfter \| Yük) |
 | `ErrorCause` | İsteğe bağlı | Enum (Hiçbiri \| Malzeme \| Makine \| OperatingStaff), genişletilebilir |
-| `OperationCompleted` | İsteğe bağlı | Boole |
-| `BOMConsumption` | İsteğe bağlı | Boole |
-| `ReportAsFinished` | İsteğe bağlı | Boole |
+| `OperationCompleted` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
+| `BOMConsumption` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
+| `ReportAsFinished` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
 
 ### <a name="end-production-order-message"></a>Bir üretim emri iletisi bitirin
 
@@ -230,9 +232,13 @@ Aşağıdaki tabloda, `ProdProductionOrderRouteCard` iletisinin `RouteCardLines`
 | `ProductionOrderNumber` | Zorunlu | Dize |
 | `ExecutedDateTime` | İsteğe bağlı | Tarih/Saat |
 | `EndedDate` | İsteğe bağlı | Tarih |
-| `UseTimeAndAttendanceCost` | İsteğe bağlı | Boole |
-| `AutoReportAsFinished` | İsteğe bağlı | Boole |
-| `AutoUpdate` | İsteğe bağlı | Boole |
+| `UseTimeAndAttendanceCost` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
+| `AutoReportAsFinished` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
+| `AutoUpdate` | İsteğe bağlı | Numaralandırma (Evet \| Hayır) |
+
+## <a name="other-production-information"></a>Diğer üretim bilgileri
+
+İletiler atölyede gerçekleşen eylemleri veya olayları destekler. Bunlar bu konuda açıklanan MES tümleştirme çerçevesi kullanılarak işlenir. Tasarım, MES ile paylaşılacak diğer başvuru bilgilerinin (ürünle ilgili bilgiler veya ürün reçetesi ya da belirli bir üretim emrinde kullanılan rota (belirli kurulum ve yapılandırma süreleriyle birlikte) gibi) dosya aktarımı veya OData aracılığıyla [veri varlıkları](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) kullanılarak sistemden alınacağını varsayar.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>İletinin durumu hakkında geribildirim alma
 

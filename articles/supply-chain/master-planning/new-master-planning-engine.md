@@ -1,7 +1,7 @@
 ---
 title: Master planlama için Planlama İyileştirmesi'ne geçiş
 description: Bu konu, yeni master planlama altyapısı, Planlama İyileştirmesi ve var olan altyapıdan geçiş hakkında bilgi sağlar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d3edeefca2e2194a8d5484afbfabf2091da4a1c1538d238351a5d389177ccfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728591"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469911"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Master planlama için Planlama İyileştirmesi'ne geçiş
 

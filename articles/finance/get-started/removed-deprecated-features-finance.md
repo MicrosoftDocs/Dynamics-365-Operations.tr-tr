@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890965"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466848"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -31,7 +31,21 @@ Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 > [!NOTE]
-> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+> Finans ve Operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/global/axtechrefrep_61) altından ulaşabilirsiniz. Finans ve Operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Finance 10.0.26 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>Finlandiya için satış vergisi raporu (raporlama kodlarına dayalı tasarım)
+
+[Finlandiya için satış vergisi raporu](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni bir KDV beyannamesi tasarımı olan [Finlandiya için KDV beyannamesi](../localizations/emea-fin-vat-declaration.md) ile değiştirildi. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: 1 Mart 2023 tarihine kadar, Finlandiya için satış vergisi raporunu (Fince rapor düzeni) artık desteklememeyi planlıyoruz. Yeni **KDV beyannamesi TXT (FI**) ve **KDV beyannamesi Excel'i (FI)** Elektronik raporlama (ER) biçimleri, **Vergi beyanı** modeli altında sunulmaktadır. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Finance 10.0.24 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

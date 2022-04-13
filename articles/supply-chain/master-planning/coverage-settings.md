@@ -1,7 +1,7 @@
 ---
 title: Kapsam ayarları
 description: Bu konu, Master planlamanın madde gereksinimlerini hesaplamak için kullandığı kapsam ayarlarıyla ilgili bilgi sağlar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 2494
 ms.assetid: 5a95ae4f-ca75-47d9-a1c3-68c97b42f166
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d0fec443ee4c531d2bc7edc6623d309e863348b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e98f1ab83e27e36400cd312ef2af8554d22ea505
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569805"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470051"
 ---
 # <a name="coverage-settings"></a>Kapsam ayarları
 

@@ -1,7 +1,7 @@
 ---
 title: Talep tahminleri ile master planlama
 description: Bu konu, Planlama İyileştirmesi ile master planlama sırasında talep tahminlerinin nasıl ekleneceğini açıklamaktadır.
-author: ChristianRytt
+author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867259"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468455"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Talep tahminleri ile master planlama
 

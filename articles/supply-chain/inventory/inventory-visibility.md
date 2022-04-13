@@ -2,52 +2,74 @@
 title: Stok Görünürlüğü Eklentisi'ne genel bakış
 description: Bu konuda, Stok Görünürlüğü'nün ne olduğu açıklanmakta ve özellikleri tanımlanmaktadır.
 author: yufeihuang
-ms.date: 10/26/2020
+ms.date: 03/18/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8871d10dac9103f17780989bc547b6c20ba79b76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9ee6229937ea27adf231dcd1c9921878e53bd981
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985558"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524507"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Stok Görünürlüğü Eklentisi'ne genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Stok Görünürlüğü Eklentisi (ayrıca *Stok Görünürlüğü* olarak da adlandırılır) gerçek zamanlı olarak elden stok takibi sağlayan bağımsız ve yüksek düzeyde ölçeklenebilir bir mikro hizmettir. Bu nedenle, stokun genel görünümünü sunar.
+Stok Görünürlüğü Eklentisi (*Stok Görünürlüğü hizmeti* olarak da adlandırılır), tüm veri kaynaklarınız ve kanallarınızda gerçek zamanlı eldeki stok değişikliği takibi sağlayan bağımsız ve yüksek düzeyde ölçeklenebilir bir mikro hizmet sunmaktadır. Aşağıdaki listeyi içeren (ancak bununla sınırlı olmayan) işlevleri kullanarak global stoğunuzu yönetmenizi sağlayan bir platform sunar:
 
-Harici sistemler, RESTful API'ler üzerinden hizmete erişir. Bu şekilde, belirli boyut kümelerinde eldeki bilgileri sorgulayabilir veya farklı özelleştirilmiş veri kaynaklarında stokta değişiklikler yapabilirler.
+- Supply Chain Management veya üçüncü taraf lojistik veri kaynaklarınızı (sipariş yönetimi sistemleri, üçüncü taraf kurumsal kaynak planlama \[ERP \] sistemleri, satış noktası \[POS \] sistemleri ve ambar yönetimi sistemleri gibi) Stok Görünürlüğü hizmetine bağlayarak tüm veri kaynaklarınız, ambarlarınız ve tesislerinizde en güncel stok durumunu (eldeki, sipariş edilmiş, satın alınmış, iade edilmiş ve karantinadaki stok gibi) merkezi bir şekilde takip edin.
+- Eldeki stok kullanılabilirliğini ve eksikliklerini sorgulayın ve Stok Görünürlüğü hizmetini doğrudan arayarak hemen yanıt alın.
+- Özellikle talebinizin farklı kanallardan geldiği durumlarda Stok Görünürlüğü hizmetinde gerçek zamanlı geçici rezervasyonlar yaparak fazla satış yapmaktan kaçının.
+- Çok kanallı karşılanabilir miktar (KM) özelliğinin beklenen sipariş karşılama tarihlerini hesaplayabilmesi için doğru mevcut veya sonraki uygun tarihleri sağlayarak taahhüt edilen siparişleri ve müşteri beklentilerini daha iyi yönetin.
 
-Microsoft Dataverse'te yerleşik bir mikro hizmet olarak Stok Görünürlüğü, genişletilebilirlik sağlar. Power Apps'i kullanarak uygulama oluşturabilirsiniz. Ayrıca iş gereksinimlerinizi karşılayan özelleştirilmiş işlevsellik sağlamak için Power BI'yı da uygulayabilirsiniz.
+## <a name="extensibility"></a>Genişletilebilirlik
 
-Standartlaştırılmış stok boyutları için yapılandırma seçeneklerini ve hareket türlerini ayarlayarak Stok Görünürlüğü'nü birden çok üçüncü taraf sistemle tümleştirebilirsiniz. Stok Görünürlüğü ayrıca yapılandırılabilir hesaplanmış miktarlar üzerinden özelleştirilmiş genişletilebilirliği de destekler.
+Veri giriş ve çıkışının Microsoft uygulamalarıyla sınırlı olmaması nedeniyle Stok Görünürlüğü hizmeti oldukça genişletilebilirdir. Harici sistemler, RESTful uygulama programlama arabirimleri (API) yoluyla hizmete erişebilir. Supply Chain Management veri kaynağı ve boyutları için sağlanan hazır eşlemelerin kullanımına ek olarak, yapılandırma uygulaması yoluyla ek veri kaynakları, stok durumu ölçüleri (Stok Görünürlüğü hizmetinde *fiziksel ölçüler* şeklinde adlandırılır) ve stok boyutları ayarlayarak Stok Görünürlüğünü çeşitli üçüncü taraf sistemler ile tümleştirebilirsiniz. Bu şekilde, birden çok veri kaynağınızı ve önceden tanımlanmış stok boyutlarını esnek bir şekilde sorgulayabilir ve değiştirebilirsiniz.
 
-## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management ile Stok Görünürlüğü tümleştirmesi
+Ayrıca, Stok Görünürlüğünün Microsoft Dataverse üzerinde yerleşik olması nedeniyle verileri, Power Apps ile derlemek ve tümleştirmek için kullanılabilir. İş gereksinimlerinizi karşılayan özelleştirilmiş panolar oluşturmak için Power BI'ı da kullanabilirsiniz.
 
-Tümleşik çözüm, stok verilerini Dynamics 365 Supply Chain Management'tan çeker ve stok değişikliklerini sürekli olarak izler. Daha fazla bilgi için bkz.[Stok Görünürlüğü'nü yükleme ve ayarlama](inventory-visibility-setup.md) ve [Stok Görünürlüğü'nü yapılandırma](inventory-visibility-configuration.md).
+## <a name="scalability"></a>Ölçeklenebilirlik
 
-## <a name="get-a-global-view-of-inventory"></a>Stokun genel görünümünü alma
+Veri hacminize bağlı olarak Stok Görünürlüğü hizmeti yukarı veya aşağı yönde ölçeklendirilebilir. Ölçeklenebilirlik deneyimi çoğunlukla sorunsuz olup hareket verilerinizin hacminin otomatik tespiti ve değerlendirmesine dayanarak Microsoft platform ekibi tarafından yürütülür.
 
-Tümleşik çözüm, kendi veri kaynaklarınızı tanımlamanıza ve stok verilerini merkezileştirmenize olanak tanır. Daha fazla bilgi için bkz. [Stok Görünürlüğü'nü yapılandırma](inventory-visibility-configuration.md).
+## <a name="feature-highlights"></a>Özellikle ilgili önemli noktalar
 
-Stokunuzu görüntülemeye dair iki yaklaşım vardır:
+### <a name="get-a-global-view-of-real-time-inventory"></a>Gerçek zamanlı stoğun küresel görünümünü alın
 
-- Yüksek performanslı API üzerinden bir sorgu gönderin. Bu API, doğrudan önbelleğe alınmış bir örnekten gerçek zamanlı stok verilerini döndürebilir. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md) içinde sözleşmeleri ve örnekleri bulabilirsiniz.
-- Eldeki hammadde listesini görüntüleyin. Bu liste, önbelleğe alınmış bir örnekten düzenli olarak eşitlenir ve Dataverse'te görünür. Daha fazla bilgi için bkz. [Stok Görünürlüğü uygulaması](inventory-visibility-power-platform.md).
+Stok Görünürlüğü tüm kanal, konum ve ambarlarınızda her zaman en güncel stok miktarlarına erişmenizi sağlar. Stok kayıtlarını edinmeniz gerektiğinde günlük operasyonel işlerinizi desteklemek için kullanarak büyük fayda elde edebilirsiniz. Eldeki fiziksel stok, satılan miktarlar ve satın alınan miktarların hepsi kullanıma hazırdır. İlgili ayrıntıları gerçek zamanlı şekilde elde etmek için gereksinim duyduğunuz diğer fiziksel envanter ölçümlerini (iade, karantinaya alınan ve deftere nakledilen veriler) de tümleştirebilirsiniz. Stok Görünürlüğü, milyonlarca stok gönderisini naklini verimli bir şekilde işleyebilir. Bu veriler toplanır ve verilerin gönderildiği aralığa bağlı olarak hizmette bulunan son stok miktarlarına anında, saniyelik veya dakikalık olarak yansıtılabilir. Daha fazla bilgi için bkz. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md).
 
-## <a name="soft-reservations"></a>Geçici rezervasyonlar
+### <a name="soft-reservation-to-avoid-overselling-across-all-order-channels"></a>Fazla satışın önlenmesi adına tüm sipariş kanallarında geçici rezervasyon
 
-Geçici rezervasyon, bir işletmenin örneğin fazla satışı önleyecek şekilde satış siparişi tamamlamayı desteklemek için belirli bir ürün miktarını rezerve etmesi gerektiğinde uygulanır. Supply Chain Management'ta veya başka sipariş yönetimi sistemlerinde bir satış siparişi oluşturulup onaylandığında Stok Görünürlüğü'ne miktarı rezerve etme isteği gönderilir. Stok Görünürlüğü, boyut ayrıntılarına ve belirli stok hareket türlerine sahip ürünleri rezerve etmenize olanak tanır. (Daha fazla bilgi için bkz. [Stok Görünürlüğü uygulaması](inventory-visibility-power-platform.md).) Miktar başarıyla rezerve edildikten sonra rezervasyon kimliği döndürülür. Supply Chain Management'ta veya diğer sipariş yönetimi sistemlerinde orijinal siparişe geri bağlantı sağlamak için bu rezervasyon kimliğini kullanabilirsiniz.
+*Geçici rezervasyon*, bir sipariş veya talebin karşılanması için belirli miktarları atamanıza veya bayrakla işaretlemenize olanak tanır. Geçici rezervasyon, fiziksel stoğu etkilememekle birlikte *rezervasyon için kullanılabilir* olan stok miktarından düşülür ve gelecekteki siparişlerin karşılanması için güncel miktarı gösterir. Bu özellik, satış taleplerinin veya siparişlerin kayıt sisteminin kurumsal kaynak planlama (ERP) sisteminizin dışındaki bir ya da birden fazla kanal veya veri kaynağından işletmenize gelmesi durumunda faydalı olacaktır.
 
-Bu işlev, Stok Görünürlüğü'nde bir rezervasyonun toplam miktarı değiştirmeyeceği şekilde tasarlanmıştır. Bunun yerine, yalnızca rezerve edilen miktar işaretlenir. (Bu nedenle, buna *geçici rezervasyon* adı verilir.) Ürünler, Stok Görünürlüğü'nde miktar azaltması yapıp toplam miktarı güncelleştirmek için tekrar API'yi çağırarak Supply Chain Management'ta veya üçüncü taraf bir sistemde tüketildiğinde geçici rezerve edilen miktar denkleştirilebilir. Daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](inventory-visibility-reservations.md).
+Stok Görünürlüğü hizmetinde geçici rezervasyon kullanmamanız halinde fiziksel stok miktarının güncelleştirilmesi için siparişinizin ERP sisteminizle eşitlenmesi ve bu sistem tarafından işlenmesini beklemeniz gerekir. Bu işlemin gecikme süresi genellikle çok uzundur. Ancak geçici rezervasyonlar, satış kanallarınızda bir satış talebi veya sipariş oluşturulduğunda hemen uygulanır. Bu nedenle, çok kanallı siparişlerinizin ERP sistemine ulaştığında birbirine karışmamasını sağlayarak fazla satış durumlarının önlenmesine yardımcı olur. Geçici rezervasyonlar, taahhüt etmiş olduğunuz tüm siparişlerin karşılanmasını da sağlar. Bu nedenle, müşteri beklentilerini karşılamanıza ve müşteri bağlılığını sürdürmenize yardımcı olur. Daha fazla bilgi için bkz. [Stok Görünürlüğü rezervasyonları](inventory-visibility-reservations.md).
+
+### <a name="immediate-response-of-atp-dates-confirmation"></a>KM tarih onayıyla ilgili anında yanıt
+
+Yakın gelecekteki tahmini stoğunuza yönelik görünürlük (arz, talep ve tahmini eldeki stok detayları dahil) önemlidir ve şirketinizin aşağıdaki hedeflere erişmesine yardımcı olur:
+
+- Stok yönetim maliyetlerini azaltmak için stok düzeylerini en aza indirin.
+- Satış temsilcilerinin, sipariş edilen ürünlerin kullanılabilirliğine göre gönderi ve teslim tarihlerini hesaplayabilmesi için dahili sipariş işleme sürecini kolaylaştırın.
+- Sonraki kullanılabilir tarih bilgisini sağlayarak stokta olmayan bir ürünün ne zaman kullanılabilir olacağı ile ilgili müşterilere şeffaflık sağlayın.
+
+KM özelliği, günlük sipariş karşılama sürecinize kolaylıkla dahil edilebilir. En önemlisi, diğer Stok Görünürlüğü teklifleri gibi KM özelliği de *global ve gerçek zamanlıdır*. Bu nedenle, tüm iş kanallarınızı ve veri kaynaklarınızı kapsayan tam stok kullanılabilirlik sorgusu yapabilmek için birden çok KM hesaplama formülü ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md).
+
+### <a name="compatibility-with-advanced-warehouse-management-items"></a>Gelişmiş ambar yönetimi maddeleriyle uyumluluk
+
+Microsoft, WHS müşterilerinin de Stok Görünürlüğü hizmetinden faydalanması için gelişmiş ambar yönetimi (WHS) ile hazır tümleştirme sağlamayı amaçlamaktadır. 2022 1. Dalga'nın yayınlanması (genel önizlemesi Mart ayında) ile stok hizmeti, WHS eldeki stok sorgularını ve KM'yi destekler. Geçici rezervasyon ve tahsisat özelliği, WHS müşterileri için bir sonraki dalgada desteklenecektir. <!-- KFM: Add this link when target is published: For more information, see [Inventory Visibility support for WHS items](inventory-visibility-whs-support.md). -->
+
+## <a name="licensing"></a>Lisans
+
+Stok Görünürlüğü hizmeti aşağıdaki sürümlerde kullanılabilir:
+
+- **Microsoft Dynamics 365 Supply Chain Management** için Stok Görünürlüğü Eklentisi - Geçerli bir Supply Chain Management lisansı bulunan şirketler için Stok Görünürlüğü ek bir lisans ücreti ödenmesine gerek kalmadan kullanılabilir. Hemen deneyebilirsiniz. Yükleme ayrıntıları için bkz. [Stok Görünürlüğü'nü yükleme ve ayarlama](inventory-visibility-setup.md).
+- **IOM bileşeni olarak Stok Görünürlüğü Hizmeti** – Bu sürüm, Intelligent Order Management (IOM) müşterileri ve ERP sistemi olarak Supply Chain Management kullanmayan şirketlere yöneliktir. Lisans, IOM ürün demetinde bulunmaktadır. Daha fazla bilgi için bkz. [Intelligent Order Management'a genel bakış](/dynamics365/intelligent-order-management/overview).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

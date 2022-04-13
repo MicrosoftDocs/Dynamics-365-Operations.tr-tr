@@ -1,27 +1,26 @@
 ---
 title: Öncelik tabanlı planlama
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır.
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 41c4f3e9bd41735b213743bd8b4cdd8d9657a073
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777901"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468314"
 ---
 # <a name="priority-based-planning"></a>Öncelik tabanlı planlama
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ın öncelik tabanlı planlama özelliği açıklanmaktadır. Özellik, Talep Temelli Malzeme Gereksinimleri Planlaması (DDMRP) adımı olan talep temelli planlamaya destek ekler. Önceliğe dayalı planlama, Planlama Optimizasyonu için, gereksinim tarihleri yerine öncelikler planlama ile çalışan planlı siparişler oluşturma olanağı sağlar.
 

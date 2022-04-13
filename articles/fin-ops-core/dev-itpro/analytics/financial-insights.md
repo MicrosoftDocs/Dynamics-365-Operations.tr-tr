@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416317"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464923"
 ---
 # <a name="financial-analysis"></a>Mali Analiz
 
@@ -38,7 +38,7 @@ ms.locfileid: "7416317"
 
 **Mali analiz** çalışma alanı, var olan raporlardaki verileri görüntülemenizi ve filtrelemenizi sağlamaya odaklanır. **Mali analiz** çalışma alanına yeni görseller ekleyebilirsiniz. **Mali analiz** çalışma alanı, geçerli şirket ve tüm şirketler için rolün eriştiği tüzel kişiliklerden bağımsız olarak tüm tüzel kişiliklere ilişkin verileri göstermek için kullanılabilir.
 
-- [Panonuza Power BI görselleştirmeleri ekleme veya bunları düzenleme](/powerapps-docs/user/add-powerbi-dashboards.md)
+- [Panonuza Power BI görselleştirmeleri ekleme veya bunları düzenleme](/powerapps/user/add-powerbi-dashboards)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance kurulumu
 **Genel muhasebe**
@@ -96,7 +96,7 @@ Aşağıdaki karşılaştırma grafiği iki seçeneğin ayrılmasına yardımcı
 | **Raporlama hiyerarşisini/Kuruluş hiyerarşisini destekle**   | Evet                                                               | Hayır |
 | **Yardımcı defter verilerini raporla**                             | Evet Yalnızca satıcı, müşteri ile sınırlı                              | Evet Satıcı, müşteri, satıcı/müşteri grupları, satıcı/müşteri adresleri vb. |
 | **Raporlama para birimi**                                   | Evet Muhasebe para birimi ve raporlama para birimine çevirme       | Hayır Yalnızca muhasebe para birimi |
-| **Güvenlik**                                             | Evet Finance ile raporlama ağacı güvenliğine uyar | Tüm şirketler (Finance and Operations güvenliğinden bağımsız olarak) veya yalnızda etkin şirket için sınırlı Görünüm raporları |
+| **Güvenlik**                                             | Evet Finance ile raporlama ağacı güvenliğine uyar | Sınırlı Tüm şirketler (Finance and Operations güvenliği ne olursa olsun) veya aktif şirket için raporları görüntüle |
 | **Farklı hesap planlarını ve mali yılları destekle** | Evet                                                               | Hayır |
 | **harici verileri raporla**                              | Hayır                                                                | Hayır |
 | **Konsolidasyonları destekle**                               | Evet                                                               | Sınırlı Birden çok şirketle ilgili rapor verebilir ancak yalnızca muhasebe para birimini kullanır |
@@ -161,7 +161,7 @@ Aşağıdaki boyutlar varsayılan raporlarda kullanılır. Bu boyutların hiçbi
 - Şehir
 
 > [!IMPORTANT] 
-> Birden fazla satıcı veya müşteriye ilişkin hareketleri mali günlükleri kullanarak tek bir fişte özetlerseniz, veriler yanlış olacaktır. Raporlama süreci hangi satıcı veya müşterinin günlük girişindeki belirli bir kayıt defteriyle ilgili olduğunu belirleyemez çünkü bu bilgi herhangi bir yerde tutulmamaktadır. Bu nedenle, tek bir fişe birden fazla satıcı, müşteri, sabit kıymet veya proje girmenizi önermeyiz.
+> Birden fazla satıcı veya müşteriye ilişkin hareketleri mali günlükleri kullanarak tek bir fişte özetlerseniz, veriler yanlış olacaktır. Raporlama süreci hangi satıcı veya müşterinin yevmiye defteri girişindeki belirli bir kayıt defteriyle ilgili olduğunu belirleyemez çünkü bu bilgi herhangi bir yerde tutulmamaktadır. Bu nedenle, tek bir fişe birden fazla satıcı, müşteri, sabit kıymet veya proje girmenizi önermeyiz.
 
 ## <a name="drill-on-data"></a>Verilerin ayrıntısına inme
 

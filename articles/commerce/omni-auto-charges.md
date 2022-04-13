@@ -2,7 +2,7 @@
 title: Çok yönlü kanal gelişmiş otomatik masrafları
 description: Bu konu Commerce kanal düzeni masraflar otomatik gelişmiş özelliklerini kullanmak için diğer sipariş masrafları yönetmek için kullanılan özellikleri açıklar.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743443"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489630"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Çok yönlü kanal gelişmiş otomatik masrafları
 
@@ -187,6 +187,9 @@ Neden kodları üzeri yazılan masraflar için yakalanmamışsa, yeni bir rapor 
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>POS iade hareketinde masrafları iade etmek
 
 **Gelişmiş otomatik masrafları kullan** parametresi **Evet** olarak ayarlanmışsa, **Sevkiyat masraflarını iade et** için mevcut Ticaret parametresi artık uygulanamaz. Hangi masrafların sistematik olarak bir müşteriye gelişmiş otomatik masraflar kullanılırken iade edileceğini belirtmek için ilgili masraf kodları **İade edilebilir** olarak **Masraf kodları** ayar sayfasında yapılandırılmıştır. Ayarların Ticaret kanalı veritabanınıza dağıtım zamanlama işleme üzerinden eşitlenmiş olduğundan emin olun.
+
+> [!TIP]
+> Satır düzeyinde iade edilebilir masrafların iade edilen miktara göre hesaplanmasını sağlamanıza yardımcı olacak yönergeler için bkz. [İade edilebilir masraflar, iade edilen miktara göre hesaplanmamış](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Sipariş iade hareketinde masrafları iade etmek
 
