@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752820"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548094"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)
 
@@ -816,7 +816,7 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 | Satıcı olarak, müşteriye aktarılan konsinye stoğun tutarı hakkında bilgi edinin. | Müşteriyi faturalandırmak için, satıcıya konsinye stoktan satın alınan hammaddeler ve satınalma tarihi hakkında bilgiler gerekir. Satıcı ayrıca, satıcı iş birliği arabirimini kullanarak müşterinin tesisindeki eldeki stoğu da izleyebilir. |
 | Transfer günlüğü kullanarak satıcıya ait stoğu taşıyın. | Satıcıya ait stoğun fiziksel pozisyonunu izlemek için pozisyonu sisteme kaydedebilmeniz gerekir. Transfer günlüğü kullanarak, bir ambardaki bir konumdan aynı ambardaki başka bir konuma taşınma gibi stoğun fiziksel hareketini kaydedebilirsiniz. |
 | Satıcıya ait stoğu sayım günlüğü kullanarak düzeltin. | Sistemdeki eldeki stoğu, fiili fiziksel stok ile eşit tutmak önemlidir. Satıcıya ait stok, miktar düzeltmesi ve sayım günlüğü işlemleri gibi sayım işlemleri kullanılarak artı eksi olarak düzeltilebilir. |
-| Dynamics 365 for Operations içinde konsinye desteği hakkında daha fazla bilgi alın | Konsinye işlemleri desteği hakkında daha fazla bilgi için bkz. [Konsinye](../../../supply-chain/inventory/consignment.md), [Konsinyeyi ayarlama](../../../supply-chain/inventory/set-up-consignment.md), [Konsinye stok yenileme siparişi oluşturma (Görev kılavuzu)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) ve [Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme (Görev kılavuzu)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Dynamics 365 for Operations içinde konsinye desteği hakkında daha fazla bilgi alın | Konsinye işlemleri desteği hakkında daha fazla bilgi için bkz. [Konsinye](../../../supply-chain/inventory/consignment.md), [Konsinyeyi ayarlama](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Konsinye stok yenileme siparişi oluşturma (Görev kılavuzu)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) ve [Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme (Görev kılavuzu)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Satıcı iş birliği (eski adıyla Satıcı portalı)
 

@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986370"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566013"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Meksika için Elektronik faturalamayı kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Meksika için elektronik faturalama şu anda Comprobante Fiscal Digital por Internet (CFDI) belgesindeki kullanılabilir ve Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management üzerinde oluşturulan ilgili tümleştirmelerde tüm işlevleri desteklemeyebilir.
+> Meksika için elektronik faturalama şu anda Comprobante Fiscal Digital por Internet (CFDI) belgesinde kullanılabilir olan ve Microsoft Dynamics 365 Finance ile Dynamics 365 Supply Chain Management üzerinde oluşturulan ilgili tümleştirmelerde tüm işlevleri desteklemeyebilir.
 
 Bu konu, Meksika için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir. Regulatory Configuration Services (RCS) ve Finance için ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Ayrıca, servis üzerinden CFDI faturalarını göndermek için Finance'de izlemeniz gereken adımlarda size yol gösterir ve işlem sonuçlarının nasıl gözden geçirileceğini ve CFDI faturalarının durumunu açıklamaktadır.
 
@@ -141,7 +141,7 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 1. **Özellik sürümü kurulumu** sayfasında, **Değişkenler** sekmesinde, **DigitalSignatureXSLT** değişkeni adını seçin.
 2. **Değerler** alanına şunu girin: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
    
-    burada: <RelativePath> = çift ters eğik kenarlı klasör\\klasör\\ dosya adı, ContainerName hizmet için kullanılan kapsayıcıyı belirtmelidir.
+    burada: \<RelativePath\> = çift ters eğik kenarlı klasör\\klasör\\ dosya adı, ContainerName hizmet için kullanılan kapsayıcıyı belirtmelidir.
    
     Değişkene örnek olarak şu verilebilir:
     

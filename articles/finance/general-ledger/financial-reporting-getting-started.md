@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
-ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
+ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
+ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8527327"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8573664"
 ---
 # <a name="get-started-with-financial-reporting"></a>Mali raporlamayı kullanmaya başlama 
 
@@ -212,7 +212,7 @@ Microsoft desteği ile konuşmanızı daha etkili hale getirmek ve daha hızlı 
 Aşağıdaki adımlar, Financial Reporting için Olay görüntüleyicisi iletilerini açma işlemi konusunda yol gösterir. Olay görüntüleyicinin oluşturduğu günlükler, bağlantı sorununun kaynağını hızlıca belirlemek için destek mühendislerine yardımcı olur. Destek ile iletişim kurarken bu günlüklerin kopyalarını biletle birlikte gönderin.
 
 
-1. RegisterETW.zip dosyasını istemci iş istasyonuna (tercihen Masaüstü) kopyalayın ve [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster) dosyasını ayıklayın.
+1. RegisterETW.zip dosyasını istemci iş istasyonuna (tercihen Masaüstü) kopyalayın ve [RegisterETW.zip](https://mbs2.microsoft.com/fileexchange/?fileID=60b1106b-d5f8-4e0f-8041-039102505122) dosyasını ayıklayın.
 2. Windows Olay görüntüleyicinin kapalı olduğundan emin olun.
 3. Yönetici PowerShell komut istemi açın ve RegisterETW.ps1 dosyasının bulunduğu dizine gidin.
 4. Şu komutu çalıştırın: .\RegisterETW.ps1

@@ -2,7 +2,7 @@
 title: Mühendislik sürümleri ve mühendislik ürünü kategorileri
 description: Bu konu, mühendislik sürümleri konsepti hakkında bilgi sağlar. Mühendislik sürümleri, bir ürünün farklı durumlarının ve verilerinin güncel ve net tutulmasını ve sistemde görselleştirilebilmesini sağlar.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572901"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553376"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Mühendislik sürümleri ve mühendislik ürünü kategorileri
 
@@ -137,7 +137,7 @@ Kılavuza eklediğiniz her satır için aşağıdaki alanları ayarlayın.
 |---|---|
 | Kuruluş adı | Eklenecek özniteliği seçin. |
 | Değer | Öznitelik için varsayılan değeri seçin. |
-| Zorunlu | *Boole* türündeki öznitelikler için bu seçenek *Evet* olarak ayarlanmışsa kullanıcıların özniteliği *Evet* olarak ayarlamaları gerekir. Bu seçenek *Hayır* olarak ayarlanırsa, kullanıcılar özniteliği *Evet* veya *Hayır* olarak ayarlayabilir. Diğer veri türleri için bu seçeneğin ayarı yalnızca bilgilendirme amaçlıdır. |
+| Zorunlu | Özniteliğin zorunlu olup olmayacağını seçin, zorunlu olması durumunda kullanıcıların bir ürünü kaydetmeden önce öznitelik için geçerli bir değer belirtmeleri gerekir. Bu ayarın etkisi, aşağıdaki listede tanımlandığı gibi, seçili özniteliğin veri türüne göre çok az farklılık gösterir.<ul><li>**Boolean** – Özniteliğin *Evet* değerine sahip olmasını istiyorsanız bunu *Evet* olarak ayarlayın (sistem, özniteliğin *Hayır* olarak ayarlandığı bir ürünü kaydetmeyi reddeder). *Evet* veya *Hayır* değerini kabul etmek için bunu *Hayır* olarak ayarlayın. (*Boolean* türündeki öznitelikler boş değere sahip olamaz.)</li><li>**Tamsayı veya Ondalık** – Kullanıcıların bu öznitelik için sıfır olmayan bir değer girmesini zorunlu kılmak için bunu *Evet* olarak ayarlayın. Kullanıcıların sıfır değeriyle kaydedebilmesi için bu seçeneği *Hayır* olarak ayarlayın.  (Bu tür öznitelikler boş değere sahip olamaz.)</li><li>**Liste** – Listeler *Metin* veri türüne sahiptir ancak önceden tanımlanmış olası değerler listesi de içerir. Bu nedenle, bu tür öznitelikler için boş bir değer girmek olanaklı değildir, dolayısıyla bu ayarın hiçbir etkisi olmaz ve yalnızca bilgilendirme amaçlıdır.</li><li>**Tüm diğer veri türleri** – Özniteliği zorunlu hale getirmek için bunu *Evet* olarak ayarlayın. Kullanıcıların bu öznitelik için bir değer sağlamadan ürün kaydetmesine izin vermek için bu ayarı *Hayır* olarak ayarlayın.</li></ul> |
 | Toplu iş özniteliği | Özniteliğin toplu işlem işleviyle doldurulup doldurulmayacağını seçin. |
 
 ### <a name="readiness-policy-fasttab"></a>Hazırlık ilkesi hızlı sekmesi

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570958"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570450"
 ---
 # <a name="manage-voyages"></a>Seyahatleri yönetme
 
@@ -66,9 +66,9 @@ Aşağıdaki tabloda, doğrudan Eylem Bölmesinde bulunan **Yönet** sekmesindek
 | Transitte | **Seyahat durumu** alanını, **[Varış yeri maliyeti parametreleri](landed-cost-parameters.md)** sayfasında oluşturulan transit durumuna güncelleştirin. Bu işlemde başka bir mantık yoktur. Bir seyahat, [İzleme denetimi merkezindeki](delivery-information-setup.md) ayarlara bağlı olarak transit durumuna otomatik olarak güncelleştirilebilir.
 | Maliyetlendirmeye hazır | **Seyahat durumu** alanını, **[ Varış yeri maliyeti parametreleri](landed-cost-parameters.md)** sayfasında oluşturulan maliyetlendirmeye hazır durumuna güncelleştirin. Tüm faturalar işlendiğinde (hem stok faturaları hem de seyahat maliyeti faturaları) ve mallar alındığında bir seyahat maliyetlendirilebilir. Bir seyahatle ilişkili tahmini maliyetler maliyetlendirilmemişse bir seyahatin maliyetini işlemeye çalıştığınızda hata oluşur. |
 | Maliyetlendirildi | Tüm satın alma siparişleri ve seyahat maliyetleri için bir fatura oluştuktan sonra maliyetlendirme düzensizliklerini temizleyin. Bu düğmeyi seçtiğinizde, **Seyahat güncelleştirmesi - Maliyetlendirilmiş** iletişim kutusu görüntülenir. Burada, standart mali tarihte deftere nakletmeyi veya bir deftere nakil tarihi belirtmeyi seçebilir ve ardından eylemi çalıştırabilirsiniz. Eylemi istediğiniz kadar yeniden çalıştırabilirsiniz. **Seyahat güncelleştirmesi - Maliyetlendirilmiş** iletişim kutusunu, eylemi periyodik görev (toplu işlem) olarak çalıştıracak bir zamanlama oluşturmak için de kullanabilirsiniz. Eylemi toplu işlem olarak ayarlayarak düzenli olarak çalıştırmanızı öneririz. |
-| Girişler listesini deftere naklet | Seyahatteki tüm satın alma siparişi satırları için bir giriş listesini deftere nakledin. Çok şirketli seyahatler kullanılırsa her şirket için yeni bir giriş listesi deftere nakil iletişim kutusu açılır ve her tüzel kişilikte işlenmesi gerekir. |
-| Ürün girişini deftere naklet | Seyahatteki tüm satın alma siparişi satırları için bir ürün girişini deftere nakledin. Bir seyahatle ilişkili satın alma siparişi satırları için ürün girişi işlemi, yalnızca mallar transitteki mal işlemeden **geçmeyecekse** kullanılır. Mallar transitteki malların işlenmesinden geçecekse bir satın alma siparişi satırı için ürün girişini deftere nakletmeye çalıştığınızda hata alırsınız. Çok şirketli seyahatler kullanılırsa her şirket için yeni bir teslimat notu deftere nakil iletişim kutusu açılır. |
-| Faturayı deftere naklet | Seyahatteki tüm satın alma siparişi satırları için bir faturayı deftere nakledin. Seyahatteki mallar sevkiyattaki malların işlenmesinden geçecekse satın alma siparişi satırları teslim alma işlemi yapılmadan önce faturalanır. Orijinal satın alma siparişi faturalandığında, orijinal satın alma siparişi satırlarıyla ilişkili transitteki mal siparişleri oluşturulur. Bu siparişler daha sonra ambar tarafından teslim alınabilir. Çok şirketli sevkiyatlar kullanılırsa her şirket için yeni bir fatura deftere nakil iletişim kutusu açılır. |
+| Girişler listesini deftere naklet | Seyahatteki tüm satın alma siparişi satırları için bir giriş listesini deftere nakledin.  |
+| Ürün girişini deftere naklet | Seyahatteki tüm satın alma siparişi satırları için bir ürün girişini deftere nakledin. Bir seyahatle ilişkili satın alma siparişi satırları için ürün girişi işlemi, yalnızca mallar transitteki mal işlemeden **geçmeyecekse** kullanılır. Mallar transitteki malların işlenmesinden geçecekse bir satın alma siparişi satırı için ürün girişini deftere nakletmeye çalıştığınızda hata alırsınız.  |
+| Faturayı deftere naklet | Seyahatteki tüm satın alma siparişi satırları için bir faturayı deftere nakledin. Seyahatteki mallar sevkiyattaki malların işlenmesinden geçecekse satın alma siparişi satırları teslim alma işlemi yapılmadan önce faturalanır. Orijinal satın alma siparişi faturalandığında, orijinal satın alma siparişi satırlarıyla ilişkili transitteki mal siparişleri oluşturulur. Bu siparişler daha sonra ambar tarafından teslim alınabilir.  |
 | Sevk transfer emri | Seyahatteki tüm transfer emri satırları için bir transfer emri seyahatini deftere nakledin. Bu düğme seçildiğinde, güncelleştirme için yalnızca transfer emirleri kullanılabilir. |
 | Transfer emrini al | Seyahatteki tüm transfer emri satırları için transfer emri girişini deftere nakledin. |
 | Transitteki malları al | Seyahatteki transitteki tüm sipariş satırlarını alın. Bu düğme, bir seyahatte transitteki malları almak için kullanılabilen üç seçenekten biridir. (Diğer iki seçenek, bu tablonun ilerleyen bölümlerinde açıklanan **Varış günlüğü oluştur** düğmesi ve Ambar Yönetimi mobil uygulamasıdır.) Bu seçenek en basit seçenektir ve transitteki malları transit ambarından nihai hedef ambara işler. İşlem üzerinde daha fazla kontrol isterseniz malların alımını işlemek için varış günlüğü veya mobil cihaz kullanın. |
@@ -84,7 +84,7 @@ Aşağıdaki tabloda, doğrudan Eylem Bölmesinde bulunan **Genel** sekmesinde a
 
 | Düğme | Tanım |
 |---|---|
-| Giriş listesi | Seyahatteki tüm satın alma siparişi satırları için ürün girişi listesini açın. Çok şirketli seyahatler kullanılırsa her şirket için yeni bir giriş listesi açılır. Ürün giriş listeleri işlenmediyse bu düğme kullanılamaz. |
+| Giriş listesi | Seyahatteki tüm satın alma siparişi satırları için ürün girişi listesini açın.  Ürün giriş listeleri işlenmediyse bu düğme kullanılamaz. |
 | Ürün girişi | Ürün girişi kaydı kullanılıyorsa seyahatle ilişkili satın alma siparişi satırları için bu kaydı açın. Deftere nakledilmiş ürün girişi yoksa bu düğme kullanılamaz. Transitteki malları kullanıyorsanız ürün girişi işlemi kullanılmaz. |
 | Madde varışı | Kullanılıyorsa madde varış günlüğünü açın. |
 | İzleme | Bir sevkiyat konteyneri ve bir yolculuktaki malların beklenen varış tarihini güncelleştirebileceğiniz **Geliş izleme** sayfasını açın ve daha sonra satın alma siparişi satırlarının beklenen teslimat tarihlerini güncelleştirin. |

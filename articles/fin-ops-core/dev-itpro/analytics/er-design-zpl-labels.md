@@ -15,24 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392975"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612370"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>ZPL etiketleri yazdırmak için yeni bir ER çözümü tasarlama
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Bu konuda Sistem Yöneticisi, Elektronik Raporlama Geliştiricisi veya Elektronik Raporlama İşlevsel Danışmanı rolüne sahip bir kullanıcının [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesinin parametrelerini nasıl yapılandırabileceği, Ambar yönetimi sistemi verilerine erişmek için yeni bir ER çözümünün gerekli ER [yapılandırmalarını](general-electronic-reporting.md#Configuration) nasıl tasarlayabileceği ve nasıl Zebra Programlama Dili (ZPL) II biçiminde özel ambar konumu etiketleri oluşturabileceği açıklanmaktadır. Bu adımlar **USRT** şirketinde gerçekleştirilebilir.
 
 ## <a name="business-scenario"></a>İş senaryosu
 
-Microsoft Dynamics 365 Finance'ta ambar yönetimini uygulayan bir şirketi temsil ediyorsunuz. Her ambar konumu, bir barkod içeren, kendi kendine bağlanan bir etiketle etiketlenmelidir. Ambar çalışanları, barkodları taramak için elle tutulan barkod okuyucularını kullanır.
+Microsoft Dynamics 365 Finance'te ambar yönetimini uygulayan bir şirketi temsil ediyorsunuz. Her ambar konumu, bir barkod içeren, kendi kendine bağlanan bir etiketle etiketlenmelidir. Ambar çalışanları, barkodları taramak için elle tutulan barkod okuyucularını kullanır.
 
 Servise alma öncesi etkinlikler kapsamında tüm ambar yerleşimleri etiketlendi. Ancak, varolan etiketlerin zarar görmesi veya ambarda rafa kaldırma yeniden yapılandırılması durumunda ambar konumu etiketlerini de yazdırmanız gerekir. En son yayınlanan ER işlevlerini kullanarak, bir ambar gözetmeninin etiketleri ısı etiketi yazıcısına doğrudan yazdırmasını sağlayan yeni bir ER çözümü konfigüre edebilirsiniz.
 

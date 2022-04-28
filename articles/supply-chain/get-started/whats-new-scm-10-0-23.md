@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920212"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570492"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 sürümündeki yenilikler veya değişiklikler (Ocak 2022)
 
@@ -57,7 +57,7 @@ Bu özelliklerden herhangi birini etkinleştirmek veya devre dışı bırakmak i
 | Tedarik ve kaynak atama | Satınalma siparişi güncelleştirme geçmişini temizle | Bu özellik, satınalma siparişi güncelleştirmeleri ile ilgili geçici geçmiş kayıtları temizlemenizi sağlar. **Tüm satınalma siparişleri** sayfasındaki eylem bölmesine **Satınalma güncelleştirme geçmişini temizle** adı verilen yeni bir düğme ekler. Varsayılan olarak bu özellik etkindir. |
 | Üretim denetimi | (Önizleme) Otomatik olarak deftere nakledilen malzeme çekme listeleri için ambarın etkinleştirildiği malzemeleri otomatik çekme | Bu özellik, otomatik olarak deftere nakledilen, türetilen ve geriye dönük malzeme çekme listesi günlükleri için stok boyutlarını otomatik olarak çekmenize ve çözümlemenize olanak tanır. |
 | Üretim denetimi | Planlanan tüketim tarihine göre hammadde son tarihlerini doğrula | Bu özellik, üretim sırasında kullanılmak üzere toplu iş hariç bir madde rezerve edildiğinde toplu sona erme tarihlerinin nasıl doğrulanacağını değiştirir. Bu özellik etkinleştirildiğinde, toplu iş sona erme tarihi, üretim ürün reçetesi satırında veya toplu iş emri formülü satırında belirlendiği şekilde planlanan tüketim tarihine (hammadde tarihi) göre doğrulanır. Bu özellik devre dışı bırakıldığında toplu iş sona erme tarihi, üretim emri veya toplu iş emrinin planlanan teslim tarihine (daha önce) göre doğrulanır. |
-| Satış ve pazarlama | Yaşına göre satış güncelleştirme geçmişini temizle | Bu özellik, **Satış güncelleştirme geçmişi temizliği** periyodik görevini çalıştırırken tutulacak maksimum kayıt yaş kaydını ayarlamanızı sağlar. Eski kayıtlar silinecek. Bu, geçerlilik süresi her zaman görevin çalıştırıldığı tarihe göre hesaplandığı için, görevi belirli aralıklarla çalışacak şekilde ayarladığınızda yararlıdır. Bu özellik olmadan, yalnızca tutulacak en eski kayıtlar için belirli bir tarih ayarlayabilirsiniz. |
+| Satış ve pazarlama | Yaşına göre satış güncelleştirme geçmişini temizle | Bu özellik, **Satış güncelleştirme geçmişi temizliği** periyodik görevini çalıştırırken tutulacak maksimum kayıt yaş kaydını ayarlamanızı sağlar. Eski kayıtlar silinecek. Bu, geçerlilik süresi her zaman görevin çalıştırıldığı tarihe göre hesaplandığı için, görevi belirli aralıklarla çalışacak şekilde ayarladığınızda yararlıdır. Bu özellik olmadan, yalnızca tutulacak en eski kayıtlar için belirli bir tarih ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Satış geçmişi verilerini temizleme işlemini zamanlama](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Satış ve pazarlama | "İlk 100" müşteri raporunun performansını iyileştir | Bu özellik, raporu özel sorgulara izin verilmektense raporu her zaman tüm müşteriler genelinde her çalıştırarak **İlk 100** müşterini raporunun performansını artırır. Bu özellik etkinleştirildiğinde, tüm **Dahil edilecek kayıtlar** ayarları, **İlk 100** rapor iletişim kutusunda devre dışı bırakılır. |
 | Ambar yönetimi | Giden siparişlerin ambara serbest bırakılmasına yönelik ölçek birimi desteği | Bu özellik etkinleştirildiğinde, giden siparişler merkezden, doğrudan siparişlerin karşılanacağı ölçek birimine bırakılabilir. |
 
@@ -79,9 +79,9 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.23 sürümü için platform güncelleştirmeleri (Kasım 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.23 sürümü için platform güncelleştirmeleri (Kasım 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

@@ -2,7 +2,7 @@
 title: Satış siparişleri oluşturma
 description: Bu prosedür, size bir satış siparişinin nasıl oluşturulacağını göstermektedir.
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566323"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551738"
 ---
 # <a name="create-sales-orders"></a>Satış siparişleri oluşturma
 
@@ -66,5 +66,7 @@ Kuruluşunuz tarafından satılan ürünler; konfigürasyon, renk, boyut ve stil
     
 3. **Tamam**'ı seçin.
 
+## <a name="sales-order-creation-performance-enhancement"></a>Satış siparişi oluşturma performans iyileştirmesi
+10.0.26 sürümü ile tanıtılan yeni özellik, **SourceDocumentHeader** ve **SourceDocumentLine** tabloları için ek kayıt oluşturma işlemlerini azaltır. Bu kayıtlar oluşturulmadığından performans artırılmış ve depolama boyutu azaltılmıştır. Bu temel kaynak belge çerçevesi tabloları şu anda üründeki satış siparişleri için kullanılmıyor ve bunların kullanılması için herhangi bir plan yapılmamıştır. Bu özelliğin etkinleştirilmesi, gelişmiş performans için güvenli bir değişiklik olarak kabul edilir. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

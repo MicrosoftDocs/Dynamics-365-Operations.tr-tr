@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060450"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565642"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı sağla
 
@@ -40,6 +40,10 @@ Yeni bir üretim ortamını hazırlamaya başlayabilmeniz için aşağıdaki ön
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources deneme ortamı sağlama
 
+>[!NOTE]
+> Nisan 2022'den itibaren, tek başına çalışan uygulamada Human Resources deneme ortamları kullanılamaz. Finans ve Operasyon uygulamalarındaki İnsan Kaynakları özelliklerini değerlendirmeyle ilgilenen potansiyel müşteriler bunu, demo verileriyle birlikte ücretsiz 30 günlük deneme sürümünü kullanarak yapabilir. Dynamics 365 Finance, tek başına çalışan uygulamanın birleştirilmesi yoluyla Finance altyapısına getirilen İnsan Kaynakları özelliklerini içerecektir. Daha fazla bilgi için bkz. [HR tekliflerinin birleştirilmesi müşteriler için özellikleri bir araya getiriyor](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Dynamics 365 Finance deneme sürümleri hakkında daha fazla bilgi için adım adım [kılavuza](/fin-ops/get-started/before-you-buy) bakın. 
+
+
 İlk korumalı alanınızı veya üretim ortamınızı sağlamadan önce, Human Resources işlevselliğini doğrulamak için bir [Human Resources deneme ortamı](https://go.microsoft.com/fwlink/p/?LinkId=2115962) sağlamak isteyebilirsiniz. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar İnsan Kaynakları için sistem yönetimi deneyimi aracılığıyla davet edilebilir. 
 
 Deneme ortamları, bir İnsan Kaynakları ortamına erişimi olmayan kişiler için insan kaynakları işlevini değerlendirme olanağı sağlar. Deneme ortamı sağlıyorsanız ve kimliği doğrulanmış kullanıcının mevcut bir veya daha fazla İnsan Kaynakları ortamına erişimi zaten varsa Kullanıcı mevcut ortama ya da ortam listesine yeniden yönlendirilir.
@@ -58,7 +62,7 @@ Human Resources deneme ortamı oluştururken kiracıda ayrıca bir Power Apps de
 Ek ortamlar için dikkat edilmesi gereken hususlar:
 
 - **Veri taşıma**: Korumalı alan ortamınızın proje boyunca test amacıyla kullanılmasına izin vermek için veri taşıma etkinlikleri için ek bir ortam düşünmeniz gerekebilir. Ek bir ortama sahip olduğunuzda, test ve yapılandırma etkinlikleri aynı anda farklı bir ortamda gerçekleşirken veri geçişleri etkinliklerinin devam etmesine olanak tanır.
-- **Tümleştirme**: Tümleştirmeleri yapılandırmak ve test etmek için ek bir ortam düşünmeniz gerekebilir. Bu, Ceridian Dayforce LinkedIn Talent Hub tümleştirmeleri gibi yerel tümleştirmeleri veya bordro, başvuran izleme sistemleri veya yan hak sistemleri ve sağlayıcıları gibi özel tümleştirmeleri içerebilir.
+- **Tümleştirme**: Tümleştirmeleri yapılandırmak ve test etmek için ek bir ortam düşünmeniz gerekebilir. Bu, Ceridian Dayforce veya LinkedIn Talent Hub tümleştirmeleri gibi yerel tümleştirmeleri veya bordro, başvuran izleme sistemleri veya yan hak sistemleri ve sağlayıcıları gibi özel tümleştirmeleri içerebilir.
 - **Eğitim**: Çalışanlarınızı yeni sistemin kullanımı konusunda eğitmek için bir dizi eğitim verisiyle yapılandırılmış ayrı bir ortama ihtiyacınız olabilir. 
 - **Çok aşamalı proje**: Projenin ilk yayınlanmasından sonra planlanan bir proje aşamasında yapılandırmayı, veri geçişini, testi veya diğer etkinlikleri desteklemek için ek bir ortama ihtiyacınız olabilir.
 

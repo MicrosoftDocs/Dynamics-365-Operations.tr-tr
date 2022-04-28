@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b84237844ec1d8f6c0716a0a13b05c83b358901
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d414ed7ac55afbbc58b8f5542c713f56392f9bc7
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575788"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570464"
 ---
 # <a name="manage-folios"></a>Folyoları yönetme
 
 [!include [banner](../../includes/banner.md)]
 
-Folyo genellikle gümrük yönetmelikleri tarafından belirlenir. Sevkiyat başına bir tüzel kişilik veya şirket için bir satıcının mallarından oluşabilir. Bir folyodaki mallar bir konteynerde olabilir veya birden fazla konteynere yayılabilir.
+Folyo genellikle gümrük yönetmelikleri tarafından belirlenir. Sevkiyat başına bir tüzel kişilik veya şirket için bir satıcının mallarından oluşabilir. Bir folyo içindeki mallar bir konteynerde yönetilir.
 
 **Tüm folyolar** sayfasını açmak için **Varış yeri maliyeti \> Folyolar \> Tüm folyolar** sayfasına gidin. Bu sayfada tüm geçerli folyoların listesi göstermektedir. Folyo oluşturmak, silmek ve onlarla çalışmak için Eylem Bölmesindeki düğmeleri kullanabilirsiniz. Ayrıntılarını **Folyolar** sayfasında görüntülemek için listedeki herhangi bir folyo seçin.
 

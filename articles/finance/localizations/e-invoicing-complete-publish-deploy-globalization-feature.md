@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a842a3ba31c0a8e0d80ad1856d9d6d861a8514ea
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 21e03660387c7e715bc0f4cb1dbcd3ec9ec6cee2
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371787"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554575"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Genelleştirme özelliğini tamamlama, yayımlama ve dağıtma
 
@@ -59,7 +59,7 @@ RCS'de, bir elektronik faturalama özellik sürümünü hedef servis ortamı vey
 2. Sayfanın sağ tarafındaki **Sürümler** sekmesinde, servis ortamına veya bağlı uygulamaya dağıtmak istediğiniz elektronik faturalama özellik sürümünü seçin. Seçilen sürümün durumu **Tamamlandı** veya **Yayımlanmış** olmalıdır.
 3. **Dağıt**'ı seçin ve sonra dağıtımın hedefini tanımlamak için aşağıdaki seçeneklerden birini veya ikisini belirleyin:
 
-    - **Bağlantılı uygulama** – Uygulama kurulumu tarafından sağlanan konfigürasyon, daha önce kendisiyle ilişkili olan Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management örneğinde yazılır.
+    - **Bağlantılı uygulama** – Uygulama kurulumu tarafından sağlanan yapılandırma, daha önce kendisiyle ilişkili olan Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management örneğinde yazılır.
     - **Servis ortamı** – Elektronik faturalama özellik sürümü servis ortamına dağıtılır. Elektronik faturalama daha sonra Finance veya Supply Chain Management'ın gönderdiği elektronik belgeleri almaya ve işlemeye hazır hale gelir.
 
 > [!NOTE]

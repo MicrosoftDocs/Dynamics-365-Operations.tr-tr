@@ -2,7 +2,7 @@
 title: Vergi Hesaplamayı kullanmaya başlama
 description: Bu konuda, Vergi Hesaplamasının nasıl ayarlanacağı açıklanmaktadır.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952533"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558327"
 ---
 # <a name="get-started-with-tax-calculation"></a>Vergi Hesaplamayı kullanmaya başlama
 
@@ -36,7 +36,7 @@ Ayarlama üç ana adımdan oluşur.
 
 ## <a name="high-level-design"></a>Üst düzey tasarım
 
-### <a name="runtime-design"></a>Çalışma zamanı tasarımı
+### <a name="runtime-design"></a><a name="runtime"></a> Çalışma zamanı tasarımı
 
 Aşağıdaki görsel, Vergi Hesaplamasının üst düzey çalışma zamnını gösterir. Vergi Hesaplama birçok Dynamics 365 uygulamalarıyla tümleştirilebileceğinden, bu görselde örnek olarak Finance ile arasındaki tümleştirme kullanılır.
 
@@ -95,6 +95,14 @@ Bu konudaki kalan prosedürleri tamamlamadan önce, aşağıdaki önkoşulların
 - Dağıttığınız RCS ortamının **Özellik yönetimi** çalışma alanında aşağıdaki özelliklerin açık olması gerekir.
 
     - Globalleştirme özellikleri
+
+- Aşağıdaki rollerin, RCS ortamınızdaki kullanıcılara uygun şekilde atanması gerekir:
+
+    - Elektronik raporlama geliştirici
+    - Genelleştirme özelliği geliştiricisi
+    - Vergi altyapısı geliştiricisi
+    - Vergi altyapısı işlev danışmanı
+    - Vergi hizmeti geliştiricisi
 
 ## <a name="set-up-tax-calculation-in-lcs"></a>LCS'de Vergi Hesaplama'yı ayarlama
 
@@ -201,17 +209,23 @@ Bu bölümdeki adımlar belirli bir tüzel kişilikle ilişkili değildir. Bu yo
     | ---------------- | --------- | ------- | ------------ |
     | Satışlar            | DEU       | DEU     | DEU_Domestic |
     | Satışlar            | DEU       | FRA     | DEU_EU       |
-    | Satışlar            | BEL       | BEL     | BEL_Domestic |
-    | Satışlar            | BEL       | FRA     | BEL_EU       |
+    | Satış            | BEL       | BEL     | BEL_Domestic |
+    | Satış            | BEL       | FRA     | BEL_EU       |
+    
+    > [!NOTE]
+    > Vergilendirilebilir belge satırlarınızın varsayılan satış vergisi grubu doğruysa, bu matrisi boş bırakın. Daha fazla bilgi için bu konunun [Çalışma zamanı tasarımı](#runtime) bölümüne bakın.
 
 22. **Madde vergisi grubu uygulanabilirliği** sekmesinde, doğru vergi kodunu belirlemek için gereken sütunları seçin ve ardından **Ekle** seçeneğini belirleyin. Her bir sütun için değerleri girin veya seçin. **Madde vergisi grubu** alanı, bu matrisin çıkışı olacaktır. Bu sekme yapılandırılmadıysa hareket satırındaki madde satış vergisi grubu kullanılır.
 
     Aşağıda bir örnek verilmiştir.
 
-    | Madde kodu | Madde vergisi grubu |
+    | Madde kodu | Madde vergi grubu |
     | --------- | -------------- |
     | D0001     | Dolu           |
     | D0003     | Düşürüldü        |
+
+    > [!NOTE]
+    > Vergilendirilebilir belge satırlarınızın varsayılan madde satış vergisi grubu doğruysa, bu matrisi boş bırakın. Daha fazla bilgi için bu konunun [Çalışma zamanı tasarımı](#runtime) bölümüne bakın.
 
     Vergi kodlarının Vergi Hesaplama'da nasıl belirlendiği hakkında daha fazla bilgi için bkz. [Satış vergisi grubu ve madde satış vergisi grubu belirleme mantığı](global-sales-tax-group-determination.md).
 

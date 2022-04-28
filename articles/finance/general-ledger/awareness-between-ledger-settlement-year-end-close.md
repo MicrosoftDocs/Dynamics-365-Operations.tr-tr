@@ -2,7 +2,7 @@
 title: Genel muhasebe kapatma ile yıl sonu kapanışı arasındaki farka duyarlılık
 description: Bu konu, genel muhasebe kapatmalarını ve Genel muhasebe yıl sonu kapanışını etkileyen geliştirmeler hakkında bilgi sağlar.
 author: kweekley
-ms.date: 03/18/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462366"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553346"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Genel muhasebe kapatma ile yıl sonu kapanışı arasındaki farka duyarlılık
 
@@ -48,12 +48,16 @@ Yeni geliştirmeleri desteklemek için genel muhasebe kapatma ve yıl sonu kapan
 
 İşlevsellik ve veri modellerindeki değişiklikler nedeniyle, özelliği etkinleştirmeden önce aşağıdaki noktaları göz önünde bulundurmanız önemlidir:
 
+- Açılış bakiyesine yalnızca kapatılan hareketler aktarıldığından, önceki mali yıldaki hareketlerle kapatılan geçerli mali yıldaki hareketlerin kapatılmasını iptal etmeniz gerekir. Hareketler, geçerli mali yıl içindeki hareketlere göre yeniden kapatılmalıdır. Bu, geçerli mali yıldaki bir düzeltme girişi aracılığıyla yapılabilir. Düzeltme, özetlenmiş açılış bakiyelerini ve mahsuplaşmalarını, cari yıldaki genel muhasebe girişlerini kapatmak için gerekli ayrıntılı hareketle tersine çevirir. 
+
+  > [!IMPORTANT]
+  > Bu yapılmazsa, geçerli mali yıl için yıl sonu kapanışını çalıştırdığınızda **bakiye dışı** hatası alırsınız. Aynı mali yıla ait genel muhasebe hareketlerinin kapatılmasını iptal etmek ve bunları yeniden kapatmak mümkün değilse, yıl sonu kapanışı tamamlanana kadar bu özelliği etkinleştirmeyin. Yıl sonu kapanışı tamamlandıktan hemen sonra ve bir sonraki mali yılda yeni genel muhasebe hareketleri kapatılmadan önce özelliği etkinleştirin. 
+  
 - Kapatma için işaretlenmiş ancak kapatılmamış tüm hareketlerin, özellik etkinleştirildiğinde otomatik olarak işareti kaldırılır. Herhangi bir iş kaybını önlemek için özelliği etkinleştirmeden önce tüm işaretli hareketleri kapatın.
 - Bazı kuruluşlar, aynı mali yıl için birden çok kez yıl sonu kapanışı yapar. Yıl sonu kapanışı zaten bir kez çalıştırıldıysa ve aynı mali yıl için yeniden çalıştırılacaksa özelliği etkinleştirmeyin. Özellik, ilk yıl sonu kapanışını işlemeden önce veya mali yıl için son yıl sonu kapanışını işledikten sonra etkinleştirilmelidir.
 
   Özelliği etkinleştirmek istiyorsanız ancak yıl sonu kapanışı zaten bir kez çalıştırıldıysa, özelliği etkinleştirmeden önce yıl sonu kapanışını tersine çevirmeniz gerekir.
 
-- Mali yıllar arasında anlaşmaya artık izin verilmediğinden, yıl sonu kapatma işlemine başlamadan önce özelliği etkinleştirmenizi öneririz. Ardından, bir sonraki mali yılın açılış bakiyelerinin önceki mali yıllar arası kapatmalardan etkilenmemesini sağlamak amacıyla kapatılmakta olan mali yıl için açılış bakiyesi hareketi kapatılmalıdır.
 - Ana hesaplar arasında kapatma işlemine artık izin verilmediğinden, genel muhasebe kapatmasının aynı ana hesapta yapılabilmesini sağlamak için hesap veya işlem planınızı gerektiği gibi ayarlayın.
 - Kamu sektörü yıl sonu kapanışı işlemi kullanılıyorsa özellik etkinleştirilemez.
 

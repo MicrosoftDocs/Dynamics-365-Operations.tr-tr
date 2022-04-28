@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469408"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548181"
 ---
 # <a name="inventory-forecasts"></a>Stok tahminleri
 
@@ -39,7 +39,7 @@ Tahmin satırlarını oluşturmanın başka yolları da vardır:
 - [İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md).
 - [Talep tahminleri için geçmiş verilerini içe aktarma](import-historical-data.md).
 - [Microsoft Azure Machine Learning web servisi kullanarak tahmin oluşturma](demand-forecasting-setup.md).
-- [Veri yönetimi çerçevesi (ForecastDemandForecastEntryStaging ve ForecastSupplyForecastEntryStaging veri varlıkları) kullanarak talep veya tedarik tahmin satırlarını içe aktarma](../../dev-itpro/data-entities/data-entities-data-packages.md).
+- [Veri yönetimi çerçevesi (ForecastDemandForecastEntryStaging ve ForecastSupplyForecastEntryStaging veri varlıkları) kullanarak talep veya tedarik tahmin satırlarını içe aktarma](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 Adım 1'deki tabloda gösterildiği gibi, kullanılan sayfalara erişmek için farklı yollar vardır.
 

@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388609"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612384"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Satırları aynı Excel sayfasında birlikte tutmak için ER biçimi tasarlama
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Bu konuda, Sistem Yöneticisi veya Elektronik Raporlama İşlevsel Danışmanı rolündeki kullanıcıların nasıl Microsoft Excel'de giden belgeler oluşturan ve oluşturulan satırların aynı sayfada kalmasını sağlayan belge sayfalandırma yönetimini sağlayan [Elektronik Raporlama (ER)](general-electronic-reporting.md) [biçimi](er-overview-components.md#format-component) oluşturulabileceği açıklanmaktadır.
 

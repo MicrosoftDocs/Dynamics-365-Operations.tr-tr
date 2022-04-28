@@ -2,7 +2,7 @@
 title: Site seçicisi modülü
 description: Bu konu site seçicisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'in site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 02/11/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 381163fdd6180a76def2e1bfb733f597b611c517
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: ad4d4d5f950d0631059d8f509e9e808a9106eb98
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109718"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551707"
 ---
 # <a name="site-picker-module"></a>Site seçicisi modülü
 
@@ -28,14 +28,9 @@ ms.locfileid: "8109718"
 
 Bu konu site seçicisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'in site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
-Bir işletme, pazarlar, bölgeler ve konumlarda farklı sitelere sahip olduğunda, site kullanıcıları siteler arasında geçiş yapmak ve tercih edilen alışveriş sitesini seçmek için kolay bir yola gereksinim duyar. Bu senaryoya uyum sağlamak için, site seçicisi modülü kullanıcıların birden çok siteye göz atmasına olanak tanır.
+Bir işletme, pazarlar, bölgeler ve konumlarda farklı sitelere sahip olduğunda, site kullanıcıları siteler arasında geçiş yapmak ve tercih edilen alışveriş sitesini seçmek için kolay bir yola gereksinim duyar. Bu senaryoya uyum sağlamak için, site seçicisi modülü kullanıcıların birden çok siteye göz atmasına olanak tanır. E-ticaret siteniz için [coğrafi konum algılama ve yeniden yönlendirme](geo-detection-redirection.md) uygulandığında bir site seçici de önerilir, böylece müşteriler [ülke/bölge seçici](country-region-picker-module.md) modülünü kullanarak belirttikleri site tercihini geçersiz kılmanın bir yoluna sahip olur. 
 
-Site seçicisi modülü site kullanıcılarının göz atabileceği siteler listesi (pazarlar, bölgeler veya konumlar) ile konfigüre edilmelidir.
-
-> [!NOTE]
-> Site seçicisi modülü Dynamics 365 Commerce 10.0.14 sürümünde bulunur.
-
-Aşağıdaki çizimde site sayfası üstbilgisinde tanıtılan bir site seçicisi modülü örneği gösterilmektedir.
+Site seçicisi modülü site kullanıcılarının göz atabileceği siteler listesi (pazarlar, bölgeler veya konumlar) ile konfigüre edilmelidir. Aşağıdaki çizimde site sayfası üstbilgisinde tanıtılan bir site seçicisi modülü örneği gösterilmektedir.
 
 ![Site sayfası üst bilgisindeki bir site seçicisi modülü örneği.](./media/ecommerce-sitepicker.PNG)
 

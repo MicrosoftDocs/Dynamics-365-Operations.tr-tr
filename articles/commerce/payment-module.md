@@ -2,7 +2,7 @@
 title: Ödeme modülü
 description: Bu konu ödeme modülünü kapsamaktadır ve bu modülün Microsoft Dynamics 365 Commerce'ta nasıl yapılandırılacağını açıklamaktadır.
 author: anupamar-ms
-ms.date: 01/07/2022
+ms.date: 04/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952481"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565741"
 ---
 # <a name="payment-module"></a>Ödeme modülü
 
@@ -74,6 +74,8 @@ Aşağıdaki çizimde, PayPal düğmesi kullanılarak çağrılan PayPal iframe 
 | Ödeme stilini geçersiz kıl | Geçişli Stil Sayfaları (CSS) kodu | Ödeme modülü bir iframe içinde barındırıldığından, sınırlı stil oluşturma yeteneği vardır. Bu özelliği kullanarak bazı stil özellikleri elde edebilirsiniz. Site stillerini geçersiz kılmak için CSS kodunu bu özelliğin değeri olarak yapıştırmanız gerekir. Site oluşturucu CSS geçersiz kılmaları ve stilleri bu modüle uygulanamaz. |
 |Desteklenen ödeme türleri| Dize| Birden fazla ödeme Bağlayıcısı konfigüre edilmiş ise, Commerce Headquarters ödeme Bağlayıcısı konfigürasyonlarında tanımlandığı şekilde desteklenen ödeme tipi dizesini sağlamanız gerekir (aşağıdaki resme bakın). Boş bırakılırsa, varsayılan olarak adyen ödeme Bağlayıcısı 'nı alır. Commerce sürüm 10.0.14'e eklendi.|
 |Birincil ödemedir|  **Doğru** veya **yanlış** | Değer **doğru** ise , kullanıma alma sayfasındaki birincil ödeme bağlayıcısından alınan tüm hata iletileri oluşturulur. Adyen ve PayPal ödeme bağlayıcıları yapılandırılırsa, adyen ile **doğru** değerini Commerce sürüm 10.0.14'e eklenmiş olarak ayarlayın.|
+|Bağlayıcı kimliğini kullan| **Doğru** veya **yanlış** | Site için birden fazla ödeme bağlayıcısı yapılandırılırsa, bu özelliği kullanın. **Doğru** ise, bağlayıcılar ödeme bağıntısı için bağlayıcı kodunu kullanmalıdır.|
+|iFrame için tarayıcıda ayarlanmış dil kodunu kullan|  **Doğru** veya **yanlış** | (Yalnızca Adyen) **Doğru** ise Adyen iFrame, site için yapılandırılan Commerce kanalının dil kodunu kullanmak yerine, dili site kullanıcısının tarayıcı bağlamına göre işler. Commerce sürüm 10.0.27'e eklendi.|
 
 Aşağıdaki çizimde, Commerce Headquarters 'da ödeme Bağlayıcısı konfigürasyonunda "PayPal" olarak ayarlanan **Desteklenen ödeme tipleri** değerinin bir örneği gösterilmektedir.
 ![Commerce Headquarters'da desteklenen ödeme tipleri örneği.](./media/ecommerce-paymenttendertypes.png)

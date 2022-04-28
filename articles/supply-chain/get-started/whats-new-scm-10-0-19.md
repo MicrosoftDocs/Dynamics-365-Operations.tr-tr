@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 03ed2d52f44bd38910b01ffbd3767f750da2cbf8
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: f0f1830c9f667d617b8aae28e61a8e541b17c77f
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920585"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570339"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Dynamics 365 Supply Chain Management sürüm 10.0.19'teki yenilikler ve değişiklikler (Haziran 2021)
 
@@ -50,7 +50,7 @@ Aşağıdaki tabloda, bu sürümde yer alan özellik iyileştirmeleri yer almakt
 
 | Modül | Özellik&nbsp;yönetiminde&nbsp;özellik&nbsp;adı | Daha fazla bilgi |
 |---|---|---|
-| Satış ve pazarlama | Satış geçmişi temizleme performansı iyileştirmeleri | Satış geçmişi temizleme, yüksek satış güncelleştirmeleri hacmine sahip ortamlarda seyrek çalıştırılırsa uzun sürebilir. Süreyi azaltmak ve güvenilirliği artırmak için bu özellik temizlemeyi sınırlı bir süre çalışan toplu işlere böler. Mümkün olduğunda, kilitlemeyi en aza indirmek ve temizleme sırasında işlem tablolarını birleştirmekten kaçınmak için veritabanı yeteneklerinden yararlanılacaktır. Daha fazla bilgi için bkz. [Satış geçmişi temizleme işlemi performans iyileştirmeleri](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
+| Satış ve pazarlama | Satış geçmişi temizleme performansı iyileştirmeleri | Satış geçmişi temizleme, yüksek satış güncelleştirmeleri hacmine sahip ortamlarda seyrek çalıştırılırsa uzun sürebilir. Süreyi azaltmak ve güvenilirliği artırmak için bu özellik temizlemeyi sınırlı bir süre çalışan toplu işlere böler. Mümkün olduğunda, kilitlemeyi en aza indirmek ve temizleme sırasında işlem tablolarını birleştirmekten kaçınmak için veritabanı yeteneklerinden yararlanılacaktır. Daha fazla bilgi için bkz. [Satış geçmişi verilerini temizleme işlemini zamanlama](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Satış ve pazarlama | Talep edilen giriş tarihini, şirketlerarası siparişlerin Onaylanan tarihiyle güncelleştir | Bu özellik, şirketlerarası doğrudan teslimat kullanırken satış ve satınalma tarihi alan değerlerine ne olacağını denetlemenizi sağlar. Sistemin istenen tarihleri güncelleştirip güncelleştirmeyeceğini veya güncelleştirmeyi atlayıp atlamayacağını seçebilirsiniz. Güncelleştirmeyi atlarsanız, istenen tarihler müşterinin isteklerini temsil eder. Güncelleştirmeyi etkinleştirirseniz, istenen tarihler (teslimat tarihi denetimini kullanırken) yalnızca başlangıçta müşterinin istediğini temsil eder. Teslim tarihi denetimi, *Yok*'dan farklı olduğunda, başlangıçta isteneni geçersiz kılar. Bu seçeneği, şirketlerarası satıcı veya müşteri ayarlarında **Onaylanan tarih ayarıyla yeni İstenen giriş tarihini güncelleştir**'i kullanarak ayarlayabilirsiniz.<br><br>Özellik devre dışı bırakılırsa, sistem teslimat tarihi denetim kuralına göre orijinal satış siparişlerinde istenen giriş tarihinin üzerine yazar, ancak istenen sevkiyat tarihi olduğu gibi kalır. |
 | Ambar yönetimi | Ambara serbest bırakırken miktarları en yakın satış birimine indirgenecek şekilde yuvarla | Bu özellik, serbest bırakıldığındaki sipariş miktarlarını ambara kısıtlayabilecek bir seçenek ekler. Etkinleştirildiğinde, sipariş miktarları en yakın tüm satış birimine yuvarlanır ve birden az satış birimi için miktar içeren siparişler serbest bırakılmak üzere reddedilir. |
 | Ambar yönetimi | Kuruluşu genelindeki "İş oluşturmayı planla" dalga yöntemi | Bu özelliği etkinleştirmek, *İş oluşturmayı planlama* dalga yöntemi (), tüm yasal varlıklarda paralel çalışacak şekilde eklenir ve yapılandırılır. Birkaç ek ayar da etkilenecektir. Tüm ayrıntılar için bkz. [Dalga sırasında iş oluşturmayı zamanlama](../warehousing/configure-wave-schedule-work-creation.md). |
@@ -70,9 +70,9 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.19 sürümü için platform güncelleştirmeleri (Haziran 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.19 sürümü için platform güncelleştirmeleri (Haziran 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

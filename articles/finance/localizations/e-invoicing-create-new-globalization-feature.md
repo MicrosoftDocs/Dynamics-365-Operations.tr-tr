@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371823"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603039"
 ---
 # <a name="create-a-globalization-feature"></a>Genelleştirme özelliği oluşturma
 
@@ -47,7 +47,7 @@ Elektronik faturalama özelliği oluşturmak için aşağıdaki adımları izley
 8. **Yapılandırmalar** kılavuzunda, işleme ardışık düzeni için gerekli olan konfigürasyon konfigürasyonlarına göz atın ve bunları seçin (örneğin, elektronik fatura dosyaları oluşturmak veya harici web hizmetlerinden gelen yanıtları işlemek için).
 9. **Tamam**'ı seçin. Artık, işlem ardışık düzenin eylemleriyle ilgili yapılandırmaları kullanabilirsiniz. Daha fazla bilgi için bkz. [Yapılandırmalarla çalışma](e-invoicing-work-configurations.md).
 10. Elektronik faturalama özellik kurulumu eklemek için, **Yeni özellik** sayfasındaki **Ayarlar** sekmesinde oluşturun. Daha fazla bilgi için bkz. [Özellik kurulumlarıyla çalışma](e-invoicing-feature-setup.md).
-11. Kurulumu tamamlayın ve elektronik faturalama özelliğini hizmet ortamına dağıtın. Daha fazla bilgi için bkz. [Genelleştirme özelliğini tamamlama, yayımlama ve dağıtma](e-invoicing-complete-publish-deploy-globalization-feature).
+11. Kurulumu tamamlayın ve elektronik faturalama özelliğini hizmet ortamına dağıtın. Daha fazla bilgi için bkz. [Genelleştirme özelliğini tamamlama, yayımlama ve dağıtma](e-invoicing-complete-publish-deploy-globalization-feature.md).
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>Mevcut fatura modelinden türetilen dosya biçimi yapılandırmaları oluşturma
 
@@ -91,4 +91,4 @@ Yapılandırma, Elektronik faturalama hizmeti tarafından tüketilmeden önce ye
     - ER biçimlerini ve bunların, özellik sürümü için biçim eşlemeleriyle olan bağlamasını özelleştirmeniz olasılığına karşı konfigürasyonları gözden geçirin.
     - Özellik sürümü için **Eylemler** sekmesini, **uygulanabilirlik kuralları** sekmesini veya **değişkenler** sekmesini özelleştirmeniz gerekebileceği için kurulumu gözden geçirin.
 
-9. Kurulumu tamamlayın ve elektronik faturalama özelliğini hizmet ortamına dağıtın. Daha fazla bilgi için bkz. [Genelleştirme özelliğini tamamlama, yayımlama ve dağıtma](e-invoicing-complete-publish-deploy-globalization-feature).
+9. Kurulumu tamamlayın ve elektronik faturalama özelliğini hizmet ortamına dağıtın. Daha fazla bilgi için bkz. [Genelleştirme özelliğini tamamlama, yayımlama ve dağıtma](e-invoicing-complete-publish-deploy-globalization-feature.md).

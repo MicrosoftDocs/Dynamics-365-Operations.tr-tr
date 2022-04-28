@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1e06fafe8d8bbe92ddf4fcd94d7271a1fbb6362a
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413621"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603068"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Baskı yönetimi kaydına özel ER hedeflerini yapılandırma
 
@@ -35,7 +35,7 @@ Yordamlar, USMF şirketinde tamamlanabilir. Kodlama gerekmez.
 
 ## <a name="introduction"></a>Giriş
 
-Giden belge oluşturmak üzere kullanılan bir ER [biçimi](general-electronic-reporting.md#FormatComponentOutbound) [yapılandırmasının](general-electronic-reporting.md#Configuration) dosya çıkış bileşenindeki her klasör için [hedefleri](electronic-reporting-destinations.md) yapılandırabilirsiniz. Bu türde bir ER biçimi çalıştırdığınızda uygun erişim haklarına sahipseniz çalışma zamanında yapılandırılmış hedef ayarlarını da değiştirebilirsiniz.
+Giden belge oluşturmak üzere kullanılan bir ER [biçimi](general-electronic-reporting.md) [yapılandırmasının](general-electronic-reporting.md#Configuration) dosya çıkış bileşenindeki her klasör için [hedefleri](electronic-reporting-destinations.md) yapılandırabilirsiniz. Bu türde bir ER biçimi çalıştırdığınızda uygun erişim haklarına sahipseniz çalışma zamanında yapılandırılmış hedef ayarlarını da değiştirebilirsiniz.
 
 Microsoft Dynamics 365 Finance **sürüm 10.0.17 ve sonrasında**, kullanıcıların bu ER biçimini çalıştırarak gerçekleştirdikleri eylemi belirtmek üzere ER biçimi için bir eylem kodu [ayarlanabilir](er-apis-app10-0-17.md). Örneğin, **Alacak hesapları** modülündeki yazdırma yönetimi ayarlarında, serbest metin faturası gibi belirli iş belgelerini oluşturan bir ER biçimi seçebilirsiniz. Daha sonra, faturanın önizlemesini görmek için **Görüntüle**'yi veya faturayı yazıcıya göndermek için **Yazdır**'ı seçebilirsiniz. Çalışma zamanında çalışan ER biçimi için bir eylem geçirilirse [farklı kullanıcı eylemleri için farklı ER hedefleri yapılandırabilirsiniz](er-action-dependent-destinations.md).
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983429"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570395"
 ---
 # <a name="landed-cost-module"></a>Varış yeri maliyeti modülü
 
@@ -39,7 +39,7 @@ Varış yeri maliyeti, ek yüklü varış yeri maliyetleri için doğru ve zaman
 
 ### <a name="voyages"></a>Seyahatler
 
-Varış yeri maliyetinde, bir yolculuk, giden bir konumdan, belirli bir dönem boyunca belirli bir hedef kümesinden belirli bir gelen mal ambarı konumuna giden ayrı bir harekettir. Satın alma siparişleri ve sipariş satırları bir yolculuk için tek bir konteynere veya birden çok konteynere eklenebilir ve maliyetler madde satırına doğru şekilde geri tahsis edilir. Siparişler ve sipariş satırları, tek bir yolculuk için tüzel kişiliklere de eklenebilir.
+Varış yeri maliyetinde, bir yolculuk, giden bir konumdan, belirli bir dönem boyunca belirli bir hedef kümesinden belirli bir gelen mal ambarı konumuna giden ayrı bir harekettir. Satın alma siparişleri ve sipariş satırları bir yolculuk için tek bir konteynere veya birden çok konteynere eklenebilir ve maliyetler madde satırına doğru şekilde geri tahsis edilir. 
 
 ### <a name="item-ownership"></a>Madde sahipliği
 

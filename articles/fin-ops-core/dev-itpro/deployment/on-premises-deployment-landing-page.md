@@ -4,7 +4,8 @@ description: bu konu şirket içi dağıtım hakkında içeriğe bağlantılar v
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,24 +17,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712580"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566053"
 ---
 # <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir şirket içi dağıtım türünü seçtiğinizde, sistem gereksinimleri, donanım boyutlandırma ve işlev, bir bulut dağıtımından farklılık gösterir. Bu konu, şirket içi dağıtımlara ilişkin çeşitli konulara dair bilgi içeren içeriklere bağlantılar sağlar.
+Dynamics 365 Finance + Operations (on-premises)'ı dağıtabilirsiniz. Bir şirket içi dağıtım türünü seçtiğinizde, sistem gereksinimleri, donanım boyutlandırma ve işlev, bir bulut dağıtımından farklılık gösterir. Bu konu, şirket içi dağıtımlara ilişkin çeşitli konulara dair bilgi içeren içeriklere bağlantılar sağlar.
 
 ## <a name="get-started"></a>Başlayın
 - [Şirket içi dağıtıma genel bakış](on-premises-overview.md)
 - [Şirket içi dağıtımları planlama ve hazırlama](plan-onprem-deployment.md)
 - [Şirket içi dağıtımlar için sistem gereksinimleri](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Microsoft Dynamics 365 Finance + Operations (şirket içi) destekli yazılım](onprem-compatibility.md)
+- [Microsoft Dynamics 365 Finance + Operations (on-premises) tarafından desteklenen yazılım](onprem-compatibility.md)
 - [Şirket içi ortamlar için donanım boyutlandırma gereksinimleri](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Finance + Operations (on-premises) satın alma](../../fin-ops/get-started/purchase-on-premises.md)
 - [Bulut ile şirket içi özellikleri karşılaştırma](../../fin-ops/get-started/cloud-prem-comparison.md)
@@ -72,7 +73,7 @@ Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir �
 - [Şirket içi ortamlarda sorun çözme için komut dosyaları](onprem-tsg-implementations.md)
 - [Sertifika rotasyonu](certificate-rotation-on-prem.md)
 - [Şirket içi tanılama](on-premises-diagnostics.md)
-- [Finance and Operations için Kaldırılan veya artık kullanılmayan özellikler](../migration-upgrade/deprecated-features.md)
+- [Finance and Operations için kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md)
 - [Yazılım yaşam döngüsü ilkesi ve şirket içi sürümler](../migration-upgrade/on-prem-version-update-policy.md)
  
 

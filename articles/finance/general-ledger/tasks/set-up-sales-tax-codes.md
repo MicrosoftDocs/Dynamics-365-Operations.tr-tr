@@ -1,6 +1,6 @@
 ---
-title: Satış vergisi kodlarını ayarlama
-description: Bu konuda, Dynamics 365 Finance'da satış vergisi kodlarının nasıl ayarlanacağı açıklanmaktadır.
+title: Satış vergisi kodlarını ayarla
+description: Bu konuda, Dynamics 365 Finance'te satış vergisi kodlarının nasıl ayarlanacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562114"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565867"
 ---
-# <a name="set-up-sales-tax-codes"></a>Satış vergisi kodlarını ayarlama
+# <a name="set-up-sales-tax-codes"></a>Satış vergisi kodlarını ayarla
 
 [!include [banner](../../includes/banner.md)]
 
@@ -45,7 +45,7 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 12. Sayfayı kapatın.
 13. **Kaydet**'i seçin.
 
-Microsoft Dynamics 365 Finance uygulamasının 10.0.22 sürümü itibarıyla [Vergi hizmeti](../../localizations/global-tax-calcuation-service-overview.md)'ni kullanıyorsanız ve **Özellik yönetimi** çalışma alanında [**Birden çok KDV sicil numarasını destekle**](../../localizations/emea-multiple-vat-registration-numbers.md) özelliği etkinleştirilmişse Vergi kodunun türünü belirtmek için **Vergi türü** alanını kullanabilirsiniz. Aşağıdaki değerler kullanılabilir:
+Microsoft Dynamics 365 Finance uygulamasının 10.0.22 sürümü itibarıyla [Vergi hizmetini](../../localizations/global-tax-calcuation-service-overview.md) kullanıyorsanız ve **Özellik yönetimi** çalışma alanında [**Birden çok KDV sicil numarasını destekle**](../../localizations/emea-multiple-vat-registration-numbers.md) özelliği etkinleştirilmişse vergi kodunun türünü belirtmek için **Vergi türü** alanını kullanabilirsiniz. Aşağıdaki değerler kullanılabilir:
 
 - Standart KDV
 - Düşürülen KDV

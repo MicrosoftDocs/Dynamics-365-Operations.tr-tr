@@ -5,16 +5,16 @@ author: andosip
 ms.date: 11/09/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: kfend
 ms.search.validFrom: ''
-ms.openlocfilehash: 9564892f768adb8f48208fe10b31c7c6392a4567
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: fbacc204208e536291035c6f9bb2ef4fa4038f58
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779919"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566105"
 ---
 # <a name="polish-intrastat"></a>Lehçe İntrastat
 
@@ -866,7 +866,7 @@ Aşağıdaki ER yapılandırmalarının en son sürümünü içeri aktarın:
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Belge hakkındaki bilgiler</strong></p>
+    <p align=center><strong>Belge hakkındaki bilgiler</strong></p>
     </td>
     </tr>
     <tr>
@@ -1014,7 +1014,7 @@ Aşağıdaki ER yapılandırmalarının en son sürümünü içeri aktarın:
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Şirketle ilgili bilgiler</strong></p>
+    <p align=center><strong>Şirketle ilgili bilgiler</strong></p>
     </td>
     </tr>
     <tr>
@@ -1085,7 +1085,7 @@ Aşağıdaki ER yapılandırmalarının en son sürümünü içeri aktarın:
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Mal hakkında bilgiler</strong></p>
+    <p align=center><strong>Mal hakkında bilgiler</strong></p>
     </td>
     </tr>
     <tr>
@@ -1211,7 +1211,7 @@ Aşağıdaki ER yapılandırmalarının en son sürümünü içeri aktarın:
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>İletişim bilgileri</strong></p>
+    <p align=center><strong>İletişim bilgileri</strong></p>
     </td>
     </tr>
     <tr>

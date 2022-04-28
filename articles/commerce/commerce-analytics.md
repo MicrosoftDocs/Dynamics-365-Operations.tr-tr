@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349755"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550019"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce analizleri (Önizleme)
 
@@ -352,15 +352,20 @@ Günümüzde, bir döngü modülde veya özel görsellere işlenmiş olan ürün
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>Commerce analizlerini etkinleştirme ve konfigüre etme (Önizleme)
 
-Commerce analizleri (Önizleme) yüklemek için bir Azure aboneliği içinde kaynak oluşturma izniniz olması gerekir. Ayrıca LCS ile eklenti yükleme izinlerinizin olması da gerekir. 
+Commerce analizleri (Önizleme) yüklemek için bir Azure aboneliği içinde kaynak oluşturma izniniz olması gerekir. Ayrıca LCS ile eklenti yükleme izinlerinizin olması da gerekir.
 
 Commerce analizleri (Önizleme) etkinleştirmek ve yapılandırmak için aşağıdaki adımları izleyin.
 
-1. [Data Lake'e Aktarma eklentisini etkinleştirin ve yapılandırın](#enableExportToDataLake).
-1. [Bir Azure Synapse workspace yükleyin ve konfigüre edin](#configureAzureSynapse).
-1. [Anahtar kasasına gizli diziler ekleyin ](#addSecrets).
-1. [Commerce analizleri (Önizleme) eklentisini etkinleştirme ve konfigüre etme](#enableCommerceAnalyticsAddin).
-1. [Power BI şablon uygulamasını kurun](#powerbi).
+1. [Commerce analizleri (Önizleme) için Önizleme formunu gönderin](#joinPreview)
+2. [Data Lake'e Aktarma eklentisini etkinleştirin ve yapılandırın](#enableExportToDataLake).
+3. [Bir Azure Synapse workspace yükleyin ve konfigüre edin](#configureAzureSynapse).
+4. [Anahtar kasasına gizli diziler ekleyin ](#addSecrets).
+5. [Commerce analizleri (Önizleme) eklentisini etkinleştirme ve konfigüre etme](#enableCommerceAnalyticsAddin).
+6. [Power BI şablon uygulamasını kurun](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>Commerce analizleri (Önizleme) için Önizleme formunu gönderin
+
+[Commerce analizleri (Önizleme) için Önizleme formunu](https://forms.office.com/r/vW5VLJGXZ2) gönderin. İsteğiniz işlendikten sonra, formda sağladığınız e-posta adresine bir onay e-postası gönderilir.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>Data Lake'e Aktarma eklentisini etkinleştirin ve yapılandırın
 

@@ -2,19 +2,19 @@
 title: Finans ve Operasyon uygulamalarında çift yazma ile ilgili sorunları giderme
 description: Bu konu, Finans ve Operasyon uygulamalarındaki çift-yazma modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
-ms.date: 08/10/2021
+ms.date: 04/12/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061822"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565980"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Finans ve Operasyon uygulamalarında çift yazma ile ilgili sorunları giderme
 
@@ -70,6 +70,21 @@ Tablo eşlemelerini durdurmayı denediğinizde aşağıdaki hata iletisini alabi
 Bu hata, bağlı Dataverse ortam kullanılabilir olmadığında oluşur.
 
 Bu sorunu gidermek için, veri tümleştirme ekibi için bir bilet oluşturun. Veri tümleştirme ekibinin eşlemeleri arka uçta **çalışmıyor** olarak işaretlemesi için ağ izlemesini iliştirin.
+
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Performansı artırmak için Finans ve Operasyon uygulamalarında paralel işlemeyi etkinleştirme
+
+Paralel işlemeyi etkinleştirmek, Finans ve Operasyon uygulamalarından müşteri etkileşim uygulamalarına Microsoft Dataverse'e veri aktarmak için gereken süreyi azaltabilir. 
+
+Finans ve Operasyon uygulamalarında paralel işlemeyi etkinleştirmek için aşağıdaki adımları tamamlayın.
+
+1. Finans ve Operasyon ortamınızda oturum açın.
+2. **Veri yönetimi > Çerçeve parametreleri**'ne gidin.
+3. **Varlık ayarları**'nı ve **Varlık yürütme parametrelerini yapılandır**'ı seçin.
+4. Paralel işleme parametrelerini ekleyin:
+    - **İçe aktarma eşiği kayıt sayısı** – Paralel işleme etkinleştirilmeden önce karşılanması gereken kayıt sayısı.
+    - **İçe aktarma görev sayısı** – Paralel olarak çalıştırılacak iş parçacıklarının (görevler) sayısı.
+5. **Kaydet**'i seçin.
+
 
 ## <a name="errors-while-trying-to-start-a-table-mapping"></a>Tablo eşlemesi başlatılmaya çalışılırken hatalar oluştu
 
