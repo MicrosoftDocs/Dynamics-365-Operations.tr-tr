@@ -2,7 +2,7 @@
 title: Gelir kabulü kurulumu
 description: Bu konuda, Gelir kabulü için kurulum seçenekleri ve bunların etkileri açıklanmaktadır.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867232"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656735"
 ---
 # <a name="revenue-recognition-setup"></a>Gelir kabulü kurulumu
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Gelir planları, **Gelir planları** sayfasında (**Gelir kabulü \> Kurulum \> 
     - **Tekrarlar**: Tutar, tekrarlar boyunca eşit olarak tahsis edilir ancak kabul yöntemi olarak **Gerçek başlangıç tarihi** seçeneğini belirlerseniz fazladan bir dönem içerebilir.
     - **Güne göre mali dönem**: Tutar, her mali dönemdeki gerçek gün sayısına göre tahsis edilir. 
 
-    **Güne göre aylık** ve **Güne göre mali dönem** sonuçları, mali dönemler takvim aylarını takip ettiğinde aynı olur. Tek özel durum, kabul yönteminin **Ay/dönem sonu** olarak ayarlanması ve bir satış siparişi satırında **Sözleşme başlangıç tarihi** ve **Bitiş tarihi** alanlarının boş bırakılmasıdır.
+         - **Güne göre aylık** ve **Güne göre mali dönem** sonuçları, mali dönemler takvim aylarını takip ettiğinde aynı olur. Tek özel durum, kabul yönteminin **Ay/dönem sonu** olarak ayarlanması ve bir satış siparişi satırında **Sözleşme başlangıç tarihi** ve **Bitiş tarihi** alanlarının boş bırakılmasıdır.
 
 - **Kabul yöntemi**: Kabul yöntemi, fatura için gelir planında ayarlanan tarihleri belirler.
 
@@ -108,7 +108,7 @@ Gelir planları, **Gelir planları** sayfasında (**Gelir kabulü \> Kurulum \> 
     - **Ayın/dönemin ilk günü**: İlk plan satırındaki tarih, sözleşme başlangıç tarihidir (veya fatura tarihi). Ancak sonraki tüm plan satırları, ayın veya mali dönemin ilk günü için oluşturulur.
     - **Ay ortasından bölme**: İlk plan satırındaki tarih, fatura tarihine bağlıdır. Fatura, ayın ilk on beş gününde deftere nakledilirse gelir planı, ayın ilk günü kullanılarak oluşturulur. Fatura, ayın on altıncı gününde veya sonrasında deftere nakledilirse gelir planı, bir sonraki ayın ilk günü kullanılarak oluşturulur.
 
-        **Ay ortasından bölme** kabul esası **Güne göre mali dönem** olarak ayarlanmışsa seçilemez.
+        - **Ay ortasından bölme** kabul esası **Güne göre mali dönem** olarak ayarlanmışsa seçilemez.
 
     - **Sonraki ayın/dönemin ilk günü**: Planın başladığı tarih, sonraki ayın veya mali dönemin ilk günüdür.
     - **Ay/dönem sonu**: İlk plan satırındaki tarih, sözleşme başlangıç tarihidir (veya fatura tarihi). Ancak sonraki tüm plan satırları, ayın veya mali dönemin son günü için oluşturulur. 

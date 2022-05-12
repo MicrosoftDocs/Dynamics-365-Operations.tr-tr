@@ -10,16 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
             - name: Commerce'teki yenilikler veya değişiklikler
               items:
-                - name: Commerce'teki yenilikler veya değişiklikler giriş sayfası
+                - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.27 (Temmuz 2022)
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (Mayıs 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: Commerce 10.0.25 (Nisan 2022)
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: Commerce 10.0.24 (Şubat 2022)
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: Commerce 10.0.23 (Ocak 2022)
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -356,6 +354,8 @@
                           href: tax-exempt-price-inclusive.md
                         - name: Çevrimiçi siparişler için satış vergisini yapılandırma
                           href: sales-tax-config.md
+                        - name: Sipariş özetlerinde vergi döküm bilgilerini gizleme
+                          href: hide-taxes-breakup.md
                     - name: E-posta bildirimi profili ayarlama
                       href: email-notification-profiles.md
                     - name: Numara serileri
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: Cihaz yönetimi uygulama kılavuzu
                       href: implementation-considerations-devices.md
-                    - name: MPOS ile Cloud POS arasında seçim yapma
+                    - name: Store Commerce ve Cloud POS arasında seçim yapma
                       href: MPOS-or-CPOS.md
                     - name: Çevrimiçi ve çevrimdışı POS işlemleri
                       href: pos-operations.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: Perakende kanalları için mali boyutlar oluşturma ve mağazalardaki değerleri yapılandırma
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: Perakende ekstreleri için numara serilerini ayarlama
+                  href: retail-statements-number-sequences.md
                 - name: E-ticaret kanallarında tutarlı teslimat şekli işlemeyi etkinleştirme
                   href: consistent-delivery-mode-handling.md
             - name: Çevrimiçi kanalı ayarlama
@@ -884,6 +886,8 @@
           items:
             - name: Ekstrelere genel bakış
               href: retail-statements.md
+            - name: Commerce deftere nakil parametreleri
+              href: commerce-posting-parameters.md
             - name: Ekstre hesaplama işlemi için mağaza hareketlerini doğrulama
               href: valid-checker.md
             - name: Perakende hareketi tutarlılık denetleyicisinde kuralları devre dışı bırakma
@@ -1100,6 +1104,8 @@
                       href: adventure-works-theme.md
                     - name: Adventure Works temasını yükleme
                       href: install-adventure-works.md
+                - name: Commerce yerelleştirme kılavuzu
+                  href: e-commerce-localization-guide.md
             - name: Dijital varlıkları yönetme
               items:
                 - name: Dijital varlık yönetimine genel bakış
@@ -1312,6 +1318,14 @@
               href: b2b/payment-method.md
             - name: B2B e-ticaret siteleri için ürün miktarı sınırlarını ayarlama
               href: b2b/quantity-limits.md
+            - name: B2B siteleri için Commerce katalogları
+              items:
+                - name: B2B siteleri için Commerce katalogları oluşturma
+                  href: catalogs-b2b-sites.md
+                - name: B2B özelleştirmelerine yönelik Commerce kataloglarının genişletilebilirlik etkisi
+                  href: catalogs-b2b-sites-dev.md
+                - name: B2B için Commerce katalogları hakkında SSS
+                  href: catalogs-b2b-sites-FAQ.md
         - name: İzleme ve analiz
           items:
             - name: Satış ve kar performansını izleme
@@ -2474,13 +2488,17 @@
                       href: dev-itpro/extension-resource-localization.md
             - name: Gözetimsiz Commerce
               items:
+                - name: Genel Bakış
+                  items:
+                    - name: Temel Commerce Scale Unit (CSU) tanıtımı
+                      href: dev-itpro/CSU-core.md
                 - name: API'ler ve referans
                   items:
                     - name: Commerce Scale Unit müşteri ve tüketici API'leri
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: Harici uygulamalarda Retail Server API'lerini kullanma
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: Retail POS için Typescript ve C# proxy'leri
+                    - name: Retail POS için TypeScript ve C# proxy'leri
                       href: dev-itpro/typescript-proxy-retail-pos.md
                     - name: Commerce Runtime (CRT) mimarisi ve yapılandırması
                       href: dev-itpro/commerce-runtime-overview.md
@@ -2528,11 +2546,13 @@
                       href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Ambalaj ve dağıtım
                   items:
-                    - name: Bulut Ölçek Birimi uzantılarını kaldırma
+                    - name: Cloud Scale Unit uzantı paketi oluşturma
+                      href: dev-itpro/CSU-packaging.md
+                    - name: Cloud Scale Unit uzantılarını kaldırma
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
               items:
-                - name: Genel bakış
+                - name: Genel Bakış
                   items:
                     - name: POS uzantısına genel bakış
                       href: dev-itpro/pos-extension/pos-extension-overview.md
@@ -2540,6 +2560,8 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: POS Uzantılarını Commerce SDK'ye geçirme
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: VS Code kullanarak Store Commerce uzantılarında hata ayıklama
+                      href: dev-itpro/sc-debug.md
                 - name: Ortam kurulumu
                   items:
                     - name: Yerel geliştirme ortamı
@@ -2614,9 +2636,11 @@
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: Cloud POS uzantı paketi oluşturma
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Store Commerce uzantı yükleyici paketi oluşturma
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: E-ticaret
               items:
-                - name: Genel bakış
+                - name: Genel Bakış
                   items:
                     - name: Çevrimiçi kanal genişletilebilirliğine genel bakış
                       href: e-commerce-extensibility/overview.md
@@ -2814,8 +2838,12 @@
                       items:
                         - name: Telemetri kaydedici
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce Headquarters
               items:
+                - name: CDX paketi uzantısı
+                  items:
+                    - name: Özel veriler eklemek üzere CDX paketini genişletme
+                      href: dev-itpro/extend-customer-CDX-package.md
                 - name: Ambalaj ve dağıtım
                   items:
                     - name: Finans ve Operasyonlar dağıtımı için Commerce ödeme paketi oluşturma

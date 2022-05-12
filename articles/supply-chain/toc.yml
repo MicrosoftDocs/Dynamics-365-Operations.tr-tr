@@ -10,16 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Supply Chain Management'taki yenilikler veya değişiklikler
               items:
-                - name: Supply Chain Management'taki yenilikler veya değişiklikler giriş sayfası
+                - name: Supply Chain Management'taki giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.27 (Temmuz 2022)
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (Mayıs 2022)
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: Supply Chain Management 10.0.25 (Nisan 2022)
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (Şubat 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (Ocak 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -338,7 +336,7 @@
                           href: ../finance/localizations/e-invoicing-sa-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: SDI ile İtalyan FatturaPA doğrudan tümleştirmesini ayarlama
                           href: ../finance/localizations/e-invoicing-ita-fatturapa-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Satıcı faturalarını içeri aktarmak için elektronik faturalama hizmetini kullanma
+                        - name: Satıcı faturalarını içeri aktarmak için elektronik faturalama servisini kullanma
                           href: ../finance/localizations/e-invoicing-get-started-import-vendor-invoices.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Elektronik Faturalamayı ayarlama
                           href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
@@ -1725,8 +1723,6 @@
               href: iot/iot-azure-setup.md
             - name: IoT Hub'ı için ileti şeması biçimleri
               href: iot/iot-schema-format.md
-            - name: LCS'de eklentiyi yükleme
-              href: iot/iot-lcs-setup.md
             - name: Ölçümleri ayarlama
               href: iot/iot-metrics-setup.md
             - name: Senaryo kurulumu
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
                   href: production-control/production-floor-execution-use.md
+                - name: Üretim katı yürütme arabiriminde tatil bakiyelerini görüntüleme
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: Üretim katı yürütme arabirimini düzenleme
                   href: production-control/production-floor-execution-styles.md
                 - name: Üretim katı yürütme arabirimini özelleştirme

@@ -12,6 +12,8 @@
               items:
                 - name: Finance giriş sayfasındaki yenilikler ve değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.27 (Temmuz)
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (Mayıs)
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (Nisan)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Yinelenen sözleşme faturalaması
                   items:
+                    - name: Yinelenen sözleşme faturalaması kurulumu
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: Faturalama planları oluşturma
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Faturalama planını kopyalama
@@ -420,22 +424,26 @@
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Aşama bazında faturalama
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Gelir tahsisatı
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: Destek ve yenileme işlemi
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: Faturalanmamış gelir
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Tüketici fiyat endeksi planları
                       href: accounts-receivable/cpischedules.md
                     - name: Faturalama planlarını sonlandırma
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: Sıralama tarihi senaryoları
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: Gelir ve gider ertelemeleri
                   items:
                     - name: Gelir ve gider ertelemelerini ayarlama
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Erteleme planları
-                      items:
-                        - name: Erteleme planları oluşturma
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: Erteleme varsayılan işlemleri
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: Erteleme planları oluşturma
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: Erteleme varsayılan işlemleri
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: Çok öğeli gelir tahsisatı
                   items:
                     - name: Çok öğeli gelir tahsisatını ayarlama
@@ -1429,7 +1437,7 @@
                             - name: Elektronik faturalama için Azure kaynaklarını ayarlama
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: Azure portalda Azure Key Vault oluşturma
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: Azure portalda Azure depolama hesabı oluşturma
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: SharePoint bağlantısını yapılandırma
@@ -1460,6 +1468,8 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: Diğer kuruluşlarla paylaşma
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: Kullanım yönetimi panosu
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: Gelen elektronik belgeleri işleme
                           items:
                             - name: Gelen elektronik belgeleri işleme
@@ -1468,12 +1478,12 @@
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: SharePoint kanalı yapılandırma
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: Finance ve Supply Chain Management ile Elektronik Faturalamayı ayarlama ve kullanma
-                          items:
-                            - name: Elektronik Faturalamayla tümleştirmeyi etkinleştirme ve ayarlama
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: Elektronik Faturalama parametrelerini ayarlama
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: Finance ve Supply Chain Management ile Elektronik Faturalamayı ayarlama ve kullanma
+                      items:
+                        - name: Elektronik Faturalamayla tümleştirmeyi etkinleştirme ve ayarlama
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: Elektronik Faturalama parametrelerini ayarlama
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Elektronik Faturalamayla çalışma
                           items:
                             - name: Elektronik belgeleri Elektronik Faturalamaya gönderme
@@ -1486,12 +1496,6 @@
                       items:
                         - name: Elektronik Faturalama özelliklerinin kullanılabilirliği
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektronik Faturalama hizmet yönetimini kullanmaya başlama
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Elektronik Faturalamayı kullanmaya başlama
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Yeni bir Elektronik faturalama özelliği oluşturma
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Brezilya için Elektronik Faturalamayı kullanmaya başlama
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Mısır için Elektronik Faturalamayı kullanmaya başlama
@@ -1502,12 +1506,8 @@
                           href: localizations/e-invoicing-sa-get-started.md
                         - name: SDI ile İtalyan FatturaPA doğrudan tümleştirmesini ayarlama
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
-                        - name: Satıcı faturalarını içeri aktarmak için elektronik faturalama hizmetini kullanma
+                        - name: Satıcı faturalarını içeri aktarmak için elektronik faturalama servisini kullanma
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: Elektronik Faturalamayı ayarlama
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Power Platform eklentisi yönetici referansı
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Elektronik Faturalama ile ilgili SSS
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Vergi Hesaplama
@@ -1614,10 +1614,16 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: Sorun giderme
                       items:
-                        - name: Vergi hizmetine erişilemedi
+                        - name: Vergi servisine erişilemedi
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
                         - name: Vergi hesaplama parametrelerinde boş vergi özelliği listesi
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: Vergi kodu belirlenemiyor
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: Eşleşen sonuç bulunamadı
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: Vergi hesaplama servisinde hata ayıklama modunu etkinleştirme
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: Vergi Hesaplama ile ilgili SSS
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Vergi
@@ -3721,10 +3727,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/practice-manager-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Satınalma harcama analizi
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: İşe alma
+                - name: İşe alım
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Satış ve karlılık performansı
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: Abonelik Faturalaması Power BI içerikleri
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: Satıcı ödemeleri
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: İş gücü ölçümleri
