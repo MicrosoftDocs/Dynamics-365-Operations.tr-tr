@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c578420783a8d19fe4a1522486e0b0146a390722
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: c49e6cedcce1d336486e9fbcc0620bcdf455cc9d
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388196"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614136"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Almanya için mali tümleştirme örneğine ilişkin dağıtım kılavuzları (eski)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics Lifecycle Services'taki (LCS) bir geliştirici sanal makinesinde (VM) Microsoft Dynamics 365 Commerce Retail yazılım geliştirme setinden (SDK) Almanya için mali kayıt hizmeti tümleştirme örneğinin dağıtılmasına ilişkin yönergeler sağlar. Bu mali tümleştirme örneği hakkında daha fazla bilgi için bkz. [Almanya için mali kayıt hizmeti tümleştirme örneği](emea-deu-fi-sample.md). 
 

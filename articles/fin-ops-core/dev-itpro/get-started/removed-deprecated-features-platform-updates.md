@@ -2,7 +2,7 @@
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance ve Operations uygulamalarının platform güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396561"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644621"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya kullanım dışı bırakılan platform özellikleri
 
@@ -32,17 +32,29 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 Finans ve Operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/global/axtechrefrep_61) altından ulaşabilirsiniz. Finans ve Operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
-## <a name="feature-removal-effective-march-14-2022"></a>Özellik kaldırma geçerlilik tarihi: 14 Mart 2022
+## <a name="feature-deprecation-effective-april-2022"></a>Nisan 2022'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+
+### <a name="xml-url-resolution-in-data-management"></a>Veri yönetiminde XML URL'si çözümlemesi 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Olası bir güvenlik açığı olarak tanımlandığından XML URL çözümlemesi desteğini kaldırıyoruz. Bu, XML dosyalarıyla ilişkili dış kaynakların artık giderilemeyeceği anlamına gelir.  |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır. |
+| **Etkilenen ürün alanları**         | Finans ve Operasyon uygulamaları |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kaldırıldı. |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>14 Mart 2022'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
 
 ### <a name="xslt-scripting-in-data-management"></a>Veri yönetiminde XSLT komut dosyası
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Finans ve operasyon uygulamalarındaki güvenlik ve veri korumasının geliştirilmesi için veri yönetimindeki XSLT komut dosyası desteği kullanım dışıdır.  |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Finans ve Operasyon uygulamalarındaki güvenlik ve veri korumasının geliştirilmesi için veri yönetimindeki XSLT komut dosyası desteği kullanım dışıdır.  |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır. Müşteriler ve ISV'ler, XSLT kodu yerine X++ diline dayalı olarak çözümlerinin yeniden uygulanması gerektiğini düşünmelidir. |
-| **Etkilenen ürün alanları**         | Finans ve Operasyon uygulamaları. |
-| **Dağıtım seçeneği**              | Tümü. |
-| **Çalıştırma Durumu**                         | Kullanım dışı: 14 Mart 2022'de planlanan kaldırma tarihi.<br><br>Özel durum: XLST komut dosyası kullanmakta olan müşteriler. Sürüm 10.0.30 veya daha yenisine güncelleştirene kadar kullanmaya devam edebilir. Bu özel duruma sahip müşteriler Microsoft 365 Yönetim Merkezinde bulunan İleti merkezinde bir bildirim almıştır. |
+| **Etkilenen ürün alanları**         | Finans ve Operasyon uygulamaları |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kaldırıldı <br><br>**Özel durum:** XLST komut dosyası kullanmakta olan müşteriler. Sürüm 10.0.30 veya daha yenisine güncelleştirene kadar kullanmaya devam edebilir. Önceki sürümlerde, özel durum 31 Ocak 2023 tarihinden sonra sona erer. Bu özel duruma sahip müşteriler Microsoft 365 Yönetim Merkezinde bulunan İleti merkezinde bir bildirim almıştır. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Özellik kaldırma geçerlilik tarihi: 2021 Ekim
 

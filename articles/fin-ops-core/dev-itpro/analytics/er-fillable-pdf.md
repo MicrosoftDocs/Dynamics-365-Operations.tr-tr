@@ -2,7 +2,7 @@
 title: PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 description: Bu konu, bir PDF şablonunu doldurmak üzere Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367868"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645121"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 
@@ -252,10 +252,14 @@ Bir **Alan** biçimi öğesi için her iki özellik de isteğe bağlı olduğund
 - **Ad** özniteliği tanımlanmışsa ve **Ad** ifadesi yapılandırılmışsa, biçim öğesinin **Ad** ifadesi tarafından döndürülen değerle aynı ada sahip PDF alanı doldurulur.
 
 > [!NOTE]
-> PDF onay kutusu aşağıdaki yollarla seçili şekilde doldurulabilir:
+> PDF şablonundaki bir onay kutusu, bir onay kutusu grubuna ait olmadığında, **PDF dosya** öğesinin altında yuvalanmış bir **Alan** öğesi olarak düzenlenebilir bir ER biçiminde temsil edilir. Bu PDF onay kutusu türü, aşağıdaki yollarla seçili şekilde doldurulabilir:
 >
-> - Karşılık gelen **Alan** biçimi öğesi, **Doğru** değeri olan **Boolean** veri türünün veri kaynağı alanına bağlandığında
-> - Karşılık gelen **Alan** biçimi öğesi, metin değeri **1**, **Doğru** veya **Evet** olan bir veri kaynağı alanına bağlı iç içe geçmiş **Dize** biçimi öğesi içerdiğinde
+> - Karşılık gelen **Alan** biçimi öğesi, **Doğru** değeri olan *[Boolean](er-formula-supported-data-types-primitive.md#boolean)* veri türünün veri kaynağı alanına bağlanır.
+> - Karşılık gelen **Alan** biçimi öğesi, metin değeri **1**, **Doğru** veya **Evet** olan bir veri kaynağı alanına bağlı iç içe geçmiş **Dize** biçimi öğesi içerir.
+>
+> Şablonunuz, bir seferde yalnızca bir onay kutusunun seçilebileceği bir grup onay kutusu içerebilir. Bu onay kutuları bir PDF şablonunda, *ONAY KUTUSU* türünde birden çok form alanı olarak gösterilir. Her alan aynı ada ancak farklı dışa aktarma değerine sahiptir. Şablonu düzenlenebilir ER biçimine içe aktardığınızda, her onay kutusu aynı **Onay kutusu grubu maddesi** altında yuvalanmış bir **Onay kutusu grup maddesi** olarak biçim hiyerarşik yapısında temsil edilir. **Onay kutusu grubu** öğesinin adı, PDF şablonundaki onay kutusu alanları adına eşit olacak. Her bir **Onay kutusu grubu maddesi** öğesinin adı, PDF şablonundaki karşılık gelen onay kutusu alanının dışa aktarma değerine eşit olacak.
+>
+> **Onay kutusu grubu maddesi** öğesini yalnızca *Boole* veri türündeki veri kaynağı alanına bağlayabilirsiniz.
 
 ## <a name="run-the-format-configuration"></a>ER biçimi yapılandırması çalıştırma
 

@@ -2,7 +2,7 @@
 title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu özelliklere erişebilmek için yeni ızgara özelliğini etkinleştirmeniz gerekir.
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602977"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644428"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
@@ -106,7 +106,7 @@ Bu özelliği kullanmak için, gruplandırmada kullanmak istediğiniz sütuna sa
 - Bu gruptaki veri satırlarının sayısı
 - Toplamları gösterecek şekilde yapılandırılan sütunların alt toplamları
 
-[Kayıtlı görünümler](saved-views.md) etkinleştirildiğinde, sayfayı bir sonraki ziyaretinizde hızlı erişim için bir görünümün parçası olarak bu gruplandırma kişiselleştirerek gruplandırılabilir.
+[Kaydedilmiş görünümler](saved-views.md) etkinken, sorguların görünümlere kaydedilmesine izin veren sayfalardaki görünümün bir parçası olarak gruplandırmayı kaydedebilirsiniz. Örneğin, büyük görünüm seçicileri olanlar. Daha fazla bilgi için [Görünümler arasında değiştirme](saved-views.md#switching-between-views) bölümüne bakın. 
 
 ### <a name="multiple-levels-of-grouping"></a>Birden çok gruplandırma düzeyi
 Verileri tek bir sütuna göre gruplandırdıktan sonra, istediğiniz sütunda **Bu sütuna göre gruplandır**'ı seçerek verileri farklı bir sütuna göre gruplandırabilirsiniz. Bu işlem, iç içe geçmiş 5 gruplandırma düzeyine sahip oluncaya kadar tekrarlanabilir. Bu, desteklenen derinlik üst sınırıdır. Bu aşamada, ek sütunlara göre gruplandırma yapamazsınız.

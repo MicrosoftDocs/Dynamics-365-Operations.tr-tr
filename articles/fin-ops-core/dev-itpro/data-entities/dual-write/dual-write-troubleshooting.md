@@ -2,19 +2,19 @@
 title: Genel sorun giderme
 description: Bu konu, Finans ve Operasyon uygulamaları ile Dataverse arasında çift yazma tümleştirmesi hakkında genel sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554613"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614109"
 ---
 # <a name="general-troubleshooting"></a>Genel sorun giderme
 
@@ -131,6 +131,29 @@ Dynamics 365 Sales içinde bir satış siparişi oluşturduğunuzda, **+ Ürün 
 2. Formlar düğümünün altından **Bilgi** formunu bulun.
 3. **Bilgi** formunu seçin ve **Güvenlik rollerini etkinleştir**'e tıklayın.
 4. Güvenlik ayarını **Herkese göster** olarak değiştirin.
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Veri tümleştirmenin en güncel Finans ve Operasyon şemasını kullandığı nasıl emin olunur
+
+En güncel şema kullanılmıyorsa, veri tümleştirmede veri sorunları yaşayabilirsiniz. Aşağıdaki adımlar, finans ve operasyon uygulamalarındaki varlık listesini ve veri tümleştiricisi içindeki varlıkları yenilediğiniz konusunda size yardımcı olur.
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Finans ve Operasyon ortamınızda varlık listesini yenileme
+1.  Finans ve Operasyon ortamınızda oturum açın.
+2.  **Veri yönetimi**'ni seçin.
+3.  Veri yönetimi içinde, **Çerçeve parametreleri**'ni seçin.
+4.  **Veri içe/dışa aktarma çerçevesi parametreleri** sayfasında, **Varlık ayarları** sekmesini seçin ve ardından **Varlık listesini yenile** sekmesini seçin. Bu işlem, ilgili varlık sayısına bağlı olarak 30 dakikadan fazla sürebilir.
+5.  **Veri Yönetimi**'ne gidin ve beklenen varlıkların listelendiğini doğrulamak için **Veri varlıkları**'nı seçin. Beklenen varlıklar listelenmemişse, varlıkların finans ve operasyonlar ortamınızda göründüğünü doğrulayın ve gerektiği şekilde eksik varlıkları geri yükleyin.
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Yenileme sorunu çözemezse, varlıkları silin ve yeniden ekleyin
+
+> [!NOTE]
+> Silmeden önce, varlıkları etkin şekilde kullanan tüm işlem gruplarını durdurmanız gerekebilir.
+
+1.  Finans ve operasyonlar ortamınızda **Veri yönetimi**'ni seçin ve **Veri varlıklarını** seçin.
+2.  Sorun olan varlıkları arayın ve hedef varlığı, hazırlama tablosunu, varlık adını ve diğer ayarları not alın. Varlık veya varlıkları listeden silin.
+3.  **Yeni**'yi seçin ve 2. adımdaki verileri kullanarak varlığı veya varlıkları yeniden ekleyin. 
+
+#### <a name="refresh-entities-in-data-integrator"></a>Veri tümleştiricisi içindeki varlıklar yenile
+Power Platform Yönetici Merkezinde oturum açın ve **Veri tümleştirmesi**'ni seçin. Sorunların oluştuğu projeyi açın ve **Varlıkları yenile**'yi seçin.
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Destek biletlerine izlemelerin eklenebilmesi için ağ izlemeyi etkinleştirme ve kaydetme
 

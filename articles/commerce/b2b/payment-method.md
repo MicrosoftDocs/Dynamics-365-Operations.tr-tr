@@ -2,7 +2,7 @@
 title: B2B e-ticaret siteleri için müşteri hesabı ödeme yöntemini yapılandırma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'de müşteri hesabı ödeme yönteminin nasıl yapılandırılacağı açıklanmıştır. Ayrıca, alacak limitlerinin işletmeler arası (B2B) e-ticaret sitelerinde açık hesap ödeme yakalamasını nasıl etkilediğini de açıklar.
 author: josaw1
-ms.date: 02/16/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323367"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616844"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>B2B e-ticaret siteleri için müşteri hesabı ödeme yöntemini yapılandırma
 
@@ -82,7 +82,7 @@ B2B web sitesinde gösterilen alacak limiti hesaplaması ve bakiyesi Commerce He
 
 Açık hesap siparişini etkileyen başka bir özellik müşteri kaydının **Alacak ve tahsilatlar** hızlı sekmesinde bulunan **Zorunlu alacak limiti** özelliğidir. Alacak limitinin hiçbir müşteri için kontrol edilmemesi gerektiği belirtmek için **Alacak limiti türü** özelliği **Yok** olarak ayarlanmış olsa bile bu özelliği belirli müşteriler için **Evet** olarak ayarlayıp sistemi bu müşterilerin alacak limitini kontrol etmeye zorlayabilirsiniz.
 
-Şu anda, **Zorunlu alacak limiti** özelliğinin etkinleştirildiği B2B sitelerinde ek işlevler bulunur. Özellik bir müşteri kaydında etkinleştirilmişse, müşteri bir sipariş verdiğinde, B2B sitesi müşterinin kalan alacak bakiyesinden daha fazla ödeme yapmak için açık hesap ödeme yöntemini kullanmasını engeller. Örneğin, müşterinin kalan alacak bakiyesi $1.000 ancak siparişin $1.200 olması durumunda, müşteri açık hesap yöntemini kullanarak yalnızca $1.000 ödeme yapabilir. Bakiyeyi ödemek için başka bir ödeme yöntemi kullanması gerekir. Bir müşteri kaydında **Zorunlu kredi limiti** özelliği devre dışı bırakılmışsa, müşteri açık hesap ödeme yöntemini kullanarak herhangi bir tutar ödeyebilir. Ancak, müşteri sipariş verebilse bile, sistem alacak limitini aştıklarında bu siparişlerin karşılanmalarına izin vermez. Açık hesap ödemeleri için uygun olan tüm müşteriler için alacak limitini denetlemeniz gerekiyorsa **Kredi limiti türü**  özelliğini **Bakiye + sevk irasliyesi veya ürün makbuzu** ve **Zorunlu kredi limiti** özelliğini **Hayır** olarak ayarlamanız önerilir.
+Şu anda, hesaba mahsup ödeme yöntemini kullanan bir müşteri, sipariş için kalan kredi bakiyesinden fazla ödeme yapamıyor. Örneğin, müşterinin kalan alacak bakiyesi $1.000 ancak siparişin $1.200 olması durumunda, müşteri açık hesap yöntemini kullanarak yalnızca $1.000 ödeme yapabilir. Müşterinin, bakiyeyi ödemek için başka bir ödeme yöntemi kullanması gerekir. Gelecekteki bir sürümde, Commerce yapılandırması, kullanıcıların sipariş verirken Kredi limitlerinin ötesine harcamasına olanak tanır.
 
 **Alacak ve tahsilatlar** modülünde yeni kredi yönetimi özellikleri bulunmaktadır. Bu özellikleri açmak için **Özellik yönetimi** çalışma alanında **Alacak yönetimi** özelliğini etkinleştirin. Yeni özelliklerden biri, satış siparişlerinin engelleme kurallarına dayalı olarak beklemeye alınmasına olanak tanır. Daha sonra alacak yöneticisi siparişleri serbest bırakabilir veya daha fazla incelenmeleri için reddedebilir. Ancak, satış siparişlerinde genellikle bir ön ödeme olduğundan ve **Alacak yönetimi** özelliği ön ödeme senaryolarını tamamaen desteklemediğinden satış siparişlerini beklemeye alma özelliği Commerce siparişlerine uygulanamaz. 
 

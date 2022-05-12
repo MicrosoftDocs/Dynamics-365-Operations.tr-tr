@@ -2,7 +2,7 @@
 title: Kayıtlı görünümler
 description: Bu konu, kaydedilmiş görünümler özelliklerinin nasıl kullanılacağını açıklar.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065718"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644801"
 ---
 # <a name="saved-views"></a>Kayıtlı görünümler
 
@@ -45,7 +45,7 @@ Görünümler bir ortam için kullanılabilir hale getirildikten sonra, görün�
 
 Görünüm seçicisinde iki boyut varyasyonu vardır: 
 
-- **Büyük görünüm seçicileri**: Bir listeyi gösteren sayfalar, birkaç nedenden dolayı daha büyük görünüm seçicisine sahip olacaktır. En önemlisi, daha büyük görünüm seçicisi, kullanıcı tanımlı filtreleri içerebilen sayfaları belirtir. Filtreler görünümlerde yer aldığından, görünüm adları ekranda gösterilen verilerin en iyi açıklaması olacağı ve beklentilerin kullanıcıların Bu sayfa türlerinde daha sık geçiş yapma işlemi olacağı için büyük seçici boyutuna da izin verilir.
+- **Büyük görünüm seçicileri**: Bir listeyi gösteren sayfalar, birkaç nedenden dolayı daha büyük görünüm seçicisine sahip olacaktır. En önemlisi, daha büyük görünüm seçicisi, kullanıcı tanımlı filtreleri ve sıralamaları içerebilen sayfaları belirtir. Filtreler ve sıralamalar görünümlerde yer aldığından, görünüm adları ekranda gösterilen verilerin en iyi açıklaması olacağı ve beklentilerin kullanıcıların Bu sayfa türlerinde daha sık geçiş yapma işlemi olacağı için büyük seçici boyutuna da izin verilir. Kılavuzdaki gruplandırma, büyük görünüm seçicileri bulunan bir sayfadaki görünümlere de kaydedilebilir. 
 - **Küçük görünüm seçicileri**: Diğer tüm tam ekran sayfaları (çalışma alanları ve pano hariç), sayfa başlığının yanında görünen daha küçük bir görünüm seçicisine sahiptir. Bu sayfalardaki görünümler, kullanıcı tanımlı filtreleri değil, yalnızca kişiselleştirmeler içerir. Bu sayfalarda form başlığı veya kayıt başlığı genellikle sayfanın üst kısmındaki en önemli bilgiler olur. Daha küçük boyuttaki görünüm seçici ayrıca, bu sayfalarda beklenen daha düşük görüntüleme geçişi sıklığını da yansıtır. 
  
 Görünüm adını seçerseniz görünüm seçicisi açılır ve bu sayfayla ilgili kullanılabilir görünümlerin listesini gösterir.

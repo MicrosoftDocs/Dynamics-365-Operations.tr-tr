@@ -2,7 +2,7 @@
 title: Kiralamaları düzeltme
 description: Bu konuda, kiralamaların nasıl düzeltileceği açıklanmaktadır. Kiralama süreleri değiştirilirse, kiralama süresi uzatılırsa veya başka koşullar değişirse düzeltme gerekebilir.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729666"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644569"
 ---
 # <a name="adjust-leases"></a>Kiralamaları düzeltme
 
@@ -134,5 +134,19 @@ Kiralama düzeltilmişse kiralamanın farklı sürümlerini görebilirsiniz. Ayr
 2. Geçmiş planlamaları görüntülemek için **Kiralama özeti** sayfasından değiştirilen kiralamayı açın, istediğiniz defteri seçin ve ardından Eylem Bölmesinde **Defter sürüm geçmişi**'ni seçin.
 3. **Defter sürümü** sayfasında, görüntülenecek bir sürüm ve zamanlama seçin.
 
+## <a name="adjust-a-lease-book"></a>Kiralama defteri düzeltme
+
+Yalnızca kiralama defteri düzeltmek için aşağıdaki adımları izleyin.
+
+1. **Varlık kiralama** \> **Kiralamalar** \> **Kiralama özeti**'ne gidin.
+2. Bir kiralama seçin ve açın.
+3. **Kiralama ayrıntıları** sayfasında **Defterler**'i seçin.
+4. Eylem bölmesindeki **Defter ayrıntıları** sayfasında, **Bakım** grubunda, **Defteri düzelt**'i seçin. 
+5. Ödeme zamanlaması satırlarını kaldırın.
+6. **Kira değiştirme tarihi** alanına değiştirilme tarihini girin. Daha sonra, varsa, tüm ek kıymet/sorumlulukların (ilk doğrudan maliyet, kira teşvik, kira ön ödemesi, Boşalma maliyeti ve net değer garantisi) kaldırılmasını göz önünde bulundurun. 
+7. Kira ayarlamasının yanlış hesaplamalarını önlemeye yardımcı olmak için, değiştirme tarihiyle eşleşen yeni ödeme tarihleri için yeni ödeme planı satırları ekleyin. 
+
+> [!NOTE] 
+> Kirayı ayarlamak için **Kira ayarlama** sihirbazını kullanmanızı öneririz. Sihirbaz el ile gerçekleştirilen adımların sayısını azaltır, ayarlamadan sonra bakiyelerin önizlemesini sağlar ve deftere nakletmeden önce tutarları değiştirmenizi sağlar.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

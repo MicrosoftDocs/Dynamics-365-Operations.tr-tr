@@ -2,7 +2,7 @@
 title: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
 description: Bu konu, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323530"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649115"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Uzantı kullanarak vergi tümleştirmesine veri alanları ekleme
 
@@ -334,9 +334,10 @@ En doğrudan yaklaşım, `CopyToDocument` ve `CopyToLine` yöntemlerini uzatmakt
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-Bu kodda, `_destination` gönderi isteğini oluşturmak için kullanılan sarmalayıcı nesnedir ve `_source` `TaxIntegrationLineObject` nesnesidir.
+Bu kodda, `_destination` isteğini oluşturmak için kullanılan sarmalayıcı nesnedir ve `_source` `TaxIntegrationLineObject` nesnesidir.
 
 > [!NOTE]
-> Talep formunda kullanılan anahtarı **private const str** olarak tanımlayın. Dize tam olarak konuda eklenen ölçüm aynı olmalıdır, [Vergi yapılandırmalarına veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).
-> **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** yönetimdeki alanı **SetField** yöntemi kullanarak ayarlayın. İkinci parametrenin veri türü **string** olmalıdır. Veri türü **string** değilse dönüştürün.
->  X + + **numaralandırma türü** genişletilmiş ise değeri, etiketi ve adı arasındaki farkı not alın.
+> Talepte kullanılan alan adını **private const str** olarak tanımlayın. Dize tam olarak konuda eklenen düğüm (etiket değil) aynı olmalıdır, [Vergi yapılandırmalarına veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).
 > 
+> **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** yönetimdeki alanı **SetField** yöntemi kullanarak ayarlayın. İkinci parametrenin veri türü **string** olmalıdır. Veri türü **string** değilse dizeye dönüştürün.
+> Veri türü X++ **sabit liste türünde** ise, sabit liste değerini bir dizeye dönüştürmek için **enum2Symbol** yöntemini kullanmanızı öneririz. Vergi yapılandırmasına eklenen sabit liste değeri tam olarak numaralandırma adı ile aynı olmalıdır. Aşağıda, sabit liste değeri, etiketi ve adı arasındaki farklılıkların bir listesi verilmiştir.
+> 
+>   - Sabit liste adı kod içindeki bir simgesel addır. **enum2Symbol()** numaralandırma değerini dönüştürmek için kullanılabilir.
 >   - Numaralandırma değeri tamsayıdır.
->   - Enum etiketi, tercih edilen diller arasında farklı olabilir. Numaralandırma türünü dizeye dönüştürmek için **enum2Str** kullanmayın.
->   - Sabit olduğu için numaralandırma adı önerilir. **enum2Symbol** numaralandırmayı adına dönüştürmek için kullanılabilir. Vergi yapılandırmasına eklenen numaralandırma değeri tam olarak numaralandırma adı ile aynı olmalıdır.
+>   - Enum etiketi, tercih edilen diller arasında farklı olabilir. **enum2Strl()** numaralandırma değerini etikete dönüştürmek için kullanılabilir.
 
 ## <a name="model-dependency"></a>Model bağımlılığı
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

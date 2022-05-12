@@ -2,7 +2,7 @@
 title: B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 description: Bu konuda, Microsoft Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web sitelerinde ve Commerce Headquarters'ta iş ortağı kullanıcılarını ekleme, silme ve düzenleme işlemleri açıklanmaktadır.
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323467"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616869"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323467"
 Bu konuda, Microsoft Dynamics 365 Commerce işletmeler arası (B2B) e-ticaret web sitelerinde ve Commerce Headquarters'ta iş ortağı kullanıcılarını ekleme, silme ve düzenleme işlemleri açıklanmaktadır.
 
 > [!NOTE]
-> [Müşteri hiyerarşilerini kullanarak B2B iş ortaklarını yönetme](partners-customer-hierarchies.md) konusu bu belge için bir ön koşuldur. 
+> - [Müşteri hiyerarşilerini kullanarak B2B iş ortaklarını yönetme](partners-customer-hierarchies.md) konusu bu belge için bir ön koşuldur.
+> - **Kuruluş yönetimi \> Belge yönetimi \> Belge türleri**'nde **Belge türleri** formunu açarak Commerce genel merkezde belge türleri varlığını başlattığınızdan emin olun.
 
 B2B e-ticaret web siteleri kuruluşların iş ortakları olarak kaydolmasını gerektirir. Bir kuruluş, bir B2B e-ticaret web sitesine kayıt ayrıntılarını gönderdikten sonra, kayıt isteği bir uygunluk işleminden geçer. Kuruluş başarıyla uygun bulunursa bir iş ortağı olarak eklenir.
 

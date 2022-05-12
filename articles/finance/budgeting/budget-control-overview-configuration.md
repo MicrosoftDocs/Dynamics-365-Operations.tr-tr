@@ -2,7 +2,7 @@
 title: Bütçe kontrolüne genel bakış
 description: Bu konu bütçe denetimi özelliğini tanıtır ve kuruluşunuzun mali kaynaklarının yönetimini en iyi duruma getirmek için bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar.
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986068"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644863"
 ---
 # <a name="budget-control-overview"></a>Bütçe kontrolüne genel bakış
 
@@ -80,7 +80,9 @@ Ardından **Kullanılabilen bütçe fonları** sekmesinde, kullanılabilir büt�
 > [!NOTE]
 > Hesaplama bir bütçe döngüsü sırasında değiştirilirse daha önce bütçe kontrolü denetimlerinden geçen ve nakledilen veya tamamlanan belgeler bu değişikliklerden etkilenmez. **Yalnızca kullanılabilir bütçe fonları hesaplamasındaki izleme tutarları** adlı bir özellik, BudgetSourceTracking tablolarında hangi verilerin izleneceğini değiştirmenize olanak sağlar. Bu özellik açıldığında, tutarlar yalnızca kullanılabilir bütçe fonları hesaplamasında kullanılmak üzere seçilmişse depolanır. Daha fazla bilgi için bkz. [Kullanılabilir bütçe fonları](budget-funds-available.md).
 
-Ardından, **Belgeler ve günlükler** sekmesinde hangi kaynak belgelerinin ve günlüklerinin bütçe kontrolü denetimlerine tabi tutulacağını ve denetimin satır girişinde mi, yoksa tüm belge düzeyinde mi gerçekleştirileceğini tanımlayabilirsiniz. 
+### <a name="documents-and-journals"></a>Belgeler ve günlükler
+
+**Belgeler ve günlükler** sekmesinde hangi kaynak belgelerinin ve günlüklerinin bütçe kontrolü denetimlerine tabi tutulacağını ve denetimin satır girişinde mi, yoksa tüm belge düzeyinde mi gerçekleştirileceğini tanımlayabilirsiniz. Ayrıca, Microsoft Dynamics 365 Finance sürümü 10.0.27 itibariyle kullanılabilen yeni **Bütçe kontrol belgesi filtreleme geliştirmesi** özelliği, bütçe kontrolüne dahil edilen her belge için sorgu tabanlı bir filtre seçeneği sağlar. Bu nedenle, bütçe için hangi bütçe kontrol belgelerinin kontrol edilebilir olduğunu belirtebilirsiniz. Bu şekilde, özellik bir belge türünün yalnızca bir alt kümesinin bütçe denetimli olmasını sağlar. Örneğin, yalnızca **Havuz** alanı **01** olarak ayarlanmış olan satınalma siparişlerini kontrol edebilirsiniz. **Belgeler ve günlükler** sekmesine eklenen yeni bir sütun, seçili belge türü için bir sorgunun tanımlanıp tanımlanmadığını gösterir. Ek olarak, belge kılavuzunun üzerine araç çubuğuna eklenen iki yeni düğme filtre eklemenizi, düzenlemenizi veya silmenizi sağlar. 
 
 Kullanılabilir bütçe fonlarının hesaplanmasına dahil edilen onay kutularıyla seçilen kaynak belgeleri eşleştirmeniz gerekir. Örneğin, **Yükümlülükler için bütçe rezervleri** ayarını seçerseniz **Satın alma emirleri** seçimini yapmanız gerekir. Bir satın alma satırındaki tutarlar ve hesaplar için bir bütçe denetimi gerçekleştirildiğinde, rezerve atanan bütçe kontrolü kategorisi, **Yükümlülük** kategorisi olacaktır. Bir satın alma talebindeki tutarlar ve hesaplar için bir bütçe denetimi gerçekleştirildiğinde, rezerve atanan bütçe denetimi kategorisi, **Ön yükümlülük** kategorisi olacaktır. 
 

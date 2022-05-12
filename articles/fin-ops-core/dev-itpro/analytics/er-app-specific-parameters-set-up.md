@@ -2,7 +2,7 @@
 title: Her tüzel kişilik için ER biçiminin parametrelerini ayarlama
 description: Bu konu, her tüzel kişilik için bir Elektronik raporlama (ER) biçimi parametrelerini nasıl ayarlayabileceğinizi açıklar.
 author: NickSelin
-ms.date: 10/22/2021
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927466"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644513"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Her tüzel kişilik için ER biçiminin parametrelerini ayarlama
 
@@ -30,7 +30,7 @@ ms.locfileid: "7927466"
 
 Bu adımları tamamlamak için önce [Her tüzel kişilik için belirtilen parametreleri kullanmak için ER biçimlerini yapılandırma](er-app-specific-parameters-configure-format.md) bölümündeki adımları tamamlamanız gerekir.
 
-Bu konudaki örnekleri tamamlamak üzere aşağıdaki rollerden biri için Microsoft Dynamics 365 Finance'e erişiminiz olmalıdır:
+Bu konudaki örnekleri tamamlamak üzere aşağıdaki rollerden biri için Microsoft Dynamics 365 Finance'a erişiminiz olmalıdır:
 
 - Elektronik raporlama geliştirici
 - Elektronik raporlama işlev danışmanı
@@ -226,7 +226,7 @@ ER biçiminin uygulamaya özel parametreleri, tüzel kişiliğe bağlıdır. Bir
 İçe aktarmak için bir dosya seçtiğinizde bu dosyadaki uygulamaya özel parametrelerin yapısının, içe aktarma için seçilen ER biçimindeki **Arama** türünde karşılık gelen veri kaynaklarının yapısıyla karşılaştırıldığını unutmayın. Varsayılan olarak içe aktarma, uygulamaya özel her parametrenin yapısı içe aktarma için seçilen ER biçiminde ilgili veri kaynağının yapısıyla eşleştiğinde tamamlanır. Yapılar eşleşmezse içe aktarmanın tamamlanmadığını bildiren bir uyarı iletisi alırsınız. İçe aktarma işlemini zorlarsanız seçilen ER biçimi için uygulamaya özel var olan parametreler temizlenir ve bunları en baştan ayarlamanız gerekir.
 
 
-Dynamics 365 Finance 10.0.24 sürümünden başlayarak, varsayılan davranışı değiştirebilir ve **Özellik yönetimi** çalışma alanındaki **İçe aktarılırken uygulamaya özgü parametreleri hizalamaya olanak vererek** bir uyarı iletisi almaktan kurtulabilirsiniz. Bu özellik etkinleştirildiğinde, içe aktardığınız uygulamaya özel parametrelerin yapısı, içe aktarma için seçilen hedef ER biçimindeki karşılık gelen veri kaynaklarının yapısından farklıysa içe aktarma aşağıdaki durumlarda başarılı olur:
+Finance 10.0.24 sürümünden başlayarak, varsayılan davranışı değiştirebilir ve **Özellik yönetimi** çalışma alanındaki **İçe aktarılırken uygulamaya özgü parametreleri hizalamaya** olanak vererek bir uyarı iletisi almaktan kurtulabilirsiniz. Bu özellik etkinleştirildiğinde, içe aktardığınız uygulamaya özel parametrelerin yapısı, içe aktarma için seçilen hedef ER biçimindeki karşılık gelen veri kaynaklarının yapısından farklıysa içe aktarma aşağıdaki durumlarda başarılı olur:
 
 - Hedef ER biçiminin yapısı, **Arama** türünün varolan tüm veri kaynaklarına yeni koşul sütunları eklenerek değiştirildi. İçe aktarma tamamlandığında, uygulamaya özel parametreler güncelleştirilir. Uygulamaya özgü parametrelerin tüm içe aktarılan kayıtlarında, eklenen her koşul sütunundaki değerler o sütunun [veri türü](er-formula-supported-data-types-primitive.md) için varsayılan değer ile başlatılır.
 - Hedef ER biçiminin yapısı, **Arama** türünün varolan tüm veri kaynaklarından bazı koşul sütunlarının çıkarılmasıyla değiştirildi. İçe aktarma tamamlandığında, uygulamaya özel parametreler güncelleştirilir. Uygulamaya özgü parametrelerin tüm içe aktarılan kayıtlarında, kaldırılmış olan her koşul sütunundaki değerler silinir.
@@ -235,9 +235,33 @@ Dynamics 365 Finance 10.0.24 sürümünden başlayarak, varsayılan davranışı
 
 İçe aktarma tamamlandığında, yalnızca açıklanan değişikliklere ek olarak, içe aktarılan uygulamaya özel parametrelerin durumu **Devam ediyor** olarak değiştirilir. Bir uyarı iletisi, otomatik olarak ayarlanmış uygulamaya özel parametrelerin el ile düzenlenmesi gerektiğini bildirir.
 
+#### <a name="replicate-parameters"></a>Parametreleri yinele
+
+Finance sürüm 10.0.27 itibariyle, bir şirkette konfigüre ettiğiniz parametreleri aynı anda diğer şirketlere kopyalayabilirsiniz.
+
+Parametreleri kopyalamak için aşağıdaki adımları tamamlayın.
+
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+2. **Raporlama yapılandırmaları**'nı seçin.
+3. Yapılandırma ağacında **LE verilerinin nasıl aranacağını öğrenmek için biçimlendirme** biçimini seçin.
+4. Eylem Bölmesinde, **Yapılandırmalar** sekmesindeki **Uygulama özel parametreleri** grubunda **Ayar**'ı seçin.
+5. ER biçiminin **1.1.1** sürümünü seçin.
+6. Eylem bölmesinde **Kopyala**'yı seçin.
+7. **Kopyala** iletişim kutusunda, **Şirketler** sekmesinde, parametreleri kopyalamak istediğiniz şirketleri seçin.
+
+    > [!NOTE]
+    > Hedef şirketler listesi yalnızca tüm kuruluşlara erişim vermek üzere konfigüre edilen bir güvenlik [rolü](../sysadmin/role-based-security.md#security-roles) atanan kullanıcılara sunulur.
+
+8. **Tamam**'ı seçin.
+
+    > [!NOTE]
+    > Onay iletişim kutusu, bazı hedef şirketler, bir ER biçiminin seçili sürümü için önceden konfigüre edilmiş parametreler içeriyorsa bunu size bildirir. Parametreleri geçerli şirketten kopyalayarak geçersiz kılmak için **Evet**'i seçin.
+
+    Konfigüre edilmiş uygulamaya özgü parametreler kümesi şimdi seçilen şirketlere kopyalanır.
+
 ### <a name="reuse-existing-parameters"></a>Varolan parametreleri yeniden kullanma
 
-Dynamics 365 Finance sürüm 10.0.23'ten başlayarak, aynı biçimin daha yüksek bir sürümünü çalıştırdığınızda, ER biçiminin bir sürümü için yapılandırılmış uygulamaya özgü parametreleri yeniden kullanabilirsiniz. Bunu yapmak için, **Özellik yönetimi** çalışma alanındaki **Önceki ER biçimleri sürümünden uygulamaya özel parametreleri kullan** özelliğini etkinleştirin. Bu özellik etkin olduğunda ve uygulamaya özel parametreleri okumaya çalışan bir ER biçiminin tek bir sürümünü çalıştırdığınızda, ER bu biçimin çalıştığı sürüm için yapılandırılmış uygulamaya özel parametreler bulmaya çalışır. Veya kullanılamadığı durumlarda, bu biçimin en yakın alt sürümü için.
+Finance sürüm 10.0.23'ten başlayarak, aynı biçimin daha yüksek bir sürümünü çalıştırdığınızda, ER biçiminin bir sürümü için yapılandırılmış uygulamaya özgü parametreleri yeniden kullanabilirsiniz. Mevcut parametreleri yeniden kullanmak için, **Özellik yönetimi** çalışma alanındaki **Önceki ER biçimleri sürümünden uygulamaya özel parametreleri kullan** özelliğini etkinleştirin. Bu özellik etkin olduğunda ve uygulamaya özel parametreleri okumaya çalışan bir ER biçiminin tek bir sürümünü çalıştırdığınızda, ER biçimin çalıştığı sürüm için yapılandırılmış uygulamaya özel parametreler bulmaya çalışır. Bunlar kullanılamıyorsa ER bunları biçimin en yakın alt sürümü için bulmaya çalışır.
 
 > [!NOTE]
 > Uygulamaya özgü parametreleri yalnızca geçerli tüzel kişilideki kapsam içinde kullanabilirsiniz.

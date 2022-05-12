@@ -1,8 +1,8 @@
 ---
 title: Abonelik faturalamasına genel bakış
-description: Bu konuda Microsoft Dynamics 365 Finance'ta abonelik faturalaması açıklanmaktadır.
+description: Bu konuda Microsoft Dynamics 365 Finance'te abonelik faturalaması açıklanmaktadır.
 author: JodiChristiansen
-ms.date: 02/09/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462483"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644541"
 ---
 # <a name="subscription-billing-overview"></a>Abonelik faturalamasına genel bakış
 
@@ -33,6 +33,8 @@ Abonelik faturalaması, kuruluşların abonelik geliri fırsatlarını ve fatura
 - **Yinelenen sözleşme faturalaması** – Bu modül, fiyatlandırma ve faturalama parametreleri, sözleşme yenilemesi ve birleştirilmiş faturalama üzerinde kontrol sağlamak için tekrarlanan faturalama ve fiyat yönetiminin kullanılmasını sağlar.
 - **Gelir ve gider ertelemeleri** – Bu modül, geliri yöneterek ve aylık yinelenen gelire gerçek zamanlı bilgiler sağlayarak, harici sistemlerdeki el ile yapılan işlemleri ve bağımlılığı ortadan kaldırır.
 - **Çok öğeli gelir tahsisatı** – Bu modül, birden çok madde arasında fiyatlandırma ve gelir tahsisatı işlemlerini gerçekleştirerek gelir uyumluluğu sağlanmasına yardımcı olur.
+
+Abonelik faturalaması hakkında daha fazla bilgi için bkz. [Abonelik faturalaması Power BI içeriği](sub-bill-power-bi.md).
 
 Abonelik faturalaması **Özellik yönetimi** üzerinden etkinleştirilir. Ancak, **Gelir kabulü** özelliğiyle birlikte kullanılamaz. Bu nedenle, abonelik faturalaması özelliğini etkinleştirmeden önce bu özelliği devre dışı bırakmanız gerekir.
 

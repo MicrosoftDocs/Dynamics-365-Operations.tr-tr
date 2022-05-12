@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324099"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661672"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektronik bir belge oluşturmak için elektronik raporlama yapılandırmalarını özelleştirme
 
@@ -61,7 +61,7 @@ Elektronik raporlama işlevsel danışmanı veya elektronik raporlama geliştiri
 ### <a name="configure-er-parameters"></a>ER parametrelerini yapılandırma
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasında **İlgili bağlantılar** bölümünde **Elektronik raporlama parametreleri** kutucuğunu seçin.
+2. **Yerelleştirme şema** sayfasında **İlgili bağlantılar** bölümünde **Elektronik raporlama parametreleri** kutucuğunu seçin.
 3. **Elektronik raporlama parametreler** sayfasında, **Genel** sekmesinde, **Tasarım modunu etkinleştir** seçeneğini **Evet** olarak ayarlayın.
 4. **Ekler** sekmesinde, **Yapılandırmalar** alanında, **Dosya**'yı seçin.
 5. **İş arşivi**, **Geçici**, **temel** ve **diğer** alanlarında **Dosya** tipini seçin.
@@ -78,13 +78,13 @@ Eklenen her ER yapılandırması bir ER konfigürasyon sağlayıcısı tarafınd
 #### <a name="review-the-list-of-er-configuration-providers"></a>ER yapılandırma sağlayıcıları listesini gözden geçirin
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasında **İlgili bağlantılar** bölümünde **Yapılandırma sağlayıcıları** kutucuğunu seçin.
+2. **Yerelleştirme şema** sayfasında **İlgili bağlantılar** bölümünde **Yapılandırma sağlayıcıları** kutucuğunu seçin.
 3. **Yapılandırma sağlayıcısı tablosu** sayfasında, her sağlayıcı kaydının benzersiz bir adı ve URL'si vardır. Bu sayfanın içeriğini gözden geçirin. **Litware, Inc.** (`https://www.litware.com`) için zaten bir kayıt varsa, sonraki yordamı atlayıp [Yeni bir ER yapılandırma sağlayıcısı ekleyin](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Yeni bir ER yapılandırması sağlayıcısı ekleme
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasında **İlgili bağlantılar** bölümünde **Yapılandırma sağlayıcıları** kutucuğunu seçin.
+2. **Yerelleştirme şema** sayfasında **İlgili bağlantılar** bölümünde **Yapılandırma sağlayıcıları** kutucuğunu seçin.
 3. **Yapılandırma sağlayıcıları** sayfasında, **Yeni**'yi seçin.
 4. **Ad** alanına **Litware, Inc.** yazın.
 5. **İnternet adresi** alanına `https://www.litware.com` girin.
@@ -93,7 +93,7 @@ Eklenen her ER yapılandırması bir ER konfigürasyon sağlayıcısı tarafınd
 #### <a name="activate-an-er-configuration-provider"></a>ER yapılandırma sağlayıcısı etkinleştirin.
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme konfigürasyonları** sayfasında, **Konfigürasyon sağlayıcıları** bölümünde, **Litware, Inc.** döşemesini seçin ve sonra **etkin ayarla**'yı seçin.
+2. **Yerelleştirme şema** sayfasında, **Konfigürasyon sağlayıcıları** bölümünde, **Litware, Inc.** döşemesini seçin ve sonra **etkin ayarla**'yı seçin.
 
 ER yapılandırma sağlayıcıları hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -102,7 +102,7 @@ ER yapılandırma sağlayıcıları hakkında daha fazla bilgi için bkz. [Yapı
 Geçerli Finans kurulumunuza standart ER yapılandırmalarını eklemek için bu yapılandırmaları o kurulum için yapılandırılmış olan ER [deposundan](general-electronic-reporting.md#Repository) içe aktarmanız gerekir.
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasında, **Yapılandırma Sağlayıcıları** bölümünde **Microsoft** kutucuğunu seçin ve Microsoft sağlayıcısı için depolar listesini görüntülemek için **Depolar**'ı seçin.
+2. **Yerelleştirme şema** sayfasında, **Yapılandırma Sağlayıcıları** bölümünde **Microsoft** kutucuğunu seçin ve Microsoft sağlayıcısı için depolar listesini görüntülemek için **Depolar**'ı seçin.
 3. **Yapılandırma depoları** sayfasında, **Global** türünün deposunu seçin ve sonra **Aç**'ı seçin. Regulatory Configuration Service bağlanmak için yetkilendirme istenirse, yetkilendirme yönergelerini uygulayın.
 4. **Yapılandırma deposu** sayfasında, sol bölmedeki yapılandırma ağacında, **Peppol Satış Faturası** biçim yapılandırmasını seçin.
 5. **Sürümler** hızlı sekmesinde, sürüm **11.2.2**' i seçin.
@@ -116,7 +116,7 @@ Geçerli Finans kurulumunuza standart ER yapılandırmalarını eklemek için bu
 ### <a name="review-the-imported-er-configurations"></a>İçe aktarılan ER yapılandırmalarını gözden geçirin
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** kutucuğunu seçin.
+2. **Yerelleştirme şema** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** kutucuğunu seçin.
 3. **Yapılandırmalar** sayfasında, **Yapılandırma bileşenleri** hızlı sekmesini genişletin.
 4. Sol bölmedeki yapılandırma ağacında, **Fatura modelini** genişletin ve sonra **UBL satış faturası** öğesini genişletin.
 

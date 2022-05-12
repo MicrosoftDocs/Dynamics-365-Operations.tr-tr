@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384437"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645004"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -74,9 +74,9 @@ Etkin işler aşağıdaki sütunlar vardır:
 
 ## <a name="my-jobs-tab"></a>İşlerim sekmesi
 
-**İşlerim** sekmesi, çalışanları özel olarak kendilerine atanan tüm başlamamış ve bitmemiş işleri kolaylıkla görüntülemenizi sağlar. Bunlar, işlerin bazen başka türden kaynaklar (örneğin makineler) yerine belirli çalışanlara (insan kaynakları) atanan ya da her zaman çalışan şirketlerde yararlıdır. 
+**İşlerim** sekmesi, çalışanları özel olarak kendilerine atanan tüm başlamamış ve bitmemiş işleri kolaylıkla görüntülemenizi sağlar. Bunlar, işlerin bazen başka türden kaynaklar (örneğin makineler) yerine belirli çalışanlara (insan kaynakları) atanan ya da her zaman çalışan şirketlerde yararlıdır.
 
-Zamanlama sistemi, her bir üretim işini belirli bir kaynak kaydına otomatik olarak atar ve her kaynak kaydının bir türü vardır (makine veya insan gibi). Bir çalışanı üretim çalışanı olarak ayarladığınızda, çalışan hesabını benzersiz bir insan kaynakları kaydıyla ilişkilendirebilirsiniz. 
+Zamanlama sistemi, her bir üretim işini belirli bir kaynak kaydına otomatik olarak atar ve her kaynak kaydının bir türü vardır (makine veya insan gibi). Bir çalışanı üretim çalışanı olarak ayarladığınızda, çalışan hesabını benzersiz bir insan kaynakları kaydıyla ilişkilendirebilirsiniz.
 
 **İşlerim** sekmesi, oturum açmış bir çalışan çalışanın insan kaynakları kaydına atanan tüm başlamamış ve tamamlanmamış işleri listeler. Oturum açmış çalışan o işlerle çalışmaya başlasa bile, bir makineye veya başka türde bir kaynağa atanan işleri hiçbir zaman listelemez.
 
@@ -87,7 +87,7 @@ Oturum açan çalışan tarafından başlatılan tüm işleri, her projenin atan
 ## <a name="my-machine-tab"></a>Makinem sekmesi
 
 **Makinem** sekmesi, çalışanların **Tüm işler** sekmesinde ayarlanan filtre dahilindeki makine kaynağına bağlı olan kıymeti seçmesine olanak tanır. Çalışan, en fazla dört seçili sayacın değerlerini ve en son bakım istekleri ve kaydedilmiş kesinti süreleri listelerini okuyarak seçili kıymetin durumunu ve sistem durumunu görüntüleyebilir. Çalışan aynı zamanda seçili kıymet için bakım isteyebilir ve makine kesinti süresini kaydedebilir ve düzenleyebilir. (Bu sekme adı özelleştirilebilir ve sisteminiz için farklı olabilir.)
- 
+
 ![Makinem sekmesi.](media/pfei-my-machine-tab.png "Makinem sekmesi")
 
 **Makinem** sekmesi aşağıdaki sütunlara sahiptir. Sayılar, önceki görseldeki sayılara karşılık gelir.
@@ -202,9 +202,9 @@ Aşağıdaki işlemler gerçekleştirilebilir:
 - Çalışan **Tamam**'ı seçerse malzeme çekme listesi silinmez. **Hurdayı raporla** veya **İlerlemeyi raporla** iletişim kutusunda bildirildiğinde deftere nakledilir.
 - Çalışan **İlerlemeyi raporla** veya **Hurda raporla** iletişim kutusunda **İptal**'i seçerse, malzeme çekme listesi silinir.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Sağdaki araç çubuğundan malzeme ayarlama
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Birincil veya ikincil araç çubuğundan malzeme ayarlama
 
-**Malzemeyi ayarla** düğmesi, sağdaki araç çubuğunda görünecek şekilde yapılandırılabilir. (Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini tasarlama](production-floor-execution-tabs.md).) Çalışan, devam etmekte olan bir üretim işi için **Malzemeyi ayarla**'yı seçebilir. Bu durumda, çalışanın istenen ayarlamaları yapabileceği **Malzemeyi ayarla** iletişim kutusu görüntülenir. İletişim kutusu açıldığında, üretim emri için ayarlanan miktarlar için satırlar içeren bir üretim malzeme çekme listesi oluşturulur. Çalışan **Şimdi deftere naklet**'i seçerse, ayarlama onaylanır ve malzeme çekme listesi deftere nakledilir. Çalışan **İptal**'i seçerse, malzeme çekme listesi silinir ve ayarlama yapılmaz.
+**Malzemeyi ayarla** düğmesi, birincil veya ikincil araç çubuğunda görünecek şekilde yapılandırılabilir. (Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini tasarlama](production-floor-execution-tabs.md).) Çalışan, devam etmekte olan bir üretim işi için **Malzemeyi ayarla**'yı seçebilir. Bu durumda, çalışanın istenen ayarlamaları yapabileceği **Malzemeyi ayarla** iletişim kutusu görüntülenir. İletişim kutusu açıldığında, üretim emri için ayarlanan miktarlar için satırlar içeren bir üretim malzeme çekme listesi oluşturulur. Çalışan **Şimdi deftere naklet**'i seçerse, ayarlama onaylanır ve malzeme çekme listesi deftere nakledilir. Çalışan **İptal**'i seçerse, malzeme çekme listesi silinir ve ayarlama yapılmaz.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Fiili ağırlık maddeleri için malzeme tüketimini ayarla
 
@@ -260,6 +260,42 @@ Her iki durumda da Shannon seçimini onayladıktan sonra, oturum açma sayfasın
 Çalışanlar mola kaydedebilir. Molalar, [Kayıt temel alınarak ödeme](pay-based-on-registrations.md) konusunda açıklandığı gibi esnek şekilde tanımlanabilir.
 
 Bir çalışan **Mola**'yı seçip ardından mola türünü temsil eden kartı (öğle yemeği gibi) seçerek bir molayı kaydeder. Çalışan seçimi onayladıktan sonra, cihazda oturum açma sayfası veya çalışanın moladan döndüğünü onaylayacağı bir sayfa gösterilir. Beliren sayfa, üretim tabanı yürütme arabiriminin konfigürasyonuna bağlıdır. (Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](production-floor-execution-configure.md).)
+
+## <a name="view-the-my-day-dialog"></a>"Günüm" iletişim kutusunu görüntüleme
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+**Günüm** iletişim kutusu, çalışanların kayıtlarının ve bakiyelerinin genel bir özetini sağlar. İletişim kutusu aşağıdaki üç bölüme ayrılmıştır:
+
+- Ana bölümde, seçilen bir tarihte geçerli çalışanın yaptığı kayıtlar listelenir. Geçerli gün için kayıtları göstererek açılır ve alt görünümün diğer günlerle aynı olmasını sağlayan bir tarih seçici sağlar.
+- **Son hesaplanan günlük bakiye** bölümünde, çalışanın ücretli süre, ücretli fazla mesai, devamsızlık ve ücretli devamsızlık hakkındaki geçerli bakiyeleri gösterilir. Bu değerler, onay işlemi sırasında hesaplanan kayıtlara dayanır.
+- **Bakiyeler** bölümü, seçilen kayıt kategorileri (tatil, standart zaman ve fazla mesai gibi) için tanımlanmış bir dönemdeki bakiyelerin genel görünümünü sağlar. Bu bakiyeler, **Zaman ve katılımcı** modülünde istatistiksel bakiyelerin nasıl ayarlanacağını temel alan bir yöntemdir. Bunu ayarlama hakkında daha fazla bilgi için bkz. [Üretim katı yürütme arabiriminde tatil bakiyelerini gösterme](production-floor-execution-payroll-stats.md).
+
+Yöneticiler, [Üretim kat yürütme arabiriminde tasarımda](production-floor-execution-tabs.md) açıklandığı gibi her ilgili sekme için, **Günüm** düğmesini bir araç çubuğuna yerleştirerek bu özelliği arabirime ekleyebilir.
+
+## <a name="working-in-teams"></a>Ekipte çalışma
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Aynı üretim işine birden fazla işçi atandığında, bir ekip oluşturabilirler. Ekip, bir çalışanı pilot olarak aday gösterebilir. Kalan işçiler ardından otomatik olarak bu pilotun asistanı olurlar. Ortaya çıkan ekip için, yalnızca pilot iş durumunu kaydetmelidir. Zaman kayıtları tüm ekip üyeleri için geçerlidir.
+
+### <a name="prerequisites"></a>Önkoşullar
+
+Takımları kullanmak için, yöneticinin, üretim tabanı yürütme arabiriminin **Tüm işler** sekmesindeki birincil araç çubuğu için **Yardımcı** eylemini etkinleştirmesi gerekir. Talimatlar için bkz. [Üretim katı yürütme arabirimini tasarlama](production-floor-execution-tabs.md).
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Pilot ve asistan bulunan yeni bir takım oluştur
+
+Çalışan, **Tüm işler** sekmesinde **Yardımcı**'yı seçerek yardımcı olarak kayıt yapabilir. Sonra da görüntülenen **Yardımcı yapılacak bir çalışanı seç** iletişim kutusunda çalışan, bir iş üzerinde etkin şekilde çalışan çalışanların listesinden bir pilot seçebilir. Çalışan, seçimini teyit ettikten sonra, seçilen çalışan için yeni ekibin lideri olan bir yardımcı olurlar.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Varolan bir takıma yeni bir pilot atama
+
+Bir takım yeni bir pilot seçmek istediğinde, geçerli lider ekipte yeni bir çalışan olarak başka bir çalışanı aday vermelidir. Yeni bir pilot için aday eklemek amacıyla, geçerli pilot **Tüm işler** sekmesindeki **Yardımcı**'yı seçer. Daha sonra pilot, görüntülenen **Pilot değiştir** iletişim kutusundan zaten ekipte olan çalışanlar arasından yeni bir pilot seçebilir. Geçerli pilot onların seçimini onayladıktan sonra takımdan tamamen çıkarılır. Ancak, takıma gereksinim duydukları sürece yeniden katılabilir.
+
+### <a name="assistant-clocks-out"></a>Yardımcı görev çıkışı
+
+Yardımcı olarak çalışan bir çalışan görev çıkışı yaptığında takımdan ayrılırlar. **Kalıcı takımlar** ve **Göreve girişte yeniden başla** seçenekleri *Evet* olarak ayarlanmışsa, görev çıkışı yapan bir çalışan sonraki görev girişinde otomatik olarak ekibe yeniden katılır. Bu seçenekleri , **Zaman ve katılımcı parametreleri** sayfasının **Genel** sekmesinde bulabilirsiniz.
 
 ## <a name="opening-instructions"></a>Açılış yönergeleri
 

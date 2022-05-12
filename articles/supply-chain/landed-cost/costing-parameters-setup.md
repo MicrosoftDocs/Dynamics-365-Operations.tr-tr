@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1bcce7af0a15add63f1d9c3b32563de0ab6698bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 335bed49b05bf64547d7ded885f365a30487484f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577660"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644652"
 ---
 # <a name="costing-parameter-values-setup"></a>Maliyetlendirme parametresi değerleri kurulumu
 
@@ -123,9 +123,9 @@ Aşağıdaki tabloda, her şablonda kullanılabilecek ayarlar açıklanmıştır
 
 ## <a name="volumetric-divisors"></a>Hacimsel bölenler
 
-Hacimsel ağırlığı hesaplamak için hacimsel bölenler kullanılır. Her sevkiyat/sevkiyat şirketi kendi hacimsel bölenlerini belirler. Buna ek olarak, bir şirketin bölenleri genellikle teslimat şekline bağlı olarak değişir. Örneğin, hava ve deniz genellikle çok farklı bölenlere sahiptir. Bir şirket, sevkiyatın nereden yapıldığına bağlı olarak kurallarını daha karmaşık hale getirebilir.
+Hacimsel ağırlığı hesaplamak için hacimsel bölenler kullanılır. Her sevkiyat/sevkiyat şirketi kendi hacimsel bölenlerini belirler. Buna ek olarak, bir şirketin bölenleri genellikle teslimat şekline bağlı olarak değişir. Örneğin, hava ve deniz genellikle çok farklı bölenlere sahiptir. Bir şirket, sevkiyatın nereden yapıldığına bağlı olarak kurallarını daha karmaşık hale getirebilir. Sistem, volümetrik ağırlığını bulmak için aşağıdaki formülü kullanır: VolumetricWeight = Hacim ÷ VolumetricDivisor.
 
-Örneğin, hava yoluyla gönderilen bir paket 3 metreküp (m³) hacme sahiptir. Şirket hacimsel ağırlıkla ücret alır ve 6 hacimsel bölenini uygular. Bu bölen, hacimsel ağırlığı belirlemek için hacimle çarpılır. Bu nedenle, bu örnek için hacimsel ağırlık 3 × 6 = 18 kilogramdır (kg).
+Örneğin, hava yoluyla gönderilen bir paket 3 metreküp (m³) hacme sahiptir. Şirket hacimsel ağırlıkla ücret alır ve 6 hacimsel bölenini uygular. Bu bölen, hacimsel ağırlığı belirlemek için hacimle bölünür. Bu nedenle, bu örnek için hacimsel ağırlık 3 ÷ 6 = 0.5 kilogramdır (kg).
 
 Hacimsel bölenleri ayarlamak için **Varış yeri maliyeti \> Maliyetlendirme kurulumu \> Hacimsel bölenler**'e gidin. **Hacimsel bölenler** sayfası, var olan tüm hacimsel bölenleri listeleyen bir kılavuz sağlar. Kılavuza satır eklemek, kaldırmak ve düzenlemek için Eylem Bölmesindeki düğmeleri kullanabilirsiniz.
 
@@ -136,4 +136,7 @@ Aşağıdaki tabloda, kılavuzdaki her satırda kullanılabilecek alanlar açık
 | Sevkiyat şirketi | Hacimsel bölenle ilişkili sevkiyat şirketinin satıcı hesabını seçin. |
 | Maliyet türü kodu | Hacimsel bölenle ilişkili maliyet türü kodunu seçin. Maliyet türlerini raporlama paketlerine koymak için bu alanı kullanın. Raporlar, raporlama kategorilerine veya maliyet türüne göre yazdırılabilir. |
 | Çıkış limanı | Hacimsel bölenin uygulandığı "çıkış" limanını seçin. |
-| Hacimsel bölen | Satıra uygulanan hacimsel bölen değerini girin. Girdiğiniz değer, paketin hacimsel ağırlığını belirlemek için her paketin hacmiyle *çarpılır*. |
+| Hacimsel bölen | Satıra uygulanan hacimsel bölen değerini girin. Her bir paketin hacmi, paketin hacimsel ağırlığını belirlemek için buraya girdiğiniz değere bölünür. |
+
+> [!NOTE]
+> Sistem **fiili ağırlık** ve **hacimsel ağırlık** arasındaki maksimum değeri kullanır.

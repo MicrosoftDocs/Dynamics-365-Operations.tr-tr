@@ -2,7 +2,7 @@
 title: Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni ve değiştirilmiş özellikleri listeler.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487850"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644746"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management için Warehouse Management mobil uygulamasının yayımlanan her sürümü için yeni özellikleri, iyileştirmeleri ve bilinen sorunları listeler.
+
+## <a name="version-20210"></a>Sürüm 2.0.21.0
+
+Bu sürüm aşağıdaki yeni özellikleri, düzeltmeleri ve iyileştirmeleri içerir.
+
+- Birkaç kilitlenme sorunu düzeltildi.
+- Varsayılan sayfada tarama veya üzerine yazma sırasında bazı karakterlerin tanınmamasına neden olan bir sorun düzeltildi.
+- Varsayılan sayfaya bir geri alma metni yazmanın bir seferde iki karakter silmesi sorununu düzeltti.
+- **İş listesi** sayfasındaki **Sıralama ölçütü** alanına, kartların gerçek sıralama düzenine karşılık gelmemiş yanlış bir değer görüntüleyeceği bir sorun düzeltildi.
+- Microsoft Windows'ta uygulama penceresi çalışırken yeniden boyutlandırdıktan sonra yanlış düzenin gösterilmesine neden olan bir sorun düzeltildi.
+- Açılır bir listede kaydırmanın bazı liste öğelerinin gizli veya bozuk hale gelmesine neden olduğu bir sorun düzeltildi.
+- Daha büyük görüntüler üzerinde çalışırken kullanıcı adı ve parola alanlarını aynı sayfa üzerinde görüntülemesine izin vermek üzere oturum açma sayfasını yeniden tasarlanmıştır.
+- Denetimlerin hızlı dokunma tepki hızını artırmış şekilde geliştirildi.
+- Uygulama içi hata günlüğü görünümü eklendi.
+- Çeşitli erişilebilirlik geliştirmeleri eklendi (Android'de iyileştirilmiş anlatım, eksik yer tutucular düzeltildi, kaydırıcı kontrolleri için etkinleştirilen klavye girişi ve daha fazlası).
 
 ## <a name="version-20200"></a>Sürüm 2.0.20.0
 

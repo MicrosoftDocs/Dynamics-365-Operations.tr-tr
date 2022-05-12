@@ -2,7 +2,7 @@
 title: Mali boyutlar
 description: Bu konu, çeşitli mali boyut türlerini ve nasıl ayarlandıklarını açıklar.
 author: aprilolson
-ms.date: 01/03/2019
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d5de5b58f0d498c4766659671d43fdb216cd6a870345509505b5a6bc19bdd4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e667e8dd1282e788eb40cd392baa9db824cec2
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754206"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644373"
 ---
 # <a name="financial-dimensions"></a>Mali boyutlar
 
@@ -79,8 +79,12 @@ Verinin referans tutarlılığını korumaya yardımcı olmak amacıyla, mali bo
 - Mali boyut, herhangi bir etkin hesap yapısında, gelişmiş kural yapısında veya mali boyut kümesinde kullanılıyor mu?
 - Mali boyut, bir varsayılan mali boyut tümleştirme biçiminin parçası mı?
 - Mali boyut, bir varsayılan mali boyut olarak ayarlanmış mı?
+- Mali boyut Financial Reporting kurulumunda seçilmemiş mu? 
 
 Kriterlerden herhangi biri karşılanıyorsa, mali boyutu silemezsiniz.
+
+> [!NOTE]
+> Finance 10.0.27 sürümünden itibaren, mali boyutları, oluşturuldukları için mali raporlama kurulumu için otomatik olarak seçilmeyecektir. 
 
 ## <a name="default-dimension-values"></a>Varsayılan boyut değerleri
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533726"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644316"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>İzin ve devamsızlık planlarını tahakkuk et
 
@@ -105,8 +105,10 @@ Belirli bir plan ve tarih aralığı için tahakkuk kayıtlarını silin. Tahakk
 **İzin tahakkuk planı** bir kişi veya tüm personel için bir tahakkuku her çalıştırma veya silme olayını görüntüler. Tarih ve eylemi gerçekleştiren kişi de görüntülenir.
 
 1. **İzin ve devamsızlık** sayfasında, **Bağlantılar** sekmesini seçin.
-
 2. **İzni yönet** altında, **İzin tahakkuk denetimini sil**'i seçin.
+
+## <a name="leave-accrual-rounding"></a>İzin tahakkuku yuvarlama
+Bir çalışan kaydedildiğinde veya kaydı iptal edildiğinde, tahakkuk eden yuvarlamayı eşit olarak bırakır. Önceden, yuvarlamanın yalnızca, bir bırakma planı eşit olarak ayarlandığında ve bir çalışan orta dönem sırasında kaydı yapıldığı/kaydedilmeytiğinde izin verilir. Tahakkukları, dönem başına veya dönem başlangıcında kayıt/kayıt olmama durumundan bağımsız olarak yuvarlayacak.
 
 ## <a name="leave-accrual-transaction-auditing"></a>İzin tahakkuku hareketi denetleme
 

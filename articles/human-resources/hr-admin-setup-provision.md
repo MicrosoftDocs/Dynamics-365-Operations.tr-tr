@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565642"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625371"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı sağla
 
@@ -41,7 +41,7 @@ Yeni bir üretim ortamını hazırlamaya başlayabilmeniz için aşağıdaki ön
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources deneme ortamı sağlama
 
 >[!NOTE]
-> Nisan 2022'den itibaren, tek başına çalışan uygulamada Human Resources deneme ortamları kullanılamaz. Finans ve Operasyon uygulamalarındaki İnsan Kaynakları özelliklerini değerlendirmeyle ilgilenen potansiyel müşteriler bunu, demo verileriyle birlikte ücretsiz 30 günlük deneme sürümünü kullanarak yapabilir. Dynamics 365 Finance, tek başına çalışan uygulamanın birleştirilmesi yoluyla Finance altyapısına getirilen İnsan Kaynakları özelliklerini içerecektir. Daha fazla bilgi için bkz. [HR tekliflerinin birleştirilmesi müşteriler için özellikleri bir araya getiriyor](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Dynamics 365 Finance deneme sürümleri hakkında daha fazla bilgi için adım adım [kılavuza](/fin-ops/get-started/before-you-buy) bakın. 
+> Nisan 2022'den itibaren, tek başına çalışan uygulamada Human Resources deneme ortamları kullanılamaz. Finans ve Operasyon uygulamalarındaki İnsan Kaynakları özelliklerini değerlendirmeyle ilgilenen potansiyel müşteriler bunu, demo verileriyle birlikte ücretsiz 30 günlük deneme sürümünü kullanarak yapabilir. Dynamics 365 Finance, tek başına çalışan uygulamanın birleştirilmesi yoluyla Finance altyapısına getirilen İnsan Kaynakları özelliklerini içerecektir. Daha fazla bilgi için bkz. [HR tekliflerinin birleştirilmesi müşteriler için özellikleri bir araya getiriyor](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Dynamics 365 Finance deneme sürümleri hakkında daha fazla bilgi için adım adım [kılavuza](../fin-ops-core/fin-ops/get-started/before-you-buy.md) bakın. 
 
 
 İlk korumalı alanınızı veya üretim ortamınızı sağlamadan önce, Human Resources işlevselliğini doğrulamak için bir [Human Resources deneme ortamı](https://go.microsoft.com/fwlink/p/?LinkId=2115962) sağlamak isteyebilirsiniz. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar İnsan Kaynakları için sistem yönetimi deneyimi aracılığıyla davet edilebilir. 

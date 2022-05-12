@@ -2,7 +2,7 @@
 title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071097"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644475"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -74,8 +74,11 @@ Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seç
 > [!NOTE]
 > **Satır sınırlayıcısı**, **Sütun sınırlayıcısı** ve **Metin niteleyicisi** için doğru değeri seçmek, **Dosya formatı** seçeneği **Sınırlandırılmış** olarak ayarlandıysa önemlidir. İçe aktarma ve dışa aktarma sırasında hatalara yol açacağından, verilerinizin sınırlayıcı veya niteleyici olarak kullanılan karakteri içermediğinden emin olun.
 
+> [!NOTE]
+> XML tabanlı dosya formatları için yalnızca geçerli karakterleri kullandığınızdan emin olun. Geçerli karakterler hakkında daha fazla ayrıntı için bkz. [XML 1.0'daki geçerli Karakterler](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0, sekmeler, satır başları ve satır beslemeleri dışında herhangi bir denetim karakterine izin vermez. Geçersiz karaktere örnek olarak köşeli parantezler, süslü ayraçlar ve ters eğik çizgi verilebilir. 
+
 ### <a name="sequence-the-entities"></a>Varlıkları sıralayın
-Varlıklar bir veri şablonunda veya içe veya dışa aktarma işlerinde sıralanabilir. Birden fazla veri varlığı içeren bir iş çalıştırdığınızda, veri varlıklarının doğru sıralandığından emin olmanız gerekir. Öncelikli olarka, varlıklar arasında işlevsel bağımlılıkları adreslendirebilmek için varlıkları sıralarsınız. Varlıklar işlevsel bağımlılıklara sahip değilse, paralel içe veya dışa aktarma için zamanlanabilirler.
+Varlıklar bir veri şablonunda veya içe veya dışa aktarma işlerinde sıralanabilir. Birden fazla veri varlığı içeren bir iş çalıştırdığınızda, veri varlıklarının doğru sıralandığından emin olmanız gerekir. Öncelikli olarka, varlıklar arasında işlevsel bağımlılıkları adreslendirebilmek için varlıkları sıralarsınız. Varlıklar işlevsel bağımlılıklara sahip değilse, paralel içe veya dışa aktarma için zamanlanabilirler. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Yürütme birimleri, seviyeler ve sıralamalar
 Yürütme birimi, yürütme birimi içindeki seviye ve bir varlığın sıralaması, verinin içe veya dışa aktarıldığı sırayı yönetmeye yardımcı olur.

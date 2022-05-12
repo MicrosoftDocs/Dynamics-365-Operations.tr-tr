@@ -2,19 +2,19 @@
 title: Ekstre deftere nakil işlevi geliştirmeleri
 description: Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.
 author: analpert
-ms.date: 01/31/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: d7c7c330695cbcd18a44db5b3f4e28411d8de4f3
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462562"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649031"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Ekstre deftere nakil işlevi geliştirmeleri
 
@@ -51,25 +51,6 @@ Ekstre deftere nakli özelliğinde yapılan geliştirmelerin bir parçası olara
 
 > [!NOTE]
 > Commerce sürüm 10.0.14 sürümünden sonra **Perakende ekstreleri - İç besleme** özelliği etkinleştirildiğinde, **Stoku deftere naklet** toplu işlemi artık geçerli değildir ve çalıştırılamaz.
-
-Ek olarak, aşağıdaki parametreler **Ticaret parametleri** sayfasının **Deftere nakil** sekmesindeki **Toplu işleme** hızlı sekmesinde kullanıma sunulmuştur: 
-
-- **Paralel ekstre deftere nakil maksimum sayısı** - Bu alan, çoklu ekstreleri deftere nakletmek için kullanılacak toplu iş görevlerini tanımlar. 
-- **Ekstre başına sipariş işleme için maksimum iş parçacığı** - Bu alan, tek bir ekstre için satış siparişleri oluşturmak ve faturalamak üzere ekstre deftere nakli toplu işi tarafından kullanılan maksimum iş parçacığı sayısını gösterir. Ekstre deftere nakil işlemi tarafından kullanılacak toplam iş parçacığı sayısı, bu parametredeki değer **Paralel ekstre deftere nakil maksimum sayısı** parametresindeki değerle çarpılarak hesaplanır. Bu parametrenin değerinin çok yüksek bir değere ayarlanması, ekstre deftere nakil işleminin performansını olumsuz etkileyebilir.
-- **Toplama dahil edilen maksimum hareket satırı** - Bu alan, yenisi oluşturulmadan önce tek bir toplam harekete dahil edilecek hareket satırlarının sayısını tanımlar. Toplu hareketler müşteri, iş tarihi veya mali boyutlar gibi farklı toplama ölçütleri temel alınarak oluşturulur. Tek bir hareketindeki satırların, farklı toplu hareketler arasında bölünemeyeceğini unutmayın. Bu, toplu hareketteki satırların sayısının, farklı ürünlerin sayısı gibi etkenlere bağlı olarak biraz daha yüksek veya düşük olma olasılığı bulunduğu anlamına gelir.
-- **Mağaza hareketlerini doğrulamak için maksimum iş parçacığı sayısı** - Bu alan, hareketlerini doğrulamak için kullanılacak iş parçacıklarının sayısını tanımlar. Hareketlerinin doğrulanması, hareketler ekstrelerden çekilmeden önce gerçekleşmesi gereken bir adımdır. **Ticaret parametreleri** sayfasının **Deftere nakil** sekmesindeki **Hediye kartı** hızlı sekmesinde bir **Hediye kartı ürünü** tanımlamanız gerekir. Kuruluş hediye kartları kullanmasa bile tanımlanması gerekir.
-
-Aşağıdaki tabloda, önceki parametreler için önerilen değerler listeler. Bu değerler test edilmeli ve dağıtım yapılandırmasına ve kullanılabilir altyapıya göre uyarlanmalıdır. Önerilen değerlerdeki herhangi bir artış diğer toplu işlemeyi olumsuz etkileyebilir ve doğrulanmalıdır.
-
-| Parametre | Önerilen değer | Ayrıntılar |
-|-----------|-------------------|---------|
-| Paralel ekstre deftere nakil işlemi için maksimum sayı | <p>Bu parametreyi **Ekstre** işini çalıştıran toplu iş grubu için kullanılabilen toplu iş görevlerinin sayısına ayarlayın.</p><p>**Genel kural:** Uygulama Nesne Sunucusu (AOS) sanal sunucu sayısını, AOS sanal sunucusu başına kullanılabilen toplu iş görevlerinin sayısıyla çarpın.</p> | **Perakende ekstreleri - İç besleme** özelliği etkinleştirildiğinde bu parametre geçerli değildir. |
-| Ekstre başına sipariş işleme için maksimum iş parçacığı sayısı | Değerleri **4**'te test etmeye başlayın. Genellikle, değer **8**'i geçmemelidir. | Bu parametre, satış siparişleri oluşturmak ve deftere nakletmek için kullanılan iş parçacığı sayısını belirtir. Ekstre başına deftere nakil için kullanılabilen iş parçacığı sayısını temsil eder. |
-| Toplama dahil edilen maksimum hareket satırı | Değerleri **1000**'te test etmeye başlayın. Genel merkez yapılandırmasına bağlı olarak, daha küçük siparişler performans için daha yararlı olabilir. | Bu parametre, ekstre deftere nakli sırasında her satış siparişine dahil edilecek satır sayısını belirler. Bu sayıya ulaşıldıktan sonra satırlar yeni bir siparişe bölünür. Satış satırlarının sayısı kesin olmasa da, bölme işlemi satış siparişi düzeyinde gerçekleştiğinden, ayarlanan sayıya yakın olacaktır. Bu parametre, adlandırılmış müşterisi olmayan perakende hareketleri için satış siparişleri oluşturmak için kullanılır. |
-| Mağaza hareketlerini doğrulamak için maksimum iş parçacığı sayısı | Bu parametreyi **4** olarak ayarlamanızı ve yalnızca kabul edilebilir performansa sahip değilseniz artırmanızı öneririz. Bu işlemin kullandığı iş parçacığı sayısı, toplu iş sunucusu tarafından kullanılabilen işlemci sayısını aşamaz. Buraya çok fazla iş parçacığı atarsanız diğer toplu işlemeleri etkileyebilirsiniz. | Bu parametre, belirli bir mağaza için aynı anda doğrulanabilecek işlem sayısını denetler. |
-
-> [!NOTE]
-> Ekstre deftere nakilleriyle ilgili olan ve mağazalar ile **Ticaret parametreleri** sayfasında tanımlanan tüm ayarların ve parametreler, geliştirilmiş ekstre deftere nakil özelliğine uygulanabilir.
 
 ## <a name="processing"></a>İşleniyor
 

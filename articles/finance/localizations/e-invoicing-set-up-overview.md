@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8138c63e9eff1d2ca934f9d4467e4e3b73dae941
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371775"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661706"
 ---
 # <a name="electronic-invoicing-setup"></a>Elektronik faturalama kurulumu
 
@@ -35,7 +35,5 @@ Sonra, Elektronik faturalamanın işini yapmak için gerek duyduğu Azure kaynak
 Ana bileşenler konfigüre ettikten sonra, Elektronik faturalamanın ana mantıksal bileşenlerini ayarlamak için RCS ile çalışın. Önce, koruyacağınız servis ortamının sayısını tanımlayın. Bu şekilde, geliştirme veya test ortamı ile üretim ortamları arasında bir sınıra sahip olduğunuzdan emin olmak için mantıksal verileri ve konfigürasyon bölümlemeyi tanımlarsınız. Geliştirme sürecinizi esnek bir yolla ayarlamak için, birkaç ayrı geliştirme ve test ortamı gerekebilir. Servis ortamları tanımlamaya ek olarak, Elektronik faturalama ile doğru bir işlem için gereken parametreleri ayarlamak üzere, Finance veya Supply Chain Management gibi iş uygulamalarınız için doğrudan RCS'den bir bağlantı ayarlayın. Ortamlar hakkında daha fazla bilgi için [Hizmet ortamları](e-invoicing-service-environments.md) konusuna bakın.
 
 Her şey oluşturulduktan sonra, elektronik belgeleri işlemek ve verileri dönüştürmek veya Genel depodan belge almak için farklı senaryoları tanımlayan kendi Genelleştirme özelliklerinizi oluşturabilirsiniz. Genelleştirme özellikleri ile nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Genelleştirme özellikleriyle çalışma](e-invoicing-working-globalization-features.md).
-
-Genelleştirme özelliklerinde derlenecek işlemi oluşturan işlem ardışık düzeninde eylemler hakkında bilgi için bkz. **[COMPLETE!: Belge işleme eylemleri]**.
 
 Senaryolarınızı, gelen elektronik belgeleri işlemek için e-posta veya SharePoint ile tümleştirmek gerekiyorsa, bu kanalların nasıl ayarlanacağı ve kullanılacağı hakkında bilgi için bu kanalları kurma ve kullanma hakkında bilgi sağlayan [Gelen elektronik belgeleri işleme](e-invoicing-process-incoming-electronic-documents.md) konusuna bakın.

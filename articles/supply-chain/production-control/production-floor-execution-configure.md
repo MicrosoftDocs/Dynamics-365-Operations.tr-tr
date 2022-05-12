@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384759"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644411"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
@@ -111,17 +111,67 @@ Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/
 
 - *(Önizleme) Üretim katı yürütme arabiriminden elde edilen fiili ağırlık öğeleriyle ilgili rapor*
 
+### <a name="enable-the-my-day-dialog"></a>"Günüm" iletişim kutusunu etkinleştirin
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+**Günüm** iletişim kutusu, çalışanlara günlük kayıtlarına ve ücretli zaman, ücretli fazla mesai, devamsızlık ve ücretli devamsızlık için geçerli bakiyelerine genel bir bakış sağlar.
+
+Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
+
+- *Üretim katı yürütme arabirimi için "Günüm" görünümü*
+
+### <a name="enable-teams"></a>Takımları etkinleştir
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Aynı üretim işine birden fazla işçi atandığında, bir ekip oluşturabilirler. Ekip, bir çalışanı pilot olarak aday gösterebilir. Kalan işçiler ardından otomatik olarak bu pilotun asistanı olurlar. Ortaya çıkan ekip için, yalnızca pilot iş durumunu kaydetmelidir. Zaman kayıtları tüm ekip üyeleri için geçerlidir.
+
+Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
+
+- *Üretim katı yürütme arabiriminde üretim takımları*
+
+### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimindeki ek yapılandırmayı etkinleştirme
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Bu özellik, **Üretim taban yürütmesini konfigüre et** sayfasına aşağıdaki işlev için ayarlar ekler:
+
+- Bir arama tamamlandığında **İşi başlat** iletişim kutusunu otomatik olarak açın.
+- Bir arama tamamlandığında **Rapor ilerlemesi** iletişim kutusunu otomatik olarak açın.
+- **Rapor ilerleme durumu** iletişim kutusunda kalan miktarı önceden doldurun.
+- **Rapor ilerleme durumu** iletişim kutusundan materyal tüketimi düzeltmelerini etkinleştirin. (Bu işlev aynı zamanda *Malzeme tüketimini üretim katı yürütme arabirimi (WMS olmayan)* özelliğini gerektirir.)
+- Proje kimliğine göre aramaları etkinleştir.
+
+Ayarların nasıl kullanılacağı hakkında bilgi bu konunun ilerleyen bölümlerinde verilmiştir.
+
+Bu işlevi kullanmak getirmek için, [Özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
+
+- *Üretim katı yürütme arabirimindeki ek yapılandırma*
+
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Üretim katı yürütme arabirimi yapılandırmalarıyla çalışma
 
 Üretim katı yürütme yapılandırmaları oluşturmak ve sürdürmek için, **Üretim denetimi \> Kurulum \>Üretim yürütme \> Üretim katı yürütmesini yapılandır**'a gidin. **Üretim katı yürütmesini konfigüre et** sayfası mevcut konfigürasyonların bir listesini gösterir. Bu sayfada aşağıdaki eylemleri gerçekleştirebilirsiniz:
 
 - Görüntülemek ve düzenlemek için sol sütunda listelenmiş üretim katı yapılandırmasını seçin.
-- Listeye yeni bir yapılandırma eklemek için Eylem Bölmesinde **Yeni**'yi seçin. Yeni Yapılandırmayı tanımlamanıza yardımcı olacak bir adı **yapılandırma** alanına girin. Buraya girdiğiniz ad, tüm yapılandırmalar arasında benzersiz olmalıdır ve daha sonra düzenleyemeyeceksiniz.
+- Eylem bölmesinde, listeye yeni bir konfigürasyon eklemek için **Yeni**'yi seçin. Yeni Yapılandırmayı tanımlamanıza yardımcı olacak bir adı **yapılandırma** alanına girin. Buraya girdiğiniz ad, tüm yapılandırmalar arasında benzersiz olmalıdır ve daha sonra düzenleyemeyeceksiniz. İsteğe bağlı: **Açıklama** alanına, isteğe bağlı olarak konfigürasyonun bir açıklamasını girebilirsiniz.
 
-Sonra, seçili yapılandırmayla ilgili çeşitli ayarları yapılandırın. Aşağıdaki alanlar kullanılabilir:
+Ardından, aşağıdaki alt bölümlerde açıklandığı gibi, seçilen yapılandırma için çeşitli ayarları yapılandırın.
 
-- **Yalnızca giriş ve çıkış saati** - Yalnızca giriş ve çıkış işlevselliği sağlayan basitleştirilmiş bir arabirim oluşturmak için bu seçeneği *Evet* olarak ayarlayın. Bu, bu sayfadaki diğer seçeneklerin çoğunu devre dışı bırakır. Bu seçeneği etkinleştirmeden önce **Sekme seçimi** hızlı sekmesindeki tüm satırları kaldırmanız gerekir.
+### <a name="the-general-fasttab"></a>Genel hızlı sekmesi
+
+Aşağıdaki ayarlar, **Genel** hızlı sekmesinde bulunur:
+
+- **Yalnızca giriş ve çıkış saati** - Yalnızca giriş ve çıkış işlevselliği sağlayan basitleştirilmiş bir arabirim oluşturmak için bu seçeneği *Evet* olarak ayarlayın. Bu ayar, bu sayfadaki diğer seçeneklerin çoğunu devre dışı bırakır. Bu seçeneği etkinleştirmeden önce **Sekme seçimi** hızlı sekmesindeki tüm satırları kaldırmanız gerekir.
 - **Aramayı etkinleştir** - İş listesine bir arama alanı eklemek için bu seçeneği *Evet* olarak ayarlayın. Çalışanlar iş kimliği girerek belirli bir iş bulabilir veya sipariş kimliği girerek belirli bir sipariş için tüm işleri bulabilirler. Çalışanlar kimliği tuş takımı kullanarak veya barkod tarayarak girebilir.
+- **Proje kimliğine göre aramayı etkinleştir** – Çalışanların üretim katı yürütme arabiriminin arama alanında proje kimliğine (iş kimliği ve sipariş kimliğine ek olarak) göre arama yapmasını sağlamak için bu seçeneği *Evet* olarak ayarlayın. Bu seçeneği yalnızca, **Arama etkinleştir** seçeneği *Evet* olarak ayarlanmışsa *Evet* olarak ayarlayabilirsiniz.
+- **Başlangıç iletişim kutusunu otomatik olarak aç** - Bu seçenek *Evet* olarak ayarlandığında, çalışanlar bir iş bulmak için arama çubuğunu kullandığında **İşi başlat** iletişim kutusu otomatik olarak açılır.
+- **Rapor ilerleme durumu iletişim kutusunu otomatik olarak aç** - Bu seçenek *Evet* olarak ayarlandığında, çalışanlar bir iş bulmak için arama çubuğunu kullandığında **Rapor ilerleme durumu** iletişim kutusu otomatik olarak açılır.
+- **Malzeme ayarlamayı etkinleştirme** - **Rapor ilerleme durumu** iletişim kutusunda **Materyali düzenle** düğmesini etkinleştirmek için bu seçeneği *Evet* olarak ayarlayın. Çalışanlar, iş için malzeme tüketimini ayarlamak üzere bu düğmeyi seçebilir.
 - **Çıkış saatindeki rapor miktarı:** çalışanların çıkış yaparken sürmekte olan işler hakkında geribildirim raporlamalarını istemek için bunu *Evet* olarak ayarlayın. Bu seçenek *Hayır* olarak ayarlandığında , çalışanlar uyarılmayacaktır.
 - **Çalışanı kilitle**: Bu seçenek *Hayır* olarak ayarlandığında , çalışanlar kayıt yapıldıktan hemen sonra (yeni bir iş gibi) oturumları kapatılır. Arabirim daha sonra oturum açma sayfasına geri dönecektir. Bu seçenek *Evet* olarak ayarlandığında, çalışanlar üretim katı yürütme arabiriminde oturum açmış durumda kalır. Ancak, bir çalışan, üretim katı yürütme arabirimi aynı sistem kullanıcı hesabı altında çalışmaya devam ederken başka bir çalışanın oturum açmasını sağlayacak şekilde el ile oturumunu kapatabilir. Bu hesap türleri hakkında daha fazla bilgi için, [atanan kullanıcılar](config-job-card-device.md#assigned-users)'a bakın.
 - **Kaydın gerçek zamanını kullan**: Her yeni kaydın bir çalışan tarafından gönderildiği tam zamana eşit olması için bu seçeneği *Evet* olarak ayarlayın. Bu seçenek *Hayır* olarak ayarlandığında, bunun yerine oturum açma zamanı kullanılır. Genellikle, **çalışanı kilitle** ve/veya **Tek çalışan** seçeneklerini çalışanların daha uzun süreler boyunca oturum açmış durumda kaldığı durumlarda *Evet* olarak işaretlediyseniz bu seçeneği *Evet* olarak ayarlamak isteyeceksiniz.
@@ -130,7 +180,17 @@ Sonra, seçili yapılandırmayla ilgili çeşitli ayarları yapılandırın. Aş
 - **Ekran kilitleme süresi**: **Dokunmatik ekranı kilitlemeye izin ver** seçeneği *Evet* olarak ayarlandığında, bu seçeneği kullanın ve dokunmatik ekranın temizleme amacıyla kilitlenmesi gereken saniye sayısını belirtin. Süre 5 ile 120 saniye arasında olmalıdır.
 - **Lisans plakası oluştur**: Bir çalışanın bir üretm katı yürütme arabirimini her kullandığında tamamlandı bildirimi oluşturmak için bu seçeneği *Evet* olarak ayarlayın. Lisans levhası numarası, **Ambar yönetimi parametreleri** sayfasında ayarlanmış bir numara serisinden oluşturulur. Bu seçenek *Hayır* olarak ayarlandığında , çalışanlar tamamlandı bildirimine göre, varolan bir lisans levhası belirtmelidir.
 - **Etiket yazdır**: Bir çalışan bir çalışma tamamlandı bildirimi yapmak için üretim katı yürütme arabirimini kullandığında bir lisans plakası yazdırmak için bu seçeneği *Evet* olarak ayarlayın. Etiketin konfigürasyonu belge yönlendirmesinde, [Lisans plak etiketlerinin belge yönlendirme](../warehousing/document-routing-layout-for-license-plates.md) düzeninde açıklandığı gibi ayarlanır.
-- **Sekme seçimi**: Geçerli yapılandırma etkin olduğunda, üretim katı yürütme arabirimi tarafından hangi sekmelerin görüntüleneceğini seçmek için bu bölümdeki ayarları kullanın. İstediğiniz kadar sekme tasarlayabilir ve gerekirse bunları gerektiği gibi ekleyip düzenleyebilirsiniz. Sekmelerin nasıl tasarlanacağı ve buradaki ayarlarla nasıl çalışılacağı hakkında ayrıntılı bilgi için bkz. [Üretim katı yürütme arabirimini tasarlama](production-floor-execution-tabs.md).
+
+### <a name="the-tab-selection-fasttab"></a>Sekme seçimi Hızlı Sekmesi
+
+Mevcut konfigürasyon etkin olduğunda üretim katı yürütme arabiriminde hangi sekmelerin görüntüleneceğini seçmek için **Sekme seçimi** hızlı sekmesindeki ayarları kullanın. İhtiyacınız olduğu kadar sekme tasarlayabilir ve ardından Hızlı Sekme araç çubuğundaki düğmeleri kullanarak bunları istediğiniz gibi ekleyebilir ve düzenleyebilirsiniz. Sekmelerin nasıl tasarlanacağı ve buradaki ayarlarla nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini tasarlama](production-floor-execution-tabs.md).
+
+### <a name="the-report-progress-fasttab"></a>Rapor ilerleme durumu Hızlı Sekmesi
+
+Aşağıdaki ayarlar, **Rapor ilerleme durumu** hızlı sekmesinde bulunur:
+
+- **Malzeme ayarlamayı etkinleştirme** - **Rapor ilerleme durumu** iletişim kutusunda **Materyali düzenle** düğmesini dahil etmek için bu seçeneği *Evet* olarak ayarlayın. Çalışanlar, iş için malzeme tüketimini ayarlamak üzere bu düğmeyi seçebilir.
+- **Varsayılan kalan miktar** – **Rapor ilerleme durumu** iletişim kutusunda bir üretim işi için beklenen kalan miktarı önceden doldurmak için bu seçeneği *Evet* olarak ayarlayın.
 
 ## <a name="clean-up-job-configurations"></a>İş konfigürasyonlarını temizle
 

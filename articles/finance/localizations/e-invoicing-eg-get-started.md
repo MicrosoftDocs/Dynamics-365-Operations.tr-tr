@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371368"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661736"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Mısır için elektronik faturalandırma
 
@@ -42,7 +42,7 @@ Bu konudaki prosedürlere başlamadan önce, aşağıdaki önkoşulları tamamla
     - [Lifecycle Services'de mikro hizmetler için eklentiyi yükleme](e-invoicing-install-add-in-microservices-lcs.md)
     
 - Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management uygulaması ile Elektronik Faturalama hizmeti arasında, [Elektronik faturalama ile tümleştirmeyi etkinleştirme ve kurma](e-invoicing-activate-setup-integration.md) bölümünde açıklandığı üzere tümleştirmeyi etkinleştirin.
-- Azure Key Vault'ta bir dijital sertifika gizli dizisi oluşturun ve bunu, [Müşteri sertifkaları ve gizli dizileri](e-invoicing-customer-certificates-secrets.md) bölümünde açıklandığı şekilde kurun. Test amacıyla, Mısır vergi dairesi yalnızca test ve çözüm doğrulama aşamaları sırasında kullanılması gereken belirli bir test dijital sertifikaları sağlar. Daha fazla bilgi için, [Mısır e-faturalama SDK'sında](https://sdk.sit.invoicing.eta.gov.eg/faq/) sağlanan bağlantıyı kullanarak Mısır vergi dairesi web sitesine gidin.
+- Azure Key Vault'ta bir dijital sertifika gizli dizisi oluşturun ve bunu, [Müşteri sertifkaları ve gizli dizileri](e-invoicing-customer-certificates-secrets.md) bölümünde açıklandığı şekilde kurun. Test amacıyla, Mısır vergi dairesi yalnızca test ve çözüm doğrulama aşamaları sırasında kullanılması gereken belirli bir test dijital sertifikaları sağlar. Daha fazla bilgi için, [Mısır e-faturalama SDK'sında](https://sdk.invoicing.eta.gov.eg/faq/) sağlanan bağlantıyı kullanarak Mısır vergi dairesi web sitesine gidin.
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Mısır elektronik fatura (EG) özelliği için ülkeye özel yapılandırma
 
@@ -56,7 +56,7 @@ Bu konudaki prosedürlere başlamadan önce, aşağıdaki önkoşulları tamamla
 6. **İşleme ardışık düzeni** sekmesinde, **İşleme ardışık düzeni** bölümünde, **Mısır Vergi Dairesi için json belgesini imzala** seçeneğini belirleyin.
 7. **Parametreler** bölümünde, **Sertifika adı**'nı seçin ve sonra da oluşturduğunuz dijital sertifikanın adını seçin.
 8. **İşleme ardışık düzeni** bölümünde, **Mısır ETA hizmeti ile tümleştir**'i seçin. Bu eylemin iki tekrarı için bu adımı yineleyin.
-9. **Parametreler** bölümünde, **Web hizmeti URL'si** ve **Oturum açma hizmeti URL'si** öğesini seçin. Ardından URL parametrelerini inceleyin. Test ve üretim URL'sini almak için, [Mısır e-faturalama SDK'sında](https://sdk.sit.invoicing.eta.gov.eg/faq/) sağlanan bağlantıyı kullanarak Mısır vergi dairesi web sitesine gidin.
+9. **Parametreler** bölümünde, **Web hizmeti URL'si** ve **Oturum açma hizmeti URL'si** öğesini seçin. Ardından URL parametrelerini inceleyin. Test ve üretim URL'sini almak için, [Mısır e-faturalama SDK'sında](https://sdk.invoicing.eta.gov.eg/faq/) sağlanan bağlantıyı kullanarak Mısır vergi dairesi web sitesine gidin.
 10. **Kaydet**'i seçip sayfayı kapatın.
 11. **Proje faturası türetilmiş** özellik kurulumu için 4 ile 10 arasındaki adımları yineleyin.
 

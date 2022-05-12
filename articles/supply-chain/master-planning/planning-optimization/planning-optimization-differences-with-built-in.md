@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468342"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618274"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Yerleşik master planlama ile Planlama Optimizasyonu arasındaki farklar
 
@@ -37,6 +37,7 @@ Planlama Optimizasyonu sonuçları, yerleşik master planlama motorundan alınan
 | Emniyet stoku ilişkilendirme ve net gereksinimler | *Emniyet stoku* gereksinim türü dahil edilmez ve **Net gereksinimler** sayfasında görüntülenmez. Emniyet stoku, talebi temsil etmez ve kendisiyle ilişkilendirilmiş gereksinim tarihi yoktur. Bunun yerine, her zaman stokta bulunması gereken miktar ile ilgili kısıtlama ayarlar. Ancak master planlama sırasında planlı siparişleri hesaplarken **Minimum** alan değeri yine de dikkate alınır. Bu değerin dikkate alındığını görmek için **Net gereksinimler** sayfasında **Kümülatif miktar** sütununu incelemenizi öneririz. |
 | Taşıma takvimleri | **Teslimat şekilleri** sayfasındaki **Taşıma takvimi** sütunundaki değer yok sayılır. |
 | Değeri olmayan minimum/maksimum karşılama kodu| Yerleşik planlama altyapısıyla, minimum veya maksimum değerlerin ayarlandığı bir minimum/maksimum karşılama kodu kullandığınızda, planlama altyapısı karşılama kodunu gereksinim olarak işler ve her gereksinim için bir sipariş oluşturur. Planlama Optimizasyonu ile sistem, o güne ait tam tutarın kapsayacağı bir günde bir sipariş oluşturacaktır.  |
+| Net gereksinimler ve el ile oluşturulan planlı siparişler | Yerleşik planlama altyapısıyla, bir madde için el ile oluşturulmuş tedarik emirleri bu maddeyle ilgili net gereksinimler arasında otomatik olarak görüntülenir. Örneğin, bir satış siparişinden bir satınalma siparişi oluştururken, satınalma siparişi, **Net gereksinimler** sayfasında, önceki bir eylemi gerektirmeden görünür. Bunun nedeni, yerleşik planlama motorunun `inventLogTTS` tablosunda stok hareketlerini günlüklerine kaydettiği ve dinamik planlar için **Net gereksinimler** sayfasındaki değişiklikleri gösterdiği bir yer değildir. Ancak, Planlama Optimizasyonu sayesinde manuel oluşturulan siparişler, Planlama Optimizasyonu çalıştırılana kadar (maddeyi içeren bir plan ile) veya maddeyle ilgili master planlamayı çalıştıracak olan **Net gereksinimler** sayfasının eylem bölmesinde **Güncelleştir \> Master planlama**'yı seçene kadar maddenin net gereksinimleri içinde görüntülenmez. **Net gereksinimler** sayfası ile nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Planlama Optimizasyonu ile ilgili net gereksinimler ve ilişkilendirme bilgileri](net-requirements.md). |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

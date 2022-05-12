@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf63069c5f18fe67c7d7f538311853d79c0f4fe8
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487656"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649171"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
@@ -57,7 +57,7 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 
 | Özellik | Listelenen sorun | Açıklama | Beklenen kullanılabilirlik |
 | --- | --- | --- | --- |
-| Eylemler | Eylemler hesaplaması etkin olan karşılama grupları: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın eylemler Planlamayı En İyi Duruma Getirme etkinleştirildiğinde master planlama sırasında oluşturulmaz. Eylemlerin başlıca amacı, varolan siparişlerde değişiklik önermektir. Eylemlerin iş süreçlerinizin bir parçası olarak etkin şekilde uygulanıp uygulanmadığını veya siparişlerle ilgili gecikme bilgilerinin yeterli olup olmadığı değerlendirin. | Nisan 2022 |
+| Eylemler | Eylemler hesaplaması etkin olan karşılama grupları: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın eylemler Planlamayı En İyi Duruma Getirme etkinleştirildiğinde master planlama sırasında oluşturulmaz. Eylemlerin başlıca amacı, varolan siparişlerde değişiklik önermektir. Eylemlerin iş süreçlerinizin bir parçası olarak etkin şekilde uygulanıp uygulanmadığını veya siparişlerle ilgili gecikme bilgilerinin yeterli olup olmadığı değerlendirin. | Destekleniyor |
 | Temel takvimler | Temel takvimi kullanan takvimler: _\#_ | Bu özellik şimdi desteklenmektedir. | Mart 2022 | 
 | Toplu iş değerlendirme kodları | Netleştirilemeyen toplu iş değerlendirme ana verileri: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, toplu iş değerlendirme kodları yok sayılır. | Ekim 2022 veya sonrası |
 | Teslim edilebilir miktar (CTP) | Teslimat tarihi denetimi teslim edilebilir miktar olarak ayarlanmış varsayılan sipariş ayarları: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, CTP yok sayılır. | 2022 Ekim |

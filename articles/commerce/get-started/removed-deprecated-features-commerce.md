@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Commerce'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: josaw
-ms.date: 03/04/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384621"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649087"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -32,6 +32,20 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > [!NOTE]
 > Finans ve Operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/) altından ulaşabilirsiniz. Finans ve Operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Commerce 10.0.25 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="modern-point-of-sale-mpos"></a>Modern Satış Noktası (MPOS)
+
+Modern Satış Noktası (MPOS) uygulaması, Commerce sürüm 10.0.25'te kullanımdan kalkacaktır ve bunun yerini Store Commerce uygulaması alacaktır.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Mağaza içi uygulamalar, Dynamics 365 Commerce çok kanallı sunumunun kenar taşı. Modern ve akıllı depolama deneyimlerinden sürekli olarak yenilik yapma ve çözümlerimizi daha iyi modernize, Windows'ta varolan yerleşik uygulamalarımız ile BT işlemlerini ve kullanıcı deneyimlerini önemli ölçüde artıran yeni değişiklikler sağlıyor. Yeni Store Commerce uygulaması, varolan MPOS'nin teknolojisini yükseltir. Windows platformunda gelişmiş performans, güvenilirlik ve uzun süreli destek sağlar ve uygulamanın her güncelleştirmeyle yeniden paketliğinin gerekli olduğunu ortadan kaldırır. |
+| **Başka bir özellikle mi değiştirildi?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
+| **Etkilenen ürün alanları**         | Modern Satış Noktası |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kullanım dışı: Commerce sürüm 10.0.25 ile, LCS sanal makineleri (VM'ler) aracılığıyla gönderilen MPOS yükleyicisi, Ekim 2023'te kaldırılacak. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce 10.0.21 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
@@ -59,7 +73,7 @@ Retail SDK, Lifecycle Services (LCS) ile birlikte gelir. Bu dağıtım modu, 10.
 | **Başka bir özellikle mi değiştirildi?**   |  [GitHub ve NuGet'ten Retail SDK örnekleri ve başvuru paketleri indirme](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Etkilenen ürün alanları**         | Retail SDK'si |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren LCS VM'leri aracılığıyla gönderilen SDK, Nisan 2023'de kaldırılacaktır. |
+| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren LCS VM'leri aracılığıyla gönderilen SDK, Ekim 2023'de kaldırılacaktır. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Perakende dağıtılabilir paketi ve birleşik POS, Donanım istasyonu ve Bulut Ölçeği birimi yükleyicileri
 
@@ -92,7 +106,7 @@ ModernPos.sln, CloudPos.sln, POS.Extension.csproj ve POS klasörünü kullanarak
 | **Başka bir özellikle mi değiştirildi?**   | [POS bağımsız paketleme SDK'si](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Etkilenen ürün alanları**         | Dynamics 365 Commerce POS uzantısı ve dağıtımı |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren, Retail SDK'de ModernPos.Sln, CloudPOs.sln ve POS.Extensons.csproj kullanan birleşik POS paketleri ve uzantı modeli desteği Nisan 2023'de kaldırılacaktır. |
+| **Durum**                         | Kullanım dışı: 10.0.21 sürümünden itibaren, Retail SDK'de ModernPos.Sln, CloudPOs.sln ve POS.Extensons.csproj kullanan birleşik POS paketleri ve uzantı modeli desteği Ekim 2023'de kaldırılacaktır. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce 10.0.17 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

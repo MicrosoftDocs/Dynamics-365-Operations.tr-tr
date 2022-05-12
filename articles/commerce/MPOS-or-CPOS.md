@@ -1,8 +1,8 @@
 ---
-title: Modern POS (MPOS) ile Cloud POS arasında seçim yapma
-description: Bu konu, Modern POS ile Cloud POS arasındaki ana farkları açıklar. Ayrıca, kendi gereksinimlerine en uygun seçimi yapmalarına yardımcı olmak için Dynamics 365 Commerce'ı uygulayan perakendecilerin dikkate almaları gereken çeşitli faktörler de açıklanmaktadır.
+title: Store Commerce ve Bulut POS arasında seçim yapın
+description: Bu konu, Store Commerce ve bulut POS arasındaki önemli farklılıkları açıklar ve Dynamics 365 Commerce uygulayan perakendeciler tarafından gereksinimler için en iyi seçimi yapmaya yardımcı olmak için dikkate alınması gereken çeşitli faktörleri açıklar.
 author: jblucher
-ms.date: 10/13/2017
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e2987351e327b5cca27a6ea992a0550cc21d028cecf4330d374768f13711829
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714771"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629302"
 ---
-# <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) ile Cloud POS arasında seçim yapma
+# <a name="choose-between-store-commerce-and-cloud-pos"></a>Store Commerce ve Bulut POS arasında seçim yapın
 
 [!include [banner](includes/banner.md)]
 
-Bu konu uygulamacılara, Dynamics 365 Commerce dağıtırken dikkate almaları gereken faktörlerle ilgili ek bilgiler, ipuçları ve kılavuzlar sağlar. Dağıtım sürecinin bir parçası olarak bu kılavuzu gözden geçiren ve izleyen uygulamacılar kullanıcı memnuniyetini veya performansı etkileyebilecek sorunları önleyebilir.
+Bu konu, Store Commerce ve bulut POS arasındaki önemli farklılıkları açıklar ve Dynamics 365 Commerce uygulayan perakendeciler tarafından gereksinimler için en iyi seçimi yapmaya yardımcı olmak için dikkate alınması gereken çeşitli faktörleri açıklar. Aynı zamanda uygulamacılara, Dynamics 365 Commerce dağıtırken dikkate almaları gereken faktörlerle ilgili ek bilgiler, ipuçları ve kılavuzlar sağlar. Dağıtım sürecinin bir parçası olarak bu kılavuzu gözden geçiren ve izleyen uygulamacılar kullanıcı memnuniyetini veya performansı etkileyebilecek sorunları önleyebilir.
 
 ## <a name="insights"></a>Öngörüler
 
@@ -36,28 +36,28 @@ Commerce çok çeşitli dağıtım ve topoloji seçenekleri sunar. Bu nedenle, p
 
 Commerce aşağıdaki POS seçeneklerini destekler:
 
-- Microsoft Windows için Modern POS (MPOS)
-- Microsoft Windows Phone için MPOS
-- Apple iPad veya Google Android tablet için MPOS
-- Microsoft Edge, Internet Explorer ve Google Chrome tarayıcılar destekleyen Bulut POS (CPOS)
+- Microsoft Windows için Store Commerce
+- iOS ve Android için Store Commerce
+- Microsoft Edge ve Google Chrome tarayıcılar destekleyen Bulut POS (CPOS)
+- Microsoft Windows için Modern POS (MPOS) (MPOS, 2023 Ekim'de kullanımdan kalkacaktır.) 
 
-Tüm durumlarda, POS (MPOS ve CPOS) daima aynı temel uygulama kodunu paylaşır. Bu noktada aşağıdaki nedenlerle önemlidir:
+Tüm durumlarda, POS (Store Commerce ve CPOS) daima aynı temel uygulama kodunu paylaşır. Bu noktada aşağıdaki nedenlerle önemlidir:
 
 - Platform ya da form faktörü ne olursa olsun kullanıcı arabirimi (UI) tutarlıdır.
 - İşlevsel özelliklerin çoğu platform ya da form faktöründen bağımsız olarak aynıdır. Ancak, bazı önemli farklar vardır. Bu bölümde bu farklar belirtilmiştir.
-- Belirli bir mağazada, POS çeşitleri birleştirilebilir ve birlikte çalışabilir. Örneğin, bir perakendeci ana kasaları için Windows işletim sistemli bilgisayarlarda MPOS kullanabilir. Ancak, perakendeci bu kasaları tarayıcı tabanlı terminaller veya mobil cihazlarla tamamlayabilir.
+- Her mağazada, POS çeşitleri birleştirilebilir ve birlikte çalışabilir. Örneğin, bir perakendeci ana kasaları için Windows işletim sistemli bilgisayarlarda Store Commerce kullanabilir. Ancak, perakendeci bu kasaları tarayıcı tabanlı terminaller veya mobil cihazlarla tamamlayabilir.
 - Özelleştirmeler ve uzantılar platformlar ve form faktörleri arasında kolaylıkla kullanılabilir. Temel uygulama kodu paylaşıldığından, çoğu özelleştirme birçok kez yerine bir kez uygulanabilir.
 
-### <a name="mpos-vs-cpos"></a>MPOS ile CPOS karşılaştırması
+### <a name="store-commerce-vs-cpos"></a>Store Commerce ve CPOS
 
-MPOS ve CPOS büyük ölçüde aynı olmakla birlikte, anlamanız gereken bazı önemli farklar vardır.
+Store Commerce ve CPOS büyük ölçüde aynı olmakla birlikte, anlamanız gereken bazı önemli farklar vardır.
 
-#### <a name="mpos"></a>MPOS
+#### <a name="store-commerce"></a>Store Commerce
 
-Windows, iOS veya Android cihazdaki MPOS bu cihazda paketlenen, yüklenen ve hizmet veren bir uygulamadır.
+Store Commerce, bir aygıta yüklenen ve hizmet verilen bir masaüstü uygulamasıdır.
 
-- **Windows** – Windows için MPOS uygulaması, uygulama kodunun tamamını ve katıştırılmış Commerce Runtime'ı (CRT) içerir. 
-- **iOS/Android** – Bu platformlarda, uygulama CPOS uygulama kodu için bir barındırıcı olarak çalışır. Başka bir deyişle, uygulama kodu Microsoft Azure üzerindeki CPOS sunucusundan veya Commerce Scale Unit (RSSU) üzerinden geliyor. Daha fazla bilgi için bkz. [Commerce Scale Unit'e genel bakış](dev-itpro/retail-store-system-begin.md).
+- **Windows** – Windows için Store Commerce uygulaması, uygulama kodunun tamamını, Commerce Runtime (CRT) ve Hardware Station (HWS) içerir.
+- **iOS/Android** – Bu platformlarda, uygulama CPOS uygulama kodu için bir barındırıcı olarak çalışır. Başka bir deyişle, uygulama kodu Commerce Scale Unit (RSSU) üzerinde barındırılan CPOS sunucusundan geliyor. Daha fazla bilgi için bkz. [Commerce Scale Unit'e genel bakış](dev-itpro/retail-store-system-begin.md).
 
 #### <a name="cpos"></a>CPOS
 
@@ -67,11 +67,12 @@ CPOS tarayıcıda çalıştığı için uygulama cihaza yüklenmez. Bunun yerine
 
 Platform ve form faktörünün yanı sıra, perakendecilerin mağazada bir dağıtım seçeneğini de belirlemesi gerekir. Aşağıdaki tablo, her bir POS seçeneğinde kullanılabilen yapılandırmaları gösterir.
 
-| POS uygulaması         | Commerce Scale Unit | Çevrimdışı kullanılabilir |
-|-------------------------|---------------|-------------------|
-| Windows için MPOS        | Bulut veya RSSU | Evet               |
-| iOS veya Android için MPOS | Bulut veya RSSU | Hayır                |
-| Bulut POS               | Bulut veya RSSU | Hayır                |
+| POS uygulaması            | Commerce Scale Unit | Çevrimdışı kullanılabilir | Yerel HWS desteği |
+|----------------------------|---------------------|-------------------|-------------------|
+| Windows için Store Commerce | Bulut veya RSSU       | Evet               | Evet               |
+| Android için Store Commerce | Bulut veya RSSU       | No.                | Evet               |
+| iOS için Store Commerce     | Bulut veya RSSU       | No.                | No.                |
+| Cloud POS                  | Bulut veya RSSU       | No.                | No.                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
 
@@ -79,11 +80,20 @@ Commerce Scale Unit, CRT'yi barındıran bir bileşendir. CRT, POS'un kullandı�
 
 #### <a name="offline-mode"></a>Çevrimdışı mod
 
-Windows için MPOS çevrimdışı modu destekler. Çevrimdışı modda, POS Commerce Scale Unit bağlantısı kesilmiş olsa bile satış işlemine devam edebilir. Bağlantı yeniden kurulduğunda kanal veritabanıyla eşitlenebilir. MPOS, kendi katıştırılmış CRT kurulumunu kullanır ve kendi yerel veri kaynağını (çevrimdışı SQL Server veritabanı) geçici olarak kullanır. Çevrimdışı işlev hakkında daha fazla bilgi için bkz. [POS çevrimdışı işlevi](pos-offline-functionality.md).
+Windows için Store Commerce, çevrimdışı modu destekler. Çevrimdışı modda, POS Commerce Scale Unit bağlantısı kesilmiş olsa bile satış işlemine devam edebilir. Bağlantı yeniden kurulduğunda kanal veritabanıyla eşitlenebilir. Store Commerce, kendi katıştırılmış CRT kurulumunu kullanır ve kendi yerel veri kaynağını (çevrimdışı SQL Server veritabanı) geçici olarak kullanır. Çevrimdışı işlev hakkında daha fazla bilgi için bkz. [POS çevrimdışı işlevi](pos-offline-functionality.md).
 
 ### <a name="pos-peripheralhardware-considerations"></a>POS çevre birimi/donanımı hakkında önemli noktalar
 
-Perakendecilerin POS'un yazıcılar, kasa çekmeceleri ve ödeme terminalleri gibi çevre birimlerine ve cihazlara nasıl erişeceğini de göz önünde bulundurmaları gerekir. Yalnızca Windows için MPOS bu cihazlarla ile doğrudan iletişimi destekler. Windows Phone, iOS ve Android için MPOS ve Cloud POS bu cihazlara erişim için bir donanım istasyonu gerektirir. Donanım istasyonları bir POS kasasına ayrılabilir veya mağazadaki kasalar arasında paylaştırılabilir. Donanım istasyonları hakkında daha fazla bilgi için bkz. [Retail donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
+Perakendecilerin POS'un yazıcılar, kasa çekmeceleri ve ödeme terminalleri gibi çevre birimlerine ve cihazlara nasıl erişeceğini de göz önünde bulundurmaları gerekir. Donanım istasyonları bir POS kasasına ayrılabilir veya mağazadaki kasalar arasında paylaştırılabilir.
+
+| POS uygulaması            | Yerel HWS OPOS | Ağ çevre birimleri | Paylaşılan HWS desteği |
+|----------------------------|----------------|---------------------|--------------------|
+| Windows için Store Commerce | Evet            | Evet                 | Evet                |
+| Android için Store Commerce | No.             | Evet                 | Evet                |
+| iOS için Store Commerce     | No.             | No.                  | Evet                |
+| Cloud POS                  | No.             | No.                  | Evet                |
+
+Donanım istasyonları hakkında daha fazla bilgi için bkz. [Retail donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
 
 ## <a name="implementation-considerations"></a>Uygulama ile ilgili hususlar
 
@@ -94,14 +104,14 @@ Mağazalarınızda POS uygulamanızı planlarken aşağıdaki bilgileri göz ön
 
     Belirli bir cihaz için bağlantı çok güvenilir ve esnek olmadığı veya belirli miktarda bir kesinti perakendeci tarafından kabul edilebilir olmadığı sürece, aşağıdaki seçeneklerden birini öneririz:
 
-    - Windows'ta MPOS kullanın ve çevrimdışı modu etkinleştirin.
+    - Windows'ta Store Commerce kullanın ve çevrimdışı modu etkinleştirin.
     - Şirket içi bir Commerce Scale Unit dağıtın.
 
     Bu iki seçenek karşılıklı olarak birbirini dışarıda bırakmaz. En güvenilir topoloji için perakendeciler internet bağlantısına veya Azure'un kullanılabilirliğine olan bağımlılığı azaltmak amacıyla yerel bir RSSU dağıtabilir. Ayrıca, yerel sunucu veya ağ ile ilgili bir sorun olması durumunda çevrimdışı modun etkinleştirildiği POS kayıtları da dağıtabilir.
 
-- **Donanım cihazları/çevre birimleri** – Retail POS sistemin önemli bir yönü yazıcı, nakit çekmecesi ve ödeme terminalleri gibi POS çevre birimlerini kullanabilme yeteneğidir. Tüm kullanılabilir POS seçenekleri çevre birim cihazlarını kullanabilmesine rağmen, yalnızca Windows için MPOS bunları doğrudan destekler. Diğer tüm uygulamalar için bir veya daha fazla donanım istasyonu olması gerekir. Bu yaklaşım esneklik kazandırmasına karşın, ek bileşenlerin dağıtılması, yapılandırılması ve bakımının yapılması gerekir.
+- **Donanım cihazları/çevre birimleri** – Retail POS sistemin önemli bir yönü yazıcı, nakit çekmecesi ve ödeme terminalleri gibi POS çevre birimlerini kullanabilme yeteneğidir. Tüm kullanılabilir POS seçenekleri çevre birim cihazlarını kullanabilmesine rağmen, yalnızca Windows için Store Commerce bunları doğrudan destekler. Diğer tüm uygulamalar için bir veya daha fazla donanım istasyonu olması gerekir. Bu yaklaşım esneklik kazandırmasına karşın, ek bileşenlerin dağıtılması, yapılandırılması ve bakımının yapılması gerekir.
 - **Sistem gereksinimleri** – POS uygulaması için sistem gereksinimleri farklılık gösterir. En son bilgileri seçiminizi yapmadan önce kontrol ettiğinizden emin olun. Örneğin, CPOS bir tarayıcıda çalıştığı için çok çeşitli işletim sistemlerini destekler. Sistem gereksinimleri hakkında daha fazla bilgi için bkz. [Bulut dağıtımları için sistem gereksinimleri](../fin-ops-core/fin-ops/get-started/system-requirements.md).
-- **Dağıtım ve bakım** – Dağıtım ve bakım gereksinimlerinin karmaşıklığı, uygulamaya ve dağıtım seçimlerine bağlı olarak değişebilir. Örneğin, bulutta barındırılan bir CPOS dağıtımı için, her cihaza uygulamayı yüklemeniz ve güncelleştirmeniz gerekmez. Bu nedenle, bu yaklaşım büyük ölçüde karmaşıklığı ve maliyeti azaltır. Ancak, her kasaya MPOS dağıtırsanız, çevrimdışı modu etkinleştirirseniz ve paylaştırılmış donanım istasyonları dağıtırsanız, yönetilmesi gereken uç nokta sayısını önemli ölçüde artırırsınız.
+- **Dağıtım ve bakım** – Dağıtım ve bakım gereksinimlerinin karmaşıklığı, uygulamaya ve dağıtım seçimlerine bağlı olarak değişebilir. Örneğin, bulutta barındırılan bir CPOS dağıtımı için, her cihaza uygulamayı yüklemeniz ve güncelleştirmeniz gerekmez. Bu nedenle, bu yaklaşım büyük ölçüde karmaşıklığı ve maliyeti azaltır. Ancak, her kasaya Store Commerce dağıtırsanız, çevrimdışı modu etkinleştirirseniz ve paylaştırılmış donanım istasyonları dağıtırsanız, yönetilmesi gereken uç nokta sayısını önemli ölçüde artırırsınız.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749064"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629480"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
 
@@ -48,7 +48,7 @@ Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekli
 - **Diğer tüzel kişiliklerden satıcı faturaları ekle** – Kuruluşunuz ödeme için merkezi işlem kullanıyorsa ve ödeme teklifinin arama ölçütüne dahil edilen diğer tüzel kişiliklerin faturalarını da içermesi gerekiyorsa bu seçeneği **Evet** olarak ayarlayın.
 - **Her tüzel kişilik için ayrı satıcı ödemesi öner** – Bu seçenek **Evet** olarak ayarlanırsa, satıcı başına her tüzel kişilik için ayrı ödeme oluşturulur. Ödemedeki satıcı, her tüzel kişilikten gelen faturadaki satıcıdır. Bu seçenek **Hayır** olarak ayarlanırsa ve aynı satıcının birden fazla tüzel kişilikte faturası varsa, seçili faturaların toplam tutarı için bir ödeme oluşturulur. Ödemedeki satıcı, geçerli tüzel kişilikteki satıcıdır. Satıcı hesabı geçerli tüzel kişilikte mevcut değilse, ödenmesi gereken ilk faturadaki satıcı hesabı kullanılır.
 - **Ödeme para birimi** – Bu alan içinde oluşturulan tüm ödemelerin para birimini belirtir. Bir para birimi tanımlanmamış ise, her bir fatura faturanın para birimi cinsinden ödenir.
-- **Ödeme günü** – Ödemenin yapılması gereken günü girin. Bu alan yalnızca ödeme yöntemi, haftanın belirli bir günündeki ödeme için tüm faturalar olarak ayarlandıysa kullanılır.
+- **Ödeme hafta içi** - Ödemenin yapılacağı haftanın gününü girin; Bu alan yalnızca ödeme yöntemi **Hafta** olarak ayarlandığında kullanılır. Ödeme için belirtilen haftanın tutarındaki ödemeler toplamı.
 - **Mahsup hesap türü** ve **Mahsup hesap** – Bu alanları belirli bir hesap türünü ve mahsup hesabı (örneğin **Defter** veya **Banka**) ve tanımlamak için ayarlayın. Fatura için ödeme yöntemi varsayılan mahsup hesap türünü ve mahsup hesabı tanımlar, ancak bu alanları, varsayılan değerleri geçersiz kılmak için kullanabilirsiniz.
 - **Özetlenmiş ödeme tarihi** – Bu yalnızca ödeme yöntemi üzerindeki **Dönem** alanı **Toplam** olarak ayarlanmışsa kullanılır. Bir tarih belirlenirse, tüm ödemeler tüm tarihte oluşturulur. **Minimum ödeme tarihi** alanı göz ardı edilir.
 - **Ek filtreler** – **Dahil edilecek kayıtlar** hızlı sekmesinde, ek ölçüt aralıkları tanımlayabilirsiniz. Örneğin, yalnızca bir aralıktaki satıcılara ödeme yapmak istiyorsanız, satıcı aralığı için filtre tanımlayabilirsiniz. Bu işlev genellikle belirli bir ödeme yöntemi için faturalar seçmek için kullanılır. Örneğin, **Ödeme yöntemi** = **Çek** olan bir filtre tanımlarsanız, sadece bu ödeme yöntemini seçmiş olan faturalar ödeme için seçilir, sorguda belirtilen diğer ölçütlere uymaları şartıyla.

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 2956a9e18e24532c5a26bbbaf61438c9b7550a1a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782439"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644714"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT Zekası için senaryo kurulumu
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Supply Chain Management uygulamasında IoT Zekası için senaryoların nasıl yapılandırılacağını açıklamaktadır. Senaryoları ayarlamadan önce, [Microsoft Dynamics Lifecycle Services (LCS) ayarlamanız](iot-lcs-setup.md) gerekir.
+Bu konu, Microsoft Dynamics 365 Supply Chain Management uygulamasında IoT Zekası için senaryoların nasıl yapılandırılacağını açıklamaktadır. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
 Bu konuda, **Ekipman kesinti süresi** senaryosunu bir makine arızalandığında Supply Chain Management'ta bildirim oluşturulacak şekilde yapılandıracaksınız. Bu konu ayrıca, bir maddenin özniteliği belirli bir aralığın dışında olduğunda bir bildirimin oluşturulması için **Ürün kalite** senaryosunun nasıl yapılandırılacağını ve üretim verimi bir eşik değerinin altına düştüğünde bir bildirim üretilmesi için **Üretim gecikmeleri** senaryosunun nasıl yapılandırılacağını açıklar.
 

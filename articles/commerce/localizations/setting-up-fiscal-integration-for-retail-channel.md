@@ -2,27 +2,42 @@
 title: Commerce kanalları için mali tümleştirmeyi ayarlama
 description: Bu konu, mali tümleştirme işlevini Commerce kanalları için ayarlama hakkında yönergeler sağlar.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 04/28/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462178"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661761"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeyi ayarlama
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu konu, mali tümleştirme işlevini Commerce kanalları için ayarlama hakkında yönergeler sağlar. Mali tümleştirme hakkında daha fazla bilgi için bkz. [Commerce kanalları için mali tümleştirme genel bakışı](fiscal-integration-for-retail-channel.md).
 
+## <a name="enable-features-in-commerce-headquarters"></a>Commerce genel merkezinde özellikleri etkinleştirme
+
+Commerce kanallarla ilgili mali tümleştirme işlevleriyle ilişkili özellikleri etkinleştirmek için aşağıdaki adımları izleyin.
+
+1. Commerce genel merkezinde, **Sistem yönetimi \> Çalışma alanları \> Özellik yönetimi**'ne gidin.
+1. Aşağıdaki özellikleri bulup etkinleştirin:
+
+    - **POS kasalarının direkt mali tümleştirmesi** – Bu özellik, satış noktasında çalıştırılacak mali bağlayıcılar oluşturma yeteneğini ekleyerek mali tümleştirme çerçevesini uzatır (POS). Bu tür bağlayıcı, bir HTTP uygulama programlama arabirimi (API) sağlayan ve depoda adanmış bir fiziksel makine gerektirmeyen bir mali aygıt veya hizmetle iletişim kurar. Örneğin, bu işlev, paylaşılan donanım istasyonu gerekmeksizin mobil cihazlar için mali tümleştirmeyi etkinleştirir.
+    - **Mali tümleştirme teknik profili geçersiz kılmaları** – Bu özellik, mali tümleştirmenin konfigürasyonunun genişletilmesini sağlar ve bir POS kaydının ayarlar sayfasındaki bağlantı parametrelerine denetleme yeteneğini ekler. Bu özellik etkinleştirildiğinde, teknik profilin parametrelerini geçersiz kılabilirsiniz.
+    - **POS kayıtlarının mali kayıt durumu** – Bu özellik etkinleştirildiğinde, belirli bir POS kayıtları için mali kayıt işlemini devre dışı bırakabilirsiniz. Bir POS kaydı için mali kayıt devre dışı bırakılmışsa, bu kasada satış hareketleri tamamlanamaz.
+    - **Mali tümleştirme yerel depolama ortamı yedekleme** – Bu özellik mali tümleştirme çerçevesinin hata işleme yeteneklerini uzatır. Ayrıca, bir aygıt etkinleştirilirken yerel depolama birimindeki verilerin geri yüklenmesi için, veri kaybı durumunda mali kayıt verilerinin otomatik yedeklemesini de sağlar.
+
 ## <a name="set-up-commerce-parameters"></a>Commerce parametrelerini ayarlama
+
+Commerce parametrelerini ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Commerce paylaşılan parametreler** sayfasında, **Genel** sekmesinde, **Mali tümleştirmeyi etkinleştir** seçeneğini **Evet** olarak ayarlayın.
 1. **Numara serileri** sekmesinde, aşağıdaki referanslar için numara serilerini tanımlayın:
@@ -33,8 +48,8 @@ Bu konu, mali tümleştirme işlevini Commerce kanalları için ayarlama hakkın
 
 1. **Commerce parametreleri** sayfasında, mali işlevsel profil numarası için numara serilerini tanımlayın.
 
-    > [!NOTE]
-    > Numara serileri isteğe bağlıdır. Tüm mali tümleştirme varlıkları için numaralar, numara serilerinden veya el ile tanımlanabilir.
+> [!NOTE]
+> Numara serileri isteğe bağlıdır. Tüm mali tümleştirme varlıkları için numaralar, numara serilerinden veya el ile tanımlanabilir.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Mali kayıt işlemi ayarlamak
 
@@ -43,7 +58,7 @@ Mali tümleştirme Kurulumu işlemi aşağıdaki görevleri içerir:
 - Mali aygıt veya mali yazıcı gibi mali kayıt amacıyla kullanılan hizmetleri gösteren mali yapılandırma.
 - Mali aygıt veya hizmetler tarafından mali bağlayıcı kaydedilecek mali belgelerin belge sağlayıcılarını yapılandırın.
 - Mali kayıt işlemi tanımlayan mali kayıt adımları ve mali bağlayıcı ve her adım için kullanılan sağlayıcıları mali belge sırasını yapılandır.
-- Mali kayıt işlemini satış noktası (POS) işlev profillerine atayın.
+- Mali kayıt işlemini satış noktası işlev profillerine atayın.
 - Donanım profilleri için bağlayıcı teknik profilleri atayın.
 - POS donanım veya işlev profilleri için bağlayıcı teknik profilleri atayın.
 
@@ -176,7 +191,7 @@ Mali kayıt akışı mali kayıt işlemi ve mali tümleştirme bileşenlerinin b
 - Mali kayıt için etkinlik ve hareketlerin aboneliği mali belge sağlayıcısında önceden tanımlanmıştır.
 - Mali belge sağlayıcısı, mali kayıt için kullanılan mali bağlayıcıları tanımlamaktan sorumludur. Mali kayıt işleminin geçerli adımı için bağlayıcı teknik profili ile POS'un eşleştirilmiş olduğu Donanım istasyonunun belirtilmiş olan bağlayıcı işlev profillerine Mali bağlayıcı için eşleşir.
 - Mali belge sağlayıcısı, mali belge sağlayıcı yapılandırmasından veri eşleştirme ayarlarını kullanarak hareket/etkinlik verisini, örn. vergiler ve ödemeler gibi bilgileri bir mali belge oluşturulduğunda kullanır.
-- Mali belge sağlayıcısı bir mali belge oluşturduğunda, mali belge bunu olduğu gibi mali cihaza gönderebilir veya bunu ayrıştırıp ve sonra cihaz uygulama programlama arabirimi (API) komut sırasına dönüştürebilir, iletişimin nasıl ele alındığına bağlı olarak.
+- Mali belge sağlayıcısı bir mali belge oluşturduğunda, mali belge bunu olduğu gibi mali cihaza gönderebilir veya bunu ayrıştırıp ve sonra cihaz API komut sırasına dönüştürebilir, iletişimin nasıl ele alındığına bağlı olarak.
 
 ### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Mali kayıt kısıtlamalarıyla kayıtları ayarlama
 
@@ -283,4 +298,21 @@ Ertelenen mali kaydın el ile yürütülmesini etkinleştirmek için POS düzeni
     1. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişikliklerinizi kanal veritabanına aktarın.
 
 
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>POS'taki bağlantı parametrelerini ve diğer bilgileri görüntüle
+
+POS'taki bağlantı parametrelerini ve diğer bilgileri görüntülemek için aşağıdaki adımları izleyin.
+
+1. Modern POS (MPOS) veya Bulut POS (CPOS) öğesini açın.
+1. **Ayarlar**'ı seçin. Mali tümleştirme etkinleştirilmişse, sağdaki **Mali tümleştirme** bölümünde aşağıdaki bilgiler gösterilir:
+
+    - Mali kaydın durumu
+    - Son mali hareketin durumu
+    - Bekleyen denetim olaylarının sayısı
+
+1. Aşağıdaki bilgileri görüntülemek için **Ayrıntılar**'ı seçin:
+
+    - Kayıt işlemi adımları
+    - Bağlantı parametreleri
+    - Denetim olayları ayrıntıları
+ 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

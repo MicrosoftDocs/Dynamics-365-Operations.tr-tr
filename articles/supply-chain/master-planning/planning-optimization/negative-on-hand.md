@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469156"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625407"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Eldeki eksi miktarları planlama
 
@@ -75,7 +75,7 @@ Sonuç 25 adete ait planlı bir sipariş. (= 25 adet &minus; 0 adet) 13 numaral�
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Eldeki negatif stoğa karşı bir ayırma olduğunda planlama
 
-Fiziksel ayırmalar varken stoğu ayarlarsanız bir siparişin negatif stoğa karşı fiziksel olarak ayrıldığı bir duruma neden olabilirsiniz. Bu durumda, bir fiziksel ayırma mevcut olduğundan Planlama Optimizasyonu eldeki stok girişi henüz sistemde kayıtlı olmasa bile eldeki stok tarafından desteklendiğini varsayar. Bu nedenle, stok yenilemenin gerekli olmadığını varsayarak sipariş miktarını yenilemek için planlı bir sipariş oluşturmaz.
+Fiziksel ayırmalar varken stoğu ayarlarsanız bir siparişin negatif stoğa karşı fiziksel olarak ayrıldığı bir duruma neden olabilirsiniz. Bu durumda, fiziksel bir rezervasyon bulunduğundan, ayrılmış miktarı karşılamak için kaynağınızın olması gerekir. Bu nedenle, ikmal gereklidir, bu nedenle sistem ya mevcut eldeki envanter tarafından karşılanamayan miktarı doldurmak için planlı bir sipariş oluşturur ya da kalem için mevcut bir siparişle kapatır.
 
 Aşağıdaki örnek bu senaryoyu göstermektedir.
 
@@ -88,7 +88,7 @@ Sistem aşağıdaki şekilde yapılandırılmıştır:
 - *10* adet *FG* ürünü için bir satış siparişi var.
 - Satış siparişi miktarı, mevcut eldeki stoğa karşı fiziksel olarak ayrılmıştır.
 
-Ardından, eldeki envanter 0 (sıfır) olacak şekilde *FG* ürününün miktarını ayarlarsınız. Eldeki ürün stoğu sıfır olduğundan satış siparişi miktarı artık negatif stoğa karşı ayrılmıştır. Ancak master planlamayı şimdi çalıştırırsanız Planlama Optimizasyonu, fiziksel ayırmayı sağlamak üzere gerekli eldeki stoğun var olduğunu varsayacağı için satış siparişini tedarik etmek üzere planlı bir sipariş oluşturulmayacaktır.
+Ardından, eldeki envanter 5 olacak şekilde *FG* ürününün miktarını ayarlarsınız. Eldeki ürün stoğu 5 olduğundan, satış siparişi miktarı artık eldeki mevcut olmayan miktara karşı ayrılmıştır (eldeki 0 olsaydı benzer olurdu, bu durumda satış siparişi negatif stoka karşı ayrılırdı). Master planlamayı şimdi çalıştırırsanız, *FG* için 5 miktarında bir planlı sipariş oluşturularak satış siparişi tedariki sağlanır çünkü Planlama Optimizasyonu her zaman fiziksel rezervasyon tedariki için mevcut kaynakları kullanır veya yeni bir planlı sipariş oluşturur.
 
 ## <a name="related-resources"></a>İlgili kaynaklar
 

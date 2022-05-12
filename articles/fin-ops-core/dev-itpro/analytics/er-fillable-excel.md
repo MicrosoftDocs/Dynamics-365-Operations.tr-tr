@@ -2,7 +2,7 @@
 title: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
 description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388275"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645149"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -141,7 +141,12 @@ Excel şablonunuzu, metin verilerini sunmak üzere hücreleri kullanacak şekild
 > [!NOTE]
 > Bilinen bir [Excel sınırlaması](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) nedeniyle, metni sarmalamak üzere hücreleri konfigüre etseniz ve bu hücreleri içeren satırları kaydırılmış metne uyacak şekilde yüksekliğini otomatik olarak ayarlamak için konfigüre etseniz bile, birleştirilmiş hücreler ve bunları içeren satırlar için **AutoFit** ve **Metni kaydır** Excel özelliklerini kullanamazsınız. 
 
-Dynamics 365 Finance sürüm 10.0.23 itibariyle, oluşturulan bir belgede ilgili satır içinde metni sarmalamak üzere yapılandırılmış en az bir birleştirilmiş hücre olduğunda, oluşturulduğu sırada, o satırda iç içe geçmiş hücrelerin içeriğine otomatik olarak uyacak şekilde yapılandırılmış her satırın yüksekliği olan boyutu hesaplamaya zorlayabilirsiniz. Daha sonra hesaplanan yükseklik, satırdaki tüm hücrelerin oluşturulan belgede görünür olmasını sağlamak üzere satırı yeniden boyutlandırmak için kullanılır. Giden belgeler oluşturmak üzere Excel şablonlarını kullanmak üzere yapılandırılmış bir ER biçimi çalıştırdığınızda bu işlevi kullanmaya başlamak için aşağıdaki adımları izleyin.
+Dynamics 365 Finance sürüm 10.0.23 itibariyle, oluşturulan bir belgede çalışırken ilgili satır içinde metni sarmalamak üzere yapılandırılmış en az bir birleştirilmiş hücre olduğunda, oluşturulduğu sırada, o satırda iç içe geçmiş hücrelerin içeriğine otomatik olarak uyacak şekilde yapılandırılmış her satırın yüksekliği olan boyutu hesaplamaya zorlayabilirsiniz. Daha sonra hesaplanan yükseklik, satırdaki tüm hücrelerin oluşturulan belgede görünür olmasını sağlamak üzere satırı yeniden boyutlandırmak için kullanılır.
+
+> [!NOTE]
+> Birleştirilmiş bir hücreyi biçimlendirmek için özel yazı tipi kullanıldığında bu işlevin beklenildiği gibi çalışmayabileceğini unutmayın. Excel özel yazı tiplerini katıştırmadığından, özel yazı tipi boyutu hakkında bilgi sağlamıyor. Bu nedenle, birleştirilen hücrenin boyutu yanlış tahmin edilebilir.
+
+Giden belgeler oluşturmak üzere Excel şablonlarını kullanmak üzere yapılandırılmış bir ER biçimi çalıştırdığınızda bu işlevi kullanmaya başlamak için aşağıdaki adımları izleyin.
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında **İlgili bağlantılar** bölümünde **Elektronik raporlama parametreleri** kutucuğunu seçin.

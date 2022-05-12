@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c022bb15975a1411230d28067a2225c95c0573bf
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
+ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062737"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661472"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources altyapı birleştirme hakkında SSS
 
@@ -231,6 +231,3 @@ Dynamics 365 uygulamalarının mevcut kullanıcıları ile bağımsız Dynamics 
 
 Altyapı değişikliğini desteklemek için ek ortamlar gerekmez.
 
-### <a name="where-should-i-go-if-i-have-additional-questions-about-product-licensing"></a>Ürün lisanslama hakkında ek sorularım varsa hangi birime ulaşmalıyım?
-
-Lisanslama ile ilgili sorularınız varsa [İş Uygulamaları Merkezi – D365 Fiyatlandırması ve Lisanslaması](https://businessapplications.transform.microsoft.com/resources/pricing-and-licensing?tab=grandfathering) bölümünde daha fazla bilgi edinebilirsiniz. Bu bilgiler sorununuza yardımcı olmazsa LicenseQ ile bir talep açın.
