@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Finance + Operations (on-premises) satın alma
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: Belge kaynakları
               items:
                 - name: Yardım sistemi
@@ -266,15 +264,17 @@
               href: accounts-payable/vendor-workflow.md
             - name: Fatura toplamlarını eşleştirme sırasında uyuşmazlıkları giderme
               items:
-                - name: Fatura toplamlarını eşleştirme sırasında uyuşmazlıkları gidermeye genel bakış
+                - name: Fatura toplamlarını eşleştirme sırasında uyuşmazlıkları çözümlemeye genel bakış
                   href: accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
-                - name: Özel durumları araştırma veya giderme
+                - name: Özel durumları araştırma veya çözümleme
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Satıcı deftere nakil profilleri
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Masraf kodları oluşturma
+              href: accounts-receivable/create-charges-codes.md
             - name: Satıcı faturası tarihleri
               href: accounts-payable/vendor-invoice-dates.md
-            - name: Borç hesapları ile alacak hesapları için yabancı para birimi yeniden değerleme işlemi
+            - name: Borç hesapları ve Alacak hesapları için yabancı para birimi yeniden değerleme işlemi
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Mobil fatura onayları
               href: accounts-payable/mobile-invoice-approvals.md
@@ -292,7 +292,9 @@
               items:
                 - name: Borç hesapları için merkezi ödemeler
                   href: accounts-payable/centralized-payments-accounts-payable.md
-                - name: Kapatmayı yapılandırma
+                - name: Bağlantılı ödemeler ayarlama ve işleme
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
+                - name: Kapatma yapılandırma
                   href: cash-bank-management/configure-settlement.md
                 - name: Kalanı kapatma
                   href: cash-bank-management/settle-remainder.md
@@ -354,8 +356,12 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Serbest metin faturaları için muhasebe dağıtımları ve yardımcı defter günlüğü girişleri
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Alacak hesapları deftere nakli
+              href: general-ledger/accts-recvble-posting.md
             - name: Müşteri deftere nakil profilleri
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Masraf kodları oluşturma
+              href: accounts-receivable/create-charges-codes.md
             - name: SEPA talimatlı ödemeye genel bakış
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: SEPA talimatlı ödeme talimatı ayarlama
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Sıralama tarihi senaryoları
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Gelir bölme
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Gelir ve gider ertelemeleri
                   items:
                     - name: Gelir ve gider ertelemelerini ayarlama
@@ -452,6 +460,8 @@
               items:
                 - name: Müşteri ödemesine genel bakış
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Bağlantılı ödemeler ayarlama ve işleme
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Alacak hesapları için merkezi ödemeler
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Müşteri ödemelerini havale etme
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Çift para birimi
                       href: general-ledger/dual-currency.md
+                - name: Deftere nakil profilleri
+                  items:
+                    - name: Deftere nakil profillerine genel bakış
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Deftere nakil profilleri için önerilen yöntemler
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Otomatik hareketler için hesaplar
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Tahsisat kuralları
                   items:
                     - name: Genel muhasebe tahsisat kuralları
@@ -3727,7 +3745,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/practice-manager-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Satınalma harcama analizi
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: İşe alım
+                - name: İşe alma
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Satış ve karlılık performansı
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json

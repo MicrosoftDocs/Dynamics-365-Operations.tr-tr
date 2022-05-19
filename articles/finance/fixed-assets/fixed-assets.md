@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "21481"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674863"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720460"
 ---
 # <a name="fixed-assets-home-page"></a>Sabit kıymetler giriş sayfası
 
@@ -44,7 +44,7 @@ Planlanmış yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm pla
 
 #### <a name="blogs"></a>Bloglar
 
-[Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Financials blogunda](https://community.dynamics.com/365/financeandoperations/b/financials) fikir, haber ve diğer bilgilere ulaşabilirsiniz.
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finansal bloğunda](https://community.dynamics.com/365/financeandoperations/b/financials) fikirler, haberler ve bilgiler bulabilirsiniz.
 
 [Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunmaktadır.
 

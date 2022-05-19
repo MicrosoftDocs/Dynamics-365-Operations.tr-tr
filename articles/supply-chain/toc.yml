@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finance + Operations (on-premises) satın alma
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: Belge kaynakları
               items:
                 - name: Yardım sistemi
@@ -2211,7 +2209,7 @@
                   href: ../finance/accounts-payable/vendor-posting-profiles.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Satıcı talebi yapılandırmaları
                   href: procurement/vendor-request-configurations.md
-                - name: Satıcı işe alımı
+                - name: Satıcı işe alma
                   href: procurement/vendor-onboarding.md
                 - name: Harici satıcılarla satıcı işbirliği
                   href: procurement/vendor-collaboration-work-external-vendors.md
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Temel ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Gelen ÖSB'leri v2 veri varlığı aracılığıyla içeri aktarma
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: Gelen ÖSB'leri V3 veri varlığı aracılığıyla içeri aktarma
+                  href: warehousing/import-asn-data-entity.md
                 - name: Ürünleri teslim alan ambardan mağazalara çapraz sevk etme
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Satın alma siparişini yerine koyma için yerleşim yönergesi ayarlama

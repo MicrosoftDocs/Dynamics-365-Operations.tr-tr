@@ -50,10 +50,6 @@
           items:
             - name: Finans ve Operasyon uygulamaları ile üçüncü taraf hizmetler arasında tümleştirme
               href: data-entities/integration-overview.md
-            - name: Öncelik tabanlı azaltma
-              hreF: data-entities/priority-based-throttling.md
-            - name: Öncelik tabanlı azaltma ile ilgili SSS
-              href: data-entities/throttling-faq.md
             - name: Veri tümleştirme API'leri
               items:
                 - name: Veri yönetimi paketi REST API'si
@@ -72,8 +68,20 @@
                   href: data-entities/service-request-tracing.md
                 - name: Yinelenen tümleştirmeler
                   href: data-entities/recurring-integrations.md
-                - name: Üçüncü taraf yardımcı programları kullanarak servisleri test etme
+                - name: Üçüncü taraf yardımcı programları kullanarak hizmetleri test etme
                   href: data-entities/third-party-service-test.md
+            - name: Hizmet koruması limitleri
+              items:
+                - name: Hizmet koruması API'si limitleri
+                  href: data-entities/service-protection-api-limits.md
+                - name: Önceliği azaltma
+                  href: data-entities/priority-based-throttling.md
+                - name: İşlemleri yeniden deneme
+                  href: data-entities/service-protection-retry-operations.md
+                - name: API azaltmayı izleme
+                  href: data-entities/service-protection-monitoring.md
+                - name: API aktarım hızını en üst düzeye çıkarma
+                  href: data-entities/service-protection-maximizing-api-throughput.md
             - name: Finance and Operations Bağlayıcısı
               href: data-entities/fin-ops-connector.md
             - name: Tümleştirme için geliştirme
@@ -398,6 +406,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Şirket içi ortamlar için proxy'ler yapılandırma
                       href: deployment/onprem-reverseproxy.md
+                    - name: Şirket içi dağıtımlar için Ambarlama uygulamasını yapılandırma
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: Şirket içi ortamlara ağ yazıcısı cihazları kurma
                       href: analytics/install-network-printer-onprem.md
                     - name: Şirket içi tanılama
@@ -470,18 +480,16 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Ürün ve yardımdaki dil ve yerel ayar tanımlayıcıları
                   href: help/language-locale.md
-                - name: 'Yardımı genişletme, özelleştirme ve yardım için işbirliği yapma'
+                - name: 'Yardımı genişletme, özelleştirme ve yardım için iş birliği yapma'
                   href: help/contributor-guide.md
-            - name: Dağıtımla ilgili konular
+            - name: Finans ve Operasyon uygulamaları bölgesel hizmetleri
               items:
-                - name: Dynamics 365 Finance ve Dynamics 365 Supply Chain Management için bağımsız ve yerel bulut dağıtım seçenekleri
+                - name: Yerel coğrafi bölgeler
                   href: deployment/deployment-options-geo.md
-                - name: ABD Government Community Cloud (GCC) için Finance ve Supply Chain Management
+                - name: US Government Community Cloud (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: Çin'de 21Vianet tarafından işletilen Finance ve Supply Chain Management
+                - name: Çin'de 21Vianet Tarafından İşletilen
                   href: deployment/china-local-deployment.md
-                - name: Fransa'daki Finans ve Operasyon uygulamaları
-                  href: deployment/france-local-deployment.md
         - name: Geliştirme ve özelleştirme
           items:
             - name: Geliştirme ve özelleştirme giriş sayfası
@@ -559,7 +567,7 @@
                     - name: Modeller ve veri modeli öğeleri oluşturmaya genel bakış
                       href: dev-tools/create-data-model-elements.md
                     - name: Uzantılar için adlandırma kuralları
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Model özelleştirmeyi kapatma ve işlevi kullanımdan kaldırma
                       href: dev-tools/lock-models.md
                 - name: Özelleştirme Analizi Raporu

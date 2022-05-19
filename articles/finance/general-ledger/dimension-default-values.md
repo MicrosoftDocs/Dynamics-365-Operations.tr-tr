@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransDaily, LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 327bc27f068e1f9eefacc6b5defa27044cb1a77e
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 51235b8a5dac50aad5031456760c970e50506d66
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472544"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713120"
 ---
 # <a name="default-financial-dimensions-on-financial-journals"></a>Mali günlüklerdeki varsayılan mali boyutlar
 

@@ -452,9 +452,7 @@
               href: hr-personnel-positions.md
             - name: Çalışma zamanları takvimi oluşturma
               href: hr-personnel-create-working-time-calendar.md
-            - name: İş adaylarını işe alma
-              href: hr-personnel-recruit.md
-            - name: Personel eylemleriyle ilgili SSS
+            - name: Personel eylemleri ile ilgili SSS
               href: hr-personnel-actions-faq.md
             - name: Personel bilgilerini yönetmek için iş akışları kullanma
               href: hr-workflow-manage-employee-information.md
@@ -463,7 +461,7 @@
             - name: Pozisyonun raporlama ilişkilerini değiştirme
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Kolaylaştırılmış personel girişi
-              href: ../talent/streamlined-employee-entry.md?toc=/dynamics365/human-resources/toc.json
+              href: stream-employee-entry.md
             - name: Çalışan bilgilerini girme
               href: hr-personnel-enter-worker-information.md
             - name: İstihdamı bulunmayan çalışanlar
@@ -488,26 +486,34 @@
               href: hr-personnel-set-up-injury-illness-information.md
             - name: Personelin yaralanma ve hastalık bilgilerini koruma
               href: hr-personnel-maintain-employee-injury-illness-information.md
-            - name: Adayları işe alma
+            - name: İşe alma
               items:
-                - name: İşe alma süreçlerini yönetme
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: Toplu işe alma projeleri
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: Toplu işe alma projeleri oluşturma
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: Başvuran ve başvuru verilerini el ile girme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: İş talepleri geliştirme ve açma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: Pozisyonları ayarlama
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: Adayları işe alma yoluyla istihdam etme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: Mevcut bir personeli işe alma yoluyla istihdam etme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: Aday seçim araçlarını tanımlama ve dağıtma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                - name: Genel bakış
+                  href: ../human-resources/hr-recruit-overview.md
+                - name: İşe alma projeleri
+                  items:
+                    - name: İşe alma proje sürecini yönetme
+                      href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Başvuran ve başvuru verilerini el ile girme
+                      href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                    - name: İş talepleri geliştirme ve açma
+                      href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                    - name: Pozisyonları ayarlama
+                      href: ../human-resources/hr-personnel-set-up-positions.md
+                    - name: Adayları işe alma yoluyla istihdam etme
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                    - name: Mevcut bir personeli işe alma yoluyla istihdam etme
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                    - name: Aday seçim araçlarını tanımlama ve dağıtma
+                      href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                    - name: Toplu işe alma projeleri
+                      href: ../human-resources/hr-personnel-mass-hire-projects.md
+                    - name: Toplu işe alma projeleri oluşturma
+                      href: ../human-resources/hr-personnel-create-mass-hire-project.md
+                - name: İşe alma istekleri (birleştirilmiş altyapı)
+                  items:
+                    - name: İş adaylarını işe alma
+                      href: hr-personnel-recruit.md
         - name: Görev yönetimi
           href: hr-task-mgmt.md
         - name: İzin ve devamsızlık
@@ -800,6 +806,8 @@
               href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Finance ile tümleştirmeyi yapılandırma
               href: hr-admin-integration-finance.md
+            - name: Human Resources uygulamasından başka bir ortama bağlantılar oluşturma
+              href: configure-links.md
             - name: Dayforce ile tümleştirmeyi yapılandırma
               href: hr-admin-integration-dayforce.md
             - name: Yinelenen veri dışarı aktarma uygulaması oluşturma

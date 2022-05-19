@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kweekley
+ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
-ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
+ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947274"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725614"
 ---
 # <a name="year-end-activities-faq"></a>Yıl sonu faaliyetleriyle ilgili SSS 
 
@@ -172,10 +172,10 @@ El ile oluşturulan 1099 hareketleri **1099'u Güncelleştir** arasında **Tüm�
 
 ## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Borç hesapları: 1099: Dynamics 365 Finance, 1096 formunu destekler mi? 
 
-Dynamics 365 Finance 1096 Yıllık Özeti'ni ve ABD Bilgi Beyannamelerinin İletimi formunu yazdırmaz.
+Dynamics 365 Finance, 1096 Yıllık Özeti'ni ve ABD Bilgi Beyannamelerinin İletimi formunu yazdırmaz.
 
 ## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Borç hesapları: 1099: Kamu sektörü için 1099 raporlamasını destekleyen yeni özellikler var mı? 
-Kamu sektörüne yönelik **1099 bilgilerini ana hesaba göre güncelleştir** adlı yeni bir özellik eklenmiştir. Özelliği, **Özellik yönetimi** çalışma alanından etkinleştirebilirsiniz. Bu özellik, satıcının 1099 değerlerini satıcı kaydındaki varsayılan hesap yerine, muhasebe dağılımındaki ana hesaba göre ilişkilendirmenize olanak tanır.
+Kamu sektörüne yönelik **1099 bilgilerini ana hesaba göre güncelleştir** adlı yeni bir özellik eklenmiştir. Özelliği, **Özellik yönetimi** çalışma alanından etkinleştirebilirsiniz. Bu özellik, satıcının 1099 değerlerini satıcı kaydındaki varsayılan hesap yerine, muhasebe dağıtımındaki ana hesaba göre ilişkilendirmenize olanak tanır.
 
 Daha fazla bilgi için bkz. [1099 raporlamasına ilişkin satıcıları ayarlama](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
 

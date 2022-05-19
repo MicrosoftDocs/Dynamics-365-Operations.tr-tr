@@ -1,33 +1,33 @@
 ---
 title: Finance giriş sayfası
-description: Bu konuda, Microsoft Dynamics 365 Finance'ta mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
-author: roschlom
+description: Bu konuda, Microsoft Dynamics 365 Finance'te mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
+author: kfend
 ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "206434"
 - intro-internal
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 1018cb8c3279a27a55a415c23405571e23ab40e1
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753733"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713712"
 ---
 # <a name="finance-home-page"></a>Finance giriş sayfası
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Finance'ta mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır. 
+Bu konuda, Microsoft Dynamics 365 Finance'te mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır. 
 
 Daha fazla bilgi edinmek için bir özellik alanı seçin.
 
@@ -80,6 +80,6 @@ Satın almaları, stoğu ve imalatı yönetmeye yönelik özellikler hakkında b
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 
-Çevrimiçi kurslar ve eğitim için [Microsoft Learn'deki Dynamics 365 Finance](/learn/browse/?products=dynamics-finance&resource_type=learning+path) konusuna bakın.
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Finance](/learn/browse/?products=dynamics-finance&resource_type=learning+path) konusuna bakın.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

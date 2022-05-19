@@ -1,28 +1,28 @@
 ---
 title: Alacak hesapları giriş sayfası
 description: Müşteri faturalarını ve gelen ödemeleri izlemek için Alacak hesaplarını kullanın.
-author: roschlom
+author: kfend
 ms.date: 08/18/2017
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "20671"
 - intro-internal
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 946a4e3cab6549af8b6c07248b6889e3b610f27f
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 412b900b5eb9a3a01feb5f4dd67529a5128e52b7
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726954"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711868"
 ---
 # <a name="accounts-receivable-home-page"></a>Alacak hesapları giriş sayfası
 
@@ -41,7 +41,7 @@ Müşteri faturalarını satış siparişlerine veya sevk irsaliyelerine göre o
 
 Müşteri faturalarını ve müşterilerden aldığınız ödemeleri izlemek için Alacak hesaplarını kullanın. Müşteri grupları, müşteriler, deftere nakil profilleri, vade farkı dekontları, tahsilat mektupları, komisyonlar ve müşteriler, masraflar, teslimatlar ve gönderilecek yerler, kambiyo senetleri ile ilgili parametreler ve diğer Alacak hesabı bilgilerini ayarlayabilirsiniz. 
 
-- [Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girişleri](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+- [Serbest metin faturaları için muhasebe dağıtımları ve yardımcı defter günlüğü girişleri](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
 - [Müşteri deftere nakil profilleri](customer-posting-profiles.md)
 - [Kredi kartı ayarı, onayı ve çekimi](credit-card-authorizations.md)
 - [Müşteri faturası oluşturma](configure-customer-invoices.md)
@@ -83,7 +83,7 @@ Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritasın
 
 #### <a name="blogs"></a>Bloglar
 
-[Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Financials blogunda](https://community.dynamics.com/365/financeandoperations/b/financials) Alacak hesapları ve diğer çözümler hakkında fikirlere, haberlere ve diğer bilgilere ulaşabilirsiniz.
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finansal bloğunda](https://community.dynamics.com/365/financeandoperations/b/financials) Alacak Hesapları hakkında fikirler, haberler ve bilgilerin yanı sıra diğer çözümleri bulabilirsiniz.
 
 [Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunmaktadır.
 
