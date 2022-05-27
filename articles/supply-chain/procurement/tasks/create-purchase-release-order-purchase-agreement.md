@@ -1,7 +1,7 @@
 ---
 title: Satın alma siparişi oluştururken satın alma sözleşmesini uygulama
 description: Bu yordam, bir satınalma siparişi oluşturduğunuzda bir satın alma sözleşmesini kullanmayı gösterir.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 130524dc8e0c8724e35bf13c6b250ab721383711
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a21821d75be2d5340cd418c12be39431870d2779
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570381"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678757"
 ---
 # <a name="apply-a-purchase-agreement-when-creating-a-purchase-order"></a>Satın alma siparişi oluştururken satın alma sözleşmesini uygulama
 

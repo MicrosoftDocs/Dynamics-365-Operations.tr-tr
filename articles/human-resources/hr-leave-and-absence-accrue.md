@@ -9,19 +9,18 @@ ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 886cfa2a901150e720e60709104afaf3863486a9
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644316"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686065"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>İzin ve devamsızlık planlarını tahakkuk et
 

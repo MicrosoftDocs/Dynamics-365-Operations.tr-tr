@@ -1,7 +1,7 @@
 ---
 title: Servis siparişinin başlangıç zamanını ve süresini görüntüleme
 description: Servis siparişindeki işin ne zaman başladığını ve servis siparişinin ne zaman tamamlanacağını görüntüleyebilirsiniz.
-author: kamaybac
+author: sorenva
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd3fe5847d795dafed453294ccc1058955127450
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9dfda0511e059de21a5d04f8eb4c5c0937eb88aa
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567763"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670650"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>Servis siparişinin başlangıç zamanını ve süresini görüntüleme 
 

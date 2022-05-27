@@ -1,7 +1,7 @@
 ---
 title: Yeni bir taşıma yönetimi altyapısı oluşturma
 description: Bu konu, Dynamics 365 Supply Chain Management uygulamasında yeni bir taşıma yönetim altyapısının nasıl oluşturulacağını açıklar.
-author: Henrikan
+author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 51661
 ms.assetid: 0473acef-755e-4b42-acf5-5e5aa902dc0e
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88661b6a974e2bd60f78e38d49a08d3290008b8b
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7652112"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678136"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Yeni bir taşıma yönetimi altyapısı oluşturma
 

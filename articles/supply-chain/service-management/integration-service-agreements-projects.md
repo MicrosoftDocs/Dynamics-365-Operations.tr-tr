@@ -1,7 +1,7 @@
 ---
 title: Projeler ve servis sözleşmeleri için tümleştirme
 description: Servis anlaşmalarıyla ve servis anlaşması satırlarıyla çalıştığınızda, Proje yönetimi ve muhasebe bölümünün aşağıdaki alanlarında belirlenmiş verileri kullanırsınız.
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a43a8bab6a5e5ea527f4a062feea79b4313cb56f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7252de08b40aa0668d3ce801b4cbd6f3a53ef12f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578812"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673592"
 ---
 # <a name="integration-for-service-agreements-and-projects"></a>Projeler ve servis sözleşmeleri için tümleştirme 
 

@@ -1,7 +1,7 @@
 ---
 title: Tüketim talebi oluşturma
 description: Bu konuda bir talep oluşturma işlemi açıklanmaktadır.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f7ca6e843688e0415f7ef31ed7cd40a77eccdeb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579460"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671142"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Tüketim talebi oluşturma
 

@@ -1,7 +1,7 @@
 ---
 title: Tedarik ve kaynak atama genel özeti
 description: Bu makalede, Tedarik ve kaynak atama modülündeki kullanılabilir işlevlere genel bakış sağlar.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 05/06/2020
 ms.topic: overview
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: eea24e23-a803-4de0-a218-6485757cde1b
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7be7696716e887a7fa4ea4af234db20c6e161b5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 0141374e59830e611d793d02d431ad191c058442
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984232"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671996"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Tedarik ve kaynak atama genel özeti
 

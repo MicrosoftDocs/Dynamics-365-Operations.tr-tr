@@ -1,21 +1,21 @@
 ---
 title: Kurallar
 description: Bu konuda, Global Stok Muhasebesinde maliyetlerin nasıl muhasebeleştirileceğini belirlemek üzere nasıl kural ayarlanacağı açıklanmıştır.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7844671202a03533eb6215f557a206c13978e902
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 4919d8fcab76741175bad6ea090eea61d4146fa8
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860704"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673172"
 ---
 # <a name="conventions"></a>Kurallar
 

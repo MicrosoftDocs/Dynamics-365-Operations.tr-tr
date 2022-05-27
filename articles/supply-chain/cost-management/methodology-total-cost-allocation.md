@@ -1,7 +1,7 @@
 ---
 title: Toplam maliyet tahsisat yöntemi
 description: Bu konuda, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmıştır. Toplam maliyet tahsisatı (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyetin hesaplanmasına yönelik bir yöntemdir.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 04/15/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: mguada
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c11b847b5b7995e4eb61e69888aa00d4a5d4478850ce6a346561e0ea0e256b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 948b2e91f8ab8ffe8d704159b60a281391e5bd6c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715854"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679513"
 ---
 # <a name="total-cost-allocation-method"></a>Toplam maliyet tahsisat yöntemi
 

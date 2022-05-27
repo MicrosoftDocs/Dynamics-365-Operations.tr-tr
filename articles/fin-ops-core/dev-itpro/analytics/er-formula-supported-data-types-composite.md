@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323677"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689256"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektronik raporlama formülleri için desteklenen bileşik veri türleri
 
@@ -81,7 +81,7 @@ Bir *kayıt*, aşağıdaki işlevler kullanılarak elde edilebilir:
 
 Varsayılan olarak, *kayıt listesi* kayıtlarına sırayla erişilir. Belirli bir kayda erişmek için [INDEX](er-functions-list-index.md) işlevini kullanabilir ve *tamsayı* dizinini belirtebilirsiniz.
 
-Bir *kayıt listesi*'nin varsayılan değeri **boş**'tur. Bir *kayıt listesi*'nin boş olup olmayacağını değerlendirmek için [ISEMPTY](/er-functions-list-isempty.md) işlevini kullanabilirsiniz.
+Bir *kayıt listesi*'nin varsayılan değeri **boş**'tur. Bir *kayıt listesi*'nin boş olup olmayacağını değerlendirmek için [ISEMPTY](er-functions-list-isempty.md) işlevini kullanabilirsiniz.
 
 > [!NOTE]
 > Bir *kayıt listesi* boşsa, içindeki bir *kayıt* için alan değeri alma girişimleri, çalışma zamanında bir özel durum oluşmasına neden olur. Bu tür çalışma zamanı özel durumlarını nasıl engelleyebileceğinizi öğrenmek için bkz. [Boş liste olgularının dikkate alınması](er-components-inspections.md#i9).

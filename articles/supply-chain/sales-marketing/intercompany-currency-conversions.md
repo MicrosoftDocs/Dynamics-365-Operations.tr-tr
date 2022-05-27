@@ -1,22 +1,22 @@
 ---
 title: Şirketlerarası para birimi dönüştürmeleri
 description: Bu konuda, şirketlerarası hareketler için para birimi dönüştürmeleri açıklanmaktadır
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 540849003d532ef2f0905c18332d9cb82a04cf7c
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: f0af05c324bb67744ba6650e3d7a4ba8b958040e
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548594"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671912"
 ---
 # <a name="intercompany-currency-conversions"></a>Şirketlerarası para birimi dönüştürmeleri
 

@@ -1,7 +1,7 @@
 ---
 title: Servis aralıklarını ayarlama
 description: Bu konuda, servis aralıklarının nasıl ayarlanacağı açıklanmaktadır. Servis aralığı, servis siparişlerini oluşturduğunuzda servis sözleşmesi satırları için servis siparişi satırlarının oluşturulma sıklığını gösterir.
-author: kamaybac
+author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0aeaef9fcf0c909638a9452633a321121e20814
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 943ed0b8f329b45225b61247998e15a1d82356aa
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567859"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673452"
 ---
 # <a name="set-up-service-intervals"></a>Servis aralıkları ayarlama  
 

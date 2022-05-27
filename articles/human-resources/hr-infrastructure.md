@@ -8,27 +8,26 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf7ce43785e3ef485074f2b0294caea381f8f726
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487808"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688106"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources altyapı birleştirme - Yayın 10.0.25 güncelleştirmesi
 
-10.0.25 sürümü, altyapı birleştirmedeki birinci yetenekler dalgasını getirir. Altyapı birleştirme sırasında, Microsoft Dynamics 365 Human Resources, Finance ve Operations alt yapısı ile birleştirilir. Ancak, Dynamics 365 Finance ve Dynamics 365 Supply Chain Management gibi bağımsız bir uygulama olarak lisanslandırılmaya devam eder. Altyapı birleştirme hakkında daha fazla bilgi için, bkz. [Dynamics 365 Human Resources altyapı birleştirmesi SSS](../human-resources/hr-infrastructure-merge-faq.md).
+10.0.25 sürümü, altyapı birleştirmedeki birinci yetenekler dalgasını getirir. Altyapı birleştirme sırasında, Microsoft Dynamics 365 Human Resources, Finance and Operations alt yapısı ile birleştirilir. Ancak, Dynamics 365 Finance ve Dynamics 365 Supply Chain Management gibi bağımsız bir uygulama olarak lisanslandırılmaya devam eder. Altyapı birleştirme hakkında daha fazla bilgi için, bkz. [Dynamics 365 Human Resources altyapı birleştirmesi SSS](../human-resources/hr-infrastructure-merge-faq.md).
 
 Birleştirme işlemi, İnsan Kaynakları kullanıcılarına aşağıdaki yollarla tutarlılık sağlar:
 
-- [Ortam yönetimi ve tümleştirme, İnsan Kaynakları ile Finance ve Operations uygulamaları arasında tutarlıdır.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
+- [Ortam yönetimi ve tümleştirme, İnsan Kaynakları ile Finans ve Operasyon uygulamaları arasında tutarlıdır.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/consistent-environment-management-integrations-between-human-resources-finance-operations-apps)
 
     - Microsoft Dynamics Lifecycle Services hizmetlerindeki ortamları yönetin, sorun arayın ve Regression Suite Automation Tool.
     - İnsan Kaynakları yeni işlevlerinin, normal bir sürüm güncelleştirme işleminin parçası olarak serbest bırakıldığı tek bir kod tabanı vardır.
@@ -44,7 +43,7 @@ Birleştirme işlemi, İnsan Kaynakları kullanıcılarına aşağıdaki yollarl
 
 - [Dynamics 365'te bir insan kaynakları kümesi özelliği oluşturun.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
-    10.0.25 sürümünde, yalnızca İnsan Kaynaklarında bulunan işlevsel yetenekler Finance ve Operations altyapısında kullanılabilir yapılmıştır. Müşterilerin bir Finance ve Operations ortamında bu yeteneklerden yararlanabilmeleri için, özellik yönetiminde aşağıdaki İnsan Kaynakları özelliklerinin etkinleştirilmesi gerekir.
+    10.0.25 sürümünde, yalnızca İnsan Kaynaklarında bulunan işlevsel yetenekler Finance and Operations altyapısında kullanılabilir yapılmıştır. Müşterilerin bir Finance and Operations ortamında bu yeteneklerden yararlanabilmeleri için, özellik yönetiminde aşağıdaki İnsan Kaynakları özelliklerinin etkinleştirilmesi gerekir.
 
     | Özellik adı | Genel Bakış | Serbest bırakılma durumu | 
     |--------------|----------|----------------| 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9cce93aab902a8ca269cf22e1999716fe49f3ed8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 42d00f570403af6e7a6a39a6643eec1f59ccdc20
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063016"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687938"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (18 Şubat 2020)
 
@@ -32,7 +31,7 @@ Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler aç�
 
 ## <a name="platform-update-32"></a>Platform güncelleştirmesi 32 
 
-32 platform güncelleştirmesi artık kullanılabilir durumdadır. Daha fazla bilgi için bkz. [Finans ve Operasyon için Platform güncelleştirmesi 32'deki yenilikler veya değişiklikler (Şubat 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+32 platform güncelleştirmesi artık kullanılabilir durumdadır. Daha fazla bilgi için bkz. [Finance and Operations için Platform güncelleştirmesi 32'deki yenilikler veya değişiklikler (Şubat 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Akıcı personel formundaki görünüm seçenekleri değiştirilirken arama değerleri hatırlanır (383833)
 

@@ -1,7 +1,7 @@
 ---
 title: İadeler için sevk irsaliyesi güncelleştirmeleri
 description: İade edilen maddelerin stoka alınabilmesi için, ait oldukları sevk irsaliyesinin güncelleştirilmesi gerekir.
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f586537aa2d4cb47b0e55e76e401ea6852e1d60
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 021cf6c0ff606e4b5a7139285fe7508283fb9fe2
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580396"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675697"
 ---
 # <a name="packing-slip-updates-for-returns"></a>İadeler için sevk irsaliyesi güncelleştirmeleri  
 

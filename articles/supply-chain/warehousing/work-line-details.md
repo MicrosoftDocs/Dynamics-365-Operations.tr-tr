@@ -1,7 +1,7 @@
 ---
 title: İş satırı ayrıntıları
 description: Bu konu, sisteminizdeki bireysel çalışma satırlarının kapsamlı, sıralanabilir ve filtrelenebilir listesini gösteren İş satırı ayrıntıları sayfası hakkında bilgi vermektedir.
-author: mirzaab
+author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4d7c6991c0171b0e09752b3305e0fa11a25b7833
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778293"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674124"
 ---
 # <a name="work-line-details"></a>İş satırı ayrıntıları
 

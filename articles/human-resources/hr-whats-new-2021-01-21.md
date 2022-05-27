@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02f0b0664dcb78d20c2719b4377dcc6047f2bf3392225f1cf9c166a1073ecd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: be50596cd64839ba82b847b2fabb0f46dc749a3f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772628"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686869"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler (21 Ocak 2021)
 
@@ -43,7 +42,7 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 
 | Özellik | Sürüm planı | Belgeler |
 | --- | --- | --- |
-| Platform güncelleştirmesi 10.0.16(40) | -- | [Finance and Operations uygulamaların 10.0.16 sürümü için platform güncelleştirmeleri (Şubat 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Platform güncelleştirmesi 10.0.16(40) | -- | [Finans ve Operasyon uygulamalarının 10.0.16 sürümü için platform güncelleştirmeleri (Şubat 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | Geliştirilmiş iş akışı istekleri ve onaylar | [Kuruluş ve personel yönetimi iş akışı deneyimi geliştirmeleri](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Bana atanan iş öğeleri listesini konumlandırmak için yapılandırma seçeneği](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | 1095-C, Form 1095-B ve eski Yan Haklar'da elektronik raporlama için Uygun Fiyatlı Bakım uyumluluk güncelleştirmeleri | -- | -- | 
 | Yan Haklar yönetimi artık ABD merkezlik tüzel kişilikler için ACA uyumluluk raporlamasını desteklemektedir | -- | [Yan Haklar Yönetiminde ACA raporları oluşturma](hr-benefits-management-aca-reports.md) |

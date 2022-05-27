@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Supply Chain Management kullanıcıları için öğrenme kataloğu
 description: Dynamics 365 Supply Chain Management kullanıcıları için tüm eğitim seçeneklerini bulun.
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe547f6e224a072301a4d846f1a2867b70c86da3
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a8324fe183efd956fa39ddd97f562e4c33630580
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402678"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673200"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management kullanıcıları için öğrenme kataloğu
 
@@ -31,7 +31,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 |---------|-------------|--------|--------|
 | [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Belki Microsoft Dynamics 365 ve Power Platform uygulamalarını kullanmaya nereden başlayacağınızı bilmiyorsunuz? İş uygulamalarının gücününün işinizi dönüştürmeye nasıl yardımcı olabileceğini öğrenin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 8 saat |
 | [Dynamics 365 ve Power Platform Temel Bilgileri](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5.5 saat |
-| [Finance and Operations uygulamalarını kullanmaya başlama](/learn/paths/get-started-finance-operations/) | Finance and Operations uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri, küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finance and Operations uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak, Finance and Operations'ın özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |
+| [Finans ve Operasyon uygulamalarını kullanmaya başlama](/learn/paths/get-started-finance-operations/) | Finans ve Operasyon uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri, küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finans ve Operasyon uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak, Finans ve Operasyon'ın özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |
 | [Dynamics 365 Supply Chain Management için Varlık Yönetimini kullanmaya başlama](/learn/modules/get-started-asset-management/index) | Varlık Yönetimi, Dynamics 365 Supply Chain Management'da varlıkların ve bakım işlerinin yönetilmesine yönelik bir modüldür. Varlık Yönetimi, şirketinizdeki makineler, üretim ekipmanları ve araçlar gibi birçok ekipman türünü yönetmek ve bakım hizmeti vermek için ilgili görevleri verimli bir şekilde yönetmenize ve gerçekleştirmenize olanak tanır. Varlık Yönetimi birçok sektördeki çözümleri destekler. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme modülü | 1 saat |
 | [Dynamics 365 Supply Chain Management için Mühendislik Değişim Yönetimi Eklentisini kullanmaya başlama](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management, çalışan ve kuruluşları envanter, ambar, imalat, servis ve lojistik alanında verileri daha iyi stratejik kararlar almayı destekleyecek içgörülere dönüştüren tahmine dayalı analizler içeren birleşik bir görünüm elde etme becerisiyle güçlendirir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme modülü | 2 saat |
 | [Dynamics 365 Intelligent Order Management kullanmaya başlama](/learn/modules/get-started-intelligent-order-management/) | Dynamics 365 Intelligent Order Management ile müşteriler siparişlerden karşılamaya kadar düzenlemeyi yönetebilir. Bu özellikler, kuruluşların farklı platformlar ve uygulamalar arasında sipariş akışlarını düzenlemesini sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme modülü | 4 saat |
@@ -39,10 +39,10 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="core-platform-knowledge"></a>Temel platform bilgileri<a name="core-platform-knowledge"></a>
 
-| İçerik | Tanım | Biçim | Uzunluk |
+| İçerik | Açıklama | Biçim | Uzunluk |
 |---------|-------------|--------|--------|
-| [-Finance and Operations uygulamalarında kuruluşunuzu yapılandırma](/learn/paths/configure-your-organization-finance-ops/) | Finance and Operations uygulamaları ile çalışan işlevsel bir danışman olarak, müşteriniz için nasıl bir kuruluş ayarlayacağınızı bilmeniz gerekir. Bu öğrenme yolunda size diğer görevlerin yanı sıra tüzel kişilikleri ayarlama, güvenlik ayarlarını uygulama, kullanıcılar için kullanıcı arabirimini kişiselleştirme, mobil uygulamalar tasarlayıp derleme ve ortak tümleştirmeleri uygulama işlemleri gösterilmektedir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 12 saat |
-| [Finance and Operations uygulamalarında analiz ve raporları yapılandırma ve bunlarla çalışma](/learn/paths/configure-analytics-reporting-finance-operations/) | İş liderleri, temel finansal ve operasyonel veriler hakkında doğru içgörülere sahip oldukları takdirde kendi şirketlerinde önemli kararlar alabilirler. Ayrıca, bir iş kullanıcısı elektronik raporlama aracını tek bir kod satırı olmadan resmi kurumlar, bankalar ve diğer taraflarla elektronik olarak bilgi alışverişi yapmak üzere iş belgelerini gerekli formatta oluşturmak ve yeni yasal gerekliliklere uyum sağlamak amacıyla yapılandırabilir ve kullanabilir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
+| [Finans ve Operasyon uygulamalarında kuruluşunuzu yapılandırma](/learn/paths/configure-your-organization-finance-ops/) | Finans ve Operasyon uygulamaları ile çalışan bir işlev danışmanı olarak, müşteriniz için nasıl bir kuruluş ayarlayacağınızı bilmeniz gerekir. Bu öğrenme yolunda size diğer görevlerin yanı sıra tüzel kişilikleri ayarlama, güvenlik ayarlarını uygulama, kullanıcılar için kullanıcı arabirimini kişiselleştirme, mobil uygulamalar tasarlayıp derleme ve ortak tümleştirmeleri uygulama işlemleri gösterilmektedir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 12 saat |
+| [Finans ve Operasyon uygulamalarında analiz ve raporları yapılandırma ve bunlarla çalışma](/learn/paths/configure-analytics-reporting-finance-operations/) | İş liderleri, temel finansal ve operasyonel veriler hakkında doğru içgörülere sahip oldukları takdirde kendi şirketlerinde önemli kararlar alabilirler. Ayrıca, bir iş kullanıcısı elektronik raporlama aracını tek bir kod satırı olmadan resmi kurumlar, bankalar ve diğer taraflarla elektronik olarak bilgi alışverişi yapmak üzere iş belgelerini gerekli formatta oluşturmak ve yeni yasal gerekliliklere uyum sağlamak amacıyla yapılandırabilir ve kullanabilir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
 
 ## <a name="supply-chain-management"></a>Tedarik zinciri yönetimi<a name="supply-chain-management"></a>
 

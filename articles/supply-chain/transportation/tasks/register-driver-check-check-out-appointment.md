@@ -1,7 +1,7 @@
 ---
 title: Randevu için sürücü girişini ve çıkışını kaydetme
 description: Bu yordam sürücü girişi ve çıkışının nasıl kaydedileceğini gösterir.
-author: Henrikan
+author: Weijiesa
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1e7e383d72f45b9b3ea69dcff7b3534a2a3d22f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2a9685b91c1e8516e70219b7bd4f52990950dba9
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567739"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673396"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Randevu için sürücü girişini ve çıkışını kaydetme
 

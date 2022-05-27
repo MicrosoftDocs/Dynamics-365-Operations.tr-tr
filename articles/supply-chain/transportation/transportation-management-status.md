@@ -1,7 +1,7 @@
 ---
 title: Taşıma yönetimi durumları
 description: Bu konuda, bir taşıma durumunun nasıl oluşturulacağı ve o durumun bir taşıyıcı durumuna nasıl eşleneceği açıklanmaktadır.
-author: Henrikan
+author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c5570d3b5b436a35bb57d051bc06cde8b78934e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3e528c13b1df68dde5a73a7d7cae3973b99b6f5e
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569901"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671632"
 ---
 # <a name="transportation-management-statuses"></a>Taşıma yönetimi durumları
 

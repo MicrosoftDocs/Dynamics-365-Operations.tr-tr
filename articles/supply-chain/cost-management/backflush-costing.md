@@ -1,7 +1,7 @@
 ---
 title: Geriye dönük maliyetlendirme
 description: Bu konu, Yalın imalat için geriye dönük maliyetlendirme kavramını tanıtmaktadır.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d158908182a35b7b4cbf0ad8a5d1fc7df37815d3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a5b0ac26a1f6b209be7c9d52aaad9bb689a8a656
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579844"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674040"
 ---
 # <a name="backflush-costing"></a>Geriye dönük maliyetlendirme
 
