@@ -1,6 +1,6 @@
 ---
 title: Bütçeleme giriş sayfası
-description: Bu konuda, Microsoft Dynamics 365 Finance'taki bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve raporlama özelliklerine genel bir bakış sağlanmaktadır.
+description: Bu konuda, Microsoft Dynamics 365 Finance'teki bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve raporlama özelliklerine genel bir bakış sağlanmaktadır.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "106043"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1e5ef283991cb7ccb990d7d687ab3964040d03ba
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983964"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712579"
 ---
 # <a name="budgeting-home-page"></a>Bütçeleme giriş sayfası
 

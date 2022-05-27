@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4057740fc4c6ddd696b37b6373dcfcd43881305e
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8534259"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692240"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Dataverse sanal tablo sorgularını iyileştirme
 
@@ -50,12 +49,12 @@ Human Resources için Dataverse sanal tablo performansının yavaş olmasının 
 Bu etkiyi örneğin Çalışan (**mshr_hcmworkerentity**) veya temel çalışan (**mshr_hcmworkerbaseentity**) varlığı için yapılan sorgularda görebilirsiniz. Performans sorunu bildiriminin kendisini birkaç farklı yolla görebilirsiniz:
 
 - **Yavaş sorgu yürütme**: Sanal tabloya yönelik sorgu beklenen sonuçları döndürebilir ancak sorgu yürütmenin tamamlaması beklenenden uzun sürebilir.
-- **Sorgu zaman aşımı**: Sorgu zaman aşımına uğrayabilir ve şu hatayı döndürebilir: "Finans ve Operasyon'ı çağırmak için bir belirteç alındı ancak Finans ve Operasyon InternalServerError türünde bir hata döndürdü."
+- **Sorgu zaman aşımı**: Sorgu zaman aşımına uğrayabilir ve şu hatayı döndürebilir: "Finance and Operations'ı çağırmak için bir belirteç alındı ancak Finance and Operations InternalServerError türünde bir hata döndürdü."
 - **Beklenmeyen hata**: Sorgu şu iletiyle birlikte 400 hata türünü döndürebilir: "Beklenmeyen bir hata oluştu."
 
   ![HcmWorkerBaseEntity üzerinde 400 hata türü.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Azaltma**: Sorgu sunucu kaynaklarını aşırı kullanabilir ve azaltmaya maruz olabilir. Bu durumda, sorgu şu hatayı döndürür: "Finans ve Operasyon'ı çağırmak için bir belirteç alındı ancak Finans ve Operasyon, 429 türünde bir hata döndürdü." Human Resources'ta azaltma konusunda daha fazla bilgi için bkz. [Azaltmayla ilgili SSS](./hr-admin-integration-throttling-faq.md).
+- **Azaltma**: Sorgu sunucu kaynaklarını aşırı kullanabilir ve azaltmaya maruz olabilir. Bu durumda, sorgu şu hatayı döndürür: "Finance and Operations'ı çağırmak için bir belirteç alındı ancak Finance and Operations, 429 türünde bir hata döndürdü." Human Resources'ta azaltma konusunda daha fazla bilgi için bkz. [Azaltmayla ilgili SSS](./hr-admin-integration-throttling-faq.md).
 
   ![HcmWorkerBaseEntity üzerinde 429 hata türü.](./media/HcmWorkerBaseEntityErrorType429.png)
 

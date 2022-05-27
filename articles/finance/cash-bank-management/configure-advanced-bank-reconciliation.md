@@ -1,6 +1,6 @@
 ---
 title: Gelişmiş banka mutabakatı kurulumu işlemi
-description: Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'taki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu makalede mutabakat için işlem ayarları açıklanır.
+description: Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu makalede mutabakat için işlem ayarları açıklanır.
 author: panolte
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42c86a120403d8d87d62c76d56993decca7f6cdafaeb67c7afec29da0bf8f18f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f000b689f55b8155a7c7372c780800122f762b40
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757181"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712523"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Gelişmiş banka mutabakatı kurulumu işlemi
 
 [!include [banner](../includes/banner.md)]
 
-Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'taki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu makalede mutabakat için işlem ayarları açıklanır.  
+Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu makalede mutabakat için işlem ayarları açıklanır.  
 
 Gelişmiş banka mutabakatı işlevini kullanmadan önce ayarlanması gereken bir dizi parça vardır. Banka ekstresi içe aktarmayı ayarlama hakkında daha fazla bilgi için bkz. [Gelişmiş banka mutabakatı içe aktarma sürecini ayarlama](set-up-advanced-bank-reconciliation-import-process.md).  Banka mutabakatı işleminin kurulması için gereksinimler aşağıda açıklanmıştır.
 

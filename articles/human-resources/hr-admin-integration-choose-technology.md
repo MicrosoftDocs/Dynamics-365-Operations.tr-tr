@@ -1,6 +1,6 @@
 ---
 title: Veri tümleştirme teknolojisi seçme
-description: Bu konuda, Human Resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlanmaktadır.
+description: Bu konuda, Human resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlanmaktadır.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065053"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717153"
 ---
 # <a name="choose-a-data-integration-technology"></a>Veri tümleştirme teknolojisi seçme
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065053"
 
 
 
-Bu konuda, Dynamics 365 Human Resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlanmaktadır. Gereksinimlerinize en uygun teknolojilere karar vermenize yardımcı olacak farklı tümleştirme teknolojilerini açıklar.
+Bu konuda, Dynamics 365 Human resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlanmaktadır. Gereksinimlerinize en uygun teknolojilere karar vermenize yardımcı olacak farklı tümleştirme teknolojilerini açıklar.
 
 ## <a name="data-integration-background"></a>Veri tümleştirme arka planı
 
@@ -114,7 +113,7 @@ BYOD, bir [Azure Data Factory](/azure/data-factory/) ardışık düzeni için ve
 
 ### <a name="odata-enabled-entities"></a>OData etkin varlıklar
 
-Çoğu DMF varlığı İnsan Kaynakları veri hizmetine (OData) erişimi etkinleştirilmiş durumdadır. [Finans ve Operasyon OData hizmeti](/dynamics365/unified-operations/dev-itpro/data-entities/odata) için sağlanan belgeler, kendi OData tarafından sağlanan varlıklarınızı oluşturmak dışında Human Resources için geçerlidir.
+Çoğu DMF varlığı İnsan Kaynakları veri hizmetine (OData) erişimi etkinleştirilmiş durumdadır. [Finance and Operations OData hizmeti](/dynamics365/unified-operations/dev-itpro/data-entities/odata) için sağlanan belgeler, kendi OData tarafından sağlanan varlıklarınızı oluşturmak dışında Human Resources için geçerlidir.
 
 Dataverse ve Dataverse'in sağladığı OData uygulaması ([Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)) üzerinden), İnsan Kaynakları veri hizmetine tercih edilmekle birlikte, İnsan Kaynakları veri hizmeti şu anda İnsan Kaynakları verileri için daha eksiksiz varlık kapsamına sahiptir.
 
@@ -128,7 +127,7 @@ Excel Eklentisi, iş etki alanı uzmanlarının özel verileri içe/dışa aktar
 
 Dataverse'a veri tümleştirmek veya bu uygulamadan veri tümleştirmek için [Veri Tümleştirme hizmetini](/powerapps/administrator/data-integrator) kullanabilirsiniz . Veri Tümleştirici, tümleştirme projelerini tanımlamak için kullanılabilir (bu projeler genellikle uygulama geliştiricilerinin belirli tümleştirmeler için özel olarak tasarladıkları ön tanımlı şablonlara dayanır). Tümleştirme projelerini yinelenen bir zaman planıyla otomatik olarak veya el ile çalıştırılmak üzere zamanlayabilirsiniz.
 
-Veri Tümleştirici projeleri Dataverse toplu iş tümleştirmeleri için uygundur. Dynamics 365 uygulama ailesi arasındaki Tümleştirmeler için harika bir seçimdir. Örneğin Microsoft, Human Resources'tan alınan verileri Dynamics 365 Finance'a tümleştirmek için kullanılabilen bir Veri Tümleştirici şablonu sağlamaktadır. Şablon hakkında daha fazla bilgiyi [Dynamics 365 Human Resources'tan Dynamics 365 Finance'a tümleştirme](hr-admin-integration-finance.md) bölümünde bulabilirsiniz.
+Veri Tümleştirici projeleri Dataverse toplu iş tümleştirmeleri için uygundur. Dynamics 365 uygulama ailesi arasındaki Tümleştirmeler için harika bir seçimdir. Örneğin Microsoft, Human Resources'tan alınan verileri Dynamics 365 Finance'e tümleştirmek için kullanılabilen bir Veri Tümleştirici şablonu sağlamaktadır. Şablon hakkında daha fazla bilgiyi [Dynamics 365 Human Resources'tan Dynamics 365 Finance'e tümleştirme](hr-admin-integration-finance.md) bölümünde bulabilirsiniz.
 
 ### <a name="power-query"></a>Power Query
 

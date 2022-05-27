@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722779"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716423"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Taranan belgeler için fatura otomasyonu
 
@@ -58,7 +58,7 @@ Veri paketi, fatura başlıklarının, fatura satırlarının ve fatura eklerini
 
 Satıcı fatura belgesi eki bu özelliğin bir parçası olarak sunulan yeni bir veri varlığıdır. Satıcı fatura başlığı varlığı ekleri desteleyecek şekilde değiştirilmiştir. Satıcı fatura satırı varlığı bu özellik için değiştirilmiştir.
 
-Veri paketleri hakkında ayrıntılı bilgi için bkz. [Veri yönetimine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Veri paketlerinin veri yönetimi çalışma alanını kullanılarak nasıl oluşturulacağı hakkında bilgi için bkz. [Dynamics 365 Finance and Operations uygulama çözümünde veri paketlerini işleme ve kullanma](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Veri paketleri hakkında ayrıntılı bilgi için bkz. [Veri yönetimine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Veri paketlerinin veri yönetimi çalışma alanını kullanılarak nasıl oluşturulacağı hakkında bilgi için bkz. [Dynamics 365 Finans ve Operasyon uygulamaları çözümünde veri paketlerini işleme ve kullanma](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Faturaları ve ekleri içeren test verilerini hızla oluşturmak için aşağıdaki adımları izleyin.
 
@@ -142,7 +142,7 @@ Fatura içe aktarma işi için güvenlik yapılandırıldıysa, özel durumlar l
 
 Örneğin, Contoso fatura özel durumlarını tüzel kişiliğe göre işleme kararı verir. Bu nedenle, güvenlik fatura içe aktarma işleminde A tüzel kişiliğindeki kullanıcının yalnızca A tüzel kişiliğindeki fatura özel durumlarını görmesine, B tüzel kişiliğindeki kullanıcının yalnızca B tüzel kişiliğindeki fatura özel durumlarını görmesine izin verecek şekilde yapılandırılır. Bu ayar, fatura özel durumlarının yönetimi için görev ayrımına olanak tanır.
 
-Contoso herhangi bir güvenlik uygulamamaya da karar verebilirdi; bu durumda aynı kullanıcılar tüm tüzel kişiliklere ait fatura özel durumlarıyla işlem yapabilirdi. Bu ayar, fatura özel durumlarının yönetimi için paylaşılan hizmetler senaryosuna olanak tanır.
+Conotoso herhangi bir güvenlik uygulamamaya da karar verebilirdi; bu durumda aynı kullanıcılar tüm tüzel kişiliklere ait fatura özel durumlarıyla işlem yapabilirdi. Bu ayar, fatura özel durumlarının yönetimi için paylaşılan hizmetler senaryosuna olanak tanır.
 
 ## <a name="side-by-side-attachment-viewer"></a>Yan yana ek görüntüleyici
 

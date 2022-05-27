@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d91ef244f8dd48baf65f5633357a7d81a68f84621b20d39d4e0ee771283a2bab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741369"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693486"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler 5 Nisan 2021
 
@@ -72,7 +71,7 @@ Aşağıdaki yeni özellikler önizlemededir. Özellikleri açma hakkında daha 
 | Özellik | Ayrıntılı |
 | --- | --- |
 | Çalışanları için bir yönetici tarafından girilen yetenekler, bir iş akışı tarafından otomatik olarak onaylanabilir | Çok yakında sunulacak. |
-| Platform güncelleştirmesi 10.0.17 (41) | Platform Update 10.0.17, 19 Nisan 2021'deki bir sonraki sürüm ile kullanıma sunulmak üzere zamanlanmıştır. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.17 sürümü için platform güncelleştirmeleri (Nisan 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
+| Platform güncelleştirmesi 10.0.17 (41) | Platform Update 10.0.17, 19 Nisan 2021'deki bir sonraki sürüm ile kullanıma sunulmak üzere zamanlanmıştır. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.17 sürümü için platform güncelleştirmeleri (Nisan 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
 
 Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2021 sürümü 1. Dalga'ya genel bakış](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

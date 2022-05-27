@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441277"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717125"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn Talent Hub ile tümleştirme
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Bu konuda açıklanan Dynamics 365 Human Resources ile LinkedIn Talent Hub arasındaki tümleştirme, 31 Aralık 2021 tarihinde kullanımdan kaldırılacaktır. Tümleştirme hizmeti, bu tarihten sonra artık kullanılamayacaktır. Tümleştirme hizmetini zaten kullanmayan kuruluşlar, kullanımdan kaldırılmadan önce hizmeti uygulayamaz.
+> Bu konuda açıklanan Dynamics 365 Human Resources ile LinkedIn Talent Hub arasındaki tümleştirme, 31 Aralık 2021 tarihinde kullanımdan kaldırıldı. Tümleştirme hizmeti, bu tarihten sonra artık kullanılamayacaktır. Tümleştirme hizmetini zaten kullanmayan kuruluşlar, kullanımdan kaldırılmadan önce hizmeti uygulayamaz.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) bir başvuran izleme sistemi (ATS) platformudur. Tek bir yerden çalışanları bulmanıza, yönetmenize ve işe almanıza olanak tanır. Microsoft Dynamics 365 Human Resources ile LinkedIn Talent Hub'ı tümleştirerek bir pozisyon için işe alınan kişiler için Human Resources'da kolayca çalışan kayıtları oluşturabilirsiniz.
 

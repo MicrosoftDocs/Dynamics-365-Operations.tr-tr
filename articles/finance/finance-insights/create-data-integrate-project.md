@@ -2,7 +2,7 @@
 title: Veri tümleştirme projesi oluşturma
 description: Bu konuda, veri tümleştirme projesinin nasıl oluşturulacağı açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107299"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722898"
 ---
 # <a name="create-a-data-integration-project"></a>Veri tümleştirme projesi oluşturma
 
@@ -55,11 +55,14 @@ Bu konuda, veri tümleştirme projesinin nasıl oluşturulacağı açıklanmakta
 
 5. [Power Apps ortamlarını](https://admin.powerapps.com/environments) açıp şu adımları izleyin:  
 
-    1. Yeni oluşturduğunuz bağlantı kümesini kullanarak aşağıdaki şablonlar için veri tümleştirme projeleri oluşturun:
+    1. Yeni oluşturduğunuz bağlantı kümesini kullanarak aşağıdaki her bir şablon için tek bir veri tümleştirme projesi oluşturun:
 
         - Müşteri ödeme içgörüleri sonucu (CDS-Fin and Ops 10.0.17+)
         - Nakit akışı zaman serisi sonuçları (CDS-Fin and Ops)
         - Bütçe zaman serisi sonuçları (CDS-Fin and Ops)
+
+      > [!NOTE]
+      > Her şablon için birden çok veri tümleştirme projesi oluşturmak, güncelleştirmeleri engelleyen hatalara neden olabilir.
 
     2. Her proje için uygun zamanlamayı ayarlayın.
 

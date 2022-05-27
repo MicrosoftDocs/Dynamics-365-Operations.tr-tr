@@ -2,20 +2,20 @@
 title: Ayrılmış Dual-write Application Orchestration paketi
 description: Dual-write Application Orchestration paketi artık tek bir paket değildir ancak daha küçük paketlere ayrılmıştır. Bu konuda, her bir paketin içerdiği çözümler ve eşlemeler ve paketin diğer paketlere bağımlılığı açıklanmaktadır.
 author: RamaKrishnamoorthy
-ms.date: 11/29/2021
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063274"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716566"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Ayrılmış Dual-write Application Orchestration paketi
 
@@ -26,19 +26,19 @@ ms.locfileid: "8063274"
 Daha önce, Dual-write Application Orchestration paketi aşağıdaki çözümleri içeren tek bir paketti:
 
 - Dynamics 365 Notes
-- Dynamics 365 Finance ve Operations Ortak Bağlayıcısı
-- Dynamics 365 Finance ve Operations Çift Yazma Varlığı Eşlemeleri
+- Dynamics 365 Finance and Operations Ortak Bağlayıcısı
+- Dynamics 365 Finance and Operations Çift Yazma Varlığı Eşlemeleri
 - Dynamics 365 Varlık Yönetimi Uygulaması
 - Dynamics 365 Varlık Yönetimi
 - HCM Ortak
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance ve Operations Ortak
+- Dynamics 365 Finance and Operations Ortak
 - Dynamics 365 Company
 - Döviz Kurları
 - Field Service Common
 
-Tek bir paket olması nedeniyle bu paket, müşteriler için "hep veya hiç" durumu oluşturmuştur. Ancak Microsoft artık bu paketi daha küçük paketlere ayırmıştır. Böylece müşteri, yalnızca gereksinim duyduğu çözümlerin paketlerini seçebilir. Örneğin, Microsoft Dynamics 365 Supply Chain Management müşterisiyseniz ve Dynamics 365 Human Resources, notlar ve varlık yönetimi ile tümleştirmeye gereksinim duymuyorsanız bu çözümleri yüklü çözümlerden hariç tutabilirsiniz. Temeldeki çözüm adları, yayıncı ve eşleme sürümleri aynı kaldığından bu değişiklik hataya neden olmaz. Mevcut yüklemeler yükseltilir.
+Tek bir paket olması nedeniyle bu paket, müşteriler için "hep veya hiç" durumu oluşturmuştur. Ancak Microsoft artık bu paketi daha küçük paketlere ayırmıştır. Böylece müşteriler, yalnızca gereksinim duyduğu çözümlerin paketlerini seçebilir. Örneğin, Microsoft Dynamics 365 Supply Chain Management müşterisiyseniz ve Dynamics 365 Human Resources, notlar ve varlık yönetimi ile tümleştirmeye gereksinim duymuyorsanız bu çözümleri yüklü çözümlerden hariç tutabilirsiniz. Temeldeki çözüm adları, yayıncı ve eşleme sürümleri aynı kaldığından bu değişiklik hataya neden olmaz. Mevcut yüklemeler yükseltilir.
 
 ![Ayrılmış paket.](media/separated-package-1.png)
 
@@ -51,7 +51,7 @@ Dual-write Application Core paketi, kullanıcıların herhangi bir müşteri etk
 | Benzersiz ad                           | Görünen ad                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 Company                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance ve Operations Ortak |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Ortak |
 | CurrencyExchangeRates                 | Döviz Kurları                    |
 | msdyn_DualWriteAppCoreMaps            | Çift yazma uygulamaları çekirdek varlık eşlemeleri   |
 | msdyn_DualWriteAppCoreAnchor          | Çift yazma uygulamaları çekirdek sabit noktası        |
@@ -193,7 +193,7 @@ Dual-write Finance paketi, Dynamics 365 Finance verilerini eşitlemek için gere
 | Dynamics365FinanceExtended             | Dynamics 365 Finance Extended             |
 | msdyn_Dynamics365FinanceExtendedMaps   | Dynamics 365 Finance extended varlık eşlemeleri |
 | FieldServiceCommon                     | Field Service Common                      |
-| msdyn_Dynamics365FinanceExtendedAnchor | Dynamics 365 Finance extended sabit noktası      |
+| msdyn_Dynamics365FinanceExtendedAnchor | Dynamics 365 Finance extended bağlayıcısı      |
 
 Bu pakette aşağıdaki eşlemeler mevcuttur.
 
@@ -247,7 +247,7 @@ Dual-write Notes paketi, not veya ek açıklama verilerini eşitlemek için gere
 
 Bu pakette aşağıdaki eşlemeler mevcuttur.
 
-| Finans ve Operasyon                     | Customer Engagement |
+| Finance and Operations                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Satış siparişi başlığı belge ekleri    | ek açıklamalar         |
 | Müşteri ekleri                       | ek açıklamalar         |
@@ -300,3 +300,47 @@ Project Operations aşağıdaki paketlere bağlıdır. Bu nedenle, Project Opera
 - Dual-write Supply Chain paketi
 - Dual-write Asset Management paketi
 - Dual-write Human Resources paketi
+
+## <a name="dual-write-party-and-global-address-book-solutions"></a>Çift yazma taraf ve genel adres defteri çözümleri
+
+Çift yazma taraf ve genel adres defteri paketi, taraf ve genel adres defteri verilerini eşitlemek için gerekli olan aşağıdaki çözümleri ve eşlemeleri içerir. 
+
+| Benzersiz ad                       | Görünen ad                            |
+|-----------------------------------|-----------------------------------------|
+| Taraf                             | Taraf                                   |
+| Dynamics365GABExtended            | Dynamics 365 GAB Extended               |
+| Dynamics365GABDualWriteEntityMaps | Dynamics 365 GAB Çift Yazma Varlık Eşlemeleri |
+| Dynamics365GABParty_Anchor        | Dynamics 365 GAB ve Taraf              |
+
+Bu pakette aşağıdaki eşlemeler mevcuttur.
+
+| Finans ve Operasyon uygulamaları | Müşteri etkileşimi uygulamaları | 
+|-----------------------------|--------------------------|
+| CDS Tarafları | msdyn_parties | 
+| CDS posta adresi yerleşimleri | msdyn_postaladdresscollections | 
+| CDS posta adresi geçmişi V2 | msdyn_postaladdresses | 
+| CDS Taraf posta adresi yerleşimleri | msdyn_partypostaladdresses | 
+| Taraf ilgili kişileri V3 | msdyn_partyelectronicaddresses | 
+| Müşteriler V3 | hesaplar | 
+| Müşteriler V3 | ilgili kişiler | 
+| Satıcılar V2 | msdyn_vendors | 
+| İlgili kişi unvanları | msdyn_salescontactpersontitles | 
+| Kapanış sözleri | msdyn_complimentaryclosings | 
+| Selamlamalar | msdyn_salutations | 
+| Karar verici roller | msdyn_decisionmakingroles | 
+| İstihdam iş görevleri | msdyn_employmentjobfunctions | 
+| Bağlılık programı düzeyleri | msdyn_loyaltylevels | 
+| Kişisel karakter türleri | msdyn_personalcharactertypes | 
+| İlgili Kişiler V2 | msdyn_contactforparties | 
+| CDS satış teklifi başlığı | teklifler | 
+| CDS satış siparişi başlıkları | salesorders | 
+| Satış faturası başlıkları V2 | faturalar | 
+| CDS Adresi rolleri | msdyn_addressroles |
+
+**Bağımlılık bilgileri**
+
+Çift yazma taraf ve genel adres defteri çözümleri aşağıdaki üç pakete bağlıdır. Bu nedenle, çift yazma taraf ve genel adres defteri çözümleri paketini yüklemeden önce bu paketleri yüklemeniz gerekir.
+
+- Dual-write Application Core paketi
+- Dual-write Finance paketi
+- Dual-write Supply Chain paketi

@@ -2,7 +2,7 @@
 title: Commerce'ta B2C kiracısı ayarlama
 description: Bu konu, Dynamics 365 Commerce'ta kullanıcı sitesi kimlik doğrulaması için Azure Active Directory (Azure AD) işletme-müşteri arası (B2C) kiracılarınızın nasıl kurulacağını açıklamaktadır.
 author: BrianShook
-ms.date: 02/11/2022
+ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109901"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714324"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -137,9 +137,9 @@ Azure AD tarafından sağlanan varsayılan kullanıcı akışlarını kullanmay�
 
 Kullanıcı ilkesi sayfalarını Dynamics 365 Commerce'te oluşturulan sayfalarla özelleştirmek için bkz. [Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md). Ek bilgi için bkz. [Azure Active Directory B2C'de kullanıcı arabirimi deneyimlerini özelleştirme](/azure/active-directory-b2c/tutorial-customize-ui).
 
-### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Kullanıcı akış ilkesinde kaydolma ve oturum açma oluşturma
+### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Kaydolma ve oturum açma kullanıcı akış ilkesi oluşturma
 
-Kullanıcı akışı ilkesinde kaydolma ve oturum açma oluşturmak için aşağıdaki adımları izleyin.
+Kaydolma ve oturum açma kullanıcı akış ilkesi oluşturmak için aşağıdaki adımları izleyin.
 
 1. Azure portalında, sol gezinti bölmesinde **Kullanıcı akışları (ilkeler)** öğesini seçin.
 1. **Azure AD B2C - Kullanıcı akışları (ilkeler)** sayfasında, **Yeni Kullanıcı Akışı**'nı seçin.
@@ -159,7 +159,7 @@ Kullanıcı akışı ilkesinde kaydolma ve oturum açma oluşturmak için aşağ
 
 1. **Oluştur**'u seçin.
 
-Aşağıdaki resim, kullanıcı akışında Azure AD B2C kayıt olma ve oturum açmayla ilgili bir örnektir.
+Aşağıdaki resim, Azure AD B2C kaydolma ve oturum açma kullanıcı akışıyla ilgili bir örnektir.
 
 ![Kayıt Olma ve Oturum Açma ilke ayarları.](./media/B2CImage_11.png)
 
@@ -245,7 +245,7 @@ Bir sosyal kimlik sağlayıcısı eklemek ve ayarlamak için aşağıdaki adıml
 1. **Sosyal kimlik sağlayıcı ayarla** ekranına erişmek için **Bu kimlik sağlayıcıyı ayarla**'yı seçin.
 1. **İstemci Kimliği** altında, kimlik sağlayıcı uygulaması kurulumundan elde edilen istemci kimliğini girin.
 1. **İstemci gizli anahtarı** altında, kimlik sağlayıcı uygulaması kurulumundan elde edilen istemci gizli anahtarını girin.
-1. Kaydolma oturum açma ilkeleri için kullanıcı akışı ekleme:
+1. Oturum açma/kaydolma ilkeleri için kullanıcı akışı ekleme:
 1. **Azure AD B2C – Kullanıcı akışları (ilkeler) \> {oturum açma kayıt olma ilkeniz} \> Kimlik sağlayıcılar**'a gidin.
 1. Oturum aç/kaydol kullanıcı akışı ilkesini eklemek için, hesabınız için ayarladığınız her bir kimlik sağlayıcısını seçin. Bunları test etmek amacıyla her bir kimlik sağlayıcısı için **Kullanıcı akışını çalıştır**'ı seçin. Yeni bir sekme, yeni kimlik sağlayıcı seçim kutusunu görüntüleyen oturum açma sayfasını görüntüleyecektir.
 
@@ -332,27 +332,28 @@ Azure AD B2C kiracısı uygulama bilgilerinizi Commerce'a eklemek için aşağı
 
 1. Ortamınız için Commerce site oluşturucuda yönetici olarak oturum açın.
 1. Sol gezinti bölmesinde, genişletmek için **Kiracı Ayarları**'nı seçin.
-1. **Kiracı Ayarları** altında **B2C Ayarları**'nı seçin. 
-1. Ana pencerede **B2C Uygulamaları**'nın yanındaki **Yönet** öğesini seçin. (Kiracınız B2C Uygulamaları listesinde görüntüleniyorsa, daha önce bir yönetici tarafından eklenmiş demektir. Aşağıdaki adım 6'da belirtilen öğelerin B2C Uygulamanız ile eşleştiğini doğrulayın.)
-1. **B2C Uygulaması Ekle**'yi seçin.
+1. **Kiracı Ayarları** altında, **Site kimlik doğrulama kurulumu**'nu seçin. 
+1. **Site kimlik doğrulama profilleri**'nin yanındaki ana pencerede **Yönet**'i seçin. (Kiracınız site kimlik doğrulama profilleri listesinde görüntüleniyorsa, daha önce bir yönetici tarafından eklenmiş demektir. Aşağıdaki adım 6'da belirtilen öğelerin hedef B2C kurulumunuzun öğeleriyle eşleştiğini doğrulayın. Farklı kullanıcı ilke kimlikleri gibi küçük farklılıkları dikkate almak için benzer Azure AD B2C kiracıları veya uygulamaları kullanılarak da yeni bir profil oluşturulabilir.)
+1. **Site kimlik doğrulama profili ekle**'yi seçin.
 1. B2C kiracısı ve uygulamanızın değerlerini kullanarak, aşağıdaki gerekli maddeleri görüntülenen forma girin. Gerekli olmayan alanlar (yıldız işareti olmayan alanlar) boş bırakılabilir.
 
     - **Uygulama Adı**: B2C Uygulamanızın adı, örneğin "Fabrikam B2C".
     - **Kiracı Adı**: B2C kiracısı adı (örneğin, etki alanı B2C kiracısı için "fabrikam.onmicrosoft.com" olarak görünüyorsa "Fabrikam" kullanın). 
     - **Parola Unutma İlkesi Kimliği**: Parolayı unutma kullanıcı akışı ilke kimliği, örneğin "B2C_1_PasswordReset".
-    - **Kaydolma Oturum Açma İlkesi Kimliği**: Kullanıcı akış ilkesi kayıt olma ve oturum açma kimliği, örneğin "B2C_1_signup_signin".
+    - **Kaydolma Oturum Açma İlkesi Kimliği**: Kaydolma ve oturum açma kullanıcı akış ilkesi kimliği, örneğin "B2C_1_signup_signin".
     - **İstemci GUID'i**: B2C uygulama kimliği, örneğin "22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6".
     - **Profil Düzenle İlkesi Kimliği**: Profil düzenleme kullanıcı akışı ilkesi kimliği, örneğin "B2C_1A_ProfileEdit".
 
 1. **Tamam**'ı seçin. Şimdi, B2C uygulamanızın adının listede yer aldığını görmeniz gerekir.
 1. Değişikliklerinizi kaydetmek için **Kaydet**'i seçin.
 
+İsteğe bağlı **Oturum açma özel etki alanı** alanı yalnızca, Azure AD B2C kiracısı için özel bir etki alanı ayarlıyorsanız kullanılmalıdır. **Oturum açma özel etki alanı** alanının kullanımıyla ilgili ek bilgiler ve değerlendirmeler için aşağıdaki [Ek B2C bilgilerine](#additional-b2c-information) bakın.
+
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>B2C uygulamasını sitenizle ve kanalınızla ilişkilendirme
 
 > [!WARNING]
-> Siteniz zaten bir B2C uygulamasıyla ilişkilendirilmişse, farklı bir B2C uygulamasına geçmek, bu ortamda zaten kaydolan kullanıcılar için kurulmuş olan geçerli referansları kaldırır. Değiştirilmesi durumunda, geçerli olarak atanmış olan B2C uygulamasıyla ilişkilendirilmiş kimlik bilgileri kullanıcılar tarafından kullanılamaz. 
-> 
-> Yalnızca kanalın B2C uygulamasını ilk kez ayarlıyorsanız veya kullanıcıların yeni B2C uygulamasıyla bu kanala yönelik yeni kimlik bilgileriyle yeniden kaydolmasını istiyorsanız, B2C uygulamasını güncelleştirin. Kanalları B2C uygulamalarıyla ilişkilendirilirken dikkatli olun ve uygulamaları açık şekilde adlandırın. Bir kanal aşağıdaki adımlarda bir B2C uygulamasıyla ilişkilendirilmezse, siteniz için o kanalda oturum açan kullanıcılar, B2C uygulamalarının **Kiracı \> B2C Ayarları** listesinde **varsayılan** olarak gösterilen B2C uygulamasına girecektir.
+> - Siteniz zaten bir B2C uygulamasıyla ilişkilendirilmişse, farklı bir B2C uygulamasına geçmek, bu ortamda zaten kaydolan kullanıcılar için kurulmuş olan geçerli referansları kaldırır. Değiştirilmesi durumunda, geçerli olarak atanmış olan B2C uygulamasıyla ilişkilendirilmiş kimlik bilgileri kullanıcılar tarafından kullanılamaz. 
+> - Yalnızca kanalın B2C uygulamasını ilk kez ayarlıyorsanız veya kullanıcıların yeni B2C uygulamasıyla bu kanala yönelik yeni kimlik bilgileriyle yeniden kaydolmasını istiyorsanız, B2C uygulamasını güncelleştirin. Kanalları B2C uygulamalarıyla ilişkilendirilirken dikkatli olun ve uygulamaları açık şekilde adlandırın. Bir kanal aşağıdaki adımlarda bir B2C uygulamasıyla ilişkilendirilmezse, siteniz için o kanalda oturum açan kullanıcılar, B2C uygulamalarının **Kiracı \> B2C Ayarları** listesinde **varsayılan** olarak gösterilen B2C uygulamasına girecektir.
 
 B2C uygulamasını sitenizle ve kanalınızla ilişkilendirmek için şu adımları izleyin.
 
@@ -378,6 +379,23 @@ Azure AD B2C etkileşimlerini ve ilke akışlarını standart B2C ilkeleriyle su
 ### <a name="secondary-admin"></a>İkincil yönetici
 
 B2C kiracınızın **Kullanıcılar** bölümünde isteğe bağlı, ikincil bir yönetici hesabı eklenebilir. Bu doğrudan bir hesap veya genel bir hesap olabilir. Bir hesabı ekip kaynakları arasında paylaşmanız gerekirse, ortak hesap da oluşturulabilir. Azure AD B2C'de depolanan verilerin hassasiyeti nedeniyle, ortak hesabın şirketinizin güvenlik uygulamalarıyla yakından izlenmesi gerekir.
+
+### <a name="set-up-a-custom-sign-in-domain"></a>Özel oturum açma etki alanı ayarlama
+
+Azure AD B2C, Azure AD B2C kiracısı için özel oturum açma etki alanı kurmanıza olanak sağlar. Yönergeler için bkz. [Azure Active Directory B2C için özel etki alanlarını etkinleştirme](/azure/active-directory-b2c/custom-domain). 
+
+Özel oturum açma etki alanı kullanırsanız, etki alanının Commerce site oluşturucuda girilmesi gerekir.
+
+Site oluşturucuda özel bir oturum açma etki alanı girmek için, aşağıdaki adımları izleyin.
+
+1. Site oluşturucunun sağ üst köşesinde site değiştiriciyi seçin ve sonra **Siteleri yönet**'i seçin.
+1. Sol gezinti bölmesinde, **Kiracı ayarları \> Site kimlik doğrulama kurulumu**'nu seçin.
+1. **Site kimlik doğrulama profilleri** bölümünde **Yönet**'i seçin.
+1. Sağdaki açılır menüde, özel etki alanı girmek istediğiniz site kimlik doğrulama profilinin yanındaki **Düzenle** düğmesini (kurşun kalem simgesi) seçin.
+1. **Site kimlik doğrulama profilini düzenle** iletişim kutusunda, **Oturum açma özel etki alanı** altında, özel oturum açma etki alanınızı (örneğin, 'login.fabrikam.com') girin.
+
+> [!WARNING]
+> Azure AD B2C kiracısı için özel bir etki alanına güncelleştirdiğinizde, bu değişiklik kiracının ürettiği belirtecin veren ayrıntılarını etkiler. Böylece, veren ayrıntıları, Azure AD B2C tarafından sağlanan varsayılan etki alanı yerine özel etki alanını içerecektir. Commerce Headquarters'daki farklı bir **Veren** yapılandırması (**Retail ve Commerce \> Headquarters kurulumu \> Parametreler \> Commerce paylaşılan parametreleri \> Kimlik Sağlayıcıları**), sistemin site kullanıcılarıyla etkileşimini değiştirir ve bir kullanıcı yeni verenle kimlik doğrulaması yapıyorsa yeni bir müşteri kaydı oluşturulmasına neden olabilir. Tüm özel etki alanı değişiklikleri, canlı bir Azure AD B2C ortamında özel etki alanına geçmeden önce kapsamlı olarak test edilmelidir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

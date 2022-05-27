@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344070"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722506"
 ---
 # <a name="one-voucher"></a>Bir fiş
 
@@ -72,7 +72,7 @@ Bir fiş kullanıldığında oluşabilecek sorunlar nedeniyle, bu işlevsellik k
 
 Tüm işlevsel boşluklar doldurulduktan sonra, Microsoft özelliğin kullanımdan kaldırılacağını bildirecektir. Ancak, kullanım dışı bırakma işlemi ilgili iletişimin ardından en az bir yıl için etkili olmayacaktır. Microsoft, Bir fiş işlevinin ne zaman kullanımdan kaldırılacağı hakkında bir tahminde bulunamasa da, kullanımdan kaldırmaya en az iki yıl vardır. Microsoft'un ilkesi, kullanım dışı bırakılan işlevlerin duyurusu ile kullanım dışı bırakma işlemi arasında en az 12 ay süre bırakmaktır; böylece müşteriler ve bağımsız yazılım satıcıları (ISV) değişikliğe hazırlanmak için yeterli zamana sahip olur. Örneğin, bir kuruluşun iş süreçleri, varlık ve tümleştirmelerini güncelleştirmesi gerekebilir.
 
-Bir fiş'in kullanım dışı bırakılması, kapsamlı bir şekilde iletilen önemli bir değişikliktir. Bu iletişim kapsamında, Microsoft bu konuyu güncelleştirir, Microsoft Dynamics 365 Finance bloguna bir blog gönderisi gönderir, "Kaldırılmış veya kullanım dışı özellikler" konusunu güncelleştirir, değişiklikleri uygun Microsoft konferanslarda yeniden iletir.
+Bir fiş'in kullanım dışı bırakılması, kapsamlı bir şekilde iletilen önemli bir değişikliktir. Bu iletişim kapsamında Microsoft, bu konuyu güncelleştirir, Microsoft Dynamics 365 Finance bloguna bir blog gönderisi gönderir, "Kaldırılmış veya kullanım dışı özellikler" konusunu güncelleştirir, değişiklikleri ilgili Microsoft konferanslarında açıklar ve benzer eylemlerde bulunur.
 
 ## <a name="why-use-one-voucher"></a>Bir fiş neden kullanılır?
 

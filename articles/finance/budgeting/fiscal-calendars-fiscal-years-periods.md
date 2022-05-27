@@ -1,6 +1,6 @@
 ---
 title: Mali takvimler, mali yıllar ve dönemler
-description: Bu makalede, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
+description: Bu konuda, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 25851
 ms.assetid: a968a5e5-585e-4389-aa4e-c885a7e23413
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87d06e9de2e4e360e92ed350dbad6350744e69ed79a30d2956ab598fdc8a9821
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734574"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717404"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Mali takvimler, mali yıllar ve dönemler
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
+Bu konuda, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
 
 Mali takvimler bir kuruluşun finansal faaliyeti için bir çerçeve sağlar. Her mali yıl takvimi bir veya birden çok mali yıl içerir ve her bir mali yıl, birden fazla dönem içerir. Mali takvimler 1 Ocak ile 31 Aralık takvim yılına veya seçtiğiniz herhangi bir tarih aralığına dayalı olabilir. Örneğin, bazı kuruluşlar bir yılın 1 Temmuz'unda başlayan ve sonraki yılın 30 Haziran'ına kadar süren bir mali takvimi seçerler. 
 

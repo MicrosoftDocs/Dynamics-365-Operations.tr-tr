@@ -9,24 +9,23 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 976a90b1a04a5bba91d73712d4d38a8c9038d885
-ms.sourcegitcommit: 6fd739976b46122f9a9002309aba60edb89e5468
+ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8453496"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694270"
 ---
 # <a name="tax-calculation-data-model"></a>Vergi hesaplama veri modeli
 
 Bu konuda, vergi veri modelinde alan değerlerinin vergi hesaplama hareketlerinde nasıl belirlendiği hakkında bilgi sağlanmaktadır.
 
-*Vergi veri modeli*, vergi hesaplamaları için gerekli alanlardan oluşur. Microsoft, *vergi hesaplama veri modeli* sağlar ve bu, Finance ve Operations uygulamalarında hareket belgelerinin üst bilgi alanlarını ve satır alanlarını içerir. Vergi hesaplama veri modelinde tanımlanan alanlar, vergi hesaplama özelliği yapılandırmasında uygulanabilirlik kural tablolarının kullanılabilir sütunlarıdır.
+*Vergi veri modeli*, vergi hesaplamaları için gerekli alanlardan oluşur. Microsoft, *vergi hesaplama veri modeli* sağlar ve bu, Finans ve Operasyon uygulamalarında hareket belgelerinin üst bilgi alanlarını ve satır alanlarını içerir. Vergi hesaplama veri modelinde tanımlanan alanlar, vergi hesaplama özelliği yapılandırmasında uygulanabilirlik kural tablolarının kullanılabilir sütunlarıdır.
 
 > [!NOTE] 
 > Veri modelinde tanımlanan **Kayıt Kimliği** ve **Tablo Kimliği** gibi bazı düğümler, teknik amaçlara yöneliktir. Bunlar, vergi hesaplama özelliği yapılandırmasında kullanılabilir sütunlar değildir.
@@ -55,7 +54,7 @@ Uygulanabilirlik kuralları tablosunda ayrıca vergi hesaplama veri modelini ve 
 
     [![Sütunları yönet.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Vergi hesaplama veri modeli, Finance ve Operations uygulamalarıyla tümleşiktir. Vergi hesaplamayla ilgili her hareket sırasında, uygulanabilirlik kuralları tablolarında tanımlanan alanların değerleri toplanır ve hesaplama için vergi hesaplama hizmetine gönderilir. Sürüm 40.46'da, şu hareket türleri için 57 adet önceden tanımlanmış veri modeli kullanılabilir: satın alma siparişleri, satış siparişleri, transfer emirleri, satın alma talepleri, teklif talepleri ve satış teklifleri.
+Vergi hesaplama veri modeli, Finans ve Operasyon uygulamalarıyla tümleşiktir. Vergi hesaplamayla ilgili her hareket sırasında, uygulanabilirlik kuralları tablolarında tanımlanan alanların değerleri toplanır ve hesaplama için vergi hesaplama hizmetine gönderilir. Sürüm 40.46'da, şu hareket türleri için 57 adet önceden tanımlanmış veri modeli kullanılabilir: satın alma siparişleri, satış siparişleri, transfer emirleri, satın alma talepleri, teklif talepleri ve satış teklifleri.
 
 ## <a name="version-updates-and-restrictions"></a>Sürüm güncelleştirmeleri ve sınırlamaları
 

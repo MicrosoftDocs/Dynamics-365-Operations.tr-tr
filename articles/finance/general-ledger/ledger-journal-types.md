@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727033"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722283"
 ---
 # <a name="ledger-journal-types"></a>Genel muhasebe günlük türleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Dynamics 365 Finance'da kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
+Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Dynamics 365 Finance'te kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
 
-| Günlük türü:                      | Amaç                       | Bu sayfada hareketleri girin                                |
+| Günlük türü                      | Amaç                       | Bu sayfada hareketleri girin                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
 | Tahsisat                        | Bir tahsisat günlüğünde tahsisat hareketleri oluşturun. Bir tahsisat günlüğü oluşturmadan önce, **Genel muhasebe tahsisat kuralı** sayfasında tahsisat kuralı oluşturmalısınız.      | Tahsisat talebini işleme koy             |
 | Onay                          | Onaylanan satıcı faturalarını uygun genel muhasebe hesaplarına nakledin.  | Fatura onay günlüğü                                       |

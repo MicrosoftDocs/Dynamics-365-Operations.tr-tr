@@ -1,6 +1,6 @@
 ---
 title: Genel defter hesap bakiyeleri
-description: Bu makalede, genel muhasebe hesabı bakiyelerini görüntülemek için kullanılan iki yöntem açıklanmaktadır -  Mizan listesi sayfası ve mali raporlar. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır.
+description: Bu konuda, genel muhasebe hesabı bakiyelerini görüntülemek için kullanılan iki yöntem açıklanmaktadır - Mizan listesi sayfası ve mali raporlar.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 13191
 ms.assetid: ea3650ac-34a0-4516-b75b-801c2164107d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3c1f3832d5e50a709b3032c379298eb32b81649c1c15b5cc426aa5d3afb2ac6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8470929b6805ddf9b85bd03e3043c2953d5fcfd1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748198"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716451"
 ---
 # <a name="general-ledger-account-balances"></a>Genel defter hesap bakiyeleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, genel muhasebe hesabı bakiyelerini görüntülemek için kullanılan iki yöntem açıklanmaktadır -  Mizan listesi sayfası ve mali raporlar. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır.
+Bu konuda, genel muhasebe hesabı bakiyelerini görüntülemek için kullanılan iki yöntem açıklanmaktadır - Mizan listesi sayfası ve mali raporlar. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır.
 
 Kullanıcıların genel defterdeki bakiyeleri görebilmesi için çeşitli yöntemler mevcuttur. En yaygın kullanılan seçeneklerden bazıları şunlardır:
 

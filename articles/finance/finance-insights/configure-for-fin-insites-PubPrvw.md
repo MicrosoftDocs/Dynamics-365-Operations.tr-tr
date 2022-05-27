@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 ROBOTS: noindex,nofollow
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061766"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711618"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finance Insights için Yapılandırma - 10.0.20 sürümü ve sonrası
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061766"
 
 
 
-Finance Insights, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konu, Finance Insights sürüm 10.0.20 ve sonrasında bulunan özellikleri sisteminizin kullanabilmesi için Dynamics 365 Finance sürüm 10.0.20'yi yapılandırma yöntemini açıklamaktadır.
+Finance Insights, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konu, genel önizleme için Finance Insights sürüm 10.0.20 ve sonrasında bulunan özellikleri sisteminizin kullanabilmesi için Dynamics 365 Finance sürüm 10.0.20'yi yapılandırma yöntemini açıklamaktadır.
 
 > [!NOTE]
 > Bu konuda açıklanan yapılandırma adımları yalnızca Finance sürüm 10.0.20 ve sonrası için geçerlidir. Finance Insights'ı sürüm 10.0.19 ve öncesinde ayarlamak için bkz. [Sürüm 10.0.19'e kadar Finance Insights yapılandırmaları](configure-for-fin-insites.md).
@@ -38,7 +38,7 @@ Finance Insights, kuruluşunuza güçlü tahmin araçları sunmak için Microsof
 
 Ortamları dağıtmak için aşağıdaki adımları uygulayın.
 
-1. Microsoft Dynamics Lifecycle Services'da (LCS), bir Finance ortamı oluşturun veya güncelleştirin. Ortam, Finance ve Operations uygulamalarının uygulama sürüm 10.0.20 veya daha yeni bir sürümünü gerektirir.
+1. Microsoft Dynamics Lifecycle Services'da (LCS), bir Finance ortamı oluşturun veya güncelleştirin. Ortam, Finans ve Operasyon uygulamalarının uygulama sürüm 10.0.20 veya daha yeni bir sürümünü gerektirir.
 2. Ortam, Korumalı Alan içinde yüksek kullanılabilirlik (HA) ortamı olmalıdır. (Bu ortam türü aynı zamanda Katman 2 ortamı olarak da bilinir.) Daha fazla bilgi için bkz. [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Finance Insights'ı bir korumalı alanda yapılandırıyorsanız tahminlerin çalışması için üretim verilerini ilgili ortama kopyalamanız gerekebilir. Tahmin modeli, tahminleri oluşturmak için birkaç senelik verileri kullanır. Contoso demo verileri, tahmin modelini yeterince geliştirmek için yeterli tarihsel veri içermez. 
 
@@ -126,7 +126,7 @@ Azure'yi yapılandırmak için Windows PowerShell betik dosyasını kullanmayla 
         - **Performans**: **Standart** seçeneğini belirlemenizi öneririz.
         - **Hesap türü**: **StorageV2**'yi seçmelisiniz.
 
-    3. **Gelişmiş seçenekler** iletişim kutusunda **Data Lake Storage 2. Nesil** seçeneği için **Hiyerarşik ad alanları** bölümünde **Etkinleştir**'i seçin. Bu özelliği etkinleştirmezseniz Power BI veri akışları gibi hizmetleri kullanarak, Finance ve Operations uygulamalarının yazdığı verileri kullanamazsınız.
+    3. **Gelişmiş seçenekler** iletişim kutusunda **Data Lake Storage 2. Nesil** seçeneği için **Hiyerarşik ad alanları** bölümünde **Etkinleştir**'i seçin. Bu özelliği etkinleştirmezseniz Power BI veri akışları gibi hizmetleri kullanarak, Finans ve Operasyon uygulamalarının yazdığı verileri kullanamazsınız.
     4. **İncele ve oluştur**'u seçin. Dağıtım tamamlandığında, yeni kaynak Azure portalında gösterilir.
     5. Oluşturduğunuz depolama hesabına gidin.
     6. Sol menüde **Erişim anahtarları**'nı seçin.

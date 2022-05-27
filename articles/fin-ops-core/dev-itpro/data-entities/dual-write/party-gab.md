@@ -2,19 +2,19 @@
 title: Taraf ve genel adres defteri
 description: Bu konu, Çift yazmanın taraf ve genel adres defteri işlevlerini açıklamaktadır.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407777"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717460"
 ---
 # <a name="party-and-global-address-book"></a>Taraf ve genel adres defteri
 
@@ -139,7 +139,7 @@ Izgara aşağıdaki sütunları içerir:
 
 İstediğiniz sayıda adresi oluşturmak için ızgaranın üzerindeki **Yeni Elektronik Adres** düğmesini kullanabilirsiniz.
 
-Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürümlerde, tüm posta adresi ve elektronik adres alanları, **Özet** ve **Ayrıntılar** sekmelerinde olduğu gibi diğer sekmelerden de kaldırılacaktır. **Ayrıntılar** sekmesinde görüntülenen ilgili kişi ayrıntıları birincil telefon, birincil e-posta, birincil telefon, birincil faks ve birincil Twitter kimliği gibi birincil elektronik adresin salt okunur kopyalarıdır. Müşteri adayı uygunluk işlemi sırasında hem iş telefonu numarası hem de cep telefonu numarası sağlayabilirsiniz. **IsMobile=No** ise iş telefonu numarası birincil telefon; **IsMobile=Yes** ise cep telefonu numarası ikincil telefon olarak kabul edilir.
+Müşteri adayı uygunluk işlemi sırasında hem iş telefonu numarası hem de cep telefonu numarası sağlayabilirsiniz. **IsMobile=No** ise iş telefonu numarası birincil telefon numarası; **IsMobile=Yes** ise cep telefonu numarası ikincil telefon numarası olarak kabul edilir.
 
 > [!TIP]
 > Posta adreslerini ve elektronik adresleri yönetmek için **Hesap** ve **İlgili Kişi** formlarındaki **Adresler** ve **Elektronik Adresler** sekmelerini kullanın. Bu, adres verilerinin finans ve operasyon uygulamalarıyla eşitlenmesini sağlar.
@@ -148,7 +148,7 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
 
 1. Customer Engagement uygulama ortamınızı açın.
 
-2. [Çift yazma uygulama düzenleme çözümünün](https://aka.ms/dual-write-app) en güncel sürümünü (2.2.2.60 veya daha sonrası) yükleyin.
+2. [Ayrılmış Dual-write Application Orchestration paketinde](separated-solutions.md) açıklandığı gibi, tüm önkoşul çözümlerini yükleyin.
 
 3. [Çift Yazma Taraf ve Genel Adres Defteri Çözümleri](https://aka.ms/dual-write-gab)'ni yükleyin.
 
@@ -165,8 +165,8 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
 
     Eşleme | Bu sürüme Güncelleştir | Değişiklikler
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `Customers V3 (accounts)` | 1.0.0.5 |`PartyNumber` ve taraflarla ilgili ad, kişisel ayrıntılar, posta adresi alanları ve elektronik ilgili kişi adresi alanları gibi alanlar kaldırıldı.
     `Customer V3 (contacts)` | 1.0.0.5 | `PartyNumber` ve taraflarla ilgili ad, kişisel ayrıntılar, posta adresi alanları ve elektronik ilgili kişi adresi alanları gibi alanlar kaldırıldı.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | `PartyNumber` ve taraflarla ilgili ad, kişisel ayrıntılar, posta adresi alanları ve elektronik ilgili kişi adresi alanları gibi alanlar kaldırıldı.
@@ -174,16 +174,17 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | İlgili kişi, `ContactforParty` referansı ile değiştirildi.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | İlgili kişi, `ContactforParty` referansı ile değiştirildi.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
 
 8. Yukarıdaki eşlemeleri çalıştırmadan önce, aşağıdaki adımlarda açıklandığı şekilde tümleştirme anahtarlarını el ile güncelleştirmeniz gerekir. Sonra **Kaydet**'i seçin.
 
@@ -251,14 +252,15 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
     [CDS satış teklifi başlığı](mapping-reference.md#215) | teklifler
     [CDS satış siparişi başlıkları](mapping-reference.md#217) | salesorders
     [Satış faturası başlıkları V2](mapping-reference.md#118) | faturalar
+    [CDS Adresi rolleri](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
-> `CDS Contacts V2 (contacts)` eşleme, 1. adımda durdurduğunuz eşlemedir. Başka eşlemeler çalıştırmayı denediğinizde, bu 2 eşleme bağlılar listesinde görüntülenebilir. Bu eşlemeleri çalıştırmayın.
+> `CDS Contacts V2 (contacts)` eşlemesi, 1. adımda durdurduğunuz eşlemedir. Başka eşlemeler çalıştırmayı denediğinizde, bu 2 eşleme bağlılar listesinde görüntülenebilir. Bu eşlemeleri çalıştırmayın.
 >
 > Taraf ve genel adres defteri çözümü yüklüyse, `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` adlı eklentiyi devre dışı bırakmanız gerekir. Taraf ve genel adres defteri çözümünü kaldırdıysanız eklentiyi yeniden etkinleştirmeniz gerekir.
 >
 > **Firma**, **İlgili kişi** ve **Satıcı** tablolarına dahil edilen `msdyn_*partynumber` alanı (tek satırlık metin alanı) bundan sonra kullanılmamalıdır. Etiket adında açıklık adına **(Kullanım dışı)** ön eki bulunmaktadır. Bunun yerine, **msdyn_partyid** alanını kullanın. Alan, **msdyn_party** tablosunda arama yapar.
-
+>
 > Tablo Adı | Eski alan | Yeni alan
 > --------|-------|--------
 > Hesap | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Tablo eşlemeleri koleksiyonu, aşağıdaki tabloda gösterildiği gibi taraf ve
 | [Satış faturası başlıkları V2](mapping-reference.md#118) | faturalar |
 | [Selamlamalar](mapping-reference.md#228) | msdyn\_salutations |
 | [Satıcılar V2](mapping-reference.md#202) | msdyn\_vendors |
+| [CDS Adresi rolleri](mapping-reference.md#301) |msdyn\_addressroles|
 
 Daha fazla bilgi için, bkz. [Çift yazma eşleme başvurusu](mapping-reference.md).
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Çoklu seçim açılan listesi olarak adres rolleri
+Posta adresi veya elektronik adres birden çok amaca hizmet edebilir. Örneğin, bir posta adresi hem faturalama adresi hem de teslimat adresi olarak hizmet verebilir. Bu gibi durumlarda, bir kullanıcı aşağıdaki çizimde gösterildiği gibi, açılan listeden hem **Fatura** hem de **Teslimat**'ı seçebilir. 
+
+![Amaç/Rol açılan listesi.](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 
 + Finans ve operasyon uygulamalarında, adresle birlikte bir müşteri oluşturup kaydettiğinizde, adres **Adres** tablosuyla eşitlenmeyebilir. Bu, çift yazma platformunun sıralama sorunundan kaynaklanır. Geçici çözüm olarak, önce müşteriyi oluşturun ve kaydedin. Sonra adresi ekleyin.
 + Finans ve operasyon uygulamalarında, bir müşteri kaydının birincil adresi olduğunda ve bu müşteri için yeni bir ilgili kişi oluşturduğunuzda, ilgili kişi kaydı ilişkili müşteri kaydından bir birincil adres devralır. Bu, satıcı ilgili kişisi için de gerçekleşir. Dataverse şu anda bu davranışı desteklemiyor. Çift yazma etkinleştirilirse, finans ve operasyon uygulamasından birincil adresle devralınan müşteri ilgili kişileri, adresiyle birlikte Dataverse'e eşitlenir.
-+ **Firma**, **İlgili kişi** ve **Satıcı** formlarının elektronik adres sekmesinde belirlenen elektronik adresler `msdyn_partyelectronicaddress` tablosundan geliyor. Bu bilgiler satış siparişi, teklif ve satınalma siparişi gibi ilişkili hareketlerine akmıyor. Bu sorunu artımlı bir sürümde düzeltmeyi planlıyoruz. Firma ve ilgili kişi kayıtlarındaki elektronik adres alanlarında bulunan veriler; satış siparişi, teklif ve satınalma siparişi gibi hareketler üzerinde çalışmaya devam eder.
 + Finans ve operasyon uygulamalarında, **İlgili Kişi Ekle** formundan bir kişi kaydı oluşturabilirsiniz. **İlgili kişiyi görüntüle** formundan yeni bir ilgili kişi oluşturmaya çalıştığınızda eylem başarısız olur. Bu, bilinen bir sorundur.
 
     ![İlgili Kişi Ekle ile ilgili bilinen sorun.](media/party-gab-contact-issue.png)
 
-+ **İlk eşitleme**, **ContactForParty** üzerindeki **Kullanılabilirlik Başlangıç Tarihi** ve **Kullanılabilirlik Bitiş Tarihi** zaman alanlarını desteklemez çünkü DIXF değeri tamsayı yerine bir dizeye dönüştürür. Dönüştürme, `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32` hatasını tetikler.
-+ Örneğin işletme iletişim adresi ve fatura adresi gibi birden fazla sebep için posta adresi kullanıldığında, aşağıdaki görselde gösterildiği üzere `Business;Invoice` olarak görünmelidir. Değerler arasına boşluk eklerseniz hata alırsınız.
-
-    ![Adresle ilgili bilinen sorun.](media/party-gab-address-issue.png)
-
++ **İlk eşitleme**, **ContactForParty** üzerindeki **Kullanılabilirlik Başlangıç Tarihi** ve **Kullanılabilirlik Bitiş Tarihi** zaman alanlarını desteklemez çünkü DIXF değeri tamsayı yerine bir dizeye dönüştürür. Dönüştürme, `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32` hatasını tetikler.
 + Dataverse geçerlilik tarihini desteklemediği için çift yazma özelliğiyle bir finans ve operasyon uygulaması kullanarak ileri tarihli bir posta adresi giremezsiniz. Bir Finans ve operasyon uygulaması kullanarak geleceğe yönelik bir posta adresi girerseniz bu adres Dataverse'e tam olarak eşitlenir ve adresi kullanıcı arabiriminde hemen görürsünüz. Bu kayıtta yapılan güncelleştirmeler, güncel olmadığı ve geleceğe yönelik olduğu için finans ve operasyon uygulamasında bir hataya neden olur.

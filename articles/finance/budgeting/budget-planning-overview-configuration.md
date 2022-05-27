@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "17251"
 - intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982077"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711757"
 ---
 # <a name="budget-planning-overview"></a>Bütçe planlamaya genel bakış
 
@@ -32,7 +32,7 @@ Bu konu bütçe planlamasını açıklamaktadır. Bütçe planlamayı yapıland�
 
 ## <a name="overview-of-budget-planning"></a>Bütçe planlamaya genel bakış
 
-Bir organizasyon, bütçe planlamayı yapılandırabilir ve ardından bütçe hazırlama ilkelerini, prosedürlerini ve gereksinimlerini karşılamak için bütçe planlama işlemleri ayarlayabilir. Microsoft Dynamics 365 Finance'da kullanılan kavramları ve terimleri anladığınızda bütçe planlamayı kuruluşununda daha kolay ve etkin şekilde uygulayabilirsiniz.
+Bir organizasyon, bütçe planlamayı yapılandırabilir ve ardından bütçe hazırlama ilkelerini, prosedürlerini ve gereksinimlerini karşılamak için bütçe planlama işlemleri ayarlayabilir. Microsoft Dynamics 365 Finance'te kullanılan kavramları ve terimleri anladığınızda bütçe planlamayı kuruluşunuzda daha kolay ve etkin şekilde uygulayabilirsiniz.
 
 ### <a name="key-terms"></a>Önemli terimler
 
@@ -87,7 +87,7 @@ Bütçe planlama, kullanıcı izinlerinin tanımlanması için iki güvenlik mod
 
 Bütçe planlama iş akışları, bütçe planlarının oluşturulması ve geliştirilmesi için bütçeleme iş akışlarıyla birlikte kullanılır.
 
-Bir bütçe planlama iş akışı bir bütçe planının geçtiği, belirlenen bir aşama grubundan meydana gelir. Her bir bütçe planlama iş akışı bir bütçeleme iş akışı ile ilişkilidir. Bütçeleme iş akışları, Dynamics 365 Finance'ta kullanılan iş akışı türlerinden biridir. Gözden geçirme ve onay için çalışma sayfaları, gerekçeler ve ekler ile birlikte bütçe planlarını kuruluşta yönlendirir.
+Bir bütçe planlama iş akışı bir bütçe planının geçtiği, belirlenen bir aşama grubundan meydana gelir. Her bir bütçe planlama iş akışı bir bütçeleme iş akışı ile ilişkilidir. Bütçeleme iş akışları, Dynamics 365 Finance'te kullanılan iş akışı türlerinden biridir. Gözden geçirme ve onay için çalışma sayfaları, gerekçeler ve ekler ile birlikte bütçe planlarını kuruluşta yönlendirir.
 
 **Bütçe planlama yapılandırması** sayfasının **İş akışı aşamaları** bölümünde bütçe planlama iş akışı oluşturursunuz. Burada, kullanılacak aşamaları ve bütçeleme iş akışını seçebilir ve ek ayarları yapılandırabilirsiniz.
 

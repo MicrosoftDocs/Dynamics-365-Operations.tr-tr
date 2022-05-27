@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919513"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722531"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Hareket olayları için e-posta şablonları oluşturma
 
@@ -64,8 +64,8 @@ Paketleme tamamlandı bildirimi türü, hareket e-postalarından gelen "Sipariş
 | ------------------- | ------- |
 | `pickupstorename`     | Siparişin malzeme çekme için uygun olduğu mağazanın adı. |
 | `pickupstoreaddress`  | Siparişin malzeme çekme için uygun olduğu mağazanın adresi. |
-| `pickupstorehourfrom` | Malzeme çekme deposunun açılış saati. |
-| `pickupstorehourto`   | Malzeme çekme deposunun kapanış saati. |
+| `pickupstoreopenfrom` | Malzeme çekme deposunun açılış saati. |
+| `pickupstoreopento` | Malzeme çekme deposunun kapanış saati. |
 | `pickupchannelid`     | Malzeme çekme deposunun mağaza kanal kodu. |
 | `packingslipid`      | Çekilecek sipariş için sevk irsaliyesinin kodu. |
 | `confirmationid`      | Çekilecek sipariş için sipariş onayı kodu. (Bu koda bazen kanal referans kodu da denir.) |
@@ -102,7 +102,7 @@ Bir sipariş paketlendi olarak işaretlendiğinde ve teslimat modu bir veya daha
 | Yer tutucu adı      | Amaç |
 | --------------------- | ------- |
 | `giftcardnumber`        | Hediye kartı türündeki ürünler için hediye kartı numarası. |
-| `giftcardbalance`       | Hediye kartı türündeki ürünler için hediye kartı bakiyesi. |
+| `availablebalance` | Hediye kartında kalan bakiye. |
 | `giftcardmessage`       | Hediye kartı türündeki ürünler için hediye kartı iletisi. |
 | `giftcardpin`         | Hediye kartı türündeki ürünler için hediye kartının kişisel kimlik numarası (PIN). (Bu yer tutucu, harici hediye kartlarına özeldir.) |
 | `giftcardexpiration`    | Hediye kartı türündeki ürünler için hediye kartının son kullanma tarihi. (Bu yer tutucu, harici hediye kartlarına özeldir.) |

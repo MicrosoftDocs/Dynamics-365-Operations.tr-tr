@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565291"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695577"
 ---
 # <a name="sales-returns"></a>Satış iadeleri
 
@@ -76,7 +76,6 @@ Müşteri arızalı veya istemediği bir ürünü iade etmek ve/veya alacak kayd
 | RMA numarası         | İade emrine atanan kod.              | RMA numarası, iade emri işlemi boyunca bir alternatif anahtar olarak kullanılır. RMA numarası, **Alacak hesapları parametreleri** sayfasında ayarlanan RMA numara serisine göre atanır.                                                                                                                              |
 | Bitiş tarihi           | Bir malın iade edilebileceği son tarih               | Varsayılan değer, geçerli tarih artı geçerlilik süresi olarak hesaplanır. Örneğin, bir iade, iade emri oluşturulduktan sonra 90 gün geçerliyse ve iade emri 1 Mayıs'ta oluşturulduysa, alandaki değer **30 Temmuz** olur. Geçerlilik süresi **Alacak hesapları parametreleri** sayfasından ayarlanır. |
 | İade neden kodu | Müşterinin ürün iade nedeni          | Neden kodu, kullanıcı tanımlı neden kodları listesinden seçilir. Bu alanı istediğiniz zaman güncelleyebilirsiniz.                                                                                                                                                                                                                                    |
-
 ### <a name="create-return-order-lines"></a>İade emri satırlarını oluşturun
 
 İade başlığını tamamladıktan sonra aşağıdaki yöntemlerden birini kullanarak iade satırları oluşturabilirsiniz:
@@ -84,7 +83,8 @@ Müşteri arızalı veya istemediği bir ürünü iade etmek ve/veya alacak kayd
 -   Her iade satırı için madde ayrıntılarını, miktarı ve diğer bilgileri el ile girin.
 -   **Satış siparişi bul** işlevini kullanarak bir iade satırı oluşturun. İade emri oluştururken bu işlevi kullanmanızı öneririz. **Satış siparişi bul** işlevi, iade satırından, faturalanan satış siparişi satırına referans oluşturur ve madde numarası, miktar, fiyat, iskonto ve maliyet değerleri gibi satır ayrıntılarını satış satırından alır. Referans, ürün şirkete iade edildiğinde, satıldığı birim maliyetiyle değerlendirilmesini garantilemeye yardımcı olur. Referans iade emrindeki miktarın, faturadaki satış miktarını aşmadığını da doğrular.
 
->[Not!] Bir satış siparişine referans bulunan iade satırları satışa ilişkin düzeltmeler veya ters kayıtlar olarak işlem görür. Daha fazla bilgi için, bu konuda ileride yer alan "Genel muhasebeye nakletme" bölümüne bakın.
+>[!NOTE] 
+>Bir satış siparişine referans bulunan iade satırları, satışa ilişkin düzeltmeler veya ters kayıtlar olarak işlem görür. Daha fazla bilgi için, bu konuda ileride yer alan "Genel muhasebeye nakletme" bölümüne bakın.
 
 ### <a name="charges"></a>Masraflar
 
@@ -189,8 +189,10 @@ Varış işlemi sırasında iadeler ambar varışları için genel işlemle tüm
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Varışa genel bakış listesindeki ürünleri belirleme
 
-**Varışa genel bakış** sayfasında tüm planlı gelen varışlar listelenir. 
->[Not!] İade siparişlerinden gelen varışlar, diğer türlerdeki varış hareketlerinden ayrı işlenmelidir. **Varışa genel bakış** sayfasında bir gelen paketi belirledikten sonra (örneğin, eşlik eden RMA belgesini kullanarak), Eylem bölmesinde **Varışı başlat**'a tıklayarak, varışla eşleşen bir Varış günlüğü oluşturup başlatın.
+**Varışa genel bakış** sayfasında tüm planlı gelen varışlar listelenir.
+
+>[!NOTE] 
+>İade siparişlerinden gelen varışlar, diğer türlerdeki varış hareketlerinden ayrı işlenmelidir. **Varışa genel bakış** sayfasında bir gelen paketi belirledikten sonra (örneğin, eşlik eden RMA belgesini kullanarak), Eylem bölmesinde **Varışı başlat**'a tıklayarak, varışla eşleşen bir Varış günlüğü oluşturup başlatın.
 
 ### <a name="edit-the-arrival-journal"></a>Varış günlüğünü düzenleme
 
@@ -232,7 +234,8 @@ Müşteriye bir değiştirme maddesi gönderirseniz ve iade emrinde **Değiştir
 
 Değiştirilen mal, değiştirme satış siparişi adlı bağımsız bir satış siparişiyle teslim edilir. Bu satış siparişi, iade emri için sevk irsaliyesi hazırlanırken oluşturulur. Sipariş başlığında, iade emri başlığında başvurulan, müşteriden alınmış bilgiler kullanılır. Satır bilgileri, **Yerine koyulacak madde** sayfasına girilen bilgilerden alınır. **Yerine koyulacak madde** sayfası, "değiştir" sözcüğüyle başlayan değerlendirme eylemleri olan satırlar için doldurulmuş olmalıdır. Ancak, değiştirme maddesinin ne miktarı ne de kimliği doğrulanmıştır veya sınırlıdır. Bu davranışa, müşterinin aynı malı farklı bir yapılandırma veya boyutta istediği veya müşterilerin tamamen farklı bir mal istediği durumlarda izin verilir. Varsayılan olarak, **Yerine koyulacak madde** sayfasına aynı mal girilir. Ancak, işlevin ayarlanmış olması koşuluyla, farklı bir mal seçebilirsiniz. 
 
->[Not!] Değiştirme satış siparişini oluşturulduktan sonra silemez ve düzenleyemezsiniz.
+>[!NOTE] 
+>Değiştirme satış siparişini oluşturulduktan sonra silemez ve düzenleyemezsiniz.
 
 ## <a name="generate-a-packing-slip"></a>Sevk irsaliyesi oluşturma
 İade edilen malların stoka alınabilmesi için, malların ait olduğu siparişin sevk irsaliyesini güncelleştirmeniz gerekir. Fatura güncelleştirme işlemi nasıl mali hareketin güncelleştirilmesi ise, sevk irsaliyesi güncelleştirme işlemi de stok kaydının fiziksel olarak güncelleştirilmesidir. Diğer bir deyişle, bu işlem, stokta yapılan değişiklikleri kaydeder. İadelerde ise, elden çıkarma eylemine atanan adımlar, sevk irsaliyesinin güncelleştirilmesi sırasında uygulanır. Sevk irsaliyesi oluşturduğunuzda aşağıdaki olaylar gerçekleşir:
@@ -253,8 +256,10 @@ Genel olarak, sevk irsaliyesi işlemini atlayıp doğrudan faturalamaya geçebil
 
 ### <a name="credit-correction"></a>Alacak düzeltme
 
-Faturalama işleminin bir parçası olarak, tüm sair giderleri doğrulayın. Genel muhasebe nakillerinin düzeltmeler (Storno) haline gelmesini sağlamak için, faturayı/alacak dekontunu naklederken **Fatura deftere naklediliyor** sayfasının **Diğer** sekmesindeki **Alacak düzeltme** seçeneğini kullanmayı düşünün. 
->[Not!] Varsayılan olarak, **Alacak düzeltmesi** seçeneği, **Alacak hesapları parametreleri** sayfasındaki **Düzeltme olarak alacak dekontu** seçeneği etkinleştirildiği zaman etkinleştirilir. Ancak, iadeleri Storno'yla nakletmemenizi öneririz.
+Faturalama işleminin bir parçası olarak, tüm sair giderleri doğrulayın. Genel muhasebe nakillerinin düzeltmeler (Storno) haline gelmesini sağlamak için, faturayı/alacak dekontunu naklederken **Fatura deftere naklediliyor** sayfasının **Diğer** sekmesindeki **Alacak düzeltme** seçeneğini kullanmayı düşünün.
+
+> [!NOTE]
+> Varsayılan olarak, **Alacak düzeltmesi** seçeneği, **Alacak hesapları parametreleri** sayfasındaki **Düzeltme olarak alacak dekontu** seçeneği etkinleştirildiği zaman etkinleştirilir. Ancak, iadeleri Storno'yla nakletmemenizi öneririz.
 
 ## <a name="create-intercompany-return-orders"></a>Şirketlerarası iade emirleri oluşturma
 İade emirleri kuruluşunuzdaki iki şirket arasında tamamlanabilir. Aşağıdaki senaryolar desteklenir:
@@ -308,7 +313,8 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 ![İade emri bir müşteri faturasına başvurmuyor.](./media/SalesReturn09.png)  
 
->[Not!] **İade maliyet fiyatı** parametresi için varsayılan değer olarak madde master fiyatı kullanılır. Varsayılan fiyat, stok çıkışı anındaki maliyet fiyatından farklıdır. Bu nedenle, etki, 3 birimlik bir kaybın tahakkuk etmesidir. Ayrıca, iade emri, satış siparişinde müşteriye verilen iskontoyu içermez. Bu nedenle, fazla bir alacak oluşur.
+> [!NOTE]
+> **İade maliyet fiyatı** parametresi için varsayılan değer olarak madde master fiyatı kullanılır. Varsayılan fiyat, stok çıkışı anındaki maliyet fiyatından farklıdır. Bu nedenle, etki, 3 birimlik bir kaybın tahakkuk etmesidir. Ayrıca, iade emri, satış siparişinde müşteriye verilen iskontoyu içermez. Bu nedenle, fazla bir alacak oluşur.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Örnek 2: İade emri için alacak düzeltmesi seçiliyor
 
@@ -316,7 +322,8 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 ![Alacak düzeltmesinin seçildiği iade emri.](./media/SalesReturn10.png)  
 
->[Not!] Genel muhasebe nakilleri negatif düzeltmeler olarak girilir.
+>[!NOTE] 
+>Genel muhasebe nakilleri negatif düzeltmeler olarak girilir.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Örnek 3: İade emri satırı Satış siparişi bul işlevi kullanılarak oluşturuluyor
 
@@ -324,7 +331,8 @@ Bu örnekte iade emri satırı **Satış siparişi bul** işlevi kullanılarak o
 
 ![Satış siparişi bul işlevi kullanılarak oluşturulan iade emri satırı.](./media/SalesReturn11.png)  
 
->[Not!] **İskonto** ve **İade maliyet fiyatı** doğru biçimde ayarlanmıştır. Bu nedenle, müşteri faturasının tam ters kaydı gerçekleşir.
+> [!NOTE]
+> **İskonto** ve **İade maliyet fiyatı** doğru biçimde ayarlanmıştır. Bu nedenle, müşteri faturasının tam ters kaydı gerçekleşir.
 
 
 

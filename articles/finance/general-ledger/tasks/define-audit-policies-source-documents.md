@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722683"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713797"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Kaynak belgeler için denetim ilkeleri tanımlama
 
@@ -39,9 +39,9 @@ Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açı
 11. **Yeni**'yi seçin.
 12. **Ad** alanına bir değer yazın.
 13. **İlke organizasyonları**  bölümünü genişletin.
-14. Ağaçta, **Contoso Entertainment System USA** seçeneğini belirleyin ve ardından **Ekle**'yi seçin.
-15. Ağaçta, **Contoso Consulting USA** seçeneğini belirleyin ve ardından **Ekle**'yi seçin.
-16. Ağaçta, **Contoso Retail USA** seçeneğini belirleyin ve ardından **Ekle**'yi seçin.
+14. Ağaçta **Contoso Entertainment System USA** seçeneğini ve ardından **Ekle**'yi seçin.
+15. Ağaçta **Contoso Consulting USA** seçeneğini ve ardından **Ekle**'yi seçin.
+16. Ağaçta **Contoso Retail USA** seçeneğini ve ardından **Ekle**'yi seçin.
 17. **İlke organizasyonları** bölümünü daraltın.
 18. **İlke kuralları**  bölümünü genişletin.
 19. Listede, önceden oluşturulmuş İlke Kuralı'nı bulup seçin.

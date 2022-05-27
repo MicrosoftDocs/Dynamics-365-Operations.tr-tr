@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitPlanEmployee, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 701bc6f1bb3ef684b163c32032e1094c8ae4deb0
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: dc4e70954612bbba81f2dccd7607d081eb314f21
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417505"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691820"
 ---
 # <a name="create-worker-benefit-plans"></a>Çalışan kazanç planları oluşturma
 

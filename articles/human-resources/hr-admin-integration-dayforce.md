@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067088"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691346"
 ---
 # <a name="configure-integration-with-dayforce"></a>Dayforce ile tümleştirmeyi yapılandırma
 
@@ -42,7 +41,7 @@ Bu konuda, tümleştirmeyi etkinleştirmek için izlemeniz gereken adımlar ve t
 
 ## <a name="enable-the-integration"></a>Tümleştirmeyi etkinleştirme
 
-Human Resources'ta yapılandırmayı açmanız ve Dayforce'a bağlanmak için yapılandırma bilgilerini girmeniz gerekir. Microsoft Dynamics 365 Finance'a aktarılmak üzere oluşturulan genel muhasebe hareketini istiyorsanız ayrıca bir Microsoft Azure depolama hesabı oluşturmanız ve Finance'ta Azure Depolama bağlantı dizesini de girmeniz gerekir.
+Human Resources'ta yapılandırmayı açmanız ve Dayforce'a bağlanmak için yapılandırma bilgilerini girmeniz gerekir. Microsoft Dynamics 365 Finance'e aktarılmak üzere oluşturulan genel muhasebe hareketini istiyorsanız ayrıca bir Microsoft Azure depolama hesabı oluşturmanız ve Finance'te Azure Depolama bağlantı dizesini de girmeniz gerekir.
 
 Human Resources'ta tümleştirmeyi açmak için aşağıdaki adımları izleyin.
 

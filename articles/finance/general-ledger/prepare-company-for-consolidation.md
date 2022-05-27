@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a1ffbf79cdccab457b1aee1bc0f1d963bca49b3e390187c6be5da475f278a3d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720514"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722052"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Konsolidasyon işleminde tüzel kişilik hazırlama
 
@@ -27,7 +27,7 @@ ms.locfileid: "6720514"
 Konsolidasyon sırasında, birkaç tüzel kişilik hesabı kümesinden hareketleri tek bir tüzel kişilik hesabı kümesinde birleştirebilirsiniz. Bu konuda, bir konsolidasyon için tüzel kişiliğin nasıl hazırlanacağı açıklanmaktadır.
 
 > [!NOTE]
-> Microsoft Dynamics 365 Finance için Management Reporter'ı kullanarak birden çok tüzel kişilik için mali sonuçları konsolide bir biçimde birleştirmeniz önerilir. Management Reporter, tüzel kişiliklerde konsolide mali raporlar oluşturmanıza, diğer kaynaklardan konsolidasyon verilerini içeri aktarmak için Excel'i kullanmanıza ve Dynamics 365 Finance'te konsolidasyon sürecini çalıştırmak zorunda kalmadan tutarları istediğiniz sayıda raporlama para birimlerine çevirmenize olanak sağlar.
+> Microsoft Dynamics 365 Finance için Management Reporter'ı kullanarak birden çok tüzel kişilik için mali sonuçları konsolide bir biçimde birleştirmeniz önerilir. Management Reporter, tüzel kişiliklerde konsolide mali raporlar oluşturmanıza, diğer kaynaklardan konsolidasyon verilerini içeri aktarmak için Excel'i kullanmanıza ve Dynamics 365 Finance'te konsolidasyon sürecini çalıştırmak zorunda kalmadan tutarları istediğiniz sayıda raporlama para birimine çevirmenize olanak sağlar.
 
 Konsolide tüzel kişilikten mali tablolar gibi raporları yazdırabilirsiniz. Ancak, konsolide tüzel kişiliği günlük hareketler için kullanamazsınız.
 

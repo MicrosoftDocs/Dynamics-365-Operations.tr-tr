@@ -1,7 +1,7 @@
 ---
 title: Varış yeri maliyeti için eklenen satırı ayarları
 description: Bu konuda, Varış yeri maliyeti modülünü etkinleştirdiğinizde var olan Satıcılar sayfasına eklenen yeni alanlar açıklanmaktadır. Bu alanları, Varış yeri maliyeti özellikleriyle birlikte kullanacağınız satıcıları ayarlamak için kullanırsınız.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc68cfd1afab808b1aa79fe4d0387cb6bb6c198f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b4e02397f7a4cdeaa21b451268b16e4fbe773612
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568747"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690540"
 ---
 # <a name="vendor-settings-added-for-landed-cost"></a>Varış yeri maliyeti için eklenen satırı ayarları
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 65ebfddb1baf39e20c22d3ed9bb26dbb33765e20
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595346"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712018"
 ---
 # <a name="budget-planning"></a>Bütçe planlama
 
@@ -36,7 +36,7 @@ Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 Fi
 
 ## <a name="prerequisites"></a>Önkoşullar 
 
-Bu eğitim için Contoso demo verileri ile birlikte Microsoft Dynamics 365 Finance'a erişebiliyor ve örneğine bir yönetici olarak atanmış olmanız gerekir. Bu laboratuvar için Gizli tarayıcı modunu kullanmayın - gerekirse tarayıcıdaki diğer hesaplarda oturumunuzu kapatın ve yönetici kimlik bilgilerinizle oturum açın. Oturum açarken "Oturumumu açık bırak" onay kutusunu **MUTLAKA** işaretlemeniz gerekir. Böylece Excel Uygulamasının şu anda gerektirdiği kalıcı bir tanımlama bilgisi üretmiş olursunuz. Uygulamada IE dışında bir tarayıcı kullanarak oturum açarsanız Excel Uygulamasında oturum açmanız istenir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda bir IE açılır penceresi görüntülenir ve oturum açarken **MUTLAKA** "Oturumumu açık bırak" onay kutusunu işaretlemeniz gerekir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda hiçbir şey görüntülenmiyorsa IE tanımlama bilgisi önbelleğini temizlemeniz gerekir.
+Bu eğitim için Contoso demo verileri ile birlikte Microsoft Dynamics 365 Finance ortamına erişebiliyor ve örneğe bir yönetici olarak atanmış olmanız gerekir. Bu laboratuvar için Gizli tarayıcı modunu kullanmayın - gerekirse tarayıcıdaki diğer hesaplarda oturumunuzu kapatın ve yönetici kimlik bilgilerinizle oturum açın. Oturum açarken "Oturumumu açık bırak" onay kutusunu **MUTLAKA** işaretlemeniz gerekir. Böylece Excel Uygulamasının şu anda gerektirdiği kalıcı bir tanımlama bilgisi üretmiş olursunuz. Uygulamada IE dışında bir tarayıcı kullanarak oturum açarsanız Excel Uygulamasında oturum açmanız istenir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda bir IE açılır penceresi görüntülenir ve oturum açarken **MUTLAKA** "Oturumumu açık bırak" onay kutusunu işaretlemeniz gerekir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda hiçbir şey görüntülenmiyorsa IE tanımlama bilgisi önbelleğini temizlemeniz gerekir.
 
 ## <a name="scenario-overview"></a>**Senaryoya genel bakış**
 Julia, Almanya'daki Contoso Entertainment Systems (DEMF) firmasında finans yöneticisi olarak çalışıyor. MY2016 yaklaşırken Julia'nın gelecek yıl için şirketin bütçesini oluşturmak için çalışmaya başlaması gerekiyor. Bütçe hazırlığı şu şekildedir:

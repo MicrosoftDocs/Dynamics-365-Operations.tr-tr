@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570492"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691484"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Management 10.0.23 sürümündeki yenilikler veya değişiklikler (Ocak 2022)
 
@@ -75,13 +75,15 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 | Ambar yönetimi | [Genel mobil cihaz parametreleri](../warehousing/mobile-device-parameters.md) |
 | Ambar yönetimi | [Bağlama](../warehousing/anchoring.md) |
 | Satış ve pazarlama | Şirketlerarası ticaret artık [Şirketlerarası ticaret kurulumu](../sales-marketing/intercompany-trade-set-up.md)ve ilgili konuları ile başlayarak ayrıntılı olarak açıklanmıştır. |
+| Satış ve pazarlama | [Satış geçmişi temizleme işlemi performans iyileştirmeleri](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Stok Yönetimi | Stok Görünürlüğü belgeleri, [Stok Görünürlüğü Eklentisine genel bakış](../inventory/inventory-visibility.md) ve ilgili konularıyla başlayarak artık genişletilmiş ve güncelleştirilmiştir. |
+| Ambar yönetimi | [Mobil cihaz kullanıcı hesapları](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.23 sürümü için platform güncelleştirmeleri (Kasım 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.23 sürümü için platform güncelleştirmeleri (Kasım 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

@@ -8,25 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.reviewer: kfend
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 72c362e651787d2ff120944925e3bc35523f0059
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982021"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710343"
 ---
 # <a name="asset-leasing-get-started"></a>Varlık kiralamaya başlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Varlık kiralama özelliğini açıklar ve varlık kiralaması oluşturma ve bu kiralamalarla ilgili bilgileri görüntüleme adımları konusunda rehberlik sağlar. Konu ayrıca kullanıcı arabiriminde ve belgelerinde kullanılan terminolojiyi tanımlar. Varlık kiralama, Microsoft Dynamics 365 Finance'ta kiralanmış varlıklar için mali hareketleri yönetme, izleme ve otomatikleştirmeye yönelik gelişmiş bir özelliktir. Varlık kiralama Uluslararası muhasebe standartları (IFRS 16) ve US GAAP standartları (ASC 842) ile uyumludur. Varlık kiralama, kiralama bilgilerini yakalıp işler ve ilk kabul ve aylık günlük girişlerinden kira değerinin düşmesi ve kiranın sonlanmasına kadar kiranın yaşam döngüsü aracılığıyla günlük girişleri oluşturmaya yardımcı olur. Varlık kiralama Sabit kıymetler, Borç hesapları ve Genel muhasebe dahil Dynamics 365 Finance'ın diğer bileşenleriyle ile sorunsuz tümleşir.
+Bu konu, Varlık kiralama özelliğini açıklar ve varlık kiralaması oluşturma ve bu kiralamalarla ilgili bilgileri görüntüleme adımları konusunda rehberlik sağlar. Konu ayrıca kullanıcı arabiriminde ve belgelerinde kullanılan terminolojiyi tanımlar. Varlık kiralama, Microsoft Dynamics 365 Finance'te kiralanmış varlıklar için mali hareketleri yönetme, izleme ve otomatikleştirmeye yönelik gelişmiş bir özelliktir. Varlık kiralama Uluslararası muhasebe standartları (IFRS 16) ve US GAAP standartları (ASC 842) ile uyumludur. Varlık kiralama, kiralama bilgilerini yakalıp işler ve ilk kabul ve aylık günlük girişlerinden kira değerinin düşmesi ve kiranın sonlanmasına kadar kiranın yaşam döngüsü aracılığıyla günlük girişleri oluşturmaya yardımcı olur. Varlık kiralama Sabit kıymetler, Borç hesapları ve Genel muhasebe dahil olmak üzere Dynamics 365 Finance'in diğer bileşenleriyle ile sorunsuz şekilde tümleşir.
 
 Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için **özellik yönetimi** çalışma alanını kullanabilir. **Özellik yönetimi** çalışma alanında, **Varlık kiralama** olarak adlandırılan özelliği bulup seçin ve **Şimdi etkinleştir** düğmesine tıklayın.
 

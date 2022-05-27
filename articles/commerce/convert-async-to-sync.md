@@ -6,16 +6,15 @@ ms.date: 12/10/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: d8a386299f2c67c870fe0b8f779c9155405c1f1a
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: fc1690ff6068317c748bda0d767a10f306f3debe
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913816"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691456"
 ---
 # <a name="convert-asynchronous-customers-to-synchronous-customers"></a>Zaman uyumsuz müşterileri zaman uyumlu müşterilere dönüştürme
 
