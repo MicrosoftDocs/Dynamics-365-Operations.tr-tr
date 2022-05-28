@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 5b67c33f73a33721167cedde1a8d83a81aa77db3
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753572"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735416"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Alacak hesapları yaşlandırma bilgilerini ayarlama ve oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu kılavuz, yaşlandırma dönemi tanımı yapmanıza, müşteri bakiyelerini yaşlandırmanıza, Yaşlandırılmış bakiye listesinde ve Tahsilatlar sayfasında bakiyeleri görüntülemenize yardımcı olur. Bu kayıtta USMF demo şirketi kullanılmaktadır.
+Bu kılavuz, yaşlandırma dönemi tanımı yapmanıza, müşteri bakiyelerini yaşlandırmanıza, **Yaşlandırılmış bakiye** listesinde ve **Tahsilatlar** sayfasında bakiyeleri görüntülemenize yardımcı olur. Bu kayıtta USMF demo şirketi kullanılmaktadır.
 
 
 ## <a name="create-an-aging-period-definition"></a>Yaşlandırma dönemi tanımı oluşturun

@@ -1,5 +1,5 @@
 ---
-title: Finans ve Operasyonlar uygulamaları için hizmet açıklaması
+title: Finans ve Operasyon uygulamaları için hizmet açıklaması
 description: Bu konuda, finans ve operasyon uygulamaları için hizmet açıklaması sağlanmaktadır.
 author: tomhig
 ms.date: 04/27/2022
@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656817"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740666"
 ---
-# <a name="service-description-for-finance-and-operations-apps"></a>Finans ve Operasyonlar uygulamaları için hizmet açıklaması
+# <a name="service-description-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için hizmet açıklaması
 
 [!include[banner](../includes/banner.md)]
 
-Finans ve operasyon uygulamaları,[Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/)  uygulaması üzerinde ve bu uygulama için oluşturulmuş kurumsal kaynak planlama (ERP) hizmet olarak yazılım (SaaS) teklifleridir. Finans ve operasyon hizmeti, kuruluşlara benzersiz gereksinimlerini destekleyen ve altyapıyı yönetmelerine gerek kalmadan sürekli değişen iş ortamlarına uyum sağlamalarına yardımcı olan ERP işlevleri sunar. Finans ve operasyon uygulamaları aşağıdaki çözüm alanlarından birini veya daha fazlasını içerebilir:
+Finans ve operasyon uygulamaları,[Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/)  uygulaması üzerinde ve bu uygulama için oluşturulmuş kurumsal kaynak planlama (ERP) hizmet olarak yazılım (SaaS) teklifleridir. Finance and Operations hizmeti, kuruluşlara benzersiz gereksinimlerini destekleyen ve altyapıyı yönetmelerine gerek kalmadan sürekli değişen iş ortamlarına uyum sağlamalarına yardımcı olan ERP işlevleri sunar. Finans ve operasyon uygulamaları aşağıdaki çözüm alanlarından birini veya daha fazlasını içerebilir:
 
 - [Dynamics 365 Finance](/dynamics365/finance/)
 - [Dynamics 365 Human Resources](/dynamics365/human-resources/)
@@ -32,13 +32,13 @@ Bu uygulamalar, [iş zekası](/power-bi/fundamentals/power-bi-service-overview),
 
 - Yerleşik [kişiselleştirme deneyimi](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md) araçları
-- [Visual Studio](https://visualstudio.microsoft.com) tabanlı [Finans ve Operasyonlar yazılım geliştirme seti (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) ve [Azure DevOps derleme otomasyonu](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
+- [Visual Studio](https://visualstudio.microsoft.com) tabanlı [Finance and Operations yazılım geliştirme seti (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) ve [Azure DevOps derleme otomasyonu](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
 - [AppSource](https://appsource.microsoft.com/partners) içindeki bağımsız yazılım satıcısı (ISV) çözümleri
 
 Müşteriler, gereksinimlere göre çözüm yaklaşımlarını seçerler. [Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md) içinde sağlanan araçları ve en iyi uygulamaları kullanarak çözümlerini tanımlamak, geliştirmek ve test etmek için uygulama iş ortaklarıyla birlikte çalışırlar. Dört ortak senaryo vardır:
 
 - Standart finans ve operasyon uygulamaları "kullanıma hazır" konfigürasyonu (uzantı yok)
-- Bir veya daha fazla ISV çözümü içeren Finans ve Operasyonlar uygulamaları konfigürasyonu
+- Bir veya daha fazla ISV çözümü içeren Finans ve Operasyon uygulamaları konfigürasyonu
 - Bir veya daha fazla müşteriye özel uzantı içeren Finans ve Operasyon uygulamaları konfigürasyonu
 - Müşteriye özel uzantıların ve bir veya daha fazla ISV çözümünün birleşimini içeren Finans ve Operasyon uygulamaları yapılandırması
 
@@ -61,7 +61,7 @@ Müşteriler, çözümlerini uygulamak için[Dynamics 365 Uygulama Kılavuzu](ht
 
 ### <a name="microsoft-responsibilities"></a>Microsoft'un sorumlulukları
 
-Microsoft, Microsoft SaaS aboneliğinde müşteri korumalı alanı ve üretim ortamlarını dağıtarak, etkin bir şekilde izleyerek ve bunlara hizmet sağlayarak Finans ve Operasyonlar hizmetini yönetir. Bu yönetim, hizmeti çalıştırmak için gerekli sistem altyapısının tahsis edilmesini ve hizmet durumu hakkında müşterilerle proaktif olarak iletişim kurulmasını içerir. Sorumluluklar şunları içerir:
+Microsoft, Microsoft SaaS aboneliğinde müşteri korumalı alanı ve üretim ortamlarını dağıtarak, etkin bir şekilde izleyerek ve bunlara hizmet sağlayarak Finance and Operations hizmetini yönetir. Bu yönetim, hizmeti çalıştırmak için gerekli sistem altyapısının tahsis edilmesini ve hizmet durumu hakkında müşterilerle proaktif olarak iletişim kurulmasını içerir. Sorumluluklar şunları içerir:
 
 **Altyapı yönetimi**
 - Güvenlik ve yalıtım
@@ -93,7 +93,7 @@ Microsoft, hareket hacimlerini ve kullanıcı eşzamanlılığını işlemek iç
 
 Uygulamanın yüksek performans için yapılandırıldığından emin olmak için müşterilerin şu görevleri tamamlaması gerekir:
 
-- [LCS Abonelik tahmin aracı](../../dev-itpro/lifecycle-services/subscription-estimator.md) içinde Finans ve Operasyonlar uygulanmasıyla ilgili doğru kullanım bilgileri sağlama.
+- [LCS Abonelik tahmin aracı](../../dev-itpro/lifecycle-services/subscription-estimator.md) içinde Finance and Operations uygulanmasıyla ilgili doğru kullanım bilgileri sağlama.
 - Performans ve ölçeklendirme için uzantılar oluşturup test etme.
 - Performans için veri yapılandırmalarını uygun şekilde test etme.
 - Servise almadan önce [performans testleri](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) yaparak ölçeklenebilirlik sağlama.
@@ -116,13 +116,13 @@ Finans ve operasyon uygulamaları, dünya çapında çeşitli Azure bölgelerind
 
 ### <a name="countryregion-specific-considerations"></a>Ülkeye/bölgeye özel konular
 
-- Fransa'da yerel veri yerleşimi gerektiren kuruluşlarla iş yapan, düzenlemeye tabi sektörler veya ticari kuruluşlardaki müşterilerin [Fransa'da Finans ve Operasyonlar](../../dev-itpro/deployment/france-local-deployment.md) uygulamasını incelemesi gerekir.
-- Çin'de faaliyet gösteren müşterilerin [Azure Çin Playbook](/azure/china/) ve [Çin'de 21Vianet tarafından işletilen Finans ve Operasyonlar](../../dev-itpro/deployment/china-local-deployment.md) uygulamasını incelemesi gerekir.
+- Fransa'da yerel veri yerleşimi gerektiren kuruluşlarla iş yapan, düzenlemeye tabi sektörler veya ticari kuruluşlardaki müşterilerin [Fransa'da Finance and Operations](../../dev-itpro/deployment/france-local-deployment.md) uygulamasını incelemesi gerekir.
+- Çin'de faaliyet gösteren müşterilerin [Azure Çin Playbook](/azure/china/) ve [Çin'de 21Vianet tarafından işletilen Finance and Operations](../../dev-itpro/deployment/china-local-deployment.md) uygulamasını incelemesi gerekir.
 - Rusya'da faaliyet gösteren müşterilerin [Rusça kişisel veri yerelleştirme yasasını](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia) incelemesi gerekir.
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Genel Veri Koruma Yönetmeliği (GDPR)
 
-Finans ve Operasyon uygulamaları için, Microsoft bir işlemci işlevi görür. Finans ve Operasyonlar, veri işleyici olarak müşterilerin veri denetleyicisi olarak GDPR yükümlülüklerine uymasına yardımcı olan süreçler ve özellikler sağlar. Daha fazla bilgi için bkz. [GDPR'ye Genel Bakış](../../dev-itpro/gdpr/gdpr-guide.md).
+Finans ve Operasyon uygulamaları için, Microsoft bir işlemci işlevi görür. Finance and Operations, veri işleyici olarak müşterilerin veri denetleyicisi olarak GDPR yükümlülüklerine uymasına yardımcı olan süreçler ve özellikler sağlar. Daha fazla bilgi için bkz. [GDPR'ye Genel Bakış](../../dev-itpro/gdpr/gdpr-guide.md).
 
 ## <a name="environment-and-data-management"></a>Çevre ve veri yönetimi
 
@@ -182,7 +182,7 @@ LCS, ortam ve veri yönetimi görevlerini gerçekleştirmek için kullanılan [s
 
 ## <a name="data-backup-and-retention"></a>Veri yedeklemesi ve elde tutma
 
-SaaS aboneliğindeki Finans ve Operasyonlar ortamları için veritabanları otomatik yedeklemelerle korunur. Üretim ortamlarında, Microsoft geri alma yapmadığı sürece otomatik yedeklemeler 28 gün boyunca saklanır. Korumalı alan (Katman 2+) ortamlarında yedi gün boyunca saklanırlar. Planlı bakım güncelleştirmeleri sırasında bir hata oluşursa üretim ortamının geri alma işlemi yapılabilir.
+SaaS aboneliğindeki Finance and Operations ortamları için veritabanları otomatik yedeklemelerle korunur. Üretim ortamlarında, Microsoft geri alma yapmadığı sürece otomatik yedeklemeler 28 gün boyunca saklanır. Korumalı alan (Katman 2+) ortamlarında yedi gün boyunca saklanırlar. Planlı bakım güncelleştirmeleri sırasında bir hata oluşursa üretim ortamının geri alma işlemi yapılabilir.
 
 Otomatik yedeklemeler hakkında daha fazla bilgi için bkz. [Otomatik yedeklemeler - Azure SQL Veritabanı ve SQL Tarafından Yönetilen Kurulum](/azure/azure-sql/database/automated-backups-overview?tabs=single-database).
 
@@ -255,7 +255,7 @@ Daha fazla bilgi edinmek için aşağıdaki konuları inceleyin:
 
 ## <a name="security-and-administrative-access"></a>Güvenlik ve yönetici erişimi
 
-Finans ve Operasyon üretim ortamına yönetici erişimi sıkı bir şekilde denetlenir ve günlüğe kaydedilir. Müşteri verileri [Microsoft Online Services Koşulları](https://www.microsoft.com/licensing/terms/productoffering)'na uygun şekilde işlenir. 
+Finance and Operations üretim ortamına yönetici erişimi sıkı bir şekilde denetlenir ve günlüğe kaydedilir. Müşteri verileri [Microsoft Online Services Koşulları](https://www.microsoft.com/licensing/terms/productoffering)'na uygun şekilde işlenir. 
 
 ### <a name="customer-administrative-access"></a>Müşteri yönetici erişimi
 
@@ -264,8 +264,8 @@ Müşterinin kiracı yöneticisi, aşağıdaki tabloda açıklandığı gibi ür
 | Ortam türü | Amaç | Müşteri erişimi düzeyi |
 |---|---|---|
 | **Üretim dışı**<br>Katman 1 korumalı alanı | Müşterilerin geliştirme, tanıtım veya eğitim amacıyla dağıttığı üretim dışı ortamdır. | Katman 1 korumalı alanı (bulutta barındırılan ortam olarak da adlandırılır), LCS'den müşterinin Azure aboneliğine dağıtılan, müşteri tarafından yönetilen bir sanal makinedir. Müşterinin Azure aboneliğindeki bir sanal makine olduğundan müşteri Uzak Masaüstü aracılığıyla ortama tam yönetici erişimi sağlayabilir. |
-| **Üretim dışı**<br>Katman 2 (veya üzeri) korumalı alanı | Müşterilerin kullanıcı kabul testi, tümleştirme testi, eğitim, hazırlama veya diğer üretim öncesi senaryolar için dağıttığı üretim dışı ortamdır. | Katman 2 ve üzeri korumalı alanlar Finans ve Operasyonlar SaaS aboneliğine dağıtılır. Üretim dışı ortamla ilişkilendirilmiş Azure SQL veritabanlarına erişim, [tam zamanında erişim](../../dev-itpro/database/database-just-in-time-jit-access.md) aracılığıyla sağlanır. Uzak Masaüstü erişimi kullanılamaz. |
-| **Üretim** | Proje [ilk servise almaya hazır olduğunda](/imp-lifecycle/environment-planning.md#production-system-readiness) üretim ortamı dağıtılır. | Üretim ortamları SaaS aboneliğine dağıtılır. Tüm erişim tarayıcı, hizmet uç noktaları veya LCS aracılığıyla gerçekleştirilir. |
+| **Üretim dışı**<br>Katman 2 (veya üzeri) korumalı alanı | Müşterilerin kullanıcı kabul testi, tümleştirme testi, eğitim, hazırlama veya diğer üretim öncesi senaryolar için dağıttığı üretim dışı ortamdır. | Katman 2 ve üzeri korumalı alanlar Finance and Operations SaaS aboneliğine dağıtılır. Üretim dışı ortamla ilişkilendirilmiş Azure SQL veritabanlarına erişim, [tam zamanında erişim](../../dev-itpro/database/database-just-in-time-jit-access.md) aracılığıyla sağlanır. Uzak Masaüstü erişimi kullanılamaz. |
+| **Üretim** | Proje [ilk servise almaya hazır olduğunda](../imp-lifecycle/environment-planning.md#production-system-readiness) üretim ortamı dağıtılır. | Üretim ortamları SaaS aboneliğine dağıtılır. Tüm erişim tarayıcı, hizmet uç noktaları veya LCS aracılığıyla gerçekleştirilir. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft yönetici erişimi
 
@@ -286,7 +286,7 @@ Microsoft, müşterilerin üretim kurulumlarını izlemek ve tanılamak için ka
 |---|---|
 | <ul><li>Hizmetin kullanılabilirliğini izleyin.</li><li>Uygulama Nesne Sunucusu (AOS), Toplu İş, Veri İçeri Dışarı Aktarma Çerçevesi (DIXF), Commerce ve Management Reporter gibi kritik bileşenleri sistem durumu ölçümleri ve izleyiciler aracılığıyla sürekli olarak izleyin ve uyarıda bulunun.</li><li>Altyapı hizmetlerinin (Azure Active Directory \[Azure AD\] ve Azure SQL gibi) neden olduğu performans düşüşünü izleyin.</li><li>Microsoft, tek bir işlemin veya toplu işin sapmalara neden olduğunu belirlerse müşteriyle iletişim kurulduktan sonra ilgili işlem veya iş sonlandırılır.</li></ul> | <ul><li>İşlev ve performans sorunlarına neden olabilecek uygulama yapılandırmalarında ve uzantılarında yapılan değişiklikleri izleyin.</li><li>Uygulama hataları, izleme araçları kullanılarak tanılanmalıdır. Kullanıcı tarafından bildirilen performans sapmalarını tanılamak için bu araçları kullanın.</li><li>Sistemde tahmini en yüksek kullanımın üzerinde beklenen bir yük varsa Microsoft'u bilgilendirin.</li><li>Geçerli hizmet üretim kurulumunda kullanılamıyorsa müşteri, [üretim kesintisini](../../dev-itpro/lifecycle-services/report-production-outage.md) bildirmek için LCS'yi kullanabilir.</li></ul> |
 
-Müşteriler, destek isteklerini LCS aracılığıyla çevrimiçi olarak göndererek Microsoft'un etkin ve verimli şekilde hızlı ve ayrıntılı teknik uzmanlık sunmasını sağlar. Telefon seçeneği kullanılabilse de yalnızca çevrimiçi seçenek yoksa kullanılmalıdır. Daha fazla bilgi için bkz. [Telefon desteği seçenekleri](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support).
+Müşteriler, destek isteklerini LCS aracılığıyla çevrimiçi olarak göndererek Microsoft'un etkin ve verimli şekilde hızlı ve ayrıntılı teknik uzmanlık sunmasını sağlar. Telefon seçeneği kullanılabilse de yalnızca çevrimiçi seçenek yoksa kullanılmalıdır. Daha fazla bilgi için bkz. [Telefon desteği seçenekleri](/power-platform/admin/support-overview?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json#is-there-a-phone-number-i-can-call-to-contact-support).
 
 ## <a name="incident-management"></a>Olay yönetimi
 
@@ -309,15 +309,15 @@ Müşterinin üretim kurulumunu kurtarmak için olağanüstü durum kurtarma kul
 
 Microsoft'un Olağanüstü Durum Kurtarma planları ve yordamları, Sistem ve Kuruluş Denetimleri (SOC) denetimleri aracılığıyla düzenli olarak incelenir. Bu uyumluluk denetimleri, Dynamics 365 Finans ve Operasyon uygulamaları dahil olmak üzere Microsoft DR'sinin teknik ve yordam sürecini doğrular. [SOC uyumluluğu](/compliance/regulatory/offering-soc-2) denetim raporları ve tüm diğer Uyumluluk Raporları [Microsoft Güven Merkezi Uyumluluk Teklifleri](/compliance/regulatory/offering-home) bölümünde bulunabilir.
 
-## <a name="finance-and-operations-support-offerings"></a>Finans ve Operasyon desteği teklifleri
+## <a name="finance-and-operations-support-offerings"></a>Finance and Operations desteği teklifleri
 
-Finans ve Operasyonlar hizmetlerinin sunulduğu pazarlarda teknik destek kullanılabilir. LCS veya Finans ve Operasyon uygulamalarında [destek deneyimleri](../../dev-itpro/lifecycle-services/lcs-support.md) sağlanır. Burada bazı örnekler verilmiştir:
+Finance and Operations hizmetlerinin sunulduğu pazarlarda teknik destek kullanılabilir. LCS veya Finans ve Operasyon uygulamalarında [destek deneyimleri](../../dev-itpro/lifecycle-services/lcs-support.md) sağlanır. Burada bazı örnekler verilmiştir:
 
 - LCS'de [konu arama](../../dev-itpro/lifecycle-services/issue-search-lcs.md)
 - Finans ve Operasyon uygulamaları içinde [tümleşik teknik destek](../../dev-itpro/lifecycle-services/support-experience.md)
 - LCS'de [buluttan sağlanan destek](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md)
 
-Microsoft, Finans ve Operasyonlar müşterilerine üç destek planı sunar: Premier, Profesyonel Doğrudan ve aboneliğe dahil olan destek. Destek düzeyi plana göre değişiklik gösterir. Aşağıdaki tabloda, üç planın karşılaştırması gösterilmektedir.
+Microsoft, Finance and Operations müşterilerine üç destek planı sunar: Premier, Profesyonel Doğrudan ve aboneliğe dahil olan destek. Destek düzeyi plana göre değişiklik gösterir. Aşağıdaki tabloda, üç planın karşılaştırması gösterilmektedir.
 
 | Destek özelliği | Premier | Uzman Doğrudan Desteği | Abonelik |
 |---|---|---|---|
@@ -332,7 +332,7 @@ Daha fazla bilgi için bkz. [Destek'e genel bakış](/power-platform/admin/suppo
 
 ### <a name="process-to-engage-support"></a>Destekle iletişim kurma süreci
 
-Finans ve Operasyonl uygulamalarını içeren olaylar olması durumunda müşteriler, LCS aracılığıyla Microsoft'a destek biletleri gönderir. CSS, olayları müşterinin destek planına ve CSS tarafından belirlenen olayın önem derecesine göre ele alır.
+Finans ve Operasyon uygulamalarını içeren olaylar olması durumunda müşteriler, LCS aracılığıyla Microsoft'a destek biletleri gönderir. CSS, olayları müşterinin destek planına ve CSS tarafından belirlenen olayın önem derecesine göre ele alır.
 
 ### <a name="service-level-agreement"></a>Hizmet düzeyi sözleşmesi
 
@@ -340,7 +340,7 @@ Microsoft, hizmetin aylık yüzde 99,9 kullanılabilirlik oranını taahhüt ede
 
 ## <a name="important-resources"></a>Önemli kaynaklar
 
-- **[Güven Merkezi](https://www.microsoft.com/trust-center)**: Finans ve Operasyon verilerinizin nerede depolandığı hakkında bilgiler ile gizlilik, uyumluluk ve güvenlik yordamları hakkında ek bilgiler alın.
+- **[Güven Merkezi](https://www.microsoft.com/trust-center)**: Finance and Operations verilerinizin nerede depolandığı hakkında bilgiler ile gizlilik, uyumluluk ve güvenlik yordamları hakkında ek bilgiler alın.
 - **[Lisans koşulları ve belgeler](https://www.microsoftvolumelicensing.com/)**: Microsoft toplu lisans programları aracılığıyla lisanslanan ürün ve hizmetlerin kullanımıyla ilgili lisans hükümlerine, koşullarına ve ek bilgilere hızla erişin.
 - **[Lisans koşulları](https://www.microsoft.com/licensing/product-licensing/)**: Bu sayfadaki kaynaklar, Microsoft ticari lisans programları aracılığıyla satın aldığınız yazılım ve çevrimiçi hizmet ürünleriyle ilgili hüküm ve koşulları tanımlar.
 - **[Microsoft Yaşam Döngüsü İlkesi](/lifecycle/)**: Bu sayfa, bir ürünün ömrü boyunca desteğin kullanılabilirliği için tutarlı ve tahmin edilebilir yönergeler sağlar.
@@ -377,11 +377,11 @@ Microsoft'un otomatik sistem durumu izleme ve sistem günlüklerinden belirledi�
 
 ### <a name="implementation-partner"></a>Uygulama iş ortağı
 
-Müşterinin Finans ve Operasyon çözümlerini özelleştirmek, yapılandırmak, uygulamak ve yönetmek için seçtiği iş ortağıdır.
+Müşterinin Finance and Operations çözümlerini özelleştirmek, yapılandırmak, uygulamak ve yönetmek için seçtiği iş ortağıdır.
 
 ### <a name="incident"></a>Olay
 
-Müşterilerin Finans ve Operasyon hizmetini kullanırken karşılaştıkları ve LCS aracılığıyla bilet gönderdikleri sorundur.
+Müşterilerin Finance and Operations hizmetini kullanırken karşılaştıkları ve LCS aracılığıyla bilet gönderdikleri sorundur.
 
 ### <a name="microsoft-customer-support-services-css"></a>Microsoft Müşteri Destek Hizmetleri (CSS)
 
@@ -403,7 +403,7 @@ Katman 2 - 5 hakkında daha fazla bilgi için bkz. [Doğru Katman 2 veya üzeri 
 
 ### <a name="production-instance"></a>Üretim kurulumu
 
-Müşterinin "canlı" günlük hareketlerini ve iş süreçlerini yönetmek için kullandığı bir Finans ve Operasyon ortamıdır.
+Müşterinin "canlı" günlük hareketlerini ve iş süreçlerini yönetmek için kullandığı bir Finance and Operations ortamıdır.
 
 ### <a name="sandbox-environment"></a>Korumalı alan ortamı
 
@@ -419,7 +419,7 @@ SLA, Microsoft çevrimiçi hizmetleri için geçerlidir. Daha fazla bilgi için 
 
 ### <a name="service-update"></a>Hizmet güncelleştirmesi
 
-Microsoft, hizmet güncelleştirmeleri aracılığıyla Finans ve Operasyon ortamlarına tutarlı bir şekilde hizmet sağlar. Müşteriler, iş gereksinimlerine göre kendi hizmet güncelleştirme takvimlerini belirler. Daha fazla bilgi için bkz. [Bir Sürüm hizmeti güncelleştirmeleri](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+Microsoft, hizmet güncelleştirmeleri aracılığıyla Finance and Operations ortamlarına tutarlı bir şekilde hizmet sağlar. Müşteriler, iş gereksinimlerine göre kendi hizmet güncelleştirme takvimlerini belirler. Daha fazla bilgi için bkz. [Bir Sürüm hizmeti güncelleştirmeleri](../../dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
 
@@ -427,4 +427,4 @@ Bir Dynamics 365 çözümü için en uygun mimariyi, güvenlik, performans ve Ku
 
 ### <a name="user"></a>Kullanıcı
 
-Finans ve Operasyon ortamlarını kullanan ve bir müşterinin kiracısıyla ilişkilendirilmiş tek bir kişi.
+Finance and Operations ortamlarını kullanan ve bir müşterinin kiracısıyla ilişkilendirilmiş tek bir kişi.

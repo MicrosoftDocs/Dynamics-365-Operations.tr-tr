@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570765"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736047"
 ---
 # <a name="dual-use-goods"></a>Çift kullanımlı mallar
 
@@ -34,7 +34,7 @@ Aşağıdaki senaryoyu inceleyin:
 2. X-100 ürünü için **Serbest bırakılan ürün ayrıntıları** sayfası, bunun çift kullanımlı bir mal olduğunu gösterir. Kod, kategori, grup ve rejim öğeleri ürünün ait olduğu ihracat denetim sınıflandırmasını gösterir.
 3. **Çift kullanım sertifikaları** sayfası Fransa'ya sevk edildiğinde X-100 ürünü için bir sertifika içerir. Bu sertifikanın süresi 1 Ocak 2020 tarihinde sona erer.
 4. 17 Haziran 2020'de, Fransa'da bulunan müşteri şirketi için bir satış siparişi oluşturursunuz ve sipariş X-100 ürünü içerir.
-5. Satış siparişini kaydettiğinizde, sistem aşağıdaki bilgileri belirler:
+5. Satış siparişini onayladığınızda sistem aşağıdaki bilgileri belirler:
 
     1. Sipariş, çift kullanımlı mal olan herhangi bir ürün içeriyor mu?
     2. Siparişte çift kullanımlı mallar varsa, hedef ülke çift kullanım için sertifika istiyor mu?

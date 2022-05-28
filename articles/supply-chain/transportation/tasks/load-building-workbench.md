@@ -1,7 +1,7 @@
 ---
 title: Yük oluşturma çalışma ekranı
 description: Bu konuda, yük oluşturma ekranı ile nasıl çalışılacağı açıklanmaktadır.
-author: Henrikan
+author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c6723656baaca42c6b055d759c84fd4392fe04b0
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574869"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674687"
 ---
 # <a name="load-building-workbench"></a>Yük oluşturma çalışma ekranı
 

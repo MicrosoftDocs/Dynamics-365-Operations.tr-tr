@@ -1,22 +1,22 @@
 ---
 title: Maddeler için emniyet stoğu karşılama
 description: Bu konu, emniyet stoğu karşılamayı ve maddeler için emniyet stoğu miktarının nasıl ayarlanacağını ele alır.
-author: thethehelga
+author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-oldolg
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790950"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672080"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Maddeler için emniyet stoğu karşılama
 

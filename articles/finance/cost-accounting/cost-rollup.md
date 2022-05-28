@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779968"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734443"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Maliyet yuvarlama ilkesi ve genel gider hesaplaması 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779968"
 Maliyet muhasebesi, maliyet akışının bir kuruluş içerisinde teslim edilen ürünler ve hizmetlerle nasıl ilişkili olduğu hakkında bilgiler sağlar. Maliyet saydamlığını görmek için, uygun tahsisat tabanına dayalı maliyet nesneleri arasında maliyet tahsisatı elde etmek önemlidir. Varsayılan olarak, maliyet tahsisatı, bazı durumlarda istenilen ancak dikkate alınması gereken birkaç olası etkiye sahip birincil maliyet öğesi için elde edilir.
 
 -   Ek maliyet nesneleri, genel gider hesaplamasından sonra birincil maliyet öğesi için sıfır bakiye ile kapanır.
-
 -   Genel gider hesaplaması tarafından oluşturulan maliyet girdilerinin hacmi çok yüksek olabilir.
-
 -   Maliyet nesneleri arasında maliyet akışını izlemek mümkün değildir.
 
 Maliyet muhasebesi, bu ektilerin önüne geçmek için maliyet tahsisatının kuruluşunuzun yönetimsel raporlama gereksinimlerine uyacak şekilde yapılandırılmasını sağlar. Bu konu, ikincil maliyet öğelerinin doğru düzeyini belirlemek ve kuruluşun raporlamasına ve maliyet izlemesine uygun maliyet öğeleri ve maliyet yuvarlama kuralları oluşturmayı ele alır.

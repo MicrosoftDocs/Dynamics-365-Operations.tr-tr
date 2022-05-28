@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066612"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733999"
 ---
 # <a name="recruit-job-candidates"></a>İş adaylarını işe alma
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066612"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources işe alma isteklerini yönetmenize yardımcı olur. Ayrıca, çalışanların iş adaylarına sorunsuz şekilde geçiş yapmanıza yardımcı olur. Organizasyonunuzda ayrı bir işe alma uygulaması kullanılıyorsa, işe alma işleminiz aşağıdaki adımları içerebilir:
+Dynamics 365 Human Resources işe alma isteklerini yönetmenize yardımcı olur. Ayrıca, çalışanların iş adaylarına sorunsuz şekilde geçiş yapmanıza yardımcı olur. Organizasyonunuzda ayrı bir işe alma uygulaması kullanılıyorsa, işe alma işleminiz aşağıdaki adımları içerebilir:<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - İşe alma isteğinizi İnsan Kaynakları girin.
 - İşe alma uygulamasından İnsan Kaynakları aday başvurularını alın.
@@ -38,17 +37,22 @@ Dynamics 365 Human Resources işe alma isteklerini yönetmenize yardımcı olur.
 Ayrı bir işe alma uygulaması kullanmıyorsanız, İnsan Kaynakları adayların da el ile yönetilmesini sağlayabilirsiniz.
 
 > [!NOTE]
-> Bir yönetici veya geliştiricisiyseniz İnsan Kaynakları üçüncü taraf işe alma uygulamasıyla bütünleştirmek istiyorsanız, bkz: [Dataverse tümleştirmeyi konfigüre et](hr-admin-integration-common-data-service.md) ve [Dataverse sanal tablolarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md)
+> Bir yönetici veya geliştiricisiyseniz Human Resources'ı üçüncü taraf işe alma uygulamasıyla tümleştirmek istiyorsanız [Dataverse tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md) ve [Dataverse sanal tablolarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md) sayfalarına gidin
 >
 > [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics) işe alma tümleştirme uygulamalarını da bulabilirsiniz.
 >
-## <a name="enable-recruiting-requests"></a>İşe alma isteklerini etkinleştir
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Birleştirilmiş altyapıda işe alma isteklerini etkinleştirme
 
-İşe alma isteklerini İnsan Kaynakları göndermek istiyorsanız, önce **Human Resources paylaşılan parametrelerinde** işlevi etkinleştirmeniz gerekir .
+İşe alma isteklerini İK işe alma modülünde göndermek istiyorsanız, önce **İK Kullanıcı deneyimi** ve **İşe alma işlem yönetimi** özelliklerini etkinleştirmelisiniz.
 
-1. **Personel yönetimi** çalışma alanında, **Bağlantılar**'ı seçin.
-2. **Kurulum**'un altında, **İnsan kaynakları paylaşılan parametrelerini** seçin.
-3. **İşe alma** sekmesinde, **İşe alma** altında, **işe alma isteklerini** **Evet** olarak ayarlayın.
+Özellikler etkinleştirildikten sonra, aşağıdaki adımlarla işlevi seçin: 
+1. **Human resources** > **Kurulum** > **Human resources parametreleri**'ne gidin.
+2.  **İşe alma** sekmesinde, **İşe alma devre dışı bırakıldı** alanını **Hayır** olarak ayarlayın.
+3. **İşe alma deneyimi** açılır menüsünde, **İK işe alma** seçeneğini belirleyin.   
+
+> [!Note] 
+> **İK işe alma** seçildiğinde, **İşe alma projeleri** (eski) salt okunur olur. 
+
 
 ## <a name="add-a-recruiting-request-location"></a>İşe alma isteği Ekle konumu
 
@@ -60,8 +64,8 @@ Kuruluşunuzun birden çok konumu varsa, bu dosyaları ekleyerek bunları ekleye
 
     ![İşe alma isteği Ekle konumu.](./media/hr-recruit-0a-add-location.png)
 
-4. **Açıklama** alanında konumu için bir açıklama girin.
-5. **Konum** altında, **Ekle**'yi seçin. **Yeni Adres** iletişim kutusu görünürse, konumun adresini girin.
+4. **Açıklama** alanında konum için bir açıklama girin.
+5. **Konum** altında, **Ekle**'yi seçin. **Yeni adres** iletişim kutusu görünürse, konumun adresini girin.<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![Adresi girme.](./media/hr-recruit-0b-address.png)
 
@@ -83,7 +87,7 @@ Yöneticiler İnsan Kaynakları işe alma istekleri gönderebilir. Ayrı bir iş
     ![İşe alma isteğini tamamlama.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. **Devam**'ı seçin. Konumlarınıza ilişkin işe alma isteği görüntülenir.
-6. **Genel** altında, **Recruiter** açılan menüsünden bir işe alan seçin ve **işe alma isteği yerleşimi** açılan menüsünden bir yerleşim seçin.
+6. **Genel** altında, **İşe alan** açılan listesinden bir işe alan seçin ve **İşe alma isteği konumu** açılan listesinden bir konum seçin.
 7. **İş** altında, gerekli tüm bilgileri değiştirin ve sonra **işten ayrıntıları oluştur**'u seçin.
 
     ![İşten ayrıntı oluşturma.](./media/hr-recruit-3-create-details-from-job.png)
@@ -91,17 +95,17 @@ Yöneticiler İnsan Kaynakları işe alma istekleri gönderebilir. Ayrı bir iş
     İşe alma isteğinin geri kalanı girdiğiniz işle ilgili varsayılan bilgilerle doldurulur.
 
 8. **Harici açıklama** altında harici olarak açık bir iş açıklaması girin.
-9. **Pozisyonlar** altında, **Ekle** 'yi seçin ve sonra bu işe alma isteği için bir pozisyon seçin.
+9. **Pozisyonlar** altında, **Ekle** 'yi seçin ve sonra bu işe alma isteği için bir pozisyon seçin.<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![Pozisyon ekleme.](./media/hr-recruit-4-select-position.png)
 
 10. **Yetenekler**'in altında , **Ekle**'yi seçin ve sonra da bir yetenek seçin.
-11. **Eğitim gereksinimleri** altında , **Ekle**'yi seçin ve sonra **eğitim** ve **eğitim düzeyi** açılan listelerinden değerleri seçin.
+11. **Eğitim gereksinimleri** altında , **Ekle**'yi seçin ve sonra **Eğitim** ve **Eğitim düzeyi** açılan menülerinden değerleri seçin.
 
     ![Eğitim gereksinimleri ekleme.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. **Yorum** altında gerektiği şekilde yorumlar ekleyin.
-13. **Dengeleme** altında, **düzey** açılan menüsünden bir düzey seçin ve sonra **düşük eşik**, **kontrol noktası** ve **yüksek eşik ayarlarını** gerektiği gibi ayarlayın.
+13. **Dengeleme** altında, **düzey** açılan listesinden bir düzey seçin ve sonra **Düşük eşik**, **Kontrol noktası** ve **Yüksek eşik** ayarlarını gerektiği gibi ayarlayın.
 14. İşe alma isteğiniz tamamlandığında ve işe alma işlemini başlatmaya hazır olduğunuzda, menü çubuğunda **Etkinleştir**'i seçin.
 
     ![İşe alma isteğini etkinleştirme.](./media/hr-recruit-6-activate-recruit-request.png)
@@ -141,7 +145,7 @@ Kuruluşunuz işe alma isteklerini yönetmek için başka bir uygulamayla tümle
 
 4. Aday eklemek için **Yeni**'yi seçin. Varolan bir adayı düzenlemek için, listeden aday seçin ve **Düzenle**'yi seçin. Aday profili görüntülenir.
 5. **Aday Özeti** altında aday bilgilerini gerektiği gibi girin veya düzenleyin.
-6. **İşe alma isteği** altında adayı bağlamak için bir işe alma isteği seçin. **Tahmini Başlangıç tarihi**, **işe alma Yöneticisi**, **Konum** ve **Açıklama alanlarını** gerektiği gibi tamamlayın.
+6. **İşe alma isteği** altında adayı bağlamak için bir işe alma isteği seçin. **Tahmini başlangıç tarihi**, **İşe alma yöneticisi**, **Konum** ve **Açıklama** alanlarını gerektiği gibi tamamlayın.
 
     ![İşe alma isteğine bağlantı.](./media/hr-recruit-10-link-to-recruiting-request.png)
 

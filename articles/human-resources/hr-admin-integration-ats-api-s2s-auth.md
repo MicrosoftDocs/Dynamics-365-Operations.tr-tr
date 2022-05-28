@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064934"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743555"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>ATS tümleştirme API'sı için sunucudan sunucuya kimlik doğrulaması
 
@@ -89,7 +89,7 @@ Yeni rol için, en azından yeni rolün **Özel Varlıklar** sekmesindeki aşağ
 
 İkinci adım, uygulamayı Human Resources uygulamasındaki bir kullanıcıya bağlayarak uygulamaya Human Resources verilerine uygun izinlerin verilmesini sağlamaktır. Bir uygulama kullanıcısı için, Dataverse sanal tabloları aracılığıyla sunucudan sunucuya aramalar, Dataverse'deki eylemi çağıran kullanıcı (uygulama) kimliğinin bağlamında yapılır. Sanal tablo bağdaştırıcısı hizmeti, Human Resources'taki ilişkili kullanıcıyı arar ve sorguyu o kullanıcının bağlamında çalıştırır. Bu, tümleştirilen uygulamanın gereksinim duyduğu verilere erişim sağlamak için kullanıcının doğru roller atanarak Human Resources içinde oluşturulması gerektiği anlamına gelir.
 
-Human Resources kullanıcısının, Human Resources verileri için doğru izinlere atanması da gerekecektir. **İşe Alma Uygulaması** (HcmRecruitingIntegrator) rolü, işe alma verileriyle tümleştirme için gerekli olan birincil varlıkların ayrıcalıklarıyla kullanılabilir. Verilere uygun erişim hakkı vermek için, **Kullanıcılar** sayfasında uygulama kullanıcısına bu rol atanabilir. Human Resources güvenlik rolleriyle ilgili daha fazla bilgi için bkz. [Role dayalı güvenlik](/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Human Resources kullanıcısının, Human Resources verileri için doğru izinlere atanması da gerekecektir. **İşe Alma Uygulaması** (HcmRecruitingIntegrator) rolü, işe alma verileriyle tümleştirme için gerekli olan birincil varlıkların ayrıcalıklarıyla kullanılabilir. Verilere uygun erişim hakkı vermek için, **Kullanıcılar** sayfasında uygulama kullanıcısına bu rol atanabilir. Human Resources güvenlik rolleriyle ilgili daha fazla bilgi için bkz. [Role dayalı güvenlik](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>Yeni kullanıcıyı uygun izinlerle ayarlama
 

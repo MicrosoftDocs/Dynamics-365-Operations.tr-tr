@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753982"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734471"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Müşteriler için kredi yönetimi bilgileri ekleme
 
@@ -32,7 +32,7 @@ Müşteri ayrıntılarını **Tüm müşteriler** sayfasının (**Alacak hesabı
 1. Müşterinin herhangi bir kredi limiti testiyle sınırlanmaması gerekiyorsa **Sınırsız kredi limiti** seçeneğini **Evet** olarak ayarlayın.
 2. Müşteriyi genellikle kredi yönetimi işlemleri sırasında oluşan herhangi bir eylemin dışında tutmak için **Kredi yönetiminden hariç tut** seçeneğini **Evet** olarak ayarlayın.
 3. Müşteri için kredi yönetimi grubunu seçin.
-4. Kredi limitini müşterinin para biriminde hesaplamak için, **Müşterinin para birimi cinsinden kredi limiti** alanına müşterinin kredi limitini girin. Şirket para birimi cinsinden kredi limiti, Kredi yönetimi parametrelerinde seçilen kredi limiti döviz kuru türüyle tanımlanan döviz kurlarıyla dönüştürülür.
+4. Kredi limitini müşterinin para biriminde hesaplamak için, **Müşterinin para birimi cinsinden kredi limiti** alanına müşterinin kredi limitini girin. Şirket para birimi cinsinden kredi limiti, **Kredi yönetimi parametreleri**'nde seçilen kredi limiti döviz kuru türüyle tanımlanan döviz kurlarıyla dönüştürülür.
 5. **Son inceleme tarihi** alanına, müşterinin kredi limitinin bir kredi yöneticisi tarafından en son incelendiği tarihi girin.
 6. **Zamanlanan sonraki inceleme tarihi** alanına, müşteri için belirlenen kredi inceleme ve güncelleştirme zamanının tarihini.
 7. **Uygun kredi limiti** alanına, müşterinin kredi geçmişinin incelenmesine dayanarak, müşteriye atanabilecek en yüksek kredi limitini girin. Uygun kredi limiti, **Alacak ve koleksiyonlar** hızlı sekmesinde gösterilen kredi limitinden farklı olabilir.
@@ -46,7 +46,8 @@ Müşteri ayrıntılarını **Tüm müşteriler** sayfasının (**Alacak hesabı
 15. **Müşterilik başlangıç tarihi** alanına, müşteri için ilk hareketlerin işlendiği tarihi girin. Bu bilgiler risk puanları oluşturulurken kullanılır.
 16. Müşterinin kredi tutarını daha fazla değerlendirmek için kredi ekibinin kullanabileceği notlar girin.
 
-**Müşteri** sayfasında gösterilen bilgilerden bazılarının başka bir işlem tarafından oluşturulduğuna dikkat edin:
+> [!Note] 
+> **Müşteri** sayfasında gösterilen bazı bilgiler başka bir işlem tarafından oluşturulmuştur:
 
 - **Kredi limiti bitiş tarihi** alanı, kredi limitinin sona ereceği tarihi gösterir. Bu alanı ayarlamazsanız, müşterinin kredi limiti sona ermez.
 - **Kredi limiti tarihi** alanı, kredi limitinin oluşturulduğu tarihi gösterir. Kredi limiti her ayarlandığında bu alan güncelleştirilir.

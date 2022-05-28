@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce uygulamasında etki alanları
 description: Bu konuda, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734003"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737358"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce uygulamasında etki alanları
 
@@ -28,6 +28,9 @@ ms.locfileid: "6734003"
 Bu konuda, etki alanlarının Microsoft Dynamics 365 Commerce uygulamasında nasıl yönetildiği açıklanmaktadır.
 
 Etki alanları, bir web tarayıcısında Dynamics 365 Commerce sitelerinde gezinmek için kullanılan web adresleridir. Etki alanının yönetimini seçilen bir etki alanı adı sunucusu (DNS) sağlayıcısıyla denetleyebilirsiniz. Dynamics 365 Commerce site oluşturucusunda yayımlandığında bir siteye nasıl erişileceğini koordine etmek için etki alanlarına başvurulur. Bu konuda, Commerce site geliştirme ve başlatma yaşam döngüsü boyunca etki alanlarının nasıl yönetildiği ve başvurulduğu incelenir.
+
+> [!NOTE]
+> 6 Mayıs 2022 itibarıyla, Dynamics 365 Commerce'te oluşturulan tüm ortamlar önceki `.commerce.dynamics.com` şablonunun yerini alan `.dynamics365commerce.ms` etki alanıyla hazırlanacak. `.commerce.dynamics.com` etki alanıyla hazırlanan varolan ortamlar çalışmaya devam eder.
 
 ## <a name="provisioning-and-supported-host-names"></a>Hazırlama ve desteklenen ana bilgisayar adları
 
@@ -44,7 +47,7 @@ Hazırlama işlemi oluşturulmaya başlandıysa, ortama ek etki alanları ekleme
 
 ## <a name="commerce-generated-urls"></a>Commerce tarafından oluşturulan URL'Ler
 
-Bir Dynamics 365 Commerce e-ticaret ortamı hazırlanırken Commerce, ortam için çalışma adresi olacak bir URL oluşturur. Bu URL'ye, ortam hazırlandıktan sonra LCS'de gösterilen e-ticaret site bağlantısında başvurulur. Commerce tarafından oluşturulan bir URL, Commerce ortamı için e-ticaret kiracı adının LCS'de girildiği `https://<e-commerce tenant name>.commerce.dynamics.com` adresi şeklindedir.
+Bir Dynamics 365 Commerce e-ticaret ortamı hazırlanırken Commerce, ortam için çalışma adresi olacak bir URL oluşturur. Bu URL'ye, ortam hazırlandıktan sonra LCS'de gösterilen e-ticaret site bağlantısında başvurulur. Commerce tarafından oluşturulan bir URL, Commerce ortamı için e-ticaret kiracı adının LCS'de girildiği `https://<e-commerce tenant name>.dynamics365commerce.ms` adresi şeklindedir.
 
 Üretim sitesi ana bilgisayar adlarını, bir korumalı alan ortamında da kullanabilirsiniz. Bu seçenek, bir siteyi bir korumalı alan ortamından üretime kopyalayacaksanız ideal bir seçenektir.
 
@@ -67,11 +70,11 @@ Aşağıdaki şekilde, site oluşturucusuna ilk kez eriştiğinizde "varsayılan
 
 Örneğin, "xyz" adlı bir e-ticaret kiracısında site oluşturucusunda "Fabrikam" adlı bir siteniz varsa ve siteyi boş bir yolla ayarlarsanız, Commerce tarafından olarak oluşturulan temel URL'ye doğrudan giderek, bir web tarayıcısındaki yayınlanan site içeriğine erişebilirsiniz:
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 Alternatif olarak, aynı sitenin kurulumu sırasında "fabrikam" yolunu eklediyseniz, aşağıdaki URL'yi kullanarak bir web tarayıcısında yayınlanan site içeriğine erişebilirsiniz:
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>Sayfalar ve URL'Ler
 
@@ -92,16 +95,16 @@ Desteklenen ana bilgisayar adları değerleri, bir siteyi kurarken etki alanı o
 Site oluşturucusunda sitelerle çalışırken, iki farklı etki alanı ile kurulmuş iki siteniz varsa, bir tarayıcıda yayınlanan site içeriğine erişmek için, çalışma URL'nize **?domain=** özniteliğini ekleyebilirsiniz.
 
 Örneğin, "xyz" ortamı hazırlandı ve site oluşturucusunda iki site oluşturulup ilişkilendirildi: Biri `www.fabrikam.com` etki alanına sahip ve diğeri `www.constoso.com` etki alanına sahip. Her site boş bir yol kullanarak kuruldu. Daha sonra bu iki siteye, **?domain=** özniteliğini kullanarak bir web tarayıcısından aşağıdaki gibi erişilebilir:
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Birden çok etki alanı bulunan bir ortamda bir etki alanı sorgusu dizesi verilmediğinde, Commerce, verdiğiniz ilk etki alanını kullanır. Örneğin, site kurulumu sırasında ilk olarak "fabrikam" yolu sağlanmışsa, `https://xyz.commerce.dynamics.com` URL'si `www.fabrikam.com` için yayımlanan sitenin içerik sitesine erişmek amacıyla kullanılabilir.
+Birden çok etki alanı bulunan bir ortamda bir etki alanı sorgusu dizesi verilmediğinde, Commerce, verdiğiniz ilk etki alanını kullanır. Örneğin, site kurulumu sırasında ilk olarak "fabrikam" yolu sağlanmışsa, `https://xyz.dynamics365commerce.ms` URL'si `www.fabrikam.com` için yayımlanan sitenin içerik sitesine erişmek amacıyla kullanılabilir.
 
 ## <a name="traffic-forwarding-in-production"></a>Üretimde trafiği yönlendirme
 
-commerce.dynamics.com uç noktasının kendisi üzerindeki etki alanı sorgulama dizesi parametrelerini kullanarak birden çok etki alanı benzetimi yapabilirsiniz. Ancak, üretimde canlıya geçmeniz gerektiğinde, özel etki alanınıza ilişkin trafiği `<e-commerce tenant name>.commerce.dynamics.com` uç noktasına yönlendirmelisiniz.
+commerce.dynamics.com uç noktasının kendisi üzerindeki etki alanı sorgulama dizesi parametrelerini kullanarak birden çok etki alanı benzetimi yapabilirsiniz. Ancak, üretimde canlıya geçmeniz gerektiğinde, özel etki alanınıza ilişkin trafiği `<e-commerce tenant name>.dynamics365commerce.ms` uç noktasına yönlendirmelisiniz.
 
-`<e-commerce tenant name>.commerce.dynamics.com` uç noktası özel etki alanı güvenli yuva katmanlarını (SSL'ler) desteklemediğinden, front door hizmeti veya içerik teslim ağı (CDN) kullanarak özel etki alanları kurmanız gerekir. 
+`<e-commerce tenant name>.dynamics365commerce.ms` uç noktası özel etki alanı güvenli yuva katmanlarını (SSL'ler) desteklemediğinden, front door hizmeti veya içerik teslim ağı (CDN) kullanarak özel etki alanları kurmanız gerekir. 
 
 Bir front door hizmeti veya CDN kullanarak özel etki alanları ayarlamak için iki seçeneğiniz vardır:
 

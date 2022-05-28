@@ -1,22 +1,22 @@
 ---
 title: Yerine koyma için izlemeyi güncelleştirme
 description: Bu konuda, Yerine koyma için izlemeyi güncelleştirme periyodik görevinin nasıl kurulacağı ve çalıştırılacağı açıklanmaktadır.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d8e2a42d8e12a5a9cf18e876b6f9e45ecb877881
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: f02ba71b4eb32551cebc6cf160f0285eac8ae7ad
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500035"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673984"
 ---
 # <a name="update-tracking-for-put-away"></a>Yerine koyma için izlemeyi güncelleştirme
 

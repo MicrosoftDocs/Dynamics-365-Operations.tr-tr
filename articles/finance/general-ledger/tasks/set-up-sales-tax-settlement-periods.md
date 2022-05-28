@@ -1,6 +1,6 @@
 ---
 title: Satış vergisi kapatma dönemlerini ayarlama
-description: Bu konuda, Dynamics 365 Finance'da satış vergisi kapatma dönemlerini nasıl ayarlanacağı açıklanmaktadır.
+description: Bu konuda, Dynamics 365 Finance'te satış vergisi kapatma dönemlerinin nasıl ayarlanacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732969"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735828"
 ---
-# <a name="set-up-sales-tax-settlement-periods"></a>Satış vergisi kapatma dönemlerini ayarlama
+# <a name="set-up-sales-tax-settlement-periods"></a>Satış vergisi kapatma dönemlerini ayarla
 
 [!include [banner](../../includes/banner.md)]
 
@@ -28,7 +28,7 @@ Bu konuda, satış vergisi kapatma dönemlerinin nasıl ayarlanacağı açıklan
 
 Bu görevde USMF demo şirketi kullanılmaktadır.
 
-1. Gezinti bölmesinde **Modüller > Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kapatma dönemleri**'ne gidin.
+1. **Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kapatma dönemleri**'ne gidin.
 2. **Yeni**'yi seçin.
 3. **Kapatma dönemi** alanına bir değer yazın.
 4. **Tanım** alanına bir değer girin.

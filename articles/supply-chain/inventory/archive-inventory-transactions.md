@@ -2,7 +2,7 @@
 title: Stok hareketlerini arşivleme
 description: Bu konuda, sistem performansını artırmaya yardımcı olmak için stok hareketi verilerinin nasıl arşivleneceği açıklanmaktadır.
 author: yufeihuang
-ms.date: 03/01/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567475"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736075"
 ---
 # <a name="archive-inventory-transactions"></a>Stok hareketlerini arşivleme
 
@@ -116,3 +116,110 @@ Kılavuzun üstündeki araç çubuğu, seçili bir arşivle çalışmak için ku
 - **Arşivlemeyi duraklat**: İşlenmekte olan seçili arşivi duraklatın. Duraklatma yalnızca arşivleme görevi oluşturulduktan sonra etkinleşir. Bu nedenle, duraklatma etkili olmadan önce kısa bir gecikme olabilir. Bir arşiv duraklatılmışsa **Geçerli güncelleştirmeyi durdur** alanında bir onay işareti görünür.
 - **Arşivlemeye devam et**: Şu anda duraklatılmış olan seçili bir arşiv için işlemeyi devam ettirir.
 - **Ters Çevir**: Seçili arşivi ters çevirin. Arşivi yalnızca **Durum** alanı *Tamamlandı* olarak ayarlanmışsa tersine çevirebilirsiniz. Arşiv tersine çevrilmişse **Ters** alanında bir onay işareti görünür.
+
+## <a name="extend-your-code-to-support-custom-fields"></a>Özel alanları desteklemek için kodunuzu genişletme
+
+`InventTrans` tablosu bir veya daha fazla özel alan içeriyorsa, adlandırılmalarına bağlı olarak, kodu onları destekleyecek şekilde genişletmeniz gerekebilir.
+
+- `InventTrans` tablosundaki özel alanlar `InventtransArchive` tablosundakilerle aynı alan adlarına sahipse bu alanlar 1:1 eşlenir. Bu nedenle, özel alanları `inventTrans` tablosunun `InventoryArchiveFields` alanlar grubuna koyabilirsiniz.
+- `InventTrans` tablosundaki özel alan adları `InventtransArchive` tablosundaki alan adlarıyla eşleşmezse, bunları eşlemek için kod eklemeniz gerekir. Örneğin, `InventTrans.CreatedDateTime` adlı bir sistem alanınız varsa `InventTransArchive` tablosunda farklı bir adla (örneğin `InventtransArchive.InventTransCreatedDateTime`) bir alan oluşturmanız ve aşağıdaki örnek kodda görüldüğü gibi, `InventTransArchiveProcessTask` ve `InventTransArchiveSqlStatementHelper` sınıflarına uzantılar eklemeniz gerekir.
+
+Aşağıdaki örnek kod, gerekli uzantının `InventTransArchiveProcessTask` sınıfına nasıl ekleneceğinin bir örneğini gösterir.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveProcessTask))]
+Final class InventTransArchiveProcessTask_Extension
+{
+
+    protected void addInventTransFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTrans, ModifiedBy))
+            .add(fieldStr(InventTrans, CreatedBy)).add(fieldStr(InventTrans, CreatedDateTime));
+
+        next addInventTransFields(_selectionObject);
+    }
+
+
+    protected void addInventTransArchiveFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTransArchive, InventTransModifiedBy))
+            .add(fieldStr(InventTransArchive, InventTransCreatedBy)).add(fieldStr(InventTransArchive, InventTransCreatedDateTime));
+
+        next addInventTransArchiveFields(_selectionObject);
+    }
+}
+```
+
+Aşağıdaki örnek kod, gerekli uzantının `InventTransArchiveSqlStatementHelper` sınıfına nasıl ekleneceğinin bir örneğini gösterir.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]
+final class InventTransArchiveSqlStatementHelper_Extension
+{
+    private str     inventTransModifiedBy;  
+    private str     inventTransCreatedBy;
+    private str     inventTransCreatedDateTime;
+
+    protected void initialize()
+    {
+        next initialize();
+        inventTransModifiedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, ModifiedBy)).name(DbBackend::Sql);
+        inventTransCreatedDateTime = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedDateTime)).name(DbBackend::Sql);
+        inventTransCreatedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedBy)).name(DbBackend::Sql);
+    }
+
+    protected str buildInventTransArchiveSelectionFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransArchiveSelectionFieldsStatement();
+        
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransModifiedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedDateTime)).name(DbBackend::Sql));
+        }
+
+        return ret;
+    }
+
+    protected str buildInventTransTargetFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransTargetFieldsStatement();
+
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransModifiedBy);
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedBy);
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedDateTime);
+        }
+
+        return ret;
+    }
+}
+```

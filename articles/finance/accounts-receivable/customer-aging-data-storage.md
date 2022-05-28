@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497d49da84f4df90877908bef3031e079bc36066
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557892"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735535"
 ---
 # <a name="customer-aging-data-storage"></a>Müşteri yaşlandırma veri depolaması
 
 [!include [banner](../includes/banner.md)]
 
-
-Bu konu, müşteri yaşlandırma verileri için harici depolama kullanma sürecini açıklamaktadır. Microsoft Dynamics 365 Finance'te çıktıyı, harici bir sisteme dışa aktarmak üzere kullanılabilir hale getirmek için Müşteri yaşlandırma verileri depolama sürecini çalıştırabilirsiniz. İşlemi çalıştırdığınızda, sistemde kullanılabilen aynı yaşlandırma raporu seçenekleri harici sistemler tarafından kullanılabilir. Ayrıntılar her zaman dışa aktarılan verilere dahil edilir.
+Bu konu, müşteri yaşlandırma verileri için harici depolama kullanma sürecini açıklamaktadır. Microsoft Dynamics 365 Finance'te çıktıyı, harici bir sisteme dışa aktarmak üzere kullanılabilir hale getirmek için **Müşteri yaşlandırma verileri depolama** sürecini çalıştırabilirsiniz. İşlemi çalıştırdığınızda, sistemde kullanılabilen aynı yaşlandırma raporu seçenekleri harici sistemler tarafından kullanılabilir. Ayrıntılar her zaman dışa aktarılan verilere dahil edilir.
 
 Çıktıda birçok müşteri ve/veya birçok hareket bulunduğu durumlarda, Müşteri yaşlandırma verilerinin bir harici sistem tarafından kullanılabilmesini sağlamak yararlı olabilir. Varolan **Müşteri yaşlandırma** raporu, yazdırılmak üzere çok fazla veri içerdiği için zaman aşımına uğrar; bu özellik aynı verileri elde etmek için alternatif bir yol sağlar.
 

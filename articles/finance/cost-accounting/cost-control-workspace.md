@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763202"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734618"
 ---
 # <a name="cost-control-workspace"></a>Maliyet kontrolü çalışma alanı 
 
@@ -54,7 +54,7 @@ Bir maliyet denetimi çalışma alanı yapılandırmak için **Maliyet muhasebes
 | Maliyet muhasebesi defteri                                            | Raporun üzerine dayandığı **Maliyet muhasebesi genel muhasebesi**. Değer **Maliyet kontrol birimi** alanında türetilmiştir. |
 | Maliyet kontrolü birimi                                                 | Seçtiğiniz değer, bu raporun üzerine dayanacağı maliyet muhasebesi genel muhasebesini ve maliyet nesnelerini belirler. |
 | İstatistiksel boyut hiyerarşisi, Maliyet nesnesi boyut hiyerarşisi | Bir **Maliyet denetimi** çalışma alanı yapılandırması kaydı, bir parasal olmayan veya parasal olan değerleri raporlayabilir ancak aynı biçimde değil. **Maliyet öğesi boyut hiyerarşisi** alanı içinde parasal değerleri raporlamak için bir değer seçin. **İstatistiksel boyut hiyerarşisi** alanı içinde parasal olmayan değerleri raporlamak için bir değer seçin. Seçtiğiniz boyut hiyerarşisi kaydı, raporlama ve toplama düzeylerinin yapısını belirler.<blockquote>[!NOTE]<br>Parasal olmayan ve parasal değerleri yan yana görmek için, veriyi Microsoft Power BI içerik paketi için Microsoft Excel'e aktarabilirsiniz.</blockquote> |
-| Maliyet nesnesi boyut hiyerarşisi                                   | Tanımladığınız raporlama amacına uygun maliyet nesnesi boyutunun boyut hiyerarşisini seçin. |
+| Maliyet nesnesi boyut hiyerarşisi      | Tanımladığınız raporlama amacına uygun maliyet nesnesi boyutunun boyut hiyerarşisini seçin. |
 | Orijinal bütçe sürümü                                           | Bu raporun bağlamında orijinal bütçe olarak beliren bütçe sürüm kimliğini seçin. |
 | Düzeltilmiş bütçe sürümü                                            | Bu raporun bağlamında revize edilen bütçe olarak beliren bütçe sürüm kimliğini seçin. |
 

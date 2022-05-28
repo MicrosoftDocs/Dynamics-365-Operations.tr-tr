@@ -1,7 +1,7 @@
 ---
 title: Sevkiyat bilgileri kurulumu
 description: Bu konuda, Varış yeri maliyeti modülü için sevkiyat bilgilerinin nasıl ayarlanacağı açıklanmaktadır.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMGoodsDescriptionTable, ITMVesselTable, ITMExporterTable, ITMCommodityCodeTable, ITMCustomsDescription
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 86350acfd056be2b43fc856e3b76b1632989a804
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ee099b923f3e2140f7f6962795fc6b6e87b913a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579700"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690316"
 ---
 # <a name="shipping-information-setup"></a>Sevkiyat bilgileri kurulumu
 

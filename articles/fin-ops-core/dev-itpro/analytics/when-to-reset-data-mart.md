@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
-ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
+ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8466425"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714143"
 ---
 # <a name="data-mart-resets-faq"></a>Veri reyonunu sıfırlamayla ilgili SSS
 

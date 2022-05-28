@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728757"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734853"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Satış vergisi raporlama kodlarını ayarla
 
 [!include [banner](../../includes/banner.md)]
 
-Satış vergisi raporlama kodları, satış vergisi raporunda listelenen bir alan numarasına karşılık gelir. Bunlar ülkeye özgü rapor düzenlerinde kullanılır. Bunlar kod raporuna göre Satış vergisi ödemesinde de kullanılır. Bu raporda, her bir raporlama kodu için özetlenen bir kapanış dönemine ait satış vergisi tutarları gösterilir. Satış vergisi raporlama kodlarını oluşturduktan sonra, **Satış vergisi kodu** sayfasından erişebileceğiniz Rapor kurulumu hızlı sekmelerinde bu kodlara başvurabilirsiniz. 
+**Satış vergisi raporlama kodları**, satış vergisi raporunda listelenen bir alan numarasına karşılık gelir. Bunlar ülkeye özgü rapor düzenlerinde kullanılır. Bunlar kod raporuna göre Satış vergisi ödemesinde de kullanılır. Bu raporda, her bir raporlama kodu için özetlenen bir kapanış dönemine ait satış vergisi tutarları gösterilir. **Satış vergisi raporlama kodları**'nı oluşturduktan sonra, **Satış vergisi kodu** sayfasından erişebileceğiniz **Rapor kurulumu** hızlı sekmelerinde bu kodlara başvurabilirsiniz. 
 
 Bu kayıtta DEMF demo şirketi kullanılmaktadır.
 

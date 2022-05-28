@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerSystemSetup, CustPosting, VendPosting, InventPosting, AssetPosting, ProjPosting, AssetLeasePostingAccounts, ProjCategory, ITMCostTypeTable, ProdGroup, WrkCtrTable, WrkCtrResourceGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ad33d9a34bc449b81ec6d02a78b9ca1653aca5
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: 4c29597155e525638e7c2ded7d641017f2189c49
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018391"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734590"
 ---
 # <a name="posting-profiles-overview"></a>Deftere nakil profillerine genel bakış
 
-Finance ve Operations uygulamalarında, yardımcı defter hesaplarının ana hesaplara nasıl dönüştürüldüğünü kontrol eden konfigürasyonları açıklamak için *deftere nakil profilleri* kullanılır; böylece, muhasebe defterine nakledilen hareketlerde kullanılabilirler. Örneğin, bir fatura deftere nakledildiğinde, müşterinin Alacak hesapları ana hesabına nasıl dönüştürüleceğini denetler.
+Finans ve Operasyon uygulamalarında, yardımcı defter hesaplarının ana hesaplara nasıl dönüştürüldüğünü kontrol eden konfigürasyonları açıklamak için *deftere nakil profilleri* kullanılır; böylece, muhasebe defterine nakledilen hareketlerde kullanılabilirler. Örneğin, bir fatura deftere nakledildiğinde, müşterinin Alacak hesapları ana hesabına nasıl dönüştürüleceğini denetler.
 
 Bazı modüller ve özellikler, adda "deftere nakil profili" sözcüklerini içeren bir sayfaya sahiptir (örneğin, **Müşteri deftere nakil profili** veya **Satıcı deftere nakil profili**). Ek olarak, bazı modüllerin, yardımcı defterden oluşturulan hareketler için deftere nakilleri konfigüre etme seçenekleri vardır. Örneğin, **Üretim denetim** modülünde deftere nakil işlemini üretim grubuna, kaynağa veya kaynak grubuna göre ayarlayabilirsiniz.
 
@@ -34,7 +34,7 @@ Deftere nakil profilleri, deftere nakil tanımları veya **Otomatik hareketler s
 
 ## <a name="posting-types"></a>Deftere nakil türleri
 
-Finance ve Operations uygulamalarında deftere nakil tipi bir borç veya alacak için genel kategori tanımlamak amacıyla kullanılır. Bu kategori, genel muhasebedeki ana hesaptan bağımsızdır. Genel muhasebede her borç veya alacak için deftere nakil türleri vardır.
+Finans ve Operasyon uygulamalarında deftere nakil tipi bir borç veya alacak için genel kategori tanımlamak amacıyla kullanılır. Bu kategori, genel muhasebedeki ana hesaptan bağımsızdır. Genel muhasebede her borç veya alacak için deftere nakil türleri vardır.
 
 Tek bir fişin bir veya daha fazla deftere nakil türü olabilir. Örneğin, hesap ve mahsup hesabın **Genel muhasebe** olarak ayarlandığı bir yevmiye defterinde deftere nakledilen bir hareket, hem borç, hem de alacak için **Genel muhasebe günlüğü** türünde olacaktır. Bunun tersine, satıcı faturası birden çok deftere nakil türüne sahip olacaktır. Bu deftere nakil türleri için, satıcı bakiyesi ve **Genel muhasebe günlüğü** gibi mahsup girişine ait ek satırlar için bir satır yer alır.
 
@@ -99,7 +99,7 @@ Stok deftere nakil profillerinde satış kategorisine veya tedarik kategorisine 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ve Dynamics 365 Project Operations uygulamalarındaki birçok modülde deftere nakil profili veya genel muhasebeye nakil yöntemini denetleyen ek konfigürasyonlara sahiptir. Her modüldeki deftere nakil profilleri ve deftere nakil kurulumları hakkında daha fazla bilgi edinmek için aşağıdaki konuları kullanın:
+Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce ve Dynamics 365 Project Operations uygulamalarındaki birçok modül, deftere nakil profili veya genel muhasebeye nakil yöntemini denetleyen ek yapılandırmalara sahiptir. Her modüldeki deftere nakil profilleri ve deftere nakil kurulumları hakkında daha fazla bilgi edinmek için aşağıdaki konuları kullanın:
 
 - [Otomatik hareketler için hesaplar](accounts-for-auto-transactions.md)
 - [Borç hesapları deftere nakli](accts-payble-posting.md)

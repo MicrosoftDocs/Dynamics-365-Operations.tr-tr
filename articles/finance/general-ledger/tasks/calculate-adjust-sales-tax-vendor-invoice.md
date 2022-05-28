@@ -1,6 +1,6 @@
 ---
 title: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
-description: Bu konuda Dynamics 365 Finance satıcı faturasındaki satış vergisinin nasıl ayarlanacağı açıklanmaktadır.
+description: Bu konuda, Dynamics 365 Finance'te satıcı faturasındaki satış vergisinin nasıl ayarlanacağı açıklanmaktadır.
 author: twheeloc
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 648d94e895a4941f5f3148134130b3ffa693a9d57e0bb4e236f5d5fb33aca48f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779824"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734703"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
 
@@ -26,7 +26,7 @@ ms.locfileid: "6779824"
 
 Bu konuda satıcı faturasındaki satış vergisinin nasıl ayarlanacağı açıklanmaktadır. Orijinal kaynak belgesinde hesaplanandan farklı vergi tutarları görüntüleniyorsa, bu tutarları deftere nakletmeden önce ayarlayabilirsiniz. Bu görevde DEMF demo şirketi kullanılmaktadır.
 
-1. Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura günlüğü**'ne gidin.
+1. **Borç hesapları > Faturalar > Fatura günlüğü**'ne gidin.
 2. **Yeni**'yi seçin.
 3. Yeni satırdaki **Ad** alanında açılır menüden bir seçenek belirleyin.
 4. Eylem Bölmesinde, **Satırlar**'ı seçin.

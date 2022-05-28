@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075311"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739401"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21 sürümündeki yenilikler veya değişiklikler (Ekim 2021)
 
@@ -130,16 +130,16 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 | Master planlama | [Plan geçmişini ve planlama günlüklerini görüntüleme](../master-planning/planning-optimization/plan-history-logs.md) |
 | Ambar yönetimi | [Konteyner ambalaj stratejileri](../warehousing/container-packing-strategy-overview.md) |
 | Ambar yönetimi | [Döngü sayımı örnek senaryoları](../warehousing/cycle-counting-scenarios.md) |
-| Ambar yönetimi | [Gelen ÖSB'leri v2 veri varlığı aracılığıyla içeri aktarma](../warehousing/import-asn-v2-data-entity.md) |
+| Ambar yönetimi | [Gelen ÖSB'leri V3 veri varlığı üzerinden içe aktarma](../warehousing/import-asn-data-entity.md) |
 | Ambar yönetimi | [Satış siparişleri ve transfer emirleri için fazla malzeme çekme](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Ambar yönetimi | [Dalga sırasında dalga etiketi yazdırmayı zamanlama](../warehousing/configure-task-based-wave-label-printing.md) |
 | Ambar yönetimi | [Warehouse Management mobil uygulamasındaki yenilikler veya değiştirmeler](../warehousing/whats-new-wma.md) |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance ve Operations uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

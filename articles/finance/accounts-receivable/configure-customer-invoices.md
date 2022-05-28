@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
+ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392923"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "8756977"
 ---
 # <a name="create-a-customer-invoice"></a>Müşteri faturası oluşturma
 
@@ -28,9 +28,9 @@ ms.locfileid: "8392923"
 
 **Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır. Bu türdeki bir satış faturası, satış satırları ve madde numaraları içeren bir satış siparişine dayanarak oluşturulur. Madde numaraları genel muhasebede belirtilir ve deftere kaydedilir. Muavin defteri günlük girişleri, bir satış siparişi için müşteri faturası için kullanılamaz Daha fazla bilgi için bkz. [Satış siparişi faturaları oluşturun](tasks/create-sales-order-invoices.md).
 
-Bir **serbest metin faturası** satış siparişiyle ilişkili değildir. Genel muhasebe hesaplarının, serbest metin açıklamalarının ve girdiğiniz satış tutarının bulunduğu sipariş satırlarını içerir. Bu tür bir faturaya bir madde numarası giremezsiniz. Uygun satış vergisi bilgilerini girmeniz gerekir. Satış için bir ana hesap her fatura satırında belirtilir ve **serbest metin faturası** sayfasındaki **Dağıtım tutarları** üzerine tıklatarak birden çok genel muhasebe hesaplarına dağıtabilirsiniz. Ayrıca, müşteri bakiyesi gelen serbest metin faturası için kullanılan deftere nakil profili özet hesabına nakledilir.
+**Serbest metin faturası** satış siparişiyle ilişkili değildir. Genel muhasebe hesaplarının, serbest metin açıklamalarının ve girdiğiniz satış tutarının bulunduğu sipariş satırlarını içerir. Bu tür bir faturaya bir madde numarası giremezsiniz. Uygun satış vergisi bilgilerini girmeniz gerekir. Satış için bir ana hesap her fatura satırında belirtilir ve **serbest metin faturası** sayfasındaki **Dağıtım tutarları** üzerine tıklatarak birden çok genel muhasebe hesaplarına dağıtabilirsiniz. Ayrıca, müşteri bakiyesi gelen serbest metin faturası için kullanılan deftere nakil profili özet hesabına nakledilir.
 
-Daha fazla bilgi için bkz.:
+Daha fazla bilgi için bkz:
 
 [Serbest metin faturaları oluştur](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -41,7 +41,10 @@ Daha fazla bilgi için bkz.:
 [Yinelenen serbest metin faturaları oluşturma ve deftere nakletme](tasks/post-recurring-free-text-invoices.md)
 
 
-Bir **Proforma fatura** bir fatura deftere nakledilmeden önce gerçek fatura tutarlarının bir tahmini olarak hazırlanan faturadır. Satış siparişi için müşteri faturası veya bir serbest metin faturası için bir proforma fatura yazdırabilirsiniz.
+**Proforma fatura**, bir fatura deftere nakledilmeden önce gerçek fatura tutarlarının bir tahmini olarak hazırlanan faturadır. Satış siparişi için müşteri faturası veya bir serbest metin faturası için bir **Proforma fatura** yazdırabilirsiniz. 
+
+>[!NOTE]
+> Satış proforma fatura işlemi sırasında sistem kesintisi olması durumunda, proforma fatura artık hale gelebilir. Artık bir proforma fatura, **Proforma faturaları el ile sil** periyodik işi çalıştırılarak silinebilir. **Satış ve pazarlama > Periyodik görevler > Temizle > Proforma faturaları el ile sil**'e gidin.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Satış siparişi müşteri faturası veri varlıklarını kullanma
 Satış siparişinin müşteri faturası hakkındaki bilgileri almak ve vermek için veri varlıklarını kullanabilirsiniz. Satış faturası başlığındaki ve satış faturası satırlarındaki bilgiler için farklı varlıklar vardır.
@@ -70,7 +73,7 @@ Satış siparişlerinin durumunu **Tüm satış siparişleri** listesi sayfasın
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-packing-slips-and-the-date"></a>Sevk irsaliyesine ve tarihe dayalı olan tekil müşteri faturalarını deftere nakledin veya yazdırın.
 Bu işlemi, satış siparişine bir veya daha fazla sevk irsaliyesinin deftere nakledildiğinde kullanın. Müşteri faturası bu sevk irsaliyelerine dayanır ve bunların miktarlarını yansıtır. Faturanın mali bilgileri, faturayı naklettiğinizde girilen bilgilere dayanır. 
 
-Belirli bir satış siparişi için olan tüm maddeler henüz sevk edilmemiş olsa bile, o tarihe kadar sevk edilmiş sevk irsaliyesi satır maddelerine dayanan bir satış müşteri faturası oluşturabilirsiniz. Bunu, örneğin, tüzel kişiliğiniz müşteri başına, o ayda sevk ettiğiniz tüm teslimatları içeren bir fatura kesiyorsa yapabilirsiniz. Her sevk irsaliyesi, satış siparişindeki maddelerin kısmen veya tamamen sevk edildiğini temsil eder. 
+Belirli bir satış siparişinin tüm maddeleri sevk edilmemiş olsa bile, o tarihe kadar sevk edilmiş sevk irsaliyesi satır maddelerine dayanan bir satış müşteri faturası oluşturabilirsiniz. Bunu, örneğin, tüzel kişiliğiniz müşteri başına, o ayda sevk ettiğiniz tüm teslimatları içeren bir fatura kesiyorsa yapabilirsiniz. Her sevk irsaliyesi, satış siparişindeki maddelerin kısmen veya tamamen sevk edildiğini temsil eder. 
 
 Faturayı deftere naklettiğinizde, her madde için **Faturan kalan** miktarı, seçili sevk irsaliyelerinden sevk edilmiş miktarların toplamı ile güncelleştirilir. Eğer tüm maddeler için **Fatura kalanı** miktarı ve **Teslimat bakiyesi** satış siparişindeki miktarı 0 (sıfır) olursa, satış siparişinin durumu **Faturalandı** olarak değiştirilir. Eğer **Fatura kalanı** miktarı 0 (sıfır) değilse, satış siparişinin durumu değiştirilmez ve buna ek faturalar girilebilir. 
 
@@ -83,8 +86,13 @@ Bu işlemi, bir veya daha fazla satış siparişi faturalanmaya hazır durumda o
 
 **Satış siparişi** liste sayfasında birden fazla fatura seçebilirsiniz ve sonra **Faturalar oluştur**'u kullanarak bunları birleştirebilirsiniz. **Sipariş özeti** ayarını, **Faturayı deftere nakletme** sayfasında siparişi numarasına göre özetlemek için (tek bir satış siparişi için birden çok sevk irsaliyesi olduğunda) veya fatura hesabına göre (tek bir fatura hesabı için birden fazla satış siparişi bulunduğunda) değiştirebilirsiniz. **Yerleştir** düğmesini kullanıp satış siparişlerini **Sipariş özeti** ayarlarına dayanarak tek bir faturada bir araya getirin.
 
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Satış siparişi faturalarını tesise ve teslimat bilgilerine göre ayırma
+Satış siparişi müşteri faturalarını tesise göre veya teslimat adresine göre ayırmayı, **Alacak hesapları parametreleri** sayfasındaki **Özet güncelleştirme** sekmesinde yapılandırabilirsiniz. 
+ - Nakil sırasında her tesis için bir fatura oluşturmak üzere **Fatura tesisine göre ayır** seçeneğini belirleyin. 
+ - Nakil sırasında her bir satış siparişi satırı teslimat adresi için bir fatura oluşturmak üzere **Fatura teslimat bilgilerine göre ayır** seçeneğini seçin. 
+
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Fiyatı olmayan satış siparişi fatura satırları için Gelir hesabına naklet
-Fiyat içermeyen satış siparişi satırları için **Genel muhasebedeki** **Gelir** hesabını güncelleştirme seçeneğiniz olacaktır. Bu bilgileri ayarlamak veya görüntülemek için, **Alacak hesapları parametreleri** sayfasının **Genel muhasebe ve satış vergisi** sekmesindeki **Sıfır fiyatlı satış siparişi fatura satırları için Gelir hesabına naklet** bölümüne gidin. (**Alacak hesapları > Kurulum > Alacak hesapları parametreleri**). Fiyat içermeyen satış siparişi faturası satırları için **Gelir** hesabını güncelleştirmek üzere **Evet**'i seçin. Bir gelir hesabı, **Satış siparişi** hesabı tanımı sekmesindeki **Stok deftere nakil** parametresi sayfasında tanımlanır. Bu seçenek belirlenmezse, Fiyat bilgisi içermeyen satırlar **Gelir** hesabına deftere nakletmez.
+Fiyat içermeyen satış siparişi satırları için **Genel muhasebe**'deki **Gelir** hesabını güncelleştirme seçeneğiniz olacaktır. Bu bilgileri ayarlamak veya görüntülemek için, **Alacak hesapları parametreleri** sayfasının **Genel muhasebe ve satış vergisi** sekmesindeki **Sıfır fiyatlı satış siparişi fatura satırları için Gelir hesabına naklet** bölümüne gidin. (**Alacak hesapları > Kurulum > Alacak hesapları parametreleri**). Fiyat içermeyen satış siparişi faturası satırları için **Gelir** hesabını güncelleştirmek üzere **Evet**'i seçin. Bir gelir hesabı, **Satış siparişi** hesabı tanımı sekmesindeki **Stok deftere nakil** parametresi sayfasında tanımlanır. Bu seçenek belirlenmezse, Fiyat bilgisi içermeyen satırlar **Gelir** hesabına deftere nakletmez.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Deftere nakil davranışını değiştiren ek ayarlar
 Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.

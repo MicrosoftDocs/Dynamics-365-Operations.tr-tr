@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 174cbd85139db5cee75481041fb721dc7646ab66
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913614"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687485"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Transfer emri belgelerinde vergi bilgilerini yazdır
 
@@ -39,7 +38,7 @@ Bu verileri konfigüre etmek için aşağıdaki ana adımları tamamlamanız ger
 
 1. [Transfer emirleri için vergi özelliğini etkinleştirin ve ayarlayın](tasks/Tax-feature-support-for-transfer-order.md).
 2. [Geçerli bir varlık için çoklu vergi kayıt numaraları oluşturun ve ayarlayın](emea-multiple-vat-registration-numbers.md).
-3. Muafiyet kodunu, açıklamayı, vergi yönergelerini ve vergi kodlarındaki yazdırma kodunu ayarlayın. Bu örnekte, üç vergi kodu oluşturulur ve Microsoft Dynamics 365 Finance'ta eşitlenir: **NL-Exempt**, **BE-RC-21** ve **BE-RC+21**.
+3. Muafiyet kodunu, açıklamayı, vergi yönergelerini ve vergi kodlarındaki yazdırma kodunu ayarlayın. Bu örnekte, üç vergi kodu oluşturulur ve Microsoft Dynamics 365 Finance'te eşitlenir: **NL-Exempt**, **BE-RC-21** ve **BE-RC+21**.
 
     1. Finance'te, **Vergi** \> **Kurulum** \> **Satış vergisi** \> **Satış vergisinden muaf kodlar**'a gidin.
     2. **Düzenle**'yi seçin ve **EC** muafiyet kodu için bir açıklama girin. Örneğin **Vergi sicil numarası ile vergiden muaf EC sevkiyatları** girin.

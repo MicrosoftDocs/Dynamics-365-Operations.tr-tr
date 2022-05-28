@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921237"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734173"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Tahsilat mektubu sırası oluşturma
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921237"
 
 Tahsilat mektubu sırası oluşturmak için bu yordamı kullanın. Bu görevde USMF demo şirketi kullanılmaktadır.
 
-1. Gezinti bölmesinde **Modüller > Alacak ve tahsilatlar > Kurulum > Tahsilat mektubu sırasını ayarla**'ya gidin.
+1. **Alacak ve tahsilatlar > Kurulum > Tahsilat mektubu sırasını ayarla**'ya gidin.
 2. **Yeni**'ye tıklayın.
 3. **Tahsilat mektubu sırası** alanında, sırayı temsil edecek bir sıra kodu girin. Bir deftere nakil profili ayarladığınız zaman kullanılır.
-4. **Tanım** alanına bir değer girin.  Ödeme şartları isteğe bağlıdır. Buraya bir değer girerseniz, tahsilat mektubu ücreti faturasında, müşteriyle depolanan ödeme şartları yerine bu ödeme şartları kullanılır.  
+4. **Tanım** alanına bir değer girin. Ödeme şartları isteğe bağlıdır. Buraya bir değer girerseniz, tahsilat mektubu ücreti faturasında, müşteriyle depolanan ödeme şartları yerine bu ödeme şartları kullanılır.  
 5. **Tahsilat mektubu kodu** alanında, göndermek istediğiniz ilk tahsilat mektubunun kodunu seçin. İlk tahsilat mektubu, faturadaki vade tarihine, bu satırdaki Gün alanında mehil süresi için girdiğiniz değere ve bu satıra girdiğiniz diğer bilgilere göre oluşturulur.  
 6. **Tanım** alanına bir değer girin. 
 7. Ücretin varsayılan para birimi, tüzel kişiliğin para birimidir. Bu para birimi kodu, fatura para biriminden farklı olabilir.   
@@ -52,9 +52,9 @@ Tahsilat mektubu sırası oluşturmak için bu yordamı kullanın. Bu görevde U
 22. Listede, seçili satırdaki bağlantıya tıklayın.
 23. **Minimum vadesi geçmiş bakiye** alanına bir sayı girin.
 24. **Günler** alanına bir sayı girin.
-25. Müşterinin ek teslimat ve faturalamalarını durdurmak için **Engelle** onay kutusunu işaretleyin. Hesap üzerindeki engeli kaldırmak için Müşteriler sayfasındaki Faturalama ve beklemedeki teslimat alanında **Hayır** seçeneğini seçin.  
+25. Müşterinin ek teslimat ve faturalamalarını durdurmak için **Engelle** onay kutusunu işaretleyin. Hesap üzerindeki engeli kaldırmak için **Müşteriler** sayfasındaki **Faturalama ve beklemedeki teslimat** alanında **Hayır** seçeneğini seçin.  
 26. **Not** hızlı sekmesini genişletin.
-27. Seçili tahsilat mektubu kodu için tahsilat mektubunda görünecek metni girin. Not kutusunun yukarısındaki Çeviriler menüsünü kullanarak bu metni birden fazla dile çevirebilirsiniz.  
+27. Seçili tahsilat mektubu kodu için tahsilat mektubunda görünecek metni girin. Not kutusunun yukarısındaki **Çeviriler** menüsünü kullanarak bu metni birden fazla dile çevirebilirsiniz.  
 
 
 

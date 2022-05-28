@@ -1,29 +1,29 @@
 ---
 title: Periyodik alacak yönetimi görevleri
-description: Bu konu, müşteriler için kredi limitlerini yönetme sürecinin gerekli bir parçası olan periyodik görevleri açıklamaktadır.
+description: Bu konu, müşteriler için kredi limitlerini yönetme sürecinin bir parçası olan periyodik görevleri açıklamaktadır.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 53b7cd00b3287f18ba65391842ac259ab2434b86
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753519"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735450"
 ---
 # <a name="periodic-credit-management-tasks"></a>Periyodik alacak yönetimi görevleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, müşteriler için kredi limitlerini yönetme sürecinin gerekli bir parçası olan periyodik görevleri açıklamaktadır.
+Bu konu, müşteriler için kredi limitlerini yönetme sürecinin bir parçası olan periyodik görevleri açıklamaktadır.
 
 ## <a name="update-risk-scores"></a>Risk puanlarını güncelleştir
 

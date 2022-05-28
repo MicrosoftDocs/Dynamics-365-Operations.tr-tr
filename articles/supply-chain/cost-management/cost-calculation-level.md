@@ -1,7 +1,7 @@
 ---
 title: Maliyet hesaplama düzeyi
 description: Bu konuda, maliyet hesaplama düzeyi olarak adlandırılan ürün reçetesi (BOM) düzeyi açıklanmaktadır. Bu ürün reçetesi düzeyi, üretim ve toplu iş emirlerini hesaplamalarından çıkarır.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: e08d11c8e9d98e56c5ef076cbab7bb68bedea62a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 563d866c93e9205914f633f3435ef4b46f85b814
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581044"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679569"
 ---
 # <a name="cost-calculation-level"></a>Maliyet hesaplama düzeyi
 

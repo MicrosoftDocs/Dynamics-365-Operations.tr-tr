@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 190eb7e437af7edd8eee97b8f2b7601254cbd240
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68aa401487a74b9fcd186ec6cbdb268cdb41168c
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066444"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743500"
 ---
 # <a name="employees-select-plans-by-using-employee-self-service-optional"></a>Çalışanlar, Employee Self-Service'i kullanarak planları seçer (isteğe bağlı)
 
@@ -35,11 +34,11 @@ Kayıt sırasında yan haklara erişmek için çalışan, **Yan haklar self serv
 **Yan haklar self servis** sayfasında, yan hak planları plan türüne göre gruplandırılır. Yan hak planlarını bir plan türünde görüntülemek için çalışan, **Çalışan yan hakları** sayfasında bir kutucuk seçer. Çalışan yalnızca uygun olduğu yan hakları görecektir.
 
 > [!IMPORTANT]
-> Bir plan türünün **Employee Self-Service**'te gösterilebilmesi için önce yapılandırılması gerekir. Daha fazla bilgi için bkz. [Employee Self-Service'i yapılandırma](/hr-benefits-setup-employee-self-service.md).
+> Bir plan türünün **Employee Self-Service**'te gösterilebilmesi için önce yapılandırılması gerekir. Daha fazla bilgi için bkz. [Employee Self-Service'i yapılandırma](/dynamics365/human-resources/hr-benefits-setup-employee-self-service).
 
 Plan türüne bağlı olarak kayıt için bir veya daha fazla yan hak seçilebilir. Örneğin, bir tıbbi plan türü, çalışanı tek bir tıbbi planla sınırlamak için yapılandırılabilir. Hayat sigortası planı türü, çalışanın birden fazla hayat sigortası planı seçmesine izin verebilir.
 
-Çalışan hangi plana kaydolacağına karar verdikten sonra, bakmakla yükümlü olunan kişileri seçmesi gerekebilir. Çalışan, **Çalışan +1**, **Çalışan + çocuklar** veya **Aile** şeklindeki bir sigorta kapsamı seçtiyse bakmakla yükümlü olunan kişiler seçilmelidir. Sigorta kapsamı hakkında daha fazla bilgi için bkz. [Sigorta kapsamı seçeneklerini oluşturma](/hr-benefits-setup-coverage-options.md).
+Çalışan hangi plana kaydolacağına karar verdikten sonra, bakmakla yükümlü olunan kişileri seçmesi gerekebilir. Çalışan, **Çalışan +1**, **Çalışan + çocuklar** veya **Aile** şeklindeki bir sigorta kapsamı seçtiyse bakmakla yükümlü olunan kişiler seçilmelidir. Sigorta kapsamı hakkında daha fazla bilgi için bkz. [Sigorta kapsamı seçeneklerini oluşturma](/dynamics365/human-resources/hr-benefits-setup-coverage-options).
 
 Bir yan hak planı seçmek için çalışan üç nokta düğmesini (**...**) veya **Sepete ekle**'yi seçer. Çalışan tüm yan hak seçimlerini sepete eklemeyi tamamladıktan sonra **Sepeti görüntüle**'yi seçer. Çalışan daha sonra seçilen ve feragat edilen yan hak planlarını görüntüleyebilmeleri için **Planlar** sayfasına yönlendirilir.
 

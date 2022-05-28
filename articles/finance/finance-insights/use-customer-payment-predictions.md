@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968924"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740638"
 ---
 # <a name="use-customer-payment-predictions"></a>Müşteri ödeme tahminleri kullanma
 
@@ -86,10 +86,6 @@ Sayfanın sağ tarafındaki **İlgili bilgiler** bölümünde tahminler hakkınd
 
 **Alacak ve tahsilatlar \> Kurulum \> Mali içgörüler \> Mali içgörü parametreleri** bölümüne giderek ödeme tahminlerinin doğruluğunu görüntüleyebilirsiniz. **Müşteri ödemesi içgörüleri** sekmesinde, **Tahmin modeli** bölümünde tahmin modelinin doğruluğu yüzde olarak gösterilir.
 
-[![Ödeme tahminlerinin doğruluğu.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
-
 Doğruluk oranından memnun değilseniz AI Builder uzantısı deneyimini açmak için **Model doğruluğunu iyileştir** bağlantısını seçin. AI Builder uzantısı deneyiminde, ödeme olasılıklarını doğru şekilde tahmin etmek için önemli olduğu düşündüğünüz alanları seçene kadar alanları seçebilir veya seçimlerini iptal edebilirsiniz. İşlemi tamamladığınızda thamin modelini kolayca yeniden eğitebilir ve yaptığınız değişiklikleri yayımlayabilirsiniz. Yeni eğitilen tahmin modeli, Dynamics 365 Finance'te tahminler için otomatik olarak seçilebilir.
-
-[![AI Builder uzantısı deneyimi.](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

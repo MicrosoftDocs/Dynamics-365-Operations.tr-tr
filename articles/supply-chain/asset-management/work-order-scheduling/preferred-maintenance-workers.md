@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38b7371ab668eb76801fbe7f15894609a846bbd8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734439"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687687"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Tercih edilen bakım görevlilerini ayarla
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 İş emri planlama sırasında hangi bakım görevlisinin veya görevli grubunun iş emrini tamamlamak üzere tahsis edileceğini belirten bir tercih yapabilirsiniz. Bu işlevin kullanımı isteğe bağlıdır, ancak çalışanın yeteneklerine ve yetkinliklerine dayalı olarak işin tamamlanması için en nitelikli bakım görevlisini seçmenize yardımcı olabilir. Yalnızca, planlama zamanında uygun olan bakım görevlileri planlanır. Tercih edilen bakım görevlisi ayarı planlama sırasında bir iş emriyle eşleşirse ancak bakım görevlisi diğer işlere tahsis edilmişse, iş emri uygun durumdaki başka bir bakım görevlisi için planlanır.
 
@@ -51,13 +49,15 @@ Aynı kayıt için ne kadar çok seçim yaparsanız, kurulumunuz o kadar belirgi
 
 3. Bir "varsayılan" bakım görevlisi veya görevli grubu oluşturarak başlayın. Bu, yalnızca **Tercih edilen bakım görevlisi grubu** alanında veya **Tercih edilen bakım görevlisi** alanında seçim yapacağınız anlamına gelir. Aşağıdaki ekran görüntüsünde, **tercih edilen bakım görevlisi grubu** olarak "Talepler" in seçildiği bir ilk kayıt örneği görürsünüz.
 
-    [!NOTE] Varsayılan kurulum, iş emri planlaması sırasında başka, daha özel kombinasyon iş emrinin içeriğiyle eşleşirse kullanılacaktır.
+    > [!NOTE]
+    > Varsayılan kurulum, iş emri planlaması sırasında başka, daha özel kombinasyon iş emrinin içeriğiyle eşleşirse kullanılacaktır.
 
 4. Yeni bir kayıt oluşturmak için adım 2'yi tekrarlayın. Tercih edilen çalışan veya çalışan grubunun ayrıntı düzeyine bağlı olarak gerekli seçimleri yapın. 
 
     *Örnek:* Aşağıdaki ekran görüntüsünde, altıncı kayıtta, tercih edilen çalışan olarak bakım görevlisi Shawn Richardson seçilidir. Planlanan saatte uygun olması durumunda, "CH-BP1-03-02" varlığı ve "tesis değerlendirmesi " bakım işi türünü içeren bir iş emri planlamasında otomatik olarak seçilecektir.
 
-    [!NOTE] Genellikle, iş emri planlama sırasında tercih edilen bir bakım çalışanı seçildiğinde, Varlık Yönetimi olası bir eşleşmeyi denetlemek için tüm **Tercih edilen bakım görevlileri** kayıtlarına bakar ve her zaman en belirgin birleşimi denetler. Eşleşme bulunmazsa, **Tercih edilen bakım çalışanı grubu** alanında veya **Tercih edilen bakım çalışanı** alanında bulunan "varsayılan" kayıt kullanılır.
+    > [!NOTE]
+    > Genellikle, iş emri planlama sırasında tercih edilen bir bakım çalışanı seçildiğinde, Varlık Yönetimi olası bir eşleşmeyi denetlemek için tüm **Tercih edilen bakım görevlileri** kayıtlarına bakar ve her zaman en belirgin birleşimi denetler. Eşleşme bulunmazsa, **Tercih edilen bakım çalışanı grubu** alanında veya **Tercih edilen bakım çalışanı** alanında bulunan "varsayılan" kayıt kullanılır.
 
 ![Şekil 1.](media/02-work-order-scheduling.png)
 

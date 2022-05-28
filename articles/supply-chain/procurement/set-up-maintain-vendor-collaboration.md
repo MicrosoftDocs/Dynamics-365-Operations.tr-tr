@@ -1,7 +1,7 @@
 ---
 title: Satıcı işbirliğini ayarlama ve koruma
 description: Bu konuda, Dynamics 365 Supply Chain Management'ta satıcı işbirliğinin nasıl ayarlanacağını açıklanmaktadır. Ayrıca, yeni satıcı işbirliği kullanıcılarının nasıl alınacağını ve bu kullanıcılar için güvenlik rollerini yönetmeyi da açıklamaktadır.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7652113"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677576"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Satıcı işbirliğini ayarlama ve koruma
 
@@ -31,7 +31,7 @@ Satıcı iş birliği arabirimi; satınalma siparişleri, faturalar ve harici sa
 Bu konuda, Dynamics 365 Supply Chain Management'ta satıcı işbirliğinin nasıl ayarlanacağını açıklanmaktadır. Ayrıca, yeni satıcı işbirliği kullanıcılarının nasıl alınacağına dair bir iş akışı ayarlama ve bu kullanıcılar için güvenlik rollerini yönetmeyi da açıklamaktadır.
 
 > [!NOTE]
-> Satıcı işbirliğiyle ilgili güvenlik rollerinin kurulumu hakkındaki bilgiler yalnızca Finance and Operations'ın geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla iş birliği yapabilirsiniz. Microsoft Dynamics AX'deki satıcı portalı ile ilgili kullanıcı izinleri hakkında bilgi için bkz. [Satıcı portalı kullanıcı güvenliği](configure-security-vendor-portal-users.md).
+> Satıcı işbirliğiyle ilgili güvenlik rollerinin kurulumu hakkındaki bilgiler yalnızca Finance and Operations uygulamasının geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla iş birliği yapabilirsiniz. Microsoft Dynamics AX'deki satıcı portalı ile ilgili kullanıcı izinleri hakkında bilgi için bkz. [Satıcı portalı kullanıcı güvenliği](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Satıcı güvenlik rollerini ayarlama
 

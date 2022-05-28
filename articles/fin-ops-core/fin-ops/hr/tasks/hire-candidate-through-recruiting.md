@@ -13,20 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075385"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734674"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>İşe alma yoluyla adayı işe alma
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Bu konuda belirtilen işlevler şu anda Finance altyapısında Human Resources müşteriler için kullanıma sunulmaktadır.  
-
+> Bu konudaki işe alma işlevi İşe Alma projeleri olarak adlandırılacaktır ve başvuranlar, uygulamalar ve işe alma projelerine odaklanır.  
 
 Bu yordam, bir işverene, belirli bir işe alma projesi aracılığıyla başvuru gönderen bir başvuranı işe almayı sağlar. Bir başvuranı işe alma projesi aracılığıyla işe alırsanız yeni bir çalışan kaydı oluşturulur ve başvuranın kaydı **İşe alındı** durumuna sahip olur. Bu yordamı oluşturmak için **USMF** demo verileri şirketi kullanılmıştır.
 

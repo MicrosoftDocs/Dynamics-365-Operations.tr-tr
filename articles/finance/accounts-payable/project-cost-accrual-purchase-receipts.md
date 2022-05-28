@@ -1,6 +1,6 @@
 ---
 title: Satınalma girişlerinde proje maliyet tahakkuku
-description: Bu konuda satın alma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 Finance'da nasıl izlenebileceği açıklanmaktadır.
+description: Bu konuda, satın alma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 Finance'te nasıl izlenebileceği açıklanmaktadır.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7ae2f57e0104a30492363f1576962d36a2a1b04b
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 7e435002bca8fd4deb58c16c50db55237a3e9053
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595242"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735124"
 ---
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Satınalma girişlerinde proje maliyet tahakkuku
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Satınalma girişlerinde proje maliyeti tahakkuku
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda satın alma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 Finance'da nasıl izlenebileceği açıklanmaktadır. 
+Bu konuda, satın alma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 Finance'te nasıl izlenebileceği açıklanmaktadır. 
 
 Bir proje için fatura genellikle mallar ve hizmetler teslim edildikten daha sonra gelir; bu durumun projenin temel performans göstergeleri (KPI'ler) üzerinde önemli bir etkisi olabilir. Bu hareketleri hem mali hem de proje raporlarından izleyebilmek önemlidir.
 

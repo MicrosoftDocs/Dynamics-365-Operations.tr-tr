@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109872"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725919"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights kurulumu ile ilgili sorunları giderme
 
@@ -85,7 +85,7 @@ Size doğru proje güvenlik rolü atanmışsa, **Yeni eklenti yükle** düğmesi
 Aşağıdaki adımların tamamlanması gerekiyor.
 
 - Power Portal yönetim merkezinde **Sistem yöneticisi** ve **Sistem Özelleştirici** erişiminiz olduğunu doğrulayın.
-- Eklentiyi yükleyen kullanıcıya bir Dynamics 365 Finance veya eşdeğer bir lisans uygulandığını doğrulayın.
+- Eklentiyi yükleyen kullanıcıya Dynamics 365 Finance veya eşdeğer bir lisans uygulandığını doğrulayın.
 - Aşağıdaki Azure AD uygulamasının, Azure AD'de kayıtlı olduğunu doğrulayın: 
 
   | Uygulama                  | Uygulama kodu           |
