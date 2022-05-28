@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce değerlendirme ortamı yapılandırma
 description: Bu konu, sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamının nasıl yapılandırılacağını açıklamaktadır.
 author: psimolin
-ms.date: 12/10/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
+ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913739"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8747649"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı yapılandırma
 
@@ -39,7 +39,9 @@ Commerce değerlendirme ortamınız sona kadar sağlanmış olduktan sonra, orta
 1. Listeden ortamınızı seçin.
 1. Sağdaki ortam bilgilerinde **Ortamda oturum aç**'a tıklayın. Commerce Headquarters'a gönderilirsiniz.
 1. Sağ üst köşede **USRT** hukuk varlığının seçildiğinden emin olun.
-2. **Commerce parametreleri > Konfigürasyon parametreleri** bölümüne gidin ve "**roductSearch.UseAzureSearch** için **doğru** olarak ayarlanmış bir giriş olduğundan emin olun. Bu giriş eksikse e-ticaret web siteniz ile ilişkilendirilmiş Commerce Scale Unit için bu girişi ekleyebilir ve **Kanal Vertabanı > Tam Eşitleme**'yi çalıştırabilirsiniz.
+1. **Commerce parametreleri \> Yapılandırma parametreleri** bölümüne gidin ve **ProductSearch.UseAzureSearch** için **doğru** olarak ayarlanmış bir giriş olduğundan emin olun. Bu giriş eksikse e-ticaret web siteniz ile ilişkilendirilmiş Commerce Scale Unit için bu girişi ekleyebilir, değeri **doğru** olarak ayarlayabilir ve ardından **Kanal Veritabanı \> Tam veri eşitleme**'yi seçebilirsiniz.
+1. **Retail ve Commerce \> Headquarters kurulumu \> Commerce planlayıcısı \> Commerce planlayıcısını başlat**'a gidin. **Commerce planlayıcısını başlat** açılır menüsünde, **Var olan yapılandırmayı sil** seçeneğini **Evet** olarak ayarlayın ve **Tamam**'ı seçin.
+1. Commerce Scale Unit'e kanal eklemek için **Retail ve Commerce \> Headquarters kurulumu \> Commerce planlayıcısı \>Kanal veritabanı**'na gidin ve sol bölmedeki Commerce Scale Unit'i seçin. **Perakende kanalı** hızlı sekmesinde, **AW çevrimiçi mağaza**, **AW Business çevrimiçi mağaza** ve **Fabrikam genişletilmiş çevrimiçi mağaza** kanallarını ekleyin. İsteğe bağlı olarak, POS'u kullanacaksanız perakende mağazaları da ekleyebilirsiniz (örneğin, **Seattle**, **San Francisco** ve **San Jose**).
 
 Commerce Headquarters'daki sağlama sonrası etkinlikler sırasında, **USRT** yasal varlığının her zaman seçili olduğundan emin olun.
 
@@ -85,6 +87,7 @@ Commerce'te değerlendirme sitenizi ayarlamaya başlamak için aşağıdaki adı
 1. Varsayılan dil için **tr-tr** seçeneğini belirleyin.
 1. **Yol** alanının değerini olduğu gibi bırakın.
 1. **Tamam**'ı seçin. Sitedeki Sayfalar listesi görüntülenir.
+1. **AdventureWorks** sitesi (**AW çevrimiçi mağaza** kanalıyla eşlenen) ve **AdventureWorks Business** sitesi (**AW Business çevrimiçi mağaza** kanalıyla eşlenen) için 2-7 adımlarını tekrarlayın. Fabrikam sitesinin **Yol** alanı boş ise, iki AdventureWorks sitesi için yollar eklemelisiniz (örneğin, "aw" ve "awbusiness").
 
 ## <a name="enable-jobs"></a>İşleri etkinleştir
 
@@ -149,6 +152,28 @@ Commerce değerlendirme ortamınızla ilgili isteğe bağlı özellikleri yapıl
 
 > [!NOTE]
 > Commerce değerlendirme ortamları, gösterim amacıyla önceden yüklenmiş Azure Active Directory (Azure AD) işletmeden tüketiciye (B2C) kiracıyla birlikte gelir. Kendi Azure AD B2C kiracınızı yapılandırmak, değerlendirme ortamları için gerekli değildir. Ancak değerlendirme ortamını kendi Azure AD B2C kiracınızı kullanacak şekilde yapılandırıyorsanız lütfen Azure Portal aracılığıyla Azure AD B2C uygulamasına yanıt URL'si olarak ``https://login.commerce.dynamics.com/_msdyn365/authresp`` eklediğinizden emin olun.
+
+## <a name="troubleshooting"></a>Sorun Giderme
+
+### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>Site yapılandırılırken site oluşturucu kanal listesi boş
+
+Site oluşturucu herhangi bir çevrimiçi mağaza kanalı göstermezse, yukarıdaki [Başlamadan önce](#before-you-start) bölümünde açıklandığı gibi Headquarters'da kanalların Commerce Scale Unit'e eklendiğinden emin olun. Ayrıca, **Varolan yapılandırmayı sil** değeri **Evet** olarak ayarlanmış şekilde **Commerce planlayıcısını başlat**'ı çalıştırın.  Bu adımlar tamamlandıktan sonra, **Kanal veritabanı** sayfasında (**Retail ve Commerce \> Headquarters kurulumu \> Commerce planlayıcısı \> Kanal veritabanı**), Commerce Scale Unit'te **9999** işini çalıştırın.
+
+### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Renk örnekleri kategori sayfasında işlenmiyor, ancak ürün ayrıntıları sayfasında (PDP) işleniyor
+
+Renk ve boyut renk örneklerinin daraltılabilir olarak ayarlandığından emin olmak için bu adımları izleyin.
+
+1. Headquarters'da **Retail ve Commerce \> Kanal Kurulumu \> Kanal kategorileri ve ürün öznitelikleri**'ne gidin.
+1. Sol bölmede, çevrimiçi mağaza kanalını seçin ve sonra **Öznitelik meta verilerini ayarla**'yı seçin.
+1. **Özniteliği kanalda göster** seçeneğini **Evet** olarak ayarlayın, **İyileştirilebilir** seçeneğini **Evet** olarak ayarlayın ve sonra **Kaydet**'i seçin. 
+1. Çevrimiçi mağaza kanalı sayfasına dönün ve sonra **Kanal güncelleştirmelerini yayınla**'yı seçin.
+1. **Retail ve Commerce \> Headquarters kurulumu \> Commerce planlayıcısı \> Kanal veritabanı**'na gidin ve Commerce Scale Unit'te **9999** işini çalıştırın.
+
+### <a name="business-features-dont-appear-to-be-turned-on-for-the-adventureworks-business-site"></a>AdventureWorks iş sitesi için işletme özellikleri açık görünmüyor
+
+Headquarters'da, çevrimiçi mağaza kanalının, **Müşteri türü** olarak **B2B** ayarlanmış şekilde yapılandırıldığından emin olun. **Müşteri türü** **B2C** olarak ayarlanmışsa, varolan kanal düzenlenemediği için yeni bir kanal oluşturulmalıdır. 
+
+Commerce 10.0.26 ve önceki sürümlerde gönderilen demo verileri, **AW Business çevrimiçi mağaza** kanalının yanlış yapılandırılmasıyla ilgili bir hataya sahipti. Geçici çözüm, **B2B** olarak ayarlanması gereken **Müşteri türü** dışında aynı ayar ve yapılandırmalarla yeni bir kanal oluşturmaktır.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

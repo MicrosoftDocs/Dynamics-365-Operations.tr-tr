@@ -1,7 +1,7 @@
 ---
 title: Tedarik ve kaynak atama iş akışları
 description: Bazı kuruluşlar satınalma taleplerinin ve satınalma siparişlerinin hareketi giren kişiden başka bir kullanıcı tarafından onaylanmasını gerektirir. Bir onay sürecini ayarlamak için iş akışı oluşturabilirsiniz.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a819093d9ee6f999e637281e54905968fe361566
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ebfd96690eea762d0797db1b485544d957d17ce0
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575548"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671940"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Tedarik ve kaynak atama iş akışları
 

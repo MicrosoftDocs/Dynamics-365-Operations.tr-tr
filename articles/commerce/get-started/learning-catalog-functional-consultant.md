@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5539d8531dc5de273d80419135c9bcc224c8e8f0
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 4bab754afa5b35c34c6e1e5087d9268321b75bd0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402630"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688895"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Dynamics 365 Commerce işlevsel danışmanları için öğrenme kataloğu
 
@@ -28,11 +27,11 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 İşlevsel danışmanlar için iş-görev analizi araştırmamız, herkesin temel içerik setinin yanı sıra etki alanını da bilmesi gerektiğini göstermektedir.
 
-Diğer Finance and Operations uygulamalarıyla paylaşılan özellikler hakkında eğitim için bkz. [Dynamics 365 Finance Öğrenme Kataloğu](../../finance/get-started/learning-catalog-functional-consultant.md).
+Diğer Finans ve Operasyon uygulamalarıyla paylaşılan özellikler hakkında eğitim için bkz. [Dynamics 365 Finance Öğrenme Kataloğu](../../finance/get-started/learning-catalog-functional-consultant.md).
 
 ## <a name="get-started"></a>Başlayın<a name="get-started"></a>
 
-| İçerik| Tanım  | Biçim  | Uzunluk  |
+| İçerik| Açıklama  | Biçim  | Uzunluk  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
 | [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Bu öğrenme deneyimi, sizi bir yolculuğa çıkaracak. Bu yolculukta önce size dijital dönüşümün ve iş uygulamalarının gücünün işletmenizi nasıl dönüştürebileceği gösterilecek. Dynamics 365 ve Power Platform'un, dijital dönüşümün modern, birleşik, akıllı ve uyarlanabilir olmak üzere dört temel taşı yoluyla, kuruluşunuzun ihtiyaç ve hedeflerine göre bilinçli kararlar vermenize nasıl yardımcı olabileceğini ele alacağız. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 6.5 saat |
 | [Dynamics 365 Commerce kullanmaya başlama](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce (kanıtlanmış Dynamics 365 Retail yetenekleri üzerine kurulu), arka ofis, mağaza, çağrı merkezi ve dijital deneyimlerini birleştiren kapsamlı bir çok yönlü kanal çözümü sunar. Dynamics 365 Commerce, kişiselleştirilmiş müşteri görevlendirmelerinde marka bağlılık programı oluşturmanıza olanak tanır, üretkenliği geliştirilmiş çalışanla gelirleri artırmanıza, maliyetleri azaltmak ve tedarik zinciri verimliliğini artırmak için operasyonları en iyi duruma getirmenize ve böylece daha iyi iş sonuçları elde etmenize olanak sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat |

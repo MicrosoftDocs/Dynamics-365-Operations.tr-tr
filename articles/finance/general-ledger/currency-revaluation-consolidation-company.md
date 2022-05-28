@@ -1,26 +1,26 @@
 ---
 title: Konsolidasyon şirketinde para birimi yeniden değerleme
 description: Bu konu, para birimini bir konsolidasyon şirketinde yeniden değerlemeyi açıklar.
-author: roschlom
+author: aprilolson
 ms.date: 10/02/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerExchAdjHist
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 62183
 ms.assetid: 2762baaf-0c10-4ff7-8713-c506d6c29b98
 ms.search.region: Global
-ms.author: roschlom
+ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4f2d4e1340e6ed986a1a079a7e88fea3bbe6e1d6af8aee99837adbfe03c39f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67e19b744bfe33624ce2c4212073050012b93f03
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713198"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713318"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Konsolidasyon şirketinde para birimi yeniden değerleme
 

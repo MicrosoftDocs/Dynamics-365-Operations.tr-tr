@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: fbec5ad8fa5e17b75859c07ee64a66c9568c97d3d18b6a7616a64303d3a33f10
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfa913ca1778391ce0f5a1b2fdf6e5828b30cb66
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727971"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724487"
 ---
 # <a name="set-up-a-subsidiary-legal-entity-for-consolidation"></a>Konsolidasyon için bağlı şirket tüzel kişiliği ayarlama
 
@@ -29,7 +29,7 @@ Konsolidasyon için yan kuruluş oluşturmak amacıyla kullandığınız yöntem
 Bir dönem kapanışı kapsamında bir konsolidasyon başlatmadan önce, dönem sonu kapanışı için hazırlık faaliyetlerini tamamlayın ancak konsolidasyon tamamlanana kadar yan kuruluş hesaplarını kapatmayın. Dönem sonu kapanışı hakkında daha fazla bilgi için bkz. [Genel muhasebe defterini dönem sonunda kapatma](close-general-ledger-at-period-end.md) ve [Mali yılı kapatma](tasks/close-fiscal-year.md).
 
 > [!NOTE]
->  Microsoft Dynamics 365 Finance için Management Reporter'ı kullanarak birden çok tüzel kişilik için mali sonuçları konsolide bir biçimde birleştirmeniz önerilir. Management Reporter, tüzel kişiliklerde konsolide mali raporlar oluşturmanıza, diğer kaynaklardan konsolidasyon verilerini içeri aktarmak için Excel'i kullanmanıza ve Dynamics 365 Finance'te konsolidasyon sürecini çalıştırmak zorunda kalmadan tutarları istediğiniz sayıda raporlama para birimlerine çevirmenize olanak sağlar.
+>  Microsoft Dynamics 365 Finance için Management Reporter'ı kullanarak birden çok tüzel kişilik için mali sonuçları konsolide bir biçimde birleştirmeniz önerilir. Management Reporter, tüzel kişiliklerde konsolide mali raporlar oluşturmanıza, diğer kaynaklardan konsolidasyon verilerini içeri aktarmak için Excel'i kullanmanıza ve Dynamics 365 Finance'te konsolidasyon sürecini çalıştırmak zorunda kalmadan tutarları istediğiniz sayıda raporlama para birimine çevirmenize olanak sağlar.
 
 ## <a name="map-subsidiary-main-accounts-to-consolidated-main-accounts"></a>Yan kuruluş ana hesaplarını konsolide ana hesaplarla eşleştirme
 

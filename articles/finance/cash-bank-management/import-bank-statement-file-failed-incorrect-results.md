@@ -1,6 +1,6 @@
 ---
-title: Banka ekstresi dosya alma sorunlarını giderme
-description: Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 Finance tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.
+title: Banka ekstresi dosyasını içeri aktarma sorunlarını giderme
+description: Bu makalede, banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkan sorunların nasıl düzeltileceği açıklanır.
 author: panolte
 ms.date: 03/29/2021
 ms.topic: article
@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc5b9cf3449b48767a27891a019f8fe8df2a900559898e3cb1849d25bec7c987
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757133"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711187"
 ---
-# <a name="bank-statement-file-import-troubleshooting"></a>Banka ekstresi dosya alma sorunlarını giderme
+# <a name="bank-statement-file-import-troubleshooting"></a>Banka ekstresi dosyasını içeri aktarma sorunlarını giderme
 
 [!include [banner](../includes/banner.md)]
 

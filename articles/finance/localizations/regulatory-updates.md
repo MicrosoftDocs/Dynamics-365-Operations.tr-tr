@@ -2,7 +2,7 @@
 title: Düzenleme güncelleştirmeleri
 description: Bu konu altında, Microsoft Dynamics 365 Finance için planlanan ve yayınlanan mevzuat güncelleştirmelerinin listesi verilmektedir.
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649143"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711928"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -29,11 +29,11 @@ Mevzuat güncelleştirmeleri, yeni veya değişen ülkeye özel yasaları destek
 
 Microsoft, yeni mevzuat gereksinimlerini olabildiğince erken uygulamaya çalışır. Gerçek teslim tarihi yasanın duyurulma tarihi, yerel otoritelerden gereksinim ayrıntılarının alınabilmesi, değerleme araçlarının mevcut olması ve değişikliğin boyutu ve karmaşıklığına bağlıdır.
 
-Mevzuat güncelleştirmelerini, müşterilerin uygulama tarihine (harekete dayalı mevzuat güncelleştirmeleri için) hazır olmaları veya raporlama son tarihi (raporlamaya ilişkin mevzuat güncelleştirmeleri) için zamanında yayınlanabilmeleri üzere Bir Sürüm servis güncelleştirmeler içinde teslim etmeyi amaçlıyoruz. Müşteriler ve ortaklar, yeni düzenleme güncelleştirmelerini Erken Uyum Programı Önizleme (PEAP) içinde önizleyebilirler.
+Mevzuat güncelleştirmelerini, müşterilerin uygulama tarihine (harekete dayalı mevzuat güncelleştirmeleri için) hazır olmaları veya raporlama son tarihi (raporlamaya ilişkin mevzuat güncelleştirmeleri) için zamanında yayınlanabilmeleri üzere Bir Sürüm servis güncelleştirmeler içinde teslim etmeyi amaçlıyoruz. Müşteriler ve ortaklar, yeni mevzuat güncelleştirmelerini her hizmet güncelleştirmesi için sağlanan önizleme paketinde önizleyebilirler.
 
 Geç duyurulma tarihi, gereksinim ayrıntılarının veya değerleme araçlarının geç kullanılabilir olması veya olağandışı büyük ve karmaşık değişiklikler olması durumunda, mevzuat güncelleştirmesini bir aylık güncelleştirmenin Genel Kullanılabilirlik tarihinde kullanılabilir kılmak mümkün olmayabilir. Bu gibi durumlarda, mevzuat güncelleştirmesi mevcut ilgili aylık güncelleştirmeler için düzeltme olarak yayınlanır.
 
-Aylık güncelleştirmelerin bir parçası olarak yayınlanan mevzuat güncelleştirmeleri yalnızca yayın sürümüyle gösterilir. Yamalar veya bir sürüm önizlemesinin parçası olarak sunulan mevzuat güncelleştirmeleri, sırasıyla HF ve PEAP kısaltmalarıyla belirlenebilir. 
+Aylık güncelleştirmelerin bir parçası olarak yayınlanan mevzuat güncelleştirmeleri yalnızca yayın sürümüyle gösterilir. Yamalar veya bir sürüm önizlemesinin parçası olarak sunulan mevzuat güncelleştirmeleri, sırasıyla HF ve Önizleme kısaltmalarıyla belirlenebilir. 
 
 En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvurun.   
 

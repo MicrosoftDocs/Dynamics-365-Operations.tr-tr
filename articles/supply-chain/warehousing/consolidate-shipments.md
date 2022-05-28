@@ -1,7 +1,7 @@
 ---
 title: Sevkiyat konsolidasyon ilkeleri kullanılarak sevkiyatları konsolide etme
 description: Bu konu, sevkiyat konsolidasyon ilkeleriyle nasıl çalışılacağını gösteren senaryolarla ilgili bir bağlantılar topluluğu sağlar.
-author: GarmMSFT
+author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 7b4fbdc29c03b9bb9b427a19afc2f1b8fb16623a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 537997d18d2905d7c3eedc6a92716022468782dd
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578644"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671492"
 ---
 # <a name="consolidate-shipments-by-using-shipment-consolidation-policies"></a>Sevkiyat konsolidasyon ilkeleri kullanılarak sevkiyatları konsolide etme
 

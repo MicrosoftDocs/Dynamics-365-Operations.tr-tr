@@ -1,22 +1,22 @@
 ---
 title: Şirketlerarası fiyatları ve iskontoları eşitleme
 description: Bu konuda, şirketlerarası satış siparişleri ve satın alma siparişleri için fiyatların ve iskontoların eşitlenmesi açıklanmaktadır
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a9467e8d06a44cfaab9e3c8ea3944675c3eb8fb5
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 90fa2244b5947c37b8498d1c70cddf894979f931
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548575"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673648"
 ---
 # <a name="synchronize-intercompany-prices-and-discounts"></a>Şirketlerarası fiyatları ve iskontoları eşitleme
 

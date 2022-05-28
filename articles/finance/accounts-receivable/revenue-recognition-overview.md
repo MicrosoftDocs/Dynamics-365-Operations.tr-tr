@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
-ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
+ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8446190"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725777"
 ---
 # <a name="revenue-recognition-overview"></a>Gelir kabulüne genel bakış
 
@@ -35,7 +35,7 @@ Genel olarak, gelir kabulü işlemi aşağıdaki görevleri gerçekleştirmek i�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-[Dynamics 365 Finance'ta gelir kabulünü kullanma](https://youtu.be/v3amIsiqvoo) videosu (yukarıda gösterilen) YouTube'daki [Finance and Operations oynatma listesine](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eklenmiştir.
+[Dynamics 365 Finance'te gelir kabulünü kullanma](https://youtu.be/v3amIsiqvoo) videosu (yukarıda gösterilen) YouTube'daki [Finance and Operations oynatma listesine](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eklenmiştir.
 
 Gelir kabulü özelliği, hem gelir fiyatını hem de gelir planını kabul etmeye yönelik şirkete özgü kurallar tanımlamanıza olanak tanıyan esnek bir çerçeve sağlar.
 

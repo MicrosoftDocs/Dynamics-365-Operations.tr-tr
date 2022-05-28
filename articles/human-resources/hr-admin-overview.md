@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74569d26532dad476f2fbcf7b888eb90c48d4736
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068421"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710849"
 ---
 # <a name="administration-overview"></a>Yönetime genel bakış
 
@@ -101,7 +100,7 @@ Bu konuda, Dynamics 365 Human Resources uygulamasını ayarlamak, yönetmek ve u
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 ### <a name="elearning-courses"></a>e-Öğrenme kursları
-Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Human Resources](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path) konusuna bakın.
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path) konusuna bakın.
 
 ### <a name="videos"></a>Videolar
 

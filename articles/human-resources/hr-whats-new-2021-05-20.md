@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4519e90e19d0652f855999d1a73ca64777b53b53465d6065987afc1cf2494187
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dc7e89fabe1651c858097a6c564b4910a524331f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731949"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692765"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler (20 Mayıs 2021)
 
@@ -42,7 +41,7 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 
 | Özellik | Sürüm planı | Belgeler |
 | --- | --- | --- |
-| Platform güncelleştirmesi 10.0.18 (42) | -- | [Finance and Operations uygulamaların 10.0.18 sürümü için platform güncelleştirmeleri (Mayıs 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
+| Platform güncelleştirmesi 10.0.18 (42) | -- | [Finans ve Operasyon uygulamalarının 10.0.18 sürümü için platform güncelleştirmeleri (Mayıs 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
 | Microsoft Teams için İnsan Kaynakları uygulaması artık yarı gün ve günü bölme özelliği tanımlarını destekliyor | -- | [Teams'de izin isteklerini yönetme](/dynamics365/human-resources/hr-teams-leave-app#create-a-new-request) |
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri

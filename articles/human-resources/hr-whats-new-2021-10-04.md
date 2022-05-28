@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641442"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695774"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 5 Ekim 2021
 
@@ -42,7 +41,7 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 
 | Özellik | Sürüm planı | Belgeler |
 |---|---|---|
-| Platform güncelleştirmesi 10.0.21 (45) | -- | [Finance and Operations uygulamaların 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platform güncelleştirmesi 10.0.21 (45) | -- | [Finans ve Operasyon uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
@@ -87,7 +86,7 @@ Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için
 
 | Özellik | Ayrıntılar |
 |---|---|
-| Platform güncelleştirmesi 10.0.22 (46) | Platform güncelleştirmesi 10.0.22'in kullanıma sunulmasının, 1 Kasım 2021'deki hizmet sürümüyle başlaması planlanıyor. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.22 sürümü için platform güncelleştirmeleri (Kasım 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
+| Platform güncelleştirmesi 10.0.22 (46) | Platform güncelleştirmesi 10.0.22'in kullanıma sunulmasının, 1 Kasım 2021'deki hizmet sürümüyle başlaması planlanıyor. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.22 sürümü için platform güncelleştirmeleri (Kasım 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 

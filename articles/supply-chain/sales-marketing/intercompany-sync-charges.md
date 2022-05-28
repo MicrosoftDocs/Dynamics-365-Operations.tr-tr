@@ -1,22 +1,22 @@
 ---
 title: Şirketlerarası masrafları eşitleme
 description: Bu konuda, şirketlerarası masrafların eşitlenmesi açıklanmaktadır
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c4854b698c8046fc603454c4d9d7059c938c70b3
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 2c7f60786743cf750b2bb17ccc0dadf71d859766
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548588"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678589"
 ---
 # <a name="synchronize-intercompany-charges"></a>Şirketlerarası masrafları eşitleme
 

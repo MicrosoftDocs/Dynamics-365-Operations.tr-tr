@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f83ea7a870c52884030125736809ead02b264aef1dcd654f6ff94dab0fbb2004
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740014"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717544"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Genel muhasebeyi dönemi sonunda kapatma
 
@@ -28,7 +28,7 @@ ms.locfileid: "6740014"
 
 Bu konu, genellikle bir dönem kapanışı için genel muhasebe gerçekleştirirken tamamlanmış görevleri açıklar. 
 
-Genel muhasebede bir dönem veya bir yıl için kapatma prosedürlerini tamamlayabilirsiniz. Kapanış işlemleri, sistemi yeni bir dönem için hazırlar. Sistemi yeni yıl için hazırlamak için mutlaka yıl sonu kapanış işlemini yürütmeniz gerekir. Her kuruluşun farklı işlemleri ve bir dönemin sonu için gerçekleştirdiği adımları vardır. Dönem sonu için bazı isteğe bağlı adımlar şunlardır:
+Genel muhasebede bir dönem veya bir yıl için kapatma prosedürlerini tamamlayabilirsiniz. Kapanış işlemleri, sistemi yeni bir dönem için hazırlar. Yeni yıla hazırlanmak için mutlaka yıl sonu kapanış işlemini yürütmeniz gerekir. Her kuruluşun farklı işlemleri ve bir dönemin sonu için gerçekleştirdiği adımları vardır. Dönem sonu için bazı isteğe bağlı adımlar şunlardır:
 
 -   Borç hesapları, Alacak hesapları ve Stok gibi tüm diğer modüler için tüm görevleri tamamlayın.
 -   Tüm günlüklerin nakledildiğini doğrulayın.
@@ -41,7 +41,7 @@ Genel muhasebede bir dönem veya bir yıl için kapatma prosedürlerini tamamlay
 -   Mali raporlamayı kullanarak dönem sonu mali beyanları oluşturun.
 -   Genel muhasebe dönemlerini **Beklemede** konumuna ayarlayın, böylece daha fazla nakil oluşmaz. Ayrıca, daha iyi bir kontrol için, dönem sonu faaliyetleri gerçekleşirken bir dönemi bir özel kullanıcı grubuyla sınırlayabilirsiniz. Kapatılmış bir dönemi yeniden açamayacağınızdan dönemleri **Kalıcı olarak kapalı** olarak ayarlamak iyi bir fikirdir.
 
-Mali dönem kapanış çalışma alanı, gerekli çeşitli dönem sonu işlemlerini organize etmek ve izlemek için kullanabilir. 
+**Mali dönem kapatma** çalışma alanı, gerekli çeşitli dönem sonu işlemlerini organize etmek ve izlemek için kullanabilir. 
 
 
 Daha fazla bilgi için aşağıdaki konulara bakın:

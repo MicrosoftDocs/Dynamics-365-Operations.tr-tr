@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3c474705e5260f4be62bc59d8d1d84a1ba597b6f96eafd8f673cc110285fc597
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff8e0b9079f5a5a37913f2369f6932e3ca4f19dc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772364"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677912"
 ---
 # <a name="system-directed-cluster-picking"></a>Sistem tarafından yönlendirilen küme malzeme çekme
 

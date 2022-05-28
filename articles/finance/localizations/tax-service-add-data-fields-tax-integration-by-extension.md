@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649115"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695402"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Uzantı kullanarak vergi tümleştirmesine veri alanları ekleme
 
@@ -383,7 +382,7 @@ Projeyi başarılı bir şekilde oluşturmak için model bağımlılıklarına a
 
 Önceki adımları tamamladıktan sonra değişikliklerinizi doğrulayabilirsiniz.
 
-1. Finance'ta **Borç hesapları**'na gidin ve URL'ye **&debug=vs%2CconfirmExit&** ekleyin. Örneğin, https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. Son **&** gereklidir.
+1. Finance'ta **Borç hesapları**'na gidin ve URL'ye **&debug=vs%2CconfirmExit&** ekleyin. Örneğin, `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Son **&** gereklidir.
 2. Satınalma siparişi oluşturmak için **Satınalma siparişi** sayfasını açın ve **Yeni**'yi seçin.
 3. Özelleştirilmiş alanın değerini ayarlayın ve **Satış vergisi**'ni seçin. Öneki **TaxServiceTroubleshootingLog** olan bir sorun gidermek dosyası otomatik olarak indirilir. Bu dosya, Vergi Hesaplama Hizmeti'ne gönderilen hareket bilgilerini içerir. 
 4. **Vergi hizmeti hesaplaması girişi JSON** bölümünde eklenen özelleştirilmiş alanın bulunduğunu ve değerinin doğru olduğunu kontrol edin. Değer doğru değilse, bu belgedeki adımları tekrar denetleyin.

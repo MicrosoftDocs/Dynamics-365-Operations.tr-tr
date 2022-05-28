@@ -1,24 +1,24 @@
 ---
 title: Sabit kıymete bir ek girme
 description: Bu prosedür, mevcut bir sabit kıymeti eklemenin nasıl yapılacağını gösterir.
-author: saraschi2
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 966fd191ad876aae86ff2511d6981b0437679becbe4984b087c1975dece351b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d23f60963466249b332b759ee72ebc8387aee4b
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742965"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713063"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Sabit kıymete bir ek girme
 

@@ -1,22 +1,22 @@
 ---
 title: Şirketlerarası müşteri faturaları için ödemeleri otomatik olarak kaydetme
 description: Bu konuda, şirketlerarası müşteri faturaları için ödemelerin nasıl otomatik olarak kaydedileceği açıklanmaktadır
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: ffc5c7bf44989fbcc18e940b5a7c9df81260d770
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: dbd06b21d736d1e247cd087e5bb86fbe641352e6
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548591"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669446"
 ---
 # <a name="register-payments-automatically-for-intercompany-customer-invoices"></a>Şirketlerarası müşteri faturaları için ödemeleri otomatik olarak kaydetme
 

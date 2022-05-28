@@ -2,25 +2,25 @@
 title: İlk müşteri ödeme tahmini modelini değerlendirme
 description: Bu konu, müşteri ödeme tahmin modelini anlamak ve verimliliğini değerlendirmek için gerçekleştirebileceğiniz adımları açıklamaktadır.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969124"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677968"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>İlk müşteri ödeme tahmini modelini değerlendirme
 
@@ -30,7 +30,7 @@ Bu konu, Mali İçgörüleri etkinleştirdikten ve ilk modelinizi oluşturup eğ
 
 ## <a name="getting-details-about-the-model"></a>Model hakkında ayrıntıları öğrenme
 
-Microsoft Dynamics 365 Finance'teki **Mali içgörüler parametreleri** sayfasında, doğruluk puanının yanında bir **Model doğruluğunu iyileştir** bağlantısı gösterilir.
+Microsoft Dynamics 365 Finance'teki **Finance Insights parametreleri** sayfasında, doğruluk puanının yanında bir **Model doğruluğunu iyileştir** bağlantısı gösterilir.
 
 [![Model doğruluğunu iyileştir bağlantısı.](./media/prediction-model.png)](./media/prediction-model.png)
 
@@ -93,6 +93,6 @@ Bu durumda, yaklaşık yüzde 49,3 oranındaki F1 Makro puanı modelin, makul ö
 
 ## <a name="for-more-information"></a>Daha fazla bilgi için
 
-Tahmin modellerinin nasıl değerlendirileceği hakkında daha fazla bilgi için: [Makine öğrenimi modellerinin sonuçları](/confusion-matrix.md)
+Tahmin modellerinin nasıl değerlendirileceği hakkında daha fazla bilgi için: [Makine öğrenimi modellerinin sonuçları](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

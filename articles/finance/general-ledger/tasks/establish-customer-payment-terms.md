@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766988"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716985"
 ---
 # <a name="establish-customer-payment-terms"></a>Müşteri ödeme koşulları oluşturma
 
@@ -26,8 +26,8 @@ ms.locfileid: "6766988"
 
 Bu prosedürde bir nakit iskontosu ve vade tarihi kurulumu tanımlanmaktadır. Bu görev kılavuzunda USMF demo şirketi kullanılmaktadır.
 
-1. **Gezinti bölmesi > Modüller > Alacak hesapları > Ödemeler kurulumu > Ödeme günleri**'ne gidin. **Ödeme şartları** için kurulum, **Alacak hesapları** ve **Borç hesapları** için paylaşılır. Bunu modül içinde tanımlarsanız, diğer modülde de kullanılabilir. Bu görev kılavuzu için, tüm ödeme şartlarını **Alacak hesapları** altına aldım.
-2. **Yeni**'ye tıklayın. Ödeme şartlarınız haftanın belirli bir gününü (Pazartesi, Salı vb.) veya ayın belirli bir tarihini (5'i, 6'sı vb.) gerektiriyorsa bir ödeme günü oluşturun. 
+1. **Gezinti bölmesi > Modüller > Alacak hesapları > Ödemeler kurulumu > Ödeme günleri**'ne gidin. **Ödeme şartları** için kurulum, **Alacak hesapları** ve **Borç hesapları** için paylaşılır. Bunu modül içinde tanımlarsanız, diğer modülde de kullanılabilir. Bu görev kılavuzu için, **Alacak hesapları** altındaki tüm ödeme şartları ayarlanmıştır.
+2. **Yeni**'yi tıklatın. Ödeme şartlarınız haftanın belirli bir gününü (Pazartesi, Salı vb.) veya ayın belirli bir tarihini (5'i, 6'sı vb.) gerektiriyorsa bir ödeme günü oluşturun. 
 3. **Ödeme günü** alanına bir kod girin.
 4. **Açıklama** alanına, ödeme günü için bir açıklama girin.
 5. **Hafta/Ay** alanında ya 'Hafta'yı veya 'Ay'ı seçin. Haftanın bir gününü girmek istiyorsanız (örneğin Pazartesi), Hafta'yı seçin. Ay içinde bir tarih girmek istiyorsanız (örneğin ayın 10'), Ay'ı seçin. Bu örnek için Ay'ı seçin. 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065028"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687546"
 ---
 # <a name="configure-integration-with-finance"></a>Finance ile tümleştirmeyi yapılandırma
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065028"
 
 
 
-Dynamics 365 Human Resources İle Dynamics 365 Finance'i birleştirmek için, [veri tümleştirici](/powerapps/administrator/data-integrator) alanındaki insan kaynakları finans şablonunu kullanabilirsiniz. Finans şablonuna İnsan Kaynakları işler, pozisyonlar ve çalışanlar için veri akışını etkinleştirir. Şablon verilerin İnsan Kaynakları'nden finansa akmasını sağlar, ancak verilerin finans'tan İnsan Kaynakları akamasına izin vermez.
+Dynamics 365 Human Resources'ı Dynamics 365 Finance ile birleştirmek için, [Veri Tümleştirici](/powerapps/administrator/data-integrator) alanındaki Human Resources'tan Finance'e şablonunu kullanabilirsiniz. Finans şablonuna İnsan Kaynakları işler, pozisyonlar ve çalışanlar için veri akışını etkinleştirir. Şablon verilerin İnsan Kaynakları'nden finansa akmasını sağlar, ancak verilerin finans'tan İnsan Kaynakları akamasına izin vermez.
 
 ![Human Resources'tan Finance'e Tümleştirme Akışı.](./media/hr-admin-integration-finance-flow.png)
 
@@ -47,7 +46,7 @@ Human Resources'tan Finance'e çözümü aşağıdaki veri eşitleme türlerini 
 Tümleştirme çözümü için aşağıdaki Human Resources ve Finance sürümleri gereklidir: 
 
 - Dataverse üzerinde Dynamics 365 Human Resources
-- Dynamics 365 Finance 7.2 veya daha ileri bir sürüm
+- Dynamics 365 Finance sürüm 7.2 ve sonrası
 
 ## <a name="template-and-tasks"></a>Şablon ve görevler
 

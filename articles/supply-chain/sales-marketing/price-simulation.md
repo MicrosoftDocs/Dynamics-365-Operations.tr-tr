@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d206654dcb7964ac2ed9aa9ccf7cec709e1bd38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580516"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689692"
 ---
 # <a name="price-simulation"></a>Fiyat benzetimi
 
@@ -32,7 +32,8 @@ Bir teklif için fiyat benzetimi, yeni toplam tutarı önerilen yeni bir fiyata 
 
 Bir fiyat benzetimi, teklifteki fiyatı değiştirmez. Fiyat benzetimi bir teklifinin tamamına uygulanırsa, teklif başlığında özel bir indirim olarak kabul edilir. Fiyat benzetimi belirli maddelerle uygulanırsa, teklif satırlarında özel bir indirim olarak kabul edilir. Oluşturulan bir teklif satırındaki birim satış fiyatı, bu fiyat benzetimi uygulandığında değişmez. Bunun yerine, teklif satırındaki fiyat azaltımına karşılık gelen bir iskonto yüzdesi uygulanır. Bir fiyat benzetimi uygulandığında, birim satış fiyatı ve iskonto yüzdesi teklif satırına veya teklif başlığına transfer edilir.  
 
->[Not!] Bir fiyat benzetimini çalıştırırken, yalnızca geçerli satış para birimi benzetim oluşturmak için kullanılır. Ancak teklif toplamlarını görüntülediğinizde, şirket para birimi ve satış para biriminin bir karışımını görürsünüz.  
+>[!NOTE]
+>Bir fiyat benzetimini çalıştırırken, yalnızca geçerli satış para birimi benzetim oluşturmak için kullanılır. Ancak teklif toplamlarını görüntülediğinizde, şirket para birimi ve satış para biriminin bir karışımını görürsünüz.  
 
 Teklifi satırlarına eklenen ek maddeler, satır iskontoları veya çoklu satırlı iskontolarını tetikleyebilir. Ayrıca teklif satırlarının katkı paylarını ve katkı oranlarını ve tüm iskontoyu değiştirebilecek toplam iskontoları da tetikleyebilirler.  
 

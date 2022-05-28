@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071122"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694018"
 ---
 # <a name="integration-with-finance-faq"></a>Finans ile tümleştirme SSS
 
@@ -30,7 +29,7 @@ ms.locfileid: "8071122"
 
 
 
-Bu konu, hangi verilerin Dynamics 365 Human Resources, Dynamics 365 Finance ile tümleştirildiğinde eşitleneceğine dair sıkça sorulan soruları yanıtlar.
+Bu konu, Dynamics 365 Human Resources, Dynamics 365 Finance ile tümleştirildiğinde hangi verilerin eşitleneceğine dair sıkça sorulan soruları yanıtlar.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Power Apps uygulamasında Dynamics 365 Talent uygulama kullanıcısını düzenleyebilir miyim?
 
@@ -89,7 +88,7 @@ Ek veriler Power Apps ile doldurulabilir.
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Çift yönlü tümleştirme ayarlayabilir miyim?
 
-Hayır, tümleştirme şu anda yalnızca tek yönlüdür (Human Resources'dan Finans ve Operasyon'a). Bununla birlikte, İnsan Kaynakları'ndan Finance'e veri göndermek için bir varsayılan şablon vardır.
+Hayır, tümleştirme şu anda yalnızca tek yönlüdür (Human Resources'dan Finance and Operations'a). Bununla birlikte, İnsan Kaynakları'ndan Finance'e veri göndermek için bir varsayılan şablon vardır.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Tümleştirmemin bir parçası olarak kayıt silinmesine izin verebilir miyim?
 
@@ -119,7 +118,7 @@ Bu hatanın nedenleri arasında şunlar olabilir:
 
 - Veri aktarma, kaynakta (Dataverse) yinelenen kayıtların ayıklanmasıyla sonuçlandı.
 
-- Veri aktarımı, Finans ve Operasyon'da ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin Dataverse içindeki olduğundan ve Finans ve Operasyon gereksinimlerini karşıladığından emin olun.
+- Veri aktarımı, Finance and Operations'ta ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin Dataverse içindeki olduğundan ve Finance and Operations gereksinimlerini karşıladığından emin olun.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Yürütme hataları varsa ve Çalışan kimliği eşitlenmediyse, hatalı çalışan kaydına sahip geçmiş işi nasıl bulabilirim?
 
@@ -151,13 +150,13 @@ Varlık destekleniyorsa ve veri Dataverse içinde kullanılabilirse, Veri Tümle
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Çalışanlarımın adresleri Finance'e aktardıktan sonra doğru görünmüyor. Ne yapmalıyım?
 
-**Konum Kodu** için numara serisi, İnsan Kaynakları'ta ve Finance'te aynı düzeni kullanır. Numara serisinin her iki tarafta da benzersiz olması gerekir, bu sayede veriyi Dataverse'ten Finans ve Operasyon'a tümleştirirken adres çakışmaları gerçekleşmez.
+**Konum Kodu** için numara serisi, İnsan Kaynakları'ta ve Finance'te aynı düzeni kullanır. Numara serisinin her iki tarafta da benzersiz olması gerekir, bu sayede veriyi Dataverse'ten Finance and Operations'a tümleştirirken adres çakışmaları gerçekleşmez.
 
 İnsan Kaynakları tümleştirmesi sırasında, numara serilerinin İnsan Kaynakları ve Finance içinde aynı olmadığını doğrulayın. Tüm numara serilerinin, verinin her iki sistemde de tutulabildiği yerlerde aynı olmadığını doğrulayın.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Bağlantımı kümesi oluştururken, Bağlantı açılır listesinde bağlantıyı göremiyorum. Ne yapmam gerekir?
 
-Bağlantılarınızı oluştururken Dynamics 365 Finance'i ve Dataverse'i seçtiğinizden emin olun.
+Bağlantılarınızı oluştururken Dynamics 365 Finance'i ve Dataverse'ü seçtiğinizden emin olun.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Çalışmaları eşitlerken “CompanyInfo_FK mevcut değil" veya “Değer 12/31/2154 11:59:59 pm', 'Çalışma sonlanma tarihi' ilgili 'Çalışma' tablosunda bulunamadı.” hatasını alıyorum. Ne yapmalıyım?
 

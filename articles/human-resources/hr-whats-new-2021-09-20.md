@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f4fc4768f8c96678b216709f78af6d3ddfd4132
-ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
+ms.openlocfilehash: a3fd8705c7735cb3c0945f71651fafa767a7addf
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2021
-ms.locfileid: "7556945"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691596"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-20-2021"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 20 Eylül 2021
 
@@ -84,7 +83,7 @@ Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için
 
 | Özellik | Ayrıntılı |
 |---|---|
-| Platform güncelleştirmesi 10.0.21 (45) | Platform güncelleştirmesi 10.0.21'in kullanıma sunulmasının, 4 Ekim 2021'deki hizmet sürümüyle başlaması planlanıyor. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Platform güncelleştirmesi 10.0.21 (45) | Platform güncelleştirmesi 10.0.21'in kullanıma sunulmasının, 4 Ekim 2021'deki hizmet sürümüyle başlaması planlanıyor. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.21 sürümü için platform güncelleştirmeleri (Ekim 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 |Performans günlükleri genişletilmiş raporlar görünümü | Bu özellik, bir sonraki güncelleştirmede varsayılan olarak etkinleştirilecektir. |
 
 

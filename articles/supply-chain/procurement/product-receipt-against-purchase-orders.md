@@ -1,7 +1,7 @@
 ---
 title: Ürün girişi ve satınalma siparişleri karşılaştırması
 description: Bu konuda ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c22b4f914dc7eba34f2f9a2657d21d66f38c019
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8ea22357b4d966f50ef2021ba7534ae633859455
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570526"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674407"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Ürün girişi ve satınalma siparişleri karşılaştırması
 

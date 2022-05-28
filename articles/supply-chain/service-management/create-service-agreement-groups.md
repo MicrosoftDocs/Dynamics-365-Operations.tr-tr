@@ -1,7 +1,7 @@
 ---
 title: Servis sözleşmesi grupları oluşturma
 description: Bu konuda, servis sözleşmesi gruplarının nasıl oluşturulacağını gösteren bir yordam açıklanmaktadır.
-author: kamaybac
+author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5770bd9d958b63e4c62135f39224aee68247beff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b849de86f5c2cb89d584df607a4d7662606fa9d6
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580444"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677296"
 ---
 # <a name="create-service-agreement-groups"></a>Servis sözleşmesi grupları oluşturma 
 

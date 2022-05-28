@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087229"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710236"
 ---
 # <a name="task-management"></a>Görev yönetimi
 
@@ -57,18 +56,14 @@ Bir şirketin hem mevsimsel çalışanları hem de düzenli olarak tam zamanlı 
 **Geçişler** sekmesi, pozisyonları değiştiren veya en son değiştirilen pozisyonları olan tüm çalışanlar için tüm görevleri gösteren **Tüm görevler** listesini içerir. Ayrıca süresi geçen görevlerin bir listesini ve geçerli kullanıcıya atanan görevlerin listesini içerir.
 
 Her üç sekmede İK asistanları ve yöneticiler aşağıdaki faaliyetleri tamamlayabilir:
-
-- Bir çalışana denetim listesi uygulayın.
-- Görevin durumunu güncelleştirin.
-- Görevi yeniden atayın.
-- Görevin son tarihini güncelleştirin.
+- Bir çalışana denetim listesi uygulama
+- Görevin durumunu güncelleştirme
+- Görevi yeniden atama
+- Görevin son tarihini güncelleştirme
 
 > [!NOTE]
 > Varsayılan olarak, **Ekleme** sekmesi, son yedi gün içinde işe alınan çalışanları gösterir. Bu ayarı değiştirmek için, **İnsan kaynakları parametreleri** sayfasında, **Genel** sekmesinde **En son işe alımlar** için bir zaman dilimi belirleyin. **En son işe alımlar** listesindeki bilgiler belirli sayıda gün, ay veya yıl için gösterilebilir. Örneğin, son 14 günde işe alınan çalışanların listesini görüntülemek için **Dönem** alanını **14** olarak ve **Birim** alanını **Gün** olarak ayarlayın.
->
-> **İnsan kaynakları parametreleri** sayfasında, **Çıkarma** sekmesinde gösterilen çıkış ve çıkış çalışanlarına ait tarih aralığını da güncelleştirebilirsiniz.
->
-> Bu ayarlar, **Personel yönetimi** çalışma alanına da uygulanır.
+> **Human resources parametreleri** sayfasında, **Çıkarma** sekmesinde gösterilen çıkan ve çıkmış çalışanlara ait tarih aralığını da güncelleştirebilirsiniz. Bu ayarlar **Personel yönetimi** çalışma alanında da geçerlidir.
 
 ## <a name="setting-up-tasks"></a>Görevleri ayarlama
 
@@ -188,6 +183,13 @@ Ayrıca, **Çalışan** sayfasını açıp, menüden **Denetim listeleri**'ni se
 ## <a name="completing-tasks"></a>Görevleri tamamlama
 
 **Çalışan self servis** sayfasında, bir çalışan kendine atanan tüm görevleri görüntüleyebilir. Atanan her görev için **Görev**, **Açıklama**, **Yönergeler** ve **İlgili kişi** değerleri gösterilir. Ek olarak, her görev için çalışan, Dynamics 365 uygulamasında ilişkili harici web sayfasını veya ilişkili sayfayı açabilir.
+
+Görevler varsayılan panoda da görüntülenebilir. Görevleri varsayılan panoda görüntülemek için:
+1. **Kullanıcı Seçenekleri – Tercihler – Görev Yönetimi**'ne gidin. 
+2. **Görevleri varsayılan panoda görüntüle**'yi **Açık** olarak seçin.  
+
+>[!Note] 
+>Seçeneğin **Kullanıcı seçenekleri**'nde görüntülenmesi için, **Özellik yönetimi**'nde **Görev yönetimi** özelliğinin açık olması gerekir.
 
 Görevler, **Devam ediyor**, **İptal edildi** veya **Tamamlandı** olarak işaretlenebilir. Görev bir gruba atanmışsa gruptaki bir kişi bunu tamamladığında görev **Tamamlandı** olarak işaretlenir.
 

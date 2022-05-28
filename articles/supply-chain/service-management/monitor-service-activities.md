@@ -1,7 +1,7 @@
 ---
 title: Servis faaliyetlerini izleme
 description: Gönderme panosu formu size çeşitli planlanmış servis faaliyetlerine yönelik olarak bir bakışta durum güncelleştirmesi olanağını ve şirketinizdeki genel servis siparişi akışını izleme araçlarını sunar.
-author: kamaybac
+author: sorenva
 ms.date: 05/04/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 508910b0d32b946cb1d120a5eec5a2e50197f35a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fb4295df879281af86bb532cbf40fed655e3f778
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580420"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671800"
 ---
 # <a name="monitor-service-activities"></a>Servis faaliyetlerini izleme 
 

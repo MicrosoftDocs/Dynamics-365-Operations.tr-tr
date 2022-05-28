@@ -1,7 +1,7 @@
 ---
 title: Satıcı iş birliği kullanıcılarını yönetme
 description: Bu konu, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ff0d11bf2c42f7ae63e3db5f31f3ffea2c28f693
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 515d995641f5bbe976643a38c26a46f7d8a115dd
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578140"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678841"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Satıcı iş birliği kullanıcılarını yönetme
 

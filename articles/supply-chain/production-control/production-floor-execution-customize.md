@@ -2,7 +2,7 @@
 title: Üretim katı yürütme arabirimini özelleştirme
 description: Bu konu, geçerli formların nasıl genişletileceğini veya üretim katı yürütme arabirimi için yeni form ve düğmelerin nasıl oluşturulacağını açıklamaktadır.
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066558"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712957"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini özelleştirme
 
@@ -60,7 +60,7 @@ Bitirdiğinizde, yeni düğme (eylem) otomatik olarak Microsoft Dynamics 365 Sup
 1. Listeye yeni menü öğesi ekleyerek `getMainMenuItemsList` yönteminin genişletilmiş olduğu, `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension` adlı bir uzantı oluşturun. Aşağıdaki kodda bir örneği gösterilmiştir.
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Forma veya iletişim kutusuna tarih ve saat denetimleri ekleme
+
+Bu bölüm, bir forma veya iletişim kutusuna tarih ve saat denetimlerinin nasıl ekleneceğini gösterir. Dokunmatik kullanımı kolay tarih ve saat denetimleri çalışanların tarih ve saat belirtmelerine olanak tanır. Aşağıdaki ekran görüntüleri, denetimlerin sayfada normal olarak nasıl göründüğünü gösterir. Saat denetimi hem 12 saatlik hem de 24 saatlik sürümleri sağlar; gösterilen sürüm, arabirimin altında çalıştığı kullanıcı hesabı için belirlenen tercihi izler.
+
+![Tarih denetimi örneği.](media/pfe-customize-date-control.png "Tarih denetimi örneği")
+
+![12 saatlik sürümü gösteren zaman denetimi örneği.](media/pfe-customize-time-control-12h.png "12 saatlik sürümü gösteren zaman denetimi örneği")
+
+![24 saatlik sürümü gösteren zaman denetimi örneği.](media/pfe-customize-time-control-24h.png "24 saatlik sürümü gösteren zaman denetimi örneği")
+
+Aşağıdaki prosedür, bir forma tarih ve saat denetimlerinin nasıl ekleneceği hakkında bir örnek gösterir.
+
+1. Formun içereceği her bir tarih ve saat denetimi için forma bir denetleyici ekleyin. (Denetleyici sayısı formdaki tarih ve saat denetimleri sayısına eşit olmalıdır.)
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. Gerekli değişkenleri (`utcdatetime` türünde) bildirin.
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. Tarih saatin tarih saat denetleyicileri tarafından güncelleştirileceği yöntemler oluşturun. Aşağıdaki örnekte bu tür bir yöntem gösterilmiştir.
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. Her bir tarih saat denetleyicisinin davranışını ayarlayın ve her denetleyiciyi formun bir bölümüne bağlayın. Aşağıdaki örnek, başlangıç tarihi ve başlangıç zamanı denetimleri için verilerin nasıl ayarlanacağını gösterir. Bitiş tarihi ve bitiş zamanı denetimleri için (gösterilmez) benzer bir kod ekleyebilirsiniz.
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    Tek ihtiyacınız olan bir tarih denetimi ise, zaman denetimi kurulumunu atlayabilir ve bunun yerine aşağıdaki örnekte gösterildiği şekilde sadece tarih denetimini ayarlayabilirsiniz:
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

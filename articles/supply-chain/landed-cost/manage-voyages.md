@@ -1,7 +1,7 @@
 ---
 title: Seyahatleri yönetme
 description: Bu konu, seyahatlerle nasıl çalışılacağını açıklamaktadır. Bir seyahat genellikle bir gemiyi temsil eder. Ancak uygulamalarınıza ve prosedürlerinize bağlı olarak bir satıcıyı, satın alma siparişini veya kuruluşunuz için anlamlı olan başka bir maddeyi temsil edebilir.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMTableListPage, ITMTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570450"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8696180"
 ---
 # <a name="manage-voyages"></a>Seyahatleri yönetme
 

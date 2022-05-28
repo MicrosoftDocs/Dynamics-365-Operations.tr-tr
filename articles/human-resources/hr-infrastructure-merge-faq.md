@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661472"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688134"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources altyapı birleştirme hakkında SSS
 
@@ -55,7 +54,7 @@ Dynamics 365 Human Resources ile Finans ve Operasyon uygulamalarındaki İK mod�
 
 Yeni İK özellikleri Özellik yönetimi üzerinden yönetilecektir. Müşteriler özellikleri almak isteyip istemediklerine karar verecektir. Bazı durumlarda özellikler değiştirilebilir. Bu durumlarda, belgeler sağlanacaktır.
 
-### <a name="how-does-this-change-affect-me-if-i-am-an-existing-customer-and-i-use-both-the-hr-module-on-the-finance-and-operations-infrastructure-and-dynamics-365-human-resources-through-custom-integrations"></a>Mevcut bir müşteriysem ve hem Finans ve Operasyon altyapısındaki İK modülünü hem de özel entegrasyonlar aracılığıyla Dynamics 365 Human Resources'ı kullanıyorsam bu değişiklik beni nasıl etkiler?
+### <a name="how-does-this-change-affect-me-if-i-am-an-existing-customer-and-i-use-both-the-hr-module-on-the-finance-and-operations-infrastructure-and-dynamics-365-human-resources-through-custom-integrations"></a>Mevcut bir müşteriysem ve hem Finance and Operations altyapısındaki İK modülünü hem de özel entegrasyonlar aracılığıyla Dynamics 365 Human Resources'ı kullanıyorsam bu değişiklik beni nasıl etkiler?
 
 Dynamics 365 Human Resources ile Dynamics 365 Finance'teki İK modülü arasındaki özel tümleştirmelere artık gerek yoktur. Tüm İK verileri diğer Finans ve Operasyon uygulamalarında olduğu gibi aynı veritabanında yer alacaktır.
 
@@ -67,11 +66,11 @@ Kuruluşunuz Dynamics 365 Human Resources'ı kullanıyor ancak diğer Finans ve 
 
 Ayrıca, üretim ortamınızı geçirmeden önce geçiş işlemini test edebilmeniz ve verilerinizi ve deneyiminizi doğrulayabilmeniz için araçlar uygulanacaktır.
 
-Kuruluşunuz hem Dynamics 365 Human Resources hem de diğer Finans ve Operasyon uygulamalarını kullanıyorsa verilerinizin yeni ortama doğru şekilde geçirildiğinden emin olmak için doğrulama için daha fazla zaman planlamanız gerekir. Yeni altyapıya geçiş, Human Resources ortamınızdaki verileri Finans ve Operasyon ortamınızla birleştirir. Çakışan verilerde çakışmanın nasıl çözülmesi gerektiğini belirlemek için kullanıcı girişi gerekir. Kullanıcılar ve yöneticiler, çakışmaların olduğu veri eşlemelerini yönetmek ve üretim ortamlarının geçişinden önce korumalı alan ortamlarında geçişi test etmek zorunda kalacaktır.
+Kuruluşunuz hem Dynamics 365 Human Resources hem de diğer Finans ve Operasyon uygulamalarını kullanıyorsa verilerinizin yeni ortama doğru şekilde geçirildiğinden emin olmak için doğrulama için daha fazla zaman planlamanız gerekir. Yeni altyapıya geçiş, Human Resources ortamınızdaki verileri Finance and Operations ortamınızla birleştirir. Çakışan verilerde çakışmanın nasıl çözülmesi gerektiğini belirlemek için kullanıcı girişi gerekir. Kullanıcılar ve yöneticiler, çakışmaların olduğu veri eşlemelerini yönetmek ve üretim ortamlarının geçişinden önce korumalı alan ortamlarında geçişi test etmek zorunda kalacaktır.
 
 ### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Kuruluşum, Dynamics 365 Finance, Supply Chain Management, Commerce veya Project Operations'ta Human Resources modülünü kullanıyor. Yeni deneyime geçiş için ne planlamamız gerekiyor?
 
-Finans ve Operasyon"uygulamalarındaki İK modülunu kullanan kuruluşlar için Dynamics 365 Human Resources'daki yeni özellik işlevselliği standart One Version güncelleme işlemi aracılığıyla ortamınıza uygulanır. Her güncelleştirmede kullanılabilir hale gelirken ortamınızdaki yeni işlevselliği görmeyi bekleyebilirsiniz. Yeni özellikleri açmak için Özellik yönetimini kullanabilirsiniz ancak bu özellikleri doğrulamayı planlamanız gerekir. Ortamınızdaki diğer güncelleştirmeleri doğrulamak için uyguladığınız işlemleri izleyin. Güncelleştirmelerin Finans ve Operasyon uygulamalarına nasıl uygulandığı hakkında daha fazla bilgi için bkz. [One Version'a genel bakış](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
+Finans ve Operasyon uygulamalarındaki İK modülünü kullanan kuruluşlar için Dynamics 365 Human Resources'daki yeni özellik işlevselliği standart One Version güncelleme işlemi aracılığıyla ortamınıza uygulanır. Her güncelleştirmede kullanılabilir hale gelirken ortamınızdaki yeni işlevselliği görmeyi bekleyebilirsiniz. Yeni özellikleri açmak için Özellik yönetimini kullanabilirsiniz ancak bu özellikleri doğrulamayı planlamanız gerekir. Ortamınızdaki diğer güncelleştirmeleri doğrulamak için uyguladığınız işlemleri izleyin. Güncelleştirmelerin Finans ve Operasyon uygulamalarına nasıl uygulandığı hakkında daha fazla bilgi için bkz. [One Version'a genel bakış](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="when-will-my-organization-be-migrated"></a>Kuruluşum için geçiş ne zaman yapılacak?
 
@@ -89,11 +88,11 @@ Dikkate alınması gereken önemli noktalar, hangi İK işlevlerinin gerekli old
 
 Kuruluşun İK işlevleri gereksinimi kuruluşun servise alma işlemini gerçekleştireceği zaman aralığında yeni altyapıda kullanılabilir olduğunda Finans ve Operasyon uygulamalarındaki Human Resources modülünde servise alma işlemi daha kolay hale gelebilir. Bu, Dynamics 365 Human Resources uygulamasına standart bir uygulama yükseltme işlemi olacağından ve müşteri zaten yeni altyapıda olacağından geçiş daha kolay olacaktır. Kuruluş, eski altyapı üzerinde Dynamics 365 Human Resources uygulamasında servise alma işlemine karar verirse yeni altyapıya taşınmak için bir ortam geçişi gerekir. Bu durum, yeni altyapıda servise alma işlemi yapılarak önlenebilir.
 
-### <a name="i-am-using-new-capabilities-that-are-available-only-in-dynamics-365-human-resources-such-as-leave-and-absence-and-benefits-management-will-these-capabilities-now-be-available-in-the-human-resources-module-on-the-finance-and-operations-infrastructure-too"></a>Yalnızca Dynamics 365 Human Resources'ta kullanılabilen yeni özellikleri **(İzin ve devamsızlık** ve **Yan hak yönetimi** gibi) kullanıyorum. Bu özellikler Finans ve Operasyon altyapısındaki İnsan Kaynakları modülünde de mevcut olacak mı?
+### <a name="i-am-using-new-capabilities-that-are-available-only-in-dynamics-365-human-resources-such-as-leave-and-absence-and-benefits-management-will-these-capabilities-now-be-available-in-the-human-resources-module-on-the-finance-and-operations-infrastructure-too"></a>Yalnızca Dynamics 365 Human Resources'ta kullanılabilen yeni özellikleri **(İzin ve devamsızlık** ve **Yan hak yönetimi** gibi) kullanıyorum. Bu özellikler Finance and Operations altyapısındaki İnsan Kaynakları modülünde de mevcut olacak mı?
 
-Evet, Dynamics 365 Human Resources'taki tüm modüller Finans ve Operasyon uygulamalarında olduğu gibi çalışacak ve yüzde 100 özellik eşliği olacaktır. Şu anda İK'daki bu özellikleri kullanan müşteriler için genel geçiş stratejisinin bir parçası olarak, müşteri verileri Finans ve Operasyon altyapısı üzerinde çalışmaya devam edecek şekilde geçirilecektir.
+Evet, Dynamics 365 Human Resources'taki tüm modüller Finans ve Operasyon uygulamalarında olduğu gibi çalışacak ve yüzde 100 özellik eşliği olacaktır. Şu anda İK'daki bu özellikleri kullanan müşteriler için genel geçiş stratejisinin bir parçası olarak, müşteri verileri Finance and Operations altyapısı üzerinde çalışmaya devam edecek şekilde geçirilecektir.
 
-### <a name="i-use-the-new-dynamics-365-human-resources-benefits-management-capabilities-ive-built-custom-integrations-with-the-hr-module-on-the-finance-and-operations-infrastructure-so-that-i-can-take-advantage-of-the-payroll-capabilities-by-using-benefits-data-will-these-custom-integrations-be-required-going-forward"></a>Yeni Dynamics 365 Human Resources yan hak yönetimi özelliklerini kullanıyorum. Yan hak verilerini kullanarak bordro özelliklerinden yararlanabilmek için Finans ve Operasyon altyapısı üzerinde İK modülüyle özel tümleştirmeler oluşturdum. Bu özel tümleştirmeler ileride gerekli olacak mı?
+### <a name="i-use-the-new-dynamics-365-human-resources-benefits-management-capabilities-ive-built-custom-integrations-with-the-hr-module-on-the-finance-and-operations-infrastructure-so-that-i-can-take-advantage-of-the-payroll-capabilities-by-using-benefits-data-will-these-custom-integrations-be-required-going-forward"></a>Yeni Dynamics 365 Human Resources yan hak yönetimi özelliklerini kullanıyorum. Yan hak verilerini kullanarak bordro özelliklerinden yararlanabilmek için Finance and Operations altyapısı üzerinde İK modülüyle özel tümleştirmeler oluşturdum. Bu özel tümleştirmeler ileride gerekli olacak mı?
 
 Altyapı birleştirmenin bir parçası olarak, İK verileri diğer Finans ve Operasyon uygulamalarıyla aynı veritabanına aktarılır. Finans ve Operasyon uygulamalarındaki modüller arasında tümleştirme artık gerekli olmayacaktır.
 
@@ -129,9 +128,9 @@ Tümleştirme uç noktasına bağlıdır. Finans ve Operasyon uygulamalarında k
 
 ### <a name="we-have-extended-dataverse-for-dynamics-365-human-resources-will-these-extensions-be-migrated-automatically"></a>Dynamics 365 Human Resources için Dataverse'ü genişlettik. Bu uzantılar otomatik olarak geçirilecek mi?
 
-Yeni altyapıda ortamda birleştirilecek Dynamics 365 Human Resources ve Finans ve Operasyon ortamları aynı Dataverse ortamına bağlıysa iki uygulama geçiş sonrasında da aynı Dataverse ortamına bağlı olmaya devam eder. Hiçbir Dataverse uzantısı için geçiş gerekmez.
+Yeni altyapıda ortamda birleştirilecek Dynamics 365 Human Resources ve Finance and Operations ortamları aynı Dataverse ortamına bağlıysa iki uygulama geçiş sonrasında da aynı Dataverse ortamına bağlı olmaya devam eder. Hiçbir Dataverse uzantısı için geçiş gerekmez.
 
-Ancak, Dynamics 365 Human Resources ve Finans ve Operasyon ortamları şu anda ayrı Dataverse ortamlarına bağlıysa iki Dataverse ortamının yeni altyapıda tek bir ortama bağlı olması için birleştirilmesi gerekir. Bu Dataverse geçişi için Human Resources çözümlerinde standart olan Dataverse tabloları yeni Dataverse ortamına bağlanabilir ve yeniden eşitlenebilir. Dataverse ortamındaki uzantılar otomatik olarak geçirilmez ve yeni ortamda yeniden dağıtılması gerekir. Dataverse uzantılarınızı yönetmek için yönetilen çözümler kullanmanızı öneririz. Daha fazla bilgi için bkz. [Çözümlere giriş](/powerapps/developer/data-platform/introduction-solutions).
+Ancak, Dynamics 365 Human Resources ve Finance and Operations ortamları şu anda ayrı Dataverse ortamlarına bağlıysa iki Dataverse ortamının yeni altyapıda tek bir ortama bağlı olması için birleştirilmesi gerekir. Bu Dataverse geçişi için Human Resources çözümlerinde standart olan Dataverse tabloları yeni Dataverse ortamına bağlanabilir ve yeniden eşitlenebilir. Dataverse ortamındaki uzantılar otomatik olarak geçirilmez ve yeni ortamda yeniden dağıtılması gerekir. Dataverse uzantılarınızı yönetmek için yönetilen çözümler kullanmanızı öneririz. Daha fazla bilgi için bkz. [Çözümlere giriş](/powerapps/developer/data-platform/introduction-solutions).
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Dynamics 365 Human Resources ile çalışacak Microsoft Power Automate akışları ve/veya Microsoft Power Apps yapılandırdık. Altyapı değişikliği tamamlandıktan sonra bu Microsoft Power Platform bileşenleri geçirilecek ve otomatik olarak çalışacak mı?
 
@@ -155,7 +154,7 @@ Ancak, yeni altyapıdaki ortam geçişten sonra farklı bir Dataverse ortamına 
 
 ### <a name="is-there-an-impact-on-the-azure-region-when-my-environment-is-migrated"></a>Ortamım geçirildiğinde Azure bölgesi üzerinde bir etkisi olacak mı?
 
-Human Resources ortamınızın geçiş sırasında genellikle aynı Azure bölgesinde kalması beklenir. Yalnızca Human Resources ortamı farklı bir bölgedeki bir Finans ve Operasyon ortamıyla birleştirilirse özel durum oluşur. Bu durumda, Human Resources ortamı, Finans ve Operasyon ortamının Azure bölgesine geçirilir.
+Human Resources ortamınızın geçiş sırasında genellikle aynı Azure bölgesinde kalması beklenir. Yalnızca Human Resources ortamı farklı bir bölgedeki bir Finance and Operations ortamıyla birleştirilirse özel durum oluşur. Bu durumda, Human Resources ortamı, Finance and Operations ortamının Azure bölgesine geçirilir.
 
 ### <a name="my-organization-depends-on-workflows-in-dynamics-365-human-resources-for-one-or-more-business-processes-will-the-workflows-be-migrated-automatically"></a>Kuruluşum, bir veya daha fazla iş süreci için Dynamics 365 Human Resources iş akışlarını kullanıyor. İş akışları otomatik olarak geçirilecek mi?
 
@@ -171,7 +170,7 @@ Evet, Kaydedilmiş görünümler yeni altyapıya geçirilecek.
 
 ### <a name="we-are-using-ceridian-with-dynamics-365-human-resources-will-the-ceridian-integration-be-available-after-the-infrastructure-change-is-completed"></a>Dynamics 365 Human Resources ile Ceridian kullanıyoruz. Altyapı değişikliği tamamlandıktan sonra Ceridian tümleştirmesi kullanıma sunulacak mı? 
 
-Ceridian ile tümleştirme Bordro API'si tabanlı tümleştirmeye geçirilecektir. Şu anda Dynamics 365 Human Resources'da bulunan dosya tabanlı tümleştirme Finans ve Operasyon altyapısına geçirilmeyecek. Daha fazla bilgi için bkz. [Bordro API'sine giriş](./hr-admin-integration-payroll-api-introduction.md).
+Ceridian ile tümleştirme Bordro API'si tabanlı tümleştirmeye geçirilecektir. Şu anda Dynamics 365 Human Resources'da bulunan dosya tabanlı tümleştirme Finance and Operations altyapısına geçirilmeyecek. Daha fazla bilgi için bkz. [Bordro API'sine giriş](./hr-admin-integration-payroll-api-introduction.md).
 
 ### <a name="how-will-the-migration-affect-the-service-update-process"></a>Geçiş, hizmet güncelleştirme işlemini nasıl etkileyecek?
 
@@ -179,7 +178,7 @@ Geçişten sonra müşteriler ALM ve hizmet güncellemeleri açısından çok da
 
 ### <a name="how-will-the-migration-affect-my-lcs-project-for-dynamics-365-human-resources"></a>Geçiş Dynamics 365 Human Resources için LCS projemi nasıl etkileyecek?
 
-Yeni altyapıya geçiş, Dynamics 365 Human Resources ortamlarınızın yönetimini LCS'de bir Finans ve Operasyon uygulama projesine taşıyacaktır. Geçiş Dynamics 365 Human Resources'ı mevcut bir Finans ve Operasyon ortamıyla birleştirirse Human Resources LCS projeniz Finans ve Operasyon uygulamanızın LCS uygulama projesiyle birleştirilecektir. Şu anda yalnızca Dynamics 365 Human Resources kullanıyorsanız yeni bir LCS uygulama projesi oluşturulur ve mevcut Human Resources LCS projeniz yeni projeye geçirilir.
+Yeni altyapıya geçiş, Dynamics 365 Human Resources ortamlarınızın yönetimini LCS'de bir Finance and Operations uygulama projesine taşıyacaktır. Geçiş Dynamics 365 Human Resources'ı mevcut bir Finance and Operations ortamıyla birleştirirse Human Resources LCS projeniz Finance and Operations uygulamanızın LCS uygulama projesiyle birleştirilecektir. Şu anda yalnızca Dynamics 365 Human Resources kullanıyorsanız yeni bir LCS uygulama projesi oluşturulur ve mevcut Human Resources LCS projeniz yeni projeye geçirilir.
 
 Yeni proje, Finans ve Operasyon uygulamalarının kullandığı proje türüyle aynı olacak. Ortam yönetimi için aynı özelliklere ve işlevlere sahip olacaktır. Daha fazla bilgi için bkz. [Lifecycle Services kaynakları](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
@@ -189,7 +188,7 @@ LCS projesi için iş süreci kitaplıkları, Human Resources için yeni LCS pro
 
 ### <a name="my-organization-currently-uses-only-dynamics-365-human-resources-what-resources-are-available-so-that-we-can-learn-more-about-the-development-capabilities-after-the-infrastructure-change-is-completed"></a>Kuruluşum şu anda yalnızca Dynamics 365 Human Resources kullanıyor. Altyapı değişikliği tamamlandıktan sonra geliştirme özellikleri hakkında daha fazla bilgi edinebilmemiz için hangi kaynaklar sunulacak?
 
-Hem Microsoft Power Platform genişletilebilirlik seçenekleri hem de Finans ve Operasyon genişletilebilirlik seçenekleri mevcut olacak ve geliştirme için kullanılabilecek. Daha fazla bilgi için bkz. [Giriş sayfasını geliştirme ve özelleştirme](../fin-ops-core/dev-itpro/dev-tools/developer-home-page.md).
+Hem Microsoft Power Platform genişletilebilirlik seçenekleri hem de Finance and Operations genişletilebilirlik seçenekleri mevcut olacak ve geliştirme için kullanılabilecek. Daha fazla bilgi için bkz. [Giriş sayfasını geliştirme ve özelleştirme](../fin-ops-core/dev-itpro/dev-tools/developer-home-page.md).
 
 ### <a name="we-have-enabled-features-in-dynamics-365-human-resources-will-these-features-be-enabled-automatically-during-the-migration"></a>Dynamics 365 Human Resources'ta özellikleri etkinleştirdik. Bu özellikler geçiş sırasında otomatik olarak etkinleştirilecek mi?
 

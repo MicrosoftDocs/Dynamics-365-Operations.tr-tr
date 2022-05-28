@@ -1,7 +1,7 @@
 ---
 title: Çok duraklı yolculuk kurulumu
 description: Bu konuda, Varış yeri maliyeti modülü için çok duraklı yolculukların nasıl ayarlanacağı açıklanmaktadır.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMLegTable, ITMJourneyTable, ITMActivityTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 57d49af9ca9f2f7e0e4b038c62578ae1993779d6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c65a3d3971593ccf832a6af3c8c27d56a68b46c8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577588"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689733"
 ---
 # <a name="multi-leg-journey-setup"></a>Çok duraklı yolculuk kurulumu
 

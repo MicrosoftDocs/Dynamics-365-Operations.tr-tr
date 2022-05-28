@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766993"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735096"
 ---
 # <a name="dimension-hierarchy"></a>Boyut hiyerarşisi
 
@@ -203,13 +203,13 @@ Excel veya Power BI kullanarak raporlar oluşturursanız, boyut hiyerarşilerini
 Aşağıdaki örnek, bir boyut hiyerarşisinin raporlama yapısında nasıl görünebileceğini gösterir.
 
 | Maliyet nesnesi boyut hiyerarşisi – Düzey 1 | Maliyet nesnesi boyut hiyerarşisi – Düzey 2 | Maliyet nesnesi boyut hiyerarşisi – Düzey 3 | Maliyet nesnesi boyut hiyerarşisi – Düzey 4 | Maliyet nesnesi boyut hiyerarşisi – Düzey 15 |
-|-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organizasyon                              | Yönetici                                     | Finans                                   | CC002                                     |                                            |
-| Organizasyon                              | Yönetici                                     | Finans                                   | CC003                                     |                                            |
-| Organizasyon                              | Yönetici                                     | Finans                                   | CC007                                     |                                            |
-| Organizasyon                              | Yönetici                                     | İK                                        | CC001                                     |                                            |
-| Organizasyon                              | Üretim                                | Paketleme                                 | CC005                                     |                                            |
-| Organizasyon                              | Üretim                                | Montaj                                  | CC006                                     |                                            |
+|----------------------------------|---------------------------------|-------------------------|-------------------------|----------------------------------------|
+| Organizasyon              | Yönetici                 | Finans                    | CC002              |                                            |
+| Organizasyon              | Yönetici                 | Finans                    | CC003              |                                            |
+| Organizasyon              | Yönetici               | Finans                     | CC007               |                                            |
+| Organizasyon              | Yönetici                | İK                           | CC001              |                                            |
+| Organizasyon              | Üretim           | Paketleme                    | CC005             |                                            |
+| Organizasyon              | Üretim          | Montaj                      | CC006            |                                            |
 
 ### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Raporlama için kullanılan boyut hiyerarşilerini güncelleştir 
 
@@ -328,7 +328,7 @@ Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen v
 - Power BI:
 
     - Veri, Power BI görselleştirmeleri içinde gösterilir
-    - Dynamics 365 Finance istemcisine içine katıştırılmış veri Power BI görselleştirmeleri
+    - Dynamics 365 Finance istemcisine katıştırılmış veri Power BI görselleştirmeleri
 
 > [!NOTE] 
 > - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

@@ -1,7 +1,7 @@
 ---
 title: Satınalma ilkeleri oluşturma
 description: Bu konu satınalma için iş süreçlerinize uygun olacak şekilde satınalma ilkelerinin nasıl oluşturulacağını gösterir.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPu
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dde2df0f04ea8ed1b200ae731df7143cc8de3aae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4f51c88506044359787257ba0e0a6668213a170d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579508"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677884"
 ---
 # <a name="create-purchasing-policies"></a>Satınalma ilkeleri oluşturma
 

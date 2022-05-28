@@ -2,23 +2,23 @@
 title: Günlükten ilgili şirketlerarası fişi görüntüleyin
 description: İlgili fiş penceresi, şirketlerarası hareketleri yevmiye defterinden aktarırken, mahsup şirketten olan fişi gösterir.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 05/5/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c41826986aea79206c8ec6ed045078e93a285a90042f0950fb5725c0bd850ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5a2f226c9b784a687296157b995bebb761aae27b
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772791"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717292"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>Günlükten ilgili şirketlerarası fişi görüntüleyin
 
@@ -28,28 +28,22 @@ ms.locfileid: "6772791"
 
 
 ## <a name="post-an-intercompany-journal"></a>Şirketlerarası günlük satırları deftere aktarın
-1. Yevmiye defterlerine gidin.
-2. Yeni'ye tıklayın.
-3. Listede, seçili satırı işaretleyin.
-4. İsim alanında, şirketlerarası defter adını seçin veya girin.
-5. Satırlar seçeneğini tıklatın.
-6. Listede, seçili satırı işaretleyin.
-7. Hesap alanında istediğiniz değerleri belirtin.
-8. Tanım alanına bir değer girin veya buradan bir değer seçin.
-9. Açıklama alanına bir değer girin.
-10. Sayfayı kapatın.
-11. Borç alanına bir sayı girin.
-12. Mahsup şirket alanında, mahsup şirketi yazın ya da seçin.
-13. Mahsup şirket alanına bir değer girin veya buradan bir değer seçin.
-14. Sayfayı kapatın.
-15. Mahsup hesap alanında istediğiniz değerleri belirtin.
-16. Deftere Naklet öğesine tıklayın.
+1. **Yevmiye defterleri**'ne gidin ve **Yeni**'ye tıklayın.
+2. Listede seçili satırı işaretleyin.
+3. **Ad** alanında, şirketlerarası defter adını seçin veya girin.
+4. **Satırlar**'a tıklayın, listede seçili satırı işaretleyin.
+5. **Hesap** alanında istediğiniz değerleri belirtin.
+6. **Açıklama** alanına bir değer girin veya buradan bir değer seçin.
+7. Sayfayı kapatın.
+8. **Borç** alanına bir sayı girin.
+9. **Mahsup şirket** alanında, mahsup şirketi yazın ya da seçin.
+10. **Mahsup hesap** alanında istediğiniz değerleri belirtin.
+11. **Naklet**'e tıklayın.
 
 ## <a name="view-related-intercompany-voucher"></a>İlgili şirketlerarası fişi görüntüleyin
-1. Fiş'e tıklayın.
-2. Tüm ilgili fişler'e tıklayın.
-3. Listede, seçili satırı işaretleyin.
-4. Fiş'e tıklayın.
+1. **Fiş**'e tıklayın.
+2. **İlgili fişler**'e tıklayın, listede seçili satırı işaretleyin.
+3. **Fiş**'e tıklayın.
 
 
 

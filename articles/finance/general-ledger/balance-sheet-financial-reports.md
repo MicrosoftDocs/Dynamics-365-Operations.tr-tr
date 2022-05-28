@@ -1,6 +1,6 @@
 ---
 title: Bilanço mali raporları
-description: Bu makale, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar.
+description: Bu konu, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar.
 author: jcart1106
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,32 +8,32 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 276e877db42361282ad2bf4a01dd971ec02e2af7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734526"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734320"
 ---
 # <a name="balance-sheet-financial-reports"></a>Bilanço mali raporları
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar. 
+Bu konu, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar. 
 
 ## <a name="default-balance-sheet-reports"></a>Varsayılan bilanço raporları
 
 İki farklı varsayılan bilanço raporu vardır. Bir raporda bölümler üst üste yerleştirilir. Diğer raporda ise bölümler yan yanadır.
 
 | Varsayılan rapor                       | Ne yapar                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|----------------------------------------------------------------------------------------------|
 | Bakiye – Varsayılan              | İlgili yıl için organizasyonun mali pozisyonunun görünümünü sağlar.                                                                 |
 | Yan Yana Bilanço – Varsayılan | İlgili yıl için organizasyonun mali pozisyonunun görünümünü sağlar. Kıymetler ve borç ve hissedarın öz varlığı yan yanadır. |
 

@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e06a38a19a16a07d77d0c9aceaa4e3206646dd0561996681b417b785058f3938
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75e5eb82686a0c124694ad349978f9c32482012b
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739371"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727664"
 ---
 # <a name="reconcile-a-bank-account"></a>Banka hesabı için mutabakat sağlama
 
@@ -35,7 +35,7 @@ Ekstrede listelenen herhangi bir çek veya havale makbuzu ödemesi **Bekleyen ip
 
 3.  **Hesap mutabakat** sayfasını açmak için **Hareketleri** seçin.
 
-4.  Banka hesabı ekstresindeki her hareket için Dynamics 365 Finance'daki tutar banka hesabı ekstresindeki tutara karşılık geliyorsa **Temizlenmiş** onay kutusunu seçin. Ayrıca, **Banka hareket türü** alanına değeri girebilir veya değiştirebilirsiniz. Bu alan değeri, banka hesabı istatistikleri ve bazı raporlar için önemlidir.
+4.  Banka ekstresindeki her hareket için Dynamics 365 Finance'teki tutar banka ekstresindeki tutara karşılık geliyorsa **Temizlenmiş** onay kutusunu seçin. Ayrıca, **Banka hareket türü** alanına değeri girebilir veya değiştirebilirsiniz. Bu alan değeri, banka hesabı istatistikleri ve bazı raporlar için önemlidir.
     
 
     > [!NOTE]

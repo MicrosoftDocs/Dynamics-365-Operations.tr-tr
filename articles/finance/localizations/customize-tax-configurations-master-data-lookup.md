@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 498201d5c0377058e86b25953ebbe401ae1af9e3
-ms.sourcegitcommit: ed43ceae9b2ef3f616b81127bcf4c4b0862e23f5
+ms.openlocfilehash: 69541316ad4c6c4bb404ea142844ce596b5502b9
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "7714892"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689142"
 ---
 # <a name="customize-tax-configurations-for-master-data-lookup"></a>Ana veri arama için vergi konfigürasyonlarını özelleştirme
 

@@ -1,26 +1,26 @@
 ---
 title: Satın alma hareketlerinde stopaj vergisi
 description: Stopaj vergisi yükümlülüğü olan satıcılar için **Tüm satıcılar** sayfasında varsayılan **Stopaj vergisi grubunu** atayabilirsiniz.
-author: roschlom
+author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: a1d1ddf108e5e79ca7684ecc26df1c016a0362bbec43868c7dfed6970a097a76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c2220159cef31bf3343bcf39325c7a0ff3e0cf47
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731440"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727216"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Satın alma hareketlerinde stopaj vergisi
 

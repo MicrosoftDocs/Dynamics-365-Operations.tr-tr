@@ -1,6 +1,6 @@
 ---
 title: İstatistiksel boyut üyeleri ve ölçü sağlayıcıları için sağlayıcı şablonları
-description: Bu konu, istatistiksel boyut üyeleri ve istatistiksel ölçü sağlayıcısı şablonları hakkında bilgi sağlar. İstatistiksel boyut üyelerini tahsisat maliyet dağılımı ve maliyet tahsisatı gibi ilkelerde tahsisat temeli olarak kullanılabilir. Ayrıca, parasal olmayan maliyet tüketimini bildirmek için de kullanılabilir.
+description: Bu konu, istatistiksel boyut üyeleri ve istatistiksel ölçü sağlayıcısı şablonları hakkında bilgi sağlar.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767659"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733920"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>İstatistiksel boyut üyeleri ve ölçü sağlayıcıları için sağlayıcı şablonları
 
@@ -128,13 +128,13 @@ Bu örnekte, yalnızca tüm tam zamanlı çalışanların sayısını (FTE) isti
 > [!NOTE]
 > Bu örnekte, **Geçerli sürüm** için yalnızca bir ilişki oluşturacağız.
 
-İlişkiyi kurmak için **Maliyet muhasebesi defteri**\> **Geçerli sürüm** \> **Yönet**\>**İstatistiksel ölçümler**'e gidin. Bu senaryo için verileri Finance'ten almak istediğimiz için **Dynamics 365 Finance – İstatistiksel ölçüler** veri bağlayıcısını seçin.
+İlişkiyi kurmak için **Maliyet muhasebesi defteri**\> **Geçerli sürüm** \> **Yönet**\>**İstatistiksel ölçümler**'e gidin. Bu senaryoda verileri Finance'ten almak istediğimiz için **Dynamics 365 Finance – İstatistiksel ölçüler** veri bağlayıcısını seçin.
 
 **Veri kaynağı**
 
-| Dosya Adı        | Veri bağlayıcı                                                                     | İstatistiksel boyut üyesi |
+| Adı        | Veri bağlayıcı                                                                     | İstatistiksel boyut üyesi |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTE D365FO | Dynamics 365 Finance - İstatistiksel ölçüler | FTE'ler                         |
+| FTE D365FO | Dynamics 365 Finance – İstatistiksel ölçüler | FTE'ler                         |
 
 **Veri sağlayıcısı yapılandırması**
 
@@ -216,13 +216,13 @@ Bu örnekte, yalnızca CC010 Paketleme maliyet merkeziyle ilgili saatlerin topla
 > [!NOTE]
 > Bu örnekte, **Geçerli sürüm** için yalnızca bir ilişki oluşturacağız.
 
-İlişkiyi kurmak için **Maliyet muhasebesi defteri**\> **Geçerli sürüm** \> **Yönet**\>**İstatistiksel ölçümler**'e gidin. Bu senaryo için verileri Finance'ten almak istediğimiz için **Dynamics 365 Finance – İstatistiksel ölçüler** veri bağlayıcısını seçin.
+İlişkiyi kurmak için **Maliyet muhasebesi defteri**\> **Geçerli sürüm** \> **Yönet**\>**İstatistiksel ölçümler**'e gidin. Bu senaryoda verileri Finance'ten almak istediğimiz için **Dynamics 365 Finance – İstatistiksel ölçüler** veri bağlayıcısını seçin.
 
 **Veri kaynağı**
 
 | Dosya Adı           | Veri bağlayıcı                                                                     | İstatistiksel boyut üyesi |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Paket CC D365FO | Dynamics 365 Finance - İstatistiksel ölçüler | Paket CC                      |
+| Paket CC D365FO | Dynamics 365 Finance – İstatistiksel ölçüler | Paket CC                      |
 
 Sistem ProdRouteTrans tablosunun her kaydın ayrı bir tüzel kişiliğe ait olduğu bir tablo olduğunu algılar. Bu nedenle, kaynak hareketlerinin aktarılması gereken tüzel kişiliği seçmeniz istenir.
 

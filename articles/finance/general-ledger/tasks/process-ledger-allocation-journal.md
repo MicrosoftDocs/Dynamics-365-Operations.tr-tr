@@ -1,6 +1,6 @@
 ---
 title: Genel muhasebe tahsisat günlüğünü işleme
-description: Bu konu, Dynamics 365 Finance'de bir tahsisat talebinin nasıl işlem yapılacağını açıklar.
+description: Bu konu, Dynamics 365 Finance'te bir tahsisat talebinin nasıl işleneceğini açıklar.
 author: aprilolson
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d37b1a9869cc130786d0e8fde68184e04c881bad1f64c86943174213025db82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765680"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722166"
 ---
 # <a name="process-ledger-allocation-journal"></a>Genel muhasebe tahsisat günlüğünü işleme
 
@@ -26,7 +26,7 @@ ms.locfileid: "6765680"
 
 Bu konuda bir tahsisat talebinin nasıl işleneceği açıklanmaktadır. Genel muhasebe defterine nakledilmeden önce gözden geçirilip onaylanabilecek veya doğrudan Genel muhasebe defterine nakledilebilecek bir tahsisat günlüğü oluşturmak için Tahsisat talebini işleme koy sayfasını kullanın. Bir tahsisatlar günlüğü oluşturmadan önce, en az bir aktif Muhasebe defteri tahsisat kuralı olmalıdır. Bu görevde USMF demo şirketi kullanılmaktadır.
 
-1. Gezinti bölmesinde **Modüller > Genel muhasebe > Tahsilatlar > Tahsisat talebini işleme koy**'a gidin.
+1. Gezinti bölmesinde **Genel muhasebe > Tahsisatlar > Tahsisat talebini işleme koy**'a gidin.
 2. **Kural** alanında, açılır menüden istediğiniz kaydı seçin.
 3. **Başlangıç tarihi** alanında bir tarih girin.
 
