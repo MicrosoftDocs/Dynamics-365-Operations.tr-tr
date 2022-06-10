@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740666"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758783"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Finans ve Operasyon uygulamaları için hizmet açıklaması
 
@@ -132,9 +132,9 @@ Bu bölümde, hizmette gerçekleşen bazı genel ortam ve veri yönetimi olaylar
 
 LCS, ortam ve veri yönetimi görevlerini gerçekleştirmek için kullanılan [self servis araçlar](../../dev-itpro/deployment/infrastructure-stack.md) ve [veritabanı taşıma işlemleri](../../dev-itpro/database/dbmovement-operations.md) sağlar. Burada bazı örnekler verilmiştir:
 
-**Olay:** [Üretim kurulumu isteme](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Olay:** [Üretim kurulumu isteme](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- [Servise alma onay listesini](../imp-lifecycle/prepare-go-live.md) tamamlayın ve [Microsoft FastTrack](/dynamics365/fasttrack/) takımına gönderin.
+- [Servise alınmaya hazırlık durumu incelemesini](../imp-lifecycle/prepare-go-live.md) tamamlayın ve [Microsoft FastTrack](/dynamics365/fasttrack/) takımına gönderin.
 - Bir üretim kurulumu istemeden önce [LCS Abonelik tahmin aracı](../../dev-itpro/lifecycle-services/subscription-estimator.md)'nı tamamlayın.
 - [LCS metodolojisinde](../../dev-itpro/lifecycle-services/create-methodology.md) belirtilen tüm uygulama görevlerini tamamlayın.
 

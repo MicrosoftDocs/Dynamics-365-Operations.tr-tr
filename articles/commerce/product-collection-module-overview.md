@@ -2,7 +2,7 @@
 title: Ürün topluluğu modülleri
 description: Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgili genel bir bakış sağlar.
 author: v-chgri
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4ff891eef79835fb4a65535ce8152e5b17023b9c
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984556"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780421"
 ---
 # <a name="product-collection-modules"></a>Ürün topluluğu modülleri
 
@@ -70,11 +70,14 @@ Aşağıdaki tabloda, Dynamics 365 Commerce'de çeşitli türlerdeki ürün kole
 Kategori sayfasına ürün koleksiyonu modülü eklemek için bu adımları izleyin.
 
 1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
-1. **Şablon seç** iletişim kutusunda, varsayılan kategori sayfanız tarafından kullanılan şablonu seçin. **Sayfa adı** altından uygun bir ad girin ve **Tamam**'ı seçin.
-1. **Alt altbilgi** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
-1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Ürün koleksiyonu** modülünü seçin ve **Tamam**'ı seçin.  
+1. **Yeni sayfa oluştur** iletişim kutusundaki **Sayfa adı** altında, uygun bir sayfa adı girin ve ardından **İleri**'yi seçin.
+1. **Şablon seç** bölümünde, varsayılan kategori sayfanız tarafından kullanılan şablonu seçin ve ardından **İleri**'yi seçin.
+1. **Bir düzen seçin** bölümünde, bir sayfa düzeni seçin (ör. **Esnek düzen**) ve sonra **İleri**'yi seçin.
+1. **İnceleyin ve bitirin** bölümünde, sayfa yapılandırmasını gözden geçirin. Sayfa bilgilerini düzenlemeniz gerekiyorsa, **Geri**'yi seçin. Sayfa bilgileri doğruysa, **Sayfa oluştur**'u seçin. 
+1. **Alt alt bilgi** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modül seç** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda, **Ürün koleksiyonu** modülünü seçin ve **Tamam**'ı seçin.  
 1. Ürün koleksiyonu modülüyle ilgili Özellikler bölmesinde, **Ürün listesi ekle**'yi seçin.
 1. **Ürün listesi yapılandırması seç** iletişim kutusunda liste türünü seçin, liste kaynağını seçin ve madde sayısını girin. Liste türü için kullanılabilen diğer seçenekleri yapılandırın. Liste türleri hakkında daha fazla bilgi için, aşağıdaki tabloya bakın. 
 1. **Tamam**'ı seçin.

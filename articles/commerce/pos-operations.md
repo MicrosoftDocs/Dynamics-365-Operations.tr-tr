@@ -2,7 +2,7 @@
 title: Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 description: Bu konu, Dynamics 365 Commerce içinde satış noktası (POS operasyonları hakkında bilgi verir). Uygulamada işlemlerin nereden çağrılabileceğini ve çevrimdışı modda kullanılabilir olup olmadığını belirtir.
 author: jblucher
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc281a691b34731fb0b5986222b41b436912c782
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740695"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811214"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -44,7 +44,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 > [!NOTE]
 > Aşağıda listelenen işlemler, Commerce'ın en son sürümü için geçerlidir. Bazı işlemler değişmiş veya önceki sürümlerde bulunmuyor olabilir.
 
-| Kimlik   | Operasyon                                         | Açıklama                                                                                                                                                                                                    | Kullanıcı işlemi?    | Hareket ekranı | Hoş geldiniz ekranı | Çevrimdışı kullanılabilir? | Konuma özgü |
+| Kimlik   | Operasyon                                         | Açıklama                                                                                                                                                                                                    | Kullanıcı işlemleri    | Hareket ekranı | Hoş geldiniz ekranı | Çevrimdışı kullanılabilir? | Konuma özgü |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Ürün satışı                                      | Harekete belirli bir ürün ekleyin.                                                                                                                                                                    | Evet            | Evet                | Evet            | Evet               | No.              |
 | 101  | Fiyat denetimi                                       | Belirtilen bir ürünün fiyatını arayın.                                                                                                                                        | Evet            | Evet                | Evet            | Evet               | No.              |
@@ -273,11 +273,11 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 1219 | POS'ta URL Aç                                   | POS'ta yönetici tarafından yapılandırılmış bir URL'yi açın.                                                                                                                                                                           | Evet            | Evet                | Evet            | Evet               | No.              |
 | 1220 | Kasayı Yönet                                       | Farklı kasaların güvenliğini yönetin.                                                                                                                                                                       | Evet            | Evet                | Evet            | Evet               | No.              |
 | 1221 | Askıya Alınan Hareketleri Hükümsüz Kıl                       | Askıya alınan hareketleri hükümsüz kılın.                                                                                                                                                                               | Evet            | Evet                | Evet            | Evet               | No.              |
-| 1300 | Mali kaydı atla                          | Mali kaydı atlayın.                                                                                                                                                                                       | Evet            | Evet                | Evet            | Evet               | Evet             |
-| 1301 | Mali olayı kaydedildi olarak işaretle                      |  Mali olayı kaydedildi olarak işaretleyin.                                                                                                                                                                                  | Evet            | Evet                | Evet            | Evet               | Evet             |
-| 1302 | Mali kayıt işlemini tamamla              | Mali kayıt işlemini tamamlayın.                                                                                                                                                                           | Evet            | Evet                | Evet            | Evet               | Evet             |
-| 1303 | Durum denetimi hatasını atla                           | Durum denetimi hatasını atlayın.                                                                                                                                                                                        | Evet            | Evet                | Evet            | Evet               | Evet             |
-| 1304 |  Mali kaydı ertele                     | Mali kaydı erteleme.                                                                                                                                                                                  | Evet            | Evet                | Evet            | Evet               | Evet             |
+| 1300 | Mali kaydı atla                          | Mali kaydı atlayın.                                                                                                                                                                                       | No.            | No.                | No.            | Evet               | No.             |
+| 1301 | Mali olayı kaydedildi olarak işaretle                      |  Mali olayı kaydedildi olarak işaretleyin.                                                                                                                                                                                  | No.            | No.                | No.            | Evet               | No.             |
+| 1302 | Mali kayıt işlemini tamamla              | Mali kayıt işlemini tamamlayın.                                                                                                                                                                           | No.            | No.                | Evet            | Evet               | Evet             |
+| 1303 | Durum denetimi hatasını atla                           | Durum denetimi hatasını atlayın.                                                                                                                                                                                        | Evet            | Evet                | Evet            | Evet               | No.             |
+| 1304 |  Mali kaydı ertele                     | Mali kaydı erteleme.                                                                                                                                                                                  | No.            | No.                | No.            | Evet               | No.             |
 | 1400 | Denetim listelerini ve görevleri yönet                       | Çalışan denetim listesi ve görevlerini yönetin.                                                                                                                                                                        | No.             | No.                 | Evet            | No.                | No.              |
 | 2000 | Planlama yönetimi                               | Bu işlem henüz desteklenmiyor.                                                                                                                                                                           | Evet            | Evet                | Evet            | Hayır                | Hayır              |
 | 2001 | Planlama talepleri                                 | Bu işlem henüz desteklenmiyor.                                                                                                                                                                           | Evet            | Evet                | Evet            | No.                | No.              |

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469911"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809109"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Master planlama için Planlama İyileştirmesi'ne geçiş
 
@@ -63,7 +63,7 @@ Master planlamaya bağlı olan bulut tabanlı dağıtımların sahipleri, Planla
 
 Gerekli özellikler kullanıma sunulduktan sonra, Microsoft özel durum süresi dolana kadar bir yetkisiz kullanım süresi sağlar. Gerekli özellikler kullanılabilir hale geldiğinde ve yetkisiz kullanım süresi başladığında ortam yöneticisi bilgilendirilecektir.
 
-Aşağıdaki akış çizelgesi, bu konuda sağlanan bilgileri özetler ve böylece bir özel durum istemeniz gerekip gerekmediğini hızlı bir şekilde öğrenebilirsiniz. Bir özel durum talep etmeniz gerekiyorsa, lütfen [Planlama Optimizasyonu geçiş ve özel durum anketini](https://go.microsoft.com/fwlink/?linkid=2144962) doldurup gönderin.
+Aşağıdaki akış çizelgesi, bu konuda sağlanan bilgileri özetler ve böylece bir özel durum istemeniz gerekip gerekmediğini hızlı bir şekilde öğrenebilirsiniz. Bir özel durum talep etmeniz gerekiyorsa, lütfen [Planlama Optimizasyonu geçiş ve özel durum anketini](https://go.microsoft.com/fwlink/?linkid=2144962) doldurup gönderin. Ürün grubu her özel durum isteğini değerlendirme ve onaylama işleminden sorumludur; bu nedenle lütfen sağlanan bağlantıyı kullanarak isteğinizi doğrudan ürün grubuna gönderin ve destek bileti oluşturmayın. İsteğiniz reddedilmişse, lütfen destek bileti oluşturmayın. Microsoft Desteği yeniden değerlendirme işlemi yapamaz veya özel durumlara izin veremez.
 
 ![Özel durum akış çizelgesi.](media/exception-diagram.png "Özel durum akış çizelgesi")
 

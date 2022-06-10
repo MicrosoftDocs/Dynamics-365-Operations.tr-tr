@@ -2,7 +2,7 @@
 title: Arama sonuçları modülü
 description: Bu konu arama sonuçları modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 04/21/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644938"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780930"
 ---
 # <a name="search-results-module"></a>Arama sonuçları modülü
 
@@ -65,23 +65,26 @@ Arama sonuçları modülü, kullanıcıların ürün bilgilerini görüntülemes
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Kategori sayfasına arama sonuçları modülü ekleme
 
-Kategori sayfasına arama sonuçları modülü eklemek için bu adımları izleyin.
+Site oluşturucuda bir kategoriye arama sonuçları modülünü eklemek için aşağıdaki adımları izleyin.
 
 1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
 1. **Yeni şablon** iletişim kutusuna **Arama sonuçları** adını girin ve **Tamam**'ı seçin.
-1. **Gövde** bölmesi için üç nokta (...) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam**'ı seçin.
-1. **Varsayılan sayfa** modülünde **Ana** bölmeyi seçin, üç nokta düğmesini (...) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
-1. **Konteyner** yuvası için üç nokta (...) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
+1. **Gövde** alanında, üç nokta (...) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Varsayılan Sayfa** modülünü seçin ve **Tamam**'ı seçin.
+1. **Varsayılan sayfa** modülündeki **Ana** alanında, üç nokta düğmesini (...) ve ardından **Modül ekle**'yi seçin.
+1. **Modül seç** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** alanında, üç nokta (...) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
 1. **İçerik haritası** özellikleri bölmesinde, **Min Gerçekleşme** için **1** değerini girin.
-1. **Konteyner** yuvası için üç nokta (...) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda, **Arama sonuçları** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** alanında, üç nokta (...) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda, **Arama sonuçları** modülünü seçin ve **Tamam**'ı seçin.
 1. **Arama sonuçları** özellikleri bölmesinde, **Min Gerçekleşme** için **1** değerini girin ve arama sonuçları modülü için gerekli diğer özellikleri ayarlayın. Şablonda bu özellikleri ayarlayarak, belirli bir kategori sayfasındaki özelleştirmelerin bu ayarları otomatik olarak içermesini sağlayabilirsiniz.
 1. **Düzenlemeyi bitir**'i seçin, ardından şablonu yayımlamak için **Yayımla**'yı seçin.
 1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
-1. **Şablon seçin** iletişim kutusunda, oluşturduğunuz **Arama sonuçları** şablonunu seçin, **Sayfa adı** için **Kategori sayfası** girin ve sonra **Tamam**'ı seçin. Tüm değerler şablonda ayarlandığı için sayfa yayınlanmaya hazırdır.
+1. **Yeni sayfa oluştur** iletişim kutusunda **Sayfa adı** altında, **Kategori sayfası**'nı girin ve **Tamam**'ı seçin.
+1. **Şablon seç** bölümünde, oluşturduğunuz **Arama sonuçları** şablonunu seçin ve sonra **İleri**'yi seçin.
+1. **Bir düzen seçin** bölümünde, bir sayfa düzeni seçin (ör. **Esnek düzen**) ve sonra **İleri**'yi seçin.
+1. **İnceleyin ve bitirin** bölümünde, sayfa yapılandırmasını gözden geçirin. Sayfa bilgilerini düzenlemeniz gerekiyorsa, **Geri**'yi seçin. Sayfa bilgileri doğruysa, **Sayfa oluştur**'u seçin.
 1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Arama sonuçları modülü için stok farkındalığını etkinleştirme
@@ -102,7 +105,7 @@ Stok duyarlı ürün arama, stok kullanılabilirlik bilgilerini elde etmek için
 
 Stok duyarlı arama sonuçları modülünü desteklemek üzere adanmış ürün öznitelikleri oluşturmak için aşağıdaki adımları izleyin.
 
-1. **Retail ve Commerce \> Retail ve Commerce BT \> Ürünler ve stok**'a gidin.
+1. Headquarters'da **Perakende ve Ticaret \> Perakende ve Ticaret BT \> Ürünler ve stok** bölümüne gidin.
 1. **Ürün özniteliklerini stok düzeyiyle doldur**'u seçin ve açın.
 1. İletişim kutusuna, aşağıdaki bilgileri girin:
 
@@ -116,11 +119,11 @@ Stok duyarlı arama sonuçları modülünü desteklemek üzere adanmış ürün 
 
 Çevrimiçi kanalın ürün özniteliklerini yapılandırmak için aşağıdaki adımları izleyin. 
 
-1. **Retail and Commerce \> Kanal Kurulumu \> Kanal kategorileri ve ürün öznitelikleri**'ne gidin.
-2. Modül için stok duyarlı arama sonuçlarını etkinleştirmek üzere bir çevrimiçi kanal seçin.
-3. İlişkili bir öznitelik grubunu seçin ve açın, ardından yeni oluşturulan ürün özniteliğini buna ekleyin.
-4. 10.0.27 sürümünden önceki Commerce sürümleri için, **Öznitelik meta verilerini ayarla**'yı seçin, yeni eklenen ürün özniteliğini seçin ve sonra **Özniteliği kanal üzerinde göster**, **Alınabilir**, **Ayrıntılandırılabilir** ve **Sorgulanabilir** seçeneklerini etkinleştirin.
-5. **Retail ve Commerce \> Retail ve Commerce BT \> Dağıtım planı**'na gidin ve **1150 (Katalog)** işini yürütün. **Ürün özniteliklerini, stok düzeyiyle doldur** işini toplu işlem olarak zamanlarsanız, 1150 işini ayrıca aynı frekansta çalışacak bir toplu işlem olarak zamanlamanızı öneririz.
+1. Headquarters'da **Retail ve Commerce \> Kanal Kurulumu \> Kanal kategorileri ve ürün öznitelikleri**'ne gidin.
+1. Modül için stok duyarlı arama sonuçlarını etkinleştirmek üzere bir çevrimiçi kanal seçin.
+1. İlişkili bir öznitelik grubunu seçin ve açın, ardından yeni oluşturulan ürün özniteliğini buna ekleyin.
+1. 10.0.27 sürümünden önceki Commerce sürümleri için, **Öznitelik meta verilerini ayarla**'yı seçin, yeni eklenen ürün özniteliğini seçin ve sonra **Özniteliği kanal üzerinde göster**, **Alınabilir**, **Ayrıntılandırılabilir** ve **Sorgulanabilir** seçeneklerini etkinleştirin.
+1. **Retail ve Commerce \> Retail ve Commerce BT \> Dağıtım planı**'na gidin ve **1150 (Katalog)** işini yürütün. **Ürün özniteliklerini, stok düzeyiyle doldur** işini toplu işlem olarak zamanlarsanız, 1150 işini ayrıca aynı frekansta çalışacak bir toplu işlem olarak zamanlamanızı öneririz.
 
 > [!NOTE]
 > Arama sonuçları modülünde gösterilen ürünler için, stok düzeyi bağımsız değişken düzeyi yerine ana ürün düzeyinde gösterilir. Yalnızca iki olası değere sahiptir: "kullanılabilir" ve "stokta yok". Değerin gerçek etiketi, [Stok düzeyi profili](inventory-buffers-levels.md) tanımından alınır. Bir ana ürün, yalnızca tüm varyantlar stokta olmadığı zaman stokta değil olarak değerlendirilir.

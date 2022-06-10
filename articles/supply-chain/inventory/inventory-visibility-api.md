@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524479"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786880"
 ---
 # <a name="inventory-visibility-public-apis"></a>Stok Görünürlüğü genel API'si
 
@@ -41,17 +41,22 @@ Aşağıdaki tabloda, şu anda kullanılabilen API'ler listelenmektedir:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Naklet | [Eldeki miktarları ayarlama/geçersiz kılma](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Naklet | [Bir rezervasyon olayı oluşturma](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Naklet | [Birden fazla rezervasyon olayı oluşturma](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/on-hand/changeschedule | Deftere naklet | [Bir zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Deftere naklet | [Birden fazla zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule | Deftere naklet | [Bir zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | Deftere naklet | [Birden fazla zamanlanan eldeki değişiklik oluşturma](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Deftere naklet | [Post yöntemini kullanarak sorgulama](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Al | [Get yöntemini kullanarak sorgulama](#query-with-get-method) |
+| /api/environment/{environmentId}/allocation/allocate | Deftere naklet | [Bir tahsisat olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/unallocate | Deftere naklet | [Bir tahsisattan kaldırma olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/reallocate | Deftere naklet | [Bir yeniden tahsis etme olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/consume | Deftere naklet | [Bir tüketme olayı oluşturma](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/query | Deftere naklet | [Tahsisat sorgusu sonucu](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > Yolun {environmentId} bölümü, Microsoft Dynamics Lifecycle Services'teki (LCS) ortam kimliğidir.
 > 
 > Toplu API, her istek için en fazla 512 kayıt döndürebilir.
 
-Microsoft, hazır bir *Postman* istek koleksiyonu sağlamıştır. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+Microsoft, hazır bir *Postman* istek koleksiyonu sağlamıştır. Şu paylaşılan bağlantıyı kullanarak bu koleksiyonu *Postman* yazılımınıza içeri aktarabilirsiniz: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lifecycle Services ortamınıza göre uç noktayı bulma
 
@@ -539,7 +544,7 @@ Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
 }
 ```
 
-Aşağıdaki örneklerde, belirli bir tesis ve konumdaki tüm ürünlerin nasıl sorgulanacağı gösterilmektedir.
+Aşağıdaki örnekte, belirli bir tesis ve yerleşimdeki tüm ürünlerin nasıl sorgulanacağı gösterilmektedir.
 
 ```json
 {
@@ -580,6 +585,10 @@ Aşağıda, örnek bir alma URL'si bulunmaktadır. Bu alma isteği, daha önce s
 
 ## <a name="available-to-promise"></a>Karşılanabilir miktar
 
-Gelecekteki eldeki değişiklikleri zamanlamanıza ve KM miktarlarını hesaplamanıza olanak tanıyan Stok Görünürlüğü'nü ayarlayabilirsiniz. KM, mevcut bulunan ve sonraki dönemde müşteriye vaat edilebilecek bir maddenin miktarıdır. KM hesaplamasının kullanımı, sipariş karşılama yeteneğinizi büyük ölçüde artırabilir. Bu özelliği etkinleştirme ve özellik etkinleştirildikten sonra API aracılığıyla Stok Görünürlüğü ile etkileşim kurma hakkında bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md).
+Gelecekteki eldeki değişiklikleri zamanlamanıza ve KM miktarlarını hesaplamanıza olanak tanıyan Stok Görünürlüğü'nü ayarlayabilirsiniz. KM, mevcut bulunan ve sonraki dönemde müşteriye vaat edilebilecek bir maddenin miktarıdır. KM hesaplamasının kullanımı, sipariş karşılama yeteneğinizi büyük ölçüde artırabilir. Bu özelliği etkinleştirme ve özellik etkinleştirildikten sonra API aracılığıyla Stok Görünürlüğü ile etkileşim kurma hakkında bilgi için bkz. [Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı](inventory-visibility-available-to-promise.md#api-urls).
+
+## <a name="allocation"></a>Tahsisat
+
+Tahsisat ile ilgili API'ler [Stok Görünürlüğü tahsisatında](inventory-visibility-allocation.md#using-allocation-api) yer alır.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

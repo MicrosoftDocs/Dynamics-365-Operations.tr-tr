@@ -1,6 +1,6 @@
 ---
 title: Elektronik raporlamayı kullanarak gelişmiş banka mutabakatı içe aktarmayı ayarlama
-description: Bu konuda, BAI2 ekstreleri için gelişmiş banka mutabakatı içe aktarma işlemini ayarlamak üzere Elektronik raporlamanın nasıl kullanılacağı açıklanmaktadır.
+description: Bu konuda, gelişmiş banka mutabakatı içeri aktarma işlemini ayarlamak üzere Elektronik raporlamanın nasıl kullanılacağı açıklanmaktadır.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 39f1d8ba561ab0e36346f1dfb4f70df318c92a37
-ms.sourcegitcommit: cf7d4af11bf85638ee831a28ea5ee1a1e041a675
+ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/04/2022
-ms.locfileid: "8544530"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770208"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Elektronik raporlamayı kullanarak gelişmiş banka mutabakatı içe aktarmayı ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda, BAI2 banka ekstreleriniz için içe aktarma işlevinin nasıl ayarlanacağı açıklanmaktadır.
+Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda, banka ekstreleriniz için içeri aktarma işlevinin nasıl ayarlanacağı açıklanmaktadır. Banka ekstresi içe aktarma işleminin kurulumu elektronik banka ekstrenizin biçimine bağlı olarak değişir. Microsoft Dynamics 365 Finance, üç banka ekstresi biçimini destekler: ISO20022, MT940 ve BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Elektronik raporlama yapılandırmasını ayarlama
 
@@ -62,3 +62,14 @@ Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe akta
 5. **Gözat**'ı seçin ve **BAI** dosyasını seçin.
 6. **Yükle**'yi seçin.
 7. Seçilen dosyayı içe aktarmak için **Tamam**'ı seçin.
+
+
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Banka ekstresi biçimleri ve teknik düzenlerine örnekler
+Aşağıda gelişmiş banka mutabakatını içe aktarma dosyası teknik düzen tanımları ve ilişkili üç banka ekstresi örnek dosyasına örnekler bulunmaktadır: [İçe aktarma dosyası örnekleri](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
+
+| Teknik düzen tanımı                             | Banka ekstresi örnek dosya          |
+|---------------------------------------------------------|--------------------------------------|
+| DynamicsAXMT940Layout | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)     |
+| DynamicsAXISO20022Layout | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)     |
+

@@ -2,7 +2,7 @@
 title: Eldeki stok mobil çalışma alanı
 description: Bu konu, Eldeki stok mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, ayrılmış ve kullanılabilir stok hakkında mobil bilgileri her yerde ve her zaman edinebilmenizi sağlar.
 author: yufeihuang
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,23 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e67e16acc8ed72d571e9010131723038c8586a9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b380da99b02fe9b7cd834eabac3498ee3b8e54a4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573909"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811480"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Eldeki stok mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Bu konu, **Eldeki stok** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, ayrılmış ve kullanılabilir stok hakkında bilgileri her yerde ve her zaman edinebilmenizi sağlar.
 
-Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
+Bu mobil çalışma alanı, Finance and Operations (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel Bakış
 Genellikle, şirketler her gün birden fazla sevkiyata ve birden fazla stok girişine sahiptirler. Bu hareketler eldeki stok durumunu sürekli olarak değiştirir. **Eldeki stok** mobil çalışma alanı, şirketler arası eldeki stok durumunu görmenizi sağlar, böylece stok verisi hakkında en son bilgileri istediğiniz mobil cihazdan edinebilirsiniz. İster ambarda, satın almada, satışta, üretimde veya yönetimde çalışıyor isterseniz de başka bir role sahip olun, eldeki stok verisine her zaman ve her yerde erişebilirsiniz. 
 
 Mobil çalışma alanı, eldeki durumun tesisler arasında anında görülmesine olanak sağlar. Tesisler arasında eldeki stoku, geçerli malzeme rezervasyonlarını ve rezerve edilmemiş eldeki stoku görüntülemenize olanak sağlar. Eldeki stoku sorgulamak için madde numaralarını da girebilir, eldeki ürünler ve çeşitleri için filtreli arama da yapabilirsiniz. 
@@ -93,7 +94,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri dağıtıldıysa sistem 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
 
-Finance and Operations mobil uygulamasını indirip yükleyin:
+Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)

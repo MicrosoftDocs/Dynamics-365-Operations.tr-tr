@@ -2,7 +2,7 @@
 title: Elektronik raporlamada çok dilli raporlar tasarlama
 description: Bu konu, çok dilli raporlar tasarlamak ve oluşturmak için Elektronik raporlama (ER) etiketlerini nasıl kullanabileceğinizi açıklamaktadır.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313703"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811621"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Elektronik raporlamada çok dilli raporlar tasarlama
 
@@ -46,7 +46,7 @@ Dile bağlı kaynakları ER etiketleri olarak yapılandırabilirsiniz. Böylece,
 
 ER etiketleri, farklı bileşenler içeren her bir ER [yapılandırmasında](general-electronic-reporting.md#Configuration) yapılandırılabilir. Etiketler, ER veri modellerinin, ER model eşlemelerinin ve ER biçim bileşenlerinin yapılandırılmış mantığından bağımsız olarak korunabilir.
 
-Her ER etiketi, o etiketi tutan ER yapılandırmasının kapsamında benzersiz olan bir kimlikle tanımlanır. Her etiket, Microsoft Dynamics 365 Finance'ın geçerli örneğinde desteklenen her dil için etiket metni içerebilir. Desteklenen bu diller, dağıtılan özelleştirmelerin dillerini içerir.
+Her ER etiketi, o etiketi tutan ER yapılandırmasının kapsamında benzersiz olan bir kimlikle tanımlanır. Her etiket, Microsoft Dynamics 365 Finance'in geçerli örneğinde desteklenen her dil için etiket metni içerebilir. Desteklenen bu diller, dağıtılan özelleştirmelerin dillerini içerir.
 
 ## <a name="entry"></a>Giriş
 
@@ -81,7 +81,7 @@ Bir ER veri modeli bu şekilde yapılandırıldığında, içeriği ER veri mode
 
 ### <a name="model-mapping-component"></a>Model eşleme bileşeni
 
-ER model eşlemesi bir ER veri modelini temel aldığından, başvurulan veri modeli öğelerinin etiketleri model eşleme tasarımcısında kullanıcının tercih ettiği dilde görüntülenir. Aşağıdaki şekil, yapılandırılan veri modeline eklenmiş olan **Açıklama** özniteliğinin etiketi kullanılarak, düzenlenebilir model eşlemesinde **PurchaseOrder** alanı anlamının nasıl açıklandığını gösterir. Bu etiketin kullanıcının tercih ettiği dilde (bu örnekte DE-AT) sunulduğuna dikkat edin.
+ER model eşlemesi bir ER veri modelini temel aldığından, başvurulan veri modeli öğelerinin etiketleri model eşleme tasarımcısında kullanıcının tercih ettiği dilde görünür. Aşağıdaki şekil, yapılandırılan veri modeline eklenmiş olan **Açıklama** özniteliğinin etiketi kullanılarak, düzenlenebilir model eşlemesinde **PurchaseOrder** alanı anlamının nasıl açıklandığını gösterir. Bu etiketin kullanıcının tercih ettiği dilde (bu örnekte DE-AT) sunulduğuna dikkat edin.
 
 ![Tercih edilen dili DE-AT olarak ayarlanmış bir kullanıcı için ER model eşleme tasarımcısı düzeni.](./media/er-multilingual-labels-show-mapping.png)
 
@@ -218,6 +218,11 @@ Düzenlenebilir ER bileşeni etiketleri, bileşenin diğer içeriğiyle birlikte
 
 Temel bir ER bileşeninin etiketlerine, yaptığınız değişiklikleri tanıtmak için oluşturduğunuz ER bileşeninin türetilmiş bir sürümünde başvuruda bulunulabilir.
 
+> [!TIP]
+> Bir ER çözümü tasarlarken, sağlanan bileşeni kullanarak kendi ER [veri modeli](er-overview-components.md#data-model-component) bileşeninizi türetebilirsiniz. Bu türetilmiş veri modelinde, kendi ER etiketlerinizi oluşturabilir ve veri kaynağı olarak veri modelini kullanan tüm ER biçimlerinde bu etiketleri kullanabilirsiniz. Daha sonra, sağlanan model yerine türetilmiş ER veri modelinizi seçerek sağlanan modelden kendi ER [biçimi](er-overview-components.md#format-component) bileşeninizi türetebilirsiniz. 10.0.28 sürümü ve sonraki sürümlerde, türetilen ER biçimi bileşenlerinde artan ER veri modeli etiketlerine erişebilmek için **Artan ER veri modelinin etiketlerine gelişmiş erişim** özelliğini etkinleştirebilirsiniz. Bu, türetilen ER bileşeni için seçtiğiniz ER veri modeli temel ER bileşeninde kullanılandan farklı olsa bile geçerlidir.
+>
+> Türetilmiş bileşeninizde ve artan bileşenlerde aynı etiket adı kullanıldığında, söz konusu etiketin çevirisi en ilgili alan olarak kullanılır.
+
 ER sürüm oluşturma işlemi, ER bileşenindeki herhangi bir özniteliğe etiket atamayı denetler. Etiket atamasında yapılan değişiklikler, sağlanan ER bileşeninin türetilmiş bir sürümü olarak oluşturulmuş düzenlenebilir ER bileşeninin değişiklik listesine (delta) kaydedilir. Bu değişiklikler, türetilmiş sürüm yeni bir temel sürüm için yeniden temel alındığında doğrulanacaktır.
 
 ## <a name="functions"></a>İşlevler
@@ -240,7 +245,7 @@ Bir ER yapılandırma sürümünün durumunu **Taslak**'tan **Tamamlandı**'ya d
 
 **Özellik yönetimi** çalışma alanında **ER etiketleri depolama alanını hızlandır** özelliğini etkinleştirmenizi öneririz. Bu özellik, ağ bant genişliği kullanımını ve genel sistem performansını artırmaya yardımcı olur çünkü çoğu durumda, tek bir ER yapılandırmasıyla çalışırken tek bir dilin ER etiketleri kullanılır.
 
-Tüm ER yapılandırmalarının etiketlerini eş zamanlı Finance örneğinde tutmak üzere seçili depolama alanı şemasını uygulamak için aşağıdaki adımları tamamlayın.
+Tüm ER yapılandırmalarının etiketlerini geçerli Finance örneğinde tutmak üzere seçili depolama alanı şemasını uygulamak için aşağıdaki adımları tamamlayın.
 
 1. **Kuruluş yönetimi** > **Periyodik** > **Tüm ER yapılandırmaları için şemayı depolayan seçili etiketleri uygula**'ya gidin.
 2. **Tamam**'ı seçin.

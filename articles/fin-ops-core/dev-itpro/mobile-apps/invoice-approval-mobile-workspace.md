@@ -2,7 +2,7 @@
 title: Fatura onayları mobil çalışma alanı
 description: Bu konu, Fatura onayları mobil çalışma alanı hakkında bilgi sağlar.
 author: abruer
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759992"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811372"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Fatura onayları mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Bu konu, **Fatura onayları** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, fatura başlığı iş akışı işlemi üzerinden size atanmış olan faturaların bir listesini sağlar. 
 
@@ -40,7 +41,7 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 <tr class="header">
 <th>Önkoşul</th>
 <th>Rol</th>
-<th>Tanım</th>
+<th>Açıklama</th>
 </tr>
 </thead>
 <tbody>

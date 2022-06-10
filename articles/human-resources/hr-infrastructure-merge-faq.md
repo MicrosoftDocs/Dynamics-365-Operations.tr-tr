@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688134"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809627"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources altyapı birleştirme hakkında SSS
 
@@ -131,6 +131,9 @@ Tümleştirme uç noktasına bağlıdır. Finans ve Operasyon uygulamalarında k
 Yeni altyapıda ortamda birleştirilecek Dynamics 365 Human Resources ve Finance and Operations ortamları aynı Dataverse ortamına bağlıysa iki uygulama geçiş sonrasında da aynı Dataverse ortamına bağlı olmaya devam eder. Hiçbir Dataverse uzantısı için geçiş gerekmez.
 
 Ancak, Dynamics 365 Human Resources ve Finance and Operations ortamları şu anda ayrı Dataverse ortamlarına bağlıysa iki Dataverse ortamının yeni altyapıda tek bir ortama bağlı olması için birleştirilmesi gerekir. Bu Dataverse geçişi için Human Resources çözümlerinde standart olan Dataverse tabloları yeni Dataverse ortamına bağlanabilir ve yeniden eşitlenebilir. Dataverse ortamındaki uzantılar otomatik olarak geçirilmez ve yeni ortamda yeniden dağıtılması gerekir. Dataverse uzantılarınızı yönetmek için yönetilen çözümler kullanmanızı öneririz. Daha fazla bilgi için bkz. [Çözümlere giriş](/powerapps/developer/data-platform/introduction-solutions).
+
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>Dynamics 365 Human Resources'ta özel alan işlevinden yararlandık. Bu özel alanlar otomatik olarak geçirilir mi?
+Evet, eklenen özel alanlar yeni altyapıya geçirilecektir.
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Dynamics 365 Human Resources ile çalışacak Microsoft Power Automate akışları ve/veya Microsoft Power Apps yapılandırdık. Altyapı değişikliği tamamlandıktan sonra bu Microsoft Power Platform bileşenleri geçirilecek ve otomatik olarak çalışacak mı?
 

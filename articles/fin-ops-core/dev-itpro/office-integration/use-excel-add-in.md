@@ -2,7 +2,7 @@
 title: Varlık verilerini Excel ile görüntüleme ve güncelleştirme
 description: Bu konuda, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Microsoft Dynamics Excel eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464951"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762667"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Varlık verilerini Excel ile görüntüleme ve güncelleştirme 
 
@@ -110,7 +110,7 @@ Veri kaynakları ilişkili veri kaynakları olarak eklenmişse, başlık satırl
 5. Bir alan (sütun) eklediyseniz güncelleştirilmiş bir veri kümesini almak için **Yenile**'yi seçin.
 
 ## <a name="change-the-publish-batch-size"></a>Yayımlama toplu iş boyutunu değiştirme
-Kullanıcılar Excel eklentisini kullanarak veri kayıtlarında yapılan değişiklikleri yayımladıkları zaman, güncelleştirmeler toplu işler halinde gönderilir. Varsayılan yayımlama toplu iş boyutu 100 satırdır. Sürüm 10.0.17 ve sonrasında, **Excel eklentisindeki yayımlama toplu işi boyutunun yapılandırılmasına izin ver** özelliği size yayımlama toplu iş boyutu üzerinde esnek denetim sağlar.
+Kullanıcılar Excel eklentisini kullanarak veri kayıtlarında yapılan değişiklikleri yayımladıkları zaman, güncelleştirmeler toplu işler halinde gönderilir. Varsayılan (ve maksimum) yayımlama toplu işi boyutunu 100 satırdır. Ancak, **Excel eklentisinde yayımlama toplu iş boyutunun yapılandırılmasına izin ver** özelliği, yayımlama toplu işi boyutunu azaltma esnekliği sunar. Bu, özellikle Excel'den yayımlama güncelleştirmeleri denediğinizde zaman aşımı hatalarıyla karşılaşmanız durumunda faydalıdır.
 
 Sistem yöneticileri, **Office uygulaması parametreleri** sayfasının **Uygulama parametreleri** bölümünde **Yayımlama toplu işi sınırı** alanını ayarlayarak "Excel'de aç" çalışma kitapları için sistem genelinde bir sınır belirleyebilir.
 

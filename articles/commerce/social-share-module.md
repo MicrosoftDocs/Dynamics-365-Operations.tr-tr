@@ -2,7 +2,7 @@
 title: Sosyal içerik paylaşım modülü
 description: Bu konu sosyal içerik paylaşım modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d145602a217b32b97142251c65d51945569be9ac
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730959"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780905"
 ---
 # <a name="social-share-module"></a>Sosyal içerik paylaşım modülü
 
@@ -56,13 +56,13 @@ Aşağıdaki çizimde, ürün ayrıntıları sayfasında kullanılan sosyal içe
 Satın al kutusu modülüne bir sosyal içerik paylaşım modülü eklemek için aşağıdaki adımları izleyin.
 
 1. Fabrikam sitesinde, **Sayfalar**'ı seçin ve sonra ürün ayrıntıları sayfasını açmak için **DefaultPDP** sayfasını seçin. 
-1. **Buybox (gerekli)** yuvasında üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Sosyal İçerik Paylaşım** modülünü seçin ve **Tamam**'ı seçin.
-1. **Sosyal İçerik Paylaşım** yuvasında üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **SocialShare** modülünü seçin ve **Tamam**'ı seçin.
+1. **Buybox (gerekli)** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Sosyal Paylaşım** modülünü seçin ve **Tamam**'ı seçin.
+1. **Sosyal Paylaşım** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **SocialShare** modülünü seçin ve **Tamam**'ı seçin.
 1. **Socialshare** modülünün özellikler bölmesinde, **Yönlendirme** altında **Yatay**'ı seçin. Gerektiğinde bir açıklamalı alt yazı ekleyin.
-1. **SocialShare** yuvasında üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **SocialShareItem** modülünü seçin ve **Tamam**'ı seçin.
+1. **SocialShare** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **SocialShareItem** modülünü seçin ve **Tamam**'ı seçin.
 1. **SocialShareItem** modülünün özellikler bölmesinde, **Sosyal Medya** altında **Facebook** öğesini seçin.
 1. **SocialShareItem** modülünün özellikler bölmesinde, **Simge** altında **+Resim ekleyin** öğesini seçin.
 1. **Ortam Seçicisi** iletişim kutusunda Facebook logo resmini seçin ve **Tamam**'ı seçin. Herhangi bir Facebook logo resmi yoksa karşıya yüklemek için **Yeni ortam öğesini karşıya yükle**'yi seçin.

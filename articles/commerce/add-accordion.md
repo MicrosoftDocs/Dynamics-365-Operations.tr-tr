@@ -2,7 +2,7 @@
 title: Akordiyon modülü
 description: Bu konu akordiyon modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e17476d745da6f498b4f3ed90d55b0d13a0264b6
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719539"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780701"
 ---
 # <a name="accordion-module"></a>Akordiyon modülü
 
@@ -56,18 +56,18 @@ Aşağıdaki resimde, bir mağazanın sık sorulan sorular (SSS) sayfasındaki b
 SSS sayfaya akordiyon modülü eklemek ve özelliklerini site oluşturucuda ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Mağaza SSS** adlı yeni bir sayfa oluşturmak için **sayfalara** gidin ve Fabrikam pazarlama şablonunu (veya sınırlamaları olmayan tüm şablonları) kullanın.
-1. **Varsayılan sayfada** **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
-1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **akordiyon** modülünü seçin ve **Tamam**'ı seçin.
+1. **Varsayılan sayfada** **Ana** alanını seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül seç** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Akordeon** modülünü seçin ve **Tamam**'ı seçin.
 1. Akordiyon modülünün Özellik bölmesinde, kurşun kalem simgesinin yanındaki **Başlık**'ı seçin.
 1. **Başlık** iletişim kutusunda, **başlık metni** altında **sık sorulan soruları** girin. Daha sonra **Tamam**'ı seçin.
 1. Akordiyon modülünün Özellik bölmesinde, **Tümünü Genişlet** onay kutusunu seçin ve sonra **etkileşim stili** alanında **bağımsız**'i seçin.
-1. **Akordiyon** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **akordiyon madde** modülünü seçin ve **Tamam**'ı seçin.
+1. **Akordeon** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Akordeon öğesi** modülünü seçin ve **Tamam**'ı seçin.
 1. Accordion madde modülünün Özellik bölmesinde, **başlık** altında başlık metnini girin (örneğin, **çalışma nasıl döner?**).
-1. **Akordiyon madde** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Metin bloku** modülünü seçin ve **Tamam**'ı seçin.
+1. **Akordeon öğesi** alanında üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Metin bloğu** modülünü seçin ve **Tamam**'ı seçin.
 1. Metin bloğu modülünün Özellik bölmesinde bir paragraf metni girin (örneğin, **İadeler çağrı merkezi aracılığıyla işlenmelidir. İadeler için 1-800-FABRIKAM arayın. Ürünlerin 30 günlük bir iade ilkesi vardır. İadeler bu zaman çerçevesinde başlatılmalıdır.**).
 1. **Akordiyon** yuvasında birkaç tane daha akordiyon madde modülü ekleyin. Her bir akordiyon madde modülünde içeriği olan bir metin bloğu modülü ekleyin.
 1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin. Sayfa, eklediğiniz içeriğe sahip bir akordiyon modülü gösterir.

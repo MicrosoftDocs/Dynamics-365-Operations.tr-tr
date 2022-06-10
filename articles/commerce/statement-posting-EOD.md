@@ -2,19 +2,19 @@
 title: Ekstre deftere nakil işlevi geliştirmeleri
 description: Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649031"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770181"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Ekstre deftere nakil işlevi geliştirmeleri
 
@@ -151,6 +151,9 @@ Toplanan hareketleri görünümü aşağıdaki faydaları sağlar:
 - Kullanıcı hareketlerin nasıl toplandığını görebilir.
 - Kullanıcı hareketlerinden satış siparişlerine ve satış faturalarına kadar eksiksiz bir denetim kılavuzuna sahip olur. Bu denetimi kılavuzu eski ekstre deftere nakil özelliğinde kullanılamaz.
 - Toplanan XML dosyası satış siparişi oluşturma ve faturalama sırasındaki sorunların daha kolay tanımlanmasını sağlar.
+
+> [!NOTE]
+> Hareketler toplandığında, harekete atanan personel üyesi artık **En önemli personel satış raporu** için kullanılamaz (diğer bir ifadeyle, **En önemli personel satış raporu** tüm hareketleri göstermez). **En önemli personel satış raporu**'nu toplanan hareketlerle kullanmanız önerilmez.
 
 ### <a name="journal-vouchers"></a>Günlük fişleri
 

@@ -2,7 +2,7 @@
 title: E-ticaret dijital hediye kartları
 description: Bu konuda, dijital hediye kartlarının Microsoft Dynamics 365 Commerce'ün e-ticaret uygulamasında nasıl çalıştığı açıklanmaktadı . Ayrıca, önemli yapılandırma adımlarının genel bir görünümünü sağlar.
 author: anupamar-ms
-ms.date: 12/15/2020
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e0cbab05cfd9dcde8ec5caf802d13cd10bc9123716b46307616b0e3e66f0f061
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727569"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809599"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>E-ticaret dijital hediye kartları
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konuda, dijital hediye kartlarının Microsoft Dynamics 365 Commerce'ün e-ticaret uygulamasında nasıl çalıştığı açıklanmaktadı . Ayrıca, önemli yapılandırma adımlarının genel bir görünümünü sağlar.
 
@@ -51,15 +50,18 @@ Commerce Headquarters'da dijital hediye kartı ürünleri yapılandırılmalıd�
 
     ![Commerce Headquarters'daki hediye kartı ürün alanı.](./media/PostGiftcard.png)
 
-- Bir hediye kartının önceden tanımlanmış birden fazla tutarı (örneğin, $25, $50 ve $100) desteklemesi gerekiyorsa bu önceden tanımlanmış tutarları ayarlamak için **Boyut** boyutu kullanılmalıdır. Her önceden tanımlanmış tutar bir varyant olacaktır. Daha fazla bilgi için bkz. [Ürün boyutları](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
-- Müşterilerin bir hediye kartı için özel bir tutar belirtmesi gerekiyorsa önce özel bir tutara izin veren bir varyant ayarlayın. Sonra, ürünü, **Kategoride serbest bırakılmış ürünler** sayfasından açın ve sonra **Commerce** hızlı sekmesinde, aşağıdaki çizimde gösterildiği gibi, **Fiyat girin** alanını **Yeni fiyat girilmeli** şekilde ayarlayın. Bu ayar, bir PDP'de ürüne göz attıklarında müşterilerin fiyat girebilmesini sağlar.
+- Bir hediye kartının önceden tanımlanmış birden fazla tutarı (örneğin, $25, $50 ve $100) desteklemesi gerekiyorsa bu önceden tanımlanmış tutarları ayarlamak için **Boyut** boyutu kullanılmalıdır. Her önceden tanımlanmış tutar bir ürün varyantı olacaktır. Daha fazla bilgi için bkz. [Ürün boyutları](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
+- Müşterilerin bir hediye kartı için özel bir tutar belirtebilmesi gerekiyorsa önceden belirlenen tutarlara ek olarak önce özel bir tutara izin veren bir varyant ayarlayın. **Boyut** özniteliği özel tutar varyantlarını destekler. Sonra, ürünü, **Kategoride serbest bırakılmış ürünler** sayfasından açın ve sonra **Commerce** hızlı sekmesinde, aşağıdaki örnek çizimde gösterildiği gibi, **Fiyat girin** alanını **Yeni fiyat girilmeli** şekilde ayarlayın. Bu ayar, bir PDP'de ürüne göz attıklarında müşterilerin fiyat girebilmesini sağlar.
 
     ![Commerce Headquarters'da fiyat girme alanı.](./media/KeyInPrice.png)
+    
+    Aşağıdaki örnek çizimde, iki özel fiyat varyantı dahil olmak üzere Commerce headquarters'taki dijital hediye kartı ürün varyantlarının listesi gösterilir.
+    ![Özel fiyat varyantına sahip dijital hediye kartı ürün varyantları örneği](./media/DigitalGiftCards_ProductVariantsWithCustom.png)
 
 - Dijital hediye kartının teslimat şekli **Elektronik** olarak ayarlanmalıdır. **Teslimat şekilleri** sayfasında (**Perakende ve ticaret \> Kanal kurulumu \> Teslimat şekilleri**), liste bölmesinden **Elektronik** teslim modunu seçin ve sonra, aşağıdaki çizimde gösterildiği gibi, **Ürünler** hızlı sekmesinde dijital hediye kartı ürününü kılavuza ekleyin. Daha fazla bilgi için bkz. [Teslimat koşullarını ayarlama](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Commerce Headquarters'da Teslimat modundaki dijital hediye kartı ürünleri.](./media/ElectronicMode.PNG)
-
+    
 - Bir çevrimiçi işlevsellik profilinin oluşturulduğundan ve Commerce Headquarters'daki çevrimiçi mağazanızla ilişkili olduğundan emin olun. İşlevsellik profilinde, **Toplu ürünler** seçeneğini **Evet** olarak ayarlayın. Bu ayar, hediye kartları hariç tüm maddelerin toplanmasını sağlar. Daha fazla bilgi için bkz. [Çevrimiçi işlevsellik profili oluşturma](online-functionality-profile.md).
 - Bir hediye kartı faturalandıktan sonra müşterilerin e-posta almalarını sağlamak için **E-posta bildirim profilleri** sayfasında yeni bir e-posta bildirim türü oluşturun ve **E-posta bildirim türü** alanını **Hediye kartı oluştur** şekilde ayarlayın. Daha fazla bilgi için, bkz. [E-posta bildirimi profili ayarlama](email-notification-profiles.md).
 

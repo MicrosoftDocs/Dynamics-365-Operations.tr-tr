@@ -2,7 +2,7 @@
 title: Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı
 description: Bu konuda, gelecekteki eldeki değişikliklerin nasıl zamanlanacağı ve karşılanabilir miktarların (KM) nasıl hesaplanacağı açıklanmaktadır.
 author: yufeihuang
-ms.date: 03/04/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7ce868871f093fd734a466bb8a06c5782bf83302
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
+ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525894"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763267"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Stok Görünürlüğü eldeki değişiklik zamanlamaları ve karşılanabilir miktarı
 
@@ -24,7 +24,7 @@ ms.locfileid: "8525894"
 
 Bu konuda, gelecekteki eldeki değişiklikleri zamanlamak ve karşılanabilir miktarları (KM) hesaplamak için *Eldeki değişiklik zamanlaması* özelliğinin nasıl ayarlanacağı açıklanmaktadır. KM, mevcut bulunan ve sonraki dönemde müşteriye vaat edilebilecek bir maddenin miktarıdır. Bu hesaplamanın kullanımı, sipariş karşılama yeteneğinizi büyük ölçüde artırabilir.
 
-Birçok üretici, perakendeci veya satıcı için geçerli olan eldeki maddeleri bilmek yeterli değildir. Gelecekteki kullanılabilirliğe ilişkin tam görünürlüğe sahip olmaları da gerekir. Bu gelecekteki kullanılabilirlik için gelecekteki arz, gelecekteki talep ve KM dikkate alınmalıdır.
+Birçok üretici, perakendeci veya satıcı için şu anda eldeki stoğu bilmek yeterli değildir. Gelecekteki kullanılabilirliğe ilişkin tam görünürlüğe sahip olmaları da gerekir. Bu gelecekteki kullanılabilirlik için gelecekteki arz, gelecekteki talep ve KM dikkate alınmalıdır.
 
 ## <a name="enable-and-set-up-the-features"></a><a name="setup"></a>Özellikleri etkinleştirme ve ayarlama
 
@@ -32,9 +32,12 @@ KM'yi kullanabilmeniz için önce hesaplamak üzere bir veya daha fazla hesaplan
 
 ### <a name="set-up-calculated-measures-for-atp-quantities"></a>KM için hesaplanan ölçüler ayarlama
 
-*KM hesaplanan ölçüsü* genellikle mevcut kullanılabilir eldeki miktarı bulmak için kullanılan önceden tanımlanmış hesaplanan ölçüdür. Toplama değiştiricisi miktarlarının toplamı arz miktarıdır ve çıkarma değiştiricisi miktarlarının toplamı talep miktarıdır.
+*KM hesaplanan ölçüsü* genellikle mevcut kullanılabilir eldeki miktarı bulmak için kullanılan önceden tanımlanmış hesaplanan ölçüdür. *Arz miktarı*, *ekleme* niteleyici türüne sahip fiziksel ölçülerin miktarlarının toplamıdır. *Talep miktarı* ise *çıkarma* niteleyici türüne sahip fiziksel ölçülerin miktarlarının toplamıdır.
 
-KM'yi hesaplamak için birden çok hesaplanan ölçü ekleyebilirsiniz. Ancak tüm KM hesaplanan ölçülerinde toplam değiştirici sayısı dokuzdan az olmalıdır.
+Birden çok KM miktarını hesaplamak için birden çok hesaplanan ölçü ekleyebilirsiniz. Ancak tüm KM hesaplanan ölçülerinde ayrı fiziksel ölçülerin toplam sayısı dokuzdan az olmalıdır.
+
+> [!IMPORTANT]
+> Hesaplanan ölçü fiziksel ölçülerin birleşimidir. Formülü hesaplanan ölçüler değil, yalnızca yinelenenlere sahip fiziksel ölçüleri içerebilir.
 
 Örneğin, aşağıdaki hesaplanan ölçüyü ayarlayabilirsiniz:
 
@@ -43,6 +46,12 @@ KM'yi hesaplamak için birden çok hesaplanan ölçü ekleyebilirsiniz. Ancak t�
 Toplam (*PhysicalInvent* + *OnHand* + *Kısıtlamasız* + *QualityInspection* + *Gelen*), arzı temsil eder ve toplam (*ReservPhysical* + *SoftReservePhysical* + *Giden*), talebi temsil eder. Böylece hesaplanan ölçü aşağıdaki şekilde anlaşılabilir:
 
 **Eldeki kullanılabilir** = *Arz* - *Talep*
+
+**Eldeki fiziksel miktar** KM miktarını hesaplamak için başka bir hesaplanan ölçü ekleyebilirsiniz.
+
+**Eldeki fiziksel miktar** = (*PhysicalInvent* + *OnHand* + *Unrestricted* + *QualityInspection* + *Inbound*) – (*Outbound*)
+
+Bu iki KM hesaplanan ölçüsü genelinde sekiz farklı fiziksel ölçü vardır: *PhysicalInvent*, *OnHand*, *Unrestricted*, *QualityInspection*, *Inbound*, *ReservPhysical*, *SoftReservePhysical* ve *Outbound*.
 
 Hesaplanan ölçüler hakkında daha fazla bilgi için bkz. [Hesaplanan ölçüler](inventory-visibility-configuration.md#calculated-measures).
 
@@ -80,7 +89,7 @@ Zamanlanan değişiklikler başlangıçta kaydedilmez ve bu nedenle sistemdeki g
 
 Eldeki miktar ve KM için Stok Görünürlüğü'nü sorguladığınızda zamanlama dönemindeki her gün için aşağıdaki bilgiler döndürülür:
 
-- **Tarih**: Sonucun geçerli olduğu tarih.
+- **Tarih**: Sonucun geçerli olduğu tarih. Saat dilimi Eşgüdümlü Evrensel Saat'tir (UTC).
 - **Eldeki miktar**: Belirtilen tarih için gerçek eldeki miktar. Bu hesaplama, Stok Görünürlüğü için yapılandırılan KM hesaplanan ölçüsüne göre yapılır.
 - **Zamanlanan arz**: Belirtilen tarih itibarıyla hemen tüketim veya sevkiyat için fiziksel olarak kullanılabilir hale gelmeyen tüm zamanlanan gelen miktarların toplamı.
 - **Zamanlanan talep**: Belirtilen tarih itibarıyla tüketilmeyen veya sevk edilmeyen tüm zamanlanan giden miktarların toplamı.
@@ -108,79 +117,79 @@ Bu örnekte sonuçlarda bir *tahmini eldeki* değer gösterilmektedir. Bu değer
 
     | Tarih | Eldeki | Zamanlanan arz | Zamanlanan talep | Tahmini eldeki | KM |
     | --- | --- | --- | --- | --- | --- |
-    | 1.2.2022 | 20 | | 3 | 17 | 17 |
-    | 2.2.2022 | 20 | | | 17 | 17 |
-    | 3.2.2022 | 20 | | | 17 | 17 |
-    | 4.2.2022 | 20 | | | 17 | 17 |
-    | 5.2.2022 | 20 | | | 17 | 17 |
-    | 6.2.2022 | 20 | | | 17 | 17 |
-    | 7.2.2022 | 20 | | | 17 | 17 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | | | 17 | 17 |
+    | 2022-02-04 | 20 | | | 17 | 17 |
+    | 2022-02-05 | 20 | | | 17 | 17 |
+    | 2022-02-06 | 20 | | | 17 | 17 |
+    | 2022-02-07 | 20 | | | 17 | 17 |
 
 1. Geçerli tarihte (1 Şubat 2022), 3 Şubat 2022 için zamanlanan arz miktarı olarak 10'u gönderirsiniz. Aşağıdaki tabloda sonuç gösterilmektedir.
 
     | Tarih | Eldeki | Zamanlanan arz | Zamanlanan talep | Tahmini eldeki | KM |
     | --- | --- | --- | --- | --- | --- |
-    | 1.2.2022 | 20 | | 3 | 17 | 17 |
-    | 2.2.2022 | 20 | | | 17 | 17 |
-    | 3.2.2022 | 20 | 10 | | 27 | 27 |
-    | 4.2.2022 | 20 | | | 27 | 27 |
-    | 5.2.2022 | 20 | | | 27 | 27 |
-    | 6.2.2022 | 20 | | | 27 | 27 |
-    | 7.2.2022 | 20 | | | 27 | 27 |
+    | 2022-02-01 | 20 | | 3 | 17 | 17 |
+    | 2022-02-02 | 20 | | | 17 | 17 |
+    | 2022-02-03 | 20 | 10 | | 27 | 27 |
+    | 2022-02-04 | 20 | | | 27 | 27 |
+    | 2022-02-05 | 20 | | | 27 | 27 |
+    | 2022-02-06 | 20 | | | 27 | 27 |
+    | 2022-02-07 | 20 | | | 27 | 27 |
 
 1. Geçerli tarihte (1 Şubat 2022), aşağıdaki zamanlanan miktar değişikliklerini gönderirsiniz:
 
     - 4 Şubat 2022 için talep miktarı olarak 15
     - 5 Şubat 2022 için arz miktarı olarak 1
-    - 6 Şubat 2022 için talep miktarı olarak 3
+    - 6 Şubat 2022 için arz miktarı olarak 3
 
     Aşağıdaki tabloda sonuç gösterilmektedir.
 
     | Tarih | Eldeki | Zamanlanan arz | Zamanlanan talep | Tahmini eldeki | KM |
     | --- | --- | --- | --- | --- | --- |
-    | 1.2.2022 | 20 | | 3 | 17 | 12 |
-    | 2.2.2022 | 20 | | | 17 | 12 |
-    | 3.2.2022 | 20 | 10 | | 27 | 12 |
-    | 4.2.2022 | 20 | | 15 | 12 | 12 |
-    | 5.2.2022 | 20 | 1 | | 13 | 13 |
-    | 6.2.2022 | 20 | 3 | | 16 | 16 |
-    | 7.2.2022 | 20 | | | 16 | 16 |
+    | 2022-02-01 | 20 | | 3 | 17 | 12 |
+    | 2022-02-02 | 20 | | | 17 | 12 |
+    | 2022-02-03 | 20 | 10 | | 27 | 12 |
+    | 2022-02-04 | 20 | | 15 | 12 | 12 |
+    | 2022-02-05 | 20 | 1 | | 13 | 13 |
+    | 2022-02-06 | 20 | 3 | | 16 | 16 |
+    | 2022-02-07 | 20 | | | 16 | 16 |
 
 1. Geçerli tarihte (1 Şubat 2022), zamanlanan talep miktarı olarak 3'ü sevk edersiniz: Bu nedenle, bu değişikliği gerçek eldeki miktarınızda yansıtılacak şekilde kaydetmeniz gerekir. Değişikliği kaydetmek için giden miktarı 3 olan bir eldeki değişiklik olayı gönderirsiniz. Ardından, giden miktarı -3 olan bir eldeki değişiklik zamanlaması göndererek zamanlanan değişikliği geri alırsınız. Aşağıdaki tabloda sonuç gösterilmektedir.
 
     | Tarih | Eldeki | Zamanlanan arz | Zamanlanan talep | Tahmini eldeki | KM |
     | --- | --- | --- | --- | --- | --- |
-    | 1.2.2022 | 17 | | 0 | 17 | 12 |
-    | 2.2.2022 | 17 | | | 17 | 12 |
-    | 3.2.2022 | 17 | 10 | | 27 | 12 |
-    | 4.2.2022 | 17 | | 15 | 12 | 12 |
-    | 5.2.2022 | 17 | 1 | | 13 | 13 |
-    | 6.2.2022 | 17 | 3 | | 16 | 16 |
-    | 7.2.2022 | 17 | | | 16 | 16 |
+    | 2022-02-01 | 17 | | 0 | 17 | 12 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
 
 1. Sonraki gün (2 Şubat 2022), zamanlama dönemi bir gün ileri kayar. Aşağıdaki tabloda sonuç gösterilmektedir.
 
     | Tarih | Eldeki | Zamanlanan arz | Zamanlanan talep | Tahmini eldeki | KM |
     | --- | --- | --- | --- | --- | --- |
-    | 2.2.2022 | 17 | | | 17 | 12 |
-    | 3.2.2022 | 17 | 10 | | 27 | 12 |
-    | 4.2.2022 | 17 | | 15 | 12 | 12 |
-    | 5.2.2022 | 17 | 1 | | 13 | 13 |
-    | 6.2.2022 | 17 | 3 | | 16 | 16 |
-    | 7.2.2022 | 17 | | | 16 | 16 |
-    | 8.2.2022 | 17 | | | 16 | 16 |
+    | 2022-02-02 | 17 | | | 17 | 12 |
+    | 2022-02-03 | 17 | 10 | | 27 | 12 |
+    | 2022-02-04 | 17 | | 15 | 12 | 12 |
+    | 2022-02-05 | 17 | 1 | | 13 | 13 |
+    | 2022-02-06 | 17 | 3 | | 16 | 16 |
+    | 2022-02-07 | 17 | | | 16 | 16 |
+    | 2022-02-08 | 17 | | | 16 | 16 |
 
 1. Ancak iki gün sonra (4 Şubat 2022), 3 Şubat için zamanlanan arz miktarı olarak 10 hâlâ gelmemiştir. Aşağıdaki tabloda sonuç gösterilmektedir.
 
     | Tarih | Eldeki | Zamanlanan arz | Zamanlanan talep | Tahmini eldeki | KM |
     | --- | --- | --- | --- | --- | --- |
-    | 4.2.2022 | 17 | | 15 | 2 | 2 |
-    | 5.2.2022 | 17 | 1 | | 3 | 3 |
-    | 6.2.2022 | 17 | 3 | | 6 | 6 |
-    | 7.2.2022 | 17 | | | 6 | 6 |
-    | 8.2.2022 | 17 | | | 6 | 6 |
-    | 9.2.2022 | 17 | | | 6 | 6 |
-    | 10.2.2022 | 17 | | | 6 | 6 |
+    | 2022-02-04 | 17 | | 15 | 2 | 2 |
+    | 2022-02-05 | 17 | 1 | | 3 | 3 |
+    | 2022-02-06 | 17 | 3 | | 6 | 6 |
+    | 2022-02-07 | 17 | | | 6 | 6 |
+    | 2022-02-08 | 17 | | | 6 | 6 |
+    | 2022-02-09 | 17 | | | 6 | 6 |
+    | 2022-02-10 | 17 | | | 6 | 6 |
 
     Gördüğünüz gibi, zamanlanan (ancak kaydedilmeyen) eldeki değişiklikler gerçek eldeki miktarı etkilemez.
 
@@ -190,8 +199,8 @@ Eldeki değişiklik zamanlamaları, değişiklik olayları ve sorgular gönderme
 
 | Yol | Yöntem | Açıklama |
 | --- | --- | --- |
-| `/api/environment/{environmentId}/on-hand/changeschedule` | `POST` | Bir zamanlanan eldeki değişiklik oluşturun. |
-| `/api/environment/{environmentId}/on-hand/changeschedule/bulk` | `POST` | Birden fazla zamanlanan eldeki değişiklik oluşturun. |
+| `/api/environment/{environmentId}/onhand/changeschedule` | `POST` | Bir zamanlanan eldeki değişiklik oluşturun. |
+| `/api/environment/{environmentId}/onhand/changeschedule/bulk` | `POST` | Birden fazla zamanlanan eldeki değişiklik oluşturun. |
 | `/api/environment/{environmentId}/onhand` | `POST` | Eldeki değişiklik olayı oluşturun. |
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Birden fazla değişiklik olayı oluşturun. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | `POST` yöntemini kullanarak sorgulayın. |
@@ -199,31 +208,46 @@ Eldeki değişiklik zamanlamaları, değişiklik olayları ve sorgular gönderme
 
 Daha fazla bilgi için bkz. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md).
 
-### <a name="submit-on-hand-change-schedules"></a>Eldeki değişiklik zamanlamalarını gönderme
+### <a name="create-one-on-hand-change-schedule"></a>Eldeki stok değişikliği zamanlaması oluşturma
 
-Eldeki değişiklik zamanlamaları, ilgili Stok Görünürlüğü hizmeti URL'sine bir `POST` isteği göndererek yapılır ([API üzerinden değişiklik zamanlamaları, değişiklik olayları ve KM sorguları gönderme](#api-urls) bölümüne bakın). Ayrıca toplu istekler de gönderebilirsiniz.
+Eldeki stok değişikliği zamanlaması, ilgili Stok Görünürlüğü hizmeti URL'sine bir `POST` isteği göndererek oluşturulur ([API üzerinden değişiklik zamanlamaları, değişiklik olayları ve KM sorguları gönderme](#api-urls) bölümüne bakın). Ayrıca toplu istekler de gönderebilirsiniz.
 
-Eldeki değişiklik zamanlaması göndermek için istek gövdesinde kuruluş kimliği, ürün kimliği, zamanlanan tarih ve tarihe göre miktarlar bulunmalıdır. Zamanlanan tarih, geçerli tarih ile geçerli zamanlama döneminin sonu arasında olmalıdır.
+Eldeki stok değişikliği zamanlaması, yalnızca zamanlanan tarihin geçerli tarih ile geçerli zamanlama döneminin sonu arasında olması koşuluyla oluşturulabilir. Tarih saat biçimi *yıl-ay-gün* (ör. **2022-02-01**) biçiminde olmalıdır. Saat biçimi yalnızca ilgili gün için doğru olmalıdır.
 
-#### <a name="example-request-body-that-contains-a-single-update"></a>Tek bir güncelleştirme içeren örnek istek gövdesi
+Bu API, tek bir eldeki stok değişikliği zamanlaması oluşturur.
 
-Aşağıdaki örnekte, tek bir güncelleştirme içeren istek gövdesi gösterilmektedir.
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantitiesByDate: {
+            [datetime:datetime]: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+    }
+```
+
+Aşağıdaki örnekte, `dimensionDataSource` olmadan örnek gövde içeriği gösterilmektedir.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -232,38 +256,60 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "ColorId": "Red",
-        "SizeId": "Small"
+        "SizeId&quot;: &quot;Small"
     },
     "quantitiesByDate":
     {
-        "2022/02/01": // today
+        "2022-02-01": // today
         {
             "pos":{
-                "inbound": 10,
-            },
-        },
-    },
+                "inbound": 10
+            }
+        }
+    }
 }
 ```
 
-#### <a name="example-request-body-that-contains-multiple-bulk-updates"></a>Birden fazla (toplu) güncelleştirme içeren örnek istek gövdesi
+### <a name="create-multiple-on-hand-change-schedules"></a>Birden fazla eldeki stok değişikliği zamanlaması oluşturma
 
-Aşağıdaki örnekte, birden fazla (toplu) güncelleştirme içeren istek gövdesi gösterilmektedir.
+Bu API aynı anda birden çok kayıt oluşturabilir. Bu API ile tek olay API'si arasındaki tek fark, `Path` ve `Body` değerleridir. Bu API için `Body` bir dizi kayıt sağlar. Maksimum kayıt sayısı 512'dir. Bu nedenle, eldeki stok değişikliği zamanlaması toplu API'si tek seferde 512 adede kadar zamanlanan değişikliği destekleyebilir.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/changeschedule/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantitiesByDate: {
+                [datetime:datetime]: {
+                    [dataSourceName:string]: {
+                        [key:string]: number,
+                    },
+                },
+            },
+        },
+        ...
+    ]
+```
+
+Aşağıdaki örnekte, örnek gövde içeriği gösterilmektedir.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/changeschedule/bulk
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
 [
     {
         "id": "id-bike-0001",
@@ -273,67 +319,51 @@ Authorization: "Bearer {access_token}"
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/01": // today
+            "2022-02-01": // today
             {
                 "pos":{
-                    "inbound": 10,
-                },
-            },
-        },
+                    "inbound": 10
+                }
+            }
+        }
     },
     {
-        "id": "id-bike-0002",
+        "id": "id-car-0002",
         "organizationId": "usmf",
         "productId": "Car",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
             "ColorId": "Red",
-            "SizeId": "Small"
+            "SizeId&quot;: &quot;Small"
         },
         "quantitiesByDate":
         {
-            "2022/02/05":
+            "2022-02-05":
             {
                 "pos":{
-                    "outbound": 10,
-                },
-            },
-        },
+                    "outbound": 10
+                }
+            }
+        }
     }
 ]
 ```
 
-### <a name="submit-on-hand-change-events"></a>Eldeki değişiklik olaylarını gönderme
+### <a name="create-on-hand-change-events"></a>Eldeki değişiklik olayları oluşturma
 
 Eldeki değişiklik olayları, ilgili Stok Görünürlüğü hizmeti URL'sine bir `POST` isteği göndererek yapılır ([API üzerinden değişiklik zamanlamaları, değişiklik olayları ve KM sorguları gönderme](#api-urls) bölümüne bakın). Ayrıca toplu istekler de gönderebilirsiniz.
 
 > [!NOTE]
-> Eldeki değişiklik olayları, KM işlevine özgü değildir ancak standart Stok Görünürlüğü API'sinin parçasıdır. Olaylar KM ile çalışmanızla ilgili olduğundan bu örnek eklenmiştir. Eldeki değişiklik olayları, eldeki değişiklik rezervasyonlarına benzer ancak olay iletilerinin farklı bir API URL'sine gönderilmesi gerekir ve olaylarda, ileti gövdesinde `quantityByDate` yerine `quantities` kullanılır. Eldeki değişiklik olayları ve Stok Görünürlüğü API'sinin diğer özellikleri hakkında daha fazla bilgi için bkz. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md).
-
-Eldeki değişiklik olayı göndermek için istek gövdesinde kuruluş kimliği, ürün kimliği, zamanlanan tarih ve tarihe göre miktarlar bulunmalıdır. Zamanlanan tarih, geçerli tarih ile geçerli zamanlama döneminin sonu arasında olmalıdır.
+> Eldeki değişiklik olayları, KM işlevine özgü değildir ancak standart Stok Görünürlüğü API'sinin parçasıdır. Olaylar KM ile çalışmanızla ilgili olduğundan bu örnek eklenmiştir. Eldeki değişiklik olayları, eldeki değişiklik rezervasyonlarına benzer ancak olay iletilerinin farklı bir API URL'sine gönderilmesi gerekir ve olaylarda, ileti gövdesinde `quantityByDate` yerine `quantities` kullanılır. Eldeki değişiklik olayları ve Stok Görünürlüğü API'sinin diğer özellikleri hakkında daha fazla bilgi için bkz. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md#create-one-onhand-change-event).
 
 Aşağıdaki örnekte, tek bir eldeki değişiklik olayı içeren istek gövdesi gösterilmektedir.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
-
-# Method
-Post
-
-# Header
-# Replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "id": "id-bike-0001",
     "organizationId": "usmf",
@@ -342,7 +372,7 @@ Authorization: "Bearer {access_token}"
         "SiteId": "1",
         "LocationId": "11",
         "SizeId": "Big",
-        "ColorId": "Red",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -362,46 +392,71 @@ Zamanlanan eldeki değişiklikleri ve KM sonuçlarını sorgulamak isterseniz is
 - İsteği `POST` yöntemini kullanarak gönderiyorsanız istek gövdesinde bu parametreyi ayarlayın.
 
 > [!NOTE]
-> İstek gövdesinde `returnNegative` parametresinin *true* veya *false* olarak ayarlanmasına bakılmaksızın, zamanlanan eldeki değerler ve KM sonuçları için sorgulama yaptığınızda sonuç negatif değerler içerir. Yalnızca talep siparişleri zamanlanırsa veya arz miktarları talep miktarlarından azsa zamanlanan eldeki değişiklik miktarları negatif olacağından bu negatif değerler dahil edilir. Negatif değerler dahil edilmediyse sonuçlar kafa karıştırıcı olur. Bu seçenek ve diğer sorgu türlerinin nasıl çalıştığı hakkında daha fazla bilgi için bkz. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md).
+> İstek gövdesinde `returnNegative` parametresinin *true* veya *false* olarak ayarlanmasına bakılmaksızın, zamanlanan eldeki değerler ve KM sonuçları için sorgulama yaptığınızda sonuç negatif değerler içerir. Yalnızca talep siparişleri zamanlanırsa veya arz miktarları talep miktarlarından azsa zamanlanan eldeki değişiklik miktarları negatif olacağından bu negatif değerler dahil edilir. Negatif değerler dahil edilmediyse sonuçlar kafa karıştırıcı olur. Bu seçenek ve diğer sorgu türlerinin nasıl çalıştığı hakkında daha fazla bilgi için bkz. [Stok Görünürlüğü genel API'leri](inventory-visibility-api.md#query-with-post-method).
 
-### <a name="post-method-example"></a>POST yöntemi örneği
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
 
 Aşağıdaki örnekte, `POST` yöntemini kullanarak Stok Görünürlüğü'ne gönderilebilen istek gövdesinin nasıl oluşturulacağı gösterilmektedir.
 
 ```json
-# Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/on-hand/indexquery
-
-# Method
-Post
-
-# Header
-# replace {access_token} with the one from your security service
-Api-version: "1.0"
-Content-Type: "application/json"
-Authorization: "Bearer {access_token}"
-
-# Body
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
         "siteId": ["1"],
-        "LocationId": ["11"],
+        "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true,
-    "QueryATP":true,
+    "QueryATP":true
 }
 ```
 
 ### <a name="get-method-example"></a>GET yöntemi örneği
 
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
 Aşağıdaki örnekte, `GET` isteği olarak istek URL'sinin nasıl oluşturulacağı gösterilmektedir.
 
 ```txt
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
 ```
 
 Bu `GET` isteğinin sonucu, önceki örnekteki `POST` isteğinin sonucuyla tam olarak aynıdır.

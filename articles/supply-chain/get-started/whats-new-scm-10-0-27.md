@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: e8ec20c361f76a6012a7c8e1f03296007f5a05aa
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 77c79c88b08844bf7e399a762bb9eb9746ffb71a
+ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645366"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8812958"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>Dynamics 365 Supply Chain Management 10.0.27 Önizlemesi (2022 Temmuz)
 
@@ -34,7 +34,7 @@ Aşağıdaki tabloda, bu sürüme dahil edilen özellikler listelenmektedir. Bu 
 
 | Özellik alanı | Özellik | Daha fazla bilgi | Etkinleştiren |
 |---|---|---|---|
-| Stok ve lojistik | [Stok Görünürlüğü Eklentisi için stok tahsisatı](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | Çok yakında | Varsayılan olarak etkin |
+| Stok ve lojistik | [Stok Görünürlüğü Eklentisi için stok tahsisatı](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [Stok Görünürlüğü stok tahsisatı](../inventory/inventory-visibility-allocation.md) | Varsayılan olarak etkin |
 | İmalat | Üretim katı yürütme arabirimi için "Günüm" görünümü | [Çalışanlar üretim kat yürütme arabirimini nasıl kullanır](../production-control/production-floor-execution-use.md) ve [Üretim tabanı yürütme arabirimindeki tatil bakiyelerini görüntüleme](../production-control/production-floor-execution-payroll-stats.md) | Özellik yönetimi:<br>*Üretim katı yürütme arabirimi için "Günüm" görünümü* |
 | Planlama | [Alt sözleşme için Planlama Optimizasyonu desteği](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-subcontracting) | [Üretimdeki alt sözleşme işini yönetme](../production-control/manage-subcontract-work-production.md) | Varsayılan olarak etkin |
 
@@ -69,7 +69,7 @@ Aşağıdaki Yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance ve Operations uygulamaları için Platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.27 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.27 sürümü için platform güncelleştirmeleri (Haziran 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md).<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.27 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finans ve Operasyon uygulamalarının 10.0.27 sürümü için platform güncelleştirmeleri (Haziran 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

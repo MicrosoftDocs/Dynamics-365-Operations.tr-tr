@@ -2,7 +2,7 @@
 title: Mobil çalışma alanının maliyet denetimi
 description: Bu konu, Maliyet denetleme mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, maliyet merkezi yöneticilerinin maliyet merkezi performansı hakkındaki bilgileri her zaman ve her yerde görebilmelerini sağlar.
 author: AndersGirke
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,23 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 75d8abaeec85b46f0fd0e430040bc7e3a8fd3042
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734087"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811338"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobil çalışma alanının maliyet denetimi
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Bu konu, **Maliyet denetleme** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, maliyet merkezi yöneticilerinin maliyet merkezi performansı hakkındaki bilgileri her zaman ve her yerde görebilmelerini sağlar.
 
-Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
+Bu mobil çalışma alanı, Finance and Operations (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
-## <a name="overview"></a>Genel bakış
+## <a name="overview"></a>Genel Bakış
 **Maliyet denetleme** mobil çalışma alanı, maliyet merkezlerinin mevcut performansı hakkında anında bilgiyi, ffili maliyetleri, bütçelendirilmiş maliyete kıyaslayarak sağlar. Tekil maliyet öğelerinin durumunun detayına inebilirsiniz.
 
 Örneğin, bir personel uluslararası bir konferansa davetiye almıştır ancak kuruluşun tüm seyahat masraflarını üstlenmesi gerekir. Personel, yöneticisine konferansa katılıp katılamayacağını sorar. Yönetici, personelin konferansa katılması için bütçenin olup olmadığını görmek için mobil cihazında **Maliyet denetimi** mobil çalışma alanını açar.
@@ -113,7 +114,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile 1611 sürümü dağ�
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
-Finance and Operations mobil uygulamasını indirip yükleyin:
+Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)

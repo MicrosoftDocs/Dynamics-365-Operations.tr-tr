@@ -2,7 +2,7 @@
 title: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
 description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645149"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811434"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -288,6 +288,16 @@ Güncelleştirilmiş bir şablonu düzenlenebilir bir ER biçimine aktarmak içi
 
 ![Excel iletişim kutusundan Güncelleştir'de Excel Çalışma Sayfası biçim öğesi oluşturma seçeneği.](./media/er-excel-format-update-template.png)
 
+10.0.28 sürümünde ve sonraki sürümlerde, **Excel Üst Bilgisi ve Excel Alt Bilgisi biçim öğelerini güncelleştir** seçeneğini kullanabilirsiniz.
+
+- Bu seçeneği **Hayır** olarak ayarladığınızda, Excel çalışma kitabı biçiminde içeri aktarılan şablonun çalışma sayfalarındaki ilgili üst bilgiler ve alt bilgiler güncelleştirilse bile Excel Üst Bilgisi ve Excel Alt Bilgisi biçim öğeleri değiştirilmeden aynı kalır.
+- Bu seçeneği **Evet** olarak ayarladığınızda, Excel çalışma kitabı biçiminde içeri aktarılan şablonun çalışma sayfalarındaki ilgili üst bilgiler ve alt bilgiler güncelleştirildiğinde Excel Üst Bilgisi ve Excel Alt Bilgisi biçim öğeleri değiştirilir.
+
+    - Çalışma sayfası üst bilgisi veya alt bilgisi yapısı değiştirilmemiş veya yalnızca eklenmişse, ilgili Excel Üst Bilgisi veya Excel Alt Bilgisi biçim öğesinin yapısı güncelleştirilir. Bu Excel Üst Bilgisi veya Excel Alt Bilgisi biçim öğesi altında iç içe yerleştirilmiş biçim öğelerinin bağlamaları korunur.
+    - Çalışma sayfası üst bilgisi veya alt bilgisi yapısı değiştirilmişse, ilgili Excel Üst Bilgisi veya Excel Alt Bilgisi biçim öğesi yeniden oluşturulur. Bu Excel Üst Bilgisi veya Excel Alt Bilgisi biçim öğesi altında iç içe yerleştirilmiş biçim öğelerinin bağlamaları kaldırılır.
+
+![Excel'den güncelleştir iletişim kutusundaki Excel Üst Bilgisi ve Excel Alt Bilgisi biçim öğelerini güncelleştirme seçeneği.](./media/er-excel-format-update-template2.png)
+
 Bu özellik hakkında daha fazla bilgi edinmek için [Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme](modify-electronic-reporting-format-reapply-excel-template.md) bölümündeki adımları izleyin.
 
 ## <a name="validate-an-er-format"></a>ER biçimini doğrulama
@@ -355,7 +365,7 @@ Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturulduğunda
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Örnek 2: Birleştirilmiş hücrelerde EPPlus sorununu düzeltme
 
-Excel çalışma kitabı biçiminde giden belge oluşturmak için bir ER biçimi çalıştırabilirsiniz. **Özellik yönetimi** çalışma alanında **Elektronik raporlama çerçevesinde EPPlus kitaplığının kullanımını etkinleştir** özelliği etkinleştirildiğinde, [EPPlus kitaplığı](https://www.nuget.org/packages/epplus/4.5.2.1), Excel çıktısı oluşturmak için kullanılır. Ancak, bilinen [Excel davranışı](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) ve bir EPPlus kitaplığı sınırlaması nedeniyle, şu özel durumla karşılaşabilirsiniz: "Birleştirilmiş hücreler silinemez/üzerine yazılamaz. Bir aralık, başka bir birleştirilmiş aralıkla kısmen birleştirilir." Bu özel duruma ne tür Excel şablonlarının neden olabileceğini ve sorunu nasıl giderebileceğinizi öğrenmek için aşağıdaki örneği tamamlayın.
+Excel çalışma kitabı biçiminde giden belge oluşturmak için bir ER biçimi çalıştırabilirsiniz. **Özellik yönetimi** çalışma alanında **Elektronik raporlama çerçevesinde EPPlus kitaplığının kullanımını etkinleştir** özelliği etkinleştirildiğinde, [EPPlus kitaplığı](https://www.nuget.org/packages/epplus/4.5.2.1), Excel çıktısı oluşturmak için kullanılır. Ancak, bilinen [Excel davranışı](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) ve bir EPPlus kitaplığı sınırlaması nedeniyle, şu özel durumla karşılaşabilirsiniz: "Birleştirilmiş hücreler silinemez/üzerine yazılamaz. Bir aralık, başka bir birleştirilmiş aralıkla kısmen birleştirilir." Bu özel duruma ne tür Excel şablonlarının neden olabileceğini ve sorunu nasıl giderebileceğinizi öğrenmek için aşağıdaki örneği tamamlayın.
 
 1. Excel masaüstü uygulamasında, yeni bir Excel çalışma kitabı oluşturun.
 2. **Sayfa1** çalışma sayfasında, **A2** hücresine **ReportTitle** adını ekleyin.

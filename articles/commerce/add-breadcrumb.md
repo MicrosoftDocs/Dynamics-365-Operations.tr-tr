@@ -2,7 +2,7 @@
 title: İçerik haritası modülü
 description: Bu konu içerik haritası modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109744"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780346"
 ---
 # <a name="breadcrumb-module"></a>İçerik haritası modülü
 
@@ -63,12 +63,12 @@ Bir PDP'ye içerik haritası modülü eklemek ve gerekli özellikleri ayarlamak 
 
 1. **Site ayarları \> uzantılarına** gidin ve **PDP ayarında içerik haritası** görüntüleme türü için **Kategori hiyerarşisini göster**'i seçin.
 1. **Şablonlara** gidin ve PDP şablonunu seçin.
-1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
+1. Satın alma kutusu modülünü içeren **Konteyner** alanında üç nokta (**...**) düğmesini ve ardından **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
 1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. **Sayfalara** gidin ve PDP şablonunu kullanan bir PDP açın. Bir PDP henüz oluşturulmamışsa, bir tane oluşturun.
-1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
+1. Satın alma kutusu modülünü içeren **Konteyner** alanında üç nokta (**...**) düğmesini ve ardından **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
 1. **İçerik haritası** yuvasının Özellikler bölmesinde , **kök** altında **bağlantı metni** 'ni seçin.
 1. **Bağlantı metni** iletişim kutusunda **giriş**'ı girin ve sonra **bağlantı hedefi** altında **bağlantı Ekle** 'yi seçin.
 1. **Bağlantı ekle** iletişim kutusunda içerik haritası kökü bağlantısını seçin ve **Tamam**'ı seçin.

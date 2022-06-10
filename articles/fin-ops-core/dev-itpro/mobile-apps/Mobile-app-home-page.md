@@ -1,8 +1,8 @@
 ---
 title: Mobil uygulama giriş sayfası
-description: Bu konu, Finance and Operations (Dynamics 365) Mobil uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar.
+description: Bu konuda Finance and Operations (Dynamics 365) mobil uygulaması açıklanmakta ve bu uygulamayı kuruluşunuzda uygulamanıza yardımcı olabilecek kaynaklara bağlantılar sunulmaktadır.
 author: ChrisGarty
-ms.date: 01/22/2020
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729720"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811187"
 ---
 # <a name="mobile-app-home-page"></a>Mobil uygulama giriş sayfası
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Bu konu, **Finance and Operations (Dynamics 365)** mobil uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar.
+Bu konuda **Finance and Operations (Dynamics 365)** mobil uygulaması açıklanmakta ve bu uygulamayı kuruluşunuzda uygulamanıza yardımcı olabilecek kaynaklara bağlantılar sunulmaktadır.
 
 ## <a name="overview"></a>Genel bakış
 
@@ -76,7 +77,7 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 <tr class="odd">
 <td>1</td>
 <td>Sistem yöneticisi</td>
-<td>Finance and Operations uygulamasını kuruluşunuzda uygulayın.</td>
+<td>Kuruluşunuzda Finance and Operations uygulamasını uygulayın.</td>
 <td><ul><li>Henüz bir Microsoft Dynamics 365 sürümünü dağıtmadıysanız, bkz. <a href="../deployment/deploy-demo-environment.md">Bir gösteri sürümü dağıtmak</a>.</li><li>Kullanılabilir mobil çalışma alanlarının bir listesini görmek için bkz. <a href="mobile-workspaces-released.md">Yakın zamanda yayımlanmış olan mobil çalışma alanları</a>.</li></ul></td>
 </tr>
 <tr class="even">

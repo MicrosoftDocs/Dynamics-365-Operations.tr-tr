@@ -2,7 +2,7 @@
 title: Iframe modülü
 description: Bu konu iframe modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 11/04/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754026"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780246"
 ---
 # <a name="iframe-module"></a>Iframe modülü
 
@@ -53,15 +53,18 @@ Aşağıdaki resimde, site sayfalarındaki harici videoları gösteren iframe mo
 Bir sayfaya harici bir video göstermek üzere bir iframe modülü eklemek için aşağıdaki adımları izleyin.
 
 1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
-1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Pazarlama şablonu**'nu girin ve **Tamam**'ı seçin.
+1. **Yeni şablon** iletişim kutusunda **Şablon adı** altında, **Pazarlama şablonu**'nu girin ve **Tamam**'ı seçin.
 1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
-1. **Şablon seçin** iletişim kutusunda **Pazarlama şablonu** şablonunu seçin. **Sayfa adı** altında **Pazarlama sayfası** girin ve **Tamam**'ı seçin.
-1. Yeni sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Yeni sayfa oluştur** iletişim kutusunda **Sayfa adı** altında, **Pazarlama sayfası**'nı girin ve **Tamam**'ı seçin.
+1. **Şablon seç** bölümünde, oluşturduğunuz **Pazarlama şablonunu** seçin ve sonra **İleri**'yi seçin.
+1. **Bir düzen seçin** bölümünde, bir sayfa düzeni seçin (ör. **Esnek düzen**) ve sonra **İleri**'yi seçin.
+1. **İnceleyin ve bitirin** bölümünde, sayfa yapılandırmasını gözden geçirin. Sayfa bilgilerini düzenlemeniz gerekiyorsa, **Geri**'yi seçin. Sayfa bilgileri doğruysa, **Sayfa oluştur**'u seçin. 
+1. Yeni sayfanın **Ana** alanında, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül seç** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
 1. Modülün özellikler bölmesinde, **Genişlik** değerini **Dolgu Kapsayıcısı** olarak ayarlayın.
-1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **iframe** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **iframe** modülünü seçin ve **Tamam**'ı seçin.
 1. Modülün özellikler bölmesinde, **Hedef URL** değerini bir videonun harici URL'si olarak ayarlayın.
 1. İhtiyacınıza göre, **Başlık** ve **Yükseklik** gibi diğer özellikleri ayarlayın.
 1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.

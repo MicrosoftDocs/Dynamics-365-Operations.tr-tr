@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547802"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786852"
 ---
 # <a name="configure-inventory-visibility"></a>Stok Görünürlüğünü yapılandırma
 
@@ -60,7 +60,7 @@ Stok Görünürlüğü Eklentisi, Power Apps kurulumunuza birkaç yeni özellik 
 
 Doğru Stok Görünürlüğü hizmeti uç noktasını bilmiyorsanız Power Apps'te **Yapılandırma** sayfasını açın ve ardından sağ üst köşedeki **Hizmet Uç Noktasını Göster**'i seçin. Sayfa doğru hizmet uç noktasını gösterir.
 
-## <a name="data-source-configuration"></a>Veri kaynağı yapılandırma
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Veri kaynağı yapılandırma
 
 Her veri kaynağı, verilerinizin geldiği bir sistemi temsil eder. Örnek veri kaynağı adları arasında `fno` ("Dynamics 365 Finans ve Operasyon uygulamaları" anlamına gelir) ve `pos` ("satış noktası" anlamına gelir) bulunmaktadır. Varsayılan olarak Supply Chain Management, Stok Görünürlüğü'nde varsayılan veri kaynağı (`fno`) olarak ayarlanır.
 
@@ -141,7 +141,7 @@ Boyut eşlemeleri eklemek için şu adımları izleyin.
 
 Örneğin, veri kaynağınız bir ürün rengi boyutu içeriyorsa bunu `exterchannel` veri kaynağına bir `ProductColor` özel boyutu eklemek için `ColorId` temel boyutuyla eşleyebilirsiniz. Ardından `ColorId` temel boyutuyla eşlenir.
 
-### <a name="physical-measures"></a>Fiziksel ölçüler
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Fiziksel ölçüler
 
 Veri kaynağı, Stok Görünürlüğü'ne bir stok değişikliğini naklettiğinde bu değişikliği *fiziksel ölçüler* kullanarak nakleder. Fiziksel ölçüler miktarı değiştirir ve stok durumunu yansıtır. Gereksinimlerinize göre kendi fiziksel ölçülerinizi tanımlayabilirsiniz. Sorgular fiziksel ölçülere göre olabilir.
 
@@ -175,6 +175,9 @@ Veri kaynağı, Supply Chain Management ise varsayılan fiziksel ölçüleri yen
 ### <a name="calculated-measures"></a>Hesaplanan ölçüler
 
 Hem stok fiziksel ölçülerini hem de *özel hesaplanmış ölçüleri* sorgulamak için Stok Görünürlüğü'nü kullanabilirsiniz. Hesaplanan ölçüler, fiziksel ölçülerin birleşiminden oluşan özelleştirilmiş bir hesaplama formülü sağlar. Bu işlev, özelleştirilmiş ölçümü oluşturmak için eklenecek bir dizi fiziksel ölçü ve/veya çıkarılacak bir dizi fiziksel ölçü tanımlamanıza olanak tanır.
+
+> [!IMPORTANT]
+> Hesaplanan ölçü fiziksel ölçülerin birleşimidir. Formülü hesaplanan ölçüler değil, yalnızca yinelenenlere sahip fiziksel ölçüleri içerebilir.
 
 Yapılandırma, toplam toplu çıkış miktarını elde etmek için eklenen veya çıkartılan bir dizi değiştirici tanımlamanızı sağlar.
 

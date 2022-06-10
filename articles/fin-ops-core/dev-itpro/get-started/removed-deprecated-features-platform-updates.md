@@ -2,7 +2,7 @@
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance ve Operations uygulamalarının platform güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644621"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811260"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya kullanım dışı bırakılan platform özellikleri
 
@@ -31,6 +31,33 @@ Bu konu, Finance ve Operations uygulamalarının platform güncellemelerinde kal
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 Finans ve Operasyon uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](/dynamics/s-e/global/axtechrefrep_61) altından ulaşabilirsiniz. Finans ve Operasyon uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>Haziran 2022'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Finance and Operations (Dynamics 365) mobil uygulaması ve mobil platformu 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Tek bir mobil platformda (Power Apps) birleştirme için Finance and Operations (Dynamics 365) mobil uygulaması ve platformunu kullanım dışı bırakıyoruz. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, Finance and Operations uygulaması verilerini temel alan mobil deneyimler Power Platform tümleştirmesiyle oluşturulabilir. Daha ayrıntılı bilgi için bkz. [Mobil deneyimler oluşturma](../power-platform/build-mobile-experiences.md). |
+| **Etkilenen ürün alanları**         | Finans ve Operasyon uygulamaları |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kaldırıldı. Destek tarihi sonu, Ekim 2024 olarak hedeflenmektedir. |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Finance ve Operations uygulamalarının 10.0.29 sürümü için platform güncelleştirmeleri
+
+### <a name="panorama-tab-style"></a>Panorama sekme stili
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yatay olarak kayan sayfalar, bilinen kullanılabilirlik ve erişilebilirlik sorunları olan güncelliğini yitirmiş düzen desenlerine uyum sağlar.  |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır ancak diğer sekme stilleri hala kullanılabilir durumdadır. |
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Çalıştırma Durumu**                         | Kaldırıldı. |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>Nisan 2022'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
 

@@ -1,8 +1,8 @@
 ---
-title: Kod imzalama sertifikasıyla MPOS'u imzalama
+title: Kod imzalama sertifikası ile MPOS .appx dosyasını imzalama
 description: Bu konu, kod imzalama sertifikasıyla MPOS oturumunun nasıl imzalandığını açıklamaktadır.
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741563"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811097"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>Kod imzalama sertifikası ile MPOS appx dosyasını imzalama
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Kod imzalama sertifikası ile MPOS .appx dosyasını imzalama
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Modern POS'u (MPOS) yüklemek için, güvenilen bir sağlayıcıdan kod imzalama sertifikasıyla MPOS uygulamasını imzalayıp, MPOS'un geçerli kullanıcının güvenilir kök klasörü altına yüklendiği tüm makinelere aynı sertifikayı yüklemelisiniz.
 
@@ -42,7 +43,7 @@ Güvenli Dosya görevi kullanmak, Evrensel Windows Platformu (UWP) uygulama imza
 ![MPOS uygulama imzalama akışı.](media/POSSigningFlow.png)
 
 > [!NOTE]
-> OOB paketi şu anda yalnızca appx dosyasını imzalamayı destekliyor; MPOIS, RSSU ve HWS gibi farklı self-servis yükleyicileri bu işlem tarafından imzalanmaz. SignTool veya diğer imzalama araçlarını kullanarak el ile imzalamanız gerekir. Appx dosyasını imzalamak için kullanılan sertifika, Modern POS'un yüklü olduğu makinede yüklü olmalıdır.
+> OOB paketi şu anda yalnızca .appx dosyasını imzalamayı destekliyor; MPOIS, RSSU ve HWS gibi farklı self-servis yükleyicileri bu işlem tarafından imzalanmaz. SignTool veya diğer imzalama araçlarını kullanarak el ile imzalamanız gerekir. .appx dosyasını imzalamak için kullanılan sertifika, Modern POS'un yüklü olduğu makinede yüklü olmalıdır.
 
 ## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>Sertifikayı Azure Pipelines'ta günlüğe kaydetmek üzere yapılandırma adımları
 
@@ -51,21 +52,22 @@ Güvenli Dosya görevi kullanmak, Evrensel Windows Platformu (UWP) uygulama imza
 [DownloadFile görevini](/visualstudio/msbuild/downloadfile-task) indirin ve derleme işlemine ilk adım olarak ekleyin. Güvenli Dosya görevini kullanmanın avantajı, derleme işlem hattı başarılı olduğunda, başarısız olduğunda veya iptal edildiğinde bağımsız olarak dosyanın şifrelenmesi ve diske yerleştirilmesidir. Derleme işlemi tamamlandıktan sonra dosya indirme konumundan silinir.
 
 1. Güvenli Dosya görevini indirin ve Azure işlem hattına ilk adım olarak ekleyin. Güvenli Dosya görevini [DownloadFile](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile)'dan indirebilirsiniz.
-2. Sertifikayı Güvenli Dosya görevine yükleyin ve aşağıdaki görüntüde gösterildiği gibi Çıktı Değişkenleri altında Referans adını ayarlayın.
+1. Sertifikayı Güvenli Dosya görevine yükleyin ve aşağıdaki görüntüde gösterildiği gibi Çıktı Değişkenleri altında Referans adını ayarlayın.
     > [!div class="mx-imgBorder"]
     > ![Güvenli dosya görevi.](media/SecureFile.png)
-3. **Değişkenler** sekmesi altında **Yeni Değişken**'i seçerek Azure Pipelines'da yeni bir değişken oluşturun.
-4. Değer alanına değişken için bir ad verin; örneğin, **MySigningCert**.
-5. Değişkeni kaydedin.
-6. **RetailSDK\\BuildTools**'dan **Customization.settings** dosyasını açın ve **ModernPOSPackageCertificateKeyFile** öğesini işlem hattında oluşturulan (adım 3) değişken adıyla güncelleştirin. Örneğin:
+1. **Değişkenler** sekmesi altında **Yeni Değişken**'i seçerek Azure Pipelines'da yeni bir değişken oluşturun.
+1. Değer alanına değişken için bir ad verin; örneğin, **MySigningCert**.
+1. Değişkeni kaydedin.
+1. **RetailSDK\\BuildTools**'dan **Customization.settings** dosyasını açın ve **ModernPOSPackageCertificateKeyFile** öğesini işlem hattında oluşturulan (adım 3) değişken adıyla güncelleştirin. Örneğin:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     Sertifika parola korumalı değilse bu adım gereklidir. Sertifika parola korumalıysa, aşağıdaki adımlara devam edin.
- 
-7. İşlem hattının **Değişkenler** sekmesinde yeni bir güvenli metin değişkeni ekleyin. Adı **MySigningCert.secret** olarak ayarlayın ve sertifikanın parola değerini ayarlayın. Değişkenin güvenliğini sağlamak için kilit simgesini seçin.
-8. İşlem hattı için bir **PowerShell Betiği** görevi ekleyin (Güvenli Dosyayı İndirme adımından sonra ve Derleme adımından önce). **Görünen** adı sağlayın ve Tür öğesini **Satır içi** olarak ayarlayın. Aşağıdakileri kopyalayıp komut dosyası bölümüne yapıştırın.
+    
+1. MPOS .appx dosyasını sertifikayla imzalarken zaman damgası eklemek istiyorsanız, **Retail SDK\\Geliştirme aracı\\Customization.settings** dosyasını açın ve **ModernPOSPackageCertificateTimestamp** değişkenini zaman damgası sağlayıcısı (ör. `http://timestamp.digicert.com`) ile güncelleştirin.
+1. İşlem hattının **Değişkenler** sekmesinde yeni bir güvenli metin değişkeni ekleyin. Adı **MySigningCert.secret** olarak ayarlayın ve sertifikanın parola değerini ayarlayın. Değişkenin güvenliğini sağlamak için kilit simgesini seçin.
+1. İşlem hattı için bir **PowerShell Betiği** görevi ekleyin (Güvenli Dosyayı İndirme adımından sonra ve Derleme adımından önce). **Görünen** adı sağlayın ve Tür öğesini **Satır içi** olarak ayarlayın. Aşağıdakileri kopyalayıp komut dosyası bölümüne yapıştırın.
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ Güvenli Dosya görevi kullanmak, Evrensel Windows Platformu (UWP) uygulama imza
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. **RetailSDK\\BuildTools**'dan **Customization.settings** dosyasını açın ve **ModernPOSPackageCertificateThumbprint** öğesini sertifika parmak izi değeriyle güncelleştirin.
+1. **RetailSDK\\BuildTools**'dan **Customization.settings** dosyasını açın ve **ModernPOSPackageCertificateThumbprint** öğesini sertifika parmak izi değeriyle güncelleştirin.
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,7 +84,6 @@ Güvenli Dosya görevi kullanmak, Evrensel Windows Platformu (UWP) uygulama imza
  
 Bir sertifikanın parmak izini alma hakkında ayrıntılı bilgi için, [bir sertifikanın parmak izini alma](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint) konusuna bakın. 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>MPOS uygulamasını SDK'da msbuild kullanarak el ile imzalamak için bir sertifika indirme veya oluşturma
 
 İndirilmiş veya oluşturulmuş bir sertifika MPOS uygulamasını imzalamak için kullanılırsa bu durumda, pfx dosya konumuna (**$(SdkReferencesPath)\\appxsignkey.pfx**) işaret etmek için **BuildTools\\Customization.settings** dosyasındaki **ModernPOSPackageCertificateKeyFile** düğümünü güncelleştirin. Örneğin:

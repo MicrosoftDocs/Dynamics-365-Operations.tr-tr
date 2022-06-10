@@ -2,7 +2,7 @@
 title: Satış noktasında (POS) ürün arama ve müşteri arama
 description: Bu konu Dynamics 365 Commerce içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700101"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806440"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 
@@ -106,6 +106,8 @@ Arama ölçütlerini kısayol olarak belirlemek için yöneticinin Commerce'da *
 > Çok sayıda kısayol eklerseniz, POS arama çubuğundaki açılan menü kalabalık olur ve çalışanın arama deneyimini etkileyebilir. Yalnızca gerektiği kadar kısayol eklemenizi öneririz.
 
 **Görüntüleme sırası** alanı kısayolların POS'ta gösterileceği sırayı belirler. Gösterilen ölçütler müşteri arama algoritmasının müşterileri aramak için kullandığı kullanıma hazır özelliklerdir. Bununla birlikte, iş ortakları arama kısayolu olarak özel özellikleri ekleyebilir. Arama kısayolu olarak özel özellikler eklemek için sistem yöneticisinin müşteri arama ölçütleri için kullanılan genişletilebilir numaralandırmayı (enum) genişletmesi ve ardından iş ortağının özel özelliklerini kısayol olarak işaretlemesi gerekir. İş ortakları kendi özel kısayollarını aramalar için kullanıldığında, sonuçları bulmak için kod yazmaktan sorumludur.
+
+POS'ta kısayolların işlenmesini istiyorsanız, kısayol çevirileri gereklidir. Kanal diliniz sistem varsayılan dilinden farklıysa, her kısayolun çevirisini beklenen dilde tanımlamanız gerekir. Her kısayol için **Çevir**'i seçerek çevirileri tanımlayabilirsiniz. 
 
 > [!NOTE]
 > Enuma eklenen özel bir özellik standart müşteri arama algoritmasını etkilemez. Başka bir deyişle, müşteri arama algoritması özel özellikte arama yapmaz. Kullanıcılar yalnızca o özel özellik kısayol olarak eklenirse veya varsayılan arama algoritması geçersiz kılınırsa aramalar için özel bir özellik kullanabilir.

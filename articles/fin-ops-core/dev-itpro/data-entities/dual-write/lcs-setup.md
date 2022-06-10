@@ -2,19 +2,19 @@
 title: Lifecycle Services'dan çift yazma kurulumu
 description: Bu konuda, Microsoft Dynamics Lifecycle Services (LCS) portalından nasıl çift yazma bağlantısı ayarlayacağınız açıklanmaktadır.
 author: laneswenka
-ms.date: 08/03/2021
+ms.date: 05/16/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 53e82fbf8cff834c9eb0d14a0597561158b85fa1
+ms.sourcegitcommit: 6744cc2971047e3e568100eae338885104c38294
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063684"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8783215"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services'dan çift yazma kurulumu
 
@@ -26,12 +26,12 @@ Bu konuda, Microsoft Dynamics Lifecycle Services (LCS) portalından nasıl çift
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Power Platform tümleştirmeyi aşağıdaki konularda açıklandığı gibi tamamlamanız gerekir:
+Müşterilerin, Power Platform tümleştirmesini aşağıdaki konularda açıklandığı gibi tamamlaması gerekir:
 
-+ [Power Platform Tümleştirme - Ortam dağıtımı sırasında etkinleştir](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [Power Platform tümleştirmesi - Ortam dağıtımı sonrasında etkinleştir](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
+- Henüz Microsoft Power Platform'u kullanmıyorsanız ve platform özelliklerini ekleyerek Finance and Operations ortamlarınızı genişletmek istiyorsanız bkz. [Power Platform Tümleştirmesi - Ortam dağıtımı sırasında etkinleştirme](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- Zaten Dataverse'ünüz ve Power Platform ortamlarınız varsa ve bunları Finance and Operations ortamlarına bağlamak istiyorsanız bkz. [Power Platform tümleştirmesi - Ortam dağıtımından sonra etkinleştirme](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Yeni Dataverse ortamları için çift yazmayı ayarlama
+## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Yeni veya mevcut Dataverse ortamları için çift yazmayı ayarlama
 
 LCS **Ortam Ayrıntıları** sayfasından çift yazma ayarlamak için şu adımları izleyin:
 
@@ -55,28 +55,19 @@ LCS **Ortam Ayrıntıları** sayfasından çift yazma ayarlamak için şu adıml
 
 8. Bağlama tamamlandığında, bir köprü görüntülenir. Finans ve Operasyon ortamındaki çift yazma yönetim alanına giriş yapmak için bağlantıyı kullanın. Buradan varlık eşlemeleri ayarlayabilirsiniz.
 
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Mevcut Dataverse ortamı için çift yazmayı ayarlama
-
-Varolan bir Dataverse ortam için çift yazma ayarlamak için bir Microsoft [destek bileti](../../lifecycle-services/lcs-support.md) oluşturmanız gerekir. Bilet şunları içermelidir:
-
-+ Finans ve Operasyon ortamınızın kimliği.
-+ Lifecycle Services'den ortam adınız.
-+ Power Platform Yönetim Merkezi'ndeki Dataverse kuruluş kimliği veya Power Platform Ortam Kimliği. Biletinizde, kimliğin Power Platform tümleştirme için kullanılan örnek olmasını isteyin.
-
-> [!NOTE]
-> Ortamların bağlantısını LCS kullanarak kaldıramazsınız. Bir ortamın bağlantısını kaldırmak için Finans ve Operasyon ortamındaki **Veri tümleştirme** çalışma alanını açın ve sonra **Bağlantıyı kaldır**'ı seçin.
-
 ## <a name="linking-mismatch"></a>Bağlama uyuşmazlığı
 
-Çift yazma ortamınız bir Dataverse kurulumuna bağlanırken LCS ortamınızın başka bir Dataverse kurulumuna bağlanması mümkündür. Bu bağlama uyuşmazlığı, beklenmeyen davranışa neden olabilir ve verilerin yanlış ortama gönderilmesiyle sonuçlanabilir. Çift yazma için kullanılacak önerilen ortam, Power Platform tümleştirmesinin parçası olarak oluşturulan ortamdır ve uzun vadeli olarak bu, ortamlar arasında bağlantı oluşturmanın tek yolu olacaktır.
+Çift yazma ortamınız Dataverse örneğine bağlıyken LCS, Power Platform tümleştirmesi için ayarlanmamış olabilir. Bu bağlama uyuşmazlığı, beklenmeyen davranışlara neden olabilir. LCS ortam ayrıntılarının, çift yazmada bağlı olduğunuz örnekle eşleşmesi önerilir. Böylece iş olayları, sanal tablolar ve eklentiler aynı bağlantıyı kullanır.
 
-Ortamınızda bağlama uyuşmazlığı varsa LCS'de ortam ayrıntıları sayfanızda "Microsoft, ortamınızın Çift yazma aracılığıyla Power Platform Tümleştirmesi'nde belirtilenden farklı bir hedefe bağlandığını algıladı; bu önerilen bir durum değildir" gibi bir uyarı görüntülenir:
+Ortamınızda bağlama uyuşmazlığı varsa LCS'de ortam ayrıntıları sayfanızda şu örneğe benzer bir uyarı gösterilir: "Microsoft, ortamınızın Çift yazma aracılığıyla Power Platform Tümleştirmesi'nde belirtilenden farklı bir hedefe bağlandığını algıladı; bu önerilen bir durum değildir".
 
 :::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform tümleştirme bağlantısı eşleşmiyor.":::
 
-Bu hatayla karşılaşırsanız gereksinimlerinize göre iki seçenek vardır:
+Bu uyarıyı alırsanız aşağıdaki çözümlerden birini deneyin:
 
-+ LCS ortam ayrıntıları sayfanızda belirtildiği üzere [Çift yazma ortamlarının bağlantısını kaldırın ve yeniden bağlayın (Bağlantıyı sıfırlayın veya değiştirin)](relink-environments.md#scenario-reset-or-change-linking). Microsoft desteği olmadan çalıştırabileceğinizden bu ideal bir seçenektir.  
-+ Bağlantınızı çift yazmada tutmak isterseniz önceki bölümde belgelendiği gibi mevcut Dataverse ortamınızı kullanmak için Power Platform tümleştirmesini değiştirmek üzere Microsoft Desteği'nden yardım isteyebilirsiniz.  
+- LCS ortamınız daha önce Power Platform tümleştirmesi için ayarlanmadıysa bu makaledeki yönergeleri izleyerek çift yazmada yapılandırılan Dataverse örneğine bağlanabilirsiniz.
+- LCS ortamınız zaten Power Platform tümleştirmesi için ayarlandıysa, çift yazma bağlantısını kaldırmalı ve [Senaryo: Bağlamayı sıfırlama veya değiştirme](relink-environments.md#scenario-reset-or-change-linking) makalesini kullanarak LCS'de belirtilen bağlantıya bağlanmalısınız.
+
+Geçmişte, el ile destek bileti oluşturma seçeneği sunuluyordu ancak bu dönemde henüz 1. seçenek yoktu.  Microsoft, artık Destek biletleri aracılığıyla el ile bağlantı oluşturma isteklerini desteklememektedir.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

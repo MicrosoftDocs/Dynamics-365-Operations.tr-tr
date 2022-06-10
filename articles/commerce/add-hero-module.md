@@ -2,7 +2,7 @@
 title: İçerik blok modülü
 description: Bu konu içerik blok modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 85d101c73e723d246e1f6af61acb51f6d6516a79
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726451"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780371"
 ---
 # <a name="content-block-module"></a>İçerik blok modülü
 
@@ -77,8 +77,8 @@ Bir yeni sayfaya Hero modülü eklemek ve gerekli özellikleri ayarlamak için a
 1. Varsayılan sayfanın **ana** yuvasına bir Hero modülü ekleyin.
 1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. **İçerik bloğu sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz hero şablonunu kullanın.
-1. Varsayılan sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **modüller'i seçin**, Hero modülünü seçin ve **Tamam**'ı seçin.
+1. Varsayılan sayfada **Ana** alanını seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda hero modülünü seçin ve **Tamam**'ı seçin.
 1. Soldaki anahat ağacında, içerik bloku modülünü seçin.
 1. Sağdaki özellikler bölmesinde, **Resim Ekle**'yi seçin. Sonra da varolan bir görüntüyü seçin veya yeni bir görüntü yükleyin.
 1. **Başlık** öğesini seçin.

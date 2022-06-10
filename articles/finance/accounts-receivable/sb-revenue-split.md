@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5c2eb6c8e18770eb149c445f662ab7a90aad81a7
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660465"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770168"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Abonelik faturalamasında gelir bölme şablonları
 
@@ -99,3 +99,54 @@ Gelir bölünmesi için ayarlanmış bir madde içeren bir faturalama zamanlamas
 > - Alt maddeler otomatik olarak satış siparişi veya ödeme çizelgesi satırına girilir.
 >
 > **Geliri otomatik olarak oluştur** seçeneği **Hayır** olarak ayarlanmışsa, davranış daha önce açıklanmıştır.
+
+## <a name="additional-revenue-split-information"></a>Ek gelir bölme bilgileri
+
+Gelir bölmenin parçası olan bir madde eklediğinizde, aşağıdaki bilgileri göz önünde bulundurun: 
+
+- Üst tutar ertelenemez.
+- Alt maddelerin başlangıç tarihi, bitiş tarihi, miktar, birim, tesis ve ambar değerleri üst maddeye bağlıdır. Bu değerler alt maddeler için değiştirilemez. Tüm değişiklikler üst maddede yapılmalıdır. 
+- Fiyatlandırma yöntemi **Sabit** yöntemidir ve değiştirilemez.
+- Alt maddeler eklenebilir veya çıkarılabilir.
+- Üst ve alt maddeler aynı madde grubunu kullanmalıdır. 
+- Alt maddeler aşağıdaki kurulumlardan birine sahip olabilir:
+
+    - **Faturalama sıklığı** ve **Faturalama aralıkları** alanları üst maddeyle aynı değere ayarlanır. 
+    - **Faturalama sıklığı** alanı **Tek seferlik** olarak ayarlanır. Bu durumda, **Faturalama aralıkları** alanı otomatik olarak **1** değerine ayarlanır. 
+
+- Alt maddelere ait net tutarların toplamı üst tutara eşittir. Tahsisat yönteminin **Sıfır tutarlar** olması durumunda, hem alt madde tutarlarının toplamı hem de üst tutar 0 (sıfır) değerindedir. 
+
+    > [!NOTE]
+    > Tahsisat yönteminin **Sıfır üst tutarı** olması durumunda, alt maddelerin (sıfır olmayan) toplamı 0 (sıfır) olan üst tutara eşit değildir. Bu tahsisat yöntemi, çalışanların alt maddeleri görebilmesi için şirket içi amaçlar doğrultusunda kullanılır. Ancak, müşteriler yalnızca üst maddeyi görebilir.
+
+- Satış siparişinin çoklu öğe düzenleme (MEA) türü **Tek** ise ilgili çoklu öğe gelir tahsisatı hareket satırı üst ve alt maddeler eklendiğinde oluşturulur. 
+- Gelir bölme tahsisat yönteminin **Eşit tutarlar** olması ve üst tutarın değiştirilmesi durumunda, tüm alt satırların tutarları yeniden hesaplanır. 
+- Tahsisat yönteminin **Değişken tutar** olduğu bir gelir bölme işleminde aşağıdaki davranış gerçekleşir:
+
+    - Üst maddenin net tutarı **Üst tutar** sütununda görünür. Bu değer düzenlenebilir. Ancak birim fiyat, net tutar ve iskonto 0 (sıfır) değerindedir ve düzenlenemez.
+    - Alt maddelerin birim fiyatı 0 (sıfır) değerindedir. Birim fiyatı veya net tutarı düzenleyebilirsiniz. Bir değeri düzenlediğinizde, diğer değer otomatik olarak güncelleştirilir.
+
+- Tahsisat yönteminin **Yüzde** olduğu bir gelir bölme işleminde aşağıdaki davranış gerçekleşir:
+
+    - Üst maddenin net tutarı **Üst tutar** sütununda görünür. Bu değer düzenlenebilir. Ancak birim fiyat, net tutar ve iskonto 0 (sıfır) değerindedir ve düzenlenemez. 
+    - Alt maddelerin net tutarı, *Yüzde* &times; *Üst tutar* şeklinde hesaplanır.
+
+- Tahsisat yönteminin **Eşit tutar** olduğu bir gelir bölme işleminde aşağıdaki davranış gerçekleşir:
+
+    - Üst maddenin net tutarı **Üst tutar** sütununda görünür. Bu değer düzenlenebilir. Ancak birim fiyat, net tutar ve iskonto 0 (sıfır) değerindedir ve düzenlenemez. 
+    - Alt maddelerin net tutarı, üst tutarın tüm alt maddeler arasında eşit olarak bölünmesiyle hesaplanır. 
+    - Alt maddeler kaldırılır veya eklenirse, tüm alt satırların eşit tutarlara sahip olması için net tutar ve birim fiyatları yeniden hesaplanır. 
+    - Üst tutar eşit olarak bölünemezse son alt maddenin net tutarı ve birim fiyatı, diğer alt maddelerin net tutarından ve birim fiyatından biraz daha az veya fazla olabilir. 
+
+- Tahsisat yönteminin **Sıfır tutarlı** olduğu bir gelir bölme işleminde aşağıdaki davranış gerçekleşir:
+
+    - Birim fiyatı, net tutar ve iskonto düzenlenebilir. Üst tutar 0 (sıfır) değerindedir ve düzenlenemez. 
+    - Alt maddelerin miktarı, birimi, tesisi ve ambar değerleri üst öğeye bağlıdır. Alt maddeler için bu değerleri değiştiremezsiniz. Tüm değişiklikler üst maddede yapılmalıdır. 
+    - Alt maddelerin birim fiyatı ve net fiyatı 0 (sıfır) değerindedir ve düzenlenemez. 
+
+- Tahsisat yönteminin **Sıfır üst tutarı** olduğu bir gelir bölme işleminde aşağıdaki davranış gerçekleşir:
+
+    - Üst öğenin birim fiyatı, üst tutarı ve net tutarı 0 (sıfır) değerindedir.
+    - Fatura planında, alt satırlar el ile eklenmiş gibi görünür ve tüm değerler seçili fatura planı grubuna göre güncelleştirilir. Bu değerler düzenlenebilir. Alt maddeler için **Fatura ayrıntılarını görüntüle** sayfasındaki **Girilen miktar**, **Birim fiyatı**, **İskonto** ve **Net tutar** alanlarını kullanarak **İlerletme ve iskonto** ve **Gelişmiş fiyatlandırma** seçeneklerine erişebilirsiniz. 
+    - Bir satış siparişinde, alt satırlarda iskonto ve iskonto yüzdesi 0 (sıfır) değerindedir. 
+    - Üst ve alt maddelerin faturalama sıklığı değiştirilebilir ve her maddenin farklı bir sıklık değeri olabilir. Ancak üst madde, alt maddeleri arasında en kısa sıklık değerine sahip olanın sıklık değerini kullanması için otomatik olarak güncelleştirilir. Örneğin, bir gelir bölme işleminde iki alt madde vardır ve bunlardan biri **Aylık** faturalama sıklığını, diğeri ise **Yıllık** faturalama sıklığını kullanmaktadır. Bu durumda, üst maddenin faturalama sıklığı **Aylık** olarak güncelleştirilir.

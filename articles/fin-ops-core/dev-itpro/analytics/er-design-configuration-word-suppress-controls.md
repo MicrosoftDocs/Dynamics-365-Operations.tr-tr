@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323937"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782191"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Oluşturulan raporlarda Word içerik denetimlerini gizleme
 
@@ -26,7 +26,7 @@ ms.locfileid: "8323937"
 
 Raporları Microsoft Word belgeleri olarak oluşturmak için, raporlar için Word belgesi şeklinde bir şablon tasarlamanız gerekir. Bu şablon, çalışma zamanında doldurulacak veriler için yer tutucu olarak Word içerik denetimleri içermelidir. Raporlarınız için şablon olarak oluşturulan Word belgesini kullanmak için yeni bir [Elektronik raporlama (ER)](general-electronic-reporting.md) [çözümü](er-quick-start1-new-solution.md) [yapılandırabilirsiniz](er-design-configuration-word.md). Çözüm, ER biçimi bileşeni içeren bir ER [yapılandırması](general-electronic-reporting.md#Configuration) içermelidir. Bu ER biçimi, rapor oluşturma için tasarlanmış şablonu kullanacak şekilde yapılandırılmalıdır.
 
-Dynamics 365 Finance sürüm 10.0.6 ve sonrasında, oluşturulan belgelerdeki bazı Word içerik denetimlerini gizlemek için ER biçiminizde formüller yapılandırabilirsiniz.
+Dynamics 365 Finance 10.0.6 sürümünde ve sonraki sürümlerde, oluşturulan belgelerdeki bazı Word içerik denetimlerini gizlemek için ER biçiminizde formüller yapılandırabilirsiniz.
 
 Aşağıdaki adımlarda, sistem yöneticisine veya elektronik raporlama işlevsel Danışman rolüne atanan bir kullanıcının, Word dosyaları olarak raporlar oluşturan ve bir Word şablonu kullanılarak yapılandırılmış olan oluşturulan raporlarda bazı içerik denetimlerini gizleyen bir ER biçiminin nasıl yapılandırılabileceği açıklanmaktadır.
 
@@ -47,7 +47,7 @@ Bu görev kılavuzlarının adımlarını tamamladığınızda, aşağıdaki ö�
 
 Ayrıca örnek rapor için aşağıdaki şablonu indirmeli ve kaydetmelisiniz:
 
-- [Ödeme Raporunun Bağlı Şablonu 2 (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded2.docx)
+- [Ödeme Raporunun Bağlı Şablonu 2 (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/1/9/b/19b36e39-861a-414e-9150-9880d9d2487c/SampleVendPaymDocReportBounded2.docx)
 
 ## <a name="review-the-downloaded-word-template"></a><a id="tag-control"></a>İndirilen Word şablonunu inceleme
 

@@ -2,26 +2,21 @@
 title: Siteniz için arama motoru optimizasyonu (SEO) konuları
 description: Bu konu, gelişmede sizin sitenizin üretime yönelik arama motoru iyileştirme (SEO) konularını kapsamaktadır.
 author: psimolin
-ms.date: 10/01/2019
+ms.date: 05/25/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application user
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: df92aeae967bbf248b90dffc6bc2239a8d2959183acb9e9181bc344b9e3eff8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716869"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806417"
 ---
-# <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Siteniz için arama motoru optimizasyonu (SEO) konuları
+# <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Siteniz için arama motoru optimizasyonuyla (SEO) ilgili konular
 
 
 [!include [banner](includes/banner.md)]
@@ -30,11 +25,15 @@ Bu konu, gelişmede sizin sitenizin üretime yönelik arama motoru iyileştirme 
 
 ## <a name="a-site-that-is-under-development"></a>Geliştirilme aşamasında olan bir site
 
-Bir site gelitirme altýnda, tüm site sayfaları **NOINDEX** ve **NOFOLLOW** meta etiketlerine sahip olmalıdır, böylece arama motorları, sitenizin sayfalarını ve mağaza geliştirme sürümlerini kendi önbelleğinde dizinlerler. Bu konfigürasyonu yapmak için, site sayfası şablonuna varsayılan meta etiketler modülünü eklemeniz gerekir. Daha sonra, varsayılan meta etiketler özellikleri sayfa düzenleyicisinin SEO Özellikler bölümünde kullanılabilir olacak. Meta etiketleri yönetmek için bu özellikleri kullanabilirsiniz.
+Arama motorlarının geliştirilmekte olan bir siteyi dizine eklemediğinden emin olmak için tüm site sayfalarında **noindex** ve **nofollow** meta etiketleri olmalıdır. Aşağıdaki meta etiketi girişini içeren [MetaTags modülünü](metatags-module.md) temel alan bir parça oluşturmanız ve parçanın sitenizde kullanılan tüm şablonların HTML \<head\> bölümüne eklendiğinden emin olmanız önerilir.
+
+```html
+<meta name="robots" content="noindex,nofollow" /> 
+```
 
 ## <a name="soft-launch-of-a-site"></a>Siteyi yazılımla başlatma
 
-"Yazılımla başlatma" sırasında, tam başlatma gerçekleşmeden önce sınırlı bir izleyici veya Pazar için bir Web sitesi kullanılabilir hale getirilir. Web sitenizin yazılımla başlatılması durumunda, **NOINDEX** meta etiketlerinin yerinde kalmasını düşünmelisiniz. Bu şekilde, yazılım başlatmanın erişmek istediğiniz sınırlı hedef kitle ile sınırlı kalmasını sağlamaya yardımcı olursunuz.
+"Yazılımla başlatma" sırasında, tam başlatma gerçekleşmeden önce sınırlı bir izleyici veya Pazar için bir Web sitesi kullanılabilir hale getirilir. Web sitenizin geçici olarak kullanıma sunulması durumunda, **noindex** meta etiketlerini kaldırmamayı düşünebilirsiniz. Bu şekilde, yazılım başlatmanın erişmek istediğiniz sınırlı hedef kitle ile sınırlı kalmasını sağlamaya yardımcı olursunuz.
 
 ## <a name="a-site-that-is-in-production"></a>Üretimdeki bir site
 
@@ -44,7 +43,7 @@ Arama motoru dizinini oluşturma işlemini en iyi duruma getirmek için, işleme
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Dahili önizleme, sınırlı hedef kitleler ve tüm izleyiciler için sayfa SEO ayarları
 
-Dynamics 365 Commerce, görsel sayfa oluşturucuda "gördüğünüz şey aldığınız şeydir" (WYSIWYG) kimlik doğrulamalı önizleme desteği sağladığından, yazarlar bilgilerin site ziyaretçileri tarafından görülebileceğini düşünmenize gerek kalmadan sayfa içeriğini hazırlayabilir. Bir sayfanın yayımlanması gerekiyorsa, ancak etkilenme sayısının sınırlı olması gerekiyorsa, bu bir **NOINDEX** meta etiketine sahip olmalıdır ve bu nedenle arama motorları tarafından dizin oluşturulmayacak. Daha sonra, sayfa tüm izleyiciler için hazır olduğunda, arama motoru dizininin verimliliğini en üst düzeye çıkarmak için tüm temel SEO meta verileri bulunmalıdır. Ek olarak, **NOLIMIT** meta etiketi kaldırılmalıdır.
+Dynamics 365 Commerce, görsel sayfa oluşturucuda "gördüğünüz şey aldığınız şeydir" (WYSIWYG) kimlik doğrulamalı önizleme desteği sağladığından, yazarlar bilgilerin site ziyaretçileri tarafından görülebileceğini düşünmenize gerek kalmadan sayfa içeriğini hazırlayabilir. Bir sayfanın yayımlanması ancak gösterilme sayısının sınırlı olması gerekiyorsa, sayfanın bir **noindex** meta etiketine sahip olmalısı gerekir. Böylece, arama motorları sayfayı dizine eklemez. Daha sonra, sayfa tüm izleyiciler için hazır olduğunda, arama motoru dizininin verimliliğini en üst düzeye çıkarmak için tüm temel SEO meta verileri bulunmalıdır. Ek olarak, **nolimit** meta etiketi kaldırılmalıdır.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

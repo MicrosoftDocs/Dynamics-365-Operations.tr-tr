@@ -2,7 +2,7 @@
 title: ER yapılandırmalarında performans sorunlarını giderme
 description: Bu konu, Elektronik raporlama (ER) yapılandırmalarında performans sorunlarının nasıl bulunabileceğini ve düzeltileceğini açıklamaktadır.
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744398"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811694"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>ER yapılandırmalarında performans sorunlarını giderme
 
@@ -82,7 +82,7 @@ Sonra, izlemeyi ER model eşleme tasarımcısında açın ve sayfanın altına b
 
 - Sorgu ve alınan kayıtların sayısı, genel veri miktarına karşılık geliyor mu? Örneğin, bir belgede 10 satır varsa istatistikler, raporun 10 satır veya 1.000 satır ayıkladığını gösteriyor mu? Çok sayıda alınan kaydınız varsa, aşağıdaki çözümlerden birini deneyin:
 
-    - SQL Server tarafında veri işlemek için [**WHERE** işlevi yerine **FILTER** işlevini kullanın](#filter).
+    - Microsoft SQL Server tarafında veri işlemek için [**WHERE** işlevi yerine **FILTER** işlevini kullanın](#filter).
     - Aynı verileri getirmeyi önlemek için önbelleğe almayı kullanın.
     - Özette aynı verileri getirmeyi önlemek için [toplanan veri işlevlerini kullanın](#collected-data).
 
@@ -191,6 +191,10 @@ Bu yaklaşımın birkaç sınırlaması bulunmaktadır. Makineye yönetici eriş
 
 Önbelleğe alma, veriyi tekrar getirmek için gereken süreyi azaltıyor olsa da bellekten harcar. Alınan veri miktarının çok büyük olmadığı durumlarda önbelleğe almayı kullanın. Önbelleğe almayı nasıl kullanacağınıza dair daha fazla bilgi ve bir örnek için bkz. [Yürütme izlemesinin bilgilerine dayalı olarak model eşlemeyi geliştirme](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace).
 
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a>Getirilen veri hacmini azaltma
+
+Çalışma zamanında getirilen uygulama tablosu kayıtlarındaki alanların sayısını sınırlayarak önbelleğe alma bellek tüketimini azaltabilirsiniz. Bu durumda, yalnızca ER model eşlemeniz için gerekli olan uygulama tablosu alan değerlerini getirebilirsiniz. Bu tablodaki diğer alanlar getirilmez. Böylece, getirilen kayıtları önbelleğe almak için gereken bellek hacmi azalır. Daha fazla bilgi için bkz. [Çalışma zamanında getirilen tablo alanlarının sayısını azaltarak ER çözümlerinin performansını artırma](er-reduce-fetched-fields-number.md).
+
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Önbelleğe alınmış, parametreli hesaplanan alan kullanma
 
 Bazı durumlarda, değerlerin tekrar aranması gerekir. Örnek arasında hesap adları ve hesap numaraları sayılabilir. Zamandan tasarruf etmek için en üst düzeyde parametreleri olan bir hesaplanmış alan oluşturabilir ve bu alanı önbelleğe ekleyebilirsiniz.
@@ -218,4 +222,4 @@ ER, aşağıdaki kaynaklardaki verileri kullanabilir:
 - Sınıflar ( **nesne** ve **sınıf** veri kaynakları)
 - Tablolar (**tablo** ve **tablo kayıtları** veri kaynakları)
 
-[ER API](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory), önceden hesaplanmış verileri çağrı kodundan göndermek için de bir yol sağlar. Uygulama paketi bu yaklaşım için çok sayıda örnek içerir.
+[ER uygulama programlama arabirimi (API)](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory), önceden hesaplanmış verileri çağrı kodundan göndermek için de bir yol sağlar. Uygulama paketi bu yaklaşım için çok sayıda örnek içerir.

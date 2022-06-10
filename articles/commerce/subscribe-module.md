@@ -2,7 +2,7 @@
 title: Abone olma modülü
 description: Bu konu abone olma modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c9c0ed18e3d5fd2521d63f8aa5b0ea668979c57d4de738b9d51a05a1cc0b6e72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: efc9150ea5ddeb7051f82fb07c4d566ac8a48dfa
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730935"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780601"
 ---
 # <a name="subscribe-module"></a>Abone olma modülü
 
@@ -50,12 +50,12 @@ Aşağıdaki resimde, Adventure Works site sayfasının alt bilgisindeki bir abo
 Yeni sayfaya abone olma modülü eklemek ve Commerce site oluşturucuda gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Şablonlar**'a gidin ve sitenizin giriş sayfası için pazarlama şablonunu açın (veya yeni bir pazarlama şablonu oluşturun).
-1. Varsayılan sayfada **Ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Abone olma** modülünü ve **Tamam**'ı seçin.
+1. Varsayılan sayfada **Ana** alanını seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Abone ol** modülünü seçin ve **Tamam**'ı seçin.
 1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. **Sayfalar**'a gidin ve sitenin giriş sayfasını açın (veya pazarlama şablonunu kullanarak yeni bir giriş sayfası oluşturun).
-1. Varsayılan sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Abone olma** modülünü ve **Tamam**'ı seçin.
+1. Varsayılan sayfada **Ana** alanını seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Abone ol** modülünü seçin ve **Tamam**'ı seçin.
 1. Abone olma modülünün Özellik bölmesinde, **Abone ol** gibi bir başlık ekleyin.
 1. **En son eğilimler, stiller ve promosyonlar. Listenizde misiniz? Abone olun ve en son teklifleri alın!** gibi bir paragraf metni ekleyin
 1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin.

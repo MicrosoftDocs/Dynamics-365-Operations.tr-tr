@@ -2,7 +2,7 @@
 title: Şirket dizini mobil çalışma alanı
 description: Bu konuda, kullanıcıların kuruluşları içindeki diğer personeli görmesini ve iletişim kurmasını sağlayan Şirket dizini mobil çalışma alanı hakkında bilgi verilmektedir.
 author: jcart1106
-ms.date: 09/17/2019
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b754e46f194f60cc70d02367d4cca2a382821191
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720660"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811553"
 ---
 # <a name="company-directory-mobile-workspace"></a>Şirket dizini mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Bu konu, **Şirket dizini** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, kullanıcıların kuruluşlarındaki diğer personelleri görmelerine ve onlarla iletişim kurmalarını sağlar.
 
-Bu mobil çalışma alanı, Finance and Operations mobil uygulamasıyla kullanılabilir.
+Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılabilir.
 
-## <a name="overview"></a>Genel Bakış
+## <a name="overview"></a>Genel bakış
 **Şirket dizini** mobil çalışma alanı, kullanıcıların şu görevleri yerine getirmesini sağlar:
 
 - Kuruluştaki personellerin bir listesini görüntülemek.
@@ -49,12 +50,12 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 <tbody>
 <tr class="odd">
 <td>Aşağıdaki ürünlerden birinin kuruluşunuzda dağıtılmış olması gerekir:
-<ul><li>Bir Finance and Operations uygulamayı</li>
+<ul><li>Bir Finance and Operations uygulaması</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuzda halihazırda dağıtılmış bir Finance and Operations uygulamanız yoksa bkz. <a href="../deployment/deploy-demo-environment.md">Tanıtım ortamını dağıtma</a>. Kuruluşunuzda Human Resources dağıtılmamışsa sistem yöneticisi <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources web sayfasından</a> bir deneme sürümüne erişim sağlayabilir.
+<td>Kuruluşunuzda halihazırda dağıtılmış bir Finance and Operations uygulamanız yoksa <a href="../deployment/deploy-demo-environment.md">Bir tanıtım ortamı dağıtma</a> başlıklı makaleye bakın. Kuruluşunuzda Human Resources dağıtılmamışsa sistem yöneticisi <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources web sayfasından</a> bir deneme sürümüne erişim sağlayabilir.
 </td>
 </tr>
 <tr class="even">

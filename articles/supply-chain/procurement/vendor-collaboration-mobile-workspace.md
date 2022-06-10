@@ -2,7 +2,7 @@
 title: Satıcı işbirliği mobil çalışma alanı
 description: Bu konu, Satıcı işbirliği mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
 author: GalynaFedorova
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,23 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670118"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811728"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Satıcı işbirliği mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Bu konu, **Satıcı işbirliği** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
 
-Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
+Bu mobil çalışma alanı, Finance and Operations (Dynamics 365) mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
-## <a name="overview"></a>Genel bakış 
+## <a name="overview"></a>Genel Bakış 
 **Satıcı işbirliği** mobil çalışma alanı, satıcıları web istemcisinde satınalma siparişlerini görüp yanıtlayabilmeleri için yeni satınalma siparişleri hakkında bilgilendirir. 
 
 >[!NOTE]
@@ -109,7 +110,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
 
-Finance and Operations mobil uygulamasını indirip yükleyin:
+Finance and Operations (Dynamics 365 ) mobil uygulamasını indirin ve yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9812a828cb159400c6388f02f10e00694aa64ad
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740443"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809544"
 ---
 # <a name="create-legal-entities"></a>Tüzel kişilik oluşturma
 
@@ -62,7 +62,7 @@ Dynamics 365 Commerce'te yeni bir tüzel kişilik oluşturmak için bu adımlar�
 1. **Pano resmi** bölümünde, tüzel kişilikle ilişkili logoyu ve pano görüntüsünü görüntüleyin veya değiştirin.
 1. **Vergi kaydı** bölümünde, vergi kurumlarına bildirilirken kullanılacak kayıt numaralarını girin.
 1. **Vergi 1099** bölümüne tüzel kişilik için 1099 bilgilerini girin.
-1. **Vergi bilgileri** bölümünde, tüzel kişilik için vergi bilgilerini girin.
+1. **Vergi Bilgileri** bölümünde, tüzel kişilik için vergi bilgilerini girin.
 1. **Kaydet**'i seçin.
 
 Aşağıdaki resimde örnek bir tüzel kişiliğin ayrıntıları gösteriliyor.

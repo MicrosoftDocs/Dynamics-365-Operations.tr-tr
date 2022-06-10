@@ -2,7 +2,7 @@
 title: Elektronik raporlamada (ER) formül tasarımcısı
 description: Bu konu, Elektronik raporlamada (ER) formül tasarımının nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777416"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782218"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -41,7 +41,8 @@ ER formül tasarımcısını destekler. Bu nedenle, tasarım zamanında aşağı
 - Veri kaynağı maddelerini veri modeli bileşenlerine bağlayın.
 - Veri kaynağı maddelerini biçim bileşenlerine bağlayın.
 - Veri kaynaklarının parçası olan hesaplanan alanların bakımını tamamlayın.
-- Kullanıcı giriş parametreleri için görünürlük koşullarını tanımlayın.
+- Kullanıcı giriş parametreleri için görünürlük ve düzenlenebilirlik koşullarını tanımlayın.
+- Kullanıcı giriş parametreleri için varsayılan değerleri tanımlayın.
 - Biçimin dönüşümlerini tasarlayın.
 - Biçimin bileşenlerinin etkinleştirme koşullarını tanımlayın.
 - Biçimin DOSYA bileşenleri için dosya adlarını tanımlayın.

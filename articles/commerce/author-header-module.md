@@ -2,7 +2,7 @@
 title: Üst bilgi modülü
 description: Bu konu üst bilgi modüllerini kapsamakta ve Microsoft Dynamics 365 Commerce'te sayfa üst bilgilerinin nasıl oluşturacağını açıklamaktadır.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2707173eb4d5525437c22a2f236c7d5c588ea7c3
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712802"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780322"
 ---
 # <a name="header-module"></a>Üst bilgi modülü
 
@@ -74,26 +74,26 @@ Adventure Works temasında üst bilgi modülü **Mobil logo** özelliğini deste
 Bir üst bilgi parçası oluşturmak için şu adımları izleyin.
 
 1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
-1. **Yeni parça** iletişim kutusunda **Kapsayıcı** modülünü seçin, parça için bir ad girin ve sonra **Tamam**'ı seçin.
+1. **Parça seçin** iletişim kutusunda **Konteyner** modülünü seçin, parça için bir ad girin ve sonra **Tamam**'ı seçin.
 1. **Varsayılan kapsayıcı** yuvasını seçin ve sağ tarafta bulunan Özellikler bölmesinde, **genişlik** özelliğini **Ekranı doldur** olarak ayarlayın.
-1. **Varsayılan Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Tanımlama bilgisi izni**, **Üst bilgi** ve **Promosyon başlığı** modüllerini seçin ve **Tamam**'ı seçin.
+1. **Varsayılan konteyner** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Tanımlama bilgisi izni**, **Üst bilgi** ve **Promosyon başlığı** modüllerini seçin ve **Tamam**'ı seçin.
 1. **Promosyon başlığı** modülünün özellikler bölmesinde, **İleti ekle**'yi seçin ve sonra **İleti**'yi seçin.
 1. **İleti** iletişim kutusunda promosyon içeriği için metin ve bağlantı ekleyin ve **Tamam**'ı seçin.
 1. **Tanımlama bilgisi izni** modülünün özellikler bölmesinde, bir metin ve site gizlilik sayfasına bağlantı ekleyin ve yapılandırın.
-1. Başlık modülünü içeren **Gezinti menüsü** yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Gezinti meüsü** modülünü seçin ve **Tamam**'ı seçin.
+1. Üst bilgi modülünü içeren **Gezinti menüsü** alanında üç noktayı (**...**) seçin ve sonra **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Gezinti menüsü** modülünü seçin ve **Tamam**'ı seçin.
 1. Gezinti menü modülünün özellik bölmesinde, **Gezinme menüsü kaynağı** altında, **Retail Server** öğesini seçin.
 1. Gezinti menüsü modülünün özellik bölmesinde, **Statik menü öğeleri** altında, **Menü öğesi ekle**'yi seçin ve sonra **Menü öğesini** seçin. 
 1. **Menü öğesi** iletişim kutusunda **Menü Öğesi Metni** altında "İletişim"i girin.
 1. **Menü öğesi** iletişim kutusunda **Menü Öğesi Bağlantı hedefi** altından **Bağlantı ekle**'yi seçin.
 1. **Bağlantı ekle** iletişim kutusunda sitenin "İletişim" sayfası için URL seçin ve **Tamam**'ı seçin.  
 1. **Menü öğesi** iletişim kutusunda **Tamam**'ı seçin.
-1. Başlık modülünü içeren **Ara** yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Ara** modülünü seçin ve **Tamam**'ı seçin.
+1. Üst bilgi modülünü içeren **Ara** alanında üç noktayı (**...**) seçin ve sonra **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Ara** modülünü seçin ve **Tamam**'ı seçin.
 1. Arama modülünün özellik bölmesinde, özelliklerini yapılandırın.
-1. Başlık modülünü içeren **Sepet simgesi** yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Sepet simgesi** modülünü seçin ve **Tamam**'ı seçin.
+1. Üst bilgi modülünü içeren **Sepet simgesi** alanında, üç noktayı (**...**) seçin ve sonra **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Sepet simgesi** modülünü seçin ve **Tamam**'ı seçin.
 1. Sepet simgesi modülünün özellik bölmesinde, özelliklerini yapılandırın. Kullanıcılar üzerinde gezinirken, sepet simgesinin bir sepet Özeti (mini sepet olarak da bilinir) göstermesini istiyorsanız, **mini sepeti göster**'i seçin.
 1. **Kaydet**'i seçin, parçayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 

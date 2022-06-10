@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management içindeki Yenilikler veya değişiklikler
 description: Bu konu, Dynamics 365 Supply Chain Management'ın her sürümündeki yeni ve değiştirilmiş özellikleri açıklayan konulara işaret eder.
 author: kamaybac
-ms.date: 12/08/2020
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,13 +13,13 @@ ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 744c07ff04c74386196d709d57f1c83ff53a9205
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.dyn365.ops.version: 10.0.28
+ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
+ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691512"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8812986"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management içindeki Yenilikler veya değişiklikler
 
@@ -31,8 +31,9 @@ Dynamics 365 Supply Chain Management'ın her sürümündeki yenilikleri veya de�
 
 | Sürüm | Yapı numarası | Otomatik güncelleştirme kullanılabilirliği | Daha fazla bilgi |
 |---|---|---|---|
+| 10.0.28 | 10.0.1264 | Temmuz 2022 | [Dynamics 365 Supply Chain Management 10.0.28 önizlemesi](whats-new-scm-10-0-28.md) |
 | 10.0.27 | 10.0.1227 | Temmuz 2022 | [Dynamics 365 Supply Chain Management 10.0.27 önizlemesi](whats-new-scm-10-0-27.md) |
-| 10.0.26 | 10.0.1192 | Mayıs 2022 | [Dynamics 365 Supply Chain Management 10.0.26 önizlemesi](whats-new-scm-10-0-26.md) |
+| 10.0.26 | 10.0.1192 | Mayıs 2022 | [Dynamics 365 Supply Chain Management 10.0.26'daki yenilikler veya değişiklikler](whats-new-scm-10-0-26.md) |
 | 10.0.25 | 10.0.1149 | Nisan 2022 | [Dynamics 365 Supply Chain Management 10.0.25'daki yenilikler veya değişiklikler](whats-new-scm-10-0-25.md) |
 | 10.0.24 | 10.0.1084 | Şubat 2022 | [Dynamics 365 Supply Chain Management 10.0.24'daki yenilikler veya değişiklikler](whats-new-scm-10-0-24.md) |
 | 10.0.23 | 10.0.1037 | 2022 Ocak | [Dynamics 365 Supply Chain Management 10.0.23'daki yenilikler veya değişiklikler](whats-new-scm-10-0-23.md) |

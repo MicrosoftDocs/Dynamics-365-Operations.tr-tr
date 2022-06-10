@@ -2,7 +2,7 @@
 title: Elektronik raporlama (ER) hedefleri
 description: Bu konuda, elektronik raporlama hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi verilmektedir.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647105"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780474"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -45,7 +45,7 @@ Alternatif olarak, aşağıdaki önkoşullardan birini de yükleyebilirsiniz. An
 - Microsoft Dynamics AX uygulama sürümü 7.0.1 (Mayıs 2016)
 - [Elektronik raporlama hedef yönetim uygulaması düzeltmesi](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-Aynı zamanda bir [Yazdırma](er-destination-type-print.md) hedefi türü vardır. Bunu kullanmak için Microsoft Dynamics 365 Finance 10.0.9 (2020 Nisan) sürümünü yüklemelisiniz.
+Aynı zamanda bir [Yazdırma](er-destination-type-print.md) hedefi türü vardır. Bunu kullanmak için Microsoft Microsoft Dynamics 365 Finance 10.0.9 (2020 Nisan) sürümünü yüklemelisiniz.
 
 ## <a name="overview"></a>Genel Bakış
 
@@ -173,11 +173,11 @@ PDF dönüştürme seçeneğinin geçerli Finance kurulumunda kullanılabilmesin
 
 ### <a name="limitations"></a>Sınırlamalar
 
-PDF dönüştürme seçeneği yalnızca bulut dağıtımları için kullanılabilir.
+Finance **10.0.9 sürümü** itibarıyla, PDF dönüştürme seçeneği yalnızca bulut dağıtımları için kullanılabilir. Finance **10.0.27** sürümü itibarıyla, PDF dönüştürme seçeneği [İnternet bağlantısı](../user-interface/client-disconnected.md) etkin olan tüm şirket içi dağıtımlarda kullanılabilir.
 
 Üretilen PDF belgesi, en fazla 300 sayfa uzunluğunda olabilir.
 
-Finance **10.0.9 sürümünde** Excel çıktısından üretilen PDF belgesinde şu anda yalnızca yatay sayfa yönü desteklenmektedir. Finance **10.0.10 (Mayıs 2020) sürümünde ve sonraki sürümlerde** ER hedefi yapılandırırken Excel çıktısından oluşturulan PDF belgesindeki [sayfa yönünü belirtebilirsiniz](#SelectPdfPageOrientation).
+Finance **10.0.9 sürümü** itibarıyla, Excel çıktısından üretilen PDF belgesinde şu anda yalnızca yatay sayfa yönü desteklenmektedir. Finance **10.0.10 sürümünden** başlayarak, ER hedefi yapılandırırken Excel çıktısından oluşturulan PDF belgesindeki [sayfa yönünü belirtebilirsiniz](#SelectPdfPageOrientation).
 
 Katıştırılmış yazı tipi içermeyen bir çıktıyı dönüştürmek için yalnızca Windows işletim sisteminin ortak sistem yazı tipleri kullanılır.
 

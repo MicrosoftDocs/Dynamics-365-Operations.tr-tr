@@ -2,7 +2,7 @@
 title: Ekibim mobil çalışma alanı
 description: Bu konu, yöneticilerin astlarını ve genişletilmiş ekiplerini görüntülemelerini sağlayan Ekibim mobil çalışma alanı hakkında bilgi sağlar.
 author: ShielaSogge
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,23 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767124"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811071"
 ---
 # <a name="my-team-mobile-workspace"></a>Takımım mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Bu konu, **Ekibim** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, yöneticilerin dorudan rapor verenlerini ve genişletilmiş personellerini görüntülemelerine olanak sağlar. Raporlama zincirlerindeki bireylere övgü de gönderebilirler.
 
 Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
-## <a name="overview"></a>Genel Bakış 
+## <a name="overview"></a>Genel bakış 
 **Ekibim** mobil çalışma alanı, yöneticilerin şu görevleri yerine getirmesini sağlar:
 
 - Yöneticinin doğrudan rapor verenlerinin bir listesini görüntüle.
@@ -49,12 +50,12 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 <tbody>
 <tr class="odd">
 <td>Aşağıdaki ürünlerden birinin kuruluşunuzda dağıtılmış olması gerekir:
-<ul><li>Bir Finance and Operations uygulamayı</li>
+<ul><li>Bir Finance and Operations uygulaması</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuzda halihazırda dağıtılmış bir Finance and Operations uygulamanız yoksa bkz. <a href="../deployment/deploy-demo-environment.md">Tanıtım ortamını dağıtma</a>. Kuruluşunuzda Human Resources dağıtılmamışsa sistem yöneticisi <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources web sayfasından</a> bir deneme sürümüne erişim sağlayabilir.
+<td>Kuruluşunuzda halihazırda dağıtılmış bir Finance and Operations uygulamanız yoksa <a href="../deployment/deploy-demo-environment.md">Bir tanıtım ortamı dağıtma</a> başlıklı makaleye bakın. Kuruluşunuzda Human Resources dağıtılmamışsa sistem yöneticisi <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources web sayfasından</a> bir deneme sürümüne erişim sağlayabilir.
 </td>
 </tr>
 <tr class="even">

@@ -2,7 +2,7 @@
 title: Ortam galerisi modülü
 description: Bu konu ortam galerisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'te site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 08/02/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733209"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780880"
 ---
 # <a name="media-gallery-module"></a>Ortam galerisi modülü
 
@@ -78,18 +78,21 @@ Resim kaynağı sayfa bağlamından türetildiği zaman, resimleri almak için P
 Bir pazarlama sayfasına ortam galerisi modül eklemek için bu adımları izleyin.
 
 1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
-1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Pazarlama şablonu**'nu girin ve **Tamam**'ı seçin.
-1. **Gövde** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam**'ı seçin.
-1. Varsayılan sayfada **Ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Yeni şablon** iletişim kutusunda **Şablon adı** altında, **Pazarlama şablonu**'nu girin ve **Tamam**'ı seçin.
+1. **Gövde** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Varsayılan Sayfa** modülünü seçin ve **Tamam**'ı seçin.
+1. Varsayılan sayfada **Ana** alanını seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül seç** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
 1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
-1. **Şablon seçin** iletişim kutusunda **Pazarlama şablonu** şablonunu seçin. **Sayfa adı** altından **Ortam galerisi sayfası** girin ve **Tamam**'ı seçin.
-1. Yeni sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
-1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Ortam galerisi** modülünü seçin ve **Tamam**'ı seçin.
+1. **Yeni sayfa oluştur** iletişim kutusundaki **Sayfa adı** altında, **Medya galerisi sayfası**'nı girin ve **İleri**'yi seçin.
+1. **Şablon seç** bölümünde, oluşturduğunuz **Pazarlama şablonunu** seçin ve sonra **İleri**'yi seçin.
+1. **Bir düzen seçin** bölümünde, bir sayfa düzeni seçin (ör. **Esnek düzen**) ve sonra **İleri**'yi seçin.
+1. **İnceleyin ve bitirin** bölümünde, sayfa yapılandırmasını gözden geçirin. Sayfa bilgilerini düzenlemeniz gerekiyorsa, **Geri**'yi seçin. Sayfa bilgileri doğruysa, **Sayfa oluştur**'u seçin. 
+1. Yeni sayfanın **Ana** alanında, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül seç** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** alanında, üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
+1. **Modülleri seç** iletişim kutusunda **Medya galerisi** modülünü seçin ve **Tamam**'ı seçin.
 1. Ortam galerisi modülünün özellik bölmesinde, **Resim kaynağı** altında **Ürün kimliği**'ni seçin. Ardından **Ürün kimliği** alanına ürün kimliği girin.
 1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin. Ürünün resimlerini galeri görünümünde görebilirsiniz.
 1. Yalnızca seçilen resimleri kullanmak için özellik bölmesinde, **Resim kaynağı** altında **Ürün kimliği**'ni seçin. Ardından, **Resimler** altında , Ortam Kitaplığı'ndan resim eklemek için istediğiniz kadar **Resim ekle**'yi seçin.
