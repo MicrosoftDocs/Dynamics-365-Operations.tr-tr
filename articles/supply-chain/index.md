@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487876"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789226"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management giriş sayfası
 
@@ -46,19 +46,19 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 - [Ürün bilgileri yönetimi](pim/product-information.md)
 - [Üretim denetimi](production-control/production-process-overview.md)
 - [Satış ve pazarlama](sales-marketing/overview-sales-marketing.md)
-- [Servis yönetimi](service-management/service-management-home-page.md)
+- [Hizmet yönetimi](service-management/service-management-home-page.md)
 - [Taşıma yönetimi](transportation/transportation-management-overview.md)
 - [Ambar yönetimi](warehousing/warehouse-configuration.md)
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Dynamics 365 Finance hakkında daha fazla bilgi için [Finance giriş sayfasına](../finance/index.md) gidin.
+Dynamics 365 Finance hakkında bilgi için [Finance giriş sayfasına](../finance/index.md) gidin.
 
 ## <a name="videos"></a>Videolar
 
 Bu kısa videoda, Microsoft Dynamics 365 for Finance and Operations sürüm 8.0'a (Nisan 2018) eklenen yeni tedarik zinciri yönetimi özellikleri özetlenmektedir.
 
-- [Field Service ile Finance and Operations arasında iş emri eşitleme](https://youtu.be/hAB4TDVMjxU)
+- [Field Service ile Finance and Operations arasında bir iş emrini eşitleme](https://youtu.be/hAB4TDVMjxU)
 
 Bu kısa videolarda, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3'e (Aralık 2017) eklenen yeni tedarik zinciri yönetimi özellikleri özetlenmektedir.
 
@@ -73,7 +73,7 @@ Bu kısa videolarda, Microsoft Dynamics 365 for Finance and Operations, Enterpri
 - [Mobil cihazda satınalma siparişlerini onaylama](https://youtu.be/gZ-gOlJe7H8)
 - [Ürün ve toplu siparişler için Gantt grafiğiyle görsel planlama](https://youtu.be/BtbuShkGj4I)
 
-Aşağıdaki teknik konferans kayıtlarında, Finance and Operations'ın önceki sürümlerindeki tedarik zinciri yönetimi işlevleri açıklanmaktadır. Bu işlev, artık Dynamics 365 Supply Chain Management'ın bir parçasıdır. aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir.
+Aşağıdaki teknik konferans kayıtlarında, Finance and Operations'ın önceki sürümlerindeki tedarik zinciri yönetimi işlevleri açıklanmaktadır. Bu işlev, artık Dynamics 365 Supply Chain Management'ın bir parçasıdır. Aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir.
 
 - **Maliyet yönetimi:**
   - [Maliyet yönetimine genel bakış](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -98,7 +98,7 @@ Aşağıdaki teknik konferans kayıtlarında, Finance and Operations'ın önceki
 ## <a name="white-papers"></a>Teknik incelemeler
 
 - [Yalın imalat: Teslim edilebilir miktar ve kanban işi planlaması](/dynamics/s-e/)
-- [Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama](https://www.microsoft.com/download/details.aspx?id=101937/)
+- [Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama](https://www.microsoft.com/download/details.aspx?id=101937)
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 

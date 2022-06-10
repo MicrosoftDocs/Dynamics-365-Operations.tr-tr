@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Supply Chain Management'taki yenilikler veya değişiklikler
               items:
-                - name: Supply Chain Management'taki giriş sayfasındaki yenilikler veya değişiklikler
+                - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.28 (Ağustos 2022)
+                  href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (Temmuz 2022)
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (Mayıs 2022)
@@ -38,29 +40,29 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Önizleme aboneliklerine kaydolma
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
-            - name: One Version hizmet güncelleştirmeleri
+            - name: One Version hizmet güncellemeleri
               items:
-                - name: One Version hizmet güncelleştirmelerine genel bakış
+                - name: One Version hizmet güncellemelerine genel bakış
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: One Version hizmet güncelleştirmeleriyle ilgili SSS
+                - name: One Version hizmet güncellemeleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Dynamics 365 Commerce dahil olmak üzere güncelleştirmeleri ve özel kod yaşam döngüsünü yönetme
+                - name: Dynamics 365 Commerce dahil olmak üzere güncellemeleri ve özel kod yaşam döngüsünü yönetme
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Yazılım yaşam döngüsü ilkesi: Bulut'
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Yazılım yaşam döngüsü ilkesi: Şirket içi'
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Hizmet güncelleştirmesi kullanılabilirliği
+                - name: Hizmet güncellemesi kullanılabilirliği
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Bulut ortamlarına güncelleştirmeleri uygulama
+                - name: Bulut ortamlarına güncellemeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
+                - name: Şirket içi dağıtımlara güncellemeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Hizmet güncelleştirmelerini yapılandırma
+                - name: Hizmet güncellemelerini yapılandırma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Hizmet güncelleştirmelerini duraklatma
+                - name: Hizmet güncellemelerini duraklatma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Hizmet güncelleştirmeleri hakkında bilgilendirilme
+                - name: Hizmet güncellemeleri hakkında bilgilendirilme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
@@ -226,7 +228,7 @@
                       items:
                         - name: Yapılandırmaları GR'den içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                        - name: ER yapılandırmalarının güncellenmiş sürümlerini içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
@@ -358,7 +360,7 @@
                       href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Ana veri arama için ortam ayarlama
                       href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Mevzuat güncelleştirmeleri
+            - name: Mevzuat güncellemeleri
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
             - name: Hindistan
               items:
@@ -507,9 +509,9 @@
                   href: asset-management/work-orders/maintenance-forecasts.md
                 - name: Tedarik
                   href: asset-management/work-orders/procurement.md
-                - name: Kıymet sayaçlarını el ile güncelleştirme
+                - name: Kıymet sayaçlarını el ile güncelleme
                   href: asset-management/work-orders/manual-update-of-asset-counters.md
-                - name: Kıymet sayaçlarını otomatik olarak güncelleştirme
+                - name: Kıymet sayaçlarını otomatik olarak güncelleme
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Bakım denetim listeleri
                   href: asset-management/work-orders/maintenance-checklists.md
@@ -589,7 +591,7 @@
               items:
                 - name: Bakım bütçeleri
                   href: asset-management/maintenance-budgets/create-maintenance-budget.md
-                - name: Bakım bütçelerini güncelleştirme
+                - name: Bakım bütçelerini güncelleme
                   href: asset-management/maintenance-budgets/update-maintenance-budget.md
             - name: Denetim ve raporlama
               items:
@@ -711,6 +713,8 @@
           items:
             - name: Maliyet yönetimi giriş sayfası
               href: cost-management/cost-management-home-page.md
+            - name: Stok maliyetlendirme ile ilgili sık sorulan sorular
+              href: cost-management/inventory-costing-faq.md
             - name: Standart maliyetler için ön koşullar
               items:
                 - name: Standart maliyetler için ön koşullara genel bakış
@@ -719,17 +723,17 @@
                   href: cost-management/standard-cost-conversion-overview.md
                 - name: Standart maliyet dönüştürme için ön koşul
                   href: cost-management/prerequisites-standard-cost-conversion.md
-                - name: Standart maliyet güncelleştirmelerini yönetme
+                - name: Standart maliyet güncellemelerini yönetme
                   href: cost-management/manage-standard-cost-updates.md
                 - name: Standart maliyetler için maliyetlendirme sürümlerindeki kısıtlamalar
                   href: cost-management/restrictions-costing-versions-standard-costs.md
                 - name: Standart maliyetlere sahip ürün reçetesi hesaplamalarında kullanılan bilgiler
                   href: cost-management/information-used-bom-calculations-standard-costs.md
-                - name: İmalat ortamında standart maliyetleri güncelleştirme
+                - name: İmalat ortamında standart maliyetleri güncelleme
                   href: cost-management/update-standard-costs-manufacturing-environment.md
-                - name: Yeni üretilmiş bir madde için standart maliyetleri güncelleştirme
+                - name: Yeni üretilmiş bir madde için standart maliyetleri güncelleme
                   href: cost-management/update-standard-costs-new-manufactured-item.md
-                - name: İmalat dışı bir ortamda standart maliyetleri güncelleştirme
+                - name: İmalat dışı bir ortamda standart maliyetleri güncelleme
                   href: cost-management/update-standard-costs-non-manufacturing-environment.md
                 - name: Üretilmiş maddeler için standart maliyetleri sürdürmeye hazırlanma
                   href: cost-management/prepare-maintain-standard-costs-manufactured-items.md
@@ -765,7 +769,7 @@
                   href: cost-management/moving-average-fallback.md
             - name: Stok muhasebesi
               items:
-                - name: Fiziksel ve mali güncelleştirmeler
+                - name: Fiziksel ve mali güncellemeler
                   href: cost-management/physical-financial-updates.md
                 - name: Fiziksel değeri dahil etme
                   href: cost-management/include-physical-value.md
@@ -1295,9 +1299,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Oluşturulan dosyalarda ürün reçetesi karakterlerini gizleme
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER kullanarak uygulama verilerini güncelleştirme
+            - name: ER kullanarak uygulama verilerini güncelleme
               items:
-                - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
+                - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleme
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/supply-chain/toc.json
@@ -1355,7 +1359,7 @@
                       items:
                         - name: Yapılandırmaları GR'den içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                        - name: ER yapılandırmalarının güncellenmiş sürümlerini içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
@@ -1427,6 +1431,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER biçimlerindeki VERİ TOPLAMA veri kaynaklarını kullanma
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Oluşturmak istediğiniz raporun parametrelerini belirtmek için USER INPUT PARAMETER veri kaynaklarını kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Veri kaynaklarında hata ayıklama
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Veri modellerini yapılandırma
@@ -1533,7 +1539,7 @@
                       items:
                         - name: Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: İş belgesi şablonunun yapısını güncelleştirme
+                        - name: İş belgesi şablonunun yapısını güncelleme
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/supply-chain/toc.json
             - name: ER çerçevesi API'si
               items:
@@ -1541,19 +1547,19 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
                 - name: API değişiklikleri
                   items:
-                    - name: Uygulama güncelleştirmesi 7.3
+                    - name: Uygulama güncellemesi 7.3
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.11
+                    - name: Uygulama güncellemesi 10.0.11
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.17
+                    - name: Uygulama güncellemesi 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.19
+                    - name: Uygulama güncellemesi 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.21
+                    - name: Uygulama güncellemesi 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.23
+                    - name: Uygulama güncellemesi 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.25
+                    - name: Uygulama güncellemesi 10.0.25
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
@@ -1707,11 +1713,13 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Inventory Visibility rezervasyonları
                   href: inventory/inventory-visibility-reservations.md
-                - name: Stok Görünürlüğü eldeki stok değişikliklerini planlama ve karşılanabilen miktar
+                - name: Inventory Visibility stok tahsisatı
+                  href: inventory/inventory-visibility-allocation.md
+                - name: Inventory Visibility eldeki stok değişikliklerini planlama ve karşılanabilen miktar
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: Stok Görünürlüğü genel API'leri
+                - name: Inventory Visibility genel API'leri
                   href: inventory/inventory-visibility-api.md
-                - name: Stok Görünürlüğü ipuçları
+                - name: Inventory Visibility ipuçları
                   href: inventory/inventory-visibility-tips.md
         - name: IoT Zekası
           items:
@@ -1821,7 +1829,7 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Maddeler için emniyet stoğu karşılama
                   href: master-planning/safety-stock-replenishment.md
-                - name: Maddelerin minimum kapsamını güncelleştirmek için emniyet stoğu günlüğünü kullanma
+                - name: Maddelerin minimum kapsamını güncellemek için emniyet stoğu günlüğünü kullanma
                   href: master-planning/safety-stock-journal.md
                 - name: Gecikmeler
                   href: master-planning/delays.md
@@ -1941,7 +1949,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/supply-chain/toc.json
             - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
+            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
             - name: Excel'de Aç deneyimleri ile ilgili SSS
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
@@ -2559,7 +2567,7 @@
                       href: production-control/tasks/report-finished-non-license-plate-controlled-location-2016-11.md
                     - name: Mobil iş cihazında ilerlemeyi rapor etme
                       href: production-control/tasks/report-progress-mobile-job-device.md
-                    - name: Minimum kapsamı güncelleştirmek için emniyet stoğu günlüğünü kullanma
+                    - name: Minimum kapsamı güncellemek için emniyet stoğu günlüğünü kullanma
                       href: production-control/tasks/use-safety-stock-journal-update-minimum-coverage.md
                     - name: İmalatta malzeme değiştirme
                       href: production-control/substitute-items-bom-lines.md
@@ -2679,7 +2687,7 @@
                       href: production-control/tasks/schedule-kanban-jobs.md
                     - name: Kanban işleriyle malzemeleri transfer etme
                       href: production-control/tasks/transfer-materials-kanban-jobs.md
-                    - name: Kanban durumunu güncelleştirme
+                    - name: Kanban durumunu güncelleme
                       href: production-control/tasks/update-kanban-status.md
             - name: Süreç üretimi
               items:
@@ -2915,7 +2923,7 @@
               items:
                 - name: Müşteri portalına genel bakış
                   href: sales-marketing/customer-portal-overview.md
-                - name: 'Müşteri portalını yükleme, kurma ve güncelleştirme'
+                - name: 'Müşteri portalını yükleme, kurma ve güncelleme'
                   href: sales-marketing/customer-portal-setup.md
                 - name: Müşteri portalı kullanıcıları oluşturma ve yönetme
                   href: sales-marketing/customer-portal-user-admin.md
@@ -3035,7 +3043,7 @@
                           href: service-management/copy-service-template-lines.md
                     - name: Servis siparişi aşamasını değiştirme
                       href: service-management/change-service-order-stage.md
-                    - name: Sözleşmeleri güncelleştirme ve değerlendirme
+                    - name: Sözleşmeleri güncelleme ve değerlendirme
                       items:
                         - name: Nesne ilişkilerinde şablon ürün reçetelerini yönetme
                           href: service-management/manage-template-boms-on-object-relations.md
@@ -3047,7 +3055,7 @@
                           href: service-management/reduce-the-days-on-subscription-fees.md
                         - name: Azaltma günleri örneği
                           href: service-management/reduction-days-example.md
-                        - name: Abonelik satış fiyatlarını güncelleştirme ve endeksleme
+                        - name: Abonelik satış fiyatlarını güncelleme ve endeksleme
                           href: service-management/update-and-index-subscription-sales-prices.md
                 - name: Müşteri sorgularını işleme
                   items:
@@ -3085,9 +3093,9 @@
                       href: service-management/register-the-receipt-of-returned-items.md
                     - name: İade edilen maddeleri inceleme yoluyla alma
                       href: service-management/take-returned-items-through-inspection.md
-                    - name: İadeler için sevk irsaliyesi güncelleştirmeleri
+                    - name: İadeler için sevk irsaliyesi güncellemeleri
                       href: service-management/packing-slip-updates-returns.md
-                    - name: İadeler için fatura güncelleştirmeleri gerçekleştirme
+                    - name: İadeler için fatura güncellemeleri gerçekleştirme
                       href: service-management/perform-invoice-updates-for-returns.md
                 - name: Servis sağlama
                   items:
@@ -3279,12 +3287,24 @@
               href: landed-cost/in-transit-processing.md
             - name: Fazla/eksik hareketleri işleme
               href: landed-cost/over-under-transactions.md
-            - name: Yerine koyma için izlemeyi güncelleştirme
+            - name: Yerine koyma için izlemeyi güncelleme
               href: landed-cost/update-tracking-putaway.md
-            - name: Son teslim alma maliyeti sorguları
+            - name: Varış yeri maliyeti sorguları
               href: landed-cost/landed-cost-inquiries.md
-            - name: Son teslim alma maliyeti raporları
+            - name: Varış yeri maliyeti raporları
               href: landed-cost/landed-cost-reports.md
+            - name: Varış yeri maliyeti veri varlıkları
+              items:
+                - name: Varış yeri maliyeti varlıklarına genel bakış
+                  href: landed-cost\landed-cost-entities-overview.md
+                - name: Seyahat oluşturma varlıkları
+                  href: landed-cost\landed-cost-entities-voyage-creation.md
+                - name: Maliyet hareketi varlıkları
+                  href: landed-cost\landed-cost-entities-cost-transactions.md
+                - name: Konteyner faaliyetleri varlığı
+                  href: landed-cost\landed-cost-entities-container-activities.md
+                - name: Satıcı faturası varlıkları
+                  href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: Ambar yönetimi
           items:
             - name: Ambar yönetimine genel bakış
@@ -3579,7 +3599,7 @@
                           href: warehousing/wave-containerization.md
                         - name: Konteyner ambalaj stratejileri
                           href: warehousing/container-packing-strategy-overview.md
-                    - name: Sevkiyatları otomatik güncelleştirme
+                    - name: Sevkiyatları otomatik güncelleme
                       href: warehousing/auto-update-shipment.md
                     - name: Yerleşim profili oluşturma
                       href: warehousing/tasks/create-location-profile.md
@@ -3629,7 +3649,7 @@
                   href: troubleshooting/costing/change-ledger-period-without-closing.md
                 - name: Stok değeri/yaşlandırma raporları ile bunların depolama sürümleri arasındaki işlevsel boşluklar
                   href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: Stok değerleme yöntemi olarak standart maliyet veya hareketli ortalama kullanıldığında güncelleştirme çakışması oluşur
+                - name: Stok değerleme yöntemi olarak standart maliyet veya hareketli ortalama kullanıldığında güncelleme çakışması oluşur
                   href: troubleshooting/costing/update-conflict-standard-moving.md
                 - name: Madde model grupları başka bir tüzel kişiliğe kopyalandığında alan ayarları eksik
                   href: troubleshooting/costing/copying-item-model-groups.md
@@ -3657,15 +3677,15 @@
                   href: troubleshooting/inventory/on-hand-filter-unexpected.md
                 - name: Stok tutma birimi için maksimum ondalık basamağı sayısı 0'dır
                   href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: Toplu iş numaraları için "Fiziksel güncelleştirme" olmadan birden fazla stok hareketi oluşuyor
+                - name: Toplu iş numaraları için "Fiziksel güncelleme" olmadan birden fazla stok hareketi oluşuyor
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Bir rapor tamamlanmış olarak tersine çevrildiğinde beklenmedik bir açık işlem oluşuyor
                   href: troubleshooting/inventory/reverse-report-as-fi.md
                 - name: 'Malzeme çekme listesi, bir günlüğe eklenen yeni notları göstermez'
                   href: troubleshooting/inventory/unable-to-print-the.md
-                - name: 'Başlatılan bir karantina emrindeki miktar, sipariş bölündüğünde güncelleştirilemiyor'
+                - name: 'Başlatılan bir karantina emrindeki miktar, sipariş bölündüğünde güncellenemiyor'
                   href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Birden fazla kalite emri oluşturulurken Son test tarihi alanı güncelleştirilemiyor
+                - name: Birden fazla kalite emri oluşturulurken Son test tarihi alanı güncellenemiyor
                   href: troubleshooting/inventory/the-field-last-test.md
                 - name: Fiili ağırlık miktarı bölündüğünde nominal miktar yerine minimum miktar kullanılıyor
                   href: troubleshooting/inventory/while-splitting-the.md
@@ -3675,9 +3695,9 @@
                   href: troubleshooting/planning/planned-order-not-exist.md
                 - name: 'Ürün reçetesi açılımı, kesinleştirilmiş ve tahmini üretim emirlerinde farklı şekilde işlev gösteriyor'
                   href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: Planlanan bir siparişi yeniden zamanladığınızda gecikme değeri güncelleştirilmiyor
+                - name: Planlanan bir siparişi yeniden zamanladığınızda gecikme değeri güncellenmiyor
                   href: troubleshooting/planning/delay-value-not-updated.md
-                - name: Planlı siparişlerin güncelleştirilmesi uzun zaman alıyor
+                - name: Planlı siparişlerin güncellenmesi uzun zaman alıyor
                   href: troubleshooting/planning/planned-order-long-update.md
                 - name: Üretim emirlerinde stokta olan maddeler için planlı emirler oluşturuluyor
                   href: troubleshooting/planning/planned-orders-in-stock-items.md
@@ -3711,7 +3731,7 @@
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Negatif günler içinde bir satın alma mevcut olduğunda planlı satın alma siparişi oluşturuluyor
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: 'Talep tahmini kayıtlarını içeri aktardığınızda, tahmin edilen birim maliyeti güncelleştirilemiyor'
+                - name: 'Talep tahmini kayıtlarını içeri aktardığınızda, tahmin edilen birim maliyeti güncellenemiyor'
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Ambar talebi tahmin boyutu tahmin satırlarından kaldırılamıyor
                   href: troubleshooting/planning/warehouse-removal-fr.md
@@ -3801,7 +3821,7 @@
                   href: troubleshooting/production/in-progress-jobs-ended.md
                 - name: Bir üretim emri serbest bırakıldığında RM maddesi tam olarak ayrılamıyor
                   href: troubleshooting/production/item-rm-not-reserved.md
-                - name: 'Tamamlandı bildirimi güncelleştirmesi, eksik miktar hatası vererek başarısız oluyor'
+                - name: 'Tamamlandı bildirimi güncellemesi, eksik miktar hatası vererek başarısız oluyor'
                   href: troubleshooting/production/missing-report-finished-quantity.md
                 - name: Tamamlandı bildirimi günlüğü deftere nakledildiğinde hata
                   href: troubleshooting/production/posting-report-as-.md
@@ -3809,7 +3829,7 @@
                   href: troubleshooting/production/production-order-status-error.md
                 - name: Üretim emirleri İşaretleme sayfasında gösterilmiyor
                   href: troubleshooting/production/production-orders-marking-page.md
-                - name: Adres defterindeki bir çalışan adı değiştirildikten sonra kaynak adı güncelleştirilmiyor
+                - name: Adres defterindeki bir çalışan adı değiştirildikten sonra kaynak adı güncellenmiyor
                   href: troubleshooting/production/resource-name-not-updated.md
                 - name: Bir üretim emri sonlandırılmaya çalışıldığında toplam sağlam miktar hatası
                   href: troubleshooting/production/total-good-quantity-order-error.md
@@ -3827,7 +3847,7 @@
                   href: troubleshooting/production/raw-material-lines-a.md
                 - name: Tamamlandı bildirimi günlüğü deftere nakledildiğinde hata
                   href: troubleshooting/production/posting-report-as-.md
-                - name: Malzeme çekme listesi günlüğündeki ambar bir ürün reçetesi satırında güncelleştirilemiyor
+                - name: Malzeme çekme listesi günlüğündeki ambar bir ürün reçetesi satırında güncellenemiyor
                   href: troubleshooting/production/the-warehouse-in-pic.md
             - name: İndirim yönetimi
               items:
@@ -3835,7 +3855,7 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Satış ve pazarlama
               items:
-                - name: Satış güncelleştirme geçmişi temizleme işi başarısız oluyor veya performans sorunları var
+                - name: Satış güncelleme geçmişi temizleme işi başarısız oluyor veya performans sorunları var
                   href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
                 - name: Ürün demeti maddesi şirketlerarası bir işlemde desteklenmiyor
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
@@ -3847,7 +3867,7 @@
                   href: troubleshooting/sales/same-trade-agreement-selected.md
                 - name: Bir satış teklifi satırındaki servis maddesinin satış miktarı değiştirilemiyor
                   href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: Satış siparişi başlığındaki konum değiştirilirse vergi bilgileri güncelleştirilmiyor
+                - name: Satış siparişi başlığındaki konum değiştirilirse vergi bilgileri güncellenmiyor
                   href: troubleshooting/sales/tax-information-not-updated.md
                 - name: Satış siparişi iptal edilirken miktar azaltılamıyor
                   href: troubleshooting/sales/quantity-cannot-be-reduced.md
@@ -3865,7 +3885,7 @@
                       href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: Uygulama bağlantısı ayarlanırken sertifika yolu için güven çıpası bulunamadı
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: WMS'e güncelleştirme ve geçiş yapılırken sertifika yolu için güven çıpası bulunamadı
+                    - name: WMS'e güncelleme ve geçiş yapılırken sertifika yolu için güven çıpası bulunamadı
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Durdurulan satış siparişi satırı için sevk irsaliyesi deftere nakledilemiyor
                   href: troubleshooting/warehousing/unable-to-post-packi.md
@@ -3899,7 +3919,7 @@
                   href: troubleshooting/warehousing/invalid-license-plate.md
                 - name: Ambar uygulamasında hareketler işlenirken stok sahibine izin verilmiyor
                   href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: 'Sistem, yetersiz hareketler nedeniyle stok miktarını güncelleştiremiyor'
+                - name: 'Sistem, yetersiz hareketler nedeniyle stok miktarını güncellenemiyor'
                   href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
                 - name: İş türü sütununda Stok durumu değişikliği seçilemiyor
                   href: troubleshooting/warehousing/inventory-status-change-work-type.md
@@ -3911,7 +3931,7 @@
                   href: troubleshooting/warehousing/license-plate-specified-location.md
                 - name: Satırlardan biri zaten bir yükte yer alıyor
                   href: troubleshooting/warehousing/line-already-on-load.md
-                - name: İşin konumlar arasında işlenmesi sırasında yük ağırlığı hatası oluşuyor ve güncelleştirme iptal ediliyor
+                - name: İşin konumlar arasında işlenmesi sırasında yük ağırlığı hatası oluşuyor ve güncelleme iptal ediliyor
                   href: troubleshooting/warehousing/load-weight-positive-numbers.md
                 - name: 'Karma plaka alımı, Alacak dışındaki herhangi bir değerlendirme kodu için çalışmıyor'
                   href: troubleshooting/warehousing/mixed-license-plate-receiving.md
@@ -3947,7 +3967,7 @@
                   href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
                 - name: Toplu iş rezervasyon hiyerarşisinde kısmi miktar için yük serbest bırakılamıyor
                   href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: 'Onaylanmamış satınalma siparişleri, Ürün girişlerini güncelleştir görevi çalıştırıldıktan sonra onaylanıyor'
+                - name: 'Onaylanmamış satınalma siparişleri, Ürün girişlerini güncelle görevi çalıştırıldıktan sonra onaylanıyor'
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: Satış siparişi satırındaki stok ayırma geri alınamıyor
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
@@ -3955,11 +3975,11 @@
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: Yük satırlarında sıfır miktar olduğundan sevkiyat onaylanamıyor
                   href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: Serbest bırakılan miktar negatif olacağından yükleme satırı güncelleştirilemiyor
+                - name: Serbest bırakılan miktar negatif olacağından yükleme satırı güncellenemiyor
                   href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: İptal edilen ürün girişleri hareket durumunu kaydedilmiş olarak güncelleştirmiyor
+                - name: İptal edilen ürün girişleri hareket durumunu kaydedilmiş olarak güncellemiyor
                   href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: Fiziksel güncelleştirme miktarının ondalık yuvarlaması yanlış
+                - name: Fiziksel güncelleme miktarının ondalık yuvarlaması yanlış
                   href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
                 - name: Birim cinsinden kalan fiziksel miktar sıfırdan farklı olmalıdır
                   href: troubleshooting/warehousing/physical-remaining-q.md
@@ -3967,7 +3987,7 @@
                   href: troubleshooting/warehousing/picked-quantity-is-n.md
                 - name: Sevk irsaliyesi oluşturma sırasında miktar fazla teslimat yüzdesini aşıyor
                   href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: 'Güncelleştirmeye çalıştığınız miktar, alınan/teslim edilen miktarı aşıyor'
+                - name: 'Güncellemeye çalıştığınız miktar, alınan/teslim edilen miktarı aşıyor'
                   href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
                 - name: 'Sevk irsaliyesi oluşturma sırasında miktar, eksik teslimat yüzdesini aşıyor'
                   href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md

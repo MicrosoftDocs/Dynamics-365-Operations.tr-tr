@@ -10,15 +10,17 @@
           items:
             - name: Finans ve Operasyon uygulamalarındaki yenilikler veya değişiklikler
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Platform güncelleştirmelerinde yenilikler veya değişiklikler
+            - name: Platform güncellemelerinde yenilikler veya değişiklikler
               items:
-                - name: Platform güncelleştirmelerindeki yenilikler veya değişiklikler giriş sayfası
+                - name: Platform güncellemeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
-                - name: 10.0.27 sürümü için platform güncelleştirmeleri (Temmuz 2022)
+                - name: 10.0.28 sürümü için platform güncellemeleri (Ağustos 2022)
+                  href: get-started/whats-new-platform-updates-10-0-28.md
+                - name: 10.0.27 sürümü için platform güncellemeleri (Temmuz 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: 10.0.26 sürümü için platform güncelleştirmeleri (Mayıs 2022)
+                - name: 10.0.26 sürümü için platform güncellemeleri (Mayıs 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: 10.0.25 sürümü için platform güncelleştirmeleri (Nisan 2022)
+                - name: 10.0.25 sürümü için platform güncellemeleri (Nisan 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
@@ -44,7 +46,7 @@
               href: dev-tools/manage-runtime-packages.md
             - name: Hepsi bir arada dağıtılabilir paketler
               href: dev-tools/aio-deployable-packages.md
-            - name: Otomatik derlemede model sürümlerini güncelleştirme
+            - name: Otomatik derlemede model sürümlerini güncelleme
               href: dev-tools/version-models-build.md
         - name: Veri tümleştirme
           items:
@@ -336,7 +338,7 @@
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Dağıtımlar için bakım işlemleri
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
-                    - name: Ortam güncelleştirme
+                    - name: Ortam güncelleme
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: Self servis dağıtımla dağıtılan ortamlarda sorun giderme
                       href: deployment/troubleshoot-newinfrastructure.md
@@ -352,11 +354,11 @@
                   href: deployment/expressroute.md
                 - name: Finance and Operations mimarisi
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
-                - name: Bulut ortamlarına güncelleştirmeleri uygulama
+                - name: Bulut ortamlarına güncellemeleri uygulama
                   href: deployment/apply-deployable-package-system.md
-                - name: Commerce Scale Unit'e (bulut) güncelleştirmeleri ve uzantıları uygulama
+                - name: Commerce Scale Unit'e (bulut) güncellemeleri ve uzantıları uygulama
                   href: deployment/Update-retail-channel.md
-                - name: Commerce Scale Unit (bulut) için otomatik güncelleştirme
+                - name: Commerce Scale Unit (bulut) için otomatik güncelleme
                   href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Commerce Scale Unit'i (bulut) başlatma
                   href: deployment/Initialize-Retail-Channels.md
@@ -384,9 +386,9 @@
                   items:
                     - name: LCS'de şirket içi projeleri ayarlama
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Şirket içi ortamları ayarlama ve dağıtma (Platform güncelleştirmesi 41 ve sonrası)
+                    - name: Şirket içi ortamları ayarlama ve dağıtma (Platform güncellemesi 41 ve sonrası)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: Şirket içi ortamları ayarlama ve dağıtma (Platform güncelleştirmeleri 12 - 40)
+                    - name: Şirket içi ortamları ayarlama ve dağıtma (Platform güncellemeleri 12 - 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Şirket içi ortama Retail kanalı bileşenleri yükleme adımları
                       href: deployment/deploy-retail-onprem.md
@@ -394,7 +396,7 @@
                       href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Ortam işlemleri
                   items:
-                    - name: Şirket içi dağıtıma güncelleştirmeler uygulama
+                    - name: Şirket içi dağıtıma güncellemeler uygulama
                       href: deployment/apply-updates-on-premises.md
                     - name: Sertifika rotasyonu
                       href: deployment/certificate-rotation-on-prem.md
@@ -436,7 +438,7 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Yerel aracı için dağıtım yapılandırmaları
                       href: deployment/onprem-localagent-options.md
-                    - name: Yerel aracıyı güncelleştirme
+                    - name: Yerel aracıyı güncelleme
                       href: lifecycle-services/update-local-agent.md
                 - name: Sorun giderme
                   items:
@@ -534,11 +536,11 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Azure Pipelines'da Lifecycle Services (LCS) bağlantısı oluşturma
                   href: dev-tools/pipeline-lcs-connection.md
-                - name: Azure Pipelines'da LCS bağlantı kimlik doğrulama görevlerini MSAL için güncelleştirme
+                - name: Azure Pipelines'da LCS bağlantı kimlik doğrulama görevlerini MSAL için güncelleme
                   href: dev-tools/pipeline-lcs-connection-update.md
-                - name: Yeni NuGet paketleri için barındırılan Azure Pipeline'ı güncelleştirme
+                - name: Yeni NuGet paketleri için barındırılan Azure Pipeline'ı güncelleme
                   href: dev-tools/pipeline-nuget-split.md
-                - name: Azure Pipelines'ta eski bir işlem hattını güncelleştirme
+                - name: Azure Pipelines'ta eski bir işlem hattını güncelleme
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Filo Yönetimi örnek uygulaması
               items:
@@ -586,7 +588,7 @@
                   href: dev-tools/projects.md
                 - name: Visual Studio için araç eklentileri
                   href: dev-tools/developer-tools-add-ins.md
-                - name: Visual Studio geliştirme araçlarını güncelleştirme
+                - name: Visual Studio geliştirme araçlarını güncelleme
                   href: dev-tools/update-development-tools.md
             - name: X++ programlama dili
               items:
@@ -664,7 +666,7 @@
                           href: dev-ref/xpp-data/xpp-select.md
                         - name: Veri ekleme
                           href: dev-ref/xpp-data/xpp-insert.md
-                        - name: Veri güncelleştirme
+                        - name: Veri güncelleme
                           href: dev-ref/xpp-data/xpp-update.md
                         - name: Veri silme
                           href: dev-ref/xpp-data/xpp-delete.md
@@ -980,7 +982,7 @@
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
             - name: Kod yükseltme hizmetini yapılandırma
               href: lifecycle-services/configure-execute-code-upgrade.md
-            - name: Metodolojiler oluşturma veya güncelleştirme
+            - name: Metodolojiler oluşturma veya güncelleme
               href: lifecycle-services/create-methodology.md
             - name: İş süreci modelleyici (BPM)
               items:
@@ -1018,7 +1020,9 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: Ortam hizmetlerini yeniden başlatma
               href: lifecycle-services/restart-environment-services.md
-            - name: Üretim kesintisi raporlama
+            - name: Ortam yöneticisini güncelleme
+              href: lifecycle-services/update-environment-admin.md
+            - name: Üretim kesintisini raporlama
               href: lifecycle-services/report-production-outage.md
             - name: Kullanıcı oturum açma bilgilerini izleme
               href: lifecycle-services/user-logins.md
@@ -1266,6 +1270,8 @@
               items:
                 - name: Eklentilere genel bakış
                   href: power-platform/add-ins-overview.md
+            - name: Mobil deneyimler oluşturma
+              href: power-platform/build-mobile-experiences.md
             - name: İlkeler ve iletişimler
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Mobil platform
@@ -1554,7 +1560,7 @@
                   href: lcs-solutions/apply-country-context.md
                 - name: Özellik başlıklarındaki düzenleyici sertifika bilgileri
                   href: lcs-solutions/regulatory-certifications.md
-                - name: Mevzuat güncelleştirmeleri
+                - name: Mevzuat güncellemeleri
                   href: lcs-solutions/regulatory-watch-communication.md
                 - name: Yerelleştirme modellerinin ayrılması
                   href: lcs-solutions/separate-localization-models.md
@@ -1668,7 +1674,7 @@
                   href: sysadmin/optimization-advisor-overview.md
                 - name: En iyi duruma getirme danışmanı için kurallar oluşturma
                   href: sysadmin/create-rules-optimization-advisor.md
-            - name: Üretim kesintisi raporlama
+            - name: Üretim kesintisini raporlama
               href: lifecycle-services/report-production-outage.md
             - name: Veritabanı günlüğü yapılandırma ve yönetme
               href: sysadmin/configure-manage-database-log.md
@@ -1678,9 +1684,9 @@
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
             - name: Temizleme yordamları
               href: sysadmin/cleanuproutines.md
-        - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmeler'
+        - name: 'Yükseltmeler, güncellemeler ve düzeltmeler'
           items:
-            - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmelerle ilgili kaynaklar'
+            - name: 'Yükseltmeler, güncellemeler ve düzeltmelerle ilgili kaynaklar'
               href: migration-upgrade/upgrade-home-page.md
             - name: AX 2012'den yükseltme
               items:
@@ -1770,29 +1776,29 @@
                   href: dev-tools/model-split.md
                 - name: Temsilcileri kullanarak modeller arasındaki bağımlılıkları çözme
                   href: migration-upgrade/delegates-migration.md
-            - name: En son güncelleştirmeye yükseltme (bulut)
+            - name: En son güncellemeye yükseltme (bulut)
               items:
-                - name: En son güncelleştirmeye geçme işlemi
+                - name: En son güncellemeye geçme işlemi
                   href: migration-upgrade/upgrade-latest-update.md
                 - name: One Version'a giden yollar
                   items:
                     - name: En son sürüme self servis yükseltme
                       href: migration-upgrade/self-service-upgrade.md
-                    - name: Yeniden oluşturma ve en son sürüme güncelleştirme
+                    - name: Yeniden oluşturma ve en son sürüme güncelleme
                       href: migration-upgrade/appupdate-80-81.md
                 - name: Yazılım yaşam döngüsü ilkesi ve bulut sürümleri
                   href: migration-upgrade/versions-update-policy.md
-                - name: Ortamlara son platform güncelleştirmesini uygulama
+                - name: Ortamlara son platform güncellemesini uygulama
                   href: migration-upgrade/upgrade-latest-platform-update.md
                 - name: Geliştirme veya tanıtım ortamlarındaki verileri yükseltme
                   href: migration-upgrade/upgrade-data-to-latest-update.md
-                - name: Geliştirme araçlarını güncelleştirme
+                - name: Geliştirme araçlarını güncelleme
                   href: dev-tools/update-development-tools.md
-                - name: En son güncelleştirmeye karşı derleme kodu planlama ve hazırlama
+                - name: En son güncellemeye karşı derleme kodu planlama ve hazırlama
                   href: migration-upgrade/compile-considerations.md
-            - name: En son güncelleştirmeye yükseltme (şirket içi)
+            - name: En son güncellemeye yükseltme (şirket içi)
               items:
-                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
+                - name: Şirket içi dağıtımlara güncellemeleri uygulama
                   href: deployment/apply-updates-on-premises.md
                 - name: Şirket içi dağıtımı yeniden dağıtma
                   href: deployment/redeploy-on-prem.md
@@ -1800,15 +1806,15 @@
                   href: migration-upgrade/on-prem-upgrade.md
             - name: Düzeltmeler
               items:
-                - name: Lifecycle Services'dan güncelleştirmeler alma
+                - name: Lifecycle Services'dan güncellemeler alma
                   href: migration-upgrade/download-hotfix-lcs.md
-                - name: Bulut ortamlarına güncelleştirmeleri uygulama
+                - name: Bulut ortamlarına güncellemeleri uygulama
                   href: deployment/apply-deployable-package-system.md
                 - name: Geliştirme ortamlarında meta veri düzeltmeleri yükleme
                   href: migration-upgrade/install-metadata-hotfix-package.md
                 - name: Yerleşik ortamlarda Reporting Services için yama oluşturma
                   href: migration-upgrade/patch-reporting-service-environment.md
-                - name: Visual Studio geliştirme araçlarını güncelleştirme
+                - name: Visual Studio geliştirme araçlarını güncelleme
                   href: dev-tools/update-development-tools.md
             - name: Kullanımdan kaldırma işlemleri
               items:

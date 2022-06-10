@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
             - name: Commerce'teki yenilikler veya değişiklikler
               items:
-                - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
+                - name: Commerce giriş sayfasındaki yenilikler ve değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28 (Temmuz 2022)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (Temmuz 2022)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (Mayıs 2022)
@@ -36,29 +38,29 @@
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: Satın almadan önce
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
-            - name: One Version hizmet güncelleştirmeleri
+            - name: One Version hizmet güncellemeleri
               items:
-                - name: One Version hizmet güncelleştirmelerine genel bakış
+                - name: One Version hizmet güncellemelerine genel bakış
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: One Version hizmet güncelleştirmeleriyle ilgili SSS
+                - name: One Version hizmet güncellemeleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
-                - name: Dynamics 365 Commerce dahil olmak üzere güncelleştirmeleri ve özel kod yaşam döngüsünü yönetme
+                - name: Dynamics 365 Commerce dahil olmak üzere güncellemeleri ve özel kod yaşam döngüsünü yönetme
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Yazılım yaşam döngüsü ilkesi: Bulut'
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Yazılım yaşam döngüsü ilkesi: Şirket içi'
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/commerce/toc.json
-                - name: Hizmet güncelleştirmesi kullanılabilirliği
+                - name: Hizmet güncellemesi kullanılabilirliği
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
-                - name: Bulut ortamlarına güncelleştirmeleri uygulama
+                - name: Bulut ortamlarına güncellemeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
+                - name: Şirket içi dağıtımlara güncellemeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: Hizmet güncelleştirmelerini yapılandırma
+                - name: Hizmet güncellemelerini yapılandırma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Hizmet güncelleştirmelerini duraklatma
+                - name: Hizmet güncellemelerini duraklatma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Hizmet güncelleştirmeleri hakkında bilgilendirilme
+                - name: Hizmet güncellemeleri hakkında bilgilendirilme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
@@ -224,7 +226,7 @@
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Projeler için yeni ortamlar, Azure DevOps ve dallar ayarlama'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-                - name: Commerce projeleri için kodu ve ortamları güncelleştirme
+                - name: Commerce projeleri için kodu ve ortamları güncelleme
                   href: dev-itpro/updating-environments.md
                 - name: Test ve performans sorunları
                   href: dev-itpro/retail-implementation-testing-performance.md
@@ -298,9 +300,9 @@
               items:
                 - name: Dynamics 365 Commerce bileşen sürümü oluşturma gereksinimleri
                   href: arch-component-versioning.md
-            - name: Servise alma ve güncelleştirme önerileri
+            - name: Servise alma ve güncelleme önerileri
               items:
-                - name: Servise alma ve güncelleştirme önerilerine genel bakış
+                - name: Servise alma ve güncelleme önerilerine genel bakış
                   href: go-live/go-live-overview.md
                 - name: Performans
                   items:
@@ -612,7 +614,7 @@
                       href: add-qr-code-barcode-email.md
                 - name: Kuruluşunuz için Bing Haritalar'ı yönetme
                   href: dev-itpro/manage-bing-maps.md
-                - name: Müşterinin teslim alması için zaman aralıkları oluşturma ve güncelleştirme
+                - name: Müşterinin teslim alması için zaman aralıkları oluşturma ve güncelleme
                   href: dev-itpro/pickup-timeslots.md
                 - name: Ürün boyutu değerlerini renk örneği olarak görünecek şekilde yapılandırma
                   href: dev-itpro/dimensions-swatch.md
@@ -858,7 +860,7 @@
                   href: payment-methods-restrictions.md
                 - name: Birden fazla müşteri siparişi ve faturasındaki maddeleri iade etme
                   href: multireturn.md
-                - name: Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleştirme
+                - name: Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleme
                   href: refund_policy_returns.md
         - name: Müşterilerinizi yönetme
           items:
@@ -1300,7 +1302,11 @@
               items:
                 - name: 4xx/5xx durum kodu hataları için özel yanıt sayfaları oluşturma
                   href: build-pages-400-500-errors.md
-        - name: Fraud Protection
+            - name: Hizmet tümleştirmesi
+              items:
+                - name: Customer Voice'u e-ticaret sitesi sayfalarıyla tümleştirme
+                  href: customer-voice-integration.md
+        - name: Sahtekarlık koruması
           items:
             - name: Dynamics 365 Fraud Protection ve Dynamics 365 Commerce tümleştirmesi
               href: dev-itpro/DFP.md
@@ -1378,7 +1384,7 @@
                       items:
                         - name: Yapılandırmaları GR'den içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                        - name: ER yapılandırmalarının güncellenmiş sürümlerini içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
                         - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
@@ -1986,9 +1992,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan dosyalarda ürün reçetesi karakterlerini gizleme
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/commerce/toc.json
-            - name: ER kullanarak uygulama verilerini güncelleştirme
+            - name: ER kullanarak uygulama verilerini güncelleme
               items:
-                - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
+                - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleme
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/commerce/toc.json
@@ -2046,7 +2052,7 @@
                       items:
                         - name: Yapılandırmaları GR'den içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içeri aktarma
+                        - name: ER yapılandırmalarının güncellenmiş sürümlerini içeri aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
                         - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: ER biçimlerindeki VERİ TOPLAMA veri kaynaklarını kullanma
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Oluşturmak istediğiniz raporun parametrelerini belirtmek için USER INPUT PARAMETER veri kaynaklarını kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Veri kaynaklarında hata ayıklama
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Veri modellerini yapılandırma
@@ -2224,7 +2232,7 @@
                       items:
                         - name: Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
-                        - name: İş belgesi şablonunun yapısını güncelleştirme
+                        - name: İş belgesi şablonunun yapısını güncelleme
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/commerce/toc.json
             - name: ER çerçevesi API'si
               items:
@@ -2232,19 +2240,19 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
                 - name: API değişiklikleri
                   items:
-                    - name: Uygulama güncelleştirmesi 7.3
+                    - name: Uygulama güncellemesi 7.3
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.11
+                    - name: Uygulama güncellemesi 10.0.11
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.17
+                    - name: Uygulama güncellemesi 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.19
+                    - name: Uygulama güncellemesi 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.21
+                    - name: Uygulama güncellemesi 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.23
+                    - name: Uygulama güncellemesi 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
-                    - name: Uygulama güncelleştirmesi 10.0.25
+                    - name: Uygulama güncellemesi 10.0.25
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
@@ -2302,7 +2310,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/commerce/toc.json
             - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
-            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
+            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
             - name: Excel'de Aç deneyimleri ile ilgili SSS
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Yerel geliştirme sırasında oturum açmış durumunun sahtesini oluşturma
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: Azure Active Directory B2C kullanarak web API'si kimlik doğrulama aktarımını ayarlama
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: Bağlama göre gösterilecek modül özelliklerini yapılandırma
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: CultureInfoFormatter sınıfını kullanarak modülleri globalleştirme
@@ -2818,7 +2828,7 @@
                   items:
                     - name: Yapılandırmaları paketleme ve çevrimiçi bir ortama dağıtma
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK ve modül kitaplığı güncelleştirmeleri
+                    - name: SDK ve modül kitaplığı güncellemeleri
                       href: e-commerce-extensibility/sdk-updates.md
                     - name: Azure DevOps kod paylaşımını ayarlama ve derleme işlem hattı oluşturma
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: Derecelendirmeler ve incelemeler çözümü etkin olmadığında arama sonuçlarında ve kategori sayfalarında derecelendirme daraltıcı görünüyor
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: 'Sipariş özeti alt toplamı, özelleştirilmiş sipariş özeti modüllerini kullanırken masraflarla ilgili vergileri içermiyor'
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Müşteri yönetimi
               items:
                 - name: Yeni müşteriler oluşturulduğunda karşılama e-postası gönderilmiyor
