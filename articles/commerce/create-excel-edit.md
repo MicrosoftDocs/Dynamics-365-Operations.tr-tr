@@ -1,6 +1,6 @@
 ---
 title: Perakende hareketlerini düzenlemek için bir Excel çalışma kitabı oluşturma
-description: Bu konuda, Microsoft Dynamics 365 Commerce'ta perakende hareketlerini düzenleyebilmek için nasıl Excel çalışma kitabı oluşturabileceğiniz açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'te perakende hareketlerini düzenleyebilmek için nasıl Excel çalışma kitabı oluşturabileceğiniz açıklanmaktadır.
 author: josaw1
 ms.date: 11/04/2020
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc3f6898087445e0276994ceeb52c178785bf3604fa163939327e99a0564f64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da3c2eb19491b37decaf29d13f675271ae7a3698
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873100"
 ---
 # <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>Perakende hareketlerini düzenlemek için bir Excel çalışma kitabı oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'ta perakende hareketlerini düzenleyebilmek için nasıl Excel çalışma kitabı oluşturabileceğiniz açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'te perakende hareketlerini düzenleyebilmek için nasıl Excel çalışma kitabı oluşturabileceğiniz açıklanmaktadır.
 
 ## <a name="overview"></a>Genel bakış
 

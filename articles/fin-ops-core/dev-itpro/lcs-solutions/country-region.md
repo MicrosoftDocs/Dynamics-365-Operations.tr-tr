@@ -1,6 +1,6 @@
 ---
 title: Globalleştirme kaynakları
-description: Bu konu, ülke/bölgeye özgü işlevler ve teklifler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir.
+description: Bu makale, ülke/bölgeye özgü işlevler ve teklifler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir.
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866551"
 ---
 # <a name="globalization-resources"></a>Globalleştirme kaynakları
 
 ## <a name="local-and-regional-deployments"></a>Yerel ve bölgesel dağıtımlar
 Bulunduğunuz bölgedeki mevzuat verilerin diğer ülkelerden/bölgelerden farklı şekilde depolanmasını veya sunulmasını gerektiriyorsa dağıtım sırasında dikkate almanız gereken ülkeye/bölgeye özel gereklilikler olabilir. Sizinle ilgili olabilecek aşağıdaki kaynakları inceleyin:
 
-[Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları](../deployment/china-local-deployment.md)
+[Çin'de 21Vianet tarafından işletilen Finans ve Operasyon uygulamaları](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Yerelleştirme ve mevzuat özellikleri
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations uygulamalarında [Ürün yerelleştirme ve çeviri kullanılabilirlik kılavuzunda](https://aka.ms/dynamics_365_international_availability_deck) belirtilen ülkelere/bölgelere yönelik işlev bulunmaktadır. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
+Finans ve Operasyon uygulamalarında, [Ürün yerelleştirme ve çeviri kullanılabilirlik kılavuzunda](https://aka.ms/dynamics_365_international_availability_deck) belirtilen ülkelere/bölgelere yönelik işlev bulunmaktadır. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
 
-Bu konu aşağıdakileri yapmanıza yardımcı olabilecek kaynakların listesini içerir: 
+Bu makale, aşağıdakileri yapmanıza yardımcı olabilecek kaynakların listesini içerir: 
 - Ülkeye/bölgeye özel çözümler geliştirmeyle ilgili daha fazla bilgi edinme.
 - Ülkeye/bölgeye özel güncelleştirmeleri alma.
 - Yasal uyarıları gönderme ve gözden geçirme.
@@ -62,8 +62,8 @@ Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 sürüm planları
 [Dynamics 365 sürüm planları](/business-applications-release-notes/), Dynamics 365 iş uygulamaları ve uygulama platformları için planlanan yeni ve geliştirilmiş özelliklerle ilgili açıklamalar sağlar. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations uygulamalarındaki yenilikler
-[Finance and Operations'taki yenilikler veya değişiklikler giriş sayfası](../../fin-ops/get-started/whats-new-changed.md) Finance and Operations uygulamalarının özel sürümlerindeki özellikleri listeler.
+#### <a name="finance-and-operations-apps-whats-new"></a>Finans ve Operasyon uygulamalarındaki yenilikler
+[Finance and Operations'taki yenilikler veya değişiklikler giriş sayfası](../../fin-ops/get-started/whats-new-changed.md), Finans ve Operasyon uygulamalarının belirli sürümlerine eklenen özellikleri listeler.
 
 ### <a name="electronic-reporting"></a>Elektronik raporlama
 Elektronik raporlama (ER) aracı, elektronik belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmanıza olanak tanır. ER, yaşam döngüleri boyunca bu biçimleri yönetmenizi sağlar. Daha fazla bilgi için aşağıdaki konulardan birine başvurun:

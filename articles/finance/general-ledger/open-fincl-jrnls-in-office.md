@@ -1,6 +1,6 @@
 ---
 title: Office'te mali günlük şablonlarını açma
-description: Bu konuda, bir Microsoft Excel şablonu kullanarak özel mali günlükler oluşturduğunuzda oluşabilecek sorunlar açıklanmaktadır.
+description: Bu makalede, bir Microsoft Excel şablonu kullanarak özel mali günlükler oluşturduğunuzda oluşabilecek sorunlar açıklanmaktadır.
 author: kweekley
 ms.date: 05/14/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 099d3c0074a86913b79b732a4c2a34b6e6488672
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a29ab1cb2980ebfed6c6fa6409538bc802849156
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896361"
 ---
 # <a name="open-financial-journal-templates-in-office"></a>Office'te mali günlük şablonlarını açma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, bir Microsoft Excel şablonu kullanarak özel mali günlükler oluşturduğunuzda oluşabilecek sorunlar açıklanmaktadır.
+Bu makalede, bir Microsoft Excel şablonu kullanarak özel mali günlükler oluşturduğunuzda oluşabilecek sorunlar açıklanmaktadır.
 
 ## <a name="symptom"></a>Belirti
 

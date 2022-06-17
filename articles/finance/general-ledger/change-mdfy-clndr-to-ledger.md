@@ -1,6 +1,6 @@
 ---
 title: Genel muhasebe takvimini değiştirme veya yeniden atama
-description: Bu konuda, genel muhasebeye atanmış olan takvimin nasıl değiştirileceği ve yeni bir takvimin genel muhasebeye nasıl atanacağı açıklanmaktadır.
+description: Bu makalede, genel muhasebeye atanmış olan takvimin nasıl değiştirileceği ve yeni bir takvimin genel muhasebeye nasıl atanacağı açıklanmaktadır.
 author: kweekley
 ms.date: 05/07/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-07
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25777a5b807921acc13338116627e9356fe62a20
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 751954e0dc5f682b99ab7fe349cd505dc9da7858
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848620"
 ---
 # <a name="change-or-reassign-a-ledger-calendar"></a>Genel muhasebe takvimini değiştirme veya yeniden atama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, genel muhasebeye atanmış olan takvimin nasıl değiştirileceği ve yeni bir takvimin genel muhasebeye nasıl atanacağı açıklanmaktadır.
+Bu makalede, genel muhasebeye atanmış olan takvimin nasıl değiştirileceği ve yeni bir takvimin genel muhasebeye nasıl atanacağı açıklanmaktadır.
 
 ## <a name="issue"></a>Sorun
 

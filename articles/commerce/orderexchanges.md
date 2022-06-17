@@ -1,6 +1,6 @@
 ---
-title: Bir iade emrinde bir değişiklik yapılandırma ve işleme
-description: Bu konuda, Dynamics 365 Commerce için bir iadede bir değişikliğin nasıl yapılandırılacağı açıklanmaktadır.
+title: İade emrinde bir değişikliği yapılandırma ve işleme
+description: Bu makalede, Dynamics 365 Commerce'te bir iadede bir değişikliğin nasıl yapılandırılacağı açıklanmaktadır.
 author: josaw1
 ms.date: 07/28/2021
 ms.topic: index-page
@@ -15,14 +15,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f33c674e4110b4e45ac58e499a65da2509b00046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845806"
 ---
-# <a name="configure-and-process-an-exchange-on-a-return-order"></a>Bir iade emrinde bir değişiklik yapılandırma ve işleme
+# <a name="configure-and-process-an-exchange-on-a-return-order"></a>İade emrinde bir değişikliği yapılandırma ve işleme
 
 [!include [banner](includes/banner.md)]
 

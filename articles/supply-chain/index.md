@@ -1,6 +1,6 @@
 ---
 title: Supply Chain Management giriş sayfası
-description: Bu sayfada Supply Chain Management özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
+description: Bu sayfada, Supply Chain Management özellikleri için yardım makaleleri ve diğer kaynakların listesi sunulmaktadır.
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879090"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management giriş sayfası
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda Dynamics 365 Supply Chain Management'taki yardım konuları ve diğer kaynakların listesi sunulmaktadır.
+Bu makalede, Dynamics 365 Supply Chain Management'taki yardım makaleleri ve diğer kaynakların listesi sunulmaktadır.
 
 ## <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
@@ -93,7 +93,7 @@ Aşağıdaki teknik konferans kayıtlarında, Finance and Operations'ın önceki
 
 ## <a name="blogs"></a>Bloglar
 
-[Dynamics AX İmalat Ar-Ge Ekibi Blogu](/archive/blogs/axmfg/) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi Blogu](https://blogs.msdn.microsoft.com/dynamicsaxscm/)'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü önceki sürüm için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir.
+[Dynamics AX İmalat Ar-Ge Ekibi Blogu](/archive/blogs/axmfg/) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi Blogu](https://blogs.msdn.microsoft.com/dynamicsaxscm/) bölümünde imalat ve tedarik zinciri yönetimi hakkında pek çok makale bulunmaktadır. Bu içeriğin büyük bölümü önceki sürüm için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir.
 
 ## <a name="white-papers"></a>Teknik incelemeler
 

@@ -1,6 +1,6 @@
 ---
 title: Satış siparişlerinde gelir kabulü
-description: Bu konuda, satış siparişleri ve faturalardaki geliri kabul etme konusunda temel işlevler açıklanmaktadır. Gelir kabulü, satış siparişinde ve satış siparişinden oluşturulan ilgili faturada kullanılabilir.
+description: Bu makalede, satış siparişleri ve faturalardaki geliri kabul etme konusunda temel işlevler açıklanmaktadır. Gelir kabulü, satış siparişinde ve satış siparişinden oluşturulan ilgili faturada kullanılabilir.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899971"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Satış siparişlerinde gelir kabulü
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725498"
 > [!NOTE]
 > Gelir kabulü özelliği Özellik yönetiminden açılamaz. Şu anda, bu özelliği etkinleştirmek için yapılandırma anahtarları kullanmanız gerekir.
 
-Bu konuda, satış siparişleri ve faturalardaki geliri kabul etme konusunda temel işlevler açıklanmaktadır. Gelir kabulü, satış siparişinde ve satış siparişinden oluşturulan ilgili faturada kullanılabilir. Satış siparişi ayrıca bir Zaman ve malzeme projesi üzerinden de oluşturulabilir.
+Bu makalede, satış siparişleri ve faturalardaki geliri kabul etme konusunda temel işlevler açıklanmaktadır. Gelir kabulü, satış siparişinde ve satış siparişinden oluşturulan ilgili faturada kullanılabilir. Satış siparişi ayrıca bir Zaman ve malzeme projesi üzerinden de oluşturulabilir.
 
 > [!NOTE]
-> Bu konudaki çizimlerde, kavramları daha iyi göstermek için sütunlar gizlenmiş veya kılavuzlara eklenmiştir. Bu nedenle çizimlerdeki sayfalar ve veriler, üründe gördüklerinizden farklı olabilir.
+> Bu makaledeki çizimlerde, kavramları daha iyi göstermek için sütunlar gizlenmiş veya kılavuzlara eklenmiştir. Bu nedenle çizimlerdeki sayfalar ve veriler, üründe gördüklerinizden farklı olabilir.
 
 ## <a name="enter-a-sales-order"></a>Satış siparişi girme
 

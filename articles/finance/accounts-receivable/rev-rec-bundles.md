@@ -1,6 +1,6 @@
 ---
 title: Gelir kabulü paketleri
-description: Bu konuda, Alacak hesaplarında bulunan gelir kabulü özelliğine dahil edilen paket işlevleri açıklanmaktadır. Paket, bir ana madde ve birden fazla bileşen madde içerir.
+description: Bu makalede, Alacak hesaplarında bulunan gelir kabulü özelliğine dahil edilen paket işlevleri açıklanmaktadır. Paket, bir ana madde ve birden fazla bileşen madde içerir.
 author: kweekley
 ms.date: 01/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 62a4d7f36ad0b36edeaec75e9b670e2aad143703
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876310"
 ---
 # <a name="revenue-recognition-bundles"></a>Gelir kabulü paketleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Alacak hesaplarında bulunan gelir kabulü özelliğine dahil edilen paket işlevleri açıklanmaktadır. Paket, bir ana madde ve birden fazla bileşen madde içerir. Sipariş girişinin daha etkili olması için ana madde bir satış siparişine girilir. Ancak, bileşen öğelerine genişletilir. Sevk irsaliyesi gibi şirket içi belgelerde bileşen maddeleri listelenir. Ancak, harici belgelerde yalnızca ana madde gösterilir.
+Bu makalede, Alacak hesaplarında bulunan gelir kabulü özelliğine dahil edilen paket işlevleri açıklanmaktadır. Paket, bir ana madde ve birden fazla bileşen madde içerir. Sipariş girişinin daha etkili olması için ana madde bir satış siparişine girilir. Ancak, bileşen öğelerine genişletilir. Sevk irsaliyesi gibi şirket içi belgelerde bileşen maddeleri listelenir. Ancak, harici belgelerde yalnızca ana madde gösterilir.
 
 > [!NOTE]
 > Çevrimiçi, satış noktası (POS) ve çağrı merkezleri gibi Microsoft Dynamics 365 Commerce kanalları, gelir kabulünü (paket işlevi dahil) desteklemez. Buna Dynamics 365 Supply Chain Management ve Dynamics 365 Sales için nakit çözümü Aday Müşterisi dahildir. Gelir kabulünü kullanacak şekilde yapılandırılmış olan maddeler, Commerce kanallarında veya nakit çözümü Aday Müşterisinde oluşturulan siparişlere veya hareketlere eklenmemelidir.

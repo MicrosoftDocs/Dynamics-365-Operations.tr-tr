@@ -1,6 +1,6 @@
 ---
 title: Yıl sonu faaliyetleriyle ilgili SSS
-description: Bu konuda, yıl sonunda ortaya çıkabilecek sorular ve yıl sonu kapanışı faaliyetlerine yardımcı olabilecek yanıtlar listelenmektedir.
+description: Bu makalede, yıl sonunda ortaya çıkabilecek sorular ve yıl sonu kapanışı faaliyetlerine yardımcı olabilecek yanıtlar listelenmektedir.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725614"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865754"
 ---
 # <a name="year-end-activities-faq"></a>Yıl sonu faaliyetleriyle ilgili SSS 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, yıl sonunda ortaya çıkabilecek sorular ve yıl sonu kapanışı faaliyetlerine yardımcı olabilecek yanıtlar listelenmektedir. Bu konu başlığındaki bilgiler öncelikle Genel muhasebe ve Borç hesapları için yıl sonu kapanış faaliyetlerine ilişkin sorulara odaklanmaktadır.
+Bu makalede, yıl sonunda ortaya çıkabilecek sorular ve yıl sonu kapanışı faaliyetlerine yardımcı olabilecek yanıtlar listelenmektedir. Bu makaledeki bilgiler öncelikle Genel muhasebe ve Borç hesapları için yıl sonu kapanış faaliyetlerine ilişkin sorulara odaklanmaktadır.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Genel muhasebe yıl sonu geliştirmeleri 
 10.0.20 sürümünde, bir yıl sonu kapanışı geliştirmesi kullanıma sunulmuştur ve bu geliştirme, 10.0.25 sürümünden itibaren varsayılan olarak etkindir. Kuruluşunuzda 10.0.25 sürümünden daha eski bir sürüm kullanılıyorsa yıl sonu kapanışı işlemine başlamadan önce bu özelliği etkinleştirmenizi öneririz. Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için Özellik yönetimi çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
@@ -75,7 +75,7 @@ Gereksiz boyut kümeleri **BudgetDimensionFocusInitializeBalance** (**Genel muha
 [![Mali boyut kümeleri.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Yıl sonu kapanış şablonu yapılandırması
-Yıl sonu kapanış şablonu, kuruluşların kar ve zarar bakiyelerini yedek akçeye aktarırken korunmasını istedikleri mali boyut düzeyini seçmelerine olanak tanır. Ayarlar, kuruluşların bakiyeleri yedek akçeye taşırken ayrıntılı mali boyutları (**Tümünü kapat**) korumasına veya tutarları tek bir boyut değerine (**Tekli kapat**) özetlemeyi seçmesine olanak tanır. Bu durum, her mali boyut için tanımlanabilir. Bu ayarlar hakkında daha fazla bilgi için [Yıl sonu kapanışı](year-end-close.md) konu başlığına bakın.
+Yıl sonu kapanış şablonu, kuruluşların kar ve zarar bakiyelerini yedek akçeye aktarırken korunmasını istedikleri mali boyut düzeyini seçmelerine olanak tanır. Ayarlar, kuruluşların bakiyeleri yedek akçeye taşırken ayrıntılı mali boyutları (**Tümünü kapat**) korumasına veya tutarları tek bir boyut değerine (**Tekli kapat**) özetlemeyi seçmesine olanak tanır. Bu durum, her mali boyut için tanımlanabilir. Bu ayarlar hakkında daha fazla bilgi için [Yıl sonu kapanışı](year-end-close.md) makalesine bakın.
 
 Kuruluşunuzun gereksinimlerini değerlendirmenizi ve mümkünse performansı artırmak için **Tekli kapat** yıl sonu kapanışı seçeneğini kullanarak mümkün olduğunca çok boyutu kapatmanızı öneririz. Tek bir boyut değerine (boş bir değer de olabilir) kapatarak sistem, yedek akçe hesabı girişleri için bakiyeleri belirlerken daha az ayrıntı hesaplar.
 

@@ -1,6 +1,6 @@
 ---
 title: Dağıtılmış sipariş yönetimi (DOM)
-description: Bu konuda, Dynamics 365 Commerce uygulamasında dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
+description: Bu makalede, Dynamics 365 Commerce uygulamasında dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878526"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce uygulamasında dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce uygulamasında dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
 
 DOM, bir tedarik zinciri ağında sipariş karşılamanın en üst düzeye çıkarılmasına yardımcı olan çok kanallı bir sipariş karşılama optimizasyonu çözümüdür. DOM, ürünlerin müşterilerinize doğru miktarlarda, doğru kaynaklardan, doğru zamanlarda teslim edilmesini sağlamanıza yardımcı olur. DOM ayrıca karlılığınızı en üst düzeye çıkarmanıza, maliyetleri en aza indirmenize ve servis düzeyi gereksinimlerini karşılamanıza yardımcı olabilir.
 

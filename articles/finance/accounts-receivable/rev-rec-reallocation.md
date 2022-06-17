@@ -1,6 +1,6 @@
 ---
 title: Gelir kabulü yeniden tahsisatı
-description: Bu konu başlığında, kuruluşların sözleşmeden doğan satış koşulları değiştirildiğinde gelir fiyatlarını yeniden hesaplamasına olanak tanıyan yeniden tahsisat hakkında bilgi sağlanmaktadır. Birden çok senaryoda gelir kabulünün nasıl gerçekleştiğini açıklayan diğer konu başlıklarına bağlantılar içermektedir.
+description: Bu makalede, kuruluşların sözleşmeden doğan satış koşulları değiştirildiğinde gelir fiyatlarını yeniden hesaplamasına olanak tanıyan yeniden tahsisat hakkında bilgi sağlanmaktadır. Birden çok senaryoda gelir kabulünün nasıl gerçekleştiğini açıklayan diğer konu başlıklarına bağlantılar içermektedir.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903434"
 ---
 # <a name="revenue-recognition-reallocation"></a>Gelir kabulü yeniden tahsisatı
 
@@ -58,7 +58,7 @@ Yeniden tahsisat işlemini bir parametre etkiler.
 
 Yeniden tahsisat kısmen veya tamamen faturalanmış satış siparişlerinde yapılabileceğinden, faturaya yönelik önceki muhasebe girişlerinin yeni, yeniden tahsis edilmiş gelir fiyatları kullanılarak düzeltilmesi gerekir. Bu düzeltme, özgün faturanın muhasebe girişi tersine çevrilerek ve yeniden tahsis edilen gelir fiyatlarına göre yeni bir muhasebe girişi deftere nakledilerek yapılır.
 
-Her kuruluş, düzeltmenin yalnızca genel muhasebeyi mi güncelleştireceğine, yoksa alacak hesaplarını da güncelleştirip güncellemeyeceğine karar vermelidir. Verilen karar, **Genel muhasebe parametreleri** (**Gelir kabulü \> Kurulum \> Genel muhasebe parametreleri**) sayfasının **Gelir kabulü** sekmesindeki **Fatura düzeltmelerini Alacak hesaplarına deftere naklet** seçeneğinin doğru ayarını belirler. Uygun ayar senaryoya bağlıdır. Olası senaryolar hakkında daha fazla bilgi için bu konu başlığının ilerleyen bölümlerinde yer alan [Yeniden tahsis için senaryolar](#scenarios-for-reallocation) bölümündeki bağlantıları kullanın.
+Her kuruluş, düzeltmenin yalnızca genel muhasebeyi mi güncelleştireceğine, yoksa alacak hesaplarını da güncelleştirip güncellemeyeceğine karar vermelidir. Verilen karar, **Genel muhasebe parametreleri** (**Gelir kabulü \> Kurulum \> Genel muhasebe parametreleri**) sayfasının **Gelir kabulü** sekmesindeki **Fatura düzeltmelerini Alacak hesaplarına deftere naklet** seçeneğinin doğru ayarını belirler. Uygun ayar senaryoya bağlıdır. Olası senaryolar hakkında daha fazla bilgi için bu makalenin devamında yer alan [Yeniden tahsisat senaryoları](#scenarios-for-reallocation) bölümündeki bağlantıları kullanın.
 
 [![Genel muhasebe parametreleri sayfasındaki Gelir kabulü sekmesi.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
@@ -90,9 +90,9 @@ Yeniden tahsisat işlemini başlatmak için yeniden tahsis etmeniz gereken tüm 
 
 [![Fiyatı yeni sipariş satırlarıyla yeniden tahsis et sayfası.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-**Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasının üst kılavuzu **Satış** olarak adlandırılır. Müşterinin satış siparişlerini listeler. Yeniden tahsis edilmesi gereken satış siparişlerini seçin. Satış siparişinde yeniden tahsisat kodu varsa satış siparişi başka bir kullanıcı tarafından yeniden tahsisat için işaretlenmiştir. Bir veya daha fazla satış siparişi daha önceden yeniden tahsis edildiyse ve başka bir yeniden tahsisata dahil edilmeleri gerekiyorsa, öncelikle bu satış siparişlerindeki yeniden tahsisatının geri alınması gerekir. Sipariş daha sonra yeni bir yeniden tahsisata eklenebilir. Daha fazla bilgi edinmek için bu konunun devamında yer alan [Yeniden tahsisatı geri alma](#undo-a-reallocation) ve [Birden çok kez yeniden tahsis etme](#reallocate-multiple-times) bölümlerine bakın.
+**Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasının üst kılavuzu **Satış** olarak adlandırılır. Müşterinin satış siparişlerini listeler. Yeniden tahsis edilmesi gereken satış siparişlerini seçin. Satış siparişinde yeniden tahsisat kodu varsa satış siparişi başka bir kullanıcı tarafından yeniden tahsisat için işaretlenmiştir. Bir veya daha fazla satış siparişi daha önceden yeniden tahsis edildiyse ve başka bir yeniden tahsisata dahil edilmeleri gerekiyorsa, öncelikle bu satış siparişlerindeki yeniden tahsisatının geri alınması gerekir. Sipariş daha sonra yeni bir yeniden tahsisata eklenebilir. Daha ayrıntılı bilgi için bu makalenin devamında yer alan [Yeniden tahsisatı geri alma](#undo-a-reallocation) ve [Birden çok kez yeniden tahsis etme](#reallocate-multiple-times) bölümlerine bakın.
 
-Sayfadaki alt ızgara **Satırlar** olarak adlandırılır. **Satış** ızgarasında bir veya daha fazla satış siparişi seçtikten sonra **Satırlar** ızgarası satış siparişi satırlarını gösterir. Yeniden tahsis edilmesi gereken satış sipariş satırlarını seçin. Yalnızca bir satış siparişi seçtiyseniz aynı satış siparişindeki satırların yeniden tahsis edilmesi gerekir. Bu durum, satış sipariş satırlarından biri daha önce faturalandığında ve sonra yeni bir satır eklendiğinde veya var olan bir satır kaldırıldığında ya da iptal edildiğinde oluşabilir. Bir satır kaldırıldıysa kılavuzda görünmez. Bu nedenle, seçilemez. Ancak, yeniden tahsisat işlemi çalıştırıldığında yine de dikkate alınır.
+Sayfadaki alt ızgara **Satırlar** olarak adlandırılır. **Satış** ızgarasında bir veya daha fazla satış siparişi seçtikten sonra **Satırlar** ızgarasında satış siparişi satırları gösterilir. Yeniden tahsis edilmesi gereken satış sipariş satırlarını seçin. Yalnızca bir satış siparişi seçtiyseniz aynı satış siparişindeki satırların yeniden tahsis edilmesi gerekir. Bu durum, satış sipariş satırlarından biri daha önce faturalandığında ve sonra yeni bir satır eklendiğinde veya var olan bir satır kaldırıldığında ya da iptal edildiğinde oluşabilir. Bir satır kaldırıldıysa kılavuzda görünmez. Bu nedenle, seçilemez. Ancak, yeniden tahsisat işlemi çalıştırıldığında yine de dikkate alınır.
 
 Gerekli satış sipariş satırlarını seçtikten sonra, burada açıklandığı gibi Eylem Bölmesindeki düğmeleri kullanın:
 

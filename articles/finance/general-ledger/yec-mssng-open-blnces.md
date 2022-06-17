@@ -1,6 +1,6 @@
 ---
 title: Yıl sonu kapanışında eksik açılış bakiyeleri
-description: Bu konuda, bir yılı kapatırken açılış bakiyelerin neden eksik olabileceği ve eksik olduklarında bu bakiyelerin nasıl yeniden oluşturulacağı açıklanmaktadır.
+description: Bu makalede, bir yılı kapatırken açılış bakiyelerinin neden eksik olabileceği ve eksik olduklarında bu bakiyelerin nasıl yeniden oluşturulacağı açıklanmaktadır.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894862"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Yıl sonu kapanışında eksik açılış bakiyeleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, bir yılı kapatırken açılış bakiyelerin neden eksik olabileceği ve eksik olduklarında bu bakiyelerin nasıl yeniden oluşturulacağı açıklanmaktadır.
+Bu makalede, bir yılı kapatırken açılış bakiyelerinin neden eksik olabileceği ve eksik olduklarında bu bakiyelerin nasıl yeniden oluşturulacağı açıklanmaktadır.
 
 ### <a name="symptom"></a>Belirti
 
@@ -36,7 +36,7 @@ Genel muhasebede bir yılı kapattıysanız ve ardından sonraki mali yıl için
 
 **Önceki kapanış geri al** alanı **Evet** olarak ayarlanırsa aynı mali yıl için önceki yıl sonu kapanışı tersine çevrilir. Yıl sonu kapanışını tersine çevirme işlemi çalıştırılırken yıl hiç kapatılmamış gibi kapanış ve açılış bakiyeleri için tüm girişler silinir. Ayrıca fişler de silinir. Yıl sonu kapanışı işlemi otomatik olarak yeniden çalıştırılmaz. İşlemi yeniden başlatmanız gerekir, bu kez **Önceki kapanışı geri al** seçeneğini **Hayır** olarak güncelleştirin.
 
-Bu senaryo, yıl sonu kapanışıyla ilgili SSS konusunda kapsanmaktadır. Daha fazla bilgi için bkz. [Yıl sonu faaliyetleriyle ilgili SSS](faq-year-end-activities.md).
+Bu senaryo, yıl sonu kapanışıyla ilgili SSS makalesinde kapsanmaktadır. Daha fazla bilgi için bkz. [Yıl sonu faaliyetleriyle ilgili SSS](faq-year-end-activities.md).
 
 ### <a name="symptom"></a>Belirti
 

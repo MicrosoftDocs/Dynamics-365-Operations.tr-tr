@@ -8,8 +8,10 @@
           items:
             - name: Finans ve Operasyon uygulamalarındaki yenilikler veya değişiklikler
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-            - name: Human Resources'daki yenilikler veya değişiklikler
+            - name: Human Resources uygulamasındaki yenilikler veya değişiklikler
               items:
+                - name: Human Resources 10.0.28 (birleştirilmiş altyapı)
+                  href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27 (birleştirilmiş altyapı)
                   href: ./get-started/hr-whats-new-changed-10-0-27.md
                 - name: Human Resources 10.0.26 (birleştirilmiş altyapı)

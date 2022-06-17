@@ -56,13 +56,15 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: Bulut ortamlarına güncellemeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
-                - name: Şirket içi dağıtımlara güncellemeleri uygulama
+                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Hizmet güncellemelerini yapılandırma
+                - name: Hizmet güncelleştirmelerini yapılandırma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
-                - name: Hizmet güncellemelerini duraklatma
+                - name: Hizmet öncesi ve hizmet sonrası
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
+                - name: Hizmet güncelleştirmelerini duraklatma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
-                - name: Hizmet güncellemeleri hakkında bilgilendirilme
+                - name: Hizmet güncelleştirmeleri hakkında bilgilendirilme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
@@ -214,7 +216,7 @@
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-approval-journal.md
                 - name: Fatura havuzu kullanarak fatura verilerini AP sistemine girme
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-invoice-pool.md
-                - name: Paylaşılan numara serilerini kullanarak satıcıları kopyalama
+                - name: Paylaşılan numara sıralarını kullanarak satıcıları kopyalama
                   href: accounts-payable/vendor-copy.md
                 - name: Fatura günlüğüne satıcı faturası kaydetme
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
@@ -358,7 +360,7 @@
               href: accounts-receivable/customer-posting-profiles.md
             - name: Masraf kodları oluşturma
               href: accounts-receivable/create-charges-codes.md
-            - name: Paylaşılan numara serilerini kullanarak müşterileri kopyalama
+            - name: Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
               href: accounts-receivable/copy-customer.md
             - name: Müşteri iş akışı
               href: accounts-receivable/customer-workflow.md
@@ -1190,7 +1192,7 @@
                   href: general-ledger/add-change-acctg-rprtg-crrncy.md
                 - name: Genel muhasebe takvimini değiştirme veya yeniden atama
                   href: general-ledger/change-mdfy-clndr-to-ledger.md
-                - name: Günlükler ve satırlardaki tersine çevirme ayarları
+                - name: Yevmiye defterleri ve satırlardaki tersine çevirme ayarları
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Yıl sonu kapanışında eksik açılış bakiyeleri
                   href: general-ledger/yec-mssng-open-blnces.md
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Satış vergisi kodları için tam tutar ve aralık hesaplama seçenekleri
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Satış vergisi hesaplama ve yuvarlama
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: Yevmiye defteri satırlarında satış vergisi hesaplaması
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
@@ -2168,13 +2172,15 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Estonca İntrastat
                   href: localizations/emea-est-intrastat.md
+                - name: AB satış listesi
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Avrupa
               items:
                 - name: Avrupa'ya genel bakış
                   href: localizations/europe.md
-                - name: Avans sahipleri
+                - name: Öncelikli sahipler
                   items:
-                    - name: Avans sahiplerine genel bakış
+                    - name: Öncelikli sahiplere genel bakış
                       href: localizations/emea-advance-holders.md
                     - name: Avans sahibi hareketleri
                       href: localizations/emea-advance-holders-transactions.md
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Macaristan için satış vergisi raporları
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Macarca İntrastat
+                  href: localizations/emea-hun-intrastat.md
                 - name: Ertelenen satış vergisi hesaplamaları
                   href: localizations/emea-hun-deferred-vat.md
             - name: İzlanda
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Letonca İntrastat
                   href: localizations/emea-lva-intrastat.md
+                - name: AB satış listesi
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Litvanya
               items:
                 - name: Litvanya'ya genel bakış
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Malların şirket içinde taşınması için transfer belgelerini ayarlama
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: AB satış listesi
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Malezya
               items:
                 - name: Malezya'ya genel bakış
@@ -3332,17 +3344,17 @@
                       href: localizations/emea-rus-federal-accounting-standard-27-2021.md
                     - name: Rusça muhasebe belgelerini depolamak için Elektronik raporlama hedeflerini etkinleştirme
                       href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
-                - name: Avans sahipleri
+                - name: Öncelikli sahipler
                   items:
-                    - name: Rusya'daki avans sahiplerine genel bakış
+                    - name: Rusya'daki Öncelikli sahiplerne genel bakış
                       href: localizations/rus-advance-holders.md
                     - name: Avans sahibi oluşturma
                       href: localizations/emea-advance-holders.md#create-an-advance-holder
-                    - name: Avans sahipleri için günlük işlemler
+                    - name: Öncelikli sahipler için günlük işlemler
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: Bütçe kontrolüyle avans raporları
                       href: localizations/rus-advance-holders-reports-dailyops.md
-                    - name: Avans sahipleri için yabancı para birimini yeniden değerleme
+                    - name: Öncelikli sahipler için yabancı para birimini yeniden değerleme
                       href: localizations/rus-advance-adjustment-parameters.md
                     - name: Avans sahibi raporları
                       href: localizations/rus-local-management-reports-primary-forms.md
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: ER yapılandırmalarında performans sorunlarını giderme
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Çalışma zamanında getirilen tablo alanlarının sayısını azaltma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: İş belgesi yönetimi (BDM)
                   items:
                     - name: BDM'ye genel bakış

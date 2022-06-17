@@ -1,6 +1,6 @@
 ---
 title: Çevrimiçi siparişi ve zaman uyumsuz müşteri siparişi hareketlerini düzenleme ve denetleme
-description: Bu konuda, Microsoft Dynamics 365 Commerce'ta çevrimiçi siparişin ve zaman uyumsuz müşteri siparişi hareketlerinin nasıl düzenleneceği ve denetleneceği açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Commerce'te çevrimiçi siparişin ve zaman uyumsuz müşteri siparişi hareketlerinin nasıl düzenleneceği ve denetleneceği açıklanmaktadır.
 author: josaw1
 ms.date: 11/04/2020
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 99ad5be36587a3f726f5b40cccfdd30ab0ef48e1a87563a884f83264f40842fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c4219e082466bdfd1426710cecf25fd350d0767
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873072"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Çevrimiçi siparişi ve zaman uyumsuz müşteri siparişi hareketlerini düzenleme ve denetleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'ta çevrimiçi siparişin ve zaman uyumsuz müşteri siparişi hareketlerinin nasıl düzenleneceği ve denetleneceği açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'te çevrimiçi siparişin ve zaman uyumsuz müşteri siparişi hareketlerinin nasıl düzenleneceği ve denetleneceği açıklanmaktadır.
 
 ## <a name="overview"></a>Genel bakış
 

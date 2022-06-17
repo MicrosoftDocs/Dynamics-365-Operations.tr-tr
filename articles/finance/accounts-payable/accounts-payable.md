@@ -1,6 +1,6 @@
 ---
 title: Borç hesapları giriş sayfası
-description: Bu konu, Borç hesapları konusuna genel bir bakış sağlar.
+description: Bu makalede, Borç hesapları konusuna genel bir bakış sağlanmaktadır.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595299"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946115"
 ---
 # <a name="accounts-payable-home-page"></a>Borç hesapları giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Borç hesapları konusuna genel bir bakış sağlar. 
+Bu makalede, Borç hesapları konusuna genel bir bakış sağlanmaktadır. 
 
 Satıcı faturalarını el ile girebilir veya bir veri varlığı aracılığıyla elektronik olarak alabilirsiniz. Faturalar girildikten veya alındıktan sonra, bir fatura onay günlüğü veya **Satıcı faturası** sayfasını kullanarak faturaları gözden geçirebilir veya onaylayabilirsiniz. Belirli ölçütlere uyan faturaların otomatik olarak onaylanması için fatura eşleştirme, satıcı fatura ilkeleri ve iş akışını kullanarak gözden geçirme işlemini otomatikleştirebilirsiniz. Kalan faturalar, yetkili kullanıcı tarafından gözden geçirilmek üzere işaretlenir.
 
@@ -126,13 +126,13 @@ Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm planla
 
 #### <a name="blogs"></a>Bloglar
 
-[Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance - Financials blogunda](https://community.dynamics.com/365/financeandoperations/b/financials) Borç hesapları ve diğer çözümler hakkında fikirlere, haberlere ve diğer bilgilere ulaşabilirsiniz.
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance - Finansal bloğunda](https://community.dynamics.com/365/financeandoperations/b/financials) Borç Hesapları hakkında fikirler, haberler ve bilgilerin yanı sıra diğer çözümleri bulabilirsiniz.
 
-[Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunmaktadır.
+[Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
 
 #### <a name="community-blogs"></a>Topluluk blogları
 
-[Dynamics 365 Finance'da borçları yönetme](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+[Dynamics 365 Finance'te borçları yönetme](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
 #### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma uygulama içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.

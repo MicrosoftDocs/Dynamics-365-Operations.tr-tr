@@ -1,6 +1,6 @@
 ---
 title: Sabit kıymetler giriş sayfası
-description: Bu konuda, Microsoft Dynamics 365 Finance için Sabit kıymetler kullanmanıza yardımcı olabilecek kaynaklara erişim bilgileri sağlanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Finance için Sabit kıymetler kullanmanıza yardımcı olabilecek kaynaklara erişim bilgileri sağlanmaktadır.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880830"
 ---
 # <a name="fixed-assets-home-page"></a>Sabit kıymetler giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Finance için Sabit kıymetler kullanmanıza yardımcı olabilecek kaynaklara erişim bilgileri sağlanmaktadır. Sabit kıymetler, bir kişiye veya kuruluşa ait olan değerli maddelerdir. Bu maddeler arasında binalar, araçlar, arazi ve ekipmanlar yer almaktadır. 
+Bu makalede, Microsoft Dynamics 365 Finance için Sabit kıymetler kullanmanıza yardımcı olabilecek kaynaklara erişim bilgileri sağlanmaktadır. Sabit kıymetler, bir kişiye veya kuruluşa ait olan değerli maddelerdir. Bu maddeler arasında binalar, araçlar, arazi ve ekipmanlar yer almaktadır. 
 
 Sabit kıymetler için satın alma bilgileri oluşturup girebilir, daha sonra amortisman ayırarak ve amortismanı belirlemek için bir itfa eşiği ayarlayarak varlıkları yönetebilirsiniz. Sabit kıymetlerde yapılan düzeltmeleri hesaplayabilir ve kıymetleri elden çıkarabilirsiniz. Genel muhasebeyi Sabit kıymetler ile birlikte kullandığınızda, tüm sabit kıymetlerin geçerli değerini görüntüleyebilirsiniz. Sabit kıymetlerin ele alınma şekli, hem uluslararası muhasebe standartlarına hem de her ülke/bölgedeki muhasebe mevzuatına uygun olmalıdır. Gereksinimler, alım ve satım hareketlerini, amortismanı, kullanım ömürlerini ve sabit kıymetlerdeki değer artışını veya değer azalışını kaydetmek için kullanılan kuralları içerir. Sabit kıymetler işlevi, bu standartların ve kuralların çoğuyla birlikte kullanılır.
 
@@ -46,7 +46,7 @@ Planlanmış yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm pla
 
 [Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finansal bloğunda](https://community.dynamics.com/365/financeandoperations/b/financials) fikirler, haberler ve bilgiler bulabilirsiniz.
 
-[Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunmaktadır.
+[Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
 
 #### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.

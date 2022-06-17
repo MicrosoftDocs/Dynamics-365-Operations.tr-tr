@@ -1,6 +1,6 @@
 ---
 title: Ertelenen geliri kabul etme
-description: Bu konuda, Gelir kabulü özelliğini kullanarak geliri kabul etme hakkında bilgiler verilir.
+description: Bu makalede, Gelir kabulü özelliğini kullanarak geliri kabul etme hakkında bilgiler verilir.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 42e9aa20eb6f4a1c14f83c5a18a4699489a932a3
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 638e56c9bbbe0b377e804aa2ff55ffe4eded21f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902558"
 ---
 # <a name="recognize-deferred-revenue"></a>Ertelenen geliri kabul etme
 
@@ -27,7 +27,7 @@ ms.locfileid: "8725946"
 > [!NOTE]
 > Gelir kabulü özelliği Özellik yönetiminden açılamaz. Şu anda, bu özelliği etkinleştirmek için yapılandırma anahtarları kullanmanız gerekir.
 
-Bu konuda, gelir kabulü planında geliri kabul etme işlemi açıklanmaktadır. Bir faturanın satış siparişi için deftere nakledilmesinin ardından gelir planı olan her satış siparişi satırı için bir gelir kabulü planı oluşturulur. Satırın gelirinin ertelenip ertelenmesi gerektiğini belirlemek için satırdaki gelir planı kullanılır.
+Bu makalede, gelir kabulü planında geliri kabul etme işlemi açıklanmaktadır. Bir faturanın satış siparişi için deftere nakledilmesinin ardından gelir planı olan her satış siparişi satırı için bir gelir kabulü planı oluşturulur. Satırın gelirinin ertelenip ertelenmesi gerektiğini belirlemek için satırdaki gelir planı kullanılır.
 
 ## <a name="view-revenue-recognition-schedule-details"></a>Gelir kabulü planı ayrıntılarını görüntüleme
 

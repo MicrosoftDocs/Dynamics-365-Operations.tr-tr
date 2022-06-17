@@ -410,6 +410,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Şirket içi dağıtımlar için Ambarlama uygulamasını yapılandırma
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: Finance + Operations (on-premises) ortamlarında RSAT'yi etkinleştirme
+                      href: deployment/onprem-rsat-configuration.md
                     - name: Şirket içi ortamlara ağ yazıcısı cihazları kurma
                       href: analytics/install-network-printer-onprem.md
                     - name: Şirket içi tanılama
@@ -1048,9 +1050,11 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Azure DevOps uzantısı öğreticisi (Genel Önizleme)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: Dynamics 365 Translation Service Visual Studio Code uzantısı (Genel Önizleme)
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: Microsoft Power Platform tümleştirmesi
           items:
-            - name: Genel Bakış
+            - name: Genel bakış
               href: power-platform/overview.md
             - name: Power Platform tümleştirmesini etkinleştirme
               href: power-platform/enable-power-platform-integration.md
@@ -1798,7 +1802,7 @@
                   href: migration-upgrade/compile-considerations.md
             - name: En son güncellemeye yükseltme (şirket içi)
               items:
-                - name: Şirket içi dağıtımlara güncellemeleri uygulama
+                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
                   href: deployment/apply-updates-on-premises.md
                 - name: Şirket içi dağıtımı yeniden dağıtma
                   href: deployment/redeploy-on-prem.md

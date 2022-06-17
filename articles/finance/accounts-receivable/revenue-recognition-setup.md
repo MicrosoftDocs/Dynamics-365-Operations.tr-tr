@@ -1,6 +1,6 @@
 ---
 title: Gelir kabulü kurulumu
-description: Bu konuda, Gelir kabulü için kurulum seçenekleri ve bunların etkileri açıklanmaktadır.
+description: Bu makalede, Gelir kabulü için kurulum seçenekleri ve bunların etkileri açıklanmaktadır.
 author: kweekley
 ms.date: 04/28/2022
 ms.topic: index-page
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 86690af303eb87335c980bd7dae3ae34ce06a2a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900027"
 ---
 # <a name="revenue-recognition-setup"></a>Gelir kabulü kurulumu
 [!include [banner](../includes/banner.md)]
 
-Gerekli olan tüm kurulum için menü maddelerini içeren yeni bir **Gelir kabulü** modülü eklenmiştir. Bu konuda, kurulum seçenekleri ve bunların etkileri açıklanmaktadır.
+Gerekli olan tüm kurulum için menü maddelerini içeren yeni bir **Gelir kabulü** modülü eklenmiştir. Bu makalede, kurulum seçenekleri ve bunların etkileri açıklanmaktadır.
 
 > [!NOTE]
 > Gelir kabulü özelliği artık varsayılan olarak Özellik yönetimi aracılığıyla etkinleştirilmektedir. Kuruluşunuz bu özelliği kullanmıyorsa **Özellik yönetimi** çalışma alanından kapatabilirsiniz.

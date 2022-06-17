@@ -1,6 +1,6 @@
 ---
 title: Muhasebe veya raporlama para birimini değiştirme
-description: Bu konuda, muhasebe veya raporlama para biriminin nasıl değiştirileceği ya da genel muhasebe kurulumuna raporlama para biriminin nasıl ekleneceği açıklanmaktadır.
+description: Bu makalede, muhasebe veya raporlama para biriminin nasıl değiştirileceği ya da genel muhasebe kurulumuna raporlama para biriminin nasıl ekleneceği açıklanmaktadır.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904628"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Muhasebe veya raporlama para birimini değiştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, muhasebe veya raporlama para biriminin nasıl değiştirileceği ya da genel muhasebe kurulumuna raporlama para biriminin nasıl ekleneceği açıklanmaktadır.
+Bu makalede, muhasebe veya raporlama para biriminin nasıl değiştirileceği ya da genel muhasebe kurulumuna raporlama para biriminin nasıl ekleneceği açıklanmaktadır.
 
 ## <a name="symptom"></a>Belirti
 
@@ -73,7 +73,7 @@ Kurulum verilerini ve ana verileri geçerli tüzel kişilikten yeni bir tüzel k
 10. **Seçili varlıklar** alanında, **Şablon ekle**'yi seçin.
 11. Kullanılacak şablonları seçin. Yeni tüzel kişilik için önerilen şablonlar arasında **025 - Genel Muhasebe** ve **Mali Öğeler** vardır. Bunlardan birinin gereksinimlerinize uygun olup olmadığını belirlemek için tüm kullanılabilir şablonları incelemenizi öneririz.
 12. Seçili varlıkların oluşturulacağı bir toplu işlem başlatmak ve bu varlıkları hedef tüzel kişiliğe kopyalamak için **Tüzel kişiliğe kopyala**'yı seçin.
-13. İşlem tamamlandıktan sonra işlemler deftere nakledilmeden önce genel muhasebeye gidin ve bu konuda daha önce açıklandığı gibi muhasebe ve raporlama para birimlerini güncelleştirin.
+13. Süreç tamamlandıktan sonra, işlemler deftere nakledilmeden önce genel muhasebeye gidin ve bu makalede daha önce açıklandığı gibi muhasebe ve raporlama para birimlerini güncelleştirin.
 
 Muhasebe veya raporlama para birimini değiştirebilmek için yeni bir tüzel kişilik oluşturduysanız başlangıç bakiyelerinin eski tüzel kişiliğin para birimlerinden yeni para birimlerine çevrildiğini doğrulayın.
 

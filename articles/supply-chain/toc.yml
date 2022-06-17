@@ -56,13 +56,15 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bulut ortamlarına güncellemeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Şirket içi dağıtımlara güncellemeleri uygulama
+                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Hizmet güncellemelerini yapılandırma
+                - name: Hizmet güncelleştirmelerini yapılandırma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Hizmet güncellemelerini duraklatma
+                - name: Hizmet öncesi ve hizmet sonrası
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Hizmet güncelleştirmelerini duraklatma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Hizmet güncellemeleri hakkında bilgilendirilme
+                - name: Hizmet güncelleştirmeleri hakkında bilgilendirilme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
@@ -1529,6 +1531,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER yapılandırmalarında performans sorunlarını giderme
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Çalışma zamanında getirilen tablo alanlarının sayısını azaltma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/supply-chain/toc.json
                 - name: İş belgesi yönetimi (BDM)
                   items:
                     - name: BDM'ye genel bakış
@@ -1631,7 +1635,7 @@
                   href: inventory/tasks/create-maintain-inventory-blocking.md
             - name: Stok işlemleri
               items:
-                - name: Stok günlükleri
+                - name: Stok yevmiye defterleri
                   href: inventory/inventory-journals.md
                 - name: Stok günlüğü onay iş akışları
                   href: inventory/inventory-journal-workflow.md
@@ -3479,7 +3483,7 @@
                       href: warehousing/cycle-counting-scenarios.md
                     - name: Ambar yönetimi eldeki stok girişlerini temizleme işi
                       href: warehousing/onhand-cleanup.md
-                    - name: Stok günlükleri
+                    - name: Stok yevmiye defterleri
                       href: inventory/inventory-journals.md
                     - name: Stok yerleşimi
                       href: inventory/inventory-locations.md
@@ -3663,7 +3667,7 @@
                   href: troubleshooting/costing/there-is-no-from-dat.md
             - name: Stok yönetimi
               items:
-                - name: Stok günlüklerine yönelik "İş akışı" açılır iletişim kutusunu bulamıyorsunuz
+                - name: Stok yevmiye defterlerine yönelik "İş akışı" açılır iletişim kutusunu bulamıyorsunuz
                   href: troubleshooting/inventory/cant-find-workflow-dropdown.md
                 - name: Stok günlüğü iş akışı hiç tamamlanmıyor ve günlük işlenemiyor
                   href: troubleshooting/inventory/cant-post-inventory-journal.md

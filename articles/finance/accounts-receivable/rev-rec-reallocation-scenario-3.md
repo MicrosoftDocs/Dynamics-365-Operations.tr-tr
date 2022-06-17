@@ -1,6 +1,6 @@
 ---
 title: Gelir kabulü yeniden tahsisatı - Senaryo 3
-description: Bu konu, yeni bir satırın var olan, faturalandırılmış bir satış siparişine eklendiği yeniden tahsisat senaryosunu ele alır. Bir sözleşmeye yeni bir madde eklendiğinde, yeni bir satış siparişine ya da var olan satış siparişine eklenebilir.
+description: Bu makalede yeni bir satırın var olan, faturalandırılmış bir satış siparişine eklendiği yeniden tahsisat senaryosu ele alınmaktadır. Bir sözleşmeye yeni bir madde eklendiğinde, yeni bir satış siparişine ya da var olan satış siparişine eklenebilir.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904830"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Gelir kabulü yeniden tahsisatı – Senaryo 3
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, yeni bir satırın var olan, faturalandırılmış bir satış siparişine eklendiği yeniden tahsisat senaryosunu ele alır. Bir sözleşmeye yeni bir madde eklendiğinde, yeni bir satış siparişine ya da var olan satış siparişine eklenebilir. Bu senaryo, yeniden tahsisat nedeniyle Alacak hesapları güncelleştirildiğinde ne olacağını da gösterir.
+Bu makalede yeni bir satırın var olan, faturalandırılmış bir satış siparişine eklendiği yeniden tahsisat senaryosu ele alınmaktadır. Bir sözleşmeye yeni bir madde eklendiğinde, yeni bir satış siparişine ya da var olan satış siparişine eklenebilir. Bu senaryo, yeniden tahsisat nedeniyle Alacak hesapları güncelleştirildiğinde ne olacağını da gösterir.
 
 Bu senaryoda **Genel muhasebe parametreleri** sayfasının (**Gelir kabulü \> Kurulum \> Genel muhasebe parametreleri**) **Gelir kabulü** sekmesinde **Fatura düzeltmelerini Alacak hesaplarına naklet** seçeneği **Evet** olarak ayarlanmıştır.
 

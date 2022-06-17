@@ -1,6 +1,6 @@
 ---
-title: Toplu işle izlenen maddeler için geliştirilmiş işleme
-description: Bu konuda, Microsoft Dynamics 365 Commerce'ta ekstre deftere nakil işlemi sırasında toplu işle izlenen maddeler için geliştirilmiş işleme açıklanmaktadır.
+title: Toplu izlenen maddeler için geliştirilmiş işleme
+description: Bu makalede, Microsoft Dynamics 365 Commerce'te ekstre deftere nakil işlemi sırasında toplu izlenen maddeler için geliştirilmiş işleme açıklanmaktadır.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881892"
 ---
-# <a name="improved-handling-of-batch-tracked-items"></a>Toplu işle izlenen maddeler için geliştirilmiş işleme
+# <a name="improved-handling-of-batch-tracked-items"></a>Toplu izlenen maddeler için geliştirilmiş işleme
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'ta ekstre deftere nakil işlemi sırasında toplu işle izlenen maddeler için geliştirilmiş işleme açıklanmaktadır.
+Bu makalede, Microsoft Dynamics 365 Commerce'te ekstre deftere nakil işlemi sırasında toplu izlenen maddeler için geliştirilmiş işleme açıklanmaktadır.
 
 Dynamics 365 Commerce satış noktasında (POS), toplu iş numaraları toplu olarak izlenen maddeler için satış sırasında yakalanamaz. Ancak, belirli yapılandırmalarda satışlar Commerce Headquarters'ta müşteri siparişleri veya ekstre deftere nakil işlemi aracılığıyla deftere aktarıldığında, Commerce toplu izlenen maddeler için geçerli toplu iş numaraları olmasını bekler ve bu numaralar faturalama işlemi sırasında kullanılır.
 

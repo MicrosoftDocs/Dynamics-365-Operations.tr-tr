@@ -54,13 +54,15 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: Bulut ortamlarına güncellemeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Şirket içi dağıtımlara güncellemeleri uygulama
+                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: Hizmet güncellemelerini yapılandırma
+                - name: Hizmet güncelleştirmelerini yapılandırma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Hizmet güncellemelerini duraklatma
+                - name: Hizmet öncesi ve hizmet sonrası
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
+                - name: Hizmet güncelleştirmelerini duraklatma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
-                - name: Hizmet güncellemeleri hakkında bilgilendirilme
+                - name: Hizmet güncelleştirmeleri hakkında bilgilendirilme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
@@ -394,6 +396,8 @@
                   items:
                     - name: Store Commerce uygulaması
                       href: dev-itpro/store-commerce.md
+                    - name: Modern POS'u Store Commerce'e geçirme
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Cihaz yönetimi uygulama kılavuzu
                       href: implementation-considerations-devices.md
                     - name: Store Commerce ve Cloud POS arasında seçim yapma
@@ -854,11 +858,11 @@
                   href: dev-itpro/unlinked-refunds.md
                 - name: Mağazanın ürün çeşitlerine dahil olmayan ürünleri satma ve iade etme
                   href: sell-return-outside-assortments.md
-                - name: Bir iade emrinde bir değişiklik yapılandırma ve işleme
+                - name: İade emrinde bir değişikliği yapılandırma ve işleme
                   href: orderexchanges.md
                 - name: İadeler için fişsiz ödeme yöntemlerini kısıtlama
                   href: payment-methods-restrictions.md
-                - name: Birden fazla müşteri siparişi ve faturasındaki maddeleri iade etme
+                - name: Birden çok müşteri siparişi ve fatura arasında iade kalemleri
                   href: multireturn.md
                 - name: Kanal için iade ve para iadesi ilkesi oluşturma ve güncelleme
                   href: refund_policy_returns.md
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: ER yapılandırmalarında performans sorunlarını giderme
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Çalışma zamanında getirilen tablo alanlarının sayısını azaltma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: İş belgesi yönetimi (BDM)
                   items:
                     - name: BDM'ye genel bakış
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Eski Retail SDK'si geçişi
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 'Geçersiz ve kaldırılan API''ler, sınıflar ve yöntemler'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: Commerce mağaza içi teknoloji yığınını modernleştirme (teknik inceleme)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Ortam kurulumu
@@ -2556,15 +2564,17 @@
                       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                     - name: Sipariş karşılama sırasında sevk irsaliyeleri için genişletme noktaları
                       href: dev-itpro/extensions-shipping-carrier-integration.md
-                - name: Ambalaj ve dağıtım
+                - name: Paketleme ve dağıtım
                   items:
                     - name: Cloud Scale Unit uzantı paketi oluşturma
                       href: dev-itpro/CSU-packaging.md
+                    - name: Dağıtım için Cloud Scale Unit uzantı paketlerini birleştirme
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: Cloud Scale Unit uzantılarını kaldırma
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
               items:
-                - name: Genel Bakış
+                - name: Genel bakış
                   items:
                     - name: POS uzantısına genel bakış
                       href: dev-itpro/pos-extension/pos-extension-overview.md
@@ -2642,7 +2652,7 @@
                       href: dev-itpro/pos-custom-control.md
                     - name: POS ödemesi uzantısı
                       href: dev-itpro/pos-payment-extension.md
-                - name: Ambalaj ve dağıtım
+                - name: Paketleme ve dağıtım
                   items:
                     - name: MPOS uzantı paketi oluşturma
                       href: dev-itpro/pos-extension/mpos-extension-packaging.md
@@ -2824,7 +2834,7 @@
                           href: e-commerce-extensibility/extend-theme.md
                         - name: Tema modülü dizelerini değiştirme
                           href: e-commerce-extensibility/change-theme-module-strings.md
-                - name: Ambalaj ve dağıtım
+                - name: Paketleme ve dağıtım
                   items:
                     - name: Yapılandırmaları paketleme ve çevrimiçi bir ortama dağıtma
                       href: e-commerce-extensibility/package-deploy.md
@@ -2864,7 +2874,7 @@
                   items:
                     - name: Özel veriler eklemek üzere CDX paketini genişletme
                       href: dev-itpro/extend-customer-CDX-package.md
-                - name: Ambalaj ve dağıtım
+                - name: Paketleme ve dağıtım
                   items:
                     - name: Finans ve Operasyonlar dağıtımı için Commerce ödeme paketi oluşturma
                       href: dev-itpro/payment-connector-package.md
@@ -2896,7 +2906,7 @@
                       href: dev-itpro/configure-online-store.md
                     - name: Kimlik doğrulama sağlayıcılarını yapılandırma
                       href: dev-itpro/configure-authentication-providers.md
-                - name: Ambalaj ve dağıtım
+                - name: Paketleme ve dağıtım
                   items:
                     - name: Dağıtılabilir paketler oluşturma
                       href: dev-itpro/retail-sdk/retail-sdk-packaging.md
@@ -2908,6 +2918,14 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: Sorun giderme
           items:
+            - name: Store Commerce
+              items:
+                - name: Kurulum ve yükleme sorunları
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: Performans sorunları
+                  href: troubleshoot/store-commerce-performance.md
+                - name: Uzantı sorunları
+                  href: troubleshoot/store-commerce-extensions.md
             - name: Sipariş işleme
               items:
                 - name: Ödeme türü kredi kartı olmalıdır hatası
